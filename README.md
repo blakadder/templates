@@ -5,7 +5,8 @@ Add your user templates in the appropriate section, please [resize images](https
 ### Plugs/sockets
 
 |Device name|Device image|Template|
-|:---|:---:|:----------------------------------------------------------------------|
+
+|---|---|----------------------------------------------------------------------|
 |[RGB Smart Plug 16A](https://www.aliexpress.com/item/ET-Smart-Plug-Wifi-Socket-With-Switch-Phone-APP-Voice-Remote-Control-Monitor-Smart-Timing-Switch/32964036349.html?spm=a2g0s.9042311.0.0.6ce44c4da0LQpv)|![RGB Smart Plug](https://i.postimg.cc/YStMTTFq/rgbsmartplug.jpg)|`{"NAME":"RGB Smart Plug","GPIO":[37,0,39,0,38,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}`|
 
 
