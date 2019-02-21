@@ -6,7 +6,7 @@ Add your user templates in the appropriate section, please [resize images](https
 
 |Name|Image|Template|
 |-----------|------------|----------------------------------------------------------------------|
-|[RGB Smart Plug 16A](https://www.aliexpress.com/item/ET-Smart-Plug-Wifi-Socket-With-Switch-Phone-APP-Voice-Remote-Control-Monitor-Smart-Timing-Switch/32964036349.html?spm=a2g0s.9042311.0.0.6ce44c4da0LQpv)|![RGB Smart Plug](https://i.postimg.cc/YStMTTFq/rgbsmartplug.jpg)|`{"NAME":"RGB Smart Plug","GPIO":[37,0,39,0,38,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}`|
+|[RGB Smart Plug 16A](https://www.aliexpress.com/item/ET-Smart-Plug-Wifi-Socket-With-Switch-Phone-APP-Voice-Remote-Control-Monitor-Smart-Timing-Switch/32964036349.html?spm=a2g0s.9042311.0.0.6ce44c4da0LQpv)|![RGB Smart Plug](https://i.postimg.cc/YStMTTFq/rgbsmartplug.jpg)|```{"NAME":"RGB Smart Plug","GPIO":[37,0,39,0,38,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}```|
 |[Panamalar NX-SM200 16A Plug](https://www.amazon.de/gp/product/B07JBRRW1M/)|![Panamalar NX-SM200](https://i.postimg.cc/ZK4TkrgG/nxsm200.jpg)|`{"NAME":"NX-SM200","GPIO":[0,255,0,255,56,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}`|
 |[SP201 Based Dual Plugs](https://www.amazon.com/gp/product/B07L63S731)|![SP-201 Based Dual Plugs](https://i.postimg.cc/fLQgjcVT/61-B2-O12-LOOL-SL1500.jpg)|`{"NAME":"SP-201","GPIO":[31,0,0,131,17,134,0,0,21,18,132,22,0],"FLAG":0,"BASE":45}`|
 |[UK Power monitoring plug](https://www.amazon.co.uk/TECKIN-Outlet-Wireless-Control-Required/dp/B07D7C74RQ/)|![TECKIN UK Plug](https://i.postimg.cc/02xRdWH3/TECKIN-419c-Rq0-U6x-L-SL1001.jpg)|`{"NAME":"SM-110","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}`|
