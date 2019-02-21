@@ -1,0 +1,2 @@
+# templates
+Tasmota device templates
