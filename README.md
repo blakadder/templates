@@ -20,6 +20,7 @@ Add your user templates in the appropriate section, please [resize images](https
 |-----------|------------|----------------------------------------------------------------------|
 
 ### Lights/LED controllers
+
 |Name|Image|Template|
 |-----------|------------|----------------------------------------------------------------------|
 |[Merkury A19 60W Dimmable White Bulb](https://www.walmart.com/ip/Merkury-Innovations-A19-Smart-Light-Bulb-60W-Dimmable-White-LED-1-Pack/512088827)|![MI-BW902-999W](https://i.postimg.cc/gkJfzyqw/MI-BW922-999-W.jpg)|`{"NAME":"MI-BW902-999W","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}`
@@ -27,6 +28,7 @@ Add your user templates in the appropriate section, please [resize images](https
 |[Merkury BR30 65W Tunable White Bulb](https://www.walmart.com/ip/Merkury-Innovations-BR30-Smart-Light-Bulb-65W-Tunable-White-LED-1-Pack/404320234)|![MI-BW905-999W](https://i.postimg.cc/yNkmWdpy/MI-BW905-999-W.jpg)|`{"NAME":"MI-BW905-999W","GPIO":[0,0,0,0,37,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}`
 
 ### Miscellaneous
+
 |Name|Image|Template|
 |-----------|------------|----------------------------------------------------------------------|
 |[WL-SW01_10](WL-SW01_10-WiFi-Smart-Switch)|![](https://i.postimg.cc/Fz1YDhyW/sw10.jpg)|`{"NAME":"WL-SW01_10","GPIO":[17,149,0,148,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}`
