@@ -18,6 +18,7 @@ Add your user templates in the appropriate section, please [resize images](https
 
 |Name|Image|Template|
 |-----------|------------|----------------------------------------------------------------------|
+||||
 
 ### Lights/LED controllers
 
