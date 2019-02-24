@@ -6,3 +6,6 @@ page_gen:
     name: 'name'
     template: 'user-devices'
     dir: 'templates'
+collections:
+  templates:
+    output: true
