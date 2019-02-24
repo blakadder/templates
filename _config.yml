@@ -1,1 +1,8 @@
-theme: minima
+# page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen:
+  - index_files: 'true'
+    data: 'templates'
+    name: 'name'
+    template: 'user-devices'
+    dir: 'templates'
