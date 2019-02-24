@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<h1>{{ page.name }}</h1>
+
+<b>Type: Smart {{ page.type | capitalize }}</b>
+<BR>
+<b>Country: {{ page.standard | upcase }}</b>
+<BR>
+<img src="{{ page.image }}" alt="{{ page.name }}" height="200">
+
+<h2>Available from:</h2>
+<a href="{{page.link}}">{{ page.link | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+
+<h2>Template</h2>
+{% highlight json %}
+  {{ page.template }}
+{% endhighlight %}
+
+<h2>Notes:</h2>
+
+{{ content | markdownify }}

@@ -7,21 +7,4 @@ link: https://www.amazon.de/gp/product/B07JBRRW1M/
 template: '{"NAME":"NX-SM200","GPIO":[0,255,0,255,56,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
 ---
 
-# {{ page.name }}
-
-#### Type: Smart {{ page.type | capitalize }}
-#### Country: {{ page.standard | upcase }}
-
-<img src="{{ page.image }}" alt="{{ page.name }}" height="200">
-
-###  Available from:
-[{{ page.link | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}]({{page.link}})
-
-### Template
-{% highlight json %}
-  {{ page.template }}
-{% endhighlight %}
-
-### Notes:
-
 Works out of the box

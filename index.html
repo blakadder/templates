@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<table id="Devices" class="display">
+<thead>
+<tr>
+<th>Name</th>
+<th>Image</th>
+<th>Type</th>>
+</tr>
+<thead>
+<tbody>
+{% for template in site.templates %}
+<tr>
+<td><b><a href="{{ template.url }}">{{ template.name }}</a></b></td>
+<td><img src="{{ template.image }}" alt="{{ template.name }}" width="60" align="center"></td>
+<td>Smart {{ template.type | capitalize }} {{ template.standard | upcase }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
