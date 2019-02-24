@@ -1,6 +1,7 @@
 collections:
   templates:
     output: true
+    permalink: /:collection/:title.html
 
 defaults:
   - scope:
