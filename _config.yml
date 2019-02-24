@@ -10,4 +10,4 @@ defaults:
     values:
       layout: "templates"
 future: true
-baseurl: ""
+baseurl: "templates"
