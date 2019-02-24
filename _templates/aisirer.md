@@ -7,24 +7,21 @@ link: https://www.amazon.de/Avatar-Controls-Steckdosen-Energie%C3%BCberwachung-k
 template: '{"NAME":"AWP07L","GPIO":[56,255,255,255,255,134,255,255,130,17,132,21,255],"FLAG":1,"BASE":18}'
 
 ---
-{% for template in site.templates %}
 
-# {{ template.name }}
+# {{ page.name }}
 
-#### Type: Smart {{ template.type | capitalize }}
-#### Country: {{ template.standard | upcase }}
+#### Type: Smart {{ page.type | capitalize }}
+#### Country: {{ page.standard | upcase }}
 
-<img src="{{ template.image }}" alt="{{ template.name }}" height="200">
+<img src="{{ page.image }}" alt="{{ page.name }}" height="200">
 
-###  [Available from]({{ template.link }})
-{{ template.link | remove_first: "https://" | split:'/' | first }}
+###  Available from:
+[{{ page.link | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}]({{page.link}})
 
 ### Template
 {% highlight json %}
-  {{ template.template }}
+  {{ page.template }}
 {% endhighlight %}
-
-{% endfor %}
 
 ### Notes:
 

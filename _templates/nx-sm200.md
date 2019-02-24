@@ -7,24 +7,21 @@ link: https://www.amazon.de/gp/product/B07JBRRW1M/
 template: '{"NAME":"NX-SM200","GPIO":[0,255,0,255,56,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
 
 ---
-{% for template in site.templates %}
 
-# {{ template.name }}
+# {{ page.name }}
 
-#### Type: Smart {{ template.type | capitalize }}
-#### Country: {{ template.standard | upcase }}
+#### Type: Smart {{ page.type | capitalize }}
+#### Country: {{ page.standard | upcase }}
 
-<img src="{{ template.image }}" alt="{{ template.name }}" height="200">
+<img src="{{ page.image }}" alt="{{ page.name }}" height="200">
 
-###  [Available from]({{ template.link }})
-{{ template.link | remove_first: "https://" | split:'/' | first }}
+###  Available from:
+[{{ page.link | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}]({{page.link}})
 
 ### Template
 {% highlight json %}
-  {{ template.template }}
+  {{ page.template }}
 {% endhighlight %}
-
-{% endfor %}
 
 ### Notes:
 
