@@ -11,7 +11,7 @@
 <tbody>
 {% for template in site.templates %}
 <tr>
-<td><b><a href="{{ template.relative_url }}">{{ template.name }}</a></b></td>
+<td><b><a href="{{ template.url }}">{{ template.name }}</a></b></td>
 <td><img src="{{ template.image }}" alt="{{ template.name }}" width="60" align="center"></td>
 <td>Smart {{ template.type | capitalize }} {{ template.standard | upcase }}</td>
 </tr>

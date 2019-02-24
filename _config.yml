@@ -13,4 +13,5 @@ future: true
 markdown_ext: "markdown, mkdown, mkdn, mkd, md"
 highlighter: rouge
 title: Tamota Device Templates
-url: "http://blakadder.github.io/templates/"
+url: "https://blakadder.github.io"
+baseurl: "/templates"
