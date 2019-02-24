@@ -1,5 +1,6 @@
 ---
 name: Panamalar NX-SM200 16A
+category: plug
 type: plug
 standard: eu
 image: https://camo.githubusercontent.com/a762f613da7dae5360c72e45de6f48616fbe1f0f/68747470733a2f2f692e706f7374696d672e63632f5a4b34546b7267472f6e78736d3230302e6a7067

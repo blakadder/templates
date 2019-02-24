@@ -1,0 +1,14 @@
+---
+
+name: WL-SW01_10
+type: switch
+standard: global
+category: relay
+link: https://www.aliexpress.com/item/TISHRIC-SONOFF-Basic-Light-WIFI-Switch-220V-10A-16A-For-Smart-Home-Automation-Relay-Module-Remote/32963672255.html?spm=2114.search0104.3.2.54215ff4hEUB9P&ws_ab_test=searchweb0_0,searchweb201602_5_10065_10068_319_317_10696_453_10084_454_10083_433_10618_431_10307_10820_10821_10301_10303_537_536_10059_10884_10887_100031_321_322_10103,searchweb201603_51,ppcSwitch_0&algo_expid=3bfa3a9e-e08e-443c-a3e2-555967617971-0&algo_pvid=3bfa3a9e-e08e-443c-a3e2-555967617971&transAbTest=ae803_5
+image: https://camo.githubusercontent.com/d41d35c4d2be85d9eb2cc7994981346578f7725d/68747470733a2f2f692e706f7374696d672e63632f6d6b724b72534b6e2f737731302e6a7067
+template: '{"NAME":"WL-SW01_10","GPIO":[17,149,0,148,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}
+'
+screenshot:
+---
+
+[Wiki article](https://github.com/arendst/Sonoff-Tasmota/wiki/WL-SW01_10-WiFi-Smart-Switch)

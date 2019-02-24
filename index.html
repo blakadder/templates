@@ -12,9 +12,9 @@ layout: default
 <tbody>
 {% for template in site.templates %}
 <tr>
-<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
-<td><img src="{{ template.image }}" alt="{{ template.name }}" width="60" align="center"></td>
-<td>Smart {{ template.type | capitalize }} {{ template.standard | upcase }}</td>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 25 }}</a></b></td>
+<td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="60"></td>
+<td>{{ template.standard | upcase }} {{ template.type | upcase }}</td>
 </tr>
 {% endfor %}
 </tbody>

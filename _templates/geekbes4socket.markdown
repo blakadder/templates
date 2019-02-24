@@ -1,6 +1,7 @@
 ---
 name: Geekbes 4AC+4USB
-type: powerstrip
+category: plug
+type: power strip
 standard: eu
 link: https://www.amazon.de/gp/product/B078W23BW9
 image: https://images-na.ssl-images-amazon.com/images/I/51blfM-4LXL._SL1000_.jpg

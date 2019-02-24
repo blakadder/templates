@@ -1,5 +1,6 @@
 ---
 name: Tecking SP23
+category: plug
 type: plug
 standard: uk
 link: https://www.amazon.co.uk/TECKIN-Outlet-Wireless-Control-Required/dp/B07D7C74RQ/

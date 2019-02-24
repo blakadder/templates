@@ -1,6 +1,7 @@
 ---
 name: Merkury A21 75W
-type: light
+category: light
+type: bulb
 standard: us
 link: https://www.walmart.com/ip/Merkury-Innovations-A21-Smart-Light-Bulb-75W-Color-LED-1-Pack/254063201
 image: https://camo.githubusercontent.com/73c4179e882c49cde2590eafebc9e0aeef78a9aa/68747470733a2f2f692e706f7374696d672e63632f686a6833514e4d7a2f4d492d42573930342d3939392d572e6a7067

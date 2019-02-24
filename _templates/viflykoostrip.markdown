@@ -1,6 +1,7 @@
 ---
 name: Viflykoo 3AC+4USB
-type: powerstrip
+category: plug #use only (plug, switch, light, misc)
+type: power strip
 standard: eu
 link: https://www.amazon.de/gp/product/B0779RF8NY
 image: https://images-na.ssl-images-amazon.com/images/I/61cW9rz82dL._SL1000_.jpg

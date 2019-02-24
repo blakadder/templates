@@ -1,5 +1,6 @@
 ---
 name: WAZA 10A
+category: plug
 type: plug
 standard: eu
 link: https://www.amazon.it/gp/product/B07BXTYVJ9/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
