@@ -1,6 +1,6 @@
 ---
 ---
-<table id="Devices" class="display">
+<table id="Devices" width="60%">
 <thead>
 <tr>
 <th>Name</th>
@@ -11,7 +11,7 @@
 <tbody>
 {% for template in site.templates %}
 <tr>
-<td><b><a href="{{ template.url }}">{{ template.name }}</a></b></td>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
 <td><img src="{{ template.image }}" alt="{{ template.name }}" width="60" align="center"></td>
 <td>Smart {{ template.type | capitalize }} {{ template.standard | upcase }}</td>
 </tr>
