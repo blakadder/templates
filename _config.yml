@@ -9,3 +9,4 @@ defaults:
       type: "templates"
     values:
       layout: "templates"
+future: true
