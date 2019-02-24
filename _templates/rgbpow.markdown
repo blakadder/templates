@@ -1,5 +1,5 @@
 ---
-name: RGB Smart Plug
+name: RGB Smart Plug #name test
 category: plug
 type: plug
 standard: eu

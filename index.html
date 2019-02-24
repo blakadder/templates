@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-<table id="Devices" width="60%">
+<b><a href="https://github.com/blakadder/templates/new/master/_templates">Add new device</a></b> (Requires GitHub account! When making a PR use <a href="https://raw.githubusercontent.com/blakadder/templates/master/new.markdown">this file</a> and copy its entire contents into the new device file and edit following descriptions)
+<br>
+<br>
+<table id="Devices" width="80%">
 <thead>
 <tr>
 <th>Name</th>
@@ -12,7 +15,7 @@ layout: default
 <tbody>
 {% for template in site.templates %}
 <tr>
-<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 25 }}</a></b></td>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
 <td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="60"></td>
 <td>{{ template.standard | upcase }} {{ template.type | upcase }}</td>
 </tr>
