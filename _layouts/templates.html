@@ -11,9 +11,15 @@ layout: default
 <a href="{{page.link_alt}}">{{ page.link_alt | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
 
 <h2>Template</h2>
-{% highlight json %}
+{% if page.template contains "NAME" %}
+    {% highlight json %}
   {{ page.template }}
 {% endhighlight %}
+{% endif %}
+
+{% if page.screenshot contains "http" %}
+<img src="{{ page.screenshot }}" alt="{{ page.name }}">
+{% endif %}
 
 <h2>Notes</h2>
 
