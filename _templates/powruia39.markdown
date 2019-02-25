@@ -12,6 +12,8 @@ screenshot: https://user-images.githubusercontent.com/5904370/53308192-72e3d480-
 
 This allows you to turn on and off all the relays
 ```
+![](https://user-images.githubusercontent.com/5904370/53308192-72e3d480-389f-11e9-9e7b-bc25fd5eb5f6.png)
+
 SwitchTopic1 0
 SwitchMode1 5
 SetOption32 20
