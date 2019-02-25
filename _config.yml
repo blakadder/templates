@@ -10,7 +10,6 @@ defaults:
     values:
       layout: "templates"
 future: true
-markdown_ext: "markdown, mkdown, mkdn, mkd, md"
 highlighter: rouge
 title: Tasmota Device Templates
 url: "https://blakadder.github.io"
