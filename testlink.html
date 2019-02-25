@@ -1,5 +1,45 @@
 ---
 layout: default
 ---
-<a href="{{site.github.repository_url}}/blob/master/{{page.relativepath}}">Edit this page on GitHub</a><p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehiutPp11abETRxNeaZWmBgWn5OB8YPSzGR4PHPXrIU351rg/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehiutPp11abETRxNeaZWmBgWn5OB8YPSzGR4PHPXrIU351rg/viewform?embedded=true" width="500" height="700" align="right" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<h2>
+<ul>
+  <li><a href="eu.html">EU devices</a>
+  <li><a href="us.html">US devices</a>
+  <li><a href="uk.html">UK devices</a>
+  <li><a href="anzac.html">ANZAC devices</a>
+    <li><a href="global.html">Global devices</a>
+</ul>
+
+
+<h3><a href="https://github.com/blakadder/templates/new/master/_templates">Add new device</a></b>
+<br>
+Requires GitHub account! Copy contents of <a href="https://raw.githubusercontent.com/blakadder/templates/master/new.markdown">this file</a>
+<br><br>or use a <a href="https://goo.gl/forms/uuL38XuveEQp1Vfw2">Google Form</a>
+<br>
+<br>
+The site is WIP!
+</h3>
+<br>
+<a href="https://github.com/arendst/Sonoff-Tasmota/wiki">Back to Tasmota Wiki</a>
+<br>
+<!--
+<table id="Devices" width="80%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Image</th>
+<th>Type</th>
+</tr>
+<thead>
+<tbody>
+{% for template in site.templates %}
+<tr>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
+<td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
+<td>{{ template.standard | upcase }} {{ template.type | upcase }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+-->
