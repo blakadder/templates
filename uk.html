@@ -1,0 +1,70 @@
+---
+layout: default
+---
+<h3> Plugs/Sockets</h3>
+<table id="Devices" width="80%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Image</th>
+<th>Type</th>
+</tr>
+<thead>
+<tbody>
+{% assign plug_uk = site.templates | where:'standard', 'uk' | where:'category', 'plug'%}
+{% for template in plug_uk %}
+
+<tr>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
+<td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
+<td>{{ template.standard | upcase }} {{ template.type | upcase }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+<h3>Lights</h3>
+<table id="Devices" width="80%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Image</th>
+<th>Type</th>
+</tr>
+<thead>
+<tbody>
+{% assign light_uk = site.templates | where:'standard', 'uk' | where:'category', 'light'%}
+{% for template in light_uk %}
+
+<tr>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
+<td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
+<td>{{ template.standard | upcase }} {{ template.type | upcase }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+<h3>Switches/Dimmers</h3>
+<table id="Devices" width="80%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Image</th>
+<th>Type</th>
+</tr>
+<thead>
+<tbody>
+{% assign switch_uk = site.templates | where:'standard', 'uk' | where:'category', 'switch'%}
+{% for template in switch_uk %}
+
+<tr>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
+<td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
+<td>{{ template.standard | upcase }} {{ template.type | upcase }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
