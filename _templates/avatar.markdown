@@ -1,5 +1,5 @@
 ---
-name: Aisirer 10A
+name: Avatar 10A
 category: plug
 type: plug
 standard: eu
