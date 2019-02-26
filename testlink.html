@@ -23,23 +23,7 @@ The site is WIP!
 <br>
 <a href="https://github.com/arendst/Sonoff-Tasmota/wiki">Back to Tasmota Wiki</a>
 <br>
-<!--
-<table id="Devices" width="80%">
-<thead>
-<tr>
-<th>Name</th>
-<th>Image</th>
-<th>Type</th>
-</tr>
-<thead>
-<tbody>
-{% for template in site.templates %}
-<tr>
-<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
-<td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
-<td>{{ template.standard | upcase }} {{ template.type | upcase }}</td>
-</tr>
+{% for post in site.templates %}
+   {% capture post_count %} {{ post_count }} {% endcapture %}
 {% endfor %}
-</tbody>
-</table>
--->
+{{ post_count }}
