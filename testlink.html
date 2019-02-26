@@ -11,7 +11,7 @@ layout: default
     <li><a href="global.html">Global devices</a>
 </ul>
 
-Supporting {% assign counter = 0 %}{% for item in site.templates %}{% assign counter=counter | plus:1 %}{% endfor %}{{ counter }} devices
+{% assign counter = 0 %}{% for item in site.templates %}{% assign counter=counter | plus:1 %}{% endfor %}{{ counter }} devices
   
 <h3><a href="https://github.com/blakadder/templates/new/master/_templates">Add new device</a></b>
 <br>
