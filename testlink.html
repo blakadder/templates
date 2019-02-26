@@ -23,7 +23,8 @@ The site is WIP!
 <br>
 <a href="https://github.com/arendst/Sonoff-Tasmota/wiki">Back to Tasmota Wiki</a>
 <br>
-{% for post in site.collections %}
-   {% capture post_count %} {{ post_count }} {% endcapture %}
-{% endfor %}
-{{ post_count }}
+{% comment %}
+*
+*   Counter: This include counts your jekyll posts
+*
+{% endcomment %}{% assign counter = 0 %}{% for item in site.collections %}{% assign counter=counter | plus:1 %}{% endfor %}{{ counter }}
