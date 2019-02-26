@@ -1,9 +1,9 @@
 ---
-name: Electrodragon LED Strip
-type: led strip
+name: Electrodragon 
+type: led controller
 category: light
 standard: us
-link: https://www.walmart.com/ip/Merkury-Innovations-BR30-Smart-Light-Bulb-65W-Tunable-White-LED-1-Pack/404320234
+link: https://www.electrodragon.com/product/esp-led-strip-board/
 image: https://camo.githubusercontent.com/36148d2601b9850d457775ca2b741f54bb07b64d/68747470733a2f2f313433363437373535342e7273632e63646e37372e6f72672f77702d636f6e74656e742f75706c6f6164732f323031372f30362f4553502d4c45442d53747269702d426f6172642d30342e6a7067
 template: '{"NAME":"ED LedStrip","GPIO":[0,0,0,0,0,0,0,0,39,38,0,37,0],"FLAG":1,"BASE":18}
 '
