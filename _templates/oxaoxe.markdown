@@ -1,5 +1,5 @@
 ---
-name: SP201 Based Plug
+name: SP201 Dual
 category: plug
 type: plug
 standard: us
