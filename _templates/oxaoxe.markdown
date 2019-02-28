@@ -1,5 +1,5 @@
 ---
-name: OxaOxe 2 in 1 Mini
+name: SP201 Dual
 category: plug
 type: plug
 standard: us
@@ -7,3 +7,4 @@ image: https://camo.githubusercontent.com/36e5c8c63b06813c077a620d56569e4fc5e677
 link: https://www.amazon.com/dp/B07G2GVX2K
 template: '{"NAME":"SP-201","GPIO":[31,0,0,131,17,134,0,0,21,18,132,22,0],"FLAG":0,"BASE":45}'
 ---
+Note:  These are sold under many different names.  Oxaoxe, Stillento, Syncwire, Voion, Pemorn, Dilesens, etc. 
