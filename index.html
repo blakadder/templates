@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehiutPp11abETRxNeaZWmBgWn5OB8YPSzGR4PHPXrIU351rg/viewform?embedded=true" width="500" height="700" align="right" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehiutPp11abETRxNeaZWmBgWn5OB8YPSzGR4PHPXrIU351rg/viewform?embedded=true" width="400" height="700" align="right" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 <h2>Supporting {% assign counter = 0 %}{% for item in site.templates %}{% assign counter=counter | plus:1 %}{% endfor %}{{ counter }} devices
 </h2>
 <b><ul>
@@ -9,19 +9,21 @@ layout: default
   <li><a href="us.html">US devices</a>
   <li><a href="uk.html">UK devices</a>
   <li><a href="anzac.html">AU-NZ-AR-CN devices</a>
-    <li><a href="global.html">Global devices</a>
+  <li><a href="all.html">All devices</a>
 </ul></b>
 
-<h3><a href="https://github.com/blakadder/templates/new/master/_templates">Add new device</a></b>
-<br>
-Requires GitHub account! Copy contents of <a href="https://raw.githubusercontent.com/blakadder/templates/master/new.markdown">this file</a>
-<br><br>or use a <a href="https://goo.gl/forms/uuL38XuveEQp1Vfw2">Google Form</a>
-<br>
-<br>
-The site is WIP!
-</h3>
-<br>
-<br>
-<br>
-<br>
+<h2>Recently added:</h2>
+<ul>
+{% for template in site.templates limit:3 %}
+<li><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }} Smart {{ template.type | capitalize }} {{ template.standard | upcase }}</a></li>
+{% endfor %}
+</ul>
+<p>
+<b><a href="https://github.com/blakadder/templates/new/master/_templates">Add new device</a></b> on GitHub.
+Copy contents of <a href="https://raw.githubusercontent.com/blakadder/templates/master/new.markdown">this file</a> as starting point.<br>
+or use the <a href="https://goo.gl/forms/uuL38XuveEQp1Vfw2">Google Form</a>
+</p>
+<br><br><br>
+<b>The site is WIP!</b>
+<br><br>
 <a href="https://github.com/arendst/Sonoff-Tasmota/wiki">Back to Tasmota Wiki</a>
