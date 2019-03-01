@@ -1,7 +1,7 @@
 ---
 name: RGB Smart Plug #name test
 category: plug
-type: plug
+type: Plug
 standard: eu
 image: https://i.postimg.cc/YStMTTFq/rgbsmartplug.jpg
 link: https://www.aliexpress.com/item/ET-Smart-Plug-Wifi-Socket-With-Switch-Phone-APP-Voice-Remote-Control-Monitor-Smart-Timing-Switch/32964036349.html?spm=a2g0s.9042311.0.0.439c4c4d4N8N2Q

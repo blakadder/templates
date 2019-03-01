@@ -1,6 +1,6 @@
 ---
-name: Electrodragon 
-type: led controller
+name: Electrodragon
+type: LED Controller
 category: light
 standard: us
 link: https://www.electrodragon.com/product/esp-led-strip-board/

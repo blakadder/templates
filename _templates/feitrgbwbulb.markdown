@@ -1,7 +1,7 @@
 ---
 name: Feit Electric A19
 category: light
-type: bulb
+type: Bulb
 standard: us
 category: light
 link: https://www.amazon.com/FEIT-OM60-RGBW-CA-AG/dp/B07GG98VV2/

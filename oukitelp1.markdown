@@ -1,7 +1,7 @@
 ---
 name: Oukitel P1
 category: plug
-type: plug
+type: Plug
 standard: us
 link: https://www.banggood.com/Oukitel-Double-Outlet-Smart-WIFI-Socket-US-Plug-APP-Remote-Control-Timing-Smart-Home-Switch-Power-Ou-p-1371092.html
 image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/OukitelP1.JPG

@@ -1,7 +1,7 @@
 ---
 name: Esicoo YX-WS01
 category: plug
-type: plug
+type: Plug
 standard: us
 image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/Esicoo.jpg
 link: https://www.amazon.com/Compatible-Assistant-Required-Electric-Anywhere/dp/B07DYMS1L3

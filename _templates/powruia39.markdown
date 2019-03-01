@@ -1,7 +1,7 @@
 ---
 name: Powrui AW-39
 category: plug
-type: power strip
+type: Power Strip
 standard: us
 link: https://www.amazon.com/gp/product/B07KK62GB7/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 image: https://user-images.githubusercontent.com/5904370/53308200-82fbb400-389f-11e9-80a8-6686b28539d4.png

@@ -1,7 +1,7 @@
 ---
 name: BSD29
 category: plug
-type: plug
+type: Plug
 standard: uk
 link: https://shopee.sg/product/74752093/1598782874
 image: https://cf.shopee.sg/file/35f8a14723f7364ad361c645d007f23b

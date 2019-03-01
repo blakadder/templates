@@ -1,7 +1,7 @@
 ---
 name: Maxcio W-US003
 category: plug
-type: plug
+type: Plug
 standard: us
 image: https://raw.githubusercontent.com/DavinKD/SmartThings/master/DeviceImages/W-US003.jpg
 link: https://www.amazon.com/gp/product/B075JHCQ43

@@ -1,7 +1,7 @@
 ---
 name: Martin Jerry 15A
 category: switch
-type: switch
+type: Switch
 standard: us
 link: https://www.amazon.com/Martin-Jerry-Devices-required-installation/dp/B07GSTJ8TV
 image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/MJSwitch2.jpg

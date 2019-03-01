@@ -1,7 +1,8 @@
 ---
-name: Nexlux YPL0046
+date: 2019-03-01
+name: Nexlux
 category: light
-type: led controller
+type: LED Controller
 standard: global
 link: https://www.amazon.com/Nexlux-Wireless-Controller-Compatible-Included/dp/B07116SX41
 image: https://images-na.ssl-images-amazon.com/images/I/41BgQ4VkQJL._AC_SR160,160_.jpg

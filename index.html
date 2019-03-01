@@ -14,8 +14,9 @@ layout: default
 
 <h2>Recently added:</h2>
 <ul>
-{% for template in site.templates limit:3 %}
-<li><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }} Smart {{ template.type | capitalize }} {{ template.standard | upcase }}</a></li>
+{% assign sorted = site.templates  | sort: "date" | reverse %}
+{% for template in sorted limit:3 %}
+<li><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }} - {{ template.type }} {{ template.standard | upcase }}</a></li>
 {% endfor %}
 </ul>
 <p>
