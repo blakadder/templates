@@ -8,8 +8,6 @@ image: https://user-images.githubusercontent.com/34340210/50610479-19fc4f00-0ea1
 template: '{"NAME":"HW-655 PZEM","GPIO":[0,63,0,62,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}'
 link_alt:
 ---
-<img src="https://user-images.githubusercontent.com/34340210/50610479-19fc4f00-0ea1-11e9-8238-d46a93850a32.jpg" height="400" /><br>
-
 The PZEM-004T together with a HW-655 Relay provide a good clamp-on energy monitor for a 240V clothes dryer.
 
 ## Parts needed
