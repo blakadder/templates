@@ -54,8 +54,8 @@ title: US devices
 <h3>Misc</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign switch = standard | where: "category", "misc" %}
-{% for template in switch %}
+{% assign misc = standard | where: "category", "misc" %}
+{% for template in misc %}
 <tr>
 <td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
 <td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
