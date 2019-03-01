@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EU devices
+title: All devices
 ---
 <!-- ######################################################################  -->
 {% assign standard = site.templates %}
@@ -11,7 +11,7 @@ title: EU devices
 {% assign plug = standard | where: "category", "plug" %}
 {% for template in plug %}
 <tr>
-  <td width="50%"><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
+  <td width="50%"><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
   <td width="25%"align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
   <td width="25%">{{ template.standard | upcase }} {{ template.type | downcase }}</td>
 </tr>
@@ -26,7 +26,7 @@ title: EU devices
 {% assign light = standard | where: "category", "light" %}
 {% for template in light %}
 <tr>
-  <td width="50%"><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
+  <td width="50%"><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
   <td width="25%"align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
   <td width="25%">{{ template.standard | upcase }} {{ template.type | downcase }}</td>
 </tr>
@@ -41,7 +41,7 @@ title: EU devices
 {% assign switch = standard | where: "category", "switch" %}
 {% for template in switch %}
 <tr>
-<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
 <td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
 <td width="25%">{{ template.standard | upcase }} {{ template.type | downcase }}</td>
 </tr>
@@ -55,7 +55,7 @@ title: EU devices
 {% assign switch = standard | where: "category", "misc" %}
 {% for template in switch %}
 <tr>
-<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
 <td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
 <td width="25%">{{ template.standard | upcase }} {{ template.type | downcase }}</td>
 </tr>

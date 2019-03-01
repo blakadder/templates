@@ -1,67 +1,63 @@
 ---
 layout: default
+title: US devices
 ---
-<h3> Plugs/Sockets</h3>
-<table id="Devices" width="80%">
-<thead>
-<tr>
-<th>Name</th>
-<th>Image</th>
-<th>Type</th>
-</tr>
-<thead>
-<tbody>
-{% assign plug_us = site.templates | where:'standard', 'us' | where:'category', 'plug'%}
-{% for template in plug_us %}
+<!-- ######################################################################  -->
+{% assign standard_country = site.templates | where: "standard", "us" %}
+{% assign standard_global = site.templates | where: "standard", "global" %}
+{% assign standard = standard_country | concat: standard_global %}
 
+<h3>Plugs/Sockets</h3>
+<table id="Devices" width="80%">
+<tbody>
+{% assign plug = standard | where: "category", "plug" %}
+{% for template in plug %}
 <tr>
-<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
-<td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
-<td>{{ template.type | downcase }}</td>
+  <td width="50%"><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
+  <td width="25%"align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
+  <td width="25%">{{ template.type | downcase }}</td>
 </tr>
 {% endfor %}
 </tbody>
 </table>
 
-
+<!-- ######################################################################  -->
 <h3>Lights</h3>
 <table id="Devices" width="80%">
-<thead>
-<tr>
-<th>Name</th>
-<th>Image</th>
-<th>Type</th>
-</tr>
-<thead>
 <tbody>
-{% assign light_us = site.templates | where:'standard', 'us' | where:'category', 'light'%}
-{% for template in light_us %}
-
+{% assign light = standard | where: "category", "light" %}
+{% for template in light %}
 <tr>
-<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
+  <td width="50%"><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
+  <td width="25%"align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
+  <td width="25%">{{ template.type | downcase }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+<!-- ######################################################################  -->
+<h3>Switches/Dimmers</h3>
+<table id="Devices" width="80%">
+<tbody>
+{% assign switch = standard | where: "category", "switch" %}
+{% for template in switch %}
+<tr>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
 <td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
 <td>{{ template.type | downcase }}</td>
 </tr>
 {% endfor %}
 </tbody>
 </table>
-
-
-<h3>Switches/Dimmers</h3>
+<!-- ######################################################################  -->
+<h3>Misc</h3>
 <table id="Devices" width="80%">
-<thead>
-<tr>
-<th>Name</th>
-<th>Image</th>
-<th>Type</th>
-</tr>
-<thead>
 <tbody>
-{% assign switch_us = site.templates | where:'standard', 'us' | where:'category', 'switch'%}
-{% for template in switch_us %}
-
+{% assign switch = standard | where: "category", "misc" %}
+{% for template in switch %}
 <tr>
-<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name | truncate: 30 }}</a></b></td>
+<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
 <td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
 <td>{{ template.type | downcase }}</td>
 </tr>
