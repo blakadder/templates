@@ -1,0 +1,18 @@
+---
+name: Nexlux LED Smart Controller (MagicHome V1.1 IR varient)
+category: light
+type: led controller
+standard: global
+link: https://www.amazon.com/Nexlux-Wireless-Controller-Compatible-Included/dp/B07116SX41
+image: https://images-na.ssl-images-amazon.com/images/I/41BgQ4VkQJL._AC_SR160,160_.jpg
+template: '{"NAME":"MagicHome V1.1","GPIO":[0,0,0,0,51,37,0,0,38,39,0,0,0],"FLAG":0,"BASE":34}' 
+link_alt: 
+---
+
+
+
+
+
+
+
+
