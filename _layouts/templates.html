@@ -19,14 +19,13 @@ layout: default
 <br>
 <h4>Template</h4>
 <pre><code>{{ page.template }}</code></pre>
-{% assign testcontent = post.content | strip_newlines %}
-{% unless testcontent == nil %}
-<h4>Notes</h4>
-{{ content | markdownify }}
-{% endunless %}
-
 <div class="float-right">
   <a class="button button-clear button-small" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">
     Edit on GitHub
   </a>
 </div>
+{% assign testcontent = post.content | strip_newlines %}
+{% unless testcontent == nil %}
+<hr>
+{{ content | markdownify }}
+{% endunless %}
