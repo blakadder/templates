@@ -24,8 +24,5 @@ layout: default
     Edit on GitHub
   </a>
 </div>
-{% assign testcontent = post.content | strip_newlines %}
-{% unless testcontent == nil %}
 <hr>
 {{ content | markdownify }}
-{% endunless %}
