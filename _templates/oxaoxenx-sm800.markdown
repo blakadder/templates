@@ -1,5 +1,5 @@
 ---
-date: 2019-03-02
+date: 2019-03-01
 title: Oxaoxe NX-SM800
 category: plug
 type: Plug
