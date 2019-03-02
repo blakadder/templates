@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Powrui AW-39</title>
-  <meta name="description" content="This allows you to turn on and off all the relays SwitchTopic1 0 SwitchMode1 5 SetOption32 20 Rule1 on switch1#state=3 do power1 2 endon on switch1#state=2 d...">
+  <meta name="description" content="This allows you to turn on and off all the relays">
 
 	<link rel="icon" href="/templates/assets/images/favicon.ico">
   <link rel="canonical" href="http://localhost:4000/templates/powruia39.html">
@@ -65,11 +65,12 @@
   </a>
 </div>
 <hr>
-<p>This allows you to turn on and off all the relays
-<code>SwitchTopic1 0</code>
-<code>SwitchMode1 5</code>
-<code>SetOption32 20</code>
-<code>Rule1 on switch1#state=3 do power1 2 endon on switch1#state=2 do delay endon on switch1#state=3 do power2 2 endon on switch1#state=2 do delay endon on switch1#state=3 do power3 2 endon on switch1#state=2 do delay endon on switch1#state=3 do power4 2 endon on switch1#state=2 do delay endon</code></p>
+<p>This allows you to turn on and off all the relays</p>
+
+<pre><code>Backlog SwitchTopic1 0; SwitchMode1 5; SetOption32 20
+</code></pre>
+<pre><code>Rule1 on switch1#state=3 do power1 2 endon on switch1#state=2 do delay endon on switch1#state=3 do power2 2 endon on switch1#state=2 do delay endon on switch1#state=3 do power3 2 endon on switch1#state=2 do delay endon on switch1#state=3 do power4 2 endon on switch1#state=2 do delay endon
+</code></pre>
 
 
 				</div>
