@@ -28,10 +28,9 @@
 
 	<div class="sidebar-main">
 		<ul class="navigation" id="navigation">																			<li>				<a class="" href="/templates/">					Home				</a>			</li>								<li>				<a class="" href="/templates/eu.html">					EU Devices				</a>			</li>								<li>				<a class="" href="/templates/us.html">					US Devices				</a>			</li>								<li>				<a class="" href="/templates/uk.html">					UK Devices				</a>			</li>								<li>				<a class="" href="/templates/anzac.html">					AU-NZ-AR-CN Devices				</a>			</li>								<li>				<a class="" href="/templates/all.html">					All Devices				</a>			</li>								<li>				<a class="" href="/templates/plug.html">					Plugs, Sockets & Power Strips				</a>			</li>								<li>				<a class="" href="/templates/light.html">					Light Bulbs and LEDs				</a>			</li>								<li>				<a class="" href="/templates/switch.html">					Switches & Dimmers				</a>			</li>								<li>				<a class="" href="/templates/misc.html">					Miscellaneous Devices				</a>			</li>			</ul>
-<br><br><br>
-<a class="button button-outline" href="new.html">Add new template</a>
 
 <div class="footer">
+	<a class="button button-outline" href="new.html">Add new template</a><br>
 	<a class="button button-clear" href="https://github.com/arendst/Sonoff-Tasmota/wiki">Tasmota Wiki</a>
 </div>
 
@@ -59,7 +58,16 @@
   </div>
 <br>
 <h4>Template</h4>
-<pre><code></code></pre>
+<pre><code>{"NAME":"Porui AW-39","GPIO":[56,0,0,0,21,255,0,0,23,24,22,0,9],"FLAG":0,"BASE":18}</code></pre>
+
+
+<h4>Notes</h4>
+<p>This allows you to turn on and off all the relays</p>
+<pre><code>SwitchTopic1 0
+SwitchMode1 5
+SetOption32 20
+Rule1 on switch1#state=3 do power1 2 endon on switch1#state=2 do delay endon on switch1#state=3 do power2 2 endon on switch1#state=2 do delay endon on switch1#state=3 do power3 2 endon on switch1#state=2 do delay endon on switch1#state=3 do power4 2 endon on switch1#state=2 do delay endon
+</code></pre>
 
 
 

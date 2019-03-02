@@ -11,7 +11,7 @@ navigation: 7
 <tbody>
 {% assign plug = standard | where: "category", "plug" %}
 {% for template in plug %}
-{% include tablerow.html %}
+  {% include tablerow.html %}
 {% endfor %}
 </tbody>
 </table>
@@ -22,7 +22,7 @@ navigation: 7
 <tbody>
 {% assign light = standard | where: "category", "light" %}
 {% for template in light %}
-{% include tablerow.html %}
+  {% include tablerow.html %}
 {% endfor %}
 </tbody>
 </table>
@@ -33,7 +33,7 @@ navigation: 7
 <tbody>
 {% assign switch = standard | where: "category", "switch" %}
 {% for template in switch %}
-{% include tablerow.html %}
+  {% include tablerow.html %}
 {% endfor %}
 </tbody>
 </table>
@@ -43,7 +43,7 @@ navigation: 7
 <tbody>
 {% assign misc = standard | where: "category", "misc" %}
 {% for template in misc %}
-{% include tablerow.html %}
+  {% include tablerow.html %}
 {% endfor %}
 </tbody>
 </table>

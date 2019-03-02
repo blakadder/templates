@@ -19,8 +19,8 @@ layout: default
 <br>
 <h4>Template</h4>
 <pre><code>{{ page.template }}</code></pre>
-{% assign content = post.content | strip_newlines %}
-{% unless content == nil or content == empty %}
+{% assign testcontent = post.content | strip_newlines %}
+{% unless testcontent == nil %}
 <h4>Notes</h4>
 {{ content | markdownify }}
 {% endunless %}
