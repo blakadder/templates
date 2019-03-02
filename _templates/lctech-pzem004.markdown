@@ -21,7 +21,7 @@ The PZEM-004T together with a HW-655 Relay provide a good clamp-on energy monito
 * DuPont Connectors & 22 AWG wire
 
 ## Preparation
-Install TASMOTA ([requires 2.4.2 ESP Core or higher](https://github.com/arendst/Sonoff-Tasmota/wiki/What's-New#20181105---6303)) on the ESP-01 and confirm it is functional before connecting the PZEM-004T to its serial interface.
+Install TASMOTA ([requires 2.4.2 ESP Core or higher](https://github.com/arendst/Sonoff-Tasmota/wiki/What's-New#version-6303-20181105)) on the ESP-01 and confirm it is functional before connecting the PZEM-004T to its serial interface.
 
 ## Hardware connections
 <img src="https://user-images.githubusercontent.com/34340210/51444410-2536e380-1cc5-11e9-8989-b181c2851863.png" height="400" /><br>
