@@ -1,6 +1,6 @@
 ---
 date: 2019-03-02
-name: Houzetek SWA1
+title: Houzetek SWA1
 category: plug
 type: Plug
 standard: eu

@@ -8,27 +8,26 @@ navigation: 2
 
 <b>Devices by electrical standard:</b><br>
 
-<a align="right" class="button" href="all.html">ALL</a>
-<a align="right" class="button" href="eu.html">EU</a>
-<a align="right" class="button" href="us.html">US</a>
-<a align="right" class="button" href="uk.html">UK</a>
-<a align="right" class="button" href="anzac.html">AU-NZ-AR-CN</a>
+<a align="right" class="button button-large" href="all.html">ALL</a>
+<a align="right" class="button button-large" href="eu.html">EU</a>
+<a align="right" class="button button-large" href="us.html">US</a>
+<a align="right" class="button button-large" href="uk.html">UK</a>
+<a align="right" class="button button-large" href="anzac.html">AU-NZ-AR-CN</a>
 <br>
 <b>Devices by type:</b><br>
 
-<a align="right" class="button" href="plug.html">PLUGS</a>
-<a align="right" class="button" href="light.html">LIGHTS</a>
-<a align="right" class="button" href="switch.html">SWITCHES</a>
-<a align="right" class="button" href="misc.html">MISCELLANEOUS</a>
+<a align="right" class="button button-large" href="plug.html">PLUGS</a>
+<a align="right" class="button button-large" href="light.html">LIGHTS</a>
+<a align="right" class="button button-large" href="switch.html">SWITCHES</a>
+<a align="right" class="button button-large" href="misc.html">MISCELLANEOUS</a>
 <br>
 <br>
 <h3>Recently added devices:</h3>
 <ul>
 {% assign sorted = site.templates  | sort: "date" | reverse %}
 {% for template in sorted limit:5 %}
-<li><a href="{{site.baseurl}}{{ template.url }}">{{ template.title }} - {{ template.standard | upcase }} {{ template.type }} </a></li>
+<li><a href="{{site.baseurl}}{{ template.url }}">{{ template.title }} - {{ template.standard | upcase }} {{ template.type }}</a></li>
 {% endfor %}
 </ul>
 
-<h1><a href="new.html">Add new template</a></h3>
-<a class="float-right" href="https://github.com/arendst/Sonoff-Tasmota/wiki">Back to Tasmota Wiki</a>
+<h2><a class="button button-large" href="new.html">Add new template</a></h3>

@@ -191,6 +191,13 @@ input[type='submit'].button-clear[disabled]:hover {
   padding: 0 1.5rem;
 }
 
+.button-large {
+  font-size: 1.4rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  padding: 0 2rem;
+}
+
 code {
   background: #f4f5f6;
   border-radius: .4rem;
@@ -541,6 +548,7 @@ th {
 td:first-child,
 th:first-child {
   padding-left: 1;
+  text-align: center;
 }
 
 td:last-child,
@@ -621,4 +629,8 @@ img {
   float: right;
 }
 
+.footer {
+    bottom: 0%;
+    position: fixed;
+}
 /*# sourceMappingURL=milligram.css.map */

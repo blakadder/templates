@@ -1,6 +1,6 @@
 ---
 date: 2019-03-02
-name: Alfawise PE1004T
+title: Alfawise PE1004T
 category: plug
 type: Plug
 standard: eu
