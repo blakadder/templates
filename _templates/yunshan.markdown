@@ -2,7 +2,7 @@
 date: 2019-03-02
 title: Yunshan 10A 7-30VDC
 category: switch
-type: DIY
+type: Relay
 standard: global
 tags: relay diy
 link: https://www.banggood.com/ESP8266-10A-220V-Network-Relay-WIFI-Module-Input-DC-7V30V-p-1089200.html
