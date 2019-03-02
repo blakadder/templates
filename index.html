@@ -1,30 +1,34 @@
 ---
-layout: default
+layout: page
+title: Home
+navigation: 2
 ---
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehiutPp11abETRxNeaZWmBgWn5OB8YPSzGR4PHPXrIU351rg/viewform?embedded=true" width="400" height="700" align="right" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-<h2>Supporting {% assign counter = 0 %}{% for item in site.templates %}{% assign counter=counter | plus:1 %}{% endfor %}{{ counter }} devices
-</h2>
-<b><ul>
-  <li><a href="eu.html">EU devices</a>
-  <li><a href="us.html">US devices</a>
-  <li><a href="uk.html">UK devices</a>
-  <li><a href="anzac.html">AU-NZ-AR-CN devices</a>
-  <li><a href="all.html">All devices</a>
-</ul></b>
+<h3>Tasmota Device Templates Repository</h3>
+<h3>{% assign counter = 0 %}{% for item in site.templates %}{% assign counter=counter | plus:1 %}{% endfor %}{{ counter }} devices listed</h3>
 
-<h2>Recently added:</h2>
+<b>Devices by electrical standard:</b><br>
+
+<a align="right" class="button" href="all.html">ALL</a>
+<a align="right" class="button" href="eu.html">EU</a>
+<a align="right" class="button" href="us.html">US</a>
+<a align="right" class="button" href="uk.html">UK</a>
+<a align="right" class="button" href="anzac.html">AU-NZ-AR-CN</a>
+<br>
+<b>Devices by type:</b><br>
+
+<a align="right" class="button" href="plugs.html">PLUGS</a>
+<a align="right" class="button" href="lights.html">LIGHTS</a>
+<a align="right" class="button" href="switches.html">SWITCHES</a>
+<a align="right" class="button" href="misc.html">MISCELLANEOUS</a>
+<br>
+<br>
+<h3>Recently added devices:</h3>
 <ul>
 {% assign sorted = site.templates  | sort: "date" | reverse %}
-{% for template in sorted limit:3 %}
-<li><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }} - {{ template.standard | upcase }} {{ template.type }} </a></li>
+{% for template in sorted limit:5 %}
+<li><a href="{{site.baseurl}}{{ template.url }}">{{ template.title }} - {{ template.standard | upcase }} {{ template.type }} </a></li>
 {% endfor %}
 </ul>
-<p>
-<b><a href="https://github.com/blakadder/templates/new/master/_templates">Add new device</a></b> on GitHub.
-Copy contents of <a href="https://raw.githubusercontent.com/blakadder/templates/master/new.markdown">this file</a> as base<br>
-or use the <a href="https://goo.gl/forms/uuL38XuveEQp1Vfw2">Google Form</a>
-</p>
-<br><br><br>
-<b>The site is WIP!</b>
-<br><br>
-<a href="https://github.com/arendst/Sonoff-Tasmota/wiki">Back to Tasmota Wiki</a>
+
+<h1><a href="new.html">Add new template</a></h3>
+<a class="float-right" href="https://github.com/arendst/Sonoff-Tasmota/wiki">Back to Tasmota Wiki</a>

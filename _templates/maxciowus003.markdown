@@ -1,5 +1,5 @@
 ---
-name: Maxcio W-US003
+title: Maxcio W-US003
 category: plug
 type: Plug
 standard: us

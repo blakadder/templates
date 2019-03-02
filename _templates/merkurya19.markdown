@@ -1,5 +1,5 @@
 ---
-name: Merkury A19 60W
+title: Merkury A19 60W
 category: light
 type: Bulb
 standard: us

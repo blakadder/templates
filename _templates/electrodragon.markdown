@@ -1,5 +1,5 @@
 ---
-name: Electrodragon
+title: Electrodragon
 type: LED Controller
 category: light
 standard: us

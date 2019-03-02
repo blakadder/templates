@@ -1,5 +1,5 @@
 ---
-name: Teckin SP23
+title: Teckin SP23
 category: plug
 type: Plug
 standard: uk

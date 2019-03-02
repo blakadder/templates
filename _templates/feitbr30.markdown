@@ -1,5 +1,5 @@
 ---
-name: Feit Electric BR30 65W Daylight
+title: Feit Electric BR30 65W Daylight
 category: light
 type: Bulb
 standard: us

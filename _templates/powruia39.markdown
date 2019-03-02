@@ -1,5 +1,5 @@
 ---
-name: Powrui AW-39
+title: Powrui AW-39
 category: plug
 type: Power Strip
 standard: us

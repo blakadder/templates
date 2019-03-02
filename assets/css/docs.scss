@@ -1,0 +1,180 @@
+---
+---
+
+@import 'variables';
+
+@import 'milligram';
+@import 'prism';
+
+html, body {
+	margin: 0;
+	height: 100%;
+	max-height: 100%;
+	overflow: hidden;
+	min-width: $min-width;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+pre {
+	margin-bottom: ($base-height * 2) !important;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+
+	&:hover {
+		color: $link-color;
+		text-decoration: none;
+	}
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	max-height: 100%;
+	min-height: 100%;
+	display: flex;
+	overflow: hidden;
+}
+
+// Sidebar
+.sidebar {
+	display: block;
+	width: 20%;
+	max-width: $sidebar-width;
+	padding: 0;
+	border-right: $sidebar-border;
+	height: 100%;
+	overflow: hidden;
+	color: $sidebar-color;
+
+	.sidebar-main {
+		height: 100%;
+		background: $navigation-background;
+		padding: $base-height;
+	}
+
+	.sidebar-mobile {
+		display: none;
+		height: $header-height;
+		padding: $base-height;
+		text-align: right;
+
+		.close-icon, .menu-icon {
+			width: 18px;
+			cursor: pointer;
+			height: auto;
+			display: none;
+		}
+	}
+}
+
+.search {
+	height: $header-height;
+	border-bottom: $sidebar-border;
+	padding: 0 $base-height;
+
+	.search-input {
+		border: none;
+		font-size: 0.9em;
+		font-weight: 300;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.navigation {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		margin: 0;
+		padding: 10px 15px;
+	}
+
+	a {
+		display: block;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+
+		&.active {
+			color: $navigation-link-color;
+		}
+	}
+}
+
+// Content
+.content {
+	display: flex;
+  justify-content: center;
+	min-height: 100%;
+	height: 100%;
+  width: 100%;
+	overflow-y: auto;
+	color: $content-color;
+	line-height: 1.7;
+	word-wrap: break-word;
+}
+
+.inner {
+  width: 100%;
+	max-width: $content-width;
+	padding: $base-height ($base-height * 2) ($base-height * 3) $base-height;
+}
+
+.section {
+	margin-bottom: $base-height;
+}
+
+/**
+* Mobile
+*/
+@media (max-width: $mobile-width) {
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.sidebar {
+		width: 100%;
+		max-width: 100%;
+		border-right: none;
+		height: $header-height;
+
+		.sidebar-mobile {
+			display: block;
+
+			.menu-icon {
+				display: inline;
+			}
+		}
+
+		&.opened {
+			overflow: visible;
+			height: auto;
+			border-bottom: $sidebar-border;
+
+			.sidebar-mobile {
+				background: $navigation-background;
+			}
+		}
+	}
+
+	.content {
+		width: 100%;
+		margin-top: 0;
+		height: calc(100% - #{$header-height});
+		min-height: calc(100% - #{$header-height});
+	}
+
+	.inner {
+		padding: $base-height;
+	}
+}

@@ -1,5 +1,5 @@
 ---
-name: WAZA 10A
+title: WAZA 10A
 category: plug
 type: Plug
 standard: eu

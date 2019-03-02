@@ -1,6 +1,6 @@
 ---
 date: 2019-03-01
-name: Nexlux
+title: Nexlux
 category: light
 type: LED Controller
 standard: global

@@ -1,5 +1,5 @@
 ---
-name: Martin Jerry 15A
+title: Martin Jerry 15A
 category: switch
 type: Switch
 standard: us

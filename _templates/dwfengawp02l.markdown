@@ -1,5 +1,5 @@
 ---
-name: DWFeng AWP02L-N
+title: DWFeng AWP02L-N
 category: plug
 type: Plug
 standard: us

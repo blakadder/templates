@@ -1,5 +1,5 @@
 ---
-name: AWP04L Power Monitoring
+title: AWP04L Power Monitoring
 category: plug
 type: Plug
 standard: us

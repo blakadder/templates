@@ -1,5 +1,5 @@
 ---
-name: Merkury A21 75W
+title: Merkury A21 75W
 category: light
 type: Bulb
 standard: us

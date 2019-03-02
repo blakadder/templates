@@ -1,61 +1,77 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+	<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Mjswitch | Tasmota Device Templates</title>
-<meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="Mjswitch" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Tasmota device templates" />
-<meta property="og:description" content="Tasmota device templates" />
-<link rel="canonical" href="http://localhost:4000/templates/mjswitch.html" />
-<meta property="og:url" content="http://localhost:4000/templates/mjswitch.html" />
-<meta property="og:site_name" content="Tasmota Device Templates" />
-<meta property="og:image" content="https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/MJSwitch2.jpg" />
-<script type="application/ld+json">
-{"headline":"Mjswitch","url":"http://localhost:4000/templates/mjswitch.html","description":"Tasmota device templates","image":"https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/MJSwitch2.jpg","@type":"WebPage","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+  <title>Martin Jerry 15A</title>
+  <meta name="description" content="">
 
-    <link rel="stylesheet" href="/templates/assets/css/style.css?v=86acff07a3593251e287545ced33aa23a1928809">
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      <h1><a href="http://localhost:4000/templates/">Tasmota Device Templates</a></h1>
-      
+	<link rel="icon" href="/templates/assets/images/favicon.ico">
+  <link rel="canonical" href="http://localhost:4000/templates/mjswitch.html">
 
-      <h1>Martin Jerry 15A -  US Switch</h1>
-<div align="right"><a href="https://github.com/blakadder/templates/tree/master/_templates/mjswitch.markdown">Edit this page on GitHub</a></div>
-<img src="https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/MJSwitch2.jpg" alt="Martin Jerry 15A" height="250">
+	<link rel="stylesheet" href="/templates/assets/css/docs.css">
+
+</head>
+
+	<body>
+		<div class="wrapper">
+			<sidebar class="sidebar" id="sidebar">
+	<div class="sidebar-mobile">
+		<img src="/templates/assets/images/menu.svg" class="menu-icon" id="menu" />
+		<img src="/templates/assets/images/close.svg" class="close-icon" id="close" />
+	</div>
+	<div class="search">
+	<input type="text" class="search-input" id="search-input" placeholder="Type to search" />
+</div>
+
+	<div class="sidebar-main">
+		<ul class="navigation" id="navigation">																<li>				<a class="" href="/templates/new.html">					Add New Template				</a>			</li>								<li>				<a class="" href="/templates/">					Home				</a>			</li>								<li>				<a class="" href="/templates/eu.html">					EU Devices				</a>			</li>								<li>				<a class="" href="/templates/us.html">					US Devices				</a>			</li>								<li>				<a class="" href="/templates/uk.html">					UK Devices				</a>			</li>								<li>				<a class="" href="/templates/anzac.html">					AU-NZ-AR-CN Devices				</a>			</li>								<li>				<a class="" href="/templates/all.html">					All Devices				</a>			</li>								<li>				<a class="" href="/templates/plug.html">					Plugs, Sockets & Power Strips				</a>			</li>								<li>				<a class="" href="/templates/light.html">					Light Bulbs and LEDs				</a>			</li>								<li>				<a class="" href="/templates/switch.html">					Switches & Dimmers				</a>			</li>								<li>				<a class="" href="/templates/misc.html">					Miscellaneous Devices				</a>			</li>			</ul>
+
+		<ul id="search-results" class="navigation"></ul>
+
+	</div>
+</sidebar>
+
+			<main class="content">
+				<div class="inner">
+					<div class="float-right">
+  <a align="right" class="button" href="switch.html">SWITCH</a>
+  <a align="right" class="button" href="us.html">US</a>
+</div>
+  <h1>Martin Jerry 15A Switch </h1>
+  <img src="https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/MJSwitch2.jpg" alt="" height="250">
+  <div class="float-right">
+      <b>
+        Available from:
+      </b>
+      <br>
+    <a href="https://www.amazon.com/Martin-Jerry-Devices-required-installation/dp/B07GSTJ8TV">Amazon.com</a>
+    <br>
+    <a href=""></a>
+  </div>
 <br>
-<h3>Available from:</h3>
-<a href="https://www.amazon.com/Martin-Jerry-Devices-required-installation/dp/B07GSTJ8TV">Amazon.com</a>
-&nbsp;
-<a href=""></a>
-
-<h2>Template</h2>
-
-    
-<figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="w">  </span><span class="p">{</span><span class="s2">"NAME"</span><span class="p">:</span><span class="s2">"MJ Switch"</span><span class="p">,</span><span class="s2">"GPIO"</span><span class="p">:[</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">57</span><span class="p">,</span><span class="mi">56</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">21</span><span class="p">,</span><span class="mi">17</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">255</span><span class="p">],</span><span class="s2">"FLAG"</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="s2">"BASE"</span><span class="p">:</span><span class="mi">18</span><span class="p">}</span></code></pre></figure>
+<h4>Template</h4>
+<pre><code>{"NAME":"MJ Switch","GPIO":[255,255,255,255,57,56,255,255,21,17,255,255,255],"FLAG":0,"BASE":18}</code></pre>
+<h4>Notes</h4>
 
 
+<div class="float-right">
+  <a class="button button-clear button-small" href="/tree/master/_templates/mjswitch.markdown">
+    Edit on GitHub
+  </a>
+</div>
 
+				</div>
+			</main>
+		</div>
+		<script src="/templates/assets/js/zepto.min.js"></script>
+<script src="/templates/assets/js/lunar.min.js"></script>
+<script src="/templates/assets/js/prism.min.js"></script>
+<script src="/templates/assets/js/database.js"></script>
+<script src="/templates/assets/js/search.js"></script>
+<script src="/templates/assets/js/mobile-navigation.js"></script>
 
-
-<h2>Notes</h2>
-
-
-
-
-
-      
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-    
-  </body>
+	</body>
 </html>

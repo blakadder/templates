@@ -1,5 +1,5 @@
 ---
-name: Sonoff S22
+title: Sonoff S22
 category: plug
 type: Plug
 standard: anzac

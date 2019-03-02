@@ -1,5 +1,5 @@
 ---
-name: BSD15
+title: BSD15
 category: plug
 type: Plug
 standard: us

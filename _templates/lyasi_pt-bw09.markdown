@@ -1,6 +1,6 @@
 ---
 date: 2019-03-01
-name: Lyasi PT-BW09
+title: Lyasi PT-BW09
 category: light
 type: Bulb
 standard: eu

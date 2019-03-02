@@ -1,5 +1,5 @@
 ---
-name: Esicoo YX-WS01
+title: Esicoo YX-WS01
 category: plug
 type: Plug
 standard: us

@@ -1,5 +1,5 @@
 ---
-name: Avatar 10A
+title: Avatar 10A
 category: plug
 type: Plug
 standard: eu

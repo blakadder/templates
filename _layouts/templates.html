@@ -1,26 +1,28 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }} -  {{ page.standard | upcase }} {{ page.type }}</h1>
-<div align="right"><a href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit this page on GitHub</a></div>
-<img src="{{ page.image }}" alt="{{ page.name }}" height="250">
+<div class="float-right">
+  <a align="right" class="button" href="{{ page.category | downcase }}.html">{{ page.category | upcase }}</a>
+  <a align="right" class="button" href="{{ page.standard | downcase }}.html">{{ page.standard | upcase }}</a>
+</div>
+  <h1>{{ page.title }} {{ page.type }} </h1>
+  <img src="{{ page.image }}" alt="{{ page.name }}" height="250">
+  <div class="float-right">
+      <b>
+        Available from:
+      </b>
+      <br>
+    <a href="{{page.link}}">{{ page.link | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+    <br>
+    <a href="{{page.link_alt}}">{{ page.link_alt | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+  </div>
 <br>
-<h3>Available from:</h3>
-<a href="{{page.link}}">{{ page.link | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
-&nbsp;
-<a href="{{page.link_alt}}">{{ page.link_alt | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
-
-<h2>Template</h2>
-{% if page.template contains "NAME" %}
-    {% highlight json %}
-  {{ page.template }}
-{% endhighlight %}
-{% endif %}
-
-{% if page.screenshot contains "http" %}
-<img src="{{ page.screenshot }}" alt="{{ page.name }}">
-{% endif %}
-
-<h2>Notes</h2>
-
+<h4>Template</h4>
+<pre><code>{{ page.template }}</code></pre>
+<h4>Notes</h4>
 {{ content | markdownify }}
+<div class="float-right">
+  <a class="button button-clear button-small" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">
+    Edit on GitHub
+  </a>
+</div>

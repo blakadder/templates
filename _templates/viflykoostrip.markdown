@@ -1,5 +1,5 @@
 ---
-name: Viflykoo 3AC+4USB
+title: Viflykoo 3AC+4USB
 category: plug #use only (plug, switch, light, misc)
 type: Power Strip
 standard: eu

@@ -1,5 +1,5 @@
 ---
-name: XS-SSA05 
+title: XS-SSA05 
 category: plug
 type: Plug
 standard: us

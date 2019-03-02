@@ -1,6 +1,6 @@
 ---
 date: 2019-03-02
-name: Gosund WP3
+title: Gosund WP3
 category: plug
 type: Plug
 standard: us

@@ -1,5 +1,5 @@
 ---
-name: Feit Electric BR30 65W
+title: Feit Electric BR30 65W
 category: light
 type: Bulb
 standard: us

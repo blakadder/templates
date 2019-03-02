@@ -1,5 +1,5 @@
 ---
-name: BSD29
+title: BSD29
 category: plug
 type: Plug
 standard: uk

@@ -1,5 +1,5 @@
 ---
-name: LC-Tech 1Ch and PZEM-004T
+title: LC-Tech 1Ch and PZEM-004T
 category: plug
 type: DIY Plug
 standard: us

@@ -1,0 +1,14 @@
+{% capture html %}
+<ul class="navigation" id="navigation">
+	{% assign entries = site.pages | sort: "navigation" %}
+	{% for entry in entries %}
+		{% if entry.navigation %}
+			<li>
+				<a class="{% if page.url == entry.url entry.url %}active{% endif %}" href="{{ entry.url | relative_url }}">
+					{{ entry.title }}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}

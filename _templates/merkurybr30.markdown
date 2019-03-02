@@ -1,5 +1,5 @@
 ---
-name: Merkury BR30 65W
+title: Merkury BR30 65W
 category: light
 type: Bulb
 standard: us

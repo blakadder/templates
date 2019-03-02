@@ -1,5 +1,5 @@
 ---
-name: Panamalar NX-SM200 16A
+title: Panamalar NX-SM200 16A
 category: plug
 type: Plug
 standard: eu

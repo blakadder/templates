@@ -1,0 +1,16 @@
+---
+layout: default
+title: Switches & Dimmers
+navigation: 12
+---
+<!-- ######################################################################  -->
+<h3>Switches & Dimmers</h3>
+<table id="Devices" width="80%">
+<tbody>
+{% assign standard = site.templates %}
+{% assign plug = standard | where: "category", "switch" %}
+{% for template in plug %}
+{% include tablerow.html %}
+{% endfor %}
+</tbody>
+</table>

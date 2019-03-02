@@ -1,22 +1,19 @@
 ---
 layout: default
-title: UK devices
+title: UK Devices
+navigation: 5
 ---
 <!-- ######################################################################  -->
 {% assign standard_country = site.templates | where: "standard", "uk" %}
 {% assign standard_global = site.templates | where: "standard", "global" %}
 {% assign standard = standard_country | concat: standard_global %}
 
-<h3>Plugs/Sockets</h3>
+<h3>Plugs, Sockets & Power Strips</h3>
 <table id="Devices" width="80%">
 <tbody>
 {% assign plug = standard | where: "category", "plug" %}
 {% for template in plug %}
-<tr>
-  <td width="50%"><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
-  <td width="25%"align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
-  <td width="25%">{{ template.type | downcase }}</td>
-</tr>
+{% include tablerow.html %}
 {% endfor %}
 </tbody>
 </table>
@@ -27,40 +24,28 @@ title: UK devices
 <tbody>
 {% assign light = standard | where: "category", "light" %}
 {% for template in light %}
-<tr>
-  <td width="50%"><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
-  <td width="25%"align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
-  <td width="25%">{{ template.type | downcase }}</td>
-</tr>
+{% include tablerow.html %}
 {% endfor %}
 </tbody>
 </table>
 
 <!-- ######################################################################  -->
-<h3>Switches/Dimmers</h3>
+<h3>Switches & Dimmers</h3>
 <table id="Devices" width="80%">
 <tbody>
 {% assign switch = standard | where: "category", "switch" %}
 {% for template in switch %}
-<tr>
-<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
-<td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
-<td>{{ template.type | downcase }}</td>
-</tr>
+{% include tablerow.html %}
 {% endfor %}
 </tbody>
 </table>
 <!-- ######################################################################  -->
-<h3>Misc</h3>
+<h3>Miscellaneous</h3>
 <table id="Devices" width="80%">
 <tbody>
 {% assign misc = standard | where: "category", "misc" %}
 {% for template in misc %}
-<tr>
-<td><b><a href="{{site.baseurl}}{{ template.url }}">{{ template.name }}</a></b></td>
-<td align="center"><img src="{{ template.image }}" alt="{{ template.name }}" height="70"></td>
-<td>{{ template.type | downcase }}</td>
-</tr>
+{% include tablerow.html %}
 {% endfor %}
 </tbody>
 </table>

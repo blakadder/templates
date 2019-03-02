@@ -1,3 +1,23 @@
+title: Tasmota Templates
+description: Repository of templates for Tasmota
+url: "https://blakadder.github.io"
+baseurl: "/templates"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 collections:
   templates:
     output: true
@@ -9,8 +29,3 @@ defaults:
       type: "templates"
     values:
       layout: "templates"
-future: true
-highlighter: rouge
-title: Tasmota Device Templates
-url: "https://blakadder.github.io"
-baseurl: "/templates"

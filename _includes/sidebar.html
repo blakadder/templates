@@ -1,0 +1,11 @@
+<sidebar class="sidebar" id="sidebar">
+	<div class="sidebar-mobile">
+		<img src="{{ "/assets/images/menu.svg" | relative_url }}" class="menu-icon" id="menu" />
+		<img src="{{ "/assets/images/close.svg" | relative_url }}" class="close-icon" id="close" />
+	</div>
+	{% include search.html %}
+	<div class="sidebar-main">
+		{% include navigation.html %}
+		{% include search-results.html %}
+	</div>
+</sidebar>

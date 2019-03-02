@@ -1,5 +1,5 @@
 ---
-name: Oukitel P1
+title: Oukitel P1
 category: plug
 type: Plug
 standard: us

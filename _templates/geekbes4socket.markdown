@@ -1,5 +1,5 @@
 ---
-name: Geekbes 4AC+4USB
+title: Geekbes 4AC+4USB
 category: plug
 type: Power Strip
 standard: eu

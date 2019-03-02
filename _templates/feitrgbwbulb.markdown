@@ -1,5 +1,5 @@
 ---
-name: Feit Electric A19
+title: Feit Electric A19
 category: light
 type: Bulb
 standard: us
