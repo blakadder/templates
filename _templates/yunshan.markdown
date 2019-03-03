@@ -14,5 +14,7 @@ link_alt: https://www.ebay.com/p/Esp8266-220v-10a-Network-Relay-WiFi-Module/1369
 
 This works great for a garage door opener and then use the 2nd input for feedback with a magnetic door switch.
 
-'{"NAME":"Yunshan ","GPIO":[255,255,255,255,21,10,255,255,22,255,255,255,255],"FLAG":0,"BASE":18}'
+```json
+{"NAME":"Yunshan ","GPIO":[255,255,255,255,21,10,255,255,22,255,255,255,255],"FLAG":0,"BASE":18}
+```
 
