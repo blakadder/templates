@@ -1,0 +1,19 @@
+---
+date: 2019-03-06
+title: GDTech W-US001
+category: plug
+type: Plug
+standard: us
+link: https://www.amazon.ca/gp/product/B07MJCDV25/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
+image: http://i63.tinypic.com/348iusy.png
+template: '{"NAME":"GDTech W-US001","GPIO":[255,17,255,255,255,255,255,255,255,56,21,255,255],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+
+
+
+
+
+
+
