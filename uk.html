@@ -4,14 +4,14 @@ title: UK Devices
 navigation: 5
 ---
 <!-- ######################################################################  -->
-{% assign standard_country = site.templates | where: "standard", "uk" %}
-{% assign standard_global = site.templates | where: "standard", "global" %}
+{% assign standard_country = site.templates | where: "standard", "uk" | sort: 'title' %}
+{% assign standard_global = site.templates | where: "standard", "global" | sort: 'title' %}
 {% assign standard = standard_country | concat: standard_global %}
 
 <h3>Plugs, Sockets & Power Strips</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign plug = standard | where: "category", "plug" %}
+{% assign plug = standard | where: "category", "plug" | sort: 'title' %}
 {% for template in plug %}
 {% include tablerow.html %}
 {% endfor %}
@@ -22,9 +22,9 @@ navigation: 5
 <h3>Lights</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign standard_eu = site.templates | where: "standard", "eu" %}
+{% assign standard_eu = site.templates | where: "standard", "eu" | sort: 'title' %}
 {% assign standardlight = standard_country | concat: standard_global | concat: standard_eu %}
-{% assign light = standardlight | where: "category", "light" %}
+{% assign light = standardlight | where: "category", "light" | sort: 'title' %}
 {% for template in light %}
 {% include tablerow.html %}
 {% endfor %}
@@ -35,7 +35,7 @@ navigation: 5
 <h3>Switches & Dimmers</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign switch = standard | where: "category", "switch" %}
+{% assign switch = standard | where: "category", "switch" | sort: 'title' %}
 {% for template in switch %}
 {% include tablerow.html %}
 {% endfor %}
@@ -45,7 +45,7 @@ navigation: 5
 <h3>Miscellaneous</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign misc = standard | where: "category", "misc" %}
+{% assign misc = standard | where: "category", "misc" | sort: 'title' %}
 {% for template in misc %}
 {% include tablerow.html %}
 {% endfor %}

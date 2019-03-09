@@ -8,7 +8,7 @@ navigation: 13
 <table id="Devices" width="80%">
 <tbody>
 {% assign standard = site.templates %}
-{% assign plug = standard | where: "category", "misc" %}
+{% assign plug = standard | where: "category", "misc" | sort: 'title' %}
 {% for template in plug %}
 {% include tablerow.html %}
 {% endfor %}
