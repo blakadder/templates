@@ -1,0 +1,17 @@
+---
+date: 2019-03-09
+title: SS118-01K1
+category: switch
+type: Switch
+standard: us
+link: https://www.aliexpress.com/store/product/Zemismart-WiFi-switch-Push-Wall-Switches-Alexa-Google-home-Enable-APP-Remote-Control/1848374_32965399160.html
+image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/ss118-01k1_switch.jpg
+template: '{"NAME":"SS118-01K1","GPIO":[255,255,255,17,21,255,255,255,255,255,56,255,255],"FLAG":0,"BASE":18}' 
+link_alt: https://www.amazon.com/Switch-Installation-Compatible-Assistant-Required/dp/B07FTJWLCP
+---
+https://github.com/arendst/Sonoff-Tasmota/wiki/Smart-Light-Switch----SS118-01K1----TYWE3S
+
+
+
+
+
