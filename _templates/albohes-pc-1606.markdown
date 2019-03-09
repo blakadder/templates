@@ -2,7 +2,7 @@
 date: 2019-03-06
 title: Albohes PC-1606
 category: plug
-type: Plug
+type: Outdoor Plug
 standard: eu
 link: https://www.amazon.de/albohes-Intelligente-Wasserdicht-Unterstützt-WifiVerbindung/dp/B07CVHJJ4Z/ref=sr_1_3
 image: https://images-na.ssl-images-amazon.com/images/I/511NUQcKK-L._SL1000_.jpg
