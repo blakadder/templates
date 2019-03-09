@@ -22,7 +22,9 @@ navigation: 5
 <h3>Lights</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign light = standard | where: "category", "light" %}
+{% assign standard_eu = site.templates | where: "standard", "eu" %}
+{% assign standardlight = standard_country | concat: standard_global | concat: standard_eu %}
+{% assign light = standardlight | where: "category", "light" %}
 {% for template in light %}
 {% include tablerow.html %}
 {% endfor %}

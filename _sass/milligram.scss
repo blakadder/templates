@@ -535,7 +535,7 @@ ul {
 
 table {
   border-spacing: 0;
-  width: 80%;
+  width: 85%;
 }
 
 td,
@@ -549,6 +549,12 @@ td:first-child,
 th:first-child {
   padding-left: 1;
   text-align: center;
+}
+
+td:nth-child(2),
+th:nth-child(2) {
+  padding-left: 0.6rem;
+  min-width: 200px;
 }
 
 td:last-child,
@@ -631,6 +637,6 @@ img {
 
 .footer {
     bottom: 0%;
-    position: fixed;
+    position: absolute;
 }
 /*# sourceMappingURL=milligram.css.map */
