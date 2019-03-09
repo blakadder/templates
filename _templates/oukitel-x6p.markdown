@@ -1,6 +1,6 @@
 ---
 date: 2019-03-09
-title: OUKITEL X6P
+title: Oukitel X6P
 category: plug
 type: Plug
 standard: us
