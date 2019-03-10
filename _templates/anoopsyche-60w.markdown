@@ -1,6 +1,6 @@
 ---
 date: 2019-03-10
-title: Anoopsyche 2700K-6500K 60W
+title: Anoopsyche CW/WW 60W
 category: light
 type: Bulb
 standard: us
