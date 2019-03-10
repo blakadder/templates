@@ -1,6 +1,6 @@
 ---
 date: 2019-03-10
-title: dodocool SA-P402A
+title: S2199EU
 category: switch
 type: Power Strip
 standard: eu
