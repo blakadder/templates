@@ -1,0 +1,19 @@
+---
+date: 2019-03-09
+title: KS-604S Wall
+category: plug
+type: Plug
+standard: us
+link: https://www.amazon.com/gp/product/B07JZ124FK
+image: https://raw.githubusercontent.com/DavinKD/SmartThings/master/DeviceImages/ks-604s.jpg
+template: '{"NAME":"KS-604S","GPIO":[255,255,31,255,255,18,255,255,22,21,255,255,17],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+
+Flash OTA with Tuya-Convert
+
+
+
+
+
