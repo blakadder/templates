@@ -2,7 +2,7 @@
 date: 2019-03-03
 title: Emylo YSA111A1N-FBA
 category: switch
-type: Switch
+type: Relay
 standard: global
 link: https://www.amazon.it/gp/product/B07FPLBGRN/
 image: https://images-na.ssl-images-amazon.com/images/I/519CgwGg5yL._SL1001_.jpg
