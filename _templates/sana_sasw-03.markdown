@@ -3,7 +3,7 @@ date: 2019-03-11
 title: SANA SASW-03 
 category: switch
 type: Switch
-standard: anzac
+standard: us
 link: https://www.amazon.com/gp/product/B07JLL5Q8Q
 image: https://images-na.ssl-images-amazon.com/images/I/51N17Nca9TL._SL1500_.jpg
 template: '{"NAME":"SANA SASW-03","GPIO":[54,0,0,19,23,18,0,0,17,21,0,22,0],"FLAG":0,"BASE":18}' 
