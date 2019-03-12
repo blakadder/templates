@@ -1,6 +1,6 @@
 ---
 date: 2019-03-11
-title: Moes 2 Gang Glass Touch 
+title: Moes 2 Switch Glass Touch 
 category: switch
 type: Switch
 standard: anzac
