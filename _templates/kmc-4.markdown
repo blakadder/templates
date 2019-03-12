@@ -4,7 +4,7 @@ title: KMC 4 30608
 category: plug
 type: Plug
 standard: us
-link: https://www.amazon.com/dp/B0786B1LGM/ref=cm_sw_r_tw_dp_U_x_juOHCbE5YVJM9
+link: https://www.amazon.com/dp/B0786B1LGM
 image: https://images-na.ssl-images-amazon.com/images/I/41W9sOQhBKL._SX679_.jpg
 template: '{"NAME":"KMC 4 Outlet","GPIO":[0,56,0,0,133,132,0,0,130,22,23,21,17],"FLAG":0,"BASE":36}' 
 link_alt: 
