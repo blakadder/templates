@@ -15,8 +15,6 @@ link_alt: https://www.ebay.de/itm/Smart-Wifi-Schalter-Smart-Home-Switch-Modul-10
 * Nice size and form factor - can be used as Sonoff Basic R2
 * There seems to be no unique name for the device in the market. The one I ordered for testing Tasmota was packaged by brand / model **Canwing CW-001**. Let's use this naming for all similar devices.
 * Operating the device under the original firmware by use of eWeLink-App shows "Coolkit 0185" as brand / model supported by **ESP8285**.
-* Source of supply was "ebay.de", seller "globewin", ordered 2019-01-12 for a price of **6,89 Euro**, received in 14 calendar days. Additionally by name „ASHATA Intelligente WLAN Schalter“ this device is proposed by "amazon.de", seller "Richer-R123" for a price of 9,39 Euro.
-* Aliexpress: [Wi-Fi Smart Switch 5A](https://www.aliexpress.com/item/Wifi-Smart-Switch-Wireless-APP-Remote-Control-Smart-Home-Module-AC100-240V-5A/32960838208.html?spm=2114.search0104.3.296.41c2686fWTbJOC&ws_ab_test=searchweb0_0,searchweb201602_5_10065_10068_319_10059_10884_317_10887_10696_321_322_453_10084_454_10083_10103_10618_10307_10820_10301_10821_10303_537_536_10902,searchweb201603_51,ppcSwitch_0&algo_expid=944c44ab-ae14-4303-862f-1c8e359d9f2f-37&algo_pvid=944c44ab-ae14-4303-862f-1c8e359d9f2f&transAbTest=ae803_5)
 
 ## Features of original device / firmware:
 * Remote control domestic appliances - a phone with 2.4G WiFi can remote control all domestic appliances through phone app.
