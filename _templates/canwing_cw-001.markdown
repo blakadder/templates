@@ -51,9 +51,3 @@ link_alt: https://www.ebay.de/itm/Smart-Wifi-Schalter-Smart-Home-Switch-Modul-10
 ## Magic moment – eWeLink slips away – Tasmota appears:
 ![cw001_flash_1](https://user-images.githubusercontent.com/42893315/52245698-00588800-28e3-11e9-84d3-bde97e2384ea.png)
 ![cw001_flash_2](https://user-images.githubusercontent.com/42893315/52245683-fe8ec480-28e2-11e9-9f62-43887bfd85f1.png)
-
-
-## Result:
-![cw001_flash_3](https://user-images.githubusercontent.com/42893315/52245685-fe8ec480-28e2-11e9-821e-9b3698f11a8b.png)
-![cw001_flash_4](https://user-images.githubusercontent.com/42893315/52245690-ffbff180-28e2-11e9-8e8a-be23a5ac5a75.png)
-
