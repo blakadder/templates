@@ -1,0 +1,20 @@
+---
+date: 2019-03-14
+title: Koogeek KLOE4
+category: plug
+type: Power Strip
+standard: eu
+link: https://www.koogeek.com/p-kloe4.html
+image: https://img.tttcdn.com/product/xy/500/500/images/tomtopsite/K/KLOE4/KLOE4-15391659717421.jpg
+template: '{"NAME":"Koogeek KLOE4","GPIO":[0,56,0,17,22,21,0,0,23,24,25,0,0],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+Seems to be identical to (https://blakadder.github.io/templates/geekbes4socket.html)[https://blakadder.github.io/templates/geekbes4socket.html]
+
+
+
+
+
+
+
