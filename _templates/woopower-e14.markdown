@@ -9,15 +9,15 @@ image: https://user-images.githubusercontent.com/5904370/54396962-14975e00-46b5-
 template: '{"NAME":"Woopower E14","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
 link_alt: 
 ---
-Specifications:
-Material: Aluminum alloy+PC.
-Beam angle: 180 degree.
-CRI: >80Ra (vivid and natural light)
-Voltage: 85-265V 
-Wattage: 5W
-Colour: 6000K+RGB
-Luminous Intensity: 460LM
-LED Working Temperature: -25 degree - +45 degree
-Lifespan: 30,000 hours
-Bulb connector: E14
-Size: 40*118mm
+- Specifications:
+- Material: Aluminum alloy+PC.
+- Beam angle: 180 degree.
+- CRI: >80Ra (vivid and natural light)
+- Voltage: 85-265V 
+- Wattage: 5W
+- Colour: 6000K+RGB
+- Luminous Intensity: 460LM
+- LED Working Temperature: -25 degree - +45 degree
+- Lifespan: 30,000 hours
+- Bulb connector: E14
+- Size: 40*118mm
