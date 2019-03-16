@@ -9,6 +9,7 @@ image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpg
 template: '{"NAME":"Moes 3-Way","GPIO":[255,255,255,255,21,57,0,0,30,10,9,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
+To control the switch via MQTT you will need to monitor the Power1 state and send an ON/OFF as an event command.  If the light is backwards toggle the Power1 eelay once on the Tasmota GUI to follow the light correctly.  Power1 state should then follow the "light on" sensor after this.  
 ```lua
 rule1 on event#ON do power2 TOGGLE endon
 rule2 on event#OFF do power2 TOGGLE endon
@@ -19,9 +20,6 @@ switchmode1 0
 switchmode2 5
 setoption32 7
 ```
-
-To control the switch via MQTT you will need to monitor the Power1 state and send an ON/OFF as an event command.  If the light is backwards toggle the Power1 eelay once on the Tasmota GUI to follow the light correctly.  Power1 state should then follow the "light on" sensor after this.  
-
 *Optional: A long press rule can be added to the rule3 if needed for switch2#state=3 for a long press action.*
 
 ### Sample Home Assistant Config
