@@ -9,8 +9,7 @@ image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpg
 template: '{"NAME":"Moes 3-Way","GPIO":[255,255,255,255,21,57,0,0,30,10,9,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
-
-```
+```lua
 rule1 on event#ON do power2 TOGGLE endon
 rule2 on event#OFF do power2 TOGGLE endon
 rule3 on power1#state=1 do backlog rule1 0; rule2 1 endon on power1#state=0 do backlog rule1 1; rule2 0 endon on switch2#state=3 do publish Moes3Way/Action Long endon
