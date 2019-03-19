@@ -9,6 +9,17 @@ image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpg
 template: '{"NAME":"SS118-01K1","GPIO":[255,255,255,17,21,255,255,255,255,255,56,255,255],"FLAG":0,"BASE":18}' 
 link_alt: https://www.amazon.com/Switch-Installation-Compatible-Assistant-Required/dp/B07FTJWLCP
 ---
-Generic Smart Light Switch from Amazon, based in ESP8266, internal module Tuya TYWE3S
+Generic Smart Light Switch from Amazon, based in ESP8266, internal module Tuya TYWE3S. Flashable with Tuya-Convert
 
-[https://github.com/arendst/Sonoff-Tasmota/wiki/Smart-Light-Switch----SS118-01K1----TYWE3S](https://github.com/arendst/Sonoff-Tasmota/wiki/Smart-Light-Switch----SS118-01K1----TYWE3S)
+### Product 
+
+![Package](https://github.com/willngton/Smarth_Plug_LA_WF3/blob/master/Switch_SS118_01.png)
+![Back](https://github.com/willngton/Smarth_Plug_LA_WF3/blob/master/Switch_SS118_02.png)
+![Internal](https://github.com/willngton/Smarth_Plug_LA_WF3/blob/master/Switch_SS118_03.png)
+![Internal](https://github.com/willngton/Smarth_Plug_LA_WF3/blob/master/Switch_SS118_04.png)
+
+
+### Serial Flashing
+GPIO0 Needs to be grounded in order to get into programing mode.
+
+![Pins](https://github.com/willngton/Smarth_Plug_LA_WF3/blob/master/Switch_SS118_05.png)
