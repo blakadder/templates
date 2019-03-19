@@ -1,14 +1,37 @@
 ---
-title: Geekbes 4AC+4USB
+date: 2019-03-19
+title: CE Garden Power Stake
 category: plug
 type: Power Strip
-standard: eu
-link: https://www.amazon.de/gp/product/B078W23BW9
-image: https://images-na.ssl-images-amazon.com/images/I/51blfM-4LXL._SL1000_.jpg
-template: '{"NAME":"Geekbes 4xStri","GPIO":[0,56,0,17,22,21,0,0,23,24,25,0,0],"FLAG":1,"BASE":18}
-'
+standard: us
+link: https://www.amazon.com/Wi-Fi-Smart-Outdoor-outlets-Compatible/dp/B07M83WG1J
+image: https://user-images.githubusercontent.com/5904370/54647111-aaf6c580-4aa1-11e9-8da2-fab79ef32e4e.png
+template: '{"NAME":"CE Power Stake","GPIO":[255,255,255,255,56,57,255,255,21,17,255,255,255],"FLAG":0,"BASE":18}'
+alt_link: https://www.ebay.com/itm/CE-Wi-Fi-Smart-Home-Outdoor-Garden-Power-Stake-iOS-Android-Remote-Control/143177384799
 ---
-Button controls single relay only. To switch other relays:
-```
-rule on button1#state do backlog POWER1 toggle; POWER2 toggle; POWER3 toggle; POWER4 toggle; POWER5 toggle endon
-```
+### Connection
+This 6-outlet outdoor garden power stake is controlled by a standard ESP-12 chip connected to a single relay, meaning that all 6 outlets are on or off simultaneously. It also has a mains switch, a manual relay trigger button, and an LED indicator.
+
+|Programmer  | Power Stake        |
+|------------|--------------------|
+|        3V3 | VCC                |
+|         TX | RX                 |
+|         RX | TX                 |
+|        GND | GND                |
+
+The button is not connected to `D0`, so you will need to shunt `D0`/`GPIO0` to GND to enable programming mode. You may need to briefly shunt RESET to GND in order to initiate connections to the device.
+
+### Internal Device Image
+[[https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_esp12s.jpg|alt=PowerStake Pinout]]
+   
+### Generic Module Config
+[[https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_tasmota_config.jpg|alt=Generic Module Config]] 
+
+### Additional Information
+
+This device was found at Costco, and in fact appears to be made _for_ Costco (see image below). The regular price was $13.97 USD, but was on sale for Christmas for $9.99 USD.
+
+[[https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_front.jpg|alt=PowerStake Box Front]]
+[[https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_rear.jpg|alt=PowerStake Box Rear]]
+[[https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_side1.jpg|alt=PowerStake Box Side 1]]
+[[https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_side2.jpg|alt=PowerStake Box Side 2]]
