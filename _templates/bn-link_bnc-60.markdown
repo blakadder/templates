@@ -6,8 +6,8 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07HPG58FP/
 image: https://user-images.githubusercontent.com/5904370/54481150-5d742180-4831-11e9-8dea-6e1cbf6ef1bd.png
-template: '{"NAME":"BNC-60/U133TJ","GPIO":[0,56,0,17,133,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"BNC-60/U133TJ","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
-Same configuration as European ANCCY plug.
+Same configuration as European ANCCY plug except GPIO4.
