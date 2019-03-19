@@ -10,7 +10,7 @@ template: '{"NAME":"DG-SP01","GPIO":[255,17,255,21,56,37,255,255,38,39,40,255,25
 link_alt: 
 ---
 
-
+**It has been reported that the plug is unstable with this template!**
 
 
 
