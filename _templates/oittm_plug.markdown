@@ -1,0 +1,37 @@
+---
+title: Oittm Smart
+category: plug
+type: Plug
+standard: us
+link: https://www.oittm.com/Oittm-Wifi-Smart-Plug
+image: https://dustplanet.de/wp-content/uploads/2018/12/Screen-Shot-2018-12-02-at-12.26.29-AM.png
+template: '{"NAME":"Oittm","GPIO":[0,0,0,0,21,56,0,0,17,0,0,0,0],"FLAG":0,"BASE":1}' 
+link_alt: https://www.aliexpress.com/item/Oittm-Wifi-Smart-Plug-Home-Automation-Phone-APP-Timing-Switch-Remote-Control-Wifi-Socket-Working-With/32881262369.html
+---
+Although the instructions are for the EU version, this plug as available in US and UK plug types too
+
+Oittm provides a relatively cheap Wifi smart plug with an ESP8266, too.  
+
+![]()
+
+To enable the flash mode of the ESP connect GPIO 0 to GND. The wires have to be soldered directly onto the ESP chip itself, it won't work otherwise.
+
+## Opening the device
+
+Remove the small plastics caps on the back and unscrew the first two screws and then again the next ones
+
+![](https://dustplanet.de/wp-content/uploads/2018/12/IMG_8210.jpg)
+![](https://dustplanet.de/wp-content/uploads/2018/12/IMG_0443.jpg)
+
+## PCB layout
+
+**_!!Make sure to flash with 3.3V and disconnect the power plug from the power outlet before!!_**
+
+![](https://dustplanet.de/wp-content/uploads/2018/12/IMG_4920.jpeg)
+![](https://dustplanet.de/wp-content/uploads/2018/12/IMG_8727.jpeg)
+
+## Web configuration
+
+#### If you want the blue LED instead of the red one, use `Led2i`
+
+![](https://dustplanet.de/wp-content/uploads/2018/12/Screen-Shot-2018-12-02-at-11.20.15-PM.png)
