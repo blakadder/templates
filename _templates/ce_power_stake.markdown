@@ -22,16 +22,16 @@ This 6-outlet outdoor garden power stake is controlled by a standard ESP-12 chip
 The button is not connected to `D0`, so you will need to shunt `D0`/`GPIO0` to GND to enable programming mode. You may need to briefly shunt RESET to GND in order to initiate connections to the device.
 
 ### Internal Device Image
-![](https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_esp12s.jpg)
+![](https://raw.githubusercontent.com/untergeek/shared_images/master/devices/powerstake/powerstake_esp12s.jpg)
    
 ### Generic Module Config
-![](https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_tasmota_config.jpg)
+![](https://raw.githubusercontent.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_tasmota_config.jpg)
 
 ### Additional Information
 
 This device was found at Costco, and in fact appears to be made _for_ Costco (see image below). The regular price was $13.97 USD, but was on sale for Christmas for $9.99 USD.
 
-![](https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_front.jpg)
-![](https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_rear.jpg)
-![](https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_side1.jpg)
-![](https://github.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_side2.jpg)
+![](https://raw.githubusercontent.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_front.jpg)
+![](https://raw.githubusercontent.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_rear.jpg)
+![](https://raw.githubusercontent.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_side1.jpg)
+![](https://raw.githubusercontent.com/untergeek/shared_images/blob/master/devices/powerstake/powerstake_side2.jpg)
