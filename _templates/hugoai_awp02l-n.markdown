@@ -1,0 +1,13 @@
+---
+date: 2019-03-20
+title: AWP02L-N
+category: plug
+type: Plug
+standard: us
+link: https://www.amazon.com/gp/product/B07LF768Y8
+image: https://images-na.ssl-images-amazon.com/images/I/41BNWkmtn2L._SL1001_.jpg
+template: '{"NAME":"AWP02L-N","GPIO":[57,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+
