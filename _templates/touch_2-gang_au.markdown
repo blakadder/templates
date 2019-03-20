@@ -1,6 +1,6 @@
 ---
 date: 2019-03-08
-title: 2 Gang Touch
+title: Touch 2 Gang
 category: switch
 type: Switch
 standard: anzac
@@ -9,11 +9,4 @@ image: https://image.pushauction.com/0/0/ccedd968-69cc-4a07-a5ef-f846e1b5c221/63
 template: '{"NAME":"tuya_2_gang","GPIO":[52,0,0,0,18,0,0,0,17,21,255,22,29],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
-
-
 Button 2 does not turn on to reflect the state of relay 2.
-
-
-
-
-
