@@ -1,6 +1,6 @@
 ---
 date: 2019-03-03
-title: Emylo YSA111A1N-FBA
+title: eMylo YSA111A1N-FBA
 category: switch
 type: Relay
 standard: global
