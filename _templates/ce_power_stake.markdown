@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/Wi-Fi-Smart-Outdoor-outlets-Compatible/dp/B07M83WG1J
 image: https://user-images.githubusercontent.com/5904370/54647111-aaf6c580-4aa1-11e9-8da2-fab79ef32e4e.png
-template: '{"NAME":"CE Power Stake","GPIO":[255,255,255,255,56,57,255,255,21,17,255,255,255],"FLAG":0,"BASE":18}'
+template: '{"NAME":"CE Power Stake","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 alt_link: https://www.ebay.com/itm/CE-Wi-Fi-Smart-Home-Outdoor-Garden-Power-Stake-iOS-Android-Remote-Control/143177384799
 ---
 ### Connection
