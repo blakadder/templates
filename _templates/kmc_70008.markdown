@@ -5,7 +5,7 @@ category: switch
 type: Switch
 standard: us
 link: https://www.amazon.com/KMC-Wireless-Lighting-Compatible-Assistant/dp/B078HFR27T
-image: https://user-images.githubusercontent.com/5904370/54645459-63216f80-4a9c-11e9-8f60-1b358d7cb9bc.png
+image: https://user-images.githubusercontent.com/5904370/54651712-5f014c00-4ab4-11e9-8622-8f4104632427.png
 template: '{"NAME":"KMC 70008","GPIO":[17,255,255,0,0,255,255,255,0,56,21,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
