@@ -1,0 +1,59 @@
+---
+date: 2019-03-10
+title: Hyleton 313
+category: plug
+type: Plug
+standard: uk
+link: https://www.aliexpress.com/item/Hyleton-wifi-smart-plug-remote-control-outlet-Wireless-Wall-Socket-Compatible-with-Alexa-Google-Home-for/32861229232.html
+image: https://user-images.githubusercontent.com/5904370/54650236-cbc51800-4aad-11e9-833d-b652c8df92cb.png
+template: '{"NAME":"Hyleton 313","GPIO":[57,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link_alt: https://www.amazon.co.uk/Control-Anywhere-Compatible-Assistant-Required-hyleton/dp/B078Q2N3L4
+---
+
+![hyleton-313](https://znanev.github.io/images/hyleton-313/hyleton-313.jpg "Hyleton 313 Smart Plug")
+
+There are no visible screws, however it is not that difficult to open the case using some sharp plastic pry tool and a heat gun (hair dryer on max setting will probably also work). Heat the edge of the plug a bit, then work your way slowly, pry from the middle of each side. Then slowly slide the tool towards the corners and the case will ease enough eventually - open it with a gentle pull. 
+
+Once the case is open, the top side of the PCB will be exposed:
+
+![top-side](https://znanev.github.io/images/hyleton-313/pcb-top.jpg "PCB top side")
+
+The WiFi module is soldered vertically to the main PCB and sits right next to the relay. In order to get access to its pins, remove the screw from the centre of the PCB. After that the bottom plastic plate, which holds the three mains connector prongs, can be moved a bit to the side without desoldering anything (it is attached with short cables to the PCB, but cables' length is just enough to move it out of the way of the WiFi module's pins).
+
+Here's a view of the bottom side of the PCB:
+
+![bottom-side](https://znanev.github.io/images/hyleton-313/pcb-bottom.jpg "PCB bottom side")
+
+You can see the product labels (product code, date and board revision), as well as the UL number.
+
+## WiFi module pins
+
+Here is a close-up view of the module's pins as seen from the bottom of the main PCB:
+![pcb-bottom-module-pins](https://znanev.github.io/images/hyleton-313/pcb-bottom-module-pins.jpg "module pins")
+
+And this is how module pins numbers are mapped (I had to desolder the module looking for labels when I tried to identify it):
+![module-pins-numbered](https://znanev.github.io/images/hyleton-313/module-pins-numbered.jpg "module pins")
+
+Failed to identify the module, I had remove the metal shielding cap to find the routing of the ESP8266's pins, so I grabbed the multimeter and soon I had the following table:
+
+|Module pin	|ESP8266 pin|Pin name		|| Pin name		|ESP8266 pin|Module pin|
+|:---------:|:---------:|-------------|---|------------|:---------:|:--------:|
+|**1**		|7		|Chip Enable		||Tout (ADC)	|6		|**2**		|
+|**3**		|9			|MTMS / GPIO14	||MTDI / GPIO12	|10			|**4**		|
+|**5**		|12			|MTCK / GPIO13	||MTDO / GPIO15	|13			|**6**		|
+|**7**		|15			|GPIO0			||GPIO2			|14			|**8**		|
+|**9**		|16			|GPIO4			||GPIO5			|24			|**10**		|
+|**11**		|25			|U0RXD			||U0TXD			|26			|**12**		|
+|**13**		|*Vdd*		|- 				||-				|*GND*		|**14**		|
+
+## Serial Connection
+For programming you need to solder 4 jumper wires to pins *11*, *12*, *13* and *14* (*Rx*, *Tx*, *Vdd* and *GND*). Connect the other end of the wires to your USB-to-serial adapter and make sure the supply voltage selected is 3.3V. Shorting pin *7* (GPIO0) to ground while plugging the serial adapter into the computer's USB port will bring the module into UART firmware upload mode. 
+
+## Configuration
+
+*Sonoff* devices usually have a bi-colour LED, but just one of the colours can be controlled directly. The other colour is usually tied together with the relay, so it cannot be controlled independently. I think that is the reason why the *Sonoff-Tasmota* firmware by default controls just *Led1* when a single relay is configured. In the configuration above, only the blue LED will be used (tied to *GPIO2*). But if you prefer the red LED, just change the values for *Led1i* and *Led2i* (select *Led1i* for *GPIO0* and *Led2i* for *GPIO2*).
+
+### Details
+If you want to read the detailed project log, you can do so on my [GitHub Blog page](https://znanev.github.io/Hyleton-313-Smart-Plug/).
+
+ 
