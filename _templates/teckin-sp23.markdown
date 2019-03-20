@@ -10,9 +10,33 @@ template: '{"NAME":"Teckin SP23","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0
 link_alt: 
 ---
 
-
 Works with Tuya OTA
 
+The Teckin SP23 appears to be a clone of the BlitzWolf SHP2 hardware with Tuya software / firmware.
+
+The uses an ESP8266EX and is capable of switching up to 16 amps at 250 VAC.
+
+2 Teckin SP23s (marked V1.2) [bought from Amazon UK in January 2019](https://www.amazon.co.uk/TECKIN-Outlet-Wireless-Control-Required/dp/B07CVJYV3G) have been flashed successfully and use BlitzWolf SHP2 Sonoff configuration. Voltage calibration may be required for accurate power monitoring.
+
+## Serial Flash Instructions
+
+No hardware preparation is required to flash if you are confident about having the same version and can easily be flashed following the procedure detailed at [**here**](https://github.com/SynAckFin/TuyOTA/wiki/Walkthrough) using https://github.com/SynAckFin/TuyOTA
+
+### Flashing over serial guide by Marcus Bennett:
+
+[![Flashing over serial](https://img.youtube.com/vi/7vjpcEedEBI/0.jpg)](https://www.youtube.com/watch?v=7vjpcEedEBI)
+
+## How to disassemble if desired:
+
+If you wish to confirm you have the same hardware the Teckin SP23 can be opened by hitting each side of the plug at the lip with a rubber mallet or similar. This will leave a visually unblemished enclosure which can be resecured with superglue or similar.
+
+## Disassembled device pictures:
+
+![](https://i.imgur.com/1wwz6kb.jpg)
+![](https://i.imgur.com/4RiNCfg.jpg)
+![](https://i.imgur.com/ZTSMI7j.jpg)
+
+**[Full album](https://imgur.com/a/stdhc4c)**
 
 
 
