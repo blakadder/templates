@@ -9,13 +9,12 @@ image: https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/01/14/go
 template: '{"NAME":"SWA1","GPIO":[255,255,255,255,52,21,255,255,255,17,255,255,255],"FLAG":0,"BASE":18}'
 link_alt:
 ---
-Found under brands: Lingan, Houzetek
+Found branded as: Lingan, Houzetek
 
 ### Additional Information
 
 More Infos can be found here: [Lingan SWA1 Plug in Wi-Fi Socket with MQTT (ESP8266)](https://nathan.chantrell.net/20170528/lingan-swa1-plug-in-wi-fi-socket-with-mqtt-esp8266/).  
    
 ### Device Images  
-![1](https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/Lingan-SWA1/1.jpg)  
 ![2](https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/Lingan-SWA1/2.jpg)  
 ![3](https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/Lingan-SWA1/3.jpg)  
