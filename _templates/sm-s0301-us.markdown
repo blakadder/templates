@@ -1,17 +1,17 @@
 ---
-title: SM-SO301
+title: SM-S0301
 category: plug
 type: Power Strip
 standard: us
 link: https://www.amazon.com/d/Surge-Protector-Power-Strips/Jinvoo-Protector-Outlets-Required-Google/B071ZGDDQG
 image: https://user-images.githubusercontent.com/5904370/54648572-1727f800-4aa7-11e9-9f92-c19a1045e70a.png
 template: '{"NAME":"SM-SO301","GPIO":[56,0,0,0,30,17,0,0,32,31,33,0,21],"FLAG":0,"BASE":18}'
-link_alt: https://www.aliexpress.com/item/US-Fast-charging-USB-us-smart-socket-Amazon-ALEXA-Google-Google-sound-controllingAC110-240V/32857270070.html
+link_alt: https://www.aliexpress.com/wholesale?SearchText=sm-s0301&opensearch=true
 ---
-SM-SO301 with an FCC ID of 2AJ5F-SM-SO3015 has 4 mains power and 4 USB ports.  Each mains power is independently controlled and the USB group is controllable via a solid state relay.
+SM-S0301 with an FCC ID of 2AJ5F-SM-SO3015 has 4 mains power and 4 USB ports.  Each mains power is independently controlled and the USB group is controllable via a solid state relay.
 The ESP8266 module inside is a TYWE3S by Tuya. 
 
-Model purchased SM-SO301 (it seems to change on Amazon and other places, search for the model#). Other resellers may sell the same unit with various mains voltages/plug types.
+Model purchased SM-S0301 (it seems to change on Amazon and other places, search for the model#). Other resellers may sell the same unit with various mains voltages/plug types.
 
 ### Product 
 
