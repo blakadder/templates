@@ -1,7 +1,7 @@
 ---
 date: 2019-03-13
 title: Canwing CW-001
-category: switch
+category: misc
 type: Relay
 standard: global
 link: https://www.aliexpress.com/item/Smart-Home-WiFi-Wireless-Switch-Module-For-Apple-For-Android-APP-Control-Smart-Switch-Remote-Control/32970656459.html
