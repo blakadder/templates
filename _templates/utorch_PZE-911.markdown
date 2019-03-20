@@ -1,6 +1,6 @@
 ---
 date: 2019-03-19
-title: Utorch PZE-911 / UT40
+title: Utorch PZE-911
 category: light
 type: Ceiling Light
 standard: global
@@ -10,5 +10,4 @@ template: '{"NAME":"Utorch PZE-911","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":
 link_alt: 
 ---
 
-"The device may be called UT40, but when it arrives the model is PZE-911 (according to the sticker).
 Everything works, power on/off, color temperature and brightness, you can go even darker than through the tuya app."
