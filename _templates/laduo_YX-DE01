@@ -1,0 +1,31 @@
+---
+date: 2019-03-21
+title: Laduo YX-DE01 
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.de/Kompatibel-Fernsteuerung-Überlastungsschutz-erforderlich-10A-2200W-2/dp/B07D77GPLW
+image: https://images-na.ssl-images-amazon.com/images/I/61vhVofiWsL._SL1500_.jpg
+template: '{"NAME":"YX-DE01","GPIO":[255,17,255,255,255,255,255,255,255,56,21,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+D5 GPIO14 - Relais1	
+D7 GPIO13 - Led1i
+TX GPIO1  - Button1
+
+```json
+v.6.5.0
+{""NAME"":""YX-DE01"",""GPIO"":[255,17,255,255,255,255,255,255,255,56,21,255,255],""FLAG"":0,""BASE"":18}
+```
+```json
+v.6.4.1
+{""NAME"":""YX-DE01"",""GPIO"":[255,17,255,255,56,57,255,255,21,17,255,255,255],""FLAG"":0,""BASE"":18}
+```
+
+
+
+
+
+
+
