@@ -11,7 +11,7 @@ link_alt:
 ---
 On AliExpress you can buy a wifi dimmer for mains voltage (110 or 220V) It's a brandless dimmer, but can be found here: [AliExpress page](http://www.aliexpress.com/item/Led-Dimmer-220v-Smart-Wifi-Switch-Touch-Control-Stepless-Dimmer-With-Bulb-Compatible-With-Amazon-Alexa/32891383747.html?spm=a2g0s.9042311.0.0.300d4c4dx6emz1)
 
-It comes in a couple of forms, but sinds I live in Holland, I chose the EU style, single gang, 220V, White edition. It has a glass front plate with 3 proximity/touch switches (On/Off, dimm up & dimm down) and a wifi indicator LED.
+It has a glass front plate with 3 proximity/touch switches (On/Off, dimm up & dimm down) and a wifi indicator LED.
 ![White dimmer switch](https://github.com/daaf84/Tasmota-dimmer-switch/blob/master/IMG_0124.jpg?raw=true)
 
 The inside houses 2 PCB's; a power board and a control board:
