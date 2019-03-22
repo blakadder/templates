@@ -1,6 +1,6 @@
 ---
 date: 2019-03-17
-title: Luminea ZX-2832-675 E27 RGBW
+title: Luminea ZX-2832 E27 RGBW
 category: light
 type: Bulb
 standard: eu
