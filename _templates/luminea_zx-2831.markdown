@@ -1,6 +1,6 @@
 ---
 date: 2019-03-20
-title: Luminea ZX-2831-675 E27 CCT
+title: Luminea ZX-2831 E27 CCT
 category: light
 type: Bulb
 standard: eu
