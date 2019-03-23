@@ -1,6 +1,6 @@
 ---
 date: 2019-03-23
-title: LEPOWER Outdoor
+title: LEPOWER
 category: plug
 type: Outdoor Plug
 standard: us
