@@ -4,7 +4,7 @@ category: plug
 type: Power Strip
 standard: us
 link: https://www.amazon.com/d/Surge-Protector-Power-Strips/Jinvoo-Protector-Outlets-Required-Google/B071ZGDDQG
-image: https://user-images.githubusercontent.com/5904370/54648572-1727f800-4aa7-11e9-9f92-c19a1045e70a.png
+image: https://user-images.githubusercontent.com/5904370/54858992-ac75f700-4d08-11e9-934c-4def2fe87dda.png
 template: '{"NAME":"SM-SO301","GPIO":[56,0,0,0,30,17,0,0,32,31,33,0,21],"FLAG":0,"BASE":18}'
 link_alt: https://www.aliexpress.com/wholesale?SearchText=sm-s0301&opensearch=true
 ---
