@@ -1,6 +1,6 @@
 ---
 date: 2019-03-22
-title: SM-S0301 (Multiple brands)
+title: SM-S0301
 category: plug
 type: Power Strip
 standard: us
