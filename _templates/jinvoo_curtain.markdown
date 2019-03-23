@@ -11,7 +11,7 @@ link_alt: https://www.alibaba.com/product-detail/Jinvoo-Wireless-Remote-Controll
 ---
 
 
-```yaml
+```
 SetOption1 1   # restrict button-multipress to single, double and hold actions
 SetOption14 1  # exclusive buttons (important!)
 LedPower 0     # disable use of LED as much as possible (optional)
