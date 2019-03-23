@@ -6,12 +6,12 @@ type: Switch
 standard: eu
 link: https://www.amazon.de/dp/B07CPK2FV5
 image: https://images-na.ssl-images-amazon.com/images/I/51dE6Ei%2Bm8L._SY450_.jpg
-template: '{"NAME":"Jinvoo Curtain","GPIO":[52,0,0,18,22,19,0,0,17,21,0,23,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"Jinvoo Curtain","GPIO":[52,0,0,18,22,19,0,0,17,21,0,23,0],"FLAG":1,"BASE":18}'
 link_alt: https://www.alibaba.com/product-detail/Jinvoo-Wireless-Remote-Controlled-Works-with_60717264270.html
 ---
 
 
-```coffeescript
+```yaml
 SetOption1 1   # restrict button-multipress to single, double and hold actions
 SetOption14 1  # exclusive buttons (important!)
 LedPower 0     # disable use of LED as much as possible (optional)
@@ -23,11 +23,7 @@ PowerRetain 0  # Don't retain states
 SaveOption 1   # enable autosave
 ```
 
+Combine all the above commands in a single config line:
 ```
 Backlog SetOption1 1;SetOption14 1;LedPower 0;SetOption31 1;PulseTime1 130;PulseTime2 1;Pulsetime3 130;PowerRetain 0;SaveOption 1
 ```
-
-
-
-
-
