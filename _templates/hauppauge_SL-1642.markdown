@@ -4,7 +4,7 @@ title: Hauppauge SL-1642
 category: plug
 type: Plug
 standard: eu
-link: http://www.hauppauge.co.uk/site/products/data_myshvoice_plug.html
+link: https://www.hauppauge.co.uk/site/products/data_myshvoice_plug.html
 image: http://www.hauppauge.co.uk/pics/myshv-plug_icons.jpg
 template: '{"NAME":"SL-1642","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link_alt: https://www.amazon.de/dp/B07JLMCMMZ
