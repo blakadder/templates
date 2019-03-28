@@ -1,0 +1,38 @@
+---
+date: 2019-03-27
+title: MagicHome ZJ-WFMN-A V1.1 RGB
+category: light
+type: LED Controller
+standard: global
+link: https://www.aliexpress.com/item/DC-5V-28V-Mini-WiFi-LED-RGBW-Controller-Common-Anode-Connect-iOS-Android-APP-Remote-Controller/32828275557.html
+image: https://user-images.githubusercontent.com/5904370/55142867-e2b6da80-513d-11e9-96f2-f10c0c38df50.png
+template: '{"NAME":"MagicHome RGB","GPIO":[0,0,0,0,0,37,0,0,38,39,0,0,0],"FLAG":0,"BASE":34}' 
+link_alt: 
+---
+
+Aside from it going 9-28v, there are no other external model numbers etc, however opening it up revealed a very different configuration inside, using an ESP8285 chip directly on the board.
+
+<img width="50%" src="https://user-images.githubusercontent.com/816454/43894935-fd83a9d8-9c16-11e8-9a78-b7a058d972de.jpg" alt="opened with cover in view">
+
+(Right click and view the original image to see the full size image for all images below)
+
+## Identifying this board
+
+Looking closely you can see it's an ESP8285, on the main board, it has the part number: `ZJ-WFMN-B V1.1`
+
+<img width="40%" src="https://user-images.githubusercontent.com/816454/43895058-6fcb4e10-9c17-11e8-8c9c-b99c57a39c55.jpg" alt="board top 1"> 
+<img width="40%" src="https://user-images.githubusercontent.com/816454/43895059-6ffdd7b8-9c17-11e8-994e-aeb8f65f47ef.jpg" alt="board top 2">
+
+## Flashing
+
+I found that on the back it has pads to solder to so you can flash it.
+
+<img width="40%" src="https://user-images.githubusercontent.com/816454/43895057-6f80d178-9c17-11e8-8c6f-535d31ea0603.jpg" alt="board back">
+
+The `IO0` port is `GPIO0` that needs to be pulled to ground when powered on for flashing (as per all ESP devices). I soldered cables to each of these. Note that some are very close to other pads, so be careful. If you want to avoid soldering, also pogo pins work well with the pads.
+
+<img width="40%" src="https://user-images.githubusercontent.com/816454/43895056-6f41e094-9c17-11e8-95b7-cf565967c89e.jpg" alt="board back with cables">
+
+## Configuration 
+
+Once flashed run the command to set `SetOption15 1` and `LedTable 1` 
