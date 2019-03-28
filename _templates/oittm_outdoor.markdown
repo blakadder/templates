@@ -1,0 +1,19 @@
+---
+date: 2019-03-28
+title: Oittm Outdoor
+category: plug
+type: Outdoor Plug
+standard: us
+link: https://www.amazon.ca/Oittm-Outdoor-Monitoring-Wireless-Weatherproof/dp/B074J49F4R
+image: https://images-na.ssl-images-amazon.com/images/I/61s0jx7cy2L._SL1500_.jpg
+template: '{"NAME":"Oittm Outdoor","GPIO":[17,0,0,0,0,0,0,0,0,0,56,21,255],"FLAG":0,"BASE":18}' 
+link_alt: https://www.ebay.ca/itm/WiFi-Smart-Outdoor-Plug-Oittm-Timer-Outlet-With-Energy-Monitoring-Wireless-By/283285458597?hash=item41f5210ea5:g:B6YAAOSwTDpcAqO0
+---
+
+Run tuya-convert
+
+
+
+
+
+
