@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B078KQS97D
-image: https://images-na.ssl-images-amazon.com/images/I/51cm2g8z0BL._AC_SY150_.jpg
+image: https://user-images.githubusercontent.com/5904370/55259330-aaaab700-5265-11e9-8e74-43dd04845ac9.png
 template: '{"NAME":"HS108","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":1,"BASE":18}' 
 link_alt: 
 ---
