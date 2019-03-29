@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: uk
 link: https://www.amazon.co.uk/gp/product/B07BWFB55Q
-image: https://www.earth.li/~noodles/blog/images/maxcio/front.jpg
+image: https://user-images.githubusercontent.com/5904370/55217741-8cf73680-5200-11e9-9aed-3e78b8f108f2.png
 template: '{"NAME":"Maxcio","GPIO":[56,0,255,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
 link_alt: 
 ---
