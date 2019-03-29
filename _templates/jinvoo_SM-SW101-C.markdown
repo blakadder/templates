@@ -1,6 +1,6 @@
 ---
 date: 2019-03-23
-title: Jinvoo Curtain Switch
+title: Jinvoo SM-SW101-C Curtain
 category: switch
 type: Switch
 standard: eu
