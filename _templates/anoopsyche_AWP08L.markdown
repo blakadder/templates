@@ -1,6 +1,6 @@
 ---
 date: 2019-03-30
-title: ANOOPSYCHE AWP08L
+title: Anoopsyche AWP08L
 category: plug
 type: Plug
 standard: eu
