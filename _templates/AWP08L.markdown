@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.fr/gp/product/B078S6S33S/
 image: https://images-na.ssl-images-amazon.com/images/I/5188D2hboyL._SX679_.jpg
 template: '{"NAME":"AWP08L","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":1,"BASE":18}' 
-link_alt: 
+link_alt: https://avatarcontrols.en.alibaba.com/product/60814727153-806017022/Wifi_control_Smart_Home_Multi_Plug_16A_wifi_smart_power_plug_socket.html
 ---
 
 
