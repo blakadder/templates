@@ -1,6 +1,6 @@
 ---
 date: 2019-03-30
-title: KuLED K36
+title: Kuled K36
 category: switch
 type: Switch
 standard: us
