@@ -9,4 +9,4 @@ template: '{"NAME":"BSD29","GPIO":[0,0,0,0,134,132,0,0,21,17,56,131,0],"FLAG":0,
 link_alt: 
 ---
 
-Tuya-Convert OTA flashing compatible
+Tuya-Convert OTA flashing compatible (maybe not correct see https://github.com/arendst/Sonoff-Tasmota/issues/5570 )
