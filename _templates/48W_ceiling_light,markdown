@@ -10,7 +10,7 @@ template: '{"NAME":"SmartLife/Tuya","GPIO":[0,0,0,0,37,40,0,0,38,25,39,0,0],"FLA
 link_alt: 
 ---
 
-run "setoption15 1"
+Run `setoption15 1`
 
 
 
