@@ -1,6 +1,6 @@
 ---
 date: 2019-03-09
-title: KS-604S 
+title: Kesen KS-604S 
 category: plug
 type: Wall Outlet
 standard: us
