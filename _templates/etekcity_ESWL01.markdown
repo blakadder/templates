@@ -5,7 +5,7 @@ category: switch
 type: Switch
 standard: us
 link: https://www.amazon.com/gp/product/B07J9LF6PS
-image: https://camo.githubusercontent.com/87a5e4d472dc6e302a1f18662e4c1e6d49269485/68747470733a2f2f696d6167652e6574656b636974792e636f6d2f7468756d622f3230313831322f30332f30613464323535623038633632316462366533633532643133396436653438342e6a70672d3230302d3230302e6a7067
+image: https://user-images.githubusercontent.com/5904370/55393418-7ec95300-553d-11e9-86d9-e765e2abb80d.png
 template: '{"NAME":"EtekCityESWL01","GPIO":[255,255,255,255,52,53,255,255,255,21,122,255,255],"FLAG":1,"BASE":18}' 
 link_alt: 
 ---
