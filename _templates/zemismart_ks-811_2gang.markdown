@@ -1,6 +1,6 @@
 ---
 date: 2019-03-09
-title: Zemismart KS-811 Dual
+title: Zemismart KS-811 2 Gang
 category: switch
 type: Switch
 standard: us
