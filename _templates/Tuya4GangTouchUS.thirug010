@@ -4,9 +4,9 @@ title: Tuya 4 Gang Touch
 category: switch
 type: Switch
 standard: us
-link: https://www.amazon.com/Smart-Wifi-Light-Switch-Wall/dp/B07JYR4P5F/
+link: https://www.alibaba.com/product-detail/SESOO-Smart-home-Amazon-alexa-compatible_60601674427.html?spm=a2700.7724838.2017115.1.7e6b1505r3ArLm
 image: https://user-images.githubusercontent.com/30732819/55670076-775bbf80-5845-11e9-8727-fe198720169e.jpg
-template: '{"NAME":"TUYA_4CH_TOUCH ","GPIO":[52,0,53,0,0,18,0,0,17,21,0,22,54],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Tuya 4 Channel","GPIO":[255,255,255,19,23,17,0,0,20,24,22,21,18],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 ALL LED's works fine as Red - on and Blue - off, GPIO0 is the Wifi LED if you want to control
