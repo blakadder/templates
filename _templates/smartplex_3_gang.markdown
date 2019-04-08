@@ -1,0 +1,16 @@
+---
+date: 2019-04-08
+title: SmartPlex 3 Gang
+category: switch
+type: Switch
+standard: us
+link: https://www.amazon.com/Smart-Wifi-Light-Switch-Wall/dp/B07JYR4P5F
+image: https://images-na.ssl-images-amazon.com/images/I/71BNTnKgTYL._SX679_.jpg
+template: '{"NAME":"Tuya 3 Channel","GPIO":[255,255,255,255,21,18,0,0,19,23,17,22,255],"FLAG":0,"BASE":18}' 
+link_alt: https://www.ebay.com/itm/BSEED-Smart-Wall-Switch-Wifi-Touch-Switch-Glass-Panel-Google-Alexa-Light-Switch-/173652452052
+---
+
+GPIO16 is the Wifi Icon LED 
+
+Also found under BSEED
+
