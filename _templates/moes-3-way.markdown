@@ -1,6 +1,6 @@
 ---
 date: 2019-03-16
-title: Moes 3-Way Switch
+title: Moes 3-Way
 category: switch
 type: Switch
 standard: us
