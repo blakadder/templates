@@ -18,19 +18,19 @@ If you have successfully put the device into programming mode the LED does not l
 
 Front and soldering: [Fullsize](https://ibb.co/fGxR0CJ)
 
-![Front and soldering](https://i.ibb.co/fGxR0CJ/IMG-20190410-153939.jpg)
+![Front and soldering](https://camo.githubusercontent.com/ff406476fc4c6c31822741801b8c5b86137c4f66/68747470733a2f2f692e6962622e636f2f6647785230434a2f494d472d32303139303431302d3135333933392e6a7067)
 
-Front and identification number: [Fullsize](https://ibb.co/FsVTDz5)
+Front and identification number: [Fullsize](https://camo.githubusercontent.com/ecf1d251a6975a62c84c47ed2c61322c7428ba70/68747470733a2f2f692e6962622e636f2f46735654447a352f494d472d32303139303431302d3137333932322e6a7067)
 
 ![Front and identification number](https://i.ibb.co/FsVTDz5/IMG-20190410-173922.jpg)
 
 Back and GND: [Fullsize](https://ibb.co/6wmcNyx)
 
-![Back and GND](https://i.ibb.co/6wmcNyx/IMG-20190410-153953.jpg)
+![Back and GND](https://camo.githubusercontent.com/26afe2a5c5b3409958bf3281926092c88d959969/68747470733a2f2f692e6962622e636f2f36776d634e79782f494d472d32303139303431302d3135333935332e6a7067)
 
 Soldering layout: [Fullsize](https://ibb.co/ZLt9WG1)
 
-![Soldering layout](https://i.ibb.co/ZLt9WG1/IMG-20190410-173942.jpg)
+![Soldering layout](https://camo.githubusercontent.com/ab096b78e59490d1fa8c0c81a42a04d1bc47b2dd/68747470733a2f2f692e6962622e636f2f5a4c74395747312f494d472d32303139303431302d3137333934322e6a7067)
 
 
 
