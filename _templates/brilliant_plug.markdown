@@ -1,6 +1,6 @@
 ---
 date: 2019-04-10
-title: Brilliant USB Charger Smart
+title: Brilliant USB Charger
 category: plug
 type: Plug
 standard: anzac
