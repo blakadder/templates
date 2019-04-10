@@ -5,7 +5,7 @@ category: switch
 type: Switch
 standard: eu
 link: https://www.aliexpress.com/item/EU-UK-1-2-3-Gang-eWelink-Touch-Light-Smart-Switch-WiFi-Wall-Switch-With-Alexa/32916836771.html
-image: https://i.ibb.co/ZMpr3xp/EU-UK-1-2-3-Gang-e-Welink-Touch-Light-Smart-Switch-Wi-Fi-Wall-Switch-With-Alexa.jpg
+image: https://user-images.githubusercontent.com/5904370/55916577-0160ab00-5bed-11e9-8e9b-c20bf489af07.png
 template: '{"NAME":"Wall Switch 2C","GPIO":[17,255,255,255,0,22,18,0,21,56,0,0,0],"FLAG":0,"BASE":28}' 
 link_alt: 
 ---
@@ -13,7 +13,7 @@ This is a cheap Sonoff T1 clone. Available with 1/2/3 channels.
 
 # Flashing
 Needs to be flashed via serial. 
-Short GPIO0 to GND to put in programming mode. 
+Short GPIO0 to GND to put it in programming mode. 
 If you have successfully put the device into programming mode the LED does not light up.
 
 Front and soldering: [Fullsize](https://ibb.co/fGxR0CJ)
