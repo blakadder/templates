@@ -20,9 +20,8 @@ Front and soldering: [Fullsize](https://ibb.co/fGxR0CJ)
 
 ![Front and soldering](https://camo.githubusercontent.com/ff406476fc4c6c31822741801b8c5b86137c4f66/68747470733a2f2f692e6962622e636f2f6647785230434a2f494d472d32303139303431302d3135333933392e6a7067)
 
-Front and identification number: [Fullsize](https://camo.githubusercontent.com/ecf1d251a6975a62c84c47ed2c61322c7428ba70/68747470733a2f2f692e6962622e636f2f46735654447a352f494d472d32303139303431302d3137333932322e6a7067)
-
-![Front and identification number](https://i.ibb.co/FsVTDz5/IMG-20190410-173922.jpg)
+Front and identification number: 
+![Front and identification number](https://camo.githubusercontent.com/ecf1d251a6975a62c84c47ed2c61322c7428ba70/68747470733a2f2f692e6962622e636f2f46735654447a352f494d472d32303139303431302d3137333932322e6a7067)
 
 Back and GND: [Fullsize](https://ibb.co/6wmcNyx)
 
