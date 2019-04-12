@@ -27,7 +27,7 @@ navigation: 1
 <ul>
 {% assign sorted = site.templates  | sort: "date" | reverse %}
 {% for template in sorted limit:5 %}
-<li><a href="{{site.baseurl}}{{ template.url }}">{{ template.title }} - {{ template.standard | upcase }} {{ template.type }}</a></li>
+<li><a href="{{site.baseurl}}{{ template.url }}">{{ template.title }} - {{ template.type }} {{ template.standard | upcase }}</a></li>
 {% endfor %}
 </ul>
 
