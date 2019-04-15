@@ -1,6 +1,6 @@
 ---
 date: 2019-03-31
-title: Kogan SmarterHome
+title: Kogan SmarterHome™ Energy Meter
 category: plug
 type: Plug
 standard: anzac
