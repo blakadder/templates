@@ -21,3 +21,6 @@ Follow the [discussion](https://github.com/arendst/Sonoff-Tasmota/issues/5592) f
 Shelly 2.5 comes with a partially exposed programming/debug header which can be used to flash Tasmota on the device. The following diagram shows the device pinout and power source voltage selection jumper. Connect GPIO0 to GND to put the device into flash mode.
 
 <img src="https://shelly.cloud/wp-content/uploads/2019/01/pin_out-650x397.png" height="250" />
+
+## Device in use
+![](https://user-images.githubusercontent.com/11044339/56082492-ab247f80-5e19-11e9-90a6-a554c7aef2ca.png)
