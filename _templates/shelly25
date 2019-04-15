@@ -10,6 +10,21 @@ template: '{"NAME":"Shelly 2.5","GPIO":[52,255,17,255,21,83,0,0,6,82,5,22,0],"FL
 link_alt:
 ---
 
-For complete feature support upgrade to Tasmota development release [2c6df2b](https://github.com/arendst/Sonoff-Tasmota/commit/2c6df2b86b9a7dfc986a06e9d4c58918e6bb61a4) from April 15th 2019 or up.
+For complete feature support upgrade to Tasmota sonoff-sensors.bin release [6.5.0.8](https://github.com/arendst/Sonoff-Tasmota/commit/2c6df2b86b9a7dfc986a06e9d4c58918e6bb61a4) from April 15th 2019 or up.
 
 Follow the [discussion](https://github.com/arendst/Sonoff-Tasmota/issues/5592) for possible issues and troubleshooting.
+
+## Serial Connection
+
+Shelly 2.5 comes with a partially exposed programming/debug header which can be used to flash Tasmota on the device. The following diagram shows the device pinout and power source voltage selection jumper. Connect GPIO0 to GND to put the device into flash mode.
+
+<img src="https://shelly.cloud/wp-content/uploads/2019/01/pin_out-650x397.png" height="250" />
+## Use rules to control shutter endpoints
+
+Shelly 2.5 contains energy monitoring. You can use rules to power off the shutter when too much current is drawn at the end point. The below rule will power off both directions when the current becomes more than 500mA.
+
+```
+rule on energy#current>0.500 do backlog power1 0; power2 0 endon
+rule 1
+rule 5
+```
