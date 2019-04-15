@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.de/gp/product/B07G4SMF7C/
 image: https://images-na.ssl-images-amazon.com/images/I/61oNPrIlsNL._SL1200_.jpg
 template: '{"NAME":"WL-SC01","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":1}' 
-link_alt: 
+link_alt: https://www.aliexpress.com/item/EU-European-Wi-Fi-WiFi-Smart-AC-Power-Electrical-Socket-Outlet-Plug-Adaptor-For-Amazon-Alexa/32973375300.html
 ---
 
 Switch toggles power, red => power on. no led => power off. 
