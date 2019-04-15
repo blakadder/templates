@@ -1,13 +1,13 @@
 ---
 date: 2019-03-31
-title: RGBCCT 48W
+title: Fcmila XDD-48W
 category: light
 type: Ceiling Light
 standard: global
 link: https://www.ebay.de/itm/Smart-Wifi-Wireless-Deckenleuchte-RGBW-Lampe-fur-Alexa-Google-AC90-240V-/113447726477
-image: https://i.ebayimg.com/images/g/~uwAAOSwn6JcEhsu/s-l500.jpg
+image: https://user-images.githubusercontent.com/5904370/56112013-0c536c80-5f5a-11e9-86fe-8688ad21f8c6.png
 template: '{"NAME":"SmartLife/Tuya","GPIO":[0,0,0,0,37,40,0,0,38,25,39,0,0],"FLAG":0,"BASE":18}' 
-link_alt: 
+link_alt: https://www.aliexpress.com/store/product/LED-WIFI-Smart-Ceiling-Light-RGB-Dimmable-48W-APP-Remote-control-Lamp-for-Bed-Room-Living/1827431_32966143703.html
 ---
 
 Run `setoption15 1`
