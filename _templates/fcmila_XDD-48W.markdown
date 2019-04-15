@@ -9,9 +9,6 @@ image: https://user-images.githubusercontent.com/5904370/56112013-0c536c80-5f5a-
 template: '{"NAME":"XDD-48W","GPIO":[0,0,0,0,37,40,0,0,38,25,39,0,0],"FLAG":0,"BASE":18}' 
 link_alt: https://www.aliexpress.com/store/product/LED-WIFI-Smart-Ceiling-Light-RGB-Dimmable-48W-APP-Remote-control-Lamp-for-Bed-Room-Living/1827431_32966143703.html
 ---
-
-![](https://user-images.githubusercontent.com/5904370/56112085-4c1a5400-5f5a-11e9-8c6a-1fce0f36f146.png)
 Run `setoption15 1`
 
-
-
+![](https://user-images.githubusercontent.com/5904370/56112085-4c1a5400-5f5a-11e9-8c6a-1fce0f36f146.png)
