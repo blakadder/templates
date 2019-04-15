@@ -1,0 +1,15 @@
+---
+date: 2019-04-14
+title: Charging Essentials WiFi Smart
+category: plug
+type: Wall Outlet
+standard: us
+link: http://www.costco.ca 
+image: https://i.imgur.com/8mNTQNH.png
+template: '{"NAME":"CESmart-Wall","GPIO":[255,255,255,255,255,17,255,255,21,255,255,255,255],"FLAG":0,"BASE":18}' 
+link_alt: https://www.cesmarthome.com/
+---
+
+Found in Costco stores.  (Not seen from online vendor as of this writing.)  Wire outlet to a grounded cord or a wall junction box carefully.  Run tuya-convert process and install template into tasmota. Only the bottom plug will have Wifi control. 
+
+
