@@ -10,7 +10,7 @@ template: '{"NAME":"Shelly 2.5","GPIO":[52,255,17,255,21,83,0,0,6,82,5,22,0],"FL
 link_alt:
 ---
 
-For complete feature support upgrade to Tasmota sonoff-sensors.bin release [6.5.0.8](https://github.com/arendst/Sonoff-Tasmota/commit/2c6df2b86b9a7dfc986a06e9d4c58918e6bb61a4) from April 15th 2019 or up. 
+For complete feature support upgrade to Tasmota development release [6.5.0.8](https://github.com/arendst/Sonoff-Tasmota/commit/2c6df2b86b9a7dfc986a06e9d4c58918e6bb61a4) or up. 
 
 Temperature sensor reads internal device temperature.
 
