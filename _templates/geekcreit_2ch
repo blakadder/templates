@@ -1,0 +1,15 @@
+---
+date: 2019-04-17
+title: Geekcreit 2 Channel
+category: misc
+type: Relay
+standard: global
+link: https://www.banggood.com/Geekcreit-2-Channel-AC-85V-250V-APP-Remote-Control-WIFI-Wireless-Switch-Socket-For-Smart-Home-p-1114958.html
+image: https://user-images.githubusercontent.com/5823294/52651590-5b423e80-2ee4-11e9-91d2-9cc4e8535c7d.png
+template: '{"NAME":"Geekcreit 2ch","GPIO":[17,0,0,0,0,22,18,0,21,52,0,0,0],"FLAG":1,"BASE":18}' 
+link_alt: https://www.aliexpress.com/item/Sonoff-Smart-Wifi-Switch-Universal-Module-2CH-USB-DC5V-7-32V-Wireless-Switch-Timer-Phone-APP/32950334093.html
+---
+
+Both AC and DC versions work the same. On DC version the pin marked 3v3 on the programming header is 5v. If relay doesn't work - press the third button until it works. 
+
+[More info](https://github.com/arendst/Sonoff-Tasmota/wiki/Geekcreit-Sonoff-2-Channel-Relay-(AC-85V-250V))
