@@ -4,8 +4,8 @@ title: Teckin SB51
 category: light
 type: Bulb
 standard: uk
-link: https://www.amazon.co.uk/gp/product/B07K1J1RDS/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1
-image: https://images-na.ssl-images-amazon.com/images/I/5152gGv5HnL._SL1001_.jpg
+link: https://www.amazon.co.uk/gp/product/B07K1J1RDS
+image: https://user-images.githubusercontent.com/5904370/56267544-65a0d480-60ef-11e9-97f8-126c4053ae9e.png
 template: '{"NAME":"Teckin SB51","GPIO":[255,255,255,255,40,255,255,255,38,39,37,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
