@@ -39,7 +39,7 @@ The bottom left on-board-button is connected to GPIO0 and as with all ESP8266/ES
 
 ### Enable GPIO9 & GPIO10
 
-![Geekcreit/"Sonoff" 2CH SetOption51](https://github.com/Gtis69/arendst.github.io/blob/master/media/Sonoff_DIY_4CH_Option51.jpg?raw=true)
+![Geekcreit/"Sonoff" 2CH SetOption51](https://user-images.githubusercontent.com/5904370/56273950-1a41f280-60fe-11e9-8b2f-8fc8a1ab77e9.png)
 
 To use GPIO9 and GPIO10 of the ESP8285, use command `SetOption51 on`.
 
