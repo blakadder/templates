@@ -12,13 +12,12 @@ link_alt: https://www.aliexpress.com/item/Sonoff-Smart-Wifi-Switch-Universal-Mod
 
 Both AC and DC versions work the same. On DC version the pin marked 3v3 on the programming header is 5v. If relay doesn't work - press the third button until it works. 
 
-* Bare PCB version: https://www.aliexpress.com/item/Sonoff-2CH-AC85-250V-Wireless-Switch-Timer-Smart-Wifi-Switch-Universal-Automation-Module-Remote-Control-for/32948157608.html
-* Version with enclosure: https://www.banggood.com/Geekcreit-2-Channel-AC-85V-250V-APP-Remote-Control-WIFI-Wireless-Switch-Socket-For-Smart-Home-p-1114958.html?rmmds=search&cur_warehouse=CN
+* [Bare PCB version](https://www.aliexpress.com/item/Sonoff-2CH-AC85-250V-Wireless-Switch-Timer-Smart-Wifi-Switch-Universal-Automation-Module-Remote-Control-for/32948157608.html)
+* [Version with enclosure](https://www.banggood.com/Geekcreit-2-Channel-AC-85V-250V-APP-Remote-Control-WIFI-Wireless-Switch-Socket-For-Smart-Home-p-1114958.html?rmmds=search&cur_warehouse=CN)
 
 The Geekcreit/"Sonoff" 2CH is based on the ESP8285 via the Itead PSF-B04.
 
-More info here:
-https://github.com/arendst/Sonoff-Tasmota/issues/1970
+[More info here](https://github.com/arendst/Sonoff-Tasmota/issues/1970)
 
 ![Geekcreit/"Sonoff" 2CH](https://user-images.githubusercontent.com/5823294/52651590-5b423e80-2ee4-11e9-91d2-9cc4e8535c7d.png)
 
@@ -40,7 +39,7 @@ The bottom left on-board-button is connected to GPIO0 and as with all ESP8266/ES
 
 ![Geekcreit/"Sonoff" 2CH SetOption51](https://github.com/Gtis69/arendst.github.io/blob/master/media/Sonoff_DIY_4CH_Option51.jpg)
 
-To use GPIO9 and GPIO10 of the ESP8285, open the console and enter => "SetOption51 on".
+To use GPIO9 and GPIO10 of the ESP8285, use command `SetOption51 on`.
 
 Restart the module.
 
