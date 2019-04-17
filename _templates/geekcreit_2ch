@@ -10,7 +10,9 @@ template: '{"NAME":"Geekcreit 2ch","GPIO":[17,0,0,0,0,22,18,0,21,52,0,0,0],"FLAG
 link_alt: https://www.aliexpress.com/item/Sonoff-Smart-Wifi-Switch-Universal-Module-2CH-USB-DC5V-7-32V-Wireless-Switch-Timer-Phone-APP/32950334093.html
 ---
 
-Both AC and DC versions work the same. On DC version the pin marked 3v3 on the programming header is 5v. If relay doesn't work - press the third button until it works. 
+Both AC and DC versions work the same. On DC version the pin marked 3v3 on the programming header is 5v.
+
+**Note: ** The third button on this device is not connected to a GPIO. Instead it is used to cycle through some relay modes that are supported by the two external ICs. Only one of these modes works with Tasmota, so it is necessary to continue to press this button 3 until the relays can be controlled from the toggle buttons in the Tasmota web UI.
 
 * [Bare PCB version](https://www.aliexpress.com/item/Sonoff-2CH-AC85-250V-Wireless-Switch-Timer-Smart-Wifi-Switch-Universal-Automation-Module-Remote-Control-for/32948157608.html)
 * [Version with enclosure](https://www.banggood.com/Geekcreit-2-Channel-AC-85V-250V-APP-Remote-Control-WIFI-Wireless-Switch-Socket-For-Smart-Home-p-1114958.html?rmmds=search&cur_warehouse=CN)
@@ -37,12 +39,8 @@ The bottom left on-board-button is connected to GPIO0 and as with all ESP8266/ES
 
 ### Enable GPIO9 & GPIO10
 
-![Geekcreit/"Sonoff" 2CH SetOption51](https://github.com/Gtis69/arendst.github.io/blob/master/media/Sonoff_DIY_4CH_Option51.jpg)
+![Geekcreit/"Sonoff" 2CH SetOption51](https://github.com/Gtis69/arendst.github.io/blob/master/media/Sonoff_DIY_4CH_Option51.jpg?raw=true)
 
 To use GPIO9 and GPIO10 of the ESP8285, use command `SetOption51 on`.
 
 Restart the module.
-
-**Note: ** The third button on this device is not connected to a GPIO. Instead it is used to cycle through some relay modes that are supported by the two external ICs. Only one of these modes works with Tasmota, so it is necessary to continue to press this button 3 until the relays can be controlled from the toggle buttons in the Tasmota web UI.
-
-![Geekcreit/"Sonoff" 2CH parameters](https://user-images.githubusercontent.com/5823294/52594844-6a71af80-2e44-11e9-86fc-3d5fe045b6c9.png)
