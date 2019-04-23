@@ -1,0 +1,13 @@
+---
+date: 2019-04-22
+title: VIGICA VGSPK00815
+category: switch
+type: Wall Outlet
+standard: uk
+link: https://www.amazon.co.uk/gp/product/B07GBQJSHK
+image: https://images-na.ssl-images-amazon.com/images/I/51B4-LAUdBL._SL1000_.jpg
+template: '{"NAME":"VIGICA outlet","GPIO":[17,255,255,255,255,22,18,255,21,255,255,255,255],"FLAG":1,"BASE":18}' 
+link_alt: https://www.ebay.co.uk/itm/VIGICA-2-1A-USB-Charger-13A-WiFi-Wall-Socket-Smart-Switch-Outlet-Plug-/283350487249
+---
+
+Two relays (left + right socket) work, as do the associated buttons. I have not attempted to control the LED. In theory it can be configured to work, but I would rather it stayed off!
