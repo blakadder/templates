@@ -1,0 +1,14 @@
+---
+date: 2019-04-24
+title: Oobest RGBW E27
+category: light
+type: Bulb
+standard: us
+link: https://www.aliexpress.com/item/New-E27-WiFi-Smart-Light-Bulb-Dimmable-Multicolor-Wake-Up-Lights-RGBWW-LED-Lamp-Compatible-with/32932204996.html
+image: https://ae01.alicdn.com/kf/HTB1THHuXovrK1RjSszfq6xJNVXa4/New-E27-WiFi-Smart-Light-Bulb-Dimmable-Multicolor-Wake-Up-Lights-RGBWW-LED-Lamp-Compatible-with.jpg
+template: '{"NAME":"WifiBulb","GPIO":[0,0,0,0,0,37,0,0,39,40,38,0,0],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+Generic (listed as Oobest) Wifi Smartbulb, E27 RGBW.  Red GPIO5, Green GPIO14, Blue GPIO12, White GPIO13
+
