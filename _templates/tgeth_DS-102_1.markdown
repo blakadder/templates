@@ -1,6 +1,6 @@
 ---
 date: 2019-04-12
-title: Tgeth DS-102
+title: Tgeth DS-102 1 Gang
 category: switch
 type: Switch
 standard: eu
