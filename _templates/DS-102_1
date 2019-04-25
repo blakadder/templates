@@ -1,6 +1,6 @@
 ---
 date: 2019-04-12
-title: Tgeth DS-102 1 Gang
+title: DS-102 1 Gang
 category: switch
 type: Switch
 standard: eu
@@ -11,5 +11,3 @@ link_alt:
 ---
 
 Can be flashed With Tuya Convert.
-Tested and configured only 1 gang switch.
-
