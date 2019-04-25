@@ -23,6 +23,7 @@ seriallog 0
 rule1 on power1#state do power4 %value% endon on power2#state do power4 %value% endon on power3#state do power5 %value% endon
 rule1 1
 ledmask 0x0000
+setoption13 1
 ```
 **Note:** `ledmask` is supported from 6.5.0.7. If you can't/won't upgrade to that version, change Led1i from gpio0 to none. Otherwise the middle red LED will respond to every switch.
 
