@@ -26,4 +26,4 @@ ledmask 0x0000
 ```
 **Note:** `ledmask` is supported from 6.5.0.7. If you can't/won't upgrade to that version, change Led1i from gpio0 to none. Otherwise the middle red LED will respond to every switch.
 
-*this configuration does not work well with Home Assistant autodiscovery since you'll get 3 extra dummy relays that are actually LEDs*
+*This alternative configuration does not work well with Home Assistant autodiscovery since you'll get 3 extra dummy relays that are actually LEDs*
