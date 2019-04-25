@@ -15,7 +15,9 @@ The middle blue and the right blue LED cannot be directly controlled due to curr
 
 If you want each LED to respond to the corresponding switch use this template
 
-`{"NAME":"DS-102 3 Gang","GPIO":[56,34,0,18,22,19,0,0,17,21,33,23,32],"FLAG":0,"BASE":18}`
+```
+{"NAME":"DS-102 3 Gang","GPIO":[56,34,0,18,22,19,0,0,17,21,33,23,32],"FLAG":0,"BASE":18}
+```
 
 with the following commands
 ```lua
