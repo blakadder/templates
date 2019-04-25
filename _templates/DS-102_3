@@ -1,0 +1,29 @@
+---
+date: 2019-04-25
+title: DS-102 3 Gang
+category: switch
+type: Switch
+standard: eu
+link: https://www.aliexpress.com/item/Tuya-Smart-life-app-Control-WiFi-Light-86-EU-Button-Switch-Support-Alexa-Google-Home/32996551323.html
+image: https://user-images.githubusercontent.com/5904370/56752390-6fc67100-6788-11e9-926b-8afd519cef61.png
+template: '{"NAME":"DS-102 3 Gang","GPIO":[57,59,0,18,22,19,0,0,17,21,58,23,56],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+Leftmost blue LED (assigned as Led1i) is the Wi-Fi/MQTT signal LED. 
+Middle red LED responds to all 3 switches. 
+The middle blue and the right blue LED cannot be directly controlled due to current limitations in Tasmota code.
+
+If you want each LED to respond to the corresponding switch use this template
+
+`{"NAME":"DS-102 3 Gang","GPIO":[56,34,0,18,22,19,0,0,17,21,33,23,32],"FLAG":0,"BASE":18}`
+
+with the following commands
+```lua
+seriallog 0
+rule1 on power1#state do power4 %value% endon on power2#state do power4 %value% endon on power3#state do power5 %value% endon
+rule1 1
+ledmask 0x0000
+```
+**Note:** `ledmask` is supported from 6.5.0.7. If you can't/won't upgrade to that version, change Led1i from gpio0 to none.
+
+*this configuration does not work well with Home Assistant autodiscovery since you'll get 3 extra dummy relays that are actually LEDs*
