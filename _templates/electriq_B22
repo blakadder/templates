@@ -1,0 +1,13 @@
+---
+date: 2019-04-27
+title: electriQ RGBW B22
+category: light
+type: Bulb
+standard: uk
+link: https://www.appliancesdirect.co.uk/p/iq-wifibulbb22/electriq-iqwifibulbb22-smart-bulb
+image: https://www.laptopsdirect.co.uk/Images/IQ-wifiBulbB22_1_5113362_LargeProductImage.jpg?width=700&height=700&v=2
+template: '{"NAME":"ElectricQ B22","GPIO":[255,255,255,255,37,41,255,255,38,40,39,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Same as Novostella B22
