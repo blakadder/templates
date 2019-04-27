@@ -1,0 +1,29 @@
+---
+date: 2019-04-27
+title: Woox R4028
+category: plug
+type: Power Strip
+standard: eu
+link: https://www.amazon.de/Woox-Smart-Steckdosenleiste-kompatibel-Amazon/dp/B07GFNL67Z/
+image: https://images-na.ssl-images-amazon.com/images/I/41bkmbxX4UL._SX679_.jpg
+template: '{"NAME":"Woox R4028","GPIO":[0,56,0,17,23,22,0,0,0,24,21,0,0],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+Seems to be identical to: https://blakadder.github.io/templates/geekbes_4socket.html
+
+Button controls single relay only. Rule to emulate original button behaviour (make sure to have all relays set to off before adding the rule,  from then on it should work correctly across restarts):
+```
+Rule1
+on system#boot do var1 %mem1% endon
+on power1#state do event pwch=%value% endon
+on power2#state do event pwch=%value% endon
+on power3#state do event pwch=%value% endon
+on power4#state do event pwch=%value% endon
+on event#pwch=0 do sub1 1 endon
+on event#pwch=1 do add1 1 endon
+on var1#state do mem1 %value% endon
+on button1#state do event press=%mem1% endon
+on event#press>0 do backlog power1 0;power2 0;power3 0;power4 0; endon
+on event#press<0.1 do backlog power1 1;power2 1;power3 1;power4 1; endon
+```
