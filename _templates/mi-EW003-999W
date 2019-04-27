@@ -1,0 +1,15 @@
+---
+date: 2019-04-27
+title: Merkury Innovations MI-EW003-999W
+category: light
+type: LED Strip
+standard: us
+link: https://www.walmart.com/ip/Merkury-Innovations-2m-Smart-Wifi-Rgb-Led-Strip-Kit/243703891
+image: https://i5.walmartimages.com/asr/08de706f-04ec-422f-94d8-2db78cf36dd5_1.03154eb050b3dbe5a4ff3c0ea4c0e045.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF
+template: '{"NAME":"BW-LT11 Strip","GPIO":[17,255,255,255,37,40,255,255,38,255,39,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+this is exactly the same as  "BW-LT11 Strip Module" and works flawlessly with tasmota 6.5.0. 
+
+
