@@ -1,0 +1,14 @@
+---
+date: 2019-04-30
+title: RSH-WS007
+category: plug
+type: Plug
+standard: eu
+link: https://www.aliexpress.com/item/Tuya-EU-WiFi-socket-wireless-plug-smart-home-switch-compatible-with-Google-home-IFTTT-and-Alexa/32952219190.html
+image: https://ae01.alicdn.com/kf/HTB1xGv3acTxK1Rjy0Fgq6yovpXag/Tuya-EU-WiFi-socket-wireless-plug-smart-home-switch-compatible-with-Google-home-IFTTT-and-Alexa.jpg
+template: '{"NAME":"Generic","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+
+
