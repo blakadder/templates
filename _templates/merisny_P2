@@ -1,0 +1,15 @@
+---
+date: 2019-05-01
+title: Merisny P2
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.it/Merisny-Intelligente-richiesto-Controlla-dispositivi/dp/B07GYFZ5LJ
+image: https://images-na.ssl-images-amazon.com/images/I/51-OcfeCZ7L._SL1001_.jpg
+template: '{"NAME":"Generic","GPIO":[0,0,52,0,0,0,0,0,0,17,0,21,0],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+Work good with tuya convert
+
+Also found under Oukitel brand
