@@ -14,7 +14,14 @@ Shelly 1PM has an internal temperature sensor for overheating protection and pow
 
 Tasmota development release 6.5.0.8 or up is required for temperature sensor support.
 
-Reading for 'Energy Today', 'Energy Yesterday' & 'Energy Total' are available now. Full support, including a 'Power' reading, will be released mid-May 2019.
+Reading for 'Energy Today', 'Energy Yesterday' & 'Energy Total' are available now. Full support, including a 'Power' reading, will be released mid-May 2019. If others want power reading in the interim before Theo's changes are released, it is a pretty simple code change. Comment lines 588 - 590
+
+`sonoff/xdrv_03_energy.ino`
+```
+// if (apparent_power < energy_active_power) { // Should be impossible
+// energy_active_power = apparent_power;
+// }
+```
 
 The Shelly 1PM does not support 'Voltage' and 'Current'.
 
