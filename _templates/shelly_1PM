@@ -1,0 +1,29 @@
+---
+date: 2019-05-01
+title: Shelly 1PM
+category: misc
+type: Relay
+standard: global
+link: https://shelly.cloud/shelly-1pm-wifi-smart-relay-home-automation/
+image: https://user-images.githubusercontent.com/4916781/57010210-abad7a80-6c4f-11e9-93ae-73b45697a214.jpg
+template: '{"NAME":"Shelly 1PM","GPIO":[56,0,0,0,82,134,0,0,131,132,0,21,0],"FLAG":2,"BASE":18}' 
+link_alt: 
+---
+
+Shelly 1PM has an internal temperature sensor for overheating protection and power/energy meter for power consumption.
+
+Tasmota development release 6.5.0.8 or up is required for temperature sensor support.
+
+Reading for 'Energy Today', 'Energy Yesterday' & 'Energy Total' are available now. Full support, including a 'Power' reading, will be released mid-May 2019.
+
+The Shelly 1PM does not support 'Voltage' and 'Current'.
+
+### Serial Connectivity and Flash Mode
+Shelly 1PM comes with a programming/debug header which can be used to flash Tasmota onto the device. Connect GPIO0 and GND pins while the device is booting to put it into flash mode.
+![shelly1pm-pinout](https://user-images.githubusercontent.com/4916781/57011109-21b3e080-6c54-11e9-9a24-01b16f5cdcb1.jpg)
+
+### Device in use
+![inuse](https://user-images.githubusercontent.com/4916781/57011090-0d6fe380-6c54-11e9-9a52-6d9c3f459039.jpg)"
+
+
+
