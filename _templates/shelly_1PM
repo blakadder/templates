@@ -26,7 +26,12 @@ Reading for 'Energy Today', 'Energy Yesterday' & 'Energy Total' are available no
 The Shelly 1PM does not support 'Voltage' and 'Current'.
 
 ### Serial Connectivity and Flash Mode
-Shelly 1PM comes with a programming/debug header which can be used to flash Tasmota onto the device. Connect GPIO0 and GND pins while the device is booting to put it into flash mode.
+## :warning: Electrocution Risk :warning:
+
+**Do not connect AC power and the serial connection at the same time** 
+The GND connection of Shelly devices is connected to the live AC wire. Connecting serial with your PC will fry your PC and could electrocute you.
+
+**Do not connect any additional sensors to serial pins.**Shelly 1PM comes with a programming/debug header which can be used to flash Tasmota onto the device. Connect GPIO0 and GND pins while the device is booting to put it into flash mode.
 ![shelly1pm-pinout](https://user-images.githubusercontent.com/4916781/57011109-21b3e080-6c54-11e9-9a24-01b16f5cdcb1.jpg)
 
 ### Device in use
