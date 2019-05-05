@@ -27,10 +27,8 @@ Rule3 on system#boot do backlog baudrate 9600; seriallog 2; serialsend5 55aa0003
 
 Here's a list of captured serial codes:
 
-```lua
-set wifi led state
+> set wifi led state
 55aa000300010306
-
 diffuser off
 55AA00060005020400010011
 continuous mode
@@ -39,19 +37,16 @@ intermittent mode
 55AA00060005020400010213
 countdown mode
 55AA00060005020400010314
-
 countdown 1 min
 55AA0006000866020004000000017A
 countdown 1 hr
 55AA00060008660200040000003CB5
 countdown 3 hr
 55AA0006000866020004000000B42D
-
 high speed
 55AA00060005650400010175
 low speed
 55AA00060005650400010074
-
 dimmer 0%
 55AA0006000807020004000000001A
 dimmer 100%
@@ -74,6 +69,5 @@ color red
 55AA000600120803000E666630303039303136353634363465
 color purple
 55AA000600120803000E6666303065653031333036343634BE
-```
 
-[PCB](https://i.postimg.cc/sDmp2YqR/IMG-20190505-230944.jpg)
+![PCB](https://i.postimg.cc/sDmp2YqR/IMG-20190505-230944.jpg)
