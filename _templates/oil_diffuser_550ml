@@ -10,7 +10,7 @@ template: '{"NAME":"Oil Diffuser","GPIO":[255,255,255,255,255,255,255,255,255,25
 link_alt: 
 ---
 
-Flashed via serial by using TYWE3S pin. Might work with Tuya Convert.
+Flashed via serial by using TYWE3S pins. Might work with Tuya Convert.
 
 This device has everything controlled via the MCU. It does not work with Tuya Dimmer module due to additional features and different command values.
 For the device to be fully supported the [Tuya driver](https://raw.githubusercontent.com/arendst/Sonoff-Tasmota/development/sonoff/xdrv_16_tuyadimmer.ino) would need a major code rewrite.
