@@ -27,7 +27,7 @@ Rule3 on system#boot do backlog baudrate 9600; seriallog 2; serialsend5 55aa0003
 
 Here's a list of captured serial codes:
 
-```
+```lua
 set wifi led state
 55aa000300010306
 
