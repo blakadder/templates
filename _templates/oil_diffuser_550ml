@@ -19,17 +19,17 @@ I've configured some rules to get basic functionality and [configure](https://gi
 
 Rule2 notes:
 
-Relay1 controls the diffuser: off and intermittent mode (you can change the code to a mode of your choice) 
+Relay1 controls the diffuser: intermittent mode / off (you can change the code to a mode of your choice) 
 
-Relay2 controls the device LED: off and white (you can change the codes to a color mode of your choice)
+Relay2 controls the device LED: white / off (you can change the codes to a color mode of your choice)
 
 Rule3 notes:
 
 First rule string is required, otherwise your device might not respond to serial commands on reboots.
 
-Fan speed is published to a retained mqtt topic and can be controlled from your smart home hub by sending `cmnd/diffuser/Event high` or `low`.
+Fan speed is published to a retained mqtt topic and can be controlled via mqtt command `cmnd/diffuser/Event high` or `low`.
 
-**If you use the device buttons the state won't be recorded in Tasmota and your power states will be out of sync**
+**If you use the device buttons or the remote, the state won't be recorded in Tasmota and your power states will be out of sync**
 
 ```lua
 Rule2 on power1#state=1 do serialsend5 55AA00060005020400010213 endon on power1#state=0 do serialsend5 55AA00060005020400010011 endon on power2#state=1 do serialsend5 55AA00060005060400010217 endon on power2#state=0 do serialsend5 55AA00060005060400010015 endon
