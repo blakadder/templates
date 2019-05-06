@@ -16,11 +16,17 @@ This device has everything controlled via the MCU. It does not work with Tuya Di
 For the device to be fully supported the [Tuya driver](https://raw.githubusercontent.com/arendst/Sonoff-Tasmota/development/sonoff/xdrv_16_tuyadimmer.ino) would need a major code rewrite.
 
 I've configured some rules to get basic functionality and [configure](https://gist.github.com/blakadder/807df02fcaf88e2b059e7b8d008c1881) it in Home Assistant. 
+
 Rule2 notes:
+
 Relay1 controls the diffuser: off and intermittent mode (you can change the code to a mode of your choice) 
+
 Relay2 controls the device LED: off and white (you can change the codes to a color mode of your choice)
+
 Rule3 notes:
+
 First rule string is required, otherwise your device might not respond to serial commands on reboots.
+
 Fan speed is published to a retained mqtt topic and can be controlled from your smart home hub by sending `cmnd/diffuser/Event high` or `low`.
 
 **If you use the device buttons the state won't be recorded in Tasmota and your power states will be out of sync**
