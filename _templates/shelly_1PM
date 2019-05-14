@@ -15,9 +15,7 @@ Shelly 1PM has an internal temperature sensor for overheating protection and pow
 Tasmota 6.5.0.10+ is required for [full support](https://github.com/arendst/Sonoff-Tasmota/issues/5716#issuecomment-491894342) of those sensors.
 
 ### Serial Connectivity and Flash Mode
-## :warning: Electrocution Risk :warning:
-
-**Do not connect AC power and the serial connection at the same time** 
+**WARNING!!! Do not connect AC power and the serial connection at the same time** 
 The GND connection of Shelly devices is connected to the live AC wire. Connecting serial with your PC will fry your PC and could electrocute you.
 
 **Do not connect any additional sensors to serial pins.**Shelly 1PM comes with a programming/debug header which can be used to flash Tasmota onto the device. Connect GPIO0 and GND pins while the device is booting to put it into flash mode.
