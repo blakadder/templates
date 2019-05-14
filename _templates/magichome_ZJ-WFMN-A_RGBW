@@ -4,8 +4,7 @@ title: MagicHome ZJ-WFMN-A V1.1 RGBW
 category: light
 type: LED Controller
 standard: global
-link: https://www.aliexpress.com/item/32683166279.html?productId=32683166279&productSubject=DC12V-5050-LED-Strip-RGB-RGBW-RGBWW-60LEDs-m-5M-with-mini-WiFi-Bluetooth-Controller-and&spm=a2g0s.9042311.0.0.51884c4dI3qvwf
-image: https://user-images.githubusercontent.com/816454/43894935-fd83a9d8-9c16-11e8-9a78-b7a058d972de.jpg
+link: https://www.aliexpress.com/item/32683166279.html
 template: '{"NAME":"MagicHome RGBW","GPIO":[0,0,0,0,51,38,0,0,37,39,0,40,0],"FLAG":0,"BASE":34}' 
 link_alt: 
 ---
