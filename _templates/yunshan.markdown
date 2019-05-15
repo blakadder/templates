@@ -1,7 +1,7 @@
 ---
 date: 2019-03-02
 title: Yunshan 10A 7-30VDC
-category: misc
+category: relay
 type: Relay
 standard: global
 tags: relay diy

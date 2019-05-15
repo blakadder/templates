@@ -42,6 +42,16 @@ navigation: 5
 </tbody>
 </table>
 <!-- ######################################################################  -->
+<h3>Relays</h3>
+<table id="Devices" width="80%">
+<tbody>
+{% assign switch = standard | where: "category", "relay" | sort: 'title' %}
+{% for template in switch %}
+{% include tablerow.html %}
+{% endfor %}
+</tbody>
+</table>
+<!-- ######################################################################  -->
 <h3>Miscellaneous</h3>
 <table id="Devices" width="80%">
 <tbody>

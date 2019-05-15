@@ -1,7 +1,7 @@
 ---
 date: 2019-05-01
 title: Shelly 1PM
-category: misc
+category: relay
 type: Relay
 standard: global
 link: https://shelly.cloud/shelly-1pm-wifi-smart-relay-home-automation/

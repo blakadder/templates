@@ -1,7 +1,7 @@
 ---
 date: 2019-03-03
 title: eMylo YSA111A1N-FBA
-category: misc
+category: relay
 type: Relay
 standard: global
 link: https://www.amazon.it/gp/product/B07FPLBGRN/

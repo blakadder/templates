@@ -1,7 +1,7 @@
 ---
 layout: default
 title: All Devices
-navigation: 7
+navigation: 8
 ---
 <!-- ######################################################################  -->
 {% assign standard = site.templates %}
@@ -34,6 +34,16 @@ navigation: 7
 {% assign switch = standard | where: "category", "switch" | sort: 'title' %}
 {% for template in switch %}
   {% include tablerow.html %}
+{% endfor %}
+</tbody>
+</table>
+<!-- ######################################################################  -->
+<h3>Relays</h3>
+<table id="Devices" width="80%">
+<tbody>
+{% assign switch = standard | where: "category", "relay" | sort: 'title' %}
+{% for template in switch %}
+{% include tablerow.html %}
 {% endfor %}
 </tbody>
 </table>

@@ -1,7 +1,7 @@
 ---
 date: 2019-04-19
 title: EACHEN ST-DC2
-category: misc
+category: relay
 type: Relay
 standard: global
 link: https://www.amazon.com/gp/product/B078JG96WW

@@ -1,7 +1,7 @@
 ---
 date: 2019-04-07
 title: eMylo XL9251WI
-category: misc
+category: relay
 type: Relay
 standard: global
 link: https://www.amazon.it/gp/product/B07DXZNR22/

@@ -1,7 +1,7 @@
 ---
 date: 2019-04-27
 title: Electrodragon Board
-category: misc
+category: relay
 type: Relay
 standard: global
 link: https://www.electrodragon.com/product/wifi-iot-relay-board-spdt-based-esp8266/
