@@ -1,6 +1,6 @@
 ---
 date: 2019-04-10
-title: minitiger 2 Gang
+title: Minitiger 2 Gang
 category: switch
 type: Switch
 standard: eu
