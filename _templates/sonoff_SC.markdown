@@ -1,0 +1,31 @@
+---
+title: Sonoff SC
+category: misc
+type: Environment Monitor
+standard: global
+link: https://www.itead.cc/sonoff-sc.html
+image: https://user-images.githubusercontent.com/5904370/57891045-486c3c80-783a-11e9-8cc3-9f5203837749.png
+template: '{"NAME":"Sonoff SC","GPIO":[17,148,255,149,0,0,0,0,0,56,0,0,0],"FLAG":0,"BASE":21}' 
+link_alt: https://www.fasttech.com/products/0/10040739/8817900-authentic-sonoff-sc-smart-indoor-wifi
+---
+## Serial Flashing
+
+Please see the [Hardware Preparation](Hardware-Preparation) page for general instructions.
+
+Remove the 4 screws on the bottom.
+The button is connected to GPIO0.
+
+You will have to remove the TX jumper in the board to avoid the ATMega328P to interfere in the upload process.
+
+Press and hold the button while powering the board to set the ESP8266 into flashing mode.
+
+**Note! After flashing you need to set the baudrate to 19200.** Use command:
+```
+baudrate 19200
+```
+
+Don't forget to reconnect the TX jumper after flashing!
+
+<img alt="SonoffSC" src="https://puu.sh/vZZRI/ff36ff9244.jpg" width="230" />
+<img alt="SonoffScRemoveTX" src="https://puu.sh/vZZSi/43244f3cc1.jpg" width="230" /> 
+<img alt="SonoffSCButoom" src="https://puu.sh/vZZSC/aaa140afa3.jpg" width="130" />

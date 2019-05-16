@@ -1,0 +1,68 @@
+---
+title: Sonoff 4CH Pro (R2)
+category: relay
+type: Relay
+standard: global
+link: https://www.itead.cc/smart-home/sonoff-4ch-pro.html
+image: https://user-images.githubusercontent.com/5904370/57883997-f91d1080-7827-11e9-96dd-f7a0a6df0edc.png
+template: '{"NAME":"Sonoff 4CH Pro","GPIO":[17,255,255,255,23,22,18,19,21,56,20,24,0],"FLAG":0,"BASE":23}' 
+link_alt: 
+---
+Compared to the 4CH the main differences/improvements of the 4CH Pro are:
+
+  - Relays are isolated from mains and can each switch their own circuit (mains or low voltage).
+  - With stock firmware special modes are supported (stand-alone schedules, inching, interlocking).
+  - RF receiver (optional key fob or Sonoff RF Bridge 433 required).
+  - Dual microcontroller, both a ESP8285 and a STM32.
+
+## Serial Flashing
+
+### Sonoff 4CH Pro 
+
+The "FW/IO0" button (Switch 1) is not directly connected to GPIO0 of the ESP module. A different method has to be used to program this board.
+
+To program the ESP chip disconnect power from the board, connect a cable from any Ground (GND) pin to the GPIO0 pin on the ESP (be careful not to touch any of the other pins). This is the second pin to the right on the top row of pins (see picture). While holding the pin connected power on the board. The board does not respond to any button pressed when in programming mode and LED 1, 2 and 3 are on (might differ per board). 
+
+Use the ESP programming header as described in the picture to upload the firmware and follow regular programming procedure.
+
+<img title="Sonoff 4CH Pro programming" src="https://github.com/arendst/arendst.github.io/blob/master/media/4chpro_gpio0.JPG?raw=true" width="100%" align="middle" />
+
+### Sonoff 4CH Pro R2
+On the R2 module the GPIO0 pin is broken out to [a small pad to the right of the ESP package](https://github.com/arendst/Sonoff-Tasmota/issues/2021#issuecomment-371227748):
+
+<img title="R2 module - GPIO0 pad" src="https://user-images.githubusercontent.com/3594528/37109801-58fb97a4-223b-11e8-969c-1131dcfa6ee1.jpg" align="middle" />
+
+## Solving Sonoff 4CH Pro programing issues
+
+If you have problems to program the 4CH Pro, you might find below tips useful:
+* Use the ESP program header and ensure that the right port is set in the Arduino IDE. 
+* TX/RX are printed correctly on the pro version => TX goes to RX PIN and RX to TX.
+* GPIO0 needs to be connected to ground for 3 seconds after reboot! If not you can not program it.
+
+1. If you use Windows7+, check in the device manager if the port is not added/removed all 2 seconds.
+   - If yes then your USB port does not deliver enough ampere.
+2. And/Or reduce upload speed to 57600 in Arduino IDE.
+3. Use an active USB HUB if your computer delivers not enough ampere
+   - External power source will stabilize the 4CH-pro and you can increase upload speed back to 115200.
+   - Using a Laptop instead of a Desktop Tower might also do the trick as Laptops have a battery to deliver more ampere.
+
+## 4CH Pro DIPSwitch Configuration
+
+Most special modes of the 4CH Pro are controlled by DIP switch panels on the board.
+Please refer to the back of the board or the Sonoff documentation for more details.
+For normal operation with Tasmota the following settings are recommended:
+
+- S6: 1
+- K5: all 1
+- K6: all 0
+
+(0 and 1 are printed onto the board next to the switch names)
+
+Changing these switches for operations like inching and interlocking are also supported with Tasmota.
+
+
+## Official Sources
+
+* [Itead Product Page](http://sonoff.itead.cc/en/products/sonoff/sonoff-4ch-pro)
+* [Itead Shop](https://www.itead.cc/sonoff-4ch-pro.html)
+* [Itead Wiki](https://www.itead.cc/wiki/Sonoff_4CH_Pro)

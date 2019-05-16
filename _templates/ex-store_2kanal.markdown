@@ -1,0 +1,42 @@
+---
+title: EX Store 2 Kanal V5
+category: relay
+type: Relay
+standard: global
+link: https://ex-store.de/2-Kanal-WiFi-WLan-Relay-V5-Blackline-fuer-Unterputzmontage
+image: https://user-images.githubusercontent.com/5904370/57889336-d513fc00-7834-11e9-923f-b4058b8d5c7f.png
+template: '{"NAME":"EXS Relay V5","GPIO":[255,255,255,255,255,255,0,0,21,22,31,52,32],"FLAG":0,"BASE":16}' 
+link_alt: 
+---
+## Serial Flashing
+
+![](https://user-images.githubusercontent.com/43306023/46314990-7ca52c80-c5cc-11e8-8e2c-6d355b71aebc.jpg)
+
+The only way to flash the module is by soldering 4 wires to the RX/TX/3V3/GND pins on the ESP-07. The PCB has no serial pinout connectors. 
+For connecting the ground (GND) on a V5.0 Modul you can use one of the 2 GND pinout connectors from the PCB. For flashing the moduls enable the flashmode of the ESP, connect PIN4 (GPIO00) to GND.  
+
+**_!!! Don't flash the module when it is connected to mains power. Use only a 3.3V USB Adapter for flashing!!!_**
+
+![](https://user-images.githubusercontent.com/43306023/46250630-1c34b480-c43f-11e8-9af9-9718ee243fe1.PNG)
+
+PCB Backside
+
+![PCB back](https://user-images.githubusercontent.com/43306023/46289287-e865a600-c588-11e8-94e2-52c46209b50b.jpg)
+
+GPIO00 - Module Pin 4  
+GPIO01 - Module Pin 3  
+GPIO04 - Module Pin 2  
+GPIO05 - Module Pin 1  
+GPIO12 - Relay1 ( High = Off)  
+GPIO13 - Relay1 ( High = On)  
+GPIO14 - Relay2 ( High = Off)  
+GPIO15 - LED1  
+GPIO16 - Relay2 ( High = On)  
+
+
+### Notes   
+
+The output pins of the V5.0 are reversed on the PCB. You must use "out1" for Relay2 and "out2" for Relay1 !!! This is the only way for support both Modules with Tasmota. (courtesy of Theo Arends)
+
+
+

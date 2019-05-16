@@ -1,0 +1,18 @@
+---
+title: 1 Channel Inching/Self-Locking
+category: relay
+type: Relay
+standard: global
+link: https://www.itead.cc/inching-self-locking-wifi-wireless-switch.html
+image: https://user-images.githubusercontent.com/5904370/57887139-173a3f00-782f-11e9-8bcc-b0a41451bb10.png
+template: '{"NAME":"1 Channel","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":12}' 
+link_alt: 
+---
+## Serial Flashing
+### PSA-B01
+![PSA-B01](https://user-images.githubusercontent.com/30130742/30688446-77df0148-9ebe-11e7-9556-ad413b839a16.png)
+### PSF-B01
+![PSF-B01](https://user-images.githubusercontent.com/30130742/35114678-d5cfd596-fc85-11e7-843f-998b104571be.png)
+[Video demonstration](https://www.youtube.com/watch?v=E0WBoFCcnYY) on how to get the device into flash mode.
+
+

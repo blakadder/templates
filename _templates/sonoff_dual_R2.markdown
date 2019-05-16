@@ -17,7 +17,7 @@ Sonoff Dual R2 is the replacement for Sonoff Dual. Compared to the Dual the main
 
 Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
-As always, you need to access the serial interface. The **four serial pins** (VCC, Rx, Tx, GND) are available at the bottom left end of the PCB in the image belwo.
+As always, you need to access the serial interface. VCC, RX, TX and GND are available at the bottom left end of the PCB in the image below.
 ![](https://user-images.githubusercontent.com/5904370/57879391-a7bb5400-781c-11e9-96d4-ea7b87fc3274.png)
 
 Programming the Sonoff Dual R2 is a breeze although the on-board-button is not connected to GPIO0. As with all ESP8266/ESP8285 modules pulling GPIO0 to GND is needed to put the chip in programming mode. You need to **connect GPIO0 and GND** during power up.
@@ -28,7 +28,7 @@ _**For a video on how to flash the Sonoff Dual R2 with Tasmota, take a look [her
 
 ### Use external switches
 
-The relays can be controlled by external push buttons or switches connected to the header at the designated positions. BUTTON 0 (= GPIO0) connected to GND controls Relay1 and BUTTON 1 (= GPIO9) connected to GND controls Relay2.
+The relays can be controlled by external push buttons or switches connected to the header at the designated positions. BUTTON 0 (on GPIO0) connected to GND controls Relay1 and BUTTON 1 (on GPIO9) connected to GND controls Relay2.
 
 See the image on the right how to configure this functionality in Tasmota as Switch1 and Switch2.
 

@@ -1,0 +1,13 @@
+---
+title: WiOn 50055
+category: plug
+type: Plug
+standard: us
+link: https://www.amazon.com/gp/product/B00ZYLUBJU
+image: https://user-images.githubusercontent.com/5904370/57890132-11485c00-7837-11e9-8158-18847f79a60f.png
+template: '{"NAME":"WiOn","GPIO":[255,0,52,0,0,0,0,0,255,17,0,21,0],"FLAG":0,"BASE":17}' 
+link_alt: 
+---
+## Serial Flashing
+
+Complete guide at [The Greak Geekery](http://thegreatgeekery.blogspot.com/2016/02/ecoplug-wifi-switch-hacking.html)
