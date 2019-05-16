@@ -1,7 +1,7 @@
 ---
 title: Slampher
 category: misc
-type: Bulb Holder
+type: Bulb Socket
 standard: eu
 link: https://www.itead.cc/smart-home/slampher.html
 image: https://user-images.githubusercontent.com/5904370/57884945-28cd1800-782a-11e9-9029-951942473a2a.png
