@@ -22,8 +22,6 @@ The front circuit board should be disconnected from the rear relay board to prev
 #### Touch Board VER:1
 The following board layouts are from the 3 variants of the Sonoff T1 UK variant and are marked Sonoff T1 R2 UK Touch Board, Ver 1.0. 
 
-_[SonOTA](https://github.com/mirko/SonOTA) may work again [with Sonoff firmware v2.0.1 or greater](https://github.com/mirko/SonOTA/wiki#known-working-configurations). This needs to be verified for this specific device._
-
 ![img_20180113_094236](https://user-images.githubusercontent.com/10469147/34905168-6128981a-f84b-11e7-9cf0-e0e4c3b0bd55.jpg)
 
 1. Entering Flashing mode varies between the 1, 2 and 3 channel versions. See the above picture for button nomenclature used. (The variations between the 3 versions appear to be managed by the touch IC rather than in the ESP).  
@@ -42,6 +40,7 @@ Notes:
 
 **WARNING!!** Do not attempt to power the device from your serial-to-USB adapter when connected to the relay board. This draws too much power and will cause the ESP to reboot frequently and will reset all the configured settings.
 
+_[SonOTA](https://github.com/mirko/SonOTA) may work again [with Sonoff firmware v2.0.1 or greater](https://github.com/mirko/SonOTA/wiki#known-working-configurations). This needs to be verified for this specific device._
 ## Official Sources
 
 * [Itead Product Page](http://sonoff.itead.cc/en/products/residential/sonoff-t1)
