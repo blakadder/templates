@@ -25,9 +25,9 @@ The Sonoff 4CH features four hardware buttons. Button marked FW/IO0 is connected
 Board is labelled Sonoff 4CH R2 V1.0.
 
 The RX and TX pins are correctly labelled on this PCB revision.
-![Serial pins](/assets/images/sonoff_4ch_r2_serial.jpg)
+![Serial pins](assets/images/sonoff_4ch_r2_serial.jpg)
 The button labelled IO0 is connected to GPIO0 and can be used to bring the module into flash mode.
-![Flash mode button](/assets/images/sonoff_4ch_r2_I00.jpg)
+![Flash mode button](assets/images/sonoff_4ch_r2_I00.jpg)
 
 ## Official Sources
 
