@@ -1,5 +1,5 @@
 ---
-title: Sonoff Pow
+title: Sonoff Pow R2
 category: relay
 type: Relay
 standard: global
