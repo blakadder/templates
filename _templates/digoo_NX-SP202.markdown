@@ -1,6 +1,6 @@
 ---
 date: 2019-04-12
-title: DIGOO NX-SP202
+title: Digoo NX-SP202
 category: plug
 type: Plug
 standard: eu
