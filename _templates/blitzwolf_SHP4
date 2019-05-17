@@ -1,0 +1,12 @@
+---
+title: Blitzwolf BW-SHP4
+category: plug
+type: Plug
+standard: uk
+link: https://www.blitzwolf.com/2300W-UK-WIFI-Smart-Socket-p-296.html
+image: https://user-images.githubusercontent.com/5904370/57949732-84101080-78e5-11e9-9c70-fdbe0b59b385.png
+template: '{"NAME":"BlitzWolf SHP","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+link_alt: https://www.aliexpress.com/item/32931065090.html
+---
+## Serial Flashing
+Complete guide on [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/BlitzWolf-BW-SHP4-(UK-Version))

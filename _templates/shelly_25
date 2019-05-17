@@ -1,0 +1,85 @@
+---
+date: 2019-04-15
+title: Shelly 2.5
+category: relay
+type: Relay
+standard: global
+link: https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/
+image: https://user-images.githubusercontent.com/5904370/56116577-7b36c280-5f66-11e9-9052-f97a35669708.png
+template: '{"NAME":"Shelly 2.5","GPIO":[56,255,17,255,21,83,0,0,6,82,5,22,156],"FLAG":2,"BASE":18}'
+link_alt:
+---
+
+The Shelly 2.5 is supported from Tasmota 6.5.0.8 using a template.
+
+<img src="https://shelly.cloud/wp-content/uploads/2019/02/shelly_25_250.png" width="250" align="right" />
+
+* [Allterco Shelly 2.5 Product Page](https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/)
+* [Allterco Shelly 2.5 Shop](https://shelly.cloud/product/wifi-smart-home-automation-shelly-25-switch-relay-roller-shutter/)
+* [Shelly 2.5 Initial issue](https://github.com/arendst/Sonoff-Tasmota/issues/5592)
+
+## ⚠️️Special Shelly Attention⚠️️
+
+**Do not connect AC power and the serial connection at the same time** 
+The GND connection of the Shelly has a 50% chance of being connected to the live AC wire. Connecting serial with your PC will fry your PC.
+
+**Do not connect any additional sensors to serial pins.**
+It can at least destroy your Shelly!
+
+**Check the correct jumper position before connecting AC power to Shelly 1.**
+If the jumper is set to 12V you will destroy your Shelly!
+
+# [Shelly 2.5](https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/)
+**Warning (April 10, 2019):** https://www.facebook.com/groups/ShellyIoTCommunitySupport/permalink/2029876037111750/
+
+_This appears to affect a percentage of their entire first run production. **Check your device before powering it on.**_
+
+An ESP8266 with 2MB flash dual relay device with Energy Monitoring. Slightly smaller than the original Shelly 2.
+
+<img src="https://shelly.cloud/wp-content/uploads/2019/01/s25_size2.jpg" height="250" />
+<img src="https://shelly.cloud/wp-content/uploads/2019/01/s25_size.jpg" height="250" />
+
+[Internals](https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/51092632_10217564446085547_6543895133773889536_o.jpg?_nc_cat=102&_nc_oc=AQnK1H8PXH4F33xiICspBkHRoBBJIxoj_YJHxin3yHWFQTS6LB_PwD4AejRY_FYj4NA&_nc_ht=scontent-atl3-1.xx&oh=5cb978d3ded4e93b0a549723153c2b3f&oe=5CF298EF)
+
+## Serial Flashing
+
+**New** Shelly 2.5 model comes with a partially exposed programming/debug header which can be used to flash Tasmota on the device. A USB-to-UART adapter is needed as well as a reliable 3.3V with at least 350 mA drive capability. The following diagram shows the device pinout and power source voltage selection jumper.
+
+<img src="https://shelly.cloud/wp-content/uploads/2019/01/pin_out-650x397.png" height="250" />
+
+To be able to flash the Tasmota firmware you need to get into flash mode. Therefore connect a wire from GPIO0 to ground. For further information have a look at [bringing-the-module-in-flash-mode](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation#bringing-the-module-in-flash-mode).
+
+## Device Configuration
+As the Temperature sensor uses the Analog input the firmware needs to be compiled with ``//#define USE_ADC_VCC``.
+
+If you connect momentary switches and want press/double press/hold functionality, use the following template:
+```
+{"NAME":"Shelly 2.5 (buttons)","GPIO":[56,255,17,255,21,127,0,0,6,128,5,22,156],"FLAG":2,"BASE":18}
+```
+and run command 
+```
+backlog SetOption1 1; SetOption11 1; SetOption32 1
+``` 
+to enable all three states. Button1 is the button on the back of the device, Button2 and Button3 are the externally connected buttons.
+
+### Calibration
+Tasmota will disable serial logging after a restart as the communication between Tasmota and the Energy Monitoring chip is using the same serial interface. Make sure not to enable `SerialLog` as it will interfere with the Energy Monitoring functionality.
+
+To calibrate the Energy monitoring feature connect a known load and execute the commands shown below. Assumed an AC voltage of 240V, a resistive load of 60W and a line frequency of 50Hz. With a load of 60W the current should be 60W / 240V = 0.25A.
+```
+FrequencySet 50.000
+PowerSet 60.00
+VoltageSet 240.0
+CurrentSet 250.0
+```
+Pause a few seconds between executing the commands as the communication between Tasmota and the Energy Monitoring chip is a serial interface which can take over a second to complete.
+
+### Use rules to control shutter endpoints
+
+As the Shelly 2.5 contains energy monitoring you can use rules to power off the shutter when too much current is drawn at the end point. The below rule will power off both directions when the current becomes more than 500mA.
+
+```
+rule on energy#current>0.500 do backlog power1 0; power2 0 endon
+rule 1
+rule 5
+```

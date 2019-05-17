@@ -9,7 +9,8 @@ image: https://user-images.githubusercontent.com/5904370/57791754-c0087180-773d-
 template: '{"NAME":"MagicHome RGBW","GPIO":[0,0,0,0,51,38,0,0,37,39,0,40,0],"FLAG":0,"BASE":34}' 
 link_alt: 
 ---
-
+## Serial Flashing
+Complete guide on [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/MagicHome-LED-strip-controller)
 
 
 

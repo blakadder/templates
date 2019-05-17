@@ -1,6 +1,6 @@
 ---
 date: 2019-02-28
-title: KuLED KS602S
+title: Kuled KS602S
 category: switch
 type: Switch
 standard: us

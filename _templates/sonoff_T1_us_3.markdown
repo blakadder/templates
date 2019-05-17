@@ -1,0 +1,12 @@
+---
+title: Sonoff T1 US 3 Gang
+category: switch
+type: Switch
+standard: us
+link: https://www.itead.cc/smart-home/sonoff-t1-us.html
+image: https://user-images.githubusercontent.com/5904370/57944986-ee6e8400-78d8-11e9-99db-49d336c68084.png
+template: '{"NAME":"Sonoff T1 3CH","GPIO":[17,255,255,255,23,22,18,19,21,56,0,0,0],"FLAG":0,"BASE":30}' 
+link_alt: 
+---
+## Serial Flashing
+Complete guide at [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/Sonoff-T1)

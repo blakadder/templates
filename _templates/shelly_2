@@ -1,0 +1,43 @@
+---
+title: Shelly 2
+category: relay
+type: Relay
+standard: global
+link: 
+image: https://user-images.githubusercontent.com/5904370/57952065-5aa6b300-78ec-11e9-9b87-9efb617a64dc.png
+template: '{"NAME":"Shelly 2","GPIO":[0,135,0,136,21,22,0,0,9,0,10,137,0],"FLAG":0,"BASE":47}'
+link_alt:
+---
+## This product has been discontinued 
+
+**Shelly 2 is discontinued and replaced by [Shelly 2.5](shelly-2.5)**
+
+The Shelly 2 is fully supported in Tasmota from version 6.2.1.7<br>
+
+## ⚠️️Special Shelly Attention⚠️️
+
+**Do not connect AC power and the serial connection at the same time** 
+The GND connection of the Shelly has a 50% chance of being connected to the live AC wire. Connecting serial with your PC will fry your PC.
+
+**Do not connect any additional sensors to serial pins.**
+It can at least destroy your Shelly!
+
+**Check the correct jumper position before connecting AC power to Shelly 1.**
+If the jumper is set to 12V you will destroy your Shelly!
+# Shelly 2
+An ESP8266 with 2MB flash dual relay device with Energy Monitoring the size of round 45mm.<br>
+<img src="https://github.com/arendst/arendst.github.io/blob/master/media/shelly/shelly2_serial_connection2.jpg" height="250" />
+
+## Templates as of v6.4.1.17
+The inbuilt template equals the following:<br>
+``{"NAME":"Shelly 2","GPIO":[0,135,0,136,21,22,0,0,9,0,10,137,0],"FLAG":0,"BASE":47}``<br>
+An alternative template without switch pull-up is:<br>
+``{"NAME":"Shelly 2n","GPIO":[0,135,0,136,21,22,0,0,82,0,83,137,0],"FLAG":0,"BASE":47}``
+
+## Pullup or no pullup
+<img src="https://github.com/arendst/arendst.github.io/blob/master/media/shelly/shelly2pullup.png" width="250" align="right" />
+The shelly 2 inputs may or may not need pullups for SW1 and SW2 to work correctly. Default state is pullups enabled.
+
+To disable pullups either use command SetOption62 1 or select the option from the GUI.
+
+Refer to the following issue: https://github.com/arendst/Sonoff-Tasmota/issues/4841

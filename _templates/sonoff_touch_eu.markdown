@@ -1,5 +1,5 @@
 ---
-title: Sonoff Touch
+title: Sonoff Touch EU
 category: switch
 type: Switch
 standard: eu
@@ -27,17 +27,4 @@ The Sonoff Touch button is not connected to **GPIO0** and can not be used to bri
 * Itead Product Page: http://sonoff.itead.cc/en/products/residential/sonoff-touch
 * Itead Shop: https://www.itead.cc/sonoff-touch.html
 * Itead Wiki: (na)
-
-### Hardware modification for LEDs
-Solder the switch LED where the Wifi LED is and then you can control the LED when you use the command Ledpower ON.
-The Switch LED is on all the time, even when the switch is off
-So you can easy see and find the switch in the dark
-
-![](https://user-images.githubusercontent.com/47263019/52157768-158aa800-2692-11e9-8266-6775fec80c11.jpg)
-
-Or you can solder the switch LED on 3.3v and ground
-but then you cant control the LED, it is always on and very bright
-
-![](https://user-images.githubusercontent.com/47263019/52159715-7d4bed80-26a8-11e9-8ed5-8a21dda1e349.jpeg)
-![](https://user-images.githubusercontent.com/47263019/52159716-8046de00-26a8-11e9-83fc-7334679b620a.jpeg)
 

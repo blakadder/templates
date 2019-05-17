@@ -1,0 +1,13 @@
+---
+title: KMC 70011
+category: plug
+type: Plug
+standard: us
+link: https://www.amazon.com/KMC-Timing-Monitoring-Network-125V-240V/dp/B06XRX2GTQ
+image: https://user-images.githubusercontent.com/5904370/57947140-5f646a80-78de-11e9-9a75-dd821ac69e6b.png
+template: '{"NAME":"KMC 70011","GPIO":[17,0,0,0,133,132,0,0,130,56,21,0,0],"FLAG":0,"BASE":36}' 
+link_alt: 
+---
+## Serial Flashing
+
+Complete guide at [Espurna Wiki](https://github.com/xoseperez/espurna/wiki/Hardware-KMC-70011)

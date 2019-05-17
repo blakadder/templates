@@ -1,0 +1,12 @@
+---
+title: Blitzwolf BW-SHP6
+category: plug
+type: Plug
+standard: eu
+link: https://www.blitzwolf.com/2300W-EU-WIFI-Smart-Socket-p-300.html
+image: https://user-images.githubusercontent.com/5904370/57949586-22e83d00-78e5-11e9-8a4f-c19c843abf99.png
+template: '{"NAME":"BlitzWolf SHP","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+link_alt: https://www.aliexpress.com/item/32933098972.html
+---
+## Serial Flashing
+Complete guide on [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/BlitzWolf-SHP6)
