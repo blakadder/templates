@@ -1,0 +1,26 @@
+---
+title: YTF
+category: misc
+type: IR Bridge
+standard: global
+link: https://www.aliexpress.com/item/32951202513.html
+image: https://user-images.githubusercontent.com/5904370/57956262-b414df00-78f8-11e9-93d8-709995e2c8df.png
+template: '{"NAME":"YTF IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+link_alt: https://www.amazon.com/gp/product/B07H46LJZK
+---
+
+***Supported since version [6.4.1.8](https://github.com/arendst/Sonoff-Tasmota/commit/c5f68235700b4447198a9508b709c3e254676114#diff-ddfd77b547e11c4b59fa0d20fddd7f94R1679) as YTF IR Bridge (62)***
+
+This device is flashable with [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert).
+## Serial Flashing
+Like most devices, GPIO0 has to be held low during power up to get into flash mode. In the picture below, notice the red jumper wire between IO0 and GND. I soldered it in such a way I could hold it during power on, but release later (basically acts as a button), since it can not be held low if you want normal operation.
+
+![img_1140](https://user-images.githubusercontent.com/1296162/50830738-8b069100-12fd-11e9-968a-ed93e396c614.JPG)
+![img_2323](https://user-images.githubusercontent.com/1296162/50830734-8b069100-12fd-11e9-9c4d-130d17056257.JPG)
+![img_8334](https://user-images.githubusercontent.com/1296162/50830737-8b069100-12fd-11e9-83b0-1d9b1ee42fb9.JPG)
+![img_3255](https://user-images.githubusercontent.com/1296162/50830739-8b9f2780-12fd-11e9-83b3-bdaea3f50bb2.JPG)
+![img_3282](https://user-images.githubusercontent.com/1296162/50830740-8b9f2780-12fd-11e9-9a11-9572d9990e44.JPG)
+
+## IR Codes List
+[IR Code List](https://github.com/arendst/Sonoff-Tasmota/wiki/Codes-for-IR-Remotes-(for-YTF-IR-Bridge))
+

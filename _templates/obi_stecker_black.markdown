@@ -1,0 +1,36 @@
+---
+title: Obi Stecker IP44
+category: plug
+type: Plug
+standard: eu
+link: https://www.obi.de/hausfunksteuerung/wifi-stecker-schuko-2-stueck-weiss/p/4077673
+image: https://user-images.githubusercontent.com/5904370/57955953-97c47280-78f7-11e9-85bf-3288acd4fb7f.png
+template: '{"NAME":"OBI Socket 2","GPIO":[0,0,0,0,21,17,0,0,56,53,0,0,0],"FLAG":0,"BASE":61}' 
+link_alt: 
+---
+This WiFi socket is a cheap outdoor alternative to the popular low-cost indoor WiFi socket ["Wifi Stecker Schuko Weiß"](https://www.obi.de/hausfunksteuerung/wifi-stecker-schuko-weiss/p/4077806) from the German DIY-warehouse OBI.
+It is equipped with a ESP-WROOM-02 module. Sadly, there is no programming pin header and it can be kind of tricky to get the module into programming state (see below). You'll need some soldering skills to attach the programming wires.
+![137535_2](https://user-images.githubusercontent.com/33325587/50388246-94dea080-0710-11e9-945a-8dbb2e78d74e.jpg)
+
+The Outdoor Wifi Socket is only available in the OBI Diy-Warehouse. It's "official name" is "Wifi Stecker Schuko Schwarz". It can also be bought in the [OBI online-store](https://www.obi.de/hausfunksteuerung/wifi-stecker-schuko-schwarz/p/4077681) 
+
+## Serial FLashing
+Opening the socket is kind of difficult. The case is held together by two Tri-Wing screws, two tiny cross-head/PH screws, some sealing grease in the screw holes and some glue.
+![img_20181223_190049b](https://user-images.githubusercontent.com/33325587/50388270-23532200-0711-11e9-97b8-a2a152cd8020.jpg)
+
+First, you can remove the sealing grease out of the screw holes by using a matching drill. Drill out the sealing grease by turning it by hand, until you reach the screw head.
+![img_20181223_185750](https://user-images.githubusercontent.com/33325587/50388252-c6576c00-0710-11e9-9010-513b85890864.jpg)
+
+After this, you can use the matching screw driver. The eventually remaining sealing grease will move aside.
+> Tipp: Afterwards use normal cross screws to close the casing.
+After this its getting tricky: use a stable knife or a flat screw driver to carefully crack up the two halfs of the case. In any case, try to NOT cut up your hands!
+
+### Connection
+For convenient access to the programming pins, you can solder jump wires to the corresponding pads of the WROOM module.
+After successfully reprogramming the module, you can fold the wires into the socket in case of further tinkering.
+![img_20181223_190322b](https://user-images.githubusercontent.com/33325587/50388258-e7b85800-0710-11e9-876b-c4d3adb52751.jpg)
+
+( Note: Same PCB as OBI Socket 2 ! )
+
+### Entering programming mode
+Connect GPIO0 to GND before connecting power to enable flash mode!
