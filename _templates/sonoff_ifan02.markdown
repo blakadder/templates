@@ -18,7 +18,11 @@ Flashing using only a USB to serial converter will not work as the unit draws to
 
 The button is not connected to GPIO0 so flashing the unit requires some extra work. I managed to flash the iFan02 by soldering a wire to TP16 (GPIO00) on the bottom of the PCA. Keep this wire connected to Gnd during the power-on or reset process (pressing the button) and the unit will be in firmware upgrade mode. If you've soldered the gpio0 connection don't forget to unsolder before booting normally.  
 
-Connect RX -> TX | 3.3 -> 3.3 | TX -> RX | GND -> GND  and connect TP16 to GND (as used in the TTL). 
+- RX -> TX 
+- 3.3 -> 3.3 
+- TX -> RX 
+- GND -> GND  
+- TP16 to GND (as used in the TTL)
 
 Press and hold the button while connecting to power.
 
