@@ -1,7 +1,7 @@
 ---
 title: Luminea ZX-2820
-category: light
-type: Bulb
+category: plug
+type: Plug
 standard: eu
 link: https://www.luminea.info/WIFI-Smartphone-Steckdose-kompatibel-zu-Amazon-ZX-2820-919.shtml
 image: https://user-images.githubusercontent.com/5904370/57956553-aca20580-78f9-11e9-9da7-799e1608285f.png
