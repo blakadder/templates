@@ -4,7 +4,7 @@ category: misc
 type: Environment Monitor
 standard: global
 link: https://www.itead.cc/sonoff-sc.html
-image: https://user-images.githubusercontent.com/5904370/57891045-486c3c80-783a-11e9-8cc3-9f5203837749.png
+image: https://user-images.githubusercontent.com/5904370/57957790-da894900-78fd-11e9-92c6-7f32fd9d4a59.png
 template: '{"NAME":"Sonoff SC","GPIO":[17,148,255,149,0,0,0,0,0,56,0,0,0],"FLAG":0,"BASE":21}' 
 link_alt: https://www.fasttech.com/products/0/10040739/8817900-authentic-sonoff-sc-smart-indoor-wifi
 ---
