@@ -1,5 +1,5 @@
 ---
-title: Sonoff IFan02
+title: Sonoff iFan02
 category: relay
 type: Relay
 standard: global
@@ -9,10 +9,6 @@ template: '{"NAME":"Sonoff iFan02","GPIO":[17,255,0,255,23,22,18,19,21,56,20,24,
 link_alt: 
 ---
 The Sonoff iFan02 is supported in Tasmota from version 6.0.0b
-
-* [Itead Product Page](http://sonoff.itead.cc/en/products/appliances/sonoff-ifan02)
-* [Itead Shop](https://www.itead.cc/sonoff-ifan02-wifi-smart-ceiling-fan-with-light.html)
-* [Itead iFan02 Schematics](https://github.com/arendst/arendst.github.io/blob/master/media/ifan02/iFan02Schematics.pdf)
 
 ## Serial Flashing
 
@@ -61,4 +57,9 @@ If anyone wants to setup a single push button switch attached to the GPIO3 Seria
 ### Alternate Power Supply Schematic
 
 ![esp8285 PINOUT](https://user-images.githubusercontent.com/24206271/43140236-857bc724-8f21-11e8-87c0-6f3688cb5eb0.gif)
+
+## Official Sources
+* [Itead Product Page](http://sonoff.itead.cc/en/products/appliances/sonoff-ifan02)
+* [Itead Shop](https://www.itead.cc/sonoff-ifan02-wifi-smart-ceiling-fan-with-light.html)
+* [Itead iFan02 Schematics](https://github.com/arendst/arendst.github.io/blob/master/media/ifan02/iFan02Schematics.pdf)
 
