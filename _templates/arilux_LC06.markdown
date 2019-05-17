@@ -1,5 +1,5 @@
 ---
-title: Arilux AL-LC11
+title: Arilux AL-LC06
 category: light
 type: LED Controller
 standard: global
