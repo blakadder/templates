@@ -1,0 +1,14 @@
+---
+date: 2019-05-17
+title: Gosund KS-602S
+category: switch
+type: Switch
+standard: us
+link: https://www.amazon.com/gp/product/B07DQDNBZ2
+image: https://images-na.ssl-images-amazon.com/images/I/512fi13XMsL._SX679_.jpg
+template: '{"NAME":"Gosund SW1","GPIO":[17,56,0,0,0,0,0,0,0,0,21,0,0],"FLAG":0,"BASE":10}' 
+link_alt: 
+---
+
+This module has bi-color LED. GPIO1=green and GPIO16=red
+
