@@ -1,0 +1,16 @@
+---
+date: 2019-05-18
+title: Estink C178
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.it/gp/product/B078N75HGL
+image: https://user-images.githubusercontent.com/44721151/57968476-a5f7aa80-795a-11e9-9451-ea9959766ff6.jpg
+template: '{"NAME":"Estink C178","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+The device works with Tuya app, so Tasmota can be flashed via [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert).
+
+
+
