@@ -1,0 +1,15 @@
+---
+date: 2019-05-18
+title: Yuanguo 4AC + 2 USB
+category: plug
+type: Power Strip
+standard: eu
+link: https://www.amazon.fr/Yuanguo-Intelligente-Ind%C3%A9pendants-Interrupteur-Compactible/dp/B07L3FMYSQ
+image: https://images-na.ssl-images-amazon.com/images/I/51zdMb28IUL._SL1100_.jpg
+template: '{"NAME":"YUANGUO","GPIO":[0,20,0,24,19,18,0,0,17,22,21,23,0],"FLAG":0,"BASE":1}' 
+link_alt: 
+---
+
+Flashed OTA with tuya-convert
+
+
