@@ -1,0 +1,16 @@
+---
+date: 2019-05-17
+title: TimeThinker WS2
+category: plug
+type: Plug
+standard: eu
+link: https://www.aliexpress.com/item/33012797322.html
+image: https://ae01.alicdn.com/kf/HTB1RoLdU3HqK1RjSZFgq6y7JXXaF/Timethinker-Smart-WiFi-Plug-Homekit-Socket-EU-Adapter-for-Apple-Homekit-Siri-ALexa-Google-Home-APP.jpg_640x640.jpg
+template: '{"NAME":"TimeThinkerWS2","GPIO":[0,0,0,0,17,0,0,0,0,52,21,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+
+
+
+
