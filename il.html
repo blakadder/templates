@@ -1,10 +1,10 @@
 ---
 layout: default
-title: IN Devices
-navigation: 7
+title: IL Devices
+navigation: 8
 ---
 <!-- ######################################################################  -->
-{% assign standard_country = site.templates | where: "standard", "in" | sort: 'title' %}
+{% assign standard_country = site.templates | where: "standard", "il" | sort: 'title' %}
 {% assign standard_global = site.templates | where: "standard", "global" | sort: 'title' %}
 {% assign standard = standard_country | concat: standard_global %}
 
@@ -22,7 +22,7 @@ navigation: 7
 <h3>Lights</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign standard_uk = site.templates | where: "standard", "uk" | sort: 'title' %}
+{% assign standard_eu = site.templates | where: "standard", "eu" | sort: 'title' %}
 {% assign standardlight = standard_country | concat: standard_global | concat: standard_eu %}
 {% assign light = standardlight | where: "category", "light" | sort: 'title' %}
 {% for template in light %}
