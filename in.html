@@ -23,7 +23,7 @@ navigation: 7
 <table id="Devices" width="80%">
 <tbody>
 {% assign standard_uk = site.templates | where: "standard", "uk" | sort: 'title' %}
-{% assign standardlight = standard_country | concat: standard_global | concat: standard_eu %}
+{% assign standardlight = standard_country | concat: standard_global | concat: standard_uk %}
 {% assign light = standardlight | where: "category", "light" | sort: 'title' %}
 {% for template in light %}
 {% include tablerow.html %}
