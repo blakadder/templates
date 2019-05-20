@@ -46,5 +46,6 @@ Please be aware that some of the H801 modules were sold with only 512kB of flash
 
 ## Known Issue
 While powering up there is a short, but bright flash of light from the connected LED strip. 
-***
+
+---
 For more info about H801 read: [A closer look at the H801 LED WiFi Controller](https://tinkerman.cat/post/closer-look-h801-led-wifi-controller) by Tinkerman
