@@ -6,12 +6,13 @@ type: Switch
 standard: eu
 link: https://www.aliexpress.com/item/Tuya-Smart-life-app-Control-WiFi-Light-86-EU-Button-Switch-Support-Alexa-Google-Home/32996551323.html
 image: https://user-images.githubusercontent.com/5904370/56752390-6fc67100-6788-11e9-926b-8afd519cef61.png
-template: '{"NAME":"DS-102 3 Gang","GPIO":[57,59,0,18,22,19,0,0,17,21,58,23,56],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"DS-102 3 Gang","GPIO":[158,58,0,10,22,11,0,0,9,21,57,23,56],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
-Leftmost blue LED (assigned as Led1i) is the Wi-Fi/MQTT signal LED. 
-Middle red LED responds to all 3 switches. 
-The middle blue and the right blue LED cannot be directly controlled due to current limitations in Tasmota code.
+This device requires Tasmota 6.5.0.12 which has support for LEDs linked to Relays.
+
+
+If you don't want to upgrade you can use this *hack*:
 
 If you want each LED to respond to the corresponding switch use this template
 
