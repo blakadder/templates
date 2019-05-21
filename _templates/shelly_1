@@ -30,7 +30,7 @@ An ESP8266 with 2MB flash single relay device 42mm "round" in size.
 ## Serial Connection
 Shelly1 comes with a partially exposed programming/debug header which can be used to flash Tasmota on the device. A serial-to-USB adapter is needed as well as a reliable 3.3V source with at least 350 mA drive capability. The following diagram shows the device pinout and power source voltage selection jumper.
 
-<img src="https://github.com/arendst/arendst.github.io/blob/master/media/shelly/shelly1_pinout-800x433.jpg" height="250" />
+<img src="https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/shelly/shelly1_pinout-800x433.jpg" height="250" />
 
 ## Flash mode
 To be able to flash the Tasmota firmware you need to get into flash mode. Therefore connect a wire from GPIO0 to ground. For further information have a look at [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation#bringing-the-module-in-flash-mode).
