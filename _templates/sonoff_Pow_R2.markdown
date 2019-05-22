@@ -32,7 +32,7 @@ To enter **flash mode**, press down on the button while powering the device.
 Note - After the module type is changed to "Sonoff Pow R2", the serial port is no longer available for entering configuration commands because the serial port is used to communicate to the power measurement chip.  Make sure you have set up your network connection before doing this.
 
 ### Video tutorial by alsolh
-[![](http://img.youtube.com/vi/fqOJjA6Pph0/0.jpg)](http://www.youtube.com/watch?v=fqOJjA6Pph0 "")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fqOJjA6Pph0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Power Monitoring Calibration
 Sonoff Pow R2 might need calibration as correct measurements are influenced by hardware and timing differences. See [Power Monitoring Calibration](https://github.com/arendst/Sonoff-Tasmota/wiki/Power-Monitoring-Calibration)
