@@ -4,13 +4,12 @@ category: plug
 type: Plug
 standard: eu
 link: https://www.obi.de/hausfunksteuerung/wifi-stecker-schuko-2-stueck-weiss/p/4077673
-image: https://user-images.githubusercontent.com/5904370/57955953-97c47280-78f7-11e9-85bf-3288acd4fb7f.png
+image: https://user-images.githubusercontent.com/33325587/50388246-94dea080-0710-11e9-945a-8dbb2e78d74e.jpg
 template: '{"NAME":"OBI Socket 2","GPIO":[0,0,0,0,21,17,0,0,56,53,0,0,0],"FLAG":0,"BASE":61}' 
 link_alt: 
 ---
 This WiFi socket is a cheap outdoor alternative to the popular low-cost indoor WiFi socket ["Wifi Stecker Schuko Weiß"](https://www.obi.de/hausfunksteuerung/wifi-stecker-schuko-weiss/p/4077806) from the German DIY-warehouse OBI.
 It is equipped with a ESP-WROOM-02 module. Sadly, there is no programming pin header and it can be kind of tricky to get the module into programming state (see below). You'll need some soldering skills to attach the programming wires.
-![137535_2](https://user-images.githubusercontent.com/33325587/50388246-94dea080-0710-11e9-945a-8dbb2e78d74e.jpg)
 
 The Outdoor Wifi Socket is only available in the OBI Diy-Warehouse. It's "official name" is "Wifi Stecker Schuko Schwarz". It can also be bought in the [OBI online-store](https://www.obi.de/hausfunksteuerung/wifi-stecker-schuko-schwarz/p/4077681) 
 
