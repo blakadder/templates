@@ -56,18 +56,16 @@ The presented information has the following meaning:
 
 
 Message        | Unit | Description
----------------|------|-----------------------------------------------------
+---------------|:----:|:----------------------------------------------------
 TotalStartTime | Date | DateTime of calculation for Total
 Total          | kWh  | Total Energy usage including Today
 Yesterday      | kWh  | Total Energy usage between 00:00 and 24:00 yesterday
 Today          | kWh  | Total Energy usage today from 00:00 until now
 Period         | Wh   | Energy usage between previous message and now
 Power          | W    | Current effective power load
-ApparentPower  | W    | Power load on the cable = sqrt(Power^2 + 
-               |      | ReactivePower^2)
+ApparentPower  | W    | Power load on the cable = sqrt(Power^2 + ReactivePower^2)
 ReactivePower  | W    | Reactive load
-Factor         |      | The ratio of the real power flowing to the load to
-               |      | the apparent power in the circuit 
+Factor         |      | The ratio of the real power flowing to the load to the apparent power in the circuit 
 Voltage        | V    | Current line voltage
 Current        | A    | Current line current
 
