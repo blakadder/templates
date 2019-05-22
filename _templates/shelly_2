@@ -35,7 +35,6 @@ An alternative template without switch pull-up is:<br>
 ``{"NAME":"Shelly 2n","GPIO":[0,135,0,136,21,22,0,0,82,0,83,137,0],"FLAG":0,"BASE":47}``
 
 ## Pullup or no pullup
-<img src="https://github.com/arendst/arendst.github.io/blob/master/media/shelly/shelly2pullup.png" width="250" align="right" />
 The shelly 2 inputs may or may not need pullups for SW1 and SW2 to work correctly. Default state is pullups enabled.
 
 To disable pullups either use command SetOption62 1 or select the option from the GUI.
