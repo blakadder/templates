@@ -8,6 +8,9 @@
 
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  {% include styles.html %}
 
-	{% include styles.html %}
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 </head>

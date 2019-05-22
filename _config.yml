@@ -1,5 +1,5 @@
-title: Tasmota Templates
-description: Repository of templates for Tasmota
+title: Tasmota Device Templates Repository
+description: Database of templates for devices supported in Tasmota
 url: "https://blakadder.github.io"
 baseurl: "/templates"
 
@@ -30,3 +30,7 @@ defaults:
       type: "templates"
     values:
       layout: "templates"
+
+plugins:
+  - jekyll-seo-tag
+google_analytics: UA-140681905-1
