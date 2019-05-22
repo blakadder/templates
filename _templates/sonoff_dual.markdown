@@ -8,7 +8,7 @@ image: https://user-images.githubusercontent.com/5904370/57879170-121fc480-781c-
 template: '{"NAME":"Sonoff Dual","GPIO":[0,148,0,149,255,0,0,0,0,56,255,0,0],"FLAG":0,"BASE":5}' 
 link_alt: 
 ---
-Sonoff Dual has been obsoleted by [Sonoff Dual R2](https://blakadder.github.io/sonoff_dual_R2.html). Before configuring your device check which revision you have since there are significant differences in how they operate.
+Sonoff Dual has been obsoleted by [Sonoff Dual R2](https://blakadder.github.io/templates/sonoff_dual_R2.html). Before configuring your device check which revision you have since there are significant differences in how they operate.
 
 ## Serial Flashing
 Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
