@@ -53,7 +53,8 @@ stat/pow1/STATUS8 = {"StatusSNS":{"Time":"2018-11-15T08:54:18","ENERGY":{"TotalS
 ```
 
 The presented information has the following meaning:
-```
+
+
 Message        | Unit | Description
 ---------------|------|-----------------------------------------------------
 TotalStartTime | Date | DateTime of calculation for Total
@@ -69,7 +70,6 @@ Factor         |      | The ratio of the real power flowing to the load to
                |      | the apparent power in the circuit 
 Voltage        | V    | Current line voltage
 Current        | A    | Current line current
-```
 
 ## Official Sources
 
