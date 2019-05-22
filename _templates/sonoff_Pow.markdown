@@ -8,7 +8,7 @@ image: https://user-images.githubusercontent.com/5904370/57881237-139fbb80-7821-
 template: '{"NAME":"Sonoff Pow","GPIO":[17,0,0,0,0,130,0,0,21,132,133,52,0],"FLAG":0,"BASE":6}' 
 link_alt: 
 ---
-Sonoff Pow has been obsoleted with [Sonoff Pow R2](https://blakadder.github.io/sonoff_dual_R2.html). Before configuring your device check which revision you have.
+Sonoff Pow has been obsoleted with [Sonoff Pow R2](https://blakadder.github.io/templates/sonoff_Pow_R2.html). Before configuring your device check which revision you have.
 
 ## ⚠️️Special Attention   ⚠️️
 
