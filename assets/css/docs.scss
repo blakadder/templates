@@ -23,12 +23,13 @@ pre {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: inherit;
+
 
 	&:hover {
 		color: $link-color;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 }
 
@@ -104,6 +105,7 @@ a {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+		text-decoration: none;
 
 		&.active {
 			color: $navigation-link-color;
