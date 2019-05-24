@@ -1,5 +1,5 @@
 ---
-title: RGB Power Monitoring #name test
+title: ET RGB
 category: plug
 type: Plug
 standard: eu
@@ -10,4 +10,4 @@ link_alt: https://www.amazon.de/gp/product/B07MYL3HLZ
 screenshot:
 ---
 
-[Wiki entry](https://github.com/arendst/Sonoff-Tasmota/wiki/RGB-Smart-Plug-16A)
+More information in [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/RGB-Smart-Plug-16A).

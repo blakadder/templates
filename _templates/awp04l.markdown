@@ -1,5 +1,5 @@
 ---
-title: AWP04L Power Monitoring
+title: AWP04L
 category: plug
 type: Plug
 standard: us
@@ -10,7 +10,7 @@ link_alt:
 ---
 
 
-This devices come with few brands,  but all have the AWP04L in the back , was a time back on Amazon for $11
+These devices come with different brands,  but all have AWP04L serial number on the back sticker.
 
 
 

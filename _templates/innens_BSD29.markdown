@@ -10,5 +10,8 @@ template: '{"NAME":"BSD29","GPIO":[0,0,56,131,0,134,0,0,0,17,132,21,0],"FLAG":0,
 link_alt: 
 ---
 
-Working LED, button and relay. Required power configuration as per https://github.com/arendst/Sonoff-Tasmota/wiki/Power-monitoring-calibration. SwitchMode1 = 0.
+Working LED, button and relay.  
+```
+SwitchMode1  0
+```
 

@@ -2,11 +2,12 @@
 layout: default
 ---
 <div class="float-right">
-    {% assign standard_list = page.standard %}
-    {% for item_standard in standard_list %}
-    <a align="right" class="button" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a><br>
-    {% endfor %} 
     <a align="right" class="button" href="{{ page.category | downcase }}.html">{{ page.category | upcase }}</a><br>
+    {% assign standard_list = page.standard %}
+      {% for item_standard in standard_list %}
+      <a align="right" class="button" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a><br>
+    {% endfor %} 
+
       <b>
         Available from:
       </b>
@@ -16,7 +17,10 @@ layout: default
     <a class="menu" href="{{page.link_alt}}">{{ page.link_alt | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
   </div>
 
-<h1>{{ page.title }} {{ page.type }} </h1>
+<h1>{{ page.title }} {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
+    Power Monitoring
+    {% endif %}
+      {{ page.type }} </h1>
 <img src="{{ page.image }}" alt="{{ page.name }}" height="250">
 <br>
 <div class="float-right">
@@ -26,5 +30,8 @@ layout: default
 </div><h4>Template</h4>
 <pre><code>{{ page.template }}</code></pre>
 <hr>
-
+{% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
+For more accurate energy consumption measurements this device needs <a href="https://github.com/arendst/Sonoff-Tasmota/wiki/Power-Monitoring-Calibration">power monitoring calibration</a>.
+{% endif %}
+<p>
 {{ content | markdownify }}

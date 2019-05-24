@@ -83,3 +83,6 @@ rule on energy#current>0.500 do backlog power1 0; power2 0 endon
 rule 1
 rule 5
 ```
+
+### Video tutorial by Jelle Peters
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kJpE3MpDGe4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
