@@ -4,7 +4,7 @@
     <td>{{ template.type }}</td>
     <td> {% assign standard_list = template.standard %}
         {% for item_standard in standard_list %}
-        {{ item_standard | upcase }}
+        {{ item_standard | upcase }}<br>
         {% endfor %} </td>
   </tr>
   
