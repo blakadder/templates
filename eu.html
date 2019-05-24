@@ -4,14 +4,14 @@ title: EU Devices
 navigation: 3
 ---
 <!-- ######################################################################  -->
-{% assign standard_country = site.templates | where: "standard", "eu" | sort: 'title' %}
-{% assign standard_global = site.templates | where: "standard", "global" | sort: 'title' %}
+{% assign standard_country = site.templates | where: "standard", "eu" | sort_natural: 'title' %}
+{% assign standard_global = site.templates | where: "standard", "global" | sort_natural: 'title' %}
 {% assign standard = standard_country | concat: standard_global %}
 
 <h3>Plugs, Sockets & Power Strips</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign plug = standard | where: "category", "plug" | sort: 'title' %}
+{% assign plug = standard | where: "category", "plug" | sort_natural: 'title' %}
 {% for template in plug %}
 {% include tablerow.html %}
 {% endfor %}
@@ -22,7 +22,7 @@ navigation: 3
 <h3>Lights</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign light = standard | where: "category", "light" | sort: 'title' %}
+{% assign light = standard | where: "category", "light" | sort_natural: 'title' %}
 {% for template in light %}
 {% include tablerow.html %}
 {% endfor %}
@@ -33,7 +33,7 @@ navigation: 3
 <h3>Switches & Dimmers</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign switch = standard | where: "category", "switch" | sort: 'title' %}
+{% assign switch = standard | where: "category", "switch" | sort_natural: 'title' %}
 {% for template in switch %}
 {% include tablerow.html %}
 {% endfor %}
@@ -43,7 +43,7 @@ navigation: 3
 <h3>Relays</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign switch = standard | where: "category", "relay" | sort: 'title' %}
+{% assign switch = standard | where: "category", "relay" | sort_natural: 'title' %}
 {% for template in switch %}
 {% include tablerow.html %}
 {% endfor %}
@@ -53,7 +53,7 @@ navigation: 3
 <h3>Miscellaneous</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign misc = standard | where: "category", "misc" | sort: 'title' %}
+{% assign misc = standard | where: "category", "misc" | sort_natural: 'title' %}
 {% for template in misc %}
 {% include tablerow.html %}
 {% endfor %}
