@@ -47,7 +47,7 @@ Connected?
 Hold the little button pressed while connecting the serial-to-USB adapter to your computer. After about 2 seconds let go of the button. It is now in flashing mode and ready to be flashed with Tasmota.
 
 ### Video tutorial by Don't It Yourself
-[![](http://img.youtube.com/vi/5k_35ppDPho/0.jpg)](http://www.youtube.com/watch?v=5k_35ppDPho "")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5k_35ppDPho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Official Sources
 * Itead Product Page: http://sonoff.itead.cc/en/products/residential/s20-socket
