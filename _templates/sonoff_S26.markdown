@@ -2,7 +2,11 @@
 title: Sonoff S26
 category: plug
 type: Plug
-standard: global
+standard: 
+  - eu
+  - us
+  - uk
+  - anzac
 link: https://www.itead.cc/smart-home/smart-socket.html
 image: https://user-images.githubusercontent.com/5904370/57954559-89745780-78f3-11e9-9e8f-8b59b0efaf81.png
 template: '{"NAME":"Sonoff S26","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8}' 

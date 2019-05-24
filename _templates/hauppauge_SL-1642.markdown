@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: eu
 link: https://www.amazon.de/dp/B07JLMCMMZ
-image: http://www.hauppauge.co.uk/pics/myshv-plug_icons.jpg
+image: https://images-na.ssl-images-amazon.com/images/I/31xXwBq3xTL.jpg
 template: '{"NAME":"SL-1642","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---

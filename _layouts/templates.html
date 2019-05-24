@@ -2,12 +2,11 @@
 layout: default
 ---
 <div class="float-right">
-  <a align="right" class="button" href="{{ page.category | downcase }}.html">{{ page.category | upcase }}</a>
-  <a align="right" class="button" href="{{ page.standard | downcase }}.html">{{ page.standard | upcase }}</a>
-</div>
-  <h1>{{ page.title }} {{ page.type }} </h1>
-  <img src="{{ page.image }}" alt="{{ page.name }}" height="250">
-  <div class="float-right">
+    {% assign standard_list = page.standard %}
+    {% for item_standard in standard_list %}
+    <a align="right" class="button" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a><br>
+    {% endfor %} 
+    <a align="right" class="button" href="{{ page.category | downcase }}.html">{{ page.category | upcase }}</a><br>
       <b>
         Available from:
       </b>
@@ -16,6 +15,9 @@ layout: default
     <br>
     <a class="menu" href="{{page.link_alt}}">{{ page.link_alt | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
   </div>
+
+<h1>{{ page.title }} {{ page.type }} </h1>
+<img src="{{ page.image }}" alt="{{ page.name }}" height="250">
 <br>
 <div class="float-right">
   <a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">
