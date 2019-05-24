@@ -15,22 +15,28 @@ title: Tasmota Device Templates Repository
 <a align="right" class="button button-large" href="in.html">IN</a>
 <a align="right" class="button button-large" href="il.html">IL</a>
 <a align="right" class="button button-large" href="global.html">GLOBAL</a>
+<br><a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">World map of plugs</a> for more information.
+<br>
 <br>
 <b>Devices by type:</b><br>
-
 <a align="right" class="button button-large" href="plug.html">PLUGS</a>
 <a align="right" class="button button-large" href="light.html">LIGHTS</a>
 <a align="right" class="button button-large" href="switch.html">SWITCHES</a>
 <a align="right" class="button button-large" href="relay.html">RELAYS</a>
 <a align="right" class="button button-large" href="misc.html">MISCELLANEOUS</a>
-<br>
-<br>
+<br><br>
+<div>
+    <a class="button button-large" href="new.html">Add new template</a>
+    </div><br>
 <h3>Recently added devices:</h3>
 <ul>
 {% assign sorted = site.templates  | sort: "date" | reverse %}
-{% for template in sorted limit:5 %}
-<li><a href="{{site.baseurl}}{{ template.url }}">{{ template.title }} {{ template.type }} {{ template.standard | upcase }}</a></li>
+{% for template in sorted limit:6 %}
+<li><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }} {{ template.type }} {{ template.standard | upcase }}</a></li>
 {% endfor %}
 </ul>
 
-<a class="button button-large" href="new.html">Add new template</a>
+<h3>News</h3>
+2019/05/24 - Better sorting, complete breakdown of devices by type, removed country tags from standard based lists
+
+

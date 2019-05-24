@@ -2,7 +2,7 @@
 date: 2019-03-19
 title: Utorch PZE-911
 category: light
-type: Ceiling Light
+type: Light
 standard: global
 link: https://www.gearbest.com/smart-ceiling-lights/pp_009748680892.html
 image: https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2018/09/03/goods_img_big-v32/20180903154832_22560.jpg

@@ -1,7 +1,7 @@
 ---
 title: Sonoff BN-SZ01
 category: light
-type: Ceiling LED
+type: Light
 standard: global
 link: https://www.itead.cc/bn-sz01.html
 image: https://user-images.githubusercontent.com/5904370/57891254-098ab680-783b-11e9-9933-f5dd214ee534.png

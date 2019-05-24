@@ -4,56 +4,18 @@ title: All Devices
 navigation: 9
 ---
 <!-- ######################################################################  -->
-{% assign standard = site.templates %}
-
-<h3>Plugs, Sockets & Power Strips</h3>
-<table id="Devices">
-<tbody>
-{% assign plug = standard | where: "category", "plug" | sort: 'title' %}
-{% for template in plug %}
-  {% include tablerow.html %}
-{% endfor %}
+{% assign category = site.templates %}
+{% assign type_group = category | group_by: 'type' %}
+{% assign type_grouped = type_group | sort: 'name' %}
+{% for group in type_grouped %}
+<BR>
+<h3>{{group.name}}</h3>
+<table id="{{group.name}}" width="80%">
+    <tbody>
+    {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
+    {% for template in grouptitlesorted %}
+    {% include tablerow_standard.html %}
+    {% endfor %}
 </tbody>
 </table>
-
-<!-- ######################################################################  -->
-<h3>Lights</h3>
-<table id="Devices" width="80%">
-<tbody>
-{% assign light = standard | where: "category", "light" | sort: 'title' %}
-{% for template in light %}
-  {% include tablerow.html %}
 {% endfor %}
-</tbody>
-</table>
-
-<!-- ######################################################################  -->
-<h3>Switches & Dimmers</h3>
-<table id="Devices" width="80%">
-<tbody>
-{% assign switch = standard | where: "category", "switch" | sort: 'title' %}
-{% for template in switch %}
-  {% include tablerow.html %}
-{% endfor %}
-</tbody>
-</table>
-<!-- ######################################################################  -->
-<h3>Relays</h3>
-<table id="Devices" width="80%">
-<tbody>
-{% assign switch = standard | where: "category", "relay" | sort: 'title' %}
-{% for template in switch %}
-{% include tablerow.html %}
-{% endfor %}
-</tbody>
-</table>
-<!-- ######################################################################  -->
-<h3>Miscellaneous</h3>
-<table id="Devices" width="80%">
-<tbody>
-{% assign misc = standard | where: "category", "misc" | sort: 'title' %}
-{% for template in misc %}
-  {% include tablerow.html %}
-{% endfor %}
-</tbody>
-</table>

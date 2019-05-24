@@ -1,7 +1,7 @@
 ---
 title: Mi LED Desk Lamp MJTD01YL
 category: light
-type: Lamp
+type: Light
 standard: global
 link: https://www.mi.com/global/smartlamp/
 image: https://user-images.githubusercontent.com/5904370/58196142-e98b4500-7cc9-11e9-9bf0-453d5013fd6c.png

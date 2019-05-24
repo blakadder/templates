@@ -32,6 +32,16 @@ a {
 		text-decoration: underline;
 	}
 }
+a.menu {
+	text-decoration: none;
+	color: inherit;
+
+
+	&:hover {
+		color: $link-color;
+		text-decoration: none;
+	}
+}
 
 .wrapper {
 	height: 100%;

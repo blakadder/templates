@@ -1,8 +1,8 @@
 ---
 date: 2019-03-26
-title: 9cm RGB+W 7W
+title: Spotlight 9cm RGB+W 7W
 category: light
-type: Ceiling Light
+type: Light
 standard: global
 link: https://www.aliexpress.com/item/Mini-Intelligent-Wifi-LED-Ceiling-Lights-RGB-W-Dimmable-7W-APP-Remote-Control-Foyer-Bedroom-Hallway/32970274710.html
 image: https://user-images.githubusercontent.com/5904370/55022165-5354de80-4ffa-11e9-95b5-80428ab68ded.png

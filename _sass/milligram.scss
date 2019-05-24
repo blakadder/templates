@@ -70,6 +70,7 @@ input[type='reset']:focus,
 input[type='reset']:hover,
 input[type='submit']:focus,
 input[type='submit']:hover {
+  text-decoration: none;
   background-color: #606c76;
   border-color: #606c76;
   color: #fff;
@@ -550,17 +551,19 @@ td:first-child,
 th:first-child {
   padding-left: 1;
   text-align: center;
+  min-width: 100px;
 }
 
 td:nth-child(2),
 th:nth-child(2) {
   padding-left: 0.6rem;
-  min-width: 200px;
+  min-width: 250px;
+
 }
 
 td:last-child,
 th:last-child {
-  padding-right: 0;
+  padding-right:  0.6rem;
   text-align: right;
 }
 

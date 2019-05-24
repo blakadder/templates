@@ -2,7 +2,7 @@
 date: 2019-04-12
 title: Zemismart WF-BS01
 category: switch
-type: Boiler Switch
+type: Switch
 standard: us
 link: https://www.aliexpress.com/item/WiFi-Alexa-Google-Home-Water-Boiler-Switch-Support-Smart-Life-Phone-APP-Control-Control-When-Outside/32971557463.html
 image: https://user-images.githubusercontent.com/5904370/56020785-3c0b3600-5d08-11e9-82e2-9bf0ee24169e.png

@@ -2,7 +2,7 @@
 date: 2019-03-31
 title: Fcmila XDD-48W
 category: light
-type: Ceiling Light
+type: Light
 standard: global
 link: https://www.ebay.de/itm/Smart-Wifi-Wireless-Deckenleuchte-RGBW-Lampe-fur-Alexa-Google-AC90-240V-/113447726477
 image: https://user-images.githubusercontent.com/5904370/56112013-0c536c80-5f5a-11e9-86fe-8688ad21f8c6.png

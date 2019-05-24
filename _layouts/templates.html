@@ -12,13 +12,13 @@ layout: default
         Available from:
       </b>
       <br>
-    <a href="{{page.link}}">{{ page.link | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+    <a class="menu" href="{{page.link}}">{{ page.link | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
     <br>
-    <a href="{{page.link_alt}}">{{ page.link_alt | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+    <a class="menu" href="{{page.link_alt}}">{{ page.link_alt | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
   </div>
 <br>
 <div class="float-right">
-  <a class="button button-clear button-small" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">
+  <a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">
     Edit on GitHub
   </a>
 </div><h4>Template</h4>
