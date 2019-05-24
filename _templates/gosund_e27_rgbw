@@ -1,0 +1,17 @@
+---
+date: 2019-05-24
+title: Gosund E27 8W RGBW
+category: light
+type: Bulb
+standard: eu
+link: https://www.amazon.de/LED-Lampe-Gosund-Gl%C3%BChbirne-funktioniert-Assistant/dp/B07H8BT5XV
+image: https://www.gadgets-club.com/wp-content/uploads/2019/04/Gosund-smart-Wifi-LED-lamp1.jpg
+template: '{"NAME":"Gosund RGB+W","GPIO":[255,255,255,255,40,255,255,255,37,38,39,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+Use command:
+```
+SetOption17 1
+```
+
+
