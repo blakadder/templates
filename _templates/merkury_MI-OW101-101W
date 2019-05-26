@@ -1,0 +1,15 @@
+---
+date: 2019-05-25
+title: Merkury MI-OW101-101W
+category: plug
+type: Plug
+standard: us
+link: https://www.walmart.com
+image: https://www.walmart.com/ip/Merkury-Innovations-Indoor-Outdoor-Smart-Plug-1-Pack/967621595?wmlspartner=wlpa&selectedSellerId=0&wl13=1117&adid=22222222227144439972&wl0=&wl1=g&wl2=c&wl3=253408906489&wl4=pla-421036647772&wl5=9026816&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=local&wl12=967621595&wl13=1117&veh=sem&gclid=EAIaIQobChMIw6vG0rK34gIVAbjACh38FA2FEAQYAyABEgJnPPD_BwE
+template: '{"NAME":"Merkury Switch","GPIO":[17,255,255,255,255,56,255,255,255,255,21,255,255],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+There is a second LED (Blue) that I could not get working. 
+
+
