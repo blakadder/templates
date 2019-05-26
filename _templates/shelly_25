@@ -26,9 +26,6 @@ The GND connection of the Shelly has a 50% chance of being connected to the live
 **Do not connect any additional sensors to serial pins.**
 It can at least destroy your Shelly!
 
-**Check the correct jumper position before connecting AC power to Shelly 1.**
-If the jumper is set to 12V you will destroy your Shelly!
-
 # [Shelly 2.5](https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/)
 **Warning (April 10, 2019):** https://www.facebook.com/groups/ShellyIoTCommunitySupport/permalink/2029876037111750/
 
