@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.walmart.com
-image: https://www.walmart.com/ip/Merkury-Innovations-Indoor-Outdoor-Smart-Plug-1-Pack/967621595?wmlspartner=wlpa&selectedSellerId=0&wl13=1117&adid=22222222227144439972&wl0=&wl1=g&wl2=c&wl3=253408906489&wl4=pla-421036647772&wl5=9026816&wl6=&wl7=&wl8=&wl9=pla&wl10=8175035&wl11=local&wl12=967621595&wl13=1117&veh=sem&gclid=EAIaIQobChMIw6vG0rK34gIVAbjACh38FA2FEAQYAyABEgJnPPD_BwE
+image: https://i5.walmartimages.com/asr/5558abb7-4038-4a69-9c8f-9fa34aac67e7_1.a15bc28a5f9e6a2e74ee83a3d48cf2e8.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff
 template: '{"NAME":"Merkury Switch","GPIO":[17,255,255,255,255,56,255,255,255,255,21,255,255],"FLAG":1,"BASE":18}' 
 link_alt: 
 ---
