@@ -1,0 +1,17 @@
+---
+date: 2019-05-27
+title: A19 RGBW 8W E26
+category: light
+type: Bulb
+standard: us
+link: https://www.amazon.ca/gp/product/B07H9Y222L
+image: https://images-na.ssl-images-amazon.com/images/I/61fociPaDuL._SL1200_.jpg
+template: '{"NAME":"OOOLED 60W RGB","GPIO":[255,255,255,255,39,40,255,255,37,255,38,255,255],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+```
+setoption17 1
+```
+
+Package says cool white to warm white but cool white is facked with the RGB leds color (255,255,255,255)
