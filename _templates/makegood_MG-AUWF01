@@ -1,12 +1,12 @@
 ---
 date: 2019-05-27
-title: MakeGood
+title: MakeGood MG-AUWF01
 category: plug
 type: Wall Outlet
-standard: us
+standard: anzac
 link: https://www.alibaba.com/product-detail/SAA-approved-tuya-smart-life-app_60803461809.html
 image: https://sc01.alicdn.com/kf/HTB1oWJXXe6sK1RjSsrbq6xbDXXag/200428940/HTB1oWJXXe6sK1RjSsrbq6xbDXXag.jpg
-template: '{"NAME":"Generic","GPIO":[31,18,255,57,134,132,255,255,131,22,32,21,17],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"MG-AUWF01","GPIO":[31,18,255,57,134,132,255,255,131,22,32,21,17],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 To avoid using the following rule see [link LEDs to relays](https://github.com/arendst/Sonoff-Tasmota/wiki/Status-LED#using-ledlink).
