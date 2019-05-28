@@ -1,0 +1,19 @@
+---
+date: 2019-05-27
+title: LE A19 RGBCT 9W E26
+category: light
+type: Bulb
+standard: us
+link: https://www.amazon.ca/gp/product/B07R5W3PQL
+image: https://images-na.ssl-images-amazon.com/images/I/61LnzZWi7RL._SL1200_.jpg
+template: '{"NAME":"LE RGBWW 60W","GPIO":[255,0,255,0,140,37,0,0,38,142,141,0,255],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+```
+SetOption17 1
+```
+
+
+
+
