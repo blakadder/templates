@@ -1,0 +1,22 @@
+---
+date: 2019-05-27
+title: MakeGood
+category: plug
+type: Wall Outlet
+standard: us
+link: https://www.alibaba.com/product-detail/SAA-approved-tuya-smart-life-app_60803461809.html
+image: https://sc01.alicdn.com/kf/HTB1oWJXXe6sK1RjSsrbq6xbDXXag/200428940/HTB1oWJXXe6sK1RjSsrbq6xbDXXag.jpg
+template: '{"NAME":"Generic","GPIO":[31,18,255,57,134,132,255,255,131,22,32,21,17],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Power1 –> Relay1 and Power3 –> LED1
+
+Power2 –> Relay2 and Power4 –> LED2
+
+Gpio03 have to config as led2i, to make touch button work, unless the touch button can response or using.
+
+For more accurate energy consumption measurements this device needs power monitoring calibration. 
+
+'rule1 on power1#state do power3 %value% endon on power2#state do power4 %value% endon on power4#state do power2 %value% endon on power3#state do power1 %value% endon'
+
