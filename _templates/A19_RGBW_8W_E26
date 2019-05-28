@@ -11,7 +11,7 @@ link_alt:
 ---
 
 ```
-setoption17 1
+setoption15 1
 ```
 
 Package says cool white to warm white but cool white is facked with the RGB leds color (255,255,255,255)
