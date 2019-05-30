@@ -4,11 +4,9 @@ title: OxaOxe NX-SP202
 category: plug
 type: Plug
 standard: eu
-link: https://www.amazon.fr/gp/product/B07KP7CXZ3
+link: https://oxaoxe.com/product/wifi-smart-plug-2-in-1-for-eu.html
 image: https://images-na.ssl-images-amazon.com/images/I/61Kn9EmvJ2L._SL1500_.jpg
-template: '{"NAME":"oxaoxe-dual","GPIO":[18,255,255,255,255,255,255,255,255,255,21,22,17],"FLAG":0,"BASE":18}' 
-link_alt: https://oxaoxe.com/product/wifi-smart-plug-2-in-1-for-eu.html
+template: '{"NAME":"oxaoxe-dual","GPIO":[18,0,0,0,134,132,0,0,131,56,21,22,17],"FLAG":0,"BASE":18}'  
+link_alt: https://www.amazon.fr/gp/product/B07KP7CXZ3
 ---
-
-Power monitor not working
 
