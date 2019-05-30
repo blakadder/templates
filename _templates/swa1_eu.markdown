@@ -6,10 +6,10 @@ type: Plug
 standard: eu
 link: https://www.gearbest.com/power-strips/pp_717166.html
 image: https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/01/14/goods_img_big-v1/20190114091443_23823.jpg
-template: '{"NAME":"SWA1","GPIO":[255,255,255,255,52,21,255,255,255,17,255,255,255],"FLAG":0,"BASE":18}'
-link_alt:
+template: '{"NAME":"SWA1","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
 ---
-Found branded as: Lingan, Houzetek
+Found branded as: Lingan, Houzetek, Nozdom
 
 ### Additional Information
 
