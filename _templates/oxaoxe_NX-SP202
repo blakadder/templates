@@ -1,0 +1,14 @@
+---
+date: 2019-05-30
+title: OxaOxe NX-SP202
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.de/Gruppensteuerung-%C3%9Cberlastschutz-Stromz%C3%A4hler-OxaOxe-Kompatibel/dp/B07KP7CXZ3
+image: https://images-na.ssl-images-amazon.com/images/I/61Kn9EmvJ2L._SL1500_.jpg
+template: '{"NAME":"oxaoxe-dold","GPIO":[56,0,0,131,17,134,0,0,21,18,132,22,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Some old OxaOxe are not using the same GPIOs pattern. If the one actually on the wiki does not work, try this one instead.
+
