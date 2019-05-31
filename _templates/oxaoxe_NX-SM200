@@ -1,0 +1,13 @@
+---
+date: 2019-05-30
+title: OxaOxe NX-SM200
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.es/gp/product/B07MQ4734T/
+image: https://i.imgur.com/sYi1W8Q.png
+template: '{"NAME":"NX-SM200","GPIO":[17,0,0,0,133,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":65}' 
+link_alt: 
+---
+
+Can be flashed with tuya-convert.
