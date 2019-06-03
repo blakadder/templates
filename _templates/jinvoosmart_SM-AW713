@@ -3,7 +3,7 @@ title:  JinvooSmart SM-AW713
 category: misc
 type: Valve
 standard: global
-link: https://www.amazon.co.uk/Jinvoo-Control-SM-AW713-Application-Program/dp/B07H3RT8X8/ref=sr_1_1?keywords=B07H3RT8X8&qid=1559480379&s=gateway&sr=8-1
+link: https://www.amazon.co.uk/Jinvoo-Control-SM-AW713-Application-Program/dp/B07H3RT8X8
 image: https://images-na.ssl-images-amazon.com/images/I/61mxgUPxbSL._SL1500_.jpg
 template: {"NAME":"Jinvoo Valve","GPIO":[0,0,0,0,0,52,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}
 link_alt: 
