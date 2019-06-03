@@ -1,10 +1,10 @@
 ---
 date: 2019-05-11
-title:  JinvooSmart SM-PW713
+title:  Jinvoo SM-PW713
 category: misc
 type: Valve
 standard: global
-link: https://www.amazon.de/gp/product/B019YTYZX0/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+link: https://www.amazon.de/gp/product/B019YTYZX0
 image: https://images-na.ssl-images-amazon.com/images/I/61ObcAxwbzL._SL1500_.jpg
 template: '{"NAME":"Jinvoo Valve","GPIO":[0,0,0,0,21,52,0,0,17,53,0,0,0],"FLAG":1,"BASE":18}' 
 link_alt: 
