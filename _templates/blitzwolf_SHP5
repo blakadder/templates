@@ -13,9 +13,14 @@ link_alt: https://www.blitzwolf.com/BlitzWolf-BW-SHP5-3680W-EU-Wifi-Socket-Smart
 Useful relevant commands:
 ```
 voltres 1
+
 wattres 2
+
 voltageset
+
 currentset
+
 powerset
+
 setoption21 1
 ```
