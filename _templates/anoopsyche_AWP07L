@@ -1,0 +1,15 @@
+---
+date: 2019-06-05
+title: Anoopsyche AWP07L
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.it/dp/B079JXN1VV
+image: https://drive.google.com/file/d/1cy3kzUudrAFp6X6A7hKZkNwxpoPdPEvC/view?usp=sharing
+template: '{"NAME":"Anoopsyche AWP","GPIO":[0,0,0,0,56,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+The device works with Smart Life/Tuya app, so Tasmota can be flashed via Tuya-Convert.
+
+
