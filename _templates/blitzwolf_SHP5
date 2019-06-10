@@ -9,10 +9,7 @@ image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/20190
 template: '{"NAME":"SHP5","GPIO":[57,145,56,146,0,22,0,0,0,0,21,0,17],"FLAG":0,"BASE":18}'
 link_alt: https://www.blitzwolf.com/BlitzWolf-BW-SHP5-3680W-EU-Wifi-Socket-Smart-Charger-with-Dual-USB-Ports-Compatible-with-French-Standard,-Works-with-Alexa,-Scheduled-Control,-Remote-Control,-Monitor-Power-Use-p-326.html
 ---
-
-alternative template - switch controls USB power: 
-
-'{"NAME":"SHP5","GPIO":[57,145,56,146,0,22,0,0,0,0,21,0,18],"FLAG":0,"BASE":18}' 
+With v6.5.0.14+ Single press switches relay. Double press switches USB power. If inversion is needed execute command `SetOption11 1`
 
 Useful relevant commands:
 
