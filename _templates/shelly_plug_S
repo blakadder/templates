@@ -1,0 +1,16 @@
+---
+date: 2019-06-13
+title: Shelly Plug S
+category: plug
+type: Plug
+standard: eu
+link: https://shelly.cloud/shelly-plug-s/
+image: https://shelly.cloud/wp-content/uploads/2018/12/Shelly_Plug_boxx_maket.png
+template: '{"NAME":"Shelly Plug S","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+link_alt: 
+---
+
+
+
+
+
