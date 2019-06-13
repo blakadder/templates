@@ -1,6 +1,6 @@
 ---
 date: 2019-06-13
-title: Blitzwolf BW-SHP3
+title: Blitzwolf BW-SHP3 alt
 category: plug
 type: Plug
 standard: us
@@ -13,18 +13,31 @@ link_alt: https://www.amazon.com/gp/product/B07GJ6W9L7
 Had reboot and relay constantly cycling trouble with the other Blitzwolf BW-SHP3 template. Ordered Blitzwolf BW-SHP3 on June 6,2019 not sure if hardware is different.
 
 GPIO template config results
+
 00 button bottom right socket = button2 (18)
+
 01 blue leds both on regardless of which relay is on = Led1i (56)
+
 02 None
+
 03 HLWBL SELi (131)
+
 04 BL0937 CF (134)
+
 05 HLWBL CF1 (132)
+
 09 None
+
 10 None
+
 12 button top left socket = button1 (17)
+
 13 top red led = led1i(56)
+
 14 right socket = relay2 (22)
+
 15 left socket = relay1 (21)
+
 16 bottom red led > led2i(57)
 
 Notes:
