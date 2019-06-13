@@ -1,0 +1,33 @@
+---
+date: 2019-06-13
+title: Blitzwolf BW-SHP3
+category: plug
+type: Plug
+standard: us
+link: https://www.blitzwolf.com/1200W-US-Dual-WIFI-Smart-Socket-p-294.html
+image: https://images-na.ssl-images-amazon.com/images/I/51jB4m6S2IL._SL1200_.jpg
+template: '{"NAME":"Blitzwolf SHP3","GPIO":[18,56,0,131,134,132,0,0,17,0,22,21,0],"FLAG":0,"BASE":18}' 
+link_alt: https://www.amazon.com/gp/product/B07GJ6W9L7
+---
+
+Had reboot and relay constantly cycling trouble with the other Blitzwolf BW-SHP3 template. Ordered Blitzwolf BW-SHP3 on June 6,2019 not sure if hardware is different.
+
+GPIO template config results
+00 button bottom right socket = button2 (18)
+01 blue leds both on regardless of which relay is on = Led1i (56)
+02 None
+03 HLWBL SELi (131)
+04 BL0937 CF (134)
+05 HLWBL CF1 (132)
+09 None
+10 None
+12 button top left socket = button1 (17)
+13 top red led = led1i(56)
+14 right socket = relay2 (22)
+15 left socket = relay1 (21)
+16 bottom red led > led2i(57)
+
+Notes:
+Opted not to configure LED GPIOs 13 and 16 since only GPIO16 would active regardless of which relay was on. Used GPIO 01 as LED1 which both blue LEDS are on with either relay on.
+
+
