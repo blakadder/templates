@@ -1,0 +1,14 @@
+---
+date: 2019-06-12
+title: Sainko 1-Way
+category: switch
+type: Switch
+standard: eu
+link: https://www.amazon.de/gp/product/B07B7G1TF7/
+image: https://images-na.ssl-images-amazon.com/images/I/61IXp61LLQL._SL1500_.jpg
+template: '{"NAME":"SAINKO 1CH","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":28}' 
+link_alt: 
+---
+
+it also works with the default sonoff .bin
+
