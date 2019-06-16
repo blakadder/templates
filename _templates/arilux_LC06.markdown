@@ -12,3 +12,10 @@ link_alt: https://www.aliexpress.com/item/32967761019.html
 Complete guide at [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/MagicHome-LED-strip-controller#magichome-with-esp8285)
 
 **Pay attention to instructions regarding powering during flashing - The device MUST be powered via main 12v supply and ground connection made between device and USB-UART/programmer**
+
+## Screenshots
+### Tasmota
+![Tasmota Arilux Home Screenshot](./arilux_LC06-ss01.png)
+
+### Home Assistant
+![Home Assistant Screenshot](./arilux_LC06-ss02.png)
