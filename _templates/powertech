@@ -1,0 +1,17 @@
+---
+date: 2019-06-17
+title: Powertech
+category: plug
+type: Plug
+standard: anzac
+link: https://www.jaycar.com.au/smart-plug-wifi-controlled-mains-switch/p/MS6106
+image: https://www.jaycar.com.au/medias/sys_master/images/9261304971294/MS6106-smart-plug-wifi-controlled-mains-switchgallery8-900.jpg
+template: '{"NAME":"Jaycar","GPIO":[56,0,0,0,0,0,0,0,0,9,0,21,0],"FLAG":0,"BASE":6}' 
+link_alt: 
+---
+
+`SwitchMode1 3`
+
+Do Tasmota firmware install via ota see https://www.youtube.com/watch?v=O5GYh470m5k
+
+
