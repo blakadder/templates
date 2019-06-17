@@ -1,0 +1,16 @@
+---
+date: 2019-06-16
+title: COOSA
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.de/angeschlossen-Intelligente-Steckdose-Geb%C3%A4udetechnik-Smartphones/dp/B073VNS6RQ
+image: https://images-na.ssl-images-amazon.com/images/I/41LArCv2SBL.jpg
+template: '{"NAME":"COOSA","GPIO":[0,0,0,0,57,52,0,0,21,17,255,0,0],"FLAG":0,"BASE":1}' 
+link_alt: 
+---
+
+Module is based on Module TUYA and TYWE2S: see    https://docs.tuya.com/en/hardware/WiFi-module/wifi-e2s-module-plug.html#2design-specification
+
+
+
