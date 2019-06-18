@@ -1,0 +1,15 @@
+---
+date: 2019-06-17
+title: MiniTiger 2ch Touch
+category: switch
+type: Switch
+standard: eu
+link: https://www.aliexpress.com/item/EU-Standard-Tuya-Smart-Life-ewelink-1-2-3-Gang-1-Way-WiFi-Wall-Light-Touch/33016227381.html
+image: https://ae01.alicdn.com/kf/HTB1_Jl3XsvrK1Rjy0Feq6ATmVXaJ/EU-Standard-Tuya-inteligentne-ycie-ewelink-1-2-3-Gang-1-Way-WiFi-wiat-a-na.jpg_640x640.jpg
+template: '{"NAME":"Minitiger T2CH","GPIO":[255,255,255,255,22,255,255,255,17,21,18,53,52],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+Device to flashing: TYWE3S
+
+
