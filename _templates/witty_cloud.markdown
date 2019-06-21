@@ -67,6 +67,8 @@ The Web UI is shown after saving the configuration and rebooting:
 
 # Simple rule example: twilight switch
 
+This example uses only the ESP board, no additional hardware required.
+
 Inital configuration on console:
 
 - `Backlog Rule1 1; Rule 4; poweronstate 0` 
