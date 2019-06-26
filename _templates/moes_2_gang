@@ -1,0 +1,18 @@
+---
+date: 2019-06-26
+title: Moes 2 Gang Touch Switch
+category: switch
+type: Switch
+standard: us
+link: https://www.amazon.com/Wireless-Anywhere-Compatible-Function-Required/dp/B07BLZFQZZ
+image: https://images-na.ssl-images-amazon.com/images/I/41R45LydfyL._SX679_.jpg
+template: '{"NAME":"Tuya Moes 2 Ch","GPIO":[25,255,24,0,0,18,0,0,17,21,0,22,23],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Relays and Status LED are not connected on the same GPIO’s so I have considered them as a Relay and used rules to have them work as one.
+
+```lua
+Rule1 on power1#state do power3 %value% endon on power2#state do power4 %value% endon on power4#state do power2 %value% endon on power3#state do power1 %value% endon
+Rule1 1˙``
+
