@@ -1,0 +1,14 @@
+---
+date: 2019-06-26
+title: Gocomma Wi-Fi Smart Switch
+category: relay
+type: Relay
+standard: global
+link: https://www.gearbest.com/smart-home-controls/pp_009841506979.html
+image: https://i.ibb.co/yQS4jGF/gocomma.jpg
+template: '{"NAME":"GoCommaSmartSw","GPIO":[17,255,255,255,21,255,255,255,255,56,255,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+
+
