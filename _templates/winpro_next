@@ -1,0 +1,40 @@
+---
+date: 2019-06-27
+title: Wipro Next 20W Smart LED Batten
+category: light
+type: Light
+standard: in
+link: https://www.amazon.in/dp/B07P7JNQ56
+image: https://images-na.ssl-images-amazon.com/images/I/71g1EjcZQ0L._SL1500_.jpg
+template: '{"NAME":"WIPROBatten","GPIO":[255,255,255,255,255,37,255,255,255,47,255,255,255],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+Lots of JSON. Temperature & brightness control only using channels.
+
+setoption17 on
+
+Example Hass config:
+```lua
+- platform: mqtt
+  name: "Wipro Smart batten"
+  command_topic: "cmnd/wipro1/power"
+  state_topic: "tele/wipro1/STATE"
+  state_value_template: "{{value_json.POWER}}"
+  brightness_command_topic: "cmnd/wipro1/Channel1"
+  brightness_state_topic: "tele/wipro1/STATE"
+  brightness_scale: 100
+  brightness_value_template: "{{value_json.Channel[0]}}"
+  on_command_type: "brightness"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  availability_topic: "tele/wipro1/LWT"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  color_temp_command_topic: "cmnd/wipro1/Channel2"
+  color_temp_command_template: "{{ ((value - 154) | int * 100 | int / 345 | int + 2) |int }}"
+  color_temp_state_topic: tele/wipro1/STATE
+  color_temp_value_template: "{{ ((value_json.Channel[1]) | int * 345 | int / 100 | int + 154) |int }}""
+```
+
