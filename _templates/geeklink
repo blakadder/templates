@@ -5,7 +5,7 @@ category: misc
 type: IR Bridge
 standard: us
 link: https://www.aliexpress.com/item/32958748327.html
-image: https://imgur.com/0rPlUUS
+image: https://i.imgur.com/0rPlUUS.png
 template: '{"NAME":"GL IR Blaster","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link_alt: 
 ---
