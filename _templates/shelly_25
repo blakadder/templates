@@ -59,7 +59,7 @@ backlog SetOption1 1; SetOption11 1; SetOption32 1
 ``` 
 to enable all three states. Button1 is the button on the back of the device, Button2 and Button3 are the externally connected buttons.
 
-### Calibration
+## Calibration
 Tasmota will disable serial logging after a restart as the communication between Tasmota and the Energy Monitoring chip is using the same serial interface. Make sure not to enable `SerialLog` as it will interfere with the Energy Monitoring functionality.
 
 To calibrate the Energy monitoring feature connect a known load and execute the commands shown below. Assumed an AC voltage of 240V, a resistive load of 60W and a line frequency of 50Hz. With a load of 60W the current should be 60W / 240V = 0.25A.
@@ -70,6 +70,9 @@ VoltageSet 240.0
 CurrentSet 250.0
 ```
 Pause a few seconds between executing the commands as the communication between Tasmota and the Energy Monitoring chip is a serial interface which can take over a second to complete.
+
+## Operation
+The manufacturer's [maximum operating internal temperature is 90 degrees Centigrade](https://www.facebook.com/groups/ShellyIoTCommunitySupport/permalink/2155006084598744/?comment_id=2155025641263455&comment_tracking=%7B%22tn%22%3A%22R%22%7D). For safe operation, [Tasmota overtemp is set to 73C](https://github.com/arendst/Sonoff-Tasmota/issues/5968#issuecomment-507028349) which will power off relays when reached.
 
 ### Use rules to control shutter endpoints
 
