@@ -37,7 +37,7 @@ As most parts are connected to high voltage AC it is recommended to fit the hard
 
 ## Software configuration
 
-[Module Template](Templates)<BR>
+[Device Template](Templates)<BR>
 **PZEM-004T version prior to V3:**
 
 `{"NAME":"HW-655 PZEM","GPIO":[0,63,0,62,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}`
