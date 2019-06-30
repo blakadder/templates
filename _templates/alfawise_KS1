@@ -11,10 +11,10 @@ link_alt:
 ---
 
 The Pins are:
-  1. GND
-  2. GPIO0
+  5. GND
+  4. GPIO0
   3. RX
-  4. TX
-  5. 3V3
+  2. TX
+  1. 3V3
 
 
