@@ -1,0 +1,18 @@
+---
+date: 2019-06-30
+title: Woox R4026
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.de/gp/product/B07GFNFBGP/
+image: https://images-na.ssl-images-amazon.com/images/I/41G7J0Rh-IL._SY450_.jpg
+template: '{"NAME":"WOOX R4026","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Plug is based on Module TUYA and TYWE2S: see https://docs.tuya.com/en/hardware/WiFi-module/wifi-e2s-module-plug.html#2design-specification  
+
+TUYA-Convert is working: https://github.com/ct-Open-Source/tuya-convert 
+
+
+
