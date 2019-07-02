@@ -1,0 +1,14 @@
+---
+date: 2019-07-01
+title: SANA
+category: switch
+type: Switch
+standard: us
+link: https://www.amazon.com/installation-Control-Compatible-Required-Switches/dp/B07MZQ4LJ9/
+image: https://i.imgur.com/nUJqNMj.jpg
+template: '{"NAME":"SW02-03","GPIO":[56,255,255,19,23,18,255,255,17,21,255,22,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+GPIO0 Not exposed (used for LED) makes reset difficult if it is ever needed. Tuya-Covert compatible as of this writing.
+
