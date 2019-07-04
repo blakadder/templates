@@ -1,0 +1,19 @@
+---
+date: 2019-07-04
+title: 3A Smart Home HGZB-043
+category: switch
+type: Switch
+standard: anzac
+link: https://www.ebay.com.au/itm/Smart-WiFi-Desk-Lamp-Light-Switch-Dimmer-GPO-4-Google-Home-Alexa-Voice-Control/183336271514
+image: https://user-images.githubusercontent.com/816454/60634686-2f076a00-9e53-11e9-8590-b08a82c41be5.jpg
+template: '{"NAME":"3A Smart Home ","GPIO":[52,0,55,18,22,19,0,0,17,21,54,23,53],"FLAG":0,"BASE":18}' 
+link_alt: https://3asmarthome.com/
+---
+
+The RXD0 pin is used as one of the touch inputs, so you can't use the serial port for flashing (unless you cut a track). However tuya-convert works fine to flash it. After Tasmota is installed, a relay will click once per second as this in the default location for the status LED. You just need to connect quickly to the AP, and browse to `192.168.4.1/md`, and configure it as a generic module to stop the clicking. You can then go through the normal process, and restore this template.
+
+Some numbers I found internally (taking off the cover) are 120K3S_WIFI_SV5 (for searching). I have uploaded a bunch of images here: https://github.com/sillyfrog/contact/issues/3
+
+Finally, as there are a number of LED's, this may need to be tweaked with the next release of Tasmota with LedLink feature.
+
+
