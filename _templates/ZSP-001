@@ -1,0 +1,19 @@
+---
+date: 2019-07-06
+title: ZSP-001
+category: plug
+type: Plug
+standard: ch
+link: https://www.aliexpress.com/item/33006588699.html
+image: https://ae01.alicdn.com/kf/HTB1BPLCSIbpK1RjSZFyq6x_qFXa6/Smart-Swiss-Plug-16A-Switzerland-Wifi-Socket-Voice-Control-Works-With-Google-Home-Alexa-IFTTT-Tuya.jpg
+template: '{"NAME":"ZSP-001","GPIO":[17,255,255,255,133,132,255,255,130,56,21,255,57],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+SWISS Plug Type.
+
+Device is easy to open and has the four contacts for flashing similar to Sonoff devices. BUT VCC is 5v (goes through 1117-3.3v). Using the 5V pin on an FTD1232 adapter works (RX/TX are 3.3V).
+
+Template configures red/blue LEDs and power monitoring (BL0937 chip). Calibration power monitoring is required. I got PowerSetCal:1093, VoltageSetCal:33418, CurrentSetCal:35. YMMV.
+
+
