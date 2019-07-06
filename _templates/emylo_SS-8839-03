@@ -1,0 +1,20 @@
+---
+date: 2019-07-06
+title: eMylo SS-8839-03
+category: relay
+type: Relay
+standard: global
+link: https://www.amazon.co.uk/dp/B07FPLBGRN/
+image: https://images-na.ssl-images-amazon.com/images/I/519CgwGg5yL._SL1001_.jpg
+template: '{"NAME":"eMylo","GPIO":[0,0,0,0,52,0,0,0,21,0,17,0,0],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+Possibly same as YSA111A1N-FBA, but has a different model number printed on the actual device.
+
+Pack of three bought in July 2019 all successfully flashed with tuya-convert.
+
+Says "Max load 10A", but in reality only contains an 8A relay...
+
+
+
