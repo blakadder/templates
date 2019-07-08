@@ -22,6 +22,16 @@ For flashing the sonoff basic V1.1, please hold the button while connecting the 
 
 The Sonoff Basic switch doesn't have memory to support all of the default services defined in user_config.h out of the box. If your switch is powering up but is showing a solid-blink-reset pattern see [this FAQ entry for advice.](https://github.com/arendst/Sonoff-Tasmota/wiki/Troubleshooting#running-out-of-memory)
 
+## Sonoff Basic R3
+This is the board layout for the third design iteration of the Sonoff Basic.
+![](https://user-images.githubusercontent.com/34340210/60516116-13615f80-9cab-11e9-914b-d9509d6bbe20.jpg)
+
+The Sonoff Basic R3 uses the ESP8255 chip. With this version, the mains power reverts to solder rails directly on the PCB. It also moves the Wi-Fi module to a separate PCB mounted on the main PCB. It makes access to the underside of the serial interface contacts quite difficult.
+
+This version of the device supports the new Itead DIY architecture which [allows OTA firmware upload](https://www.youtube.com/watch?v=fRS-ukCgD_I). The process for performing an OTA update requires access to a jumper on the PCB (i.e., inside the case) and further Wi-Fi hotspot and app configuration. The device was reviewed by DigiblurDIY in [this video](https://www.youtube.com/watch?v=A-WcIz47Lco).
+
+The serial interface pins are broken out on the PCB making flashing using a serial adapter considerably simpler than the Itead OTA process. Since the underside of the contacts is not easily reachable, use a solderless solution (i.e., friction) to maintain contact with the pins to flash the device.
+
 ### Sonoff Basic R2
 Around November 2018, Itead changed the layout of the Sonoff Basic ([issue #4515](https://github.com/arendst/Sonoff-Tasmota/issues/4515)). The new board is labeled as **Sonoff RF R2 POWER V1.0**. Easily discerned from previous revisions by since its using wires instead of thick solder traces for mains power.
 
