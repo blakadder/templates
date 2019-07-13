@@ -12,7 +12,7 @@ link_alt: https://www.aliexpress.com/item/US-WiFi-Smart-Wall-Light-Switch-Dimmer
 
 There are several Tuya Dimmer variants by various manufacturers. These dimmers are usually 1 gang switches that dim mains voltage for various lighting types: incandescent, CFL, and LED.  Consult the specific device for the type of bulbs and capacity it supports as well as the bulbs themselves to verify they support dimming.
 
-Tuya Dimmer support was added as a BASE module (`Tuya Dimmer (54)`) (introduced in 6.2.1.16).  
+`Tuya Dimmer (54)` as a BASE module was introduced in 6.2.1.16.  
 
 #### Configuration
 
