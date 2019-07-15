@@ -1,0 +1,37 @@
+---
+date: 2019-07-15
+title: WF-CS01
+category: switch
+type: Curtain Switch
+standard: eu
+link: https://www.aliexpress.com/item/32983943702.html?spm=a2g0s.9042311.0.0.74a54c4dHFYFSC
+image: https://ae01.alicdn.com/kf/HTB1SUWjKpYqK1RjSZLeq6zXppXaV/Tuya-Smart-Life-WiFi-Curtain-Switch-for-Electric-Motorized-Curtain-Blind-Roller-Shutter-Google-Home-Alexa.jpg_50x50.jpg
+template: '{"NAME":"Tuya Shutter","GPIO":[157,0,54,10,22,19,0,0,17,21,53,23,52],"FLAG":0,"BASE":18}' 
+link_alt: https://www.aliexpress.com/item/32929793650.html?spm=a2g0s.9042311.0.0.74a54c4dHFYFSC
+---
+
+Added a rule to get it working properly:
+```lua
+Rule1 on Power1#State=1 do backlog Power3 0; Power2 0 endon
+      on Power2#State=1 do backlog Power1 0; Power2 0; Power3 0 endon
+      on Power3#State=1 do backlog Power1 0; Power2 0 endon
+Rule1 1
+```
+This combines to:
+`Rule1 on Power1#State=1 do backlog Power3 0; Power2 0 endon on Power2#State=1 do backlog Power1 0; Power2 0; Power3 0 endon on Power3#State=1 do backlog Power1 0; Power2 0 endon`
+
+Added some commands too:
+```lua
+SetOption1 1   # restrict button-multipress to single, double and hold actions
+PulseTime1 145 # set relay 1 activation to 45 seconds (+100 for 1sec interval)
+PulseTime2 1   # deactivate button 2 immediately after activation (disables relays)
+Pulsetime3 145 # set relay 3 activation 45 seconds (+100 for 1sec interval)
+PowerOnState 0 # keep relay(s) OFF after power up
+PowerRetain 0  # Don't retain states
+```
+
+This combines to:
+`Backlog SetOption1 1; PulseTime1 145; PulseTime2 1; Pulsetime3 145; PowerOnState 0; PowerRetain 0`
+
+
+
