@@ -16,12 +16,21 @@ There are several Tuya Dimmer variants by various manufacturers. These dimmers a
 
 #### Configuration
 
-- GPIO13 - Tuya Rx (108)
-- GPIO15 - Tuya Tx (107)
+These dimmers typically use hardware serial either on GPIO01 and GPIO03, or GPIO13 and GPIO15. Different devices/models vary in which GPIO pair is used. You may need to modify the GPIO assignments to match your specific device hardware.
 
-[Module](https://user-images.githubusercontent.com/34905120/47967431-4a537880-e02b-11e8-955b-ee9843bd222d.jpg)
+GPIO | Component
+-|-
+01 | Tuya Rx (108)
+03 | Tuya Tx (107)
+&nbsp;|&nbsp;
+13 | Tuya Rx (108)
+15 | Tuya Tx (107)
+
+- [Module](https://user-images.githubusercontent.com/34905120/47967431-4a537880-e02b-11e8-955b-ee9843bd222d.jpg)
+<BR>
 
 [`SetOption34`](Commands#setoption34) - Set the Tuya Dimmer device ID
+[`SetOption66`](Commands#setoption66) - Set the Tuya Dimmer device ID range
 
 _If power on/off works, but dimming doesn't, you probably haven't set the correct ID_
 
