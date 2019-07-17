@@ -21,11 +21,7 @@ Configure as a `Tuya Dimmer (54)` (support as a BASE module was introduced in 6.
 
 [Module](https://user-images.githubusercontent.com/34905120/47967431-4a537880-e02b-11e8-955b-ee9843bd222d.jpg)
 
-[`SetOption34`](Commands#setoption34) - Set the Tuya Dimmer device ID
-
-_If power on/off works, but dimming doesn't, you probably haven't set the correct ID_
-
-[`Setoption65 1`](Commands#setoption65) - Enable slider control
+[`Setoption65 0`](Commands#setoption65) - Disable slider control
 
 #### Flashing
 
