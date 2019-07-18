@@ -1,0 +1,15 @@
+---
+date: 2019-07-17
+title: SAIHAM KS-601 2 gang
+category: switch
+type: Switch
+standard: eu
+link: https://www.amazon.de/gp/product/B07GPH1NKG
+image: https://images-na.ssl-images-amazon.com/images/I/61RQIpNkJlL._SL1500_.jpg
+template: '{"NAME":"2way Switch","GPIO":[255,255,158,255,255,83,255,255,22,21,255,82,255],"FLAG":15,"BASE":18}' 
+link_alt: 
+---
+
+SwitchMode must be set to 3 ``backlog SwitchMode1 3; SwitchMode2 3``
+
+
