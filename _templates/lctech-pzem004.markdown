@@ -12,8 +12,8 @@ The PZEM-004T together with a HW-655 Relay provide a good clamp-on energy monito
 
 ## Parts needed
 * [Circuit Box](https://www.lowes.com/pd/CARLON-1-Gang-Blue-Plastic-Interior-New-Work-Standard-Switch-Outlet-Wall-Electrical-Box/3286106)
-* [3-prong Dryer Electrical Cord](https://smile.amazon.com/gp/product/B002RL9JB6)
-* [3-prong Dryer Receptacle](https://smile.amazon.com/gp/product/B000BQSU8C)
+* [3-prong Dryer Electrical Cord](https://smile.amazon.com/gp/product/B002RL9JB6) (Note - some households use a 4-prong plug)
+* [3-prong Dryer Receptacle](https://smile.amazon.com/gp/product/B000BQSU8C) (Note - some households use a 4-prong plug)
 * [PZEM-004T](https://www.aliexpress.com/item/AC-Digital-Multifunction-Meter-Watt-Power-Volt-Amp-Current-Test-Module-PZEM-004T-For-Arduino-TTL/32840804812.html?spm=a2g0s.9042311.0.0.68b94c4drsAK0r)
 * [HW-655 w/ ESP-01](https://www.aliexpress.com/item/ESP8266-5V-WiFi-relay-module-Things-smart-home-remote-control-switch-phone-APP/32771859308.html)
 * [ESHION SPSD-5S AC-DC 5V Buck Converter](https://smile.amazon.com/gp/product/B01F9ZQ2YS)
