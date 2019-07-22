@@ -1,0 +1,19 @@
+---
+date: 2019-07-22
+title: Sonoff Mini
+category: relay
+type: Relay
+standard: global
+link: https://www.itead.cc/sonoff-mini.html
+image: https://cdn.itead.cc/media/catalog/product/0/2/02_1.jpg
+template: '{"NAME":"Sonoff Mini","GPIO":[17,0,0,0,9,0,0,0,21,56,0,0,255],"FLAG":0,"BASE":1}' 
+link_alt: 
+---
+
+Device supports Sonoff DIY used to flash Tasmota without need for serial connection 
+
+
+
+
+
+
