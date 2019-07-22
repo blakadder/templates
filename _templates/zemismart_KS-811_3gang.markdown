@@ -1,15 +1,16 @@
 ---
-date: 2019-04-02
+date: 2019-07-22
 title: Zemismart KS-811 3 Gang
 category: switch
 type: Switch
-standard: us
+standard: global
 link: https://www.aliexpress.com/item/Zemismart-US-AU-WiFi-Wall-Push-Light-Switch-Alexa-Google-Home-TUYA-APP-Control-One-Gang/32982759923.html
-image: https://user-images.githubusercontent.com/5904370/55464523-95ce7a80-55fb-11e9-9fb7-f51cf09b8177.png
-template: '{"NAME":"KS-811 Triple","GPIO":[255,255,52,255,19,18,255,255,22,21,23,255,17],"FLAG":0,"BASE":18}' 
+image: https://ueeshop.ly200-cdn.com/u_file/UPAC/UPAC387/1903/products/06/0f36ba5fdd.jpg.240x240.jpg
+template: '{"NAME":"KS-811 Triple","GPIO":[255,255,56,255,19,18,255,255,22,21,23,255,17],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
-easy to flash tasmota, no soldering, ground IO0 pad for boot mode
+New from Factory (Feb '19) has patched firmware blocking Tuya-Convert
 
+Flash Instructions: Unscrew 4 screws on rear, use serial to flash. Ground IO0 while booting to get into flash mode.
 
