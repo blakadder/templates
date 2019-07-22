@@ -1,0 +1,15 @@
+---
+date: 2019-07-22
+title: Sonoff S55
+category: relay
+type: Wall Outlet
+standard: global
+link: https://www.itead.cc/smart-home/sonoff-s55.html
+image: https://cdn.itead.cc/media/catalog/product/0/1/01_4.jpg
+template: '{"NAME":"Sonoff S55","GPIO":[17,255,0,255,255,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
+link_alt: 
+---
+
+
+
+
