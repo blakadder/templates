@@ -1,0 +1,19 @@
+---
+date: 2019-07-22
+title: Sonoff iFan03
+category: relay
+type: Fan Controller
+standard: global
+link: https://www.itead.cc/sonoff-ifan03-wifi-ceiling-fan-light-controller.html
+image: https://cdn.itead.cc/media/catalog/product/i/f/ifan03_07.jpg
+template: '{"NAME":"Sonoff iFan03","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
+link_alt: 
+---
+
+Supersedes Sonoff iFan02
+
+
+
+
+
+
