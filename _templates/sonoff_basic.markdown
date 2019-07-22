@@ -10,6 +10,10 @@ link_alt:
 ---
 Sonoff Basic - the one that started it all!
 
+## Sonoff Basic R3
+
+The latest Sonoff Basic R3 can be flashed without the need to connect a serial interface. It supports Sonoff DIY allowing to flash using a Sonoff tool.
+
 ## Serial Flashing
 
 Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
@@ -22,7 +26,7 @@ For flashing the sonoff basic V1.1, please hold the button while connecting the 
 
 The Sonoff Basic switch doesn't have memory to support all of the default services defined in user_config.h out of the box. If your switch is powering up but is showing a solid-blink-reset pattern see [this FAQ entry for advice.](https://github.com/arendst/Sonoff-Tasmota/wiki/Troubleshooting#running-out-of-memory)
 
-### Sonoff Basic R2
+## Sonoff Basic R2
 Around November 2018, Itead changed the layout of the Sonoff Basic ([issue #4515](https://github.com/arendst/Sonoff-Tasmota/issues/4515)). The new board is labeled as **Sonoff RF R2 POWER V1.0**. Easily discerned from previous revisions by since its using wires instead of thick solder traces for mains power.
 
 The new version of Sonoff Basic uses an ESP8285 SoC.
