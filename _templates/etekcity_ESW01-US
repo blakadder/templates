@@ -10,7 +10,7 @@ template: '{"NAME":"ESW01-US","GPIO":[0,0,0,0,21,56,0,0,0,133,9,0,0],"FLAG":1,"B
 link_alt: https://www.etekcity.com/product/100312
 ---
 
-Power mnitoring is **NOT** configured in this template.
+Ignore the calibration message above. Power monitoring is **NOT** configured in this template.
 
 
 
