@@ -1,0 +1,29 @@
+---
+date: 2019-07-25
+title: Teepao Smart-Rollladen-Schalter
+category: switch
+type: Switch
+standard: eu
+link: https://www.amazon.de/Generation-Rolladen-Zeitschaltuhr-Rolladenmotor-Rolladenantrieb/dp/B07H9PSQCN/
+image: https://images-na.ssl-images-amazon.com/images/I/51QDcL470xL._SL1200_.jpg
+template: '{"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+```lua
+interlock on
+interlock 1,2,3
+PulseTime1 130
+PulseTime2 130
+PulseTime3 1
+sleep 0
+PowerOnState 0
+SetOption1 1
+
+For FHEM:
+
+ButtonTopic 1
+switchmode3 5
+setoption61 1
+```
+
