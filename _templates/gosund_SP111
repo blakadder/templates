@@ -1,5 +1,5 @@
 ---
-date: 2019-05-06
+date: 2019-07-26
 title: Gosund SP111
 category: plug
 type: Plug
@@ -7,6 +7,10 @@ standard: eu
 link: https://www.amazon.de/dp/B07PRF28SR
 image: https://images-na.ssl-images-amazon.com/images/I/71KCLLJFetL.jpg
 template: '{"NAME":"Gosund SP111","GPIO":[56,0,57,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
+
+alternative template: '{"NAME":"Gosund SP111","GPIO":[56,255,46,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
+(With this alternative template you can use the blue LED as night light and you can dimm it.
+And with using the consol command: ledmask 0xfffd the red will only turn on, if relay is on.)
 link_alt:
 ---
 
