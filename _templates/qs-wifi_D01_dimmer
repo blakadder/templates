@@ -1,0 +1,44 @@
+---
+date: 2019-07-26
+title: QS-WiFi-D01 Dimmer 150W
+category: light
+type: Dimmer
+standard: eu
+link: https://www.aliexpress.com/item/33010332202.html
+image: https://user-images.githubusercontent.com/36734573/61961586-f6792d00-afc7-11e9-9ea7-2b12372431c5.jpg
+template: '{"NAME":"WiFi-Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
+link_alt: https://www.amazon.de/s?k=Wi-Fi+Dimmer+150W
+---
+
+The Smart WiFi Push-Button Dimmer Module is a white-label product and sold under different brands 
+e.g. Moes, MoesHouse MS-105, HomCloud, Malmbergs, TOOGOO,...
+
+Originally it is controlled by Tuya/Smart Life App and therefore Tuya Hack might work (without latest updates).
+It's a trailing-edge phase dimmer Art. No. QS-WIFI-D01-TRIAC 
+and definitely not TRIAC but Power MOSFET driven for dimmable LED light bulbs, dimmable power supplies, incandescent/halogen bulbs,...
+
+The switch input S is intended for push-button control and detects the mains frequency when the button is pressed.
+This makes it a bit special and therefore it requires a script for on/off and hold dimming functions.
+
+https://github.com/arendst/Sonoff-Tasmota/issues/6085#issuecomment-513916678
+
+To use the script you have to compile Tasmota v6.6.0.2 or higher with Script Editor enabled:
+`#undef USE_RULES`
+`#define USE_SCRIPT`
+
+then paste it into Tasmota 'Configuration' -> 'Edit script' and set 'script enable'
+
+
+Technical Data:
+Smart WiFi Push-Button Dimmer Module
+Art. No.	QS-WIFI-D01-TRIAC
+Rated Voltage	AC 220-240V / 50Hz
+Rated Current	0.6A
+Load	max.150W for LED lamp
+Size	(L)51mm x (W)47mm x (H)22mm"
+
+
+
+
+
+
