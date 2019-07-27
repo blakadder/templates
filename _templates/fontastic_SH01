@@ -1,0 +1,19 @@
+---
+date: 2019-07-26
+title: Fontastic SH01
+category: plug
+type: Plug
+standard: eu
+link: https://www.reichelt.de/schaltbare-steckdose-ueber-wlan-fontastic-253140-p245072.html?&trstct=pos_10
+image: https://i.ibb.co/ScZX0W1/photo5321378516429810561.jpg
+template: '{"NAME":"Fontastic","GPIO":[255,0,255,0,56,0,255,255,21,17,0,0,0],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+https://github.com/ct-Open-Source/tuya-convert works without problems
+
+
+
+
+
+
