@@ -1,0 +1,35 @@
+---
+date: 2019-07-29
+title: Xenon SM-S0301
+category: plug
+type: Power Strip
+standard: us
+link: https://www.amazon.ca/gp/product/B07K9LGGVG
+image: http://i65.tinypic.com/fk3a5w.jpg
+template: '{"NAME":"SM-SO301","GPIO":[52,255,255,57,29,17,255,255,31,30,32,255,25],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+This is the same unit as the Teckin SM-S0301 under the Xenon brand name. All 4 relays are individually controllable, and the block of 4 usb's is also controllable (all USB ON/OFF). This is a great value. 
+
+Sample HA configuration included (duplicate for each relay)
+
+```switch:
+  - platform: mqtt
+    name: ""Xenon Bar 1""
+    command_topic: ""cmnd/tpb/POWER1""
+    state_topic: ""tele/tpb/STATE""
+    value_template: ""{{ value_json.POWER1 }}""
+    availability_topic: ""tele/tpb/LWT""
+    qos: 1
+    payload_on: ""ON""
+    payload_off: ""OFF""
+    payload_available: ""Online""
+    payload_not_available: ""Offline""
+    retain: false
+
+in console: setoption59 1
+powerretain on
+
+Note: There are two ways to get state updates. If you use stat/<topic>/RESULT the state will update on operation, but will not update on HA Reboot. It will update on Tasmota module reboot. This item is Tuya-Convertable (as of July 28, 2019) with stock purchased in the last 7 days.
+
