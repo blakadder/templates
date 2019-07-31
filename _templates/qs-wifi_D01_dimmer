@@ -1,7 +1,7 @@
 ---
-date: 2019-07-26
-title: QS-WiFi-D01 Dimmer 150W
-category: light
+date: 2019-07-31
+title: Moes QS-WiFi-D01 Dimmer 150W
+category: switch
 type: Dimmer
 standard: eu
 link: https://www.aliexpress.com/item/33010332202.html
@@ -10,35 +10,99 @@ template: '{"NAME":"WiFi-Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG"
 link_alt: https://www.amazon.de/s?k=Wi-Fi+Dimmer+150W
 ---
 
-The Smart WiFi Push-Button Dimmer Module is a white-label product and sold under different brands 
-e.g. Moes, MoesHouse MS-105, HomCloud, Malmbergs, TOOGOO,...
+The **Wi-Fi Smart Dimmer Module 150W** is an in-wall push-button dimmer switch sold as white-label and by various brands e.g. _Moes, MoesHouse MS-105, HomCloud, Malmbergs, TOOGOO,..._
 
-Originally it is controlled by Tuya/Smart Life App and therefore Tuya Hack might work (without latest updates).
-It's a trailing-edge phase dimmer Art. No. QS-WIFI-D01-TRIAC 
-and definitely not TRIAC but Power MOSFET driven for dimmable LED light bulbs, dimmable power supplies, incandescent/halogen bulbs,...
+![dimmer-1](https://user-images.githubusercontent.com/36734573/62205945-ef1f9e00-b390-11e9-89c6-05173e559a97.jpg)
 
-The switch input S is intended for push-button control and detects the mains frequency when the button is pressed.
-This makes it a bit special and therefore it requires a script for on/off and hold dimming functions.
+Art. No. **QS-WIFI-D01-TRIAC** 
+- Trailing-Edge Phase Dimmer, definitely not TRIAC but Power MOSFET driven for **dimmable LED light bulbs, dimmable power supplies, incandescent/halogen bulbs,...**
 
-https://github.com/arendst/Sonoff-Tasmota/issues/6085#issuecomment-513916678
+### Wiring Diagram:
+![dimmer-wiring-diagram](https://user-images.githubusercontent.com/36734573/62213502-58a8a800-b3a3-11e9-81a4-1a37461f5f68.png)
 
-To use the script you have to compile Tasmota v6.6.0.2 or higher with Script Editor enabled:
+Originally the dimmer is controlled by Smart Life / Tuya App and therefore **Tuya-Convert** might work (without latest updates).
+
+The **switch input S** is intended for push-button / conventional momentary switch control and detects the mains frequency when the button is pressed. This makes it a bit special and therefore it requires a Tasmota **Script** for **ON/OFF and HOLD** (long press) dimming operation.
+
+**->** [**WiFi-Dimmer-Script (textfile)**](https://github.com/arendst/Sonoff-Tasmota/issues/6085#issuecomment-513916678)
+
+To use the script you have to compile Tasmota v6.6.0.2 or higher with Script Editor enabled, 
+you may use [GitPod TasmoCompiler](https://gitpod.io/#https://github.com/benzino77/tasmocompiler) with "`Custom parameters`"
 `#undef USE_RULES`
 `#define USE_SCRIPT`
 
-then paste it into Tasmota 'Configuration' -> 'Edit script' and set 'script enable'
+then paste it into Tasmota `Configuration` -> `Edit script` -> set `script enable` and push `Restart`
 
+#### Tasmota Template from above or Generic config:
+`GPIO1  -> Serial Tx (148)`
+`GPIO3  -> Serial Rx (149)`
+`GPIO13 -> Counter1 (42)`
+`GPIO14 -> PWM1 (37)` (or any unused GPIO)
 
-Technical Data:
-Smart WiFi Push-Button Dimmer Module
-Art. No.	QS-WIFI-D01-TRIAC
-Rated Voltage	AC 220-240V / 50Hz
-Rated Current	0.6A
-Load	max.150W for LED lamp
-Size	(L)51mm x (W)47mm x (H)22mm"
+![dimmer-template](https://user-images.githubusercontent.com/36734573/62205050-d31afd00-b38e-11e9-9529-b564ac0faff7.png)
 
+### How it works:
+**S** is connected to GPIO13 of the ESP8266 chip and whenever the button is pressed there are 50Hz pulses there.
+![pushbutton-input](https://user-images.githubusercontent.com/36734573/61955930-5d90e480-afbc-11e9-8d7e-00ac526874d3.png)
+These pulses must be processed as a switching signal with a counter.
 
+The ESP8266 then sends commands accordingly via the hardware serial interface for dimming operation,
+which are handled by a second microcontroller (STM8S003F3 MCU).
+The serial communication at 9600 baud is simple, just one command with changing brightness values xx: "`FF 55 xx 05 DC 0A`"
 
+### What the Script does:
+Switching in Tasmota is usually done by High/Low (+3.3V/GND) changes on a GPIO.
+Here, however, this is achieved by a pulse frequency when connected to the GPIO, and these 50Hz pulses are captured by Counter1 in Tasmota.
 
+- When the **light is OFF** and there is a **short period** of pulses **->** then **turn ON** the light with previous dim level.
+- When the **light is ON** and there is a **short period** of pulses **->** then **switch OFF** the light.
+- If there starts a longer period of pulses (**HOLD**) **->** toggle dim direction and then **increase/decrease brightness** level as long as the button is pressed (and the limits aren't reached).
 
+In the Data Section **>D** at the beginning of the Script the **init variables** may be changed:
+- **dim multiplier:** values lower than 2.55 reduce the 100% range for more dimming steps
+- **dim lower/upper limit:** range for the dim value with push-button operation (set according to your bulb)
+- **start dim level:** initial dim level after power-up or restart
+
+### Flashing Guide:
+The Dimmer has a **LM1 ESP8266** module with 1MB Flash onboard, combined with the STM8 MCU on a separated board.
+![dimmer-flash-lingan](https://user-images.githubusercontent.com/36734573/62205236-4c1a5480-b38f-11e9-882e-f49187c0f1f8.jpg)
+
+### :warning: Special Attention :warning:
+**Do not connect AC power and the serial connection at the same time!
+The dimmer circuit is directly connected to the AC wires!!!** 
+
+Probably the easiest way for flashing is to desolder the separated PCB:
+![dimmer-flash-1-LM1](https://user-images.githubusercontent.com/36734573/62205299-723ff480-b38f-11e9-88dd-50454004f610.jpg)
+
+To get into **Flash Mode** you have to connect **RE** and **GPIO0 to GND** (RE to GND disables the STM8 MCU while flashing). **RX and TX** as always crossed to TX and RX at the USB-TTL-Adapter supplied with reliable 3.3V.
+
+It's also possible to flash the ESP8266 when the PCB is not desoldered, but a little fiddly to reach RX and TX:
+![dimmer-flash-3-mcu](https://user-images.githubusercontent.com/36734573/62205335-85eb5b00-b38f-11e9-83ac-e94842b32dfb.jpg)
+
+![dimmer-flash-2](https://user-images.githubusercontent.com/36734573/62205327-808e1080-b38f-11e9-8aa6-1af8a7db4aad.jpg)
+
+![dimmer-flash-4](https://user-images.githubusercontent.com/36734573/62205342-8ab00f00-b38f-11e9-9d4a-e28af130ac2e.jpg)
+
+### Technical Data:
+**Smart WiFi Push-Button Dimmer Module**
+- Art. No.	QS-WIFI-D01-TRIAC
+- Rated Voltage	AC 220-240V / 50Hz
+- Rated Current	0.6A
+- Load max. 150W for LED lamp
+- Size (L)51mm x (W)47mm x (H)22mm
+
+### Further Information:
+[**Support for Wi-Fi Dimmer?** #5737](https://github.com/arendst/Sonoff-Tasmota/issues/5737)
+[**Switching by Mains Power Frequency** #6085](https://github.com/arendst/Sonoff-Tasmota/issues/6085)
+
+### Some more pictures:
+![dimmer-2](https://user-images.githubusercontent.com/36734573/62205974-ff377d80-b390-11e9-82f5-4505f39ebf7c.jpg)
+
+![dimmer-3](https://user-images.githubusercontent.com/36734573/62205982-0494c800-b391-11e9-9268-283c4b65b8ad.jpg)
+
+![dimmer-4](https://user-images.githubusercontent.com/36734573/62205992-0c546c80-b391-11e9-8f87-374e4733edba.jpg)
+
+![dimmer-5](https://user-images.githubusercontent.com/36734573/62206003-11192080-b391-11e9-88e9-887fbf71b680.jpg)
+
+![dimmer-6](https://user-images.githubusercontent.com/36734573/62206012-170f0180-b391-11e9-8a3d-38d5b59f17de.jpg)
 
