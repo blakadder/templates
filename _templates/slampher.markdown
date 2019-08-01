@@ -3,8 +3,8 @@ title: Slampher
 category: misc
 type: Bulb Socket
 standard: eu
-link: http://bit.ly/r2slampher
-image: https://user-images.githubusercontent.com/5904370/57884945-28cd1800-782a-11e9-9029-951942473a2a.png
+link: https://www.itead.cc/sonoff-slampher-r2.html
+image: https://cdn.itead.cc/media/catalog/product/s/l/slampher-1000px-4.jpg
 template: '{"NAME":"Slampher","GPIO":[17,255,0,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":9}' 
 link_alt: 
 ---
