@@ -54,6 +54,7 @@ It's also possible to flash the ESP8266 when the PCB is not desoldered, but it i
 
 ### Configuration
 Use the Template from above or set the module as `Generic (18)` and assign the following components:
+
 | GPIO | Component |
 | -- | -- |
 | 1 |  Serial Tx (148) |
@@ -89,14 +90,14 @@ Switching in Tasmota is usually done by High/Low (+3.3V/GND) changes on a GPIO. 
 - When there is a longer period of pulses (i.e., **HOLD**) **->** toggle dimming direction and then adjust the brightness level as long as the button is pressed or until the limits are reached.
 
 In the Data Section `>D` at the beginning of the script, the following initialization variables may be changed:
-- **dim multiplier** - 0..2.55 set the dimming increment value
-- **dim lower limit** - range for the dimmer value for push-button operation (set according to your bulb); min 0
-- **dim upper limit** - range for the dimmer value for push-button operation (set according to your bulb); max 100
-- **start dim level** - initial dimmer level after power-up or restart; max 100
+- **dim multiplier** - `0..2.55` set the dimming increment value
+- **dim lower limit** - range for the dimmer value for push-button operation (set according to your bulb); min `0`
+- **dim upper limit** - range for the dimmer value for push-button operation (set according to your bulb); max `100`
+- **start dim level** - initial dimmer level after power-up or restart; max `100`
 
 ### Further Information:
-[**Support for Wi-Fi Dimmer?** #5737](https://github.com/arendst/Sonoff-Tasmota/issues/5737)
-[**Switching by Mains Power Frequency** #6085](https://github.com/arendst/Sonoff-Tasmota/issues/6085)
+[**Support for Wi-Fi Dimmer?** #5737](https://github.com/arendst/Sonoff-Tasmota/issues/5737)  
+[**Switching by Mains Power Frequency** #6085](https://github.com/arendst/Sonoff-Tasmota/issues/6085)  
 
 ### Additional pictures:
 ![dimmer-2](https://user-images.githubusercontent.com/36734573/62205974-ff377d80-b390-11e9-82f5-4505f39ebf7c.jpg)
