@@ -71,6 +71,6 @@ Current        | A    | Current line current
 
 ## Official Sources
 
-* Itead Product Page: http://sonoff.itead.cc/en/products/sonoff/sonoff-pow
-* Itead Shop (R2): https://www.itead.cc/sonoff-pow-r2.html
-* Itead Wiki: https://www.itead.cc/wiki/Sonoff_Pow
+* [Itead Product Page](https://sonoff.itead.cc/en/products/sonoff/sonoff-pow-r2)
+* [Itead Shop (R2)](https://www.itead.cc/sonoff-pow-r2.html)
+* [Itead Wiki](https://www.itead.cc/wiki/Sonoff_Pow)
