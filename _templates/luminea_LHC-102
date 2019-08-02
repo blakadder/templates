@@ -1,0 +1,19 @@
+---
+date: 2019-07-31
+title: Luminea LHC-102.on
+category: switch
+type: Switch
+standard: eu
+link: https://www.amazon.de/Luminea-Home-Control-Taster-Touch-Doppel-Lichttaster/dp/B07KFMTBTC
+image: https://microsites.pearl.de/i/07/nx4505_4.jpg
+template: '{"NAME":"LHC-102.on","GPIO":[157,0,53,0,0,18,0,0,17,21,0,22,52],"FLAG":0,"BASE":18}' 
+link_alt: https://www.pearl.de/a-NX4505-3103.shtml
+---
+
+
+
+
+
+
+
+
