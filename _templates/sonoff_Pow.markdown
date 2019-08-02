@@ -31,8 +31,6 @@ Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/
 
 To enter **flash mode**, press down on the button while powering the device.
 
-Note - After the module type is changed to "Sonoff Pow", the serial port is no longer available for entering configuration commands because the serial port is used to communicate to the power measurement chip.  Make sure you have set up your network connection before doing this.
-
 ## Power Monitoring Calibration
 Sonoff Pow might need calibration as correct measurements are influenced by hardware and timing differences. See [Power Monitoring Calibration](https://github.com/arendst/Sonoff-Tasmota/wiki/Power-Monitoring-Calibration)
    
@@ -81,6 +79,6 @@ For all details see [issue #218](https://github.com/arendst/Sonoff-Tasmota/issue
 
 ## Official Sources
 
-* Itead Product Page: http://sonoff.itead.cc/en/products/sonoff/sonoff-pow
-* Itead Shop: https://www.itead.cc/sonoff-pow.html
-* Itead Wiki: https://www.itead.cc/wiki/Sonoff_Pow
+* [Itead Product Page](http://sonoff.itead.cc/en/products/sonoff/sonoff-pow)
+* [Itead Shop](https://www.itead.cc/sonoff-pow.html)
+* [Itead Wiki](https://www.itead.cc/wiki/Sonoff_Pow)
