@@ -1,0 +1,17 @@
+---
+date: 2019-08-04
+title: XS-SSA01 Alternate
+category: plug
+type: Plug
+standard: us
+link: https://www.amazon.com/gp/product/B075GWQSYH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+image: https://photos.app.goo.gl/u2Fws3r9BxQ5Cx5A7
+template: '{"NAME":"XS-SSA01","GPIO":[255,17,255,255,255,255,255,255,56,255,255,21,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+This is an alternate to other XS-SSA01. I bought two that worked with other template, two worked with this template.  They looked identical.
+
+
+
+
