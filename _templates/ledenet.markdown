@@ -27,7 +27,7 @@ However, the device does require some specific steps to get it to flash in the f
 It took forever to figure this out, but to flash/program it:
 - Hold the button (by the LED) while applying power.
   - GPIO0 (center pad on back) doesn't matter at this point, ignore it for now. 
-- The controller should be in "Flash Mode" now; but the LEDs will still appear normal. 
+- The controller should be in "Flash Mode" now; but the LEDs (on the device) will still appear "normal". 
 - Start the flashing process; I used the normal `sonoff.bin` file (516KB).
   - `sonoff.bin` worked fine on my version of the controller
   - `sonoff-classic.bin` might be required if there are size issues. 
