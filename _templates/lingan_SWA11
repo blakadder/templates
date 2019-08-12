@@ -1,0 +1,20 @@
+---
+date: 2019-08-11
+title: Lingan SWA11
+category: plug
+type: Plug
+standard: eu
+link: https://www.ebay.com/itm/Home-WiFi-Smart-Power-Socket-Wireless-Timer-Switch-Outlet-EU-Plug/183875735097
+image: https://i.ebayimg.com/images/g/sZQAAOSwxDBdJAW4/s-l1600.jpg
+template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,255,255,255,255,255,255,255],"FLAG":15,"BASE":18}' 
+link_alt: 
+---
+
+Heat up top of device, use spudger or knife to tear of top. Solder thin wires to connection points, all are exposed.
+No need to remove PCB from socket.
+
+
+
+
+
+
