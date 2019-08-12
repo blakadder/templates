@@ -1,0 +1,19 @@
+---
+date: 2019-08-09
+title: SmartHome Smart Breaker
+category: relay
+type: Relay
+standard: global
+link: https://www.banggood.com/AC90-250V-WiFi-APP-Relay-Module-DIY-Smart-Home-Automation-Light-Switch-Work-With-Amazon-Alexa-Google-p-1351912.html?cur_warehouse=CN
+image: https://user-images.githubusercontent.com/24763673/51822108-8b31f500-22db-11e9-8192-fbfa07e6d78c.jpg
+template: '{"NAME":"SmartHome Swit","GPIO":[255,255,255,255,21,255,255,255,17,57,255,56,255],"FLAG":15,"BASE":18}' 
+link_alt: 
+---
+
+See https://github.com/arendst/Sonoff-Tasmota/issues/1474#issuecomment-458032496
+
+
+
+
+
+
