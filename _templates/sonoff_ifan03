@@ -12,8 +12,12 @@ link_alt:
 
 Replaces [Sonoff iFan02](sonoff_ifan02.html)
 
+The button is connected to GPIO0 which makes booting into programming mode simple.
 
+Fan speed Capacitor modifications for US fans:
+https://github.com/arendst/Sonoff-Tasmota/issues/5988#issuecomment-519587350
 
+Photos - https://github.com/arendst/Sonoff-Tasmota/issues/5988#issuecomment-510177762
+https://user-images.githubusercontent.com/18605148/60994966-8c059300-a31f-11e9-82ff-783a13574e1d.jpg
 
-
-
+Disable buzzer with `SetOption67 0`
