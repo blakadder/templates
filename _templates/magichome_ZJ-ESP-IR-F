@@ -1,0 +1,19 @@
+---
+date: 2019-08-12
+title: MagicHome ZJ-ESP-IR-F V1
+category: light
+type: LED Controller
+standard: global
+link: https://www.aliexpress.com/item/32865919702.html
+image: https://i.imgur.com/hWTKU43.png
+template: '{"NAME":"ZJ-ESP-IR-F V1","GPIO":[255,255,255,255,51,38,255,255,37,39,255,40,255],"FLAG":15,"BASE":18}' 
+link_alt: 
+---
+
+
+
+
+
+
+
+
