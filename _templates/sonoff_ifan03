@@ -5,7 +5,7 @@ category: relay
 type: Fan Controller
 standard: global
 link: https://www.itead.cc/sonoff-ifan03-wifi-ceiling-fan-light-controller.html
-image: https://cdn.itead.cc/media/catalog/product/i/f/ifan03_07.jpg
+image: https://user-images.githubusercontent.com/5904370/63218065-59d32680-c152-11e9-8574-de7ff865743f.png
 template: '{"NAME":"Sonoff iFan03","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
 link_alt: 
 ---
@@ -15,9 +15,9 @@ Replaces [Sonoff iFan02](sonoff_ifan02.html)
 The button is connected to GPIO0 which makes booting into programming mode simple.
 
 Fan speed Capacitor modifications for US fans:
-https://github.com/arendst/Sonoff-Tasmota/issues/5988#issuecomment-519587350
+[](https://github.com/arendst/Sonoff-Tasmota/issues/5988#issuecomment-519587350)
 
-Photos - https://github.com/arendst/Sonoff-Tasmota/issues/5988#issuecomment-510177762
-https://user-images.githubusercontent.com/18605148/60994966-8c059300-a31f-11e9-82ff-783a13574e1d.jpg
+Photos - [](https://github.com/arendst/Sonoff-Tasmota/issues/5988#issuecomment-510177762)
+[](https://user-images.githubusercontent.com/18605148/60994966-8c059300-a31f-11e9-82ff-783a13574e1d.jpg)
 
 Disable buzzer with `SetOption67 0`
