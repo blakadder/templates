@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.costco.ca/CE-Smart-Home-Wi-Fi-Smart-Plug%2c-2-pack.product.100417575.html
-image: https://www.costco.ca/CE-Smart-Home-Wi-Fi-Smart-Plug%2c-2-pack.product.100417575.html
+image: https://user-images.githubusercontent.com/5904370/63218083-cbab7000-c152-11e9-84e7-29edf0da090a.png
 template: '{"NAME":"CE Smart Plug","GPIO":[255,255,255,255,56,57,255,255,21,17,255,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
