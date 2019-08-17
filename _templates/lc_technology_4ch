@@ -1,0 +1,22 @@
+---
+date: 2019-08-17
+title: LC Technology 4CH Relay
+category: relay
+type: Relay
+standard: eu
+link: http://www.chinalctech.com/cpzx/Programmer/427.html
+image: http://www.chinalctech.com/uploads/allimg/190328/1-1Z32QK255493.jpg
+template: '{"NAME":"LC-Tech_4CH ","GPIO":[52,255,17,255,255,255,255,255,21,22,23,24,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+```lua
+Rule1 on Power1#State=1 do SerialSend5 A00101A2 endon on Power1#State=0 do SerialSend5 A00100A1 endon on Power2#State=1 do SerialSend5 A00201A3 endon on Power2#State=0 do SerialSend5 A00200A2 endon on Power3#State=1 do SerialSend5 A00301A4 endon on Power3#State=0 do SerialSend5 A00300A3 endon on Power4#State=1 do SerialSend5 A00401A5 endon on Power4#State=0 do SerialSend5 A00400A4 endon
+```
+
+
+
+
+
+
+
