@@ -5,7 +5,7 @@ category: relay
 type: Relay
 standard: global
 link: https://www.banggood.com/AC90-250V-WiFi-APP-Relay-Module-DIY-Smart-Home-Automation-Light-Switch-Work-With-Amazon-Alexa-Google-p-1351912.html?cur_warehouse=CN
-image: (https://user-images.githubusercontent.com/5904370/63218113-006bf700-c154-11e9-8d0f-6a49f9409451.png
+image: https://user-images.githubusercontent.com/5904370/63218113-006bf700-c154-11e9-8d0f-6a49f9409451.png
 template: '{"NAME":"SmartHome Swit","GPIO":[255,255,255,255,21,255,255,255,17,57,255,56,255],"FLAG":15,"BASE":18}' 
 link_alt: 
 ---
