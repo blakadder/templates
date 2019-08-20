@@ -1,6 +1,6 @@
 ---
 date: 2019-08-19
-title: Asakuki
+title: Asakuki 500ml
 category: misc
 type: Oil Diffuser
 standard: us
@@ -13,7 +13,7 @@ link_alt:
 
 Flashed with Tuya Convert.
 
-**This device is very similar to ""Oil Diffuser 550ML Humidifier"", the only difference are a few serial command codes.**
+**This device is very similar to "Oil Diffuser 550ML Humidifier", the only difference are a few serial command codes.**
 
 "This device has everything controlled via the MCU. It does not work with Tuya Dimmer module due to additional features and different command values. For the device to be fully supported the  [Tuya driver](https://raw.githubusercontent.com/arendst/Sonoff-Tasmota/development/sonoff/xdrv_16_tuyadimmer.ino)  would need a major code rewrite.
 
