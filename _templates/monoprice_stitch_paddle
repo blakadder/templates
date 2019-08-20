@@ -6,19 +6,19 @@ type: Switch
 standard: us
 link: https://www.monoprice.com/product?p_id=35557
 image: https://images.monoprice.com/productlargeimages/355571.jpg
-template: '{"NAME":"Tuya WF15S ","GPIO":[255,255,107,108,255,255,0,0,255,108,255,107,0],"FLAG":0,"BASE":54}' 
+template: '{"NAME":"Tuya WF15S ","GPIO":[255,255,0,0,255,255,0,0,255,108,255,107,0],"FLAG":0,"BASE":54}' 
 link_alt: https://www.enerlites.com/wf15s.html
 ---
 
 Can not figure out how to turn off Dimmer setting for this, since I am using the Tuya Dimmer (54) Base. Seems like the only base that would work. 
 
-Required GPIOs can be found here: https://pasteboard.co/IttGPHf.png
+Required GPIOs can be found here: https://pasteboard.co/ItCTS7L.png
 
 This Switch runs off of the TYWE1S Chip, Documentation from Tuya found here: https://docs.tuya.com/en/hardware/WiFi-module/wifi-e1s-module.html
 
 FCC Site for the photos and specs here: https://fcc.report/FCC-ID/ZZH-WF15S
 
-
+Current issues: Switch will automatically turn off if physically actuated to the ON position while Tuya RX (108) is present on GPIO 13. A github issue has been opened regarding this: https://github.com/arendst/Sonoff-Tasmota/issues/6268
 
 
 
