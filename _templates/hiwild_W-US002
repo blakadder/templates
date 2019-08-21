@@ -1,0 +1,13 @@
+---
+date: 2019-08-21
+title: hiwild W-US002
+category: plug
+type: Plug
+standard: us
+link: http://amazon.com/hiwild-homekit-Compatible-Required-Rectangle/dp/B07GF9KMYH
+image: https://images-na.ssl-images-amazon.com/images/I/41tLZFbSDTL._SL1100_.jpg
+template: '{"NAME":"W-US002","GPIO":[0,17,0,0,0,0,0,0,0,52,21,0,158],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Plug without energy monitoring.
