@@ -18,7 +18,9 @@ This Switch runs off of the TYWE1S Chip ([Documentation from Tuya](https://docs.
 
 [FCC Site for the photos and specs](https://fcc.report/FCC-ID/ZZH-WF15S)
 
-**Current issues: Switch will automatically turn off if physically actuated to the ON position while Tuya RX (108) is present on GPIO 13. [A github issue has been opened regarding this](https://github.com/arendst/Sonoff-Tasmota/issues/6268)**
+**Current issues:** 
+Switch will automatically turn off if physically actuated to the ON position while Tuya RX (108) is present on GPIO 13. 
+ [A github issue has been opened regarding this](https://github.com/arendst/Sonoff-Tasmota/issues/6268).
 
 
 
