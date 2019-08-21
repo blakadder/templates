@@ -12,15 +12,16 @@ link_alt: https://www.enerlites.com/wf15s.html
 
 Can not figure out how to turn off Dimmer setting for this, since I am using the Tuya Dimmer (54) Base. Seems like the only base that would work. 
 
+***Current issues:*** 
+Switch will automatically turn off if physically actuated to the ON position while Tuya RX (108) is present on GPIO 13. 
+ [A github issue has been opened regarding this](https://github.com/arendst/Sonoff-Tasmota/issues/6268).
+
 Required GPIOs can be found [here](https://pasteboard.co/ItCTS7L.png)
 
 This Switch runs off of the TYWE1S Chip ([Documentation from Tuya](https://docs.tuya.com/en/hardware/WiFi-module/wifi-e1s-module.html))
 
 [FCC Site for the photos and specs](https://fcc.report/FCC-ID/ZZH-WF15S)
 
-**Current issues:** 
-Switch will automatically turn off if physically actuated to the ON position while Tuya RX (108) is present on GPIO 13. 
- [A github issue has been opened regarding this](https://github.com/arendst/Sonoff-Tasmota/issues/6268).
 
 
 
