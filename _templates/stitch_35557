@@ -12,7 +12,7 @@ link_alt: https://www.enerlites.com/wf15s.html
 
 Can not figure out how to turn off Dimmer setting for this, since I am using the Tuya Dimmer (54) Base. Seems like the only base that would work. 
 
-Required GPIOs can be found here: ![](https://pasteboard.co/ItCTS7L.png)
+Required GPIOs can be found [here](https://pasteboard.co/ItCTS7L.png)
 
 This Switch runs off of the TYWE1S Chip ([Documentation from Tuya](https://docs.tuya.com/en/hardware/WiFi-module/wifi-e1s-module.html))
 
