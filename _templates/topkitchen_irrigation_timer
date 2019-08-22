@@ -1,11 +1,11 @@
 ---
 date: 2019-08-10
-title: TopKitchen
+title: TopKitchen Irrigation Timer
 category: misc
-type: Irrigation Timer
+type: Valve
 standard: global
 link: https://www.aliexpress.com/item/32985685144.html
-image: https://i.imgur.com/V4JI7Nd.jpg
+image: https://ae01.alicdn.com/kf/HTB1_pgtLHvpK1RjSZPiq6zmwXXaL.jpg
 template: '{"NAME":"HoseController","GPIO":[255,255,255,255,255,255,255,255,255,255,255,21,22],"FLAG":1,"BASE":18}' 
 link_alt: https://www.amazon.ca/Automatic-Irrigation-Electronic-Intelligent-Watering/dp/B07SYLYH5J/ref=sr_1_19?keywords=wifi+watering&qid=1565457985&s=gateway&sr=8-19
 ---
