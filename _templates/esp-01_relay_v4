@@ -1,0 +1,20 @@
+---
+date: 2019-08-21
+title: ESP-01 Relay V4.0
+category: relay
+type: Relay
+standard: us
+link: https://www.ebay.com/itm/ESP-01-ESP8266-Single-Relay-Module-10A-250V-max/264270051556
+image: https://i.imgur.com/pZ2mso9.jpg
+template: '{"NAME":"ESP01v4","GPIO":[29,52,0,255,255,255,255,255,255,255,255,255,255],"FLAG":0,"BASE":18}' 
+link_alt: https://www.amazon.ca/ESP8266-ESP-01S-Module-ESP01S-Control/dp/B07VQG9J4S
+---
+
+This -may- work with v1.0 boards, but has only been tested on the v4.0 module. https://i.imgur.com/p6SVOmA.jpg
+ The v1 boards do not have the hole in the corner.  Program your 8 pin ESP 01 chip with Tasmota and add the template above to open and close it. The relay module will have a blue light when it is open.  https://i.imgur.com/nc8CCCn.jpg  There is no add in for the button on the module as it serves as a reset, rather than an on/off switch. 
+
+
+
+
+
+
