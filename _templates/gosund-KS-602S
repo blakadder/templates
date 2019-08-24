@@ -6,9 +6,9 @@ type: Switch
 standard: us
 link: https://www.amazon.com/gp/product/B07DQDNBZ2
 image: https://images-na.ssl-images-amazon.com/images/I/512fi13XMsL._SX679_.jpg
-template: '{"NAME":"Gosund SW1","GPIO":[17,56,0,0,0,0,0,0,0,0,21,0,0],"FLAG":0,"BASE":10}' 
+template: '{"NAME":"Gosund KS-602S","GPIO":[17,56,0,0,0,0,0,0,0,0,21,0,158],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
-This module has bi-color LED. GPIO1=green and GPIO16=red
+This module has bi-color LED. In this template, green is assigned to follow the relay and red is the link light to show any MQTT or WiFi errors.  
 
