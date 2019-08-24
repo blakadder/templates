@@ -10,11 +10,11 @@ template: '{"NAME":"Tuya WF15S ","GPIO":[255,255,0,0,255,255,0,0,255,108,255,107
 link_alt: https://www.enerlites.com/wf15s.html
 ---
 
-Can not figure out how to turn off Dimmer setting for this, since I am using the Tuya Dimmer (54) Base. Seems like the only base that would work. 
+Use the Command "SetOption65 0" to turn off the dimmer functions of the Base Template (54). May require the latest build of Tasmota for this to disable fully
 
-***Current issues:*** 
-Switch will automatically turn off if physically actuated to the ON position while Tuya RX (108) is present on GPIO 13. 
- [A github issue has been opened regarding this](https://github.com/arendst/Sonoff-Tasmota/issues/6268).
+***Troubleshooting***
+If your switch is turning itself off after physically turning it on (not through the software), try compiling the most recent version of Tasmota. Some fixes for Tuya switches were added on Aug 23rd 2019.
+
 
 Required GPIOs can be found [here](https://pasteboard.co/ItCTS7L.png)
 
