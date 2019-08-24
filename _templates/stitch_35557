@@ -12,8 +12,10 @@ link_alt: https://www.enerlites.com/wf15s.html
 
 Use the Command "SetOption65 1" to turn off the dimmer functions of the Base Template (54). Currently may require the latest development build of Tasmota for this to disable fully (Commit 5cb863d or later)
 
-***Troubleshooting***
+***Troubleshooting:***
 If your switch is turning itself off after physically turning it on (not through the software), try compiling the most recent development version of Tasmota. Some fixes for Tuya switches were added on Aug 23rd 2019. (Commit 5cb863d or later)
+
+***Note:*** This Template and Settings should work on any Tasmota based WF15S Switch. There are other vendors who use this same model.
 
 
 Required GPIOs can be found [here](https://pasteboard.co/ItCTS7L.png)
