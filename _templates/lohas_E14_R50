@@ -1,0 +1,19 @@
+---
+date: 2019-08-25
+title: Lohas E14 R50 
+category: light
+type: Bulb
+standard: uk
+link: https://www.amazon.co.uk/gp/product/B078XCXR2S
+image: https://images-na.ssl-images-amazon.com/images/I/51DfVepS-SL._SX342_.jpg
+template: '{"NAME":"Lohas E14 R50","GPIO":[17,255,255,255,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
+link_alt: 
+---
+
+Flashed to Tasmota OTA using Tuya Convert
+
+
+
+
+
+
