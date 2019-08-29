@@ -11,5 +11,3 @@ link_alt: https://www.alibaba.com/product-detail/New-Design-2-way-Double-Power_6
 ---
 
 There are different versions of the KS-604S requiring different GPIO configurations. Please refer to https://github.com/arendst/Sonoff-Tasmota/wiki/Kesen-KS-604S for more details.
-
-Flash this device OTA using Tuya-Convert. This device **must be flashed using [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert/wiki/Compatible-devices)**. Flashing this device by attaching leads to the serial interface requires disassembling and unsoldering the internal components to get access to the needed contacts. This makes flashing the device by this method highly undesirable.
