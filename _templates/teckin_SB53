@@ -1,0 +1,19 @@
+---
+date: 2019-08-30
+title: Teckin SB53
+category: light
+type: Bulb
+standard: global
+link: https://www.amazon.co.uk/Changing-Equivalent-TECKIN-Compatible-Assistant/dp/B07RY2LHC1
+image: https://images-na.ssl-images-amazon.com/images/I/41zfqZFBKhL._SL1000_.jpg
+template: '{"NAME":"Teckin SB53","GPIO":[255,255,255,255,37,40,255,255,38,41,39,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+`Setoption17 1`
+
+
+
+
+
+
