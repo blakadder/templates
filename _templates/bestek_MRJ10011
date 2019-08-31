@@ -1,0 +1,18 @@
+---
+date: 2019-08-31
+title: Bestek MRJ1011
+category: plug
+type: Plug
+standard: us
+link: https://www.amazon.com/BESTEK-Enabled-Compatible-Required-Anywhere/dp/B07F2Z8GKM
+image: https://www.bestekcorp.com/image/cache/catalog/axiaoximi3/B07B3SC4WZ/smart-plug2-425x425.jpg
+template: '{"NAME":"BestekMRJ1011","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":1}' 
+link_alt: https://www.walmart.com/ip/BESTEK-MRJ1011-Wifi-Smart-Plug-Compatible-Alexa-Google-Home-Automation-Module-Wireless-Remote-Control-Light-Switch-Wifi-Intelligent-Socket-iOS-Androi/895086428
+---
+
+Flashed using tuya convert. 
+
+
+
+
+
