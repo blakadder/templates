@@ -12,4 +12,8 @@ link_alt:
 
 Works with tuya convert. Upgrade to sonoff.bin after flashing.
 
-
+Alternative template if the first one doesn't work
+```lua
+{"NAME":"Koogeek-KLUP1","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":1}
+```
+After recently ordering 2x KLUP1 Plugs, and having them work fine with This Profile I was surprised when I ordered a third, and it did not work out of the OTA Update process.
