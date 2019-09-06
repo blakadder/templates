@@ -1,0 +1,19 @@
+---
+date: 2019-09-06
+title: Timethinker
+category: plug
+type: Plug
+standard: eu
+link: https://www.aliexpress.com/item/33012294817.html
+image: https://ae01.alicdn.com/kf/HTB1cU.FUkvoK1RjSZFNq6AxMVXa8/Timethinker-Smart-Wifi-Socket-In-Electrical-Plug-Smart-Home-Work-With-Apple-Homekit-US-EU-Smart.jpg_640x640.jpg
+template: '{"NAME":"TimethinkerEU","GPIO":[255,255,255,255,17,255,0,0,255,52,21,255,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Pinout was extracted from a similar device mentioned in https://github.com/xoseperez/espurna/issues/737#issuecomment-377261479
+
+
+
+
+
+
