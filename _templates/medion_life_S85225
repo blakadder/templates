@@ -1,0 +1,18 @@
+---
+date: 2019-09-12
+title: Aldi Medion Life+ S85225
+category: plug
+type: Plug
+standard: anzac
+link: https://aldi.com.au
+image: https://d4zzp4ohshzeb.cloudfront.net/resize/listing-picture/1b73d80f-793a-404b-9dad-ed8d3896aba9?width=1000&height=1000&withoutEnlargement=true
+template: '{"NAME":"Medion","GPIO":[0,0,0,17,134,132,0,0,131,158,21,0,0],"FLAG":0,"BASE":52}' 
+link_alt: 
+---
+
+Flash with tuya-convert
+
+http://download2.medion.com/downloads/anleitungen/bda_md93225_au.pdf
+
+
+
