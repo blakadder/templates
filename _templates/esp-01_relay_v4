@@ -10,8 +10,10 @@ template: '{"NAME":"ESP01v4","GPIO":[29,52,0,255,255,255,255,255,255,255,255,255
 link_alt: https://www.amazon.ca/ESP8266-ESP-01S-Module-ESP01S-Control/dp/B07VQG9J4S
 ---
 
-This -may- work with v1.0 boards, but has only been tested on the v4.0 module. https://i.imgur.com/p6SVOmA.jpg
- The v1 boards do not have the hole in the corner.  Program your 8 pin ESP 01 chip with Tasmota and add the template above to open and close it. The relay module will have a blue light when it is open.  https://i.imgur.com/nc8CCCn.jpg  There is no add in for the button on the module as it serves as a reset, rather than an on/off switch. 
+ This works without hardware modification on the v4.0 module: https://i.imgur.com/p6SVOmA.jpg
+ Program your 8 pin ESP 01 chip with Tasmota and add the template above to open and close it. The relay module will have a blue light when it is open.  https://i.imgur.com/nc8CCCn.jpg  There is no add in for the button on the module as it serves as a reset, rather than an on/off switch. 
+ 
+ To make this work with v1.0 of the ESP-01 Relay, you must remove R2 (desolder it or just break it off with a screwdriver), and pull CH_PD high (this is easiest to do with a 10k resistor): https://i.imgur.com/79ySGMt.jpg
 
 
 
