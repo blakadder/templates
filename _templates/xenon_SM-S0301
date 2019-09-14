@@ -5,7 +5,7 @@ category: plug
 type: Power Strip
 standard: us
 link: https://www.amazon.ca/gp/product/B07K9LGGVG
-image: http://i65.tinypic.com/fk3a5w.jpg
+image: https://user-images.githubusercontent.com/34340210/64914301-089c5f80-d71d-11e9-86b7-b200f83f8d37.jpg
 template: '{"NAME":"SM-SO301","GPIO":[52,255,255,57,29,17,255,255,31,30,32,255,25],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
