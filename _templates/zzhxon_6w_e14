@@ -1,0 +1,49 @@
+---
+date: 2019-09-13
+title: ZZHXON 6W E14/E27
+category: light
+type: Bulb
+standard: global
+link: https://www.aliexpress.com/item/33047013453.html
+image: https://i.imgur.com/YcSzc56.jpg
+template: '{"NAME":"E27_RGB_Bulb","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+## General info
+
+No branding on bulb body or on website I bought it from. Its simply labeled as Smart Wifi LED Bulb. The PCB is marked FL-L24-V2.1 and its available in E27/E14. It has separate cold and warm LED + 4 RGB LED. ESP8266EX chip and BP2516F Non-isolated CCCV driver IC.
+
+Once you take PCB out you do not need to separate PCBs. All pins are easily solderable except IO0 which you must pull to ground for 5s in order to enter flashing mode. I made Y-splitter cable to easily connect IO0 to ground. One male jumperwire soldered on GND pin and other I held by hand to touch IO0 pin.
+
+
+### Setup
+
+Commands I ran to get this running
+
+- `SerialLog 0`
+- `SetOption15 1`
+
+You can also set Home Assistant auto discovery on with command `SetOption19 1` after configuring MQTT.
+
+
+### Images
+[![Packaging](https://i.imgur.com/aYTnKND.jpg ""Packaging"")](https://i.imgur.com/aYTnKND.jpg ""Packaging"")
+
+------------
+
+[![Cap open](https://i.imgur.com/bgu2si8.jpg ""Cap open"")](https://i.imgur.com/bgu2si8.jpg ""Cap open"")
+
+------------
+
+[![ESP8266EX](https://i.imgur.com/5WH5Hdd.jpg ""ESP8266EX"")](https://i.imgur.com/5WH5Hdd.jpg ""ESP8266EX"")
+
+------------
+
+[![BP2516F](https://i.imgur.com/3y1iIR1.jpg ""BP2516F"")](https://i.imgur.com/3y1iIR1.jpg ""BP2516F"")
+
+------------
+
+[![3.3V, TXD, RXD, GPIO0 and GND pins](https://i.imgur.com/l00kM8w.jpg ""3.3V, TXD, RXD, GPIO0 and GND pins"")](https://i.imgur.com/l00kM8w.jpg ""3.3V, TXD, RXD, GPIO0 and GND pins"")
+
+[Images in Imgur gallery](https://imgur.com/a/EqYGZHa ""Images on Imgur gallery"")
