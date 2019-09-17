@@ -1,0 +1,19 @@
+---
+date: 2019-09-14
+title: Linganzh LWE3 6W RGBW
+category: light
+type: Bulb
+standard: eu
+link: https://www.amazon.com/gp/aw/d/B074QFZ6B5
+image: https://m.media-amazon.com/images/I/31w72X0tMdL._SCLZZZZZZZ__US284_.jpg
+template: '{"NAME":"Linganzh LWE3 ","GPIO":[255,255,255,255,255,38,255,255,39,255,40,37,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+This is a Tuya bulb. Do NOT update, else it may become impossible to flash it with `tuya-convert`.
+
+
+
+
+
+
