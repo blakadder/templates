@@ -8,10 +8,11 @@ image: https://user-images.githubusercontent.com/5904370/57954192-875dc900-78f2-
 template: '{"NAME":"Teckin","GPIO":[0,17,0,57,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":52}' 
 link_alt: https://www.amazon.de/TECKIN-Intelligente-fernbedienbar-Stromverbrauch-funktioniert/dp/B07CDCYLQ6
 ---
-WARNING:
-There is a new version with a [T102/WR2 WiFi module](https://docs.tuya.com/docDetail?code=K8uhkbx75kg7y) in it. This uses a RTL8710BN chip and can not be converted to Tasmota. Make sure that you get a plug with TYWE2S WiFi module based on ESP8266.
----
 This device can be flashed with Tuya Convert
+
+**WARNING:**
+There is a new version with a [T102/WR2 WiFi module](https://docs.tuya.com/docDetail?code=K8uhkbx75kg7y) in it. This uses a RTL8710BN chip and can not be converted to Tasmota. Make sure that you get a plug with TYWE2S WiFi module based on ESP8266.
+
 
 ## Serial Flashing
 Guide from [Tasmota Issues](https://github.com/xoseperez/espurna/issues/1431#issue-391458622)
