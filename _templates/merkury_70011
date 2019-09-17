@@ -1,0 +1,19 @@
+---
+date: 2019-09-16
+title: Merkury 70011 MIC-WW102
+category: plug
+type: Plug
+standard: us
+link: https://www.realcanadiansuperstore.ca
+image: https://i5.walmartimages.com/asr/c143943b-db4b-4f10-83a6-454b8a7c1447_1.0a03ef17e3d60e0581e6f18f0581607c.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff
+template: '{"NAME":"MIC-WW102","GPIO":[17,0,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":36}' 
+link_alt: 
+---
+
+Same as KMC 70011 Power Monitoring Plug but MERKURY branded and with power monitoring hardware unpopulated on the PCB. (Device may be unique to Lloblaw owned stores in Canada.)
+
+
+
+
+
+
