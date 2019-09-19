@@ -1,0 +1,19 @@
+---
+date: 2019-09-19
+title: CE Smart Home WF500D
+category: switch
+type: Dimmer
+standard: us
+link: https://www.amazon.ca/2-Pack-Dimmer-Switch-Compatible-Assistant/dp/B07GQ3H8VK
+image: https://i.ibb.co/nQK6hwD/image-Service.jpg
+template: '{"NAME":"CE-WF500D","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}' 
+link_alt: https://www.cesmarthome.com/WF500D.html
+---
+
+Bought from Costco in Ontario.  Flashed OTA with Tuya Convert method (2019-09-18) - Device date code on the outer package was 10-2018
+
+
+
+
+
+
