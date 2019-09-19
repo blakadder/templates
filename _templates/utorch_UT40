@@ -1,0 +1,21 @@
+---
+date: 2019-09-18
+title: Utorch UT40
+category: light
+type: Ceiling Light
+standard: global
+link: https://www.gearbest.com/smart-ceiling-lights/pp_009748680892.html
+image: https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2018/12/21/source-img/20181221113111_19391.jpg
+template: '{"NAME":"Utorch UT40","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":1}' 
+link_alt: 
+---
+
+The Utorch UT40 uses the same template as the Utorch PZE-911 which is its predecessor. 
+
+While it does not have a programming interface, you can flash the firmware using an adapter to connect directly to the ESP8266.
+
+
+
+
+
+
