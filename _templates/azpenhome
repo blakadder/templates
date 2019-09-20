@@ -12,8 +12,9 @@ link_alt: https://www.amazon.com/Azpen-Home-Smart-Remote-Control/dp/B074TNKDGQ
 
 Original firmware works with AzpenHome app - so this appears to be a clone.  The Socket 2 Me plugs seem to only be purchasable in bulk as customized sockets (for businesses etc.).  Button works for plug relay, but there is a second "relay" for the USB power as well.
 
+3.3v, ground, tx, rx, and gpio0 are all broken out on the board to a block of header pins.  They are also printed on the reverse side.
+The button is not tied to gpio0, so you have to use the header pin.  The header pins were to tight to get more than 2 jumper wires side by sine - not sure if the header pins or jumper wires are the culprit.
 
-
-
+![](https://community-home-assistant-assets.s3.dualstack.us-west-2.amazonaws.com/original/3X/9/c/9ca6be17753016e3b516d28ed9f652a02d11e7fa.jpeg)
 
 
