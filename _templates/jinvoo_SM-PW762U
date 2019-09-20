@@ -1,0 +1,30 @@
+---
+date: 2019-09-20
+title: Jinvoo SM-PW762U
+category: plug
+type: Plug
+standard: us
+link: https://www.canadacomputers.com/product_info.php?cPath=1163_1577&item_id=130064
+image: https://ccimg.canadacomputers.com/Products/600x600/963/1439/130064/18127.jpg
+template: '{"NAME":"SM-PW762U","GPIO":[0,0,0,0,158,56,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+This device has one relayed socket and two USB power ports controlled by a solid state relay.
+This device is based on Tuya wireless module and can be reflashed with TuyaConvert.
+Case is glued and forcefully prying can cause appearance damage. 
+Plug is soldered directly on the PCB, so you need to desolder them to access the back of the board.
+
+```
+GPIO4 = ButtonLEDi (used for status/link LED)
+GPIO5 = RightLEDi (used for AC socket LED)
+GPIO12 = SocketRelay
+GPIO13 = Button
+GPIO14 = USBPortSSR + LeftLED (the LED on the left is hardwired to the USB port)
+```
+
+
+
+
+
+
