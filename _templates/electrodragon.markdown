@@ -1,14 +1,18 @@
 ---
-title: Electrodragon Board
+title: Electrodragon ESP LED Strip Board, Mosfet Drive
 type: LED Controller
 category: light
 standard: global
 link: https://www.electrodragon.com/product/esp-led-strip-board/
-image: https://user-images.githubusercontent.com/5904370/54072144-d5ad7680-4276-11e9-9c6a-6219b04917f8.png
-template: '{"NAME":"ED LedStrip","GPIO":[0,0,0,0,0,0,0,0,39,38,0,37,0],"FLAG":1,"BASE":18}
-'
+image: https://1436477554.rsc.cdn77.org/wp-content/uploads/2017/06/ESP-LED-Strip-Board-01.jpg
+template1: '{"NAME":"LEDBoard RGBW","GPIO":[255,0,0,0,255,255,0,0,39,38,40,37,52],"FLAG":0,"BASE":18}'
+template2: '{"NAME":"LEDBoard W2812","GPIO":[255,0,7,0,255,255,0,0,0,0,0,0,52],"FLAG":0,"BASE":18}'
+link_alt: 
 screenshot:
 ---
+<img width="200" src="https://1436477554.rsc.cdn77.org/wp-content/uploads/2017/06/ESP-LED-Drive-Board-Description-.jpg">
+
+<h2>Description</h2>
 
 <ul>
 <li>Based on ESP8266 Wifi IC, ESP-12F module.</li>
@@ -25,4 +29,9 @@ screenshot:
 <li>DC5.5-2.1CM power input cable</li>
 <li>RGB connecting cable</li>
 <li>normal 5050 white LED strip (10CM width) cable.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><a href="https://www.electrodragon.com/w/ESP_Light">More hardware documentation please see on this page.</a></li>
 </ul>
