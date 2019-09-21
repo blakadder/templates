@@ -5,9 +5,9 @@ category: plug
 type: Plug
 standard: us
 link: https://www.canadacomputers.com/product_info.php?cPath=1163_1577&item_id=130064
-image: https://ccimg.canadacomputers.com/Products/600x600/963/1439/130064/18127.jpg
+image: https://user-images.githubusercontent.com/16266909/65367341-ea8f9d00-dbfd-11e9-8bd2-d74ed969ca40.jpg
 template: '{"NAME":"SM-PW762U","GPIO":[0,0,0,0,158,56,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
-link_alt: 
+link_alt: https://www.alibaba.com/trade/search?fsb=y&IndexArea=product_en&CatId=&SearchText=SM-PW762U
 ---
 
 This device has one relayed socket and two USB power ports controlled by a solid state relay.
@@ -22,9 +22,3 @@ GPIO12 = SocketRelay
 GPIO13 = Button
 GPIO14 = USBPortSSR + LeftLED (the LED on the left is hardwired to the USB port)
 ```
-
-
-
-
-
-
