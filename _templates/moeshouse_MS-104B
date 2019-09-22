@@ -1,27 +1,26 @@
 ---
 date: 2019-09-20
 title: Moeshouse 2 way 2 gang MS-104B
-category: switch
-type: Switch
+category: relay
+type: Relay
 standard: eu
 link: https://www.aliexpress.com/item/33047521274.html?spm=a2g0s.9042311.0.0.5f705c0fkcQLzV
-image: https://imgur.com/1OGICiN
+image: https://user-images.githubusercontent.com/39533759/65378668-22f5b080-dcbc-11e9-9401-8d906b204914.jpg
 template: '{"NAME":"moeshouse2gang","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
-"The device using  frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip. At the moment you have to use a script to make it work with Tasmota. Script is not supported with precompiled binary (at least 6.6.0) so you have to compile your own fw. Personally recommended gitpod: 
+The device use frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip. At the moment you have to use a script to make it work with Tasmota. Script is not supported with precompiled binary (at least 6.6.0) so you have to compile your own fw. Personally recommended gitpod: 
 
-https://gitpod.io/#https://github.com/benzino77/tasmocompiler
-
-https://imgur.com/V8v3iVv
+[https://gitpod.io/#https://github.com/benzino77/tasmocompiler](https://gitpod.io/#https://github.com/benzino77/tasmocompiler)
 
 Please note that the script not working good with core 2.3.0! 
-Below two script which do something like switchmode4 and switchmode1. The script for switchmode4 is created by @thxthx0 and modified by me for switchmode1
+Below two scripts which do something like switchmode4 and switchmode1. The script for switchmode4 is created by @thxthx0 and modified by me for switchmode1
 
-```lua
+
 SwitchMode1
-`>D
+```
+>D
 sw1=0
 sw2=0
 cnt1=0
@@ -107,11 +106,12 @@ if sw2==0
 then
 timer2=0
 endif
-`
+```
 
 SwitchMode4
 
-`>D
+```
+>D
 sw1=0
 sw2=0
 cnt1=0
@@ -177,10 +177,11 @@ endif
 if sw2==0
 then
 timer2=0
-endif`"
+endif
 ```
 
-
+![flash_pins](https://user-images.githubusercontent.com/39533759/65378708-98618100-dcbc-11e9-8b38-f0156d719a38.JPG)
+![rewers_site](https://user-images.githubusercontent.com/39533759/65378740-453bfe00-dcbd-11e9-8695-e08d47b92855.JPG)
 
 
 
