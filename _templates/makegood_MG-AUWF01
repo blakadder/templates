@@ -6,17 +6,14 @@ type: Wall Outlet
 standard: anzac
 link: https://www.alibaba.com/product-detail/SAA-approved-tuya-smart-life-app_60803461809.html
 image: https://sc01.alicdn.com/kf/HTB1oWJXXe6sK1RjSsrbq6xbDXXag/200428940/HTB1oWJXXe6sK1RjSsrbq6xbDXXag.jpg
-template: '{"NAME":"MG-AUWF01","GPIO":[31,18,255,57,134,132,255,255,131,22,32,21,17],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"MG-AUWF01","GPIO":[56,10,157,59,134,132,255,255,131,22,57,21,9],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
-To avoid using the following rule see [link LEDs to relays](https://github.com/arendst/Sonoff-Tasmota/wiki/Status-LED#using-ledlink).
 
+Gpio03 have to be low to make touch button work. This is done by setting it as Led4i.
 
-Power1 –> Relay1 and Power3 –> LED1
+SwitchMode needs to be set using
 
-Power2 –> Relay2 and Power4 –> LED2
+`SwitchMode1 5` and `SwitchMode2 5` commands in console.
 
-Gpio03 have to config as led2i, to make touch button work, unless the touch button can response or using.
-
-'rule1 on power1#state do power3 %value% endon on power2#state do power4 %value% endon on power4#state do power2 %value% endon on power3#state do power1 %value% endon'
 
