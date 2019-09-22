@@ -1,0 +1,19 @@
+---
+date: 2019-09-22
+title: LSC Smart Connect filament-ledlamp
+category: light
+type: Bulb
+standard: eu
+link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-filament-ledlamp--1cd77fb0/
+image: https://www.action.com/globalassets/cmsarticleimages/79/87/2578543_8712879142744-111_01.png
+template: '{"NAME":"LSC Filament","GPIO":[0,0,0,0,0,0,0,0,255,0,255,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+I was able to flash all fillament light bulbs from LSC Smart connect with the upgrade Tuya convert. Link to the process is http://www.thesmarthomehookup.com/tuya-convert-walk-through-february-2019. The only thing i changed is the github where i download tuya convert from located at https://github.com/M4dmartig4n/tuya-convert
+
+
+
+
+
+
