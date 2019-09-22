@@ -19,7 +19,7 @@ Below two scripts which do something like switchmode4 and switchmode1. The scrip
 
 
 SwitchMode1
-`
+```
 >D
 sw1=0
 sw2=0
@@ -106,11 +106,11 @@ if sw2==0
 then
 timer2=0
 endif
-`
+```
 
 SwitchMode4
 
-`
+```
 >D
 sw1=0
 sw2=0
@@ -178,7 +178,7 @@ if sw2==0
 then
 timer2=0
 endif
-`
+```
 
 ![flash_pins](https://user-images.githubusercontent.com/39533759/65378708-98618100-dcbc-11e9-8b38-f0156d719a38.JPG)
 ![rewers_site](https://user-images.githubusercontent.com/39533759/65378740-453bfe00-dcbd-11e9-8695-e08d47b92855.JPG)
