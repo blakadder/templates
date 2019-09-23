@@ -2,10 +2,10 @@
 date: 2019-08-08
 title: Sonoff L1
 category: light
-type: LED Controller
+type: LED Strip
 standard: global
 link: https://www.itead.cc/sonoff-l1-smart-led-light-strip.html
-image: https://user-images.githubusercontent.com/34340210/62711052-6626e900-b9c6-11e9-92f0-0b821d4ac799.jpg
+image: https://user-images.githubusercontent.com/5904370/65447568-23ff1d00-de37-11e9-8c18-c4bb24372194.png
 template: '{"NAME":"SonoffL1","GPIO":[0,148,0,149,0,0,0,0,0,56,0,0,0],"FLAG":0,"BASE":70}' 
 link_alt: 
 ---
