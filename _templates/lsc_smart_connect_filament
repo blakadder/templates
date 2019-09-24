@@ -5,8 +5,8 @@ category: light
 type: Bulb
 standard: eu
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-filament-ledlamp--1cd77fb0/
-image: https://www.action.com/globalassets/cmsarticleimages/79/87/2578543_8712879142744-111_01.png
-template: '{"NAME":"LSC Filament","GPIO":[0,0,0,0,0,0,0,0,255,0,255,0,0],"FLAG":0,"BASE":18}' 
+image: https://www.action.com/globalassets/cmsarticleimages/79/88/2578543_8712879142744-110.png
+template: '{"NAME":"LSC-Filam-Big","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
