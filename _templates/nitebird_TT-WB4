@@ -1,0 +1,19 @@
+---
+date: 2019-09-27
+title: NiteBird TT-WB4
+category: light
+type: Bulb
+standard: us
+link: https://www.amazon.com/gp/product/B07MTYVSSV
+image: https://images-na.ssl-images-amazon.com/images/I/61Ge1ydAe9L._AC_SL1500_.jpg
+template: '{"NAME":"NiteBird TT-WB","GPIO":[255,255,255,255,40,255,255,255,37,38,39,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Suggested to enable the following options `SetOption59 1` `SetOption17 1` `wificonfig 2`
+
+
+
+
+
+
