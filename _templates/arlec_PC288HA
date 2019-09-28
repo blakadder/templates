@@ -1,0 +1,19 @@
+---
+date: 2019-09-28
+title: Arlec PC288HA
+category: plug
+type: Plug
+standard: anzac
+link: http://www.bunnings.com.au
+image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/8bab35c2-df31-4ca4-b33f-adc92e36d697.jpg
+template: '{"NAME":"Arlec Twin","GPIO":[0,17,0,22,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Credit to Jason (kanga_who). Single press of the button controls Switch 1, a double press controls Switch 2. (Needs firmware 6.5.0.13 or higher for the button presses to work correctly.)
+
+
+
+
+
+
