@@ -1,0 +1,23 @@
+---
+date: 2019-09-28
+title: Arlec Twin PC288HA
+category: plug
+type: Plug
+standard: anzac
+link: https://www.bunnings.com.au/arlec-smart-plug-in-twin-socket-with-grid-connect_p0074828
+image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/8bab35c2-df31-4ca4-b33f-adc92e36d697.jpg
+template: '{"NAME":"Arlec Twin","GPIO":[0,17,0,22,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Arlec Grid Twin Plug, available from Bunnings in Aus.
+
+Tuya-Convert 2 required. Once flashed, updated firmware to at least 6.6.x.x to enable button control of both outlets.
+
+Switch 1 is the lower outlet, Switch 2 is the top outlet. A single press of the button will toggle the lower outlet, and double press will toggle the top outlet.
+
+
+
+
+
+
