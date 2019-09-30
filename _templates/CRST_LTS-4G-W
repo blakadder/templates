@@ -1,0 +1,19 @@
+---
+date: 2019-09-28
+title: CRST LTS-4G-W
+category: plug
+type: Power Strip
+standard: us
+link: https://www.amazon.com/CRST-Protector-Control-Independent-Extension/dp/B07C1XGKSY
+image: https://images-na.ssl-images-amazon.com/images/I/61KdAvGEJZL._AC_SL1500_.jpg
+template: '{"NAME":"CRST LTS-4G-W","GPIO":[0,0,0,0,24,0,255,255,22,23,21,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Tuya convert would not work. Had to manually flash.  4 plugs controllable, the USB port are not.
+
+
+
+
+
+
