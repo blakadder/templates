@@ -1,6 +1,6 @@
 ---
 date: 2019-09-29
-title: CYYLTD BIFANS J23
+title: CYYLTF BIFANS J23
 category: plug
 type: Plug
 standard: us
