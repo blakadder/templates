@@ -1,0 +1,19 @@
+---
+date: 2019-10-03
+title: Mixigoo 10W E27 RGBW
+category: light
+type: Bulb
+standard: eu
+link: https://www.amazon.de/gp/product/B07VZXDX6J
+image: https://images-na.ssl-images-amazon.com/images/I/51RsG6GexbL._AC_SL1000_.jpg
+template: '{"NAME":"Mixigoo Bulb","GPIO":[255,255,255,255,41,38,255,255,39,255,37,40,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Does not work with Tuya convert
+
+
+
+
+
+
