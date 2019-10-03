@@ -2,7 +2,7 @@
 date: 2019-08-08
 title: Sonoff iFan03
 category: misc
-type: Miscellaneous
+type: Fan Controller
 standard: global
 link: https://www.itead.cc/sonoff-ifan03-wifi-ceiling-fan-light-controller.html
 image: https://user-images.githubusercontent.com/34340210/62710777-e6008380-b9c5-11e9-83a2-35dbf1cdb782.png
@@ -16,9 +16,9 @@ For US (fan speed capacitors) - https://github.com/arendst/Sonoff-Tasmota/issues
 
 Photos - https://github.com/arendst/Sonoff-Tasmota/issues/5988#issuecomment-510177762
 
-https://user-images.githubusercontent.com/18605148/60994966-8c059300-a31f-11e9-82ff-783a13574e1d.jpg
+![](https://user-images.githubusercontent.com/18605148/60994966-8c059300-a31f-11e9-82ff-783a13574e1d.jpg)
 
-Disable buzzer with command SetOption67 0
+Disable buzzer with command `SetOption67 0`
 
 The button is connected to GPIO0
 
