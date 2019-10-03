@@ -1,0 +1,88 @@
+---
+date: 2019-10-02
+title: Maxcio 400ml
+category: misc
+type: Oil Diffuser
+standard: eu
+link: https://www.amazon.es/Aromaterapia-Inteligente-Maxcio-Humidificador-Ultras%C3%B3nico/dp/B07QPR8W3F
+image: https://images-na.ssl-images-amazon.com/images/I/71WGi2Zq9SL._SX522_.jpg
+template: '{"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link_alt: 
+---
+
+The module configuration is based on the TuyaMCU.
+Relay1 is responsible for turning both LED (RGB Cycle) and Diffuser on (Slow Mode).
+Relay2 is responsible for turning Diffuser On (Fast Mode using Rule #2).
+Relay3 is responsible for turning LED on and lock the RGB Cycle (using Rule #3).
+TuyaMCU Configuration: '[{""fnId"":21, ""dpId"":111},{""fnId"":41, ""dpId"":103},{""fnId"":11, ""dpId"":12},{""fnId"":1, ""dpId"":110},{""fnId"":13, ""dpId"":11}]'
+
+
+dpID 111controls the LED brightness. It is important to define 'SetOption43 255'. 
+
+```lua
+Rule2
+on power2#state=1 do serialsend5 55AA00060005670400010177 endon on power2#state=0 do serialsend5 55aa00060005670400010278 endon
+
+Rule3 
+
+on power3#state=1 do serialsend5 55aa000600050b0100010118 endon  on power3#state=1 do serialsend5 55aa000600056e040001017E endon on power3#state=0 do serialsend5 55aa000600050b0100010017 endon
+
+Some HEX Codes Detected
+
+Turn Relay1 on (LED and Diffuser)
+    55aa0006000501010001010e
+    
+Turn Relay1 off (LED and Diffuser)
+    55aa0006000501010001000d
+
+Turn diffuser on (Fast mode)
+    55AA00060005670400010177
+
+Turn diffuser on (Slow mode)
+    55AA00060005670400010076
+
+Turn Diffuser off 
+    55aa00060005670400010278
+
+Turn LED on (RGB Cycle)
+    55aa000600050b0100010118
+
+Turn LED off
+    55aa000600050b0100010017
+
+Lock RGB Cycle
+    55aa000600056e040001017E
+
+Purple Color
+    55aa000600126c03000e6438303066663031323266666666b9
+
+Orange Color
+    55aa000600126c03000e6666343230303030306666666666b4
+
+Yellow Color
+    55aa000600126c03000e6666633030303030326466666666e1
+
+Green1
+    55aa000600126c03000e3738666630303030356366666666BF
+
+Green2
+    55aa000600126c03000e30306666343230303837666666668d
+
+Blue
+    55aa000600126c03000e3030633366663030633366666666e4
+
+Pink 
+    55aa000600126c03000e6666303061383031343166666666b7
+
+Red1
+    55aa000600126c03000e666630303234303136306666666685
+
+Red2 (darker)
+    55aa000600126c03000e666630303030303030306666666678
+```
+
+
+
+
+
+
