@@ -1,0 +1,23 @@
+---
+date: 2019-10-01
+title: Arlec GLD112HA
+category: light
+type: Bulb
+standard: anzac
+link: https://www.bunnings.com.au/arlec-smart-9-5w-806lm-cct-es-globe-with-grid-connect_p0111503
+image: https://photos.google.com/photo/AF1QipMCirtdhD2MIjwgQBhRWT3WVx6KwkPNWH_FTVSI
+template: '{"NAME":"Arlec CCT","GPIO":[0,0,0,0,0,38,0,0,0,37,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Converted with tuya-convert 2. 
+
+gpio 13 is colour (0 - WW, ff -CW), gpio5 is dimmer.
+
+Uses esp tywe3l module, bp5926 to drive the leds 8 of each colour.
+
+
+
+
+
+
