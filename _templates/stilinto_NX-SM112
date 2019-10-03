@@ -1,0 +1,32 @@
+---
+date: 2019-10-02
+title: Slitinto NX-SM112
+category: plug
+type: Plug
+standard: uk
+link: https://www.amazon.co.uk/gp/product/B07R14VCKN
+image: https://images-na.ssl-images-amazon.com/images/I/51kx5VwKhRL._AC_SL1200_.jpg
+template: '{"NAME":"NX-SM112","GPIO":[158,0,0,131,0,134,0,0,0,17,132,21,0],"FLAG":0,"BASE":45}' 
+link_alt: 
+---
+
+There seems to be a couple versions of these. Same model number but different internals.
+If the above does not work, an alternative template is:
+
+```lua
+ {""NAME"":""NX-SM112"",""GPIO"":[0,0,0,131,134,132,0,0,158,17,0,21,0],""FLAG"":0,""BASE"":45}
+```
+
+These are a smaller form factor plug which do not foul the switch on UK sockets.
+
+Also sold under various other brand names, including Jules V and Bakibo.
+
+Be cautious when puchasing as there are some versions which look identical but do not come with energy monitoring.
+
+Comes with TLS firmware but flashable with the latest tuya-convert.
+
+
+
+
+
+
