@@ -11,13 +11,19 @@ link_alt:
 ---
 
 The module configuration is based on the TuyaMCU.
+
 Relay1 is responsible for turning both LED (RGB Cycle) and Diffuser on (Slow Mode).
+
 Relay2 is responsible for turning Diffuser On (Fast Mode using Rule #2).
+
 Relay3 is responsible for turning LED on and lock the RGB Cycle (using Rule #3).
-TuyaMCU Configuration: '[{""fnId"":21, ""dpId"":111},{""fnId"":41, ""dpId"":103},{""fnId"":11, ""dpId"":12},{""fnId"":1, ""dpId"":110},{""fnId"":13, ""dpId"":11}]'
+
+TuyaMCU Configuration: 
+
+`[{""fnId"":21, ""dpId"":111},{""fnId"":41, ""dpId"":103},{""fnId"":11, ""dpId"":12},{""fnId"":1, ""dpId"":110},{""fnId"":13, ""dpId"":11}]`
 
 
-dpID 111controls the LED brightness. It is important to define 'SetOption43 255'. 
+`dpID 111` controls the LED brightness. It is important to define 'SetOption43 255'. 
 
 ```lua
 Rule2
