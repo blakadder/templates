@@ -45,22 +45,26 @@ Backlog Delay 50; InterLock 1,2,3; InterLock on; PowerOnState 0; PowerRetain 0; 
 ```
 
 This module is based on the Tuya TYWE3S and TuyaConvert isn't working anymore (but one can always try..)
+![20190918_122058](https://user-images.githubusercontent.com/31405979/66112354-f6e70300-e5ca-11e9-9378-095c42e2bfbc.jpg)
 
 The inside of this module looks like this:
-https://www.flickr.com/photos/97702439@N06/48764258141/in/album-72157710979839267/
-https://www.flickr.com/photos/97702439@N06/48763935748/in/album-72157710979839267/
+![20190918_121854](https://user-images.githubusercontent.com/31405979/66110590-6529c680-e5c7-11e9-9a74-aba86d0bd7b4.jpg)
+![20190918_122039](https://user-images.githubusercontent.com/31405979/66110678-8f7b8400-e5c7-11e9-9695-5e017713622e.jpg)
 
 And the processor boards:
-https://www.flickr.com/photos/97702439@N06/48763935748/in/album-72157710979839267/
-https://www.flickr.com/photos/97702439@N06/48764260711/in/album-72157710979839267/
+![20190918_122039](https://user-images.githubusercontent.com/31405979/66110678-8f7b8400-e5c7-11e9-9695-5e017713622e.jpg)
+![20190918_122129](https://user-images.githubusercontent.com/31405979/66110733-a621db00-e5c7-11e9-9076-51f1623b90a7.jpg)
 
 The device has a separate MCU on board which connects to the TYWE3s module via Rx and Tx.
+![20190918_122059](https://user-images.githubusercontent.com/31405979/66112156-9d7ed400-e5ca-11e9-8137-892644c0e513.jpg)
+
 To be able to flash the device one needs to make 5 connections and CUT the RxD0 line:
-https://www.flickr.com/photos/97702439@N06/48763925098/in/album-72157710979839267/
+![20190918_121926](https://user-images.githubusercontent.com/31405979/66110791-c94c8a80-e5c7-11e9-896c-1505e7ec5917.png)
 
 Flashing can be done in several ways: Arduino IDE, VSCode, Platformio, ESP8266Flasher, etc.
 
-BE CAREFUL: always use 3,3 volts for power, NOT 5 volts.
+>  !!!  BE CAREFUL: always use 3,3 volts for power, NOT 5 volts, and DISCONNECT THE MAINS COMPLETELY while working on the device  !!!
 
-The WF-WS01/02/03 have the same boards inside and can be treated the same way.
+The WF-WS01/02/03 have the same boards inside and can be flashed the same way.
  
+  
