@@ -5,7 +5,7 @@ category: light
 type: Bulb
 standard: anzac
 link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
-image: https://photos.google.com/photo/AF1QipOQFbC7DXEcyleaxtCjjC65Rstt2NQvG48FPH6G
+image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20698-1.jpg
 template: '{"NAME":"Brilliant RGB+","GPIO":[255,255,255,255,37,40,255,255,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
