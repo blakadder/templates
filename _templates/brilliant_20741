@@ -1,0 +1,27 @@
+---
+date: 2019-10-01
+title: Brilliant 20741
+category: light
+type: Bulb
+standard: anzac
+link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
+image: https://photos.google.com/photo/AF1QipOQFbC7DXEcyleaxtCjjC65Rstt2NQvG48FPH6G
+template: '{"NAME":"Brilliant RGB+","GPIO":[255,255,255,255,37,40,255,255,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Converted with tuya-convert 2
+
+gpio4 - red
+
+gpio12 - green
+
+gpio 14 - blue
+
+gpio5 - warn white
+
+
+
+
+
+
