@@ -1,0 +1,19 @@
+---
+date: 2019-10-02
+title: Solimo 9W B22 RGB+W
+category: light
+type: Bulb
+standard: in
+link: https://www.amazon.in/gp/product/B07QXKC3SX
+image: https://images-na.ssl-images-amazon.com/images/I/714KSu%2BXdgL._SL1500_.jpg
+template: '{"NAME":"Solimo RGB+W 9","GPIO":[255,255,255,255,40,255,255,255,37,38,39,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Tuya convert 2.0 working fine as on 1st October 2019. RGB + Pure (Cool)  white LED. Warm white can be achieved by combination of RGB, No dedicated warm white LED as per my understanding.
+
+
+
+
+
+
