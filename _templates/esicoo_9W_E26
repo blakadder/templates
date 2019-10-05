@@ -1,0 +1,19 @@
+---
+date: 2019-10-05
+title: Esicoo 9W E26
+category: light
+type: Bulb
+standard: us
+link: https://www.amazon.com/ESICOO-Compatible-Google-Dimmable-Equivalent/dp/B07SMSGN86
+image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/esicoo_bulb.JPG
+template: '{"NAME":"Esicoo Bulb","GPIO":[0,0,0,0,143,144,0,0,0,0,0,0,0],"FLAG":0,"BASE":27}' 
+link_alt: 
+---
+
+This bulb uses the MY9291 LED driver over the lesser PWM method.  There are 4 color channles, RGB and Warm White.
+
+
+
+
+
+
