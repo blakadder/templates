@@ -1,5 +1,5 @@
 ---
-title: Luminea ZX-2820
+title: Luminea ZX-2820-919
 category: plug
 type: Plug
 standard: eu
