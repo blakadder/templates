@@ -1,0 +1,19 @@
+---
+date: 2019-10-06
+title: Choifoo 10A
+category: plug
+type: Plug
+standard: eu
+link: https://www.aliexpress.com/item/32957842763.html
+image: https://ae01.alicdn.com/kf/H6dc9f82a17314a559b403adb125c04f4h/UK-US-EU-Smart-Home-Plug-Wireless-WIFI-Remote-Control-Socket-Voice-Control-Smart-Power-Socket.jpg
+template: '{"NAME":"Tuya Wifi Plug","GPIO":[255,255,255,255,56,255,255,255,21,17,255,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Everything works out of the box. I only used the tuya-convert 2 method as I bought them recently (didn't try tuya-convert 1, but could work also depending on which firmware version they are shipped)
+
+
+
+
+
+
