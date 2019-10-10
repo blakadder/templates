@@ -1,0 +1,19 @@
+---
+date: 2019-10-07
+title: Luminea LHC-101.on
+category: switch
+type: Switch
+standard: eu
+link: https://www.amazon.de/Luminea-Home-Control-Lichtschalter-Touch-Lichtschalter/dp/B07KFN8BTJ/
+image: https://images-na.ssl-images-amazon.com/images/I/41zPZAw11oL.jpg
+template: '{"NAME":"LHC-101.on","GPIO":[157,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+
+
+
+
+
+
+
