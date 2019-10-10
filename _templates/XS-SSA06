@@ -1,0 +1,19 @@
+---
+date: 2019-10-09
+title: XS-SSA06
+category: plug
+type: Plug
+standard: us
+link: https://www.amazon.com/gp/product/B07P8KGPH5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+image: https://www.amazon.com/gp/product/B07P8KGPH5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+template: '{"NAME":"RGB Light","GPIO":[37,0,38,0,0,39,0,0,0,90,0,21,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+This is fully compatible with the Template provided. You can turn the switch off\on, change light ring color and turn it off and on also.
+
+
+
+
+
+
