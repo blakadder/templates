@@ -1,0 +1,19 @@
+---
+date: 2019-10-08
+title: Aukey SH-PA1
+category: plug
+type: Plug
+standard: us
+link: https://smile.amazon.com/gp/product/B07CC9S4MS
+image: https://i.imgur.com/UENsUmc.jpg
+template: '{"NAME":"AUKEY SH-PA1","GPIO":[0,0,255,0,0,0,0,0,0,17,0,21,0],"FLAG":15,"BASE":18}' 
+link_alt: 
+---
+
+GPIO2 links to the LED but I am unsure how to link it to power state. Led1, Led1i, LedLink, and LedLinki are blinking states. Led2 and Led3 are always on, whereas Led2i, Led3i, Led4, and Led4i are always off.
+
+
+
+
+
+
