@@ -10,9 +10,9 @@ template: '{"NAME":" BPA800/RGBW","GPIO":[255,255,255,255,37,38,255,255,141,142,
 link_alt: 
 ---
 
+This bulb seems to have hardware Gamma correction, so you need to make sure you disable Software Gamma Correction:
 
-
-
+`LedTable 0`
 
 
 
