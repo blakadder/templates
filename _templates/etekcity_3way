@@ -1,0 +1,23 @@
+---
+date: 2019-10-10
+title: Etekcity 3-way 
+category: switch
+type: Switch
+standard: us
+link: https://www.amazon.com/gp/product/B07MBX6NGQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+image: https://www.amazon.com/gp/product/B07MBX6NGQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+template: '{"NAME":"Etekcity 3Way","GPIO":[255,255,0,255,23,29,0,0,82,22,10,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+`backlog switchtopic 0;switchmode1 1;switchmode2 5;switchmode3 1;powerretain 1;rule1 on event#ON do power2 TOGGLE endon;rule1 1;rule2 on event#OFF do power2 TOGGLE endon;rule2 1;`
+
+`rule3 on power1#state=1 do backlog rule1 0; rule2 1 endon on power1#state=0 do backlog rule1 1; rule2 0 endon`
+
+`rule3 1`
+
+
+
+
+
+
