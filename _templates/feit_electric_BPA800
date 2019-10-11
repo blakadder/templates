@@ -10,7 +10,7 @@ template: '{"NAME":" BPA800/RGBW","GPIO":[255,255,255,255,37,38,255,255,141,142,
 link_alt: 
 ---
 
-
+Try 'LedTable 0' command if dimmer slider doesn't work correctly.
 
 
 
