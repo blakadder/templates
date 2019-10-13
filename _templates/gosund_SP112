@@ -1,11 +1,11 @@
 ---
 date: 2019-10-12
-title: Gosund SP 112
+title: Gosund SP112
 category: plug
 type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07PMW88L7
-image: https://images-na.ssl-images-amazon.com/images/I/61oankeMcsL._AC_SL1500_.jpg
+image: https://user-images.githubusercontent.com/5904370/66715805-e8b59580-edc7-11e9-954e-dfd45c1fc07e.png
 template: '{"NAME":"SHP5","GPIO":[56,145,57,146,255,22,0,0,255,255,21,255,18],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
