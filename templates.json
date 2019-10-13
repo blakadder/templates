@@ -9,7 +9,7 @@ layout: null
 "link":     "{{site.baseurl}}{{ template.url }}",
 "type":     "{{ template.type }}",
 "category": "{{ template.category }}",
-"standard": {{ template.standard | jsonify | upcase }},
+"standard": [{% assign standard_list = template.standard %}{% for item_standard in standard_list %}"{{ item_standard | upcase }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
 "template": {{template.template}},
 "image":    {{template.image | jsonify}},
 "product":  {{template.link | jsonify}}
