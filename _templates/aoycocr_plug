@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07PRFGRLC
-image: https://images-na.ssl-images-amazon.com/images/I/51T-SLXTy9L._AC_SX569_.jpg
+image: https://user-images.githubusercontent.com/5904370/66717175-536dcd80-edd6-11e9-8e3e-da3e76cc3e43.png
 template: '{"NAME":"Aoycocr","GPIO":[255,0,56,0,0,0,0,0,255,17,0,21,0],"FLAG":0,"BASE":17}' 
 link_alt: 
 ---
