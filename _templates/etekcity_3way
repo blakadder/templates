@@ -5,7 +5,7 @@ category: switch
 type: Switch
 standard: us
 link: https://www.amazon.com/gp/product/B07MBX6NGQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
-image: https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/ATVPDKIKX0DER/A99MZGWBBIGK9/1f7d2cd0-90e2-4db7-96dd-cd363570c99c.__CR0,0,500,500_PT0_SX300_V1___.jpg
+image: https://user-images.githubusercontent.com/5904370/66718127-ab113680-ede0-11e9-945b-c717cf56ab04.png
 template: '{"NAME":"Etekcity 3Way","GPIO":[255,255,0,255,23,29,0,0,82,22,10,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
