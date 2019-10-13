@@ -12,10 +12,11 @@ link_alt:
 
 Lots of JSON. Temperature & brightness control only using channels.
 
-setoption17 on
+`SetOption17 on`
 
 Example Hass config:
-```lua
+{% raw %}
+```
 - platform: mqtt
   name: "Wipro Smart batten"
   command_topic: "cmnd/wipro1/power"
@@ -35,6 +36,6 @@ Example Hass config:
   color_temp_command_topic: "cmnd/wipro1/Channel2"
   color_temp_command_template: "{{ ((value - 154) | int * 100 | int / 345 | int + 2) |int }}"
   color_temp_state_topic: tele/wipro1/STATE
-  color_temp_value_template: "{{ ((value_json.Channel[1]) | int * 345 | int / 100 | int + 154) |int }}""
+  color_temp_value_template: "{{ ((value_json.Channel[1]) | int * 345 | int / 100 | int + 154) |int }}"
 ```
-
+{% endraw %}

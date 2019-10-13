@@ -10,8 +10,10 @@ template: '{"NAME":"LEDBoard RGBW","GPIO":[255,0,0,0,255,255,0,0,39,38,40,37,52]
 link_alt: 
 ---
 
-"WS2812 Template:
-`{""NAME"":""LEDBoard W2812"",""GPIO"":[255,0,7,0,255,255,0,0,0,0,0,0,52],""FLAG"":0,""BASE"":18}`"
+WS2812 Template:
+```lua
+{"NAME":"LEDBoard W2812","GPIO":[255,0,7,0,255,255,0,0,0,0,0,0,52],"FLAG":0,"BASE":18}
+```
 
 
 

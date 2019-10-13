@@ -1,0 +1,18 @@
+---
+title: JSON Templates
+layout: null
+---
+[
+{% for template in site.templates %}
+{
+"name":     {{ template.title | jsonify}},
+"link":     "{{site.baseurl}}{{ template.url }}",
+"type":     "{{ template.type }}",
+"category": "{{ template.category }}",
+"standard": {{ template.standard | jsonify | upcase }},
+"template": {{template.template}},
+"image":    {{template.image | jsonify}},
+"product":  {{template.link | jsonify}}
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

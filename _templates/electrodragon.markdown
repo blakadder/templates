@@ -5,11 +5,16 @@ category: light
 standard: global
 link: https://www.electrodragon.com/product/esp-led-strip-board/
 image: https://1436477554.rsc.cdn77.org/wp-content/uploads/2017/06/ESP-LED-Strip-Board-01.jpg
-template1: '{"NAME":"LEDBoard RGBW","GPIO":[255,0,0,0,255,255,0,0,39,38,40,37,52],"FLAG":0,"BASE":18}'
-template2: '{"NAME":"LEDBoard W2812","GPIO":[255,0,7,0,255,255,0,0,0,0,0,0,52],"FLAG":0,"BASE":18}'
+template: '{"NAME":"LEDBoard RGBW","GPIO":[255,0,0,0,255,255,0,0,39,38,40,37,52],"FLAG":0,"BASE":18}'
 link_alt: 
 screenshot:
 ---
+Alternative template:
+
+```lua
+{"NAME":"LEDBoard W2812","GPIO":[255,0,7,0,255,255,0,0,0,0,0,0,52],"FLAG":0,"BASE":18}
+```
+
 <img width="200" src="https://1436477554.rsc.cdn77.org/wp-content/uploads/2017/06/ESP-LED-Drive-Board-Description-.jpg">
 
 <h2>Description</h2>
