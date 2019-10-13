@@ -1,13 +1,13 @@
 ---
-title: Feit Electric RGB A19
+title: Feit Electric OM60/RGBW/CA/AG
 category: light
 type: Bulb
 standard: us
 category: light
 link: https://www.amazon.com/FEIT-OM60-RGBW-CA-AG/dp/B07GG98VV2/
-image: https://images-na.ssl-images-amazon.com/images/I/710krqUyd-L._SL1500_.jpg
+image: https://user-images.githubusercontent.com/5904370/66718514-1c52e880-ede5-11e9-8334-4644c016fc42.png
 template: '{"NAME":"OM60/RGBW","GPIO":[255,255,255,255,140,37,0,0,38,142,141,255,255],"FLAG":0,"BASE":18}'
-link_alt: https://www.amazon.com/gp/product/B07D13LS7Z
+link_alt: https://www.feit.com/products/bulbs/enhance/smart-wifi-bulb-color-changing-tunable-white-2/
 screenshot:
 ---
 Note BGR color order - `setoption37 54` in tasmota console to remap.
