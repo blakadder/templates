@@ -5,7 +5,7 @@ category: light
 type: Bulb
 standard: eu
 link: https://www.pearl.de/a-ZX2832-3103.shtml
-image: https://microsites.pearl.de/i/76/zx2832_9.jpg
+image: https://user-images.githubusercontent.com/5904370/66717679-0e4c9a00-eddc-11e9-8db4-a2bca9fa0791.png
 template: '{"NAME":"Luminea RGBW","GPIO":[255,255,255,255,140,37,255,255,38,142,141,255,255],"FLAG":1,"BASE":18}' 
 link_alt: https://www.amazon.de/Luminea-Home-Control-WLAN-Birne/dp/B074SZ6VQC
 ---
