@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07GFNFBGP/
-image: https://images-na.ssl-images-amazon.com/images/I/41G7J0Rh-IL._SY450_.jpg
+image: https://user-images.githubusercontent.com/5904370/66717441-5e762d00-edd9-11e9-9b65-27adea758d65.png
 template: '{"NAME":"WOOX R4026","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
@@ -14,5 +14,6 @@ Plug is based on Module TUYA and TYWE2S: see https://docs.tuya.com/en/hardware/W
 
 TUYA-Convert is working: https://github.com/ct-Open-Source/tuya-convert 
 
+![](https://images-na.ssl-images-amazon.com/images/I/41G7J0Rh-IL._SY450_.jpg)
 
 

@@ -1,11 +1,11 @@
 ---
 date: 2019-07-04
-title: KAINSY B22/E27
+title: Kainsy 7W E27 RGBW
 category: light
 type: Bulb
 standard: global
 link: https://www.amazon.de/KAINSY-Gl%C3%BChbirne-Kompatibel-%C3%A4quivalent-Millionen/dp/B075WQYQ94
-image: https://images-na.ssl-images-amazon.com/images/I/51fDTPVwC-L._SX679_.jpg
+image: https://user-images.githubusercontent.com/5904370/66717605-1fe17200-eddb-11e9-9c76-3bb3ccc9a9b0.png
 template: '{"NAME":"KAINSY","GPIO":[17,255,255,255,143,144,0,0,0,0,0,0,0],"FLAG":0,"BASE":27}' 
 link_alt: 
 ---

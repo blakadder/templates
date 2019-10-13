@@ -5,7 +5,7 @@ category: switch
 type: Dimmer
 standard: eu
 link: https://www.aliexpress.com/item/33010332202.html
-image: https://user-images.githubusercontent.com/36734573/61961586-f6792d00-afc7-11e9-9ea7-2b12372431c5.jpg
+image: https://user-images.githubusercontent.com/5904370/66717877-1e657900-edde-11e9-97a6-ae426b60bc1f.png
 template: '{"NAME":"WiFi-Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
 link_alt: https://www.amazon.de/s?k=Wi-Fi+Dimmer+150W
 ---
