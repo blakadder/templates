@@ -1,11 +1,11 @@
 ---
 date: 2019-06-20
-title: Obest 1WE RGB E27
+title: Oobest ZN93028 11W E27 RGB 
 category: light
 type: Bulb
 standard: eu
 link: https://www.aliexpress.com/item/LED-Bulb-Lamps-11W-E27-B22-Smart-Light-Bulb-WiFi-Voice-Control-RGB-Energy-Saving-Dimming/32958468609.html
-image: https://ae01.alicdn.com/kf/HLB1CksLX.jrK1RkHFNRq6ySvpXab/LED-Bulb-Lamps-11W-E27-B22-Smart-Light-Bulb-WiFi-Voice-Control-RGB-Energy-Saving-Dimming.jpg
+image: https://user-images.githubusercontent.com/5904370/66717744-bb271700-eddc-11e9-9bcf-d6f53437d201.png
 template: '{"NAME":"RGB Bulb 11W","GPIO":[255,255,255,255,40,255,255,255,38,39,37,255,255],"FLAG":1,"BASE":18}' 
 link_alt: 
 ---
