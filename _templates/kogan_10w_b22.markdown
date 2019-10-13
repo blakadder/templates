@@ -1,6 +1,6 @@
 ---
 date: 2019-04-15
-title: Kogan SmarterHome™ 10W White B22
+title: Kogan SmarterHome™ White 10W B22
 category: light
 type: Bulb
 standard: anzac
