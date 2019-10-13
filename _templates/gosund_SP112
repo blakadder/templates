@@ -1,0 +1,22 @@
+---
+date: 2019-10-12
+title: Gosund SP 112
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.de/gp/product/B07PMW88L7
+image: https://images-na.ssl-images-amazon.com/images/I/61oankeMcsL._AC_SL1500_.jpg
+template: '{"NAME":"SHP5","GPIO":[56,145,57,146,255,22,0,0,255,255,21,255,18],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Button will toggle the USB Output. If you want to toggle the Relays, use this template: 
+```
+{"NAME":"SHP5","GPIO":[56,145,57,146,255,22,0,0,255,255,21,255,17],"FLAG":0,"BASE":18}
+```
+
+
+
+
+
+
