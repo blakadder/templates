@@ -1,13 +1,13 @@
 ---
 date: 2019-04-27
-title: Feit Electric Soft White A19 60W 
+title: Feit Electric OM60/927CA/AG
 category: light
 type: Bulb
 standard: us
 link: https://www.menards.com/main/electrical/alarms-security-systems/security-accessories/feit-electric-reg-60w-equivalent-a19-soft-white-alexa-google-smart-wifi-led-bulb/pa80027kag/p-1531290477173.htm
-image: https://hw.menardc.com/main/items/media/FEITE001/ProductLarge/OM60_927CA_AG_bulb.jpg
+image: https://user-images.githubusercontent.com/5904370/66718533-43111f00-ede5-11e9-8cb4-52b2f0c64263.png
 template: '{"NAME":" Feit P_A800_2","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
-link_alt: 
+link_alt: https://www.feit.com/products/bulbs/800-lumen-2700k-smart-wifi-bulb/
 ---
 
 Same template as Merkury A19 60W  I just changed the name.
