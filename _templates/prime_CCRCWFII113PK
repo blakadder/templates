@@ -9,6 +9,10 @@ image: https://images.costco-static.com/ImageDelivery/imageService?profileId=120
 template: '{"NAME":"Prime","GPIO":[0,0,0,0,57,56,0,0,21,122,0,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
+Alternative template:
+```
+'{"NAME":"Prime Smart Ou","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
+```
 
 Works with Tuya-convert 2
 Sold at Costco Canada
