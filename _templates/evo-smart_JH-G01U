@@ -6,12 +6,14 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B074RBZNPC
 image: https://images-na.ssl-images-amazon.com/images/I/51TfGQsUYDL._SL1300_.jpg
-template: '{"NAME":"EVO JH-G01U","GPIO":[0,0,0,0,21,9,0,0,56,0,0,0,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"EVO JH-G01U","GPIO":[0,0,0,0,21,17,0,0,56,0,0,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
+**Alternate template for revised JH-G01U plug**  
+The plug looks exactly the same externally but the GPIO are connected quite differently internally. If your device bootloops with the template above, try this template:  
 
-
+{"NAME":"EVO JH-G01U","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}
 
 
 
