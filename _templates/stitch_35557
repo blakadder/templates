@@ -1,15 +1,22 @@
 ---
 date: 2019-08-21
-title: STITCH by Monoprice 35557 
+title: STITCH by Monoprice 35557
 category: switch
 type: Switch
 standard: us
 link: https://www.monoprice.com/product?p_id=35557
 image: https://images.monoprice.com/productlargeimages/355571.jpg
-template: '{"NAME":"Tuya WF15S ","GPIO":[255,255,0,0,255,255,0,0,255,108,255,107,0],"FLAG":0,"BASE":54}' 
+template: '{"NAME":"Tuya WF15S ","GPIO":[255,255,0,0,255,255,0,0,255,108,255,107,0],"FLAG":0,"BASE":54}'
 link_alt: https://www.enerlites.com/wf15s.html
 ---
+*Post Tasmota version 6.6.0.10
 
+Should work without any configuration change
+
+Follow : https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU
+
+
+**Pre Tasmote version 6.6.0.10
 Use the Command "SetOption65 1" to turn off the dimmer functions of the Base Template (54). Currently may require the latest development build of Tasmota for this to disable fully (Commit 5cb863d or later)
 
 ***Troubleshooting:***
@@ -23,8 +30,3 @@ Required GPIOs can be found [here](https://pasteboard.co/ItCTS7L.png)
 This Switch runs off of the TYWE1S Chip ([Documentation from Tuya](https://docs.tuya.com/en/hardware/WiFi-module/wifi-e1s-module.html))
 
 [FCC Site for the photos and specs](https://fcc.report/FCC-ID/ZZH-WF15S)
-
-
-
-
-
