@@ -6,8 +6,8 @@ type: Humidifier
 standard: eu
 link: https://www.amazon.es/Aromaterapia-Inteligente-Maxcio-Humidificador-Ultras%C3%B3nico/dp/B07QPR8W3F
 image: https://images-na.ssl-images-amazon.com/images/I/71WGi2Zq9SL._SX522_.jpg
-template: '{"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
-link_alt: 
+template: '{"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
+link_alt:
 ---
 
 The module configuration is based on the TuyaMCU.
@@ -18,18 +18,21 @@ Relay2 is responsible for turning Diffuser On (Fast Mode using Rule #2).
 
 Relay3 is responsible for turning LED on and lock the RGB Cycle (using Rule #3).
 
-TuyaMCU Configuration: 
+TuyaMCU Configuration:
+Follow : https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU
 
 `[{""fnId"":21, ""dpId"":111},{""fnId"":41, ""dpId"":103},{""fnId"":11, ""dpId"":12},{""fnId"":1, ""dpId"":110},{""fnId"":13, ""dpId"":11}]`
 
 
-`dpID 111` controls the LED brightness. It is important to define 'SetOption43 255'. 
+`dpID 111` controls the LED brightness. It is important to define 'SetOption43 255'.
 
+
+* Deprecated after Tasmota version 6.6.0.10 *
 ```lua
 Rule2
 on power2#state=1 do serialsend5 55AA00060005670400010177 endon on power2#state=0 do serialsend5 55aa00060005670400010278 endon
 
-Rule3 
+Rule3
 
 on power3#state=1 do serialsend5 55aa000600050b0100010118 endon  on power3#state=1 do serialsend5 55aa000600056e040001017E endon on power3#state=0 do serialsend5 55aa000600050b0100010017 endon
 
@@ -37,7 +40,7 @@ Some HEX Codes Detected
 
 Turn Relay1 on (LED and Diffuser)
     55aa0006000501010001010e
-    
+
 Turn Relay1 off (LED and Diffuser)
     55aa0006000501010001000d
 
@@ -47,7 +50,7 @@ Turn diffuser on (Fast mode)
 Turn diffuser on (Slow mode)
     55AA00060005670400010076
 
-Turn Diffuser off 
+Turn Diffuser off
     55aa00060005670400010278
 
 Turn LED on (RGB Cycle)
@@ -77,7 +80,7 @@ Green2
 Blue
     55aa000600126c03000e3030633366663030633366666666e4
 
-Pink 
+Pink
     55aa000600126c03000e6666303061383031343166666666b7
 
 Red1
@@ -86,9 +89,3 @@ Red1
 Red2 (darker)
     55aa000600126c03000e666630303030303030306666666678
 ```
-
-
-
-
-
-

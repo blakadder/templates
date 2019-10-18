@@ -6,15 +6,24 @@ type: Relay
 standard: global
 link: https://www.aliexpress.com/item/32873133693.html
 image: https://user-images.githubusercontent.com/25117255/61148426-0e888100-a4df-11e9-92c5-43453afcc6c5.png
-template: '{"NAME":"Kinetic Switch","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}' 
-link_alt: 
+template: '{"NAME":"Kinetic Switch","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}'
+link_alt:
 ---
+#### Configuration (post Tasmota v6.6.0.10)
+Configure as a `Tuya MCU (54)` (support as a BASE module was introduced in 6.6.0.10).
 
+- GPIO13 - Tuya Rx (108)
+- GPIO15 - Tuya Tx (107)
+
+It should work, if it doesn't follow : https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU
+
+#### Flashing
+
+
+#### Configuration (pre Tasmota v6.6.0.10)
 Discussed [here](https://github.com/arendst/Sonoff-Tasmota/issues/6056#issuecomment-510954469)
 
-#### Configuration
-
-Configure as a `Tuya Dimmer (54)` (support as a BASE module was introduced in 6.2.1.16).  
+Configure as a `Tuya Dimmer (54)` (support as a BASE module was introduced in 6.2.1.16).
 
 - GPIO13 - Tuya Rx (108)
 - GPIO15 - Tuya Tx (107)
@@ -25,7 +34,7 @@ Configure as a `Tuya Dimmer (54)` (support as a BASE module was introduced in 6.
 
 #### Flashing
 
-This device uses a Tuya TYWE3S Wi-Fi PCB module.  An easy soldering method is to take several Dupont style jumper wires, cut one end off, and apply a bit of solder to each stripped end.  This will keep the wire flexible and prevent any circuit board pads from ripping off.  Apply a bit of solder to each pad necessary to flash (double check your pin-outs).  Once the wire and pad have solder simply put the two together and apply a bit of heat and they will join together.  
+This device uses a Tuya TYWE3S Wi-Fi PCB module.  An easy soldering method is to take several Dupont style jumper wires, cut one end off, and apply a bit of solder to each stripped end.  This will keep the wire flexible and prevent any circuit board pads from ripping off.  Apply a bit of solder to each pad necessary to flash (double check your pin-outs).  Once the wire and pad have solder simply put the two together and apply a bit of heat and they will join together.
 
 ![tywe3s_3](https://user-images.githubusercontent.com/3240875/43324698-669affd6-917a-11e8-8e06-c800741bfb68.png)
 ![chip_wires](https://user-images.githubusercontent.com/3240875/43324672-578ffcbc-917a-11e8-800c-f1d008ca3cf4.JPG)
