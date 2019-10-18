@@ -5,7 +5,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/Smart-Outlet-Compatible-Alexa-Google/dp/B07LGSBFNJ
 image: https://i.postimg.cc/rsnJGpTS/small-201810291602080595.jpg
-template: '{"NAME":"AWP04L","GPIO":[56,0,0,131,0,134,0,0,21,17,132,158,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"AWP04L","GPIO":[56,0,0,131,0,133,0,0,21,17,132,158,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
