@@ -6,11 +6,16 @@ type: Switch
 standard: us
 link: https://www.amazon.com/Martin-Jerry-Compatible-Devices-Traditional/dp/B07RV9VTRN
 image: https://user-images.githubusercontent.com/5904370/53685174-941d4880-3d17-11e9-93a5-1bd29f301333.png
-template: '{"NAME":"MJ 3Way Switch","GPIO":[255,255,255,255,52,53,0,0,21,17,157,255,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"MJ 3Way Switch","GPIO":[255,255,255,255,52,53,0,0,21,9,157,255,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
 [Flashing and setup video](https://www.youtube.com/watch?v=B8YhfZ_LguI)
+
+This switch requires the use of switch1 as configured in the template to work correctly.  You will need to issue the following command on the console to set the correct mode.
+```lua
+switchmode1 5
+```
 
 Used the following rule to have the red LED lit while the relay is off and blue LED lit when on (matches the Martin Jerry Dimmers)
 ```lua
