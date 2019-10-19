@@ -20,7 +20,8 @@ The module configuration is based on the TuyaMCU.
 `dpID 111` controls the LED brightness. It is important to define 'SetOption43 255'.
 
 
-___This method is deprecated for Tasmota releases < v6.6.0.10___ It is recommended to upgrade to the latest version and use the [TuyaMCU](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU) feature
+## The following method is deprecated for Tasmota releases < v6.6.0.10
+___It is recommended to upgrade to the latest version and use the [TuyaMCU](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU) feature___
 
 Relay1 is responsible for turning both LED (RGB Cycle) and Diffuser on (Slow Mode).
 
