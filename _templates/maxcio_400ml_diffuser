@@ -10,13 +10,18 @@ template: '{"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,
 link_alt:
 ---
 
-The module configuration is based on the TuyaMCU.
+The module configuration is based on the TuyaMCU. [TuyaMCU Configuration Guide](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU)
 
-[TuyaMCU Configuration](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU)
+After installing Tasmota issue the following command in console:
+```lua
+Backlog tuyamcu 21,111; tuyamcu 41,103; tuyamcu 11,12; tuyamcu 1,110; tuyamcu 13,11; DimmerRange 1,255
+```
+This should result in the following output of `TuyaMCU` command:
+```
+{"TuyaMCU":[{"fnId":21,"dpId":111},{"fnId":41,"dpId":103},{"fnId":13,"dpId":11},{"fnId":1,"dpId":110},{"fnId":11,"dpId":12}]}
+```
 
-`[{""fnId"":21, ""dpId"":111},{""fnId"":41, ""dpId"":103},{""fnId"":11, ""dpId"":12},{""fnId"":1, ""dpId"":110},{""fnId"":13, ""dpId"":11}]`
-
-`dpID 111` controls the LED brightness. It is important to define 'SetOption43 255'.
+`dpID 111` controls the LED brightness. It is important to define 'DimmerRange 1,255'.
 
 Relay1 is responsible for turning both LED (RGB Cycle) and Diffuser on (Slow Mode).
 
