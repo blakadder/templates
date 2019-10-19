@@ -28,6 +28,7 @@ Follow : https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU
 
 
 * Deprecated after Tasmota version 6.6.0.10 *
+
 ```lua
 Rule2
 on power2#state=1 do serialsend5 55AA00060005670400010177 endon on power2#state=0 do serialsend5 55aa00060005670400010278 endon
