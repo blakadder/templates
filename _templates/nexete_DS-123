@@ -1,0 +1,19 @@
+---
+date: 2019-10-18
+title:  Nexete DS-123
+category: switch
+type: Switch
+standard: us
+link: https://www.amazon.com/gp/product/B07X4Z69BV
+image: https://images-na.ssl-images-amazon.com/images/I/51HlEv%2BYeoL._AC_SL1000_.jpg
+template: '{"NAME":"DS-123","GPIO":[157,57,255,17,21,18,0,0,255,22,56,255,255],"FLAG":15,"BASE":18}' 
+link_alt: 
+---
+
+Uses a TYWE3S, Flashed using tuya-convert from this link https://www.youtube.com/watch?v=dyUyewiKpRA
+
+
+
+
+
+
