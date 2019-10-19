@@ -1,0 +1,21 @@
+---
+date: 2019-10-18
+title: Lohas 9W E26 RGBW 
+category: light
+type: Bulb
+standard: us
+link: https://www.amazon.com/LED-LOHAS-Daylight-Changing-Equivalent/dp/B07T7W7ZMW
+image: https://user-images.githubusercontent.com/3240875/67115086-ff326700-f1a2-11e9-86ac-9d2b3a6a7f86.jpg
+template: '{"NAME":"Lohas RGBW","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+This template requires Tasmota 6.6.0.18 or higher to work correctly.  
+
+Side note if you do need to attach to the bulb via USB serial the pads are there right under the light diffuser to easily solder RX, TX, GND, and GPIO0 but 3v3 does not work.  You will need to solder to the flash memory chip VCC leg to inject 3v3 power, it is easier to solder to this pin instead of the ESP8266 directly.
+
+
+
+
+
+
