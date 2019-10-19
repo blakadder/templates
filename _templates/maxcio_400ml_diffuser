@@ -12,14 +12,7 @@ link_alt:
 
 The module configuration is based on the TuyaMCU.
 
-Relay1 is responsible for turning both LED (RGB Cycle) and Diffuser on (Slow Mode).
-
-Relay2 is responsible for turning Diffuser On (Fast Mode using Rule #2).
-
-Relay3 is responsible for turning LED on and lock the RGB Cycle (using Rule #3).
-
-TuyaMCU Configuration:
-Follow : https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU
+[TuyaMCU Configuration](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU)
 
 `[{""fnId"":21, ""dpId"":111},{""fnId"":41, ""dpId"":103},{""fnId"":11, ""dpId"":12},{""fnId"":1, ""dpId"":110},{""fnId"":13, ""dpId"":11}]`
 
@@ -27,8 +20,13 @@ Follow : https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU
 `dpID 111` controls the LED brightness. It is important to define 'SetOption43 255'.
 
 
-* Deprecated after Tasmota version 6.6.0.10 *
+___This method is deprecated for Tasmota releases < v6.6.0.10___ It is recommended to upgrade to the latest version and use the [TuyaMCU](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU) feature
 
+Relay1 is responsible for turning both LED (RGB Cycle) and Diffuser on (Slow Mode).
+
+Relay2 is responsible for turning Diffuser On (Fast Mode using Rule #2).
+
+Relay3 is responsible for turning LED on and lock the RGB Cycle (using Rule #3).
 ```lua
 Rule2
 on power2#state=1 do serialsend5 55AA00060005670400010177 endon on power2#state=0 do serialsend5 55aa00060005670400010278 endon
