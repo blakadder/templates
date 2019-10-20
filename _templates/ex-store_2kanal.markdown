@@ -24,7 +24,7 @@ PCB Backside
 ![PCB back](https://user-images.githubusercontent.com/43306023/46289287-e865a600-c588-11e8-94e2-52c46209b50b.jpg)
 
 GPIO00 - Module Pin 4  
-GPIO01 - Module Pin 3  
+GPIO02 - Module Pin 3  
 GPIO04 - Module Pin 2  
 GPIO05 - Module Pin 1  
 GPIO12 - Relay1 ( High = Off)  
@@ -36,7 +36,14 @@ GPIO16 - Relay2 ( High = On)
 
 ### Notes   
 
-The output pins of the V5.0 are reversed on the PCB. You must use "out1" for Relay2 and "out2" for Relay1 !!! This is the only way for support both Modules with Tasmota. (courtesy of Theo Arends)
+For use the V5.0 Modul with the "EXS Relay(s)" profile you must change the "Module parameters" (see picture below)
 
+![](https://pi-gate.net/images/Blackline.png)  
+
+Now you see in device setup
+
+![](https://pi-gate.net/images/Blackline_Device_Setup.png)  
+
+The output pins of the V5.0 are reversed on the PCB. You must use "out1" for Relay2 and "out2" for Relay1 !!! This is the only way for support both Moduls with Tasmota. (thanks for this Note to Theo Arends)
 
 
