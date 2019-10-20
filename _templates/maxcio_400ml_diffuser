@@ -10,7 +10,7 @@ template: '{"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,
 link_alt:
 ---
 
-The module configuration is based on the TuyaMCU. [TuyaMCU Configuration Guide](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU)
+The module configuration uses TuyaMCU component and requires Tasmota >6.6.0.10. [TuyaMCU Configuration Guide](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU)
 
 After installing Tasmota issue the following command in console:
 ```lua
@@ -28,10 +28,6 @@ Relay1 is responsible for turning both LED (RGB Cycle) and Diffuser on (Slow Mod
 Relay2 is responsible for turning Diffuser On (Fast Mode using Rule #2).
 
 Relay3 is responsible for turning LED on and lock the RGB Cycle (using Rule #3).
-
-## The following method is deprecated for Tasmota releases < v6.6.0.10
-___It is recommended to upgrade to the latest version and use the [TuyaMCU](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU) feature___
-
 
 ```lua
 Rule2
