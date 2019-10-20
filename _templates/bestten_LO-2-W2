@@ -1,0 +1,19 @@
+---
+date: 2019-10-20
+title: Bestten LO-2-W2
+category: plug
+type: Wall Outlet
+standard: us
+link: https://www.amazon.ca/gp/product/B07QPZDW28
+image: https://images-na.ssl-images-amazon.com/images/I/7147GFysn9L._AC_SL1500_.jpg
+template: '{"NAME":"BESTTEN LO-2-W","GPIO":[17,0,0,0,57,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
+link_alt: 
+---
+
+No exposed GPIO pins. Used Tuya Convert to deploy Tasmota
+
+
+
+
+
+
