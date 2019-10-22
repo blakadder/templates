@@ -6,7 +6,7 @@ type: Power Strip
 standard: uk
 link: https://www.amazon.co.uk/gp/product/B07R7H6RT5/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
 image: https://images-na.ssl-images-amazon.com/images/I/511KSaQSxWL._SY355_.jpg
-template: '{"NAME":"YAGALA SWB3","GPIO":[157,0,53,0,0,23,0,0,21,17,22,24,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"YAGALA SWB3","GPIO":[157,0,53,0,0,23,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
 link_alt: https://www.amazon.co.uk/gp/product/B07STZYG9X/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1
 ---
 
