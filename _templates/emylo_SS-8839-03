@@ -6,7 +6,7 @@ type: Relay
 standard: global
 link: https://www.amazon.co.uk/dp/B07FPLBGRN/
 image: https://images-na.ssl-images-amazon.com/images/I/519CgwGg5yL._SL1001_.jpg
-template: '{"NAME":"eMylo","GPIO":[0,0,0,0,52,0,0,0,21,0,17,0,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"eMylo","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":1,"BASE":18}' 
 link_alt: 
 ---
 
