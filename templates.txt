@@ -1,0 +1,13 @@
+---
+title: Templates
+layout: null
+---
+# Templates
+{% assign groups = site.templates | group_by: 'type' | sort: 'name' %} 
+{% for group in groups %}
+## {{group.name}}
+{% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
+{% for template in grouptitlesorted %}
+{{ template.title | normalize_whitespace }}    {{template.template}}
+{% endfor %}
+{% endfor %}
