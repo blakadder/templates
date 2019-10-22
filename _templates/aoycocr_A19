@@ -6,7 +6,7 @@ type: Bulb
 standard: us
 link: https://www.amazon.com/Compatible-Assitant-Required-Dimmable-Equivalent/dp/B07NXR61Y2
 image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/aoycocr.jpg
-template: '{"NAME":"AoycocrA19","GPIO":[0,0,0,0,0,39,0,0,38,0,37,40,0],"FLAG":15,"BASE":18}'
+template: '{"NAME":"AoycocrA19","GPIO":[0,0,0,0,0,39,0,0,38,0,37,40,0],"FLAG":0,"BASE":18}'
 link_alt: 
 ---
 

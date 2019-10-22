@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://smile.amazon.com/gp/product/B07CC9S4MS
 image: https://i.imgur.com/UENsUmc.jpg
-template: '{"NAME":"AUKEY SH-PA1","GPIO":[0,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"AUKEY SH-PA1","GPIO":[0,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

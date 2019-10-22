@@ -6,7 +6,7 @@ type: Switch
 standard: us
 link: https://www.amazon.com/gp/product/B07C8FJY3G?th=1
 image: https://images-na.ssl-images-amazon.com/images/I/41oZleEF0lL._SL1001_.jpg
-template: '{"NAME":"B07C8FJY3G","GPIO":[54,0,0,17,21,0,0,0,0,0,52,0,55],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"B07C8FJY3G","GPIO":[54,0,0,17,21,0,0,0,0,0,52,0,55],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

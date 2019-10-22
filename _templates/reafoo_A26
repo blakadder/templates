@@ -6,7 +6,7 @@ type: Bulb
 standard: us
 link: https://www.amazon.com/dp/B07W1KH7VK
 image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/reafoo.jpg
-template: '{"NAME":"ReaFooE26","GPIO":[0,0,0,0,41,38,0,0,39,0,40,37,0],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"ReaFooE26","GPIO":[0,0,0,0,41,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

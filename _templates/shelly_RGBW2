@@ -6,7 +6,7 @@ type: LED Controller
 standard: eu
 link: https://shelly.cloud/wifi-smart-shelly-rgbw-2/
 image: https://shelly.cloud/wp-content/uploads/2018/11/RGBWv2_top.jpg
-template: '{"NAME":"RGBW2","GPIO":[255,255,33,255,24,91,255,255,21,17,23,22,255],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"RGBW2","GPIO":[255,255,33,255,24,91,255,255,21,17,23,22,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

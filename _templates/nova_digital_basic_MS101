@@ -6,7 +6,7 @@ type: Relay
 standard: global
 link: https://novadigitalonline.com.br/products/novadigital-interruptor-wifi-automacao-residencial-original-ms101
 image: https://img0.imguh.com/2019/10/09/42A57149-5DCE-428A-9943-4ED26BAB6489501bcfc7bb2f6bdc.jpg
-template: '{"NAME":"NovaDigBasic1","GPIO":[255,255,255,255,56,255,255,255,21,17,255,255,255],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"NovaDigBasic1","GPIO":[255,255,255,255,56,255,255,255,21,17,255,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
