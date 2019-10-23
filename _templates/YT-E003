@@ -5,13 +5,14 @@ category: plug
 type: Plug
 standard: eu
 link: https://www.aliexpress.com/item/4000207312375.html
-image: https://ae01.alicdn.com/kf/H097d91b25b034c7b95ef4f4c3695c452N.jpg
+image: https://user-images.githubusercontent.com/5904370/67377332-c8cf6000-f585-11e9-9de7-e7ce43a277d9.png
 template: '{"NAME":"YT-E003-SP202","GPIO":[17,0,0,0,134,132,0,0,131,52,22,21,91],"FLAG":0,"BASE":64}' 
 link_alt: https://www.aliexpress.com/i/4000134411073.html
 ---
 
 Seems to work with Template from https://blakadder.github.io/templates/digoo_NX-SP202.html
 
+![product box](https://ae01.alicdn.com/kf/H097d91b25b034c7b95ef4f4c3695c452N.jpg)
 
 
 
