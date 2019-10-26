@@ -1,0 +1,190 @@
+---
+date: 2019-10-24
+title: GD-30W 300ml
+category: misc
+type: Aromatherapy Diffuser
+standard: global
+link: https://www.aliexpress.com/item/32949472628.html
+image: https://user-images.githubusercontent.com/5904370/67516743-73887100-f6a1-11e9-9563-3a529fad3b1d.png
+template: '{"NAME":"GD-30W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
+link_alt:
+---
+**Configuration for this device uses features not yet in official Tasmota (TuyaSend and TuyaReceived). Until they're merged compile your own binary [from this fork](https://github.com/blakadder/Sonoff-Tasmota/tree/door-sensor) or use [GitPod](https://gitpod.io/#https://github.com/blakadder/Sonoff-Tasmota/tree/door-sensor) [instructions for use](https://github.com/arendst/Sonoff-Tasmota/wiki/Compiling-Tasmota-on-Gitpod)**
+
+<!-- Please read [TuyaMCU](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
+
+There are a few different looking devices using the same PCB marked GD-HDFW05-v1.0 so this process should work on those. 
+
+## Functions
+`dpID 1` device power: 0 = off / 1 = on    
+`dpID 11` led power: 0 = off / 1 = on    
+`dpID 12` error notification: 0 = ok / 1 = error  
+`dpID 13` countdown mode options: 0 = off / 1 = 1hr / 2 = 3hr *not needed with Tasmota*    
+`dpID 14` countdown status: reports value of 0...360 minutes *not needed with Tasmota*    
+`dpID 103` mist strength: 0 = low / 1 = high    
+`dpID 108` led color: 14 char value in hex (can define only RGB and send HSV value as max: `RRGGBB64646464`)    
+`dpID 110` led mode: 0 = rgb_cycle / 1 = color / 2 = white    
+`dpID 110` led dimmer **color and white modes only** *it is important to define 'DimmerRange 1,255'*
+
+## Configuration
+
+After applying the template and configuring Wi-Fi and MQTT issue
+
+```lua
+Backlog SetOption66 1; TuyaMCU 21,111; TuyaMCU 11,1; TuyaMCU 12,11; TuyaMCU 13,103; TuyaMCU 14,12; TuyaMCU 15,110; DimmerRange 1,255; SetOption59 1
+```
+```lua
+Rule1 on TuyaReceived#data=55AA000700056E040001007E do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA000700056E040001017F do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon on event#ON do backlog tuyasend4 110,1; tuyasend 11,1 endon on event#off do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon
+Rule1 1
+```
+
+*Optional rule used to prevent the device going into countdown mode (f.e. using on device controls) and complete MCU status update on restart*
+
+```lua
+Rule3 on TuyaReceived#data=55AA000700050D040001011E do tuyasend4 13,0 endon on TuyaReceived#data=55AA000700050D040001021F do tuyasend4 13,0 endon on mqtt#connected do serialsend5 55aa0001000000 endon
+Rule3 1
+```
+
+### What you get
+- Relay1 turns the diffuser on or off in stored mist strength mode, turns led on or off in stored mode and serves as device power status
+- Relay2 turns light on or off and serves as light power status.
+- Relay3 mist strength status and control using `Rule1`
+- Relay4 is used for error status (ON = error), no control
+- Relay5 is used for light mode status (0 = rgb_cycle, 1 = color), no control
+
+LED mode status is reported to mqtt topic `stat/GD-30W/EFFECT` and command [`Event`](https://github.com/arendst/Sonoff-Tasmota/wiki/Commands#event) is used to control some functions using [`TuyaSend4`](https://github.com/arendst/Sonoff-Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule1`
+
+Color can be changed using `TuyaSend3 108,RRGGBB64646464` but only in solid led mode
+
+Dimming works using slider and `Dimmer` command but only when in color mode, in rgb_cycle there are no brightness controls.
+
+Long press on device's power button initiates Tasmota's Wi-Fi config
+
+## Home Assistant configuration
+This implementation is suited to specific needs and does not incorporate all features of the device, mostly to avoid weird situations and wrong states being reported.
+
+Fan is the diffuser. Oscillation switch is used to toggle between rgb_cycle (oscillation off) and color (oscillation on).
+Light component is the device's RGB light but only when its in color mode, when in rgb_cycle mode it state in HA is off since you cannot control anything in rgb_cycle.
+Binary sensor uses the dpId 12 to show when the diffuser is out of water.
+
+
+configuration.yaml
+```
+fan:
+    - platform: mqtt
+      name: "Diffuser"
+      availability_topic: "tele/GD-30W/LWT"
+      payload_available: "Online"
+      payload_not_available: "Offline"
+      state_topic: "tele/GD-30W/STATE"
+      state_value_template: "{{ value_json.POWER1 }}"
+      command_topic: "cmnd/GD-30W/POWER1"
+      payload_on: "ON"
+      payload_off: "OFF"
+      speed_state_topic: "tele/GD-30W/STATE"
+      speed_value_template: "{{ value_json.POWER3 }}"
+      speed_command_topic: "cmnd/GD-30W/POWER3"
+      payload_low_speed: "OFF"
+      payload_high_speed: "ON"
+      oscillation_state_topic: "stat/GD-30W/EFFECT"
+      oscillation_command_topic: "cmnd/GD-30W/EVENT"
+      oscillation_value_template: "{{ value }}"
+      payload_oscillation_on: "color"
+      payload_oscillation_off: "rgb_cycle"
+      qos: 1
+      speeds:
+        - low
+        - high
+light:
+    - platform: mqtt
+      name: "Diffuser Lamp"
+      command_topic: "cmnd/GD-30W/EVENT"
+      state_topic: "tele/GD-30W/STATE"
+      state_value_template: "{% if value_json.POWER2 == 'ON' %}{% if value_json.POWER5 == 'ON' %}ON{% else %}OFF{% endif %}{% else %}OFF{% endif %}"
+      payload_on: "ON"
+      payload_off: "OFF"
+      brightness_command_topic: "cmnd/GD-30W/Dimmer"
+      brightness_state_topic: "tele/GD-30W/RESULT"
+      brightness_scale: 100
+      # brightness_value_template: "{{ value_json.Dimmer }}"
+      brightness_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ value_json['TuyaReceived'].Type3Data[12:14]|int(base=16) }}{% endif %}"
+      availability_topic: "tele/GD-30W/LWT"
+      payload_available: "Online"
+      payload_not_available: "Offline"
+      qos: 1
+      retain: false
+      rgb_command_topic: "cmnd/GD-30W/tuyasend3"
+      rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '108,%02x%02x%02x646464' | format(red, green, blue)}}{{ '%02x' | format(brightness) }}"
+      rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
+      rgb_state_topic: "stat/GD-30W/RESULT"
+
+binary_sensor:
+    - platform: mqtt
+      name: "Aromatherapy Water"
+      state_topic: "stat/GD-30W/POWER4"
+      payload_on: "ON"
+      payload_off: "OFF"
+      availability_topic: "tele/GD-30W/LWT"
+      payload_available: "Online"
+      payload_not_available: "Offline"
+      qos: 1
+      device_class: problem
+```
+![Finished integration](https://user-images.githubusercontent.com/5904370/67526175-8a848e80-f6b4-11e9-8ced-f827eec0424c.png)
+
+### PCB
+![image](https://user-images.githubusercontent.com/5904370/67526288-c4559500-f6b4-11e9-867f-2b3ae0b82437.png)
+
+### Serial command codes used in debugging
+```
+Turn Relay1 on (LED and Diffuser)
+    55aa0006000501010001010e
+
+Turn Relay1 off (LED and Diffuser)
+    55aa0006000501010001000d
+
+Turn diffuser on (Fast mode)
+    55AA00060005670400010177
+
+Turn diffuser on (Slow mode)
+    55AA00060005670400010076
+
+Turn Diffuser off
+    55aa00060005670400010278
+
+Turn LED on (RGB Cycle)
+    55aa000600050b0100010118
+
+Turn LED off
+    55aa000600050b0100010017
+
+Lock RGB Cycle
+    55aa000600056e040001017E
+
+Purple Color
+    55aa000600126c03000e6438303066663031323266666666b9
+
+Orange Color
+    55aa000600126c03000e6666343230303030306666666666b4
+
+Yellow Color
+    55aa000600126c03000e6666633030303030326466666666e1
+
+Green1
+    55aa000600126c03000e3738666630303030356366666666BF
+
+Green2
+    55aa000600126c03000e30306666343230303837666666668d
+
+Blue
+    55aa000600126c03000e3030633366663030633366666666e4
+
+Pink
+    55aa000600126c03000e6666303061383031343166666666b7
+
+Red1
+    55aa000600126c03000e666630303234303136306666666685
+
+Red2 (darker)
+    55aa000600126c03000e666630303030303030306666666678
+```
