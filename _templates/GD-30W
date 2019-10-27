@@ -68,7 +68,7 @@ Light component is the device's RGB light but only when its in color mode, when 
 Binary sensor uses the dpId 12 to show when the diffuser is out of water.    
 
 configuration.yaml
-```
+```yaml
 fan:
     - platform: mqtt
       name: "Diffuser"
