@@ -10,6 +10,9 @@ template: '{"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,
 link_alt:
 ---
 
+{{ site.members | where_exp: "title", "contains 'GD-30W'"}}
+"item.projects contains 'foo'" }}
+
 The module configuration uses TuyaMCU component and requires Tasmota >6.6.0.10. [TuyaMCU Configuration Guide](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU)
 
 After installing Tasmota issue the following command in console:
