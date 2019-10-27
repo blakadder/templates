@@ -139,7 +139,7 @@ binary_sensor:
 ![image](https://user-images.githubusercontent.com/5904370/67526288-c4559500-f6b4-11e9-867f-2b3ae0b82437.png)
 
 ### Serial command codes used in debugging
-```
+```lua
 Turn Relay1 on (LED and Diffuser)
     55aa0006000501010001010e
 
