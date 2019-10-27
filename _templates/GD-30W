@@ -68,7 +68,8 @@ Light component is the device's RGB light but only when its in color mode, when 
 Binary sensor uses the dpId 12 to show when the diffuser is out of water.    
 
 configuration.yaml
-```yaml
+{% highlight yaml %}
+{% raw %}
 fan:
     - platform: mqtt
       name: "Diffuser"
@@ -106,7 +107,7 @@ light:
       brightness_state_topic: "tele/GD-30W/RESULT"
       brightness_scale: 100
       # brightness_value_template: "{{ value_json.Dimmer }}"
-      {%raw%}brightness_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ value_json['TuyaReceived'].Type3Data[12:14]|int(base=16) }}{% endif %}"{%endraw%}
+      brightness_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ value_json['TuyaReceived'].Type3Data[12:14]|int(base=16) }}{% endif %}"
       availability_topic: "tele/GD-30W/LWT"
       payload_available: "Online"
       payload_not_available: "Offline"
@@ -128,7 +129,10 @@ binary_sensor:
       payload_not_available: "Offline"
       qos: 1
       device_class: problem
-```
+
+{% endraw %}
+{% endhighlight %}
+
 ![Finished integration](https://user-images.githubusercontent.com/5904370/67526175-8a848e80-f6b4-11e9-8ced-f827eec0424c.png)
 
 ### PCB
@@ -187,4 +191,3 @@ Red1
 Red2 (darker)
     55aa000600126c03000e666630303030303030306666666678
 ```
-{% endraw %}
