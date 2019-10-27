@@ -22,7 +22,7 @@ There are a few different looking devices using the same PCB marked GD-HDFW05-v1
 `dpID 13` countdown mode options: 0 = off / 1 = 1hr / 2 = 3hr *not needed with Tasmota*    
 `dpID 14` countdown status: reports value of 0...360 minutes *not needed with Tasmota*    
 `dpID 103` mist strength: 0 = low / 1 = high    
-`dpID 108` led color: 14 char value in hex (can define only RGB and send HSV value as max: `RRGGBB64646464`)    
+`dpID 108` led color: 14 char value in hex (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
 `dpID 110` led mode: 0 = rgb_cycle / 1 = color / 2 = white    
 `dpID 110` led dimmer **color and white modes only** *it is important to define 'DimmerRange 1,255'*
 

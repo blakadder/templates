@@ -1,7 +1,7 @@
 ---
 title: Witty Cloud
 category: misc
-type: Development Board
+type: DIY Project
 standard: global
 link: https://www.aliexpress.com/af/witty-cloud.html?site=glo&g=y&d=y&origin=n&spm=2114.search0604.0.0.1e943181ijfCjr&filterCat=400103%2C153713&jump=afs&groupsort=1&SortType=price_asc&SearchText=witty+cloud&initiative_id=SB_20190517094810&isViewCP=y
 image: https://user-images.githubusercontent.com/5904370/57946364-6b4f2d00-78dc-11e9-897c-0e5ec0d74860.png
