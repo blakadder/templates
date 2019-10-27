@@ -89,8 +89,8 @@ fan:
       oscillation_state_topic: "stat/GD-30W/EFFECT"
       oscillation_command_topic: "cmnd/GD-30W/EVENT"
       oscillation_value_template: "{{ value }}"
-      payload_oscillation_on: "color"
-      payload_oscillation_off: "rgb_cycle"
+      payload_oscillation_on: "rgb_cycle"
+      payload_oscillation_off: "color"
       qos: 1
       speeds:
         - low
