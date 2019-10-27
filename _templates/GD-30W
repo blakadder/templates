@@ -9,7 +9,7 @@ image: https://user-images.githubusercontent.com/5904370/67516743-73887100-f6a1-
 template: '{"NAME":"GD-30W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
 link_alt: https://www.alibaba.com/product-detail/300ML-WiFi-Aroma-Diffuser-Ultrasonic-Humidifier_60781628200.html
 ---
-**Configuration for this device uses features not yet in official Tasmota (TuyaSend and TuyaReceived). Until they're merged compile your own binary [from this fork](https://github.com/blakadder/Sonoff-Tasmota/tree/door-sensor) or use [GitPod](https://gitpod.io/#https://github.com/blakadder/Sonoff-Tasmota/tree/door-sensor) [instructions for use](https://github.com/arendst/Sonoff-Tasmota/wiki/Compiling-Tasmota-on-Gitpod)**
+**Configuration for this device uses features not yet in official Tasmota (TuyaSend and TuyaReceived). Until they're merged compile your own binary [from this fork](https://github.com/blakadder/Sonoff-Tasmota/tree/door-sensor) or use [GitPod](https://gitpod.io/#https://github.com/blakadder/Sonoff-Tasmota/tree/door-sensor) ([instructions for use](https://github.com/arendst/Sonoff-Tasmota/wiki/Compiling-Tasmota-on-Gitpod))**
 
 <!-- Please read [TuyaMCU](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
 
