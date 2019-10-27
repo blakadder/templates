@@ -15,13 +15,13 @@ Configure as a `Tuya MCU (54)` (support as a BASE module was introduced in 6.6.0
 - GPIO13 - Tuya Rx (108)
 - GPIO15 - Tuya Tx (107)
 
-It should work, if it doesn't follow : https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU
+It should work, if it doesn't follow : https://github.com/arendst/Tasmota/wiki/TuyaMCU
 
 #### Flashing
 
 
 #### Configuration (pre Tasmota v6.6.0.10)
-Discussed [here](https://github.com/arendst/Sonoff-Tasmota/issues/6056#issuecomment-510954469)
+Discussed [here](https://github.com/arendst/Tasmota/issues/6056#issuecomment-510954469)
 
 Configure as a `Tuya Dimmer (54)` (support as a BASE module was introduced in 6.2.1.16).
 

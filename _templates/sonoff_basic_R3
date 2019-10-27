@@ -10,4 +10,4 @@ template: '{"NAME":"Basic R3","GPIO":[17,255,0,255,255,0,255,255,21,56,255,0,255
 link_alt: 
 ---
 
-The latest Sonoff Basic R3 can be flashed without the need to connect a serial interface with Sonoff DIY. [Flashing instructions](https://github.com/arendst/Sonoff-Tasmota/wiki/Sonoff-Basic#sonoff-basic-r3)
+The latest Sonoff Basic R3 can be flashed without the need to connect a serial interface with Sonoff DIY. [Flashing instructions](https://github.com/arendst/Tasmota/wiki/Sonoff-Basic#sonoff-basic-r3)

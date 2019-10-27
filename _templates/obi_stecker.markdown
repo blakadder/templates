@@ -26,7 +26,7 @@ Connect GPIO0 to GND before connecting power to enable flash mode!
 ### Additional Information
 A low pulse on GPIO12 switches the relay on, a low pulse on GPIO5 switches it off.  
 I have solved the 'pulse issue' by setting GPIO12 to always 0 (as LED) and works fine.   
-More Infos can be found here: [#1988](https://github.com/arendst/Sonoff-Tasmota/issues/1988).
+More Infos can be found here: [#1988](https://github.com/arendst/Tasmota/issues/1988).
 
 ### Initial Configuration
 In the default configuration GPIO0 (which is also used to enable flash-mode) is setup as a Button.  

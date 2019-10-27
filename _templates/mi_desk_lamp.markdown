@@ -10,7 +10,7 @@ link_alt: https://www.gearbest.com/table-lamps/pp_363779.html
 ---
 **If you use a precompiled binary post version 6.5.0.5 this template will not work!**
 
-As of Tasmota version 6.5.0.5 this device requires a self compiled version of Tasmota with the flag [`#define ROTARY_V1`](https://github.com/arendst/Sonoff-Tasmota/blob/82f16413d4ad8fe29ccf7e32b04e830ad316f030/sonoff/my_user_config.h#L399) in `my_user_config.h` uncommented. 
+As of Tasmota version 6.5.0.5 this device requires a self compiled version of Tasmota with the flag [`#define ROTARY_V1`](https://github.com/arendst/Tasmota/blob/82f16413d4ad8fe29ccf7e32b04e830ad316f030/sonoff/my_user_config.h#L399) in `my_user_config.h` uncommented. 
 
 
 ## Serial Flashing

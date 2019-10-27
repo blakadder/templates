@@ -9,4 +9,4 @@ template: '{"NAME":"Sonoff Bridge","GPIO":[17,148,255,149,255,255,0,0,255,56,255
 link_alt: 
 ---
 ## Serial Flashing
-Complete guide on [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/Sonoff-RF-Bridge-433)
+Complete guide on [Tasmota Wiki](https://github.com/arendst/Tasmota/wiki/Sonoff-RF-Bridge-433)

@@ -5,7 +5,7 @@ category: light
 type: LED Strip
 standard: global
 link: https://www.banggood.com/BlitzWolf-BW-LT11-2M5M-Smart-APP-Control-RGBW-LED-Light-Strip-Kit-or-1M-Strip-Light-Extension-Plus-p-1390470.html
-image: https://raw.githubusercontent.com/digiblur/Sonoff-Tasmota/development/jpgs/blitzwolf_led_strip.jpg
+image: https://raw.githubusercontent.com/digiblur/Tasmota/development/jpgs/blitzwolf_led_strip.jpg
 template: '{"NAME":"BW-LT11 Strip","GPIO":[17,255,255,255,37,40,255,255,38,255,39,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---

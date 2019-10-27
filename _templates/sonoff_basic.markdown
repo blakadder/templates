@@ -12,7 +12,7 @@ Sonoff Basic - the one that started it all!
 
 ## Serial Flashing
 
-Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
 <img alt="Sonoff Basic connection diagram" src="https://user-images.githubusercontent.com/2870104/30516551-ed12d69e-9b42-11e7-8373-1bfbbf346839.png" width="50%" align="right" />
 
@@ -20,10 +20,10 @@ You need to access the serial interface. The **four serial pins** (3V3, Rx, Tx, 
 
 For flashing the sonoff basic V1.1, please hold the button while connecting the Plus Pole. The LED remains off until the flashing process is done and the board is rebooted.
 
-The Sonoff Basic switch doesn't have memory to support all of the default services defined in user_config.h out of the box. If your switch is powering up but is showing a solid-blink-reset pattern see [this FAQ entry for advice.](https://github.com/arendst/Sonoff-Tasmota/wiki/Troubleshooting#running-out-of-memory)
+The Sonoff Basic switch doesn't have memory to support all of the default services defined in user_config.h out of the box. If your switch is powering up but is showing a solid-blink-reset pattern see [this FAQ entry for advice.](https://github.com/arendst/Tasmota/wiki/Troubleshooting#running-out-of-memory)
 
 ### Sonoff Basic R2
-Around November 2018, Itead changed the layout of the Sonoff Basic ([issue #4515](https://github.com/arendst/Sonoff-Tasmota/issues/4515)). The new board is labeled as **Sonoff RF R2 POWER V1.0**. Easily discerned from previous revisions by since its using wires instead of thick solder traces for mains power.
+Around November 2018, Itead changed the layout of the Sonoff Basic ([issue #4515](https://github.com/arendst/Tasmota/issues/4515)). The new board is labeled as **Sonoff RF R2 POWER V1.0**. Easily discerned from previous revisions by since its using wires instead of thick solder traces for mains power.
 
 The new version of Sonoff Basic uses an ESP8285 SoC.
 

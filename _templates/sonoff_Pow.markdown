@@ -23,7 +23,7 @@ The GND connection of the Pow is connected to the live AC wire. Connecting seria
 
 ## Serial Connection 
 
-Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
 3V3, RX, TX and GND pins are available at the rear end of the PCB.
 
@@ -32,7 +32,7 @@ Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/
 To enter **flash mode**, press down on the button while powering the device.
 
 ## Power Monitoring Calibration
-Sonoff Pow might need calibration as correct measurements are influenced by hardware and timing differences. See [Power Monitoring Calibration](https://github.com/arendst/Sonoff-Tasmota/wiki/Power-Monitoring-Calibration)
+Sonoff Pow might need calibration as correct measurements are influenced by hardware and timing differences. See [Power Monitoring Calibration](https://github.com/arendst/Tasmota/wiki/Power-Monitoring-Calibration)
    
 ## Telemetry
 The Sonoff Pow can provide Energy, Power, Voltage and Current information in different ways.
@@ -75,7 +75,7 @@ It is, in fact,  possible to set a Maximum Power Threshold for the Sonoff Pow.
 
  If the power measured by the device exceeds the threshold set by the command `MaxPower` for a number of seconds set by the command `MaxPowerHold` the device will remain switched off for `MaxPowerWindow` seconds (to let it cool down, for example).
 
-For all details see [issue #218](https://github.com/arendst/Sonoff-Tasmota/issues/218)
+For all details see [issue #218](https://github.com/arendst/Tasmota/issues/218)
 
 ## Official Sources
 

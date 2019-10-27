@@ -9,7 +9,7 @@ template: '{"NAME":"YTF IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0]
 link_alt: https://www.amazon.com/gp/product/B07H46LJZK
 ---
 
-***Supported since version [6.4.1.8](https://github.com/arendst/Sonoff-Tasmota/commit/c5f68235700b4447198a9508b709c3e254676114#diff-ddfd77b547e11c4b59fa0d20fddd7f94R1679) as YTF IR Bridge (62)***
+***Supported since version [6.4.1.8](https://github.com/arendst/Tasmota/commit/c5f68235700b4447198a9508b709c3e254676114#diff-ddfd77b547e11c4b59fa0d20fddd7f94R1679) as YTF IR Bridge (62)***
 
 This device is flashable with [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert).
 ## Serial Flashing
@@ -22,5 +22,5 @@ Like most devices, GPIO0 has to be held low during power up to get into flash mo
 ![img_3282](https://user-images.githubusercontent.com/1296162/50830740-8b9f2780-12fd-11e9-9a11-9572d9990e44.JPG)
 
 ## IR Codes List
-[IR Code List](https://github.com/arendst/Sonoff-Tasmota/wiki/Codes-for-IR-Remotes-(for-YTF-IR-Bridge))
+[IR Code List](https://github.com/arendst/Tasmota/wiki/Codes-for-IR-Remotes-(for-YTF-IR-Bridge))
 

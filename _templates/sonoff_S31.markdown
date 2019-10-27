@@ -9,4 +9,4 @@ template: '{"NAME":"Sonoff S31","GPIO":[17,145,0,146,0,0,0,0,21,56,0,0,0],"FLAG"
 link_alt: https://www.amazon.com/Consumption-Measure-Monitor-Anywhere-S31-1Pack/dp/B07CKKP4RX
 ---
 ## Serial Flashing
-Complete guide on [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/Sonoff-S31)
+Complete guide on [Tasmota Wiki](https://github.com/arendst/Tasmota/wiki/Sonoff-S31)

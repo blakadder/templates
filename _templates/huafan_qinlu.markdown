@@ -10,9 +10,9 @@ link_alt:
 ---
 ## Introduction
 <img src="https://github.com/jwrw/media/blob/master/huafan_outer_socket.jpg?raw=true" width="250" align="right"> The HuaFan Wireless Wifi Smart Plug/Socket is a useful bit of kit that allows you to introduce home automation without getting into any mains re-wiring.  As an added bonus, the device also provides energy monitoring functions (voltage, current, power) in much the same way as the [Sonoff Pow](http://sonoff.itead.cc/en/products/sonoff/sonoff-pow) module does. 
-As you may have guessed, its 'smarts' come from an embedded ESP8266, which makes it a potential target for the excellent sonoff-tasmota code.
+As you may have guessed, its 'smarts' come from an embedded ESP8266, which makes it a potential target for the excellent Tasmota code.
 
-This guide provides details on how to prepare the socket for the initial flashing with sonoff-tasmota code.
+This guide provides details on how to prepare the socket for the initial flashing with Tasmota code.
 
 ## What is it?
 <img src="https://github.com/jwrw/media/blob/master/huafan_outer_plug.jpg?raw=true" width="250" align="right"> This smart socket comes with its own iPhone/Android App and is controllable from the HF Smart cloud service. As well as allowing on/off control, the plug/socket also measures current, voltage and power.  It’s pretty well made but almost certainly doesn’t meet the full British electrical standards, as it doesn’t have a shutter to close off the live socket holes when a plug is removed.  This a rather a shame and would not be too tricky to implement and would only marginally increase the cost of these pretty cheap (~£UK 10) units.

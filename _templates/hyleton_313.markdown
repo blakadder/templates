@@ -51,7 +51,7 @@ For programming you need to solder 4 jumper wires to pins *11*, *12*, *13* and *
 
 ## Configuration
 
-*Sonoff* devices usually have a bi-colour LED, but just one of the colours can be controlled directly. The other colour is usually tied together with the relay, so it cannot be controlled independently. I think that is the reason why the *Sonoff-Tasmota* firmware by default controls just *Led1* when a single relay is configured. In the configuration above, only the blue LED will be used (tied to *GPIO2*). But if you prefer the red LED, just change the values for *Led1i* and *Led2i* (select *Led1i* for *GPIO0* and *Led2i* for *GPIO2*).
+*Sonoff* devices usually have a bi-colour LED, but just one of the colours can be controlled directly. The other colour is usually tied together with the relay, so it cannot be controlled independently. I think that is the reason why the *Tasmota* firmware by default controls just *Led1* when a single relay is configured. In the configuration above, only the blue LED will be used (tied to *GPIO2*). But if you prefer the red LED, just change the values for *Led1i* and *Led2i* (select *Led1i* for *GPIO0* and *Led2i* for *GPIO2*).
 
 ### Details
 If you want to read the detailed project log, you can do so on my [GitHub Blog page](https://znanev.github.io/Hyleton-313-Smart-Plug/).

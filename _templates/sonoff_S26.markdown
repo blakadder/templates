@@ -15,7 +15,7 @@ link_alt:
 Sonoff S26 comes in 6 plug type variants. Flashing process will be the same for each type.
 ## Serial Flashing
 
-Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
 ### Soldering guide
 Apply rosin to shaved wires. Solder tin to the flats on the module.(First put solder tip to flat and apply tin). Gently solder the wires.
@@ -49,7 +49,7 @@ The S26 has a red LED connected to GPIO12 along with the relay so it's not possi
 
 ## More information
 
-See issue [#2808](https://github.com/arendst/Sonoff-Tasmota/issues/2808) for user information
+See issue [#2808](https://github.com/arendst/Tasmota/issues/2808) for user information
 
 ## Official Sources
 * Itead Product Page: http://sonoff.itead.cc/en/products/residential/sonoff-s26-smart-plug

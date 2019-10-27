@@ -10,7 +10,7 @@ template: '{"NAME":"EtekCityESWL01","GPIO":[255,255,255,255,52,53,255,255,255,21
 link_alt: 
 ---
 
-This is a revised entry, as my first attempt was resetting to default settings after 60 seconds. I'm reasonably certain that button1 is inverted. This version of the template reflects that discovery. Also, linking to https://github.com/arendst/Sonoff-Tasmota/wiki/Etekcity-Smart-WiFi-Light-Switch-ESWL01
+This is a revised entry, as my first attempt was resetting to default settings after 60 seconds. I'm reasonably certain that button1 is inverted. This version of the template reflects that discovery. Also, linking to https://github.com/arendst/Tasmota/wiki/Etekcity-Smart-WiFi-Light-Switch-ESWL01
 
 
 

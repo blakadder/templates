@@ -9,4 +9,4 @@ template: '{"NAME":"Arilux LC11","GPIO":[17,255,59,255,38,37,0,0,41,40,39,147,0]
 link_alt: 
 ---
 ## Serial Flashing
-Complete guide at [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/MagicHome-LED-strip-controller#magichome-with-esp8285)
+Complete guide at [Tasmota Wiki](https://github.com/arendst/Tasmota/wiki/MagicHome-LED-strip-controller#magichome-with-esp8285)

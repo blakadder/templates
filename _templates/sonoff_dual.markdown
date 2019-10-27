@@ -11,7 +11,7 @@ link_alt:
 Sonoff Dual has been obsoleted by [Sonoff Dual R2](https://blakadder.github.io/templates/sonoff_dual_R2.html). Before configuring your device check which revision you have since there are significant differences in how they operate.
 
 ## Serial Flashing
-Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
 As always, you need to access the serial interface. The **four serial pins** (3V3, Rx, Tx, GND) are available at the short end of the PCB and can be seen on the left side of the first image and are labeled in red on the second image.
 
@@ -29,7 +29,7 @@ GND can be found on all three headers. *GPIO0* can be accessed in two ways:
 
 Please be aware, that the button on the Sonoff Dual will initially not have any functionality!
 
-The button is not connected to the normal button pin (GPIO0). After freshly flashing Sonoff-Tasmota (with the default module setting "Sonoff Basic"), the button will **not act as described** in the [Button Usage](https://github.com/arendst/Sonoff-Tasmota/wiki/Button-usage) article. You will not be able to switch power or activate the special WiFi modes.
+The button is not connected to the normal button pin (GPIO0). After freshly flashing Tasmota (with the default module setting "Sonoff Basic"), the button will **not act as described** in the [Button Usage](https://github.com/arendst/Tasmota/wiki/Button-usage) article. You will not be able to switch power or activate the special WiFi modes.
 
 After configuring the device as "Sonoff Dual (5)", the button will regain normal functionality.
 

@@ -8,7 +8,7 @@ image: https://user-images.githubusercontent.com/5904370/57955953-97c47280-78f7-
 template: '{"NAME":"OBI Socket 2","GPIO":[0,0,0,0,21,17,0,0,56,53,0,0,0],"FLAG":0,"BASE":61}' 
 link_alt: 
 ---
-***Supported since version [6.4.1.8](https://github.com/arendst/Sonoff-Tasmota/issues/4829) as OBI Socket 2 (61)***
+***Supported since version [6.4.1.8](https://github.com/arendst/Tasmota/issues/4829) as OBI Socket 2 (61)***
 
 Another cheap socket from the German Hardware Store, based on ESP-WROOM-02 with 2MB Flash. Smaller form factor as the first OBI Socket. 
 
@@ -22,7 +22,7 @@ Another way to flash is soldering 4 wires to the bottom side of the PCB as descr
 
 ***
 
-If you want the green wifi led to work, please use version 6.4.1.8+. You can either use "Obi Socket 2 Type (61)" (with default behaviour "wifi led = off" when connected) or use "Generic (18)" for manually override. See https://github.com/arendst/Sonoff-Tasmota/issues/4567 for details.
+If you want the green wifi led to work, please use version 6.4.1.8+. You can either use "Obi Socket 2 Type (61)" (with default behaviour "wifi led = off" when connected) or use "Generic (18)" for manually override. See https://github.com/arendst/Tasmota/issues/4567 for details.
 
 ## PCB serial pinouts
 ![PCB](https://user-images.githubusercontent.com/43306023/49151886-7e137c80-f311-11e8-99d6-c51c55699d9d.JPG)

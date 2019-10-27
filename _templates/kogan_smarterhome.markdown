@@ -10,4 +10,4 @@ template: '{"NAME":"Kogan Smart Sw","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],
 link_alt: 
 ---
 
-Device is a rebranded Tuya, the Tuya-Convert project is capiable of changing the firmware without even opening the device. I used Sonoff-Tasmota 6.5 firmware (the included Sonoff-Basic or download the full Sonoff if you want additional features).
+Device is a rebranded Tuya, the Tuya-Convert project is capiable of changing the firmware without even opening the device. I used Tasmota 6.5 firmware (the included Sonoff-Basic or download the full Sonoff if you want additional features).

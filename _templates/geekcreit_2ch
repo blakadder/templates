@@ -19,7 +19,7 @@ Both AC and DC versions work the same. On DC version the pin marked 3v3 on the p
 
 The Geekcreit/"Sonoff" 2CH is based on the ESP8285 via the Itead PSF-B04.
 
-[More info here](https://github.com/arendst/Sonoff-Tasmota/issues/1970)
+[More info here](https://github.com/arendst/Tasmota/issues/1970)
 
 ![Geekcreit/"Sonoff" 2CH](https://user-images.githubusercontent.com/5823294/52651590-5b423e80-2ee4-11e9-91d2-9cc4e8535c7d.png)
 
@@ -27,7 +27,7 @@ The Geekcreit/"Sonoff" 2CH is based on the ESP8285 via the Itead PSF-B04.
 
 ### Geekcreit/"Sonoff" 2CH
 
-Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
 As always, you need to access the serial interface. The **four serial pins** (3V3, Rx, Tx, GND) can be seen in the picture.
 Unless you have a very steady hand soldering will be required for the TX and RX on the ESP chip.

@@ -10,4 +10,4 @@ template: '{"NAME":"JH-G01B1","GPIO":[0,145,0,146,0,0,0,0,17,56,21,0,0],"FLAG":0
 link_alt: 
 ---
 
-[https://github.com/arendst/Sonoff-Tasmota/issues/5066](https://github.com/arendst/Sonoff-Tasmota/issues/5066)
+[https://github.com/arendst/Tasmota/issues/5066](https://github.com/arendst/Tasmota/issues/5066)

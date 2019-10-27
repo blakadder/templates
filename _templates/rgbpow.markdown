@@ -10,4 +10,4 @@ link_alt: https://www.amazon.de/gp/product/B07MYL3HLZ
 screenshot:
 ---
 
-More information in [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/RGB-Smart-Plug-16A).
+More information in [Tasmota Wiki](https://github.com/arendst/Tasmota/wiki/RGB-Smart-Plug-16A).

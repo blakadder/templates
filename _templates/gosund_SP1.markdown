@@ -19,7 +19,7 @@ There are three clones -- use the device type Teckin:
 
 For more pictures see: https://www.bastelbunker.de/gosund-sp1-mit-tasmota/
 
-For power monitoring calibration [see wiki]/https://github.com/arendst/Sonoff-Tasmota/wiki/Power-Monitoring-Calibration)
+For power monitoring calibration [see wiki]/https://github.com/arendst/Tasmota/wiki/Power-Monitoring-Calibration)
 
 # Details
 

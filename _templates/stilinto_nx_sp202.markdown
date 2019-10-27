@@ -10,4 +10,4 @@ link_alt:
 ---
 Flashable using tuya-convert
 
-https://github.com/arendst/Sonoff-Tasmota/wiki/Slitinto-NX-SP202
+https://github.com/arendst/Tasmota/wiki/Slitinto-NX-SP202

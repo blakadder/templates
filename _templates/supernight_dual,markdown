@@ -26,7 +26,7 @@ There are 2 circuit boards.  One with the Wifi and esp module and another with t
 
 ***
 
-Found this on the [issues tracker](https://github.com/arendst/Sonoff-Tasmota/issues/5185#issuecomment-462120415)
+Found this on the [issues tracker](https://github.com/arendst/Tasmota/issues/5185#issuecomment-462120415)
 
 Just a quick update. I've still not figured out the second button, but I do have energy monitoring working now.
 

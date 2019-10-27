@@ -10,7 +10,7 @@ template: '{"NAME":"SmartHome Swit","GPIO":[255,255,255,255,21,255,255,255,17,57
 link_alt: 
 ---
 
-See https://github.com/arendst/Sonoff-Tasmota/issues/1474#issuecomment-458032496
+See https://github.com/arendst/Tasmota/issues/1474#issuecomment-458032496
 
 
 

@@ -9,11 +9,11 @@ template: '{"NAME":"Sonoff B1","GPIO":[17,255,255,255,0,0,0,0,143,0,144,0,0],"FL
 link_alt: 
 ---
 
-Sonoff B1 R2 is the replacement for Sonoff B1 and can be programmed the same way as the B1. See [here](https://github.com/arendst/Sonoff-Tasmota/issues/3347#issuecomment-413579744) for more background information.
+Sonoff B1 R2 is the replacement for Sonoff B1 and can be programmed the same way as the B1. See [here](https://github.com/arendst/Tasmota/issues/3347#issuecomment-413579744) for more background information.
 
 ## Serial Flashing
 
-Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
 As always, you need to access the serial interface. First pop up the top part of the bulb with controlled force. The PCB as shown in the image will become visible.
 

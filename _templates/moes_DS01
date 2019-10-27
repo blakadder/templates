@@ -33,7 +33,7 @@ GPIO | Component
 1. Goto WebUI and then Console
 2. Enter commands `TuyaMCU 21,2`
 
-If this doesn't work follow : https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU
+If this doesn't work follow : https://github.com/arendst/Tasmota/wiki/TuyaMCU
 
 ### Pre Tasmota version 6.6.0.10
 

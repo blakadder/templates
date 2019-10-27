@@ -9,7 +9,7 @@ template: '{"NAME":"Arilux LC06","GPIO":[17,255,255,255,255,255,255,255,38,39,37
 link_alt: https://www.aliexpress.com/item/32967761019.html
 ---
 ## Serial Flashing
-Complete guide at [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/MagicHome-LED-strip-controller#magichome-with-esp8285)
+Complete guide at [Tasmota Wiki](https://github.com/arendst/Tasmota/wiki/MagicHome-LED-strip-controller#magichome-with-esp8285)
 
 **Pay attention to instructions regarding powering during flashing - The device MUST be powered via main 12v supply and ground connection made between device and USB-UART/programmer**
 

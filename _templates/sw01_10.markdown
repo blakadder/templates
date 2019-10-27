@@ -11,4 +11,4 @@ template: '{"NAME":"WL-SW01_10","GPIO":[17,149,0,148,0,0,0,0,21,56,0,0,0],"FLAG"
 screenshot:
 ---
 
-[Wiki article](https://github.com/arendst/Sonoff-Tasmota/wiki/WL-SW01_10-WiFi-Smart-Switch)
+[Wiki article](https://github.com/arendst/Tasmota/wiki/WL-SW01_10-WiFi-Smart-Switch)

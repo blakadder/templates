@@ -12,7 +12,7 @@ The Sonoff iFan02 is supported in Tasmota from version 6.0.0b
 
 ## Serial Flashing
 
-Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
 Flashing using only a USB to serial converter will not work as the unit draws too much current as can be observed by a flashing blue led on the PCA and a lot of serial gibberish. As AC is not connected to Gnd I used the available power supply of the unit and connecting the USB to serial converter to J3 pins Gnd, Tx and Rx.
 
@@ -31,8 +31,8 @@ Press and hold the button while connecting to power.
 > If you have an Arduino you may be able to flash without providing an additional power source. I have successfully flashed using an Arduino Duemilanove with the atmel chip pulled out (basically using it for FTDI and 3.3v power regulation). Rx on Arduino goes to Rx on iFan02, Tx to Tx (no crossover like with FTDI). I did not have to press the button, only to ground TP16 while initiating the flash in Arduino IDE. The Arduino provides enough power to flash, however it will not boot into Tasmota unless you plug in to external power (it boot loops after flashing is complete).
 
 ## Additonal information
-* See issue [#2839](https://github.com/arendst/Sonoff-Tasmota/issues/2839) for user information
-* See issue [#3412](https://github.com/arendst/Sonoff-Tasmota/issues/3412) light on after restore power
+* See issue [#2839](https://github.com/arendst/Tasmota/issues/2839) for user information
+* See issue [#3412](https://github.com/arendst/Tasmota/issues/3412) light on after restore power
 
 Functioning iFan02 in Tasmota WebUI
 

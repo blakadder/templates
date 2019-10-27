@@ -9,4 +9,4 @@ template: '{"NAME":"Arilux LC01","GPIO":[17,255,59,255,147,37,0,0,38,39,255,0,0]
 link_alt: https://www.aliexpress.com/item/32918090016.html
 ---
 ## Serial Flashing
-Complete guide at [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/MagicHome-LED-strip-controller)
+Complete guide at [Tasmota Wiki](https://github.com/arendst/Tasmota/wiki/MagicHome-LED-strip-controller)

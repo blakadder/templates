@@ -10,7 +10,7 @@ template: '{"NAME":"hyleton-317","GPIO":[56,0,57,0,58,0,0,0,0,90,0,21,0],"FLAG":
 link_alt: 
 ---
 
-Plug is Tuya compatible, controlled through Smart Life app, which makes it easy to flash over-the-air without soldering by following (the guide)[https://github.com/arendst/Sonoff-Tasmota/wiki/Tuya-OTA]. Please make sure the wifi password is correct before rebooting for the first time as default tasmota configuration does not recognizes the button and it'll be impossible to reset the settings to default ones.
+Plug is Tuya compatible, controlled through Smart Life app, which makes it easy to flash over-the-air without soldering by following (the guide)[https://github.com/arendst/Tasmota/wiki/Tuya-OTA]. Please make sure the wifi password is correct before rebooting for the first time as default tasmota configuration does not recognizes the button and it'll be impossible to reset the settings to default ones.
 
 Plug is made upside down (bulky side down), but it's easy to turn it right side up by opening it up and just turning connectors. 
 

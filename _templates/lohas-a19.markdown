@@ -11,7 +11,7 @@ link_alt:
 ---
 
 
-Requires a [code change](https://github.com/arendst/Sonoff-Tasmota/pull/5326#issuecomment-466810201) for proper RGB operation
+Requires a [code change](https://github.com/arendst/Tasmota/pull/5326#issuecomment-466810201) for proper RGB operation
 
 
 

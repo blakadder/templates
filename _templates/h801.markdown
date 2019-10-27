@@ -26,7 +26,7 @@ The chip used on this board is the [ESP8266EX](https://www.espressif.com/sites/d
 
 ## Serial Flashing
 
-Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
 ![H801 board](https://user-images.githubusercontent.com/5904370/57890715-ed861580-7838-11e9-95e9-b256adf0e681.png)
 
@@ -40,9 +40,9 @@ Most boards supported by the Tasmota firmware use GPIO01 for serial TX. The H801
 module 20
 ```
 After a reboot it will automatically switch to using GPIO02 for serial TX allowing setup to proceed:
-See [#2155](https://github.com/arendst/Sonoff-Tasmota/issues/2155) for more details.
+See [#2155](https://github.com/arendst/Tasmota/issues/2155) for more details.
 
-Please be aware that some of the H801 modules were sold with only 512kB of flash. You can check whether yours is affected by using esptool, with the flash_id command. If you only have 512kB of flash, you can still build your own firmware, but will have to remove components that you do not need, in order to reduce the size of the firmware binary. For an example, see [this issue](https://github.com/arendst/Sonoff-Tasmota/issues/2982)
+Please be aware that some of the H801 modules were sold with only 512kB of flash. You can check whether yours is affected by using esptool, with the flash_id command. If you only have 512kB of flash, you can still build your own firmware, but will have to remove components that you do not need, in order to reduce the size of the firmware binary. For an example, see [this issue](https://github.com/arendst/Tasmota/issues/2982)
 
 ## Known Issue
 While powering up there is a short, but bright flash of light from the connected LED strip. 

@@ -39,4 +39,4 @@ The shelly 2 inputs may or may not need pullups for SW1 and SW2 to work correctl
 
 To disable pullups either use command SetOption62 1 or select the option from the GUI.
 
-Refer to the following issue: https://github.com/arendst/Sonoff-Tasmota/issues/4841
+Refer to the following issue: https://github.com/arendst/Tasmota/issues/4841

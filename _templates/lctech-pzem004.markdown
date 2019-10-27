@@ -3,7 +3,7 @@ title: LC-Tech 1Ch and PZEM-004T
 category: misc
 type: DIY Project
 standard: us
-link: https://github.com/arendst/Sonoff-Tasmota/wiki/US-240V-Clothes-Dryer-PZEM004T-Energy-Monitor
+link: https://github.com/arendst/Tasmota/wiki/US-240V-Clothes-Dryer-PZEM004T-Energy-Monitor
 image: https://user-images.githubusercontent.com/34340210/50610479-19fc4f00-0ea1-11e9-8238-d46a93850a32.jpg
 template: '{"NAME":"HW-655 PZEM","GPIO":[0,63,0,62,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}'
 link_alt:
@@ -21,7 +21,7 @@ The PZEM-004T together with a HW-655 Relay provide a good clamp-on energy monito
 * DuPont Connectors & 22 AWG wire
 
 ## Preparation
-Install TASMOTA ([sonoff.bin](http://thehackbox.org/tasmota/020502/sonoff.bin)) is sufficient) on the ESP-01 and confirm it is functional before connecting the PZEM-004T to its serial interface. Use of pins other that the default hardware serial GPIO (01 & 03) ([requires 2.4.2 ESP Core or higher](https://github.com/arendst/Sonoff-Tasmota/wiki/What's-New#version-6303-20181105)) in order for TASMOTA to emulate a serial interface using software serial.
+Install TASMOTA ([sonoff.bin](http://thehackbox.org/tasmota/020502/sonoff.bin)) is sufficient) on the ESP-01 and confirm it is functional before connecting the PZEM-004T to its serial interface. Use of pins other that the default hardware serial GPIO (01 & 03) ([requires 2.4.2 ESP Core or higher](https://github.com/arendst/Tasmota/wiki/What's-New#version-6303-20181105)) in order for TASMOTA to emulate a serial interface using software serial.
 
 ## Hardware connections
 <img src="https://user-images.githubusercontent.com/34340210/51444410-2536e380-1cc5-11e9-8989-b181c2851863.png" height="400" /><br>
@@ -52,4 +52,4 @@ Use the module template to configure the GPIO's for hardware serial connection.
 **IMPORTANT: If using the connections as following, the communication works in all cores due to TASMOTA using hardware serial. If the user wants to use other GPIOs for communication, TASMOTA will emulate a serial interface using software serial. This feature does not work using core 2.3.0 due to insufficient RAM. To use the software serial feature, you must use a core version of 2.4.2 or greater.**
 
 ## Calibration
-[Per Theo](https://github.com/arendst/Sonoff-Tasmota/issues/3208#issuecomment-405048466) - As the PZEM is a dedicated energy monitor, device calibration in TASMOTA is currently not supported.
+[Per Theo](https://github.com/arendst/Tasmota/issues/3208#issuecomment-405048466) - As the PZEM is a dedicated energy monitor, device calibration in TASMOTA is currently not supported.

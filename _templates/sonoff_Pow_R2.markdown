@@ -21,7 +21,7 @@ The GND connection of the Pow is connected to the live AC wire. Connecting seria
 
 ## Serial Flashing 
 
-Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
 3V3, RX, TX and GND pins are available at the rear/short end of the PCB.
 
@@ -35,7 +35,7 @@ Note - After the module type is changed to "Sonoff Pow R2", the serial port is n
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fqOJjA6Pph0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Power Monitoring Calibration
-Sonoff Pow R2 might need calibration as correct measurements are influenced by hardware and timing differences. See [Power Monitoring Calibration](https://github.com/arendst/Sonoff-Tasmota/wiki/Power-Monitoring-Calibration)
+Sonoff Pow R2 might need calibration as correct measurements are influenced by hardware and timing differences. See [Power Monitoring Calibration](https://github.com/arendst/Tasmota/wiki/Power-Monitoring-Calibration)
    
 ## Telemetry
 The Sonoff Pow R2 can provide Energy, Power, Voltage and Current information in different ways.

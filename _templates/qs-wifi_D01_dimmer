@@ -39,7 +39,7 @@ This dimmer is based on Smart Life / **Tuya** App. Therefore [Tuya-Convert](http
 **Do not connect AC power and the serial connection at the same time!** 
 The dimmer circuit is directly connected to the AC wires!
 
-Follow all the recommended serial flashing procedures outlined in the [Tasmota Flashing Guide](https://github.com/arendst/Sonoff-Tasmota/wiki/Flashing).
+Follow all the recommended serial flashing procedures outlined in the [Tasmota Flashing Guide](https://github.com/arendst/Tasmota/wiki/Flashing).
 
 The case can easily be opened by pressing both sides of the lower half of the case.
 One method to flash the device is to desolder the ESP/MCU module from the main PCB.
@@ -72,9 +72,9 @@ Use the Template from above or set the module as `Generic (18)` and assign the f
 
 The `S` **switch input** is intended for push-button / conventional momentary switch control and detects the mains frequency when the button is pressed. This makes it a bit special and therefore it requires a Tasmota **Script** for **ON/OFF** and **HOLD** (long press) dimming operation.
 
-[**Wi-Fi Dimmer Tasmota Script**](https://github.com/arendst/Sonoff-Tasmota/files/3476824/WiFi-Dimmer-Script-v0.3.txt) (text-file)
+[**Wi-Fi Dimmer Tasmota Script**](https://github.com/arendst/Tasmota/files/3476824/WiFi-Dimmer-Script-v0.3.txt) (text-file)
 
-To use the script, you have to compile Tasmota (v6.6.0.3 or higher) with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. You can use [GitPod](https://github.com/arendst/Sonoff-Tasmota/wiki/Compiling-Tasmota-on-Gitpod) or [TasmoCompiler](https://gitpod.io/#https://github.com/benzino77/tasmocompiler).
+To use the script, you have to compile Tasmota (v6.6.0.3 or higher) with [Scripting](https://github.com/arendst/Tasmota/wiki/Scripting-Language) enabled. You can use [GitPod](https://github.com/arendst/Tasmota/wiki/Compiling-Tasmota-on-Gitpod) or [TasmoCompiler](https://gitpod.io/#https://github.com/benzino77/tasmocompiler).
 
 Once the device is flashed with Tasmota, open `Configuration` -> `Edit script` in the web UI and paste the contents of the script in the window. Then set the `script enable` checkbox and push `Restart`.
 
@@ -85,7 +85,7 @@ Whenever the button is pressed there are 50/60 Hz pulses on the `S` switch input
 
 These pulses must be processed as a switching signal with a counter. The ESP8266 then sends commands accordingly via the hardware serial interface for dimming operation, which are handled by a second microcontroller (STM8S003F3 MCU). The serial communication at 9600 baud is simple, just one command with changing brightness `xx` values: `FF 55 xx 05 DC 0A`
 
-### What the [Script](https://github.com/arendst/Sonoff-Tasmota/files/3476824/WiFi-Dimmer-Script-v0.3.txt) does:
+### What the [Script](https://github.com/arendst/Tasmota/files/3476824/WiFi-Dimmer-Script-v0.3.txt) does:
 Switching in Tasmota is usually done by High/Low (+3.3V/GND) changes on a GPIO. Here, however, this is achieved by a pulse frequency when connected to a GPIO. These pulses are captured by `Counter1` in Tasmota.
 
 - When the **light is OFF** and there is a **short period** of pulses **->** then turn the light **ON** at the previous dimmer level.
@@ -100,8 +100,8 @@ In the **Data Section** `>D` at the beginning of the script, the following initi
 - **start dim level** -> `0..100` - initial dimmer level after power-up or restart 
 
 ### Further Information:
-[**Support for Wi-Fi Dimmer?** #5737](https://github.com/arendst/Sonoff-Tasmota/issues/5737)  
-[**Switching by Mains Power Frequency** #6085](https://github.com/arendst/Sonoff-Tasmota/issues/6085)  
+[**Support for Wi-Fi Dimmer?** #5737](https://github.com/arendst/Tasmota/issues/5737)  
+[**Switching by Mains Power Frequency** #6085](https://github.com/arendst/Tasmota/issues/6085)  
 
 ### Additional Pictures:
 ![dimmer-2](https://user-images.githubusercontent.com/36734573/62205974-ff377d80-b390-11e9-82f5-4505f39ebf7c.jpg)

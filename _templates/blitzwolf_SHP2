@@ -9,7 +9,7 @@ template: '{"NAME":"BlitzWolf SHP","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21
 link_alt: https://www.aliexpress.com/item/32871562977.html
 ---
 ## Attention
-There is a [newer hardware revision (v2.3)](https://github.com/arendst/Sonoff-Tasmota/issues/4303) which is supported too. Use latest release.
+There is a [newer hardware revision (v2.3)](https://github.com/arendst/Tasmota/issues/4303) which is supported too. Use latest release.
 
 ## OTA Flashing 
 Since SHP2 is one of those Tuya based devices this OTA Tasmota installation method works just fine:
@@ -21,7 +21,7 @@ This method does't need any wiring.
 
 ## Serial Flashing
 
-Please see the [Hardware Preparation](https://github.com/arendst/Sonoff-Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
 
 ### Step 1.
 

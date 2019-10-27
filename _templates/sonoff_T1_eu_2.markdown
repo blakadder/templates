@@ -9,4 +9,4 @@ template: '{"NAME":"Sonoff T1 2CH","GPIO":[17,255,255,255,0,22,18,0,21,56,0,0,0]
 link_alt: 
 ---
 ## Serial Flashing
-Complete guide at [Tasmota Wiki](https://github.com/arendst/Sonoff-Tasmota/wiki/Sonoff-T1)
+Complete guide at [Tasmota Wiki](https://github.com/arendst/Tasmota/wiki/Sonoff-T1)

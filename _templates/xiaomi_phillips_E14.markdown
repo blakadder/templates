@@ -9,6 +9,6 @@ template: '{"NAME":"Xiaomi Philips","GPIO":[0,0,0,0,0,0,0,0,38,0,0,37,0],"FLAG":
 link_alt: https://www.aliexpress.com/af/xiaomi-philips-e14.html?SearchText=xiaomi+philips+e14&d=y&initiative_id=SB_20190517121309&origin=n&catId=0&isViewCP=y&jump=afs
 ---
 ## Serial Flashing
-Complete guide in [Tasmota Issues](https://github.com/arendst/Sonoff-Tasmota/issues/3055#issuecomment-448759584)
+Complete guide in [Tasmota Issues](https://github.com/arendst/Tasmota/issues/3055#issuecomment-448759584)
 
 This device does not work with Tuya Convert

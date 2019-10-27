@@ -12,7 +12,7 @@ link_alt:  https://www.amazon.ca/dp/B07G179ZWS
 
 July 20, 2019
 
-https://github.com/arendst/Sonoff-Tasmota/issues/3343#issuecomment-513474906
+https://github.com/arendst/Tasmota/issues/3343#issuecomment-513474906
 
 The interior design of this device has changed. The ESP is not accessible with just taking the back panel off. The entire PCB must be removed (attached only with screws) in order to access the Tuya Wi-Fi module on the other side of the PCB.
 
