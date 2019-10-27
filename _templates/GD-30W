@@ -54,7 +54,7 @@ Rule3 1
 
 LED mode status is reported to mqtt topic `stat/GD-30W/EFFECT` and command [`Event`](https://github.com/arendst/Sonoff-Tasmota/wiki/Commands#event) is used to control some functions using [`TuyaSend4`](https://github.com/arendst/Sonoff-Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule1`
 
-Color can be changed using `TuyaSend3 108,RRGGBB64646464` but only in solid led mode
+Color can be changed using `TuyaSend3 108,RRGGBB64646464` (RR, GG and BB are hex value) only in color mode.
 
 Dimming works using slider and `Dimmer` command but only when in color mode, in rgb_cycle there are no brightness controls.
 
@@ -63,9 +63,9 @@ Long press on device's power button initiates Tasmota's Wi-Fi config
 ## Home Assistant configuration
 This implementation is suited to specific needs and does not incorporate all features of the device, mostly to avoid weird situations and wrong states being reported.
 
-Fan is the diffuser. Oscillation switch is used to toggle between rgb_cycle (oscillation off) and color (oscillation on).
-Light component is the device's RGB light but only when its in color mode, when in rgb_cycle mode it state in HA is off since you cannot control anything in rgb_cycle.
-Binary sensor uses the dpId 12 to show when the diffuser is out of water.
+Fan is the diffuser. Oscillation switch is used to toggle between rgb_cycle (oscillation on) and color (oscillation off).    
+Light component is the device's RGB light but only when its in color mode, when in rgb_cycle mode light state in HA is off since you cannot control anything anyway.    
+Binary sensor uses the dpId 12 to show when the diffuser is out of water.    
 
 {%raw%}
 configuration.yaml
