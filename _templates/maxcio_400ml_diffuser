@@ -10,24 +10,7 @@ template: '{"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,
 link_alt:
 ---
 
-The module configuration uses TuyaMCU component and requires Tasmota >6.6.0.10. [TuyaMCU Configuration Guide](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU)
-
-After installing Tasmota issue the following command in console:
-```lua
-Backlog tuyamcu 21,111; tuyamcu 41,103; tuyamcu 11,12; tuyamcu 1,110; tuyamcu 13,11; DimmerRange 1,255
-```
-This should result in the following output of `TuyaMCU` command:
-```
-{"TuyaMCU":[{"fnId":21,"dpId":111},{"fnId":41,"dpId":103},{"fnId":13,"dpId":11},{"fnId":1,"dpId":110},{"fnId":11,"dpId":12}]}
-```
-
-`dpID 111` controls the LED brightness. It is important to define 'DimmerRange 1,255'.
-
-Relay1 is responsible for turning both LED (RGB Cycle) and Diffuser on (Slow Mode).
-
-Relay2 is responsible for turning Diffuser On (Fast Mode using Rule #2).
-
-Relay3 is responsible for turning LED on and lock the RGB Cycle (using Rule #3).
+[GD-30W 300ml](https://blakadder.github.io/templates/GD-30W.html) has identical codes and functions so you can use that configuration method.
 
 ```lua
 Rule2
