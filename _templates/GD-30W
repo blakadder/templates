@@ -9,7 +9,7 @@ image: https://user-images.githubusercontent.com/5904370/67516743-73887100-f6a1-
 template: '{"NAME":"GD-30W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
 link_alt: https://www.alibaba.com/product-detail/300ML-WiFi-Aroma-Diffuser-Ultrasonic-Humidifier_60781628200.html
 ---
-**Configuration for this device uses features not yet in official Tasmota (TuyaSend and TuyaReceived). Until they're merged compile your own binary [from this fork](https://github.com/blakadder/Sonoff-Tasmota/tree/door-sensor) or use [GitPod](https://gitpod.io/#https://github.com/blakadder/Sonoff-Tasmota/tree/door-sensor) ([instructions for use](https://github.com/arendst/Sonoff-Tasmota/wiki/Compiling-Tasmota-on-Gitpod))**
+**Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**
 
 <!-- Please read [TuyaMCU](https://github.com/arendst/Sonoff-Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
 
@@ -44,7 +44,7 @@ Rule1 1
 Rule3 on TuyaReceived#data=55AA000700050D040001011E do tuyasend4 13,0 endon on TuyaReceived#data=55AA000700050D040001021F do tuyasend4 13,0 endon on mqtt#connected do serialsend5 55aa0001000000 endon
 Rule3 1
 ```
-[All commands in .txt](https://gist.githubusercontent.com/blakadder/2d112b50edd8f75f2d7fb0dddd9310c4/raw/607a9d89df352212e07c1d9680de0197c9c105e3/gistfile1.txt)
+[All commands in .txt](https://gist.github.com/blakadder/2d112b50edd8f75f2d7fb0dddd9310c4)
 
 ### What you get
 - Relay1 turns the diffuser on or off in stored mist strength mode, turns led on or off in stored mode and serves as device power status
@@ -68,7 +68,7 @@ Fan is the diffuser. Oscillation switch is used to toggle between rgb_cycle (osc
 Light component is the device's RGB light but only when its in color mode, when in rgb_cycle mode light state in HA is off since you cannot control anything anyway.    
 Binary sensor uses the dpId 12 to show when the diffuser is out of water.    
 
-[Downloadable .txt file](https://gist.githubusercontent.com/blakadder/581d7964d93cd3fe85c8f1ee393b9f8d/raw/e4614b526b3b86262e03172a380bc2f21c72249d/gistfile1.txt)
+[Downloadable .txt file](https://gist.github.com/blakadder/581d7964d93cd3fe85c8f1ee393b9f8d)
 
 configuration.yaml
 {% highlight yaml %}
@@ -119,7 +119,7 @@ light:
       rgb_command_topic: "cmnd/GD-30W/tuyasend3"
       rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '108,%02x%02x%02x646464' | format(red, green, blue)}}{{ '%02x' | format(brightness) }}"
       rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
-      rgb_state_topic: "stat/GD-30W/RESULT"
+      rgb_state_topic: "tele/GD-30W/RESULT"
 
 binary_sensor:
     - platform: mqtt
