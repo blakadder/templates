@@ -44,6 +44,7 @@ Rule1 1
 Rule3 on TuyaReceived#data=55AA000700050D040001011E do tuyasend4 13,0 endon on TuyaReceived#data=55AA000700050D040001021F do tuyasend4 13,0 endon on mqtt#connected do serialsend5 55aa0001000000 endon
 Rule3 1
 ```
+[All commands in .txt](https://gist.githubusercontent.com/blakadder/2d112b50edd8f75f2d7fb0dddd9310c4/raw/607a9d89df352212e07c1d9680de0197c9c105e3/gistfile1.txt)
 
 ### What you get
 - Relay1 turns the diffuser on or off in stored mist strength mode, turns led on or off in stored mode and serves as device power status
@@ -66,6 +67,8 @@ This implementation is suited to specific needs and does not incorporate all fea
 Fan is the diffuser. Oscillation switch is used to toggle between rgb_cycle (oscillation on) and color (oscillation off).    
 Light component is the device's RGB light but only when its in color mode, when in rgb_cycle mode light state in HA is off since you cannot control anything anyway.    
 Binary sensor uses the dpId 12 to show when the diffuser is out of water.    
+
+[Downloadable .txt file](https://gist.githubusercontent.com/blakadder/581d7964d93cd3fe85c8f1ee393b9f8d/raw/e4614b526b3b86262e03172a380bc2f21c72249d/gistfile1.txt)
 
 configuration.yaml
 {% highlight yaml %}
