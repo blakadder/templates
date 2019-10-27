@@ -67,7 +67,6 @@ Fan is the diffuser. Oscillation switch is used to toggle between rgb_cycle (osc
 Light component is the device's RGB light but only when its in color mode, when in rgb_cycle mode light state in HA is off since you cannot control anything anyway.    
 Binary sensor uses the dpId 12 to show when the diffuser is out of water.    
 
-{%raw%}
 configuration.yaml
 ```
 fan:
@@ -107,7 +106,7 @@ light:
       brightness_state_topic: "tele/GD-30W/RESULT"
       brightness_scale: 100
       # brightness_value_template: "{{ value_json.Dimmer }}"
-      brightness_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ value_json['TuyaReceived'].Type3Data[12:14]|int(base=16) }}{% endif %}"
+      {%raw%}brightness_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ value_json['TuyaReceived'].Type3Data[12:14]|int(base=16) }}{% endif %}"{%endraw%}
       availability_topic: "tele/GD-30W/LWT"
       payload_available: "Online"
       payload_not_available: "Offline"
