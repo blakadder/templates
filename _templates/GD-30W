@@ -67,7 +67,7 @@ Fan is the diffuser. Oscillation switch is used to toggle between rgb_cycle (osc
 Light component is the device's RGB light but only when its in color mode, when in rgb_cycle mode it state in HA is off since you cannot control anything in rgb_cycle.
 Binary sensor uses the dpId 12 to show when the diffuser is out of water.
 
-
+{%raw%}
 configuration.yaml
 ```
 fan:
@@ -188,3 +188,4 @@ Red1
 Red2 (darker)
     55aa000600126c03000e666630303030303030306666666678
 ```
+{% endraw %}
