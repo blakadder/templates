@@ -11,6 +11,12 @@ link_alt: https://mirabellagenio.net.au/smart-adaptor
 This is a simple smart plug with the addition of a USB port. It is ESP8266 based featuring a On/OFF monenatary push button, 2 LEDs and 2 relays to switch the mains output. The USB port  is 'always on' and is not access this from the ESP module.
 Opening up the device is easy. Two 2 screws are removed from the back panel then a small amount of gentle prying removed the cover exposing the components. Two more screws hold the PCB in place.
 
+## Wireless Flashing
+
+The device can be flashed via Tuya-Convert -- It's suggested this be attempted first, as a significantly less dangerous option.
+It is suggested that this be attempted before ever connecting to an official app, but as of 28/10/2019 the official firmware updates delivered to the devices via the Genio app do not stop tuya-convert.
+
+
 ## Serial Flashing
 
 The ESP module is mounted on a pcb with all of the required pins exposed.
