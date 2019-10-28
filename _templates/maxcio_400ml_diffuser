@@ -10,18 +10,11 @@ template: '{"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,
 link_alt:
 ---
 
-[GD-30W 300ml](https://blakadder.github.io/templates/GD-30W.html) has identical codes and functions so you can use that configuration method.
->>>>>>> 40213eb0ea655638445ccd577249a8af4a1f3333
+[GD-30W 300ml](GD-30W.html) has identical codes and functions so you can use that configuration method.
+
 
 ```lua
-Rule2
-on power2#state=1 do serialsend5 55AA00060005670400010177 endon on power2#state=0 do serialsend5 55aa00060005670400010278 endon
-
-Rule3
-
-on power3#state=1 do serialsend5 55aa000600050b0100010118 endon  on power3#state=1 do serialsend5 55aa000600056e040001017E endon on power3#state=0 do serialsend5 55aa000600050b0100010017 endon
-
-Some HEX Codes Detected
+Serial codes detected while debugging
 
 Turn Relay1 on (LED and Diffuser)
     55aa0006000501010001010e
