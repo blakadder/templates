@@ -10,9 +10,9 @@ template: '{"NAME":"GenioDLightCCT","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":
 link_alt: https://mirabellagenio.net.au/downlight-rgb%2Bcct
 ---
 
-Note: This is specifically for the CCT variant (Cool to warm white only) -- this template was previously marked as the RGB version.
+This is specifically for the CCT variant (Cool to warm white only)!
 
-A new template for the RGB+CCT (aka RGBWW) variant is [here](mirabella_genio_dimmable_downlight_RGBCCT.html)
+Template for the RGB+CCT (aka RGBWW) variant is [here](mirabella_genio_I002741.html)
 
 Flashed wirelessly using Tuya-Convert: https://github.com/ct-Open-Source/tuya-convert
 
