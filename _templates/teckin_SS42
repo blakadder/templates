@@ -5,7 +5,7 @@ category: plug
 type: Outdoor Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07RHPGNYM
-image: https://www.teckinhome.com/copy-of-smart-electrical
+image: https://user-images.githubusercontent.com/5904370/67770938-a2169b00-fa57-11e9-9e90-f576206d920a.png
 template: '{"NAME":"Teckin SS42","GPIO":[255,255,255,255,255,52,0,0,21,157,22,255,255],"FLAG":15,"BASE":18}' 
 link_alt: 
 ---
