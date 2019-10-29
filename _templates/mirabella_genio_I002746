@@ -1,6 +1,6 @@
 ---
 date: 2019-10-29
-title: Mirabella Genio 002746 GU10
+title: Mirabella Genio I002746
 category: light
 type: Bulb
 standard: anzac
@@ -10,7 +10,7 @@ template: '{"NAME":"GenioGU10","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BA
 link_alt: https://mirabellagenio.net.au/wi-fi-led-gu10
 ---
 
-Flashed with Tuya-Convert: https://github.com/ct-Open-Source/tuya-convert
+Flashed with [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert)
 
 
 
