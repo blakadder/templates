@@ -10,7 +10,7 @@ template: '{"NAME":"GenioDLightRGB","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLA
 link_alt: https://mirabellagenio.net.au/downlight-rgb%2Bcct
 ---
 
-Note: This is specifically for the RGB+CCT variant (Can do both RGB and cool to warm white) -- an incorrect template was previously marked as the RGB+CCT version. 
+This is specifically for the RGB+CCT variant (Can do both RGB and cool to warm white).
 
 The template for the CCT variant is [here](mirabella_genio_I002742.html)
 
