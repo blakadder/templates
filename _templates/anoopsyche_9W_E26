@@ -1,11 +1,11 @@
 ---
 date: 2019-03-10
-title: Anoopsyche CW/WW 60W
+title: Anoopsyche 9W E26 CCT
 category: light
 type: Bulb
 standard: us
 link: https://www.amazon.com/ANOOPSYCHE-2700K-6500K-Equivalent-Compatible-Assistant/dp/B07DPMC5DF
-image: https://raw.githubusercontent.com/digiblur/Tasmota/development/jpgs/anoop_cw_ww.jpg
+image: https://user-images.githubusercontent.com/5904370/67769794-62e74a80-fa55-11e9-90c8-573a03e65e41.png
 template: '{"NAME":"Anoop-CW-WW","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
