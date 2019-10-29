@@ -5,7 +5,7 @@ category: switch
 type: Switch
 standard: us
 link: https://www.amazon.com/Wireless-Control-Anywhere-Compatible-Function/dp/B07KQ876W7
-image: https://raw.githubusercontent.com/digiblur/Tasmota/development/jpgs/moes3way.JPG
+image: https://user-images.githubusercontent.com/5904370/67770068-ee60db80-fa55-11e9-991e-445c3cb44df8.png
 template: '{"NAME":"Moes 3-Way","GPIO":[255,255,255,255,21,57,0,0,30,10,9,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
