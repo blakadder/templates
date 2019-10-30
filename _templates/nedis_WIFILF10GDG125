@@ -1,0 +1,19 @@
+---
+date: 2019-10-30
+title: Nedis WIFILF10GDG125
+category: light
+type: Bulb
+standard: global
+link: https://webshop.nedis.de/de-de/550695567/wifilf10gdg125
+image: https://webshop.nedis.de/images/products_high_res/WIFILF10GDG125_P50.JPG
+template: '{"NAME":"WIFILF10GDG125","GPIO":[0,0,0,0,0,0,255,255,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+I don’t know if there are more options inside the bulb but this will give basic access via PWM1
+
+
+
+
+
+
