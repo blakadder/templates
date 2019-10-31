@@ -11,7 +11,7 @@ link_alt: https://robotzero.one/heltec-wifi-kit-8/
 ---
 
 Display Info:
-```
+```lua
 DisplayModel 2
 DisplayHeight 32
 DisplayAddress 60
