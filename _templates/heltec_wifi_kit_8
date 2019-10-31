@@ -1,0 +1,25 @@
+---
+date: 2019-10-31
+title: Heltec WiFi Kit 8
+category: misc
+type: DIY
+standard: global
+link: https://heltec.org/project/wifi-kit-8/
+image: https://i2.wp.com/heltec.org/wp-content/uploads/2019/04/SAM_0658_800X800-1.png
+template: '{"NAME":"HTIT-W8266","GPIO":[255,255,255,255,6,5,255,255,255,255,255,255,255],"FLAG":15,"BASE":18}' 
+link_alt: https://robotzero.one/heltec-wifi-kit-8/
+---
+
+Display Info:
+```
+DisplayModel 2
+DisplayHeight 32
+DisplayAddress 60
+```
+I had to wire a 1K resistor between GPIO16 and RST to get the display to work reliably. You will of course need to use a Tasmota build that supports displays.
+
+
+
+
+
+
