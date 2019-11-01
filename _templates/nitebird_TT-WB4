@@ -5,7 +5,7 @@ category: light
 type: Bulb
 standard: us
 link: https://www.amazon.com/gp/product/B07MTYVSSV
-image: https://images-na.ssl-images-amazon.com/images/I/61Ge1ydAe9L._AC_SL1500_.jpg
+image: https://m.media-amazon.com/images/S/aplus-media/sc/b70090ee-c12e-4454-9a59-02721cb27415.__CR0,0,600,600_PT0_SX300_V1___.jpg
 template: '{"NAME":"NiteBird TT-WB","GPIO":[255,255,255,255,40,255,255,255,37,38,39,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
