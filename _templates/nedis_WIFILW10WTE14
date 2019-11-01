@@ -1,0 +1,21 @@
+---
+date: 2019-11-01
+title: Nedis WIFILW10WTE14
+category: light
+type: Bulb
+standard: global
+link: https://webshop.nedis.de/de-de/550683246/wifilw10wte14
+image: https://webshop.nedis.de/images/products_high_res/WIFILW10WTE14_P50.JPG
+template: '{"NAME":"WIFILW10WTE14","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+I don’t know if there are more options inside the bulb but this will give basic access via PWM1 (cold) and PWM2 (warm).
+
+You should use command ""PwmFrequency 100"" to be able to set dimmer to >= 20% without flickering."
+
+
+
+
+
+
