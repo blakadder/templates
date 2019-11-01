@@ -5,6 +5,8 @@ navigation: 9
 ---
 <!-- ######################################################################  -->
 {% assign standard_country = site.templates | where: "standard", "br" | sort_natural: 'title' %}
+{% assign standard_eu = site.templates | where: "standard", "eu" | sort_natural: 'title' %}
+{% assign standard_us = site.templates | where: "standard", "us" | sort_natural: 'title' %}
 {% assign standard_global = site.templates | where: "standard", "global" | sort_natural: 'title' %}
 {% assign standard = standard_country | concat: standard_global %}
 
@@ -22,8 +24,7 @@ navigation: 9
 <h3>Lights</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign standard_us = site.templates | where: "standard", "us" | sort_natural: 'title' %}
-{% assign standardlight = standard_country | concat: standard_global | concat: standard_us %}
+{% assign standardlight = standard_country | concat: standard_global | concat: standard_eu %}
 {% assign light = standardlight | where: "category", "light" | sort_natural: 'title' %}
 {% for template in light %}
 {% include tablerow.html %}
@@ -35,7 +36,8 @@ navigation: 9
 <h3>Switches & Dimmers</h3>
 <table id="Devices" width="80%">
 <tbody>
-{% assign switch = standard | where: "category", "switch" | sort_natural: 'title' %}
+{% assign standardswitch = standard_country | concat: standard_global | concat: standard_us %}
+{% assign switch = standardswitch | where: "category", "switch" | sort_natural: 'title' %}
 {% for template in switch %}
 {% include tablerow.html %}
 {% endfor %}

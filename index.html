@@ -33,7 +33,7 @@ title: Tasmota Device Templates Repository
 <h3>Recently added devices:</h3>
 <ul>
 {% assign sorted = site.templates  | sort: "date" | reverse %}
-{% for template in sorted limit:6 %}
+{% for template in sorted limit:7 %}
 <li><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }} {{ template.type }} {% assign standard_list = template.standard %}
         {% for item_standard in standard_list %}
         {{ item_standard | upcase }}
