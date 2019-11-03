@@ -15,7 +15,7 @@ This is another variant of the Magichome LED controller sold as model ARILUX SL-
 The 12 main colours on the remote match the tasmota colour numbering:
 https://github.com/arendst/Tasmota/wiki/Commands#light
 
-Create rules to work with rf, see [https://github.com/arendst/Tasmota/wiki/MagicHome-with-ESP8285]
+Create rules to work with rf, see [https://github.com/arendst/Tasmota/wiki/MagicHome-with-ESP8285](https://github.com/arendst/Tasmota/wiki/MagicHome-with-ESP8285)
 
 My rule 1:
 ```
