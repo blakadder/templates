@@ -1,0 +1,35 @@
+---
+date: 2019-11-02
+title: Arilux SL-LC 09
+category: light
+type: LED Controller
+standard: global
+link: https://www.banggood.com/ARILUX-AL-LC09-Super-Mini-LED-WIFI-APP-Controller-RF-Remote-Control-For-RGB-LED-Strip-DC9-28V-p-1081344.html
+image: https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/BA/BF/84f7e0d7-febd-4784-a873-946f69978192.jpg
+template: '{"NAME":"Arilux LC09","GPIO":[0,0,0,0,106,37,0,0,39,0,38,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+This is another variant of the Magichome LED controller sold as model ARILUX SL-LC 09. RGB LED controller + RF Remote Control (receives RF commands on RFrecv (106).
+
+The 12 main colours on the remote match the tasmota colour numbering:
+https://github.com/arendst/Tasmota/wiki/Commands#light
+
+Create rules to work with rf, see [https://github.com/arendst/Tasmota/wiki/MagicHome-with-ESP8285]
+
+My rule 1:
+```
+on RfReceived#Data=0xCA0C06 do dimmer + endon on RfReceived#Data=0xCA0C09 do dimmer - endon on RfReceived#Data=0xCA0C0A do color1 1 endon on RfReceived#Data=0xCA0C0B do color1 2 endon on RfReceived#Data=0xCA0C0C do color1 3 endon on RfReceived#Data=0xCA0C0D do color1 4 endon on RfReceived#Data=0xCA0C0E do color1 5 endon on RfReceived#Data=0xCA0C0F do color1 6 endon
+```
+
+My rule 2
+```
+on RfReceived#Data=0xCA0C10 do color1 7 endon on RfReceived#Data=0xCA0C11 do color1 8 endon on RfReceived#Data=0xCA0C12 do color1 9 endon on RfReceived#Data=0xCA0C13 do color1 10 endon on RfReceived#Data=0xCA0C14 do color1 11 endon on RfReceived#Data=0xCA0C15 do color1 12 endon
+``` 
+
+
+
+
+
+
+
