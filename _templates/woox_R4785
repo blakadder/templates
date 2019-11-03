@@ -1,0 +1,19 @@
+---
+date: 2019-11-02
+title: Woox R4785
+category: plug
+type: Plug
+standard: uk
+link: https://wooxhome.com/power-c2/woox-r4785-smart-plug-uk-p9
+image: https://wooxhome.com/images/woox-r4785-smart-plug-uk-p9-85_medium.jpg
+template: '{"NAME":"WooxR4785","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+This uses the same template as SWA9.
+
+
+
+
+
+
