@@ -10,7 +10,7 @@ template: '{"NAME":"Lohas RGBW","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,
 link_alt: 
 ---
 
-This template requires Tasmota 6.6.0.18 or higher to work correctly.  
+This template requires Tasmota 6.6.0.18 or higher to work correctly.  Tasmota-basic.bin files will not work with this template. Flash the regular full bin file of Tasmota.
 
 Side note if you do need to attach to the bulb via USB serial the pads are there right under the light diffuser to easily solder RX, TX, GND, and GPIO0 but 3v3 does not work.  You will need to solder to the flash memory chip VCC leg to inject 3v3 power, it is easier to solder to this pin instead of the ESP8266 directly.
 
