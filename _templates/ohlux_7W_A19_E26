@@ -1,0 +1,19 @@
+---
+date: 2019-11-04
+title: OHLUX 7W A19 E26 RGB+CCT
+category: light
+type: Bulb
+standard: global
+link: https://www.amazon.com/gp/product/B07LCB3HQJ
+image: https://imgur.com/PpR9nmN.jpg
+template: '{"NAME":"OHLUX","GPIO":[255,255,255,255,37,40,255,255,38,41,39,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Bought in US off Amazon; easily flashed with with tuya-convert
+
+
+
+
+
+
