@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: CH
 link: https://www.aliexpress.com/item/4000113339594.html?spm=a2g0s.9042311.0.0.5d094c4d41l3vu
-image: https://ae01.alicdn.com/kf/Hb25d330b23f64c5da0a303c74c1177afK/16A-Smart-Swiss-Plug-Switzerland-Wifi-Socket-Voice-Control-Works-With-Google-Home-Alexa-IFTTT-Tuya.jpg_50x50.jpg
+image: https://user-images.githubusercontent.com/5904370/68094936-76574300-fea5-11e9-93b2-8cb29db9fa66.png
 template: '{"NAME":"ZCH-02","GPIO":[0,0,0,17,133,132,0,0,130,56,21,0,0],"FLAG":1,"BASE":18}' 
 link_alt: 
 ---
