@@ -1,0 +1,21 @@
+---
+date: 2019-11-03
+title: Maxcio YX-DE04
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.de/Steckdose-Maxcio-Intelligente-Kompatibel-Steuerung/dp/B07GH7XRB5
+image: https://images-na.ssl-images-amazon.com/images/I/61lNrG%2BFvVL._SL1500_.jpg
+template: '{"NAME":"Maxcio YX-DE04","GPIO":[0,17,0,21,56,0,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+I found out that no configurable relay controls the USB-Ports, maybe they are not switchable, didn't open the plug.
+
+Vendor says LED is RGB+White (2700K to 6000K), I found no way to configure the white color via tasmota.
+
+
+
+
+
+
