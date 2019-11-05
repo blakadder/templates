@@ -1,0 +1,24 @@
+---
+date: 2019-11-05
+title: muvit IO miobulb001
+category: light
+type: Bulb
+standard: eu
+link: https://www.amazon.es/Muvit-MIOBULB001-Inteligente-Compatible-asistentes/dp/B07KMWZ41R
+image: https://images-na.ssl-images-amazon.com/images/I/81xjTL6fhuL._AC_SL1500_.jpg
+template: '{"NAME":"miobulb001","GPIO":[255,255,255,255,40,255,255,255,38,39,37,255,255],"FLAG":15,"BASE":18}' 
+link_alt: https://www.leroymerlin.es/fp/82215854/bombilla-led-muvit-io-5w-wifi-600-lumenes.iluminacion_bombillas-led-y-tubos_bombillas-inteligentes
+---
+
+```haskell
+SetOption15 1
+SetOption30 0
+```
+
+`SetOption19 1` for HASS discovery"
+
+
+
+
+
+
