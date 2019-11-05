@@ -5,7 +5,7 @@ category: light
 type: Bulb
 standard: anzac
 link: https://www.kogan.com/au/buy/kogan-smarterhome-10w-ambient-rgbw-smart-bulb-b22/
-image: https://images.kogan.com/image/fetch/s--cCIFFKHQ--/b_white,c_pad,f_auto,h_800,q_auto:good,w_1200/https://assets.kogan.com/files/product/SmartBulbs/KASB10RB22HA_2.jpg
+image: https://assets.kogan.com/files/product/SmartBulbs/KASB10RB22HA_2.jpg
 template: '{"NAME":"Kogan RGB","GPIO":[0,0,0,0,140,37,0,0,0,0,141,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
