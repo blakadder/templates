@@ -1,0 +1,25 @@
+---
+date: 2019-11-06
+title: Proscenic 807C
+category: misc
+type: Humidifier
+standard: eu
+link: https://www.amazon.it/gp/product/B07PW715W6
+image: https://images-na.ssl-images-amazon.com/images/I/51I0vlBhfBL._SL1000_.jpg
+template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,255,255,255,255,255,255,255],"FLAG":15,"BASE":54}' 
+link_alt: 
+---
+
+```
+Backlog SetOption66 1; TuyaMCU 21,6; TuyaMCU 12,7; TuyaMCU 13,101; TuyaMCU 14,102; TuyaMCU 15,105; TuyaMCU 16,106; DimmerRange 0,9
+
+Rule1 ON TuyaReceived#DpId!=3 DO BREAK ON TuyaReceived#DpIdData DO Var2 %value% ENDON
+Rule2 ON TuyaReceived#DpId!=104 DO BREAK ON TuyaReceived#DpIdData DO Var3 %value% ENDON
+Rule3 ON Time#Minute|5 DO publish stat/humidifier1/STATE {""rh"":""0x%Var2%"",""temp"":""0x%Var3%"",""ts"":""%timestamp%""} ENDON
+```
+
+
+
+
+
+
