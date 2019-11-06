@@ -10,7 +10,7 @@ template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,255,255,255,255,255
 link_alt: 
 ---
 
-```
+```lua
 Backlog SetOption66 1; TuyaMCU 21,6; TuyaMCU 12,7; TuyaMCU 13,101; TuyaMCU 14,102; TuyaMCU 15,105; TuyaMCU 16,106; DimmerRange 0,9
 
 Rule1 ON TuyaReceived#DpId!=3 DO BREAK ON TuyaReceived#DpIdData DO Var2 %value% ENDON
