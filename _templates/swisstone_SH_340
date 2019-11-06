@@ -1,0 +1,19 @@
+---
+date: 2019-11-05
+title: Swisstone SH 340
+category: light
+type: Bulb
+standard: eu
+link: https://www.conrad.com/p/swisstone-smart-home-sh-340-led-light-bulb-eec-a-a-e-alexa-google-home-1873410
+image: https://asset.conrad.com/media10/isa/160267/c1/-/en/1873410_AB_00_FB/image.jpg?x=600&y=600
+template: '{"NAME":"SH 340","GPIO":[255,255,255,255,140,37,0,0,255,142,141,255,255],"FLAG":15,"BASE":18}' 
+link_alt: https://www.ivsgmbh.de/produktdetail_de.php?wpf_reference=1040
+---
+
+`setoption68 1'
+
+
+
+
+
+

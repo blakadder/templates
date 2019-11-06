@@ -1,0 +1,19 @@
+---
+date: 2019-11-05
+title: HIhome WPP-16S1
+category: plug
+type: plug
+standard: eu
+link: https://www.50five.nl/hihome-wpp-16s-smart-plug.html
+image: https://www.50five.nl/media/catalog/product/cache/bd0d42d14aeaacc284f202cc745c851f/a/c/ac3106f59dffdb95c36470e766a8f1cd56cb1e85_WPP_16S1.jpg
+template: '{"NAME":"HIhome WPP-16S","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+link_alt: 
+---
+
+this plug can be flashed using tuya-convert
+
+
+
+
+
+
