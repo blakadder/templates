@@ -41,11 +41,15 @@ Rule1 on TuyaReceived#Data=55AA00070005020400010012 do power1 0 endon on TuyaRec
 ```
 
 ```haskell
-Rule2 on TuyaReceived#Data=55AA00070005060400010016 do publish2 tele/diffuser/STATE {"Light":"OFF","LightMode":"light_off"} endon  
+Rule2 on power2#state=1 do Tuyasend4 6,3 endon on power2#state=0 do TuyaSend4 6,0 endon on TuyaReceived#Data=55AA00070005060400010016 do publish2 tele/diffuser/STATE {"Light":"OFF","LightMode":"light_off"} endon  
 ```
 
 ```haskell
-Rule3 on mqtt#connected do serialsend5 55aa0001000000 endon on Event#rgb_cycle do TuyaSend4 6,1 endon on Event#color do TuyaSend4 6,3 endon on Event#white do TuyaSend4 6,2 endon on Event#light_off do TuyaSend4 6,0 endon on power2#state=1 do Tuyasend4 6,3 endon on power2#state=0 do TuyaSend4 6,0 endon on TuyaReceived#Data=55AA00070005060400010319 do publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} endon on Power5#State=1 do publish2 tele/diffuser/STATE {"Light":"ON"} endon
+Rule3 on mqtt#connected do serialsend5 55aa0001000000 endon on Event#rgb_cycle do TuyaSend4 6,1 endon on Event#color do TuyaSend4 6,3 endon on Event#white do TuyaSend4 6,2 endon on Event#light_off do TuyaSend4 6,0 endon on TuyaReceived#Data=55AA00070005060400010319 do publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} endon 
+```
+Don't forget to activate rules
+```
+Backlog Rule1 1; Rule2 1; Rule3 1
 ```
 
 ### What you get
@@ -89,7 +93,7 @@ fan:
     speeds:
       - low
       - high
-      
+
 binary_sensor:
   - platform: mqtt
     name: "Diffuser Water"
