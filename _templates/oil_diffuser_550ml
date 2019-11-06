@@ -6,36 +6,133 @@ type: Aromatherapy Diffuser
 standard: global
 link: https://www.aliexpress.com/item/550ML-APP-Control-Essential-Oil-Aroma-Diffuser-With-Wood-Grain-Air-Humidifier-Aromatherapy-Diffuser-For-Home/32983725049.html
 image: https://user-images.githubusercontent.com/5904370/57200999-010cc300-6f93-11e9-8fbe-ad02435e367f.png
-template: '{"NAME":"Oil Diffuser","GPIO":[255,255,255,255,255,255,255,255,255,255,255,21,22],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link_alt: 
 ---
+**Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**
+
+<!-- Please read [TuyaMCU](https://github.com/arendst/Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
 
 Flashed via serial by using TYWE3S pins. Might work with Tuya Convert.
 
-This device has everything controlled via the MCU. It does not work with Tuya Dimmer module due to additional features and different command values.
-For the device to be fully supported the [Tuya driver](https://raw.githubusercontent.com/arendst/Tasmota/development/sonoff/xdrv_16_tuyadimmer.ino) would need a major code rewrite.
+Tuya Product ID: GQxEe5orh45cMgA61.0 
 
-I've configured some rules to get basic functionality and [configure](https://gist.github.com/blakadder/807df02fcaf88e2b059e7b8d008c1881) it in Home Assistant. 
+PCB code: KCL-M1801C_M 2018_11_12 V5.0
 
-Rule2 notes:
+## Functions
+`dpID 2` device mode: 0 = off / 1 = continuous / 2 = intermittent / 3 = timer    
+`dpID 4` set timer: 180 min max *not needed with Tasmota*    
+`dpID 6` light control: 0 = off / 1 = rgb cycle / 2 = white / 3 = single color   
+`dpID 7` led dimmer    
+`dpID 8` led color: 14 char value in hex (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
+`dpID 9` error notification: 0 = ok / 1 = error  
+`dpID 101` mist strength: 0 = low / 1 = high    
 
-Relay1 controls the diffuser: intermittent mode / off (you can change the code to a mode of your choice) 
+## Configuration
 
-Relay2 controls the device LED: white / off (you can change the codes to a color mode of your choice)
+After applying the template and configuring Wi-Fi and MQTT issue
 
-Rule3 notes:
-
-First rule string is required, otherwise your device might not respond to serial commands on reboots.
-
-Fan speed is published to a retained mqtt topic and can be controlled via mqtt command `cmnd/diffuser/Event high` or `low`.
-
-**If you use the device buttons or the remote, the state won't be recorded in Tasmota and your power states will be out of sync**
-
-```lua
-Rule2 on power1#state=1 do serialsend5 55AA00060005020400010213 endon on power1#state=0 do serialsend5 55AA00060005020400010011 endon on power2#state=1 do serialsend5 55AA00060005060400010217 endon on power2#state=0 do serialsend5 55AA00060005060400010015 endon
-
-Rule3 on system#boot do backlog baudrate 9600; seriallog 2; serialsend5 55aa000300010306 endon on event#high do backlog serialsend5 55AA00060005650400010175; publish2 stat/diffuser/FAN high endon on event#low do backlog serialsend5 55AA00060005650400010074; publish2 stat/diffuser/FAN low endon
+```haskell
+Backlog SetOption66 1; TuyaMCU 21,7; TuyaMCU 11,111; TuyaMCU 12,112; TuyaMCU 13,101; TuyaMCU 14,9; TuyaMCU 15,115; DimmerRange 1,255; SetOption59 1
 ```
+
+```haskell
+Rule1 on TuyaReceived#Data=55AA00070005020400010012 do power1 0 endon on TuyaReceived#Data=55AA00070005020400010113 do power1 1 endon on TuyaReceived#Data=55AA00070005020400010214 do power1 1 endon on TuyaReceived#Data=55AA00070005020400010315 do power1 1 endon on power1#state=1 do tuyasend4 2,1 endon on power1#state=0 do tuyasend4 2,0 endon on TuyaReceived#Data=55AA00070005060400010117 do publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"rgb_cycle"} endon 
+```
+
+```haskell
+Rule2 on TuyaReceived#Data=55AA00070005060400010016 do publish2 tele/diffuser/STATE {"Light":"OFF","LightMode":"light_off"} endon  
+```
+
+```haskell
+Rule3 on mqtt#connected do serialsend5 55aa0001000000 endon on Event#rgb_cycle do TuyaSend4 6,1 endon on Event#color do TuyaSend4 6,3 endon on Event#white do TuyaSend4 6,2 endon on Event#light_off do TuyaSend4 6,0 endon on power2#state=1 do Tuyasend4 6,3 endon on power2#state=0 do TuyaSend4 6,0 endon on TuyaReceived#Data=55AA00070005060400010319 do publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} endon on Power5#State=1 do publish2 tele/diffuser/STATE {"Light":"ON"} endon
+```
+
+### What you get
+- Relay1 serves as device power status with the help of Rule1, dummy relay no control
+- Relay2 turns light on or off with Rule3
+- Relay3 mist strength status and control
+- Relay4 is used for error status (ON = error), no control
+- Relay5 is a dummy relay so the dimmer doesn't control the lights or power
+
+LED mode status is reported to mqtt topic `tele/diffuser/STATE` and command [`Event`](https://github.com/arendst/Tasmota/wiki/Commands#event) is used to control some functions using [`TuyaSend4`](https://github.com/arendst/Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule3`
+
+Color can be changed using `TuyaSend3 8,RRGGBB64646464` (RR, GG and BB are hex value) only in color mode.
+
+Dimming works using slider and `Dimmer` command.
+
+## Home Assistant configuration
+This implementation is suited to specific needs and does not incorporate all features of the device, mostly to avoid weird situations and wrong states being reported.
+
+Fan is the diffuser. Light component is the device's RGB light.    
+Binary sensor uses Relay4 to show when the diffuser is out of water.    
+
+configuration.yaml
+{% highlight yaml %}
+{% raw %}
+fan:
+  - platform: mqtt
+    name: "Diffuser"
+    availability_topic: "tele/diffuser/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    state_topic: "stat/diffuser/POWER1"
+    command_topic: "cmnd/diffuser/POWER1"
+    payload_on: "ON"
+    payload_off: "OFF"
+    speed_state_topic: "tele/diffuser/STATE"
+    speed_value_template: "{{ value_json.POWER3 }}"
+    speed_command_topic: "cmnd/diffuser/POWER3"
+    payload_low_speed: "OFF"
+    payload_high_speed: "ON"
+    qos: 1
+    speeds:
+      - low
+      - high
+
+- platform: mqtt
+  name: "Diffuser Water"
+  state_topic: "stat/diffuser/POWER4"
+  payload_on: "ON"
+  payload_off: "OFF"
+  availability_topic: "tele/diffuser/LWT"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  qos: 1
+  device_class: problem
+
+
+- platform: mqtt
+  name: "Diffuser Lamp"
+  command_topic: "cmnd/diffuser/POWER2"
+  state_topic: "tele/diffuser/STATE"
+  state_value_template: "{% if value_json.Light is defined %}{{ value_json.Light }}{% endif %}"
+  payload_on: "ON"
+  payload_off: "OFF"
+  brightness_command_topic: "cmnd/diffuser/Dimmer"
+  brightness_state_topic: "tele/diffuser/STATE"
+  brightness_scale: 100
+  brightness_value_template: "{{ value_json.Dimmer }}"
+  effect_command_topic: "cmnd/diffuser/EVENT"
+  effect_state_topic: "tele/diffuser/STATE"
+  effect_value_template: "{% if value_json.Light is defined %}{{ value_json.LightMode }}{% endif %}"
+  effect_list:
+    - light_off
+    - rgb_cycle
+    - color
+  availability_topic: "tele/diffuser/LWT"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  qos: 1
+  retain: false
+  rgb_command_topic: "cmnd/diffuser/tuyasend3"
+  rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '8,%02x%02x%02xffff6464' | format(red, green, blue)}}"
+  rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 8 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
+  rgb_state_topic: "tele/diffuser/RESULT"
+
+{% endraw %}
+{% endhighlight %}
+
 
 Here's a list of captured serial codes:
 
