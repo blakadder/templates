@@ -33,19 +33,19 @@ PCB code: KCL-M1801C_M 2018_11_12 V5.0
 After applying the template and configuring Wi-Fi and MQTT issue
 
 ```haskell
-Backlog SetOption66 1; TuyaMCU 21,7; TuyaMCU 11,111; TuyaMCU 12,112; TuyaMCU 13,101; TuyaMCU 14,9; TuyaMCU 15,115; DimmerRange 1,255; SetOption59 1
+Backlog SetOption66 1; TuyaMCU 21,7; TuyaMCU 11,111; TuyaMCU 12,112; TuyaMCU 13,101; TuyaMCU 14,9; TuyaMCU 15,115; DimmerRange 1,255; SetOption59 1; Switchmode 1
 ```
 
 ```haskell
-Rule1 on TuyaReceived#Data=55AA00070005020400010012 do power1 0 endon on TuyaReceived#Data=55AA00070005020400010113 do power1 1 endon on TuyaReceived#Data=55AA00070005020400010214 do power1 1 endon on TuyaReceived#Data=55AA00070005020400010315 do power1 1 endon on power1#state=1 do tuyasend4 2,1 endon on power1#state=0 do tuyasend4 2,0 endon on TuyaReceived#Data=55AA00070005060400010117 do publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"rgb_cycle"} endon 
+Rule1 on TuyaReceived#Data=55AA00070005020400010012 do power1 0 endon on TuyaReceived#Data=55AA00070005020400010113 do power1 1 endon on TuyaReceived#Data=55AA00070005020400010214 do power1 1 endon on TuyaReceived#Data=55AA00070005020400010315 do power1 1 endon on power1#state=1 do tuyasend4 2,1 endon on power1#state=0 do tuyasend4 2,0 endon 
 ```
 
 ```haskell
-Rule2 on power2#state=1 do Tuyasend4 6,3 endon on power2#state=0 do TuyaSend4 6,0 endon on TuyaReceived#Data=55AA00070005060400010016 do publish2 tele/diffuser/STATE {"Light":"OFF","LightMode":"light_off"} endon  
+Rule2 on power2#state=1 do backlog Tuyasend4 6,3; publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} endon on power2#state=0 do Backlog TuyaSend4 6,0; publish2 tele/diffuser/STATE {"Light":"OFF"} endon on mqtt#connected do serialsend5 55aa0001000000 endon on Event#rgb_cycle do TuyaSend4 6,1 endon on Event#color do TuyaSend4 6,3 endon on Event#white do TuyaSend4 6,2 endon on Event#light_off do TuyaSend4 6,0 endon
 ```
 
 ```haskell
-Rule3 on mqtt#connected do serialsend5 55aa0001000000 endon on Event#rgb_cycle do TuyaSend4 6,1 endon on Event#color do TuyaSend4 6,3 endon on Event#white do TuyaSend4 6,2 endon on Event#light_off do TuyaSend4 6,0 endon on TuyaReceived#Data=55AA00070005060400010319 do publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} endon 
+Rule3 on TuyaReceived#Data=55AA00070005060400010319 do publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} endon on TuyaReceived#Data=55AA00070005060400010016 do publish2 tele/diffuser/STATE {"Light":"OFF","LightMode":"light_off"} endon on TuyaReceived#Data=55AA00070005060400010117 do publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"rgb_cycle"} endon 
 ```
 Don't forget to activate rules
 ```
