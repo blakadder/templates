@@ -89,46 +89,47 @@ fan:
     speeds:
       - low
       - high
+      
+binary_sensor:
+  - platform: mqtt
+    name: "Diffuser Water"
+    state_topic: "stat/diffuser/POWER4"
+    payload_on: "ON"
+    payload_off: "OFF"
+    availability_topic: "tele/diffuser/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    qos: 1
+    device_class: problem
 
-- platform: mqtt
-  name: "Diffuser Water"
-  state_topic: "stat/diffuser/POWER4"
-  payload_on: "ON"
-  payload_off: "OFF"
-  availability_topic: "tele/diffuser/LWT"
-  payload_available: "Online"
-  payload_not_available: "Offline"
-  qos: 1
-  device_class: problem
-
-
-- platform: mqtt
-  name: "Diffuser Lamp"
-  command_topic: "cmnd/diffuser/POWER2"
-  state_topic: "tele/diffuser/STATE"
-  state_value_template: "{% if value_json.Light is defined %}{{ value_json.Light }}{% endif %}"
-  payload_on: "ON"
-  payload_off: "OFF"
-  brightness_command_topic: "cmnd/diffuser/Dimmer"
-  brightness_state_topic: "tele/diffuser/STATE"
-  brightness_scale: 100
-  brightness_value_template: "{{ value_json.Dimmer }}"
-  effect_command_topic: "cmnd/diffuser/EVENT"
-  effect_state_topic: "tele/diffuser/STATE"
-  effect_value_template: "{% if value_json.Light is defined %}{{ value_json.LightMode }}{% endif %}"
-  effect_list:
-    - light_off
-    - rgb_cycle
-    - color
-  availability_topic: "tele/diffuser/LWT"
-  payload_available: "Online"
-  payload_not_available: "Offline"
-  qos: 1
-  retain: false
-  rgb_command_topic: "cmnd/diffuser/tuyasend3"
-  rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '8,%02x%02x%02xffff6464' | format(red, green, blue)}}"
-  rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 8 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
-  rgb_state_topic: "tele/diffuser/RESULT"
+light:
+  - platform: mqtt
+    name: "Diffuser Lamp"
+    command_topic: "cmnd/diffuser/POWER2"
+    state_topic: "tele/diffuser/STATE"
+    state_value_template: "{% if value_json.Light is defined %}{{ value_json.Light }}{% endif %}"
+    payload_on: "ON"
+    payload_off: "OFF"
+    brightness_command_topic: "cmnd/diffuser/Dimmer"
+    brightness_state_topic: "tele/diffuser/STATE"
+    brightness_scale: 100
+    brightness_value_template: "{{ value_json.Dimmer }}"
+    effect_command_topic: "cmnd/diffuser/EVENT"
+    effect_state_topic: "tele/diffuser/STATE"
+    effect_value_template: "{% if value_json.Light is defined %}{{ value_json.LightMode }}{% endif %}"
+    effect_list:
+      - light_off
+      - rgb_cycle
+      - color
+    availability_topic: "tele/diffuser/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    qos: 1
+    retain: false
+    rgb_command_topic: "cmnd/diffuser/tuyasend3"
+    rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '8,%02x%02x%02xffff6464' | format(red, green, blue)}}"
+    rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 8 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
+    rgb_state_topic: "tele/diffuser/RESULT"
 
 {% endraw %}
 {% endhighlight %}
