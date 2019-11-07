@@ -10,16 +10,36 @@ template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,255,255,255,255,255
 link_alt: 
 ---
 
-```lua
+**Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**
+
+<!-- Please read [TuyaMCU](https://github.com/arendst/Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
+
+Flashed via serial by using TYWE3S pins.
+
+## Functions
+| dpID | Data Type | Function |
+| --- | --- | --- |
+| 1 | binary | power off-on |
+| 2 | enum | auto (0), baby (1), rh selection (2) |
+| 6 | enum | mist level (0->9) |
+| 7 | binary | anion off-on |
+| 13 | enum | set timer: none (0x00) to 12 (0x0C) |
+| 14 | value | get timer: none (0x00000000) to 12 (0x000002D0), increment of 0x3C each |
+| 101 | binary | heating off-on |
+| 102 | binary | blue led off-on |
+| 103 | enum | RH selection from 0 (30%) to 10 (75%) |
+| 105 | binary | toggle Celsius (0) - Fahreneit (1) |
+| 106 | binary | screen night mode off-on |
+
+```haskell
 Backlog SetOption66 1; TuyaMCU 21,6; TuyaMCU 12,7; TuyaMCU 13,101; TuyaMCU 14,102; TuyaMCU 15,105; TuyaMCU 16,106; DimmerRange 0,9
 
 Rule1 ON TuyaReceived#DpId!=3 DO BREAK ON TuyaReceived#DpIdData DO Var2 %value% ENDON
 Rule2 ON TuyaReceived#DpId!=104 DO BREAK ON TuyaReceived#DpIdData DO Var3 %value% ENDON
-Rule3 ON Time#Minute|5 DO publish stat/humidifier1/STATE {""rh"":""0x%Var2%"",""temp"":""0x%Var3%"",""ts"":""%timestamp%""} ENDON
+Rule3 ON Time#Minute|5 DO publish stat/humidifier1/STATE {"rh":"0x%Var2%","temp":"0x%Var3%","ts":"%timestamp%"} ENDON
 ```
 
-
-
-
-
-
+Don't forget to activate rules
+```
+Backlog Rule1 1; Rule2 1; Rule3 1
+```
