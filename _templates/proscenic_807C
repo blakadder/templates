@@ -17,6 +17,7 @@ link_alt:
 Flashed via serial by using TYWE3S pins.
 
 ## Functions
+
 | dpID | Data Type | Function |
 | --- | --- | --- |
 | 1 | binary | power off-on |
