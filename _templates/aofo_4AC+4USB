@@ -1,0 +1,23 @@
+---
+date: 2019-11-08
+title: AOFO 4AC+4USB
+category: plug
+type: Power Strip
+standard: eu
+link: https://www.amazon.de/AOFO-Steckdosenleiste-Fernsteuerung-Mehrfachsteckdose-%C3%9Cberspannungsschutz/dp/B07X1H3NWF
+image: https://images-na.ssl-images-amazon.com/images/I/816DuO0a4WL._SL1500_.jpg
+template: '{"NAME":"AOFO-4AC-4USB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":1,"BASE":54}' 
+link_alt: 
+---
+
+`Backlog TuyaMCU 11,38; TuyaMCU 12,1; TuyaMCU 13,2; TuyaMCU 14,3; TuyaMCU 15,4 ; TuyaMCU 16,7`
+
+`dpID 38` Controls all switches and USB
+
+`dpID 1``dpID 2``dpID 3``dpID 4` Control AC
+
+`dpID 7` Controls USB
+
+`dpID 9` , `dpID 10`, `dpID 11`,`dpID 12` and  `dpID 15` set timer in seconds for AC 1-4 and USB
+
+
