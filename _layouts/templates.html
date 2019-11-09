@@ -19,9 +19,9 @@ layout: default
         Available from:
       </b>
       <br>
-    <a class="menu" href="{{page.link}}">{{ page.link | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+    <a class="menu" href="{{page.link}}">{{ page.link | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
     <br>
-    <a class="menu" href="{{page.link_alt}}">{{ page.link_alt | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+    <a class="menu" href="{{page.link_alt}}">{{ page.link_alt | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
   </div>
 
 <img src="{{ page.image }}" alt="{{ page.name }}" height="250">
