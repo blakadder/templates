@@ -6,16 +6,14 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/Steckdose-Maxcio-Intelligente-Kompatibel-Steuerung/dp/B07GH7XRB5
 image: https://user-images.githubusercontent.com/5904370/68094967-c0d8bf80-fea5-11e9-8109-53daf18d42cc.png
-template: '{"NAME":"Maxcio YX-DE04","GPIO":[0,17,0,21,56,0,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Maxcio YX-DE04","GPIO":[255,17,255,21,56,40,255,255,37,38,39,255,255],"FLAG":1,"BASE":18}' 
 link_alt: 
 ---
 
-I found out that no configurable relay controls the USB-Ports, maybe they are not switchable, didn't open the plug.
+USB-Ports are always on.
 
-Vendor says LED is RGB+White (2700K to 6000K), I found no way to configure the white color via tasmota.
+Toggle 1 is the Relay
+Toggle 2 is the Lamp
 
-
-
-
-
+RGB LED and white LED can be controlled in Amazon Alexa App, when Hue Emulation is on .
 
