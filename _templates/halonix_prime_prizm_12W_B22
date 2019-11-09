@@ -5,7 +5,7 @@ category: light
 type: Bulb
 standard: in
 link: https://www.amazon.in/Halonix-Compatible-Amazon-Google-Assistant/dp/B07NN6SZQM
-image: http://www.halonix.co.in/wp-content/uploads/2019/03/prizm-light-1.png
+image: ![image](https://user-images.githubusercontent.com/5904370/68528449-1b817980-02f3-11ea-9988-07e14ffd02e9.png)
 template: '{"NAME":"Halonix Prizm ","GPIO":[255,255,255,255,37,40,255,255,38,41,39,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
