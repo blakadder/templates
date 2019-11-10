@@ -1,0 +1,19 @@
+---
+date: 2019-11-10
+title: 3Stone 10W A21 RGBW
+category: light
+type: Bulb
+standard: us
+link: https://www.amazon.com/gp/product/B07HR8GT12
+image: https://imgur.com/qN6ncXs.jpg
+template: '{"NAME":"3STONE","GPIO":[255,255,255,255,141,140,255,255,37,142,255,255,255],"FLAG":15,"BASE":18}' 
+link_alt: 
+---
+
+Easily flashed with tuya-convert
+
+
+
+
+
+
