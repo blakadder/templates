@@ -1,0 +1,21 @@
+---
+date: 2019-11-10
+title: Adafruit HUZZAH
+category: misc
+type: DIY
+standard: global
+link: https://www.adafruit.com/product/2471
+image: https://cdn-learn.adafruit.com/assets/assets/000/024/724/medium800/adafruit_products_2471_top_180rotated_ORIG.jpg
+template: '{"NAME":"Huzzah","GPIO":[17,0,56,0,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+[Product overview](https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/overview)
+
+[Pinout information](https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/pinouts)
+
+
+
+
+
+
