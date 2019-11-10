@@ -5,7 +5,7 @@ category: misc
 type: DIY
 standard: global
 link: https://www.adafruit.com/product/2471
-image: https://cdn-learn.adafruit.com/assets/assets/000/024/724/medium800/adafruit_products_2471_top_180rotated_ORIG.jpg
+image: https://user-images.githubusercontent.com/5904370/68545564-894ea380-03ce-11ea-8031-7e4659723921.png
 template: '{"NAME":"Huzzah","GPIO":[17,0,56,0,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
