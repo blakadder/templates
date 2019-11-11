@@ -26,6 +26,8 @@ Based on :
 - Program Version	6.6.0.16 stb-1.16(sonoff)
 - Build Date & Time	2019-10-09T07:26:57
 ```lua
+template: {"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18}
+
 interlock on
 interlock 1,2,3
 PulseTime1 0
