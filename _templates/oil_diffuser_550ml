@@ -20,32 +20,33 @@ Tuya Product ID: GQxEe5orh45cMgA61.0
 PCB code: KCL-M1801C_M 2018_11_12 V5.0
 
 ## Functions
-`dpID 2` device mode: 0 = off / 1 = continuous / 2 = intermittent / 3 = timer    
-`dpID 4` set timer: 180 min max *not needed with Tasmota*    
-`dpID 6` light control: 0 = off / 1 = rgb cycle / 2 = white / 3 = single color   
+`dpID 2` device mode: `0 = off / 1 = continuous / 2 = intermittent / 3 = timer`    
+`dpID 4` set timer (180 min max) *not needed with Tasmota, there's a Timer function*    
+`dpID 6` light control: `0 = off / 1 = rgb cycle / 2 = white / 3 = single color`   
 `dpID 7` led dimmer    
-`dpID 8` led color: 14 char value in hex (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
-`dpID 9` error notification: 0 = ok / 1 = error  
-`dpID 101` mist strength: 0 = low / 1 = high    
+`dpID 8` led color: `14 char value in hex` (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
+`dpID 9` error notification: 70 = ok / 1 = error`  
+`dpID 101` mist strength: `0 = low / 1 = high`    
 
 ## Configuration
 
 After applying the template and configuring Wi-Fi and MQTT issue
 
 ```haskell
-Backlog SetOption66 1; TuyaMCU 21,7; TuyaMCU 11,111; TuyaMCU 12,112; TuyaMCU 13,101; TuyaMCU 14,9; TuyaMCU 15,115; DimmerRange 1,255; SetOption59 1; Switchmode 1
+Backlog SetOption66 1; TuyaMCU 21,7; TuyaMCU 11,111; TuyaMCU 12,101; TuyaMCU 13,133; TuyaMCU 14,9; TuyaMCU 15,115; DimmerRange 1,255; SetOption59 1; SwitchMode 1
+```
+
+For diffuser control and status:
+```haskell
+Rule1 ON TuyaReceived#Data=55AA00070005020400010012 do Power1 0 ENDON ON TuyaReceived#Data=55AA00070005020400010113 do Power1 1 ENDON ON TuyaReceived#Data=55AA00070005020400010214 do Power1 1 ENDON ON TuyaReceived#Data=55AA00070005020400010315 do TuyaSend4 2,1 ENDON ON Power1#State=1 do TuyaSend4 2,1 ENDON ON Power1#State=0 do TuyaSend4 2,0 ENDON
+```
+For light control and status:
+```haskell
+Rule2 ON Power3#State=1 do backlog Tuyasend4 6,3; publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} ENDON ON Power3#State=0 do Backlog TuyaSend4 6,0; publish2 tele/diffuser/STATE {"Light":"OFF"} ENDON ON Event#light_off do TuyaSend4 6,0 ENDON ON Event#rgb_cycle do TuyaSend4 6,1 ENDON ON Event#white do TuyaSend4 6,2 ENDON ON Event#color do TuyaSend4 6,3 ENDON
 ```
 
 ```haskell
-Rule1 on TuyaReceived#Data=55AA00070005020400010012 do power1 0 endon on TuyaReceived#Data=55AA00070005020400010113 do power1 1 endon on TuyaReceived#Data=55AA00070005020400010214 do power1 1 endon on TuyaReceived#Data=55AA00070005020400010315 do power1 1 endon on power1#state=1 do tuyasend4 2,1 endon on power1#state=0 do tuyasend4 2,0 endon 
-```
-
-```haskell
-Rule2 on power2#state=1 do backlog Tuyasend4 6,3; publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} endon on power2#state=0 do Backlog TuyaSend4 6,0; publish2 tele/diffuser/STATE {"Light":"OFF"} endon on mqtt#connected do serialsend5 55aa0001000000 endon on Event#rgb_cycle do TuyaSend4 6,1 endon on Event#color do TuyaSend4 6,3 endon on Event#white do TuyaSend4 6,2 endon on Event#light_off do TuyaSend4 6,0 endon
-```
-
-```haskell
-Rule3 on TuyaReceived#Data=55AA00070005060400010319 do publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} endon on TuyaReceived#Data=55AA00070005060400010016 do publish2 tele/diffuser/STATE {"Light":"OFF","LightMode":"light_off"} endon on TuyaReceived#Data=55AA00070005060400010117 do publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"rgb_cycle"} endon 
+Rule3 ON TuyaReceived#Data=55AA00070005060400010319 do Power3 1 ENDON ON TuyaReceived#Data=55AA00070005060400010117 do Publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"rgb_cycle"} ENDON ON TuyaReceived#Data=55AA00070005060400010016 do Power3 0 ENDON ON TuyaReceived#Data=55AA00070005060400010218 do Publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"white"} ENDON
 ```
 Don't forget to activate rules
 ```
@@ -53,13 +54,14 @@ Backlog Rule1 1; Rule2 1; Rule3 1
 ```
 
 ### What you get
-- Relay1 serves as device power status with the help of Rule1, dummy relay no control
-- Relay2 turns light on or off with Rule3
-- Relay3 mist strength status and control
-- Relay4 is used for error status (ON = error), no control
-- Relay5 is a dummy relay so the dimmer doesn't control the lights or power
+- fnid11 = Relay1 serves as device power status with the help of Rule1, dummy relay no control
+- fnid12 = Relay2 is mist strength status and control
+- fnid13 = Relay3 turns light on or off with Rule2 and Rule3
+- fnid14 = Relay4 is used for error status (ON = error), no control
+- find15 = Relay5 is a dummy relay so the dimmer doesn't control the other relays if we don't make one dimmer uses the last relay and would trigger errors
+- fnid21 = Dimmer
 
-LED mode status is reported to mqtt topic `tele/diffuser/STATE` and command [`Event`](https://github.com/arendst/Tasmota/wiki/Commands#event) is used to control some functions using [`TuyaSend4`](https://github.com/arendst/Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule3`
+Light mode and status are reported to mqtt topic `tele/diffuser/STATE` and command [`Event`](https://github.com/arendst/Tasmota/wiki/Commands#event) is used to change light modes using [`TuyaSend4`](https://github.com/arendst/Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule2`
 
 Color can be changed using `TuyaSend3 8,RRGGBB64646464` (RR, GG and BB are hex value) only in color mode.
 
@@ -85,8 +87,8 @@ fan:
     payload_on: "ON"
     payload_off: "OFF"
     speed_state_topic: "tele/diffuser/STATE"
-    speed_value_template: "{{ value_json.POWER3 }}"
-    speed_command_topic: "cmnd/diffuser/POWER3"
+    speed_value_template: "{{ value_json.POWER2 }}"
+    speed_command_topic: "cmnd/diffuser/POWER2"
     payload_low_speed: "OFF"
     payload_high_speed: "ON"
     qos: 1
@@ -109,12 +111,12 @@ binary_sensor:
 light:
   - platform: mqtt
     name: "Diffuser Lamp"
-    command_topic: "cmnd/diffuser/POWER2"
+    command_topic: "cmnd/diffuser/POWER3"
     state_topic: "tele/diffuser/STATE"
     state_value_template: "{% if value_json.Light is defined %}{{ value_json.Light }}{% endif %}"
     payload_on: "ON"
     payload_off: "OFF"
-    brightness_command_topic: "cmnd/diffuser/Dimmer"
+    brightness_command_topic: "cmnd/diffuser/DIMMER"
     brightness_state_topic: "tele/diffuser/STATE"
     brightness_scale: 100
     brightness_value_template: "{{ value_json.Dimmer }}"
@@ -122,15 +124,15 @@ light:
     effect_state_topic: "tele/diffuser/STATE"
     effect_value_template: "{% if value_json.Light is defined %}{{ value_json.LightMode }}{% endif %}"
     effect_list:
-      - light_off
       - rgb_cycle
       - color
+      - white
     availability_topic: "tele/diffuser/LWT"
     payload_available: "Online"
     payload_not_available: "Offline"
     qos: 1
     retain: false
-    rgb_command_topic: "cmnd/diffuser/tuyasend3"
+    rgb_command_topic: "cmnd/diffuser/TUYASEND3"
     rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '8,%02x%02x%02xffff6464' | format(red, green, blue)}}"
     rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 8 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
     rgb_state_topic: "tele/diffuser/RESULT"
@@ -142,7 +144,7 @@ All entities under one card:
 ![Final config](https://user-images.githubusercontent.com/5904370/68260667-f0223480-003d-11ea-8a07-849ae60b81e2.png)
 
 
-Here's a list of captured serial codes:
+Here's a list of captured serial codes used for debugging:
 
 ```lua
 set wifi led state
