@@ -26,7 +26,9 @@ PCB code: KCL-M1801C_M 2018_11_12 V5.0
 `dpID 7` led dimmer    
 `dpID 8` led color: `14 char value in hex` (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
 `dpID 9` error notification: 70 = ok / 1 = error`  
-`dpID 101` mist strength: `0 = low / 1 = high`    
+`dpID 101` mist strength: `0 = low / 1 = high`   
+
+> I found the built in buzzer very annoying and desoldered it for quieter operation!
 
 ## Configuration
 
@@ -42,7 +44,7 @@ Rule1 ON TuyaReceived#Data=55AA00070005020400010012 do Power1 0 ENDON ON TuyaRec
 ```
 For light control and status:
 ```haskell
-Rule2 ON Power3#State=1 do backlog Tuyasend4 6,3; publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} ENDON ON Power3#State=0 do Backlog TuyaSend4 6,0; publish2 tele/diffuser/STATE {"Light":"OFF"} ENDON ON Event#light_off do TuyaSend4 6,0 ENDON ON Event#rgb_cycle do TuyaSend4 6,1 ENDON ON Event#white do TuyaSend4 6,2 ENDON ON Event#color do TuyaSend4 6,3 ENDON
+Rule2 ON Power3#State=1 do backlog Tuyasend4 6,3; publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} ENDON ON Event#light_off do TuyaSend4 6,0 ENDON ON Event#rgb_cycle do TuyaSend4 6,1 ENDON ON Event#white do TuyaSend4 6,2 ENDON ON Event#color do TuyaSend4 6,3 ENDON ON Power3#State=0 do Backlog TuyaSend4 6,0; publish2 tele/diffuser/STATE {"Light":"OFF"} ENDON
 ```
 
 ```haskell
