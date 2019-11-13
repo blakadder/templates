@@ -1,0 +1,23 @@
+---
+date: 2019-11-13
+title: Hyleton 315
+category: plug
+type: Plug
+standard: uk
+link: https://www.amazon.co.uk/hyleton-Compatible-Anywhere-Countdown-Function/dp/B07B7HMKND
+image: https://images-na.ssl-images-amazon.com/images/I/51l0FwQKv3L._SL1200_.jpg
+template: '{"NAME":"hyleton-315","GPIO":[0,0,0,0,57,56,0,0,21,90,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: https://webcache.googleusercontent.com/search?q=cache:H2aqs33UJD4J:https://www.amazon.co.uk/hyleton-Compatible-Anywhere-Countdown-Function/dp/B07B7HMKND+&cd=1&hl=en&ct=clnk&gl=uk&client=firefox-b-d
+---
+
+Similar to the Hyleton 317, this uses the Tuya TYWE3S module in place of the ESP8266, but using something such as [tuya-convert][1] can very easily convert the unit to Tasmota firmware. Blue LED on GPIO4, red LED on GPIO5, relay on GPIO12, button on GPIO13. Flash mode appears to be `1M QIO` on these units, but double-check during the tuya-convert process.
+
+Be warned the Amazon UK link appears to have since gone dead (even opening it from my own order history), inexplicably.
+
+[1]: https://github.com/ct-Open-Source/tuya-convert
+
+
+
+
+
+
