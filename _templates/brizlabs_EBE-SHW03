@@ -1,0 +1,19 @@
+---
+date: 2019-11-13
+title: BrizLabs EBE-SHW03
+category: light
+type: Bulb
+standard: eu
+link: https://www.amazon.de/gp/product/B07KZN74YJ
+image: https://images-na.ssl-images-amazon.com/images/I/51nlRnyL2%2BL._AC_SL1000_.jpg
+template: '{"NAME":"BrizLabs","GPIO":[255,255,255,255,140,37,0,0,0,142,141,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+RGBWW, flashable with tuya-convert, extremely small wifi range
+
+
+
+
+
+
