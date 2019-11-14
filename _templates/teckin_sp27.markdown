@@ -12,6 +12,10 @@ link_alt:
 
 Tuya-Convert OTA flashing compatible
 
+Warning: As of mid-November 2019, units purchased from Amazon.co.uk would not program with tuya-convert. Issue reported on the tuya-convert Github page as issue #394 https://github.com/ct-Open-Source/tuya-convert/issues/394
+
+It appears that Teckin have changed the hardware and the new devices are using an RTL8710 which won't work with Tasmota.
+
 
 
 
