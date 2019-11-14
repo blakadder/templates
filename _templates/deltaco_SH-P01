@@ -1,0 +1,19 @@
+---
+date: 2019-11-14
+title: DELTACO SH-P01
+category: plug
+type: Plug
+standard: eu
+link: https://www.deltaco.se/produkter/deltaco/smart-home/grenuttag/SH-P01
+image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-P01.png?width=260
+template: '{"NAME":"DELTACO SH-P01","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
+link_alt: 
+---
+
+Haven't got the led working, but rest works
+
+
+
+
+
+
