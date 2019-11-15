@@ -1,0 +1,32 @@
+---
+date: 2019-11-15
+title: Garage Door Controller
+category: relay
+type: Relay
+standard: global
+link: https://www.aliexpress.com/snapshot/0.html?spm=a2g0s.9042647.6.2.539d4c4dLLfurj&orderId=8002012774661042&productId=32987501714
+image: https://ae01.alicdn.com/kf/HTB1rYNFRCzqK1RjSZPxq6A4tVXaR/Zemismart-Wifi-Garage-Door-Controller-for-Car-Garage-Door-Opener-APP-Remote-Control-Timing-Voice-Control.jpg
+template: '{"NAME":"Garage Opener","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link_alt: https://www.ebay.com.au/i/283588248968?chn=ps&norover=1&mkevt=1&mkrid=705-139619-5960-0&mkcid=2&itemid=283588248968&targetid=835594789185&device=c&mktype=pla&googleloc=9071258&poi=&campaignid=7408627122&mkgroupid=86410136288&rlsatarget=aud-786643580326:pla-835594789185&abcId=1139226&merchantid=7364522&gclid=Cj0KCQiAtrnuBRDXARIsABiN-7C1a8v5Bzv69x30s2IP1Jd2Y3dHBxwQ1lLz6OlOvt_JZZX-U8li1EMaAmpDEALw_wcB
+---
+
+Generic garage opener, TuyaMCU relay with magnetic reed switch
+
+"SwitchMode":[4,1,0,0,0,0,0,0] could use inverted also.
+
+```
+on switch2#state=1 do publish2 stat/SW_Garage/POWER2 Open endon on switch2#state=0 do publish2 stat/SW_Garage/POWER2 Closed endon
+```
+Needs to have POWER topic separated to split out reed switch from relay results. Config might need to be adjusted to have LED work correctly.
+
+fnId=2 is set for dpId=101
+
+fnId=11 is set for dpId=1
+
+fnId=0 is set for dpId=7"
+
+
+
+
+
+
