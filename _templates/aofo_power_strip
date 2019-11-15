@@ -5,7 +5,7 @@ category: plug
 type: Power Strip
 standard: uk
 link: https://www.amazon.co.uk/gp/product/B07MZSH3CF/ref=ppx_yo_dt_b_asin_title_o02_s01?ie=UTF8&psc=1
-image: https://images-na.ssl-images-amazon.com/images/I/71MyqtnW5SL._AC_UL115_.jpg
+image: https://images-na.ssl-images-amazon.com/images/I/41Y%2BIh-KVdL._SL1000_.jpg
 template: '{"NAME":"AOFO4AC4USB-UK","GPIO":[0,56,0,17,23,24,0,0,22,21,33,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
