@@ -11,6 +11,8 @@ link_alt:
 
 Sonoff B1 R2 is the replacement for Sonoff B1 and can be programmed the same way as the B1. See [here](https://github.com/arendst/Tasmota/issues/3347#issuecomment-413579744) for more background information.
 
+Sonoff B1 uses hardware PWM (My92x1 chips) and has hardware Gamma correction. You need to disable software Gamma correction with `LedTable 0`
+
 ## Serial Flashing
 
 Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
