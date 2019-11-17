@@ -80,7 +80,9 @@ This implementation is suited to specific needs and does not incorporate all fea
 
 
 configuration.yaml
-```yaml
+{% highlight yaml %}
+{% raw %}
+
 switch:
   - platform: mqtt
     name: "Zvlhčovač vzduchu"
@@ -129,7 +131,9 @@ light:
     rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '8,%02x%02x%02xffff6464' | format(red, green, blue)}}"
     rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 8 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
     rgb_state_topic: "tele/<TOPIC>/RESULT"
-```
+
+{% endraw %}
+{% endhighlight %}
 
 All entities under one card:
 ![Final config](https://user-images.githubusercontent.com/5904370/68260667-f0223480-003d-11ea-8a07-849ae60b81e2.png)
