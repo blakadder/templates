@@ -11,7 +11,7 @@ link_alt: https://www.aliexpress.com/i/4000106627197.html
 ---
 
 Rule to toggle LED's with relays...    
-'Backlog ledmask 0x0000; seriallog 0; rule1 on power1#state do power3 %value% endon on power2#state do power4 %value% endon; rule1 1'
+`Backlog ledmask 0x0000; seriallog 0; rule1 on power1#state do power3 %value% endon on power2#state do power4 %value% endon; rule1 1`
 
 Rule for Button to control both relays
 
@@ -19,7 +19,7 @@ Rule for Button to control both relays
 
 2 short presses for relay2...
 
-'Backlog ButtonTopic 0; SetOption1 1; SetOption11 1; SetOption32 20; Rule2 on button1#state=3 do delay endon on button1#state=2 do power2 toggle endon; Rule2 1'
+`Backlog ButtonTopic 0; SetOption1 1; SetOption11 1; SetOption32 20; Rule2 on button1#state=3 do delay endon on button1#state=2 do power2 toggle endon; Rule2 1`
 
 
 
