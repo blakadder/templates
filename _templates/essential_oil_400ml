@@ -1,0 +1,156 @@
+---
+date: 2019-11-16
+title: Essential Oil 400ml
+category: misc
+type: Aromatherapy Diffuser
+standard: global
+link: https://www.aliexpress.com/item/33025385597.html?spm=a2g0s.9042311.0.0.27424c4dmAh0TE
+image: https://i.postimg.cc/zGP7d3W1/Koment-r-2019-11-16-195020.png
+template: '{"NAME":"XD800W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link_alt: 
+---
+
+[![IMG-20190505-230944.jpg](https://i.postimg.cc/zGP7d3W1/Koment-r-2019-11-16-195020.png)](https://i.postimg.cc/zGP7d3W1/Koment-r-2019-11-16-195020.png)
+
+I didn't find manufacturer but the models are marked as 802W to 808W there is just different top cover.
+
+**Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**
+
+Please read [TuyaMCU](https://github.com/arendst/Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process.
+
+Flashed via Tuya convert. I was not succesfull with flashing via serial pins, I even desoldered the module from PCB. Also I found out there are GPIO 4 and 5 (probably others too) free so it could be connected to additional sensors.
+
+
+## Functions
+`dpID 1` device mode: `0 = off / 1 = continuous` Type1 
+
+`dpID 2` error notification ?: 0 = ok / 1 = error` Type1
+
+`dpID 3` set timer `0 = off / 1 = 1 hour / 2 = 3 hours / 3 = 6 hours` *not needed with Tasmota, there's a Timer function* Type4
+
+`dpID 5` light switch: `0 = off / 1 = on ` Type1
+
+`dpID 6` light mode: `0 = off / 1 = rgb cycle  3 = single color` Type4
+
+`dpID 8` led color: `14 char value in hex` (can define only RGB and send HSV value as max: `RRGGBBffff6464`) Type4  
+
+> I found the built in buzzer very loud so I dropped little hotglue to the center of it for quieter operation!
+
+## Configuration
+
+After applying the template and configuring Wi-Fi and MQTT issue
+
+```haskell
+Backlog SetOption66 1; TuyaMCU 11,1; TuyaMCU 12,5; TuyaMCU 14,2; TuyaMCU 15,6; SetOption59 1  
+```
+
+For diffuser power on through button:
+```haskell
+Rule1 ON Power1#State=1 do TuyaSend4 3,0 ENDON
+```
+
+For light control and status:
+```haskell
+Rule2 ON Power2#State=1 do backlog publish2 tele/<TOPIC>/STATE {"Light":"ON","LightMode":"color"} ENDON ON Event#light_off do TuyaSend4 6,0 ENDON ON Event#rgb_cycle do TuyaSend4 6,1 ENDON ON Event#color do TuyaSend4 6,0 ENDON ON Power2#State=0 do Backlog publish2 tele/<TOPIC>/STATE {"Light":"OFF"} ENDON
+```
+
+```haskell
+Rule3 ON Power5#State=1 do backlog Publish2 tele/<TOPIC>/STATE {"Light":"ON","LightMode":"rgb_cycle"} ENDON  ON Power5#State=0 do backlog Publish2 tele/<TOPIC>/STATE {"Light":"ON","LightMode":"color"} ENDON
+```
+
+Don't forget to activate rules
+```
+Backlog Rule1 1; Rule2 1; Rule3 1
+```
+
+### What you get
+- fnid11 = Relay1 serves as device power 
+- fnid12 = Relay2 turns light on or off
+- fnid14 = Relay4 should represent error status but I am not sure
+- find15 = controls the type of light
+
+Light mode and status are reported to mqtt topic `tele/<TOPIC>/STATE` and command [`Event`](https://github.com/arendst/Tasmota/wiki/Commands#event) is used to change light modes using [`TuyaSend4`](https://github.com/arendst/Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule2`
+
+Color can be changed using `TuyaSend3 8,RRGGBB64646464` (RR, GG and BB are hex value) only in color mode.
+
+Dimming is controlled by HSV values, HomeAssistant can handle this natively.
+
+## Home Assistant configuration
+This implementation is suited to specific needs and does not incorporate all features of the device, mostly to avoid weird situations and wrong states being reported.
+
+
+configuration.yaml
+```yaml
+switch:
+  - platform: mqtt
+    name: "Zvlhčovač vzduchu"
+    command_topic: "cmnd/<TOPIC>/POWER1"
+    state_topic: "stat/<TOPIC>/POWER1"
+    payload_on: "ON"
+    payload_off: "OFF"
+    retain: false 
+    optimistic: false
+    availability_topic: "tele/<TOPIC>/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+
+binary_sensor:
+  - platform: mqtt
+    name: "Zvlhčovač chyba"
+    state_topic: "stat/<TOPIC>/POWER4"
+    payload_on: "ON"
+    payload_off: "OFF"
+    availability_topic: "tele/<TOPIC>/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    qos: 1
+    device_class: problem
+
+light:
+  - platform: mqtt
+    name: "Zvlhčovač podsvietenie"
+    command_topic: "cmnd/<TOPIC>/POWER2"
+    state_topic: "tele/<TOPIC>/STATE"
+    state_value_template: "{% if value_json.Light is defined %}{{ value_json.Light }}{% endif %}"
+    payload_on: "ON"
+    payload_off: "OFF"
+    effect_command_topic: "cmnd/<TOPIC>/EVENT"
+    effect_state_topic: "tele/<TOPIC>/STATE"
+    effect_value_template: "{% if value_json.Light is defined %}{{ value_json.LightMode }}{% endif %}"
+    effect_list:
+      - rgb_cycle
+      - color
+    availability_topic: "tele/<TOPIC>/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    qos: 1
+    retain: false
+    rgb_command_topic: "cmnd/<TOPIC>/TUYASEND3"
+    rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '8,%02x%02x%02xffff6464' | format(red, green, blue)}}"
+    rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 8 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
+    rgb_state_topic: "tele/<TOPIC>/RESULT"
+```
+
+All entities under one card:
+![Final config](https://user-images.githubusercontent.com/5904370/68260667-f0223480-003d-11ea-8a07-849ae60b81e2.png)
+
+Some photos of PCB
+![PCB1](https://i.postimg.cc/QdgMJYzL/IMG-20191111-174536.jpg
+)
+![PCB2](https://i.postimg.cc/hGP7zqtZ/IMG-20191111-221038.jpg
+)
+![PCB3](https://i.postimg.cc/V6JrgBMj/IMG-20191111-221045.jpg
+)
+![PCB4](https://i.postimg.cc/SKTYctXS/IMG-20191111-221113.jpg
+)"
+
+
+
+
+
+
+
+
+
+
+
