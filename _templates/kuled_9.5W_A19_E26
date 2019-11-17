@@ -1,0 +1,28 @@
+---
+date: 2019-11-17
+title: Kuled 9.5W A19 E26 RGBW
+category: light
+type: Bulb
+standard: us
+link: https://www.amazon.ca/Multicolor-Compatible-Required-Equivalent-Changing/dp/B07SJBM59B
+image: https://images-na.ssl-images-amazon.com/images/I/31OJkWzCLRL._AC_SY400_.jpg
+template: '{"NAME":"KULED 60W RGB","GPIO":[255,255,255,255,39,40,255,255,37,255,38,255,255],"FLAG":1,"BASE":18}' 
+link_alt: 
+---
+
+You need to change a few options. This differs from the generic because of the remapped LED channels. Use tasmota-wifiman.bin firmware.
+
+Tested with tasmota 7.0.0.4, works great. Cool white is simulated.
+
+`setoption15 1`   
+`setoption17 1`   
+`setoption37 30`    
+
+To remap the LED channels. (Blue works without this, but red and green are swapped, and intermediate colours don't work without this command)   
+`setoption59 1`"
+
+
+
+
+
+
