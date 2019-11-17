@@ -1,0 +1,19 @@
+---
+date: 2019-11-16
+title: Zemismart WN-C03E
+category: switch
+type: Switch
+standard: eu
+link: https://www.zemismart.com/zemismart-wifi-wall-push-switch-alexa-google-home-tuya-light-switches-three-gangs-two-gangs-one-gang-physical-button-p0219-p0219.html
+image: https://ae01.alicdn.com/kf/Hd88cc0b5981f4582a25ebf4e3f0178cfG.jpg
+template: '{"NAME":"ZSmart WN-L03E","GPIO":[0,0,0,0,23,17,0,0,19,21,22,0,18],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+buttons and relays; no wifi light
+
+
+
+
+
+
