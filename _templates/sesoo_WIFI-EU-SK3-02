@@ -1,0 +1,19 @@
+---
+date: 2019-11-18
+title: Sesoo WIFI-EU-SK3-02
+category: switch
+type: Switch
+standard: eu
+link: https://www.aliexpress.com/item/32896267121.html
+image: https://i.imgur.com/X5XuEt2.png
+template: '{"NAME":"Sesoo SK3-02","GPIO":[0,0,57,0,22,0,0,0,17,21,18,0,52],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Led2 does not actually turn the button LED on off, that is done via hardware. Led2 is there to make sure Led1 corresponds to connection state (LedState 8)
+
+
+
+
+
+
