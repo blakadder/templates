@@ -1,0 +1,21 @@
+---
+date: 2019-11-18
+title: Brilliant RGB+W 20699
+category: light
+type: Bulb
+standard: anzac
+link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
+image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20699-1.jpg
+template: '{"NAME":"Brilliant RGBW","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Flashed with tuya-convert
+
+White LED:   
+PWM on GPIO12
+
+RGB LED uses SM6716 LED controller:   
+DAT on GPIO4   
+CLK on GPIO5   
+PWR on GPIO13
