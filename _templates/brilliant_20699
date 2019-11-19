@@ -6,7 +6,7 @@ type: Bulb
 standard: anzac
 link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20699-1.jpg
-template: '{"NAME":"Brilliant RGBW","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Brilliant20699","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
@@ -19,3 +19,5 @@ RGB LED uses SM6716 LED controller:
 DAT on GPIO4   
 CLK on GPIO5   
 PWR on GPIO13
+
+Process and images: https://newadventuresinwi-fi.blogspot.com/2019/11/brilliant-wifi-a60-globes-rgbw-20699.html
