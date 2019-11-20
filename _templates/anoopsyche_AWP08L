@@ -1,0 +1,23 @@
+---
+date: 2019-11-20
+title: Anoopsyche AWP08L
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.de/gp/product/B07PMQKH2X
+image: https://images-na.ssl-images-amazon.com/images/I/61WY7viI5eL._AC_SL1500_.jpg
+template: '{"NAME":"AWP08L-Annopsy","GPIO":[0,0,0,0,17,56,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+This device from Anoopsyche is different than the AWP08L seen at https://blakadder.github.io/templates/AWP08L.html.
+
+For this one the layout is:   
+GPIO 04: Button1   
+GPIO 05: LED1 inverted    
+GPIO 12: Relay1    
+
+
+
+
+
