@@ -114,7 +114,7 @@ light:
   - platform: mqtt
     name: "Diffuser Lamp"
     command_topic: "cmnd/diffuser/POWER3"
-    state_topic: "tele/diffuser/STATE"
+    state_topic: "stat/diffuser/POWER3"
     state_value_template: "{% if value_json.Light is defined %}{{ value_json.Light }}{% endif %}"
     payload_on: "ON"
     payload_off: "OFF"
