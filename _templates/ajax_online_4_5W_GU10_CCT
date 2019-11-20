@@ -1,0 +1,19 @@
+---
+date: 2019-11-19
+title: Ajax Online 4.5W GU10 CCT
+category: light
+type: Bulb
+standard: uk
+link: https://www.amazon.co.uk/Google-Tunable-Dimmable-Ambiance-Lighting/dp/B07M6R3ZLG
+image: https://images-na.ssl-images-amazon.com/images/I/71Fduk5nEuL._SX679_.jpg
+template: '{"NAME":"AjaxOnline","GPIO":[17,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":38}' 
+link_alt: 
+---
+
+Flashed with tuya-convert
+
+
+
+
+
+
