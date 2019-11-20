@@ -1,0 +1,18 @@
+---
+date: 2019-11-20
+title: IOT4SH01DS Temperature
+category: misc
+type: Sensor
+standard: global
+link: https://www.iot4.eu/?product=iot4sh01ds
+image: https://www.iot4.eu/wp-content/uploads/2017/03/IMG_0694_hatter.png
+template: '{"NAME":"IOT4SH01DS","GPIO":[255,255,255,255,255,255,255,255,255,4,255,255,255],"FLAG":15,"BASE":18}' 
+link_alt: 
+---
+
+Simplest to update the device accross OTA
+
+
+
+
+
