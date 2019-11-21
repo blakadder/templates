@@ -6,11 +6,11 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B071Z94F4F
 image: https://images-na.ssl-images-amazon.com/images/I/31w9LCm0ymL._SX425_.jpg
-template: '{"NAME":"MJ_XS-SSA01","GPIO":[0,0,0,0,0,0,0,0,56,17,0,21,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"MJ_XS-SSA01","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
-This is a plug bought in 2017. The model XS-SSA01 is already listed as a template as well as is "Martin Jerry" plug. However the IO assignments are different between the seemingly identical models.
+This is a plug bought in 2019. The model XS-SSA01 is already listed as a template as well as is "Martin Jerry" plug. However the IO assignments are different between the seemingly identical models.
 FCC ID: 2AL65-XSSSA01"
 
 
