@@ -12,6 +12,7 @@ link_alt:
 
 
 
-Current versions sold on Amazon are coming with a non-ESP based chip.
+Some current versions sold on Amazon are coming with a non-ESP based chip.
 Tuya Convert error: WARNING: it appears this device does not use an ESP82xx and therefore cannot install ESP based firmware
 
+Some still are sold and successfully convert.   
