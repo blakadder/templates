@@ -12,4 +12,6 @@ link_alt: https://www.cesmarthome.com/LA-2-W3.html
 
 Found in Costco stores.  (Not seen from online vendor as of this writing.)  Wire outlet to a grounded cord or a wall junction box carefully.  Run tuya-convert process and install template into tasmota. Only the bottom plug will have Wifi control. 
 
+Using LedLink (157) for GPIO4 shows WiFi status on the leftmost LED, maintaining functionality of the other two (power and relay on)
+
 
