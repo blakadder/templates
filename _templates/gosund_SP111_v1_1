@@ -1,0 +1,19 @@
+---
+date: 2019-11-23
+title: Gosund SP111 V1.1
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.de/gp/product/B07PRDZ7F3
+image: https://images-na.ssl-images-amazon.com/images/I/71vYjVhPC-L._SL1500_.jpg
+template: '{"NAME":"Gosund SP111","GPIO":[56,0,57,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+PCB Layout V1.1
+
+
+
+
+
+
