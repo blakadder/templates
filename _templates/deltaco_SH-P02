@@ -1,0 +1,19 @@
+---
+date: 2019-11-23
+title: Deltaco SH-P02
+category: plug
+type: Plug
+standard: eu
+link: https://www.webhallen.com/se/product/309651-Deltaco-WiFi-Smart-Plug-2-Way-Outlet-Energiovervakning-10A
+image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-P02.png?width=260
+template: '{"NAME":"SH-P02","GPIO":[18,0,0,0,134,132,0,0,131,56,21,22,17],"FLAG":0,"BASE":18}' 
+link_alt: https://www.deltaco.se/produkter/deltaco/smart-home/grenuttag/SH-P02
+---
+
+Used Tuya-convert to load Tasmota
+
+
+
+
+
+
