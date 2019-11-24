@@ -1,0 +1,19 @@
+---
+date: 2019-11-23
+title: Syska 9W B22 RGBW
+category: light
+type: Bulb
+standard: in
+link: https://www.amazon.in/gp/product/B07P9R6DKP
+image: https://images-na.ssl-images-amazon.com/images/I/412sFP8Q4aL._SL1000_.jpg
+template: '{"NAME":"SyskaSmartBulb","GPIO":[255,255,255,255,37,40,255,255,38,255,39,255,255],"FLAG":0,"BASE":18}' 
+link_alt: https://www.amazon.in/gp/product/B076JLQSSL
+---
+
+Same template also works for 7W bulb
+
+
+
+
+
+
