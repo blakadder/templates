@@ -32,7 +32,7 @@ pwr2=0
 
 
 >B
-=>print ""WiFi 2-Gang Switch Script""
+=>print "WiFi 2-Gang Switch Script"
 
 
 
@@ -43,8 +43,9 @@ cnt2=pc[2]
 
 if chg[cnt1]>0
 then
-; counter1 has changed, switch is on
+; counter1 has changed, switch is on, reset counter
 sw1=1
+->Counter1 0
 else
 ; no change switch is off
 sw1=0
@@ -52,8 +53,9 @@ endif
 
 if chg[cnt2]>0
 then
-; counter2 has changed, switch is on
+; counter2 has changed, switch is on, reset counter
 sw2=1
+->Counter2 0
 else
 ; no change switch is off
 sw2=0
@@ -106,6 +108,7 @@ if sw2==0
 then
 timer2=0
 endif
+
 ```
 
 SwitchMode4
