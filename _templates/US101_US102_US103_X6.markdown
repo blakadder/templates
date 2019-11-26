@@ -1,0 +1,11 @@
+---
+date: 2019-11-24
+title: US101/US102/US103/X6 Smart Plug
+category: plug
+type: Plug
+standard: us
+link: https://www.amazon.com/gp/product/B07KBCYTQS/
+image: https://images-na.ssl-images-amazon.com/images/I/41Vi-SqxwLL._AC_SL1000_.jpg
+template: '{"NAME":"X6 Smart Plug","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":1,"BASE":18}' 
+link_alt: https://www.amazon.com/gp/product/B079L52X1S/
+---
