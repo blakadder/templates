@@ -1,0 +1,46 @@
+---
+date: 2019-11-26
+title: Goldair SleepSmart GCPF315
+category: misc
+type: Fan
+standard: anzac
+link: https://www.target.com.au/p/goldair-sleep-smart-pedestal-fan-gspf315/62258777
+image: https://www.target.com.au/medias/static_content/product/images/hero/36/84/A1293684.jpg
+template: '{"NAME":"Goldair Fan","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
+link_alt: 
+---
+
+1. Install Tasmota Version 7.
+2. Set the module to Tuya MCU. Set GPIO13 to TuyaRx. Set GPIO15 to TuyaTX
+3. Run the command `TuyaMCU 12,8`
+4. Run the command 
+```
+Rule1 on TuyaReceived#Data=55AA00070005020400010B1D do publish2 stat/flatbedfan/speed 2,11 endon on TuyaReceived#Data=55AA00070005020400010719 do publish2 stat/flatbedfan/speed 2,7 endon on TuyaReceived#Data=55AA00070005020400010315 do publish2 stat/flatbedfan/speed 2,3 endon
+Rule1 1
+```
+5. Add the following to Home Assistant to your FAN section:
+```
+- platform: mqtt
+  name: "Flat Bedroom Fan"
+  state_topic: "stat/flatbedfan/POWER1"
+  command_topic: "cmnd/flatbedfan/POWER1"
+  oscillation_state_topic: "stat/flatbedfan/POWER2"
+  oscillation_command_topic: "cmnd/flatbedfan/POWER2"
+  speed_state_topic: "stat/flatbedfan/speed"
+  speed_command_topic: "cmnd/flatbedfan/TuyaSend4"
+  qos: 0
+  payload_on: 'ON'
+  payload_off: 'OFF'
+  payload_oscillation_on: 'ON'
+  payload_oscillation_off: 'OFF'
+  payload_low_speed: '2,3'
+  payload_medium_speed: '2,7'
+  payload_high_speed: '2,11'
+  availability_topic: tele/flatbedfan/LWT
+  payload_available: Online
+  payload_not_available: Offline
+  speeds:
+    - low
+    - medium
+    - high
+```    
