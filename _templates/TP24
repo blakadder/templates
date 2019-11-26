@@ -1,0 +1,13 @@
+---
+date: 2019-11-25
+title: TP24 10A
+category: switch
+type: Plug
+standard: uk
+link: https://www.ebay.co.uk/itm/Smart-WIFI-Plug-Socket-Power-Switch-APP-Remote-Control-Timer-UK-Home-Automation-/392329706261
+image: https://i.ibb.co/njSDm0S/socket.jpg
+template: '{"NAME":"SmartLifeTP24","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link_alt: https://www.ebay.co.uk/str/iotsmartlife
+---
+
+Power monitoring may be supported in hardware, but not in template.
