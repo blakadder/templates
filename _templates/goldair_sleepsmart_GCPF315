@@ -21,7 +21,7 @@ Rule1 1
 
 1. Add the following to Home Assistant to your FAN section:
 
-```
+```yaml
 - platform: mqtt
   name: "Flat Bedroom Fan"
   state_topic: "stat/flatbedfan/POWER1"
