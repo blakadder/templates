@@ -1,0 +1,13 @@
+---
+date: 2019-11-26
+title: Maxcio ZLD-34EU-W
+category: plug
+type: Power Strip
+standard: eu
+link: https://www.amazon.de/Steckdosenleiste-Maxcio-%C3%9Cberspannungsschutz-Mehrfachsteckdose-Fernbedienung/dp/B07MNGHH7M
+image: https://images-na.ssl-images-amazon.com/images/I/61Qi0-TXfXL._AC_SL1500_.jpg
+template: '{"NAME":"MAXCIO","GPIO":[0,56,0,17,22,21,0,0,0,23,24,0,0],"FLAG":1,"BASE":18}' 
+link_alt: https://maxcio.com/products/smart-steckdosenleiste-maxcio-alexa-wlan-steckdosenleiste-mit-3-ac-ausgange-und-4-usb-ports-uberspannungsschutz-mehrfachsteckdose-kompatibel-mit-alexa-google-home-und-ifttt-app-fernbedienung-zld-34eu-w
+---
+
+
