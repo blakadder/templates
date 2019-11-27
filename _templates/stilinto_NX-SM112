@@ -14,18 +14,8 @@ link_alt: https://www.amazon.co.uk/bakibo-Compatible-Monitoring-Schedule-Control
 There seems to be a couple versions of these. Same model number but different internals.
 If the above does not work, an alternative template is:
 
-<<<<<<< Updated upstream
-```lua
-  {"NAME":"NX-SM112","GPIO":[0,0,0,131,134,132,0,0,158,17,0,21,0],"FLAG":0,"BASE":45}
-```
-or
-
-```lua
- {"NAME":"NX-SM112","GPIO":[158,0,0,131,134,132,0,0,0,17,0,21,0],"FLAG":0,"BASE":45}
-=======
 ```console
  {""NAME"":""NX-SM112"",""GPIO"":[0,0,0,131,134,132,0,0,158,17,0,21,0],""FLAG"":0,""BASE"":45}
->>>>>>> Stashed changes
 ```
 
 These are a smaller form factor plug which do not foul the switch on UK sockets.
