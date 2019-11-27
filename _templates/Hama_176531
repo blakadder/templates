@@ -1,0 +1,13 @@
+---
+date: 2019-11-27
+title: Hama 176531
+category: light
+type: Bulb
+standard: eu
+link: https://www.amazon.de/Hama-LED-Lampe-gesteuert-Farbwechsel-kompatibel/dp/B0761ZJHF7
+image: https://images-na.ssl-images-amazon.com/images/I/41552SdiWVL._SL1100_.jpg
+template: '{"NAME":"Hama Bulb RGBW","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+This Bulb works with SM16716!
