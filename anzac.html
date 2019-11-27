@@ -3,61 +3,36 @@ layout: default
 title: AU-NZ-AR-CN Devices
 navigation: 6
 ---
+<h2>AU-NZ-AR-CN Only</h2>
 <!-- ######################################################################  -->
-{% assign standard_country = site.templates | where: "standard", "anzac" | sort_natural: 'title' %}
-{% assign standard_global = site.templates | where: "standard", "global" | sort_natural: 'title' %}
-{% assign standard = standard_country | concat: standard_global %}
-
-<h3>Plugs, Sockets & Power Strips</h3>
-<table id="Devices" width="80%">
-<tbody>
-{% assign plug = standard | where: "category", "plug" | sort_natural: 'title' %}
-{% for template in plug %}
-  {% include tablerow.html %}
-{% endfor %}
-</tbody>
-</table>
-
-<!-- ######################################################################  -->
-<h3>Lights</h3>
-<table id="Devices" width="80%">
-<tbody>
-{% assign standard_eu = site.templates | where: "standard", "eu" | sort_natural: 'title' %}
-{% assign standardlight = standard_country | concat: standard_global | concat: standard_eu %}
-{% assign light = standardlight | where: "category", "light" | sort_natural: 'title' %}
-  {% for template in light %}
+{% assign standard = site.templates | where: "standard", "anzac" | sort_natural: 'title' %}
+{% assign types = standard | group_by: 'type' | sort: 'name' %} 
+    {% for type in types %}
+    <h3> {{ type.name }} </h3>
+    <table id="{{ type.name }}" width="80%">
+        <tbody>
+        {% assign type_sorted = type.items | sort_natural: 'title' %}     
+    {% for template in type_sorted %}
     {% include tablerow.html %}
-  {% endfor %}
+{% endfor %}
 </tbody>
 </table>
+{% endfor %}
 
+<hr>
+
+<h2>Global Standard</h2>
 <!-- ######################################################################  -->
-<h3>Switches & Dimmers</h3>
-<table id="Devices" width="80%">
-<tbody>
-{% assign switch = standard | where: "category", "switch" | sort_natural: 'title' %}
-{% for template in switch %}
-{% include tablerow.html %}
+{% assign standard = site.templates | where: "standard", "global" | sort_natural: 'title' %}
+{% assign types = standard | group_by: 'type' | sort: 'name' %} 
+    {% for type in types %}
+    <h3> {{ type.name }} </h3>
+    <table id="{{ type.name }}" width="80%">
+        <tbody>
+        {% assign type_sorted = type.items | sort_natural: 'title' %}     
+    {% for template in type_sorted %}
+    {% include tablerow.html %}
 {% endfor %}
 </tbody>
 </table>
-<!-- ######################################################################  -->
-<h3>Relays</h3>
-<table id="Devices" width="80%">
-<tbody>
-{% assign switch = standard | where: "category", "relay" | sort_natural: 'title' %}
-{% for template in switch %}
-{% include tablerow.html %}
 {% endfor %}
-</tbody>
-</table>
-<!-- ######################################################################  -->
-<h3>Miscellaneous</h3>
-<table id="Devices" width="80%">
-<tbody>
-{% assign switch = standard | where: "category", "misc" | sort_natural: 'title' %}
-{% for template in switch %}
-{% include tablerow.html %}
-{% endfor %}
-</tbody>
-</table>
