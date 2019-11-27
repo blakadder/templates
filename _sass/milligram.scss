@@ -186,6 +186,19 @@ input[type='submit'].button-clear[disabled]:hover {
   border-color: transparent;
 }
 
+.button-grey {
+  background-color: darkslategrey;
+  border-color: black;
+}
+.button-black.button-clear,
+.button-black.button-outline {
+  background-color: transparent;
+  color: slategrey;
+}
+.button-black.button-clear {
+  border-color: transparent;
+}
+
 /* Custom size */
 .button-small {
   font-size: .8rem;
