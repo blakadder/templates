@@ -1,5 +1,5 @@
 ---
-date: 2019-03-14
+date_added: 2019-03-14
 title: Woopower RGBW E14 5W
 category: light
 type: Bulb

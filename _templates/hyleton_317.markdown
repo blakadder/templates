@@ -1,5 +1,5 @@
 ---
-date: 2019-03-24
+date_added: 2019-03-24
 title: Hyleton 317
 category: plug
 type: Plug

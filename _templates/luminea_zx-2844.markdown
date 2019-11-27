@@ -1,5 +1,5 @@
 ---
-date: 2019-03-18
+date_added: 2019-03-18
 title: Luminea ZX-2844
 category: light
 type: LED Controller

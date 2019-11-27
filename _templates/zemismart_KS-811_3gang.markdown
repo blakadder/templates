@@ -1,5 +1,5 @@
 ---
-date: 2019-07-22
+date_added: 2019-07-22
 title: Zemismart KS-811 3 Gang
 category: switch
 type: Switch

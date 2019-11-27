@@ -1,5 +1,5 @@
 ---
-date: 2019-03-18
+date_added: 2019-03-18
 title: SM-PW702
 category: plug
 type: Plug

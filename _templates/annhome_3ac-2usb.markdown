@@ -1,5 +1,5 @@
 ---
-date: 2019-05-16
+date_added: 2019-05-16
 title: Annhome 3AC + 2USB
 category: plug
 type: Power Strip

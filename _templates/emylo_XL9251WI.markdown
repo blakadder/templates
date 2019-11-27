@@ -1,5 +1,5 @@
 ---
-date: 2019-04-07
+date_added: 2019-04-07
 title: eMylo XL9251WI
 category: relay
 type: Relay

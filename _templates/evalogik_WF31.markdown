@@ -1,5 +1,5 @@
 ---
-date: 2019-04-13
+date_added: 2019-04-13
 title: EVA LOGIK WF31
 category: switch
 type: Dimmer

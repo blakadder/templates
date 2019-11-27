@@ -1,5 +1,5 @@
 ---
-date: 2019-03-02
+date_added: 2019-03-02
 title: CE Smart Home LA-WF3
 type: Plug
 standard: us

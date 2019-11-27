@@ -1,5 +1,5 @@
 ---
-date: 2019-03-09
+date_added: 2019-03-09
 title: Zemismart KS-7011
 category: switch
 type: Dimmer

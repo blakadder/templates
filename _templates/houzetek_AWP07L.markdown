@@ -1,5 +1,5 @@
 ---
-date: 2019-03-23
+date_added: 2019-03-23
 title: Houzetek AWP07L
 category: plug
 type: Plug

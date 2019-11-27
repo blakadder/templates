@@ -1,5 +1,5 @@
 ---
-date: 2019-03-20
+date_added: 2019-03-20
 title: SWB1
 category: plug
 type: Power Strip

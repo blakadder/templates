@@ -1,5 +1,5 @@
 ---
-date: 2019-03-30
+date_added: 2019-03-30
 title: Kesen KS-604
 category: plug
 type: Wall Outlet

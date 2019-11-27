@@ -1,5 +1,5 @@
 ---
-date: 2019-03-02
+date_added: 2019-03-02
 title: Tonbux AMZ180648-2
 category: switch
 type: Switch

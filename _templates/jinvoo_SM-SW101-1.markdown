@@ -1,5 +1,5 @@
 ---
-date: 2019-03-28
+date_added: 2019-03-28
 title: Jinvoo SM-SW101-1
 category: switch
 type: Switch

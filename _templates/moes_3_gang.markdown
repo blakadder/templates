@@ -1,5 +1,5 @@
 ---
-date: 2019-04-08
+date_added: 2019-04-08
 title: Moes 3 Gang Touch
 category: switch
 type: Switch

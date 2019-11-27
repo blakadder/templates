@@ -1,5 +1,5 @@
 ---
-date: 2019-03-01
+date_added: 2019-03-01
 title: Lyasi PT-BW09
 category: light
 type: Bulb

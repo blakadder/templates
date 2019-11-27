@@ -1,5 +1,5 @@
 ---
-date: 2019-03-10
+date_added: 2019-03-10
 title: Hyleton 313
 category: plug
 type: Plug

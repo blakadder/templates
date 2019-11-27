@@ -1,5 +1,5 @@
 ---
-date: 2019-04-19
+date_added: 2019-04-19
 title: EACHEN ST-DC2
 category: relay
 type: Relay

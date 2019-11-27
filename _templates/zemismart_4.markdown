@@ -1,5 +1,5 @@
 ---
-date: 2019-03-20
+date_added: 2019-03-20
 title: Zemismart 4" 10W RGBW
 category: light
 type: Light

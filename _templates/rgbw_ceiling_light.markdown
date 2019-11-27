@@ -1,5 +1,5 @@
 ---
-date: 2019-03-26
+date_added: 2019-03-26
 title: Spotlight 9cm RGB+W 7W
 category: light
 type: Light

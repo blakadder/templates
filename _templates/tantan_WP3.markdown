@@ -1,5 +1,5 @@
 ---
-date: 2019-05-20
+date_added: 2019-05-20
 title: TanTan WP3
 category: plug
 type: Plug

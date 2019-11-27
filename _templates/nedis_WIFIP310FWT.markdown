@@ -1,5 +1,5 @@
 ---
-date: 2019-03-27
+date_added: 2019-03-27
 title: Nedis WIFIP310FWT
 category: plug
 type: Power Strip

@@ -1,5 +1,5 @@
 ---
-date: 2019-03-09
+date_added: 2019-03-09
 title: Lumiman E27 Multicolor
 category: light
 type: Bulb

@@ -1,5 +1,5 @@
 ---
-date: 2019-04-10
+date_added: 2019-04-10
 title: Minitiger 1 Gang
 category: switch
 type: Switch

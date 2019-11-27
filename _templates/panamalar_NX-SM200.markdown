@@ -1,5 +1,5 @@
 ---
-date: 2019-03-19
+date_added: 2019-03-19
 title: Panamalar NX-SM200 16A
 category: plug
 type: Plug

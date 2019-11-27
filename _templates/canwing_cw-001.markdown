@@ -1,5 +1,5 @@
 ---
-date: 2019-03-13
+date_added: 2019-03-13
 title: Canwing CW-001
 category: relay
 type: Relay

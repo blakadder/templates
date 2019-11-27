@@ -1,5 +1,5 @@
 ---
-date: 2019-03-05
+date_added: 2019-03-05
 title: LeFun SK2
 category: plug
 type: Power Strip

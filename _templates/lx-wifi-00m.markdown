@@ -1,5 +1,5 @@
 ---
-date: 2019-04-08
+date_added: 2019-04-08
 title: LX-WIFI-00M 4 Gang
 category: switch
 type: Switch

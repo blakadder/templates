@@ -1,5 +1,5 @@
 ---
-date: 2019-03-02
+date_added: 2019-03-02
 title: Yunshan 10A 7-30VDC
 category: relay
 type: Relay

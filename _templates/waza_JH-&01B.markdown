@@ -1,5 +1,5 @@
 ---
-date: 2019-03-26
+date_added: 2019-03-26
 title: WAZA JH-G01B
 category: plug
 type: Plug

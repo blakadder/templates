@@ -1,5 +1,5 @@
 ---
-date: 2019-03-11
+date_added: 2019-03-11
 title: Moes 2 Gang Touch 
 category: switch
 type: Switch

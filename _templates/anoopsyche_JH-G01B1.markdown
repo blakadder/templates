@@ -1,5 +1,5 @@
 ---
-date: 2019-03-03
+date_added: 2019-03-03
 title: Anoopsyche JH-G01B1
 category: plug
 type: Plug

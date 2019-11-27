@@ -1,5 +1,5 @@
 ---
-date: 2019-04-09
+date_added: 2019-04-09
 title: HiHome WPP-16T
 category: plug
 type: Plug

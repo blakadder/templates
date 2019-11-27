@@ -1,5 +1,5 @@
 ---
-date: 2019-03-31
+date_added: 2019-03-31
 title: Kogan SmarterHome™ Energy Meter
 category: plug
 type: Plug

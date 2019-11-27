@@ -1,5 +1,5 @@
 ---
-date: 2019-04-12
+date_added: 2019-04-12
 title: Zemismart WF-BS01
 category: switch
 type: Switch

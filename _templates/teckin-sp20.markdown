@@ -1,5 +1,5 @@
 ---
-date: 2019-03-10
+date_added: 2019-03-10
 title: Teckin SP20
 category: plug
 type: Plug

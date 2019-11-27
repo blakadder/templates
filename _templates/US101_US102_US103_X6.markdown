@@ -1,5 +1,5 @@
 ---
-date: 2019-11-24
+date_added: 2019-11-24
 title: US101/US102/US103/X6 Smart Plug
 category: plug
 type: Plug

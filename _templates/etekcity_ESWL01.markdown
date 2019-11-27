@@ -1,5 +1,5 @@
 ---
-date: 2019-04-02
+date_added: 2019-04-02
 title: EtekCity ESWL01
 category: switch
 type: Switch

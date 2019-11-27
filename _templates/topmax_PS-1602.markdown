@@ -1,5 +1,5 @@
 ---
-date: 2019-03-25
+date_added: 2019-03-25
 title: Top-Max PS-1602
 category: plug
 type: Outdoor Plug

@@ -1,5 +1,5 @@
 ---
-date: 2019-04-06
+date_added: 2019-04-06
 title: Sesoo WIFI-US-SK3-04
 category: switch
 type: Switch

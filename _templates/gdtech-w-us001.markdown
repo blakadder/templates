@@ -1,5 +1,5 @@
 ---
-date: 2019-03-06
+date_added: 2019-03-06
 title: GDTech W-US001
 category: plug
 type: Plug

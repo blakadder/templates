@@ -1,5 +1,5 @@
 ---
-date: 2019-03-22
+date_added: 2019-03-22
 title: SM-S0301
 category: plug
 type: Power Strip

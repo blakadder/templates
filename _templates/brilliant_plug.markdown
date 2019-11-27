@@ -1,5 +1,5 @@
 ---
-date: 2019-04-10
+date_added: 2019-04-10
 title: Brilliant USB Charger
 category: plug
 type: Plug

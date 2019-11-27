@@ -1,5 +1,5 @@
 ---
-date: 2019-03-14
+date_added: 2019-03-14
 title: Maxcio YX-L01P-E7
 category: light
 type: Bulb

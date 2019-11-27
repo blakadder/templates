@@ -1,5 +1,5 @@
 ---
-date: 2019-02-28
+date_added: 2019-02-28
 title: Kuled KS602S
 category: switch
 type: Switch

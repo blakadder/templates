@@ -1,5 +1,5 @@
 ---
-date: 2019-03-09
+date_added: 2019-03-09
 title: Oukitel X6P
 category: plug
 type: Plug

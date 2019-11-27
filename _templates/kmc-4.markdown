@@ -1,5 +1,5 @@
 ---
-date: 2019-03-11
+date_added: 2019-03-11
 title: KMC 4 30608
 category: plug
 type: Plug

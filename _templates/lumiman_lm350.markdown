@@ -1,5 +1,5 @@
 ---
-date: 2019-03-20
+date_added: 2019-03-20
 title: Lumiman LM530 E26
 category: light
 type: Bulb

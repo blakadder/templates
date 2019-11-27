@@ -1,5 +1,5 @@
 ---
-date: 2019-03-16
+date_added: 2019-03-16
 title:  BN-LINK BNC-60/U133TJ-2P
 category: plug
 type: Plug

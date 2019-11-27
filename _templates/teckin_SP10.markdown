@@ -1,5 +1,5 @@
 ---
-date: 2019-03-28
+date_added: 2019-03-28
 title: Teckin SP10
 category: plug
 type: Plug

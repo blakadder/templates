@@ -1,5 +1,5 @@
 ---
-date: 2019-04-01
+date_added: 2019-04-01
 title: FLHS-ZN04
 category: plug
 type: Plug

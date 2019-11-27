@@ -1,5 +1,5 @@
 ---
-date: 2019-03-21
+date_added: 2019-03-21
 title: RGBW 7W B22
 category: light
 type: Bulb

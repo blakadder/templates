@@ -1,5 +1,5 @@
 ---
-date: 2019-09-29
+date_added: 2019-09-29
 title: CYYLTF BIFANS J23
 category: plug
 type: Plug

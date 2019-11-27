@@ -1,5 +1,5 @@
 ---
-date: 2019-03-16
+date_added: 2019-03-16
 title: Teckin SP27
 category: plug
 type: Plug

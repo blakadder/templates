@@ -1,5 +1,5 @@
 ---
-date: 2019-03-25
+date_added: 2019-03-25
 title: Hauppauge SL-1642
 category: plug
 type: Plug

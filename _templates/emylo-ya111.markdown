@@ -1,5 +1,5 @@
 ---
-date: 2019-03-03
+date_added: 2019-03-03
 title: eMylo YSA111A1N-FBA
 category: relay
 type: Relay

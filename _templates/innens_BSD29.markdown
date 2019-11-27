@@ -1,5 +1,5 @@
 ---
-date: 2019-04-11
+date_added: 2019-04-11
 title: Innens BSD29
 category: plug
 type: Plug

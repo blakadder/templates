@@ -1,5 +1,5 @@
 ---
-date: 2019-03-08
+date_added: 2019-03-08
 title: Touch 2 Gang
 category: switch
 type: Switch

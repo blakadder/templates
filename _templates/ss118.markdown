@@ -1,5 +1,5 @@
 ---
-date: 2019-03-09
+date_added: 2019-03-09
 title: SS118-01K1
 category: switch
 type: Switch

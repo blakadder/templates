@@ -1,5 +1,5 @@
 ---
-date: 2019-04-14
+date_added: 2019-04-14
 title: WL-SC01
 category: plug
 type: Plug

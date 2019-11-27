@@ -1,5 +1,5 @@
 ---
-date: 2019-03-29
+date_added: 2019-03-29
 title: Maxcio W-UK007S
 category: plug
 type: Plug

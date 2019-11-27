@@ -1,5 +1,5 @@
 ---
-date: 2019-03-06
+date_added: 2019-03-06
 title: Albohes PC-1606
 category: plug
 type: Outdoor Plug

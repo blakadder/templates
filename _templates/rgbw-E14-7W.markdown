@@ -1,5 +1,5 @@
 ---
-date: 2019-03-23
+date_added: 2019-03-23
 title: RGBW 7W E14
 category: light
 type: Bulb

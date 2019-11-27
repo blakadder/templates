@@ -4,9 +4,9 @@ title: Tasmota Device Templates Repository
 ---
 <h3>Tasmota Device Templates Repository</h3>
 <h3>{% assign counter = 0 %}{% for item in site.templates %}{% assign counter=counter | plus:1 %}{% endfor %}{{ counter }} devices submitted by the community</h3>
-
-<b>Devices by electrical standard:</b><br>
-
+<div style="text-align:right;font-size:0.8em;vertical-align: sub;" class="float-right">See <a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">world map of plugs</a> for more information.</div>
+<h4>Devices by electrical standard:</h4>
+<p>
 <a align="right" class="button button-large button-outline" href="all.html">ALL</a>
 <a align="right" class="button button-large button-outline" href="eu.html">EU</a>
 <a align="right" class="button button-large button-outline" href="us.html">US</a>
@@ -18,29 +18,25 @@ title: Tasmota Device Templates Repository
 <a align="right" class="button button-large button-outline" href="za.html">ZA</a>
 <a align="right" class="button button-large button-outline" href="ch.html">CH</a>
 <a align="right" class="button button-large button-outline" href="global.html">GLOBAL</a>
-<br><a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">World map of plugs</a> for more information.
 <br>
-<br>
-<b>Devices by type:</b><br>
+<h4>Devices by type:</h4>
 <a align="right" class="button button-large button-outline" href="plug.html">PLUGS</a>
 <a align="right" class="button button-large button-outline" href="light.html">LIGHTS</a>
 <a align="right" class="button button-large button-outline" href="switch.html">SWITCHES</a>
 <a align="right" class="button button-large button-outline" href="relay.html">RELAYS</a>
 <a align="right" class="button button-large button-outline" href="misc.html">MISCELLANEOUS</a>
-<br><br>
-<div>
-    <a class="button button-large button-outline" href="new.html">Add new template</a>
-    </div><br>
-    <div><b>You can now easily copy the template to clipboard by using the copy button! </b></div>
-    <p></p>
-    
+<p></p>
+<div><b>You can now easily copy the template to clipboard by using the copy button! </b></div>
+<p>
+<div><a class="button button-large button-outline" href="new.html">Add new template</a></div>
+<p>
     <h3>Recently added devices:</h3>
 <ul>
-{% assign sorted = site.templates  | sort: "date" | reverse %}
+{% assign sorted = site.templates  | sort: "date_added" | reverse %}
 {% for template in sorted limit:10 %}
-<li><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }} {{ template.type }} {% assign standard_list = template.standard %}
+<li><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }} {{ template.type }} {% assign standard_list = template.standard %} 
         {% for item_standard in standard_list %}
-        {{ item_standard | upcase }}
+        {{ item_standard | upcase }} 
         {% endfor %}</a></li>
 {% endfor %}
 </ul>

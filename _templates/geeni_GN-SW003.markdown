@@ -1,5 +1,5 @@
 ---
-date: 2019-03-24
+date_added: 2019-03-24
 title: Geeni GN-SW003
 category: plug
 type: Power Strip
