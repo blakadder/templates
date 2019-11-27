@@ -7,40 +7,40 @@ title: Tasmota Device Templates Repository
 
 <b>Devices by electrical standard:</b><br>
 
-<a align="right" class="button button-large" href="all.html">ALL</a>
-<a align="right" class="button button-large" href="eu.html">EU</a>
-<a align="right" class="button button-large" href="us.html">US</a>
-<a align="right" class="button button-large" href="uk.html">UK</a>
-<a align="right" class="button button-large" href="anzac.html">AU-NZ-AR-CN</a>
-<a align="right" class="button button-large" href="in.html">IN</a>
-<a align="right" class="button button-large" href="il.html">IL</a>
-<a align="right" class="button button-large" href="br.html">BR</a>
-<a align="right" class="button button-large" href="za.html">ZA</a>
-<a align="right" class="button button-large" href="global.html">GLOBAL</a>
+<a align="right" class="button button-large button-outline" href="all.html">ALL</a>
+<a align="right" class="button button-large button-outline" href="eu.html">EU</a>
+<a align="right" class="button button-large button-outline" href="us.html">US</a>
+<a align="right" class="button button-large button-outline" href="uk.html">UK</a>
+<a align="right" class="button button-large button-outline" href="anzac.html">AU-NZ-AR-CN</a>
+<a align="right" class="button button-large button-outline" href="in.html">IN</a>
+<a align="right" class="button button-large button-outline" href="il.html">IL</a>
+<a align="right" class="button button-large button-outline" href="br.html">BR</a>
+<a align="right" class="button button-large button-outline" href="za.html">ZA</a>
+<a align="right" class="button button-large button-outline" href="ch.html">CH</a>
+<a align="right" class="button button-large button-outline" href="global.html">GLOBAL</a>
 <br><a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">World map of plugs</a> for more information.
 <br>
 <br>
 <b>Devices by type:</b><br>
-<a align="right" class="button button-large" href="plug.html">PLUGS</a>
-<a align="right" class="button button-large" href="light.html">LIGHTS</a>
-<a align="right" class="button button-large" href="switch.html">SWITCHES</a>
-<a align="right" class="button button-large" href="relay.html">RELAYS</a>
-<a align="right" class="button button-large" href="misc.html">MISCELLANEOUS</a>
+<a align="right" class="button button-large button-outline" href="plug.html">PLUGS</a>
+<a align="right" class="button button-large button-outline" href="light.html">LIGHTS</a>
+<a align="right" class="button button-large button-outline" href="switch.html">SWITCHES</a>
+<a align="right" class="button button-large button-outline" href="relay.html">RELAYS</a>
+<a align="right" class="button button-large button-outline" href="misc.html">MISCELLANEOUS</a>
 <br><br>
 <div>
-    <a class="button button-large" href="new.html">Add new template</a>
+    <a class="button button-large button-outline" href="new.html">Add new template</a>
     </div><br>
-<h3>Recently added devices:</h3>
+    <div><b>You can now easily copy the template to clipboard by using the copy button! </b></div>
+    <p></p>
+    
+    <h3>Recently added devices:</h3>
 <ul>
 {% assign sorted = site.templates  | sort: "date" | reverse %}
-{% for template in sorted limit:7 %}
+{% for template in sorted limit:10 %}
 <li><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }} {{ template.type }} {% assign standard_list = template.standard %}
         {% for item_standard in standard_list %}
         {{ item_standard | upcase }}
         {% endfor %}</a></li>
 {% endfor %}
 </ul>
-
-<div class="float.right">
-If you find this resource helpful consider donating via <a href="https://paypal.me/tasmotatemplates">PayPal</a>.
-</div>

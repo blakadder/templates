@@ -67,6 +67,7 @@ a.menu {
 		height: 100%;
 		background: $navigation-background;
 		padding: $base-height;
+		overflow: auto;
 	}
 
 	.sidebar-mobile {
