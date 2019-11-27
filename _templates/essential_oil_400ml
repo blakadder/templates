@@ -10,8 +10,6 @@ template: '{"NAME":"XD800W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,
 link_alt: 
 ---
 
-[![IMG-20190505-230944.jpg](https://i.postimg.cc/zGP7d3W1/Koment-r-2019-11-16-195020.png)](https://i.postimg.cc/zGP7d3W1/Koment-r-2019-11-16-195020.png)
-
 I didn't find manufacturer but the models are marked as 802W to 808W there is just different top cover.
 
 **Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**
@@ -40,26 +38,26 @@ Flashed via Tuya convert. I was not succesfull with flashing via serial pins, I 
 
 After applying the template and configuring Wi-Fi and MQTT issue
 
-```haskell
+```console
 Backlog SetOption66 1; TuyaMCU 11,1; TuyaMCU 12,5; TuyaMCU 14,2; TuyaMCU 15,6; SetOption59 1  
 ```
 
 For diffuser power on through button:
-```haskell
+```console
 Rule1 ON Power1#State=1 do TuyaSend4 3,0 ENDON
 ```
 
 For light control and status:
-```haskell
+```console
 Rule2 ON Power2#State=1 do backlog publish2 tele/<TOPIC>/STATE {"Light":"ON","LightMode":"color"} ENDON ON Event#light_off do TuyaSend4 6,0 ENDON ON Event#rgb_cycle do TuyaSend4 6,1 ENDON ON Event#color do TuyaSend4 6,0 ENDON ON Power2#State=0 do Backlog publish2 tele/<TOPIC>/STATE {"Light":"OFF"} ENDON
 ```
 
-```haskell
+```console
 Rule3 ON Power5#State=1 do backlog Publish2 tele/<TOPIC>/STATE {"Light":"ON","LightMode":"rgb_cycle"} ENDON  ON Power5#State=0 do backlog Publish2 tele/<TOPIC>/STATE {"Light":"ON","LightMode":"color"} ENDON
 ```
 
 Don't forget to activate rules
-```
+```console
 Backlog Rule1 1; Rule2 1; Rule3 1
 ```
 
@@ -145,12 +143,4 @@ Some photos of PCB
 ![PCB4](https://i.postimg.cc/SKTYctXS/IMG-20191111-221113.jpg)
 
 
-
-
-
-
-
-
-
-
-
+[![IMG-20190505-230944.jpg](https://i.postimg.cc/zGP7d3W1/Koment-r-2019-11-16-195020.png)](https://i.postimg.cc/zGP7d3W1/Koment-r-2019-11-16-195020.png)

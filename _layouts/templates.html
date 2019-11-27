@@ -2,19 +2,22 @@
 layout: default
 ---
 
-  <div class="float-right">
-    <!-- <a align="right" class="button" href="{{ page.category | downcase }}.html">{{ page.category | upcase }}</a><br> -->
-    {% assign standard_list = page.standard %}
-      {% for item_standard in standard_list %}
-      <a align="right" class="button" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a><br>
-    {% endfor %} 
-  </div>
-  <h2>{{ page.title }}
-      {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
-        Power Monitoring
-        {% endif %}
-        {{ page.type }}</h2>
-  <div class="float-right">
+<div class="float-right">
+  <!-- <a align="right" class="button" href="{{ page.category | downcase }}.html">{{ page.category | upcase }}</a><br> -->
+  {% assign standard_list = page.standard %}
+    {% for item_standard in standard_list %}
+    <a class="button" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
+  {% endfor %} 
+</div>
+<h2>{{ page.title }}
+    {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
+      Power Monitoring
+      {% endif %}
+      {{ page.type }}
+</h2>
+<div> 
+  <img src="{{ page.image }}" alt="{{ page.title }}" style="max-height: 300px">
+    <div class="float-right">
       <b>
         Available from:
       </b>
@@ -22,9 +25,8 @@ layout: default
     <a class="menu" href="{{page.link}}">{{ page.link | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
     <br>
     <a class="menu" href="{{page.link_alt}}">{{ page.link_alt | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
-  </div>
-
-<img src="{{ page.image }}" alt="{{ page.name }}" height="250">
+    </div>
+</div>
 <p>
 <div class="float-right">
   <a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">
@@ -32,10 +34,12 @@ layout: default
   </a>
 </div>
 <h4>Template</h4>
-<pre><code>{{ page.template }}</code></pre>
+<pre class=" language-console">
+    <code class="language-console">Template {{ page.template }}</code>
+</pre>
 <hr>
 {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
-For more accurate energy consumption measurements this device needs <a href="https://github.com/arendst/Tasmota/wiki/Power-Monitoring-Calibration">power monitoring calibration</a>.
+For more accurate energy consumption measurements this device needs <a href="https://tasmota.github.io/docs/#/Power-Monitoring-Calibration">power monitoring calibration</a>.
 {% endif %}
 <p>
 {{ content | markdownify }}

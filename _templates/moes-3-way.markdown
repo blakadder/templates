@@ -11,7 +11,7 @@ link_alt:
 ---
 To control the switch via MQTT you will need to monitor the Power1 state and send an ON/OFF as an event command.  
 If the light is backwards toggle the Power1 relay once on the Tasmota GUI to follow the light correctly.  Power1 state should then follow the "light on" sensor after this.  
-```lua
+```console
 rule1 on event#ON do power2 TOGGLE endon
 rule2 on event#OFF do power2 TOGGLE endon
 rule3 on power1#state=1 do backlog rule1 0; rule2 1 endon on power1#state=0 do backlog rule1 1; rule2 0 endon on switch2#state=3 do publish Moes3Way/Action Long endon

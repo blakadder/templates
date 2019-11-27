@@ -12,7 +12,7 @@ link_alt:
 
 Useful commands to make the button turn on/off every relay
 
-```lua
+```console
 PowerOnState 0
 setoption32 20
 rule1 on button1#state do backlog Power1 2;Power2 2;Power3 2;Power4 2;Power5 2 endon

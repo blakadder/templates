@@ -12,7 +12,7 @@ link_alt:
 
 Relays and Status LED are not connected on the same GPIO’s so I have considered them as a Relay and used rules to have them work as one.
 
-```lua
+```console
 Rule1 on power1#state do power3 %value% endon on power2#state do power4 %value% endon on power4#state do power2 %value% endon on power3#state do power1 %value% endon
 Rule1 1
 ```

@@ -5,7 +5,7 @@ category: light
 type: Bulb
 standard: us
 link: https://www.amazon.com/gp/product/B07HR8GT12
-image: https://imgur.com/qN6ncXs.jpg
+image: https://images-na.ssl-images-amazon.com/images/I/51J0DCf8MSL._AC_SL1000_.jpg
 template: '{"NAME":"3STONE","GPIO":[255,255,255,255,141,140,255,255,37,142,255,255,255],"FLAG":15,"BASE":18}' 
 link_alt: 
 ---

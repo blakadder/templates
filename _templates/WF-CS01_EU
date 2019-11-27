@@ -11,21 +11,21 @@ link_alt: https://www.aliexpress.com/item/32929793650.html?spm=a2g0s.9042311.0.0
 ---
 
 Added a rule to get it working properly:
-```lua
+```console
 Rule1 on Power1#State=1 do backlog Power3 0; Power2 0 endon
       on Power2#State=1 do backlog Power1 0; Power2 0; Power3 0 endon
       on Power3#State=1 do backlog Power1 0; Power2 0 endon
 Rule1 1
 ```
 This combines to:
-```lua
+```console
 `Rule1 on Power1#State=1 do backlog Power3 0; Power2 0 endon on Power2#State=1 do backlog Power1 0; Power2 0; Power3 0 endon on Power3#State=1 do backlog Power1 0; Power2 0 endon`
 ```
 
 Or use the Interlock settings like below (or use both for safety).
 
 Added some commands too:
-```lua
+```console
 InterLock 1,2,3  # lock the relays, only one relay can be on
 InterLock    on  # switch interlocking on
 PowerOnState  0  # keep relay(s) OFF after power up
@@ -40,17 +40,17 @@ SetOption57   1  # Wi-Fi network re-scan, alternate AP
 ```
 
 This combines to:
-```lua
+```console
 Backlog Delay 50; InterLock 1,2,3; InterLock on; PowerOnState 0; PowerRetain 0; PulseTime1 145; PulseTime2 1; Pulsetime3 145; SetOption1 1; SetOption26 1; SetOption56 1; SetOption57 1; Restart 1
 ```
 
 A second solution to use this curtain switch. 
 Template:
-```lua
-{"NAME":"WF-CS01","GPIO":[157,0,54,18,22,11,0,0,9,21,53,23,52],"FLAG":0,"BASE":18}
+```console
+Template {"NAME":"WF-CS01","GPIO":[157,0,54,18,22,11,0,0,9,21,53,23,52],"FLAG":0,"BASE":18}
 ```
 Some rules to change button color and hold the middle button to turn the timer on or off. (LED status is not perfect if you use the web interface for the timer!)
-```lua
+```console
 rule1 on Power1#State=0 do LEDPower1 0 endon on Power1#State=1 do LEDPower1 1 endon on Power3#State=0 do LEDPower3 0 endon on Power3#State=1 do LEDPower3 1 endon
 rule1 1
 
@@ -59,7 +59,7 @@ rule2 1
 ```
 
 An some important commands:
-```lua
+```console
 interlock 1 2 3 # lock the relays, only one relay can be on
 SetOption1 1    # restrict button-multipress to single, double and hold actions
 PulseTime1 145  # set relay 1 activation to 45 seconds (+100 for 1sec interval)ru

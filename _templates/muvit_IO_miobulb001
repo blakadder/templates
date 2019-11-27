@@ -10,7 +10,7 @@ template: '{"NAME":"miobulb001","GPIO":[255,255,255,255,40,255,255,255,38,39,37,
 link_alt: https://www.leroymerlin.es/fp/82215854/bombilla-led-muvit-io-5w-wifi-600-lumenes.iluminacion_bombillas-led-y-tubos_bombillas-inteligentes
 ---
 
-```lua
+```console
 SetOption15 1
 SetOption30 0
 ```

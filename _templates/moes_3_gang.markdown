@@ -21,7 +21,7 @@ Power3 --> Relay3 and Power6 --> LED4
 Power7 --> WIfi LED
 
 Rules: 
-```lua
+```console
 Rule1 on power1#state do power4 %value% endon on power2#state do power5 %value% endon on power3#state do power6 %value% endon on power6#state do power3 %value% endon on power5#state do power2 %value% endon on power4#state do power1 %value% endon
 Rule1 1
 ```

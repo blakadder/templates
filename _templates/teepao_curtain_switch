@@ -10,7 +10,7 @@ template: '{"NAME":"Taopao","GPIO":[255,255,255,18,22,19,255,255,255,21,255,255,
 link_alt: 
 ---
 
-```lua
+```console
 interlock 1 2 3
 PulseTime1 130
 PulseTime2 130
@@ -25,7 +25,7 @@ I obtain a perfect result with below configuration (tested and approved on 5 Tee
 Based on :
 - Program Version	6.6.0.16 stb-1.16(sonoff)
 - Build Date & Time	2019-10-09T07:26:57
-```lua
+```console
 template: {"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18}
 
 interlock on
@@ -47,7 +47,7 @@ Don't forget to configure durations !
 
 Usually open duration is one or two seconds more than close (adjust as you need).
 For exemple :
-```lua
+```console
 shutteropenduration 22
 shuttercloseduration 20
 ```

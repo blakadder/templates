@@ -13,12 +13,12 @@ link_alt:
 [Flashing and setup video](https://www.youtube.com/watch?v=B8YhfZ_LguI)
 
 This switch requires the use of switch1 as configured in the template to work correctly.  You will need to issue the following command on the console to set the correct mode.
-```lua
+```console
 switchmode1 5
 ```
 
 Used the following rule to have the red LED lit while the relay is off and blue LED lit when on (matches the Martin Jerry Dimmers)
-```lua
+```console
 rule1 on power1#state=0 do backlog ledpower1 0; ledpower2 1 endon on power1#state=1 do backlog ledpower1 1; ledpower2 0 endon
 ```
 

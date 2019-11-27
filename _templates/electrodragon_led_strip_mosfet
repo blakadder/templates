@@ -11,8 +11,8 @@ screenshot:
 ---
 Alternative template for WS2812 LEDs:
 
-```lua
-{"NAME":"LEDBoard W2812","GPIO":[255,0,7,0,255,255,0,0,0,0,0,0,52],"FLAG":0,"BASE":18}
+```console
+Template {"NAME":"LEDBoard W2812","GPIO":[255,0,7,0,255,255,0,0,0,0,0,0,52],"FLAG":0,"BASE":18}
 ```
 
 <img width="200" src="https://1436477554.rsc.cdn77.org/wp-content/uploads/2017/06/ESP-LED-Drive-Board-Description-.jpg">

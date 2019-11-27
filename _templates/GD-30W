@@ -40,7 +40,7 @@ Rule1 1
 
 *Optional rule used to prevent the device going into countdown mode (f.e. using on device controls) and complete MCU status update on restart*
 
-```lua
+```console
 Rule3 on TuyaReceived#data=55AA000700050D040001011E do tuyasend4 13,0 endon on TuyaReceived#data=55AA000700050D040001021F do tuyasend4 13,0 endon on mqtt#connected do serialsend5 55aa0001000000 endon
 Rule3 1
 ```

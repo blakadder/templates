@@ -15,7 +15,7 @@ This device is based on Tuya wireless module and can be reflashed with TuyaConve
 Case is glued and forcefully prying can cause appearance damage. 
 Plug is soldered directly on the PCB, so you need to desolder them to access the back of the board.
 
-```lua
+```console
 GPIO4 = ButtonLEDi (used for status/link LED)
 GPIO5 = RightLEDi (used for AC socket LED)
 GPIO12 = SocketRelay

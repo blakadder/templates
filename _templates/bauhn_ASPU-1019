@@ -12,7 +12,7 @@ link_alt:
 
 This device uses two relays, so use the following commands to setup a rule to trigger the second relay when the first is triggered
 
-```lua
+```console
 rule1 on power1#state do power2 %value% endon
 rule1 1
 ```

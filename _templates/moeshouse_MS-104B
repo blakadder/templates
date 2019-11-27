@@ -19,7 +19,7 @@ Below two scripts which do something like switchmode4 and switchmode1. The scrip
 
 
 SwitchMode1
-```lua
+```console
 >D
 sw1=0
 sw2=0
