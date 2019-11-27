@@ -14,6 +14,8 @@ Lots of JSON. Temperature & brightness control only using channels.
 
 `SetOption17 on`
 
+`SetOption59 on`
+
 Example Hass config:
 {% raw %}
 ```
