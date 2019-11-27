@@ -14,7 +14,7 @@ link_alt:
 1. Run the command `TuyaMCU 12,8`
 1. Run the command 
 
-```lua
+```console
 Rule1 on TuyaReceived#Data=55AA00070005020400010B1D do publish2 stat/flatbedfan/speed 2,11 endon on TuyaReceived#Data=55AA00070005020400010719 do publish2 stat/flatbedfan/speed 2,7 endon on TuyaReceived#Data=55AA00070005020400010315 do publish2 stat/flatbedfan/speed 2,3 endon
 Rule1 1
 ```
