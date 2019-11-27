@@ -1,0 +1,17 @@
+---
+date: 2019-11-27
+title: Aoycocr 5W GU10 RGBW
+category: light
+type: Bulb
+standard: eu
+link: https://www.amazon.de/Doppelpack-Aoycocr-Mehrfarbige-Intelligente-Kompatibel/dp/B07V45F2X4
+image: https://images-na.ssl-images-amazon.com/images/I/51vIFOlCpHL._SL1000_.jpg
+template: '{"NAME":"Aoycocr_GU10","GPIO":[0,0,0,0,0,0,0,0,143,0,144,0,0],"FLAG":0,"BASE":27}' 
+link_alt: 
+---
+
+Works with Tuya Converter 2.0.
+
+GPIO12: MY92x1 DI (143)
+
+GPIO14: MY92x1 DCKI (144)
