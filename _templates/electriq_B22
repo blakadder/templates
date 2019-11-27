@@ -5,7 +5,7 @@ category: light
 type: Bulb
 standard: uk
 link: https://www.appliancesdirect.co.uk/p/iq-wifibulbb22/electriq-iqwifibulbb22-smart-bulb
-image: https://www.laptopsdirect.co.uk/Images/IQ-wifiBulbB22_1_5113362_LargeProductImage.jpg?width=700&height=700&v=2
+image: https://user-images.githubusercontent.com/5904370/69756566-16c61d80-115b-11ea-997c-a8948c0c4109.png
 template: '{"NAME":"ElectricQ B22","GPIO":[255,255,255,255,37,41,255,255,38,40,39,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
