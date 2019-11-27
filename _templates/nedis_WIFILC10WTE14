@@ -1,0 +1,17 @@
+---
+date: 2019-11-26
+title: Nedis WIFILC10WTE14
+category: light
+type: Bulb
+standard: eu
+link: https://www.webhallen.com/se/product/292978-Nedis-WiFi-Smart-LED-lampa-Color-E14
+image: https://pictures.content4us.com/products_high_res/WIFILC10WTE14_P11.JPG
+template: '{"NAME":"Nedis WIFILC10","GPIO":[255,255,255,255,39,37,255,255,40,38,41,255,255],"FLAG":1,"BASE":18}' 
+link_alt: https://nedis.com/en-us/product/smart-living/smart-home/lighting/550680690/wifi-smart-led-bulb-full-colour-and-warm-white-e14
+---
+
+Flashed with Tuya-Convert. 
+
+You should use command `PwmFrequency 100` to be able to set dimmer to >= 20% without flickering.
+
+Use command `SetOption37 114` to get the colors right.
