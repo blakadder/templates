@@ -6,7 +6,7 @@ type: Bulb
 standard: us
 link: https://www.amazon.com/LED-LOHAS-Daylight-Changing-Equivalent/dp/B07T7W7ZMW
 image: https://user-images.githubusercontent.com/3240875/67115086-ff326700-f1a2-11e9-86ac-9d2b3a6a7f86.jpg
-template: '{"NAME":"Lohas RGBW","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}
+template: '{"NAME":"Lohas RGBW","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}'
 link_alt: 
 ---
 
