@@ -10,5 +10,6 @@ template: '{"NAME":"ZooZee SE131","GPIO":[255,0,56,0,0,0,0,0,255,17,0,21,0],"FLA
 link_alt: 
 ---
 
-
+**WARNING:**
+There is a new version with a [T102/WR2 WiFi module](https://docs.tuya.com/docDetail?code=K8uhkbx75kg7y) in it. This uses a RTL8710BN chip and can not be converted to Tasmota. Make sure that you get a plug with TYWE2S WiFi module based on ESP8266.
 
