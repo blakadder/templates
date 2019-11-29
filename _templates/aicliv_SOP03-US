@@ -1,0 +1,12 @@
+---
+date_added: 2019-11-28
+title: Aicliv SOP03-US
+category: plug
+type: Outdoor Plug
+standard: us
+link: https://www.amazon.com/gp/product/B07CXRRKTQ
+image: https://images-na.ssl-images-amazon.com/images/I/71Ny%2B8hwy2L._SL1500_.jpg
+template: '{"NAME":"AICLIV SOP03US","GPIO":[255,255,255,23,57,255,255,255,21,18,22,255,255],"FLAG":15,"BASE":18}' 
+link_alt: 
+---
+
