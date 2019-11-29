@@ -1,0 +1,13 @@
+---
+date_added: 2019-11-28
+title: eFamilyCloud ASDFEE174
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.es/gp/product/B078H97JWP/
+image: https://images-na.ssl-images-amazon.com/images/I/71%2BZdOacpfL._SL1500_.jpg
+template: '{"NAME":"eFamily Plug","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Flashed with Tuya-Convert
