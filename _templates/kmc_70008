@@ -1,0 +1,19 @@
+---
+date_added: 2019-03-09
+title: KMC 70008
+category: switch
+type: Switch
+standard: us
+link: https://www.amazon.com/KMC-Wireless-Lighting-Compatible-Assistant/dp/B078HFR27T
+image: https://user-images.githubusercontent.com/5904370/54651712-5f014c00-4ab4-11e9-8622-8f4104632427.png
+template: '{"NAME":"KMC 70008","GPIO":[17,255,255,0,0,255,0,0,0,56,21,255,255],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+I didn't see any place to add pin headers, but the module has the usual ESP-12 pin layout, so I soldered right to the pins. You can skip soldering to GPIO 0 and just hold the button down when booting the device to get into flash mode.
+
+The button is on GPIO 0, the relay and the white LED are on GPIO 14, the blue LED is on GPIO 13. When the blue LED on GPIO 13 is set to LED1i the white light shines when the relay is off and the blue light illuminates then the relay is on.
+
+![](https://i.postimg.cc/HLSJLSwN/4e8mR7g.jpg)
+![](https://i.postimg.cc/WbMhZpmg/QnzGWli.jpg)
+![](https://i.postimg.cc/4ycnBsDC/tvMPYVy.jpg)
+![](https://i.postimg.cc/QxLFVK7j/xavv6mO.jpg)

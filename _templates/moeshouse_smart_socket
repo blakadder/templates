@@ -9,7 +9,7 @@ standard:
   - anzac
 link: https://www.aliexpress.com/item/33000836814.html
 image: https://ae01.alicdn.com/kf/HTB1leE2Q3HqK1RjSZFgq6y7JXXa9/WiFi-Smart-Wall-Socket-Outlet-Glass-Panel-Smart-Life-Tuya-APP-Remote-Control-Works-with-Amazon.jpg
-template: '{"NAME":"Smart Socket","GPIO":[255,255,255,255,52,53,255,255,21,17,255,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Smart Socket","GPIO":[255,255,255,255,52,53,0,0,21,17,255,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

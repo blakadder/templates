@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.aliexpress.com/item/4000037102284.html
 image: https://ae01.alicdn.com/kf/Hc5d2ec3f296c4192a1fbe474cabd6562C/10A-16A-EU-wifi-Smart-Plug-with-Power-Monitor-wifi-wireless-Smart-Socket-Outlet-with-Google.jpg
-template: '{"NAME":"Generic","GPIO":[255,255,255,131,134,132,255,255,21,17,56,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Generic","GPIO":[255,255,255,131,134,132,0,0,21,17,56,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

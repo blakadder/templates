@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/Kompatibel-Fernsteuerung-Überlastungsschutz-erforderlich-10A-2200W-2/dp/B07D77GPLW
 image: https://images-na.ssl-images-amazon.com/images/I/61vhVofiWsL._SL1500_.jpg
-template: '{"NAME":"YX-DE01","GPIO":[255,17,255,255,255,255,255,255,255,56,21,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"YX-DE01","GPIO":[255,17,255,255,255,255,0,0,255,56,21,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
@@ -16,9 +16,9 @@ TX GPIO1  - Button1
 
 ```json
 v.6.5.0
-{"NAME":"YX-DE01","GPIO":[255,17,255,255,255,255,255,255,255,56,21,255,255],"FLAG":0,"BASE":18}
+{"NAME":"YX-DE01","GPIO":[255,17,255,255,255,255,0,0,255,56,21,255,255],"FLAG":0,"BASE":18}
 ```
 ```json
 v.6.4.1
-{"NAME":"YX-DE01","GPIO":[255,17,255,255,56,57,255,255,21,17,255,255,255],"FLAG":0,"BASE":18}
+{"NAME":"YX-DE01","GPIO":[255,17,255,255,56,57,0,0,21,17,255,255,255],"FLAG":0,"BASE":18}
 ```

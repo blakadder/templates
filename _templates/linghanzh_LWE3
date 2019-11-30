@@ -6,7 +6,7 @@ type: Bulb
 standard: eu
 link: https://www.amazon.com/gp/aw/d/B074QFZ6B5
 image: https://m.media-amazon.com/images/I/31w72X0tMdL._SCLZZZZZZZ__US284_.jpg
-template: '{"NAME":"Linganzh LWE3 ","GPIO":[255,255,255,255,255,38,255,255,39,255,40,37,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Linganzh LWE3 ","GPIO":[0,0,0,0,0,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

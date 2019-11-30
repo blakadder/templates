@@ -6,7 +6,7 @@ type: Bulb
 standard: us
 link: https://www.amazon.com/gp/product/B07GV5HDCH
 image: https://images-na.ssl-images-amazon.com/images/I/610CKI9EEoL._SL1500_.jpg
-template: '{"NAME":"EleLight 7wA19","GPIO":[255,255,255,255,140,37,255,255,255,142,141,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"EleLight 7wA19","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

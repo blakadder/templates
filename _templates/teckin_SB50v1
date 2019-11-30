@@ -6,7 +6,7 @@ type: Bulb
 standard: global
 link: https://www.amazon.ca/dp/B07KYJZ523
 image: https://images-na.ssl-images-amazon.com/images/I/51HhCAk5RaL._SX425_.jpg
-template: '{"NAME":"Teckin SB50","GPIO":[255,255,255,255,40,255,255,255,38,39,37,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Teckin SB50","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 
@@ -16,7 +16,7 @@ Note: Although the product link shows E27, the model on the box is SB50
 
 On my recent bulb (Sept 2019) the template needed is: 
 ```
-{"NAME":"Teckin SB50","GPIO":[255,255,255,255,37,255,255,255,38,40,39,255,255],"FLAG":0,"BASE":18}
+{"NAME":"Teckin SB50","GPIO":[0,0,0,0,37,0,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}
 ```
 
 

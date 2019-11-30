@@ -6,7 +6,7 @@ type: Bulb
 standard: us
 link: https://www.ebay.com/itm/WiFi-Smart-Light-Bulb-Bulbs-Dimmable-LED-E27-RGB-For-Google-Home-Alexa-IFTTT/274046242459
 image: https://i.ebayimg.com/images/g/qZwAAOSwyhVcrGu8/s-l1600.jpg
-template: '{"NAME":"FCMILA LED E27","GPIO":[255,255,255,255,40,255,255,255,38,39,37,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"FCMILA LED E27","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

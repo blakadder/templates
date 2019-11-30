@@ -6,7 +6,7 @@ type: Bulb
 standard: eu
 link: https://www.ebay.com/itm/7W-WiFi-Smart-LED-Light-Lamp-Voice-Control-E27-RGB-W-for-Amazon-Echo-Alexa-HOT-/173756313924
 image: https://user-images.githubusercontent.com/5904370/63218034-97837f80-c151-11e9-8a83-c908a7308143.png
-template: '{"NAME":"FCMILA 7W","GPIO":[255,255,255,255,39,40,255,255,37,255,38,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"FCMILA 7W","GPIO":[0,0,0,0,39,40,0,0,37,0,38,0,0],"FLAG":0,"BASE":18}' 
 link_alt: https://www.aliexpress.com/item/32953607217.html
 ---
 

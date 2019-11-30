@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/Outlet-ZOOZEE-Monitoring-Function-Compatible/dp/B07J2LR5KN
 image: https://images-na.ssl-images-amazon.com/images/I/51PttjDj%2BBL._SX425_.jpg
-template: '{"NAME":"ZooZee","GPIO":[57,255,56,255,21,133,255,255,131,17,132,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"ZooZee","GPIO":[57,255,56,255,21,133,0,0,131,17,132,255,255],"FLAG":0,"BASE":18}' 
 link_alt: https://www.amazon.ca/gp/product/B07ML92QX8
 ---
 

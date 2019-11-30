@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B075GWQSYH/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 image: https://images-na.ssl-images-amazon.com/images/I/61rzRHYOV6L._SL1500_.jpg
-template: '{"NAME":"XS-SSA01","GPIO":[255,17,255,255,255,255,255,255,56,255,255,21,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"XS-SSA01","GPIO":[255,17,255,255,255,255,0,0,56,255,255,21,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

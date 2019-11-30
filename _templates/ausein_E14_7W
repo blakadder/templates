@@ -6,7 +6,7 @@ type: Bulb
 standard: eu
 link: https://www.amazon.es/gp/product/B07FKGNQFG
 image: https://images-na.ssl-images-amazon.com/images/I/41sDxyZWzaL._AC_SL1000_.jpg
-template: '{"NAME":"Tuya RGBW","GPIO":[255,255,255,255,40,255,255,255,38,39,37,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Tuya RGBW","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

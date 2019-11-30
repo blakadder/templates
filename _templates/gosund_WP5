@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07GRLQV47
 image: https://images-na.ssl-images-amazon.com/images/I/617bTlmaCsL._SL1500_.jpg
-template: '{"NAME":"Gosund-WP5","GPIO":[255,255,255,255,17,255,255,255,53,52,21,255,255],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"Gosund-WP5","GPIO":[255,255,255,255,17,255,0,0,53,52,21,255,255],"FLAG":1,"BASE":18}' 
 link_alt: 
 ---
 

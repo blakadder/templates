@@ -6,7 +6,7 @@ type: Bulb
 standard: anzac
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-e27-colour-bulb/2326804
 image: https://img1.wsimg.com/isteam/ip/67cdd3b9-3600-4104-b097-603c05201237/82e13bb8-61c3-42ed-979f-2e2bcf13e659.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:400,cg:true
-template: '{"NAME":"GenioBulbRGB","GPIO":[255,255,255,255,37,40,255,255,38,255,39,255,255],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"GenioBulbRGB","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":1,"BASE":18}' 
 link_alt: https://mirabellagenio.net.au/es-%2F-bc-warm-rgb-specs
 ---
 

@@ -6,7 +6,7 @@ type: Relay
 standard: global
 link: https://www.electrodragon.com/product/wifi-iot-relay-board-spdt-based-esp8266/
 image: https://1436477554.rsc.cdn77.org/wp-content/uploads/2017/03/ESP-Relay-Board-SPDT-02.jpg
-template: '{"NAME":"ED Relay Board","GPIO":[255,255,255,255,255,255,255,255,21,22,255,255,52],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"ED Relay Board","GPIO":[255,255,255,255,255,255,0,0,21,22,255,255,52],"FLAG":1,"BASE":18}' 
 link_alt: 
 ---
 

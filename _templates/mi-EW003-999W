@@ -6,7 +6,7 @@ type: LED Strip
 standard: us
 link: https://www.walmart.com/ip/Merkury-Innovations-2m-Smart-Wifi-Rgb-Led-Strip-Kit/243703891
 image: https://i5.walmartimages.com/asr/08de706f-04ec-422f-94d8-2db78cf36dd5_1.03154eb050b3dbe5a4ff3c0ea4c0e045.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF
-template: '{"NAME":"MI-EW003-999W ","GPIO":[17,255,255,255,37,40,255,255,38,41,39,255,255],"FLAG":0,"BASE":18}'
+template: '{"NAME":"MI-EW003-999W ","GPIO":[17,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
 link_alt: 
 ---
 

@@ -6,7 +6,7 @@ type: Bulb
 standard: uk
 link: https://www.amazon.co.uk/gp/product/B07K1J1RDS
 image: https://user-images.githubusercontent.com/5904370/56267544-65a0d480-60ef-11e9-97f8-126c4053ae9e.png
-template: '{"NAME":"Teckin SB51","GPIO":[255,255,255,255,40,255,255,255,38,39,37,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Teckin SB51","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

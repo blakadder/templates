@@ -6,7 +6,7 @@ type: Bulb
 standard: uk
 link: https://www.wilko.com/en-uk/tcp-1-pack-bayonet-b22bc-led-806-lumens-rgb-w-a-shape-smart-wifi-light-bulb/p/0475358
 image: https://www.wilko.com/assets/bWFzdGVyfHJvb3R8NTIyNjN8aW1hZ2UvanBlZ3xoYjYvaGRjLzg5NTYzMzY5NjM2MTQuanBnfDAxY2FiNzJlM2YzMTBjOTBiODc5MmEzZTQ5NTgxYTBlMDQ1ZDMwYzRjZTc4NzJhYjc5ZTE0ZmRhNmViZDU1MDE=/0475358-1.jpg
-template: '{"NAME":"TCP Smart RGBW","GPIO":[255,255,255,255,140,37,0,0,38,142,141,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"TCP Smart RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

@@ -6,6 +6,6 @@ type: Plug
 standard: eu
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-stekker-2/
 image: https://www.action.com/globalassets/cmsarticleimages/79/99/2578685_8712879142782-110_02.png?preset=mediaSliderImageLarge
-template: '{"NAME":"LSC Smart Plug","GPIO":[255,255,255,255,56,255,255,255,21,255,17,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"LSC Smart Plug","GPIO":[255,255,255,255,56,255,0,0,21,255,17,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---

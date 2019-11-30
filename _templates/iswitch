@@ -6,7 +6,7 @@ type: Plug
 standard: in
 link: https://iswitch.online/product/wifi-smart-plug-outlet-socket-compatible-with-alexa-google-assistant-no-hub-required-control-your-devices-from-anywhere/
 image: https://iswitch.online/wp-content/uploads/2018/12/plug.jpg
-template: '{"NAME":"Smart Plug XSA","GPIO":[255,17,255,255,255,255,255,255,255,56,21,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Smart Plug XSA","GPIO":[255,17,255,255,255,255,0,0,255,56,21,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

@@ -6,7 +6,7 @@ type: Bulb
 standard: global
 link: https://www.bneta.co.za/product/smartbulb_e27/
 image: http://www.bneta.co.za/wp-content/uploads/2019/03/E27app.png
-template: '{"NAME":"OM60/RGBW","GPIO":[255,255,255,255,140,37,0,0,38,142,141,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"OM60/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

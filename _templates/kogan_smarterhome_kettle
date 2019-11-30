@@ -6,7 +6,7 @@ type: Kettle
 standard: anzac
 link: https://www.kogan.com/au/buy/kogan-smarterhome-17l-smart-glass-kettle/
 image: https://user-images.githubusercontent.com/5904370/68201568-4baedc80-ffc2-11e9-85a9-5c3172805740.png
-template: '{"NAME":"Kogan Kettle","GPIO":[255,107,255,108,255,255,255,255,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+template: '{"NAME":"Kogan Kettle","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link_alt: 
 ---
 

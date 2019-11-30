@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.gearbest.com/smart-power-socket-plug/pp_009960087679.html
 image: https://user-images.githubusercontent.com/5904370/66717348-46ea7480-edd8-11e9-8a97-ed77cc93cb7a.png
-template: '{"NAME":"Bilikay SP10","GPIO":[255,37,255,17,255,255,255,255,255,56,21,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Bilikay SP10","GPIO":[255,37,255,17,255,255,0,0,255,56,21,255,255],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

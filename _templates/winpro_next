@@ -6,7 +6,7 @@ type: Light
 standard: in
 link: https://www.amazon.in/dp/B07P7JNQ56
 image: https://images-na.ssl-images-amazon.com/images/I/71g1EjcZQ0L._SL1500_.jpg
-template: '{"NAME":"WIPROBatten","GPIO":[255,255,255,255,255,37,255,255,255,47,255,255,255],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"WIPROBatten","GPIO":[0,0,0,0,0,37,0,0,0,47,0,0,0],"FLAG":1,"BASE":18}' 
 link_alt: 
 ---
 

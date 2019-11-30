@@ -6,7 +6,7 @@ type: Bulb
 standard: in
 link: https://www.amazon.in/gp/product/B07P9R6DKP
 image: https://images-na.ssl-images-amazon.com/images/I/412sFP8Q4aL._SL1000_.jpg
-template: '{"NAME":"SyskaSmartBulb","GPIO":[255,255,255,255,37,40,255,255,38,255,39,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"SyskaSmartBulb","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link_alt: https://www.amazon.in/gp/product/B076JLQSSL
 ---
 
