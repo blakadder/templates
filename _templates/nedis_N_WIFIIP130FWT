@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://nedis.com/en-us/product/550685206/wi-fi-smart-plug-schuko-type-f-10-a
 image: https://pictures.content4us.com/products_high_res/WIFIP130FWT_P40.JPG
-template: '{"NAME":"NedisWIFIIP130","GPIO":[255,255,255,255,56,57,255,255,21,17,255,255,255],"FLAG":0,"BASE":18}`
+template: '{"NAME":"WIFIIP130FWT","GPIO":[255,255,255,255,56,57,255,255,21,17,255,255,255],"FLAG":0,"BASE":18}'
 link_alt: 
 ---
 
