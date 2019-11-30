@@ -1,5 +1,5 @@
-# Tasmota templates repository
-This is an official repository of templates for devices that are flashable with [Tasmota](https://github.com/arendst/Tasmota). 
+# Tasmota Device Templates Repository
+This is an official repository of templates for devices that are flashable with [Tasmota](http://tasmota.com). 
 All the devices are submitted by the awesome community built around Tasmota and [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert).
 
 ### Contributing
