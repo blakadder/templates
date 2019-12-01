@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-01
+title: Deltaco SH-LE27RGB
+category: light
+type: Bulb
+standard: eu
+link: https://www.deltaco.se/produkter/deltaco/smart-home/belysning/SH-LE27RGB
+image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-LE27RGB.png?width=260
+template: '{"NAME":"SH-LE27RGB","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+Only coldwhite and warmwhite added
+Can be flashed over the air (OTA) with Tuya-Convert
