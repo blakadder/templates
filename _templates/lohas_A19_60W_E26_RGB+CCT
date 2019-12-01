@@ -5,7 +5,7 @@ category: light
 type: Bulb
 standard: us
 link: https://www.amazon.com/LED-LOHAS-2700K-6000K-Daylight-Equivalent/dp/B07T7W7ZMW
-image: https://user-images.githubusercontent.com/3240875/69815852-2e39f080-11c5-11ea-800a-b282795c0ae1.png
+image: https://www.lohas-led.com/u_file/1911/products/11/779dce2733.jpg.640x640.jpg
 template: '{"NAME":"Lohas RGBWW","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---

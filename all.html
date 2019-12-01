@@ -6,13 +6,13 @@ navigation: 19
 <!-- ######################################################################  -->
 {% assign category = site.templates %}
 {% assign type_group = category | group_by: 'type' %}
-{% assign type_grouped = type_group | sort: 'name' %}
+{% assign type_grouped = type_group %}
 {% for group in type_grouped %}
 <BR>
 <h3>{{group.name}}</h3>
 <table id="{{group.name}}" width="80%">
     <tbody>
-    {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
+    {% assign grouptitlesorted = group.items | sort_natural %}     
     {% for template in grouptitlesorted %}
     {% include tablerow_standard.html %}
     {% endfor %}
