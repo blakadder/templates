@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-02
+title: Brilliant 20743 RGB+W
+category: light
+type: LED Strip
+standard: anzac
+link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-strip-2m/
+image: http://offers.kd2.org/pics/b7/25/b7254fae3dcce1e6361a26966d86ec15ac8dff72.jpg
+template: '{"NAME":"BrilliantStrip","GPIO":[17,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
+To test white channel try this on the console: ``color 000000b4``
