@@ -1,9 +1,9 @@
 ---
 date_added: 2019-10-05
-title: Esicoo 9W E26
+title: Esicoo 9W RGB+W
 category: light
 type: Bulb
-standard: us
+standard: E26
 link: https://www.amazon.com/ESICOO-Compatible-Google-Dimmable-Equivalent/dp/B07SMSGN86
 image: https://user-images.githubusercontent.com/5904370/66718142-d4ca5d80-ede0-11e9-909a-77bd4f315909.png
 template: '{"NAME":"Esicoo Bulb","GPIO":[0,0,0,0,143,144,0,0,0,0,0,0,0],"FLAG":0,"BASE":27}' 
