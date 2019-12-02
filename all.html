@@ -6,7 +6,7 @@ navigation: 19
 <!-- ######################################################################  -->
 {% assign category = site.templates %}
 {% assign type_group = category | group_by: 'type' %}
-{% assign type_grouped = type_group %}
+{% assign type_grouped = type_group | sort: 'name' %}
 {% for group in type_grouped %}
 <BR>
 <h3>{{group.name}}</h3>
