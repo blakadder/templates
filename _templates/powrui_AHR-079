@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-01
+title: Powrui AHR-079
+category: plug
+type: Power Strip
+standard: us
+link: https://www.amazon.com/gp/product/B07RL56DPD
+image: https://www.amazon.com/gp/product/B07RL56DPD
+template: '{"NAME":"Powrui Power S","GPIO":[56,0,0,17,19,21,0,0,23,20,22,24,18],"FLAG":0,"BASE":18}' 
+link_alt: https://www.powrui.com/products/smart-surge-protector
+---
+
+worked with latest version of tuya_convert

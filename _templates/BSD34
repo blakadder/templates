@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.aliexpress.com/item/4000037118300.html
 image: https://ae01.alicdn.com/kf/H78e70230d8d149cdb0312ed2ae0ffa6em.jpg?width=1000&height=1000&hash=2000
-template: '{"NAME":"BSD34 Plug","GPIO":[255,255,255,255,255,255,0,0,21,17,56,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"BSD34 Plug","GPIO":[0,0,0,0,0,0,0,0,21,17,56,0,0],"FLAG":0,"BASE":18}' 
 link_alt: 
 ---
 

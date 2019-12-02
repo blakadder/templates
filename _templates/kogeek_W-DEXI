@@ -1,0 +1,12 @@
+---
+date_added: 2019-12-01
+title: Koogeek W-DEXI
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.it/gp/product/B07YQS25LB/ref=ppx_yo_dt_b_asin_image_o02_s00?ie=UTF8&th=1
+image: https://images-na.ssl-images-amazon.com/images/I/610QZrF8cCL._SL1200_.jpg
+template: '{"NAME":"W-DEXI","GPIO":[0,90,0,0,134,132,0,0,130,52,21,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+

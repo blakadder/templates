@@ -10,4 +10,3 @@ template: '{"NAME":"SH-LE27RGB","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0
 link_alt: 
 ---
 
-Can be flashed over the air (OTA) with Tuya-Convert

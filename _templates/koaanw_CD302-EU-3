@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-01
+title: Koaanw CD302-EU-3
+category: switch
+type: Switch
+standard: eu
+link: https://smile.amazon.de/gp/product/B0794PK4WR
+image: https://images-na.ssl-images-amazon.com/images/I/51GKC34vN5L._SL1500_.jpg
+template: '{"NAME":"CD302-EU-3","GPIO":[158,53,0,19,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
+link_alt: https://de.aliexpress.com/item/32947679016.html?spm=a2g0s.9042311.0.0.f6f24c4d2ei9cP
+---
+
+Device is easy flashable with tuya convert.

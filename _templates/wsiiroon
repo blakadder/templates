@@ -1,0 +1,12 @@
+---
+date_added: 2019-11-30
+title: WSIIROON
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.de/gp/product/B07KSZ1MSM
+image: https://images-na.ssl-images-amazon.com/images/I/61uwAhTjbgL._AC_SL1500_.jpg
+template: '{"NAME":"WSIIROON","GPIO":[0,0,0,0,17,56,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
