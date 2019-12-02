@@ -3,7 +3,6 @@ layout: default
 ---
 
 <div class="float-right">
-  <!-- <a align="right" class="button" href="{{ page.category | downcase }}.html">{{ page.category | upcase }}</a><br> -->
   {% assign standard_list = page.standard %}
     {% for item_standard in standard_list %}
     <a class="button" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
