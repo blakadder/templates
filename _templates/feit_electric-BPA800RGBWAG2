@@ -3,7 +3,7 @@ date_added: 2019-10-07
 title: Feit Electric BPA800/RGBW/AG/2
 category: light
 type: Bulb
-standard: E27
+standard: E26
 link: https://www.costco.com/Feit-WiFi-Smart-Bulbs%2c-4-pack.product.100417461.html
 image: https://user-images.githubusercontent.com/5904370/66718161-080cec80-ede1-11e9-94f3-7cf3ea739bb3.png
 template: '{"NAME":" BPA800/RGBW","GPIO":[0,0,0,0,37,38,0,0,141,142,140,0,0],"FLAG":0,"BASE":48}' 
