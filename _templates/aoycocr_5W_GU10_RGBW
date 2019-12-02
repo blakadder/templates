@@ -1,9 +1,11 @@
 ---
 date_added: 2019-11-27
-title: Aoycocr 5W GU10 RGB+W
+title: Aoycocr 5W RGB+W
 category: light
 type: Bulb
-standard: eu
+standard: 
+  - eu
+  - GU10
 link: https://www.amazon.de/Doppelpack-Aoycocr-Mehrfarbige-Intelligente-Kompatibel/dp/B07V45F2X4
 image: https://images-na.ssl-images-amazon.com/images/I/51vIFOlCpHL._SL1000_.jpg
 template: '{"NAME":"Aoycocr_GU10","GPIO":[0,0,0,0,0,0,0,0,143,0,144,0,0],"FLAG":0,"BASE":27}' 
