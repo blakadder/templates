@@ -1,9 +1,9 @@
 ---
 date_added: 2019-11-23
-title: Hykker 9W E27 RGBW
+title: Hykker 9W RGB+W
 category: light
 type: Bulb
-standard: eu
+standard: E27
 link: https://www.hykker.com/akcesoria/zarowka-rgbw-9-w-z-wi-fi/
 image: https://www.hykker.com/wp-content/uploads/2019/11/zarowka.jpg
 template: '{"NAME":"Hykker RBGW 9W","GPIO":[0,0,0,0,0,40,0,0,37,0,39,38,0],"FLAG":0,"BASE":18}' 
