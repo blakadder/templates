@@ -11,37 +11,61 @@ link_alt: https://www.alibaba.com/product-detail/300ML-WiFi-Aroma-Diffuser-Ultra
 ---
 **Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**
 
-<!-- Please read [TuyaMCU](https://github.com/arendst/Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
+<!-- Please read [TuyaMCU](https://tasmota.github.io/docs/#/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
 
 There are a few different looking devices using the same PCB marked GD-HDFW05-v1.0 so this process should work on those. 
 
 ## Functions
-`dpID 1` device power: 0 = off / 1 = on    
-`dpID 11` led power: 0 = off / 1 = on    
-`dpID 12` error notification: 0 = ok / 1 = error  
-`dpID 13` countdown mode options: 0 = off / 1 = 1hr / 2 = 3hr *not needed with Tasmota*    
-`dpID 14` countdown status: reports value of 0...360 minutes *not needed with Tasmota*    
-`dpID 103` mist strength: 0 = low / 1 = high    
-`dpID 108` led color: 14 char value in hex (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
-`dpID 110` led mode: 0 = rgb_cycle / 1 = color / 2 = white    
-`dpID 110` led dimmer **color and white modes only** *it is important to define 'DimmerRange 1,255'*
+dpID|Device Function|Settings
+:-:|:-:|:-:
+`1`|Device power|0 = off / 1 = on    
+`11`|LED power|0 = off / 1 = on    
+`12`|Error notification|0 = ok / 1 = error  
+`13`|Countdown mode options (*not needed with Tasmota*)|0 = off / 1 = 1hr / 2 = 3hr    
+`14`|Countdown status report (*not needed with Tasmota*)|0...360 minutes    
+`103`|Mist strength|0 = low / 1 = high    
+`108`|LED color|14 character value in hex (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
+`110`|LED mode|0 = rgb_cycle / 1 = color / 2 = white    
+`110`|LED dimmer **color and white modes only** *it is important to define 'DimmerRange 1,255'*|
 
 ## Configuration
 
 After applying the template and configuring Wi-Fi and MQTT issue
 
 ```haskell
-Backlog SetOption66 1; TuyaMCU 21,111; TuyaMCU 11,1; TuyaMCU 12,11; TuyaMCU 13,103; TuyaMCU 14,12; TuyaMCU 15,110; DimmerRange 1,255; SetOption59 1
-```
-```haskell
-Rule1 on TuyaReceived#data=55AA000700056E040001007E do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA000700056E040001017F do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon on event#ON do backlog tuyasend4 110,1; tuyasend 11,1 endon on event#off do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon
+Backlog
+   SetOption66 1
+ ; TuyaMCU 21,111
+ ; TuyaMCU 11,1
+ ; TuyaMCU 12,11
+ ; TuyaMCU 13,103
+ ; TuyaMCU 14,12
+ ; TuyaMCU 15,110
+ ; DimmerRange 1,255
+ ; SetOption59 1```
+
+```console
+Rule1
+ on TuyaReceived#data=55AA000700056E040001007E do publish2 stat/GD-30W/EFFECT rgb_cycle endon
+ on TuyaReceived#data=55AA000700056E040001017F do publish2 stat/GD-30W/EFFECT color endon
+ on event#rgb_cycle do tuyasend4 110,0 endon
+ on event#color do tuyasend4 110,1 endon
+ on event#ON do backlog tuyasend4 110,1; tuyasend 11,1 endon
+ on event#off do tuyasend1 11,0 endon
+ on power3#state=1 do tuyasend4 103,1 endon
+ on power3#state=0 do tuyasend4 103,0 endon
+
 Rule1 1
 ```
 
 *Optional rule used to prevent the device going into countdown mode (f.e. using on device controls) and complete MCU status update on restart*
 
 ```console
-Rule3 on TuyaReceived#data=55AA000700050D040001011E do tuyasend4 13,0 endon on TuyaReceived#data=55AA000700050D040001021F do tuyasend4 13,0 endon on mqtt#connected do serialsend5 55aa0001000000 endon
+Rule3
+ on TuyaReceived#data=55AA000700050D040001011E do tuyasend4 13,0 endon
+ on TuyaReceived#data=55AA000700050D040001021F do tuyasend4 13,0 endon
+ on mqtt#connected do serialsend5 55aa0001000000 endon
+
 Rule3 1
 ```
 [All commands in .txt](https://gist.github.com/blakadder/2d112b50edd8f75f2d7fb0dddd9310c4)
@@ -53,7 +77,7 @@ Rule3 1
 - Relay4 is used for error status (ON = error), no control
 - Relay5 is used for light mode status (0 = rgb_cycle, 1 = color), no control
 
-LED mode status is reported to mqtt topic `stat/GD-30W/EFFECT` and command [`Event`](https://github.com/arendst/Tasmota/wiki/Commands#event) is used to control some functions using [`TuyaSend4`](https://github.com/arendst/Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule1`
+LED mode status is reported to mqtt topic `stat/GD-30W/EFFECT` and command [`Event`](https://tasmota.github.io/docs/#/Commands?id=event) is used to control some functions using [`TuyaSend4`](https://tasmota.github.io/docs/#/Commands?id=tuyasend4) command. All this is defined in `Rule1`
 
 Color can be changed using `TuyaSend3 108,RRGGBB64646464` (RR, GG and BB are hex value) only in color mode.
 
