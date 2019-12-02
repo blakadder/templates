@@ -1,9 +1,11 @@
 ---
 date_added: 2019-10-01
-title: Brilliant 20741
+title: Brilliant 9W RGB+W
 category: light
 type: Bulb
-standard: anzac
+standard: 
+  - E27
+  - B22
 link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20698-1.jpg
 template: '{"NAME":"Brilliant RGB+","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
