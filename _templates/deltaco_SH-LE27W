@@ -1,9 +1,9 @@
 ---
 date_added: 2019-11-23
-title: Deltaco SH-LE27W
+title: Deltaco SH-LE27W 9W CCT
 category: light
 type: Bulb
-standard: eu
+standard: E27
 link: https://www.webhallen.com/se/product/309664-Deltaco-Smart-Bulb-E27-White
 image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-LE27W.png?width=260
 template: '{"NAME":"SH-LE27W","GPIO":[0,0,0,0,0,140,0,0,38,0,37,142,141],"FLAG":0,"BASE":18}' 
