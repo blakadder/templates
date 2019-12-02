@@ -5,7 +5,7 @@ category: plug
 type: Power Strip
 standard: us
 link: https://www.amazon.com/gp/product/B07RL56DPD
-image: https://www.amazon.com/gp/product/B07RL56DPD
+image: https://cdn.shopify.com/s/files/1/0034/4401/5213/products/1_733f4f74-2cb9-4e38-b2c1-59b467766e77.jpg
 template: '{"NAME":"Powrui Power S","GPIO":[56,0,0,17,19,21,0,0,23,20,22,24,18],"FLAG":0,"BASE":18}' 
 link_alt: https://www.powrui.com/products/smart-surge-protector
 ---
