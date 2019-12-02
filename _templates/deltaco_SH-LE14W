@@ -1,9 +1,9 @@
 ---
 date_added: 2019-11-23
-title: Deltaco SH-LE14W
+title: Deltaco SH-LE14W 5W CCT
 category: light
 type: Bulb
-standard: global
+standard: E14
 link: https://www.webhallen.com/se/product/309662-Deltaco-Smart-Bulb-E14-White
 image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-LE14W.png?width=260
 template: '{"NAME":"SH-LE14W","GPIO":[0,0,0,0,0,140,0,0,38,0,37,142,141],"FLAG":0,"BASE":18}' 
