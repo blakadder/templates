@@ -1,9 +1,9 @@
 ---
 date_added: 2019-11-27
-title: Hama 176550
+title: Hama 176550 10W CCT
 category: light
 type: Bulb
-standard: eu
+standard: E27
 link: https://www.amazon.de/dp/B07FQZS3NP/
 image: https://images-na.ssl-images-amazon.com/images/I/51%2ByEjh%2BjHL._SL1100_.jpg
 template: '{"NAME":"Hama Bulb xW","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
