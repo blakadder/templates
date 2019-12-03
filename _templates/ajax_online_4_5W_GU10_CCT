@@ -5,7 +5,7 @@ type: CCT
 category: bulb
 standard: GU10
 link: https://www.amazon.co.uk/Google-Tunable-Dimmable-Ambiance-Lighting/dp/B07M6R3ZLG
-image: https://images-na.ssl-images-amazon.com/images/I/71Fduk5nEuL._SX679_.jpg
+image: https://images-na.ssl-images-amazon.com/images/I/61VdJsoS0-L._SL1500_.jpg
 template: {"NAME":"AjaxOnline","GPIO":[17,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":38} 
 link2: 
 ---

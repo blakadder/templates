@@ -10,7 +10,7 @@ template: {"NAME":"MagicHome RGBW","GPIO":[0,0,0,0,51,38,0,0,37,39,0,40,0],"FLAG
 link2: 
 ---
 ## Serial Flashing
-Complete guide on [Tasmota Wiki](https://github.com/arendst/Tasmota/wiki/MagicHome-LED-strip-controller)
+Complete guide on [Tasmota Wiki](https://tasmota.github.io/docs/#/devices/MagicHome-LED-strip-controller)
 
 
 
