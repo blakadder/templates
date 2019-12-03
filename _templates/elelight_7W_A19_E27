@@ -7,7 +7,7 @@ standard: E27
 link: https://www.amazon.com/gp/product/B07GV5HDCH
 image: https://images-na.ssl-images-amazon.com/images/I/610CKI9EEoL._SL1500_.jpg
 template: {"NAME":"EleLight 7wA19","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

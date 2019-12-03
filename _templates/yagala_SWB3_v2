@@ -7,7 +7,7 @@ standard: uk
 link: https://www.amazon.co.uk/gp/product/B07R7H6RT5/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
 image: https://images-na.ssl-images-amazon.com/images/I/511KSaQSxWL._SY355_.jpg
 template: {"NAME":"YAGALA SWB3","GPIO":[157,0,53,0,0,23,0,0,21,17,22,24,0],"FLAG":0,"BASE":18} 
-link_alt: https://www.amazon.co.uk/gp/product/B07STZYG9X/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1
+link2: https://www.amazon.co.uk/gp/product/B07STZYG9X/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1
 ---
 
 This enables the button to control switch 1 (and thus allow you to reset the device using the button) and also allows the LED to blink when connecting to WIFI and MQTT. The other template for this device does not enable either of these things.

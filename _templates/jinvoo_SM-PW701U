@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/Jinvoo-Wireless-Outlet-Schedule-Control/dp/B07121PYWQ
 image: https://user-images.githubusercontent.com/5904370/66994022-e6f01880-f0cc-11e9-906d-d5861885d3d9.png
 template: {"NAME":"SM-PW702","GPIO":[0,0,0,0,57,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

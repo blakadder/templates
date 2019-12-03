@@ -5,9 +5,9 @@ category: plug
 type: Plug
 standard: uk
 link: https://www.amazon.co.uk/gp/product/B07JFJQ3ZP
-image: https://images-na.ssl-images-amazon.com/images/I/51H575jJc5L._SL1001_.jpg
+image: https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/A1F83G8C2ARO7P/A3PYE5NTYAN1NX/3500c8e2-484b-415b-902f-0e5b7eebe9b4._CR0,0,300,400_PT0_SX300__.jpg
 template: {"NAME":"Teckin SP27","GPIO":[56,255,255,255,255,255,0,0,255,17,255,21,255],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 Tuya-Convert OTA flashing compatible

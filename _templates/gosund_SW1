@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B07MV1RTSV
 image: https://cdn.shopify.com/s/files/1/0032/3197/3445/products/SW_Pack_of_1_New_2048x2048.jpg
 template: {"NAME":"Gosund SW1","GPIO":[17,56,0,0,0,0,0,0,0,0,21,0,158],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 seems to be renamed KS-602S, template works perfectly

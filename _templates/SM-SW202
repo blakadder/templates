@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B07RR3JPKQ
 image: https://images-na.ssl-images-amazon.com/images/I/61PQzoUs8YL._AC_SL1500_.jpg
 template: {"NAME":"SM-SW202","GPIO":[0,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 generic Tuya based switched, easily converted with Tuya-Convert

@@ -7,7 +7,7 @@ standard: E14
 link: https://www.amazon.co.uk/gp/product/B078XCXR2S
 image: https://images-na.ssl-images-amazon.com/images/I/51DfVepS-SL._SX342_.jpg
 template: {"NAME":"Lohas E14 R50","GPIO":[17,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27} 
-link_alt: 
+link2: 
 ---
 Manufacturer reference: LH-ZN005W5E14-2
 

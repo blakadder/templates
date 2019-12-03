@@ -7,7 +7,7 @@ standard: us
 link: https://www.azpeninnovation.com/products/azpen-home-smart-plug
 image: https://cdn.shopify.com/s/files/1/2283/9481/products/Sp-1_1024x1024@2x.jpg?v=1510176299
 template: {"NAME":"Socket2Me","GPIO":[52,255,255,255,22,255,0,0,21,255,17,255,255],"FLAG":0,"BASE":18} 
-link_alt: https://www.amazon.com/Azpen-Home-Smart-Remote-Control/dp/B074TNKDGQ
+link2: https://www.amazon.com/Azpen-Home-Smart-Remote-Control/dp/B074TNKDGQ
 ---
 
 Original firmware works with AzpenHome app - so this appears to be a clone.  The Socket 2 Me plugs seem to only be purchasable in bulk as customized sockets (for businesses etc.).  Button works for plug relay, but there is a second "relay" for the USB power as well.

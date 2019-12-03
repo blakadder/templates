@@ -7,5 +7,5 @@ standard: eu
 link: https://www.deltaco.se/produkter/deltaco/smart-home/grenuttag/SH-P01E
 image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-P01E.png?width=260
 template: {"NAME":"DELTACO SH-P01","GPIO":[0,0,0,0,0,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}  
-link_alt: https://www.webhallen.com/se/product/309650-Deltaco-WiFi-Smart-Plug-Energiovervakning-10A
+link2: https://www.webhallen.com/se/product/309650-Deltaco-WiFi-Smart-Plug-Energiovervakning-10A
 ---

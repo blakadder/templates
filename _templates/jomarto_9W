@@ -9,7 +9,7 @@ standard:
 link: https://www.amazon.co.uk/dp/B07F6Z3JLS
 image: https://images-eu.ssl-images-amazon.com/images/I/31Ft5pQrT%2BL._SL500_AC_SS350_.jpg
 template: {"NAME":"Jomarto Wifi S","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":1,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

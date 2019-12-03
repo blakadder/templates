@@ -6,7 +6,7 @@ standard: global
 link: https://sonoff.itead.cc/en/products/sonoff/sonoff-basic
 image: https://user-images.githubusercontent.com/5904370/57875590-99b50580-7813-11e9-86fa-73ce736467e6.png
 template: {"NAME":"Sonoff Basic","GPIO":[17,255,255,255,255,0,0,0,21,56,255,0,0],"FLAG":0,"BASE":1} 
-link_alt: https://www.banggood.com/SONOFF-Basic-10A-2200W-WIFI-Wireless-Smart-Switch-Remote-Control-Socket-APP-Timer-p-1019971.html?p=CM27171011078201412U&custlinkid=712613
+link2: https://www.banggood.com/SONOFF-Basic-10A-2200W-WIFI-Wireless-Smart-Switch-Remote-Control-Socket-APP-Timer-p-1019971.html?p=CM27171011078201412U&custlinkid=712613
 ---
 Sonoff Basic - the one that started it all!
 

@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B07MBX6NGQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 image: https://user-images.githubusercontent.com/5904370/66718127-ab113680-ede0-11e9-945b-c717cf56ab04.png
 template: {"NAME":"Etekcity 3Way","GPIO":[255,255,0,255,23,29,0,0,82,22,10,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 `backlog switchtopic 0;switchmode1 1;switchmode2 5;switchmode3 1;powerretain 1;rule1 on event#ON do power2 TOGGLE endon;rule1 1;rule2 on event#OFF do power2 TOGGLE endon;rule2 1;`

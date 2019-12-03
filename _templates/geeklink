@@ -7,7 +7,7 @@ standard: us
 link: https://www.aliexpress.com/item/32958748327.html
 image: https://user-images.githubusercontent.com/5904370/69746645-03a85300-1145-11ea-9fc9-eabd455ed850.png
 template: {"NAME":"GL IR Blaster","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62} 
-link_alt: 
+link2: 
 ---
 
 Soldered header pins to upload. Pins 

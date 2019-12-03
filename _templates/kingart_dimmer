@@ -7,7 +7,7 @@ standard: eu
 link: http://www.aliexpress.com/item/Led-Dimmer-220v-Smart-Wifi-Switch-Touch-Control-Stepless-Dimmer-With-Bulb-Compatible-With-Amazon-Alexa/32891383747.html
 image: https://user-images.githubusercontent.com/5904370/54643685-c9f05a00-4a97-11e9-9b51-a99c2108b986.png
 template: {"NAME":"PS-16-DZ","GPIO":[255,148,255,149,255,255,0,0,255,52,255,255,255],"FLAG":0,"BASE":58} 
-link_alt: 
+link2: 
 ---
 On AliExpress you can buy a wifi dimmer for mains voltage (110 or 220V) It's a brandless dimmer, but can be found here: [AliExpress page](http://www.aliexpress.com/item/Led-Dimmer-220v-Smart-Wifi-Switch-Touch-Control-Stepless-Dimmer-With-Bulb-Compatible-With-Amazon-Alexa/32891383747.html?spm=a2g0s.9042311.0.0.300d4c4dx6emz1)
 

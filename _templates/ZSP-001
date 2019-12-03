@@ -7,7 +7,7 @@ standard: ch
 link: https://www.aliexpress.com/item/33006588699.html
 image: https://ae01.alicdn.com/kf/HTB1BPLCSIbpK1RjSZFyq6x_qFXa6/Smart-Swiss-Plug-16A-Switzerland-Wifi-Socket-Voice-Control-Works-With-Google-Home-Alexa-IFTTT-Tuya.jpg
 template: {"NAME":"ZSP-001","GPIO":[17,255,255,255,133,132,0,0,130,57,21,255,56],"FLAG":1,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 SWISS Plug Type.

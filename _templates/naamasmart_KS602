@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B077M5FN9M
 image: https://images-na.ssl-images-amazon.com/images/I/216LMI6KgZL.jpg
 template: {"NAME":"KS-602","GPIO":[17,0,0,0,0,0,0,0,21,0,0,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 Easily converted with Tuya-Convert

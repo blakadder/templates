@@ -7,6 +7,6 @@ standard: E27
 link: https://www.deltaco.se/produkter/deltaco/smart-home/belysning/SH-LE27RGB
 image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-LE27RGB.png?width=260
 template: {"NAME":"SH-LE27RGB","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 

@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.de/YELOMIN-Intelligente-Fernbedienbar-Stromverbrauch-Kompatibel/dp/B07Q5YFQR9
 image: https://images-na.ssl-images-amazon.com/images/I/61yd7Fkg7PL._AC_SX569_.jpg
 template: {"NAME":"Yelomin","GPIO":[0,145,0,146,0,0,0,0,17,56,21,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

@@ -7,7 +7,7 @@ standard: us
 link: https://www.blitzwolf.com/1200W-US-Dual-WIFI-Smart-Socket-p-294.html
 image: https://images-na.ssl-images-amazon.com/images/I/51jB4m6S2IL._SL1200_.jpg
 template: {"NAME":"Blitzwolf SHP3","GPIO":[18,56,0,131,134,132,0,0,17,0,22,21,0],"FLAG":0,"BASE":18} 
-link_alt: https://www.amazon.com/gp/product/B07GJ6W9L7
+link2: https://www.amazon.com/gp/product/B07GJ6W9L7
 ---
 
 Had reboot and relay constantly cycling trouble with the other Blitzwolf BW-SHP3 template. Ordered Blitzwolf BW-SHP3 on June 6,2019 not sure if hardware is different.

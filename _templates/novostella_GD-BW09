@@ -7,7 +7,7 @@ standard: E27
 link: https://www.amazon.co.uk/dp/B07P5QCCSZ
 image: https://images-na.ssl-images-amazon.com/images/I/61WEqGnwtuL._SL1500_.jpg
 template: {"NAME":"Novostella","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 Manufacturer reference: UT55508-RGBCW-EU-1
 

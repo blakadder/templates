@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.it/Multipresa-Yuanguo-Intelligente-Controllo-Compatibile/dp/B07L3FMYSQ
 image: http://www.yuanguotec.com/data/up/78/97/78ae49d97d07e1df.jpg
 template: {"NAME":"YUANGUO","GPIO":[13,20,0,24,19,18,0,0,17,22,21,23,157],"FLAG":0,"BASE":1} 
-link_alt: 
+link2: 
 ---
 
 Main Button (button5) is configurable on on GPIO0

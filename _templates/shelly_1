@@ -6,7 +6,7 @@ standard: global
 link: https://shelly.cloud/product/shelly-1-open-source/
 image: https://user-images.githubusercontent.com/5904370/57952006-2632f700-78ec-11e9-9a1a-dd37479a0d79.png
 template: {"NAME":"Shelly 1","GPIO":[0,0,0,0,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}
-link_alt:
+link2:
 ---
 
 The Shelly 1 is supported in Tasmota from version 6.2.1.7<br>

@@ -7,7 +7,7 @@ standard: E26
 link: https://www.amazon.com/gp/product/B07LCB3HQJ
 image: https://images-na.ssl-images-amazon.com/images/I/71xro8dWZML._AC_SL1500_.jpg
 template: {"NAME":"OHLUX","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 easily flashed with with tuya-convert

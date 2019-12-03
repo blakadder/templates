@@ -7,7 +7,7 @@ standard: global
 link: https://www.aliexpress.com/item/32683166279.html
 image: https://user-images.githubusercontent.com/5904370/57791754-c0087180-773d-11e9-845a-afcfa926bf49.png
 template: {"NAME":"MagicHome RGBW","GPIO":[0,0,0,0,51,38,0,0,37,39,0,40,0],"FLAG":0,"BASE":34} 
-link_alt: 
+link2: 
 ---
 ## Serial Flashing
 Complete guide on [Tasmota Wiki](https://github.com/arendst/Tasmota/wiki/MagicHome-LED-strip-controller)

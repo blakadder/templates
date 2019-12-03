@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B07FFVG67H/
 image: https://images-na.ssl-images-amazon.com/images/I/41U7qEEmDLL._SX679_.jpg
 template: {"NAME":"Tonbux","GPIO":[17,255,255,255,255,0,0,0,21,56,255,0,0],"FLAG":0,"BASE":1} 
-link_alt: 
+link2: 
 ---
 
 

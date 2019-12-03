@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B0798KYKT5
 image: https://images-na.ssl-images-amazon.com/images/I/51Natds5TcL._SL1500_.jpg
 template: {"NAME":"EletecPro-2","GPIO":[255,255,255,255,17,255,0,0,53,52,21,255,255],"FLAG":1,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

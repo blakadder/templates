@@ -7,7 +7,7 @@ standard: GU10
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-multicolor-spot/
 image: https://www.action.com/globalassets/cmsarticleimages/79/68/2578516_8712879142690-110.png
 template: {"NAME":"LSC RGBCW LED","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

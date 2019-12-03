@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.es/gp/product/B07SX176LT/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
 image: https://images-na.ssl-images-amazon.com/images/I/51-XnKQjjBL._AC_SL1500_.jpg
 template: {"NAME":"HLT-333","GPIO":[52,0,0,57,29,17,0,0,31,30,0,0,24],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

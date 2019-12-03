@@ -5,9 +5,9 @@ category: plug
 type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07MD3Y6HL/
-image: https://images-eu.ssl-images-amazon.com/images/I/31W%2BxwkOtnL._UL320_.jpg
+image: https://user-images.githubusercontent.com/5904370/70091622-cea47080-161c-11ea-91c0-2dd66eb04eaa.png
 template: {"NAME":"Jules-V_UV","GPIO":[56,0,0,0,0,134,0,0,21,17,132,57,131],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 Template copied from Tflag NX-SM100 Power Monitoring Plug

@@ -7,7 +7,7 @@ standard: global
 link: https://www.amazon.de/gp/product/B07NYCHJRW
 image: https://images-na.ssl-images-amazon.com/images/I/51VaObTqjOL._SL1000_.jpg
 template: {"NAME":"Eachen IR","GPIO":[0,0,0,0,56,51,0,0,255,17,8,0,0],"FLAG":0,"BASE":18} 
-link_alt: https://eachen.cc/product/eachen-ir-dc6-tuya/
+link2: https://eachen.cc/product/eachen-ir-dc6-tuya/
 ---
 
 Is refered also as "Eachen IR-DC6" and "Docooler WiFi IR-HUB"

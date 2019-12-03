@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B07D1KK92W
 image: https://images-na.ssl-images-amazon.com/images/I/61EJ3baMnFL._SL1300_.jpg
 template: {"NAME":"TESSAN A4L-BK","GPIO":[0,0,0,24,23,0,0,0,21,0,22,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 I haven't been able to track down the other functions, if there are any, and haven't cracked open the case to do any exploration. This device was able to be flashed via tuya-convert.

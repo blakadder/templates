@@ -4,10 +4,10 @@ title: SmartDGM PP-W162
 category: plug
 type: Plug
 standard: eu
-link: https://www.biedronka.pl/pl/product,id,142580,name,smart-gniazdo-pp-w162
-image: https://i.imgur.com/qZkLlKy.png
+link: https://www.gotronik.pl/inteligentna-wtyczka-dgm-pp-w162-smart-gniazdo-p-6955.html
+image: https://gotronik.pl/images/dgm-pp-w162-6.jpg
 template: {"NAME":"SmartDGM Plug","GPIO":[0,0,0,17,134,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":18} 
-link_alt: http://digimate.pl/
+link2:
 ---
 
 

@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B076HKHSSX
 image: https://images-na.ssl-images-amazon.com/images/I/61EsCN8mtOL._SL1500_.jpg
 template: {"NAME":"Epicka","GPIO":[255,255,255,255,57,56,0,0,21,17,255,255,255],"FLAG":1,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

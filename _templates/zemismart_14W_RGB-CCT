@@ -7,7 +7,7 @@ standard: global
 link: https://www.aliexpress.com/item/32883690565.html
 image: https://user-images.githubusercontent.com/5904370/66718388-9d10e500-ede3-11e9-95b5-2c7c58f1572e.png
 template: {"NAME":"ZemiDownLight6","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

@@ -7,7 +7,7 @@ standard: E26
 link: https://www.amazon.com/gp/product/B07HR8GT12
 image: https://images-na.ssl-images-amazon.com/images/I/51J0DCf8MSL._AC_SL1000_.jpg
 template: {"NAME":"3STONE","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":15,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 Easily flashed with tuya-convert

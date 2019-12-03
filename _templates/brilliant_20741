@@ -9,7 +9,7 @@ standard:
 link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20698-1.jpg
 template: {"NAME":"Brilliant RGB+","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 Converted with tuya-convert 2

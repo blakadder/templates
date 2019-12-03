@@ -7,7 +7,7 @@ standard: E27
 link: https://wooxhome.com/lighting-c1/woox-r4553-smart-bulb-e27-p10
 image: https://wooxhome.com/images/woox-r4553-smart-bulb-e27-p10-163_image.jpg
 template: {"NAME":"WOOX R4553","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

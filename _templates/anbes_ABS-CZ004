@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B07DC641FH
 image: https://images-na.ssl-images-amazon.com/images/I/61EVgigpiqL._SL1500_.jpg
 template: {"NAME":"ANBES ABS-CZ00","GPIO":[0,0,0,0,21,133,0,0,131,17,132,22,18],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 GPIO0 and GPIO2 control the dual (1 red, 1 blue) LEDs behind button 2. Probably need a rule to make it work. Button 1 red led is hardwired to follow relay1.

@@ -7,7 +7,7 @@ standard: anzac
 link: http://www.bauhn.com.au/product-listing/smart-wall-plug-ASPU-1019
 image: http://www.bauhn.com.au/_media/webapp/product-listing/ASPU-1019/2.jpg
 template: {"NAME":"Buahn Smart Pl","GPIO":[0,0,0,0,21,22,0,0,0,56,17,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 This device uses two relays, so use the following commands to setup a rule to trigger the second relay when the first is triggered

@@ -7,5 +7,5 @@ standard: E14
 link: https://www.aliexpress.com/item/E14-WiFi-LED-Candle-Bulbs-Bedroom-Home-Light-RGB-5W-Led-Smart-Bulb-For-Alexa-Google/32966023980.html
 image: https://user-images.githubusercontent.com/5904370/54396962-14975e00-46b5-11e9-82dd-dc95ac588e84.png
 template: {"NAME":"Woopower E14","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27} 
-link_alt: 
+link2: 
 ---

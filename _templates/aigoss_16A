@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.de/gp/product/B07RGVBPBV
 image: https://images-na.ssl-images-amazon.com/images/I/31PVFTEKL6L._AC_.jpg
 template: {"NAME":"Aigoss Plug","GPIO":[255,255,0,255,52,21,0,0,54,255,17,0,255],"FLAG":15,"BASE":51} 
-link_alt: 
+link2: 
 ---
 
 

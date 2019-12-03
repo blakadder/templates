@@ -1,13 +1,13 @@
 ---
 date_added: 2019-06-20
-title: ZooZee
+title: ZooZee SA101
 category: plug
 type: Plug
 standard: us
 link: https://www.amazon.ca/Outlet-Wireless-Socket-Compatible-Google/dp/B07MPGJDNK
-image: https://i.imgur.com/3M68GnP.jpg
+image: https://images-na.ssl-images-amazon.com/images/I/51ytH0-UA4L._SL1001_.jpg
 template: {"NAME":"ZooZee","GPIO":[57,255,56,255,255,255,0,0,255,17,255,21,255],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

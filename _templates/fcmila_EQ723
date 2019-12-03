@@ -11,7 +11,7 @@ standard:
 link: https://www.aliexpress.com/item/33047138888.html
 image: https://ae01.alicdn.com/kf/H12c7a3e69d3545248ebe0e78de8ef43fi/Dimmable-10W-E27-WiFi-Smart-Light-Bulb-LED-Lamp-App-Operate-Alexa-Google-Assistant-Voice-Control.jpg_640x640.jpg
 template: {"NAME":"FCMILA LED E27","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

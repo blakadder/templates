@@ -7,7 +7,7 @@ standard: GU10
 link: https://www.amazon.de/gp/product/B07KZN74YJ
 image: https://images-na.ssl-images-amazon.com/images/I/51nlRnyL2%2BL._AC_SL1000_.jpg
 template: {"NAME":"BrizLabs","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 RGBWW, flashable with tuya-convert, extremely small wifi range

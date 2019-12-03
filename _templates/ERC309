@@ -7,7 +7,7 @@ standard: global
 link: https://www.aliexpress.com/item/32873133693.html
 image: https://user-images.githubusercontent.com/25117255/61148426-0e888100-a4df-11e9-92c5-43453afcc6c5.png
 template: {"NAME":"Kinetic Switch","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}
-link_alt:
+link2:
 ---
 #### Configuration (post Tasmota v6.6.0.10)
 Configure as a `Tuya MCU (54)` (support as a BASE module was introduced in 6.6.0.10).

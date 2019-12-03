@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.de/Kompatibel-Fernsteuerung-Überlastungsschutz-erforderlich-10A-2200W-2/dp/B07D77GPLW
 image: https://images-na.ssl-images-amazon.com/images/I/61vhVofiWsL._SL1500_.jpg
 template: {"NAME":"YX-DE01","GPIO":[255,17,255,255,255,255,0,0,255,56,21,255,255],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 D5 GPIO14 - Relais1	

@@ -7,7 +7,7 @@ standard: us
 link: https://www.costco.ca/prime-smart-outlets-2-pack.product.100485219.html
 image: https://images.costco-static.com/ImageDelivery/imageService?profileId=12026539&imageId=1221313-894__1&recipeName=350
 template: {"NAME":"Prime Outdoor","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 Outdoor Wall Plug

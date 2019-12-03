@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/MoKo-Control-Compatible-Required-Installation/dp/B07VXVHDVD
 image: https://m.media-amazon.com/images/S/aplus-media/sc/f75c3753-2b2a-4874-b818-e3d82c4a8e80.__CR0,0,300,300_PT0_SX300_V1___.jpg
 template: {"NAME":"Moko Switch","GPIO":[0,0,0,17,21,134,0,0,0,0,0,0,0],"FLAG":0,"BASE":59} 
-link_alt: 
+link2: 
 ---
 
 

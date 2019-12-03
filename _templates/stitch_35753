@@ -7,7 +7,7 @@ standard: global
 link: https://www.monoprice.com/product?p_id=35753
 image: https://images.monoprice.com/productlargeimages/357531.jpg
 template: {"NAME":"Stitch 35753","GPIO":[0,0,0,0,52,51,0,0,0,90,8,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 STITCH by Monoprice Wireless Smart Universal IR Controller (USB-powered)

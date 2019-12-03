@@ -7,7 +7,7 @@ standard: E27
 link: https://www.amazon.com/gp/aw/d/B074QFZ6B5
 image: https://m.media-amazon.com/images/I/31w72X0tMdL._SCLZZZZZZZ__US284_.jpg
 template: {"NAME":"Linganzh LWE3 ","GPIO":[0,0,0,0,0,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 This is a Tuya bulb. Do NOT update, else it may become impossible to flash it with `tuya-convert`.

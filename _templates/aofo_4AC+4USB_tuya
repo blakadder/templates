@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.de/AOFO-Steckdosenleiste-Fernsteuerung-Mehrfachsteckdose-%C3%9Cberspannungsschutz/dp/B07X1H3NWF
 image: https://images-na.ssl-images-amazon.com/images/I/816DuO0a4WL._SL1500_.jpg
 template: {"NAME":"AOFO-4AC-4USB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":1,"BASE":54} 
-link_alt: 
+link2: 
 ---
 
 `Backlog TuyaMCU 11,38; TuyaMCU 12,1; TuyaMCU 13,2; TuyaMCU 14,3; TuyaMCU 15,4 ; TuyaMCU 16,7`

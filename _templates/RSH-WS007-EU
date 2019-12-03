@@ -7,7 +7,7 @@ standard: eu
 link: https://www.aliexpress.com/item/Tuya-EU-WiFi-socket-wireless-plug-smart-home-switch-compatible-with-Google-home-IFTTT-and-Alexa/32952219190.html
 image: https://user-images.githubusercontent.com/5904370/66717120-e1958400-edd5-11e9-931c-abc59f86ed3d.png
 template: {"NAME":"RSH-WS007","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":1,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

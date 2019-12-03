@@ -7,7 +7,7 @@ standard: E27
 link: https://www.aliexpress.com/item/33006613923.html
 image: https://ae01.alicdn.com/kf/Habe5b5a466ca428f9b459f336d013511b/Lonsonho-2PCS-E27-Wifi-Smart-Light-LED-Bulb-Lamp-RGB-W-C-9W-900lm-Tuya-Smart.jpg
 template: {"NAME":"RGB+W+C Bulb","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 Flashed with tuya-convert

@@ -7,7 +7,7 @@ standard: E27
 link: https://www.aliexpress.com/item/LED-Bulb-Lamps-11W-E27-B22-Smart-Light-Bulb-WiFi-Voice-Control-RGB-Energy-Saving-Dimming/32958468609.html
 image: https://user-images.githubusercontent.com/5904370/66717744-bb271700-eddc-11e9-9bcf-d6f53437d201.png
 template: {"NAME":"RGB Bulb 11W","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":1,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

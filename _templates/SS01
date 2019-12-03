@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B07KC14T4K/ref=ppx_yo_dt_b_search_asin_title?
 image: https://images-na.ssl-images-amazon.com/images/I/71g5aflk9-L._SL1500_.jpg
 template: {"NAME":"Smart Plug SS0","GPIO":[255,255,255,255,255,255,0,0,21,17,255,255,255],"FLAG":1,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

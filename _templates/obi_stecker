@@ -6,7 +6,7 @@ standard: eu
 link: https://www.obi.de/hausfunksteuerung/wifi-stecker-schuko/p/2291706
 image: https://user-images.githubusercontent.com/5904370/57953956-cdfef380-78f1-11e9-9a69-37609bec9cee.png
 template: {"NAME":"OBI Socket","GPIO":[255,255,0,255,52,21,0,0,54,255,17,0,255],"FLAG":1,"BASE":51} 
-link_alt: 
+link2: 
 ---
 ## Serial Flashing
 Opening the socket is kind of difficult. If you have one of the [Tri-Wing screwdrivers](https://www.amazon.de/dp/B00154ZYV0/ref=asc_df_B00154ZYV057501798/?tag=googshopde-21&creative=22398&creativeASIN=B00154ZYV0&linkCode=df0&hvadid=214366492459&hvpos=1o1&hvnetw=g&hvrand=5060839556356521171&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9044260&hvtargid=pla-420556387190&th=1&psc=1)

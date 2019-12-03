@@ -7,7 +7,7 @@ standard: us
 link: https://www.monoprice.com/product?p_id=35557
 image: https://images.monoprice.com/productlargeimages/355571.jpg
 template: {"NAME":"Tuya WF15S ","GPIO":[255,255,0,0,255,255,0,0,255,108,255,107,0],"FLAG":0,"BASE":54}
-link_alt: https://www.enerlites.com/wf15s.html
+link2: https://www.enerlites.com/wf15s.html
 ---
 *Post Tasmota version 6.6.0.10
 

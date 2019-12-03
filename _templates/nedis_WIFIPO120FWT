@@ -7,8 +7,8 @@ standard: eu
 link: https://nedis.com/en-us/product/550710067/wi-fi-smart-outdoor-plug-splashproof-ip44-power-monitor-schuko-type-f-16-a
 image: https://pictures.content4us.com/products_high_res/WIFIPO120FWT_P41.JPG
 template: {"NAME":"WIFIPO120FWT","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49} 
-link_alt: https://www.webhallen.com/se/product/306173-Nedis-Wi-Fi-Smart-Utomhus-Plug-IP44-Energimatning-16A
-link_alt: https://www.kjell.com/se/produkter/el-verktyg/smarta-hem/wi-fi/nedis/nedis-smartlife-fjarrstrombrytare-for-utomhusbruk-p51539
+link2: https://www.webhallen.com/se/product/306173-Nedis-Wi-Fi-Smart-Utomhus-Plug-IP44-Energimatning-16A
+link2: https://www.kjell.com/se/produkter/el-verktyg/smarta-hem/wi-fi/nedis/nedis-smartlife-fjarrstrombrytare-for-utomhusbruk-p51539
 ---
 
 Can be flashed with Tuya-Convert 2.3.0 (tested 2019-11-28)

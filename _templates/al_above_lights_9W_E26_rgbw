@@ -7,7 +7,7 @@ standard: E26
 link: https://www.amazon.com/dp/B07SNRSWNY
 image: https://images-na.ssl-images-amazon.com/images/I/51HEffp%2BfvL._AC_SL1500_.jpg
 template: {"NAME":"AL 810LM","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

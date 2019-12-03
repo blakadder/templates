@@ -7,7 +7,7 @@ standard: eu
 link: https://www.lightinthebox.com/nl/p/smart-plug-for-slaapkamer-woonkamer-origineel-keukengerei-100-240v-smart_p6593540.html?prm=1.5.1.1
 image: https://li0.rightinthebox.com/desc_image/201803/kljzxi1522132895548.jpg
 template: {"NAME":"Waza JH-G01E","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":1,"BASE":18} 
-link_alt: https://www.miniinthebox.com/nl/p/smart-plug-for-slaapkamer-woonkamer-origineel-keukengerei-100-240v-smart_p6593540.html?prm=2.5.1.1
+link2: https://www.miniinthebox.com/nl/p/smart-plug-for-slaapkamer-woonkamer-origineel-keukengerei-100-240v-smart_p6593540.html?prm=2.5.1.1
 ---
 
 The one in your list doesn't work for me, this modified one uses other GPIO's (the same as the US version): BUTTON works as a Toggle, LED on when POWER is OFF (and vice versa)

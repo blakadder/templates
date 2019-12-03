@@ -7,7 +7,7 @@ standard: anzac
 link: https://www.jaycar.com.au/smart-plug-wifi-controlled-mains-switch/p/MS6106
 image: https://i.postimg.cc/xdLwwBZP/63218102-9eab8d00-c153-11e9-85d7-4dd2fee332cd.png
 template: {"NAME":"Jaycar","GPIO":[56,0,0,0,0,0,0,0,0,9,0,21,0],"FLAG":0,"BASE":6} 
-link_alt: 
+link2: 
 ---
 
 `SwitchMode1 3`

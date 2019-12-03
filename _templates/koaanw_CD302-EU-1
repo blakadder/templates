@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.de/Lichtschalter-Touchscreen-schalter-Timing-Funktion-%C3%9Cberlastungsschutz-erforderlich/dp/B0793QTY3V
 image: https://images-na.ssl-images-amazon.com/images/I/51WRHUWxtsL._SX466_.jpg
 template: {"NAME":"CD302-EU-1","GPIO":[0,0,0,0,157,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 `Setoption31 1` to make the red LED stop blinking. Remove the 157 and set to 0 to switch off the red LED. 

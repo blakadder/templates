@@ -7,7 +7,7 @@ standard: E27
 link: https://www.webhallen.com/se/product/309664-Deltaco-Smart-Bulb-E27-White
 image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-LE27W.png?width=260
 template: {"NAME":"SH-LE27W","GPIO":[0,0,0,0,0,140,0,0,38,0,37,142,141],"FLAG":0,"BASE":18} 
-link_alt: https://www.deltaco.se/produkter/deltaco/smart-home/belysning/SH-LE27W
+link2: https://www.deltaco.se/produkter/deltaco/smart-home/belysning/SH-LE27W
 ---
 
 Used Tuya-Convert to add Tsmota

@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.de/Smart-Koogeek-Intelligente-Steckdose-Alexa/dp/B07H3XDFRQ
 image: https://images-na.ssl-images-amazon.com/images/I/41n8zQvF6eL._AC_SL1001_.jpg
 template: {"NAME":"Koogeek-KLSP1","GPIO":[0,56,0,17,134,132,0,0,131,158,21,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

@@ -7,7 +7,7 @@ standard: anzac
 link: https://www.bunnings.com.au/deta-smart-rewireable-plug-with-grid-connect_p0098810
 image: https://media.bunnings.com.au/Product-800x800/09a8ffe1-ceac-456d-9bb4-58bbead2f489.jpg
 template: {"NAME":"DetaSmartPlug","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 Tuya Convert 2

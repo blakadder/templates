@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.de/gp/product/B07B7G1TF7/
 image: https://user-images.githubusercontent.com/5904370/66717949-9fbd0b80-edde-11e9-8dd0-36e09e7a7114.png
 template: {"NAME":"SAINKO 1CH","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":28} 
-link_alt: 
+link2: 
 ---
 
 it also works with the default sonoff.bin

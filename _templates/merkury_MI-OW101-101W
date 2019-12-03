@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/Merkury-MI-OW101-101W-Innovations-Outdoor-Smart/dp/B07MKZ29HM
 image: https://i.postimg.cc/Kz3cfg1B/5558abb7-4038-4a69-9c8f-9fa34aac67e7-1-a15bc28a5f9e6a2e74ee83a3d.jpg
 template: {"NAME":"Merkury Switch","GPIO":[17,255,255,255,0,56,0,0,0,54,21,255,255],"FLAG":1,"BASE":18} 
-link_alt: https://www.walmart.com/ip/Merkury-Innovations-Indoor-Outdoor-Smart-Plug-1-Pack/967621595
+link2: https://www.walmart.com/ip/Merkury-Innovations-Indoor-Outdoor-Smart-Plug-1-Pack/967621595
 ---
 
 Updated, with blue light working   

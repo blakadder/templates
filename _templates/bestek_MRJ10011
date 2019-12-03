@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/BESTEK-Enabled-Compatible-Required-Anywhere/dp/B07F2Z8GKM
 image: https://images-na.ssl-images-amazon.com/images/I/61h3loMrBkL._AC_SL1500_.jpg
 template: {"NAME":"BestekMRJ1011","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":1} 
-link_alt: https://www.walmart.com/ip/BESTEK-MRJ1011-Wifi-Smart-Plug-Compatible-Alexa-Google-Home-Automation-Module-Wireless-Remote-Control-Light-Switch-Wifi-Intelligent-Socket-iOS-Androi/895086428
+link2: https://www.walmart.com/ip/BESTEK-MRJ1011-Wifi-Smart-Plug-Compatible-Alexa-Google-Home-Automation-Module-Wireless-Remote-Control-Light-Switch-Wifi-Intelligent-Socket-iOS-Androi/895086428
 ---
 
 Flashed using tuya convert. 

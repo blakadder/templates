@@ -7,7 +7,7 @@ standard: uk
 link: https://www.amazon.co.uk/Aoycocr-Monitoring-Compatible-Function-Required%EF%BC%884pack%EF%BC%89/dp/B07RYPJTJX
 image: https://images-na.ssl-images-amazon.com/images/I/51KqgLVWuAL._SL1000_.jpg
 template: {"NAME":"Teckin SP23","GPIO":[56,0,57,255,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":45} 
-link_alt: 
+link2: 
 ---
 
 Tuya-convert compatible

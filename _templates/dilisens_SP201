@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/DILISENS-Smart-Wi-Fi-Sockets-Outlets/dp/B07B4CNJKG
 image: https://images-na.ssl-images-amazon.com/images/I/51greZwBMgL._SL1103_.jpg
 template: {"NAME":"Dilisens SP201","GPIO":[0,0,131,0,133,132,52,21,18,22,17,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

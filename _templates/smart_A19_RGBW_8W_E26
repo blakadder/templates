@@ -7,7 +7,7 @@ standard: E26
 link: https://www.amazon.ca/gp/product/B07H9Y222L
 image: https://images-na.ssl-images-amazon.com/images/I/61fociPaDuL._SL1200_.jpg
 template: {"NAME":"OOOLED 60W RGB","GPIO":[0,0,0,0,39,40,0,0,37,0,38,0,0],"FLAG":1,"BASE":18} 
-link_alt: 
+link2: 
 ---
 Reference #: Smart-A19-RGBCW-01
 

@@ -7,6 +7,6 @@ standard: eu
 link: https://www.amazon.de
 image: https://images-na.ssl-images-amazon.com/images/I/517OHYzBCrL._SL1001_.jpg
 template: {"NAME":"Avatar AWP07L","GPIO":[56,255,255,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45} 
-link_alt: 
+link2: 
 ---
 

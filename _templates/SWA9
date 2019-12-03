@@ -7,7 +7,7 @@ standard: uk
 link: https://shopee.sg/product/130118966/2146995126
 image: https://cf.shopee.sg/file/d09204cc9c3d81c295db6c96b8bfcfec
 template: {"NAME":"SWA9","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 GPIO mapping is the same as [Lingan SWA1](https://github.com/arendst/Tasmota/wiki/Lingan-SWA1)

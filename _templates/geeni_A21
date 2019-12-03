@@ -7,7 +7,7 @@ standard: E26
 link: https://mygeeni.com/products/lux-1050-smart-wi-fi-led-white-light
 image: https://images-na.ssl-images-amazon.com/images/I/61tNrglIbeL._SL1500_.jpg
 template: {"NAME":"Geeni-1050-WW","GPIO":[0,0,0,0,37,37,0,0,38,0,0,0,0],"FLAG":1,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 Tuya convert successful

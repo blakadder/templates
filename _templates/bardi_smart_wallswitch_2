@@ -7,7 +7,7 @@ standard: eu
 link: https://bardi.co.id/product-detail/?id=175
 image: https://bardi.co.id/wp-content/uploads/2019/03/Wifi-Controlled-Smart-WallSwitch-2-Horizontal.jpg
 template: {"NAME":"BARDI 2 Gang","GPIO":[56,0,157,18,22,0,0,0,52,21,57,0,17],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 regular tuya convert process

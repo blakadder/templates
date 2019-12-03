@@ -7,7 +7,7 @@ standard: eu
 link: https://www.amazon.de/gp/product/B07KK9P92N
 image: https://images-na.ssl-images-amazon.com/images/I/61KEZ5a7pjL._SL1500_.jpg
 template: {"NAME":"ZLD-44EU-W","GPIO":[17,255,255,255,22,21,18,19,23,24,25,0,0],"FLAG":0,"BASE":23} 
-link_alt: 
+link2: 
 ---
 
 

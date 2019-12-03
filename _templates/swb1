@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.com/Aneken-Protector-Individually-Controlled-Compatible/dp/B07FDX6XZ6
 image: https://user-images.githubusercontent.com/5904370/54648203-9fa59900-4aa5-11e9-9701-f3586d9375da.png
 template: {"NAME":"SWB1","GPIO":[52,0,0,0,0,24,0,0,21,17,22,23,0],"FLAG":0,"BASE":18}
-link_alt: https://www.aliexpress.com/item/2000W-WiFi-Socket-Portable-SWB1-Smart-Power-Strip-Intelligent-4-Ports-Plug-Wifi-Wireless-Remote-Power/32883983405.html
+link2: https://www.aliexpress.com/item/2000W-WiFi-Socket-Portable-SWB1-Smart-Power-Strip-Intelligent-4-Ports-Plug-Wifi-Wireless-Remote-Power/32883983405.html
 ---
 ### Product
 SWB1 Wi-Fi smart power strip with 4 main ports. Each port can be controlled manually

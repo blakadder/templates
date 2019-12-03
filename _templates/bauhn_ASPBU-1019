@@ -7,7 +7,7 @@ standard: anzac
 link: http://www.bauhn.com.au/product-listing/smart-powerboard-ASPBU-1019
 image: http://www.bauhn.com.au/_media/webapp/product-listing/ASPBU-1019/powerboard-2.jpg
 template: {"NAME":"Bauhn 3AC+3USB","GPIO":[0,157,0,0,22,21,0,0,0,23,17,0,0],"FLAG":0,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 Default firmware uses zero crossing detection on GPIO12, [internals images](https://imgur.com/gallery/gC27drZ)

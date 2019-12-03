@@ -9,7 +9,7 @@ standard:
 link: https://www.aldi.com.au
 image: https://user-images.githubusercontent.com/5904370/68201033-50bf5c00-ffc1-11e9-9cfa-8c4ee2c51405.png
 template: {"NAME":"Cocoon RGBW","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18} 
-link_alt: https://cocoonproducts.com.au/cocoonconnect/smart-wi-fi-light-bulbs/
+link2: https://cocoonproducts.com.au/cocoonconnect/smart-wi-fi-light-bulbs/
 ---
 
 

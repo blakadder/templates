@@ -6,7 +6,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B07KP3HQR4
 image: https://raw.githubusercontent.com/DavinKD/SmartThings/master/DeviceImages/XS-SSA05.jpg
 template: {"NAME":"XS-SSA05","GPIO":[30,255,255,131,255,133,0,0,21,17,132,31,255],"FLAG":1,"BASE":18} 
-link_alt: 
+link2: 
 ---
 
 

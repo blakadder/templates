@@ -7,7 +7,7 @@ standard: MR16
 link: https://www.lohas-led.com/lohas-smart-wifi-light-bulbmr16-led-50-w-5000k-daylight-compatible-with-alexa-google-home-assistant-remote-control-by-smartphone-2-pack-p0235-p0235.html
 image: https://www.lohas-led.com/u_file/1901/products/14/784cdaca45.jpg.240x240.jpg
 template: {"NAME":"Lohas MR16","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18} 
-link_alt: https://www.amazon.com/gp/product/B07JRD5GGB
+link2: https://www.amazon.com/gp/product/B07JRD5GGB
 ---
 
 Manufacturer reference: LH-6W-5000k-MR16-2pack

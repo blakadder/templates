@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.ca/MOES-Control-Compatible-Required-Standard/dp/B07PLCMR71
 image: https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/A2EUQ1WTGCTBG2/AM2ATWLFGFUBV/7e9e2b45-484b-4e78-af29-cc6917054d84._CR0,0,600,800_PT0_SX300__.jpg
 template: {"NAME":"MOES - DS01","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}
-link_alt: https://www.aliexpress.com/item/US-WiFi-Smart-Wall-Light-Switch-Dimmer-Mobile-APP-Remote-Control-No-Hub-Required-Works-with/32991817692.html?spm=2114.search0104.3.14.53c94300OPXiLp&ws_ab_test=searchweb0_0,searchweb201602_5_10065_10068_10130_10547_319_10059_10884_317_10548_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536,searchweb201603_52,ppcSwitch_0&algo_expid=ef478460-b615-4373-b9b3-1a88dd4fb41c-2&algo_pvid=ef478460-b615-4373-b9b3-1a88dd4fb41c&transAbTest=ae803_5
+link2: https://www.aliexpress.com/item/US-WiFi-Smart-Wall-Light-Switch-Dimmer-Mobile-APP-Remote-Control-No-Hub-Required-Works-with/32991817692.html?spm=2114.search0104.3.14.53c94300OPXiLp&ws_ab_test=searchweb0_0,searchweb201602_5_10065_10068_10130_10547_319_10059_10884_317_10548_10887_10696_321_322_10084_453_10083_454_10103_10618_10307_537_536,searchweb201603_52,ppcSwitch_0&algo_expid=ef478460-b615-4373-b9b3-1a88dd4fb41c-2&algo_pvid=ef478460-b615-4373-b9b3-1a88dd4fb41c&transAbTest=ae803_5
 ---
 
 There are several Tuya Dimmer variants by various manufacturers. These dimmers are usually 1 gang switches that dim mains voltage for various lighting types: incandescent, CFL, and LED.  Consult the specific device for the type of bulbs and capacity it supports as well as the bulbs themselves to verify they support dimming.
