@@ -1,0 +1,12 @@
+---
+date_added: 2019-12-03
+title: Vaupan X6P
+category: plug
+type: Plug
+standard: us
+link: https://www.amazon.com/gp/product/B07TTPCRDV/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
+image: https://images-na.ssl-images-amazon.com/images/I/61siix1YdAL._AC_SL1500_.jpg
+template: '{"NAME":"Vaupan 10a X6P","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link_alt: 
+---
+
