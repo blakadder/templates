@@ -10,16 +10,14 @@ template: {"NAME":"moeshouse2gang","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FL
 link2: 
 ---
 
-The device use frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip. At the moment you have to use a script to make it work with Tasmota. Script is not supported with precompiled binary (at least 6.6.0) so you have to compile your own fw. Personally recommended gitpod: 
-
-[https://gitpod.io/#https://github.com/benzino77/tasmocompiler](https://gitpod.io/#https://github.com/benzino77/tasmocompiler)
+The device use frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip. At the moment you have to use a script to make it work with Tasmota. Script is not supported with precompiled binary (at least 6.6.0) so you have to compile your own fw. 
 
 Please note that the script not working good with core 2.3.0! 
 Below two scripts which do something like switchmode4 and switchmode1. The script for switchmode4 is created by @thxthx0 and modified by me for switchmode1
 
 
 SwitchMode1
-```console
+```lua
 >D
 sw1=0
 sw2=0
