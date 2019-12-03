@@ -3,12 +3,11 @@ title:  Jinvoo SM-AW713 v2
 category: misc
 type: Valve
 standard: global
-author: Ingo Walther
 link: https://www.amazon.de/gp/product/B07H3RT8X8/
 image: https://images-na.ssl-images-amazon.com/images/I/61mxgUPxbSL._SL1500_.jpg
 template: {"NAME":"Jinvoo Valve v2","GPIO":[0,0,0,0,52,53,0,0,21,17,0,0,0],"FLAG":0,"BASE":1}
 link_alt: 
+---
 
-notes:
 It works on circuit board SM-AW713 POWER v2.0 with SM-AW713 LED v4.0
 Pictures of the circuit boards -> https://imgur.com/a/MX4UtMK
