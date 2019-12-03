@@ -10,6 +10,8 @@ template: '{"NAME":"AOFO4AC4USB","GPIO":[0,56,0,17,22,21,0,0,23,24,25,0,0],"FLAG
 link_alt: 
 ---
 
+In some cases Relay5 (USB) ON/OFF is inverted. You can use this configuration:
+template: '{"NAME":"AOFO4AC4USB","GPIO":[0,56,0,17,22,21,0,0,23,24,33,0,0],"FLAG":0,"BASE":18}'
 
 
 
