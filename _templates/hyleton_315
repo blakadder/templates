@@ -6,7 +6,7 @@ type: Plug
 standard: uk
 link: https://www.amazon.co.uk/hyleton-Compatible-Anywhere-Countdown-Function/dp/B07B7HMKND
 image: https://images-na.ssl-images-amazon.com/images/I/51l0FwQKv3L._SL1200_.jpg
-template: '{"NAME":"hyleton-315","GPIO":[0,0,0,0,57,56,0,0,21,90,0,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"hyleton-315","GPIO":[0,0,0,0,57,56,0,0,21,90,0,0,0],"FLAG":0,"BASE":18} 
 link_alt: https://webcache.googleusercontent.com/search?q=cache:H2aqs33UJD4J:https://www.amazon.co.uk/hyleton-Compatible-Anywhere-Countdown-Function/dp/B07B7HMKND+&cd=1&hl=en&ct=clnk&gl=uk&client=firefox-b-d
 ---
 

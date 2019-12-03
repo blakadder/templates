@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/dp/B07FCBWTVQ?tag=papsmarthome3198896-21
 image: https://images-na.ssl-images-amazon.com/images/I/41RiUIuoYSL._SL1001_.jpg
-template: '{"NAME":"NX-SM100","GPIO":[56,0,0,0,0,134,0,0,21,17,132,57,131],"FLAG":0,"BASE":18}' 
+template: {"NAME":"NX-SM100","GPIO":[56,0,0,0,0,134,0,0,21,17,132,57,131],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

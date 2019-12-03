@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/gp/product/B07G2WXK3N
 image: https://images-na.ssl-images-amazon.com/images/I/51W8zEDubLL._SL1000_.jpg
-template: '{"NAME":"KMC 5-Outlet","GPIO":[56,0,0,0,25,9,0,0,22,21,23,0,24],"FLAG":0,"BASE":18}' 
+template: {"NAME":"KMC 5-Outlet","GPIO":[56,0,0,0,25,9,0,0,22,21,23,0,24],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/KING-LINK-Wireless-Control-Outlets-Compatible/dp/B077B5X2X9
 image: https://images-na.ssl-images-amazon.com/images/I/51WA53t9JqL._SL1500_.jpg
-template: '{"NAME":"Kinglink-plug","GPIO":[0,0,0,0,0,21,0,0,52,17,0,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Kinglink-plug","GPIO":[0,0,0,0,0,21,0,0,52,17,0,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

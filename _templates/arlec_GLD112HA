@@ -1,14 +1,12 @@
 ---
 date_added: 2019-10-05
-title: Arlec GLD112HA 9.5W CCT
-category: light
-type: Bulb
-standard: 
-  - anzac
-  - E27
+title: Arlec GLD112HA 9.5W
+type: CCT
+category: bulb
+standard: E27
 link: https://www.bunnings.com.au/arlec-smart-9-5w-806lm-cct-es-globe-with-grid-connect_p0111503
 image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/ded8c866-2599-4426-b6ff-3bb6ca3f643e.jpg
-template: '{"NAME":"Arlec CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48}' 
+template: {"NAME":"Arlec CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48} 
 link_alt: 
 ---
 

@@ -1,12 +1,12 @@
 ---
 date_added: 2019-09-25
-title: MOKO YX-L01C-E27
-category: light
-type: Bulb
-standard: global
+title: MOKO YX-L01C-E27 9W
+type: RGB
+category: bulb
+standard: E27
 link: https://www.amazon.de/MoKo-Farblicht-APP-Fernbedienung-Sprachsteuerung-Kompatibel/dp/B07VF4ZFTP
 image: https://user-images.githubusercontent.com/5904370/66717715-697e8c80-eddc-11e9-8cce-d925f78d2f1b.png
-template: '{"NAME":"MOKO","GPIO":[17,0,0,0,143,144,0,0,0,0,0,0,0],"FLAG":0,"BASE":27}' 
+template: {"NAME":"MOKO","GPIO":[17,0,0,0,143,144,0,0,0,0,0,0,0],"FLAG":0,"BASE":27} 
 link_alt: 
 ---
 

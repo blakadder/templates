@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/dp/B07PRF28SR
 image: https://images-na.ssl-images-amazon.com/images/I/71KCLLJFetL.jpg
-template: '{"NAME":"Gosund SP111 2","GPIO":[57,0,56,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
+template: {"NAME":"Gosund SP111 2","GPIO":[57,0,56,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45} 
 link_alt: 
 ---
 

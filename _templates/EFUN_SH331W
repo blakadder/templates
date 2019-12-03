@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07DCJ7TDR
 image: https://images-na.ssl-images-amazon.com/images/I/61zOjWC8t5L._SX679_.jpg
-template: '{"NAME":"Efun-Plug","GPIO":[56,0,158,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Efun-Plug","GPIO":[56,0,158,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

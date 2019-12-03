@@ -6,7 +6,7 @@ type: Aromatherapy Diffuser
 standard: eu
 link: https://www.amazon.es/Aromaterapia-Inteligente-Maxcio-Humidificador-Ultras%C3%B3nico/dp/B07QPR8W3F
 image: https://images-na.ssl-images-amazon.com/images/I/71WGi2Zq9SL._SX522_.jpg
-template: '{"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
+template: {"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}
 link_alt:
 ---
 

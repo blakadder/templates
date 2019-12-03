@@ -1,12 +1,12 @@
 ---
 date_added: 2019-09-06
 title: SS311KWS RF Kinetic Switch and WiFi
-category: relay
+category: switch
 type: Relay
 standard: eu
 link: https://www.aliexpress.com/item/32953812650.html
 image: https://ae01.alicdn.com/kf/HTB1g6EXNFzqK1RjSZFCq6zbxVXa5.jpg
-template: '{"NAME":"SS311KWS","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"SS311KWS","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

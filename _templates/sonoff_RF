@@ -1,6 +1,6 @@
 ---
 title: Sonoff RF
-category: relay
+category: switch
 type: Relay
 standard: global
 link: https://www.itead.cc/smart-home/sonoff-rf.html

@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://smile.amazon.com/OUKITEL-X6P-Control-Required-Listed-4/dp/B07JK5MJBK
 image: https://images-na.ssl-images-amazon.com/images/I/51r5b4PWSrL._SL1000_.jpg
-template: '{"NAME":"OUKITEL X6P","GPIO":[0,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"OUKITEL X6P","GPIO":[0,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

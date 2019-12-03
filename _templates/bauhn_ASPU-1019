@@ -6,7 +6,7 @@ type: Plug
 standard: anzac
 link: http://www.bauhn.com.au/product-listing/smart-wall-plug-ASPU-1019
 image: http://www.bauhn.com.au/_media/webapp/product-listing/ASPU-1019/2.jpg
-template: '{"NAME":"Buahn Smart Pl","GPIO":[0,0,0,0,21,22,0,0,0,56,17,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Buahn Smart Pl","GPIO":[0,0,0,0,21,22,0,0,0,56,17,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

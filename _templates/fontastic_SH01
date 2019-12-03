@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.reichelt.de/schaltbare-steckdose-ueber-wlan-fontastic-253140-p245072.html?&trstct=pos_10
 image: https://cdn-reichelt.de/bilder/web/artikel_ws/E910/FONTASTIC_253140_01.jpg
-template: '{"NAME":"Fontastic","GPIO":[255,0,255,0,56,0,0,0,21,17,0,0,0],"FLAG":1,"BASE":18}' 
+template: {"NAME":"Fontastic","GPIO":[255,0,255,0,56,0,0,0,21,17,0,0,0],"FLAG":1,"BASE":18} 
 link_alt: 
 ---
 

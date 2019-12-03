@@ -6,7 +6,7 @@ type: Humidifier
 standard: eu
 link: https://www.amazon.it/gp/product/B07PW715W6
 image: https://images-na.ssl-images-amazon.com/images/I/51I0vlBhfBL._SL1000_.jpg
-template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":54}' 
+template: {"NAME":"Generic","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":54} 
 link_alt: 
 ---
 

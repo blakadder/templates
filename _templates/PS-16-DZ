@@ -5,7 +5,7 @@ type: Dimmer
 standard: us
 link: https://www.amazon.ca/Switch-Dimmer-Electrical-Control-Twharf/dp/B07DZX5685
 image: https://user-images.githubusercontent.com/5904370/57955818-2389cf00-78f7-11e9-99ef-2fecf3a18fc7.png
-template: '{"NAME":"PS-16-DZ","GPIO":[255,148,255,149,255,255,0,0,255,52,255,255,255],"FLAG":0,"BASE":58}' 
+template: {"NAME":"PS-16-DZ","GPIO":[255,148,255,149,255,255,0,0,255,52,255,255,255],"FLAG":0,"BASE":58} 
 link_alt: 
 ---
 The [PS-16-DZ](http://www.ihome-s.com/productinfo/448320.html) dimmer uses eWeLink app same as Sonoff devices. 

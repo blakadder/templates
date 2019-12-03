@@ -6,7 +6,7 @@ type: LED Controller
 standard: global
 link: https://www.banggood.com/ARILUX-AL-LC09-Super-Mini-LED-WIFI-APP-Controller-RF-Remote-Control-For-RGB-LED-Strip-DC9-28V-p-1081344.html
 image: https://imgaz1.staticbg.com/thumb/large/oaupload/banggood/images/BA/BF/84f7e0d7-febd-4784-a873-946f69978192.jpg
-template: '{"NAME":"Arilux LC09","GPIO":[0,0,0,0,106,37,0,0,39,0,38,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Arilux LC09","GPIO":[0,0,0,0,106,37,0,0,39,0,38,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

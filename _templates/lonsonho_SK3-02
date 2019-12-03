@@ -6,7 +6,7 @@ type: Switch
 standard: us
 link: https://www.aliexpress.com/item/32996591441.html
 image: https://ae01.alicdn.com/kf/HTB17UbGaQT2gK0jSZPcq6AKkpXaL/Lonsonho-Wifi-Smart-Switch-US-1-2-3-4-Gang-Smart-Wall-Touch-Panel-Light-Switch.jpg_640x640.jpg
-template: '{"NAME":"Tuya 2 Channel","GPIO":[0,0,0,0,22,0,0,0,17,21,18,0,52],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Tuya 2 Channel","GPIO":[0,0,0,0,22,0,0,0,17,21,18,0,52],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

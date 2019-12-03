@@ -1,12 +1,12 @@
 ---
 date_added: 2019-10-01
-title: Reafoo 9W A26
-category: light
-type: Bulb
-standard: us
+title: Reafoo A26 9W
+type: RGBCCT
+category: bulb
+standard: E26
 link: https://www.amazon.com/dp/B07W1KH7VK
 image: https://user-images.githubusercontent.com/5904370/67769463-d63c8c80-fa54-11e9-84ac-345b01863f49.png
-template: '{"NAME":"ReaFooE26","GPIO":[0,0,0,0,41,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"ReaFooE26","GPIO":[0,0,0,0,41,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

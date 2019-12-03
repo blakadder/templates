@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.luminea.info/WIFI-Smartphone-Steckdose-kompatibel-zu-Amazon-ZX-2820-919.shtml
 image: https://microsites.pearl.de/i/07/zx2820_31.jpg
-template: '{"NAME":"ZX2820-675","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+template: {"NAME":"ZX2820-675","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45} 
 link_alt: https://www.pearl.de/a-ZX2820-3103.shtml
 ---
 

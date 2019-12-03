@@ -6,7 +6,7 @@ type: Plug
 standard: uk
 link: https://www.amazon.co.uk/gp/product/B07PH28N1D
 image: https://images-na.ssl-images-amazon.com/images/I/51q6upbpWVL._SL1001_.jpg
-template: '{"NAME":"UK1D","GPIO":[0,17,0,0,133,132,0,0,130,52,21,0,0],"FLAG":0,"BASE":6}' 
+template: {"NAME":"UK1D","GPIO":[0,17,0,0,133,132,0,0,130,52,21,0,0],"FLAG":0,"BASE":6} 
 link_alt: https://www.amazon.co.uk/AISIRER-Compatible-Monitoring-Function-Required/dp/B07N1GD2Q1
 ---
 

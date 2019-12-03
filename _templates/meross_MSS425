@@ -5,7 +5,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/meross-Protector-Compatible-Assistant-Individually/dp/B07DXSJP8H
 image: https://user-images.githubusercontent.com/5904370/54648572-1727f800-4aa7-11e9-9f92-c19a1045e70a.png
-template: '{"NAME":"Meross MSS425","GPIO":[33,0,0,0,56,0,0,0,21,17,22,23,32],"FLAG":0,"BASE":18}'
+template: {"NAME":"Meross MSS425","GPIO":[33,0,0,0,56,0,0,0,21,17,22,23,32],"FLAG":0,"BASE":18}
 ---
 To open, 4 screws are under the soft foot pads. They take a size 2.0 triangle bit; make sure you have a large collection of small screwdriver bits around.
 

@@ -5,7 +5,7 @@ type: Light
 standard: global
 link: https://www.mi.com/global/smartlamp/
 image: https://user-images.githubusercontent.com/5904370/58196142-e98b4500-7cc9-11e9-9bf0-453d5013fd6c.png
-template: '{"NAME":"Mi Desk Lamp","GPIO":[0,0,17,0,37,38,0,0,150,151,0,0,0],"FLAG":0,"BASE":66}' 
+template: {"NAME":"Mi Desk Lamp","GPIO":[0,0,17,0,37,38,0,0,150,151,0,0,0],"FLAG":0,"BASE":66} 
 link_alt: https://www.gearbest.com/table-lamps/pp_363779.html
 ---
 **If you use a precompiled binary post version 6.5.0.5 this template will not work!**

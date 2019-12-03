@@ -1,12 +1,12 @@
 ---
 date_added: 2019-05-14
 title: LinkNode R4
-category: relay
+category: switch
 type: Relay
 standard: global
 link: https://www.amazon.com/LinkSprite-211201004-Arduino-Compatible-Wi-Fi-Controller/dp/B01NB0XJ0F
 image: https://images-na.ssl-images-amazon.com/images/I/518TiGyA0fL.jpg
-template: '{"NAME":"LinkNode R4","GPIO":[0,0,0,0,0,0,0,0,21,22,23,0,24],"FLAG":0,"BASE":18}' 
+template: {"NAME":"LinkNode R4","GPIO":[0,0,0,0,0,0,0,0,21,22,23,0,24],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

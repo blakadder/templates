@@ -6,7 +6,7 @@ type: Outdoor Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07CXRRKTQ
 image: https://images-na.ssl-images-amazon.com/images/I/71Ny%2B8hwy2L._SL1500_.jpg
-template: '{"NAME":"AICLIV SOP03US","GPIO":[0,0,0,23,57,0,0,0,21,18,22,0,0],"FLAG":15,"BASE":18}' 
+template: {"NAME":"AICLIV SOP03US","GPIO":[0,0,0,23,57,0,0,0,21,18,22,0,0],"FLAG":15,"BASE":18} 
 link_alt: 
 ---
 

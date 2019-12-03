@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Plugs and Sockets
-navigation: 20
+navigation: 21
 ---
 <!-- ######################################################################  -->
 {% assign category = site.templates | where: "category", "plug" %}
 {% assign type_group = category | group_by: 'type' | sort: 'type' %}
-{% assign type_grouped = type_group | sort: 'name' %}
+{% assign type_grouped = type_group  %}
 {% for group in type_grouped %}
 <BR>
 <h3>{{group.name}}</h3>

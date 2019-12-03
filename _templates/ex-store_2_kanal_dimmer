@@ -6,7 +6,7 @@ type: Dimmer
 standard: eu
 link: https://ex-store.de/navi.php?a=222
 image: https://ex-store.de/media/image/product/233/lg/2-kanal-rs232-wifi-wlan-dimmer-modul-v4-fuer-unterputzmontage-230v-3a-nur-modul.png
-template: '{"NAME":"EXS Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,183,0,0,0],"FLAG":0,"BASE":72}' 
+template: {"NAME":"EXS Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,183,0,0,0],"FLAG":0,"BASE":72} 
 link_alt: 
 ---
 

@@ -6,7 +6,7 @@ type: Wall Outlet
 standard: uk
 link: https://www.amazon.co.uk/gp/product/B07GBQJSHK
 image: https://images-na.ssl-images-amazon.com/images/I/51B4-LAUdBL._SL1000_.jpg
-template: '{"NAME":"VIGICA outlet","GPIO":[17,255,255,255,255,22,18,255,21,255,255,255,255],"FLAG":1,"BASE":18}' 
+template: {"NAME":"VIGICA outlet","GPIO":[17,255,255,255,255,22,18,255,21,255,255,255,255],"FLAG":1,"BASE":18} 
 link_alt: https://www.ebay.co.uk/itm/VIGICA-2-1A-USB-Charger-13A-WiFi-Wall-Socket-Smart-Switch-Outlet-Plug-/283350487249
 ---
 

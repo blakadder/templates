@@ -6,7 +6,7 @@ type: Plug
 standard: anzac
 link: https://www.officeworks.com.au/shop/officeworks/p/brilliant-lighting-smart-wifi-plug-with-energy-monitoring-bl20925
 image: https://user-images.githubusercontent.com/5904370/68767389-e93c8880-0620-11ea-8738-f6125c158932.png
-template: '{"NAME":"BL20925","GPIO":[0,0,0,17,133,132,0,0,131,158,21,0,0],"FLAG":0,"BASE":52}' 
+template: {"NAME":"BL20925","GPIO":[0,0,0,17,133,132,0,0,131,158,21,0,0],"FLAG":0,"BASE":52} 
 link_alt: 
 ---
 

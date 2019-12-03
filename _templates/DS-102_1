@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.aliexpress.com/item/Tuya-Smart-life-app-Control-WiFi-Light-86-EU-Button-Switch-Support-Alexa-Google-Home/32996551323.html
 image: http://EvertDekker.com/wp/wp-content/uploads/2019/04/TgethDs102.jpg
-template: '{"NAME":"DS-102 1 Gang","GPIO":[57,0,0,17,0,0,0,0,0,21,56,0,0],"FLAG":1,"BASE":18}' 
+template: {"NAME":"DS-102 1 Gang","GPIO":[57,0,0,17,0,0,0,0,0,21,56,0,0],"FLAG":1,"BASE":18} 
 link_alt: 
 ---
 

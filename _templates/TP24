@@ -6,7 +6,7 @@ type: Plug
 standard: uk
 link: https://www.ebay.co.uk/itm/Smart-WIFI-Plug-Socket-Power-Switch-APP-Remote-Control-Timer-UK-Home-Automation-/392329706261
 image: http://www.sowye.com/wp-content/uploads/2018/11/TP24.png
-template: '{"NAME":"SmartLifeTP24","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"SmartLifeTP24","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18} 
 link_alt: http://www.sowye.com/smart-plug-tp24/
 ---
 

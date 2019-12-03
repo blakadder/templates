@@ -6,7 +6,7 @@ type: Switch
 standard: anzac
 link: https://www.ebay.com.au/itm/Smart-WiFi-Desk-Lamp-Light-Switch-Dimmer-GPO-4-Google-Home-Alexa-Voice-Control/183336271514
 image: https://user-images.githubusercontent.com/816454/60634686-2f076a00-9e53-11e9-8590-b08a82c41be5.jpg
-template: '{"NAME":"3A Smart Home ","GPIO":[52,0,55,18,22,19,0,0,17,21,54,23,53],"FLAG":0,"BASE":18}' 
+template: {"NAME":"3A Smart Home ","GPIO":[52,0,55,18,22,19,0,0,17,21,54,23,53],"FLAG":0,"BASE":18} 
 link_alt: https://3asmarthome.com/
 ---
 

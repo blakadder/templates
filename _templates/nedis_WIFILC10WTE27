@@ -1,13 +1,13 @@
 ---
 date_added: 2019-09-04
 title: Nedis WIFILC10WTE27
-category: light
-type: Bulb
-standard: eu
-link: https://www.nowthatsit.nl/nedis-wifilc10wte27.html
-image: https://webshop.nedis.de/images/products_high_res/WIFILC10WTE27_P11.JPG
-template: '{"NAME":"Nedis RGBW","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":1,"BASE":18}' 
-link_alt: https://webshop.nedis.de/de-de/550671324/wifilc10wte27#
+type: RGBW
+category: bulb
+standard: E27
+link: https://nedis.com/en-us/product/550714423/wifi-smart-led-bulb-full-colour-and-warm-white-e27
+image: https://pictures.content4us.com/products_high_res/WIFILC11WTE27_P66.JPG
+template: {"NAME":"Nedis RGBW","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":1,"BASE":18} 
+link_alt: https://www.nowthatsit.nl/nedis-wifilc10wte27.html
 ---
 
 

@@ -6,7 +6,7 @@ type: Light
 standard: anzac
 link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-trilogy/
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20695-05.jpg
-template: '{"NAME":"SmartCCTDwnLgt","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48}' 
+template: {"NAME":"SmartCCTDwnLgt","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48} 
 link_alt: 
 ---
 

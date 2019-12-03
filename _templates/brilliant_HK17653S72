@@ -1,12 +1,12 @@
 ---
 date_added: 2019-10-05
-title: Brilliant HK17653S72 4.5W RGB+W
-category: light
-type: Bulb
+title: Brilliant HK17653S72 4.5W
+type:  RGBW
+category: bulb
 standard: E14
 link: https://www.hornbach.ch/shop/Ampoule-LED-E14-4-5W-350lm-en-forme-de-bougie/4685737/article.html
 image: https://www.hornbach.ch/data/shop/D04/001/780/491/515/917/DV_8_4685737_01_4c_DE_20190411114657.jpg
-template: '{"NAME":"Brilliant E14 ","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Brilliant E14 ","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

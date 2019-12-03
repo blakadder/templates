@@ -1,12 +1,12 @@
 ---
 date_added: 2019-04-17
 title: Geekcreit 2 Channel
-category: relay
+category: switch
 type: Relay
 standard: global
 link: https://www.banggood.com/Geekcreit-2-Channel-AC-85V-250V-APP-Remote-Control-WIFI-Wireless-Switch-Socket-For-Smart-Home-p-1114958.html
 image: https://user-images.githubusercontent.com/5904370/56273527-2c6f6100-60fd-11e9-8c4d-faa16971f7da.png
-template: '{"NAME":"Geekcreit 2ch","GPIO":[17,0,0,0,0,22,18,0,21,52,0,0,0],"FLAG":1,"BASE":18}' 
+template: {"NAME":"Geekcreit 2ch","GPIO":[17,0,0,0,0,22,18,0,21,52,0,0,0],"FLAG":1,"BASE":18} 
 link_alt: https://www.aliexpress.com/item/Sonoff-Smart-Wifi-Switch-Universal-Module-2CH-USB-DC5V-7-32V-Wireless-Switch-Timer-Phone-APP/32950334093.html
 ---
 

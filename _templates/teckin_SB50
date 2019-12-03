@@ -1,19 +1,22 @@
 ---
-date_added: 2019-09-30
-title: Teckin SB50 v2
-category: light
-type: Bulb
-standard: uk
-link: https://www.amazon.co.uk/Dimmable-Multicolor-Required-TECKIN-Equivalent/dp/B07GTF2DN1
-image: https://images-na.ssl-images-amazon.com/images/I/51HhCAk5RaL._SX679_.jpg
-template: '{"NAME":"Teckin SB50","GPIO":[0,0,0,0,37,0,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
+date_added: 2019-03-03
+title: Teckin SB50 7.5W
+type: RGBW
+category: bulb
+standard: E27
+link: https://www.amazon.ca/dp/B07KYJZ523
+image: https://images-na.ssl-images-amazon.com/images/I/51HhCAk5RaL._SX425_.jpg
+template: {"NAME":"Teckin SB50","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 
-This was provided by Teckin directly as a "reward" for reviewing their SP23 plugs. (September 2019)
+
+Note: Although the product link shows E27, the model on the box is SB50
 
 
-
-
+On my recent bulb (Sept 2019) the template needed is: 
+```
+{"NAME":"Teckin SB50","GPIO":[0,0,0,0,37,0,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}
+```
 
 

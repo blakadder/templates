@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07F58N32V
 image: https://images-na.ssl-images-amazon.com/images/I/61mBiz7jFwL._SL1500_.jpg
-template: '{"NAME":"Gosund wp211","GPIO":[0,0,0,0,21,0,0,0,0,17,0,22,18],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Gosund wp211","GPIO":[0,0,0,0,21,0,0,0,0,17,0,22,18],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

@@ -6,7 +6,7 @@ type: Wall Outlet
 standard: us
 link: https://www.amazon.com/gp/product/B07JZ124FK
 image: https://raw.githubusercontent.com/DavinKD/SmartThings/master/DeviceImages/ks-604s.jpg
-template: '{"NAME":"KS-604S","GPIO":[255,255,31,255,255,18,0,0,22,21,255,255,17],"FLAG":1,"BASE":18}' 
+template: {"NAME":"KS-604S","GPIO":[255,255,31,255,255,18,0,0,22,21,255,255,17],"FLAG":1,"BASE":18} 
 link_alt: https://www.alibaba.com/product-detail/New-Design-2-way-Double-Power_60817067611.html
 ---
 

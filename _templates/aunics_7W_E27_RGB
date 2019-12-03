@@ -1,14 +1,12 @@
 ---
 date_added: 2019-11-21
-title: Aunics 7W RGB
-category: light
-type: Bulb
-standard: 
-  - eu
-  - E27
+title: Aunics 7W 
+type: RGB
+category: bulb
+standard: E27
 link: https://www.amazon.de/gp/product/B07TW894R9
 image: https://images-na.ssl-images-amazon.com/images/I/71kwwKoplxL._SL1500_.jpg
-template: '{"NAME":"Aunics RGBW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Aunics RGBW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

@@ -6,7 +6,7 @@ type: Bulb Socket
 standard: us
 link: https://www.amazon.ca/gp/product/B07JGC1FYG
 image: https://user-images.githubusercontent.com/5904370/64081455-6f734f00-cd01-11e9-95cd-b556c776e6d3.png
-template: '{"NAME":"SmartBaseE0260","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"SmartBaseE0260","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

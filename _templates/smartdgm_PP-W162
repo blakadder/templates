@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.biedronka.pl/pl/product,id,142580,name,smart-gniazdo-pp-w162
 image: https://i.imgur.com/qZkLlKy.png
-template: '{"NAME":"SmartDGM Plug","GPIO":[0,0,0,17,134,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"SmartDGM Plug","GPIO":[0,0,0,17,134,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":18} 
 link_alt: http://digimate.pl/
 ---
 

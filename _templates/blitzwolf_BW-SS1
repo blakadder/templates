@@ -1,12 +1,12 @@
 ---
 date_added: 2019-09-18
 title: Blitzwolf BW-SS1
-category: relay
+category: switch
 type: Relay
 standard: global
 link: https://www.banggood.com/BlitzWolf-BW-SS1-3300W-15A-Basic-DIY-WIFI-Wireless-Switch-Smart-Home-APP-Remote-Control-Timer-Module-Socket-Work-with-Amazon-Echo-Google-Home-IFTTT-p-1517584.html?rmmds=search&cur_warehouse=CN
 image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201906/1561374437_26.jpg
-template: '{"NAME":"BW-SS1","GPIO":[255,255,255,255,157,21,0,0,255,17,255,255,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"BW-SS1","GPIO":[255,255,255,255,157,21,0,0,255,17,255,255,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

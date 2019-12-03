@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07K1QSFFJ
 image: https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/ATVPDKIKX0DER/AXEJGN8WLZD9M/6265beec-09b0-48b5-a8a5-373cd58b9c79._CR0,0,300,400_PT0_SX300__.jpg
-template: '{"NAME":"SuperNight Dua","GPIO":[255,17,255,21,132,133,0,0,22,130,58,255,255],"FLAG":1,"BASE":18}' 
+template: {"NAME":"SuperNight Dua","GPIO":[255,17,255,21,132,133,0,0,22,130,58,255,255],"FLAG":1,"BASE":18} 
 link_alt: 
 ---
 Received these in a 2 pack.  flashing with OTA was no issue.

@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.tomtop.com/p-s2503eu.html
 image: https://img.tttcdn.com/product/xy/2000/2000/p/gu1/S/U/S2503EU/S2503EU-1-7326-chF0.jpg
-template: '{"NAME":"Neo Coolcam 10","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":49}' 
+template: {"NAME":"Neo Coolcam 10","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":49} 
 link_alt: https://www.szneo.com/en/products/show.php?id=215
 ---
 

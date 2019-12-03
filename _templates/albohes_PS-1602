@@ -6,7 +6,7 @@ type: Outdoor Plug
 standard: us
 link: https://www.amazon.ca/gp/product/B07CN768WZ/
 image: https://images-na.ssl-images-amazon.com/images/I/51vW3z7WLlL._SL1000_.jpg
-template: '{"NAME":"Albohes PC1606","GPIO":[17,0,0,0,0,22,18,0,21,0,0,0,0],"FLAG":1,"BASE":39}' 
+template: {"NAME":"Albohes PC1606","GPIO":[17,0,0,0,0,22,18,0,21,0,0,0,0],"FLAG":1,"BASE":39} 
 link_alt: 
 ---
 

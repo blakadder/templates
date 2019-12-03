@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B071Z94F4F
 image: https://images-na.ssl-images-amazon.com/images/I/31w9LCm0ymL._SX425_.jpg
-template: '{"NAME":"MJ_XS-SSA01","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"MJ_XS-SSA01","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

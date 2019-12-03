@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.lefunsmart.com/products/wifi-smart-power-strip-smart-home-surge-protector-strip-with-4-usb-and-4-individually-controlled-smart-plugs-work-with-alexa-and-google-home-timing-function-remote-control-resetable-circuit-break?variant=6880803913764
 image: https://camo.githubusercontent.com/0af8afac2ad8d6fe296ada21b711726e140ed675/68747470733a2f2f696d616765732d6e612e73736c2d696d616765732d616d617a6f6e2e636f6d2f696d616765732f492f36312d37767077757a514c2e5f534c313530305f2e6a7067
-template: '{"NAME":"LeFun SK2","GPIO":[0,0,0,17,22,21,0,0,23,24,25,0,0],"FLAG":0,"BASE":18}'
+template: {"NAME":"LeFun SK2","GPIO":[0,0,0,17,22,21,0,0,23,24,25,0,0],"FLAG":0,"BASE":18}
 link_alt: 
 ---
 The LeFun SK2 has 4 mains power and 4 USB ports. Each mains power is independently controlled and the USB group is controllable via a solid state relay. The ESP8266 module inside is likely a TYWE3S by Tuya but I didn't open the case and use the tuya-convert tool to flash.

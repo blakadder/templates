@@ -1,12 +1,14 @@
 ---
 date_added: 2019-10-23
-title: ZZHXON 6W RGB+CCT
-category: light
-type: Bulb
-standard: E14
+title: ZZHXON 6W 
+type: RGBCCT
+category: bulb
+standard: 
+  - E14
+  - E27
 link: https://www.aliexpress.com/item/33047013453.html
 image: https://user-images.githubusercontent.com/5904370/69925135-e52cb980-14ae-11ea-844a-e90089f5e609.png
-template: '{"NAME":"E14_RGBWW_6W","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":20}' 
+template: {"NAME":"E14_RGBWW_6W","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":20} 
 link_alt: 
 ---
 

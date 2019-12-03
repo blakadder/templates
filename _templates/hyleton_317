@@ -6,7 +6,7 @@ type: Plug
 standard: anzac
 link: https://www.amazon.com.au/Wireless-Control-Anywhere-Assistant-Required/dp/B07CLKJTZ2
 image: https://images-na.ssl-images-amazon.com/images/I/61qI%2B6sFp1L._SL1200_.jpg
-template: '{"NAME":"hyleton-317","GPIO":[56,0,57,0,58,0,0,0,0,90,0,21,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"hyleton-317","GPIO":[56,0,57,0,58,0,0,0,0,90,0,21,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

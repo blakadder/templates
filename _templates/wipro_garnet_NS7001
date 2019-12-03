@@ -1,0 +1,19 @@
+---
+date_added: 2019-11-23
+title: Wipro Garnet NS7001 7W
+type: RGB
+category: bulb
+standard: B22
+link: https://www.amazon.in/Enabled-12-Watt-Million-Compatible-Assistant/dp/B07S5TH6BN
+image: https://images-na.ssl-images-amazon.com/images/I/61S9XsagcDL._AC_SL1200_.jpg
+template: {"NAME":"WiproSmartBulb","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18} 
+link_alt: 
+---
+
+Same as Wipro Garnet 9W bulb, but swapped GPIO5 and GPIO13
+
+
+
+
+
+

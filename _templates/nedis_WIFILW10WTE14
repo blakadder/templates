@@ -1,13 +1,13 @@
 ---
 date_added: 2019-11-01
 title: Nedis WIFILW10WTE14
-category: light
-type: Bulb
-standard: global
-link: https://webshop.nedis.de/de-de/550683246/wifilw10wte14
-image: https://webshop.nedis.de/images/products_high_res/WIFILW10WTE14_P11.JPG
-template: '{"NAME":"WIFILW10WTE14","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
-link_alt: 
+type: CCT
+category: bulb
+standard: E14
+link: https://nedis.com/en-us/product/550683246/wifi-smart-led-bulb-warm-to-cool-white-e14
+image: https://pictures.content4us.com/products_high_res/WIFILW10WTE14_P66.JPG
+template: {"NAME":"WIFILW10WTE14","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18} 
+link_alt: https://webshop.nedis.de/de-de/550683246/wifilw10wte14
 ---
 
 I don’t know if there are more options inside the bulb but this will give basic access via PWM1 (cold) and PWM2 (warm).

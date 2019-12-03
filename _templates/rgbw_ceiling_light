@@ -6,7 +6,7 @@ type: Light
 standard: global
 link: https://www.aliexpress.com/item/Mini-Intelligent-Wifi-LED-Ceiling-Lights-RGB-W-Dimmable-7W-APP-Remote-Control-Foyer-Bedroom-Hallway/32970274710.html
 image: https://user-images.githubusercontent.com/5904370/55022165-5354de80-4ffa-11e9-95b5-80428ab68ded.png
-template: '{"NAME":"Spotlight RGBW","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
+template: {"NAME":"Spotlight RGBW","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27} 
 link_alt: 
 ---
 Flashed with Tuya-Convert.

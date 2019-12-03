@@ -6,7 +6,7 @@ type: Curtain Switch
 standard: eu
 link: https://www.aliexpress.com/item/32983943702.html?spm=a2g0s.9042311.0.0.74a54c4dHFYFSC
 image: https://ae01.alicdn.com/kf/HTB1s85oKAvoK1RjSZFNq6AxMVXaE.jpg?width=788&height=704&hash=1492
-template: '{"NAME":"Tuya Shutter","GPIO":[157,0,54,10,22,19,0,0,17,21,53,23,52],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Tuya Shutter","GPIO":[157,0,54,10,22,19,0,0,17,21,53,23,52],"FLAG":0,"BASE":18} 
 link_alt: https://www.aliexpress.com/item/32929793650.html?spm=a2g0s.9042311.0.0.74a54c4dHFYFSC
 ---
 

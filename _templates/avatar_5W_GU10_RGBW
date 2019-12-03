@@ -1,12 +1,12 @@
 ---
 date_added: 2019-11-21
-title: Avatar 5W RGB+W
-category: light
-type: Bulb
+title: Avatar 5W 
+type: RGBW
+category: bulb
 standard: GU10
 link: https://www.amazon.de/gp/product/B07PKLMMFP
 image: https://www.picclickimg.com/d/l400/pict/163827853882_/Smart-LED-Lampe-GU10-Alexa-Wlan-Gl%C3%BChbirne-5W.jpg
-template: '{"NAME":"Avatar_GU10","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
+template: {"NAME":"Avatar_GU10","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27} 
 link_alt: 
 ---
 

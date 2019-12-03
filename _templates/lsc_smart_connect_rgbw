@@ -6,7 +6,7 @@ type: LED Strip
 standard: eu
 link: https://www.action.com/de-de/p/lsc-smart-connect-intelligenter-multicolor-led-strip-/
 image: https://www.action.com/globalassets/cmsarticleimages/79/81/2578634_8712879142775-111.png?preset=mediaSliderImageLarge
-template: '{"NAME":"LSC-RGBW-Strip","GPIO":[51,0,0,0,37,0,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"LSC-RGBW-Strip","GPIO":[51,0,0,0,37,0,0,0,38,40,39,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

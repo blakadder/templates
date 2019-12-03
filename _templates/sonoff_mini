@@ -1,12 +1,12 @@
 ---
 date_added: 2019-07-22
 title: Sonoff Mini
-category: relay
+category: switch
 type: Relay
 standard: global
 link: https://www.itead.cc/sonoff-mini.html
 image: https://user-images.githubusercontent.com/5904370/63218127-3610e000-c154-11e9-9ae9-8ed36009dda4.png
-template: '{"NAME":"Sonoff Mini","GPIO":[17,0,0,0,9,0,0,0,21,56,0,0,255],"FLAG":0,"BASE":1}' 
+template: {"NAME":"Sonoff Mini","GPIO":[17,0,0,0,9,0,0,0,21,56,0,0,255],"FLAG":0,"BASE":1} 
 link_alt: 
 ---
 

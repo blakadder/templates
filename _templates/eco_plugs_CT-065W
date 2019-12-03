@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.homedepot.com/p/Grounded-Indoor-Wi-Fi-Adapter-2-Pack-CT-065W/206177754
 image: http://www.eco-plugs.net/wl_upload/proimg/1509346066.jpg
-template: '{"NAME":"ECO/CT-065W","GPIO":[255,255,255,255,255,255,0,0,255,17,255,21,255],"FLAG":0,"BASE":18}' 
+template: {"NAME":"ECO/CT-065W","GPIO":[255,255,255,255,255,255,0,0,255,17,255,21,255],"FLAG":0,"BASE":18} 
 link_alt: http://www.eco-plugs.net/en/products/show.php?id=9
 ---
 

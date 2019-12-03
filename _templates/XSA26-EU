@@ -6,7 +6,7 @@ type: Power Strip
 standard: eu
 link: https://www.aliexpress.com/item/32980585427.html
 image: https://ae01.alicdn.com/kf/HTB1KbnlKxYaK1RjSZFnq6y80pXaX/Wifi-Smart-Power-Strip-Surge-Protector-EU-Plug-Multiple-Power-Socket-4-USB-Port-Voice-Control.jpg
-template: '{"NAME":"XSA26-EU","GPIO":[52,0,53,0,25,22,0,0,24,17,23,21,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"XSA26-EU","GPIO":[52,0,53,0,25,22,0,0,24,17,23,21,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

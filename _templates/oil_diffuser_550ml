@@ -6,7 +6,7 @@ type: Aromatherapy Diffuser
 standard: global
 link: https://www.aliexpress.com/item/550ML-APP-Control-Essential-Oil-Aroma-Diffuser-With-Wood-Grain-Air-Humidifier-Aromatherapy-Diffuser-For-Home/32983725049.html
 image: https://user-images.githubusercontent.com/5904370/57200999-010cc300-6f93-11e9-8fbe-ad02435e367f.png
-template: '{"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+template: {"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54} 
 link_alt: 
 ---
 **Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**

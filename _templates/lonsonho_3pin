@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://aliexpress.com/item/32901221191.html
 image: https://ae01.alicdn.com/kf/HTB1O3.wVwHqK1RjSZFPq6AwapXam/Lonsonho-Smart-Stecker-Wifi-Smart-Steckdose-Tuya-Smart-Leben-App-EU-Frankreich-UNS-AU-UK-Polen.jpg_640x640.jpg
-template: '{"NAME":"Lonsonho10ALed","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Lonsonho10ALed","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

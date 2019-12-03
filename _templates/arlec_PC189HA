@@ -6,7 +6,7 @@ type: Plug
 standard: anzac
 link: https://www.bunnings.com.au/arlec-smart-plug-in-socket-with-grid-connect_p0087513
 image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/3e7fc9c0-4fdf-4058-ace5-c5432beedea4.jpg
-template: '{"NAME":"Arlec Single","GPIO":[0,0,0,0,57,0,0,0,21,0,90,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Arlec Single","GPIO":[0,0,0,0,57,0,0,0,21,0,90,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

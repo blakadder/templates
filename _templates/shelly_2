@@ -1,11 +1,11 @@
 ---
 title: Shelly 2
-category: relay
+category: switch
 type: Relay
 standard: global
 link: 
 image: https://user-images.githubusercontent.com/5904370/57952065-5aa6b300-78ec-11e9-9b87-9efb617a64dc.png
-template: '{"NAME":"Shelly 2","GPIO":[0,135,0,136,21,22,0,0,9,0,10,137,0],"FLAG":0,"BASE":47}'
+template: {"NAME":"Shelly 2","GPIO":[0,135,0,136,21,22,0,0,9,0,10,137,0],"FLAG":0,"BASE":47}
 link_alt:
 ---
 ## This product has been discontinued 

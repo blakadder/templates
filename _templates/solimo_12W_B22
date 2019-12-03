@@ -1,12 +1,12 @@
 ---
 date_added: 2019-10-19
-title: Solimo 12W B22 RGBWW
-category: light
-type: Bulb
-standard: in
+title: Solimo 12W 
+type: RGBW
+category: bulb
+standard: b22
 link: https://www.amazon.in/gp/product/B07R2YF1R1
 image: https://user-images.githubusercontent.com/5904370/67141457-2865fc80-f262-11e9-9388-8435ab922410.png
-template: '{"NAME":"Solimo RGBWW12","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Solimo RGBWW12","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

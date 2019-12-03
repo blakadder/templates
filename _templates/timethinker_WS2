@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.aliexpress.com/item/33012797322.html
 image: https://user-images.githubusercontent.com/5904370/66717408-fb849600-edd8-11e9-834e-3eb4a1b994d8.png
-template: '{"NAME":"TimeThinkerWS2","GPIO":[0,0,0,0,17,0,0,0,0,52,21,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"TimeThinkerWS2","GPIO":[0,0,0,0,17,0,0,0,0,52,21,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

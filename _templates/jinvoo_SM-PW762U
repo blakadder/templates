@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.canadacomputers.com/product_info.php?cPath=1163_1577&item_id=130064
 image: https://user-images.githubusercontent.com/16266909/65367341-ea8f9d00-dbfd-11e9-8bd2-d74ed969ca40.jpg
-template: '{"NAME":"SM-PW762U","GPIO":[0,0,0,0,158,56,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"SM-PW762U","GPIO":[0,0,0,0,158,56,0,0,21,17,22,0,0],"FLAG":0,"BASE":18} 
 link_alt: https://www.alibaba.com/trade/search?fsb=y&IndexArea=product_en&CatId=&SearchText=SM-PW762U
 ---
 

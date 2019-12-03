@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/gp/product/B07GJB83LC
 image: https://images-na.ssl-images-amazon.com/images/I/51JABvnON%2BL._SL1200_.jpg
-template: '{"NAME":"HLT-331","GPIO":[52,255,255,57,29,17,0,0,31,30,32,255,58],"FLAG":0,"BASE":18}' 
+template: {"NAME":"HLT-331","GPIO":[52,255,255,57,29,17,0,0,31,30,32,255,58],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

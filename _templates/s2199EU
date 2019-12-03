@@ -6,7 +6,7 @@ type: Power Strip
 standard: eu
 link: https://www.aliexpress.com/item/WiFi-Smart-Power-Strip-Socket-Voice-Control-Timer-Switch-Power-Strip-Outlet-with-4-AC-Outlets/32915120795.html
 image: https://i.postimg.cc/Hkt7zqVQ/Wi-Fi-Socket-Smart-Power-Strip-Voice-Control-Timer-Switch-Power-S.jpg
-template: '{"NAME":"S2199EU","GPIO":[0,17,0,52,23,25,0,0,21,24,22,0,0],"FLAG":1,"BASE":18}' 
+template: {"NAME":"S2199EU","GPIO":[0,17,0,52,23,25,0,0,21,24,22,0,0],"FLAG":1,"BASE":18} 
 link_alt: https://www.aliexpress.com/item/WiFi-Socket-Smart-Power-Strip-Voice-Control-Timer-Switch-Power-Strip-Outlet-with-4-AC-Outlets/32914473349.html
 ---
 

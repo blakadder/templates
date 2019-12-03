@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.amazon.de/Luminea-Home-Control-Lichtschalter-Touch-Lichtschalter/dp/B07KFN8BTJ/
 image: https://user-images.githubusercontent.com/5904370/66717839-bf076900-eddd-11e9-8e07-154377d87dcd.png
-template: '{"NAME":"LHC-101.on","GPIO":[157,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"LHC-101.on","GPIO":[157,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18} 
 link_alt: https://www.luminea.info/Smart-WiFi-Lichtschalter-1-Weg-aus-gehaerte-NX-4503-919.shtml
 ---
 

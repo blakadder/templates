@@ -1,14 +1,15 @@
 ---
 date_added: 2019-05-27
-title: Smart A19 RGB+W 8W E26
-category: light
-type: Bulb
-standard: us
+title: Smart 8W
+type: RGBW
+category: bulb
+standard: E26
 link: https://www.amazon.ca/gp/product/B07H9Y222L
 image: https://images-na.ssl-images-amazon.com/images/I/61fociPaDuL._SL1200_.jpg
-template: '{"NAME":"OOOLED 60W RGB","GPIO":[0,0,0,0,39,40,0,0,37,0,38,0,0],"FLAG":1,"BASE":18}' 
+template: {"NAME":"OOOLED 60W RGB","GPIO":[0,0,0,0,39,40,0,0,37,0,38,0,0],"FLAG":1,"BASE":18} 
 link_alt: 
 ---
+Reference #: Smart-A19-RGBCW-01
 
 ```
 setoption15 1

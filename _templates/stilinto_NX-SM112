@@ -6,7 +6,7 @@ type: Plug
 standard: uk
 link: https://www.amazon.co.uk/gp/product/B07R14VCKN
 image: https://images-na.ssl-images-amazon.com/images/I/51kx5VwKhRL._AC_SL1200_.jpg
-template: '{"NAME":"NX-SM112","GPIO":[158,0,0,131,0,134,0,0,0,17,132,21,0],"FLAG":0,"BASE":45}' 
+template: {"NAME":"NX-SM112","GPIO":[158,0,0,131,0,134,0,0,0,17,132,21,0],"FLAG":0,"BASE":45} 
 link_alt: https://www.amazon.co.uk/Compatible-SLITINTO-Monitoring-Schedule-Control/dp/B07R4W7KCM
 link_alt: https://www.amazon.co.uk/bakibo-Compatible-Monitoring-Schedule-Control/dp/B07R48KSWK
 ---

@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.banggood.com/BlitzWolf-BW-SS3-EUUS-123-Channel-10A-WIFI-Touch-Remote-Control-Wall-Smart-Home-Switch-Tempered-Glass-Panel-Work-with-Amazon-Alexa-Google-Assistant-p-1582586.html?ID=62813416158105&cur_warehouse=CN
 image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201910/1571123579_26.jpg
-template: '{"NAME":"Blitzwolf SS3","GPIO":[158,0,0,10,22,11,0,0,9,21,0,23,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Blitzwolf SS3","GPIO":[158,0,0,10,22,11,0,0,9,21,0,23,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

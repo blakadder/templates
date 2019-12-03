@@ -1,12 +1,12 @@
 ---
 date_added: 2019-04-15
 title: Shelly 2.5
-category: relay
+category: switch
 type: Relay
 standard: global
 link: https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/
 image: https://user-images.githubusercontent.com/5904370/56116577-7b36c280-5f66-11e9-9052-f97a35669708.png
-template: '{"NAME":"Shelly 2.5","GPIO":[56,255,17,255,21,83,0,0,6,82,5,22,156],"FLAG":2,"BASE":18}'
+template: {"NAME":"Shelly 2.5","GPIO":[56,255,17,255,21,83,0,0,6,82,5,22,156],"FLAG":2,"BASE":18}
 link_alt:
 ---
 

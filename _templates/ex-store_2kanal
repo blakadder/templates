@@ -1,11 +1,11 @@
 ---
 title: EX Store 2 Kanal V5
-category: relay
+category: switch
 type: Relay
 standard: global
 link: https://ex-store.de/2-Kanal-WiFi-WLan-Relay-V5-Blackline-fuer-Unterputzmontage
 image: https://user-images.githubusercontent.com/5904370/57889336-d513fc00-7834-11e9-923f-b4058b8d5c7f.png
-template: '{"NAME":"EXS Relay V5","GPIO":[255,255,255,255,255,255,0,0,21,22,31,52,32],"FLAG":0,"BASE":16}' 
+template: {"NAME":"EXS Relay V5","GPIO":[255,255,255,255,255,255,0,0,21,22,31,52,32],"FLAG":0,"BASE":16} 
 link_alt: 
 ---
 ## Serial Flashing

@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/Etekcity-Voltson-Outlet-Monitoring-Required/dp/B074GYTRFX 
 image: https://user-images.githubusercontent.com/5904370/56409876-446cef00-627b-11e9-8a12-9a0ed4ef6ee6.png
-template: '{"NAME":"ESW01-US","GPIO":[0,0,0,0,21,56,0,0,0,0,9,0,0],"FLAG":1,"BASE":18}' 
+template: {"NAME":"ESW01-US","GPIO":[0,0,0,0,21,56,0,0,0,0,9,0,0],"FLAG":1,"BASE":18} 
 link_alt: https://www.etekcity.com/product/100312
 ---
 

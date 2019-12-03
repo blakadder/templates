@@ -3,7 +3,7 @@ title: Powrui AW-39
 category: plug
 type: Power Strip
 standard: us
-template: '{"NAME":"Powrui AW-39","GPIO":[56,0,0,0,21,255,0,0,23,24,22,0,9],"FLAG":0,"BASE":18}'
+template: {"NAME":"Powrui AW-39","GPIO":[56,0,0,0,21,255,0,0,23,24,22,0,9],"FLAG":0,"BASE":18}
 link: https://www.amazon.com/gp/product/B07KK62GB7
 image: https://user-images.githubusercontent.com/5904370/53308200-82fbb400-389f-11e9-80a8-6686b28539d4.png
 ---

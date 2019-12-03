@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/4-Pack-Upgraded-Assistant-Required-KKUP2U/dp/B07CKQTK9X
 image: https://user-images.githubusercontent.com/5904370/55259459-007f5f00-5266-11e9-94f8-cc2e6e09b963.png
-template: '{"NAME":"SM-PW702","GPIO":[0,0,0,0,57,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"SM-PW702","GPIO":[0,0,0,0,57,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
 link_alt: https://www.amazon.com/Control-anywhere-Compatible-required-Occupies/dp/B071CJNRHR
 ---
 

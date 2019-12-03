@@ -6,7 +6,7 @@ type: Outdoor Plug
 standard: us
 link: https://www.costco.com/Feit-Wi-Fi-Smart-Outdoor-Plug-2-pack.product.100515906.html
 image: https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&itemId=1358986-847&recipeName=680
-template: '{"NAME":"Prime Smart ou","GPIO":[255,255,255,255,157,56,0,0,21,17,255,255,255],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Prime Smart ou","GPIO":[255,255,255,255,157,56,0,0,21,17,255,255,255],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

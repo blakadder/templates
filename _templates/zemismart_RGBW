@@ -6,7 +6,7 @@ type: LED Strip
 standard: global
 link: https://www.zemismart.com/zemismart-rgbw-led-light-strip-work-with-alexa-echo-google-home-ifttt-wifi-support-up-to-6m-waterproof-timer-voice-control-p0045-p0045.html
 image: https://www.zemismart.com/u_file/1904/products/19/b7d7427f0c.jpg
-template: '{"NAME":"Zemismart LED","GPIO":[0,0,0,0,38,37,0,0,0,39,40,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Zemismart LED","GPIO":[0,0,0,0,38,37,0,0,0,39,40,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

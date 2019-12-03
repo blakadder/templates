@@ -6,7 +6,7 @@ type: IR Bridge
 standard: anzac
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-smart-ir-universal-remote-controller/2622812   
 image: https://img1.wsimg.com/isteam/ip/67cdd3b9-3600-4104-b097-603c05201237/Smart%20IR%20Controller.png/:/cr=t:22.22%25,l:17.17%25,w:65.67%25,h:52.63%25/rs=w:600,h:300,cg:true,m 
-template: '{"NAME":"Genio IR TxRx","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+template: {"NAME":"Genio IR TxRx","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62} 
 link_alt: https://mirabellagenio.net.au/smart-ir-controller
 ---
 

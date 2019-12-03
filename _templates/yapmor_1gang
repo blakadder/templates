@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.amazon.de/gp/product/B07GQW64T7/
 image: https://user-images.githubusercontent.com/5904370/68812348-131e9b00-0673-11ea-901c-e4d69f28b782.png
-template: '{"NAME":"YAPMOR 1CH","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":28}' 
+template: {"NAME":"YAPMOR 1CH","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":28} 
 link_alt: 
 ---
 

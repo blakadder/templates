@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://nedis.com/en-us/product/550671326/wifi-smart-plug-power-monitor-schuko-type-f-10a
 image: https://pictures.content4us.com/products_high_res/WIFIP110FWT_P50.JPG
-template: '{"NAME":"Nedis WIFIP110","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+template: {"NAME":"Nedis WIFIP110","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49} 
 link_alt: https://www.kjell.com/se/produkter/hem-kontor-fritid/smarta-hem/wi-fi/nedis/nedis-smartlife-fjarrstrombrytare-med-energimatning-p51371
 ---
 

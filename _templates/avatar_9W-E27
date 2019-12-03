@@ -1,12 +1,12 @@
 ---
 date_added: 2019-11-27
-title: Avatar 9W RGB+CCT
-category: light
-type: Bulb
+title: Avatar 9W 
+type: RGBCCT
+category: bulb
 standard: E27
 link: https://www.amazon.de/gp/product/B07XBYL2Q2
 image: https://images-na.ssl-images-amazon.com/images/I/41uidWxCwUL._SL1000_.jpg
-template: '{"NAME":"AVATAR E27 9W","GPIO":[0,0,0,0,0,39,0,0,38,0,37,40,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"AVATAR E27 9W","GPIO":[0,0,0,0,0,39,0,0,38,0,37,40,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

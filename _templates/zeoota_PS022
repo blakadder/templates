@@ -6,7 +6,7 @@ type: Power Strip
 standard: eu
 link: https://www.aliexpress.com/item/Smart-Wifi-Power-Strip-Surge-Protector-Multiple-Power-Sockets-4-USB-Port-Voice-Control-for-Amazon/32864068545.html
 image: https://ae01.alicdn.com/kf/HTB1ejchXUzrK1RjSspmq6AOdFXaS/Smart-Wifi-Power-Strip-Surge-Protector-Multiple-Power-Sockets-4-USB-Port-Voice-Control-for-Amazon.jpg
-template: '{"NAME":"ZEOOTA 3x plus","GPIO":[0,57,0,56,22,21,0,0,17,23,24,0,0],"FLAG":1,"BASE":18}'
+template: {"NAME":"ZEOOTA 3x plus","GPIO":[0,57,0,56,22,21,0,0,17,23,24,0,0],"FLAG":1,"BASE":18}
 link_alt:
 ---
 

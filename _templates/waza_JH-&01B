@@ -6,7 +6,7 @@ type: Plug
 standard: uk
 link: https://www.amazon.co.uk/gp/product/B07HT7MCXP
 image: https://images-na.ssl-images-amazon.com/images/I/61XWCGdBU3L._SL1500_.jpg
-template: '{"NAME":"Teckin SP27","GPIO":[255,255,255,255,53,255,0,0,21,17,255,255,255],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Teckin SP27","GPIO":[255,255,255,255,53,255,0,0,21,17,255,255,255],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

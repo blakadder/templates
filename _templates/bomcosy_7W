@@ -1,14 +1,14 @@
 ---
 date_added: 2019-07-20
-title: Bomcosy 7W RGB+CCT
-category: light
-type: Bulb
+title: Bomcosy 7W 
+type: RGBCCT
+category: bulb
 standard: 
   - E27
   - B22
 link: https://www.amazon.de/dp/B07DRGDP2T/
 image: https://user-images.githubusercontent.com/5904370/66716276-fc62fb00-edcb-11e9-85e1-dd441e439c64.png
-template: '{"NAME":"Generic","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":1,"BASE":18}' 
+template: {"NAME":"Generic","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":1,"BASE":18} 
 link_alt: 
 ---
 

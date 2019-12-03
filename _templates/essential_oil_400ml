@@ -6,7 +6,7 @@ type: Aromatherapy Diffuser
 standard: global
 link: https://www.aliexpress.com/item/33025385597.html?spm=a2g0s.9042311.0.0.27424c4dmAh0TE
 image: https://user-images.githubusercontent.com/5904370/69001435-719b8180-08de-11ea-9393-b3573c1fb0b9.png
-template: '{"NAME":"XD800W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+template: {"NAME":"XD800W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54} 
 link_alt: 
 ---
 

@@ -6,7 +6,7 @@ type: Switch
 standard: us
 link: https://www.walmart.com/ip/Merkury-Innovations-Merkury-Smart-Switch/685624859
 image: https://i5.wal.co/asr/14f1b7d4-8f21-4e6c-94c2-034a6b44d060_1.904539d6aa46b5987df1c4983e6e8783.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff
-template: '{"NAME":"MI-WW107-199W","GPIO":[52,0,0,0,0,0,0,0,17,21,0,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"MI-WW107-199W","GPIO":[52,0,0,0,0,0,0,0,17,21,0,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B0776WL59D/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
 image: https://images-na.ssl-images-amazon.com/images/I/31PVvyjlbIL.jpg
-template: '{"NAME":"MJ V01","GPIO":[255,255,255,255,56,255,0,0,21,17,255,255,255],"FLAG":0,"BASE":18}' 
+template: {"NAME":"MJ V01","GPIO":[255,255,255,255,56,255,0,0,21,17,255,255,255],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

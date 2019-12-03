@@ -1,12 +1,12 @@
 ---
 date_added: 2019-11-17
-title: BrizLabs 4.5W RGB+W
-category: light
-type: Bulb
+title: BrizLabs 4.5W 
+type: RGBW
+category: bulb
 standard: E14
 link: https://www.amazon.de/gp/product/B07KZVWVVG
 image: https://images-na.ssl-images-amazon.com/images/I/51qw7dhkOKL._SL1000_.jpg
-template: '{"NAME":"BrizLabs E14","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"BrizLabs E14","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

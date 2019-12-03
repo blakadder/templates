@@ -1,14 +1,12 @@
 ---
 date_added: 2019-11-17
-title: AL Above Lights 9W RGB+W
-category: light
-type: Bulb
-standard: 
-  - us
-  - E26
+title: AL Above Lights 9W 
+type: RGBW
+category: bulb
+standard: E26
 link: https://www.amazon.com/dp/B07SNRSWNY
 image: https://images-na.ssl-images-amazon.com/images/I/51HEffp%2BfvL._AC_SL1500_.jpg
-template: '{"NAME":"AL 810LM","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"AL 810LM","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

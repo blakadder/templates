@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.ebay.de/itm/143414665009
 image: https://user-images.githubusercontent.com/13064701/69458461-a9d41180-0d6f-11ea-9046-a4d127fe56fb.jpg
-template: '{"NAME":"RGBW Plug","GPIO":[0,0,0,0,255,255,0,0,255,17,255,21,0],"FLAG":0,"BASE":1}' 
+template: {"NAME":"RGBW Plug","GPIO":[0,0,0,0,255,255,0,0,255,17,255,21,0],"FLAG":0,"BASE":1} 
 link_alt: 
 ---
 

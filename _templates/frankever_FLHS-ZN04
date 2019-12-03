@@ -6,7 +6,7 @@ type: Plug
 standard: il
 link: https://www.aliexpress.com/item/32968604339.html
 image: https://user-images.githubusercontent.com/5904370/69960109-f86c7300-1508-11ea-8af2-c5da3cd0a960.png
-template: '{"NAME":"Israel plug","GPIO":[57,0,56,131,0,134,0,0,0,17,132,21,0],"FLAG":0,"BASE":45}' 
+template: {"NAME":"Israel plug","GPIO":[57,0,56,131,0,134,0,0,0,17,132,21,0],"FLAG":0,"BASE":45} 
 link_alt: https://www.aliexpress.com/item/32985716808.html
 ---
 

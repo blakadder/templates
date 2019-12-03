@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: 
 image: http://www.alantro.com/images/Geeni_Charge.jpg
-template: '{"NAME":"Geeni Charge","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Geeni Charge","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
 link_alt: http://www.bimart.com
 ---
 

@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07J2V6SHQ
 image: https://images-na.ssl-images-amazon.com/images/I/51-cEZXm38L._SL1200_.jpg
-template: '{"NAME":"POWRUI AW-08","GPIO":[0,0,0,0,9,21,0,0,0,52,57,0,0],"FLAG":1,"BASE":18}' 
+template: {"NAME":"POWRUI AW-08","GPIO":[0,0,0,0,9,21,0,0,0,52,57,0,0],"FLAG":1,"BASE":18} 
 link_alt: 
 ---
 

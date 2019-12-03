@@ -1,14 +1,14 @@
 ---
 date_added: 2019-11-03
-title: Bawoo EUWL122130 7W RGB+W
-category: light
-type: Bulb
+title: Bawoo EUWL122130 7W 
+type: RGBW
+category: bulb
 standard: 
   - E27
   - B22
 link: https://www.amazon.co.uk/Bawoo-Dimmable-Changing-Million-Required/dp/B07868TST4
 image: https://images-na.ssl-images-amazon.com/images/I/617tz4ZT7oL._SL1500_.jpg
-template: '{"NAME":"Bawoo","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Bawoo","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

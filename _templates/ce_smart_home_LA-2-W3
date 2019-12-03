@@ -6,7 +6,7 @@ type: Wall Outlet
 standard: us
 link: https://www.costco.ca/ce-smart-home-wi-fi-receptacle%2C-2-pack.product.100475520.html 
 image: https://user-images.githubusercontent.com/5904370/68096689-ce487680-feb2-11e9-8f9b-a84bf7d19766.png
-template: '{"NAME":"CE Smart Wall","GPIO":[255,255,255,255,157,17,0,0,21,255,255,255,255],"FLAG":15,"BASE":18}' 
+template: {"NAME":"CE Smart Wall","GPIO":[255,255,255,255,157,17,0,0,21,255,255,255,255],"FLAG":15,"BASE":18} 
 link_alt: https://www.cesmarthome.com/LA-2-W3.html
 ---
 

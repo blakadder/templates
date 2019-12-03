@@ -6,7 +6,7 @@ type: Power Strip
 standard: eu
 link: https://www.amazon.de/gp/product/B07LF6KK3Q
 image: https://images-na.ssl-images-amazon.com/images/I/619zJy7ArDL._SL1500_.jpg
-template: '{"NAME":"ZLD64-EU-W","GPIO":[0,56,0,17,22,21,0,0,0,0,23,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"ZLD64-EU-W","GPIO":[0,56,0,17,22,21,0,0,0,0,23,0,0],"FLAG":0,"BASE":18} 
 link_alt: 
 ---
 

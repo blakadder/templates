@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B075QG95NX/ref=oh_aui_detailpage_o05_s00?ie=UTF8&psc=1
 image: https://github.com/xoseperez/espurna/wiki/images/devices/maxcio-w-us002s.jpg
-template: '{"NAME":"W-US002S","GPIO":[57,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+template: {"NAME":"W-US002S","GPIO":[57,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45} 
 link_alt: https://www.amazon.com/OMOTON-compatible-Wireless-Remotely-Controls/dp/B0746G946P
 ---
 Also found under other brand names (Omoton, ...)

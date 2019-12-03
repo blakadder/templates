@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/Geeni-Required-Assistant-Microsoft-Cortana/dp/B0777C2BX3
 image: https://user-images.githubusercontent.com/5904370/69757328-0a42c480-115d-11ea-9374-541eebce399e.png
-template: '{"NAME":"Geeni Spot","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template: {"NAME":"Geeni Spot","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
 link_alt: https://www.bimart.com
 ---
 
