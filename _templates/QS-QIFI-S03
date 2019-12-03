@@ -3,10 +3,10 @@ date_added: 2019-07-14
 title: QS-WIFI-S03
 category: switch
 type: Relay
-standard: eu
-link: https://es.aliexpress.com/item/33012114855.html?spm=a2g0s.9042311.0.0.274263c0c3kalL
+standard: global
+link: https://www.aliexpress.com/item/33012114855.html?spm=a2g0s.9042311.0.0.274263c0c3kalL
 image: https://ae01.alicdn.com/kf/HTB1pyy_UmrqK1RjSZK9q6xyypXam.jpg?width=1001&height=1001&hash=2002
-template: {"NAME":"Generic","GPIO":[17,255,255,255,255,0,0,0,82,21,0,0,0],"FLAG":0,"BASE":1} 
+template: {"NAME":"QS-WIFI-S03","GPIO":[17,255,255,255,255,0,0,0,82,21,0,0,0],"FLAG":0,"BASE":1} 
 link2: 
 ---
 
