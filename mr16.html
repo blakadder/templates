@@ -1,0 +1,22 @@
+---
+layout: default
+title: MR16 Bulbs
+---
+
+<h2>MR16</h2>
+
+<!-- ######################################################################  -->
+{% assign standard = site.templates | where: "standard", "MR16" | sort_natural: 'title' %}
+{% assign types = standard | group_by: 'type' | sort: 'name' %} 
+    {% for type in types %}
+    <h3> {{ type.name }} </h3>
+    <table id="{{ type.name }}" width="80%">
+        <tbody>
+        {% assign type_sorted = type.items | sort_natural: 'title' %}     
+    {% for template in type_sorted %}
+    {% include tablerow.html %}
+{% endfor %}
+</tbody>
+</table>
+{% endfor %}
+
