@@ -1,16 +1,17 @@
 ---
-date_added: 2019-10-26
+date_added: 2019-12-04
 title: Aoycocr U3S
+link: https://www.amazon.co.uk/gp/product/B07RYPJTJX
+image: https://images-na.ssl-images-amazon.com/images/I/51KqgLVWuAL._AC_SL1000_.jpg
+template: {"NAME":"Aoycocr U3S","GPIO":[56,255,57,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}
+link2: 
+link3: 
+flash: tuya-convert
 category: plug
 type: Plug
 standard: uk
-link: https://www.amazon.co.uk/Aoycocr-Monitoring-Compatible-Function-Required%EF%BC%884pack%EF%BC%89/dp/B07RYPJTJX
-image: https://images-na.ssl-images-amazon.com/images/I/51KqgLVWuAL._SL1000_.jpg
-template: {"NAME":"Teckin SP23","GPIO":[56,0,57,255,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":45} 
-link2: 
 ---
 
-Tuya-convert compatible
 
 
 
