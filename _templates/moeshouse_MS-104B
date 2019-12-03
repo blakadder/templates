@@ -3,7 +3,7 @@ date_added: 2019-09-20
 title: Moeshouse 2 way 2 gang MS-104B
 category: switch
 type: Relay
-standard: eu
+standard: global
 link: https://www.aliexpress.com/item/33047521274.html?spm=a2g0s.9042311.0.0.5f705c0fkcQLzV
 image: https://user-images.githubusercontent.com/39533759/65378668-22f5b080-dcbc-11e9-9401-8d906b204914.jpg
 template: {"NAME":"moeshouse2gang","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18} 
