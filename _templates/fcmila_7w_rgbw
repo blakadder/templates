@@ -3,7 +3,9 @@ date_added: 2019-12-02
 title: Fcmila 7W
 category: Bulb
 type: RGBW
-standard: B22
+standard: 
+  - B22
+  - E27
 link: https://www.ebay.de/itm/LED-Lampe-E27-Smart-Dimmbare-WIFI-APP-Fernbedienung-RGB-Home-iOS/283193955875
 image: https://user-images.githubusercontent.com/5904370/70042671-94f14c80-15bf-11ea-8151-c0cc1b94e488.png
 template: '{"NAME":"FCMILA E27 0.1","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
