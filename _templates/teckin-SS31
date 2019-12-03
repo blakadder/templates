@@ -8,7 +8,7 @@ link2:
 link3: 
 flash: tuya-convert
 category: plug
-type: Plug
+type: Outdoor Plug
 standard: us
 ---
 Only one button on the device, to access relay2 via a button you would need to use a rule to toggle the relay.
