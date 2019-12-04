@@ -9,10 +9,12 @@ standard:
   - uk
   - anzac
   - za
+  - fr
 link: https://www.itead.cc/smart-home/sonoff-s55.html
 image: https://user-images.githubusercontent.com/5904370/61628399-7890eb00-ac82-11e9-9742-3e837ee9f09b.png
 template: {"NAME":"Sonoff S55","GPIO":[17,255,0,255,255,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1} 
-link2: 
+link2: https://www.gearbest.com/access-control/pp_009457202615.html?lkid=77679646
+link3: https://www.banggood.com/SONOFF-S55-Waterproof-WIFI-Smart-Socket-Switch-UKAUUSFRDEZA-Multiple-Version-Wifi-Socket-Works-With-Alexa-Google-Home-p-1523977.html?p=CM27171011078201412U&custlinkid=714446
 ---
 
 
