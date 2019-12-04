@@ -12,6 +12,10 @@ link2:
 
 This unit looks to be sold under various names on various sites, but they all share the same part number (C128).  Perhaps it's safe to assume that if the case looks identical, the same board is used.
 
+template to match LEDs with relays and link status:
+{"NAME":"King-Link C128","GPIO":[0,0,58,0,22,56,0,0,23,157,17,21,57],"FLAG":0,"BASE":18}
+
+
 
 
 
