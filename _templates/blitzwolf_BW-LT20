@@ -4,10 +4,11 @@ title: Blitzwolf BW-LT20
 category: light
 type: Light
 standard: global
-link: https://www.banggood.com/Blitzwolf-BW-LT20-24W-Smart-LED-Ceiling-Light-Mount-WiFi-APP-Control-Work-with-Amazon-Echo-Google-Home-AC100-240V-p-1508691.html
+link: https://www.banggood.com/Blitzwolf-BW-LT20-24W-Smart-LED-Ceiling-Light-Mount-WiFi-APP-Control-Work-with-Amazon-Echo-Google-Home-AC100-240V-p-1508691.html?p=CM27171011078201412U&custlinkid=714471
 image: https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/06/B5/3b75d6b4-7996-41dd-9cfc-468bfd56aa4a.jpg.webp
 template: {"NAME":"BW-LT20","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":15,"BASE":18} 
 link2: 
+link3: https://www.blitzwolf.com/24W-Mount-LED-Ceiling-Light-p-357.html
 ---
 
 Flashing with https://github.com/ct-Open-Source/tuya-convert works without problems.
