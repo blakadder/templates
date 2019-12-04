@@ -11,6 +11,7 @@ link2:
 ---
 
 Blue LED is controlled by GPIO4, green LED by GPIO5. LED1 (blue in my template) is WiFi state and LED2 plug state (on/off).
+Flashed Tasmota using TUYA-CONVERT (https://github.com/ct-Open-Source/tuya-convert)
 
 
 
