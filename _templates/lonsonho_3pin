@@ -3,9 +3,9 @@ date_added: 2019-08-10
 title: Lonsonho 10A Type E
 category: plug
 type: Plug
-standard: eu
+standard: fr
 link: https://aliexpress.com/item/32901221191.html
-image: https://ae01.alicdn.com/kf/HTB1O3.wVwHqK1RjSZFPq6AwapXam/Lonsonho-Smart-Stecker-Wifi-Smart-Steckdose-Tuya-Smart-Leben-App-EU-Frankreich-UNS-AU-UK-Polen.jpg_640x640.jpg
+image: https://user-images.githubusercontent.com/5904370/70134862-28428480-1689-11ea-9f59-23f51a0fe67f.png
 template: {"NAME":"Lonsonho10ALed","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
 link2: 
 ---
