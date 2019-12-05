@@ -22,7 +22,7 @@ Post Tasmota version 6.6.0.10, additional steps are needed:
 1. Goto Console on WebUI
 2. Enter this command to get the dimmer working: ``TuyaMCU 21,2``
 3. If you want the minimum brightness to be 1%, enter this command: ``Backlog TuyaSend2 3,10; DimmerRange 10,1000```   
- If you want the minimum brightness to be 10%, enter this command: ``Backlog TuyaSend2 3,100; DimmerRange 100,1000```
+ * If you want the minimum brightness to be 10%, enter this command: ``Backlog TuyaSend2 3,100; DimmerRange 100,1000```
 4. If the bulb flickers at the minimum brightness, try raising the minimum (or changing the dimmer mode if we figure out how to do that: 3 dimmer modes are probably related to ```TuyaSend4 4,<#>``` but it just seems to reset to 00 when you check after setting it. This needs verification, not sure what values are actually used for the "Mode 1", "Mode 2", "Mode 3" from the stock Tuya/Smart Life firmware.)
 
 To see the current minimum brightness and dimmer mode, enter this command: ```BackLog WebLog 4;SerialSend5 55aa0001000000``` (to return to default log level after, enter ```WebLog 2```).
