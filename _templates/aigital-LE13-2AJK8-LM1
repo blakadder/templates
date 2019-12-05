@@ -1,0 +1,18 @@
+---
+date_added: 2019-12-05
+title: Aigital LE13 2AJK8-LM1 9W
+link: https://www.amazon.com/gp/product/B07ZCWD9RX
+image: https://user-images.githubusercontent.com/35885181/70215221-46949880-16fa-11ea-9e37-23c6c12f787c.jpg
+template: {"NAME":"Aigital 9W RGB","GPIO":[0,0,0,0,41,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}
+link2: https://www.amazon.com/gp/product/B07ZCSRSCQ
+link3: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---
+5 Channel PWM RGB+CW+WW Bulb, FCC-ID 2AJK8-LM1 (though that is just for the ESP8266 module, not the whole bulb).
+
+The PCB says Model: LE13 on it if you pop the diffuser off.
+
+Has 12 Cool White LEDs (9W), 12 Warm White LEDs (9W), and 4 RGB LEDs (4.7W all-on or 1-1.4W for single-color), for 16.7W max with all LEDs on full. 0.2W with all LEDs off.
