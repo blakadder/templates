@@ -10,7 +10,7 @@ template: {"NAME":"SH-LE27W","GPIO":[0,0,0,0,0,140,0,0,38,0,37,142,141],"FLAG":0
 link2: https://www.deltaco.se/produkter/deltaco/smart-home/belysning/SH-LE27W
 ---
 
-Used Tuya-Convert to add Tsmota
+Used Tuya-Convert to add Tasmota
 
 
 
