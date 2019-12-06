@@ -19,7 +19,7 @@ Rule1 1
 ```
 This combines to:
 ```console
-`Rule1 on Power1#State=1 do backlog Power3 0; Power2 0 endon on Power2#State=1 do backlog Power1 0; Power2 0; Power3 0 endon on Power3#State=1 do backlog Power1 0; Power2 0 endon`
+Rule1 on Power1#State=1 do backlog Power3 0; Power2 0 endon on Power2#State=1 do backlog Power1 0; Power2 0; Power3 0 endon on Power3#State=1 do backlog Power1 0; Power2 0 endon
 ```
 
 Or use the Interlock settings like below (or use both for safety).
