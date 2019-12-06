@@ -32,7 +32,7 @@ Flashed via serial by using TYWE3S pins.
 | 105 | binary | toggle Celsius (0) - Fahreneit (1) |
 | 106 | binary | screen night mode off-on |
 
-```haskell
+```console
 Backlog SetOption66 1; TuyaMCU 21,6; TuyaMCU 12,7; TuyaMCU 13,101; TuyaMCU 14,102; TuyaMCU 15,105; TuyaMCU 16,106; DimmerRange 0,9
 
 Rule1 ON TuyaReceived#DpId!=3 DO BREAK ON TuyaReceived#DpIdData DO Var2 %value% ENDON
