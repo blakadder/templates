@@ -5,7 +5,7 @@ category: switch
 type: Switch
 standard: 
   - us
-  - anzac
+  - au
 link: https://www.aliexpress.com/item/Zemismart-US-AU-WiFi-Wall-Push-Light-Switch-Alexa-Google-Home-TUYA-APP-Control-One-Gang/32982759923.html
 image: https://ueeshop.ly200-cdn.com/u_file/UPAC/UPAC387/1903/products/06/0f36ba5fdd.jpg.240x240.jpg
 template: {"NAME":"KS-811 Triple","GPIO":[255,255,56,255,19,18,0,0,22,21,23,255,17],"FLAG":0,"BASE":18} 

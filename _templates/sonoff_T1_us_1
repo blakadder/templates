@@ -3,7 +3,7 @@ title: Sonoff T1 US 1 Gang
 category: switch
 type: Switch
 standard: us
-link: https://www.itead.cc/smart-home/sonoff-t1-us.html
+link3: https://www.itead.cc/smart-home/sonoff-t1-us.html
 image: https://user-images.githubusercontent.com/5904370/57944870-a0f21700-78d8-11e9-8937-63ba1dfd6583.png
 template: {"NAME":"Sonoff T1 1CH","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":28} 
 link2: 

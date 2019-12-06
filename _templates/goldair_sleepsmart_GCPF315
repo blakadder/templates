@@ -3,7 +3,7 @@ date_added: 2019-11-26
 title: Goldair SleepSmart GCPF315
 category: misc
 type: Fan
-standard: anzac
+standard: au
 link: https://www.target.com.au/p/goldair-sleep-smart-pedestal-fan-gspf315/62258777
 image: https://www.target.com.au/medias/static_content/product/images/hero/36/84/A1293684.jpg
 template: {"NAME":"Goldair Fan","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54} 

@@ -3,7 +3,7 @@ date_added: 2019-10-20
 title: Mirabella Genio I002742
 category: light
 type: Light
-standard: anzac
+standard: au
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-9w-led-downlight/2754331
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/f/7/42799337-1-f.jpg
 template: {"NAME":"GenioDLightCCT","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":48} 

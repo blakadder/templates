@@ -3,7 +3,7 @@ date_added: 2019-07-04
 title: 3A Smart Home HGZB-043
 category: switch
 type: Switch
-standard: anzac
+standard: au
 link: https://www.ebay.com.au/itm/Smart-WiFi-Desk-Lamp-Light-Switch-Dimmer-GPO-4-Google-Home-Alexa-Voice-Control/183336271514
 image: https://images-na.ssl-images-amazon.com/images/I/51hoPUXq09L._AC_SL1024_.jpg
 template: {"NAME":"3A Smart Home ","GPIO":[52,0,55,18,22,19,0,0,17,21,54,23,53],"FLAG":0,"BASE":18} 

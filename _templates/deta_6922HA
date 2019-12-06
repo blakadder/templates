@@ -3,7 +3,7 @@ date_added: 2019-11-02
 title: Deta 6922HA
 category: plug
 type: Wall Outlet
-standard: anzac
+standard: au
 link: https://www.bunnings.com.au/deta-smart-double-power-point-touch-activated-switch-with-grid-connect_p0098813
 image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/0052c529-ef64-4075-b441-29ec04e08d6d.jpg
 template: {"NAME":"DETA 2G GPO","GPIO":[0,0,0,17,157,0,0,0,91,21,22,0,90],"FLAG":0,"BASE":18} 

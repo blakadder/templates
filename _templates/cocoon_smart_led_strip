@@ -3,7 +3,7 @@ date_added: 2019-11-20
 title: Cocoon Smart
 category: light
 type: LED Strip
-standard: anzac
+standard: au
 link: https://cocoonproducts.com.au/cocoonconnect/smart-led-light-strip/
 image: https://user-images.githubusercontent.com/5904370/69321314-21f0e900-0c43-11ea-89a9-9ec871183c12.png
 template: {"NAME":"Cocoon Smart","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18} 

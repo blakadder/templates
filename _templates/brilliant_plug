@@ -3,7 +3,7 @@ date_added: 2019-04-10
 title: Brilliant USB Charger
 category: plug
 type: Plug
-standard: anzac
+standard: au
 link: https://www.bunnings.com.au/brilliant-smart-wifi-plug-and-usb-charger_p0091644
 image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-800x800/c5218415-c9d2-4797-be3e-617fceaa27c9.png
 template: {"NAME":"Brilliant","GPIO":[0,0,0,0,0,21,0,0,0,52,90,0,0],"FLAG":0,"BASE":18} 

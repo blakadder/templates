@@ -4,7 +4,7 @@ title: Sonoff 5V Inching/Selflock Module RE5V1C
 category: switch
 type: Relay
 standard: global
-link: https://www.itead.cc/sonoff-re5v1c.html
+link3: https://www.itead.cc/sonoff-re5v1c.html
 image: https://cdn-media.itead.cc/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/e/re5v1c1000px-4.jpg
 template: {"NAME":"Sonoff RE5V1C","GPIO":[17,255,255,255,255,255,0,0,21,56,0,0,0],"FLAG":0,"BASE":18} 
 link2: 

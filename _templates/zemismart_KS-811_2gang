@@ -5,7 +5,7 @@ category: switch
 type: Switch
 standard: 
   - us
-  - anzac
+  - au
 link: https://www.aliexpress.com/store/product/Zemismart-US-WiFi-Wall-Push-Light-Switch-Alexa-Google-Home-Enable-Smart-Life-APP-ControlOne-Gang/1848374_32982759923.html
 image: https://user-images.githubusercontent.com/5904370/67770608-fff6b300-fa56-11e9-8279-7d064ed56fdd.png
 template: {"NAME":"KS-811 Dual","GPIO":[255,255,52,255,255,18,0,0,22,21,255,255,17],"FLAG":0,"BASE":18} 

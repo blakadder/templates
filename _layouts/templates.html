@@ -2,12 +2,46 @@
 layout: default
 ---
 
-<div class="float-right">
-  {% assign standard_list = page.standard %}
-    {% for item_standard in standard_list %}
-    <a class="button" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
-  {% endfor %} 
-</div>
+<div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%">
+    {% assign standard_list = page.standard %}
+      {% for item_standard in standard_list %}
+      <a class="button button-grey" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
+    {% endfor %} 
+  <p>
+        <b>
+      Available from:
+    </b>
+    <br>
+  <a class="menu" href="
+  {% assign link = page.link %} 
+  {% if link contains "banggood" %}
+    {{ link | append: "?p=CM27171011078201412U" }}
+  {% elsif link contains "gearbest" %}
+    {{ link | append: "?lkid=77716356" }}
+  {% else %}
+    {{ link }}
+  {% endif %}
+  ">{{ page.link | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+  <br>
+  <a class="menu" href="    {% assign link = page.link2 %} 
+  {% if link contains "banggood" %}
+    {{ link | append: "?p=CM27171011078201412U" }}
+  {% elsif link contains "gearbest" %}
+    {{ link | append: "?lkid=77716356" }}
+  {% else %}
+    {{ link }}
+  {% endif %}
+">{{ page.link2 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+  <br><br>
+  {% if page.link3 != nil %}
+    <b>
+      Manufacturer:
+    </b>
+    <br>
+    <a class="menu" href="{{ page.link3 }}">{{ page.link3 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+    {% endif %}
+  </div>
+
 <h2>{{ page.title }}
     {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
       Power Monitoring
@@ -16,15 +50,6 @@ layout: default
 </h2>
 <div> 
   <img src="{{ page.image }}" alt="{{ page.title }}" style="max-height: 300px">
-    <div class="float-right">
-      <b>
-        Available from:
-      </b>
-      <br>
-    <a class="menu" href="{{page.link}}">{{ page.link | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
-    <br>
-    <a class="menu" href="{{page.link2}}">{{ page.link2 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
-    </div>
 </div>
 <p>
 <div class="float-right">
