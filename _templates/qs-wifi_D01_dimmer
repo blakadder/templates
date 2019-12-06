@@ -73,7 +73,7 @@ Use the Template from above or set the module as `Generic (18)` and assign the f
 The `S` **switch input** is intended for push-button / conventional momentary switch control and detects the mains frequency when the button is pressed. This makes it special and therefore it requires a Tasmota **Script** for **ON/OFF** and **HOLD** (long press) dimming operation.
 
 [**Tasmota WiFi-Dimmer-Script**](https://gist.github.com/thxthx0/c22555f6ec25c3367264729a0ff74dce#file-wifi-dimmer-script-txt)
-```
+```lua
 >D
 sw=0
 tmp=0
