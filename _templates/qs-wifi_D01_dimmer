@@ -73,6 +73,132 @@ Use the Template from above or set the module as `Generic (18)` and assign the f
 The `S` **switch input** is intended for push-button / conventional momentary switch control and detects the mains frequency when the button is pressed. This makes it special and therefore it requires a Tasmota **Script** for **ON/OFF** and **HOLD** (long press) dimming operation.
 
 [**Tasmota WiFi-Dimmer-Script**](https://gist.github.com/thxthx0/c22555f6ec25c3367264729a0ff74dce#file-wifi-dimmer-script-txt)
+```
+>D
+sw=0
+tmp=0
+cnt=0
+tmr=0
+hold=0
+powert=0
+slider=0
+dim=""
+shortprl=2 ;short press lo limit
+shortpru=10;short press up limit
+dimdir=0   ;dim direction 0/1
+dimmlp=2.2 ;dim multiplier 1..2.55
+dimstp=2   ;dim step/speed 1..5
+dimll=15   ;dim lower limit min. 0
+dimul=95   ;dim upper limit max. 100
+dimval=70  ;start dim level 0..100
+
+>B
+=>print > WiFi-Dimmer-Script-v1.0 <
+=>Counter1 0
+=>Baudrate 9600
+; boot sequence
+=#senddim(dimval)
+delay(1000)
+=#senddim(0)
+
+>F
+cnt=pc[1]
+if chg[cnt]>0
+; sw pressed
+then sw=1
+else sw=0
+; sw not pressed
+endif
+
+; 100ms timer
+tmr+=1
+; short press
+if sw==0
+and tmr>shortprl
+and tmr<shortpru
+then
+powert^=1
+; change light on/off
+if powert==1
+then
+=#senddim(dimval)
+else
+=#senddim(0)
+endif
+endif
+
+; long press
+if sw>0
+then
+if hold==0
+then
+; change dim direction
+dimdir^=1
+endif
+if tmr>shortpru
+then
+hold=1
+if powert>0
+; dim when on & hold
+then
+if dimdir>0
+then
+; increase dim level
+dimval+=dimstp
+if dimval>dimul
+then
+; upper limit
+dimval=dimul
+endif
+=#senddim(dimval)
+else
+; decrease dim level
+dimval-=dimstp
+if dimval<dimll
+then
+; lower limit
+dimval=dimll
+endif
+=#senddim(dimval)
+endif
+endif
+endif
+else
+tmr=0
+hold=0
+endif
+
+>E
+slider=Dimmer
+; slider change
+if chg[slider]>0
+then
+; dim according slider
+if slider>0
+then
+dimval=slider
+else
+powert=0
+endif
+endif
+
+if pwr[1]==1
+; on/off webui
+then
+powert=1
+=#senddim(dimval)
+else
+powert=0
+=#senddim(0)
+endif
+
+; subroutine dim
+#senddim(tmp)
+dim="FF55"+hn(tmp*dimmlp)+"05DC0A"
+=>SerialSend5 %dim%
+=>Dimmer %tmp%
+#
+```
 
 To use the script, you have to compile Tasmota (v6.6.0.3 or higher) with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. You can use [GitPod](https://github.com/arendst/Sonoff-Tasmota/wiki/Compiling-Tasmota-on-Gitpod) or [TasmoCompiler](https://gitpod.io/#https://github.com/benzino77/tasmocompiler).
 
