@@ -11,7 +11,7 @@ link2:
 ---
 
 Button will toggle the USB Output. If you want to toggle the Relays, use this template: 
-```
+```console
 {"NAME":"SHP5","GPIO":[56,145,57,146,255,22,0,0,255,255,21,255,17],"FLAG":0,"BASE":18}
 ```
 
