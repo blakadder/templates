@@ -24,15 +24,15 @@ The LEDEnet Controller has all of the serial IO pins broken out and labeled. Mak
 
 connect FTDI ----> device:
 
-GND ----> GND
-GND ----> I0 (GPIO0)
-RX ------> TX
-TX ------> RX
-3v ----> 3v
+GND ----> GND  
+GND ----> I0 (GPIO0)  
+RX ------> TX  
+TX ------> RX  
+3v ----> 3v  
 
-connect FTDI to USB
-Flash BIN with NodeMCU PYflasher
-Disconnect FTDI from USB – keep only 3V/ground, reconnect FTDI
-connect Wifi to new "Tasmota" AP
-192.168.4.1 - configure. done.
+connect FTDI to USB  
+Flash BIN with NodeMCU PYflasher  
+Disconnect FTDI from USB – keep only 3V/ground, reconnect FTDI  
+connect Wifi to new "Tasmota" AP  
+192.168.4.1 - configure. done.  
 
