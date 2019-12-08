@@ -3,7 +3,7 @@ date_added: 2019-12-08
 title: Moes MS-105-1
 category: switch
 type: Dimmer
-standard: eu
+standard: global
 link: https://www.banggood.com/MoesHouse-DIY-Smart-WiFi-Light-LED-Dimmer-Switch-Smart-LifeTuya-APP-Remote-Control-12-Way-Switch-Works-With-Alexa-Echo-Google-Home-p-1509161.html
 image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/2_8400a6e8-aa85-4d9d-9d3e-cc2cbe65f4dd_1800x1800.jpg
 template: {"NAME":"Moes MS-105-1","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18} 
