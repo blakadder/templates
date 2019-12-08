@@ -13,7 +13,7 @@ standard: global
 ---
 https://github.com/xoseperez/espurna/issues/475
 
-```
+```haskell
 LIGHT_CH1_PIN       13      // RED
 LIGHT_CH2_PIN       12      // GREEN
 LIGHT_CH3_PIN       14      // BLUE
