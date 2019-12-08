@@ -1,0 +1,15 @@
+---
+date_added: 2019-12-07
+title: Jaycar/Powertech SL225X 9W
+link: https://www.jaycar.com.au/smart-wi-fi-led-bulb-with-colour-change-with-bayonet-light-fitting/p/SL2250
+image: https://www.jaycar.com.au/medias/sys_master/images/9334930833438/SL2250-smart-wi-fi-led-bulb-with-colour-change-with-bayonet-light-fittinggallery8-900.jpg
+template: {"NAME":"Jaycar SL225X","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}
+link2: 
+link3: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: 
+  - e27
+  - b22
+---
