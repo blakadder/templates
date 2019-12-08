@@ -9,15 +9,15 @@ image: https://user-images.githubusercontent.com/5904370/68201568-4baedc80-ffc2-
 template: {"NAME":"Kogan Kettle","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54} 
 link2: 
 ---
+Used Tuya-convert v2.
 
-
-Power on and off should work by configuring TuyaMCU module.   
+Power on and off relay will work by default with TuyaMCU module.   
 `TuyaMCU 11,1`
 
 This is the extent of Kogan/Tuyas 3rd party integration. Google assistant, HA etc. integration treated the kettle like a switch. Current temperature and keep warm settings are only available in Kogan/Tuya app.
  
 ### Keep Warm    
-`TuyaSend4 102,0`   Keepwarm off? (untested, power cycle turns feature off. Stock firmware also turns it off on power cycle)   
+`TuyaSend4 102,0`   Keepwarm off
 `TuyaSend4 102,1`   Keepwarm 40c   
 `TuyaSend4 102,2`   Keepwarm 50c   
 `TuyaSend4 102,3`   Keepwarm 60c   
@@ -25,23 +25,42 @@ This is the extent of Kogan/Tuyas 3rd party integration. Google assistant, HA et
 `TuyaSend4 102,5`   Keepwarm 90c    
 
 ### Temperature
-I can see temperature in dpID5, but I am not sure how to display it or make it useful data.
+DpId5
 
 55AA00 07 0008 05 02 0004 00000063 7C
 
 '00000063' is the current temp in hex.
 
-> Temperature display can be achieved by converting hex to decimal in a smart home solution (HomeAssistant, openHab, etc)
+`setoption66 1` to publish all Tuyareceived data to topic.
+
+Home assitant MQTT Temperature sensor
+
+  - platform: mqtt
+    name: "Kogan Temperature"
+    state_topic: Kogan/tele/RESULT
+    value_template: >
+      {% if 5 == value_json.TuyaReceived.DpId %}
+         {{ value_json.TuyaReceived.DpIdData | int(base=16) }}
+      {% else %}
+        {{ states('sensor.kogan_temperature') }}
+      {% endif %}
+    unit_of_measurement: '°C'
+    
+### Idle
+DpId103 
+Data: 55AA00070005670400010077
+DpIdData can be 1 or 0.
+Not sure why its type4
 
 ### Other
-dpId1 '07' result frames seem to have more than just power info.
-28bit data length. 
+dpId1 frames
+CmndData: 01010001 00 0502000400000029 6501000100 6604000100 6704000100
 
-`55AA0007001C0101000100050200040000002765010001006604000100670400010095` 
-current temp 39c = 0027
-`55AA0007001C0101000100050200040000002665010001006604000100670400010094` 
-current temp 39c = 0026
-
+00 - state
+050200040000002965 - DpId5 CmndData
+6501000100 - DpId101? unused? can't change value. Never found a 101 frame or seen it set to 1. 
+6604000100 - DpId102 CmndData
+6704000101 - DpId103 CmndData
 
 
 
