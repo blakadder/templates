@@ -17,7 +17,7 @@ rule2 on event#OFF do power2 TOGGLE endon
 rule3 on power1#state=1 do backlog rule1 0; rule2 1 endon on power1#state=0 do backlog rule1 1; rule2 0 endon on switch2#state=3 do publish Moes3Way/Action Long endon
 rule3 1
 switchtopic 0
-switchmode1 0
+switchmode1 2
 switchmode2 5
 setoption32 7
 ```
