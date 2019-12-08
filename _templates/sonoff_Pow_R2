@@ -22,7 +22,7 @@ The GND connection of the Pow is connected to the live AC wire. Connecting seria
 
 ## Serial Flashing 
 
-Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
 
 3V3, RX, TX and GND pins are available at the rear/short end of the PCB.
 

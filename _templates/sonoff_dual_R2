@@ -16,7 +16,7 @@ Sonoff Dual R2 is the replacement for Sonoff Dual. Compared to the Dual the main
 
 ## Serial Flashing
 
-Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
 
 As always, you need to access the serial interface. VCC, RX, TX and GND are available at the bottom left end of the PCB in the image below.
 ![](https://user-images.githubusercontent.com/5904370/57879391-a7bb5400-781c-11e9-96d4-ea7b87fc3274.png)
@@ -39,7 +39,7 @@ See the image on the right how to configure this functionality in Tasmota as Swi
 
 ### Serial Connection
 
-Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
 
 As always, you need to access the serial interface. The **four serial pins** (3V3, Rx, Tx, GND) are available at the short end of the PCB and can be seen on the left side of the first image and are labeled in red on the second image. For the v2.0 version of the board you need to cross-over the serial interface, see [troubleshooting](https://github.com/arendst/Tasmota/wiki/Troubleshooting).
 

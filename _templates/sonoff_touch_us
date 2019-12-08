@@ -11,7 +11,7 @@ link: https://www.banggood.com/SONOFF-Touch-AC90-To-250V-400W-WIFI-Switch-Module
 Sonoff Touch is based on the ESP8285. Though the actual chip inside may be a [PSF-A85](https://www.itead.cc/wiki/PSF-A85).
 
 ## Serial Connection
-Please see the [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
 
 Carefully remove the top PCB from the assembly. The hidden underside of the PCB contains the ESP8285 as shown in the pictures. 
 
