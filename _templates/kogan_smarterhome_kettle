@@ -35,6 +35,7 @@ DpId5
 
 Home assitant MQTT Temperature sensor
 
+```yaml
   - platform: mqtt
     name: "Kogan Temperature"
     state_topic: Kogan/tele/RESULT
@@ -45,15 +46,17 @@ Home assitant MQTT Temperature sensor
         {{ states('sensor.kogan_temperature') }}
       {% endif %}
     unit_of_measurement: '°C'
-    
+```
+
+```
 ### Idle
-DpId103 
-Data: 55AA00070005670400010077
-DpIdData can be 1 or 0.
-Not sure why its type4
+DpId103    
+Data: 55AA00070005670400010077   
+DpIdData can be 1 or 0.   
+Not sure why its type4    
 
 ### Other
-dpId1 frames
+dpId1 frames   
 CmndData: 01010001 00 0502000400000029 6501000100 6604000100 6704000100
 
 00 - state
@@ -61,10 +64,4 @@ CmndData: 01010001 00 0502000400000029 6501000100 6604000100 6704000100
 6501000100 - DpId101? unused? can't change value. Never found a 101 frame or seen it set to 1. 
 6604000100 - DpId102 CmndData
 6704000101 - DpId103 CmndData
-
-
-
-
-
-
-
+```
