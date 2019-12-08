@@ -11,9 +11,11 @@ category: switch
 type: Switch
 standard: us
 ---
-to enable white LED to be ON when light is OFF copy paste this rule in console
+Rule to enable white LED to be ON when light is OFF 
 
 ```console
 Rule3 on power1#state=1 do ledpower 0 endon on power1#state=0 do ledpower 1 endon
+```
+```console
 Rule3 1
 ```
