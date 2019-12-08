@@ -1,22 +1,22 @@
 ---
 date_added: 2019-09-20
-title: Moeshouse 2 way 2 gang MS-104B
+title: Moes MS-104B-1
 category: switch
 type: Relay
 standard: global
-link: https://www.aliexpress.com/item/33047521274.html?spm=a2g0s.9042311.0.0.5f705c0fkcQLzV
+link: https://www.banggood.com/MoesHouse-DIY-WiFi-Smart-2-Way-2-Gang-Light-LED-Dimmer-Module-Smart-Switch-Smart-LifeTuya-APP-Remote-Control-Work-with-Alexa-Google-Home-p-1591703.html
 image: https://user-images.githubusercontent.com/39533759/65378668-22f5b080-dcbc-11e9-9401-8d906b204914.jpg
-template: {"NAME":"moeshouse2gang","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18} 
+template: {"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18} 
 link2: 
+link3: https://www.moeshouse.com/products/wifi-smart-light-switch-diy-breaker-module-smart-life-tuya-app-remote-control-working-with-alexa-echo-google-home-2-gang-2-way-3
 ---
 
 The device use frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip. At the moment you have to use a script to make it work with Tasmota. Script is not supported with precompiled binary (at least 6.6.0) so you have to compile your own fw. 
 
-Please note that the script not working good with core 2.3.0! 
 Below two scripts which do something like switchmode4 and switchmode1. The script for switchmode4 is created by @thxthx0 and modified by me for switchmode1
 
-
 SwitchMode1
+
 ```lua
 >D
 sw1=0
