@@ -1,0 +1,20 @@
+---
+date_added: 2019-12-07
+title: ZJ-WF-ESP-A v1.1 
+link: https://www.aliexpress.com/item/32817191956.html
+image: https://ae01.alicdn.com/kf/HTB1.LRdRFXXXXaeaVXXq6xXFXXXV.jpg
+template: {"NAME":"RGB2","GPIO":[0,0,0,0,0,0,0,0,38,37,39,0,0],"FLAG":0,"BASE":18}
+link2: 
+link3: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+https://github.com/xoseperez/espurna/issues/475
+
+```
+LIGHT_CH1_PIN       13      // RED
+LIGHT_CH2_PIN       12      // GREEN
+LIGHT_CH3_PIN       14      // BLUE
+```
