@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-06
+title: Oukitel P2 16A
+link: https://www.banggood.com/Oukitel-P2-Mini-Smart-WIFI-Socket-16A-EU-Plug-APP-Remote-Control-Timing-Smart-Home-Switch-Power-Outlet-p-1329095.html
+image: https://www.oukitel.com/u_file/images/18_08_07/f2db02e5d9.jpg
+template: {"NAME":"Oukitel P2","GPIO":[0,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}
+link2: https://www.dresslily.com/oukitel-p2-smart-wifi-plug-product3207298.html
+link3: https://www.oukitel.com/products/5/oukitel-p2-93.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
