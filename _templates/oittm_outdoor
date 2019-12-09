@@ -10,7 +10,7 @@ template: {"NAME":"Oittm Outdoor","GPIO":[17,0,0,0,0,0,0,0,0,0,56,21,255],"FLAG"
 link2: https://www.ebay.ca/itm/WiFi-Smart-Outdoor-Plug-Oittm-Timer-Outlet-With-Energy-Monitoring-Wireless-By/283285458597?hash=item41f5210ea5:g:B6YAAOSwTDpcAqO0
 ---
 
-Run tuya-convert.  My Oittm also works with the [SK03 template](https://blakadder.github.io/templates/SK03_outdoor.html) if you want power/energy monitoring. 
+Run tuya-convert.  My Oittm also works with the [SK03 template](SK03_outdoor.html) if you want power/energy monitoring. 
 
 
 
