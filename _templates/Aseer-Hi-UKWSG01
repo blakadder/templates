@@ -1,0 +1,16 @@
+---
+date_added: 2019-12-08
+title: Aseer Hi-UKWSG01
+link: https://www.aliexpress.com/item/32994699292.html
+image: https://ae01.alicdn.com/kf/HTB1rpp0aRGE3KVjSZFhq6AkaFXay.jpg_220x220q90.jpg_.webp
+template: {"NAME":"Aseer 2-Gang","GPIO":[57,9,157,59,134,132,0,0,131,21,56,22,10],"FLAG":0,"BASE":18}
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: uk
+---
+I based this loosely on the MakeGood template found here and made some changes. The only thing I did not manage to get working is the low blue LED light when the socket is switched off. LED for power on works fine.
+
+Also be sure to run the commands: `SwitchMode1 5` and `SwitchMode2 5`
