@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-09
+title: Lohas LHL-ZN026-WRGB
+link: https://www.amazon.de/gp/product/B07CJF95KR
+image: https://images-na.ssl-images-amazon.com/images/I/41I2ERMKZBL._AC_SL1200_.jpg
+template: {"NAME":"Lohas LED Lamp","GPIO":[0,0,0,0,38,37,0,0,40,39,41,0,0],"FLAG":0,"BASE":18}
+link2: 
+link3: https://www.lohas-led.com
+flash: tuya-convert
+category: light
+type: Light
+standard: eu
+---
+`SetOption37 1` (Console)
