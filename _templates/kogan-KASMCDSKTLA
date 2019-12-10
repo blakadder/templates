@@ -9,6 +9,8 @@ image: https://user-images.githubusercontent.com/5904370/68201568-4baedc80-ffc2-
 template: {"NAME":"Kogan Kettle","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54} 
 link2: 
 ---
+Reference: KASMCDSKTLA
+
 Used Tuya-convert v2.
 
 Power on and off relay will work by default with TuyaMCU module.   

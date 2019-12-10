@@ -9,11 +9,4 @@ image: https://assets.kogan.com/files/product/SmartBulbs/KASB10RB22HA_2.jpg
 template: {"NAME":"Kogan RGB","GPIO":[0,0,0,0,140,37,0,0,0,0,141,0,0],"FLAG":0,"BASE":18} 
 link2: 
 ---
-
-
-
-
-
-
-
-
+Reference: KASB10RE27HA or KASB10RB22HA

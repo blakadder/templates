@@ -9,5 +9,6 @@ image: https://user-images.githubusercontent.com/5904370/56110927-779b3f80-5f56-
 template: {"NAME":"Kogan White/Wa","GPIO":[0,0,0,0,37,40,0,0,41,38,39,0,0],"FLAG":0,"BASE":18} 
 link2: 
 ---
+Reference: KASB10WE27HA or KASB10WB22HA
 
 Gives dimmer and cold/warm sliders
