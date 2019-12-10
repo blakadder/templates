@@ -6,7 +6,7 @@ type: Wall Outlet
 standard: us
 link: https://www.amazon.ca/gp/product/B07QPZDW28
 image: https://images-na.ssl-images-amazon.com/images/I/7147GFysn9L._AC_SL1500_.jpg
-template: {"NAME":"BESTTEN LO-2-W","GPIO":[17,0,0,0,57,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1} 
+template: {"NAME":"BESTTEN LO-2-W","GPIO":[0,0,0,0,158,17,0,0,21,0,0,0,0],"FLAG":0,"BASE":18} 
 link2: 
 ---
 
