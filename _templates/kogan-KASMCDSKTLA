@@ -37,7 +37,9 @@ DpId5
 
 Home assitant MQTT Temperature sensor
 
-```yaml
+{% highlight yaml %}
+{% raw %}
+
   - platform: mqtt
     name: "Kogan Temperature"
     state_topic: Kogan/tele/RESULT
@@ -48,7 +50,9 @@ Home assitant MQTT Temperature sensor
         {{ states('sensor.kogan_temperature') }}
       {% endif %}
     unit_of_measurement: '°C'
-```
+{% endraw %}
+{% endhighlight %}
+
 
 ```
 ### Idle
