@@ -5,8 +5,8 @@ category: plug
 type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B078K432TK
-image: https://images-na.ssl-images-amazon.com/images/I/61bC32VlbEL._SL1200_.jpg
-template: {"NAME":"Amyse YX WS01","GPIO":[255,17,255,255,255,255,0,0,255,56,21,255,255],"FLAG":1,"BASE":18} 
+image: https://images-na.ssl-images-amazon.com/images/I/61vcmqmtA-L._AC_SL1500_.jpg
+template: {"NAME":"Amysen YX-WS01","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18} 
 link2: 
 ---
 
