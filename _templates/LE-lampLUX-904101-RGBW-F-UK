@@ -1,7 +1,7 @@
 ---
 date_added: 2019-12-07
 title:  LE lampLUX 904101-RGBW-F-UK
-link: https://www.amazon.co.uk/gp/product/B07P9PX83B/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&th=1
+link: https://www.amazon.co.uk/gp/product/B07P9PX83B
 image: https://images-na.ssl-images-amazon.com/images/I/71kbNBh0NFL._AC_SL1200_.jpg
 template: {"NAME":"LampLUX","GPIO":[17,0,0,0,37,40,255,255,38,41,39,0,0],"FLAG":0,"BASE":18}
 link2: 
