@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-11
+title: Mirabella Genio 1002337 9W
+link: https://www.kmart.com.au/product/mirabella-genio-b22-wi-fi-tunable-bulb/2326812
+image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/f/1/42707981-1-f.jpg
+template: {"NAME":"Mirabella Bulb","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}
+link2: 
+link3: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: b22
+---
+
