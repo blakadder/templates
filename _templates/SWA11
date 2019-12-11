@@ -4,16 +4,13 @@ title: SWA11
 category: plug
 type: Plug
 standard: eu
-link: https://www.amazon.fr/gp/product/B07SRSDJ1K/
-image: https://images-na.ssl-images-amazon.com/images/I/51DRF8LE9dL._SL1001_.jpg
+link: https://www.amazon.de/gp/product/B07SRRP7B1/
+image: https://user-images.githubusercontent.com/5904370/70649873-4cd0ca80-1c4e-11ea-93a2-17bf2e4065e7.png
 template: {"NAME":"SWA1","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18} 
-link2: 
+link2: https://www.amazon.fr/gp/product/B07SRSDJ1K/
 ---
 
-The template is exactly the same as the SWA1 model.
+Found under many various brands on amazon. 
 
-
-
-
-
-
+Look for the following to identify:
+![](https://user-images.githubusercontent.com/5904370/70649581-bb615880-1c4d-11ea-815d-483de90f3e3a.png)
