@@ -22,7 +22,9 @@ layout: default
     {{ link | append: "?tag=tasmotatempla-21" }}
   {% elsif link contains "amazon.co.uk" %}
     {{ link | append: "?tag=tasmotatemp0a-21" }}
-  {% else %}
+{% elsif link contains "amazon.com" %}
+    {{ link | append: "?tag=tasmotatempla-20" }}
+ {% else %}
     {{ link }}
   {% endif %}
   ">{{ page.link | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
@@ -37,6 +39,8 @@ layout: default
     {{ link | append: "?tag=tasmotatempla-21" }}
   {% elsif link contains "amazon.co.uk" %}
     {{ link | append: "?tag=tasmotatemp0a-21" }}
+  {% elsif link contains "amazon.com" %}
+    {{ link | append: "?tag=tasmotatempla-20" }}
   {% else %}
     {{ link }}
   {% endif %}
