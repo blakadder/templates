@@ -4,11 +4,12 @@ title: Geeni LUX 1050 A21 10W
 type: CCT
 category: bulb
 standard: E26
-link: https://mygeeni.com/products/lux-1050-smart-wi-fi-led-white-light
+link: https://www.amazon.com/Geeni-Smart-Wi-Fi-Tunable-White/dp/B071DCJ749/
 image: https://images-na.ssl-images-amazon.com/images/I/61tNrglIbeL._SL1500_.jpg
 template: {"NAME":"Geeni-1050-WW","GPIO":[0,0,0,0,37,37,0,0,38,0,0,0,0],"FLAG":1,"BASE":18} 
 link2: 
+link3: https://mygeeni.com/products/lux-1050-smart-wi-fi-led-white-light
 ---
+Reference: GN-BW903-999
 
-Tuya convert successful
 Note NOT color version, just tunable white
