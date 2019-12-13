@@ -1,12 +1,12 @@
 ---
 date_added: 2019-12-13
-title: Geeni  GN-WW105-199
+title: Geeni Switch
 category: plug
 type: Plug
 standard: us
 link: https://www.amazon.com/Geeni-Required-Compatible-Assistant-Microsoft/dp/B07G3JK3JN/
 image: https://cdn.shopify.com/s/files/1/2612/6532/products/Capture_608x352.JPG
-template: {"NAME":"Geeni Charge","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
+template: {"NAME":"Geeni Switch","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
 link2:
 link3: https://mygeeni.com/collections/power/products/geeni-switch-smart-wi-fi-plug-no-hub-required-compatible-with-amazon-alexa-the-google-assistant-microsoft-cortana
 ---
