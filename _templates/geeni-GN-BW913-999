@@ -1,0 +1,16 @@
+---
+date_added: 2019-12-13
+title: Geeni Prisma Plus 800 9W
+link: https://www.amazon.com/Geeni-Brighter-2700-6500K-Assistant-Microsoft/dp/B07R91XQBX/
+image: https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0608269_951178.jpg
+template: {"NAME":"Geeni Prisma P","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}
+link2: https://www.microcenter.com/product/608269/geeni-prisma-plus-800-smart-wi-fi-led-light---rgb
+link3: https://mygeeni.com/collections/lighting/products/prisma-plus-800-60w-equivalent-color-and-white-dimmable-tunable-white-a19-smart-led-light-bulb
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---
+Reference: GN-BW913-999
+
+This device's color LED is in BGR order, so it requires the command `SetOption37 54` to function correctly.
