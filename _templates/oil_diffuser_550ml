@@ -9,8 +9,6 @@ image: https://user-images.githubusercontent.com/5904370/57200999-010cc300-6f93-
 template: {"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54} 
 link2: 
 ---
-**Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**
-
 <!-- Please read [TuyaMCU](https://github.com/arendst/Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
 
 Flashed via serial by using TYWE3S pins. Might work with Tuya Convert.
