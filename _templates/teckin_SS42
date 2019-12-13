@@ -1,19 +1,14 @@
 ---
-date_added: 2019-10-24
-title: Teckin SS42
+date_added: 2019-12-12
+title: Teckin SS42 Outdoor Plug
+link: https://www.amazon.de/dp/B07RHPGNYM
+image: https://user-images.githubusercontent.com/5904370/67770938-a2169b00-fa57-11e9-9e90-f576206d920a.png
+template: {"NAME":"Teckin SS42","GPIO":[0,0,0,0,56,57,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}
+link2: 
+link3: 
+flash: tuya-convert
 category: plug
 type: Outdoor Plug
 standard: eu
-link: https://www.amazon.de/gp/product/B07RHPGNYM
-image: https://user-images.githubusercontent.com/5904370/67770938-a2169b00-fa57-11e9-9e90-f576206d920a.png
-template: {"NAME":"Teckin SS42","GPIO":[255,255,255,255,255,52,0,0,21,157,22,255,255],"FLAG":15,"BASE":18} 
-link2: 
 ---
-
-
-
-
-
-
-
-
+Only one button on the device. With a double press Relay 2 can be switched.
