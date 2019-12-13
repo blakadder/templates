@@ -49,7 +49,7 @@ Rule2 ON Power3#State=1 do backlog Tuyasend4 6,3; publish2 tele/diffuser/STATE {
 
 ```console
 Rule3 ON TuyaReceived#Data=55AA00070005060400010319 do Power3 1 ENDON ON TuyaReceived#Data=55AA00070005060400010117 do Publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"rgb_cycle"} ENDON ON TuyaReceived#Data=55AA00070005060400010016 do Power3 0 ENDON ON TuyaReceived#Data=55AA00070005060400010218 do Publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"white"} ENDON
-```console
+```
 Don't forget to activate rules
 ```
 Backlog Rule1 1; Rule2 1; Rule3 1
