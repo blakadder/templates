@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-14
+title: Avatto OT06 16A
+link: https://www.aliexpress.com/item/33011753732.html
+image: https://ae01.alicdn.com/kf/Ha1109aad67eb4f01b5d9c49a0a59c5b8n.jpeg
+template: '{"NAME":"Avatto OT06","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
