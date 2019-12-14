@@ -1,0 +1,39 @@
+---
+layout: default
+title: IT Devices
+navigation: 7
+---
+<h2>{{ page.title }}</h2>
+
+<!-- ######################################################################  -->
+{% assign standard = site.templates | where: "standard", "it" | sort_natural: 'title' %}
+{% assign types = standard | group_by: 'type' | sort: 'name' %} 
+    {% for type in types %}
+    <h3> {{ type.name }} </h3>
+    <table id="{{ type.name }}" width="80%">
+        <tbody>
+        {% assign type_sorted = type.items | sort_natural: 'title' %}     
+    {% for template in type_sorted %}
+    {% include tablerow.html %}
+{% endfor %}
+</tbody>
+</table>
+{% endfor %}
+
+<hr>
+
+<h2>Global Standard</h2>
+<!-- ######################################################################  -->
+{% assign standard = site.templates | where: "standard", "global" | sort_natural: 'title' %}
+{% assign types = standard | group_by: 'type' | sort: 'name' %} 
+    {% for type in types %}
+    <h3> {{ type.name }} </h3>
+    <table id="{{ type.name }}" width="80%">
+        <tbody>
+        {% assign type_sorted = type.items | sort_natural: 'title' %}     
+    {% for template in type_sorted %}
+    {% include tablerow.html %}
+{% endfor %}
+</tbody>
+</table>
+{% endfor %}

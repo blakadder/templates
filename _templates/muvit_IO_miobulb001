@@ -3,7 +3,7 @@ date_added: 2019-11-05
 title: muvit IO miobulb001 5W
 type: RGB
 category: bulb
-standard: E27
+standard: e27
 link: https://www.amazon.es/Muvit-MIOBULB001-Inteligente-Compatible-asistentes/dp/B07KMWZ41R
 image: https://images-na.ssl-images-amazon.com/images/I/81xjTL6fhuL._AC_SL1500_.jpg
 template: '{"NAME":"miobulb001","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":15,"BASE":18}' 

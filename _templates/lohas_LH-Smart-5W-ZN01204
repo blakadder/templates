@@ -3,7 +3,7 @@ date_added: 2019-10-04
 title: Lohas LH-ZN012 5W  
 type: RGBW
 category: bulb
-standard: E12
+standard: e12
 link: https://www.amazon.com/gp/product/B07951M4DN
 image: https://images-na.ssl-images-amazon.com/images/I/51NaD0UdsvL._SL1200_.jpg
 template: '{"NAME":"LH-5W-ZN01204","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 

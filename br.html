@@ -3,7 +3,7 @@ layout: default
 title: BR Devices
 navigation: 9
 ---
-<h2>BR Only</h2>
+<h2>{{ page.title }}</h2>
 <!-- ######################################################################  -->
 {% assign standard = site.templates | where: "standard", "br" | sort_natural: 'title' %}
 {% assign types = standard | group_by: 'type' | sort: 'name' %} 

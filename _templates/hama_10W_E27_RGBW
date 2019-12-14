@@ -3,7 +3,7 @@ date_added: 2019-11-17
 title: Hama 10W RGB+WW
 category: light
 type: Light
-standard: E27
+standard: e27
 link: https://www.amazon.de/Hama-LED-Lampe-steuerbar-Farbwechsel-kompatibel/dp/B07FR4ZYCD
 image: https://images-na.ssl-images-amazon.com/images/I/41552SdiWVL._SX466_.jpg
 template: '{"NAME":"Hama Smart WiF","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 

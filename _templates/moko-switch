@@ -1,11 +1,11 @@
 ---
 date_added: 2019-10-01
-title: Moko
+title: MoKo Smart Life
 category: switch
 type: Switch
 standard: us
 link: https://www.amazon.com/MoKo-Control-Compatible-Required-Installation/dp/B07VXVHDVD
-image: https://m.media-amazon.com/images/S/aplus-media/sc/f75c3753-2b2a-4874-b818-e3d82c4a8e80.__CR0,0,300,300_PT0_SX300_V1___.jpg
+image: https://user-images.githubusercontent.com/5904370/70848523-28096c80-1e73-11ea-86c5-d44e7ba877b8.png
 template: '{"NAME":"Moko Switch","GPIO":[0,0,0,17,21,134,0,0,0,0,0,0,0],"FLAG":0,"BASE":59}' 
 link2: 
 ---

@@ -3,7 +3,7 @@ date_added: 2019-03-18
 title: Novostella UT55505 7W
 type: RGBCCT
 category: bulb
-standard: B22
+standard: b22
 link: https://www.amazon.co.uk/gp/product/B07DN4NLKM
 image: https://images-na.ssl-images-amazon.com/images/I/61BYD0%2B1g9L._SL1200_.jpg
 template: '{"NAME":"Novostella B22","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 

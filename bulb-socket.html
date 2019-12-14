@@ -1,0 +1,22 @@
+---
+layout: default
+title: Light Bulbs by Socket
+navigation: 20
+---
+<h2>{{ page.title }}</h2>
+
+<!-- ######################################################################  -->
+{% assign category = site.templates | where: "category", "bulb" %}
+{% assign standard_group = category | map: 'standard' | join: ',' | split: ',' | uniq | sort_natural %}
+
+{% for std in standard_group %}
+<h3><a id="{{ std }}"></a>{{ std | upcase }} Socket</h3>
+<table id="{{ std }}" width="80%">
+    <tbody>
+    {% assign grouptitlesorted = category | where: "standard" , std | sort_natural: "title" %}     
+    {% for template in grouptitlesorted %}
+    {% include tablerow.html %}
+    {% endfor %}
+</tbody>
+</table>
+{% endfor %}

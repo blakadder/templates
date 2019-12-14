@@ -108,7 +108,32 @@ a.menu {
 
 	li {
 		margin: 0;
-		padding: 10px 15px;
+		padding: 5px 15px;
+	}
+
+	a {
+		display: block;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		text-decoration: none;
+
+		&.active {
+			color: $navigation-link-color;
+		}
+	}
+}
+
+.subnav {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		margin: 0;
+		padding: 2px 15px;
 	}
 
 	a {

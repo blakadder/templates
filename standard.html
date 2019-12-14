@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% for item in site.data.nav.toc %}
+    <h3>{{ item.url }} {{ item.name }}</h3>
+      <ul> 
+        {% for entry in item.subnav %}
+          <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+        {% endfor %}
+      </ul> 
+  {% endfor %}

@@ -1,0 +1,47 @@
+toc-std:
+  - name: Devices by Country Standard
+    subnav:
+      - title: EU
+        url: eu.html
+      - title: US
+        url: us.html
+      - title: UK
+        url: uk.html
+      - title: AU
+        url: au.html
+      - title: BR
+        url: br.html
+      - title: CH
+        url: ch.html
+      - title: FR
+        url: fr.html
+      - title: IL
+        url: il.html
+      - title: IN
+        url: in.html
+      - title: IT
+        url: it.html
+      - title: ZA
+        url: za.html
+      - title: GLOBAL
+        url: global.html
+      - title: ALL
+        url: all.html
+  - name: Bulbs by Socket Size
+    subnav:
+      - title: E27
+        url: e27.html
+      - title: E26
+        url: e26.html
+      - title: b22
+        url: b22.html
+      - title: E12
+        url: e12.html
+      - title: E14
+        url: e14.html
+      - title: GU10
+        url: gu10.html
+      - title: MR16
+        url: mr16.html
+      - title: ALL
+        url: all-bulbs.html

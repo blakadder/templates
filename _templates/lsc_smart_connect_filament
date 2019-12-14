@@ -3,7 +3,7 @@ date_added: 2019-09-22
 title: LSC Smart Connect Smart Filament 5.5W
 type: Filament
 category: bulb
-standard: E27
+standard: e27
 link: https://www.action.com/de-de/p/lsc-smart-connect-intelligente-led-filament-lampe-10/
 image: https://www.action.com/globalassets/cmsarticleimages/79/88/2578543_8712879142744-110.png
 template: '{"NAME":"LSC-Filam-Big","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 

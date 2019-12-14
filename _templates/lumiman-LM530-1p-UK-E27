@@ -3,7 +3,7 @@ date_added: 2019-03-09
 title: Lumiman LM530 7.5W
 type: RGBW
 category: bulb
-standard: E27
+standard: e27
 link: https://www.amazon.co.uk/gp/product/B07DW539RR
 image: https://images-na.ssl-images-amazon.com/images/I/51aUf3KOaXL._SL1000_.jpg
 template: '{"NAME":"Lumiman RGB","GPIO":[0,0,0,0,37,40,0,0,38,41,39,52,0],"FLAG":1,"BASE":18}' 

@@ -3,7 +3,7 @@ date_added: 2019-10-03
 title: Mixigoo 10W  
 type: RGBW
 category: bulb
-standard: E27
+standard: e27
 link: https://www.amazon.de/gp/product/B07VZXDX6J
 image: https://user-images.githubusercontent.com/5904370/66717700-49e76400-eddc-11e9-87f4-2e3b2667eac0.png
 template: '{"NAME":"Mixigoo Bulb","GPIO":[0,0,0,0,41,38,0,0,39,0,37,40,0],"FLAG":0,"BASE":18}' 

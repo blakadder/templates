@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Switches and Dimmers
+title: Switches, Dimmers and Relays
 navigation: 23
 ---
+<h2>{{ page.title }}</h2>
+
 <!-- ######################################################################  -->
 {% assign category = site.templates | where: "category", "switch" %}
 {% assign type_group = category | group_by: 'type' %}

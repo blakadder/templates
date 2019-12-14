@@ -9,7 +9,7 @@ link3:
 flash: serial
 category: switch
 type: Switch
-standard: UK
+standard: uk
 ---
 Requires soldering to surface pads (no Sonoff Style through-plated connection holes) but easy enough with a fine tip iron and the solder resist is good. TX and RX are a little close but not too hard to deal with.
 

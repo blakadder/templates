@@ -3,6 +3,8 @@ layout: default
 title: Plugs and Sockets
 navigation: 21
 ---
+<h2>{{ page.title }}</h2>
+
 <!-- ######################################################################  -->
 {% assign category = site.templates | where: "category", "plug" %}
 {% assign type_group = category | group_by: 'type' | sort: 'type' %}

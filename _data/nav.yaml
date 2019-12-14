@@ -1,0 +1,46 @@
+toc:
+  - name: Bulbs
+    subnav:
+      - title: by Type
+        url: bulb-type.html
+      - title: by Socket
+        url: bulb-socket.html
+      - title: by Name
+        url: bulb.html
+  - name: Switches and Relays
+    url: switch.html
+  - name: Lights and LEDs
+    url: light.html
+  - name: Plugs and Sockets
+    url: plug.html
+  - name: Miscellaneous
+    url: misc.html
+  - name: Devices by Standard
+    url: standard.html
+    subnav:
+      - title: EU
+        url: eu.html
+      - title: US
+        url: us.html
+      - title: UK
+        url: uk.html
+      - title: AU
+        url: au.html
+      - title: BR
+        url: br.html
+      - title: CH
+        url: ch.html
+      - title: FR
+        url: fr.html
+      - title: IL
+        url: il.html
+      - title: IN
+        url: in.html
+      - title: IT
+        url: it.html
+      - title: ZA
+        url: za.html
+      - title: GLOBAL
+        url: global.html
+      - title: ALL
+        url: all.html

@@ -3,7 +3,7 @@ date_added: 2019-10-02
 title: Solimo 9W 
 type: RGBW
 category: bulb
-standard: B22
+standard: b22
 link: https://www.amazon.in/gp/product/B07QXKC3SX
 image: https://images-na.ssl-images-amazon.com/images/I/714KSu%2BXdgL._SL1500_.jpg
 template: '{"NAME":"Solimo RGBWW 9","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 

@@ -3,7 +3,7 @@ date_added: 2019-10-30
 title: Nedis WIFILF10GDG125 
 type: Filament
 category: bulb
-standard: E27
+standard: e27
 link: https://nedis.com/en-us/product/550695567/wi-fi-smart-led-filament-bulb-e27-125-mm-5w-500-lm
 image: https://pictures.content4us.com/products_high_res/WIFILF10GDG125_P66.JPG
 template: '{"NAME":"WIFILF10GDG125","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 

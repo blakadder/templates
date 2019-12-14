@@ -22,8 +22,10 @@ layout: default
     {{ link | append: "?tag=tasmotatempla-21" }}
   {% elsif link contains "amazon.co.uk" %}
     {{ link | append: "?tag=tasmotatemp0a-21" }}
-{% elsif link contains "amazon.com" %}
+  {% elsif link contains "amazon.com" %}
     {{ link | append: "?tag=tasmotatempla-20" }}
+  {% elsif link contains "amazon.ca" %}
+    {{ link | append: "?tag=tasmotatemp03-20" }}
  {% else %}
     {{ link }}
   {% endif %}
@@ -41,6 +43,8 @@ layout: default
     {{ link | append: "?tag=tasmotatemp0a-21" }}
   {% elsif link contains "amazon.com" %}
     {{ link | append: "?tag=tasmotatempla-20" }}
+  {% elsif link contains "amazon.ca" %}
+    {{ link | append: "?tag=tasmotatemp03-20" }}
   {% else %}
     {{ link }}
   {% endif %}

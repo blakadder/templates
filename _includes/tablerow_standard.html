@@ -2,8 +2,8 @@
     <td><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;"></td>
     <td><b><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }}</a></b></td>
     <td>{% if template.template contains '131' or template.template contains '132' or template.template contains '133' or template.template contains '134' or template.template contains '135' or template.template contains '136' or template.template contains '137' or template.template contains '145' or template.template contains '146' or template.template contains '156'%}
-        Power Monitoring
-        {% endif %}<BR>
+        Power Monitoring<BR>
+        {% endif %}
         {{ template.type }}</td>
     <td> {% assign standard_list = template.standard %}
         {% for item_standard in standard_list %}

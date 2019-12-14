@@ -1,11 +1,11 @@
 ---
 date_added: 2019-07-01
-title: SANA
+title: SANA SW02-03
 category: switch
 type: Switch
 standard: us
 link: https://www.amazon.com/installation-Control-Compatible-Required-Switches/dp/B07MZQ4LJ9/
-image: https://i.imgur.com/nUJqNMj.jpg
+image: https://images-na.ssl-images-amazon.com/images/I/51ojKWDhFPL._AC_SL1500_.jpg
 template: '{"NAME":"SW02-03","GPIO":[56,255,255,19,23,18,0,0,17,21,255,22,255],"FLAG":0,"BASE":18}' 
 link2: 
 ---

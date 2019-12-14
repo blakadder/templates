@@ -3,7 +3,7 @@ date_added: 2019-11-26
 title: Nedis WIFILC10WTE14
 type: RGBW
 category: bulb
-standard: E14
+standard: e14
 link: https://nedis.com/en-us/product/smart-living/smart-home/lighting/550680690/wifi-smart-led-bulb-full-colour-and-warm-white-e14
 image: https://pictures.content4us.com/products_high_res/WIFILC10WTE14_P66.JPG
 template: '{"NAME":"Nedis WIFILC10","GPIO":[0,0,0,0,39,37,0,0,40,38,41,0,0],"FLAG":1,"BASE":18}' 

@@ -1,0 +1,17 @@
+---
+date_added: 2019-12-14
+title: Aseer Hi-UK5PinWFWS01W
+link: https://www.aliexpress.com/item/4000192716338.html
+image: https://ae01.alicdn.com/kf/Hed2221b545fe4a29beb6d32abdeb9c1bM/ASEER-UK-Standard-WIFI-Socket-5-pin-Universal-WIFI-wall-socket-15A-Crystal-tempered-glass-panel.jpg_640x640.jpg
+template: '{"NAME":"Aseer 1-Gang","GPIO":[56,0,157,57,134,132,0,0,131,0,0,21,9],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: global
+---
+
+I based this loosely on the MakeGood template found here and made some changes. The only thing I did not manage to get working is the low blue LED light when the socket is switched off. LED for power on works fine.
+
+Also be sure to run the commands: `SwitchMode1 5` and `SwitchMode2 5`

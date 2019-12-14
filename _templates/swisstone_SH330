@@ -3,7 +3,7 @@ date_added: 2019-11-21
 title: Swisstone SH 330
 type: CCT
 category: bulb
-standard: E27
+standard: e27
 link: https://www.conrad.com/p/swisstone-smart-home-sh-330-led-light-bulb-eec-a-a-e-alexa-google-home-1873409
 image: https://www.ivsgmbh.de/_wpframe/_wpf.img.php?wpf_pic_id=8183
 template: '{"NAME":"SwisstoneSH330","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 

@@ -3,7 +3,7 @@ date_added: 2019-06-06
 title: Wipro Garnet NS9001 9W 
 type: RGBCCT
 category: bulb
-standard: B22
+standard: b22
 link: https://www.amazon.in/gp/product/B07PD4DW17
 image: https://images-na.ssl-images-amazon.com/images/I/71Y3lsKoFUL._AC_SL1500_.jpg
 template: '{"NAME":"WiproSmartBulb","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 

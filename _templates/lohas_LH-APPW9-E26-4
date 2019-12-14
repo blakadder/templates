@@ -3,7 +3,7 @@ date_added: 2019-10-18
 title: Lohas LH-APP 9W   
 type: RGBW
 category: bulb
-standard: E26
+standard: e26
 link: https://www.lohas-led.com/lohas-smart-led-bulb-a19-e26-810lm-60w-equivalent9w-rgb-dimmable-alexa-google-home-and-siri-compatible4-pack-p0232-p0232.html
 image: https://user-images.githubusercontent.com/3240875/67115086-ff326700-f1a2-11e9-86ac-9d2b3a6a7f86.jpg
 template: '{"NAME":"Lohas RGBW","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":18}'

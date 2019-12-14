@@ -1,10 +1,10 @@
 ---
 date_added: 2019-11-30
-title: BAKIBO TP22Y
+title: Bakibo TP22Y
 category: plug
 type: Plug
 standard: eu
-link: https://www.amazon.it/gp/product/B07RQQCK79/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1
+link: https://www.amazon.de/gp/product/B07RQQCK79
 image: https://m.media-amazon.com/images/S/aplus-media/sc/97b77f5a-f8ca-401f-92ec-6b6e1015e719.__CR0,0,300,400_PT0_SX300_V1___.jpg
 template: '{"NAME":"Bakibo TP22Y","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":52}' 
 link2: 

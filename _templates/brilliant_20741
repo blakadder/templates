@@ -1,16 +1,15 @@
 ---
 date_added: 2019-10-01
-title: Brilliant 9W 
+title: Brilliant 20741 9W 
 type: RGBW
 category: bulb
-standard: 
-  - E27
-  - B22
+standard: e27
 link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20698-1.jpg
 template: '{"NAME":"Brilliant RGB+","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
+Do not confuse with 20698 model!
 
 Converted with tuya-convert 2
 

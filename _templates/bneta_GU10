@@ -3,7 +3,7 @@ date_added: 2019-09-13
 title: BNeta IO-WIFI-GU10 4.5W 
 type: RGBW
 category: bulb
-standard: GU10
+standard: gu10
 link: https://www.bneta.co.za/product/smartbulb_gu10/
 image: http://www.bneta.co.za/wp-content/uploads/2019/03/GU10app.png
 template: '{"NAME":"BNeta","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 

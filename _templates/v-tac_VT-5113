@@ -3,7 +3,7 @@ date_added: 2019-11-24
 title: V-Tac VT-5113
 type: RGBW
 category: bulb
-standard: E27
+standard: e27
 link: https://www.reichelt.de/smart-light-lampe-e27-11-w-rgbw-eek-a-wlan-vt-2752-p264529.html?&trstct=pos_0
 image: https://cdn-reichelt.de/bilder/web/xxl_ws/L700/V-TAC_2752_01.png
 template: '{"NAME":"V-TAC LED A60 ","GPIO":[0,0,0,0,180,0,0,0,0,0,181,0,0],"FLAG":0,"BASE":18}' 

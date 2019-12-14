@@ -3,7 +3,7 @@ date_added: 2019-11-04
 title: OHLUX 7W 
 type: RGBCCT
 category: bulb
-standard: E26
+standard: e26
 link: https://www.amazon.com/gp/product/B07LCB3HQJ
 image: https://images-na.ssl-images-amazon.com/images/I/71xro8dWZML._AC_SL1500_.jpg
 template: '{"NAME":"OHLUX","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 

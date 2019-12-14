@@ -3,7 +3,7 @@ date_added: 2019-11-01
 title: Nedis WIFILW10WTE14
 type: CCT
 category: bulb
-standard: E14
+standard: e14
 link: https://nedis.com/en-us/product/550683246/wifi-smart-led-bulb-warm-to-cool-white-e14
 image: https://pictures.content4us.com/products_high_res/WIFILW10WTE14_P66.JPG
 template: '{"NAME":"WIFILW10WTE14","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 

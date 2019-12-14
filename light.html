@@ -3,6 +3,8 @@ layout: default
 title: Lights and LEDs
 navigation: 22
 ---
+<h2>{{ page.title }}</h2>
+
 <!-- ######################################################################  -->
 {% assign category = site.templates | where: "category", "light" %}
 {% assign type_group = category | group_by: 'type' %}

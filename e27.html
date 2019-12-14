@@ -1,22 +1,7 @@
 ---
 layout: default
-title: E27 Bulbs
+title: e27
 ---
 
-<h2>E27</h2>
-
-<!-- ######################################################################  -->
-{% assign standard = site.templates | where: "standard", "E27" | sort_natural: 'title' %}
-{% assign types = standard | group_by: 'type' | sort: 'name' %} 
-    {% for type in types %}
-    <h3> {{ type.name }} </h3>
-    <table id="{{ type.name }}" width="80%">
-        <tbody>
-        {% assign type_sorted = type.items | sort_natural: 'title' %}     
-    {% for template in type_sorted %}
-    {% include tablerow.html %}
-{% endfor %}
-</tbody>
-</table>
-{% endfor %}
+{% include bulb-redir.html %}
 

@@ -3,9 +3,7 @@ layout: default
 title: CH Devices
 navigation: 11
 ---
-
-<h2>CH Only</h2>
-
+<h2>{{ page.title }}</h2>
 <!-- ######################################################################  -->
 {% assign standard = site.templates | where: "standard", "ch" | sort_natural: 'title' %}
 {% assign types = standard | group_by: 'type' | sort: 'name' %} 

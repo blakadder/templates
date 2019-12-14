@@ -3,8 +3,7 @@ layout: default
 title: AU Devices
 navigation: 6
 ---
-
-<h2>AU Only</h2>
+<h2>{{ page.title }}</h2>
 
 <!-- ######################################################################  -->
 {% assign standard = site.templates | where: "standard", "au" | sort_natural: 'title' %}
@@ -24,6 +23,7 @@ navigation: 6
 <hr>
 
 <h2>Global Standard</h2>
+
 <!-- ######################################################################  -->
 {% assign standard = site.templates | where: "standard", "global" | sort_natural: 'title' %}
 {% assign types = standard | group_by: 'type' | sort: 'name' %} 

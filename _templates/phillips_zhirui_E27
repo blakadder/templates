@@ -2,7 +2,7 @@
 title: Phillips Zhirui 6.5W
 type: CCT
 category: bulb
-standard: E27
+standard: e27
 link: https://www.ebay.com/itm/Xiaomi-Philips-Smart-LED-6-5W-E27-220V-Wifi-Ball-Lamp-Bulb-Mobile-App-Control/122953628814?hash=item1ca09b7c8e:g:svUAAOSwWGlZ1MRU
 image: https://user-images.githubusercontent.com/5904370/57953177-a9a21780-78ef-11e9-90a7-92d491784eff.png
 template: '{"NAME":"Xiaomi Philips","GPIO":[0,0,0,0,0,0,0,0,38,0,0,37,0],"FLAG":0,"BASE":48}' 

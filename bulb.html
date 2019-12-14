@@ -1,21 +1,16 @@
 ---
 layout: default
-title: Light Bulbs
+title: Light Bulbs by Name
 navigation: 20
 ---
+<h2>{{ page.title }}</h2>
 <!-- ######################################################################  -->
-{% assign category = site.templates | where: "category", "bulb" %}
-{% assign type_group = category | group_by: 'type' %}
-{% assign type_grouped = type_group | sort: "name" %}
-{% for group in type_grouped %}
-<BR>
-<h3>{{ group.name | replace: "RGBCCT", "RGB + Color Temperature" | replace: "WW", "Dimmable Warm White" | replace: "CW", "Dimmable Cool White" | replace: "CCT", "Color Temperature"  }}</h3>
+
+{% assign category = site.templates | where: "category", "bulb" | sort: 'title'  %}
 <table id="{{ group.name }}" width="80%">
     <tbody>
-    {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
-    {% for template in grouptitlesorted %}
+    {% for template in category %}
     {% include tablerow_standard.html %}
     {% endfor %}
 </tbody>
 </table>
-{% endfor %}

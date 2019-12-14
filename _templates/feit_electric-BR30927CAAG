@@ -2,7 +2,7 @@
 title: Feit Electric BR30/927CA/AG
 type: WW
 category: bulb
-standard: E26
+standard: e26
 link: https://www.amazon.com/Feit-Electric-Equivalent-BR30-927CA/dp/B07GG5ZV5Y
 image: https://user-images.githubusercontent.com/5904370/66718462-8919b300-ede4-11e9-9324-ca4ee0267c19.png
 template: '{"NAME":"Feit BR30 WW","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}'

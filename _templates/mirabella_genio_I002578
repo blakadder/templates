@@ -11,11 +11,13 @@ link2:
 ---
 
 Short press = All on incl. button LED   
-Long press = All off incl. button LED   
+Long press = All off incl. button LED 
+
 ```console
-ButtonTopic 0
-SetOption1 1
-SetOption32 20
+Backlog ButtonTopic 0; SetOption1 1; SetOption32 20
+```
+
+```console
 Rule on button1#state=3 do backlog power1 0;power2 0;power4 0;power3 0;power5 0;power6 1 endon on button1#state=2 do backlog power1 1;power2 1;power4 1;power3 1;power5 1;power6 0 endon
 Rule 1
 ```

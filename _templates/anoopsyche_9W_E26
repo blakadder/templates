@@ -3,7 +3,7 @@ date_added: 2019-03-10
 title: Anoopsyche 9W
 type: CCT
 category: bulb
-standard: E26
+standard: e26
 link: https://www.amazon.com/ANOOPSYCHE-2700K-6500K-Equivalent-Compatible-Assistant/dp/B07DPMC5DF
 image: https://user-images.githubusercontent.com/5904370/69924698-ff659800-14ac-11ea-8a66-c1e372bc2645.png
 template: '{"NAME":"Anoop-CW-WW","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 

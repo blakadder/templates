@@ -3,7 +3,7 @@ date_added: 2019-10-23
 title: Arlec GLD122HA 9.5W
 type: RGBCCT
 category: bulb
-standard: E27
+standard: e27
 link: https://www.bunnings.com.au/arlec-smart-9-5w-806lm-rgb-cct-es-globe-with-grid-connect_p0111501
 image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/10243ce9-61e7-4dc9-ab83-e4af46094c9f.jpg
 template: '{"NAME":"Arlec RGBWW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 

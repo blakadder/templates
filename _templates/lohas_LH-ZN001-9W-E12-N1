@@ -3,7 +3,7 @@ date_added: 2019-03-09
 title: Lohas LH-ZN001 9W 
 type: RGBW
 category: bulb
-standard: E12
+standard: e12
 link: https://www.amazon.com/dp/B07SBW9NMJ
 image: https://images-na.ssl-images-amazon.com/images/I/51mEXRgUoiL._SL1200_.jpg
 template: '{"NAME":"Lohas","GPIO":[17,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":1,"BASE":26}' 
