@@ -31,6 +31,8 @@ This will cause the relays to turn back off after .5 seconds.
 
 Hook the NO side of the relays to the momentary button on the garage door. Use a reed switch wired between GPIO 4 and ground to signal power 3 and GPIO 14 and ground to signal power 4. 
 
+### Home Assistant
+
 In  configuration.yaml add the following:
 ```yaml
 cover:
