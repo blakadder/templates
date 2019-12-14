@@ -6,7 +6,7 @@ type: Relay
 standard: global
 link: https://www.ebay.co.uk/itm/LC-Technology-Smart-Switch-IOT-2200W-10A-1-4Ch-LCWSS-Home-Wifi-Flux-Workshop/113799616350
 image: https://user-images.githubusercontent.com/5904370/63218166-66a54980-c155-11e9-90ef-189c56e0ae0f.png
-template: {"NAME":"LC-Tech_4CH ","GPIO":[52,255,17,255,255,255,0,0,21,22,23,24,255],"FLAG":0,"BASE":18} 
+template: '{"NAME":"LC-Tech_4CH ","GPIO":[52,255,17,255,255,255,0,0,21,22,23,24,255],"FLAG":0,"BASE":18}' 
 link2: http://www.chinalctech.com/cpzx/Programmer/427.html 
 ---
 

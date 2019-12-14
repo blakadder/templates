@@ -6,7 +6,7 @@ type: Power Strip
 standard: au
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-powerboard-with-usb-ports/2736803
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/f/4/42769484-1-f.jpg
-template: {"NAME":"Genio Powerboa","GPIO":[21,52,0,0,23,22,0,0,25,17,26,24,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Genio Powerboa","GPIO":[21,52,0,0,23,22,0,0,25,17,26,24,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

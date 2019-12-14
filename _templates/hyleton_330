@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/gp/product/B07JYV1G8V/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
 image: https://images-na.ssl-images-amazon.com/images/I/41tema9ZVbL._AC_SL1000_.jpg
-template: {"NAME":"Hyleton-330","GPIO":[57,0,0,56,29,17,0,0,31,30,32,0,25],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Hyleton-330","GPIO":[57,0,0,56,29,17,0,0,31,30,32,0,25],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

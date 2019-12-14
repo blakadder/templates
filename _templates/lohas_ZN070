@@ -6,7 +6,7 @@ type: CCT
 standard: E26
 link: https://smile.amazon.com/gp/product/B07QY6DDKZ
 image: https://images-na.ssl-images-amazon.com/images/I/513j0pYhWfL._SL1200_.jpg
-template: {"NAME":"Lohas ZN070","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Lohas ZN070","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

@@ -6,7 +6,7 @@ category: bulb
 standard: E27
 link: https://www.conrad.com/p/swisstone-smart-home-sh-330-led-light-bulb-eec-a-a-e-alexa-google-home-1873409
 image: https://www.ivsgmbh.de/_wpframe/_wpf.img.php?wpf_pic_id=8183
-template: {"NAME":"SwisstoneSH330","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"SwisstoneSH330","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.voelkner.de/products/1280816/Swisstone-SH-330-Smart-Home-LED-Leuchtmittel-EEK-A-A-E-Alexa-Google-Home.html?group=3
 ---
 

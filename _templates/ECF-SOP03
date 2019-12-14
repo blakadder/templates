@@ -6,7 +6,7 @@ type: Outdoor Plug
 standard: us
 link: https://www.amazon.com/Outdoor-Wireless-Compatible-Required-Waterproof/dp/B07FTJ15D4
 image: https://images-na.ssl-images-amazon.com/images/I/61cpj%2Ba6kzL._SL1200_.jpg
-template: {"NAME":"Outdoor3Outlet","GPIO":[0,0,0,23,56,0,0,0,21,17,22,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Outdoor3Outlet","GPIO":[0,0,0,23,56,0,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

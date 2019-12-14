@@ -6,7 +6,7 @@ type: Switch
 standard: us
 link: https://www.amazon.com/Martin-Jerry-Compatible-Devices-Traditional/dp/B07RV9VTRN
 image: https://user-images.githubusercontent.com/5904370/53685174-941d4880-3d17-11e9-93a5-1bd29f301333.png
-template: {"NAME":"MJ 3Way Switch","GPIO":[255,255,255,255,52,53,0,0,21,9,157,255,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"MJ 3Way Switch","GPIO":[255,255,255,255,52,53,0,0,21,9,157,255,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

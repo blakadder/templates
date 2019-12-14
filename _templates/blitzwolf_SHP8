@@ -6,6 +6,6 @@ type: Plug
 standard: eu
 link: https://www.banggood.com/BlitzWolf-BW-SHP8-3680W-16A-Smart-WIFI-Wall-Outlet-EU-Plug-Socket-Timer-Remote-Control-Power-Monitor-Work-with-Alexa-Google-Assistant-IFTTT-p-1502402.html
 image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201906/1560341943_26.jpg
-template: {"NAME":"SHP8","GPIO":[0,56,0,17,134,132,0,0,131,53,21,0,0],"FLAG":0,"BASE":64} 
+template: '{"NAME":"SHP8","GPIO":[0,56,0,17,134,132,0,0,131,53,21,0,0],"FLAG":0,"BASE":64}' 
 link2: 
 ---

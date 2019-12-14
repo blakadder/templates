@@ -6,7 +6,7 @@ type: Wall Outlet
 standard: us
 link: https://www.amazon.com/TOPGREENER-Monitoring-Tamper-Resistant-Appliances-TGWF15RM/dp/B07BX13MLF
 image: https://www.topgreener.com/Item%20Images/TGWF15RM-W_0001.jpg
-template: {"NAME":"TGWF15RM","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":55} 
+template: '{"NAME":"TGWF15RM","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":55}' 
 link2: https://www.newegg.com/topgreener-tgwf15rm-wifi-wire-in-outlet-modules/p/35B-007S-00004
 ---
 

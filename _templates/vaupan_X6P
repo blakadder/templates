@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07TTPCRDV/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1
 image: https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/ATVPDKIKX0DER/A2V6II9VVZ41BG/0278421c-0a46-4002-90af-20e645cc4512.__CR0,0,300,400_PT0_SX300_V1___.jpg
-template: {"NAME":"Vaupan 10a X6P","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Vaupan 10a X6P","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.it/gp/product/B07BKY4QFV
 image: https://user-images.githubusercontent.com/5904370/66717077-5b793d80-edd5-11e9-8e10-13065610b1d3.png
-template: {"NAME":"Grefic TE101","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":1} 
+template: '{"NAME":"Grefic TE101","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":1}' 
 link2: 
 ---
 

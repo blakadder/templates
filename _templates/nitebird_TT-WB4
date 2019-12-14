@@ -6,7 +6,7 @@ category: bulb
 standard: E26
 link: https://www.amazon.com/gp/product/B07MTYVSSV
 image: https://m.media-amazon.com/images/S/aplus-media/sc/b70090ee-c12e-4454-9a59-02721cb27415.__CR0,0,600,600_PT0_SX300_V1___.jpg
-template: {"NAME":"NiteBird TT-WB","GPIO":[0,0,0,0,40,0,0,0,37,38,39,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"NiteBird TT-WB","GPIO":[0,0,0,0,40,0,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/gp/product/B07PC14L9B
 image: https://images-na.ssl-images-amazon.com/images/I/51vBeFv7bIL._SL1200_.jpg
-template: {"NAME":"Yagala","GPIO":[0,0,0,17,22,24,0,0,23,25,21,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Yagala","GPIO":[0,0,0,17,22,24,0,0,23,25,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

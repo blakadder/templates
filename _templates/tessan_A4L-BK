@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/gp/product/B07D1KK92W
 image: https://images-na.ssl-images-amazon.com/images/I/61EJ3baMnFL._SL1300_.jpg
-template: {"NAME":"TESSAN A4L-BK","GPIO":[0,0,0,24,23,0,0,0,21,0,22,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"TESSAN A4L-BK","GPIO":[0,0,0,24,23,0,0,0,21,0,22,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

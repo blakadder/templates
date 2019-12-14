@@ -6,7 +6,7 @@ type: Light
 standard: au
 link: https://www.brilliantsmart.com.au/smart-products/garden/smart-garden-kit/
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20702-06.jpg
-template: {"NAME":"Brilliant Gard","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Brilliant Gard","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.mjselectricalsupplies.com.au/brilliant-smart-wifi-rgb-garden-light-kit?gclid=CjwKCAjw_uDsBRAMEiwAaFiHa56fOPFWol4XLby12CW-0MB6Cqy3_XDvC23Oifg7TpUIhyLdJ0meExoCiAMQAvD_BwE
 ---
 

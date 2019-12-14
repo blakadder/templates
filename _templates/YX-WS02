@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.ca/Compatible-AlexaGoogle-Enabled-Function-Required/dp/B07QDQMPHK
 image: https://images-na.ssl-images-amazon.com/images/I/711vIBBtXwL._SL1500_.jpg
-template: {"NAME":"Amysen YX-WS02","GPIO":[255,17,255,255,255,255,0,0,255,56,21,255,255],"FLAG":1,"BASE":18} 
+template: '{"NAME":"Amysen YX-WS02","GPIO":[255,17,255,255,255,255,0,0,255,56,21,255,255],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 

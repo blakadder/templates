@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.es/gp/product/B078H97JWP/
 image: https://images-na.ssl-images-amazon.com/images/I/61xHfa3Pk0L._SL1500_.jpg
-template: {"NAME":"eFamily Plug","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"eFamily Plug","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

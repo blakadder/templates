@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.autozone.com/miscellaneous-non-automotive/smart-socket/premier-wifi-socket/336055_0_0
 image: https://contentinfo.autozone.com/znetcs/product-info/en/US/pre/PWIFPLG/image/4/
-template: {"NAME":"Premier Plug","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":1,"BASE":18} 
+template: '{"NAME":"Premier Plug","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 

@@ -6,7 +6,7 @@ category: bulb
 standard: GU10
 link: https://www.amazon.de/Doppelpack-Aoycocr-Mehrfarbige-Intelligente-Kompatibel/dp/B07V45F2X4
 image: https://images-na.ssl-images-amazon.com/images/I/51vIFOlCpHL._SL1000_.jpg
-template: {"NAME":"Aoycocr_GU10","GPIO":[0,0,0,0,0,0,0,0,143,0,144,0,0],"FLAG":0,"BASE":27} 
+template: '{"NAME":"Aoycocr_GU10","GPIO":[0,0,0,0,0,0,0,0,143,0,144,0,0],"FLAG":0,"BASE":27}' 
 link2: 
 ---
 

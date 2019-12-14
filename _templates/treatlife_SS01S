@@ -6,7 +6,7 @@ type: Switch
 standard: us
 link: https://www.amazon.com/Smart-Light-Switch-Treatlife-Installation/dp/B07R7PCCT9
 image: https://images-na.ssl-images-amazon.com/images/I/619baPMeuhL._SL1500_.jpg
-template: {"NAME":"TL SS01S Swtch","GPIO":[0,0,0,0,52,158,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"TL SS01S Swtch","GPIO":[0,0,0,0,52,158,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

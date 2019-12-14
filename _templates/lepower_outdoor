@@ -6,7 +6,7 @@ type: Outdoor Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07KYFP8F8
 image: https://user-images.githubusercontent.com/10296053/54907967-d0763b80-4eb4-11e9-8684-eaca6e1ef06b.jpg
-template: {"NAME":"LEPOWER Outdoo","GPIO":[255,255,255,255,56,57,0,0,21,17,22,255,255],"FLAG":0,"BASE":18} 
+template: '{"NAME":"LEPOWER Outdoo","GPIO":[255,255,255,255,56,57,0,0,21,17,22,255,255],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

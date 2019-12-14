@@ -6,7 +6,7 @@ type: Outdoor Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07JW66S37
 image: https://images-na.ssl-images-amazon.com/images/I/41lJ3hmh0BL._SL500_AC_SS350_.jpg
-template: {"NAME":"ECCOLBUY 4","GPIO":[0,0,0,0,22,23,0,0,21,57,17,0,24],"FLAG":0,"BASE":18} 
+template: '{"NAME":"ECCOLBUY 4","GPIO":[0,0,0,0,22,23,0,0,21,57,17,0,24],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

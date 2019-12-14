@@ -6,7 +6,7 @@ category: bulb
 standard: B22
 link: https://www.amazon.in/gp/product/B07WZNNYDM
 image: https://images-na.ssl-images-amazon.com/images/I/71uVMdkGigL._AC_SL1500_.jpg
-template: {"NAME":"WiproSmartBulb","GPIO":[0,0,0,0,38,38,0,0,37,37,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"WiproSmartBulb","GPIO":[0,0,0,0,38,38,0,0,37,37,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

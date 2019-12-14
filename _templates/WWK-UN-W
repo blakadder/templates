@@ -9,7 +9,7 @@ standard:
   - au
 link: https://www.aliexpress.com/item/33001149822.html
 image: https://user-images.githubusercontent.com/5904370/58311134-94098200-7e08-11e9-846d-1bf06b2cac02.png
-template: {"NAME":"tuya wall sock","GPIO":[255,255,255,255,52,53,0,0,21,17,255,255,255],"FLAG":0,"BASE":18} 
+template: '{"NAME":"tuya wall sock","GPIO":[255,255,255,255,52,53,0,0,21,17,255,255,255],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

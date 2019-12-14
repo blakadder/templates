@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.aliexpress.com/item/32961743134.html?spm=a2g0s.9042311.0.0.6f504c4dMqfJ3p
 image: https://ae01.alicdn.com/kf/H2f8601a3f4d644588c65b9786f60afadC.jpeg
-template: {"NAME":"AVATTO JH-G01E","GPIO":[0,145,0,146,0,0,0,0,17,56,21,0,0],"FLAG":0,"BASE":41} 
+template: '{"NAME":"AVATTO JH-G01E","GPIO":[0,145,0,146,0,0,0,0,17,56,21,0,0],"FLAG":0,"BASE":41}' 
 link2: 
 ---
 

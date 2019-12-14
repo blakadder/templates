@@ -6,7 +6,7 @@ type: Switch
 standard: us
 link: https://www.amazon.com/gp/product/B07X4Z69BV
 image: https://user-images.githubusercontent.com/5904370/67141285-f05eb980-f261-11e9-97e8-72ab86e779ac.png
-template: {"NAME":"DS-123","GPIO":[157,57,255,17,21,18,0,0,255,22,56,255,255],"FLAG":0,"BASE":18} 
+template: '{"NAME":"DS-123","GPIO":[157,57,255,17,21,18,0,0,255,22,56,255,255],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

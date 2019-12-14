@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.amazon.de/Generation-Rolladen-Zeitschaltuhr-Rolladenmotor-Rolladenantrieb/dp/B07H9PSQCN/
 image: https://images-na.ssl-images-amazon.com/images/I/51QDcL470xL._SL1200_.jpg
-template: {"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

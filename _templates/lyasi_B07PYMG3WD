@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.amazon.de/gp/product/B07PYMG3WD?ref=ppx_pt2_dt_b_prod_image
 image: https://images-na.ssl-images-amazon.com/images/I/41yjCZ1ymTL._SL1000_.jpg
-template: {"NAME":"LYASI Touch Sw","GPIO":[0,0,0,0,56,52,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"LYASI Touch Sw","GPIO":[0,0,0,0,56,52,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

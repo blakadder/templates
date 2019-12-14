@@ -6,7 +6,7 @@ type: Plug
 standard: fr
 link: https://aliexpress.com/item/32901221191.html
 image: https://user-images.githubusercontent.com/5904370/70134862-28428480-1689-11ea-9f59-23f51a0fe67f.png
-template: {"NAME":"Lonsonho10ALed","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Lonsonho10ALed","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

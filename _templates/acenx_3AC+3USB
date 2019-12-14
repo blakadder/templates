@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/Outlets-Compatible-Control-Schedule-Extension/dp/B07QGTZQR7
 image: https://images-na.ssl-images-amazon.com/images/I/51aSkuxphUL._SL1000_.jpg
-template: {"NAME":"ACENX 3-Outlet","GPIO":[56,55,54,53,0,21,0,0,23,24,22,0,17],"FLAG":0,"BASE":18} 
+template: '{"NAME":"ACENX 3-Outlet","GPIO":[56,55,54,53,0,21,0,0,23,24,22,0,17],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

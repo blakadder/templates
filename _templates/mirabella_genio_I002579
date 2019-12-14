@@ -6,7 +6,7 @@ type: LED Strip
 standard: au
 link: https://mirabellagenio.net.au/led-strip-light
 image: https://img1.wsimg.com/isteam/ip/67cdd3b9-3600-4104-b097-603c05201237/STRIP%20Light%20Web.jpg/:/cr=t:2.53%25,l:0%25,w:100%25,h:89.29%25/rs=w:600,h:300,cg:true
-template: {"NAME":"MirabellaStrip","GPIO":[17,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"MirabellaStrip","GPIO":[17,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

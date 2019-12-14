@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/Assistant-Required-Enabled-Control-Gosund/dp/B072ZX8RTZ
 image: https://user-images.githubusercontent.com/34340210/57017460-52146400-6bed-11e9-9b85-d69380be8e70.jpg
-template: {"NAME":"Gosund WP3","GPIO":[0,0,0,0,17,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Gosund WP3","GPIO":[0,0,0,0,17,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 [Product page](https://www.gosund.store/products/smart-plug)

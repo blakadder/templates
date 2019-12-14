@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.amazon.de/gp/product/B07GPH1NKG
 image: https://user-images.githubusercontent.com/5904370/66717934-697f8c00-edde-11e9-8a0b-36f9c5d9a5a5.png
-template: {"NAME":"2way Switch","GPIO":[255,255,158,255,255,83,0,0,22,21,255,82,255],"FLAG":0,"BASE":18} 
+template: '{"NAME":"2way Switch","GPIO":[255,255,158,255,255,83,0,0,22,21,255,82,255],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

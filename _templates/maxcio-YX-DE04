@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/Steckdose-Maxcio-Intelligente-Kompatibel-Steuerung/dp/B07GH7XRB5
 image: https://user-images.githubusercontent.com/5904370/68094967-c0d8bf80-fea5-11e9-8109-53daf18d42cc.png
-template: {"NAME":"Maxcio YX-DE04","GPIO":[255,17,255,21,56,40,0,0,37,38,39,255,255],"FLAG":1,"BASE":18} 
+template: '{"NAME":"Maxcio YX-DE04","GPIO":[255,17,255,21,56,40,0,0,37,38,39,255,255],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 

@@ -6,7 +6,7 @@ category: bulb
 standard: E27
 link: https://www.amazon.ca/dp/B07KYJZ523
 image: https://images-na.ssl-images-amazon.com/images/I/51HhCAk5RaL._SX425_.jpg
-template: {"NAME":"Teckin SB50","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Teckin SB50","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

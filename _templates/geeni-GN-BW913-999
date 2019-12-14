@@ -3,7 +3,7 @@ date_added: 2019-12-13
 title: Geeni Prisma Plus 800 9W
 link: https://www.amazon.com/Geeni-Brighter-2700-6500K-Assistant-Microsoft/dp/B07R91XQBX/
 image: https://cdn.shopify.com/s/files/1/2612/6532/products/4c092cff-e352-42b7-b7cb-e3da71e8c4c9_608x608.jpg
-template: {"NAME":"Geeni Prisma P","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}
+template: '{"NAME":"Geeni Prisma P","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}'
 link2: https://www.microcenter.com/product/608269/geeni-prisma-plus-800-smart-wi-fi-led-light---rgb
 link3: https://mygeeni.com/collections/lighting/products/prisma-plus-800-60w-equivalent-color-and-white-dimmable-tunable-white-a19-smart-led-light-bulb
 flash: tuya-convert

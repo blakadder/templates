@@ -6,7 +6,7 @@ type: LED Controller
 standard: global
 link: https://www.aliexpress.com/item/DC-5V-28V-Mini-WiFi-LED-RGBW-Controller-Common-Anode-Connect-iOS-Android-APP-Remote-Controller/32828275557.html
 image: https://user-images.githubusercontent.com/5904370/55142867-e2b6da80-513d-11e9-96f2-f10c0c38df50.png
-template: {"NAME":"MagicHome RGB","GPIO":[0,0,0,0,0,37,0,0,38,39,0,0,0],"FLAG":0,"BASE":34} 
+template: '{"NAME":"MagicHome RGB","GPIO":[0,0,0,0,0,37,0,0,38,39,0,0,0],"FLAG":0,"BASE":34}' 
 link2: 
 ---
 

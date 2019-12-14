@@ -6,7 +6,7 @@ type: Aromatherapy Diffuser
 standard: global
 link: https://www.aliexpress.com/item/550ML-APP-Control-Essential-Oil-Aroma-Diffuser-With-Wood-Grain-Air-Humidifier-Aromatherapy-Diffuser-For-Home/32983725049.html
 image: https://user-images.githubusercontent.com/5904370/57200999-010cc300-6f93-11e9-8fbe-ad02435e367f.png
-template: {"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54} 
+template: '{"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link2: 
 ---
 <!-- Please read [TuyaMCU](https://github.com/arendst/Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->

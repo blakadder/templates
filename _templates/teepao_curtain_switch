@@ -6,7 +6,7 @@ type: Curtain Switch
 standard: eu
 link: https://www.amazon.de/gp/product/B07H9PSQCN
 image: https://images-na.ssl-images-amazon.com/images/I/51XUwB0IefL._SL1200_.jpg
-template: {"NAME":"Taopao","GPIO":[255,255,255,18,22,19,0,0,255,21,255,255,17],"FLAG":1,"BASE":18} 
+template: '{"NAME":"Taopao","GPIO":[255,255,255,18,22,19,0,0,255,21,255,255,17],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 
@@ -26,7 +26,7 @@ Based on :
 - Program Version	6.6.0.16 stb-1.16(sonoff)
 - Build Date & Time	2019-10-09T07:26:57
 ```console
-template: {"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18}
+template: '{"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18}'
 
 interlock on
 interlock 1,2,3

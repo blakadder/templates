@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07GFNFBGP/
 image: https://user-images.githubusercontent.com/5904370/66717441-5e762d00-edd9-11e9-9b65-27adea758d65.png
-template: {"NAME":"WOOX R4026","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"WOOX R4026","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

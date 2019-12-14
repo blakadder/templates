@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.zemismart.com/zemismart-wifi-wall-push-switch-alexa-google-home-tuya-light-switches-three-gangs-two-gangs-one-gang-physical-button-p0219-p0219.html
 image: https://user-images.githubusercontent.com/5904370/67437127-68c1d380-f5f0-11e9-91e6-4d307da269fa.png
-template: {"NAME":"ZSmart ZM-L01E","GPIO":[255,255,255,255,255,255,0,0,255,21,255,255,17],"FLAG":0,"BASE":18} 
+template: '{"NAME":"ZSmart ZM-L01E","GPIO":[255,255,255,255,255,255,0,0,255,21,255,255,17],"FLAG":0,"BASE":18}' 
 link2: https://www.aliexpress.com/item/4000078103986.html
 ---
 

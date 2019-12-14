@@ -6,7 +6,7 @@ category: bulb
 standard: E12
 link: https://www.amazon.com/gp/product/B07951M4DN
 image: https://images-na.ssl-images-amazon.com/images/I/51NaD0UdsvL._SL1200_.jpg
-template: {"NAME":"LH-5W-ZN01204","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27} 
+template: '{"NAME":"LH-5W-ZN01204","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
 link2: https://www.lohas-led.com/candle-2000k-9000k-smart-bulb-p0147.html
 ---
 

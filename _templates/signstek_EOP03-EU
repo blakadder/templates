@@ -6,7 +6,7 @@ type: Outdoor Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07WFRJZVK
 image: https://images-na.ssl-images-amazon.com/images/I/81I43H82zkL._SL1500_.jpg
-template: {"NAME":"Signstek EOP03","GPIO":[0,0,0,0,56,57,0,0,21,17,22,0,0],"FLAG":15,"BASE":18} 
+template: '{"NAME":"Signstek EOP03","GPIO":[0,0,0,0,56,57,0,0,21,17,22,0,0],"FLAG":15,"BASE":18}' 
 link2: 
 ---
 

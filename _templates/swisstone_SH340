@@ -6,7 +6,7 @@ category: bulb
 standard: E27
 link: https://www.conrad.com/p/swisstone-smart-home-sh-340-led-light-bulb-eec-a-a-e-alexa-google-home-1873410
 image: https://asset.conrad.com/media10/isa/160267/c1/-/en/1873410_AB_00_FB/image.jpg?x=600&y=600
-template: {"NAME":"SH 340","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":15,"BASE":18} 
+template: '{"NAME":"SH 340","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":15,"BASE":18}' 
 link2: https://www.ivsgmbh.de/produktdetail_de.php?wpf_reference=1040
 ---
 

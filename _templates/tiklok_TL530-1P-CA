@@ -6,7 +6,7 @@ category: bulb
 standard: E26
 link: https://www.amazon.ca/gp/product/B07FCCFC4T
 image: https://images-na.ssl-images-amazon.com/images/I/41re%2Bs3qUoL._SL1000_.jpg
-template: {"NAME":"TikLOk WW-CW-L","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"TikLOk WW-CW-L","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 Reference: TL530-1P-CA

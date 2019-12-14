@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/Geeni-GN-WW110-199-required-Assistant-Microsoft/dp/B07FLXG64M
 image: https://cdn.shopify.com/s/files/1/2612/6532/products/GN-WW110_1-199_600x600.jpg
-template: {"NAME":"Geeni Duo","GPIO":[0,0,0,0,18,22,0,0,17,52,21,0,53],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Geeni Duo","GPIO":[0,0,0,0,18,22,0,0,17,52,21,0,53],"FLAG":0,"BASE":18}' 
 link2: http://www.bimart.com
 link3: https://mygeeni.com/collections/power/products/geeni-switch-duo-2-port
 ---

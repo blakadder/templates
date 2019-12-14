@@ -3,7 +3,7 @@ date_added: 2019-12-10
 title: Teekar SYS-CS 01
 link: https://www.amazon.de/gp/product/B0811DJY7D
 image: https://images-na.ssl-images-amazon.com/images/I/51cgD486VSL._SL1200_.jpg
-template: {"NAME":"Teekar-Tag","GPIO":[56,0,157,18,22,11,0,0,0,21,57,31,17],"FLAG":0,"BASE":18}
+template: '{"NAME":"Teekar-Tag","GPIO":[56,0,157,18,22,11,0,0,0,21,57,31,17],"FLAG":0,"BASE":18}'
 link2: https://www.aliexpress.com/item/33050689492.html
 link3: https://www.teekar.de/products/rolladen-zeitschaltuhr-3rd-gen
 flash: serial

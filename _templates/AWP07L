@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B079JXN1VV
 image: https://user-images.githubusercontent.com/5904370/66906978-df673b80-f008-11e9-8997-eba70d868af1.png
-template: {"NAME":"AISIRER AWP07L","GPIO":[0,0,0,0,56,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"AISIRER AWP07L","GPIO":[0,0,0,0,56,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

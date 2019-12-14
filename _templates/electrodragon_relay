@@ -6,7 +6,7 @@ type: Relay
 standard: global
 link: https://www.electrodragon.com/product/wifi-iot-relay-board-based-esp8266/
 image: https://user-images.githubusercontent.com/5904370/57888673-16a3a780-7833-11e9-8101-3e0aef0e6851.png
-template: {"NAME":"ElectroDragon","GPIO":[18,255,17,255,255,255,0,0,22,21,255,255,52],"FLAG":1,"BASE":15} 
+template: '{"NAME":"ElectroDragon","GPIO":[18,255,17,255,255,255,0,0,22,21,255,255,52],"FLAG":1,"BASE":15}' 
 link2: 
 ---
 

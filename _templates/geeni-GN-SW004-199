@@ -3,7 +3,7 @@ date_added: 2019-12-13
 title: Geeni Surge Mini
 link: https://www.amazon.com/dp/B07SRDFBS1/
 image: https://images-na.ssl-images-amazon.com/images/I/71eNnE2m6sL._SL1500_.jpg
-template: {"NAME":"Geeni-GN-SW004","GPIO":[56,0,0,17,0,0,0,0,22,21,23,0,0],"FLAG":15,"BASE":18}
+template: '{"NAME":"Geeni-GN-SW004","GPIO":[56,0,0,17,0,0,0,0,22,21,23,0,0],"FLAG":15,"BASE":18}'
 link2: 
 link3: https://mygeeni.com/collections/power/products/surge-mini-3-outlet-smart-wi-fi-surge-protector-white
 flash: tuya-convert

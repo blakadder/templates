@@ -5,7 +5,7 @@ type: Plug
 standard: us
 link: https://www.oittm.com/Oittm-Wifi-Smart-Plug
 image: https://dustplanet.de/wp-content/uploads/2018/12/Screen-Shot-2018-12-02-at-12.26.29-AM.png
-template: {"NAME":"Oittm","GPIO":[0,0,0,0,21,56,0,0,17,0,0,0,0],"FLAG":0,"BASE":1} 
+template: '{"NAME":"Oittm","GPIO":[0,0,0,0,21,56,0,0,17,0,0,0,0],"FLAG":0,"BASE":1}' 
 link2: https://www.aliexpress.com/item/Oittm-Wifi-Smart-Plug-Home-Automation-Phone-APP-Timing-Switch-Remote-Control-Wifi-Socket-Working-With/32881262369.html
 ---
 Although the instructions are for the EU version, this plug as available in US and UK plug types too

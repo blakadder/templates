@@ -6,7 +6,7 @@ type: Wall Outlet
 standard: au
 link: https://www.alibaba.com/product-detail/SAA-approved-tuya-smart-life-app_60803461809.html
 image: https://sc01.alicdn.com/kf/HTB1oWJXXe6sK1RjSsrbq6xbDXXag/200428940/HTB1oWJXXe6sK1RjSsrbq6xbDXXag.jpg
-template: {"NAME":"MG-AUWF01","GPIO":[56,10,157,59,134,132,0,0,131,22,57,21,9],"FLAG":0,"BASE":18} 
+template: '{"NAME":"MG-AUWF01","GPIO":[56,10,157,59,134,132,0,0,131,22,57,21,9],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

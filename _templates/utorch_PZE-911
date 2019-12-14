@@ -6,7 +6,7 @@ type: Light
 standard: global
 link: https://www.gearbest.com/smart-ceiling-lights/pp_009748680892.html
 image: https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2018/09/03/goods_img_big-v32/20180903154832_22560.jpg
-template: {"NAME":"Utorch PZE-911","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":1} 
+template: '{"NAME":"Utorch PZE-911","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":1}' 
 link2: 
 ---
 

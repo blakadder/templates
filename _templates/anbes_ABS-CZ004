@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07DC641FH
 image: https://images-na.ssl-images-amazon.com/images/I/61EVgigpiqL._SL1500_.jpg
-template: {"NAME":"ANBES ABS-CZ00","GPIO":[0,0,0,0,21,133,0,0,131,17,132,22,18],"FLAG":0,"BASE":18} 
+template: '{"NAME":"ANBES ABS-CZ00","GPIO":[0,0,0,0,21,133,0,0,131,17,132,22,18],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

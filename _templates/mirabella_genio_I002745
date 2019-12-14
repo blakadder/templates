@@ -6,7 +6,7 @@ category: bulb
 standard: E14
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-5.5w-led-candle-bulb/2746326
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/sz/0/42800590-1-sz.jpg
-template: {"NAME":"Mirabella Candle","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Mirabella Candle","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link2: https://mirabellagenio.net.au/ses-led-candle
 ---
 

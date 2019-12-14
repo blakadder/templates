@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07PF41CLZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 image: https://images-na.ssl-images-amazon.com/images/I/71uVW%2BRvHQL._SL1500_.jpg
-template: {"NAME":"ZY-ACU02","GPIO":[255,255,255,52,22,21,0,0,31,17,32,255,255],"FLAG":15,"BASE":18} 
+template: '{"NAME":"ZY-ACU02","GPIO":[255,255,255,52,22,21,0,0,31,17,32,255,255],"FLAG":15,"BASE":18}' 
 link2: https://www.aliexpress.com/i/4000106627197.html
 ---
 

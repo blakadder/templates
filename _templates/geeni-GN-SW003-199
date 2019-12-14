@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/dp/B07DB3W915
 image: https://cdn.shopify.com/s/files/1/2612/6532/products/GN-SW003-199_1_600x600.jpg
-template: {"NAME":"Geeni GNCSW003","GPIO":[52,0,0,0,22,21,0,0,24,25,23,26,17],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Geeni GNCSW003","GPIO":[52,0,0,0,22,21,0,0,24,25,23,26,17],"FLAG":0,"BASE":18}' 
 link2: https://www.canadiantire.ca/en/pdp/geeni-smart-wi-fi-surge-protector-0529703p.0529703.html
 link3: https://mygeeni.com/collections/power/products/geeni-gn-sw003-199-surge-smart-protector-white
 ---

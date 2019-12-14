@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07N1JPPXK/
 image: https://images-na.ssl-images-amazon.com/images/I/5166t5gp8PL._AC_SL1100_.jpg
-template: {"NAME":"Aoycocr X5P","GPIO":[56,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Aoycocr X5P","GPIO":[56,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

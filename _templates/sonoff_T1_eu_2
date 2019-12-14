@@ -5,7 +5,7 @@ type: Switch
 standard: eu
 link3: https://www.itead.cc/smart-home/sonoff-t1-eu.html
 image: https://user-images.githubusercontent.com/5904370/57942984-2c68a980-78d3-11e9-9781-dc9170916d86.png
-template: {"NAME":"Sonoff T1 2CH","GPIO":[17,255,255,255,0,22,18,0,21,56,0,0,0],"FLAG":0,"BASE":29} 
+template: '{"NAME":"Sonoff T1 2CH","GPIO":[17,255,255,255,0,22,18,0,21,56,0,0,0],"FLAG":0,"BASE":29}' 
 link: https://www.banggood.com/SONOFF-T1-EUUK-AC-100-240V-123-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Remote-Controlled-Wifi-Switch-Smart-Home-Switch-Works-With-Alexa-Google-Home-p-1470883.html
 ---
 ## Serial Flashing

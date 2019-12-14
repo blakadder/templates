@@ -6,11 +6,11 @@ type: Plug
 standard: eu
 image: https://user-images.githubusercontent.com/5904370/70653224-5b21e500-1c54-11ea-8e0b-55fa4ad96309.png
 link: https://www.aliexpress.com/item/4000013418104.html
-template: {"NAME":"RGB Smart Plug","GPIO":[37,0,39,0,38,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}
+template: '{"NAME":"RGB Smart Plug","GPIO":[37,0,39,0,38,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
 link2: https://www.amazon.de/gp/product/B07MYL3HLZ
 ---
-This plug can be found under many brand names (Lonsonho, Avatto, Vansware, )
-Identified by the packagin and the sticker inside the plug:
+This plug can be found under many brand names (Lonsonho, Avatto, Vansware, ... )
+Identified by the packaging and the sticker inside the plug:
 ![image](https://raw.githubusercontent.com/wiki/Astr0/Sonoff-Tasmota/images/lonsonho16a/device.jpg)
 
 More information in [Tasmota Wiki](https://tasmota.github.io/docs/#/devices/RGB-Smart-Plug-16A).

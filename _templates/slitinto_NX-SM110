@@ -6,7 +6,7 @@ type: Plug
 standard: uk
 link: https://www.amazon.co.uk//dp/B07DVXNNH4/
 image: https://images-na.ssl-images-amazon.com/images/I/41UKCcSIryL._SL1001_.jpg
-template: {"NAME":"Slitinto SM110","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45} 
+template: '{"NAME":"Slitinto SM110","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
 link2: 
 ---
 

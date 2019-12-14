@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/Steckdose-Maxcio-Intelligente-Kompatibel-Steuerung/dp/B07GH7XRB5
 image: https://images-na.ssl-images-amazon.com/images/I/61lNrG%2BFvVL._SL1500_.jpg
-template: {"NAME":"Generic","GPIO":[255,17,255,21,56,37,0,0,38,39,40,255,255],"FLAG":1,"BASE":18} 
+template: '{"NAME":"Generic","GPIO":[255,17,255,21,56,37,0,0,38,39,40,255,255],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 

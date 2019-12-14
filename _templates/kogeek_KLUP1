@@ -6,7 +6,7 @@ type: Plug
 standard: uk
 link: https://www.amazon.co.uk/Koogeek-Compatible-Monitoring-Schedule-Function/dp/B07PDFD31Q
 image: https://i.postimg.cc/xCFfrcnL/g-D3-Cr-W7-KQsi-O-GYliweiu-Q.png
-template: {"NAME":"Koogeek-KLUP1","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Koogeek-KLUP1","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

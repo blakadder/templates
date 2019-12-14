@@ -6,7 +6,7 @@ type: Switch
 standard: au
 link: https://www.amazon.com/gp/product/B07BLZFQZZ
 image: https://images-na.ssl-images-amazon.com/images/I/41R45LydfyL._SL1001_.jpg
-template: {"NAME":"WS-US2-W ","GPIO":[52,0,53,0,0,18,0,0,17,21,0,22,54],"FLAG":0,"BASE":18} 
+template: '{"NAME":"WS-US2-W ","GPIO":[52,0,53,0,0,18,0,0,17,21,0,22,54],"FLAG":0,"BASE":18}' 
 link2: 
 link3: https://www.moeshouse.com/collections/us-smart-switch/products/us-2-gang-wifi-smart-wall-touch-switch-glass-panel-app-remote-control-no-hub-required-for-smart-life
 ---

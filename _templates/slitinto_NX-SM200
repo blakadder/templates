@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07QWR6QD1/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
 image: https://images-na.ssl-images-amazon.com/images/I/41CW4Wx6TTL._SL1001_.jpg
-template: {"NAME":"NX-SM200","GPIO":[0,0,0,17,134,132,0,0,0,52,21,130,0],"FLAG":0,"BASE":45} 
+template: '{"NAME":"NX-SM200","GPIO":[0,0,0,17,134,132,0,0,0,52,21,130,0],"FLAG":0,"BASE":45}' 
 link2: https://www.amazon.fr/gp/product/B07QWR6QD1/ref=ppx_yo_dt_b_asin_title_o00_s00
 ---
 

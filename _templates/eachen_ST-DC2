@@ -6,7 +6,7 @@ type: Relay
 standard: global
 link: https://www.amazon.com/gp/product/B078JG96WW
 image: https://images-na.ssl-images-amazon.com/images/I/61KkXM7qWTL._SL1001_.jpg
-template: {"NAME":"Garage Control","GPIO":[11,0,0,0,23,22,18,0,21,52,12,24,0],"FLAG":1,"BASE":18} 
+template: '{"NAME":"Garage Control","GPIO":[11,0,0,0,23,22,18,0,21,52,12,24,0],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 

@@ -5,7 +5,7 @@ type: Plug
 standard: eu
 link: https://www.obi.de/hausfunksteuerung/wifi-stecker-schuko/p/2291706
 image: https://user-images.githubusercontent.com/5904370/57953956-cdfef380-78f1-11e9-9a69-37609bec9cee.png
-template: {"NAME":"OBI Socket","GPIO":[255,255,0,255,52,21,0,0,54,255,17,0,255],"FLAG":1,"BASE":51} 
+template: '{"NAME":"OBI Socket","GPIO":[255,255,0,255,52,21,0,0,54,255,17,0,255],"FLAG":1,"BASE":51}' 
 link2: 
 ---
 ## Serial Flashing

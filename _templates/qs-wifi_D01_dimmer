@@ -6,7 +6,7 @@ type: Dimmer
 standard: global
 link: https://www.aliexpress.com/item/33010332202.html
 image: https://user-images.githubusercontent.com/36734573/67634487-efaad080-f8bc-11e9-923f-4aa8babfd609.png
-template: {"NAME":"WiFi-Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"WiFi-Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.banggood.com/MoesHouse-DIY-Smart-WiFi-Light-LED-Dimmer-Switch-Smart-LifeTuya-APP-Remote-Control-12-Way-Switch-Works-With-Alexa-Echo-Google-Home-p-1509161.html
 ---
 

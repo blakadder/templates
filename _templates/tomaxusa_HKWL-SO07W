@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: 
 image: https://p.globalsources.com/IMAGES/PDT/BIG/694/B1154350694.jpg
-template: {"NAME":"HKWL-SO07W","GPIO":[17,255,255,255,255,255,0,0,255,255,21,255,56],"FLAG":0,"BASE":18} 
+template: '{"NAME":"HKWL-SO07W","GPIO":[17,255,255,255,255,255,0,0,255,255,21,255,56],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

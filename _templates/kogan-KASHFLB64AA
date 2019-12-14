@@ -6,7 +6,7 @@ category: bulb
 standard: B22
 link: https://www.kogan.com/au/buy/kogan-smarterhome-5w-smart-dimmable-led-filament-bulb-st-20-e27-2pk/
 image: https://user-images.githubusercontent.com/5904370/69923781-b232f780-14a7-11ea-9e02-2540dfbf7caf.png
-template: {"NAME":"Kogan Filament","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":15,"BASE":18} 
+template: '{"NAME":"Kogan Filament","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":15,"BASE":18}' 
 link2: 
 ---
 Reference: KASHFLB64AA

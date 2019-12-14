@@ -5,7 +5,7 @@ type: Plug
 standard: eu
 link: https://www.obi.de/hausfunksteuerung/wifi-stecker-schuko-2-stueck-weiss/p/4077673
 image: https://user-images.githubusercontent.com/5904370/57955953-97c47280-78f7-11e9-85bf-3288acd4fb7f.png
-template: {"NAME":"OBI Socket 2","GPIO":[0,0,0,0,21,17,0,0,56,53,0,0,0],"FLAG":0,"BASE":61} 
+template: '{"NAME":"OBI Socket 2","GPIO":[0,0,0,0,21,17,0,0,56,53,0,0,0],"FLAG":0,"BASE":61}' 
 link2: 
 ---
 ***Supported since version [6.4.1.8](https://github.com/arendst/Tasmota/issues/4829) as OBI Socket 2 (61)***

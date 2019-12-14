@@ -6,7 +6,7 @@ category: bulb
 standard: e27
 link: https://www.kmart.com.au/product/mirabella-genio-e27-wi-fi-tunable-bulb/2326811
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/f/0/42707820-2-f.jpg
-template: {"NAME":"GenioBulbCCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"GenioBulbCCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 link3: https://mirabellagenio.net.au/es-%2F-bc-warm-cct-specs
 ---

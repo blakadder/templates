@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.ca/gp/product/B07QRWD29N
 image: https://images-na.ssl-images-amazon.com/images/I/41KB5kdPqWL._SL1080_.jpg
-template: {"NAME":"W-US003","GPIO":[0,17,255,255,255,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"W-US003","GPIO":[0,17,255,255,255,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/GDTech-Wireless-Household-Appliance-Compatible/dp/B07QJD7BMF
 ---
 

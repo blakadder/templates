@@ -6,7 +6,7 @@ type: Outdoor Plug
 standard: us
 link: https://www.amazon.com/Waterproof-Compatible-Wireless-Smartphone-Required/dp/B07H7ZML4W
 image: https://images-na.ssl-images-amazon.com/images/I/51U4XUPwg0L._SL1000_.jpg
-template: {"NAME":"SOP04-US Dual","GPIO":[255,255,255,255,56,57,0,0,21,17,22,255,255],"FLAG":0,"BASE":18} 
+template: '{"NAME":"SOP04-US Dual","GPIO":[255,255,255,255,56,57,0,0,21,17,22,255,255],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

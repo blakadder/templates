@@ -6,7 +6,7 @@ type: Power Strip
 standard: uk
 link: https://www.lazada.sg/products/buybowie-wifi-smart-power-strip-multi-plug-sockets-with-34-ac-outlets-246-usb-port-voice-controlled-by-alexa-google-home-timer-via-android-ios-phone-i290767856-s475480736.html
 image: https://my-test-11.slatic.net/p/07ddeb65f97d6378242207143f23427f.jpg
-template: {"NAME":"HLT-336","GPIO":[52,0,0,57,29,17,0,0,31,30,0,0,32],"FLAG":0,"BASE":18} 
+template: '{"NAME":"HLT-336","GPIO":[52,0,0,57,29,17,0,0,31,30,0,0,32],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

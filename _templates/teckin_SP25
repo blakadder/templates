@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/Compatible-Function-Required-Allliances-Overcharging/dp/B07G78YSQS
 image: https://images-na.ssl-images-amazon.com/images/I/512Gy7t9t0L._SL1001_.jpg
-template: {"NAME":"Teckin SP25","GPIO":[56,255,255,255,255,255,0,0,22,17,255,21,255],"FLAG":1,"BASE":18} 
+template: '{"NAME":"Teckin SP25","GPIO":[56,255,255,255,255,255,0,0,22,17,255,21,255],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 

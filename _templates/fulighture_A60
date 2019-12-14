@@ -6,7 +6,7 @@ category: bulb
 standard: B22
 link: https://www.amazon.co.uk/gp/product/B07QG7S2M7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 image: https://images-na.ssl-images-amazon.com/images/I/51H1cuklhtL._SL1200_.jpg
-template: {"NAME":"Fulighture A60","GPIO":[0,0,0,0,38,37,0,0,0,39,40,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Fulighture A60","GPIO":[0,0,0,0,38,37,0,0,0,39,40,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

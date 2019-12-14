@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/bakibo-Intelligente-Fernbedienung-Programmieren-Stromverbrauch/dp/B07RQQCK79
 image: https://m.media-amazon.com/images/S/aplus-media/sc/97b77f5a-f8ca-401f-92ec-6b6e1015e719.__CR0,0,300,400_PT0_SX300_V1___.jpg
-template: {"NAME":"Bakibo","GPIO":[0,17,0,57,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":52} 
+template: '{"NAME":"Bakibo","GPIO":[0,17,0,57,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":52}' 
 link2: 
 ---
 

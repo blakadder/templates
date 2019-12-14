@@ -6,7 +6,7 @@ type: Plug
 standard: uk
 link: https://www.aliexpress.com/item/Hyleton-wifi-smart-plug-remote-control-outlet-Wireless-Wall-Socket-Compatible-with-Alexa-Google-Home-for/32861229232.html
 image: https://user-images.githubusercontent.com/5904370/54650236-cbc51800-4aad-11e9-833d-b652c8df92cb.png
-template: {"NAME":"Hyleton 313","GPIO":[57,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Hyleton 313","GPIO":[57,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.co.uk/Control-Anywhere-Compatible-Assistant-Required-hyleton/dp/B078Q2N3L4
 ---
 

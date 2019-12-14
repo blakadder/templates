@@ -6,7 +6,7 @@ type: Relay
 standard: global
 link: https://www.amazon.com/LinkSprite-211201005-Arduino-Compatible-Wi-Fi-Controller/dp/B01N2ALK8X
 image: http://linksprite.com/wiki/images/thumb/a/ae/LinkNode_R8-5.jpg/640px-LinkNode_R8-5.jpg
-template: {"NAME":"LinkNode R8","GPIO":[0,0,0,0,25,26,0,28,23,24,22,27,21],"FLAG":0,"BASE":18} 
+template: '{"NAME":"LinkNode R8","GPIO":[0,0,0,0,25,26,0,28,23,24,22,27,21],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

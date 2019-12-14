@@ -6,7 +6,7 @@ type: Outdoor Plug
 standard: us
 link: https://www.amazon.com/Geeni-Outdoor-Required-Assistant-Microsoft/dp/B07BGLZKH1 
 image: https://images-na.ssl-images-amazon.com/images/I/81PEP7pSOML._AC_SL1500_.jpg
-template: {"NAME":"Geeni Outdoor","GPIO":[17,0,0,0,0,57,0,0,0,52,21,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Geeni Outdoor","GPIO":[17,0,0,0,0,57,0,0,0,52,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 link3: https://mygeeni.com/collections/power/products/outdoor-smart-wi-fi-plug-black
 ---

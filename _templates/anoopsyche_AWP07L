@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.it/dp/B079JXN1VV
 image: https://i.postimg.cc/W1QhkMbt/plug1.jpg
-template: {"NAME":"Anoopsyche AWP","GPIO":[0,0,0,0,56,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Anoopsyche AWP","GPIO":[0,0,0,0,56,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

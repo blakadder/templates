@@ -5,7 +5,7 @@ type: IR Bridge
 standard: global
 link: https://www.aliexpress.com/item/32951202513.html
 image: https://user-images.githubusercontent.com/5904370/57956262-b414df00-78f8-11e9-93d8-709995e2c8df.png
-template: {"NAME":"YTF IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62} 
+template: '{"NAME":"YTF IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link2: https://www.amazon.com/gp/product/B07H46LJZK
 ---
 

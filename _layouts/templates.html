@@ -72,7 +72,7 @@ layout: default
 </div>
 <h4>Template</h4>
 <pre>
-    <code class="language-erlang">{{ page.template | jsonify }}</code>
+    <code class="language-erlang">{{ page.template }}</code>
 </pre>
 <hr>
 {% if page.flash == 'tuya-convert' %}
@@ -83,8 +83,10 @@ Tasmota flashed using <a href="https://tasmota.github.io/docs/#/installation/Pre
 
 {% endif %}
 
-{% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
-For more accurate energy consumption measurements this device needs <a href="https://tasmota.github.io/docs/#/Power-Monitoring-Calibration">power monitoring calibration</a>.
+{% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156' %}
+For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/#/Power-Monitoring-Calibration">power monitoring calibration</a>.
 {% endif %}
+
+
 <p>
 {{ content | markdownify }}

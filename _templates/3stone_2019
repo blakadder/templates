@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/gp/product/B07QLR7Y7D/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1
 image: https://images-na.ssl-images-amazon.com/images/I/51Eg2rwHglL._AC_SL1000_.jpg
-template: {"NAME":"3Stone-2019","GPIO":[0,0,56,0,25,22,0,0,24,17,23,21,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"3Stone-2019","GPIO":[0,0,56,0,25,22,0,0,24,17,23,21,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

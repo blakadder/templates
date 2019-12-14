@@ -6,7 +6,7 @@ type: Power Strip
 standard: eu
 link: https://www.amazon.de/Steckdosenleiste-AOFO-Intelligente-Fernbedienung-USB-Anschl%C3%BCssen/dp/B0796SL41M
 image: https://images-na.ssl-images-amazon.com/images/I/61azZIgE6iL._SL1500_.jpg
-template: {"NAME":"AOFO","GPIO":[0,56,0,17,22,21,0,0,0,23,24,0,0],"FLAG":1,"BASE":18} 
+template: '{"NAME":"AOFO","GPIO":[0,56,0,17,22,21,0,0,0,23,24,0,0],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 

@@ -6,7 +6,7 @@ type: Switch
 standard: us
 link: https://www.aliexpress.com/item/Ewelink-WS-EU-UK-US-WiFi-Wireless-APP-Touch-Control-Wall-Light-Timing-Switch-86-120/32920260509.html
 image: https://ae01.alicdn.com/kf/HTB1i0T5h7voK1RjSZFDq6xY3pXa2/Ewelink-WS-120-US-Wifi-Smart-Wall-Touch-Switch-Glass-Panel-APP-Remote-Control-No-Hub.jpg
-template: {"NAME":"WS-US-03","GPIO":[17,255,255,255,23,22,18,19,21,56,0,0,0],"FLAG":0,"BASE":30} 
+template: '{"NAME":"WS-US-03","GPIO":[17,255,255,255,23,22,18,19,21,56,0,0,0],"FLAG":0,"BASE":30}' 
 link2: 
 ---
 

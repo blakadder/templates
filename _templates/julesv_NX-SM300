@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.co.jp/dp/B07MBFD2VV
 image: https://i.postimg.cc/hGh7Hxch/p.png
-template: {"NAME":"NX-SM300","GPIO":[52,0,0,0,0,130,0,0,21,132,133,52,0],"FLAG":0,"BASE":6} 
+template: '{"NAME":"NX-SM300","GPIO":[52,0,0,0,0,130,0,0,21,132,133,52,0],"FLAG":0,"BASE":6}' 
 link2: 
 ---
 

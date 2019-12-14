@@ -6,7 +6,7 @@ type: DIY
 standard: global
 link: https://heltec.org/project/wifi-kit-8/
 image: https://i2.wp.com/heltec.org/wp-content/uploads/2019/04/SAM_0658_800X800-1.png
-template: {"NAME":"HTIT-W8266","GPIO":[255,255,255,255,6,5,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} 
+template: '{"NAME":"HTIT-W8266","GPIO":[255,255,255,255,6,5,0,0,255,255,255,255,255],"FLAG":15,"BASE":18}' 
 link2: https://robotzero.one/heltec-wifi-kit-8/
 ---
 

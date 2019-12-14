@@ -3,7 +3,7 @@ date_added: 2019-12-07
 title: ZJ-WF-ESP-A v1.1 
 link: https://www.aliexpress.com/item/32817191956.html
 image: https://ae01.alicdn.com/kf/HTB1.LRdRFXXXXaeaVXXq6xXFXXXV.jpg
-template: {"NAME":"RGB2","GPIO":[0,0,0,0,0,0,0,0,38,37,39,0,0],"FLAG":0,"BASE":18}
+template: '{"NAME":"RGB2","GPIO":[0,0,0,0,0,0,0,0,38,37,39,0,0],"FLAG":0,"BASE":18}'
 link2: 
 link3: 
 flash: serial

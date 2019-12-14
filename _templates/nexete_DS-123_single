@@ -6,7 +6,7 @@ type: Switch
 standard: us
 link: https://www.amazon.com/Wireless-Smartphone-Compatible-Anywhere-Function/dp/B078ZNJNSK
 image: https://images-na.ssl-images-amazon.com/images/I/51x1pjHlfjL._SX425_.jpg
-template: {"NAME":"DS-123","GPIO":[157,0,255,18,0,17,0,0,255,21,56,255,255],"FLAG":0,"BASE":18} 
+template: '{"NAME":"DS-123","GPIO":[157,0,255,18,0,17,0,0,255,21,56,255,255],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

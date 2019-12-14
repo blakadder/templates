@@ -6,7 +6,7 @@ type: Sensor
 standard: global
 link: https://www.aliexpress.com/item/32967933988.html
 image: https://user-images.githubusercontent.com/5904370/69268583-b6b9ff00-0bcf-11ea-8259-2ef0b4d22970.png
-template: {"NAME":"ESP01S ds18b20","GPIO":[255,255,4,255,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18} 
+template: '{"NAME":"ESP01S ds18b20","GPIO":[255,255,4,255,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18}' 
 link2: https://ru.aliexpress.com/item/32887522816.html?spm=a2g0o.productlist.0.0.676162adwhwgCN&algo_pvid=701af86c-9226-493d-89cd-eb9dbca32e2a&algo_expid=701af86c-9226-493d-89cd-eb9dbca32e2a-10&btsid=06af70d6-b0e8-4eac-bab4-49e562a7a042&ws_ab_test=searchweb0_0,searchweb201602_4,searchweb201603_52
 ---
 

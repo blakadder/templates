@@ -3,7 +3,7 @@ date_added: 2019-12-08
 title: Dogain 4.5W 
 link: https://www.amazon.com/gp/product/B07TMW9XR7
 image: https://images-na.ssl-images-amazon.com/images/I/51bNv8QvGvL._AC_SX466_.jpg
-template: {"NAME":"DOGAIN","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}
+template: '{"NAME":"DOGAIN","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}'
 link2: 
 link3: 
 flash: tuya-convert

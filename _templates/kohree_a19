@@ -6,6 +6,6 @@ category: bulb
 standard: E26
 link: https://www.amazon.com/gp/product/B07H258JCL
 image: https://user-images.githubusercontent.com/5904370/54642725-9c0a1600-4a95-11e9-9f09-96c124d1a7bf.png
-template: {"NAME":"Kohree VHP560","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Kohree VHP560","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

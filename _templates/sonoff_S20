@@ -10,7 +10,7 @@ standard:
   - fr
 link: https://www.banggood.com/SONOFF-S20-10A-2200W-Wifi-Wireless-Remote-Control-Socket-Smart-Timer-Plug-Smart-Home-Power-Socket-Support-Alexa-p-1142285.html
 image: https://user-images.githubusercontent.com/5904370/57884318-a55ef700-7828-11e9-8cb5-52d9fb54d9fa.png
-template: {"NAME":"Sonoff S20","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8} 
+template: '{"NAME":"Sonoff S20","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8}' 
 link2: https://www.gearbest.com/access-control/pp_1588516.html
 link3: https://www.itead.cc/smart-home/smart-socket.html
 ---

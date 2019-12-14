@@ -6,7 +6,7 @@ type: Outdoor Plug
 standard: us
 link: https://www.amazon.com/dp/B07MNYJWHD
 image: https://images-na.ssl-images-amazon.com/images/I/614a6V1dPHL._SL1500_.jpg
-template: {"NAME":"King-Link C128","GPIO":[0,0,58,0,22,56,0,0,23,157,17,21,57],"FLAG":0,"BASE":18} 
+template: '{"NAME":"King-Link C128","GPIO":[0,0,58,0,22,56,0,0,23,157,17,21,57],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

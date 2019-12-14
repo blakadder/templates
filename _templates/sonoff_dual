@@ -5,7 +5,7 @@ type: Relay
 standard: global
 link3: https://www.itead.cc/smart-home/sonoff-dual.html
 image: https://user-images.githubusercontent.com/5904370/57879170-121fc480-781c-11e9-8bed-7ba8ad73f579.png
-template: {"NAME":"Sonoff Dual","GPIO":[0,148,0,149,255,0,0,0,0,56,255,0,0],"FLAG":0,"BASE":5} 
+template: '{"NAME":"Sonoff Dual","GPIO":[0,148,0,149,255,0,0,0,0,56,255,0,0],"FLAG":0,"BASE":5}' 
 link: 
 link2: 
 ---

@@ -8,7 +8,7 @@ standard:
   - E14
 link: https://www.aliexpress.com/item/33047013453.html
 image: https://user-images.githubusercontent.com/5904370/66715410-5c08d880-edc3-11e9-96e0-6a37854058d1.png
-template: {"NAME":"E27_RGB_Bulb","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"E27_RGB_Bulb","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

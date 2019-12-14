@@ -3,7 +3,7 @@ date_added: 2019-12-08
 title: WOOX R5024
 link: https://www.amazon.it/dp/B07N7B7NXF
 image: https://images-na.ssl-images-amazon.com/images/I/51G4y-eufDL._SL1500_.jpg
-template: {"NAME":"Woox5024","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}
+template: '{"NAME":"Woox5024","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}'
 link2: 
 link3: https://wooxhome.com/power-c2/woox-r5024-smart-plug-eu-p8
 flash: tuya-convert

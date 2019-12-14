@@ -1,0 +1,93 @@
+---
+date_added: 2019-12-14
+title: Earykong TYMC-1 Door Window
+link: https://www.aliexpress.com/item/33047480276.html
+image: https://user-images.githubusercontent.com/5904370/70841350-23649a00-1e1a-11ea-9234-6b56c7a43b47.png
+template: '{"NAME":"TYMC-1","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link2: 
+link3: 
+flash: serial
+category: misc
+type: Sensor
+standard: global
+---
+<!-- Please read [TuyaMCU](https://tasmota.github.io/docs/#/TuyaMCU) article to understand the terminology and configuration process. -->
+
+This is a Tuya/Smart Life battery powered contact (door or window) sensor. Runs on two AAA batteries (not supplied with the device).
+
+Identified with MCU Product ID: `{"p":"hx5ztlztij4yxxvg","v":"1.0.0"}` which is also printed on the TYWE3S module.
+
+![Packaging](https://user-images.githubusercontent.com/5904370/70840831-725c0080-1e15-11ea-8db8-dbc7f5957cca.png)
+![image](https://user-images.githubusercontent.com/5904370/70840996-f793e500-1e16-11ea-8c36-f2061b36ef7c.png)
+
+
+## Flashing
+
+Easily disassembled by removing the back plate, unscrewing the screw in the battery holder and prying away the plastic using the bottom slot. 
+![Disassembly](https://user-images.githubusercontent.com/5904370/70840664-147ae900-1e14-11ea-9451-2cf352ebc609.png)
+
+The PCB has only the **20191022** marking on it and a prominent TYWE3S module with the product ID printed. There are broken out pins for 3v3, RX, TX and GND but to be able to solder a pin header in them you need to desolder the battery holder which is probably not worth the trouble since all the pins are accessible on the TYWE3S. 
+
+![Pinouts](https://user-images.githubusercontent.com/5904370/70841120-0a5ae980-1e18-11ea-9818-26450d8a4791.png)
+
+The MCU situated on the left of the broken out pins powers on the Tuya module on reed actuation or on "Reset" bottom button press for a short amount of time sufficient to send opening or closing message.
+
+![Reset Button](https://user-images.githubusercontent.com/5904370/70840693-4be99580-1e14-11ea-84aa-e82510d3dc69.png)
+
+Due to this design it is somewhat difficult to tuya-convert or even configure the device compared to non-battery powered ones. I flashed the device over serial powering the TYWE3S from the USB-to-serial adapter.
+
+## Configuration
+
+**Configuration is easier if you keep the module powered from the USB-to-serial adapter instead of batteries.**
+
+_If you're using battery power you need to prevent the device from going to sleep by actuating the reed switch constantly (approximately every 5 seconds) during the configuration._
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+Switch the device to battery powered sensor mode (fnId 51):
+```console
+TuyaMCU 51,21
+```
+Disable multipress button options to prevent a device reset or Wi-Fi AP config mode, disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and set switchmode to follow instead of toggle
+```console
+Backlog SetOption1 1; SetOption65 1; SetOption66 1; SwitchMode 1
+```
+
+Check with `TuyaMCU` for the following configuration:
+```json
+ {"TuyaMCU":[{"fnId":11,"dpId":1},{"fnId":51,"dpId":21}]}
+```
+
+You can use 
+```console
+SerialSend5 55AA000200010002
+``` 
+shortly after boot to put the device into wifi search mode (rapidly blinking red LED) which will keep it powered on for around 60 seconds.
+
+## Functions
+`dpID 1` reed switch: closed = off / open = on    
+`dpID 3` battery power: 0 = low / 1 = medium / 2 = high
+
+The button labelled reset can wake up the device with a short press or put it into Wi-Fi config mode on long press.
+
+dpID 1 is assigned to Relay1 by default. 
+
+There is no function in Tasmota for enum dpID's currently so we will use a rule to report battery status (high, medium or low) to a custom topic of `stat/door-sensor/BATT` (change it to any other topic suitable for you)
+
+```console
+Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/door-sensor/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010114 DO publish2 stat/door-sensor/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010015 DO publish2 stat/door-sensor/BATT low ENDON
+```
+Don't forget to turn on the rule:
+```console
+Rule1 1
+```
+
+And there it is, relatively small battery and Tasmota powered contact sensor.
+
+_There is a few seconds delay (7s on my network) between reed actuation and first MQTT message so I don't recommmend this in critical spots where a fast response is required._
+
+If the batteries are too weak sensor will be stuck in a bootloop and might spawn an ESP-XXXXX AP. 
+
+<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

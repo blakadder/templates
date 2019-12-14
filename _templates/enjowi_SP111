@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.aliexpress.com/item/32897620233.html?spm=a2g0s.9042311.0.0.27424c4dIwqVi3
 image: https://ae01.alicdn.com/kf/HTB1ZRJ8byzxK1RkSnaVq6xn9VXal.jpg
-template: {"NAME":"Enjowi SP111-E","GPIO":[17,56,0,0,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":55} 
+template: '{"NAME":"Enjowi SP111-E","GPIO":[17,56,0,0,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":55}' 
 link2: 
 ---
 

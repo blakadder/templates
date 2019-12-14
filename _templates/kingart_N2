@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.aliexpress.com/item/32917838577.html?spm=a2g0s.9042311.0.0.27426c37DTB6ob
 image: https://ae01.alicdn.com/kf/HTB1hxsTukUmBKNjSZFOq6yb2XXaC.jpg
-template: {"NAME":"kingart N2","GPIO":[17,255,255,255,255,22,18,255,21,255,255,255,255],"FLAG":15,"BASE":18} 
+template: '{"NAME":"kingart N2","GPIO":[17,255,255,255,255,22,18,255,21,255,255,255,255],"FLAG":15,"BASE":18}' 
 link2: 
 ---
 

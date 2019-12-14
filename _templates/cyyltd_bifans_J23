@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B078H4SNST
 image: https://images-na.ssl-images-amazon.com/images/I/61I%2BXEFBszL._AC_SL1500_.jpg
-template: {"NAME":"CYYLTD BIFANS J23","GPIO":[56,0,0,0,0,0,0,0,21,17,0,0,0],"FLAG":1,"BASE":18}
+template: '{"NAME":"CYYLTD BIFANS J23","GPIO":[56,0,0,0,0,0,0,0,21,17,0,0,0],"FLAG":1,"BASE":18}'
 link2: 
 ---
 

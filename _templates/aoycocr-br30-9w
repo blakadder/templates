@@ -3,7 +3,7 @@ date_added: 2019-12-07
 title: Aoycocr BR30 9W
 link: https://www.amazon.com/gp/product/B07VP2KL7W
 image: https://user-images.githubusercontent.com/5904370/70393348-2e1dca00-19e9-11ea-9e78-3f1133ae1671.png
-template: {"NAME":"AoycocrA19","GPIO":[0,0,0,0,0,39,0,0,38,0,37,40,0],"FLAG":0,"BASE":18}
+template: '{"NAME":"AoycocrA19","GPIO":[0,0,0,0,0,39,0,0,38,0,37,40,0],"FLAG":0,"BASE":18}'
 link2: 
 link3: 
 flash: tuya-convert

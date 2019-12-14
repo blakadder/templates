@@ -6,7 +6,7 @@ type: Power Strip
 standard: eu
 link: https://www.amazon.de/AOFO-Steckdosenleiste-Fernsteuerung-Mehrfachsteckdose-%C3%9Cberspannungsschutz/dp/B07X1H3NWF
 image: https://images-na.ssl-images-amazon.com/images/I/816DuO0a4WL._SL1500_.jpg
-template: {"NAME":"AOFO-4AC-4USB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":1,"BASE":54} 
+template: '{"NAME":"AOFO-4AC-4USB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":1,"BASE":54}' 
 link2: 
 ---
 

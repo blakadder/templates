@@ -6,7 +6,7 @@ type: Relay
 standard: global
 link: https://www.aliexpress.com/item/Smart-Home-WiFi-Wireless-Switch-Module-For-Apple-For-Android-APP-Control-Smart-Switch-Remote-Control/32970656459.html
 image: https://user-images.githubusercontent.com/42893315/52245571-75778d80-28e2-11e9-8b0f-d1fd4d579690.jpg
-template: {"NAME":"Canwing CW-001","GPIO":[17,255,0,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1} 
+template: '{"NAME":"Canwing CW-001","GPIO":[17,255,0,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
 link2: https://www.ebay.de/itm/Smart-Wifi-Schalter-Smart-Home-Switch-Modul-1000W-5A-fur-iOS-Android-APP-Ctrl/264061867388
 ---
 ## General:

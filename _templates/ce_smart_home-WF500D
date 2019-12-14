@@ -6,7 +6,7 @@ type: Dimmer
 standard: us
 link: https://www.amazon.ca/2-Pack-Dimmer-Switch-Compatible-Assistant/dp/B07GQ3H8VK
 image: https://i.ibb.co/nQK6hwD/image-Service.jpg
-template: {"NAME":"CE-WF500D","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}
+template: '{"NAME":"CE-WF500D","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}'
 link2: https://www.cesmarthome.com/WF500D.html
 ---
 Steps needed on Tasmota build v6.6.0.10 or later

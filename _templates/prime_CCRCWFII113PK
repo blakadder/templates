@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.costco.ca/Prime-Indoor-Smart-Wi-Fi-Outlet%2C-3-pack.product.100506631.html
 image: https://images.costco-static.com/ImageDelivery/imageService?profileId=12026539&amp;imageId=1226565-894__1&amp;recipeName=300
-template: {"NAME":"Prime","GPIO":[0,0,0,0,57,56,0,0,21,122,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Prime","GPIO":[0,0,0,0,57,56,0,0,21,122,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 Alternative template:

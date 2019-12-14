@@ -6,7 +6,7 @@ category: bulb
 standard: E26
 link: https://www.amazon.com/Dimmable-Changing-Equivalent-Compatible-Assistant/dp/B07JPXYC5F
 image: https://images-na.ssl-images-amazon.com/images/I/51s0BwyH%2BiL._SL1000_.jpg
-template: {"NAME":"Manzoku RGBW","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Manzoku RGBW","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.ebay.com/p/28027113022
 ---
 

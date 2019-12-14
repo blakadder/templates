@@ -6,7 +6,7 @@ category: bulb
 standard: GU10
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-6w-led-light/2746327
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/sz/6/42800606-1-sz.jpg
-template: {"NAME":"GenioGU10","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}
+template: '{"NAME":"GenioGU10","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}'
 link2: https://mirabellagenio.net.au/wi-fi-led-gu10
 ---
 

@@ -6,7 +6,7 @@ category: bulb
 standard: E27
 link: https://www.amazon.de/Hama-LED-Lampe-gesteuert-Farbwechsel-kompatibel/dp/B0761ZJHF7
 image: https://images-na.ssl-images-amazon.com/images/I/41552SdiWVL._SL1100_.jpg
-template: {"NAME":"Hama Bulb RGBW","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Hama Bulb RGBW","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

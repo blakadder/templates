@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07J2CT8WL
 image: https://user-images.githubusercontent.com/5904370/66717458-967d7000-edd9-11e9-9952-eb163b595bba.png
-template: {"NAME":"ZooZee SE131","GPIO":[255,0,56,0,0,0,0,0,255,17,0,21,0],"FLAG":0,"BASE":17} 
+template: '{"NAME":"ZooZee SE131","GPIO":[255,0,56,0,0,0,0,0,255,17,0,21,0],"FLAG":0,"BASE":17}' 
 link2: 
 ---
 

@@ -6,7 +6,7 @@ type: Bulb Socket
 standard: us
 link: https://www.amazon.com/gp/product/B07Q9Z5R5R
 image: https://images-na.ssl-images-amazon.com/images/I/61Mf6y84RxL._SL1500_.jpg
-template: {"NAME":"Sm Lghtg Base","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Sm Lghtg Base","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

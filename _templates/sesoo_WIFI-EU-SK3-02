@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.aliexpress.com/item/32896267121.html
 image: https://i.imgur.com/X5XuEt2.png
-template: {"NAME":"Sesoo SK3-02","GPIO":[0,0,57,0,22,0,0,0,17,21,18,0,52],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Sesoo SK3-02","GPIO":[0,0,57,0,22,0,0,0,17,21,18,0,52],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.alibaba.com/product-detail/Hot-selling-google-home-CE-ROHS_60806392125.html
 image: https://user-images.githubusercontent.com/5904370/63218096-702db200-c153-11e9-99b5-3fb240286543.png
-template: {"NAME":"NX-SM200","GPIO":[56,0,0,0,0,134,0,0,21,17,132,57,131],"FLAG":0,"BASE":18} 
+template: '{"NAME":"NX-SM200","GPIO":[56,0,0,0,0,134,0,0,21,17,132,57,131],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/gp/product/B07FJLJ5DY
 ---
 

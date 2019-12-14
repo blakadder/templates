@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07PMQKH2X
 image: https://images-na.ssl-images-amazon.com/images/I/61WY7viI5eL._AC_SL1500_.jpg
-template: {"NAME":"AWP08L-Annopsy","GPIO":[0,0,0,0,17,56,0,0,21,0,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"AWP08L-Annopsy","GPIO":[0,0,0,0,17,56,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

@@ -6,7 +6,7 @@ category: bulb
 standard: E26
 link: https://www.amazon.ca/Multicolor-Compatible-Required-Equivalent-Changing/dp/B07SJBM59B
 image: https://images-na.ssl-images-amazon.com/images/I/31OJkWzCLRL._AC_SY400_.jpg
-template: {"NAME":"KULED 60W RGB","GPIO":[0,0,0,0,39,40,0,0,37,0,38,0,0],"FLAG":1,"BASE":18} 
+template: '{"NAME":"KULED 60W RGB","GPIO":[0,0,0,0,39,40,0,0,37,0,38,0,0],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 

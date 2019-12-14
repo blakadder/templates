@@ -6,7 +6,7 @@ category: bulb
 standard: E26
 link: https://www.menards.com/main/electrical/alarms-security-systems/security-accessories/feit-electric-reg-60w-equivalent-a19-soft-white-alexa-google-smart-wifi-led-bulb/pa80027kag/p-1531290477173.htm
 image: https://user-images.githubusercontent.com/5904370/66718533-43111f00-ede5-11e9-8cb4-52b2f0c64263.png
-template: {"NAME":" Feit P_A800_2","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":" Feit P_A800_2","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.feit.com/products/bulbs/800-lumen-2700k-smart-wifi-bulb/
 ---
 

@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/Plug-JACKYLED-Control-Compatible-Schedule-Portable/dp/B07DCN4C1M/
 image: https://images-na.ssl-images-amazon.com/images/I/61q17rfS1tL._AC_SL1500_.jpg
-template: {"NAME":"FK-PW901U","GPIO":[56,255,255,255,255,23,0,0,21,17,24,22,255],"FLAG":0,"BASE":18} 
+template: '{"NAME":"FK-PW901U","GPIO":[56,255,255,255,255,23,0,0,21,17,24,22,255],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/Smart-Power-Outlets-Charging-Ports/dp/B07GNS6XF6
 ---
 

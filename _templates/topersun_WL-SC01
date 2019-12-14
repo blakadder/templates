@@ -6,7 +6,7 @@ type: Plug
 standard: au
 link: https://www.amazon.com.au/TOPERSUN-Electrical-Anywhere-Function-Compatible/dp/B07FM62NGS
 image: https://user-images.githubusercontent.com/5904370/70092966-bbdf6b00-161f-11ea-8dab-1406243751fe.png
-template: {"NAME":"Topersun ","GPIO":[0,0,0,0,52,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18} 
+template: '{"NAME":"Topersun ","GPIO":[0,0,0,0,52,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

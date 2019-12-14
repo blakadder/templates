@@ -6,7 +6,7 @@ type: Switch
 standard: us
 link: https://www.amazon.com/gp/product/B078M4WHPP/
 image: https://images-na.ssl-images-amazon.com/images/I/71uXPWR7GnL._SL1500_.jpg
-template: {"NAME":"KYGNE Touch","GPIO":[0,0,0,0,52,53,0,0,21,17,0,0,0],"FLAG":0,"BASE":10} 
+template: '{"NAME":"KYGNE Touch","GPIO":[0,0,0,0,52,53,0,0,21,17,0,0,0],"FLAG":0,"BASE":10}' 
 link2: 
 ---
 

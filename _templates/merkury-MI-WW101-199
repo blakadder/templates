@@ -3,7 +3,7 @@ date_added: 2019-12-07
 title: Merkury MI-WW101-199
 link: https://www.nordstromrack.com/shop/product/2220706/merkury-innovations-round-smart-control-wi-fi-plug?color=WHITE
 image: https://www.hautelookcdn.com/products/MI-WW101-199/large/7466709.jpg
-template: {"NAME":"merkury WW101","GPIO":[0,0,0,0,0,0,0,0,56,90,0,21,0],"FLAG":0,"BASE":18}
+template: '{"NAME":"merkury WW101","GPIO":[0,0,0,0,0,0,0,0,56,90,0,21,0],"FLAG":0,"BASE":18}'
 link2: 
 link3: 
 flash: tuya-convert
