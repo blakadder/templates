@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-15
+title: SANA SW02-02
+link: https://www.amazon.com/dp/B07QC5ZCHP
+image: https://images-na.ssl-images-amazon.com/images/I/51hgyD7gBCL._SL1500_.jpg
+template: '{"NAME":"SW02-02","GPIO":[31,255,255,18,22,0,0,0,17,21,255,0,255],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+Same things as noted by SANA SW02-03 template author: GPIO0 Not exposed (used for LED) makes reset difficult if it is ever needed. Tuya-Convert compatible as of this writing.
