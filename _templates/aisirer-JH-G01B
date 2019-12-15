@@ -6,7 +6,7 @@ type: Plug
 standard: uk
 link: https://www.amazon.co.uk/AISIRER-Control-Compatible-British-Standards/dp/B07Y53MBGN/
 image: https://images-na.ssl-images-amazon.com/images/I/51q6upbpWVL._SY355_.jpg
-template: '{"NAME":"AISIRER","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"AISIRER","GPIO":[0,0,0,0,21,0,0,0,56,17,0,0,0],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 
