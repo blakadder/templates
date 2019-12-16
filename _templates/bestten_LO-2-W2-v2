@@ -1,0 +1,17 @@
+---
+date_added: 2019-12-15
+title: Bestten LO-2-W v2
+link: https://www.amazon.com/gp/product/B07QPZDW28
+image: https://m.media-amazon.com/images/S/aplus-media/sc/cdce289e-01b4-44ea-8c19-c99783eeb96a.__CR0,0,600,800_PT0_SX300_V1___.jpg
+template: '{"NAME":"BESTTEN LO-2-W","GPIO":[0,0,0,0,158,17,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.ca/gp/product/B07QPZDW28
+link3: 
+flash: tuya-convert
+category: misc
+type: Wall Outlet
+standard: us
+---
+From newly received units ordered on amazon.ca.
+- Button was not on the same GPIO as in the previous entry in the database.
+- GPIO13 had not effect on led. The led seems to toggle with relay whatever the config.
+- Changed GPIO4 to LedLinki (personal preference)
