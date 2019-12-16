@@ -11,8 +11,9 @@ category: plug
 type: Plug
 standard: uk
 ---
+The U3S appears to be a clone of the BlitzWolf SHP2.
 
-
+Units ordered from amazon.co.uk on 10th Decemeber 2019 wouldn't flash OTA, but worked fine with esptool. 
 
 
 
