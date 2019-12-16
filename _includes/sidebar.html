@@ -3,11 +3,11 @@
 		<img src="{{ "/assets/images/menu.svg" | relative_url }}" class="menu-icon" id="menu" />
 		<img src="{{ "/assets/images/close.svg" | relative_url }}" class="close-icon" id="close" />
 	</div>
+		<a href="{{ "index.html" | relative_url }}"><img src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo"></a>
 	{% include search.html %}
 	<div class="sidebar-main">
-		<a href="{{ "index.html" | relative_url }}"><img src="{{ "/assets/images/logo.svg" | relative_url }}" alt="Logo"></a>
-		{% include search-results.html %}
 		{% include nav.html %}
+		{% include search-results.html %}
 		{% include footer.html %}
 	</div>
 </sidebar>

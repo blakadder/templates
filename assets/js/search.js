@@ -14,6 +14,7 @@
 			self.field('id');
 			self.field('title', { boost: 10 });
 			self.field('category');
+			self.field('type');
 			self.field('content');
 
 			Object.keys(data).forEach(function (key) {
