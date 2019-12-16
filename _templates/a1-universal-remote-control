@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-16
+title: A1 Universal Remote Control
+link: https://www.aliexpress.com/item/32988878591.html
+image: https://ae01.alicdn.com/kf/HLB1KjWwXe3tHKVjSZSgq6x4QFXak/Universal-Wifi-Smart-Fernbedienung-IR-Unterst-tzung-Stimme-F-r-Alexa-IFTTT-Google.jpg
+template: '{"NAME":"A1 IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: misc
+type: IR Bridge
+standard: global
+---
+Use tasmota-ir.bin build for complete IR support
