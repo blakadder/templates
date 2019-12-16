@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-16
+title: Connex CC-P1000
+link: https://www.makro.co.za/home-garden/lighting/home-automation/smart-electrical/connex-smart-wi-fi-3-pin-sa-plug-/p/000000000000385164_EA
+image: https://connexconnect.com/wp-content/uploads/2019/08/CC-P1000.jpg
+template: '{"NAME":"Connex Smart T","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: https://connexconnect.com/product/smart-wi-fi-3-pin-wall-plug/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: za
+---
