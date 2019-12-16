@@ -7,7 +7,7 @@ template: '{"NAME":"BESTTEN LO-2-W","GPIO":[0,0,0,0,158,17,0,0,21,0,0,0,0],"FLAG
 link2: https://www.amazon.ca/gp/product/B07QPZDW28
 link3: 
 flash: tuya-convert
-category: misc
+category: plug
 type: Wall Outlet
 standard: us
 ---
