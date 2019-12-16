@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-15
+title: HiHome WPP-10S2
+link: http://proshop.dk
+image: https://www.proshop.dk/Images/915x900/2780185_612c07ad92b5.png
+template: '{"NAME":"HiHome WPP-10S","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+link2: 
+link3: https://www.hihome.eu/en/wpp-10s2.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
