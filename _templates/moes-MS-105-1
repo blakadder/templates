@@ -5,11 +5,14 @@ category: switch
 type: Dimmer
 standard: global
 link: https://www.banggood.com/MoesHouse-DIY-Smart-WiFi-Light-LED-Dimmer-Switch-Smart-LifeTuya-APP-Remote-Control-12-Way-Switch-Works-With-Alexa-Echo-Google-Home-p-1509161.html
-image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/2_8400a6e8-aa85-4d9d-9d3e-cc2cbe65f4dd_1800x1800.jpg
+image: https://ae01.alicdn.com/kf/H56bb65d6253245a997d9450b5b8674edf/DIY-Smart-WiFi-Light-LED-Dimmer-Switch-Smart-Life-Tuya-APP-Remote-Control-1-2-Way.jpg
 template: '{"NAME":"Moes MS-105-1","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 link3: 
 ---
 
-Identical template and setup to [QS-WIFI-D01 Dimmer](qs-wifi_D01_dimmer.html)
+Identical template and tyua-convert setup to [QS-WIFI-D01 Dimmer](qs-wifi_D01_dimmer.html)
 
+This module contains TYWE2S on a daughter-board, to reach GPIO0 you need to desolder this daughterboard from the bottom of the main pcb
+
+my photos are here https://imgur.com/a/mqMo4nd (please upload them here as I was unable to see how)
