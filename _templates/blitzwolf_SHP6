@@ -1,16 +1,19 @@
 ---
+date_added: 2019-12-17
 title: Blitzwolf BW-SHP6 10A
 category: plug
 type: Plug
 standard: eu
 link: https://www.banggood.com/BlitzWolf-BW-SHP6-10A-EU-Plug-Metering-Version-WIFI-Smart-Socket-220V-240V-Work-with-Amazon-Alexa-p-1356981.html
 image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201810/1539338194_26.jpg
-template: '{"NAME":"BW-SHP6 10A","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+template: '{"NAME":"BW-SHP6 10A","GPIO":[158,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
 link2: https://www.aliexpress.com/item/32933098972.html
 link3: https://www.blitzwolf.com/2300W-EU-WIFI-Smart-Socket-p-300.html
 flash: tuya-convert
 ---
-This template is tested only for the 10A version of SHP6!
+This template is tested only for the 10A version of BW-SHP6!
+
+If you prefer the red LED to represent "Power ON", swap Led1i and LedLinki in the ***Configure Template*** page.
 
 ### Serial Flash Instructions
 Complete guide on [Tasmota Wiki](https://tasmota.github.io/docs/#/devices/BlitzWolf-SHP6)
