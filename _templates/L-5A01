@@ -17,10 +17,12 @@ Originally runs eWeLink software so it has to be flashed over serial. Plastic ca
 
 A lot of GPIOs are broken out at the bottom of the module but only some are soldered to the main PCB. TX and RX have no solder applied!
 
-The pinout:
+### Pinout
 ![Pinout](https://user-images.githubusercontent.com/5904370/71041792-3af99680-212a-11ea-9ace-228ebe31bc2b.png)
 
-The procedure:
+### Flashing Procedure
 ![Flashing Setup](https://user-images.githubusercontent.com/5904370/71041969-c6732780-212a-11ea-905b-385311678814.png)
 
 Flashing procedure is typical for this kind of devices. Keep the button pressed while connecting to your USB-to-serial adapter. Flash latest tasmota.bin using [Tasmotizer!](https://github.com/tasmota/tasmotizer/releases).
+
+<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>
