@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-17
+title: Ener-J SHA5262 800lm
+image: https://www.ener-j.co.uk/assets/img/product/SHA5262_1.jpg
+template: '{"NAME":"ENER-J RGBWWW ","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: https://www.ener-j.co.uk/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: b22
+---
+5 PWM channels, similar to Solimo 12 RGBWW, just with different GPIO assignments
