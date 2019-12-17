@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-18
+title: Hama 806lm
+link: https://www.amazon.de/Hama-00176547-10-E27-LED-Multi-10-kWh/dp/B07FR4ZYCD
+image: https://images-na.ssl-images-amazon.com/images/I/41552SdiWVL._SL1100_.jpg
+template: '{"NAME":"hama_rgb","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.co.uk/Hama-00176547-10-E27-LED-Multi-10-kWh/dp/B07FR4ZYCD
+link3: hama.com/00176547/hama-wifi-led-light-e27-10w-rgb-can-be-dimmed?srcLang=0&targetLang=1
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
+Product ID: 00176547
