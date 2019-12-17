@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-17
+title: RenPho RF-SM004
+link: https://www.amazon.com/RENPHO-Compatible-Assistant-Function-Wireless/dp/B079ZPXYJ1
+image: https://images-na.ssl-images-amazon.com/images/I/61hzlTb2g7L._SL1500_.jpg
+template: '{"NAME":"RenPho RFSM004","GPIO":[0,0,0,0,157,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+RenPho RF-SM004 SmartPlug Dual Color Status
