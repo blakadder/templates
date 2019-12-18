@@ -1,0 +1,252 @@
+---
+date_added: 2019-12-21
+title: Teekar UIW001-1
+link: https://www.aliexpress.com/item/33041711803.html
+image: https://user-images.githubusercontent.com/5904370/71116369-5620e080-21d4-11ea-8301-ce46e2822747.png
+template: {"NAME":"Teekar UIW001-","GPIO":[0,149,37,148,6,5,0,0,9,0,0,0,0],"FLAG":0,"BASE":18}
+link2: https://www.amazon.com/gp/product/B07KB63CYN/
+link3: https://www.teekar.de/products/teekar-smart-dimmer-switch
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: eu
+---
+This device requires Tasmota with [Scripting](https://tasmota.github.io/docs/#/Scripting-Language) support. You will need to [compile your own build](https://tasmota.github.io/docs/#/compile-your-build) or download an older precompiled binary of [**Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip**](https://github.com/arendst/Tasmota/files/3776333/Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip)
+
+<img src="https://user-images.githubusercontent.com/5904370/71117345-430f1000-21d6-11ea-8dd0-c5327accf2e9.png" style="width:20em">
+
+#### Description
+This is one of the rare EU style light dimmers that have a physical power button and a capacitive touch dimming slider with an 8 segment LED display for dimmer value. 
+
+Dimmer arrived with a filament LED bulb (regular, non-smart kind) in a cardboard box with german and english instructions and practical wire labels which is a very nice touch.
+
+<img src="https://user-images.githubusercontent.com/5904370/71122901-dbf75880-21e1-11ea-8279-dae93f33aba8.png" style="width:50%"><img src="https://user-images.githubusercontent.com/5904370/71128943-ad33af00-21ee-11ea-9f2b-f77286e4824e.png" style="width:50%">
+
+The dimmer circuit is mosfet based with a secondary MCU ([STM8S003F3](https://www.st.com/en/microcontrollers-microprocessors/stm8s003f3.html)) responsible for dimming. With Tuya firmware and Tasmota the dimming on lower values (below 30%) using the provided bulb produced a lot of flicker. When I switched to a classic incandescent bulb the flicker was completely gone.
+
+Main dimmer PCB is labelled FL-D1-V1.3, module board is FL-W2SA-V2.0 with an ESP8266. There is a third board labelled TOUCH-V3.2, connected to the main PCB with a labelled cable. It contains the 8 LEDs controlled by a [TI HC164 shift register](http://www.ti.com/product/SN54HC164) and 8 touch pads controlled by an I<sup>2</sup>C IC labelled HLS028. Sadly there's no information on the internet indicating which chip is that. All that's known is that its a TSSOP20 format and its I<sup>2</sup>C address is 0x56. I've tried getting some information from Teekar directly but they refused to divulge any.
+
+<img src="https://user-images.githubusercontent.com/5904370/71129484-d99bfb00-21ef-11ea-8504-999e6d006b31.png" style="width:50%"><img src="https://user-images.githubusercontent.com/5904370/71129623-25e73b00-21f0-11ea-934a-0d03d1f6e491.png" style="width:50%"><img src="https://user-images.githubusercontent.com/5904370/71129768-765e9880-21f0-11ea-9f81-9e24e028e7aa.png" style="width:50%">
+
+
+#### Features
+Communication between ESP and the STM8 MCU is one way only and uses a non-standard protocol. 
+
+Serial command `65AA000105000000000015` turns the light off while command `65AA0001050000000xx0yy` turns it on to the dimmer value. Here `xx` is dimmer value in the range of 66 to 178 and `yy` is checksum calculated with "sum of bytes modulo 256".
+
+8 segment LED shows dimmer status.
+
+#### The Bad News
+Since the capacitive touch pad chip is unknown, there's no way to use the dimmer slider for physical control in Tasmota.Hopefully someone can sniff out the protocol with proper gear and we can put the touch pad to use in the future.
+
+Front plate switch is constantly lit with LEDs which aren't connected to GPIOs and cannot be turned off in Tasmota. 
+
+That huge front logo is completely unnecessary and, unfortunately, destroys the very nice aesthetic. It is silkscreened very well and couldn't be removed with mild solvents.
+
+#### Pinouts
+<img src="https://user-images.githubusercontent.com/5904370/71122451-ea914000-21e0-11ea-82e8-17e2943cac3d.png" style="width:20em">
+
+
+JST | ESP8266 | 
+---|---| ---
+SDA | GPIO4 | HLS028 SDA
+SCL | GPIO5 | HLS028 SCL
+GND | GND |
+3V3 | VCC |
+LEDS | GPIO14 | A and B on HCL164
+CLK | GPI015 | CLK on HCL164
+
+Front plate switch is connected to GPIO12.
+
+#### Configuration
+Tuya-Convert is the more convenient option for iinstalling Tasmota but it is possible to flash over serial. Use the following pinout and ground the GPIO0 directly on the ESP8266 pin which is quite hard to reach.
+
+Apply the template and issue:
+```console
+Backlog SwitchMode3; PowerRetain 1
+```
+
+Open **Configuration -> Edit script** in the web UI and paste the contents of the script in the window. Check **script enable** and **Save**.
+
+Script:
+```lua
+;by blakadder
+;inspired by thxthx0 QS-WiFi-D01 dimmer script
+
+>D 30
+p:dimval=70 ;starting value if none is saved
+tmp=0
+powert=0
+slider=0
+dim=""
+dimc=
+tmin=66   ;dim min
+tmax=178  ;dim max
+
+>B
+; open pins for shift register
+spinm(14 1)
+spinm(13 1)
+=>print Teekar-Dimmer-Script-v0.5
+=>Baudrate 9600
+if pwr[1]==1
+then
+powert=1
+else
+powert=0
+endif
+
+>E
+slider=Dimmer
+if chg[slider]>0
+then
+if slider>0
+then
+dimval=slider
+else
+powert=0
+endif
+endif
+
+if pwr[1]==1
+; on/off webui
+then
+powert=1
+=#senddim(dimval)
+else
+powert=0
+=#senddim(0)
+=#0
+endif
+
+;dim subroutine
+#senddim(tmp)
+dimc=((tmp-1)/99)*(tmax-tmin)+tmin
+dim="65AA000105000000"+hn(dimc)+"00"+hn((277+dimc)%256)
+if tmp==0
+then =>SerialSend5 65AA000105000000000015
+else =>SerialSend5 %dim%
+endif
+=> Dimmer %tmp%
+svars ;saves dimval to flash
+;control LED slider
+if tmp>0
+then =#1
+endif
+if tmp>14
+then =#2
+endif
+if tmp>28
+then =#3
+endif
+if tmp>42
+then =#4
+endif
+if tmp>56
+then =#5
+endif
+if tmp>70
+then =#6
+endif
+if tmp>84
+then =#7
+endif
+if tmp>98
+then =#8
+endif
+#
+
+;led slider subroutines
+#c
+spin(13 0)
+spin(13 1)
+#
+#c4
+=#c
+=#c
+=#c
+=#c
+#
+#dh
+spin(14 1)
+#
+#dl
+spin(14 0)
+#
+#0
+=#dh
+=#c4
+=#c4
+#
+#1
+=#dh
+=#c4
+=#c
+=#c
+=#c
+=#dl
+=#c
+#
+#2
+=#dh
+=#c4
+=#c
+=#c
+=#dl
+=#c
+=#c
+#
+#3
+=#dh
+=#c
+=#c4
+=#dl
+=#c
+=#c
+=#c
+#
+#4
+=#dh
+=#c4
+=#dl
+=#c4
+#
+#5
+=#dl
+=#c
+=#dh
+=#c
+=#c
+=#c
+=#dl
+=#c4
+#
+#6
+=#dl
+=#c
+=#c
+=#dh
+=#c
+=#c
+=#dl
+=#c4
+#
+#7
+=#dl
+=#c
+=#c
+=#c
+=#dh
+=#c
+=#dl
+=#c4
+#
+#
+#8
+=#dl
+=#c4
+=#c4
+#
+```
+
+<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

@@ -1,0 +1,19 @@
+---
+date_added: 2019-12-18
+title: Deltaco SH-P03USB
+link: https://www.inet.se/produkt/3301125/deltaco-grenuttag-wifi-3xcee-2xusb-a?utm_source=prisjakt&utm_medium=cpc&utm_campaign=prisjakt
+image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-P03USB.png?width=260
+template: '{"NAME":"Deltaco SH-P03","GPIO":[0,56,0,0,0,21,0,0,23,17,22,24,0],"FLAG":1,"BASE":18}' 
+link2: https://www.webhallen.com/se/product/309653-Deltaco-WiFi-Smart-grenuttag-5x-zoner-3-Shucko-2x-USB-13A?ref=Prisjakt
+link3: https://www.deltaco.se/produkter/deltaco/smart-home/grenuttag/SH-P03USB
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: eu
+---
+Button controls single relay only. 
+
+If you want to control ALL 3 relays use:  
+```console 
+rule on Power1#boot do var1 %value% endon on Power1#state do var1 %value% endon on button1#state do event change=%var1% endon on event#change==0 do backlog POWER1 1; POWER2 1; POWER3 1; POWER4 1 endon on event#change==1 do backlog POWER1 0; POWER2 0; POWER3 0; POWER4 0 endon 
+```
