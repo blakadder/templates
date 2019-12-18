@@ -4,7 +4,7 @@ title: Maxcio YX-L01P-E27-2P 9W
 type: RGBW
 category: bulb
 standard: e27
-link: https://www.amazon.es/dp/B07F65LTZ4
+link: https://www.amazon.de/dp/B07F65LTZ4
 image: https://images-na.ssl-images-amazon.com/images/I/51pUHqO1UbL._SL1500_.jpg
 template: '{"NAME":"Maxcio YXL01P","GPIO":[17,0,0,0,143,144,0,0,0,0,0,0,0],"FLAG":0,"BASE":27}' 
 link2: https://www.amazon.it/Generazione%E3%80%91Lampadina-Maxcio-Temporizzazione-Intelligente-Compatibile/dp/B0788JRR45

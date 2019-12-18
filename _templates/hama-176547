@@ -1,6 +1,6 @@
 ---
 date_added: 2019-12-18
-title: Hama 806lm
+title: Hama 176547 806lm
 link: https://www.amazon.de/Hama-00176547-10-E27-LED-Multi-10-kWh/dp/B07FR4ZYCD
 image: https://images-na.ssl-images-amazon.com/images/I/41552SdiWVL._SL1100_.jpg
 template: '{"NAME":"hama_rgb","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 

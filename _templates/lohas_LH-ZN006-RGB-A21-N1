@@ -1,13 +1,13 @@
 ---
 date_added: 2019-11-28
-title: Lohas LH-ZN006 14W  
+title: Lohas LH-ZN006 1380lm  
 type: RGBW
 category: bulb
 standard: e26
-link: https://www.lohas-led.com/lohas-smart-led-bulb-a21-e26-100w-equivalent-14w-rgb-cool-white-dimmable-wifi-app-controlled-alexa-google-assistant-compatible-p0230-p0230.html
+link3: https://www.lohas-led.com/lohas-smart-led-bulb-a21-e26-100w-equivalent-14w-rgb-cool-white-dimmable-wifi-app-controlled-alexa-google-assistant-compatible-p0230-p0230.html
 image: https://user-images.githubusercontent.com/3240875/69815867-3d20a300-11c5-11ea-8bcc-cd209e0b6aff.png
 template: '{"NAME":"Lohas100 RGBW","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":18}' 
-link2: https://www.amazon.com/LOHAS-LED-Equivalent-Brightness-Compatible/dp/B07P6M2FT3
+link: https://www.amazon.com/LOHAS-LED-Equivalent-Brightness-Compatible/dp/B07P6M2FT3
 ---
 Manufacturer reference: LH-ZN006-RGB-A21-N1
 

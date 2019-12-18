@@ -1,6 +1,6 @@
 ---
 date_added: 2019-12-12
-title: Kogan Ambient Spotlight 4.5W
+title: Kogan Ambient Spotlight 330lm
 link: https://www.kogan.com/au/buy/kogan-smarterhome-ambient-rgbw-smart-led-spotlight-gu10/
 image: https://user-images.githubusercontent.com/5904370/70696352-cfe03800-1cc3-11ea-982e-1c984c17ab18.png
 template: '{"NAME":"Kogan_GU10","GPIO":[0,0,0,0,39,40,0,0,37,0,38,0,0],"FLAG":0,"BASE":18}'

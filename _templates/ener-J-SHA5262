@@ -1,10 +1,11 @@
 ---
 date_added: 2019-12-17
 title: Ener-J SHA5262 800lm
+link: https://cpc.farnell.com/ener-j/sha5262/wifi-smart-a60-bulbs-rgb-w-ww/dp/LA07857
 image: https://www.ener-j.co.uk/assets/img/product/SHA5262_1.jpg
 template: '{"NAME":"ENER-J RGBWWW ","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.ener-j.co.uk/
+link3: https://www.ener-j.co.uk/products/view/independent-wifi-iot-solutions/smart-wifi-colour-changing-led-bulb-9w/99157
 flash: tuya-convert
 category: bulb
 type: RGBCCT
