@@ -11,11 +11,14 @@ category: misc
 type: Sensor
 standard: global
 ---
-<!-- Please read [TuyaMCU](https://tasmota.github.io/docs/#/TuyaMCU) article to understand the terminology and configuration process. -->
+
+Found listed also as MC400A under various brand names.
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/#/TuyaMCU) article to understand the terminology and configuration process.
 
 This is a Tuya/Smart Life battery powered contact (door or window) sensor. Runs on two AAA batteries (not supplied with the device).
 
-Identified with MCU Product ID: `{"p":"hx5ztlztij4yxxvg","v":"1.0.0"}` which is also printed on the TYWE3S module.
+Identified with MCU Product ID: `{"p":"hx5ztlztij4yxxvg","v":"1.0.0"}` which is also printed on the TYWE3S module. 
 
 ![Packaging](https://user-images.githubusercontent.com/5904370/70840831-725c0080-1e15-11ea-8db8-dbc7f5957cca.png)
 ![image](https://user-images.githubusercontent.com/5904370/70840996-f793e500-1e16-11ea-8c36-f2061b36ef7c.png)
