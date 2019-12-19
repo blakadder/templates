@@ -7,7 +7,7 @@ standard: global
 link: https://www.amazon.de/gp/product/B07DXZNR22/
 image: https://images-na.ssl-images-amazon.com/images/I/51%2B-0MR-ltL._SL1001_.jpg
 template: '{"NAME":"YSR111A6N-FBM","GPIO":[0,255,0,255,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link2: https://www.amazon.fr/Interrupteur-T%C3%A9l%C3%A9commande-commutation-Minuteries-Compatible/dp/B07DYFGW4N
 ---
 
 
