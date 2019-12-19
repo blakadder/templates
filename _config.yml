@@ -1,7 +1,7 @@
 title: Tasmota Device Templates Repository
 description: Database of templates for devices supported in Tasmota
-url: "https://blakadder.github.io"
-baseurl: "/templates"
+url: "//templates.blakadder.com"
+#baseurl: "/templates"
 
 # Build settings
 markdown: kramdown
