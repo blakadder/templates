@@ -4,18 +4,14 @@ title: Shelly 1PM
 category: switch
 type: Relay
 standard: global
-link: https://shelly.cloud/shelly-1pm-wifi-smart-relay-home-automation/
+link3: https://shelly.cloud/shelly-1pm-wifi-smart-relay-home-automation/
 image: https://user-images.githubusercontent.com/4916781/57010210-abad7a80-6c4f-11e9-93ae-73b45697a214.jpg
 template: '{"NAME":"Shelly 1PM","GPIO":[56,0,0,0,82,134,0,0,0,0,0,21,0],"FLAG":2,"BASE":18}' 
-link2: 
+link: https://www.amazon.de/dp/B07QB2JBZC/ 
+link2: https://www.amazon.com/Shelly-Wireless-Automation-Android-Application/dp/B07RTH1D9M 
 ---
 
-MThe Shelly 1PM is supported from Tasmota 6.5.0.10 using a template.
-
-* [Allterco Shelly 1PM Product Page](https://shelly.cloud/shelly-1pm-wifi-smart-relay-home-automation/)
-* [Allterco Shelly 1PM Shop](https://shelly.cloud/product/wifi-smart-home-automation-shelly-1pm-switch-relay/)
-
-## ⚠️️Special Shelly Attention⚠️️
+## ⚠️️ Special Shelly Attention ⚠️️
 
 **Do not connect AC power and the serial connection at the same time** 
 The GND connection of the Shelly has a 50% chance of being connected to the live AC wire. Connecting serial with your PC will fry your PC.
