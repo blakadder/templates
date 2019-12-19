@@ -7,7 +7,8 @@ standard: eu
 link: https://shelly.cloud/wifi-smart-shelly-rgbw-2/
 image: https://shelly.cloud/wp-content/uploads/2018/11/RGBWv2_top.jpg
 template: '{"NAME":"RGBW2","GPIO":[255,255,33,255,24,91,0,0,21,17,23,22,255],"FLAG":0,"BASE":18}' 
-link2: 
+link: https://www.amazon.de/dp/B07N49TXLQ/
+link2: https://www.amazon.com/Shelly-Controller-Wireless-Automation-Schedule/dp/B07N49TXLQ 
 ---
 
 
