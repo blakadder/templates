@@ -4,7 +4,7 @@ title: Teekar UIW001-1
 link: https://www.aliexpress.com/item/33041711803.html
 image: https://user-images.githubusercontent.com/5904370/71116369-5620e080-21d4-11ea-8301-ce46e2822747.png
 template: '{"NAME":"Teekar UIW001-","GPIO":[0,149,37,148,6,5,0,0,9,0,0,0,0],"FLAG":0,"BASE":18}'
-link2: https://www.amazon.com/gp/product/B07KB63CYN/
+link2: https://www.amazon.de/dp/B07PQKHQ19/
 link3: https://www.teekar.de/products/teekar-smart-dimmer-switch
 flash: tuya-convert
 category: switch
@@ -45,7 +45,7 @@ Front plate switch is constantly lit with LEDs which aren't connected to GPIOs a
 That huge front logo is completely unnecessary and, unfortunately, destroys the very nice aesthetic. It is silkscreened very well and couldn't be removed with mild solvents.
 
 #### Pinouts
-<a href="https://user-images.githubusercontent.com/5904370/71122451-ea914000-21e0-11ea-82e8-17e2943cac3d.png"><img src="https://user-images.githubusercontent.com/5904370/71122451-ea914000-21e0-11ea-82e8-17e2943cac3d.png" style="width:20em"></a>
+<a href="https://user-images.githubusercontent.com/5904370/71122451-ea914000-21e0-11ea-82e8-17e2943cac3d.png" target="_blank"><img src="https://user-images.githubusercontent.com/5904370/71122451-ea914000-21e0-11ea-82e8-17e2943cac3d.png" style="width:20em"></a>
 
 
 JST | ESP8266 | 
