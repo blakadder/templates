@@ -10,7 +10,7 @@ template: '{"NAME":"Woox R4028","GPIO":[0,56,0,17,23,22,0,0,0,24,21,0,0],"FLAG":
 link2: 
 ---
 
-Seems to be identical to: https://blakadder.github.io/templates/geekbes_4socket.html
+Seems to be identical to: geekbes_4socket.html
 
 Button controls single relay only. Rule to emulate original button behaviour (make sure to have all relays set to off before adding the rule,  from then on it should work correctly across restarts):
 ```

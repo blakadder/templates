@@ -62,7 +62,7 @@ Attach the GPIO0 wire to ground during initial boot to flash.  A 3-pin header br
 Product Links:
 
 - [Oittm](https://www.amazon.com/gp/product/B07D127YL5)
-- [Moes DS01](https://www.amazon.com/gp/product/B07DRG19S6) ([Template](https://blakadder.github.io/templates/moes_DS01.html))
+- [Moes DS01](https://www.amazon.com/gp/product/B07DRG19S6) ([Template](moes_DS01.html))
 - [Konesky](https://www.amazon.fr/gp/product/B07L3LNVG1/)
 - [Heygo](https://www.amazon.com/gp/product/B07JG6T1G8/)
 

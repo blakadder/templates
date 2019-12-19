@@ -26,6 +26,10 @@ layout: default
     {{ link | append: "?tag=blakaddertemp-20" }}
   {% elsif link contains "amazon.ca" %}
     {{ link | append: "?tag=tasmotatemp03-20" }}
+  {% elsif link contains "amazon.fr" %}
+    {{ link | append: "?tag=blakaddertemp-21" }}
+  {% elsif link contains "amazon.es" %}
+    {{ link | append: "?tag=blakadderte02-21" }}
  {% else %}
     {{ link }}
   {% endif %}
@@ -45,6 +49,10 @@ layout: default
     {{ link | append: "?tag=blakaddertemp-20" }}
   {% elsif link contains "amazon.ca" %}
     {{ link | append: "?tag=tasmotatemp03-20" }}
+  {% elsif link contains "amazon.fr" %}
+    {{ link | append: "?tag=blakaddertemp-21" }}
+  {% elsif link contains "amazon.es" %}
+    {{ link | append: "?tag=blakadderte02-21" }}
   {% else %}
     {{ link }}
   {% endif %}

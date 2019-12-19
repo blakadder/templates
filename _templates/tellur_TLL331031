@@ -10,7 +10,7 @@ template: '{"NAME":"Tellur","GPIO":[0,56,0,17,22,21,0,0,0,23,24,0,0],"FLAG":1,"B
 link2: https://www.tellur.com/product/wifi-power-strip-3-outlets-4usb-4a-2200w-10a-1-8m/#prettyPhoto
 ---
 
-Identical in appearance and template to [https://blakadder.github.io/templates/aofo_3AC4USB.html](https://blakadder.github.io/templates/aofo_3AC4USB.html) and [https://blakadder.github.io/templates/nedis_WIFIP310FWT.html](https://blakadder.github.io/templates/nedis_WIFIP310FWT.htm)
+Identical in appearance and template to [aofo_3AC4USB.html](aofo_3AC4USB.html) and [nedis_WIFIP310FWT.html](nedis_WIFIP310FWT.htm)
 
 Flashed using kueblc's enhance-api branch according to [https://github.com/ct-Open-Source/tuya-convert/issues/201](https://github.com/ct-Open-Source/tuya-convert/issues/201)
 

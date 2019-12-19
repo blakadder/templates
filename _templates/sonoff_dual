@@ -9,7 +9,7 @@ template: '{"NAME":"Sonoff Dual","GPIO":[0,148,0,149,255,0,0,0,0,56,255,0,0],"FL
 link: 
 link2: 
 ---
-Sonoff Dual has been obsoleted by [Sonoff Dual R2](https://blakadder.github.io/templates/sonoff_dual_R2.html). Before configuring your device check which revision you have since there are significant differences in how they operate.
+Sonoff Dual has been obsoleted by [Sonoff Dual R2](sonoff_dual_R2.html). Before configuring your device check which revision you have since there are significant differences in how they operate.
 
 ## Serial Flashing
 Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
