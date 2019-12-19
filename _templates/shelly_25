@@ -4,19 +4,14 @@ title: Shelly 2.5
 category: switch
 type: Relay
 standard: global
-link: https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/
+link3: https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/
 image: https://user-images.githubusercontent.com/5904370/56116577-7b36c280-5f66-11e9-9052-f97a35669708.png
 template: '{"NAME":"Shelly 2.5","GPIO":[56,255,17,255,21,83,0,0,6,82,5,22,156],"FLAG":2,"BASE":18}'
-link2:
+link: https://www.amazon.de/dp/B07Q9M2Y1S/
+link2: https://www.amazon.com/Shelly-Wireless-Automation-Metering-Application/dp/B07RRBPCVS
 ---
 
-The Shelly 2.5 is supported from Tasmota 6.5.0.8 using a template.
-
 <img src="https://shelly.cloud/wp-content/uploads/2019/02/shelly_25_250.png" width="250" align="right" />
-
-* [Allterco Shelly 2.5 Product Page](https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/)
-* [Allterco Shelly 2.5 Shop](https://shelly.cloud/product/wifi-smart-home-automation-shelly-25-switch-relay-roller-shutter/)
-* [Shelly 2.5 Initial issue](https://github.com/arendst/Tasmota/issues/5592)
 
 ## ⚠️️Special Shelly Attention⚠️️
 
