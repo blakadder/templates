@@ -4,7 +4,7 @@ title: Earykong TYMC-1 Door Window
 link: https://www.aliexpress.com/item/33047480276.html
 image: https://user-images.githubusercontent.com/5904370/70841350-23649a00-1e1a-11ea-9234-6b56c7a43b47.png
 template: '{"NAME":"TYMC-1","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
-link2: 
+link2: https://www.amazon.de/dp/B07ZQ2XSKK/
 link3: 
 flash: serial
 category: misc
