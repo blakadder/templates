@@ -23,6 +23,9 @@ collections:
   templates:
     output: true
     permalink: /:title.html
+  unsupported:
+    output: true
+    permalink: /unsupported/:title.html
 
 defaults:
   - scope:
@@ -30,6 +33,11 @@ defaults:
       type: "templates"
     values:
       layout: "templates"
+  - scope:
+      path: ""
+      type: "unsupported"
+    values:
+      layout: "unsupported"
 
 plugins:
   - jekyll-seo-tag

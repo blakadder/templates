@@ -1,5 +1,22 @@
 ---
 layout: default
-title: Add Unsupported Device
+title: Unsupported Devices
 ---
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjepta9W3JQ539pFwOQycHQAcUzo_VixIf1_5ZzIvGvsKcvg/viewform?embedded=true" width="760" height="800"  frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<h2>{{ page.title }}</h2>
+
+<!-- ######################################################################  -->
+{% assign category = site.unsupported %}
+{% assign type_group = category | group_by: 'category' %}
+{% assign type_grouped = type_group | sort: 'name' %}
+{% for group in type_grouped %}
+<BR>
+<!-- <h3>{{group.name}}</h3> -->
+<table id="{{group.name}}" width="80%">
+    <tbody>
+    {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
+    {% for template in grouptitlesorted %}
+    {% include tablerow.html %}
+    {% endfor %}
+</tbody>
+</table>
+{% endfor %}

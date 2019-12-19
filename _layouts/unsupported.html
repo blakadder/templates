@@ -1,0 +1,81 @@
+---
+layout: default
+---
+<div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%">
+  <a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">
+    Edit on GitHub
+  </a>
+  <p>
+        <b>
+      Available from:
+    </b>
+    <br>
+  <a class="menu" href="
+  {% assign link = page.link %} 
+  {% if link contains "banggood" %}
+    {{ link | append: "?p=CM27171011078201412U" }}
+  {% elsif link contains "gearbest" %}
+    {{ link | append: "?lkid=77716356" }}
+  {% elsif link contains "amazon.de" %}
+    {{ link | append: "?tag=tasmotatempla-21" }}
+  {% elsif link contains "amazon.co.uk" %}
+    {{ link | append: "?tag=tasmotatemp0a-21" }}
+  {% elsif link contains "amazon.com" %}
+    {{ link | append: "?tag=blakaddertemp-20" }}
+  {% elsif link contains "amazon.ca" %}
+    {{ link | append: "?tag=tasmotatemp03-20" }}
+  {% elsif link contains "amazon.fr" %}
+    {{ link | append: "?tag=blakaddertemp-21" }}
+  {% elsif link contains "amazon.es" %}
+    {{ link | append: "?tag=blakadderte02-21" }}
+ {% else %}
+    {{ link }}
+  {% endif %}
+  ">{{ page.link | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+  <br>
+  <a class="menu" href="
+  {% assign link = page.link2 %} 
+  {% if link contains "banggood" %}
+    {{ link | append: "?p=CM27171011078201412U" }}
+  {% elsif link contains "gearbest" %}
+    {{ link | append: "?lkid=77716356" }}
+  {% elsif link contains "amazon.de" %}
+    {{ link | append: "?tag=tasmotatempla-21" }}
+  {% elsif link contains "amazon.co.uk" %}
+    {{ link | append: "?tag=tasmotatemp0a-21" }}
+  {% elsif link contains "amazon.com" %}
+    {{ link | append: "?tag=blakaddertemp-20" }}
+  {% elsif link contains "amazon.ca" %}
+    {{ link | append: "?tag=tasmotatemp03-20" }}
+  {% elsif link contains "amazon.fr" %}
+    {{ link | append: "?tag=blakaddertemp-21" }}
+  {% elsif link contains "amazon.es" %}
+    {{ link | append: "?tag=blakadderte02-21" }}
+  {% else %}
+    {{ link }}
+  {% endif %}
+">{{ page.link2 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+  <br><br>
+  {% if page.link3 != nil %}
+    <b>
+      Manufacturer:
+    </b>
+    <br>
+    <a class="menu" href="{{ page.link3 }}">{{ page.link3 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+    {% endif %}
+  </div>
+
+<h2>{{ page.title }} {{ page.type }}</h2>
+<div> 
+  <img src="{{ page.image }}" alt="{{ page.title }}" style="max-height: 300px">
+</div>
+<p>
+<hr>
+{% if page.flash == 'tuya-convert' %}
+Couldn't be flashed using <a href="https://github.com/ct-Open-Source/tuya-convert" target="_blank">Tuya-Convert</a>.
+{% elsif page.flash == "serial" %}
+Couldn't be flashed over <a href="https://tasmota.github.io/docs/#/installation/Prerequisites" target="_blank">serial</a>.
+{% else %}
+{% endif %}
+<p>
+{{ content | markdownify }}
