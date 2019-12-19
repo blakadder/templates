@@ -3,16 +3,14 @@ title: Shelly 1
 category: switch
 type: Relay
 standard: global
-link: https://shelly.cloud/product/shelly-1-open-source/
+link3: https://shelly.cloud/product/shelly-1-open-source/
 image: https://user-images.githubusercontent.com/5904370/57952006-2632f700-78ec-11e9-9a1a-dd37479a0d79.png
 template: '{"NAME":"Shelly 1","GPIO":[0,0,0,0,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}'
-link2:
+link: https://www.amazon.de/gp/product/B07NS8M4Y1
+link2: https://www.amazon.com/SHELLY-Wireless-Automation-Android-Application/dp/B07G33LNDY/
 ---
 
-The Shelly 1 is supported in Tasmota from version 6.2.1.7<br>
-
 * [Allterco Shelly 1 Product Page](https://shelly.cloud/shelly1-open-source/)
-* [Allterco Shelly 1 Shop](https://shelly.cloud/product/shelly-1-open-source/)
 
 ## ⚠️️Special Shelly Attention⚠️️
 
