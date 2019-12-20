@@ -39,7 +39,7 @@ To pair a RF remote control with the Sonoff RF it is important that there is NO 
 
 User [gadjet](https://github.com/gadjet) installed a jumper in place of R21 allowing easy programming (jumper in), pairing (jumper out) and normal use (jumper out). The Slampher RF Revision 2.0 can have the same modification applied, but it requires its jumper across R3.
 
-<img alt="RF jumper" src="https://github.com/arendst/arendst.github.io/blob/master/media/sonoffrfjmpr.jpg" align="left" /> 
+<img alt="RF jumper" src="https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/sonoffrfjmpr.jpg" align="left" /> 
 
 ### Pairing Instructions
 Pairing the iTead RF remote controller is the same as with the original iTead software:
