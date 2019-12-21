@@ -1,5 +1,5 @@
 ---
-title: Blitzwolf BW-SHP2
+title: BlitzWolf BW-SHP2
 category: plug
 type: Plug
 standard: eu
@@ -74,7 +74,7 @@ configuration.yaml
 ```
 switch:
   - platform: mqtt
-    name: "Blitzwolf"
+    name: "BlitzWolf"
     state_topic: "stat/blitzwolf/POWER"
     command_topic: "cmnd/blitzwolf/POWER"
     payload_on: "ON"
@@ -83,32 +83,32 @@ switch:
   
 sensor:
   - platform: mqtt
-    name: "Blitzwolf Energy Today"
+    name: "BlitzWolf Energy Today"
     state_topic: "tele/blitzwolf/SENSOR"
     value_template: '{{ value_json["ENERGY"]["Today"] }}'
     unit_of_measurement: "kWh"
   - platform: mqtt
-    name: "Blitzwolf Energy Yesterday"
+    name: "BlitzWolf Energy Yesterday"
     state_topic: "tele/blitzwolf/SENSOR"
     value_template: '{{ value_json["ENERGY"]["Yesterday"] }}'
     unit_of_measurement: "kWh"
   - platform: mqtt
-    name: "Blitzwolf Energy Total"
+    name: "BlitzWolf Energy Total"
     state_topic: "tele/blitzwolf/SENSOR"
     value_template: '{{ value_json["ENERGY"]["Total"] }}'
     unit_of_measurement: "kWh"
   - platform: mqtt
-    name: "Blitzwolf Power"
+    name: "BlitzWolf Power"
     state_topic: "tele/blitzwolf/SENSOR"
     value_template: '{{ value_json["ENERGY"]["Power"] }}'
     unit_of_measurement: "W"
   - platform: mqtt
-    name: "Blitzwolf Voltage"
+    name: "BlitzWolf Voltage"
     state_topic: "tele/blitzwolf/SENSOR"
     value_template: '{{ value_json["ENERGY"]["Voltage"] }}'
     unit_of_measurement: "V"
   - platform: mqtt
-    name: "Blitzwolf Power Factor"
+    name: "BlitzWolf Power Factor"
     state_topic: "tele/blitzwolf/SENSOR"
     value_template: '{{ value_json["ENERGY"]["Factor"] }}'
 ```
