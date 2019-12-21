@@ -1,6 +1,6 @@
 ---
 date_added: 2019-12-11
-title: Smart RGBW
+title: Smart RGB
 link: https://www.ebay.co.uk/itm/TUYA-WiFi-Wireless-LED-RGB-RGBW-Controller-IOS-Android-APP-for-Alexa-Google-Home/183942198088
 image: https://i.ebayimg.com/images/g/myMAAOSwIqxcGiam/s-l500.jpg
 template: '{"NAME":"TUYA LED","GPIO":[0,0,0,0,0,38,0,0,39,17,37,0,0],"FLAG":0,"BASE":18}'
@@ -9,5 +9,5 @@ link3:
 flash: tuya-convert
 category: light
 type: LED Controller
-standard: uk
+standard: global
 ---
