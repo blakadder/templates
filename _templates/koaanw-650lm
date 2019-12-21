@@ -1,0 +1,18 @@
+---
+date_added: 2019-12-20
+title: Koaanw 650lm
+link: https://www.amazon.de/gp/product/B07GNCWTWL/
+image: https://user-images.githubusercontent.com/5904370/71307149-6a3e2b00-23ea-11ea-83c5-2664ce8ffafb.png
+template: '{"NAME":"KOAANW Bulb","GPIO":[0,0,0,0,143,144,0,0,0,0,0,0,0],"FLAG":0,"BASE":27}' 
+link2: 
+link3: 
+flash: serial
+category: bulb
+type: RGBW
+standard: e27
+---
+The bulb can be open by pulling the top side. Carefully pull, not unscrew. It is glued, but softly. After opening, the ESP module becomes accessible to solder the wires for VCC, GNTD, TX and RX. There is no need to de-solder the ESP module from the rest of the bulb. 
+
+DO NOT CONNECT SERIAL WHILE THE BULB IS UNDER HIGH VOLTAGE!!!
+
+You can control the color and the white temperature.

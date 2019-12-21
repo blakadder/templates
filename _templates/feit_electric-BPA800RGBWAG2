@@ -8,7 +8,7 @@ link: https://www.costco.com/Feit-WiFi-Smart-Bulbs%2c-4-pack.product.100417461.h
 image: https://user-images.githubusercontent.com/5904370/66718161-080cec80-ede1-11e9-94f3-7cf3ea739bb3.png
 template: '{"NAME":" BPA800/RGBW","GPIO":[0,0,0,0,37,38,0,0,141,142,140,0,0],"FLAG":0,"BASE":48}' 
 link2: https://www.amazon.com/Electric-Assistant-A800-RGBW-AG/dp/B079PFYP52
-link3: https://www.feit.com/products/bulbs/smart-wifi-light-bulb/smart-wifi-bulb-color-changing-tunable-white/
+link3: https://www.feit.com/product/smart-wifi-light-bulb/smart-wifi-bulb-color-changing-tunable-white/
 ---
 
 This bulb seems to have hardware Gamma correction, so you need to make sure you disable Software Gamma Correction:

@@ -4,17 +4,13 @@ type: RGBW
 category: bulb
 standard: e26
 link: https://www.amazon.com/FEIT-OM60-RGBW-CA-AG/dp/B07GG98VV2/
-image: https://user-images.githubusercontent.com/5904370/66718514-1c52e880-ede5-11e9-8334-4644c016fc42.png
+link2: https://www.costco.com/FEIT-WiFi-Smart-Bulbs-4-pack.product.100417461.html
+image: https://www.feit.com/wp-content/uploads/2018/05/OM60_RGBW_CA_AG_pack-3.jpg
 template: '{"NAME":"OM60/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}'
-link3: https://www.feit.com/products/bulbs/enhance/smart-wifi-bulb-color-changing-tunable-white-2/
-screenshot:
+link3: https://www.feit.com/product/smart-wifi-bulb-color-changing-tunable-white-2/
 ---
-Note BGR color order - `setoption37 54` in tasmota console to remap.
+You need to change RGB to BGR color order with `SetOption37 54` in Tasmota console to remap.
 
-OM60/RGBW/CA/AG, ([Amazon](https://www.amazon.com/FEIT-OM60-RGBW-CA-AG/dp/B07GG98VV2/))
+FCC ID: [SYW-A19RGBWAGT1](https://fccid.io/SYW-A19RGBWAGT1/Letter/Differences-Description-4018522.pdf)
 
-BPA800/RGBW/AG/2 ([Costco](https://www.costco.com/FEIT-WiFi-Smart-Bulbs-4-pack.product.100417461.html))
 
-SYW-A19RGBWAGT1 (Also on the bulbs from Costco)
-
-https://fccid.io/SYW-A19RGBWAGT1/Letter/Differences-Description-4018522.pdf
