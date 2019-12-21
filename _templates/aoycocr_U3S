@@ -15,7 +15,7 @@ The U3S appears to be a clone of the BlitzWolf SHP2.
 
 Units ordered from amazon.co.uk on 10th Decemeber 2019 wouldn't flash OTA, but worked fine with esptool. 
 
-
+Order from amazon.co.uk from 20th of December 2019 didn't want to flash via OTA originally, but after re-runing "./install_prereq.sh" - it worked perfectly.
 
 
 
