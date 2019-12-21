@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-20
+title: Merkury MI-BW942-999W 800lm
+link: https://www.walmart.com/ip/Merkury-Innovations-Smart-Wi-Fi-LED-Bulb-60W/493986946
+image: https://merkuryinnovations.com/wp-content/uploads/2018/12/9b4464b1-a7c1-4787-8f29-0ad99cce947f.jpg
+template: '{"NAME":"MI-BW942-999W","GPIO":[0,0,0,0,37,0,0,0,0,52,0,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: bulb
+type: WW
+standard: e26
+---
