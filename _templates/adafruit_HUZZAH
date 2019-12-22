@@ -4,10 +4,11 @@ title: Adafruit HUZZAH
 category: misc
 type: DIY
 standard: global
-link: https://www.adafruit.com/product/2471
+link3: https://www.adafruit.com/product/2471
 image: https://user-images.githubusercontent.com/5904370/68545564-894ea380-03ce-11ea-8031-7e4659723921.png
 template: '{"NAME":"Huzzah","GPIO":[17,0,56,0,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":18}' 
-link2: 
+link2: https://www.amazon.com/Adafruit-Assembled-Feather-ESP8266-Stacking/dp/B074XMF9W7/
+link: https://www.amazon.com/Adafruit-2821-Feather-Huzzah-ESP8266/dp/B019MGW6N6/
 ---
 
 [Product overview](https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/overview)
