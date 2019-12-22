@@ -6,7 +6,7 @@ standard: uk
 link: https://www.amazon.com/HuaFan-Enabled-Control-Counting-Function/dp/B01LPAWWH2
 image: https://i.postimg.cc/tRsK4MhH/Hua-Fan-Qin-Lu-Wi-Fi-Smart-Socket-UK-Plug-Outlet-Remotely-Control.jpg
 template: '{"NAME":"Huafan SS","GPIO":[56,0,0,57,17,29,0,0,132,130,133,0,0],"FLAG":0,"BASE":24}' 
-link2: 
+link3: https://www.huafansmart.com/news/home-automation-with-the-huafan-qinlu-wifi-soc-2659288.html
 ---
 ## Introduction
 <img src="https://github.com/jwrw/media/blob/master/huafan_outer_socket.jpg?raw=true" width="250" align="right"> The HuaFan Wireless Wifi Smart Plug/Socket is a useful bit of kit that allows you to introduce home automation without getting into any mains re-wiring.  As an added bonus, the device also provides energy monitoring functions (voltage, current, power) in much the same way as the [Sonoff Pow](http://sonoff.itead.cc/en/products/sonoff/sonoff-pow) module does. 
