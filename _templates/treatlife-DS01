@@ -1,11 +1,11 @@
 ---
 date_added: 2019-12-09
 title: TreatLife DS01 
-link: https://www.treatlife.tech/collections/smart-dimmer-switch/products/smart-dimmer-switch-treatlife-wifi-light-switch-for-dimmable-led-halogen-incandescent-bulbs-compatible-with-alexa-google-assistant-ifttt-remote-control-single-pole-neutral-wire-required
+link: https://www.amazon.com/Upgraded-Separable-Replaceable-Function-Dressing/dp/B07CKNWGN4
 image: https://cdn.shopify.com/s/files/1/0246/5601/9501/products/1_PACK_jpg_300x300.jpg
 template: '{"NAME":"DS02S Dimmer","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
-link2: 
-link3: 
+link2: https://www.amazon.com/Treatlife-Incandescent-Compatible-Assistant-Single-Pole/dp/B07PJTLB7Z/
+link3: https://www.treatlife.tech/collections/smart-dimmer-switch/products/smart-dimmer-switch-treatlife-wifi-light-switch-for-dimmable-led-halogen-incandescent-bulbs-compatible-with-alexa-google-assistant-ifttt-remote-control-single-pole-neutral-wire-required
 flash: tuya-convert
 category: switch
 type: Dimmer
