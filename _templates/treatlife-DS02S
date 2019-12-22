@@ -4,7 +4,7 @@ title: TreatLife DS02S
 link: https://www.amazon.com/Treatlife-Neutral-Compatible-Assistant-Schedule/dp/B07YKGMXDM
 image: https://user-images.githubusercontent.com/35885181/70183389-ee7e7780-16a2-11ea-994b-5eef1a927114.jpg
 template: '{"NAME":"DS02S Dimmer","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
-link2: 
+link2: https://www.amazon.com/Treatlife-Neutral-Compatible-Assistant-Schedule/dp/B07YKFSWJN
 link3: https://www.treatlife.tech/collections/smart-dimmer-switch/products/treatlife-2-4ghz-wi-fi-smart-dimmer-switch-neutral-wire-needed-compatible-with-alexa-google-assistant-and-ifttt-schedule-remote-control-single-pole-etl-listed-1
 flash: tuya-convert
 category: switch
