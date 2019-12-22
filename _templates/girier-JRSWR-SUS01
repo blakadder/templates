@@ -1,6 +1,6 @@
 ---
 date_added: 2019-12-22
-title: Girier JRSWR-SUS01 
+title: Girier JRSWR-SUS01 No Neutral
 link: https://www.aliexpress.com/item/4000192490763.html
 image: https://ae01.alicdn.com/kf/H47a08ca9e1ea4588b3fe998eb207b9b1f/Smart-Wifi-Touch-Switch-No-Neutral-Wire-Required-Smart-Home-RF433-Tuya-App-Wireless-Remote-Light.jpg_640x640.jpg
 template: '{"NAME":"Tuya 1 Channel","GPIO":[0,0,0,0,0,17,0,0,0,0,0,21,157],"FLAG":0,"BASE":18}' 
@@ -8,6 +8,6 @@ link2:
 link3: 
 flash: tuya-convert
 category: switch
-type: No-Neutral Switch
+type: Switch
 standard: au
 ---
