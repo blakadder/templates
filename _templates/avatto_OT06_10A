@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-23
+title: Avatto OT06 10A
+link: https://www.aliexpress.com/item/33011753732.html
+image: https://www.dodaj.rs/images/AVATTO-Mini-Standard-16A-EU-Smart-Wifi-Plug-with-Power-Monitor-Socket-Outlet-Works-with-Google.jpg
+template: '{"NAME":"Avatto 10a","GPIO":[255,255,255,255,52,255,255,255,21,17,255,255,255],"FLAG":15,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
