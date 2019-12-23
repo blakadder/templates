@@ -6,13 +6,17 @@ type: Dimmer
 standard: global
 link: https://www.banggood.com/MoesHouse-DIY-Smart-WiFi-Light-LED-Dimmer-Switch-Smart-LifeTuya-APP-Remote-Control-12-Way-Switch-Works-With-Alexa-Echo-Google-Home-p-1509161.html
 image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/2_8400a6e8-aa85-4d9d-9d3e-cc2cbe65f4dd_1800x1800.jpg?v=1573202656
-template: '{"NAME":"Moes MS-105-1","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Moes MS-105","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link2: https://www.aliexpress.com/item/33010332202.html
 link3: https://www.moeshouse.com/collections/smart-dimmer-switch/products/diy-smart-wifi-light-led-dimmer-switch-smart-life-tuya-app-remote-control-1-2-way-switch-works-with-alexa-echo-google-home
 flash: tuya-convert
 ---
 
-Identical template and setup to [QS-WIFI-D01 Dimmer](qs-wifi_D01_dimmer.html)
+Setup:
+  flash device with tasmota ( [Tuya-Convert](https://tasmota.github.io/docs/#/Tuya-Convert) OR serial )
+  paste template into 'Configure Other' and tick activate
+  console command: backlog TuyaMCU 21,2; DimmerRange 0,700
+  
 
 ### New version from Aliexpress
 ![](https://ae01.alicdn.com/kf/H56bb65d6253245a997d9450b5b8674edf/DIY-Smart-WiFi-Light-LED-Dimmer-Switch-Smart-Life-Tuya-APP-Remote-Control-1-2-Way.jpg)
