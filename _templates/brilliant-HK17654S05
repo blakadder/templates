@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-23
+title: Brilliant HK17654S05
+link: https://www.real.de/product/336646135/
+image: https://cdn.lampe.de/media/product/64432/650x650/brilliant-smart-socket-steckdose-hk17654s05-0.jpg
+template: '{"NAME":"HK17654S05","GPIO":[17,255,255,255,133,132,255,255,131,56,21,255,255],"FLAG":0,"BASE":18}' 
+link2: 
+link3: https://www.brilliant-ag.eu/en/smart-home/steckdosen/9232/smart-wlan-steckdose-1er-weiss-tuya-app
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
