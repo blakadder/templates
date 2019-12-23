@@ -1,13 +1,13 @@
 ---
 date_added: 2019-10-06
-title: BrilliantSmart 20702/06 Garden
+title: BrilliantSmart 20702/06 Garden Kit
 category: light
 type: Light
 standard: au
-link: https://www.brilliantsmart.com.au/smart-products/garden/smart-garden-kit/
+link3: https://www.brilliantsmart.com.au/smart-products/garden-old/smart-garden-kit/
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20702-06.jpg
 template: '{"NAME":"Brilliant Gard","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
-link2: https://www.mjselectricalsupplies.com.au/brilliant-smart-wifi-rgb-garden-light-kit?gclid=CjwKCAjw_uDsBRAMEiwAaFiHa56fOPFWol4XLby12CW-0MB6Cqy3_XDvC23Oifg7TpUIhyLdJ0meExoCiAMQAvD_BwE
+link: https://www.mjselectricalsupplies.com.au/brilliant-smart-wifi-rgb-garden-light-kit?gclid=CjwKCAjw_uDsBRAMEiwAaFiHa56fOPFWol4XLby12CW-0MB6Cqy3_XDvC23Oifg7TpUIhyLdJ0meExoCiAMQAvD_BwE
 ---
 
 Converted with tuya-convert2.  simple RGB pwm.   Purchaces at Aldi.  Still available in some stores (Chatswood $80 original  price 120). The alternate link (from by google)  has a very high price $220).  The manufacture web site also shows just the controller.  It does have a spare output for white, but it's just the blue channel.
