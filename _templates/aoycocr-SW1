@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-23
+title: Aoycocr SW1
+link: https://www.amazon.com/dp/B07SVD6P2L/
+image: https://images-na.ssl-images-amazon.com/images/I/51QHahlxVfL._AC_SL1200_.jpg
+template: '{"NAME":"Aoycocr SW1","GPIO":[255,255,255,255,255,255,255,255,255,255,255,255,255],"FLAG":15,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+Green led light is off if the switch is off. It turns on if the switch is on. Red led light is disabled.
