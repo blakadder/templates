@@ -3,7 +3,7 @@ title: Shelly 1
 category: switch
 type: Relay
 standard: global
-link3: https://shop.shelly.cloud/shelly-1-wifi-smart-home-automation#50
+link3: https://shelly.cloud/shelly1-open-source/
 image: https://user-images.githubusercontent.com/5904370/57952006-2632f700-78ec-11e9-9a1a-dd37479a0d79.png
 template: '{"NAME":"Shelly 1","GPIO":[0,0,0,0,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}'
 link: https://www.amazon.de/gp/product/B07NS8M4Y1
