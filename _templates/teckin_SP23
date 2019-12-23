@@ -10,7 +10,10 @@ template: '{"NAME":"Teckin SP23","GPIO":[56,255,57,255,0,134,0,0,131,17,132,21,0
 link2: 
 ---
 
-Works with Tuya OTA
+2019-12-23
+
+*** WARNING *** Some versions of Teckin SP23 come without power monitoring and do not use ESP8266. Cannot be flashed by Tasmota.
+
 
 The Teckin SP23 appears to be a clone of the BlitzWolf SHP2 hardware with Tuya software / firmware.
 
