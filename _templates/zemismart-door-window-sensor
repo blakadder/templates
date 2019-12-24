@@ -1,0 +1,43 @@
+---
+date_added: 2019-12-24
+title: Zemismart Door Window
+link: https://www.aliexpress.com/item/32935071103.html
+image: https://www.zemismart.com/u_file/1810/products/31/784d28f63f.jpg
+template: '{"NAME":"TYMC-1","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link2: 
+link3: https://www.zemismart.com/wifi-door-sensor-window-sensors-alexa-google-home-mini-ifttt-alarm-security-smart-life-phone-app-remote-control-p0101.html
+flash: tuya-convert
+category: misc
+type: Sensor
+standard: global
+---
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/#/TuyaMCU) article to understand the terminology and configuration process.
+
+## Configuration
+
+**Configuration is easier if you keep the module powered from the USB-to-serial adapter instead of batteries.**
+
+_If you're using battery power you need to prevent the device from going to sleep by actuating the reed switch constantly (approximately every 5 seconds) during the configuration._
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+Switch the device to battery powered sensor mode (fnId 51):
+```console
+TuyaMCU 51,21
+```
+Disable multipress button options to prevent a device reset or Wi-Fi AP config mode, disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and set switchmode to follow instead of toggle
+```console
+Backlog SetOption1 1; SetOption65 1; SetOption66 1; SwitchMode 1
+```
+
+Check with `TuyaMCU` for the following configuration:
+```json
+ {"TuyaMCU":[{"fnId":11,"dpId":1},{"fnId":51,"dpId":21}]}
+```
+
+```console
+Rule1 ON TuyaReceived#Data=55AA00050005650100010171 DO publish2 stat/lr_window1/STATUS open ENDON ON TuyaReceived#Data=55aa00050005650100010070 DO publish2 stat/lr_window1/STATUS close ENDON ON
+```
