@@ -1,0 +1,60 @@
+---
+date_added: 2019-12-24
+title: Lucci Connect Remote Control
+link: https://www.beaconlighting.com.au/lucci-connect-wi-fi-fan-remote-control
+image: https://www.beaconlighting.com.au/media/catalog/product/cache/1/image/040ec09b1e35df139433887a97daa66f/2/9/299041.jpg
+template: '{"NAME":"Lucci Fan","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: misc
+type: Fan Controller
+standard: au
+---
+1. Install Tasmota v7.2
+2. Issue command
+```console
+TuyaMCU 12,102
+```
+3. Set up rule
+```console
+Rule1 on TuyaReceived#Data=55AA00070005020400010012 do publish2 stat/flatbedfan/speed 2,0 endon on TuyaReceived#Data=55AA00070005020400010113 do publish2 stat/flatbedfan/speed 2,1 endon on TuyaReceived#Data=55AA00070005020400010214 do publish2 stat/flatbedfan/speed 2,2 endon
+Rule1 1
+```
+4. Add the following to Home Assistant to your `fan` section
+```yaml
+- platform: mqtt
+  name: "Flat Bedroom Fan"
+  state_topic: "stat/flatbedfan/POWER1"
+  command_topic: "cmnd/flatbedfan/POWER1"
+  speed_state_topic: "stat/flatbedfan/speed"
+  speed_command_topic: "cmnd/flatbedfan/TuyaSend4"
+  qos: 0
+  payload_on: 'ON'
+  payload_off: 'OFF'
+  payload_oscillation_on: 'ON'
+  payload_oscillation_off: 'OFF'
+  payload_low_speed: '2,0'
+  payload_medium_speed: '2,1'
+  payload_high_speed: '2,2'
+  availability_topic: tele/flatbedfan/LWT
+  payload_available: Online
+  payload_not_available: Offline
+  speeds:
+    - low
+    - medium
+    - high
+```
+5. Add the following to Home Assistant to your `light` section (if required):
+```yaml
+- platform: mqtt
+  name: "Flat Bedroom Light"
+  state_topic: "stat/flatbedfan/POWER2"
+  command_topic: "cmnd/flatbedfan/POWER2"
+  qos: 0
+  payload_on: 'ON'
+  payload_off: 'OFF'
+  availability_topic: tele/flatbedfan/LWT
+  payload_available: Online
+  payload_not_available: Offline
+```
