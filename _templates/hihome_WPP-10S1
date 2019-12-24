@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-24
+title: HiHome WPP-10S1
+link: https://www.wehkamp.nl/hihome-wpp-10s1-smartplug-16328256/
+image: https://images.wehkamp.nl/i/wehkamp/16328256_pb_01/hihome-wpp-10s1-smartplug-wit-7439624372379.jpg?w=320%20320w,https://images.wehkamp.nl/i/wehkamp/16328256_pb_01/hihome-wpp-10s1-smartplug-wit-7439624372379.jpg?w=640%20640w,https://images.wehkamp.nl/i/wehkamp/16328256_pb_01/hihome-wpp-10s1-smartplug-wit-7439624372379.jpg?w=792%20792w,https://images.wehkamp.nl/i/wehkamp/16328256_pb_01/hihome-wpp-10s1-smartplug-wit-7439624372379.jpg?w=1024%201024w,https://images.wehkamp.nl/i/wehkamp/16328256_pb_01/hihome-wpp-10s1-smartplug-wit-7439624372379.jpg?w=1600%201600w
+template: '{"NAME":"HIhome WPP-10S","GPIO":[56,0,158,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":49}' 
+link2: 
+link3: https://www.hihome.eu
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
