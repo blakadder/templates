@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-24
+title: LSC Smart Connect Candle 400lm 
+link: https://www.action.com/en-en/p/lsc-smart-connect-slimme-multicolor-ledlamp/
+image: https://www.action.com/globalassets/cmsarticleimages/79/64/2578517_8712879142713-111_01.png
+template: '{"NAME":"LSC E14 RGBW","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e14
+---
