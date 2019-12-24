@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 flash: tuya-convert
 link: https://www.50five.nl/hihome-wpp-16s-smart-plug.html
-image: https://www.50five.nl/media/catalog/product/cache/bd0d42d14aeaacc284f202cc745c851f/a/c/ac3106f59dffdb95c36470e766a8f1cd56cb1e85_WPP_16S1.jpg
+image: https://cdn.webshopapp.com/shops/281495/files/280994914/image.jpg?_ga=2.30229567.1024425190.1577224385-1528704527.1576462151
 template: '{"NAME":"HIhome WPP-16S","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
 link2: 
 link3: https://www.hihome.eu/en/wpp-16s.html
