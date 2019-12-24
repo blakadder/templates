@@ -3,7 +3,7 @@ date_added: 2019-12-24
 title: Zemismart Door Window
 link: https://www.aliexpress.com/item/32935071103.html
 image: https://www.zemismart.com/u_file/1810/products/31/784d28f63f.jpg
-template: '{"NAME":"TYMC-1","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+template: '{"NAME":"Zemismart","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link2: 
 link3: https://www.zemismart.com/wifi-door-sensor-window-sensors-alexa-google-home-mini-ifttt-alarm-security-smart-life-phone-app-remote-control-p0101.html
 flash: tuya-convert
@@ -15,8 +15,6 @@ standard: global
 Please read [TuyaMCU](https://tasmota.github.io/docs/#/TuyaMCU) article to understand the terminology and configuration process.
 
 ## Configuration
-
-**Configuration is easier if you keep the module powered from the USB-to-serial adapter instead of batteries.**
 
 _If you're using battery power you need to prevent the device from going to sleep by actuating the reed switch constantly (approximately every 5 seconds) during the configuration._
 
