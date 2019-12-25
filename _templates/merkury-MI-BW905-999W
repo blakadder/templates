@@ -5,7 +5,7 @@ category: bulb
 standard: e26
 link: https://www.walmart.com/ip/Merkury-Innovations-BR30-Smart-Light-Bulb-65W-Tunable-White-LED-1-Pack/404320234
 image: https://i5.walmartimages.com/asr/d7534fd1-8b9b-4e7a-b381-c97fef4533c0_1.abbd26543cf6b50b6bfe66f8d1264ef7.jpeg
-template: '{"NAME":"MI-BW905-999W","GPIO":[0,0,0,0,37,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}'
+template: '{"NAME":"MI-BW905-999W","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}'
 ---
 
 Tunable White LED
