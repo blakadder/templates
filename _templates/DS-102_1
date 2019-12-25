@@ -10,4 +10,6 @@ template: '{"NAME":"DS-102 1 Gang","GPIO":[57,0,0,17,0,0,0,0,0,21,56,0,0],"FLAG"
 link2: https://www.amazon.de/dp/B07WFKJ27C/
 ---
 
-You can switch GPIOs for Led1 and Led2 if you want the blue led to indicate switch state.
+The blue LED is configured to indicate switch state, the red LED is configured as link indicator.
+Switch the GPIOs to show switch state in red.
+If you prefer the switch state LED to be illuminated when power is turned OFF, i.e. when the room is dark, replace "Led1i" by "Led1".
