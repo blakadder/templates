@@ -22,5 +22,5 @@ To discard low values and report 0W instead, execute command `SetOption39 1`.
 
 You might wish to keep USB power active at all times.
 Check out the command `ButtonRetain 1` for MQTT based retention.
-Furthermore, the red LED to indicate the power status of the module will always be illuminated as long as any of the two relays are active.
+Furthermore, the red LED to indicate the power status of the module will be illuminated as long as any of the two relays are active.
 To ignore USB power and indicate socket power state only, execute command `LedMask 1`.
