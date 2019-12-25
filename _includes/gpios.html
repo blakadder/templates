@@ -1,0 +1,431 @@
+<div>
+    <table style="font-size: x-small;">
+    <tr><th>GPIO #</th><th>Component</th></tr>
+      {% assign template = page.template | split: ':' %}
+      {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+      {% for gpio in gpios %}
+    <tr>
+        <td>GPIO{% if forloop.index == 7 %}09
+            {% elsif forloop.index == 8 %}10   
+            {% elsif forloop.index == 9 %}12
+            {% elsif forloop.index == 10 %}13
+            {% elsif forloop.index == 11 %}14
+            {% elsif forloop.index == 12 %}15
+            {% elsif forloop.index == 13 %}16
+            {% else %}{{ forloop.index0 | prepend: '0' }} 
+            {% endif %}
+        </td>
+        <td>
+            {% case gpio %}          
+            {% when "255" %}
+            User   
+            {% when "0" %}
+            None   
+            {% when "1" %}
+            DHT11  
+            {% when "2" %}
+            AM2301 
+            {% when "3" %}
+            SI7021 
+            {% when "4" %}
+            DS18x20
+            {% when "5" %}
+            I2C SCL
+            {% when "6" %}
+            I2C SDA
+            {% when "7" %}
+            WS2812 
+            {% when "8" %}
+            IRsend 
+            {% when "9" %}
+            Switch1
+            {% when "10" %}
+            Switch2
+            {% when "11" %}
+            Switch3
+            {% when "12" %}
+            Switch4
+            {% when "13" %}
+            Switch5
+            {% when "14" %}
+            Switch6
+            {% when "15" %}
+            Switch7
+            {% when "16" %}
+            Switch8
+            {% when "17" %}
+            Button1
+            {% when "18" %}
+            Button2
+            {% when "19" %}
+            Button3
+            {% when "20" %}
+            Button4
+            {% when "21" %}
+            Relay1 
+            {% when "22" %}
+            Relay2 
+            {% when "23" %}
+            Relay3 
+            {% when "24" %}
+            Relay4 
+            {% when "25" %}
+            Relay5 
+            {% when "26" %}
+            Relay6 
+            {% when "27" %}
+            Relay7 
+            {% when "28" %}
+            Relay8 
+            {% when "29" %}
+            Relay1i
+            {% when "30" %}
+            Relay2i
+            {% when "31" %}
+            Relay3i
+            {% when "32" %}
+            Relay4i
+            {% when "33" %}
+            Relay5i
+            {% when "34" %}
+            Relay6i
+            {% when "35" %}
+            Relay7i
+            {% when "36" %}
+            Relay8i
+            {% when "37" %}
+            PWM1   
+            {% when "38" %}
+            PWM2   
+            {% when "39" %}
+            PWM3   
+            {% when "40" %}
+            PWM4   
+            {% when "41" %}
+            PWM5   
+            {% when "42" %}
+            Counter1    
+            {% when "43" %}
+            Counter2    
+            {% when "44" %}
+            Counter3    
+            {% when "45" %}
+            Counter4    
+            {% when "46" %}
+            PWM1i  
+            {% when "47" %}
+            PWM2i  
+            {% when "48" %}
+            PWM3i  
+            {% when "49" %}
+            PWM4i  
+            {% when "50" %}
+            PWM5i  
+            {% when "51" %}
+            IRrecv 
+            {% when "52" %}
+            Led1   
+            {% when "53" %}
+            Led2   
+            {% when "54" %}
+            Led3   
+            {% when "55" %}
+            Led4   
+            {% when "56" %}
+            Led1i  
+            {% when "57" %}
+            Led2i  
+            {% when "58" %}
+            Led3i  
+            {% when "59" %}
+            Led4i  
+            {% when "60" %}
+            MHZ Rx 
+            {% when "61" %}
+            MHZ Tx 
+            {% when "62" %}
+            PZEM0XX Tx  
+            {% when "63" %}
+            PZEM004 Rx  
+            {% when "64" %}
+            SAir Rx
+            {% when "65" %}
+            SAir Tx
+            {% when "66" %}
+            SPI CS 
+            {% when "67" %}
+            SPI DC 
+            {% when "68" %}
+            BkLight
+            {% when "69" %}
+            PMS5003
+            {% when "70" %}
+            SDS0X1 Rx   
+            {% when "71" %}
+            SerBr Rx    
+            {% when "72" %}
+            SerBr Tx    
+            {% when "73" %}
+            SR04 Tri    
+            {% when "74" %}
+            SR04 Ech    
+            {% when "75" %}
+            SDMx20 Tx   
+            {% when "76" %}
+            SDMx20 Rx   
+            {% when "77" %}
+            SDM630 Tx   
+            {% when "78" %}
+            SDM630 Rx   
+            {% when "79" %}
+            TM16 CLK    
+            {% when "80" %}
+            TM16 DIO    
+            {% when "81" %}
+            TM16 STB    
+            {% when "82" %}
+            Switch1n    
+            {% when "83" %}
+            Switch2n    
+            {% when "84" %}
+            Switch3n    
+            {% when "85" %}
+            Switch4n    
+            {% when "86" %}
+            Switch5n    
+            {% when "87" %}
+            Switch6n    
+            {% when "88" %}
+            Switch7n    
+            {% when "89" %}
+            Switch8n    
+            {% when "90" %}
+            Button1n    
+            {% when "91" %}
+            Button2n    
+            {% when "92" %}
+            Button3n    
+            {% when "93" %}
+            Button4n    
+            {% when "94" %}
+            Counter1n   
+            {% when "95" %}
+            Counter2n   
+            {% when "96" %}
+            Counter3n   
+            {% when "97" %}
+            Counter4n   
+            {% when "98" %}
+            PZEM016 Rx  
+            {% when "99" %}
+            PZEM017 Rx  
+            {% when "100" %}
+            MP3 Player  
+            {% when "101" %}
+            SDS0X1 Tx   
+            {% when "102" %}
+            HX711 SCK   
+            {% when "103" %}
+            HX711 DAT   
+            {% when "104" %}
+            TX20   
+            {% when "105" %}
+            RFSend 
+            {% when "106" %}
+            RFrecv 
+            {% when "107" %}
+            Tuya Tx
+            {% when "108" %}
+            Tuya Rx
+            {% when "109" %}
+            MGC3130 Xfr 
+            {% when "110" %}
+            MGC3130 Rst 
+            {% when "111" %}
+            SSPI MISO   
+            {% when "112" %}
+            SSPI MOSI   
+            {% when "113" %}
+            SSPI SCLK   
+            {% when "114" %}
+            SSPI CS
+            {% when "115" %}
+            SSPI DC
+            {% when "116" %}
+            RF Sensor   
+            {% when "117" %}
+            AZ Rx  
+            {% when "118" %}
+            AZ Tx  
+            {% when "119" %}
+            MX31855 CS  
+            {% when "120" %}
+            MX31855 CLK 
+            {% when "121" %}
+            MX31855 DO  
+            {% when "122" %}
+            Button1i    
+            {% when "123" %}
+            Button2i    
+            {% when "124" %}
+            Button3i    
+            {% when "125" %}
+            Button4i    
+            {% when "126" %}
+            Button1in   
+            {% when "127" %}
+            Button2in   
+            {% when "128" %}
+            Button3in   
+            {% when "129" %}
+            Button4in   
+            {% when "130" %}
+            HLWBL SEL   
+            {% when "131" %}
+            HLWBL SELi  
+            {% when "132" %}
+            HLWBL CF1   
+            {% when "133" %}
+            HLW8012 CF  
+            {% when "134" %}
+            BL0937 CF   
+            {% when "135" %}
+            MCP39F5 Tx  
+            {% when "136" %}
+            MCP39F5 Rx  
+            {% when "137" %}
+            MCP39F5 Rst 
+            {% when "138" %}
+            PN532 Tx    
+            {% when "139" %}
+            PN532 Rx    
+            {% when "140" %}
+            SM16716 CLK 
+            {% when "141" %}
+            SM16716 DAT 
+            {% when "142" %}
+            SM16716 PWR 
+            {% when "143" %}
+            MY92x1 DI   
+            {% when "144" %}
+            MY92x1 DCKI 
+            {% when "145" %}
+            CSE7766 Tx  
+            {% when "146" %}
+            CSE7766 Rx  
+            {% when "147" %}
+            ALux IrRcv  
+            {% when "148" %}
+            Serial Tx   
+            {% when "149" %}
+            Serial Rx   
+            {% when "150" %}
+            Rotary1a    
+            {% when "151" %}
+            Rotary1b    
+            {% when "152" %}
+            Rotary1c    
+            {% when "153" %}
+            Rotary1d    
+            {% when "154" %}
+            HRE CLOCK   
+            {% when "155" %}
+            HRE DATA    
+            {% when "156" %}
+            ADE7953_IRQ 
+            {% when "157" %}
+            LedLink
+            {% when "158" %}
+            LedLinki    
+            {% when "159" %}
+            ALux IrSel  
+            {% when "160" %}
+            Buzzer 
+            {% when "161" %}
+            Buzzeri
+            {% when "162" %}
+            OLED Reset  
+            {% when "163" %}
+            SolaxX1 Tx  
+            {% when "164" %}
+            SolaxX1 Rx  
+            {% when "165" %}
+            Zigbee Tx   
+            {% when "166" %}
+            Zigbee Rx   
+            {% when "167" %}
+            RDM6300 Rx  
+            {% when "168" %}
+            iBeacon Tx  
+            {% when "169" %}
+            iBeacon Rx  
+            {% when "170" %}
+            A4988 DIR   
+            {% when "171" %}
+            A4988 STP   
+            {% when "172" %}
+            A4988 ENA   
+            {% when "173" %}
+            A4988 MS1   
+            {% when "174" %}
+            A4988 MS2   
+            {% when "175" %}
+            A4988 MS3   
+            {% when "176" %}
+            DDS238-2 Tx 
+            {% when "177" %}
+            DDS238-2 Rx 
+            {% when "178" %}
+            DDSU666 Tx  
+            {% when "179" %}
+            DDSU666 Rx  
+            {% when "180" %}
+            SM2135 CLK  
+            {% when "181" %}
+            SM2135 DAT  
+            {% when "182" %}
+            DeepSleep   
+            {% when "183" %}
+            EXS Enable  
+            {% when "184" %}
+            Slave TX    
+            {% when "185" %}
+            Slave RX    
+            {% when "186" %}
+            Slave RST   
+            {% when "187" %}
+            Slave RSTi  
+            {% when "188" %}
+            HPMA RX
+            {% when "189" %}
+            HPMA TX
+            {% else %}
+            Unknown
+            {% endcase %}
+        </td class="small">
+    </tr>
+    {% endfor %}
+    <tr>
+        <td>FLAG</td>
+        <td>
+            {% assign flag = template[3] | remove: ',"BASE"' %}
+            {% case flag %}
+            {% when "15" %}
+            User   
+            {% when "1" %}
+            Analog
+            {% when "2" %}
+            Temperature 
+            {% when "3" %}
+            Button
+            {% when "4" %}
+            Buttoni
+            {% when "0" %}
+            None
+            {% else %}
+            Unknown
+            {% endcase %}
+        </td>
+    </tr>
+</table>
+</div>

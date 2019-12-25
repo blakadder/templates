@@ -1,7 +1,7 @@
 <tr>
-    <td><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;"></td>
+    <td style="width: 33%"><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;"></td>
     <td><b><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }}</a></b></td>
-    <td> {% assign standard_list = template.standard %}
+    <td style="width: 10%"> {% assign standard_list = template.standard %}
         {% for item_standard in standard_list %}
         {{ item_standard | upcase }}<br>
         {% endfor %} </td>

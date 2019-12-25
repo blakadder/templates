@@ -220,7 +220,7 @@ code {
   font-size: 100%;
   margin: 0 .2rem;
   padding: .2rem .5rem;
-  white-space: normal;
+  white-space: pre-wrap;
 }
 
 pre {
@@ -566,13 +566,13 @@ td:first-child,
 th:first-child {
   padding-left: 1;
   text-align: center;
-  width: 150px;
+  // width: 150px;
 }
 
 td:nth-child(2),
 th:nth-child(2) {
   padding-left: 0.6rem;
-  min-width: 250px;
+  // min-width: 250px;
 
 }
 

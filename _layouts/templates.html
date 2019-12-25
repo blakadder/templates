@@ -1,101 +1,79 @@
 ---
 layout: default
 ---
+<div class="container">
 
-<div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%">
-    {% assign standard_list = page.standard %}
-      {% for item_standard in standard_list %}
-      <a class="button button-grey" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
-    {% endfor %} 
+<div class="row">
+  <div class="column">
+    <h2>{{ page.title }}
+    {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
+ Power Monitoring
+ {% endif %}
+ {{ page.type }}
+</h2>
+</div>
+<div class="float-right">
+<!-- <div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%"> -->
+  {% assign standard_list = page.standard %}
+  {% for item_standard in standard_list %}
+  <a class="button button-grey" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
+     {% endfor %}
+  </div>
+</div>
+<div class="row">
+  <div class="column column-60"> 
+  <img src="{{ page.image }}" alt="{{ page.title }}" style="max-height: 350px; max-width: 450px;">
+</div>
+<div class="column column-20">
   <p>
-        <b>
-      Available from:
+   <b>
+ Available from:
     </b>
     <br>
-  <a class="menu" href="
-  {% assign link = page.link %} 
-  {% if link contains "banggood" %}
-    {{ link | append: "?p=CM27171011078201412U" }}
-  {% elsif link contains "gearbest" %}
-    {{ link | append: "?lkid=77716356" }}
-  {% elsif link contains "amazon.de" %}
-    {{ link | append: "?tag=tasmotatempla-21" }}
-  {% elsif link contains "amazon.co.uk" %}
-    {{ link | append: "?tag=tasmotatemp0a-21" }}
-  {% elsif link contains "amazon.com" %}
-    {{ link | append: "?tag=blakaddertemp-20" }}
-  {% elsif link contains "amazon.ca" %}
-    {{ link | append: "?tag=tasmotatemp03-20" }}
-  {% elsif link contains "amazon.fr" %}
-    {{ link | append: "?tag=blakaddertemp-21" }}
-  {% elsif link contains "amazon.es" %}
-    {{ link | append: "?tag=blakadderte02-21" }}
- {% else %}
-    {{ link }}
-  {% endif %}
-  ">{{ page.link | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+  <a class="menu" href="{% assign link = page.link %}{% include linkage.html %}">{{ page.link | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
   <br>
-  <a class="menu" href="
-  {% assign link = page.link2 %} 
-  {% if link contains "banggood" %}
-    {{ link | append: "?p=CM27171011078201412U" }}
-  {% elsif link contains "gearbest" %}
-    {{ link | append: "?lkid=77716356" }}
-  {% elsif link contains "amazon.de" %}
-    {{ link | append: "?tag=tasmotatempla-21" }}
-  {% elsif link contains "amazon.co.uk" %}
-    {{ link | append: "?tag=tasmotatemp0a-21" }}
-  {% elsif link contains "amazon.com" %}
-    {{ link | append: "?tag=blakaddertemp-20" }}
-  {% elsif link contains "amazon.ca" %}
-    {{ link | append: "?tag=tasmotatemp03-20" }}
-  {% elsif link contains "amazon.fr" %}
-    {{ link | append: "?tag=blakaddertemp-21" }}
-  {% elsif link contains "amazon.es" %}
-    {{ link | append: "?tag=blakadderte02-21" }}
-  {% else %}
-    {{ link }}
-  {% endif %}
-">{{ page.link2 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
+  <a class="menu" href="{% assign link = page.link2 %}{% include linkage.html %}">{{ page.link2 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
   <br><br>
   {% if page.link3 != nil %}
     <b>
-      Manufacturer:
+ Manufacturer:
     </b>
     <br>
     <a class="menu" href="{{ page.link3 }}">{{ page.link3 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | split:'/' | first | capitalize}}</a>
     {% endif %}
+  <br><br>
+
+  {% if page.flash != nil %}
+  <b>
+    Flashed with:
+  </b>
+  <br>
+    {% if page.flash == 'tuya-convert' %}
+    <a href="https://github.com/ct-Open-Source/tuya-convert" target="_blank">Tuya-Convert</a>.
+    {% elsif page.flash == "serial" %}
+    <a href="https://tasmota.github.io/docs/#/installation/Prerequisites" target="_blank">Serial port</a>.
+    {% else %}
+    {% endif %}
+  {% else %}
+
+  {% endif %}
+  <br>
   </div>
-
-<h2>{{ page.title }}
-    {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
-      Power Monitoring
-      {% endif %}
-      {{ page.type }}
-</h2>
-<div> 
-  <img src="{{ page.image }}" alt="{{ page.title }}" style="max-height: 300px">
+  <div class="column column-20">
+  {% include gpios.html %}
+  </div>
+  </div>
 </div>
-<p>
-<div class="float-right">
-  <a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">
-    Edit on GitHub
-  </a>
+<div class="row">
+  <div class="column"><h4>Template</h4></div>
+  <div class="column-10"><a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
-<h4>Template</h4>
-<pre>
-    <code class="language-erlang">{{ page.template }}</code>
-</pre>
-<hr>
-{% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156' %}
-For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/#/Power-Monitoring-Calibration">power monitoring calibration</a>.
-{% endif %}
-
-{% if page.flash == 'tuya-convert' %}
-Tasmota flashed using <a href="https://github.com/ct-Open-Source/tuya-convert" target="_blank">Tuya-Convert</a>.
-{% elsif page.flash == "serial" %}
-Tasmota flashed using <a href="https://tasmota.github.io/docs/#/installation/Prerequisites" target="_blank">serial</a>.
-{% else %}
-{% endif %}
-<p>
-{{ content | markdownify }}
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-erlang">{{ page.template }}</code></pre>
+  {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156' %}
+  For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/#/Power-Monitoring-Calibration">power monitoring calibration</a>.
+  {% endif %}
+  </div>
+</div>
+{{ content | markdownify }} 

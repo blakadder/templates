@@ -26,6 +26,9 @@ collections:
   unsupported:
     output: true
     permalink: /unsupported/:title.html
+  zigbee:
+    output: true
+    permalink: /zigbee/:title.html
 
 defaults:
   - scope:
@@ -38,6 +41,11 @@ defaults:
       type: "unsupported"
     values:
       layout: "unsupported"
+  - scope:
+      path: ""
+      type: "zigbee"
+    values:
+      layout: "zigbee"
 
 plugins:
   - jekyll-seo-tag
