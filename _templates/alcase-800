@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-25
+title: AICase 800lm
+link: https://www.amazon.fr/gp/product/B07MNCNM75/
+image: https://images-na.ssl-images-amazon.com/images/I/61T%2BBaoMkrL._SL1200_.jpg
+template: '{"NAME":"AICase Smart L","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---
+![](https://images-na.ssl-images-amazon.com/images/I/51KrGlG3k0L._AC_SL1200_.jpg)
