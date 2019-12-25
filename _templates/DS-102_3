@@ -9,3 +9,8 @@ image: https://user-images.githubusercontent.com/5904370/56752390-6fc67100-6788-
 template: '{"NAME":"DS-102 3 Gang","GPIO":[158,58,0,18,22,19,0,0,17,21,57,23,56],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.de/dp/B07WDG36R5/
 ---
+
+The three blue LEDs are configured to toggle with the switches.
+The additional red led behind the left button is configured as link indicator.
+
+If you prefer the blue LEDs to be illuminated when power is turned OFF, i.e. when the room is dark, replace "Led1i"/"Led2i"/"Led3i" by "Led1"/"Led2"/"Led3".
