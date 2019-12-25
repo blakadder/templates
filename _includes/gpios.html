@@ -1,5 +1,5 @@
 <div>
-    <table style="font-size: x-small;">
+    <table style="font-size: 1.25rem">
     <tr><th>GPIO #</th><th>Component</th></tr>
       {% assign template = page.template | split: ':' %}
       {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
