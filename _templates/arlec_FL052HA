@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-26
+title: Arlec FL052HA
+link: https://www.bunnings.com.au/arlec-smart-15w-security-floodlight-with-grid-connect_p0117299
+image: https://media.bunnings.com.au/Product-800x800/f85a5560-b1a4-4d75-bf41-414630dee99f.jpg
+template: '{"NAME":"ArlecFlood","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":15,"BASE":18}' 
+link2: 
+link3: https://www.arlec.com.au/
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---
+The unit is well sealed. IP65 weather rating. Would be hard to open to hack.
