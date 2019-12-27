@@ -10,5 +10,7 @@ template: '{"NAME":"DS-102 2 Gang","GPIO":[158,57,0,17,22,18,0,0,0,21,56,255,0],
 link2: https://www.amazon.de/dp/B07WDFVF46/
 ---
 
-The two blue leds are configured as Leds and toggle with the switches. The left red led is configured as link indicator.
+The two blue LEDs are configured to toggle with the switches.
+The additional red led behind the left button is configured as link indicator.
 
+If you prefer the blue LEDs to be illuminated when power is turned OFF, i.e. when the room is dark, replace "Led1i"/"Led2i" by "Led1"/"Led2".
