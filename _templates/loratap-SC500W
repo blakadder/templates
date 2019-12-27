@@ -13,4 +13,4 @@ standard: eu
 ---
 The following commands should be issued: 
 * switch on `Interlock` 
-* set the shutter runtime with `PulseTime1 <time in sec+100>' and `PulseTime2 <time in sec+100>'
+* set the shutter runtime with `PulseTime1 <time in sec+100>' and `PulseTime2 <time in sec+100>`
