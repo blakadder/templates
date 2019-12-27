@@ -10,18 +10,17 @@ template: '{"NAME":"SHP5","GPIO":[57,145,56,146,0,22,0,0,0,0,21,0,17],"FLAG":0,"
 link2: 
 link3: https://www.blitzwolf.com/BlitzWolf-BW-SHP5-3680W-EU-Wifi-Socket-Smart-Charger-with-Dual-USB-Ports-Compatible-with-French-Standard,-Works-with-Alexa,-Scheduled-Control,-Remote-Control,-Monitor-Power-Use-p-326.html
 ---
-Single press switches relay. Double press switches USB power. If inversion is needed execute command `SetOption11 1`
 
-Useful relevant commands:
+Disassembly to flash the module is not trivial, please follow online tutorials.
+Flashing with a 3.3V programmer seems to work, even though the low-voltage part of the module operates with 5V.
 
-`voltres 1`
+The hardware button switches socket power by a single press and USB power by a double press.
+If inversion is desired, execute command `SetOption11 1`.
 
-`wattres 2`
+Be aware that the HLW8032 power measurement component reports invalid readings for values lower than 5W.
+To discard low values and report 0W instead, execute command `SetOption39 1`.
 
-`voltageset`
-
-`currentset`
-
-`powerset`
-
-`setoption21 1`
+You might wish to keep USB power active at all times.
+Check out the command `ButtonRetain 1` for MQTT based retention.
+Furthermore, the red LED to indicate the power status of the module will be illuminated as long as any of the two relays are active.
+To ignore USB power and indicate socket power state only, execute command `LedMask 1`.
