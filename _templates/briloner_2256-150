@@ -3,7 +3,7 @@ date_added: 2019-12-26
 title: Briloner 2256-150 RGB
 link: https://www.onlinebaufuchs.de/Haus-Wohnen/Beleuchtung-Zubehoer/LED-Schlaeuche-Flexbaender/Briloner-WIFI-RGB-LED-Flexband-mit-transparenter-Ummantelung-Kunststoff-weiss::55629.html
 image: https://www.onlinebaufuchs.de/images/product_images/info_images/briloner_wifi_rgb_led_flexband_mit_trans_55629_0.jpg
-template: '{"NAME":"Briloner2256","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Briloner2256-1","GPIO":[51,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 link3: https://www.briloner.com
 flash: tuya-convert
@@ -11,4 +11,46 @@ category: light
 type: LED Strip
 standard: eu
 ---
-Original remote control no longer working yet.
+```console
+Rule1
+ON IrReceived#Data=0x00F7C03F DO Power 1 ENDON
+ON IrReceived#Data=0x00F740BF DO Power 0 ENDON
+ON IrReceived#Data=0x00F700FF DO Dimmer + ENDON
+ON IrReceived#Data=0x00F7807F DO Dimmer - ENDON
+ON IrReceived#Data=0x00F720DF DO Color2 1 ENDON
+ON IrReceived#Data=0x00F7A05F DO Color2 2 ENDON
+ON IrReceived#Data=0x00F7609F DO Color2 3 ENDON
+ON IrReceived#Data=0x00F7E01F DO Color2 12 ENDON
+Rule1 1
+```
+
+```console
+Rule2
+ON IrReceived#Data=0x00F710EF DO color2 #FF3F00 ENDON
+ON IrReceived#Data=0x00F730CF DO color2 #FF7E00 ENDON
+ON IrReceived#Data=0x00F708F7 DO color2 #FFBD00 ENDON
+ON IrReceived#Data=0x00F728D7 DO color2 #FFFF00 ENDON
+ON IrReceived#Data=0x00F7906F DO color2 #00FF3F ENDON
+ON IrReceived#Data=0x00F7B04F DO color2 #00FF7E ENDON
+ON IrReceived#Data=0x00F78877 DO color2 #00FFBD ENDON
+ON IrReceived#Data=0x00F7A857 DO color2 #00FFFF ENDON
+ON IrReceived#Data=0x00F750AF DO color2 #3F00FF ENDON
+Rule2 1
+```
+
+```console
+Rule3
+ON IrReceived#Data=0x00F7708F DO color2 #7E00FF ENDON
+ON IrReceived#Data=0x00F748B7 DO color2 #BD00FF ENDON
+ON IrReceived#Data=0x00F76897 DO color2 #FF00FF ENDON
+ON IrReceived#Data=0x00F7D02F DO backlog speed 1;Scheme 4 ENDON
+ON IrReceived#Data=0x00F7F00F DO backlog speed 5;Scheme 2 ENDON
+ON IrReceived#Data=0x00F7C837 DO Fade Toggle ENDON
+ON IrReceived#Data=0x00F7E817 DO backlog Fade 0;BlinkTime 1;BlinkCount 2;Power 3;RuleTimer1 60 ENDON
+ON Rules#Timer=1 do backlog Fade 1;Power 0 ENDON
+Rule3 1
+```
+
+The Smooth button on the remote is used as a switchoff timer of 60 seconds.
+The Fade button toggles fading between colors on and off
+Be sure to use a recent firmware. In 7.1 the IrRecv (51) was not available until upgraded to 8.1
