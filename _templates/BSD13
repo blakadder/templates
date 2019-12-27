@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-26
+title: BSD13
+link: https://www.aliexpress.com/item/32963187986.html
+image: https://ae01.alicdn.com/kf/HTB1c54rafjsK1Rjy1Xaq6zispXa2/US-UK-EU-Smart-Plug-WiFi-Remote-Control-with-Alexa-Timing-on-off-The-Power-Samrt.jpg_640x640.jpg
+template: '{"NAME":"TuyaPlugBSD13","GPIO":[0,57,0,0,0,0,0,0,21,17,52,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
