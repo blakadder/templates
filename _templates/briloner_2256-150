@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-26
+title: Briloner 2256-150 RGB
+link: https://www.onlinebaufuchs.de/Haus-Wohnen/Beleuchtung-Zubehoer/LED-Schlaeuche-Flexbaender/Briloner-WIFI-RGB-LED-Flexband-mit-transparenter-Ummantelung-Kunststoff-weiss::55629.html
+image: https://www.onlinebaufuchs.de/images/product_images/info_images/briloner_wifi_rgb_led_flexband_mit_trans_55629_0.jpg
+template: '{"NAME":"Briloner2256","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: https://www.briloner.com
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: eu
+---
+Original remote control no longer working yet.
