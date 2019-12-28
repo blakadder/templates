@@ -89,7 +89,7 @@ Rule1 1
 
 And there it is, relatively small battery and Tasmota powered contact sensor.
 
-_There is a few seconds delay (~7s on my network) between reed actuation and first MQTT message so I don't recommmend this in critical spots where a fast response is required. Using a custom binary with most less features shortens the delay by a second or two._
+_There is a few seconds delay (~7s on my network) between reed actuation and first MQTT message so I don't recommmend this in critical spots where a fast response is required. Using a custom binary with less features shortens the delay by a second or two._
 
 If the batteries are too weak sensor will be stuck in a bootloop and might spawn an ESP-XXXXX AP. 
 
