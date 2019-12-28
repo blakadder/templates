@@ -7,7 +7,7 @@ navigation: 21
 
 <!-- ######################################################################  -->
 {% assign category = site.templates | where: "category", "plug" %}
-{% assign type_group = category | group_by: 'type' | sort_natural: 'type' %}
+{% assign type_group = category | group_by: 'type' %}
 {% assign type_grouped = type_group  %}
 {% for group in type_grouped %}
 <BR>
