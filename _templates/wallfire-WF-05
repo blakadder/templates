@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-28
+title: Wallfire WF-05 700lm
+link: https://www.amazon.co.uk/light-Wallfire-Wireless-Remote-Control/dp/B074T1SCHV
+image: https://images-na.ssl-images-amazon.com/images/I/41ojrU8P5SL._SL500_SS120_.jpg
+template: '{"NAME":"Wallfire E27","GPIO":[17,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
+link2: https://www.amazon.com/dp/B073WB1CBT/
+link3: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
