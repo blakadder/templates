@@ -6,10 +6,11 @@ type: Switch
 standard: 
   - us
   - au
-link: https://www.aliexpress.com/item/Zemismart-US-AU-WiFi-Wall-Push-Light-Switch-Alexa-Google-Home-TUYA-APP-Control-One-Gang/32982759923.html
+link: https://www.amazon.com/Compatible-Assistant-Incandescent-Required-requires/dp/B07P94RML5/
+link2: https://www.aliexpress.com/item/Zemismart-US-AU-WiFi-Wall-Push-Light-Switch-Alexa-Google-Home-TUYA-APP-Control-One-Gang/32982759923.html
 image: https://www.zemismart.com/u_file/1903/products/06/0f36ba5fdd.jpg.640x640.jpg
 template: '{"NAME":"KS-811 Triple","GPIO":[0,0,56,0,19,18,0,0,22,21,23,0,17],"FLAG":0,"BASE":18}' 
-link2: 
+link3: https://www.zemismart.com/zemismart-us-wifi-wall-push-light-switch-alexa-google-home-enable-smart-life-app-controlone-gang-two-gangs-three-gangs_p0163.html
 ---
 
 New from Factory (Feb '19) has patched firmware blocking Tuya-Convert

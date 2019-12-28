@@ -12,8 +12,8 @@ layout: default
  {{ page.type }}
 </h2>
 </div>
-<div class="float-right">
-<!-- <div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%"> -->
+<!-- <div class="float-right"> -->
+<div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%">
   {% assign standard_list = page.standard %}
   {% for item_standard in standard_list %}
   <a class="button button-grey" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
