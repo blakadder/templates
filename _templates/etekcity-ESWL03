@@ -4,7 +4,7 @@ title: Etekcity ESWL03 3-way
 category: switch
 type: Switch
 standard: us
-link: https://www.amazon.com/gp/product/B07MBX6NGQ/
+link: https://www.amazon.com/Switch-Etekcity-Neutral-Required-Warranty/dp/B07MBX6NGQ/
 image: https://user-images.githubusercontent.com/5904370/66718127-ab113680-ede0-11e9-945b-c717cf56ab04.png
 template: '{"NAME":"Etekcity 3Way","GPIO":[0,0,0,0,23,29,0,0,82,22,10,0,0],"FLAG":0,"BASE":18}' 
 link2: 
