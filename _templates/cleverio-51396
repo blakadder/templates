@@ -1,6 +1,6 @@
 ---
 date_added: 2019-12-04
-title: Cleverio Smart 800lm
+title: Cleverio 51396 800lm
 link: https://www.kjell.com/se/produkter/hem-kontor-fritid/smarta-hem/cleverio/cleverio-smart-e27-filament-led-lampa-800-lm-p51396
 image: https://user-images.githubusercontent.com/5904370/70343617-09461d00-1858-11ea-9c3d-8adf0f663ac5.png
 template: '{"NAME":"Cleverio E27","GPIO":[0,0,0,0,0,0,0,0,0,0,46,0,0],"FLAG":0,"BASE":18}'
@@ -11,4 +11,4 @@ category: bulb
 type: Filament
 standard: e27
 ---
-Seems to be the same OEM product as [Merkury Innovations A19 Edison Bulb](merkury_innovations_A19_edison.html)
+Seems to be the same OEM product as [Merkury Innovations A19 Edison Bulb](merkury_innovations_A19_edison)
