@@ -12,3 +12,6 @@ link3: https://www.moeshouse.com/collections/smart-dimmer-switch/products/diy-sm
 ---
 
 Identical template and setup to [QS-WIFI-D01 Dimmer](qs-wifi_D01_dimmer.html)
+
+Attention:  The ordered MS-105-1 often is replaced by the MS-105 with differing logic.
+            In this case please refer to the template 'WiFi-Dimmer MS-105'.
