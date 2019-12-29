@@ -5,7 +5,7 @@ type: RGBW
 category: bulb
 standard: e12
 link: https://www.amazon.com/dp/B07SBW9NMJ
-image: https://images-na.ssl-images-amazon.com/images/I/51mEXRgUoiL._SL1200_.jpg
+image: https://user-images.githubusercontent.com/5904370/71560617-ed0b5980-2a6c-11ea-8f22-0d1661033053.png
 template: '{"NAME":"Lohas","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":26}' 
 link2: https://www.lohas-led.com/a19-e12-smart-light-bulb-p0160.html
 ---

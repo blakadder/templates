@@ -1,13 +1,13 @@
 ---
-date_added: 2019-08-25
+date_added: 2019-12-29
 title: Lohas ZN005 420lm
 type: RGBW
 category: bulb
 standard: e14
-link: https://www.amazon.co.uk/gp/product/B078XCXR2S
-image: https://images-na.ssl-images-amazon.com/images/I/51DfVepS-SL._SX342_.jpg
+link: https://www.amazon.co.uk/Reflector-Changing-Controlled-Devices-Required/dp/B07VHCQGH8
+image:https://images-na.ssl-images-amazon.com/images/I/516fMO68U4L._SL1200_.jpg
 template: '{"NAME":"Lohas E14 R50","GPIO":[17,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
-link2: 
+link2: https://www.amazon.de/Gl%C3%BChbirnen-Kompatibel-entspricht-Reflektorlampe-erforderlich/dp/B07VHCQGH8
 ---
 Manufacturer reference: LH-ZN005W5E14-2
 

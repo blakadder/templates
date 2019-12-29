@@ -5,7 +5,7 @@ type: RGBCCT
 category: bulb
 standard: e26
 link3: https://lohasled.en.alibaba.com/product/62093705465-0/LOHAS_LED_A19_8W_E26_Tuya_APP_Control_Smart_Light_Bulb_Compatible_with_Amazon_Alexa_Google_Home_IFTTT_SIRI.html
-image: https://user-images.githubusercontent.com/5904370/66717637-777fdd80-eddb-11e9-8764-04d1158a329b.png
+image: https://user-images.githubusercontent.com/5904370/71560690-7ae74480-2a6d-11ea-99ca-e84bccc0b49a.png
 template: '{"NAME":"Lohas ZN031","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 link: https://www.amazon.com/dp/B07PMD3DY2

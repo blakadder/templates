@@ -5,7 +5,7 @@ type: RGBW
 category: bulb
 standard: e12
 link: https://www.amazon.com/gp/product/B07951M4DN
-image: https://images-na.ssl-images-amazon.com/images/I/51NaD0UdsvL._SL1200_.jpg
+image: https://user-images.githubusercontent.com/5904370/71560651-3eb3e400-2a6d-11ea-9d31-26f183bbe017.png
 template: '{"NAME":"LH-5W-ZN01204","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
 link2: https://www.lohas-led.com/candle-2000k-9000k-smart-bulb-p0147.html
 link3: https://www.lohasled.com/5w-c35-p00183p1.html
