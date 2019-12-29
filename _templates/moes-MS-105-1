@@ -1,17 +1,21 @@
 ---
-date_added: 2019-12-08
-title: Moes MS-105-1
+date_added: 2019-12-29
+title: Moes MS-105-1 v2
+link: https://www.aliexpress.com/item/4000436821697.html
+image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/2_9be9f2a3-4d13-46a5-b543-efdad91750de_1800x1800.jpg
+template: '{"NAME":"MS-105","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link2: 
+link3: https://www.moeshouse.com/products/diy-smart-wifi-light-led-dimmer-switch-smart-life-tuya-app-remote-control-1-2-way-switch-works-with-alexa-echo-google-home-1
+flash: tuya-convert
 category: switch
 type: Dimmer
 standard: global
-link: https://www.banggood.com/MoesHouse-DIY-Smart-WiFi-Light-LED-Dimmer-Switch-Smart-LifeTuya-APP-Remote-Control-12-Way-Switch-Works-With-Alexa-Echo-Google-Home-p-1509161.html
-image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/2_8400a6e8-aa85-4d9d-9d3e-cc2cbe65f4dd_1800x1800.jpg
-template: '{"NAME":"Moes MS-105-1","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
-link2: 
-link3: https://www.moeshouse.com/collections/smart-dimmer-switch/products/diy-smart-wifi-light-led-dimmer-switch-smart-life-tuya-app-remote-control-1-2-way-switch-works-with-alexa-echo-google-home
 ---
-
-Identical template and setup to [QS-WIFI-D01 Dimmer](qs-wifi_D01_dimmer.html)
-
-Attention:  The ordered MS-105-1 often is replaced by the MS-105 with differing logic.
-            In this case please refer to the template 'WiFi-Dimmer MS-105'.
+After applying the template, enable dimmer functionality using console command:
+```console
+TuyaMCU 21,2
+```
+Then set dimmer range using console command:
+```console
+DimmerRange 0,999
+```

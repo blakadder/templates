@@ -1,0 +1,19 @@
+---
+date_added: 2019-12-09
+title: Lohas LH-ZN026 RGBCCT
+link: https://www.amazon.de/gp/product/B07CJF95KR
+image: https://sc01.alicdn.com/kf/HTB1lk_ja_HuK1RkSndVq6xVwpXaS/15W-21-Keys-Controller-Lighting-RGB-Color.jpg
+template: '{"NAME":"Lohas LED Lamp","GPIO":[0,0,0,0,38,37,0,0,40,39,41,0,0],"FLAG":0,"BASE":18}'
+link2: https://lohasled.en.alibaba.com/product/62008497999-807450711/15W_21_Keys_Controller_Lighting_RGB_Color_Changing_IR_Remote_Control_Ceiling_Light.html
+link3: https://www.lohas-led.com
+flash: tuya-convert
+category: light
+type: Light
+standard: eu
+---
+Model Number: RB-YK018CL10
+
+```console
+SetOption37 1
+```
+![](https://images-na.ssl-images-amazon.com/images/I/5140fbGqLoL._SL1200_.jpg)

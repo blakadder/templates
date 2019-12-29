@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-28
+title: Ucomen PA-GEBA-01SWP
+link: https://www.amazon.de/UCOMEN-Outdoor-Sockets-Steckdose-Funktioniert/dp/B07V6D3XTJ/
+image: https://user-images.githubusercontent.com/5904370/71558721-8ed37c00-2a56-11ea-8b11-784df41ec28c.png
+template: '{"NAME":"PA-GEBA-01SWP","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link2: https://posa-tech.en.alibaba.com/product/62426981407-213784129/16A_3680W_IP44_Outdoor_Wifi_Smart_Plug_with_Socket_EU_Standard_with_Children_Protection.html
+link3: http://www.ucomen.com/
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: eu
+---
+GPIO4 (green LED) is not assigned

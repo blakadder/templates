@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-29
+title: LSC Smart Connect Filament 400lm
+link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-filament-ledlamp-5/
+image: https://www.action.com/globalassets/cmsarticleimages/79/61/2578519_8712879142720-111_01.png
+template: '{"NAME":"LSC_E14_Filame","GPIO":[0,255,0,255,0,0,0,0,38,0,37,0,0],"FLAG":15,"BASE":18}' 
+link2: https://www.action.com/de-de/p/lsc-smart-connect-intelligente-led-filament-lampe-6/
+link3: 
+flash: tuya-convert
+category: bulb
+type: Filament
+standard: e14
+---

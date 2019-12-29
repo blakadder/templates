@@ -1,6 +1,6 @@
 ---
 date_added: 2019-12-02
-title: Lohas ZN070 720lm
+title: Lohas LH-ZN070 720lm
 category: bulb
 type: CCT
 standard: e26
@@ -9,5 +9,6 @@ image: https://images-na.ssl-images-amazon.com/images/I/513j0pYhWfL._SL1200_.jpg
 template: '{"NAME":"Lohas ZN070","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
+Manufacturer ID: LH-ZN070-E26-2P
 
 Tunable from 2000K-6500K, no RGB.
