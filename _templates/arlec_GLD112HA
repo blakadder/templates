@@ -10,6 +10,8 @@ template: '{"NAME":"Arlec CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BA
 link2: 
 ---
 
+The bulb has hardware Gamma Correction included, you need to configure `LedTable 0` 
+
 Converted with tuya-convert 2. 
 
 gpio 13 is colour (0 - WW, ff -CW), gpio5 is dimmer.
