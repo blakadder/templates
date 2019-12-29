@@ -1,6 +1,6 @@
 ---
 date_added: 2019-12-09
-title: Lohas LH-ZN026 RGBCCT
+title: Lohas LHL-ZN026 RGBCCT
 link: https://www.amazon.de/gp/product/B07CJF95KR
 image: https://sc01.alicdn.com/kf/HTB1lk_ja_HuK1RkSndVq6xVwpXaS/15W-21-Keys-Controller-Lighting-RGB-Color.jpg
 template: '{"NAME":"Lohas LED Lamp","GPIO":[0,0,0,0,38,37,0,0,40,39,41,0,0],"FLAG":0,"BASE":18}'
