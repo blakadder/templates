@@ -1,6 +1,6 @@
 ---
 date_added: 2019-12-02
-title: Lohas LH-ZN070 720lm
+title: Lohas ZN070 720lm
 category: bulb
 type: CCT
 standard: e26
@@ -8,7 +8,8 @@ link: https://www.amazon.com/gp/product/B07QY6DDKZ
 image: https://images-na.ssl-images-amazon.com/images/I/513j0pYhWfL._SL1200_.jpg
 template: '{"NAME":"Lohas ZN070","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
+link3: https://lohasled.en.alibaba.com/product/62012162860-811833952/Tunable_White_2000K_6500K_A19_A60_8W_Dimmable_LED_Smart_Bulb_Compatible_With_Alexa_Google_Home_Tuya_Smart_APP.html
 ---
-Manufacturer ID: LH-ZN070-E26-2P
+Reference: LH-ZN070-E26-2P
 
 Tunable from 2000K-6500K, no RGB.

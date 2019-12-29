@@ -1,6 +1,6 @@
 ---
 date_added: 2019-10-04
-title: Lohas LH-ZN012 450lm  
+title: Lohas ZN012 450lm  
 type: RGBW
 category: bulb
 standard: e12
@@ -8,6 +8,7 @@ link: https://www.amazon.com/gp/product/B07951M4DN
 image: https://images-na.ssl-images-amazon.com/images/I/51NaD0UdsvL._SL1200_.jpg
 template: '{"NAME":"LH-5W-ZN01204","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
 link2: https://www.lohas-led.com/candle-2000k-9000k-smart-bulb-p0147.html
+link3: https://www.lohasled.com/5w-c35-p00183p1.html
 ---
 
 Manufacturer reference: LH-Smart-5W-ZN01204
