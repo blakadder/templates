@@ -1,6 +1,6 @@
 ---
-date_added: 2019-07-13
-title: Zemismart 14W RGB-CCT 
+date_added: 2019-12-30
+title: Zemismart 6" 14W RGBCCT 
 category: light
 type: Light
 standard: global
@@ -9,8 +9,8 @@ image: https://user-images.githubusercontent.com/5904370/66718388-9d10e500-ede3-
 template: '{"NAME":"ZemiDownLight6","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
-
+Reference: ZMLD002- 6
+![](https://ae01.alicdn.com/kf/HTB1Es1RvYSYBuNjSspiq6xNzpXaV.jpg)
 
 
 
