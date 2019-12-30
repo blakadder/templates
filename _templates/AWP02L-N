@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-29
+title: AWP02L-N 
+link: https://www.amazon.com/Outlet-Wireless-Switch-Amazon-Control/dp/B07GC59ZDW/
+image: https://images-na.ssl-images-amazon.com/images/I/511SUaAT0TL._AC_SL1000_.jpg
+template: '{"NAME":"AWP02L-N","GPIO":[158,0,0,0,56,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+LED seems to have two modes, bright and low. This template has it low blue when socket is on. It should blink blue with no connectivity and be off when the socket is off.
