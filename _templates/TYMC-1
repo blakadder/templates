@@ -82,6 +82,12 @@ There is no function in Tasmota for enum dpID's currently so we will use a rule 
 ```console
 Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/door-sensor/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010114 DO publish2 stat/door-sensor/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010015 DO publish2 stat/door-sensor/BATT low ENDON
 ```
+
+Starting with Tasmota 7.2, you can use this generic rule for all your sensors
+```console
+Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010114 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010015 DO publish2 stat/%topic%/BATT low ENDON
+```
+
 Don't forget to turn on the rule:
 ```console
 Rule1 1
