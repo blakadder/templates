@@ -43,7 +43,6 @@ if chg[cnt1]>0
 then
 ; counter1 has changed, switch is on, reset counter
 sw1=1
-->Counter1 0
 else
 ; no change switch is off
 sw1=0
@@ -53,13 +52,12 @@ if chg[cnt2]>0
 then
 ; counter2 has changed, switch is on, reset counter
 sw2=1
-->Counter2 0
 else
 ; no change switch is off
 sw2=0
 endif
 
-; 100 ms timer
+; 100 ms timer for debounce
 timer1+=1
 timer2+=1
 
@@ -105,6 +103,18 @@ endif
 if sw2==0
 then
 timer2=0
+endif
+
+>S
+; restart the device every sunday at 04:00
+; to avoid possible issues when increasing counters and variables
+
+if wday==1
+and hours==4
+and mins==0
+and secs==0
+then
+->Restart 1
 endif
 
 ```
@@ -179,6 +189,19 @@ if sw2==0
 then
 timer2=0
 endif
+
+>S
+; restart the device every sunday at 04:00
+; to avoid possible issues when increasing counters and variables
+
+if wday==1
+and hours==4
+and mins==0
+and secs==0
+then
+->Restart 1
+endif
+
 ```
 
 ![flash_pins](https://user-images.githubusercontent.com/39533759/65378708-98618100-dcbc-11e9-8b38-f0156d719a38.JPG)
