@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-30
+title: Kisslink SP200
+link: https://www.amazon.com/Kisslink-Compact-Required-Scheduling-Assistant/dp/B06XKB6P72/
+image: https://static.bhphoto.com/images/images250x250/1534257449000_1387715.jpg
+template: '{"NAME":"Kisslink SP200","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":1,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+Configured as most plug templates: flashing blue if not connected. No LED if connected. Red LED when on.
