@@ -1,0 +1,16 @@
+---
+date_added: 2019-12-31
+title: Smaho
+link: https://www.amazon.de/SMAHO-Steckdose-kompatibel-Sprachsteuerung-Zeitsteuerung/dp/B07SNVT8JN/
+image: https://images-na.ssl-images-amazon.com/images/I/61Q9QwGqFJL._SL1500_.jpg
+template: '{"NAME":"SMAHO WiFi P.","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+In contrast to the original firmware, Tasmota also enables current and voltage measurement!
+
+In order to flash the socket with Tasmota, the circuit board must be removed, since the connections are on the bottom.
