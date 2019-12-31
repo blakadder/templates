@@ -6,8 +6,8 @@ type: Switch
 standard: us
 link: https://www.amazon.com/gp/product/B077M5FN9M
 image: https://images-na.ssl-images-amazon.com/images/I/216LMI6KgZL.jpg
-template: '{"NAME":"KS-602","GPIO":[17,0,0,0,0,0,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"KS-602","GPIO":[17,0,0,0,0,0,0,0,21,158,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
-Easily converted with Tuya-Convert
+Easily converted with Tuya-Convert. LED will blick with no connection and be off when there is one. If it is wanted to be on for on-line, simply change GPIO13 to LedLink.
