@@ -17,5 +17,5 @@ TuyaMCU 21,2
 ```
 Then set dimmer range using console command:
 ```console
-DimmerRange 0,999
+DimmerRange 0,720
 ```
