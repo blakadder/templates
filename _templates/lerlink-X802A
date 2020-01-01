@@ -12,3 +12,5 @@ type: Switch
 standard: eu
 ---
 "Relay 3" toggles the green LEDs on both buttons. I could not find out wether the red LEDs (seems to be linked to the relays) and the green LEDs could be addressed individualy. To turn off the green LEDs from the start set Relay 3 to inverted ("i").
+
+Blakadder note: A 2 Gang switch with 3 relays?! This template is probably not the best solution and there need to be some Led components assigned
