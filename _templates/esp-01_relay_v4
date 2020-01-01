@@ -20,7 +20,8 @@ link2: https://www.amazon.ca/ESP8266-ESP-01S-Module-ESP01S-Control/dp/B07VQG9J4S
  
  There is no add in for the button on the module as it serves as a reset, rather than an on/off switch. 
  
- To make this work with v1.0 of the ESP-01 Relay, you must remove R2 (desolder it or just break it off with a screwdriver) and pull CH_PD high (this is easiest to do with a 10k resistor): [https://i.imgur.com/79ySGMt.jpg]
+ To make this work with v1.0 of the ESP-01 Relay, you must remove R2 (desolder it or just break it off with a screwdriver) and pull CH_PD high (this is easiest to do with a 10k resistor): 
+ ![https://i.imgur.com/79ySGMt.jpg](https://i.imgur.com/79ySGMt.jpg)
 
 
 
