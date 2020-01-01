@@ -1,16 +1,17 @@
 ---
 date_added: 2019-12-14
-title: Aseer Hi-UK5PinWFWS01W
-link: https://www.aliexpress.com/item/4000192716338.html
-image: https://ae01.alicdn.com/kf/Hed2221b545fe4a29beb6d32abdeb9c1bM/ASEER-UK-Standard-WIFI-Socket-5-pin-Universal-WIFI-wall-socket-15A-Crystal-tempered-glass-panel.jpg_640x640.jpg
+title: Makegood MG-UKWSW/B
+link: http://s.click.aliexpress.com/e/K0jKDiPI
+image: https://ae01.alicdn.com/kf/H801ffcb1f120478fb76b1f5290bc72b0S/5-Pin-Universal-APP-control-WIFI-wall-socket-power-15A-electrical-outlet-Crystal-tempered-glass-panel.jpg_640x640.jpg
 template: '{"NAME":"Aseer 1-Gang","GPIO":[56,0,157,57,134,132,0,0,131,0,0,21,9],"FLAG":0,"BASE":18}' 
-link2: 
-link3: 
+link2: http://s.click.aliexpress.com/e/33AVzynQ
+link3: https://www.alibaba.com/product-detail/86-86mm-tuya-app-smart-life_62249474553.html
 flash: tuya-convert
 category: plug
 type: Wall Outlet
-standard: global
+standard: uk
 ---
+Other manufacturer IDs: HX-U5pinW/B or Hi-UK5PinWFWS01W
 
 I based this loosely on the MakeGood template found here and made some changes. The only thing I did not manage to get working is the low blue LED light when the socket is switched off. LED for power on works fine.
 
