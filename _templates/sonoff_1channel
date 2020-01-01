@@ -3,11 +3,13 @@ title: 1 Channel Inching/Self-Locking
 category: switch
 type: Relay
 standard: global
-link: https://www.itead.cc/inching-self-locking-wifi-wireless-switch.html
+link3: https://ewelink.coolkit.cc/?p=143
 image: https://user-images.githubusercontent.com/5904370/57887139-173a3f00-782f-11e9-8bcc-b0a41451bb10.png
 template: '{"NAME":"1 Channel","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":12}' 
-link_2: 
+link: 
 ---
+Discontinued in favor of [Sonoff RE5V1C](sonoff_RE5V1C)
+
 ## Serial Flashing
 ### PSA-B01
 ![PSA-B01](https://user-images.githubusercontent.com/30130742/30688446-77df0148-9ebe-11e7-9556-ad413b839a16.png)
