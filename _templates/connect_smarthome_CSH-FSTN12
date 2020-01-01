@@ -1,0 +1,13 @@
+---
+date_added: 2020-01-01
+title: Connect SmartHome CSH-FSTN12
+link: https://www.harveynorman.com.au/connect-smart-rgb-led-festoon-light.html
+image: https://user-images.githubusercontent.com/5904370/71641280-52439280-2c99-11ea-92a8-f0853f7206bf.png
+template: '{"NAME":"CSH-FSTN12","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: https://www.connectsmarthome.com.au/lighting.html
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---

@@ -1,0 +1,16 @@
+---
+date_added: 2019-12-31
+title: Xenon SM-SW102U 2 Gang
+link: https://www.amazon.com/Tempered-Wireless-Standard-Compatible-Assistant/dp/B0719Q5G5B
+image: https://images-na.ssl-images-amazon.com/images/I/61BpAWoRH6L._AC_SL1500_.jpg
+template: '{"NAME":"SM-SW102U-2","GPIO":[52,0,0,18,22,0,0,0,17,21,0,0,0],"FLAG":1,"BASE":18}' 
+link2: https://www.amazon.ca/SM-SW102-Tempered-Wireless-Compatible-Assistant/dp/B07KFVYMPT
+link3: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+Sold under Xenon and Jinvoo Smart. The box I have says Jinvoo while the link and documentation inside the box say Xenon.  This is the two-gang switch version for US.
+
+![image](https://user-images.githubusercontent.com/5904370/71641123-0263cc00-2c97-11ea-9584-2f5466280be5.png)

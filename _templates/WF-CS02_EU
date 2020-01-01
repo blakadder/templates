@@ -1,0 +1,68 @@
+---
+date_added: 2019-12-31
+title: WF-CS02
+link: https://www.amazon.de/Zeitschaltuhr-Etersky-Rollladen-Kompatibel-Fernbedienung/dp/B07PQ11PPS
+image: https://i.ibb.co/SnK2jzD/product-image-992218767-530x-2x.jpg
+template: '{"NAME":"WF-CS02 Tuya","GPIO":[157,0,53,11,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
+link2: https://www.ebay.com/itm/100-240V-Intelligenter-WiFi-Schalter-für-elektrischen-Rollladen-Touch-Control/123922710893
+link3: 
+flash: tuya-convert
+category: switch
+type: Curtain Switch
+standard: eu
+---
+
+Added some rules to get the switch working, based on https://tasmota.github.io/docs/#/Blinds-and-Shutters:
+
+```console
+SetOption80 1 # Enable shutter support, reset the device after for correct interface to show up
+
+ShutterRelay1 1 # Enable shutter relay 1
+
+Backlog PulseTime1 0; PulseTime2 0 # ShutterMode0
+
+Backlog Interlock 1,2; Interlock ON
+
+PowerRetain 1 # Save state for Home Assistant
+
+Rule1 on Power3#State=1 do backlog ShutterStop1; Power3 0 endon # Use the middle button for stopping shutter movement
+
+Rule1 1
+
+SwitchMode1 4 # Make the buttons do their actions on touch, not release
+
+SwitchMode2 4
+
+SwitchMode3 4
+```
+
+Do the calibration as per instructions in Tasmota documentation.
+
+Flashing the device using TuyaConvert worked in this case even though multiple devices were manufactured in October 2019.
+There are no prebuilt Tasmota binaries with native shutter support included, so Tasmota must be compiled manually with the correct flag for this functionality to be present. Instructions for this can also be found in Tasmota documentation.
+
+The shutter can now be integrated into Home Assistant:
+
+```yaml
+
+cover:
+  - platform: mqtt
+    name: "Tuya WF-CS02 Shutter"
+    availability_topic: "tele/<tasmota>/LWT"
+    state_topic: "stat/<tasmota>/RESULT"
+    command_topic: "cmnd/<tasmota>/Backlog"
+    value_template: '{{ value | int }}'
+    qos: 1
+    retain: false
+    payload_open: "ShutterOpen1"
+    payload_close: "ShutterClose1"
+    payload_stop: "ShutterStop1"
+    state_open: "ON"
+    state_closed: "OFF"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    optimistic: false
+    set_position_topic: 'cmnd/<tasmota>/ShutterPosition1'
+    position_topic: "stat/<tasmota>/SHUTTER1"
+
+```

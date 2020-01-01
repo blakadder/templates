@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-31
+title: Teekar Wi-Fi Light 1 Gang
+link: https://www.amazon.de/gp/product/B07SLHCX5B
+image: https://ae01.alicdn.com/kf/HTB1VeFFXHys3KVjSZFnq6xFzpXak/Teekar-Touch-Switch-Smart-Light-Switch-Panel-1-2-3-Gang-Wall-Touch-Wifi-Switch-EU.jpg_640x640.jpg
+template: '{"NAME":"Teekar Touch","GPIO":[0,0,255,0,255,21,0,0,0,255,17,0,255],"FLAG":0,"BASE":18}' 
+link2: https://www.aliexpress.com/item/33030860599.html
+link3: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---
+![](https://images-na.ssl-images-amazon.com/images/I/61HLGVHG5TL.jpg)
