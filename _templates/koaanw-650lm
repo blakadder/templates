@@ -11,7 +11,11 @@ category: bulb
 type: RGBW
 standard: e27
 ---
-The bulb can be open by pulling the top side. Carefully pull, not unscrew. It is glued, but softly. After opening, the ESP module becomes accessible to solder the wires for VCC, GNTD, TX and RX. There is no need to de-solder the ESP module from the rest of the bulb. 
+The bulb can be open by pulling the top side. Carefully pull, not unscrew. It is glued, but softly. 
+
+After opening, the ESP module becomes accessible to solder the wires for VCC, GND, TX and RX. There is no need to de-solder the ESP module from the rest of the bulb. Just ckeck the side that has 6 soldered pads (the other side has 5 soldered pads). Here is the PIN configuration:
+- The 6 Pad side, from left: VCC (3V), GND, RX, TX, GPIO 12, GPIO 14
+- The 5 Pad side, from left: GPIO 16 (deep sleep wakeup), TOUT, GPIO 13, GPIO 04 (Connected to DI of 8281), GPIO 05 (Connected to DCKI of 9291)
 
 DO NOT CONNECT SERIAL WHILE THE BULB IS UNDER HIGH VOLTAGE!!!
 
