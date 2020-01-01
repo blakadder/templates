@@ -1,0 +1,13 @@
+---
+date_added: 2020-01-01
+title: Mimoodz 1050lm
+link: https://www.amazon.com/Mimoodz-Dimmable-Equivalent-Required-Compatible/dp/B06XQ7M176/
+image: https://images-na.ssl-images-amazon.com/images/I/71gaKq42d6L._AC_SL1500_.jpg
+template: '{"NAME":"ID Components","GPIO":[0,0,0,0,21,22,0,0,23,24,25,26,27],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: a21
+---
