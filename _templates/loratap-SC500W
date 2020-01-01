@@ -13,5 +13,5 @@ standard: eu
 ---
 The following commands should be issued: 
 * switch on `Interlock` 
-* set the switches to follow and inverse `SwitchMode1 2` and `SwitchMode2 2`. Have a look at https://github.com/arendst/Tasmota/wiki/Buttons-and-Switches#switchmode
-* set the shutter runtime with `PulseTime1 <time in sec+100>` and `PulseTime2 <time in sec+100>`. Have a look at https://github.com/arendst/Tasmota/wiki/Commands#PulseTime
+* set the switches to follow and inverse `SwitchMode1 2` and `SwitchMode2 2`. Have a look at [https://tasmota.github.io/docs/#/Buttons-and-Switches?id=switchmode]
+* set the shutter runtime with `PulseTime1 <time in sec+100>` and `PulseTime2 <time in sec+100>`. Have a look at [https://tasmota.github.io/docs/#/Commands?id=pulsetime]
