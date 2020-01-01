@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-01
+title: Gosund UP111
+link: https://www.amazon.co.uk/gp/product/B07VVBH76Y
+image: https://images-na.ssl-images-amazon.com/images/I/51wa4qjOEJL._AC_SL1500_.jpg
+template: '{"NAME":"Gosund UP111","GPIO":[0,52,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---
+Seems to be same device as the 2NICE UP111
