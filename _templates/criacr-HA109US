@@ -1,0 +1,13 @@
+---
+date_added: 2020-01-01
+title: Criacr HA109US
+link: https://www.amazon.com/Grounded-Outdoor-Waterproof-Switches-Wireless/dp/B07T1HDGD5
+image: https://user-images.githubusercontent.com/5904370/71647606-aaaa7c80-2cf9-11ea-80bf-3e313b585f89.png
+template: '{"NAME":"Criacr HA109US","GPIO":[17,0,0,0,52,53,0,0,21,0,22,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---
