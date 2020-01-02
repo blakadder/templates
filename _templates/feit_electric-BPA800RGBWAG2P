@@ -1,0 +1,18 @@
+---
+date_added: 2020-01-01
+title: Feit Electric BPA800/RGBW/AG/2(P) 800lm
+type: RGBW
+category: bulb
+standard: e26
+link2: https://www.costco.com/Feit-WiFi-Smart-Bulbs%2c-4-pack.product.100417461.html
+image: https://www.feit.com/wp-content/uploads/2018/05/BPA800_RGBW_AG_2_pack-1.jpg
+template: '{"NAME":" BPA800/RGBW/AG/2P","GPIO":[0,0,0,0,37,38,0,0,141,142,140,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.amazon.com/Electric-Assistant-A800-RGBW-AG/dp/B07RL48PFF
+link3: https://www.feit.com/product/smart-wifi-bulb-color-changing-tunable-white/
+---
+
+This bulb seems to have hardware Gamma correction, so you need to make sure you disable Software Gamma Correction:
+
+`LedTable 0`
+
+**NOTE:** There are two variants of this bulb, BPA800/RGBW/AG/2(P) and BPA800/RGBW/AG/2. 
