@@ -5,7 +5,7 @@ link: https://www.banggood.com/AC100-240V-Smart-WiFi-Dimmer-Light-Switch-Home-Au
 image: https://user-images.githubusercontent.com/5904370/71354140-4cec9680-257b-11ea-8f6f-fad7d6c5858e.png
 template: '{"NAME":"RJWF-02A","GPIO":[17,107,0,108,0,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":54}'
 link: https://www.amazon.co.uk/gp/product/B07NRD9TLQ/
-link2: 
+link2: https://www.banggood.com/AC100-240V-Smart-WiFi-Dimmer-Light-Switch-Home-Automation-and-Voice-Control-Works-with-Amazon-Alexa-p-1435875.html
 link3: https://yuadon.en.alibaba.com/product/60833600822-806586734/Manufacturer_Electric_Intelligente_smart_wifi_light_dimmer_wireless_switch_Lamp_Switch.html
 flash: tuya-convert
 category: switch
