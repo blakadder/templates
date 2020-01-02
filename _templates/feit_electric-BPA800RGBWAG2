@@ -6,9 +6,11 @@ category: bulb
 standard: e26
 link2: https://www.costco.com/Feit-WiFi-Smart-Bulbs%2c-4-pack.product.100417461.html
 image: https://www.feit.com/wp-content/uploads/2018/05/BPA800_RGBW_AG_2_pack-1.jpg
-template: '{"NAME":" BPA800/RGBW/AG/2","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":48}' 
+template: '{"NAME":" BPA800/RGBW/AG/2","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Electric-Assistant-A800-RGBW-AG/dp/B07RL48PFF
 link3: https://www.feit.com/product/smart-wifi-bulb-color-changing-tunable-white/
 ---
 
 Run `setoption37 54` from the console to correct the red - blue mismatch.
+
+**NOTE:** There are two variants of this bulb, BPA800/RGBW/AG/2(P) and BPA800/RGBW/AG/2. 
