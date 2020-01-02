@@ -3,7 +3,7 @@ date_added: 2019-12-31
 title: Teekar Wi-Fi Light 1 Gang
 link: https://www.amazon.de/gp/product/B07SLHCX5B
 image: https://ae01.alicdn.com/kf/HTB1VeFFXHys3KVjSZFnq6xFzpXak/Teekar-Touch-Switch-Smart-Light-Switch-Panel-1-2-3-Gang-Wall-Touch-Wifi-Switch-EU.jpg_640x640.jpg
-template: '{"NAME":"Teekar Touch","GPIO":[0,0,0,0,0,21,0,0,0,0,17,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"TeeKar Touch","GPIO":[0,0,255,0,255,21,0,0,0,255,17,0,255],"FLAG":0,"BASE":18}' 
 link2: http://s.click.aliexpress.com/e/kmMOCM16
 link3: 
 flash: tuya-convert
@@ -12,3 +12,25 @@ type: Switch
 standard: eu
 ---
 ![](https://images-na.ssl-images-amazon.com/images/I/61HLGVHG5TL.jpg)
+
+## Hints on configuring the user defind GPIOs (Under Main Menu -> Confoguration -> Configure module)
+
+GPIO 04 -> connected to Link LED. Set it to LedLink (157) to activate, or to None (0) to turn the small hidden blue LED off.
+
+To control the color of the RGB LED of the touchpad, you can play with GPIO 02 (wired to RED), GPIO 13 (wired to GREEN) and GPIO 16 (wired to BLUE).
+Keep in mind that Led1i will be turned on / off with the switch, Led2 and Led3 are always on. Here is a table with a couple of combinations: 
+
+---
+GPIO 02: None,Led1,Led1,None,None,None
+GPIO 13: Led1i,None,None,None,Led2,None
+GPIO 16: None,Led2,None,Led1i,Led1,None
+LED Color switch ON: Green,Blue,Off,Blue,Green,Off
+LED Color switch OFF: Off,Purple,Red,Off,Cyan,Off
+---
+
+** Please be aware: ** The touchpad of the device has a long lag in its hardware. It stays "touched" for 7-8 seconds, even if your finger is away.
+Once you touch it, you have to wait 7-8 seconds to touch it again. This is related to the hardware itself.
+In order to still be able to use it, you should set your options via console to the following:
+
+SetOption1 1
+SetOption13 1
