@@ -1,0 +1,9 @@
+---
+date_added: 2020-01-02
+title: Slitinto NX-SM2001
+category: plug
+type: Plug
+standard: eu
+link: https://www.amazon.it/gp/product/B07Q585WYR/ref=ppx_yo_dt_b_asin_title_o00_s00
+image: https://images-na.ssl-images-amazon.com/images/I/41CW4Wx6TTL._SL1001_.jpg
+template: '{"NAME":"NX-SM2001","GPIO":[0,0,0,17,134,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":45}'
