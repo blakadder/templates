@@ -12,10 +12,5 @@ link3:
 ---
 **NOTE:** There are two variants of this bulb, [BPA800/RGBW/AG/2(P)](feit_electric-BPA800RGBWAG2P) and BPA800/RGBW/AG/2 (this template). 
 
-This bulb seems to have hardware Gamma correction, so you need to make sure you disable Software Gamma Correction:
-
-`LedTable 0`
-
-
-
+Need to run `setoption37 54` to correct the RED and BLUE mismatch
 
