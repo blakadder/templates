@@ -1,0 +1,84 @@
+---
+date_added: 2020-01-03
+title: Nanxin NX-SM400
+link: http://s.click.aliexpress.com/e/LtlP3PCG
+image: http://nanxin88.com/userfile/Pimg/20180830095327390.jpg
+template: '{"NAME":"NX-SM400","GPIO":[0,0,0,17,134,132,0,0,130,52,21,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: http://nanxin88.com/productView.aspx?view=887&id=109
+flash: tuya-convert
+category: plug
+type: Plug
+standard: br
+---
+ 
+> This is the english version
+>
+> Para a versão em português (pr-BR) use [ESSE LINK](https://gist.github.com/marciogranzotto/db7b60c69af57b46d4ad1ca685d5cea6)
+
+
+<img src="https://images-na.ssl-images-amazon.com/images/I/41XVrjFSx0L._SL1001_.jpg" width=50%/>
+
+Recently, some smart plugs with the BR plug type started appearing on AliExpress
+
+Usually, these products don't have a specific model and make, since they are mostly Tuya whitelables.
+After searching alot, I've found [Nanxin NX-SM400](http://nanxin88.com/productView.aspx?view=887&id=109) which looks like this one.
+
+## Flash Tasmota
+
+Since this model working with the Smart Life app, we know it uses a Tuya chip.
+To flash Tasmota, we need to us [tuya-convert](https://github.com/ct-Open-Source/tuya-convert).
+There's an [excellent tutorial (in pt-BR) by Douglas Baptista](https://forum.homeassistantbrasil.com.br/t/tuya-convert-flash/408) that you can use.
+
+## Configuring Tasmota
+
+To configure the smart plug on Tasmota, we have to know how the ESP pins are connected. I had to open mine to check the connections.
+But you don't have to do the same. You can use this [template](https://templates.blakadder.com/nanxin_NX-SM400.html) that I've created.
+
+Go to the device's IP address > `Configuration` > `Configure Other` > `Template`
+```json
+{"NAME":"NX-SM400","GPIO":[0,0,0,17,134,132,0,0,130,52,21,0,0],"FLAG":0,"BASE":18}
+```
+Just paste that line and check `Activate`
+
+![](https://lh3.googleusercontent.com/-VzIp3qDtXPfZ6fZPdZp-ipwPK72lhiiE7ZwZyt1VNPcTRLtV8I4ax686qKbxZFHpzy_BULsJUWrlwu121x5v0t1fLzW9BDcPBA1N7SX4KoJDeVeDqs6e-R2y5RGdSEL0PCl4qwY5LlMUGoWA_Vj_1HVFuXueQvZNM4FN9Rcd1h2TEgdqVm_IUZapO8Fpa84RuALV6skLWNDYT4oSiawU1nKtUVcl4aOOuMa1d_pIgVKOnIVied-FBT2Ch3jehshf-wO_56tZ5Ltp0qG77wO1o4aHvBqFdt6TfYTBnyMw7TdPt_ZyfVLxZ4uh9SDFlhjQENL-1MG3aCN_NFqd5UexHYoSNx3T4umyEemuCjhjuZcjawzCho4QDFAieqSE64AilZuoZzgoJ_1Mn4xq_i94ZHoCQNA4nLjJzJvIfvFRU_1RXgFVi0xAK5hc8tXehF-MzNHFj43Xw3qYydubJsWDBhOBhs-RhF77KDwH6Z4qcGzFUsH3UYHaVrsou1n0KMdfVDoMCXB7SZgm2oJyWTbjI272wWdqOcwOeXxHP-4lBl79tXI8N2HNk4gRnnnI9c27dodLGsV2tNYKewEoHUjx9Q9IS3YW6q_eaE6oJwaVG712oKtrPU5GfIsg_dp4XF034_luJYg1kJGpyjvYMSGo8WkXX9RrO9Yeh1y64aqxLJExf8Dl3P3HYIDf0LYjoOy1loMryJx1tBOgpCtia_dApYEnwFCUFSa_hI-YIrVgo_f2wZx=w724-h1070-no)
+
+## Teardown
+
+To create the template, I had to open the plug up.
+
+If you want to do that, you can use a hot air gun on the bottom part and a flat head screwdriver to force it open.
+It will probably damage the case a little bit and you will need to glue it shut.
+
+<img src="https://lh3.googleusercontent.com/6-jZt0SFzSqepMcM5jCQfKPFTLG-Gv5jifMdtdLQC0y017AIRq8E4chiMfR0kcP0tf9ssu96zUy2QEcq-MscoJLMDSana-atc7lxmQnvdb6-8bsf1YQ58yjjlZ1nfZ7eosDhruSwmHCpzom4j2BeMfpCBO5zFNOAiDSbZ9-GvL3E6CrQZtsrElACUqkZnksD-qATtWUlo47vt4NtY5PrjOGGv3tcjaxJlclfqnrxsDo65P87LGvYeN-vfyHETkOdUUe2y9eYVXaOhtAaP1HSe-RTmpbmKmCO17gpaqktKb95c9rObrwGkwy_Llk0iosXqfMXdGlJwpsnGDukITE4U6oaaqc33v3dmDK4oortZMBGVi7mnGFo9pTXO3_WiBl4Z7k26ZZCiKZs76ZcX1-865AjO5_appJJkoWp2x_zkeCUnz9-aZLv7LloGEo745AI6cDuOE-wJ-_NbjLLiu4fqHERQB3nXWIOY207-QcBulRSNxmZN6CFUg5NM8Tde8YUWZycq95LPNRRvw24C4pGylgrJYda3IIggope6aRsQtnewDpTfpWrCp9eMLkMMnqKdxRRBnhmSDYExT4kQbQ7bqWO1jsDWYCnrCHcfeAOaeibkhG6r6GAWPQJ1ZAKpcmM1tA2xvK3J1oJ1urikrSgBFF2Eexn7IM6AX-N-eZR3DrcSZtprC29zaR9vpQeKYcSnWVp9zm5nwdmJDYUwlDvCGuNMvPQV197xSL3E16CfJM71NbD=w2504-h1878-no" width=80%/>
+
+<img src="https://lh3.googleusercontent.com/TX8AXKE7Vq85Z8Tv651lh1QB8dIsDfmi0AVu80BLVRqRGcU0CDTwy--wunxM81Mi0KpB68ekxf30280HcgcmdUZ5yWp3GM6BEANZHpHEwH0hHzHsPo36LfDnNET-FW4VM_G-SBe3149yrePgxNlWT7cpiRKMJDmDPMEs21achgtZJXaCFHZeZ-4xoWK3EybXiV6zygjVRKa06iSZFvBWBvc_YZ_PsrYKu5aZPEZ9HAhqdlI07eZ0vY9pLmvej5RU5wEoifHYi-mYSNDop49_XfK2RQBOnoSdxeLSsHpRTg8_3Mlnlq7vQn37SS88Dv-H0AyhRtLCgrBrCl370q-WEEDXrpljzEJLZApsWxZoX_S0R8I6ihyxmcZiyQRUOkldRbMgDZaaHB_PeieFcjLPMujOu5R3doNRHmzZY_NoukcYYygTMdPF8-0qqFobDTpfcDjdqMIu9tThVz2TE3eFQJr1YgAAu-yxjdW7UF8jJlJS34-x-ASWve40iMZu4Pn0KLrb47gupLWLNI2apAlVNrklfyQIbaDF5uLaOeSxwQ3FOgCEXb5J9b5WcK7gG-mrX3k95hzWvzWixWu27FW71vooSAXlpb4-feVTj-ybdO0K4l_Qu5rfHvo5r_QOSrlq7pjQEhqgf_-B_ujr_ddbp9iAo2YoqBUBzQn3Rs107wVsHHqqIE8ykR35LE4be3gxWl_IB5jpZwtPptV-27hReJyLjoN_9pq0EtVqKxOaP2-uGDEX=w2504-h1878-no" width=80%/>
+
+<img src="https://lh3.googleusercontent.com/a2M1wWEybuZpJQFMJXcsOfotiyGJvGaKU6dJzH2jFBGqmlAGJt4aCm-EwF5grdPgiXnz8LWAYmRKEVBTo40BkdTJfw-pydJrzvBmRlePWPYViZybfMZuujHMzU0sRHSrCsEME2IjwLrX9Uv-yST0mEpmdcX97BFw4Lr0NjC2Alt3dmVUvHcHGoDm6cxsAZy4E6qwRluXhO9zDA_CS9rfhCsn2b0Swagp324dfr2NglfJTK6cz8gb5JV7I-X47ZgtOMEJmDG0NlbHlraD6s2SrrhFB977icqxIPEqcwC5u92V9vIwfr_ZKOrvJhTGarUWi2A_CXkjPjeszLyjNu-vgGBMUF0k2O1z3_gVlrwgUlqvMkGPUral7wap7yKwfmnxS4bOVzuDewUFQdft8UETp1W069-wjXeLYzYorZ2hgpOolZISeQCYH8xPcBuX9I2Hkfq4Gmz1Z8r3Fjw7McnLKhxuAr8ry-0g0B0VaN8oKhX2geJUqaEiOzSgOZWANXyNdrrRY2geT_TxeJC8dcyHmSpH6ml8s-EOhhGixPKl0z6GXaeSH4phhTRU3lNNyknFsMiVjDk3SJLpUeVTAH8vYgLKNNJZYTPEstQhohdwheP_uQame_p6n0cjyA4rBLUs_k4Fc3MMl6IUIo4y0fr9mDoWiLHpcVwWtsDTWvC8Jr4-lSMeVY8V7qXH4sy9YudovTY7Wpm5ok7uNIILTdQfBhuzp9jjNY1oZcuANu3LwTDcCILd=w2504-h1878-no" width=80%/>
+
+<img src="https://lh3.googleusercontent.com/551t07WNB7sZ5w6HFTYJCuKrM4VCeDqxeLsG9Stn9Ha90NjfQ35HzFYWWl8RR8ShuuCfEUWNSOflb63UzJohNwp0q0jcP5o5lBXqc2oQ0sI1uM4AsNbJSGkBQvxKoJNOYrMaKpYhEnhsNhhE60r6MfL6elisxnBDUJ2KaDPmCUOTn5-H32NhD7_JE2nR5L735Eys30VxfPYQ06dQXf7M_tZRDjG81C4OALhXCN8KufzJEb6zXK-JO_dgsGpyQUo9RfmvdB8_D28ZsFOr6endG8hCPguZ8FdWEXFJ45UFdiholrdSANp3JSYdUnMl1ZFmKLdRDBtHhLIAvtOonzUzyVkuNJXjQ70aRlNFpHqhqJY3aXyqI4ycEfQGLkd_ninnpQUUE2lzvWsNrNPwGDp91JWGsCbcbk2fFcpcDb_B8EoixfYbGiz50XcLeRuo0oVIYqruthRMs2-yZhiwIpCkhuxPQNzTagtt6jiIvwbasCMBLBP8J6ss2dBPd0mS1Cijt5zRR-87WZVhmNgEep0TAVirxSePNL1etmtBTyuCb1ysOyECADBcci7XwylPz_dA9mt8-UoCIFXSIfnFFKI3PtAJrG-3Ldol_-7qpTgDgLAsIwoY0MBcKw3LSYsOl0Tos3o5wUzsc3EHytcF37oCWAYRtov9XoO7WfGzJ6kAEarvv2ifyb2vwcYmSp3KlSo6XAswrJdbgzODz-efEgsZmC-lWNZE8lWDqe0nLhEczzoAn-Zl=w2470-h1878-no" width=80%/>
+
+The smart plug uses the `TYWE2S` Tuya chip, which is a `ESP8285`.
+
+<img src="https://lh3.googleusercontent.com/6xf5eRfuJlcZDHF2WKPp-iVHn7NSdtbKKAF-VmtnzMnAn_JOFEAJLtagfx3OucjoROlVvoTLgkt4ZsSE8NsiBLHNbucCp5DSEeNnm7IdkQ-a95e-FMCq9CLSWab-YzwvqjZFcKNRX4wSXX7GBcHd0Yw2bXx1rI_xVBLU4DXKGZWOykurWq1JJJl-VEq2dWKeDvfn0i7EcF_yh3NNEmK_ysPG6HQBe6QB2eTm75VKPB75RFv3TyS54xdychykl4nNFDqjKjcAKnpZJNUs43d83KG6jeEJqfhgBXzk4ob4mnugS4ZAN5tVKoFE6quvhsE4SHV7aFulCIpqSvGx7hNgl7B82f6W5EE2sYrnuIC2pQnf1K7mt-hg82YAVGQSfX4f4WXua7TRdKwpxgwc_DzoUolrUuhxlKSU9eR7hdJK0e3TvXInmRqQfIXHm2M_WZIZYJhrSXWJmtM8r9KSPsV422iOCWxsvS5xzJGqenwP4tWB0qV0qh7fFNlZ9Jp20hN7OAwM-VncZjkgxIEtezxKp9oHL7uTIAJsHeP6Prgu3JmvBmSEJsyXCFkbHVCfO1ZsY_qbhqSCJjWR50eWp9FPuC8e_-bU4HdF3zRkz1RlM3ffHpVtYaiV18GlDouscaSflQ0H9Z6mU7IUhDdFuGOs7WawusqF_LqY7rd2wxQ7by1JOff6OpW6RlmNWowLDsgcwEqQesIIf1PfodNBgPKvcXMvpLEk3xqtAuL4uCRJGgy92Zja=w1410-h1878-no" width=80%/>
+
+The power monitoring chip is the [BL0937](https://github.com/xoseperez/espurna/issues/737#issuecomment-377361861)
+It's pins are connected like this:
+
+BL0937 | ESP8285
+--- | ---
+Pin 6 (CF) | GPIO 4
+Pin 7 (CF1)  |  GPIO 5
+Pin 8 (SEL)  |  GPIO 12
+
+<img src="https://lh3.googleusercontent.com/fuH5mL_-FLRL-YcYWjknc2bkUCXlwxnXqTNUvOa_ldGHbRCL3IVACX5GAVpxO1T89vnRxxqAeTljdubhiUJS6xuA14vCMY7w9ujy4CX765MTBe_UcY7IaHv5BEiuOu3QHZvCIuQDWNWMDZHN6ec-8SUR2Y4tIYXiVpqJMufHXs_6ZDRCAMbdvWYl4LZp_mMmMq0GXVxPiD1ErLV0aVyMhDvHHJ3OODYstcvZusle_I3ofPSw4EMKOnZOL-0TsZxJm7BMXG94-pOkpCRZ0Y-oZcwxnBuEv0vOXAqszeBWRgeM5OuVIWUwW95Zb4Hc78gu8AH3MTSoUfref5XSQNqAe8XV8xi9j-T3qpHR7w9knsMIAFHEtwiCh3aDk-Npl4ORZHNewhgvfxUmB-5OTcd4LeZ9-eXUsFPl6I_UYn1caMOFH4e3dQGigDA2TN18MeEQHxNFWuJ-wxhstAZVy0CxD67UPQVGdKaXmcTCAWVd4YTxe-Sth5-vkzQJlzS7TeKHrp59fd0v3AvISvmGH8_8vheFkkGb9eOU8UJQhGqRV7PRgIQTrmsKZDIlIjJGdrqBYYKgf10uQV6IHElYiyU9zebEqJAeH0XfbUaPW6mrs5T-QXpImFd4_4MY1SJtbGSxjABo5zXywj13CBW13dbavZW6p4EqzORtzkCo5PNrkLFVHL_OS0ryzOPOknjnd54U_Il2Z9Y4_fm_jhtFJESSpwaWZKug3z5Ig3ENjAU0C1SV025Z=w2458-h1435-no" width=80%/>
+
+The switch and LEDs are on another PCB. They are connected like this:
+
+PCB | ESP8285
+--- | ---
+Red LED | GPIO 14 (Same as Relay)
+Blue LED  |  GPIO 13
+Switch  |  GPIO 3 (Rx)
+
+At last, the Relay is connected to the `GPIO14` pin.
