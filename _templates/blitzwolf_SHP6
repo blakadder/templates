@@ -7,7 +7,7 @@ standard: eu
 link: https://www.banggood.com/BlitzWolf-BW-SHP6-10A-EU-Plug-Metering-Version-WIFI-Smart-Socket-220V-240V-Work-with-Amazon-Alexa-p-1356981.html
 image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201810/1539338194_26.jpg
 template: '{"NAME":"BW-SHP6 10A","GPIO":[158,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
-link2: https://www.aliexpress.com/item/32933098972.html
+link2: http://s.click.aliexpress.com/e/dG0tv9cU
 link3: https://www.blitzwolf.com/2300W-EU-WIFI-Smart-Socket-p-300.html
 flash: tuya-convert
 ---
