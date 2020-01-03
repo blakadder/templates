@@ -1,19 +1,12 @@
 ---
 date_added: 2019-10-23
-title: Novostella 20W Flood
+title: Novostella UT88835 Floodlight
 category: light
 type: Light
 standard: us
 link: https://www.amazon.com/gp/product/B07VH1VHYL
-image: https://images-na.ssl-images-amazon.com/images/I/71JV5A3kSkL._AC_SL1500_.jpg
+image: https://images-na.ssl-images-amazon.com/images/I/71tQh-gko4L._SL1500_.jpg
 template: '{"NAME":"Novo 20W Flood","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/gp/product/B07VNR9XW7
 ---
-
-
-
-
-
-
-
-
+Reference ID: UT88836-RGBCW-EU-2
