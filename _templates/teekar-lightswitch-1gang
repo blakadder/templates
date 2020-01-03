@@ -13,24 +13,27 @@ standard: eu
 ---
 ![](https://images-na.ssl-images-amazon.com/images/I/61HLGVHG5TL.jpg)
 
-## Hints on configuring the user defind GPIOs (Under Main Menu -> Confoguration -> Configure module)
+##### Hints on configuring the user defind GPIOs 
+
+This is done under: Main Menu -> Configuration -> Configure module
 
 GPIO 04 -> connected to Link LED. Set it to LedLink (157) to activate, or to None (0) to turn the small hidden blue LED off.
 
 To control the color of the RGB LED of the touchpad, you can play with GPIO 02 (wired to RED), GPIO 13 (wired to GREEN) and GPIO 16 (wired to BLUE).
 Keep in mind that Led1i will be turned on / off with the switch, Led2 and Led3 are always on. Here is a table with a couple of combinations: 
 
----
-GPIO 02: None,Led1,Led1,None,None,None
-GPIO 13: Led1i,None,None,None,Led2,None
-GPIO 16: None,Led2,None,Led1i,Led1,None
-LED Color switch ON: Green,Blue,Off,Blue,Green,Off
-LED Color switch OFF: Off,Purple,Red,Off,Cyan,Off
----
+| GPIO 02 (R) | GPIO 13 (G) | GPIO 16 (B) | LED Color when switch ON | LED Color when switch OFF |
+| --- | --- | --- | --- | --- |
+| None | Led1i | None | Green | Off |
+| Led1 | None | Led2 | Blue | Purple |
+| Led1 | None | None | Off | Red |
+| None | None | Led1i | Blue | Off |
+| None | Led2 | Led1 | Green | Cyan |
+| None | None | None | Off | Off |
 
-** Please be aware: ** The touchpad of the device has a long lag in its hardware. It stays "touched" for 7-8 seconds, even if your finger is away.
-Once you touch it, you have to wait 7-8 seconds to touch it again. This is related to the hardware itself.
-In order to still be able to use it, you should set your options via console to the following:
+** Please be aware: ** The touchpad of the device has a long lag in its hardware. It stays "touched" for 7-8 seconds after you touch it, even if your finger is away after 1 second.
+Once you touch it, you have to wait 7-8 seconds to touch it again. This is related to the hardware itself, do not blame Tasmota for it.
+In order to still be able to use the switch, you should set your options via console to the following:
 
-SetOption1 1
-SetOption13 1
+`SetOption1 1`
+`SetOption13 1`
