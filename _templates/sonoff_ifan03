@@ -8,7 +8,7 @@ link3: https://www.itead.cc/sonoff-ifan03-wifi-ceiling-fan-light-controller.html
 image: https://user-images.githubusercontent.com/34340210/62710777-e6008380-b9c5-11e9-83a2-35dbf1cdb782.png
 template: '{"NAME":"SonoffiFan03","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
 link: https://www.banggood.com/SONOFF-IFan03-AC100-240V-5060Hz-WiFi-Ceiling-Fan-And-Light-Controller-with-RM433-RF-Remote-Controller-p-1496747.html
-link2: https://www.gearbest.com/smart-socket-plug/pp_009956792949.html
+link2: https://www.amazon.com/gp/product/B07TRTG8PS
 ---
 
 ESP8285 Based
