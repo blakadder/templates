@@ -4,7 +4,7 @@ title: Teckin SP23
 category: plug
 type: Plug
 standard: uk
-image: https://camo.githubusercontent.com/7d4ca69835d7b64fe60d1371fd97a5f36794a57e/68747470733a2f2f692e706f7374696d672e63632f30327852645748332f5445434b494e2d343139632d5271302d5536782d4c2d534c313030312e6a7067
+image: https://user-images.githubusercontent.com/5904370/71756963-e62c7e80-2e92-11ea-8c37-159d0357130d.pn
 template: '{"NAME":"Teckin SP23","GPIO":[56,255,57,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
 link2: https://www.amazon.co.uk/gp/product/B07CVJYV3G
 link: https://www.amazon.co.uk/TECKIN-Monitoring-Function-Control-Required/dp/B07QN5XY89
