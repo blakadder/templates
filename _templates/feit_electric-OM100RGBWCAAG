@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-04
+title: Feit Electric OM100/RGBW/CA/AG 1600lm
+link: https://www.amazon.com/Feit-Electric-OM100-RGBW-CA/dp/B07X8QXR9L
+image: https://www.feit.com/wp-content/uploads/2019/07/OM100_RGBW_CA_AG_pack-1.jpg
+template: '{"NAME":"OM100/RGBWW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.menards.com/main/electrical/light-bulbs/led-light-bulbs/feit-electric-100w-equivalent-a19-color-selectable-led-light-bulb/pom100-rgbw-ca-ag/p-1550302361952-c-7482.htm
+link3: https://www.feit.com/product/smart-wifi-bulb-color-changing-tunable-white-3/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---
+If you set all channels to FF you will burn out the bulb.

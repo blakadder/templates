@@ -10,6 +10,6 @@ template: '{"NAME":"Teckin SP21","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,
 link2: 
 ---
 
-
+New versions of [Teckin SP21](unsupported/teckin_SP21) have an unsupported Realtek chip!
 
 

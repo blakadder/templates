@@ -1,0 +1,22 @@
+---
+date_added: 2020-01-04
+title: HS108A
+link: https://www.walmart.com/ip/Plug-Remote-Anywhere-Required-Devices-Socket-Control-Mini-Hub-Outlet-Wifi-Google-No-Alexa-Assistant-Enabled-Compatible-Smart-Outlets-6Pack-Timing-KOO/654062972?comm-msg-vehicle=EMAIL&comm-msg-id=6b1f1678-a1a7-4cb5-ad1c-f75e4380a265
+image: https://user-images.githubusercontent.com/5904370/71772212-9eb3fa00-2f47-11ea-9898-94cf48355a5f.png
+template: '{"NAME":"HS108A","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":1,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+FCC ID: [2AOUB-HS108A](https://fccid.io/2AOUB-HS108A)
+
+Device itself is labeled HS108 however the box that it came in is labeled HS108A and the existing config for HS108 does not work with this device.
+
+[Box Side](https://i.imgur.com/513p3a3.jpg?2)
+
+[Box Front](https://i.imgur.com/mKQJs7R.jpg?1)
+
+[Plug label and box](https://i.imgur.com/lX6Gsl2.jpg?1)

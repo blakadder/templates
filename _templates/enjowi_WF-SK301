@@ -4,7 +4,7 @@ title: Enjowi WF-SK301
 category: switch
 type: Switch
 standard: eu
-link: https://www.aliexpress.com/item/4000027449969.html
+link: http://s.click.aliexpress.com/e/oZZdVi0C
 image: https://user-images.githubusercontent.com/5904370/67159534-2d9c7780-f346-11e9-983e-8c539369d29f.png
 template: '{"NAME":"Tuya 3 Channel","GPIO":[0,0,0,0,23,18,0,0,17,21,19,22,157],"FLAG":0,"BASE":18}' 
 link2: 

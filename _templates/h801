@@ -3,10 +3,10 @@ title: H801
 category: light
 type: LED Controller
 standard: global
-link: https://www.ebay.com/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=h801+controller&_sacat=0
+link: https://www.banggood.com/Smart-LED-Dimmer-Receiver-WiFi-APP-Controller-for-RGBW-Strip-Light-DC5-24V-p-1055713.html
 image: https://user-images.githubusercontent.com/5904370/57890606-836d7080-7838-11e9-925c-50f7e2af4df2.png
 template: '{"NAME":"H801","GPIO":[0,52,0,0,41,57,0,0,39,38,40,37,0],"FLAG":0,"BASE":20}' 
-link2: https://www.aliexpress.com/w/wholesale-H801.html?spm=2114.search0104.0.0.16ea5f7exnEDTW&site=glo&g=y&SortType=price_asc&SearchText=H801&groupsort=1&needQuery=n
+link2: http://s.click.aliexpress.com/e/nxYZzeLm
 ---
 ![H801 in case](http://smartlife.tech/blog/wp-content/uploads/2016/06/20160623_171501.jpg)
 

@@ -1,14 +1,18 @@
 ---
-date_added: 2019-03-08
-title: Kingart Touch
+date_added: 2020-01-05
+title: WiFi Dimmer Switch
 category: switch
 type: Dimmer
-standard: eu
-link: http://www.aliexpress.com/item/Led-Dimmer-220v-Smart-Wifi-Switch-Touch-Control-Stepless-Dimmer-With-Bulb-Compatible-With-Amazon-Alexa/32891383747.html
+standard: 
+  - eu
+  - us
+link: http://s.click.aliexpress.com/e/Ni4UUYli
 image: https://user-images.githubusercontent.com/5904370/54643685-c9f05a00-4a97-11e9-9b51-a99c2108b986.png
 template: '{"NAME":"PS-16-DZ","GPIO":[255,148,255,149,255,255,0,0,255,52,255,255,255],"FLAG":0,"BASE":58}' 
 link2: 
 ---
+![Dimensions](https://ae01.alicdn.com/kf/Hdd27dff80ee34e97954d306f5ffb62e03.jpg)
+
 On AliExpress you can buy a wifi dimmer for mains voltage (110 or 220V) It's a brandless dimmer, but can be found here: [AliExpress page](http://www.aliexpress.com/item/Led-Dimmer-220v-Smart-Wifi-Switch-Touch-Control-Stepless-Dimmer-With-Bulb-Compatible-With-Amazon-Alexa/32891383747.html?spm=a2g0s.9042311.0.0.300d4c4dx6emz1)
 
 It has a glass front plate with 3 proximity/touch switches (On/Off, dimm up & dimm down) and a wifi indicator LED.
@@ -51,7 +55,7 @@ RX    to   RX  (due to the fact the silkscreen is wrong, otherwise, RX connects 
 TX    to   TX  
 SW    to   GND  -- only durning power up, to put the ESP in programming mode.
 
-From here the upload is the same as for all other Tasmota devices. See the [Tasmota page](https://github.com/arendst/Tasmota/wiki/Upload) for detailed info.
+From here the upload is the same as for all other Tasmota devices. 
 
 After the upload was successful, unplug the device from the serial adapter. You can now desolder all the connections you have made earlier. Also remove the wire between RES1 and GND.
 Then plug the board back in its housing. Be careful with the connector on the underside of the board.
@@ -64,17 +68,3 @@ Line up the pins with te header and lightly press it in its place.
 
 Connect your light to the dimmer according the manual. 
 Keep in mind, the dimmer itself needs a Neutral wire as well. If you replace an existing switch or dimmer, it can be that you need to run an extra neutral wire.
-
-## First connection
-
-When you first power up the dimmer switch, it comes up in AccesPoint mode.
-Follow the instructions [here](https://github.com/arendst/Tasmota/wiki/Initial-Configuration) 
-
-## Set correct module type
-
-Once you have all connected, you should go to the configuration page of the Tasmota Dimmer. Go to your browser and fill in the IP address. Then go to 'Configuration' and then to 'Configure Module'.
-From the drop down menu select module 58: PS-16-DZ. Then hit Save.
-The module will restart and you are done!
-![](https://github.com/daaf84/Tasmota-dimmer-switch/blob/master/Schermafbeelding%202018-12-19%20om%2017.48.54.png?raw=true)
-You can now toggle the light and use the slider to dimm the lights from the tasmota webpage.
-Or better, use your favorite domotica software to control it via MQTT.

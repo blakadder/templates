@@ -4,7 +4,7 @@ title: DS18B20 ESP01 Module Temperature
 category: misc
 type: Sensor
 standard: global
-link: https://www.aliexpress.com/item/32967933988.html
+link: http://s.click.aliexpress.com/e/Fnr8DTf2
 image: https://user-images.githubusercontent.com/5904370/69268583-b6b9ff00-0bcf-11ea-8259-2ef0b4d22970.png
 template: '{"NAME":"ESP01S ds18b20","GPIO":[255,255,4,255,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":18}' 
 link2: https://www.amazon.com/GalaxyElec-ESP8266-ESP-01S-Temperature-Humidity/dp/B082HTF385/

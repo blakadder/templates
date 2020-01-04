@@ -4,7 +4,7 @@ title: Zemismart ERC309 Kinetic Switch
 category: switch
 type: Relay
 standard: global
-link: https://www.aliexpress.com/item/32873133693.html
+link: http://s.click.aliexpress.com/e/NaO0MWbW
 image: https://user-images.githubusercontent.com/25117255/61148426-0e888100-a4df-11e9-92c5-43453afcc6c5.png
 template: '{"NAME":"Kinetic Switch","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}'
 link2:

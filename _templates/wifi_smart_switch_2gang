@@ -1,0 +1,14 @@
+---
+date_added: 2019-11-15
+title: WiFi Smart Switch 2 Gang
+category: switch
+type: Switch
+standard: eu
+link: http://s.click.aliexpress.com/e/5SqueSek
+image: https://ae01.alicdn.com/kf/Hfc497a602366445b9a2fed5aeb90c701f/WiFi-Smart-Light-Switch-Glass-Panel-Touch-Switch-Compatible-with-Alexa-Google-Home-Smart-Wall-Switch.jpg_640x640.jpg
+template: '{"NAME":"Kingart N2","GPIO":[17,255,0,255,0,22,18,0,21,0,0,0,0],"FLAG":15,"BASE":18}' 
+link2: https://www.ebay.co.uk/itm/Wi-Fi-Smart-Wall-Switch-Touch-Panel-T1-86-Type-1-2-3Gang-App-Retome-Control-UK/123970377066
+---
+![packaging](https://ae01.alicdn.com/kf/Hb3d3c755e7b54ddba5252b3a722e38703.jpg)
+
+[Wiki](https://tasmota.github.io/docs/#/devices/KingArt)

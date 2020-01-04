@@ -1,0 +1,24 @@
+---
+date_added: 2019-12-03
+title: WiFi Smart Switch 3 Gang
+link: http://s.click.aliexpress.com/e/5SqueSek
+image: https://ae01.alicdn.com/kf/H9b33eb6caf264979825e4ac0ad5bcaa3v/Touch-Switch-EU-Wifi-Smart-Touch-Switch-1-2-3-Gang-Wireless-Remote-Light-Switch-ewelink.jpg_640x640.jpg
+template: '{"NAME":"KingArt-3CH","GPIO":[17,255,0,255,23,22,18,19,21,52,0,0,0],"FLAG":15,"BASE":18}'
+link2: https://www.ebay.co.uk/itm/Wi-Fi-Smart-Wall-Switch-Touch-Panel-T1-86-Type-1-2-3Gang-App-Retome-Control-UK/123970377066
+link3: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+Requires soldering to surface pads (no Sonoff Style through-plated connection holes) but easy enough with a fine tip iron and the solder resist is good. TX and RX are a little close but not too hard to deal with.
+
+Programs with normal esptool.py command just like a Sonoff device.
+
+Connection details obtained from https://tasmota.github.io/docs/#/devices/KingArt
+
+On that page, the author suggests using a pad on the PCB to ground GPIO0 when booting but I just used the incoming GND as it was more convenient.
+
+![Dimensions and label](https://ae01.alicdn.com/kf/H39c868cb114a47fe8226e391784558b9z.jpg)
+
+![Packaging](https://ae01.alicdn.com/kf/Hb3d3c755e7b54ddba5252b3a722e38703.jpg)
