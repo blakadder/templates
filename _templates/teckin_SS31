@@ -1,7 +1,7 @@
 ---
 date_added: 2019-12-03
 title: Teckin SS31
-link: https://www.amazon.com/gp/product/B07KB63CYN/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1
+link: https://www.amazon.com/gp/product/B07KB63CYN
 image: https://images-na.ssl-images-amazon.com/images/I/51GU2F3O1ZL._SL1001_.jpg
 template: '{"NAME":"Teckin SS31","GPIO":[255,255,255,255,56,57,255,255,21,17,22,255,255],"FLAG":15,"BASE":18}'
 link2: 
@@ -11,4 +11,4 @@ category: plug
 type: Outdoor Plug
 standard: us
 ---
-Only one button on the device, to access relay2 via a button you would need to use a rule to toggle the relay.
+Only one button on the device, to access Relay2 via a button you would need to use a rule to toggle the relay.
