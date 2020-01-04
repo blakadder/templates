@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-04
+title: Aisirer 7W 580lm
+link: https://www.amazon.co.uk/Bayonet-Dimmable-Required-Equivalent-AISIRER/dp/B07S79FBB2
+image: https://user-images.githubusercontent.com/5904370/71767593-fa619180-2f0d-11ea-9f60-17fb1a1b6ec9.png
+template: '{"NAME":"Aisirer RGBW","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: https://iaisirer.com/uk/RGB-Smart-Bulb-1-Pack-B22.html
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: 
+  - e27
+  - b22
+---

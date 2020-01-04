@@ -1,19 +1,15 @@
 ---
 date_added: 2019-09-01
-title: Aoycocr EU5-16A
+title: Aoycocr EU5 16A
 category: plug
 type: Plug
 standard: eu
-link: https://www.amazon.de/gp/product/B07PRFGRLC
+flash: tuya-convert
 image: https://user-images.githubusercontent.com/5904370/66717175-536dcd80-edd6-11e9-8e3e-da3e76cc3e43.png
 template: '{"NAME":"Aoycocr","GPIO":[255,0,56,0,0,0,0,0,255,17,0,21,0],"FLAG":0,"BASE":17}' 
-link2: 
+link: https://www.amazon.de/Steckdose-Intelligente-Steckdosen-Aoycocr-funktioniert/dp/B07PTPN74C
+link2: https://www.amazon.de/gp/product/B07PRFGRLC
+link3: http://en.hysiry.com/case_view.aspx?TypeId=128&Id=234&FId=t4:128:4
 ---
 
-I have bought multiple packs of 4 and packs of 2 and have flash them OTA without any problem :)
-
-
-
-
-
-
+![Label](https://user-images.githubusercontent.com/5904370/71768196-3992e100-2f14-11ea-8a81-ed6bc330db55.png)

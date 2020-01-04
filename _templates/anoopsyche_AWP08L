@@ -1,6 +1,6 @@
 ---
 date_added: 2019-11-20
-title: AWP08L v2
+title: Anoopsyche AWP08L 
 category: plug
 type: Plug
 standard: eu
@@ -10,7 +10,7 @@ template: '{"NAME":"AWP08L-Annopsy","GPIO":[0,0,0,0,17,56,0,0,21,0,0,0,0],"FLAG"
 link2: 
 ---
 
-This device is different than the [AWP08L](AWP08L.html).
+This device is different than the [AWP08L](avatar_AWP08L.html).
 
 For this one the layout is:   
 GPIO 04: Button1   

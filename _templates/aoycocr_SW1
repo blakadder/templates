@@ -11,4 +11,6 @@ category: switch
 type: Switch
 standard: us
 ---
+![Label](https://user-images.githubusercontent.com/5904370/71768483-8e375b80-2f16-11ea-946f-2dd0ccb6c943.png)
+
 Green led light is off if the switch is off. It turns on if the switch is on. Red led light is disabled.

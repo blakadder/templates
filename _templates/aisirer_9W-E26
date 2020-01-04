@@ -1,0 +1,13 @@
+---
+date_added: 2019-10-17
+title: Aisirer 9W 806lm
+type: WW
+category: bulb
+standard: e26
+flash: tuya-convert
+image: https://images-na.ssl-images-amazon.com/images/I/619R0Yu45%2BL._AC_SL1500_.jpg
+template: '{"NAME":"AISIRER E26","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link1: https://www.amazon.com/dp/B07RHMQ2DD
+link2: https://www.amazon.com/Compatible-Assistant-Equivalent-Dimmable-AISIRER/dp/B07Q3SGYCL
+link3: https://www.iaisirer.com/Smart-light-bulb-1-pack.html
+---

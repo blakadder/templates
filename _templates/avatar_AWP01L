@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-03
+title: Avatar AWP01L
+link: https://www.amazon.com/Listed-Avatar-Controls-Compatible-Download/dp/B07TXF9LTN
+image: http://www.avatarcontrols.com/upfile/2017/08/20170821174126_289.jpg
+template: '{"NAME":"AWP01L","GPIO":[0,0,0,0,0,56,0,0,0,17,21,0,0],"FLAG":0,"BASE":18}'
+link2: https://www.amazon.com/Listed-Outlet-Avatar-Controls-Compatible/dp/B07TXFR81H
+link3: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=75
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

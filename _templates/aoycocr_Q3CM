@@ -1,17 +1,14 @@
 ---
 date_added: 2019-11-27
-title: Aoycocr 230lm
+title: Aoycocr Q3CM 230lm
 type: RGBW
 category: bulb
 standard: gu10
+flash: tuya-convert
 link: https://www.amazon.de/Doppelpack-Aoycocr-Mehrfarbige-Intelligente-Kompatibel/dp/B07V45F2X4
 image: https://images-na.ssl-images-amazon.com/images/I/51vIFOlCpHL._SL1000_.jpg
 template: '{"NAME":"Aoycocr_GU10","GPIO":[0,0,0,0,0,0,0,0,143,0,144,0,0],"FLAG":0,"BASE":27}' 
-link2: 
+link2: https://www.amazon.com/Dimmable-Equivalent-230Lumen-Compatible-Assistant/dp/B07V8S985Y
 ---
 
-Works with Tuya Converter 2.0.
-
-GPIO12: MY92x1 DI (143)
-
-GPIO14: MY92x1 DCKI (144)
+FCC ID: [2AKPB-Q3CM](https://fccid.io/2AKBP-Q3CM)

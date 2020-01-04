@@ -1,11 +1,11 @@
 ---
 date_added: 2019-12-29
-title: AWP02L-N 
+title: Avatar AWP02L-N 
 link: https://www.amazon.com/Outlet-Wireless-Switch-Amazon-Control/dp/B07GC59ZDW/
-image: https://images-na.ssl-images-amazon.com/images/I/511SUaAT0TL._AC_SL1000_.jpg
+image: http://www.avatarcontrols.com/upfile/2019/07/20190709181537_698.jpg
 template: '{"NAME":"AWP02L-N","GPIO":[158,0,0,0,56,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
-link2: 
-link3: 
+link2: https://www.amazon.com/Outlet-Google-Control-Avatar-Controls/dp/B07PFSRMV4
+link3: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=208
 flash: tuya-convert
 category: plug
 type: Plug
