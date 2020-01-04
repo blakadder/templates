@@ -1,10 +1,10 @@
 ---
 date_added: 2020-01-02
 title: Gosund UP111
-link: https://www.amazon.co.uk/gp/product/B07VVBH76Y
 image: https://images-na.ssl-images-amazon.com/images/I/51wa4qjOEJL._AC_SL1500_.jpg
 template: '{"NAME":"Gosund UP111","GPIO":[0,52,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link1: https://www.amazon.co.uk/gp/product/B07R1XG6Z9
+link2: https://www.amazon.co.uk/gp/product/B07VVBH76Y
 link3: 
 flash: tuya-convert
 category: plug
