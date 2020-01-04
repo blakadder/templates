@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-03
+title: BSD33 16A
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+link: http://s.click.aliexpress.com/e/l9WC4hjK
+image: https://user-images.githubusercontent.com/5904370/71765033-ae075900-2eef-11ea-8e38-965524081fd4.png
+template: '{"NAME":"Generic","GPIO":[0,255,0,131,134,132,0,0,21,17,56,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+---
+Unfortunaly, the vendor released different versions which look almost exactly the same, including the print on the plug. Some aren't even ESP flashable, some are. Some have power monotiring, some don't. 
+
+![Packaging](https://user-images.githubusercontent.com/5904370/71765008-51a43980-2eef-11ea-9ead-2f6699f2757e.png)![Label](https://user-images.githubusercontent.com/5904370/71765052-f45cb800-2eef-11ea-950a-243deb3f6f36.png)

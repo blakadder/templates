@@ -1,0 +1,17 @@
+---
+date_added: 2020-01-04
+title: BSD33 10A
+link: http://s.click.aliexpress.com/e/mmPh3wQ4
+image: https://user-images.githubusercontent.com/5904370/71765033-ae075900-2eef-11ea-8e38-965524081fd4.png
+template: '{"NAME":"BSD33 type 2","GPIO":[0,0,56,0,0,0,0,0,255,17,255,21,255],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+Unfortunaly, the vendor released different versions which look exactly the same, including the print on the plug. Some aren't even ESP flashable, some are. Some have power monotiring, some don't. 
+
+
+![Packaging](https://user-images.githubusercontent.com/5904370/71765008-51a43980-2eef-11ea-9ead-2f6699f2757e.png)
