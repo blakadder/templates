@@ -9,6 +9,7 @@ image: https://user-images.githubusercontent.com/5904370/56752390-6fc67100-6788-
 template: '{"NAME":"DS-102 3 Gang","GPIO":[158,58,0,18,22,19,0,0,17,21,57,23,56],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.de/dp/B07WDG36R5/
 ---
+Also available from [Banggood](https://www.banggood.com/custlink/3mKmNovUkj).
 
 The three blue LEDs are configured to toggle with the switches.
 The additional red led behind the left button is configured as link indicator.

@@ -9,6 +9,7 @@ image: https://ae01.alicdn.com/kf/HTB18axGNY2pK1RjSZFsq6yNlXXaQ/Tuya-Smart-life-
 template: '{"NAME":"DS-102 2 Gang","GPIO":[158,57,0,17,22,18,0,0,0,21,56,255,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/dp/B07WDFVF46/
 ---
+Also available from [Banggood](https://www.banggood.com/custlink/3mKmNovUkj).
 
 The two blue LEDs are configured to toggle with the switches.
 The additional red led behind the left button is configured as link indicator.

@@ -9,6 +9,7 @@ image: http://EvertDekker.com/wp/wp-content/uploads/2019/04/TgethDs102.jpg
 template: '{"NAME":"DS-102 1 Gang","GPIO":[57,0,0,17,0,0,0,0,0,21,56,0,0],"FLAG":1,"BASE":18}' 
 link2: https://www.amazon.de/dp/B07WFKJ27C/
 ---
+Also available from [Banggood](https://www.banggood.com/custlink/3mKmNovUkj).
 
 The blue LED is configured to indicate switch state, the red LED is configured as link indicator.
 Switch the GPIOs to show switch state in red.
