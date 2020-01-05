@@ -6,7 +6,7 @@ category: bulb
 standard: e26
 link2: 
 image: https://www.feit.com/wp-content/uploads/2018/05/BPA800_RGBW_AG_2_pack-1.jpg
-template: '{"NAME":" BPA800/RGBW","GPIO":[0,0,0,0,37,38,0,0,141,142,140,0,0],"FLAG":0,"BASE":48}' 
+template: '{"NAME":" BPA800/RGBW/AG/2","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Electric-Assistant-A800-RGBW-AG/dp/B07RL48PFF
 link3: 
 ---
