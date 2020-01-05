@@ -1,14 +1,16 @@
 ---
 date_added: 2019-08-17
-title: LC Technology 4CH
+title: LC Technology 5V 4Channel 
 category: switch
 type: Relay
 standard: global
-link: https://www.ebay.co.uk/itm/LC-Technology-Smart-Switch-IOT-2200W-10A-1-4Ch-LCWSS-Home-Wifi-Flux-Workshop/113799616350
+link: http://s.click.aliexpress.com/e/kjJFG8rW
 image: https://user-images.githubusercontent.com/5904370/63218166-66a54980-c155-11e9-90ef-189c56e0ae0f.png
 template: '{"NAME":"LC-Tech_4CH ","GPIO":[52,255,17,255,255,255,0,0,21,22,23,24,255],"FLAG":0,"BASE":18}' 
-link2: http://www.chinalctech.com/cpzx/Programmer/427.html 
+link2: https://www.amazon.com/dp/B07H4GPWP9
+link3: http://www.chinalctech.com/cpzx/Programmer/427.html 
 ---
+Model: LC-ESP01-4R-5V
 
 ```console
 Rule1 on Power1#State=1 do SerialSend5 A00101A2 endon on Power1#State=0 do SerialSend5 A00100A1 endon on Power2#State=1 do SerialSend5 A00201A3 endon on Power2#State=0 do SerialSend5 A00200A2 endon on Power3#State=1 do SerialSend5 A00301A4 endon on Power3#State=0 do SerialSend5 A00300A3 endon on Power4#State=1 do SerialSend5 A00401A5 endon on Power4#State=0 do SerialSend5 A00400A4 endon

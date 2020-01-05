@@ -6,12 +6,12 @@ type: IR Bridge
 standard: global
 image: https://images-na.ssl-images-amazon.com/images/I/51VaObTqjOL._SL1000_.jpg
 template: '{"NAME":"Eachen IR","GPIO":[0,0,0,0,56,51,0,0,255,17,8,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.co.uk/EACHEN-Universal-Controller-Conditioner-Compatible-Red/dp/B07K3Z2WBR
-link2: https://www.amazon.de/gp/product/B07NYCHJRW
+link: https://www.amazon.de/EACHEN-Universal-Controller-Conditioner-Compatible-Red/dp/B07K3Z2WBR
+link2: http://s.click.aliexpress.com/e/oo7TfVYy
 link3: https://eachen.cc/product/eachen-ir-dc6-tuya/
 ---
 
-Is refered also as "Docooler WiFi IR-HUB"
+Is referred also as "[Docooler WiFi IR-HUB](https://amzn.to/39FpXxL)"
 
 Can be tuya-converted with tuya convert 1.0.
 

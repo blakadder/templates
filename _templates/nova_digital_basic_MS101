@@ -3,17 +3,10 @@ date_added: 2019-10-09
 title: Nova Digital Basic 1 MS101
 category: switch
 type: Relay
-standard: global
+standard: br
+flash: tuya-convert
 link: https://novadigitalonline.com.br/products/novadigital-interruptor-wifi-automacao-residencial-original-ms101
 image: https://user-images.githubusercontent.com/5904370/68545548-64f2c700-03ce-11ea-8eb8-cbe8b58ed26a.png
-template: '{"NAME":"NovaDigBasic1","GPIO":[255,255,255,255,56,255,0,0,21,17,255,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"NovaDigBasic1","GPIO":[0,255,0,255,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
-Tuya convert OTA method used at 8/october/19 works fine.
-
-
-
-
-
-

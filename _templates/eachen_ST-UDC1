@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-05
+title: Eachen ST-UDC1
+category: switch
+type: Relay
+standard: global
+link: https://www.amazon.com/Sonoff-Wireless-Automation-Modules-Control/dp/B07FJ77MZ9
+image: https://user-images.githubusercontent.com/5904370/71781004-f6934500-2fc9-11ea-82f8-5b3e3d7e5f66.png
+template: '{"NAME":"ST-UDC1","GPIO":[9,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":1,"BASE":18}' 
+link2: https://www.amazon.com/SunFounder-Wireless-Controller-Applied-Door%EF%BC%8CLearning/dp/B07NXSJJF1
+link3: https://ewelink.eachen.cc/product/eachen-1-gang-diy-inching-switch-using-ewelink-appst-udc1/
+---
+Eachen 1-gang DIY 5v self-locking/inching relay
+
+![](https://ewelink.eachen.cc/wp-content/uploads/2019/03/udc53.jpg)

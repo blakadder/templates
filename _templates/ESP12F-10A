@@ -1,0 +1,23 @@
+---
+date_added: 2020-01-05
+title: ESP12F 220V 10A 7V-30V DC
+category: switch
+type: Relay
+standard: global
+link: https://www.banggood.com/ESP8266-10A-220V-Network-Relay-WIFI-Module-Input-DC-7V30V-p-1089200.htm
+image: https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/9C/4F/be1cc42e-0a08-4a00-b097-8c001600f677.JPG
+template: '{"NAME":"Yunshan 10A","GPIO":[17,255,52,255,21,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link2: http://s.click.aliexpress.com/e/4PepjPYG
+---
+Can be found on Amazon under various brands:
+* [amazon.com](https://amzn.to/2STSjhX)
+* [amazon.ca](https://amzn.to/39EmnnH)
+* [amazon.de](https://amzn.to/2rXAhjV)
+* [amazon.co.uk](https://amzn.to/35scO7U)
+
+This device is supported directly in the firmware by selecting module "Yunshan Relay (33)" or using command `Module 33`
+
+More in depth article on [Arduino++ blog](https://arduinoplusplus.wordpress.com/2018/08/28/home-automation-and-the-internet-of-things-the-start/).
+
+![](https://imgaz.staticbg.com/images/oaupload/banggood/images/9C/4F/02c518e5-99d6-40ec-a624-531e2c1beaba.jpg)
+![](https://imgaz.staticbg.com/images/oaupload/banggood/images/9A/FC/0773bf21-7bd0-48ef-ad5e-5c16076560f1.jpg)

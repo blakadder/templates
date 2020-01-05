@@ -1,18 +1,13 @@
 ---
 date_added: 2019-08-31
-title: MHCOZY
+title: Mhcozy 5V
 category: switch
 type: Relay
 standard: global
-link: https://www.amazon.fr/verrouillage-autobloquant-commutateur-Control-Android/dp/B0752P57ZG
-image: https://images-na.ssl-images-amazon.com/images/I/615szuta7eL._SL1001_.jpg
+link: https://www.amazon.com/MHCOZY-Wireless-Switch-applied-control/dp/B0752P57ZG
+image: https://images-na.ssl-images-amazon.com/images/I/61u6%2B8LscML._AC_SL1000_.jpg
 template: '{"NAME":"Portail","GPIO":[9,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":1,"BASE":18}' 
-link2: 
+link2: https://www.amazon.de/dp/B0752P57ZG
 ---
 
-
-
-
-
-
-
+![](https://images-na.ssl-images-amazon.com/images/I/615szuta7eL._AC_SL1001_.jpg)

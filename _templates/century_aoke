@@ -1,19 +1,13 @@
 ---
 date_added: 2019-10-24
-title: Century Aoke
+title: Century Aoke Smart Switch
 category: switch
 type: Relay
 standard: global
 link: http://s.click.aliexpress.com/e/5jwUdMKc
 image: https://ae01.alicdn.com/kf/HTB1E8HUSNnaK1RjSZFBq6AW7VXae.jpg
-template: '{"NAME":"CenturyAoke","GPIO":[255,255,255,255,21,255,0,0,17,56,255,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"CenturyAoke","GPIO":[0,255,0,255,21,0,0,0,17,56,255,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
-
-
-
-
-
-
-
+![](https://ae01.alicdn.com/kf/U2faea103ee2e410c8245c3918ae17611J.jpg)
