@@ -9,7 +9,7 @@ link3: http://www.vivitar.com/product/115/smart-home/88/wifi-smart-multi-plug
 flash: serial
 category: plug
 type: Power Strip
-standard: us
+standard: au
 ---
 Circuit actually contains a fifth relay on the common neutral wire that needs to be turned on whenever one of the 4 relays/outlets is turned on.
 
