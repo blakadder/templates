@@ -1,0 +1,20 @@
+---
+date_added: 2020-01-05
+title: Atomi AT1217
+link: https://www.amazon.com/Atomi-Occupies-Charging-Anywhere-Required/dp/B07K1HFD4T
+image: https://mk0atomismartm7mqp64.kinstacdn.com/wp-content/uploads/2019/05/smartplug-website-product--e1574456426182-2048x2048.jpg
+template: '{"NAME":"AT1217","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.homedepot.com/p/atomi-smart-WiFi-Smart-Plug-AT1249/309533511
+link3: https://atomismart.com/product/smart-plug/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+FCC ID: [2AIPA-AT1217](https://fccid.io/2AIPA-AT1217)
+
+AT1217, AT1249, and 13820 are all the same device.
+
+[https://geekvisit.com/flashing-atomi-wifi-plug-and-how-to-identify-whether-an-iot-device-can-be-flashed]
+
+![Home Depot Packaging](https://images.homedepot-static.com/productImages/e10a2656-ee60-4ce6-a44b-936b697c73dc/svn/atomi-smart-smart-gadgets-at1249-64_1000.jpg)
