@@ -1,0 +1,12 @@
+---
+date_added: 2020-01-05
+title: TP22
+category: unsupported
+type: Plug
+link: https://www.ebay.de/itm/Mini-Wifi-Steckdose-Smart-10A-Intelligente-TP22-EU-Plug-Android-iOS-Google-Alexa/303268255173
+image: https://i.ebayimg.com/images/g/jWgAAOSwEFhd23-v/s-l1600.jpg
+link2: 
+link3: 
+flash: tuya-convert
+---
+No ESP82XX inside, instead they use a W600-A800: https://w600.chip.haus/
