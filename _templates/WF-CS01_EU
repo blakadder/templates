@@ -87,8 +87,11 @@ And the processor boards:
 The device has a separate MCU on board which connects to the TYWE3s module via Rx and Tx.
 ![20190918_122059](https://user-images.githubusercontent.com/31405979/66112156-9d7ed400-e5ca-11e9-8137-892644c0e513.jpg)
 
-To be able to flash the device one needs to make 5 connections and CUT the RxD0 line:
+To be able to flash the device one needs to make 5 connections and CUT the RxD0 line
+Important: Cutting the Line in my model resulted in the middle button not working afterwards,
+so after the flash I had to resolder the cut connection:
 ![20190918_121926](https://user-images.githubusercontent.com/31405979/66110791-c94c8a80-e5c7-11e9-896c-1505e7ec5917.png)
+
 
 Flashing can be done in several ways: Arduino IDE, VSCode, Platformio, ESP8266Flasher, etc.
 
