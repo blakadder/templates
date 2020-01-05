@@ -8,7 +8,7 @@ standard:
   - us
 link: http://s.click.aliexpress.com/e/Ni4UUYli
 image: https://user-images.githubusercontent.com/5904370/54643685-c9f05a00-4a97-11e9-9b51-a99c2108b986.png
-template: '{"NAME":"PS-16-DZ","GPIO":[255,148,255,149,255,255,0,0,255,52,255,255,255],"FLAG":0,"BASE":58}' 
+template: '{"NAME":"PS-16-DZ","GPIO":[0,148,0,149,0,0,0,0,0,52,0,0,0],"FLAG":0,"BASE":58}' 
 link2: 
 ---
 ![Dimensions](https://ae01.alicdn.com/kf/Hdd27dff80ee34e97954d306f5ffb62e03.jpg)
