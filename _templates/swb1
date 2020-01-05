@@ -4,11 +4,14 @@ title: SWB1
 category: plug
 type: Power Strip
 standard: us
-link: https://www.amazon.com/Aneken-Protector-Individually-Controlled-Compatible/dp/B07FDX6XZ6
+link: https://www.amazon.com/GOQUAL-Required-Compatible-Assistant-Function/dp/B07N646J91
 image: https://user-images.githubusercontent.com/5904370/54648203-9fa59900-4aa5-11e9-9701-f3586d9375da.png
 template: '{"NAME":"SWB1","GPIO":[52,0,0,0,0,24,0,0,21,17,22,23,0],"FLAG":0,"BASE":18}'
-link2: https://www.aliexpress.com/item/2000W-WiFi-Socket-Portable-SWB1-Smart-Power-Strip-Intelligent-4-Ports-Plug-Wifi-Wireless-Remote-Power/32883983405.html
+link2: http://s.click.aliexpress.com/e/3HepBCFI
+link3: https://lingan.en.alibaba.com/search/product?SearchText=swb1
 ---
+FCC ID: [2AJK8-SWB1](https://fccid.io/2AJK8-SWB1) 
+
 ### Product
 SWB1 Wi-Fi smart power strip with 4 main ports. Each port can be controlled manually
 FCCID: [2AJK8-SWB1](https://fccid.io/2AJK8-SWB1/User-Manual/User-Manual-3453950)

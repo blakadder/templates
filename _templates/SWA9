@@ -4,12 +4,11 @@ title: SWA9
 category: plug
 type: Plug
 standard: uk
-link: https://shopee.sg/product/130118966/2146995126
-image: https://cf.shopee.sg/file/d09204cc9c3d81c295db6c96b8bfcfec
+link: https://www.amazon.co.uk/iBlockCube-Monitoring-Function-Anywhere-Compatible/dp/B07K3T51SY
+image: https://sc01.alicdn.com/kf/H76967dbfecbb4ecab2be34a00ee991b63/Universal-wifi-smart-home-plug-compatible-with.jpg
 template: '{"NAME":"SWA9","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link2: http://s.click.aliexpress.com/e/l42pmAQy
+link3: https://lingan.en.alibaba.com/search/product?SearchText=swa9
 ---
 
-GPIO mapping is the same as [Lingan SWA1](https://github.com/arendst/Tasmota/wiki/Lingan-SWA1)
-
-
+![Label](https://cf.shopee.sg/file/d09204cc9c3d81c295db6c96b8bfcfec)
