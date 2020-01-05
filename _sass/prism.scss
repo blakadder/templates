@@ -37,14 +37,14 @@ pre[class*="language-"] {
 
 /* Code blocks */
 pre[class*="language-"] {
-	padding: .5em;
+	padding: .5em 0;
 	margin: .5em 0;
 	overflow: auto;
 }
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	font-size: 100%;
+	font-size: 95%;
 	background: #333333;
 }
 
