@@ -1,12 +1,12 @@
 ---
 date_added: 2019-04-02
-title: EtekCity ESWL01
+title: Etekcity ESWL01
 category: switch
 type: Switch
 standard: us
 link: https://www.amazon.com/gp/product/B07J9LF6PS
 image: https://user-images.githubusercontent.com/5904370/55393418-7ec95300-553d-11e9-86d9-e765e2abb80d.png
-template: '{"NAME":"EtekCityESWL01","GPIO":[255,255,255,255,52,53,0,0,255,21,122,255,255],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"EtekCityESWL01","GPIO":[0,255,0,255,52,53,0,0,0,21,122,0,0],"FLAG":1,"BASE":18}' 
 link2: 
 link3: https://www.etekcity.com/product/100323
 ---
