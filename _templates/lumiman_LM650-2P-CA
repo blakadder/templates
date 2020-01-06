@@ -1,14 +1,13 @@
 ---
 date_added: 2019-03-20
-title: Lumiman A19 800lm
+title: Lumiman LM650 7.5W 800lm
 model: LM650-2P-CA 
 type: RGBW
 category: bulb
 standard: e26
 link: https://www.amazon.com/dp/B07DLSNNDS
-image: https://images-na.ssl-images-amazon.com/images/I/513gnBOpq1L._SL1000_.jpg
+image: https://user-images.githubusercontent.com/5904370/71832955-43e7e300-30ac-11ea-8388-acb877b16839.png
 template: '{"NAME":"Lumiman LM530","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":1,"BASE":18}' 
 link2: 
 ---
-
-Manufacturer reference: LM650-2P-CA
+![image](https://user-images.githubusercontent.com/5904370/71832498-5d3c5f80-30ab-11ea-9978-310b9d7ee89d.png)
