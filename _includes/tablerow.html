@@ -4,5 +4,9 @@
   <td style="width: 20%;">{% if template.template contains '131' or template.template contains '132' or template.template contains '133' or template.template contains '134' or template.template contains '135' or template.template contains '136' or template.template contains '137' or template.template contains '145' or template.template contains '146' or template.template contains '156'%}
       Power Monitoring
       {% endif %}<BR>
-      {{ template.type }}</td>
+      {{ template.type }}
+      {% if template.category contains 'bulb'%}
+      Bulb
+      {% endif %}        
+</td>
 </tr>

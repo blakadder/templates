@@ -1,6 +1,7 @@
 ---
 date_added: 2019-09-10
 title: Geeni LUX 1050lm
+model: GN-BW903-999
 type: CCT
 category: bulb
 standard: e26
@@ -10,6 +11,4 @@ template: '{"NAME":"Geeni-1050-WW","GPIO":[0,0,0,0,37,37,0,0,38,0,0,0,0],"FLAG":
 link2: 
 link3: https://mygeeni.com/products/lux-1050-smart-wi-fi-led-white-light
 ---
-Reference: GN-BW903-999
-
 Note NOT color version, just tunable white

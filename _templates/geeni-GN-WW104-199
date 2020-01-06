@@ -1,6 +1,7 @@
 ---
 date_added: 2019-09-02
 title: Geeni Spot
+model: GN-WW104-199
 category: plug
 type: Plug
 standard: us
@@ -10,11 +11,3 @@ template: '{"NAME":"Geeni Spot","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,
 link2: https://www.amazon.com/Geeni-Required-Assistant-Microsoft-Cortana/dp/B07FLXG64J
 link3: https://mygeeni.com/collections/power/products/spot-wi-fi-smart-plug
 ---
-Reference: GN-WW104-199
-
-
-
-
-
-
-

@@ -38,9 +38,16 @@ title: Tasmota Device Templates Repository
 <ul>
 {% assign sorted = site.templates  | sort: "date_added" | reverse %}
 {% for template in sorted limit:10 %}
-<li><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }} {{ template.type }} {% assign standard_list = template.standard %} 
+<li><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }} 
+        {% assign standard_list = template.standard %} 
         {% for item_standard in standard_list %}
         {{ item_standard | upcase }} 
-        {% endfor %}</a></li>
+        {% endfor %}
+        {{ template.type }}
+        {% if template.category contains 'bulb'%}
+        Bulb
+        {% endif %}        
+    </a>
+</li>
 {% endfor %}
 </ul>

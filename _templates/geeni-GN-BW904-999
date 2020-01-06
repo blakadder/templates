@@ -1,6 +1,7 @@
 ---
 date_added: 2019-10-26
 title: Geeni Prisma 1050lm
+model: GN-BW904-999
 type: RGBW
 category: bulb
 standard: e26
@@ -10,4 +11,3 @@ template: '{"NAME":"Geeni 1050 RGB","GPIO":[37,0,0,0,140,38,0,0,0,142,141,0,0],"
 link2: 
 link3: https://mygeeni.com/collections/lighting/products/prisma1050-smart-wi-fi-led-color-ligh
 ---
-Reference: GN-BW904-999

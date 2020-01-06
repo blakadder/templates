@@ -1,9 +1,11 @@
 ---
 date_added: 2019-11-11
-title: Nedis WIFIP110FWT
+title: Nedis P110
+model: WIFIP110FWT
 category: plug
 type: Plug
 standard: eu
+flash: tuya-convert
 link3: https://nedis.com/en-us/product/550671326/wifi-smart-plug-power-monitor-schuko-type-f-10a
 image: https://pictures.content4us.com/products_high_res/WIFIP110FWT_P66.JPG
 template: '{"NAME":"Nedis WIFIP110","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
@@ -11,4 +13,3 @@ link: https://www.amazon.de/dp/B07GH6D8TW
 link2: https://webshop.nedis.com/en-us/550671326/wifip110fwt
 ---
 
-Tuya-Convert 2.0 OTA compatible 2019-11-11

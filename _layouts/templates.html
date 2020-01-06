@@ -10,7 +10,10 @@ layout: default
  Power Monitoring
  {% endif %}
  {{ page.type }}
-</h2>
+ {% if page.category contains 'bulb'%}
+ Bulb
+ {% endif %}
+ </h2>
 </div>
 <!-- <div class="float-right"> -->
 <div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%">
@@ -71,7 +74,11 @@ layout: default
 <div class="row">
   <div class="column column-100">
     <pre><code class="language-erlang">{{ page.template }}</code></pre>
-  {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156' %}
+    {% if page.model != nil %}
+    Reference ID: {{ page.model }}<BR>
+    {% endif %}
+
+    {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156' %}
   For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/#/Power-Monitoring-Calibration">power monitoring calibration</a>.
   {% endif %}
   </div>

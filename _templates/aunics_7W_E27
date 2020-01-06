@@ -1,19 +1,12 @@
 ---
 date_added: 2019-11-21
-title: Aunics 600lm 
-type: RGB
+title: Aunics 7W 600lm 
+type: RGBCCT
 category: bulb
 standard: e27
+flash: tuya-convert
 link: https://www.amazon.de/gp/product/B07TW894R9
 image: https://images-na.ssl-images-amazon.com/images/I/71kwwKoplxL._SL1500_.jpg
 template: '{"NAME":"Aunics RGBW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link2: https://www.amazon.co.uk/Aunics-Compatible-Lighting-Devices-Multicolor/dp/B07TKVHYDQ
 ---
-
-flashed with tuya convert
-
-
-
-
-
-

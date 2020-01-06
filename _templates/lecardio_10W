@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-06
+title: LeCardio 10W 980lm
+link: http://s.click.aliexpress.com/e/Dz09spna
+image: https://user-images.githubusercontent.com/5904370/71822564-73d7bc00-3095-11ea-905b-171adc692813.png
+template: '{"NAME":"LeCardio RGBW","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: serial
+category: bulb
+type: RGBW
+standard: 
+  - e27
+  - e26
+---

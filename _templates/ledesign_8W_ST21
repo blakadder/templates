@@ -1,0 +1,16 @@
+---
+date_added: 2020-01-06
+title: LeDesign 8W ST21 Filament 
+link: https://www.amazon.com/dp/B07TTL8HP4
+image: https://images-na.ssl-images-amazon.com/images/I/61gaXUwnOyL._AC_SL1500_.jpg
+template: '{"NAME":"Edison Bulb","GPIO":[0,0,0,0,0,0,0,0,0,37,0,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+link3: 
+flash: tuya-convert
+category: bulb
+type: WW
+standard: e26
+---
+It is a white box sold on Amazon under many different names, but they all look the same.
+
+![](https://user-images.githubusercontent.com/5904370/71824229-51e03880-3099-11ea-9ca6-227c4b28f384.png)

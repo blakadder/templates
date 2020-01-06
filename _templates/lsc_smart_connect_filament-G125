@@ -1,6 +1,6 @@
 ---
 date_added: 2020-01-05
-title: LSC Smart Connect G125 470lm
+title: LSC Smart Connect Filament G125
 link: https://www.action.com/de-de/p/lsc-smart-connect-intelligente-led-filament-lampe-4/
 image: https://www.action.com/globalassets/cmsarticleimages/79/70/2578270_8712879142768-111.png
 template: '{"NAME":"LSC-Filam-Huge","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
@@ -8,6 +8,6 @@ link2: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-filament-ledlamp-
 link3: 
 flash: tuya-convert
 category: bulb
-type: Filament
+type: WW
 standard: e27
 ---

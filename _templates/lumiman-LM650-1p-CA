@@ -1,6 +1,7 @@
 ---
 date_added: 2019-12-09
-title: Lumiman LM650-1p-CA
+title: Lumiman Mini
+model: LM650-1p-CA
 link: https://www.amazon.ca/dp/B07F716MM5
 image: https://cdn.shopify.com/s/files/1/0019/8885/3829/products/20180911233739_608x608.png
 template: '{"NAME":"Lumiman LM650","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'

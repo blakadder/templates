@@ -7,7 +7,14 @@ link3: https://www.itead.cc/sonoff-rf-bridge-433.html
 image: https://user-images.githubusercontent.com/5904370/57891774-eeb94180-783c-11e9-9031-676fae24ce1c.png
 template: '{"NAME":"Sonoff Bridge","GPIO":[17,148,255,149,255,255,0,0,255,56,255,0,0],"FLAG":0,"BASE":25}' 
 link: https://www.banggood.com/SONOFF-RF-Bridge-WiFi-433-MHz-Replacement-Smart-Home-Automation-Universal-Switch-p-1179900.html
-link2: https://www.gearbest.com/smart-home-controls/pp_009191158369.html
+link2: http://s.click.aliexpress.com/e/NcaFu04g
 ---
+Also available from:
+* [amazon.com](https://amzn.to/36t1aeB)
+* [amazon.ca](https://amzn.to/2MY0RR4)
+* [amazon.de](https://amzn.to/37Jpaub)
+* [amazon.co.uk](https://amzn.to/2QtlLK4)
+* [Gearbest](https://www.gearbest.com/sale/rf-bridge/?lkid=78224145)
+
 ## Serial Flashing
 Complete guide on [Tasmota Wiki](https://tasmota.github.io/docs/#/devices/Sonoff-RF-Bridge-433)

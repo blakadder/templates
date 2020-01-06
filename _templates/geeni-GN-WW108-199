@@ -1,6 +1,7 @@
 ---
 date_added: 2019-09-02
 title: Geeni Spot Glo
+model: GN-WW108-199
 category: plug
 type: Plug
 standard: us
@@ -10,11 +11,3 @@ template: '{"NAME":"Geeni Glo","GPIO":[0,0,0,0,56,0,0,0,21,17,22,0,0],"FLAG":0,"
 link2: https://www.bimart.com
 link3: https://mygeeni.com/collections/power/products/spot-glo
 ---
-Reference: GN-WW108-199
-
-
-
-
-
-
-

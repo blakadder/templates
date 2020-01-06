@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-05
+title: Lumary 9W 800lm
+model: LK19080007
+link: https://www.amazon.de/gp/product/B07YV2PL3L
+image: https://user-images.githubusercontent.com/5904370/71821854-87822300-3093-11ea-92a9-60b66c90ab4f.png
+template: '{"NAME":"Lumary / iLint","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.com/Bluetooth-Equivalent-Multicolor-Smartphone-Controlled/dp/B076P43ZJ6
+link3: http://www.lumary.tech/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
+Also found under iLintek which seems to be the same company.

@@ -1,12 +1,17 @@
 ---
-date_added: 2019-04-06
+date_added: 2019-08-05
 title: Sesoo WIFI-US-SK3-04
 category: switch
 type: Switch
 standard: us
-link: https://www.alibaba.com/product-detail/Sesoo-Smart-Touch-Button-Amazon-Alexa_60827162885.html
-image: https://user-images.githubusercontent.com/5904370/55691622-34622f00-59a0-11e9-8f1d-8f4c8e649d66.png
-template: '{"NAME":"WIFI-US-SK3-04","GPIO":[255,255,255,19,23,17,0,0,20,24,22,21,18],"FLAG":0,"BASE":18}' 
-link2: 
+link: https://www.aliexpress.com/item/33039910999.html
+image: https://sc01.alicdn.com/kf/HTB1A8S3acfrK1RjSszcq6xGGFXa7/UK-US-4gang-Tuya-App-Touch-Light.jpg
+template: '{"NAME":"Tuya 4 Channel","GPIO":[52,255,255,19,23,17,0,0,20,24,22,21,18],"FLAG":0,"BASE":18}' 
+link2: https://sesoo.en.alibaba.com/product/60825780347-806282494/UK_US_4gang_Tuya_App_Touch_Light_Smart_Switch_WiFi_Wall_Switch_with_Alexa_Google.html
 ---
-ALL LED's works fine as Red - on and Blue - off, GPIO0 is the Wifi LED if you want to control
+
+
+
+
+
+

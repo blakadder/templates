@@ -1,7 +1,8 @@
 ---
 date_added: 2019-12-01
-title: Kogan ST64 330lm  
-type: Filament
+title: Kogan ST-20 Filament
+model: KASHFLB64AA
+type: WW
 category: bulb
 standard: b22
 link: https://www.kogan.com/au/buy/kogan-smarterhome-5w-smart-dimmable-led-filament-bulb-st-20-e27-2pk/
@@ -9,7 +10,6 @@ image: https://user-images.githubusercontent.com/5904370/69923781-b232f780-14a7-
 template: '{"NAME":"Kogan Filament","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":15,"BASE":18}' 
 link2: 
 ---
-Reference: KASHFLB64AA
 
 Flashed with tuya-convert out of the box. 
 

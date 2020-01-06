@@ -1,5 +1,6 @@
 toc:
   - name: Bulbs
+    url: bulb.html
     subnav:
       - title: by Type
         url: bulb-type.html

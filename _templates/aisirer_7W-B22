@@ -9,7 +9,5 @@ link3: https://iaisirer.com/uk/RGB-Smart-Bulb-1-Pack-B22.html
 flash: tuya-convert
 category: bulb
 type: RGBW
-standard: 
-  - e27
-  - b22
+standard: b22
 ---
