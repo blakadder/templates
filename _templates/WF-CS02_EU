@@ -46,23 +46,22 @@ The shutter can now be integrated into Home Assistant:
 ```yaml
 
 cover:
-  - platform: mqtt
-    name: "Tuya WF-CS02 Shutter"
+    platform: mqtt
+    name: "Shutter 1"
     availability_topic: "tele/<tasmota>/LWT"
-    state_topic: "stat/<tasmota>/RESULT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    position_topic: "stat/<tasmota>/SHUTTER1"
+    position_open: 100
+    position_closed: 0
+    set_position_topic: 'cmnd/<tasmota>/ShutterPosition1'
     command_topic: "cmnd/<tasmota>/Backlog"
     value_template: '{{ value | int }}'
-    qos: 1
-    retain: false
     payload_open: "ShutterOpen1"
     payload_close: "ShutterClose1"
     payload_stop: "ShutterStop1"
-    state_open: "ON"
-    state_closed: "OFF"
-    payload_available: "Online"
-    payload_not_available: "Offline"
+    retain: false
     optimistic: false
-    set_position_topic: 'cmnd/<tasmota>/ShutterPosition1'
-    position_topic: "stat/<tasmota>/SHUTTER1"
+    qos: 1
 
 ```
