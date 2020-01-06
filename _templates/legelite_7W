@@ -1,11 +1,11 @@
 ---
 date_added: 2019-03-24
-title: Legelite 600lm
+title: Legelite A60 7W 600lm
 type: RGBCCT
 category: bulb
 standard: e26
 link: https://www.amazon.com/gp/product/B07GR4SN63
-image: https://images-na.ssl-images-amazon.com/images/I/51MfyefdXiL._SL1150_.jpg
+image: https://user-images.githubusercontent.com/5904370/71832304-f6b74180-30aa-11ea-8910-be52347cb3d9.png
 template: '{"NAME":"Legelite E26","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
