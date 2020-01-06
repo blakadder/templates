@@ -6,7 +6,7 @@ type: RGBW
 category: bulb
 standard: e26
 link: https://www.amazon.com/LUMIMAN-Changing-Compatible-Assistant-Multicolor/dp/B07XYXY5QR
-ximage: https://user-images.githubusercontent.com/5904370/71832955-43e7e300-30ac-11ea-8388-acb877b16839.png
+image: https://user-images.githubusercontent.com/5904370/71832955-43e7e300-30ac-11ea-8388-acb877b16839.png
 template: '{"NAME":"Lumiman LM530","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":1,"BASE":18}' 
 link2: 
 ---

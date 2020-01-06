@@ -5,7 +5,7 @@ type: RGBW
 category: bulb
 standard: e27
 link: https://www.aliexpress.com/item/New-E27-WiFi-Smart-Light-Bulb-Dimmable-Multicolor-Wake-Up-Lights-RGBWW-LED-Lamp-Compatible-with/32932204996.html
-image: https://user-images.githubusercontent.com/5904370/71836575-8e6d5d80-30b4-11ea-9509-9ed9f5e1090f.pngžž
+image: https://user-images.githubusercontent.com/5904370/71836575-8e6d5d80-30b4-11ea-9509-9ed9f5e1090f.png
 template: '{"NAME":"WifiBulb","GPIO":[0,0,0,0,0,37,0,0,39,40,38,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

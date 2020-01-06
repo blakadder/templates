@@ -6,7 +6,7 @@ navigation: 20
 <h2>{{ page.title }}</h2>
 <!-- ######################################################################  -->
 
-{% assign category = site.templates | where: "category", "bulb" | sort: 'title'  %}
+{% assign category = site.templates | where: "category", "bulb" | sort_natural: 'title'  %}
 <table id="{{ group.name }}" width="80%">
     <tbody>
     {% for template in category %}

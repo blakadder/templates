@@ -1,0 +1,14 @@
+---
+date_added: 2019-11-25
+title: Saudio A19 7W 700lm
+model: S017WA19
+type: RGBCCT
+category: bulb
+standard: e26
+flash: tuya-convert
+link: https://www.amazon.com/gp/product/B07RX62616
+image: https://user-images.githubusercontent.com/5904370/71837687-54518b00-30b7-11ea-949c-7d86cbf7cb5f.png
+template: '{"NAME":"X002BU0DOL","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.com/gp/product/B07Y6DW5L2 
+---
+![packaging](https://user-images.githubusercontent.com/5904370/71837985-1b65e600-30b8-11ea-82a4-4885d7dd02a7.png)
