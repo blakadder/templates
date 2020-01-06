@@ -3,10 +3,13 @@ date_added: 2020-01-03
 title: Novostella NTB10 900lm
 type: RGBCCT
 category: bulb
-standard: e26
+standard: 
+  - e26
+  - e27
 link: https://www.amazon.com/gp/product/B07XNXDHVV
 image: https://cdn.shopify.com/s/files/1/0079/8870/7381/products/1_826270dd-3a72-4045-a73e-f24e6efcac2c_2048x2048.jpg
 template: '{"NAME":"NTB10","GPIO":[0,0,0,0,41,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.de/gp/product/B07XP8FFWX
 link3: 
 ---
 Manufacturer ID: NTB10-RGBCW-US-2

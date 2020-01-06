@@ -1,0 +1,12 @@
+---
+date_added: 2020-01-06
+title: Lumiman LM530 7.5W 800lm
+model: LM530-1p-UK-B22
+type: RGBW
+category: bulb
+standard: b22
+link: https://www.amazon.co.uk/Bayonet-LUMIMAN-Compatible-Assistant-Required/dp/B07NWCZPJG
+ximage: https://images-na.ssl-images-amazon.com/images/I/411uqNDxAdL._SL1000_.jpg
+template: '{"NAME":"Lumiman LM530","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":1,"BASE":18}' 
+link2: https://www.amazon.co.uk/LUMIMAN-Dimmable-Compatible-Assistant-Smartphone/dp/B07DW2Q3SP
+---
