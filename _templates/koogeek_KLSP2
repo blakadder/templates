@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-06
+title: Koogeek KLSP2
+model: 
+image: https://ae01.alicdn.com/kf/HTB1fj2WRkzoK1RjSZFlq6yi4VXaZ.jpg
+template: '{"NAME":"KOOGEEK KLSP2","GPIO":[57,145,56,146,0,22,0,0,0,0,21,0,17],"FLAG":0,"BASE":45}' 
+link: https://www.aliexpress.com/item/33005227971.html
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+Analogous to BlitzWolf SHP-5
