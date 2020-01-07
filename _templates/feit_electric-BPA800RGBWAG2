@@ -14,3 +14,6 @@ link3:
 
 Need to run `setoption37 54` to correct the RED and BLUE mismatch
 
+This bulb seems to have hardware Gamma correction, so you need to make sure you disable Software Gamma Correction:
+
+`LedTable 0`
