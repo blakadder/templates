@@ -1,0 +1,19 @@
+---
+date_added: 2020-01-07
+title: Vivitar HA-1006-AU
+model: 
+image: https://assets.kogan.com/files/product/etail/Vivitar-/VIV-90024600_1.jpg
+template: '{"NAME":"HA-1006-AU","GPIO":[0,0,0,0,56,0,0,0,21,90,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kogan.com/au/buy/vivitar-wireless-remote-plug-horizontal-21a-usb-ha-1006-au/
+link2: https://www.amazon.com.au/Vivitar-Wireless-Remote-Powerpoint-Security/dp/B07FDN7YK7
+link3: 
+flash: serial
+category: plug
+type: Plug
+standard: au
+---
+ESP8266 is on custom board, had to trace all the GPIO back to chip, please see attached photos for pinouts.
+
+![](https://i86.photobucket.com/albums/k81/bullbob_1990/20200107_215137_zpsurkwmato.jpg)
+![](https://i86.photobucket.com/albums/k81/bullbob_1990/20200107_205357_zpsgrrllyu0.jpg)
+![](https://i86.photobucket.com/albums/k81/bullbob_1990/20200107_205408_zpsh44jgrpb.jpg)
