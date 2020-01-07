@@ -1,0 +1,57 @@
+---
+date_added: 2020-01-07
+title: Arlec 45cm Smart DC Wall Fan
+model: AWDC001HA
+image: https://media.bunnings.com.au/Product-800x800/5450ca3c-55e0-464a-bad9-09271f304a41.jpg
+template: '{"NAME":"Arlec 45cm Fan","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
+link: https://www.bunnings.com.au/arlec-45cm-smart-dc-wall-fan-with-grid-connect_p0110424
+link2: https://www.bunnings.co.nz/arlec-45cm-smart-dc-wall-fan-with-grid-connect_p00110424
+link3: 
+flash: tuya-convert
+category: misc
+type: Fan
+standard: au
+---
+```console
+Backlog TuyaMCU 11,1; TuyaMCU 12,101
+```
+Used the following rule to detect speed
+```console
+Rule1 on TuyaReceived#Data=55AA0307000503040001051B do publish2 stat/afan/speed 3,5 endon
+on TuyaReceived#Data=55AA0307000503040001041A do publish2 stat/afan/speed 3,4 endon
+on TuyaReceived#Data=55AA03070005030400010319 do publish2 stat/afan/speed 3,3 endon
+on TuyaReceived#Data=55AA03070005030400010218 do publish2 stat/afan/speed 3,2 endon
+on TuyaReceived#Data=55AA03070005030400010117 do publish2 stat/afan/speed 3,1 endon
+on TuyaReceived#Data=55AA03070005030400010016 do publish2 stat/afan/speed 3,0 endon
+Rule1 1
+```
+
+Home Assistant fan.yaml
+```
+- platform: mqtt
+  name: "Arlec Fan"
+  state_topic: "stat/afan/POWER1"
+  command_topic: "cmnd/afan/POWER1"
+  oscillation_state_topic: "stat/afan/POWER2"
+  oscillation_command_topic: "cmnd/afan/POWER2"
+  speed_state_topic: "stat/afan/speed"
+  speed_command_topic: "cmnd/afan/TuyaSend4"
+  qos: 0
+  payload_on: 'ON'
+  payload_off: 'OFF'
+  payload_oscillation_on: 'ON'
+  payload_oscillation_off: 'OFF'
+  payload_low_speed: '3,0'
+  payload_medium_speed: '3,2'
+  payload_high_speed: '3,5'
+  availability_topic: tele/afan/LWT
+  payload_available: Online
+  payload_not_available: Offline
+  speeds:
+    - 'off'
+    - low
+    - medium
+    - high
+```
+
+The fan has 6 speed, but this component only lets us set to 3 of them.
