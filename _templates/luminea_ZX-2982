@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-07
+title: Luminea ZX-2982
+model: REV1_2019_08_08_RM-EB
+image: https://www.luminea.info/zx2982_1.jpg
+template: '{"NAME":"Luminea ZX2982","GPIO":[255,255,255,255,255,255,255,255,255,255,37,255,255],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.de/Luminea-Home-Control-2er-Set-LED-Filament-Lampen/dp/B08239T7KF
+link2: https://www.pearl.de/a-ZX2982-3103.shtml
+link3: https://www.luminea.info/Alternative-zu-38319-E27-ST64-LED-Filament-Lampe--ZX-2982-919.shtml
+flash: tuya-convert
+category: bulb
+type: WW
+standard: e27
+---
+Turn on, wait 10 sec. then turn light off-on 5x to get into pairing mode. Fast blinking.
