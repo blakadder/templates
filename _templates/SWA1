@@ -6,7 +6,7 @@ type: Plug
 standard: 
   - us
   - eu
-link: https://www.amazon.com/LINGANZH-Monitoring-Control-Wireless-Compatible/dp/B074P2F9XM
+link: https://www.amazon.com/dp/B07KT61FFG
 image: https://images-na.ssl-images-amazon.com/images/I/51ZJHl%2B6TNL._SL1500_.jpg
 template: '{"NAME":"SWA1","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/dp/B079JXN1VV
