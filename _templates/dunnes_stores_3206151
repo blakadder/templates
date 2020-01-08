@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-08
+title: Dunnes Stores #3206151
+model:  
+image: https://dunnes.btxmedia.com/pws/client/images/catalogue/products/3206151/zoom/3206151_white_1.jpg
+template: '{"NAME":"SmartLifePlug","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.dunnesstores.com/p/wifi-smart-plug/3206151
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---
