@@ -27,7 +27,7 @@ Rule1 1
 ```
 
 Home Assistant fan.yaml
-```
+```yaml
 - platform: mqtt
   name: "Arlec Fan"
   state_topic: "stat/afan/POWER1"

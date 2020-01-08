@@ -14,11 +14,12 @@ standard: au
 ---
 The following mappings are required
 ```console
-TuyaMCU 21,
+TuyaMCU 11,1
+TuyaMCU 21,2
 ```
 and dimmer limits
 ```console
-DimmerRange 1,
+DimmerRange 1,255
 ```
 
 Worked fine with a 60 Watt resistive bulb.  It meant to work with LED, but did flicker with a single 13 Watt load.   Might meant a larger load.
