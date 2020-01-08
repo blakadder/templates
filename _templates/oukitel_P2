@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-08
+title: Merisny P2
+category: plug
+type: Plug
+standard: eu
+flash: tuya-convert
+link: https://www.banggood.com/Oukitel-P2-Mini-Smart-WIFI-Socket-16A-EU-Plug-APP-Remote-Control-Timing-Smart-Home-Switch-Power-Outlet-p-1329095.html
+image: https://images-na.ssl-images-amazon.com/images/I/51-OcfeCZ7L._SL1001_.jpg
+template: '{"NAME":"Oukitel P2","GPIO":[0,0,52,0,0,0,0,0,0,17,0,21,0],"FLAG":1,"BASE":18}' 
+link2: https://www.amazon.de/dp/B07PR2KMB2
+---
+
+Also found as [Merisny P2](https://amzn.to/2QCnpcB)
