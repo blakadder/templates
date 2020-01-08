@@ -1,13 +1,13 @@
 ---
-date_added: 2019-04-13
+date_added: 2020-01-08
 title: XS-A25
 category: plug
 type: Power Strip
 standard: uk
-link: https://shopee.sg/product/90339497/1728178861
+flash: tuya-convert
 image: https://cf.shopee.sg/file/b837bb8b840bf6e7ae671bfc83b64daf
 template: '{"NAME":"XS-A25","GPIO":[52,0,53,0,25,22,0,0,24,17,23,21,0],"FLAG":0,"BASE":18}' 
-link2: https://www.lazada.sg/products/niceeshop-smart-wifi-power-strip-app-remote-voice-individual-control-with-tmall-genie-amazon-alexa-google-home-assistant-4-ac-4-usb-extension-lead-cord-timer-via-android-ios-smartphone-tablets-i289054066-s468891476.html
+link: https://www.aliexpress.com/item/4000107008236.html
+link2: https://shopee.sg/product/90339497/1728178861
+link3: https://xiangshangcn.en.alibaba.com/product/60741440640-807502531/New_wifi_smart_timer_AC_USB_charger_power_strip_socket_multi_plug_switch_outlet_App_Alexa_Echo_Google_IFTTT_UK_Tuya.html
 ---
-
-Flashable using Tuya-Convert 

@@ -4,16 +4,14 @@ title: XS-SSA06
 category: plug
 type: Plug
 standard: us
-link: https://www.amazon.com/gp/product/B07P8KGPH5/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+flash: tuya-convert
+link: https://www.amazon.com/dp/B07PRQGYCK
 image: https://user-images.githubusercontent.com/5904370/66565694-60cf5180-eb63-11e9-98c4-91ee43d142d8.png
-template: '{"NAME":"RGB Light","GPIO":[37,0,38,0,0,39,0,0,0,90,0,21,0],"FLAG":0,"BASE":18}' 
-link2: 
+template: '{"NAME":"XS-SSA06","GPIO":[37,0,38,0,0,39,0,0,0,90,0,21,0],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.ca/ILS-XS-SSA06-AC100-240V-Wireless-Compatible/dp/B07ZP239PJ
+link3: https://xiangshangcn.en.alibaba.com/product/60798221701-807592544/RGB_mini_wi_fi_smart_plug_smart_socket_smart_outlet_AU_works_with_Amazon_alexa_google_home_mobile_app_tuya_solution_smart_life.html
 ---
 
 This is fully compatible with the Template provided. You can turn the switch off\on, change light ring color and turn it off and on also.
 
-
-
-
-
-
+![label](https://user-images.githubusercontent.com/5904370/71945736-e47ef580-31c7-11ea-99b1-3dbfeeeedd57.png)

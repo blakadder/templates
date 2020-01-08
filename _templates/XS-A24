@@ -1,0 +1,13 @@
+---
+date_added: 2020-01-08
+title: XS-A34
+category: plug
+type: Power Strip
+standard: us
+flash: tuya-convert
+link: https://www.aliexpress.com/item/4000058613452.html
+image: https://ae01.alicdn.com/kf/Hb2abd3c6e75849a892aee22e501b4f47R/US-Plug-13A-USB-Wifi-Smart-Power-Outlet-Compatible-Smart-Ruler-Power-Strip-Outlet-with-Alexa.jpg
+template: '{"NAME":"XS-A24","GPIO":[52,0,53,0,25,22,0,0,24,17,23,21,0],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.ca/Consumer-electonics-Wireless-Control-Compatible/dp/B07T72K85T
+link3: https://xiangshangcn.en.alibaba.com/product/60805646949-807502531/wifi_smart_USB_charger_socket_multi_plug_switch_outlet_work_with_App_Alexa_Echo_Google_IFTTT_US_type_b_Tuya.html
+---

@@ -4,10 +4,11 @@ title: XS-A23
 category: plug
 type: Plug
 standard: us
-link: https://www.banggood.com/MoesHouse-16A-Mini-WiFi-Smart-Socket-US-Standard-Dual-Outlet-Wall-Switch-Plug-Independent-Control-with-Power-Monitoring-Work-with-Amazon-Alexa-and-Google-Home-p-1536504.html?rmmds=myorder&cur_warehouse=CN
+link: https://www.banggood.com/MoesHouse-16A-Mini-WiFi-Smart-Socket-US-Standard-Dual-Outlet-Wall-Switch-Plug-Independent-Control-with-Power-Monitoring-Work-with-Amazon-Alexa-and-Google-Home-p-1536504.html
 image: https://user-images.githubusercontent.com/5904370/68243746-7412f700-0013-11ea-9976-ed57dc55ba14.png
 template: '{"NAME":"XS-A23","GPIO":[56,255,0,131,17,134,0,0,0,18,132,21,22],"FLAG":0,"BASE":45}' 
 link2: 
+link3: https://xiangshangcn.en.alibaba.com/product/60809925373-807590977/China_factory_manufacture_new_type_2_in_1_smart_home_plug_outlet_amazon_and_google_home_IFTTT_enabled_Tuya_App_dual_double_plug.html
 ---
 
 
