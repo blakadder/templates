@@ -3,11 +3,12 @@ date_added: 2019-06-13
 title: Jules.V NX-SM300
 category: plug
 type: Plug
-standard: us
+standard: jp
 link: https://www.amazon.co.jp/dp/B07MBFD2VV
 image: https://i.postimg.cc/hGh7Hxch/p.png
 template: '{"NAME":"NX-SM300","GPIO":[52,0,0,0,0,130,0,0,21,132,133,52,0],"FLAG":0,"BASE":6}' 
 link2: 
+link3: https://nanxin88.en.alibaba.com/product/62221411745-0/Intelligent_wifi_socket_plug_with_compatible_energy_monitoring.html
 ---
 
 

@@ -5,9 +5,9 @@ category: plug
 type: Plug
 standard: us
 flash: tuya-convert
-link: https://www.amazon.com/gp/product/B072K7KRYP
+link: https://www.amazon.com/3Stone-Required-Compatible-Control-Anywhere/dp/B07H3NHHVP
 image: https://images-na.ssl-images-amazon.com/images/I/51oLtZQHp5L._AC_SL1500_.jpg
 template: '{"NAME":"3Stone Smart P","GPIO":[0,17,0,0,0,0,0,0,0,57,21,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link2: https://www.amazon.com/gp/product/B072K7KRYP
 ---
 Model number: 4330581284
