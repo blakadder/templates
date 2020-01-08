@@ -6,8 +6,6 @@ toc:
         url: bulb-type.html
       - title: by Socket
         url: bulb-socket.html
-      - title: by Name
-        url: bulb.html
   - name: Switches and Relays
     url: switch.html
   - name: Lights and LEDs

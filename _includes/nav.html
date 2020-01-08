@@ -1,5 +1,5 @@
 <div id="navigation" class="navigation">
-    {% assign cat = site.data.nav.toc %}
+{% assign cat = site.data.nav.toc %}
 {% for item in cat %}
 <ul class="navigation" id="navigation">
     <li><a class="{% if page.url == item.url %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.name }}</a>

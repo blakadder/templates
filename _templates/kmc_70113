@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-08
+title: KMC 70113 A19 7.5W
+model: 70113
+image: https://images-na.ssl-images-amazon.com/images/I/51uh1NlSuuL._AC_SL1200_.jpg
+template: '{"NAME":"Generic","GPIO":[0,0,0,0,0,0,37,38,0,0,0,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07GP8X8KP
+link2: 
+link3: 
+flash: tuya-convert
+category: bulb
+type: CW
+standard: e26
+---
+To enter pairing mode cycle power on-off-on-off-on
