@@ -1,13 +1,14 @@
 ---
-date_added: 2019-11-25
-title: TP24 10A
+date_added: 2020-01-09
+title: TP24
 category: plug
 type: Plug
 standard: uk
-link: https://www.ebay.co.uk/itm/Smart-WIFI-Plug-Socket-Power-Switch-APP-Remote-Control-Timer-UK-Home-Automation-/392329706261
+link: http://s.click.aliexpress.com/e/npnhahW0
 image: http://www.sowye.com/wp-content/uploads/2018/11/TP24.png
-template: '{"NAME":"SmartLifeTP24","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
-link2: http://www.sowye.com/smart-plug-tp24/
+template: '{"NAME":"TP24","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link3: http://www.sowye.com/smart-plug-tp24/
+link2: https://www.alibaba.com/product-detail/UK-Plug-Smart-WiFi-Socket-10A_62422685105.html
 ---
 
-Power monitoring may be supported in hardware, but not in template.
+![](https://sc02.alicdn.com/kf/Hdc2c240e52a343a58d772c746139998aQ/UK-Plug-Smart-WiFi-Socket-10A-Support.jpg)
