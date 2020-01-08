@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-08
+title: Tonbux SM-SO301
+model: 2AJ5F-SM-3O301
+image: https://user-images.githubusercontent.com/5904370/72007649-70d5fa80-3252-11ea-9288-c6d01f255a21.png
+template: '{"NAME":"Tonbux SM-SO30","GPIO":[56,0,0,0,29,0,0,0,31,30,32,0,25],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B0779R4879/
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---
+Using this template, plugs are "off" by default. The LED is off unless any of the Relays are "on". Blue LED is on GPIO0 (used in template). Red LED is on GPIO3 (not used in template).
