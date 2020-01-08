@@ -4,7 +4,7 @@ title: Lucci Connect Remote Control
 link: https://www.beaconlighting.com.au/lucci-connect-wi-fi-fan-remote-control
 image: https://www.beaconlighting.com.au/media/catalog/product/cache/1/image/040ec09b1e35df139433887a97daa66f/2/9/299041.jpg
 template: '{"NAME":"Lucci Fan","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
-link2: 
+link2: https://www.amazon.com.au/Beacon-Lighting-Connect-Remote-Control/dp/B082P6HTQB
 link3: 
 flash: tuya-convert
 category: misc

@@ -5,7 +5,7 @@ model: KASPEMHUSBA
 link: https://www.kogan.com/au/buy/kogan-smarterhome-smart-plug-energy-meter-5v-24a-usb-ports-4-pack/
 image: https://assets.kogan.com/files/product/2019/KASPEMHUSBA/KASPEMHUSBA_2fixed.jpg
 template: '{"NAME":"KoganPOW","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":52}'
-link2: 
+link2: https://www.amazon.com.au/Kogan-SmarterHomeTM-Smart-Energy-Meter/dp/B08156T6FY
 link3: 
 flash: tuya-convert
 category: plug
