@@ -1,0 +1,16 @@
+---
+date_added: 2020-01-01
+title: Xenon SM-S0301-U
+category: plug
+type: Power Strip
+standard: us
+image: https://images-na.ssl-images-amazon.com/images/I/71KTgcLqGpL._AC_SL1500_.jpg
+template: '{"NAME":"SM-SO301-U","GPIO":[52,255,255,57,29,17,0,0,31,30,32,255,25],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Outlet-Protector-4-Outlet-5-Foot-Control/dp/B0784FHFKX
+link2: https://www.amazon.ca/gp/product/B07K9LGGVG
+link3: https%3A%2F%2Fwww.alibaba.com%2Fproduct-detail%2FXenon-US-Power-Strip-Surge-Protector_60692482233.html
+---
+
+Manufactured by Xenon / Jinvoo. This is the same device as the Teckin SM-S0301. 
+
+All 4 relays are individually controllable, and the block of 4 usb's is also controllable (all USB ON/OFF).

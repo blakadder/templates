@@ -1,0 +1,14 @@
+---
+date_added: 2019-11-29
+title: Xenon SM-SW202
+category: switch
+type: Switch
+standard: us
+flash: tuya-convert
+link: https://www.amazon.com/Lighting-Anywhere-Compatible-Assistant-Required/dp/B07L2SRPNZ
+image: https://images-na.ssl-images-amazon.com/images/I/61PQzoUs8YL._AC_SL1500_.jpg
+template: '{"NAME":"SM-SW202","GPIO":[0,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.com/gp/product/B07RSQ8F2B
+link3: https%3A%2F%2Fwww.alibaba.com%2Fproduct-detail%2FXenon-US-Standard-Tuya-Universal-Smart_62234182395.html
+---
+
