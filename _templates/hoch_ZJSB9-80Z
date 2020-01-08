@@ -5,7 +5,7 @@ model: ZJSB9-80Z
 image: https://ae01.alicdn.com/kf/H3039cd0eed2b4f9eb9ab26370279349bj/HOCH-WIFI-Circuit-Breaker-1P-FACTORY-Remote-Control-WIRELESS-Ewelink-Smart-intelligent-Automatic-Switch.png
 template: '{"NAME":"HOCH ZJSB9","GPIO":[17,255,255,255,255,255,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000073040351.html
-link2: https://www.aliexpress.com/item/4000144345639.html
+link2: https://www.banggood.com/EWelink-1P-16A-WiFi-Smart-Switch-Circuit-Breaker-Automatic-Recloser-Overload-Short-Circuit-Protection-for-Amazon-Alexa-Google-Home-p-1611340.html
 link3: https://hochgroup.en.alibaba.com/product/62440500378-814169542/HOCH_FACTORY_1P_Remote_Control_WIRELESS_Tuya_Smart_intelligent_Automatic_Energy_Monitoring_Switch_WIFI_Circuit_Breaker.html
 flash: serial
 category: switch
