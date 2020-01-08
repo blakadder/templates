@@ -18,7 +18,7 @@ title: Tasmota Device Templates Repository
 {% endfor %}
 <a class="button button-large button-grey" href="all.html">ALL</a>
 <p>
-   <span style="font-size:0.6em;vertical-align: sub;">See <a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">world map of plugs</a> and <a href="https://www.bulbs.com/learning/basechart.aspx" target="_blank">light bulb base list</a> for more information.</span>
+   <span style="font-size:0.6em;">See <a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">world map of plugs</a> and <a href="https://www.bulbs.com/learning/basechart.aspx" target="_blank">light bulb base list</a> for more information.</span>
 <p>
 <h5>Devices by type:</h5>
 <a class="button button-large button-grey" href="bulb.html">BULBS</a>
@@ -38,7 +38,7 @@ title: Tasmota Device Templates Repository
     <h3>Recently added devices:</h3>
 <ul>
 {% assign sorted = site.templates  | sort: "date_added" | reverse %}
-{% for template in sorted limit:10 %}
+{% for template in sorted limit:9 %}
 <li><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }} 
         {% assign standard_list = template.standard %} 
         {% for item_standard in standard_list %}
@@ -52,3 +52,4 @@ title: Tasmota Device Templates Repository
 </li>
 {% endfor %}
 </ul>
+<span style="font-size:0.6em;">As an Amazon Associate I earn from qualifying purchases from provided device links.</span>
