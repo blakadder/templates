@@ -7,7 +7,7 @@ link: https://www.amazon.com/d/Surge-Protector-Power-Strips/Jinvoo-Protector-Out
 image: https://user-images.githubusercontent.com/5904370/54858992-ac75f700-4d08-11e9-934c-4def2fe87dda.png
 template: '{"NAME":"SM-SO301","GPIO":[56,0,0,0,30,17,0,0,32,31,33,0,21],"FLAG":0,"BASE":18}'
 link2: https://www.aliexpress.com/wholesale?SearchText=sm-s0301&opensearch=true
-link3: https%3A%2F%2Fwww.alibaba.com%2Fproduct-detail%2FXenon-USB-Smart-Socket-Wifi-Smart_60588384717.html
+link3: https://www.alibaba.com/product-detail/Xenon-USB-Smart-Socket-Wifi-Smart_60588384717.html
 ---
 SM-S0301 with an FCC ID of 2AJ5F-SM-SO3015 has 4 mains power and 4 USB ports.  Each mains power is independently controlled and the USB group is controllable via a solid state relay.
 The ESP8266 module inside is a TYWE3S by Tuya. 
