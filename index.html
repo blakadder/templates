@@ -3,9 +3,8 @@ layout: page
 title: Tasmota Device Templates Repository
 ---
 <h3>Tasmota Device Templates Repository</h3>
-<h3>{% assign counter = 0 %}{% for item in site.templates %}{% assign counter=counter | plus:1 %}{% endfor %}{{ counter }} devices submitted by the community</h3>
-<div style="text-align:right;font-size:0.8em;vertical-align: sub;" class="float-right">See <a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">world map of plugs</a> for more information.</div>
-<h4>Devices by electrical standard:</h4>
+<h4>{% assign counter = 0 %}{% for item in site.templates %}{% assign counter=counter | plus:1 %}{% endfor %}{{ counter }} devices submitted by the community</h4>
+<h5>Devices by electrical standard:</h5>
 {% assign category = site.templates | where: "category", "plug" %}
 {% assign standard_group = category | map: 'standard' | join: ',' | split: ',' | uniq | sort_natural %}
 {% for std in standard_group %}
@@ -19,7 +18,9 @@ title: Tasmota Device Templates Repository
 {% endfor %}
 <a class="button button-large button-grey" href="all.html">ALL</a>
 <p>
-<h4>Devices by type:</h4>
+   <span style="font-size:0.6em;vertical-align: sub;">See <a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">world map of plugs</a> and <a href="https://www.bulbs.com/learning/basechart.aspx" target="_blank">light bulb base list</a> for more information.</span>
+<p>
+<h5>Devices by type:</h5>
 <a class="button button-large button-grey" href="bulb.html">BULBS</a>
 <a class="button button-large button-grey" href="plug.html">PLUGS</a>
 <a class="button button-large button-grey" href="light.html">LIGHTS</a>

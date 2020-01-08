@@ -9,7 +9,7 @@ link3: https://www.feit.com/
 flash: tuya-convert
 category: bulb
 type: RGBW
-standard: br30
+standard: e26
 ---
 You need to change RGB to BGR color order with `SetOption37 54` in Tasmota console to remap.
 
