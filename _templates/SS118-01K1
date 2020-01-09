@@ -17,13 +17,13 @@ Manufactured by Dongguan Yewelink Smart Technology, sold under various brands on
 
 ### Product 
 
-![Package](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/blob/master/Switch_SS118_01.png)
-![Back](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/blob/master/Switch_SS118_02.png)
-![Internal](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/blob/master/Switch_SS118_03.png)
-![Internal](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/blob/master/Switch_SS118_04.png)
+![Package](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/master/Switch_SS118_01.png)
+![Back](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/master/Switch_SS118_02.png)
+![Internal](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/master/Switch_SS118_03.png)
+![Internal](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/master/Switch_SS118_04.png)
 
 
 ### Serial Flashing
 GPIO0 Needs to be grounded in order to get into programing mode.
 
-![Pins](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/blob/master/Switch_SS118_05.png)
+![Pins](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/master/Switch_SS118_05.png)
