@@ -1,11 +1,11 @@
 ---
 date_added: 2019-08-09
-title: SS-8839-01
+title: Smart Home SS-8839-01 
 category: switch
 type: Relay
 standard: global
-link: https://www.banggood.com/AC90-250V-WiFi-APP-Relay-Module-DIY-Smart-Home-Automation-Light-Switch-Work-With-Amazon-Alexa-Google-p-1351912.html?cur_warehouse=CN
-image: https://user-images.githubusercontent.com/5904370/63218113-006bf700-c154-11e9-8d0f-6a49f9409451.png
+link: https://www.banggood.com/AC90-250V-WiFi-APP-Relay-Module-DIY-Smart-Home-Automation-Light-Switch-Work-With-Amazon-Alexa-Google-p-1351912.html
+image: https://user-images.githubusercontent.com/5904370/72061655-9c022d80-32d6-11ea-85af-29362a12ce8f.png
 template: '{"NAME":"SS-8839-01","GPIO":[0,255,0,255,21,0,0,0,17,57,0,56,0],"FLAG":0,"BASE":18}' 
 link2: https://www.aliexpress.com/af/ss-8839-01.html
 ---
