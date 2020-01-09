@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-20
+title: eMylo SS-8839-02
+category: switch
+type: Relay
+standard: global
+link: https://www.amazon.de/dp/B07DZT5LDH
+image: https://user-images.githubusercontent.com/5904370/72059346-1da38c80-32d2-11ea-9eab-3af6efb81f53.png
+template: '{"NAME":"SS-8839-02","GPIO":[0,255,0,255,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.com/dp/B07CMVWFXV
+---
+
+
