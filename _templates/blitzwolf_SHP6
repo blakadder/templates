@@ -11,7 +11,7 @@ link2: http://s.click.aliexpress.com/e/dG0tv9cU
 link3: https://www.blitzwolf.com/2300W-EU-WIFI-Smart-Socket-p-300.html
 flash: tuya-convert
 ---
-This template is tested only for the 10A version of BW-SHP6!
+This template is only for SHP6 10A version. New 15A template is [here](blitzwolf_SHP-6-15A).
 
 If you prefer the red LED to represent "Power ON", swap Led1i and LedLinki in the ***Configure Template*** page.
 

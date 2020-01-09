@@ -1,0 +1,18 @@
+---
+date_added: 2020-01-09
+title: Blitzwolf SHP6 15A
+model: 
+image: https://user-images.githubusercontent.com/5904370/72109725-c2f04c00-3336-11ea-9c2d-7e906fb8119d.png
+template: '{"NAME":"Blitzwolf SHP6","GPIO":[56,255,158,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
+link: https://www.banggood.com/15A-Upgrade-Version-BlitzWolf-BW-SHP6-3450W-Metering-Version-WIFI-Smart-Socket-EU-Plug-220V-240V-Work-with-Amazon-Alexa-Google-Assistant-p-1608132.html
+link2: https://www.aliexpress.com/item/32933098972.html
+link3: https://www.blitzwolf.com/3450W-EU-WIFI-Smart-Socket-p-412.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+Different from the old SHP6 10A rated for 2300W
+
+![Label](https://user-images.githubusercontent.com/5904370/72109869-1d89a800-3337-11ea-920b-5e5559cc1778.png)
+
