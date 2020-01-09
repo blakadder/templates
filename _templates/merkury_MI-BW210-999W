@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-09
+title: Merkury MI-BW210-999W 1050lm 
+model: 2AJ3W-EBEQPW06
+image: https://user-images.githubusercontent.com/5904370/72068017-62382380-32e4-11ea-87df-f269f5002a5c.png
+template: '{"NAME":"MI-BW210-999W","GPIO":[0,0,0,0,140,37,0,0,142,38,141,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.walmart.com/ip/Merkury-Innovations-A21-Smart-Light-Bulb-75W-Color-LED-2-Pack/669037420
+link2: 
+link3: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---
