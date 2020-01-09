@@ -10,9 +10,8 @@ template: '{"NAME":"Teckin SP10","GPIO":[255,255,56,255,255,255,0,0,255,17,255,2
 link2: 
 ---
 
+Some current versions sold [here on Amazon](https://amzn.to/35zd6du) are coming with a non-ESP based chip.
 
-
-Some current versions sold on Amazon are coming with a non-ESP based chip.
 Tuya Convert error: WARNING: it appears this device does not use an ESP82xx and therefore cannot install ESP based firmware
 
-Some still are sold and successfully convert.   
+Some sold are still successfully converted.   
