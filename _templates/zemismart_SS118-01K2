@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-09
+title: ZemiSmart SS118-01K2
+model: SS118-01K2
+image: https://user-images.githubusercontent.com/5904370/72063393-01a3e900-32da-11ea-8e8f-625d7971a5cd.png
+template: '{"NAME":"SS118-01K2","GPIO":[0,0,0,17,21,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32975305679.html
+link2: https://www.amazon.ca/SmartLife-Control-switches-Neutral-Required/dp/B07P6WLFRT
+link3: https://www.zemismart.com/wifi-switch-with-microwave-sensor-light-smart-life-app-alexa-google-home-voice-control-wall-light-push-switches-p0161.html
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+No setting for LED at this stage just button and relay. There is a motion sensor which may only work with the light in the device.
