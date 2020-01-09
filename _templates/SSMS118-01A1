@@ -1,7 +1,7 @@
 ---
 date_added: 2020-01-09
-title: Scene Light RGB Smart 
-model: SSMS118-01A1
+title: SSMS118-01A1 Scene Light Smart 
+model: 
 image: https://user-images.githubusercontent.com/5904370/72054391-2c397600-32c9-11ea-999a-97d5a9e27ee2.png
 template: '{"NAME":"RGB Switch","GPIO":[30,0,32,10,39,38,0,0,31,9,37,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.banggood.com/AC-100-240V-10A-US-Smart-Light-Switch-Phone-Remote-Support-Alexa-Google-Home-IFTTT-Control-p-1533590.html
@@ -12,7 +12,9 @@ category: switch
 type: Switch
 standard: us
 ---
-Found on [Amazon](https://amzn.to/2N8qpLy) under different brands. FCC ID: [2AP8Q-SS118](https://fccid.io/2AP8Q-SS118)
+FCC ID: [2AP8Q-SSMS118-01AI](https://fccid.io/2AP8QSSMS118-01AI)
+
+Found on [Amazon](https://amzn.to/2N8qpLy) under different brands. 
 
 Set to `SwitcMode1 5`
 
