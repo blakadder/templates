@@ -1,0 +1,19 @@
+---
+date_added: 2020-01-09
+title: SSMS86-01A1 RGB 
+model: FCC ID 2AP8Q-SS118
+image: https://user-images.githubusercontent.com/5904370/72054391-2c397600-32c9-11ea-999a-97d5a9e27ee2.png
+template: '{"NAME":"RGB Switch","GPIO":[30,0,32,10,39,38,0,0,31,9,37,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/AC-100-240V-10A-US-Smart-Light-Switch-Phone-Remote-Support-Alexa-Google-Home-IFTTT-Control-p-1533590.html
+link2: http://s.click.aliexpress.com/e/oxnvZfQo
+link3: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+Found on [Amazon](https://amzn.to/36Dhc5C) under different brands.
+
+Set to `SwitcMode1 5`
+
+![Label](https://user-images.githubusercontent.com/5904370/72053253-eed3e900-32c6-11ea-94a2-85cb85cc87d3.png)
