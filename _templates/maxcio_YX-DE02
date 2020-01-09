@@ -1,0 +1,17 @@
+---
+date_added: 2020-01-09
+title: Maxcio YX-DE02
+model: 
+image: https://user-images.githubusercontent.com/5904370/72068487-74ff2800-32e5-11ea-9148-25a4f2eee4b4.png
+template: '{"NAME":"Maxcio DE02","GPIO":[0,17,0,21,56,22,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/Steckdose-Maxcio-Intelligente-Kompatibel-Steuerung/dp/B07LG1HCQT
+link2: https://www.amazon.de/Steckdose-Maxcio-Intelligente-Kompatibel-Steuerung/dp/B07GH7XRB5
+link3: https://maxcio.com/collections/smart-gadget/products/alexa-steckdose-mit-smart-lampe-und-2-usb-ports-maxcio-smart-wlan-steckdose-intelligente-smart-plug-kompatibel-mit-alexa-google-home-app-steuerung-timing-funktion-4-packs
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+RGB+WarmWhite LEDs for use as slumberlight
+
+![image](https://user-images.githubusercontent.com/5904370/72069379-5732c280-32e7-11ea-94f8-cd9ae008b3d5.png)
