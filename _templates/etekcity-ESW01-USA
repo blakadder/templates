@@ -1,7 +1,7 @@
 ---
 date_added: 2019-12-27
 title: Etekcity ESW01-USA
-link: https://www.amazon.com/Etekcity-Voltson-Outlet-Monitoring-Required/dp/B074GVPYPY/
+link: https://www.amazon.com/gp/product/B074GVPYPY
 image: https://user-images.githubusercontent.com/5904370/71537070-23cf5b80-2917-11ea-8a5e-5ce3d25a4649.png
 template: '{"NAME":"ESW01-USA","GPIO":[0,0,0,0,21,157,0,0,132,133,17,130,52],"FLAG":0,"BASE":55}' 
 link2: https://www.amazon.com/Etekcity-Monitoring-Overheat-Protection-Certified/dp/B07QW582PQ/
