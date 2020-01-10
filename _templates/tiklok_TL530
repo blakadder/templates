@@ -1,17 +1,16 @@
 ---
 date_added: 2019-10-02
-title: TikLOk TL530-1P-CA 800lm
+title: TikLOk TL530 A19 7.5W 800lm
+model: TL530-1P-CA
 type: RGBW
 category: bulb
 standard: e26
-link: https://www.amazon.ca/gp/product/B07FCCFC4T
 image: https://images-na.ssl-images-amazon.com/images/I/41re%2Bs3qUoL._SL1000_.jpg
 template: '{"NAME":"TikLOk WW-CW-L","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link: https://www.amazon.ca/dp/B07R9ZBQZK/
+link2: https://www.amazon.ca/gp/product/B07FCCFC4T
 ---
-Reference: TL530-1P-CA
-
-Tuya Convert compatible. (Oct 1, 2019) brand new stock.X001V8UTGL label on box.
+Tuya Convert compatible. (Oct 1, 2019) brand new stock. X001V8UTGL label on box.
 
 Pairing proceedure is slightly different. On/Off - 3-4 times, but each stage hold for 2 seconds. Off (2 s) On (2s) etc...
 
