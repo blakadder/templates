@@ -10,6 +10,6 @@ link3: https://www.lepro.com/a19-e26-1050lm-5w-led-bulbs-902001-us.html
 flash: tuya-convert
 category: bulb
 type: CCT
-standard: us
+standard: GU10
 ---
 `LEDTABLE 0` is needed or else dimming will not work properly

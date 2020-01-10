@@ -199,6 +199,19 @@ input[type='submit'].button-clear[disabled]:hover {
   border-color: transparent;
 }
 
+.button-red {
+  background-color: lightcoral;
+  border-color: darkslategrey;
+}
+.button-red.button-clear,
+.button-red.button-outline {
+  background-color: transparent;
+  color: salmon;
+}
+.button-red.button-clear {
+  border-color: transparent;
+}
+
 /* Custom size */
 .button-small {
   font-size: .8rem;

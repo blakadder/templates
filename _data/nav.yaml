@@ -1,10 +1,11 @@
 toc:
-  - name: Bulbs
-    url: bulb.html
+  - name: Bulbs by
     subnav:
-      - title: by Type
+      - title: Name
+        url: bulb.html
+      - title: Type
         url: bulb-type.html
-      - title: by Socket
+      - title: Socket
         url: bulb-socket.html
   - name: Switches and Relays
     url: switch.html
@@ -49,5 +50,3 @@ toc:
     url: unsupported.html
   - name: How to use Templates?
     url: howto.html
-  
-
