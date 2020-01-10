@@ -7,7 +7,7 @@ standard: global
 link: https://www.banggood.com/SONOFF-Mini-Two-Way-Smart-Switch-10A-AC100-240V-Works-with-Amazon-Alexa-Google-Home-Assistant-Nest-Supports-DIY-Mode-Allows-to-Flash-the-Firmware-p-1484758.html
 image: https://user-images.githubusercontent.com/5904370/63218127-3610e000-c154-11e9-9ae9-8ed36009dda4.png
 template: '{"NAME":"Sonoff Mini","GPIO":[17,0,0,0,9,0,0,0,21,56,0,0,255],"FLAG":0,"BASE":1}' 
-link2: https://www.amazon.com/Wireless-Universal-Automation-Compatible-Assistant/dp/B07TRSWY23/
+link2: https://www.amazon.com/gp/product/B0829V6JKG
 link3: https://www.itead.cc/sonoff-mini.html
 ---
 
