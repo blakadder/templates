@@ -1,6 +1,6 @@
 ---
 date_added: 2020-01-07
-title: Luminea ZX-2982
+title: Luminea ZX-2982 ST64 Filament
 model: REV1_2019_08_08_RM-EB
 image: https://www.luminea.info/zx2982_1.jpg
 template: '{"NAME":"Luminea ZX2982","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
