@@ -39,31 +39,23 @@ layout: default
    Manufacturer:
       </b>
       <br>
-      <a class="menu" href="{{ page.link3 }}">{{ page.link3 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | split:'/' | first | capitalize}}</a>
+      <a class="menu" href="{% assign link = page.link3 %}{% include linkage.html %}">{{ page.link3 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | split:'/' | first | capitalize}}</a>
       {% endif %}
     <br><br>
-  
-    {% if page.flash != nil %}
     <b>
-      Flash attempted:
+      Wi-Fi Module:
     </b>
     <br>
-      {% if page.flash == 'tuya-convert' %}
-      <a class="menu" href="https://github.com/ct-Open-Source/tuya-convert" target="_blank">Tuya-Convert</a>
-      {% elsif page.flash == "serial" %}
-      <a class="menu" href="https://tasmota.github.io/docs/#/installation/Prerequisites" target="_blank">Serial port</a>
-      {% else %}
-      {% endif %}
-    {% else %}
-  
-    {% endif %}
+      {{ page.flash }}
     <br>
     </div>
     </div>
   </div>
   <div class="row">
-    <div class="column column-20 column-offset-80"><a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+    <div class="column column-80"><hr></div>
+    <div class="column column-20"><a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
   </div>
-  <hr>
+  <b>Take a look at the sellers item description and try to avoid other items using the same description layout and images!</b>
+
   {{ content | markdownify }} 
   

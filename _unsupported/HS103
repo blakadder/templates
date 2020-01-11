@@ -7,6 +7,6 @@ link: https://www.amazon.com/TP-LINK-HS103P2-Required-Google-Assistant/dp/B07B8W
 image: https://images-na.ssl-images-amazon.com/images/I/51kBJRpS1zL._SL1000_.jpg
 link2: 
 link3: https://www.kasasmart.com/us/products/smart-plugs/kasa-smart-wifi-plug-lite-hs103p2
-flash: serial
+flash: Mediatek MT7682S
 ---
 Uses a MEDIATEK ARM MT7682S CPU.

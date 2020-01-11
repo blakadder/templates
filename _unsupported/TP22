@@ -7,6 +7,6 @@ link: https://www.ebay.de/itm/Mini-Wifi-Steckdose-Smart-10A-Intelligente-TP22-EU
 image: https://i.ebayimg.com/images/g/jWgAAOSwEFhd23-v/s-l1600.jpg
 link2: 
 link3: 
-flash: tuya-convert
+flash: W600
 ---
 No ESP82XX inside, instead they use a W600-A800: https://w600.chip.haus/
