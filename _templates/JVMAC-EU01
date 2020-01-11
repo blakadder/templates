@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-11
+title: JVMAC-EU01
+model: YM-WS-6
+image: https://user-images.githubusercontent.com/5904370/72204122-c5f15680-3474-11ea-88c3-c68e8a2e9733.png
+template: '{"NAME":"JVMAC","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07BLXGSMV
+link2: 
+link3: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+![Label](https://user-images.githubusercontent.com/5904370/72204159-1d8fc200-3475-11ea-8f00-bb91af04300d.png)
