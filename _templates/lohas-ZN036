@@ -3,7 +3,7 @@ date_added: 2019-12-30
 title: Lohas ZN036 900 lm
 link: https://www.amazon.com/gp/product/B07YKQL92Y/
 image: https://images-na.ssl-images-amazon.com/images/I/51GBpj4eTHL._SL1200_.jpg
-template: '{"NAME":"Lohas RGBW BR3","GPIO":[0,0,0,0,40,37,0,0,38,39,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Lohas RGBCCT","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 link3: https://lohasled.en.alibaba.com/product/62134915768-806928550/RGB_2700_6000K_Dimmable_9W_BR30_Smart_Bulb_Compatible_with_Tuya_APP_Alexa.html
 flash: tuya-convert
