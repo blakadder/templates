@@ -10,8 +10,5 @@ link3: https://www.loratap.com/eu-wifi-boiler-water-heater-switch-4400w-tuya-sma
 flash: tuya-convert
 category: switch
 type: Switch
-standard: 
-  - us
-  - au
-  - il
+standard: us
 ---
