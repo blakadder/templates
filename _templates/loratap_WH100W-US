@@ -1,11 +1,11 @@
 ---
-date_added: 2020-02-02
+date_added: 2020-01-11
 title: LoraTap WH100W-US 20A
 model: 
 image: https://user-images.githubusercontent.com/5904370/72204293-7c097000-3476-11ea-8cd1-b8ee77cea762.png
 template: '{"NAME":"LoraTap Boiler","GPIO":[0,0,0,0,0,0,0,0,17,21,0,0,56],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/LoraTap-Switch-Wireless-Control-Compatible/dp/B07V4FV3QZ
-link2: https://www.aliexpress.com/item 
+link2: https://www.aliexpress.com/item/33020659733.html
 link3: https://www.loratap.com/eu-wifi-boiler-water-heater-switch-4400w-tuya-smart-life-app-remote-control-on-off-timer-voice-control-google-home-alexa-echo-p0054.html
 flash: tuya-convert
 category: switch
