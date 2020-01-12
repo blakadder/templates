@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-12
+title: CE Smart Home WF550D
+model: 
+image: https://user-images.githubusercontent.com/5904370/72226103-79e60500-358d-11ea-8c15-a4d6000dc2d3.png
+template: '{"NAME":"GlobeRGBWW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/2-Pack-Dimmer-Switch-Compatible-Assistant/dp/B07GQ3H8VK
+link2: 
+link3: https://www.cesmarthome.com/WF500D.html
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
