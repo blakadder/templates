@@ -8,5 +8,7 @@ image: https://cf.shopee.sg/file/35f8a14723f7364ad361c645d007f23b
 template: '{"NAME":"BSD29","GPIO":[0,0,0,131,134,132,0,0,21,17,56,0,0],"FLAG":0,"BASE":52}' 
 link2: 
 ---
+An alternative template if the above doesn't work:<br>
+``{"NAME":"BSD29 Alt","GPIO":[0,0,52,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":52}``
 
 Tuya-Convert OTA flashing compatible
