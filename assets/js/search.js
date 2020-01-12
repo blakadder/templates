@@ -22,6 +22,7 @@
 					id: key,
 					title: data[key].title,
 					category: data[key].category,
+					category: data[key].type,
 					content: data[key].content
 				});
 			})
@@ -44,7 +45,7 @@
 
 		searchLink.attr('href', result.href)
 
-		searchLink.text(result.title)
+		searchLink.text(result.title).append(" ").append(result.type)
 
 		return searchEntry
 	}
