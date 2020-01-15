@@ -3,7 +3,7 @@ date_added: 2019-12-22
 title: Aisirer AWP07L
 link: https://www.amazon.de/AISIRER-Intelligente-Fernbedienbar-Stromverbrauch-Funktioniert/dp/B07DGH8Y8S/
 image: https://images-na.ssl-images-amazon.com/images/I/517OHYzBCrL._SL1001_.jpg
-template: '{"NAME":"AISIRER AWP07L","GPIO":[0,17,0,52,133,132,0,0,0,0,21,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"AWP07L","GPIO":[56,255,255,130,255,134,255,255,0,17,132,21,255],"FLAG":0,"BASE":18}' 
 link2: 
 link3: 
 flash: tuya-convert
