@@ -12,7 +12,7 @@ type: Bulb
 This bulb uses "TechLife pro" app so its safe to assume other devices using the same app would not be compatible. 
 
 ### How to make it work?
-With some desoldering and soldering action, you can replace the SM02A module with an ESP-M3 module ([Purchased here](https://cleanuri.com/a8EgW7)). The bottom pins naturally drop into the three pins. While it is easier to simply solder TX, GND and VCC the TX pin goes high on boot and the bulb will always light up. Instead its better to route PWM to GPIO4 with a short wire (Don't forget to cut the TX pin short).
+With some desoldering and soldering action, you can replace the SM02A module with an ESP-M3 module ([Purchased here](https://cleanuri.com/K1Qjz8)). The bottom pins naturally drop into the three pins. While it is easier to simply solder TX, GND and VCC the TX pin goes high on boot and the bulb will always light up. Instead its better to route PWM to GPIO4 with a short wire (Don't forget to cut the TX pin short).
 
 ![Finished product](https://user-images.githubusercontent.com/5904370/72474499-2c65d400-37e9-11ea-8d75-280b33db330f.png)
 
