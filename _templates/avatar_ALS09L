@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-15
+title: Avatar ALS09L A60 900lm 
+model: X0013PGM51
+image: https://user-images.githubusercontent.com/5904370/72478356-17da0980-37f2-11ea-8fd5-a7bf93be0e81.png
+template: '{"NAME":"Avatar E14 9W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":20}' 
+link: https://www.amazon.de/gp/product/B07ZRGMTN2
+link2: 
+link3: https://www.alibaba.com/product-detail/Amazon-best-selling-RGB-W-C_62037156345.html
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e14
+---
+Not sure the white setting is exactly correct here, but the colors & brightness work so it’s a good start and on the package isn't any Type Number. Tt seems to be the same as the Avatar ALS08L 910lm RGBW Bulb E27 - but in E14 with 9W and RGBW+C
