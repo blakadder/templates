@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-15
+title: NEO Coolcam NAS-IR03W0
+model: 
+image: https://user-images.githubusercontent.com/5904370/72420706-816d0000-377f-11ea-9276-b398f35aed67.png
+template: '{"NAME":"Neo Coolcam NA","GPIO":[0,0,0,0,8,51,0,0,0,17,56,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.aliexpress.com/af/neo-coolcam-ir-remote.html
+link2: https://www.ebay.com.au/itm/Smart-IR-WiFi-Home-Remote-Control-Compatible-Fit-For-TV-Air-Conditioner-Lamp-AU/223758299689
+link3: https://szneo.com/en/products/show.php?id=231
+flash: tuya-convert
+category: misc
+type: IR Bridge
+standard: global
+---
