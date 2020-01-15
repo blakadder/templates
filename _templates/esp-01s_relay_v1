@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-15
+title: ESP-01S 5V Relay Module V1.0
+model: 
+image: https://user-images.githubusercontent.com/5904370/72449972-d9c0f380-37b9-11ea-94a7-354d66634649.png
+template: '{"NAME":"ESP-01S Relay","GPIO":[29,52,255,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Comidox-ESP8266-ESP-01S-Wireless-Controller/dp/B07KD3ZCFP
+link2: https://www.aliexpress.com/item/32841996894.html
+link3: https://www.banggood.com/ESP-01S-Relay-Module-WiFi-Smart-Remote-Switch-Phone-APP-DIY-Project-Design-p-1207932.html
+flash: serial
+category: switch
+type: Relay
+standard: global
+---
+![](https://user-images.githubusercontent.com/5904370/72450064-fb21df80-37b9-11ea-861f-9b5ede7ca374.png)
