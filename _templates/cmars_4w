@@ -3,7 +3,7 @@ date_added: 2020-01-16
 title: CMARS 4W Reflector
 model: X002DRELGN
 image: https://user-images.githubusercontent.com/5904370/72508888-c4de7180-3846-11ea-83c1-18e5491a383d.png
-template: '{"NAME":"RGBWW GU10","GPIO":[255,255,255,255,40,41,255,255,38,39,37,255,255],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"RGBWW GU10","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":15,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B0819BHPGS
 link2: 
 link3: 
