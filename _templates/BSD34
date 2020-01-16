@@ -1,19 +1,9 @@
----
-date_added: 2019-10-09
-title: BSD34
-category: plug
-type: Plug
 standard: eu
 link: http://s.click.aliexpress.com/e/EdQuHO4g
 image: https://ae01.alicdn.com/kf/H78e70230d8d149cdb0312ed2ae0ffa6em.jpg?width=1000&height=1000&hash=2000
-template: '{"NAME":"BSD34 Plug","GPIO":[0,0,0,0,0,0,0,0,21,17,56,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"BSD34 Plug","GPIO":[0,131,0,0,134,132,0,0,21,17,56,255,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
 Used tuya-convert 2 to successfully flash the device. All features work. 
-
-
-
-
-
-
+Added GPIOs for BL0937
