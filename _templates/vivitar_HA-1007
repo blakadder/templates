@@ -3,10 +3,10 @@ date_added: 2020-01-05
 title: Vivitar HA-1007
 link: https://www.amazon.com/Vivitar-Ha-1007-ControlLED-Charging-Wireless/dp/B074P8WKWV
 image: https://images-na.ssl-images-amazon.com/images/I/61VxulE2g1L._AC_SL1213_.jpg
-template: '{"NAME":"HA-1007","GPIO":[56,17,0,58,29,57,0,0,31,30,32,0,25],"FLAG":0,"BASE":18}' 
+template: ''{"NAME":"Vivitar HA1007","GPIO":[56,0,0,0,30,17,0,0,32,31,33,0,21],"FLAG":15,"BASE":18}'' 
 link2: https://www.homedepot.com/p/Vivitar-Smart-Home-Wi-Fi-Power-Strip-HA-1007-HD-DRP/303256236
 link3: http://www.vivitar.com/product/115/smart-home/88/wifi-smart-multi-plug
-flash: serial
+flash: tuya-convert
 category: plug
 type: Power Strip
 standard: us
