@@ -23,8 +23,8 @@ SetOption66 1
 PowerOnState 0
 ```
 This device on Tasmota 8.1 does not report a full TuyaMCU message, but it spams 55AA000000010101 when motion is detected. It also powers on the tywe3s module (which probably the reason for the speed mentioned below).
-
+```
 "00:00:20 TYA: Send "55aa00000000ff"
 "00:00:20 {"TuyaReceived":{"Data":"55AA000000010000","Cmnd":0,"CmndData":"00"}}"
-
+```
 With a static IP set and connected to Homeassistant, it takes 6 seconds to register motion. Recommend setting Homeassistant to activate on PIR connect. Waiting for the actual message takes longer.
