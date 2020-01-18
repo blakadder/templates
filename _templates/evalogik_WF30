@@ -12,9 +12,9 @@ category: switch
 type: Switch
 standard: us
 ---
-"Required rules to make the ""up"" button turn power on, and the ""down"" button turn power off:
+Required rules to make the "up" button turn power on, and the "down" button turn power off:
 
-```
+```console
 Rule1 on button1#state do power1 on endon
 Rule1 1
 Rule2 on button2#state do power1 off endon
