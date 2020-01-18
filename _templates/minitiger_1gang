@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-18
+title: Minitiger 1 Gang v2
+model: The one with squared switch graphic (see image)
+image: https://user-images.githubusercontent.com/5904370/72667245-06734600-3a1a-11ea-907c-97c04694b973.png
+template: '{"NAME":"MiniTiger1Band","GPIO":[0,0,0,0,0,17,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33016227381.html
+link2: 
+link3: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---
