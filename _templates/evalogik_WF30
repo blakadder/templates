@@ -1,0 +1,22 @@
+---
+date_added: 2020-01-17
+title: Eva Logik WF30 3-Way
+model: X0023LPDY3
+image: https://user-images.githubusercontent.com/5904370/72654358-95874c00-398f-11ea-9992-499117688b5c.png
+template: '{"NAME":"WF30 Switch","GPIO":[0,0,0,0,18,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07Q6BZNX2/
+link2: 
+link3: http://www.evalogik.com/smart-switch/wifi-switch/wifi-light-in-wall-switch.html
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+"Required rules to make the ""up"" button turn power on, and the ""down"" button turn power off:
+
+```
+Rule1 on button1#state do power1 on endon
+Rule1 1
+Rule2 on button2#state do power1 off endon
+Rule2 1
+```"
