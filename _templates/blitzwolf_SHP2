@@ -6,8 +6,9 @@ standard: eu
 link: https://www.banggood.com/BlitzWolf-BW-SHP2-16A-Smart-WIFI-Socket-220V-EU-Plug-Work-with-Amazon-Alexa-Google-Assistant-Compatible-with-BlitzWolf-Tuya-APP-p-1292899.html?rmmds=search&ID=47184&cur_warehouse=CN&p=CM27171011078201412U&custlinkid=714463
 image: https://user-images.githubusercontent.com/5904370/57949304-524a7a00-78e4-11e9-97df-e90d4aef7604.png
 template: '{"NAME":"BlitzWolf SHP","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
-link2: http://s.click.aliexpress.com/e/EoDykyFQ
+link2: https://www.aliexpress.com/item/32869933685.html
 mlink: https://www.blitzwolf.com/3840W-EU-WIFI-Smart-Socket-p-244.html
+link3: https://www.amazon.de/dp/B07BMQP142
 ---
 ## Attention
 There is a [newer hardware revision (v2.3)](https://github.com/arendst/Tasmota/issues/4303) which is supported too. It needs to be configured as [Gosund SP1 v23 (55)](gosund_SP1.html).
