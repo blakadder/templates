@@ -9,12 +9,6 @@ image: https://user-images.githubusercontent.com/36734573/67634487-efaad080-f8bc
 template: '{"NAME":"WiFi-Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.banggood.com/MoesHouse-DIY-Smart-WiFi-Light-LED-Dimmer-Switch-Smart-LifeTuya-APP-Remote-Control-12-Way-Switch-Works-With-Alexa-Echo-Google-Home-p-1509161.html
 ---
-
-<<<<<<< HEAD
-Warning: Some similarly looking models named "[MS-105](https://xeya.me/daz50)" do not contain an esp8266 chip (presumably BK7231U) and is unsupported by tasmota
-
-=======
->>>>>>> parent of c98cf13... Merge pull request #315 from Xeyame/master
 The **Wi-Fi Smart Dimmer Module 150W** is an in-wall push-button dimmer switch sold as white-label and by various brands e.g., _Moes, MoesHouse MS-105, HomCloud, Malmbergs, TOOGOO, Baakey, ..._
 
 ![dimmer-1](https://user-images.githubusercontent.com/36734573/62205945-ef1f9e00-b390-11e9-89c6-05173e559a97.jpg)
