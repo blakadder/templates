@@ -13,7 +13,7 @@ link2: https://www.alibaba.com/product-detail/Jinvoo-Wireless-Remote-Controlled-
 
 ```yaml
 SetOption1 1   # restrict button-multipress to single, double and hold actions
-SetOption14 1  # exclusive buttons (important!)
+Interlock 1  # exclusive buttons (important!)
 LedPower 0     # disable use of LED as much as possible (optional)
 SetOption31 1  # diable wifi led (optional)
 PulseTime1 130 # set relay 1 activation to 30 seconds (+100 for 1sec interval)
@@ -25,5 +25,5 @@ SaveOption 1   # enable autosave
 
 Combine all the above commands in a single config line:
 ```
-Backlog SetOption1 1;SetOption14 1;LedPower 0;SetOption31 1;PulseTime1 130;PulseTime2 1;Pulsetime3 130;PowerRetain 0;SaveOption 1
+Backlog SetOption1 1;Interlock 1;LedPower 0;SetOption31 1;PulseTime1 130;PulseTime2 1;Pulsetime3 130;PowerRetain 0;SaveOption 1
 ```
