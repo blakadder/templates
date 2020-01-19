@@ -9,7 +9,7 @@ image: https://user-images.githubusercontent.com/36734573/67634487-efaad080-f8bc
 template: '{"NAME":"WiFi-Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
 ---
 
-Warning: Some similar models named "![MS-105](https://xeya.me/daz50)" do not contain an esp8266 chip (presumably BK7231U) and is unsupported by tasmota
+Warning: Some similarly looking models named "[MS-105](https://xeya.me/daz50)" do not contain an esp8266 chip (presumably BK7231U) and is unsupported by tasmota
 
 The **Wi-Fi Smart Dimmer Module 150W** is an in-wall push-button dimmer switch sold as white-label and by various brands e.g., _Moes, MoesHouse MS-105, HomCloud, Malmbergs, TOOGOO, Baakey, ..._
 
