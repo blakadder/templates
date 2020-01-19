@@ -5,7 +5,7 @@ model: https://user-images.githubusercontent.com/5904370/72070003-c65ce680-32e8-
 template: '{"NAME":"SA-P402A","GPIO":[0,17,0,56,23,25,21,24,22,0,0,1,0],"FLAG":1,"BASE":18}'
 link: https://www.aliexpress.com/item/33020336200.html
 link2: 
-link3: https://www.alibaba.com/product-detail/2020-Hottest-TuyaSmart-WiFi-Smart-Socket_1892034523.html
+mlink: https://www.alibaba.com/product-detail/2020-Hottest-TuyaSmart-WiFi-Smart-Socket_1892034523.html
 flash: tuya-convert
 category: plug
 type: Power Strip

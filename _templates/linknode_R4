@@ -8,6 +8,6 @@ link: https://www.amazon.com/LinkSprite-211201004-Arduino-Compatible-Wi-Fi-Contr
 image: http://linksprite.com/wiki/images/thumb/6/60/211201004-without_pillar-001.jpg/800px-211201004-without_pillar-001.jpg
 template: '{"NAME":"LinkNode R4","GPIO":[0,0,0,0,0,0,0,0,21,22,23,0,24],"FLAG":0,"BASE":18}' 
 link2: http://store.linksprite.com/linknode-r4-arduino-compatible-wifi-relay-controller/
-link3: http://linksprite.com/wiki/index.php?title=LinkNode_R4:_Arduino-compatible_WiFi_relay_controller
+mlink: http://linksprite.com/wiki/index.php?title=LinkNode_R4:_Arduino-compatible_WiFi_relay_controller
 ---
 

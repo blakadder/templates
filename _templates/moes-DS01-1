@@ -8,7 +8,7 @@ link: https://www.banggood.com/MoesHouse-US-WiFi-Smart-Light-Dimmer-Switch-Smart
 image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/DS01_cddd0a66-0224-4477-bab5-b419ec60cc06_1800x1800.jpg
 template: '{"NAME":"MOES DS01","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}'
 link2: https://www.aliexpress.com/item/33005098030.html
-link3: https://www.moeshouse.com/collections/us-smart-switch/products/wifi-smart-light-dimmer-switch-elegantly-designed-compatible-with-alexa-google-home-for-voice-control-no-hub-required-1
+mlink: https://www.moeshouse.com/collections/us-smart-switch/products/wifi-smart-light-dimmer-switch-elegantly-designed-compatible-with-alexa-google-home-for-voice-control-no-hub-required-1
 ---
 
 There are several Tuya Dimmer variants by various manufacturers. These dimmers are usually 1 gang switches that dim mains voltage for various lighting types: incandescent, CFL, and LED.  Consult the specific device for the type of bulbs and capacity it supports as well as the bulbs themselves to verify they support dimming.

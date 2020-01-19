@@ -5,7 +5,7 @@ link: https://www.amazon.com/Vivitar-Ha-1007-ControlLED-Charging-Wireless/dp/B07
 image: https://images-na.ssl-images-amazon.com/images/I/61VxulE2g1L._AC_SL1213_.jpg
 template: ''{"NAME":"Vivitar HA1007","GPIO":[56,0,0,0,30,17,0,0,32,31,33,0,21],"FLAG":15,"BASE":18}'' 
 link2: https://www.homedepot.com/p/Vivitar-Smart-Home-Wi-Fi-Power-Strip-HA-1007-HD-DRP/303256236
-link3: http://www.vivitar.com/product/115/smart-home/88/wifi-smart-multi-plug
+mlink: http://www.vivitar.com/product/115/smart-home/88/wifi-smart-multi-plug
 flash: tuya-convert
 category: plug
 type: Power Strip

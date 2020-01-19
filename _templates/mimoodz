@@ -5,7 +5,7 @@ link: https://www.amazon.com/Mimoodz-Dimmable-Equivalent-Required-Compatible/dp/
 image: https://images-na.ssl-images-amazon.com/images/I/71gaKq42d6L._AC_SL1500_.jpg
 template: '{"NAME":"ID Components","GPIO":[0,0,0,0,21,22,0,0,23,24,25,26,27],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: CCT

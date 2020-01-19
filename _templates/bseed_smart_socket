@@ -5,7 +5,7 @@ link: https://www.amazon.de/dp/B07RFQZ7QY
 image: https://images-na.ssl-images-amazon.com/images/I/51jyyJsJnmL._SL1100_.jpg
 template: '{"NAME":"BSEED Socket","GPIO":[0,0,0,0,157,52,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.aliexpress.com/item/32950360272.html
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Wall Outlet

@@ -8,7 +8,7 @@ link: https://www.banggood.com/BlitzWolf-BW-SHP6-10A-EU-Plug-Metering-Version-WI
 image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201810/1539338194_26.jpg
 template: '{"NAME":"BW-SHP6 10A","GPIO":[158,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
 link2: http://s.click.aliexpress.com/e/dG0tv9cU
-link3: https://www.blitzwolf.com/2300W-EU-WIFI-Smart-Socket-p-300.html
+mlink: https://www.blitzwolf.com/2300W-EU-WIFI-Smart-Socket-p-300.html
 flash: tuya-convert
 ---
 This template is only for SHP6 10A version. New 15A template is [here](blitzwolf_SHP-6-15A).

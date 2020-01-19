@@ -4,7 +4,7 @@ title: Heltec WiFi Kit 8
 category: misc
 type: DIY
 standard: global
-link3: https://heltec.org/project/wifi-kit-8/
+mlink: https://heltec.org/project/wifi-kit-8/
 image: https://i2.wp.com/heltec.org/wp-content/uploads/2019/04/SAM_0658_800X800-1.png
 template: '{"NAME":"HTIT-W8266","GPIO":[255,255,255,255,6,5,0,0,255,255,255,255,255],"FLAG":15,"BASE":18}' 
 link: https://www.amazon.com/MakerFocus-ESP8266-Development-Display-Support/dp/B076JDVRLP/

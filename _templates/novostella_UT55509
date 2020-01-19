@@ -1,0 +1,17 @@
+---
+date_added: 2020-01-19
+title: Novostella UT55509 13W 1300lm
+model: UT55509-RGBCW-EU
+image: https://user-images.githubusercontent.com/5904370/72683591-fb331f80-3ad8-11ea-8639-ef7e22042bba.png
+template: '{"NAME":"Novostella 13W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07SB5FHDY
+link2: https://www.amazon.co.uk/Novostella-Brightest-Dimmable-2700-6500K-Equivalent/dp/B07SGXCX44?th=1
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
+Model number on bulb: SQPA6012-A
+
+![image](https://user-images.githubusercontent.com/5904370/72683690-bf4c8a00-3ad9-11ea-803c-9098c8e46a43.png)

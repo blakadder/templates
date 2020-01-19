@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-19
+title: Sunco PAR20 5W 400lm
+model: PAR20_S-5W-27K_5K-2PK
+image: https://user-images.githubusercontent.com/5904370/72683763-6b8e7080-3ada-11ea-95ae-c651d95ab945.png
+template: '{"NAME":"Sunco PAR20","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Sunco-Lighting-Changing-Compatible-Assistant/dp/B07NVZ3VBN
+link2: 
+mlink: https://www.suncolighting.com/products/par20-smart-bulb-wi-fi
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---

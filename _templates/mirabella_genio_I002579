@@ -4,7 +4,7 @@ title: Mirabella Genio I002579
 category: light
 type: LED Strip
 standard: au
-link3: https://mirabellagenio.net.au/led-strip-light
+mlink: https://mirabellagenio.net.au/led-strip-light
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/sz/9/42826859-1-sz.jpg
 template: '{"NAME":"MirabellaStrip","GPIO":[17,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-led-strip-light/2754878

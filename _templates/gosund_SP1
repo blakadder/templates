@@ -8,7 +8,7 @@ link: https://www.amazon.de/gp/product/B0777BWS1P
 image: https://user-images.githubusercontent.com/5904370/54648409-70dbf280-4aa6-11e9-8429-a784cf2c6750.png
 template: '{"NAME":"Gosund SP1 v23","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":55}' 
 link2: https://www.amazon.de/gp/product/B07B911Y6V
-link3: https://gosund.com/download/smart_plug/125.html
+mlink: https://gosund.com/download/smart_plug/125.html
 ---
 There are three clones -- use the device type Teckin:
 

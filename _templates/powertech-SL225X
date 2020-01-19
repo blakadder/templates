@@ -5,7 +5,7 @@ link: https://www.jaycar.com.au/smart-wi-fi-led-bulb-with-colour-change-with-bay
 image: https://user-images.githubusercontent.com/5904370/70851074-32d2fa00-1e91-11ea-866d-ddeb96584366.png
 template: '{"NAME":"Jaycar SL225X","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBCCT

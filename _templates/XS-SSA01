@@ -8,7 +8,7 @@ link: https://www.amazon.com/gp/product/B075GWQSYH
 image: https://sc02.alicdn.com/kf/H81757f18e4974ff4af94e5c90306f303i/tuya-home-smart-system-no-hub-gateway.jpg
 template: '{"NAME":"XS-SSA01","GPIO":[255,17,255,255,255,255,0,0,255,56,21,255,255],"FLAG":0,"BASE":18}' 
 link2: http://s.click.aliexpress.com/e/MypkijAu
-link3: https://www.alibaba.com/product-detail/wi-fi-smart-plug-US-wifi_60806096723.html
+mlink: https://www.alibaba.com/product-detail/wi-fi-smart-plug-US-wifi_60806096723.html
 ---
 
 updated over the air

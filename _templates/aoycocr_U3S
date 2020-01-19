@@ -5,7 +5,7 @@ link: https://www.amazon.co.uk/gp/product/B07RYPJTJX
 image: https://user-images.githubusercontent.com/5904370/70098919-bbe66780-162d-11ea-851b-899c3c10b3f7.png
 template: '{"NAME":"Aoycocr U3S","GPIO":[56,255,57,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
 link2: https://www.amazon.co.uk/WiFi-Smart-Plug-Mini-Outlet/dp/B07S3ZN7T8
-link3: http://en.hysiry.com/case_view.aspx?TypeId=129&Id=397&FId=t4:129:4
+mlink: http://en.hysiry.com/case_view.aspx?TypeId=129&Id=397&FId=t4:129:4
 flash: tuya-convert
 category: plug
 type: Plug

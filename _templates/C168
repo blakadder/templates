@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B07ZQ3QLJD/
 image: http://www.anncoe.com/sys_m/uploadimages/2019171337.jpg
 template: '{"NAME":"C188","GPIO":[56,0,57,0,18,0,0,0,21,17,157,22,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: http://www.anncoe.com/en/showpro.asp?id=333&lb=4
+mlink: http://www.anncoe.com/en/showpro.asp?id=333&lb=4
 flash: tuya-convert
 category: plug
 type: Outdoor Plug

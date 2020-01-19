@@ -4,7 +4,7 @@ title: DeLock 11826
 category: plug
 type: Plug
 standard: eu
-link3: https://www.delock.com/produkte/H/11826/merkmale.html
+mlink: https://www.delock.com/produkte/H/11826/merkmale.html
 image: https://bilder.tragant.de/produkte/orig/5cd3e170704344.60311973.jpg
 template: '{"NAME":"DeLock 11826","GPIO":[17,0,0,0,0,0,0,0,21,158,0,0,0],"FLAG":0,"BASE":1}'
 link: https://www.amazon.de/dp/B07SNGJ8GD 

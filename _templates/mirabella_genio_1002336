@@ -8,7 +8,7 @@ link: https://www.kmart.com.au/product/mirabella-genio-e27-wi-fi-tunable-bulb/23
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/sz/0/42707820-1-sz.jpg
 template: '{"NAME":"GenioBulbCCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://mirabellagenio.net.au/es-%2F-bc-warm-cct-specs
+mlink: https://mirabellagenio.net.au/es-%2F-bc-warm-cct-specs
 ---
 
 Dimmable white only globe with variable colour temperature (2700 to 6500K) Converted with Tuya-Convert.  Dont connect to the Mirabella or any other tuya app or the firmware may be updated and prevent OTA flashing.  Credit to whoever made the Arlec GLD112HA  template, because this is basically a copy of that!

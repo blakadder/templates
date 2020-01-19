@@ -5,7 +5,7 @@ link: https://www.costco.ca/ce-smart-home-wi-fi-receptacle%2C-2-pack.product.100
 image: https://www.cesmarthome.com/assets/img/product_images/LA-2-W3/CE-Smart-Home-Outlet-LQ-2-W3-1.jpg
 template: '{"NAME":"CE LQ-2-W3","GPIO":[255,255,255,255,255,17,255,255,21,255,255,255,255],"FLAG":15,"BASE":18}' 
 link2: https://www.walmart.ca/en/ip/CE-Smart-Home-Wi-Fi-Receptacle-2-pack/PRD0V21OBBFPEGM
-link3: https://www.cesmarthome.com/LA-2-W3.html
+mlink: https://www.cesmarthome.com/LA-2-W3.html
 flash: tuya-convert
 category: plug
 type: Wall Outlet

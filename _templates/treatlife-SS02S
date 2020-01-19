@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B07WWYQJFR/
 image: https://cdn.shopify.com/s/files/1/0246/5601/9501/products/SS02S_1pack_0926_1637b51e-750f-4852-a18c-18464a7282c9_1024x1024@2x.jpg
 template: '{"NAME":"Treatlife SS02","GPIO":[0,0,0,0,53,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.treatlife.tech/collections/frontpage/products/treatlife-2-4ghz-smart-switch-wi-fi-light-switch-neutral-wire-required-works-with-alexa-google-assistant-and-ifttt-single-pole-schedule-remote-control-etl-listed-1
+mlink: https://www.treatlife.tech/collections/frontpage/products/treatlife-2-4ghz-smart-switch-wi-fi-light-switch-neutral-wire-required-works-with-alexa-google-assistant-and-ifttt-single-pole-schedule-remote-control-etl-listed-1
 flash: tuya-convert
 category: switch
 type: Switch

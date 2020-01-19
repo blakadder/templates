@@ -5,7 +5,7 @@ link: https://www.amazon.de/dp/B07BXTYVJ9
 image: https://images-na.ssl-images-amazon.com/images/I/61OKmS467nL._SL1500_.jpg
 template: '{"NAME":"Waza JH-G01E 2","GPIO":[0,0,0,0,0,0,0,0,17,52,21,0,0],"FLAG":1,"BASE":18}' 
 link2: https://www.lightinthebox.com/en/p/smart-plug-for-bedroom-living-room-kitchen-100-240v-smart_p6593540.html
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

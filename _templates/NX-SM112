@@ -6,7 +6,7 @@ image: https://m.media-amazon.com/images/S/aplus-media/vc/b73109a4-5958-4acb-919
 template: '{"NAME":"NX-SM112v3","GPIO":[0,0,0,0,134,132,0,0,158,17,130,21,0],"FLAG":0,"BASE":45}' 
 link: https://www.amazon.co.uk/gp/product/B081G8D636
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

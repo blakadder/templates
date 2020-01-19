@@ -5,7 +5,7 @@ link: https://www.aliexpress.com/item/4000436821697.html
 image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/2_9be9f2a3-4d13-46a5-b543-efdad91750de_1800x1800.jpg
 template: '{"NAME":"MS-105","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link2: 
-link3: https://www.moeshouse.com/products/diy-smart-wifi-light-led-dimmer-switch-smart-life-tuya-app-remote-control-1-2-way-switch-works-with-alexa-echo-google-home-1
+mlink: https://www.moeshouse.com/products/diy-smart-wifi-light-led-dimmer-switch-smart-life-tuya-app-remote-control-1-2-way-switch-works-with-alexa-echo-google-home-1
 flash: tuya-convert
 category: switch
 type: Dimmer

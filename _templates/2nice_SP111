@@ -6,7 +6,7 @@ image: https://user-images.githubusercontent.com/5904370/72146872-aa674c80-339d-
 template: '{"NAME":"2NICE SP111","GPIO":[56,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/2NICE-Intelligente-funktionieren-Fernbedienung-Funksteckdose/dp/B0823JP1WC
 link2: https://www.amazon.de/gp/product/B0823JV3Y2
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

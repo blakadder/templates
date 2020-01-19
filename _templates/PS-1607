@@ -5,7 +5,7 @@ link: https://www.amazon.com/Independent-Assistant-Function-Receptacle-Required/
 image: https://images-na.ssl-images-amazon.com/images/I/41rg%2BeAP%2BIL._AC_SL1000_.jpg
 template: '{"NAME":"PS-1607","GPIO":[17,0,0,0,0,22,18,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://articulo.mercadolibre.com.co/MCO-499318920-toma-corriente-inteligente-wi-fi-alexa-google-home-mini-_JM?quantity=1
-link3: https://chinapst.en.made-in-china.com/product/AXenOZFTLYWb/China-Us-Version-Tuya-WiFi-Smart-Wall-Socket-PST-PS-1607-.html
+mlink: https://chinapst.en.made-in-china.com/product/AXenOZFTLYWb/China-Us-Version-Tuya-WiFi-Smart-Wall-Socket-PST-PS-1607-.html
 flash: tuya-convert
 category: plug
 type: Wall Outlet

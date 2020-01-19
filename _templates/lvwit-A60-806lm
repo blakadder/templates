@@ -6,7 +6,7 @@ image: https://user-images.githubusercontent.com/5904370/72338017-db0ff480-36c3-
 template: '{"NAME":"LVWIT A60 8.5W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/gp/product/B07YKCB5G4
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBCCT

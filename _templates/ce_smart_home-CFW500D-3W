@@ -6,7 +6,7 @@ image: https://www.cesmarthome.com/assets/img/product_images/CFW500D-3W/CFW500D-
 template: '{"NAME":"CE-WF500D-3W","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
 link: https://www.costco.ca/ce-smart-home-3-way-wi-fi-dimmer-light-switch%2c-2-pack.product.100486633.html
 link2: 
-link3: https://www.cesmarthome.com/CFW500D-3W.html
+mlink: https://www.cesmarthome.com/CFW500D-3W.html
 flash: tuya-convert
 category: switch
 type: Dimmer

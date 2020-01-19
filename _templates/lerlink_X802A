@@ -5,7 +5,7 @@ link: http://s.click.aliexpress.com/e/46jxCi64
 image: https://ae01.alicdn.com/kf/H04c7ceb90bc94298bbed517a95533b44j.jpg
 template: '{"NAME":"Lerlink X802A","GPIO":[0,0,0,18,17,0,0,0,21,23,22,0,0],"FLAG":15,"BASE":18}' 
 link2: http://s.click.aliexpress.com/e/olUdOPzI
-link3: https://www.lerlink.com/productinfo/1017149.html
+mlink: https://www.lerlink.com/productinfo/1017149.html
 flash: tuya-convert
 category: switch
 type: Switch

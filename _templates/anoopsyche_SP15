@@ -7,7 +7,7 @@ standard: uk
 flash: tuya-convert
 link: https://www.amazon.co.uk/dp/B079JHG338
 link2:
-link3: https://ianoopsyche.com/uk/Smart-Plug-SP15.html
+mlink: https://ianoopsyche.com/uk/Smart-Plug-SP15.html
 image: https://user-images.githubusercontent.com/5904370/71767710-30ebdc00-2f0f-11ea-82c4-f3673651966a.png
 template: '{"NAME":"Anoop SP15","GPIO":[0,0,0,0,56,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
 ---

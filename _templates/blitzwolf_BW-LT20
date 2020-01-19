@@ -8,7 +8,7 @@ link: https://www.banggood.com/Blitzwolf-BW-LT20-24W-Smart-LED-Ceiling-Light-Mou
 image: https://imgaz3.staticbg.com/thumb/large/oaupload/banggood/images/06/B5/3b75d6b4-7996-41dd-9cfc-468bfd56aa4a.jpg.webp
 template: '{"NAME":"BW-LT20","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":15,"BASE":18}' 
 link2: http://s.click.aliexpress.com/e/3YjGLAsC
-link3: https://www.blitzwolf.com/24W-Mount-LED-Ceiling-Light-p-357.html
+mlink: https://www.blitzwolf.com/24W-Mount-LED-Ceiling-Light-p-357.html
 ---
 
 Flashing with https://github.com/ct-Open-Source/tuya-convert works without problems.

@@ -8,7 +8,7 @@ link: https://www.kmart.com.au/product/mirabella-genio-9w-led-wi-fi-dimmable-dow
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/sz/8/42799368-1-sz.jpg
 template: '{"NAME":"GenioDLightRGB","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link2:
-link3: https://mirabellagenio.net.au/downlight-rgb%2Bcct
+mlink: https://mirabellagenio.net.au/downlight-rgb%2Bcct
 ---
 
 This is specifically for the RGB+CCT variant (Can do both RGB and cool to warm white).

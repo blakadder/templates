@@ -5,7 +5,7 @@ link: https://www.amazon.co.uk/gp/product/B07ZQ34X55
 image: https://m.media-amazon.com/images/S/aplus-media/sc/d67bdd69-708a-4405-bb36-0b6bef364308.__CR0,0,300,400_PT0_SX300_V1___.jpg
 template: '{"NAME":"2NICE UP111","GPIO":[0,52,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.co.uk/2NICE-Compatible-Control-Anywhere-Monitoring/dp/B07ZQ7B572
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

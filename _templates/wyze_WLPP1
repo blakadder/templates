@@ -5,7 +5,7 @@ link: https://www.homedepot.com/
 image: https://wyze.com/media/catalog/product/cache/0003b2d20a8a1b1ec43a21025f237eb6/w/y/wyze-plug-1.jpg
 template: '{"NAME":"WyzePlugWLPP1","GPIO":[0,0,0,0,0,56,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}'
 link2: 
-link3: https://wyze.com/wyze-plug.html
+mlink: https://wyze.com/wyze-plug.html
 flash: serial
 category: plug
 type: Plug

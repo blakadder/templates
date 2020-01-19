@@ -5,7 +5,7 @@ model: WIFILC11WTE27
 type: RGBW
 category: bulb
 standard: e27
-link3: https://nedis.com/en-us/product/550714423/wifi-smart-led-bulb-full-colour-and-warm-white-e27
+mlink: https://nedis.com/en-us/product/550714423/wifi-smart-led-bulb-full-colour-and-warm-white-e27
 image: https://pictures.content4us.com/products_high_res/WIFILC11WTE27_P66.JPG
 template: '{"NAME":"Nedis RGBW","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":1,"BASE":18}' 
 link: https://www.amazon.de/dp/B07GH1BD2H

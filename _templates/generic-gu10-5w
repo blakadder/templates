@@ -5,7 +5,7 @@ link: https://www.ebay.com.au/itm/GU10-LED-Smart-Light-Bulb-Wireless-WiFi-App-Re
 image: https://images-na.ssl-images-amazon.com/images/I/31IFYUUnuQL._SX425_.jpg
 template: '{"NAME":"RGBCW GU10","GPIO":[0,255,0,255,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":3}' 
 link2: https://www.gearbest.com/smart-bulb/pp_009887720198.html
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBW

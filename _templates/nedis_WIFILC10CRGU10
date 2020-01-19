@@ -6,7 +6,7 @@ link: https://webshop.nedis.com/en-us/550703235/wifilc10crgu10
 image: https://pictures.content4us.com/products_high_res/WIFILC10CRGU10_P66.JPG
 template: '{"NAME":"Nedis GU10","GPIO":[0,0,0,0,39,37,0,0,40,38,41,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/NEDIS-Dimmable-Subscription-Required-SmartLife/dp/B07NWBF5PL
-link3: https://nedis.com/en-us/product/550703235/wi-fi-smart-led-bulb-full-colour-and-warm-white-gu10
+mlink: https://nedis.com/en-us/product/550703235/wi-fi-smart-led-bulb-full-colour-and-warm-white-gu10
 flash: tuya-convert
 category: bulb
 type: RGBW

@@ -10,7 +10,7 @@ link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-e27-colour-bulb/232
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/sz/8/42707998-1-sz.jpg
 template: '{"NAME":"GenioBulbRGB","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":1,"BASE":18}' 
 link2:
-link3: https://mirabellagenio.net.au/es-%2F-bc-warm-rgb-specs
+mlink: https://mirabellagenio.net.au/es-%2F-bc-warm-rgb-specs
 ---
 Includes also Mirabella Genio 1002339
 

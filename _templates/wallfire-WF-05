@@ -5,7 +5,7 @@ link: https://www.amazon.co.uk/light-Wallfire-Wireless-Remote-Control/dp/B074T1S
 image: https://images-na.ssl-images-amazon.com/images/I/61PBqbw695L._AC_SL1200_.jpg
 template: '{"NAME":"Wallfire E27","GPIO":[17,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
 link2: https://www.amazon.de/light-Wallfire-Wireless-Remote-Control/dp/B074T1SCHV/
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBW

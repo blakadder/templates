@@ -5,7 +5,7 @@ link: https://www.gearbest.com/smart-lighting/pp_009633100556.html
 image: https://user-images.githubusercontent.com/5904370/71328015-9fdd3400-2510-11ea-9441-9b4761b5c90d.png
 template: '{"NAME":"Utorch LE7","GPIO":[0,0,0,0,0,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBW

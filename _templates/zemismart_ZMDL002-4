@@ -8,6 +8,6 @@ link: https://www.aliexpress.com/item/4000018731463.html
 image: https://ae01.alicdn.com/kf/HTB1b9mSaebviK0jSZFNq6yApXXaS/Zemismart-4-inch-WiFi-RGBCW-Color-Charging-With-Music-for-Home-Party-Led-Downlight-Ceiling-Light.jpg
 template: '{"NAME":"ZemiDownLight4","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link2:
-link3: https://www.zemismart.com/zemismart-4-inch-wifi-rgbcw-color-charging-with-music-for-home-party-led-downlight-ceiling-light-alexa-google-home-enable-ifttt-p0208.html
+mlink: https://www.zemismart.com/zemismart-4-inch-wifi-rgbcw-color-charging-with-music-for-home-party-led-downlight-ceiling-light-alexa-google-home-enable-ifttt-p0208.html
 ---
 Reference: ZMDL002- 4

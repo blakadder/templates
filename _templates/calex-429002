@@ -6,7 +6,7 @@ link: https://www.power.dk/hus-og-fritid/elmaterialer-og-belysning/belysning-og-
 image: https://user-images.githubusercontent.com/5904370/71838767-e9558380-30b9-11ea-95ff-2a0a2b0f8b04.png
 template: '{"NAME":"Calex RGBW","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.calex.nl/en/products/product/LEDREFGU10-5W-2200-4000kSMDSMART/
+mlink: https://www.calex.nl/en/products/product/LEDREFGU10-5W-2200-4000kSMDSMART/
 flash: tuya-convert
 category: bulb
 type: RGBCCT

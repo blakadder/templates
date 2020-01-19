@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B07VP4PHJJ
 image: https://images-na.ssl-images-amazon.com/images/I/51Dd9YQq74L._AC_SL1500_.jpg
 template: '{"NAME":"Gosund Dimmer","GPIO":[255,148,255,149,17,0,255,255,56,158,37,255,255],"FLAG":0,"BASE":18}'
 link2: 
-link3: https://gosund.com/download/smart_switch/137.html
+mlink: https://gosund.com/download/smart_switch/137.html
 flash: tuya-convert
 category: switch
 type: Dimmer

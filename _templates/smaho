@@ -5,7 +5,7 @@ link: https://www.amazon.de/SMAHO-Steckdose-kompatibel-Sprachsteuerung-Zeitsteue
 image: https://images-na.ssl-images-amazon.com/images/I/61Q9QwGqFJL._SL1500_.jpg
 template: '{"NAME":"SMAHO WiFi P.","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: serial
 category: plug
 type: Plug

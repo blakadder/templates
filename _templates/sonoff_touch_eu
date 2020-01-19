@@ -3,7 +3,7 @@ title: Sonoff Touch EU
 category: switch
 type: Switch
 standard: eu
-link3: https://www.itead.cc/smart-home/sonoff-touch.html
+mlink: https://www.itead.cc/smart-home/sonoff-touch.html
 image: https://user-images.githubusercontent.com/5904370/57885431-36cf6880-782b-11e9-9361-f4fa9f60fd80.png
 template: '{"NAME":"Sonoff Touch","GPIO":[17,255,0,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":10}' 
 link: https://www.banggood.com/SONOFF-Touch-AC90-To-250V-400W-WIFI-Switch-Module-Luxury-Glass-Panel-Wireless-Timing-Switch-p-1139688.html

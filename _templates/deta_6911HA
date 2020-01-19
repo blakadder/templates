@@ -5,7 +5,7 @@ link: https://www.bunnings.com.au/deta-smart-single-gang-light-switch-touch-acti
 image: https://media.bunnings.com.au/Product-800x800/2a1e7a89-6cda-4649-bde8-eaaeb0d67a55.jpg
 template: '{"NAME":"Deta 1G Switch","GPIO":[0,0,0,0,157,0,0,0,0,21,0,0,90],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Switch

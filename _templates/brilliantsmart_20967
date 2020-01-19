@@ -6,7 +6,7 @@ image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/09/20967.jpg
 template: '{"NAME":"Generic","GPIO":[255,107,255,108,255,255,0,0,255,0,255,0,255],"FLAG":0,"BASE":54}' 
 link: https://www.mjselectricalsupplies.com.au/brilliant-smart-wifi-dimmer-mechanism
 link2: https://www.jdlighting.com.au/brilliant-smart-wifi-push-button-dimmer.html
-link3: https://www.brilliantsmart.com.au/smart-products/electrical/smart-mech/
+mlink: https://www.brilliantsmart.com.au/smart-products/electrical/smart-mech/
 flash: tuya-convert
 category: light
 type: Dimmer

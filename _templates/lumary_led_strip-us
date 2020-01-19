@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B07PVDXWGS/
 image: https://images-na.ssl-images-amazon.com/images/I/61utFqAJYcL._AC_SL1000_.jpg
 template: '{"NAME":"Lumary LED","GPIO":[17,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.ca/WiFi-Smart-LED-Strip-Light/dp/B07K2WXTDN
-link3: http://www.lumary.tech/
+mlink: http://www.lumary.tech/
 flash: tuya-convert
 category: light
 type: LED Strip

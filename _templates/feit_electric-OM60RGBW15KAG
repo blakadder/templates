@@ -5,7 +5,7 @@ link: https://www.lowes.com/pd/Feit-Electric-Smart-WiFi-60-Watt-EQ-A19-Color-Enh
 image: https://www.feit.com/wp-content/uploads/2018/05/OM60_RGBW_CA_AG_pack-3.jpg
 template: '{"NAME":"FE-OM60-15K-AG","GPIO":[0,0,0,0,141,140,0,0,37,142,38,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBCCT

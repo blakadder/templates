@@ -8,7 +8,7 @@ image: https://user-images.githubusercontent.com/5904370/71756963-e62c7e80-2e92-
 template: '{"NAME":"Teckin SP23","GPIO":[56,255,57,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
 link2: https://www.amazon.co.uk/gp/product/B07CVJYV3G
 link: https://www.amazon.co.uk/TECKIN-Monitoring-Function-Control-Required/dp/B07QN5XY89
-link3: https://www.teckinhome.com/copy-of-sp-10-1 
+mlink: https://www.teckinhome.com/copy-of-sp-10-1 
 ---
 
 2019-12-23

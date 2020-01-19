@@ -5,7 +5,7 @@ link: https://www.bunnings.com.au/arlec-smart-15w-security-floodlight-with-grid-
 image: https://media.bunnings.com.au/Product-800x800/f85a5560-b1a4-4d75-bf41-414630dee99f.jpg
 template: '{"NAME":"ArlecFlood","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":15,"BASE":18}' 
 link2: 
-link3: https://www.arlec.com.au/
+mlink: https://www.arlec.com.au/
 flash: tuya-convert
 category: light
 type: Light

@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B07N8R4M3M
 image: https://images-na.ssl-images-amazon.com/images/I/51aTSYL7gQL._SL1073_.jpg
 template: '{"NAME":"Euri Lighting ","GPIO":[0,0,0,0,37,40,0,0,38,41,39,37,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.eurilighting.com/product/lis-a1001/
+mlink: https://www.eurilighting.com/product/lis-a1001/
 flash: tuya-convert
 category: bulb
 type: RGBCCT

@@ -6,7 +6,7 @@ link: https://www.power.dk/hus-og-fritid/elmaterialer-og-belysning/belysning-og-
 image: https://service.calex.nl/images/products/429036/1600/1/429036.jpg
 template: '{"NAME":"Calex G125 E27","GPIO":[0,0,0,0,0,140,0,0,38,0,37,142,141],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.calex.nl/en/products/product/LEDGLOBEG125E27-7-5W-1800-3000FILHELDERSMART/
+mlink: https://www.calex.nl/en/products/product/LEDGLOBEG125E27-7-5W-1800-3000FILHELDERSMART/
 flash: tuya-convert
 category: bulb
 type: CCT

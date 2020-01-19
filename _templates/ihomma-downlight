@@ -5,7 +5,7 @@ link: https://www.amazon.de/iHomma-Einbaustrahler-Einbauspots-Einbauleuchten-Sma
 image: https://images-na.ssl-images-amazon.com/images/I/41bhgHg%2BpvL._AC_SL1000_.jpg
 template: '{"NAME":"iHommaLEDDownl","GPIO":[0,0,0,0,0,40,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: serial
 category: light
 type: Light

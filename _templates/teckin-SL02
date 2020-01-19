@@ -7,7 +7,7 @@ template: '{"NAME":"Teckin SL02","GPIO":[51,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0
 link: https://www.amazon.co.uk/TECKIN-Control-Changing-Flexible-Decoration/dp/B07YS6V1BD
 link2: https://www.amazon.com/Compatible-TECKIN-Million-Changing-Decoration/dp/B07YS5T23F
 link4: https://www.amazon.ca/TECKIN-Million-Changing-Control-Decoration/dp/B07YSB3242
-link3: 
+mlink: 
 flash: tuya-convert
 category: light
 type: LED Strip

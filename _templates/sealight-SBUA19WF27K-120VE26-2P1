@@ -6,7 +6,7 @@ link: https://www.amazon.com/SEALIGHT-Equivalent-Dimmable-Required-Assistant/dp/
 image: https://images-na.ssl-images-amazon.com/images/I/618E79M42XL._AC_SL1000_.jpg
 template: '{"NAME":"SealightEdison","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: WW

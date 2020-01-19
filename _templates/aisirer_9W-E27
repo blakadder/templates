@@ -9,5 +9,5 @@ image: https://images-na.ssl-images-amazon.com/images/I/61VP%2BeYND7L._SL1500_.j
 template: '{"NAME":"Aisirer 9W","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link1: https://www.amazon.de/dp/B07RHCSCS5
 link2: https://www.amazon.de/dp/B07MQ4TT1Y
-link3: https://www.iaisirer.com/de/Smart-Lampe-1-Pack.html
+mlink: https://www.iaisirer.com/de/Smart-Lampe-1-Pack.html
 ---

@@ -7,7 +7,7 @@ link: https://www.banggood.com/SONOFF-4CH-R2-4-Channel-10A-2200W-2_4Ghz-Smart-Ho
 image: https://user-images.githubusercontent.com/5904370/57882765-c4f42080-7824-11e9-93c9-fafaf0299dd0.png
 template: '{"NAME":"Sonoff 4CH","GPIO":[17,255,255,255,23,22,18,19,21,56,20,24,0],"FLAG":0,"BASE":7}' 
 link2: https://www.gearbest.com/smart-home-controls/pp_1701133.html
-link3: https://www.itead.cc/smart-home/sonoff-4ch.html
+mlink: https://www.itead.cc/smart-home/sonoff-4ch.html
 ---
 ## Serial Flashing
 Please see the [Hardware Preparation](Hardware-Preparation) page for general instructions.

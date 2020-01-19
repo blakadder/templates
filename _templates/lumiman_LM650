@@ -5,7 +5,7 @@ link: https://www.amazon.ca/Enabled-Outlet-Compatible-Required-LUMIMAN/dp/B07F6Q
 image: https://cdn.shopify.com/s/files/1/0019/8885/3829/products/20180911233739_608x608.png
 template: '{"NAME":"Lumiman LM650","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.ca/Enabled-Outlet-Compatible-Required-LUMIMAN/dp/B07F6QJLG8
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

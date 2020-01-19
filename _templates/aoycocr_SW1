@@ -5,7 +5,7 @@ link: https://www.amazon.com/dp/B07SVD6P2L/
 image: https://images-na.ssl-images-amazon.com/images/I/51QHahlxVfL._AC_SL1200_.jpg
 template: '{"NAME":"Aoycocr SW1","GPIO":[52,255,53,255,255,255,255,255,58,17,255,21,255],"FLAG":15,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Switch

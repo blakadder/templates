@@ -8,7 +8,7 @@ link: https://www.amazon.com/Wireless-Anywhere-Compatible-Function-Required/dp/B
 image: https://images-na.ssl-images-amazon.com/images/I/41LEqcVVgZL._SX679_.jpg
 template: '{"NAME":"Tuya Moes 3 Ch","GPIO":[27,255,26,18,22,19,0,0,17,21,25,23,24],"FLAG":0,"BASE":18}' 
 link2: https://www.ebay.com/itm/F-ALEXA-Google-Home-APP-3Gang-WiFi-Smart-Panel-Touch-Switch-Remote-Control-Touch/132661136526
-link3: https://www.moeshouse.com/collections/us-smart-switch/products/us-type-white-wifi-smart-wall-touch-switch-3-gang-glass-panel-app-remote-control-work-with-google-home-and-alexa-for-smart-life
+mlink: https://www.moeshouse.com/collections/us-smart-switch/products/us-type-white-wifi-smart-wall-touch-switch-3-gang-glass-panel-app-remote-control-work-with-google-home-and-alexa-for-smart-life
 ---
 
 **Below information is probably outdated and this template needs a new version with a defined LedLink**

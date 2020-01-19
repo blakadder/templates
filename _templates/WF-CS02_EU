@@ -5,7 +5,7 @@ link: https://www.amazon.de/Zeitschaltuhr-Etersky-Rollladen-Kompatibel-Fernbedie
 image: https://i.ibb.co/SnK2jzD/product-image-992218767-530x-2x.jpg
 template: '{"NAME":"WF-CS02 Tuya","GPIO":[157,0,53,11,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
 link2: https://www.ebay.com/itm/100-240V-Intelligenter-WiFi-Schalter-für-elektrischen-Rollladen-Touch-Control/123922710893
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Curtain Switch

@@ -8,7 +8,7 @@ link: https://www.amazon.com/ANOOPSYCHE-2700K-6500K-Equivalent-Compatible-Assist
 image: https://user-images.githubusercontent.com/5904370/69924698-ff659800-14ac-11ea-8a66-c1e372bc2645.png
 template: '{"NAME":"Anoop-CW-WW","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://ianoopsyche.com/Smart-Led-Light-Bulb-1-Pack.html
+mlink: https://ianoopsyche.com/Smart-Led-Light-Bulb-1-Pack.html
 ---
 
 Utilizes two PWM channels for dimming and color tuning between warm white and cold white.

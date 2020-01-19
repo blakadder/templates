@@ -5,7 +5,7 @@ link: https://www.action.com/de-de/p/lsc-smart-connect-slimme-filament-ledlamp--
 image: https://www.action.com/globalassets/cmsarticleimages/79/72/2578228_8712879142737-111_01.png
 template: '{"NAME":"LSC_Filam_E27","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-filament-ledlamp/
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: WW

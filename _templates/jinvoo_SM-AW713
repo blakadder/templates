@@ -8,7 +8,7 @@ link: https://www.amazon.co.uk/Jinvoo-Control-SM-AW713-Application-Program/dp/B0
 image: https://images-na.ssl-images-amazon.com/images/I/61mxgUPxbSL._SL1500_.jpg
 template: '{"NAME":"Jinvoo Valve","GPIO":[0,0,0,0,0,52,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.com/control-Compatible-Assistant-Application-Android/dp/B07DZTDMTR
-link3: https://www.alibaba.com/product-detail/Xenon-Smart-Water-Gas-wifi-valve_60754027560.html
+mlink: https://www.alibaba.com/product-detail/Xenon-Smart-Water-Gas-wifi-valve_60754027560.html
 ---
 
 Derived from JinvooSmart SM-PW713 template (using that template, would keep reseting the SM-AW713 back to basic WiFi hotspot after a few switch ON/OFF)

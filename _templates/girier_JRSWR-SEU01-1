@@ -5,7 +5,7 @@ link: http://s.click.aliexpress.com/e/nywBqqzw
 image: https://ae01.alicdn.com/kf/H624dd839d93e443882cb3c2a706bf06bx/Wifi-Wall-Touch-Switch-EU-No-Neutral-Wire-Required-Smart-Light-Switch-Tuya-RF433-Smart-Home.jpg_640x640.jpg
 template: '{"NAME":"W601","GPIO":[0,0,0,0,0,17,0,0,0,0,0,21,157],"FLAG":15,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Switch

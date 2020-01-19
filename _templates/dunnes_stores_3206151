@@ -6,7 +6,7 @@ image: https://dunnes.btxmedia.com/pws/client/images/catalogue/products/3206151/
 template: '{"NAME":"SmartLifePlug","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.dunnesstores.com/p/wifi-smart-plug/3206151
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

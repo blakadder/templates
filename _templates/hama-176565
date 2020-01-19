@@ -5,7 +5,7 @@ link: https://www.amazon.de/Hama-WiFi-Steckdose-integriertem-Strommessgerät-3-6
 image: https://images-na.ssl-images-amazon.com/images/I/61aWRQQMGLL._AC_SX679_.jpg
 template: '{"NAME":"hama","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":52}' 
 link2: 
-link3: https://www.hama.com/00176565/hama-wifi-socket-with-integrated-current-measuring-device-3680-w-16-a?srcLang=0&targetLang=1
+mlink: https://www.hama.com/00176565/hama-wifi-socket-with-integrated-current-measuring-device-3680-w-16-a?srcLang=0&targetLang=1
 flash: serial
 category: plug
 type: Plug

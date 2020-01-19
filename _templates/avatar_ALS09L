@@ -6,7 +6,7 @@ image: https://user-images.githubusercontent.com/5904370/72478356-17da0980-37f2-
 template: '{"NAME":"Avatar E14 9W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":20}' 
 link: https://www.amazon.de/gp/product/B07ZRGMTN2
 link2: 
-link3: https://www.alibaba.com/product-detail/Amazon-best-selling-RGB-W-C_62037156345.html
+mlink: https://www.alibaba.com/product-detail/Amazon-best-selling-RGB-W-C_62037156345.html
 flash: tuya-convert
 category: bulb
 type: RGBW

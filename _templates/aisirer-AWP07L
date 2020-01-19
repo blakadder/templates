@@ -5,7 +5,7 @@ link: https://www.amazon.de/AISIRER-Intelligente-Fernbedienbar-Stromverbrauch-Fu
 image: https://images-na.ssl-images-amazon.com/images/I/517OHYzBCrL._SL1001_.jpg
 template: '{"NAME":"AISIRER AWP07L","GPIO":[0,17,0,52,133,132,0,0,0,0,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

@@ -5,7 +5,7 @@ image: https://images-na.ssl-images-amazon.com/images/I/41b83%2BQjukL._AC_SL1000
 template: '{"NAME":"KS-605","GPIO":[17,0,0,0,0,0,0,0,21,158,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Wireless-Compatible-Function-Neutral-require/dp/B07DYCB9ZH
 link2: https://www.amazon.ca/Compatible-Wireless-Function-Neutral-Require/dp/B07B5YM41J
-link3: https://micmi.com/product/smart-switch-k38-2pack/
+mlink: https://micmi.com/product/smart-switch-k38-2pack/
 flash: tuya-convert
 category: switch
 type: Switch

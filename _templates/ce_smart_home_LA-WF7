@@ -6,7 +6,7 @@ image: https://www.cesmarthome.com/assets/img/product_images/LA-WF7/LA-WF7_1.png
 template: '{"NAME":"LITESUN LA-WF7","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.costco.ca/
 link2: 
-link3: https://www.cesmarthome.com/LA-WF7.html
+mlink: https://www.cesmarthome.com/LA-WF7.html
 flash: tuya-convert
 category: plug
 type: Plug

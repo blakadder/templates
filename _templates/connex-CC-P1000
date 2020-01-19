@@ -5,7 +5,7 @@ link: https://www.makro.co.za/home-garden/lighting/home-automation/smart-electri
 image: https://connexconnect.com/wp-content/uploads/2019/08/CC-P1000.jpg
 template: '{"NAME":"Connex Smart T","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://connexconnect.com/product/smart-wi-fi-3-pin-wall-plug/
+mlink: https://connexconnect.com/product/smart-wi-fi-3-pin-wall-plug/
 flash: tuya-convert
 category: plug
 type: Plug

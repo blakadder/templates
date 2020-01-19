@@ -6,7 +6,7 @@ image: https://media.bunnings.com.au/Product-800x800/5450ca3c-55e0-464a-bad9-092
 template: '{"NAME":"Arlec 45cm Fan","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
 link: https://www.bunnings.com.au/arlec-45cm-smart-dc-wall-fan-with-grid-connect_p0110424
 link2: https://www.bunnings.co.nz/arlec-45cm-smart-dc-wall-fan-with-grid-connect_p00110424
-link3: 
+mlink: 
 flash: tuya-convert
 category: misc
 type: Fan

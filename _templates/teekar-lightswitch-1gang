@@ -5,7 +5,7 @@ link: https://www.amazon.de/gp/product/B07SLHCX5B
 image: https://ae01.alicdn.com/kf/HTB1VeFFXHys3KVjSZFnq6xFzpXak/Teekar-Touch-Switch-Smart-Light-Switch-Panel-1-2-3-Gang-Wall-Touch-Wifi-Switch-EU.jpg_640x640.jpg
 template: '{"NAME":"TeeKar Touch","GPIO":[0,0,255,0,255,21,0,0,0,255,17,0,255],"FLAG":0,"BASE":18}' 
 link2: http://s.click.aliexpress.com/e/kmMOCM16
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Switch

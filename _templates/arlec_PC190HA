@@ -5,7 +5,7 @@ link: https://www.bunnings.com.au/arlec-smart-plug-in-socket-with-grid-connect_p
 image: https://media.bunnings.com.au/Product-800x800/703ac61b-deb3-41b0-8848-adf928fc0521.jpg
 template: '{"NAME":"Arlec-PC190HA","GPIO":[0,0,0,0,0,0,0,0,21,56,17,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

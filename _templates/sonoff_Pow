@@ -3,7 +3,7 @@ title: Sonoff Pow
 category: switch
 type: Relay
 standard: global
-link3: https://www.itead.cc/smart-home/sonoff-pow.html
+mlink: https://www.itead.cc/smart-home/sonoff-pow.html
 image: https://user-images.githubusercontent.com/5904370/57881237-139fbb80-7821-11e9-8c1b-e375f6d0c0a3.png
 template: '{"NAME":"Sonoff Pow","GPIO":[17,0,0,0,0,130,0,0,21,132,133,52,0],"FLAG":0,"BASE":6}' 
 link: https://www.banggood.com/SONOFF-POW-DIY-WIFI-Long-Distance-Power-Monitor-Current-Tester-Remote-Control-Switch-Socket-For-Smart-Home-p-1186730.html

@@ -8,7 +8,7 @@ image: https://images-na.ssl-images-amazon.com/images/I/41PqlsEbWHL._SL1000_.jpg
 template: '{"NAME":"XS-A18","GPIO":[37,0,38,0,0,39,0,0,0,17,0,21,0],"FLAG":0,"BASE":45}' 
 link2: https://www.banggood.com/XS-A18-AC100-240V-10A-AU-Plug-Smart-RGB-LED-Light-Smart-Wifi-Socket-Voice-Control-Works-With-Alexa-Google-Home-p-1552852.html
 link: https://www.aliexpress.com/item/4000534358024.html
-link3: https://www.alibaba.com/product-detail/RGB-mini-wi-fi-smart-plug_60798221701.html
+mlink: https://www.alibaba.com/product-detail/RGB-mini-wi-fi-smart-plug_60798221701.html
 ---
 
 

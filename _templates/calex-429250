@@ -6,7 +6,7 @@ link: https://www.power.no/hjem-og-fritid/belysning/smart-belysning/smarte-lampe
 image: https://service.calex.nl/images/products/429250/1600/calex-smart-ceiling-light-1800-6500k.jpg
 template: '{"NAME":"Calex_LED","GPIO":[0,0,0,0,0,0,0,0,52,37,38,54,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.calex.nl/en/products/product/PLAFONNIERE-SMART/
+mlink: https://www.calex.nl/en/products/product/PLAFONNIERE-SMART/
 flash: tuya-convert
 category: light
 type: Light

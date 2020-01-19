@@ -9,7 +9,7 @@ image: https://user-images.githubusercontent.com/5904370/66717175-536dcd80-edd6-
 template: '{"NAME":"Aoycocr","GPIO":[255,0,56,0,0,0,0,0,255,17,0,21,0],"FLAG":0,"BASE":17}' 
 link: https://www.amazon.de/Steckdose-Intelligente-Steckdosen-Aoycocr-funktioniert/dp/B07PTPN74C
 link2: https://www.amazon.de/gp/product/B07PRFGRLC
-link3: http://en.hysiry.com/case_view.aspx?TypeId=128&Id=234&FId=t4:128:4
+mlink: http://en.hysiry.com/case_view.aspx?TypeId=128&Id=234&FId=t4:128:4
 ---
 
 ![Label](https://user-images.githubusercontent.com/5904370/71768196-3992e100-2f14-11ea-8a81-ed6bc330db55.png)

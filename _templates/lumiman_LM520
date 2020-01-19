@@ -6,7 +6,7 @@ link: https://www.amazon.ca/Dimmable-Tunable-Equivalent-Compatible-Lumiman/dp/B0
 image: https://user-images.githubusercontent.com/5904370/70425593-c9f31880-1a71-11ea-8d0a-c600c98a4381.png
 template: '{"NAME":"Lumiman LM520","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.ca/Dimmable-Tunable-Equivalent-Compatible-Lumiman/dp/B075GGXNZ1
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: CCT

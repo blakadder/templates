@@ -5,7 +5,7 @@ link: https://www.brilliantsmart.com.au/smart-products/electrical/smart-powerboa
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20691-05.jpg
 template: '{"NAME":"B_WiFi-4","GPIO":[56,0,0,57,29,17,0,0,31,30,32,0,25],"FLAG":1,"BASE":18}' 
 link2: 
-link3: https://www.brilliantsmart.com.au/smart-products/electrical/smart-powerboard/
+mlink: https://www.brilliantsmart.com.au/smart-products/electrical/smart-powerboard/
 flash: tuya-convert
 category: plug
 type: Power Strip

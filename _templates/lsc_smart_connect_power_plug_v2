@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-19
+title: LSC Smart Connect Power Plug v2
+model: Manufacturer number: 970760.1 v2.0; Barcode: 8712879145967
+image: https://www.action.com/globalassets/cmsarticleimages/79/98/2578685_8712879142782-111.png
+template: '{"NAME":"LSC Smart Plug","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-stekker-/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+This is version 2 of the [LSC Smart Connect Power Plug](lsc_smart_connect_power_plug). Button1 is connected to GPIO13 (was GPIO14 in previous version)

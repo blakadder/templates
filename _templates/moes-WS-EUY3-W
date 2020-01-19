@@ -5,7 +5,7 @@ link: https://www.banggood.com/MoesHouse-WS-EUY3-W-EU-Standard-3-Gang-Smart-Push
 image: https://user-images.githubusercontent.com/5904370/71559070-21c1e580-2a5a-11ea-9fd5-353572770d07.png
 template: '{"NAME":"WS-EUY3-W","GPIO":[157,0,58,18,22,19,0,0,17,21,57,23,56],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/Switch-Supported-Android-Neutral-Required/dp/B07Y81QCDH/
-link3: https://www.moeshouse.com/products/wifi-de-smart-push-button-switch-3gang-removable-detachable-smart-life-tuya-app-remote-control-work-with-alexa-google-home
+mlink: https://www.moeshouse.com/products/wifi-de-smart-push-button-switch-3gang-removable-detachable-smart-life-tuya-app-remote-control-work-with-alexa-google-home
 flash: tuya-convert
 category: switch
 type: Switch

@@ -5,7 +5,7 @@ link: https://www.amazon.com/Dimmable-SLITINTO-Multicolor-Compatible-Equivalent/
 image: https://user-images.githubusercontent.com/5904370/72205388-9c3f2c00-3482-11ea-9afe-12d087143e68.png
 template: '{"NAME":"Slitinto 9W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBCCT

@@ -5,7 +5,7 @@ link: https://www.nordstromrack.com/shop/product/2220706/merkury-innovations-rou
 image: https://www.hautelookcdn.com/products/MI-WW101-199/large/7466709.jpg
 template: '{"NAME":"merkury WW101","GPIO":[0,0,0,0,0,0,0,0,56,90,0,21,0],"FLAG":0,"BASE":18}'
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

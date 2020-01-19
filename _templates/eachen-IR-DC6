@@ -8,7 +8,7 @@ image: https://images-na.ssl-images-amazon.com/images/I/51VaObTqjOL._SL1000_.jpg
 template: '{"NAME":"Eachen IR","GPIO":[0,0,0,0,56,51,0,0,255,17,8,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/EACHEN-Universal-Controller-Conditioner-Compatible-Red/dp/B07K3Z2WBR
 link2: http://s.click.aliexpress.com/e/oo7TfVYy
-link3: https://eachen.cc/product/eachen-ir-dc6-tuya/
+mlink: https://eachen.cc/product/eachen-ir-dc6-tuya/
 ---
 
 Is referred also as "[Docooler WiFi IR-HUB](https://amzn.to/39FpXxL)"

@@ -5,7 +5,7 @@ link: https://www.amazon.co.jp/dp/B07F72W4X4
 image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/01_1800x1800.jpg?v=1564363554
 template: '{"NAME":"Moes NX-SP203","GPIO":[52,0,0,0,17,134,0,0,21,18,0,22,0],"FLAG":0,"BASE":18}' 
 link2: http://s.click.aliexpress.com/e/3ZSEyEyC
-link3: https://www.moeshouse.com/products/jp-dual-wifi-smart-socket-power-japan-plug-energy-monitor-remote-control-work-with-amazon-alexa-google-home-pse-listed
+mlink: https://www.moeshouse.com/products/jp-dual-wifi-smart-socket-power-japan-plug-energy-monitor-remote-control-work-with-amazon-alexa-google-home-pse-listed
 category: plug
 type: Plug
 standard: jp

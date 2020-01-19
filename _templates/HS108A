@@ -5,7 +5,7 @@ link: https://www.walmart.com/ip/Plug-Remote-Anywhere-Required-Devices-Socket-Co
 image: https://user-images.githubusercontent.com/5904370/71772212-9eb3fa00-2f47-11ea-9898-94cf48355a5f.png
 template: '{"NAME":"HS108A","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":1,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

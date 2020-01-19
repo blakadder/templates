@@ -6,7 +6,7 @@ image: https://ae01.alicdn.com/kf/H3039cd0eed2b4f9eb9ab26370279349bj/HOCH-WIFI-C
 template: '{"NAME":"HOCH ZJSB9","GPIO":[17,255,255,255,255,255,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000073040351.html
 link2: https://www.banggood.com/EWelink-1P-16A-WiFi-Smart-Switch-Circuit-Breaker-Automatic-Recloser-Overload-Short-Circuit-Protection-for-Amazon-Alexa-Google-Home-p-1611340.html
-link3: https://www.alibaba.com/product-detail/HOCH-1P-2P-3P-4P-electric_60790457733.html
+mlink: https://www.alibaba.com/product-detail/HOCH-1P-2P-3P-4P-electric_60790457733.html
 flash: serial
 category: switch
 type: Relay

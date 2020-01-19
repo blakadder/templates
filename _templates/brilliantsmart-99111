@@ -5,7 +5,7 @@ link: https://www.jdlighting.com.au/brilliant-smart-wifi-ceiling-fan-remote-kit.
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/08/99111_03.jpg
 template: '{"NAME":"Brilliant Fan","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link2: 
-link3: https://www.brilliantsmart.com.au/smart-products/electrical/smart-fan-remote/
+mlink: https://www.brilliantsmart.com.au/smart-products/electrical/smart-fan-remote/
 flash: tuya-convert
 category: misc
 type: Fan Controller

@@ -8,7 +8,7 @@ link: https://www.hornbach.ch/shop/Ampoule-LED-E14-4-5W-350lm-en-forme-de-bougie
 image: https://www.brilliant-ag.eu/media/image/21/29/0f/Kerzenlampe_C37_E14_350lm_4_5W_warmweiss_2700K_und_RGB_Tuya_brilliant-ag_HK17653S72_Bild1.jpg
 template: '{"NAME":"HK17653S72","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.brilliant-ag.eu/en/smart-home/leuchtmittel/9231/led-kerzenlampe-c37-e14-350lm-4-5w-warmweiss-2700k-rgb-tuya-app
+mlink: https://www.brilliant-ag.eu/en/smart-home/leuchtmittel/9231/led-kerzenlampe-c37-e14-350lm-4-5w-warmweiss-2700k-rgb-tuya-app
 ---
 
 

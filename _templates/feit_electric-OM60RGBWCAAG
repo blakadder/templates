@@ -7,7 +7,7 @@ link: https://www.amazon.com/FEIT-OM60-RGBW-CA-AG/dp/B07GG98VV2/
 link2: https://www.costco.com/FEIT-WiFi-Smart-Bulbs-4-pack.product.100417461.html
 image: https://www.feit.com/wp-content/uploads/2018/05/OM60_RGBW_CA_AG_pack-3.jpg
 template: '{"NAME":"OM60/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}'
-link3: https://www.feit.com/product/smart-wifi-bulb-color-changing-tunable-white-2/
+mlink: https://www.feit.com/product/smart-wifi-bulb-color-changing-tunable-white-2/
 ---
 You need to change RGB to BGR color order with `SetOption37 54` in Tasmota console to remap.
 

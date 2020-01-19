@@ -6,7 +6,7 @@ type: Relay
 standard: global
 link: https://www.amazon.com/Controller-Smartphone-Compatible-Assistant-Required/dp/B07QG7RGFW
 link2: http://s.click.aliexpress.com/e/pAG1CPQC
-link3: 
+mlink: 
 image: https://ae01.alicdn.com/kf/HTB1rYNFRCzqK1RjSZPxq6A4tVXaR/Zemismart-Wifi-Garage-Door-Controller-for-Car-Garage-Door-Opener-APP-Remote-Control-Timing-Voice-Control.jpg
 template: '{"NAME":"Garage Opener","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 ---

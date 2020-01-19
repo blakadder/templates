@@ -9,5 +9,5 @@ image: https://images-na.ssl-images-amazon.com/images/I/61q6STFB7KL._SL1500_.jpg
 template: '{"NAME":"Aisirer 9W","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link1: https://www.amazon.co.uk/AISIRER-Requried-Compatible-Dimmable-Equivalent/dp/B07RJXV3TR
 link2: https://www.amazon.co.uk/AISIRER-Requried-Compatible-Dimmable-Equivalent/dp/B07M7BZF6G
-link3: https://www.iaisirer.com/uk/Smart-Bulb-1-Pack.html
+mlink: https://www.iaisirer.com/uk/Smart-Bulb-1-Pack.html
 ---

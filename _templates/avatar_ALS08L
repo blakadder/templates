@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B07SBPBDZW/
 image: https://raw.githubusercontent.com/xtalker/misc_stuff/master/Avatar_bulb.jpg
 template: '{"NAME":"Avatar E27 7W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":20}' 
 link2: 
-link3: 
+mlink: 
 flash: serial
 category: bulb
 type: RGBW

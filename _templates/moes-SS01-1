@@ -8,7 +8,7 @@ link: https://www.amazon.com/Wireless-Control-Anywhere-Compatible-Function/dp/B0
 image: https://user-images.githubusercontent.com/5904370/67770068-ee60db80-fa55-11e9-991e-445c3cb44df8.png
 template: '{"NAME":"Moes 3-Way","GPIO":[255,255,255,255,21,57,0,0,30,10,9,255,255],"FLAG":0,"BASE":18}' 
 link2: https://www.banggood.com/MoesHouse-3-Way-WiFi-Smart-Light-Switch-Light-Fan-Control-APP-Remote-Control-Works-with-Alexa-And-Google-Home-No-Hub-Required-p-1578982.html
-link3: https://www.moeshouse.com/collections/us-smart-switch/products/3-way-wifi-smart-light-switch-double-control-light-fan-control-remote-control-works-with-alexa-and-google-home-no-hub-required
+mlink: https://www.moeshouse.com/collections/us-smart-switch/products/3-way-wifi-smart-light-switch-double-control-light-fan-control-remote-control-works-with-alexa-and-google-home-no-hub-required
 ---
 To control the switch via MQTT you will need to monitor the Power1 state and send an ON/OFF as an event command.  
 If the light is backwards toggle the Power1 relay once on the Tasmota GUI to follow the light correctly.  Power1 state should then follow the "light on" sensor after this.  

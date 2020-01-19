@@ -6,7 +6,7 @@ image: https://user-images.githubusercontent.com/5904370/72598047-50233a00-390f-
 template: '{"NAME":"TUYA PIR","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com/Motion-Sensor-Office-Security-Compatible/dp/B07L2WTYRY
 link2: https://www.aliexpress.com/af/DP%25252dWP001.html
-link3: 
+mlink: 
 flash: serial
 category: misc
 type: Sensor

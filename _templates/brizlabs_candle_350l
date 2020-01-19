@@ -6,7 +6,7 @@ image: https://images-na.ssl-images-amazon.com/images/I/51qw7dhkOKL._AC_SL1000_.
 template: '{"NAME":"BrizLabs RGBW","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/BrizLabs-Glühbirne-Millionen-Erforderlich-Kompatibel/dp/B07KZVWVVG
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBW

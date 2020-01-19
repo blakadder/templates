@@ -5,7 +5,7 @@ link: https://www.rejectshop.com.au/
 image: https://live.staticflickr.com/65535/49209034321_b7648e0fb6_h.jpg
 template: '{"NAME":"iDigitalRGB+WW","GPIO":[0,0,0,0,0,40,0,0,37,0,39,38,0],"FLAG":0,"BASE":18}'
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBW

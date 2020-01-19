@@ -5,7 +5,7 @@ link: http://s.click.aliexpress.com/e/5SqueSek
 image: https://ae01.alicdn.com/kf/H9b33eb6caf264979825e4ac0ad5bcaa3v/Touch-Switch-EU-Wifi-Smart-Touch-Switch-1-2-3-Gang-Wireless-Remote-Light-Switch-ewelink.jpg_640x640.jpg
 template: '{"NAME":"KingArt-3CH","GPIO":[17,255,0,255,23,22,18,19,21,52,0,0,0],"FLAG":15,"BASE":18}'
 link2: https://www.ebay.co.uk/itm/Wi-Fi-Smart-Wall-Switch-Touch-Panel-T1-86-Type-1-2-3Gang-App-Retome-Control-UK/123970377066
-link3: 
+mlink: 
 flash: serial
 category: switch
 type: Switch

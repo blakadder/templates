@@ -6,7 +6,7 @@ image: https://user-images.githubusercontent.com/5904370/72420706-816d0000-377f-
 template: '{"NAME":"Neo Coolcam IR","GPIO":[0,0,0,0,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.aliexpress.com/af/neo-coolcam-ir-remote.html
 link2: https://www.ebay.com.au/itm/Smart-IR-WiFi-Home-Remote-Control-Compatible-Fit-For-TV-Air-Conditioner-Lamp-AU/223758299689
-link3: https://szneo.com/en/products/show.php?id=231
+mlink: https://szneo.com/en/products/show.php?id=231
 flash: tuya-convert
 category: misc
 type: IR Bridge

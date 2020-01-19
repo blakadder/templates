@@ -5,7 +5,7 @@ image: https://images-na.ssl-images-amazon.com/images/I/51wa4qjOEJL._AC_SL1500_.
 template: '{"NAME":"Gosund UP111","GPIO":[0,52,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":18}' 
 link1: https://www.amazon.co.uk/gp/product/B07R1XG6Z9
 link2: https://www.amazon.co.uk/gp/product/B07VVBH76Y
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

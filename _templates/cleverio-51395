@@ -5,7 +5,7 @@ link: https://www.kjell.com/no/produkter/smarte-hjem/smartbelysning/cleverio-sma
 image: https://img37.pixhost.to/images/327/131268032_752749_51395_4-tif.jpg
 template: '{"NAME":"CleverioE27RGB","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBCCT

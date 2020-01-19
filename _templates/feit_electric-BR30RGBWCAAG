@@ -5,7 +5,7 @@ link2: https://www.menards.com/main/electrical/alarms-security-systems/security-
 image: https://images-na.ssl-images-amazon.com/images/I/51DhkyRDEaL._AC_SL1000_.jpg
 template: '{"NAME":"BR30/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Electric-BR30-RGBW-CA-AG/dp/B07GFV1Y9C/
-link3: https://www.feit.com/
+mlink: https://www.feit.com/
 flash: tuya-convert
 category: bulb
 type: RGBW

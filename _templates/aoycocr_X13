@@ -6,7 +6,7 @@ image: https://user-images.githubusercontent.com/5904370/72188457-a9b0d380-33fa-
 template: '{"NAME":"Aoycocr X13","GPIO":[0,0,56,0,0,0,0,0,21,17,0,22,0],"FLAG":0,"BASE":18}' 
 link: https://smile.amazon.com/gp/product/B07TMKZ9QL
 link2: https://www.aliexpress.com/af/x13-smart-plug.html
-link3: http://en.hysiry.com/case_view.aspx?TypeId=127&Id=391
+mlink: http://en.hysiry.com/case_view.aspx?TypeId=127&Id=391
 flash: tuya-convert
 category: plug
 type: Outdoor Plug

@@ -6,7 +6,7 @@ image: https://www.luminea.info/zx2982_1.jpg
 template: '{"NAME":"Luminea ZX2982","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/Luminea-Home-Control-2er-Set-LED-Filament-Lampen/dp/B08239T7KF
 link2: https://www.pearl.de/a-ZX2982-3103.shtml
-link3: https://www.luminea.info/Alternative-zu-38319-E27-ST64-LED-Filament-Lampe--ZX-2982-919.shtml
+mlink: https://www.luminea.info/Alternative-zu-38319-E27-ST64-LED-Filament-Lampe--ZX-2982-919.shtml
 flash: tuya-convert
 category: bulb
 type: WW

@@ -7,7 +7,7 @@ standard: us
 link: https://www.amazon.ca/2-Pack-Dimmer-Switch-Compatible-Assistant/dp/B07GQ3H8VK
 image: https://i.ibb.co/nQK6hwD/image-Service.jpg
 template: '{"NAME":"CE-WF500D","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}'
-link3: https://www.cesmarthome.com/WF500D.html
+mlink: https://www.cesmarthome.com/WF500D.html
 ---
 
 Enter `TuyaMCU 21,2`

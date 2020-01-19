@@ -8,7 +8,7 @@ link: https://www.amazon.com/gp/product/B07C8FJY3G
 image: https://images-na.ssl-images-amazon.com/images/I/41oZleEF0lL._SL1001_.jpg
 template: '{"NAME":"WS-US1-W","GPIO":[54,0,0,17,21,0,0,0,0,0,52,0,55],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.moeshouse.com/collections/us-smart-switch/products/wifi-smart-wall-touch-us-switch-1-gang-glass-panel-app-remote-control-works-with-amazon-alexa-google-home-no-hub-required
+mlink: https://www.moeshouse.com/collections/us-smart-switch/products/wifi-smart-wall-touch-us-switch-1-gang-glass-panel-app-remote-control-works-with-amazon-alexa-google-home-no-hub-required
 ---
 
 

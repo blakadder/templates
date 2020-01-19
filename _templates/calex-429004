@@ -6,7 +6,7 @@ image: https://user-images.githubusercontent.com/5904370/72111350-d00f3a00-333a-
 template: '{"NAME":"Calex E27 RGB ","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.power.no/hjem-og-fritid/belysning/smart-belysning/smarte-lyspaerer/calex-smart-a60-e27-led-paere-rgbw/p-1022586/
 link2: 
-link3: https://www.calex.nl/en/products/product/LEDNLA60E27-8-5W-2200-4000SMDSMART/
+mlink: https://www.calex.nl/en/products/product/LEDNLA60E27-8-5W-2200-4000SMDSMART/
 flash: tuya-convert
 category: bulb
 type: RGBCCT

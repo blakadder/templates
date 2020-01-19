@@ -5,7 +5,7 @@ link: https://www.walmart.ca/en/ip/merkury-smart-wi-fi-led-bulb-dimmable-white/6
 image: https://i5.walmartimages.ca/images/Enlarge/008/008/6000199008008.jpg
 template: '{"NAME":"MI-BW902-999W","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: WW

@@ -5,7 +5,7 @@ link: https://www.amazon.de/gp/product/B07YJQHCF4/
 image: https://images-na.ssl-images-amazon.com/images/I/61uO%2B5GgF6L._SL1200_.jpg
 template: '{"NAME":"Tuya Shutter","GPIO":[157,0,54,10,22,19,0,0,17,21,53,23,52],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: serial
 category: switch
 type: Curtain Switch

@@ -6,7 +6,7 @@ image: https://images-na.ssl-images-amazon.com/images/I/51uh1NlSuuL._AC_SL1200_.
 template: '{"NAME":"Generic","GPIO":[0,0,0,0,0,0,37,38,0,0,0,0,0],"FLAG":15,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07GP8X8KP
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: CW

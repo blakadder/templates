@@ -8,7 +8,7 @@ link: https://www.banggood.com/MoesHouse-DIY-WiFi-Smart-2-Way-2-Gang-Light-LED-D
 image: https://user-images.githubusercontent.com/39533759/65378668-22f5b080-dcbc-11e9-9401-8d906b204914.jpg
 template: '{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.moeshouse.com/products/wifi-smart-light-switch-diy-breaker-module-smart-life-tuya-app-remote-control-working-with-alexa-echo-google-home-2-gang-2-way-3
+mlink: https://www.moeshouse.com/products/wifi-smart-light-switch-diy-breaker-module-smart-life-tuya-app-remote-control-working-with-alexa-echo-google-home-2-gang-2-way-3
 ---
 Some devices labelled [Moes MS-104](unsupported/moes_MS-104) are using a wi-fi chip unsupported by Tasmota.
 
