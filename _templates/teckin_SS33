@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-19
+title: Teckin SS33
+model: FCC ID 2AQNX-SS33
+image: https://user-images.githubusercontent.com/5904370/72686357-1b240c80-3af4-11ea-9ed1-d99c10ec24ae.png
+template: '{"NAME":"Teckin SS31","GPIO":[0,0,0,23,56,57,0,0,21,17,22,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.ca/dp/B07YWLCHK9
+link2: https://www.amazon.com/TECKIN-Individual-Compatible-Waterproof-Certified/dp/B07YWJV4SZ
+mlink: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---
