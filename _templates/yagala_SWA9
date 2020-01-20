@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-21
+title: Yagala SWA9
+model: SWA9
+image: https://user-images.githubusercontent.com/5904370/72764394-32dcbd00-3be8-11ea-81dd-77b96f38a5ea.png
+template: '{"NAME":"SWA9","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B07RB6F36F
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---

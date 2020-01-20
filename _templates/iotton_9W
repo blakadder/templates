@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-20
+title: Iotton 9W 700lm
+model: 
+image: https://images-na.ssl-images-amazon.com/images/I/414vmIyC0eL._AC_SX679_.jpg
+template: '{"NAME":"Iotton Light","GPIO":[0,0,0,0,37,38,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07JZ4BVHL
+link2: 
+mlink: https://www.iotton.com/White-Bulb.html
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---
