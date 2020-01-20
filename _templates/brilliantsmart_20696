@@ -4,8 +4,8 @@ title: BrilliantSmart 20696 9W 900lm
 model: 20696/05
 image: https://user-images.githubusercontent.com/5904370/72683392-40eee880-3ad7-11ea-8694-52f35e5d6fad.png
 template: '{"NAME":"Brilliant20696","GPIO":[0,0,0,0,0,0,0,0,37,0,38,0,0],"FLAG":0,"BASE":48}' 
-link: https://www.jdlighting.com.au/brilliant-smart-white-9w-e27-led-cct-light-globe.html
-link2: 
+link: https://www.amazon.com.au/Brilliant-Smart-WiFi-Light-White/dp/B07YXCH8SY
+link2: https://www.jdlighting.com.au/brilliant-smart-white-9w-e27-led-cct-light-globe.html
 mlink: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-cct/
 flash: tuya-convert
 category: bulb
