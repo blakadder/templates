@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-20
+title: CE Smart Home LQ-2-W3
+model: FCC ID 2AMQ8-WIFI-008
+image: https://www.cesmarthome.com/assets/img/product_images/LA-2-W3/CE-Smart-Home-Outlet-LQ-2-W3-1.jpg
+template: '{"NAME":"LITESUN","GPIO":[0,0,0,0,157,17,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bestbuy.ca/en-ca/product/ce-smart-home-wi-fi-receptacle-2-pack/13491543
+link2: 
+mlink: https://www.cesmarthome.com/LA-2-W3.html
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: us
+---
+The remaining leds are not connected to any GPIO.  This configuration works exactly as the manufacturer describes the operation of the outlet including the wifi led flashing while connecting to wifi and solid blue once connected.
