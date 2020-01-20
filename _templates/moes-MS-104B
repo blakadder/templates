@@ -14,7 +14,7 @@ Some devices labelled [Moes MS-104](unsupported/moes_MS-104) are using a wi-fi c
 
 The device use frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip. At the moment you have to use a script to make it work with Tasmota. Script is not supported with precompiled binary (at least 6.6.0) so you have to compile your own fw. 
 
-Below two scripts which do something like switchmode4 and switchmode1. The script for switchmode4 is created by @thxthx0 and modified by me for switchmode1
+Below two scripts which do something like switchmode4 and switchmode1. The script for switchmode4 is created by @thxthx0, switchmode1 @caccia78 and @cHunter789
 
 SwitchMode1
 
@@ -24,99 +24,70 @@ sw1=0
 sw2=0
 cnt1=0
 cnt2=0
-timer1=0
-timer2=0
 pwr1=0
 pwr2=0
 
-
 >B
-=>print "WiFi 2-Gang Switch Script"
-
-
+=>print "WiFi - 2 relay / 2 switch"
 
 >F
-; Counter1/2 and Relay1/2 configured in template
+; Always reset counters - consider only counts in last 100ms
 cnt1=pc[1]
-cnt2=pc[2]
+->Counter1 0
 
-if chg[cnt1]>0
+cnt2=pc[2]
+->Counter2 0
+
+if cnt1>5
 then
-; counter1 has changed, switch is on, reset counter
+; counter1 has increased in last 100ms - check with >2 for debounce
 sw1=1
 else
-; no change switch is off
+; no counter incres --> switch is off
 sw1=0
 endif
 
-if chg[cnt2]>0
+if cnt2>5
 then
-; counter2 has changed, switch is on, reset counter
+; counter2 has increased in last 100ms - check with >2 for debounce
 sw2=1
 else
-; no change switch is off
+; no counter increas --> switch is off
 sw2=0
 endif
 
-; 100 ms timer for debounce
-timer1+=1
-timer2+=1
-
+; turn on the light if switches on
 if sw1==1
-and timer1>2
 and pwr1==0
-
 then
 =>Power1 1
 pwr1=1
 endif
 
-if sw1==0
-and timer1<=2
-and pwr1==1
-
-then
-=>Power1 0
-pwr1=0
-endif
-
-if sw1==0
-then
-timer1=0
-endif
-
 if sw2==1
-and timer2>2
 and pwr2==0
 then
 =>Power2 1
 pwr2=1
 endif
 
+;turn off the light if switches off
+if sw1==0
+and pwr1==1
+then
+=>Power1 0
+pwr1=0
+endif
+
 if sw2==0
-and timer2<=2
 and pwr2==1
 then
 =>Power2 0
 pwr2=0
 endif
 
-if sw2==0
-then
-timer2=0
-endif
 
->S
-; restart the device every sunday at 04:00
-; to avoid possible issues when increasing counters and variables
 
-if wday==1
-and hours==4
-and mins==0
-and secs==0
-then
-->Restart 1
-endif
 
 ```
 
