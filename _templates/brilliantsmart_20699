@@ -1,17 +1,17 @@
 ---
 date_added: 2019-11-18
-title: BrilliantSmart 20699 800lm 
+title: BrilliantSmart 20699 9W 800lm 
+model: 20699/05
 type: RGBW 
 category: bulb
 standard: b22
-link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
+flash: tuya-convert
+link: https://www.amazon.com.au/Brilliant-Smart-Colour-White-Globe/dp/B083139KLX
+mlink: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20699-1.jpg
 template: '{"NAME":"Brilliant20699","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
-Flashed with tuya-convert
-
 White LED:   
 PWM on GPIO12
 
