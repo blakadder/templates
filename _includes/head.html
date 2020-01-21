@@ -13,7 +13,7 @@
  Bulb
  {% endif %}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-  <meta name="description" content="Tasmota Template for {{ page.title | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="description" content="{% if page.title %}Configure {{ page.title | escape }}{% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%} Power Monitoring {% endif %} {{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %} to work with Tasmota firmware {% else %} {{ site.description | escape }} {% endif %}">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <meta name="keywords" content="tasmota templates tuya esp8266 flash esp8285 template gpio">  
@@ -21,16 +21,16 @@
   
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="{{ page.title | strip_html | normalize_whitespace | truncate: 160 | escape }} Tasmota Template">
-  <meta itemprop="description" content="How to configure {{ page.title }} to work with Tasmota firmware">
+  <meta itemprop="description" content="Configure {{ page.title }} to work with Tasmota firmware">
   <meta itemprop="image" content="http://user-images.githubusercontent.com/5904370/72764394-32dcbd00-3be8-11ea-81dd-77b96f38a5ea.png">
 
   <meta property="og:title" content="{{ page.title | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <meta property="og:description" content="How to configure {{ page.title }} to work with Tasmota firmware">
+  <meta property="og:description" content="Configure {{ page.title }} to work with Tasmota firmware">
   <meta property="og:image" content="{{ page.image }}">
   <meta property="og:url" content="href="{{ page.url | replace:'index.html','' | absolute_url }}">
 												 
   <meta name="twitter:title" content="{{ page.title | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-  <meta name="twitter:description" content="{% if page.title %}How to configure {{ page.title | escape }}{% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%} Power Monitoring {% endif %} {{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %} [{% assign standard_list = page.standard %}{% for item_standard in standard_list %}{{ item_standard | upcase }} {% endfor %}] to work with Tasmota firmware {% else %} {{ site.description | escape }} {% endif %}">
+  <meta name="twitter:description" content="{% if page.title %}Configure {{ page.title | escape }}{% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%} Power Monitoring {% endif %} {{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %} to work with Tasmota firmware {% else %} {{ site.description | escape }} {% endif %}">
   <meta name="twitter:image" content="{{ page.image }}">
   <meta name="twitter:card" content="summary_large_image">
   {% include styles.html %}
