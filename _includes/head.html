@@ -11,9 +11,19 @@
  {% if page.category contains 'bulb'%}
  Bulb
  {% endif %}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <meta name="description" content="{{ page.title | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <meta name="keywords" content="tasmota templates tuya esp8266 flash nodemcu firmware help installation open source flash">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta property="og:title" content="{{ page.title | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ page.image }}">
+  <meta property="og:url" content="href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <meta name="twitter:title" content="{{ page.title | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:image" content="{{ page.image }}">
+  <meta name="twitter:card" content="summary_large_image">
   {% include styles.html %}
 
   {% if site.google_analytics and jekyll.environment == 'production' %}
