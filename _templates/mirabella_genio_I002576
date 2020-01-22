@@ -1,0 +1,41 @@
+---
+date_added: 2020-01-22
+title: Mirabella Genio I002576 Motion
+model: HKWL-MS03W
+image: https://user-images.githubusercontent.com/5904370/72879154-a07a0d80-3cfc-11ea-99f6-38b2dd2f0cd1.png
+template: '{"NAME":"GenioPir","GPIO":[17,107,0,108,0,0,0,0,0,56,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-motion-sensor/2622811
+link2: 
+mlink: https://mirabellagenio.net.au/
+flash: tuya convert while usb powered
+category: misc
+type: Sensor
+standard: au
+---
+```console
+SetOption19 1
+SetOption66 1
+TuyaMCU 11,8
+TuyaMCU 51,20
+```
+
+Setting reporting rules: 
+```console
+Rule1 ON TuyaReceived#cmndData DO Publish KitchenPir/tele/PirSensor %value%_sensor_Triggered ENDON
+```
+
+![image](https://user-images.githubusercontent.com/5904370/72878863-0b771480-3cfc-11ea-9397-efb976c75e9a.png)
+
+In Home Assistant you can then interpret the values:
+Tamper Switch: ‘6801000101’
+ReedSwitch triggered: ‘6501000100’
+Reed Switch multitrigger ‘6501000101’
+Not sure: ‘6601000100’ (is usually combined with reeds switch data i.e. 65010001006601000100)
+
+Battery status indicator: ‘670200040000005F’ (67020004000000xx suspected because it only shows up in traffic when on battery power)
+
+This is usually encaptulated in the return packet as
+Command/Data stream/Checksum
+Checksum
+55AA0005000A 6501000100 6601000100 DD (Powered Sample)
+55AA00050017 6501000101 6702000400000064 6601000101 6801000101 28 (Battery Sample)
