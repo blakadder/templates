@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-21
+title: Gousund WP9
+model: Gosund-WP9-10A
+image: https://user-images.githubusercontent.com/5904370/72855872-3e4be900-3cb9-11ea-9d9e-f39fa79da072.png
+template: '{"NAME":"Gosund WP9","GPIO":[56,55,54,53,0,21,0,0,23,24,22,0,17],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Gosund-Protector-Controlled-Individually-Required/dp/B07P65GJS1
+link2: https://www.amazon.com/Gosund-Outlets-Protector-Charging-Extender/dp/B07TS2GZCJ
+mlink: https://www.gosund.com/download/smart_power_strip/135.html
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---
