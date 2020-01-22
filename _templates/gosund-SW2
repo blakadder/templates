@@ -21,7 +21,7 @@ Minimum dimming level may vary by light fixture - adjust the ‘off’ value to 
 
 ```lua
 >D 100
-rng=0xff
+rng=235
 dimh=""
 slider=0
 power=0
@@ -48,8 +48,8 @@ if slider>0 and dimval!=slider
 then
 dimval=slider
 =#scDim(dimval)
-endif
 =>SerialSend5 %dimh%
+endif
 endif
 
 if pwr[1]!=power
@@ -71,7 +71,7 @@ then
 b=sb(a -8 1)
 c=sb(a -7 1) 
 a=""
-;convert the first nibble to decimal – max value is 0x60
+;convert the first nibble to decimal – max value is 0x60
 f=b
 f*=16
 ;handle second nibble which may be 0x0-0xf
