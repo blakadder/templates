@@ -1,0 +1,19 @@
+---
+date_added: 2020-01-22
+title: Hyleton 314
+model: hyleton-315
+image: https://i.postimg.cc/fyCNCYQW/20200122-173724.jpg
+template: '{"NAME":"hyleton-314","GPIO":[57,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.wish.com/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: uk
+---
+I don't know whether this is a genuine product or not.  On the outside it looks like a Hyleton 315 and the model is shown as hyleton-315.  Inside the case, though, it indicates hyleton-314, and the GPIO assignments do not correspond to the Hyleton 315.  The internals, and particularly the WiFi module look very similar to the Hyleton 313.
+
+I have converted one of these to Tasmota via serial connection, and one of them with tuya-convert.
+
+The GPIO assignments are: 0 - red led inverted, 2 - blue led inverted, 15 - relay, 13 - button."
