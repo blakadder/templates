@@ -1,11 +1,12 @@
 ---
 date_added: 2020-01-23
-title: XCSOURCE® Magic UFO LD382
+title: Magic UFO RGBW
 model: 26-011-945
 image: https://user-images.githubusercontent.com/5904370/72972842-6d9f4a80-3dcc-11ea-8a4c-97305f9a4434.png
 template: '{"NAME":"Magic UFO","GPIO":[17,0,157,0,0,37,0,0,39,40,38,56,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B00Q7STR4E
-link2: https://www.amazon.com/XCSOURCE-Controller-Android-Smartphones-Control/dp/B00Q6C6GS6
+link2: https://www.aliexpress.com/item/32878373193.html
+link3: https://www.amazon.com/XCSOURCE-Controller-Android-Smartphones-Control/dp/B00Q6C6GS6
 mlink: 
 flash: serial
 category: light
