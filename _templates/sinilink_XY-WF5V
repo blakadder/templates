@@ -1,0 +1,13 @@
+---
+date_added: 2020-01-24
+title: Sinilink XY-WF5V Switch Module
+model: 
+image: https://user-images.githubusercontent.com/5904370/72753264-b684b280-3bc4-11ea-9051-3d4c1b76dda6.png
+template: '{"NAME":"Sinilink XY-WF5V","GPIO":[0,0,0,0,21,255,0,0,17,52,0,0,255],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000111899355.html
+mlink: https://www.alibaba.com/product-detail/Sinilink-WIFI-mobile-phone-remote-control_62357498833.html
+flash: serial
+category: switch
+type: Relay
+standard: global
+---
