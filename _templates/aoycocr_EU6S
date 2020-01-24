@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-24
+title: Aoycocr EU6S
+model: 
+image: https://user-images.githubusercontent.com/5904370/73104565-eef2fc00-3ef6-11ea-9c28-7abc337e9d32.png
+template: '{"NAME":"Aoycocr EU6S","GPIO":[255,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":17}' 
+link: https://www.amazon.de/Intelligente-Aoycocr-Stromverbrauch-funktioniert-Fernsteurung/dp/B07TC36WVH
+link2: 
+mlink: http://en.hysiry.com/case_view.aspx?TypeId=128&Id=396&FId=t4:128:4
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
