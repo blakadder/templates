@@ -18,7 +18,12 @@ template: '{"NAME":"Sonoff S26","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLA
 link2: https://www.amazon.com/Sonoff-Wireless-control-Compatible-Anywhere/dp/B07DDGVC7B/
 mlink: https://www.itead.cc/smart-home/smart-socket.html
 ---
-Sonoff S26 comes in 6 plug type variants. Flashing process will be the same for each type.
+Alternative template where the blue LED lights up only in case of connection issues and on button actions:
+```console
+{"NAME":"Sonoff S26","GPIO":[17,255,255,255,0,0,0,0,21,158,0,0,0],"FLAG":0,"BASE":8}
+```
+
+Sonoff S26 comes in almost every plug type variant. Flashing process will be the same for each type.
 ## Serial Flashing
 
 Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
