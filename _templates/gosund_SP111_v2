@@ -1,20 +1,17 @@
 ---
-date_added: 2019-11-07
-title: Gosund SP111 v2
+date_added: 2020-01-25
+title: Gosund SP111 v1.1
 category: plug
 type: Plug
 standard: eu
-link: https://www.amazon.de/dp/B07PRF28SR
-image: https://m.media-amazon.com/images/S/aplus-seller-content-images-us-east-1/A1PA6795UKMFR9/AP1KRSUMUNTSI/2c2392eb-0188-4ce4-a20b-ad8131b7e743._CR0,0,300,300_PT0_SX300__.jpg
-template: '{"NAME":"Gosund SP111 2","GPIO":[57,0,56,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
-link2: 
+image: https://user-images.githubusercontent.com/5904370/73123255-5a3bdd00-3f8e-11ea-9681-4f81d7a2cc57.png
+template: '{"NAME":"Gosund SP111 2","GPIO":[56,0,158,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
+link: https://www.amazon.fr/Gosund-Compatible-contr%C3%B4lez-appareils-%C3%A9lectrom%C3%A9nagers/dp/B07ZS97KL1
+link2: https://www.amazon.de/Steckdosen-Gosund-erforderlich-Stromverbrauch-Fernsteurung/dp/B082XR5C6J
+
 mlink: https://www.gosund.store/products/wi-fi-smart-plug-sp111-only-for-europe
 ---
+This layour is for PCB marked as "SP111_A_Wifi_Ver1.1"
 
-New Hardware Version - HLWBL CF1 (132) moved from GPIO14 to GPIO4
-
-
-
-
-
-
+### Pinout
+![Pinout](https://user-images.githubusercontent.com/5904370/73123199-b4886e00-3f8d-11ea-8b5e-e850efaa603f.png)
