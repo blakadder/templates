@@ -1,6 +1,6 @@
 ---
 date_added: 2020-01-07
-title: LerLink X801A-L
+title: LerLink X801A-L No Neutral
 model: 
 image: https://user-images.githubusercontent.com/5904370/71936232-20ef2900-31a9-11ea-8516-155c24602748.png
 template: '{"NAME":"LerLink X801-L","GPIO":[0,0,0,0,17,0,0,0,21,56,0,0,0],"FLAG":15,"BASE":18}' 

@@ -1,0 +1,17 @@
+---
+date_added: 2020-01-25
+title: LerLink X802A-L No Neutral
+model: 
+image: https://user-images.githubusercontent.com/5904370/73125323-e0175280-3fa5-11ea-9c63-704a035bdb24.png
+template: '{"NAME":"LerLink X802-L","GPIO":[0,0,0,18,17,0,0,0,21,158,22,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000424217817.html
+link2: 
+mlink: https://www.lerlink.com/productinfo/1024784.html?templateId=1133605
+flash: serial
+category: switch
+type: Switch
+standard: 
+  - eu
+  - uk
+---
+2 Gang No-Neutral switch which fits UK walls. Push button instead of glass panel.

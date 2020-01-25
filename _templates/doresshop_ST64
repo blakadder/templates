@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-25
+title: DORESshop ST64 720lm Vintage Filament 
+model: E26-8W-Double
+image: https://user-images.githubusercontent.com/5904370/73125266-45b70f00-3fa5-11ea-8291-04b48bda92f7.png
+template: '{"NAME":"DORESshop-ST64","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07WWZY676
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: WW
+standard: e26
+---

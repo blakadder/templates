@@ -1,0 +1,16 @@
+---
+date_added: 2020-01-25
+title: Lonsonho SK3-03
+model: Wi-Fi-SK3-03
+image: https://user-images.githubusercontent.com/5904370/73125140-bf4dfd80-3fa3-11ea-8752-0747c837039d.png
+template: '{"NAME":"ID Components","GPIO":[0,0,0,0,21,18,0,0,19,23,17,22,157],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32996591441.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: 
+  - us
+  - au
+---
