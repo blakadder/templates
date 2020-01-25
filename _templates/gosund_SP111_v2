@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: eu
 image: https://user-images.githubusercontent.com/5904370/73123255-5a3bdd00-3f8e-11ea-9681-4f81d7a2cc57.png
-template: '{"NAME":"Gosund SP111 2","GPIO":[56,0,158,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
+template: '{"NAME":"SP111 v1.1","GPIO":[56,0,158,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
 link: https://www.amazon.fr/Gosund-Compatible-contr%C3%B4lez-appareils-%C3%A9lectrom%C3%A9nagers/dp/B07ZS97KL1
 link2: https://www.amazon.de/Steckdosen-Gosund-erforderlich-Stromverbrauch-Fernsteurung/dp/B07ZS97KL1
 link3: https://www.amazon.de/Steckdosen-Gosund-erforderlich-Stromverbrauch-Fernsteurung/dp/B082XR5C6J
