@@ -8,6 +8,7 @@ flash: tuya-convert
 link: https://www.aliexpress.com/item/4000037118300.html
 image: https://ae01.alicdn.com/kf/H78e70230d8d149cdb0312ed2ae0ffa6em.jpg
 template: '{"NAME":"BSD34 Plug","GPIO":[0,0,0,0,0,0,0,0,21,17,56,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link2:
+mlink: https://www.alibaba.com/product-detail/BSD34-European-Standard-Alexa-Smart-Socket_62219294836.html
 ---
-Added GPIOs for BL0937
+
