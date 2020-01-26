@@ -6,7 +6,7 @@ category: switch
 type: Relay
 standard: global
 image: https://user-images.githubusercontent.com/5904370/73099948-d2ea5d00-3eec-11ea-872d-06038993f25d.png
-template: '{"NAME":"LC-Tech_4CH ","GPIO":[52,0,17,0,0,0,0,0,21,22,23,24,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"LC-Tech_2CH ","GPIO":[52,0,17,0,0,0,0,0,21,22,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/af/esp%25252d01-2-channel.htm
 link2: https://www.banggood.com/5V-ESP8266-Dual-WiFi-Relay-Module-Internet-Of-Things-Smart-Home-Mobile-APP-Remote-Switch-p-1270421.html
 link3: https://www.amazon.com/WINGONEER%C2%AE-2-Channel-WiFi-Relay-Module/dp/B07H4H4MPK
