@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-26
+title: Maxonar Lightstrip Pro XS-SLD001
+model: XS-SLD001
+image: https://user-images.githubusercontent.com/5904370/73145285-070c7c00-40ad-11ea-8b19-74f79e40fa34.png
+template: '{"NAME":"Maxonar LED","GPIO":[0,0,0,0,0,37,0,0,39,17,38,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Maxonar-Multicolor-Waterproof-Wireless-Controlled/dp/B075FRFBKG
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Controller
+standard: us
+---

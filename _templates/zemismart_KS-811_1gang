@@ -10,7 +10,7 @@ mlink: https://www.zemismart.com/zemismart-au-wifi-wall-push-light-switch-alexa-
 image: https://www.zemismart.com/u_file/1903/products/06/743965c8ea.jpg
 template: '{"NAME":"KS-811 Single","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07P6VTVBM/
-link2: 
+link2: https://www.amazon.com.au/Zemismart-Compatible-Assistant-Incandescent-Required/dp/B07P6VTVBM
 ---
 
 New from Factory (Feb '19) has patched firmware blocking Tuya-Convert

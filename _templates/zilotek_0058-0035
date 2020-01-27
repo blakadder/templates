@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-26
+title: Zilotek A19 800lm
+model: 358-1000
+image: https://user-images.githubusercontent.com/5904370/73144966-f955f700-40aa-11ea-8951-438f4157d6d9.png
+template: '{"NAME":"Zilotek RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.menards.com/main/0058-0035/p-1533709774235.htm
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---
