@@ -1,6 +1,6 @@
 ---
 date_added: 2020-01-27
-title: Globe Smart Plug 50020
+title: Globe 50020 2 Outlet
 model: FCC ID 2AQUQGE50020
 image: https://user-images.githubusercontent.com/5904370/73174440-0bb24e00-4108-11ea-861d-f68e197fce1f.png
 template: '{"NAME":"Globe 50020","GPIO":[0,158,0,57,18,17,0,0,21,56,22,0,0],"FLAG":0,"BASE":18}' 
