@@ -1,7 +1,7 @@
 ---
 date_added: 2020-01-09
 title: SA-P402A
-model: https://user-images.githubusercontent.com/5904370/72070003-c65ce680-32e8-11ea-885a-938a85ca1d40.png
+image: https://user-images.githubusercontent.com/5904370/72070003-c65ce680-32e8-11ea-885a-938a85ca1d40.png
 template: '{"NAME":"SA-P402A","GPIO":[0,17,0,56,23,25,21,24,22,0,0,1,0],"FLAG":1,"BASE":18}'
 link: https://www.aliexpress.com/item/33020336200.html
 link2: 
