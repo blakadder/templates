@@ -8,7 +8,7 @@ link: https://www.costco.ca/ce-smart-home-3-way-wi-fi-dimmer-light-switch%2C-2-p
 link2: 
 mlink: https://www.cesmarthome.com/CFW500D-3W.html
 flash: tuya-convert
-category: light
+category: switch
 type: Dimmer
 standard: us
 ---
