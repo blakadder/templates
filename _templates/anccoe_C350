@@ -1,11 +1,12 @@
 ---
 date_added: 2019-12-11
-title: Anccoe C350 RGB
+title: Anccoe C350 RGB 
 image: https://user-images.githubusercontent.com/5904370/73259314-cead9080-41c7-11ea-95e9-14a7f052030d.png
 template: '{"NAME":"TUYA LED","GPIO":[0,0,0,0,0,38,0,0,39,17,37,0,0],"FLAG":0,"BASE":18}'
 link: https://www.banggood.com/Bakeey-Tuya-Smart-Life-Wifi-Dimmer-Smart-Light-Strip-Controller-RGB-4-Pins-Smart-Home-Automaiton-Wireless-Remote-Control-Alexa-Google-Home-p-1621802.html
 link2: https://www.ebay.co.uk/itm/TUYA-WiFi-Wireless-LED-RGB-RGBW-Controller-IOS-Android-APP-for-Alexa-Google-Home/183942198088
-mlink: https://anncoe.en.alibaba.com/productgrouplist-814975896/LED_strip_controller.html
+link3: https://anncoe.en.alibaba.com/productgrouplist-814975896/LED_strip_controller.html
+mlink: http://www.anncoe.com/en/showpro.asp?id=290&lb=5
 flash: tuya-convert
 category: light
 type: LED Controller
