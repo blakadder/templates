@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-27
+title: SwissTone SH 100
+model: 
+image: https://user-images.githubusercontent.com/5904370/73256639-8fc90c00-41c2-11ea-86c5-fa9397770293.png
+template: '{"NAME":"SwissTone","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/Swisstone-100-WiFi-Steckdose-Sprachsteuerbar-Kindersicherung-weiß/dp/B07GD3WKVL
+link2: https://www.amazon.co.uk/Swisstone-SH-100-Smart-Socket-Recognition-White/dp/B07GD3WKVL
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
