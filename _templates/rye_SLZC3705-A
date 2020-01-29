@@ -1,0 +1,19 @@
+---
+date_added: 2020-01-28
+title: RYE 5W 450LM Candle
+model: SLZC3705-A
+image: https://images-na.ssl-images-amazon.com/images/I/611vlf9EuXL._SL1500_.jpg
+template: '{"NAME":"RYE Candlebra","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Candelabra-Daylight-Equivalent-Compatible-Assistant/dp/B07Q3PYGN3
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e12
+---
+The Manufacturer's Letter of Declaration to FCC states:  
+
+"We, Shenzhen Bling Lighting Technologies CO.,LTD hereby declare that our product (Smart WIFI Lamp) Model Number: SQPA6005-A, SQPA6007-A, SQPA6009-A, SQPA6012-A, SQPA6015-A, SQPA6005-B, SQPA6007-B, SQPA6009-B, SQPA6012-B, SQPA6015-B, SQPB3010-A, SQPB3010-B, SQPG4503-A, SQPG4505-A, SQPG8007-A, SQPG8010-A, SQPG8012-A, SQPG9510-A, SQPG9512-A, SQPG12012-A, SQPG12015-A, SLZC3703-A, SLZC3705-A, SLZC3707-A, SSDM1603-A, SSDM1605-A, SSDM1607-A, SSDG1003-A, SSDG1005-A, SSDG1007-A, SQT001-A, SQT002-A, SQT003-A, SQT004-A, SQT005-A, SQT006-A board, Schematic, Hardware version, Software version, structure and internal photos are same, named differently due to marketing purposes."
+
+So it's likely this template will work for any of the listed bulbs.

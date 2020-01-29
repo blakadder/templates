@@ -7,8 +7,7 @@ template: '{"NAME":"PC-WKS Kettle","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG"
 link: https://www.amazon.de/Wasserkocher-kostenlose-programmierbare-Temperaturregelung-Edelstahlgeh%C3%A4use/dp/B07PQPZ8HH
 link2: https://www.conrad.com/p/profi-cook-pc-wks-1167-g-tea-maker-stainless-steel-glass-1974778
 mlink: https://www.proficook.de/products/en/New-products/PC-WKS-1167G-Glass-tea-kettle.html
-flash: serial
-flash2: tuya-convert
+flash: tuya-convert
 category: misc
 type: Kettle
 standard: eu
@@ -26,10 +25,10 @@ When flashing using tuya-convert press and hold 45°C button for 5 seconds to en
 It is required to send a 101,6 command if you want to switch form one temperature to another. 
 
 The state of the kettle is stored under DpId 106 Datafield (DpIdData)
-Datafield 01 means kettle removed
-Datafield 02 means kettle placed on base (idle state)
-Datafield 03 means heating
-Datafield 05 means maintaining selected temperature
+- Datafield 01 means kettle removed
+- Datafield 02 means kettle placed on base (idle state)
+- Datafield 03 means heating
+- Datafield 05 means maintaining selected temperature
 
 The temperature of the water is reported via DpId 105 Datafield (hex!) 
 

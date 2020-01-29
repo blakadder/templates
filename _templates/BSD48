@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-28
+title: BSD48 16A
+model: 
+image: https://user-images.githubusercontent.com/5904370/73382516-f3892d00-42c7-11ea-9eb0-9f665fe3dd3c.png
+template: '{"NAME":"BSD48 Plug","GPIO":[0,52,0,0,0,0,0,0,21,17,57,0,0],"FLAG":0,"BASE":18}' 
+link: https://shopee.com.my/product/140848814/2810009069
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---
