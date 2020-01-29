@@ -7,7 +7,7 @@ type: Relay
 standard: global
 link: aliexpress.com/item/4000333913380.html
 image: https://user-images.githubusercontent.com/5904370/73393485-09085200-42dc-11ea-9e6d-fad473167f73.png
-template: '{"NAME":"LC-Tech_4CH ","GPIO":[52,255,17,255,0,0,0,0,21,22,23,24,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"LC-ESP12-1R-MV","GPIO":[255,255,157,255,255,21,255,255,255,255,255,255,57],"FLAG":15,"BASE":18}' 
 link2: https://www.banggood.com/ESP-12F-ACDC-Power-Supply-ESP8266-AC90-250VDC7-12VUSB5V-WIFI-Single-Relay-Module-Development-Board-p-1619454.html
 mlink: http://www.chinalctech.com/m/view.php?aid=472
 ---
