@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-30
+title: Deta 6000HA Smart Inline Switch
+model: 9311644094623
+image: https://user-images.githubusercontent.com/5904370/73432143-659e5800-4342-11ea-9a88-3d4334c151b2.png
+template: '{"NAME":"DETA-6000HA","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.co.nz/deta-smart-inline-switch-with-grid-connect_p0098816
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Relay
+standard: au
+---
+![](https://user-images.githubusercontent.com/5904370/73432174-777ffb00-4342-11ea-982e-31b3a1413551.png)
