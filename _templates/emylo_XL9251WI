@@ -4,6 +4,7 @@ title: eMylo XL9251WI
 category: switch
 type: Relay
 standard: global
+flash: tuya-convert, serial
 link: https://www.amazon.fr/dp/B07DXZNR22
 image: https://user-images.githubusercontent.com/176794/73483412-ad9f9800-439f-11ea-89b0-0b74d8448ba1.jpg
 template: '{"NAME":"XL9251WI","GPIO":[0,255,0,255,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
