@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-30
+title: eMylo XL9251WI
+category: switch
+type: Relay
+standard: global
+link: https://www.amazon.fr/dp/B07DXZNR22
+image: https://user-images.githubusercontent.com/176794/73483412-ad9f9800-439f-11ea-89b0-0b74d8448ba1.jpg
+template: '{"NAME":"XL9251WI","GPIO":[0,255,0,255,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
+---
+
+I have bricked two of them using tuya convert, I finally flashed using serial method, here is the pinout.
+
+![pinout](https://user-images.githubusercontent.com/176794/73483004-06226580-439f-11ea-9d26-5d2e8ae0bee6.png)
+
