@@ -1,0 +1,18 @@
+---
+date_added: 2020-01-30
+title: Sonoff D1
+category: light
+type: Dimmer
+standard: global
+mlink: https://www.itead.cc/smart-home/sonoff-d1-smart-dimmer-switch.html
+image: https://user-images.githubusercontent.com/176794/73482309-c5761c80-439d-11ea-8852-aeaf1ba13a61.jpg
+template: '":[0,0,0,0,0,0,0,0,37,0,0,0,0],"FLAG":0,"BASE":1}' 
+---
+## Serial Flashing
+Please see the [Hardware Preparation](Hardware-Preparation) page for general instructions.
+
+![](https://user-images.githubusercontent.com/176794/73481870-f6098680-439c-11ea-864d-35fead3deb92.jpg?raw=true)
+![](https://user-images.githubusercontent.com/176794/73481873-f6098680-439c-11ea-9ed7-ba427f2f648c.jpg?raw=true)
+![](https://user-images.githubusercontent.com/176794/73481875-f6a21d00-439c-11ea-92f6-d13ea2832abd.jpg?raw=true)
+![](https://user-images.githubusercontent.com/176794/73481876-f6a21d00-439c-11ea-80cf-faa2785c5095.jpg?raw=true)
+
