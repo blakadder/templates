@@ -4,6 +4,7 @@ title: Sonoff D1
 category: light
 type: Dimmer
 standard: global
+flash: serial
 mlink: https://www.itead.cc/smart-home/sonoff-d1-smart-dimmer-switch.html
 image: https://user-images.githubusercontent.com/176794/73482309-c5761c80-439d-11ea-8852-aeaf1ba13a61.jpg
 template: '":[0,0,0,0,0,0,0,0,37,0,0,0,0],"FLAG":0,"BASE":1}' 
