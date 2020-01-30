@@ -6,12 +6,24 @@ image: https://user-images.githubusercontent.com/5904370/71512590-3904a580-2897-
 template: '{"NAME":"SC500W","GPIO":[0,0,0,158,9,10,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.aliexpress.com/item/4000241037954.html
 mlink: https://www.loratap.com/sc500w-p0108.html
-flash: tuya-convert
+flash: [tuya-convert, serial]
 category: switch
 type: Relay
 standard: eu
 ---
-The following commands should be issued: 
+Using this template turns the unit into a simple 2-gang switch (eg. like a Sonoff Dual, but with extra connections to a 2-gang wall switch).
+
+To operate the unit as a roller shutter switch , the following commands should be issued: 
 * switch on `Interlock` 
 * set the switches to follow and inverse `SwitchMode1 2` and `SwitchMode2 2`. Have a look at [https://tasmota.github.io/docs/#/Buttons-and-Switches?id=switchmode]
 * set the shutter runtime with `PulseTime1 <time in sec+100>` and `PulseTime2 <time in sec+100>`. Have a look at [https://tasmota.github.io/docs/#/Commands?id=pulsetime]
+
+### Serial Flashing
+It is possible to flash the unit also by the traditional method using an USB-TTL adapter. The pad named IOO on the back of the ESP module has to be connected to GND during the flash procedure.
+Successfully flashed using Tasmotizer.
+
+![](https://i.ibb.co/TWzBrT5/Lora-Tap-SC500-W-1.jpg)
+![](https://i.ibb.co/bbcKNjd/Lora-Tap-SC500-W-2.jpg)
+![](https://i.ibb.co/0DFYhTF/Lora-Tap-SC500-W-3a.jpg)
+![](https://i.ibb.co/w4hxfXV/Lora-Tap-SC500-W-4.jpg)
+![](https://i.ibb.co/kSVchVs/Lora-Tap-SC500-W-5a.jpg)
