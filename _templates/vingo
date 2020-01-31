@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-31
+title: Vingo 
+model: 
+image: https://user-images.githubusercontent.com/5904370/73568334-7d6ffc00-4468-11ea-8b62-edb6456f3494.png
+template: '{"NAME":"Karpal-01","GPIO":[0,0,0,0,0,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B08369H4P9
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
