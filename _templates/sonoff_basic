@@ -68,6 +68,8 @@ _(Image re-used from https://www.instructables.com/id/Use-Homie-Firmware-to-Driv
 
 ![gpio 14](http://evertdekker.com/wp/wp-content/gallery/sonoff/p1010285.jpg)
 
+Note: Starting Tasmota v7.2.0, in order to obtain long-term reliablity with Sonoff Basic R1 and Sonoff Basic R2, it is recommended to use it with **tasmota-lite.bin**.
+
 ## Official Sources
 * [Itead Product Page](http://sonoff.itead.cc/en/products/sonoff/sonoff-basic)
 * [Itead Shop](https://www.itead.cc/sonoff-wifi-wireless-switch.html)
