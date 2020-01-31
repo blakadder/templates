@@ -29,3 +29,5 @@ If you want the green wifi led to work, please use version 6.4.1.8+. You can eit
 ## PCB serial pinouts (back)
 ![image37071](https://user-images.githubusercontent.com/947665/54786666-bd037000-4c29-11e9-9ff4-9d6fd0b78a98.png)
 ( Note: Same PCB as OBI Socket IP44 (Black) ) 
+
+Note: some users reported lately that recent OBI Socket 2s work unreliably. The unit randomly reboots after switching - this is likely a hardware issue. There are various experiments to improve this, but if you don't get any succes with it, you can successfully replace the whole board in the casing with a Sonoff Mini. See https://github.com/arendst/Tasmota/issues/4829#issuecomment-563106700
