@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-31
+title: Geeni Outdoor DUO Dual Outlet
+model: GN-OW102 or GNC-OW102
+image: https://user-images.githubusercontent.com/5904370/73533547-648f2880-441f-11ea-8c20-2218db205bf0.png
+template: '{"NAME":"Geeni Dual Out","GPIO":[17,0,0,0,0,57,0,0,0,56,21,0,22],"FLAG":0,"BASE":18}' 
+link2: https://www.canadiantire.ca/en/pdp/geeni-outdoor-duo-2-outlet-smart-plug-0529317p.html#srp
+link: https://www.amazon.com/Geeni-Weatherproof-Compatible-Assistant-Microsoft/dp/B07SQB5PKQ/
+mlink: https://mygeeni.com/collections/power/products/outdoor-duo-dual-outlet-smart-wi-fi-plug-grey
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: us
+---
