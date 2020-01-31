@@ -4,7 +4,7 @@ title: TP24
 category: plug
 type: Plug
 standard: uk
-link: http://s.click.aliexpress.com/e/npnhahW0
+link: https://www.aliexpress.com/af/tp24-smart-plug.html
 image: http://www.sowye.com/wp-content/uploads/2018/11/TP24.png
 template: '{"NAME":"TP24","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 mlink: http://www.sowye.com/smart-plug-tp24/
