@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-31
+title: Aisirer SWA11
+model: SWA11
+image: https://images-na.ssl-images-amazon.com/images/I/5148X425mYL._SL1001_.jpg
+template: '{"NAME":"SWA11","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.fr/AISIRER-Intelligente-Programmable-T%C3%A9l%C3%A9command%C3%A9e-%C3%A9nerg%C3%A9tique/dp/B07QL6LQJZ/
+link2: https://www.ebay.fr/itm/Prise-Connectee-Wifi-Compatible-avec-Android-iOS-Amazon-Alexa-Google-Assistant-/274060835660
+mlink: https://www.iaisirer.com/fr/Prise-Connect%C3%A9e-2-Pack.html
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
