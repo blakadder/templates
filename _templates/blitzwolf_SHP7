@@ -11,3 +11,7 @@ link2: https://www.aliexpress.com/item/4000210681347.html
 mlink: https://www.blitzwolf.com/3680W-EU-Dual-WiFi-Smart-Socket-p-380.html
 ---
 
+Alternative template (assignments according to factory firmware):
+```json
+{"NAME":"SHP7 v2","GPIO":[18,158,56,131,134,132,0,0,17,57,21,0,22],"FLAG":0,"BASE":45}
+```
