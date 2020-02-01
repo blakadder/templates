@@ -11,10 +11,4 @@ link2:
 mlink: https://www.iaisirer.com/uk/Smart-Plug-1-Pack.html
 ---
 
-
-
-
-
-
-
-
+This model has different GPIO assignments since January 2020. See the [new template](aisirer_JH-G01B_v2).

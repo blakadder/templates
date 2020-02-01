@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-01
+title: Aisirer JH-G018 v2
+model: 
+image: https://user-images.githubusercontent.com/5904370/73591329-979fed80-44ed-11ea-8c84-16a9d3adc5c7.png
+template: '{"NAME":"AISIRER JH-G01","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B07Y53MBGN
+link2: 
+mlink: https://www.iaisirer.com/uk/Smart-Plug-1-Pack.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---
+Bought in January 2020
