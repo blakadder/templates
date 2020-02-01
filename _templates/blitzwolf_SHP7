@@ -6,7 +6,8 @@ type: Plug
 standard: eu
 link: https://www.banggood.com/BlitzWolf-BW-SHP7-16A-2-IN-1-Dual-EU-Plug-Smart-WIFI-Socket-Independent-Remote-Controller-Electricity-Statistics-Home-Light-Switch-Timer-p-1553614.html
 image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201908/1566443922_26.jpg
-template: '{"NAME":"SHP7","GPIO":[17,158,57,131,134,132,0,0,18,56,21,0,22],"FLAG":0,"BASE":45}' 
+template: '{"NAME":"SHP7","GPIO":[17,158,57,131,134,132,0,0,18,56,21,0,22],"FLAG":0,"BASE":45}'
+template2: '{"NAME":"SHP7 v2","GPIO":[18,158,56,131,134,132,0,0,17,57,21,0,22],"FLAG":0,"BASE":45}'
 link2: https://www.aliexpress.com/item/4000210681347.html
 mlink: https://www.blitzwolf.com/3680W-EU-Dual-WiFi-Smart-Socket-p-380.html
 ---
