@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-02
+title: Aoycocr U2S
+model: 
+image: https://user-images.githubusercontent.com/5904370/73613305-6bbb5f80-45f4-11ea-8a25-e9746afd0a5e.png
+template: '{"NAME":"Aoycocr U2S","GPIO":[56,0,57,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+link: https://www.amazon.co.uk/gp/product/B082PJ4QQB
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---
+The U2S appears to be a clone of the Teckin SP23. HYS-U1S-SOCKET-V1.3
