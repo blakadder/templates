@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-03
+title: MagicHome RGBW ESP-IR-B-v2.3
+model: ESP-IR-B-v2.3
+image: https://user-images.githubusercontent.com/5904370/73642118-6b14de80-4671-11ea-9138-99af8eb3ccd9.png
+template: '{"NAME":"ESP-IR-B-v2.3","GPIO":[0,0,51,0,0,38,0,0,37,39,0,40,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B0772TB9L4
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
