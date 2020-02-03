@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-03
+title: iClever IC-BS06
+model: 
+image: https://user-images.githubusercontent.com/5904370/73641845-ecb83c80-4670-11ea-8b6b-fb64e251397b.png
+template: '{"NAME":"iClever Switch","GPIO":[0,0,0,0,157,56,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.com/iClever-IC-BS06-Christmas-Assistant-Wirecutters/dp/B078TW292H
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---
