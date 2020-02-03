@@ -3,7 +3,7 @@ date_added: 2020-01-26
 title: Luminea ZX-2986 1400lm
 model: ZX-2986-919  
 image: https://user-images.githubusercontent.com/5904370/73145007-3621ee00-40ab-11ea-8993-a457a43673ac.png
-template: '{"NAME":"Luminea RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"Luminea RGBW","GPIO":[0,0,0,0,37,41,0,0,0,38,39,40,0],"FLAG":0,"BASE":18}' 
 link: https://www.pearl.de/a-ZX2986-3103.shtml
 link2: https://www.amazon.de/Luminea-Home-Control-WiFi-Lampen-Alexa/dp/B081K713YJ
 mlink: https://www.luminea.info/WiFi-LED-Lampe-RGBW-1400-Lumen-kompatibe-ZX-2986-919.shtml
