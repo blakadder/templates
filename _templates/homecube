@@ -1,0 +1,17 @@
+---
+date_added: 2020-02-03
+title: Homecube Blinds and Curtains
+model: 
+image: https://user-images.githubusercontent.com/5904370/73696238-28d4b700-46dc-11ea-9142-f15f420768a8.png
+template: '{"NAME":"Jinvoo Curtain","GPIO":[52,0,0,18,22,19,0,0,17,21,0,23,0],"FLAG":1,"BASE":18}' 
+link: https://www.amazon.de/Zeitschaltuhr-Homecube-Rolladenschalter-Jalousien-Fernbedienung/dp/B07W917XQM
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: Switch
+standard: eu
+---
+Use the same setting like "Jinvoo SM-SW101-C Curtain Switch " including all options
+
+![image](https://user-images.githubusercontent.com/5904370/73696184-02168080-46dc-11ea-8730-a83e031f61b5.png)
