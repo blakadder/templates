@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-04
+title: Mirabella Genio 9W 800lm
+model: P_42707981
+image: https://user-images.githubusercontent.com/5904370/73791003-cf36c000-47a1-11ea-9307-eafccfb3237a.png
+template: '{"NAME":"GenioBulbCCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kmart.com.au/product/mirabella-genio-b22-wi-fi-tunable-bulb/2326812
+link2: https://www.bigw.com.au/product/mirabella-led-genio-wifi-dimmable-es-globe-2700-6500k/p/807788/
+mlink: https://mirabellagenio.net.au/
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: [e27, b22]
+---

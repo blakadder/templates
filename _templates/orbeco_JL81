@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-04
+title: Orbecco 5W 400lm
+model: FCC ID 2APYC-JL81
+image: https://user-images.githubusercontent.com/5904370/73791938-8f70d800-47a3-11ea-9ef0-91ee832591cd.png
+template: '{"NAME":"Orbecco Bulb","GPIO":[0,0,0,0,0,0,0,0,143,0,144,0,0],"FLAG":0,"BASE":27}' 
+link: https://www.amazon.ca/gp/product/B0823ZM5XG
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e12
+---
