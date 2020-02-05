@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-05
+title: GoKlug Glass Touch 1 Gang
+model: B0831LV5RD
+image: https://images-na.ssl-images-amazon.com/images/I/41xU1peD8dL._SL1000_.jpg
+template: '{"NAME":"GoKlug 1x","GPIO":[56,57,0,0,0,9,0,0,0,0,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B0831LV5RD/
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---
+SwitchMode1 6  -  to make Switch and LED-Ring work correct

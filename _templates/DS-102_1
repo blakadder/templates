@@ -4,11 +4,11 @@ title: DS-102 1 Gang
 category: switch
 type: Switch
 standard: eu
-link: http://s.click.aliexpress.com/e/tAK13LtW
+link: https://www.aliexpress.com/item/32996551323.html
 image: http://EvertDekker.com/wp/wp-content/uploads/2019/04/TgethDs102.jpg
 template: '{"NAME":"DS-102 1 Gang","GPIO":[57,0,0,17,0,0,0,0,0,21,56,0,0],"FLAG":1,"BASE":18}' 
 link2: https://www.amazon.de/dp/B07WFKJ27C/
-link3: link3: https://www.banggood.com/Geekcreit-123-Gang-WiFi-Smart-Light-Switch-Push-Button-Smart-LifeTuya-APP-Remote-Control-Works-with-Alexa-Google-Home-for-Voice-Control-p-1536383.html
+link3: https://www.banggood.com/Geekcreit-123-Gang-WiFi-Smart-Light-Switch-Push-Button-Smart-LifeTuya-APP-Remote-Control-Works-with-Alexa-Google-Home-for-Voice-Control-p-1536383.html
 ---
 The blue LED is configured to indicate switch state, the red LED is configured as link indicator.
 Switch the GPIOs to show switch state in red.
