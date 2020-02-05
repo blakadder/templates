@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-05
+title: Nishica SM-PW701E
+model: SM-PW701E
+image: https://user-images.githubusercontent.com/5904370/73825639-a2fc5d00-47fc-11ea-82c4-d92fb765f186.png
+template: '{"NAME":"SM-PW701E","GPIO":[255,255,255,255,255,255,255,255,21,52,17,255,255],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.in/gp/product/B07B3ZRN4Y/
+link2: 
+mlink: https://www.nishica.com/product/nishica-plug-it-smart-wifi-universal-socket/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: in
+---
