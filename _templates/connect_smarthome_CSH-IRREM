@@ -2,7 +2,7 @@
 date_added: 2020-02-05
 title: Connect SmartHome Universal Smart IR Remote
 model: CSH-IRREM
-image: /assets/images/connect_smarthome_CSH-IRREM
+image: /assets/images/connect_smarthome_CSH-IRREM.jpg
 template: '{"NAME":"CSH IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.harveynorman.com.au/connect-universal-smart-ir-remote.html
 link2: 
