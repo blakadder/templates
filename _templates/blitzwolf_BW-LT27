@@ -57,8 +57,8 @@ With the following rules the remote is configured with these functions:
 4. CT +/- (CCT mode) / Color +/- (RGB mode) 
 5. Max brightness - Dimmer 100
 6. Switch between CCT and RGB mode
-7. Maximum white (Color FFFFFFFFFF) (CCT mode) / Scheme - (RGB mode) 
-8. Wakeup mode (CCT mode) / Scheme + (RGB mode) 
+7. Maximum white (Color FFFFFFFFFF) (CCT mode) / Single color (RGB mode) 
+8. Wakeup mode (CCT mode) / Cycle RGB colors (RGB mode) 
 
 ```console
 Rule1 
@@ -85,8 +85,8 @@ ON IrReceived#Data=0x21C7847B DO Dimmer + ENDON
 ON IrReceived#Data=0x21C744BB DO Dimmer - ENDON
 ON IrReceived#Data=0x21C7E41B DO Color - ENDON
 ON IrReceived#Data=0x21C714EB DO Color + ENDON
-ON IrReceived#Data=0x21C7827D DO Backlog Color 1; Scheme - ENDON
-ON IrReceived#Data=0x21C7C43B DO Backlog Scheme +; Color 1 ENDON
+ON IrReceived#Data=0x21C7827D DO Scheme 0 ENDON
+ON IrReceived#Data=0x21C7C43B DO Backlog Color 1; Scheme 4 ENDON
 ```
 
 ```console
