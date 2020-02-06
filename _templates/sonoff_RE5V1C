@@ -26,3 +26,4 @@ Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installat
 Access the serial interface by soldering wiring to the labled solder pads as shown in the image above - (3V3, ERX, ETX, GND) are available on the relay mounted side of the PCB. Note: use the ERX and ETX pins, not the two marked RX/TX.
 
 To place the board into flashing mode, depress the surface mounted button switch on the reverse side of the PCB while power is applied.
+The used voltage regulator is a Low-Dropout Linear Regulator. Named as LM1117 which can deliever up to 800-mA.
