@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-09
+title: Ajax Online 7W Vintage
+model: B07TD4ZXWK
+image: /assets/images/ajax_online_7w_filament.jpg
+template: '{"NAME":"AjaxOnline-7W","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/Filament-Vintage-Dimmable-Philips-SmartThings/dp/B07TG8TZ23
+link2: 
+mlink: https://www.ajaxonline.co.uk/product/smart-wifi-edison-retro-filament-vintage-dimmable-bulb/
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---
+Also available from Amazon.co.uk supplied with E27 to B22 converter. Tosmota provides brightness and colour temperature controls.
