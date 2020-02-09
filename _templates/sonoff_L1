@@ -9,6 +9,7 @@ image: https://user-images.githubusercontent.com/5904370/65447568-23ff1d00-de37-
 template: '{"NAME":"SonoffL1","GPIO":[0,148,0,149,0,0,0,0,0,56,0,0,0],"FLAG":0,"BASE":70}' 
 link: https://www.banggood.com/SONOFF-L1-Dimmable-IP65-2M-5M-Smart-WiFi-RGB-LED-Strip-Light-Kit-Work-With-Amazon-Alexa-Google-Home-p-1396771.html
 link2: https://www.gearbest.com/led-strip-accessories/pp_009383068390.html
+link3: https://www.aliexpress.com/item/32960596437.html
 ---
 
 ## Serial Flashing
@@ -29,6 +30,3 @@ GND can be found on at the back (same serial pin as you connect your serial prog
 The controller housing indicates that the arrows of the LED strip and the housing should match, but arrows are not always visible. They need to be connected with both sides 'up':
 
 ![](https://github.com/Maurits28/templates/blob/Maurits28-patch-1/assets/images/SonoffL1-4.jpeg?raw=true)
-
-## Official Sources
-* Itead Product Page: https://www.itead.cc/sonoff-l1-smart-led-light-strip.html
