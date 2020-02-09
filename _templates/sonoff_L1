@@ -11,10 +11,24 @@ link: https://www.banggood.com/SONOFF-L1-Dimmable-IP65-2M-5M-Smart-WiFi-RGB-LED-
 link2: https://www.gearbest.com/led-strip-accessories/pp_009383068390.html
 ---
 
+## Serial Flashing
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
 
+As always, you need to access the serial interface. The **four serial pins** (3V3, Rx, Tx, GND) are available at the back of the PCB and can be easily identified. 
 
+![](https://github.com/Maurits28/templates/blob/Maurits28-patch-1/assets/images/SonoffL1-1.jpeg?raw=true)
 
+Programming the Sonoff L1 is difficult because there is no on-board-button connected to GPIOo and GND. As with all ESP8266 modules pulling GPIO0 to GND is needed to put the chip in programming mode. You need to **connect GPIO0 and GND** during power up.
 
+GND can be found on at the back (same serial pin as you connect your serial programmer to). *GPIO0* can be accessed with a small pin needle or wire, it is the second pin from the right. See picture below:
 
+![](https://user-images.githubusercontent.com/1399796/71555640-82d3c400-2a2e-11ea-99d6-3bb57a98ebb0.png)
+![](https://github.com/Maurits28/templates/blob/Maurits28-patch-1/assets/images/SonoffL1-2.jpeg?raw=true)
 
+## General remark
+The controller housing indicates that the arrows of the LED strip and the housing should match, but arrows are not always visible. They need to be connected with both sides 'up':
 
+![](https://github.com/Maurits28/templates/blob/Maurits28-patch-1/assets/images/SonoffL1-4.jpeg?raw=true)
+
+## Official Sources
+* Itead Product Page: https://www.itead.cc/sonoff-l1-smart-led-light-strip.html
