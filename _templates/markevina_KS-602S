@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-11
+title: Markevina KS-602S
+model: 2HRE-KS602
+image: /assets/images/markevina_KS-602S.jpg
+template: '{"NAME":"Markevina KS-6","GPIO":[17,255,0,255,0,0,0,0,21,52,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/gp/product/B07GH8SYYH/
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+Unscrew the faceplate. There is 4 in the back. Rx, Tx, 3v3 and Gnd are labled on top. GPIO0 is the button.
