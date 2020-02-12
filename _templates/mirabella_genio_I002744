@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-12
+title: Mirabella Genio A70 1400lm  
+model: I002744
+image: /assets/images/mirabella_genio_I002744.jpg
+template: '{"NAME":"GenioB_CW2744","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kmart.com.au/product/mirabella-genio-b22-wi-fi-dimmable-15w-led-bulb/2746888
+link2: 
+mlink: https://mirabellagenio.net.au/wi-fi-led-a70-1400-lumen-1
+flash: tuya-convert
+category: bulb
+type: CW
+standard: b22
+---
