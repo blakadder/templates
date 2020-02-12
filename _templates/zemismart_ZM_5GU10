@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-12
+title: Zemismart 5W
+model: ZM_5GU10
+image: /assets/images/zemismart_ZM_5GU10.jpg
+template: '{"NAME":"Zemismart_GU10","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
+link: https://www.amazon.de/dp/B07CSPQ63V
+link2: https://www.aliexpress.com/item/32867752722.html
+mlink: https://www.zemismart.com/gu10-wifi-bulb-alexa-google-home-assistant-ifttt-tuya-smart-life-app-remote-control-rgb-led-light-dimmer-lamp-ampoule-led-gu10-p0052-p0052.html
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: gu10
+---
+This bulb looks identical to, and has the same markings as the Generic GU10 5W 450lm RGBW Bulb listing, but it uses a MY92x1 driver rather than a PWM driver. It will not work if configured using PWM.

@@ -8,13 +8,14 @@ link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-smart-ir-universal-
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/sz/0/42769460-1-sz.jpg
 template: '{"NAME":"Genio IR TxRx","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link2: https://mirabellagenio.net.au/smart-ir-controller
+flash: tuya-convert
 ---
 
 HKWL-IR02W
 
 Converted via Tuya-Convert. 
 
-You will need to make sure that you have the sensor version of Tasmota loaded to have IR support.
+You will need to flash the tasmota-ir.bin firmware to this deivce.
 
 
 
