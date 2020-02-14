@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-13
+title: Zeoota ZLD-44EU-W
+model: ZLD-44EU-W
+image: /assets/images/zeeota_ZLD-33EU-W.jpg
+template: '{"NAME":"ZEOOTA-ZLD-44E","GPIO":[0,56,0,17,22,21,0,0,23,24,25,0,0],"FLAG":1,"BASE":18}' 
+link: https://www.aliexpress.com/item/32864686078.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: eu
+---
