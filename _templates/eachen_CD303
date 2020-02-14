@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-13
+title: Eachen CD303 3 Gang
+model: CD303
+image: /assets/images/eachen_CD303.jpg
+template: '{"NAME":"ID Components","GPIO":[157,53,0,11,21,10,0,0,9,22,54,23,52],"FLAG":15,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.eachenhome.com/eachen-wall-touch-switch-swt-01-ustuya-smartlife-p0056.html
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+![](eachen_CD303a.jpg)
