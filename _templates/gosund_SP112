@@ -16,7 +16,8 @@ Button will toggle the USB Output. If you want to toggle the Relays, use this te
 {"NAME":"SHP5","GPIO":[57,145,56,146,255,22,0,0,255,255,21,255,17],"FLAG":0,"BASE":18}
 ```
 
-
+Important: it is possible that your device will enter a bootloop due to a conflict with UART/serial logging.
+Fix this using: SerialLog 0 
 
 
 
