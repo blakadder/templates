@@ -1,6 +1,6 @@
 ---
 date_added: 2020-01-10
-title: DORESshop B11 600lm Vintage Filament
+title: DORESshop B11 600lm Filament
 model: Candle-6W-2700k
 image: https://user-images.githubusercontent.com/5904370/72117106-baa30b80-334c-11ea-9598-efe671b56dbf.png
 template: '{"NAME":"Doresshop-cand","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
