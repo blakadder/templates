@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-16
+title: Moes BS-US-W Boiler
+model: 
+image: /assets/images/moes_BS-US-W.jpg
+template: '{"NAME":"BS-US-W","GPIO":[54,0,0,17,21,0,0,0,0,0,52,0,55],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32981607525.html
+link2: https://www.banggood.com/MoesHouse-BS-US-W-WiFi-Smart-Boiler-40A-Switch-Water-Heater-Smart-Life-Tuya-APP-Remote-Control-Alexa-Echo-Google-Home-Voice-Control-Glass-Panel-p-1571313.html
+mlink: https://www.moeshouse.com/collections/smart-boiler-switch/products/wifi-smart-boiler-glass-panel-switch-water-heater-smart-life-tuya-app-remote-control-amazon-alexa-echo-google-home-voice-control
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
