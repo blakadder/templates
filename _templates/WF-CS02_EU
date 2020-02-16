@@ -29,6 +29,8 @@ Rule1 on Power3#State=1 do backlog ShutterStop1; Power3 0 endon # Use the middle
 
 Rule1 1
 
+WebButton3 ■ # Set stop symbol for the third button in the web GUI
+
 SwitchMode1 4 # Make the buttons do their actions on touch, not release
 
 SwitchMode2 4
