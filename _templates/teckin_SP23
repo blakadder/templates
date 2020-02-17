@@ -22,6 +22,7 @@ The uses an ESP8266EX and is capable of switching up to 16 amps at 250 VAC.
 
 2 Teckin SP23s (marked V1.2) [bought from Amazon UK in January 2019](https://www.amazon.co.uk/TECKIN-Outlet-Wireless-Control-Required/dp/B07CVJYV3G) have been flashed successfully and use BlitzWolf SHP2 Sonoff configuration. Voltage calibration may be required for accurate power monitoring.
 Confirm flashing a box of 4 purchased yesterday (09/11/19), from Amazon UK, with Tasmota 7.0.0.4, using tuya-convert v2.2.0. No version number visible on the plugs.
+New SP23s (without power monitoring) bought from Amazon UK (14/02/20) unable to be flashed. Again, no version number visible on the plugs.
 
 ## Serial Flash Instructions
 
