@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-19
+title: Moes WS-UEU
+model: 
+image: /assets/images/moes-WS-UEU.jpg
+template: '{"NAME":"MoesHouse","GPIO":[0,0,0,21,17,0,0,0,57,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33019058078.html
+link2: 
+mlink: https://www.moeshouse.com/collections/eu-smart-plug/products/wi-fi-smart-power-socket-plug-eu-standard-work-with-amazon-alexa-and-google-home-no-hub-required
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
