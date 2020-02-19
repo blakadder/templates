@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-17
+title: BrizLabs A19 9W 806LM
+model: X001ZHK82D
+image: /assets/images/
+template: '{"NAME":"TCP Smart RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07W18ZW2D/
+link2: https://www.amazon.com/gp/product/B07LFY6J9D/
+mlink: https://www.brizlabs.com/a19-smart-light-bulbs-9w-2-pack-compatible-with-alexa-google-home-ifttt
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---
