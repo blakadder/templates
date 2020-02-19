@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-18
+title: Alfawise LE12 9W 900LM
+model: FCC ID: 2AJK8-LM1
+image: /assets/images/alfawise_LE12.jpg
+template: '{"NAME":"Alfawise LE12 ","GPIO":[0,0,0,0,41,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
+link: https://www.gearbest.com/smart-bulbs/pp_009378881645.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
