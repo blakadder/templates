@@ -8,8 +8,8 @@ link: https://www.amazon.de/Zeitschaltuhr-Homecube-Rolladenschalter-Jalousien-Fe
 link2: 
 mlink: 
 flash: tuya-convert
-category: misc
-type: Switch
+category: switch
+type: Curtain Switch
 standard: eu
 ---
 Use the same setting like "Jinvoo SM-SW101-C Curtain Switch " including all options
