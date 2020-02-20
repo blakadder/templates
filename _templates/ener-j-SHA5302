@@ -1,0 +1,26 @@
+---
+date_added: 2020-02-20
+title: Ener-J 13A Twin Wall Sockets with USB
+model: SHA5302
+image: /assets/images/ener-j-SHA5302.jpg
+template: '{"NAME":"Ener-J 2-Gang ","GPIO":[17,0,0,0,0,21,18,0,22,56,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/ENERJ-Charger-Electric-Sockets-Compatible/dp/B08473PYVH
+link2: https://www.bltdirect.com/ener-j-13a-smart-wifi-twin-wall-sockets-with-1-usb-port-white-finish-amazon-alexa-google-home-compatible
+mlink: https://www.ener-j.co.uk/products/view/independent-wifi-iot-solutions/13a-twin-wall-sockets-with-single-usb-and-push-switch/99252
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: uk
+---
+Left Hand Socket is Button 1
+
+There is a blue LED above the earth pin of each socket; these light when the corresponding socket is powered.
+
+Neither of these templates controls power to the USB socket. I did not attempt to find a way to switch it off or on. It is always powered.
+
+There is a green LED above the USB socket; this comes on if either 13A socket is powered.
+
+To disable the Green LED always use this template instead :
+```json
+{""NAME"":""Ener-J 2-Gang "",""GPIO"":[17,0,0,0,0,21,18,0,22,0,0,0,0],""FLAG"":0,""BASE"":18}
+```

@@ -1,0 +1,20 @@
+---
+date_added: 2020-02-20
+title: Martin Jerry MJ-SD02
+model: FCC ID 2ANJ7-SD01
+image: /assets/images/martin_jerry-MJ-SD02.jpg
+template: '{"NAME":"MJ-SD02","GPIO":[19,17,0,33,34,32,255,255,31,37,30,127,29],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.com/Dimmable-Compatible-Assistant-Single-Pole-Required/dp/B07K67D43J/
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: us
+---
+```console
+rule1 on Button3#state=2 do dimmer + endon on Button2#state=2 do dimmer - endon on Button2#state=3 do dimmer 20 endon on Button3#state=3 do dimmer 100 endon on Button1#state=2 do power1 2 endon on Button1#state=3 do power1 0 endon
+```
+```console
+backlog SerialLog 0; setoption3 1; setoption1 1; setoption32 8; buttontopic 0; setoption113 1; rule1 1; module 0
+```
