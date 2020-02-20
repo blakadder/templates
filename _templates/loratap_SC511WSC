@@ -9,7 +9,7 @@ link2:
 mlink: https://www.loratap.com/tuya-smart-life-wifi-curtain-blind-switch-module-with-remote-for-roller-shutter-electric-motor-google-home-aelxa-echo-smart-home-p0109.html
 flash: serial
 category: switch
-type: Relay
+type: Curtain Switch
 standard: global
 ---
 Flash Tasmota compiled with "blinds and shutters". 
