@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-21
+title: MagicHome RGBWW w/ RF 
+model: MINI-WF-RF-5CH-A_V1.0
+image: /assets/images/magichome_MINI-WF-RF-5CH-A_V1.jpg
+template: '{"NAME":"MagicHome RF","GPIO":[0,0,159,0,37,38,0,0,41,40,39,147,0],"FLAG":0,"BASE":38}' 
+link: https://aliexpress.com/item/32849323440.html
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+MagicHome RGBWW LED Controller with RF remote (older version with PCB marked "MINI-WF-5CH-A-V1.0")
