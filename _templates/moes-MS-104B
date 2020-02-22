@@ -177,7 +177,8 @@ endif
 ```
 
 SwitchMode 0
-```
+
+```lua
 >D
 sw1=0
 sw2=0
@@ -258,6 +259,7 @@ and secs==0
 then
 ->Restart 1
 endif
+
 ```
 
 ![flash_pins](https://user-images.githubusercontent.com/39533759/65378708-98618100-dcbc-11e9-8b38-f0156d719a38.JPG)
