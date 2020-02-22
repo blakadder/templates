@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-22
+title: Luminea ZX-2820 v2
+model: 
+image: /assets/images/luminea_ZX-2820_v2.jpg
+template: '{"NAME":"ZX2820-675","GPIO":[0,0,0,17,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":65}' 
+link: https://www.amazon.de/dp/B078159RF6/
+link2: https://www.pearl.de/a-ZX2820-3103.shtml
+mlink: https://www.luminea.info/WIFI-Smartphone-Steckdose-kompatibel-zu-Amazon-ZX-2820-919.shtml
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

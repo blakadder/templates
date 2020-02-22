@@ -6,7 +6,7 @@ category: bulb
 standard: e27
 flash: tuya-convert
 link: https://www.amazon.com/LINGANZH-Smart-Changing-Dimmable-Required/dp/B07X2J89PH
-image: https://images-na.ssl-images-amazon.com/images/I/51mrZXng%2BIL._AC_SL1001_.jpg
+image: /assets/images/LWE3.jpg
 template: '{"NAME":"Linganzh LWE3 ","GPIO":[0,0,0,0,0,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.ca/Adjustable-Dimmable-Required-Controlled-Compatible/dp/B07VCPDXJ9
 
