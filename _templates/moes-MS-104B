@@ -16,6 +16,8 @@ The device use frequency detection circuits connected to GPIO12 and GPIO13 of th
 
 Below two scripts which do something like switchmode4, switchmode1 and switchmode0. The script for switchmode4 is created by @thxthx0, switchmode1 @caccia78 and @cHunter789, switchmode0 @antonio-fiol
 
+Attention: I have found that the script (at least for switchmode 1) is somehow depended from sleep setting. Swichmode 1 script is tested and should be used with sleep 200 or 250.  
+
 SwitchMode1
 
 ```lua
@@ -29,7 +31,8 @@ pwr2=0
 
 >B
 =>print "WiFi - 2 relay / 2 switch"
-
+; The script is not tested with default sleep 50 so please use sleep 200
+->sleep 200 
 >F
 ; Always reset counters - consider only counts in last 100ms
 cnt1=pc[1]
