@@ -11,3 +11,7 @@ link2:
 ---
 
 seems to be renamed KS-602S, template works perfectly
+
+Received a batch of switches purchased Feb 2020 that have the status LED moved to GPIO2 from GPIO1. needs a slightly different template:
+'{"NAME":"Gosund SW1","GPIO":[17,0,56,0,0,0,0,0,0,0,21,0,158],"FLAG":0,"BASE":18}' 
+
