@@ -3,7 +3,7 @@ date_added: 2020-02-16
 title: Slitinto NX-SP201 Mini 2 in 1
 model: FCC ID 2A0PH-NX-SP201
 image: /assets/images/slitinto_NX-SP201.jpg
-template: '{"NAME":"Slitinto Dual ","GPIO":[0,0,0,0,0,0,0,0,21,0,0,22,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Slitinto Dual ","GPIO":[158,0,0,131,90,134,0,0,21,91,132,22,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07F6X4KX3/
 link2: 
 mlink: 
