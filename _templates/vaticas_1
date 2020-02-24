@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-24
+title: Vaticas 1
+model: S2.KGKG05.L
+image: /assets/images/vaticas_1.jpg
+template: '{"NAME":"Vaticas","GPIO":[0,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Smart-Light-Switch-Vaticas-Compatible/dp/B07Q7PWJ77
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+Works with tuya-convert. If it is already registered with Smart Life app, just factory reset the switch which will put it on pairing mode
