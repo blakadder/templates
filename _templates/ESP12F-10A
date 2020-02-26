@@ -6,7 +6,7 @@ type: Relay
 standard: global
 link: https://www.banggood.com/ESP8266-10A-220V-Network-Relay-WIFI-Module-Input-DC-7V30V-p-1089200.htm
 image: https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/9C/4F/be1cc42e-0a08-4a00-b097-8c001600f677.JPG
-template: '{"NAME":"Yunshan 10A","GPIO":[17,255,52,255,21,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Yunshan 10A","GPIO":[17,255,52,255,21,10,0,0,22,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: http://s.click.aliexpress.com/e/4PepjPYG
 ---
 Can be found on Amazon under various brands:
@@ -16,6 +16,7 @@ Can be found on Amazon under various brands:
 * [amazon.co.uk](https://amzn.to/35scO7U)
 
 This device is supported directly in the firmware by selecting module "Yunshan Relay (33)" or using command `Module 33`
+Note* Not sure the input feedback will work by selecting module name.  See template above for GPIO 5 and 8. 
 
 More in depth article on [Arduino++ blog](https://arduinoplusplus.wordpress.com/2018/08/28/home-automation-and-the-internet-of-things-the-start/).
 
