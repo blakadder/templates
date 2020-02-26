@@ -4,7 +4,7 @@ title:  TreatLife SS02 3-Way
 model: FCC ID 2ANFSS01  
 image: /assets/images/treatlife_SS02.jpg
 template: '{"NAME":"TreatLife 3Way","GPIO":[0,0,0,0,53,29,0,0,30,18,9,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.com/Treatlife-Compatible-Assistant-Schedule-Required/dp/B07ZSQ8R85/
+link: https://www.amazon.com/dp/B07V4X7BRT/
 link2: 
 mlink: https://www.treatlife.tech/products/treatlife-3-way-smart-light-switch-wifi-light-switch-single-pole-3-way-switch-remote-control-works-with-alexa-google-assistant-and-ifttt-schedule-no-hub-required-etl-listed-neutral-wire-required
 flash: tuya-convert
@@ -13,3 +13,5 @@ type: Switch
 standard: us
 ---
 IC:24572-SS01  Intertek 5012525
+
+**Newer versions might contain a nonESP8266 chip.**
