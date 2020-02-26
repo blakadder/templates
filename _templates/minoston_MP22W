@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-26
+title: Minoston MP22W
+model: MP22W
+image: /assets/images/minoston_MP22W.jpg
+template: '{"NAME":"Minoston MP22W","GPIO":[0,0,0,0,56,0,0,0,21,90,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07X52W1J8/ 
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---
