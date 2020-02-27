@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-27
+title: LE LampUX 5m RGB LED Strip
+model: 904103-RGB-NF-UK
+image: /assets/images/LE-lampUX_904103-RGB-NF-UK.jpg
+template: '{"NAME":"LampUX","GPIO":[17,0,0,0,0,38,0,0,39,0,0,37,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/Control-Wireless-Compatible-Decoration-Wedding/dp/B07W1JHWVC/
+link2: 
+mlink: https://www.lepro.co.uk/le-alexa-led-strips-lights-alexa-voice-control-904103-rgb-nf-uk.html
+flash: serial
+category: light
+type: LED Strip
+standard: uk
+---

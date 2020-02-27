@@ -1,6 +1,7 @@
 ---
 date_added: 2019-11-07
-title: Arlec ALD233HA
+title: Arlec 2m LED Colour Changing Strip Light
+model: ALD233HA
 category: light
 type: LED Strip
 standard: au
@@ -9,11 +10,4 @@ image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rac
 template: '{"NAME":"Arlec ALD233AH","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
-Utilises TWYE3L Chipset
-
-
-
-
-
 

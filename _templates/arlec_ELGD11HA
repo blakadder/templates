@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-26
+title: Arlec 40W 4000lm LED Batten Light 
+model: ELGD11HA
+image: /assets/images/arlec_ELGD11HA.jpg
+template: '{"NAME":"Arlec Batten","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-smart-40w-4000lm-led-batten-light-with-grid-connect_p0117511
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---
