@@ -1,7 +1,7 @@
 ---
 date_added: 2020-02-27
 title: MoKo JL81 5W 400lm
-model: 2APCY-JL81
+model: FCC ID 2APYC-JL81
 image: /assets/images/moko_JL81.jpg
 template: '{"NAME":"MoKo E14","GPIO":[0,0,0,0,0,0,0,0,143,0,144,0,0],"FLAG":0,"BASE":27}' 
 link: https://www.amazon.de/gp/product/B0825F9V92/
