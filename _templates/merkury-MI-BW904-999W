@@ -5,7 +5,8 @@ category: bulb
 standard: e26
 link: https://www.walmart.com/ip/Merkury-Innovations-A21-Smart-Light-Bulb-75W-Color-LED-1-Pack/254063201
 image: https://i5.walmartimages.com/asr/e15b4ae9-a1b0-4a6b-a93a-b818ee4858f2_1.1eeae0645b5aae960d7c57f7689c242a.jpeg
-template: '{"NAME":"MI-BW904-999W","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":1,"BASE":69}'
+template: '{"NAME":"MI-BW904-999W","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18}'
 ---
 
-
+This is a four-channel RGBW light with very dim RGB output.  Recommend enabling white blend mode:
+RGBWWTable 255,255,255,255,0
