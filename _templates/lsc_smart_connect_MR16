@@ -1,12 +1,13 @@
 ---
 date_added: 2019-10-21
 title: LSC Smart Connect MR16 380lm
+model: 970702 v1.0
 type: RGBW
 category: bulb
 standard: gu10
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-multicolor-spot/
 image: https://www.action.com/globalassets/cmsarticleimages/79/67/2578516_8712879142690-111_01.png
-template: '{"NAME":"LSC RGBCW LED","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"LSC RGBCW GU10","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
