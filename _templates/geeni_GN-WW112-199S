@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-29
+title: Geeni TAP 3-Way
+model: GN-WW112-199S
+image: /assets/images/geeni_GN-WW112-199S.jpg
+template: '{"NAME":"Geeni 3-Way","GPIO":[157,0,0,0,0,0,0,0,17,21,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07RB7JBTR/
+link2: 
+mlink: https://mygeeni.com/collections/all/products/tap-smart-wi-fi-3-way-switch-kit-2-pack
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+This template leaves the WiFi light on all the time.  Swap the LED to change that behavior.  Power (green) LED does not appear to be controllable except by the relay. This is a 3-way switch so both switches must be on or both switches must be off for the light to come on.  This can be wired exactly as in the instructions.

@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-28
+title: U10 Series
+model: 26113134
+image: /assets/images/U10.jpg
+template: '{"NAME":"WIFI-Socket","GPIO":[255,17,255,255,255,255,255,255,255,56,21,255,255],"FLAG":1,"BASE":18}' 
+link: https://www.ebay.de/itm/NEU-USB-Wifi-Smart-Steckdose-Amazon-Alexa-Google-Home-Intelligente-Socket-Plug/324075571516
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
