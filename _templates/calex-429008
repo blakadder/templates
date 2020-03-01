@@ -2,7 +2,7 @@
 date_added: 2020-02-29
 title: Calex 429008 B35 5W 470lm
 model: 
-image: /assets/images/
+image: /assets/images/calex-429008.jpg
 template: '{"NAME":"Calex E14 RGBW","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
 link: 
 link2: 
