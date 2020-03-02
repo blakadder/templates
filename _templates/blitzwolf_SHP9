@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-02
+title: BlitzWolf BW-SHP9
+model: SKUD56165
+image: /assets/images/blitzwolf_SHP9.jpg
+template: '{"NAME":"BlitzWolf SHP9","GPIO":[158,255,0,255,0,23,0,0,21,17,22,24,0],"FLAG":0,"BASE":45}' 
+link: https://www.aliexpress.com/item/4000377898227.html
+link2: https://www.banggood.com/BlitzWolf-BW-SHP9-3300W-15A-3-Socket-Dual-USB-Slot-Smart-Power-Strip-EU-Plug-APP-Remote-Control-Timer-Work-with-Amazon-Alexa-Google-Home-Voice-Control-System-p-1596929.html
+mlink: https://www.blitzwolf.com/BlitzWolf-BW-SHP9-15A-3300W-Smart-Power-Strip---3-Outlets-EU-with-Dual-USB-2.4A-Output,-Remote-Control,-Timing-Function,-Voice-Control,-Safety-Protection-and-Indicator-Light-p-417.html
+flash: serial
+category: plug
+type: Power Strip
+standard: eu
+---
+There is a pin header at corner: TX, RX, G (Gnd), V (Vcc). Vcc is not 3V, but powersupply input and need to be >4V. Currently button controls only Plug1. Relay4 is usb (power).
