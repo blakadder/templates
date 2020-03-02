@@ -3,7 +3,7 @@ date_added: 2019-12-09
 title: BlitzWolf BW-LT21 900lm
 link: https://www.banggood.com/BlitzWolf-BW-LT21-RGBWW-10W-E27-APP-Smart-LED-Light-Bulb-Work-With-Amazon-Alexa-Google-Assistant-AC100-240V-p-1551059.html
 image: https://user-images.githubusercontent.com/5904370/70425821-2d7d4600-1a72-11ea-8810-ea788be65e84.png
-template: '{"NAME":"BlitzWolf LT21","GPIO":[0,0,0,0,0,39,0,0,38,0,37,40,0],"FLAG":0,"BASE":18}'
+template: '{"NAME":"BlitzWolf LT21","GPIO":[0,0,0,0,41,39,0,0,38,0,37,40,0],"FLAG":0,"BASE":18}'
 link2: https://www.aliexpress.com/item/4000202082713.html
 link3: https://www.amazon.co.uk/dp/B07VMG193M
 mlink: https://www.blitzwolf.com/Blitzwolf-BW-LT21-Smart-Bulb-with-APP-Remote-Control,-16-Million-Colors,-3000K-Color-Temperature,-Adjustable-Brightness,-Voice-Control,-Scenes-Setting-p-379.html
