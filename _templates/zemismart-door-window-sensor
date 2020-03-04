@@ -37,5 +37,11 @@ Check with `TuyaMCU` for the following configuration:
 ```
 
 ```console
-Rule1 ON TuyaReceived#Data=55AA00050005650100010171 DO publish2 stat/lr_window1/STATUS open ENDON ON TuyaReceived#Data=55aa00050005650100010070 DO publish2 stat/lr_window1/STATUS close ENDON ON
+Rule1 ON TuyaReceived#Data=55AA00050005650100010171 DO publish2 stat/%topic%/STATUS open ENDON ON TuyaReceived#Data=55aa00050005650100010070 DO publish2 stat/%topic%/STATUS close ENDON ON
+```
+
+Don’t forget to turn on the rule:
+
+```console
+Rule1 1
 ```
