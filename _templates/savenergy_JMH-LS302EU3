@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-05
+title: SavEnergy 3 Gang
+model: JMH-LS302EU3
+image: /assets/images/savenergy_JMH-LS302EU3.jpg
+template: '{"NAME":"SavEnergy 3-sw","GPIO":[55,157,54,18,23,19,255,255,17,22,53,21,52],"FLAG":15,"BASE":18}' 
+link: https://boiq.se/en/produkt/savenergy-smart-wifi-switch-3-gang/
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---

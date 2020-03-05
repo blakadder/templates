@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-03
+title: Sygonix SY-4276902
+model: 4053199975983
+image: /assets/images/sygonix_SY-4276902.jpg
+template: '{"NAME":"SYGONIX","GPIO":[0,0,0,17,133,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.conrad.de/de/p/sygonix-sy-4276902-wi-fi-funk-steckdose-innenbereich-2500-w-2138451.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

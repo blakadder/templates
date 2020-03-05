@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-03
+title: ledscom.de 4.5W 430lm
+model: LC-SS-637-CC
+image: /assets/images/ledscom_LC-SS-637-CC.jpg
+template: '{"NAME":"GX53","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":0}' 
+link: https://www.amazon.co.uk/dp/B07ZFXYR1W/
+link2: 
+mlink: https://www.leds-com.de/led-lampen-leuchtmittel/gx53-led-lampen-leuchtmittel/gx53-led-lampe-fuer-amazon-alexa-dimmbar-4-5w-38w-420lm-100-dimmbar-und-farbtemperatur-steuerbar-2700k-4100k.html
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: gx53
+---

@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-05
+title: Nedis PAR16 330lm
+model: WIFILW11CRGU10
+image: /assets/images/nedis_WIFILW31CRGU10.jpg
+template: '{"NAME":"Nedis WIFILW31","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07NW9NSH8/
+link2: https://www.amazon.de/dp/B07NWB9KW6/
+link3: https://www.webhallen.com/se/product/303546-Nedis-WiFi-Smart-LED-lampa-Warm-White-GU10-3-Pack
+mlink: https://webshop.nedis.com/en-us/550703237/wifilw11crgu10
+flash: tuya-convert
+category: bulb
+type: WW
+standard: gu10
+---

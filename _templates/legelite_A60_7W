@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-03
+title: Legelite A60 7W 
+model: 
+image: /assets/images/legelite_A60_7W.jpg
+template: '{"NAME":"Legelite A60 7","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://amazon.co.uk/gp/product/B07GQYP8ZK
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
