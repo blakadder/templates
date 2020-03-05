@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-06
+title: Sonoff D1
+category: switch
+type: Dimmer
+standard: global
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/d1-smart-dimmer-switch
+image: /assets/images/sonoff_D1.jpg
+template: '{"NAME":"Sonoff D1","GPIO":[255,148,0,149,0,0,0,0,0,56,0,0,0],"FLAG":0,"BASE":74}' 
+link: https://www.banggood.com/SONOFF-D1-Smart-Dimmer-Switch-Work-with-Alexa-Google-Home-p-1613319.html
+link2: https://www.aliexpress.com/item/4000516349785.html
+link3: 
+---
+
+***Experimental support implemented in development version 8.1.0.10.***
