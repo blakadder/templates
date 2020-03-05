@@ -10,5 +10,7 @@ mlink:
 flash: tuya-convert
 category: bulb
 type: RGBW
-standard: e27, e26
+standard: 
+  - e26
+  - e27
 ---
