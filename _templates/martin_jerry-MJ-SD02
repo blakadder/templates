@@ -18,3 +18,6 @@ rule1 on Button3#state=2 do dimmer + endon on Button2#state=2 do dimmer - endon 
 ```console
 backlog SerialLog 0; setoption3 1; setoption1 1; setoption32 8; buttontopic 0; setoption113 1; rule1 1; module 0
 ```
+
+Alternate Tasmota firmware for these dimmers and a ruleset are here, with better results:
+https://github.com/digiblur/Tasmota
