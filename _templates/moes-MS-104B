@@ -29,7 +29,8 @@ pwr2=0
 
 >B
 =>print "WiFi - 2 relay / 2 switch"
-
+;sleep 250 because counters are sleep sensitive
+->sleep 250
 >F
 ; Always reset counters - consider only counts in last 100ms
 cnt1=pc[1]
@@ -38,7 +39,7 @@ cnt1=pc[1]
 cnt2=pc[2]
 ->Counter2 0
 
-if cnt1>5
+if cnt1>3
 then
 ; counter1 has increased in last 100ms - check with >2 for debounce
 sw1=1
@@ -47,7 +48,7 @@ else
 sw1=0
 endif
 
-if cnt2>5
+if cnt2>3
 then
 ; counter2 has increased in last 100ms - check with >2 for debounce
 sw2=1
