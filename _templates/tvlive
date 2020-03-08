@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-07
+title: TVLive 7.5W 800lm 
+model: x00119cpcx
+image: /assets/images/tvlive.jpg
+template: '{"NAME":"TVLIVE RGBCW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/gp/product/B07STY857D/
+link2: https://www.amazon.de/gp/product/B07STY857D/
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

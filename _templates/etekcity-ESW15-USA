@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-08
+title: Etekcity ESW15-USA
+model: ESW15-USA
+image: /assets/images/etekcity-ESW15-USA.jpg
+template: '{"NAME":"ESW15-US","GPIO":[0,0,0,0,0,21,0,0,132,133,17,130,52],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07PLFZ58Y/
+link2: https://www.amazon.com/dp/B07Y7RC7K7/
+mlink: https://www.etekcity.com/product/100328
+flash: serial
+category: plug
+type: Plug
+standard: us
+---

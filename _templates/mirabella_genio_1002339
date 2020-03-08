@@ -1,13 +1,13 @@
 ---
 date_added: 2019-04-24
 title: Mirabella Genio 9W 800lm
-model: 1002338
+model: 1002339
 type: RGBW
 category: bulb
-standard: e27
+standard: b22
 flash: tuya-convert
-link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-e27-colour-bulb/2326804
-image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/sz/8/42707998-1-sz.jpg
+link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-b22-colour-bulb/2326807
+image: /assets/images/mirabella_genio_1002339.jpg
 template: '{"NAME":"GenioBulbRGB","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":1,"BASE":18}' 
 link2:
 mlink: https://mirabellagenio.net.au/es-%2F-bc-warm-rgb-specs
