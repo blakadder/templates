@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-10
+title: Orbecco W-US009
+model: W-US009
+image: /assets/images/orbecco_W-US009.jpg
+template: '{"NAME":"Orbecco Plug","GPIO":[0,17,0,0,0,0,0,0,0,52,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07Z93GMY4
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
