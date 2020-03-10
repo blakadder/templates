@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-10
+title: Vestaiot BR30 800lm
+model: 
+image: /assets/images/vestaiot_BR30.jpg
+template: '{"NAME":"Vesta BR30 CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07VTTCRSP/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e26
+---

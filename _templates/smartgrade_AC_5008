@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-10
+title: SmartGrade AC 5008
+model: 
+image: /assets/images/smartgrade_AC_5008.jpg
+template: '{"NAME":"SmartGrade AC","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+link: https://smartgrade.co.il/product/%d7%a9%d7%a7%d7%a2-%d7%97%d7%9b%d7%9d-%d7%9c%d7%9e%d7%96%d7%92%d7%9f/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: il
+---
