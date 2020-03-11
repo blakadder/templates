@@ -2,6 +2,7 @@
 date_added: 2019-12-11
 title: Bakibo TB95 9W 1000lm
 link: https://www.amazon.de/dp/B07SPYB4TQ
+link: https://www.amazon.es/gp/product/B07SPVCG59/
 image: https://user-images.githubusercontent.com/5904370/72205290-96951680-3481-11ea-9f23-7f92500f611d.png
 template: '{"NAME":"Bakibo A19 9W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
 link2: 
