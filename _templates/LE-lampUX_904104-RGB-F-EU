@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-12
+title: LE LampUX 5m RGB
+model: 904104-RGB-F-EU
+image: /assets/images/LE-lampUX_904104-RGB-F-EU.jpg
+template: '{"NAME":"LE LampUx","GPIO":[0,0,0,0,0,38,0,0,39,0,0,37,0],"FLAG":0,"BASE":34}' 
+link: https://www.amazon.de/gp/product/B07X9WFVZ7/
+link2: 
+mlink: https://www.lepro.de/le-led-strip-10m-2x5m-alexa-rgb-led-streifen-ip65-wasserdicht-smart-led-leiste-nur-2-4ghz-wifi-led-band-lichterkette-fur-haus-kuche-party-tv-lichtband-kompatibel-mit-alexa-google-home.html
+flash: serial
+category: light
+type: LED Strip
+standard: eu
+---

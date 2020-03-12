@@ -1,6 +1,6 @@
 ---
 date_added: 2020-02-27
-title: LE LampUX 5m RGB LED Strip
+title: LE LampUX 5m RGB 
 model: 904103-RGB-NF-UK
 image: /assets/images/LE-lampUX_904103-RGB-NF-UK.jpg
 template: '{"NAME":"LampUX","GPIO":[17,0,0,0,0,38,0,0,39,0,0,37,0],"FLAG":0,"BASE":18}' 
