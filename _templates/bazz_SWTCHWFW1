@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-12
+title: BAZZ SWTCHWFW1
+model: SWTCHWFW1
+image: /assets/images/
+template: '{"NAME":"BAZZ KS-602S","GPIO":[17,0,0,0,0,0,21,52,29,56,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/Smart-SWTCHWFW1-Wi-Fi-Switch-Required/dp/B07N7YLV8W/
+link2: https://www.amazon.com/Smart-SWTCHWFW1-Wi-Fi-Switch-Required/dp/B07N7YLV8W/
+mlink: https://www.bazzsmarthome.com/collections/plugs-accessories/products/smart-wifi-wall-switch
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
