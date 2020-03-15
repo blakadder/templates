@@ -1,15 +1,16 @@
 ---
-date_added: 2019-03-02
+date_added: 2020-03-13
 title: CE Smart Home LA-WF3
+model: 2AMQ8-WIFI-004
 type: Plug
 standard: us
-link: https://www.costco.ca/Wi-Fi-Smart-Plug%2C-2-pack.product.100417575.html
-image: https://user-images.githubusercontent.com/5904370/54649866-2a899200-4aac-11e9-93be-e1ae3d4c48be.png
+link: https://www.amazon.ca/CE-smart-ELECTRICITY-home-assistant/dp/B07MMBDRFF
+image: /assets/images/ce_smart_home_LA-WF3.jpg
 template: '{"NAME":"CE LA-WF3","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link2: https://www.costco.ca/Wi-Fi-Smart-Plug%2C-2-pack.product.100417575.html
+mlink: https://www.cesmarthome.com/LA-WF3.html
+flash: tuya-convert
 ---
-Simple and compact Wifi Plug, internal module Tuya TYWE2S
-
 ### Product 
 
 ![Package](https://raw.githubusercontent.com/willngton/Smarth_Plug_LA_WF3/master/LA_WF3_01.png)

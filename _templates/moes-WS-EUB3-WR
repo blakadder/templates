@@ -1,0 +1,21 @@
+---
+date_added: 2020-03-13
+title: MoesHouse RF433 3 Gang
+model: WS-EUB3-WR
+image: /assets/images/moes-WS-EUB3-WR.jpg
+template: '{"NAME":"WS-EUB3-WR","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000337529386.html
+link2: 
+mlink: https://www.moeshouse.com/collections/eu-smart-switch/products/wifi-smart-wall-light-switch-rf433-push-button-transmitter-smart-life-tuya-app-remote-control-works-with-alexa-google-home?variant=31103658066001
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---
+For a 3 gang switch set `TuyaMCU 12,2` and `TuyaMCU 13,3` if the dpIds for Relays 2-3 are 2,3 in Console. 
+
+No Wifi LED
+
+Active switch LED are blue.
+
+There is a green LED without function in this setup

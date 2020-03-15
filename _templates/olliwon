@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-13
+title: Olliwon 
+model: 
+image: /assets/images/olliwon.jpg
+template: '{"NAME":"Olliwon","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/Olliwon-Steckdose-kompatibel-Fernsteuerung-intelligente/dp/B07RX6ZXRW/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

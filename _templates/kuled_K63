@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-14
+title: KULED K63
+model: 2ajtrg01u
+image: /assets/images/kuled_K63.jpg
+template: '{"NAME":"KULED K63","GPIO":[0,0,0,0,21,17,0,0,56,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Compatible-Assistant-Required-Wireless-K63/dp/B074MNRB8V/
+link2: 
+mlink: https://kuled.com/product/smart-plug-k63/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
