@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-15
+title: iClever IC-BS08
+model: ECF-SWP02-001
+image: /assets/images/iclever_IC-BS08.jpg
+template: '{"NAME":"iClever BS08","GPIO":[0,0,0,0,157,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/iClever-IC-BS08-Control-Compatible-Assistant/dp/B07LCKY644/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

@@ -1,12 +1,12 @@
 ---
-date_added: 2020-02-20
-title: Powrui Surge Protector 4USB+3AC 
+date_added: 2020-03-16
+title: Powrui 3-Outlet with 4 USB 
 model: AHR-077
 image: /assets/images/powrui_AHR-077.jpg
-template: '{"NAME":"POWRUI AHR-077","GPIO":[0,0,0,0,19,18,0,0,22,23,17,21,157],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"POWRUI AHR-077","GPIO":[0,0,0,20,19,18,0,0,22,23,17,21,157],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07RPQP72Z/
 link2: 
-mlink: https://www.powrui.com/collections/smart-plug/products/smart-wall-outlet
+mlink: https://www.powrui.com/collections/smart-plug/products/alex-smart-plug
 flash: tuya-convert
 category: plug
 type: Plug
