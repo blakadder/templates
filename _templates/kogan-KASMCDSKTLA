@@ -53,7 +53,7 @@ Home assitant MQTT Temperature sensor
 {% endhighlight %}
 
 
-```
+```lua
 ### Idle
 DpId103    
 Data: 55AA00070005670400010077   

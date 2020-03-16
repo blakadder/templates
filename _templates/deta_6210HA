@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-16
+title: DETA 62120HA Smart Plug Base
+model: 6210HA
+image: /assets/images/deta_6210HA.jpg
+template: '{"NAME":"DetaPlugBase","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/deta-smart-plug-base-with-grid-connect_p0098817
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: au
+---
+Smart 413 Plug, Australian approved and available locally.

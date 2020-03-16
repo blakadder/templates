@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-16
+title: Jinvoo SM-WA104 RGB 
+category: light
+type: LED Controler
+standard: global
+link: https://www.amazon.co.uk/Jinvoo-Control-SM-AW713-Application-Program/dp/B07H3RT8X8
+image: /assets/images/jinvoo_SM-WA104.jpg
+template: '{"NAME":"SM-WA104","GPIO":[0,0,0,0,0,39,0,0,38,17,37,0,0],"FLAG":0,"BASE":18}'
+link: https://www.amazon.com/XENON-SM-WA104-Controller-Compatible-Assistant/dp/B07JYW19C8
+link2: https://www.amazon.de/Jinvoo-WiFi-Smart-RGB-Lichtstreifen-Fernbedienung-Sprachsteuerung-funktioniert/dp/B07NZLMN42
+link3: https://www.amazon.com.au/Jinvoo-SM-WA104-Controller-Compatible-Assistant/dp/B07GLCDQ46
+mlink: http://www.xenon.cn/zhinengpeijian/sm-wa104-led-light-strip.html
+---
