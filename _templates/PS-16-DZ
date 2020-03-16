@@ -27,7 +27,7 @@ pin6 GND
 ```
 ## Communication between ESP8285 and N76E003
 It uses AT command to communicate between ESP8285 and N76E003 over UART at 19200 baud.
-```
+```lua
 Turn on the switch from ESP8266:
 Send from ESP8266
 AT+UPDATE="sequence":"1528335040032","switch":"on"
