@@ -17,7 +17,7 @@ Opened it up, found a ESP8285 and a Nuvoton N76E003.
 
 ## Serial Flashing
 Remove the ESP8285 daughter card DLX-MKCK01 from the main board and flash Tasmota.
-```
+```lua
 pin1 RST -> N76E003 P0.5/PWM2
 pin2 TXD -> N76E003 P0.7/RXD
 pin3 RXD -> N76E003 P0.6/TXD
