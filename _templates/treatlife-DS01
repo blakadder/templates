@@ -11,4 +11,10 @@ category: switch
 type: Dimmer
 standard: us
 ---
-Dimmer range must be set as: `DimmerRange 150,1000`
+After Flash and Update with Tuya-Convert:
+
+    Goto WebUI and then Console
+    Enter commands TuyaMCU 21,2
+Then Set Dimmer Range in console: `DimmerRange 150,1000`
+
+Now Dimmer Commande work from 0-100
