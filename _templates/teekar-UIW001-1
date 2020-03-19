@@ -60,7 +60,7 @@ CLK | GPI015 | CLK on HCL164
 Front plate switch is connected to GPIO12.
 
 #### Configuration
-Tuya-Convert is the more convenient option for iinstalling Tasmota but it is possible to flash over serial. Use the following pinout and ground the GPIO0 directly on the ESP8266 pin which is quite hard to reach.
+Tuya-Convert is the more convenient option for installing Tasmota but it is possible to flash over serial. Use the following pinout and ground the GPIO0 directly on the ESP8266 pin which is quite hard to reach.
 
 Apply the template and issue:
 ```console

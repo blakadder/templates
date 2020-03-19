@@ -1,0 +1,260 @@
+---
+date_added: 2020-01-22
+title: ProfiCook PC-WKS 1167 G 1.5 L 
+model: 501167
+image: https://user-images.githubusercontent.com/5904370/74509014-c2803d80-4f00-11ea-8b4d-e11cbde9ea78.png
+template: '{"NAME":"PC-WKS Kettle","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.de/Wasserkocher-kostenlose-programmierbare-Temperaturregelung-Edelstahlgeh%C3%A4use/dp/B07PQPZ8HH
+link2: https://www.conrad.com/p/profi-cook-pc-wks-1167-g-tea-maker-stainless-steel-glass-1974778
+mlink: https://www.proficook.de/products/en/New-products/PC-WKS-1167G-Glass-tea-kettle.html
+flash: tuya-convert
+category: misc
+type: Kettle
+standard: eu
+---
+#### Flashing
+Tuya-Convert is the more convenient option for installing Tasmota but it is possible to flash over serial. 
+
+When flashing using Tuya-Convert press and hold 45°C button for 5 seconds to enter fast flashing mode and follow the normal tuya-convert procedure.
+
+When flashing via serial connection remember to pull the MCU Reset Pin to ground. It's a HR7P169BFGSF from Easysoft so pin 4 must be connected to ground. 
+
+#### Functions
+MCU Product ID: {"p":"h6MjwrnldNTu4kX3","v":"1.0.0","m":1} 
+
+`dpID 101` controls kettle modes (corresponds to device buttons)
+  - `0` - heat to 45°C then maintain temperature for 2 hours
+  - `1` - heat to 60°C then maintain temperature for 2 hours
+  - `2` - heat to 85°C then maintain temperature for 2 hours
+  - `3` - heat to 100°C then maintain temperature for 3 minutes
+  - `4` - heat to 100°C (power button flashing when active)
+  - `5` - heat to preset temperature (70°C by default, can be changed using `dpID 102`) then maintain temperature for 2 hours (keep warm button)
+  - `6` - reset any running program and enter standby mode (pulsating power button)
+          
+`dpID 102` sets water temperature for the keep warm function, recommended 35 - 100 range
+`dpID 104` error notification: 
+  - `0x00` = ok 
+  - `0x01` = kettle out of water 
+  - `0x04` = kettle overheated due to too much or too little water
+`dpID 105` reports current water temperature    
+`dpID 106` reports kettle status:
+  - `1` = kettle removed from base
+  - `2` = standby mode
+  - `3` - heating to programmed target temperature
+  - `4` - cooling down to programmed target temperature
+  - `5` - maintaining programmed target temperature
+
+`dpID 107` reports approximate time until programmed target temperature is reached or remaining time for maintaining programmed target temperature when in mode `5`. Cannot be changed!
+`dpID 108` unknown, it is always reporting `5` and doesn't respond to any TuyaSend inputs
+
+#### Configuration
+
+After applying the template and configuring Wi-Fi and MQTT the preconfigured relay will not control anything. 
+
+For controlling the kettle modes you'll have to use the `TuyaSend` command:
+- `TuyaSend4 101,0` - 45°C
+- `TuyaSend4 101,1` - 60°C 
+- `TuyaSend4 101,2` - 85°C 
+- `TuyaSend4 101,3` - 100°C
+- `TuyaSend4 101,4` - 100°C without maintaining temp
+- `TuyaSend4 101,5` - keep warm
+- `TuyaSend4 101,6` - standby mode and reset if running a program
+*It is required to use `101,6` if you want to switch from one temperature to another.*
+
+Set target temperature with:
+`TuyaSend2 102,<value>` - set target temperature for `101,5`
+***or***
+`TuyaMCU 21,102` to use dimmer to set temperature. With this you can use the slider or `Dimmer` command and will prevent you by accidentally setting temperatures higher than 100°C. *Might potentially create issues if you don't have another relay configured*
+
+If you don't have an external solution for easy control you can map a dummy relays for controlling kettle modes and link them with TuyaSend using rules. Example:
+Use preconfigured Relay1 to activate 45°C mode.
+```console
+Rule ON Power1#State=1 DO TuyaSend4 101,0 ENDON ON Power1#State=0 DO TuyaSend4 101,6 ENDON
+```
+*States will not be in sync if controlled with other means. Set `PowerOnState 0` to avoid weirdness on device reset*
+
+Send water temperature to an MQTT topic
+```console
+Rule ON TuyaReceived#DpType2Id105 DO Publish stat/%topic%/TEMPERATURE %value% ENDON
+```
+
+Override device button action and `TuyaSend4 101,x` command
+Example overrides 45°C (`mode 0`) and controll another Tasmota light instead. 
+```console
+Rule ON TuyaReceived#DpType4Id101=0 DO Backlog TuyaSend4 101,6; Publish cmnd/coffee_light/POWER toggle ENDON 
+```
+*Has a minor side effect of multiple beeps.*
+
+Put kettle to standbymode when keep warm timer reaches 115 minutes aka keep warm function lasts only 5 minutes now. 
+```console
+Rule ON TuyaReceived#DpType2Id107=115 DO TuyaSend4 101,6 ENDON"}
+```
+I'm using this rule because I mostly heat water to custom temps with mode 5 and I don't need the kettle to keep heating the water for the next 2 hours.
+
+`TuyaMCU 11,108` sets `dpID 108` to avoid superfluous MCU messages that are sent when issuing a command to a nonexistent dpID.
+
+#### Home Assistant Configuration
+This implementation is suited to my specific needs and should serve as a blueprint, not a definite solution.
+
+sensor:
+```yaml
+- platform: mqtt
+  name: "Kettle Temperature"
+  state_topic: "tele/kettle/RESULT"
+  value_template: >
+    {% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpType2Id105 is defined %}
+        {{ value_json['TuyaReceived'].DpType2Id105 }}
+    {% else %}
+        {{ states('sensor.kettle_temperature') }}
+    {% endif %}
+  unit_of_measurement: "°C"
+  availability_topic: "tele/kettle/LWT"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  device_class: temperature
+
+- platform: mqtt
+  name: "Kettle Time Remaining"
+  state_topic: "tele/kettle/RESULT"
+  value_template: >
+    {% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpType2Id107 is defined %}
+        {{ value_json['TuyaReceived'].DpType2Id107 | int }}
+    {% elif is_state('sensor.kettle_status', 'Standby') %}
+        0
+    {% else %}
+      {{ states('sensor.kettle_time_remaining') | int }}
+    {% endif %}
+  unit_of_measurement: "min"
+  availability_topic: "tele/kettle/LWT"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  icon: mdi:timer
+
+- platform: mqtt
+  name: "Kettle Status"
+  state_topic: "tele/kettle/RESULT"
+  availability_topic: "tele/kettle/LWT"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  value_template: >
+    {% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpType4Id106 is defined %}
+    {% if value_json['TuyaReceived'].DpType4Id106 == 1 %}
+        Kettle removed
+    {% elif value_json['TuyaReceived'].DpType4Id106 == 2 %}
+        Standby
+    {% elif value_json['TuyaReceived'].DpType4Id106 == 3 %}
+        Heating water
+    {% elif value_json['TuyaReceived'].DpType4Id106 == 4 %}
+        Cooling down
+    {% elif value_json['TuyaReceived'].DpType4Id106 == 5 %}
+        Maintaining temperature
+    {% endif %}
+    {% else %}
+        {{ states('sensor.kettle_status') }}
+    {% endif %}
+  icon: mdi:kettle-steam
+
+  - platform: mqtt
+  name: "Kettle Error"
+  state_topic: "tele/kettle/RESULT"
+  availability_topic: "tele/kettle/LWT"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  value_template: >
+    {% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpType4Id104 is defined %}
+    {% if value_json['TuyaReceived'].DpType4Id104 == "0x00" %}
+    OK
+    {% elif value_json['TuyaReceived'].DpType4Id104 == "0x01" %}
+    Empty
+    {% elif value_json['TuyaReceived'].DpType4Id104 == "0x04" %}
+    Overheated
+    {% endif %}
+    {% else %}
+    {{ states('sensor.kettle_error') }}
+    {% endif %}
+  icon: mdi:kettle-alert
+```
+
+Switch is created to easily turn the kettle off and read whether its running or in standby for automations. Change "payload_on" to your favorite mode.
+switch:
+```yaml
+- platform: mqtt
+  name: "Kettle"
+  state_topic: "tele/kettle/RESULT"
+  value_template: >
+    {% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpType4Id106 is defined %}
+    {% if value_json['TuyaReceived'].DpType4Id106 <= 2 %}
+        OFF
+    {% elif value_json['TuyaReceived'].DpType4Id106 >= 3 %}
+        ON
+    {% endif %}
+    {% endif %}
+  state_on: "ON"
+  state_off: "OFF"
+  command_topic: "cmnd/kettle/TuyaSend4"
+  payload_on: "101,4"
+  payload_off: "101,6"
+  availability_topic: "tele/kettle/LWT"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  retain: false
+  icon: mdi:kettle
+  qos: 1
+  ```
+
+Create a modular "switch" where input select triggers automation for complete control.
+input_select:
+```yaml
+kettle_set:
+  name: Set Kettle Mode
+  options:
+      - 'Keep Warm 45C :101,0'
+      - 'Keep Warm 60C :101,1'
+      - 'Keep Warm 85C :101,2'
+      - 'Keep Warm 100C :101,3'
+      - 'Quick 100C :101,4'
+      - 'Keep Warm Custom :101,5'
+      - 'Standby :101,6'
+```
+automation:
+```yaml
+- id: turn on kettle mode
+  initial_state: true
+  alias: Turn on Kettle Mode
+  trigger:
+  - entity_id: input_select.kettle_set
+    platform: state
+  action:
+      service: mqtt.publish
+      data_template:
+        topic: 'cmnd/kettle/TuyaSend4'
+        payload: > 
+          {% set dta = trigger.to_state.state %}
+          {{dta.split(':')[1]}}
+```
+
+Set temperature where input number triggers an automation.
+input_number:
+```yaml
+kettle_temp:
+  name: Kettle Temperature
+  initial: 95
+  min: 35
+  max: 100
+  step: 5
+  unit_of_measurement: "°C"
+```
+automations:
+```yaml
+- id: set kettle temperature
+  initial_state: true
+  alias: Set Kettle Temperature
+  trigger:
+  - entity_id: input_number.kettle_temp
+    platform: state
+  action:
+      service: mqtt.publish
+      data_template:
+        topic: 'cmnd/kettle/TuyaSend2'
+        payload: "102,{{ trigger.to_state.state | int }}"
+```
