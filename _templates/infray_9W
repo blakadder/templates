@@ -1,14 +1,15 @@
 ---
-date_added: 2020-01-30
+date_added: 2020-03-17
 title: Infray 9W 900LM
 model: 
 image: https://user-images.githubusercontent.com/5904370/73453769-0275eb00-436d-11ea-8f3f-61ee29155cc7.png
 template: '{"NAME":"InfrayRGBCCT","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.de/gp/product/B07TV1RHFS/
+link: https://www.amazon.de/gp/B07TV1RHFS/
 link2: 
 mlink: 
 flash: tuya-convert
-category: light
-type: Light
-standard: global
+category: bulb
+type: RGBCCT
+standard: e27
 ---
+To flash with tuya-convert: turn on the lamp and it will be cold white. Turn on and off three times (intervals less than 10 seconds) until the lamp flashes. After 3 minutes of no activity, it goes back to normal cold white.

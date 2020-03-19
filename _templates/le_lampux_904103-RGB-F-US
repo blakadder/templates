@@ -1,0 +1,53 @@
+---
+date_added: 2020-03-18
+title: LE LampUX
+model: 904103-RGB-F-US
+image: /assets/images/le_lampux_904103-RGB-F-US.jpg
+template: '{"NAME":"LampUX","GPIO":[0,18,17,0,0,38,0,0,39,51,0,37,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07X2475VK/
+link2: https://www.amazon.ca/gp/product/B07X2475VK/
+mlink: https://www.lepro.com/le-led-strip-lights-waterproof-color-changing-led-strips-904103-rgb-f-us.html
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: us
+---
+**It took many attempts to get tuya-convert to flash**
+
+Rules to get semi working IR
+
+```console
+Rule1
+ON IrReceived#Data=0x00F7C03F DO Power 1 ENDON
+ON IrReceived#Data=0x00F740BF DO Power 0 ENDON
+ON IrReceived#Data=0x00F700FF DO Dimmer + ENDON
+ON IrReceived#Data=0x00F7807F DO Dimmer - ENDON
+ON IrReceived#Data=0x00F720DF DO Color2 1 ENDON
+ON IrReceived#Data=0x00F7A05F DO Color2 2 ENDON
+ON IrReceived#Data=0x00F7609F DO Color2 3 ENDON
+ON IrReceived#Data=0x00F7E01F DO Color2 12 ENDON
+Rule1 1
+
+Rule2
+ON IrReceived#Data=0x00F710EF DO color2 #FF3F00 ENDON
+ON IrReceived#Data=0x00F730CF DO color2 #FF7E00 ENDON
+ON IrReceived#Data=0x00F708F7 DO color2 #FFBD00 ENDON
+ON IrReceived#Data=0x00F728D7 DO color2 #FFFF00 ENDON
+ON IrReceived#Data=0x00F7906F DO color2 #00FF3F ENDON
+ON IrReceived#Data=0x00F7B04F DO color2 #00FF7E ENDON
+ON IrReceived#Data=0x00F78877 DO color2 #00FFBD ENDON
+ON IrReceived#Data=0x00F7A857 DO color2 #00FFFF ENDON
+ON IrReceived#Data=0x00F750AF DO color2 #3F00FF ENDON
+Rule2 1
+
+Rule3
+ON IrReceived#Data=0x00F7708F DO color2 #7E00FF ENDON
+ON IrReceived#Data=0x00F748B7 DO color2 #BD00FF ENDON
+ON IrReceived#Data=0x00F76897 DO color2 #FF00FF ENDON
+ON IrReceived#Data=0x00F7D02F DO backlog speed 1;Scheme 4 ENDON
+ON IrReceived#Data=0x00F7F00F DO backlog speed 5;Scheme 2 ENDON
+ON IrReceived#Data=0x00F7C837 DO Fade Toggle ENDON
+ON IrReceived#Data=0x00F7E817 DO backlog Fade 0;BlinkTime 1;BlinkCount 2;Power 3;RuleTimer1 60 ENDON
+ON Rules#Timer=1 do backlog Fade 1;Power 0 ENDON
+Rule3 1
+```console

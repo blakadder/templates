@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-19
+title: Moes WS-EUY1-W 1 Gang 
+model: SS86-AI
+image: /assets/images/moes-WS-EUY1-W.jpg
+template: '{"NAME":"WS-EUY1-W","GPIO":[157,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000372737054.html
+link2: https://www.banggood.com/MoesHouse-WS-EUY1-W-EU-Standard-1-Gang-Smart-Push-Button-Switch-Smart-Life-Tuya-Wireless-Remote-Control-Work-with-Alexa-Google-Home-p-1612310.html 
+mlink: https://www.moeshouse.com/collections/eu-smart-switch/products/wifi-de-smart-push-button-1gang-switch-removable-detachable-smart-life-tuya-app-remote-control-work-with-alexa-google-home
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---
