@@ -1,10 +1,10 @@
 ---
-date_added: 2020-01-22
-title: ProfiCook PC-WKS 1167 G 1.5 L 
+date_added: 2020-03-20
+title: ProfiCook PC-WKS 1167G 1.5L 
 model: 501167
-image: https://user-images.githubusercontent.com/5904370/74509014-c2803d80-4f00-11ea-8b4d-e11cbde9ea78.png
+image: /assets/images/proficook_PC-WKS_1167.jpg
 template: '{"NAME":"PC-WKS Kettle","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
-link: https://www.amazon.de/Wasserkocher-kostenlose-programmierbare-Temperaturregelung-Edelstahlgeh%C3%A4use/dp/B07PQPZ8HH
+link: https://www.amazon.de/dp/B07PQPZ8HH
 link2: https://www.conrad.com/p/profi-cook-pc-wks-1167-g-tea-maker-stainless-steel-glass-1974778
 mlink: https://www.proficook.de/products/en/New-products/PC-WKS-1167G-Glass-tea-kettle.html
 flash: tuya-convert
