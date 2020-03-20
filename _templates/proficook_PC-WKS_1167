@@ -97,7 +97,7 @@ Rule ON TuyaReceived#DpType2Id107=110 DO TuyaSend4 101,6 ENDON
 ```
 I'm using this rule because I mostly heat water to custom temps with mode 5 and I don't need the kettle to keep heating the water for the next 2 hours.
 
-`TuyaMCU 11,108` sets `dpID 108` to avoid superfluous MCU messages that are sent when issuing a command to a nonexistent dpID.
+`TuyaMCU 11,108` sets the relay to `dpID 108` which avoids superfluous MCU messages that are sent when issuing a command to a nonexistent dpID.
 
 ### Home Assistant Configuration
 This implementation is suited to my specific needs and should serve as a blueprint, not a definite solution.
@@ -285,3 +285,5 @@ automations:
 {% endhighlight %}
 
 ![Integrated in HA](/assets/images/proficook_PC-WKS_1167-ha.jpg)
+
+<span style="float:right">by sthope and [blakadder](https://twitter.com/blakadder_)</span>
