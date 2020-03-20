@@ -281,3 +281,5 @@ automations:
         payload: "102,{{ trigger.to_state.state | int }}"
 {% endraw %}
 {% endhighlight %}
+
+![Integrated in HA](/assets/images/proficook_PC-WKS_1167-ha.jpg)
