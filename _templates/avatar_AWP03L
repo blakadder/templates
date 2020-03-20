@@ -1,7 +1,7 @@
 ---
 date_added: 2020-03-20
 title: Avatar AWP03L
-model: X001LZINZX
+model: 
 image: /assets/images/avatar_AWP03L.jpg
 template: '{"NAME":"AWP03L","GPIO":[0,0,0,0,0,0,0,0,21,17,56,57,0],"FLAG":0,"BASE":18}' 
 link: https://smile.amazon.com/gp/product/B075Z14714/
