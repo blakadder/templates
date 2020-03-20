@@ -86,12 +86,12 @@ Rule ON TuyaReceived#DpType2Id105 DO Publish stat/%topic%/TEMPERATURE %value% EN
 ```
 
 Override device button action and `TuyaSend4 101,x` command. *Has a minor side effect of multiple beeps.*
- Example overrides 45°C (`mode 0`) and controll another Tasmota light instead. 
+ Example overrides 45°C (`mode 0`) and instead controls another Tasmota light. 
 ```console
 Rule ON TuyaReceived#DpType4Id101=0 DO Backlog TuyaSend4 101,6; Publish cmnd/coffee_light/POWER toggle ENDON 
 ```
 
-Put kettle to standbymode when keep warm timer reaches 110 minutes aka keep warm function lasts only 5 minutes now. 
+Put kettle in standby mode when keep warm timer reaches 110 minutes aka keep warm function lasts only 10 minutes now. 
 ```console
 Rule ON TuyaReceived#DpType2Id107=110 DO TuyaSend4 101,6 ENDON
 ```
