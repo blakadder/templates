@@ -67,7 +67,7 @@ For controlling the kettle modes you'll have to use the `TuyaSend` command:
 
 Set target temperature with:
 
-`TuyaSend2 102,<value>` - set target temperature for `101,5`
+`TuyaSend2 102,<value>`
 
 ***or***
 
