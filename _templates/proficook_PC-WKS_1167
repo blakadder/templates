@@ -102,6 +102,8 @@ I'm using this rule because I mostly heat water to custom temps with mode 5 and 
 ### Home Assistant Configuration
 This implementation is suited to my specific needs and should serve as a blueprint, not a definite solution.
 
+First set `SetOption66 1` to enable sending all TuyaReceived data over MQTT!
+
 sensor:
 {% highlight yaml %}
 {% raw %}
