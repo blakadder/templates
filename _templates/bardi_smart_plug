@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-20
+title: Bardi 16A
+model: 
+image: /assets/images/bardi_smart_plug.jpg
+template: '{"NAME":"BARDI","GPIO":[56,0,0,0,0,134,0,0,21,17,132,57,131],"FLAG":0,"BASE":18}' 
+link: https://bardi.co.id/products/portable-plug-16a-wem/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
