@@ -11,5 +11,4 @@ link: https://www.banggood.com/SONOFF-D1-Smart-Dimmer-Switch-Work-with-Alexa-Goo
 link2: https://www.aliexpress.com/item/4000516349785.html
 link3: 
 ---
-
-***Experimental support implemented in development version 8.1.0.10.***
+**Supported only in Tasmota 8.2+. Support is still experimental.**
