@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-21
+title: electriQ MOODL Ambiance Lamp 
+model: iQ-wifiMOODL
+type: Light
+category: light
+standard: global
+link: https://www.amazon.co.uk/Dimmable-Colour-Changing-Smart-Mood/dp/B07NBRNPQM
+image: /assets/images/electriq_iQ-wifiMOODL.jpg
+template: '{"NAME":"ElectriQ MOODL","GPIO":[0,201,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+mlink: https://www.electriq.co.uk/p/iq-wifimoodl/electriq-dimmable-colour-changing-led-smart-mood-lamp-alexa-and-google-home-compatible#/maindesc
+---
+**Supported only in Tasmota 8.2+**
