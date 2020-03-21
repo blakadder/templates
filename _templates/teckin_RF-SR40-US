@@ -3,7 +3,7 @@ date_added: 2020-02-13
 title: Teckin RF-SR40-US
 model: RF-SR40-US
 image: /assets/images/teckin_RF-SR40-US.jpg
-template: '{"NAME":"RF-SR40-US","GPIO":[0,0,0,0,57,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"RF-SR40-US","GPIO":[58,0,0,17,56,18,0,0,22,21,57,23,158],"FLAG":0,"BASE":18}'
 link: https://smile.amazon.com/dp/B07RFPSZLG
 link2: 
 mlink: 
