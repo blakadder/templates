@@ -12,3 +12,5 @@ link2: https://www.aliexpress.com/item/4000516349785.html
 link3: 
 ---
 **Supported only in Tasmota 8.2+. Support is still experimental.**
+
+Sonoff offers a [RM433 remote](sonoff_RM433) that works natively with this device.

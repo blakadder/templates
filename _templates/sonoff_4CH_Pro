@@ -29,6 +29,9 @@ Use the ESP programming header as described in the picture to upload the firmwar
 <img title="Sonoff 4CH Pro programming" src="https://github.com/arendst/arendst.github.io/blob/master/media/4chpro_gpio0.JPG?raw=true" width="100%" />
 
 ### Sonoff 4CH Pro R2
+
+Sonoff offers a [RM433 remote](sonoff_RM433) that works natively with this device.
+
 On the R2 module the GPIO0 pin is broken out to [a small pad to the right of the ESP package](https://github.com/arendst/Tasmota/issues/2021#issuecomment-371227748):
 
 <img title="R2 module - GPIO0 pad" src="https://user-images.githubusercontent.com/3594528/37109801-58fb97a4-223b-11e8-969c-1131dcfa6ee1.jpg" />

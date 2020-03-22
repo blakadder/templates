@@ -11,7 +11,7 @@ link: https://www.banggood.com/SONOFF-IFan03-AC100-240V-5060Hz-WiFi-Ceiling-Fan-
 link2: https://www.amazon.com/gp/product/B07TRTG8PS
 ---
 
-ESP8285 Based
+Sonoff offers a [RM433 remote](sonoff_RM433) that works natively with this device.
 
 For US (fan speed capacitors) - https://github.com/arendst/Tasmota/issues/5988#issuecomment-515720388
 

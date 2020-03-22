@@ -16,5 +16,8 @@ Also available from:
 * [amazon.co.uk](https://amzn.to/2QtlLK4)
 * [Gearbest](https://www.gearbest.com/sale/rf-bridge/?lkid=78224145)
 
+
+Sonoff offers a [RM433 remote](sonoff_RM433) that works natively with this device.
+
 ## Serial Flashing
 Complete guide on [Tasmota Wiki](https://tasmota.github.io/docs/#/devices/Sonoff-RF-Bridge-433)

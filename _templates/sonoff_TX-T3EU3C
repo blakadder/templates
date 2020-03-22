@@ -16,7 +16,7 @@ Sonoff TX series is a new generation of wall switches with an updated front plat
 
 ![Backside](/assets/images/sonoff_TX-T3EU3Ca.jpg)
 
-Alongside standard Wi-Fi controls, TX series (with notable exception of the T0 line) can be controlled via 433Mhz RF. Sonoff offers their own [RM433 remote](https://www.itead.cc/smart-home/sonoff-rm433-remote-controller-base.html) that works with TX series as well as all other Sonoff RF capable devices. Remote can be paired with the RM433-BASE magnetic wall mount to easily simulate a 3way switch without any additional wiring.
+Alongside standard Wi-Fi controls, TX series (with notable exception of the T0 line) can be controlled via 433Mhz RF. Sonoff offers their own [RM433 remote](sonoff_RM433) that works with TX series as well as all other Sonoff RF capable devices. Remote can be paired with the RM433-BASE magnetic wall mount to easily simulate a 3way switch without any additional wiring.
 
 ![TX with remote](/assets/images/sonoff_TX-T3EU3Cb.jpg)
 
