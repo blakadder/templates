@@ -8,7 +8,7 @@ link2:
 mlink: https://www.moeshouse.com/products/diy-smart-wifi-light-led-dimmer-switch-smart-life-tuya-app-remote-control-1-2-way-switch-works-with-alexa-echo-google-home-1
 flash: tuya-convert
 category: switch
-type: Dimmer
+type: Dimmablemer
 standard: global
 ---
 After applying the template, enable dimmer functionality using console command:

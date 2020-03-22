@@ -8,7 +8,7 @@ link2:
 mlink: 
 flash: tuya-convert
 category: bulb
-type: WW
+type: Dimmable
 standard: e26
 ---
 It is a white box sold on Amazon under many different names, but they all look the same.

@@ -8,6 +8,6 @@ link2: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-filament-ledlamp-
 mlink: 
 flash: tuya-convert
 category: bulb
-type: WW
+type: Dimmable
 standard: e27
 ---

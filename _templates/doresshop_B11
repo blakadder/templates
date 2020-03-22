@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: tuya-convert
 category: bulb
-type: WW
+type: Dimmable
 standard: e12
 ---
 Took several attempts with tuya-convert to get a successful flash but it went through, even on one bulb connected with TuyaSmart -- January 2020

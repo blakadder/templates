@@ -9,7 +9,7 @@ link2: https://www.pearl.de/a-ZX2982-3103.shtml
 mlink: https://www.luminea.info/Alternative-zu-38319-E27-ST64-LED-Filament-Lampe--ZX-2982-919.shtml
 flash: tuya-convert
 category: bulb
-type: WW
+type: Dimmable
 standard: e27
 ---
 Turn on, wait 10 sec. then turn light off-on 5x to get into pairing mode. Fast blinking.

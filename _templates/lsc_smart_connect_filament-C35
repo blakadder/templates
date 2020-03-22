@@ -8,6 +8,6 @@ link2: https://www.action.com/de-de/p/lsc-smart-connect-intelligente-led-filamen
 mlink: 
 flash: tuya-convert
 category: bulb
-type: WW
+type: Dimmable
 standard: e14
 ---

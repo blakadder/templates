@@ -9,7 +9,7 @@ link2:
 mlink: https://www.cesmarthome.com/CFW500D-3W.html
 flash: tuya-convert
 category: switch
-type: Dimmer
+type: Dimmablemer
 standard: us
 ---
 This Smart switch is sold in a 2-pack at Costco.ca. 

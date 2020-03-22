@@ -8,7 +8,7 @@ link2: https://www.amazon.de/dp/B07PQKHQ19/
 mlink: https://www.teekar.de/products/teekar-smart-dimmer-switch
 flash: tuya-convert
 category: switch
-type: Dimmer
+type: Dimmablemer
 standard: eu
 ---
 This device requires Tasmota with [Scripting](https://tasmota.github.io/docs/#/Scripting-Language) support. You will need to [compile your own build](https://tasmota.github.io/docs/#/compile-your-build) or download an older precompiled binary of [**Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip**](https://github.com/arendst/Tasmota/files/3776333/Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip)

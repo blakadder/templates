@@ -1,6 +1,6 @@
 ---
 date_added: 2020-03-21
-title: LiteMate 810lm
+title: LiteMate A90 810lm
 model: LM043
 image: /assets/images/litemate_LM043.jpg
 template: '{"NAME":"LiteMate 9W","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 

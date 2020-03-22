@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: tuya-convert
 category: switch
-type: Dimmer
+type: Dimmablemer
 standard: us
 ---
 ```console

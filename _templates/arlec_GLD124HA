@@ -1,0 +1,16 @@
+---
+date_added: 2020-03-22
+title: Arlec 9W 950lm 4000K
+model: GLD124HA
+image: /assets/images/arlec_GLD124HA.jpg
+template: '{"NAME":"Arlec-GLD124HA","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-9w-950lm-4000k-smart-bc-globe-with-grid-connect_p0136183
+link2: 
+mlink: 
+flash: tuya-convert
+type: Dimmable
+category: bulb
+standard: b22
+---
+
+NOTES:
