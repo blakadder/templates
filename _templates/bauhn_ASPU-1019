@@ -4,8 +4,8 @@ title: Bauhn ASPU-1019
 category: plug
 type: Plug
 standard: au
-link: http://www.bauhn.com.au/product-listing/smart-wall-plug-ASPU-1019
-image: http://www.bauhn.com.au/_media/webapp/product-listing/ASPU-1019/2.jpg
+mlink: https://bauhn.com.au/wp-content/uploads/2020/02/ASPU-1019-Smart-Wall-Plug-UM-v8.pdf
+image: /assets/images/bauhn_ASPU-1019.jpg
 template: '{"NAME":"Buahn Smart Pl","GPIO":[0,0,0,0,21,22,0,0,0,56,17,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

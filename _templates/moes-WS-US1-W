@@ -3,7 +3,7 @@ date_added: 2019-10-18
 title: Moes WS-US1-W 1 Gang
 category: switch
 type: Switch
-standard: us
+standard: [au, us]
 link: https://www.amazon.com/gp/product/B07C8FJY3G
 image: https://images-na.ssl-images-amazon.com/images/I/41oZleEF0lL._SL1001_.jpg
 template: '{"NAME":"WS-US1-W","GPIO":[54,0,0,17,21,0,0,0,0,0,52,0,55],"FLAG":0,"BASE":18}' 

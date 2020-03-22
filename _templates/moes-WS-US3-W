@@ -3,7 +3,7 @@ date_added: 2019-04-08
 title: Moes WS-US3-W 3 Gang
 category: switch
 type: Switch
-standard: us
+standard: [au, us]
 link: https://www.amazon.com/Wireless-Anywhere-Compatible-Function-Required/dp/B07BM1JJDC
 image: https://images-na.ssl-images-amazon.com/images/I/41LEqcVVgZL._SX679_.jpg
 template: '{"NAME":"Tuya Moes 3 Ch","GPIO":[27,255,26,18,22,19,0,0,17,21,25,23,24],"FLAG":0,"BASE":18}' 

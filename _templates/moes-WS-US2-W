@@ -3,7 +3,7 @@ date_added: 2019-03-11
 title: Moes WS-US2-W 2 Gang
 category: switch
 type: Switch
-standard: au
+standard: [au, us]
 link: https://www.amazon.com/gp/product/B07BLZFQZZ
 image: https://images-na.ssl-images-amazon.com/images/I/41R45LydfyL._SL1001_.jpg
 template: '{"NAME":"WS-US2-W ","GPIO":[52,0,53,0,0,18,0,0,17,21,0,22,54],"FLAG":0,"BASE":18}' 
