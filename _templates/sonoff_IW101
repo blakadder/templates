@@ -1,0 +1,34 @@
+---
+date_added: 2020-04-04
+title: Sonoff IW101
+model: IW101
+category: switch
+type: Switch
+standard: us
+flash: serial
+mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/iw100-101
+image: /assets/images/sonoff_IW101.jpg
+template: '{"NAME":"Sonoff IW100","GPIO":[17,145,0,146,0,0,0,0,21,157,0,0,0],"FLAG":0,"BASE":41}' 
+link: https://www.aliexpress.com/item/4000379308850.html
+link2: https://www.amazon.com/Monitoring-Compatible-Schedule-Control-Required/dp/B083LJZGFK
+link3: https://www.gearbest.com/access-control/pp_009367259270.html
+---
+I think this is the first wall switch that support power monitoring using an ESP8266. It uses a Chipsea CS7598 chip for it, similiarly to the [S31](sonoff_S31). The relay is rated to 16A 250V but Sonoff states max 15A incandescent or CFL load.
+
+The single led on the front plate serves as power and connectivity indicator.
+
+![Back label](/assets/images/sonoff_IW101_back.jpg)
+![Insides](/assets/images/sonoff_IW101_inner.jpg)
+
+The switchplate is removable and is held on only by a few plastic clips. Access to the internals requires unscrewing 4 screws. After removing them we see the main PCB with mains electricty, a wifi daughterboard soldered on to it and the touch pad board connected with a 6 pin header. 
+
+![PCB removed from shell](https://user-images.githubusercontent.com/5904370/73011429-7ae02780-3e14-11ea-88c7-857f35310be8.png)
+
+## Serial Flashing
+Necessary GPIO's are neatly broken out  on bottom left, albeit only on pads. To put the device into flash mode you need to ground GPIO0 using a wire to connect the two during boot (I recommend using a dupont wire on the header that connects to the switchplate). See image for pin locations.  
+![Pinout](/assets/images/sonoff_IW101_pinout.jpg)
+
+Follow the standard flashing procedure and that's it. 
+![Wiring](/assets/images/sonoff_IW101_wiring.jpg)
+
+<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>
