@@ -22,7 +22,7 @@ The single led on the front plate serves as power and connectivity indicator.
 
 The switchplate is removable and is held on only by a few plastic clips. Access to the internals requires unscrewing 4 screws. After removing them we see the main PCB with mains electricty, a wifi daughterboard soldered on to it and the touch pad board connected with a 6 pin header. 
 
-![PCB removed from shell](https://user-images.githubusercontent.com/5904370/73011429-7ae02780-3e14-11ea-88c7-857f35310be8.png)
+![PCB](/assets/images/sonoff_IW101_pcb.jpg)
 
 ## Serial Flashing
 Necessary GPIO's are neatly broken out  on bottom left, albeit only on pads. To put the device into flash mode you need to ground GPIO0 using a wire to connect the two during boot (I recommend using a dupont wire on the header that connects to the switchplate). See image for pin locations.  
