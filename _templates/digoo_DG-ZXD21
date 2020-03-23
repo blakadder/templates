@@ -1,0 +1,109 @@
+---
+date_added: 2020-03-22
+title: Digoo DG-ZXD21 Door Detector
+model: DG-ZXD21
+template: '{"NAME":"Digoo ZXD21","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+image: /assets/images/digoo_DG-ZXD21.gif
+flash: tuya-convert
+category: misc
+type: Sensor
+standard: global
+mlink: 
+link: https://www.banggood.com/APP-Powered-by-Tuya-DIGOO-DG-ZXD21-Independent-WIFI-Door-Window-Sensor-Detection-Smart-Home-Security-System-Kits-p-1557162.html
+link2: https://www.aliexpress.com/item/4000141849551.html
+---
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/#/TuyaMCU) article to understand the terminology and configuration process.
+
+This is a Tuya/Smart Life battery powered contact (door or window) sensor. Runs on two AAA batteries (not supplied with the device).
+
+Identified with `MCU Product ID: {"p":"zhnheicnjh6civjf","v":"1.0.0"}`.
+
+![Internals](/assets/images/digoo_DG-ZXD21_internal.jpg)
+
+## Flashing
+To have best results with this type of device I strongly recommend compiling your own stripped down binary with preconfigured Wi-Fi and MQTT credentials which has the added benefit of faster flashing. 
+
+Example <a href="/assets/tuya_sensor_user_config.txt" target="_blank" >user_config_override</a> defines (for Tasmota 8.2+).
+
+### Tuya-Convert
+It is possible to flash the device using Tuya-Convert but it might need a couple tries due to the MCU resetting the battery powered TYWE3S module. Prepare everything for Tuya-Convert then long press the configuration button to put the device in pairing mode. Be very quick about issuing commands. If it fails try again, you can continue from some points of the conversion process.
+
+### Serial
+
+Easily disassembled by removing the back plate, then prying away the battery holder from the main enclosure.
+
+The PCB has only the "V1.2" marking on it and a prominent TYWE3S module with "Model: 2.22.03.04244". There are broken out pins for 3v3, RX, TX and GND but to be able to solder a pin header in them you need to desolder the battery holder which is probably not worth the trouble since all the needed pins are accessible on the TYWE3S module. 
+
+To be able to flash this module you will need to connect:
+
+| TYWE3S | serial-to-USB |
+| TX | RX |
+| RX | TX |
+| GND | GND |
+| GPIO0 | GND |
+| VCC | 3V3 |
+| EN | 3V3 |
+| RST | 3V3 |
+
+RST is supposed to be pulled high only on boot but in my case it had to be connected throughout the entire flash process.
+
+![Internals](/assets/images/digoo_DG-ZXD21_wiring.jpg)
+
+## Configuration
+To make the configuration process easier you can use the Configuration switch to prevent the ZXD21 from turning off for 30 seconds.
+
+Change device to a TuyaMCU module using `Module 54` command (or apply the provided template, result is the same)
+
+Disable multipress button options to prevent a device reset or Wi-Fi AP config mode, disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and set switchmode to follow instead of toggle.
+```console
+Backlog SetOption1 1; SetOption65 1; SetOption66 1; SwitchMode 1
+```
+
+Switch the device to battery powered sensor mode (fnId 51):
+```console
+TuyaMCU 51,21
+```
+Once you do this the device will stay powered on for only 10 seconds. If you want to do other configurations or upgrade firmware first you have to turn battery sensor mode using `TuyaMCU 51,0`, turn it back on when you're finished.
+
+Check with `TuyaMCU` for the following configuration:
+```json
+ {"TuyaMCU":[{"fnId":11,"dpId":1},{"fnId":51,"dpId":21}]}
+```
+
+## Functions
+
+`dpID 1` reed switch: closed = off / open = on    
+`dpID 2` battery percentage   
+`dpID 3` tamper alarm
+
+This devices uses a different command word (Cmnd =5 ) in its messaging so battery percentage and tamper alarm cannot be interpreted by the TuyaMCU driver.
+
+### Reed Switch
+dpID 1 is assigned to Relay1 by default. It will report status using POWER topic.
+
+### Tamper Switch
+When tamper switch is depressed it wakes up Tasmota and sends the following message `{"TuyaReceived":{"Data":"55AA00050005030400010112","Cmnd":5,"CmndData":"0304000101"}}`.
+
+You can use this rule to report to an MQTT topic when the tamper switch is triggered.
+
+```console
+Rule1 ON TuyaReceived#Data=55AA00050005030400010112 DO Publish %topic%/TAMPER ON ENDON
+```
+Don't forget to turn on the rule with `Rule1 1`!
+
+### Battery Percentage
+Battery percentage is posted in a message similar to    
+`{"TuyaReceived":{"Data":"55AA00050008020200040000004256","Cmnd":5,"CmndData":"0202000400000042"}`. 
+
+In this case the CmndData string is longer from other dpID's (16 characters long). Last two digits are battery percentage in hexadecimal. There's no easy way to read battery status in Tasmota.
+
+
+
+
+## Final Notes
+There is a significant delay (~6s on my network with a stripped down binary and a static IP) between reed actuation and first MQTT message so I don't recommmend this in critical spots where a fast response is required.
+
+If the batteries are too weak, sensor might be stuck in a bootloop or spawn an ESP-XXXXX AP. The bootloop can reset Tasmota to "factory defaults". You can disable bootloop protection with `SetOption36 0` but that might also put the sensor in a permanent bootloop until the battery dies.
+
+<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

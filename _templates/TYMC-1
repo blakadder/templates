@@ -25,7 +25,11 @@ Identified with MCU Product ID: `{"p":"hx5ztlztij4yxxvg","v":"1.0.0"}` which is 
 
 
 ## Flashing
+To have best results with this type of device I strongly recommend compiling your own stripped down binary with preconfigured Wi-Fi and MQTT credentials which has the added benefit of faster flashing. 
 
+Example <a href="/assets/tuya_sensor_user_config.txt" target="_blank" >user_config_override</a> defines (for Tasmota 8.2+).
+
+### Serial
 Easily disassembled by removing the back plate, unscrewing the screw in the battery holder and prying away the plastic using the bottom slot. 
 ![Disassembly](https://user-images.githubusercontent.com/5904370/70840664-147ae900-1e14-11ea-9451-2cf352ebc609.png)
 
@@ -77,13 +81,8 @@ The button labelled reset can wake up the device with a short press or put it in
 
 dpID 1 is assigned to Relay1 by default. 
 
-There is no function in Tasmota for enum dpID's currently so we will use a rule to report battery status (high, medium or low) to a custom topic of `stat/door-sensor/BATT` (change it to any other topic suitable for you)
+There is no function in Tasmota for enum dpID's currently so we will use a rule to report battery status (high, medium or low) to a custom topic (change it to any other topic suitable for you)
 
-```console
-Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/door-sensor/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010114 DO publish2 stat/door-sensor/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010015 DO publish2 stat/door-sensor/BATT low ENDON
-```
-
-Starting with Tasmota 7.2, you can use this generic rule for all your sensors
 ```console
 Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010114 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010015 DO publish2 stat/%topic%/BATT low ENDON
 ```
@@ -95,8 +94,9 @@ Rule1 1
 
 And there it is, relatively small battery and Tasmota powered contact sensor.
 
-_There is a few seconds delay (~7s on my network) between reed actuation and first MQTT message so I don't recommmend this in critical spots where a fast response is required. Using a custom binary with less features shortens the delay by a second or two._
+## Final Notes
+There is a significant delay (~6s on my network with a stripped down binary and a static IP) between reed actuation and first MQTT message so I don't recommmend this in critical spots where a fast response is required.
 
-If the batteries are too weak sensor will be stuck in a bootloop and might spawn an ESP-XXXXX AP. 
+If the batteries are too weak, sensor might be stuck in a bootloop or spawn an ESP-XXXXX AP. The bootloop can reset Tasmota to "factory defaults". You can disable bootloop protection with `SetOption36 0` but that might also put the sensor in a permanent bootloop until the battery dies.
 
 <span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>
