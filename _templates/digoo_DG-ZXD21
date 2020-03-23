@@ -1,5 +1,5 @@
 ---
-date_added: 2020-03-23
+date_added: 2020-03-28
 title: Digoo DG-ZXD21 Door Detector
 model: DG-ZXD21
 template: '{"NAME":"Digoo ZXD21","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
@@ -51,7 +51,7 @@ RST is supposed to be pulled high only on boot but in my case it had to be conne
 ![Internals](/assets/images/digoo_DG-ZXD21_wiring.jpg)
 
 ## Configuration
-To make the configuration process easier you can use the Configuration switch to prevent the ZXD21 from turning off for 30 seconds.
+To make the configuration process easier you can use the Configuration button to prevent the ZXD21 from turning off for 30 seconds.
 
 Change device to a TuyaMCU module using `Module 54` command (or apply the provided template, result is the same)
 
@@ -99,8 +99,20 @@ Battery percentage is posted in a message similar to
 
 In this case the CmndData string is longer from other dpID's (16 characters long). Last two digits are battery percentage in hexadecimal. There's no easy way to read battery status in Tasmota.
 
-
-
+Battery percentage sensor in Home Assistant:
+```yaml
+- platform: mqtt
+  name: "Digoo Battery"
+  state_topic: "tele/digoo/RESULT"
+  value_template: >
+    {% set test = value_json['TuyaReceived'].CmndData | length %}
+    {% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].Cmnd == 5 and test == 16 %}
+    {{ value_json['TuyaReceived'].CmndData[14:16]|int(base=16) }}
+    {% else %}  
+    {{ states('sensor.digoo_battery') }}
+    {% endif %}  
+  device_class: battery
+```
 
 ## Final Notes
 There is a significant delay (~6s on my network with a stripped down binary and a static IP) between reed actuation and first MQTT message so I don't recommmend this in critical spots where a fast response is required.

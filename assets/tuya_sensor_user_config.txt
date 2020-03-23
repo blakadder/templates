@@ -2,7 +2,6 @@
 #define MODULE                 TUYA_DIMMER      // [Module] Defined TuyaMCU (54) as default
 
 #define APP_DISABLE_POWERCYCLE true             // [SetOption65] Disable fast power cycle detection for device reset
-#define MODULE                 TUYA_DIMMER      // [Module] Defined TuyaMCU (54) as default
 
 #undef USE_EMULATION_HUE
 #undef USE_EMULATION_WEMO   
