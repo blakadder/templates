@@ -1,5 +1,5 @@
 ---
-date_added: 2020-03-22
+date_added: 2020-03-23
 title: Digoo DG-ZXD21 Door Detector
 model: DG-ZXD21
 template: '{"NAME":"Digoo ZXD21","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
