@@ -9,7 +9,7 @@ link2: https://www.costco.com/feit-electric-smart-dimmer%2C-3-pack.product.10051
 mlink: https://www.feit.com/product/smart-wi-fi-dimmer/
 flash: tuya-convert
 category: switch
-type: Dimmablemer
+type: Dimmer
 standard: us
 ---
 ```console

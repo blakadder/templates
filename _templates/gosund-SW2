@@ -8,7 +8,7 @@ link2:
 mlink: https://gosund.com/download/smart_switch/137.html
 flash: tuya-convert
 category: switch
-type: Dimmablemer
+type: Dimmer
 standard: us
 ---
 This setup requires enabling [Scripting](https://tasmota.github.io/docs/#/Scripting-Language)

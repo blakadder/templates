@@ -8,7 +8,7 @@ link2: https://www.banggood.com/WIFI-Smart-Dimmer-Light-Wall-Switch-Touch-Remote
 mlink: 
 flash: tuya-convert
 category: switch
-type: Dimmablemer
+type: Dimmer
 standard: eu
 ---
 Issue command:

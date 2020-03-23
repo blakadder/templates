@@ -8,7 +8,7 @@ link2: https://www.amazon.com/Treatlife-Incandescent-Compatible-Assistant-Single
 mlink: https://www.treatlife.tech/collections/smart-dimmer-switch/products/smart-dimmer-switch-treatlife-wifi-light-switch-for-dimmable-led-halogen-incandescent-bulbs-compatible-with-alexa-google-assistant-ifttt-remote-control-single-pole-neutral-wire-required
 flash: tuya-convert
 category: switch
-type: Dimmablemer
+type: Dimmer
 standard: us
 ---
 After Flash and Update with Tuya-Convert:
