@@ -19,3 +19,8 @@ Backlog SerialLog 0; PowerOnState 0; SetOption63 1; LEDState 1
 Rule1 ON System#Boot DO Power3 On ENDON    # Turn the USB port on
 Rule1 1
 ```
+Alternative template 
+
+```json
+{"NAME":"RF-SR40-US","GPIO":[158,0,0,17,56,18,0,0,22,21,57,23,0],"FLAG":0,"BASE":18}
+```
