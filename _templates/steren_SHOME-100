@@ -2,7 +2,7 @@
 date_added: 2020-03-25
 title: Steren SHOME-100
 model: CAJ-SHOME-100 -V1.0 JHL
-image: /assets/images/
+image: /assets/images/steren_SHOME-100.jpg
 template: '{"NAME":"SHOME-100 V1.0","GPIO":[0,0,0,0,0,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: 
 link2: 
