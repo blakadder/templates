@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-25
+title: Steren SHOME-100
+model: CAJ-SHOME-100 -V1.0 JHL
+image: /assets/images/
+template: '{"NAME":"SHOME-100 V1.0","GPIO":[0,0,0,0,0,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.steren.com.mx/contacto-tomacorriente-wi-fi.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
