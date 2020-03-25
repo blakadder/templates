@@ -9,6 +9,8 @@ image: https://camo.githubusercontent.com/d41d35c4d2be85d9eb2cc7994981346578f772
 template: '{"NAME":"WL-SW01_10","GPIO":[17,149,0,148,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}'
 mlink: https://detail.1688.com/offer/555231932025.html
 ---
+Devices bought in February 2020 come with a revised PCB where the module is in a different orientation and possibly different pinout:
+![](https://user-images.githubusercontent.com/34582688/77553920-53a5e500-6ead-11ea-8b6e-0145545fed38.png)
 
 Manufactured by Blue50 as [WL-SW01_10](https://detail.1688.com/offer/555231932025.html) and also sold as [TISHRIC](http://s.click.aliexpress.com/e/EWttiDR2).
 
