@@ -9,11 +9,17 @@ image: https://www.action.com/globalassets/cmsarticleimages/79/81/2578634_871287
 template: '{"NAME":"LSC RGBW Strip","GPIO":[51,0,0,0,37,0,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
+To use the build in IR Receiver connected to GPIO00 as IRrecv (if this cannot be selected under configuration use Tasmota-Sensors.bin) add the following rule via Command Line. 
 
+```console
+Rule1 ON IrReceived#Data=0x00F740BF DO power Off ENDON ON IrReceived#Data=0x00F7C03F DO wakeup ENDON ON IrReceived#Data=0x00F700FF DO dimmer + ENDON ON IrReceived#Data=0x00F7807F DO dimmer - ENDON ON IrReceived#Data=0x00F720DF DO color 1 ENDON ON IrReceived#Data=0x00F7A05F DO color 2 ENDON ON IrReceived#Data=0x00F7609F DO color 3 ENDON ON IrReceived#Data=0x00F7E01F DO color 000000FF ENDON
+```
 
+Don't forget to enable the rule with 'Rule1 1'!
 
+The IR commands don't look complete but support ON/OFF and RGBW Color changes.
 
-
+[Source for IR settings](link: https://www.circuitsonline.net/forum/view/146361/3)
 
 
 
