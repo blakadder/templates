@@ -1,12 +1,12 @@
 ---
 date_added: 2020-03-26
-title: Lohas M5-022
+title: Lohas ZN022 5m RGBW
 model: LH-Light Strip-RGBW
 image: /assets/images/lohas_M5-022.jpg
 template: '{"NAME":"LOHAS M5-022","GPIO":[17,0,0,0,38,37,0,0,0,39,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://smile.amazon.com/gp/product/B07WNHXLK7/
-link2: 
-mlink: https://www.lohas-led.com/lohas-wifi-led-strip-lights-work-with-amazon-aleax-multicolored-164ft-smart-phone-control-led-light-string-for-party-christmas-decoration-home_p0095.html
+link2: https://lohasled.en.alibaba.com/product/62053877189-806928550/Alexa_Voice_Control_5M_RGB_Wifi_Tuya_Smart_LED_Strip_Light.html
+mlink: https://www.lohasled.com/5m-strip-p00173p1.html
 flash: tuya-convert
 category: light
 type: LED Strip
