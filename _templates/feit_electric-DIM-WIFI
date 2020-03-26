@@ -12,6 +12,8 @@ category: switch
 type: Dimmer
 standard: us
 ---
+**Caution!** There has been [a report](https://community.home-assistant.io/t/costco-feit-smart-dimmer-tuya-convert-tasmota/151390/7) of Tasmota not communicating with the MCU properly.
+
 ```console
 TuyaMCU 21,2
 ```
