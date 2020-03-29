@@ -9,4 +9,4 @@ template: '{"NAME":"BlitzWolf SHP","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21
 link: https://www.aliexpress.com/item/32931065090.html
 ---
 ## Serial Flashing
-Complete guide on [Tasmota Wiki](https://tasmota.github.io/docs/#/devices/BlitzWolf-BW-SHP4-(UK-Version))
+Complete guide on [Tasmota Docs](https://tasmota.github.io/docs/devices/BlitzWolf-BW-SHP4-(UK-Version))

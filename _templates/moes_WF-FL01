@@ -1,0 +1,21 @@
+---
+date_added: 2020-03-28
+title: Moes WF-FL01 Light and Fan
+model: 
+image: /assets/images/moes_WF-FL01.jpg
+template: '{"NAME":"Moes WF-FL01","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/33009202834.html
+link2: https://www.amazon.com/MOES-Ceiling-Counterdown-Compatible-Required/dp/B07QMQBWDK
+link3: https://www.amazon.co.uk/MOES-Ceiling-Counterdown-Compatible-Required/dp/B07QMQBWDK
+mlink: https://www.moeshouse.com/products/wifi-smart-ceiling-fan-light-wall-switch-smart-life-tuya-app-remote-various-speed-control-compatible-with-alexa-and-google-home
+flash: tuya-convert
+category: Switch
+type: Switch
+standard: us
+---
+
+Required to execute this command:
+
+```console
+Backlog TuyaMCU 12,1; TuyaMCU 21,2; TuyaMCU 11,3; DimmerRange 0, 200
+```

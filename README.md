@@ -6,4 +6,4 @@ All the devices are submitted by the awesome community built around Tasmota and 
 [Add your device](https://templates.blakadder.com/new.html) with a simple Google form.
 
 If you've spotted an error or have additional information for a device click on **EDIT ON GITHUB** box to add. 
-If it's your first time refer to "[Editing Articles](https://tasmota.github.io/docs/#/Contributing?id=editing-articles)" for a tutorial. 
+If it's your first time refer to "[Editing Articles](https://tasmota.github.io/docs/Contributing#editing-articles)" for a tutorial. 

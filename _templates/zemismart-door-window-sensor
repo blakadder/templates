@@ -12,7 +12,7 @@ type: Sensor
 standard: global
 ---
 
-Please read [TuyaMCU](https://tasmota.github.io/docs/#/TuyaMCU) article to understand the terminology and configuration process.
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
 ## Configuration
 

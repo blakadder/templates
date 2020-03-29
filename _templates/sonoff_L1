@@ -13,7 +13,7 @@ link3: https://www.aliexpress.com/item/32960596437.html
 ---
 
 ## Serial Flashing
-Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/installation/Hardware-Preparation) page for general instructions.
 
 As always, you need to access the serial interface. The **four serial pins** (3V3, Rx, Tx, GND) are available at the back of the PCB and can be easily identified. 
 

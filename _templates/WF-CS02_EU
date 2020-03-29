@@ -12,7 +12,7 @@ type: Curtain Switch
 standard: eu
 ---
 
-Added some rules to get the switch working, based on https://tasmota.github.io/docs/#/Blinds-and-Shutters:
+Added some rules to get the switch working, based on https://tasmota.github.io/docs/Blinds-and-Shutters:
 
 ```console
 SetOption80 1 # Enable shutter support, reset the device after for correct interface to show up

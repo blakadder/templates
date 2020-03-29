@@ -16,4 +16,4 @@ This template is only for SHP6 10A version. New 15A template is [here](blitzwolf
 If you prefer the red LED to represent "Power ON", swap Led1i and LedLinki in the ***Configure Template*** page.
 
 ### Serial Flash Instructions
-Complete guide on [Tasmota Wiki](https://tasmota.github.io/docs/#/devices/BlitzWolf-SHP6)
+Complete guide on [Tasmota Docs](https://tasmota.github.io/docs/devices/BlitzWolf-SHP6)

@@ -15,7 +15,7 @@ Sonoff B1 uses hardware PWM (My92x1 chips) and has hardware Gamma correction. Yo
 
 ## Serial Flashing
 
-Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/installation/Hardware-Preparation) page for general instructions.
 
 As always, you need to access the serial interface. First pop up the top part of the bulb with controlled force. The PCB as shown in the image will become visible.
 

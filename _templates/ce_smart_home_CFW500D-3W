@@ -16,7 +16,7 @@ This Smart switch is sold in a 2-pack at Costco.ca.
 
 This is 3-way compatible (traveller covered with sticker), Single-pole, and DIMMER all-in-one. It is an Amazing switch. Also features an air-gap switch, otherwise known as a KILL switch on-device. The transient voltage flowing through the device to the load during 'off mode' can be killed and make it safe to change anything downstream such as ceiling fixture/fan, by sliding the applicable switch!! Very cool!
 
-Note: Online price was $49.99 (2pk) and can be purchased for $39.99 (2pk) in the store. This device uses the TuyaMCU for control over the relay and functions, so it requires some console commands to be sent. Once You apply the template, consult the [TuyaMCU Wiki](https://tasmota.github.io/docs/#/TuyaMCU)
+Note: Online price was $49.99 (2pk) and can be purchased for $39.99 (2pk) in the store. This device uses the TuyaMCU for control over the relay and functions, so it requires some console commands to be sent. Once You apply the template, consult the [TuyaMCU Wiki](https://tasmota.github.io/docs/TuyaMCU)
  for reference. 
 
 Just enter the following commands in the Tasmota Console:

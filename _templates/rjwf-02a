@@ -17,7 +17,7 @@ After applying the template enable dimmer functionality using command:
 
 `TuyaMCU 21,2`
 
-See the following link for alternatives if the above doesn't work: https://tasmota.github.io/docs/#/TuyaMCU?id=dimmers
+See the following link for alternatives if the above doesn't work: https://tasmota.github.io/docs/TuyaMCU?id=dimmers
 
 Set dimmer range to:
 

@@ -11,7 +11,7 @@ category: switch
 type: Dimmer
 standard: eu
 ---
-This device requires Tasmota with [Scripting](https://tasmota.github.io/docs/#/Scripting-Language) support. You will need to [compile your own build](https://tasmota.github.io/docs/#/compile-your-build) or download an older precompiled binary of [**Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip**](https://github.com/arendst/Tasmota/files/3776333/Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip)
+This device requires Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) support. You will need to [compile your own build](https://tasmota.github.io/docs/compile-your-build) or download an older precompiled binary of [**Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip**](https://github.com/arendst/Tasmota/files/3776333/Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip)
 
 <img src="https://user-images.githubusercontent.com/5904370/71117345-430f1000-21d6-11ea-8dd0-c5327accf2e9.png" style="width:20em">
 

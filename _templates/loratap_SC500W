@@ -15,8 +15,8 @@ Using this template turns the unit into a simple 2-gang switch (eg. like a Sonof
 
 To operate the unit as a roller shutter switch , the following commands should be issued: 
 * switch on `Interlock` 
-* set the switches to follow and inverse `SwitchMode1 2` and `SwitchMode2 2`. Have a look at [https://tasmota.github.io/docs/#/Buttons-and-Switches?id=switchmode]
-* set the shutter runtime with `PulseTime1 <time in sec+100>` and `PulseTime2 <time in sec+100>`. Have a look at [https://tasmota.github.io/docs/#/Commands?id=pulsetime]
+* set the switches to follow and inverse `SwitchMode1 2` and `SwitchMode2 2`. Have a look at [https://tasmota.github.io/docs/Buttons-and-Switches?id=switchmode]
+* set the shutter runtime with `PulseTime1 <time in sec+100>` and `PulseTime2 <time in sec+100>`. Have a look at [https://tasmota.github.io/docs/Commands?id=pulsetime]
 
 ### Serial Flashing
 It is possible to flash the unit also by the traditional method using an USB-TTL adapter. The pad named IOO on the back of the ESP module has to be connected to GND during the flash procedure.

@@ -15,7 +15,7 @@ Requires soldering to surface pads (no Sonoff Style through-plated connection ho
 
 Programs with normal esptool.py command just like a Sonoff device.
 
-Connection details obtained from https://tasmota.github.io/docs/#/devices/KingArt
+Connection details obtained from https://tasmota.github.io/docs/devices/KingArt
 
 On that page, the author suggests using a pad on the PCB to ground GPIO0 when booting but I just used the incoming GND as it was more convenient.
 

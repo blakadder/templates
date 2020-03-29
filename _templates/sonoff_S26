@@ -26,7 +26,7 @@ Alternative template where the blue LED lights up only in case of connection iss
 Sonoff S26 comes in almost every plug type variant. Flashing process will be the same for each type.
 ## Serial Flashing
 
-Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/installation/Hardware-Preparation) page for general instructions.
 
 ### Soldering guide
 Apply rosin to shaved wires. Solder tin to the flats on the module.(First put solder tip to flat and apply tin). Gently solder the wires.

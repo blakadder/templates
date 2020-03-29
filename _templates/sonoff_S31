@@ -11,7 +11,7 @@ link2: https://www.amazon.com/Sonoff-Monitoring-Compatible-Assistant-Supporting/
 ---
 
 ## Serial Flashing
-Complete guide on [Tasmota Wiki](https://tasmota.github.io/docs/#/devices/Sonoff-S31)
+Complete guide on [Tasmota Docs](https://tasmota.github.io/docs/devices/Sonoff-S31)
 
 ### Buying Advice
 When ordering check if it is indeed Sonoff S31 and not Sonoff S31 Lite which does not support power monitoring.

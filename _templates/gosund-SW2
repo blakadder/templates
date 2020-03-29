@@ -11,7 +11,7 @@ category: switch
 type: Dimmer
 standard: us
 ---
-This setup requires enabling [Scripting](https://tasmota.github.io/docs/#/Scripting-Language)
+This setup requires enabling [Scripting](https://tasmota.github.io/docs/Scripting-Language)
 
 All dimming and on/off functionality is controlled by an MCU that does not follow the Tuya protocol.  Dimming and on/off can be set by Tasmota using simple serial commands.  Reading local dimming when set by the capacitive touch panel requires a Script-enabled build and the script below to process serial status codes sent by the dimmer MCU.
 

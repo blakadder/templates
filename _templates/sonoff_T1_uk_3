@@ -9,4 +9,4 @@ template: '{"NAME":"Sonoff T1 3CH","GPIO":[17,255,255,255,23,22,18,19,21,56,0,0,
 link: https://www.banggood.com/SONOFF-T1-EUUK-AC-100-240V-123-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Remote-Controlled-Wifi-Switch-Smart-Home-Switch-Works-With-Alexa-Google-Home-p-1470883.html
 ---
 ## Serial Flashing
-Complete guide at [Tasmota Wiki](https://tasmota.github.io/docs/#/devices/Sonoff-T1)
+Complete guide at [Tasmota Docs](https://tasmota.github.io/docs/devices/Sonoff-T1)
