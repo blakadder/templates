@@ -12,3 +12,10 @@ mlink: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=181
 ---
 
  For devices purchased since January 2020.
+ 
+ This device is easy to open through two screws.
+ It contains a compact PCB that has **NO** specific locations for pins for easy programming,
+ and the PCB seems tightly fixed in  the housing.
+ The photo below shows how (temporary) programming wires can be soldered directly onto the ESP module.
+ 
+ ![photo-avatar-wired-esppcb](https://user-images.githubusercontent.com/19227199/77851016-b7dee680-71d6-11ea-9220-0e6e34009d39.png)
