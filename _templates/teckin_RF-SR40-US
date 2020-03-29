@@ -24,3 +24,16 @@ Alternative template
 ```json
 {"NAME":"RF-SR40-US","GPIO":[158,0,0,17,56,18,0,0,22,21,57,23,0],"FLAG":0,"BASE":18}
 ```
+
+The model purchased from Amazon 2020-03 has this GPIO Mapping
+
+```
+GPIO0: Green Center LED inverted
+GPIO3: Top Button
+GPIO4: Amber Top LED inverted
+GPIO5: Bottom Button
+GPIO12: Bottom Outlet Relay
+GPIO13: Top Outlet Relay
+GPIO14: Amber Bottom LED inverted
+GPIO15: USB Relay
+```
