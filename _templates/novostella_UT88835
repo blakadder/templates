@@ -1,7 +1,8 @@
 ---
 date_added: 2019-10-23
 title: Novostella UT88835 20W Floodlight
-model: UT88836-RGBCW-EU-2category: light
+model: UT88836-RGBCW-EU-2
+category: light
 type: Light
 standard: us
 flash: tuya-convert
