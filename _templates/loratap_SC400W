@@ -12,7 +12,7 @@ category: switch
 type: Curtain Switch
 standard: eu
 ---
-```
+```haskell
 # GPIO3  Button3 Pause
 # GPIO5  Button1 Open
 # GPIO12 Button2 Close
@@ -20,7 +20,7 @@ standard: eu
 # GPIO15 Relay1 Open        L1
 ```
 
-```
+```haskell
 # ShutterMode 0  First relay: OFF/DOWN, Second relay: OFF/UP 
 SetOption80 1
 ShutterRelay1

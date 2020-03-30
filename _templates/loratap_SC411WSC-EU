@@ -2,7 +2,7 @@
 date_added: 2020-03-29
 title: LoraTap SC411WSC-EU RF Remote
 model: SC411WSC-EU
-image: /assets/images/loratap_SC411WSC-EU
+image: /assets/images/loratap_SC411WSC-EU.jpg
 template: '{"NAME":"Loratap","GPIO":[0,0,0,19,23,17,0,0,18,22,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33052311020.html
 link2: https://www.aliexpress.com/item/32973595205.html
