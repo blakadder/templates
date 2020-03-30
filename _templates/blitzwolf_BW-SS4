@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-30
+title: BlitzWolf SS4 Two Gang
+model: BW-SS4
+image: /assets/images/blitzwolf_BW-SS4.jpg
+template: '{"NAME":"BlitzWolf SS4","GPIO":[0,0,0,0,56,21,0,0,22,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000340496577.html
+link2: 
+mlink: https://www.blitzwolf.com/
+flash: tuya-convert
+category: switch
+type: Relay
+standard: global
+---

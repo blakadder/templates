@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-30
+title: HitLights L1012V-MC1
+model: L1012V-MC1-1630-K-Echo
+image: /assets/images/
+template: '{"NAME":"HitLights RBG","GPIO":[17,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07KG1KDHP/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+link2: 
+mlink: https://hitlights.com/
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: us
+---
