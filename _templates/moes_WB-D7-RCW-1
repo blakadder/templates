@@ -1,0 +1,17 @@
+---
+date_added: 2020-03-29
+title: Moes 7W RGBCCT Downlight 
+model: WB-D7-RCW-1
+image: /assets/images/moes_WB-D7-RCW-1.jpg
+template: '{"NAME":"Moes Downlight","GPIO":[0,0,0,0,40,41,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000296147883.html
+link2: 
+mlink: https://www.moeshouse.com/products/wifi-smart-led-downlight-dimming-round-spot-light-7w-rgb-color-changing-2700k-6500k-warm-cool-light-work-with-alexa-google-home
+flash: tuya-convert
+category: light
+type: Light
+standard: global
+---
+Change the colour mapping with `SetOptions37 30`.
+
+You can split RGB from white with `SetOptions37 158`.

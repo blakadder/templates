@@ -1,0 +1,38 @@
+---
+date_added: 2020-03-29
+title: LoraTap SC400W-EU
+model: 
+image: /assets/images/loratap_SC400W.jpg
+template: '{"NAME":"Loratap SC400W","GPIO":[0,0,0,19,0,17,0,0,18,22,0,21,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.loratap.com/tuya-smart-life-wifi-curtain-switch-for-electric-motorized-curtain-blind-roller-shutter-google-home-amazon-alexa-voice-control-p0014.html
+link2: 
+link1: https://www.aliexpress.com/item/32963064005.html
+flash: tuya-convert
+category: switch
+type: Curtain Switch
+standard: eu
+---
+```
+# GPIO3  Button3 Pause
+# GPIO5  Button1 Open
+# GPIO12 Button2 Close
+# GPIO13 Relay2 Close       L2
+# GPIO15 Relay1 Open        L1
+```
+
+```
+# ShutterMode 0  First relay: OFF/DOWN, Second relay: OFF/UP 
+SetOption80 1
+ShutterRelay1
+# interlock relays
+Backlog Interlock 1,2; Interlock ON
+# turn off PulseTimes (just in case they were previously enabled)
+Backlog PulseTime1 0; PulseTime2 0
+# assign UP and DOWN buttons
+Backlog ShutterButton1 1 up 1; ShutterButton1 2 down 1
+# durations: opening takes 5 seconds, closing takes 4 seconds
+Backlog ShutterOpenDuration1 44; ShutterCloseDuration 41
+# enable pause button 
+Rule1 on Button3#state do ShutterStop1 endon
+Rule1 1
+```

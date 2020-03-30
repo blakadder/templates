@@ -86,8 +86,14 @@ layout: default
     
     {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156' %}
   For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
+  <p>
   {% endif %}
-  </div>
+
+  {% if page.type contains 'Curtain Switch' %}
+  Requires enabled <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support in Tasmota</a>.
+  <p>
+  {% endif %}
+</div>
 </div>
 {% if page.title contains Teckin %}
 <b>ADVISORY NOTICE!!!</b> Teckin has started using unsupported non-ESP8266 chips in their devices since December 2019. 
