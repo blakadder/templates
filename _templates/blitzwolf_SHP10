@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-01
+title: BlitzWolf BW-SHP10
+category: plug
+type: Plug
+standard: eu
+template: '{"NAME":"BW-SHP10","GPIO":[0,0,0,0,157,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}'
+image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201810/1539338194_26.jpg
+link: https://www.banggood.com/BlitzWolf-BW-SHP10-3680W-16A-Smart-WIFI-Socket-EU-Plug-Switch-Non-metered-Meterin-Remote-Controller-Timer-Work-with-Alexa-Google-Assistant-BW-Tuya-APP-p-1627585.html
+link2: https://www.aliexpress.com/item/4000688997611.html
+mlink: https://www.blitzwolf.com/3680W-16A-WIFI-Smart-Socket-p-453.html
+flash: tuya-convert
+---
+This template is only for SHP10 **WITHOUT POWER METERING**. Power metering version looks identical and is sold under same model number. It is currently unsupported due to a new power metering chip.

@@ -1,0 +1,13 @@
+---
+date_added: 2019-12-22
+title: Girier JRSWR-US01 No Neutral 1 Gang
+link: https://www.aliexpress.com/item/4000192490763.html
+image: /assets/images/girier_JRSWR-SUS01-1.jpg
+template: '{"NAME":"Tuya 1 Channel","GPIO":[0,0,0,0,0,17,0,0,0,0,0,21,157],"FLAG":0,"BASE":18}' 
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---

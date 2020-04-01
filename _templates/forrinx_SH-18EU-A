@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-31
+title: Forrinx SH-18EU-A
+model: SH-18EU-A
+image: /assets/images/forrinx_SH-18EU-A.jpg
+template: '{"NAME":"SH-18EU-A","GPIO":[0,0,0,0,22,52,21,57,17,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.alibaba.com/product-detail/EU-standard-16-A-Remote-Control_62202991596.html
+link2: 
+mlink: http://www.forrinx.com/Product/smartoutdoorplug_1763_701.html
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: eu
+---
