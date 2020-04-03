@@ -26,9 +26,6 @@ collections:
   unsupported:
     output: true
     permalink: /unsupported/:title.html
-  zigbee:
-    output: true
-    permalink: /zigbee/:title.html
 
 defaults:
   - scope:

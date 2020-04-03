@@ -5,15 +5,20 @@
 
 <!-- HTML Meta Tags -->
 <title>{% if page.title %}{{ page.title | escape }}
-    {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
- Power Monitoring
+  {% assign template = page.template | split: ':' %}
+  {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+  {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%}
+Power Monitoring
  {% endif %}
  {{ page.type | escape }}
  {% if page.category contains 'bulb'%}
  Bulb
  {% endif %}{% else %}{{ site.title | escape }}{% endif %}</title>
 
-  <meta name="description" content="{% if page.title %}Configure {{ page.title | escape }}{% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%} Power Monitoring {% endif %} {{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %} to work with Tasmota firmware {% else %} {{ site.description | escape }} {% endif %}">
+  <meta name="description" content="{% if page.title %}Configure {{ page.title | escape }}      {% assign template = page.template | split: ':' %}
+  {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+  {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%}
+Power Monitoring {% endif %} {{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %} to work with Tasmota firmware {% else %} {{ site.description | escape }} {% endif %}">
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <meta name="keywords" content="tasmota, templates, tuya, esp8266, esp8285, template, gpio, smarthome, home assistant, smart home, diy, wifi, wi-fi, openhab">  
@@ -30,7 +35,10 @@
   <meta property="og:url" content="href="{{ page.url | replace:'index.html','' | absolute_url }}">
 												 
   <meta name="twitter:title" content="{{ site.title | normalize_whitespace | escape }}">
-  <meta name="twitter:description" content="{% if page.title and page.layout == templates %}Configure {{ page.title | escape }}{% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%} Power Monitoring {% endif %} {{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %} to work with Tasmota firmware {% else %} {{ site.description | escape }} {% else %} List of {{ page.title }} confirmed working with for Tasmota firmware {% endif %}">
+  <meta name="twitter:description" content="{% if page.title and page.layout == templates %}Configure {{ page.title | escape }}      {% assign template = page.template | split: ':' %}
+  {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+  {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%}
+Power Monitoring {% endif %} {{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %} to work with Tasmota firmware {% else %} {{ site.description | escape }} {% else %} List of {{ page.title }} confirmed working with for Tasmota firmware {% endif %}">
   <meta name="twitter:image" content="{{ page.image }}">
   <meta name="twitter:card" content="summary_large_image">
   {% include styles.html %}

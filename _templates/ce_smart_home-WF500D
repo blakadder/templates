@@ -10,6 +10,9 @@ template: '{"NAME":"CE-WF500D","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"
 mlink: https://www.cesmarthome.com/WF500D.html
 ---
 
-Enter `TuyaMCU 21,2`
+Enter `TuyaMCU 21,2` 
+
+(In some cases it is `TuyaMCU 21,3`)
+
 
 Bought from Costco in Ontario.  Flashed OTA with Tuya Convert method (2019-09-18) - Device date code on the outer package was 10-2018
