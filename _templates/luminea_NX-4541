@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-03
+title: Luminea NK-4541 
+model: NX-4541-919 or NX-4541-913
+image: /assets/images/luminea_NX-4541.jpg
+template: '{"NAME":"NX-4451","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":55}' 
+link: https://www.amazon.de/dp/B07KGQZ5NW/ 
+link2: https://www.pearl.de/a-NX4541-3103.shtml?query=sf+450+avs
+mlink: https://www.luminea.info/WLAN-Steckdose-fuer-A-NX-4541-919.shtml
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
