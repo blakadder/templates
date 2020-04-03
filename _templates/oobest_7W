@@ -2,7 +2,7 @@
 date_added: 2020-04-02
 title: oobest 7W
 model: 
-image: /assets/images/
+image: /assets/images/oobest_7W.jpg
 template: '{"NAME":"E27_RGBCW_Bulb","GPIO":[0,0,0,0,38,37,0,0,40,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000405726560.html
 link2: 

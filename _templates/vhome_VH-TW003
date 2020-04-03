@@ -2,7 +2,7 @@
 date_added: 2020-04-03
 title: vhome RF433 3 Gang
 model: VH-TW003 or VH-TB-US-003
-image: /assets/images/
+image: /assets/images/vhome_VH-TW003.jpg
 template: '{"NAME":"VH-TB-US-003","GPIO":[0,0,0,0,21,18,0,0,19,23,17,22,158],"FLAG":15,"BASE":18}' 
 link: 
 link2: 
