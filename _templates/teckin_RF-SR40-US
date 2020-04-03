@@ -1,9 +1,9 @@
 ---
 date_added: 2020-02-13
-title: Teckin RF-SR40-US
+title: Teckin SR40
 model: RF-SR40-US
 image: /assets/images/teckin_RF-SR40-US.jpg
-template: '{"NAME":"RF-SR40-US","GPIO":[0,0,0,0,57,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"RF-SR40-US","GPIO":[158,0,0,17,56,18,0,0,22,21,57,23,0],"FLAG":0,"BASE":18}'
 link: https://smile.amazon.com/dp/B07RFPSZLG
 link2: 
 mlink: 
@@ -19,12 +19,6 @@ Backlog SerialLog 0; PowerOnState 0; SetOption63 1; LEDState 1
 Rule1 ON System#Boot DO Power3 On ENDON    # Turn the USB port on
 Rule1 1
 ```
-Alternative template 
-
-```json
-{"NAME":"RF-SR40-US","GPIO":[158,0,0,17,56,18,0,0,22,21,57,23,0],"FLAG":0,"BASE":18}
-```
-
 The model purchased from Amazon 2020-03 has this GPIO Mapping
 
 ```
