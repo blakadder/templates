@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-04
+title: Connect Smart 2 Gang Wall
+model: CSH-SWTCH2
+image: /assets/images/
+template: '{"NAME":"CSH-SWTCH2","GPIO":[0,0,52,0,0,18,0,0,22,21,0,0,17],"FLAG":0,"BASE":18}' 
+link: https://www.harveynorman.com.au/connect-smart-2-gang-wall-switch-white.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---
+Rebadged Zemismart KS-811 2 Gang Switch
