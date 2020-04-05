@@ -17,4 +17,5 @@ After Flash and Update with Tuya-Convert:
     Enter commands TuyaMCU 21,2
 Then Set Dimmer Range in console: `DimmerRange 150,1000`
 
-Now Dimmer Commande work from 0-100
+Now Dimmer Command works from 0-100
+If no dimming occurs try chaning the dimming mode, enter this command: For Dimming Mode 1 ``SerialSend5 55AA00060005040400010013```, For Dimming Mode 2 ``SerialSend5 55AA00060005040400010114```, for Dimming Mode 3 ``SerialSend5 55AA00060005040400010215```.
