@@ -11,10 +11,16 @@ category: switch
 type: Dimmer
 standard: us
 ---
-After Flash and Update with Tuya-Convert:
+After flash with Tuya-Convert and update to current release tasmota.bin :
 
-    Goto WebUI and then Console
-    Enter commands TuyaMCU 21,2
-Then Set Dimmer Range in console: `DimmerRange 150,1000`
+- Go to WebUI and then Console
+- Enter command `TuyaMCU 21,2`
+- Set Dimmer Range with `DimmerRange 150,1000`
 
-Now Dimmer Commande work from 0-100
+Now Dimmer Command should work from 0-100.
+
+If no dimming occurs try changing the dimming mode:
+
+- Dimming Mode 1: `SerialSend5 55AA00060005040400010013`
+- Dimming Mode 2: `SerialSend5 55AA00060005040400010114`
+- Dimming Mode 3: `SerialSend5 55AA00060005040400010215`
