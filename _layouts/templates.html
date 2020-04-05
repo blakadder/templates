@@ -26,7 +26,7 @@ layout: default
   </div>
 </div>
 <div class="row">
-  <div class="column column-60">
+  <div class="column">
     <span style="font-size: large;">Model reference: {{ page.model }} </span>
 </div>
 </div>
@@ -86,11 +86,6 @@ layout: default
     <pre><code class="language-erlang">{{ page.template }}</code></pre>
     <div class="float-right">
       <a href="https://twitter.com/intent/tweet?screen_name=blakadder_&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-text="{{ page.url }} template is " data-show-count="false">Tweet to @blakadder_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
-  <div>
-    {% if page.model != nil %}
-    Reference ID: {{ page.model }}
-    {% endif %}
   </div>
 </div>
 </div>
