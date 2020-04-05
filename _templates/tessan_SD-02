@@ -1,0 +1,16 @@
+---
+date_added: 2020-04-05
+title: Tessan MJ-SD02
+model: FCC ID 2ANJ7-SD01
+image: /assets/images/tessan_MJ-SD02.jpg
+template: '{"NAME":"MJ-SD02","GPIO":[19,18,0,59,158,58,0,0,57,37,56,122,29],"FLAG":0,"BASE":73}' 
+link: https://www.amazon.com/dp/B07K67D43J/
+link2: https://www.amazon.com/dp/B07TVH3BY8
+mlink: 
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: us
+---
+
+![Back label](/assets/images/tessan_MJ-SD02-back.jpg)

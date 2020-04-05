@@ -82,11 +82,15 @@ layout: default
     <div class="float-right">
       <a href="https://twitter.com/intent/tweet?screen_name=blakadder_&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-text="{{ page.url }} template is " data-show-count="false">Tweet to @blakadder_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
-  {% if page.model != nil %}
+  <div>
+    {% if page.model != nil %}
     Reference ID: {{ page.model }}
-    <p>
     {% endif %}
-    
+  </div>
+</div>
+</div>
+<div>
+  <BR>
     {% assign template = page.template | split: ':' %}
     {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
     {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%}
@@ -96,17 +100,19 @@ layout: default
   {% endif %}
 
   {% if page.type contains 'Curtain Switch' %}
-  Requires enabled <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support in Tasmota</a>.
+  Requires enabled <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support</a> in Tasmota.
   <p>
   {% endif %}
-</div>
-</div>
+  {% if page.template contains '"BASE":73' %}
+  Requires enabled <a href="https://tasmota.github.io/docs/PWM-dimmer-switch/">PWM Dimmer support</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
+  <p>
+  {% endif %}
 {% if page.title contains Teckin %}
 <b>ADVISORY NOTICE!!!</b> Teckin has started using unsupported non-ESP8266 chips in their devices since December 2019. 
 {% endif %}
 
 
 {{ content | markdownify }} 
-
+</div>
 
  <div id="amzn-assoc-ad-c632316f-24d7-45e3-9fd2-4f1038ceddbc"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c632316f-24d7-45e3-9fd2-4f1038ceddbc"></script>

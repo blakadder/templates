@@ -1,12 +1,13 @@
 ---
 date_added: 2019-10-02
-title: Youngzuth SW02 2-way
+title: Youngzuth 2in1
+model: SW02-02
 category: switch
 type: Switch
 standard: us
 link: https://www.amazon.com/gp/product/B07BTBZ69B
 image: https://images-na.ssl-images-amazon.com/images/I/410cYdpO7AL._SL1001_.jpg
-template: '{"NAME":"SW02 2W","GPIO":[52,255,255,9,21,255,0,0,10,22,255,255,255],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"SW02 2W","GPIO":[52,0,0,9,21,0,0,0,10,22,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
