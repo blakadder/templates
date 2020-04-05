@@ -24,3 +24,15 @@ If no dimming occurs try changing the dimming mode:
 - Dimming Mode 1: `SerialSend5 55AA00060005040400010013`
 - Dimming Mode 2: `SerialSend5 55AA00060005040400010114`
 - Dimming Mode 3: `SerialSend5 55AA00060005040400010215`
+
+Dimming mode is reset after every reboot so add a rule at system boot.
+```console
+Rule1 on system#boot do SerialSend5 55AA00060005040400010114 endon
+```
+Enable with `Rule1 1`
+
+The main button turns the switch on/off if single-clicked. 
+
+If you double-click it, the brightness set point is reset to the stored favorite value (or 50.5% if no value has been stored since reset) - note that this won’t turn the switch on or off, just set the brightness with the switch staying on or off. 
+
+If you triple-click it, the current brightness set point will be stored as the new favorite (overwriting the previous saved value).
