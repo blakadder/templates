@@ -5,7 +5,7 @@ layout: default
 
 <div class="row">
   <div class="column">
-    <h2>{{ page.title }}
+    <span style="font-size: xx-large; font-weight: 400; letter-spacing: -.1rem;">{{ page.title }}
       {% assign template = page.template | split: ':' %}
       {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
       {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%}
@@ -15,7 +15,7 @@ layout: default
  {% if page.category contains 'bulb'%}
  Bulb
  {% endif %}
- </h2>
+    </span>
 </div>
 <!-- <div class="float-right"> -->
 <div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%">
@@ -24,6 +24,11 @@ layout: default
   <a class="button button-grey" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
      {% endfor %}
   </div>
+</div>
+<div class="row">
+  <div class="column column-60">
+    <span style="font-size: large;">Model reference: {{ page.model }} </span>
+</div>
 </div>
 <div class="row">
   <div class="column column-60"> 
