@@ -1,10 +1,10 @@
 ---
 date_added: 2020-01-03
 title: KS-621
-link: http://s.click.aliexpress.com/e/kCX8StFw
-image: https://user-images.githubusercontent.com/5904370/71749110-d00fc580-2e74-11ea-9b2a-546d025e6c3c.png
+link: https://www.aliexpress.com/item/33030109775.html
+image: /assets/images/KS-621.jpg
 template: '{"NAME":"KS-621","GPIO":[17,0,0,0,133,132,0,0,130,52,0,21,91],"FLAG":15,"BASE":18}' 
-link2: http://s.click.aliexpress.com/e/4dwR4cnq
+link2: https://www.aliexpress.com/item/33030109775.html
 mlink: https://www.hidintech.com/eu-smart-wall-socket-p00093p1.html
 flash: tuya-convert
 category: plug
