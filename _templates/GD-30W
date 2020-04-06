@@ -5,7 +5,7 @@ category: misc
 type: Aromatherapy Diffuser
 standard: global
 link: https://www.amazon.com/Essential-Diffuser-Humidifier-Aromatherapy-Waterless/dp/B081MTYGWH
-link2: http://s.click.aliexpress.com/e/mLArs6I8
+link2: https://www.aliexpress.com/item/4000469944212.html
 image: https://user-images.githubusercontent.com/5904370/67516743-73887100-f6a1-11e9-9563-3a529fad3b1d.png
 template: '{"NAME":"GD-30W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
 mlink: https://www.alibaba.com/product-detail/300ML-WiFi-Aroma-Diffuser-Ultrasonic-Humidifier_60781628200.html
@@ -33,7 +33,7 @@ After applying the template and configuring Wi-Fi and MQTT issue
 Backlog SetOption66 1; TuyaMCU 21,111; TuyaMCU 11,1; TuyaMCU 12,11; TuyaMCU 13,103; TuyaMCU 14,12; TuyaMCU 15,110; DimmerRange 1,255; SetOption59 1
 ```
 ```console
-Rule1 on TuyaReceived#data=55AA000700056E040001007E do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA000700056E040001017F do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon on event#ON do backlog tuyasend4 110,1; tuyasend 11,1 endon on event#off do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon
+Rule1 on TuyaReceived#data=55AA000700056E040001007E do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA000700056E040001017F do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon on event#ON do backlog tuyasend4 110,1; tuyasend 11,1 endon on event#OFF do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon
 ```
 ```console
 Rule1 1
