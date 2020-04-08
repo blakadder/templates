@@ -11,8 +11,10 @@ category: misc
 type: Sensor
 standard: global
 ---
-
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+## Flashing
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries/tree/master/bin), compiled from current development release. Flash at your own risk.
 
 ## Configuration
 
@@ -40,8 +42,4 @@ Check with `TuyaMCU` for the following configuration:
 Rule1 ON TuyaReceived#Data=55AA00050005650100010171 DO publish2 stat/%topic%/STATUS open ENDON ON TuyaReceived#Data=55aa00050005650100010070 DO publish2 stat/%topic%/STATUS close ENDON ON
 ```
 
-Don’t forget to turn on the rule:
-
-```console
-Rule1 1
-```
+Don’t forget to turn on the rule: `Rule1 1`

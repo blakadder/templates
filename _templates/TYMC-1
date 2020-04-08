@@ -26,7 +26,7 @@ Identified with MCU Product ID: `{"p":"hx5ztlztij4yxxvg","v":"1.0.0"}` which is 
 
 
 ## Flashing
-To have best results with this type of device I strongly recommend compiling your own stripped down binary with preconfigured Wi-Fi and MQTT credentials which has the added benefit of faster flashing. 
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries/tree/master/bin), compiled from current development release. Flash at your own risk.
 
 Example <a href="/assets/tuya_sensor_user_config.txt" target="_blank" >user_config_override</a> defines (for Tasmota 8.2+).
 
@@ -106,7 +106,7 @@ Don't forget to turn on the rule: `Rule1 1`
 And there it is, relatively small battery and Tasmota powered contact sensor.
 
 ## Final Notes
-There is a significant delay (~6s on my network with a stripped down binary and a static IP) between reed actuation and first MQTT message so I don't recommmend this in critical spots where a fast response is required.
+There is a significant delay (~4s on my network with the latest stripped down binary and a static IP) between reed actuation and first MQTT message so I don't recommmend this in critical spots where a fast response is required.
 
 If the batteries are too weak, sensor might be stuck in a bootloop or spawn an ESP-XXXXX AP. The bootloop can reset Tasmota to "factory defaults". You can disable bootloop protection with `SetOption36 0` but that might also put the sensor in a permanent bootloop until the battery dies.
 
