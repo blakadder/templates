@@ -2,7 +2,7 @@
 date_added: 2020-04-07
 title: SZMDLX IR Remote Controller
 model: ZYY
-image: /assets/images/
+image: /assets/images/szmdlx_ZYY.jpg
 template: '{"NAME":"SZMDLX WiFi IR","GPIO":[0,0,0,0,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.amazon.com/SZMDLX-Universal-Compatible-Automation-Controlled/dp/B082R44LJM/
 link2: https://www.aliexpress.com/item/4000145673070.html
