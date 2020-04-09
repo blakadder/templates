@@ -15,7 +15,7 @@ Configure as a `Tuya MCU (54)` (support as a BASE module was introduced in 6.6.0
 - GPIO13 - Tuya Rx (108)
 - GPIO15 - Tuya Tx (107)
 
-It should work, if it doesn't follow : https://github.com/arendst/Tasmota/wiki/TuyaMCU
+It should work, if it doesn't follow : [https://tasmota.github.io/docs/TuyaMCU](https://tasmota.github.io/docs/TuyaMCU)
 
 #### Flashing
 
