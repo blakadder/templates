@@ -9,7 +9,7 @@ image: https://user-images.githubusercontent.com/5904370/57200999-010cc300-6f93-
 template: '{"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link2: 
 ---
-<!-- Please read [TuyaMCU](https://github.com/arendst/Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
+<!-- Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
 
 Flashed via serial by using TYWE3S pins. Might work with Tuya Convert.
 
@@ -61,7 +61,7 @@ Backlog Rule1 1; Rule2 1; Rule3 1
 - find15 = Relay5 is a dummy relay so the dimmer doesn't control the other relays if we don't make one dimmer uses the last relay and would trigger errors
 - fnid21 = Dimmer
 
-Light mode and status are reported to mqtt topic `tele/diffuser/STATE` and command [`Event`](https://github.com/arendst/Tasmota/wiki/Commands#event) is used to change light modes using [`TuyaSend4`](https://github.com/arendst/Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule2`
+Light mode and status are reported to mqtt topic `tele/diffuser/STATE` and command [`Event`](https://tasmota.github.io/docs/Commands#event) is used to change light modes using [`TuyaSend4`](https://github.com/arendst/Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule2`
 
 Color can be changed using `TuyaSend3 8,RRGGBB64646464` (RR, GG and BB are hex value) only in color mode.
 
