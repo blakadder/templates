@@ -10,10 +10,10 @@ template: '{"NAME":"DETA 2G Switch","GPIO":[0,0,0,0,157,0,0,0,91,21,22,0,90],"FL
 link2: 
 ---
 
+To enable standard (factory) functionality of the Status LED (displaying Wi-Fi Connection Status) add this Rule: 
+`Rule1 on system#boot do Backlog LedPower 1; LedState 0; LedPower 1; LedState 8; endon'
 
-
-
-
+This rule enables the status LED when its connected to Wi-Fi, without this rule the default behaviour will result in the Status LED switching on & off every time the Relay is activated. 
 
 
 
