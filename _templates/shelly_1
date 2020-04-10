@@ -31,7 +31,7 @@ Shelly1 comes with a partially exposed programming/debug header which can be use
 <img src="https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/shelly/shelly1_pinout-800x433.jpg" height="250" />
 
 ## Flash mode
-To be able to flash the Tasmota firmware you need to get into flash mode. Therefore connect a wire from GPIO0 to ground. For further information have a look at [Hardware Preparation](https://github.com/arendst/Tasmota/wiki/Hardware-Preparation#bringing-the-module-in-flash-mode).
+To be able to flash the Tasmota firmware you need to get into flash mode. Therefore connect a wire from GPIO0 to ground. For further information have a look at [Hardware Preparation](https://tasmota.github.io/docs/Hardware-Preparation#bringing-the-module-in-flash-mode).
 
 ## **⚠️️WARNING⚠️️**
 Please note what version of the Shelly 1 you have (V1, V2 or V3). The V2 user guide is [incorrect](https://gallery.mailchimp.com/0d9bf8d9ddf1b29f33cb71ba5/images/cb16c7b5-5887-4ef2-b6c1-6e90ccaf648a.png?mc_cid=0a274764f3&mc_eid=05c10a130f). The mains connections are as shown in the image above for all versions of the switch. The labels on the V2 switches are [wrong](https://gallery.mailchimp.com/0d9bf8d9ddf1b29f33cb71ba5/images/cb16c7b5-5887-4ef2-b6c1-6e90ccaf648a.png?mc_cid=0a274764f3&mc_eid=05c10a130f)!

@@ -36,7 +36,7 @@ Note - After the module type is changed to "Sonoff Pow R2", the serial port is n
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fqOJjA6Pph0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Power Monitoring Calibration
-Sonoff Pow R2 might need calibration as correct measurements are influenced by hardware and timing differences. See [Power Monitoring Calibration](https://github.com/arendst/Tasmota/wiki/Power-Monitoring-Calibration)
+Sonoff Pow R2 might need calibration as correct measurements are influenced by hardware and timing differences. See [Power Monitoring Calibration](https://tasmota.github.io/docs/Power-Monitoring-Calibration)
    
 ## Telemetry
 The Sonoff Pow R2 can provide Energy, Power, Voltage and Current information in different ways.

@@ -16,4 +16,4 @@ Post Tasmota version 6.6.0.10, additional steps are needed
 1. Goto Console on WebUI
 2. Enter command `TuyaMCU 21,2`
 
-If it doesn't work, follow : https://github.com/arendst/Tasmota/wiki/TuyaMCU
+If it doesn't work, follow : https://tasmota.github.io/docs/TuyaMCU

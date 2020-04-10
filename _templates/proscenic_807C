@@ -12,7 +12,7 @@ link2:
 
 **Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**
 
-<!-- Please read [TuyaMCU](https://github.com/arendst/Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
+<!-- Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
 
 Flashed via serial by using TYWE3S pins.
 
