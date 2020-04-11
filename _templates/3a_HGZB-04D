@@ -1,0 +1,22 @@
+---
+date_added: 2020-04-09
+title: 3A Smart Home HGZB-04D
+model: HGZB-04D
+image: /assets/images/3a_HGZB-04D.jpg
+template: '{"NAME":"Dimmer HGZB-4D","GPIO":[255,255,255,255,255,255,0,0,255,255,54,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com.au/3A-Switch-Dimmer-Controller-Downlight/dp/B07FL1886W
+link2: 
+mlink: https://3asmarthome.com/
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: au
+---
+
+```console
+TuyaMCU 21,2
+```
+
+```console
+DimmerRange 11,255
+```

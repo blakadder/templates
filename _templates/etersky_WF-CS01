@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-11
+title: Etersky WF-CS01
+model: WF-CS01
+image: /assets/images/etersky_WF-CS01.jpg
+template: '{"NAME":"Etersky","GPIO":[157,0,53,19,23,18,0,0,17,21,52,22,52],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.fr/gp/product/B07PNV9XKQ/
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
