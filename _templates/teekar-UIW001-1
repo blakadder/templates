@@ -11,7 +11,7 @@ category: switch
 type: Dimmer
 standard: eu
 ---
-To use the script, you have to compile Tasmota with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries/tree/master/bin).
+To use the script, you have to compile Tasmota with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
 
 <img src="https://user-images.githubusercontent.com/5904370/71117345-430f1000-21d6-11ea-8dd0-c5327accf2e9.png" style="width:20em">
 

@@ -199,7 +199,7 @@ dim="FF55"+hn(tmp*dimmlp)+"05DC0A"
 #
 ```
 
-To use the script, you have to compile Tasmota with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries/tree/master/bin).
+To use the script, you have to compile Tasmota with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
 
 Once the device is flashed with Tasmota, open `Configuration` -> `Edit script` in the web UI and paste the contents of the script in the window. Then set the `script enable` checkbox and push `Restart`.
 To hide "Counter1" in the WebUI you can enter `WebSensor1 0` on the Tasmota Console.

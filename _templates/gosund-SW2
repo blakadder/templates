@@ -11,7 +11,7 @@ category: switch
 type: Dimmer
 standard: us
 ---
-To use the script, you have to compile Tasmota with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries/tree/master/bin).
+To use the script, you have to compile Tasmota with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
 
 All dimming and on/off functionality is controlled by an MCU that does not follow the Tuya protocol.  Dimming and on/off can be set by Tasmota using simple serial commands.  Reading local dimming when set by the capacitive touch panel requires a Script-enabled build and the script below to process serial status codes sent by the dimmer MCU.
 

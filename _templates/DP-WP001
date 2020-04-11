@@ -14,7 +14,7 @@ standard: global
 ---
 
 ## Flashing
-To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries/tree/master/bin), compiled from current development release. Flash at your own risk.
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk.
 
 After initial setup type the following into the Tasmota console window:
 ```console

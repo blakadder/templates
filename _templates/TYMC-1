@@ -26,7 +26,7 @@ Identified with MCU Product ID: `{"p":"hx5ztlztij4yxxvg","v":"1.0.0"}` which is 
 
 
 ## Flashing
-To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries/tree/master/bin), compiled from current development release. Flash at your own risk.
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk.
 
 Example <a href="/assets/tuya_sensor_user_config.txt" target="_blank" >user_config_override</a> defines (for Tasmota 8.2+).
 
