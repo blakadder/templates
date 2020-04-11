@@ -3,7 +3,7 @@ date_added: 2020-04-08
 title: Aquiv S1
 model: WF-PLUG-1A
 image: /assets/images/aquiv_S1.jpg
-template: '{"NAME":"Aquiv S1","GPIO":[255,255,157,255,56,255,255,255,21,17,255,255,255],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"Aquiv S1","GPIO":[0,0,157,0,56,0,0,0,21,17,0,0,0],"FLAG":15,"BASE":18}' 
 link: https://www.amazon.com/dp/B01NGYWZY9
 link2: 
 mlink: 
