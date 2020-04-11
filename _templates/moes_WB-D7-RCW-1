@@ -12,6 +12,6 @@ category: light
 type: Light
 standard: global
 ---
-Change the colour mapping with `SetOptions37 30`.
+Change the colour mapping with `SetOption37 30`.
 
-You can split RGB from white with `SetOptions37 158`.
+You can split RGB from white with `SetOption37 158`.
