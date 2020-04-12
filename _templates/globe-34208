@@ -1,0 +1,16 @@
+---
+date_added: 2020-04-11
+title: Globe 34208 800lm
+type: CCT
+category: bulb
+standard: e26
+mlink: https://globe-electric.com/en/product/globe-electric-wi-fi-smart-60w-equivalent-tunable-white-dimmable-frosted-led-light-bulb-no-hub-required-a19-e26-base-2-pack34208/
+image: /assets/images/globe-34208.jpg
+template: '{"NAME":"GlobeCCT","GPIO":[0,0,0,0,38,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Globe-Electric-Equivalent-Tunable-White/dp/B07RY9T56Z/
+---
+
+Canadiantire 1pack Itm 052-9759-8 upc 058219342046
+
+gpio04 is colour (0 - CW, ff -WW)
+gpio05 is dimmer
