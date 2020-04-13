@@ -1,0 +1,32 @@
+---
+date_added: 2020-04-12
+title: OLED Display Module 0.66" for Wemos D1 Mini
+model: 
+image: /assets/images/oled.jpg
+template: '{"NAME":"OLED 64x48","GPIO":[255,255,255,255,6,5,0,0,255,255,255,255,162],"FLAG":15,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000259357297.html
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: DIY
+standard: global
+---
+Requires tasmota-display.bin to support
+
+```console
+DisplayAddress 0x3C
+DisplayDimmer 100
+DisplayModel 2
+DisplayWidth 64
+DisplayHeight 48
+```
+
+Since the display is very small, I recommend to use Font 0. There are 10.5 columns, so if you set 11 columns, the last character is truncated although readable.
+
+```console
+DisplayFont 0
+DisplayRows 6
+DisplayCols 11
+```
+

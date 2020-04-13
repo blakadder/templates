@@ -1,0 +1,16 @@
+---
+date_added: 2020-04-12
+title: Girier EK02 RF433Mhz 2 Gang
+model: EK02
+image: /assets/images/girier_EK02.jpg
+template: '{"NAME":"Girier EK02","GPIO":[157,0,0,0,0,17,0,0,18,21,22,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000242679288.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+
+PCB marking: YC-WN-L03C-A-V1.3
