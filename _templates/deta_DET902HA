@@ -4,12 +4,11 @@ title: Deta DET902HA 10W 940lm RGB+CCT
 model: 9311644093183
 image: https://user-images.githubusercontent.com/5904370/73642352-dced2800-4671-11ea-8201-b7692f0175f6.png
 template: '{"NAME":"Deta DownLight","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.bunnings.co.nz/deta-smart-10w-940lm-rgb-cct-downlight-with-grid-connect_p0102573
-link2: 
+link: https://www.bunnings.com.au/deta-10w-smart-led-downlight-with-grid-connect_p0102573
+link2: https://www.bunnings.com.au/deta-10w-smart-led-downlight-with-grid-connect_p0102573
 mlink: 
-flash: serial
+flash: tuya-convert
 category: light
 type: Light
 standard: au
 ---
-Soldering is required for the TX RX 3.3 and GND pads otherwise it's a straight forward flash onto an ESP8285 chip.
