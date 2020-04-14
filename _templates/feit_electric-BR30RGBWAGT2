@@ -1,6 +1,6 @@
 ---
 date_added: 2020-03-22
-title: Feit Electric BR30/RGBW/CA/AG(P) 700lm RGBW Bulb
+title: Feit Electric BR30 700lm
 model: SWY-BR30RGBWAGT2
 image: /assets/images/feit_electric-BR30RGBWAGT2.jpg
 template: '{"NAME":"Feit BR30/RGBW","GPIO":[0,0,0,38,141,140,0,0,0,142,37,0,0],"FLAG":0,"BASE":18}' 
