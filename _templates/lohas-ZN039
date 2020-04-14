@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-14
+title: Lohas ZN039 BR30 1450lm
+model: LH-15WZN39-YP-1P
+image: /assets/images/
+template: '{"NAME":"Lohas ZN039","GPIO":[0,0,0,0,39,37,0,0,41,38,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/LOHAS-Multicolored-100W-150W-Equivalent-Compatible/dp/B07Q5T13S7
+link2: 
+mlink: https://www.lohasled.com/15w-br40-p00180p1.html
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---
