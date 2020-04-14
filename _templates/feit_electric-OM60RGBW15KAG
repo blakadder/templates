@@ -1,8 +1,9 @@
 ---
 date_added: 2019-12-21
-title: Feit Electric OM60/RGBW/15K/AG 800lm
+title: Feit Electric A19 800lm
+model: OM60/RGBW/15K/AG
 link: https://www.lowes.com/pd/Feit-Electric-Smart-WiFi-60-Watt-EQ-A19-Color-Enhancing-Dimmable-LED-Light-Bulb/1001405778
-image: https://www.feit.com/wp-content/uploads/2018/05/OM60_RGBW_CA_AG_pack-3.jpg
+image: /assets/images/feit_electric-OM60RGBW15KAG.jpg
 template: '{"NAME":"FE-OM60-15K-AG","GPIO":[0,0,0,0,141,140,0,0,37,142,38,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: 

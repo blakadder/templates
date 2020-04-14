@@ -1,8 +1,9 @@
 ---
 date_added: 2019-12-25
-title: Feit Electric BR30/RGBW/CA/AG 650lm
+title: Feit Electric BR30 650lm
+model: BR30/RGBW/CA/AG
 link2: https://www.menards.com/main/electrical/alarms-security-systems/security-accessories/feit-electric-reg-65w-equivalent-br30-color-selectable-led-light-bulb/pbr30rgbwag/p-1531290477248-c-7482.htm
-image: https://images-na.ssl-images-amazon.com/images/I/51DhkyRDEaL._AC_SL1000_.jpg
+image: /assets/images/feit_electric-BR30RGBWCAAG.jpg
 template: '{"NAME":"BR30/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Electric-BR30-RGBW-CA-AG/dp/B07GFV1Y9C/
 mlink: https://www.feit.com/

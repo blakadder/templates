@@ -1,10 +1,11 @@
 ---
-title: Feit Electric BR30/950CA/AG 650lm
+title: Feit Electric BR30 650lm
+model: BR30/950CA/AG
 type: Dimmable
 category: bulb
 standard: e26
 link: https://www.amazon.com/Feit-Electric-BR30-950CA-AG/dp/B07GFYYTDP
-image: https://www.feit.com/wp-content/uploads/2018/10/BR30_950CA_AG_pack-3.jpg
+image: /assets/images/feit_electric-BR30950CAAG.jpg
 template: '{"NAME":"Feit BR30 CW","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}'
 link2: https://www.feit.com/product/smart-wifi-light-bulb/650-lumen-5000k-smart-wifi-bulb/
 ---
