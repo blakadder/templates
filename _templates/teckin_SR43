@@ -10,5 +10,5 @@ mlink:
 flash: serial
 category: switch
 type: Wall Outlet
-standard: eu, global
+standard: eu
 ---
