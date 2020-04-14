@@ -27,7 +27,7 @@ layout: default
 </div>
 <div class="row">
   <div class="column">
-    <span style="font-size: large;">Model reference: {{ page.model }} </span>
+    {% if page.model != nil %}<span style="font-size: large;">Model reference: {{ page.model }} </span> {% endif %}
 </div>
 </div>
 <div class="row">
