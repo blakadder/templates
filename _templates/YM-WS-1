@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-15
+title: YM-WS-1 Mini
+model: 2ALRJYM-WS-1
+image: /assets/images/YM-WS-1.jpg
+template: '{"NAME":"YM-WS1","GPIO":[0,0,0,0,0,0,0,0,56,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07M6HZX2L/
+link2: https://www.amazon.ca/remote-Control-Appliances-Timing-Socket/dp/B074WM8M5V
+mlink: https://fccid.io/2ALRJYM-WS-1/User-Manual/User-Manual-3380535
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

@@ -1,4 +1,5 @@
 ---
+date_added: 2020-04-15
 title: Sonoff S26
 category: plug
 type: Plug
@@ -13,7 +14,7 @@ standard:
   - il
   - it
 link: https://www.banggood.com/SONOFF-S26-10A-AC90V-250V-Smart-WIFI-Socket-USUKAUEUDEFR-Wireless-Plug-Power-Sockets-p-1308841.html
-image: https://user-images.githubusercontent.com/5904370/57954559-89745780-78f3-11e9-9e8f-8b59b0efaf81.png
+image: assets/images/sonoff_S26.jpg
 template: '{"NAME":"Sonoff S26","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8}' 
 link2: https://www.amazon.com/Sonoff-Wireless-control-Compatible-Anywhere/dp/B07DDGVC7B/
 mlink: https://www.itead.cc/smart-home/smart-socket.html
@@ -43,6 +44,7 @@ J3  - GPIO-12
 j4  - GPIO-0
 J5  - GPIO-13
 J10 - RX
+
 ![](https://user-images.githubusercontent.com/1029851/45257726-a2ab2880-b3a2-11e8-9cb8-5cc1d49225b2.png)
 
 ### Bringing the Module into Flash Mode
