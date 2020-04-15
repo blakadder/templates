@@ -14,9 +14,10 @@ standard:
   - il
   - it
 link: https://www.banggood.com/SONOFF-S26-10A-AC90V-250V-Smart-WIFI-Socket-USUKAUEUDEFR-Wireless-Plug-Power-Sockets-p-1308841.html
-image: assets/images/sonoff_S26.jpg
+image: /assets/images/sonoff_S26.jpg
 template: '{"NAME":"Sonoff S26","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8}' 
 link2: https://www.amazon.com/Sonoff-Wireless-control-Compatible-Anywhere/dp/B07DDGVC7B/
+link3: https://www.amazon.de/-/en/Wireless-Required-Control-Appliance-Android/dp/B07DQK7YSD/
 mlink: https://www.itead.cc/smart-home/smart-socket.html
 ---
 Alternative template where the blue LED lights up only in case of connection issues and on button actions:
