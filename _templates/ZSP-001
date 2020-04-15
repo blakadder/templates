@@ -16,4 +16,4 @@ Device is easy to open and has the four contacts for flashing similar to Sonoff 
 
 Template configures red/blue LEDs and power monitoring (BL0937 chip). Calibration power monitoring is required. I got PowerSetCal:1093, VoltageSetCal:33418, CurrentSetCal:35. YMMV.
 
-
+WARNING: I've received an ZSP-001 in April 2020 and it is not ESP8266 based (no markings on shielding can). Flashing with tuya-convert and esptool failed. They still output something via the serial console but you can’t install tasmota. For details see https://github.com/ct-Open-Source/tuya-convert/issues/589
