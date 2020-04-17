@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-17
+title: Sealight A19 9W 810lm 
+model: 
+image: /assets/images/sealight_A19.jpg
+template: '{"NAME":"DGO/SEASTAR","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Required-DGO-Changing-Compatible-Multicolor/dp/B07SJWB15X/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: a19
+---
+Bought from Amazon under the brand name DGO, however the bulb has the brand name Sealight. I later found another amazon listing selling the same product under the brand name Sealight.
