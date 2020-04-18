@@ -1,6 +1,6 @@
 ---
 date_added: 2020-01-07
-title: Arlec 45cm Smart DC Wall
+title: Arlec Smart 45cm Smart DC Wall
 model: AWDC001HA
 image: https://media.bunnings.com.au/Product-800x800/5450ca3c-55e0-464a-bad9-09271f304a41.jpg
 template: '{"NAME":"Arlec 45cm Fan","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 

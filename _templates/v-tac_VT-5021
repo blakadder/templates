@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-18
+title: V-TAC A95 18W 1350lm
+model: VT-5021
+image: /assets/images/v-tac_VT-5021.jpg
+template: '{"NAME":"V-TAC VT-5021","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://v-tac.bg/products-view/smart-home/led-krushka-20w-e27-smart-3-v-1-amazon-alexa-i-google-home-savmestimost-detail.html
+link2: 
+mlink: https://www.v-tac.eu/products/smart-home/led-bulbs/led-bulb-20w-e27-amazon-alexa-google-home-compatible-3-in-1-detail.html
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

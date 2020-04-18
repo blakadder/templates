@@ -1,6 +1,6 @@
 ---
 date_added: 2020-03-22
-title: Arlec 9W 950lm 4000K
+title: Arlec Smart 9W 950lm 4000K
 model: GLD124HA
 image: /assets/images/arlec_GLD124HA.jpg
 template: '{"NAME":"Arlec-GLD124HA","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 

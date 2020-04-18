@@ -1,7 +1,7 @@
 ---
 date_added: 2020-02-28
-title: V-Tac VT-5164 400lm
-model: SKU 2757
+title: V-Tac PAR16 4.5W 400lm 100°
+model: VT-5164
 image: /assets/images/v-tac_VT-5164.jpg
 template: '{"NAME":"V-TAC VT5164","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/V-tac-Smarthome-VT-5164-Wifi-spot/dp/B07WSNPJKS

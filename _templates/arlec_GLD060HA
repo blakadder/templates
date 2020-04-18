@@ -1,6 +1,6 @@
 ---
 date_added: 2020-03-17
-title: Arlec 4W 380lm SES Candle
+title: Arlec Smart 4W 380lm Candle
 model: GLD060HA
 image: /assets/images/arlec_GLD060HA.jpg
 template: '{"NAME":"Arlec Bulb 4W","GPIO":[0,255,0,255,0,0,0,0,38,0,37,0,0],"FLAG":15,"BASE":18}' 

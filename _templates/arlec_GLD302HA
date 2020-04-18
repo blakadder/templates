@@ -1,6 +1,6 @@
 ---
 date_added: 2020-03-15
-title: Arlec 1350lm PAR38 ES Globe
+title: Arlec Smart 1350lm PAR38
 model: GLD302HA
 image: /assets/images/arlec_GLD302HA.jpg
 template: '{"NAME":"Arlec GLD302HA","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 

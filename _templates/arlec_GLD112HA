@@ -1,6 +1,7 @@
 ---
 date_added: 2019-10-05
-title: Arlec GLD112HA 806lm
+title: Arlec Smart 9.5W 806lm
+model: GLD112HA
 type: CCT
 category: bulb
 standard: e27
@@ -11,15 +12,3 @@ link2:
 ---
 
 The bulb has hardware Gamma Correction included, you need to configure `LedTable 0` 
-
-Converted with tuya-convert 2. 
-
-gpio 13 is colour (0 - WW, ff -CW), gpio5 is dimmer.
-
-Uses esp tywe3l module, bp5926 to drive the leds 8 of each colour.
-
-
-
-
-
-

@@ -1,6 +1,6 @@
 ---
 date_added: 2020-02-26
-title: Arlec 40W 4000lm LED Batten Light 
+title: Arlec Smart 40W 4000lm LED Batten 
 model: ELGD11HA
 image: /assets/images/arlec_ELGD11HA.jpg
 template: '{"NAME":"Arlec Batten","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 

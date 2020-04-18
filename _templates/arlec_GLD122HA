@@ -1,6 +1,7 @@
 ---
 date_added: 2019-10-23
-title: Arlec GLD122HA 806lm
+title: Arlec Smart 9.5W 806lm
+model: GLD122HA
 type: RGBCCT
 category: bulb
 standard: e27
@@ -9,11 +10,3 @@ image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rac
 template: '{"NAME":"Arlec RGBWW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
-Uses same config as Novostella RGBWW bulb. Requires the latest development branch of TuyaConvert.
-
-
-
-
-
-

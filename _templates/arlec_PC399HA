@@ -1,6 +1,6 @@
 ---
 date_added: 2020-04-11
-title: Arlec PC399HA Plug
+title: Arlec Smart PC399HA Plug
 model: PC399HA
 image: /assets/images/arlec_PC399HA.jpg
 template: '{"NAME":"PC399HA","GPIO":[0,0,0,17,134,132,0,0,131,158,21,0,0],"FLAG":0,"BASE":52}' 
