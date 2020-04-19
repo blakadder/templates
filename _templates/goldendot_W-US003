@@ -1,7 +1,7 @@
 ---
 date_added: 2020-04-19
-title: GoldenDot W-US003 plug with ADC
-model: LPN N 624486469
+title: GoldenDot with ADC
+model: W-US003
 image: /assets/images/
 template: '{"NAME":"W-US003-Power","GPIO":[56,0,0,0,0,0,0,0,0,17,0,21,0],"FLAG":7,"BASE":18}' 
 link: https://www.amazon.ca/GoldenDot-Wireless-Household-Appliance-Compatible/dp/B07JFPYTJD
