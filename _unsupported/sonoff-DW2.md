@@ -1,6 +1,6 @@
 ---
 date_added: 2020-04-20
-title: Sonoff DW2 Door/Window Sensor
+title: Sonoff DW2 Door/Window
 type: Sensor
 category: unsupported
 link: 
