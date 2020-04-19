@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-19
+title: Merkury 9W 800lm
+model: MI-BW320-999W
+image: /assets/images/merkury_MI-BW320-999W.jpg
+template: '{"NAME":"MI-BW320-999W","GPIO":[0,0,0,0,0,0,0,0,0,0,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.walmart.com/ip/Merkury-Innovations-Smart-Wifi-LED-Bulb-3PK-works-with-The-Google-Assistant/361442042
+link2: 
+mlink: https://merkuryinnovations.com/brand/merkury/
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e26
+---

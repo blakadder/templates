@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-19
+title: LOFTer 7W 450lm
+model: LTLED-0178
+image: /assets/images/lofter_LTLED-0178.jpg
+template: '{"NAME":"Lofter","GPIO":[0,255,255,255,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
+link: https://www.amazon.de/dp/B078W6D3Y1/
+link2: https://www.amazon.it/dp/B078W6D3Y1/
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
