@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-19
+title: GoldenDot W-US003 plug with ADC
+model: LPN N 624486469
+image: /assets/images/
+template: '{"NAME":"W-US003-Power","GPIO":[56,0,0,0,0,0,0,0,0,17,0,21,0],"FLAG":7,"BASE":18}' 
+link: https://www.amazon.ca/GoldenDot-Wireless-Household-Appliance-Compatible/dp/B07JFPYTJD
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+Identical to GDTech-US003 but with ADC availble. Product may by out of production. 

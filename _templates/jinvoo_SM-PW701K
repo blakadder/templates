@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-18
+title: SM-PW701K
+model: 
+image: /assets/images/jinvoo_SM-PW701K.jpg
+template: '{"NAME":"SM-PW701K","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/FEYG-Wireless-Compatible-Assistant-Function/dp/B074KJC2KD
+link2: https://www.amazon.co.uk/Jinvoo-Compatible-Function-Required-Anywhere/dp/B07J6HPLFT/
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---

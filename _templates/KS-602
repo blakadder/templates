@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-18
+title: KS-602
+model: DZ2900-01B
+image: /assets/images/KS-602.jpg
+template: '{"NAME":"Gosund KS-602","GPIO":[17,0,0,0,0,0,0,0,21,157,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32886432207.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
