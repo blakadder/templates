@@ -3,7 +3,7 @@ date_added: 2020-04-18
 title: Gosund P1
 model: 
 image: /assets/images/gosund_P1.jpg
-template: '{"NAME":"Gosund_P1","GPIO":[0,0,157,0,0,32,0,0,22,23,21,0,17],"FLAG":6,"BASE":18}' 
+template: '{"NAME":"Gosund_P1","GPIO":[0,145,157,146,0,32,0,0,22,23,21,0,17],"FLAG":6,"BASE":18}' 
 link: https://www.amazon.de/-/en/gp/product/B085XXCPRD/
 link2: 
 mlink: 
@@ -12,8 +12,6 @@ category: plug
 type: Power Strip
 standard: eu
 ---
-**Device has power monitoring but the pinout has not been found yet**
-
 Main device button is used to control the on/off of the USB ports and for that we need to setup a rule, otherwise the button will control the first relay instead.  
   
 ```
