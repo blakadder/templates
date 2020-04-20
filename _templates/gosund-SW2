@@ -96,6 +96,7 @@ endif
 ;add first and second nibbles then to Tasmota dimming path
 f+=d
 =>dimmer %f%
+slider=f
 endif
 
 #scDim(dimval)
