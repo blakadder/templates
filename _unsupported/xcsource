@@ -1,0 +1,12 @@
+---
+date_added: 2020-04-21
+title: XCSOURCE RGB LED Controller
+category: unsupported
+type: LED Controller
+link: https://www.amazon.com/XCSOURCE-Channels-Controller-Android-LD686/dp/B01AA6221S
+image: https://images-na.ssl-images-amazon.com/images/I/61WcRKbkN0L._AC_SL1000_.jpg
+link2: 
+link3: 
+flash: High-Flying LPB100-1 (MediaTek WiFi Chip)
+---
+Looks just like an LEDEnet device, works with MagicHome, but different chip
