@@ -12,3 +12,8 @@ category: bulb
 type: RGBW
 standard: gu10
 ---
+
+For correct colors issue:
+```console
+SetOption37 118
+```
