@@ -3,7 +3,7 @@ date_added: 2019-12-31
 title: WF-CS02
 link: https://www.amazon.de/Zeitschaltuhr-Etersky-Rollladen-Kompatibel-Fernbedienung/dp/B07PQ11PPS
 image: https://i.ibb.co/SnK2jzD/product-image-992218767-530x-2x.jpg
-template: '{"NAME":"WF-CS02 Tuya","GPIO":[157,0,53,11,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"WF-CS02 Tuya","GPIO":[157,24,53,11,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
 link2: https://www.ebay.com/itm/100-240V-Intelligenter-WiFi-Schalter-für-elektrischen-Rollladen-Touch-Control/123922710893
 mlink: 
 flash: tuya-convert
