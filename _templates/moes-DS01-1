@@ -13,8 +13,6 @@ mlink: https://www.moeshouse.com/collections/us-smart-switch/products/wifi-smart
 
 There are several Tuya Dimmer variants by various manufacturers. These dimmers are usually 1 gang switches that dim mains voltage for various lighting types: incandescent, CFL, and LED.  Consult the specific device for the type of bulbs and capacity it supports as well as the bulbs themselves to verify they support dimming.
 
-`Tuya Dimmer (54)` as a BASE module was introduced in 6.2.1.16. and reimplemented as `Tuya MCU (54)` in 6.6.0.10
-
 #### Configuration
 
 These dimmers typically use hardware serial either on GPIO01 and GPIO03, or GPIO13 and GPIO15. Different devices/models vary in which GPIO pair is used. You may need to modify the GPIO assignments to match your specific device hardware.
