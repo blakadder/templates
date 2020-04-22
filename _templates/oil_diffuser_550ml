@@ -53,6 +53,11 @@ Don't forget to activate rules
 Backlog Rule1 1; Rule2 1; Rule3 1
 ```
 
+Label webUI buttons:
+```console
+Backlog WebButton1 Power; WebButton2 Mist; WebButton3 Light; WebButton4 Error; WebButton5 -
+```
+
 ### What you get
 - fnid11 = Relay1 serves as device power status with the help of Rule1, dummy relay no control
 - fnid12 = Relay2 is mist strength status and control
