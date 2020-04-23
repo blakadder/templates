@@ -18,12 +18,9 @@ Remove front cover of device
 
 The pin order is 3.3V,TX,RX,GND
 
-*Notes:*
-
- 1. **When flashing you must power on the device whilst holding down the reset button for 3 seconds or so.**
+**When flashing you must power on the device whilst holding down the reset button for 3 seconds or so.**
     
- 2. **This is an ESP8265 so you must use write mode DOUT and not DIO.**
-
+ 
 ### Images
 
 [Control Board - Front](https://imgur.com/bLwBEhg)
