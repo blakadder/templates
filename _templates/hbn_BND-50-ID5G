@@ -3,7 +3,7 @@ date_added: 2020-02-06
 title: HBN Wall-Mounted Timer 
 model: BND-50/ID5G
 image: /assets/images/hbn_BND-50-ID5G.jpg
-template: '{"NAME":"HBN Time Switc","GPIO":[0,0,0,0,54,57,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"HBN Timer Switch","GPIO":[0,0,0,0,54,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/HBN-Wall-Mounted-Compatible-Assistant-Anywhere/dp/B07PYWFKDY/
 link2: 
 mlink: http://www.hbn-ergo.com/product/product-93-325.html
