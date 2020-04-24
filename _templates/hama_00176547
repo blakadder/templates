@@ -1,0 +1,21 @@
+---
+date_added: 2020-04-24
+title: Hama 10W 806lm
+model: 00176547
+type: RGBW
+category: bulb
+standard: e27
+mlink: https://www.hama.com/00176547/hama-wifi-led-light-e27-10w-rgb-can-be-dimmed
+link: https://www.amazon.de/Hama-LED-Lampe-steuerbar-Farbwechsel-kompatibel/dp/B07FR4ZYCD
+link2: https://www.amazon.co.uk/Hama-00176547-10-E27-LED-Multi-10-kWh/dp/B07FR4ZYCD
+image: /assets/images/hama_00176547.jpg
+template: '{"NAME":"Hama Smart WiF","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+---
+
+
+
+
+
+
+
+

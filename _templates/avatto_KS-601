@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-23
+title: Avatto 2 Gang
+model: KS-601
+image: /assets/images/avatto_KS-601.jpg
+template: '{"NAME":"Avatto Wifi - ","GPIO":[0,0,52,0,0,17,0,0,21,22,0,0,18],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000172273853.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-23
+title: Hama 7W 900lm Filament
+model: 00176555
+image: /assets/images/hama_00176555.jpg
+template: '{"NAME":"Hama Filament","GPIO":[255,255,255,255,255,255,255,255,255,255,46,255,255],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.de/LED-Filament-WLAN-E27-7W/dp/B07ML861CM
+link2: 
+mlink: https://www.hama.com/00176555/hama-wifi-led-filament-e27-7w-warm-white-dimmable
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e27
+---
