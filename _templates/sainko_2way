@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-24
+title: Sainko 2 Way
+model: KS-601
+image: /assets/images/sainko_2way.jpg
+template: '{"NAME":"Sainko 2-Way","GPIO":[0,255,56,0,0,17,0,0,21,22,0,0,18],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.de/Lichtschalter-SAINKO-Touchscreen-Schalter-Timing-Funktion-%C3%9Cberlastungsschutz/dp/B07B7HH89J
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+2-Way Touch Switch
