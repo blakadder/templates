@@ -2,7 +2,7 @@
 date_added: 2020-04-24
 title: ESP-01(S)
 model: ESP-01(S)
-image: /assets/images/
+image: /assets/images/ESP01.jpg
 template: '{"NAME":"ESP01","GPIO":[255,255,255,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33005770320.html
 link2: https://www.amazon.de/dp/B074RL7YR3/
