@@ -41,7 +41,7 @@ on IrReceived#Data=0x00F7B04F do color2 #00FF80 endon
 on IrReceived#Data=0x00F78877 do color2 #00FFC0 endon
 ```
 ```console
-rule3
+Rule3
 on IrReceived#Data=0x00F7A857 do color2 8 endon
 on IrReceived#Data=0x00F7609F do color2 3 endon
 on IrReceived#Data=0x00F750AF do color2 #4000FF endon
