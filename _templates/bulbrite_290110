@@ -2,7 +2,7 @@
 date_added: 2020-02-01
 title: Bulbrite Solana A19 Edison Filament
 model: 290110
-image: https://user-images.githubusercontent.com/5904370/73602175-a4652580-456f-11ea-97d8-8f2a53777529.png
+image: /assets/images/bulbrite_290110.jpg
 template: '{"NAME":"BulbBrite01","GPIO":[0,0,0,0,0,0,0,0,37,0,38,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07TVKSCQS
 link2: 

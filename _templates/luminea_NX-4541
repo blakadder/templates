@@ -1,6 +1,6 @@
 ---
 date_added: 2020-04-03
-title: Luminea NK-4541 
+title: Luminea NX-4541 
 model: NX-4541-919 or NX-4541-913
 image: /assets/images/luminea_NX-4541.jpg
 template: '{"NAME":"NX-4451","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":55}' 
