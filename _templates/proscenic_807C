@@ -4,15 +4,13 @@ title: Proscenic 807C
 category: misc
 type: Humidifier
 standard: eu
-link: https://www.amazon.it/gp/product/B07PW715W6
+link: https://www.amazon.de/gp/product/B07PW715W6
 image: https://images-na.ssl-images-amazon.com/images/I/51I0vlBhfBL._SL1000_.jpg
 template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":54}' 
-link2: 
+link2: https://www.amazon.it/gp/product/B07PW715W6
 ---
 
-**Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**
-
-<!-- Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) wiki entry to understand the terminology and configuration process.
 
 Flashed via serial by using TYWE3S pins.
 
@@ -44,3 +42,64 @@ Don't forget to activate rules
 ```
 Backlog Rule1 1; Rule2 1; Rule3 1
 ```
+
+Controllable with the script language
+without console and rules
+```
+>D
+p:level=0
+te=0
+hy=0
+p:anion=0
+p:heat=0
+p:bled=0
+p:fahr=0
+p:nida=0
+
+>E
+te=TuyaReceived#DpType2Id104
+hy=TuyaReceived#DpType2Id3
+if chg[te]>0 {
+=>publish stat/%topic%/RESULT {"temperature":"%0te%"}
+}
+if chg[hy]>0 {
+=>publish stat/%topic%/RESULT {"humidifier":"%0hy%"}
+
+>S
+if chg[level]>0
+{
+=>TuyaSend4 6,%0level%
+=>publish stat/%topic%/RESULT {"Script":">level=%0level%"}
+}
+if chg[anion]>0 {
+=>TuyaSend1 7,%0anion%
+=>publish stat/%topic%/RESULT {"Script":">anion=%0anion%"}
+}
+if chg[heat]>0 {
+=>TuyaSend1 101,%0heat%
+=>publish stat/%topic%/RESULT {"Script":">heat=%0heat%"}
+}
+if chg[bled]>0 {
+=>TuyaSend1 102,%0bled%
+=>publish stat/%topic%/RESULT {"Script":">bled=%0bled%"}
+}
+if chg[fahr]>0 {
+=>TuyaSend1 105,%0fahr%
+=>publish stat/%topic%/RESULT {"Script":">fahr=%0fahr%"}
+}
+if chg[nida]>0 {
+=>TuyaSend1 106,%0nida%
+=>publish stat/%topic%/RESULT {"Script":">nida=%0nida%"}
+}
+
+>W
+Temperature:{m} %0te%
+Humidifier:{m} %0hy% %%
+sl(0 6 level "0" "Mistlevel" "6")
+bu(anion "Anion on" "Anion off")
+bu(heat "Heat on" "Heat off")
+bu(bled "BlueLED on" "BlueLED off")
+bu(nida "Nigth" "Day")
+bu(fahr "Fahrenheit" "Grad")
+```
+![](https://forum.iobroker.net/assets/uploads/files/1587837310797-proscenic.png)
