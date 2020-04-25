@@ -14,5 +14,9 @@ standard: eu
 ---
 Plug has three LED´s (red(1), blue(2) & red (3)). With original firmware green LED indicates status of socket 2. With Tasmota green LED doesn´t react. Blue LED indicates if either socket 1 or 2 is ON. To toggle socket 2, double click the button.
 
+## Hardware Revision Template
+```json
+{"NAME":"Maxcio EOP03-E","GPIO":[0,0,0,0,56,57,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}
+```
 
 ![Packaging](https://user-images.githubusercontent.com/5904370/73613385-5e52a500-45f5-11ea-9d7c-97cf5f955a43.png)
