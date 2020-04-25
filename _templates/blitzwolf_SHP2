@@ -9,17 +9,15 @@ template: '{"NAME":"BlitzWolf SHP","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21
 link2: https://www.aliexpress.com/item/32869933685.html
 mlink: https://www.blitzwolf.com/3840W-EU-WIFI-Smart-Socket-p-244.html
 link3: https://www.amazon.de/dp/B07BMQP142
+flash: tuya-convert
 ---
 ## Hardware Revision
 There is a newer hardware revision (v2.3) working with this template:
 ```json
 {"NAME":"BW-SHP2 16A","GPIO":[0,57,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":45}
 ```
-## OTA Flashing 
-Since SHP2 is one of those Tuya based devices this OTA Tasmota installation method works just fine:
-https://github.com/ct-Open-Source/tuya-convert
-
-The Tuya-convert has a built in Tasmota v6.5.0 basic (but you can define any firmware during the install), remember, that basic version doesn't come with homeassistant auto discovery support, but Tasmota OTA works as expected. 
+## Tuya-Convert 
+Since SHP2 is a Tuya based device, [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert) flash is possible.
 
 This method does't need any wiring. 
 
