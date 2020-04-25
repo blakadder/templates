@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-25
+title: Prime RCWFII11
+model: 2AMV5-SK517-W
+image: /assets/images/prime_RCWFII11.jpg
+template: '{"NAME":"Prime Plug","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.costco.ca/prime-indoor-smart-wi-fi-outlet%2C-3-pack.product.100506631.html
+link2: 
+mlink: https://primewirecable.com/collections/smart-home-devices/products/1-outlet-white-mini-wi-fi-control
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
