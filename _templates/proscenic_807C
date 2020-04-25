@@ -4,15 +4,13 @@ title: Proscenic 807C
 category: misc
 type: Humidifier
 standard: eu
-link: https://www.amazon.it/gp/product/B07PW715W6
+link: https://www.amazon.de/gp/product/B07PW715W6
 image: https://images-na.ssl-images-amazon.com/images/I/51I0vlBhfBL._SL1000_.jpg
 template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":54}' 
-link2: 
+link2: https://www.amazon.it/gp/product/B07PW715W6
 ---
 
-**Configuration for this device uses features not yet in official Tasmota release(TuyaSend and TuyaReceived). Use the [latest development branch](http://thehackbox.org/tasmota/) binary.**
-
-<!-- Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) wiki entry to understand the terminology and configuration process.
 
 Flashed via serial by using TYWE3S pins.
 
@@ -104,4 +102,4 @@ bu(bled "BlueLED on" "BlueLED off")
 bu(nida "Nigth" "Day")
 bu(fahr "Fahrenheit" "Grad")
 ```
-image: https://forum.iobroker.net/assets/uploads/files/1587837310797-proscenic.png
+![](https://forum.iobroker.net/assets/uploads/files/1587837310797-proscenic.png)
