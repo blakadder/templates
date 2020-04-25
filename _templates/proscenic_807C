@@ -104,3 +104,4 @@ bu(bled "BlueLED on" "BlueLED off")
 bu(nida "Nigth" "Day")
 bu(fahr "Fahrenheit" "Grad")
 ```
+image: https://forum.iobroker.net/assets/uploads/files/1587837310797-proscenic.png
