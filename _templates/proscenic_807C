@@ -50,7 +50,7 @@ You can use scripting instead of rules for a better implementation.
 To use the script, you have to compile Tasmota with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
 
 {% raw %}
-```
+```haskell
 >D
 p:level=0
 te=0
