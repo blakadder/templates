@@ -10,9 +10,11 @@ link2: https://www.aliexpress.com/item/32869933685.html
 mlink: https://www.blitzwolf.com/3840W-EU-WIFI-Smart-Socket-p-244.html
 link3: https://www.amazon.de/dp/B07BMQP142
 ---
-## Attention
-There is a [newer hardware revision (v2.3)](https://github.com/arendst/Tasmota/issues/4303) which is supported too. It needs to be configured as [Gosund SP1 v23 (55)](gosund_SP1.html).
-
+## Hardware Revision
+There is a newer hardware revision (v2.3) working with this template:
+```json
+{"NAME":"BW-SHP2 16A","GPIO":[0,57,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":45}
+```
 ## OTA Flashing 
 Since SHP2 is one of those Tuya based devices this OTA Tasmota installation method works just fine:
 https://github.com/ct-Open-Source/tuya-convert
