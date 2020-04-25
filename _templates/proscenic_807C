@@ -6,7 +6,7 @@ type: Humidifier
 standard: eu
 link: https://www.amazon.de/gp/product/B07PW715W6
 image: https://images-na.ssl-images-amazon.com/images/I/51I0vlBhfBL._SL1000_.jpg
-template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":15,"BASE":54}' 
+template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link2: https://www.amazon.it/gp/product/B07PW715W6
 ---
 
@@ -43,8 +43,13 @@ Don't forget to activate rules
 Backlog Rule1 1; Rule2 1; Rule3 1
 ```
 
-Controllable with the script language
-without console and rules
+## Scripting
+
+You can use scripting instead of rules for a better implementation.
+
+To use the script, you have to compile Tasmota with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
+
+{% raw %}
 ```
 >D
 p:level=0
@@ -99,7 +104,9 @@ sl(0 6 level "0" "Mistlevel" "6")
 bu(anion "Anion on" "Anion off")
 bu(heat "Heat on" "Heat off")
 bu(bled "BlueLED on" "BlueLED off")
-bu(nida "Nigth" "Day")
-bu(fahr "Fahrenheit" "Grad")
+bu(nida "Night" "Day")
+bu(fahr "Fahrenheit" "Degrees")
 ```
+{% endraw %}
+
 ![](https://forum.iobroker.net/assets/uploads/files/1587837310797-proscenic.png)
