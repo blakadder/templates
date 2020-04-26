@@ -12,3 +12,9 @@ category: bulb
 type: RGBCCT
 standard: gu10
 ---
+
+If your device has been connected to the Tuya Smart app then you may need to configure it with an alternative template;
+
+```
+{"NAME":"LohasZN011-Tuya","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}
+```
