@@ -2,14 +2,14 @@
 date_added: 2020-04-26
 title: Brilex 400ml Oil Diffuser
 model: 
-image: /assets/images/
+image: /assets/images/brilex.jpg
 template: '{"NAME":"BrilexDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.de/Brilex-Aromatherapy-Ultrasonic-Humidifier-Adjustable/dp/B07YWBHMY5
 link2: 
 mlink: 
 flash: tuya-convert
 category: misc
-type: Aromatherapy diffuser
+type: Aromatherapy Diffuser
 standard: eu
 ---
 ## Scripting

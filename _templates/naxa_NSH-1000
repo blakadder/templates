@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-27
+title: Naxa NSH-1000
+model: FCC ID 2ANQH-WP1
+image: /assets/images/naxa_NSH-1000.jpg
+template: '{"NAME":"Naxa NSH-1000","GPIO":[0,0,0,0,17,0,0,0,57,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Electronics-Nsh-1000-Compatible-Amazon-Google/dp/B07P85KFR3
+link2: 
+mlink: https://naxa.com/product/wi-fi-smart-plug/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

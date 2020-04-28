@@ -1,0 +1,16 @@
+---
+date_added: 2020-04-27
+title: Jinli XS-SSA01
+model: 
+image: /assets/images/jinli_XS-SSA01.jpg
+template: '{"NAME":"JINLI","GPIO":[0,0,0,0,0,0,0,0,56,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07FR5ZCM7/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+
+FCC ID: 2AL65-XSSSA01
