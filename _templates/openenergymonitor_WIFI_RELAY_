@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-28
+title: OpenEnergyMonitor WiFi MQTT Thermostat
+model: WIFI_RELAY_
+image: /assets/images/openenergymonitor_WIFI_RELAY_.jpg
+template: '{"NAME":"MQTT-RELAY","GPIO":[17,0,255,0,0,21,0,0,0,0,0,0,56],"FLAG":0,"BASE":18}' 
+link: https://shop.openenergymonitor.com/wifi-mqtt-relay-thermostat/
+link2: 
+mlink: https://guide.openenergymonitor.org/integrations/mqtt-relay/
+flash: serial
+category: switch
+type: Relay
+standard: global
+---
+Pinout of the flashing header starting from the pushbutton: GND, (NC), 3V3, RX, TX. Press button during boot to enable flashing.

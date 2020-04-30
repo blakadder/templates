@@ -1,15 +1,15 @@
 ---
-date_added: 2019-05-20
+date_added: 2020-04-29
 title: Teckin SP21
 category: plug
 type: Plug
 standard: eu
-link: https://www.amazon.de/Steckdose-TECKIN-funktioniert-Steurung-%C3%BCberall/dp/B07HHFKWJJ
+mlink: https://www.teckinhome.com/
+flash: tuya-convert
+link: https://www.amazon.de/gp/product/B07HHFTRS3
+link2: https://www.amazon.de/Steckdose-TECKIN-funktioniert-Steurung-%C3%BCberall/dp/B07HHFKWJJ
 image: https://user-images.githubusercontent.com/5904370/58085795-b3609f00-7bbd-11e9-800b-88a9ec1a43cb.png
 template: '{"NAME":"Teckin SP21","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":45}' 
-link2: 
 ---
 
-New versions of [Teckin SP21](unsupported/teckin_SP21) have an unsupported Realtek chip!
-
-
+Some versions of [Teckin SP21](unsupported/teckin_SP21) may have an unsupported Realtek chip!
