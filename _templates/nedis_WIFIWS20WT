@@ -1,6 +1,6 @@
 ---
 date_added: 2020-04-29
-title: Nedis Dual Wall Switch
+title: Nedis Dual
 model: WIFIWS20WT 
 image: /assets/images/nedis_WIFIWS20WT.jpg
 template: '{"NAME":"SM-SW102U-2","GPIO":[158,0,0,18,22,0,0,0,17,21,0,0,0],"FLAG":1,"BASE":18}' 
