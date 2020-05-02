@@ -9,7 +9,7 @@ link3: https://www.beaconlighting-europe.com/product/wifi_remote/
 mlink: 
 flash: tuya-convert
 category: misc
-type: Fan Controller
+type: Fan
 standard: au
 ---
 1. Install Tasmota v7.2

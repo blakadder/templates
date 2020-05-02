@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-30
+title: iLONDA Fish feeder
+model: L88
+image: /assets/images/ilonda_L88.jpg
+template: '{"NAME":"Feeder","GPIO":[0,0,0,0,17,56,0,0,42,0,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07SX31CNS/
+link2: https://www.amazon.com/iLONDA-Automatic-Adjustable-Dispenser-Compatible/dp/B07KWWGY6M
+link3: https://www.aliexpress.com/item/4000072366725.html
+mlink: 
+flash: serial
+category: misc
+type: Miscellaneous
+standard: global
+---

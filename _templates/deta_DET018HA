@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-01
+title: Deta 18W 1900lm T8 Tube
+model: DET018HA
+image: /assets/images/deta_DET018HA.jpg
+template: '{"NAME":"DETA Smart LED","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.co.nz/deta-smart-18w-1900lm-t8-tube-with-grid-connect_p0111511
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---

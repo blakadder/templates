@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-02
+title: Luminea 3AC+4USB 16A
+model: NX-4473-919
+image: /assets/images/luminea_NX-4473.jpg
+template: '{"NAME":"Luminea-NX4473","GPIO":[0,56,0,17,22,21,0,0,0,23,24,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/-/en/Luminea-Home-Control-Steckdosenleiste-WLAN-Steckdosen-Leiste/dp/B07KG4G381/
+link2: 
+mlink:https://www.luminea.info/3-fach-Wifi-Steckdosenleiste-kompatibel-zu-Alexa-u-NX-4473-919.shtml 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: eu
+---

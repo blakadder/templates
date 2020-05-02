@@ -1,7 +1,7 @@
 ---
 title: Sonoff iFan02
 category: misc
-type: Fan Controller
+type: Fan
 standard: global
 mlink: https://www.itead.cc/sonoff-ifan02-wifi-smart-ceiling-fan-with-light.html
 image: https://user-images.githubusercontent.com/5904370/57948708-a6545f00-78e2-11e9-9d04-05f31ff77a72.png

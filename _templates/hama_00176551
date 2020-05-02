@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-02
+title: Hama Flush-mounted
+model: 00176551
+image: /assets/images/hama_00176551.jpg
+template: '{"NAME":"Hama WiFiTouch","GPIO":[157,0,0,0,0,18,0,0,17,22,0,21,0],"FLAG":0,"BASE":45}' 
+link: https://www.amazon.de/-/en/Hama-Lichtschalter-kompatibel-Sprachsteuerung-Wandschalter/dp/B07JKC11SQ/ 
+link2: https://www.expert.nl/hama-wifi-touch-wandschakelaar-inbouw-wit?utm_campaign=Hama&utm_content=372568651&utm_source=beslistslimmershoppen&utm_medium=prijsvergelijker&utm_term=Wonen%20%3E%20Smart%20home%20%3E%20Verlichting%20en%20schakelaars
+mlink: https://www.hama.com/00176551/hama-wifi-touch-wall-switch-flush-mounted-white
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---
+Regular tuya-convert
