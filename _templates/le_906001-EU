@@ -12,3 +12,5 @@ category: bulb
 type: CCT
 standard: e14
 ---
+# BEWARE
+Bulbs labelled with 9060001-EU-2 and as NEW cannot be converted with tuya-convert
