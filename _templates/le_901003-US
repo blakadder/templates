@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-03
+title: LE lampUX A19 9.5W 806lm
+model: 901003-US
+image: /assets/images/le_901003-US.jpg
+template: '{"NAME":"LE lampUX 9W Bulb","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07PY5ZFM7/
+link2: 
+mlink: https://www.lepro.com/
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---
+Start Tuya-Convert, power cycle 3 times to enter pairing mode, flash with Tasmota, finally configure with this template.
