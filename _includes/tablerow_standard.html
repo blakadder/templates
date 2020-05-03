@@ -1,11 +1,12 @@
 <tr>
     <td style="width: 20%"><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;"></td>
     <td><b><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }}</a></b></td>
-    <td style="width: 22%">{% assign template = page.template | split: ':' %}
+    <td style="width: 22%">{% assign template = template.template | split: ':' %}
         {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
         {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%}
    Power Monitoring<BR>
    {% endif %}
+  
         {{ template.type }}        
         {% if template.category contains 'bulb'%}
         Bulb
