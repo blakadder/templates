@@ -1,0 +1,17 @@
+---
+date_added: 2020-05-04
+title: Hama 4.5W
+model: 00176549
+image: /assets/images/hama_00176549.jpg
+template: '{"NAME":"hama E14 RGB","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/Hama-LED-Lampe-Kerzenform-gesteuert-kompatibel/dp/B07FR4TCYP
+link2: 
+mlink: https://www.hama.com/00176549/hama-wifi-led-light-e14-45w-rgb-can-be-dimmed?srcLang=0&targetLang=1
+flash: serial
+category: bulb
+type: RGBW
+standard: e14
+---
+Tried Tuya-Convert first and did not succeed.
+
+Opened up the device and disassembled the LED-Module from the other pcb inside the bulb. It was only plugged together. The ESP-Module had to be soldered out. Looked similar to an ESP-01.

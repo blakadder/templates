@@ -1,0 +1,34 @@
+---
+date_added: 2020-05-04
+title: Nedis Smoke Detector
+model: WIFIDS10WT
+image: /assets/images/nedis_WIFIDS10WT.jpg
+template: '{"NAME":"Nedis Smoke","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://nedis.com/en-us/product/security-safety/home-prevention/smoke-detection/550691451/smart-smoke-detector-wi-fi
+link2: 
+mlink: https://nedis.com/en-us/product/security-safety/home-prevention/smoke-detection/550691451/smart-smoke-detector-wi-fi
+flash: serial
+category: misc
+type: Sensor
+standard: global
+---
+### Flashing
+
+I successfully flashed this device using both Tuya Convert snd serial flashing soldering cables directly onto the TYWE3S chip. I would recommend the serial flashing method which also allows you to configure the setup without worrying about the chip going to sleep.
+
+If configuring using the battery, 3 presses within 2 seconds energise the TYWE3S for about 50 seconds.
+
+After initial setup type the following into the Tasmota console window:
+
+```console
+Rule1 ON TuyaReceived#data=55AA000000010101 DO POWER ON ENDON
+```
+
+Enable the rule: `Rule1 1`
+
+Enable `SetOption66 1`
+
+This device on Tasmota 8.2 does not report a full TuyaMCU message, but it spams 55AA000000010101 when snoke is detected.
+
+I am powering this device using a PoE connection linked to a DC-DC step down PCB which fits nicely in place of the 2xAA batteries. I have soldered a cable between the power and the VCC of the TYWE3S which keep the Tasmote interface permanently available and allows simple resetting of the smoke detector after an activation.
+
