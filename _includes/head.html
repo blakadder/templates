@@ -41,6 +41,8 @@ Power Monitoring {% endif %} {{ page.type | escape }} {% if page.category contai
 Power Monitoring {% endif %} {{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %} to work with Tasmota firmware {% else %} {{ site.description | escape }} {% else %} List of {{ page.title }} confirmed working with for Tasmota firmware {% endif %}">
   <meta name="twitter:image" content="{{ page.image }}">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="{{ site.url }}">
+  <meta name="twitter:creator" content="blakadder">
   {% include styles.html %}
 
   {% if site.google_analytics and jekyll.environment == 'production' %}
