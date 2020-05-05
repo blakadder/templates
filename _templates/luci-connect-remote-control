@@ -12,7 +12,7 @@ category: misc
 type: Fan
 standard: au
 ---
-1. Install Tasmota v7.2
+1. Install latest Tasmota
 2. Issue command
 ```console
 TuyaMCU 12,102
