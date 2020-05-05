@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-28
+title: Krisbow Bohlam 14W
+model: 10293988
+image: /assets/images/krisbow_bohlam_14W.jpg
+template: '{"NAME":"Krisbow SmartL","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.ruparupa.com/krisbow-bohlam-smart-led-dimmable-14-w.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e27
+---

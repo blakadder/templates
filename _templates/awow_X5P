@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-01
+title: Awow X5P
+model: X0028J2HA3
+image: /assets/images/awow_X5P.jpg
+template: '{"NAME":"Awow","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/AWOW-Compatible-Required-Appliances-Anywhere/dp/B07TF7LZVC/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

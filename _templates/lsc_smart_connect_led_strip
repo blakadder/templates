@@ -17,7 +17,28 @@ Rule1 ON IrReceived#Data=0x00F740BF DO power Off ENDON ON IrReceived#Data=0x00F7
 
 Don't forget to enable the rule with 'Rule1 1'!
 
-The IR commands don't look complete but support ON/OFF and RGBW Color changes.
+The IR commands don't look complete but support ON/OFF and RGBW Color changes.  
+
+Other IR Commands  
+Light Red: `ON IrReceived#Data=0x00F710EF DO color #CC660000 ENDON`  
+Orange: `ON IrReceived#Data=0x00F730CF DO color #FF800000 ENDON`  
+Peach: `ON IrReceived#Data=0x00F708F7 DO color #FFB26600 ENDON`  
+Yellow: `ON IrReceived#Data=0x00F728D7 DO color 10 ENDON`  
+Light Green: `ON IrReceived#Data=0x00F7906F DO color #66FF6600 ENDON`  
+Cyan: `ON IrReceived#Data=0x00F7B04F DO color #99FF9900 ENDON`  
+Aqua Green: `ON IrReceived#Data=0x00F78877 DO color 8 ENDON`  
+Hunter Green: `ON IrReceived#Data=0x00F7A857 DO color #00660000 ENDON`  
+Light Blue: `ON IrReceived#Data=0x00F750AF DO color #9999FF00 ENDON`  
+Purple: `ON IrReceived#Data=0x00F7708F DO color #6600CC00 ENDON`  
+Light Purple: `ON IrReceived#Data=0x00F748B7 DO color 9 ENDON`  
+Pink: `ON IrReceived#Data=0x00F76897 DO color 11 ENDON`  
+
+Incomplete IR Commands  
+Flash: `ON IrReceived#Data=0x00F7D02F DO   ENDON`  
+Strobe: `ON IrReceived#Data=0x00F7F00F DO   ENDON`  
+Fade: `ON IrReceived#Data=0x00F7C837 DO Backlog Scheme 4; Speed 1 ENDON`  
+Smooth: `ON IrReceived#Data=0x00F7E817 DO Backlog Scheme 4; Speed 40 ENDON`  
+
 
 [Source for IR settings](link: https://www.circuitsonline.net/forum/view/146361/3)
 
