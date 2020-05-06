@@ -1,6 +1,7 @@
 ---
 date_added: 2019-08-08
-title: Sonoff iFan03
+title: Sonoff IFan03
+model: IM190409021
 category: misc
 type: Fan
 standard: global

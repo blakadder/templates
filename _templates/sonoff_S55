@@ -1,6 +1,7 @@
 ---
 date_added: 2019-07-22
-title: Sonoff S55 
+title: Sonoff S55
+model: IM190313008
 category: plug
 type: Wall Outlet
 standard: 
@@ -13,8 +14,9 @@ standard:
 mlink: https://www.itead.cc/smart-home/sonoff-s55.html
 image: https://user-images.githubusercontent.com/5904370/61628399-7890eb00-ac82-11e9-9742-3e837ee9f09b.png
 template: '{"NAME":"Sonoff S55","GPIO":[17,255,0,255,255,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
-link2: https://www.gearbest.com/access-control/pp_009457202615.html?
-link: https://www.banggood.com/SONOFF-S55-Waterproof-WIFI-Smart-Socket-Switch-UKAUUSFRDEZA-Multiple-Version-Wifi-Socket-Works-With-Alexa-Google-Home-p-1523977.html
+link3: https://www.amazon.co.uk/dp/B07T1XF17N/
+link: https://www.aliexpress.com/item/33051338598.html
+link2: https://www.banggood.com/SONOFF-S55-Waterproof-WIFI-Smart-Socket-Switch-UKAUUSFRDEZA-Multiple-Version-Wifi-Socket-Works-With-Alexa-Google-Home-p-1523977.html
 ---
 
 

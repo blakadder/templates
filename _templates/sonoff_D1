@@ -1,6 +1,7 @@
 ---
 date_added: 2020-03-06
 title: Sonoff D1
+modeL: SONOFFD1
 category: switch
 type: Dimmer
 standard: global

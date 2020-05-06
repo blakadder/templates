@@ -100,8 +100,7 @@ Battery percentage is posted in a message similar to
 In this case the CmndData string is longer from other dpID's (16 characters long). Last two digits are battery percentage in hexadecimal. There's no easy way to read battery status in Tasmota.
 
 Battery percentage sensor in Home Assistant:
-{% highlight yaml %}
-{% raw %}
+```yaml{% raw %}
 - platform: mqtt
   name: "Digoo Battery"
   state_topic: "tele/digoo/RESULT"
@@ -112,9 +111,8 @@ Battery percentage sensor in Home Assistant:
     {% else %}  
     {{ states('sensor.digoo_battery') }}
     {% endif %}  
-  device_class: battery
-{% endraw %}
-{% endhighlight %}
+  device_class: battery{% endraw %}
+```
 
 ## Final Notes
 There is a significant delay (~4s on my network with the latest stripped down binary and a static IP) between reed actuation and first MQTT message so I don't recommmend this in critical spots where a fast response is required.

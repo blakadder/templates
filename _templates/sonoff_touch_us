@@ -1,5 +1,6 @@
 ---
-title: Sonoff Touch US
+title: Sonoff Touch
+model: IM160928099
 category: switch
 type: Switch
 standard: us
