@@ -29,3 +29,7 @@ Rule2
 ```  
 
 Then enable it with `Backlog Rule2 1; Rule2 5`
+
+## Serial flash
+![internals](/assets/images/gosund_P1_pcb.jpg)
+![internals](/assets/images/gosund_P1_pcba.jpg)
