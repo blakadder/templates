@@ -28,7 +28,9 @@ Enable the rule: `Rule1 1`
 
 Enable `SetOption66 1`
 
-This device on Tasmota 8.2 does not report a full TuyaMCU message, but it spams 55AA000000010101 when snoke is detected.
+This device on Tasmota 8.2 does not report a full TuyaMCU message, but it sends `55AA000000010101` when smoke is detected.
 
 I am powering this device using a PoE connection linked to a DC-DC step down PCB which fits nicely in place of the 2xAA batteries. I have soldered a cable between the power and the VCC of the TYWE3S which keep the Tasmote interface permanently available and allows simple resetting of the smoke detector after an activation.
 
+![PCB](/assets/images/nedis_WIFIDS10WT_1.jpg)
+![PCB](/assets/images/nedis_WIFIDS10WT_2.jpg)

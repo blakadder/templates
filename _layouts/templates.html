@@ -78,8 +78,7 @@ layout: default
 </div>
 <div class="row">
   <div class="column"><h4>Template</h4></div>
-  <div class="column-10">
-    <a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
 <div class="row">
   <div class="column column-100">
@@ -89,6 +88,17 @@ layout: default
   </div>
 </div>
 </div>
+<!-- Alternative template -->
+{% if page.template-alt != nil %}
+<div class="row">
+  <div class="column"><h4>Alternative Template</h4></div>
+</div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-erlang">{{ page.template-alt }}</code></pre>
+</div>
+</div>
+{% endif %}
 <div>
   <BR>
     {% assign template = page.template | split: ':' %}
