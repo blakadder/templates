@@ -18,7 +18,7 @@
   {% else %}
     {{ site.title | escape }}
   {% endif %}
-</title>
+</title> 
 
   <meta name="description" content="{% if page.title %}Configure {{ page.title | escape }}      {% assign template = page.template | split: ':' %}
   {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
