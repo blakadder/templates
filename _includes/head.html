@@ -61,7 +61,7 @@
   {{ site.description | escape }} {% endif %}
 ">
 
-  <meta itemprop="image" content="{{ page.image }}">
+  <meta itemprop="image" content="{{ site.url }}{{ page.image }}">
 
   <meta property="og:title" content="
   {% if page.title %}
