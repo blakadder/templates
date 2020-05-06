@@ -14,6 +14,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - CNAME
+  - LICENSE.md
 
 sass:
   sass_dir: _sass
