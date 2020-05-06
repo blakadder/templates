@@ -13,8 +13,6 @@
       {{ page.type | escape }}
       {% if page.category contains 'bulb'%} Bulb {% endif %}
     Template for Tasmota
-  {% elsif page.title %}
-    {{ page.title | escape }} List of Templates for Tasmota
   {% else %}
     {{ site.title | escape }}
   {% endif %}
