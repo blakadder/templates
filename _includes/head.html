@@ -4,16 +4,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- HTML Meta Tags -->
-<title>{% if page.title and page.layout == templates %}{{ page.title | escape }}
-  {% assign template = page.template | split: ':' %}
-  {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-  {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%}
-Power Monitoring
- {% endif %}
- {{ page.type | escape }}
- {% if page.category contains 'bulb'%}
- Bulb
- {% endif %}Template for Tasmota{% elsif page.title %}{{ page.title | escape }} List of Templates for Tasmota{% else %}{{ site.title | escape }}{% endif %}</title>
+<title>
+  {% if page.layout == templates %}
+    {{ page.title | escape }}
+      {% assign template = page.template | split: ':' %}
+      {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+      {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%} Power Monitoring {% endif %}
+      {{ page.type | escape }}
+      {% if page.category contains 'bulb'%} Bulb {% endif %}
+    Template for Tasmota
+  {% elsif page.title %}
+    {{ page.title | escape }} List of Templates for Tasmota
+  {% else %}
+    {{ site.title | escape }}
+  {% endif %}
+</title>
 
   <meta name="description" content="{% if page.title %}Configure {{ page.title | escape }}      {% assign template = page.template | split: ':' %}
   {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
