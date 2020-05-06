@@ -6,15 +6,9 @@ type: Power Strip
 standard: au
 link: https://www.bunnings.com.au/arlec-5-outlet-smart-powerboard-with-grid-connect_p0074830
 image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-800x800/68e4b1c6-460c-420c-a5d8-53eef03be921.jpg
-template: '{"NAME":"Arlec PB89HA","GPIO":[255,56,255,17,22,21,0,0,24,23,255,255,255],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"Arlec PB89HA","GPIO":[0,56,0,17,22,21,0,0,24,23,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
-#### Alternate Template
-```console
-{"NAME":"Arlec PB89HA","GPIO":[0,56,0,17,22,21,0,0,24,23,0,0,0],"FLAG":0,"BASE":18}
-```
-
-Features   
 Power button LED will light up when any of the power switches are turned on   
+
 Power button also controls power socket 1 next to the always on socket

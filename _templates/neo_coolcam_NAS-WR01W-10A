@@ -1,20 +1,18 @@
 ---
 date_added: 2019-11-10
 title: NEO Coolcam NAS-WR01W
+model: NAS-WR01W
 category: plug
 type: Plug
 standard: eu
-link: http://s.click.aliexpress.com/e/eKJVVqhK
-link2: https://www.tomtop.com/p-s2503eu.html
-image: https://ae01.alicdn.com/kf/HTB1AOYGeUuF3KVjSZK9q6zVtXXaX.jpg
+link: https://www.aliexpress.com/item/32854589733.html
+link2: https://www.amazon.de/Neo-Coolcam-Wireless-Steckdose-Arbeiten/dp/B07F7CSYPW/
+link3: https://www.banggood.com/NEO-COOLCAM-WiFi-Mini-Smart-Plug-APP-Remote-Control-Timing-Smart-Socket-EU-Plug-p-1288562.html
+image: /assets/images/neo_coolcam_NAS-WR01W-10A.jpg
 template: '{"NAME":"NAS-WR01W","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
-link2: https://www.szneo.com/en/products/show.php?id=215
+mlink: https://www.szneo.com/en/products/show.php?id=215
 ---
 
 template based on [https://github.com/xoseperez/espurna/wiki/Hardware-NEO-COOLCAM-NAS-WR01W]
 
 ![newer label version](https://ae01.alicdn.com/kf/U62d5feb2e7384598823a398217fe5760V.jpg)
-
-
-
-

@@ -10,5 +10,5 @@ mlink:
 flash: tuya-convert
 category: bulb
 type: RGBCCT
-standard: eu
+standard: mr16
 ---

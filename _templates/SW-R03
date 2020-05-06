@@ -11,8 +11,6 @@ category: switch
 type: Relay
 standard: global
 ---
-Registering of additions buttons works using original procedure!
-
-#### Template submitter note
+#### Note
 
 I did not find any possibility to enable the LED. I think it contains a three-colored LED.

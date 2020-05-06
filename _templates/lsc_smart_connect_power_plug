@@ -1,11 +1,15 @@
 ---
-date_added: 2019-08-31
-title: LSC Smart Connect Power
+date_added: 2020-01-19
+title: LSC Smart Connect Power Plug
+model: 970760.1 v2.0
+image: https://www.action.com/globalassets/cmsarticleimages/79/98/2578685_8712879142782-111.png
+template: '{"NAME":"LSC Smart Plug","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-stekker-/
+link2: 
+mlink: 
+flash: tuya-convert
 category: plug
 type: Plug
 standard: eu
-link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-stekker-2/
-image: https://www.action.com/globalassets/cmsarticleimages/79/98/2578685_8712879142782-111.png
-template: '{"NAME":"LSC Smart Plug","GPIO":[255,255,255,255,56,255,0,0,21,255,17,255,255],"FLAG":0,"BASE":18}' 
-link2: 
+template-alt: '{"NAME":"LSC Smart Plug","GPIO":[255,255,255,255,56,255,0,0,21,255,17,255,255],"FLAG":0,"BASE":18}' 
 ---

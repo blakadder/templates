@@ -10,9 +10,5 @@ flash: tuya-convert
 category: plug
 type: Power Strip
 standard: eu
+template-alt: '{"NAME":"Deltaco SH-P03","GPIO":[56,0,0,0,0,23,0,0,21,17,22,24,0],"FLAG":0,"BASE":18}'
 ---
-### Alternative template
-
-```console
-{"NAME":"Deltaco SH-P03","GPIO":[56,0,0,0,0,23,0,0,21,17,22,24,0],"FLAG":0,"BASE":18}
-```

@@ -29,10 +29,6 @@ Shelly 1PM comes with a partially exposed programming/debug header which can be 
 
 <img src="https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/shelly/shelly1pm-pinout-812x400.png" height="250" />
 
-## Template (requires Tasmota 6.5.0.10)
-```
-{"NAME":"Shelly 1PM","GPIO":[56,0,0,0,82,134,0,0,0,0,0,21,0],"FLAG":2,"BASE":18}
-```
 ## Calibration
 Tasmota will disable serial logging after a restart as the communication between Tasmota and the Energy Monitoring chip is using the same serial interface. Make sure not to enable `SerialLog` as it will interfere with the Energy Monitoring functionality.
 
