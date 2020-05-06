@@ -1,0 +1,18 @@
+---
+date_added: 2020-05-05
+title: Nedis 4.5W 380lm
+model: WIFILC10WTGU10
+image: /assets/images/nedis_WIFILC10WTGU10.jpg
+template: '{"NAME":"Nedis RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07HFF4HS5
+link2: https://cdon.se/hem-tradgard/nedis-wifi-smart-led-lampa-fullfarg-och-varmvitt-gu10-p47624099 
+mlink: https://nedis.com/en-us/product/smart-living/smart-home/lighting/550678394/wifi-smart-led-bulb-full-colour-and-warm-white-gu10
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: gu10
+---
+
+```console
+SetOption37 1
+```

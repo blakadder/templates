@@ -47,5 +47,6 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
 
 google_analytics: UA-140681905-1

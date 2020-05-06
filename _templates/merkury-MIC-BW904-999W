@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-06
+title: Merkury 75W 1050lm
+model: MIC-BW904-999W
+image: /assets/images/merkury-MIC-BW904-999W.jpg
+template: '{"NAME":"MIC-BW904-999W","GPIO":[38,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.walmart.ca/en/ip/merkury-smart-wi-fi-led-bulb-color-white/6000198280747
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---

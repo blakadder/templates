@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-06
+title: PrimeCables Cab-LA-WF4 
+model: Cab-LA-WF4
+image: /assets/images/primecables_Cab-LA-WF4.jpg
+template: '{"NAME":"Mini Smart Outlet Wifi Socket with Timer Function","GPIO":[0,0,0,56,57,0,0,0,0,0,0,21,17],"FLAG":0,"BASE":18}' 
+link: https://www.primecables.ca/p-375695-cab-la-wf4-smart-wifi-plug#sku390301
+link2: 
+mlink: http://www.nblitesun.com/product/156-85.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

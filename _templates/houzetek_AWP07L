@@ -6,6 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.it/Intelligente-Houzetek-supporto-programmabile-Telecomando/dp/B07HH2XQNX
 image: https://images-na.ssl-images-amazon.com/images/I/5180wwTaA4L._SX522_.jpg
+flash: tuya-convert
 template: '{"NAME":"AWP07L","GPIO":[56,0,0,130,0,134,0,0,0,17,132,21,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
