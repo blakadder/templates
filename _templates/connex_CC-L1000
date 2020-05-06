@@ -2,7 +2,7 @@
 date_added: 2020-05-05
 title: Connex Connect A60 6W 470lm
 model: CC-L1000-611
-image: /assets/images/connex_CC-L1000-6.jpg
+image: /assets/images/connex_CC-L1000.jpg
 template: '{"NAME":"Connex RGBW Bu","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.takealot.com/connex-connect-smart-technology-led-bulb-rgbw-a60-6w-470-lum-scr/PLID64184355/
 link2: 
