@@ -81,7 +81,8 @@
   <meta property="og:image" content="{{ page.image }}">
   <meta property="og:url" content="href="{{ page.url | replace:'index.html','' | absolute_url }}">
 												 
-  <meta name="twitter:title" content="
+<!-- Twitter Meta Tags -->
+<meta name="twitter:title" content="
   {% if page.title %}
   {{ page.title | escape }}
     {% assign template = page.template | split: ':' %}
@@ -99,6 +100,8 @@
 
   <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site:id" content="blakadder_">
+  <meta name="twitter:creator:id" content="blakadder_">
   {% include styles.html %}
 
   {% if site.google_analytics and jekyll.environment == 'production' %}
