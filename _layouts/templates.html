@@ -64,6 +64,8 @@ layout: default
     <a class="menu" href="https://github.com/ct-Open-Source/tuya-convert" target="_blank">Tuya-Convert</a>
     {% elsif page.flash == "serial" %}
     <a class="menu" href="https://tasmota.github.io/docs/Getting-Started" target="_blank">Serial port</a>
+    {% elsif page.flash == "sonoff-diy" %}
+    <a class="menu" href="https://github.com/itead/Sonoff_Devices_DIY_Tools" target="_blank">Sonoff DIY</a>
     {% else %}
     {% endif %}
   {% else %}
@@ -83,9 +85,6 @@ layout: default
 <div class="row">
   <div class="column column-100">
     <pre><code class="language-erlang">{{ page.template }}</code></pre>
-    <div class="float-right">
-      <a href="https://twitter.com/intent/tweet?screen_name=blakadder_&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-text="{{ page.url }} template is " data-show-count="false">Tweet to @blakadder_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
 </div>
 </div>
 <!-- Alternative template -->
@@ -99,6 +98,9 @@ layout: default
 </div>
 </div>
 {% endif %}
+<div class="float-right">
+  <a href="https://twitter.com/intent/tweet?screen_name=blakadder_&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-text="{{ page.url }} template is " data-show-count="false">Tweet to @blakadder_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 <div>
   <BR>
     {% assign template = page.template | split: ':' %}
