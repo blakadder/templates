@@ -117,7 +117,7 @@
   {{ site.description | escape }} {% endif %}
 ">
 
-  <meta name="twitter:image" content="{{ page.image }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   <meta name="twitter:card" content="summary_large_image">
   {% include styles.html %}
 
