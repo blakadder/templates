@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-07
+title: Kogan Energy Meter IP44
+model: KASPEMOUTDA
+image: /assets/images/
+template: '{"NAME":"Kogan Smart Sw IP44","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kogan.com/au/buy/kogan-smarterhome-ip44-outdoor-smart-plug-energy-meter/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: au
+---
