@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-06
+title: Mosquito Killer Lamp
+model: 193305
+image: /assets/images/mosquito_killer_lamp.jpg
+template: '{"NAME":"MosquitoKiller","GPIO":[17,0,0,0,0,0,0,0,37,56,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33044863359.html
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: Miscellaneous
+standard: global
+---
+You can turn on/off (including FAN) and dim the LED. I could not turn on only the LED. If you want the status always LED on change GPIO13 to Led1
