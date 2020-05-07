@@ -13,3 +13,5 @@ standard:
   - uk
   - de
 ---
+
+Newer versions of the controller in this set no longer contain an ESP-82** chip, instead containing a WR3E, which is not compatible with Tasmota.
