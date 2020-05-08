@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-07
+title: Linganzh LWE3 7W 800lm
+model: 2AJK8-LWE3
+image: /assets/images/linganzh_LWE3.jpg
+template: '{"NAME":"LINGANZH Smart ","GPIO":[0,0,0,0,41,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B07DCSD832
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: b22
+---
+Tuya Convert worked on third consecutive attempt, trying different schemas I believe

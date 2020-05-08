@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-08
+title: Zemismart A19 10W
+model: 
+image: /assets/images/zemismart_A19.jpg
+template: '{"NAME":"Zemism_E27_A19","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
+link: https://www.aliexpress.com/item/32741634481.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
+Flashed with newest tuya-convert at date 08 May 2020
