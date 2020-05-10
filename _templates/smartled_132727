@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-08
+title: SmartLED 9W 400lm
+model: 132727
+image: /assets/images/smartled_132727.jpg
+template: '{"NAME":"SmartLED","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.gamma.nl/assortiment/smart-led-lamp-color-e27/p/B132727
+link2: 
+mlink: https://www.intergamma.nl/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
