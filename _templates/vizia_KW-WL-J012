@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-11
+title: Vizia 5W GU10
+model: KW-WL-J012
+image: /assets/images/vizia_KW-WL-J012.jpg
+template: '{"NAME":"Vizia RGBWW","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.takealot.com/vizia-smart-led-down-light-gu10-wifi-amazon-alexa-google-home/PLID58857196
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: gu10
+---
