@@ -14,4 +14,4 @@ link2: https://www.amazon.com/dp/B07S59CGQ1
 link3: https://www.amazon.de/gp/product/B07TT94T45
 ---
 
-The latest Sonoff Basic R3 can be flashed without the need to connect a serial interface with Sonoff DIY. [Flashing instructions](https://tasmota.github.io/docs/Sonoff-Basic#sonoff-basic-r3)
+The latest Sonoff Basic R3 can be flashed without the need to connect a serial interface with Sonoff DIY. [Flashing instructions](https://tasmota.github.io/docs/devices/Sonoff-Basic/#sonoff-basic-r3)
