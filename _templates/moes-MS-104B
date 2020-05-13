@@ -12,6 +12,8 @@ mlink: https://www.moeshouse.com/products/wifi-smart-light-switch-diy-breaker-mo
 ---
 Some devices labelled [Moes MS-104](unsupported/moes_MS-104) are using a wi-fi chip unsupported by Tasmota.
 
+This device has been improved on by [@StefanD](https://community.home-assistant.io/t/unkown-tuya-chip/153591/29).
+
 The device use frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip. At the moment you have to use a script to make it work with Tasmota. Script is not supported with precompiled binary (at least 6.6.0) so you have to compile your own fw. 
 
 Below two scripts which do something like switchmode4, switchmode1 and switchmode0. The script for switchmode4 is created by @thxthx0, switchmode1 @caccia78 and @cHunter789, switchmode0 @antonio-fiol
