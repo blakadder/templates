@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-10
+title: Jinvoo AC/TV Box Controller
+model: SM-AW502A
+image: /assets/images/jinvoo_SM-AW502A.jpg
+template: '{"NAME":"Jinvoo IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.amazon.de/dp/B07VYWN88F
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: IR Bridge
+standard: global
+---
+use tasmota-ir for full IR functionality

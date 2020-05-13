@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-12
+title: Lenovo SE-341A
+model: ZG38C02793
+image: /assets/images/lenovo_SE-341A.jpg
+template: '{"NAME":"Lenovo SE-341A","GPIO":[0,0,0,0,17,21,0,0,158,0,56,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.jbhifi.com.au/products/lenovo-smart-plug
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: au
+---
+Device **does not** work with tuya-convert, as it never enters the required pairing mode (will only slow flash and output a wifi signal). To open the device, it is held in place with clips on the side & top/bottom (small screwdriver or opening tool highly recommended). Ground, 3.3v, Rx/Tx are all labeled. 

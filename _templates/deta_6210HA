@@ -7,7 +7,7 @@ template: '{"NAME":"DetaPlugBase","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0
 link: https://www.bunnings.com.au/deta-smart-plug-base-with-grid-connect_p0098817
 link2: 
 mlink: 
-flash: serial
+flash: tuya-convert
 category: plug
 type: Plug
 standard: au
