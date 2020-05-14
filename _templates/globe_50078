@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-14
+title: Globe 5W 4" Recessed RGBCCT
+model: 50078
+image: /assets/images/globe_50078.jpg
+template: '{"NAME":"GlobeRGBWW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/Globe-Electric-Multicolor-Activated-50078/dp/B07XYMFZ9J/
+link2: https://www.costco.ca/globe-wi-fi-led-retrofit-smart-tunable-whitergb-recessed-light-fixture.product.100528307.html
+mlink: https://globe-electric.com/en/product/globe-electric-wi-fi-smart-4-dimmable-led-multicolor-changing-rgb-tunable-white-retrofit-recessed-light-no-hub-required-voice-activated-10-watts-gu10-and-e26-adaptors-included-50078/
+flash: tuya-convert
+category: light
+type: RGBW
+standard: us
+---
