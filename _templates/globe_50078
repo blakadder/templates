@@ -9,6 +9,6 @@ link2: https://www.costco.ca/globe-wi-fi-led-retrofit-smart-tunable-whitergb-rec
 mlink: https://globe-electric.com/en/product/globe-electric-wi-fi-smart-4-dimmable-led-multicolor-changing-rgb-tunable-white-retrofit-recessed-light-no-hub-required-voice-activated-10-watts-gu10-and-e26-adaptors-included-50078/
 flash: tuya-convert
 category: light
-type: RGBW
+type: Light
 standard: us
 ---
