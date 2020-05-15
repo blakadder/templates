@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-14
+title: Geekbes YM-WS-1
+model: 2ALRJYM-WS-1
+image: /assets/images/geekbes_YM-WS-1.jpg
+template: '{"NAME":"Office Test Pl","GPIO":[255,255,255,255,255,255,255,255,158,17,12,21,255],"FLAG":15,"BASE":18}' 
+link: https://www.newegg.com/p/0Y3-004X-00011
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
