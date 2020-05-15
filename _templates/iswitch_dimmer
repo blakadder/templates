@@ -1,0 +1,24 @@
+---
+date_added: 2020-05-15
+title: iSwitch Touch Switch  
+model: MG-WIFI-Dimmer-alexa&google-touch
+image: /assets/images/iswitch_dimmer.jpg
+template: '{"NAME":"iSwitchOZ Dimmer","GPIO":[0,0,0,0,0,0,0,0,0,0,54,0,0],"FLAG":0,"BASE":54}' 
+link: https://iswitchoz.com.au/products/google-alexa-wifi-dimmer-switch-aust-certified-iswitch
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: au
+---
+A TuyaMCU based dimmer switch with power monitoring. 
+
+As at May 2020, readily flash-able using tuya-convert. Best not to connect to the device in advance with a Tuya app to avoid flashing new firmware.
+
+After configuring your WiFi details and configuring the template, use the console to issue the following commands :
+```console
+Backlog TuyaMCU 21,2; TuyaMCU 33,6; TuyaMCU 31,5; TuyaMCU 32,4; DimmerRange 1,24
+```
+
+If that doesn't work try following instructions at https://tasmota.github.io/docs/TuyaMCU/
