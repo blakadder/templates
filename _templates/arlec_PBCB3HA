@@ -28,3 +28,13 @@ You also need to run this rule in the console.
 Rule on button1#state=3 do backlog power 0 endon on button1#state=1 do backlog power 1 endon
 ```
 Enable rule with `Rule 1`
+
+
+UPDATE: I personally found that using 
+```console
+'{"NAME":"Arlec Cube","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}'
+```
+
+It just worked. Press button, led turns on so does relay. Press button again, light turns off so does relay.
+I did not have to add any extra config for it to just work. Not sure if this is a change in later firmware. But I didn't need any rules or anything else.
+
