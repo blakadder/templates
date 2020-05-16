@@ -3,7 +3,7 @@ date_added: 2020-04-01
 title: Arlec Smart 3 Outlet Power Cube
 model: PBCB3HA
 image: /assets/images/arlec_PBCB3HA.jpg
-template: '{"NAME":"Arlec Cube","GPIO":[0,17,0,0,0,0,0,0,0,52,21,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Arlec Cube","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link: 
 link2: 
 mlink: http://www.bunnings.com.au
@@ -12,19 +12,3 @@ category: plug
 type: Power Strip
 standard: au
 ---
-In order to use the button on the device I set the following in Tasmota console. This also updates MQTT so it will retain the setting. This works well if you use Home assistant or other software that uses MQTT to maintain the state of the device.
-
-```console
-Backlog ButtonTopic 1; SetOption1 1;SwitchRetain 1;
-```
-
-When the led is on and you press the button the plugs will switch on and the led off. If you press it again the reverse will happen.
-
-Please be aware that all 3 plugs work on the same relay so they all go on or off. You can't control them individually. 
-
-You also need to run this rule in the console.
-
-```console
-Rule on button1#state=3 do backlog power 0 endon on button1#state=1 do backlog power 1 endon
-```
-Enable rule with `Rule 1`
