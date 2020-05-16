@@ -3,7 +3,7 @@ date_added: 2020-02-07
 title: A0F0 ZLD-44EU-W
 model: ZLD-44EU-W
 image: /assets/images/aofo_ZLD-44EU-W.jpg
-template: '{"NAME":"AOFO-4AC-4USB","GPIO":[0,56,0,17,22,21,0,0,23,24,25,0,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"AOFO-4AC-4USB","GPIO":[0,56,0,17,22,21,0,0,23,24,33,0,0],"FLAG":1,"BASE":18}' 
 link: https://www.amazon.de/gp/product/B07SKTBC47/
 link2: 
 mlink: 
