@@ -17,7 +17,7 @@ Template for the RGB+CCT (aka RGBWW) variant is [here](mirabella_genio_I002741.h
 
 Flashed wirelessly using Tuya-Convert: https://github.com/ct-Open-Source/tuya-convert
 
-
+If the light turns off when dimming below 60%, enter the command `ledtable 0` to turn off hardware gamma correction.
 
 
 
