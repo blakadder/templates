@@ -9,7 +9,7 @@ link2:
 mlink: https://www.calex.nl/en/products/product/LEDKAAB35E14-5W-2200-4000KSMDSMART/
 flash: tuya-convert
 category: bulb
-type: RGBW
+type: RGBCCT
 standard: e14
 ---
 `SetOption37 30` or the R and G will be reversed
