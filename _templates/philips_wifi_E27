@@ -1,0 +1,16 @@
+---
+title: Philips Wi-Fi
+type: Dimmable
+category: bulb
+standard: e27
+link: https://www.amazon.com/dp/B0834BTYBL/
+image: https://images-na.ssl-images-amazon.com/images/I/41hsclygugL._AC_SL1000_.jpg
+template: '{"NAME":"Xiaomi Philips","GPIO":[0,0,0,0,0,0,0,0,0,0,0,37,0],"FLAG":0,"BASE":18}'
+link2: https://www.mi.com/uk/philips-wi-fi-bulb-e27-white/specs/
+---
+This is not the same as the Philips ZhiRui - this variant is also made using Xiaomi software but it has a fixed hue and greater power output.
+
+Output is 806lm, uses 9W and has a fixed temperature of 2700K.
+
+* Xiaomi Model Number: 9290020093
+* Amazon model number: MUE4088RT
