@@ -32,9 +32,6 @@ There's an [excellent tutorial (in pt-BR) by Douglas Baptista](https://forum.hom
 
 ## Configuring Tasmota
 
-To configure the smart plug on Tasmota, we have to know how the ESP pins are connected. I had to open mine to check the connections.
-But you don't have to do the same. You can use this [template](https://templates.blakadder.com/nanxin_NX-SM400.html) that I've created.
-
 Go to the device's IP address > `Configuration` > `Configure Other` > `Template`
 ```json
 {"NAME":"NX-SM400","GPIO":[0,0,0,17,134,132,0,0,130,52,21,0,0],"FLAG":0,"BASE":18}

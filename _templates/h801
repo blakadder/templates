@@ -26,7 +26,7 @@ The chip used on this board is the [ESP8266EX](https://www.espressif.com/sites/d
 
 ## Serial Flashing
 
-Please see the [Hardware Preparation](https://tasmota.github.io/docs/installation/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
 
 ![H801 board](https://user-images.githubusercontent.com/5904370/57890715-ed861580-7838-11e9-95e9-b256adf0e681.png)
 

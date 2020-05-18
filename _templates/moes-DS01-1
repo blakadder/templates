@@ -34,13 +34,6 @@ GPIO | Component
 
 If this doesn't work see https://tasmota.github.io/docs/TuyaMCU
 
-### Pre Tasmota version 6.6.0.10
-
-[`SetOption34`](Commands#setoption34) - Set the Tuya Dimmer device ID
-[`SetOption66`](Commands#setoption66) - Set the Tuya Dimmer device ID range
-
-_If power on/off works, but dimming doesn't, you probably haven't set the correct ID_
-
 #### Flashing
 
 ![](https://github.com/digiblur/TuyaDimmer-Tasmota/raw/master/IMG_0788.JPG)
@@ -56,13 +49,6 @@ These devices use a Tuya TYWE3S Wi-Fi PCB module.  Once the switch is carefully 
 ![chip_wires](https://user-images.githubusercontent.com/3240875/43324672-578ffcbc-917a-11e8-800c-f1d008ca3cf4.JPG)
 
 Attach the GPIO0 wire to ground during initial boot to flash.  A 3-pin header bridged together works great with GPIO0, GND and the GND from the USB flasher attached. (TX pin to RX pin and RX pin to TX pin on USB flash adapter). Verify that you are using 3.3volts to flash, **NOT 5V!**
-
-Product Links:
-
-- [Oittm](https://www.amazon.com/gp/product/B07D127YL5)
-- [Moes DS01](https://www.amazon.com/gp/product/B07DRG19S6) ([Template](moes_DS01.html))
-- [Konesky](https://www.amazon.fr/gp/product/B07L3LNVG1/)
-- [Heygo](https://www.amazon.com/gp/product/B07JG6T1G8/)
 
 ### Costco Charging Essentials
 
@@ -91,7 +77,3 @@ The procedure is similar to above, additionally NRST must be connected to GND du
 
 `LedState 0` (To only use the green LED for wifi/mqtt connectivity.)
 
-Product Links:
-
-- [AIGLEN](https://www.aliexpress.com/item/WiFi-LED-Dimmer-Switch-220V-110V-Dimming-Panel-Switch-Connected-To-Alexa-Google-Home-Voice-Control/32859257784.html)
-- [ALLOMN](https://www.amazon.de/Lichtschalter-Fernbedienung-Timing-Funktion-%C3%9Cberlastschutz-Neutralleitung/dp/B07BKY1N9S)

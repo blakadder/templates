@@ -32,7 +32,7 @@ The Dimmer has a **LM1 ESP8266** module with 1MB Flash onboard, combined with a 
 ### Flashing Guide
 
 #### OTA
-This dimmer is based on Smart Life / **Tuya** App. [Tuya-Convert](https://tasmota.github.io/docs/Tuya-OTA) currently works, but could be patched with future firmware updates.
+This dimmer is based on Smart Life / **Tuya** App. [Tuya-Convert](https://tasmota.github.io/docs/Tuya-Convert/) currently works, but could be patched with future firmware updates.
 
 #### Serial
 - ⚠️️ **Special Attention** ⚠️️ 

@@ -14,8 +14,6 @@ Alternative template for WS2812 LEDs:
 Template {"NAME":"LEDBoard W2812","GPIO":[0,0,7,0,0,0,0,0,0,0,0,0,52],"FLAG":0,"BASE":18}
 ```
 
-<img width="200" src="https://1436477554.rsc.cdn77.org/wp-content/uploads/2017/06/ESP-LED-Drive-Board-Description-.jpg">
-
 <h2>Description</h2>
 
 <ul>

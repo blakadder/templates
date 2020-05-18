@@ -10,7 +10,7 @@ link: https://www.fasttech.com/products/0/10040739/8817900-authentic-sonoff-sc-s
 ---
 ## Serial Flashing
 
-Please see the [Hardware Preparation](Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
 
 Remove the 4 screws on the bottom.
 The button is connected to GPIO0.

@@ -1,6 +1,7 @@
 ---
 date_added: 2019-04-27
 title: Electrodragon Board SPDT
+model: NWI1118
 category: switch
 type: Relay
 standard: global

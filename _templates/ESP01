@@ -15,5 +15,5 @@ standard: global
 ---
 [Differences between ESP-01 and ESP-01S](https://www.esp8266.com/viewtopic.php?t=1165)
 
-![Pinout](ESP01-pinout.jpg)
-![Wiring](ESP01-wiring.jpg)
+![Pinout](/assets/images/ESP01-pinout.jpg)
+![Wiring](/assets/images/ESP01-wiring.jpg)
