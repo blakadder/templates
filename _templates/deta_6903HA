@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-18
+title: Deta 3 Gang
+model: 6903HA
+image: /assets/images/
+template: '{"NAME":"DETA 3G Switch","GPIO":[157,0,0,92,91,21,0,0,23,0,22,0,90],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/deta-smart-touch-activated-triple-gang-light-switch-with-grid-connect_p0161014
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: au
+---
+Comes with the new Tuya protocol, and as of May 18 it can't be flashed OTA.
