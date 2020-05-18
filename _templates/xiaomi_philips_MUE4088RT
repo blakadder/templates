@@ -1,16 +1,23 @@
 ---
-title: Philips Wi-Fi
+date_added: 2020-05-18
+title: Xiaomi Philips MUE4088RT
+model: 9290020093
 type: Dimmable
 category: bulb
 standard: e27
 link: https://www.amazon.com/dp/B0834BTYBL/
-image: https://images-na.ssl-images-amazon.com/images/I/41hsclygugL._AC_SL1000_.jpg
+link2: https://www.amazon.co.uk/Xiaomi-MUE4088RT-Philips-Wi-Fi-Bulb-White/dp/B07PY84ZMV
+link3: https://www.aliexpress.com/item/10000156034494.html
+image: /assets/images/xiaomi_philips_MUE4088RT-label.jpg
 template: '{"NAME":"Xiaomi Philips","GPIO":[0,0,0,0,0,0,0,0,0,0,0,37,0],"FLAG":0,"BASE":18}'
-link2: https://www.mi.com/uk/philips-wi-fi-bulb-e27-white/specs/
+mlink: https://www.mi.com/uk/philips-wi-fi-bulb-e27-white/specs/
 ---
 This is not the same as the Philips ZhiRui - this variant is also made using Xiaomi software but it has a fixed hue and greater power output.
 
 Output is 806lm, uses 9W and has a fixed temperature of 2700K.
+
+![label](/assets/images/xiaomi_philips_MUE4088RT-label.jpg)
+
 
 * Xiaomi Model Number: 9290020093
 * Amazon model number: MUE4088RT
