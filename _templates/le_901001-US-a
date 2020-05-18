@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-18
+title: LE lampUX A19 9W 806lm
+model: 901001-US-a 
+image: /assets/images/le_901001-US-a.jpg
+template: '{"NAME":"lampUX","GPIO":[0,0,0,0,141,140,0,0,38,142,37,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.ca/gp/product/B07R5W3PQL/
+link2: 
+mlink: https://www.lepro.com/9w-rgbw-alexa-light-bulb-wifi-google-home-a19-e26.html
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---

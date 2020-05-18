@@ -1,9 +1,9 @@
 ---
 date_added: 2020-01-03
-title: Hama 16 A
+title: Hama 16A 3680W
 model: 00176565
 link: https://www.amazon.de/Hama-WiFi-Steckdose-integriertem-Strommessgerät-3-680/dp/B07TY2BHZM
-image: https://images-na.ssl-images-amazon.com/images/I/61aWRQQMGLL._AC_SX679_.jpg
+image: /assets/images/hama_00176565.jpg
 template: '{"NAME":"Hama Plug","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":52}' 
 link2: 
 mlink: https://www.hama.com/00176565/hama-wifi-socket-with-integrated-current-measuring-device-3680-w-16-a?srcLang=0&targetLang=1
