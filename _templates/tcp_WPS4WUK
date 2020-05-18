@@ -7,7 +7,7 @@ template: '{"NAME":"TCP WPS4WUK","GPIO":[255,56,0,17,23,24,0,0,22,21,25,0,0],"FL
 link: https://www.screwfix.com/p/tcp-wps4wuk-13a-4-gang-switched-smart-extension-lead-5-1a-4-outlet-usb-charger-white-1-8m/606hp
 link2: 
 mlink: https://www.tcpsmart.eu/
-flash: serial
+flash: tuya-convert
 category: misc
 type: Power Strip
 standard: uk
