@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-19
+title: HomeMate 16A Heavy Duty
+model: HMLPG16
+image: /assets/images/homemate_HMLPG16.jpg
+template: '{"NAME":"HMLPG16","GPIO":[0,52,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://homemate.co.in/product/wifi-smart-plug-16a/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: in
+---

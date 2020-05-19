@@ -10,4 +10,4 @@ template: '{"NAME":"Generic_SP202","GPIO":[52,0,0,131,91,134,0,0,22,17,132,21,0]
 link2: 
 ---
 
-For the DIGOO NX-SP202 with no SN below "MADE IN CHINA" text in the plastic.
+As of May 18th 2020 new device come with a Realtek chip and are **NOT** Tasmota compatible.
