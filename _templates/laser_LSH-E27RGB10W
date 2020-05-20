@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-19
+title: Laser 10W 1000lm
+model: LSH-E27RGB10W
+image: /assets/images/laser_LSH-E27RGB10W.jpg
+template: '{"NAME":"LSH-E27RGB10W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.laserco.com.au/categories/smart-home/smart-lighting/LSH-B22RGB10W-laser-10w-smart-rgb-bulb-b22
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
