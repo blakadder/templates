@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-20
+title: LEDLite 10W 800lm
+model: LT GLWIFIES
+image: /assets/images/ledlite_LTGLWIFIES.jpg
+template: '{"NAME":"LEDLite","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.tlc-direct.co.uk/Main_Index/Lighting_Menu_Index/Lamps_and_Tubes_Index/Smart_WiFi_Bulbs/index.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
