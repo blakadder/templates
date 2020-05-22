@@ -5,15 +5,7 @@ category: switch
 type: Switch
 standard: eu
 link: https://www.amazon.de/dp/B078GM4D39/
-image: http://www.xenon.cn/web/userfiles/product/big/SM-SW101E-1.jpg
+image: /assets/images/jinvoo_SM-SW101-1.jpg
 template: '{"NAME":"SM-SW101-1","GPIO":[52,0,0,18,0,0,0,0,17,21,0,0,0],"FLAG":1,"BASE":18}' 
-link2: 
+mlink: http://www.xenon.cn/light-switch102/sm-sw101-1/sm-sw101-1z.html 
 ---
-
-Many brandings of this xenon device exist, see http://www.xenon.cn/dingzhi/wifi-switch-eu.html
-
-
-
-
-
-
