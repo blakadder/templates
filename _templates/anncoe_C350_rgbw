@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-22
+title: Anncoe C350 RGBW
+model: 
+image: /assets/images/anncoe_C350_rgbw.jpg
+template: '{"NAME":"TUYA LED","GPIO":[0,0,0,0,0,38,0,0,39,17,37,40,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/10000038540202.html
+link2: 
+mlink: http://www.anncoe.com/en/showpro.asp?id=290&lb=5
+flash: tuya-convert
+category: light
+type: LED Controller
+standard: global
+---
