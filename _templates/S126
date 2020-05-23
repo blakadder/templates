@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-22
+title: S126
+model: S126
+image: /assets/images/S126.jpg
+template: '{"NAME":"tuya-plug","GPIO":[0,0,0,0,0,0,0,0,21,20,0,0,0],"FLAG":0,"BASE":8}' 
+link: https://www.amazon.fr/dp/B073ZDRMSX
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

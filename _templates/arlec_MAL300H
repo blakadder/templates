@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-20
+title: Arlec Smart 20W Movement Activated Security
+model: MAL300HA
+image: /assets/images/
+template: '{"NAME":"Arlec MAL300HA","GPIO":[0,0,0,0,21,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-smart-20w-security-light-with-movement-activated-sensor-grid-connect_p0117296
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---
+Relay turns on/off built in movement sensor. Light turns on at first power on.

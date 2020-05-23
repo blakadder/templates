@@ -2,7 +2,7 @@
 date_added: 2020-05-14
 title: LVWIT A60 6.5W 806lm Filament
 model: 
-image: /assets/images/
+image: /assets/images/lvwit_A60_806lm_filament.jpg
 template: '{"NAME":"LVWIT-E27-WiFi-6.5","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/gp/product/B07YY2K2V7/
 link2: 

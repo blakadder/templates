@@ -1,16 +1,15 @@
 ---
 date_added: 2019-03-19
-title: CE Smart Home Garden Stake LH-7-1
+title: CE Smart Home Garden Stake 
+model: LH-7-1
 category: plug
 type: Power Strip
 standard: us
 link: https://www.amazon.com/Wi-Fi-Smart-Outdoor-outlets-Compatible/dp/B07M83WG1J
-image: https://user-images.githubusercontent.com/5904370/54647111-aaf6c580-4aa1-11e9-8da2-fab79ef32e4e.png
+image: /assets/images/ce_smart_home_LH-7-1.jpg
 template: '{"NAME":"CE Power Stake","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
-alt_link: https://www.ebay.com/itm/CE-Wi-Fi-Smart-Home-Outdoor-Garden-Power-Stake-iOS-Android-Remote-Control/143177384799
+mlink: https://www.cesmarthome.com/LH-7-1.html
 ---
-Model ID: LH-7-1
-
 ### Connection
 This 6-outlet outdoor garden power stake is controlled by a standard ESP-12 chip connected to a single relay, meaning that all 6 outlets are on or off simultaneously. It also has a mains switch, a manual relay trigger button, and an LED indicator.
 

@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-20
+title: Lohas Nightlight + USB 
+model: ZN049
+image: /assets/images/lohas-ZN049.jpg
+template: '{"NAME":"Lohas LED Mini Plug","GPIO":[0,57,0,52,58,23,255,255,21,17,22,0,157],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07STYPBT2/
+link2: https://www.amazon.ca/LOHAS-Plug-Outlet-Compatible-Assistant-Function/dp/B07STYPBT2
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+USB is controllable on relay 3, and night light, red button light and blue button light as LEDs 1, 2, and 3 respectively.

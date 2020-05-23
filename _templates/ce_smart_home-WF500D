@@ -1,11 +1,12 @@
 ---
 date_added: 2019-09-19
-title: CE Smart Home WF500D
+title: CE Smart Home 
+model: WF500D
 category: switch
 type: Dimmer
 standard: us
 link: https://www.amazon.ca/2-Pack-Dimmer-Switch-Compatible-Assistant/dp/B07GQ3H8VK
-image: https://i.ibb.co/nQK6hwD/image-Service.jpg
+image: /assets/images/ce_smart_home-WF500D.jpg
 template: '{"NAME":"CE-WF500D","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}'
 mlink: https://www.cesmarthome.com/WF500D.html
 ---

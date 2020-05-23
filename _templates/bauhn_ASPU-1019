@@ -6,16 +6,10 @@ type: Plug
 standard: au
 mlink: https://bauhn.com.au/wp-content/uploads/2020/02/ASPU-1019-Smart-Wall-Plug-UM-v8.pdf
 image: /assets/images/bauhn_ASPU-1019.jpg
-template: '{"NAME":"Buahn Smart Pl","GPIO":[0,0,0,0,21,22,0,0,0,56,17,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Bauhn Smart Pl","GPIO":[0,0,0,0,21,21,0,0,0,56,17,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
-This device uses two relays, so use the following commands to setup a rule to trigger the second relay when the first is triggered
-
-```console
-rule1 on power1#state do power2 %value% endon
-rule1 1
-```
 
 
 

@@ -1,9 +1,11 @@
 ---
 date_added: 2019-08-29
-title: CE Smart Home  LTS-6A-W5
+title: CE Smart Home  
+model: LTS-6A-W5
 category: plug
 type: Power Strip
 standard: us
+mlink: https://www.cesmarthome.com/LTS-6A-W5.html
 link: https://www.costco.ca/CE-Smart-Home-Wi-Fi-Power-Strip-with-Surge-Protection.product.100486668.html
 image: https://www.cesmarthome.com/assets/img/product_images/LTS-6A-W5/LTS-6A-W5_1.jpg
 template: '{"NAME":"CE Power Strip","GPIO":[52,0,0,0,22,21,0,0,24,23,25,26,17],"FLAG":0,"BASE":18}' 
