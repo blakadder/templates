@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-24
+title: Shelly EM
+model: 
+image: /assets/images/shelly_EM.jpg
+template: '{"NAME":"Shelly EM","GPIO":[0,0,0,0,0,0,0,0,6,156,5,21,0],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.com/Shelly-Smart-Energy-Monitor-Consumption/dp/B07ZHLP7R8
+link2: https://www.amazon.de/Shelly-EM-Single-Phase/dp/B07ZHLN63D/
+mlink: https://shelly.cloud/shelly-energy-meter-with-contactor-control-wifi-smart-home-automation/
+flash: serial
+category: switch
+type: Relay
+standard: global
+---
