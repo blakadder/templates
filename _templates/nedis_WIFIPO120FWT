@@ -8,7 +8,7 @@ standard: eu
 flash: tuya-convert
 mlink: https://nedis.com/en-us/product/550710067/wi-fi-smart-outdoor-plug-splashproof-ip44-power-monitor-schuko-type-f-16-a
 image: /assets/images/nedis_WIFIPO120FWT.jpg
-template: '{"NAME":"WIFIPO120FWT","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+template: '{"NAME":"WIFIPO120FWT","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
 link: https://www.amazon.de/dp/B07VHBR3WL
 link2: https://webshop.nedis.com/en-us/550710067/wifipo120fwt
 ---
