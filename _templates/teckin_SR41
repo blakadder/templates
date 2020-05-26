@@ -1,6 +1,6 @@
 ---
 date_added: 2020-05-24
-title: Teckin Single Pole
+title: Teckin SR-41 Single Pole
 model: SR-41
 image: /assets/images/teckin_SR41.jpg
 template: '{"NAME":"Teckin SR-41","GPIO":[17,0,0,0,0,0,0,0,21,158,0,0,0],"FLAG":0,"BASE":18}' 
