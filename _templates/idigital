@@ -9,8 +9,8 @@ link2:
 mlink: 
 flash: serial
 category: plug
-type: Relay
+type: Plug
 standard: au
 ---
-"Generic smart plug from Reject Shop. Advertises Tuya Smart app.
+Generic smart plug from Reject Shop. Advertises Tuya Smart app.
 tuya-convert couldn't seem to find it so wired up the serial pins inside. Uses a RCmall ESP8266-3 module.
