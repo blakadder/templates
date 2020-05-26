@@ -7,7 +7,7 @@ title: Tasmota Device Templates Repository
         <div class="column column-60">
         <h3>Tasmota Device Templates Repository</h3>
         </div>
-        <div class="column colum-40">
+        <div class="column column-40">
             <span style="vertical-align: text-bottom;"><strong>{% assign counter = 0 %}{% for item in site.templates %}{% assign counter=counter | plus:1 %}{% endfor %}{{ counter }}</strong> supported devices submitted by you!</span>
         </div>
     </div>
@@ -17,71 +17,53 @@ title: Tasmota Device Templates Repository
         <p>
         </div>
     </div>
-<div class="row">
-    <div class="column">
-    <h4>Devices by type:</h4>
+<div class="row row-100">
+    <div class="column column-67">
+        <h4>Recently added devices:</h4>
+        {% assign sorted = site.templates | sort: "date_added" | reverse %}
+        <table>
+            <tbody>
+                {% for template in sorted limit: 20 %}
+                {% include tablerow_index.html %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="column column-33">
+    <!-- <h4>Devices by type:</h4>
     <a class="button button-grey" href="bulb.html">BULBS</a>
     <a class="button button-grey" href="plug.html">PLUGS</a>
     <a class="button button-grey" href="light.html">LIGHTS</a>
     <a class="button button-grey" href="switch.html">SWITCHES</a>
     <a class="button button-grey" href="misc.html">MISCELLANEOUS</a>
-    <a class="button button-black" href="new.html">Add new template</a> 
-    <BR><br>
-    <a class="button button-red" href="unsupported.html">UNSUPPORTED DEVICES</a>
-    <a class="button button-black" href="new-unsupported.html">Add unflashable device</a>
-    </div>
-    <div class="column">
-        <h4>Devices by electrical standard:</h4>
+    <a class="button button-black" href="new.html">Add new template</a>  -->
+    <h4>Devices by electrical standard:</h4>
+    <a class="button button-grey" href="all.html">ALL DEVICES</a>
+    <br>
     {% assign category = site.templates | where: "category", "plug" %}
     {% assign standard_group = category | map: 'standard' | join: ',' | split: ',' | uniq | sort_natural %}
     {% for std in standard_group %}
-    <a class="button button-grey" href="{{ std }}.html">{{ std | upcase }}</a>
+    <a class="button button-small button-grey" href="{{ std }}.html">{{ std | upcase }}</a>
     {% endfor %}
-    <br>
+    <BR>Light Bulbs by base:<BR>
     {% assign category = site.templates | where: "category", "bulb" %}
     {% assign standard_group = category | map: 'standard' | join: ',' | split: ',' | uniq | sort_natural %}
     {% for std in standard_group %}
-    <a class="button button-grey" href="{{ std }}.html">{{ std | upcase }}</a>
+    <a class="button button-small button-grey" href="{{ std }}.html">{{ std | upcase }}</a>
     {% endfor %}
-    <br>
-    <a class="button button-grey" href="all.html">ALL DEVICES</a>
     <br>
     <span style="font-size:0.6em;">See <a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">world map of plugs</a> and <a href="https://www.bulbs.com/learning/basechart.aspx" target="_blank">light bulb base list</a> for more information.</span>
-    </div>
-</div>
-<div>
-</div>
-<div class="row">
-    <div class="column">
-<h4>Recently added devices:</h4>
-{% assign sorted = site.templates  | sort: "date_added" | reverse %}
-{% for template in sorted limit:13 %}
-<li><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title | truncate: 30 }} 
-        {% assign standard_list = template.standard %} 
-        {% for item_standard in standard_list %}
-        {{ item_standard | upcase  }} 
-        {% endfor %}
-        {{ template.type }}
-        {% if template.category contains 'bulb'%}
-        Bulb
-        {% endif %}        
-    </a>
-</li>
-{% endfor %}
-</div>
-<div class="column">
-    <h4>Recently added unsupported:</h4>
-    {% assign sorted = site.unsupported  | sort: "date_added" | reverse %}
-    {% for unsupported in sorted limit:10 %}
-    <li><a class="menu" href="{{site.baseurl}}{{ unsupported.url }}">{{ unsupported.title | truncate: 30 }} 
-            {% assign standard_list = unsupported.standard %} 
-            {% for item_standard in standard_list %}
-            {{ item_standard | upcase }} 
+    <h4>Unsupportable devices:</h4>
+    <a class="button button-red button-small" href="unsupported.html">ALL UNSUPPORTABLE</a>
+    <a class="button button-black button-small" href="new-unsupported.html">ADD NEW</a>
+    {% assign sorted = site.unsupported | sort: "date_added" | reverse %}
+    <table>
+        <tbody>
+            {% for template in sorted limit: 10 %}
+            {% include tablerow_unsupported.html %}
             {% endfor %}
-            {{ unsupported.type }}        
-        </a>
-    </li>
-    {% endfor %}
-</div>
+        </tbody>
+    </table>
+    </div>
 </div>
 <span style="font-size:0.6em;">As an Amazon Associate I earn from qualifying purchases from provided device links.</span>

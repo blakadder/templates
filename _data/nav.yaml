@@ -46,7 +46,7 @@ toc:
         url: global.html
       - title: ALL
         url: all.html
-  - name: Unsupported Devices
+  - name: Unsupportable Devices
     url: unsupported.html
   - name: How to use Templates?
     url: howto.html

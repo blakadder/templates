@@ -1,19 +1,19 @@
 <tr>
     <td style="width: 20%"><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;"></td>
-    <td><b><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }}</a></b></td>
-    <td style="width: 22%">{% assign splitter = template.template | split: ':' %}
+    <td><b><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }}</a>
+    {% assign standard_list = template.standard %}
+        {% for item_standard in standard_list %}
+        {{ item_standard | upcase }} 
+        {% endfor %}
+    {% assign splitter = template.template | split: ':' %}
         {% assign gpios = splitter[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
         {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%}
-   Power Monitoring<BR>
+   Power Monitoring 
    {% endif %} 
         {{ template.type }}        
         {% if template.category contains 'bulb'%}
         Bulb
         {% endif %}        
-    </td>
-    <td style="width: 10%"> {% assign standard_list = template.standard %}
-        {% for item_standard in standard_list %}
-        {{ item_standard | upcase }}<br>
-        {% endfor %} </td>
+        <td style="width: 1%"></td>
   </tr>
   
