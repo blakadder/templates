@@ -1,0 +1,18 @@
+---
+date_added: 2020-05-26
+title: Martin Jerry 3 Way
+model: ST01-1P
+image: /assets/images/martin_jerry_ST01-1P.jpg
+template: '{"NAME":"MJ 3Way Switch","GPIO":[0,0,0,0,52,53,0,0,21,9,157,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B0852SY3WH
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+
+# Template is a work in progress!
+
+This template seems to 'toggle' 3 way switch. Where as the physical switch seem to turn on/off. Need to fix template a bit more. But this is a good start to get LED and relay working.

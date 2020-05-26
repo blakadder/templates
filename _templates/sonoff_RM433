@@ -9,7 +9,7 @@ image: /assets/images/sonoff_RM433.jpg
 template: '{"NAME":"REQUIRES RF DEVICE"}' 
 link: https://www.banggood.com/SONOFF-RM433-8-Keys-Multipurpose-Custom-433-MHz-RF-Remote-Control-Switch-Works-With-SONOFF-RFRFR3SlampheriFan034CHProR2TX-Series433-RF-Bridge-p-1464399.html
 link2: https://www.amazon.de/dp/B07SPZ3H8N
-link3: https://www.aliexpress.com/item/33017557049.html
+link3: https://www.aliexpress.com/item/4000030068990.html
 ---
 
 ## DOES NOT RUN TASMOTA ITSELF!!!

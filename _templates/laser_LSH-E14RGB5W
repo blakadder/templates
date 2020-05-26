@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-25
+title: Laser 5W 460lm
+model: LSH-E14RGB5W
+image: /assets/images/laser_LSH-E14RGB5W.jpg
+template: '{"NAME":"LSH-E14RGB5W","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.catch.com.au/product/laser-5w-smart-home-rgb-e14-led-light-bulb-5735022/?sid=laser%20led&sp=2&st=32&srtrev=sj-ibe17uicihwqdil3awcuqt.click
+link2: 
+mlink: https://www.laserco.com.au/smart-lighting/LSH-B22RGB10W-laser-10w-smart-rgb-bulb-b22-1115042844
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e14
+---

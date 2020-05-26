@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-26
+title: Hyleton HLT-311
+model: 2AOHT-HYLETON-311
+image: /assets/images/hyleton_311.jpg
+template: '{"NAME":"HLT-311","GPIO":[56,0,0,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Compatible-Assistant-Required-Plug-App-Anywhere/dp/B07KWQ8J1B
+link2: https://www.fasttech.com/product/9628832-hyleton-hlt-311-wifi-smart-socket-us
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

@@ -9,7 +9,7 @@ flash: serial
 mlink: https://www.itead.cc/sonoff-iw100-iw101.html
 image: https://user-images.githubusercontent.com/5904370/73012669-16729780-3e17-11ea-8b4c-c0ace8c9811c.png
 template: '{"NAME":"Sonoff IW100","GPIO":[17,145,0,146,0,0,0,0,21,157,0,0,0],"FLAG":0,"BASE":41}' 
-link: https://www.aliexpress.com/item/4000241348784.html
+link: https://www.aliexpress.com/item/4000346370624.html
 link2: https://www.amazon.com/IW100-Monitoring-Compatible-Neutral-Required/dp/B081JMG1WN
 link3: https://www.banggood.com/SONOFF-IW100IW101-US-WiFi-Smart-Power-Monitoring-Wall-Socket-Switch-Work-with-Amazon-Alexa-and-Google-Assistant-Voice-Control-LAN-Control-p-1593946.html
 ---

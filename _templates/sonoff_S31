@@ -8,6 +8,7 @@ image: https://user-images.githubusercontent.com/5904370/57948059-f0d4dc00-78e0-
 template: '{"NAME":"Sonoff S31","GPIO":[17,145,0,146,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":41}' 
 link: https://www.banggood.com/SONOFF-S31-15A-Smart-Plug-Energy-Monitoring-US-Version-WIFI-Switch-Upgraded-Compact-Design-Support-Google-Home-Alexa-IFTTT-p-1583513.html
 link2: https://www.amazon.com/Sonoff-Monitoring-Compatible-Assistant-Supporting/dp/B07YDC6D4D
+link3: https://www.aliexpress.com/item/4000318265353.html
 ---
 
 ## Serial Flashing

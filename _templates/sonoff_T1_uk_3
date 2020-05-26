@@ -6,7 +6,8 @@ standard: uk
 mlink: https://www.itead.cc/smart-home/sonoff-t1.html
 image: https://user-images.githubusercontent.com/5904370/57893269-984f0180-7842-11e9-910d-71763c3cf6bd.png
 template: '{"NAME":"Sonoff T1 3CH","GPIO":[17,255,255,255,23,22,18,19,21,56,0,0,0],"FLAG":0,"BASE":30}' 
-link: https://www.banggood.com/SONOFF-T1-EUUK-AC-100-240V-123-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Remote-Controlled-Wifi-Switch-Smart-Home-Switch-Works-With-Alexa-Google-Home-p-1470883.html
+link: https://www.aliexpress.com/item/4000075029317.html
+link2: https://www.banggood.com/SONOFF-T1-EUUK-AC-100-240V-123-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Remote-Controlled-Wifi-Switch-Smart-Home-Switch-Works-With-Alexa-Google-Home-p-1470883.html
 ---
 ## Serial Flashing
 Complete guide at [Tasmota Docs](https://tasmota.github.io/docs/devices/Sonoff-T1)

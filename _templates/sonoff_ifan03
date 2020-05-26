@@ -10,6 +10,7 @@ image: https://user-images.githubusercontent.com/34340210/62710777-e6008380-b9c5
 template: '{"NAME":"SonoffiFan03","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
 link: https://www.banggood.com/SONOFF-IFan03-AC100-240V-5060Hz-WiFi-Ceiling-Fan-And-Light-Controller-with-RM433-RF-Remote-Controller-p-1496747.html
 link2: https://www.amazon.com/gp/product/B07TRTG8PS
+link3: https://www.aliexpress.com/item/4000059164244.html
 ---
 
 Sonoff offers a [RM433 remote](sonoff_RM433) that works natively with this device.

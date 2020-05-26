@@ -6,7 +6,7 @@ standard: us
 mlink: https://www.itead.cc/smart-home/sonoff-t1-us.html
 image: https://user-images.githubusercontent.com/5904370/57944986-ee6e8400-78d8-11e9-99db-49d336c68084.png
 template: '{"NAME":"Sonoff T1 3CH","GPIO":[17,255,255,255,23,22,18,19,21,56,0,0,0],"FLAG":0,"BASE":30}' 
-link2: 
+link: https://www.aliexpress.com/item/4000075029317.html
 ---
 ## Serial Flashing
 Complete guide at [Tasmota Docs](https://tasmota.github.io/docs/devices/Sonoff-T1)

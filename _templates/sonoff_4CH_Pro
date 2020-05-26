@@ -7,6 +7,7 @@ link: https://www.banggood.com/SONOFF-4CH-Pro-R2-10A-2200W-2_4Ghz-433MHz-RF-Inch
 image: https://user-images.githubusercontent.com/5904370/57883997-f91d1080-7827-11e9-96dd-f7a0a6df0edc.png
 template: '{"NAME":"Sonoff 4CH Pro","GPIO":[17,255,255,255,23,22,18,19,21,56,20,24,0],"FLAG":0,"BASE":23}' 
 link2: https://www.amazon.com/Sonoff-Automation-Self-Locking-Appliances-Compatible/dp/B075H8Y8H9
+link3: https://www.aliexpress.com/item/32916132713.html
 mlink: https://www.itead.cc/smart-home/sonoff-4ch-pro.html
 ---
 Compared to the 4CH the main differences/improvements of the 4CH Pro are:
