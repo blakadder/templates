@@ -1,9 +1,10 @@
 ---
-date_added: 2020-01-09
+date_added: 2020-05-27
 title: Merkury A21 10W 1050lm 
 model: MI-BW210-999W
 image: /assets/images/merkury_MI-BW210-999W.jpg
-template: '{"NAME":"MI-BW210-999W","GPIO":[0,0,0,0,140,37,0,0,142,38,141,0,0],"FLAG":0,"BASE":48}' 
+template: '{"NAME":"MI-BW210-999W","GPIO":[38,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":69}' 
+template-alt: '{"NAME":"MI-BW210-999W","GPIO":[0,0,0,0,140,37,0,0,142,38,141,0,0],"FLAG":0,"BASE":48}' 
 link: https://www.walmart.com/ip/Merkury-Innovations-A21-Smart-Light-Bulb-75W-Color-LED-2-Pack/669037420
 link2: 
 mlink: 
@@ -15,7 +16,10 @@ standard: e26
 FCC ID 2AJ3W-EBEQPW06
 
 ## Hardware Revision
-Template for devices purchased after March 2020
+Duo to many hardware revision there are more template which might work with your device
 ```json
 {"NAME":"MI-BW210-999W","GPIO":[0,0,0,0,37,38,0,0,141,142,140,0,0],"FLAG":0,"BASE":69}
+```
+```json
+{"NAME":"MI-BW210-999W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}
 ```
