@@ -1,8 +1,8 @@
 ---
 date_added: 2020-05-27
-title: Generic GU10 RGBCCT 5W 460lm
+title: Generic GU10 5W 460lm
 link: https://www.ebay.de/itm/5W-GU10-LED-Smart-WIFI-Birne-Glühbirne-RGBW-Dimmbar-für-Alexa-Google-Home-DE-DHL/124139389928
-image: https://i.ebayimg.com/images/g/HFgAAOSwdppeheGc/s-l1600.jpg
+image: /assets/images/generic-gu10-5w-rgbwcct.jpg
 template: '{"NAME":"RGBCCT GU10","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
 flash: tuya-convert
 category: bulb
