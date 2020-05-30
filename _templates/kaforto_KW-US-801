@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-28
+title: Kaforto KW-US-801
+model: 2ATPP-US801
+image: /assets/images/kaforto_US-801.jpg
+template: '{"NAME":"Kaforto US-801","GPIO":[17,158,0,24,134,132,0,0,131,22,21,23,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/B08275FZJQ
+link2: https://www.alibaba.com/product-detail/Home-Automation-3-AC-Outlets-Smart_62178264071.html
+mlink: https://www.kaforto.com/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

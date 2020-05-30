@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-29
+title: Esmlfe 3 Gang
+model: DS-122
+image: /assets/images/esmlfe_DS-122.jpg
+template: '{"NAME":"Esmlfe DS-122","GPIO":[57,0,0,17,0,0,0,0,0,21,52,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B082YW7HXV
+link2: https://www.aliexpress.com/item/10000278933311.html
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+As of 5/25/2020, Tuya convert did not work. The module is a Tuya TYWE3S.

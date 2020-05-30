@@ -9,13 +9,9 @@ image: /assets/images/gosund-KS-602S.jpg
 mlink: 
 link: https://www.amazon.com/gp/product/B07DQDNBZ2
 template: '{"NAME":"Gosund KS-602S","GPIO":[17,0,56,0,0,0,0,0,0,0,21,0,158],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"Gosund KS-602S","GPIO":[17,56,0,0,0,0,0,0,0,0,21,0,158],"FLAG":0,"BASE":18}'
 link2: 
 ---
 
 This module has bi-color LED. In this template, green is assigned to follow the relay and red is the link light to show any MQTT or WiFi errors.  
 
-## Hardware Revision
-Use this template for older versions
-```json
-{"NAME":"Gosund KS-602S","GPIO":[17,56,0,0,0,0,0,0,0,0,21,0,158],"FLAG":0,"BASE":18}
-```

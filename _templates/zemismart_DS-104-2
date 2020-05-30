@@ -1,0 +1,25 @@
+---
+date_added: 2020-05-30
+title: Zemismart RF Remote No Neutral 2 Gang
+model: DS-104-2
+image: /assets/images/
+template: '{"NAME":"DS-104-2","GPIO":[0,0,0,0,22,0,0,0,17,21,18,0,56],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000458575781.html
+link2: 
+mlink: https://www.zemismart.com/
+flash: serial
+category: switch
+type: Switch
+standard: [eu, uk]
+---
+"Serial Flashing:
+Access the serial interface by taking the face of the switch off and carefully pulling off the touch PCB. On the back is the TYWE3S.   
+Solder four wires to the TYWE3S: 
+- 3V3 (VCC)- pin 9
+- Gnd - pin 8
+- TXD0 - pin1
+- RXD0 - pin 2. 
+
+Flash in the usual manner. 
+
+The Slave, 433Mhz RF Remote Controller, functionality is not affected by the flashing. You are able to pair/unpair the slave as necessary.
