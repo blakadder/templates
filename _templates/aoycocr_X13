@@ -3,7 +3,7 @@ date_added: 2020-01-10
 title: Aoycocr X13
 model: 2AKBP-X13
 image: https://user-images.githubusercontent.com/5904370/72188457-a9b0d380-33fa-11ea-9052-41b8420c5df1.png
-template: '{"NAME":"Aoycocr X13","GPIO":[0,0,56,0,0,0,0,0,21,17,0,22,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Aoycocr X13","GPIO":[0,0,56,0,0,0,0,0,22,17,0,21,0],"FLAG":0,"BASE":18}'
 link: https://smile.amazon.com/gp/product/B07TMKZ9QL
 link2: https://www.aliexpress.com/af/x13-smart-plug.html
 mlink: http://en.hysiry.com/case_view.aspx?TypeId=127&Id=391
