@@ -1,0 +1,16 @@
+---
+date_added: 2020-06-01
+title: Zemismart ZM25TQ Roller Shades
+category: unsupported
+type: Motor
+mlink: https://www.zemismart.com/zemismart-tuya-zigbee-roller-shade-motor-for-38mm-tube-alexa-echo-google-home-control-electric-engine-shutter-rod-p0274.html
+link: https://www.aliexpress.com/item/4000336263991.html
+image: https://www.zemismart.com/u_file/1911/products/22/aeb7aae0a9.jpg.640x640.jpg
+link2: 
+link3: 
+flash: WR4
+---
+
+Unable to Tuya Convert, after disassembly WR4 was found. 
+
+Since everything is controlled by the MCU it is possible to replace the chip. More information will be available on [Blakadder's blog](https://blakadder.com).

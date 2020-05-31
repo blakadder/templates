@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-31
+title: Geeni SURGE 6-Outlet Surge Protector
+model: GN-SW003-199S
+image: /assets/images/geeni_GN-SW003-199S.jpg
+template: '{"NAME":"Geeni 6 Strip","GPIO":[56,0,0,0,22,21,0,0,24,25,23,26,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Geeni-6-Outlet-Protector-Assistant-Microsoft/dp/B07DB3W915/
+link2: 
+mlink: https://mygeeni.com/collections/power/products/geeni-gn-sw003-199-surge-smart-protector-white
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---
