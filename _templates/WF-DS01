@@ -13,6 +13,7 @@ standard: eu
 ---
 Issue command:
 ```
+ledtable 0
 TuyaMCU 21,2
 ```
 and wait for it to reboot
