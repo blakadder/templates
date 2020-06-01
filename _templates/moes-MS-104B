@@ -12,14 +12,14 @@ mlink: https://www.moeshouse.com/products/wifi-smart-light-switch-diy-breaker-mo
 ---
 Some devices labelled [Moes MS-104](unsupported/moes-MS-104) are using a wi-fi chip unsupported by Tasmota.
 
-The device use frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip. At the moment you have to use a script to make it work with Tasmota. Script is not supported with precompiled binary (at least 6.6.0) so you have to compile your own fw. 
+The device use frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip.  
 
 There are two ways to use this module with Tasmota. One way is to modify Tasmota sources with very simple instructions and another way to use scripts.
 
 For the first way, see [simple instructions here](https://www.rodic.si/tasmota-tuya-shutters-arduino-ac-line/) or watch the [video on Youtube](https://youtu.be/cBtZAbc9_q8). These instructions were created by [Rok Rodic](https://www.rodic.si/).
 
-Another way to do similar thing is to use scripts:
-Below two scripts which do something like switchmode4, switchmode1 and switchmode0. The script for switchmode4 is created by @thxthx0, switchmode1 @caccia78 and @cHunter789, switchmode0 @antonio-fiol
+Another way to do similar thing is to use scripts. Script is not supported with precompiled binary (at least 8.3) so you have to compile your own fw or download it (tasmota-scripting.bin) from [tasmota/binaries](https://github.com/tasmota/binaries). After that, you will have an option to add a script in Tasmota GUI: Configuration/Edit Script
+Below are scripts which do something like switchmode4, switchmode1 and switchmode0. The script for switchmode4 is created by @thxthx0, switchmode1 @caccia78 and @cHunter789, switchmode0 @antonio-fiol
 
 SwitchMode1
 
