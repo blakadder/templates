@@ -10,5 +10,3 @@ template: '{"NAME":"Arlec PB89HA","GPIO":[0,56,0,17,22,21,0,0,24,23,0,0,0],"FLAG
 link2: 
 ---
 Power button LED will light up when any of the power switches are turned on   
-
-Power button also controls power socket 1 next to the always on socket
