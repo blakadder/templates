@@ -1,0 +1,17 @@
+---
+date_added: 2020-06-01
+title: Avatto Fan Light
+model: FLS-02
+image: /assets/images/avatto_FLS-02.jpg
+template: '{"NAME":"AVATTO Smart Wifi Fan Light","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000214394624.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: [ eu,us ]
+---
+```console
+Backlog TuyaMCU 12,1; TuyaMCU 21,2; TuyaMCU 11,3; DimmerRange 0, 200
+```

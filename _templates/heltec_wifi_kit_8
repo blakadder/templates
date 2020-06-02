@@ -1,14 +1,14 @@
 ---
-date_added: 2019-10-31
+date_added: 2020-06-02
 title: Heltec WiFi Kit 8
 category: misc
 type: DIY
 standard: global
 mlink: https://heltec.org/project/wifi-kit-8/
-image: https://i2.wp.com/heltec.org/wp-content/uploads/2019/04/SAM_0658_800X800-1.png
+image: /assets/images/heltec_wifi_kit_8.jpg
 template: '{"NAME":"HTIT-W8266","GPIO":[255,255,255,255,6,5,0,0,255,255,255,255,162],"FLAG":15,"BASE":18}' 
 link: https://www.amazon.com/MakerFocus-ESP8266-Development-Display-Support/dp/B076JDVRLP/
-link2: https://robotzero.one/heltec-wifi-kit-8/
+link2: https://www.aliexpress.com/item/32822165059.html
 ---
 
 Display Info:
@@ -21,9 +21,3 @@ DisplayAddress 60
 Note: since version 8.1.0.3, there is no need to wire a 1K resistor between GPIO16 and RST anymore, just configure `GPIO16` as `OLED Reset`
 
 You will of course need to use a Tasmota build that supports displays.
-
-
-
-
-
-

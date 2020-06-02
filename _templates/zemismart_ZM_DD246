@@ -1,0 +1,15 @@
+---
+date_added: 2020-06-01
+title: Zemismart 3m Extendable RGBW
+model: ZM-DD246
+category: light
+type: LED Strip
+standard: us
+mlink: https://www.zemismart.com/
+image: /assets/images/zemismart_ZM_DD246.jpg
+template: '{"NAME":"Zemismart LED","GPIO":[0,0,0,0,38,37,0,0,0,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32857118493.html
+
+---
+
+Flashed using tuya-convert. Also branded as Lineway RGBW LED light strip.

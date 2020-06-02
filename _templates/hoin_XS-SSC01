@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-02
+title: Hoin 10A 
+model: XS-SSC01
+image: /assets/images/
+template: '{"NAME":"NIOH XS-SSC01","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.in/gp/product/B07D6LM412/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: in
+---

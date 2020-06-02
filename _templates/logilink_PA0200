@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-01
+title: LogiLink PA0200
+model: PA0200
+image: /assets/images/logilink_PA0200.jpg
+template: '{"NAME":"LogilinkPA0200","GPIO":[0,0,0,90,0,0,0,0,0,56,21,0,0],"FLAG":7,"BASE":18}' 
+link: https://www.amazon.de/dp/B081QY1BC4
+link2: https://www.pollin.de/p/wlan-steckdose-logilink-pa0200-2-stueck-590486
+mlink: https://www.2direct.de/buero-haushalt/smarthome/4108/smart-plug-stromstecker-doppelpack
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

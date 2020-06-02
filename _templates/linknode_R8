@@ -5,7 +5,7 @@ category: switch
 type: Relay
 standard: global
 link: https://www.amazon.com/LinkSprite-211201005-Arduino-Compatible-Wi-Fi-Controller/dp/B01N2ALK8X
-image: http://linksprite.com/wiki/images/thumb/3/3a/LinkNode_R8-6.jpg/800px-LinkNode_R8-6.jpg
+image: /assets/images/linknode_R8.jpg
 template: '{"NAME":"LinkNode R8","GPIO":[0,0,0,0,25,26,0,28,23,24,22,27,21],"FLAG":0,"BASE":18}' 
 link2: http://store.linksprite.com/linknode-r8-arduino-compatible-wifi-relay-controller/
 mlink: http://linksprite.com/wiki/index.php?title=LinkNode_R8:_Arduino-compatible_WiFi_relay_controller

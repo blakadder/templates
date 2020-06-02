@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-01
+title: FrankEver 4 Gang
+model: 
+image: /assets/images/frankever_4gang.jpg
+template: '{"NAME":"FrankEver Wifi Smart Switch","GPIO":[0,0,0,17,21,18,255,255,19,23,24,22,20],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000292893663.html
+link2: https://www.amazon.com/dp/B07ZJCM1D2/
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---

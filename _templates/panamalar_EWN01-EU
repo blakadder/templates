@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-02
+title: Panamalar Nightlight
+model: EWN01-EU
+image: /assets/images/panamalar_EWN01-EU.jpg
+template: '{"NAME":"Panamalar EWN0","GPIO":[17,0,0,0,0,0,255,255,37,0,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.es/dp/B07MFKDZVT/
+link2: https://www.amazon.fr/dp/B07MFKDZVT/
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
