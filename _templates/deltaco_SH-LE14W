@@ -6,7 +6,7 @@ category: bulb
 standard: e14
 link: https://www.webhallen.com/se/product/309662-Deltaco-Smart-Bulb-E14-White
 image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-LE14W.png?width=260
-template: '{"NAME":"SH-LE14W","GPIO":[0,0,0,0,0,140,0,0,38,0,37,142,141],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"SH-LE14W","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.deltaco.se/produkter/deltaco/smart-home/belysning/SH-LE14W
 ---
 
