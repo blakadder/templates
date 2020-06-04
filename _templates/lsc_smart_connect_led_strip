@@ -40,7 +40,7 @@ Fade: `ON IrReceived#Data=0x00F7C837 DO Backlog Scheme 4; Speed 1 ENDON`
 Smooth: `ON IrReceived#Data=0x00F7E817 DO Backlog Scheme 4; Speed 40 ENDON`  
 
 
-[Source for IR settings](link: https://www.circuitsonline.net/forum/view/146361/3)
+[Source for IR settings](https://www.circuitsonline.net/forum/view/146361/3)
 
 
 
