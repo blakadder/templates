@@ -1,10 +1,12 @@
 ---
 date_added: 2020-06-04
-title: Kkmoon V21
+title: Kkmoon 9W 800lm
 type:  RGBW
 category: bulb
 standard:
   - b22
+  - e26
+  - e27
 link: https://www.aliexpress.com/item/4000224262561.html
 image: https://ae01.alicdn.com/kf/H99bd9eca608a4ac7b4145d71557bb86fe/Tuya-Smart-WIFI-LED-Bulb-RGB-W-LED-Bulb-Support-APP-Control-Compatible-with-Google-Home.jpg
 template: '{"NAME":"KKMOON V21","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
