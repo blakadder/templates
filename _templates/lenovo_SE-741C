@@ -1,0 +1,13 @@
+date_added: 2020-06-04
+title: Lenovo Smart IR Controller
+model: Lenovo SE-741C
+image: /assets/images/lenovo_SE-741C.jpg
+template: '{"NAME":"Lenovo IR","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.jbhifi.com.au/products/lenovo-smart-ir-controller
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: IR Bridge
+standard: global
+---

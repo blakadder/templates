@@ -1,0 +1,17 @@
+date_added: 2020-06-03
+title: MagicHome 7W
+model: A5F-37A3-03
+image: /assets/images/magichome_A5F-37A3-03.jpg
+template: '{"NAME":"MagicHome E27","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000207087841.html
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e27
+---
+Colours need to be swapped to function properly
+```console
+SetOption37 38
+```"
