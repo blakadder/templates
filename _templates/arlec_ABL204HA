@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-05
+title: Arlec Smart Up & Down LED Wall 
+model: ABL204HA
+image: /assets/images/arlec_ABL204HA.jpg
+template: '{"NAME":"Arlec Up Down CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-smart-up-and-down-led-wall-light-with-grid-connect_p0119823
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---

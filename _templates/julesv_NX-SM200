@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-05
+title: JULES.V NX-SM200 V1.3
+model: NX-SM200 (NX-01-115-V1.3)
+image: /assets/images/julesv_NX-SM200.jpg
+template: '{"NAME":"NX-SM200","GPIO":[52,0,0,131,0,134,0,0,0,17,132,21,0],"FLAG":1,"BASE":45}' 
+link: https://www.amazon.de/dp/B07V2MWBNG/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

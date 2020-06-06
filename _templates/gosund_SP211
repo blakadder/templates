@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-05
+title: Gosund SP211
+model: SP211
+image: /assets/images/gosund_SP211.jpg
+template: '{"NAME":"Gosund SP211","GPIO":[18,158,56,131,134,132,0,0,17,57,21,0,22],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B085HDPTCH/
+link2: 
+mlink: https://www.gosund.store/products/smart-socket-2-in-1-only-for-europe
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
