@@ -13,4 +13,61 @@ type: Miscellaneous
 standard: au
 ---
 
+To get this working with MQTTThing, I did some manual config:
+
+Rule1
+  on TuyaReceived#DpType2Id4 do Publish tele/%topic%/CURRENTTEMP %value% endon
+  on TuyaReceived#DpType1Id1 do Publish stat/%topic%/ACTIVE %value% endon
+  on TuyaReceived#DpType2Id3 do Publish stat/%topic%/TARGETTEMP %value% endon
+
+Rule1 1
+
+Rule2
+  on Event#setTemperature do TuyaSend2 3,%value% endon
+  on Event#setTemperature do Publish stat/%topic%/TARGETTEMP %value% endon
+  
+Rule2 1
+  
+Rule3
+  on Power1#state=1 do SerialSend5 55aa0001000000 endon
+  on Mqtt#Connected do SerialSend5 55aa0001000000 endon
+Rule3 1
+
+---
+
+On HomeBridge (MQTT Thing):
+
+{
+            "type": "heaterCooler",
+            "name": "Office Heater",
+            "url": "http://XXXXXX:1883",
+            "logMqtt": true,
+            "topics": {
+                "getOnline": "tele/office_heater/LWT",
+                "getCurrentTemperature": "tele/office_heater/CURRENTTEMP",
+                "setHeatingThresholdTemperature": {
+                    "topic": "cmnd/office_heater/EVENT",
+                    "apply": "return 'setTemperature='+message;"
+                },
+                "getHeatingThresholdTemperature": "stat/office_heater/TARGETTEMP",
+                "getActive": "stat/office_heater/POWER",
+                "setActive": "cmnd/office_heater/Power1"
+            },
+            "minTemperature": 18,
+            "maxTemperature": 30,
+            "accessory": "mqttthing",
+            "restrictHeaterCoolerState": [
+                1
+            ],
+            "currentHeaterCoolerValues": [
+                "Off",
+                "Idle",
+                "On"
+            ],
+            "targetHeaterCoolerValues": [
+                "Off",
+                "On"
+            ]
+        }
+
 Not done yet - but DPid 1 is on/off, 3 is desired temp, 4 is current temp.
