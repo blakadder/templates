@@ -10,8 +10,11 @@ template: '{"NAME":"Bauhn Smart Pl","GPIO":[0,0,0,0,21,22,0,0,0,56,17,0,0],"FLAG
 link2: 
 ---
 
-
-
+This rule is needed to turn on second relay on boot so the device functions properly:
+```console
+rule1 on system#boot do power2 on endon
+rule1 1
+```
 
 
 
