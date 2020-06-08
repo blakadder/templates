@@ -6,12 +6,15 @@ type: Plug
 standard: au
 mlink: https://bauhn.com.au/wp-content/uploads/2020/02/ASPU-1019-Smart-Wall-Plug-UM-v8.pdf
 image: /assets/images/bauhn_ASPU-1019.jpg
-template: '{"NAME":"Bauhn Smart Pl","GPIO":[0,0,0,0,21,0,0,0,0,56,17,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Bauhn Smart Pl","GPIO":[0,0,0,0,21,22,0,0,0,56,17,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
-
-
+This rule is needed to turn on second relay on boot so the device functions properly:
+```console
+rule1 on system#boot do power2 on endon
+rule1 1
+```
 
 
 
