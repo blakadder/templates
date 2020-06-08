@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-07
+title: Elari A60 6W 470lm
+model: LMS-27RGB
+image: /assets/images/elari_LMS-27RGB.jpg.jpg
+template: '{"NAME":"OM60/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://store.elari.net/catalog/smart-home/smartled-color-e27/
+link2: 
+mlink: https://store.elari.net/en/catalog/smart-home/smartled-color-e27/
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
