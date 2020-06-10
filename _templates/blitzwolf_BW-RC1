@@ -13,3 +13,5 @@ type: IR Bridge
 standard: global
 ---
 Use http://thehackbox.org/tasmota/release/tasmota-ir.bin firmware
+
+***WARNING*** The most recent versions of these devices cannot be flashed with Tuya-Convert at present. These may have D/C 2120 printed on the base.
