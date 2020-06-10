@@ -5,6 +5,7 @@
 	var navigationContainer = $('#navigation')
 	var nothingFound = $('<li>Nothing found.</li>')
 	var searchQuery = $('#search-input')
+	
 	database = database || {}
 
 	function createSearchStore(data) {
@@ -12,18 +13,18 @@
 			var self = this
 
 			self.field('id');
-			self.field('title', { boost: 10 });
+			self.field('title');
+			self.field('model');
 			self.field('category');
 			self.field('type');
-			self.field('content');
 
 			Object.keys(data).forEach(function (key) {
 				self.add({
 					id: key,
 					title: data[key].title,
+					model: data[key].model,
 					category: data[key].category,
-					category: data[key].type,
-					content: data[key].content
+					type: data[key].type,
 				});
 			})
 
@@ -45,7 +46,7 @@
 
 		searchLink.attr('href', result.href)
 
-		searchLink.text(result.title).append(" ").append(result.type)
+		searchLink.text(result.title).append(" ").append(result.type).append(" ").append(result.model)
 
 		return searchEntry
 	}
@@ -72,7 +73,7 @@
 
 	function searchStore(store, data) {
 		return function (term) {
-			var results = store.search(term)
+			var results = store.search(term + "*")
 
 			return results.map(function (result) {
 				return data[result.ref]
@@ -88,7 +89,7 @@
 				hide()
 			}
 
-			if (value.length > 2) {
+			if (value.length > 1) {
 				display(search(value))
 			}
 		}

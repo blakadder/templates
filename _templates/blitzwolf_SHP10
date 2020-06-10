@@ -12,6 +12,6 @@ link3: https://www.amazon.de/dp/B084WZG6ZG/
 mlink: https://www.blitzwolf.com/3680W-16A-WIFI-Smart-Socket-p-453.html
 flash: tuya-convert
 ---
-This template is only for SHP10 **WITHOUT POWER METERING**. Power metering version looks identical and is sold under same model number. Check the barcode on the box: POA6204581 is the non-power monitoring version, while POA6204582 is the power monitoring version.
+This template is only for SHP10 **WITHOUT POWER METERING**. [Power metering version](blitzwolf_SHP10P) looks identical and is sold under same model number. Check the barcode on the box: POA6204581 is the non-power monitoring version, while POA6204582 is the power monitoring version.
 
-It is currently unsupported due to a new power metering chip.
+It is currently unsupported due to a new power metering chip. 
