@@ -1,0 +1,20 @@
+---
+date_added: 2020-06-08
+title: BlitzWolf BW-SHP10P
+model: POA6204582
+image: /assets/images/blitzwolf_SHP10.jpg
+template: '{"NAME":"BW-SHP10 PM","GPIO":[0,148,0,207,158,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/BlitzWolf-BW-SHP10-3680W-16A-Smart-WIFI-Socket-EU-Plug-Switch-Non-metered-or-Meterin-Remote-Controller-Timer-Work-with-Alexa-Google-Assistant-BW-Tuya-APP-p-1627585.html
+link2: https://www.aliexpress.com/item/4000688997611.html
+link3: https://www.amazon.de/dp/B084WZG6ZG/
+mlink: https://www.blitzwolf.com/3680W-16A-WIFI-Smart-Socket-p-453.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+You need Tasmota 8.3.1.3+ to support the new power metering chip.
+
+This template is only for SHP10 **WITH POWER METERING**. Non-power metering version looks identical and is sold under same model number. Check the barcode on the box: POA6204581 is the non-power monitoring version, while POA6204582 is the power monitoring version.
+
+
