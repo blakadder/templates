@@ -7,10 +7,11 @@ type: Switch
 standard: eu
 image: /assets/images/sonoff_TX-T3EU3C.jpg
 template: '{"NAME":"TX T3EU3C","GPIO":[17,255,0,255,23,22,18,19,21,158,0,0,0],"FLAG":0,"BASE":30}' 
-link: https://www.aliexpress.com/item/4000761227921.html
+link4: https://www.aliexpress.com/item/4000761227921.html
 link2: https://www.amazon.de/dp/B07T599ZZ7/
 link3: https://www.banggood.com/SONOFF-T3-EUUSUK-AC-100-240V-123-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Smart-Wall-Touch-Light-Switch-For-Smart-Home-Work-With-Alexa-Google-Home-p-1470799.html
-mlink: https://www.itead.cc/sonoff-tx-series-wifi-smart-wall-switches.html
+mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
+link: https://www.itead.cc/sonoff-tx-series-wifi-smart-wall-switches.html
 ---
 Sonoff TX series is a new generation of wall switches with an updated front plate design. T3 model is the first one in piano black which is a welcome improvement over the regular white ones. TX T3 switches are available in EU, UK and US standards but all testing and flashing was done only on the EU version.
 

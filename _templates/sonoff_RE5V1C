@@ -8,7 +8,8 @@ standard: global
 mlink: https://www.itead.cc/sonoff-re5v1c.html
 image: /assets/images/sonoff_RE5V1C.jpg
 template: '{"NAME":"Sonoff RE5V1C","GPIO":[17,255,255,255,255,255,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.aliexpress.com/item/4000204162474.html
+link: https://www.itead.cc/smart-home/sonoff-re5v1c.html
+link3: https://www.aliexpress.com/item/4000204162474.html
 link2: https://www.aliexpress.com/item/4000089805053.html
 ---
 

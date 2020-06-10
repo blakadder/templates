@@ -11,11 +11,12 @@ standard:
   - au
   - za
   - fr
-mlink: https://www.itead.cc/smart-home/sonoff-s55.html
+mlink: https://sonoff.tech/product/wifi-smart-plugs/sonoff-s55
 image: https://user-images.githubusercontent.com/5904370/61628399-7890eb00-ac82-11e9-9742-3e837ee9f09b.png
 template: '{"NAME":"Sonoff S55","GPIO":[17,255,0,255,255,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.itead.cc/smart-home/sonoff-s55.html
 link3: https://www.amazon.co.uk/dp/B07T1XF17N/
-link: https://www.aliexpress.com/item/4000142168578.html
+link4: https://www.aliexpress.com/item/4000142168578.html
 link2: https://www.banggood.com/SONOFF-S55-Waterproof-WIFI-Smart-Socket-Switch-UKAUUSFRDEZA-Multiple-Version-Wifi-Socket-Works-With-Alexa-Google-Home-p-1523977.html
 ---
 
