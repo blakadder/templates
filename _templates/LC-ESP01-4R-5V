@@ -21,7 +21,11 @@ Rule1
 on Power1#State=1 do SerialSend5 A00101A2 endon on Power1#State=0 do SerialSend5 A00100A1 endon on Power2#State=1 do SerialSend5 A00201A3 endon on Power2#State=0 do SerialSend5 A00200A2 endon on Power3#State=1 do SerialSend5 A00301A4 endon on Power3#State=0 do SerialSend5 A00300A3 endon on Power4#State=1 do SerialSend5 A00401A5 endon on Power4#State=0 do SerialSend5 A00400A4 endon
 ```
 
-
+Make sure to enable the rule:
+```console
+Rule1 1
+```
+If relays still don’t switch try BaudRate 9600
 
 
 
