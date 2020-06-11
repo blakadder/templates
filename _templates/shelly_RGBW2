@@ -5,7 +5,7 @@ category: light
 type: LED Controller
 standard: eu
 mlink: https://shelly.cloud/wifi-smart-shelly-rgbw-2/
-image: https://shelly.cloud/wp-content/uploads/2018/11/RGBWv2_top.jpg
+image: /assets/images/shelly_RGBW2.jpg
 template: '{"NAME":"Shelly RGBW2","GPIO":[0,0,52,0,40,255,0,0,37,17,39,38,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07N49TXLQ/
 link2: https://www.amazon.com/Shelly-Controller-Wireless-Automation-Schedule/dp/B07N49TXLQ 

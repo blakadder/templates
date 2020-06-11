@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-11
+title: Helloify BR30 9W 600lm
+model: HTHC905
+image: /assets/images/helloify_HTHC905.jpg
+template: '{"NAME":"Helloify","GPIO":[255,255,255,255,37,40,255,255,38,41,39,255,255],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07V4R1STZ
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---
