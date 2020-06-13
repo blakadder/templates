@@ -4,16 +4,15 @@ title: Eachen IR DC6
 category: misc
 type: IR Bridge
 standard: global
+flash: serial
 image: https://images-na.ssl-images-amazon.com/images/I/51VaObTqjOL._SL1000_.jpg
 template: '{"NAME":"Eachen IR","GPIO":[0,0,0,0,56,51,0,0,255,17,8,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/EACHEN-Universal-Controller-Conditioner-Compatible-Red/dp/B07K3Z2WBR
-link2: http://s.click.aliexpress.com/e/oo7TfVYy
+link2: https://www.aliexpress.com/item/1000008055073.html
 mlink: https://eachen.cc/product/eachen-ir-dc6-tuya/
 ---
 
 Is referred also as "[Docooler WiFi IR-HUB](https://amzn.to/39FpXxL)"
-
-Can be tuya-converted with tuya convert 1.0.
 
 ![Eachen1](https://user-images.githubusercontent.com/49731213/65393095-dcb45600-dd7c-11e9-8087-996f343784af.jpg)
 ![Eachen2](https://user-images.githubusercontent.com/49731213/65393098-dfaf4680-dd7c-11e9-879f-8e75ac345316.jpg)

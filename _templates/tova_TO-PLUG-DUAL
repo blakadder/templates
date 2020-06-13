@@ -1,0 +1,15 @@
+---
+date_added: 2020-06-12
+title: TOVA Dual
+model: TO-PLUG-DUAL
+image: /assets/images/tova_TO-PLUG-DUAL.jpg
+template: '{"NAME":"TOVA","GPIO":[56,0,0,131,18,134,0,0,0,17,132,22,21],"FLAG":0,"BASE":45}' 
+link: https://smile.amazon.com/gp/product/B0815GG44P/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+Similar to XS-A23, but buttons/relayed reversed

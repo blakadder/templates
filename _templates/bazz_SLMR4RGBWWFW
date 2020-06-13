@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-12
+title: BAZZ 4 in. RGB Recessed Fixture
+model: SLMR4RGBWWFW
+image: /assets/images/bazz_SLMR4RGBWWFW.jpg
+template: '{"NAME":"SLMR4RGBWWFW","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B01M2A7I16/
+link2: https://www.amazon.ca/dp/B01M2A7I16/
+mlink: https://www.bazzsmarthome.ca/collections/lighting/products/colors-collection-smart-wifi-led-recessed-light-fixture
+flash: tuya-convert
+category: light
+type: Light
+standard: us
+---
