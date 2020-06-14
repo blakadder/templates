@@ -1,0 +1,15 @@
+---
+date_added: 2020-06-14
+title: Vettora Smart Plug
+model: T10AL250V
+image: /assets/images/vettora_T10AL250V.jpg
+template: '{"NAME":"Vettora","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07XCP3CR2/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+Lacks FCC ID on casing or packaging. Comes with generic instructions for smart life app. Tuya-convert worked fine. Case appears to be welded or glued; probably not possible to open without destroying case. 

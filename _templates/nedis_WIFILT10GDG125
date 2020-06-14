@@ -1,0 +1,16 @@
+---
+date_added: 2020-06-13
+title: Nedis G125 5.5W 350lm Twisted Filament
+model: WIFILT10GDG125
+image: /assets/images/nedis_WIFILT10GDG125.jpg
+template: '{"NAME":"WIFILF10GDG125","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07KZJ599T/
+link2: https://www.jula.no/catalog/el-artikler-og-belysning/el-installasjon/plug-in-produkter/fjernstrombrytere/kulepare-011164/
+link2: 
+mlink: https://nedis.com/en-us/product/smart-living/smart-home/lighting/550716089/wi-fi-warm-to-cool-white-led-filament-bulb-twisted-e27-g125-55-w-350-lm
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---
+A little tricky reset procedure, has to be turned on and off four times, wait for a couple of seconds and if it starts to blink, it ready for flashing.
