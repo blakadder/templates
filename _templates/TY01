@@ -40,9 +40,10 @@ Due to this design it is difficult to tuya-convert or even configure the device 
 
 ## Configuration
 
-_If you're using battery power you need to prevent the device from going to sleep by actuating the reed switch constantly (approximately every 5 seconds) during the configuration or use the serial message._
-
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+_If you're using battery power you need to prevent the device from going to sleep by actuating the reed switch constantly (approximately every 5 seconds) during the configuration._ It will be easier to configure everything while the MCU is disabled and TYWE3S is powered by the serial-to-USB adapter!
+
 
 Change device to a TuyaMCU module (or apply the provided template, result is the same)
 ```console
