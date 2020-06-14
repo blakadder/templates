@@ -1,11 +1,11 @@
 ---
 date_added: 2020-06-20
-title: Bamzoom TY01 Door Window
+title: TY01 Door Window
 model: TY01/XCS1
 link: https://www.aliexpress.com/item/4000510216875.html
 image: /assets/images/TY01.jpg
 template: '{"NAME":"TY01","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
-link2: 
+link2: https://www.aliexpress.com/item/4000492919273.html
 mlink: 
 flash: serial
 category: misc
