@@ -3,7 +3,6 @@
     <td><b><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }}
     {% assign standard_list = template.standard %}
         {% for item_standard in standard_list %}
-        {{ item_standard | upcase }} 
         {% endfor %}
     {% assign splitter = template.template | split: ':' %}
         {% assign gpios = splitter[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
@@ -11,6 +10,7 @@
    Power Monitoring 
    {% endif %} 
         {{ template.type }}        
+        {{ item_standard | upcase }} 
         {% if template.category contains 'bulb'%}
         Bulb
         {% endif %}   </a>     
