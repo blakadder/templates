@@ -7,12 +7,12 @@
    Power Monitoring 
    {% endif %} 
         {{ template.type }}        
-        {% if template.category contains 'bulb'%}
-        Bulb
-    {% assign standard_list = template.standard %}
+        {% assign standard_list = template.standard %}
         {% for item_standard in standard_list %}
         {{ item_standard | upcase }} 
         {% endfor %}
+        {% if template.category contains 'bulb'%}
+        Bulb
     {% endif %}   </a>     
         <td style="width: 1px"></td>
   </tr>
