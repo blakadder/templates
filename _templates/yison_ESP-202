@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-15
+title: Yison ESP-01/ESP-202 Development Board
+model: 
+image: /assets/images/yison_ESP-202.jpg
+template: '{"NAME":"Yison Dev Board","GPIO":[32,157,31,255,33,34,255,255,37,39,30,38,29],"FLAG":15,"BASE":18}' 
+link: https://www.aliexpress.com/item/32507528268.html
+link2: https://www.aliexpress.com/item/32497553498.html
+mlink: 
+flash: serial
+category: misc
+type: DIY
+standard: global
+---
