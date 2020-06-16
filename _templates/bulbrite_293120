@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-13
+title: Bulbrite Solana G25 5.5W 600lm Filament
+model: 293120
+image: /assets/images/bulbrite_293120.jpg
+template: '{"NAME":"BulbBrite01","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07TXRM9SQ/
+link2: 
+mlink: https://products.bulbrite.com/293120
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e26
+---

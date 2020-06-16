@@ -9,8 +9,9 @@ flash: serial
 mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/iw100-101
 image: /assets/images/sonoff_IW101.jpg
 template: '{"NAME":"Sonoff IW101","GPIO":[17,145,0,146,0,0,0,0,21,157,0,0,0],"FLAG":0,"BASE":41}' 
-link: https://www.aliexpress.com/item/4000346370624.html
-link2: https://www.amazon.com/Monitoring-Compatible-Schedule-Control-Required/dp/B083LJZGFK
+link: https://www.itead.cc/sonoff-iw100-iw101.html
+link2: https://www.aliexpress.com/item/4000346370624.html
+link4: https://www.amazon.com/Monitoring-Compatible-Schedule-Control-Required/dp/B083LJZGFK
 link3: https://www.gearbest.com/access-control/pp_009367259270.html
 ---
 I think this is the first wall switch that support power monitoring using an ESP8266. It uses a Chipsea CS7598 chip for it, similiarly to the [S31](sonoff_S31). The relay is rated to 16A 250V but Sonoff states max 15A incandescent or CFL load.

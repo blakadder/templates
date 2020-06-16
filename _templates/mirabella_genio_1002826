@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-11
+title: Mirabella Genio USB
+model: 1002826
+image: /assets/images/mirabella_genio_1002826.jpg
+template: '{"NAME":"Mirabella Genio 1002826","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.bigw.com.au/product/google-nest-mini-chalk-mirabella-plug-bundle/p/71431/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: au
+---

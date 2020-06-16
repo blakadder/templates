@@ -98,7 +98,7 @@ dpID 1 is assigned to Relay1 by default.
 There is no function in Tasmota for enum dpID's currently so we will use a rule to report battery status (high, medium or low) to a custom topic (change it to any other topic suitable for you)
 
 ```console
-Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010114 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010015 DO publish2 stat/%topic%/BATT low ENDON
+Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010112 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010011 DO publish2 stat/%topic%/BATT low ENDON
 ```
 
 Don't forget to turn on the rule: `Rule1 1`

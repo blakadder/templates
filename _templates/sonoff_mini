@@ -6,12 +6,13 @@ category: switch
 type: Relay
 standard: global
 flash: sonoff-diy
-link: https://www.aliexpress.com/item/4000046666272.html
+link2: https://www.aliexpress.com/item/4000046666272.html
 link3: https://www.banggood.com/SONOFF-Mini-Two-Way-Smart-Switch-10A-AC100-240V-Works-with-Amazon-Alexa-Google-Home-Assistant-Nest-Supports-DIY-Mode-Allows-to-Flash-the-Firmware-p-1484758.html
 image: https://user-images.githubusercontent.com/5904370/63218127-3610e000-c154-11e9-9ae9-8ed36009dda4.png
 template: '{"NAME":"Sonoff Mini","GPIO":[17,0,0,0,9,0,0,0,21,56,0,0,255],"FLAG":0,"BASE":1}' 
-link2: https://www.amazon.com/gp/product/B0829V6JKG
-mlink: https://www.itead.cc/sonoff-mini.html
+link4: https://www.amazon.com/gp/product/B0829V6JKG
+link: https://www.itead.cc/sonoff-mini.html
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/sonoff-mini
 ---
 
 The Sonoff Mini is, as the name implies, a very small device, designed to be hidden where there's only supposed to be cables. Since it's not supposed to be visible, it's also designed to easily attach an external button.

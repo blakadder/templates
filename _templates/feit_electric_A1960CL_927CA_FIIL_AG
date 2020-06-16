@@ -1,0 +1,15 @@
+---
+date_added: 2020-06-09
+title: Feit Electric 8.8W 800lm Vintage
+model: A1960CL/927CA/FIIL/AG
+image: /assets/images/feit_electric_A1960CL_927CA_FIIL_AG.jpg
+template: '{"NAME":"FEIT A1960CL","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.lowes.com/pd/Feit-Electric-Feit-Smart-WiFi-60-Watt-EQ-A19-Soft-White-Dimmable-Smart-LED-Light-Bulb/1002576088
+link2: 
+mlink: https://www.feit.com/product/60-watt-equivalent-soft-white-a19-dimmable-filament-alexa-google-smart-led-bulb/ 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e26
+---
+Used docker image `tuya-convert` on RaspPi4. Tasmota upgrades required using two steps: min build then full build. Dimming didn't work at once. Restart helped.

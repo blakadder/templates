@@ -8,9 +8,9 @@ window.database = {
     {% endif %}
     "{{ page.url | slugify }}": {
       "title": "{{ page.title | xml_escape }}",
+      "model": "{{ page.model | xml_escape }}",
       "category": "{{ page.category | xml_escape }}",
       "type": "{{ page.type | xml_escape }}",
-      "content": {{ page.content | strip_html | strip_newlines | jsonify }},
       "url": "{{ page.url | xml_escape }}",
       "href": "{{ site.baseurl }}{{ page.url | xml_escape }}"
     }

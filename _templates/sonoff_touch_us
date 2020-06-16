@@ -1,5 +1,5 @@
 ---
-title: Sonoff Touch
+title: Sonoff Touch US
 model: IM160928099
 category: switch
 type: Switch
@@ -7,7 +7,8 @@ standard: us
 mlink: https://www.itead.cc/smart-home/sonoff-touch.html
 image: https://user-images.githubusercontent.com/5904370/57885987-84000a00-782c-11e9-90e5-33706c197497.png
 template: '{"NAME":"Sonoff Touch","GPIO":[17,255,0,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":10}' 
-link: https://www.banggood.com/SONOFF-Touch-AC90-To-250V-400W-WIFI-Switch-Module-Luxury-Glass-Panel-Wireless-Timing-Switch-p-1139688.html
+link: https://www.itead.cc/smart-home/sonoff-touch.html
+link2: https://www.banggood.com/SONOFF-Touch-AC90-To-250V-400W-WIFI-Switch-Module-Luxury-Glass-Panel-Wireless-Timing-Switch-p-1139688.html
 ---
 Sonoff Touch is based on the ESP8285. Though the actual chip inside may be a [PSF-A85](https://www.itead.cc/wiki/PSF-A85).
 

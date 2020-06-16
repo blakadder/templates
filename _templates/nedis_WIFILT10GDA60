@@ -1,0 +1,15 @@
+---
+date_added: 2020-06-12
+title: Nedis A60 5.5W 350lm Twisted Filament
+model: WIFILT10GDA60
+image: /assets/images/nedis_WIFILT10GDA60.jpg
+template: '{"NAME":"WIFILT10GDA60","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07YL3LHX7
+link2: https://www.amazon.co.uk/dp/B07YL3LHX7
+mlink: https://nedis.com/en-us/product/smart-living/smart-home/lighting/550716088/wi-fi-warm-to-cool-white-led-filament-bulb-twisted-e27-a60-55-w-350-lm
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---
+A little tricky reset procedue, has to be turned on and off quite a few times, start with four, wait a for 20 seconds, then 5, and wait, and so on.

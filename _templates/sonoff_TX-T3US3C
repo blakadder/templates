@@ -7,9 +7,10 @@ type: Switch
 standard: us
 image: /assets/images/sonoff_TX-T3US3C.jpg
 template: '{"NAME":"TX T3US3C","GPIO":[17,255,0,255,23,22,18,19,21,158,0,0,0],"FLAG":0,"BASE":30}'
-link: https://www.aliexpress.com/item/33058371468.html
+link4: https://www.aliexpress.com/item/33058371468.html
 link2: https://www.amazon.com/dp/B07RZRKGH6/
 link3: https://www.banggood.com/SONOFF-T3-EUUSUK-AC-100-240V-123-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Smart-Wall-Touch-Light-Switch-For-Smart-Home-Work-With-Alexa-Google-Home-p-1470799.html
-mlink: https://www.itead.cc/sonoff-tx-series-wifi-smart-wall-switches.html
+mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
+link: https://www.itead.cc/sonoff-tx-series-wifi-smart-wall-switches.html
 ---
 

@@ -8,9 +8,10 @@ template: '{"NAME":"BW-SHP10","GPIO":[0,0,0,0,157,21,0,0,0,17,0,0,0],"FLAG":0,"B
 image: /assets/images/blitzwolf_SHP10.jpg
 link: https://www.banggood.com/BlitzWolf-BW-SHP10-3680W-16A-Smart-WIFI-Socket-EU-Plug-Switch-Non-metered-Meterin-Remote-Controller-Timer-Work-with-Alexa-Google-Assistant-BW-Tuya-APP-p-1627585.html
 link2: https://www.aliexpress.com/item/4000688997611.html
+link3: https://www.amazon.de/dp/B084WZG6ZG/
 mlink: https://www.blitzwolf.com/3680W-16A-WIFI-Smart-Socket-p-453.html
 flash: tuya-convert
 ---
-This template is only for SHP10 **WITHOUT POWER METERING**. Power metering version looks identical and is sold under same model number. Check the barcode on the box: POA6204581 is the non-power monitoring version, while POA6204582 is the power monitoring version.
+This template is only for SHP10 **WITHOUT POWER METERING**. [Power metering version](blitzwolf_SHP10P) looks identical and is sold under same model number. Check the barcode on the box: POA6204581 is the non-power monitoring version, while POA6204582 is the power monitoring version.
 
-It is currently unsupported due to a new power metering chip.
+It is currently unsupported due to a new power metering chip. 

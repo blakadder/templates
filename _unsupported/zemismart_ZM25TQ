@@ -13,4 +13,4 @@ flash: WR4
 
 Unable to Tuya Convert, after disassembly WR4 was found. 
 
-Since everything is controlled by the MCU it is possible to replace the chip. More information will be available on [Blakadder's blog](https://blakadder.com).
+Since everything is controlled by the MCU it is [possible to replace the wifi module)(https://blakadder.com/frankestein-saturday-2/). 

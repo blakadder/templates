@@ -8,7 +8,7 @@ layout: default
     <span style="font-size: xx-large; font-weight: 400; letter-spacing: -.1rem;">{{ page.title }}
       {% assign template = page.template | split: ':' %}
       {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-      {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%}
+      {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
  Power Monitoring
  {% endif %}
  {{ page.type }}
@@ -45,6 +45,8 @@ layout: default
   <a class="menu" href="{% assign link = page.link2 %}{% include linkage.html %}">{{ page.link2 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | remove_first: "offer." | split:'/' | first | capitalize}}</a>
   <br>
   <a class="menu" href="{% assign link = page.link3 %}{% include linkage.html %}">{{ page.link3 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | remove_first: "offer." | split:'/' | first | capitalize}}</a>
+  <br>
+  <a class="menu" href="{% assign link = page.link4 %}{% include linkage.html %}">{{ page.link4 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | remove_first: "offer." | split:'/' | first | capitalize}}</a>
   <br><br>
   {% if page.mlink != nil %}
     <b>
@@ -105,7 +107,7 @@ layout: default
   <BR>
     {% assign template = page.template | split: ':' %}
     {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-    {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156'%}
+    {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
 
   For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
   <p>

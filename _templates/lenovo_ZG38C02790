@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-09
+title: Lenovo 800lm 
+model: ZG38C02790
+image: /assets/images/lenovo_ZG38C02790.jpg
+template: '{"NAME":"LenovoLB","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.harveynorman.com.au/lenovo-smart-b22-white-bulb.html
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: CCT
+standard: b22
+---

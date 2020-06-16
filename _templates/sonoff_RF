@@ -3,10 +3,11 @@ title: Sonoff RF
 category: switch
 type: Relay
 standard: global
-mlink: https://www.itead.cc/smart-home/sonoff-rf.html
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/rfr2
+link: https://www.itead.cc/smart-home/sonoff-rf.html
 image: https://user-images.githubusercontent.com/5904370/57876764-6fb11280-7816-11e9-86c2-9b26626dfe64.png
 template: '{"NAME":"Sonoff RF","GPIO":[17,255,255,255,255,0,0,0,21,56,255,0,0],"FLAG":0,"BASE":2}'
-link: https://www.banggood.com/SONOFF-RF-7A-1500W-AC90-250V-DIY-WIFI-Wireless-Switch-Socket-Module-For-Smart-Home-APP-p-1038026.html
+link3: https://www.banggood.com/SONOFF-RF-7A-1500W-AC90-250V-DIY-WIFI-Wireless-Switch-Socket-Module-For-Smart-Home-APP-p-1038026.html
 link2: https://www.aliexpress.com/item/32826989328.html
 ---
 ## Serial Flashing

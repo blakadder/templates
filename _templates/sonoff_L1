@@ -4,11 +4,12 @@ title: Sonoff L1
 category: light
 type: LED Strip
 standard: global
-mlink: https://www.itead.cc/sonoff-l1-smart-led-light-strip.html
+mlink: https://sonoff.tech/product/wifi-smart-lighting/l1-smart-strip-light
+link: https://www.itead.cc/sonoff-l1-smart-led-light-strip.html
 image: https://user-images.githubusercontent.com/5904370/65447568-23ff1d00-de37-11e9-8c18-c4bb24372194.png
 template: '{"NAME":"SonoffL1","GPIO":[0,148,0,149,0,0,0,0,0,56,0,0,0],"FLAG":0,"BASE":70}' 
-link: https://www.banggood.com/SONOFF-L1-Dimmable-IP65-2M-5M-Smart-WiFi-RGB-LED-Strip-Light-Kit-Work-With-Amazon-Alexa-Google-Home-p-1396771.html
-link2: https://www.gearbest.com/led-strip-accessories/pp_009383068390.html
+link2: https://www.banggood.com/SONOFF-L1-Dimmable-IP65-2M-5M-Smart-WiFi-RGB-LED-Strip-Light-Kit-Work-With-Amazon-Alexa-Google-Home-p-1396771.html
+link4: https://www.gearbest.com/led-strip-accessories/pp_009383068390.html
 link3: https://www.aliexpress.com/item/4000236208204.html
 ---
 # WARNING
