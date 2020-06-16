@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-15
+title: TORCHSTAR CCT 30W Lighting Kit
+model: R2-SB3STPK-30WDWF-CCT
+image: /assets/images/torchstar_R2-SB3STPK-30WDWF-CCT.jpg
+template: '{"NAME":"Torchstar CCT ","GPIO":[0,0,0,0,52,38,0,0,0,17,0,37,53],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07PYXB82B/
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: us
+---
