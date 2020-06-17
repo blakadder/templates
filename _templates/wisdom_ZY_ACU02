@@ -13,7 +13,7 @@ link2: https://www.aliexpress.com/item/4000106855079.html
 Rule to toggle LED's with relays...    
 `Backlog ledmask 0x0000; seriallog 0; setoption32 20; rule1 on power1#state do ledpower1 %value% endon on power2#state do ledpower2 %value% endon; rule1 1`
 
-The functionality below is built into firmware 8.3.1>
+The Button functionality below is built into firmware 8.3.1>
 
 1 short press for relay1
 
