@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.walmart.com/ip/Merkury-Innovations-Smart-Plug-1-Pack/126201995
 image: https://i5.walmartimages.com/asr/6cb5d4c6-85d3-4b4b-b458-2bd700632bc1_1.576a8830886f0e1c1d2cf935076a652b.jpeg?odnWidth=undefined&odnHeight=undefined&odnBg=ffffff
-template: '{"NAME":"Merkury Switch","GPIO":[255,255,255,255,53,56,0,0,21,17,255,255,255],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"Merkury Switch","GPIO":[255,255,255,255,158,56,0,0,21,17,255,255,255],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 
