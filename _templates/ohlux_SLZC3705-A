@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-18
+title: Ohlux 5W 450lm Candle
+model: SLZC3705-A
+image: /assets/images/ohlux_SLZC3705-A.jpg
+template: '{"NAME":"OHLUX","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B083V19K34/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e12
+---

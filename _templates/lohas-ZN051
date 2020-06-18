@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-18
+title: Lohas ZN051 5W 420lm
+model: NEWLH-ZN051GU10-2
+image: /assets/images/lohas-ZN051.jpg
+template: '{"NAME":"Lohas ZN051","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/Dimmable-2000K-6500K-Compatible-Controlled-Required/dp/B07VPH7WLB/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: gu10
+---

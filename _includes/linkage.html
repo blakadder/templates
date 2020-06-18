@@ -20,6 +20,10 @@
 {{ link | append: "?tag=blakaddert0a2-21" }}
 {% elsif link contains "www.aliexpress.com" %}
 {{ link | append: "?aff_platform=link-c-tool&cpt=1578089938969&sk=KTCPYBXK&aff_trace_key=6e31018ea55846f191a7242507abd946-1578089938969-05316-KTCPYBXK&terminal_id=5ab3b3bf703c438dac102dcfef054d7e" }}
+{% elsif link contains "itead.cc" %}
+{{ link | uri_escape | prepend: "https://www.anrdoezrs.net/links/100157613/type/dlg/" }}
+{% elsif link contains "geekbuying.com" %}
+{{ link | uri_escape | prepend: "https://www.anrdoezrs.net/links/100157613/type/dlg/" }}
 {% elsif link contains "www.alibaba.com" %}
 {{ link | uri_escape | prepend: "https://offer.alibaba.com/cps/ais1lue4?bm=cps&src=saf&url=" }}
 {% else %}

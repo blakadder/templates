@@ -1,0 +1,42 @@
+---
+date_added: 2020-06-17
+title: Arlec Smart Home Hub 
+model: SGS01HA
+image: /assets/images/arlec_SGS01HA.jpg
+template: '{"NAME":"Arlec Hub","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.bunnings.com.au/arlec-grid-connect-smart-home-hub_p0148571
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: Bluetooth Bridge
+standard: au
+---
+1. Initially pair the hub using the Tuya app
+2. Flash the hub using a serial connection to the TYWE3S module with a standard Tasmota Image.
+3. Set up MQTT
+4. Go to the console and issue these commands:
+
+```
+Rule1 ON TuyaReceived#CmndData DO var1 %value% ENDON ON TuyaReceived#Cmnd==54 DO Publish BleBridge/tele/command %var1% ENDON
+Rule1 1
+```
+
+5. Set up Node RED to listen on the BleBridge/tele/command MQTT topic then create a new function to process the messages using this code
+
+```javascript
+var inputstr = """"
+inputstr = msg.payload.slice(6);
+msg.payload = inputstr;
+return msg;
+```
+
+6. The output code will be something like this. For example for a door or motion sensor
+055B010100 - Sensor idle
+055B010101 - Sensor triggered
+0564020400000064 - Battery level 100% (64 in hex)
+
+For the battery level for example
+05 identifies the device number
+640204 identifies the DPID
+00000064 identifies the data

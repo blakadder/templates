@@ -1,0 +1,15 @@
+---
+date_added: 2020-06-18
+title: RY-RSM104 Light Touch
+model: GMA-506386-EA
+image: /assets/images/RY-RSM104.jpg
+template: '{"NAME":"RY-RSM104","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.ebay.com.au/itm/AU-Approved-Smart-wifi-Touch-Light-Switch-1-2-3-4-Glass-Panel-Google-Alexa-APP/401811799826
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---
+This is an MCU based device (https://tasmota.github.io/docs/TuyaMCU-Devices/)
