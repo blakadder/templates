@@ -16,7 +16,7 @@ standard: global
 
 Feedback is sent on dpId 3 while the position is controlled using dpId 2. To have both do the following:
 
-`TuyaMCU 21,3`
+`TuyaMCU 21,2`
 
 ```console
 Rule1 ON Dimmer#State DO TuyaSend2 2,%value% ENDON
