@@ -8,7 +8,7 @@ link: https://www.aliexpress.com/item/4000394621898.html
 link2: https://www.amazon.com/Switch-Controller-Wireless-Intelligent-Control/dp/B082FZPX45
 mlink: https://www.alibaba.com/product-detail/A16-Sinilink-ESP-12F-WIFI-mobile_62435049685.html
 flash: serial
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

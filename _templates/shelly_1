@@ -1,6 +1,6 @@
 ---
 title: Shelly 1
-category: switch
+category: relay
 type: Relay
 standard: global
 mlink: https://shelly.cloud/shelly1-open-source/

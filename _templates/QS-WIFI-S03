@@ -1,7 +1,7 @@
 ---
 date_added: 2019-07-14
 title: QS-WIFI-S03 Module Switch
-category: switch
+category: relay
 type: Relay
 standard: global
 mlink: http://www.aihomestyle.com/content/151.html

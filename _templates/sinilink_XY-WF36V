@@ -9,7 +9,7 @@ link2: https://www.banggood.com/XY-WF36V-Sinilink-WIFI-Remote-Control-Relay-Swit
 link3: https://www.amazon.com/Mobile-Control-DC6V-36V-ESP-12F-XY-WF36V/dp/B07ZQXY4XD
 mlink: https://www.alibaba.com/product-detail/Sinilink-WIFI-mobile-phone-remote-control_62357498833.html
 flash: serial
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

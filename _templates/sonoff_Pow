@@ -1,6 +1,6 @@
 ---
 title: Sonoff Pow
-category: switch
+category: relay
 type: Relay
 standard: global
 mlink: https://www.itead.cc/smart-home/sonoff-pow.html

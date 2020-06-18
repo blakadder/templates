@@ -9,7 +9,7 @@ link2: https://www.amazon.com/Digital-Energy-Metering-90-250V-ZMAi-90/dp/B088BHP
 link3: https://www.amazon.de/Xigeapg-Schalter-Stromverbrauch-Energie%C3%BCBerwachungsmesser-Fernbedienung/dp/B0875P8Y3V/
 mlink: 
 flash: tuya-convert
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

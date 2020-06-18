@@ -1,0 +1,23 @@
+---
+layout: default
+title: Curtains, Shutters and Shades
+navigation: 23
+---
+<h2>{{ page.title }}</h2>
+
+<!-- ######################################################################  -->
+{% assign category = site.templates | where: "category", "cover"  | sort_natural: 'type' %}
+{% assign type_group = category | group_by: 'type' %}
+{% assign type_grouped = type_group %}
+{% for group in type_grouped %}
+<BR>
+<h3>{{group.name}}</h3>
+<table id="{{group.name}}" width="80%">
+    <tbody>
+    {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
+    {% for template in grouptitlesorted %}
+    {% include tablerow_standard.html %}
+    {% endfor %}
+</tbody>
+</table>
+{% endfor %}

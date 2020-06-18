@@ -1,0 +1,51 @@
+---
+date_added: 2020-06-19
+title: Zemismart Roller Shade Chain
+model: M515EGB
+image: /assets/images/zemismart_M515EGB.jpg
+template: '{"NAME":"Zemismart M515EGB","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000960070851.html
+link2: 
+mlink: https://www.zemismart.com/
+flash: tuya-convert
+category: cover
+type: Motor
+standard: global
+---
+`TuyaMCU 11,7` to move the relay to an uncontrollable dpId. WebUI toggle will have no effect.
+
+Feedback is sent on dpId 3 while the position is controlled using dpId 2. To have both do the following:
+
+`TuyaMCU 21,3`
+
+```console
+Rule1 ON Dimmer#State DO TuyaSend2 2,%value% ENDON
+```
+
+Enable the rule with `Rule1 1`
+
+This setup might create some micromovements on reboot or same value dimmer commands!
+
+### Home Assistant
+
+Error sensor:
+
+Watches dpID 10 and triggers if the value is not 0x00.
+```yaml{% raw %}
+binary_sensor:
+    - platform: mqtt
+    name: "Zemismart Motor Error"
+    state_topic: "tele/%topic%/RESULT"
+    device_class: problem
+    payload_off: "00"
+    value_template: >-
+        {% if value_json.TuyaReceived.DpType5Id10 is defined %}      
+            {% if value_json.TuyaReceived.DpType5Id10  == '0x00' %}      
+            OFF
+            {% else %}
+            ON
+            {% endif %}
+        {% else %}
+        OFF
+        {% endif %}{% endraw %}
+```

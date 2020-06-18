@@ -8,7 +8,7 @@ link: https://www.amazon.de/gp/product/B079L6GVNF/
 link2: 
 mlink: 
 flash: serial
-category: misc
+category: relay
 type: Relay
 standard: global
 ---

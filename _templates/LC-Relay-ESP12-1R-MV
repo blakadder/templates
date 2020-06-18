@@ -2,7 +2,7 @@
 date_added: 2020-01-29
 title: LC Technology AC/DC 1 Channel ESP-12F Dev Board
 model: LC-Relay-ESP12-1R-MV
-category: switch
+category: relay
 type: Relay
 standard: global
 link: https://www.aliexpress.com/item/4000333913380.html

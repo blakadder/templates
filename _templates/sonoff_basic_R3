@@ -2,7 +2,7 @@
 date_added: 2019-10-22
 title: Sonoff Basic R3
 model: IM190314001
-category: switch
+category: relay
 type: Relay
 standard: global
 flash: sonoff-diy

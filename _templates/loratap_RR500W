@@ -8,7 +8,7 @@ link: https://www.aliexpress.com/item/4000217561478.html
 link2: 
 mlink: https://www.loratap.com/tuya-smart-life-wifi-smart-ligh-switch-relay-module-remote-control-google-home-alexa-echo-works-with-wall-manual-switch-10a-p0107.html
 flash: tuya-convert
-category: switch
+category: relay
 type: Relay
 standard: eu
 ---

@@ -8,7 +8,7 @@ link: https://www.amazon.com/gp/product/B07PZL2YXJ/
 link2: 
 mlink: http://www.emyloworld.com/
 flash: tuya-convert
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

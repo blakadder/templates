@@ -1,6 +1,6 @@
 ---
 title: Sonoff Dual R2
-category: switch
+category: relay
 type: Relay
 standard: global
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/dualr2

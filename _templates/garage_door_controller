@@ -1,7 +1,7 @@
 ---
 date_added: 2019-11-15
 title: Garage Door Controller
-category: switch
+category: relay
 type: Relay
 standard: global
 link: https://www.amazon.com/Controller-Smartphone-Compatible-Assistant-Required/dp/B07QG7RGFW

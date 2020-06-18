@@ -7,7 +7,7 @@ template: '{"NAME":"WF-CS02 Tuya","GPIO":[157,0,53,11,23,18,0,0,17,21,54,22,52],
 link2: https://www.ebay.com/itm/100-240V-Intelligenter-WiFi-Schalter-für-elektrischen-Rollladen-Touch-Control/123922710893
 mlink: 
 flash: tuya-convert
-category: switch
+category: cover
 type: Curtain Switch
 standard: eu
 ---

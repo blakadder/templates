@@ -1,5 +1,6 @@
 toc:
   - name: Bulbs by
+    url: bulb.html
     subnav:
       - title: Name
         url: bulb.html
@@ -7,12 +8,16 @@ toc:
         url: bulb-type.html
       - title: Socket
         url: bulb-socket.html
-  - name: Switches and Relays
+  - name: Curtains, Shutters and Shades
+    url: cover.html
+  - name: Dimmers and Switches
     url: switch.html
   - name: Lights and LEDs
     url: light.html
   - name: Plugs and Sockets
     url: plug.html
+  - name: In-Wall Dimmers and Switches
+    url: relay.html
   - name: Miscellaneous
     url: misc.html
   - name: Devices by Standard

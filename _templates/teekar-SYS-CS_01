@@ -7,7 +7,7 @@ template: '{"NAME":"Teekar-Tag","GPIO":[56,0,157,18,22,11,0,0,0,21,57,31,17],"FL
 link2: https://www.aliexpress.com/item/33050689492.html
 mlink: https://www.teekar.de/products/rolladen-zeitschaltuhr-3rd-gen
 flash: serial
-category: switch
+category: cover
 type: Curtain Switch
 standard: eu
 ---

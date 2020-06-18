@@ -1,6 +1,6 @@
 <div id="navigation" class="navigation">
 <ul class="navigation" id="navigation">
-<li>Devices by Type
+<!-- <li>Devices by Type -->
     {% assign cat = site.data.nav.toc %}
 {% for item in cat %}
     <li><a class="{% if page.url == item.url %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.name }}</a>
@@ -14,6 +14,7 @@
 {% endfor %}
 <li><a href="http://tasmota.com" target="_blank">Tasmota Documentation</a></li>
 </ul>
+<br>
 <div style="text-align: center; ">
     <a class="button button button-black" href="new.html">Add new template</a>
     <br>

@@ -8,7 +8,7 @@ link: https://www.amazon.com/Comidox-ESP8266-ESP-01S-Wireless-Controller/dp/B07K
 link2: https://www.aliexpress.com/item/32841996894.html
 mlink: https://www.banggood.com/ESP-01S-Relay-Module-WiFi-Smart-Remote-Switch-Phone-APP-DIY-Project-Design-p-1207932.html
 flash: serial
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

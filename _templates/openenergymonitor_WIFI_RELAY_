@@ -8,7 +8,7 @@ link: https://shop.openenergymonitor.com/wifi-mqtt-relay-thermostat/
 link2: 
 mlink: https://guide.openenergymonitor.org/integrations/mqtt-relay/
 flash: serial
-category: switch
+category: relay
 type: Relay
 standard: global
 ---
