@@ -8,7 +8,7 @@ link: https://www.banggood.com/BlitzWolf-BW-SS5-1-Gang2-Gang-Two-Way-10A-2300W-W
 link2: https://www.aliexpress.com/item/4000961260360.html
 mlink: https://www.blitzwolf.com/BlitzWolf-BW-SS5-1Gang2Gang-Two-Way-10A-2300W-WiFi-Smart-Switch-Module-with-APP--Manual-Control,-Automatic-Scenes,-Group-Control,-Timing-Switch-and-Voice-Control-p-479.html
 flash: serial
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

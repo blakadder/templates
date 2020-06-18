@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Switches and Dimmers
+title: Curtains, Shutters and Shades
 navigation: 23
 ---
 <h2>{{ page.title }}</h2>
 
 <!-- ######################################################################  -->
-{% assign category = site.templates | where: "category", "switch" %}
+{% assign category = site.templates | where: "category", "cover" %}
 {% assign type_group = category | group_by: 'type' %}
 {% assign type_grouped = type_group %}
 {% for group in type_grouped %}

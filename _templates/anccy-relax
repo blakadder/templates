@@ -7,7 +7,7 @@ template: '{"NAME":"Tuya Shutter","GPIO":[157,0,54,10,22,19,0,0,17,21,53,23,52],
 link2: 
 mlink: 
 flash: serial
-category: switch
+category: cover
 type: Curtain Switch
 standard: eu
 ---

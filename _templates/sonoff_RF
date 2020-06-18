@@ -1,6 +1,6 @@
 ---
 title: Sonoff RF
-category: switch
+category: relay
 type: Relay
 standard: global
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/rfr2

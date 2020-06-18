@@ -1,6 +1,6 @@
 ---
 date_added: 2020-02-03
-title: Homecube Blinds and Curtains
+title: Homecube 
 model: 
 image: https://user-images.githubusercontent.com/5904370/73696238-28d4b700-46dc-11ea-9142-f15f420768a8.png
 template: '{"NAME":"Jinvoo Curtain","GPIO":[52,0,0,18,22,19,0,0,17,21,0,23,0],"FLAG":1,"BASE":18}' 
@@ -8,7 +8,7 @@ link: https://www.amazon.de/Zeitschaltuhr-Homecube-Rolladenschalter-Jalousien-Fe
 link2: 
 mlink: 
 flash: tuya-convert
-category: switch
+category: cover
 type: Curtain Switch
 standard: eu
 ---

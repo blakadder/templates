@@ -8,7 +8,7 @@ link: https://www.bunnings.co.nz/deta-smart-inline-switch-with-grid-connect_p009
 link2: 
 mlink: 
 flash: tuya-convert
-category: switch
+category: relay
 type: Relay
 standard: au
 ---

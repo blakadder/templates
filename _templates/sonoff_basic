@@ -1,6 +1,6 @@
 ---
 title: Sonoff Basic
-category: switch
+category: relay
 type: Relay
 standard: global
 image: https://user-images.githubusercontent.com/5904370/57875590-99b50580-7813-11e9-86fa-73ce736467e6.png

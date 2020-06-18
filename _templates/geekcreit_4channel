@@ -8,7 +8,7 @@ link: https://www.banggood.com/5V-DIY-Four-Channel-Jog-Inching-Self-locking-WIFI
 link2: 
 mlink: http://www.raspberrypiwiki.com/index.php/5V-4_Jog_Switch
 flash: serial
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

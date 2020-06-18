@@ -7,7 +7,7 @@ template: '{"NAME":"L-5A01","GPIO":[17,255,0,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"
 link2: 
 mlink: 
 flash: serial
-category: Switch
+category: relay
 type: Relay
 standard: global
 ---

@@ -1,6 +1,6 @@
 ---
 title: Sonoff TH10/TH16
-category: switch
+category: relay
 type: Relay
 standard: global
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/th10-th16

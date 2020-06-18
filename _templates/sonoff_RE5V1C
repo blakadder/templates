@@ -2,7 +2,7 @@
 date_added: 2019-10-13
 title: Sonoff 5V Inching/Selflock Module RE5V1C
 model: IM171018005
-category: switch
+category: relay
 type: Relay
 standard: global
 mlink: https://www.itead.cc/sonoff-re5v1c.html

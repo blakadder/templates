@@ -8,7 +8,7 @@ link: https://www.amazon.com/Shelly-Smart-Energy-Monitor-Consumption/dp/B07ZHLP7
 link2: https://www.amazon.de/Shelly-EM-Single-Phase/dp/B07ZHLN63D/
 mlink: https://shelly.cloud/shelly-energy-meter-with-contactor-control-wifi-smart-home-automation/
 flash: serial
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

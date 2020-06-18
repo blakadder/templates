@@ -2,7 +2,7 @@
 date_added: 2020-02-08
 title: DoHome HomeKit DIY Switch
 model: 
-category: switch
+category: relay
 type: Relay
 standard: global
 link: https://www.aliexpress.com/item/4000340622497.html

@@ -8,7 +8,7 @@ link: https://www.aliexpress.com/item/32972771989.html
 link2: https://allegro.pl/oferta/modul-przekaznika-sterowanego-przez-wifi-esp8266-8255295689
 mlink: 
 flash: serial
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

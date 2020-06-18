@@ -8,7 +8,7 @@ link: https://smile.amazon.com/gp/product/B07XLJM7PB/
 link2: 
 mlink: 
 flash: serial
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

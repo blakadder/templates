@@ -1,6 +1,6 @@
 ---
 title: Shelly 2
-category: switch
+category: relay
 type: Relay
 standard: global
 link: 

@@ -7,7 +7,7 @@ template: '{"NAME":"Splatura USB","GPIO":[0,0,52,0,0,0,0,0,0,21,0,122,0],"FLAG":
 link2: 
 mlink: 
 flash: serial
-category: misc
+category: relay
 type: DIY
 standard: global
 ---
