@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Relays
+title: In-Wall Dimmers and Switches
 ---
 <h2>{{ page.title }}</h2>
 
 <!-- ######################################################################  -->
-{% assign category = site.templates | where: "category", "relay" %}
-{% assign type_group = category | group_by: 'type' %}
+{% assign category = site.templates | where: "category", "relay" | sort_natural: 'type' %}
+{% assign type_group = category | group_by: 'type'   %}
 {% assign type_grouped = type_group %}
 {% for group in type_grouped %}
 <BR>

@@ -6,8 +6,8 @@ navigation: 24
 <h2>{{ page.title }}</h2>
 
 <!-- ######################################################################  -->
-{% assign category = site.templates | where: "category", "misc" %}
-{% assign type_group = category | group_by: 'type' | sort: 'type' %}
+{% assign category = site.templates | where: "category", "misc"  | sort_natural: 'type' %}
+{% assign type_group = category | group_by: 'type' %}
 {% assign type_grouped = type_group | sort: 'name' %}
 {% for group in type_grouped %}
 <BR>

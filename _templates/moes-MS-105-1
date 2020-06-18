@@ -8,7 +8,7 @@ template: '{"NAME":"MS-105","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BAS
 link2: 
 mlink: https://www.moeshouse.com/products/diy-smart-wifi-light-led-dimmer-switch-smart-life-tuya-app-remote-control-1-2-way-switch-works-with-alexa-echo-google-home-1
 flash: tuya-convert
-category: switch
+category: relay
 type: Dimmer
 standard: global
 ---

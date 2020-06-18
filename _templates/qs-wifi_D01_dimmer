@@ -1,7 +1,7 @@
 ---
 date_added: 2019-12-06
 title: QS-WiFi-D01-TRIAC 150W
-category: switch
+category: relay
 type: Dimmer
 standard: global
 mlink: http://www.aihomestyle.com/content/170.html

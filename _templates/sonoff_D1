@@ -2,7 +2,7 @@
 date_added: 2020-03-06
 title: Sonoff D1
 modeL: SONOFFD1
-category: switch
+category: relay
 type: Dimmer
 standard: global
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/d1-smart-dimmer-switch
