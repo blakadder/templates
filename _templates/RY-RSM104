@@ -13,3 +13,4 @@ type: Switch
 standard: au
 ---
 This is an MCU based device (https://tasmota.github.io/docs/TuyaMCU-Devices/)
+If you device is more than one gang, you will have to set up the additional relays from the devices web console once the device is flashed. (https://tasmota.github.io/docs/TuyaMCU/#switches)
