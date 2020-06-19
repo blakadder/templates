@@ -31,7 +31,7 @@ Watches dpID 10 and triggers if the value is not 0x00.
 
 ```yaml{% raw %}
 binary_sensor:
-    - platform: mqtt
+  - platform: mqtt
     name: "Zemismart Motor Error"
     state_topic: "tele/%topic%/RESULT"
     device_class: problem
@@ -45,4 +45,24 @@ binary_sensor:
         {% else %}
         OFF
         {% endif %}{% endraw %}
+```
+  
+Change {{topic}} to match yours:
+```yaml{% raw %}
+cover:
+  - platform: mqtt
+    name: "Zemismart M515EGB"
+    command_topic: "cmnd/{{topic}}/TuyaSend4"
+    payload_open: "1,0"
+    payload_close: "1,2"
+    payload_stop: "1,1"
+    position_open: 100
+    position_closed: 0
+    position_topic: "stat/{{topic}}/position"
+    set_position_topic: "cmnd/{{topic}}/TuyaSend2"
+    set_position_template: '2,{{ position }}'
+    availability_topic: "tele/{{topic}}/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    optimistic: true{% endraw %}
 ```
