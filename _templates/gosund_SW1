@@ -3,7 +3,7 @@ date_added: 2020-02-24
 title: Gosund SW1
 model: SW1
 image: /assets/images/gosund_SW1.jpg
-template: '{"NAME":"Gosund SW1","GPIO":[17,0,57,0,0,0,0,0,0,0,21,0,57],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Gosund SW1","GPIO":[17,0,57,0,0,0,0,0,0,0,21,0,56],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07MV1RTSV/
 link2: 
 mlink: https://www.gosund.com/download/smart_switch/136.html
