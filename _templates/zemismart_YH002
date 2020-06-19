@@ -1,5 +1,5 @@
 ---
-date_added: 2020-06-19
+date_added: 2020-06-20
 title: Zemismart Blinds Controller
 model: YH002
 image: /assets/images/zemismart_YH002.jpg
@@ -16,17 +16,25 @@ standard: global
 
 Feedback is sent on dpId 3 while the position is controlled using dpId 2. To have both do the following:
 
-`TuyaMCU 21,3`
+`TuyaMCU 21,3` maps the position status to dimmer
 
 ```console
 Rule1 ON Dimmer#State DO TuyaSend2 2,%value% ENDON
 ```
 
-Enable the rule with `Rule1 1`
+Enable the rule with `Rule1 1`. The rule watches for dimmer commands and forwards them to dpId 2 which controls position.
 
 This setup might create some micromovements on reboot or same value dimmer commands!
 
-### Home Assistant
+## Functions
+`dpID 1` motor control: `0 = open / 1 = stop / 2 = close / 3 = continue`    
+`dpID 2` set position: `0 .. 100`    
+`dpID 3` current position: `0 .. 100`   *report only    
+`dpID 5` set motor direction: `0 = forward / 1 = back`      
+`dpID 7` working state: `0 = opening / 1 = closing` *report only, only appears when using remote   
+`dpID 10` error notification: 0x00 = ok / ??? = error`  *report only
+
+## Home Assistant
 
 Error sensor:
 
@@ -37,7 +45,6 @@ binary_sensor:
     name: "Zemismart Motor Error"
     state_topic: "tele/%topic%/RESULT"
     device_class: problem
-    payload_off: "00"
     value_template: >-
         {% if value_json.TuyaReceived.DpType5Id10 is defined %}      
             {% if value_json.TuyaReceived.DpType5Id10  == '0x00' %}      

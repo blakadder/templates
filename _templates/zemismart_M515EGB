@@ -1,6 +1,6 @@
 ---
-date_added: 2020-06-19
-title: Zemismart Roller Shade Chain
+date_added: 2020-06-20
+title: Zemismart Updated RF Remote Roller Shade
 model: M515EGB
 image: /assets/images/zemismart_M515EGB.jpg
 template: '{"NAME":"Zemismart M515EGB","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
@@ -12,32 +12,29 @@ category: cover
 type: Motor
 standard: global
 ---
-`TuyaMCU 11,7` to move the relay to an uncontrollable dpId. WebUI toggle will have no effect.
+`TuyaMCU 21,2` maps the position command and status to Dimmer
 
-Feedback is sent on dpId 3 while the position is controlled using dpId 2. To have both do the following:
+`TuyaMCU 11,7` to move the relay to an uncontrollable dpId. WebUI toggle will have no effect anymore.
 
-`TuyaMCU 21,3`
+## Functions
+`dpID 1` motor control: `0 = open / 1 = stop / 2 = close / 3 = continue`    
+`dpID 2` set position: `0 .. 100`    
+`dpID 5` set motor direction: `0 = forward / 1 = back`      
+`dpID 7` working state: `0 = opening / 1 = closing` *report only, only appears when using remote   
+`dpID 10` error notification: 0x00 = ok / ??? = error`  *report only
 
-```console
-Rule1 ON Dimmer#State DO TuyaSend2 2,%value% ENDON
-```
-
-Enable the rule with `Rule1 1`
-
-This setup might create some micromovements on reboot or same value dimmer commands!
-
-### Home Assistant
+## Home Assistant
 
 Error sensor:
 
 Watches dpID 10 and triggers if the value is not 0x00.
+
 ```yaml{% raw %}
 binary_sensor:
     - platform: mqtt
     name: "Zemismart Motor Error"
     state_topic: "tele/%topic%/RESULT"
     device_class: problem
-    payload_off: "00"
     value_template: >-
         {% if value_json.TuyaReceived.DpType5Id10 is defined %}      
             {% if value_json.TuyaReceived.DpType5Id10  == '0x00' %}      
