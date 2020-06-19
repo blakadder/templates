@@ -1,16 +1,14 @@
 ---
-date_added: 2020-01-30
+date_added: 2020-06-20
 title: KMC 30137
 model: 
 image: https://user-images.githubusercontent.com/5904370/73432609-64215f80-4343-11ea-88ba-e730ae4c73dc.png
-template: '{"NAME":"KMC 30137","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07QPZ5WMW/
 link2: https://www.amazon.ca/Avalanche-Anti-Snoring-Devices-Solutions/dp/B07GPBS2B2
 mlink: 
-flash: tuya-convert
-category: plug
+flash: RDA5981
+category: unsupported
 type: Plug
-standard: us
 ---
 
 ## Unsupported Hardware Revision

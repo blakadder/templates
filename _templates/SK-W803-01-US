@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-19
+title: SK-W803-01-US 3 Gang
+model: 
+image: /assets/images/SK-W803-01-US.jpg
+template: '{"NAME":"jsankou US Switch 3 Gang","GPIO":[157,0,0,18,30,19,0,0,17,29,0,31,0],"FLAG":0,"BASE":18}' 
+link: https://www.alibaba.com/product-detail/CNSKOU-US-Standard-3-Gang-App_62219318814.html
+link2: 
+mlink: http://www.jsankou.com/show/46/263.html
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---

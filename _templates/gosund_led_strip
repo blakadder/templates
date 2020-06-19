@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-18
+title: Gosund 2.8m RGB
+model: 
+image: /assets/images/gosund_led_strip.jpg
+template: '{"NAME":"Gosund LED Strip","GPIO":[17,0,0,0,0,0,0,0,37,39,38,0,0],"FLAG":3,"BASE":18}' 
+link: https://www.amazon.de/Gosund-Backlight-Controllable-Compatible-Assistant/dp/B085L2M9N8/
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: global
+---
