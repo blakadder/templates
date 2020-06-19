@@ -21,7 +21,7 @@ standard: global
 `dpID 2` set position: `0 .. 100`    
 `dpID 5` set motor direction: `0 = forward / 1 = back`      
 `dpID 7` working state: `0 = opening / 1 = closing` *report only, only appears when using remote   
-`dpID 10` error notification: 0x00 = ok / ??? = error`  *report only
+`dpID 10` error notification: `0x00` = ok / ??? = error`  *report only
 
 ## Home Assistant
 
@@ -31,7 +31,7 @@ Watches dpID 10 and triggers if the value is not 0x00.
 
 ```yaml{% raw %}
 binary_sensor:
-    - platform: mqtt
+  - platform: mqtt
     name: "Zemismart Motor Error"
     state_topic: "tele/%topic%/RESULT"
     device_class: problem
