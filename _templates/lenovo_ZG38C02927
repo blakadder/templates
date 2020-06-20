@@ -31,9 +31,9 @@ Change device to a TuyaMCU module (or apply the provided template, result is the
 ```console
 Module 54
 ```
-Disable multipress button options to prevent a device reset or Wi-Fi AP config mode, disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and set switchmode to follow instead of toggle
+Disable multipress button options to prevent a device reset or Wi-Fi AP config mode, disable Power Cycle recovery, turn off bootloop protection, turn off sending superfluous MQTT
 ```console
-Backlog SetOption1 1; SetOption65 1; SetOption36 0
+Backlog SetOption1 1; SetOption65 1; SetOption36 0; SetOption90 1
 ```
 
 Switch the device to battery powered sensor mode (fnId 51):
