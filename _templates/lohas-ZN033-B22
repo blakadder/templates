@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-19
+title: Lohas ZN033 9W 810lm
+model: LH-ZNB22-001-9W
+image: /assets/images/lohas-ZN033-B22.jpg
+template: '{"NAME":"Lohas RGBCW","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B074QMDDBD/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: b22
+---

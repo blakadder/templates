@@ -1,0 +1,19 @@
+---
+date_added: 2020-06-21
+title: SCS86-03AJAI 
+model: SCS86-03AJAI
+image: /assets/images/SCS86-03AJAI.jpg
+template: '{"NAME":"ESE86-03AJAI","GPIO":[157,0,58,18,22,19,0,0,17,21,57,23,56],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000682562601.html
+link2: https://www.aliexpress.com/item/4000522916497.html
+link3: https://www.aliexpress.com/item/4000973142468.html
+mlink: 
+flash: tuya-convert
+category: cover
+type: Curtain Switch
+standard: [eu, il]
+---
+
+Comes as whitelabel or branded as Moes, Avatto and Zemismart
+
+![](/assets/images/SCS86-03AJAI-label.jpg)
