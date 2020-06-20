@@ -1,13 +1,13 @@
 ---
 date_added: 2020-06-20
-title: Technical Pro FXA16
+title: Technical Pro FXA16 Fan
 category: misc
 type: Fan
 standard: us
 flash: tuya-convert
 image: https://images-na.ssl-images-amazon.com/images/I/717PZvfnhWL._AC_SL1500_.jpg
 template: '{"NAME":"FXA16 Fan","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
-link: https://smile.amazon.com/Technical-Pro-Standing-Oscillating-Compatible/dp/B07RM6XQ4L
+link: https://www.amazon.com/Technical-Pro-Standing-Oscillating-Compatible/dp/B07RM6XQ4L
 ---
 
 1. Install Tasmota Version 7+.
