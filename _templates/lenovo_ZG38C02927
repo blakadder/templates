@@ -19,7 +19,7 @@ Warning: Wi-Fi sensors still have a slow response time compared to always on wir
 Identified with MCU Product ID: `{"p":"105awlczxldrrpfc","v":"1.0.0"}`
 
 ## Flashing
-To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk.
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk. Tuya-Convert was not possible due to new PSK used.
 
 Flash using the TYWE3S pins but make sure the battery is disconnected and the power button is in the off position. After flashing you need to disconnect power from the serial-to-USB adapter and reconnect the battery and power the sensor with it.
 
@@ -48,7 +48,9 @@ Check with `TuyaMCU` for the following configuration:
 ## Functions
 When it detects motion it boots up Tasmota then puts the PIR sensor in non-detect mode for around 30 seconds which means there will be no motion triggers during that time.
 
-With a static IP set it takes under 4 seconds to register motion. It is recommended to set PIR in your home automation solution as activated on LWT online message and deactivated on LWT offline message or after some time. Do not enable `SetOption66` to make boot time as fast as possible.
+With a static IP set it takes under 4 seconds to send first MQTT message (`00:00:03 MQT: tele/motion/LWT = Online (retained)`). It is recommended to set PIR in your home automation solution as activated on LWT online message and deactivated on LWT offline message or after some time. Do not enable `SetOption66` to make boot time as fast as possible.
+
+
 
 It sends motion detected status on `{"TuyaReceived":{"Data":"55AA0005000501040001000F","Cmnd":5,"CmndData":"0104000100"}}` but not reliably. Waiting for that message to be transmitted takes a second or two longer and sometimes never happens. 
 
