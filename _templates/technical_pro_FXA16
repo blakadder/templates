@@ -1,0 +1,48 @@
+---
+date_added: 2020-06-20
+title: Technical Pro FXA16
+category: misc
+type: Fan
+standard: us
+flash: tuya-convert
+image: https://images-na.ssl-images-amazon.com/images/I/717PZvfnhWL._AC_SL1500_.jpg
+template: '{"NAME":"FXA16 Fan","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
+link: https://www.amazon.com/Technical-Pro-Standing-Oscillating-Compatible/dp/B07RM6XQ4L
+---
+
+1. Install Tasmota Version 7+.
+1. Run the command `TuyaMCU 12,8`
+1. Run the command 
+
+```console
+Rule1 on TuyaReceived#Data=55AA00070005020400010012 do publish2 stat/fxa16fan/speed 2,0 endon on TuyaReceived#Data=55AA00070005020400010113 do publish2 stat/fxa16fan/speed 2,1 endon on TuyaReceived#Data=55AA00070005020400010214 do publish2 stat/fxa16fan/speed 2,2 endon
+Rule1 1
+```
+
+1. Add the following to Home Assistant to your FAN section:
+
+```yaml
+- platform: mqtt
+  name: "Flat Bedroom Fan"
+  state_topic: "stat/fxa16fan/POWER1"
+  command_topic: "cmnd/fxa16fan/POWER1"
+  oscillation_state_topic: "stat/fxa16fan/POWER2"
+  oscillation_command_topic: "cmnd/fxa16fan/POWER2"
+  speed_state_topic: "stat/fxa16fan/speed"
+  speed_command_topic: "cmnd/fxa16fan/TuyaSend4"
+  qos: 0
+  payload_on: 'ON'
+  payload_off: 'OFF'
+  payload_oscillation_on: 'ON'
+  payload_oscillation_off: 'OFF'
+  payload_low_speed: '2,0'
+  payload_medium_speed: '2,1'
+  payload_high_speed: '2,2'
+  availability_topic: tele/fxa16fan/LWT
+  payload_available: Online
+  payload_not_available: Offline
+  speeds:
+    - low
+    - medium
+    - high
+```    
