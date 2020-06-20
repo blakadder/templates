@@ -27,7 +27,7 @@ standard: global
 
 Error sensor:
 
-Watches dpID 10 and triggers if the value is not 0x00.
+Watches dpID 10 and triggers if the value is not 0x00. Requires `SetOption66 1`.
 
 ```yaml{% raw %}
 binary_sensor:

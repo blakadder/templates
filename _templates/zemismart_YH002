@@ -14,17 +14,17 @@ standard: global
 ---
 `TuyaMCU 11,7` to move the relay to an uncontrollable dpId. WebUI toggle will have no effect.
 
-Feedback is sent on dpId 3 while the position is controlled using dpId 2. To have both do the following:
+`TuyaMCU 21,2` maps the position command to dimmer, will not update position state on its own without the following rule.
 
-`TuyaMCU 21,3` maps the position status to dimmer
+Feedback is sent on dpId 3 while the position is controlled using dpId 2. To have regular dimmer updates use:
 
 ```console
-Rule1 ON Dimmer#State DO TuyaSend2 2,%value% ENDON
+Rule1 ON TuyaReceived#DpType2Id3 DO Dimmer %value% ENDON
 ```
 
-Enable the rule with `Rule1 1`. The rule watches for dimmer commands and forwards them to dpId 2 which controls position.
+Enable the rule with `Rule1 1`. The rule watches dimmer status dpId and forwards them to Dimmer command.
 
-This setup might create some micromovements on reboot or same value dimmer commands!
+This setup might create some micromovements on reboot or certain value dimmer commands due to difference in how the MCU calculates position value!
 
 ## Functions
 `dpID 1` motor control: `0 = open / 1 = stop / 2 = close / 3 = continue`    
@@ -38,7 +38,8 @@ This setup might create some micromovements on reboot or same value dimmer comma
 
 Error sensor:
 
-Watches dpID 10 and triggers if the value is not 0x00.
+Watches dpID 10 and triggers if the value is not 0x00. Requires `SetOption66 1`.
+
 ```yaml{% raw %}
 binary_sensor:
   - platform: mqtt
