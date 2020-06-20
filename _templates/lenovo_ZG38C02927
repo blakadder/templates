@@ -1,0 +1,68 @@
+---
+date_added: 2020-06-21
+title: Lenovo Rechargable PIR Motion
+model: ZG38C02927
+image: /assets/images/lenovo_ZG38C02927.jpg
+template: '{"NAME":"Lenovo PIR","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4001022480011.html
+link2: https://www.jbhifi.com.au/products/lenovo-smart-motion-sensor
+mlink: 
+flash: serial
+category: misc
+type: Sensor
+standard: global
+---
+I bought this sensor off AliExpress, it came with a sticker hiding the Lenovo branding. 
+
+Warning: Wi-Fi sensors still have a slow response time compared to always on wired or zigbee ones. This will not work in critical locations where a fast response is needed. This sensor has the benefit of being rechargeable.
+
+Identified with MCU Product ID: `{"p":"105awlczxldrrpfc","v":"1.0.0"}`
+
+## Flashing
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk.
+
+Flash using the TYWE3S pins but make sure the battery is disconnected and the power button is in the off position. After flashing you need to disconnect power from the serial-to-USB adapter and reconnect the battery and power the sensor with it.
+
+![](/assets/images/lenovo_ZG38C02927_soldering.jpg)
+
+## Configuration
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+Disable multipress button options to prevent a device reset or Wi-Fi AP config mode, disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and set switchmode to follow instead of toggle
+```console
+Backlog SetOption1 1; SetOption65 1; SetOption36 0
+```
+
+Switch the device to battery powered sensor mode (fnId 51):
+```console
+TuyaMCU 51,51
+```
+Check with `TuyaMCU` for the following configuration:
+```json
+ {"TuyaMCU":[{"fnId":11,"dpId":1},{"fnId":51,"dpId":21}]}
+```
+
+## Functions
+When it detects motion it boots up Tasmota then puts the PIR sensor in non-detect mode for around 30 seconds which means there will be no motion triggers during that time.
+
+With a static IP set it takes under 4 seconds to register motion. It is recommended to set PIR in your home automation solution as activated on LWT online message and deactivated on LWT offline message or after some time. Do not enable `SetOption66` to make boot time as fast as possible.
+
+It sends motion detected status on `{"TuyaReceived":{"Data":"55AA0005000501040001000F","Cmnd":5,"CmndData":"0104000100"}}` but not reliably. Waiting for that message to be transmitted takes a second or two longer and sometimes never happens. 
+
+Sensor never sends the battery status message while in regular working mode. It is not transmitted when in detection mode so there is no realistic way to read battery data.
+
+```json
+{"TuyaReceived":{"Data":"55AA00050005030400010213","Cmnd":5,"CmndData":"0304000102"}}
+```
+
+Device can get stuck in start-up mode, usually happens after powering on with power button or messing with reset button too much. The red LED will be on constantly and the battery status message from dpId 3 will appear in console in short intervals. To exit that mode and enter detection mode send `SerialSend5 55AA000200010002`.
+
+You can try using a rule that will send the command whenever the battery message is sent:
+```console
+Rule1 on TuyaReceived#CmndData=0304000102 do serialsend5 55AA000200010002 endon on TuyaReceived#CmndData=0304000101 do serialsend5 55AA000200010002 endon
+```
+
+The rule will not trigger when battery status is low (00) so you will know to change batteries if it gets struck in that mode.
