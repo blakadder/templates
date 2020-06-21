@@ -4,16 +4,9 @@ title: Solimo 12W
 type: RGBW
 category: bulb
 standard: b22
-link: https://www.amazon.in/gp/product/B07R2YF1R1
-image: https://user-images.githubusercontent.com/5904370/67141457-2865fc80-f262-11e9-9388-8435ab922410.png
-template: '{"NAME":"Solimo RGBWW12","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.in/dp/B07R2YF1R1/
+image: /assets/images/
+template: '{"NAME":"Solimo RGBCCT 12","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
-Tuya Convert 2.0 Worked after a few tries. RGB + Cool White + Warm White work well.
-
-
-
-
-
 

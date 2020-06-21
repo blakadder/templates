@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-20
+title: YM-WS-3 16A
+model: 2ALRJYM-WS-3
+image: /assets/images/YM-WS-3.jpg
+template: '{"NAME":"YM-WS-3","GPIO":[0,17,0,0,0,0,0,0,0,52,21,0,158],"FLAG":1,"BASE":18}' 
+link: https://www.amazon.ca/dp/B074WZ7M84
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

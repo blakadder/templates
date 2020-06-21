@@ -1,0 +1,54 @@
+---
+date_added: 2020-06-21
+title: Elfeland 10m RGB
+model: EL-WSL-001
+image: /assets/images/elfeland_EL-WSL-001.jpg
+template: '{"NAME":"Elfeland RGB","GPIO":[0,0,0,0,0,38,0,0,39,51,0,37,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07RZ4N4H9/
+link2: https://www.amazon.com/Elfeland-Changing-Assistant-Controlled-Waterproof/dp/B07QN32BLT
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: global
+---
+
+Rules for remote
+
+```console
+Rule1
+ON IrReceived#Data=0x00F740BF do power off ENDON
+ON IrReceived#Data=0x00F7C03F do power on ENDON
+ON IrReceived#Data=0x00F700FF do dimmer + ENDON
+ON IrReceived#Data=0x00F7807F do dimmer - ENDON
+ON IrReceived#Data=0x00F720DF do color2 ff0000 ENDON
+ON IrReceived#Data=0x00F7A05F do color2 00ff00 ENDON
+ON IrReceived#Data=0x00F7609F do color2 0000ff ENDON
+```
+
+```console
+Rule2
+ON IrReceived#Data=0x00F710EF do color2 ff5000 ENDON
+ON IrReceived#Data=0x00F7906F do color2 aeff00 ENDON
+ON IrReceived#Data=0x00F750AF do color2 0077ff ENDON
+ON IrReceived#Data=0x00F730CF do color2 f2ba41 ENDON
+ON IrReceived#Data=0x00F7B04F do color2 41e3f2 ENDON
+ON IrReceived#Data=0x00F7708F do color2 a80355 ENDON
+ON IrReceived#Data=0x00F708F7 do color2 fcce62 ENDON
+ON IrReceived#Data=0x00F78877 do color2 25a9c4 ENDON
+ON IrReceived#Data=0x00F748B7 do color2 c4254a ENDON
+```
+
+```console
+Rule3
+ON IrReceived#Data=0x00F728D7 do color2 fcfc05 ENDON
+ON IrReceived#Data=0x00F7A857 do color2 2d7c93 ENDON
+ON IrReceived#Data=0x00F76897 do color2 fc5582 ENDON
+ON IrReceived#Data=0x00F7E01F do color2 ffffff ENDON
+ON IrReceived#Data=0x00F7E817 do scheme 2 ENDON
+ON IrReceived#Data=0x00F7C837 do scheme 3 ENDON
+ON IrReceived#Data=0x00F7F00F do scheme 4 ENDON
+ON IrReceived#Data=0x00F7D02F do Power 3 ENDON
+```
+
+`Backlog Rule1 1; Rule2 1; Rule3 1`
