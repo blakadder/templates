@@ -20,9 +20,11 @@ TuyaMCU 12,102
 3. Set up rule
 ```console
 Rule1 on TuyaReceived#Data=55AA00070005020400010012 do publish2 stat/flatbedfan/speed 2,0 endon on TuyaReceived#Data=55AA00070005020400010113 do publish2 stat/flatbedfan/speed 2,1 endon on TuyaReceived#Data=55AA00070005020400010214 do publish2 stat/flatbedfan/speed 2,2 endon
-Rule1 1
 ```
+Enable rule with `Rule1 1`
+
 4. Add the following to Home Assistant to your `fan` section
+
 ```yaml
 - platform: mqtt
   name: "Flat Bedroom Fan"
@@ -46,7 +48,9 @@ Rule1 1
     - medium
     - high
 ```
+
 5. Add the following to Home Assistant to your `light` section (if required):
+
 ```yaml
 - platform: mqtt
   name: "Flat Bedroom Light"
