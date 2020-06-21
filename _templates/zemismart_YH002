@@ -36,24 +36,4 @@ This setup might create some micromovements on reboot or certain value dimmer co
 
 ## Home Assistant
 
-Error sensor:
-
-Watches dpID 10 and triggers if the value is not 0x00. Requires `SetOption66 1`.
-
-```yaml{% raw %}
-binary_sensor:
-  - platform: mqtt
-    name: "Zemismart Motor Error"
-    state_topic: "tele/%topic%/RESULT"
-    device_class: problem
-    value_template: >-
-        {% if value_json.TuyaReceived.DpType5Id10 is defined %}      
-            {% if value_json.TuyaReceived.DpType5Id10  == '0x00' %}      
-            OFF
-            {% else %}
-            ON
-            {% endif %}
-        {% else %}
-        OFF
-        {% endif %}{% endraw %}
-```
+[Multiple ways to configure](https://blakadder.com/tuya-covers/)
