@@ -15,5 +15,11 @@ Enter `TuyaMCU 21,2`
 
 (In some cases it is `TuyaMCU 21,3`)
 
+Alternatively
+```console
+TinyMCU 21,22
+TinyMCU 11,20
+DimmerRange 10,1000
+```
 
 Bought from Costco in Ontario.  Flashed OTA with Tuya Convert method (2019-09-18) - Device date code on the outer package was 10-2018
