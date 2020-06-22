@@ -17,8 +17,8 @@ Enter `TuyaMCU 21,2`
 
 Alternatively
 ```console
-TinyMCU 21,22
-TinyMCU 11,20
+TuyaMCU 21,22
+TuyaMCU 11,20
 DimmerRange 10,1000
 ```
 
