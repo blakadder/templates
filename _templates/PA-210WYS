@@ -20,6 +20,7 @@ Identified with MCU Product ID: `{"p":"sclatjo1jqscmwwe","v":"1.0.0","m":0}`.
 `dpID 16` mute sound: 0 = nothing / 1 = mutes currently playing sound     
 
 Sensor uses the built in speaker as an alarm and to play an array of voice prompts following almost every action:
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ifXAMrs1OPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The speaker and onboard led are controlled by the MCU and there is no way to control them by software.
