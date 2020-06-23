@@ -5,6 +5,7 @@ model: PA-210WYS
 category: misc
 type: Sensor
 standard: global
+flash: tuya-convert
 image: /assets/images/PA-210WYS.jpg
 template: '{"NAME":"PA-210WYS","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4001057961462.html
