@@ -6,8 +6,8 @@ type: Light
 standard: eu
 link: https://www.amazon.de/gp/product/B07G35GN5R
 image: https://images-na.ssl-images-amazon.com/images/I/516gJHfnY6L._SL1001_.jpg
-template: '{"NAME":"Teckin FL41","GPIO":[0,0,0,0,0,17,0,0,0,0,21,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Teckin FL41","GPIO":[0,0,0,0,0,17,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
 link2: https://fccid.io/2AQNX-FL41
 ---
 
-with tuya firmware, it supports dimming. if anyone can help, pls contact m(minus)are(at)gmx(dot)de
+
