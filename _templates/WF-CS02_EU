@@ -21,13 +21,17 @@ ShutterRelay1 1 # Enable shutter relay 1
 
 Backlog PulseTime1 0; PulseTime2 0 # ShutterMode0
 
-Backlog Interlock 1,2; Interlock ON
+Backlog Interlock 1,2,3; Interlock ON
 
 PowerRetain 1 # Save state for Home Assistant
 
 Rule1 on Power3#State=1 do backlog ShutterStop1; Power3 0 endon # Use the middle button for stopping shutter movement
 
 Rule1 1
+
+Rule2 on Power1#State=0 do LEDPower1 0 endon on Power1#State=1 do LEDPower1 1 endon on Power2#State=0 do LEDPower2 0 endon on Power2#State=1 do LEDPower2 1 endon on Power3#State=0 do LEDPower3 0 endon on Power3#State=1 do LEDPower3 1 endon # Giving color on button press
+
+Rule2 1
 
 WebButton3 ■ # Set stop symbol for the third button in the web GUI
 
