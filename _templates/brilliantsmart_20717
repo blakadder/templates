@@ -1,9 +1,9 @@
 ---
 date_added: 2020-01-27
-title: Brilliant CORDIA Colour Temperature Changing LED Flush Ceiling Light
+title: BrilliantSmart Cordia 24W CCT Ceiling
 model: 20717/05
-image: https://user-images.githubusercontent.com/5904370/73174586-6481e680-4108-11ea-8634-eea73cea300c.png
-template: '{"NAME":"Brilliant Oyst","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
+image: /assets/images/brilliantsmart_20717.jpg
+template: '{"NAME":"Cordia","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.jdlighting.com.au/brilliant-smart-cordia-24w-led-cct-dimmable-oyster-light.html
 link2: 
 mlink: https://www.brilliantsmart.com.au/smart-products/lighting/smart-cordia/
