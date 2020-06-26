@@ -10,7 +10,11 @@ template: '{"NAME":"WIPROBatten","GPIO":[0,0,0,0,0,37,0,0,0,47,0,0,0],"FLAG":1,"
 link2: 
 ---
 
-Lots of JSON. Temperature & brightness control only using channels.
+L̶o̶t̶s̶ ̶o̶f̶ ̶J̶S̶O̶N̶.̶ ̶T̶e̶m̶p̶e̶r̶a̶t̶u̶r̶e̶ ̶&̶ ̶b̶r̶i̶g̶h̶t̶n̶e̶s̶s̶ ̶c̶o̶n̶t̶r̶o̶l̶ ̶o̶n̶l̶y̶ ̶u̶s̶i̶n̶g̶ ̶c̶h̶a̶n̶n̶e̶l̶s̶.̶ JSON temp calc no longer required. Use setoption92
+
+Update to Tasmota v.8.2.0.5 or later
+
+`SetOption92 on`  -  use PWM1 for brightness and PWM2 for color temperature (instead of PWM1 for Cold White and PWM2 for Warm White)
 
 `SetOption17 on`
 
@@ -21,23 +25,22 @@ Example Hass config:
 ```
 - platform: mqtt
   name: "Wipro Smart batten"
-  command_topic: "cmnd/wipro1/power"
-  state_topic: "tele/wipro1/STATE"
-  state_value_template: "{{value_json.POWER}}"
-  brightness_command_topic: "cmnd/wipro1/Channel1"
-  brightness_state_topic: "tele/wipro1/STATE"
+  command_topic: "cmnd/wipro2/POWER"
+  state_topic: "tele/wipro2/STATE"
+  state_value_template: "{{ value_json.POWER }}"
+  brightness_command_topic: "cmnd/wipro2/Dimmer"
+  brightness_state_topic: "tele/wipro2/STATE"
   brightness_scale: 100
-  brightness_value_template: "{{value_json.Channel[0]}}"
+  brightness_value_template: "{{ value_json.Dommer }}"
   on_command_type: "brightness"
   qos: 1
   payload_on: "ON"
   payload_off: "OFF"
-  availability_topic: "tele/wipro1/LWT"
+  availability_topic: "tele/wipro2/LWT"
   payload_available: "Online"
   payload_not_available: "Offline"
-  color_temp_command_topic: "cmnd/wipro1/Channel2"
-  color_temp_command_template: "{{ ((value - 154) | int * 100 | int / 345 | int + 2) |int }}"
-  color_temp_state_topic: tele/wipro1/STATE
-  color_temp_value_template: "{{ ((value_json.Channel[1]) | int * 345 | int / 100 | int + 154) |int }}"
+  color_temp_command_topic: "cmnd/wipro2/CT"
+  color_temp_state_topic: "tele/wipro2/STATE"
+  color_temp_value_template: "{{ value_json.CT }}"
 ```
 {% endraw %}
