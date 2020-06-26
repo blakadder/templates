@@ -41,7 +41,7 @@ Module 54
 
 Set the following configuration:
 ```json
-Backlog TuyaMCU 11,1; TuyaMCU 12,16
+Backlog TuyaMCU 11,1; TuyaMCU 12,16; TuyaMCU 51,51
 ```
 
 ## Functions
@@ -60,3 +60,5 @@ Label webUI buttons
 ```console
 Backlog WebButton1 Gas; WebButton2 Mute
 ```
+
+<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>
