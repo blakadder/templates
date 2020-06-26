@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-25
+title: qnect 16A
+model: QN-WP01E
+image: /assets/images/qnect_QN-WP01E.jpg
+template: '{"NAME":"QNECT QN-WP01E","GPIO":[0,0,0,17,133,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bol.com/nl/p/qnect-slimme-stekker-wi-fi-2-4ghz-16a-max-3600w-met-energiemeter-werkt-met-google-home-amazon-alexa/9200000126708531/
+link2: 
+mlink: https://www.qnecthome.com/en/products/qn-wp01e
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
