@@ -12,9 +12,12 @@ category: misc
 type: Bluetooth Bridge
 standard: au
 ---
-1. Initially pair the hub using the Tuya app
+1. Initially pair the hub and all sensors using the Tuya app
 2. Flash the hub using a serial connection to the TYWE3S module with a standard Tasmota Image.
 3. Set up MQTT
+
+# Method 1 - Just BLE Data
+
 4. Go to the console and issue these commands:
 
 ```
@@ -40,3 +43,139 @@ For the battery level for example
 05 identifies the device number
 640204 identifies the DPID
 00000064 identifies the data
+
+# Method 2 - All TuyaReceive Data
+
+This method will send all TuyaReceived messaages to MQTT for processing by Node RED. 
+
+4. Goto the Tasmota console and issue the following command:
+
+```
+SetOption66 1
+```
+
+5. Create a Node RED flow and subscribe an "MQTT Input" object to "tele/SENSORHUB/RESULT". Replace "SENSORHUB" with your Tasmota %TOPIC% name. 
+6. Pass it into a function with the following script contents. The function will have 2 outputs, one for MQTT and one for Debug.
+
+```javascript
+// Get Message Payload
+var payload = msg.payload
+
+// Ignore Everything but Cmnd 54
+if(payload.TuyaReceived.Cmnd != "54") { return }
+
+// Extract the Sensor Hub ID
+var Data            = payload.TuyaReceived.Data;
+var sensorHubID     = Data.substr(0,12)
+
+// Extract the Sensor Data Values
+var CmndData        = payload.TuyaReceived.CmndData;
+var updateID        = CmndData.substr(0,6);     // Each sensor+battery update shares this string
+var sensorNumber    = parseInt(CmndData.substr(6,2));
+var sensorType      = CmndData.substr(8,6);
+var sensorValue     = CmndData.substr(14);
+
+// Processing
+switch(sensorType) {
+    case "4F0204":
+        sensorType = "TEMP"
+        fahrenheit = parseInt(sensorValue,16)
+        celsius = (fahrenheit - 32) * 0.555555555555555
+        sensorValue = parseInt(celsius)
+    break;
+    case "4E0204":
+        sensorType = "HUMIDITY"
+        humidity = parseInt(sensorValue,16)
+        sensorValue = parseInt(humidity)
+    break;
+    case "5B0101":
+        sensorType = "CONTACT"
+        sensorValue = parseInt(sensorValue)
+   
+    break;
+    case "5C0101":
+        sensorType = "MOTION"
+        sensorValue = parseInt(sensorValue)
+    break;
+    case "640204":
+        sensorHubID = (parseInt("55AA0136000B",16) - 3).toString(16).toUpperCase()
+        sensorType = "BATTERY"
+        percentage = parseInt(sensorValue,16)
+        sensorValue = percentage
+    break;
+}
+
+var topic = "SENSORHUB/BLE" + sensorNumber + "/" + sensorType
+var mqttMessage = {  payload: sensorValue, topic:topic };
+var debugMessage = { mqtt           : mqttMessage,
+                     sensorhubid    : sensorHubID,
+                     sensornumber   : sensorNumber,
+                     sensortype     : sensorType,
+                     sensorvalue    : sensorValue,
+                     updateid       : updateID,
+                     data           : Data,
+                     cmnddata       : CmndData };
+return [mqttMessage,debugMessage];
+
+```
+
+7. Create an "MQTT Out" node. No topic required, it is dynamically set in the function. Connect it to the top "Dot" on the Function node.
+8. Create an "Debug" node. Connect it to the bottom "Dot" on the Function node.
+9. The following can be used to create the home assistant sensors
+
+```
+binary_sensor:
+  - platform: mqtt
+    unique_id: patio_door
+    payload_on: 1
+    payload_off: 0
+    name: "Patio Door"
+    state_topic: "SENSORHUB/BLE3/CONTACT"
+    device_class: door
+    qos: 1
+  - platform: mqtt
+    unique_id: lounge_motion
+    name: "Lounge Room Motion"
+    payload_on: 1
+    payload_off: 0
+    state_topic: "SENSORHUB/BLE4/MOTION"
+    device_class: motion
+    qos: 1
+sensor:
+  - platform: mqtt
+    unique_id: lounge_motion_battery
+    name: "Lounge Room Motion Battery"
+    state_topic: "SENSORHUB/BLE4/BATTERY"
+    device_class: battery
+    qos: 1
+  - platform: mqtt
+    unique_id: patio_door_battery
+    name: "Patio Door Battery"
+    state_topic: "SENSORHUB/BLE3/BATTERY"
+    device_class: battery
+    qos: 1
+  - platform: mqtt
+    unique_id: lounge_temp
+    name: "Lounge Temperature"
+    state_topic: "SENSORHUB/BLE7/TEMP"
+    device_class: temperature
+    unit_of_measurement: "°C"
+    qos: 1
+  - platform: mqtt
+    unique_id: lounge_humidity
+    name: "Lounge Humidity"
+    state_topic: "SENSORHUB/BLE7/HUMIDITY"
+    device_class: humidity
+    unit_of_measurement: "%"
+    qos: 1
+  - platform: mqtt
+    unique_id: lounge_temp_battery
+    name: "Lounge Temperature Battery"
+    state_topic: "SENSORHUB/BLE7/BATTERY"
+    device_class: battery
+    qos: 1
+```
+
+References:
+https://www.bunnings.com.au/arlec-grid-connect-smart-home-sensor-kit_p0148570
+https://tasmota.github.io/docs/Commands/#setoption66
