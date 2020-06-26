@@ -57,7 +57,7 @@ Backlog TuyaMCU 11,4; TuyaMCU 51,51
 To get smoke detected alerts and battery status use rules to send data to custom topics. Battery status is sent rarely but I noticed it is always reported at first power on after batteries are replaced.
 
 ```console
-Rule1 ON TuyaReceived#CmndData=0E04000102 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=0E04000101 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=0E04000100 DO publish2 stat/%topic%/BATT low ENDON ON TuyaReceived#CmndData=0104000100 DO publish stat/%topic%/SMOKE OFF ENDON ON TuyaReceived#CmndData=0104000101 DO Backlog Publish stat/%topic%/SMOKE; RuleTimer1 60 ON ENDON ON Rules#Timer=1 do Publish stat/%topic%/SMOKE OFF ENDON
+Rule1 ON TuyaReceived#CmndData=0E04000102 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=0E04000101 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=0E04000100 DO publish2 stat/%topic%/BATT low ENDON ON TuyaReceived#CmndData=0104000100 DO publish stat/%topic%/SMOKE OFF ENDON ON TuyaReceived#CmndData=0104000101 DO Publish stat/%topic%/SMOKE ON ENDON
 ```
 Enable rule with `Rule1 1`
 
