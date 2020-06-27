@@ -7,10 +7,13 @@ template: '{"NAME":"Brilliant","GPIO":[0,0,0,0,52,0,0,0,21,90,0,0,0],"FLAG":0,"B
 link: https://www.ozbargain.com.au/node/539082
 link2: 
 mlink: 
-flash: serial
+flash: tuya-convert
 category: plug
 type: Plug
 standard: au
 ---
 Generic smart plug from Reject Shop. Advertises Tuya Smart app.
-tuya-convert couldn't seem to find it so wired up the serial pins inside. Uses a RCmall ESP8266-3 module.
+
+Hold down the switch for ~8 seconds to get in to pairing mode
+
+If tuya-convert doesn't work there are serial pins inside. Uses a RCmall ESP8266-3 module.
