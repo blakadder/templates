@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-27
+title: Positivo Max 
+model: PPW1600
+image: /assets/images/positivo_PPW1600.jpg
+template: '{"NAME":"PPW1600","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":55}' 
+link: https://www.amazon.com.br/dp/B084J6Y2JF/
+link2: 
+mlink: https://www.positivocasainteligente.com.br/smart-plug-max-wi-fi/p
+flash: serial
+category: plug
+type: Plug
+standard: br
+---

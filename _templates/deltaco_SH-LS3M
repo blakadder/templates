@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-26
+title: Deltaco 3m RGBCCT 
+model: SH-LS3M
+image: /assets/images/deltaco_SH-LS3M.jpg
+template: '{"NAME":"Deltaco Led Strip","GPIO":[0,0,0,0,37,17,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.mediamarkt.se/sv/product/_deltaco-deltaco-smart-home-led-list-rgb-2700k-6500k-3m-wifi-2-4ghz-300lm-m-3m-tejp-dimbar-6-pin-vit-1323394.html
+link2: 
+mlink: https://www.deltaco.se/produkter/belysning/led-lister/SH-LS3M
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: global
+---

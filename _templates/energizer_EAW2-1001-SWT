@@ -1,0 +1,13 @@
+---
+date_added: 2020-03-01
+title: Energizer A19 10W Smart White
+model: EAW2-1001-SWT
+image: /assets/images/energizer_EAW2-1001-SWT.jpg
+template: '{"NAME":"Energizer CCT ","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/Energizer-Connect-EAW2-1001-SWT-Smart-White/dp/B081P4PZ86
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e26
+---
