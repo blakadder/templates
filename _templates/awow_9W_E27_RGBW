@@ -6,10 +6,11 @@ category: bulb
 standard: e27
 link: https://www.amazon.de/gp/product/B07Y2ZCT3G
 image: https://images-na.ssl-images-amazon.com/images/I/61gGqaa3SeL._SL1500_.jpg
-template: '{"NAME":"AWOW 9W RGBW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"AWOW 9W RGBW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"AWOW 9W RGBW","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}
 link2: 
 ---
-This addition of 41 (PWM5) to the template is not perfect - but the original template did not produce ANY bright white for me, just a dim cold white.
+This addition of PWM5 (41) to the alternate template is not perfect - but the original template did not produce ANY bright white for [@scargill](https://tech.scargill.net/awow-a60-e27-9w-rgbw-lights-and-tasmota/), just a dim cold white.
 
 
 
