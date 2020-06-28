@@ -15,14 +15,20 @@ standard: eu
 Copy to console:
 
 ```console
+Backlog TuyaMCU 12,8; WebButton1 Power (on/off); WebButton2 Oscillation (on/off)
+```
+
+```console
 Rule1 on TuyaReceived#Data=55AA03070005020400010217 do publish2 stat/tasmota_E27597/speed 2,2 endon on TuyaReceived#Data=55AA03070005020400010116 do publish2 stat/tasmota_E27597/speed 2,1 endon on TuyaReceived#Data=55AA03070005020400010015 do publish2 stat/tasmota_E27597/speed 2,0 endon
 ```
-`Rule1 1`
 
 ```console
 Rule2 on TuyaReceived#Data=55AA03070005080100010119 do publish2 stat/tasmota_E27597/oscillating 8,1 endon on TuyaReceived#Data=55AA03070005080100010018 do publish2 stat/tasmota_E27597/oscillating 8,0 endon on
 ```
-`Rule2 1`
+Enable both rules
+```console
+Backlog Rule1 1; Rule2 1
+```
 
 ### Home Assistant
 
