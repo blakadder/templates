@@ -10,10 +10,13 @@ template: '{"NAME":"Bauhn Smart Pl","GPIO":[0,0,0,0,21,22,0,0,0,56,17,0,0],"FLAG
 link2: 
 ---
 
-This rule is needed to turn on second relay on boot so the device functions properly:
+These rules are needed to emulate the original functionality of the LED, physical button and dual relay toggle.
 ```console
-rule1 on system#boot do power2 on endon
-rule1 1
+SetOption14 1
+Rule1 on button1#state do power1 2 endon
+Rule2 on power1#state do power2 2 endon
+Rule1 1
+Rule2 1
 ```
 
 
