@@ -23,14 +23,11 @@ Rule1 on TuyaReceived#Data=55AA03070005020400010217 do publish2 stat/tasmota_E27
 ```
 
 ```console
-Rule1 1
-```
-
-```console
 Rule2 on TuyaReceived#Data=55AA03070005080100010119 do publish2 stat/tasmota_E27597/oscillating 8,1 endon on TuyaReceived#Data=55AA03070005080100010018 do publish2 stat/tasmota_E27597/oscillating 8,0 endon on
 ```
+Enable both rules
 ```console
-Rule2 1
+Backlog Rule1 1; Rule2 1
 ```
 
 ### Home Assistant
