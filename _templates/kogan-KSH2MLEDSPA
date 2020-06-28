@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-28
+title: Kogan RGB + Cool & Warm White 2m
+model: KSH2MLEDSPA
+image: /assets/images/kogan-KSH2MLEDSPA.jpg
+template: '{"NAME":"RGB+W+C Strip","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kogan.com/au/buy/kogan-smarterhome-rgb-cool-warm-white-smart-led-light-strip-2m/
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: au
+---

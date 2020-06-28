@@ -1,0 +1,23 @@
+---
+date_added: 2020-06-28
+title: CNSKOU Touch 
+model: SK-W801T
+image: /assets/images/cnskou_SK-W801T.jpg
+template: '{"NAME":"CNSKOU Dimmer Switch","GPIO":[0,0,0,0,0,0,0,0,0,0,54,0,0],"FLAG":0,"BASE":54}' 
+link: https://cnskou.en.alibaba.com/product/62302997146-807448567/US_Standard_tuya_ewelink_1_Gang_1_Way_wifi_dimmers_light_wall_switch_for_led_lights.html
+link2: 
+mlink: https://www.cnskou.com/touch-switch/dimmer-touch-switch/us-smart-dimming-touch-switch.html
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: [us, au]
+---
+Once the template is applied, run the following commands to configure communication with the MCU:
+```console
+Backlog TuyaMCU 11,1; TuyaMCU 21,2; DimmerRange 0,1000
+```
+
+I found that the lights started to flicker when the brightness was below about 20%, to prevent this, I have the following rule (adjust the 20 below to what works for your setup):
+```console
+rule1 ON Dimmer#State<20 DO Dimmer 20 ENDON
+```
