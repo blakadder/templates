@@ -4,7 +4,7 @@ title: Calex 429250 Ceiling
 model: 8712879145066
 link: https://www.power.no/hjem-og-fritid/belysning/smart-belysning/smarte-lamper-og-spotter/calex-smart-led-taklampe/p-1022604/
 image: https://service.calex.nl/images/products/429250/1600/calex-smart-ceiling-light-1800-6500k.jpg
-template: '{"NAME":"Calex_LED","GPIO":[0,0,0,0,0,0,0,0,52,37,38,54,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Calex_LED","GPIO":[0,0,0,0,0,0,0,0,0,47,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: https://www.calex.nl/en/products/product/PLAFONNIERE-SMART/
 flash: tuya-convert
@@ -12,3 +12,4 @@ category: light
 type: Light
 standard: global
 ---
+use SetOption92 1
