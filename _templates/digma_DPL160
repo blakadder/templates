@@ -3,7 +3,7 @@ date_added: 2020-06-26
 title: Digma DiPlug 160M
 model: DPL160
 image: /assets/images/digma_DPL160.jpg
-template: '{"NAME":"DiPlug 160M","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":7,"BASE":18}' 
+template: '{"NAME":"DiPlug 160M","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":55}' 
 mlink: https://digma.ru/catalog/item/2666
 link2: 
 link1: 
