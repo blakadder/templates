@@ -57,9 +57,9 @@ Notes:
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
-`dpID 1` device power: 0 = OFF, 1 = ON
-`dpID 2` mode: 0 = breeze, 1 = sleep breeze, 2 = normal, 3 = AI/Smart
-`dpID 3` fan speed: 0 = LOW, 1 = MED, 2 = MEDHI, 3 = HIGH
-`dpID 4` Horizontal Oscillation: 0 = OFF, 1 = ON
-`dpID 5` Vertical Oscillation: 0 = OFF, 1 = ON
-`dpID 6` Timer: 0-6 Hours to Off
+`dpID 1` device power: 0 = OFF, 1 = ON    
+`dpID 2` mode: 0 = breeze, 1 = sleep breeze, 2 = normal, 3 = AI/Smart    
+`dpID 3` fan speed: 0 = LOW, 1 = MED, 2 = MEDHI, 3 = HIGH    
+`dpID 4` Horizontal Oscillation: 0 = OFF, 1 = ON    
+`dpID 5` Vertical Oscillation: 0 = OFF, 1 = ON    
+`dpID 6` Timer: 0-6 Hours to Off    
