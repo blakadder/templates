@@ -25,7 +25,7 @@ Backlog Interlock 1,2,3; Interlock ON
 
 PowerRetain 1 # Save state for Home Assistant
 
-Rule1 on Power3#State=1 do backlog ShutterStop1; Power3 0 endon # Use the middle button for stopping shutter movement
+Rule1 on Power3#State=1 do ShutterStop1 endon # Use the middle button for stopping shutter movement
 
 Rule1 1
 
@@ -33,13 +33,11 @@ Rule2 on Power1#State=0 do LEDPower1 0 endon on Power1#State=1 do LEDPower1 1 en
 
 Rule2 1
 
+PulseTime3 1 # Auto disabled stop button
+
 WebButton3 ■ # Set stop symbol for the third button in the web GUI
 
-SwitchMode1 4 # Make the buttons do their actions on touch, not release
-
-SwitchMode2 4
-
-SwitchMode3 4
+Backlog SwitchMode1 4;SwitchMode2 4;SwitchMode3 4 # Make the buttons do their actions on touch, not release
 ```
 
 Do the calibration as per instructions in Tasmota documentation.
