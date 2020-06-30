@@ -15,7 +15,9 @@ Can be flashed with Tuya-Convert.
 
 RF433 sems works: long press invoke pairing sound, but not tested with remote itself.
 
+---
 
+Warning: There is another model of this device that on the outside looks identical, but inside has a TW-03 chip, which is incompatible with Tasmota. This model goes by the model name: WS-EU2-RF
 
 
 
