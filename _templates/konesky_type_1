@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-30
+title: Konesky Type 1
+model: 
+image: /assets/images/konesky_type_1.jpg
+template: '{"NAME":"Konesky","GPIO":[0,0,0,0,25,22,0,0,24,17,23,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/gp/product/B07MX9QT2P/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: eu
+---
