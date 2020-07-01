@@ -9,6 +9,10 @@ image: https://www.action.com/globalassets/cmsarticleimages/79/81/2578634_871287
 template: '{"NAME":"LSC RGBW Strip","GPIO":[51,0,0,0,37,0,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
+## Warning
+
+As of July 2020 this device comes with a Tuya WB3S module which cannot be flashed with Tasmota.
+
 To use the build in IR Receiver connected to GPIO00 as IRrecv (if this cannot be selected under configuration use Tasmota-Sensors.bin) add the following rule via Command Line. 
 
 ```console

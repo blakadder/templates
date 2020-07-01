@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-01
+title: Brelong USB Charging Night
+model: E-POP-A09-303
+image: /assets/images/brelong_E-POP-A09-303.jpg
+template: '{"NAME":"Brelong Smart USB Charging Lamp","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,40],"FLAG":0,"BASE":18}' 
+link: https://www.gearbest.com/smart-bedside-lamps/pp_009431046721.html?wid=1433363
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Light
+standard: global
+---

@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-01
+title: Lohas ZN038 BR20 8W 750lm
+model: LH-ZN038-WL
+image: /assets/images/lohas-ZN038.jpg
+template: '{"NAME":"Lohas LH-ZN038","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/LOHAS-LED-Equivalent-2700K-6000K-Assistant/dp/B07ZTC7MT6/
+link2: 
+mlink: https://www.lohas-led.com/lohas-br20-smart-wifi-bulb-multi-color-dimmable-smart-phone-control-compatible-with-alexa-and-google-home-3-pack-p0126.html
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---
+Wifi antenna is very weak on these bulbs so make sure you perform all actions very close to your wifi access point.
