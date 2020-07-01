@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-02
+title: Bytech
+model: BP-OP-SC-100-WT
+image: /assets/images/bytech_BP-OP-SC-100-WT.jpg
+template: '{"NAME":"BYTECH B POWERED","GPIO":[0,57,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07NQMPK18
+link2: https://www.gianttiger.com/product/929831.do
+mlink: https://www.bytechintl.com/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

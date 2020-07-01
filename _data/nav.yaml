@@ -12,13 +12,13 @@ toc:
     url: cover.html
   - name: Dimmers and Switches
     url: switch.html
+  - name: In-Wall Dimmers and Switches
+    url: relay.html
   - name: Lights and LEDs
     url: light.html
   - name: Plugs and Sockets
     url: plug.html
-  - name: In-Wall Dimmers and Switches
-    url: relay.html
-  - name: Miscellaneous
+    - name: Miscellaneous
     url: misc.html
   - name: Devices by Standard
     url: standard.html
