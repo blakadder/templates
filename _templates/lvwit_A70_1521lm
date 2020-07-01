@@ -12,3 +12,6 @@ category: bulb
 type: RGBCCT
 standard: b22
 ---
+PWM5 (GPIO13) controls CT. 
+
+Need to set to inverted mode (PWM5i) and additional setting of `SetOption92 1` to enable PWM CT.
