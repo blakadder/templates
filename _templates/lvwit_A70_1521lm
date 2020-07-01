@@ -3,7 +3,7 @@ date_added: 2020-01-31
 title: LVWIT A70 12W 1521lm
 model: A70-30 WIFI DIM+CCT+RGB 12W B22 X-Y
 image: https://user-images.githubusercontent.com/5904370/73573342-6d114e80-4473-11ea-840f-6c1bd5298952.png
-template: '{"NAME":"LVWIT A70 12W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"LVWIT A70 12W","GPIO":[0,0,0,0,37,40,0,0,38,50,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/gp/product/B07YKF1R3M
 link2: 
 mlink: 
@@ -12,3 +12,6 @@ category: bulb
 type: RGBCCT
 standard: b22
 ---
+PWM5 (GPIO13) controls CT. 
+
+Need to set to inverted mode (PWM5i) and additional setting of `SetOption92 1` to enable PWM CT.
