@@ -18,7 +18,7 @@ toc:
     url: light.html
   - name: Plugs and Sockets
     url: plug.html
-    - name: Miscellaneous
+  - name: Miscellaneous
     url: misc.html
   - name: Devices by Standard
     url: standard.html
