@@ -74,11 +74,26 @@ Set target temperature with:
 `TuyaMCU 21,102` to use dimmer to set temperature. With this you can use the slider or `Dimmer` command and it will prevent you from accidentally setting temperatures higher than 100°C. *Might potentially create issues if you don't have another relay configured.*
 
 If you don't have an external solution for easy control you can map a dummy relay for controlling kettle modes and link them with TuyaSend using rules. *States will not be in sync if controlled with other means. Set `PowerOnState 0` to avoid weirdness on device reset.*
-Example:
-Use preconfigured Relay1 to activate 45°C mode.
+First activate 6 Relays in WebUI.
 ```console
-Rule ON Power1#State=1 DO TuyaSend4 101,0 ENDON ON Power1#State=0 DO TuyaSend4 101,6 ENDON
+Backlog TuyaMCU 11,101; TuyaMCU 12,2; TuyaMCU 13,3; TuyaMCU 14,4; TuyaMCU 15,5; TuyaMCU 16,6
 ```
+
+Use Relay1-6 to activate modes.
+```console
+Rule1 ON Power1#State=1 DO TuyaSend4 101,0 ENDON ON Power1#State=0 DO TuyaSend4 101,6 ENDON ON Power2#State=1 DO TuyaSend4 101,1 ENDON ON Power2#State=0 DO TuyaSend4 101,6 ENDON ON Power3#State=1 DO TuyaSend4 101,2 ENDON ON Power3#State=0 DO TuyaSend4 101,6 ENDON ON Power4#State=1 DO TuyaSend4 101,3 ENDON ON Power4#State=0 DO TuyaSend4 101,6 ENDON ON Power4#State=1 DO TuyaSend4 101,3 ENDON ON Power4#State=0 DO TuyaSend4 101,6 ENDON ON Power6#State=1 DO TuyaSend4 101,4 ENDON ON Power6#State=0 DO TuyaSend4 101,6 ENDON
+```
+
+Now activate Rule1.
+```console
+Rule1 1
+```
+
+Last rename relays in WebUI.
+```console
+Backlog WebButton1 45°C; WebButton2 60°C; WebButton3 85°C; WebButton4 100°C; WebButton5 keep warm; WebButton6 quick start & reset/standby
+```
+
 
 Send water temperature to an MQTT topic:
 ```console
@@ -86,7 +101,7 @@ Rule ON TuyaReceived#DpType2Id105 DO Publish stat/%topic%/TEMPERATURE %value% EN
 ```
 
 Override device button action and `TuyaSend4 101,x` command. *Has a minor side effect of multiple beeps.*
- Example overrides 45°C (`mode 0`) and instead controls another Tasmota light. 
+ Following example overrides 45°C (`mode 0`) and instead controls another Tasmota light. 
 ```console
 Rule ON TuyaReceived#DpType4Id101=0 DO Backlog TuyaSend4 101,6; Publish cmnd/coffee_light/POWER toggle ENDON 
 ```
