@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-03
+title: Longlifelamps A60 9W
+model: NA60B22-F
+image: /assets/images/longlife_NA60B22-F.jpg
+template: '{"NAME":"longlifelamps A60 RGBWW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.ebay.co.uk/itm/WiFi-RGB-Smart-LED-Light-Bulb-for-Apps-by-iOS-Android-Amazon-Alexa-Google-Home/293061557172
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: b22
+---
+Requires `SetOption37 54` to fix colors

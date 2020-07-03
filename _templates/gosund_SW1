@@ -14,3 +14,4 @@ standard: us
 template-alt: '{"NAME":"Gosund SW1","GPIO":[17,57,0,0,0,0,0,0,0,0,21,0,158],"FLAG":0,"BASE":18}' 
 ---
 Red LED = GPIO16, Green LED=GPIO2
+
