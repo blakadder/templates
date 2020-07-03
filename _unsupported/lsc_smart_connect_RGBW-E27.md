@@ -1,6 +1,6 @@
 ---
 date_added: 2020-01-22
-title: LSC Smart Connect RGBW E27 Bulb
+title: LSC RGBW E27 Bulb
 category: unsupported
 type: Bulb
 link: https://www.action.com/de-de/p/lsc-smart-connect-intelligente-multicolor-led-lampe-4/

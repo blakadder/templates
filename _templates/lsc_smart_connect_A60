@@ -1,6 +1,6 @@
 ---
 date_added: 2020-01-05
-title:  LSC Smart Connect Filament A60 
+title:  LSC Filament A60 
 link: https://www.action.com/de-de/p/lsc-smart-connect-slimme-filament-ledlamp--a8452df7/
 image: https://www.action.com/globalassets/cmsarticleimages/79/72/2578228_8712879142737-111_01.png
 template: '{"NAME":"LSC Filam E27","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 

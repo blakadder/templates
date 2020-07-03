@@ -1,6 +1,6 @@
 ---
 date_added: 2020-05-18
-title: LSC Smart Connect Siren 970772 V2.0 
+title: LSC Siren 970772 V2.0 
 category: unsupported
 type: Miscellaneous
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-sirene-/

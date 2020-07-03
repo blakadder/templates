@@ -1,6 +1,6 @@
 ---
 date_added: 2019-09-22
-title: LSC Smart Connect Filament ST64
+title: LSC Filament ST64 5.5W 470lm
 type: Dimmable
 category: bulb
 standard: e27
@@ -10,7 +10,7 @@ template: '{"NAME":"LSC Filam Big","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0
 link2: 
 ---
 
-I was able to flash all fillament light bulbs from LSC Smart connect with the upgrade Tuya convert. Link to the process is http://www.thesmarthomehookup.com/tuya-convert-walk-through-february-2019. The only thing i changed is the github where i download tuya convert from located at https://github.com/M4dmartig4n/tuya-convert
+I was able to flash all filament light bulbs from LSC with the upgrade Tuya convert. Link to the process is http://www.thesmarthomehookup.com/tuya-convert-walk-through-february-2019. The only thing i changed is the github where i download tuya convert from located at https://github.com/M4dmartig4n/tuya-convert
 
 
 
