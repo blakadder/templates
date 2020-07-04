@@ -10,3 +10,10 @@ category: unsupported
 type: Light
 ---
 This device makes use of Realtek chipset, and is therefore unfortunately not supported. Currently the link to the website of Action is dead for some reason.
+
+## Modification to ESP8266
+
+The LSC Pir works with tasmota but tasmota didnt boot up fast enough and all settings must be done in the flash file. The PIR only fires up a signal to give power to the ESP. Cut the traces that come from the pir to give the esp full power and the pir will wake Tasmota from deepsleep.
+
+![](/assets/images/lsc_ceiling_light1.jpg)
+![](/assets/images/lsc_ceiling_light2.jpg)
