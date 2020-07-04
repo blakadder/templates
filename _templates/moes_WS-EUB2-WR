@@ -3,7 +3,7 @@ date_added: 2020-07-02
 title: Moes RF433 2 Gang Switch
 model: WS-EUB2-WR
 image: /assets/images/moes_WS-EUB2-WR.jpg
-template: '{"NAME":"WS-EUB3-WR","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+template: '{"NAME":"WS-EUB2-WR","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://aliexpress.com/item/4000311997610.html
 link2: 
 mlink: 
