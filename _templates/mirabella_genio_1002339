@@ -8,7 +8,7 @@ standard: b22
 flash: tuya-convert
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-b22-colour-bulb/2326807
 image: /assets/images/mirabella_genio_1002339.jpg
-template: '{"NAME":"GenioBulbRGB","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"GenioBulbRGB","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link2:
 mlink: https://mirabellagenio.net.au/es-%2F-bc-warm-rgb-specs
 ---

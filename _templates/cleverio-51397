@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-03
+title: Cleverio 4.5W 350lm
+model: 51397
+image: /assets/images/cleverio-51397.jpg
+template: '{"NAME":"HK17653S72","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kjell.com/se/produkter/smarta-hem/smart-belysning/cleverio-smarta-lampor/cleverio-smart-e14-rgb-led-lampa-350-lm-p51397
+link2: 
+mlink: https://www.kjell.com
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e14
+---
