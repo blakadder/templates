@@ -1,0 +1,17 @@
+---
+date_added: 2020-07-04
+title: Wipro Smart Extension
+model: DSE1150
+image: /assets/images/wipro_DSE1150.jpg
+template: '{"NAME":"Generic","GPIO":[57,0,0,0,32,0,0,0,30,31,29,0,25],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.in/Wipro-DSE1150-Next-Smart-Extension/dp/B07VWPXPL1/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: in
+---
+The original manufacturer code for the device is SM-SO306, which seems to be made by SHENZHEN XENON INDUSTRIAL LTD. These are usually Tuya software devices, sold under different brand names and logos in various parts of the world. I flashed Tasmota using Tuya convert (OTA) on a Wipro branded strip. Some devices I have identified to have similar properties are also listed below (all found in Amazon India website). 
+
+Known in various names, such as SM-SO306-U2 / SM-SO306-UZ2, Xergy Smart Power Strip, Wipro Smart Extension (DSE1150 in India) or Nishica Smart Power Extension (SM-SO306-2A)

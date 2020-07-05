@@ -1,0 +1,28 @@
+---
+date_added: 2020-07-10
+title: Sonoff ZBBridge - Smart Zigbee Bridge
+model: M08020700017
+image: /assets/images/sonoff_ZBBridge.jpg
+template: '{"NAME":"Sonoff ZBBridge","GPIO":[56,165,0,166,59,58,0,0,0,158,0,0,17],"FLAG":0,"BASE":18}' 
+link: https://www.itead.cc/sonoff-zbbridge.html
+link2: https://www.aliexpress.com/af/sonoff-zbbridge.html
+link3: https://www.banggood.com/SONOFF-ZBBridge-Smart-Bridge-p-1674754.html
+mlink: https://www.itead.cc/sonoff-zbbridge.html
+flash: serial
+category: misc
+type: Zigbee Bridge
+standard: global
+---
+:warning: Support for this device is experimental. :warning:
+
+Compile Tasmota 8.3.1.6+ with following options:
+
+```
+#define USE_ZIGBEE
+#undef USE_ZIGBEE_ZNP
+#define USE_ZIGBEE_EZSP
+```
+
+This device requires serial flashing using the TX/RX/IO0 pads.
+
+It also requires flashing the EFR32 device with EmberZNet Pro firmware (procedure still under work).
