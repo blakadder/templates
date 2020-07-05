@@ -17,7 +17,7 @@ standard: global
 
 Compile Tasmota 8.3.1.6+ with following options:
 
-```
+```haskell
 #define USE_ZIGBEE
 #undef USE_ZIGBEE_ZNP
 #define USE_ZIGBEE_EZSP
