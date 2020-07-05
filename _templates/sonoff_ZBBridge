@@ -13,7 +13,7 @@ category: misc
 type: Zigbee Bridge
 standard: global
 ---
-:warning: Support for this device is experimental. :warning:
+<h3>***Support for this device is experimental!!!***</h3>
 
 Compile Tasmota 8.3.1.6+ with following options:
 
