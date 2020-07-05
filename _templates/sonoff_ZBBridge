@@ -26,3 +26,5 @@ Compile Tasmota 8.3.1.6+ with following options:
 This device requires serial flashing using the TX/RX/IO0 pads.
 
 It also requires flashing the EFR32 device with EmberZNet Pro firmware (procedure still under work).
+
+Follow the development in [GitHub issue](https://github.com/arendst/Tasmota/issues/8583). 
