@@ -1,6 +1,6 @@
 ---
 date_added: 2020-07-10
-title: Sonoff ZBBridge - Smart Zigbee Bridge
+title: Sonoff ZBBridge
 model: M08020700017
 image: /assets/images/sonoff_ZBBridge.jpg
 template: '{"NAME":"Sonoff ZBBridge","GPIO":[56,165,0,166,59,58,0,0,0,158,0,0,17],"FLAG":0,"BASE":18}' 
