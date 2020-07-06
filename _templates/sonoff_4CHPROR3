@@ -6,7 +6,7 @@ category: relay
 type: Relay
 standard: global
 image: /assets/images/sonoff_4CHPROR3.jpg
-template: '{"NAME":"Sonoff 4CHPROR3","GPIO":[17,255,255,255,23,22,18,19,21,56,20,24,0],"FLAG":0,"BASE":7}' 
+template: '{"NAME":"Sonoff 4CHPROR3","GPIO":[17,255,255,255,23,22,18,19,21,56,20,24,0],"FLAG":0,"BASE":23}' 
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/4chr3-4chpror3
 link: https://www.itead.cc/smart-home/sonoff-4ch-r3-pro-r3.html
 link3: https://www.aliexpress.com/item/4001175203393.html
