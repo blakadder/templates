@@ -15,3 +15,7 @@ link4:
 ---
 
 4CHPROR3 supports [RF remotes](sonoff_RM433) independent from Tasmota, it is managed by a secondary MCU.
+
+## Flashing
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1K1vTNzsTxI?start=128" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
