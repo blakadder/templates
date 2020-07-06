@@ -12,4 +12,8 @@ category: light
 type: Light
 standard: eu
 ---
+
 Custom fimware need. Cause: Colors inversed.
+
+<h3>Warning</h3>
+Some models come with an [incompatible Realtek](/unsupported/lsc_ceiling_light) WiFi module.
