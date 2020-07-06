@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-06
+title: Awow EU3S
+model: EU3S
+image: /assets/images/awow_EU3S.jpg
+template: '{"NAME":"AWOW BSD33","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.es/gp/product/B086C1RJCZ
+link2: 
+mlink: https://awow-tech.com/
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+This device was flashed via serial port but probably could have been flashed with Tuya Convert.

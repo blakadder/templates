@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-05
+title: LSC 20W 1400lm White Ambiance Ceiling
+model: 3000842
+image: /assets/images/lsc_smart_connect_ceiling_light.jpg
+template: '{"NAME":"LSC RGBCW LED","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.action.com/fr-be/lsc-smart-connect/
+link2: 
+mlink: https://www.action.com/fr-be/p/lsc-smart-connect-slimme-plafonniere--47d4b32a/
+flash: serial
+category: light
+type: Light
+standard: eu
+---
+Custom fimware need. Cause: Colors inversed.
