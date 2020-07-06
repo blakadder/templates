@@ -10,3 +10,5 @@ category: unsupported
 type: Light
 ---
 This device makes use of Realtek chipset, and is therefore unfortunately not supported. Currently the link to the website of Action is dead for some reason.
+
+There are versions with a [compatible ESP82xx module](/lsc_smart_connect_ceiling_light)
