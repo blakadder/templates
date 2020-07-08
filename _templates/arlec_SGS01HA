@@ -13,7 +13,14 @@ type: Bluetooth Bridge
 standard: au
 ---
 1. Initially pair the hub and all sensors using the Tuya app
+
 2. Flash the hub using a serial connection to the TYWE3S module with a standard Tasmota Image.
+
+   ![SGS01HA board](/assets/images/arlec_SGS01HA_board.jpg)
+   1. Hold GPIO0 to GND during power on to enter programming mode
+   2. Connect V+, TX, RX, & GND
+   3. **IMPORTANT**: Hold RSTBLE to GND during the flashing process to disable the Bluetooth module
+
 3. Set up MQTT
 
 # Method 1 - Just BLE Data
