@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-06
+title: ATMS1601 230VAC DIN Timer/Switch 
+model: ATMS1601
+image: /assets/images/ATMS1601.jpg
+template: '{"NAME":"ATMS1601","GPIO":[255,255,255,255,157,56,255,255,21,17,255,255,255],"FLAG":15,"BASE":18}' 
+link: https://www.acdc.co.za/pages/atms1601-230vac-smart-wifi
+link2: 
+mlink: 
+flash: tuya-convert
+category: relay
+type: Relay
+standard: za
+---
