@@ -3,7 +3,7 @@ date_added: 2020-07-10
 title: Teckin SL07 32.8ft RGB
 model: 2AQNX-SL07
 image: /assets/images/teckin_SL07.jpg
-template: '{"NAME":"WIFI-RGB","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"WIFI RGB","GPIO":[51,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B087BZMJ83
 link2: 
 mlink: 
@@ -12,4 +12,45 @@ category: light
 type: LED Strip
 standard: us
 ---
-Still needs code for rf controller
+Configure rules for IR remote:
+
+```console
+Rule1
+on IrReceived#Data=0x00F7C03F do power1 on endon
+on IrReceived#Data=0x00F740BF do power1 off endon
+on IrReceived#Data=0x00F700FF do dimmer + endon
+on IrReceived#Data=0x00F7807F do dimmer - endon
+On IrReceived#Data=0x00F7D02F Do Backlog Power 0; WakeupDuration 1; Dimmer 100; Wakeup endon 
+On IrReceived#Data=0x00F7F00F Do Backlog Power 0; WakeupDuration 5; Wakeup endon 
+On IrReceived#Data=0x00F7C837 Do Backlog Scheme 2; Speed 1 endon 
+On IrReceived#Data=0x00F7E817 Do Backlog Scheme 3; Speed 5 endon 
+```
+
+```console
+Rule2
+on IrReceived#Data=0x00F720DF do color2 #FF0000 endon
+on IrReceived#Data=0x00F710EF do color2 #470D00 endon
+on IrReceived#Data=0x00F730CF do color2 #381600 endon
+on IrReceived#Data=0x00F708F7 do color2 #331E00 endon
+on IrReceived#Data=0x00F728D7 do color2 #332800 endon
+on IrReceived#Data=0x00F7A05F do color2 #00FF00 endon
+on IrReceived#Data=0x00F7906F do color2 #00330A endon
+on IrReceived#Data=0x00F7B04F do color2 #003314 endon
+on IrReceived#Data=0x00F78877 do color2 #00331E endon
+```
+
+```console
+Rule3
+on IrReceived#Data=0x00F7A857 do color2 #003328 endon
+on IrReceived#Data=0x00F7609F do color2 #0000FF endon
+on IrReceived#Data=0x00F750AF do HSBColor1 260 endon
+on IrReceived#Data=0x00F7708F do HSBColor1 280 endon
+on IrReceived#Data=0x00F748B7 do HSBColor1 300 endon
+on IrReceived#Data=0x00F76897 do HSBColor1 320 endon
+on IrReceived#Data=0x00F7E01F do color2 #FFFFFF endon
+```
+
+Activate the rules
+```console
+Backlog rule1 1; rule2 1; rule3 1
+```
