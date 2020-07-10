@@ -7,11 +7,12 @@ template: '{"NAME":"LVWIT A70 12W","GPIO":[0,0,0,0,37,40,0,0,38,50,39,0,0],"FLAG
 link: https://www.amazon.co.uk/gp/product/B07YKF1R3M
 link2: 
 mlink: 
-flash: tuya-convert
 category: bulb
 type: RGBCCT
 standard: b22
 ---
+**As of July 2020 batches come with the new, still encrypted Tuya PSK and cannot be Tuya-Converted**
+
 PWM5 (GPIO13) controls CT. 
 
 Need to set to inverted mode (PWM5i) and additional setting of `SetOption92 1` to enable PWM CT.

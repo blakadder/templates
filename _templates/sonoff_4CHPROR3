@@ -1,0 +1,21 @@
+---
+date_added: 2020-07-12
+title: Sonoff 4CHPROR3
+model: M08020100034
+category: relay
+type: Relay
+standard: global
+image: /assets/images/sonoff_4CHPROR3.jpg
+template: '{"NAME":"Sonoff 4CHPROR3","GPIO":[17,255,255,255,23,22,18,19,21,56,20,24,0],"FLAG":0,"BASE":23}' 
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/4chr3-4chpror3
+link: https://www.itead.cc/smart-home/sonoff-4ch-r3-pro-r3.html
+link3: https://www.aliexpress.com/item/4001175203393.html
+link2: https://www.banggood.com/SONOFF-4CH-R3-and-4CH-PRO-R3-AC100-240V-50-or-60Hz-10A-2200W-4-Gang-WiFi-DIY-Smart-Switch-Inching-or-Self-Locking-or-Interlock-3-Working-Mode-APP-Remote-Control-Switch-Works-with-Alexa-and-Google-Home-p-1674979.html
+link4: 
+---
+
+4CHPROR3 supports [RF remotes](sonoff_RM433) independent from Tasmota, it is managed by a secondary MCU.
+
+## Flashing
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1K1vTNzsTxI?start=128" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

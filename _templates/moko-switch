@@ -4,9 +4,10 @@ title: MoKo Smart Life
 category: switch
 type: Switch
 standard: us
+flash: tuya-convert
 link: https://www.amazon.com/MoKo-Control-Compatible-Required-Installation/dp/B07VXVHDVD
 image: https://user-images.githubusercontent.com/5904370/70848523-28096c80-1e73-11ea-86c5-d44e7ba877b8.png
-template: '{"NAME":"Moko Switch","GPIO":[0,0,0,17,21,134,0,0,0,0,0,0,0],"FLAG":0,"BASE":59}' 
+template: '{"NAME":"Moko Switch","GPIO":[57,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":59}' 
 link2: 
 ---
 

@@ -8,6 +8,7 @@ link: https://www.deltaco.se/produkter/deltaco/smart-home/grenuttag/SH-P01E
 image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-P01E.png?width=260
 template: '{"NAME":"DELTACO SH-P01E","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":55}' 
 link2: https://www.webhallen.com/se/product/309650-Deltaco-WiFi-Smart-Plug-Energiovervakning-10A
+link3: https://www.mediamarkt.se/sv/product/_deltaco-smart-home-strömbrytare-wifi-2-4ghz-energiövervakning-1xcee-7-3-10a-timer-vit-1320177.html
 ---
 
-As of June 2020 this device uses a Realtek chip and cannot be flashed with Tasmota.
+Make sure that you get a plug with TYWE2S WiFi module based on ESP8266. As of June 2020 this device uses a Realtek chip and cannot be flashed with Tasmota.
