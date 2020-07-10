@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-09
+title: Digma DiLight E27 W1
+model: DLE27W1
+image: /assets/images/digma_DLE27W1.jpg
+template: '{"NAME":"DiLight E27 W1","GPIO":[0,0,0,0,37,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://digma.ru/catalog/item/2983
+link2: 
+mlink: https://digma.ru/catalog/item/2983
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e27
+---

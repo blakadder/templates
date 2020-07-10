@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-10
+title: Teckin SL07 32.8ft RGB
+model: 2AQNX-SL07
+image: /assets/images/teckin_SL07.jpg
+template: '{"NAME":"WIFI-RGB","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B087BZMJ83
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: us
+---
+Still needs code for rf controller

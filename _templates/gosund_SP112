@@ -6,19 +6,10 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07PMW88L7
 image: https://user-images.githubusercontent.com/5904370/66715805-e8b59580-edc7-11e9-954e-dfd45c1fc07e.png
-template: '{"NAME":"SHP5","GPIO":[57,145,56,146,255,22,0,0,255,255,21,255,18],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"SHP5","GPIO":[57,145,56,146,255,22,0,0,255,255,21,255,17],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/gp/product/B07PPZS351
 mlink: https://gosund.com/download/smart_plug/127.html
 ---
 
-Button will toggle the USB Output. If you want to toggle the Relays, use this template: 
-```console
-{"NAME":"SHP5","GPIO":[57,145,56,146,255,22,0,0,255,255,21,255,17],"FLAG":0,"BASE":18}
-```
-
 Important: it is possible that your device will enter a bootloop due to a conflict with UART/serial logging.
-Fix this using: SerialLog 0 
-
-
-
-
+Fix this using: `SerialLog 0`

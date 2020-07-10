@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-09
+title: ESP01S DHT11 v1.0 Module Temperature
+model: 
+image: /assets/images/DHT11_ESP01.jpg
+template: '{"NAME":"ESP01S DHT11","GPIO":[0,0,1,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":4}' 
+link: https://www.amazon.com/gp/product/B07XC23HBW/
+link2: https://www.aliexpress.com/af/dht11-esp01s.html
+mlink: 
+flash: serial
+category: misc
+type: Sensor
+standard: global
+---
