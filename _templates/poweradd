@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-10
+title: Poweradd
+model: 
+image: /assets/images/poweradd.jpg
+template: '{"NAME":"POWERADD","GPIO":[255,255,255,255,56,57,255,255,21,17,22,255,255],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07GD9QLXV
+link2: 
+mlink: https://www.ipoweradd.com/
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---
