@@ -12,3 +12,5 @@ link2:
 ---
 
 Bulb only supports Warm/Cold White, not RGB
+
+This device has hardware gamma correction, so disable [Tasmota's default gamma correction](https://tasmota.github.io/docs/Lights/#gamma-correction) with `LedTable 0` in Console
