@@ -6,7 +6,7 @@ type: Plug
 standard: us
 link: https://www.amazon.com/Extender-Independently-Together-Required-Gosund/dp/B07F58N32V
 image: https://images-na.ssl-images-amazon.com/images/I/61mBiz7jFwL._SL1500_[1].jpg
-template: '{"NAME":"Gosund_WP212","GPIO":[17,0,0,0,18,0,0,0,21,0,22,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Gosund_WP212","GPIO":[17,0,0,0,18,0,0,0,22,0,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
