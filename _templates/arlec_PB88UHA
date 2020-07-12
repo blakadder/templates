@@ -8,6 +8,7 @@ link: https://www.bunnings.com.au/arlec-4-outlet-smart-powerboard-with-usb-charg
 image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/b6609933-ba09-4320-b8f9-ec95db6b7575.jpg
 template: '{"NAME":"Arlec PB88UHA","GPIO":[0,56,0,17,22,21,0,0,24,23,0,0,0],"FLAG":15,"BASE":18}'
 link2: 
+flash: tuya-convert
 ---
 
 
