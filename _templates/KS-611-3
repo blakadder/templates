@@ -1,12 +1,12 @@
 ---
-date_added: 2020-07-13
+date_added: 2020-07-14
 title: KS-611 3 Gang
 category: switch
 type: Switch
 standard: eu
 link: https://www.aliexpress.com/item/4000189490312.html
 image: /assets/images/KS-611-3.jpg
-template: '{"NAME":"KS-611 3 Gang","GPIO":[0,0,56,0,19,18,0,0,22,21,23,0,17],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"KS-611 3 Gang","GPIO":[0,0,158,0,19,18,0,0,22,21,23,0,17],"FLAG":0,"BASE":18}' 
 link2: https://www.banggood.com/EU-WiFi-Switch-with-Physical-Button-Smart-Home-Automation-Wall-Light-Switch-1-or-2-or-3-Gang-Work-with-Alexa-Google-Home-p-1660583.html
 link3: https://www.amazon.com/dp/B07RKY9MRG
 flash: serial
