@@ -13,3 +13,5 @@ flash: serial
 ---
 When using AC wiring and the supplied AC to DC adapter: To make use of the Input clamp of the device you need to set GPIO5 as `Button2n`. 
 Due to the way the adapter sends out pulses to the GPIO you might have to solder a small 2.2 uF capacitor to the adapter to stabilize the pulse and avoid erratic switching.
+
+When running in an RGBW configuration, run command `SetOption37 128` in the Tasmota console to enable the white channel.
