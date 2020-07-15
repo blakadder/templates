@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-15
+title: CIN-03 96W RGB
+model: CL-CIN-03-04
+image: /assets/images/
+template: '{"NAME":"CIN03-03 Strip","GPIO":[0,0,0,0,38,0,0,0,37,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07VRNNFXQ
+link2: 
+mlink: https://www.cl-light.com/product/697.html
+flash: tuya-convert
+category: light
+type: LED Controller
+standard: global
+---
