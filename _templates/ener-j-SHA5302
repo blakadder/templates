@@ -16,7 +16,8 @@ Left Hand Socket is Button 1
 
 There is a blue LED above the earth pin of each socket; these light when the corresponding socket is powered.
 
-Neither of these templates controls power to the USB socket. I did not attempt to find a way to switch it off or on. It is always powered.
+Neither of these templates controls power to the USB socket. It is always powered, the 5V on the USB socket is also used to power the
+processor via a 3v3 regulator.
 
 There is a green LED above the USB socket; this comes on if either 13A socket is powered.
 
@@ -24,3 +25,13 @@ To disable the Green LED always use this template instead :
 ```json
 {""NAME"":""Ener-J 2-Gang "",""GPIO"":[17,0,0,0,0,21,18,0,22,0,0,0,0],""FLAG"":0,""BASE"":18}
 ```
+
+The Green LED is very bright on these devices as an option controlling it with the LEDLinki will allow the LED to flash during WiFi
+connection and the go OFF once connected. This also maintains the flash indication of button pushed.
+```json
+{""NAME"":""Ener-J 2-Gang "",""GPIO"":[17,0,0,0,0,22,18,0,21,158,0,0,0],""FLAG"":0,""BASE"":18}
+```
+When flashing these devices via the serial interface, there are a number of pads on the reverse on the PCB for easy connection. GPIO0 
+is available on a pad, but is also connected to S1. Caution when using the power pad marked +5V, it is okay to apply +5V on the pad but 
+make sure that you do not exceed 3.3V on the serial pins connected to TX and RX on the processor. A D-SUN USB to TTL interface was used 
+to program the device. It provides both +5V and 3.3V and limits the TX and RX signals.

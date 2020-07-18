@@ -9,8 +9,10 @@ standard:
 link: https://www.amazon.com/Compatible-Assistant-Incandescent-Required-requires/dp/B07PB8S3YF/
 link2: https://www.aliexpress.com/store/product/Zemismart-US-WiFi-Wall-Push-Light-Switch-Alexa-Google-Home-Enable-Smart-Life-APP-ControlOne-Gang/1848374_32982759923.html
 link3: https://www.amazon.com.au/Zemismart-Compatible-Assistant-Incandescent-Required/dp/B07PB8S3YF
+link4: https://www.harveynorman.com.au/connect-smart-2-gang-wall-switch-white.html
 image: https://user-images.githubusercontent.com/5904370/67770608-fff6b300-fa56-11e9-8279-7d064ed56fdd.png
-template: '{"NAME":"KS-811 Dual","GPIO":[0,0,52,0,0,18,0,0,22,21,0,0,17],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"KS-811 Dual","GPIO":[0,0,157,0,0,18,0,0,22,21,0,0,17],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"KS-811 Dual","GPIO":[0,0,158,0,0,18,0,0,22,21,0,0,17],"FLAG":0,"BASE":18}' 
 mlink: https://www.zemismart.com/zemismart-us-wifi-wall-push-light-switch-alexa-google-home-enable-smart-life-app-controlone-gang-two-gangs-three-gangs_p0163.html
 ---
 
