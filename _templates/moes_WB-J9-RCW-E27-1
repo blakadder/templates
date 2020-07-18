@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-16
+title: Moes 9W 800lm 
+model: WB-J9-RCW-E27-1
+image: /assets/images/moes_WB-J9-RCW-E27-1.jpg
+template: '{"NAME":"Moes 9w","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001065597070.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

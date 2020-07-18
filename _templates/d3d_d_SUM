@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-16
+title: D3D Smart Plug with USB & Power Monitor
+model: d_SUM
+image: /assets/images/d3d_d_SUM.jpg
+template: '{"NAME":"D3D d_SUM","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+link: https://d3dsecurity.com/collections/home-automation/products/wifi-smart-plug
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: in
+---

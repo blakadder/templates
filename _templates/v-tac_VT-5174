@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-15
+title: V-Tac PAR16 4.5W 300lm 110°
+model: VT-5174
+image: /assets/images/
+template: '{"NAME":"V-TAC VT-5174","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/VT-5174-Colour-Change-Dimmable-Smartphone/dp/B07X5MQB15
+mlink: https://v-tac.eu/products/smart-home/led-spotlights/led-spotlight-4-5w-gu10-110-lens-ra80-wi-fi-smart-white-warm-white-detail.html
+link2: 
+flash: serial
+category: bulb
+type: CCT
+standard: gu10
+---

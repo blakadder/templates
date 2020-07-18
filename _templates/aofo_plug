@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-17
+title: AOFO 10A 
+model: 
+image: /assets/images/
+template: '{"NAME":"AOFO Smart Plug Wifi","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B077998R6Y/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
