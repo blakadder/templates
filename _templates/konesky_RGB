@@ -2,7 +2,7 @@
 date_added: 2020-07-16
 title: Konesky 12V RGB
 model: 
-image: /assets/images/
+image: /assets/images/konesky_RGB.jpg
 template: '{"NAME":"RGBwifi","GPIO":[0,0,0,0,37,0,0,0,38,56,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32879806911.html?spm=a2g0s.8937460.0.0.11fb2e0e0vt6aA
 link2: https://www.amazon.co.uk/Controller-Google-Remote-Control-Compatible/dp/B07DCR97JN
