@@ -2,7 +2,7 @@
 date_added: 2020-07-20
 title: Novostella 7W 600lm
 model: UT55505-RGBCW-EU
-image: /assets/images/UT55505-RGBCW-EU.jpg
+image: /assets/images/novostella_UT55505.jpg
 template: '{"NAME":"Novostella E27","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07JYYCKCL/
 link2: 
