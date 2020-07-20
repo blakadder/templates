@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-19
+title: Laser 10W 1000lm
+model: LSH-B22WW10W
+image: /assets/images/laser_LSH-B22WW10W.jpg
+template: '{"NAME":"Laser 10W CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.laserco.com.au/categories/smart-home/smart-lighting/LSH-E27WW10W-laser-10w-smart-white-bulb-e27
+link2: 
+mlink: https://www.laserco.com.au/categories/smart-home/smart-lighting/LSH-E27WW10W-laser-10w-smart-white-bulb-e27
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: b22
+---
+Took a few tries to get the tuya-convert OTA update to work.

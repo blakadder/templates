@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-20
+title: Qualitel Mini
+model: HG01WT
+image: /assets/images/
+template: '{"NAME":"Qualitel HG01WT","GPIO":[56,0,57,0,0,133,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.qualitel.co.za/product/wifi-smart-plug-eu/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: za
+---
