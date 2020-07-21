@@ -3,7 +3,7 @@ date_added: 2019-09-03
 title: Shelly RGBW2
 category: light
 type: LED Controller
-standard: eu
+standard: global
 mlink: https://shelly.cloud/wifi-smart-shelly-rgbw-2/
 image: /assets/images/shelly_RGBW2.jpg
 template: '{"NAME":"Shelly RGBW2","GPIO":[0,0,52,0,40,255,0,0,37,17,39,38,0],"FLAG":0,"BASE":18}' 
