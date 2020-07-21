@@ -1,6 +1,6 @@
 ---
 date_added: 2020-03-29
-title: BNETA IoT
+title: BNETA IO-WIFI-PlugSA
 model: IO-WIFI-Plug-SA
 image: /assets/images/bneta_IO-WIFI-Plug-SA.jpg
 template: '{"NAME":"BNETA WifiPlug","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
