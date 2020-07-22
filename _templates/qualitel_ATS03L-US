@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-22
+title: Qualitel 3 Gang
+model: ATS03L-US
+image: /assets/images/qualitel_ATS03L-US.jpg
+template: '{"NAME":"Qualitel 3 Gang","GPIO":[157,0,54,10,22,11,0,0,9,21,53,23,52],"FLAG":0,"BASE":18}' 
+link: https://www.takealot.com/smart-light-switch-3-gang/PLID55064148
+link2: 
+mlink: https://www.qualitel.co.za/product/ats03l-us-wifi-smart-light-switch/
+flash: tuya-convert
+category: switch
+type: Switch
+standard: za
+---
+`Backlog SwitchMode1 4; SwitchMode2 4 ; SwitchMode3 4`

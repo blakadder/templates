@@ -1,0 +1,16 @@
+---
+date_added: 2020-07-21
+title: DD001-MINI(G)-IR-V03 
+model: 
+image: /assets/images/DD001-MINIG-IR-V03.jpg
+template: '{"NAME":"WIFI-RGB","GPIO":[17,0,0,0,0,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":40}' 
+link: https://www.aliexpress.com/item/4000052351082.html
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+
+[mainboard](https://imgur.com/a/pEd4ZAh)  "DD001-MINI(G)-IR-V03 LED Controller"
