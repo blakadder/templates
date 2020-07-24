@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-24
+title: Mimoodz A19 6.5W 
+model: 85077
+image: /assets/images/mimoodz_A19.jpg
+template: '{"NAME":"Miimoodz RGBCW LED","GPIO":[0,0,0,0,180,0,0,0,0,0,181,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B06XQ71HFD
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---
+`SetOption37 31` is needed to align the correct channels

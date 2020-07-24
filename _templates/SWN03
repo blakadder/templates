@@ -1,0 +1,17 @@
+---
+date_added: 2020-07-24
+title: Nightlight and AC Outlet  
+model: SWN03
+image: /assets/images/SWN03.jpg
+template: '{"NAME":"SWN03","GPIO":[17,0,0,0,0,0,255,255,37,0,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07D2BVF96/
+link2: https://www.amazon.com.au/Smart-Provide-Function-Individual-Control/dp/B07D2BVF96
+mlink: https://www.alibaba.com/product-detail/Smart-Socket-with-Night-Light-Function_60831108936.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: [us, eu]
+---
+[DigiblurDIY howto video](https://www.youtube.com/watch?v=5Oa27pCHtYo&t=244s)
+
+Branded under Lefun and Tessan.
