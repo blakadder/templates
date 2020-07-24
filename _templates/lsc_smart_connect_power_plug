@@ -11,5 +11,5 @@ flash: tuya-convert
 category: plug
 type: Plug
 standard: eu
-template-alt: '{"NAME":"LSC Smart Plug","GPIO":[255,255,255,255,56,255,0,0,21,255,17,255,255],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"LSC Smart Plug","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
 ---
