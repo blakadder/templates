@@ -14,7 +14,7 @@ standard: eu
 Issue command:
 
 ```console
-Backlog Ledtable 0, TuyaMCU 21,2
+Backlog Ledtable 0; TuyaMCU 21,2
 ```
 and wait for it to reboot
 
