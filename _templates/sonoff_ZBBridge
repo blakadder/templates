@@ -31,7 +31,7 @@ Backlog Weblog 3; Module 0; Template {"NAME":"Flash ZBBridge","GPIO":[56,208,0,2
 
 Wait for Tasmota to reboot. 
 
-You will have 2 toggle in the WebUI `Toggle 1` and `Toggle 2` in the Web UI.
+You will have 2 toggles in the WebUI `Toggle 1` and `Toggle 2`.
 
 In the Console, issue command `TCPStart 8888`. You should see `TCP: Starting TCP server on port 8888` message
 
