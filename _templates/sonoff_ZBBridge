@@ -85,6 +85,8 @@ Rule1 ON System#Boot do TCPStart 8888 endon
 
 You can change `8888` to a port you prefer.
 
+Enable rule with `Rule1 1`
+
 In Home Assistant ZHA integration select "Enter Manually" for serial port, "EZSP" as Radio Type and under port setting enter `socket://[your_ip]:8888` (or your port number if changed) and it should be discovered.
 
 ## Video instructions by NotEnoughTech
