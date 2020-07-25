@@ -60,6 +60,36 @@ Use a terminal program with XMODEM support such as [TeraTerm](https://ttssh2.osd
 
 Console will display many `TCP: from MCU: ...` messages until the Zigbee firmware upload is complete.
 
+If the upload doesn't start open another connection to the ZbBridge over telnet and you'll see:
+
+```bash
+Gecko Bootloader v1.A.3
+
+1. upload gbl
+2. run
+3. ebl info
+   BL >
+```
+
+You are in and then type `1`.
+
+The bootloader will start sending one C every second for one minute:
+
+```cmnd
+begin upload
+CCCC
+```
+
+When it starts sending C's select your firmware file and start the upload.
+If all its OK the bootloader will display:
+
+```bash
+Serial upload complete
+BL >
+```
+
+After that reboot the ZBBridge.
+
 ## For Tasmota
 After `ncp-uart-sw_6.7.6_115200.ota` is flashed apply the template
 
