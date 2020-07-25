@@ -13,11 +13,15 @@ category: misc
 type: Zigbee Bridge
 standard: global
 ---
+This device requires flashing the EFR32 device with EmberZNet Pro firmware using Tasmota's XMODEM implementation.
+
 <h3>Support for this device is experimental!!!</h3>
 
-Download latest [tasmota-zbbridge](https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota/tasmota-zbbridge.bin) binary built specifically for this device.
+Download latest [tasmota-zbbridge](https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota/tasmota-zbbridge.bin) binary built specifically for ZBBridge.
 
 Flash Tasmota over serial using the TX/RX/IO0 pads.
+
+![ZBBridge pinout](/assets/images/sonoff_ZBBridge_pinout.jpg)
 
 When the ESP8266 is flashed with it, configure Wifi, and go to the Tasmota Console. Type:
 
@@ -56,7 +60,8 @@ Use a terminal program with XMODEM support such as [TeraTerm](https://ttssh2.osd
 
 Console will display many `TCP: from MCU: ...` messages until the Zigbee firmware upload is complete.
 
-Apply the template
+## For Tasmota
+After `ncp-uart-sw_6.7.6_115200.ota` is flashed apply the template
 
 ```json
 {"NAME":"Sonoff ZbBridge","GPIO":[56,165,0,166,215,0,0,0,0,158,0,0,17],"FLAG":0,"BASE":75}
@@ -65,6 +70,22 @@ Apply the template
 or set `module 75`
 
 Follow [Zigbee](http://tasmota.github.io/docs/Zigbee) instructions for pairing and managing your devices
+
+## For Home Assistant ZHA
+After `ncp-uart-sw_6.5.5_115200.ota` is flashed apply the template
+
+```json
+{"NAME":"ZHA ZbBridge","GPIO":[56,208,0,209,59,58,0,0,0,0,0,0,17],"FLAG":0,"BASE":18}
+```
+
+Create a rule in Tasmota to start TCPBridge on boot
+```console
+Rule1 ON System#Boot do TCPStart 8888 endon
+```
+
+You can change `8888` to a port you prefer.
+
+In Home Assistant ZHA integration select "Enter Manually" for serial port, "EZSP" as Radio Type and under port setting enter `socket://[your_ip]:8888` (or your port number if changed) and it should be discovered.
 
 ## Video instructions by NotEnoughTech
 
