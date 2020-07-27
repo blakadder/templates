@@ -13,3 +13,18 @@ category: cover
 type: Curtain Switch
 standard: [eu, us]
 ---
+
+I didn't enable shutter support because I don't need. Can't guarantee if this configuration works with shutter support.
+
+```console
+switchmode1 4 # enable toggle first switch (first button)
+switchmode2 4 # enable toggle second switch (third button)
+
+pulsetime1 130 # 30 seconds of pulsetime for first switch
+pulsetime2 130 # 30 seconds of pulsetime for second switch
+pulsetime3 0   # 0 seconds for central button (pause)
+
+# IMPORTANT enable interlock for safety
+Backlog Interlock 1,2,3; Interlock ON
+```
+
