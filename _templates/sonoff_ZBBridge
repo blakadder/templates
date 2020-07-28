@@ -13,8 +13,6 @@ category: misc
 type: Zigbee Bridge
 standard: global
 ---
-This device requires flashing the EFR32 device with EmberZNet Pro firmware using Tasmota's XMODEM implementation.
-
 <h3>Support for this device is experimental!!!</h3>
 
 Download latest [tasmota-zbbridge](https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota/tasmota-zbbridge.bin) binary built specifically for ZBBridge.
