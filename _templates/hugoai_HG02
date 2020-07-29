@@ -12,17 +12,22 @@ category: light
 type: Light
 standard: global
 ---
-Flash Tasmota via Tuya-Convert, complete the initial wifi configuration and enter the WebGUI.
+Flash Tasmota via Tuya-Convert or follow the guide for manual tywe3s flashing (https://tasmota.github.io/docs/devices/TYWE3S)
+Complete the initial wifi configuration and enter the WebGUI.
 
 Set `Module 54` or apply the template. Save the configuration and wait for reboot.
 
 TuyaMCU dpID:
 
 - 20 = Light Switch
-- 21 = ? (Timer Switch?)
+- 21 = Mode Controller ("00" RGBW, "01" RGB, "02" RGBW-Pulse)
 - 22 = Light Dimmer
 - 23 = White Color (Cold White "000001F4", Mild White "000001F4", Warm (Sunset) White "00000000")
 - 24 = RGB
+
+Warning:
+Do not change color settings without switching the mode controller on preffered mode first.
+Can cause random glitches. (eg: RGB set as low point for RGBW)
 
 
 ## Configuration
