@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-29
+title: Arlec Smart 10W LED Bunker
+model: ABL015HA
+image: /assets/images/arlec_ABL015HA.jpg
+template: '{"NAME":"DetaBulkhead","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-grid-connect-smart-10w-led-bunker-light_p0119822
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---

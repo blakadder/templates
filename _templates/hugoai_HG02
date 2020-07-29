@@ -1,0 +1,35 @@
+---
+date_added: 2020-07-28
+title: Hugoai Table Lamp 
+model: HG02 
+image: /assets/images/hugoai_HG02.jpg
+template: '{"NAME":"HG02","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/dp/B07Q8SMG8R/
+link2: https://www.amazon.com/HUGOAI-Dimmable-Bedside-Nursery-Required/dp/B07QK9LG1H
+mlink: https://www.hugo-ai.com/copy-of-basic-table-lamp-grey-1
+flash: tuya-convert
+category: light
+type: Light
+standard: global
+---
+Flash Tasmota via Tuya-Convert, complete the initial wifi configuration and enter the WebGUI.
+
+Set `Module 54` or apply the template. Save the configuration and wait for reboot.
+
+TuyaMCU dpID:
+
+- 20 = Light Switch
+- 21 = ? (Timer Switch?)
+- 22 = Light Dimmer
+- 23 = White Color (Cold White "000001F4", Mild White "000001F4", Warm (Sunset) White "00000000")
+- 24 = RGB
+
+
+## Configuration
+Enter in console:
+
+```console
+Backlog TuyaMCU 11,20; TuyaMCU 21,22; Dimmerrange 34,1000 
+```
+
+Gives mapping for on/off switch and light Dimming

@@ -1,15 +1,12 @@
 ---
 date_added: 2019-04-15
 title: Kogan 10W Cool & Warm White 1050lm
-Reference: KASB10WB22HA
+model: KASB10WB22HA
 type: CCT
 category: bulb
 standard: b22
 link: https://www.kogan.com/au/buy/kogan-smarterhome-10w-white-smart-bulb-b22/
 image: https://user-images.githubusercontent.com/5904370/56110927-779b3f80-5f56-11e9-92f2-8b6993b8b1d9.png
-template: '{"NAME":"Kogan 10W CCT","GPIO":[0,0,0,0,0,37,0,0,0,47,0,0,0],"FLAG":0,"BASE":48}' 
+template: '{"NAME":"Kogan 10W CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48}' 
 link2: 
 ---
-Reference: KASB10WE27HA or KASB10WB22HA
-
-This uses PWM1 for Bightness & PWM2i for Color , hence the template uses Xiomi Philips (48) as it's Base.
