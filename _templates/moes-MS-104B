@@ -6,21 +6,26 @@ type: Relay
 standard: global
 link: https://www.banggood.com/MoesHouse-DIY-WiFi-Smart-2-Way-2-Gang-Light-LED-Dimmer-Module-Smart-Switch-Smart-LifeTuya-APP-Remote-Control-Work-with-Alexa-Google-Home-p-1591703.html
 image: https://user-images.githubusercontent.com/39533759/65378668-22f5b080-dcbc-11e9-9401-8d906b204914.jpg
-template: '{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,10,9,21,22,0],"FLAG":0,"BASE":18}'
 link2: 
 mlink: https://www.moeshouse.com/products/wifi-smart-light-switch-diy-breaker-module-smart-life-tuya-app-remote-control-working-with-alexa-echo-google-home-2-gang-2-way-3
 ---
-Some devices labelled [Moes MS-104](unsupported/moes-MS-104) are using a wi-fi chip unsupported by Tasmota.
+**Some devices labelled [Moes MS-104](unsupported/moes-MS-104) are using a wi-fi chip unsupported by Tasmota.**
 
-The device use frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip.  
+This device uses frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip.  
 
-There are three ways to use this module with Tasmota. One way is to modify Tasmota sources with very simple instructions, the second is to use a new feature introduced in Tasmota 8.4.0 (George) and another way to use scripts.
+Tasmota introduced AC detection feature in 8.4 to handle this kind of switching. This template will not work for older version and you will have to use the deprecated scripting solution.
 
-For the first way, see [simple instructions here](https://www.rodic.si/tasmota-tuya-shutters-arduino-ac-line/) or watch the [video on Youtube](https://youtu.be/cBtZAbc9_q8). These instructions were created by [Rok Rodic](https://www.rodic.si/).
+After applying the template you have to enable AC detection in the switch debouncing code. 'SwitchDebounce 69' is a good place to start (see the ['SwitchDebounce'](https://tasmota.github.io/docs/Commands/#switchdebounce) command for details), which means 3 pulses (60 msec) to turn on or off. After this modification, you can use them as regular switches (e.g. you can set 'SwitchMode', or do anything you can do with a regular switch).
 
-For the second way, you should use a different template replacing counters with switches and let the newly introduced AC detection feature handle everything. Change Counter1 to Switch1 and Counter2 to Switch2. Here's a modified template:
-'{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,10,9,21,22,0],"FLAG":0,"BASE":18}'
-After that, you have to enable the AC detection in the switch debouncing code (see the 'SwitchDebounce' command for details). 'SwitchDebounce 69' is a good place to start, which means 3 pulses (60 msec) to turn on or off. After this modification, you can use them as regular switches (e.g. you can set 'SwitchMode', or do anything you can do with a regular switch).
+
+# Deprecated way of handling switching
+Use on Tasmota versions 8.3.1 and lesser
+
+Use template
+```json
+'{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18}' 
+```
 
 Another way to do similar thing is to use scripts. Script is not supported with precompiled binary (at least 8.3) so you have to compile your own fw or download it (tasmota-scripting.bin) from [tasmota/binaries](https://github.com/tasmota/binaries). After that, you will have an option to add a script in Tasmota GUI: Configuration/Edit Script
 Below are scripts which do something like switchmode4, switchmode1 and switchmode0. The script for switchmode4 is created by @thxthx0, switchmode1 @caccia78 and @cHunter789, switchmode0 @antonio-fiol
