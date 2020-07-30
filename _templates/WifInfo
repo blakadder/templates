@@ -1,0 +1,19 @@
+---
+date_added: 2020-07-30
+title: WifInfo - Teleinfo Server
+model: 
+image: /assets/images/WifInfo.jpg
+template: '{"NAME":"WifInfo","GPIO":[7,255,255,208,6,5,255,255,255,255,255,255,255],"FLAG":15,"BASE":18}' 
+link: 
+mlink: https://github.com/hallard/WifInfo
+flash: serial
+category: misc
+type: DIY
+standard: fr
+---
+
+This is a DIY server board for Teleinfo French Meter Measure Library, it can be used as a stand alone device web server that can display/send Teleinfo information.
+
+![Board image](/assets/images/WifInfo-board.jpg)
+
+See the dedicated [blog](http://hallard.me/category/tinfo/) about French Teleinformation Energy meter.

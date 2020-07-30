@@ -1,9 +1,9 @@
 ---
-date_added: 2020-07-31
+date_added: 2020-08-11
 title: Sonoff ZBBridge
 model: M08020700017
 image: /assets/images/sonoff_ZBBridge.jpg
-template: '{"NAME":"Sonoff ZbBridge","GPIO":[56,165,0,166,215,0,0,0,0,158,0,0,17],"FLAG":0,"BASE":75}' 
+template: '{"NAME":"Sonoff ZbBridge","GPIO":[56,165,0,166,215,0,0,0,6,158,5,0,17],"FLAG":0,"BASE":75}' 
 link: https://www.itead.cc/sonoff-zbbridge.html
 link2: https://www.aliexpress.com/af/sonoff-zbbridge.html
 link3: https://www.banggood.com/SONOFF-ZBBridge-Smart-Bridge-p-1674754.html
@@ -39,13 +39,7 @@ Zigbee module firmware is located in [`Tasmota/tools/fw_zbbridge/`](https://gith
 Be patient and wait for a few minutes until flashing is complete. Tasmota will reboot once it is and the console will show Zigbee2Tasmota starting. Follow further instructions depending on your chosen use method.
 
 ## For Tasmota
-After `ncp-uart-sw_6.7.6_115200.ota` is flashed set `Module 75` or apply the template:
-
-
-```json
-{"NAME":"Sonoff ZbBridge","GPIO":[56,165,0,166,215,0,0,0,0,158,0,0,17],"FLAG":0,"BASE":75}
-```
-
+After `ncp-uart-sw_6.7.6_115200.ota` is flashed set `Module 75`.
 
 Follow [Zigbee](http://tasmota.github.io/docs/Zigbee) instructions for pairing and managing your devices
 
