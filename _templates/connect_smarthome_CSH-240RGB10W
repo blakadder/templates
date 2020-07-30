@@ -3,7 +3,7 @@ date_added: 2019-12-25
 title: Connect SmartHome CSH-240RGB10W
 model: CSH-240RGB10W
 image: https://azcd.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/c/s/csh-240rgb10w-connect-smart-204v-rgb-downlight-2.jpg
-template: '{"NAME":"Connect1","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"CSH-240RGB10W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
 link: https://www.harveynorman.com.au/connect-smart-204v-rgb-led-downlight.html
 link2: https://www.laserco.com.au/smart-home/SMT-RGBDL24-L-laser-smart-rgb-downlight-240v
 mlink: 

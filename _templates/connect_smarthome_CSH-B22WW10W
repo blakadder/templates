@@ -1,16 +1,18 @@
 ---
 date_added: 2019-12-02
-title: Connect Smart 10W
-model:
+title: Connect SmartHome 10W White
+model: CSH-B22WW10W
 image: https://azcd.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/c/s/csh-b22ww10w-connect-smart-white-led-light-bulb.jpg
 template: '{"NAME":"CSH-B22WW10W","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.harveynorman.com.au/connect-smart-10w-b22-white-led-light-bulb.html
-link2: 
-mlink: 
+link2: https://www.laserco.com.au/categories/smart-home/smart-lighting/LSH-B22WW10W-laser-10W-Smart-White-Bulb-B22
+mlink: https://www.connectsmarthome.com.au/lighting.html
 flash: tuya-convert
 category: bulb
-type: Dimmable
+type: CCT
 standard: b22
 ---
 
-Reference: CSH-B22WW10W
+User's guide: https://www.connectsmarthome.com.au/guides/lights/CSH%20User%20Manual%20-%20E27%20B22.pdf
+
+The photographs on the manufacturer website show 900 lumens, but in store the boxes say 1000 lumens.
