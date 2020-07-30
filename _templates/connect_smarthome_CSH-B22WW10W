@@ -1,13 +1,16 @@
 ---
 date_added: 2019-12-02
-title: Connect Smart 10W 
+title: Connect Smart 10W
+model:
+image: https://azcd.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/c/s/csh-b22ww10w-connect-smart-white-led-light-bulb.jpg
+template: '{"NAME":"CSH-B22WW10W","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.harveynorman.com.au/connect-smart-10w-b22-white-led-light-bulb.html
+link2: 
+mlink: 
+flash: tuya-convert
 category: bulb
 type: Dimmable
 standard: b22
-link: https://www.harveynorman.com.au/connect-smart-10w-b22-white-led-light-bulb.html
-image: https://azcd.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/c/s/csh-b22ww10w-connect-smart-white-led-light-bulb.jpg
-template: '{"NAME":"CSH-B22WW10W","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
-link2: 
 ---
 
 Reference: CSH-B22WW10W
