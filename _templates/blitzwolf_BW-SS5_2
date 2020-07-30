@@ -12,4 +12,4 @@ category: relay
 type: Relay
 standard: global
 ---
-This is a [MOES MS-104B](https://templates.blakadder.com/moes-MS-104B.html) clone working perfectly with Tasmota.
+This is a [MOES MS-104B](moes-MS-104B) clone. Requires Tasmota 8.4 for the AC detection feature to work.
