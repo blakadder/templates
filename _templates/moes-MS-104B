@@ -12,7 +12,7 @@ mlink: https://www.moeshouse.com/products/wifi-smart-light-switch-diy-breaker-mo
 ---
 **Some devices labelled [Moes MS-104](unsupported/moes-MS-104) are using a wi-fi chip unsupported by Tasmota.**
 
-This device uses AC frequency detection circuits on switch inputs supported since Tasmota 8.4+ 
+This device uses AC frequency detection circuits on switch inputs supported since Tasmota 8.4. 
 
 After applying the template enable AC frequency detection feature using ['SwitchDebounce'](https://tasmota.github.io/docs/Commands/#switchdebounce) command. 'SwitchDebounce 69' is a good place to start, which means 3 pulses (60 milliseconds) to switch on or off. When this feature is enabled, you can use them as regular switches (set 'SwitchMode', use in rules and do anything you can do with a regular switch).
 
