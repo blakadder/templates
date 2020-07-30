@@ -3,9 +3,9 @@ date_added: 2020-07-19
 title: Connect SmartHome 10W 900lm
 model: CSH-E27WW10W
 image: /assets/images/connect_smarthome_CSH-E27WW10W.jpg
-template: '{"NAME":"Connect CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48}' 
+template: '{"NAME":"CSH-E27WW10W","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.harveynorman.com.au/connect-smart-10w-e27-white-led-light-bulb.html
-link2: 
+link2: https://www.laserco.com.au/categories/smart-home/smart-lighting/LSH-E27WW10W-laser-10W-Smart-White-Bulb-E27
 mlink: https://www.connectsmarthome.com.au/guides/lights/CSH%20User%20Manual%20-%20E27%20B22.pdf
 flash: tuya-convert
 category: bulb
