@@ -3,7 +3,7 @@ date_added: 2020-07-30
 title: WifInfo - Teleinfo Server
 model: 
 image: /assets/images/WifInfo.jpg
-template: '{"NAME":"WifInfo","GPIO":[7,255,255,208,6,5,255,255,255,255,255,255,255],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"WifInfo","GPIO":[7,255,255,210,6,5,255,255,255,255,255,255,255],"FLAG":15,"BASE":18}' 
 link: 
 mlink: https://github.com/hallard/WifInfo
 flash: serial
