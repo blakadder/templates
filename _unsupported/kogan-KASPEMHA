@@ -1,0 +1,13 @@
+---
+date_added: 2020-07-31
+title: Kogan KAWFSWT2GA 2 Gang Switch
+model: KASPEMHA
+category: unsupported
+standard: au
+flash: Rtl8710bn WR3
+link: https://www.kogan.com/au/buy/kogan-smarterhome-smart-touch-light-2-switch-gang/
+image: https://assets.kogan.com/files/product/2020/KAWFSWT2GA/KAWFSWT2GA_hero_v4.jpg?auto=webp&canvas=1200%2C800&fit=bounds&height=800&quality=75&width=1200
+link2: 
+---
+
+It is very likely that 1 Gang and 3 Gang versions have WR3 module as well and are not flashable with Tasmota.
