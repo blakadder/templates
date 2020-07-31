@@ -1,15 +1,16 @@
 ---
 date_added: 2020-06-17
-title: Connect SmartHome 5W 
+title: Connect SmartHome 5W
 model: CSH-E14RGB5W
 image: /assets/images/connect_smarthome_CSH-E14RGB5W.jpg
-template: '{"NAME":"Connect CSH-E1","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"CSH-E14RGB5W","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.harveynorman.com.au/connect-smart-5w-e14-rgb-led-bulb.html
-link2: 
+link2: https://www.laserco.com.au/categories/smart-home/smart-lighting/LSH-E14RGB5W-laser-5W-Smart-RGB-Bulb-E14
 mlink: https://www.connectsmarthome.com.au/lighting.html
 flash: tuya-convert
 category: bulb
 type: RGBW
 standard: e14
 ---
+
 Enter flash mode ON-OFF-ON-OFF-ON, light will start blinking
