@@ -1,6 +1,6 @@
 ---
 date_added: 2020-06-17
-title: Connect SmartHome 5W RGBW
+title: Connect SmartHome 5W
 model: CSH-E14RGB5W
 image: /assets/images/connect_smarthome_CSH-E14RGB5W.jpg
 template: '{"NAME":"CSH-E14RGB5W","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 

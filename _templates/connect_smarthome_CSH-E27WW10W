@@ -1,6 +1,6 @@
 ---
 date_added: 2020-07-19
-title: Connect SmartHome 10W White
+title: Connect SmartHome 10W
 model: CSH-E27WW10W
 image: /assets/images/connect_smarthome_CSH-E27WW10W.jpg
 template: '{"NAME":"CSH-E27WW10W","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 

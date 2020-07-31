@@ -1,6 +1,6 @@
 ---
 date_added: 2020-07-31
-title: Connect SmartHome 10W RGBW
+title: Connect SmartHome 10W
 model: CSH-B22RGB10W
 image: https://azcd.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/c/s/csh-b22rgb10w-connect-smart-rgb-led-light-bulb-2.jpg
 template: '{"NAME":"CSH-B22RGB10W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
