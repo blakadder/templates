@@ -1,15 +1,20 @@
 ---
 date_added: 2020-07-19
-title: Connect SmartHome 10W 900lm
+title: Connect SmartHome 10W
 model: CSH-E27WW10W
 image: /assets/images/connect_smarthome_CSH-E27WW10W.jpg
 template: '{"NAME":"CSH-E27WW10W","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.harveynorman.com.au/connect-smart-10w-e27-white-led-light-bulb.html
 link2: https://www.laserco.com.au/categories/smart-home/smart-lighting/LSH-E27WW10W-laser-10W-Smart-White-Bulb-E27
-mlink: https://www.connectsmarthome.com.au/guides/lights/CSH%20User%20Manual%20-%20E27%20B22.pdf
+mlink: https://www.connectsmarthome.com.au/lighting.html
 flash: tuya-convert
 category: bulb
 type: CCT
 standard: e27
 ---
+
+User's guide: https://www.connectsmarthome.com.au/guides/lights/CSH%20User%20Manual%20-%20E27%20B22.pdf
+
+The photographs on the manufacturer website show 900 lumens, but in store the boxes say 1000 lumens.
+
 In order to put the device into pairing mode (rapid flashing), it was necessary to use official the TuyaSmart app to reset & wipe it.
