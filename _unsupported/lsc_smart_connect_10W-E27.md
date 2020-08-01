@@ -1,6 +1,6 @@
 ---
 date_added: 2020-08-01
-title: LSC 10W 806lm Warm and cool white E27
+title: LSC 10W 806lm E27
 model: Art. No. 970715 v1.0
 category: unsupported
 type: Bulb
