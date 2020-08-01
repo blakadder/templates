@@ -1,6 +1,6 @@
 ---
 date_added: 2020-07-26
-title: Mirabella Genio USB Port and Plug
+title: Mirabella Genio USB Port
 model: I002341
 image: /assets/images/mirabella_genio_I002341.jpg
 template: '{"NAME":"Genio I002341","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":1}' 
