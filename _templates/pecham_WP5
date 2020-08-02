@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-02
+title: Pecham WP5
+model: 
+image: /assets/images/pecham_WP5.jpg
+template: '{"NAME":"Pecham WP5","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B078GLNVJ1
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

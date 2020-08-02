@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-01
+title: Hikenri 7W 640lm
+model: R60
+image: /assets/images/hikenri_R60.jpg
+template: '{"NAME":"HIKENRI E27 RGB","GPIO":[17,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
+link: https://www.amazon.com/gp/product/B06XVMRJKQ/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
