@@ -105,28 +105,35 @@ layout: default
 </div>
 <div>
   <BR>
-    {% assign template = page.template | split: ':' %}
-    {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-    {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
+  {% if page.flash contains tuya-convert %}
+  If the manufacturer started using newest Tuya firmware, Tuya-Convert might [not be possible](https://github.com/ct-Open-Source/tuya-convert/issues/483) for this device anymore. <br>
+  If you can easily open the device you can serial flash Tasmota, even without soldering [using a flashing jig](https://www.digiblur.com/2020/07/free-your-smart-devices-from-cloud.html).
+  <p>
+  {% endif %}
+
+  {% assign template = page.template | split: ':' %}
+  {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+  {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
 
   For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
   <p>
   {% endif %}
 
-  {% if page.type contains 'Curtain Switch' %}
+  {% if page.type contains 'Curtain Switch' and page.template does not contain '"BASE":54' %}
   Requires enabled <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support</a> in Tasmota.
   <p>
   {% endif %}
+
   {% if page.template contains '"BASE":73' %}
   Requires enabled <a href="https://tasmota.github.io/docs/PWM-dimmer-switch/">PWM Dimmer support</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
   <p>
   {% endif %}
-{% if page.title contains Teckin %}
-<b>ADVISORY NOTICE!!!</b> Teckin has started using unsupported non-ESP8266 chips in their devices since December 2019. 
-{% endif %}
-{% if page.title contains Girier %}
-<b>ADVISORY NOTICE!!!</b> Girier has started using unsupported non-ESP8266 chips in their devices since April 2020. 
-{% endif %}
+
+
+
+  {% if page.title contains Teckin %}
+  <b>NOTICE!!!</b> Teckin has started using unsupported non-ESP8266 chips in their devices since December 2019. 
+  {% endif %}
 
 
 {{ content | markdownify }} 
