@@ -1,0 +1,29 @@
+---
+date_added: 2020-08-05
+title: MagicHome 7.5W Warm White
+model: ZJ-8C2B-CCT-AV1.1
+image: /assets/images/magichome_ZJ-8C2B-CCT-AV1.1.jpg
+template: '{"NAME":"ZJ-8C2B-CCT-AV1.1","GPIO":[0,0,0,0,0,0,0,0,37,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001282696227.html
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: Dimmable
+standard: e27
+---
+This bulb uses the MagicHome app and cannot be Tuya-Converted. It can only be serial flashed and due to the difficult to access pads soldering is not easy. While it was cheap and it has very good thermal mass due to the base being all metal it's not really worth the trouble for a dimmable warm white bulb.
+
+## Serial Flash
+
+Remove plastic dome by prying it out, you need to apply force to pop it out.
+
+Unsolder the red and yellow wires and unscrew the LED PCB. Under it is the power supply and the ESP-M2 Wi-Fi module.
+
+Pull out the metal base to make it easier to work with.
+
+There are marked pads for TX, RX, GND and IO0 that can be soldered to with some finagling and a small tip. VCC pad is next to GND but it is very hard to reach. You can use the red wire you previously unsoldered to connect to VCC but you will need to power it from a separate 5V power source.
+
+Connect TX, RX and GND to your serial-to-USB adapter and connect IO0 to GND. You can now flash Tasmota.
+
+![](/assets/images/magichome_ZJ-8C2B-CCT-AV1.1_flashing.jpg)
