@@ -3,7 +3,7 @@ date_added: 2020-08-04
 title: Eardatek EDM-01AA-EU
 category: unsupported
 type: Dimmer
-image: /assets/images/eardatek_EDM-01AA-EU.jpg
+image: /assets/images/Eardatek_EDM-01AA-EU.jpg
 mlink: https://www.alibaba.com/product-detail/European-standard-dimmer-switch-for-LED_62308423570.html
 link: https://www.aliexpress.com/item/4001093399451.html
 link2: https://www.aliexpress.com/item/4001283464467.html
