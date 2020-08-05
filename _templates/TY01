@@ -12,6 +12,7 @@ category: misc
 type: Sensor
 standard: global
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 This is a Tuya battery powered contact (door or window) sensor. Runs on two AAA batteries (not supplied with the device). 
 
@@ -82,4 +83,3 @@ There is a significant delay (~5s on my network with the latest stripped down bi
 
 If the batteries are too weak, sensor might be stuck in a bootloop or spawn an ESP-XXXXX AP. The bootloop can reset Tasmota to "factory defaults". You can disable bootloop protection with `SetOption36 0` but that might also put the sensor in a permanent bootloop until the battery dies.
 
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

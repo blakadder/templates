@@ -11,6 +11,8 @@ template: '{"NAME":"LC-ESP12-1R-MV","GPIO":[255,255,157,255,255,21,255,255,255,2
 link2: https://www.banggood.com/ESP-12F-ACDC-Power-Supply-ESP8266-AC90-250VDC7-12VUSB5V-WIFI-Single-Relay-Module-Development-Board-p-1619454.html
 mlink: http://www.chinalctech.com/m/view.php?aid=472
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 This dev board can be powered by AC 90V-250V，DC 7-12V or DC 5V via microUSB. Choose only one of the three!
 
 Led2i is connected to GPIO15. You can unassign it or control it using "LedPower2" command.

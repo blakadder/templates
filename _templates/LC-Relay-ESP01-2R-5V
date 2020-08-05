@@ -11,7 +11,10 @@ link: https://www.banggood.com/5V-ESP8266-Dual-WiFi-Relay-Module-Internet-Of-Thi
 link2: https://www.amazon.com/WINGONEER%C2%AE-2-Channel-WiFi-Relay-Module/dp/B07H4H4MPK
 mlink: http://www.chinalctech.com/m/view.php?aid=24
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 ![PCB Identification](https://user-images.githubusercontent.com/5904370/73104270-552b4f00-3ef6-11ea-87ca-9f48511aa04c.png)
+
 ### Flashing
 Remove ESP01 from the relay PCB and connect it to your USB-to-serial adapter according to the image and flash Tasmota on it.
 ![Flashing](https://user-images.githubusercontent.com/5904370/73103006-5d35bf80-3ef3-11ea-9ec2-152c973bcfd5.png)

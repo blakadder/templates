@@ -11,14 +11,17 @@ flash: serial
 category: switch
 type: Switch
 standard: eu
+author: blak
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b>
+</div>
 
-Switch is running on eWeLink app and needs to be serial flashed (it cannot be Tuya-Converted). This is not an easy job because it requires soldering TX and RX directly to ESP8285 chip pins.
+This switch is running on eWeLink app and needs to be serial flashed (cannot be Tuya-Converted). In this case that is not an easy job because it requires soldering TX and RX directly to ESP8285 chip pins.
 
 VCC and GND are found on the AMS1117 voltage regulator and GPIO has to be grounded on the ESP8285 directly.
 
 [![](/assets/images/minitiger_MT-W601-N-D01-W_pinout.jpg)](/assets/images/minitiger_MT-W601-N-D01-W_pinout.jpg)
 
-Buzzer is controlled through the [Atmel 920 24C02N SU27](http://www.datasheet-pdf.info/entry/24C02N) EEPROM and is not connected to an ESP8285 GPIO.
+Buzzer is controlled through the [Atmel 920 24C02N SU27](http://www.datasheet-pdf.info/entry/24C02N) EEPROM and is not connected to an ESP8285 GPIO. Red LEDs for each switch are tied to the relay and cannot be controlled.
 
 Once flashed you can still use 433 MHz RF. To pair a remote hold the button you want to map for 5 seconds until you hear a "beep", press the button on the remote and another "beep" will sound as confirmation of successful pairing.
