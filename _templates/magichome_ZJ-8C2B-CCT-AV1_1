@@ -14,7 +14,7 @@ standard: e27
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
-This bulb uses the MagicHome app and cannot be Tuya-Converted. It can only be serial flashed and due to the difficult to access pads soldering is not easy. While it was cheap and it has very good thermal mass due to the base being all metal it's not really worth the trouble for a dimmable warm white bulb.
+This bulb uses the MagicHome app and cannot be Tuya-Converted. It can only be serial flashed and soldering is not easy due to the difficult to access pads. While it is cheap and has a surprisingly good thermal mass with an all metal base, it's not really worth the trouble for a dimmable warm white bulb.
 
 ## Serial Flash
 
