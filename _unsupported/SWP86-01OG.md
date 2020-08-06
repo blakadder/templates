@@ -7,5 +7,6 @@ link2:
 mlink: 
 flash: W600
 category: unsupported
+type: Wall Outlet
 ---
 ![](https://ae01.alicdn.com/kf/H74f6f7c528a5482d8686f46ddb75a11bt.jpg)
