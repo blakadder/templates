@@ -28,6 +28,7 @@ Post Tasmota version 6.6.0.10, additional steps are needed:
   - Dimming Mode 1: `SerialSend5 55AA00060005040400010013`
   - Dimming Mode 2: `SerialSend5 55AA00060005040400010114`
   - Dimming Mode 3: `SerialSend5 55AA00060005040400010215`
+6. To have a correct mapping of percentages, send that command `ledtable 0`.
 
 To see the current minimum brightness and dimmer mode, enter: ```BackLog WebLog 4;SerialSend5 55aa0001000000``` (to return to default log level after, enter ```WebLog 2```).
 
