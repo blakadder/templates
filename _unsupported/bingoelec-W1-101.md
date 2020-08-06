@@ -1,6 +1,6 @@
 ---
 date_added: 2020-01-14
-title: Bingoelec W1-101 1 Gang 1 Way Switch
+title: Bingoelec W1-101 1 Way 1 Gang  
 category: unsupported
 type: Switch
 link: https://www.aliexpress.com/item/32975572212.html
