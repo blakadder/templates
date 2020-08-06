@@ -1,0 +1,36 @@
+---
+date_added: 2020-08-07
+title: BlitzWolf A70 9W 900lm
+model: BW-LT29
+link: https://www.banggood.com/BlitzWolf-BW-LT29-E27-Smart-LED-Bulb-CW+WW-Dual-Color-9W-900LM-WiFi-APP-Lamp-Supports-Alexa-Google-Assistant-AC100-240V-p-1654133.html
+image: /assets/images/blitzwolf_BW-LT29.jpg
+template: '{"NAME":"BW-LT29","GPIO":[0,0,0,0,0,0,0,0,0,38,0,37,0],"FLAG":0,"BASE":18}'
+link2: https://www.aliexpress.com/item/4000923684003.html
+mlink: https://www.blitzwolf.com
+flash: serial
+category: bulb
+type: CCT
+standard: e27
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+## Serial Flashing
+Tuya-Convert did not work on this bulb due to new hardware. To flash this bulb you'll need to solder only two wires but they will be tricky.
+
+Pop the diffuser dome by using a plastic prying tool to circle around the base which will loosen the glue and make the dome easy to remove.
+
+[![](/assets/images/blitzwolf_BW-LT29_remove_dome.jpg)](/assets/images/blitzwolf_BW-LT29_remove_dome.jpg)
+
+Lift up the top PCB, it is not screwed on or soldered to the base. The connection is made with the 8 pin head visible.
+
+[![](/assets/images/blitzwolf_BW-LT29_remove_top.jpg)](/assets/images/blitzwolf_BW-LT29_remove_top.jpg)
+
+RX, TX and IO0 are nicely labelled on the wifi board and have small pinholes that can fit breadboard jumper cables. 
+
+[![](/assets/images/blitzwolf_BW-LT29_cables.jpg)](/assets/images/blitzwolf_BW-LT29_cables.jpg)
+
+Now comes the tricky part: to get VCC and GND youneed to solder to the wifi board header joints. There is GND and VCC on the green PCB that connect to the 8 pin header but they don't power the ESP8266 properly. There's probably some voltage regulation in between but I didn't examine it further.
+
+All broken out ESP8266 pins are labelled on the other side. In my image VCC is the orange wire and GND the black one.
+
+[![](/assets/images/blitzwolf_BW-LT29_pinout.jpg)](/assets/images/blitzwolf_BW-LT29_pinout.jpg)
