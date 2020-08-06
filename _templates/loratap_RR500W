@@ -10,5 +10,5 @@ mlink: https://www.loratap.com/tuya-smart-life-wifi-smart-ligh-switch-relay-modu
 flash: tuya-convert
 category: relay
 type: Relay
-standard: eu
+standard: global
 ---

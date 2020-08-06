@@ -100,14 +100,11 @@ layout: default
 </div>
 </div>
 {% endif %}
-<div class="float-right">
-  <a href="https://twitter.com/intent/tweet?screen_name=blakadder_&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-text="{{ page.url }} template is " data-show-count="false">Tweet to @blakadder_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
 <div>
   <BR>
   {% if page.flash == 'tuya-convert' %}
-  If the manufacturer started using newest Tuya firmware, Tuya-Convert might <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">not be possible</a> for this device anymore. <br>
-  You can still serial flash Tasmota, even without soldering <a href="https://www.digiblur.com/2020/07/free-your-smart-devices-from-cloud.html">using a flashing jig</a>, if the device is easily opened.
+  Tuya-Convert might <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">not be possible</a> for this device if the manufacturer started using newest Tuya firmware since this template was published. 
+  Instead you can likely serial flash Tasmota without soldering with <a href="https://www.digiblur.com/2020/07/free-your-smart-devices-from-cloud.html">a flashing jig</a>, if the device is easily opened.
   <p>
   {% endif %}
 

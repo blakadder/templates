@@ -12,6 +12,8 @@ category: cover
 type: Curtain Switch
 standard: eu
 ---
+As of August 2020 model SC400W-EU V3 does not have an ESP chip anymore.
+
 ```haskell
 # GPIO3  Button3 Pause
 # GPIO5  Button1 Open

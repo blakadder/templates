@@ -1,7 +1,7 @@
 ---
 date_added: 2020-01-22
-title: Mirabella Genio I002747 G95 470lm
-model: 
+title: Mirabella Genio G95 5W 470lm
+model: I002747
 image: https://user-images.githubusercontent.com/5904370/72943218-c263a680-3d75-11ea-81b9-bda6d989203f.png
 template: '{"NAME":"Genio Filament","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-5w-led-bulb/2746328

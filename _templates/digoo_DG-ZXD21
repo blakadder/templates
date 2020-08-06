@@ -12,8 +12,8 @@ mlink:
 link: https://www.banggood.com/APP-Powered-by-Tuya-DIGOO-DG-ZXD21-Independent-WIFI-Door-Window-Sensor-Detection-Smart-Home-Security-System-Kits-p-1557162.html
 link2: https://www.aliexpress.com/item/4000141849551.html
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
-Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
 This is a Tuya/Smart Life battery powered contact (door or window) sensor. Runs on two AAA batteries (not supplied with the device).
 
@@ -51,6 +51,8 @@ RST is supposed to be pulled high only on boot but in my case it had to be conne
 ![Internals](/assets/images/digoo_DG-ZXD21_wiring.jpg)
 
 ## Configuration
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
 To make the configuration process easier you can use the Configuration button to prevent the ZXD21 from turning off for 30 seconds.
 
 Change device to a TuyaMCU module using `Module 54` command (or apply the provided template, result is the same)
@@ -120,5 +122,3 @@ There is a significant delay (~4s on my network with the latest stripped down bi
 If the batteries are weak sensor might be stuck in a bootloop or spawn an ESP-XXXXX AP. The bootloop can reset Tasmota to "factory defaults". You can disable bootloop protection with `SetOption36 0` but that might also put the sensor in a permanent bootloop until the battery dies.
 
 Due too all the possibilites of resets and configuration corruptions a custom binary with all important information precompiled is the best solution.
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

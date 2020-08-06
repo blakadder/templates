@@ -12,6 +12,8 @@ category: bulb
 type: RGBCCT
 standard: e27
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 This light bulb has a built-in IR receiver connected to a GPIO which opens up many possibilities.  You could theoretically use your TVs remote to control the bulb.
 
 <img src="/assets/images/blitzwolf_BW-LT27-remote.jpg" style="float:left;padding:5px">

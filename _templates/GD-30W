@@ -10,6 +10,8 @@ image: https://user-images.githubusercontent.com/5904370/67516743-73887100-f6a1-
 template: '{"NAME":"GD-30W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
 mlink: https://www.alibaba.com/product-detail/300ML-WiFi-Aroma-Diffuser-Ultrasonic-Humidifier_60781628200.html
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
 There are a few different looking devices using the same PCB marked GD-HDFW05-v1.0 so this process should work on those. 
@@ -199,5 +201,3 @@ Red1
 Red2 (darker)
     55aa000600126c03000e666630303030303030306666666678
 ```
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

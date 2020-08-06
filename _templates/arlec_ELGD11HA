@@ -7,8 +7,9 @@ template: '{"NAME":"Arlec Batten","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"
 link: https://www.bunnings.com.au/arlec-smart-40w-4000lm-led-batten-light-with-grid-connect_p0117511
 link2: 
 mlink: 
-flash: tuya-convert
+flash: serial
 category: light
 type: Light
 standard: au
 ---
+Recently purchased device had updated firmware and wouldn't tuya-convert. Was able to easily access the TYWE3L chip and flash successfully with solder method. Jig would work fine also.

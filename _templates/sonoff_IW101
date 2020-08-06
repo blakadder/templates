@@ -14,6 +14,8 @@ link2: https://www.aliexpress.com/item/4000346370624.html
 link4: https://www.amazon.com/Monitoring-Compatible-Schedule-Control-Required/dp/B083LJZGFK
 link3: https://www.gearbest.com/access-control/pp_009367259270.html
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 I think this is the first wall switch that support power monitoring using an ESP8266. It uses a Chipsea CS7598 chip for it, similiarly to the [S31](sonoff_S31). The relay is rated to 16A 250V but Sonoff states max 15A incandescent or CFL load.
 
 The single led on the front plate serves as power and connectivity indicator.
@@ -31,5 +33,3 @@ Necessary GPIO's are neatly broken out  on bottom left, albeit only on pads. To 
 
 Follow the standard flashing procedure and that's it. 
 ![Wiring](/assets/images/sonoff_IW101_wiring.jpg)
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

@@ -11,6 +11,8 @@ template: '{"NAME":"PA-210WYS","GPIO":[255,107,255,108,255,255,0,0,255,255,255,2
 link: https://www.aliexpress.com/item/4001057961462.html
 link2: 
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 This is a Tuya natural gas (CH4) sensor with an LCD display and alarm function. It has a TYWE3S module and an Eastsoft HR8P506FHLQ MCU.
 
 Identified with MCU Product ID: `{"p":"sclatjo1jqscmwwe","v":"1.0.0","m":0}`. 
@@ -60,5 +62,3 @@ Label webUI buttons
 ```console
 Backlog WebButton1 Gas; WebButton2 Mute
 ```
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

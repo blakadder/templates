@@ -11,6 +11,8 @@ template: '{"NAME":"YG400A","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,
 link: https://www.aliexpress.com/item/4000818367545.html
 link2: https://www.aliexpress.com/item/4000956483408.html
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 This is a Tuya photoelectric smoke sensor with a alarm. It has a TYWE3S module, a N76E003AQ20 Nuvoton 1T 8051-based Microcontroller and BL5980 Low Voltage Photoelectric Smoke Detector ASIC with Interconnect and Timer Mode. PCB is marked with YG400A hence the model number but it can be found under various brands such as Earykong, Avatto or whitelabel.
 
 Identified with MCU Product ID: `{"p":"4w4a6noxfgk0yktc","v":"1.0.0"}`. 
@@ -74,5 +76,3 @@ Label webUI buttons
 ```console
 Backlog WebButton1 Tamper
 ```
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

@@ -1,7 +1,7 @@
 ---
 date_added: 2019-12-18
 title: L-5A01 
-link: http://s.click.aliexpress.com/e/sPOprfqg
+link: https://www.aliexpress.com/item/33007166896.html
 image: https://user-images.githubusercontent.com/5904370/71041871-7b591480-212a-11ea-85ca-88f3421bd3d4.png
 template: '{"NAME":"L-5A01","GPIO":[17,255,0,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
 link2: 
@@ -11,6 +11,8 @@ category: relay
 type: Relay
 standard: global
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 ![Dimensions](https://user-images.githubusercontent.com/5904370/71041422-52844f80-2129-11ea-98c5-949fe326ca3f.png)
 
 Originally runs eWeLink software so it has to be flashed over serial. Plastic case is disassembled without any screws. The wi-fi module has a SMA-C01 sticker on it and the module PCB is marked SM-001 v1.0 2018-11-14.
@@ -24,5 +26,3 @@ A lot of GPIOs are broken out at the bottom of the module but only some are sold
 ![Flashing Setup](https://user-images.githubusercontent.com/5904370/71041969-c6732780-212a-11ea-905b-385311678814.png)
 
 Flashing procedure is typical for this kind of devices. Keep the button pressed while connecting to your USB-to-serial adapter. Flash latest tasmota.bin using [Tasmotizer!](https://github.com/tasmota/tasmotizer/releases).
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

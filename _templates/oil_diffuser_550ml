@@ -9,6 +9,8 @@ image: https://user-images.githubusercontent.com/5904370/57200999-010cc300-6f93-
 template: '{"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link2: 
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) to understand the terminology and configuration process.
 
 Flashed via serial by using TYWE3S pins. Might work with Tuya Convert.
@@ -197,5 +199,3 @@ color purple
 ```
 
 [![IMG-20190505-230944.jpg](https://i.postimg.cc/sDmp2YqR/IMG-20190505-230944.jpg)](https://postimg.cc/WhDDWks9)
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>
