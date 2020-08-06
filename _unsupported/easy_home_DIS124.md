@@ -4,7 +4,7 @@ title: Easy Home DIS-124
 category: unsupported
 type: Plug
 link: https://www.aldi.de/
-image: https://static.mydealz.de/live/threads/thread_full_screen/default/826685_1.jpg
+image: /assets/images/easy_home_DIS124.jpg
 link2: 
 mlink: 
 flash: non-ESP8266

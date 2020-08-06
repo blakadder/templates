@@ -4,7 +4,7 @@ title: BSEED Wi-Fi Touch
 type: Switch
 category: unsupported
 link: https://www.amazon.de/BSEED-EU-Steckdose-unterst%C3%BCtzen-funktionieren-Wandleuchtensteckdosen/dp/B07WMQ7GML/
-image: https://images-na.ssl-images-amazon.com/images/I/510SFfSDXsL._AC_SL1100_.jpg
+image: /assets/images/bseed-switch-plug.jpg
 link2: 
 mlink: 
 flash: WR4

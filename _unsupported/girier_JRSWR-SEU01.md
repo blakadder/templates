@@ -4,7 +4,7 @@ title: Girier JRSWR-SEU01
 category: unsupported
 type: Switch
 link: https://www.aliexpress.com/item/4000191335997.html
-image: https://ext.mysku-st.ru/250s/pic.mysku-st.ru/uploads/pictures/06/15/78/2020/03/15/f2485b.png
+image: /assets/images/girier_JRSWR-SEU01.jpg
 link2: 
 link3: 
 flash: W600
