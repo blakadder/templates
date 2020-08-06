@@ -3,7 +3,7 @@ date_added: 2020-07-30
 title: SA-P402A
 image: /assets/images/SA-P402A.jpg
 template: '{"NAME":"SA-P402A","GPIO":[0,17,0,56,23,25,21,24,22,0,0,1,0],"FLAG":1,"BASE":18}'
-template2: '{"NAME":"SA-P402A","GPIO":[0,17,0,0,24,21,0,0,22,25,23,0,0],"FLAG":1,"BASE":18}'
+template-alt: '{"NAME":"SA-P402A","GPIO":[0,17,0,0,24,21,0,0,22,25,23,0,0],"FLAG":1,"BASE":18}'
 link: https://www.aliexpress.com/item/33020336200.html
 link2: 
 mlink: https://www.alibaba.com/product-detail/2020-Hottest-TuyaSmart-WiFi-Smart-Socket_1892034523.html
