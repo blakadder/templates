@@ -13,3 +13,8 @@ type: Plug
 standard: eu
 template-alt: '{"NAME":"LSC Smart Plug","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
 ---
+## Warning
+
+The v2.0 is not easily opened as it contains no screws anymore.
+
+LSC also changed hardware without updating their model number. From now it doesn't contain a ESP module anymore and so can't be flashed anymore with Tasmota.
