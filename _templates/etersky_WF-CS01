@@ -4,7 +4,7 @@ title: Etersky WF-CS01
 model: WF-CS01
 image: /assets/images/etersky_WF-CS01.jpg
 template: '{"NAME":"Etersky","GPIO":[157,0,53,19,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}'
-template_alt: '{"NAME":"Etersky","GPIO":[157,55,53,19,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"Etersky","GPIO":[157,55,53,19,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.fr/gp/product/B07PNV9XKQ/
 link2:
 mlink: 
