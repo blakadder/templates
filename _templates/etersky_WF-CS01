@@ -3,12 +3,17 @@ date_added: 2020-04-11
 title: Etersky WF-CS01
 model: WF-CS01
 image: /assets/images/etersky_WF-CS01.jpg
-template: '{"NAME":"Etersky","GPIO":[157,0,53,19,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Etersky","GPIO":[157,0,53,19,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}'
+template_alt: '{"NAME":"Etersky","GPIO":[157,55,53,19,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.fr/gp/product/B07PNV9XKQ/
-link2: 
+link2:
 mlink: 
 flash: serial
 category: cover
 type: Curtain Switch
 standard: eu
 ---
+
+The device is very similiar or maybe identical to [WF-CS02](https://templates.blakadder.com/WF-CS02_EU). Check the site for help with confiuration.
+
+The blue LEDs can be switched off if TX/GPIO1 is set to 0 V. A workaround to do so quickly is to configure GPIO1 to LED4. See alternative template.
