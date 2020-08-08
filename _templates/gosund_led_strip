@@ -12,3 +12,6 @@ category: light
 type: LED Strip
 standard: global
 ---
+
+Other versions of the controller might use a different layout.
+Version BT01-T-V2.2 of the board uses GPIO5 for PWM2 (instead of GPIO15): '{"NAME":"Gosund LED Strip","GPIO":[17,0,0,0,0,38,0,0,37,39,0,0,0],"FLAG":3,"BASE":18}'
