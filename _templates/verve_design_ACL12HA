@@ -6,7 +6,7 @@ category: light
 type: Light
 standard: au
 link: https://www.bunnings.com.au/verve-design-18w-smart-led-angie-ceiling-light-with-rgb-ring-grid-connect_p0119808
-image: https://media.bunnings.com.au/Product-800x800/6fa32c74-6f58-4346-b5ec-76028e350238.jpg
+image: /assets/images/verve_design_ACL12HA.jpg
 template: '{"NAME":"ACL12HA Light","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
