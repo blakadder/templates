@@ -1,7 +1,7 @@
 ---
 date_added: 2020-01-17
-title: Eva Logik WF30 3-Way
-model: X0023LPDY3
+title: Eva Logik 3-Way
+model: WF30
 image: https://user-images.githubusercontent.com/5904370/72654358-95874c00-398f-11ea-9992-499117688b5c.png
 template: '{"NAME":"WF30 Switch","GPIO":[0,0,0,0,18,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07Q6BZNX2/
