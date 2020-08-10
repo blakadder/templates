@@ -24,7 +24,7 @@ Flash Tasmota over serial using the TX/RX/IO0 pads.
 When the ESP8266 chip is flashed with Tasmota, configure Wifi and go to Tasmota Console. Type:
 
 ```console
-Backlog Weblog 3; so65 1; Module 0; Template {"NAME":"Sonoff ZbBridge","GPIO":[56,165,0,166,215,0,0,0,0,158,0,0,17],"FLAG":0,"BASE":75}
+Backlog Weblog 3; so65 1; Module 75}
 ```
 
 Wait for Tasmota to reboot. 
@@ -32,19 +32,19 @@ Wait for Tasmota to reboot.
 Open the webUI again, go to **Firmware Upgrade** and next to the "Upgrade by file upload" box use the browse button and select Zigbee module firmware you want to flash. 
 
 
-Zigbee module firmware is located in [`Tasmota/tools/fw_zbbridge/`](https://github.com/arendst/Tasmota/blob/development/tools/fw_zbbridge/). 6.5.5 is for use with [Home Assistant ZHA](https://www.home-assistant.io/integrations/zha/) and 6.7.6 for [Zigbee2Tasmota](http://tasmota.github.io/docs/Zigbee).
+Zigbee module firmware is located in [`Tasmota/tools/fw_zbbridge/`](https://github.com/arendst/Tasmota/blob/development/tools/fw_zbbridge/). You can use latest version on Tasmota and ZHA.
 
 > **Do not use right click "Save as" but click on the desired file then click on "Download"**
 
 Be patient and wait for a few minutes until flashing is complete. Tasmota will reboot once it is and the console will show Zigbee2Tasmota starting. Follow further instructions depending on your chosen use method.
 
 ## For Tasmota
-After `ncp-uart-sw_6.7.6_115200.ota` is flashed set `Module 75`.
+After Zigbee firmware is flashed set `Module 75`.
 
 Follow [Zigbee](http://tasmota.github.io/docs/Zigbee) instructions for pairing and managing your devices
 
 ## For Home Assistant ZHA
-After `ncp-uart-sw_6.5.5_115200.ota` is flashed apply the template
+After Zigbee firmware is flashed apply the template
 
 ```json
 {"NAME":"ZHA ZBBridge","GPIO":[56,208,0,209,59,58,0,0,0,0,0,0,17],"FLAG":0,"BASE":18}
