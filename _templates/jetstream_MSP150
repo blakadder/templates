@@ -1,0 +1,15 @@
+---
+date_added: 2020-08-11
+title: Jetstream MSP150
+model: MSP150
+image: /assets/images/jetstream_MSP150.jpg
+template: '{"NAME":"JetstreamMSP150","GPIO":[56,0,57,0,21,134,0,0,131,17,132,0,0],"FLAG":0,"BASE":45}' 
+link: https://www.walmart.com/ip/Jetstream-Smart-Plug-MSP150/278156139
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+FCC ID: 2AKBP-X10S same as Aoycocr X10S

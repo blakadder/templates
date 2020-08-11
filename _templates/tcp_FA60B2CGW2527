@@ -1,8 +1,8 @@
 ---
 date_added: 2020-05-03
 title: TCP Smart 810lm Filament
-model: FA60B2CGW2527 / FA60E2CGW2527
-image: /assets/images/tcp_FA60B2CGW2527_FA60E2CGW2527.jpg
+model: FA60E2CGW2527
+image: /assets/images/tcp_FA60E2CGW2527.jpg
 template: '{"NAME":"TCP Filament","GPIO":[0,0,0,0,0,0,0,0,0,0,46,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/TCP-Smart-TAOFA60E2CGW2527-Lightbulb/dp/B07KXPS6W5/
 link2: https://www.amazon.co.uk/TCP-Smart-TAOFA60E2CGW2527-Lightbulb/dp/B07KXPXT5P/
@@ -11,5 +11,5 @@ mlink: https://www.tcpsmart.eu/2018/09/21/tcp-smart-wifi-led-filament-classic-bu
 flash: tuya-convert
 category: bulb
 type: Dimmable
-standard: [ e27, b22 ]
+standard: [ e27 ]
 ---
