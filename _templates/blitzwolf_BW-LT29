@@ -4,7 +4,7 @@ title: BlitzWolf A70 9W 900lm
 model: BW-LT29
 link: https://www.banggood.com/BlitzWolf-BW-LT29-E27-Smart-LED-Bulb-CW+WW-Dual-Color-9W-900LM-WiFi-APP-Lamp-Supports-Alexa-Google-Assistant-AC100-240V-p-1654133.html
 image: /assets/images/blitzwolf_BW-LT29.jpg
-template: '{"NAME":"BW-LT29","GPIO":[0,0,0,0,0,0,0,0,0,38,0,37,0],"FLAG":0,"BASE":18}'
+template: '{"NAME":"BW-LT29","GPIO":[0,0,0,0,0,0,0,0,0,47,0,37,0],"FLAG":0,"BASE":18}'
 link2: https://www.aliexpress.com/item/4000923684003.html
 mlink: https://www.blitzwolf.com
 flash: serial
