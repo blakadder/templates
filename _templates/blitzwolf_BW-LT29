@@ -14,6 +14,8 @@ standard: e27
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
+Use `SetOption92 1` after applying template.
+
 ## Serial Flashing
 Tuya-Convert did not work on this bulb due to new hardware. To flash this bulb you'll need to solder only two wires but they will be tricky.
 
