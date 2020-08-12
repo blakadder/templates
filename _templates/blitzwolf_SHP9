@@ -12,4 +12,4 @@ category: plug
 type: Power Strip
 standard: eu
 ---
-There is a pin header at corner: TX, RX, G (Gnd), V (Vcc). Vcc is not 3V, but powersupply input and need to be >4V. Currently button controls only Plug1. Relay4 is usb (power).
+There is a pin header at corner: TX, RX, G (Gnd), V (Vcc). Vcc is not 3V, but powersupply input and need to be >4V. Relay4 is 2 USB outlets.
