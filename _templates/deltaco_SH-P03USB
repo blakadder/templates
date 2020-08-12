@@ -3,12 +3,11 @@ date_added: 2020-05-05
 title: Deltaco SH-P03USB
 link: https://www.inet.se/produkt/3301125/deltaco-grenuttag-wifi-3xcee-2xusb-a?utm_source=prisjakt&utm_medium=cpc&utm_campaign=prisjakt
 image: https://inetimg2.se/img/1600x900/3301125_1.jpg
-template: '{"NAME":"Deltaco SH-P03","GPIO":[0,56,0,0,0,21,0,0,23,17,22,24,0],"FLAG":1,"BASE":18}' 
 link2: https://www.webhallen.com/se/product/309653-Deltaco-WiFi-Smart-grenuttag-5x-zoner-3-Shucko-2x-USB-13A?ref=Prisjakt
 mlink: https://www.deltaco.se/produkter/deltaco/smart-home/grenuttag/SH-P03USB
 flash: tuya-convert
 category: plug
 type: Power Strip
 standard: eu
-template-alt: '{"NAME":"Deltaco SH-P03","GPIO":[56,0,0,0,0,23,0,0,21,17,22,24,0],"FLAG":0,"BASE":18}'
+template: '{"NAME":"Deltaco SH-P03","GPIO":[56,0,0,0,0,23,0,0,21,17,22,24,0],"FLAG":0,"BASE":18}'
 ---
