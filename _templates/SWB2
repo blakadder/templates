@@ -1,0 +1,16 @@
+---
+date_added: 2020-08-12
+title: SWB2 3AC + 2USB
+category: plug
+type: Power Strip
+flash: serial
+standard: eu
+template: '{"NAME":"SWB2","GPIO":[158,255,0,255,0,23,0,0,21,17,22,24,0],"FLAG":0,"BASE":18}'
+image: /assets/images/SWB2.jpg
+link: https://www.aliexpress.com/item/4001289675090.html
+link2: https://www.amazon.de/dp/B07KFY7HXC
+mlink: https://lingan.en.alibaba.com/search/product?SearchText=swb1
+---
+Produced by Lingan, branded under various names [(Blitzwolf BW-SHP9](blitzwolf_SHP9)). PCB is marked "Lingan swb2-1 REV:v1.1".
+
+To disassemble remove the rubber feet, unscrew 6 screws (two are hidden behind the sticker), remove backplate and unscrew 6 more screws holding the PCB to the enclosure. Run on ESP8266 based LM1 module. All GPIO's are broken out and labelled in the corner.

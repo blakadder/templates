@@ -1,0 +1,92 @@
+---
+date_added: 2020-08-12
+title: TreatLife Light and Ceiling Fan
+model: DS03
+image: /assets/images/treatlife_DS03.jpg
+template: '{"NAME":"DS03 Fan/Light","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/dp/B086PPRWL7
+link2: 
+mlink: https://www.treatlife.tech/products/smart-ceiling-fan-control-and-light-dimmer-switch-neutral-wire-needed-treatlife-single-pole-wi-fi-light-switch-fan-speed-control-works-with-alexa-google-assistant-schedule-remote-control
+flash: serial
+category: switch
+type: Dimmer
+standard: us
+---
+Flashed via Serial, using the same method as the [Treatlife DS02S](treatlife_DS02S). May work with Tuya-Convert. Unknown at this time.
+
+Additional troubleshooting can be done based on the DS02S template, since it has most of the same features: https://templates.blakadder.com/treatlife_DS02S.html
+
+There must be two sets of commands ran to make this work for both a fan and light. Additionally, the fan speed can only be controlled over MQTT or similar, unless custom rules are written.
+
+1. Let's enable the functions of the switch:
+
+```console
+Backlog TuyaMCU 11,1;TuyaMCU 21,10;TuyaMCU 12,9;DimmerRange 100,1000;ledtable 0
+```
+These commands bind the software to the specific types of controls that the MCU uses. More information can be found in the Tasmota TuyaMCU guide. The last two commands set the dimming range from 100 to 1000, which was observed from when I set the brightness to minimum and maximum. Finally, the ledtable sets the scale properly so that it dims from 10-100 properly.
+
+2. 
+
+```console
+Rule1 on TuyaReceived#Data=55AA03070005030400010016 do publish2 stat/Treatlife-DS03/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010117 do publish2 stat/Treatlife-DS03/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010218 do publish2 stat/Treatlife-DS03/speed 3,2 endon on TuyaReceived#Data=55AA03070005030400010319 do publish2 stat/Treatlife-DS03/speed 3,3 endon
+```
+Enable rule with `Rule1 1`
+
+This will monitor the TuyaMCU for changes to the speed of the fan and publish them to MQTT. These rules could be changed to allow other integrations, but for the purposes of Home Assistant, we're keeping it simple. If this does not work as intended (Check your MQTT broker to make sure the messages are getting published), you may have to check your dpIDs and make sure they match the rules. Additional information can be found in the TuyaMCU Guide as well as the DS02S guide.
+
+2a.
+
+The fan speed data ID may be different between switches. If so, here's what I had referenced. Check yours against this.
+
+```
+Lowest
+55AA03070005030400010016
+Low
+55AA03070005030400010117
+Med
+55AA03070005030400010218
+High
+55AA03070005030400010319
+```
+Note about fan speed IDs: Lowest and Low are the same voltage output (I checked with a multi-meter). I believe the "Lowest" setting ID is there for cosmetic reasons, since there are 8 LEDs, they wanted 4 of them lit for the fan. That is the reason you will see that the 'Lowest' and 'Low' IDs publish the same MQTT information
+
+Home Assistant Fan YAML:
+```yaml
+- platform: mqtt
+  name: "TreatLife Fan"
+  state_topic: "stat/Treatlife-DS03/POWER1"
+  command_topic: "cmnd/Treatlife-DS03/POWER1"
+  speed_state_topic: "stat/Treatlife-DS03/speed"
+  speed_command_topic: "cmnd/Treatlife-DS03/TuyaSend4"
+  qos: 0
+  payload_on: 'ON'
+  payload_off: 'OFF'
+  payload_low_speed: '3,1'
+  payload_medium_speed: '3,2'
+  payload_high_speed: '3,3'
+  availability_topic: tele/Treatlife-DS03/LWT
+  payload_available: Online
+  payload_not_available: Offline
+  speeds:
+    - low
+    - medium
+    - high
+```
+Home Assistant Dimmer YAML:
+```yaml
+- platform: mqtt
+  name: "TreatLife Dimmer"
+  state_topic: "stat/Treatlife-DS03/POWER2"
+  command_topic: "cmnd/Treatlife-DS03/POWER2"
+  availability_topic: "tele/Treatlife-DS03/LWT"
+  brightness_state_topic: "stat/Treatlife-DS03/RESULT"
+  brightness_command_topic: "cmnd/Treatlife-DS03/Dimmer"
+  brightness_scale: 100
+  brightness_value_template: "{{ value_json.Dimmer }}"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  retain: false
+```
