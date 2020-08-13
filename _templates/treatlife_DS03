@@ -14,7 +14,7 @@ standard: us
 ---
 Flashed via Serial, using the same method as the [Treatlife DS02S](treatlife_DS02S). May work with Tuya-Convert. Unknown at this time.
 
-Additional troubleshooting can be done based on the DS02S template, since it has most of the same features: https://templates.blakadder.com/treatlife_DS02S.html
+Additional troubleshooting can be done based on the DS02S template, since it has most of the same features: [Treatlife DS02S](treatlife_DS02S)
 
 There must be two sets of commands ran to make this work for both a fan and light. Additionally, the fan speed can only be controlled over MQTT or similar, unless custom rules are written.
 
@@ -38,16 +38,16 @@ This will monitor the TuyaMCU for changes to the speed of the fan and publish th
 
 The fan speed data ID may be different between switches. If so, here's what I had referenced. Check yours against this.
 
-```
+
 Lowest
-55AA03070005030400010016
+`55AA03070005030400010016`
 Low
-55AA03070005030400010117
-Med
-55AA03070005030400010218
+`55AA03070005030400010117`
+Medium
+`55AA03070005030400010218`
 High
-55AA03070005030400010319
-```
+`55AA03070005030400010319`
+
 Note about fan speed IDs: Lowest and Low are the same voltage output (I checked with a multi-meter). I believe the "Lowest" setting ID is there for cosmetic reasons, since there are 8 LEDs, they wanted 4 of them lit for the fan. That is the reason you will see that the 'Lowest' and 'Low' IDs publish the same MQTT information
 
 Home Assistant Fan YAML:
