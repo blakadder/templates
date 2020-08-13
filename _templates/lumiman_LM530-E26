@@ -12,3 +12,4 @@ link2:
 ---
 ![image](https://user-images.githubusercontent.com/5904370/71832498-5d3c5f80-30ab-11ea-9978-310b9d7ee89d.png)
 ![image](https://user-images.githubusercontent.com/5904370/71833210-c5d80c00-30ac-11ea-854a-02107800605a.png)
+Caution: Newer revisions of this bulb do not use the ESP8266 chip and are not flashable with Tasmota
