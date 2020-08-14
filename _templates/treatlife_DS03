@@ -16,6 +16,23 @@ Flashed via Serial, using the same method as the [Treatlife DS02S](treatlife_DS0
 
 Additional troubleshooting can be done based on the DS02S template, since it has most of the same features: [Treatlife DS02S](treatlife_DS02S)
 
+Before we begin: 
+We might need to set the TuyaMCU baudrate to 115200 bps (Tasmota default is 9600 for TuyaMCU).
+
+You can see if you're getting heartbeat messages from the Tuya MCU Chip by changing the WebLog level to 4 (This can be changed back to default by entering `weblog 2`)
+
+```console
+WebLog 4
+```
+
+If you're getting messages that say something like `{"TuyaReceived":{"Data":"55AA030000010104","Cmnd":0,"CmndData":"01"}}` you don't need to change the baudrate. If you're seeing the ping to the MCU but no reply, you'll need to change the baudrate with the command below:
+
+```console
+SetOption97 1
+````
+This will set the baudrate to 115200. After this, you should start receiving heartbeat replies from the TuyaMCU, and the Red LED might come on for a few seconds.
+
+
 There must be two sets of commands ran to make this work for both a fan and light. Additionally, the fan speed can only be controlled over MQTT or similar, unless custom rules are written.
 
 1. Let's enable the functions of the switch:
