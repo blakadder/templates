@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-13
+title: Connex A70 10W 1050lm
+model: CC-L1000-1
+image: /assets/images/connex_CC-L1000-1.jpg
+template: '{"NAME":"Connex 10w RGBWW","GPIO":[0,0,0,38,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.incredible.co.za/connex-connect-smart-wi-fi-10w-led-multi-colour-plus-white-bayonet-bul
+link2: 
+mlink: https://connexconnect.com/product/smart-tech-rgb-10w-led-bulb/
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

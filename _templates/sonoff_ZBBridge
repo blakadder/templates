@@ -1,5 +1,5 @@
 ---
-date_added: 2020-08-11
+date_added: 2020-08-20
 title: Sonoff ZBBridge
 model: M08020700017
 image: /assets/images/sonoff_ZBBridge.jpg
@@ -15,33 +15,52 @@ standard: global
 ---
 <h3>Support for this device is experimental!!!</h3>
 
-Download latest [tasmota-zbbridge](https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota/tasmota-zbbridge.bin) binary built specifically for ZBBridge.
+## Flash ESP8266
 
-Flash Tasmota over serial using the TX/RX/IO0 pads.
+Remove the 4 rubber feet to access screws and disassemble the device. Take out the PCB and connect breadboard cables to labelled pin holes (if you only have Dupont wires you will need to solder them since the holes are too small for them).
 
 ![ZBBridge pinout](/assets/images/sonoff_ZBBridge_pinout.jpg)
 
-When the ESP8266 chip is flashed with Tasmota, configure Wifi and go to Tasmota Console. Type:
+|ZbBridge|Adapter
+|---     |--- 
+|ETX     | RX
+|ERX     | TX
+|IO0     | GND
+|GND     | GND
+|3v3     | 3V3/VCC
 
-```console
-Backlog Weblog 3; so65 1; Module 75}
+Download [tasmota-zbbridge](https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota/tasmota-zbbridge.bin?raw=true), a unique binary built specifically for ZBBridge and flash it using your favorite flashing software.
+
+When the ZbBridge is flashed with Tasmota, **disconnect all breadboard wires** and power the board using its USB port with a 5V 1A power supply. Configure Wi-Fi [over Tasmota AP](https://tasmota.github.io/docs/Getting-Started/#using-web-ui) (you cannot configure the device over serial with this binary). After it is connected to your network access the webUI again. 
+
+## Flash Zigbee module
+
+Download Zigbee module firmware [`ncp-uart-sw_6.7.6_115200.ota`](https://github.com/arendst/Tasmota/blob/development/tools/fw_zbbridge/ncp-uart-sw_6.7.6_115200.ota?raw=true) from Tasmota GitHub located in [`Tasmota/tools/fw_zbbridge/`](https://github.com/arendst/Tasmota/blob/development/tools/fw_zbbridge).
+
+Go to **Firmware Upgrade** and next to "Upgrade by file upload" use the _Choose File_ button and select Zigbee module firmware you downloaded (`ncp-uart-sw_6.7.6_115200.ota`). 
+
+![ZBBridge Zigbee module flash](/assets/images/sonoff_ZBBridge_ota.jpg)
+
+Click on **Start upgrade**, be patient and wait for a few minutes until flashing is complete. Once it is done, Tasmota will reboot. If the flash was successful the console will show Zigbee2Tasmota starting:
+
+```json
+16:31:11 ZIG: Resetting EZSP device
+16:31:12 RSL: tele/zbbridge/RESULT = {"ZbState":{"Status":1,"Message":"EFR32 booted","RestartReason":"Power-on","Code":2}}
+16:31:12 RSL: tele/zbbridge/RESULT = {"ZbState":{"Status":55,"Version":"6.7.6.0","Protocol":8,"Stack":2}}
+16:31:12 RSL: tele/zbbridge/RESULT = {"ZbState":{"Status":3,"Message":"Configured, starting coordinator"}}
+16:31:13 RSL: tele/zbbridge/RESULT = {"ZbState":{"Status":56,"IEEEAddr":"0x80E423FFFE225691","ShortAddr":"0x0000","DeviceType":1}}
+16:31:14 ZIG: Subscribe to group 0 'ZbListen0 0'
+16:31:14 RSL: tele/zbbridge/RESULT = {"ZbState":{"Status":0,"Message":"Started"}}
+16:31:14 ZIG: Zigbee started
+16:31:14 ZIG: No zigbee devices data in Flash
 ```
 
-Wait for Tasmota to reboot. 
-
-Open the webUI again, go to **Firmware Upgrade** and next to the "Upgrade by file upload" box use the browse button and select Zigbee module firmware you want to flash. 
-
-
-Zigbee module firmware is located in [`Tasmota/tools/fw_zbbridge/`](https://github.com/arendst/Tasmota/blob/development/tools/fw_zbbridge/). You can use latest version on Tasmota and ZHA.
-
-> **Do not use right click "Save as" but click on the desired file then click on "Download"**
-
-Be patient and wait for a few minutes until flashing is complete. Tasmota will reboot once it is and the console will show Zigbee2Tasmota starting. Follow further instructions depending on your chosen use method.
+Follow further instructions depending on your chosen method.
 
 ## For Tasmota
-After Zigbee firmware is flashed set `Module 75`.
+You can start pairing Zigbee devices with `ZbPermitJoin 1` command.
 
-Follow [Zigbee](http://tasmota.github.io/docs/Zigbee) instructions for pairing and managing your devices
+Read [Zigbee](http://tasmota.github.io/docs/Zigbee) documentation for complete guide to pairing and managing your devices.
 
 ## For Home Assistant ZHA
 After Zigbee firmware is flashed apply the template
@@ -55,10 +74,19 @@ Create a rule in Tasmota to start TCPBridge on boot
 Rule1 ON System#Boot do TCPStart 8888 endon
 ```
 
-You can change `8888` to a port you prefer.
+> You can change `8888` to a port you prefer.
 
-Enable rule with `Rule1 1`
+Enable rule with `Rule1 1` and restart ZbBridge.
 
-In Home Assistant ZHA integration select "Enter Manually" for serial port, "EZSP" as Radio Type and under port setting enter `socket://[your_ip]:8888` (or your port number if changed) and it should be discovered.
+In Home Assistant (requires version 0.113+) go to **Configuration - Integrations**, click the **+** icon, search for ZHA integration and select it. 
 
-Step by step instructions on flashing and ZHA installation by [DigiblurDIY](https://www.digiblur.com/2020/07/how-to-use-sonoff-zigbee-bridge-with.html)
+[![ZBBridge ZHA Configuration](/assets/images/sonoff_ZBBridge_zha.jpg)]((/assets/images/sonoff_ZBBridge_zha.jpg))
+
+1. choose "Enter Manually" for serial port
+2. for Radio Type choose "EZSP" 
+3. under Serial device path enter `socket://[zbbridge_ip]:8888` replacing `[zbbridge_ip]` with its IP address. Do not use hostnames. 
+   - if you changed the port number use yours
+   - set port speed to "115200"
+4. when the ZbBridge is discovered you will get a confirmation message
+
+[![ZBBridge ZHA Configuration](/assets/images/sonoff_ZBBridge_zha2.jpg)]((/assets/images/sonoff_ZBBridge_zha2.jpg))
