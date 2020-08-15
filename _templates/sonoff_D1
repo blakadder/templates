@@ -16,3 +16,5 @@ link4: https://www.amazon.com/dp/B088SZS4CH/
 **Supported only in Tasmota 8.2+. Support is still experimental.**
 
 Sonoff offers a [RM433 remote](sonoff_RM433) that works natively with this device.
+
+If you're having "ghost switching" events pairing a RF remote with D1 could stop them.
