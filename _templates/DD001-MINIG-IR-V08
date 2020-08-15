@@ -10,10 +10,7 @@ mlink:
 flash: tuya-convert
 category: light
 type: LED Controller
-standard: 
-  - eu
-  - uk
-  - us
+standard: global
 ---
 To get this device into flashing mode you have to turn the power on and off 5 times, then the RGB strip begins to blink.
 
