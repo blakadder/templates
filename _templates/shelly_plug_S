@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 mlink: https://shelly.cloud/shelly-plug-s/
 image: /assets/images/shelly_plug_S.jpg
-template: '{"NAME":"Shelly Plug S","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":2,"BASE":45}' 
+template: '{"NAME":"Shelly Plug S","GPIO":[56,255,158,255,255,134,0,0,131,17,132,21,255],"FLAG":2,"BASE":45}' 
 link: https://www.amazon.de/dp/B07TCQ7BFN/
 ---
 
