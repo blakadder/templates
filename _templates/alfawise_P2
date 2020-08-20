@@ -1,0 +1,71 @@
+---
+date_added: 2020-08-20
+title: Alfawise Air Purifier
+model: P2 (Wi-fi Version)
+image: /assets/images/alfawise_P2
+template: '{"NAME":"alfawise P2","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.gearbest.com/air-purifier/pp_009744027218.html
+link2: 
+mlink: https://go.tuya.com/en/productDetail?code=84wzkz01h444
+flash: tuya-convert
+category: misc
+type: Miscellaneous
+standard: eu
+---
+To allow mqtt broker used, you need to provide some command at boot with this rule:
+```console
+Rule3 on wifi#connected do backlog serialsend5 55aa00000000ff; serialsend5 55aa0001000000; serialsend5 55aa0002000001; serialsend5 55aa0008000007; serialsend5 55aa000300010205; serialsend5 55aa000300010205; serialsend5 55aa000300010306 endon
+```
+Don't forget to activat it with `Rule3 1`
+
+## Home Assistant configuration:
+
+```yaml
+fan:
+  - platform: mqtt
+    name: "Fan"
+    state_topic: "stat/tasmota_9888E5/POWER"
+    command_topic: "cmnd/tasmota_9888E5/POWER"
+    speed_state_topic: "stat/tasmota_9888E5/speed"
+    speed_command_topic: "cmnd/tasmota_9888E5/tuyasend4"
+    availability_topic: "tele/tasmota_9888E5/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"    
+    payload_on: "ON"
+    payload_off: "OFF"
+    payload_low_speed: "4,0"
+    payload_medium_speed: "4,1"
+    payload_high_speed: "4,2"
+    speeds:
+      - low
+      - medium
+      - high
+```
+You have to use another rule so that it will report speed to mqtt:
+```console
+Rule1 on TuyaReceived#Data=55AA00070005040400010014 do publish2 stat/%topic%/speed 4,0 endon on TuyaReceived#Data=55AA00070005040400010115 do publish2 stat/%topic%/speed 4,1 endon on TuyaReceived#Data=55AA00070005040400010216 do publish2 stat/%topic%/speed 4,2 endon
+```
+and activate it with `Rule1 1`
+
+Don't forget to configure your device name to adapt to yours (tasmota_9888E5 in this case)
+
+This air purifier, does not report PM info as it doesn't have the sensor in this version.
+
+Light could be switched on by using `TuyaSend4 101,1` or even trough mqtt publishing info to:
+- 0 light off
+- 1 light middle
+- 2 light full
+
+It could only light in green even if it uses an RGB ring and it can turn the light on only when the fan is on.
+
+Timer is set as light and fan speed using:
+
+`tuyasend4 19,0/1/2`
+
+- 0 off
+- 1 2h
+- 2 4h
+
+Note also that dpId 20 seems to be timer remaining in minutes converted to hexa.
+
+DpId 11 could be filter status/reset. No idea.

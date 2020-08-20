@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07GRLQV47
-image: https://user-images.githubusercontent.com/5904370/70091473-75d4d800-161c-11ea-9ad7-099c8f581474.png
+image: /assets/images/gosund_WP5.jpg
 template: '{"NAME":"Gosund-WP5","GPIO":[0,0,0,0,17,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
