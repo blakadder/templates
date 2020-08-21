@@ -14,3 +14,19 @@ mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
 link: https://www.itead.cc/sonoff-tx-series-wifi-smart-wall-switches.html
 ---
 
+The below information should be accurate for all the US-spec Sonoff TX-T* multi-gang switches; the board is identical for each except for the presence or absence of the RF receiver unit, the faceplate used, and the number of LED backlights installed on the board. Pictures in this template are of the TX-T0US1C model.
+
+## Hardware Preparation
+
+Please read the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions; the steps below build off of those.
+
+First, you'll need to separate the housing to access the main board. Turn the switch "face down" and use something like a flat-blade screwdriver to pop the faceplate loose from the back piece.
+[<img src="https://raw.githubusercontent.com/blakadder/templates/master/assets/images/txt0-1gang-exterior.jpg" width="200" alt="View of switch from back, showing how to open it">]
+
+Once inside, you'll see two four-pin headers at the top. The one closer to the ESP8285 chip is the UART (the left one when the unit is upright, with the ESP8285 at the top). Other notable parts are indicated in the picture:
+[<img src="https://raw.githubusercontent.com/blakadder/templates/master/assets/images/txt0-1gang-interior.jpg" width="200" alt="View of main board inside switch">]
+
+The GPIO0 pin on this switch is tied to one of the faceplate buttons, and needs to be connected manually to ground to put the ESP into flashing mode. The easiest place to connect it is on the left side of resistor R19, also noted in the picture above. This can be done by temporarily soldering a connecting wire between this point and one of the marked GND connections at the top of the board, or temporarily using a jumper wire.
+
+There isn't sufficient space inside the switch for a header to be permanently attached without cutting a hole in the case. To make a temporary connection, I created a simple jig out of a female header and four spring-loaded "pogo pins." The green jumper wire was soldered to the GND position, and touched to R19 (GPIO0). I connected my USB to TTL programmer to the four long pins on the header. This worked well enough for me, but may need adjusted depending on the specific tools you're using.
+[<img src="https://raw.githubusercontent.com/blakadder/templates/master/assets/images/jumper-jig.png" width="200" alt="Picture of very janky programming jig">]
