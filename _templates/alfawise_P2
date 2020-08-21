@@ -2,7 +2,7 @@
 date_added: 2020-08-20
 title: Alfawise Air Purifier
 model: P2 (Wi-fi Version)
-image: /assets/images/alfawise_P2
+image: /assets/images/alfawise_P2.jpg
 template: '{"NAME":"alfawise P2","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.gearbest.com/air-purifier/pp_009744027218.html
 link2: 
