@@ -16,7 +16,7 @@ That module is pin compatible with ESP-12 and can ordered via Ebay. Replace the 
 
 image: https://open-boat-projects.org/wp-content/uploads/2020/08/WB3S_ESP8266_kl.png
 
-image:https://open-boat-projects.org/wp-content/uploads/2020/08/LSC_RGBW_LED_Stripe_kl.png
+image: https://open-boat-projects.org/wp-content/uploads/2020/08/LSC_RGBW_LED_Stripe_kl.png
 
 
 To use the build in IR Receiver connected to GPIO00 as IRrecv (if this cannot be selected under configuration use Tasmota-Sensors.bin) add the following rule via Command Line. 
