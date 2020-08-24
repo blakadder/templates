@@ -5,7 +5,7 @@ category: unsupported
 type: Bulb
 link: https://www.aliexpress.com/item/4001253720749.html
 image: /assets/images/fcmila_cct.jpg
-link2: 
+link2: https://www.aliexpress.com/item/4001267990275.html
 link3: 
 flash: C-8138 
 ---
