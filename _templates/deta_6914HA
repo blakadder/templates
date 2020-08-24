@@ -3,14 +3,14 @@ date_added: 2020-08-08
 title: Deta Fan Speed Controller with Light 
 model: 6914HA
 image: /assets/images/deta_6914HA.jpg
-template: '{"NAME":"Deta Fan Speed and Light Controller","GPIO":[18,0,0,157,23,19,0,0,0,22,21,24,17],"FLAG":0,"BASE":18}' 
-link: https://www.bunnings.com.au/deta-grid-connect-smart-fan-speed-controller-with-touch-light-switch_p0098815
-link2: 
 mlink: 
 flash: serial
 category: switch
 type: Switch
 standard: au
+template: '{"NAME":"Deta Fan Speed and Light Controller","GPIO":[18,0,0,157,23,19,0,0,0,22,21,24,17],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/deta-grid-connect-smart-fan-speed-controller-with-touch-light-switch_p0098815
+link2: https://www.bunnings.co.nz/deta-grid-connect-smart-fan-speed-controller-with-touch-light-switch_p0098815
 ---
 
 Decouple Buttons from Relays
