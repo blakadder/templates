@@ -3,12 +3,12 @@ date_added: 2020-03-15
 title: Arlec Smart 1350lm PAR38
 model: GLD302HA
 image: /assets/images/arlec_GLD302HA.jpg
-template: '{"NAME":"Arlec GLD302HA","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.bunnings.com.au/arlec-smart-1350lm-cct-par38-es-globe-with-grid-connect_p0111510
-link2: 
 mlink: 
 flash: tuya-convert
 category: bulb
 type: CCT
 standard: e27
+template: '{"NAME":"Arlec GLD302HA","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-smart-1350lm-cct-par38-es-globe-with-grid-connect_p0111510
+link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-1350lm-cct-par38-es-globe_p0111510
 ---
