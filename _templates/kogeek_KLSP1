@@ -1,6 +1,6 @@
 ---
 date_added: 2020-08-23
-title: Koogekk 
+title: Koogeek 
 model: KLSP1
 image: /assets/images/kogeek_KLSP1.jpg
 template: '{"NAME":"Koogeek KLSP1","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
