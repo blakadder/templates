@@ -11,6 +11,7 @@ flash: tuya-convert
 template: '{"NAME":"Brilliant20699","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com.au/Brilliant-Smart-Colour-White-Globe/dp/B083139KLX
 link2: https://www.pbtech.co.nz/product/BULBRS0001/
+Link3: https://www.bunnings.co.nz/brilliant-8-5w-b22-colour-and-white-smart-globe_p0137913
 ---
 White LED:   
 PWM on GPIO12
