@@ -11,7 +11,7 @@ type: Plug
 standard: au
 template: '{"NAME":"Brilliant","GPIO":[0,0,0,0,0,21,0,0,0,52,90,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com.au/Brilliant-Smart-WiFi-Plug-Charger/dp/B07YXCN6DC
-Link2: https://www.pbtech.co.nz/product/ADPBRS0002
+link2: https://www.pbtech.co.nz/product/ADPBRS0002
 link3: https://www.officeworks.com.au/shop/officeworks/p/brilliant-lighting-smart-wifi-plug-with-usb-bl2067605
-Link4: https://www.bunnings.co.nz/brilliant-smart-wifi-plug-and-usb-charger_p0091644
+link4: https://www.bunnings.co.nz/brilliant-smart-wifi-plug-and-usb-charger_p0091644
 ---
