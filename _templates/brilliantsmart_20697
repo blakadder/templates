@@ -7,7 +7,8 @@ mlink: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-cct
 flash: tuya-convert
 category: bulb
 type: CCT
-standard: b22template: '{"NAME":"Brilliant20696","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}'
+standard: b22
+template: '{"NAME":"Brilliant20696","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}'
 template-alt: '{"NAME":"Brilliant20699","GPIO":[0,0,0,0,0,0,0,0,37,0,38,0,0],"FLAG":0,"BASE":48}' 
 link: https://www.amazon.com.au/Brilliant-Smart-WiFi-Light-White/dp/B07YXCG4QP
 link2: https://www.jdlighting.com.au/brilliant-smart-white-9w-b22-led-cct-light-globe.html
