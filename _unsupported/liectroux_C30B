@@ -1,5 +1,5 @@
 ---
-date_added: 2020-06-24
+date_added: 2020-08-26
 title: Liectroux C30B
 category: unsupported
 type: Vacuum
@@ -10,13 +10,15 @@ link3:
 flash: WR3
 ---
 
-WR3 module is connected to the main PCB thought a long cable that can be cutted down and connected to a ESP8266.
-A Wemos or a ESP-M3 without the pins soldered are preferable and you will also need some double tape to stick it in place
+WR3 module is connected to the main PCB with a long cable that can be cut down and connected to an ESP8266.
+A Wemos or an ESP-M3 without the pins soldered is preferable. You will also need some double tape to mount it in place
 
 ![WR3 Pinout](https://raw.githubusercontent.com/Sthopeless/trvc/master/IMG_20200823_153621%20(2).jpg)
 
-Once the ESP8266 is installed and flashed with Tasmota select TuyaMCU module and activate publishing TuyaReceived to MQTT:
-`Backlog module 54; SetOption66 1` 
+Once the ESP8266 is installed and flashed with Tasmota, select TuyaMCU module and activate publishing TuyaReceived to MQTT:
+```console
+Backlog module 54; SetOption66 1
+``` 
 
 ```
 SerialSend5 55aa0001000000
@@ -46,9 +48,9 @@ DpType1Id31: Switch Mute/Unmute
 DpType2Id32: Cleaned Area (useless)
 DpType2Id33: Cleaned Time
 
-I've added the Vacuum to Home Assistant the configuration can be downloaded here https://github.com/Sthopeless/trvc/blob/master/vacuum_black.yaml
-And added to [Home Assistant as a Package](https://www.home-assistant.io/docs/configuration/packages/)
-And I am also using [Lovelace Vacuum Card](https://github.com/denysdovhan/vacuum-card)
+I've added the Vacuum to Home Assistant, the configuration can be downloaded here https://github.com/Sthopeless/trvc/blob/master/vacuum_black.yaml
+It is added to [Home Assistant as a Package](https://www.home-assistant.io/docs/configuration/packages/)
+I am using the [Lovelace Vacuum Card](https://github.com/denysdovhan/vacuum-card)
 ![](https://github.com/Sthopeless/trvc/blob/master/Screenshot%20(42).png?raw=true)
 
 The icon without background:
