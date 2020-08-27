@@ -36,17 +36,17 @@ MCU Product ID: {"p":"imk0pcrtmyx9cbfg","v":"1.2.2","m":1}
 {"TuyaReceived":{"Data":"55AA03070008210200040000000038","Cmnd":7,"CmndData":"2102000400000000","DpType2Id33":0,"33":{"DpId":33,"DpIdType":2,"DpIdData":"00000000"}}}
 ```
 
-DpType1Id1: Switch Sleep/Wakeup (useless)
-DpType5Id11: Fault Sensor
-DpType2Id14: Battery % in Hex
-DpType1Id25: Switch Pause/Resume
-DpType4Id26: Move Directions [0 Front, 1 Back, 2 Right, 3 Left, 4 Stop]
-DpType4Id27: Switch Vacuum State [0 "Standby" - 1 "Smart" - 2 "Spiral" - 3 "Single" - 4 "Wall Follow" - 5 "Go Charge"]
-DpType4Id28: Vacuum State Sensor
-DpType4Id30: Suction Power 
-DpType1Id31: Switch Mute/Unmute
-DpType2Id32: Cleaned Area (useless)
-DpType2Id33: Cleaned Time
+- DpType1Id1: Switch Sleep/Wakeup (useless)
+- DpType5Id11: Fault Sensor
+- DpType2Id14: Battery % in Hex
+- DpType1Id25: Switch Pause/Resume
+- DpType4Id26: Move Directions [0 "Front", 1 "Back", 2 "Right", 3 "Left", 4 "Stop"]
+- DpType4Id27: Switch Vacuum State [0 "Standby" - 1 "Smart" - 2 "Spiral" - 3 "Single" - 4 "Wall Follow" - 5 "Go Charge"]
+- DpType4Id28: Vacuum State Sensor
+- DpType4Id30: Suction Power 
+- DpType1Id31: Switch Mute/Unmute
+- DpType2Id32: Cleaned Area (useless)
+- DpType2Id33: Cleaned Time
 
 I've added the Vacuum to Home Assistant, the configuration can be downloaded here https://github.com/Sthopeless/trvc/blob/master/vacuum_black.yaml
 It is added to [Home Assistant as a Package](https://www.home-assistant.io/docs/configuration/packages/)
