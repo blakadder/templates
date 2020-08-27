@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-25
+title: Avatar Controls A19 10W 900lm
+model: ALB102RGB
+image: /assets/images/avatar_ALB102RGB.jpg
+template: '{"NAME":"Avatar E26 10W","GPIO":[0,0,0,0,0,39,0,0,38,0,37,40,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001085194473.html
+link2: https://www.frys.com/product/10006771?site=sr:SEARCH:MAIN_RSLT_PG&requestComingFromSearch=true
+mlink: https://www.avatarcontrols.com/index.php?ac=article&at=read&did=197
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---

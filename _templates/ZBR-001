@@ -10,8 +10,6 @@ template: '{"NAME":"ZBR-001","GPIO":[17,255,255,255,133,132,0,0,130,56,21,255,57
 link2: 
 ---
 
-same as ZSP-001 just with Brazilian sockets
+# Now Unsupported
 
-
-
-
+As of August 2020 devices bought [here](https://produto.mercadolivre.com.br/MLB-1568379562-tomada-inteligente-liga-desliga-alexa-google-assistente-wifi-_JM?quantity=1&variation=58556168529) come with an incompatible TW-02 Wi-Fi module!
