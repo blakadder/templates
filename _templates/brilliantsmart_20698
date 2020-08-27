@@ -3,12 +3,14 @@ date_added: 2020-01-20
 title: BrilliantSmart 20698 9W 800lm 
 model: 20698/05
 image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20698-1.jpg
+mlink: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
+type: RGBW
+category: bulb
+standard: e27
+flash: tuya-convert
 template: '{"NAME":"Brilliant20698","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com.au/Brilliant-Smart-WiFi-Light-Bulb/dp/B07YXBHRXP
 link2: https://www.jdlighting.com.au/brilliant-smart-colour-9w-e27-led-rgb-white-light-globe.html
-mlink: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
-flash: tuya-convert
-category: bulb
-type: RGBW
-standard: e27
+Link3: https://www.pbtech.co.nz/product/BULBRS0002
+Link4: https://www.bunnings.co.nz/brilliant-8-5w-e27-rgb-colour-and-white-smart-globe_p0137912
 ---
