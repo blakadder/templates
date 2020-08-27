@@ -20,7 +20,7 @@ Once the ESP8266 is installed and flashed with Tasmota, select TuyaMCU module an
 Backlog module 54; SetOption66 1
 ``` 
 
-```
+```json
 SerialSend5 55aa0001000000
 MCU Product ID: {"p":"imk0pcrtmyx9cbfg","v":"1.2.2","m":1}
 {"TuyaReceived":{"Data":"55AA03070005010100010112","Cmnd":7,"CmndData":"0101000101","DpType1Id1":1,"1":{"DpId":1,"DpIdType":1,"DpIdData":"01"}}}
