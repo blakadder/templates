@@ -1,6 +1,6 @@
 ---
 date_added: 2020-08-26
-title: LUNVON
+title: Lunvon
 model: 3-JU06DE06
 image: /assets/images/lunvon_3-JU06DE06.jpg
 template: '{"NAME":"Lunvon Smart Plug","GPIO":[17,0,0,0,0,0,52,21,0,0,0,0,0],"FLAG":0,"BASE":18}' 
@@ -9,7 +9,7 @@ link2: https://www.amazon.de/dp/B07XL9Q48H
 mlink: 
 flash: serial
 category: plug
-type: Switch
+type: Plug
 standard: eu
 ---
 https://forum.creationx.de/forum/index.php?thread/2367-lunvon-wifi-socket-tasmota/
