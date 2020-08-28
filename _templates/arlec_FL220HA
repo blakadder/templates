@@ -3,13 +3,13 @@ date_added: 2020-03-15
 title: Arlec Smart Portable Floodlight 10.5W
 model: FL220HA/GLD301HA
 image: /assets/images/arlec_FL220HA.jpg
-template: '{"NAME":"Arlec GLD301HA","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.bunnings.com.au/arlec-portable-floodlight-with-10-5w-grid-connect-smart-globe_p0117297
-link2: 
 mlink: 
 flash: tuya-convert
 category: light
 type: Light
 standard: au
+template: '{"NAME":"Arlec GLD301HA","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-portable-floodlight-with-10-5w-grid-connect-smart-globe_p0117297
+link2: https://www.bunnings.co.nz/arlec-grid-connect-portable-floodlight-with-10-5w-smart-globe_p0117297
 ---
 This the bulb in portable floodlight. Fixture is passive.

@@ -1,13 +1,13 @@
 ---
 date_added: 2019-11-12
 title: Deta 6930HA
+image: https://media.bunnings.com.au/Product-800x800/09a8ffe1-ceac-456d-9bb4-58bbead2f489.jpg
 category: plug
 type: Plug
 standard: au
-link: https://www.bunnings.com.au/deta-smart-rewireable-plug-with-grid-connect_p0098810
-image: https://media.bunnings.com.au/Product-800x800/09a8ffe1-ceac-456d-9bb4-58bbead2f489.jpg
 template: '{"NAME":"DetaSmartPlug","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link: https://www.bunnings.com.au/deta-smart-rewireable-plug-with-grid-connect_p0098810
+link2: https://www.bunnings.co.nz/deta-grid-connect-smart-rewireable-plug_p0098810
 ---
 
 Tuya Convert 2

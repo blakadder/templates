@@ -1,14 +1,15 @@
 ---
-date_added: 2020-08-28
-title: Gosund SP111 v2
-model: SP111 v2
-image: /assets/images/gosund_SP111_v2.jpg
-template: '{"NAME":"Gosund SP111 2","GPIO":[56,0,57,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.de/Gosund-Steckdosen-erforderlich-Stromverbrauch-Fernsteurung/dp/B085RFKVW4/
-link2: 
-mlink: 
-flash: tuya-convert
+date_added: 2020-01-25
+title: Gosund SP111 15A
+model: SP111 v1.1
 category: plug
 type: Plug
 standard: eu
+image: https://user-images.githubusercontent.com/5904370/73123255-5a3bdd00-3f8e-11ea-9681-4f81d7a2cc57.png
+template: '{"NAME":"SP111 v1.1","GPIO":[56,0,158,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
+link: https://www.amazon.de/gp/product/B085RFKVW4/
+link2: https://www.amazon.de/Steckdosen-Gosund-erforderlich-Stromverbrauch-Fernsteurung/dp/B07ZS97KL1
+link3: https://www.amazon.de/Steckdosen-Gosund-erforderlich-Stromverbrauch-Fernsteurung/dp/B082XR5C6J
+mlink: https://www.gosund.store/products/wi-fi-smart-plug-sp111-only-for-europe
+
 ---

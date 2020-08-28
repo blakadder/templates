@@ -1,0 +1,16 @@
+---
+date_added: 2020-08-18
+title: PS-1604 16A
+model: 
+image: /assets/images/PS-1604.jpg
+template: '{"NAME":"PS-1604 16A","GPIO":[17,255,255,255,255,0,0,0,21,56,255,0,0],"FLAG":0,"BASE":1}'
+link: https://www.amazon.in/gp/product/B07W81L1V4
+link2: https://www.amazon.in/gp/product/B07ZF7Y17R
+mlink: 
+flash: tuya-convert
+category: relay
+type: Relay
+standard: in
+---
+
+Can be found branded as Protium or Duluck

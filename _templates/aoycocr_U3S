@@ -11,14 +11,9 @@ category: plug
 type: Plug
 standard: uk
 ---
-![label](https://user-images.githubusercontent.com/5904370/71768234-97bfc400-2f14-11ea-985c-57babb9f5736.png)
-
 The U3S appears to be a clone of the BlitzWolf SHP2.
 
-Units ordered from amazon.co.uk on 10th Decemeber 2019 wouldn't flash OTA, but worked fine with esptool. 
+Box of 4 ordered from Amazon UK 23/08/20 flashed with TuyaConvert successfully. 
 
-Order from amazon.co.uk from 20th of December 2019 didn't want to flash via OTA originally, but after re-runing "./install_prereq.sh" - it worked perfectly.
+![label](https://user-images.githubusercontent.com/5904370/71768234-97bfc400-2f14-11ea-985c-57babb9f5736.png)
 
-Box of 4 ordered from Amazon UK 31/03/20 flashed with TuyaConvert successfully.
-
-Box of 4 ordered from Amazon UK 01/07/20 flashed with TuyaConvert successfully.

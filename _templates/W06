@@ -64,7 +64,7 @@ on serialreceived#data=55AA0008000C00010101010101030400010021 do publish2 stat/%
 Turn on the rule: `Rule2 1`
 
 
-You can adapt the publish topics and payloads to work with your system, these are formed to woork in my environment. Battery messages are sent on every boot but we're still publishing those messages with retained flag so the battery state will always be reachable.
+You can adapt the publish topics and payloads to work with your system, these are formed to work in my environment. Battery messages are sent on every boot but we're still publishing those messages with retained flag so the battery state will always be reachable.
 
 Remember that the reset button on the back will trigger the water leak warning which is useful to test the device periodically and refresh battery status so you don't run out accidentally.
 
