@@ -2,8 +2,8 @@
 date_added: 2020-06-30
 title: Smoke Alarm
 model: YG400A
-category: misc
-type: Sensor
+category: sensor
+type: Smoke Sensor
 standard: global
 flash: serial
 image: /assets/images/YG400A.jpg

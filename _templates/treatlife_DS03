@@ -1,6 +1,6 @@
 ---
 date_added: 2020-08-12
-title: TreatLife Light and Ceiling Fan
+title: TreatLife Light and Fan
 model: DS03
 image: /assets/images/treatlife_DS03.jpg
 template: '{"NAME":"DS03 Fan/Light","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 

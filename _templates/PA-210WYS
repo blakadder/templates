@@ -2,8 +2,8 @@
 date_added: 2020-06-24
 title: Natural Gas (CH4) Alarm
 model: PA-210WYS
-category: misc
-type: Sensor
+category: sensor
+type: Gas Sensor
 standard: global
 flash: tuya-convert
 image: /assets/images/PA-210WYS.jpg

@@ -7,7 +7,7 @@ link2:
 mlink: https://www.moeshouse.com/products/mini-wifi-smart-light-switch-diy-breaker-module-smart-life-tuya-app-remote-control-works-with-alexa-echo-google-home-1-2-way
 category: unsupported
 flash: Beken
-type: Relay
+type: Switch
 ---
 the chip is BEKEN BK7231QN40 (and not ESP)
 

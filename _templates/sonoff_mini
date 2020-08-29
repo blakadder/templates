@@ -3,7 +3,7 @@ date_added: 2019-07-22
 title: Sonoff Mini
 model: IM190416001
 category: relay
-type: Relay
+type: Switch
 standard: global
 flash: sonoff-diy
 link2: https://www.aliexpress.com/item/4000046666272.html

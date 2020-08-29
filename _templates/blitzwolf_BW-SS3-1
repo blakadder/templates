@@ -1,6 +1,6 @@
 ---
 date_added: 2020-03-15
-title: Blitzwolf BW-SS3 1 Gang
+title: BlitzWolf BW-SS3 1 Gang
 model: 
 image: /assets/images/blitzwolf_BW-SS3-1.jpg
 template: '{"NAME":"BW-SS3-1G-EU","GPIO":[52,0,0,17,0,0,0,0,0,21,0,0,0],"FLAG":0,"BASE":18}' 

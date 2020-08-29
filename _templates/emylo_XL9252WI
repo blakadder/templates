@@ -9,7 +9,7 @@ link2:
 mlink: http://www.emyloworld.com/
 flash: tuya-convert
 category: relay
-type: Relay
+type: Switch
 standard: global
 ---
 

@@ -1,6 +1,6 @@
 ---
 date_added: 2020-08-22
-title: W06 Water 
+title: W06 
 model: W06
 image: /assets/images/W06.jpg
 template: '{"NAME":"W06 Water Sensor","GPIO":[0,148,0,149,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
@@ -8,8 +8,8 @@ mlink:
 link: https://www.aliexpress.com/item/4000510216875.html
 link2: https://www.aliexpress.com/item/4000492919273.html
 flash: serial
-category: misc
-type: Sensor
+category: sensor
+type: Water Sensor
 standard: global
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>

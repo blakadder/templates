@@ -10,6 +10,6 @@ link2: https://www.banggood.com/BlitzWolf-BW-SS4-Basic-2200W-10A-12-Way-WIFI-DIY
 mlink: https://www.blitzwolf.com/
 flash: tuya-convert
 category: relay
-type: Relay
+type: Switch
 standard: global
 ---

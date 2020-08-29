@@ -8,8 +8,8 @@ template: '{"NAME":"TY01","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE"
 link2: https://www.aliexpress.com/item/4000492919273.html
 mlink: 
 flash: serial
-category: misc
-type: Sensor
+category: sensor
+type: Contact Sensor
 standard: global
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>

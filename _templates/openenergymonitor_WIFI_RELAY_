@@ -9,7 +9,7 @@ link2:
 mlink: https://guide.openenergymonitor.org/integrations/mqtt-relay/
 flash: serial
 category: relay
-type: Relay
+type: Switch
 standard: global
 ---
 Pinout of the flashing header starting from the pushbutton: GND, (NC), 3V3, RX, TX. Press button during boot to enable flashing.

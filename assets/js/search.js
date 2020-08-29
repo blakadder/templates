@@ -2,7 +2,7 @@
 
 (function ($, lunr, database) {
 	var resultsContainer = $('#search-results')
-	var navigationContainer = $('#navigation')
+	var navigationContainer = $('#instructions')
 	var nothingFound = $('<li>Nothing found.</li>')
 	var searchQuery = $('#search-input')
 	
@@ -46,7 +46,7 @@
 
 		searchLink.attr('href', result.href)
 
-		searchLink.text(result.title).append(" ").append(result.type).append(" ").append(result.model)
+		searchLink.text(result.title).append(" ").append(result.type).append(" ").append(result.model).append(" ")
 
 		return searchEntry
 	}

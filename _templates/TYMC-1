@@ -8,8 +8,8 @@ template: '{"NAME":"TYMC-1","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BAS
 link2: https://www.amazon.de/dp/B07ZQ2XSKK/
 mlink: 
 flash: serial
-category: misc
-type: Sensor
+category: sensor
+type: Contact Sensor
 standard: global
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>

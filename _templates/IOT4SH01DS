@@ -1,8 +1,8 @@
 ---
 date_added: 2019-11-20
-title: IOT4SH01DS Temperature
-category: misc
-type: Sensor
+title: IOT4SH01DS
+category: sensor
+type: Temperature Sensor
 standard: global
 link: https://www.iot4.eu/?product=iot4sh01ds
 image: https://www.iot4.eu/wp-content/uploads/2017/03/IMG_0694_hatter.png

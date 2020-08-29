@@ -8,7 +8,7 @@ link: https://shop.shelly.cloud/shelly-i3-wifi-smart-home-automation
 link2: 
 mlink: https://shelly.cloud/products/shelly-i3-smart-home-automation-device/
 flash: serial
-category: misc
-type: Sensor
+category: relay
+type: Switch
 standard: global
 ---

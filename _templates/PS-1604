@@ -9,7 +9,7 @@ link2: https://www.amazon.in/gp/product/B07ZF7Y17R
 mlink: 
 flash: tuya-convert
 category: relay
-type: Relay
+type: Switch
 standard: in
 ---
 

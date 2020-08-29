@@ -5,8 +5,8 @@ model: DG-ZXD21
 template: '{"NAME":"Digoo ZXD21","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 image: /assets/images/digoo_DG-ZXD21.gif
 flash: tuya-convert
-category: misc
-type: Sensor
+category: sensor
+type: Contact Sensor
 standard: global
 mlink: 
 link: https://www.banggood.com/APP-Powered-by-Tuya-DIGOO-DG-ZXD21-Independent-WIFI-Door-Window-Sensor-Detection-Smart-Home-Security-System-Kits-p-1557162.html

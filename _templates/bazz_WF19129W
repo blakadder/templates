@@ -1,6 +1,6 @@
 ---
 date_added: 2020-05-22
-title: BAZZ 14" RGBCCT Ceiling Fixture
+title: BAZZ 14" RGBCCT 
 model: WF19129W
 image: /assets/images/bazz_WF19129W.jpg
 template: '{"NAME":"WF19129W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
@@ -9,6 +9,6 @@ link2:
 link: 
 flash: tuya-convert
 category: light
-type: Light
+type: Ceiling Light
 standard: us
 ---

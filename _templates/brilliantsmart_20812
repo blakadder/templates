@@ -1,12 +1,12 @@
 ---
 date_added: 2020-06-25
-title: BrilliantSmart 12W 290mm Salisbury CCT Ceiling
+title: BrilliantSmart 12W 290mm Salisbury CCT 
 model: 20812/05
 image: /assets/images/brilliantsmart_20812.jpg
 mlink: 
 flash: tuya-convert
 category: light
-type: Light
+type: Ceiling Light
 standard: au
 template: '{"NAME":"Brilliant Smart Salisbury","GPIO":[0,0,0,0,0,0,0,0,47,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/brilliant-12w-290mm-smart-salisbury-wifi-cct-led-ceiling-light_p0133111

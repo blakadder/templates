@@ -8,8 +8,8 @@ link: https://www.aliexpress.com/item/4001022480011.html
 link2: https://www.jbhifi.com.au/products/lenovo-smart-motion-sensor
 mlink: 
 flash: serial
-category: misc
-type: Sensor
+category: sensor
+type: Motion Sensor
 standard: global
 ---
 I bought this sensor off AliExpress, it came with a sticker hiding the Lenovo branding. 

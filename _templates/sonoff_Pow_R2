@@ -1,7 +1,7 @@
 ---
 title: Sonoff Pow R2
 category: relay
-type: Relay
+type: Switch
 standard: global
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/powr2
 link: https://www.itead.cc/sonoff-pow-r2.html

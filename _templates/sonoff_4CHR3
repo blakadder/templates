@@ -3,7 +3,7 @@ date_added: 2020-07-12
 title: Sonoff 4CHR3
 model: M08020100034
 category: relay
-type: Relay
+type: Switch
 standard: global
 image: /assets/images/sonoff_4CHR3.jpg
 template: '{"NAME":"Sonoff 4CHR3","GPIO":[17,255,255,255,23,22,18,19,21,56,20,24,0],"FLAG":0,"BASE":7}' 

@@ -1,7 +1,7 @@
 ---
 title: Shelly 1
 category: relay
-type: Relay
+type: Switch
 standard: global
 mlink: https://shelly.cloud/shelly1-open-source/
 image: /assets/images/shelly_1.jpg

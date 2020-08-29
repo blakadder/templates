@@ -6,7 +6,7 @@ image: https://user-images.githubusercontent.com/5904370/73432143-659e5800-4342-
 mlink: 
 flash: tuya-convert
 category: relay
-type: Relay
+type: Switch
 standard: au
 template: '{"NAME":"DETA-6000HA","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.co.nz/deta-smart-inline-switch-with-grid-connect_p0098816

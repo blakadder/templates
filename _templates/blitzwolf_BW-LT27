@@ -1,6 +1,7 @@
 ---
 date_added: 2020-02-06
-title: BlitzWolf BW-LT27 w/ remote 850lm
+title: BlitzWolf w/ remote 850lm
+model: BW-LT27
 image: /assets/images/blitzwolf_BW-LT27.jpg
 template: '{"NAME":"BW-LT27","GPIO":[0,0,0,0,41,38,0,0,39,51,40,37,0],"FLAG":0,"BASE":18}'
 link: https://www.banggood.com/BlitzWolf-BW-LT27-AC100-240V-RGBWWCW-9W-E27-APP-Smart-LED-Bulb-Work-With-Alexa-Google-Assistant-IR-Remote-Control-p-1619315.html

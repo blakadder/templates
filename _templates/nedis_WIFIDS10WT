@@ -8,8 +8,8 @@ link: https://nedis.com/en-us/product/security-safety/home-prevention/smoke-dete
 link2: 
 mlink: https://nedis.com/en-us/product/security-safety/home-prevention/smoke-detection/550691451/smart-smoke-detector-wi-fi
 flash: serial
-category: misc
-type: Sensor
+category: sensor
+type: Smoke Sensor
 standard: global
 ---
 ### Flashing

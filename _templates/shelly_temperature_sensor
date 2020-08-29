@@ -1,6 +1,6 @@
 ---
 date_added: 2020-03-26
-title: Shelly Temperature Sensor Add-on
+title: Shelly Add-on
 model: 
 image: /assets/images/shelly_temperature_sensor.jpg
 template: '{"NAME":"Shelly 1 Temp ","GPIO":[192,0,0,4,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}' 
@@ -8,8 +8,8 @@ link: https://shop.shelly.cloud/temperature-sensor-addon-for-shelly-1-1pm-wifi-s
 link2: https://www.amazon.de/gp/offer-listing/B081FF9G2K/
 link3: 
 mlink: https://shop.shelly.cloud/temperature-sensor-addon-for-shelly-1-1pm-wifi-smart-home-automation#312
-category: misc
-type: Sensor
+category: sensor
+type: Temperature Sensor
 standard: global
 ---
 This is just an addon that needs [Shelly 1](shelly_1) or [Shelly 1PM](shelly_1PM) to work. Apply the template in the Shelly device!

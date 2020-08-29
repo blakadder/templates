@@ -1,4 +1,6 @@
 toc:
+  - name: Search...
+    url: search.html
   - name: Bulbs by
     url: bulb.html
     subnav:
@@ -10,14 +12,16 @@ toc:
         url: bulb-socket.html
   - name: Curtains, Shutters and Shades
     url: cover.html
-  - name: Dimmers and Switches
+  - name: Wall Switches and Dimmers
     url: switch.html
-  - name: In-Wall Dimmers and Switches
+  - name: Inline Switches and Dimmers
     url: relay.html
   - name: Lights and LEDs
     url: light.html
   - name: Plugs and Sockets
     url: plug.html
+  - name: Sensors
+    url: sensors.html
   - name: Miscellaneous
     url: misc.html
   - name: Devices by Standard

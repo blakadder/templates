@@ -9,7 +9,7 @@ link2: https://www.aliexpress.com/item/4000961260360.html
 mlink: https://www.blitzwolf.com/1Gang/2Gang-2300W-Smart-Switch-p-479.html
 flash: serial
 category: relay
-type: Relay
+type: Switch
 standard: global
 ---
 Set to `SwitchMode 7` when using a standard wall switch to toggle relay state.

@@ -2,7 +2,7 @@
 date_added: 2019-05-01
 title: Shelly 1PM
 category: relay
-type: Relay
+type: Switch
 standard: global
 mlink: https://shelly.cloud/shelly-1pm-wifi-smart-relay-home-automation/
 image: https://user-images.githubusercontent.com/4916781/57010210-abad7a80-6c4f-11e9-93ae-73b45697a214.jpg

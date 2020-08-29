@@ -9,6 +9,6 @@ link2:
 mlink: https://www.albohes.com/products/sh-08-smart-breaker-white
 flash: serial
 category: relay
-type: Relay
+type: Switch
 standard: global
 ---

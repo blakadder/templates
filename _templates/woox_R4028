@@ -1,12 +1,12 @@
 ---
 date_added: 2019-04-27
-title: Woox R4028
+title: WOOX R4028
 category: plug
 type: Power Strip
 standard: eu
-link: https://www.amazon.de/Woox-Smart-Steckdosenleiste-kompatibel-Amazon/dp/B07GFNL67Z/
+link: https://www.amazon.de/WOOX-Smart-Steckdosenleiste-kompatibel-Amazon/dp/B07GFNL67Z/
 image: https://images-na.ssl-images-amazon.com/images/I/41bkmbxX4UL._SX679_.jpg
-template: '{"NAME":"Woox R4028","GPIO":[0,56,0,17,23,22,0,0,0,24,21,0,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"WOOX R4028","GPIO":[0,56,0,17,23,22,0,0,0,24,21,0,0],"FLAG":1,"BASE":18}' 
 link2: 
 ---
 
