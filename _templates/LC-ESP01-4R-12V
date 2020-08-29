@@ -2,7 +2,7 @@
 date_added: 2020-08-29
 title: LC Technology 12V 4 Channel 
 model: LC-ESP01-4R-12V
-image: /assets/images/
+image: /assets/images/LC-ESP01-4R-12V.jpg
 template: '{"NAME":"LC Technology 4CH Relay","GPIO":[21,0,22,0,23,24,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.banggood.com/DC12V-ESP8266-Four-Channel-Wifi-Relay-IOT-Smart-Home-Phone-APP-Remote-Control-Switch-p-13170.html
 link2: 
