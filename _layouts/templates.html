@@ -102,6 +102,10 @@ layout: default
 {% endif %}
 <div>
   <BR>
+  {% if page.author == 'blak' %}
+  <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+  {% endif %}
+
   {% if page.flash == 'tuya-convert' %}
   Tuya-Convert might not be possible for this device if the manufacturer started using <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">newest Tuya firmware</a> since this template was published. 
   Instead you can likely serial flash Tasmota without soldering with <a href="https://www.digiblur.com/2020/07/free-your-smart-devices-from-cloud.html">a flashing jig</a>, if the device is easily opened.

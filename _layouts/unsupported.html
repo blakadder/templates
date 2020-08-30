@@ -62,5 +62,9 @@ layout: default
       <hr>  
     </div>
   </div>
-  {{ content | markdownify }} 
+    {% if page.author == 'blak' %}
+    <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+    {% endif %}
+  
+    {{ content | markdownify }} 
   
