@@ -7,7 +7,7 @@ category: bulb
 standard: e26
 link2: 
 image: /assets/images/feit_electric-BPA800RGBWAG2P.jpg
-template: '{"NAME":" BPA800/RGBW/AG/2P","GPIO":[0,0,0,0,37,38,0,0,141,142,140,0,0],"FLAG":0,"BASE":48}' 
+template: '{"NAME":"BPA800/RGBW/AG/2P","GPIO":[0,0,0,0,37,47,0,0,141,142,140,0,0],"FLAG":0,"BASE":48}' 
 link: https://www.amazon.com/dp/B07RL48PFF
 mlink: 
 ---
