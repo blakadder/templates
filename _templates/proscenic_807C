@@ -47,7 +47,7 @@ Backlog Rule1 1; Rule2 1; Rule3 1
 
 You can use scripting instead of rules for a better implementation.
 
-To use the script, you have to compile Tasmota with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
+To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
 
 {% raw %}
 ```haskell
