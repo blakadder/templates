@@ -12,3 +12,4 @@ category: bulb
 type: RGBW
 standard: e14
 ---
+Sometime between 2020-03-31 and 2020-06-24 (date on barcode sticker) Moki started to use new tuya firmware with PSK 02, which cannot currently be flashed with tuya-convert.
