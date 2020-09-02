@@ -3,7 +3,7 @@ date_added: 2020-08-23
 title: Dealdig Robvaccum 8 Vacuum
 model: 
 image: /assets/images/dealdig_Robvaccum_8.jpg
-template: '{"NAME":"WhiteVacuum","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+template: '{"NAME":"WhiteVacuum","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33008123649.html
 link2: 
 mlink: 
@@ -12,3 +12,44 @@ category: misc
 type: Miscellaneous
 standard: global
 ---
+
+The Vacuum cleaner uses Dealdig App and therefor Tuya-convert is not possible. 
+But the Wifi module is easy accessible and it's possible to remove it from the vacuum (for debugging reasons I installed a NodeMCU back on mine Vacuum and am still running stock firmware on the original chip).
+
+After flashing Tasmota and install the wifi module back I started receiving `Serial` messages immediatly without assigning any pins in Tasmota
+And it looks something like this `AA1C06FF00040500000000000000000000000000000000000000000000505E` and the messages are displayed every ~10seconds.
+
+`AA1C06FF00` seems to be defaul, `04 05` represents the state of the vacuum, `50` is the battery % in Hex you can use something like this [Hex to Decimal](https://www.binaryhexconverter.com/hex-to-decimal-converter) to convert it and the 2 last bits I am not sure yet what they mean.
+
+The Vacuum can be used sending `SerialSend5` messages and the commmands are:
+```
+Smart Cleaning: aa 03 02 22 02 26
+Spot Cleaning: aa 03 02 22 01 25
+Edge Cleaning: aa 03 02 22 00 24 
+Stop: aa 03 02 26 00 28
+Go Charge: aa 03 02 22 03 27
+Move Front: aa 03 02 21 00 23 aa 03 02 21 04 27
+Move Back: aa 03 02 21 03 26 aa 03 02 21 04 27
+Turn Left: aa 03 02 21 01 24 aa 03 02 21 04 27
+Turn Right: aa 03 02 21 02 25 aa 03 02 21 04 27
+```
+
+The Vacuum will enter _Hibernated mode_ after few minutes of not being in use displaying `AA1C06FF000405000000000000000000000000000000000000000000006472`. In this mode the battery level isn't updated correctly and to wake it up generally I have to press the option I want a couple of time until it wakes up (generaly around 3x times)
+
+I have added the Vacuum to Home Assistant adding the commands as a scripts and then with [Vacuum Template](https://www.home-assistant.io/integrations/vacuum.template/) and [Lovelace Vacuum Card](https://github.com/denysdovhan/vacuum-card)
+The [yaml Package](https://www.home-assistant.io/docs/configuration/packages/) can be downloaded here: https://github.com/Sthopeless/trvc/blob/master/vacuum_white.yaml
+
+I have also created a picture without background of the vacuum to use with the lovelace integration:
+![](https://github.com/Sthopeless/trvc/blob/master/dealdig_Robvaccum_8.png)
+
+The lovelace card:
+```
+compact_view: false
+entity: vacuum.white_vacuum
+image: /local/dealdig_Robvaccum_8.png
+show_name: true
+show_status: true
+show_toolbar: true
+type: 'custom:vacuum-card'
+```
+
