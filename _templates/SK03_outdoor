@@ -13,10 +13,6 @@ SK03 Outdoor Smart Plug which can be found as different brand names on Amazon.  
 
 Pull the four rubber pads off the bottom to expose the screws and the unit opens up.  Unscrew the small screws from the board and it comes out of the case. The relay is close to the soldering points on the Tuya module but it can be done if you are careful.  GPIO0 is the button on the underside so you do not need to solder to that point, just hold the button during boot for your flashing process like you would with a Sonoff Basic.  
 
-digiblurDIY did a livestream showing this device, soldering and flashing process (split in two videos): [Part 1](https://www.youtube.com/watch?v=C5_BqptJA_w)  and [Part 2](https://www.youtube.com/watch?v=ca7P9TR9r68)
-
-As of firmware 6.3.0.11, the SK03 is available for use in the module configuration. 
-
 Information regarding the standard soldering and pinouts for the TYWE3S module:
 
 ![tywe3s_3](https://user-images.githubusercontent.com/3240875/43324698-669affd6-917a-11e8-8e06-c800741bfb68.png)
