@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-04
+title: DailyComb 7W 600lm
+model: 9131011606379379
+image: /assets/images/dailycomb_9131011606379379.jpg
+template: '{"NAME":"DailyComb RGBW Bulb","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07H31V63X
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
