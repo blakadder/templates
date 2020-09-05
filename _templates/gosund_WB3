@@ -6,8 +6,6 @@ category: bulb
 standard: e27
 image: https://user-images.githubusercontent.com/5904370/66717540-8fa32d00-edda-11e9-8f99-b1948457fbf6.png
 template: '{"NAME":"Gosund WB3","GPIO":[0,0,0,0,40,0,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.de/dp/B07QKGWRXT
-link2: https://www.amazon.de/dp/B07H8B6B9H
 mlink: https://www.gosund.store/products/smart-wifi-led-bulb
 ---
 ![Label](https://user-images.githubusercontent.com/5904370/72204649-ab21e080-347a-11ea-9b11-63b95e8039a7.png)
