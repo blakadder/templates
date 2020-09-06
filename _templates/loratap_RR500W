@@ -3,7 +3,7 @@ date_added: 2020-01-11
 title: LoraTap RR500W 
 model: 
 image: https://user-images.githubusercontent.com/5904370/72216006-68fcab80-351b-11ea-9d3f-e71a0b3e4229.png
-template: '{"NAME":"LoraTap RR500W","GPIO":[157,255,255,255,9,255,255,255,255,21,255,255,56],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"LoraTap RR500W","GPIO":[157,255,255,255,9,255,255,255,17,21,255,255,56],"FLAG":15,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000217561478.html
 link2: 
 mlink: https://www.loratap.com/tuya-smart-life-wifi-smart-ligh-switch-relay-module-remote-control-google-home-alexa-echo-works-with-wall-manual-switch-10a-p0107.html
