@@ -12,4 +12,4 @@ category: plug
 type: Plug
 standard: au
 ---
-Device **does not** work with tuya-convert, as it never enters the required pairing mode (will only slow flash and output a wifi signal). To open the device, it is held in place with clips on the side & top/bottom (small screwdriver or opening tool highly recommended). Ground, 3.3v, Rx/Tx are all labeled. 
+Device **does not** work with tuya-convert, as it never enters the required pairing mode (will only slow flash and output a wifi signal). To open the device, it is held in place with 10 clips, 2 on each side & top/bottom and 1 in each corner (small screwdriver or opening tool highly recommended - *an SMD component popped off when I was trying to lever it open, thus junking it*). Ground, 3.3v, Rx/Tx are all labeled. 
