@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-07
+title: NiteBird 8W 800lm 2700k
+model: LB1
+image: /assets/images/nitebird_LB1.jpg
+template: '{"NAME":"Nitebird-smart28k","GPIO":[0,0,0,0,37,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B082DWK146/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e26
+---

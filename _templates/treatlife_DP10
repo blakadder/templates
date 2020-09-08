@@ -1,0 +1,21 @@
+---
+date_added: 2020-09-05
+title: Treatlife Dimmer
+model: DP10
+image: /assets/images/treatlife_DP10.jpg
+template: '{"NAME":"DP10 Dimmer","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/dp/B086V3S2Q7
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: us
+---
+Enter these commands to get the dimmer working and the allow the buttons to work if the switch is off: 
+```console
+BackLog TuyaMCU 21,2;SetOption20 1;SetOption54 1
+```
+```console
+Backlog TuyaSend2 3,100; DimmerRange 100,1000
+```
