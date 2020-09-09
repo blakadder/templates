@@ -25,3 +25,4 @@ See the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#h
 The serial header (RXD, TXD, GND) as well as GPIO0, GPIO2 and RESET (IO0, IO2, RST) are populated as test pads on the frontside of the PCB. Unfortunately the 3.3V is not available any more, so you have to solder it directly on the ESP chip pin (see second image). You can easily add some solder to fix the wires during the flash process.
 
 To place the board into flashing mode, you will need to short IO0 to GND. This can remain shorted while flashing is in progress, but you will need to remove the short in order to boot the Tasmota firmware.
+ 
