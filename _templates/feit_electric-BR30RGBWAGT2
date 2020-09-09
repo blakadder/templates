@@ -4,12 +4,12 @@ title: Feit Electric BR30 700lm
 model: SWY-BR30RGBWAGT2
 image: /assets/images/feit_electric-BR30RGBWAGT2.jpg
 template: '{"NAME":"Feit BR30/RGBW","GPIO":[0,0,0,38,141,140,0,0,0,142,37,0,0],"FLAG":0,"BASE":18}' 
+template-alt: {"NAME":"Feit BR30/RGBW","GPIO":[0,0,0,0,141,140,0,0,38,142,37,0,0],"FLAG":0,"BASE":18}
 link: https://www.costco.com/
 link2: 
 mlink: http://Feit.com
 flash: tuya-convert
 category: bulb
-type: RGBW
+type: RGBCCT
 standard: e26
 ---
-You'll want to `SetOption37 128`. This will enable you to switch both the White and the color LEDs seperatelhy
