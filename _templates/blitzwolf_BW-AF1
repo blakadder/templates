@@ -1,6 +1,6 @@
 ---
 date_added: 2020-09-20
-title: BlitzWolf AF1 Air Fryer
+title: BlitzWolf Air Fryer
 model: BW-AF1
 image: /assets/images/blitzwolf_BW-AF1.jpg
 template: '{"NAME":"Bw-AF1","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
