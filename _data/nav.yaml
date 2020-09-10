@@ -1,6 +1,8 @@
 toc:
   - name: Search...
     url: search.html
+  - name: Preflashed with Tasmota
+    url: preflashed.html
   - name: Bulbs by
     url: bulb.html
     subnav:

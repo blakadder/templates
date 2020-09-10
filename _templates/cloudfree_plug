@@ -1,5 +1,5 @@
 ---
-date_added: 2020-09-31
+date_added: 2020-09-30
 title: Cloudfree Runs Tasmota
 model: Cloudfree_1
 image: /assets/images/cloudfree_plug.jpg
@@ -9,7 +9,7 @@ link: https://cloudfree.shop/product/cloudfree-smart-plug/
 link2: 
 flash: preflashed
 category: plug
-type: Outdoor Plug
+type: Plug
 standard: us
 ---
 Template is already preconfigured and the plug can be used and upgraded like a typical Tasmota device.

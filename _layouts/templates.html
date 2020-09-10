@@ -68,6 +68,8 @@ layout: default
     <a class="menu" href="https://tasmota.github.io/docs/Getting-Started" target="_blank">Serial port</a>
     {% elsif page.flash == "sonoff-diy" %}
     <a class="menu" href="https://github.com/itead/Sonoff_Devices_DIY_Tools" target="_blank">Sonoff DIY</a>
+    {% elsif page.flash == "preflashed" %}
+    Tasmota pre-flashed
     {% else %}
     {% endif %}
   {% else %}
@@ -112,7 +114,7 @@ layout: default
   {% endif %}
 
   {% if page.flash == 'preflashed' %}
-  This device comes from the factory with Tasmota pre-flashed!
+  This device comes with <b>Tasmota pre-flashed</b> straight from the factory !
   <p>
   {% endif %}
 

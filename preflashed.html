@@ -1,0 +1,22 @@
+---
+layout: default
+title: Devices with Factory Flashed Tasmota
+---
+<h2>{{ page.title }}</h2>
+
+<!-- ######################################################################  -->
+{% assign category = site.templates | where: "flash", "preflashed" | sort_natural: 'standard' %}
+{% assign type_group = category | group_by: 'standard' %}
+{% assign type_grouped = type_group %}
+{% for group in type_grouped %}
+<BR>
+<h3>{{ group.name | upcase }}</h3>
+<table id="{{group.name}}" width="80%">
+    <tbody>
+    {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
+    {% for template in grouptitlesorted %}
+    {% include tablerow.html %}
+    {% endfor %}
+</tbody>
+</table>
+{% endfor %}
