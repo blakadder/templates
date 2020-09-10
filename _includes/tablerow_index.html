@@ -7,10 +7,11 @@
    Power Monitoring 
    {% endif %} 
         {{ template.type | replace: "Miscellaneous", "" }}        
-        {{ template.model }} 
         {% if template.category contains 'bulb'%}
         Bulb
-    {% endif %}   </a>     
+        {% endif %}
+        {{ template.model }} 
+    </a>     
         <td style="width: 1px"></td>
   </tr>
   
