@@ -114,7 +114,9 @@ layout: default
   {% endif %}
 
   {% if page.flash == 'preflashed' %}
-  This device comes with <b>Tasmota pre-flashed</b> straight from the factory !
+  This device comes with <b>Tasmota pre-flashed</b> straight from the factory!
+  <br>
+  <br>
   <p>
   {% endif %}
 
@@ -123,36 +125,45 @@ layout: default
   {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
 
   For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
+  <br>
   <p>
   {% endif %}
 
   {% if page.type contains 'Curtain Switch' %}
   Requires configuring <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support</a>.
+  <br>
   <p>
   {% endif %}
 
   {% if page.template contains '"BASE":73' %}
   Requires enabled <a href="https://tasmota.github.io/docs/PWM-dimmer-switch/">PWM Dimmer support</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
+  <br>
   <p>
   {% endif %}
 
   {% if page.type contains 'RGBW' %}
   See <a href="https://tasmota.github.io/docs/Lights/#4-channels-rgbw-lights">documentation</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
+  <br>
   <p>
   {% endif %}
 
-  {% if page.title contains Teckin or page.title contains Lumiman %}
-  <b>NOTICE!!!</b> Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore.  
-  {% endif %}
+  {% if page.title contains 'Teckin' or page.title contains 'Lumiman' %}
+  <b>NOTICE!!!</b> Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore.<p>  
+    <br>
+    {% endif %}
 
-  {% if page.title contains Athom %}
+  {% if page.title contains 'Athom' %}
   <b>Athom devices come with modified Tasmota which is not entirely compatible with regular releases. To have full compatibility upgrade to main release version.</b>
-
+  <br>
+  <br>
   Before upgrading set your device to module Generic (19) (yes, it is 19 in Athom's build) to avoid clicking relays, flashing lights or button resets after upgrade. Perform upgrade to release version using file upload method with <a href="http://ota.tasmota.com/tasmota/release/tasmota.bin.gz">tasmota.bin.gz</a> or <a href="http://ota.tasmota.com/tasmota/release/tasmota-lite.bin.gz">tasmota-lite.bin.gz</a> or with OTAUrl. <b>DO NOT use tasmota-minimal.bin!</b>. 
-
-  None of the setting will be retained after the upgrade. You will have to search for Tasmota AP and redo the Wi-Fi and MQTT configuration. Once you've upgraded do <pre>Reset 6</pre> to erase flash and apply the template!
-
+  <br>
+  <br>
+  None of the settings will be retained after the upgrade. You will have to search for Tasmota AP and redo the Wi-Fi and MQTT configuration. Once you've upgraded do <code>Reset 6</code> to erase flash and apply the template!
+  <br>
+  <br>
   If you use OTAUrl upgrade with precompiled binaries there is a chance of soft bricking your device. In most cases it is possible to restore it using <a href="https://tasmota.github.io/docs/Device-Recovery/#fast-power-cycle-device-recovery">Power Cycle Recovery</a> or, if that fails, with serial flash. 
+  <br>
   <p>
   {% endif %}
   
