@@ -7,10 +7,7 @@
    Power Monitoring 
    {% endif %} 
         {{ template.type | replace: "Miscellaneous", "" }}        
-        {% assign standard_list = template.standard %}
-        {% for item_standard in standard_list %}
-        {{ item_standard | upcase }} 
-        {% endfor %}
+        {{ template.model }} 
         {% if template.category contains 'bulb'%}
         Bulb
     {% endif %}   </a>     
