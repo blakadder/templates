@@ -111,6 +111,11 @@ layout: default
   <p>
   {% endif %}
 
+  {% if page.flash == 'preflashed' %}
+  This device comes from the factory with Tasmota pre-flashed!
+  <p>
+  {% endif %}
+
   {% assign template = page.template | split: ':' %}
   {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
   {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
