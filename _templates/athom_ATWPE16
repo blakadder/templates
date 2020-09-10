@@ -1,0 +1,17 @@
+---
+date_added: 2020-09-10
+title: Athom 16A
+model: ATWPE16
+image: /assets/images/athom_ATWPE16.jpg
+template: '{"NAME":"Plug 16A","GPIO":[0,0,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/color-smart-plug
+link: https://www.aliexpress.com/item/4001025037509.html
+link2: https://www.tindie.com/products/athom/pre-flashed-tasmota-eu-plug/
+flash: preflashed
+category: plug
+type: Plug
+standard: eu
+---
+{% include athom.md %}
+
+![PCB](/assets/images/athom_ATWPE16_pcb.jpg)

@@ -10,7 +10,9 @@
         {% if template.category contains 'bulb'%}
         Bulb
         {% endif %}
-        {{ template.model }} 
+        {{ template.model }}
+        {% if templte.flash == "preflashed" %}
+        - preflashed with Tasmota 
     </a>     
         <td style="width: 1px"></td>
   </tr>

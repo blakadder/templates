@@ -4,8 +4,10 @@ title: Devices with Factory Flashed Tasmota
 ---
 <h2>{{ page.title }}</h2>
 
+<h4>All devices listed come with some version of Tasmota already flashed. They can be upgraded with the newest version.</h4>
+
 <!-- ######################################################################  -->
-{% assign category = site.templates | where: "flash", "preflashed" | sort_natural: 'standard' %}
+{% assign category = site.templates | where: "flash", "preflashed" | sort_natural: 'name' %}
 {% assign type_group = category | group_by: 'standard' %}
 {% assign type_grouped = type_group %}
 {% for group in type_grouped %}
@@ -20,3 +22,4 @@ title: Devices with Factory Flashed Tasmota
 </tbody>
 </table>
 {% endfor %}
+ 

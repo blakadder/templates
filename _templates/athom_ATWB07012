@@ -1,0 +1,17 @@
+---
+date_added: 2020-09-10
+title: Athom 7W 600lm
+model: ATWB07012
+image: /assets/images/athom_ATWB07012.jpg
+template: '{"NAME":"Athom ATWB07012","GPIO":[158,0,0,17,0,0,0,0,0,21,52,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/color-bulb
+link: https://www.aliexpress.com/item/4001281509550.html
+link2: 
+flash: preflashed
+category: bulb
+type: RGBCCT
+standard: e27
+---
+{% include athom.md %}
+
+Serial number on the bulb is TB85. 
