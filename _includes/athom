@@ -1,6 +1,6 @@
 ***Athom devices come with modified Tasmota which is not entirely compatible with regular releases. To have full compatibility upgrade to main release version***
 
-Before upgrading set your device to module `Generic (19)` (yes, it is 19 in this build) to avoid clicking relays, flashing lights or button resets after upgrade. Perform upgrade to release version using file upload method with [tasmota.bin.gz](http://ota.tasmota.com/tasmota/release/tasmota.bin.gz) or [tasmota-lite.bin.gz](http://ota.tasmota.com/tasmota/release/tasmota-lite.bin.gz) or with OTAUrl. **DO NOT use tasmota-minimal.bin!**. 
+Before upgrading set your device to module `Generic (19)` (yes, it is 19 in Athom's build) to avoid clicking relays, flashing lights or button resets after upgrade. Perform upgrade to release version using file upload method with [tasmota.bin.gz](http://ota.tasmota.com/tasmota/release/tasmota.bin.gz) or [tasmota-lite.bin.gz](http://ota.tasmota.com/tasmota/release/tasmota-lite.bin.gz) or with OTAUrl. **DO NOT use tasmota-minimal.bin!**. 
 
 None of the setting will be retained after the upgrade. You will have to search for Tasmota AP and redo the Wi-Fi and MQTT configuration. Once you've upgraded do `Reset 6` to erase flash and apply the template!
 
