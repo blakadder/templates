@@ -3,7 +3,7 @@ date_added: 2020-08-31
 title: Eardatek EDM-01AA-EU
 category: unsupported
 type: Dimmer
-image: /assets/images/eardatek_EDM-01AA-EU.jpg
+image: /assets/images/Eardatek_EDM-01AA-EU.jpg
 mlink: https://www.alibaba.com/product-detail/European-standard-dimmer-switch-for-LED_62308423570.html
 link: https://www.aliexpress.com/item/4001093399451.html
 link2: https://www.aliexpress.com/item/4001283464467.html
@@ -15,7 +15,7 @@ Has an Eardatek EWN-89710BNN module based on RTL8710BN. Also sold under Zemismar
 
 ![](/assets/images/Eardatek_EDM-01AA-EU_box.jpg)
 
-The RTL module can be replaced by an ESP8266 one but there are none (afaik) that are pin compatible. Since you only need 2 GPIO's and power and the space is tight use a very small module (for example an [ESP-M3](ESP-M3))
+The RTL module can be replaced by an ESP8266 one but there are none (afaik) that are pin compatible. Since you only need 2 GPIO's and power and the space is tight use a very small module (for example an [ESP-M3](/ESP-M3))
 
 This is the pinout discovered with a multimeter and some trial and error for RX and TX pins.
 

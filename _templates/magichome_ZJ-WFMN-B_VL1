@@ -1,9 +1,9 @@
 ---
-date_added: 2020-07-01
+date_added: 2020-09-04
 title: MagicHome RGBW RF  
 model: ZJ-WFMN-B VL1
 image: /assets/images/magichome_ZJ-WFMN-B_VL1.jpg
-template: '{"NAME":"MagicHome RF","GPIO":[0,0,0,0,0,38,0,0,39,40,37,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"MagicHome RGBW RF","GPIO":[0,0,56,0,147,38,0,0,39,40,37,159,0],"FLAG":0,"BASE":18}' 
 link: https://www.ebay.com.au/itm/Mini-Wifi-Bluetooth-Intelligent-Smart-Remote-Controller-RGBW-RGB-LED-Light-Strip/113864550205
 link2: https://www.aliexpress.com/item/33035745736.html
 mlink: 
@@ -12,4 +12,4 @@ category: light
 type: LED Controller
 standard: global
 ---
-Haven't got the RF Remote working but all colours are correct.
+The RF remote works without needing to configure any rules

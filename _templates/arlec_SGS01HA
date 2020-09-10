@@ -95,6 +95,10 @@ switch(sensorType) {
         humidity = parseInt(sensorValue,16)
         sensorValue = parseInt(humidity)
     break;
+    case "630204":
+        sensorType = "INTERVAL"
+        value = parseInt(value, 16) / 60    // Returns the interval in minutes at which the temp/humidity sensor will send an update. Interval is changed by pressing the button on the sensor
+    break;
     case "5B0101":
         sensorType = "CONTACT"
         sensorValue = parseInt(sensorValue)

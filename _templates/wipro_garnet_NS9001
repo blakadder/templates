@@ -7,7 +7,8 @@ category: bulb
 standard: b22
 mlink: https://www.wiproconsumerlighting.com/products/garnet/led-bulb/wipro-next-smart-bulb
 link: https://www.amazon.in/gp/product/B07PD4DW17
-image: https://images-na.ssl-images-amazon.com/images/I/71Y3lsKoFUL._AC_SL1500_.jpg
+image: /assets/images/wipro_garnet_NS9001.jpg
 template: '{"NAME":"Wipro","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"Wipro","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

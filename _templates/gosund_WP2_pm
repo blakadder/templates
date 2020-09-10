@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-05
+title: Gosund 2 in 1
+model: WP2
+image: /assets/images/gosund_WP2_pm.jpg
+template: '{"NAME":"Gosund WP212","GPIO":[57,52,157,0,21,134,0,0,131,17,132,22,18],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07F58N32V
+link2: 
+mlink: https://www.gosund.com/download/smart_plug/130.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+This template supports energy monitoring; however, not all revisions of the WP2 support energy monitoring. Try the templates for WP211 and WP212 if your plug doesn't support energy monitoring.

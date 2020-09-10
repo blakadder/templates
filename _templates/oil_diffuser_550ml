@@ -25,7 +25,7 @@ PCB code: KCL-M1801C_M 2018_11_12 V5.0
 `dpID 6` light control: `0 = off / 1 = rgb cycle / 2 = white / 3 = single color`   
 `dpID 7` led dimmer    
 `dpID 8` led color: `14 char value in hex` (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
-`dpID 9` error notification: 70 = ok / 1 = error`  
+`dpID 9` error notification: `70 = ok / 1 = error`  
 `dpID 101` mist strength: `0 = low / 1 = high`   
 
 > I found the built in buzzer very annoying and desoldered it for quieter operation!

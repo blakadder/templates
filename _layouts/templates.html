@@ -11,7 +11,7 @@ layout: default
       {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
  Power Monitoring
  {% endif %}
- {{ page.type }}
+ {{ page.type | replace: "Miscellaneous", "" }}        
  {% if page.category contains 'bulb'%}
  Bulb
  {% endif %}
@@ -107,8 +107,7 @@ layout: default
   {% endif %}
 
   {% if page.flash == 'tuya-convert' %}
-  Tuya-Convert might not be possible for this device if the manufacturer started using <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">newest Tuya firmware</a> since this template was published. 
-  Instead you can likely serial flash Tasmota without soldering with <a href="https://www.digiblur.com/2020/07/free-your-smart-devices-from-cloud.html">a flashing jig</a>, if the device is easily opened.
+  Tuya-Convert might not be possible for this device if the manufacturer started using <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">newest Tuya firmware</a> since this template was published ({{ page.date_added  }}). 
   <p>
   {% endif %}
 
