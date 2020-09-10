@@ -12,8 +12,6 @@ category: switch
 type: Switch
 standard: eu
 ---
-
-
 This switch works with or without neutral wire (a capacitor needed for no neutral installation is provided)
 
 ![PCB](/assets/images/athom_SW112_pcb.jpg)
