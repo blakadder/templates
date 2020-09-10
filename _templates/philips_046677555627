@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-08
+title: Philips 5/6 in. RGBCCT Downlight
+model: 046677555627
+image: /assets/images/philips_046677555627.jpg
+template: '{"NAME":"Philips","GPIO":[0,0,0,0,40,0,0,0,37,41,39,38,0],"FLAG":0,"BASE":48}' 
+link: https://www.homedepot.com/p/Philips-Color-and-Tunable-White-5-6-in-LED-65W-Equivalent-Dimmable-Smart-Wi-Fi-Wiz-Connected-Recessed-Downlight-Kit-555623/310289033
+link2: 
+mlink: https://www.usa.lighting.philips.com/consumer/p/smart-wi-fi-led-downlight-e26/046677555627
+flash: serial
+category: light
+type: Downlight
+standard: us
+---
