@@ -12,7 +12,7 @@ category: switch
 type: Switch
 standard: eu
 ---
-{% include athom.md %}
+<!-- {% include athom.md %} -->
 
 This switch works with or without neutral wire (a capacitor needed for no neutral installation is provided)
 

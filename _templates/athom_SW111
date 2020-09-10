@@ -12,6 +12,6 @@ category: switch
 type: Switch
 standard: eu
 ---
-{% include athom.md %}
+<!-- {% include athom.md %} -->
 
 ![PCB](/assets/images/athom_SW111_pcb.jpg)
