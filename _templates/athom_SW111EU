@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-12
+title: Athom 1 Gang No Neutral
+model: SW111EU
+image: /assets/images/athom_SW111EU.jpg
+template: '{"NAME":"Athom SW111EU","GPIO":[158,0,0,17,0,0,0,0,0,21,52,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/no-neutral-line-neutral-line-needed-dual-mode-eu-switch
+link: https://www.aliexpress.com/item/1005001278010906.html
+link2: 
+flash: preflashed
+category: switch
+type: Switch
+standard: eu
+---
+This switch works with or without neutral wire (a capacitor needed for no neutral installation is provided)

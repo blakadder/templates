@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-12
+title: Athom 2 Gang
+model: SW032US
+image: /assets/images/athom_SW032US.jpg
+template: '{"NAME":"Athom SW032US","GPIO":[158,53,0,17,22,18,0,0,0,21,52,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/us-touch-switch-2-gang
+link: https://www.aliexpress.com/item/4001241204555.html
+link2: 
+flash: preflashed
+category: switch
+type: Switch
+standard: us
+---
