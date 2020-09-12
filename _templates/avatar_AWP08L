@@ -12,5 +12,6 @@ template: '{"NAME":"AWP08L","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE
 link2: https://www.amazon.de/gp/product/B07L81GBQL
 mlink: https://www.alibaba.com/product-detail/Amazon-Best-Sellers-OEM-2018-smart_60826514282.html?
 ---
+How to [open the plug](https://blakadder.com/disassembling-CN39/)
 
 There are [versions of AWP08L](unsupported/AWP08L-v3.html) from Aliexpress with an unsupported chip

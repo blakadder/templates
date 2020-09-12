@@ -1,14 +1,17 @@
 ---
-date_added: 2020-01-19
-title: Aisirer AWP08L
-model: 
-image: https://user-images.githubusercontent.com/5904370/72686321-ac46b380-3af3-11ea-9acd-da79a7c1dbca.png
-template: '{"NAME":"AISIRER AWP08L","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+date_added: 2020-02-08
+title: Aisirer
+model: AWP08L
+image: /assets/images/aisirer_AWP08L_v2.jpg
+template: '{"NAME":"AISIRER AWP08L","GPIO":[0,0,0,0,17,57,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"AISIRER AWP08L","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.fr/dp/B07RVN5LF4
-link2: 
-mlink: https://www.iaisirer.com/fr/Prise-Connect%C3%A9e-1-Pack.html
+link2: https://www.amazon.de/dp/B07L5564VF
+mlink: https://www.iaisirer.com/fr/Prise-Connectée-1-Pack.html
 flash: tuya-convert
 category: plug
 type: Plug
 standard: eu
 ---
+
+How to [open the plug](https://blakadder.com/disassembling-CN39/)

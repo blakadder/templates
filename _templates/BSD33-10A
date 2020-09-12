@@ -11,6 +11,5 @@ category: plug
 type: Plug
 standard: eu
 ---
-Unfortunaly, the vendor released different versions which look exactly the same, including the print on the plug. Some aren't even ESP flashable, some are. Some have power monotiring, some don't. 
-
+How to [open the plug](https://blakadder.com/disassembling-CN39/)
 
