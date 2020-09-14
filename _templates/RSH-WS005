@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-14
+title: RSH-WS005 
+model: 2AOUMRSH-WS005
+image: /assets/images/RSH-WS005.jpg
+template: '{"NAME":"RSH-WS005 Energy Monitor","GPIO":[56,0,158,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B083SK22QT/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
