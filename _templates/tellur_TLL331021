@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-17
+title: Tellur 1USB 10A
+model: TLL331021
+image: /assets/images/tellur_TLL331021.jpg
+template: '{"NAME":"Tellur TTL331021","GPIO":[0,0,157,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07HWLDG13
+link2: 
+mlink: https://www.tellur.com/
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+Directly flash esp8266 module, with USB to TTL serial
