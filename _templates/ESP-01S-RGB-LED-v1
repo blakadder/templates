@@ -1,0 +1,18 @@
+---
+date_added: 2019-11-20
+title: ESP01 NeoPixel Ring 
+model: ESP-01S-RGB-LED-v1.0
+category: light
+type: LED Controller
+standard: global
+image: /assets/images/ESP-01-01S-DS18B20.jpg
+template: '{"NAME":"ESP-01S-RGB-LED-v1.0","GPIO":[255,255,7,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://github.com/IOT-MCU/ESP-01-01S-DS18B20-v1.0
+link: https://www.aliexpress.com/item/1859126994.html
+link2: https://www.amazon.com/ESP8266-Controller-Adpater-Arduino-Christmas/dp/B083JSD5SB/
+link3: https://www.amazon.de/dp/B07ZR8JPQP/
+link4: https://www.banggood.com/Geekcreit-WS2812-Light-Ring-Electronic-Maker-Student-Education-ESP8266-ESP01S-01-RGB-LED-Smart-Wifi-Kit-p-1329204.html
+---
+How to flash [ESP-01(S)](ESP01)
+
+Only able to control short lengths of addressable LED strips using the board power.

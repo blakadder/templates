@@ -1,12 +1,13 @@
 ---
 date_added: 2020-05-09
-title: ESP-M3
+title: ESP-M3 Module
 model:  
 image: /assets/images/ESP-M3.jpg
 template: '{"NAME":"ESP-M3","GPIO":[255,255,255,255,255,0,0,0,0,255,255,0,255],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/wholesale?SearchText=esp-m3&opensearch=true
 link2: https://www.amazon.com/s?k=esp-m3
 link3: https://www.amazon.de/s?k=esp-m3
+link4: https://www.banggood.com/ESP-M3-From-ESP8285-Serial-Wireless-WiFi-Transmission-Module-Fully-Compatible-With-ESP8266-Geekcreit-for-Arduino-products-that-work-with-official-Arduino-boards-p-1215064.html
 mlink: https://github.com/SmartArduino/SZDOITWiKi/wiki/ESP8285---ESP-M3
 flash: serial
 category: misc
