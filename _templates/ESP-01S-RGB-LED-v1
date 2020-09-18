@@ -5,7 +5,7 @@ model: ESP-01S-RGB-LED-v1.0
 category: light
 type: LED Controller
 standard: global
-image: /assets/images/ESP-01-01S-DS18B20.jpg
+image: /assets/images/ESP-01S-RGB-LED-v1.jpg
 template: '{"NAME":"ESP-01S-RGB-LED-v1.0","GPIO":[255,255,7,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://github.com/IOT-MCU/ESP-01-01S-DS18B20-v1.0
 link: https://www.aliexpress.com/item/1859126994.html
