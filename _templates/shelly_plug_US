@@ -1,0 +1,19 @@
+---
+date_added: 2020-09-17
+title: Shelly Plug US
+category: plug
+type: Plug
+standard: us
+mlink: https://shelly.cloud/products/shelly-plug-us-smart-home-automation-device/
+image: /assets/images/shelly_plug_US.jpg
+template: '{"NAME":"Shelly Plug US","GPIO":[52,0,57,0,21,134,0,0,131,17,132,157,0],"FLAG":0,"BASE":45}' 
+link: https://shopusa.shelly.cloud/shelly-plug-us-wifi-smart-home-automation#393
+---
+
+```console
+rule1 on power1#state do backlog ledpower1 %value%; ledpower2 %value% endon on power1#boot do backlog ledpower1 %value%; ledpower2 %value% endon
+```
+
+and activate it with `Rule1 1`
+
+
