@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-19
+title: Houzetek 4AC 3USB
+model: SA-P402A
+image: /assets/images/
+template: '{"NAME":"SA-P402A Houze","GPIO":[0,17,0,56,23,25,0,0,21,24,22,0,0],"FLAG":1,"BASE":18}' 
+link: https://www.amazon.es/dp/B07H5JVF4R/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: eu
+---

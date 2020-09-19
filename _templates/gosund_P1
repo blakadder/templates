@@ -28,6 +28,8 @@ Rule2
   ON Analog#A0div10<80 DO Power1 2 ENDON
 ```  
 
+![Relation of analog button](/assets/images/gosund_P1_analog.jpg)
+
 Then enable it with `Backlog Rule1 1; Rule2 1; Rule2 5`
 
 ## Serial flash
