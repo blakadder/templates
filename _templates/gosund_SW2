@@ -40,6 +40,23 @@ rng-=off
 =#scDim(dimval)
 
 >E
+a=SerialReceived
+if sl(a)>0
+then
+if sl(a)==47
+then
+b=sb(a -5 2)
+else
+b=sb(a -8 2)
+endif
+a=""
+f=hd(b)
+=>dimmer %f%
+slider=f
+dimval=slider
+=#scDim(dimval)
+=>SerialSend5 %dimh%
+else
 slider=Dimmer
 if chg[slider]>0
 then
@@ -49,6 +66,7 @@ then
 dimval=slider
 =#scDim(dimval)
 =>SerialSend5 %dimh%
+endif
 endif
 endif
 
@@ -62,41 +80,6 @@ else
 =>Serialsend5 00
 power=0
 endif
-endif
-
-a=SerialReceived
-if sl(a)>0
-then
-;process the first and second hex nibbles
-b=sb(a -8 1)
-c=sb(a -7 1) 
-a=""
-;convert the first nibble to decimal – max value is 0x60
-f=b
-f*=16
-;handle second nibble which may be 0x0-0xf
-d=c
-if d==0
-then
-switch c
-case "A"
-d=10
-case "B"
-d=11
-case "C"
-d=12
-case "D"
-d=13
-case "E"
-d=14
-case "F"
-d=15
-ends
-endif
-;add first and second nibbles then to Tasmota dimming path
-f+=d
-=>dimmer %f%
-slider=f
 endif
 
 #scDim(dimval)
