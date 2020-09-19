@@ -2,8 +2,8 @@
 date_added: 2020-09-18
 title: Merkury 
 model: MI-OW101-300W 
-image: /assets/images/
-template: '{"NAME":"Merkury Switch","GPIO":[17,0,0,0,0,57,0,0,0,52,21,0,0],"FLAG":0,"BASE":18}' 
+image: /assets/images/merkury_MI-OW101-300W.jpg
+template: '{"NAME":"Merkury Switch","GPIO":[0,0,0,0,17,0,0,0,0,21,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.walmart.com/ip/Merkury-Innovations-Indoor-Outdoor-Smart-Plug-Weather-Resistant/608604678
 link2: 
 mlink: 
