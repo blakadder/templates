@@ -69,10 +69,12 @@ Since autodiscovery won't work on this type of device and configuration.yaml is 
 
 The payload is presented in yaml form for easier editing. To get a valid payload, take the yaml block and convert it to JSON. I recommend using [onlineyamltools](https://onlineyamltools.com/convert-yaml-to-json). If you have changed topics and payloads in the rule you need to change them here too.
 
+Set your device `Topic` to something meaningful because it will be used as part of the device name in HA.
+
 #### Contact Sensor
 
 {% highlight yaml %}
-{% raw  %}name: Contact Sensor
+{% raw  %}name: %topic% Contact Sensor
 state_topic: stat/%topic%/RESULT
 value_template: '{{value_json.POWER}}'
 payload_off: 'OFF'
@@ -82,9 +84,7 @@ unique_id: '%deviceid%_contact'
 device:
   identifiers:
     - '%deviceid%'
-  name: D06
-  model: D06 Door Sensor
-  sw_version: 8.5.0(tasmota)
+  name: %topic%
   manufacturer: Tasmota
 platform: mqtt{% endraw %}
 {% endhighlight %}
@@ -97,14 +97,16 @@ rule3 on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_contact/
 #### Battery Sensor
 
 {% highlight yaml %}
-{% raw  %}name: D06 battery
+{% raw  %}name: '%topic% Battery'
 state_topic: stat/%topic%/BATTERY
 value_template: '{{ value }}'
+icon: 'mdi:battery'
 unique_id: '%deviceid%_battery'
 device:
   identifiers:
     - '%deviceid%'
-icon: 'mdi:battery'
+  name: %topic%
+  manufacturer: Tasmota
 platform: mqtt{% endraw %}
 {% endhighlight %}
 
