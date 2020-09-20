@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-19
+title: LCARE Modular 2 Gang
+model: 
+image: /assets/images/
+template: '{"NAME":"2SW1-In","GPIO":[17,255,255,255,0,22,18,0,21,56,0,0,0],"FLAG":0,"BASE":29}' 
+link: https://lcareindia.com/product/LCARE-Smart-WiFi-Modular-Switch-for-Home-Automation-2-Year-Warranty/
+link2: 
+mlink: https://lcareindia.com/product/LCARE-Smart-WiFi-Modular-Switch-for-Home-Automation-2-Year-Warranty/
+flash: tuya-convert
+category: switch
+type: Switch
+standard: in
+---
+The device gets installed in Standard Indian 2 module switch boards sold by other manufacturer
