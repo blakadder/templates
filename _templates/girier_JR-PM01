@@ -1,6 +1,6 @@
 ---
 date_added: 2020-09-20
-title: Girier - EU Smart Wifi Socket Energy Monitoring
+title: Girier 16A
 model: JR-PM01
 image: /assets/images/girier_JR-PM01.jpg
 template: '{"NAME":"Girier - JR-PM01","GPIO":[0,157,0,131,134,132,0,0,21,17,56,0,0],"FLAG":0,"BASE":68}' 
