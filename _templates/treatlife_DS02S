@@ -20,15 +20,16 @@ This is a Tuya MCU Dimmer Module
 Post Tasmota version 6.6.0.10, additional steps are needed:
 
 1. Goto Console on WebUI
-2. Enter this command to get the dimmer working and the allow the buttons to work if the switch is off: ``BackLog TuyaMCU 21,2;SetOption20 1;SetOption54 1``
-3. If you want the minimum brightness to be 1%, enter this command: ``Backlog TuyaSend2 3,10; DimmerRange 10,1000```   
+2. Enter WebLog 4.  If the heartbeat packed is not returning enter ``setoption97 1`` to change the baud rate.
+3. Enter this command to get the dimmer working and the allow the buttons to work if the switch is off: ``BackLog TuyaMCU 21,2;SetOption20 1;SetOption54 1``
+4. If you want the minimum brightness to be 1%, enter this command: ``Backlog TuyaSend2 3,10; DimmerRange 10,1000```   
  * If you want the minimum brightness to be 10%, enter this command: ``Backlog TuyaSend2 3,100; DimmerRange 100,1000```
-4. If the bulb flickers at the minimum brightness, try raising the minimum (or changing the dimmer mode if we figure out how to do that: 3 dimmer modes are probably related to ```TuyaSend4 4,<#>``` but it just seems to reset to 00 when you check after setting it. This needs verification, not sure what values are actually used for the "Mode 1", "Mode 2", "Mode 3" from the stock Tuya/Smart Life firmware.)
-5. If no dimming occurs try changing the dimming mode:
+5. If the bulb flickers at the minimum brightness, try raising the minimum (or changing the dimmer mode if we figure out how to do that: 3 dimmer modes are probably related to ```TuyaSend4 4,<#>``` but it just seems to reset to 00 when you check after setting it. This needs verification, not sure what values are actually used for the "Mode 1", "Mode 2", "Mode 3" from the stock Tuya/Smart Life firmware.)
+6. If no dimming occurs try changing the dimming mode:
   - Dimming Mode 1: `SerialSend5 55AA00060005040400010013`
   - Dimming Mode 2: `SerialSend5 55AA00060005040400010114`
   - Dimming Mode 3: `SerialSend5 55AA00060005040400010215`
-6. To have a correct mapping of percentages, send that command `ledtable 0`.
+7. To have a correct mapping of percentages, send that command `ledtable 0`.
 
 To see the current minimum brightness and dimmer mode, enter: ```BackLog WebLog 4;SerialSend5 55aa0001000000``` (to return to default log level after, enter ```WebLog 2```).
 
