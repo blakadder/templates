@@ -2,7 +2,7 @@
 date_added: 2020-09-19
 title: LCARE Modular 2 Gang
 model: 
-image: /assets/images/
+image: /assets/images/lcare_2gang.jpg
 template: '{"NAME":"2SW1-In","GPIO":[17,255,255,255,0,22,18,0,21,56,0,0,0],"FLAG":0,"BASE":29}' 
 link: https://lcareindia.com/product/LCARE-Smart-WiFi-Modular-Switch-for-Home-Automation-2-Year-Warranty/
 link2: 
