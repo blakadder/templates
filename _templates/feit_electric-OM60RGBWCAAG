@@ -18,4 +18,21 @@ You need to change RGB to BGR color order with `SetOption37 54` in Tasmota conso
 
 FCC ID: [SYW-A19RGBWAGT1](https://fccid.io/SYW-A19RGBWAGT1/Letter/Differences-Description-4018522.pdf)
 
+___________________________
+Purchased on Sept 21, 2020 from Menards.
 
+The below configs worked for me.
+
+title: Feit Electric A19 800lm
+model: OM60/RGBW/CA/AG
+type: RGBCCT
+category: bulb
+standard: e26
+
+template: '{"NAME":"Feit Bulb","GPIO":[255,255,255,255,141,140,255,255,38,142,37,255,255],"FLAG":0,"BASE":18}'
+
+SetOption 37 1
+
+FCC ID: SYW-A19RGBWAGT2
+
+228-19-44
