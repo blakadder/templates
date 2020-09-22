@@ -7,8 +7,10 @@ template: '{"NAME":"Moes 9w","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"B
 link: https://www.aliexpress.com/item/4001065597070.html
 link2: 
 mlink: 
-flash: tuya-convert
+flash: serial
 category: bulb
 type: RGBCCT
 standard: e27
 ---
+
+![Flashing pinout]()https://user-images.githubusercontent.com/32192721/93939062-83358d00-fd2a-11ea-980b-0db76a9bbc61.png
