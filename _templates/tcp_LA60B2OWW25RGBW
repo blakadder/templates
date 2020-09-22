@@ -4,6 +4,7 @@ title: TCP Smart 9W 806lm
 type: RGBW
 category: bulb
 standard: b22
+flash: tuya-convert
 mlink: https://www.tcpsmart.eu/
 link: https://www.amazon.co.uk/dp/B07KX3SQQK
 image: /assets/images/tcp_LA60B2OWW25RGBW.jpg
