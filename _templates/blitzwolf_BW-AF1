@@ -17,7 +17,7 @@ standard: global
 Identified with MCU Product ID: `{"p":"5EXbeqW1nAwchNSh","v":"1.0.0","m":0}`. 
 
 ## Flashing
-To gain access to the TYWE3S board you need to pry off the top lid from the base. It is held in with 4 clips on each side which may break during the process.
+To gain access to the TYWE3S board you need to pry off the top lid from the base. [Disassembly and configuration guide.](https://blakadder.com/tasmotize-blitzwolf-air-fryer/)
 
 ## Configuration
 

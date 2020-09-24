@@ -49,7 +49,7 @@ Add rule
 ```console
 rule1 
 on system#init do baudrate 9600 endon 
-on system#boot do backlog serialsend5 serialsend5 55AA000800010008; delay 5; serialsend5 55AA000200010406 endon
+on system#boot do backlog serialsend5 55AA000800010008; delay 5; serialsend5 55AA000200010406 endon
 ```
 Don't forget to turn on the rule: `Rule1 1`
 

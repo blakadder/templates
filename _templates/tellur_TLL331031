@@ -6,7 +6,7 @@ category: plug
 type: Power Strip
 standard: eu
 link2: https://www.emag.ro/prelungitor-smart-tellur-wireless-3-prize-4-x-usb-2200w-10a-cablu-1-8m-alb-tll331031/pd/D6YK7VBBM/
-image:/assets/images/tellur_TLL331031.jpg
+image: /assets/images/tellur_TLL331031.jpg
 template: '{"NAME":"Tellur","GPIO":[0,56,0,17,22,21,0,0,0,23,24,0,0],"FLAG":1,"BASE":18}' 
 mlink: https://www.tellur.com/product/wifi-power-strip-3-outlets-4usb-4a-2200w-10a-1-8m/#prettyPhoto
 link: https://www.amazon.de/dp/B07HWLHGR5/

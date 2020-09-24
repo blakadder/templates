@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-20
+title: Moes Gas-Water  
+model: WV-B
+image: /assets/images/moes_WV-B.jpg
+template: '{"NAME":"MoesHouse WV-B","GPIO":[0,0,0,0,0,0,0,0,17,21,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33038118743.html
+link2: 
+mlink: https://www.moeshouse.com/collections/smart-valve/products/wifi-smart-water-valve-home-automation-system-valve-control-for-gas-or-water-voice-control-work-with-alexa-echo-google-home
+flash: serial
+category: misc
+type: Valve
+standard: [eu, us]
+---
