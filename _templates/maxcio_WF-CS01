@@ -1,0 +1,44 @@
+---
+date_added: 2020-09-22
+title: Maxcio WF-CS01
+model: WF-CS01
+image: /assets/images/maxcio_WF-CS01.jpg
+template: '{"NAME":"Maxcio","GPIO":[157,0,53,11,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.es/dp/B07MXT9Y2D/
+link2: 
+mlink: 
+flash: tuya-convert
+category: cover
+type: Curtain Switch
+standard: [eu, uk]
+---
+Configure Tasmota shutter support, then also apply these rules.
+```haskell
+SetOption80 1 # Enable shutter support, reset the device after for correct interface to show up
+
+ShutterRelay1 1 # Enable shutter relay 1
+
+Backlog PulseTime1 0; PulseTime2 0 # ShutterMode0
+
+Pulsetime3 1 # auto disable Power3 button
+
+Backlog Interlock 1,2,3; Interlock ON
+
+PowerRetain 1 # Save state for Home Assistant
+
+Rule1 on Power3#State=1 do ShutterStop1 endon # Use the middle button for stopping shutter movement
+
+Rule1 1
+
+Rule2 on Power1#State=0 do LEDPower1 0 endon on Power1#State=1 do LEDPower1 1 endon on Power2#State=0 do LEDPower2 0 endon on Power2#State=1 do LEDPower2 1 endon on Power3#State=0 do LEDPower3 0 endon on Power3#State=1 do LEDPower3 1 endon # Giving color on button press
+
+Rule2 1
+
+WebButton3 ■ # Set stop symbol for the third button in the web GUI
+
+SwitchMode1 4 # Make the buttons do their actions on touch, not release
+
+SwitchMode2 4
+
+SwitchMode3 4
+```

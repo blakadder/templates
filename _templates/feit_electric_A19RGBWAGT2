@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-21
+title: Feit OM60/RGBW/CA/AG(P) 9W 800lm
+model: SYW-A19RGBWAGT2
+image: /assets/images/
+template: '{"NAME":"OM60/RGBW/CA/AG/P","GPIO":[0,0,0,0,141,140,0,0,37,142,38,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/FEIT-OM60-RGBW-CA-AG/dp/B07GG98VV2/
+link2: 
+mlink: https://www.feit.com/product-category/bulbs/smart-wifi-light-bulb/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---
