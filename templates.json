@@ -18,7 +18,7 @@ layout: null
         {% if template.template != nil %}"template": {{ template.template }},{% endif %}
         {% if template.template-alt != nil %}"template-alt": {{ template.template-alt }},{% endif %}
         {% if template.image != nil %}"image":    {{ template.image | jsonify }},{% endif %}
-        {% if template.link != nil %}"product":  {{ template.link | jsonify }}{% endif %}
+        "product":  {% if template.link == nil %}null{% else %}{{ template.link | jsonify }}{% endif %}
         }{% unless forloop.last %},{% endunless %}
     {% endfor %}
     ]
