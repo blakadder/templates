@@ -13,3 +13,5 @@ link2: https://www.amazon.de/gp/product/B07VNR9XW7
 ---
 
 Power Cycle 5 times to put into flash mode for Tuya-Convert.
+
+As of 20 September 2020 this device is not compatible with tuya-convert.  Follow this wiki for updates to the [PSK](https://github.com/ct-Open-Source/tuya-convert/wiki/Collaboration-document-for-PSK-Identity-02) issue.
