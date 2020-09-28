@@ -1,6 +1,6 @@
 ---
 date_added: 2020-09-15
-title: Useelink Wall Switch 1 Gang SM-SW102-1
+title: Useelink 1 Gang
 model: SM-SW102-1
 image: /assets/images/useelink_SM-SW102-1.jpg
 template: '{"NAME":"USEELINK-SW-1G","GPIO":[52,0,0,0,0,0,0,0,17,21,0,0,0],"FLAG":0,"BASE":18}' 

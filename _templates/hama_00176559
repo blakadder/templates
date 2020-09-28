@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-24
+title: Hama 4.5W 350lm
+model: 00176559
+image: /assets/images/hama_00176559.jpg
+template: '{"NAME":"Hama LED-Bulb","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/Hama-Light-Bulb-E14-White/dp/B07QJ9WDNX
+link2: https://www.amazon.de/dp/B07QJ9WDNX
+mlink: http://www.hama.com
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e14
+---

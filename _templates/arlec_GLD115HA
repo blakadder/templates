@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-27
+title: Arlec Smart R80 9.5W 806lm
+model: GLD115HA
+image: /assets/images/arlec_GLD115HA.jpg
+template: '{"NAME":"Arlec GLD115HA","GPIO":[0,0,0,0,0,37,0,0,0,47,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.bunnings.com.au/arlec-grid-connect-smart-9-5w-806lm-cct-r80-es-e27-globe_p0111509
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---
