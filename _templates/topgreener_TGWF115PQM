@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-28
+title: TopGreener 10A
+model: TGWF115PQM
+image: /assets/images/topgreener_TGWF115PQM.jpg
+template: '{"NAME":"TGWF115PQM","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07D8ZNNPZ/
+link2: 
+mlink: https://topgreener.com/product/square-smart-wi-fi-plug-in-10a-with-energy-monitoring-white/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
