@@ -1,7 +1,7 @@
 ---
 date_added: 2019-10-01
 title: Aoycocr Q0 750lm
-type: RGBCCT
+type: RGBW
 category: bulb
 standard: e26
 image: https://images-na.ssl-images-amazon.com/images/I/51PRbWhgIsL._SL1200_.jpg
@@ -10,3 +10,4 @@ link: https://www.amazon.com/Aoycocr-Equivalent-Daylight-Dimmable-Changing/dp/B0
 link2: https://www.amazon.com/Compatible-Assitant-Required-Dimmable-Equivalent/dp/B07NXR61Y2
 ---
 FCC ID: [2AKBP-Q0](https://fccid.io/2AKBP-Q0)
+Bought from Amazon mid Sept 2020. Successfully flashed using Tuya-Convert. 
