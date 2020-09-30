@@ -1,0 +1,20 @@
+---
+date_added: 2020-09-30
+title: Kogan 4.1kW Portable Air Conditioner (Reverse Cycle)
+model: KAPRA14WFGA
+image: /assets/images/kogan-KAPRA14WFGA.jpg
+template: '{"NAME":"Kogan Panel Heater","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com.au/Kogan-SmarterHomeTM-Portable-Conditioner-Reverse/dp/B07G8LWMQ3
+link2: 
+mlink: https://www.kogan.com/au/buy/kogan-smarterhome-41kw-portable-air-conditioner-reverse-cycle/
+flash: serial
+category: misc
+type: Miscellaneous
+standard: au
+---
+"Disassembled airconditioner and found module in a smale black box attached to the unit on the side. only had 4 wires Vcc, gnd, tx and rx.Flashed device using tasmotize.r uses a tywe1s module and has button for reset available on the board itself. Uses TuyaMCU template with the serial port available on GPIO13 and 15. 
+
+DPID1 is the relay to turn unit on and off and is already mapped to FID11
+DPID2type3 is the current temperature in room
+
+All data seems to be available but using rules to pass MQTT data to home assistant seems like the best way to control the unit, more information can be found in the Kogan panel heater template."

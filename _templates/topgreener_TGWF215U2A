@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-29
+title: TopGreener Dual USB
+model: TGWF215U2A 
+image: /assets/images/topgreener_TGWF215U2A.jpg
+template: '{"NAME":"TGWF215U2A","GPIO":[0,56,0,17,134,132,0,0,131,22,21,57,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07QLNMWL8/
+link2: 
+mlink: https://topgreener.com/product/in-wall-smart-wi-fi-usb-charging-outlet-white/
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: us
+---
+Top receptacle is always on, bottom receptacle is controlled by one switch, and both USB's are controlled on a second switch. So they can be controlled independent of each other. Physical button single press toggles bottom receptacle, double press toggles USB. Current sensing variant of this device (TGWF215U2AM) should also work with this template, although not tested...
