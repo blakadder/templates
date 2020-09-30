@@ -1,6 +1,6 @@
 ---
 date_added: 2020-05-02
-title: Hama WiFi Touch Wall Switch, Flush-mounted
+title: Hama Flush-mounted 2 Gang
 model: 00176551
 image: /assets/images/hama_00176551.jpg
 template: '{"NAME":"Hama WiFiTouch","GPIO":[157,0,0,0,0,18,0,0,17,22,0,21,0],"FLAG":0,"BASE":45}' 
@@ -12,15 +12,10 @@ category: switch
 type: Switch
 standard: eu
 ---
-### Regular tuya-convert
 
-### Flashing device with [Tasmotizer](https://github.com/tasmota/tasmotizer) using [USB-to-TTL adapter](https://www.amazon.com/HiLetgo-CP2102-Converter-Adapter-Downloader/dp/B00LODGRV8/ref=sr_1_4?dchild=1&keywords=USB+to+TTL+Adapter&qid=1601460095&sr=8-4)
+Serial flashing the device with [Tasmotizer](https://github.com/tasmota/tasmotizer)
 
-TYWE3S ESP8266 chip pin configuration is as follows:
-
-![](https://github.com/blakadder/templates/raw/master/assets/images/hama_00176551_tywes3_1.jpg)
-
-(Image from [this blog post](https://www.digiblur.com/2020/07/the-tasmota-fan-controller-ive-been.html) )
+[TYWE3S pinout](https://tasmota.github.io/docs/devices/TYWE3S/)
 
 Carefully solder wires to ESP8266 chip and connect to appropriate pins on USB-to-TTL converter:
 
@@ -33,10 +28,10 @@ Carefully solder wires to ESP8266 chip and connect to appropriate pins on USB-to
 
 Do not use 5V! It will damage the chip.
 
-![](https://github.com/blakadder/templates/raw/master/assets/images/hama_00176551_solder_1.jpg)
+![](/assets/images/hama_00176551_solder_1.jpg)
 
 Then connect another wire to GND and manually hold it on GPIO0 pin, then connect USB adapter to computer:
 
-![](https://github.com/blakadder/templates/raw/master/assets/images/hama_00176551_solder_2.jpg)
+![](/assets/images/hama_00176551_solder_2.jpg)
 
 Device is ready in the flash mode and you can easily flash it with Tasmotizer. After that, gently unsolder the wires.
