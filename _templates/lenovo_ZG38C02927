@@ -25,6 +25,8 @@ Flash using the TYWE3S pins but make sure the battery is disconnected and the po
 
 ![](/assets/images/lenovo_ZG38C02927_soldering.jpg)
 
+yellow = TXD, blue = RXD, black = GND, orange = Vcc 3.3V. Remeber to connect GPIO0 (3 above GND) to GND while powering up the chip!
+
 ## Configuration
 
 Change device to a TuyaMCU module (or apply the provided template, result is the same)
@@ -67,4 +69,4 @@ You can try using a rule that will send the command whenever the battery message
 Rule1 on TuyaReceived#CmndData=0304000102 do serialsend5 55AA000200010002 endon on TuyaReceived#CmndData=0304000101 do serialsend5 55AA000200010002 endon
 ```
 
-The rule will not trigger when battery status is low (00) so you will know to change batteries if it gets struck in that mode.
+The rule will not trigger when battery status is low (00) so you will know to change batteries if it gets stuck in that mode.
