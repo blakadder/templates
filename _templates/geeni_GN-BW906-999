@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-30
+title: Geeni Prisma Drop BR30
+model: GN-BW906-999
+image: /assets/images/geeni_GN-BW906-999.jpg
+template: '{"NAME":"GN-BW906-999","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B06ZZ9BMBK
+link2: 
+mlink: https://mygeeni.com/collections/colored-lights/products/prisma-drop-smart-wi-fi-led-color-droplight
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---
