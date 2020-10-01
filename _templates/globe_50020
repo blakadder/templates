@@ -1,7 +1,7 @@
 ---
 date_added: 2020-01-27
-title: Globe 50020 2 Outlet
-model: FCC ID 2AQUQGE50020
+title: Globe 2 Outlet
+model: 50020
 image: https://user-images.githubusercontent.com/5904370/73174440-0bb24e00-4108-11ea-861d-f68e197fce1f.png
 template: '{"NAME":"Globe 50020","GPIO":[0,158,0,57,18,17,0,0,21,56,22,0,0],"FLAG":0,"BASE":18}' 
 link2: http://www.canac.ca/en/product/electrical/extension-cords-power-bars/power-bars/wifi-smart-plug_66768.aspx?unite=001002&sf=ovr%3dtrue%26root%3d857%26categorie%3d1284%252c1294%252c1347%26filterorder%3d0%252c0%252c0%26searchurl%3d%252fafficherbootstrap.aspx%253fsearch%253dglobe%252bintelligent%25253C%2526searchtype%253d2%2526display%253d5%2526langue%253dfr%2526unite%253d001002&galst=u%5bSearch%5d
