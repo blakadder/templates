@@ -25,7 +25,7 @@ Flash using the TYWE3S pins but make sure the battery is disconnected and the po
 
 ![](/assets/images/lenovo_ZG38C02927_soldering.jpg)
 
-/*added by DL7JP: yellow = TXD, blue = RXD, black = GND, orange = Vcc 3.3V. Remeber to connect GPIO0 (3 above GND) to GND while powering up the chip! */
+yellow = TXD, blue = RXD, black = GND, orange = Vcc 3.3V. Remeber to connect GPIO0 (3 above GND) to GND while powering up the chip!
 
 ## Configuration
 
