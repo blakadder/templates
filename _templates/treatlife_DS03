@@ -69,7 +69,7 @@ High
 Note about fan speed IDs: Lowest and Low are the same voltage output (I checked with a multi-meter). I believe the "Lowest" setting ID is there for cosmetic reasons, since there are 8 LEDs, they wanted 4 of them lit for the fan. That is the reason you will see that the 'Lowest' and 'Low' IDs publish the same MQTT information
 
 Home Assistant Fan YAML:
-```yaml
+{% highlight yaml %}{% raw %}
 fan:
   - platform: mqtt
     name: "TreatLife Fan"
@@ -89,10 +89,11 @@ fan:
     speeds:
       - low
       - medium
-      - high
-```
+      - high{% endraw %}
+{% endhighlight %}
+
 Home Assistant Dimmer YAML:
-```yaml
+{% highlight yaml %}{% raw %}
 light:
   - platform: mqtt
     name: "TreatLife Dimmer"
@@ -108,5 +109,5 @@ light:
     payload_off: "OFF"
     payload_available: "Online"
     payload_not_available: "Offline"
-    retain: false
-```
+    retain: false{% endraw %}
+{% endhighlight %}
