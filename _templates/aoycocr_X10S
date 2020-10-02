@@ -12,42 +12,42 @@ mlink: http://en.hysiry.com/case_view.aspx?TypeId=127&Id=393&FId=t4:127:4
 ---
 ![Label](https://user-images.githubusercontent.com/5904370/71768399-e1f57500-2f15-11ea-9c7a-97c0cc5df012.png)
 
-As of September 20, 2020, a four-pack of these plugs order from Amazon.com is not able to install tasmota using
+As of September 20, 2020, a four-pack of these plugs ordered from Amazon.com is not able to install tasmota using
 the tuya-convert utility. The exterior of these plug is slightly different than in the pictures, above.
 On the front of the plug the placement of the button and LED has changed:
 
-https://user-images.githubusercontent.com/4684073/94974989-160dbe80-04c5-11eb-886e-f4e1cad069d6.jpg
+![Label](https://user-images.githubusercontent.com/4684073/94974989-160dbe80-04c5-11eb-886e-f4e1cad069d6.jpg)
 
 And the writing on the bottom (plug side) has changed:
 
-https://user-images.githubusercontent.com/4684073/94974981-13ab6480-04c5-11eb-9acc-b76a6d9bd25e.jpg
+![Label](https://user-images.githubusercontent.com/4684073/94974981-13ab6480-04c5-11eb-9acc-b76a6d9bd25e.jpg)
 
 Here are some pictures of the internals of this plug. First an overview:
 
-https://user-images.githubusercontent.com/4684073/94974990-16a65500-04c5-11eb-8fb3-26af816a7271.jpg
+![Label](https://user-images.githubusercontent.com/4684073/94974990-16a65500-04c5-11eb-8fb3-26af816a7271.jpg)
 
 A vertical PCB with the ESP8266 chip:
 
-https://user-images.githubusercontent.com/4684073/94974992-173eeb80-04c5-11eb-8e27-c9250b0098c2.jpg
+![Label](https://user-images.githubusercontent.com/4684073/94974992-173eeb80-04c5-11eb-8e27-c9250b0098c2.jpg)
 
 The left side of the board:
 
-https://user-images.githubusercontent.com/4684073/94974995-17d78200-04c5-11eb-995c-5a3c0226c179.jpg
+![Label](https://user-images.githubusercontent.com/4684073/94974995-17d78200-04c5-11eb-995c-5a3c0226c179.jpg)
 
 The right side of the board:
 
-https://user-images.githubusercontent.com/4684073/94974996-1908af00-04c5-11eb-8026-f66489ca4c21.jpg
+![Label](https://user-images.githubusercontent.com/4684073/94974996-1908af00-04c5-11eb-8026-f66489ca4c21.jpg)
 
 The back side of the vertical PCB with the 1MB flash chip:
 
-https://user-images.githubusercontent.com/4684073/94974999-19a14580-04c5-11eb-8365-2287ce0eed65.jpg
+![Label](https://user-images.githubusercontent.com/4684073/94974999-19a14580-04c5-11eb-8365-2287ce0eed65.jpg)
 
 A few close-ups of the vertical PCB:
 
-https://user-images.githubusercontent.com/4684073/94975006-1b6b0900-04c5-11eb-9d1b-574869e32508.jpg
+![Label](https://user-images.githubusercontent.com/4684073/94975006-1b6b0900-04c5-11eb-9d1b-574869e32508.jpg)
 
-https://user-images.githubusercontent.com/4684073/94975008-1c9c3600-04c5-11eb-9052-6493988e23b0.jpg
+![Label](https://user-images.githubusercontent.com/4684073/94975008-1c9c3600-04c5-11eb-9052-6493988e23b0.jpg)
 
 A picture of the interior of the case:
 
-https://user-images.githubusercontent.com/4684073/94975012-1e65f980-04c5-11eb-8137-ce3f8d6c96b6.jpg
+![Label](https://user-images.githubusercontent.com/4684073/94975012-1e65f980-04c5-11eb-8137-ce3f8d6c96b6.jpg)
