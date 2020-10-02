@@ -11,7 +11,7 @@ navigation: 20
 {% assign type_grouped = type_group | sort: "name" %}
 {% for group in type_grouped %}
 
-<h3>{{ group.name | replace: "RGBCCT", "RGB + Color Temperature" | replace: "WW", "Dimmable Warm White" | replace: "CW", "Dimmable Cool White" | replace: "CCT", "Color Temperature"  }}</h3>
+<h3>{{ group.name | replace: "RGBCCT", "RGB + Color Temperature" | replace: "Dimmable", "Dimmable White" | replace: "CCT", "Color Temperature" | replace: "RGBW", "RGB + White" }}</h3>
 <table id="{{ group.name }}" width="80%">
     <tbody>
     {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     

@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-07
+title: electriQ 3m RGBCCT 
+model: iQ-wifiRGBWLEDSTR
+image: /assets/images/electriq_iQ-wifiRGBWLEDSTR.jpg
+template: '{"NAME":"ElectricQ wifiRGBWLEDSTR","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B07L1W4CSK
+link2: https://www.appliancesdirect.co.uk/p/iq-wifirgbwledstr/electriq-iqwifirgbwledstr-smart-led-strip
+mlink: https://www.electriq.co.uk/p/iq-wifirgbwledstr/electriq-3-metre-wifi-smart-colour-led-strip-cut-to-size-alexa-and-google-home-compatible
+flash: serial
+category: light
+type: LED Strip
+standard: uk
+---
+There are solder points on back for all but 3.3v which had to be soldered to the pin on the chip.

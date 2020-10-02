@@ -9,6 +9,6 @@ link: https://www.amazon.com/Jeeo-Assistant-Required-Certified-TF-SH330/dp/B07SP
 image: https://static.wixstatic.com/media/e4f6f4_d73f72b147fc4683a9a54b1a4293262d~mv2.jpg
 template: '{"NAME":"Jeeo TF-SH330","GPIO":[56,0,0,0,0,0,0,0,0,17,0,21,0],"FLAG":1,"BASE":18}' 
 link2: 
-link3: https://www.jeeosmarthome.com/product-page/jeeo-smart-wi-fi-plug
+mlink: https://www.jeeosmarthome.com/product-page/jeeo-smart-wi-fi-plug
 ---
 ![](https://static.wixstatic.com/media/e4f6f4_af6154aea2c742f7bd9bdc2723c2dd6f~mv2.jpg)

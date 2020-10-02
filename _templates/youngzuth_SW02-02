@@ -1,0 +1,14 @@
+---
+date_added: 2019-10-02
+title: Youngzuth 2in1
+model: SW02-02
+category: switch
+type: Switch
+standard: us
+link: https://www.amazon.com/gp/product/B07BTBZ69B
+image: https://images-na.ssl-images-amazon.com/images/I/410cYdpO7AL._SL1001_.jpg
+template: '{"NAME":"SW02 2W","GPIO":[52,0,0,9,21,0,0,0,10,22,0,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+---
+
+This is a simple switch with two relays and two switches. 

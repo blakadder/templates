@@ -4,25 +4,16 @@ title: Wisdom ZY_ACU02
 category: plug
 type: Plug
 standard: us
-link: https://www.amazon.com/gp/product/B07PF41CLZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+link: https://www.amazon.com/gp/product/B07PF41CLZ/
 image: https://images-na.ssl-images-amazon.com/images/I/71uVW%2BRvHQL._SL1500_.jpg
-template: '{"NAME":"ZY-ACU02","GPIO":[255,255,255,52,22,21,0,0,31,17,32,255,255],"FLAG":15,"BASE":18}' 
-link2: https://www.aliexpress.com/i/4000106627197.html
+template: '{"NAME":"ZY-ACU02","GPIO":[0,0,0,157,22,21,0,0,56,17,57,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.aliexpress.com/item/4000106855079.html
 ---
 
 Rule to toggle LED's with relays...    
-`Backlog ledmask 0x0000; seriallog 0; rule1 on power1#state do power3 %value% endon on power2#state do power4 %value% endon; rule1 1`
+`Backlog ledmask 0x0000; seriallog 0; setoption32 20; rule1 on power1#state do ledpower1 %value% endon on power2#state do ledpower2 %value% endon; rule1 1`
 
-Rule for Button to control both relays
+The Button functionality below is built into Tasmota 8.3.1+
 
-1 short press for relay1
-
-2 short presses for relay2...
-
-`Backlog ButtonTopic 0; SetOption1 1; SetOption11 1; SetOption32 20; Rule2 on button1#state=3 do delay endon on button1#state=2 do power2 toggle endon; Rule2 1`
-
-
-
-
-
-
+1 short press for relay1    
+2 short presses for relay2

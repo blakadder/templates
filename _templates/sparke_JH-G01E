@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-21
+title: SPARKE JH-G01E 10A
+model: 
+image: https://user-images.githubusercontent.com/5904370/72856045-ae5a6f00-3cb9-11ea-8b59-3c6852baff6c.png
+template: '{"NAME":"SPARKE JH-G01E","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07CJYPMHX
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

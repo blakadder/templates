@@ -1,0 +1,19 @@
+---
+date_added: 2020-01-25
+title: Accewit 7W 650lm
+model: 
+image: https://user-images.githubusercontent.com/5904370/73125181-3c797280-3fa4-11ea-9afe-1dcdda14ef8f.png
+template: '{"NAME":"Accewit Bulb","GPIO":[0,0,0,0,0,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07HRG9JY3/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBW
+standard: e27
+---
+Important: tuya ota didn´t work for my bulb! I had to flash with serial adapter. The pinout is not written on the pcb so I had to measure it out and want to share it with you guys ;). 
+
+![](https://i.ibb.co/djCnnTS/Smart-Bulb-Pinout.jpg)
+![](https://i.ibb.co/tCgcpMb/IMG-0618.jpg)
+![](https://i.ibb.co/bKSKZHt/IMG-0629.jpg)

@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-07
+title: LTC 10W 
+model: LXU403
+image: /assets/images/ltc_LXU403.jpg
+template: '{"NAME":"LTC LXU403","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.lamex.pl/ps-zarowka-led-10w-rgb-wifi/p/19634#tab_card1
+link2: https://allegro.pl/oferta/zarowka-rgb-led-zdalnie-sterowana-wifi-e27-10w-ltc-8608579673
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

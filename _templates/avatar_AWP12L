@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-01
+title: Avatar AWP12L Capsule 2-in-1
+model: AWP12L
+image: https://user-images.githubusercontent.com/5904370/73602207-48e76780-4570-11ea-8051-09113fd27589.png
+template: '{"NAME":"AWP12L","GPIO":[56,0,0,131,18,134,0,0,21,17,132,22,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07D58M8V1/
+link2: https://www.aliexpress.com/item/32884413659.html
+mlink: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=180
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+These devices come with different brands, but all have AWP12L serial number on the back sticker.

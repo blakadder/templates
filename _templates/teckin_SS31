@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B07KB63CYN
 image: https://images-na.ssl-images-amazon.com/images/I/51GU2F3O1ZL._SL1001_.jpg
 template: '{"NAME":"Teckin SS31","GPIO":[255,255,255,255,56,57,255,255,21,17,22,255,255],"FLAG":15,"BASE":18}'
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Outdoor Plug

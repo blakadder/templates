@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B07VMDS9RJ/
 image: https://images-na.ssl-images-amazon.com/images/I/51A8N69QuFL._SX466_.jpg
 template: '{"NAME":"Laghten SS02S","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Switch

@@ -1,20 +1,32 @@
 ---
 date_added: 2019-09-20
 title: Moes MS-104B-1
-category: switch
-type: Relay
+category: relay
+type: Switch
 standard: global
 link: https://www.banggood.com/MoesHouse-DIY-WiFi-Smart-2-Way-2-Gang-Light-LED-Dimmer-Module-Smart-Switch-Smart-LifeTuya-APP-Remote-Control-Work-with-Alexa-Google-Home-p-1591703.html
 image: https://user-images.githubusercontent.com/39533759/65378668-22f5b080-dcbc-11e9-9401-8d906b204914.jpg
-template: '{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,10,9,21,22,0],"FLAG":0,"BASE":18}'
 link2: 
-link3: https://www.moeshouse.com/products/wifi-smart-light-switch-diy-breaker-module-smart-life-tuya-app-remote-control-working-with-alexa-echo-google-home-2-gang-2-way-3
+mlink: https://www.moeshouse.com/products/wifi-smart-light-switch-diy-breaker-module-smart-life-tuya-app-remote-control-working-with-alexa-echo-google-home-2-gang-2-way-3
 ---
-Some devices labelled [Moes MS-104](unsupported/moes_MS-104) are using a wi-fi chip unsupported by Tasmota.
+**Some devices labelled [Moes MS-104](unsupported/moes-MS-104) are using a wi-fi chip unsupported by Tasmota.**
 
-The device use frequency detection circuits connected to GPIO12 and GPIO13 of the LM1 ESP8266 chip. At the moment you have to use a script to make it work with Tasmota. Script is not supported with precompiled binary (at least 6.6.0) so you have to compile your own fw. 
+This device uses AC frequency detection circuits on switch inputs supported since Tasmota 8.4. 
 
-Below two scripts which do something like switchmode4 and switchmode1. The script for switchmode4 is created by @thxthx0 and modified by me for switchmode1
+After applying the template enable AC frequency detection feature using ['SwitchDebounce'](https://tasmota.github.io/docs/Commands/#switchdebounce) command. 'SwitchDebounce 69' is a good place to start, which means 3 pulses (60 milliseconds) to switch on or off. When this feature is enabled, you can use them as regular switches (set 'SwitchMode', use in rules and do anything you can do with a regular switch).
+
+
+# Deprecated way of handling switching
+Use on Tasmota versions 8.3.1 and lesser
+
+Use template
+```json
+'{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18}' 
+```
+
+Scripting is not supported with precompiled binary (at least 8.3) so you have to compile your own fw or download it (tasmota-scripting.bin) from [tasmota/binaries](https://github.com/tasmota/binaries). After that, you will have an option to add a script in Tasmota GUI: Configuration/Edit Script
+Below are scripts which do something like switchmode4, switchmode1 and switchmode0. The script for switchmode4 is created by @thxthx0, switchmode1 @caccia78 and @cHunter789, switchmode0 @antonio-fiol
 
 SwitchMode1
 
@@ -24,99 +36,71 @@ sw1=0
 sw2=0
 cnt1=0
 cnt2=0
-timer1=0
-timer2=0
 pwr1=0
 pwr2=0
 
-
 >B
-=>print "WiFi 2-Gang Switch Script"
-
-
-
+=>print "WiFi - 2 relay / 2 switch"
+;sleep 250 because counters are sleep sensitive
+->sleep 250
 >F
-; Counter1/2 and Relay1/2 configured in template
+; Always reset counters - consider only counts in last 100ms
 cnt1=pc[1]
-cnt2=pc[2]
+->Counter1 0
 
-if chg[cnt1]>0
+cnt2=pc[2]
+->Counter2 0
+
+if cnt1>3
 then
-; counter1 has changed, switch is on, reset counter
+; counter1 has increased in last 100ms - check with >2 for debounce
 sw1=1
 else
-; no change switch is off
+; no counter incres --> switch is off
 sw1=0
 endif
 
-if chg[cnt2]>0
+if cnt2>3
 then
-; counter2 has changed, switch is on, reset counter
+; counter2 has increased in last 100ms - check with >2 for debounce
 sw2=1
 else
-; no change switch is off
+; no counter increas --> switch is off
 sw2=0
 endif
 
-; 100 ms timer for debounce
-timer1+=1
-timer2+=1
-
+; turn on the light if switches on
 if sw1==1
-and timer1>2
 and pwr1==0
-
 then
 =>Power1 1
 pwr1=1
 endif
 
-if sw1==0
-and timer1<=2
-and pwr1==1
-
-then
-=>Power1 0
-pwr1=0
-endif
-
-if sw1==0
-then
-timer1=0
-endif
-
 if sw2==1
-and timer2>2
 and pwr2==0
 then
 =>Power2 1
 pwr2=1
 endif
 
+;turn off the light if switches off
+if sw1==0
+and pwr1==1
+then
+=>Power1 0
+pwr1=0
+endif
+
 if sw2==0
-and timer2<=2
 and pwr2==1
 then
 =>Power2 0
 pwr2=0
 endif
 
-if sw2==0
-then
-timer2=0
-endif
 
->S
-; restart the device every sunday at 04:00
-; to avoid possible issues when increasing counters and variables
 
-if wday==1
-and hours==4
-and mins==0
-and secs==0
-then
-->Restart 1
-endif
 
 ```
 
@@ -189,6 +173,92 @@ endif
 if sw2==0
 then
 timer2=0
+endif
+
+>S
+; restart the device every sunday at 04:00
+; to avoid possible issues when increasing counters and variables
+
+if wday==1
+and hours==4
+and mins==0
+and secs==0
+then
+->Restart 1
+endif
+
+```
+
+SwitchMode 0
+
+```lua
+>D
+sw1=0
+sw2=0
+osw1=0
+osw2=0
+M:cnt1=0
+M:cnt2=0
+np=0
+
+>B
+=>print ""WiFi 2-Gang Switch Script""
+
+>F
+; Counter1/2 and Relay1/2 configured in template
+cnt1=pc[1]
+cnt2=pc[2]
+cnt1=pc[1]
+cnt2=pc[2]
+cnt1=pc[1]
+cnt2=pc[2]
+->Counter1 0
+->Counter2 0
+
+if cnt1>2.5
+then
+; counter1 has changed, switch is on
+sw1=1
+else
+; no change switch is off
+sw1=0
+endif
+
+if cnt2>2.5
+then
+; counter2 has changed, switch is on
+sw2=1
+else
+; no change switch is off
+sw2=0
+endif
+
+;=>print %cnt1% %sw1% %osw1% %pwr[1]%
+
+if sw1!=osw1
+then
+osw1=sw1
+if pwr[1]==0
+then
+np=1
+else
+np=0
+endif
+=>Power1 %np%
+=>print Power1 %np%
+endif
+
+if sw2!=osw2
+then
+osw2=sw2
+if pwr[2]==0
+then
+np=1
+else
+np=0
+endif
+=>Power2 %np%
+=>print Power2 %np%
 endif
 
 >S

@@ -1,0 +1,15 @@
+---
+date_added: 2019-10-06
+title: BrilliantSmart RGB Garden Kit
+model: 20702/06
+category: light
+type: Light
+standard: au
+flash: tuya-convert
+mlink: https://www.brilliantsmart.com.au/smart-products/garden-old/smart-garden-kit/
+image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20702-06.jpg
+template: '{"NAME":"Brilliant Gard","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.au/Brilliant-Smart-Botanic-Garden-Spike/dp/B081N4N779/
+link2: https://www.mjselectricalsupplies.com.au/brilliant-smart-wifi-rgb-garden-light-kit
+---
+

@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-21
+title: Luminea ZX-2880 A60 800lm
+model: 
+image: /assets/images/luminea_ZX-2880.jpg
+template: '{"NAME":"LAV-110.w","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B081RZJ843/
+link2: 
+mlink: https://www.luminea.info/WiFi-LED-Lampe-CCT-800-Lumen-E27-kompatib-ZX-2880-919.shtml
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e27
+---

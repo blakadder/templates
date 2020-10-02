@@ -1,0 +1,16 @@
+---
+date_added: 2020-01-12
+title: Axtee AI-003 A19 700lm 
+model: 
+image: https://user-images.githubusercontent.com/5904370/72226075-1b208b80-358d-11ea-899f-b599c85056ab.png
+template: '{"NAME":"Axtee E26 7W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":20}' 
+link: https://www.amazon.com/gp/product/B07G5M8FKG
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: 
+  - e26
+  - e27
+---

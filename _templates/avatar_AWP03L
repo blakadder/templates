@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-20
+title: Avatar AWP03L
+model: 
+image: /assets/images/avatar_AWP03L.jpg
+template: '{"NAME":"AWP03L","GPIO":[0,0,0,0,0,0,0,0,21,17,56,57,0],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.com/gp/product/B075Z14714/
+link2: https://www.amazon.ca/Avatar-Controls-Switches-Compatible-Assistant/dp/B075Z14714/
+link3: https://www.amazon.com/HUGOAI-Wireless-Compatible-Anywhere-Required/dp/B07D9HJSG7/
+mlink: https://www.alibaba.com/product-detail/OEM-FCC-UL-New-Small-Size_60733132273.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

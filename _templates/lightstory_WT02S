@@ -1,0 +1,18 @@
+---
+date_added: 2020-01-22
+title: Lightstory WT02S
+model: WT02S
+image: https://user-images.githubusercontent.com/5904370/72856332-87506d00-3cba-11ea-9aa9-7f52de23498a.png
+template: '{"NAME":"WT02S","GPIO":[0,0,0,0,57,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":50}' 
+link: https://www.amazon.com/LIGHTSTORY-WT02s-Wireless-Compatible-Assistant/dp/B07G84YD7K
+link2: 
+mlink: https://www.ilightstory.com/
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+alt. template for Red LED 
+```json
+{"NAME":"WT02S","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":50}
+```

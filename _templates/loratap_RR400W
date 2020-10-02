@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-27
+title: LoraTap 10A
+model: RR400W
+image: /assets/images/loratap_RR400W.jpg
+template: '{"NAME":"LoraTap RR400W","GPIO":[0,0,0,0,157,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/LoraTap-Wireless-Control-Required-100-250VAC/dp/B07PLQ25BT
+link2: https://www.aliexpress.com/item/32977466503.html
+mlink: https://www.loratap.com/
+flash: tuya-convert
+category: relay
+type: Switch
+standard: us
+---

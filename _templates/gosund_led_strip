@@ -1,0 +1,18 @@
+---
+date_added: 2020-06-18
+title: Gosund RGB
+model: SL1
+image: /assets/images/gosund_led_strip.jpg
+template: '{"NAME":"Gosund LED Strip","GPIO":[17,0,0,0,0,0,0,0,37,39,38,0,0],"FLAG":3,"BASE":18}' 
+template-alt: '{"NAME":"Gosund LED Strip","GPIO":[17,0,0,0,0,38,0,0,37,39,0,0,0],"FLAG":3,"BASE":18}'
+link: https://www.amazon.de/Gosund-Backlight-Controllable-Compatible-Assistant/dp/B085L2M9N8/
+link2: https://www.amazon.com/gp/product/B085WK48FC
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: global
+---
+
+Other versions of the controller might use a different layout.
+Version BT01-T-V2.2 of the board uses GPIO5 for PWM2 (instead of GPIO15): 

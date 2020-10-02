@@ -1,0 +1,20 @@
+---
+date_added: 2020-02-20
+title: Anko HEGSM40 
+model: HEGSM40
+image: /assets/images/anko_HEGSM40.jpg
+template: '{"NAME":"Anko HEGSM40","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
+link: https://www.choice.com.au/products/home-and-living/cooling/fans/kmart-anko-40cm-wi-fi-pedestal-fan-hegsm40
+link2: 
+mlink: https://www.kmart.com.au/wcsstore/Kmart/pdfs/42779896_Manual.pdf
+flash: tuya-convert
+category: misc
+type: Fan
+standard: au
+---
+The MCU uses has the following functionality mapped to various DpIds: 
+- Power is on DpId1, and works by default via the `POWER1` command. 
+- Fan oscillation is an Enum on DpId 4. 
+- Fan speed is an Enum on DpId 3 with values ranging from 0 to 7 inclusive. Add 1 to the DpId 3 value to get the speed that is reported on the front of the fan. 
+- The operating modes are an Enum on DpId 2. The "normal" mode is value 0, "nature" mode is value 1, and "sleep" mode is value 2. 
+- The timer setting is an Enum on DpId 6.

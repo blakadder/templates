@@ -1,0 +1,20 @@
+---
+date_added: 2020-03-22
+title: Sonoff RM433 RF Remote Controller
+category: misc
+type: Miscellaneous
+standard: global
+mlink: https://sonoff.tech/product/accessories/rm433
+image: /assets/images/sonoff_RM433.jpg
+template: '{"NAME":"REQUIRES RF DEVICE"}' 
+link: https://www.itead.cc/sonoff-rm433-remote-controller-base.html
+link4: https://www.banggood.com/SONOFF-RM433-8-Keys-Multipurpose-Custom-433-MHz-RF-Remote-Control-Switch-Works-With-SONOFF-RFRFR3SlampheriFan034CHProR2TX-Series433-RF-Bridge-p-1464399.html
+link2: https://www.amazon.de/dp/B07SPZ3H8N
+link3: https://www.aliexpress.com/item/4000030068990.html
+---
+
+## DOES NOT RUN TASMOTA ITSELF!!!
+
+**Can be used with RF Bridge with Tasmota flashed.**
+
+Works natively with Sonoff iFan03, D1 Dimmer, TX series switches, 4CHPROR2, Basic RFR3 and other devices supporting 433MHz communication protocol. 

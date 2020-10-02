@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-11
+title: Wyze WLPA19 A19 800lm
+model: WLPA19-4
+image: https://user-images.githubusercontent.com/5904370/72208277-28f8e280-34a1-11ea-875d-d45e65f09a5a.png
+template: '{"NAME":"Wyze Bulb","GPIO":[0,0,0,0,0,0,0,0,0,37,38,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.amazon.com/dp/B07RF9NCDP
+link2: 
+mlink: https://wyze.com/wyze-bulb.html
+flash: serial
+category: bulb
+type: CCT
+standard: e26
+---

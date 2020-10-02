@@ -6,8 +6,8 @@ category: plug
 type: Plug
 standard: eu
 flash: tuya-convert
-link3: https://nedis.com/en-us/product/550671326/wifi-smart-plug-power-monitor-schuko-type-f-10a
-image: https://pictures.content4us.com/products_high_res/WIFIP110FWT_P66.JPG
+mlink: https://nedis.com/en-us/product/550671326/wifi-smart-plug-power-monitor-schuko-type-f-10a
+image: /assets/images/nedis_WIFIP110FWT.jpg
 template: '{"NAME":"Nedis WIFIP110","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
 link: https://www.amazon.de/dp/B07GH6D8TW
 link2: https://webshop.nedis.com/en-us/550671326/wifip110fwt

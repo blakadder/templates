@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-07
+title: Julun JL-021 5W Candle
+model: FCC ID 2APYC-JL01
+image: /assets/images/julun_JL-021.jpg
+template: '{"NAME":"E14 RGBCCT","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32981591848.html
+link2: https://www.alibaba.com/product-detail/Led-spiral-bulb-Wi-Fi-smart_62309491491.html
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e14
+---
+YYXMB WiFi E14 Candle Bulb RGBCCT Led Light.

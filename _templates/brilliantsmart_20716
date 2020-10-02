@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-05
+title: BrilliantSmart Prism LED RGBCCT Downlight
+model: 20716/05
+image: /assets/images/brilliantsmart_20716.jpg
+template: '{"NAME":"Prism","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.au/Brilliant-Smart-Prism-Dimmable-Downlight/dp/B0822F1VSQ/
+link2: 
+mlink: https://www.brilliantsmart.com.au/smart-products/lighting/smart-prism/
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---

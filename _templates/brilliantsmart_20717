@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-27
+title: BrilliantSmart Cordia 24W CCT 
+model: 20717/05
+image: /assets/images/brilliantsmart_20717.jpg
+template: '{"NAME":"Cordia","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.jdlighting.com.au/brilliant-smart-cordia-24w-led-cct-dimmable-oyster-light.html
+link2: 
+mlink: https://www.brilliantsmart.com.au/smart-products/lighting/smart-cordia/
+flash: tuya-convert
+category: light
+type: Ceiling Light
+standard: au
+---

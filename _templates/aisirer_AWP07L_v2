@@ -1,0 +1,17 @@
+---
+date_added: 2020-02-02
+title: Aisirer 
+model: AWP07L
+image: /assets/images/aisirer_AWP07L_v3.jpg
+template: '{"NAME":"AWP07L v2","GPIO":[0,17,57,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"AWP07L v3","GPIO":[0,17,52,0,134,132,0,0,130,53,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.es/Inteligente-AISIRER-Inal%C3%A1mbrico-Requiere-Compatible/dp/B07PMRQDQ2/
+link2: https://www.amazon.es/Inteligente-AISIRER-Inal%C3%A1mbrico-Interruptor-Compatible/dp/B07DRQ6M1J/
+link3: https://www.amazon.it/gp/product/B07PMRQDQ2/
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+Bought in January 2020

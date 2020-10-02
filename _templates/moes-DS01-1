@@ -5,15 +5,13 @@ category: switch
 type: Dimmer
 standard: us
 link: https://www.banggood.com/MoesHouse-US-WiFi-Smart-Light-Dimmer-Switch-Smart-LifeTuya-APP-Compatible-with-Alexa-Google-Home-for-Voice-Control-No-Hub-Required-p-1579169.html
-image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/DS01_cddd0a66-0224-4477-bab5-b419ec60cc06_1800x1800.jpg
+image: /assets/images/moes-DS01-1.jpg
 template: '{"NAME":"MOES DS01","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}'
 link2: https://www.aliexpress.com/item/33005098030.html
-link3: https://www.moeshouse.com/collections/us-smart-switch/products/wifi-smart-light-dimmer-switch-elegantly-designed-compatible-with-alexa-google-home-for-voice-control-no-hub-required-1
+mlink: https://www.moeshouse.com/collections/us-smart-switch/products/wifi-smart-light-dimmer-switch-elegantly-designed-compatible-with-alexa-google-home-for-voice-control-no-hub-required-1
 ---
 
 There are several Tuya Dimmer variants by various manufacturers. These dimmers are usually 1 gang switches that dim mains voltage for various lighting types: incandescent, CFL, and LED.  Consult the specific device for the type of bulbs and capacity it supports as well as the bulbs themselves to verify they support dimming.
-
-`Tuya Dimmer (54)` as a BASE module was introduced in 6.2.1.16. and reimplemented as `Tuya MCU (54)` in 6.6.0.10
 
 #### Configuration
 
@@ -34,14 +32,7 @@ GPIO | Component
 1. Goto WebUI and then Console
 2. Enter commands `TuyaMCU 21,2`
 
-If this doesn't work see https://tasmota.github.io/docs/#/TuyaMCU
-
-### Pre Tasmota version 6.6.0.10
-
-[`SetOption34`](Commands#setoption34) - Set the Tuya Dimmer device ID
-[`SetOption66`](Commands#setoption66) - Set the Tuya Dimmer device ID range
-
-_If power on/off works, but dimming doesn't, you probably haven't set the correct ID_
+If this doesn't work see https://tasmota.github.io/docs/TuyaMCU
 
 #### Flashing
 
@@ -58,13 +49,6 @@ These devices use a Tuya TYWE3S Wi-Fi PCB module.  Once the switch is carefully 
 ![chip_wires](https://user-images.githubusercontent.com/3240875/43324672-578ffcbc-917a-11e8-800c-f1d008ca3cf4.JPG)
 
 Attach the GPIO0 wire to ground during initial boot to flash.  A 3-pin header bridged together works great with GPIO0, GND and the GND from the USB flasher attached. (TX pin to RX pin and RX pin to TX pin on USB flash adapter). Verify that you are using 3.3volts to flash, **NOT 5V!**
-
-Product Links:
-
-- [Oittm](https://www.amazon.com/gp/product/B07D127YL5)
-- [Moes DS01](https://www.amazon.com/gp/product/B07DRG19S6) ([Template](moes_DS01.html))
-- [Konesky](https://www.amazon.fr/gp/product/B07L3LNVG1/)
-- [Heygo](https://www.amazon.com/gp/product/B07JG6T1G8/)
 
 ### Costco Charging Essentials
 
@@ -93,7 +77,3 @@ The procedure is similar to above, additionally NRST must be connected to GND du
 
 `LedState 0` (To only use the green LED for wifi/mqtt connectivity.)
 
-Product Links:
-
-- [AIGLEN](https://www.aliexpress.com/item/WiFi-LED-Dimmer-Switch-220V-110V-Dimming-Panel-Switch-Connected-To-Alexa-Google-Home-Voice-Control/32859257784.html)
-- [ALLOMN](https://www.amazon.de/Lichtschalter-Fernbedienung-Timing-Funktion-%C3%9Cberlastschutz-Neutralleitung/dp/B07BKY1N9S)

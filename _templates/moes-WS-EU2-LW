@@ -5,17 +5,19 @@ category: switch
 type: Switch
 standard: eu
 link: https://www.aliexpress.com/item/4000155341437.html
-image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/Hcfa01c0b54a043ac9de2d98f667c9530Z_1800x1800.jpg
+image: /assets/images/moes-WS-EU2-LW.jpg
 template: '{"NAME":"Tuya 2 Channel","GPIO":[0,0,0,0,22,0,0,0,17,21,18,0,157],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.moeshouse.com/products/gold-wifi-smart-wall-switch-no-neutral-wire-needed-wireless-smart-life-tuya-remote-control-single-fire-work-with-alexa-rf433-1
+mlink: https://www.moeshouse.com/products/gold-wifi-smart-wall-switch-no-neutral-wire-needed-wireless-smart-life-tuya-remote-control-single-fire-work-with-alexa-rf433-1
 ---
 
 Can be flashed with Tuya-Convert.
 
 RF433 sems works: long press invoke pairing sound, but not tested with remote itself.
 
+---
 
+Warning: There is another model of this device that on the outside looks identical, but inside has a TW-03 chip, which is incompatible with Tasmota. This model goes by the model name: WS-EU2-RF
 
 
 

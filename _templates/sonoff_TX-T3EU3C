@@ -1,0 +1,36 @@
+---
+date_added: 2020-02-29
+title: Sonoff TX T3 EU 3 Gang
+model: T3EU3C
+category: switch
+type: Switch
+standard: eu
+image: /assets/images/sonoff_TX-T3EU3C.jpg
+template: '{"NAME":"TX T3EU3C","GPIO":[17,255,0,255,23,22,18,19,21,158,0,0,0],"FLAG":0,"BASE":30}' 
+link4: https://www.aliexpress.com/item/4000761227921.html
+link2: https://www.amazon.de/dp/B07T599ZZ7/
+link3: https://www.banggood.com/SONOFF-T3-EUUSUK-AC-100-240V-123-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Smart-Wall-Touch-Light-Switch-For-Smart-Home-Work-With-Alexa-Google-Home-p-1470799.html
+mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
+link: https://www.itead.cc/sonoff-tx-series-wifi-smart-wall-switches.html
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+Sonoff TX series is a new generation of wall switches with an updated front plate design. T3 model is the first one in piano black which is a welcome improvement over the regular white ones. TX T3 switches are available in EU, UK and US standards but all testing and flashing was done only on the EU version.
+
+![Backside](/assets/images/sonoff_TX-T3EU3Ca.jpg)
+
+Alongside standard Wi-Fi controls, TX series (with notable exception of the T0 line) can be controlled via 433Mhz RF. Sonoff offers their own [RM433 remote](sonoff_RM433) that works with TX series as well as all other Sonoff RF capable devices. Remote can be paired with the RM433-BASE magnetic wall mount to easily simulate a 3way switch without any additional wiring.
+
+![TX with remote](/assets/images/sonoff_TX-T3EU3Cb.jpg)
+
+## Serial Flashing
+![](/assets/images/sonoff_TX-T3EU3Cd.jpg)
+
+After removing the front glass touch plate you have access to the touch PCB where GND, TX, RX and VCC pins are broken out and clearly labeled. On the backside of the board there is a pad labeled GPIO0 but I haven't been able to put the device into flash mode grounding it. Instead I resorted to the trusty method of grouding GPIO0 from the esp8266 chip directly. Never fails!
+
+![PCB and pinout](/assets/images/sonoff_TX-T3EU3Cc.jpg)
+![Flash mode procedure](/assets/images/sonoff_TX-T3EU3Cf.jpg)
+
+As a little test I tried flashing without soldering by only inserting the pin header and applying pressure to the board. Even thought it was very fiddly it did result in a successful flash.
+
+![](/assets/images/sonoff_TX-T3EU3Ce.jpg)

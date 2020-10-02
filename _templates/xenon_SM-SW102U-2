@@ -5,7 +5,7 @@ link: https://www.amazon.com/Tempered-Wireless-Standard-Compatible-Assistant/dp/
 image: https://images-na.ssl-images-amazon.com/images/I/61BpAWoRH6L._AC_SL1500_.jpg
 template: '{"NAME":"SM-SW102U-2","GPIO":[52,0,0,18,22,0,0,0,17,21,0,0,0],"FLAG":1,"BASE":18}' 
 link2: https://www.amazon.ca/SM-SW102-Tempered-Wireless-Compatible-Assistant/dp/B07KFVYMPT
-link3: https://www.alibaba.com/product-detail/Xenon-smart-US-Glass-touch-wall_60644976841.html
+mlink: https://www.alibaba.com/product-detail/Xenon-smart-US-Glass-touch-wall_60644976841.html
 flash: tuya-convert
 category: switch
 type: Switch

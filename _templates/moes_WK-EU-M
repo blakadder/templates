@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-19
+title: Moes W-DE004S
+model: WK-EU-M
+image: /assets/images/moes_WK-EU-M.jpg
+template: '{"NAME":"Moes DE004S ","GPIO":[57,0,0,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32874989005.html
+link2: 
+mlink: https://www.moeshouse.com/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-11
+title: Torchstar LITEdge 2-in-1
+model: R1-SY8SPL-WIFI-BLK
+image: https://user-images.githubusercontent.com/5904370/72204069-42d00080-3474-11ea-8fb2-b806a37155d0.png
+template: '{"NAME":"LITEdge Plug","GPIO":[0,0,0,0,56,57,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/LITEdge-Waterproof-Compatible-Wireless-Available/dp/B079NSSXFK
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---
+Green LED on when either relay is on and blue LED blinks to indicate wifi state.  Reverse the LED pins to swap the colors.  Press button once to toggle relay 1 and twice to toggle relay 2.

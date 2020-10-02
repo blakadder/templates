@@ -1,0 +1,17 @@
+---
+date_added: 2020-02-07
+title: DD001-MINI(G)-IR-V08
+model: 
+image: /assets/images/DD001-MINIG-IR-V08.jpg
+template: '{"NAME":"WIFI-RGB","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000052351082.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Controller
+standard: global
+---
+To get this device into flashing mode you have to turn the power on and off 5 times, then the RGB strip begins to blink.
+
+![PCB](/assets/images/DD001-MINIG-IR-V08-1.jpg)

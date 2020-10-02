@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-01
+title: HIPER IoT P01
+model: HI-P01
+image: /assets/images/hiper_HI-P01.jpg
+template: '{"NAME":"HIPER IoT P01","GPIO":[0,0,0,0,0,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/10000001546344.html
+link2: 
+mlink: https://hiper-power.com/catalog/smart-home/smart-socket-hiper-iot-p01/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+![label](/assets/images/hiper_HI-P01_a.jpg)

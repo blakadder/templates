@@ -8,6 +8,6 @@ link: https://www.amazon.de/dp/B07KJKTLJH
 image: https://www.luminea.info/nx4458_1.jpg
 template: '{"NAME":"Luminea NX4458","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":65}' 
 link2: https://www.amazon.de/Luminea-Home-Control-Steckdose-Garten/dp/B07KJH3HBFs
-link3: https://www.luminea.info/Outdoor-WLAN-Steckdose-kompatibel-zu-Alexa-NX-4458-919.shtml
+mlink: https://www.luminea.info/Outdoor-WLAN-Steckdose-kompatibel-zu-Alexa-NX-4458-919.shtml
 ---
 

@@ -5,7 +5,7 @@ link: https://www.wehkamp.nl/hihome-wpp-10s1-smartplug-16328256/
 image: https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_70574800/fee_786_587_png/HIHOME-Wifi-Powerplug-16-Amp-HI004
 template: '{"NAME":"HIhome WPP-10S","GPIO":[56,0,158,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":49}' 
 link2: https://www.mediamarkt.nl/nl/product/_hihome-wifi-powerplug-16-amp-hi004-1615851.html
-link3: https://www.hihome.eu
+mlink: https://www.hihome.eu
 flash: tuya-convert
 category: plug
 type: Plug

@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-02
+title: MoKo YX-WS01A
+model: YX-WS01A
+image: /assets/images/moko_YX-WS01A.jpg
+template: '{"NAME":"MoKo Plug","GPIO":[0,17,0,0,0,0,0,0,0,57,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07ZYMSGYK
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

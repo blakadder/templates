@@ -1,19 +1,11 @@
 ---
-date_added: 2019-11-18
+date_added: 2020-09-20
 title: Gosund WP2
 category: plug
 type: Plug
 standard: us
-link: https://www.amazon.com/Gosund-Extender-Independently-Together-Required/dp/B07F58N32V
 image: https://images-na.ssl-images-amazon.com/images/I/51lji0CJpQL._AC_SL1500_.jpg
 template: '{"NAME":"Gosund WP2","GPIO":[17,158,57,0,18,0,0,0,22,56,21,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link: https://www.amazon.com/dp/B07F58N32V
+link2: https://www.amazon.ca/dp/B08B83TTVB/
 ---
-
-LEDs did not match WP212 entry. Left outlet is #1, right is #2. LinkLED is enabled, so blue LED blinks until link established.
-
-
-
-
-
-

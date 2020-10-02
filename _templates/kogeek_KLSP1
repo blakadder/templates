@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-23
+title: Koogeek 
+model: KLSP1
+image: /assets/images/kogeek_KLSP1.jpg
+template: '{"NAME":"Koogeek KLSP1","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.koogeek.com/p-klsp1-1.html
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---

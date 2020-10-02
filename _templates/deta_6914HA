@@ -1,0 +1,63 @@
+---
+date_added: 2020-08-08
+title: Deta Fan Speed Controller with Light 
+model: 6914HA
+image: /assets/images/deta_6914HA.jpg
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: au
+template: '{"NAME":"Deta Fan Speed and Light Controller","GPIO":[18,0,0,157,23,19,0,0,0,22,21,24,17],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/deta-grid-connect-smart-fan-speed-controller-with-touch-light-switch_p0098815
+link2: https://www.bunnings.co.nz/deta-grid-connect-smart-fan-speed-controller-with-touch-light-switch_p0098815
+---
+
+Decouple Buttons from Relays
+```
+SetOption73 1
+```
+
+Single rule to handle fan speed logic
+```console
+rule1
+ON SYSTEM#Init DO VAR1 3 ENDON
+ON BUTTON1#State=10 DO POWER1 Toggle ENDON
+ON BUTTON2#State=10 DO POWER2 Toggle ENDON
+ON POWER2#State=1 DO POWER3 ON ENDON
+ON POWER2#State=1 DO POWER4 ON ENDON
+ON POWER2#State=1 DO VAR1 2 ENDON
+ON POWER2#State=0 DO POWER3 OFF ENDON
+ON POWER2#State=0 DO POWER4 OFF ENDON
+ON POWER2#State=0 DO VAR1 3 ENDON
+ON BUTTON3#State=10 DO Event SetSpeed=%VAR1% ENDON
+ON EVENT#SetSpeed=1 DO POWER3 OFF ENDON
+ON EVENT#SetSpeed=1 DO POWER4 OFF ENDON
+ON EVENT#SetSpeed=1 DO POWER2 ON ENDON
+ON EVENT#SetSpeed=1 DO VAR1 3 ENDON
+ON EVENT#SetSpeed=2 DO POWER3 OFF ENDON
+ON EVENT#SetSpeed=2 DO POWER4 ON ENDON
+ON EVENT#SetSpeed=2 DO POWER2 ON ENDON
+ON EVENT#SetSpeed=2 DO VAR1 1 ENDON
+ON EVENT#SetSpeed=3 DO POWER3 ON ENDON
+ON EVENT#SetSpeed=3 DO POWER4 ON ENDON
+ON EVENT#SetSpeed=3 DO POWER2 ON ENDON
+ON EVENT#SetSpeed=3 DO VAR1 2 ENDON
+```
+
+Enable rule with `Rule1 1`
+
+Description:
+`SetOption73` Decouples the buttons and relay
+The VAR1 can be thought of as "NextSpeed", if it makes it easier to read the code
+
+Notes:
+- Relay 1 is the main light relay controlled by button1 (the light button)
+- Relay 2 is the main fan relay controlled by the button2 (the fan button)
+- Relay 3 is the secondary fan relay controlled by the bottom3 (the array buttons)
+- Relay 4 is the tertiary fan relay not physically connected to any buttons
+
+Rule Logic
+- Relay 3 and4 will always turn on with Relay 2
+- VAR1 is set to 3 at Initialisation and when the fan is powered off to ensure full power to fan to startup
+- Button 3 will always decrease speed one at a time 3 -> 2 -> 1 -> 3

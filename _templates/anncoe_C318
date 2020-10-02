@@ -1,0 +1,28 @@
+---
+date_added: 2020-01-28
+title: Anncoe C318
+model: C318
+image: https://user-images.githubusercontent.com/5904370/73257213-9f952000-41c3-11ea-909c-c6879198bc18.png
+template: '{"NAME":"Anncoe C318","GPIO":[90,145,255,146,0,0,0,0,21,53,0,0,0],"FLAG":0,"BASE":18}' 
+link: http://www.amazon.co.uk/gp/product/B07SVX7MCW
+link2: https://www.amazon.com/Wifi-Smart-Plug-AVJONE-Premium-Power/dp/B07LGTXK87
+link3: https://anncoe.en.alibaba.com/productgrouplist-811426385/C318_Global_type.html
+mlink: http://www.anncoe.com/en/showpro.asp?id=218&lb=4
+flash: serial
+category: plug
+type: Plug
+standard: 
+  - eu
+  - uk
+  - us
+  - au
+  - fr
+  - it
+  - il
+  - br
+  - jp
+  - in
+  - ch
+  - global
+---
+Anncoe is the OEM manufacturer. Same device is found under various brand names.

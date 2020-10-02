@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-06
+title: LE lampUX 15W RGBCCT 
+model: 901503-EU
+image: /assets/images/LE-lampUX_901503-EU.jpg
+template: '{"NAME":"LE lampUX 15W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07RJN2VJ3
+link2: https://www.amazon.co.uk/Ambiance-Waterproof-Compatible-Required-2700k-6500k/dp/B07RJN2VJ3
+mlink: http://www.lepro.de
+flash: tuya-convert
+category: light
+type: Ceiling Light
+standard: eu
+---

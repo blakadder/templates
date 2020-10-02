@@ -1,0 +1,17 @@
+---
+date_added: 2020-01-19
+title: Novostella HM-LB09 13W 1300lm
+model: HM-LB09-RGBCW-US
+image: https://user-images.githubusercontent.com/5904370/72683421-90351900-3ad7-11ea-9910-2bcd983fd40a.png
+template: '{"NAME":"Novostella 13W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Novostella-2700K-6500K-Multicolor-Equivalent-Compatible/dp/B07VQSHDYY
+link2: https://www.amazon.ca/Smart-Bulbs-Color-Changing-Dimmable/dp/B07VLFFX9D
+mlink: https://www.novostella.net/collections/smart-bulb-rgbcw-smart-bulb/products/1-pack-13w-e26-rgbcw-2700-6500k-smart-wifi-led-bulb
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---
+Model number on bulb: SQPA6012-A
+
+![image](https://user-images.githubusercontent.com/5904370/72683484-0afe3400-3ad8-11ea-80f5-366a10dc962f.png)

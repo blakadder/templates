@@ -1,6 +1,6 @@
 title: Tasmota Device Templates Repository
-description: Database of templates for devices supported in Tasmota
-url: "https://blakadder.github.io"
+description: Database of devices supported in Tasmota (and unsupported ones)
+url: "https://templates.blakadder.com"
 #baseurl: ""
 
 # Build settings
@@ -14,6 +14,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - CNAME
+  - LICENSE.md
 
 sass:
   sass_dir: _sass
@@ -26,9 +28,6 @@ collections:
   unsupported:
     output: true
     permalink: /unsupported/:title.html
-  zigbee:
-    output: true
-    permalink: /zigbee/:title.html
 
 defaults:
   - scope:
@@ -49,4 +48,7 @@ defaults:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
 google_analytics: UA-140681905-1

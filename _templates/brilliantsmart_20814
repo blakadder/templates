@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-24
+title: BrilliantSmart 24W 410mm Salisbury CCT 
+model: 20814/05
+image: /assets/images/brilliantsmart_20814.jpg
+template: '{"NAME":"Salisbury","GPIO":[0,0,0,0,0,0,0,0,47,0,37,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.bunnings.com.au/brilliant-24w-410mm-smart-salisbury-wifi-cct-led-ceiling-light_p0133115
+link2: 
+mlink: https://www.brilliantsmart.com.au/
+flash: tuya-convert
+category: light
+type: Ceiling Light
+standard: au
+---

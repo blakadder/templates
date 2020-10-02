@@ -1,17 +1,15 @@
 ---
 date_added: 2019-11-28
 title: Lohas ZN006 1380lm  
+model: LH-ZN006-RGB-A21-N1
 type: RGBW
 category: bulb
 standard: e26
 link2: https://www.lohas-led.com/lohas-smart-led-bulb-a21-e26-100w-equivalent-14w-rgb-cool-white-dimmable-wifi-app-controlled-alexa-google-assistant-compatible-p0230-p0230.html
-image: https://www.lohas-led.com/u_file/1911/products/12/87b0425b21.jpg.640x640.jpg
+image: /assets/images/lohas-ZN006.jpg
 template: '{"NAME":"Lohas100 RGBW","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/LOHAS-LED-Equivalent-Brightness-Compatible/dp/B07P6M2FT3
-link3: https://www.lohasled.com/14w-a21-p00177p1.html
+mlink: https://www.lohasled.com/14w-a21-p00177p1.html
 ---
-Manufacturer reference: LH-ZN006-RGB-A21-N1
-
-This template requires Tasmota 6.6.0.18 or higher to work correctly. Tasmota-basic.bin files will not work with this template. Flash the regular full bin file of Tasmota.
 
 Side note if you do need to attach to the bulb via USB serial the pads are there right under the light diffuser to easily solder RX, TX, GND, and GPIO0 but 3v3 does not work. You will need to solder to the flash memory chip VCC leg to inject 3v3 power, it is easier to solder to this pin instead of the ESP8266 directly.

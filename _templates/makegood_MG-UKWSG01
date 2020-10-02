@@ -5,7 +5,7 @@ link: http://s.click.aliexpress.com/e/Md4iwXc4
 image: https://user-images.githubusercontent.com/5904370/71644087-381eaa00-2cc3-11ea-8a7a-7173475b0762.png
 template: '{"NAME":"Aseer 2-Gang","GPIO":[57,9,157,59,134,132,0,0,131,21,56,22,10],"FLAG":0,"BASE":18}'
 link2: http://s.click.aliexpress.com/e/2BY2YuNi
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Wall Outlet

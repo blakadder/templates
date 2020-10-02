@@ -1,14 +1,16 @@
 ---
-date_added: 2020-01-08
+date_added: 2020-03-16
 title: XS-A18
 category: plug
 type: Plug
 standard: au
-image: https://images-na.ssl-images-amazon.com/images/I/41PqlsEbWHL._SL1000_.jpg
+flash: tuya-convert
+image: /assets/images/XS-A18.jpg
 template: '{"NAME":"XS-A18","GPIO":[37,0,38,0,0,39,0,0,0,17,0,21,0],"FLAG":0,"BASE":45}' 
 link2: https://www.banggood.com/XS-A18-AC100-240V-10A-AU-Plug-Smart-RGB-LED-Light-Smart-Wifi-Socket-Voice-Control-Works-With-Alexa-Google-Home-p-1552852.html
-link: https://www.aliexpress.com/item/4000534358024.html
-link3: https://www.alibaba.com/product-detail/RGB-mini-wi-fi-smart-plug_60798221701.html
+link: https://www.aliexpress.com/item/4000443811565.html
+link3: https://www.fasttech.com/product/9688346-xs-a18-wifi-remote-control-smart-socket-timer
+mlink: https://www.alibaba.com/product-detail/RGB-mini-wi-fi-smart-plug_60798221701.html
 ---
 
 

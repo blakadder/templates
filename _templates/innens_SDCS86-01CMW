@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-22
+title: Innens 1 Gang 1 Way
+model: SDCS86-01CMW
+image: /assets/images/innens_SDCS86-01CMW.jpg
+template: '{"NAME":"Innens 1 Gang 1 Way","GPIO":[0,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B07V2FD1W7/
+link2: https://www.amazon.de/dp/B07V2FD1W7
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: uk
+---

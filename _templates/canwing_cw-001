@@ -1,14 +1,16 @@
 ---
 date_added: 2019-03-13
 title: Canwing CW-001
-category: switch
-type: Relay
+category: relay
+type: Switch
 standard: global
 link: http://s.click.aliexpress.com/e/F6gaJt9W
 image: https://user-images.githubusercontent.com/42893315/52245571-75778d80-28e2-11e9-8b0f-d1fd4d579690.jpg
 template: '{"NAME":"Canwing CW-001","GPIO":[17,255,0,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
 link2: https://www.amazon.co.uk/SODIAL-Ewelink-Wireless-Automation-Controller/dp/B07R7R96X8
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 ## General:
 <img src="https://user-images.githubusercontent.com/42893315/52249118-b88d2d00-28f1-11e9-800e-a969541bcea3.jpg" width="250" align="right" />
 

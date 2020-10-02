@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-10
+title: 7hSevenOn Home 10020
+model: 10020
+image: /assets/images/7hsevenoh.jpg
+template: '{"NAME":"7hSevenOn","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://orion91.com/enchufes/pack-4-enchufes-wifi-compacto-control-via-smartphone-app
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

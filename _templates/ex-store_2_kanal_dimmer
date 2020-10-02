@@ -1,13 +1,13 @@
 ---
 date_added: 2019-10-16
 title: EX-Store 2 Kanal RS232 V4
-category: switch
+category: relay
 type: Dimmer
 standard: eu
-link: https://ex-store.de/navi.php?a=222
-image: https://ex-store.de/media/image/product/233/lg/2-kanal-rs232-wifi-wlan-dimmer-modul-v4-fuer-unterputzmontage-230v-3a-nur-modul.png
+mlink: https://ex-store.de/
+image: /assets/images/ex-store_2_kanal_dimmer.jpg
 template: '{"NAME":"EXS Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,183,0,0,0],"FLAG":0,"BASE":72}' 
-link2: 
+link: https://www.amazon.de/Kanal-Dimmer-Unterputzmontage-Stift-Buchensleisten/dp/B075HHH8D4
 ---
 
 

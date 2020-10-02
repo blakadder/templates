@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-30
+title: Arilux SL-LC 03
+model: 2AGGWZJWF
+image: /assets/images/arilux_SL-LC_03.jpg
+template: '{"NAME":"Arilux LC03","GPIO":[0,0,0,0,51,38,0,0,37,39,0,40,0],"FLAG":0,"BASE":34}' 
+link: https://www.banggood.com/ARILUX-SL-LC-03-Super-Mini-LED-WIFI-APP-Controller-Remote-Control-For-RGB-LED-Strip-DC5-28V-p-1060223.html
+link2: https://www.amazon.com/dp/B07RDK4GDH
+link3: https://www.amazon.ca/RISHIL-WORLD-Controller-Control-DC5-28V/dp/B07K56MV29
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---

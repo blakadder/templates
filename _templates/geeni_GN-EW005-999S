@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-16
+title: Geeni Prisma Plus 
+model: GN-EW005-999S
+image: /assets/images/geeni_GN-EW005-999S.jpg
+template: '{"NAME":"Geeni Prisma Plus Strip","GPIO":[17,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Geeni-Brighter-Temperature-Compatible-Multicolor/dp/B07TBHBHXJ
+link2: https://www.microcenter.com/product/608279/geeni-prisma-plus-strip-smart-wi-fi-led-strip-kit---rgb
+mlink: https://mygeeni.com/collections/strip-lights/products/prisma-plus-strip-smart-wi-fi-led-light-strip-kit
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: us
+---
+Flashed using tuya-convert. Device is RGBW with color temperature control.

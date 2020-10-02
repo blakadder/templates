@@ -1,0 +1,16 @@
+---
+date_added: 2020-07-16
+title: Tellur 16A 2 Ports
+model: TLL331061
+image: /assets/images/tellur_TLL331061.jpg
+template: '{"NAME":"Tellur WiFi Smart Socket","GPIO":[18,0,0,131,134,132,0,0,157,21,22,0,17],"FLAG":0,"BASE":18}' 
+link: https://www.evomag.ro/tv-multimedia-casa-inteligenta-accesorii-casa-inteligenta/tellur-priza-smart-tellur-tll331061-wifi-2-porturi-schuko-3680w-16a-monitorizarea-energiei-alb-3758188.html
+link2: https://www.amazon.de/dp/B07T1KBD9B/
+mlink: https://www.tellur.com/product/wifi-smart-ac-socket-2-ports-16a/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: global
+---
+
+I managed to flash it using TuyaConvert so I didn't try to open the device. It didn't work the first time, but eventually TuyaConvert did the job.

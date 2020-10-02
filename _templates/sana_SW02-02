@@ -5,7 +5,7 @@ link: https://www.amazon.com/dp/B07QC5ZCHP
 image: https://images-na.ssl-images-amazon.com/images/I/51hgyD7gBCL._SL1500_.jpg
 template: '{"NAME":"SW02-02","GPIO":[31,255,255,18,22,0,0,0,17,21,255,0,255],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Switch

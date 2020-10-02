@@ -8,7 +8,7 @@ link: https://www.amazon.com/gp/product/B07QY6DDKZ
 image: https://user-images.githubusercontent.com/5904370/71560718-d1ed1980-2a6d-11ea-8035-5758f0f2480b.png
 template: '{"NAME":"Lohas ZN070","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://lohasled.en.alibaba.com/product/62012162860-811833952/Tunable_White_2000K_6500K_A19_A60_8W_Dimmable_LED_Smart_Bulb_Compatible_With_Alexa_Google_Home_Tuya_Smart_APP.html
+mlink: https://lohasled.en.alibaba.com/product/62012162860-811833952/Tunable_White_2000K_6500K_A19_A60_8W_Dimmable_LED_Smart_Bulb_Compatible_With_Alexa_Google_Home_Tuya_Smart_APP.html
 ---
 Reference: LH-ZN070-E26-2P
 

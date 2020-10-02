@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-03
+title: Zemismart Roller Shade
+model: 2AU8E-M2805EIGB
+image: /assets/images/zemismart_M2805EIGB.jpg
+template: '{"NAME":"M2805EIGB","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4001052658683.html
+link2: 
+mlink: https://www.zemismart.com/products/zemismart-wifi-roller-shade-motor-built-in-battery-for-38mm-tube-smart-life-app-control
+flash: tuya-convert
+category: cover
+type: Motor
+standard: global
+---
+Same as: https://templates.blakadder.com/zemismart_M515EGB.html

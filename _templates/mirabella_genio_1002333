@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-07
+title: Mirabella Genio 9W 800lm
+model: 102333
+image: /assets/images/mirabella_genio_1002333.jpg
+template: '{"NAME":"GenioB22","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kmart.com.au/product/mirabella-genio-b22-ww-wi-fi-dim-bulb/2326808
+link2: 
+mlink: https://mirabellagenio.net.au/es-%2F-bc-warm-white-specs
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: b22
+---

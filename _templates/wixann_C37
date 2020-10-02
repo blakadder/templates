@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-10
+title: Wixann C37 5W 450lm
+model: 
+image: /assets/images/wixann_C37.jpg
+template: '{"NAME":"WIXANNE12","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07YVM7QZX/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e12
+---

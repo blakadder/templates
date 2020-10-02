@@ -1,0 +1,16 @@
+---
+date_added: 2020-04-17
+title: Euri Lighting A19 10W 800lm
+model: LIS-A1000
+image: /assets/images/euri_lighting_LIS-A1000.jpg
+template: '{"NAME":"Euri Lighting ","GPIO":[0,0,0,0,37,38,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07N8RRQ9G/
+link2: 
+mlink: https://www.eurilighting.com/product/lis-a1000/
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e26
+---
+
+The color is inverted but when I inverted the pwd1 it stopped working correctly. 

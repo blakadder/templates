@@ -5,7 +5,7 @@ link: https://www.onlinebaufuchs.de/Haus-Wohnen/Beleuchtung-Zubehoer/LED-Schlaeu
 image: https://www.onlinebaufuchs.de/images/product_images/info_images/briloner_wifi_rgb_led_flexband_mit_trans_55629_0.jpg
 template: '{"NAME":"Briloner2256-1","GPIO":[51,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.briloner.com
+mlink: https://www.briloner.com
 flash: tuya-convert
 category: light
 type: LED Strip

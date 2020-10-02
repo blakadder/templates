@@ -1,12 +1,12 @@
 ---
 date_added: 2020-01-07
 title: Vivitar HA-1006
-model: 
-image: http://www.vivitar.com/files_products/92/bc8c4152897a2414c237b2ebb5e13a9a._1535476047.3217.jpg
+model: HA-1006
+image: /assets/images/vivitar_HA-1006.jpg
 template: '{"NAME":"HA-1006","GPIO":[0,0,0,0,56,0,0,0,21,90,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Vivitar-Wireless-Smart-Plug/dp/B07FDN7YK7
 link2: https://www.homedepot.com/p/Vivitar-Wi-Fi-Plug-1-Outlet-1-USB-Port-HA-1006/305495195
-link3: http://www.vivitar.com/product/115/smart-home/92/wall-outlet
+mlink: http://www.vivitar.com/product/115/smart-home/92/wall-outlet
 flash: serial
 category: plug
 type: Plug

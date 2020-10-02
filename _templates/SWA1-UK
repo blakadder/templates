@@ -1,16 +1,15 @@
 ---
-date_added: 2019-05-29
+date_added: 2020-07-06
 title: SWA1 UK
 category: plug
 type: Plug
 standard: uk
-link: https://www.amazon.co.uk/gp/product/B079GMF8SJ
-image: https://images-na.ssl-images-amazon.com/images/I/51gZ-WbfeqL._SL1000_.jpg
+link3: https://www.amazon.co.uk/gp/product/B07JLPYL3M
+link: https://www.amazon.co.uk/dp/B07DCSGBF4/ 
+image: /assets/images/SWA1-UK.jpg
 template: '{"NAME":"SWA1","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
-link2: http://s.click.aliexpress.com/e/ojPe5GxW
-link3: https://lingan.en.alibaba.com/search/product?SearchText=swa1
+link2: https://www.aliexpress.com/af/swa1-smart-uk.html
+mlink: https://lingan.en.alibaba.com/search/product?SearchText=swa1
 ---
-
-
 
 

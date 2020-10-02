@@ -1,0 +1,85 @@
+---
+date_added: 2020-06-20
+title: TY01 Door Window
+model: TY01/XCS1
+link: https://www.aliexpress.com/item/4000510216875.html
+image: /assets/images/TY01.jpg
+template: '{"NAME":"TY01","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link2: https://www.aliexpress.com/item/4000492919273.html
+mlink: 
+flash: serial
+category: sensor
+type: Contact Sensor
+standard: global
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+This is a Tuya battery powered contact (door or window) sensor. Runs on two AAA batteries (not supplied with the device). 
+
+This sensor can be found for only 6$ on AliExpress!
+
+Identified with MCU Product ID: `{"p":"3slpirlnlqp0bqo1","v":"1.0.0"}`. 
+
+![Packaging](/assets/images/TY01_packaging.jpg)
+
+## Flashing
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk.
+
+### Serial
+Easily disassembled by removing the back plate, unscrewing the screw in the battery holder and prying away the plastic using the bottom slot. 
+
+The PCB has no visible serial number or other marking on it and a prominent TYWE3S module. The broken out pins are for the MCU's 3v3, RX, TX, GND and RST. 
+
+MM32F003NW MCU ([datasheet](http://www.mindmotion.com.cn/userfiles/images/MM32F00XiLieWenDang/DS_MM32F003_q_V1.11_EN.pdf)), powers on the Tuya module on reed actuation or on "Reset" bottom button press for a short amount of time sufficient to send opening or closing message.
+
+![PCB](/assets/images/TY01_PCB.jpg)
+
+Due to this design it is difficult to tuya-convert or even configure the device compared to non-battery powered ones. To flash the device solder directly to TYWE3S TX, RX, GPIO0, VCC and GND pins (optionally solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to disable the MCU by connecting RST to GND, otherwise you will be unable to flash.
+
+![PCB](/assets/images/TY01_soldering.jpg)
+
+
+## Configuration
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+_If you're using battery power you need to prevent the device from going to sleep by actuating the reed switch constantly (approximately every 5 seconds) during the configuration._ It will be easier to configure everything while the MCU is disabled and TYWE3S is powered by the serial-to-USB adapter!
+
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+
+Disable multipress button options to prevent a device reset or Wi-Fi AP config mode, disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and set switchmode to follow instead of toggle
+```console
+Backlog SetOption1 1; SetOption65 1; SetOption66 1
+```
+
+Switch the device to battery powered sensor mode (fnId 51):
+```console
+TuyaMCU 51,51
+```
+
+Check with `TuyaMCU` for the following configuration:
+```json
+ {"TuyaMCU":[{"fnId":11,"dpId":1},{"fnId":51,"dpId":21}]}
+```
+
+## Functions
+Sensor status will be mapped to POWER. ON is "open" and OFF is "closed".
+
+There is no function in Tasmota for battery power dpID so we will use a rule to report battery status (high, medium or low) to a custom topic (change it to any other topic suitable for you). 
+
+```console
+Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010112 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010011 DO publish2 stat/%topic%/BATT low ENDON
+```
+
+
+Don't forget to turn on the rule: `Rule1 1`
+
+## Final Notes
+There is a significant delay (~5s on my network with the latest stripped down binary and a static IP) between reed actuation and its MQTT message so I don't recommmend this in critical spots where a fast response is required. I use them on windows where such a delay doesn't matter.
+
+If the batteries are too weak, sensor might be stuck in a bootloop or spawn an ESP-XXXXX AP. The bootloop can reset Tasmota to "factory defaults". You can disable bootloop protection with `SetOption36 0` but that might also put the sensor in a permanent bootloop until the battery dies.
+

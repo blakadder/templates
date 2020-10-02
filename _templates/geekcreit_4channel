@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-15
+title: Geekcreit 5V DIY 4 Channel Jog Inching Self-Locking
+model: 438340
+image: /assets/images/geekcreit_4channel.jpg
+template: '{"NAME":"Geekcreit-4ch","GPIO":[9,0,0,0,23,22,10,11,21,52,12,24,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/5V-DIY-Four-Channel-Jog-Inching-Self-locking-WIFI-Wireless-Smart-Home-Switch-p-1065305.html
+link2: 
+mlink: http://www.raspberrypiwiki.com/index.php/5V-4_Jog_Switch
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+Flashing instructions in [Tasmota Documentation](https://tasmota.github.io/docs/devices/Sonoff-4CH-DIY)

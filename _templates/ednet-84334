@@ -5,7 +5,7 @@ link: https://www.amazon.de/ednet-Steckdose-Sprachsteuerung-Amazon-Schutzkontakt
 image: https://images-na.ssl-images-amazon.com/images/I/51CVKHsvyVL._SL1500_.jpg
 template: '{"NAME":"84334","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.conrad.de/de/p/ednet-wi-fi-funk-steckdosen-set-2fach-innenbereich-2300-w-2177901.html
-link3: https://www.ednet-europe.eu/de/produkte/computerkomponenten/smart-home/84334/
+mlink: https://www.ednet-europe.eu/de/produkte/computerkomponenten/smart-home/84334/
 flash: tuya-convert
 category: plug
 type: Plug

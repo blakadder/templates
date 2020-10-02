@@ -1,11 +1,11 @@
 ---
 date_added: 2019-12-07
-title: Aoycocr Q10CWM 720lm
+title: Aoycocr Q10CWM BR30 9W 720lm
 link: https://www.amazon.com/gp/product/B07VP2KL7W
 image: https://images-na.ssl-images-amazon.com/images/I/51VemQgq9gL._AC_SL1200_.jpg
 template: '{"NAME":"AoycocrBR30","GPIO":[0,0,0,0,0,39,0,0,38,0,37,40,0],"FLAG":0,"BASE":18}'
-link2: https://www.amazon.com/gp/product/B07VCQ3Q5Z?th=1
-link3: http://en.hysiry.com/prod_view.aspx?TypeId=69&Id=175&FId=t3:69:3
+link2: https://www.amazon.com/gp/product/B07VCQ3Q5Z
+mlink: http://www.hysiry.com/productinfo/1478152.html
 flash: tuya-convert
 category: bulb
 type: RGBCCT

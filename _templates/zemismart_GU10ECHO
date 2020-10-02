@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-18
+title: Zemismart 5W 480lm
+model: 
+image: /assets/images/zemismart_GU10ECHO.jpg
+template: '{"NAME":"Zemismart 5W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/6-Pack-Spotlight-Alexa-IFTTT-420-480LM/dp/B07CSPQ63V/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: gu10
+---

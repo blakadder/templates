@@ -1,0 +1,20 @@
+---
+date_added: 2020-03-06
+title: Sonoff D1
+modeL: SONOFFD1
+category: relay
+type: Dimmer
+standard: global
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/d1-smart-dimmer-switch
+image: /assets/images/sonoff_D1.jpg
+template: '{"NAME":"Sonoff D1","GPIO":[255,148,0,149,0,0,0,0,0,56,0,0,0],"FLAG":0,"BASE":74}' 
+link: https://www.itead.cc/smart-home/sonoff-d1-smart-dimmer-switch.html
+link2: https://www.banggood.com/SONOFF-D1-Smart-Dimmer-Switch-Work-with-Alexa-Google-Home-p-1613319.html
+link3: https://www.aliexpress.com/item/4000838333725.html
+link4: https://www.amazon.com/dp/B088SZS4CH/
+---
+**Supported only in Tasmota 8.2+. Support is still experimental.**
+
+Sonoff offers a [RM433 remote](sonoff_RM433) that works natively with this device.
+
+If you're having "ghost switching" events pairing a RF remote with D1 could stop them.

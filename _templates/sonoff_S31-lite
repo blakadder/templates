@@ -3,12 +3,14 @@ title: Sonoff S31 Lite
 category: plug
 type: Plug
 standard: us
-link3: https://www.itead.cc/sonoff-s31.html
+mlink: https://sonoff.tech/product/wifi-smart-plugs/s31-s31lite
 image: https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/11/06/source-img/20191106162313_48121.jpg
 template: '{"NAME":"Sonoff S31","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":41}' 
-link: https://www.banggood.com/SONOFF-S31-15A-Smart-Plug-Energy-Monitoring-US-Version-WIFI-Switch-Upgraded-Compact-Design-Support-Google-Home-Alexa-IFTTT-p-1583513.html
+link: https://www.itead.cc/sonoff-s31.html
 link2: https://www.gearbest.com/access-control/pp_009547607757.html?wid=1433363
+link3: https://www.banggood.com/SONOFF-S31-15A-Smart-Plug-Energy-Monitoring-US-Version-WIFI-Switch-Upgraded-Compact-Design-Support-Google-Home-Alexa-IFTTT-p-1583513.html
+link4: https://www.amazon.com/Sonoff-Compatible-Assistant-Supporting-Required/dp/B07YXVWC3Y?ref_=ast_sto_dp
 ---
 
 ## Serial Flashing
-Complete guide on [Tasmota Wiki](https://tasmota.github.io/docs/#/devices/Sonoff-S31)
+Complete guide on [Tasmota Docs](https://tasmota.github.io/docs/devices/Sonoff-S31)

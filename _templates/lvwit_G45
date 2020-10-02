@@ -1,0 +1,18 @@
+---
+date_added: 2020-06-06
+title: LVWIT G45 5W 470Lm
+model: X00135AN2J
+image: /assets/images/lvwit_G45.jpg
+template: '{"NAME":"LVWIT E14 5W G45 RGBWCCT","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
+mink: https://www.lvwit.com/collections/de-smart-led-lampen/products/e14-smart-candle-bulbs-g45-5w-470lm-lvwit-de
+link2: 
+link: https://www.amazon.de/dp/B083DM88MW/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e14
+---
+`SetOption37 30` or the R and G will be reversed - 
+
+Instructions in the box were wrong: To get into Discovery Mode -  Don’t wait 10 seconds. Turn bulb on & off 3 times and wait 
+

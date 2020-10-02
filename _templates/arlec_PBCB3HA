@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-01
+title: Arlec Smart 3 Outlet Power Cube
+model: PBCB3HA
+image: /assets/images/arlec_PBCB3HA.jpg
+template: '{"NAME":"Arlec Cube","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: http://www.bunnings.com.au
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: au
+---

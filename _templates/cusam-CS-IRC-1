@@ -3,9 +3,9 @@ date_added: 2019-12-15
 title: Cusam CS-IRC-1
 link: http://s.click.aliexpress.com/e/keWKvi2M
 image: https://ae01.alicdn.com/kf/Hfdd3a4b0c1dd4c21b41ea5d8e7700f18h.jpg
-template: '{"NAME":"YTF IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+template: '{"NAME":"YTF IR Bridge","GPIO":[255,255,255,255,52,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link2: 
-link3: http://www.cusamintercom.com/en/index.php?m=content&c=index&a=show&catid=132&id=174
+mlink: http://www.cusamintercom.com/en/index.php?m=content&c=index&a=show&catid=132&id=174
 flash: serial
 category: misc
 type: IR Bridge

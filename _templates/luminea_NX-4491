@@ -5,7 +5,7 @@ link: https://www.amazon.de/Luminea-Home-Control-Steckdose-WLAN-Steckdose/dp/B07
 image: https://user-images.githubusercontent.com/5904370/71750407-904add00-2e78-11ea-94ab-535373320403.png
 template: '{"NAME":"Luminea NX-449","GPIO":[56,0,158,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link2: https://www.pearl.de/a-NX4491-3103.shtml
-link3: https://www.luminea.info/WLAN-Steckdose-fuer-Amazon-Alexa-und-Google-Home-1-NX-4491-919.shtml
+mlink: https://www.luminea.info/WLAN-Steckdose-fuer-Amazon-Alexa-und-Google-Home-1-NX-4491-919.shtml
 flash: tuya-convert
 category: plug
 type: Plug

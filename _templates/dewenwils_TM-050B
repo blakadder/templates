@@ -1,0 +1,17 @@
+---
+date_added: 2020-05-09
+title: dewenwils Outdoor Timer Box
+model: TM-050B
+image: /assets/images/dewenwils_TM-050B.jpg
+template: '{"NAME":"Dewenwils50054","GPIO":[0,0,54,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.com/dp/B07PP2KNNH
+link2: 
+mlink: http://www.dewenwils.com/
+flash: serial
+category: relay
+type: Switch
+standard: us
+---
+
+### Serial Flashing
+[Flashing tutorial](http://www.hagensieker.com/blog/page/?post_id=44&title=esp8266-hack-of-inexpensive-wifi-outlet) using the same module but in a plug 

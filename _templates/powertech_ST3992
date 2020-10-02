@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-19
+title: Powertech 5m RGBW 
+model: ST3992
+image: /assets/images/powertech_ST3992.jpg
+template: '{"NAME":"Jaycar ST3992 LED Strip","GPIO":[122,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.jaycar.com.au/smart-wifi-rgbw-led-strip-lighting-kit-with-easy-app-control/p/ST3992
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: au
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-17
+title: Arlec Smart 4W 380lm Candle
+model: GLD060HA
+image: /assets/images/arlec_GLD060HA.jpg
+mlink: 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e14
+template: '{"NAME":"Arlec Bulb 4W","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-smart-4w-380lm-warm-white-ses-candle-globe-with-grid-connect_p0111507
+link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-4w-380lm-warm-white-ses-candle-globe_p0111507
+---

@@ -1,19 +1,12 @@
 ---
 date_added: 2019-05-25
-title: Merkury MI-OW101-101W
+title: Merkury 
+model: MI-OW101-101W
 category: plug
 type: Outdoor Plug
 standard: us
 link: https://www.amazon.com/Merkury-MI-OW101-101W-Innovations-Outdoor-Smart/dp/B07MKZ29HM
 image: https://i.postimg.cc/Kz3cfg1B/5558abb7-4038-4a69-9c8f-9fa34aac67e7-1-a15bc28a5f9e6a2e74ee83a3d.jpg
-template: '{"NAME":"Merkury Switch","GPIO":[17,255,255,255,0,56,0,0,0,54,21,255,255],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"Merkury Switch","GPIO":[17,0,0,0,0,57,0,0,0,52,21,0,0],"FLAG":0,"BASE":18}'
 link2: https://www.walmart.com/ip/Merkury-Innovations-Indoor-Outdoor-Smart-Plug-1-Pack/967621595
 ---
-
-Updated, with blue light working   
-GPIO0 = Button1   
-GPIO5 = LED1i   
-GPIO13 = LED3   
-GPIO14 = Relay1
-
-

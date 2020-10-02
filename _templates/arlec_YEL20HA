@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-22
+title: Arlec Heavy Duty 20m Extension Lead
+model: YEL20HA
+image: /assets/images/arlec_YEL20HA.jpg
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: au
+template: '{"NAME":"Arlec Ext Cord","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-20m-smart-extra-heavy-duty-extension-lead-with-grid-connect_p0098825
+link2: https://www.bunnings.co.nz/arlec-20m-grid-connect-smart-extra-heavy-duty-extension-lead_p0098825
+---
+Converted with Tuya Convert 2.0 

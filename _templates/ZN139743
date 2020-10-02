@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-25
+title: Touch 3 Gang
+model: ZN139743
+image: /assets/images/ZN139743.jpg
+template: '{"NAME":"Switch 3-Gang","GPIO":[0,0,0,0,23,18,0,0,17,21,19,22,157],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33001282012.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---
+![](/assets/images/ZN139743-back.jpg)

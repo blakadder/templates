@@ -5,7 +5,7 @@ link: https://www.amazon.co.uk/Compatible-SLITINTO-Monitoring-Schedule-Control/d
 image: https://images-na.ssl-images-amazon.com/images/I/51h-7nixBBL._SY355_.jpg
 template: '{"NAME":"Slitinto NX SM","GPIO":[56,255,158,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-19
+title: Smitch 16A 
+model: SP0602
+image: /assets/images/smitch_SP0602.jpg
+template: '{"NAME":"Smitch SP0602","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+link: https://www.flipkart.com/smitch-wi-fi-smart-plug-16a/p/itm3b84794c8c6f6?pid=SSWFJMY8TYE47WUM&lid=LSTSSWFJMY8TYE47WUMYGC1QM
+link2: 
+mlink: http://www.mysmitch.com/
+flash: serial
+category: plug
+type: Plug
+standard: in
+---

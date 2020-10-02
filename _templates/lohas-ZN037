@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B07ZQJYZH1/
 image: https://user-images.githubusercontent.com/5904370/71560704-b255f100-2a6d-11ea-8074-54ff27487eff.png
 template: '{"NAME":"Lohas LH-ZN037","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":20}' 
 link2: https://www.alibaba.com/product-detail/RGB-2700-6000K-Smart-Bulb-LED_60738842685.html
-link3: https://lohasled.en.alibaba.com/product/62328355340-806928550/E12_E14_B22_Smart_WiFi_LED_Candelabra_Bulb_RGB_CCT_LED_Smart_Bulb_Work_With_Tuya_APP.html
+mlink: https://lohasled.en.alibaba.com/product/62328355340-806928550/E12_E14_B22_Smart_WiFi_LED_Candelabra_Bulb_RGB_CCT_LED_Smart_Bulb_Work_With_Tuya_APP.html
 flash: tuya-convert
 category: bulb
 type: RGBCCT

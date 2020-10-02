@@ -1,0 +1,46 @@
+---
+date_added: 2020-01-24
+title: LC Technology 5V 2 Channel 
+model: LC-Relay-ESP01-2R-5V
+category: relay
+type: Relay
+standard: global
+image: https://user-images.githubusercontent.com/5904370/73099948-d2ea5d00-3eec-11ea-872d-06038993f25d.png
+template: '{"NAME":"LC-ESP01-2R-5V","GPIO":[0,148,0,149,0,0,0,0,21,22,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/5V-ESP8266-Dual-WiFi-Relay-Module-Internet-Of-Things-Smart-Home-Mobile-APP-Remote-Switch-p-1270421.html
+link2: https://www.amazon.com/WINGONEER%C2%AE-2-Channel-WiFi-Relay-Module/dp/B07H4H4MPK
+mlink: http://www.chinalctech.com/m/view.php?aid=24
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+![PCB Identification](https://user-images.githubusercontent.com/5904370/73104270-552b4f00-3ef6-11ea-87ca-9f48511aa04c.png)
+
+### Flashing
+Remove ESP01 from the relay PCB and connect it to your USB-to-serial adapter according to the image and flash Tasmota on it.
+![Flashing](https://user-images.githubusercontent.com/5904370/73103006-5d35bf80-3ef3-11ea-9ec2-152c973bcfd5.png)
+
+### Configuration
+The red LED (D5) on the relay board should be on otherwise the module will not receive commands and relays will not switch.
+
+If the blue LED (D5)is on instead of the red one, power off the module then hold down S1 button and power it back on. 
+You need to configure these rules to control the relays. The ones defined in the template are just virtual relays!
+
+```console
+Rule1 
+on System#Boot do SerialSend5 0 endon
+on Power1#State=1 do SerialSend5 A00101A2 endon
+on Power1#State=0 do SerialSend5 A00100A1 endon
+on Power2#State=1 do SerialSend5 A00201A3 endon
+on Power2#State=0 do SerialSend5 A00200A2 endon
+```
+Make sure to enable the rule:
+```console
+Rule1 1
+```
+
+If relays still don't switch try `BaudRate 9600`
+
+
+
+
+

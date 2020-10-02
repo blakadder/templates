@@ -1,0 +1,33 @@
+---
+layout: default
+title: Search Templates
+---
+<div class="container">
+    <div class="row">
+        <div class="column">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            {% include search.html %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="instructions" id="instructions">
+                <br>
+        <strong>Search bar searches as you type. There might be a delay depending on the results included!</strong>
+            <BR><br>
+            To search exact match use `+`
+            <br>
+            For example: `+mini +sonoff ` will show only devices with "Mini" and "Sonoff" in their name.
+            <br><br>
+            You can exclude any term from search results with `-`. 
+            <br>
+            For example: `mini -sonoff ` will show all devices named "Mini" that don't have "Sonoff" in their name.
+        </div>
+        {% include search-results.html %}
+    </div>
+    </div>
+</div>

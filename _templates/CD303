@@ -1,0 +1,20 @@
+---
+date_added: 2020-02-18
+title: CD303 3 Gang Touch
+model: CD303
+image: /assets/images/CD303.jpg
+template: '{"NAME":"Touch Switch 3","GPIO":[54,57,255,19,23,18,255,255,17,21,255,22,52],"FLAG":15,"BASE":18}' 
+link: https://www.ebay.com.au/itm/Smart-Home-Wifi-Wall-Light-Touch-Panel-Switch-App-For-Alexa-Google-Home-1-3-Gang/312526670636
+link2: https://www.alibaba.com/product-detail/New-Type-US-Standard-Wifi-Smart_62339374348.html
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: global
+---
+Not all LEDs work as switch status in Tasmota, but they are useable as individual outputs:
+
+ - GPIO0 is the wifi status led.
+ - GPIO16 is button 1 led (nearest wifi status)
+ - GPIO1 is button2 led
+ - GPIO14 is button3 led

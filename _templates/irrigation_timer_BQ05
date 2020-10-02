@@ -4,9 +4,10 @@ title: Garden Water Timer BQ05
 category: misc
 type: Valve
 standard: global
-link: http://s.click.aliexpress.com/e/kw8fqfy4
+link: https://www.aliexpress.com/item/33056690358.html
 image: https://ae01.alicdn.com/kf/HTB1gJk5PxTpK1RjSZFKq6y2wXXaT/Mobile-smart-WIFI-remote-drip-irrigation-system-garden-irrigation-spray-automatic-watering-kit-adjustable.jpg
-template: '{"NAME":"BQ05","GPIO":[255,255,255,255,255,255,0,0,255,255,255,21,22],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"BQ05","GPIO":[17,0,0,0,0,0,0,0,21,157,0,0,0],"FLAG":1,"BASE":18}'
+template-alt: '{"NAME":"BQ05","GPIO":[0,0,0,0,0,0,0,0,0,0,0,21,22],"FLAG":1,"BASE":18}' 
 link2: https://www.banggood.com/Smart-Remote-Garden-Water-Timer-Intelligent-Watering-Device-Electronic-Irrigation-Timer-Wifi-Controller-Sprinkler-p-1619810.html
 ---
 
@@ -18,12 +19,9 @@ Remove front cover of device
 
 The pin order is 3.3V,TX,RX,GND
 
-*Notes:*
-
- 1. **When flashing you must power on the device whilst holding down the reset button for 3 seconds or so.**
+**When flashing you must power on the device whilst holding down the reset button for 3 seconds or so.**
     
- 2. **This is an ESP8265 so you must use write mode DOUT and not DIO.**
-
+ 
 ### Images
 
 [Control Board - Front](https://imgur.com/bLwBEhg)

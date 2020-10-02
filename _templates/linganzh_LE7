@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-08
+title: Linganzh LE7 6W 600lm
+model: 2AJK8-LZ803
+image: /assets/images/linganzh_LE7.jpg
+template: '{"NAME":"Linganzh LE7","GPIO":[0,0,0,0,0,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07FYL9LGH/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

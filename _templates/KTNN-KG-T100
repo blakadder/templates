@@ -1,0 +1,27 @@
+---
+date_added: 2020-06-03
+title: KTNN-KG-T100 2 Gang Switch
+model: KTNN-KG-T100
+image: /assets/images/KTNN-KG-T100.jpg
+template: '{"NAME":"Sonoff T1 2CH","GPIO":[17,255,255,255,0,22,18,0,21,56,0,0,0],"FLAG":0,"BASE":29}' 
+link: https://www.amazon.co.uk/gp/product/B07GDHHNPW
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: uk
+---
+All three gang models are equivalent to the Sonoff T1 xCH models
+and all three gang types have 3 physical buttons in them, just configured by resistors on the daughter board, plus all 3 gang types have all the relay driver circuity in them, just only fitted with the equivalent gang amount of relays.
+The older -A3 model has the easy access PSF-B04 ESP board in them, the newer -B3 models what appears to be a custom ESP board in them (label of SM-001 v1 see photo) which is much harder to get access, best method is to remove front switch daughter board.. 
+
+Pictures for reference...
+![](http://gadget78.co.uk/tasmota/KTNN-A910-A3_Back.jpg)
+![](http://gadget78.co.uk/tasmota/KTNN-A910-A3+B3_front.jpg)
+![](http://gadget78.co.uk/tasmota/KTNN-A910-B3_Back.jpg)
+![](http://gadget78.co.uk/tasmota/KTNN-A910-B3_esp8285_Back.jpg)
+![](http://gadget78.co.uk/tasmota/KTNN-A910-B3_esp8285_front.jpg)
+![](http://gadget78.co.uk/tasmota/KTNN-A910-B3_front.jpg)
+![](http://gadget78.co.uk/tasmota/KTNN-A910-B3_front_nodaughterB.jpg)
+![](http://gadget78.co.uk/tasmota/KTNN-A910-B3_front_pinout.jpg)

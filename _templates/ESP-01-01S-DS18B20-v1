@@ -1,0 +1,16 @@
+---
+date_added: 2019-11-20
+title: DS18B20 ESP01 DIY 
+model: ESP-01-01S-DS18B20-v1.0 
+flash: serial
+category: sensor
+type: Temperature Sensor
+standard: global
+image: /assets/images/ESP-01-01S-DS18B20-v1.jpg
+template: '{"NAME":"ESP-01-01S-DS18B20-v1.0","GPIO":[255,255,4,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32971371815.html
+link2: https://www.amazon.com/GalaxyElec-ESP8266-ESP-01S-Temperature-Humidity/dp/B082HTF385/
+link3: https://www.banggood.com/2Pcs-ESP8266-ESP-01-ESP-01S-DS18B20-Temperature-WiFi-Wireless-Node-Module-Internet-of-Things-p-1715489.html
+mlink: https://github.com/IOT-MCU/ESP-01-01S-DS18B20-v1.0
+---
+How to flash [ESP-01(S)](ESP01)

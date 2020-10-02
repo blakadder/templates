@@ -1,15 +1,14 @@
 ---
 date_added: 2019-11-28
-title: Lohas ZN033 810lm
+title: Lohas ZN033 9W 810lm
+model: LH-APP-W9-E26
 type: RGBCCT
 category: bulb
 standard: e26
-image: https://www.lohas-led.com/u_file/1911/products/11/779dce2733.jpg.640x640.jpg
+image: /assets/images/lohas-ZN033.jpg
 template: '{"NAME":"Lohas RGBWW","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/LED-LOHAS-2700K-6000K-Daylight-Equivalent/dp/B07T7W7ZMW
 link2: https://www.lohas-led.com/lohas-smart-led-bulb-a19-e26-810lm-60w-equivalent9w-rgb-dimmable-alexa-google-home-and-siri-compatible4-pack-p0232-p0232.html
-link3: https://lohasled.en.alibaba.com/product/62157535968-806928550/Tuya_App_Google_HomeAlexa_Voice_Control_Smart_WiFi_Light_Bulb_Dimmable_RGB_CCT_9W_Smart_Bulb.html
+mlink: https://lohasled.en.alibaba.com/product/62157535968-806928550/Tuya_App_Google_HomeAlexa_Voice_Control_Smart_WiFi_Light_Bulb_Dimmable_RGB_CCT_9W_Smart_Bulb.html
 ---
-Manufacturer reference: LH-APP-W9-E26-4
-
 New style of LOHAS 60W bulbs includes the 5th channel for warm white.

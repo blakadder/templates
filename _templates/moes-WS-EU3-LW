@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-12
+title: Moes WS-EU3-LW 3 Gang No Neutral
+model: 
+image: https://user-images.githubusercontent.com/5904370/72219099-78431f80-3542-11ea-87fa-02cae3e8ff1a.png
+template: '{"NAME":"Tuya 3 Channel","GPIO":[0,0,0,0,21,19,0,0,18,22,17,23,157],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/MOES-Switch-Neutral-Wireless-Control/dp/B07Z4Z2WLN
+link2: https://www.aliexpress.com/item/4000098735624.html
+mlink: https://www.moeshouse.com/collections/single-wire-switch/products/white-wifi-smart-wall-switch-no-neutral-wire-needed-wireless-smart-life-tuya-remote-control-single-fire-work-with-alexa-rf433-1
+flash: tuya-convert
+category: switch
+type: Switch
+standard: uk
+---

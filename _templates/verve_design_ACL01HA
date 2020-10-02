@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-18
+title: Verve Design Charlie 22W CCT 
+model: ACL01HA
+image: /assets/images/verve_design_ACL01HA.jpg
+template: '{"NAME":"Verve ACL01HA","GPIO":[0,0,0,0,0,37,0,0,0,47,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.bunnings.com.au/smart-verve-design-22w-led-charlie-ceiling-light-with-grid-connect_p0119804
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Ceiling Light
+standard: au
+---

@@ -5,15 +5,16 @@ link: https://www.aliexpress.com/item/32971065154.html
 image: https://user-images.githubusercontent.com/5904370/71327967-e2ead780-250f-11ea-8fd9-ee642831c4ad.png
 template: '{"NAME":"Dimmer WF-DS01","GPIO":[255,255,255,255,255,255,0,0,255,255,54,255,255],"FLAG":0,"BASE":54}' 
 link2: https://www.banggood.com/WIFI-Smart-Dimmer-Light-Wall-Switch-Touch-Remote-Control-Work-with-AlexaGoogle-Home-p-1302550.html
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Dimmer
 standard: eu
 ---
 Issue command:
-```
-TuyaMCU 21,2
+
+```console
+Backlog Ledtable 0; TuyaMCU 21,2
 ```
 and wait for it to reboot
 

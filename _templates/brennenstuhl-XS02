@@ -5,7 +5,7 @@ image: https://images-na.ssl-images-amazon.com/images/I/41qFOhR3yWL.jpg
 template: '{"NAME":"WA 3000 XS02","GPIO":[0,0,0,0,21,17,0,0,158,52,0,0,0],"FLAG":0,"BASE":61}' 
 link: https://www.amazon.de/Brennenstuhl-WLAN-Steckdose-erforderlich-intelligente-Zeitschaltuhr/dp/B07SPVTKX5
 link2: 
-link3: https://www.brennenstuhl.com/en-DE/products/smart-home/wifi-socket-wa-3000-xs02-black-ip44
+mlink: https://www.brennenstuhl.com/en-DE/products/smart-home/wifi-socket-wa-3000-xs02-black-ip44
 flash: tuya-convert
 category: plug
 type: Outdoor Plug

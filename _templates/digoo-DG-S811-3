@@ -5,7 +5,7 @@ link: https://www.banggood.com/DIGOO-DG-S811-AC100V-250V-600W-123-Gang-Smart-WIF
 image: https://img.mydigoo.com/mydigoo/images/0E/9C/0c58992a-1e08-43b5-a9c2-c2e03197f851.jpg
 template: '{"NAME":"DIGOO Switch","GPIO":[0,0,0,0,19,18,0,0,22,21,23,0,17],"FLAG":0,"BASE":18}' 
 link2: http://s.click.aliexpress.com/e/rMHUJos0
-link3: https://www.mydigoo.com/us-plug-1-or-2-or-3-gang-smart-wifi-switch-p-230588.html
+mlink: https://www.mydigoo.com/us-plug-1-or-2-or-3-gang-smart-wifi-switch-p-230588.html
 flash: tuya-convert or serial
 category: switch
 type: Switch

@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-05
+title: HomeMate 10m RGB
+model: HMRGB5M 
+image: /assets/images/homemate_HMRGB5M.jpg
+template: '{"NAME":"Homemate Strip","GPIO":[0,0,0,0,0,37,0,0,39,17,38,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.in/gp/product/B07HRYL5DF/
+link2: 
+mlink: https://homemate.co.in/product/rgb-led-kit/
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: in
+---
+Product came as a LED strip kit with the controller and 2 x 5 mtr LED strip (standard 5050 Led strip). 

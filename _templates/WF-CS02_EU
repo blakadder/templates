@@ -5,14 +5,14 @@ link: https://www.amazon.de/Zeitschaltuhr-Etersky-Rollladen-Kompatibel-Fernbedie
 image: https://i.ibb.co/SnK2jzD/product-image-992218767-530x-2x.jpg
 template: '{"NAME":"WF-CS02 Tuya","GPIO":[157,0,53,11,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
 link2: https://www.ebay.com/itm/100-240V-Intelligenter-WiFi-Schalter-für-elektrischen-Rollladen-Touch-Control/123922710893
-link3: 
+mlink: 
 flash: tuya-convert
-category: switch
+category: cover
 type: Curtain Switch
 standard: eu
 ---
 
-Added some rules to get the switch working, based on https://tasmota.github.io/docs/#/Blinds-and-Shutters:
+Added some rules to get the switch working, based on https://tasmota.github.io/docs/Blinds-and-Shutters:
 
 ```console
 SetOption80 1 # Enable shutter support, reset the device after for correct interface to show up
@@ -21,13 +21,21 @@ ShutterRelay1 1 # Enable shutter relay 1
 
 Backlog PulseTime1 0; PulseTime2 0 # ShutterMode0
 
-Backlog Interlock 1,2; Interlock ON
+Pulsetime3 1 # auto disable Power3 button
+
+Backlog Interlock 1,2,3; Interlock ON
 
 PowerRetain 1 # Save state for Home Assistant
 
-Rule1 on Power3#State=1 do backlog ShutterStop1; Power3 0 endon # Use the middle button for stopping shutter movement
+Rule1 on Power3#State=1 do ShutterStop1 endon # Use the middle button for stopping shutter movement
 
 Rule1 1
+
+Rule2 on Power1#State=0 do LEDPower1 0 endon on Power1#State=1 do LEDPower1 1 endon on Power2#State=0 do LEDPower2 0 endon on Power2#State=1 do LEDPower2 1 endon on Power3#State=0 do LEDPower3 0 endon on Power3#State=1 do LEDPower3 1 endon # Giving color on button press
+
+Rule2 1
+
+WebButton3 ■ # Set stop symbol for the third button in the web GUI
 
 SwitchMode1 4 # Make the buttons do their actions on touch, not release
 

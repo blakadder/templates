@@ -5,15 +5,17 @@ layout: default
 
 <div class="row">
   <div class="column">
-    <h2>{{ page.title }}
-    {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
+    <span style="font-size: xx-large; font-weight: 400; letter-spacing: -.1rem;">{{ page.title }}
+      {% assign template = page.template | split: ':' %}
+      {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+      {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
  Power Monitoring
  {% endif %}
- {{ page.type }}
+ {{ page.type | replace: "Miscellaneous", "" }}        
  {% if page.category contains 'bulb'%}
  Bulb
  {% endif %}
- </h2>
+    </span>
 </div>
 <!-- <div class="float-right"> -->
 <div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%">
@@ -22,6 +24,11 @@ layout: default
   <a class="button button-grey" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
      {% endfor %}
   </div>
+</div>
+<div class="row">
+  <div class="column">
+    {% if page.model != nil %}<span style="font-size: large;">Model reference: {{ page.model }} </span> {% endif %}
+</div>
 </div>
 <div class="row">
   <div class="column column-60"> 
@@ -36,13 +43,17 @@ layout: default
   <a class="menu" href="{% assign link = page.link %}{% include linkage.html %}">{{ page.link | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | split:'/' | first | capitalize}}</a>
   <br>
   <a class="menu" href="{% assign link = page.link2 %}{% include linkage.html %}">{{ page.link2 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | remove_first: "offer." | split:'/' | first | capitalize}}</a>
+  <br>
+  <a class="menu" href="{% assign link = page.link3 %}{% include linkage.html %}">{{ page.link3 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | remove_first: "offer." | split:'/' | first | capitalize}}</a>
+  <br>
+  <a class="menu" href="{% assign link = page.link4 %}{% include linkage.html %}">{{ page.link4 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | remove_first: "offer." | split:'/' | first | capitalize}}</a>
   <br><br>
-  {% if page.link3 != nil %}
+  {% if page.mlink != nil %}
     <b>
  Manufacturer:
     </b>
     <br>
-    <a class="menu" href="{% assign link = page.link3 %}{% include linkage.html %}">{{ page.link3 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | split:'/' | first | capitalize}}</a>
+    <a class="menu" href="{% assign link = page.mlink %}{% include linkage.html %}">{{ page.mlink | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | split:'/' | first | capitalize}}</a>
     {% endif %}
   <br><br>
 
@@ -54,7 +65,13 @@ layout: default
     {% if page.flash == 'tuya-convert' %}
     <a class="menu" href="https://github.com/ct-Open-Source/tuya-convert" target="_blank">Tuya-Convert</a>
     {% elsif page.flash == "serial" %}
-    <a class="menu" href="https://tasmota.github.io/docs/#/installation/Prerequisites" target="_blank">Serial port</a>
+    <a class="menu" href="https://tasmota.github.io/docs/Getting-Started" target="_blank">Serial port</a>
+    {% elsif page.flash == "sonoff-diy" %}
+    <a class="menu" href="https://github.com/itead/Sonoff_Devices_DIY_Tools" target="_blank">Sonoff DIY</a>
+    {% elsif page.flash == "mgos" %}
+    <a class="menu" href="https://github.com/yaourdt/mgos-to-tasmota/" target="_blank">MgOS to Tasmota</a>
+    {% elsif page.flash == "preflashed" %}
+    Tasmota pre-flashed
     {% else %}
     {% endif %}
   {% else %}
@@ -69,20 +86,92 @@ layout: default
 </div>
 <div class="row">
   <div class="column"><h4>Template</h4></div>
-  <div class="column-10"><a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
 <div class="row">
   <div class="column column-100">
     <pre><code class="language-erlang">{{ page.template }}</code></pre>
-    {% if page.model != nil %}
-    Reference ID: {{ page.model }}<p>
+</div>
+</div>
+<!-- Alternative template -->
+{% if page.template-alt != nil %}
+<div class="row">
+  <div class="column"><h4>Alternative Template</h4></div>
+</div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-erlang">{{ page.template-alt }}</code></pre>
+</div>
+</div>
+{% endif %}
+<div>
+  <BR>
+  {% if page.author == 'blak' %}
+  <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+  {% endif %}
+
+  {% if page.flash == 'tuya-convert' %}
+  Tuya-Convert might not be possible for this device if the manufacturer started using <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">newest Tuya firmware</a> since this template was published ({{ page.date_added  }}). 
+  <p>
+  {% endif %}
+
+  {% if page.flash == 'preflashed' %}
+  This device comes with <b>Tasmota pre-flashed</b> straight from the factory!
+  <br>
+  <br>
+  <p>
+  {% endif %}
+
+  {% assign template = page.template | split: ':' %}
+  {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+  {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
+
+  For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
+  <br>
+  <p>
+  {% endif %}
+
+  {% if page.type contains 'Curtain Switch' %}
+  Requires configuring <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support</a>.
+  <br>
+  <p>
+  {% endif %}
+
+  {% if page.template contains '"BASE":73' %}
+  Requires enabled <a href="https://tasmota.github.io/docs/PWM-dimmer-switch/">PWM Dimmer support</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
+  <br>
+  <p>
+  {% endif %}
+
+  {% if page.type contains 'RGBW' %}
+  See <a href="https://tasmota.github.io/docs/Lights/#4-channels-rgbw-lights">documentation</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
+  <br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'Teckin' or page.title contains 'Lumiman' %}
+  <b>NOTICE!!!</b> Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore.<p>  
+    <br>
     {% endif %}
 
-    {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156' %}
-  For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/#/Power-Monitoring-Calibration">power monitoring calibration</a>.
+  {% if page.title contains 'Athom' %}
+  <strong>Use code <code>BLAKADDER</code> when buying from Aliexpress links for 30% discount. Code is valid until October 27th and the number of codes is limited to 100 so its first come first serve.</strong>
+  <p>
+  <b>Athom devices come with modified Tasmota which is not entirely compatible with regular releases. To have full compatibility upgrade to main release version.</b>
+  <br>
+  <br>
+  Before upgrading set your device to module Generic (19) (yes, it is 19 in Athom's build) to avoid clicking relays, flashing lights or button resets after upgrade. Perform upgrade to release version using file upload method with <a href="http://ota.tasmota.com/tasmota/release/tasmota.bin.gz">tasmota.bin.gz</a> or <a href="http://ota.tasmota.com/tasmota/release/tasmota-lite.bin.gz">tasmota-lite.bin.gz</a> or with OTAUrl. <b>DO NOT use tasmota-minimal.bin!</b>. 
+  <br>
+  <br>
+  None of the settings will be retained after the upgrade. You will have to search for Tasmota AP and redo the Wi-Fi and MQTT configuration. Once you've upgraded do <code>Reset 6</code> to erase flash and apply the template!
+  <br>
+  <br>
+  If you use OTAUrl upgrade with precompiled binaries there is a chance of soft bricking your device. In most cases it is possible to restore it using <a href="https://tasmota.github.io/docs/Device-Recovery/#fast-power-cycle-device-recovery">Power Cycle Recovery</a> or, if that fails, with serial flash. 
+  <br>
+  <p>
   {% endif %}
-  </div>
-</div>
+  
 {{ content | markdownify }} 
+</div>
 
  <div id="amzn-assoc-ad-c632316f-24d7-45e3-9fd2-4f1038ceddbc"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c632316f-24d7-45e3-9fd2-4f1038ceddbc"></script>

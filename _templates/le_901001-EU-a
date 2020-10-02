@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-06
+title: LE lampUX 8.5W 806lm 
+model: 901001-EU-a
+image: /assets/images/le_901001-EU-a.jpg
+template: '{"NAME":"lampUX","GPIO":[0,0,0,0,141,140,0,0,38,142,37,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.de/Intelligente-Multicolor-Mehrfarbige-Gleichwertige-Farbwechselbirne/dp/B07L3S2XLB/
+link2: 
+mlink: https://www.lepro.de/smart-e27-9w-rgb-warmwei-led-lampen-901001-eu-a.html
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

@@ -1,14 +1,15 @@
 ---
 date_added: 2019-10-07
-title: Feit Electric BPA800/RGBW/AG/2 800lm
+title: Feit Electric A19 800lm
+model: BPA800/RGBW/AG/2
 type: RGBCCT
 category: bulb
 standard: e26
 link2: 
-image: https://www.feit.com/wp-content/uploads/2018/05/BPA800_RGBW_AG_2_pack-1.jpg
+image: /assets/images/feit_electric-BPA800RGBWAG2.jpg
 template: '{"NAME":" BPA800/RGBW/AG/2","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Electric-Assistant-A800-RGBW-AG/dp/B07RL48PFF
-link3: 
+mlink: 
 ---
 **NOTE:** There are two variants of this bulb, [BPA800/RGBW/AG/2(P)](feit_electric-BPA800RGBWAG2P) and BPA800/RGBW/AG/2 (this template). 
 

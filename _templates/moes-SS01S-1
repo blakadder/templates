@@ -5,7 +5,7 @@ link: https://www.banggood.com/MoesHouse-SS01S-US-WiFi-Smart-Light-Switch-Contro
 image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/SS01S_1800x1800.jpg
 template: '{"NAME":"Moes Switch","GPIO":[255,255,255,255,56,0,0,0,21,17,255,255,255],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.com/MOES-Control-Compatible-Required-Standard/dp/B07PGY434H
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Switch

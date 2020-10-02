@@ -1,0 +1,88 @@
+---
+date_added: 2019-12-10
+title: Gosund SW2
+link: https://www.amazon.com/gp/product/B07VP4PHJJ
+image: https://images-na.ssl-images-amazon.com/images/I/51Dd9YQq74L._AC_SL1500_.jpg
+template: '{"NAME":"Gosund Dimmer","GPIO":[255,148,255,149,17,0,255,255,56,158,37,255,255],"FLAG":0,"BASE":18}'
+link2: 
+mlink: https://gosund.com/download/smart_switch/137.html
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: us
+---
+To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
+
+All dimming and on/off functionality is controlled by an MCU that does not follow the Tuya protocol.  Dimming and on/off can be set by Tasmota using simple serial commands.  Reading local dimming when set by the capacitive touch panel requires a Script-enabled build and the script below to process serial status codes sent by the dimmer MCU.
+
+Status codes take the form of 24xx012123, with xx ranging from 01 to 64 (hex 1-100).
+
+Minimum dimming level may vary by light fixture - adjust the ‘off’ value to match your setup in the >D section.
+
+```lua
+>D 100
+rng=235
+dimh=""
+slider=0
+power=0
+dimval=1
+a=""
+b=""
+c=""
+d=0
+f=0
+;set the hex code below to the largest value possible that will turn off the relay with SerialSend5
+off=0x7f
+
+>B
+dp0
+rng-=off
+=#scDim(dimval)
+
+>E
+a=SerialReceived
+if sl(a)>0
+then
+if sl(a)==47
+then
+b=sb(a -5 2)
+else
+b=sb(a -8 2)
+endif
+a=""
+f=hd(b)
+=>dimmer %f%
+slider=f
+dimval=slider
+=#scDim(dimval)
+=>SerialSend5 %dimh%
+else
+slider=Dimmer
+if chg[slider]>0
+then
+; dim according slider
+if slider>0 and dimval!=slider
+then
+dimval=slider
+=#scDim(dimval)
+=>SerialSend5 %dimh%
+endif
+endif
+endif
+
+if pwr[1]!=power
+then
+if pwr[1]==1
+then
+=>SerialSend5 %dimh%
+power=1
+else
+=>Serialsend5 00
+power=0
+endif
+endif
+
+#scDim(dimval)
+dimh=hn((rng*dimval/100)+off)
+=>print Scaled brightness is %dimh%
+```

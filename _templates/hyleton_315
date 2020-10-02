@@ -4,10 +4,10 @@ title: Hyleton 315
 category: plug
 type: Plug
 standard: uk
-link: http://s.click.aliexpress.com/e/LcS8vBMM
+link: https://www.aliexpress.com/item/32861225592.html
 image: https://images-na.ssl-images-amazon.com/images/I/51l0FwQKv3L._SL1200_.jpg
 template: '{"NAME":"hyleton-315","GPIO":[0,0,0,0,57,56,0,0,21,90,0,0,0],"FLAG":0,"BASE":18}' 
-link2: http://s.click.aliexpress.com/e/tpWDEd2C
+link2: https://www.aliexpress.com/item/32862666182.html
 ---
 
 Similar to the Hyleton 317, this uses the Tuya TYWE3S module in place of the ESP8266, but using something such as tuya-convert can very easily convert the unit to Tasmota firmware. Blue LED on GPIO4, red LED on GPIO5, relay on GPIO12, button on GPIO13. Flash mode appears to be `1M QIO` on these units, but double-check during the tuya-convert process.

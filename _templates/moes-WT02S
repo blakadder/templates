@@ -1,0 +1,20 @@
+---
+date_added: 2020-02-17
+title: Moes WT02S
+model: 2ANIF-WT02S
+image: /assets/images/moes-WT02S.jpg
+template: '{"NAME":"Moes WT02S","GPIO":[0,0,0,0,56,158,0,0,21,9,0,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.aliexpress.com/item/33002506296.html
+link2: https://www.amazon.com/MOES-Light-Switch-Plate-Smart/dp/B07JHX8QLW
+link3: https://www.amazon.ca/MOES-Light-Switch-Plate-Smart/dp/B07JHX8QLW
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+Almost identical to the [Moes SS01S-1 Switch](moes-SS01S-1)
+
+However, there are two individual LEDs, separately addressable. This template uses the white one to display the relay state and the red led to indicate Wi-fi or MQTT issues, if any.
+
+![Label and dimensions](/assets/images/moes-WT02S-b.jpg)

@@ -1,0 +1,65 @@
+---
+date_added: 2020-07-01
+title: Geek Aire AF1s
+category: misc
+type: Fan
+standard: us
+flash: tuya-convert
+image: https://images-na.ssl-images-amazon.com/images/I/61-GFBnsBML._AC_SL1000_.jpg
+template: '{"NAME":"Geek Aire Fan","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
+link: https://www.amazon.com/Geek-Aire-Circulator-Oscillating-Compatible/dp/B082WBPWBF
+---
+
+1. Install Tasmota Version 7+.
+1. Run the command `Backlog TuyaMCU 12,4; TuyaMCU 13,5`
+1. Run the command 
+
+```console                 
+Rule1 on TuyaReceived#Data=55AA03070005030400010016 do publish2 stat/af1sfan/speed 3,0 endon on TuyaReceived#Data=55AA03070005030400010117 do publish2 stat/af1sfan/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010218 do publish2 stat/af1sfan/speed 3,2 endon on TuyaReceived#Data=55AA03070005030400010319 do publish2 stat/af1sfan/speed 3,3 endon
+Rule1 1
+```
+
+1. Add the following to Home Assistant to your FAN section:
+
+```yaml
+- platform: mqtt
+  name: "Flat Bedroom Fan"
+  state_topic: "stat/af1sfan/POWER1"
+  command_topic: "cmnd/af1sfan/POWER1"
+  oscillation_state_topic: "stat/af1sfan/POWER2" 
+  oscillation_command_topic: "cmnd/af1sfan/POWER2"
+  speed_state_topic: "stat/af1sfan/speed"
+  speed_command_topic: "cmnd/af1sfan/TuyaSend4"
+  qos: 0
+  payload_on: 'ON'
+  payload_off: 'OFF'
+  payload_oscillation_on: 'ON'
+  payload_oscillation_off: 'OFF'
+  payload_low_speed: '3,0'
+  payload_medium_speed: '3,1'
+  payload_high_speed: '3,3'
+  availability_topic: tele/af1sfan/LWT
+  payload_available: Online
+  payload_not_available: Offline
+  speeds:
+    - low
+    - medium
+    - high
+```    
+
+Notes:
+1. Home Assistant only has one oscilation command/topic per fan.  The example above will allow control of the horizontal direction.  To control the vertical direction, change POWER2 to POWER3.
+1. MQTT fans in home assistant only have 3 speeds.  The example above is mapped as follows on the device display: LOW = 1, MED = 2, HIGH = 4
+
+```
+
+## DPID Features
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+`dpID 1` device power: 0 = OFF, 1 = ON    
+`dpID 2` mode: 0 = breeze, 1 = sleep breeze, 2 = normal, 3 = AI/Smart    
+`dpID 3` fan speed: 0 = LOW, 1 = MED, 2 = MEDHI, 3 = HIGH    
+`dpID 4` Horizontal Oscillation: 0 = OFF, 1 = ON    
+`dpID 5` Vertical Oscillation: 0 = OFF, 1 = ON    
+`dpID 6` Timer: 0-6 Hours to Off    

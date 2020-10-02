@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-03
+title: vhome RF433 3 Gang
+model: VH-TW003 or VH-TB-US-003
+image: /assets/images/vhome_VH-TW003.jpg
+template: '{"NAME":"VH-TB-US-003","GPIO":[0,0,0,0,21,18,0,0,19,23,17,22,158],"FLAG":15,"BASE":18}' 
+link: 
+link2: 
+mlink: https://vshop.cl/smart-home/874-interruptor-wifi-vhome-touch-3-canales-wifi-y-rf-433-compatible-con-google-home-y-alexa.html
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---

@@ -1,14 +1,14 @@
 ---
 date_added: 2019-10-05
-title: Avatar ALS15L
-type: WW
+title: Avatar ALS15L Candle
+type: Dimmable
 category: bulb
 standard: e14
 link: https://www.amazon.de/gp/product/B07W6Z6KPG
 image: https://user-images.githubusercontent.com/5904370/66717473-b745c580-edd9-11e9-9dc3-96dafab812c6.png
 template: '{"NAME":"AVATAR","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
 link2: https://www.alibaba.com/product-detail/2019-Manufacturer-CE-E14-Tuya-App_62213085841.html
-link3: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=200
+mlink: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=200
 ---
 
 Visiually similar XMRJ Bulb, which is based AI Light.

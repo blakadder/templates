@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-27
+title: Teckin 7.5W 800lm
+model: SB60
+image: /assets/images/teckin_SB60.jpg
+template: '{"NAME":"Teckin SB60","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/gp/product/B07ZVTQSDY/
+link2: 
+mlink: https://www.teckinhome.com/smart-lighting1
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

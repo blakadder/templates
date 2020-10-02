@@ -1,17 +1,17 @@
 ---
 date_added: 2019-10-01
-title: BrilliantSmart 20741 800lm 
+title: BrilliantSmart 20741 9W 750lm 
 type: RGBW
 category: bulb
 standard: e27
+flash: tuya-convert
 link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-globe-rgb/
-image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20698-1.jpg
+image: https://user-images.githubusercontent.com/5904370/72716049-dc349c00-3b71-11ea-8051-19d01e754ae1.png
 template: '{"NAME":"Brilliant RGB+","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
+mlink: https://www.brilliantsmart.com.au/wp-content/uploads/2019/07/Smart-Globe-A60-RGB-20698-20699-PLU10419.pdf
 ---
 Do not confuse with 20698 model!
-
-Converted with tuya-convert 2
 
 gpio4 - red
 
@@ -21,7 +21,7 @@ gpio 14 - blue
 
 gpio5 - warn white
 
-
+[New Adventures in WiFi blogpost](https://newadventuresinwi-fi.blogspot.com/2019/10/brilliant-wifi-a60-globes-rgbw-20741.html).
 
 
 

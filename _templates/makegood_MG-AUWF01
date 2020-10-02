@@ -4,7 +4,7 @@ title: Makegood MG-AUWF01
 category: plug
 type: Wall Outlet
 standard: au
-link3: https://www.alibaba.com/product-detail/WIFI-Wall-Socket-Mobile-APP-smart_62205204510.html
+mlink: https://www.alibaba.com/product-detail/WIFI-Wall-Socket-Mobile-APP-smart_62205204510.html
 image: https://user-images.githubusercontent.com/5904370/71644123-d3178400-2cc3-11ea-802d-81124a2715e2.png
 template: '{"NAME":"MG-AUWF01","GPIO":[56,10,157,59,134,132,0,0,131,22,57,21,9],"FLAG":0,"BASE":18}' 
 link: http://s.click.aliexpress.com/e/M9P0pauC

@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-14
+title: WOOX R5076 4W 350lm
+model: 
+image: /assets/images/woox_R5076.jpg
+template: '{"NAME":"WOOX R4553","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07N7SWRM8/
+link2: https://www.agem.sk/svietidla/led-ziarovky/zavit-e14/woox-e14-rgb-ww-led-bulb-r5076-181481967
+mlink: https://wooxhome.com/lighting-c1/woox-r5076-bulb-e14-p13
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e14
+---

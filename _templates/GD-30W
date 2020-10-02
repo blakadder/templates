@@ -5,12 +5,15 @@ category: misc
 type: Aromatherapy Diffuser
 standard: global
 link: https://www.amazon.com/Essential-Diffuser-Humidifier-Aromatherapy-Waterless/dp/B081MTYGWH
-link2: http://s.click.aliexpress.com/e/mLArs6I8
+link2: https://www.aliexpress.com/item/4000469944212.html
+link3: https://www.banggood.com/LyRay-GD-30E-Smart-Household-Humidifier-Aroma-Diffuser-Touch-Control-Switch-300ml-with-APP-Control-Amazon-Alexa-p-1622972.html
 image: https://user-images.githubusercontent.com/5904370/67516743-73887100-f6a1-11e9-9563-3a529fad3b1d.png
 template: '{"NAME":"GD-30W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
-link3: https://www.alibaba.com/product-detail/300ML-WiFi-Aroma-Diffuser-Ultrasonic-Humidifier_60781628200.html
+mlink: https://www.alibaba.com/product-detail/300ML-WiFi-Aroma-Diffuser-Ultrasonic-Humidifier_60781628200.html
 ---
-Please read [TuyaMCU](https://tasmota.github.io/docs/#/TuyaMCU) article to understand the terminology and configuration process.
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
 There are a few different looking devices using the same PCB marked GD-HDFW05-v1.0 so this process should work on those. 
 
@@ -23,7 +26,7 @@ There are a few different looking devices using the same PCB marked GD-HDFW05-v1
 `dpID 103` mist strength: 0 = low / 1 = high    
 `dpID 108` led color: 14 char value in hex (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
 `dpID 110` led mode: 0 = rgb_cycle / 1 = color / 2 = white    
-`dpID 110` led dimmer **color and white modes only** *it is important to define 'DimmerRange 1,255'*
+`dpID 111` led dimmer **color and white mode only** *it is important to define 'DimmerRange 1,255'*
 
 ## Configuration
 
@@ -33,7 +36,7 @@ After applying the template and configuring Wi-Fi and MQTT issue
 Backlog SetOption66 1; TuyaMCU 21,111; TuyaMCU 11,1; TuyaMCU 12,11; TuyaMCU 13,103; TuyaMCU 14,12; TuyaMCU 15,110; DimmerRange 1,255; SetOption59 1
 ```
 ```console
-Rule1 on TuyaReceived#data=55AA000700056E040001007E do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA000700056E040001017F do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon on event#ON do backlog tuyasend4 110,1; tuyasend 11,1 endon on event#off do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon
+Rule1 on TuyaReceived#data=55AA000700056E040001007E do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA000700056E040001017F do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon on event#ON do backlog tuyasend4 110,1; tuyasend 11,1 endon on event#OFF do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon
 ```
 ```console
 Rule1 1
@@ -60,7 +63,7 @@ Label webUI buttons:
 Backlog WebButton1 Power; WebButton2 Light; WebButton3 Mist; WebButton4 Error; WebButton5 Light Mode
 ```
 
-LED mode status is reported to mqtt topic `stat/GD-30W/EFFECT` and command [`Event`](https://tasmota.github.io/docs/#/Commands#event) is used to control some functions using [`TuyaSend4`](https://github.com/arendst/Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule1`
+LED mode status is reported to mqtt topic `stat/GD-30W/EFFECT` and command [`Event`](https://tasmota.github.io/docs/Commands#event) is used to control some functions using [`TuyaSend4`](https://tasmota.github.io/docs/Commands#tuyasend4) command. All this is defined in `Rule1`
 
 Color can be changed using `TuyaSend3 108,RRGGBB64646464` (RR, GG and BB are hex value) only in color mode.
 
@@ -199,5 +202,3 @@ Red1
 Red2 (darker)
     55aa000600126c03000e666630303030303030306666666678
 ```
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

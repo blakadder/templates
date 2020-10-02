@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-24
+title: Nedis PAR16 4.5W 330lm 110° 
+model: WIFILW30CRGU10
+image: /assets/images/nedis_WIFILW30CRGU10.jpg
+template: '{"NAME":"WIFILW30","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07NW9F7LM
+link2: https://www.amazon.co.uk/dp/B07NW9F7LM
+mlink: https://nedis.com/en-us/product/lighting/light-bulbs/led-bulbs/550703238/wi-fi-smart-led-bulb-warm-to-cool-white-gu10-3-pack
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: gu10
+---

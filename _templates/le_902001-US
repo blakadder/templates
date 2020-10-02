@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-09
+title: LE LampUX 4.5W 410lm
+model: 902001-US
+image: https://user-images.githubusercontent.com/5904370/72110066-9e48a400-3337-11ea-9711-c12f133a0904.png
+template: '{"NAME":"LE LampUX","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.amazon.com/Compatible-Daylight-Dimmable-Equivalent-Required/dp/B07P5Y3F2W
+link2: https://www.amazon.com/dp/B07P5Y4BFL
+mlink: https://www.lepro.com/a19-e26-1050lm-5w-led-bulbs-902001-us.html
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: gu10
+---
+`LedTable 0` is needed or else dimming will not work properly

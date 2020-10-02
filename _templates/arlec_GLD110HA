@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-18
+title: Arlec Smart 9.5W 806lm
+model: GLD110HA
+image: /assets/images/arlec_GLD110HA.jpg
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: b22
+template: '{"NAME":"Arlec GLD110HA","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.bunnings.com.au/arlec-smart-9-5w-806lm-cct-bc-globe-with-grid-connect_p0111502
+link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-9-5w-806lm-cct-bc-globe_p0111502
+---

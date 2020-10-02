@@ -1,0 +1,25 @@
+---
+date_added: 2020-03-12
+title: Feit Electric DIM/WIFI
+model: DIM/WIFI
+image: /assets/images/feit_electric-DIM-WIFI.jpg
+template: '{"NAME":"Generic","GPIO":[255,107,255,108,255,255,0,0,255,0,255,0,255],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/Feit-Electric-DIM-Compatible-Assistant/dp/B07SXDFH38
+link2: https://www.costco.com/feit-electric-smart-dimmer%2C-3-pack.product.100518151.html
+mlink: https://www.feit.com/product/smart-wi-fi-dimmer/
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: us
+---
+**Caution!** There has been [a report](https://community.home-assistant.io/t/costco-feit-smart-dimmer-tuya-convert-tasmota/151390/7) of Tasmota not communicating with the MCU properly.
+
+```console
+TuyaMCU 21,2
+```
+```console
+DimmerRange 10,1000
+```
+```console
+SetOption59 1
+```

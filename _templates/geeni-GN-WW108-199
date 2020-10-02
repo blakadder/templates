@@ -9,5 +9,5 @@ link: https://www.amazon.com/Geeni-GN-WW108-199/dp/B07DB3L9SN
 image: https://cdn.shopify.com/s/files/1/2612/6532/products/GN-WW108-199_600x600.jpg
 template: '{"NAME":"Geeni Glo","GPIO":[0,0,0,0,56,0,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.bimart.com
-link3: https://mygeeni.com/collections/power/products/spot-glo
+mlink: https://mygeeni.com/collections/power/products/spot-glo
 ---

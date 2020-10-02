@@ -5,7 +5,7 @@ link: https://www.amazon.com/Kisslink-Compact-Required-Scheduling-Assistant/dp/B
 image: https://static.bhphoto.com/images/images250x250/1534257449000_1387715.jpg
 template: '{"NAME":"Kisslink SP200","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":1,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

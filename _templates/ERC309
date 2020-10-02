@@ -1,8 +1,8 @@
 ---
 date_added: 2019-07-13
-title: Zemismart ERC309 Kinetic Switch
-category: switch
-type: Relay
+title: Zemismart ERC309 Kinetic 
+category: relay
+type: Switch
 standard: global
 link: http://s.click.aliexpress.com/e/NaO0MWbW
 image: https://user-images.githubusercontent.com/25117255/61148426-0e888100-a4df-11e9-92c5-43453afcc6c5.png
@@ -15,7 +15,7 @@ Configure as a `Tuya MCU (54)` (support as a BASE module was introduced in 6.6.0
 - GPIO13 - Tuya Rx (108)
 - GPIO15 - Tuya Tx (107)
 
-It should work, if it doesn't follow : https://github.com/arendst/Tasmota/wiki/TuyaMCU
+It should work, if it doesn't follow : https://tasmota.github.io/docs/TuyaMCU
 
 #### Flashing
 

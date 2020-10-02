@@ -5,9 +5,9 @@ link: https://www.walmart.com/ip/Merkury-Innovations-A19-Smart-Light-Bulb-60W-Di
 image: https://i5.walmartimages.com/asr/9609ab0c-3d9a-4067-bcb9-81b9ce5f1fb1_1.af0f015060a9e935e903c059762abcc3.jpeg
 template: '{"NAME":"MI-BW902-999W","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/Merkury-Innovations-800-Lumen-Compatible-Android/dp/B0755KC3P1
-link3: https://merkuryinnovations.com/merkury/smart-wi-fi-bulb-white/
+mlink: https://merkuryinnovations.com/merkury/smart-wi-fi-bulb-white/
 flash: tuya-convert
 category: bulb
-type: WW
+type: Dimmable
 standard: e26
 ---

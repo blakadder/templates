@@ -1,0 +1,18 @@
+---
+date_added: 2020-05-17
+title: BlitzWolf BW-SS5 2 Gang
+model: BW-SS5
+image: /assets/images/blitzwolf_BW-SS5_2.jpg
+template: '{"NAME":"BlitzWolf SS5 2 Gang","GPIO":[0,0,17,0,160,0,0,0,10,9,21,22,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/BlitzWolf-BW-SS5-1-Gang2-Gang-Two-Way-10A-2300W-WIFI-Smart-Switch-Module-APP-Remote-Controller-Group-Control-Timer-p-1645429.html
+link2: https://www.aliexpress.com/item/4000961260360.html
+mlink: https://www.blitzwolf.com/BlitzWolf-BW-SS5-1Gang2Gang-Two-Way-10A-2300W-WiFi-Smart-Switch-Module-with-APP--Manual-Control,-Automatic-Scenes,-Group-Control,-Timing-Switch-and-Voice-Control-p-479.html
+flash: serial
+category: relay
+type: Switch
+standard: global
+---
+This device uses AC frequency detection circuits on switch inputs supported since Tasmota 8.4.
+
+After applying the template enable AC frequency detection feature using ['SwitchDebounce'](https://tasmota.github.io/docs/Commands/#switchdebounce) command. 'SwitchDebounce 69' is a good place to start, which means 3 pulses (60 milliseconds) to switch on or off. When this feature is enabled, you can use them as regular switches (set 'SwitchMode', use in rules and do anything you can do with a regular switch).
+

@@ -1,14 +1,14 @@
 ---
 date_added: 2019-11-22
 title: Lohas ZN124 980lm
-type: CW
+type: Dimmable
 category: bulb
 standard: e26
 link: https://www.amazon.com/gp/product/B07KSB1KHP
 image: https://user-images.githubusercontent.com/5904370/71560738-006af480-2a6e-11ea-89eb-e20e6b16ff44.png
 template: '{"NAME":"Lohas LH-ZN124","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.lohas-led.com/lohas-smart-led-light-bulbs-google-home-siri-and-iftttno-hub-required-e26-daylight-5000k-dimmable-2-pack-p0238-p0238.html
-link3: https://lohasled.en.alibaba.com/product/62012019146-811833952/LOHAS_LED_Smart_Bulb_3000K_5000K_10W_WiFi_Light_Bulb_Compatible_with_Amazon_Alexa_and_Google_Home.html
+mlink: https://lohasled.en.alibaba.com/product/62012019146-811833952/LOHAS_LED_Smart_Bulb_3000K_5000K_10W_WiFi_Light_Bulb_Compatible_with_Amazon_Alexa_and_Google_Home.html
 ---
 
 Manufacturer reference: LH-ZN124-5000K--E26-2P

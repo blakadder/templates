@@ -1,0 +1,15 @@
+---
+date_added: 2020-06-30
+title: HLT-333
+model: 
+image: /assets/images/HLT-333.jpg
+template: '{"NAME":"BEYAWL","GPIO":[0,0,56,24,0,0,0,0,0,30,29,31,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/gp/B07GV8XLKG/
+link2: https://www.aliexpress.com/item/4001178460149.html
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: eu
+---
+Button is doing nothing

@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-19
+title: Lumary 18W RGBCCT Recessed Panel
+model: LK19080012
+image: /assets/images/lumary_LK19080012.jpg
+template: '{"NAME":"LumaryDLghtRGB","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/Lumary-Downlight-2700K-6500K-Compatible-Equivalent/dp/B0817M5RJR/
+link2: https://www.amazon.de/Einbauleuchte-Lumary-2700K-6500K-Einbaustrahler-Deckenspots/dp/B0817M5RJR/
+mlink: http://lumary.tech
+flash: tuya-convert
+category: light
+type: Light
+standard: uk
+---

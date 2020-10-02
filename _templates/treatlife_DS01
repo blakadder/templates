@@ -1,0 +1,38 @@
+---
+date_added: 2019-12-09
+title: TreatLife DS01 
+link: https://www.amazon.com/Upgraded-Separable-Replaceable-Function-Dressing/dp/B07CKNWGN4
+image: /assets/images/treatlife_DS01.jpg
+template: '{"NAME":"DS02S Dimmer","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
+link2: https://www.amazon.com/Treatlife-Incandescent-Compatible-Assistant-Single-Pole/dp/B07PJTLB7Z/
+mlink: https://www.treatlife.tech/
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: us
+---
+After flash with Tuya-Convert and update to current release tasmota.bin :
+
+- Go to WebUI and then Console
+- Enter command `TuyaMCU 21,2`
+- Set Dimmer Range with `DimmerRange 150,1000`
+
+Now Dimmer Command should work from 0-100.
+
+If no dimming occurs try changing the dimming mode:
+
+- Dimming Mode 1: `SerialSend5 55AA00060005040400010013`
+- Dimming Mode 2: `SerialSend5 55AA00060005040400010114`
+- Dimming Mode 3: `SerialSend5 55AA00060005040400010215`
+
+Dimming mode is reset after every reboot so add a rule at system boot.
+```console
+Rule1 on system#boot do SerialSend5 55AA00060005040400010114 endon
+```
+Enable with `Rule1 1`
+
+The main button turns the switch on/off if single-clicked. 
+
+If you double-click it, the brightness set point is reset to the stored favorite value (or 50.5% if no value has been stored since reset) - note that this won’t turn the switch on or off, just set the brightness with the switch staying on or off. 
+
+If you triple-click it, the current brightness set point will be stored as the new favorite (overwriting the previous saved value).

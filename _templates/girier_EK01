@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-12
+title: Girier EK01 RF433Mhz 1 Gang
+model: EK01
+image: /assets/images/girier_EK01.jpg
+template: '{"NAME":"Girier EK01","GPIO":[157,0,0,0,21,0,0,0,0,0,0,0,17],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000242679288.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---

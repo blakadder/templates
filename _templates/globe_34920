@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-21
+title: Globe G25 Edison 500lm 
+model: 34920
+image: /assets/images/globe_34920.jpg
+template: '{"NAME":"Globe 34920","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/gp/product/B08146V1N5/
+link2: https://www.amazon.com/dp/B08146V1N5
+mlink: https://globe-electric.com/en/product/globe-electric-wi-fi-smart-60w-equivalent-vintage-filament-tunable-white-dimmable-led-light-bulb-no-hub-required-voice-activated-g25-shape-e26-base-34920/
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e26
+---

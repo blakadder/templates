@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-09
+title: Aukey SH-PA2
+model: 
+image: /assets/images/aukey_SH-PA2.jpg
+template: '{"NAME":"AUKEY SH-PA2","GPIO":[0,0,0,0,158,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B07Y847G6P
+link2: 
+mlink: https://www.aukey.com
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---

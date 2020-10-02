@@ -1,0 +1,21 @@
+---
+date_added: 2020-01-26
+title: Kapok T16
+model: 
+image: https://user-images.githubusercontent.com/5904370/73145163-45ee0200-40ac-11ea-9256-312c0565669f.png
+template: '{"NAME":"tiltech-t16","GPIO":[0,56,0,17,82,0,0,0,21,22,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07GPCQGDF
+link2: 
+mlink: http://www.tiltech.cn/shop/featured/smart-wall-outlet/
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: us
+---
+There are 2 relays for the outlets and relay3i (blue light) and relay41 (yellow light) for the 2 led on the button. 
+
+Rule for on/off button press requires SUPPORT_IF_STATEMENT update 
+
+```console
+RULE1 ON BUTTON1#STATE=2 DO IF (var1!=1) POWER1 1; POWER2 1; VAR1 1 ELSE POWER1 0; POWER2 0; VAR1 0 ENDIF ENDON
+```

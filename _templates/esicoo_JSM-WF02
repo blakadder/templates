@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-07
+title: Esicoo JSM-WF02
+model: FCC ID 2AOT8JSM-WF02
+image: /assets/images/esicoo_JSM-WF02.jpg
+template: '{"NAME":"Esicoo Plug","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07QB1KDMD
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

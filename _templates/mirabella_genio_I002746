@@ -1,14 +1,14 @@
 ---
 date_added: 2019-10-29
-title: Mirabella Genio I002746 500lm
+title: Mirabella Genio 6W 500lm
+model: I002746
 type: CCT
 category: bulb
 standard: gu10
+flash: tuya-convert
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-6w-led-light/2746327
-image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/sz/6/42800606-1-sz.jpg
+image: /assets/images/mirabella_genio_I002746.jpg
 template: '{"NAME":"GenioGU10","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}'
 link2:
-link3: https://mirabellagenio.net.au/wi-fi-led-gu10
+mlink: https://mirabellagenio.net.au/wi-fi-led-gu10
 ---
-
-Flashed with [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert)

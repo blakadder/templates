@@ -1,0 +1,13 @@
+---
+date_added: 2020-01-11
+title: Slitinto TB95 9W 1000lm
+link: https://www.amazon.com/Dimmable-SLITINTO-Multicolor-Compatible-Equivalent/dp/B07SPZ8MBD
+image: https://user-images.githubusercontent.com/5904370/72205388-9c3f2c00-3482-11ea-9afe-12d087143e68.png
+template: '{"NAME":"Slitinto 9W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---

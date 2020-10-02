@@ -1,14 +1,15 @@
 ---
 date_added: 2020-01-03
 title: Feit Electric PLUG/WIFI/WP
+model: PLUG/WIFI/WP
 category: plug
 type: Outdoor Plug
 standard: us
-image: https://images-na.ssl-images-amazon.com/images/I/61nhnWmZ5jL._AC_SL1000_.jpg
+image: /assets/images/feit_electric-PLUG-WIFI-WP.jpg
 template: '{"NAME":"Prime Smart ou","GPIO":[0,255,0,255,157,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Feit-Electric-required-Control-Anywhere/dp/B07SXDCF7R
 link2: https://www.costco.com/Feit-Wi-Fi-Smart-Outdoor-Plug-2-pack.product.100515906.html
-link3: https://www.feit.com/product/outdoor-smart-wifi-dual-outlet-wall-plug-alexa-google-assistant/
+mlink: https://www.feit.com/product/outdoor-smart-wifi-dual-outlet-wall-plug-alexa-google-assistant/
 ---
 
 Available in Canada's Costco under the name "Prime" (US version under the name Feit). Change GPIO4 to LedLink1i(158) if you want the led link off once connected to your network 

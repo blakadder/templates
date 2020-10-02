@@ -7,7 +7,7 @@ link: https://www.amazon.com/gp/product/B07KP3HQR4
 image: https://sc01.alicdn.com/kf/H6cb4b8cfc5bb43afae016dc0e6e20d8bm/tuya-wifi-smart-outlet-power-plug-american.jpg
 template: '{"NAME":"XS-SSA05","GPIO":[30,255,255,131,255,133,0,0,21,17,132,31,255],"FLAG":1,"BASE":18}' 
 link2: 
-link3: https://www.alibaba.com/product-detail/XS-SSA05-220V-US-standard-electrical_62365683004.html
+mlink: https://www.alibaba.com/product-detail/XS-SSA05-220V-US-standard-electrical_62365683004.html
 ---
 
 

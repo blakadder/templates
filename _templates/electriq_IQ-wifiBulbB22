@@ -1,7 +1,7 @@
 ---
 date_added: 2020-01-06
 title: electriQ 600lm
-model: IQ-wifiBulbB22
+model: iQ-wifiBulbB22
 type: RGBW
 category: bulb
 standard: b22
@@ -9,7 +9,7 @@ link: https://www.amazon.co.uk/dp/B0789HJL7B
 image: https://user-images.githubusercontent.com/5904370/69756566-16c61d80-115b-11ea-997c-a8948c0c4109.png
 template: '{"NAME":"ElectricQ B22","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.appliancesdirect.co.uk/p/iq-wifibulbb22/electriq-iqwifibulbb22-smart-bulb
-link3: https://www.electriq.co.uk/p/iq-wifibulbb22/electriq-smart-dimmable-colour-wifi-bulb-with-b22-bayonet-ending-alexa-and-google-home-compatible
+mlink: https://www.electriq.co.uk/p/iq-wifibulbb22/electriq-smart-dimmable-colour-wifi-bulb-with-b22-bayonet-ending-alexa-and-google-home-compatible
 ---
 
 Same as Novostella B22

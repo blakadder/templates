@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B074GVPYPY
 image: https://user-images.githubusercontent.com/5904370/71537070-23cf5b80-2917-11ea-8a5e-5ce3d25a4649.png
 template: '{"NAME":"ESW01-USA","GPIO":[0,0,0,0,21,157,0,0,132,133,17,130,52],"FLAG":0,"BASE":55}' 
 link2: https://www.amazon.com/Etekcity-Monitoring-Overheat-Protection-Certified/dp/B07QW582PQ/
-link3: https://www.etekcity.com/product/100276
+mlink: https://www.etekcity.com/product/100276
 flash: serial
 category: plug
 type: Plug

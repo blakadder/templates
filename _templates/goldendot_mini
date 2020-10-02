@@ -5,7 +5,7 @@ link: https://www.amazon.ca/GoldenDot-Wireless-Household-Appliance-Compatible/dp
 image: https://i.ibb.co/LRtJn0s/31-ISk-NP8-DRL-SY355.jpg
 template: '{"NAME":"GoldenDot Mini","GPIO":[0,17,0,0,0,0,0,0,0,57,21,0,0],"FLAG":0,"BASE":52}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

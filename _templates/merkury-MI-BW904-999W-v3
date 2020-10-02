@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-15
+title: Merkury MI-BW904-999W v3
+model: 2aj3webeqpw35
+template: '{"NAME":"MI-BW904-999W","GPIO":[0,0,0,0,37,38,0,0,141,142,140,0,0],"FLAG":0,"BASE":69}' 
+link: https://www.walmart.com/ip/Merkury-Innovations-A21-Smart-Light-Bulb-75W-Color-LED-1-Pack/254063201
+image: https://i5.walmartimages.com/asr/e15b4ae9-a1b0-4a6b-a93a-b818ee4858f2_1.1eeae0645b5aae960d7c57f7689c242a.jpeg
+link2: 
+mlink: https://merkuryinnovations.com/brand/merkury/
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---

@@ -1,0 +1,30 @@
+---
+date_added: 2020-07-26
+title: Zemismart
+model: WF-CS01
+image: /assets/images/zemismart_WF-CS01.jpg
+template: '{"NAME":"Zemismart","GPIO":[157,0,0,11,54,10,0,0,9,21,23,22,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32996793753.html
+link3: https://www.amazon.it/gp/product/B07CVC3J8G/
+link2: https://www.aliexpress.com/item/32838165941.html
+mlink: 
+flash: tuya-convert
+category: cover
+type: Curtain Switch
+standard: [eu, us]
+---
+
+I didn't enable shutter support because I don't need. Can't guarantee if this configuration works with shutter support.
+
+```console
+switchmode1 4 # enable toggle first switch (first button)
+switchmode2 4 # enable toggle second switch (third button)
+
+pulsetime1 130 # 30 seconds of pulsetime for first switch
+pulsetime2 130 # 30 seconds of pulsetime for second switch
+pulsetime3 0   # 0 seconds for central button (pause)
+
+# IMPORTANT enable interlock for safety
+Backlog Interlock 1,2,3; Interlock ON
+```
+

@@ -4,17 +4,32 @@ title: Sonoff L1
 category: light
 type: LED Strip
 standard: global
-link3: https://www.itead.cc/sonoff-l1-smart-led-light-strip.html
+mlink: https://sonoff.tech/product/wifi-smart-lighting/l1-smart-strip-light
+link: https://www.itead.cc/sonoff-l1-smart-led-light-strip.html
 image: https://user-images.githubusercontent.com/5904370/65447568-23ff1d00-de37-11e9-8c18-c4bb24372194.png
 template: '{"NAME":"SonoffL1","GPIO":[0,148,0,149,0,0,0,0,0,56,0,0,0],"FLAG":0,"BASE":70}' 
-link: https://www.banggood.com/SONOFF-L1-Dimmable-IP65-2M-5M-Smart-WiFi-RGB-LED-Strip-Light-Kit-Work-With-Amazon-Alexa-Google-Home-p-1396771.html
-link2: https://www.gearbest.com/led-strip-accessories/pp_009383068390.html
+link2: https://www.banggood.com/SONOFF-L1-Dimmable-IP65-2M-5M-Smart-WiFi-RGB-LED-Strip-Light-Kit-Work-With-Amazon-Alexa-Google-Home-p-1396771.html
+link4: https://www.gearbest.com/led-strip-accessories/pp_009383068390.html
+link3: https://www.aliexpress.com/item/4000236208204.html
 ---
+# WARNING
+Since April 2020 there are versions of the LED controller with an unsupported chip by Altobeam. **THOSE CANNOT BE FLASHED WITH TASMOTA**
 
+## Serial Flashing
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
 
+As always, you need to access the serial interface. The **four serial pins** (3V3, Rx, Tx, GND) are available at the back of the PCB and can be easily identified. 
 
+![](https://github.com/Maurits28/templates/blob/Maurits28-patch-1/assets/images/SonoffL1-1.jpeg?raw=true)
 
+Programming the Sonoff L1 is difficult because there is no on-board-button connected to GPIOo and GND. As with all ESP8266 modules pulling GPIO0 to GND is needed to put the chip in programming mode. You need to **connect GPIO0 and GND** during power up.
 
+GND can be found on at the back (same serial pin as you connect your serial programmer to). *GPIO0* can be accessed with a small pin needle or wire, it is the second pin from the right. See picture below:
 
+![](https://user-images.githubusercontent.com/1399796/71555640-82d3c400-2a2e-11ea-99d6-3bb57a98ebb0.png)
+![](https://github.com/Maurits28/templates/blob/Maurits28-patch-1/assets/images/SonoffL1-2.jpeg?raw=true)
 
+## General remark
+The controller housing indicates that the arrows of the LED strip and the housing should match, but arrows are not always visible. They need to be connected with both sides 'up':
 
+![](https://github.com/Maurits28/templates/blob/Maurits28-patch-1/assets/images/SonoffL1-4.jpeg?raw=true)

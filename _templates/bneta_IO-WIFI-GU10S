@@ -1,0 +1,20 @@
+---
+date_added: 2019-09-13
+title: BNeta 4.5W 380lm
+model: IO-WIFI-GU10S
+type: RGBW
+category: bulb
+standard: gu10
+mlink: https://www.bneta.co.za/product/smartbulb_gu10/
+image: /assets/images/bneta_IO-WIFI-GU10S.jpg
+template: '{"NAME":"BNeta","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":0,"BASE":18}' 
+link: 
+---
+
+
+
+
+
+
+
+

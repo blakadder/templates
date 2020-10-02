@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-26
+title: Koolertron 
+model: C168
+image: /assets/images/koolertron_C168.jpg
+template: '{"NAME":"C168 Outdoor","GPIO":[0,17,0,56,134,132,0,0,21,131,22,23,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07ZVMX2F6/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---

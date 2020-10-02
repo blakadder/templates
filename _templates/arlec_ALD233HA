@@ -1,19 +1,14 @@
 ---
 date_added: 2019-11-07
-title: Arlec ALD233HA
+title: Arlec Smart 2m LED Colour Changing Strip Light
+model: ALD233HA
+image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/11307e19-efcd-4fee-a698-0b37c5b20843.jpg
+mlink:
 category: light
 type: LED Strip
 standard: au
-link: https://www.bunnings.com.au/arlec-2m-led-white-smart-colour-changing-strip-light-with-grid-connect_p0099707
-image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/11307e19-efcd-4fee-a698-0b37c5b20843.jpg
 template: '{"NAME":"Arlec ALD233AH","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link: https://www.bunnings.com.au/arlec-2m-led-white-smart-colour-changing-strip-light-with-grid-connect_p0099707
+link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-2m-led-white-colour-changing-strip-light_p0099707
 ---
-
-Utilises TWYE3L Chipset
-
-
-
-
-
 

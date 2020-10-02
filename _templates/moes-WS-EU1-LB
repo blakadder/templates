@@ -5,7 +5,7 @@ link: https://www.aliexpress.com/item/4000155341437.html
 image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/H5f92483cbacf4ad38c9f368765fb2a0b0_1800x1800.jpg?v=1576741020
 template: '{"NAME":"Moes WS-EU1-LB","GPIO":[0,0,0,0,0,17,0,0,0,0,0,21,157],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.moeshouse.com/collections/eu-smart-switch/products/wifi-rf433-transmitter-wall-panel-smart-glass-panel-touch-switch-1-2-3-gang-remote-control-switch-works-with-alexa-google-home
+mlink: https://www.moeshouse.com/collections/eu-smart-switch/products/wifi-rf433-transmitter-wall-panel-smart-glass-panel-touch-switch-1-2-3-gang-remote-control-switch-works-with-alexa-google-home
 flash: tuya-convert
 category: switch
 type: Switch

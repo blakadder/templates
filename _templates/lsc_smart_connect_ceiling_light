@@ -1,0 +1,33 @@
+---
+date_added: 2020-07-05
+title: LSC 20W 1400lm White Ambiance 
+model: 3000842 (970789 v1.0)
+image: /assets/images/lsc_smart_connect_ceiling_light.jpg
+template: '{"NAME":"LSC RGBCW LED","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.action.com/fr-be/lsc-smart-connect/
+link2: 
+mlink: https://www.action.com/fr-be/p/lsc-smart-connect-slimme-plafonniere--47d4b32a/
+flash: serial
+category: light
+type: Ceiling Light
+standard: eu
+---
+
+Custom fimware need. Cause: Colors inversed and weak white light.
+Modification of the SM2135 driver (xlgt_04_sm2135.ino):
+
+  const uint8_t SM2135_CURRENT = (SM2135_20MA << 4) | SM2135_60MA;  //increased white to 60mA (19W)
+  
+  data[0] = SM2135_ADDR_MC;
+  data[1] = SM2135_CURRENT;
+  data[2] = SM2135_RGB;
+  data[3] = cur_col[2];  // change that
+  data[4] = cur_col[1];  // change that
+  data[5] = cur_col[0];  // change that
+  Sm2135Send(data, 6);
+
+
+<h3>Warning</h3>
+- Some models come with an [incompatible Realtek](/unsupported/lsc_ceiling_light) WiFi module.
+- You have to unsolder the TYLC5 chip for the flash. Do not supply the circuit with the electrical network during flashing.
+

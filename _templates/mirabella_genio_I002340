@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-19
+title: Mirabella Genio 4 Outlet Power Board with 2 USB 
+model: I002340
+image: /assets/images/mirabella_genio_I002340.jpg
+template: '{"NAME":"Genio i002340","GPIO":[56,0,0,0,21,22,0,0,23,17,24,25,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.au/Mirabella-Genio-Wi-Fi-Power-Protection/dp/B084JHBRK8
+link2: https://www.costco.com.au/TVs-Electronics-Technology/Mirabella-Genio-Smart-Wi-Fi-Power-Board/p/190119
+mlink: https://mirabellagenio.net.au/power-board-1
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: au
+---

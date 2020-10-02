@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-15
+title: Jomarto SH0617
+model: SH0617
+image: /assets/images/jomarto_SH0617.jpg
+template: '{"NAME":"Jomarto SH0617","GPIO":[57,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/JOMARTO-Compatible-Controlled-Function-Required/dp/B07F15ZZNP
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---
+Appears to be the same model/re-brand of the [Hyleton 313](hyleton_313).

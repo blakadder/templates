@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-21
+title: LiteMate A90 810lm
+model: LM043
+image: /assets/images/litemate_LM043.jpg
+template: '{"NAME":"LiteMate 9W","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://gentechindustries.co.za/lite_products/smarthome-9watt-a60-e27-colour-changing-wifi-led-lamp/
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

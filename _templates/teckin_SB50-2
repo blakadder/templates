@@ -1,9 +1,9 @@
 ---
 date_added: 2019-10-22
-title: Teckin SB50-2 800lm
+title: Teckin SB50 v3 A19 800lm
 type: RGBCCT
 category: bulb
-standard: e27
+standard: e26
 link: https://www.amazon.com/gp/product/B07GT2Q5RW/
 image: https://images-na.ssl-images-amazon.com/images/I/51HhCAk5RaL._SX679_.jpg
 template: '{"NAME":"Teckin SB50v3","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
@@ -12,8 +12,11 @@ link2:
 
 Built from the V2 template that didn't work for my model.
 
-
-
-
-
-
+Tuya-Convert did not work as of 10/1/2020. Flashed using serial. 
+Plastic diffuser came off pretty easily. 
+LED board is attached with a pin connector, so removing it to get access to the control board works, but separating the glue can be a bit of a challenge.
+Serial pins are labeled and aren't too hard to solder in-place to. Cannot remove wifi board without removing 
+[<img src="https://user-images.githubusercontent.com/29070834/94831115-517f8e80-03da-11eb-81bd-aff305f0b70b.jpg" width="200" alt="Bulb without Top">](https://user-images.githubusercontent.com/29070834/94831115-517f8e80-03da-11eb-81bd-aff305f0b70b.jpg)
+[<img src="https://user-images.githubusercontent.com/29070834/94830308-71fb1900-03d9-11eb-8335-104717ce6867.jpg" width="200" alt="Front">](https://user-images.githubusercontent.com/29070834/94830308-71fb1900-03d9-11eb-8335-104717ce6867.jpg)
+[<img src="https://user-images.githubusercontent.com/29070834/94831110-50e6f800-03da-11eb-85d3-6fe054336ea7.jpg" width="200" alt="Back 1">](https://user-images.githubusercontent.com/29070834/94831110-50e6f800-03da-11eb-85d3-6fe054336ea7.jpg)
+[<img src="https://user-images.githubusercontent.com/29070834/94831115-517f8e80-03da-11eb-81bd-aff305f0b70b.jpg" width="200" alt="Back 2">](https://user-images.githubusercontent.com/29070834/94831115-517f8e80-03da-11eb-81bd-aff305f0b70b.jpg)

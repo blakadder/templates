@@ -9,5 +9,5 @@ link: https://www.amazon.com/Geeni-Required-Assistant-Microsoft-Cortana/dp/B0777
 image: https://user-images.githubusercontent.com/5904370/69757328-0a42c480-115d-11ea-9374-541eebce399e.png
 template: '{"NAME":"Geeni Spot","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/Geeni-Required-Assistant-Microsoft-Cortana/dp/B07FLXG64J
-link3: https://mygeeni.com/collections/power/products/spot-wi-fi-smart-plug
+mlink: https://mygeeni.com/collections/power/products/spot-wi-fi-smart-plug
 ---

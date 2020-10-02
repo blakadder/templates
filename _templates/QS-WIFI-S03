@@ -1,0 +1,19 @@
+---
+date_added: 2019-07-14
+title: QS-WIFI-S03 Module
+category: relay
+type: Switch
+standard: global
+mlink: http://www.aihomestyle.com/content/151.html
+link: https://www.aliexpress.com/item/33012114855.html?spm=a2g0s.9042311.0.0.274263c0c3kalL
+image: /assets/images/QS-WIFI-S03.jpg
+template: '{"NAME":"QS-WIFI-S03","GPIO":[17,255,255,255,255,0,0,0,82,21,0,0,0],"FLAG":0,"BASE":1}' 
+link2: 
+---
+
+
+
+
+
+
+

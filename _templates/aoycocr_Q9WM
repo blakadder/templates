@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-18
+title: Aoycocr Q9WM A21 10W 900lm
+model: 2AKBP-Q9
+image: /assets/images/aoycocr_Q9WM.jpg
+template: '{"NAME":"Aoycocr Q9WM","GPIO":[0,0,0,0,0,39,0,0,38,40,37,41,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Smart-LED-RGB-Light-Bulb/dp/B07T8DRZZ5
+link2: https://www.amazon.co.uk/Aoycocr-Multicolor-Equivalent-Compatible-Assistant/dp/B07TDPZJDW
+mlink: http://www.hysiry.com/productinfo/1478074.html
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---
+By default, bulb does not allow both the RGB and W channels to be active at the same time. `SetOption37 128` in the console allows for that to happen.

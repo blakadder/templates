@@ -4,11 +4,12 @@ title: Teckin SS30
 category: plug
 type: Power Strip
 standard: us
-link3: https://www.teckinhome.com/copy-of-sp-23-1
+mlink: https://www.teckinhome.com/copy-of-sp-23-1
 image: https://images-na.ssl-images-amazon.com/images/I/51E21BTODPL._SL1001_.jpg
 template: '{"NAME":"Teckin SS30","GPIO":[52,255,255,57,29,17,0,0,31,30,32,255,25],"FLAG":0,"BASE":18}' 
 link:  https://www.amazon.ca/dp/B07G179ZWS
 link2: https://www.amazon.com/TECKIN-Multiple-Protector-Bar%EF%BC%8CRemote-Compatible/dp/B07FM3P87S
+link3: https://www.amazon.ca/gp/product/B07DNYDDW5
 ---
 
 July 20, 2019
@@ -23,6 +24,13 @@ Oct 23, 2019
 
 Changed GPIO16 from Led3i to Relay5. This allows the USB charging ports to be turned on and off.
 
+July 5, 2020
+
+Also marketed by Amazon as "Etlephe", slightly different model numbers, same look, same template.
+
+From the unit: 
+-  Model SM-SO302
+-  FCC ID: 2AJ5F-SM-SO301
 
 
 

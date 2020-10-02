@@ -8,6 +8,6 @@ link: https://www.mediamarkt.nl/nl/product/_hihome-wifi-powerplug-twin-1606332.h
 image: https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-80234302/fee_786_587_png/HIHOME-Wifi-powerplug-Twin
 template: '{"NAME":"HiHome WPP-16T","GPIO":[17,56,255,255,134,132,0,0,18,255,22,130,21],"FLAG":1,"BASE":18}' 
 link2: https://www.amazon.de/dp/B07R74JHLW/
-link3: https://www.hihome.eu/en/wpp-16t1.html
+mlink: https://www.hihome.eu/en/wpp-16t1.html
 ---
 

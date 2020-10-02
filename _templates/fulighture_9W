@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-01
+title: Fulighture 9W 810lm
+model: FUZN002APPW9B22
+image: /assets/images/fulighture_9W.jpg
+template: '{"NAME":"Fulighture 9W","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/Colours-Bayonet-Dimmable-Changing-Required/dp/B07X62MVY7/
+link2: https://www.amazon.de/Leuchtmittel-Warmwei%C3%9F-Kaltwei%C3%9F-9-00watts-230-00volts/dp/B07X62MVY7
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: b22
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-10
+title: TikLok TL650
+model: TL650-1P-US-2
+image: https://user-images.githubusercontent.com/5904370/72146555-0382b080-339d-11ea-930d-58e5bbc3b93c.png
+template: '{"NAME":"TikLok Mini","GPIO":[0,0,0,0,57,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.com/TIKLOK-Wireless-Function-Compatible-Required/dp/B07F713QPZ
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

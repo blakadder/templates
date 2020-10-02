@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-22
+title: Heyvalue 3AC+3USB
+model: HLT-330
+image: /assets/images/heyvalue_HLT-330.jpg
+template: '{"NAME":"HeyvalueHLT-330","GPIO":[52,0,53,0,24,29,0,0,30,20,31,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Protector-Control-Appliances-Schedule-Required/dp/B081YZM8S8/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---

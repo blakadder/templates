@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-02
+title: Lasco 9W 700lm
+model: LA732HLABBEPRPANPH-105949987
+image: /assets/images/lasco_LA732HLABBEPRPANPH-105949987.jpg
+template: '{"NAME":"Lasco 7W","GPIO":[0,0,0,0,140,37,0,0,0,0,141,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.lazada.com.ph/products/lasco-smart-wifi-bulb-high-quality-aluminum-housing-9-watts-rgbwc-led-color-changing-dimmable-and-follows-to-music-and-sounds-new-works-with-amazon-echo-alexa-and-google-home-i158043162.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

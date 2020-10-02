@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-03
+title: Arlec Smart 2.1A USB Charger
+model: PC389HA
+image: /assets/images/arlec_PC389HA.jpg
+mlink: http://www.arlec.com.au/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: au
+template: '{"NAME":"Arlec Single","GPIO":[0,0,0,0,57,0,0,0,21,0,90,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-smart-plug-in-socket-with-2-1a-usb-charger-and-grid-connect_p0135441
+link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-plug-in-socket-with-2-1a-usb-charger_p0135441
+---
+Use Tuya Convert 2. This configuration will give you a Blue LED on the switch when on, nothing when off.

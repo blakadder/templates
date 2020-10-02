@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-29
+title: Aoycocr JL81 5W 400lm
+model: 2APYC-JLB1
+image: /assets/images/aoycocr_JBL1.jpg
+template: '{"NAME":"AoycocrJLB1","GPIO":[0,0,0,0,39,0,0,0,38,41,37,40,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07YFTKCQC/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e12
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-29
+title: Cairondin 7W 500lm
+model: CC-03
+image: /assets/images/cairondin_CC-03.jpg
+template: '{"NAME":"Cairondin","GPIO":[17,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
+link: https://www.amazon.co.uk/dp/B07879C199
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGB
+standard: e27
+---

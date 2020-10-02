@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-04
+title: Foval SM-PW701E 
+model: SM-PW701E
+image: /assets/images/foval_SM-PW701E.jpg
+template: '{"NAME":"SM-PW701E","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/Intelligente-Steckdose-Steuerung-funktioniert-Sprachsteuerung/dp/B076J96M22
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

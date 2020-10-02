@@ -1,14 +1,15 @@
 ---
 date_added: 2020-01-05
 title: WL-SW01_10
-type: Relay
+type: Switch
 standard: global
-category: switch
-link: http://s.click.aliexpress.com/e/sZOeM95m
+category: relay
+link: https://www.aliexpress.com/item/32829067852.html
 image: https://camo.githubusercontent.com/d41d35c4d2be85d9eb2cc7994981346578f7725d/68747470733a2f2f692e706f7374696d672e63632f6d6b724b72534b6e2f737731302e6a7067
 template: '{"NAME":"WL-SW01_10","GPIO":[17,149,0,148,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}'
-link3: https://detail.1688.com/offer/555231932025.html
+mlink: https://detail.1688.com/offer/555231932025.html
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 Manufactured by Blue50 as [WL-SW01_10](https://detail.1688.com/offer/555231932025.html) and also sold as [TISHRIC](http://s.click.aliexpress.com/e/EWttiDR2).
 
@@ -19,3 +20,10 @@ Sonoff Basic in a different [form factor](https://i.postimg.cc/k4Cm7KJr/85827057
 It contains an ESP8285 chip on a vertical breakout board with all the needed GPIOs broken out and labeled. There are also a couple pads on the board to solder VCC and G.
 
 ![](https://i.postimg.cc/HLDGtX7J/SW01-pinout.jpg) ![](https://i.postimg.cc/3wH6GhPm/IMG-20190123-191645.jpg)
+
+Devices bought in **February 2020** come with a revised PCB where the module is in a different orientation with RX and TX blocked by the capacitor.:
+
+![](https://user-images.githubusercontent.com/34582688/77553857-3ec95180-6ead-11ea-94c2-b7b1846be14a.png)![](https://user-images.githubusercontent.com/34582688/77553920-53a5e500-6ead-11ea-8b6e-0145545fed38.png)
+
+Quickest way to get access to RX and TX pins.
+![](https://user-images.githubusercontent.com/34582688/77649752-43037680-6f62-11ea-817e-525962537f1c.png)

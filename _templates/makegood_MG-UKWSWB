@@ -5,7 +5,7 @@ link: http://s.click.aliexpress.com/e/K0jKDiPI
 image: https://ae01.alicdn.com/kf/H801ffcb1f120478fb76b1f5290bc72b0S/5-Pin-Universal-APP-control-WIFI-wall-socket-power-15A-electrical-outlet-Crystal-tempered-glass-panel.jpg_640x640.jpg
 template: '{"NAME":"Aseer 1-Gang","GPIO":[56,0,157,57,134,132,0,0,131,0,0,21,9],"FLAG":0,"BASE":18}' 
 link2: http://s.click.aliexpress.com/e/33AVzynQ
-link3: https://www.alibaba.com/product-detail/86-86mm-tuya-app-smart-life_62249474553.html
+mlink: https://www.alibaba.com/product-detail/86-86mm-tuya-app-smart-life_62249474553.html
 flash: tuya-convert
 category: plug
 type: Wall Outlet
@@ -13,6 +13,12 @@ standard: uk
 ---
 Other manufacturer IDs: HX-U5pinW/B or Hi-UK5PinWFWS01W
 
-I based this loosely on the MakeGood template found here and made some changes. The only thing I did not manage to get working is the low blue LED light when the socket is switched off. LED for power on works fine.
+I based this loosely on the MakeGood template found here and made some changes. The only thing I did not manage to get working is the low blue LED light when the socket is switched off*. LED for power on works fine.
 
 Also be sure to run the commands: `SwitchMode1 5` and `SwitchMode2 5`
+
+Dim led light when off feature added by anudu on 2020_02_17
+FOR LED BEHIND TOUCH SWICH TO DIM WHEN OFF AND 100% BRIGHT WHEN ON
+use template (changes LED1i to PWM1i)
+template: '{"NAME":"Aseer 1-Gang","GPIO":[56,0,157,57,134,132,0,0,131,0,0,21,9],"FLAG":0,"BASE":18}
+and the commands `SwitchMode1 5` , `SwitchMode2 5` ,  'rule1 on power1#state=1 do dimmer 100 endon on power1#state=0 do dimmer 10 endon' and 'rule1 1'

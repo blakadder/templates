@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-14
+title: Ledmundo 6W 600lm
+model: LEDM-SMART-W6
+image: /assets/images/ledmundo_6W.jpg
+template: '{"NAME":"LEDMUNDO 6W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07YC9TG4L/
+link2: https://www.amazon.com/Smart-Light-Bulbs-White-2700k-6000k/dp/B07VGPPD6N
+mlink: http://led-mundo.com/product/smart-light-bulbs-6w-led-candalabra-bulb-e12-base-wifi-multicolor-light-bulb-rgb-color-changing-bulb-60w-equivalent-candle-bulb-chandelier-light-works-with-google-assistant-ifttt-3-pack/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e12
+---

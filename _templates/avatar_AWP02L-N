@@ -5,7 +5,7 @@ link: https://www.amazon.com/Outlet-Wireless-Switch-Amazon-Control/dp/B07GC59ZDW
 image: http://www.avatarcontrols.com/upfile/2019/07/20190709181537_698.jpg
 template: '{"NAME":"AWP02L-N","GPIO":[158,0,0,0,56,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/Outlet-Google-Control-Avatar-Controls/dp/B07PFSRMV4
-link3: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=208
+mlink: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=208
 flash: tuya-convert
 category: plug
 type: Plug

@@ -5,7 +5,7 @@ link: https://www.amazon.ca/YUNTAB-Separately-Wireless-Monitoring-Scheduling/dp/
 image: http://9291604.s21i.faiusr.com/2/ABUIABACGAAgudWb3gUo-qbCkgYw3As43As!800x800.jpg
 template: '{"NAME":"YUNTAB WP211","GPIO":[56,0,158,0,22,0,0,0,0,18,0,21,17],"FLAG":0,"BASE":18}' 
 link2: 
-link3: http://www.cuco-smart.com/pd.jsp?id=26
+mlink: http://www.cuco-smart.com/pd.jsp?id=26
 flash: tuya-convert
 category: plug
 type: Plug

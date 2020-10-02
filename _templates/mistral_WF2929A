@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-07
+title: Mistral
+model: WF2929A
+image: /assets/images/mistral_WF2929A.jpg
+template: '{"NAME":"Mistral Smart ","GPIO":[56,0,0,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://auspost.com.au/shop/product/mistral-wifi-smart-plug-41574
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: au
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-21
+title: MagicHome Single Color 5-28V
+model: 
+image: /assets/images/magichome_single_color.jpg
+template: '{"NAME":"MagicHome","GPIO":[0,0,0,0,0,0,0,0,37,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33035745736.html
+link2: https://www.amazon.com/Single-Controller-Compatible-Assistant-Android/dp/B07VHBYP3Y/
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---

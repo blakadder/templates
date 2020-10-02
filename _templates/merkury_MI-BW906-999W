@@ -1,0 +1,17 @@
+---
+date_added: 2020-01-23
+title: Merkury BR30 8W 750lm
+model: MI-BW906-999W
+image: https://user-images.githubusercontent.com/5904370/72968086-0df07180-3dc3-11ea-8151-0242b40b887d.png
+template: '{"NAME":"MI-BW906-999W","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"MI-BW906-999W","GPIO":[0,0,0,0,38,37,0,0,141,142,140,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.walmart.com/ip/Merkury-Innovations-White-and-Color-BR30-Smart-Light-Bulb-65W-LED-1-Pack/399574073
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---
+
+`SetOption37 54` to remap colors. By default red and blue are switched.

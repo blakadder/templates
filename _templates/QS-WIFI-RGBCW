@@ -1,0 +1,68 @@
+---
+date_added: 2020-06-17
+title: QS-WIFI-RGBCW
+model: TOR-WIFI-S04-2C
+image: /assets/images/QS-WIFI-RGBCW.jpg
+template: '{"NAME":"QS-WIFI-RGBCW","GPIO":[0,0,17,0,157,38,0,0,39,0,53,37,0],"FLAG":0,"BASE":18}' 
+link: http://www.torelectric.ro/home/1095-controler-banda-led-wifi-universal-1224v-compatibil-cu-google-home-si-amazon-alexa.html
+link2: 
+mlink: https://www.alibaba.com/product-detail/Wireless-remote-control-RGB-strip-via_62421000352.html
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+This device contains an `ESP8266-LM1` chip inside.
+
+## **Manual :**
+- https://fccid.io/2AJK8-LM1/User-Manual/User-Manual-3857005.pdf 
+- https://usermanual.wiki/Lingan-Intelligent-Technology/LM1
+
+## **Pinout :**
+![Pinout](https://sc01.alicdn.com/kf/HTB10CJJdFGWBuNjy0Fbq6z4sXXa1.jpg "Pinout")
+
+In order to flash you need to solder on temporarily some wires to the following pins :
+
+1. `GND` - top right pin
+2. `3v3` - top left pin
+3. `UTXD` - bottom, 2nd pin from the right - will connect to TXD on the FTDI board
+4. `URXD` - bottom, 3rd pin from the left - will connect to RXD on the FTDI board
+5. `IO0` - left side 3rd pin from the top - used to reset the device
+
+Note, there is a `Reset` button on the device but it cannot be used to enter flashing mode, you'll need to connect the 5th cable `IO0` to `GND` when connecting the FTDI cable.
+
+Note there is no led on the board so you won't see the status, you might be able to use a led strip, in my case it was quite flacky to show the status (sometimes the red color turned on when it was in flashing mode, otherwise none of the colors turned on but the flashing worked correctly)
+
+**Note**: didn't try with Tuya-Convert, might work with that too.
+
+## GPIO Assignments
+
+- `GPIO2` - **Reset** button, if you configure it as `Button1` then you can use it to turn On/Off the light strip
+- `GPIO4` - **W**arm white connector
+- `GPIO5` - **G**reen connector
+- `GPIO12` - **B**lue connector
+- `GPIO14` - **C**ool white connector
+- `GPIO15` - **R**ed connector
+After flashing you can use one of the following templates, depending on what kind of led strip you use.
+
+## Configurations
+### RGB Strip
+```console
+{"NAME":"QS-WIFI-RGB","GPIO":[0,0,17,0,0,38,0,0,39,0,0,37,0],"FLAG":0,"BASE":18}
+```
+
+### RGBW Strip
+```console
+{"NAME":"QS-WIFI-RGBW","GPIO":[0,0,17,0,40,38,0,0,39,0,0,37,0],"FLAG":0,"BASE":18}
+```
+
+### Up to 5 individual light strips
+```console
+{"NAME":"QS-WIFI-5STRIP","GPIO":[0,0,17,0,40,38,0,0,39,0,41,37,0],"FLAG":0,"BASE":18}
+```
+
+You will also need to run the following command in order to get individual sliders for each led strip
+`SetOption68 1`
+
+Of course, you can play with the templates and configure it the way you want.
+

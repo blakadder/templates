@@ -1,0 +1,39 @@
+---
+date_added: 2020-06-20
+title: Zemismart Blinds Controller
+model: YH002
+image: /assets/images/zemismart_YH002.jpg
+template: '{"NAME":"Zemismart Blin","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000782412838.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: cover
+type: Motor
+standard: global
+---
+`TuyaMCU 11,7` to move the relay to an uncontrollable dpId. WebUI toggle will have no effect.
+
+`TuyaMCU 21,2` maps the position command to dimmer, will not update position state on its own without the following rule.
+
+Feedback is sent on dpId 3 while the position is controlled using dpId 2. To have regular dimmer updates use:
+
+```console
+Rule1 ON TuyaReceived#DpType2Id3 DO Dimmer %value% ENDON
+```
+
+Enable the rule with `Rule1 1`. The rule watches dimmer status dpId and forwards them to Dimmer command.
+
+This setup might create some micromovements on reboot or certain value dimmer commands due to difference in how the MCU calculates position value!
+
+## Functions
+`dpID 1` motor control: `0 = open / 1 = stop / 2 = close / 3 = continue`    
+`dpID 2` set position: `0 .. 100`    
+`dpID 3` current position: `0 .. 100`   *report only    
+`dpID 5` set motor direction: `0 = forward / 1 = back`      
+`dpID 7` working state: `0 = opening / 1 = closing` *report only, only appears when using remote   
+`dpID 10` error notification: `0x00 = ok` / ??? = error`  *report only
+
+## Home Assistant
+
+[Multiple ways to configure](https://blakadder.com/tuya-covers/)

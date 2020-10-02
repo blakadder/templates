@@ -5,7 +5,7 @@ link: https://www.amazon.de/BrizLabs-Gl%C3%BChbirne-Millionen-Erforderlich-Kompa
 image: https://images-na.ssl-images-amazon.com/images/I/51qw7dhkOKL._SL1000_.jpg
 template: '{"NAME":"Brizlabs E14","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":15,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBW

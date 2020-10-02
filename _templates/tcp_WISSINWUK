@@ -1,13 +1,15 @@
 ---
 date_added: 2019-12-01
-title: TCP WISSINWUK
+title: TCP Smart 13A
+model: WISSINWUK
 category: plug
 type: Plug
 standard: uk
-link: https://www.screwfix.com/p/tcp-wissinwuk-smart-plug-white/231hk
-image: https://media.screwfix.com/is/image//ae235?src=ae235/231HK_P&$prodImageLarge$
+link: https://www.amazon.co.uk/dp/B07KXBQKXX/
+mlink: https://www.tcpsmart.eu/
+image: /assets/images/tcp_WISSINWUK.jpg
 template: '{"NAME":"TCP_Plug","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":45}' 
+flash: tuya-convert
 link2: 
 ---
 
-Correct as at 1/12/2019

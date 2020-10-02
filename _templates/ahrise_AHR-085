@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-20
+title: AHRise AHR-085
+model: AHR-085
+image: /assets/images/ahrise_AHR-085.jpg
+template: '{"NAME":"AHRise AHR-085","GPIO":[0,0,0,0,17,56,0,0,22,23,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.com/gp/product/B07VV2MGMC/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---

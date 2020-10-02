@@ -4,16 +4,8 @@ title: Teckin SB53 1300lm
 type: RGBCCT
 category: bulb
 standard: e27
-link: https://www.amazon.co.uk/Changing-Equivalent-TECKIN-Compatible-Assistant/dp/B07RY2LHC1
-image: https://images-na.ssl-images-amazon.com/images/I/41zfqZFBKhL._SL1000_.jpg
+link: https://www.amazon.de/gp/product/B07XP8NF86
+image: https://user-images.githubusercontent.com/5904370/72204497-d277ae00-3478-11ea-9974-ad8d4d2ba15e.png
 template: '{"NAME":"Teckin SB53","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link2: https://www.amazon.co.uk/Changing-Equivalent-TECKIN-Compatible-Assistant/dp/B07RY2LHC1
 ---
-
-`Setoption17 1`
-
-
-
-
-
-

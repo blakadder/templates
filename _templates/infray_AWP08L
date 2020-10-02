@@ -1,0 +1,15 @@
+---
+date_added: 2020-06-28
+title: Infray 16A
+model: AWP08L
+image: /assets/images/infray_AWP08L.jpg
+template: '{"NAME":"AWP08L","GPIO":[17,0,52,0,0,0,0,0,0,0,0,21,0],"FLAG":1,"BASE":18}' 
+link: https://www.amazon.de/dp/B07TS225LT/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+How to [open the plug](https://blakadder.com/disassembling-CN39/)

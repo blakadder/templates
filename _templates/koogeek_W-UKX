@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-21
+title: Koogeek W-UKX
+model: W-UKX
+image: /assets/images/koogeek_W-UKX.jpg
+template: '{"NAME":"Koogeek W-UKX","GPIO":[0,17,255,255,255,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.co.uk/dp/B07W4TFGHM/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-13
+title: YX-DE01
+model: 
+image: /assets/images/YX-DE01.jpg
+template: '{"NAME":"YX-DE01","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/Steckdose-Kompatibel-Funktion-Fernbedienung-erforderlich/dp/B07D6KTCLX
+link2: https://www.gearbest.com/smart-access-lock/pp_009267799765.html
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

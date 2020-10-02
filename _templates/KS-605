@@ -5,7 +5,7 @@ image: https://m.media-amazon.com/images/S/aplus-media/sc/8fb37176-4215-44c2-b35
 template: '{"NAME":"KS-605","GPIO":[17,0,0,0,0,0,0,0,21,158,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Compatible-Fixtures-Anywhere-Function-Protection/dp/B07TCHB15B
 link2: https://www.amazon.com/Wireless-Compatible-Function-Overload-Protection/dp/B07B5YM41J
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Switch

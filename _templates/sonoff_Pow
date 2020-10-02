@@ -1,9 +1,9 @@
 ---
 title: Sonoff Pow
-category: switch
-type: Relay
+category: relay
+type: Switch
 standard: global
-link3: https://www.itead.cc/smart-home/sonoff-pow.html
+mlink: https://www.itead.cc/smart-home/sonoff-pow.html
 image: https://user-images.githubusercontent.com/5904370/57881237-139fbb80-7821-11e9-8c1b-e375f6d0c0a3.png
 template: '{"NAME":"Sonoff Pow","GPIO":[17,0,0,0,0,130,0,0,21,132,133,52,0],"FLAG":0,"BASE":6}' 
 link: https://www.banggood.com/SONOFF-POW-DIY-WIFI-Long-Distance-Power-Monitor-Current-Tester-Remote-Control-Switch-Socket-For-Smart-Home-p-1186730.html
@@ -23,7 +23,7 @@ The GND connection of the Pow is connected to the live AC wire. Connecting seria
 
 ## Serial Connection 
 
-Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
 
 3V3, RX, TX and GND pins are available at the rear end of the PCB.
 
@@ -32,7 +32,7 @@ Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installat
 To enter **flash mode**, press down on the button while powering the device.
 
 ## Power Monitoring Calibration
-Sonoff Pow might need calibration as correct measurements are influenced by hardware and timing differences. See [Power Monitoring Calibration](https://github.com/arendst/Tasmota/wiki/Power-Monitoring-Calibration)
+Sonoff Pow might need calibration as correct measurements are influenced by hardware and timing differences. See [Power Monitoring Calibration](https://tasmota.github.io/docs/Power-Monitoring-Calibration)
    
 ## Telemetry
 The Sonoff Pow can provide Energy, Power, Voltage and Current information in different ways.
@@ -50,9 +50,9 @@ stat/pow1/STATUS8 = {"StatusSNS":{"Time":"2018-11-15T08:54:18","ENERGY":{"TotalS
 ```
 
 The presented information has the following meaning:
-```
+
 Message        | Unit | Description
----------------|------|-----------------------------------------------------
+:--            | :--  | :--
 TotalStartTime | Date | DateTime of calculation for Total
 Total          | kWh  | Total Energy usage including Today
 Yesterday      | kWh  | Total Energy usage between 00:00 and 24:00 yesterday
@@ -66,7 +66,6 @@ Factor         |      | The ratio of the real power flowing to the load to
                |      | the apparent power in the circuit 
 Voltage        | V    | Current line voltage
 Current        | A    | Current line current
-```
 
 ## Self Protection for Sonoff Pow
 

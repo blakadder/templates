@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-15
+title: Koogeek KLWP1
+model: KLWP1
+image: /assets/images/koogeek_KLWP1.jpg
+template: '{"NAME":"Koogeek-KLWP1","GPIO":[157,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.ca/gp/product/B07H3SXC67/
+link2: https://www.amazon.com/gp/product/B07H3SXC67/
+mlink: https://www.koogeek.com/p-klwp1-1.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

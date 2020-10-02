@@ -1,0 +1,18 @@
+---
+date_added: 2020-07-31
+title: Connect SmartHome 10W
+model: CSH-E27RGB10W
+image: https://azcd.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/c/s/csh-e27rgb10w-connect-smart-rgb-led-light-bulb-2.jpg
+template: '{"NAME":"CSH-E27RGB10W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
+link: https://www.harveynorman.com.au/connect-smart-10w-e27-rgb-led-light-bulb.html
+link2: https://www.laserco.com.au/categories/smart-home/smart-lighting/LSH-E27RGB10W-laser-10W-Smart-RGB-Bulb-E27
+mlink: https://www.connectsmarthome.com.au/lighting.html
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
+
+User's guide: https://www.connectsmarthome.com.au/guides/lights/CSH%20User%20Manual%20-%20E27%20B22.pdf
+
+The photographs on the manufacturer website show 900 lumens, but in store the boxes say 1000 lumens.

@@ -10,5 +10,7 @@ image: https://images-na.ssl-images-amazon.com/images/I/51J0DCf8MSL._AC_SL1000_.
 template: '{"NAME":"3STONE","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":15,"BASE":18}' 
 link2: 
 ---
+## The new **"[2020 Upgrade]"** version is not yet flashable with tuya-convert
+
 
 FCC ID: [2AJ3WEBEQPW36](https://fccid.io/2AJ3WEBEQPW36)

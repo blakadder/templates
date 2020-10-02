@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-28
+title: EXUP C37 5W
+model: 
+image: /assets/images/exup_C37.jpg
+template: '{"NAME":"EXUP","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.banggood.com/EXUP-AC85-265V-E14-C37-5W-RGBCW-APP-Control-WiFi-Smart-LED-Candle-Bulb-Work-With-Amazon-Alexa-Google-Home-p-1547306.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e14
+---

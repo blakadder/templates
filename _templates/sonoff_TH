@@ -1,12 +1,15 @@
 ---
 title: Sonoff TH10/TH16
-category: switch
-type: Relay
+category: relay
+type: Switch
 standard: global
-link3: https://www.itead.cc/smart-home/sonoff-th.html
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/th10-th16
+link: https://www.itead.cc/smart-home/sonoff-th.html
 image: https://user-images.githubusercontent.com/5904370/57877996-5e1d3a00-7819-11e9-9008-f183f321d45a.png
 template: '{"NAME":"Sonoff TH","GPIO":[17,255,0,255,255,0,0,0,21,56,255,0,0],"FLAG":0,"BASE":4}' 
-link: https://www.banggood.com/SONOFF-TH10-TH16-Smart-WIFI-Switch-Monitoring-Temperature-Humidity-Wifi-Smart-Switch-Home-Automation-Kit-Works-With-Alexa-Google-Home-p-1498836.html
+link2: https://www.banggood.com/SONOFF-TH10-TH16-Smart-WIFI-Switch-Monitoring-Temperature-Humidity-Wifi-Smart-Switch-Home-Automation-Kit-Works-With-Alexa-Google-Home-p-1498836.html
+link4: https://www.amazon.com/stores/page/4107DCCC-1206-41CB-A687-98878286F5A3
+link3: https://www.aliexpress.com/item/4000124875916.html
 ---
 Sonoff TH10 or TH16 / Ver 2.0 (year 2017/2018/2019) based on ESP8266.
 TH10 has a relay rated to 10 amps and TH16 to 16 amps (Input voltage: 90~ 250V AC).
@@ -18,9 +21,11 @@ The 2.5mm jack socket connects to GPIO14.
 
 ### Sonoff sensors with 2.5mm jack
 Sonoff sells 3 sensors with 2.5mm jack to use with the Sonoff TH.
- 1. [Sonoff TH Sensor Si7021](https://www.itead.cc/wiki/Sonoff_Sensor_Si7021)
-2. [Sonoff TH Sensor AM2301](https://sonoff.itead.cc/en/products/accessories/am2301)
-3. [Sonoff Temp Sensor DS18B20](https://sonoff.itead.cc/en/products/accessories/ds18b20)
+
+1. [Sonoff Si7021 Temperature & Humidity Sensor](https://www.aliexpress.com/item/32917139443.html?spm=2114.12010612.8148356.34.124146d3FSCb19&aff_platform=portals-tool&sk=_d86Ja8j&aff_trace_key=cc73558f53cb49baa13bab2df5649409-1590488446713-06308-_d86Ja8j&terminal_id=3ac645b4aa5741e4bebe6d5c100f96fc&tmLog=new_Detail&aff_request_id=cc73558f53cb49baa13bab2df5649409-1590488446713-06308-_d86Ja8j)
+2. [Sonoff AM2301 Temperature & Humidity Sensor](https://www.aliexpress.com/item/4000193807337.html?spm=a2g0o.productlist.0.0.7c842782JwElC1&ws_ab_test=searchweb0_0%2Csearchweb201602_%2Csearchweb201603_&algo_pvid=738a618b-b435-4090-8b88-8a79bcce4141&aff_platform=portals-tool&btsid=0ab6f81615904886639545765e3d97&sk=_dTaygG3&aff_trace_key=8d8c308284034e368eb219f6ea51b8f8-1590488700076-06740-_dTaygG3&terminal_id=3ac645b4aa5741e4bebe6d5c100f96fc&tmLog=new_Detail&algo_expid=738a618b-b435-4090-8b88-8a79bcce4141-21&aff_request_id=8d8c308284034e368eb219f6ea51b8f8-1590488700076-06740-_dTaygG3)
+3. [Sonoff DS18B20 Temperature Sensor](https://www.aliexpress.com/item/32831004265.html?spm=2114.12010612.8148356.38.6f154bc2YYp0wL&aff_platform=portals-tool&sk=_d6GHjIT&aff_trace_key=4b37531de7e64b7a8e761bef3328d9fe-1590488523472-01959-_d6GHjIT&terminal_id=3ac645b4aa5741e4bebe6d5c100f96fc&tmLog=new_Detail&aff_request_id=4b37531de7e64b7a8e761bef3328d9fe-1590488523472-01959-_d6GHjIT)
+4. [Sonoff AL560 5m Extension Cable](https://www.aliexpress.com/item/4000035966134.html?spm=2114.12010612.8148356.48.caac4bc2OdcTth&aff_platform=portals-tool&sk=_d8sMEmR&aff_trace_key=63717420f8bf429c84fcecae67362cf6-1590488787719-07910-_d8sMEmR&terminal_id=3ac645b4aa5741e4bebe6d5c100f96fc&tmLog=new_Detail&aff_request_id=63717420f8bf429c84fcecae67362cf6-1590488787719-07910-_d8sMEmR)
 
 Length of the wire is approximately 47cm apart from DS18b20 sensor that comes with approximately 1m long wire. Can be extended with a Sonoff 5m sensor extension cable. 
 

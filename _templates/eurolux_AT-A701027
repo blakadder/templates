@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-06
+title: Eurolux A70 10W
+model: AT-A701027/CTRGB
+image: /assets/images/eurolux_AT-A701027.jpg
+template: '{"NAME":"Eurolux A70 RG","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":1,"BASE":18}' 
+link: https://www.eurolux.co.il/product?c0=534285
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

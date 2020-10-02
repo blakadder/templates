@@ -1,0 +1,16 @@
+---
+date_added: 2020-09-04
+title: Gosund KS-602S
+model: KS-1
+category: switch
+type: Switch
+standard: us
+image: /assets/images/gosund-KS-602S.jpg
+mlink: 
+link: https://www.amazon.com/gp/product/B07DQDNBZ2
+link2: https://www.amazon.com/gp/product/B07DQG4K52/
+template: '{"NAME":"Gosund KS-602S-v2","GPIO":[17,0,57,0,0,0,0,0,0,0,21,0,52],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"Gosund KS-602S","GPIO":[17,0,0,0,0,0,0,0,21,157,0,0,0],"FLAG":0,"BASE":18}'
+link2: 
+---
+

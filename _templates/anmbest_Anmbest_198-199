@@ -1,0 +1,15 @@
+---
+date_added: 2020-06-07
+title: Anmbest 2 Channel Inching Self-locking Switch Module
+model: Anmbest_198-199
+image: /assets/images/anmbest_Anmbest_198-199.jpg
+template: '{"NAME":"Generic","GPIO":[17,255,255,255,255,22,18,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://smile.amazon.com/gp/product/B07XLJM7PB/
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+Use rx and tx pins on the esp8285, and the 5v and ground pins on the pcb to flash. The top button is gpio0.

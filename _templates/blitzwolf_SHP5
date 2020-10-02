@@ -7,8 +7,8 @@ standard: eu
 link: https://www.banggood.com/BlitzWolf-BW-SHP5-2_1A-Dual-USB-Ports-16A-Smart-WIFI-Socket-EU-Plug-Work-with-Alexa-Google-Assistant-BlitzWolf-Tuya-APP-p-1426555.html
 image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201902/1550806813_26.jpg
 template: '{"NAME":"SHP5","GPIO":[57,145,56,146,0,22,0,0,0,0,21,0,17],"FLAG":0,"BASE":18}'
-link2: http://s.click.aliexpress.com/e/4EtdIWac
-link3: https://www.blitzwolf.com/BlitzWolf-BW-SHP5-3680W-EU-Wifi-Socket-Smart-Charger-with-Dual-USB-Ports-Compatible-with-French-Standard,-Works-with-Alexa,-Scheduled-Control,-Remote-Control,-Monitor-Power-Use-p-326.html
+link2: https://www.aliexpress.com/item/32997823815.html
+mlink: https://www.blitzwolf.com/BlitzWolf-BW-SHP5-3680W-EU-Wifi-Socket-Smart-Charger-with-Dual-USB-Ports-Compatible-with-French-Standard,-Works-with-Alexa,-Scheduled-Control,-Remote-Control,-Monitor-Power-Use-p-326.html
 ---
 
 Disassembly to flash the module is not trivial, please follow online tutorials.
@@ -24,3 +24,7 @@ You might wish to keep USB power active at all times.
 Check out the command `ButtonRetain 1` for MQTT based retention.
 Furthermore, the red LED to indicate the power status of the module will be illuminated as long as any of the two relays are active.
 To ignore USB power and indicate socket power state only, execute command `LedMask 1`.
+
+Important: it is possible that your device will enter a bootloop due to a conflict with UART/serial logging. 
+Fix this using: SerialLog 0
+

@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-15
+title: BlitzWolf BW-SS3 1 Gang
+model: 
+image: /assets/images/blitzwolf_BW-SS3-1.jpg
+template: '{"NAME":"BW-SS3-1G-EU","GPIO":[52,0,0,17,0,0,0,0,0,21,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/BlitzWolf-BW-SS3-EUUS-123-Channel-10A-WIFI-Touch-Remote-Control-Wall-Smart-Home-Switch-Tempered-Glass-Panel-Work-with-Amazon-Alexa-Google-Assistant-p-1582586.html
+link2: https://www.aliexpress.com/item/4000274169957.html
+mlink: https://www.blitzwolf.com/WIFI-Touch-Remote-Wall-Smart-Switch-p-406.html
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---

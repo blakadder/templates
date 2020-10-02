@@ -1,16 +1,38 @@
 ---
-title: Feit Electric OM60/RGBW/CA/AG 800lm
+title: Feit Electric OM60/RGBW/CA/AG A19 800lm
+model: SYW-A19RGBWAGT1
 type: RGBCCT
 category: bulb
 standard: e26
 link: https://www.amazon.com/FEIT-OM60-RGBW-CA-AG/dp/B07GG98VV2/
 link2: https://www.costco.com/FEIT-WiFi-Smart-Bulbs-4-pack.product.100417461.html
-image: https://www.feit.com/wp-content/uploads/2018/05/OM60_RGBW_CA_AG_pack-3.jpg
+image: /assets/images/feit_electric-OM60RGBWCAAG.jpg
 template: '{"NAME":"OM60/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}'
-link3: https://www.feit.com/product/smart-wifi-bulb-color-changing-tunable-white-2/
+mlink: https://www.feit.com/product/smart-wifi-bulb-color-changing-tunable-white-2/
 ---
+## WARNING!
+If the Bulb Base shows 228-20-04 the device is not Tasmota compatible
+
+
 You need to change RGB to BGR color order with `SetOption37 54` in Tasmota console to remap.
 
-FCC ID: [SYW-A19RGBWAGT1](https://fccid.io/SYW-A19RGBWAGT1/Letter/Differences-Description-4018522.pdf)
+FCC ID: [](https://fccid.io/SYW-A19RGBWAGT1/Letter/Differences-Description-4018522.pdf)
 
+___________________________
+Purchased on Sept 21, 2020 from Menards.
 
+The below configs worked for me.
+
+title: Feit Electric A19 800lm
+model: OM60/RGBW/CA/AG
+type: RGBCCT
+category: bulb
+standard: e26
+
+template: '{"NAME":"Feit Bulb","GPIO":[255,255,255,255,141,140,255,255,38,142,37,255,255],"FLAG":0,"BASE":18}'
+
+SetOption 37 1
+
+FCC ID: SYW-A19RGBWAGT2
+
+228-19-44

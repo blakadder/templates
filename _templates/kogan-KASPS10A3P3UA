@@ -1,0 +1,17 @@
+---
+date_added: 2020-02-20
+title: Kogan Power Strip USB Ports & Energy Meter
+model: KASPS10A3P3UA
+image: /assets/images/kogan-KASPS10A3P3UA.jpg
+template: '{"NAME":"Generic","GPIO":[90,56,0,24,134,132,0,0,131,22,23,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.kogan.com/au/buy/kogan-smarterhome-smart-power-strip-usb-ports-energy-meter/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: au
+---
+Relay1 - USB
+
+Relay 2-4 - Power sockets. 2 is closest to USB, 4 is furthest.

@@ -13,8 +13,25 @@ link2: https://www.alfawise.com/products/alfawise-ks1-smart-home-universal-remot
 The Pins are:
   5. GND
   4. GPIO0
-  3. RX
-  2. TX
+  3. TX
+  2. RX
   1. 3V3
+  
+  Screws are cheap and easy to chew up. PH1 screwdriver is recommended.
 
+![pinout](https://i.ibb.co/FD4d82C/IMG-20200418-165212827.jpg)
 
+## Usage
+In the console observe output when IR command is received.
+
+Example:
+```console
+00:00:51 RSL: tele/tasmota_4855D2/RESULT = {"Time":"1970-01-01T00:00:51","IrReceived":{"Protocol":"NEC","Bits":32,"Data":"0x000C40BF"}}
+```
+
+You can then send that command to be transmitted by the KS1. See [IR Remote Commands](https://tasmota.github.io/docs/Commands/#ir-remote)
+
+Example:
+```console
+IRsend {"Protocol":"NEC","Bits":32,"Data":"0x000C40BF"}
+```

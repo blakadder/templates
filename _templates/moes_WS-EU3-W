@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-30
+title: Moes 3 Gang 
+model: WS-EU3-W
+image: /assets/images/moes_WS-EU3-W.jpg
+template: '{"NAME":"Moes WS-EU3-W","GPIO":[157,0,54,18,22,19,0,0,17,21,53,23,52],"FLAG":15,"BASE":18}' 
+link: https://www.aliexpress.com/item/32854975013.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---

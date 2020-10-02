@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-13
+title: BrilliantSmart 20888
+model: 20888
+image: /assets/images/brilliantsmart_20888.jpg
+template: '{"NAME":"BS-GU10-20888","GPIO":[0,0,0,0,140,38,0,0,37,142,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.officeworks.com.au/shop/officeworks/p/brilliant-smart-rgb-and-white-globe-gu10-bl20888
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: gu10
+---
+Use tuya-convert 2.4.3+

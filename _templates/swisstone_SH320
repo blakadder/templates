@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-20
+title: Swisstone SH 320 350lm
+model: 4260117673993
+image: /assets/images/swisstone_SH320.jpg
+template: '{"NAME":"SH 320","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07G5S5M2H
+link2: https://www.conrad.de/de/p/sh-320-swisstone-smart-home-led-leuchtmittel-eek-a-a-e-alexa-google-home-1873408.html
+link3: https://www.amazon.co.uk/SWISSTONE-SH-320-WI-Fi-dimmbar/dp/B07G5S5M2H
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e14
+---

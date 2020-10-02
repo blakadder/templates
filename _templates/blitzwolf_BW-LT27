@@ -1,0 +1,99 @@
+---
+date_added: 2020-02-06
+title: BlitzWolf w/ remote 850lm
+model: BW-LT27
+image: /assets/images/blitzwolf_BW-LT27.jpg
+template: '{"NAME":"BW-LT27","GPIO":[0,0,0,0,41,38,0,0,39,51,40,37,0],"FLAG":0,"BASE":18}'
+link: https://www.banggood.com/BlitzWolf-BW-LT27-AC100-240V-RGBWWCW-9W-E27-APP-Smart-LED-Bulb-Work-With-Alexa-Google-Assistant-IR-Remote-Control-p-1619315.html
+link2: https://www.aliexpress.com/item/4000622635871.html
+link3: 
+mlink: https://www.blitzwolf.com/BlitzWolfBW-LT27-Wi-Fi-Smart-Bulb-E27-with-APP-Control,-Remote-Control,-Voice-Control,-16-Million-Colors,-2700-6500K-Color-Temperature-and-Timing-Function-p-441.html
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+This light bulb has a built-in IR receiver connected to a GPIO which opens up many possibilities.  You could theoretically use your TVs remote to control the bulb.
+
+<img src="/assets/images/blitzwolf_BW-LT27-remote.jpg" style="float:left;padding:5px">
+IrReceived strings for the remote:
+
+Power   
+`{"Protocol":"NEC","Bits":32,"Data":"0x21C724DB"}`
+
+Moon   
+`{"Protocol":"NEC","Bits":32,"Data":"0x21C754AB"}`
+
+Up Arrow    
+`{"Protocol":"NEC","Bits":32,"Data":"0x21C7847B"}`
+
+Down Arrow    
+`{"Protocol":"NEC","Bits":32,"Data":"0x21C744BB"}`
+
+\<W    
+`{"Protocol":"NEC","Bits":32,"Data":"0x21C7E41B"}`
+
+C\>    
+`{"Protocol":"NEC","Bits":32,"Data":"0x21C714EB"}`
+
+100%     
+`{"Protocol":"NEC","Bits":32,"Data":"0x21C704FB"}`
+
+RGB    
+`{"Protocol":"NEC","Bits":32,"Data":"0x21C7649B"}`
+
+D    
+`{"Protocol":"NEC","Bits":32,"Data":"0x21C7827D"}`
+
+S     
+`{"Protocol":"NEC","Bits":32,"Data":"0x21C7C43B"}`
+
+<div class="clearfix"></div>
+
+With the following rules the remote is configured with these functions:
+
+1. Power TOGGLE
+2. Nighlight mode using Dimmer 10 and CT 500
+3. Dimmer + / -
+4. CT +/- (CCT mode) / Color +/- (RGB mode) 
+5. Max brightness - Dimmer 100
+6. Switch between CCT and RGB mode
+7. Maximum white (Color FFFFFFFFFF) (CCT mode) / Single color (RGB mode) 
+8. Wakeup mode (CCT mode) / Cycle RGB colors (RGB mode) 
+
+```console
+Rule1 
+ON System#Boot DO Backlog Rule1 1, Rule2 1, Rule3 0 ENDON
+ON IrReceived#Data=0x21C754AB DO Backlog Dimmer 10; CT 500 ENDON
+ON IrReceived#Data=0x21C724DB DO Power toggle ENDON
+ON IrReceived#Data=0x21C7649B DO Backlog Rule2 2; Rule3 2 ENDON
+ON IrReceived#Data=0x21C704FB DO Dimmer 100 ENDON
+```
+
+```console
+Rule2
+ON IrReceived#Data=0x21C7847B DO Dimmer + ENDON
+ON IrReceived#Data=0x21C744BB DO Dimmer - ENDON
+ON IrReceived#Data=0x21C7E41B DO CT + ENDON
+ON IrReceived#Data=0x21C714EB DO CT - ENDON
+ON IrReceived#Data=0x21C7827D DO Color FFFFFFFFFF ENDON
+ON IrReceived#Data=0x21C7C43B DO Backlog Dimmer 0; CT 300; Wakeup 100 ENDON
+```
+
+```console
+Rule3
+ON IrReceived#Data=0x21C7847B DO Dimmer + ENDON
+ON IrReceived#Data=0x21C744BB DO Dimmer - ENDON
+ON IrReceived#Data=0x21C7E41B DO Color - ENDON
+ON IrReceived#Data=0x21C714EB DO Color + ENDON
+ON IrReceived#Data=0x21C7827D DO Scheme 0 ENDON
+ON IrReceived#Data=0x21C7C43B DO Backlog Color 1; Scheme 4 ENDON
+```
+
+```console
+Backlog Rule1 1, Rule2 1, Rule3 0, Fade on, WakeupDuration 60
+```
+
+Modify WakeupDuration to how many seconds you would like the wakeup sequence to last. Fade is for smoothness of transition (adjust the fading speed with `Speed +` or `Speed -`)

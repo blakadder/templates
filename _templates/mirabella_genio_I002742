@@ -1,14 +1,15 @@
 ---
 date_added: 2019-10-20
-title: Mirabella Genio I002742
+title: Mirabella Genio 9W CCT Downlight
+model: I002742
 category: light
 type: Light
 standard: au
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-9w-led-downlight/2754331
-image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/sz/7/42799337-1-sz.jpg
-template: '{"NAME":"GenioDLightCCT","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":48}' 
+image: /assets/images/mirabella_genio_I002742.jpg
+template: '{"NAME":"GenioDLightCCT","GPIO":[0,0,0,0,0,0,0,0,47,0,37,0,0],"FLAG":0,"BASE":48}' 
 link2:
-link3: https://mirabellagenio.net.au/downlight-rgb%2Bcct
+mlink: https://mirabellagenio.net.au/downlight-rgb%2Bcct
 ---
 
 This is specifically for the CCT variant (Cool to warm white only)!
@@ -17,7 +18,7 @@ Template for the RGB+CCT (aka RGBWW) variant is [here](mirabella_genio_I002741.h
 
 Flashed wirelessly using Tuya-Convert: https://github.com/ct-Open-Source/tuya-convert
 
-
+If the light turns off when dimming below 60%, enter the command `ledtable 0` to turn off hardware gamma correction.
 
 
 

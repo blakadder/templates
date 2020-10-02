@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-14
+title: LVWIT A60 6.5W 806lm Filament
+model: 
+image: /assets/images/lvwit_A60_806lm_filament.jpg
+template: '{"NAME":"LVWIT-E27-WiFi-6.5","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07YY2K2V7/
+link2: 
+mlink: https://www.lvwit.com/de/collections/uk-led-bulbs/products/e27-st64-smart-wifi-led-bulb-6-5w-806lm-lvwit
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---

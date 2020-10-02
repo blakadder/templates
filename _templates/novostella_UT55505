@@ -1,12 +1,14 @@
 ---
-date_added: 2019-03-18
-title: Novostella UT55505 600lm
-type: RGBCCT
+date_added: 2020-07-20
+title: Novostella 7W 600lm
+model: UT55505-RGBCW-EU
+image: /assets/images/novostella_UT55505.jpg
+template: '{"NAME":"Novostella E27","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07JYYCKCL/
+link2: 
+mlink: https://www.novostella.net
+flash: tuya-convert
 category: bulb
-standard: b22
-link: https://www.amazon.co.uk/gp/product/B07DN4NLKM
-image: https://images-na.ssl-images-amazon.com/images/I/61BYD0%2B1g9L._SL1200_.jpg
-template: '{"NAME":"Novostella B22","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
-link2: https://www.amazon.de/dp/B07JYYCKCL
+type: RGBCCT
+standard: e27
 ---
-Manufacturer reference: UT55505-RGBCW-UK-1

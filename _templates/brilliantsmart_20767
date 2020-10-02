@@ -1,0 +1,15 @@
+---
+date_added: 2020-06-26
+title: Brilliant Smart Double Adaptor
+model: 20767
+image: /assets/images/brilliantsmart_20767.jpg
+template: '{"NAME":"Brilliant_2Plg","GPIO":[0,0,0,52,21,22,255,255,157,17,18,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.officeworks.com.au/shop/officeworks/p/brilliant-smart-double-adaptor-bl20767
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: au
+---
+Switch 2 LED is actually Link LED - this is similar to factory config.

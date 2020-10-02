@@ -1,15 +1,25 @@
 ---
 date_added: 2019-09-19
-title: CE Smart Home WF500D
+title: CE Smart Home 
+model: WF500D
 category: switch
 type: Dimmer
 standard: us
 link: https://www.amazon.ca/2-Pack-Dimmer-Switch-Compatible-Assistant/dp/B07GQ3H8VK
-image: https://i.ibb.co/nQK6hwD/image-Service.jpg
+image: /assets/images/ce_smart_home-WF500D.jpg
 template: '{"NAME":"CE-WF500D","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}'
-link3: https://www.cesmarthome.com/WF500D.html
+mlink: https://www.cesmarthome.com/WF500D.html
 ---
 
-Enter `TuyaMCU 21,2`
+Enter `TuyaMCU 21,2` 
+
+(In some cases it is `TuyaMCU 21,3`)
+
+Alternatively
+```console
+TuyaMCU 21,22
+TuyaMCU 11,20
+DimmerRange 10,1000
+```
 
 Bought from Costco in Ontario.  Flashed OTA with Tuya Convert method (2019-09-18) - Device date code on the outer package was 10-2018

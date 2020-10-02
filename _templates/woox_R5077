@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-01
+title: WOOX R5077
+model: R5077
+image: /assets/images/woox_R5077.jpg
+template: '{"NAME":"WOOX R5077","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/WOOX-Smart-Light-350lm-2700K/dp/B07N8135KJ
+link2: https://www.amazon.de/dp/B07N8135KJ
+mlink: https://wooxhome.com/lighting-c1/woox-r5077-smart-spotlight-gu10-p14
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: gu10
+---
+No additional steps needed, flash tasmota, input the plugin and if it works for everybody like it does for me, it just works!

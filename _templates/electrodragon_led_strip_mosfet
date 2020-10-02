@@ -1,21 +1,18 @@
 ---
-title: Electrodragon Mosfet Drive
+title: Electrodragon ESP LED Strip Board, Mosfet Drive
 type: LED Controller
 category: light
 standard: global
 link: https://www.electrodragon.com/product/esp-led-strip-board/
-image: https://1436477554.rsc.cdn77.org/wp-content/uploads/2017/06/ESP-LED-Strip-Board-01.jpg
+image: https://user-images.githubusercontent.com/5904370/73259393-074d6a00-41c8-11ea-9443-f82cbe307b8b.png
 template: '{"NAME":"LEDBoard RGBW","GPIO":[0,0,0,0,0,0,0,0,39,38,40,37,52],"FLAG":0,"BASE":18}'
 link2: 
-screenshot:
 ---
 Alternative template for WS2812 LEDs:
 
 ```console
 Template {"NAME":"LEDBoard W2812","GPIO":[0,0,7,0,0,0,0,0,0,0,0,0,52],"FLAG":0,"BASE":18}
 ```
-
-<img width="200" src="https://1436477554.rsc.cdn77.org/wp-content/uploads/2017/06/ESP-LED-Drive-Board-Description-.jpg">
 
 <h2>Description</h2>
 

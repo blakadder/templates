@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-26
+title: AGL Módulo Relé 01 Canal
+model: 1110231
+image: /assets/images/agl_1110231.jpg
+template: '{"NAME":"AGL-Basic","GPIO":[0,255,0,0,21,17,0,0,0,0,56,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.br/gp/product/B08CW85KQ2/
+link2: 
+mlink: https://www.aglfechaduras.com.br/moduloautomacao01canalwifi
+flash: tuya-convert
+category: relay
+type: Switch
+standard: [br]
+---

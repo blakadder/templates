@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-24
+title: Lustreon
+model: 
+image: /assets/images/lustreon.jpg
+template: '{"NAME":"Lustreon WiFi ","GPIO":[17,0,55,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":38}' 
+link: https://www.banggood.com/LUSTREON-WIFI-Smart-Voice-Control-LED-Strip-Light-Controller-Work-with-Alexa-Google-Home-DC5-23V-p-1320164.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Controller
+standard: global
+---

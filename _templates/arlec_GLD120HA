@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-24
+title: Arlec Smart 9.5W 806lm 
+model: GLD120HA
+image: /assets/images/arlec_GLD120HA.jpg
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: b22
+template: '{"NAME":"Arlec RGBWW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-smart-9w-806lm-rgb-cct-bc-globe-with-grid-connect_p0111500
+link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-9w-806lm-rgb-cct-bc-globe_p0111500
+---

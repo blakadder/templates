@@ -1,20 +1,25 @@
 ---
 date_added: 2019-07-22
 title: Sonoff Mini
-category: switch
-type: Relay
+model: IM190416001
+category: relay
+type: Switch
 standard: global
-link: https://www.banggood.com/SONOFF-Mini-Two-Way-Smart-Switch-10A-AC100-240V-Works-with-Amazon-Alexa-Google-Home-Assistant-Nest-Supports-DIY-Mode-Allows-to-Flash-the-Firmware-p-1484758.html
+flash: sonoff-diy
+link2: https://www.aliexpress.com/item/4000046666272.html
+link3: https://www.banggood.com/SONOFF-Mini-Two-Way-Smart-Switch-10A-AC100-240V-Works-with-Amazon-Alexa-Google-Home-Assistant-Nest-Supports-DIY-Mode-Allows-to-Flash-the-Firmware-p-1484758.html
 image: https://user-images.githubusercontent.com/5904370/63218127-3610e000-c154-11e9-9ae9-8ed36009dda4.png
 template: '{"NAME":"Sonoff Mini","GPIO":[17,0,0,0,9,0,0,0,21,56,0,0,255],"FLAG":0,"BASE":1}' 
-link2: https://www.amazon.com/Wireless-Universal-Automation-Compatible-Assistant/dp/B07TRSWY23/
-link3: https://www.itead.cc/sonoff-mini.html
+link4: https://www.amazon.com/gp/product/B0829V6JKG
+link: https://www.itead.cc/sonoff-mini.html
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/sonoff-mini
 ---
 
 The Sonoff Mini is, as the name implies, a very small device, designed to be hidden where there's only supposed to be cables. Since it's not supposed to be visible, it's also designed to easily attach an external button.
 
-Tasmota can be flashed on this device via OTA using the [Sonoff DIY](https://tasmota.github.io/docs/#/Sonoff-DIY) feature.
+Tasmota can be flashed on this device via OTA using the [Sonoff DIY](https://tasmota.github.io/docs/Sonoff-DIY) feature.
 
+## Serial Flashing
 Several free GPIOs are available. The OTA jumper pin is the most accessible and very easy to use on a pin header.
 
 ![PCB with GPIO's etc labelled](https://user-images.githubusercontent.com/3912017/66733148-dfc3d300-ee5e-11e9-8715-87c8ecb844a7.jpg)

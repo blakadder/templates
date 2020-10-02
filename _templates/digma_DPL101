@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-27
+title: Digma DiPlug 100S
+model: DPL101
+image: /assets/images/digma_DPL101.jpg
+template: '{"NAME":"Digma DiPlug 100s","GPIO":[56,0,157,255,0,134,255,255,255,17,132,21,0],"FLAG":15,"BASE":18}' 
+link: 
+link2: 
+mlink: https://digma.ru/catalog/item/2679
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

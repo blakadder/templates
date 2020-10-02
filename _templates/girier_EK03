@@ -1,0 +1,16 @@
+---
+date_added: 2020-04-12
+title: Girier EK03 RF433Mhz 3 Gang
+model: EK03
+image: /assets/images/girier_EK03.jpg
+template: '{"NAME":"EK03","GPIO":[157,0,0,0,22,17,0,0,19,21,23,0,18],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000242679288.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+
+PCBa marking: YC-WN-L03C-A-V1.3

@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-25
+title: Enklen 7W 600lm
+model: SPQA6007-A
+image: /assets/images/enklen_SPQA6007-A.jpg
+template: '{"NAME":"Enklen E27 7W RGBCW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/gp/product/B07N1DVYSC/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

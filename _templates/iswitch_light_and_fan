@@ -1,0 +1,48 @@
+---
+date_added: 2020-07-10
+title: iSwitch Light & Fan
+model: MGWF04W
+image: /assets/images/iswitch_light_and_fan.jpg
+template: '{"NAME":"iSwitchOZ Light Fan","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://iswitchoz.com.au/products/google-alexa-wifi-light-fan-switch-aust-certified-iswitch
+link2: 
+mlink: https://iswitchoz.com.au/products/google-alexa-wifi-light-fan-switch-aust-certified-iswitch
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---
+After configuring your WiFi details and configuring the template, use the console to issue the following commands:
+
+'Backlog TuyaMCU 12,9; TuyaMCU 11,1'
+
+- TuyaMCU 12,9 configures the light switch
+- TuyaMCU 11,1 configures the fan switch
+
+As the fan switch takes enums, we need rules to handle the fan switch when it's used from the switch (Rule 1), and a rule to set the fan speed and on/off when changed via MQTT (Rule 2)
+
+Next add the following rules:
+
+Rule: Publish speed to MQTT when using the physical switch.
+
+```console
+Rule1 
+	on TuyaReceived#Data=55AA03070005030400010016 DO Publish stat/%topic%/SPEED 3 endon 
+	on TuyaReceived#Data=55AA03070005030400010117 DO Publish stat/%topic%/SPEED 2 endon 
+	on TuyaReceived#Data=55AA03070005030400010218 DO Publish stat/%topic%/SPEED 1 endon
+```
+`Rule1 ON`
+
+Set speed when commands arrive from OpenHAB via MQTT.
+
+>  0 = Off, 1 = Slow, 2 = Medium, 3 = Fast, 4 = On (last speed)
+
+```console
+Rule2
+	on Event#0 DO Power1 0 endon  
+	on Event#1 DO Backlog Power1 1; TuyaSend4 3,2 endon 
+	on Event#2 DO Backlog Power1 1; TuyaSend4 3,1 endon 
+	on Event#3 DO Backlog Power1 1; TuyaSend4 3,0 endon
+	on Event#4 DO Power1 1 endon
+```
+`Rule2 ON`

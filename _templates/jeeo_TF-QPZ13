@@ -5,7 +5,7 @@ link: https://www.amazon.com/Jeeo-Smart-Equivalent-Compatible-Home/dp/B07C46YBQB
 image: https://static.wixstatic.com/media/e4f6f4_493a17ffa38448298cf3886e1f3c3f9f~mv2_d_1381_1332_s_2.jpg
 template: '{"NAME":"Jeeo","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.jeeosmarthome.com/product-page/jeeo-smart-wi-fi-led-color-light-bulb
+mlink: https://www.jeeosmarthome.com/product-page/jeeo-smart-wi-fi-led-color-light-bulb
 flash: tuya-convert
 category: bulb
 type: RGBCCT

@@ -1,0 +1,123 @@
+---
+date_added: 2020-07-31
+title: Zemismart Bladeless
+model: F1-BL
+image: /assets/images/zemismart_F1-BL.jpg
+template: '{"NAME":"Bladeless Fan","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4001093439442.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: Fan
+standard: global
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+This is a bladeless desk fan with a night light and battery power.
+
+## Flashing 
+Flashed via serial using broken out pins. Tuya Convert did not work due to new firmware.
+
+
+Disconnect the fan and USB charging port from the PCB. Connect your flasher to GND, TX and RX pins and power the board with its battery. Ground GPIO0 directly on the TYWE3S module.
+
+![](/assets/images/zemismart_F1-BL_pinout.jpg)
+
+## Configuration
+This device is very different from other Tuya devices. First of all it uses low power batter protocol although the wifi module is never turned off regardless of how the device is powered.
+
+You cannot turn the fan or the lights off at will. Only form of control is cycling through all available modes using a serial command, just replicating pushing a button. Statuses for light and fan are reported on another dpId. If you use the device buttons there will be no state change report from the MCU.
+
+You're still required to use TuyaMCU since you have to communicate to the MCU when the device connects to Wi-Fi.
+
+
+After applying the template and configuring Wi-Fi and MQTT issue
+
+```console
+TuyaMCU 51,51
+```
+
+To cycle through fan modes use:
+```console
+SerialSend5 55AA00090005010100010111
+```
+Fan mode is reported on dpId 3:
+```haskell
+55AA00050008030200040000000015 = off
+55AA00050008030200040000000116 = low
+55AA00050008030200040000000217 = medium
+55AA00050008030200040000000318 = high
+```
+
+To cycle through color modes use
+```console
+SerialSend5 55AA000900050F010001011F 
+```
+
+Color mode is reported on dpId 17:
+```haskell
+55AA00050008110200040000000023 - off
+55AA00050008110200040000000124 - white
+55AA00050008110200040000000225 - light blue
+55AA00050008110200040000000326 - blue
+55AA00050008110200040000000427 - purple
+55AA00050008110200040000000528 - orange
+55AA00050008110200040000000629 - color cycle
+55AA0005000811020004000000072A - green
+```
+
+There's an "anion mode" on dpId 101 that was controlled from the original app but there is no response from the MCU whether anything changes.
+
+```console
+# on
+serialsend5 55AA00090005650100010175 
+# off
+serialsend5 55AA00090005650100010074 
+```
+
+All in all very limited in "smart" functions. I tried to at least make it have an off switch using rules. Its not reliable and using device buttons still unsyncs the states but its more usable now:
+
+```console
+Rule1 
+	on event#fan do serialsend5 55AA00090005010100010111 endon 
+	on event#fanoff do event fan%var1% endon 
+	on tuyareceived#cmnddata=0302000400000000 do backlog var1 0; publish stat/%topic%/SPEED 0; publish stat/%topic%/RESULT = {"POWER2":"OFF"} endon 
+	on event#fan1 do event fan break 
+	on event#fan2 do backlog event fan; delay 2; event fan break 
+	on event#fan3 do backlog event fan; delay 2; event fan; delay2; event fan endon 
+	on tuyareceived#cmnddata=0302000400000001 do backlog var1 3; publish stat/%topic%/SPEED 1; publish stat/%topic%/RESULT = {"POWER2":"ON"} endon 
+	on tuyareceived#cmnddata=0302000400000002 do backlog var1 2; publish stat/%topic%/SPEED 2; publish stat/%topic%/RESULT = {"POWER2":"ON"} endon 
+	on tuyareceived#cmnddata=0302000400000003 do backlog var1 1; publish stat/%topic%/SPEED 3; publish stat/%topic%/RESULT = {"POWER2":"ON"} endon
+```
+
+Turn on/change mode with ˙event fan` and turn the fan off with `event fanoff`. Received status is written to a var which is used to know how many even fan's you need to go through for the fan to turn off. Current fan speed is reported to `stat/%topic%/SPEED` and fan's power state is published to `RESULT` topic using standard formatting.
+
+I've done the same for the light, but that one doesn't always complete the cycle to turn off the light:
+
+```console
+Rule2
+	on event#c do serialsend5 55AA000900050F010001011F endon 
+	on event#coff do event c%var2% endon 
+	on tuyareceived#cmnddata=1102000400000000 do backlog var2 0; publish stat/%topic%/COLOR off; publish stat/%topic%/RESULT {"POWER3":"OFF"} endon 
+	on event#c2 do backlog event c break 
+	on event#c3 do backlog event c; delay 2; event c2 break 
+	on event#c4 do backlog event c; delay 2; event c3 break 
+	on event#c5 do backlog event c; delay 2; event c4 break 
+	on event#c6 do backlog event c; delay 2; event c5 break 
+	on event#c7 do backlog event c; delay 2; event c6 break 
+	on tuyareceived#cmnddata=1102000400000001 do backlog var2 7; publish stat/%topic%/COLOR light blue; publish stat/%topic%/RESULT {"POWER3":"ON"} break 
+Rule2 + 
+	on tuyareceived#cmnddata=1102000400000002 do backlog var2 6; publish stat/%topic%/COLOR cyan; publish stat/%topic%/RESULT {"POWER3":"ON"} break 
+	on tuyareceived#cmnddata=1102000400000003 do backlog var2 5; publish stat/%topic%/COLOR blue; publish stat/%topic%/RESULT {"POWER3":"ON"} break 
+	on tuyareceived#cmnddata=1102000400000004 do backlog var2 4; publish stat/%topic%/COLOR purple; publish stat/%topic%/RESULT {"POWER3":"ON"} break 
+	on tuyareceived#cmnddata=1102000400000005 do backlog var2 3; publish stat/%topic%/COLOR yellow; publish stat/%topic%/RESULT {"POWER3":"ON"} break 
+	on tuyareceived#cmnddata=1102000400000006 do backlog var2 2; publish stat/%topic%/COLOR colorful; publish stat/%topic%/RESULT {"POWER3":"ON"} break 
+	on tuyareceived#cmnddata=1102000400000007 do delay 2; event c endon 
+```
+Turn on / change light using `event c` and turn it off with `event coff`. 
+
+## Improving the Device
+I was not satisfied at all with the completely crippled features of the device and ultimately decided to rewire the two buttons and the light LED directly to the TYWE3S module. There will be a blog about it on [blakadder.com](https://blakadder.com) once I'm sure everything is working as it should. For now a little teaser image:
+
+![teaser](/assets/images/zemismart_F1-BL_rewire.jpg)

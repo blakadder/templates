@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-25
+title: Avatto SYS-CS01
+model: SYS-CS01
+image: /assets/images/avatto_SYS-CS01.jpg
+template: '{"NAME":"Avatto","GPIO":[56,158,0,18,22,0,0,0,0,21,57,0,17],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000206502719.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: cover
+type: Curtain Switch
+standard: [ eu, us ]
+---

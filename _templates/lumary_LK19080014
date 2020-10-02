@@ -6,10 +6,10 @@ link: https://www.amazon.de/gp/product/B07ZFC6BJS
 image: https://user-images.githubusercontent.com/5904370/71821790-51dd3a00-3093-11ea-8281-023e3f140e1f.png
 template: '{"NAME":"Lumary TS3Y","GPIO":[0,0,0,0,0,0,0,0,0,37,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.co.uk/Lumary-Equivalent-Dimmable-Vintage-Filament/dp/B07RL1N7MX
-link3: http://www.lumary.tech/
+mlink: http://www.lumary.tech/
 flash: tuya-convert
 category: bulb
-type: WW
+type: Dimmable
 standard: e27
 ---
 

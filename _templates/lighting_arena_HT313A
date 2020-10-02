@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-13
+title: Lighting Arena 
+model: HT313A
+image: /assets/images/lighting_arena_HT313A.jpg
+template: '{"NAME":"Lighting Arena Smart Plug","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.fr/gp/product/B07TX78P87/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

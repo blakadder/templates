@@ -20,7 +20,3 @@ Like most devices, GPIO0 has to be held low during power up to get into flash mo
 ![img_8334](https://user-images.githubusercontent.com/1296162/50830737-8b069100-12fd-11e9-83b0-1d9b1ee42fb9.JPG)
 ![img_3255](https://user-images.githubusercontent.com/1296162/50830739-8b9f2780-12fd-11e9-83b3-bdaea3f50bb2.JPG)
 ![img_3282](https://user-images.githubusercontent.com/1296162/50830740-8b9f2780-12fd-11e9-9a11-9572d9990e44.JPG)
-
-## IR Codes List
-[IR Code List](https://tasmota.github.io/docs/#/Codes-for-IR-Remotes-(for-YTF-IR-Bridge))
-

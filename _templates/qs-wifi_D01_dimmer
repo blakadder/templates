@@ -1,16 +1,16 @@
 ---
 date_added: 2019-12-06
-title: QS-WiFi-D01 150W
-category: switch
+title: QS-WiFi-D01-TRIAC 150W
+category: relay
 type: Dimmer
 standard: global
+mlink: http://www.aihomestyle.com/content/170.html
 link: https://www.aliexpress.com/item/33010332202.html
-image: https://user-images.githubusercontent.com/36734573/67634487-efaad080-f8bc-11e9-923f-4aa8babfd609.png
-template: '{"NAME":"WiFi-Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.banggood.com/MoesHouse-DIY-Smart-WiFi-Light-LED-Dimmer-Switch-Smart-LifeTuya-APP-Remote-Control-12-Way-Switch-Works-With-Alexa-Echo-Google-Home-p-1509161.html
+image: /assets/images/qs-wifi_D01_dimmer.jpg
+template: '{"NAME":"WiFi-Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
 ---
-
-The **Wi-Fi Smart Dimmer Module 150W** is an in-wall push-button dimmer switch sold as white-label and by various brands e.g., _Moes, MoesHouse MS-105, HomCloud, Malmbergs, TOOGOO, Baakey, ..._
+The **Wi-Fi Smart Dimmer Module 150W** is an in-wall push-button dimmer switch, manufactured by Aihomestyle Co LTD and sold as white-label QS-WiFi-D01-TRIAC and also by various brands e.g., _Moes, MoesHouse MS-105, HomCloud, Malmbergs, TOOGOO, Baakey, ..._
 
 ![dimmer-1](https://user-images.githubusercontent.com/36734573/62205945-ef1f9e00-b390-11e9-89c6-05173e559a97.jpg)
 
@@ -32,7 +32,7 @@ The Dimmer has a **LM1 ESP8266** module with 1MB Flash onboard, combined with a 
 ### Flashing Guide
 
 #### OTA
-This dimmer is based on Smart Life / **Tuya** App. [Tuya-Convert](https://github.com/arendst/Tasmota/wiki/Tuya-OTA) currently works, but could be patched with future firmware updates.
+This dimmer is based on Smart Life / **Tuya** App. [Tuya-Convert](https://tasmota.github.io/docs/Tuya-Convert/) currently works, but could be patched with future firmware updates.
 
 #### Serial
 - ⚠️️ **Special Attention** ⚠️️ 
@@ -200,9 +200,7 @@ dim="FF55"+hn(tmp*dimmlp)+"05DC0A"
 #
 ```
 
-To use the script, you have to compile Tasmota (v6.6.0.3 or higher) with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. You can use [GitPod](https://github.com/arendst/Sonoff-Tasmota/wiki/Compiling-Tasmota-on-Gitpod) or [TasmoCompiler](https://gitpod.io/#https://github.com/benzino77/tasmocompiler).
-
-A precompiled binary is also here: [**Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip**](https://github.com/arendst/Tasmota/files/3776333/Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip)
+To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
 
 Once the device is flashed with Tasmota, open `Configuration` -> `Edit script` in the web UI and paste the contents of the script in the window. Then set the `script enable` checkbox and push `Restart`.
 To hide "Counter1" in the WebUI you can enter `WebSensor1 0` on the Tasmota Console.

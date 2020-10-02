@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-18
+title: Brilex Nightstand Lamp
+model: BLX-DL-014-WHI
+image: /assets/images/brilex_BLX-DL-014-WHI.jpg
+template: '{"NAME":"Smart Table Lamp","GPIO":[0,0,18,0,37,157,0,0,38,17,39,0,40],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Brilex-Compatible-Dimmable-Nightstand-Changing/dp/B08699YV77/
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Light
+standard: global
+---

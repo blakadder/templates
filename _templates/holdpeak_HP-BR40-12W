@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-26
+title: Holdpeak BR40 12W 1100lm
+model: HP-BR40-12W
+image: /assets/images/holdpeak_HP-BR40-12W.jpg
+template: '{"NAME":"HP-BR40-12W","GPIO":[0,0,0,0,140,37,0,0,38,0,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07WTL63W4/
+link2: 
+mlink: https://711lighting.com/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---

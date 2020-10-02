@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-29
+title: Aukey SH-PA3
+model: 
+image: /assets/images/aukey_SH-PA3.jpg
+template: '{"NAME":"Aukey SH-PA3","GPIO":[0,0,158,0,57,17,0,0,22,0,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/AUKEY-Outlets-Required-Compatible-Assistant/dp/B07KSD2KMS/
+link2: 
+mlink: http://old.aukey.com/products/dual-outlet-smart-plug-sh-pa3
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

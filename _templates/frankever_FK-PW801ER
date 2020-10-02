@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-19
+title: FrankEver 16A
+model: FK-PW801ER
+image: /assets/images/frankever_FK-PW801ER.jpg
+template: '{"NAME":"FrankEver FK-PW801ER","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32947724448.html
+link2: 
+mlink: https://frankever.en.alibaba.com/product/60757713127-804755389/Smart_Plug_Socket_European_Compatible_with_Amazon_Alexa_Echo_Google_Home_Assistance.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

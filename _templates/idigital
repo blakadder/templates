@@ -1,0 +1,19 @@
+---
+date_added: 2020-05-26
+title: iDIGITAL
+model: SAA-192507-EA
+image: /assets/images/idigital.jpg
+template: '{"NAME":"Brilliant","GPIO":[0,0,0,0,52,0,0,0,21,90,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.ozbargain.com.au/node/539082
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: au
+---
+Generic smart plug from Reject Shop. Advertises Tuya Smart app.
+
+Hold down the switch for ~8 seconds to get in to pairing mode
+
+If tuya-convert doesn't work there are serial pins inside. Uses a RCmall ESP8266-3 module.

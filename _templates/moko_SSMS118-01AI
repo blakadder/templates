@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-18
+title: MoKo Scene Life
+model: SSMS118-01AI
+image: /assets/images/moko_SSMS118-01AI.jpg
+template: '{"NAME":"Moko Smart Swi","GPIO":[158,0,0,0,39,38,0,0,56,0,37,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/MoKo-Control-Function-Supports-Network/dp/B07W1ZNMPH/
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: global
+---

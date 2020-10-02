@@ -1,0 +1,16 @@
+---
+date_added: 2020-05-12
+title: ZMAi-90 Digital 
+model: ZMAi-90
+image: /assets/images/ZMAi-90.jpg
+template: '{"NAME":"ZMAi-90","GPIO":[0,148,0,149,0,0,0,0,21,90,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000603195733.html
+link2: https://www.amazon.com/Digital-Energy-Metering-90-250V-ZMAi-90/dp/B088BHPVBF/
+link3: https://www.amazon.de/Xigeapg-Schalter-Stromverbrauch-Energie%C3%BCBerwachungsmesser-Fernbedienung/dp/B0875P8Y3V/
+mlink: 
+flash: tuya-convert
+category: sensor
+type: Energy Meter
+standard: global
+---
+Full instructions [here](https://www.creationfactory.co/2019/12/reverse-engineering-zmai-90-din-rail.html)

@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-21
+title: Emuni TB95 9W 850Lm 
+model: TB95
+image: https://user-images.githubusercontent.com/5904370/72855338-66d2e380-3cb7-11ea-8d16-b29f4dc009d2.png
+template: '{"NAME":"TB95","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/gp/product/B07W6PLVZG
+link2: https://www.amazon.es/Emuni-Bombilla-Inteligente-Funciona-Millones/dp/B07W6PLVZG
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

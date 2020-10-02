@@ -1,0 +1,16 @@
+---
+date_added: 2020-07-11
+title: Positivo 4.5W 350lm
+model: 
+image: /assets/images/positivo_11152171.jpg
+template: '{"NAME":"V-TAC VT5164","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.br/Positivo-Casa-Inteligente-Decorativas-Compat%C3%ADvel/dp/B084J67FST/ 
+mlink: https://www.positivocasainteligente.com.br/smart-lampada-spot
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: gu10
+---
+Color channel mapping to G,B,R,Wc,Ww:
+
+`SetOption37 30`

@@ -8,7 +8,7 @@ link: https://www.amazon.com/Switch-Etekcity-Neutral-Required-Warranty/dp/B07MBX
 image: https://user-images.githubusercontent.com/5904370/66718127-ab113680-ede0-11e9-945b-c717cf56ab04.png
 template: '{"NAME":"Etekcity 3Way","GPIO":[0,0,0,0,23,29,0,0,82,22,10,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.etekcity.com/product/100340
+mlink: https://www.etekcity.com/product/100340
 ---
 
 ```console

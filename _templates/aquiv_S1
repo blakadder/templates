@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-08
+title: Aquiv S1
+model: WF-PLUG-1A
+image: /assets/images/aquiv_S1.jpg
+template: '{"NAME":"Aquiv S1","GPIO":[0,0,157,0,56,0,0,0,21,17,0,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.com/dp/B01NGYWZY9
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

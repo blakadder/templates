@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-12
+title: Riversong Juno 10W
+model: 
+image: /assets/images/riversong_juno_10w.jpg
+template: '{"NAME":"Juno10","GPIO":[0,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.in/Riversong-Juno-10W-Smart-Bulb/dp/B07JB1F39X/
+mlink: http://www.riversongindia.com/juno-10.php
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: b22
+---
+SM16716 RGB 

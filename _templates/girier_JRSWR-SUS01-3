@@ -1,0 +1,13 @@
+---
+date_added: 2020-03-31
+title: Girier JRSWR-US01 No Neutral 3 Gang
+model: 
+image: /assets/images/girier_JRSWR-SUS01-3.jpg
+template: '{"NAME":"Girier JRSWR-U","GPIO":[0,0,0,0,21,18,0,0,19,23,17,22,157],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000192490763.html
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---

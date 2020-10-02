@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-18
+title: 7hSevenOn Home 10022 USB
+model: 10022
+image: /assets/images/7hsevenoh_usb.jpg
+template: '{"NAME":"7hSevenOn","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://orion91.com/enchufes/enchufe-wifi-con-usb-control-via-smartphone-app-7hsevenon-home
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

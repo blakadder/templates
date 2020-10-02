@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-07
+title: Positivo 10W 806lm
+model: 11147015
+image: /assets/images/positivo_11147015.jpg
+template: '{"NAME":"Positivo Bulb","GPIO":[0,0,0,0,37,40,0,0,38,50,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.positivocasainteligente.com.br/p/41/smart-lampada-wi-fi
+link2: https://www.amazon.com.br/L%C3%A2mpada-Positivo-Casa-Inteligente-Compat%C3%ADvel/dp/B082FTRR76
+mlink: https://www.positivocasainteligente.com.br/iluminacao/smart-lampada
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

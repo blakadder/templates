@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-09
+title: Silvergear Slimme Stekker
+model: 1117
+image: /assets/images/silvergear_1117.jpg
+template: '{"NAME":"Silvergear SmartHomePlug","GPIO":[0,0,0,122,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.nl/Silvergear-Smart-WiFi-Stekker-Pack/dp/B07ZJNHN9S
+link2: 
+mlink: https://silvergear.eu/product/slimme-stekker-wi-fi/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

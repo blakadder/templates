@@ -5,7 +5,7 @@ link: https://www.amazon.de/Steckdose-Aunics-kompatibel-Energiesteuerung-Elektro
 image: https://images-na.ssl-images-amazon.com/images/I/71xbCWke2XL._SL1500_.jpg
 template: '{"NAME":"AUNICS","GPIO":[0,0,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Plug

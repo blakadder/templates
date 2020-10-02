@@ -1,0 +1,17 @@
+---
+date_added: 2020-06-14
+title: LVL 300mm Round 
+model: 
+image: /assets/images/lvl_300.jpg
+template: '{"NAME":"LVL 300m Round 24W Ceiling LED","GPIO":[0,0,0,0,0,37,0,0,0,47,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.aliexpress.com/item/4000115477858.html
+link2: 
+mlink: https://lvlinc.aliexpress.com/store/1507131
+flash: tuya-convert
+category: light
+type: Ceiling Light
+standard: global
+---
+```console
+Backlog SetOption82 1; SetOption91 1; SetOption92 1; DimmerRange 0,100
+```

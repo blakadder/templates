@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-24
+title: Sinilink DC6V-36V Module
+model: XY-WF36V
+image: https://user-images.githubusercontent.com/5904370/73057724-7fe3bc00-3e92-11ea-9f10-b6dda592fa96.png
+template: '{"NAME":"Sinilink XY-WF5V","GPIO":[0,0,0,0,21,255,0,0,17,52,0,0,255],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000111899355.html
+link2: https://www.banggood.com/XY-WF36V-Sinilink-WIFI-Remote-Control-Relay-Switch-ModuleIoF-Wireless-Intelligent-Control-Device-for-Smart-Home-DC-12V-24V-DC6V-36V-p-1566412.html
+link3: https://www.amazon.com/Mobile-Control-DC6V-36V-ESP-12F-XY-WF36V/dp/B07ZQXY4XD
+mlink: https://www.alibaba.com/product-detail/Sinilink-WIFI-mobile-phone-remote-control_62357498833.html
+flash: serial
+category: relay
+type: Relay
+standard: global
+---

@@ -1,0 +1,16 @@
+---
+date_added: 2020-05-06
+title: NEO Coolcam NAS-WR01W 16A
+model: NAS-WR01W
+category: plug
+type: Plug
+standard: eu
+flash: tuya-convert
+link: https://www.aliexpress.com/item/32963796295.html
+link2: https://www.amazon.de/ELENXS-Coolcam-Intelligent-Wireless-Stecker-Anschluss-Fernbedienung-Ger%C3%A4tebuchse/dp/B07RPY2J8F/
+link3: https://www.gearbest.com/power-strips/pp_009196064820.html
+mlink: 
+image: /assets/images/neo_coolcam_NAS-WR01W-16A.jpg
+template: '{"NAME":"Neo Coolcam 16","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+template-alt: '{"NAME":"Neo Coolcam 16","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+---

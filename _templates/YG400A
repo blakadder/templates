@@ -1,0 +1,78 @@
+---
+date_added: 2020-06-30
+title: Smoke Alarm
+model: YG400A
+category: sensor
+type: Smoke Sensor
+standard: global
+flash: serial
+image: /assets/images/YG400A.jpg
+template: '{"NAME":"YG400A","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000818367545.html
+link2: https://www.aliexpress.com/item/4000956483408.html
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+This is a Tuya photoelectric smoke sensor with a alarm. It has a TYWE3S module, a N76E003AQ20 Nuvoton 1T 8051-based Microcontroller and BL5980 Low Voltage Photoelectric Smoke Detector ASIC with Interconnect and Timer Mode. PCB is marked with YG400A hence the model number but it can be found under various brands such as Earykong, Avatto or whitelabel.
+
+Identified with MCU Product ID: `{"p":"4w4a6noxfgk0yktc","v":"1.0.0"}`. 
+
+![](/assets/images/YG400A-content.jpg)
+
+## Flashing
+Device came with the latest Tuya firmware which cannot be Tuya-Converted at the time of writing (June 2020). To flash the device you will need to open it and solder to it. Due to the unfortunate placing of the photoelectric chamber you will have to use some other solder points instead of the trusty TYWE3S.
+
+Connect the folowing:
+- GND and RST to disable the MCU
+- VCC and EN
+- VCC, GND, TX and RX to your serial-to-USB adapter
+- ground GPIO0 during boot
+
+![](/assets/images/YG400A-pinout.jpg)
+
+When finished you will have to remove the R4 and R5 resistors and bridge the pads or simply bridge them with solder and/or small wires. Without this Tasmota will not be able to communicate with the MCU properly.
+
+## Functions
+`dpID 1` smoke: 0 = clear / 1 = smoke detected     
+`dpID 4` tamper alarm = 0 = ok / 1 = tampered     
+`dpID 14` battery status: 0 = low / 1 = medium / 2 = high     
+
+Sensor uses the built in speaker as beeping alarm when dpId 1 is triggered.
+
+The speaker and led on the test button are controlled by the MCU and there is no way to control them by software.
+
+## Configuration
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+
+Set the following configuration:
+```json
+Backlog TuyaMCU 11,4; TuyaMCU 51,51
+```
+
+## Functions
+
+To get smoke detected alerts and battery status use rules to send data to custom topics. Battery status is sent rarely but I noticed it is always reported at first power on after batteries are replaced.
+
+```console
+Rule1 
+  ON TuyaReceived#CmndData=0E04000102 DO publish2 stat/%topic%/BATT high ENDON 
+  ON TuyaReceived#Data=0E04000101 DO publish2 stat/%topic%/BATT medium ENDON 
+  ON TuyaReceived#Data=0E04000100 DO publish2 stat/%topic%/BATT low ENDON 
+  ON TuyaReceived#CmndData=0104000100 DO publish stat/%topic%/SMOKE OFF ENDON 
+  ON TuyaReceived#CmndData=0104000101 DO Publish stat/%topic%/SMOKE ON ENDON
+```
+Enable rule with `Rule1 1`
+
+After smoke is detected the sensor rarely reports the off state so you will need to account for that in your home automation software since we cannot solve it with rules due to  device shutting down after a few seconds. 
+
+Tamper status will be mapped to POWER1. ON is when the back lid is removed and OFF when the sensor is properly installed. You cannot control this state with the webUI.
+
+Label webUI buttons
+```console
+Backlog WebButton1 Tamper
+```

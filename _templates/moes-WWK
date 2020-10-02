@@ -12,7 +12,7 @@ link: https://www.aliexpress.com/item/33000836814.html
 image: https://user-images.githubusercontent.com/5904370/70394150-607ff500-19f2-11ea-84a1-9b1f3d035c89.png
 template: '{"NAME":"Smart Socket","GPIO":[0,0,0,0,52,53,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.moeshouse.com/collections/smart-socket/products/universal-wifi-smart-wall-socket-13a-outlet-glass-panel-french-app-remote-control-works-with-amazon-echo-alexa-google-home
+mlink: https://www.moeshouse.com/collections/smart-socket/products/universal-wifi-smart-wall-socket-13a-outlet-glass-panel-french-app-remote-control-works-with-amazon-echo-alexa-google-home
 ---
 
 Serial number changes according to plug type and color:    

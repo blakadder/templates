@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-08
+title: Zemismart BCM300D-TY
+model: 
+image: /assets/images/zemismart_BCM300D-TY.jpg
+template: '{"NAME":"Zemistart_Curt","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/33013536157.html
+link2: 
+mlink: https://www.zemismart.com/zemismart-wall-mount-ceiling-mount-electric-curtain-double-wifi-tuya-app-alexa-google-assistant-voice-control-adjustable-track-p0247.html
+flash: tuya-convert
+category: cover
+type: Motor
+standard: global
+---

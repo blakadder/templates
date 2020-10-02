@@ -1,0 +1,30 @@
+---
+date_added: 2020-01-23
+title: Magic UFO RGBW
+model: 26-011-945
+image: https://user-images.githubusercontent.com/5904370/72972842-6d9f4a80-3dcc-11ea-8a4c-97305f9a4434.png
+template: '{"NAME":"Magic UFO","GPIO":[17,0,157,0,0,37,0,0,39,40,38,56,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B00Q7STR4E
+link2: https://www.aliexpress.com/item/32878373193.html
+link3: https://www.amazon.com/XCSOURCE-Controller-Android-Smartphones-Control/dp/B00Q6C6GS6
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+
+![image](https://user-images.githubusercontent.com/5904370/72972901-8871bf00-3dcc-11ea-9f8f-33af25bd75f2.png)
+![image](/assets/images/magic_UFO_parts.jpg)
+![image](/assets/images/magic_UFO_pcb.jpg)
+![image](/assets/images/magic_UFO_connections.jpg)
+
+From LEFT to RIGHT:
+* VCC (First Red Cable - soldered on LVR IC)
+* RX (Second Red Cable - soldered on ESP8285 RXD0)
+* TX (First Yellow Cable - soldered on ESP8285 TXD0)
+* GND (Second Yellow Cable - soldered on PCB)
+
+FOr entering programming mode, short GND to IO0 on ESP
+
+![image](https://rees52.com/img/cms/02/RS1463%20(1).jpg)

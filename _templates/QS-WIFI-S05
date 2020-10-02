@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-03
+title: QS-WIFI-S05
+model: 
+image: /assets/images/QS-WIFI-S05.jpg
+template: '{"NAME":"QS-WIFI-S05","GPIO":[17,255,255,255,255,0,0,0,82,21,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.de/gp/product/B0823M4Z84/
+link2: 
+mlink: 
+flash: tuya-convert
+category: relay
+type: Switch
+standard: global
+---

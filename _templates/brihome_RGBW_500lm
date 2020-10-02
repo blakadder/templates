@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-26
+title: BriHome 6,5W 500lm
+model: 52089001 YMDF A60 6,5W 1817-RGB30 500LM
+image: https://user-images.githubusercontent.com/5904370/73145123-e7288880-40ab-11ea-9447-907a606042d1.png
+template: '{"NAME":"BRI E27 6,5W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":20}' 
+link: https://www.amazon.com/Multicolor-Dimmable-Smartphone-Assistant-Required/dp/B07DWVSMZ8
+link2: 
+mlink: https://www.bri-home.com/product/BriHome-Smart-LED-Bulb-1.html
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-16
+title: SimpleHome
+model: XWS7-1001-WHT
+image: /assets/images/simplehome_XWS7-1001-WHT.jpg
+template: '{"NAME":"SimpleHome","GPIO":[53,0,0,0,0,0,0,0,21,56,17,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/SimpleHome-XWS7-1001-WHT-Wi-Fi-Controlled-Outlet/dp/B01CR8QPS8
+link2: 
+mlink: http://gosimplehome.com/product/smart-controlled-wall-outlet/
+flash: serial
+category: plug
+type: Plug
+standard: us
+---

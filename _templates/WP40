@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-07
+title: WP40
+model: 2ALLU-WP40
+image: /assets/images/WP40.jpg
+template: '{"NAME":"WP40","GPIO":[33,0,0,0,56,0,0,0,21,17,22,23,32],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07BGTWZXV/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-09
+title: Albohes 2 Channel
+model: SH-08
+image: /assets/images/albohes_SH-08.jpg
+template: '{"NAME":"Albohes SH-08","GPIO":[0,148,18,149,57,56,0,0,21,157,17,0,22],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B07BT6M4YL
+link2: 
+mlink: https://www.albohes.com/products/sh-08-smart-breaker-white
+flash: serial
+category: relay
+type: Switch
+standard: global
+---

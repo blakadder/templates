@@ -1,0 +1,37 @@
+---
+date_added: 2020-03-24
+title: LC Technology ESP8266 5V
+model: ESP8266-01S
+image: /assets/images/LC-ESP8266.jpg
+template: '{"NAME":"ESP8266-01S","GPIO":[21,148,0,149,0,0,0,0,0,0,0,0,0],"FLAG":1,"BASE":18}' 
+link: https://www.amazon.de/dp/B078Q3D5MV/
+link2: 
+mlink: http://www.chinalctech.com/cpzx/1/333.html
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+The LC Technology relay devices use GPIO1 and GPIO3 for the serial communications used to control the relays. You do not need to specify these in the template. SerialSend uses these standard serial communications GPIO by default.
+
+- Set module to Generic (18) (in module configuration and click save)
+- Set D3 GPIO0 as Relay1 (21) (in module configuration and click save)
+- Disable SerialLog (type seriallog 0 in the Tasmota console)
+- Add the following rules typing in the console: 
+
+```console
+Rule1
+ on System#Boot do Backlog Baudrate 9600; SerialSend5 0 endon
+ on Power1#State=1 do SerialSend5 A00101A2 endon
+ on Power1#State=0 do SerialSend5 A00100A1 endon
+```
+
+Enable the rule: `Rule1 1`
+
+Note: If that doesn't work for you, you may find that using Power1#Boot as the event to trigger the baud rate setting (instead of System#Boot) works, as it did for me. So the alternate rule is: 
+```console
+Rule1
+on Power1#Boot do Backlog Baudrate 9600; SerialSend5 0 endon
+on Power1#State=1 do SerialSend5 A00101A2 endon
+on Power1#State=0 do SerialSend5 A00100A1 endon
+```

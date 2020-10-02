@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-01
+title: AHRise 4+4AC+4USB
+model: AHR-083
+image: /assets/images/ahrise_AHR-083.jpg
+template: '{"NAME":"AHRise-083","GPIO":[0,0,0,0,56,17,0,0,22,21,23,24,0],"FLAG":0,"BASE":18}' 
+link: http://www.amazon.com/dp/B07WGN3X5F
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: us
+---

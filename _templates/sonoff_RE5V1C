@@ -1,28 +1,35 @@
 ---
 date_added: 2019-10-13
-title: Sonoff 5V Inching/Selflock Module RE5V1C
-category: switch
+title: Sonoff RE5V1C 5V Inching/Selflock  
+model: IM171018005
+category: relay
 type: Relay
 standard: global
-link3: https://www.itead.cc/sonoff-re5v1c.html
-image: https://cdn-media.itead.cc/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/e/re5v1c1000px-4.jpg
+mlink: https://www.itead.cc/sonoff-re5v1c.html
+image: /assets/images/sonoff_RE5V1C.jpg
 template: '{"NAME":"Sonoff RE5V1C","GPIO":[17,255,255,255,255,255,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link: https://www.itead.cc/smart-home/sonoff-re5v1c.html
+link2: https://www.banggood.com/SONOFF-RE5V1C-Relay-Module-5V-WiFi-DIY-Switch-Dry-Contact-Output-Inching-or-Selflock-Working-Modes-APP-or-Voice-or-LAN-Control-for-Smart-Home-p-1735630.html
+link3: https://www.aliexpress.com/item/4000204162474.html
+link4: https://www.aliexpress.com/item/4000089805053.html
 ---
+
+## Serial Flashing
+
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
+
+![Sonoff RE5V1C serial flash connections](https://user-images.githubusercontent.com/631241/71563034-6cd10c80-2add-11ea-835a-da65c8009632.jpg)
+
 
 ```
 GPIO1	ETX
 GPIO2	IO2
-GPIO3 ERX
+GPIO3   ERX
 GPIO4	RX
 GPIO5	TX
 ```
-## Serial Flashing
-
-Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
-
-![Sonoff RE5V1C serial flash connections](https://user-images.githubusercontent.com/631241/71563034-6cd10c80-2add-11ea-835a-da65c8009632.jpg)
 
 Access the serial interface by soldering wiring to the labled solder pads as shown in the image above - (3V3, ERX, ETX, GND) are available on the relay mounted side of the PCB. Note: use the ERX and ETX pins, not the two marked RX/TX.
 
 To place the board into flashing mode, depress the surface mounted button switch on the reverse side of the PCB while power is applied.
+The used voltage regulator is a Low-Dropout Linear Regulator. Named as LM1117 which can deliever up to 800-mA.

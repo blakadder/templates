@@ -5,7 +5,7 @@ link: https://www.monoprice.com/product?p_id=35556
 image: https://images.monoprice.com/productlargeimages/355562.jpg
 template: '{"NAME":"STITCH 35556","GPIO":[255,255,255,255,22,57,0,0,21,56,17,255,255],"FLAG":0,"BASE":18}'
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: plug
 type: Outdoor Plug

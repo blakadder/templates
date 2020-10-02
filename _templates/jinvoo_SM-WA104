@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-15
+title: Jinvoo SM-WA104 RGB
+model: SM-WA104
+image: /assets/images/jinvoo_SM-WA104.jpg
+template: '{"NAME":"Jinvoo LED Controller","GPIO":[0,0,0,0,29,39,0,0,37,17,38,0,30],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07H3RBHW5/
+link2: https://www.amazon.fr/gp/product/B07H3RBHW5/
+mlink: https://www.alibaba.com/product-detail/Jinvoo-WiFi-smart-LED-Strip-Light_60684459923.html
+flash: tuya-convert
+category: light
+type: LED Controller
+standard: global
+---

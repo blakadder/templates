@@ -1,0 +1,17 @@
+---
+date_added: 2020-08-09
+title: Onestyle SD-WL-02
+model: SD-WL-02
+image: /assets/images/onestyle_SD-WL-02.jpg
+template: '{"NAME":"JH-G01B1","GPIO":[0,145,0,146,0,0,0,0,17,56,21,0,0],"FLAG":0,"BASE":41}' 
+link: https://www.amazon.de/dp/B082CY79HJ
+link2: https://www.mediamarkt.de/de/product/_corn-technology-onestyle-sd-wl-02-2608118.html
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+Other strings that can help finding the device: WEE-RegNr .de 18502577
+
+Corn Technology GmbH Beyerbachestr. 9 D-65830 Kriftel/Ts. 

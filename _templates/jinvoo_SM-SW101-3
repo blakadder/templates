@@ -4,16 +4,10 @@ title: Jinvoo SM-SW101-3
 category: switch
 type: Switch
 standard: eu
+flash: tuya-convert
 link: https://www.amazon.de/dp/B07MHXP46M
-image: https://images-na.ssl-images-amazon.com/images/I/61FxMddrP4L._SL1500_.jpg
+image: /assets/images/jinvoo_SM-SW101-3.jpg
 template: '{"NAME":"Jinvoo Wall Sw","GPIO":[52,0,0,18,22,19,0,0,17,21,0,23,0],"FLAG":1,"BASE":18}' 
-link2: 
+mlink: http://www.xenon.cn/light-switch102/sm-sw101-3/sm-sw101-3z-.html
 ---
-
-Can be flashed via Tuya-Convert - https://github.com/ct-Open-Source/tuya-convert
-
-
-
-
-
 

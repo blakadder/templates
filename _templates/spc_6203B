@@ -1,0 +1,16 @@
+---
+date_added: 2020-05-15
+title: SPC Hera
+model: 6203B
+image: /assets/images/spc_6203B.jpg
+template: '{"NAME":"SPC HERA","GPIO":[157,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.es/dp/B07PCF4LBJ
+link2: https://www.aliexpress.com/item/33012812952.html
+link3: https://www.fnac.pt/Interruptor-Parede-Inteligente-Wi-Fi-SPC-Hera-Conectavel-Gadget-Conectavel-Casa/a6816892
+mlink: https://www.spc.es/spc-hera
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---
+EAN: 8436542856720

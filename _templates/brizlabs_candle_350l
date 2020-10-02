@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-14
+title: BrizLabs Candle 4,5W 350lm
+model: X0011XDV7R
+image: https://images-na.ssl-images-amazon.com/images/I/51qw7dhkOKL._AC_SL1000_.jpg
+template: '{"NAME":"BrizLabs RGBW","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/BrizLabs-Glühbirne-Millionen-Erforderlich-Kompatibel/dp/B07KZVWVVG
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e14
+---
+Recent buys (after June 2020) of this bulb do not work with tuya-convert.

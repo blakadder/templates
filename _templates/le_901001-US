@@ -1,0 +1,21 @@
+---
+date_added: 2020-01-10
+title: LE lampUX A19 850lm
+model: 901001-US
+type: RGBCCT
+category: bulb
+standard: e26
+image: https://user-images.githubusercontent.com/5904370/72110830-765a4000-3339-11ea-9d61-bd779ec4cc5f.png
+template: '{"NAME":"LE RGBWW 60W","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":1,"BASE":18}' 
+link: https://www.amazon.ca/dp/B07SZ43MQS
+link2: https://www.amazon.com/dp/B07L4RR1N2
+mlink: https://www.lepro.com/le-wifi-smart-light-bulb-901001-us-a.html
+---
+
+```console
+SetOption15 1
+```
+
+
+
+

@@ -1,10 +1,11 @@
 ---
 date: 2019-12-14
-title: Martin Jerry MJ-S01 15A
+title: Martin Jerry S01 15A
+model: MJ-S01
 category: switch
 type: Switch
 standard: us
-link: https://www.amazon.com/Martin-Jerry-Devices-required-installation/dp/B07GSTJ8TV
-image: https://user-images.githubusercontent.com/5904370/53685174-941d4880-3d17-11e9-93a5-1bd29f301333.png
-template: '{"NAME":"MJ Switch","GPIO":[0,0,0,0,57,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
+link: https://www.amazon.com/dp/B07GSTJ8TV
+image: /assets/images/martin-jerry-MJ-S01.jpg
+template: '{"NAME":"MJ-S01 Switch","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 ---

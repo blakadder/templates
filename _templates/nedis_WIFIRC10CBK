@@ -1,0 +1,16 @@
+---
+date_added: 2020-03-11
+title: Nedis Universal Remote Control
+model: WIFIRC10CBK
+category: misc
+type: IR Bridge
+flash: tuya-convert
+standard: global
+image: https://cdn.nedis.com/images/products_high_res/WIFIRC10CBK_P10.JPG
+template: '{"NAME":"Nedis IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+mlink: https://nedis.com/en-us/product/smart-living/smart-home/automation/550695156/wifi-smart-universal-remote-control-infra-red
+link: https://www.amazon.de/dp/B07WS1XP95/
+link2: https://www.webhallen.com/se/product/306187-Nedis-Wi-Fi-Smart-universalfjarrkontroll-infrarod
+---
+
+This device appears to be identical to the "YTF IR Bridge". The same template is used.

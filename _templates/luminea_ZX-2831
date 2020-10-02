@@ -8,6 +8,6 @@ link: https://www.amazon.de/Luminea-Home-Control-Smart-Bulb/dp/B074ST4XF4
 image: https://user-images.githubusercontent.com/5904370/66717664-c3328700-eddb-11e9-97aa-fb8366ae4953.png
 template: '{"NAME":"Luminea CCT","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.pearl.de/a-ZX2831-3103.shtml
-link3: https://www.luminea.info/WIFI-E27-Leuchtmittel-10-Watt-Weiss-mit-Alexa-Sprac-ZX-2831-919.shtml
+mlink: https://www.luminea.info/WIFI-E27-Leuchtmittel-10-Watt-Weiss-mit-Alexa-Sprac-ZX-2831-919.shtml
 ---
 

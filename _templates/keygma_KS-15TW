@@ -2,10 +2,10 @@
 date_added: 2020-01-01
 title: Keygma KS-15TW
 link: https://www.amazon.com/Pack-KEYGMA-Charger-Receptacle-Supported/dp/B07W9BZ2T7
-image: http://www.keygma.com/assets/images/ks15tw-white.jpg
+image: /assets/images/keygma_KS-15TW.jpg
 template: '{"NAME":"Keygma KS-15T","GPIO":[0,0,0,0,0,56,0,0,21,9,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: http://www.keygma.com/en/KS-15TW.html
+mlink: http://www.keygma.com/en/KS-15TW.html
 flash: tuya-convert
 category: plug
 type: Wall Outlet

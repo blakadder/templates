@@ -5,7 +5,7 @@ link: https://www.hykker.com/akcesoria/zarowka-7-w-z-wi-fi/
 image: https://www.hykker.com/wp-content/uploads/2019/11/zarowka.jpg
 template: '{"NAME":"Hykker 7W","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: CCT

@@ -1,0 +1,45 @@
+---
+date_added: 2019-12-05
+title: TreatLife DS02S
+link: https://www.amazon.com/Treatlife-Neutral-Compatible-Assistant-Schedule/dp/B07YKGMXDM
+image: https://user-images.githubusercontent.com/35885181/70183389-ee7e7780-16a2-11ea-994b-5eef1a927114.jpg
+template: '{"NAME":"DS02S Dimmer","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
+link2: https://www.amazon.com/Treatlife-Neutral-Compatible-Assistant-Schedule/dp/B07YKFSWJN
+mlink: https://www.treatlife.tech/collections/smart-dimmer-switch/products/treatlife-2-4ghz-wi-fi-smart-dimmer-switch-neutral-wire-needed-compatible-with-alexa-google-assistant-and-ifttt-schedule-remote-control-single-pole-etl-listed-1
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: us
+---
+Works for flashing via Tuya-Convert on 11/30/2019,  even after allowing Smart Life app to update firmware to WiFi Module: 3.1.2 and MCU Module: 3.2.6 (which you should probably do before converting to custom firmware so that the MCU has the latest features).
+
+Also would work for flashing via serial with this setup: ![TreatLife DS02S serial programming](https://user-images.githubusercontent.com/35885181/70186043-41a6f900-16a8-11ea-86ca-b470d13ce8d5.jpg)
+
+This is a Tuya MCU Dimmer Module
+
+Post Tasmota version 6.6.0.10, additional steps are needed:
+
+1. Goto Console on WebUI
+2. Enter WebLog 4.  If the heartbeat packed is not returning enter ``setoption97 1`` to change the baud rate.
+3. Enter this command to get the dimmer working and the allow the buttons to work if the switch is off: ``BackLog TuyaMCU 21,2;SetOption20 1;SetOption54 1``
+4. If you want the minimum brightness to be 1%, enter this command: ``Backlog TuyaSend2 3,10; DimmerRange 10,1000```   
+ * If you want the minimum brightness to be 10%, enter this command: ``Backlog TuyaSend2 3,100; DimmerRange 100,1000```
+5. If the bulb flickers at the minimum brightness, try raising the minimum (or changing the dimmer mode if we figure out how to do that: 3 dimmer modes are probably related to ```TuyaSend4 4,<#>``` but it just seems to reset to 00 when you check after setting it. This needs verification, not sure what values are actually used for the "Mode 1", "Mode 2", "Mode 3" from the stock Tuya/Smart Life firmware.)
+6. If no dimming occurs try changing the dimming mode:
+  - Dimming Mode 1: `SerialSend5 55AA00060005040400010013`
+  - Dimming Mode 2: `SerialSend5 55AA00060005040400010114`
+  - Dimming Mode 3: `SerialSend5 55AA00060005040400010215`
+7. To have a correct mapping of percentages, send that command `ledtable 0`.
+
+To see the current minimum brightness and dimmer mode, enter: ```BackLog WebLog 4;SerialSend5 55aa0001000000``` (to return to default log level after, enter ```WebLog 2```).
+
+The current states are the "DpIdData" entries:
+1. The "DpId":1 line shows the switch's on/off status
+2. "DpId":2 shows the current brightness value (you have to convert it from HEX to decimal and divide by 10 get the percentage: "DpIdData":"00000182" converts from HEX 182 to decimal 386/10=38.6%.
+3. "DpId":3 shows the current minimum brightness (also need to convert from HEX to decimal and divide by ten: "DpIdData":"0000000A" = 1.0%)
+4. "DpId":4 shows the current dimmer mode (00 is definitely "Mode 1" from the stock Tuya/Smart Life firmware).
+
+The functions of the buttons are all handled by the Tuya MCU (a nuvoton M031EC1AE ARM chip in this device), so converting from Tuya/Smart Life to custom firmware doesn't directly change any of them:
+- The "-" and "+" buttons change the current brightness set point (whether the switch is on or off) 7% or 8% at a time, for a total of 14 steps between minimum and 100% (2 steps for each of the 7 LEDs).
+- The main button turns the switch on/off if single-clicked. If you double-click it, the brightness set point is reset to the stored favorite value (or 50.5% if no value has been stored since reset) - note that this won't turn the switch on or off, just set the brightness with the switch staying on or off. If you triple-click it, the current brightness set point will be stored as the new favorite (overwriting the previous saved value).
+- The "Reset" button recessed below the main button will reset the MCU to: Off, 10% brightness, 10% minimum brightness (which won't necessarily match Tasmota's DimmerRange so it could be out-of-sync until corrected), saved favorite 50.5%.

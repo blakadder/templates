@@ -1,0 +1,24 @@
+---
+date_added: 2020-06-25
+title: BrilliantSmart 12W 290mm Salisbury CCT 
+model: 20812/05
+image: /assets/images/brilliantsmart_20812.jpg
+mlink: 
+flash: tuya-convert
+category: light
+type: Ceiling Light
+standard: au
+template: '{"NAME":"Brilliant Smart Salisbury","GPIO":[0,0,0,0,0,0,0,0,47,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/brilliant-12w-290mm-smart-salisbury-wifi-cct-led-ceiling-light_p0133111
+link2: https://www.bunnings.co.nz/brilliant-12w-290mm-smart-salisbury-wifi-cct-led-ceiling-light_p0133111
+---
+The following options need to be set for the light to function correctly:
+'SetOption92 1'    
+'LedTable 0'    
+'DimmerRange 4,100'    
+
+You can enter them via the console.
+
+Uses the Tuya TYWE2L chip based on ESP8285
+
+There are a few different sizes of this lamp - tested on the 12W 290mm version but should work the same for all.

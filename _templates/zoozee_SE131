@@ -1,12 +1,13 @@
 ---
-date_added: 2019-05-01
+date_added: 2020-06-27
 title: ZooZee SE131
 category: plug
 type: Plug
 standard: eu
-link: https://www.amazon.de/gp/product/B07J2CT8WL
-image: https://user-images.githubusercontent.com/5904370/66717458-967d7000-edd9-11e9-9952-eb163b595bba.png
-template: '{"NAME":"ZooZee SE131","GPIO":[255,0,56,0,0,0,0,0,255,17,0,21,0],"FLAG":0,"BASE":17}' 
+link2: https://www.amazon.de/gp/product/B07J2CT8WL
+link: https://www.amazon.es/dp/B07PBWMP8T
+image: /assets/images/zoozee_SE131.jpg
+template: '{"NAME":"ZOOZEE_SF131","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

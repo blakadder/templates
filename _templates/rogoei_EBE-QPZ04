@@ -5,7 +5,7 @@ link: https://www.amazon.com/gp/product/B07GCRYJRZ/
 image: https://images-na.ssl-images-amazon.com/images/I/61exfxJGdQL._SL1500_.jpg
 template: '{"NAME":"EBE-QPZ04","GPIO":[0,0,0,0,180,0,0,0,0,0,181,0,0],"FLAG":0,"BASE":18}'
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBW

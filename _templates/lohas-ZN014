@@ -1,14 +1,14 @@
 ---
 date_added: 2019-11-17
 title: Lohas ZN014 550lm 
-type: CW
+type: Dimmable
 category: bulb
 standard: mr16
 link2: https://www.lohas-led.com/lohas-smart-wifi-light-bulbmr16-led-50-w-5000k-daylight-compatible-with-alexa-google-home-assistant-remote-control-by-smartphone-2-pack-p0235-p0235.html
 image: https://www.lohas-led.com/u_file/1901/products/14/784cdaca45.jpg.640x640.jpg
 template: '{"NAME":"Lohas MR16","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07JRD5GGB
-link3: https://www.lohasled.com/5w-mr16gu53-p00191p1.html
+mlink: https://www.lohasled.com/5w-mr16gu53-p00191p1.html
 ---
 
 Manufacturer reference: LH-6W-5000k-MR16-2pack

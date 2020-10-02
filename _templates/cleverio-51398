@@ -5,7 +5,7 @@ link: https://www.kjell.com/se/produkter/smarta-hem/smart-belysning/smarta-lampo
 image: https://img38.pixhost.to/images/5/131783039_cleveriogu10.jpg
 template: '{"NAME":"CleverioGU10","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: RGBW

@@ -5,7 +5,7 @@ link: http://s.click.aliexpress.com/e/LtlP3PCG
 image: https://user-images.githubusercontent.com/5904370/71753929-70211b00-2e84-11ea-91a2-ea50a3d17476.png
 template: '{"NAME":"NX-SM400","GPIO":[0,0,0,17,134,132,0,0,130,52,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: https://www.alibaba.com/product-detail/Modern-cube-remote-control-16A-250V_60803851098.html
+mlink: https://www.alibaba.com/product-detail/Modern-cube-remote-control-16A-250V_60803851098.html
 flash: tuya-convert
 category: plug
 type: Plug
@@ -31,9 +31,6 @@ To flash Tasmota, we need to us [tuya-convert](https://github.com/ct-Open-Source
 There's an [excellent tutorial (in pt-BR) by Douglas Baptista](https://forum.homeassistantbrasil.com.br/t/tuya-convert-flash/408) that you can use.
 
 ## Configuring Tasmota
-
-To configure the smart plug on Tasmota, we have to know how the ESP pins are connected. I had to open mine to check the connections.
-But you don't have to do the same. You can use this [template](https://templates.blakadder.com/nanxin_NX-SM400.html) that I've created.
 
 Go to the device's IP address > `Configuration` > `Configure Other` > `Template`
 ```json

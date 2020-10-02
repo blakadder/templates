@@ -1,0 +1,16 @@
+---
+date_added: 2020-03-24
+title: LE lampUX 380lm Candle
+model: 9060001-EU
+image: /assets/images/le_lampux_906001-EU.jpg
+template: '{"NAME":"LE Bulb","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B07MBXCNQS
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e14
+---
+# BEWARE
+Bulbs labelled with 9060001-EU-2 and as NEW cannot be converted with tuya-convert

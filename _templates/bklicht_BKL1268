@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-05
+title: B.K. Licht BKL1268 2m RGB
+model: 
+image: /assets/images/bklicht_BKL1268.jpg
+template: '{"NAME":"RGBW-Strip","GPIO":[0,0,0,0,37,17,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B081FCLXV1
+link2: https://www.amazon.it/gp/product/B081FCLXV1
+mlink: https://www.bk-licht.eu/
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: global
+---

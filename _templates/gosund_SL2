@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-19
+title: Gosund SL2 5m RGB 
+model: SL2
+image: /assets/images/gosund_SL2.jpg
+template: '{"NAME":"Gosund LED Str","GPIO":[0,0,0,0,17,38,0,0,37,39,0,0,0],"FLAG":3,"BASE":18}' 
+link: https://www.amazon.de/dp/B08CMMWSPR
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: eu
+---

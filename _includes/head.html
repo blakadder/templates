@@ -3,20 +3,81 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}
-    {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
- Power Monitoring
- {% endif %}
- {{ page.type | escape }}
- {% if page.category contains 'bulb'%}
- Bulb
- {% endif %}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+<!-- HTML Meta Tags -->
+<title>{% if page.template != nil %}{{ page.title | escape }} {% assign template = page.template | split: ':' %}{% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}{% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}Power Monitoring {% endif %}{{ page.type | escape }} {% if page.category contains 'bulb'%}Bulb {% endif %}Template for Tasmota{% elsif page.category == "unsupported" %}{{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota!{% else %} {{ page.title | escape }} - Templates for Tasmota{% endif %}</title> 
+
+<meta name="description" content="
+{% if page.template != nil %}
+  Configure {{ page.title | escape }} {% assign template = page.template | split: ':' %}{% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}{% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}Power Monitoring {% endif %}{{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %}to work with Tasmota firmware. 
+{% elsif page.category == "unsupported" %}
+  {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! You will not be able to flash it.
+{% else %}
+  {{ site.description | escape }}
+{% endif %}
+">
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> 
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+<meta name="keywords" content="tasmota, templates, tuya, esp8266, esp8285, template, gpio, smarthome, home assistant, smart home, diy, wifi, wi-fi, openhab">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+<!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="{% if page.template != nil %}{{ page.title | escape }} {% assign template = page.template | split: ':' %}{% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}{% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}Power Monitoring {% endif %}{{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %}Template for Tasmota {% elsif page.category == "unsupported" %}{{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota!{% else %}{{ page.title | escape }} - Templates for Tasmota{% endif %}">
+
+<meta itemprop="description" content="
+{% if page.template != nil %}
+  Configure {{ page.title | escape }} {% assign template = page.template | split: ':' %}{% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}{% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}Power Monitoring {% endif %}{{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %}to work with Tasmota firmware. 
+{% elsif page.category == "unsupported" %}
+  {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! You will not be able to flash it.
+{% else %}
+  {{ site.description | escape }}
+{% endif %}
+">
+
+<meta itemprop="image" content="{{ page.image | absolute_url }}">
+
+<meta property="og:title" content="{% if page.template != nil %}{{ page.title | escape }} {% assign template = page.template | split: ':' %}{% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}{% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}Power Monitoring {% endif %}{{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %}Template for Tasmota {% elsif page.category == "unsupported" %}{{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota!{% else %}{{ page.title | escape }} - Templates for Tasmota{% endif %}">
+
+<meta property="og:description" content="
+{% if page.template != nil %}
+  Configure {{ page.title | escape }} {% assign template = page.template | split: ':' %}{% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}{% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}Power Monitoring {% endif %}{{ page.type | escape }} {% if page.category contains 'bulb'%} Bulb {% endif %}to work with Tasmota firmware. 
+{% elsif page.category == "unsupported" %}
+  {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! You will not be able to flash it.
+{% else %}
+  {{ site.description | escape }}
+{% endif %}
+">
+
+<meta property="og:image" content="{{ page.image | absolute_url }}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+												 
+<!-- Twitter Meta Tags -->
+<!-- <meta name="twitter:title" content="
+  {% if page.title %}
+  {{ page.title | escape }}
+    {% assign template = page.template | split: ':' %}
+    {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+    {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %} Power Monitoring {% endif %}
+  {{ page.type | escape }}
+      {% if page.category contains 'bulb'%} Bulb {% endif %}
+    Device Template for Tasmota
+  {% else %}
+    {{ site.title | escape }}
+  {% endif %}
+  ">
+
+  <meta name="twitter:description" content="{% if page.title %}Configure {{ page.title | escape }}{% assign template = page.template | split: ':' %}{% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}{% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %} Power Monitoring {% endif %} {{ page.type | escape }}{% if page.category contains 'bulb'%} Bulb {% endif %} to work with Tasmota firmware {% else %}{{ site.description | escape }} {% endif %}">
+ -->
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site:id" content="blakadder_">
+  <meta name="twitter:creator:id" content="blakadder_">
   {% include styles.html %}
 
   {% if site.google_analytics and jekyll.environment == 'production' %}
   {% include analytics.html %}
   {% endif %}
+
+  {% feed_meta %}
+  
 </head>

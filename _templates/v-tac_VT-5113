@@ -1,9 +1,11 @@
 ---
 date_added: 2019-11-24
-title: V-Tac VT-5113 1055lm
+title: V-Tac A60 11W 1055lm
+model: VT-5113
 type: RGBW
 category: bulb
 standard: e27
+mlink: https://www.v-tac.eu/products/smart-home/led-bulbs/led-bulb-11w-e27-a60-smart-wi-fi-rgb-white-warm-white-detail.html
 link: https://www.reichelt.de/smart-light-lampe-e27-11-w-rgbw-eek-a-wlan-vt-2752-p264529.html?&trstct=pos_0
 image: https://cdn-reichelt.de/bilder/web/xxl_ws/L700/V-TAC_2752_01.png
 template: '{"NAME":"V-TAC LED A60 ","GPIO":[0,0,0,0,180,0,0,0,0,0,181,0,0],"FLAG":0,"BASE":18}' 

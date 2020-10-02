@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-05
+title: Calex G125 7.5W 1055lm Globe
+model: 429082
+image: /assets/images/calex-429082.jpg
+template: '{"NAME":"Calex G125 E27","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.partsnl.nl/smart-led-filament-softline-globelamp-e27-dimbaar-429082
+link2: 
+mlink: https://www.calex.nl/en/products/product/LEDGLOBEG125E27-7-5W-2200-4000FILSOFTLINESMART/
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---

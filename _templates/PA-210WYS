@@ -1,0 +1,64 @@
+---
+date_added: 2020-06-24
+title: Natural Gas (CH4) Alarm
+model: PA-210WYS
+category: sensor
+type: Gas Sensor
+standard: global
+flash: tuya-convert
+image: /assets/images/PA-210WYS.jpg
+template: '{"NAME":"PA-210WYS","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4001057961462.html
+link2: 
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+This is a Tuya natural gas (CH4) sensor with an LCD display and alarm function. It has a TYWE3S module and an Eastsoft HR8P506FHLQ MCU.
+
+Identified with MCU Product ID: `{"p":"sclatjo1jqscmwwe","v":"1.0.0","m":0}`. 
+
+## Functions
+`dpID 1` gas: 0 = detected gas / 1 = no gas     
+`dpID 2` gas amount = displayed %LEL value *10     
+`dpID 11` error state: 0x00 = default / 0x02 = gas detected       
+`dpID 16` mute sound: 0 = nothing / 1 = mutes currently playing sound     
+
+Sensor uses the built in speaker as an alarm and to play an array of voice prompts following almost every action:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ifXAMrs1OPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The speaker and onboard led are controlled by the MCU and there is no way to control them by software.
+
+Temperature is not reported on any dpId (same behaviour as in original firmware) and is only displayed on the built-in LCD.
+
+On the back is a 2pin JST connector with pins labelled `+` and `-` which is supposed to be used with an electric valve to trigger automatic shutoff when gas is detected.
+
+## Configuration
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+
+Set the following configuration:
+```json
+Backlog TuyaMCU 11,1; TuyaMCU 12,16; TuyaMCU 51,51
+```
+
+## Functions
+Gas sensor status will be mapped to POWER1. ON is "gas detected" and OFF is "no gas detected".
+
+POWER2 can be turned on to stop currently playing sound/voice prompt.
+
+Gas value is sent on dpId2. Use a rule to send it to a custom topic:
+
+```console
+Rule1 ON TuyaReceived#dptype2id2 DO Publish stat/%topic%/GAS %value% ENDON
+```
+Enable rule with `Rule1 1`
+
+Label webUI buttons
+```console
+Backlog WebButton1 Gas; WebButton2 Mute
+```

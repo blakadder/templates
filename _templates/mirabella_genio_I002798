@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-23
+title: Mirabella Genio 10 LED Filament Festoon
+model: I002798
+image: /assets/images/mirabella_genio_I002798.jpg
+template: '{"NAME":"GenioFestoon","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kmart.com.au/product/10-pack-mirabella-genio-led-festoon-lights/2754881
+link2: 
+mlink: https://mirabellagenio.net.au/led-festoon-light-colour
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---
+Button is inactive, couldn't find a GPIO it was connected to.

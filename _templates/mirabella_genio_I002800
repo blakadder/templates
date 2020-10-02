@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-18
+title: MiraBella Genio Colour 6 LED 30mm Stainless Steel Deck 
+model: I002800
+image: /assets/images/mirabella_genio_I002800.jpg
+template: '{"NAME":"Genio RGB Deck Lights","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://mirabellagenio.net.au/deck-led-colour-6-pack
+link2: 
+link: 
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---
+`SetOption68 1` to separate RGB channels

@@ -1,0 +1,20 @@
+---
+date_added: 2020-04-16
+title: Lohas ZN011 5W 420lm
+model: LH-ZN01102U10-2
+image: /assets/images/lohas-ZN011.jpg
+template: '{"NAME":"LohasZN011","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/-/en/gp/product/B078XD699G/
+link2: https://www.amazon.co.uk/gp/product/B078XD699G/
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: gu10
+---
+
+Some bulbs bought after April 2020 use this template:
+
+```
+{"NAME":"LohasZN011-Tuya","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}
+```

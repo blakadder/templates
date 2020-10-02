@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/gp/product/B07JYYJYGS
 image: https://images-na.ssl-images-amazon.com/images/I/61tajVfgFdL._SL1500_.jpg
-template: '{"NAME":"ZLD-44USA-W","GPIO":[0,56,0,17,22,21,0,0,23,24,25,0,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"ZLD-44USA-W","GPIO":[0,56,0,17,22,21,0,0,23,24,33,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

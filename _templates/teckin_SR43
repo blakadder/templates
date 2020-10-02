@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-12
+title: Teckin SR43
+model: 
+image: /assets/images/teckin_SR43.jpg
+template: '{"NAME":"Teckin SR43","GPIO":[0,0,52,0,0,17,0,0,21,22,0,0,18],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07RJHVDH4/
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---

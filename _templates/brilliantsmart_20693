@@ -1,0 +1,21 @@
+---
+date_added: 2020-07-01
+title: BrilliantSmart Jupiter
+model: 20693/05
+image: /assets/images/brilliantsmart_20693.jpg
+template: '{"NAME":"BrSm Jupiter","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.pbtech.co.nz/product/ADPBRS0001
+link2: 
+mlink: https://www.brilliantsmart.com.au/smart-products/electrical/smart-jupiter-2/
+flash: tuya-convert
+category: relay
+type: Dimmer
+standard: au
+---
+Switch works with TuyaMCU device type. 
+
+DpId 2 is the dimmer so set `TuyaMCU 21,2`
+
+DpId 105 is the sleep timer
+
+`DimmerRange 1000,300` worked to get max bright and dim. Dim to 0 turns it off. Also works with a 433MHz kinetic switch. 

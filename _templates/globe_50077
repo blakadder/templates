@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-01
+title: Globe 4 Outlet 2 USB
+model: 50077
+image: /assets/images/globe_50077.jpg
+template: '{"NAME":"PowerBar","GPIO":[56,0,0,0,24,17,0,0,22,23,21,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.canadiantire.ca/en/pdp/globe-4-outlet-2-usb-smart-power-strip-with-surge-protection-0529314p.html#srp
+link2: 
+mlink: https://globe-electric.com/en/product/globe-electric-wi-fi-smart-4-outlet-grounded-independently-controlled-surge-protector-2-usb-port-power-strip-no-hub-required-voice-activated-4ft-cord-white-50077/
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-26
+title: SRL 4 Gang 
+model: SRL 3-4WW
+image: /assets/images/srl_3-4WW.jpg
+template: '{"NAME":"SRL 4WW Switch","GPIO":[0,0,0,19,23,18,0,0,17,21,24,22,20],"FLAG":0,"BASE":18}' 
+link: https://srltech.com.au/portfolio_page/four-gang-series/
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---

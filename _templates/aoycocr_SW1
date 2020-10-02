@@ -3,9 +3,9 @@ date_added: 2019-12-23
 title: Aoycocr SW1
 link: https://www.amazon.com/dp/B07SVD6P2L/
 image: https://images-na.ssl-images-amazon.com/images/I/51QHahlxVfL._AC_SL1200_.jpg
-template: '{"NAME":"Aoycocr SW1","GPIO":[52,255,53,255,255,255,255,255,58,17,255,21,255],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"Aoycocr SW1","GPIO":[158,255,57,255,255,255,255,255,56,17,255,21,255],"FLAG":15,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: switch
 type: Switch
@@ -13,4 +13,4 @@ standard: us
 ---
 ![Label](https://user-images.githubusercontent.com/5904370/71768483-8e375b80-2f16-11ea-946f-2dd0ccb6c943.png)
 
-Green led light is off if the switch is off. It turns on if the switch is on. Red led light is disabled.
+Green LED is on when relay is on. Red is the LedLink (MQTT status). Blue LED is unused.

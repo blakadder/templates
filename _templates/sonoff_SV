@@ -1,12 +1,13 @@
 ---
 title: Sonoff SV
-category: switch
+category: relay
 type: Relay
 standard: global
-link: https://www.itead.cc/smart-home/sonoff-sv.html
+mlink: https://www.itead.cc/smart-home/sonoff-sv.html
 image: https://user-images.githubusercontent.com/5904370/57877355-eef31600-7817-11e9-9812-393f47558adc.png
 template: '{"NAME":"Sonoff SV","GPIO":[17,255,0,255,255,255,0,0,21,56,255,0,0],"FLAG":1,"BASE":3}' 
-link2: https://www.banggood.com/DC-5V-24V-DIY-WIFI-Wireless-Switch-Sonoff-SV-Module-For-Smart-Home-p-1063987.html
+link: https://www.banggood.com/DC-5V-24V-DIY-WIFI-Wireless-Switch-Sonoff-SV-Module-For-Smart-Home-p-1063987.html
+link2: https://www.aliexpress.com/item/32850765472.html
 ---
 Sonoff Safe Voltage is almost the same as Sonoff Basic R1.
 These are the differences between the two:

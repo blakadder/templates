@@ -1,0 +1,15 @@
+---
+date_added: 2020-01-31
+title: Ultralink UL-P01W
+model: 
+image: https://user-images.githubusercontent.com/5904370/73554964-04af7680-444d-11ea-9d1d-eefb299b4f45.png
+template: '{"NAME":"UL-P01W","GPIO":[0,52,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.takealot.com/smart-wifi-power-plug-switch-for-south-african-2-3-pin/PLID63166267
+link2: https://www.loot.co.za/product/ultra-link-smart-wifi-plug-with-energy-monitoring/fnxh-6726-g310
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: za
+---
+![Label](https://user-images.githubusercontent.com/5904370/73555062-345e7e80-444d-11ea-8d18-5dac76167246.png)

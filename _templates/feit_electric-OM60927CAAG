@@ -1,14 +1,13 @@
 ---
 date_added: 2019-04-27
-title: Feit Electric OM60/927CA/AG 800lm
-type: WW
+title: Feit Electric  800lm
+model: OM60/927CA/AG
+type: Dimmable
 category: bulb
 standard: e26
 link: https://www.amazon.com/Feit-Electric-Equivalent-OM60-927CA/dp/B07GG8DBKH
 link2: https://www.menards.com/main/electrical/alarms-security-systems/security-accessories/feit-electric-reg-60w-equivalent-a19-soft-white-alexa-google-smart-wifi-led-bulb/pa80027kag/p-1531290477173.htm
-image: https://www.feit.com/wp-content/uploads/2018/06/OM60_927CA_AG_pack-2.jpg
+image: /assets/images/feit_electric-OM60927CAAG.jpg
 template: '{"NAME":" Feit P_A800_2","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
-link3: https://www.feit.com/product/800-lumen-2700k-smart-wifi-bulb/
+mlink: https://www.feit.com/product/800-lumen-2700k-smart-wifi-bulb/
 ---
-
-Same template as Merkury A19 60W  I just changed the name.

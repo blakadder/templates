@@ -1,0 +1,17 @@
+---
+date_added: 2020-01-17
+title: BrilliantSmart 20676 USB Charger
+model: 20676/05
+image: https://www.brilliantsmart.com.au/wp-content/uploads/2018/12/Brilliant_Smart_WiFi_Plug_Rotating_callouts.gif
+mlink: https://www.brilliantsmart.com.au/smart-products/electrical/wifi-plug-with-usb-charger/
+flash: serial
+flash2: tuya-convert
+category: plug
+type: Plug
+standard: au
+template: '{"NAME":"Brilliant","GPIO":[0,0,0,0,0,21,0,0,0,52,90,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.au/Brilliant-Smart-WiFi-Plug-Charger/dp/B07YXCN6DC
+link2: https://www.pbtech.co.nz/product/ADPBRS0002
+link3: https://www.officeworks.com.au/shop/officeworks/p/brilliant-lighting-smart-wifi-plug-with-usb-bl2067605
+link4: https://www.bunnings.co.nz/brilliant-smart-wifi-plug-and-usb-charger_p0091644
+---

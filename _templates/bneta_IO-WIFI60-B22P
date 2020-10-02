@@ -1,0 +1,15 @@
+---
+date_added: 2020-05-22
+title: BNETA 8.5W 800lm
+model: IO-WIFI60-B22P
+image: /assets/images/bneta_IO-WIFI60-B22P.jpg
+template: '{"NAME":"BNETA IO-WIFI60-E27P","GPIO":[0,0,0,0,37,40,0,0,38,50,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.takealot.com/bneta-iot-smart-wifi-led-bulb-b22-8-5w-colour-warm-cool-white/PLID60542775/product-information
+link2: 
+mlink: https://www.bneta.co.za/product/smartbulb_e27/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: [e27, b22]
+---
+This template works for both the B22 and E27 bulbs.

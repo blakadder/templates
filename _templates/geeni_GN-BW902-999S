@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-21
+title: Geeni LUX 800
+model: GN-BW902-999S
+image: /assets/images/geeni_GN-BW902-999S.jpg
+template: '{"NAME":"Geeni-LUX-800","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Geeni-Bulb-Soft-Dimmable-Assistant-Microsoft/dp/B07FL7F4K8/
+link2: 
+mlink: https://mygeeni.com/collections/white-lights/products/lux-800-smart-wi-fi-led-white-light-1
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e26
+---

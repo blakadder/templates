@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-15
+title: Owfeel EN71
+model: 
+image: /assets/images/owfeel_EN71.jpg
+template: '{"NAME":"SmartValve","GPIO":[21,0,0,0,0,0,0,0,17,52,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/gp/product/B07SG48KSW
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: Valve
+standard: us
+---

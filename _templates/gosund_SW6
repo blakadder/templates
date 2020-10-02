@@ -1,0 +1,24 @@
+---
+date_added: 2020-07-21
+title: Gosund SW6 3-Way
+model: SW6
+image: /assets/images/gosund_SW6.jpg
+template: '{"NAME":"Gosund SW6","GPIO":[17,0,56,0,9,0,0,0,0,0,22,21,158],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B085TG46KN
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---
+This assumes standard 3-way lighting with a child 'dumb' toggle switch connected to the travelers. Relay1 is a dummy component that stores the power state of the switch. Relay2 is the actual hardware switch. Button1 toggles Power1 automatically, Rule2 covers the toggle of the actual relay. The secondary switch electrically controls the light, and its state changes on Switch1. Rule1 syncs this state change to Power1.
+
+```console
+SwitchTopic 0
+switchmode1 1
+Rule1 ON Switch1#state do Power1 2 endon
+Rule2 ON Button1#state do Power2 2 endon
+Rule1 1
+Rule2 1
+```

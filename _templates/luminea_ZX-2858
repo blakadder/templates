@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-03
+title: Luminea ZX-2858
+model: ZX-2858-675
+image: https://user-images.githubusercontent.com/5904370/73696849-743b9500-46dd-11ea-8b72-5e9a581828ea.png
+template: '{"NAME":"Luminea SF-200","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.pearl.de/a-ZX2858-3103.shtml?vid=675
+link2: 
+mlink: https://www.luminea.info/Ultrakompakte-WiFi-Steckdose-Adapter-mit-Energie-ZX-2858-919.shtml
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

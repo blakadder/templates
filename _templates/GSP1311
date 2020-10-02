@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-10
+title: GSP1311 Series
+model: 2AON6-GSP1311
+image: /assets/images/GSP1311.jpg
+template: '{"NAME":"GSP1311","GPIO":[57,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07KG9NRTD/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

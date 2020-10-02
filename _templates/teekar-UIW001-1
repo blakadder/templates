@@ -5,13 +5,15 @@ link: http://s.click.aliexpress.com/e/m2UyXJ6Y
 image: https://user-images.githubusercontent.com/5904370/71116369-5620e080-21d4-11ea-8301-ce46e2822747.png
 template: '{"NAME":"Teekar UIW001-","GPIO":[0,149,37,148,6,5,0,0,9,0,0,0,0],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.de/dp/B07PQKHQ19/
-link3: https://www.teekar.de/products/teekar-smart-dimmer-switch
+mlink: https://www.teekar.de/products/teekar-smart-dimmer-switch
 flash: tuya-convert
 category: switch
 type: Dimmer
 standard: eu
 ---
-This device requires Tasmota with [Scripting](https://tasmota.github.io/docs/#/Scripting-Language) support. You will need to [compile your own build](https://tasmota.github.io/docs/#/compile-your-build) or download an older precompiled binary of [**Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip**](https://github.com/arendst/Tasmota/files/3776333/Tasmota-v7.0.0.1-w-Scripting-2.6.x-1MB.zip)
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
 
 <img src="https://user-images.githubusercontent.com/5904370/71117345-430f1000-21d6-11ea-8dd0-c5327accf2e9.png" style="width:20em">
 
@@ -60,7 +62,7 @@ CLK | GPI015 | CLK on HCL164
 Front plate switch is connected to GPIO12.
 
 #### Configuration
-Tuya-Convert is the more convenient option for iinstalling Tasmota but it is possible to flash over serial. Use the following pinout and ground the GPIO0 directly on the ESP8266 pin which is quite hard to reach.
+Tuya-Convert is the more convenient option for installing Tasmota but it is possible to flash over serial. Use the following pinout and ground the GPIO0 directly on the ESP8266 pin which is quite hard to reach.
 
 Apply the template and issue:
 ```console
@@ -249,5 +251,3 @@ spin(14 0)
 =#c4
 #
 ```
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

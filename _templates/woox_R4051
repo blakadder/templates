@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-06
+title: WOOX R4051
+model: 8435350740511
+image: /assets/images/woox_R4051.jpg
+template: '{"NAME":"WOOX R4051","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/WOOX-Outdoor-Socket-Waterproof-IP66/dp/B07N7YR7PV
+link2: 
+mlink: https://wooxhome.com/power-c2/woox-r4051-smart-outdoor-plug-uk-p24
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: uk
+---

@@ -1,0 +1,33 @@
+---
+date_added: 2020-02-13
+title: Teckin SR40
+model: RF-SR40-US
+image: /assets/images/teckin_SR40.jpg
+template: '{"NAME":"RF-SR40-US","GPIO":[158,0,0,17,56,18,0,0,22,21,57,23,0],"FLAG":0,"BASE":18}'
+link: https://smile.amazon.com/dp/B07RFPSZLG
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: us
+---
+You will also have to add the following commands in the console to make this work properly.
+
+```console
+Backlog SerialLog 0; PowerOnState 0; SetOption63 1; LEDState 1
+Rule1 ON System#Boot DO Power3 On ENDON    # Turn the USB port on
+Rule1 1
+```
+The model purchased from Amazon 2020-03 has this GPIO Mapping
+
+```yaml
+GPIO0: Green Center LED inverted
+GPIO3: Top Button
+GPIO4: Amber Top LED inverted
+GPIO5: Bottom Button
+GPIO12: Bottom Outlet Relay
+GPIO13: Top Outlet Relay
+GPIO14: Amber Bottom LED inverted
+GPIO15: USB Relay
+```

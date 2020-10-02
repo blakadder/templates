@@ -5,7 +5,7 @@ link: https://www.amazon.fr/gp/product/B07MNCNM75/
 image: https://images-na.ssl-images-amazon.com/images/I/61T%2BBaoMkrL._SL1200_.jpg
 template: '{"NAME":"AICase Smart L","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: tuya-convert
 category: bulb
 type: CCT

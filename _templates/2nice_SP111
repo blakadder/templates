@@ -1,0 +1,17 @@
+---
+date_added: 2020-01-10
+title: 2nice SP111
+model: 
+image: https://user-images.githubusercontent.com/5904370/72146872-aa674c80-339d-11ea-938e-c73359849492.png
+template: '{"NAME":"2NICE SP111","GPIO":[56,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":2,"BASE":18}' 
+link: https://www.amazon.de/2NICE-Intelligente-funktionieren-Fernbedienung-Funksteckdose/dp/B0823JP1WC
+link2: https://www.amazon.de/gp/product/B0823JV3Y2
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+The 2NICE SP111 is looking quite identical to the Gosund SP111 types. The manufacturer mentioned on the package is 'Shenzhen Gosund Technologie Co. Ltd.'
+Major difference is that the 2NICE SP111 device does not support power monitoring, but it supports the analog temperature sensor instead. 
+So the template is based on the Gosund SP111 templates with GPIO5, GPIO12 and GPIO14 set to 'None' and with the FLAG set to 2"

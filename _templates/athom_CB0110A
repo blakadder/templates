@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-10
+title: Athom 16A
+model: CB0110A
+image: /assets/images/athom_CB0110A.jpg
+template: '{"NAME":"Athom CB0110A","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/sensor
+link: https://www.aliexpress.com/item/4001156098090.html
+link2: https://www.tindie.com/products/athom/pre-flashed-tasmota-circuit-breaker-esp8266/
+flash: preflashed
+category: relay
+type: Relay
+standard: global
+---
+![PCB](/assets/images/athom_CB0110A_pcb.jpg)

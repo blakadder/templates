@@ -1,13 +1,14 @@
 ---
 date_added: 2019-07-04
-title: 3A Smart Home HGZB-043
+title: 3A Smart Home 
+model: HGZB-043
 category: switch
 type: Switch
 standard: au
 link: https://www.amazon.com.au/gp/product/B07FKYT5G8
 image: https://images-na.ssl-images-amazon.com/images/I/51k6Ptn%2BHQL._SL1024_.jpg
 template: '{"NAME":"3A Smart Home ","GPIO":[52,0,55,18,22,19,0,0,17,21,54,23,53],"FLAG":0,"BASE":18}' 
-link3: https://3asmarthome.com/
+mlink: https://3asmarthome.com/
 ---
 
 The RXD0 pin is used as one of the touch inputs, so you can't use the serial port for flashing (unless you cut a track). However tuya-convert works fine to flash it. After Tasmota is installed, a relay will click once per second as this in the default location for the status LED. You just need to connect quickly to the AP, and browse to `192.168.4.1/md`, and configure it as a generic module to stop the clicking. You can then go through the normal process, and restore this template.

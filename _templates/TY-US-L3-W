@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-22
+title: TY-US-L3-W
+model: 
+image: /assets/images/TY-US-L3-W.jpg
+template: '{"NAME":"TY-US-L3-W","GPIO":[0,0,0,0,21,18,0,0,19,23,17,22,158],"FLAG":15,"BASE":18}' 
+link: 
+link2: 
+mlink: https://global.tuya.com/productDetail?code=8exzaml8c4yf 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: [us, au]
+---

@@ -1,0 +1,52 @@
+---
+date_added: 2020-04-24
+title: BlitzWolf BW-FUN3 400ml
+model: 
+image: /assets/images/blitzwolf_BW-FUN3.jpg
+template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,255,255,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.banggood.com/BlitzWolf-BW-FUN3-Wi-Fi-Essential-Oil-Diffuser-Ultrasonic-Aromatherapy-Humidifier-APP-Control-Amazon-Alexa-Google-Home-Control-with-7-Colorful-Light-p-1626718.html
+link2: https://www.amazon.de/dp/B085T41ZMM
+link3: https://www.aliexpress.com/item/4000640257229.html
+mlink: 
+flash: tuya-convert
+category: misc
+type: Aromatherapy Diffuser
+standard: eu
+---
+You will have :
+
+- DpId 1  Relay on/off
+- DpId 2  Strength min/max
+- DpId 3 Count hours  0 = continuous  1= 1 hour  2= two hours  3= 3hours
+- DpId 5 Led on/off
+- DpId 6 Led mode (rgb_cyrcle/color)
+- DpId 8 For color led,require 14 char value in hex
+
+Then on console,apply this:
+```console
+Backlog SetOption66 1; TuyaMCU 11,1; TuyaMCU 12,5; TuyaMCU 13,2; TuyaMCU 14,6; DimmerRange 1,255; SetOption59 1
+```
+
+After that create rules:
+
+```console
+Rule1 on TuyaReceived#data=55AA03070005060400010019 do publish2 stat/aroma/EFFECT color endon on TuyaReceived#data=55AA0307000506040001011A do publish2 stat/aroma/EFFECT rgb_cycle endon on event#rgb_cycle do tuyasend4 6,0 endon on event#color do tuyasend4 6,1 endon on event#ON do backlog tuyasend4 6,1; tuyasend 11,1 endon on event#off do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 2,1 endon on power3#state=0 do tuyasend4 2,0 endon
+```
+```console
+Rule2 on power1#state=1 do tuyasend4 3,0 endon
+```
+Turn the rules on: `Backlog Rule1 1; Rule2 1`
+
+
+Add this for label webUI buttons:
+
+```console
+Backlog WebButton1 On/Off; WebButton2 Light; WebButton3 Mist; WebButton4 Light Mode
+```
+
+At the end you will have 4 relays
+
+1: On/Off Diffuser
+2: On/Off Led
+3: Min/Max strength
+4: Rgb_cycle/color  Led mode"

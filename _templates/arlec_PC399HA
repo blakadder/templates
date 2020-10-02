@@ -1,0 +1,17 @@
+---
+date_added: 2020-04-11
+title: Arlec Smart PC399HA Plug
+model: PC399HA
+image: /assets/images/arlec_PC399HA.jpg
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: au
+template: '{"NAME":"PC399HA","GPIO":[0,0,0,17,134,132,0,0,131,158,21,0,0],"FLAG":0,"BASE":52}' 
+link: https://www.bunnings.com.au/arlec-smart-plug-in-socket-with-energy-aeter-and-grid-connect_p0135442
+link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-plug-in-socket-with-energy-meter_p0135442
+---
+Device is running 1.1.4 of Tuya FW, so not yet working with tuya-convert (11/04/2020). 
+
+To flash via UART, SMD capacitor C4B must be removed (below button), due to its effect on the rise times on the RXD. Be careful not to damage LED when removing this Capacitor.

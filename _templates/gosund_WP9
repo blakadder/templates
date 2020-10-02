@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-03
+title: Gosund WP9
+model: WP9
+template: '{"NAME":"Gosund WP9","GPIO":[56,55,54,53,0,21,0,0,23,24,22,0,17],"FLAG":0,"BASE":18}' 
+image: /assets/images/gosund_WP9.jpg
+link: https://www.amazon.com/dp/B07P65GJS1
+link2: https://www.amazon.com/dp/B07TS2GZCJ
+mlink: https://www.gosund.com/download/smart_power_strip/135.html
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---

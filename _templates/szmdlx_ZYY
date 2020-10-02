@@ -1,0 +1,16 @@
+---
+date_added: 2020-04-07
+title: SZMDLX IR Remote Controller
+model: ZYY
+image: /assets/images/szmdlx_ZYY.jpg
+template: '{"NAME":"SZMDLX WiFi IR","GPIO":[0,0,0,0,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.amazon.com/SZMDLX-Universal-Compatible-Automation-Controlled/dp/B082R44LJM/
+link2: https://www.banggood.com/Bakeey-Wireless-Wifi-Universal-Smart-IR-Remote-Controller-HUB-Adapter-Remoter-Work-with-Tuya-APP-Google-Home-Alexa-For-Smart-Home-p-1642800.html
+link3: https://www.aliexpress.com/item/4000145673070.html
+mlink: 
+flash: tuya-convert
+category: misc
+type: IR Bridge
+standard: global
+---
+The AliExpress product page shows this device also having an LED nightlight function, but I could not find a GPIO that controls this. However, the SZMDLX-branded unit I purchased from Amazon does not mention a nightlight function in ether the marketing materials or the manual (though the LEDs are visible on the board through the product housing).  Perhaps the unit sold by Amazon does not support the nightlight?

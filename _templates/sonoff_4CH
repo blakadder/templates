@@ -1,13 +1,15 @@
 ---
 title: Sonoff 4CH (R2)
-category: switch
-type: Relay
+category: relay
+type: Switch
 standard: global
-link: https://www.banggood.com/SONOFF-4CH-R2-4-Channel-10A-2200W-2_4Ghz-Smart-Home-WIFI-Module-p-1254823.html
+link2: https://www.banggood.com/SONOFF-4CH-R2-4-Channel-10A-2200W-2_4Ghz-Smart-Home-WIFI-Module-p-1254823.html
 image: https://user-images.githubusercontent.com/5904370/57882765-c4f42080-7824-11e9-93c9-fafaf0299dd0.png
 template: '{"NAME":"Sonoff 4CH","GPIO":[17,255,255,255,23,22,18,19,21,56,20,24,0],"FLAG":0,"BASE":7}' 
-link2: https://www.gearbest.com/smart-home-controls/pp_1701133.html
-link3: https://www.itead.cc/smart-home/sonoff-4ch.html
+link4: https://www.gearbest.com/smart-home-controls/pp_1701133.html
+link3: https://www.aliexpress.com/item/32855946564.html
+link: https://www.itead.cc/smart-home/sonoff-4ch.html
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/4ch-r2-pro-r2
 ---
 ## Serial Flashing
 Please see the [Hardware Preparation](Hardware-Preparation) page for general instructions.

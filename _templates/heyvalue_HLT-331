@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-19
+title: Heyvalue 4AC+4USB
+model: HLT-331
+image: /assets/images/heyvalue_HLT-331.jpg
+template: '{"NAME":"Heyvalue HLT-331","GPIO":[57,0,158,56,32,17,0,0,30,31,29,0,25],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Protector-Appliances-Individual-Schedule-Required/dp/B076VRH9WP
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---

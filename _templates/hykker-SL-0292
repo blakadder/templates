@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-13
+title: Hykker 3m RGB
+model: SL-0292
+image: /assets/images/hykker-SL-0292.jpg
+template: '{"NAME":"HYKKER Strip","GPIO":[0,0,0,0,0,37,0,0,39,17,38,0,0],"FLAG":0,"BASE":18}' 
+link:  
+link2: 
+mlink: https://www.hykker.com/akcesoria/tasma-led-3-m-z-wi-fi/
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: eu
+---
+After flashing, physical button will no longer change LED modes. It will simply turn LED strip on or off.

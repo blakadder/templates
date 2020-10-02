@@ -1,0 +1,23 @@
+---
+date_added: 2020-04-30
+title: TCP Smart 4AC+USB
+model: WPS4WUK
+image: /assets/images/tcp_WPS4WUK.jpg
+template: '{"NAME":"TCP WPS4WUK","GPIO":[255,56,0,17,23,24,0,0,22,21,25,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.screwfix.com/p/tcp-wps4wuk-13a-4-gang-switched-smart-extension-lead-5-1a-4-outlet-usb-charger-white-1-8m/606hp
+link2: 
+mlink: https://www.tcpsmart.eu/
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: uk
+---
+TCP Smart Wifi Extension Lead. Has 4 mains sockets, and a 4 port USB power supply. Each socket is controlled individually with relays 1-4, and the USB power is controlled with relay 5. There is only one button on the device and one LED.
+
+The device uses an Tuya TYWE2S ESP8285 module. tuya-convert works for over the air flashing.
+
+Flashing with a UART is also doable, but tricky. I had success soldering wires to the PWR/GND/RX/TX pins on the module connector. Unfortunately, the GPIO0 line is not accessibly on the module connector, so I had to use a jumper wire to a test pad to pull the line low for programming. Once I got it into programming mode, Tasmotizer had no problem replacing the firmware.
+
+https://docs.tuya.com/en/iot/device-development/module/wifi-module/wifie2smodule?id=K9605u79tgxug
+
+This device is similar to the AOFO 4 port power strip. I matched the port numbering so Relay1 controls the socket closest to the USB ports, and Relay4 the socket near the mains cable and power button. USB ports are on relay 5.

@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-13
+title: NX-SM223
+model: NX-SM223
+image: /assets/images/NX-SM223.jpg
+template: '{"NAME":"Smart Thurmm","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.in/gp/product/B07YTZLQJH/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: in
+---

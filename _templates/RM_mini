@@ -1,0 +1,14 @@
+---
+date_added: 2020-05-02
+title: RM mini
+model: RM mini
+image: /assets/images/RM_mini.jpg
+template: '{"NAME":"RM mini","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.aliexpress.com/item/32961012754.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: IR Bridge
+standard: global
+---

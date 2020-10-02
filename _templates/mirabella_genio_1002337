@@ -1,11 +1,12 @@
 ---
 date_added: 2019-12-11
-title: Mirabella Genio 1002337 800lm
+title: Mirabella Genio 9W 800lm
+model: 1002337
 link: https://www.kmart.com.au/product/mirabella-genio-b22-wi-fi-tunable-bulb/2326812
 image: https://www.kmart.com.au/wcsstore/Kmart/images/ncatalog/f/1/42707981-1-f.jpg
 template: '{"NAME":"GenioBulbCCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}'
 link2: 
-link3: https://mirabellagenio.net.au/es-%2F-bc-warm-cct-specs
+mlink: https://mirabellagenio.net.au/es-%2F-bc-warm-cct-specs
 flash: tuya-convert
 category: bulb
 type: CCT

@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-23
+title: Bearware 303492 3AC+2USB
+model: 303492
+image: /assets/images/bearware_303492.jpg
+template: '{"NAME":"Bearware 30349","GPIO":[0,56,0,17,22,23,0,0,24,21,157,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07WSRLZ3Q/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+none

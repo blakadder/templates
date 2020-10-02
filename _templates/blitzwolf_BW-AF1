@@ -1,0 +1,55 @@
+---
+date_added: 2020-09-20
+title: BlitzWolf Air Fryer
+model: BW-AF1
+image: /assets/images/blitzwolf_BW-AF1.jpg
+template: '{"NAME":"Bw-AF1","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+mlink: https://www.blitzwolf.com/
+link: https://www.banggood.com/BlitzWolfBW-AF1-Smart-Air-Fryer-with-APP-Control,6L-Large-Capacity,Temperature-Control,Removable-Basket,Smart-Recipe-and-Non-stick-Coating-p-1684285.html
+link2: 
+flash: serial
+category: misc
+type: Miscellaneous
+standard: global
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+Identified with MCU Product ID: `{"p":"5EXbeqW1nAwchNSh","v":"1.0.0","m":0}`. 
+
+## Flashing
+To gain access to the TYWE3S board you need to pry off the top lid from the base. [Disassembly and configuration guide.](https://blakadder.com/tasmotize-blitzwolf-air-fryer/)
+
+## Configuration
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+Map power and start-pause functions to relays
+
+```console
+Backlog TuyaMCU 11,111; TuyaMCU 12,101
+```
+
+## Functions
+Power1 starts/pauses cooking, Power2 powers the device on off
+
+- dpid 103 - set temp 40-400
+- dpid 104 - temp status
+- dpid 105 - set cook time 0-60
+- dpid 106 - remaining time
+- dpid 108 - temp change 0 = C, 1 = F - changes dpid 103 and 104 values
+- dpid 109 - cookbook
+           - 0 "standby" 
+           - 1 "custom" 
+           - 2 "fries" 
+           - 3 "frozen" 
+           - 4 "nuggets" 
+           - 5 "poultry" 
+           - 6 "steak" 
+           - 7 "fish" 
+- dpid 111 - start-pause
+
+More on configuration and HA integration soon on [blakadder.com](//blakadder.com)

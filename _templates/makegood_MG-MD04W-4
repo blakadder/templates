@@ -1,0 +1,23 @@
+---
+date_added: 2020-06-20
+title: MakeGood 4 Gang
+model: MG-MD04W
+image: /assets/images/makegood_MG-MD04W.jpg
+template: '{"NAME":"MakeGood 4 Gang","GPIO":[0,0,0,0,0,0,0,0,0,0,54,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000378900647.html
+link2: https://makegood.en.alibaba.com/product/60752835261-816634197/MakeGood_AU_Standard_4Gang_Wifi_Wall_Switch_Support_Alexa_Google_Home_Control_SAA_Certifications_Wifi_Switches.html
+mlink: http://www.szmakegood.com/
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---
+To get the TuyaMCU configured correctly, after flashing and updating the template, run the following command:
+
+```console
+Backlog TuyaMCU 11,1; TuyaMCU 12,2; TuyaMCU 13,3; TuyaMCU 14,4; TuyaMCU 33,104; TuyaMCU 31,103; TuyaMCU 32,102;
+```
+
+For further questions [visit GitHub discussion](https://github.com/sillyfrog/contact/issues/4)
+
+![](/assets/images/makegood_MG-MD04W-label.jpg)

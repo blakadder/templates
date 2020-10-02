@@ -1,0 +1,73 @@
+---
+date_added: 2020-04-26
+title: Brilex 400ml Oil Diffuser
+model: 
+image: /assets/images/brilex.jpg
+template: '{"NAME":"BrilexDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.de/Brilex-Aromatherapy-Ultrasonic-Humidifier-Adjustable/dp/B07YWBHMY5
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: Aromatherapy Diffuser
+standard: eu
+---
+## Scripting
+
+To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
+
+## Scripting
+
+You can use scripting instead of rules for a better implementation.
+
+To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
+
+{% raw %}
+```haskell
+>D
+color=""
+col1=""
+led=0
+mled=0
+p:red=0
+p:green=0
+p:blue=0
+
+>E
+mled=TuyaReceived#DpType4Id6
+led=TuyaReceived#DpType1Id5
+if chg[led]>0 {
+=>TuyaSend1 5,%0led%
+=>publish stat/%topic%/RESULT {"Script":">led=%0led%"}
+}
+if chg[mled]>0 {
+=>TuyaSend4 6,%0mled%
+=>publish stat/%topic%/RESULT {"Script":">cycle=%0mled%"}
+}
+
+>F  
+color=hn(red)+hn(green)+hn(blue)
+if color!=col1 {
+col1=color
+mled=0
+led=1
+=>TuyaSend3 8,%color%64646464
+=>publish stat/%topic%/RESULT
+{"Script":">color=%color%"}
+=>publish stat/%topic%/RESULT {"Script":">red=%0red%"}
+=>publish stat/%topic%/RESULT {"Script":">green=%0green%"}
+=>publish stat/%topic%/RESULT {"Script":">blue=%0blue%"}
+}
+
+>W
+sl(0 255 red "0" "Red" "255")
+sl(0 255 green "0" "Green" "255")
+sl(0 255 blue "0" "Blue" "255")
+bu(led "Led on" "LED off")
+bu(mled "Cycle on" "Cycle off")
+```
+{% endraw %}
+
+![](https://forum.iobroker.net/assets/uploads/files/1587904334406-brilex.png)
+
+![](https://forum.iobroker.net/assets/uploads/files/1587904334406-brilex.png)

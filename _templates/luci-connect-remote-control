@@ -2,16 +2,17 @@
 date_added: 2019-12-24
 title: Lucci Connect Remote Control
 link: https://www.beaconlighting.com.au/lucci-connect-wi-fi-fan-remote-control
-image: https://www.beaconlighting.com.au/media/catalog/product/cache/1/image/040ec09b1e35df139433887a97daa66f/2/9/299041.jpg
+image: https://user-images.githubusercontent.com/5904370/73696444-9aad0080-46dc-11ea-93a6-5d675593b590.png
 template: '{"NAME":"Lucci Fan","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
 link2: https://www.amazon.com.au/Beacon-Lighting-Connect-Remote-Control/dp/B082P6HTQB
-link3: 
+link3: https://www.beaconlighting-europe.com/product/wifi_remote/
+mlink: 
 flash: tuya-convert
 category: misc
-type: Fan Controller
+type: Fan
 standard: au
 ---
-1. Install Tasmota v7.2
+1. Install latest Tasmota
 2. Issue command
 ```console
 TuyaMCU 12,102
@@ -19,9 +20,11 @@ TuyaMCU 12,102
 3. Set up rule
 ```console
 Rule1 on TuyaReceived#Data=55AA00070005020400010012 do publish2 stat/flatbedfan/speed 2,0 endon on TuyaReceived#Data=55AA00070005020400010113 do publish2 stat/flatbedfan/speed 2,1 endon on TuyaReceived#Data=55AA00070005020400010214 do publish2 stat/flatbedfan/speed 2,2 endon
-Rule1 1
 ```
+Enable rule with `Rule1 1`
+
 4. Add the following to Home Assistant to your `fan` section
+
 ```yaml
 - platform: mqtt
   name: "Flat Bedroom Fan"
@@ -45,7 +48,9 @@ Rule1 1
     - medium
     - high
 ```
+
 5. Add the following to Home Assistant to your `light` section (if required):
+
 ```yaml
 - platform: mqtt
   name: "Flat Bedroom Light"

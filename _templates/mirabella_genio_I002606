@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-08
+title: Mirabella Genio 9W 800lm
+model: I002606
+image: /assets/images/mirabella_genio_I002606.jpg
+template: '{"NAME":"Mirabella Genio I002606","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.au/Genio-I002606-Dimmable-White-Mirabella/dp/B081NWXSSH
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: [e27, b22]
+---

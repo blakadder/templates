@@ -5,17 +5,11 @@ category: plug
 type: Power Strip
 standard: au
 link: http://www.bauhn.com.au/product-listing/smart-powerboard-ASPBU-1019
-image: http://www.bauhn.com.au/_media/webapp/product-listing/ASPBU-1019/powerboard-2.jpg
+image: /assets/images/bauhn_ASPBU-1019.jpg
 template: '{"NAME":"Bauhn 3AC+3USB","GPIO":[0,157,0,0,22,21,0,0,0,23,17,0,0],"FLAG":0,"BASE":18}' 
 link2: 
+mlink: https://bauhn.com.au/wp-content/uploads/2020/02/ASPBU-1019-BAUHN-Smart-Powerboard-UM-v9.pdf
 ---
-
 Default firmware uses zero crossing detection on GPIO12, [internals images](https://imgur.com/gallery/gC27drZ)
 
 Purchased from Aldi Australia
-
-
-
-
-
-

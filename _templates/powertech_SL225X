@@ -1,0 +1,15 @@
+---
+date_added: 2019-12-07
+title: Powertech SL225X 800lm
+link: https://www.jaycar.com.au/smart-wi-fi-led-bulb-with-colour-change-with-bayonet-light-fitting/p/SL2250
+image: https://user-images.githubusercontent.com/5904370/70851074-32d2fa00-1e91-11ea-866d-ddeb96584366.png
+template: '{"NAME":"Jaycar SL225X","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: 
+  - e27
+  - b22
+---

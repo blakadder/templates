@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-11
+title: Avatto OT08
+model: 
+image: /assets/images/avatto_OT08.jpg
+template: '{"NAME":"Avatto OT08","GPIO":[37,0,39,0,38,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
+link: https://aliexpress.com/item/32961743134.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

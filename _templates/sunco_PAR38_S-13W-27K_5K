@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-07
+title: Sunco PAR38 13W 1050lm
+model: PAR38_S-13W-27K_5K-2PK
+image: /assets/images/sunco_PAR38_S-13W-27K_5K.jpg
+template: '{"NAME":"Sunco PAR38 RGBCCT","GPIO":[0,0,0,0,38,37,0,0,40,39,41,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07NVYKBQB
+link2: 
+mlink: https://www.suncolighting.com/collections/waterproof-bulbs/products/par38-smart-bulb-wi-fi
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---

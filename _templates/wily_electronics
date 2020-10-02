@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-26
+title: Wily Electronics 
+model: 
+image: /assets/images/wily_electronics.jpg
+template: '{"NAME":"VC Plug","GPIO":[157,0,0,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+link: https://www.amazon.in/gp/product/B07W599X11/
+link2: 
+mlink: https://phlipton.com/product/smart-plug/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: in
+---

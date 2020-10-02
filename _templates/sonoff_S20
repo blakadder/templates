@@ -8,16 +8,18 @@ standard:
   - uk
   - au
   - fr
-link: https://www.banggood.com/SONOFF-S20-10A-2200W-Wifi-Wireless-Remote-Control-Socket-Smart-Timer-Plug-Smart-Home-Power-Socket-Support-Alexa-p-1142285.html
+link2: https://www.banggood.com/SONOFF-S20-10A-2200W-Wifi-Wireless-Remote-Control-Socket-Smart-Timer-Plug-Smart-Home-Power-Socket-Support-Alexa-p-1142285.html
 image: https://user-images.githubusercontent.com/5904370/57884318-a55ef700-7828-11e9-8cb5-52d9fb54d9fa.png
 template: '{"NAME":"Sonoff S20","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8}' 
-link2: https://www.gearbest.com/access-control/pp_1588516.html
-link3: https://www.itead.cc/smart-home/smart-socket.html
+link4: https://www.gearbest.com/access-control/pp_1588516.html
+link3: https://www.aliexpress.com/item/32968326490.html
+link: https://www.itead.cc/smart-home/smart-socket.html
+mlink: https://sonoff.tech/product/wifi-smart-plugs/s20
 ---
 Sonoff S20 comes in 4 plug type variants. Flashing process will be the same for each type.
 ## Serial Connection
 
-Please see the [Hardware Preparation](https://tasmota.github.io/docs/#/installation/Hardware-Preparation) page for general instructions.
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
 
 <img alt="S20 Smart Socket" src="https://github.com/arendst/arendst.github.io/blob/master/media/s20b.jpg?raw=true" width="230" align="right" /> 
 The picture shows how to program the S20 Smart Socket powered by the serial-to-USB converter.  With newer US sockets, either use a right-angle header, or remove the header after flashing.  Otherwise,the pushbutton may rub against a pin and get stuck.
@@ -33,7 +35,7 @@ There are 2 screws at the red and blue wire. Be careful not to damage the solder
 
 <img alt="SonoffS20" src="https://i.imgur.com/KX00Uer.jpg" width="230" />
 
-Connect the jumper wires.
+Connect the jumper wires (no soldering needed here, can just hold the wires in contact or tape them to the external plastic).
 
 <img alt="SonoffS20" src="https://i.imgur.com/i8DCijJ.jpg" width="230" />
 

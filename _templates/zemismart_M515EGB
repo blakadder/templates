@@ -1,0 +1,28 @@
+---
+date_added: 2020-06-20
+title: Zemismart Updated RF Remote Roller Shade
+model: M515EGB
+image: /assets/images/zemismart_M515EGB.jpg
+template: '{"NAME":"Zemismart M515EGB","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000960070851.html
+link2: 
+mlink: https://www.zemismart.com/
+flash: tuya-convert
+category: cover
+type: Motor
+standard: global
+---
+`TuyaMCU 21,2` maps the position command and status to Dimmer
+
+`TuyaMCU 11,7` to move the relay to an uncontrollable dpId. WebUI toggle will have no effect anymore.
+
+## Functions
+`dpID 1` motor control: `0 = open / 1 = stop / 2 = close / 3 = continue`    
+`dpID 2` set position: `0 .. 100`    
+`dpID 5` set motor direction: `0 = forward / 1 = back`      
+`dpID 7` working state: `0 = opening / 1 = closing` *report only, only appears when using remote   
+`dpID 10` error notification: `0x00` = ok / ??? = error`  *report only
+
+## Home Assistant
+
+[Multiple ways to configure](https://blakadder.com/tuya-covers/)

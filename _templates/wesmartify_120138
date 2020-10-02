@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-20
+title: wesmartify essentials 4AC+4USB
+model: 120138
+image: /assets/images/wesmartify_120138.jpg
+template: '{"NAME":"essential_4_po","GPIO":[56,0,0,0,24,25,0,0,22,21,23,0,17],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.wesmartify.de/licht/schalten/323/essentials-smart-home-4-fach-steckdosenleiste-usb/
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: eu
+---

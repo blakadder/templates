@@ -6,10 +6,12 @@ layout: default
   <div class="row">
     <div class="column">
       <h2>{{ page.title }}
-      {% if page.template contains '131' or page.template contains '132' or page.template contains '133' or page.template contains '134' or page.template contains '135' or page.template contains '136' or page.template contains '137' or page.template contains '145' or page.template contains '146' or page.template contains '156'%}
-   Power Monitoring
+        {% assign template = page.template | split: ':' %}
+        {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+        {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
+     Power Monitoring
    {% endif %}
-   {{ page.type }}
+   {{ page.type | replace: "Miscellaneous", "" }}        
   </h2>
   </div>
   <!-- <div class="float-right"> -->
@@ -34,36 +36,35 @@ layout: default
     <br>
     <a class="menu" href="{% assign link = page.link2 %}{% include linkage.html %}">{{ page.link2 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | split:'/' | first | capitalize}}</a>
     <br><br>
-    {% if page.link3 != nil %}
+    {% if page.mlink != nil %}
       <b>
    Manufacturer:
       </b>
       <br>
-      <a class="menu" href="{{ page.link3 }}">{{ page.link3 | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | split:'/' | first | capitalize}}</a>
+      <a class="menu" href="{% assign link = page.mlink %}{% include linkage.html %}">{{ page.mlink | remove_first: "http://" | remove_first: "https://" | remove_first: "www." | remove_first: "smile." | remove_first: "s.click." | split:'/' | first | capitalize}}</a>
       {% endif %}
     <br><br>
-  
-    {% if page.flash != nil %}
     <b>
-      Flash attempted:
+      Wi-Fi Module:
     </b>
     <br>
-      {% if page.flash == 'tuya-convert' %}
-      <a class="menu" href="https://github.com/ct-Open-Source/tuya-convert" target="_blank">Tuya-Convert</a>
-      {% elsif page.flash == "serial" %}
-      <a class="menu" href="https://tasmota.github.io/docs/#/installation/Prerequisites" target="_blank">Serial port</a>
-      {% else %}
-      {% endif %}
-    {% else %}
-  
-    {% endif %}
+      {{ page.flash }}
     <br>
     </div>
     </div>
   </div>
   <div class="row">
-    <div class="column column-20 column-offset-80"><a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+    <div class="column column-80"><b>Try to avoid similar devices from other sellers using same images and descriptions!</b></div>
+    <div class="column column-20"><a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
   </div>
-  <hr>
-  {{ content | markdownify }} 
+  <div class="row">
+    <div class="column">
+      <hr>  
+    </div>
+  </div>
+    {% if page.author == 'blak' %}
+    <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+    {% endif %}
+  
+    {{ content | markdownify }} 
   

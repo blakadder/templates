@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-23
+title: BlitzWolf BW-SS5 1 Gang
+model: BW-SS5
+image: /assets/images/blitzwolf_BW-SS5.jpg
+template: '{"NAME":"BlitzWolf SS5 1 Gang","GPIO":[0,0,0,0,0,0,0,0,9,21,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/BlitzWolf-BW-SS5-1-Gang-or-2-Gang-Two-Way-10A-2300W-WIFI-Smart-Switch-Module-APP-Remote-Controller-Group-Control-Timer-p-1645429.html?rmmds=myorder&ID=6281298
+link2: https://www.aliexpress.com/item/4000961260360.html
+mlink: https://www.blitzwolf.com/1Gang/2Gang-2300W-Smart-Switch-p-479.html
+flash: serial
+category: relay
+type: Switch
+standard: global
+---
+Set to `SwitchMode 7` when using a standard wall switch to toggle relay state.

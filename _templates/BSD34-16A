@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-17
+title: BSD34-1-16A
+model: A5A-54B1-01
+image: /assets/images/BSD34-16A.jpg
+template: '{"NAME":"BSD34-1 16A","GPIO":[0,53,0,131,134,132,0,0,21,17,52,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000115775948.html
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+Tuya-Convert doesn't work because of a new PSK format. Please flash via serial connection.

@@ -1,0 +1,26 @@
+---
+date_added: 2020-03-28
+title: Kbaybo 300ml
+model: K-H25s
+image: /assets/images/kbaybo_K-H25s.jpg
+template: '{"NAME":"K-H25","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://es.aliexpress.com/item/32924179893.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: Aromatherapy Diffuser
+standard: [eu, uk, us, au]
+---
+
+```console
+Backlog SetOption66 1;
+TuyaMCU 11,2;
+TuyaMCU 12,6;
+TuyaMCU 13,101;
+SetOption59 1 
+```
+
+```console
+Backlog WebButton1 Power; WebButton2 Light; WebButton3 Mist
+```

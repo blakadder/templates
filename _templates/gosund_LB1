@@ -1,0 +1,13 @@
+---
+date_added: 2020-06-11
+title: Gosund A19 8W 2700K
+model: LB1
+image: /assets/images/gosund_LB1.jpg
+template: '{"NAME":"Gosund Wifi Dimmable Bulb","GPIO":[0,0,0,0,37,0,0,0,0,52,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Gosund-Dimmable-Required-Equivalent-Lighting/dp/B0836L7NVQ/
+mlink: 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e26
+---

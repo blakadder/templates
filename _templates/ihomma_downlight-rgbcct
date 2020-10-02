@@ -1,0 +1,14 @@
+---
+date_added: 2020-04-01
+title: iHomma 6W RGBCCT Downlight
+model: 
+image: /assets/images/ihomma-downlight-rgbcct.jpg
+template: '{"NAME":"iHomma RGBWW","GPIO":[0,0,0,0,41,40,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/dp/B07TC5CXXT
+link2: 
+mlink: 
+flash: serial
+category: light
+type: Light
+standard: global
+---

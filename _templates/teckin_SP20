@@ -9,6 +9,7 @@ template: '{"NAME":"TECKIN SP20","GPIO":[56,255,57,255,21,134,0,0,131,17,132,0,0
 link: https://www.amazon.com/Outlet-Compatible-Monitoring-Function-Required/dp/B079Q5W22B/
 link2: https://www.amazon.ca/gp/product/B07CZFDLXC
 ---
+**Since January 2020 device bought from Amazon.com link no longer has an ESP8266 chip and is unsupported**
 
 Alternative template 
 

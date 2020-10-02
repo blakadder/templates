@@ -1,8 +1,8 @@
 ---
 date_added: 2019-12-20
 title: eMylo SS-8839-03
-category: switch
-type: Relay
+category: relay
+type: Switch
 standard: global
 link: https://www.amazon.de/dp/B07FP8N7DS
 image: https://user-images.githubusercontent.com/5904370/72060627-ab807700-32d4-11ea-9a69-46c5b30159bd.png

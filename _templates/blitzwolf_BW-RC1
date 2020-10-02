@@ -1,0 +1,17 @@
+---
+date_added: 2020-02-03
+title: BlitzWolf BW-RC1 Smart IR Controller
+model: 56751
+image: https://user-images.githubusercontent.com/5904370/73696591-d942bb00-46dc-11ea-9e03-8382011185bc.png
+template: '{"NAME":"BW-RC1","GPIO":[0,0,0,0,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.banggood.com/BlitzWolf-BW-RC1-Mini-Smart-Home-Universal-IR-WIFI-Infrared-Remote-Controller-For-TV-Air-Conditioning-Home-Appliances-p-1587907.html
+link2: https://www.aliexpress.com/item/4000340292227.html
+mlink: https://www.blitzwolf.com/BlitzWolf%C2%A0BW-RC1-WiFi-Smart-IR-Controller-with-360%C2%B0-Transmission,-APP-Control,-Works-with-Alexa,-Automatic-Identification,-DIY-Pairing-and-Slim-Design-p-409.html
+flash: tuya-convert
+category: misc
+type: IR Bridge
+standard: global
+---
+Use http://thehackbox.org/tasmota/release/tasmota-ir.bin firmware
+
+***WARNING*** The most recent versions of these devices cannot be flashed with Tuya-Convert at present. These may have D/C 2120 printed on the base.

@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-27
+title: Vivanco 39625 Smart Home Power Adapter
+model: 39625
+image: https://user-images.githubusercontent.com/5904370/73256089-95722200-41c1-11ea-8cdd-21053cf79140.png
+template: '{"NAME":"Vivianco","GPIO":[0,0,0,17,133,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.electronic4you.de/vivanco-wifi-smart-home-adapter-182360.html
+link2: https://geizhals.de/vivanco-wifi-smart-home-steckdosenadapter-weiss-39625-a2182682.html
+mlink: http://www.vivanco.com/Homepage/Products/Energy/Power-accessories/Power-Adapter/vivanco-39625-wifi-smart-home-power-adapter-white.html?id=ratXiqtz 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

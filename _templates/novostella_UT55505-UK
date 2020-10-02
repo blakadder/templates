@@ -1,0 +1,12 @@
+---
+date_added: 2019-03-18
+title: Novostella 7W 600lm
+model: UT55505-RGBCW-UK
+type: RGBCCT
+category: bulb
+standard: b22
+link: https://www.amazon.co.uk/gp/product/B07DN4NLKM
+image: /assets/images/novostella_UT55505.jpg
+template: '{"NAME":"Novostella B22","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+---

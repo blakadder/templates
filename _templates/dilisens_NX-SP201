@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-21
+title: Dilisens NX-SP201 Mini 2 in 1
+model: NX-SP201
+image: /assets/images/dilisens_NX-SP201.jpg
+template: '{"NAME":"NX-SP201","GPIO":[0,0,131,0,134,132,52,21,18,22,17,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07B4CNJKG
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+Hold the left switch/button to enter pairing mode

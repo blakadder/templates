@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-10
+title: Gosund SP112
+model: SP112 v3.4 
+image: /assets/images/gosund_SP112_v3_4.jpg
+template: '{"NAME":"Gosund 112v3.4","GPIO":[56,0,57,0,132,134,0,0,131,30,21,0,0],"FLAG":4,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07PPZS351
+link2: 
+mlink: https://gosund.com/download/smart_plug/127.html
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---

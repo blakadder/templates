@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-04
+title: Polux A65 11W 1055lm
+model: 313812
+image: /assets/images/polux_313812.jpg
+template: '{"NAME":"A65 SMDWWCW+RG","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.polux.sklep.pl/wi-fi-smart-led-zarowka-a65-11w-1055lm-e27-wwcw-rgb-tuyasmart-p-1372.html
+link2: 
+mlink: http://www.sanico.com.pl/lampa-led-a65-wi-fi-tuya-smart
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-29
+title: Calex 429008 B35 5W 470lm
+model: 
+image: /assets/images/calex-429008.jpg
+template: '{"NAME":"Calex E14 RGBW","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.calex.nl/en/products/product/LEDKAAB35E14-5W-2200-4000KSMDSMART/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e14
+---
+`SetOption37 30` or the R and G will be reversed

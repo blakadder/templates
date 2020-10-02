@@ -1,0 +1,15 @@
+---
+date_added: 2020-02-16
+title: Hyperikon 14W 1000lm 6" Downlight
+model: HyperSmart-DL6
+image: /assets/images/hyperikon_DL6.jpg
+template: '{"NAME":"HyperikonDL6","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07W986MF8/
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Light
+standard: us
+---
+Device uses custom version of Tuya called Hypersmart, but it is Tuya and can be converted

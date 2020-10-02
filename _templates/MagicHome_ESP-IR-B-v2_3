@@ -1,0 +1,65 @@
+---
+date_added: 2020-02-03
+title: MagicHome RGBW 
+model: ESP-IR-B-v2.3
+image: https://user-images.githubusercontent.com/5904370/73642118-6b14de80-4671-11ea-9138-99af8eb3ccd9.png
+template: '{"NAME":"ESP-IR-B-v2.3","GPIO":[0,0,51,0,0,38,0,0,37,39,0,40,0],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"ESP-IR-B-v2.3","GPIO":[0,0,0,0,51,38,0,0,37,39,0,40,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B0772TB9L4
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+Also of interest, and depending how you're using yours, these 2 options may be of note.
+1. to seperate the white to an individual channel https://tasmota.github.io/docs/SetOption37/
+```console
+setoption37 128
+``` 
+2. and White Blend Mode is used for 4 channel (RGBW) https://tasmota.github.io/docs/White-Blend-Mode/
+```console
+rgbwwtable 255,255,255,255,0
+```
+
+to add remote function add these rules (holding white (or any button) will put ALL light channels on, like original)
+```console
+Rule1 
+on IrReceived#Data=0x00FFB04F DO backlog power 1; power0 1 endon 
+on IrReceived#Data=0x00FFF807 DO power0 0 endon 
+on IrReceived#Data=0xFFFFFFFFFFFFFFFF DO backlog power2 1; white 100 endon
+on IrReceived#Data=0x00FF906F DO dimmer + endon 
+on IrReceived#Data=0x00FFB847 DO dimmer - endon 
+on IrReceived#Data=0x00FFB24D DO backlog blinkcount 0; blinktime 5; power 3 endon 
+on IrReceived#Data=0x00FF00FF DO backlog color 12; white 100; blinkcount 0; blinktime 2; power1 3; power2 3 endon 
+on IrReceived#Data=0x00FF58A7 DO backlog scheme 2; speed 2 endon 
+on IrReceived#Data=0x00FF30CF DO backlog scheme 2; speed 40 endon
+```
+
+and these rules are for the colour options on remote
+```console
+Rule2
+on IrReceived#Data=0x00FF9867 DO color 1 endon
+on IrReceived#Data=0x00FFE817 DO color 4 endon
+on IrReceived#Data=0x00FF02FD DO color 7 endon
+on IrReceived#Data=0x00FF50AF DO hsbcolor 40,100,100 endon
+on IrReceived#Data=0x00FF38C7 DO color 10 endon
+on IrReceived#Data=0x00FFD827 DO color 2 endon
+on IrReceived#Data=0x00FF48B7 DO color 5 endon
+on IrReceived#Data=0x00FF32CD DO color 8 endon
+on IrReceived#Data=0x00FF7887 DO hsbcolor 145,100,47 endon
+on IrReceived#Data=0x00FF28D7 DO hsbcolor 160,100,50 endon
+on IrReceived#Data=0x00FF8877 DO color 3 endon
+on IrReceived#Data=0x00FF6897 DO color 6 endon
+on IrReceived#Data=0x00FF20DF DO color 9 endon
+on IrReceived#Data=0x00FF708F DO hsbcolor 290,100,50 endon
+on IrReceived#Data=0x00FFF00F DO color 11 endon
+on IrReceived#Data=0x00FFA857 DO color 12 endon 
+```
+
+then to turn rules on
+``` console
+Backlog Rule1 1; Rule2 1
+```
+

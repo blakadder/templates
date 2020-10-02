@@ -1,19 +1,13 @@
 ---
 date_added: 2019-10-23
-title: Arlec GLD122HA 806lm
+title: Arlec Smart 9.5W 806lm
+model: GLD122HA
+image: /assets/images/arlec_GLD122HA.jpg
+mlink:
 type: RGBCCT
 category: bulb
 standard: e27
-link: https://www.bunnings.com.au/arlec-smart-9-5w-806lm-rgb-cct-es-globe-with-grid-connect_p0111501
-image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/10243ce9-61e7-4dc9-ab83-e4af46094c9f.jpg
 template: '{"NAME":"Arlec RGBWW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link: https://www.bunnings.com.au/arlec-smart-9-5w-806lm-rgb-cct-es-globe-with-grid-connect_p0111501
+link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-9-5w-806lm-rgb-cct-es-globe_p0111501
 ---
-
-Uses same config as Novostella RGBWW bulb. Requires the latest development branch of TuyaConvert.
-
-
-
-
-
-

@@ -1,0 +1,20 @@
+---
+date_added: 2019-09-13
+title: BNETA 8.5W 800lm 
+model: IO-WIFI60-E27P
+type: RGBCCT
+category: bulb
+standard: e27
+mlink: https://www.bneta.co.za/product/smartbulb_e27/
+image: /assets/images/bneta_IO-WIFI60-E27P.jpg
+template: '{"NAME":"OM60/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+---
+
+
+
+
+
+
+
+

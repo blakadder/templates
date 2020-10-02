@@ -1,0 +1,16 @@
+---
+date_added: 2020-06-02
+title: eMylo 2 Channel
+model: XL9252WI
+image: /assets/images/emylo_XL9252WI.jpg
+template: '{"NAME":"eMylo XL9252WI","GPIO":[0,255,0,0,56,22,0,0,21,0,12,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07PZL2YXJ/
+link2: 
+mlink: http://www.emyloworld.com/
+flash: tuya-convert
+category: relay
+type: Switch
+standard: global
+---
+
+FCC ID 2AUZQXL9251WR

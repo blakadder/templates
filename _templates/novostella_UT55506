@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-07
+title: Novostella UT55506 10W 1050lm
+model: HM-LB06-RGBCW-US-B
+image: /assets/images/novostella_UT55506.jpg
+template: '{"NAME":"Novostella 10W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07Y17FY1X/
+link2: 
+mlink: https://www.novostella.net/products/1-pack-10w-br30-1050lm-e26-rgbcw-2700-6500k-smart-led-bulb
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---

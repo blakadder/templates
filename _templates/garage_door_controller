@@ -1,12 +1,12 @@
 ---
 date_added: 2019-11-15
 title: Garage Door Controller
-category: switch
-type: Relay
+category: relay
+type: Switch
 standard: global
 link: https://www.amazon.com/Controller-Smartphone-Compatible-Assistant-Required/dp/B07QG7RGFW
 link2: http://s.click.aliexpress.com/e/pAG1CPQC
-link3: 
+mlink: 
 image: https://ae01.alicdn.com/kf/HTB1rYNFRCzqK1RjSZPxq6A4tVXaR/Zemismart-Wifi-Garage-Door-Controller-for-Car-Garage-Door-Opener-APP-Remote-Control-Timing-Voice-Control.jpg
 template: '{"NAME":"Garage Opener","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 ---
@@ -15,10 +15,18 @@ Generic garage door controller, TuyaMCU relay with magnetic reed switch
 
 "SwitchMode":[4,1,0,0,0,0,0,0] could use inverted also.
 
+To have POWER topic seperated to split out reed switch from relay results run the following commands (from https://groups.google.com/g/sonoffusers/c/wIjX2sWLJMU/m/CzXrzRNvCAAJ).
+Config might need to be adjusted to have LED work correctly.
+Don't forget to adjust topics in the new rule to your configuration.
+https://tasmota.github.io/docs/Rules/#garage-door-opener has more discussion on required rules.
+
 ```console
+Backlog TuyaMCU 2, 101; TuyaMCU 11, 1; TuyaMCU 0, 7;
+Switchmode1 4
+Switchmode2 1
 Rule1 on switch2#state=1 do publish2 stat/SW_Garage/POWER2 Open endon on switch2#state=0 do publish2 stat/SW_Garage/POWER2 Closed endon
+Rule1 1
 ```
-Needs to have POWER topic separated to split out reed switch from relay results. Config might need to be adjusted to have LED work correctly.
 
 fnId=2 is set for dpId=101
 

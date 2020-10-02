@@ -1,0 +1,16 @@
+---
+date_added: 2020-01-25
+title: Sinilink USB
+model: XY-WFUSB
+image: https://user-images.githubusercontent.com/5904370/72764253-91ee0200-3be7-11ea-8ede-e9f2e3cab718.png
+template: '{"NAME":"XY-WFUSB","GPIO":[255,255,0,255,17,21,0,0,0,0,56,0,157],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/Sinilink-WIFI-USB-mobile-phone-remote-controller-3-5-20V-5A-100W-mobile-phone-APP-smart/4000631349500.html
+link2: https://www.aliexpress.com/item/4000601746198.html
+link3: https://www.banggood.com/3_5-20V-5A-100W-USB-Controller-Mobile-APP-Remote-Control-Remote-Control-USB-Switch-Smart-Home-USB-Device-Timing-Cycle-On-Off-Controller-USB-Tester-p-1615638.html
+mlink: https://www.alibaba.com/product-detail/WIFI-USB-Mobile-Remote-Controller-Mobile_62438878126.html
+flash: serial
+category: relay
+type: Switch
+standard: global
+---
+![pinout](https://m.blog.hu/bi/bitekmindenhol/image/wfusb_pinout.jpg)

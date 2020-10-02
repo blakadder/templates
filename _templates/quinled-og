@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-12
+title: QuinLED 2 Channel
+model: QuinLED-OG
+image: /assets/images/quinled-og.jpg
+template: '{"NAME":"QuinLED 2 channel","GPIO":[37,0,38,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://blog.quindorian.org/2016/07/esp8266-lighting-revisit-and-history-of-quinled.html/
+flash: serial
+category: misc
+type: DIY
+standard: global
+---

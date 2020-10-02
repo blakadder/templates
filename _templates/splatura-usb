@@ -5,10 +5,10 @@ link: https://www.tindie.com/products/splatura/usb-device-power-switch-tasmota-c
 image: https://user-images.githubusercontent.com/5904370/71558452-de647880-2a53-11ea-80e4-346dee46613e.png
 template: '{"NAME":"Splatura USB","GPIO":[0,0,52,0,0,0,0,0,0,21,0,122,0],"FLAG":0,"BASE":18}' 
 link2: 
-link3: 
+mlink: 
 flash: serial
-category: misc
-type: DIY
+category: relay
+type: Switch
 standard: global
 ---
 Make any USB device network controllable using this DIY kit. Add your own Wemos D1 Mini to complete the package, load on Tasmota and integrate your USB devices into your network. This device passes through 5v from the input mini USB connection and a maximum of 2.5A. The Wemos D1 Mini is also powered from the incoming 5v mini USB connection

@@ -1,0 +1,14 @@
+---
+date_added: 2019-12-07
+title: LE lampUX 5m RGBW 
+model: 904101-RGBW-F-UK
+link: https://www.amazon.co.uk/gp/product/B07P9PX83B
+image: https://images-na.ssl-images-amazon.com/images/I/71kbNBh0NFL._AC_SL1200_.jpg
+template: '{"NAME":"LampUX","GPIO":[0,0,17,0,0,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}'
+link2: 
+mlink: https://www.lepro.co.uk/5m-dimmable-rgbw-wifi-smart-diy-led-strip-lights.html
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: uk
+---

@@ -1,0 +1,74 @@
+---
+date_added: 2020-09-01
+title: NEO Coolcam Siren with Temperature and Humidity
+model: NAS-AB02W
+image: /assets/images/neo_coolcam_NAS-AB02W.jpg
+template: '{"NAME":"Neo Siren 3in1","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/32902225381.html
+link2: 
+mlink: https://www.szneo.com/en/products/show.php?id=230
+flash: tuya-convert
+category: sensor
+type: Multisensor
+standard: global
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+This is a Tuya siren with temperature and humidity sensor. Runs on USB and two CR123A batteries as backup (not supplied with the device). 
+
+Identified with MCU Product ID: `{"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}`. 
+
+## Flashing
+If you have issues flashing with tuya-convert you can flash the device using serial. There are labelled pads for all needed GPIO's on the board. You have to remove the resistor next to the TX pad to isolate the ESP8266 from the MCU.
+
+## Configuration
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and change device to a TuyaMCU module 
+```console
+Backlog SetOption65 1; SetOption66 1; Module 54
+```
+Map alarm control to POWER
+```console
+TuyaMCU 104,11
+```
+
+## Functions
+Alarm will be turned on or off using POWER. 
+
+- dpid 101 - power type (1 - battery high; 2 - ?medium?; 3 - ?low?; 4 - usb port)
+- dpid 102 - alarm type (0-17)
+- dpid 103 - alarm duration time (in seconds)
+- dpid 104 - alarm control
+- dpid 105 - temp in C (divide by 10)
+- dpid 106 - humidity
+- dpid 107 - minimum temperature to trigger alarm
+- dpid 108 - maximum temperature to trigger alarm
+- dpid 109 - minimum humidity to trigger alarm
+- dpid 110 - maximum humidity to trigger alrm
+- dpid 112 - unit change (on = C, off = F) - does not affect dpid 105 values
+- dpid 113 - temperature alarm control (0 = off, 1 = on)
+- dpid 114 - humidity alarm control (0 = off, 1 = on)
+- dpid 116 - alarm volume (0 = high, 1 = medium, 2 = low)
+
+### Chime sounds:
+
+- 0 - doorbell
+- 1 - fuer elise
+- 2 - big ben
+- 3 - ring ring
+- 4 - lone ranger
+- 5 - turkish march
+- 6 - high pitch siren
+- 7 - red alert
+- 8 - cricket
+- 9 - beep beep
+- 10 - dogs
+- 11 - police
+- 12 - chime
+- 13 - phone ring
+- 14 - firetruck
+- 15 - clock chime
+- 16 - alarm clock
+- 17 - psycho

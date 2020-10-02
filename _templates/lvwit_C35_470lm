@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-06
+title: LVWIT E14 Smart Wifi LED Bulb, 470Lm, 4.5W
+model: C35-8CCTWZ
+image: /assets/images/lvwit_C35_470lm.jpg
+template: '{"NAME":"LVWIT 4.5w CCT","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B07YY3JMWJ/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e14
+---

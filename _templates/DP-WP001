@@ -1,0 +1,34 @@
+---
+date_added: 2020-01-17
+title: DP-WP001 PIR
+model: 
+image: https://user-images.githubusercontent.com/5904370/72598047-50233a00-390f-11ea-87ae-53ffe97b4509.png
+template: '{"NAME":"TUYA PIR","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/Motion-Sensor-Office-Security-Compatible/dp/B07L2WTYRY
+link2: https://www.aliexpress.com/af/DP%25252dWP001.html
+mlink: 
+flash: serial
+category: sensor
+type: Motion Sensor
+standard: global
+---
+
+## Flashing
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk.
+
+After initial setup type the following into the Tasmota console window:
+```console
+Rule1 on TuyaReceived#data=55AA000000010101 do Power ON ENDON
+Rule1 1
+```
+```console
+SetOption59 1
+SetOption66 1
+PowerOnState 0
+```
+This device on Tasmota 8.1 does not report a full TuyaMCU message, but it spams 55AA000000010101 when motion is detected. It also powers on the tywe3s module (which probably the reason for the speed mentioned below).
+```
+"00:00:20 TYA: Send "55aa00000000ff"
+"00:00:20 {"TuyaReceived":{"Data":"55AA000000010000","Cmnd":0,"CmndData":"00"}}"
+```
+With a static IP set and connected to Homeassistant, it takes 6 seconds to register motion. Recommend setting Homeassistant to activate on PIR connect. Waiting for the actual message takes longer.

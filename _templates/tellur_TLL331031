@@ -1,21 +1,13 @@
 ---
 date_added: 2019-09-09
-title: Tellur TLL331031
+title: Tellur 3AC 4USB
+model: TLL331031
 category: plug
 type: Power Strip
 standard: eu
-link: https://www.emag.ro/prelungitor-smart-tellur-wireless-3-prize-4-x-usb-2200w-10a-cablu-1-8m-alb-tll331031/pd/D6YK7VBBM/
-image: https://www.tellur.com/wp-content/uploads/2018/08/TLL331031_1-696x696.jpg
+link2: https://www.emag.ro/prelungitor-smart-tellur-wireless-3-prize-4-x-usb-2200w-10a-cablu-1-8m-alb-tll331031/pd/D6YK7VBBM/
+image: /assets/images/tellur_TLL331031.jpg
 template: '{"NAME":"Tellur","GPIO":[0,56,0,17,22,21,0,0,0,23,24,0,0],"FLAG":1,"BASE":18}' 
-link2: https://www.tellur.com/product/wifi-power-strip-3-outlets-4usb-4a-2200w-10a-1-8m/#prettyPhoto
+mlink: https://www.tellur.com/product/wifi-power-strip-3-outlets-4usb-4a-2200w-10a-1-8m/#prettyPhoto
+link: https://www.amazon.de/dp/B07HWLHGR5/
 ---
-
-Identical in appearance and template to [aofo_3AC4USB.html](aofo_3AC4USB.html) and [nedis_WIFIP310FWT.html](nedis_WIFIP310FWT.htm)
-
-Flashed using kueblc's enhance-api branch according to [https://github.com/ct-Open-Source/tuya-convert/issues/201](https://github.com/ct-Open-Source/tuya-convert/issues/201)
-
-
-
-
-
-

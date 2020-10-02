@@ -1,0 +1,14 @@
+---
+date_added: 2020-06-10
+title: Yuntong Smart
+model: S1957943
+image: /assets/images/yuntong_S1957943.jpg
+template: '{"NAME":"Yuntong Smart","GPIO":[0,0,0,0,21,0,0,0,122,56,0,158,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.de/gp/product/B079L6GVNF/
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Switch
+standard: global
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-30
+title: Sunco G25 5W 450lm
+model: G25_S-5W-27K_5K-2PK 
+image: https://user-images.githubusercontent.com/5904370/73499981-de90c480-43c1-11ea-8ba9-3e3bf8037eb8.png
+template: '{"NAME":"Sunco G25","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07NVY18WF
+link2: 
+mlink: https://www.suncolighting.com/collections/smart-bulbs/products/g25-smart-bulb-wifi
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---

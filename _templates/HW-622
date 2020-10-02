@@ -1,0 +1,15 @@
+---
+date_added: 2020-03-25
+title: HW-622 ESP8266
+model: 
+image: /assets/images/HW-622.jpg
+template: '{"NAME":"HW-622","GPIO":[0,0,157,0,21,17,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32972771989.html
+link2: https://allegro.pl/oferta/modul-przekaznika-sterowanego-przez-wifi-esp8266-8255295689
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+DYI ESP8266 relay with external optoisolated button. Requires an external power supply.

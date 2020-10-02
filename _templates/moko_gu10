@@ -1,0 +1,12 @@
+---
+date_added: 2020-03-28
+title: MoKo GU10
+model: Q3CWM
+type: RGBW
+category: bulb
+standard: gu10
+link: https://www.amazon.ca/MoKo-Dimmable-Spotlight-Control-Function/dp/B0825FY757
+image: https://user-images.githubusercontent.com/131752/77835497-69fcac80-710a-11ea-87e7-740874e2d05a.jpg
+template: '{"NAME":"MoKo GU10","GPIO":[255,255,255,255,39,255,255,255,38,41,37,40,255],"FLAG":15,"BASE":18}'
+flash: tuya-convert
+---

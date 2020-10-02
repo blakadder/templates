@@ -1,14 +1,17 @@
 ---
 date_added: 2019-10-22
 title: Sonoff Basic R3
-category: switch
-type: Relay
+model: IM190314001
+category: relay
+type: Switch
 standard: global
-link3: https://www.itead.cc/sonoff-basicr3-wifi-diy-smart-switch.html
+flash: sonoff-diy
 image: https://user-images.githubusercontent.com/5904370/67286319-7c2e4b00-f4d9-11e9-9c3d-993e5a8c6422.png
-template: '{"NAME":"Basic R3","GPIO":[17,255,0,255,255,0,0,0,21,56,255,0,255],"FLAG":0,"BASE":1}' 
-link: https://www.banggood.com/SONOFF-BASIC-R3-10A-2200W-Smart-ONOFF-WIFI-Wireless-Switch-Light-Timer-Support-DIY-Mode-APPLANVoice-Remote-Control-BASICR3-Works-With-Amazon-Alexa-Google-Home-Nest-Assistant-IFTTT-p-1451233.html
-link2: https://www.amazon.com/dp/B07S59CGQ1
+template: '{"NAME":"Basic R3","GPIO":[17,255,0,255,255,0,255,255,21,56,0,0,255],"FLAG":0,"BASE":1}' 
+link: https://www.itead.cc/sonoff-basicr3-wifi-diy-smart-switch.html
+link2: https://www.banggood.com/SONOFF-BASIC-R3-10A-2200W-Smart-ONOFF-WIFI-Wireless-Switch-Light-Timer-Support-DIY-Mode-APPLANVoice-Remote-Control-BASICR3-Works-With-Amazon-Alexa-Google-Home-Nest-Assistant-IFTTT-p-1451233.html
+link3: https://www.amazon.com/dp/B07S59CGQ1
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/basicr3
 ---
 
-The latest Sonoff Basic R3 can be flashed without the need to connect a serial interface with Sonoff DIY. [Flashing instructions](https://github.com/arendst/Tasmota/wiki/Sonoff-Basic#sonoff-basic-r3)
+The latest Sonoff Basic R3 can be flashed without the need to connect a serial interface with Sonoff DIY. [Flashing instructions](https://tasmota.github.io/docs/devices/Sonoff-Basic/#sonoff-basic-r3)

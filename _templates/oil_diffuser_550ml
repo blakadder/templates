@@ -9,7 +9,9 @@ image: https://user-images.githubusercontent.com/5904370/57200999-010cc300-6f93-
 template: '{"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link2: 
 ---
-<!-- Please read [TuyaMCU](https://github.com/arendst/Tasmota/wiki/TuyaMCU) wiki entry to understand the terminology and configuration process. -->
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) to understand the terminology and configuration process.
 
 Flashed via serial by using TYWE3S pins. Might work with Tuya Convert.
 
@@ -23,7 +25,7 @@ PCB code: KCL-M1801C_M 2018_11_12 V5.0
 `dpID 6` light control: `0 = off / 1 = rgb cycle / 2 = white / 3 = single color`   
 `dpID 7` led dimmer    
 `dpID 8` led color: `14 char value in hex` (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
-`dpID 9` error notification: 70 = ok / 1 = error`  
+`dpID 9` error notification: `70 = ok / 1 = error`  
 `dpID 101` mist strength: `0 = low / 1 = high`   
 
 > I found the built in buzzer very annoying and desoldered it for quieter operation!
@@ -53,6 +55,11 @@ Don't forget to activate rules
 Backlog Rule1 1; Rule2 1; Rule3 1
 ```
 
+Label webUI buttons:
+```console
+Backlog WebButton1 Power; WebButton2 Mist; WebButton3 Light; WebButton4 Error; WebButton5 -
+```
+
 ### What you get
 - fnid11 = Relay1 serves as device power status with the help of Rule1, dummy relay no control
 - fnid12 = Relay2 is mist strength status and control
@@ -61,7 +68,7 @@ Backlog Rule1 1; Rule2 1; Rule3 1
 - find15 = Relay5 is a dummy relay so the dimmer doesn't control the other relays if we don't make one dimmer uses the last relay and would trigger errors
 - fnid21 = Dimmer
 
-Light mode and status are reported to mqtt topic `tele/diffuser/STATE` and command [`Event`](https://github.com/arendst/Tasmota/wiki/Commands#event) is used to change light modes using [`TuyaSend4`](https://github.com/arendst/Tasmota/wiki/Commands#tuyasend4) command. All this is defined in `Rule2`
+Light mode and status are reported to mqtt topic `tele/diffuser/STATE` and command [`Event`](https://tasmota.github.io/docs/Commands#event) is used to change light modes using [`TuyaSend4`](https://tasmota.github.io/docs/Commands#tuyasend4) command. All this is defined in `Rule2`
 
 Color can be changed using `TuyaSend3 8,RRGGBB64646464` (RR, GG and BB are hex value) only in color mode.
 
@@ -192,5 +199,3 @@ color purple
 ```
 
 [![IMG-20190505-230944.jpg](https://i.postimg.cc/sDmp2YqR/IMG-20190505-230944.jpg)](https://postimg.cc/WhDDWks9)
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

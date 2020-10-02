@@ -8,5 +8,5 @@ image: https://sc01.alicdn.com/kf/HTB10GTdXu6sK1RjSsrbq6xbDXXaA/2-pin-mini-wi-fi
 template: '{"NAME":"XS-A18","GPIO":[37,0,38,0,0,39,0,0,0,17,0,21,0],"FLAG":0,"BASE":45}' 
 link2: https://www.banggood.com/XS-A17-AC100-240V-10A-JP-Plug-WIFI-Control-Socket-Wireless-Timer-Switch-Outlet-With-RGB-LED-Light-Voice-Control-Works-With-Alexa-Google-p-1410922.html
 link: https://www.aliexpress.com/item/33027359420.html
-link3: https://www.alibaba.com/product-detail/wifi-RGB-LED-JP-PH-2pin_60797038528.html
+mlink: https://www.alibaba.com/product-detail/wifi-RGB-LED-JP-PH-2pin_60797038528.html
 ---
