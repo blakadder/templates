@@ -1,0 +1,15 @@
+---
+date_added: 2020-10-01
+title: Diolamp E27 9W 800lm
+model: A609WIFI
+image: /assets/images/diolamp_A609WIFI.jpg
+template: '{"NAME":"Diolamp A609WIFI","GPIO":[0,0,0,0,180,0,0,0,0,0,181,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.elektriko.gr/index.php?route=product/product&product_id=18101
+link2: https://www.casaplus.gr/led-lampa-wifi-rgb-9w-e27-a609wifi
+mlink: https://acalight.gr/shop/a609wifi/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
+`setoption37 31`

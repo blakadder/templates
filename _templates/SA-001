@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-01
+title: SA-001
+model: SA-001
+image: /assets/images/SA-001.jpg
+template: '{"NAME":"SA-001","GPIO":[17,145,0,146,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":41}' 
+link: https://www.lazada.co.th/products/woolley-sa001-wifi-smart-power-socket-16a-mini-us-plug-with-overload-protection-app-control-voice-control-support-amazon-alexa-google-home-100v-240v-ac-i1549970437-s4140522141.html?mp=1
+link2: https://www.ebay.com/itm/US-EU-AU-UK-16A-POW-Plug-Echo-Alexa-Google-Home-Electric-Appliance-Smart-Socket-/253805621620
+mlink: https://www.alibaba.com/product-detail/SA-001-10A-Wifi-Smart-Switch_62086049208.html
+flash: serial
+category: plug
+type: Plug
+standard: [us, eu, uk, au]
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-02
+title: Delock Power Socket Switch MQTT
+model: 11827
+image: /assets/images/delock_11827.jpg
+template: '{"NAME":"Delock 11827","GPIO":[0,0,0,17,133,132,0,0,131,158,21,0,0],"FLAG":0,"BASE":53}' 
+link: https://www.amazon.de/dp/B08C6KZFZK/
+link2: https://www.reichelt.de/wlan-steckdosen-schalter-leistungsmessung-delock-11827-p262109.html
+mlink: https://www.delock.com/produkte/S_11827/merkmale.html
+flash: preflashed
+category: switch
+type: Plug
+standard: eu
+---

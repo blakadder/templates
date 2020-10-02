@@ -1,0 +1,71 @@
+---
+date_added: 2020-09-01
+title: NEO Coolcam Mouse Trap
+model: NAS-MA01W
+image: /assets/images/neo_coolcam_NAS-MA01W.jpg
+template: '{"NAME":"Neo Mouse Trap","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/wholesale?SearchText=wifi+mouse+trap&ltype=wholesale&SortType=price_asc&groupsort=1&page=1
+link2: https://www.banggood.com/NEO-Mousetrap-Rat-Trap-Catcher-Rodent-Pest-Killer-WiFi-Wireless-Sensor-APP-Control-for-Mobile-Phone-p-1537800.html
+link3: 
+mlink: https://www.szneo.com/en/products/show.php?id=232
+flash: tuya-convert
+category: misc
+type: Miscellaneous
+standard: global
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+This is a Tuya electric mouse trap. Runs on 4 1.5v AA batteries. 
+
+Identified with MCU Product ID: `{"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}`. 
+
+## Flashing
+Once you disassemble the top case and unscrew the PCB from it there are labelled pads for all needed GPIO's on the under side of the board. Disconnect all cabled from the PCB and power the ESP8266 chip using its 3V3 pad. Follow standard flashing procedure.
+
+![wiring](/assets/images/neo_coolcam_NAS-MA01W_wiring.jpg)
+## Configuration
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and change device to a TuyaMCU module 
+```console
+Backlog SetOption65 1; SetOption66 1; SetOption36 0; Module 54
+```
+Switch device to battery power mode
+```console
+Backlog TuyaMCU 51,51; TuyaMCU 99,1
+```
+
+This rule is required to shut down Tasmota after a successful boot and empty mouse trap.
+```console
+backlog rule1 on tuyareceived#data=55AA00050005650100010070 do backlog delay 300; serialsend5 55AA000500010005 endon; rule 1 1
+```
+
+When the trap is triggered it will stay turned on until reset.
+
+## Functions
+- dpid 101 - `1` reports trap triggered
+- dpid 102 - battery
+    - `0` - 100%
+    - `1` - 75%
+    - `2` - 50%
+    - `3` - 25% - low
+
+## Home Assistant configuration
+Add these rules to console, your mouse trap will be autodiscovered on reboot.
+
+```console
+rule2
+on tuyareceived#data=55AA00050005650100010171 do publish2 stat/%topic%/trap on endon
+on tuyareceived#data=55AA00050005650100010070 do publish2 stat/%topic%/trap off endon
+on tuyareceived#data=55AA00050005660400010074 do publish2 stat/%topic%/battery 100 endon 
+on tuyareceived#data=55AA00050005660400010175 do publish2 stat/%topic%/battery 75 endon 
+on tuyareceived#data=55AA00050005660400010276 do publish2 stat/%topic%/battery 50 endon 
+on tuyareceived#data=55AA00050005660400010377 do publish2 stat/%topic%/battery 25 endon 
+```
+
+```console
+{% raw %}rule3
+on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_battery/config {"name":"%topic% battery","stat_t":"stat/%topic%/battery","vl_tpl":"{{value}}","unique_id":"%deviceid%_battery","dev_cla":"battery","dev":{"ids":["%deviceid%"],"name":"%topic%","model":"NAS-MA01W","mf":"Tasmota"},"platform":"mqtt"} endon
+on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_trap/config {"name":"%topic% Alert","stat_t":"stat/%topic%/trap","icon":"mdi:rodent","unique_id":"%deviceid%_trap","dev":{"ids":["%deviceid%"],"name":"%topic%","model":"NAS-MA01W","mf":"Tasmota"},"platform":"mqtt"} endon{% endraw %}
+```
