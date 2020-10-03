@@ -14,5 +14,3 @@ standard: e27
 ---
 
 This bulb has hardware gamma correction. You need to set 'LedTable 0'
-
-Tuya-Convert might not be possible for this device if the manufacturer started using newest Tuya firmware since this template was published (2020-09-27)
