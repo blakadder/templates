@@ -69,3 +69,8 @@ on tuyareceived#data=55AA00050005660400010377 do publish2 stat/%topic%/battery 2
 on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_trap/config {"name":"%topic% alert","state_topic":"stat/%topic%/trap","value_template":"{{value}}","unique_id":"%deviceid%_trap","device":{"identifiers":["%deviceid%"],"name":"%topic%","model":"NAS-MA01W","sw_version":"Tasmota","manufacturer":"Tasmota"}} endon
 on system#boot do publish2 homeassistant/sensor/%deviceid%_battery/config {"name":"%topic% battery","state_topic":"stat/%topic%/battery","value_template":"{{value}}","device_class":"battery","unit_of_measurement":"%","unique_id":"%deviceid%_battery","device":{"identifiers":["%deviceid%"],"name":"%topic%","model":"NAS-MA01W","sw_version":"Tasmota","manufacturer":"Tasmota"}} endon{% endraw %}
 ```
+
+Enable the rules:
+```console
+backlog rule2 1; rule3 1
+```
