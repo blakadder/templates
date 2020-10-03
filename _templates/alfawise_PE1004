@@ -6,6 +6,6 @@ type: Plug
 standard: eu
 link: https://www.gearbest.com/smart-power-socket-plug/pp_009471124266.html
 image: https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2018/10/19/goods_img_big-v1/20181019171926_11300.jpg
-template: '{"NAME":"PE1004T","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
+template: '{"NAME":"PE1004T","GPIO":[0,0,0,0,320,321,0,0,224,32,0,0,0,4896],"FLAG":0,"BASE":18}'
 link2: https://www.alfawise.com/products/alfawise-pe1004t-smart-plug-mini-wifi-socket-eu-standard
 ---
