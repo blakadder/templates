@@ -1,17 +1,18 @@
 ---
-date_added: 2019-12-03
-title: Aoycocr X10S
+date_added: 2020-10-02
+title: Aoycocr  
+model: X10S
 category: plug
 type: Plug
 standard: us
-link: https://www.amazon.com/gp/product/B07RV15W3W
-image: https://0.rc.xiniu.com/g2/M00/3E/B5/CgAGfFzSMemAMeaAAACQ16nXiOQ332.jpg
+flash: serial
+image: /assets/images/aoycocr_X10S.jpg
 template: '{"NAME":"Aoycocr X10S","GPIO":[56,0,57,0,21,134,0,0,131,17,132,0,0],"FLAG":0,"BASE":45}' 
-link2: 
-mlink: http://en.hysiry.com/case_view.aspx?TypeId=127&Id=393&FId=t4:127:4
+mlink: https://www.alibaba.com/trade/search?fsb=y&IndexArea=product_en&CatId=&SearchText=X10S+plug&viewtype=&tab=
+link: https://www.amazon.com/dp/B07XC7SKZK
+link2: https://www.aliexpress.com/item/4000747886127.html
+link3: https://www.walmart.ca/en/ip/X10S-WiFi-Smart-Time-Switch-Timing-Socket-Outlet-Plug-For-Amazon-Alexa-Google/PRD5U8SCC7J6NXJ
 ---
-![Label](https://user-images.githubusercontent.com/5904370/71768399-e1f57500-2f15-11ea-9c7a-97c0cc5df012.png)
-
 As of September 20, 2020, a four-pack of these plugs ordered from Amazon.com is not able to install tasmota using
 the tuya-convert utility. The exterior of these plug is slightly different than in the pictures, above.
 On the front of the plug the placement of the button and LED has changed:
