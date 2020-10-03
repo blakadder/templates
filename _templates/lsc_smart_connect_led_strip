@@ -12,7 +12,7 @@ link2:
 ## Warning
 
 As of July 2020 this device comes with a Tuya WB3S module which cannot be flashed with Tasmota.     
-That module is pin compatible with ESP-12 and can ordered via Ebay. Replace the modul with a hot air gun. All LEDs are usable R,G,B,CW,WW and you can dimm it.
+That module is pin compatible with ESP-12 and can ordered via Ebay. Replace the module with a hot air gun. All LEDs are usable R,G,B,CW,WW and you can dimm it.
 
 ```json
 '{"NAME":"LSC RGBW Strip","GPIO":[51,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
