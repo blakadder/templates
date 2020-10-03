@@ -56,8 +56,8 @@ Add these rules to console, your mouse trap will be autodiscovered on reboot.
 
 ```console
 rule2
-on tuyareceived#data=55AA00050005650100010171 do publish2 stat/%topic%/trap on endon
-on tuyareceived#data=55AA00050005650100010070 do publish2 stat/%topic%/trap off endon
+on tuyareceived#data=55AA00050005650100010171 do publish2 stat/%topic%/trap ON endon
+on tuyareceived#data=55AA00050005650100010070 do publish2 stat/%topic%/trap OFF endon
 on tuyareceived#data=55AA00050005660400010074 do publish2 stat/%topic%/battery 100 endon 
 on tuyareceived#data=55AA00050005660400010175 do publish2 stat/%topic%/battery 75 endon 
 on tuyareceived#data=55AA00050005660400010276 do publish2 stat/%topic%/battery 50 endon 
@@ -65,7 +65,7 @@ on tuyareceived#data=55AA00050005660400010377 do publish2 stat/%topic%/battery 2
 ```
 
 ```console
-{% raw %}rule3
-on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_battery/config {"name":"%topic% battery","stat_t":"stat/%topic%/battery","vl_tpl":"{{value}}","unique_id":"%deviceid%_battery","dev_cla":"battery","dev":{"ids":["%deviceid%"],"name":"%topic%","model":"NAS-MA01W","mf":"Tasmota"},"platform":"mqtt"} endon
-on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_trap/config {"name":"%topic% Alert","stat_t":"stat/%topic%/trap","icon":"mdi:rodent","unique_id":"%deviceid%_trap","dev":{"ids":["%deviceid%"],"name":"%topic%","model":"NAS-MA01W","mf":"Tasmota"},"platform":"mqtt"} endon{% endraw %}
+{% raw %}rule3 
+on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_trap/config {"name":"%topic% alert","state_topic":"stat/%topic%/trap","value_template":"{{value}}","unique_id":"%deviceid%_trap","device":{"identifiers":["%deviceid%"],"name":"%topic%","model":"NAS-MA01W","sw_version":"Tasmota","manufacturer":"Tasmota"}} endon
+on system#boot do publish2 homeassistant/sensor/%deviceid%_battery/config {"name":"%topic% battery","state_topic":"stat/%topic%/battery","value_template":"{{value}}","device_class":"battery","unit_of_measurement":"%","unique_id":"%deviceid%_battery","device":{"identifiers":["%deviceid%"],"name":"%topic%","model":"NAS-MA01W","sw_version":"Tasmota","manufacturer":"Tasmota"}} endon{% endraw %}
 ```
