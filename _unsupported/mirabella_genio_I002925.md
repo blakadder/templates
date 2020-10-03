@@ -1,6 +1,6 @@
 ---
 date_added: 2020-10-03
-title: Mirabella Genio Smart Home Wi-Fi 5M LED Neon Flex Strip Light
+title: Mirabella Genio Smart 5M Neon Flex
 model: I002925
 image: /assets/images/mirabella_genio_I002925.jpg
 type: LED Strip
