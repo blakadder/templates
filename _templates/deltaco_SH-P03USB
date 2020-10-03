@@ -11,3 +11,11 @@ type: Power Strip
 standard: eu
 template: '{"NAME":"Deltaco SH-P03","GPIO":[56,0,0,0,0,23,0,0,21,17,22,24,0],"FLAG":0,"BASE":18}'
 ---
+
+## Serial Flash
+The device can be serial flashed easily, without any soldering or dmage to the case (very minor risk to the label being the only exception). The back can be removed by removing six trianbgle 3.0 safety screws, and then you have access to serial pointsholes.
+NB: This is images form v2 of the product, if you have v1, make sure the pinout is correct, AND consider returning it for a v2, as there has been a fire safety recall of the v1.
+Visible once removing the back:
+https://i.imgur.com/8F1358p.jpg
+Pinout:
+https://i.imgur.com/U33XUKg.jpg
