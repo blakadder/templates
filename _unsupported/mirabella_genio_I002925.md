@@ -8,6 +8,8 @@ category: unsupported
 standard: au
 flash: Tuya WB3S
 link: https://www.kmart.com.au/product/mirabella-genio-smart-home-wi-fi-5m-led-neon-flex-strip-light/3188309
+link2:
+mlink: 
 ---
 
 # Warning
