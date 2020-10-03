@@ -105,6 +105,7 @@ Battery percentage sensor in Home Assistant:
 ```yaml{% raw %}
 - platform: mqtt
   name: "Digoo Battery"
+  unit_of_measurement: '%'
   state_topic: "tele/digoo/RESULT"
   value_template: >
     {% set test = value_json['TuyaReceived'].CmndData | length %}
