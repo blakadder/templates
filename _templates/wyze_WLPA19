@@ -12,3 +12,5 @@ category: bulb
 type: CCT
 standard: e26
 ---
+
+### Tuya-convert does not work with this device as of 2020/10/01.
