@@ -9,11 +9,3 @@ image: https://m.media-amazon.com/images/S/aplus-media/sc/b70090ee-c12e-4454-9a5
 template: '{"NAME":"NiteBird TT-WB","GPIO":[0,0,0,0,40,0,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
-Suggested to enable the following options `SetOption59 1` `SetOption17 1` `wificonfig 2`
-
-
-
-
-
-

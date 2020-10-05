@@ -7,8 +7,9 @@ template: '{"NAME":"PETEME","GPIO":[255,255,0,255,37,40,0,0,38,41,39,255,255],"F
 link: https://www.amazon.de/dp/B07QS3FFZ2/
 link2: 
 mlink: 
-flash: tuya-convert
 category: bulb
 type: RGBCCT
 standard: e26
 ---
+
+As of October 2020 this device no longer has a compatible Wi-Fi chip.

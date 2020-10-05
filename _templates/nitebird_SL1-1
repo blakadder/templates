@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-04
+title: NiteBird 9.2ft RGB TV Backlight
+model: SL1-1
+image: /assets/images/
+template: '{"NAME":"NiteBird Smart LED Light Strip","GPIO":[17,0,0,0,0,0,0,0,37,39,38,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/NiteBird-Backlight-24-60in-Control-Waterproof/dp/B0872W3CL1/
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: us
+---

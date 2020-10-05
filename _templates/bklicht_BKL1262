@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-03
+title: B.K. Licht 5.5W 350lm 
+model: BKL1262
+image: /assets/images/
+template: '{"NAME":"BKL1262","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B082857LHD
+link2: https://www.ebay.de/itm/LED-WiFi-Leuchtmittel-RGB-CCT-Lampe-dimmbar-Smart-Birne-GU10-Alexa-Google-5-5W/264613165807
+mlink: https://www.bk-licht.eu/wifi-led-leuchtmittel-rgb-cct-gu10/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: gu10
+---
