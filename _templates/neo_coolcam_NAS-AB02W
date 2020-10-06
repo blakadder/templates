@@ -37,20 +37,20 @@ TuyaMCU 104,11
 ## Functions
 Alarm will be turned on or off using POWER. 
 
-- dpid 101 - power type (1 - battery high; 2 - ?medium?; 3 - ?low?; 4 - usb port)
-- dpid 102 - alarm type (0-17)
-- dpid 103 - alarm duration time (in seconds)
-- dpid 104 - alarm control
-- dpid 105 - temp in C (divide by 10)
-- dpid 106 - humidity
-- dpid 107 - minimum temperature to trigger alarm
-- dpid 108 - maximum temperature to trigger alarm
-- dpid 109 - minimum humidity to trigger alarm
-- dpid 110 - maximum humidity to trigger alrm
-- dpid 112 - unit change (on = C, off = F) - does not affect dpid 105 values
-- dpid 113 - temperature alarm control (0 = off, 1 = on)
-- dpid 114 - humidity alarm control (0 = off, 1 = on)
-- dpid 116 - alarm volume (0 = high, 1 = medium, 2 = low)
+- dpId 101 - power type (1 - battery high; 2 - ?medium?; 3 - ?low?; 4 - usb port)
+- dpId 102 - alarm type (0-17)
+- dpId 103 - alarm duration time (in seconds)
+- dpId 104 - alarm control
+- dpId 105 - temp in C (divide by 10)
+- dpId 106 - humidity
+- dpId 107 - minimum temperature to trigger alarm
+- dpId 108 - maximum temperature to trigger alarm
+- dpId 109 - minimum humidity to trigger alarm
+- dpId 110 - maximum humidity to trigger alrm
+- dpId 112 - unit change (on = C, off = F) - does not affect dpid 105 values
+- dpId 113 - temperature alarm control (0 = off, 1 = on)
+- dpId 114 - humidity alarm control (0 = off, 1 = on)
+- dpId 116 - alarm volume (0 = high, 1 = medium, 2 = low)
 
 ### Chime sounds:
 
