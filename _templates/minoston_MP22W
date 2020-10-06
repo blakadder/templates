@@ -12,3 +12,4 @@ category: plug
 type: Outdoor Plug
 standard: us
 ---
+Note: This device may have switched to the ARM based W2BS module which does not support tasmota.
