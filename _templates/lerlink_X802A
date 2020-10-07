@@ -1,16 +1,13 @@
 ---
 date_added: 2019-12-31
 title: Lerlink X802A 2 Gang
-link: http://s.click.aliexpress.com/e/46jxCi64
+link: https://www.aliexpress.com/item/4000424217817.html
 image: https://ae01.alicdn.com/kf/H04c7ceb90bc94298bbed517a95533b44j.jpg
-template: '{"NAME":"Lerlink X802A","GPIO":[0,0,0,18,17,0,0,0,21,23,22,0,0],"FLAG":15,"BASE":18}' 
-link2: http://s.click.aliexpress.com/e/olUdOPzI
+template: '{"NAME":"Lerlink X802A","GPIO":[0,0,0,18,17,0,0,0,21,52,22,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.aliexpress.com/item/4000289352430.html
 mlink: https://www.lerlink.com/productinfo/1017149.html
 flash: tuya-convert
 category: switch
 type: Switch
 standard: eu
 ---
-"Relay 3" toggles the green LEDs on both buttons. I could not find out wether the red LEDs (seems to be linked to the relays) and the green LEDs could be addressed individualy. To turn off the green LEDs from the start set Relay 3 to inverted ("i").
-
-Blakadder note: A 2 Gang switch with 3 relays?! This template is probably not the best solution and there need to be some Led components assigned
