@@ -1,6 +1,6 @@
 ---
 date_added: 2020-09-08
-title: Philips 5/6 in. RGBCCT Downlight
+title: Philips 5/6 in. RGBCCT
 model: '046677555627'
 image: /assets/images/philips_046677555627.jpg
 template: '{"NAME":"Philips","GPIO":[0,0,0,0,40,0,0,0,37,41,39,38,0],"FLAG":0,"BASE":48}' 

@@ -1,0 +1,43 @@
+---
+date_added: 2020-10-06
+title: Oittm 120
+model: WS01
+image: /assets/images/oittm_WS01.jpg
+template: '{"NAME":"Oittm WS01","GPIO":[17,0,0,0,0,130,0,0,21,132,133,52,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B073J6WWQL
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: us
+---
+The text on the back reads:
+
+```
+Type 120 Wi-Fi Smart Socket
+Model: Oittm WS01
+Rated Current: 15A-20A(Max)
+Rated Voltage: AC110-125V/50-60Hz
+Rated Power: 2000W
+Wireless Frequency: 2.4GHz
+Wireless Standard: IEEE802.11 b/g/n
+```
+There is a blue LED that is independently controlled, a red LED that goes on and off with the relay, the relay/switch controlling power to the outlet, a momentary button, and an HLW8012 IC that can retrieve RMS voltage, current, power (watts), power factor, and more. The IC was determined by opening the device and inspecting the PCB. The PCB also had ""KS606 WIFI 2017/3/21"" or ""KS606 power 2017-3-22 Ver 1.1"" silkscreened on it in a few places. 
+
+Through manual template creation, I found that this ESP has an identical pinout and behavior to the Sonoff POW V1. I found this relation via the shared usage of the HLW8012 power monitoring IC
+
+## Pictures
+
+![front](https://i.imgur.com/BQ07QGy.jpg =500x)
+![back](https://i.imgur.com/RLBhkCj.jpg =500x)
+![front pcb](https://i.imgur.com/6YxHLxx.jpg =500x)
+![back pcb](https://i.imgur.com/S5rXhYH.jpg =500x)
+![wiring pads](https://i.imgur.com/I85YXpK.jpg =500x)
+![](https://i.imgur.com/PjmBIKX.jpg =500x)
+![side pcb](https://i.imgur.com/x9TlbzL.jpg =500x)
+![power monitoring IC](https://i.imgur.com/In3P7OO.jpg =500x)
+![ESP](https://i.imgur.com/ReA13tt.jpg =500x)
+
+
+"

@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-05
+title: Xenta 3 AC 6 USB 
+model: JX30UK 
+image: /assets/images/xenta_JX30UK.jpg
+template: '{"NAME":"Xenta-3-Gang","GPIO":[52,0,0,57,29,17,0,0,31,30,0,0,24],"FLAG":0,"BASE":18}' 
+link: https://www.ebuyer.com/914130-3-port-uk-smart-power-strip-with-6-usb-ports-jx30uk
+link2: 
+mlink: http://xenta.co.uk/
+flash: tuya-convert
+category: switch
+type: Power Strip
+standard: uk
+---
