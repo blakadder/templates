@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-07
+title: DS-101 1 Gang
+model: DS-101
+image: /assets/images/DS-101_1.jpg
+template: '{"NAME":"Smart Life Switch","GPIO":[0,0,0,0,0,17,0,0,0,0,0,21,52],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B07Z373K81
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: uk
+---

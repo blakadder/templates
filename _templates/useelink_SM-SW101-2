@@ -1,0 +1,15 @@
+---
+date_added: 2020-10-08
+title: Useelink 2 Gang 
+model: SM-SW101-2
+image: /assets/images/
+template: '{"NAME":"SM-SW101-2","GPIO":[158,52,0,18,22,0,0,0,17,21,0,0,0],"FLAG":1,"BASE":18}' 
+link: https://www.amazon.com.au/gp/product/B082QS8DTC/
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---
+This switch appears to be a rebranded Jinvoo switch
