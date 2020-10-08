@@ -12,9 +12,9 @@ category: misc
 type: Miscellaneous
 standard: au
 ---
-"Disassembled airconditioner and found module in a smale black box attached to the unit on the side. only had 4 wires Vcc, gnd, tx and rx.Flashed device using tasmotize.r uses a tywe1s module and has button for reset available on the board itself. Uses TuyaMCU template with the serial port available on GPIO13 and 15. 
+Wifi module is in a small black box attached to the unit on the side. It has 4 wires for VCC, GND, TX and RX. 
 
-DPID1 is the relay to turn unit on and off and is already mapped to FID11
-DPID2type3 is the current temperature in room
+- `DpId1` is the relay to turn unit on and off and is already mapped to FID11
+- `DpId2Type3` is the current temperature in room
 
-All data seems to be available but using rules to pass MQTT data to home assistant seems like the best way to control the unit, more information can be found in the Kogan panel heater template."
+All data seems to be available but using rules to pass MQTT data to home assistant seems like the best way to control the unit, more information on that in the [Kogan panel heater template](kogan-KAHTP15WALA).
