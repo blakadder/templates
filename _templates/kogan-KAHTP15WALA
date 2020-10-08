@@ -13,28 +13,25 @@ type: Miscellaneous
 standard: au
 ---
 
-To get this working with MQTTThing, I did some manual config:
+- dpId 1 is on/off
+- dpId 3 is desired temperature
+- dpId 4 is current temperature
 
-Rule1
-  on TuyaReceived#DpType2Id4 do Publish tele/%topic%/CURRENTTEMP %value% endon
-  on TuyaReceived#DpType1Id1 do Publish stat/%topic%/ACTIVE %value% endon
-  on TuyaReceived#DpType2Id3 do Publish stat/%topic%/TARGETTEMP %value% endon
+```console
+rule1
+  on tuyareceived#dptype2id4 do publish tele/%topic%/currenttemp %value% endon
+  on tuyareceived#dptype1id1 do publish stat/%topic%/active %value% endon
+  on tuyareceived#dptype2id3 do publish stat/%topic%/targettemp %value% endon
+  on event#settemperature do tuyasend2 3,%value% endon
+  on event#settemperature do publish stat/%topic%/targettemp %value% endon
+  on power1#state=1 do serialsend5 55aa0001000000 endon
+  on mqtt#connected do serialsend5 55aa0001000000 endon
+```
 
-Rule1 1
-
-Rule2
-  on Event#setTemperature do TuyaSend2 3,%value% endon
-  on Event#setTemperature do Publish stat/%topic%/TARGETTEMP %value% endon
-  
-Rule2 1
-  
-Rule3
-  on Power1#state=1 do SerialSend5 55aa0001000000 endon
-  on Mqtt#Connected do SerialSend5 55aa0001000000 endon
-Rule3 1
-
+Enable rules with `Rule1 1`
 ---
 
+### HomeBridge configuration
 On HomeBridge (MQTT Thing):
 
 {
@@ -70,4 +67,3 @@ On HomeBridge (MQTT Thing):
             ]
         }
 
-Not done yet - but DPid 1 is on/off, 3 is desired temp, 4 is current temp.
