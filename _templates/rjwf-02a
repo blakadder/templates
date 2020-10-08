@@ -12,6 +12,12 @@ category: relay
 type: Dimmer
 standard: global
 ---
+
+Confirmed that is not possible to use Tuya-Convert on the version of these devices with a 2020-5-13 manufacture date.
+
+Serial flashing is possible by soldering directly onto the TYWE3S module. Follow the directions in the link below as a bridge is required to flash the TYWE3S in situ.
+https://github.com/arendst/Tasmota/issues/5377#issuecomment-514413512
+
 Based on a TYWE3S module.
 
 After applying the template enable dimmer functionality using command:
@@ -22,4 +28,4 @@ See the following link for alternatives if the above doesn't work: https://tasmo
 
 Set dimmer range to:
 
-`DimmerRange to 0,250`
+`DimmerRange 0,250`
