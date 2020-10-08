@@ -22,7 +22,7 @@ And it looks something like this `AA1C06FF00040500000000000000000000000000000000
 `AA1C06FF00` seems to be defaul, `04 05` represents the state of the vacuum, `50` is the battery % in Hex you can use something like this [Hex to Decimal](https://www.binaryhexconverter.com/hex-to-decimal-converter) to convert it and the 2 last bits I am not sure yet what they mean.
 
 The Vacuum can be used sending `SerialSend5` messages and the commmands are:
-```
+```haskell
 Smart Cleaning: aa 03 02 22 02 26
 Spot Cleaning: aa 03 02 22 01 25
 Edge Cleaning: aa 03 02 22 00 24 
