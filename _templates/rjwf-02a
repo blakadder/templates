@@ -7,19 +7,23 @@ link: https://www.amazon.co.uk/gp/product/B07NRD9TLQ/
 link2: https://www.banggood.com/AC100-240V-Smart-WiFi-Dimmer-Light-Switch-Home-Automation-and-Voice-Control-Works-with-Amazon-Alexa-p-1435875.html
 link3: https://www.aliexpress.com/item/33013386460.html
 mlink: https://www.alibaba.com/product-detail/Manufacturer-Electric-Intelligente-smart-wifi-light_60833600822.html
-flash: tuya-convert
+flash: serial
 category: relay
 type: Dimmer
 standard: global
 ---
-Based on a TYWE3S module.
+
+Confirmed that is not possible to use Tuya-Convert on the version of these devices with a 2020-5-13 manufacture date.
+
+Serial flashing is possible by soldering directly onto the TYWE3S module. Follow [these directions](https://github.com/arendst/Tasmota/issues/5377#issuecomment-514413512) as a bridge is required to flash the TYWE3S in situ.
 
 After applying the template enable dimmer functionality using command:
 
-`TuyaMCU 21,2`
+```console
+TuyaMCU 21,2`
+```
 
-See the following link for alternatives if the above doesn't work: https://tasmota.github.io/docs/TuyaMCU?id=dimmers
-
-Set dimmer range to:
-
-`DimmerRange to 0,250`
+Set dimmer range:
+```console
+DimmerRange 0,250
+```
