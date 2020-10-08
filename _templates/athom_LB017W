@@ -13,3 +13,7 @@ type: RGBCCT
 standard: e27
 ---
 Serial number on the bulb is TB85. 
+
+10/8/20 - Factory installed Athom Tech firmware added a module to the list, causing a shift in module numbering.
+The instructions referring to module 18 should be rewritten to say something like:
+"Before upgrading set your device to the Generic module, usually numbered 18 but not always," ...
