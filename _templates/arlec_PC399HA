@@ -8,7 +8,7 @@ flash: serial
 category: plug
 type: Plug
 standard: au
-template: '{"NAME":"PC399HA","GPIO":[0,0,0,17,134,132,0,0,131,158,21,0,0],"FLAG":0,"BASE":52}' 
+template: '{"NAME":"PC399HA","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":52}' 
 link: https://www.bunnings.com.au/arlec-smart-plug-in-socket-with-energy-aeter-and-grid-connect_p0135442
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-plug-in-socket-with-energy-meter_p0135442
 ---
