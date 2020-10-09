@@ -15,3 +15,5 @@ type: Plug
 The v2.0 is not easily opened as it contains no screws anymore.
 
 LSC changed the hardware without updating the model number. As of August 2020 it doesn't contain an ESP module anymore and it cannnot be flashed with Tasmota anymore.
+
+I bought one in a German Action market in August 2020. It does not have any screws, so it is probably v2.0. It is labeled with "970760.1 YU M19d". I have been able to flash it with Tasmota using tuya-convert.
