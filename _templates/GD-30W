@@ -114,8 +114,7 @@ light:
       brightness_command_topic: "cmnd/GD-30W/Dimmer"
       brightness_state_topic: "tele/GD-30W/RESULT"
       brightness_scale: 100
-      # brightness_value_template: "{{ value_json.Dimmer }}"
-      brightness_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ value_json['TuyaReceived'].Type3Data[12:14]|int(base=16) }}{% endif %}"
+      brightness_value_template: "{% if value_json.TuyaReceived is defined and value_json.TuyaReceived['108'].DpId == 108 %}{{ value_json.TuyaReceived['108'].Type3Data[12:14]|int(base=16) }}{% endif %}"
       availability_topic: "tele/GD-30W/LWT"
       payload_available: "Online"
       payload_not_available: "Offline"
@@ -123,7 +122,7 @@ light:
       retain: false
       rgb_command_topic: "cmnd/GD-30W/tuyasend3"
       rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '108,%02x%02x%02x646464' | format(red, green, blue)}}{{ '%02x' | format(brightness) }}"
-      rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
+      rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json.TuyaReceived['108'].DpId == 108 %}{{ (value_json.TuyaReceived['108'].Type3Data[0:2]|int(base=16),value_json.TuyaReceived['108'].Type3Data[2:4]|int(base=16),value_json.TuyaReceived['108'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
       rgb_state_topic: "tele/GD-30W/RESULT"
 
 binary_sensor:
