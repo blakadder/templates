@@ -12,3 +12,37 @@ category: bulb
 type: RGBW
 standard: e27
 ---
+
+Note: All units as of August 2020 come with new Tuya firmware and are not compatible with Tuya-Convert.
+
+## Soft-CCT Setup
+To regain the original CCT functionality of this bulb, after flashing it, use the following commands in the console.
+
+```
+SetOption106 1
+SetOption107 0
+```
+
+This will enable soft-CCT emulation, replicating the missing yellow channel that the Tuya firmware natively emulates in this way.
+
+## Hardware Flashing
+To hardware flash these bulbs, you need to open them.
+
+### Step 1
+Start by trying to twist the light-dome cover to break it free from the adhesive. If the cover won't twist due to excess adhesive, instead grab the dome and try to pull it up on one side. Keep moving around the bulb until you find the side that releases a bit. Stick a knife or spludger into the section that raises the most and use the knife as leverage to separate the dome from the bulb.
+
+### Step 2
+Using a sharper knife with a stronger blade, get between the diffuser lens and the LED PCB and gently pry the diffuser lens off of the circuit board.
+
+### Step 3
+Remove the two philips screws and remove the LED board.
+
+### Step 4
+Solder your USB to UART Serial converter to the PCB pads on the inner board in the positions shown in the image below.
+![PCB UART Pinout](https://puu.sh/GB3xJ/0a6e75a311.png)
+
+### Step 5
+Flash the chip with Tazmotizer, ESPTool, or similar.
+
+### Step 6
+Reassemble the bulb and set it up using the above config and run the additional commands for Soft-CCT if desired.
