@@ -1,6 +1,6 @@
 ---
 date_added: 2020-09-10
-title: Athom 16A
+title: Athom 10A
 model: CB0110A
 image: /assets/images/athom_CB0110A.jpg
 template: '{"NAME":"Athom CB0110A","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":1}' 
