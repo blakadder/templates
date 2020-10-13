@@ -1,0 +1,15 @@
+---
+date_added: 2020-10-09
+title: Bakeey RGB
+model: 
+image: /assets/images/bakeey_rgb.jpg
+template: '{"NAME":"Bakeey Strip Controller","GPIO":[17,0,0,0,37,41,0,0,39,0,38,40,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/Bakeey-Tuya-Smart-Life-Wifi-Dimmer-Smart-Light-Strip-Controller-RGB-4-Pins-Smart-Home-Automaiton-Wireless-Remote-Control-Alexa-Google-Home-p-1621802.html
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+Tried TuyaConvert without success. Flashed via Serial. My device is a 3 channel, but it only needs 2 mosfets to be converted to a 5 channel.

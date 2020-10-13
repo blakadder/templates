@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-11
+title: Etekcity 
+model: ES015-TB
+image: /assets/images/etekcity_ES015-TB.jpg
+template: '{"NAME":"ES015-TB","GPIO":[0,0,0,0,21,22,0,0,132,133,17,130,56],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07JB5TQSG/
+link2: 
+mlink: http://www.vesync.com/eso15tb
+flash: serial
+category: switch
+type: Outdoor Plug
+standard: us
+---
