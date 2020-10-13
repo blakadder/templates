@@ -1,0 +1,17 @@
+---
+date_added: 2020-10-09
+title: Iwoole Table Lamp
+model: 
+image: /assets/images/iwoole_table_lamp.jpg
+template: '{"NAME":"GLOBELAMP","GPIO":[0,0,0,0,0,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000145628493.html
+link2: 
+mlink: https://www.iwoole.com/product/wifi-smart-table-lamp-1/
+flash: tuya-convert
+category: light
+type: Light
+standard: eu, fr
+---
+Only flashable by Tuya-convert, can NOT be opened.
+
+DO NOT connect to Tuya or smartlife app or it can't be flashed anymore.

@@ -1,8 +1,9 @@
 ---
 date_added: 2019-12-30
 title: Zemismart 6" 14W RGBCCT 
+model: ZMDL002-6
 category: light
-type: Light
+type: Downlight
 standard: global
 image: https://user-images.githubusercontent.com/5904370/66718388-9d10e500-ede3-11e9-95b5-2c7c58f1572e.png
 template: '{"NAME":"ZemiDownLight6","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
@@ -10,10 +11,4 @@ link: https://www.amazon.com/Zemismart-Downlight-Ceiling-Assistant-Automation/dp
 link2: https://www.aliexpress.com/item/32883690565.html
 mlink: https://www.zemismart.com/zemismart-6-inch-led-down-light-work-with-amazon-alexa-google-home-ifttt-voice-control-timer-control_p0062.html
 ---
-Reference: ZMLD002- 6
 ![](https://ae01.alicdn.com/kf/HTB1Es1RvYSYBuNjSspiq6xNzpXaV.jpg)
-
-
-
-
-

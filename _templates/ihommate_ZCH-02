@@ -1,19 +1,14 @@
 ---
 date_added: 2019-11-03
-title: Ihommate ZCH-02
+title: Ihommate 16A
+model: ZCH-02
 category: plug
 type: Plug
 standard: ch
-link: http://s.click.aliexpress.com/e/eBEogvuU
 image: https://user-images.githubusercontent.com/5904370/68094936-76574300-fea5-11e9-93b2-8cb29db9fa66.png
 template: '{"NAME":"ZCH-02","GPIO":[0,0,0,17,133,132,0,0,130,56,21,0,0],"FLAG":1,"BASE":18}' 
-link2: 
+link: https://www.aliexpress.com/item/4000316587977.html
+link2: https://www.aliexpress.com/item/4000113339594.html
 ---
 
 Template configures red/blue LEDs and power monitoring (BL0937 chip).
-
-
-
-
-
-

@@ -1,6 +1,6 @@
 ---
 date_added: 2020-04-14
-title: Feit Electric 6in. RGBW Recessed Downlight
+title: Feit Electric 6in. RGBW Recessed 
 model: LEDR6/RGBW/AG
 image: /assets/images/feit_electric-LEDR6_RGBW_AG.jpg
 template: '{"NAME":"Feit LEDR6/RGB","GPIO":[0,0,0,0,37,40,0,0,38,50,39,0,0],"FLAG":0,"BASE":48}' 
@@ -9,7 +9,7 @@ link2:
 mlink: https://www.feit.com/product/6-smart-alexa-google-recessed-downlight/
 flash: tuya-convert
 category: light
-type: Light
+type: Downlight
 standard: us
 ---
 You will need to fast-powercycle it twice to get it into fast flash mode. I power cycled it 5 times, and it did a slow flash (every 2sec), then power cycled it again 5 more times, and it does a fast flash (every half second) for tuya-convert.
