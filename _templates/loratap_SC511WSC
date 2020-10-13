@@ -3,18 +3,24 @@ date_added: 2020-02-04
 title: LoraTap SC511WSC Roller Shutter
 model: 
 image: https://user-images.githubusercontent.com/5904370/73791682-170a1700-47a3-11ea-813e-bd19a2d4e700.png
-template: '{"NAME":"SC511WSC","GPIO":[0,255,0,56,17,18,0,0,21,19,22,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"SC511WSC","GPIO":[0,255,0,56,17,19,0,0,21,18,23,22,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000259938482.html
 link2: 
 mlink: https://www.loratap.com/tuya-smart-life-wifi-curtain-blind-switch-module-with-remote-for-roller-shutter-electric-motor-google-home-aelxa-echo-smart-home-p0109.html
-flash: serial
+flash: tuya-convert
 category: cover
 type: Curtain Switch
 standard: global
 ---
-Flash Tasmota compiled with "blinds and shutters". 
+Flashed with tuya-convert with standard tasmota.bin
 
-To enable stop funcion, add rule: 
+Works with RF Remote
+
 ```console
-Rule1 on button3#state do shutterstop1 endon
+pulsetime1 130 # 30 seconds of pulsetime for open
+pulsetime2 1   # Pulsetime for stop
+pulsetime3 130 # 30 seconds of pulsetime for close
+```
+```console
+Backlog Delay 50; Interlock 1,2,3; Interlock on; PowerOnState 0; PowerRetain 0;  setoption1 1; setoption26 1; Restart 1
 ```
