@@ -20,6 +20,7 @@ Works with RF Remote
 pulsetime1 130 # 30 seconds of pulsetime for open
 pulsetime2 1   # Pulsetime for stop
 pulsetime3 130 # 30 seconds of pulsetime for close
-
+```
+```console
 Backlog Delay 50; Interlock 1,2,3; Interlock on; PowerOnState 0; PowerRetain 0;  setoption1 1; setoption26 1; Restart 1
 ```
