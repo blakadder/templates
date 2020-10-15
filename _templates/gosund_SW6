@@ -12,7 +12,23 @@ category: switch
 type: Switch
 standard: us
 ---
-This assumes standard 3-way lighting with a child 'dumb' toggle switch connected to the travelers. Relay1 is a dummy component that stores the power state of the switch. Relay2 is the actual hardware switch. Button1 toggles Power1 automatically, Rule2 covers the toggle of the actual relay. The secondary switch electrically controls the light, and its state changes on Switch1. Rule1 syncs this state change to Power1.
+
+### Synopsis
+This assumes standard 3-way lighting with a child 'dumb' toggle switch connected to the travelers. 
+
+### Descriptions
+Relays:
+    Relay1: is a dummy component that stores the power state of the switch. 
+    Relay2: is the actual hardware switch. 
+    
+Button1 toggles Power1 automatically, Rule2 covers the toggle of the actual relay. The secondary switch electrically controls the light, and its state changes on Switch1. Rule1 syncs this state change to Power1.
+
+Rules:
+    Rule1:
+    Rule2:
+    Rule3:
+
+### Configurations
 
 ```console
 SwitchTopic 0
