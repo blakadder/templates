@@ -12,13 +12,81 @@ category: switch
 type: Switch
 standard: us
 ---
-This assumes standard 3-way lighting with a child 'dumb' toggle switch connected to the travelers. Relay1 is a dummy component that stores the power state of the switch. Relay2 is the actual hardware switch. Button1 toggles Power1 automatically, Rule2 covers the toggle of the actual relay. The secondary switch electrically controls the light, and its state changes on Switch1. Rule1 syncs this state change to Power1.
 
+### Synopsis
+This assumes standard 3-way lighting with a child 'dumb' toggle switch connected to the travelers. 
+
+### Components
+Component | Description
+--------- | -----------
+Relay1 | Adummy component that stores the power state of the switch.
+Relay2 | The actual hardware switch.
+Button1 | its exactly what you think it is. When pushing the button it automatically TOGGLES Power1
+Switch1 | The secondary switch electrically controls the light, and its state changes on Switch1.
+
+### Device Configuration
+There are a couple things we need to do to get this switch to work correctly. 
+
+#### SwitchTopic
+This is normally set to 0 by default. This is the desired value. I recommend runnning anyways to make sure it is set. 
 ```console
 SwitchTopic 0
-switchmode1 1
-Rule1 ON Switch1#state do Power1 2 endon
-Rule2 ON Button1#state do Power2 2 endon
-Rule1 1
-Rule2 1
 ```
+
+For more information about SwitchTopic you can find it here: https://tasmota.github.io/docs/Buttons-and-Switches/#switchtopic
+
+#### SwitchMode
+switchmode1 1
+
+For more information about SwitchMode you can find it here: https://tasmota.github.io/docs/Buttons-and-Switches/#switchmode
+
+### Rules Configuration
+
+#### Rule1
+Updates the state of the dummy relay when switch1 changes state.
+```console
+Rule1 ON Switch1#state do Power1 2 endon; Rule1 1
+```
+
+#### Rule2
+Toggles Power2 when the button is pressed.
+```console
+Rule2 ON Button1#state do Power2 2 endon Rule2 1
+```
+#### Rule3
+If the device is sent an EVENT it will Toggle Power2. 
+```console
+Rule3 ON event#OFF do power2 2 endon ON event#ON do power2 2 endon; Rule2 1
+```
+
+For more information about Rules you can find it here: https://tasmota.github.io/docs/Rules/
+
+
+### Home Assistant Configuration
+
+**SetOption19 should not be used in this setup!**
+
+SetOption19 will expose both relays and will become very confusing to what the switch state is. 
+
+#### Switch Confiugration
+Below is an example I used to get this configuration working in Home assistant. 
+
+```console
+switch:
+  - platform: mqtt
+    name: "Exterior Lights"
+    state_topic: "stat/tasmota_XXXXX/POWER1"
+    command_topic: "cmnd/tasmota_XXXXX/EVENT"
+    availability_topic: "tele/tasmota_XXXXX/LWT"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+```
+
+topic | Description
+state_topic | is based on the dummy relay on the smart switch. This is what tells Home Assistant if the light is on or off.
+command_topic | This is what Home assistent will use to trigger [Rule3](#Rule3) on the device via MQTT. 
+
+
