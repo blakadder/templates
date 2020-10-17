@@ -13,4 +13,12 @@ category: sensor
 type: Energy Meter
 standard: global
 ---
+
+Their is a more recent version of the device which uses the Tuya MCU for communications and not GPIO.  To configure this version, don't use this template but use Tuya MCU (54) Configuration option and these settings entered via the console.  
+
+```
+Backlog SetOption66 1; TuyaMCU 0,17; TuyaMCU 32,18; TuyaMCU 31,19; TuyaMCU 33,20; SetOption59 1
+Rule1 on System#Boot do RuleTimer1 5 endon on Rules#Timer=1 do backlog SerialSend5 55aa0001000000; RuleTimer1 5 endon
+```
+
 Full instructions [here](https://www.creationfactory.co/2019/12/reverse-engineering-zmai-90-din-rail.html)
