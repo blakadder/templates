@@ -9,3 +9,22 @@ image: https://images-na.ssl-images-amazon.com/images/I/51HhCAk5RaL._SX679_.jpg
 template: '{"NAME":"Teckin SB50","GPIO":[0,0,0,0,37,0,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/gp/product/B07KYQ3W46
 ---
+
+If your bulb does not match the pictures below, check if you have the newer [v3 version](https://templates.blakadder.com/teckin_SB50-2.html) of the bulb.
+
+As of October 2020, `tuya-convert` no longer works on this bulb due to a manufacturer firmware update.
+Opened up the bulb to see if serial flashing was an option, but could not solder wires without destroying the fixture.
+If you find a way to serial flash without removing the PCB board, please update this page.
+
+Note there are two diffusers. 
+The outer one should pop off after a few rotations, but the inner one may be glued on. 
+A flat-head screwdriver will help remove the inner one.
+
+![Bulb with two diffusers](https://user-images.githubusercontent.com/11142171/96328139-bd363e00-100d-11eb-88eb-b9fee6a0ed5c.jpg)
+![Bulb in casing with LED board attached](https://user-images.githubusercontent.com/11142171/96328129-bc051100-100d-11eb-95f9-fdf9030404cb.jpg)
+![Bulb in casing with LED board dettached and rotated](https://user-images.githubusercontent.com/11142171/96328131-bc051100-100d-11eb-90c7-5a6650765969.jpg)
+![Top view of PCB](https://user-images.githubusercontent.com/11142171/96328134-bc9da780-100d-11eb-97cf-04c4933e803d.jpg)
+![Front view of PCB, ESP8266EX is visible](https://user-images.githubusercontent.com/11142171/96328135-bc9da780-100d-11eb-9b70-d7eed4018aa6.jpg)
+![Side view of PCB and power board](https://user-images.githubusercontent.com/11142171/96328136-bc9da780-100d-11eb-818c-41601ea39b24.jpg)
+![Bottom view of power board](https://user-images.githubusercontent.com/11142171/96328137-bd363e00-100d-11eb-90fe-c45776e4fc9d.jpg)
+![Top view of LED board](https://user-images.githubusercontent.com/11142171/96328138-bd363e00-100d-11eb-930e-6f2f62113cf9.jpg)
