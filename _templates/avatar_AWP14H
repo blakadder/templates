@@ -1,6 +1,7 @@
 ---
 date_added: 2019-11-13
-title: Avatar AWP14H
+title: Avatar 
+model: AWP14H
 category: plug
 type: Plug
 standard: uk
@@ -10,11 +11,4 @@ template: '{"NAME":"Avatar UK 10A","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"
 link2: https://www.amazon.co.uk/AJP-Compatible-Required-Anywhere-Dispatch/dp/B07Z9GJ5D1/
 mlink: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=207
 ---
-
-Power calibration reasonable out of box. Needs fine-tuning
-
-
-
-
-
 

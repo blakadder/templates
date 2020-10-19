@@ -1,0 +1,96 @@
+---
+date_added: 2020-10-15
+title: Y09 
+model: Y09
+image: /assets/images/Y09.jpg
+template: '{"NAME":"Y09","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000711245973.html
+link2: 
+mlink: 
+flash: serial
+category: sensor
+type: Water Sensor
+standard: global
+---
+"
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+This is a Tuya/Smart Life battery powered contact (Water Leak) sensor. Runs on two AAA batteries (not supplied with the device).
+
+
+![Packaging](https://ae01.alicdn.com/kf/Uec4c45c3dbe94c0fa546d0fd45c582410.jpg)
+![image](https://ae01.alicdn.com/kf/Ue2062693a5304532b5d7b090f23a55959.jpg)
+
+
+## Flashing
+ There's an [unofficial binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk.
+
+
+### Serial
+To flash the device solder directly to TYWE3S TX, RX, GPIO0, VCC and GND pins (optionally solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to disable the MCU by connecting RST to GND, otherwise you will be unable to flash.
+
+
+![Serial](/assets/images/TY01_PCB.jpg)
+
+
+## Configuration
+
+_If you're using battery power you need to prevent the device from going to sleep by actuating the reed switch constantly (approximately every 5 seconds) during the configuration or use the serial message._
+
+You can use 
+```console
+SerialSend5 55AA000200010002
+``` 
+shortly after boot to put the device into wi-fi search mode (rapidly blinking red LED) which will keep it powered on for around 60 seconds.
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+
+Disable multipress button options to prevent a device reset or Wi-Fi AP config mode, disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and set switchmode to follow instead of toggle
+```console
+Backlog SetOption1 1; SetOption65 1; SetOption66 1; SwitchMode 1
+```
+
+Switch the device to battery powered sensor mode (fnId 51):
+```console
+TuyaMCU 51,21
+```
+
+Check with `TuyaMCU` for the following configuration:
+```json
+ {""TuyaMCU"":[{""fnId"":11,""dpId"":1},{""fnId"":51,""dpId"":21}]}
+```
+
+## Functions
+```console
+Rule1 ON TuyaReceived#Data=55AA0002000001 DO publish2 stat/%topic%/STATUS OPEN ENDON ON TuyaReceived#Data=55AA00050005010400010110 DO publish2 stat/%topic%/STATUS CLOSED ENDON
+```
+
+```console
+Rule2 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010114 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010015 DO publish2 stat/%topic%/BATT low ENDON
+```
+
+Don't forget to turn on the rule: 
+```console
+Backlog Rule1 1; Rule2 1
+```
+
+## Home Assistant
+
+setup MQTT Sensors : 
+
+```console
+  - platform: mqtt
+    name: Water Leak Wifi Sensor
+    state_topic: stat/water_leak_wifi/STATUS
+    value_template: '{{ value }}'
+
+  - platform: mqtt
+    name: Water Leak Wifi Sensor Battery
+    state_topic: stat/water_leak_wifi/BATT
+    value_template: '{{ value }}'
+    icon: 'mdi:battery'
+```
+"

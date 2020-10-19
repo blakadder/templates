@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-15
+title: Lohas ZN041 BR30 12W 1080lm
+model: LH-ZN041-E27-RGB-1 
+image: /assets/images/lohas-ZN041.jpg
+template: '{"NAME":"Lohas ZN041","GPIO":[0,0,0,0,39,37,0,0,41,38,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B081F34WYY/
+link2: https://www.amazon.co.uk/dp/B081F34WYY
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

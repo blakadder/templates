@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-13
+title: Martin Jerry Single Pole
+model: US-SD-KN01
+image: /assets/images/martin_jerry_US-SD-KN01.jpg
+template: '{"NAME":"MJ-KN01 Dimmer","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/gp/product/B08J86X3WR/
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Dimmer
+standard: us
+---

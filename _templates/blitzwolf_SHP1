@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-17
+title: BlitzWolf SHP1
+model: BW-SHP1
+image: /assets/images/blitzwolf_SHP1.jpg
+template: '{"NAME":"BlitzWolf-SHP1","GPIO":[56,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07BLXPPN1/
+link2: https://www.aliexpress.com/item/32869909917.html
+link3: 
+mlink: https://www.blitzwolf.com/2000W-US-WIFI-Smart-Socket-p-243.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

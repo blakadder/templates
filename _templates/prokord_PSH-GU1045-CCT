@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-14
+title: Prokord 5W 1050lm
+model: PSH-GU1045-CCT
+image: /assets/images/prokord_PSH-GU1045-CCT.jpg
+template: '{"NAME":"Prokord-PSH-GU1045-CCT","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.dustinhome.se/product/5011159761/smart-home-bulb-gu10-45w
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: gu10
+---

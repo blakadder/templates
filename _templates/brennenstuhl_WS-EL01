@@ -1,0 +1,42 @@
+---
+date_added: 2020-10-16
+title: Brennenstuhl Connect Eco-Line
+model: WS EL01
+image: /assets/images/brennenstuhl_WS-EL01.jpg
+template: '{"NAME":"WS EL01 DE","GPIO":[19,18,0,17,21,22,0,0,52,0,0,53,158],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B082QCHXMF/
+link2: 
+mlink: https://www.brennenstuhl.com/de-DE/produkte/smart-home/brennenstuhl-connect-eco-line-wifi-steckdosenleiste-1-5m-h05vv-f3g1-5-schwarz
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: eu
+---
+"To make full use of the device, you should use the rules below. With just the template:
+* the *Learn* button toggles socket group 1
+* The *All On/Off* button toggles socket group 1
+
+
+### Simple rule
+This rule switches the state of all switchable socket groups, and publishes a timestamp Json object to MQTT when the *Learn* button is pressed. A socket group that's ***on*** will switch ***off***, a socket group that's ***off*** will switch ***on***
+
+`Backlog Rule1 ON Button3#state DO Power0 toggle ENDON ON Button4#state DO Publish stat/%topic%/Learn {""timestamp"":""%timestamp%""} ENDON; Rule1 ON;`
+
+### More sophisticated Ruleset
+This ruleset will switch all switchable socket groups ***off*** if, and only if, all switchable socket groups are ***on***. In all other cases, all switchable socket groups will be switched ***on***. It also publishes the same MQTT as the Simple rule above when pressing the *Learn* button.
+
+`Backlog Rule1 ON Power1#Boot DO Add1 %value% ENDON ON Power2#Boot DO Add1 %value% ENDON ON Power1#state=1 DO Add1 1 ENDON ON Power1#state=0 DO Sub1 1 ENDON ON Power2#state=1 DO Add1 1 ENDON ON Power2#state=0 DO Sub1 1 ENDON ON Var1#state>1 DO Var2 0 ENDON ON Var1#state<2 DO Var2 1 ENDON ON Button3#state DO Power0 %var2% ENDON ON Button4#state DO Publish stat/%topic%/Learn {""timestamp"":""%timestamp%""} ENDON; Rule1 ON`
+
+### Disable green connection LED
+In case you rather like the connection LED to be ***off*** when the socket is connected to Wifi, use this template:
+
+`{""NAME"":""WS EL01 DE"",""GPIO"":[19,18,0,17,21,22,0,0,52,0,0,53,157],""FLAG"":0,""BASE"":18}`
+
+### Disable all LED's
+
+To disable all LED's use this template. There will be ***no indicator*** if a switchable socket group is ***on*** or ***off***.
+
+`{""NAME"":""WS EL01 DE"",""GPIO"":[19,18,0,17,21,22,0,0,0,0,20,0,0],""FLAG"":0,""BASE"":18}`
+
+### Links
+There is also a github repo with latest infos: https://github.com/Line40/Tasmota_Brennenstuhl_WS-EL01-DE
