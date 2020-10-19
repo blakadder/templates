@@ -36,7 +36,11 @@ SwitchTopic 0
 For more information about SwitchTopic you can find it here: https://tasmota.github.io/docs/Buttons-and-Switches/#switchtopic
 
 #### SwitchMode
+Setting this to 1 allows for the switch to be a toggle and not just 1 or a 0
+
+```console
 switchmode1 1
+```
 
 For more information about SwitchMode you can find it here: https://tasmota.github.io/docs/Buttons-and-Switches/#switchmode
 
@@ -85,7 +89,8 @@ switch:
     payload_not_available: "Offline"
 ```
 
-topic | Description
+Topic | Description
+----- | -----------
 state_topic | is based on the dummy relay on the smart switch. This is what tells Home Assistant if the light is on or off.
 command_topic | This is what Home assistent will use to trigger [Rule3](#Rule3) on the device via MQTT. 
 
