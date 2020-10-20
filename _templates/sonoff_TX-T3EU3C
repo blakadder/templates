@@ -6,7 +6,7 @@ category: switch
 type: Switch
 standard: eu
 image: /assets/images/sonoff_TX-T3EU3C.jpg
-template: '{"NAME":"TX T3EU3C","GPIO":[17,255,0,255,23,22,18,19,21,158,0,0,0],"FLAG":0,"BASE":30}' 
+template: '{"NAME":"TX T3EU3C","GPIO":[17,255,0,255,23,22,18,19,21,158,0,0,0],"FLAG":0,"BASE":30}'
 link4: https://www.aliexpress.com/item/4000761227921.html
 link2: https://www.amazon.de/dp/B07T599ZZ7/
 link3: https://www.banggood.com/SONOFF-T3-EUUSUK-AC-100-240V-123-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Smart-Wall-Touch-Light-Switch-For-Smart-Home-Work-With-Alexa-Google-Home-p-1470799.html
@@ -22,15 +22,21 @@ Sonoff TX series is a new generation of wall switches with an updated front plat
 Alongside standard Wi-Fi controls, TX series (with notable exception of the T0 line) can be controlled via 433Mhz RF. Sonoff offers their own [RM433 remote](sonoff_RM433) that works with TX series as well as all other Sonoff RF capable devices. Remote can be paired with the RM433-BASE magnetic wall mount to easily simulate a 3way switch without any additional wiring.
 
 ![TX with remote](/assets/images/sonoff_TX-T3EU3Cb.jpg)
-
 ## Serial Flashing
-![](/assets/images/sonoff_TX-T3EU3Cd.jpg)
+![Inside](/assets/images/sonoff_TX-T3EU3C_inside.jpg)
 
-After removing the front glass touch plate you have access to the touch PCB where GND, TX, RX and VCC pins are broken out and clearly labeled. On the backside of the board there is a pad labeled GPIO0 but I haven't been able to put the device into flash mode grounding it. Instead I resorted to the trusty method of grouding GPIO0 from the esp8266 chip directly. Never fails!
+After removing the front glass touch plate you have access to the touch PCB where `GND`, `TX`, `RX` and `VCC` pins are broken out (`J3`) and clearly labeled. The right pad of `R19` is connected to `GPIO0`. On the backside of the board there is a pad labeled `GPIO0` but this is connected to the 433Mhz RF controller (the left side of `R19`) and might not work.
 
-![PCB and pinout](/assets/images/sonoff_TX-T3EU3Cc.jpg)
-![Flash mode procedure](/assets/images/sonoff_TX-T3EU3Cf.jpg)
+![GPIO0 pin location](/assets/images/sonoff_TX-T3EU3C_touchpad.jpg)
 
-As a little test I tried flashing without soldering by only inserting the pin header and applying pressure to the board. Even thought it was very fiddly it did result in a successful flash.
+As a little test I tried flashing without soldering by only inserting the pin header and applying pressure to the board. Even thought it was very fiddly it did result in a successful flash. Hold the Ground wire to `R19` while powering the board.
 
-![](/assets/images/sonoff_TX-T3EU3Ce.jpg)
+![PCB and pinout](/assets/images/sonoff_TX-T3EU3C_pinout.jpg)
+
+## Underside
+`GPIO2` is also exposed on the underside.
+For the `GPIO4` and `GPIO5` on the T3 EU 1 or 2 Gang could be used for a sensor.
+
+![PCB Underside](/assets/images/sonoff_TX-T3EU3C_backplate.jpg)
+
+<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>
