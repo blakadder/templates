@@ -20,3 +20,8 @@ BackLog TuyaMCU 21,2;SetOption20 1;SetOption54 1
 Backlog TuyaSend2 3,100; DimmerRange 100,1000
 ```
 **Note:** Flashing the DP10 via serial requires both grounding GPIO0 during reset and preventing the Nuvoton M031EC1AE MCU from sending serial commands to the TYWE3S's RX pin. This can be easily achieved by grounding the nRESET pin of the MCU throughout the flashing and template configuration process. nRESET is pin 24, counted counter-clockwise from the pin 1 indicator, i.e., with the pin 1 indicator at upper left, nRESET is the 5th pin down on the righthand side.
+
+**Note:** Common uses of the DP10 include control of patio string (bistro) lights. In order to accomplish low level dimming, change the lower limit of the DimmerRange to 10 using the following command:
+```console
+Backlog TuyaSend2 3,100; DimmerRange 10,1000
+```
