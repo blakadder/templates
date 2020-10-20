@@ -27,3 +27,7 @@ on button1#state do event press=%mem1% endon
 on event#press>0 do backlog power1 0;power2 0;power3 0;power4 0; endon
 on event#press<0.1 do backlog power1 1;power2 1;power3 1;power4 1; endon
 ```
+it is also possible to use standard Tasmota button behaviour: 
+one short press controls usb sockets, two short presses control first mains socket, three control second socket and four short presses control third mains socket. 
+Also add a rule for long press to switch all sockets off: rule1 ON button1#state=3 DO Backlog power1 0; power2 0; power3 0; power4 0 ENDON
+Not sure what the analog is connected to, if any. Values stays between 950 and 990.
