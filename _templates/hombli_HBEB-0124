@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-20
+title: Hombli 9W 800lm
+model: HBEB-0124
+image: /assets/images/hombli_HBEB-0124.jpg
+template: '{"NAME":"HBEB-0124","GPIO":[0,0,0,0,39,38,0,0,40,37,41,0,0],"FLAG":0,"BASE":18}
+link: https://www.amazon.de/dp/B07XVCRQQZ/
+link2: 
+mlink: https://shop.hombli.com/hombli-smart-bulb-9w-rgb-cct-e27
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

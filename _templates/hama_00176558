@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-20
+title: Hama 4.5W 300lm
+model: 00176558 
+image: /assets/images/hama_00176558.jpg
+template: '{"NAME":"Hama LED-Bulb GU10","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}
+link: https://www.amazon.de/Hama-LED-Lampe-gesteuert-tageslichtwei%C3%9F-kompatibel/dp/B07QRCRBDG/
+link2: 
+mlink: https://www.hama.com/00176558
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: gu10
+---

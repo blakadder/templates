@@ -1,0 +1,12 @@
+---
+date_added: 2020-10-21
+title: W-DE004
+model: W-DE004
+category: plug
+type: Plug
+standard: eu
+template: '{"NAME":"W-DE004","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":1,"BASE":18}' 
+image: /assets/images/W-DE004.jpg
+link: https://www.amazon.de/Steckdose-Maxcio-Kompatibel-Fernsteuerung-erforderlich/dp/B077FX493R
+link2: https://www.amazon.de/gp/product/B077HP5K8Y/
+---

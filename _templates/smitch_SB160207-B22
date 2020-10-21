@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-20
+title: Smitch 7W
+model: SB160207 - B22
+image: /assets/images/smitch_SB-1602.jpg
+template: '{"NAME":"Smitch RGB 7W SB-1602","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}
+link: https://www.flipkart.com/smitch-wi-fi-rgb-7w-b22-base-smart-bulb/p/itm3fbfde5c50598?pid=LLSFDWHACQYK57XR&lid=LSTLLSFDWHACQYK57XR00SZKI&marketplace=FLIPKART&sattr[]=wattage&st=wattage
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBW
+standard: b22
+---

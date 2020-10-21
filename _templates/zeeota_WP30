@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-20
+title: Zeoota 4AC 2USB
+model: WP30
+image: /assets/images/zeeota_WP30.jpg
+template: '{"NAME":"Zeoota WP30","GPIO":[0,17,0,24,0,0,0,0,0,22,21,23,0],"FLAG":7,"BASE":18}
+link: https://aliexpress.com/item/32889240989.html
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: eu
+---
