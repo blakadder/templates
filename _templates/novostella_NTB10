@@ -9,9 +9,30 @@ standard:
   - e27
 link: https://www.amazon.com/gp/product/B07XNXDHVV
 image: /assets/images/novostella_NTB10.jpg
-template: '{"NAME":"NTB10","GPIO":[0,0,0,0,41,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"NTB10","GPIO":[0,0,0,0,41,38,0,0,39,51,40,37,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/gp/product/B07XP8FFWX
 mlink: 
 ---
 
 Requires `SetOption15 1`
+
+IR Remote
+
+These bulbs come with an IR remote. Use the following rule to get the basic features of the remote working: 
+
+'Rule1  on IrReceived#Data=0x21C724DB DO POWER TOGGLE ENDON  on IrReceived#Data=0x21C754AB DO Backlog CT 472; Dimmer 32; Scheme 0 ENDON  on IrReceived#Data=0x21C704FB DO Backlog CT 500; Dimmer 100; Scheme 0 ENDON  on IrReceived#Data=0x21C7847B DO Backlog Dimmer +; Scheme 0 ENDON  on IrReceived#Data=0x21C744BB DO Backlog Dimmer -; Scheme 0 ENDON  on IrReceived#Data=0x21C714EB DO CT - ENDON  on IrReceived#Data=0x21C7E41B DO CT + ENDON'
+Requires `SetOption58 1` to work. 
+(Use the command `Rule1 1` to enable the rule afterwards. Remote buttons not not configured: RGB, Dynamic Modes, Static Modes)
+
+
+IR Codes
+- Toggle ON/OFF `0x21C724DB`
+- Night Light `0x21C754AB`
+- 100% `0x21C704FB`
+- Brighten `0x21C7847B`
+- Darken `0x21C744BB`
+- Colder `0x21C714EB`
+- Warmer `0x21C7E41B`
+- RGB `0x21C7649B`
+- Toggle Dynamic Mode `0x21C7827D`
+- Toggle Static Mode `0x21C7C43B`
