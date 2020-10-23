@@ -1,0 +1,15 @@
+---
+date_added: 2020-10-22
+title: Larkkey 4AC 4USB
+model: 
+image: /assets/images/larkkey_power_strip.jpg
+template: '{"NAME":"LARKKEY Strip","GPIO":[0,157,0,17,22,21,0,0,23,24,25,0,0],"FLAG":0,"BASE":18}
+link: https://www.amazon.com/gp/product/B07P15SJ84
+link2: 
+mlink: https://www.larkkey.com/electrical.html
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---
+Flash with tasmota-lite using tuya convert. One outlet cycles until you configure WiFi

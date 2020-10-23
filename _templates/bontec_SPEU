@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-21
+title: Bontec SPEU
+model: 
+image: /assets/images/bontec_SPEU.jpg
+template: '{"NAME":"Bontec SPEU","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}
+link: https://www.amazon.it/gp/product/B07PMM78WC/
+link2: https://www.amazon.de/gp/product/B07PMM78WC/
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
