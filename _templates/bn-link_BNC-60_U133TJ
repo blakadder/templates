@@ -9,4 +9,5 @@ link: https://www.amazon.com/dp/B07CVPKD8Z/
 image: /assets/images/bn-link_BNC-60_U133TJ.jpg
 template: '{"NAME":"BNC-60/U133TJ","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
+NOTE: As of October (prime day) 2020 the 4 packs of these have an updated firmware that can't be flashed with Tuya-Convert v2
 ---
