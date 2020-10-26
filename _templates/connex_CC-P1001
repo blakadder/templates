@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-24
+title: Connex Type F
+model: CC-P1001
+image: /assets/images/connex_CC-P1001.jpg
+template: '{"NAME":"Connex CC-P1001","GPIO":[0,0,56,0,0,133,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}
+link: https://www.makro.co.za/home-garden/lighting/home-automation/smart-electrical/connex-smart-tech-16a-2-pin-schuko-plug-/p/000000000000385572_EA
+link2: 
+mlink: https://connexconnect.com/product/smart-wi-fi-2-pin-round-wall-plug/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: za
+---
