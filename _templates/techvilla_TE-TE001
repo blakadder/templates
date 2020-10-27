@@ -1,0 +1,21 @@
+---
+date_added: 2020-10-26
+title: Techvilla TE001
+model: TE-TE001
+image: /assets/images/techvilla_TE-TE001.jpg
+template: '{"NAME":"TE-TE001","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/dp/B08GKTWMTP
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Strip
+standard: us
+---
+Serial flash needed. TuyaMCU based device. TYWE3S chip. When flashing you must ground the 'RST' pin on the bottom of the PCB
+
+Add the following commands via console:
+
+```console
+Backlog TuyaMCU 11,20; TuyaMCU 26,21; TuyaMCU 21,22; TuyaMCU 25,23; TuyaMCU 24,24; Ledtable 0; DimmerRange 10,1000
+```

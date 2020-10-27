@@ -5,7 +5,7 @@ model: EP2
 category: plug
 type: Plug
 standard: eu
-image: /assets/images/gosund_EP2.jpg
+image: /assets/images/Gosund_EP2.jpg
 template: '{"NAME":"Gosund EP2","GPIO":[56,255,158,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
 link: https://www.amazon.de/dp/B085RFKVW4
 mlink: https://gosund.com/download/smart_plug/126.html

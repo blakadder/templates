@@ -1,0 +1,25 @@
+---
+date_added: 2020-10-26
+title: DS-121 4 Gang No Neutral
+model: 
+image: /assets/images/DS-121_4.jpg
+template: '{"NAME":"4 Gang Switch","GPIO":[52,255,255,18,22,19,0,0,17,21,24,23,20],"FLAG":0,"BASE":18}
+link: https://www.aliexpress.com/item/1005001392163307.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+Smatrul appears to be the main seller but they are also sold by Avatto (I can confirm that even 99% of the packaging is the same).  Tuya convert was attempted and did not work.
+
+Ground GPIO0 during boot. Ground RST as well. (So really that means a 3 pin splitter from GND to GPIO0 + RST + GND of Serial Flasher.)
+
+After clicking "Start" in Tasmotizer, wait 1 second, then UN-ground RST and it will finish the operation.  Or make a momentary connection just before flashing starts?
+
+I watched the red lights of TX/RX on the Flasher, after clicking "Start" they will flash a few times, then stop briefly.  This is the best time to un-ground RST.  If it doesn't go bright red right away, try making a momentary connection.  Multiple attempts may be needed.
+
+The 4 Gang version of this may lack a solder point to the RST pin.  A momentary connection during the flashing process may be enough.
+
+It may not be necessary to do all this extra work.  Try doing a simple 4 pin flash first.
