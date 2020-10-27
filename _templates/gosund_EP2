@@ -1,12 +1,13 @@
 ---
 date_added: 2020-10-27
-title: Gosund EP2
+title: Gosund 
+model: EP2
 category: plug
 type: Plug
 standard: eu
-image: /assets/images/Gosund_EP2.jpg
+image: /assets/images/gosund_EP2.jpg
 template: '{"NAME":"Gosund EP2","GPIO":[56,255,158,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
-link: https://www.amazon.de/Gosund-Steckdosen-erforderlich-Stromverbrauch-Fernsteurung/dp/B085RFKVW4
+link: https://www.amazon.de/dp/B085RFKVW4
 mlink: https://gosund.com/download/smart_plug/126.html
 ---
 
@@ -17,7 +18,7 @@ The best way of opening it is to work your way around the clear plastic insert w
 Adding a little force with an rubber mallet or an pipe wrench on the shell could also help.
 
 ### Pinouts
-This layouts is for PCB marked as "P002_Wifi_V1.0"
+This layout is for PCB marked as "P002_Wifi_V1.0"
 
 ![Pinout_Diagpins](/assets/images/Gosund_EP2_pcb.jpg)
 ![Pinout_Connector](/assets/images/Gosund_EP2_pcba.jpg)
