@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 image: /assets/images/Gosund_EP2.jpg
 template: '{"NAME":"Gosund EP2","GPIO":[56,255,158,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
-link: https://www.amazon.fr/Gosund-Compatible-contr%C3%B4lez-appareils-%C3%A9lectrom%C3%A9nagers/dp/B07ZS97KL1
+link: https://www.amazon.de/Gosund-Steckdosen-erforderlich-Stromverbrauch-Fernsteurung/dp/B085RFKVW4
 mlink: https://gosund.com/download/smart_plug/126.html
 ---
 
