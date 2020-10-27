@@ -4,7 +4,7 @@ title: Yunlights 24W RGBCCT
 model: CLL004-24W
 category: unsupported
 type: Ceiling Light
-flash: WB2S
+flash: WB3L
 mlink: 
 image: /assets/images/yunlights_CLL004-24W.jpg
 link: https://www.amazon.com/gp/product/B08GWP5RVN/
