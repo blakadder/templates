@@ -29,7 +29,10 @@ Remove the 4 rubber feet to access screws and disassemble the device. Take out t
 |GND     | GND
 |3v3     | 3V3/VCC
 
+If you want to start the board with the serial connected (for debugging purpose), disconnect IO0.
+
 Download [tasmota-zbbridge](https://github.com/arendst/Tasmota/blob/firmware/firmware/tasmota/tasmota-zbbridge.bin?raw=true), a unique binary built specifically for ZBBridge and flash it using your favorite flashing software.
+You can download the latest development version [here](http://ota.tasmota.com/tasmota/) (tasmota-zbbridge.bin).
 
 When the ZbBridge is flashed with Tasmota, **disconnect all breadboard wires** and power the board using its USB port with a 5V 1A power supply. Configure Wi-Fi [over Tasmota AP](https://tasmota.github.io/docs/Getting-Started/#using-web-ui) (you cannot configure the device over serial with this binary). After it is connected to your network access the webUI again. 
 
@@ -55,7 +58,7 @@ Click on **Start upgrade**, be patient and wait for a few minutes until flashing
 16:31:14 ZIG: No zigbee devices data in Flash
 ```
 
-Follow further instructions depending on your chosen method.
+Follow further instructions depending on your chosen method. If you have problems, try to use the development version. (just update it through the web interface, no need to reflash it).
 
 ## For Zigbee2Tasmota
 You can start pairing Zigbee devices with `ZbPermitJoin 1` command.
@@ -67,7 +70,7 @@ Read [Zigbee](http://tasmota.github.io/docs/Zigbee) documentation for complete g
 ## For Home Assistant (ZHA)
 This mode creates a TCP bridge from the zigbee module to Home Assistant. In this case Tasmota is only relaying all the messages from the zigbee module to ZHA and **you cannot use any Zigbee commands in Tasmota console in this mode. All setup needs to be done from Home Assistant ZHA integratioon.**
 
-After Zigbee firmware is flashed and confirmed working in ZIgbee2Tasmota mode, apply the template:
+After Zigbee firmware is flashed and confirmed working in ZIgbee2Tasmota mode, apply the [templates](hhttps://templates.blakadder.com/howto.html):
 
 ```json
 {"NAME":"ZHA ZBBridge","GPIO":[56,208,0,209,59,58,0,0,0,0,0,0,17],"FLAG":0,"BASE":18}
