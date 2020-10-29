@@ -3,7 +3,7 @@ date_added: 2020-01-01
 title: Mimoodz A21 10.5W 1050lm
 link: https://www.amazon.com/Mimoodz-Dimmable-Equivalent-Required-Compatible/dp/B06XQ7M176/
 image: /assets/images/mimoodz_A21.jpg
-template: '{"NAME":"Mimoodz","GPIO":[0,0,0,0,21,22,0,0,23,24,25,26,27],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Mimoodz","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: 
 flash: tuya-convert
