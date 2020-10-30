@@ -5,9 +5,9 @@ model: BPA800/RGBW/AG/2(P)
 type: RGBCCT
 category: bulb
 standard: e26
+flash: WB2L
 link2: 
 image: /assets/images/feit_electric-BPA800RGBWAG2P.jpg
-template: '{"NAME":"BPA800/RGBW/AG/2P","GPIO":[0,0,0,0,37,47,0,0,141,142,140,0,0],"FLAG":0,"BASE":48}' 
 link: https://www.amazon.com/dp/B07RL48PFF
 mlink: 
 ---
@@ -18,10 +18,3 @@ BPA800/RGBW/AG/2(P)
 800 LUMENS UL E330072    
 Intertek 5005458    
 228-20-38 printed below the wifi logo    
-
-**NOTE:** There are two variants of this bulb, BPA800/RGBW/AG/2(P) (this template) and [BPA800/RGBW/AG/2](feit_electric-BPA800RGBWAG2). 
-
-This bulb seems to have hardware Gamma correction, so you need to make sure you disable Software Gamma Correction:
-
-`LedTable 0`
-

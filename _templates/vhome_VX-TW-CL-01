@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-29
+title: VHome RF433 1 Gang Switch
+model: VX-TW-CL-01
+image: /assets/images/vhome_VX-TW-CL-01.jpg
+template: '{"NAME":"VH-TW-CL-01","GPIO":[0,0,0,0,0,17,0,0,0,0,0,21,157],"FLAG":15,"BASE":18}
+link: https://vshop.cl/smart-home/969-interruptor-wifi-rf-vhome-live-sin-neutro-touch-1-canal-compatible-con-google-home-y-alexa.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
