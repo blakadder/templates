@@ -1,5 +1,5 @@
 ---
-date_added: 2020-01-02
+date_added: 2020-10-30
 title: Feit Electric A19 800lm
 model: BPA800/RGBW/AG/2(P)
 type: RGBCCT
