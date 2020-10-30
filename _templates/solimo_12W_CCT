@@ -3,7 +3,7 @@ date_added: 2020-10-19
 title: Solimo 12W 1080lm
 model: 
 image: /assets/images/solimo_12W_CCT.jpg
-template: '{"NAME":"Solimo WCCT 12","GPIO":[0,0,0,0,9,37,0,0,10,38,11,0,0],"FLAG":0,"BASE":18}
+template: '{"NAME":"Solimo WCCT 12","GPIO":[0,0,0,0,9,37,0,0,10,38,11,0,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.in/dp/B081HLJV2B/
 link2: 
 mlink: 

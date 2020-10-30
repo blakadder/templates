@@ -3,7 +3,7 @@ date_added: 2020-10-23
 title: V-TAC 10W 806lm
 model: VT-5119
 image: /assets/images/v-tac_VT-5119.jpg
-template: '{"NAME":"V-TAC VT-5119","GPIO":[0,0,0,0,180,0,0,0,0,0,181,0,0],"FLAG":0,"BASE":18}
+template: '{"NAME":"V-TAC VT-5119","GPIO":[0,0,0,0,180,0,0,0,0,0,181,0,0],"FLAG":0,"BASE":18}'
 link: https://www.pollin.de/p/led-lampe-vt-2751-e27-eek-a-10-w-806-lm-wifi-smarthome-536291
 link2: https://www.amazon.de/Smarthome-VT-5119-Kompatibel-Google-Assista/dp/B07WVPB59L
 mlink: https://www.v-tac.eu/products/smart-home/led-bulbs/led-bulb-10w-e27-a60-smart-wi-fi-rgb-ww-cw-detail.html
