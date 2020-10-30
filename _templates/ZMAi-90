@@ -14,3 +14,13 @@ type: Energy Meter
 standard: global
 ---
 Full instructions [here](https://www.creationfactory.co/2019/12/reverse-engineering-zmai-90-din-rail.html)
+
+There is a more recent version of the device which uses TuyaMCU protocol for communications instead of its custom serial protocol.  To configure this version, don't use this template but use "Tuya MCU (54)" module (`command `module 54`) and the following settings entered via the console.  
+
+```console
+Backlog SetOption66 1; TuyaMCU 0,17; TuyaMCU 32,18; TuyaMCU 31,19; TuyaMCU 33,20; SetOption59 1
+```
+```console
+Backlog Rule1 1; Rule1 on System#Boot do RuleTimer1 5 endon on Rules#Timer=1 do backlog SerialSend5 55aa0001000000; RuleTimer1 5 endon
+```
+
