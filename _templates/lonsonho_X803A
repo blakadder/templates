@@ -12,3 +12,4 @@ category: switch
 type: Switch
 standard: eu
 ---
+As of October 2020 this device has switches to a TuyaMCU configuration and the template no longer applies.
