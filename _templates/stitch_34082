@@ -1,0 +1,19 @@
+---
+date_added: 2019-09-30
+title: STITCH by Monoprice 4 AC, 2 Always-On USB
+model: 34082
+image: /assets/images/stitch_34082.jpg
+template: '{"NAME":"MP Stitch 34082","GPIO":[56,0,0,0,24,17,0,0,22,23,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.monoprice.com/product?c_id=122&cp_id=12212&cs_id=1221203&p_id=34082
+link2: 
+category: plug
+type: Power Strip
+flash: serial
+standard: us
+---
+
+When soldering jumpers and looking at ESP with PCB antenna facing up and away from you...
+
+Top right pin is TX, one immediately below that is RX. Fifth pin down on right side is GPIO0 and must be shorted to ground. LED will turn on when GPIO is shorted to ground. Ground is very bottom right, VCC is bottom left. BE SURE to use 3.3v only.
+
+The chip is an ESP12s

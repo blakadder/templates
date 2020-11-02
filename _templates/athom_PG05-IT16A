@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-05
+title: Athom 16A Italy
+model: PG05-IT16A
+image: /assets/images/athom_PG05-IT16A.jpg
+template: '{"NAME":"Athom PG05-IT16A","GPIO":[0,0,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/italy-chile-plug
+link: https://www.aliexpress.com/item/1005001670173724.html
+link2: 
+flash: preflashed
+category: plug
+type: Plug
+standard: it
+---

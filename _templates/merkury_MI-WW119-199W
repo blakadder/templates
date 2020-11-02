@@ -1,0 +1,19 @@
+---
+date_added: 2020-11-02
+title: Merkury Innovations 4 Outlets
+model: MI-WW119-199W
+image: /assets/images/merkury_MI-WW119-199W.jpg
+template: '{"NAME":"MI-WW119-199W","GPIO":[56,148,0,149,22,17,0,0,21,23,24,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.walmart.com/ip/Merkury-Innovations-Smart-Outlet-Extender-Surge-Protection-4-Outlets/590878101
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: us
+---
+Could not be flashed with tuya-convert as of Nov 1 2020.
+
+VCC and ground available on opposite sides of shorter segment of module sticking through main board when attached. VCC is the wider solder joint and ground is the 1st pad on opposite side. TX and RX available on top edge of module closest pins to the antenna. GND and D0 are available opposite end of top edge, last pad and 4th pad.
+
+Device with date code (?) sticker on bottom of box with 14872 possibly was an earlier revision than a device with a 15790 sticker. That device had more solid plastic framework around internal contacts and was easier to access bottom of board by removing a single screw.

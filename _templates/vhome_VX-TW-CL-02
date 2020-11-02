@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-31
+title: VHome RF433 2 Gang
+model: VX-TW-CL-02
+image: /assets/images/vhome_VX-TW-CL-02.jpg
+template: '{"NAME":"VX-TW-CL-002","GPIO":[0,0,0,0,21,0,0,0,18,22,17,0,157],"FLAG":15,"BASE":18}' 
+link: https://vshop.cl/smart-home/970-interruptor-wifi-rf-vhome-live-sin-neutro-touch-2-canales-compatible-con-google-home-y-alexa.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: us
+---

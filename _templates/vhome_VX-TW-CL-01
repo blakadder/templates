@@ -1,6 +1,6 @@
 ---
 date_added: 2020-10-29
-title: VHome RF433 1 Gang Switch
+title: VHome RF433 1 Gang 
 model: VX-TW-CL-01
 image: /assets/images/vhome_VX-TW-CL-01.jpg
 template: '{"NAME":"VH-TW-CL-01","GPIO":[0,0,0,0,0,17,0,0,0,0,0,21,157],"FLAG":15,"BASE":18}'
