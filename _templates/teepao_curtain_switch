@@ -6,34 +6,22 @@ type: Curtain Switch
 standard: eu
 link: https://www.amazon.de/gp/product/B07H9PSQCN
 image: https://images-na.ssl-images-amazon.com/images/I/51XUwB0IefL._SL1200_.jpg
-template: '{"NAME":"Taopao","GPIO":[255,255,255,18,22,19,0,0,255,21,255,255,17],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
-```console
-Interlock 1 2 3
+Tested with tasmota 6.6.0.16 (sonoff.bin) on 5 teepao.
+And tested on tasmota 8.5.1 (tasmota.bin) on 2 teepao.
+Also working fine for the 5 teepao upgraded from 6.6.0.16 (sonoff.bin) to 8.5.1 (tasmota.bin) => trough OTA upgrade!.
 
-PulseTime1 130
-
-PulseTime2 130
-
-PulseTime3 1
-```
-
-
-I obtain a perfect result with below configuration (tested and approved on 5 Teepao!) :
-
-- Top button blink blue when recevied an order
-- Bottom or Top button light red during movement, and stop immediatly when the position is reached.
+- All 3 buttons light blue 24/7 => if someone has an improvement to avoid it, feel welcome to propose it!
+- Top button blink blue when registering an order,
+- Bottom or Top button light red during movement, and stop immediatly when the position is reached,
 - Stop button is working perfectly (blink red when pressed).
-Based on :
-- Program Version	6.6.0.16 stb-1.16(sonoff)
-- Build Date & Time	2019-10-09T07:26:57
-```json
-template {"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18}
-```
 
 ```console
+template {"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18}
+module 0
 interlock on
 interlock 1,2,3
 PulseTime1 0
@@ -47,15 +35,16 @@ SetOption1 1
 ButtonTopic 1
 switchmode3 5
 setoption61 1
+restart 1
 ```
-=> Restart the device !
+
+Backlog command (one ring to control them all):
+```console
+Backlog template {"NAME":"Teepao","GPIO":[158,58,23,18,22,19,0,0,56,21,57,0,17],"FLAG":0,"BASE":18}; module 0; interlock on; interlock 1,2,3; PulseTime1 0; PulseTime2 0; PulseTime3 1; sleep 0; setoption80 1; setoption81 1; PowerOnState 0; SetOption1 1; ButtonTopic 1; switchmode3 5; setoption61 1; restart 1
+```
 
 Don't forget to configure durations !
-
-Usually open duration is one or two seconds more than close (adjust as you need).
-For exemple :
-
 ```console
-shutteropenduration 22
+shutteropenduration 21
 shuttercloseduration 20
 ```
