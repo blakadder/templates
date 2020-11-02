@@ -1,6 +1,6 @@
 ---
 date_added: 2020-11-02
-title: Tuya IR Remmote RGBW 
+title: Tuya IR Remote RGBW 
 model: TY-IR V0.1
 category: unsupported
 type: LED Controller
