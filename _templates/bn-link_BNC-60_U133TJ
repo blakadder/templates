@@ -7,7 +7,28 @@ type: Plug
 standard: us
 link: https://www.amazon.com/dp/B07CVPKD8Z/
 image: /assets/images/bn-link_BNC-60_U133TJ.jpg
-template: '{"NAME":"BNC-60/U133TJ","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":18}' 
-link2: 
-NOTE: As of October (prime day) 2020 the 4 packs of these have an updated firmware that can't be flashed with Tuya-Convert v2
+template: '{"NAME":"BNC-60/U133TJ","GPIO":[0,52,0,17,134,132,0,0,131,53,21,0,0],"FLAG":0,"BASE":18}' 
+link2:
 ---
+Uses a TYWE2S daughter board, which makes it a Tuya device but ...
+As of October 2020 the 4 packs of these have an updated firmware
+that can't be flashed with Tuya-Convert v2. The same applies to the 2 pack. 
+The PSK ID starts with 02. There is not a Tuya-Convert solution for these 
+as of 10/2020.
+
+The orginal template had GPIO1 as Led1i (56) and GPIO13 as Led2i (57) for
+Template parameters. Those parameters result in the power button glowing red
+color all the time. Using the non-inverse Led parameters Led1 (52) and Led2 (53)
+result in the power button glowing blue when on and purple when off.
+
+Firmware flashing has to be accomplished via the usual manual methods where one
+has to first partially dismantle the device. The plastic shell is glued but it
+does cleanly open with careful utility knifing. Unlike some plug devices the
+plastic shell back plate is molded to the mains prongs (US version). There is a
+dogleg in the neutral and hot prongs that is captured by the plastic back plate.
+The PCB board must therefore be desoldered from the mains plug prongs for removing
+the board to have access to its underside where the flashing wiring can be temporarily
+soldered to the TYWE2S edge solder points. Grounding GPIO0 to put the TYWE2S into
+flash mode is accomplished by grounding the TYWE2S test pad IO0. The TYWE2S board
+is mounted to the main pcb board so that the side having the test pads faces
+inside towards other components. Thus access to test pad IO0 is quite awkward. 
