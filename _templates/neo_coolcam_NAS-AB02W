@@ -31,7 +31,7 @@ Backlog SetOption65 1; SetOption66 1; Module 54
 ```
 Map alarm control to POWER
 ```console
-TuyaMCU 104,11
+TuyaMCU 11,104
 ```
 
 ## Functions
