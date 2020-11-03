@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-02
+title: Tuya 3 Gang 
+model: 
+image: /assets/images/tuya_3_gang.jpg
+template: '{"NAME":"KING-Tuya-key","GPIO":[0,0,0,0,23,22,0,0,21,17,19,0,18],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001334946718.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---
