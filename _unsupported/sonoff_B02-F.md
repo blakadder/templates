@@ -4,7 +4,7 @@ title: Sonoff 7W 700lm CCT Filament
 model: B02-F
 category: unsupported
 type: Bulb
-flash: unknown
+flash: SV6166F
 mlink: https://sonoff.tech/product/wifi-smart-lighting/b02-f
 image: /assets/images/sonoff_B02-F.jpg
 link: https://www.itead.cc/smart-home/sonoff-b02-f-smart-led-filament-bulb.html
