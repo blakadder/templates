@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-05
+title: Vizia 16A
+model: 
+image: /assets/images/vizia_16A.jpg
+template: '{"NAME":"Vizia 16A","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.takealot.com/vizia-smart-wifi-power-plug-switch-for-south-african-3-pin-16a/PLID70298892
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: za
+---
+OTA flashing not successful. Serial flash successful.

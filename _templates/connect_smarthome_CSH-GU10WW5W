@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-04
+title: Connect SmartHome 5W 
+model: CSH-GU10WW5W
+image: /assets/images/connect_smarthome_CSH-GU10WW5W.jpg
+template: '{"NAME":"Connect CSH-GU10WW5W","GPIO":[0,0,0,0,37,38,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.harveynorman.com.au/connect-smart-5w-gu10-white-led-downlight.html
+link2: 
+mlink: https://www.connectsmarthome.com.au/lighting.html
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: gu10
+---
+You'll need to enter 'LedTable 0' in console to enable proper control of brightness - without this, dimming below 100% leads to very low light output.

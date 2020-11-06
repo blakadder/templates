@@ -1,0 +1,78 @@
+---
+date_added: 2020-11-05
+title: Anccy
+model: 
+image: /assets/images/anccy_LKTDUOZC.jpg
+template: '{"NAME":"Anccy Shutter","GPIO":[157,0,53,19,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07MQRFS8G/
+link2: 
+mlink: 
+flash: serial
+category: cover
+type: Curtain Switch
+standard: global
+---
+- Relay/Button 1: up (upper button)
+- Relay/Button 2: down (lower button)
+- Relay/button 3: stop (middle button)
+
+## Main Config ##
+
+- `SetOption80 1`                                   # Enable Shutter Support
+- `InterLock 1,2,3`                                 # Lock Relay 1/2 to be set parallel
+- `InterLock on`                                    # enable Lock
+- `ShutterButton1 1 up 1`                           # define Button for UP
+- `ShutterButton1 2 down 1`                         # define Button for Down
+- `Pulsetime3 30`                                   # Set Power on Button 3 to 3s (show LED for 3s)
+- `WebButton3 ■`                                    # Set stop symbol for the third button in the web GUI
+- `PowerOnState 0`                                  # keep relay(s) OFF after power up
+
+
+```console
+Backlog SetOption80 1; InterLock 1,2,3; InterLock on; ShutterButton1 1 up 1; ShutterButton1 2 down 1; Pulsetime3 30; WebButton3 ■; PowerOnState 0
+```
+
+-------------------------------------------------------------------------------------------
+## Timer(s) and Rule for Timers
+```console
+Timers on
+Timer1 {""Enable"":1,""Mode"":1,""Time"":""00:00"",""Window"":0,""Days"":""1111111"",""Repeat"":1,""Output"":1,""Action"":3}  # Sunrise
+Timer2 {""Enable"":1,""Mode"":2,""Time"":""00:00"",""Window"":0,""Days"":""1111111"",""Repeat"":1,""Output"":1,""Action"":3}  # Sunset
+rule2 ON Clock#Timer=1 DO ShutterOpen ENDON
+rule2 +ON Clock#Timer=2 DO ShutterClose ENDON
+rule2 on
+```
+```console
+Backlog Timers on; Timer1 {""Enable"":1,""Mode"":1,""Time"":""00:00"",""Window"":0,""Days"":""1111111"",""Repeat"":1,""Output"":1,""Action"":3}; Timer2 {""Enable"":1,""Mode"":2,""Time"":""00:00"",""Window"":0,""Days"":""1111111"",""Repeat"":1,""Output"":1,""Action"":3}; rule1 on; rule2 on; rule2 ON Clock#Timer=1 DO ShutterOpen ENDON ON Clock#Timer=2 DO ShutterClose ENDON
+```
+
+-------------------------------------------------------------------------------------------
+## Use the middle button for stopping and disabling automatic timer (on holding button)
+- `mem1 1`                   # Enable Automatic
+- `mem2 30`                  # Default Blink Delay (3s)
+- `SetOption32 20`           # Hold Time (2s)
+- `Pulsetime3 0`             # Set Power on Button 3 no pulse --> controlled by rule(s)
+- `InterLock 1,2`            # remove 3 from InterLock
+
+
+## Rule for Timer / LED Management
+
+- `rule1 ON Button3#State=2 DO Backlog ShutterStop1; Power3 toggle; RuleTimer1 2 ENDON`      # Single Press Button3 (middle) --> Stop Shutter, RuleTimer 3 sec.
+- `rule1 +ON Button3#State=3 DO event togglemem1=%mem1% ENDON`                               # HOLD Button3 (middle) --> event togglemem1
+- `rule1 +ON Rules#Timer=1 DO var1 %var1% ENDON`                                             # RuleTimer for LED --> Rewrite var11
+- `rule1 +ON event#togglemem1=0 DO mem1 1 ENDON`                                             # Toggle mem1 from 0 to 1 (mem1 == 1 --> automatic)
+- `rule1 +ON event#togglemem1=1 DO mem1 0 ENDON`                                             # Toggle mem1 from 1 to 0 (mem1 == 0 --> manual)
+- `rule1 +ON mem1#State DO Backlog var1 %mem1%; Sub1 %var2% ENDON`                           # Set var1 to mem1 - substract var2 (NTP status)
+- `rule1 +ON var2#State DO Backlog var1 %mem1%; Sub1 %var2% ENDON`                           # Set var1 to mem1 - substract var2 (NTP status)
+- `rule1 +ON var1#State<1 DO Backlog Power3 on; Rule2 off ENDON`                             # var1 < 1 --> LED3 off (done by Power3), Rule2 (Timer) on
+- `rule1 +ON var1#State==1 DO Backlog Power3 off; Rule2 on ENDON`                            # var1 == 1 --> LED3 on (done by Power3), Rule2 (Timer) off
+- `rule1 +ON var2#State DO event blink=%value% ENDON`                                        # Start/Stop Blink on var2 change
+- `rule1 +ON event#blink=1 DO Backlog delay %mem2%; Power3 toggle; event blink=%var2% ENDON`
+- `rule1 +ON System#Init DO var2 1 ENDON`                                                    # At Boot:      var2 == 1 --> NTP not set
+- `rule1 +ON Time#Initialized DO var2 0 ENDON`                                               # Afer NTP set: var2 == 0 --> NTP set
+- `rule1 on`
+
+```console
+Backlog mem1 1; mem2 30; SetOption32 20; Pulsetime3 0; Interlock 1,2
+rule1 ON Button3#State=2 DO Backlog ShutterStop1; Power3 toggle; RuleTimer1 2 ENDON ON Button3#State=3 DO event togglemem1=%mem1% ENDON ON Rules#Timer=1 DO var1 %var1% ENDON ON event#togglemem1=0 DO mem1 1 ENDON ON event#togglemem1=1 DO mem1 0 ENDON ON mem1#State DO Backlog var1 %mem1%; Sub1 %var2% ENDON ON var2#State DO Backlog var1 %mem1%; Sub1 %var2% ENDON ON var1#State<1 DO Backlog Power3 on; Rule2 off ENDON ON var1#State==1 DO Backlog Power3 off; Rule2 on ENDON ON var2#State DO event blink=%value% ENDON ON event#blink=1 DO Backlog delay %mem2%; Power3 toggle; event blink=%var2% ENDON ON System#Init DO var2 1 ENDON ON Time#Initialized DO var2 0 ENDON
+```
