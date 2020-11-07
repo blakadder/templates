@@ -1,0 +1,17 @@
+---
+date_added: 2020-11-07
+title: Mirabella Genio Rechargable LED Portable Lamp
+model: I002940
+category: light
+type: Light
+standard: global
+mlink: https://mirabellagenio.net.au/
+image: /assets/images/mirabella_genio_I002940.jpg
+template: '{"NAME":"MirabellaPortableLamp","GPIO":[17,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-portable-led-lamp/3224816
+link2: 
+flash: tuya-convert
+---
+MODE button maps to GPIO00/Button1 which in Tasmota will turn the light on and off. 
+
+ON/OFF button turns the whole device off to recharge the battery faster but this will disable the Wifi/Tasmota functionality. It does appear to still charge when turned on fully.
