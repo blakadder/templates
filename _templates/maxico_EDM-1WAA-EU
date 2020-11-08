@@ -1,0 +1,33 @@
+---
+date_added: 2020-11-08
+title: Maxico Smart Dimmer Switch
+model: EDM-1WAA-EU
+image: /assets/images/maxico_EDM-1WAA-EU.jpg
+template: '{"NAME":"Maxico Smart Dimmer Switch","GPIO":[1,2272,1,2304,1,1,1,1,1,1,1,1,1,0],"FLAG":0,"BASE":54}'
+link: https://www.amazon.de/dp/B087QHMCVF
+link2:
+mlink:
+flash: serial
+category: switch
+type: Dimmer
+standard: eu
+---
+Set the TuyaMCU baudrate to 115200 bps:
+```console
+SetOption 97 1
+```
+
+The following mappings are required:
+```console
+TuyaMCU 21,2
+```
+
+Dimmer Range:
+```console
+DimmerRange 10,1000
+```
+
+Flashing:
+The chip is easily accessible once the switch cover is removed. The cover is held by a few plastic clips and can be snapped off. It also has to be removed to secure the dimmer in the wall.
+
+The ESPs serial connectors (RX/TX) as well as 3.3V and GND are exposed on the board. The GPIO0/Reset is not. I just soldered a wire onto it.
