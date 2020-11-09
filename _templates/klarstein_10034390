@@ -1,0 +1,94 @@
+---
+date_added: 2020-11-10
+title: Klarstein Bornholm Smart 2000W
+model: 10034390
+image: /assets/images/klarstein_10034390.jpg
+template: '{"NAME":"Klarstein Bornholm","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.fr/dp/B01MUPY0IH
+link2: https://www.amazon.de/dp/B08C7W82WJ/
+mlink: https://www.klarstein.eu/
+flash: serial
+category: misc
+type: Heater
+standard: eu
+---
+
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+This is a Tuya panel heater. It comes in white (model 10034390) an black (model 10034391)
+
+Identified with MCU Product ID: `{"p":"3slpirlnlqp0bqo1","v":"1.0.0"}`. 
+
+## Serial Flashing
+Easily disassembled by removing the front glass panel by unscrewing 4 screws on the side. The PCB with the display and touch control has a TYWE3S module on smaller PCB. The control MCU is on the back of the PCB.
+
+![Side screws](/assets/images/klarstein_10034390_side.jpg)
+![Opened](/assets/images/klarstein_10034390_open.jpg)
+
+Connect your USB-to-serial adapter to [TYWE3S](https://tasmota.github.io/docs/devices/TYWE3S) module using 3V3, GND, TX and RX pins and flash. The MCU should not interfere if you're powering the Wi-Fi module directly on its 3V3 pin.
+
+![Opened](/assets/images/klarstein_10034390_wifi.jpg)
+
+## Device Configuration
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+
+Implement this rule to stop the wifi icon from blinking even when Tasmota is connected to Wi-Fi
+```console
+rule1 on system#boot do backlog delay 50; serialsend5 55aa0008000007; serialsend5 55aa000300010205; serialsend5 55aa000300010306 endon
+```
+## Functions
+`dpID 1` controls device power - turns the device on off      
+`dpID 2` sets target temperature    
+`dpID 3` reports ambient temperature using the built in temperature sensor    
+`dpID 4` control heating modes:     
+  - `0` - high 
+  - `1` - low
+  - `2` - off
+`dpID 5` control ECO mode (on or off)     
+`dpID 6` control child lock mode (lock on device controls)     
+`dpID 10` heating timer in hours     
+`dpID 11` heating timer in minutes     
+`dpID 12` error report    
+`dpID 101` unknown?!    
+`dpID 102` turns display on or off (it will turn off automatically after some time)    
+`dpID 103` temperature unit select and heating control: 
+  - `0` - Celsius 
+  - `1` - Fahrenheit
+  - `2..` - toggles heating while keeping dpid4. it is not reliable since it always toggles but there is no response on what the current state is 
+
+### Configuration
+
+```console
+backlog tuyamcu 11,1; tuyamcu 12,5; tuyamcu 13;6; tuyamcu 21,2;  so20 1; so54 1;
+```
+
+- `Relay1` maps to dpID1 for power control
+- `Relay2` maps to dpID5 for ECO mode
+- `Relay3` maps to dpID6 for Child Lock mode
+- `Dimmer` maps to dpID2 for temperature select (its better to use console commands to be more precise). `SetOption20 1` and `SetOption54 1` stops dimmer from controlling the power.
+
+Label webUI buttons:
+```console
+backlog webbutton1 Power; webbutton2 ECO; webbutton3 Child Lock
+```
+### TuyaEnum 
+As of Tasmota 9.1.0.1 [#9769](https://github.com/arendst/Tasmota/pull/9769) it is possible to map Type4 dpIDs (such as dpID4) to an Enum fn ID. 
+
+Map dpID4 to Enum1 fnID:
+```console
+TuyaMCU 61,4
+```
+Set Enum1 range (in this case the max enum is 2). 
+```console
+TuyaEnumList 1,2
+```
+
+Now you can control the heating mode with `TuyaEnum1 <x>` where `x` is 0/1/2. If you try a number outside the Enum1 range it will throw an error.
+
+To do the same for temperature unit select do `TuyaMCU 62,103` then `TuyaEnumList 2,1`. Control with `TuyaEnum2 0/1`.

@@ -1,6 +1,6 @@
 ---
 date_added: 2020-06-01
-title: Kogan 1500w Panel Heater
+title: Kogan 1500W Panel 
 model: KAHTP15WALA
 image: /assets/images/kogan-KAHTP15WALA.jpg
 template: '{"NAME":"Kogan Panel Heater","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: tuya-convert
 category: misc
-type: Miscellaneous
+type: Heater
 standard: au
 ---
 
