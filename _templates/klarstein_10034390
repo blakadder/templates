@@ -17,7 +17,7 @@ standard: eu
 
 This is a Tuya panel heater. It comes in white (model 10034390) an black (model 10034391)
 
-Identified with MCU Product ID: `{"p":"3slpirlnlqp0bqo1","v":"1.0.0"}`. 
+<!--- Identified with MCU Product ID: `{"p":"3slpirlnlqp0bqo1","v":"1.0.0"}`. -->
 
 ## Serial Flashing
 Easily disassembled by removing the front glass panel by unscrewing 4 screws on the side. The PCB with the display and touch control has a TYWE3S module on smaller PCB. The control MCU is on the back of the PCB.
