@@ -43,21 +43,21 @@ Implement this rule to stop the wifi icon from blinking even when Tasmota is con
 rule1 on system#boot do backlog delay 50; serialsend5 55aa0008000007; serialsend5 55aa000300010205; serialsend5 55aa000300010306 endon
 ```
 ## Functions
-`dpID 1` controls device power - turns the device on off      
-`dpID 2` sets target temperature    
-`dpID 3` reports ambient temperature using the built in temperature sensor    
-`dpID 4` control heating modes:     
+- `dpID 1` controls device power - turns the device on off      
+- `dpID 2` sets target temperature    
+- `dpID 3` reports ambient temperature using the built in temperature sensor    
+- `dpID 4` control heating modes:     
   - `0` - high 
   - `1` - low
   - `2` - off
-`dpID 5` control ECO mode (on or off)     
-`dpID 6` control child lock mode (lock on device controls)     
-`dpID 10` heating timer in hours     
-`dpID 11` heating timer in minutes     
-`dpID 12` error report    
-`dpID 101` unknown?!    
-`dpID 102` turns display on or off (it will turn off automatically after some time)    
-`dpID 103` temperature unit select and heating control: 
+- `dpID 5` control ECO mode (on or off)     
+- `dpID 6` control child lock mode (lock on device controls)     
+- `dpID 10` heating timer in hours     
+- `dpID 11` heating timer in minutes     
+- `dpID 12` error report    
+- `dpID 101` unknown?!    
+- `dpID 102` turns display on or off (it will turn off automatically after some time)    
+- `dpID 103` temperature unit select and heating control: 
   - `0` - Celsius 
   - `1` - Fahrenheit
   - `2..` - toggles heating while keeping dpid4. it is not reliable since it always toggles but there is no response on what the current state is 
