@@ -12,6 +12,7 @@ type: Dimmer
 standard: us
 ---
 Works for flashing via Tuya-Convert on 11/30/2019,  even after allowing Smart Life app to update firmware to WiFi Module: 3.1.2 and MCU Module: 3.2.6 (which you should probably do before converting to custom firmware so that the MCU has the latest features).
+There is a report of failure to flash via Tuya-Convert on DS02S purchased in Oct, 2020. PCB was marked version 2.1
 
 Also would work for flashing via serial with this setup: ![TreatLife DS02S serial programming](https://user-images.githubusercontent.com/35885181/70186043-41a6f900-16a8-11ea-86ca-b470d13ce8d5.jpg)
 
