@@ -5,13 +5,14 @@ model: 35511
 category: plug
 type: Plug
 standard: us
+flash: tuya-convert
 link: https://www.monoprice.com/product?p_id=35511
+link2: https://www.monoprice.com/product?p_id=35512
 image: https://images.monoprice.com/productlargeimages/355111.jpg
 template: '{"NAME":"Stitch 35511","GPIO":[56,0,57,0,0,133,0,0,0,17,132,21,131],"FLAG":0,"BASE":18}' 
-link2: 
 ---
 
-
+Discontinued, try the EFUN SH331W
 
 
 
