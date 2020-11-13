@@ -4,8 +4,8 @@ title: T16E Dual USB 10A
 model: T16E
 image: /assets/images/T16E.jpg
 template: '{"NAME":"T16E 10A","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.aliexpress.com/item/4000279470533.html
-link2: 
+link: https://www.aliexpress.com/item/4000171162147.html
+link2: https://www.ebay.com/itm/264926488503
 mlink: 
 flash: tuya-convert
 category: plug
