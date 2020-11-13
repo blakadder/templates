@@ -11,6 +11,14 @@ category: switch
 type: Dimmer
 standard: us
 ---
+Update 2020-11-13
+Tuya-Convert does not work anymore you need to hard flash the chip directly with USB TTL cable (3.3v)
+![chip_wires](https://user-images.githubusercontent.com/3240875/43324672-578ffcbc-917a-11e8-800c-f1d008ca3cf4.JPG)
+
+Attach the GPIO0 wire to ground during initial boot to flash.  
+A 3-pin header bridged together works great with GPIO0, GND and the GND from the USB flasher attached. 
+(TX pin to RX pin and RX pin to TX pin on USB flash adapter). Verify that you are using 3.3volts to flash, **NOT 5V!**
+
 After flash with Tuya-Convert and update to current release tasmota.bin :
 
 - Go to WebUI and then Console
