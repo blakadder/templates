@@ -3,7 +3,7 @@ date_added: 2020-06-20
 title: Zemismart Blinds Controller
 model: YH002
 image: /assets/images/zemismart_YH002.jpg
-template: '{"NAME":"Zemismart Blin","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}' 
+template: '{"NAME":"Zemismart Blind”,”GPIO”:[1,1,1,1,1,1,0,0,1,2304,1,2272,1],”FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4000782412838.html
 link2: 
 mlink: 
@@ -12,6 +12,11 @@ category: cover
 type: Motor
 standard: global
 ---
+For tasmota versions older than 9.1.0, use template:
+```console
+{"NAME":"Zemismart Blind","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}
+```
+
 `TuyaMCU 11,7` to move the relay to an uncontrollable dpId. WebUI toggle will have no effect.
 
 `TuyaMCU 21,2` maps the position command to dimmer, will not update position state on its own without the following rule.
