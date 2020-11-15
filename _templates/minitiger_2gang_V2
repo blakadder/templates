@@ -1,9 +1,9 @@
 ---
-date_added: 2020-01-21
+date_added: 2020-11-14
 title: Minitiger 2 Gang v2 
 model: MT-Wifi-01
 image: https://user-images.githubusercontent.com/5904370/72855774-e1503300-3cb8-11ea-85f5-6746d88293be.png
-template: '{"NAME":"Minitiger2Band","GPIO":[0,0,0,17,18,0,0,0,0,21,22,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Minitiger2Band","GPIO":[0,56,0,17,18,0,0,0,0,21,22,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33016227381.html
 link2: 
 mlink: 
@@ -12,3 +12,4 @@ category: switch
 type: Switch
 standard: eu
 ---
+To be able to see blue light use this command in console "LedPower1 1".
