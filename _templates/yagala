@@ -1,19 +1,14 @@
 ---
-date_added: 2019-08-28
+date_added: 2020-11-14
 title: Yagala
 category: plug
 type: Power Strip
 standard: us
+flash: tuya-convert
 link: https://www.amazon.com/gp/product/B07PC14L9B
 image: https://images-na.ssl-images-amazon.com/images/I/51vBeFv7bIL._SL1200_.jpg
-template: '{"NAME":"Yagala","GPIO":[0,0,0,17,22,24,0,0,23,25,21,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Yagala","GPIO":[52,255,255,57,29,17,0,0,31,30,32,255,25],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
-
-
-
-
-
-
-
+Tuya-convert was successful on November 14. 2020 
