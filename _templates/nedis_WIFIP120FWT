@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-14
+title: Nedis Schuko Type F 16A
+model: WIFIP120FWT
+image: /assets/images/nedis_WIFIP120FWT.jpg
+template: '{"NAME":"WIFIP120FWT","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+link: https://www.amazon.de/dp/B07GH5K5GT
+link2: https://www.motonet.fi/fi/tuote/9501448/Nedis-SmartLife-alypistorasia-sisakayttoon-energian-kulutusmittarilla-16-A
+mlink: https://nedis.com/en-us/product/security-safety/smart-home/power/550671327/wifi-smart-plug-power-monitor-schuko-type-f-16a
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

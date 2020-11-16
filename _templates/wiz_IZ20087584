@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-12
+title: WiZ BR30 13.8W 750lm
+model: IZ20087584
+image: /assets/images/wiz_IZ20087584.jpg
+template: '{"NAME":"WiZ RGBCCT PAR30","GPIO":[0,0,0,0,40,0,0,0,38,41,39,37,0],"FLAG":0,"BASE":48}' 
+link: https://www.amazon.com/WiZ-IZ20087584-Connected-Compatible-Required/dp/B07XZV6TSY/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e26
+---
+Serial flashing worked via temporary soldered leads. (Do not connect to mains while flashing.) Clean disassembly does not seem possible. Plastic base must be cut to access ESP chip, rendering unsafe. Experimental only! 

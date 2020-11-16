@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-14
+title: Sonoff No Neutral 1 Gang
+model: T4EU1C
+image: /assets/images/sonoff_TX-T4EU1C.jpg
+template: '{"NAME":"Sonoff T4 1CH","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":28}' 
+link: https://www.itead.cc/sonoff-t4eu1c-wi-fi-smart-single-wire-wall-switch.html
+link2: https://www.banggood.com/SONOFF-T4EU1C-WIFI-Wall-Touch-Switch-1-Gang-EU-No-Neutral-Wire-Required-Switches-Smart-Single-Wire-Wall-Switch-Works-With-Alexa-Google-Home-p-1555204.html
+link3: https://www.aliexpress.com/item/4000096289910.html
+mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---

@@ -12,10 +12,6 @@ link2: https://www.costco.com/Feit-Wi-Fi-Smart-Outdoor-Plug-2-pack.product.10051
 mlink: https://www.feit.com/product/outdoor-smart-wifi-dual-outlet-wall-plug-alexa-google-assistant/
 ---
 
-Available in Canada's Costco under the name "Prime" (US version under the name Feit). Change GPIO4 to LedLink1i(158) if you want the led link off once connected to your network 
+## Warning
 
-
-
-
-
-
+As of November 2020 this device is no longer compatible

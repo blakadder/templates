@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-14
+title: LE LampUX BR30 9.5W 750lm
+model: 907001-US
+image: /assets/images/le_907001-US.jpg
+template: '{"NAME":"LE RGBCCT 9.5W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/gp/product/B07WQW3X5Q/
+link2: 
+mlink: https://www.lepro.com/2-pack-9w-rgbw-br30-wifi-smart-led-bulbs-alexa-google-home-compatible-no-hub-required.html
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---

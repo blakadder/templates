@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-12
+title: EnwYe 5W 400lm 
+model: 
+image: /assets/images/enwye_5w.jpg
+template: '{"NAME":"Generic GU10","GPIO":[0,0,0,0,39,0,0,0,38,41,37,40,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000300642135.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: gu10
+---

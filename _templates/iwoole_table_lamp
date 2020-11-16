@@ -7,11 +7,10 @@ template: '{"NAME":"GLOBELAMP","GPIO":[0,0,0,0,0,0,0,0,38,39,37,0,0],"FLAG":0,"B
 link: https://www.aliexpress.com/item/4000145628493.html
 link2: 
 mlink: https://www.iwoole.com/product/wifi-smart-table-lamp-1/
-flash: tuya-convert
 category: light
 type: Light
-standard: eu, fr
+standard: [eu, fr]
 ---
-Only flashable by Tuya-convert, can NOT be opened.
+This device cannot be flashed with tuya-convert anymore and there is no chance to open the light for serial flashing. 
 
-DO NOT connect to Tuya or smartlife app or it can't be flashed anymore.
+Model:ZN199229_02 A5A-67E1-06
