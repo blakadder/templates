@@ -1,6 +1,6 @@
 ---
 date_added: 2020-11-14
-title: Sonoff No Neutral 1 Gang
+title: Sonoff TX T4 EU No Neutral 1 Gang
 model: T4EU1C
 image: /assets/images/sonoff_TX-T4EU1C.jpg
 template: '{"NAME":"Sonoff T4 1CH","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":28}' 
