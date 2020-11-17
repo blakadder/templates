@@ -13,8 +13,6 @@ category: misc
 type: Zigbee Bridge
 standard: global
 ---
-<h3>Support for this device is experimental!!!</h3>
-
 ## Flash ESP8266
 
 Remove the 4 rubber feet to access screws and disassemble the device. Take out the PCB and connect breadboard cables to labelled pin holes (if you only have Dupont wires you will need to solder them since the holes are too small for them).
