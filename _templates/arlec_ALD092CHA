@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-18
+title: Arlec Smart 9W CCT
+model: ALD092CHA
+image: /assets/images/arlec_ALD092CHA.jpg
+template: '{"NAME":"Arlec ALD092CHA","GPIO":[0,0,0,0,40,41,0,0,37,39,38,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-grid-connect-smart-9w-cct-led-downlight_p0168694
+link2: 
+mlink: 
+flash: serial
+category: light
+type: Downlight
+standard: au
+---
+Flashing was quite easy, cover unclips easily and required pins for flashing are identifiable

@@ -1,0 +1,23 @@
+---
+date_added: 2020-11-17
+title: Maxcio Rotary
+model: EDM-1WAA-EU
+image: /assets/images/
+template: '{"NAME":"EDM-1WAA-EU","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.de/dp/B087QHMCVF/
+link2: https://www.amazon.se/dp/B087QHMCVF/
+mlink: https://maxcio.com/products/alexa-smart-dimmer-switch-maxcio-wifi-rotary-dimmer-light-switch-for-inc-cfl-led-bulbs-alexa-google-home-smartlife-app-control-timer-schedule-dimmable-light-switch-neutral-wire-needed
+flash: serial
+category: switch
+type: Dimmer
+standard: eu
+---
+Once the template is applied, run the following commands to configure communication with the MCU:
+```console
+Backlog SetOption97 1; TuyaMCU 11,1; TuyaMCU 21,2; DimmerRange 10,1000
+```
+
+The ESP talks to a secondary MCU at a different baud rate so that is why SetOption97 is required.
+
+
+The Minimum dimmer range for the physical knob can be set with `TuyaSend2 3,10`
