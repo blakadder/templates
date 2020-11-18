@@ -2,8 +2,8 @@
 date_added: 2020-11-17
 title: Maxcio Rotary
 model: EDM-1WAA-EU
-image: /assets/images/
-template: '{"NAME":"EDM-1WAA-EU","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+image: /assets/images/maxcio_EDM-1WAA-EU.jpg
+template9: '{"NAME":"EDM-1WAA-EU","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.de/dp/B087QHMCVF/
 link2: https://www.amazon.se/dp/B087QHMCVF/
 mlink: https://maxcio.com/products/alexa-smart-dimmer-switch-maxcio-wifi-rotary-dimmer-light-switch-for-inc-cfl-led-bulbs-alexa-google-home-smartlife-app-control-timer-schedule-dimmable-light-switch-neutral-wire-needed

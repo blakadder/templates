@@ -80,12 +80,26 @@ layout: default
   <br>
   </div>
   <div class="column">
-  {% include gpios.html %}
+    {% if page.template9 != nil %}
+    {% else %}
+    {% include gpios.html %}
+    {% endif %}
   </div>
   </div>
 </div>
+{% if page.template9 != nil %}
 <div class="row">
-  <div class="column"><h4>Template</h4></div>
+  <div class="column"><strong>Template for Tasmota v9.1+</strong></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+</div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-erlang">{{ page.template9 }}</code></pre>
+</div>
+</div>
+{% else %}
+<div class="row">
+  <div class="column"><strong>Template</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
 <div class="row">
@@ -93,6 +107,7 @@ layout: default
     <pre><code class="language-erlang">{{ page.template }}</code></pre>
 </div>
 </div>
+{% endif %}
 <!-- Alternative template -->
 {% if page.template-alt != nil %}
 <div class="row">
