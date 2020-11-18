@@ -15,4 +15,6 @@ standard: e27
 
 Tuya-convert flash is not possible any more. 
 
+Manufacturer has started using the WB3L SoC. Running ESP Firmware is not possible anymore.
+
 Device is hard to impossible to open since the bulb has a solid matal body inside.
