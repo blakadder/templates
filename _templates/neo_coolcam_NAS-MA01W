@@ -38,7 +38,7 @@ Backlog TuyaMCU 51,51; TuyaMCU 99,1
 
 This rule is required to shut down Tasmota after a successful boot and empty mouse trap.
 ```console
-backlog rule1 on tuyareceived#data=55AA00050005650100010070 do backlog delay 300; serialsend5 55AA000500010005 endon; rule 1 1
+backlog rule1 on tuyareceived#data=55AA00050005650100010070 do backlog delay 300; serialsend5 55AA000500010005 endon; rule1 1
 ```
 
 When the trap is triggered it will stay turned on until reset.
@@ -52,6 +52,8 @@ When the trap is triggered it will stay turned on until reset.
     - `3` - 25% - low
 
 ## Home Assistant configuration
+Only works on `SetOption19 1`
+
 Add these rules to console, your mouse trap will be autodiscovered on reboot.
 
 ```console
