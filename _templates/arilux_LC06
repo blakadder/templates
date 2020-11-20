@@ -17,6 +17,16 @@ If you use this controller with Cold White / Warm White LED strip (without RGB),
 {"NAME":"Arilux LC06 in CW/WW mode","GPIO":[17,0,0,0,0,37,0,0,0,0,0,38,0],"FLAG":0,"BASE":18}
 ```
 
+## XCSOURCE Version
+
+https://www.amazon.co.uk/gp/product/B01AA6221S/ref=ppx_yo_dt_b_asin_title_o06_s02?ie=UTF8&psc=1
+
+The XCSOURCE branded version of this controller seems to have a different GPIO pin for the CW channel. The following template fixes the issue:
+
+```
+{"NAME":"Arilux LC06","GPIO":[32,0,0,0,0,419,0,0,417,418,416,420,0,0],"FLAG":0,"BASE":18}
+```
+
 ## Serial Flashing
 Complete guide at [Tasmota Docs](https://tasmota.github.io/docs/devices/MagicHome-LED-strip-controller#magichome-with-esp8285)
 
