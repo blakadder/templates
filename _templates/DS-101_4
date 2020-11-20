@@ -12,6 +12,4 @@ category: switch
 type: Switch
 standard: uk
 ---
-There is no need to configure the Button LEDs separately as these are controlled by the TUYA MCU in parallel with RELAY(x), ie if RELAY(x) is ON then the associated Button LED is BLUE, if RELAY(x) is OFF then the associated Button LED is ORANGE.
-
-No need to configure the button LEDs separately as these are controlled by the TUYA MCU in parallel with the RELAY(x)
+There is no need to configure the Button LEDs separately as these are controlled in parallel with RELAY(x), ie if RELAY(x) is ON then the associated Button LED is BLUE, if RELAY(x) is OFF then the associated Button LED is ORANGE.
