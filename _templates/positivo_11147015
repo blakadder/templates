@@ -12,4 +12,5 @@ category: bulb
 type: RGBCCT
 standard: e27
 ---
-Newer versions of this devices don't use the ESP8266 chip and are incompatible with tastoma.
+## WARNING
+As of November 2020 this device don't use ESP8266 anymore and is incompatible with Tasmota!
