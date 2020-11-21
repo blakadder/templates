@@ -12,6 +12,9 @@ link4: https://www.amazon.com/Sonoff-Monitoring-Compatible-Assistant-Supporting/
 link3: https://www.aliexpress.com/item/4000318265353.html
 ---
 
+## Built-in module
+Note: There is no need to use the above template for this device; it is only for reference. In the Tasmota web interface, simply go to Configuration > Module, select "Sonoff S31 (41)" and click Save, or go to Console and enter "Module 41" 
+
 ## Serial Flashing
 Complete guide on [Tasmota Docs](https://tasmota.github.io/docs/devices/Sonoff-S31)
 
