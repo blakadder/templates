@@ -1,15 +1,21 @@
 ---
-date_added: 2020-01-18
+date_added: 2020-11-19
 title: Minitiger 1 Gang v2
 model: MT-Wifi-01
 image: https://user-images.githubusercontent.com/5904370/72667245-06734600-3a1a-11ea-907c-97c04694b973.png
 template: '{"NAME":"MiniTiger1Band","GPIO":[0,56,0,0,0,17,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"MiniTiger1BandNoNeutral","GPIO":[0,320,0,0,0,32,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33016227381.html
 link2: 
 mlink: 
-flash: tuya-convert
+flash: serial
 category: switch
 type: Switch
 standard: eu
 ---
-To be able to see blue light use this command in console "LedPower1 1"
+To be able to see blue light use this command in console `LedPower1 1`
+
+But you can flash it very easy with the [6 pins](https://www.reddit.com/r/tasmota/comments/hs6w1y/minitiger_wall_switch_tuyatasmota) on the front panel. The pin is (left to right, when you have the pin on top) `3,3v | Rx | Tx | Gpio0 | Rst | GND` ([source](https://www.reddit.com/r/esp8266/comments/f30s4l/esp8285_board_layout_identification)). 
+
+Connect Gpio0 and GND together to enter in "flash mode"
+
