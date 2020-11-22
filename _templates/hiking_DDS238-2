@@ -3,7 +3,8 @@ date_added: 2020-09-03
 title: Hiking Single Phase 65A Din Rail
 model: DDS238-2
 image: /assets/images/hiking_DDS238-2.jpg
-template: '{"NAME":"hiking dds2382wifi","GPIO":[0,107,0,108,0,0,0,0,0,0,56,0,17],"FLAG":0,"BASE":1}' 
+template: '{"NAME":"Hiking DDS238-2 WIFI","GPIO":[0,2272,0,2304,0,0,0,0,0,0,320,0,32,0],"FLAG":0,"BASE":54}'
+
 link: https://www.aliexpress.com/item/4000530641386.html
 link2: 
 mlink: 
@@ -13,6 +14,11 @@ type: Energy Meter
 standard: eu
 ---
 [Tasmota GitHub issue thread](https://github.com/arendst/Tasmota/issues/8237)
+
+For Tasmota Versions before 9.1
+```console
+{"NAME":"hiking dds2382wifi","GPIO":[0,107,0,108,0,0,0,0,0,0,56,0,17],"FLAG":0,"BASE":1}
+```
 
 ```console
 Backlog TuyaMCU 33,20; TuyaMCU 32,18; TuyaMCU 31,19; SetOption66 1; SetOption19 1; SetOption53 1;
