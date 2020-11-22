@@ -1,9 +1,10 @@
 ---
 date_added: 2020-05-30
-title: LerLink X802A-L No Neutral
-model: 
-image: https://user-images.githubusercontent.com/5904370/73125323-e0175280-3fa5-11ea-9c63-704a035bdb24.png
+title: LerLink 2 Gang No Neutral
+model: X802A-L
+image: /assets/images/lerlink_X802A-L.jpg
 template: '{"NAME":"LerLink X802-L","GPIO":[0,0,0,18,17,0,0,0,21,158,22,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Lonsonho 2gang","GPIO":[0,0,0,33,32,0,0,0,224,288,225,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000424217817.html
 link2: https://www.aliexpress.com/item/4000289352430.html
 mlink: https://www.lerlink.com/productinfo/1024784.html?templateId=1133605
@@ -14,3 +15,4 @@ standard:
   - eu
   - uk
 ---
+

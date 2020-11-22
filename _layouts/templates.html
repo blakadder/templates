@@ -176,7 +176,17 @@ layout: default
   <p>
   {% endif %}
   
-{{ content | markdownify }} 
+  {% if page.title contains 'LoraTap' %}
+  <strong>WARNING!</strong> LoraTap is using ESP8266 and Realtek Wi-Fi modules on same model devices. Check seller descriptions or contact them before buying! 
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'Lerlink' %}
+  Manufactured by Lerlink but found under different brands (Lonsonho, Zemismart, Moes, etc)
+  <p>
+  {% endif %}
+  
+  {{ content | markdownify }} 
 </div>
 
  <div id="amzn-assoc-ad-c632316f-24d7-45e3-9fd2-4f1038ceddbc"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c632316f-24d7-45e3-9fd2-4f1038ceddbc"></script>

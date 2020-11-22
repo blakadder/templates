@@ -13,7 +13,7 @@ title: Tasmota Device Templates Repository
     </div>
     <div class="row">
         <div class="column">
-        Introducing the new <b>Preflashed with Tasmota</b> section where you can find all devices that come with Tasmota installed straight from the factory<br>
+        Tasmota 9.1 introduced a new template layout with changed component numbers. If a new template is used it will be labelled on the device page. You can still use old templates on v9.1+ but you cannot use new templates on older Tasmota versions.<br>
         </div>
     </div>
     <div class="row row-100">
@@ -53,8 +53,8 @@ title: Tasmota Device Templates Repository
     <br>
     <span style="font-size:0.6em;">See <a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">world map of plugs</a> and <a href="https://www.bulbs.com/learning/basechart.aspx" target="_blank">light bulb base list</a> for more information.</span>
     <h4>Unsupportable devices:</h4>
-    <a class="button button-red button-small" href="unsupported.html">ALL UNSUPPORTABLE</a>
-    <a class="button button-black button-small" href="new-unsupported.html">ADD NEW</a>
+    <a class="button button-red button-small" href="unsupported.html">LIST ALL</a>
+    <a class="button button-black button-small" href="new-unsupported.html">ADD INCOMPATIBLE</a>
     {% assign sorted = site.unsupported | sort: "date_added" | reverse %}
     <table>
         <tbody>
