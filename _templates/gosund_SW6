@@ -49,18 +49,18 @@ For more information about SwitchMode you can find it here: https://tasmota.gith
 #### Rule1
 Updates the state of the dummy relay when switch1 changes state.
 ```console
-Rule1 ON Switch1#state do Power1 2 endon; Rule1 1
+Backlog Rule1 ON Switch1#state do Power1 2 endon; Rule1 1
 ```
 
 #### Rule2
 Toggles Power2 when the button is pressed.
 ```console
-Rule2 ON Button1#state do Power2 2 endon; Rule2 1
+Backlog Rule2 ON Button1#state do Power2 2 endon; Rule2 1
 ```
 #### Rule3
 If the device is sent an EVENT it will Toggle Power2. 
 ```console
-Rule3 ON event#OFF do power2 2 endon ON event#ON do power2 2 endon; Rule3 1
+Backlog Rule3 ON event#OFF do power2 2 endon ON event#ON do power2 2 endon; Rule3 1
 ```
 
 For more information about Rules you can find it here: https://tasmota.github.io/docs/Rules/
