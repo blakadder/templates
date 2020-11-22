@@ -17,12 +17,12 @@ standard: us
 This assumes standard 3-way lighting with a child 'dumb' toggle switch connected to the travelers. 
 
 ### Components
-Component | Description
---------- | -----------
-Relay1 | Adummy component that stores the power state of the switch.
-Relay2 | The actual hardware switch.
-Button1 | its exactly what you think it is. When pushing the button it automatically TOGGLES Power1
-Switch1 | The secondary switch electrically controls the light, and its state changes on Switch1.
+Component | Description. 
+--------- | -----------  
+Relay1 | A dummy component that stores the power state of the switch.  
+Relay2 | The actual hardware switch.  
+Button1 | It's exactly what you think it is. When pushing the button it automatically TOGGLES Power1. 
+Switch1 | The secondary switch electrically controls the light, and its state changes on Switch1.  
 
 ### Device Configuration
 There are a couple things we need to do to get this switch to work correctly. 
@@ -55,12 +55,12 @@ Rule1 ON Switch1#state do Power1 2 endon; Rule1 1
 #### Rule2
 Toggles Power2 when the button is pressed.
 ```console
-Rule2 ON Button1#state do Power2 2 endon Rule2 1
+Rule2 ON Button1#state do Power2 2 endon; Rule2 1
 ```
 #### Rule3
 If the device is sent an EVENT it will Toggle Power2. 
 ```console
-Rule3 ON event#OFF do power2 2 endon ON event#ON do power2 2 endon; Rule2 1
+Rule3 ON event#OFF do power2 2 endon ON event#ON do power2 2 endon; Rule3 1
 ```
 
 For more information about Rules you can find it here: https://tasmota.github.io/docs/Rules/
