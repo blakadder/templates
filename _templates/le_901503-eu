@@ -12,3 +12,5 @@ category: light
 type: Ceiling Light
 standard: eu
 ---
+
+(21.11.2020) Tuya-convert is not possible anymore since light comes with newest firmware. Light uses an ESP8266EX (TYWE3L module) and can be easily opened and flashed trough Serial without damaging.
