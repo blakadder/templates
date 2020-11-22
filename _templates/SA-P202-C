@@ -3,33 +3,20 @@ date_added: 2020-07-29
 title: SA-P202C 16A
 model: SA-P202C-G(16A)
 image: /assets/images/SA-P202-C.jpg
-template: '{"NAME":"Elivco 202C-G","GPIO":[0,0,0,17,134,132,0,0,130,56,21,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Elivco 202C-G","GPIO":[0,0,0,17,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/4001143686674.html
 link2: 
 mlink: 
-flash: tuya-convert
+flash: serial
 category: plug
 type: Plug
 standard: br
 ---
 
-I just bought 2 Elivco Plug model 202-C 16A from AliExpress Official Vendor (November/2020) and the configuration in the Tasmoti Website is wrong. The ELIVCO Plug uses the HLW8012 (133) and NOT the BL0937 (134). Besides, to correct measure of Voltage/Current, need to use HLWBL SEL_i (131) instead of HLWBL SEL (130).
-
-So, the correct template is:
-template: '{"NAME":"Elivco 202C-G","GPIO":[0,0,0,17,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
-
-The Tuya Convert is not working anymore. I had to solder some wires but it was very easy seeing the pinout in the internet.
+Tuya Convert is not working anymore. I had to solder some wires but it was very easy seeing the pinout in the internet.
 VCC to 3.3v
 GND to GND
 GND to GPIO0
 TX to RX
 RX to TX
 Run Tasmotizer APP using tasmota.bin file. Done!
-
-It was necessary to calibrate. I am using the following configuration:
-CMD: VoltageCal
-MQT: stat/switchplug/device05/RESULT = {"VoltageCal":1760}
-CMD: PowerCal
-MQT: stat/switchplug/device05/RESULT = {"PowerCal":8513}
-CMD: CurrentCal
-MQT: stat/switchplug/device05/RESULT = {"CurrentCal":2772}
