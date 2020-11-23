@@ -3,7 +3,7 @@ date_added: 2020-03-29
 title: LoraTap SC411WSC-EU RF Remote
 model: SC411WSC-EU
 image: /assets/images/loratap_SC411WSC-EU.jpg
-template: '{"NAME":"Loratap","GPIO":[0,0,0,19,23,17,0,0,18,22,0,21,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Loratap","GPIO":[0,0,0,19,23,17,0,0,18,22,0,21,0],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/33052311020.html
 link2: https://www.aliexpress.com/item/32973595205.html
 mlink: https://www.loratap.com/remote-control-curtain-blind-wifi-touch-switch-for-electrical-roller-shutter-sunscreen-voice-control-by-google-home-alexa-echo-p0020.html
@@ -12,3 +12,8 @@ category: cover
 type: Curtain Switch
 standard: eu
 ---
+**NOTICE!!!** Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore.
+
+It appears that LoraTap have changed the hardware and the new devices are using an RTL8710BN which won’t work with Tasmota.
+
+[Issue](https://github.com/blakadder/templates/issues/762) reported 20th Nov 2020.
