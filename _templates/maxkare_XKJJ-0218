@@ -3,7 +3,7 @@ date_added: 2020-01-11
 title: MaxKare XKJJ-0218
 model: 
 image: https://user-images.githubusercontent.com/5904370/72204024-d05f2080-3473-11ea-9bbe-fc03244f44f0.png
-template: '{"NAME":"MaxKare XKJJ-0","GPIO":[0,0,0,0,18,133,0,0,21,17,132,22,130],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"MaxKare XKJJ-0","GPIO":[288,0,0,0,18,133,0,0,21,17,132,22,130],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/MaxKare-Wireless-Electrical-Compatible-assistant/dp/B07DGW6DKL
 link2: 
 mlink: 
