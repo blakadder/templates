@@ -1,15 +1,16 @@
 ---
-date_added: 2019-06-14
+date_added: 2020-11-25
 title: Gosund WP6
 category: plug
 type: Plug
 standard: us
 flash: tuya-convert
-link: https://www.amazon.com/Gosund-Compatible-Control-Required-Anywhere/dp/B07NSXFWK6
-image: https://images-na.ssl-images-amazon.com/images/I/51UqCsp1z0L._SX522_.jpg
-template: '{"NAME":"Gosund WP6","GPIO":[0,0,0,17,0,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07Q2P77JL/
+image: /assets/images/gosund_WP6.jpg
+template: '{"NAME":"Gosund WP6","GPIO":[0,56,0,17,0,0,0,0,0,157,21,0,0],"FLAG":0,"BASE":18}' 
+template_alt: '{"NAME":"Gosund WP6","GPIO":[0,0,0,17,0,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
+Flashed OTA with tuya on 11.23.2020.  The current listed template did not work for me. 
 
 

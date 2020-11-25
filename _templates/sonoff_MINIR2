@@ -1,0 +1,19 @@
+---
+date_added: 2020-11-30
+title: Sonoff MINIR2
+model: M0802010010
+category: relay
+type: Switch
+standard: global
+image: /assets/images/sonoff_MINIR2.jpg
+template: '{"NAME":"Sonoff MINIR2","GPIO":[17,0,0,0,9,0,0,0,21,56,0,0,255],"FLAG":0,"BASE":1}' 
+flash: sonoff-diy
+link: https://www.itead.cc/sonoff-mini.html
+link2: https://www.aliexpress.com/item/1005001742223394.html
+link3: 
+link4: 
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/sonoff-minir2
+---
+
+The MINIR2 improves on the design of [MINI](sonoff_mini) with an internal antenna and a visually separate AC and low voltage terminals.
+
