@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-21
+title: Energeeks 2 USB
+model: EG-EW005MC
+image: /assets/images/energeeks_EG-EW005MC.jpg
+template9: '{"NAME":"EG-EW005MC","GPIO":[544,1,288,1,1,225,1,1,2592,1,224,1,32,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.es/dp/B07V4M4R5L
+link2: https://www.masferreteria.com/iluminacion/material-electrico/interruptores-tomas-corriente/varios-sistemas-electricos/enchufe-wifi-intel-energeeks-pl-bl-2usb-eg-ew005mc.html
+mlink: https://www.energeeks.com/es/smart-home/62-enchufe-wifi-inteligente-con-medidor-de-consumo-y-2-usb-energeeks.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+WARNING!! : POWER METERING NOT WORKING

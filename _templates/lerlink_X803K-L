@@ -3,7 +3,7 @@ date_added: 2020-11-19
 title: Lerlink 3 Gang No Neutral 
 model: X803K-L
 image: /assets/images/lerlink_X803K-L.jpg
-template: '{"NAME":"X803K-L 3 Gang","GPIO":[0,0,56,0,17,19,18,0,21,23,22,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"X803K-L 3 Gang","GPIO":[0,0,56,0,17,19,18,0,21,0,22,23,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4001115054253.html
 link2: 
 mlink: https://www.alibaba.com/product-detail/X803k-l-X803k-l-X803K-L_1600134145565.html

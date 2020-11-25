@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-20
+title: Slitinto 5W Candle
+model: TB36
+image: /assets/images/slitinto_TB36.jpg
+template: '{"NAME":"Slitinto RGBWW","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B08JCDVPBX/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e14
+---

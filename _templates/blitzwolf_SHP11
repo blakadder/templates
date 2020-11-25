@@ -1,0 +1,27 @@
+---
+date_added: 2020-11-22
+title: Blitzwolf SHP11 16A
+model: BW-SHP11
+image: /assets/images/blitzwolf_SHP11.jpg
+template: '{"NAME":"BlitzWolf-SHP11","GPIO":[56,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"BlitzWolf-SHP11","GPIO":[320,0,321,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/BlitzWolf-BW-SHP11-16A-3520W-UK-Plug-Smart-Switch-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Assistant-p-1675285.html?rmmds=myorder&cur_warehouse=UK
+link2: 
+mlink: https://www.blitzwolf.com/16A-3520W-Smart-Socket-UK-p-511.html
+flash: serial
+category: plug
+type: Plug
+standard: uk
+---
+Once the case has been taken off, the chip is found sticking up. Flip the board over and with the ground pin hole at the bottom of the board [Like So](https://i.imgur.com/4IH4t2Q.jpg), the pins are as follows:
+
+```haskell
++5v   |   GND
+RX    |   TX
+----  |
+GPIO0 |
+----  |
+----  |
+----  |
+
+(Make sure to put RX on board to TX on adapter and TX to RX on adapter )
