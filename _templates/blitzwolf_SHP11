@@ -23,5 +23,6 @@ GPIO0 |
 ----  |
 ----  |
 ----  |
+```
 
 (Make sure to put RX on board to TX on adapter and TX to RX on adapter )
