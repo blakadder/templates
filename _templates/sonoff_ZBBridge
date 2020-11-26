@@ -33,7 +33,7 @@ When the ZbBridge is flashed with Tasmota, **disconnect all breadboard wires** a
 
 ## Flash Zigbee module
 
-Download Zigbee module firmware [`ncp-uart-sw_6.7.6_115200.ota`](https://github.com/arendst/Tasmota/blob/development/tools/fw_zbbridge/ncp-uart-sw_6.7.6_115200.ota?raw=true) from Tasmota GitHub located in [`Tasmota/tools/fw_zbbridge/`](https://github.com/arendst/Tasmota/blob/development/tools/fw_zbbridge).
+Download Zigbee module firmware [`ncp-uart-sw_6.7.6_115200.ota`](https://github.com/arendst/Tasmota/blob/development/tools/fw_SonoffZigbeeBridge_ezsp/ncp-uart-sw_6.7.6_115200.ota?raw=true) from Tasmota GitHub located in [`Tasmota/tools/fw_SonoffZigbeeBridge_ezsp/`](https://github.com/arendst/Tasmota/blob/development/tools/fw_SonoffZigbeeBridge_ezsp).
 
 Go to **Firmware Upgrade** and next to "Upgrade by file upload" use the _Choose File_ button and select Zigbee module firmware you downloaded (`ncp-uart-sw_6.7.6_115200.ota`). 
 
