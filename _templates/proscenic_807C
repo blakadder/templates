@@ -4,6 +4,7 @@ title: Proscenic 807C Humidifier
 category: misc
 type: Miscellaneous
 standard: eu
+mlink: https://www.proscenic.com/807c-humidifier-p0034.html?DIST=RkNAG1k%3D
 link: https://www.amazon.de/gp/product/B07PW715W6
 image: https://images-na.ssl-images-amazon.com/images/I/51I0vlBhfBL._SL1000_.jpg
 template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
@@ -32,20 +33,25 @@ Flashed via serial by using TYWE3S pins.
 
 ```console
 Backlog SetOption66 1; TuyaMCU 21,6; TuyaMCU 12,7; TuyaMCU 13,101; TuyaMCU 14,102; TuyaMCU 15,105; TuyaMCU 16,106; DimmerRange 0,9
-
+```
+```console
 Rule1 ON TuyaReceived#DpId!=3 DO BREAK ON TuyaReceived#DpIdData DO Var2 %value% ENDON
+```
+```console
 Rule2 ON TuyaReceived#DpId!=104 DO BREAK ON TuyaReceived#DpIdData DO Var3 %value% ENDON
+```
+```console
 Rule3 ON Time#Minute|5 DO publish stat/humidifier1/STATE {"rh":"0x%Var2%","temp":"0x%Var3%","ts":"%timestamp%"} ENDON
 ```
 
 Don't forget to activate rules
-```
+```console
 Backlog Rule1 1; Rule2 1; Rule3 1
 ```
 
 ## Scripting
 
-You can use scripting instead of rules for a better implementation.
+You can use scripting instead of rules for a smoother implementation and better webUI presentation.
 
 To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
 
