@@ -11,6 +11,10 @@ template: '{"NAME":"Gosund WP6","GPIO":[0,56,0,17,0,0,0,0,0,157,21,0,0],"FLAG":0
 template_alt: '{"NAME":"Gosund WP6","GPIO":[0,0,0,17,0,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-Flashed OTA with tuya on 11.23.2020.  The current listed template did not work for me. 
+Flashed OTA with tuya on 11.23.2020.  The current listed template did not work for me.
+
+Purchased 4-pack from Amazon on 11/27/20 and flashed OTA using Tuya Convert 2.4.4. The first template (0,56,0,17...) worked well. ON: led blue, OFF: led red.
+
+
 
 
