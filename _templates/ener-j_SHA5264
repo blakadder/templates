@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-25
+title: Ener-J 
+model: SHA5264
+image: /assets/images/ener-j_SHA5264.jpg
+template9: '{"NAME":"ENER-J SHA5264","GPIO":[32,0,0,0,2720,2656,0,0,2624,288,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.ebay.co.uk/itm/392883841850
+link2: https://www.amazon.de/SMART-WiFi-Energy-Monitor-SHA5264/dp/B07RYY4346
+mlink: https://www.ener-j.co.uk/products/view/independent-wifi-iot-solutions/wifi-smart-plugs-with-energy-monitor-uk/99148
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---
+https://gist.github.com/en4rab/6bc83b2c9f850ea29eeaa5f1833a21fd

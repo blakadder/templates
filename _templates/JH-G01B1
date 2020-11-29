@@ -1,0 +1,16 @@
+---
+date_added: 2020-11-25
+title: JH-G01B1
+model: JH-G01B1
+image: /assets/images/JH-G01B1.jpg
+template: '{"NAME":"JH-G01B1","GPIO":[0,145,0,146,0,0,0,0,17,56,21,0,0],"FLAG":0,"BASE":41}' 
+link: https://www.amazon.de/gp/product/B07SPRNBL7
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+
+OEM plug model found under various brands

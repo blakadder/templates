@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-28
+title: Shelly 1L No Neutral
+model: 
+image: /assets/images/shelly_1L.jpg
+template9: '{"NAME":"Shelly 1L","GPIO":[320,0,0,0,192,224,0,0,0,0,193,0,0,4736],"FLAG":0,"BASE":18}' 
+link: https://shop.shelly.cloud/shelly-1l-bypass-wifi-smart-home-automation
+link2: 
+mlink: https://shelly.cloud/knowledge-base/devices/shelly-1l/
+flash: serial
+category: relay
+type: Switch
+standard: eu
+---
+![Pinout](https://shelly.cloud/wp-content/uploads/2020/10/gpio-1L.jpg)

@@ -1,6 +1,7 @@
 ---
 date_added: 2019-12-17
-title: Ener-J SHA5262 800lm
+title: Ener-J 800lm
+model: SHA5262
 link: https://www.amazon.co.uk/Bayonet-Dimmable-Bedroom-Changing-Controlled/dp/B0841HGK21
 image: https://www.ener-j.co.uk/assets/img/product/SHA5262_1.jpg
 template: '{"NAME":"ENER-J RGBWWW ","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 

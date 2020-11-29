@@ -1,0 +1,59 @@
+---
+date_added: 2020-11-27
+title: Smart Life / Tuya Smart Water Leak Flood Detector
+model: 
+image: /assets/images/
+template: '' 
+template9: '' 
+link: https://www.aliexpress.com/item/4001171066991.html
+link2: 
+mlink: 
+flash: serial
+category: sensor
+type: Sensor
+standard: global
+---
+"I bought this sensor off AliExpress.
+
+Warning: Wi-Fi sensors still have a slow response time compared to always on wired or zigbee ones. This will not work in critical locations where a fast response is needed. This sensor has the benefit of being rechargeable.
+
+## Flashing
+To have best results with this type of device, it was necessary to use the [tasmota-battery.bin binary](https://github.com/tasmota/binaries) (unofficial). Flash at your own risk.
+
+Flash using the TYWE3S pins but make sure the battery is disconnected and the MCU is grounded (short ground pad on PCB to TYWE3S ground. After flashing and configuring, you need to disconnect power from the serial-to-USB adapter and reconnect the battery and power the sensor with it.
+
+[comment]: <> (yellow = TXD, blue = RXD, black = GND, red = Vcc 3.3V, green=GND. The sensor's GND pad (green) must be connected to GND while powering up the chip for flashing!)
+
+## Configuration
+
+Change device to a TuyaMCU module.
+```console
+Module 54
+```
+Switch the device to battery powered sensor mode (fnId 51):
+```console
+TuyaMCU 51,51
+```
+Check with `TuyaMCU` for the following configuration:
+```json
+ {"TuyaMCU":[{"fnId":11,"dpId":1},{"fnId":51,"dpId":21}]}
+
+Set up WiFi and MQTT through the [web UI](https://tasmota.github.io/docs/WebUI/).
+
+## Functions
+When the sensor detects water, it lights up, boots up Tasmota, connects to wifi, and sends various MQTT messages.
+
+The MQTT message meaning water is something similar to `{"TuyaReceived":{"Data":"55AA0008001401010101000E2001040001010402000400000046A4","Cmnd":8,"CmndData":"01010101000E2001040001010402000400000046"}}`. It is recommended that in your home automation solution, you look for json containing `"Cmnd": "8"`. No message is sent upon no longer detecting water, so an auto-off delay is suggested.
+
+In Home Assistant, an example configuration looks like:
+```yaml
+binary_sensor:
+  - platform: mqtt
+    name: "Tasmota Water Leak Sensor"
+    state_topic: "tele/tasmota_83FF98/RESULT"
+    value_template: '{% if value_json["TuyaReceived"]["Cmnd"] == 8 %}ON{% else %}OFF{% endif %}'
+    off_delay: 7200
+    device_class: moisture
+```
+
+Sensor never sends the battery status message while in regular working mode. It is not transmitted when in detection mode so there is no realistic way to read battery data."

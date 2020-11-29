@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-27
+title: 3A 12W RGBW 
+model: 
+image: /assets/images/3a_RGBW.jpg
+template: '{"NAME":"RGBWSpot","GPIO":[0,0,0,0,37,40,0,0,38,50,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07XBSV647/
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Downlight
+standard: global
+---

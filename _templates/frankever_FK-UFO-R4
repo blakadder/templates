@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-27
+title: Frankever Smart Remote
+model: FK-UFO-R4
+image: /assets/images/frankever_FK-UFO-R4.jpg
+template9: '{"NAME":"FK-UFO-R4","GPIO":[1,1,1,1,288,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.aliexpress.com/item/4000183140469.html
+link2: https://www.amazon.com/dp/B07ZP5NQWF
+mlink: 
+flash: serial
+category: misc
+type: IR Bridge
+standard: global
+---
+This device is Very similar to YTF Universal Remote IR Bridge, but with the led not inverted.

@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-25
+title: Aisirer 10W 1000lm
+model: CBA60W-0047WBRG-E7
+image: /assets/images/aisirer_CBA60W-0047WBRG-E7.jpg
+template9: '{"NAME":"Aisirer RGBCW","GPIO":[160,0,0,0,0,0,0,0,0,4032,4064,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07S4C4488/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e14
+---
+Green and red channels are mixed up, use `SetOption37 24` in the console to fix

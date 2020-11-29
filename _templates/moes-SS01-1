@@ -1,13 +1,15 @@
 ---
-date_added: 2019-03-16
-title: Moes SS01-1 3-Way
+date_added: 2020-11-26
+title: Moes 3-Way
+model: SS01-1
 category: switch
 type: Switch
 standard: us
-link: https://www.amazon.com/Wireless-Control-Anywhere-Compatible-Function/dp/B07KQ876W7
+link: https://www.amazon.com/dp/B07KQ876W7
 image: https://user-images.githubusercontent.com/5904370/67770068-ee60db80-fa55-11e9-991e-445c3cb44df8.png
 template: '{"NAME":"Moes 3-Way","GPIO":[255,255,255,255,21,57,0,0,30,10,9,255,255],"FLAG":0,"BASE":18}' 
 link2: https://www.banggood.com/MoesHouse-3-Way-WiFi-Smart-Light-Switch-Light-Fan-Control-APP-Remote-Control-Works-with-Alexa-And-Google-Home-No-Hub-Required-p-1578982.html
+link3: https://www.amazon.ca/dp/B07JK7G74W/
 mlink: https://www.moeshouse.com/collections/us-smart-switch/products/3-way-wifi-smart-light-switch-double-control-light-fan-control-remote-control-works-with-alexa-and-google-home-no-hub-required
 ---
 To control the switch via MQTT you will need to monitor the Power1 state and send an ON/OFF as an event command.  
@@ -37,6 +39,17 @@ setoption32 7
   payload_available: "Online"
   payload_not_available: "Offline"
 ```
+
+## Alternative ruleset using conditional expressions
+
+```console
+Rule1 ON Switch2#State DO backlog rule2 0; IF ((Switch2#State==%value%) AND (Power1#State==%value%)) Power3 2 ENDIF; Power3 2; rule2 1 ENDON
+```
+```console
+Rule2 ON Power3#State DO backlog rule1 0; Power1 2; rule1 1 ENDON
+```
+
+This will provide a 3rd relay in Tasmota that will accurately track the STATE of the light. Using this information, be sure to name "FriendlyName3" and use that entity in Home Assistant to toggle/track the state of the light.
 
 
 
