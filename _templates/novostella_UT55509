@@ -15,3 +15,15 @@ standard: e27
 Model number on bulb: SQPA6012-A
 
 ![image](https://user-images.githubusercontent.com/5904370/72683690-bf4c8a00-3ad9-11ea-803c-9098c8e46a43.png)
+
+10 Devices bought on amazon.de in October 2020 all had the PSK-02 firmware and were not compatible with tuya-convert.
+
+## Serial Flashing
+**One of the more difficult bulbs as interconnect has to be desoldered**
+
+Diffusor can be pulled of after breaking the glue by turning it (no knife necessary), glue residue must be removed from in between housing and heatsink. 
+Two screws to remove and the interconnect between LED-PCB and Controller has to be desoldered. Afterwards, LED PCB can be pulled of.
+Heatsink can be removed by prying open using a small screwdriver in gap at the edge.
+Lots of white glue all over controll board, can be cut with sharp knive to pull out the PCB a tiny bit and get access to ESP (TYWE3L)
+To get more space, bottom of the bulb can be screwed lose - was easy on 1/4 bulbs, possible with decent force on 2/4 and impossible on 1/4 bulbs I tried. But even without there is just enough space to be able to solder.
+For reassamby, do the steps in reverse and resolder the inter PCB connector.
