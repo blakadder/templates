@@ -18,7 +18,9 @@ Model number on bulb: SQPA6012-A
 
 10 Devices bought on amazon.de in October 2020 all had the PSK-02 firmware and were not compatible with tuya-convert.
 
-Serial Flashing -- one of the more difficult bulbs as interconnect has to be desoldered
+## Serial Flashing
+**One of the more difficult bulbs as interconnect has to be desoldered**
+
 Diffusor can be pulled of after breaking the glue by turning it (no knife necessary), glue residue must be removed from in between housing and heatsink. 
 Two screws to remove and the interconnect between LED-PCB and Controller has to be desoldered. Afterwards, LED PCB can be pulled of.
 Heatsink can be removed by prying open using a small screwdriver in gap at the edge.
