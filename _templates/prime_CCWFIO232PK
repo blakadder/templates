@@ -14,5 +14,4 @@ standard: us
 ---
 Easy to open for serial flashing via labeled headers
 ---
-Models with date code 08/20 can no longer be flashed via tuya-convert. (see https://github.com/ct-Open-Source/tuya-convert/issues/483 and
-https://github.com/ct-Open-Source/tuya-convert/wiki/Collaboration-document-for-PSK-Identity-02)
+Models with date code 08/20 can no longer be flashed via [tuya-convert](https://github.com/ct-Open-Source/tuya-convert/wiki/Collaboration-document-for-PSK-Identity-02)
