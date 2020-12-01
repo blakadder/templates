@@ -31,6 +31,7 @@ b=""
 c=""
 d=0
 f=0
+g=""
 ;set the hex code below to the largest value possible that will turn off the relay with SerialSend5
 off=0x7f
 
@@ -43,6 +44,7 @@ rng-=off
 a=SerialReceived
 if sl(a)>0
 then
+g=sb(a 0 2)
 if sl(a)==47
 then
 b=sb(a -5 2)
@@ -50,12 +52,15 @@ else
 b=sb(a -8 2)
 endif
 a=""
+if g=="24"
+then
 f=hd(b)
 =>dimmer %f%
 slider=f
 dimval=slider
 =#scDim(dimval)
 =>SerialSend5 %dimh%
+endif
 else
 slider=Dimmer
 if chg[slider]>0
