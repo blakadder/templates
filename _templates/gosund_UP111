@@ -1,9 +1,9 @@
 ---
-date_added: 2020-11-21
+date_added: 2020-01-12
 title: Gosund 13A
 model: UP111
 image: /assets/images/gosund_UP111.jpg
-template: '{"NAME":"Gosund UP111","GPIO":[0,52,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Gosund UP111","GPIO":[0,320,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":18}' 
 link1: https://www.amazon.co.uk/gp/product/B07ZSDWQQ8
 link2: 
 mlink: 
