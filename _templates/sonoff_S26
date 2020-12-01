@@ -51,6 +51,18 @@ J10 - RX
 
 ![](https://user-images.githubusercontent.com/1029851/45257726-a2ab2880-b3a2-11e8-9cb8-5cc1d49225b2.png)
 
+### No Solder Connection
+With the help of some adhesive tape it is possible to achieve a flash without soldering.
+
+Hook your connecting wires/pins into the locations shown on the T1117A regulator - there is enough space under the SOT-223 package pins for a connection to be made. 
+Use some adhesive tape to hold these pins in place; it only needs to remain there for a few minutes. (Vout = 3v3, Pin 1 = GND)
+
+![](https://i.imgur.com/O8U6qhf.jpg)
+
+Flip the board on its side to expose the TX and RX pins. Follow steps 1-4 below, ignoring the TX/RX connection. Once in flash mode, hold the TX/RX pin connection in place with one hand and start the flash with the other! It looks messy with the tape in the below photo but means no soldering required.
+
+![](https://i.imgur.com/6FClKoW.jpg)
+
 ### Bringing the Module into Flash Mode
 
 1. Disconnect serial programmer and power
