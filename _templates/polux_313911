@@ -1,0 +1,37 @@
+---
+date_added: 2020-11-30
+title: Polux RGBCCT 20W 1700lm 5m  
+model: 313911
+image: /assets/images/polux_313911.jpg
+template9: '{"NAME":"Polux LED 5m","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.polux.sklep.pl/wi-fi-smart-led-tasma-5m-wwcw-rgb-20w-1700lm-funkcja-muzyczna-tuyasmart-p-1365.html
+link2: 
+mlink: https://www.polux.sklep.pl/wi-fi-smart-led-tasma-5m-wwcw-rgb-20w-1700lm-funkcja-muzyczna-tuyasmart-p-1365.html
+flash: serial
+category: light
+type: LED Strip
+standard: eu
+---
+Unfortunately the device comes with a newer Tuya firmware and tuya-convert does not work. One needs to disassemble the device and flash using serial method (soldering required).
+
+To flash it you need to open the bottom cover which is hold by plastic holders around the base. Use screwdriver to lift the bottom. Inside there is a TYWE3S module, and on the bottom side - a Tuya MCU (MS51FB9AE).
+
+MCU must be disabled while flashing by connecting RST and GND pads ![Pads are on bottom side, left top corner](https://drive.google.com/file/d/1KdzUIxaLFIV_wsBKYxmwqgGZstPagJG4/view "Bottom board with marked pads").
+
+Connect serial to TYWE3S pins on the top side, connect GPIO0 to GND and flash normally via serial. ![](https://drive.google.com/file/d/1FFJx2Jk7UrQ-zS5CUM7NPuFXZ8aO87Hw/view "Top side with marked pins").
+
+After flashing, set device to TuyaMCU (54) module and configure Tuya functions:
+
+```console
+Backlog TuyaMCU 11,20; TuyaMCU 26,21; TuyaMCU 21,22; TuyaMCU 23,23; TuyaMCU 24,24; DimmerRange 0,1000;
+```
+
+DpIds in my device are as follow:
+- 20 on/off
+- 21 mode enum; 0 - white, 1 - color, 2 and 3 - music (probably)
+- 22 white dimmer with 0-1000 range
+- 23 CCT, 0-1000 range; 0 is warm white, 1000 is cold white
+- 24 RGB (Type 1, `0HUE0SAT0BRI0`)
+- 25 unknown integer, does not seem to do anything
+
+Device is unable to turn on both white and color light. It seems that mode 2 and 3 are 'music' modes. Sometimes the device is flashing white light after connecting to power, Tasmota seems to be unavailable in this state (constantly reseting?).  Holding down the button for ~10s seems the device to some usable state. There are no other functions of the button (no toggle, no brightness, no mode changes - even on original tuya firmware).
