@@ -3,7 +3,7 @@ date_added: 2020-11-30
 title: Polux RGBCCT 20W 1700lm 5m  
 model: 313911
 image: /assets/images/polux_313911.jpg
-template9: '{"NAME":"Polux LED 5m","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+template9: '{"NAME":"Polux LED 5m","GPIO":[1,2272,1,2304,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
 link: https://www.polux.sklep.pl/wi-fi-smart-led-tasma-5m-wwcw-rgb-20w-1700lm-funkcja-muzyczna-tuyasmart-p-1365.html
 link2: 
 mlink: https://www.polux.sklep.pl/wi-fi-smart-led-tasma-5m-wwcw-rgb-20w-1700lm-funkcja-muzyczna-tuyasmart-p-1365.html
@@ -18,11 +18,9 @@ To flash it you need to open the bottom cover which is hold by plastic holders a
 
 MCU must be disabled while flashing by connecting RST and GND pads 
 
-![Pads are on bottom side, left top corner](https://drive.google.com/file/d/1KdzUIxaLFIV_wsBKYxmwqgGZstPagJG4/view)
+![Pads are on bottom side, left top corner](/assets/images/polux_313911_pinout.jpg)
 
 Connect serial to TYWE3S pins on the top side, connect GPIO0 to GND and flash normally via serial. 
-
-![Top side with marked pins](https://drive.google.com/file/d/1FFJx2Jk7UrQ-zS5CUM7NPuFXZ8aO87Hw/view)
 
 After flashing, set device to TuyaMCU (54) module and configure Tuya functions:
 
