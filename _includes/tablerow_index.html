@@ -1,7 +1,7 @@
 <tr>
     <td style="width: 20%"><a href="{{site.baseurl}}{{ template.url }}"><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;"></a></td>
     <td><b><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }}
-        {% if template.template9 != nil %}{% include pow-table.html %}
+        {% include pow-table.html %}
         {{ template.type | replace: "Miscellaneous", "" }}        
         {% if template.category contains 'bulb'%}
         Bulb

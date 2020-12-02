@@ -2,6 +2,7 @@
   <td style="width: 20%;"><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;"></td>
   <td><b><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }} {% include pow-table.html %}
     {{ template.type }}
+    {{ template.type | replace: "Miscellaneous", "" }}        
     {% if template.category contains 'bulb'%}
     Bulb
     {% endif %}
