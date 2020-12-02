@@ -13,7 +13,7 @@ type: Kettle
 standard: au
 ---
 ## Flashing
-Flashing is fairly straightforward.  Just open it up, and solder the TX, RX, GND and VCC wires for your FTDI flash.  **Note that you must use 3.3v.**
+Flashing is fairly straightforward.  Just open it up, and solder the IO0, TX, RX, GND and VCC wires for your FTDI flash.  IO0 must be connected to ground for flash mode, and can be left connected during the entire procedure.  **Note that you must use 3.3v.**
 
 I didn't need to isolate or disable the MCU but, if your experience differs, it's easily accessible on the opposite side of the board.
 
