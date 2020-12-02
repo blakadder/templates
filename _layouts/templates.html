@@ -5,12 +5,7 @@ layout: default
 
 <div class="row">
   <div class="column">
-    <span style="font-size: xx-large; font-weight: 400; letter-spacing: -.1rem;">{{ page.title }}
-      {% assign template = page.template | split: ':' %}
-      {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-      {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
- Power Monitoring
- {% endif %}
+    <span style="font-size: xx-large; font-weight: 400; letter-spacing: -.1rem;">{{ page.title }} {% include pow.html %}
  {{ page.type | replace: "Miscellaneous", "" }}        
  {% if page.category contains 'bulb'%}
  Bulb
@@ -124,7 +119,7 @@ layout: default
 
   {% if page.flash == 'preflashed' %}
   This device comes with <b>Tasmota pre-flashed</b> straight from the factory!
-  <br>
+  <br><br>
   <p>
   {% endif %}
 
@@ -133,7 +128,7 @@ layout: default
   {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
 
   For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
-  <br>
+  <br><br>
   <p>
   {% endif %}
   
@@ -142,37 +137,38 @@ layout: default
   {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '5056' %}
 
   For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
-  <br>
+  <br><br>
   <p>
   {% endif %}
   {% if page.type contains 'Curtain Switch' %}
   Requires configuring <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support</a>.
-  <br>
+  <br><br>
   <p>
   {% endif %}
 
   {% if page.template contains '"BASE":73' %}
   Requires enabled <a href="https://tasmota.github.io/docs/PWM-dimmer-switch/">PWM Dimmer support</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
-  <br>
+  <br><br>
   <p>
   {% endif %}
 
   {% if page.type contains 'RGBW' %}
   See <a href="https://tasmota.github.io/docs/Lights/#4-channels-rgbw-lights">Tasmota documentation</a> on how to configure RGBW lights to your needs. 
-  <br>
+  <br><br>
   <p>
   {% endif %}
 
   {% if page.flash == 'tuya-convert' %}
   Tuya-Convert might not be possible for this device if the manufacturer started using <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">newest Tuya firmware</a> since this template was published ({{ page.date_added  }}). 
-  <br>
+  <br><br>
   <p>
   {% endif %}
 
   {% if page.title contains 'Teckin' or page.title contains 'Lumiman' %}
   <b>NOTICE!!!</b> Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore.<p>  
-    <br>
-    {% endif %}
+  <br><br>
+  <p>
+  {% endif %}
 
   {% if page.title contains 'Athom' %}
   <strong>Use code <code>BLAKADDER2</code> when buying from Aliexpress links for a 10% discount. Code is valid until December 31st and the number of code uses is limited to 500.</strong>
@@ -183,12 +179,12 @@ layout: default
   
   {% if page.title contains 'LoraTap' %}
   <strong>WARNING!</strong> LoraTap is using ESP8266 and Realtek Wi-Fi modules on same model devices. Check seller descriptions or contact them before buying! 
-  <p>
+  <br><br><p>
   {% endif %}
 
   {% if page.title contains 'Lerlink' %}
   Manufactured by Lerlink but found under different brands (Lonsonho, Zemismart, Moes, etc)
-  <p>
+  <br><br><p>
   {% endif %}
   
   {{ content | markdownify }} 
