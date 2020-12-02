@@ -1,0 +1,70 @@
+---
+date_added: 2020-12-02
+title: K-Mart 1.7L Cordless Water
+model: LD-K3068
+image: /assets/images/anko_LD-K3068.jpg
+template9: '{"NAME":"Anko Kettle","GPIO":[1,1,1,1,1,1,0,0,1,2304,1,2272,1,0],"FLAG":0,"BASE":54}' 
+link: https://www.kmart.com.au/product/1.7l-smart-variable-temperature-kettle/3212302
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: Kettle
+standard: au
+---
+![LD-K3068](/assets/images/LD-K3068.jpg)
+
+## Flashing
+Flashing is fairly straightforward.  Just open it up, and solder the TX, RX, GND and VCC wires for your FTDI flash.  **Note that you must use 3.3v.**
+
+I didn't need to isolate or disable the MCU but, if your experience differs, it's easily accessible on the opposite side of the board.
+
+Also of note: The flash worked perfectly, but I couldn't power the chip from my FTDI adapter.  So you will need to put it back together before seeing the Tasmota Access Point appear.
+
+![Pins for flashing](/assets/images/LD-K3068-flash.jpg)
+
+## MCU Functions
+My use of this kettle is pretty straightforward, so I haven't explored the 'keep warm' settings.  They do look fully exposed, so it will just take some more experimentation.  I'll try to get back to this.
+
+`dpid1` is the relay.  You can toggle it, but it will only heat to the temperature set.
+`dpid2` reports current temperature in Celcius.
+`dpid4` sets the target boil temperature.  ``fnid 0`` = 80, `1` = 85, `2` = 90, `3` = 95, `4` = 100.
+`dpid15` seems to report current status.  `1` is boiling, and `3` is maintaining temperature.
+
+## Home Assistant Integration
+The [ProfiCook](https://templates.blakadder.com/proficook_PC-WKS_1167.html) profile has some great Home Assistant automation guidance.  To get you started, `SetOption66 1` and `SetOption19 1`, then the temperature can be reported via:
+
+```YAML
+  - platform: mqtt
+    name: "Kettle Temperature"
+    state_topic: "tele/kettle/RESULT"
+    value_template: >
+      {% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpType2Id2 is defined %}
+        {{ value_json['TuyaReceived'].DpType2Id2 }}
+      {% else %}
+        {{ states('sensor.kettle_temperature') }}
+      {% endif %}
+    unit_of_measurement: "°C"
+    availability_topic: "tele/kettle/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    device_class: temperature
+```
+
+You can call the kettle to boil via 
+```YAML
+switch:
+  - platform: mqtt
+    name: "Kettle"
+    state_topic: "tele/kettle/RESULT"
+    state_on: "ON"
+    state_off: "OFF"
+    command_topic: "cmnd/kettle/TuyaSend4"
+    payload_on: "4,4"
+    payload_off: "1,0"
+    availability_topic: "tele/kettle/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    retain: false
+    icon: mdi:kettle
+```"
