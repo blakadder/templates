@@ -34,7 +34,8 @@ My use of this kettle is pretty straightforward, so I haven't explored the 'keep
 ## Home Assistant Integration
 The [ProfiCook](https://templates.blakadder.com/proficook_PC-WKS_1167.html) profile has some great Home Assistant automation guidance.  To get you started, `SetOption66 1` and `SetOption19 1`, then the temperature can be reported via:
 
-```YAML
+{% highlight yaml %}
+{% raw %}
   - platform: mqtt
     name: "Kettle Temperature"
     state_topic: "tele/kettle/RESULT"
@@ -49,10 +50,12 @@ The [ProfiCook](https://templates.blakadder.com/proficook_PC-WKS_1167.html) prof
     payload_available: "Online"
     payload_not_available: "Offline"
     device_class: temperature
-```
+{% endraw %}
+{% endhighlight %}
 
 You can call the kettle to boil via 
-```YAML
+{% highlight yaml %}
+{% raw %}
 switch:
   - platform: mqtt
     name: "Kettle"
@@ -67,4 +70,5 @@ switch:
     payload_not_available: "Offline"
     retain: false
     icon: mdi:kettle
-```"
+{% endraw %}
+{% endhighlight %}
