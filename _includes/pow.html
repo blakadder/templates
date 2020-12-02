@@ -1,13 +1,13 @@
 {% if page.template9 != nil %}
 {% assign template9 = page.template9 | split: ':' %}
 {% assign gpios = template9[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-{% include pow-if9.html %}
+{% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '5056' %}
 Power Monitoring
 {% endif %}
 {% else %}
 {% assign template = page.template | split: ':' %}
 {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-{% include pow-if.html %}
+{% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
 Power Monitoring
 {% endif %}
 {% endif %}
