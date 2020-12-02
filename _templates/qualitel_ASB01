@@ -3,7 +3,7 @@ date_added: 2020-11-27
 title: Qualitel Breaker
 model: ASB01
 image: /assets/images/qualitel_ASB01.jpg
-template9: '{"NAME":"Qualitel Smart Switch","GPIO":[0,0,0,0,224,0,0,0,32,320,288,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Qualitel Smart Switch","GPIO":[0,0,0,0,224,0,0,0,32,321,288,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.takealot.com/wifi-smart-switch/PLID54526257
 link2: 
 mlink: https://www.qualitel.co.za/product/asb01-smart-wifi-breaker/
