@@ -6,15 +6,15 @@
           {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
           {% for gpio in gpios %}
         <tr>
-            <td>GPIO{% if forloop.index == 7 %}09
-                {% elsif forloop.index == 8 %}10   
-                {% elsif forloop.index == 9 %}12
-                {% elsif forloop.index == 10 %}13
-                {% elsif forloop.index == 11 %}14
-                {% elsif forloop.index == 12 %}15
-                {% elsif forloop.index == 13 %}16
-                {% elsif forloop.index == 14 %}A0
-                {% else %}{{ forloop.index0 | prepend: '0' }} 
+            <td>{% if forloop.index == 7 %}GPIO09
+                {% elsif forloop.index == 8 %}GPIO10   
+                {% elsif forloop.index == 9 %}GPIO12
+                {% elsif forloop.index == 10 %}GPIO13
+                {% elsif forloop.index == 11 %}GPIO14
+                {% elsif forloop.index == 12 %}GPIO15
+                {% elsif forloop.index == 13 %}GPIO16
+                {% elsif forloop.index == 14 %}ADC0
+                {% else %}{{ forloop.index0 | prepend: 'GPI0' }} 
                 {% endif %}
             </td>
             <td>
