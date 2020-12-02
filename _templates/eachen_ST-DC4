@@ -26,12 +26,28 @@ standard: [global]
   - Check **Erase before flashing**.  
 - Connect [USB to serial](https://www.amazon.com/gp/product/B07WX2DSVB/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) interface from computer to board with **3v** jumper selected.  
     - Connect to board as follows.  
-    |USB Adapter|Eachen Board|
-    |-|:-:|
-    |VCC|V|
-    |GND|G|
-    |TXD|R|
-    |RXD|T|
+<table>
+  <tr>
+    <th>USB Adapter</th>
+    <th>Eachen Board</th>
+  </tr>
+  <tr>
+    <td>VCC</td>
+    <td>V</td>
+  </tr>
+  <tr>
+    <td>GND</td>
+    <td>G</td>
+  </tr>
+  <tr>
+    <td>TXD</td>
+    <td>R</td>
+  </tr>
+  <tr>
+    <td>RXD</td>
+    <td>T</td>
+  </tr>
+</table>
 - Power up the Eachen Relay board with the **#1 Relay button** held down.
 - Continue holding the **#1 Relay button** down during the entire flashing process.
 - Hit blue **Tasmotize!** button in Tasmotizer.
