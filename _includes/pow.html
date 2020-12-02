@@ -1,5 +1,5 @@
 {% if page.template9 != nil %}
-{% assign template = page.template | split: ':' %}
+{% assign template = page.template9 | split: ':' %}
 {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
 {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '5056' %}
 Power Monitoring
