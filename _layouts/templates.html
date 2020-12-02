@@ -122,14 +122,8 @@ layout: default
   <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
   {% endif %}
 
-  {% if page.flash == 'tuya-convert' %}
-  Tuya-Convert might not be possible for this device if the manufacturer started using <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">newest Tuya firmware</a> since this template was published ({{ page.date_added  }}). 
-  <p>
-  {% endif %}
-
   {% if page.flash == 'preflashed' %}
   This device comes with <b>Tasmota pre-flashed</b> straight from the factory!
-  <br>
   <br>
   <p>
   {% endif %}
@@ -142,7 +136,15 @@ layout: default
   <br>
   <p>
   {% endif %}
+  
+  {% assign templat9 = page.template9 | split: ':' %}
+  {% assign gpios = templat9[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+  {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '5056' %}
 
+  For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
+  <br>
+  <p>
+  {% endif %}
   {% if page.type contains 'Curtain Switch' %}
   Requires configuring <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support</a>.
   <br>
@@ -156,7 +158,13 @@ layout: default
   {% endif %}
 
   {% if page.type contains 'RGBW' %}
-  See <a href="https://tasmota.github.io/docs/Lights/#4-channels-rgbw-lights">documentation</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
+  See <a href="https://tasmota.github.io/docs/Lights/#4-channels-rgbw-lights">Tasmota documentation</a> on how to configure RGBW lights to your needs. 
+  <br>
+  <p>
+  {% endif %}
+
+  {% if page.flash == 'tuya-convert' %}
+  Tuya-Convert might not be possible for this device if the manufacturer started using <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">newest Tuya firmware</a> since this template was published ({{ page.date_added  }}). 
   <br>
   <p>
   {% endif %}
