@@ -16,9 +16,13 @@ Unfortunately the device comes with a newer Tuya firmware and tuya-convert does 
 
 To flash it you need to open the bottom cover which is hold by plastic holders around the base. Use screwdriver to lift the bottom. Inside there is a TYWE3S module, and on the bottom side - a Tuya MCU (MS51FB9AE).
 
-MCU must be disabled while flashing by connecting RST and GND pads ![Pads are on bottom side, left top corner](https://drive.google.com/file/d/1KdzUIxaLFIV_wsBKYxmwqgGZstPagJG4/view "Bottom board with marked pads").
+MCU must be disabled while flashing by connecting RST and GND pads 
 
-Connect serial to TYWE3S pins on the top side, connect GPIO0 to GND and flash normally via serial. ![](https://drive.google.com/file/d/1FFJx2Jk7UrQ-zS5CUM7NPuFXZ8aO87Hw/view "Top side with marked pins").
+![Pads are on bottom side, left top corner](https://drive.google.com/file/d/1KdzUIxaLFIV_wsBKYxmwqgGZstPagJG4/view)
+
+Connect serial to TYWE3S pins on the top side, connect GPIO0 to GND and flash normally via serial. 
+
+![Top side with marked pins](https://drive.google.com/file/d/1FFJx2Jk7UrQ-zS5CUM7NPuFXZ8aO87Hw/view)
 
 After flashing, set device to TuyaMCU (54) module and configure Tuya functions:
 
