@@ -1,11 +1,11 @@
-{% if page.template9 != nil %}
-{% assign template9 = page.template9 | split: ':' %}
+{% if template.template9 != nil %}
+{% assign template9 = template.template9 | split: ':' %}
 {% assign gpios = template9[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
 {% include pow-if9.html %}
 Power Monitoring
 {% endif %}
 {% else %}
-{% assign template = page.template | split: ':' %}
+{% assign template = template.template | split: ':' %}
 {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
 {% include pow-if.html %}
 Power Monitoring
