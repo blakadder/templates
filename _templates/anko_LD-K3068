@@ -12,8 +12,6 @@ category: misc
 type: Kettle
 standard: au
 ---
-![LD-K3068](/assets/images/LD-K3068.jpg)
-
 ## Flashing
 Flashing is fairly straightforward.  Just open it up, and solder the TX, RX, GND and VCC wires for your FTDI flash.  **Note that you must use 3.3v.**
 
