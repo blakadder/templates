@@ -11,4 +11,7 @@ link2: https://www.amazon.de/dp/B07XRY1K7V/
 mlink: https://shelly.cloud/documents/user_guide/shelly_dimmer.pdf
 ---
 
-Supported in Tasmota 9.1.0.2+
+**Supported since Tasmota 9.1.0.2+**
+
+After flashing Tasmota use the *Firmware upgrade - File upload* menu to flash the **required** STM32 firmware (provided in [tools/fw_ShellyDimmer_stm32](https://github.com/arendst/Tasmota/tree/development/tools/fw_ShellyDimmer_stm32) folder) to the MCU. 
+
