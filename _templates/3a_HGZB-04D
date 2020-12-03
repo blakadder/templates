@@ -5,9 +5,10 @@ model: HGZB-04D
 image: /assets/images/3a_HGZB-04D.jpg
 template: '{"NAME":"HGZB-4D","GPIO":[255,255,255,255,255,255,0,0,255,255,54,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com.au/3A-Switch-Dimmer-Controller-Downlight/dp/B07FL1886W
-link2: 
+link2: https://www.ebay.com.au/itm/WiFi-Smart-Light-Switch-Dimmer-GPO-for-Normal-Switch-Home-Automation-Voice-Con/184373332905
+link3:
 mlink: https://3asmarthome.com/
-flash: tuya-convert
+flash: serial
 category: switch
 type: Dimmer
 standard: au
@@ -20,3 +21,26 @@ TuyaMCU 21,2
 ```console
 DimmerRange 11,255
 ```
+
+## Serial Flashing
+
+If Tuya-Convert isn't working for you, you can flash it over a serial link as described on
+[Tasmota - Getting Started](https://tasmota.github.io/docs/Getting-Started/)
+
+To do so you do need to solder on some cables to allow connecting your flashing tool / software of choice.
+
+This Dimmer switch uses a secondary control chip (8s003f3p6) and it communicates with the main control chip (TYWE3S)
+using the same connections used for flashing Tasmota. Therefore we have to temporarily disable the secondary control
+chip by connecting its NRST line to GND
+For more information check out the [datasheet for 8s003f3p6](http://www.datasheetcafe.com/bs003f3p6-datasheet-8s003f3p6-microcontroller/)
+Here is an image of how I've done that:
+![](https://i.imgur.com/BDKKM0I.jpeg)
+
+Next step is to connect the serial connection (RX, TX), and GND and 3V3 (VCC) for the serial connection as per image below.
+Note, you also need to connect GPIO0 to GND to put the TYWE3S chip into programming mode.
+
+After that follow the guide linked above to flash Tasmota.
+
+
+Credit for the information goes to [HoustonAU](https://community.home-assistant.io/t/3a-wi-fi-smart-light-dimmer-switch-flashing-with-tasmota/234472/2?u=faramir)
+on the Home Assistant Forum.
