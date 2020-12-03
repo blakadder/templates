@@ -455,22 +455,30 @@
                 Zigbee Reset 
                 {% when "5344" %}
                 DYP Rx 
+                {% when "5568" %}
+                SHD Boot 0 
+                {% when "5600" %}
+                SHD Reset
+                {% when "3840" %}
+                Output Hi
+                {% when "3872" %}
+                Output Lo
                 {% when "4704" %}
-                Analog
+                ADC Input
                 {% when "4736" %}
-                Temperature
+                ADC Temperature
                 {% when "4768" %}
-                Illuminance
+                ADC Illuminance
                 {% when "4800" %}
-                Button
+                ADC Button
                 {% when "4832" %}
-                Buttoni
+                ADC Buttoni
                 {% when "4864" %}
                 Range
                 {% when "4896" %}
-                CT Power
+                ADC CT Power
                 {% when "3328" %}
-                Joystick
+                ADC Joystick
                 {% else %}
                 Missing
                 {% endcase %}
