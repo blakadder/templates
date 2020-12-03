@@ -1,0 +1,16 @@
+---
+date_added: 2020-12-03
+title: Shelly UNI
+model: 
+image: /assets/images/shelly_UNI.jpg
+template9: '{"NAME":"Shelly Uni","GPIO":[320,0,0,0,225,0,0,0,192,193,0,224,0,4864],"FLAG":0,"BASE":18}' 
+link: https://shop.shelly.cloud/shelly-uni-wifi-smart-home-automation
+link2: 
+mlink: https://shelly.cloud/products/shelly-uni-smart-home-automation-device/
+flash: serial
+category: misc
+type: DIY
+standard: global
+---
+
+Was unable to locate the GPIO pin for the DS18B20/DHT22 sensor, but the rest is working
