@@ -8,7 +8,7 @@ link: https://www.amazon.com.au/3A-Switch-Dimmer-Controller-Downlight/dp/B07FL18
 link2: https://www.ebay.com.au/itm/WiFi-Smart-Light-Switch-Dimmer-GPO-for-Normal-Switch-Home-Automation-Voice-Con/184373332905
 link3:
 mlink: https://3asmarthome.com/
-flash: tuya-convert or Serial port
+flash: serial
 category: switch
 type: Dimmer
 standard: au
@@ -22,10 +22,11 @@ TuyaMCU 21,2
 DimmerRange 11,255
 ```
 
----
+## Serial Flashing
 
 If Tuya-Convert isn't working for you, you can flash it over a serial link as described on
 [Tasmota - Getting Started](https://tasmota.github.io/docs/Getting-Started/)
+
 To do so you do need to solder on some cables to allow connecting your flashing tool / software of choice.
 
 This Dimmer switch uses a secondary control chip (8s003f3p6) and it communicates with the main control chip (TYWE3S)
