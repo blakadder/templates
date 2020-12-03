@@ -3,7 +3,7 @@ date_added: 2020-10-26
 title: DS-121 2 Gang No Neutral
 model: 
 image: /assets/images/DS-121_2.jpg
-template: '{"NAME":"2 Gang Switch","GPIO":[0,57,0,17,22,18,0,0,0,21,56,0,0],"FLAG":0,"BASE":18}'
+template: '{"NAME":"2 Gang Switch","GPIO":[158,57,0,17,22,18,0,0,0,21,56,0,0],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/1005001392163307.html
 link2: 
 mlink: 
