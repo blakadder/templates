@@ -1,6 +1,7 @@
 ---
 date_added: 2019-10-29
-title: Arlec Smart PB88UHA
+title: Arlec Smart 
+model: PB88UHA
 image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rackcdn.com/Product-1600x1600/b6609933-ba09-4320-b8f9-ec95db6b7575.jpg
 mlink:
 category: plug
@@ -22,7 +23,7 @@ To do so you do need to open up the power strip and solder on some cables to all
 tool / software of choice. You will need a triangular screw driver as the cover is screwed on with with screws as in the picture below:
 ![](/assets/images/arlec_PB88UHA_screws.jpg)
 
-!!! Please ensure the power strip is not plugged into mains power while soldering on flashing. !!!
+***Please ensure the power strip is not plugged into mains power while soldering on flashing!!!***
 
 This  power strip uses a TYWE2S chip-set.
 For more information check out the [datasheet for TYWE2S](https://developer.tuya.com/en/docs/iot/device-development/module/wifi-module/we-series-module/wifie2smodule?id=K9605u79tgxug)
