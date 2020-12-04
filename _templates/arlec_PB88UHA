@@ -5,7 +5,7 @@ image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rac
 mlink:
 category: plug
 type: Power Strip
-flash: tuya-convert
+flash: serial
 standard: au
 template: '{"NAME":"Arlec PB88UHA","GPIO":[0,56,0,17,22,21,0,0,24,23,0,0,0],"FLAG":15,"BASE":18}'
 link: https://www.bunnings.com.au/arlec-4-outlet-smart-powerboard-with-usb-charger-and-grid-connect_p0074829
@@ -13,9 +13,28 @@ link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-4-outlet-powerboard-w
 ---
 
 
+## Serial Flashing
 
+If Tuya-Convert isn't working for you, you can flash it over a serial link as described on
+[Tasmota - Getting Started](https://tasmota.github.io/docs/Getting-Started/)
 
+To do so you do need to open up the power strip and solder on some cables to allow connecting your flashing
+tool / software of choice. You will need a triangular screw driver as the cover is screwed on with with screws as in the picture below:
+![](/assets/images/arlec_PB88UHA_screws.jpg)
 
+!!! Please ensure the power strip is not plugged into mains power while soldering on flashing. !!!
 
+This  power strip uses a TYWE2S chip-set.
+For more information check out the [datasheet for TYWE2S](https://developer.tuya.com/en/docs/iot/device-development/module/wifi-module/we-series-module/wifie2smodule?id=K9605u79tgxug)
 
+The TYWE2S can be found in the circled location contained on a small daughter PCB soldered onto the main board of the power strip.
+![](/assets/images/arlec_PB88UHA_location.jpg)
 
+Next step is to connect the serial connection (RX, TX), and GND and 3V3 (VCC) for the serial connection as per image below.
+Note, you also need to connect GPIO0 to GND to put the TYWE2S chip into programming mode. GPIO0 is exposed on the
+easily accessible side of the TWYE2S and is labeled on the PCB IO0.
+
+Here is an image of how I soldered on fly leads for the serial connection on my power strip:location:
+![](/assets/images/arlec_PB88UHA_tywe2s.jpg)
+
+After that follow the guide linked above to flash Tasmota.
