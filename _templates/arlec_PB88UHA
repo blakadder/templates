@@ -27,7 +27,7 @@ tool / software of choice. You will need a triangular screw driver as the cover 
 This  power strip uses a TYWE2S chip-set.
 For more information check out the [datasheet for TYWE2S](https://developer.tuya.com/en/docs/iot/device-development/module/wifi-module/we-series-module/wifie2smodule?id=K9605u79tgxug)
 
-The TYWE2S can be found in the circled location soldered onto the main board of the power strip.
+The TYWE2S can be found in the circled location contained on a small daughter PCB soldered onto the main board of the power strip.
 ![](/assets/images/arlec_PB88UHA_location.jpg)
 
 Next step is to connect the serial connection (RX, TX), and GND and 3V3 (VCC) for the serial connection as per image below.
