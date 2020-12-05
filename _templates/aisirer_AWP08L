@@ -17,4 +17,4 @@ standard: eu
 How to [open the plug](https://blakadder.com/disassembling-CN39/)
 
 Pinout for serial flashing:
-![Ping-out](https://raw.githubusercontent.com/blakadder/templates/master/assets/images/AWP08L_flash_pinout.jpg)
+![Pinout](/assets/images/AWP08L_flash_pinout.jpg)
