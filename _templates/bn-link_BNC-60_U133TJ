@@ -32,3 +32,7 @@ soldered to the TYWE2S edge solder points. Grounding GPIO0 to put the TYWE2S int
 flash mode is accomplished by grounding the TYWE2S test pad IO0. The TYWE2S board
 is mounted to the main pcb board so that the side having the test pads faces
 inside towards other components. Thus access to test pad IO0 is quite awkward. 
+
+NOTE: Device purchased in November 2020 required connecting TX-TX and RX-RX. Worth
+a shot if your espTool or Tasmotizer is timing out waiting for the device when you're
+doing TX-RX & RX-TX like normal.
