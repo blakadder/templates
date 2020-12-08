@@ -42,14 +42,14 @@ return msg;
 ```
 
 6. The output code will be something like this. For example for a door or motion sensor
-055B010100 - Sensor idle
-055B010101 - Sensor triggered
-0564020400000064 - Battery level 100% (64 in hex)
+* 055B010100 - Sensor idle
+* 055B010101 - Sensor triggered
+*0564020400000064 - Battery level 100% (64 in hex)
 
 For the battery level for example
-05 identifies the device number
-640204 identifies the DPID
-00000064 identifies the data
+* 05 identifies the device number
+* 640204 identifies the DPID
+* 00000064 identifies the data
 
 # Method 2 - All TuyaReceive Data
 
@@ -57,7 +57,7 @@ This method will send all TuyaReceived messaages to MQTT for processing by Node 
 
 4. Goto the Tasmota console and issue the following command:
 
-```
+```console
 SetOption66 1
 ```
 
@@ -134,7 +134,7 @@ return [mqttMessage,debugMessage];
 8. Create an "Debug" node. Connect it to the bottom "Dot" on the Function node.
 9. The following can be used to create the home assistant sensors
 
-```
+```yaml
 binary_sensor:
   - platform: mqtt
     unique_id: patio_door
