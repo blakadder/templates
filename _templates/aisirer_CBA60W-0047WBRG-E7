@@ -10,6 +10,9 @@ mlink:
 flash: serial
 category: bulb
 type: RGBCCT
-standard: e14
+standard: e27
 ---
+## Warning
+Manufacturer has started using the WB3L. Flashing Tasmota is not possible anymore. Device is hard to impossible to open since the bulb has a solid matal body inside.
+
 Green and red channels are mixed up, use `SetOption37 24` in the console to fix
