@@ -1,0 +1,19 @@
+---
+date_added: 2020-12-06
+title: C119
+model: C119
+image: /assets/images/C119.jpg
+template9: '{"NAME":"Subosi C119","GPIO":[0,0,0,0,225,320,0,0,224,544,32,0,321,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07KYL7DKH/
+link2: https://www.aliexpress.com/item/32967656648.html
+mlink: 
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: eu
+---
+Subosi Outdoor Plug with two sockets and three LEDs (Red, Blue, Green).
+
+Device can be flashed using TYWE3S flashing ([pinout](https://tasmota.github.io/docs/devices/TYWE3S/))
+
+GPIO0 can be kept grounded during complete flash procedure

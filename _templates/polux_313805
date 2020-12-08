@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-07
+title: Polux 5.5W 400lm
+model: 313805
+image: /assets/images/polux_313805.jpg
+template9: '{"NAME":"Polux GU10","GPIO":[0,0,0,0,0,0,0,0,4064,0,4032,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.polux.sklep.pl/wi-fi-smart-led-zarowka-gu10-5-5w-400lm-wwcw-rgb-tuyasmart-p-1374.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: gu10
+---

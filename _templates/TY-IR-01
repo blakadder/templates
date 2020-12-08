@@ -1,0 +1,26 @@
+---
+date_added: 2020-12-06
+title: TY-IR-01
+model: TY-IR-01
+image: /assets/images/TY-IR-01.jpg
+template9: '{"NAME":"TY-IR-01 IR Bridge","GPIO":[1,1,1,1,288,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.amazon.com/dp/B08H8BM7D4
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: IR Bridge
+standard: global
+---
+Disassembly:  Remove cover by separating bottom using a old gift card or flat head screw driver. Nothing is glued, just held in place by plastic clips.
+
+Flashed by using FTDI serial connection. 
+
+TWYES3 pinout [https://tasmota.github.io/docs/devices/TYWE3S/]
+
+Board images:
+[1](https://imgur.com/G7I9T9m)
+[2]https://imgur.com/ekD9j8h)
+[3]https://imgur.com/DElncfA)
+[4]https://imgur.com/2ipotWl)
+[5]https://imgur.com/RVgYA2E)

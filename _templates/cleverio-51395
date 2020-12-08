@@ -4,10 +4,19 @@ title: Cleverio 51395 806lm
 link: https://www.kjell.com/no/produkter/smarte-hjem/smartbelysning/cleverio-smarte-paere/cleverio-smart-e27-rgb-led-paere-806-lm-p51395
 image: /assets/images/cleverio-51395.jpg
 template: '{"NAME":"CleverioE27RGB","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"CleverioE27RGB","GPIO":[0,0,0,0,2944,2912,0,0,417,2976,416,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: 
-flash: tuya-convert
+flash: serial
 category: bulb
 type: RGBCCT
 standard: e27
 ---
+
+[TYLC6E](https://developer.tuya.com/en/docs/iot/device-development/module/wifi-module/lc-series-module/tylc6e?id=K97ottlp983f2) is the controlled used in the device.
+
+To flash it, you will need to solder wires onto the solder pads labeled "RX", "TX", "IO0", "3V3" and "GND".
+"IO0" needs to be grounded for the device to enter flashing mode.
+
+Also, this device does not use SM16716 LED driver, but uses BP5778 and therefore uses PWM channels for all the colors + whites.
+`SetOption68 1` will have to be used to enable separate PWM control.

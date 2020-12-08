@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-07
+title: Connect SmartHome Dual USB
+model: CSH-PLGUSB
+image: /assets/images/connect_smarthome_CSH-PLGUSB.jpg
+template9: '{"NAME":"CSH-PLGUSB","GPIO":[0,0,0,32,0,0,0,0,0,320,224,0,0,0],"FLAG":0,"BASE":52}' 
+link: https://www.harveynorman.com.au/connect-smart-wifi-plug-with-dual-usb-charging-port.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: au
+---

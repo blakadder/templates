@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-07
+title: Alfawise 
+model: PE1606
+image: /assets/images/alfawise_PE1606.jpg
+template: '{"NAME":"PE1606","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.gearbest.com/smart-socket-plug/pp_009171890491.html?wid=1433363
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
