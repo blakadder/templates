@@ -1,0 +1,21 @@
+---
+date_added: 2020-12-10
+title: SP501E WS2812B Addressable 
+model: SP501E
+image: /assets/images/SP501E.jpg
+template9: '{"NAME":"SP501E","GPIO":[1,32,1,1376,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000143872368.html
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+## Serial Flashing
+
+Connect to marked pins, ground IO0 during boot. 
+
+![Pinout](/assets/images/SP501E_pinout.jpg)
+
+![Package](/assets/images/SP501E_package.jpg)
