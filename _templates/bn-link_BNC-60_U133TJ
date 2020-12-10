@@ -33,6 +33,9 @@ flash mode is accomplished by grounding the TYWE2S test pad IO0. The TYWE2S boar
 is mounted to the main pcb board so that the side having the test pads faces
 inside towards other components. Thus access to test pad IO0 is quite awkward. 
 
-NOTE: Device purchased in November 2020 required connecting TX-TX and RX-RX. Worth
+NOTE: 
+Device purchased in November 2020 required connecting TX-TX and RX-RX. Worth
 a shot if your espTool or Tasmotizer is timing out waiting for the device when you're
 doing TX-RX & RX-TX like normal.
+
+4-pack device purchased 2nd week of December 2020 from Amazon US now uses WBS2 daughterboard and not compatible with Tasmota.
