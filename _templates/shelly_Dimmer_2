@@ -4,6 +4,7 @@ title: Shelly Dimmer 2
 category: relay
 type: Dimmer
 standard: global
+flash: mgos
 image: /assets/images/shelly_Dimmer_2.jpg
 template9: '{"NAME":"Shelly Dimmer 2","GPIO":[0,3200,0,3232,5568,5600,0,0,193,0,192,0,320,4736],"FLAG":0,"BASE":18}'
 link: https://www.amazon.de/dp/B081FH1Z8Y/
