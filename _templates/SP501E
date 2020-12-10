@@ -19,3 +19,7 @@ Connect to marked pins, ground IO0 during boot.
 ![Pinout](/assets/images/SP501E_pinout.jpg)
 
 ![Package](/assets/images/SP501E_package.jpg)
+
+## WLED
+
+Work even better with WLED. Provided is the [0.11 binary](/assets/SP501E.bin) adapted for this device (changed pins for LED and button and changed filesystem)
