@@ -47,7 +47,7 @@ Flash Tasmota
 ## OpenHab configuration
 
 sonoff.items:
-```
+```json
 Switch BlitzwoIFSHP2 "Switch"  { mqtt=">[broker:cmnd/BlitzwoIFSHP2/POWER:command:*:default],<[broker:stat/BlitzwoIFSHP2/POWER:state:default]" }
 Number Power_Total "Total: [%.3f kWh]"  { mqtt="<[broker:tele/BlitzwoIFSHP2/SENSOR:state:JSONPATH($.ENERGY.Total)]" }
 Number Power_Today "Today: [%.3f kWh]"  { mqtt="<[broker:tele/BlitzwoIFSHP2/SENSOR:state:JSONPATH($.ENERGY.Today)]" }
@@ -59,7 +59,7 @@ Number Factor "Factor: [%.2f]"  { mqtt="<[broker:tele/BlitzwoIFSHP2/SENSOR:state
 ```
 
 default.sitemap:
-```
+```json
 Switch item=BlitzwoIFSHP2 label="BlitzWoIF SHP2" icon="socket" mappings=[OFF="Off",ON="On"]		
 Text item=Power label="Power: [%.1f Watt]" icon="energy"
 Text item=Voltage label="Voltage: [%.0f V]" icon="energy"
@@ -72,7 +72,7 @@ Text item=Power_Yesterday label="Power Yesterday: [%.3f kWh]" icon="energy"
 ## Home Assistant configuration 
 
 configuration.yaml
-```
+```yaml
 switch:
   - platform: mqtt
     name: "BlitzWolf"
