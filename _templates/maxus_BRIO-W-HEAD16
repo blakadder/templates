@@ -1,6 +1,6 @@
 ---
 date_added: 2020-12-04
-title: Maxus Brio Head 16А
+title: Maxus Brio Head 16A
 model: BRIO-W-HEAD16
 image: /assets/images/maxus_BRIO-W-HEAD16.jpg
 template9: '{"NAME":"Brio-W-Head16","GPIO":[0,0,320,0,0,2720,0,0,2624,32,2656,224,0,0],"FLAG":0,"BASE":18}' 
