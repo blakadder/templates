@@ -12,3 +12,6 @@ category: plug
 type: Plug
 standard: eu
 ---
+
+For your convenience: GPIO0 corresponds to the red LED, GPIO2 to the blue one. The relay at GPIO13 switches the USB ports, GPIO14 switches mains.
+To tell the difference from the older model, check if GPIO13 actually switches the USB ports.
