@@ -64,7 +64,8 @@ Rule Logic
 
 ### Home Assistant
 
-```yaml
+{% highlight yaml %}
+{% raw %}
 - platform: mqtt
   name: Bedroom Fan
   state_topic: tele/tasmota-7540/STATE
@@ -92,4 +93,5 @@ Rule Logic
     - low
     - medium
     - high
-```
+{% endraw %}
+{% endhighlight %}
