@@ -61,3 +61,35 @@ Rule Logic
 - Relay 3 and4 will always turn on with Relay 2
 - VAR1 is set to 3 at Initialisation and when the fan is powered off to ensure full power to fan to startup
 - Button 3 will always decrease speed one at a time 3 -> 2 -> 1 -> 3
+
+### Home Assistant
+
+```yaml
+- platform: mqtt
+  name: Bedroom Fan
+  state_topic: tele/tasmota-7540/STATE
+  command_topic: cmnd/tasmota-7540/POWER2
+  state_value_template: "{{ value_json.POWER2 }}"
+  speed_command_topic: cmnd/tasmota-7540/Backlog
+  speed_state_topic: tele/tasmota-7540/STATE
+  speed_value_template: >
+    {% if value_json.POWER3 == 'OFF' and value_json.POWER4 == 'OFF' %}
+      Event SetSpeed=1
+    {% elif value_json.POWER3 == 'OFF' and value_json.POWER4 == 'ON' %}
+      Event SetSpeed=2
+    {% elif value_json.POWER3 == 'ON' and value_json.POWER4 == 'ON' %}
+      Event SetSpeed=3
+    {% endif %}
+  availability_topic: tele/tasmota-7540/LWT
+  payload_available: Online
+  payload_not_available: Offline
+  payload_low_speed: "Event SetSpeed=1"
+  payload_medium_speed: "Event SetSpeed=2"
+  payload_high_speed: "Event SetSpeed=3"
+  payload_off: 'OFF'
+  payload_on: 'ON'
+  speeds:
+    - low
+    - medium
+    - high
+```
