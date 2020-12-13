@@ -2,7 +2,7 @@
 date_added: 2020-12-15
 title: Athom 16A UK
 model: PG04-UK16A
-image: /assets/images/PG04-UK16A.jpg
+image: /assets/images/athom_PG04-UK16A.jpg
 template9: '{"NAME":"Athom PG04-UK16A","GPIO":[0,0,0,32,2720,2656,0,0,0,0,2624,320,224,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/uk-plug
 link: https://www.aliexpress.com/item/1005001880012237.html
