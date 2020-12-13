@@ -1,0 +1,18 @@
+---
+date_added: 2020-12-15
+title: Athom 15W 1400lm
+model: LB01-15W-E27
+image: /assets/images/athom_LB01-15W-E27.jpg
+template9: '{"NAME":"Athom LB017W","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/15w-color-bulb
+link: https://www.aliexpress.com/item/1005001879808728.html
+link2: 
+flash: preflashed
+category: bulb
+type: RGBCCT
+standard: e27
+---
+
+```console
+Backlog SetOption92 1; DimmerRange 24,100
+```

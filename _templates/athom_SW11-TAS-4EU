@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-15
+title: Athom 4 Gang Touch 
+model: SW11-TAS-4EU
+image: /assets/images/athom_SW11-TAS-4EU.jpg
+template9: '{"NAME":"Athom SW11-TAS-4EU","GPIO":[576,0,0,33,225,34,0,0,32,224,227,226,35,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/eu-touch-switch-4-gang
+link: https://www.aliexpress.com/item/1005001278010906.html
+link2: 
+flash: preflashed
+category: switch
+type: Switch
+standard: eu
+---

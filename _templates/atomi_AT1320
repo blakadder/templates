@@ -1,17 +1,24 @@
 ---
-date_added: 2020-07-09
-title: Atomi AT1320
-model: 2AIPA-AT1320
+date_added: 2020-12-13
+title: Atomi 
+model: AT1320
 image: /assets/images/atomi_AT1320.jpg
 template: '{"NAME":"AT1320","GPIO":[0,0,0,0,57,52,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"AtomiSmartPlug","GPIO":[0,0,0,0,320,576,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07KY12D9F
 link2: 
 mlink: https://atomismart.com/product/smart-outdoor-plug/
-flash: tuya-convert
+flash: serial
 category: plug
 type: Outdoor Plug
 standard: us
 ---
+
+Solderd headers to bottom of TYWE2S 
+
+- First pin on inside side is 3V, then GND, RX and TX 
+- Short I00 to GND at power on to enter flashing mode
+
 13820/AT1320 and AT1320 are the same device.
 
 ![Sams Packaging](https://scene7.samsclub.com/is/image/samsclub/0084185611336_I)
