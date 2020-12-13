@@ -3,7 +3,7 @@ date_added: 2020-12-20
 title: cod.m WLAN Neopixel Controller 
 model: 90060
 image: /assets/images/cod.m_90060.jpg
-template9: '{"NAME":"cod.m Pixel Controller","GPIO":[32,0,0,1376,0,0,0,0,544,0,1,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"cod.m Pixel Controller","GPIO":[32,0,0,1376,0,0,0,0,544,1,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled
 link2: 
 mlink: https://www.codm.de/
