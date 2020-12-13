@@ -14,5 +14,6 @@ mlink: https://shelly.cloud/products/shelly-dimmer-2-smart-home-light-controller
 
 **Supported since Tasmota 9.1.0.2+**
 
-After flashing Tasmota use the *Firmware upgrade - File upload* menu to flash the **required** STM32 firmware (provided in [tools/fw_ShellyDimmer_stm32](https://github.com/arendst/Tasmota/tree/development/tools/fw_ShellyDimmer_stm32) folder) to the MCU. 
+After flashing Tasmota, apply the template and then use the *Firmware upgrade - File upload* menu to flash the **required** STM32 firmware (provided at [shelly-dimmer-stm32 releases page](https://github.com/jamesturton/shelly-dimmer-stm32/releases)) to the MCU. 
+The template must be set before trying to flash the STM32 firmware.
 
