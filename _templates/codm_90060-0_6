@@ -19,3 +19,10 @@ Connect to marked pins, press flash button during boot.
 ## WLED
 
 Device comes with WLED 0.11 binary already installed on the device (you can choose LED strip firmware type)
+
+## Template for v0.4
+
+```json
+{"NAME":"cod.m Pixel Controller","GPIO":[32,0,0,1376,0,0,0,0,544,1,0,0,0,0],"FLAG":0,"BASE":18}
+```
+
