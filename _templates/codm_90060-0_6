@@ -9,7 +9,7 @@ link2:
 mlink: https://www.codm.de/
 flash: serial
 category: light
-type: LED Controller
+type: Addressable LED Controller
 standard: global
 ---
 ## Serial Flashing

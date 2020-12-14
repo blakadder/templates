@@ -1,5 +1,5 @@
 ---
-date_added: 2020-12-10
+date_added: 2020-12-15
 title: SP501E WS2812B Addressable 
 model: SP501E
 image: /assets/images/SP501E.jpg
@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: light
-type: LED Controller
+type: Addressable LED Controller
 standard: global
 ---
 ## Serial Flashing

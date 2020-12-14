@@ -3,7 +3,7 @@ date_added: 2020-09-20
 title: ESP01 NeoPixel Ring 
 model: ESP-01S-RGB-LED-v1.0
 category: light
-type: LED Controller
+type: Addressable LED Controller
 standard: global
 image: /assets/images/ESP-01S-RGB-LED-v1.jpg
 template: '{"NAME":"ESP-01S-RGB-LED-v1.0","GPIO":[255,255,7,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
