@@ -3,7 +3,7 @@ date_added: 2020-06-23
 title: Orvibo Magic Cube
 model: CT10W
 image: /assets/images/orvibo_CT10W.jpg
-template: '{"NAME":"Orvibo","GPIO":[0,0,0,0,17,7,0,0,52,0,51,53,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Orvibo Cube","GPIO":[0,0,0,0,32,1088,0,0,288,0,1056,289,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32876250999.html
 link2: 
 mlink: https://www.orvibo.com/en/product/xiaofang.html
