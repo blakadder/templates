@@ -14,7 +14,7 @@ standard: global
 ---
 ## Serial Flashing
 
-Connect to marked pins, press reset button during boot. 
+Connect to marked pins, press flash button during boot. 
 
 ## WLED
 
