@@ -1,0 +1,51 @@
+---
+date_added: 2020-12-15
+title: Wofea Garage Door Opener
+model: WF-WG088
+image: /assets/images/wofea_WF-WG088.jpg
+template9: '{"NAME":"Wofea Garage Door","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/i/4000205785514.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: cover
+type: Garage Door opener
+standard: us
+---
+## Module Config
+Use Tasmota `9.1.0.2` with `Module 54`
+
+This garage door opener includes a countdown timer. This timer sometimes interferes with the TuyaMCU heartbeat, so created some other rules to force a heartbeat ever 5 seconds. `TuyaMCU 81,7` uses new Timer available in `9.1.0.2` onward
+
+## Tasmota Config
+
+```
+Backlog TuyaMCU 11,1; TuyaMCU 81,7; TuyaMCU 2,101;
+Switchmode1 4
+Switchmode2 1
+Rule1 on switch2#state=1 do publish2 stat/%topic%/reed_state Open endon on switch2#state=0 do publish2 stat/%topic%/reed_state Closed endon
+Rule1 1
+Rule2  ON system#boot DO ruletimer1 5 ENDON ON rules#timer=1 DO backlog serialsend5 55aa00000000ff; ruletimer1 5 ENDON
+Rule2 1
+Restart 1
+```
+
+## Home assistant configuration
+
+```
+cover:
+  - platform: mqtt
+    name: "garagedoor"
+    state_topic: "stat/garagedoor_02/state"
+    command_topic: "cmnd/garagedoor_02/POWER"
+    availability_topic: "tele/garagedoor_02/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    payload_open: "1"
+    payload_close: "0"
+    state_open: "Open"
+    state_closed: "Closed"
+    retain: false
+```
+
+[Tasmota Issue with workaround](https://github.com/arendst/Tasmota/issues/10123)

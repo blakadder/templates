@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-14
+title: Febite 
+model: XS-SSB01
+image: /assets/images/Febite_XS-SSB01.jpg
+template9: '{"NAME":"Febite","GPIO":[320,0,0,0,0,2720,0,0,224,32,2656,0,0,0],"FLAG":0,"BASE":1}' 
+link: http://asante.bg/bg/smart-produkti/smart-home-umen-dom/smart-wifi-kontakt-febite-xs-ssb01-s-izmervane-na-potreblenieto/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

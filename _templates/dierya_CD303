@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-16
+title: Dierya Touch Panel 3 Gang
+model: CD303
+image: /assets/images/dierya_CD303.jpg
+template: '{"NAME":"CD303","GPIO":[158,53,0,19,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}' 
+link: https://www.ebay.com.au/itm/DIERYA-Smart-WIFI-Light-Touch-Panel-Switch-Socket-App-Timing-Alexa-Google-Home/154027921635
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---
+Very similar to Koaanw

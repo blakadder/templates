@@ -1,0 +1,14 @@
+---
+date_added: 2020-02-06
+title: Milfra 3 Gang
+model: TB23
+image: /assets/images/milfra_TB23.jpg
+template9: '{"NAME":"Milfra TB23","GPIO":[320,320,289,290,34,33,0,0,225,224,226,0,32,0],"FLAG":0,"BASE":08}' 
+link: https://www.aliexpress.com/item/4000994263957.html
+link2: 
+mlink: https://www.milfra.com/
+flash: serial
+category: switch
+type: Switch
+standard: us
+---

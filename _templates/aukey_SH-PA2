@@ -1,14 +1,15 @@
 ---
-date_added: 2020-07-09
-title: Aukey SH-PA2
-model: 
+date_added: 2020-12-14
+title: Aukey 
+model: SH-PA2
 image: /assets/images/aukey_SH-PA2.jpg
-template: '{"NAME":"AUKEY SH-PA2","GPIO":[0,0,0,0,158,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.co.uk/dp/B07Y847G6P
+template9: '{"NAME":"Aukey SH-PA2","GPIO":[0,0,0,0,576,320,0,0,32,0,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/gp/product/B08FC99SF9
 link2: 
 mlink: https://www.aukey.com
-flash: tuya-convert
+flash: serial
 category: plug
 type: Plug
-standard: uk
+standard: eu
 ---
+Device case is simply slightly glued together. To reach the ESP pins is reccomended to desolder the entire PCB from high voltage pins.
