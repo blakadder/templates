@@ -5,10 +5,15 @@ model: DS-101
 image: /assets/images/DS-101_3.jpg
 template9: '{"NAME":"DS-101 3 gang","GPIO":[576,322,0,33,226,34,0,0,32,225,321,224,320,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/gp/product/B07Z383M1T/
-link2: 
+link2: https://www.aliexpress.com/item/Wifi-Smart-Touch-Switch-No-Neutral-Wire-Required-1-2-3-Gang-Light-Switch-Timer-Function/1005001495711413.html?spm=a2g0s.9042311.0.0.27424c4di0i5b5
 mlink: 
 flash: serial
 category: switch
 type: Switch
-standard: uk
+standard: uk, eu
 ---
+Open it up, disconnect it from the switching board from the bottom(just pull it off), there you will find the main proccessor and (for me unmarked) tuya mcu
+2ways of flashing: 
+a) disconnect the TX pin (2nd from top on the right(dot is up left))
+a) pulling rst LOW (4th from top on the left(dot is up left))
+https://i.imgur.com/EbBCkbx.jpeg
