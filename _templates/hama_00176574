@@ -1,0 +1,17 @@
+---
+date_added: 2020-12-18
+title: Hama 4AC 4USB 
+model: 00176574
+image: /assets/images/hama_00176574.jpg
+template9: '{"NAME":"HamaStrip","GPIO":[0,544,0,32,225,224,0,0,226,227,228,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B08H8N8V65/
+link2: 
+mlink: https://www.hama.com/00176574/hama-wlan-socket-strip-4-way-without-hub-individually-switchable-4-port-usb
+flash: serial
+category: plug
+type: Power Strip
+standard: eu
+---
+Add `WebButton5 USB` to indicate outlet numbering.
+
+[Pics](https://github.com/vic42/Hamapics)
