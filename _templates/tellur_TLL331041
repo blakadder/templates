@@ -2,7 +2,7 @@
 date_added: 2020-12-21
 title: Tellur 1 Port 1800W 10A
 model: TLL331041
-image: /assets/images/
+image: /assets/images/tellur_TLL331041.jpg
 template: '{"NAME":"Tellur 1CH","GPIO":[0,0,0,0,0,17,0,0,0,0,0,21,157],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07HMHLQ75
 link2: 
