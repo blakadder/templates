@@ -4,10 +4,12 @@ title: Anoopsyche SP15
 category: plug
 type: Plug
 standard: uk
-flash: tuya-convert
+flash: tuya-convert, serial
 link: https://www.amazon.co.uk/dp/B079JHG338
 link2:
 mlink: https://ianoopsyche.com/uk/Smart-Plug-SP15.html
 image: https://user-images.githubusercontent.com/5904370/71767710-30ebdc00-2f0f-11ea-82c4-f3673651966a.png
 template: '{"NAME":"Anoop SP15","GPIO":[0,0,0,0,56,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
 ---
+
+![](https://cdn.discordapp.com/attachments/790182241908686870/791065227508449290/unknown.png)
