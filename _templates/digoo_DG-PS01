@@ -10,10 +10,8 @@ template: '{"NAME":"Digoo DG-PS01","GPIO":[0,56,0,17,23,22,0,0,0,24,21,0,0],"FLA
 link2: http://s.click.aliexpress.com/e/BA0bwuaM
 ---
 
+template for a diferent version of digoo DG-PS01 ( with status led of each socket conected to a gpio and not directly to the relay).
 
-
-
-
-
-
-
+```json
+{"NAME":"Digoo DG-PS01","GPIO":[544,0,0,321,225,320,0,0,322,226,227,224,64,0],"FLAG":0,"BASE":18}
+```
