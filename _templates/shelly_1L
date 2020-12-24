@@ -1,15 +1,37 @@
 ---
 date_added: 2020-11-28
 title: Shelly 1L No Neutral
-model: 
+model:
 image: /assets/images/shelly_1L.jpg
-template9: '{"NAME":"Shelly 1L","GPIO":[320,0,0,0,192,224,0,0,0,0,193,0,0,4736],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Shelly 1L","GPIO":[320,0,0,0,192,224,0,0,0,0,193,0,0,4736],"FLAG":0,"BASE":18}'
 link: https://shop.shelly.cloud/shelly-1l-bypass-wifi-smart-home-automation
-link2: 
+link2:
 mlink: https://shelly.cloud/knowledge-base/devices/shelly-1l/
-flash: serial
+flash: mgos
 category: relay
 type: Switch
 standard: eu
 ---
+## Flashing Shelly device OTA without serial connection
+
+Any Shelly devices can be reflashed to the latest Tasmota OTA without physical connection with the
+help of [mgos-to-tasmota](https://github.com/arendst/mgos-to-tasmota).
+
+Your Shelly device must be connected to your Wifi, configured with gateway and DNS and have access
+to the Internet. Be sure to have a reliable power connection as well as a reliable Wifi connection.
+Power or Wifi loss will make your device unresponsive and recovery will go through serial flashing.
+
+- Open a web browser to your Shelly device
+- In the address bar of your browser type the following :<br>
+  `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly1L.zip`<br>
+  replace `shellyip` with the actual IP address of your Shelly.
+
+After flashing, which can take a few minutes, the Shelly device will restart with lastest Tasmota
+and create an AP `tasmota-XXXXX`. From there follow standard configuration procedure. Don't forget
+to enter the template at the end of the configuration.
+
+## Flashing Shelly1L with serial
+
+See pinout below. Follow recommendations from the Tasmota documentation regarding serial flashing.
 ![Pinout](https://shelly.cloud/wp-content/uploads/2020/10/gpio-1L.jpg)
+
