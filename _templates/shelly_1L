@@ -7,7 +7,7 @@ template9: '{"NAME":"Shelly 1L","GPIO":[320,0,0,0,192,224,0,0,0,0,193,0,0,4736],
 link: https://shop.shelly.cloud/shelly-1l-bypass-wifi-smart-home-automation
 link2:
 mlink: https://shelly.cloud/knowledge-base/devices/shelly-1l/
-flash: serial, OTA
+flash: mgos
 category: relay
 type: Switch
 standard: eu
