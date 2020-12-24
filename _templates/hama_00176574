@@ -1,7 +1,7 @@
 ---
 date_added: 2020-12-18
 title: Hama 4AC 4USB 
-model: 00176574
+model: '00176574'
 image: /assets/images/hama_00176574.jpg
 template9: '{"NAME":"HamaStrip","GPIO":[0,544,0,32,225,224,0,0,226,227,228,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B08H8N8V65/

@@ -14,6 +14,10 @@ standard: uk
 ---
 Left Hand Socket is Button 1
 
+There may be different versions where the relays are inverted and this template is required:
+```json
+{"NAME":"Ener-J 2-Gang ","GPIO":[33,0,0,0,0,224,32,0,225,320,0,0,0,0],"FLAG":0,"BASE":18}
+```
 There is a blue LED above the earth pin of each socket; these light when the corresponding socket is powered.
 
 Neither of these templates controls power to the USB socket. It is always powered, the 5V on the USB socket is also used to power the
