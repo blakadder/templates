@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-25
+title: Idinio 3AC 4USB
+model: 140135
+image: /assets/images/idinio_140135.jpg
+template: '{"NAME":"Idinio-140135","GPIO":[0,56,0,17,22,21,0,0,0,23,24,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.robbshop.nl/slim-wifi-stekkerblok-3-600-watt-met-usb-poorten-idinio?sqr=idinio&
+link2: 
+mlink: https://www.shada.nl/products/5049/idinio-smart-extension-socket-extender-3
+flash: tuya-convert
+category: switch
+type: Power Strip
+standard: eu
+---
+Tuya Convert works when out of the box not used. To get it into the download mode keep power button pressed until led blinks

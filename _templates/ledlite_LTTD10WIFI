@@ -1,0 +1,23 @@
+---
+date_added: 2020-12-23
+title: LEDLite CCT 10W Fire Rated 
+model: LTTD10WIFI
+image: /assets/images/ledlite_LTTD10WIFI.jpg
+template9: '{"NAME":"LEDLite-LTTD10Wifi","GPIO":[0,0,0,0,0,0,0,0,417,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.tlc-direct.co.uk/Products/LTTD10WIFI.htmlled
+link2: 
+mlink: https://ledlite.co.uk/
+flash: serial
+category: light
+type: Downlight
+standard: [eu, uk]
+---
+Device uses Tuya TYWE2L Module. Exposed pads of back require steady hand to solder to as they are in a tight space. Case opens easily with flat screw driver.
+
+Photos:
+![](https://srv.redeggs.co.uk/images/lttd10-top.jpg)
+![](https://srv.redeggs.co.uk/images/lttd10-bottom.jpg)
+![](https://srv.redeggs.co.uk/images/lttd10-sideA.jpg)
+![](https://srv.redeggs.co.uk/images/lttd10-sideB.jpg)
+![](https://srv.redeggs.co.uk/images/lttd10-dims.jpg)
+![](https://srv.redeggs.co.uk/images/lttd10-wifi.jpg)

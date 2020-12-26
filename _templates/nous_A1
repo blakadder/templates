@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-23
+title: Nous A1
+model: 
+image: /assets/images/nous_A1.jpg
+template9: '{"NAME":"Nous A1","GPIO":[320,1,321,1,2656,2720,0,0,2624,32,0,224,0,0],"FLAG":0,"BASE":45}' 
+link: https://www.amazon.de/dp/B0054PSFGW
+link2: https://allegro.pl/oferta/inteligentne-gniazdo-wifi-smart-nous-a1-4szt-9481722086
+mlink: https://nous.technology/product/nous-smart-wi-fi-socket-a1.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+The device is actually [Gosund SP111 V1.1](gosund_SP111_v1_1) (confirmed by disassembling the plug and investigating the main board which has following print: `SP111_WIFI_V1.1`)

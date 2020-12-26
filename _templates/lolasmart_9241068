@@ -1,0 +1,17 @@
+---
+date_added: 2020-12-24
+title: LOLAsmart Uranus White 70 cm
+model: 9241068
+image: /assets/images/lolasmart_9241068.jpg
+template9: '{"NAME":"lola smart","GPIO":[0,0,0,1088,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://toom.de/p/led-deckenleuchte-uranus-weiss-70-cm/9241068
+link2: 
+mlink: 
+flash: serial
+category: light
+type: Ceiling Light
+standard: global
+---
+TYWE3S module socketed but hot-glued, pins labeled, no additonal MCU
+
+White blend mode seems to overload the PSU, getting hardware watchdog reboots often when enabled.

@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-25
+title: JuoYou 16A
+model: ZY-OYD
+image: /assets/images/juoyou_ZY-OYD.jpg
+template9: '{"NAME":"Juoyou ZY-OYD","GPIO":[0,0,0,32,2720,2656,0,0,2624,288,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B08GFB9FCD
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---

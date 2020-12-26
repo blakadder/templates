@@ -1,0 +1,17 @@
+---
+date_added: 2020-12-24
+title: Arlec 4 Outlet 
+model: PB4KSHA
+image: /assets/images/arlec_PB4KSHA.jpg
+template9: '{"NAME":"Arlec PB4KSHA Powerboard","GPIO":[0,32,1,1,1,0,0,0,0,320,224,0,0,0],"FLAG":0,"BASE":12}' 
+link: https://www.bunnings.com.au/arlec-grid-connect-smart-4-outlet-powerboard_p0161023
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: au
+---
+Undo the case with a triangle bit screwdriver, there is 7 screws total. You can then unscrew the circuit board and desolder the Tuya module.
+
+Connect wires: 3V3, GND, RX, TX, IO1. Connect to serial-to-USB adapter set to 3.3v mode and short IO1 to ground. Flash using Tasmotizer and reassemble.
