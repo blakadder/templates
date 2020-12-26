@@ -1,0 +1,20 @@
+---
+date_added: 2020-12-20
+title: KaBuM! Filtro de Linha
+model: 058461911765
+image: /assets/images/kabum_058461911765.jpg
+template9: '{"NAME":"Kabum Power Strip","GPIO":[0,544,0,32,227,228,0,0,0,225,226,224,320,0],"FLAG":0,"BASE":18}' 
+link: https://www.kabum.com.br/produto/114451/filtro-de-linha-kabum-smart-4-tomadas-4-usb-google-assistant-alexa
+link2: 
+mlink: https://www.kabum.com.br/hotsite/kabumsmart/
+flash: serial
+category: plug
+type: Power Strip
+standard: br
+---
+## Flashing
+I didn't manage to flash Tasmota while soldered on the board, so I decided to remove TYWE3S from the main board and used this schematic to serial flash it:
+
+![Flashing ESP12 Schematic](https://blakadder.com/assets/images/fcmila/flashing_esp12.jpg)
+
+More general info on how to flash TYWE3S (ESP12) [here](https://blakadder.com/frankenstein-saturday-3/)

@@ -1,0 +1,18 @@
+---
+date_added: 2020-12-21
+title: Zemismart 5W 480lm
+model: ZM_LZE14
+image: /assets/images/zemismart_ZM-LZE14.jpg
+template9: '{"NAME":"Zemismart-E14-RGBW","GPIO":[0,0,0,0,0,0,0,0,0,3008,0,3040,0,0],"FLAG":0,"BASE":27}' 
+link: https://www.aliexpress.com/item/32871523763.html
+mlink: https://www.zemismart.com/products/e14-candlelight-bulb-rgbw-led-candle-light-work-with-alexa-echo-google-home-assistance-ifttt-voice-wifi-timer-control-lamp-54
+link2: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e14
+---
+
+# Info
+
+This bulb uses White Blend Mode for accurate white reproduction, once flashed use `SetOption105 1` as per the Tasmota documentation.

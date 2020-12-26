@@ -12,4 +12,6 @@ link2:
 
 Successfully flashed via Tuya-convert as of November 2020.
 
+December 2020: 4-pack bought from Amazon.co.uk showing same external markings failed to flash due to manufacturer using an [updated Tuya firmware](https://github.com/ct-Open-Source/tuya-convert/issues/483).
+
 [Teardown](https://www.earth.li/~noodles/blog/2018/12/power-monitoring.html)

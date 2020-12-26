@@ -13,3 +13,8 @@ type: IR Bridge
 standard: global
 ---
 This device is Very similar to YTF Universal Remote IR Bridge, but with the led not inverted.
+
+## Warning
+Newer devices come with an incompatible Tuya WB3S module and cannot be flashed with Tasmota.
+
+![New module](/assets/images/frankever_FK-UFO-R4.jpg)
