@@ -11,6 +11,28 @@ category: plug
 type: Power Strip
 standard: au
 ---
+This power strip contains a TYWE3S chip ([pin out](https://tasmota.github.io/docs/devices/TYWE3S/)) to which you'll
+need to solder on some leads to be able to connect to it over a serial link as described in
+[Tasmota - Getting Started](https://tasmota.github.io/docs/Getting-Started/)
+
+***Please ensure the power strip is not plugged into mains power while soldering or flashing!!!***
+
+To connect a serial connection you do need to open up the power strip and solder on some cables to allow connecting
+your flashing tool / software of choice.
+
+The TYWE3S chip is located on the hidden side of the board (see image below), so you'll have to unscrew the PCB as well and
+turn it around.
+![](/assets/images/vivitar_HA-1007-AU_chip.jpg)
+
+As usual you'll have to connect to VCC/3V3, GND, RX, and TX to flash.
+
+Once connected you will also have to push the button located on the PCB (see picture below) to be able to
+re-program / flash with Tasmota.
+![](/assets/images/vivitar_HA-1007-AU_button.jpg)
+
+Be careful not to pinch any cables when closing up power strip again after flashing.
+
+Note:
 Circuit actually contains a fifth relay on the common neutral wire that needs to be turned on whenever one of the 4 relays/outlets is turned on.
 
 ![](https://assets.kogan.com/files/product/2019/Vivitar/HA-1007-AU_1.jpg)
