@@ -40,7 +40,7 @@ After flashing Tasmota and configuring Wi-Fi and MQTT set `Module 54` then issue
 Backlog TuyaMCU 99,1; TuyaMCU 75,2
 ```
 
-Illumination values will be visible in the webUI.
+Illumination values will be visible in the webUI after a restart.
 
 ## Features
 
