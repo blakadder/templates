@@ -20,7 +20,7 @@ Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to underst
 
 This is a Tuya/Smart Life battery powered contact (door or window) sensor. Runs on two AAA batteries (not supplied with the device).
 
-Identified with MCU Product ID: `{"p":"hx5ztlztij4yxxvg","v":"1.0.0"}` which is also printed on the TYWE3S module. 
+Identified with MCU Product ID: `{"p":"hx5ztlztij4yxxvg","v":"1.0.0"}` which is also printed on the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module. 
 
 ![Packaging](https://user-images.githubusercontent.com/5904370/70840831-725c0080-1e15-11ea-8db8-dbc7f5957cca.png)
 ![image](https://user-images.githubusercontent.com/5904370/70840996-f793e500-1e16-11ea-8c36-f2061b36ef7c.png)
@@ -35,7 +35,7 @@ Example <a href="/assets/tuya_sensor_user_config.txt" target="_blank" >user_conf
 Easily disassembled by removing the back plate, unscrewing the screw in the battery holder and prying away the plastic using the bottom slot. 
 ![Disassembly](https://user-images.githubusercontent.com/5904370/70840664-147ae900-1e14-11ea-9451-2cf352ebc609.png)
 
-The PCB has only the **20191022** marking on it and a prominent TYWE3S module with the product ID printed. There are broken out pins for 3v3, RX, TX and GND but to be able to solder a pin header in them you need to desolder the battery holder which is probably not worth the trouble since all the pins are accessible on the TYWE3S. 
+The PCB has only the **20191022** marking on it and a prominent [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module with the product ID printed. There are broken out pins for 3v3, RX, TX and GND but to be able to solder a pin header in them you need to desolder the battery holder which is probably not worth the trouble since all the pins are accessible on the TYWE3S. 
 
 ![Pinouts](https://user-images.githubusercontent.com/5904370/70841120-0a5ae980-1e18-11ea-9818-26450d8a4791.png)
 
@@ -56,7 +56,7 @@ STC8F1K08S2 MCU, situated on the left of the broken out pins, powers on the Tuya
 | P3.1 | RX | ESP and broken out pin |
 | P3.0 | TX | ESP and broken out pin |
 
-Due to this design it is somewhat difficult to tuya-convert or even configure the device compared to non-battery powered ones. I flashed the device over serial powering the TYWE3S from the USB-to-serial adapter.
+Due to this design it is somewhat difficult to tuya-convert or even configure the device compared to non-battery powered ones. I flashed the device over serial powering the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) from the USB-to-serial adapter.
 
 ## Configuration
 

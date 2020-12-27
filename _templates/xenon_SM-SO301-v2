@@ -10,7 +10,7 @@ link2: https://www.aliexpress.com/wholesale?SearchText=sm-s0301&opensearch=true
 mlink: https://www.alibaba.com/product-detail/Xenon-USB-Smart-Socket-Wifi-Smart_60588384717.html
 ---
 SM-S0301 with an FCC ID of 2AJ5F-SM-SO3015 has 4 mains power and 4 USB ports.  Each mains power is independently controlled and the USB group is controllable via a solid state relay.
-The ESP8266 module inside is a TYWE3S by Tuya. 
+The ESP8266 module inside is a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) by Tuya. 
 
 Model purchased SM-S0301 (it seems to change on Amazon and other places, search for the model#). Other resellers may sell the same unit with various mains voltages/plug types.
 

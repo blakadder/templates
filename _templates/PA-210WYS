@@ -13,7 +13,7 @@ link2:
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
-This is a Tuya natural gas (CH4) sensor with an LCD display and alarm function. It has a TYWE3S module and an Eastsoft HR8P506FHLQ MCU.
+This is a Tuya natural gas (CH4) sensor with an LCD display and alarm function. It has a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module and an Eastsoft HR8P506FHLQ MCU.
 
 Identified with MCU Product ID: `{"p":"sclatjo1jqscmwwe","v":"1.0.0","m":0}`. 
 

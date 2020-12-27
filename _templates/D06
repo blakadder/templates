@@ -24,7 +24,7 @@ To have best results with this type of device I strongly recommend compiling a s
 ### Serial
 Easily disassembled by removing the back plate, then prying away the plastic with the battery holder and pcb. 
 
-The PCB has no visible serial number or other marking on it but the MCU is marked D06. It powers on the TYWE3S module on probe contact on "Reset" button press for a short amount of time sufficient to send alerts.
+The PCB has no visible serial number or other marking on it but the MCU is marked D06. It powers on the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module on probe contact on "Reset" button press for a short amount of time sufficient to send alerts.
 
 To flash the device solder directly to [TYWE3S](https://tasmota.github.io/docs/devices/TYWE3S/) TX, RX, VCC and GND pins (optional: solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to temporarily remove the marked resistor to prevent the MCU from interfering with the flashing process. Resolder it back or bridge the connection once flashing is complete.
 

@@ -11,7 +11,7 @@ category: plug
 type: Power Strip
 standard: au
 ---
-This power strip contains a TYWE3S chip ([pin out](https://tasmota.github.io/docs/devices/TYWE3S/)) to which you'll
+This power strip contains a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) chip ([pin out](https://tasmota.github.io/docs/devices/TYWE3S/)) to which you'll
 need to solder on some leads to be able to connect to it over a serial link as described in
 [Tasmota - Getting Started](https://tasmota.github.io/docs/Getting-Started/)
 
@@ -20,7 +20,7 @@ need to solder on some leads to be able to connect to it over a serial link as d
 To connect a serial connection you do need to open up the power strip and solder on some cables to allow connecting
 your flashing tool / software of choice.
 
-The TYWE3S chip is located on the hidden side of the board (see image below), so you'll have to unscrew the PCB as well and
+The [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) chip is located on the hidden side of the board (see image below), so you'll have to unscrew the PCB as well and
 turn it around.
 ![](/assets/images/vivitar_HA-1007-AU_chip.jpg)
 

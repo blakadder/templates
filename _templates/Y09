@@ -27,7 +27,7 @@ This is a Tuya/Smart Life battery powered contact (Water Leak) sensor. Runs on t
 
 
 ### Serial
-To flash the device solder directly to TYWE3S TX, RX, GPIO0, VCC and GND pins (optionally solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to disable the MCU by connecting RST to GND, otherwise you will be unable to flash.
+To flash the device solder directly to [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) TX, RX, GPIO0, VCC and GND pins (optionally solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to disable the MCU by connecting RST to GND, otherwise you will be unable to flash.
 
 
 ![Serial](/assets/images/TY01_PCB.jpg)

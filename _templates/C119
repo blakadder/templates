@@ -14,6 +14,6 @@ standard: eu
 ---
 Subosi Outdoor Plug with two sockets and three LEDs (Red, Blue, Green).
 
-Device can be flashed using TYWE3S flashing ([pinout](https://tasmota.github.io/docs/devices/TYWE3S/))
+Device can be flashed using [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s).
 
-GPIO0 can be kept grounded during complete flash procedure
+GPIO0 can be kept grounded during complete flash procedure.

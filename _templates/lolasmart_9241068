@@ -12,6 +12,6 @@ category: light
 type: Ceiling Light
 standard: global
 ---
-TYWE3S module socketed but hot-glued, pins labeled, no additonal MCU
+[TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module socketed but hot-glued, pins labeled, no additonal MCU
 
 White blend mode seems to overload the PSU, getting hardware watchdog reboots often when enabled.

@@ -27,17 +27,17 @@ To have best results with this type of device I strongly recommend compiling a s
 Example <a href="/assets/tuya_sensor_user_config.txt" target="_blank" >user_config_override</a> defines (for Tasmota 8.2+).
 
 ### Tuya-Convert
-It is possible to flash the device using Tuya-Convert but it might need a couple tries due to the MCU resetting the battery powered TYWE3S module. Prepare everything for Tuya-Convert then long press the configuration button to put the device in pairing mode. Be very quick about issuing commands. If it fails try again, you can continue from some points of the conversion process.
+It is possible to flash the device using Tuya-Convert but it might need a couple tries due to the MCU resetting the battery powered [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module. Prepare everything for Tuya-Convert then long press the configuration button to put the device in pairing mode. Be very quick about issuing commands. If it fails try again, you can continue from some points of the conversion process.
 
 ### Serial
 
 Easily disassembled by removing the back plate, then prying away the battery holder from the main enclosure.
 
-The PCB has only the "V1.2" marking on it and a prominent TYWE3S module with "Model: 2.22.03.04244". There are broken out pins for 3v3, RX, TX and GND but to be able to solder a pin header in them you need to desolder the battery holder which is probably not worth the trouble since all the needed pins are accessible on the TYWE3S module. 
+The PCB has only the "V1.2" marking on it and a prominent [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module with "Model: 2.22.03.04244". There are broken out pins for 3v3, RX, TX and GND but to be able to solder a pin header in them you need to desolder the battery holder which is probably not worth the trouble since all the needed pins are accessible on the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module. 
 
 To be able to flash this module you will need to connect:
 
-| TYWE3S | serial-to-USB |
+| [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) | serial-to-USB |
 | TX | RX |
 | RX | TX |
 | GND | GND |

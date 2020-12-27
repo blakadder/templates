@@ -20,7 +20,7 @@ This is a Tuya panel heater. It comes in white (model 10034390) an black (model 
 <!--- Identified with MCU Product ID: `{"p":"3slpirlnlqp0bqo1","v":"1.0.0"}`. -->
 
 ## Serial Flashing
-Easily disassembled by removing the front glass panel by unscrewing 4 screws on the side. The PCB with the display and touch control has a TYWE3S module on smaller PCB. The control MCU is on the back of the PCB.
+Easily disassembled by removing the front glass panel by unscrewing 4 screws on the side. The PCB with the display and touch control has a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s)module on smaller PCB. The control MCU is on the back of the PCB.
 
 ![Side screws](/assets/images/klarstein_10034390_side.jpg)
 ![Opened](/assets/images/klarstein_10034390_open.jpg)

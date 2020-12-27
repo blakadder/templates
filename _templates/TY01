@@ -28,13 +28,13 @@ To have best results with this type of device I strongly recommend compiling a s
 ### Serial
 Easily disassembled by removing the back plate, unscrewing the screw in the battery holder and prying away the plastic using the bottom slot. 
 
-The PCB has no visible serial number or other marking on it and a prominent TYWE3S module. The broken out pins are for the MCU's 3v3, RX, TX, GND and RST. 
+The PCB has no visible serial number or other marking on it and a prominent [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module. The broken out pins are for the MCU's 3v3, RX, TX, GND and RST. 
 
 MM32F003NW MCU ([datasheet](http://www.mindmotion.com.cn/userfiles/images/MM32F00XiLieWenDang/DS_MM32F003_q_V1.11_EN.pdf)), powers on the Tuya module on reed actuation or on "Reset" bottom button press for a short amount of time sufficient to send opening or closing message.
 
 ![PCB](/assets/images/TY01_PCB.jpg)
 
-Due to this design it is difficult to tuya-convert or even configure the device compared to non-battery powered ones. To flash the device solder directly to TYWE3S TX, RX, GPIO0, VCC and GND pins (optionally solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to disable the MCU by connecting RST to GND, otherwise you will be unable to flash.
+Due to this design it is difficult to tuya-convert or even configure the device compared to non-battery powered ones. To flash the device solder directly to [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) TX, RX, GPIO0, VCC and GND pins (optionally solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to disable the MCU by connecting RST to GND, otherwise you will be unable to flash.
 
 ![PCB](/assets/images/TY01_soldering.jpg)
 
@@ -43,7 +43,7 @@ Due to this design it is difficult to tuya-convert or even configure the device 
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
-_If you're using battery power you need to prevent the device from going to sleep by actuating the reed switch constantly (approximately every 5 seconds) during the configuration._ It will be easier to configure everything while the MCU is disabled and TYWE3S is powered by the serial-to-USB adapter!
+_If you're using battery power you need to prevent the device from going to sleep by actuating the reed switch constantly (approximately every 5 seconds) during the configuration._ It will be easier to configure everything while the MCU is disabled and [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) is powered by the serial-to-USB adapter!
 
 
 Change device to a TuyaMCU module (or apply the provided template, result is the same)

@@ -13,4 +13,4 @@ type: Switch
 standard: us
 ---
 
-Flash the TYWE3S module with the standard flashing process outlined in [here](https://tasmota.github.io/docs/devices/TYWE3S/#tywe3s-wiring-for-flashing) by directly soldering jumpers to the module itself, and then used the Sonoff T1 Touch template once Tasmota 8.5.0.1 was flashed as a starting point. Manually done trial and error to achieve the correct buttons to control the correct relays
+Flash the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module with the standard flashing process outlined in [here](https://tasmota.github.io/docs/devices/TYWE3S/#tywe3s-wiring-for-flashing) by directly soldering jumpers to the module itself, and then used the Sonoff T1 Touch template once Tasmota 8.5.0.1 was flashed as a starting point. Manually done trial and error to achieve the correct buttons to control the correct relays
