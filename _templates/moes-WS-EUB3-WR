@@ -1,6 +1,6 @@
 ---
 date_added: 2020-03-13
-title: MoesHouse RF433 3 Gang
+title: Moes RF433 3 Gang
 model: WS-EUB3-WR
 image: /assets/images/moes-WS-EUB3-WR.jpg
 template: '{"NAME":"WS-EUB3-WR","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
