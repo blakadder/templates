@@ -16,7 +16,7 @@ standard: global
 
 This is a Tuya USB powered illuminance sensor. Tiny power supply (US standard) and USB cable are supplied with the device. 
 
-Identified with MCU Product ID: `{{"p":"oedbumjmptbajtqz","v":"1.1.0","m":0}`. 
+Identified with MCU Product ID: `{"p":"oedbumjmptbajtqz","v":"1.1.0","m":0}`. 
 
 ![Packaging](/assets/images/lightsensor_XFY-CGQ-GZ_package.jpg)
 
