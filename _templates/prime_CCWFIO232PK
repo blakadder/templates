@@ -4,6 +4,7 @@ title: Prime Smart Outlet
 model: CCWFIO232PK
 image: /assets/images/prime_CCWFIO232PK.jpg
 template: '{"NAME":"Prime CCWFIO232PK","GPIO":[0,0,0,57,22,0,0,0,17,21,52,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Prime CCWFIO232PK","GPIO":[0,0,0,321,225,576,0,0,32,224,320,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.costco.ca/prime-outdoor-smart-outlet-with-individual-control-and-weather-covers%2C-2-pack.product.100681233.html
 link2: 
 mlink: 
