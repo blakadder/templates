@@ -1,0 +1,53 @@
+---
+date_added: 2020-12-29
+title: Lightsensor
+model: XFY-CGQ-GZ
+image: /assets/images/lightsensor_XFY-CGQ-GZ.jpg
+template: '{"NAME":"Lightsensor","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+mlink: 
+link: https://www.aliexpress.com/item/4001287340039.html
+link2: https://www.aliexpress.com/item/4001220785227.html
+flash: serial
+category: sensor
+type: Illuminance Sensor
+standard: global
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+This is a Tuya USB powered illuminance sensor. Tiny power supply (US standard) and USB cable are supplied with the device. 
+
+Identified with MCU Product ID: `{{"p":"oedbumjmptbajtqz","v":"1.1.0","m":0}`. 
+
+![Packaging](/assets/images/lightsensor_XFY-CGQ-GZ_package.jpg)
+
+## Flashing
+
+Easily disassembled by removing the back plate, then prying away the PCB from the case. 
+
+The PCB is marked with "LS_V1.0 BY XP". It runs on [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module and a secondary STM32F030F4P6 MCU.
+
+![Pinout](/assets/images/lightsensor_XFY-CGQ-GZ_pinout.jpg)
+
+To flash the device connect to the 6 holes headers TX to R, RX to T, VCC to + and GND to G and IO0. R was likely supposed to be the RST pin for the STM32 MCU but it was not working in my case. Instead connect the 4th pin (marked on image) to GND during the flashing procedure. Otherwise you will be unable to flash due to MCU interference
+
+![MCU Reset pins](/assets/images/lightsensor_XFY-CGQ-GZ_mcu.jpg)
+
+## Configuration
+
+After flashing Tasmota and configuring Wi-Fi and MQTT set `Module 54` then issue
+
+```console
+Backlog TuyaMCU 99,1; TuyaMCU 75,2
+```
+
+Illumination values will be visible in the webUI.
+
+## Features
+
+dpId 1 is used for brightness state
+  - `0` = low
+  - `1` = middle
+  - `2` = high
+  - `3` = strong
+
+dpId2 is reporting illuminance in (according to instruction manual) lux.
