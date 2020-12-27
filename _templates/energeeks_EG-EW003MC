@@ -1,0 +1,19 @@
+---
+date_added: 2020-12-26
+title: Energeeks 
+model: EG-EW003MC
+image: /assets/images/energeeks_EG-EW003MC.jpg
+template9: '{"NAME":"EG-EW003MC","GPIO":[0,0,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":52}' 
+link: https://www.amazon.es/dp/B07TZXPLXF
+link2: https://www.leroymerlin.es/fp/82275204/enchufe-con-wifi-energeeks-eg-ew003mc
+mlink: https://www.energeeks.com/es/smart-home/64-alarma-4-en-1-eg-alt001.html
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+"Power monitoring already working. Based on Teckin (52) plug but with the button connected on GPIO 3 and no additional LED on that pin. Red LED is hardwired with the relay. BL0937 chip as power meter. Uses TYWE2S Tuya ESP8265 MCU. I strongly recommend **NOT** loading more than 10 A or 2300 W (relay looks like a bit wimpy).
+
+To open it, just pry the socket out. Then desolder the female output contacts and remove the protective white plastic. Then desolder the male prongs. Tip: twist them using a pliers while the tin is melted to ensure the connection is broken. To remove the board, either use a long nose pliers and grab it at the ground terminal holes or push it from behind using a thin screwdriver. **Take care not to damage any tracks** (had to fix three after that).
+
+Haven't tried Tuya-convert.

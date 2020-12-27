@@ -8,7 +8,7 @@ link2: https://www.aliexpress.com/item/4000241037954.html
 mlink: https://www.loratap.com/sc500w-p0108.html
 flash: tuya-convert
 category: cover
-type: Curtain Switch
+type: Curtain Module
 standard: eu
 ---
 Using this template turns the unit into a simple 2-gang switch (eg. like a Sonoff Dual, but with extra connections to a 2-gang wall switch).

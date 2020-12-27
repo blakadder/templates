@@ -1,0 +1,22 @@
+---
+date_added: 2020-12-27
+title: MS-108 
+model: MS-108
+image: /assets/images/MS-108.jpg
+template: '{"NAME":"MS-108","GPIO":[0,0,0,0,161,160,0,0,224,0,225,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: 
+link1: https://www.aliexpress.com/item/4000957679155.html
+link2: https://www.banggood.com/MoesHouse-MS-108-WiFi-Mini-Smart-Curtain-Switch-Module-Roller-Blinds-Shutter-Motor-Smart-Life-Tuya-APP-Remote-Control-Work-with-Alexa-Google-Home-p-1679965.html
+flash: serial
+category: cover
+type: Curtain Module
+standard: global
+---
+Device uses [TYWE2S](https://tasmota.github.io/docs/Pinouts/#tywe2s) with the backside of the module with labelled pins exposed and easily accessible.
+
+```haskell
+SetOption80 1
+ShutterMode 1
+SwitchMode1 4
+SwitchMode2 4
+```
