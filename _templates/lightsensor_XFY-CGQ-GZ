@@ -37,9 +37,8 @@ To flash the device connect to the 6 holes headers TX to R, RX to T, VCC to + an
 After flashing Tasmota and configuring Wi-Fi and MQTT set `Module 54` then issue
 
 ```console
-Backlog TuyaMCU 99,1; TuyaMCU 75,2
+Backlog TuyaMCU 61,1; TuyaMCU 75,2; TuyaMCU 99,99
 ```
-
 Illumination values will be visible in the webUI after a restart.
 
 ## Features
