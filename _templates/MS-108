@@ -5,8 +5,8 @@ model: MS-108
 image: /assets/images/MS-108.jpg
 template: '{"NAME":"MS-108","GPIO":[0,0,0,0,161,160,0,0,224,0,225,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: 
-link: https://www.aliexpress.com/item/4000898649073.html
-link2: https://www.banggood.com/MoesHouse-MS-108-WiFi-Mini-Smart-Curtain-Switch-Module-Roller-Blinds-Shutter-Motor-Smart-Life-Tuya-APP-Remote-Control-Work-with-Alexa-Google-Home-p-1679965.html
+link: https://www.aliexpress.com/item/4000957679155.html
+link2: 
 flash: serial
 category: cover
 type: Curtain Module
