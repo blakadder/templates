@@ -4,32 +4,18 @@ title: GDTech W-US003
 category: plug
 type: Plug
 standard: us
-link: https://www.amazon.ca/gp/product/B07QRWD29N
+flash: tuya-convert
+link: https://www.amazon.ca/gp/product/B07QMNS78S
 image: https://images-na.ssl-images-amazon.com/images/I/41KB5kdPqWL._SL1080_.jpg
 template: '{"NAME":"W-US003","GPIO":[0,17,255,255,255,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/GDTech-Wireless-Household-Appliance-Compatible/dp/B07QJD7BMF
 ---
 
-Works with Tuya-Convert
+2020-12-30:  Continues to work with Tuya-Convert as of Dec 30, 2020 with package of four from the link. No branding on packaging, box says W-US003 "WiFi Smart Plug", protect insert says "Wi-Fi Smart Socket Mini Plug", device says model MPV2RQ-US "WiFi Smart Socket"
 
----
-Update 2020-12-30
-Good news:
-  Continues to work with Tuya-Convert as of Dec 30, 2020
-  Package of four from Amazon.ca
-  https://www.amazon.ca/gp/product/B07QMNS78S
-  No Branding on Packaging
-  Box Says W-US003 "WiFi Smart Plug"
-  Proect Insert says "Wi-Fi Smart Socket Mini Plug"
-  Device says Model MPV2RQ-US "WiFi Smart Socket"
-  Could not locate any FCC ID (but that may be because I am not in FCC-land).
-  Sticker on Box says "GDTech WiFi Mini Plug, S..a and Goolge Home (3Pack)"
-  [Note: Sticker and Amazon says 3-Pack, but its 4 in the box]
-  4 of 4 flased Tasmota 9.2.0 with Tuya Convert OTA, no issue. 
-Bad News:
-  Both the product number I ordered 48 hours ago (B07QMNS78S)
-  and the original (B07QRWD29N) are now reading "Currently unavailable.
-  We don't know when or if this item will be back in stock."
+Sticker on the box says "GDTech WiFi Mini Plug, S..a and Goolge Home (3Pack)"
+
+4 of 4 flashed Tasmota 9.2.0 with Tuya Convert OTA, no issue. 
 
 
 
