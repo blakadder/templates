@@ -12,8 +12,7 @@ category: plug
 type: Plug
 standard: au
 ---
-Caution: Latest model sold appears to use TW-02 Wifi modules which cannot be flashed 
+## Warning New Hardware
+Latest models sold use TW-02 Wifi modules which cannot be flashed with Tasmota
 
 This physically looks identical to [Mirabella Genio 1002341](mirabella_genio_1002341). However the part-number on this starts with an "I" (letter I) not a "1" (digit 1). 
-
-The LED GPIO (for the red LED) is different, hence the new template.
