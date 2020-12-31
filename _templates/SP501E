@@ -3,7 +3,7 @@ date_added: 2020-12-15
 title: SP501E WS2812B Addressable 
 model: SP501E
 image: /assets/images/SP501E.jpg
-template9: '{"NAME":"SP501E","GPIO":[0,32,0,0376,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"SP501E","GPIO":[0,32,0,1376,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000143872368.html
 link2: 
 mlink: 
