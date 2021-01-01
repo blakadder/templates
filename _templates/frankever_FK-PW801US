@@ -3,7 +3,7 @@ date_added: 2020-08-19
 title: FrankEver Mini 
 model: FK-PW801US
 image: /assets/images/frankever_FK-PW801US.jpg
-template: '{"NAME":"FK-PW801US","GPIO":[0,0,0,0,21,22,0,0,23,24,25,26,27],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"FK-PW801US","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33056799267.html
 link2: 
 mlink: 
