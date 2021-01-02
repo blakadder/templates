@@ -35,6 +35,7 @@ Download an already compiled version from [here](assets/firmware/tasmota-lanbon-
 #undef USE_RULES                                
 #define USE_SCRIPT                               
 #define MAXBUTTONS 16
+#define USE_LANBON_L8
 ```
 
 Make sure to fully power cycle the device after applying the template. 
