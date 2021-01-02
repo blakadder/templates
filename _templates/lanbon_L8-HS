@@ -23,7 +23,7 @@ Not working:
 - Power metering based on pulse counter
 - Temperature measurement incorrect
 
-Use [gemu's Tasmota branch](https://github.com/gemu2015/Sonoff-Tasmota/) and set in `user_config_override.h`
+Download an already compiled version from [here](assets/firmware/tasmota-lanbon-l8-gemu.bin) or use [gemu's Tasmota branch](https://github.com/gemu2015/Sonoff-Tasmota/) and set in `user_config_override.h`
 
 ```arduino
 #define USE_I2C
@@ -37,14 +37,14 @@ Use [gemu's Tasmota branch](https://github.com/gemu2015/Sonoff-Tasmota/) and set
 #define MAXBUTTONS 16
 ```
 
-Make sure to fully power cycle the device after installing Tasmota.
+Make sure to fully power cycle the device after applying the template. 
 
 Apply the template and issue 
 ```console
-backlog displaymodel 12; displaymode 0; displaywidth 240; displayheight 320; displayfont 1
+Backlog DisplayModel 12; DisplayRotate 0; DisplayWidth 240; DisplayHeight 320; DisplayFont 1; DisplayMode 0
 ```
 
-Use the script to create buttons
+Use this basic script to create touch buttons
 ```haskell
 >D
 >B

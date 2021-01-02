@@ -22,4 +22,4 @@ Connect to marked pins, ground IO0 during boot.
 
 ## WLED
 
-Provided is the [WLED 0.11 binary](/assets/SP501E.bin) adapted for this device (changed pins for LED and button and changed filesystem)
+Provided is the [WLED 0.11 binary](/assets/firmware/SP501E.bin) adapted for this device (changed pins for LED and button and changed filesystem)
