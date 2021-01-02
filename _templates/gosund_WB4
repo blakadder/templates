@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-02
+title: Gosund 800lm
+model: WB4
+image: /assets/images/gosund_WB4.jpg
+template9: '{"NAME":"Gosund WB4","GPIO":[0,0,0,0,419,0,0,0,416,417,418,0,420,0],"FLAG":0,"BASE":18}' 
+link: https://shop.bsg-smarthome.de/Gosund-WB4-RGB-LED-E27-800Lm-WiFi
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBW
+standard: e27
+---

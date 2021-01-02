@@ -22,8 +22,9 @@ Working:
 Not working:
 - Power metering based on pulse counter
 - Temperature measurement incorrect
+- When screen is configured Green led becomes inactive
 
-Use latest Tasmota development release and set in user_config_override.h
+Use [gemu's Tasmota branch](https://github.com/gemu2015/Sonoff-Tasmota/) and set in `user_config_override.h`
 
 ```arduino
 #define USE_I2C
@@ -37,9 +38,11 @@ Use latest Tasmota development release and set in user_config_override.h
 #define MAXBUTTONS 16
 ```
 
+Make sure to fully power cycle the device after installing Tasmota.
+
 Apply the template and issue 
 ```console
-backlog displaymodel 12; displaywidth 240; displayheight 320; displayfont 1
+backlog displaymodel 12; displaymode 0; displaywidth 240; displayheight 320; displayfont 1
 ```
 
 Use the script to create buttons
@@ -53,3 +56,5 @@ dt [b2:20:190:200:50:14:1:15:2:Relay 3:]
 ```
 
 Buttons are automatically assigned to relays.
+
+You have to do further scripting to set behaviour of status LEDs, turn the screen off after a timeout and display more on the screen.

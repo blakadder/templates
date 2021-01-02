@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-28
+title: Lohas ZN121 8W 720lm 2700k
+model: LH-ZN121-B22
+image: /assets/images/lohas-ZN121.jpg
+template9: '{"NAME":"Lohas LED A60","GPIO":[0,0,0,0,0,0,0,0,0,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B07D2DLGFW
+link2: https://www.amazon.de/dp/B07D2DLGFW
+mlink: l
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: b22
+---
