@@ -6,7 +6,7 @@ category: switch
 type: Switch
 standard: [eu, us]
 image: /assets/images/lanbon_L8-HS.jpg
-template32: '{"NAME":"Lanbon L8","GPIO":[0,0,0,0,0,992,0,0,224,0,225,0,0,0,1024,896,0,6624,6592,864,0,0,416,226,0,0,0,0,417,418,0,352,0,0,0,4736],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Lanbon L8","GPIO":[0,0,0,0,0,992,0,0,224,0,225,0,0,0,1024,896,0,6624,6592,864,0,832,416,226,0,0,0,0,417,418,0,352,0,0,0,4736],"FLAG":0,"BASE":1}' 
 mlink: https://lanbon.de/
 link: https://www.aliexpress.com/item/1005001915842823.html
 link2: https://www.amazon.com/dp/B081JCP18W/
@@ -48,10 +48,10 @@ Use this basic script to create touch buttons
 ```haskell
 >D
 >B
-dt [Ci4Bi1x40y10]Lanbon L8 on Tasmota
-dt [b0:20:50:200:50:14:1:15:2:Relay 1:]
-dt [b1:20:120:200:50:14:1:15:2:Relay 2:]
-dt [b2:20:190:200:50:14:1:15:2:Relay 3:]
+dt [B1x50y10f2]Lanbon L8
+dt [b0:20:60:200:60:10:16:1:3:Relay 1:]
+dt [b1:20:140:200:60:10:16:1:3:Relay 2:]
+dt [b2:20:220:200:60:10:16:1:3:Relay 3:]
 ```
 
 Buttons are automatically assigned to relays.
