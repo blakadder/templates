@@ -58,8 +58,5 @@ dt [b2:20:220:200:60:10:16:1:3:Relay 3:]
 Buttons are automatically assigned to relays.
 
 You have to do further scripting to set behaviour of status LEDs, turn the screen off after a timeout and display more on the screen.
-<<<<<<< HEAD
 
 ![Demo](/assets/images/lanbon_L8-HS_demo.jpg)
-=======
->>>>>>> 80297b0cb571589700260efbfb804a8711db3dd8
