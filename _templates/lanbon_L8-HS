@@ -22,7 +22,6 @@ Working:
 Not working:
 - Power metering based on pulse counter
 - Temperature measurement incorrect
-- When screen is configured Green led becomes inactive
 
 Use [gemu's Tasmota branch](https://github.com/gemu2015/Sonoff-Tasmota/) and set in `user_config_override.h`
 
