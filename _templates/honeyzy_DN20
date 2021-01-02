@@ -1,6 +1,6 @@
 ---
-date_added: 2021-02-02
-title:  Hoenyzy DN20 3/4
+date_added: 2020-02-02
+title: Hoenyzy DN20 3/4
 category: misc
 type: Valve
 standard: global
@@ -9,9 +9,3 @@ image: https://ae01.alicdn.com/kf/HTB1npKzbvjsK1Rjy1Xaq6zispXa6/3-4-Smart-WIFI-W
 template: '{"NAME":"DN20 Valve","GPIO":[52,0,0,0,0,0,0,0,17,21,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
-all working 
-
-![image](https://user-images.githubusercontent.com/563412/63513495-192b3280-c4ef-11e9-885c-614d7eceace4.png)
-
-

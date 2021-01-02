@@ -13,7 +13,7 @@ type: Dimmer
 standard: global
 ---
 
-Confirmed that is not possible to use Tuya-Convert on the version of these devices with a 2020-5-13 manufacture date.
+Confirmed that is not possible to use Tuya-Convert on the version of these devices with a 2020-5-13 or newer manufacture date.
 
 Serial flashing is possible by soldering directly onto the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module. Follow [these directions](https://github.com/arendst/Tasmota/issues/5377#issuecomment-514413512) as a bridge is required to flash the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) in situ.
 
