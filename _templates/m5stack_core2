@@ -1,0 +1,43 @@
+---
+date_added: 2021-01-01
+title: M5Stack Core2
+model: Core2
+category: misc
+type: DIY
+standard: global
+image: /assets/images/m5stack_core2.jpg
+template32: '{"NAME":"M5Stack Core2","GPIO":[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+mlink: https://m5stack.com/products/m5stack-core2-esp32-iot-development-kit
+link: https://www.banggood.com/M5Stack-Core2-ESP32-with-Touch-Screen-Development-Board-Kit-WiFi-bluetooth-Graphical-Programming-WiFi-BLE-IoT-M5Stack-for-Arduino-products-that-work-with-official-Arduino-boards-p-1736409.html
+link2: https://www.amazon.com/dp/B08Q7RDC5R
+---
+You do not need to apply any templates. All pin definitions are hardcoded except GPIO 33,34 for external SCL and SDA on grove bus.
+
+Use latest Tasmota development release and set in user_config_override.h
+
+```arduino
+#define USE_M5STACK_CORE2  
+#define USE_SCRIPT_FATFS 4  
+#define FAT_SCRIPT_SIZE 8192  
+#define USE_SCRIPT  
+#define USE_I2C  
+#define USE_BMA423  
+#define SAY_TIME  
+#define USE_WEBRADIO  
+#define USE_DISPLAY  
+#define USE_SPI  
+
+#define USE_DISPLAY_ILI9342  
+#define USE_TOUCH_BUTTONS  
+#define JPEG_PICTS  
+#define USE_FT5206  
+#define USE_MPU6886  
+```
+add this in platformio.ini to `build_flags`: `-DBOARD_HAS_PSRAM`
+
+Fully supported with all sensors and SD card.
+
+Special commands
+
+`core2shutdown <seconds>` - shut down hardware and wake up after N seconds (>=30)
+`core2shutdown <HH:MM>` - shut down hardware and wake up on HH:MM time

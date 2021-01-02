@@ -1,0 +1,13 @@
+---
+date_added: 2021-01-01
+title: Silicognition wESP32
+model: 
+category: misc
+type: DIY
+standard: global
+image: /assets/images/silicognition_wESP32.jpg
+template32: '{"NAME":"wESP32","GPIO":[0,0,1,0,1,1,0,0,1,1,1,1,5568,5600,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+mlink: https://wesp32.com/
+link: https://wesp32.com/buy/
+link2: https://www.amazon.com/dp/B084RV91NQ
+---

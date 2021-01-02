@@ -57,6 +57,8 @@ toc:
         url: global.html
       - title: ALL
         url: all.html
+  - name: ESP32 Based Devices
+    url: esp32.html
   - name: Unsupportable Devices
     url: unsupported.html
   - name: How to use Templates?

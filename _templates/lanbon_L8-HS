@@ -1,0 +1,55 @@
+---
+date_added: 2021-01-03
+title: Lanbon L8 5 in 1 LCD Touch
+model: L8-HS
+category: switch
+type: Switch
+standard: [eu, us]
+image: /assets/images/lanbon_L8-HS.jpg
+template32: '{"NAME":"Lanbon L8","GPIO":[0,0,0,0,0,992,0,0,224,0,225,0,0,0,1024,896,0,6624,6592,864,0,0,416,226,0,0,0,0,417,418,0,352,0,0,0,4736],"FLAG":0,"BASE":1}' 
+mlink: https://lanbon.de/
+link: https://www.aliexpress.com/item/1005001915842823.html
+link2: https://www.amazon.com/dp/B081JCP18W/
+link3: https://www.alibaba.com/product-detail/2020-Lanbon-Latest-6-model-in_62347541373.html
+author: blak
+---
+Working:
+- Relays
+- Status LEDs
+- Screen
+- Touch
+
+Not working:
+- Power metering based on pulse counter
+- Temperature measurement incorrect
+
+Use latest Tasmota development release and set in user_config_override.h
+
+```arduino
+#define USE_I2C
+#define USE_DISPLAY
+#define USE_SPI
+#define USE_DISPLAY_ST7789
+#define USE_TOUCH_BUTTONS
+#define USE_FT5206
+#undef USE_RULES                                
+#define USE_SCRIPT                               
+#define MAXBUTTONS 16
+```
+
+Apply the template and issue 
+```console
+backlog displaymodel 12; displaywidth 240; displayheight 320; displayfont 1
+```
+
+Use the script to create buttons
+```haskell
+>D
+>B
+dt [Ci4Bi1x40y10]Lanbon L8 on Tasmota
+dt [b0:20:50:200:50:14:1:15:2:Relay 1:]
+dt [b1:20:120:200:50:14:1:15:2:Relay 2:]
+dt [b2:20:190:200:50:14:1:15:2:Relay 3:]
+```
+
+Buttons are automatically assigned to relays.

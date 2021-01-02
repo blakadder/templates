@@ -1,0 +1,17 @@
+---
+date_added: 2021-01-01
+title: Ai-Thinker ODROID-GO Game Kit
+model: ESP32-CAM
+category: misc
+type: DIY
+standard: global
+image: /assets/images/ai-thinker_ESP32-CAM.jpg
+template32: '{"NAME":"AITHINKER CAM","GPIO":[4992,1,1,1,1,5088,1,1,1,1,1,1,1,1,5089,5090,0,5091,5184,5152,0,5120,5024,5056,0,0,0,0,4928,1,5094,5095,5092,0,0,5093],"FLAG":0,"BASE":1}' 
+mlink: http://www.ai-thinker.com/pro_view-24.html
+link: https://www.aliexpress.com/af/esp32%25252dcam.html
+link2: https://www.amazon.com/dp/B07S77Q32X
+link3: https://www.banggood.com/ESP32-CAM-WiFi-+-bluetooth-Camera-Module-Development-Board-ESP32-With-Camera-Module-OV2640-IPEX-2_4G-SMA-Anten-p-1549751.html
+link4: https://www.gearbest.com/sensors/pp_3006467929419809.html?
+---
+
+Use tasmota32-webcam.bin build.

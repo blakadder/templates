@@ -1,0 +1,15 @@
+---
+layout: default
+title: ESP32 Based Devices
+---
+<h2>{{ page.title }}</h2>
+
+<!-- ######################################################################  -->
+<table width="80%">
+    <tbody>
+    {% assign devices = site.templates | where_exp: "devices", "devices.template32 != nil" | sort_natural: 'date_added' | reverse %}     
+    {% for template in devices limit: 100 %}
+    {% include tablerow_standard.html %}
+    {% endfor %}
+</tbody>
+</table>
