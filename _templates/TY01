@@ -2,11 +2,11 @@
 date_added: 2020-06-20
 title: TY01 Door Window
 model: TY01/XCS1
-link: https://www.aliexpress.com/item/4000510216875.html
 image: /assets/images/TY01.jpg
 template: '{"NAME":"TY01","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
-link2: https://www.aliexpress.com/item/4000492919273.html
 mlink: 
+link: https://www.aliexpress.com/item/4000510216875.html
+link2: https://www.aliexpress.com/item/4000492919273.html
 flash: serial
 category: sensor
 type: Contact Sensor
@@ -74,9 +74,16 @@ There is no function in Tasmota for battery power dpID so we will use a rule to 
 ```console
 Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010112 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010011 DO publish2 stat/%topic%/BATT low ENDON
 ```
-
-
 Don't forget to turn on the rule: `Rule1 1`
+
+## Home Assistant
+With Tasmota 9.2+ and integration in Home Assistant 2020.12+ add this rule:
+
+{% highlight yaml %}{% begin raw %}
+rule2 on system#boot do publish2 homeassistant/binary_sensor/%macaddr%_contact/config {"name":"%topic% Door Sensor","state_topic":"stat/%topic%/RESULT","value_template":"{{ value_json.POWER }}","device_class":"door","unique_id":"%macaddr%_contact","device":{"connections":[["mac","%macaddr%"]]}} endon on system#boot do publish2 homeassistant/sensor/%macaddr%_battery/config {"name":"%topic% Battery","state_topic":"stat/%topic%/BATTERY","value_template":"{{ value }}","icon":"mdi:battery","unique_id":"%macaddr%_battery","device":{"connections":[["mac","%macaddr%"]]}} endon
+{% endhighlight %}{% endraw %}
+
+Finally disable the switch entity in the device card
 
 ## Final Notes
 There is a significant delay (~5s on my network with the latest stripped down binary and a static IP) between reed actuation and its MQTT message so I don't recommmend this in critical spots where a fast response is required. I use them on windows where such a delay doesn't matter.
