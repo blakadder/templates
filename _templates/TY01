@@ -81,7 +81,7 @@ With Tasmota 9.2+ and integration in Home Assistant 2020.12+ add this rule:
 
 {% highlight yaml %}{% raw %}
 rule2 on system#boot do publish2 homeassistant/binary_sensor/%macaddr%_contact/config {"name":"%topic% Door Sensor","state_topic":"stat/%topic%/RESULT","value_template":"{{ value_json.POWER }}","device_class":"door","unique_id":"%macaddr%_contact","device":{"connections":[["mac","%macaddr%"]]}} endon on system#boot do publish2 homeassistant/sensor/%macaddr%_battery/config {"name":"%topic% Battery","state_topic":"stat/%topic%/BATTERY","value_template":"{{ value }}","icon":"mdi:battery","unique_id":"%macaddr%_battery","device":{"connections":[["mac","%macaddr%"]]}} endon
-{% endhighlight %}{% endraw %}
+{% endraw %}{% endhighlight %}
 
 Finally disable the switch entity in the device card
 
