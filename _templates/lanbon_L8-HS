@@ -25,7 +25,7 @@ Not working:
 
 Flashing is best done directly on ESP32-WROVER-B module. 
 
-Download a [compiled binary](assets/firmware/tasmota-lanbon-l8-gemu.bin) or use [Tasmota development branch](https://github.com/arendst/tasmota) and set in `user_config_override.h`
+Download a [compiled binary](assets/firmware/tasmota-lanbon-l8-9.2.0.2.bin) or use [Tasmota development branch](https://github.com/arendst/tasmota) and set in `user_config_override.h`
 
 ```arduino
 #define USE_I2C
