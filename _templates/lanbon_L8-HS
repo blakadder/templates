@@ -23,6 +23,8 @@ Not working:
 - Power metering based on pulse counter
 - Temperature measurement incorrect
 
+Flashing is best done directly on ESP32-WROVER-B module. 
+
 Download a [compiled binary](assets/firmware/tasmota-lanbon-l8-gemu.bin) or use [Tasmota development branch](https://github.com/arendst/tasmota) and set in `user_config_override.h`
 
 ```arduino
