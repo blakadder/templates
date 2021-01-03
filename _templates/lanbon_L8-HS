@@ -23,7 +23,7 @@ Not working:
 - Power metering based on pulse counter
 - Temperature measurement incorrect
 
-Download a [compiled binary](assets/firmware/tasmota-lanbon-l8-gemu.bin) or use [gemu's Tasmota branch](https://github.com/gemu2015/Sonoff-Tasmota/) and set in `user_config_override.h`
+Download a [compiled binary](assets/firmware/tasmota-lanbon-l8-gemu.bin) or use [Tasmota development branch](https://github.com/arendst/tasmota) and set in `user_config_override.h`
 
 ```arduino
 #define USE_I2C
