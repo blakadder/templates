@@ -40,3 +40,9 @@ My current pinout is...
 * GPIO14 = Red LED for both buttons
 
 Pins 6,7,8 and 11 cause hard resets when I try to set them to switches or buttons.
+
+***
+
+The right button is actually GPIO17.  After adjusting this in tasmota 9.2 the resulting template is as follows.
+
+{"NAME":"SuperNight Dual","GPIO":[1,32,1,224,2656,2688,0,0,225,2592,322,1,1,4801],"FLAG":0,"BASE":18}
