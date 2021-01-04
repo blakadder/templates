@@ -13,5 +13,5 @@ mlink: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=207
 ---
 
 ## Warning
-
-As of December 2020 these plugs come with Beken BK7231 chipset and are no longer compatible with Tasmota.
+- As of December 2020 these plugs come with Beken BK7231 chipset and are no longer compatible with Tasmota.
+- As of December 2020 these plugs can come with the new Tuya firmware and therefor cannot be flashed.
