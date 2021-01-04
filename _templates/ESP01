@@ -3,7 +3,7 @@ date_added: 2020-04-24
 title: ESP-01 Module
 model: ESP-01
 image: /assets/images/ESP01.jpg
-template: '{"NAME":"ESP01","GPIO":[255,255,255,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"ESP01","GPIO":[1,1,1,1,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33005770320.html
 link2: https://www.amazon.de/dp/B074RL7YR3/
 link3: https://www.banggood.com/5pcs-ESP-01S-ESP8266-Serial-to-WiFi-Module-Wireless-Transparent-Transmission-Industrial-Grade-Smart-Home-Internet-of-Things-IOT-p-1493541.html
