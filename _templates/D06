@@ -107,7 +107,7 @@ device:
     - '%deviceid%'
   name: %topic%
   manufacturer: Tasmota
-platform: mqtt{% endraw %}
+{% endraw %}
 {% endhighlight %}
 
 Paste the converted json payload in the rule instead of `<json_payload>`
