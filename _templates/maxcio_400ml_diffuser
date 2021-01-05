@@ -12,6 +12,8 @@ link2: https://www.amazon.es/dp/B07QPR8W3F
 
 [GD-30W 300ml](GD-30W.html) has identical codes and functions so you can use that configuration method.
 
+Flashing via Tuya-Convert (OTA) seems to be no longer possible due to the new PSK key issue (see https://github.com/ct-Open-Source/tuya-convert/wiki/Collaboration-document-for-PSK-Identity-02)
+
 
 ```lua
 Serial codes detected while debugging
