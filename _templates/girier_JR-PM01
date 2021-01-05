@@ -14,3 +14,14 @@ standard: eu
 ---
 
 How to [open the plug](https://blakadder.com/disassembling-CN39/)
+
+# Unsupported hardware
+I bought it few weeks ago in Girier Official Store on Aliexpress.
+There is TW-02 V2.0 (W600) chip on board. This can't be flashed to Tasmota
+
+But it can be controlled by MQTT via [tuya-mqtt](https://github.com/TheAgentK/tuya-mqtt)
+
+![girier_JR-PM01](assets/images/girier_JR-PM01-02.JPG "WiFi module")
+![girier_JR-PM01](assets/images/girier_JR-PM01-01.JPG "Relay")
+![girier_JR-PM01](assets/images/girier_JR-PM01-03.JPG "Current regulator")
+![girier_JR-PM01](assets/images/girier_JR-PM01-04.JPG "Disassemble")
