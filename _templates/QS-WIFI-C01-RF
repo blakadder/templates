@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-03
+title: QS-WIFI-C01-RF
+model: QS-WIFI-C01-RF
+image: /assets/images/QS-WIFI-C01-RF.jpg
+template9: '{"NAME":"Shutter-QS-WIFI-C01","GPIO":[0,0,1,0,288,0,0,0,32,33,224,225,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B08869Q3Z7/
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: Curtain Switch
+standard: global
+---

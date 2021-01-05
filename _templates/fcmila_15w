@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-03
+title: Fcmila 15W 1050lm 
+model: 
+image: /assets/images/fcmila_15w.jpg
+template9: '{"NAME":"FCMILA B22 15W","GPIO":[0,0,0,0,419,0,0,0,417,418,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.ebay.co.uk/itm/15W-B22-E27-WiFi-Smart-Bulb-RGBW-W-Remote-Control-for-Amazon-Alexa-Google-Home-/193812088085
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: [b22,e27]
+---

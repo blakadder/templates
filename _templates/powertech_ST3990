@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-04
+title: Powertech RGB
+model: ST3990
+image: /assets/images/powertech_ST3990.jpg
+template9: '{"NAME":"Powertech RGB ","GPIO":[0,0,0,0,416,419,0,0,418,420,417,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.jaycar.com.au/smart-wifi-rgb-led-controller-for-led-strips-with-app-and-voice-control/p/ST3990
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Controller
+standard: au
+---

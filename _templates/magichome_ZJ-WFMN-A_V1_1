@@ -1,0 +1,28 @@
+---
+date_added: 2021-01-04
+title: MagicHome RGB 
+model: ZJ-WFMN-A V1.1
+image: /assets/images/magichome_ZJ-WFMN-A_V1_1.jpg
+template: '{"NAME":"MagicHome RGB IR","GPIO":[0,0,0,0,51,37,0,0,38,39,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33005285804.html?spm=a2g0o.detail.0.0.27372735KhuFlK&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=74ef08c3-292c-44a4-add9-b979fda70a8f&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:74ef08c3-292c-44a4-add9-b979fda70a8f,tpp_buckets:668%230%23131923%2351_668%23888%233325%234_668%232846%238111%231996_668%232717%237565%23739_668%231000022185%231000066058%230_668%233468%2315614%23514
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+
+Rules for remote
+```console
+Rule1 On IrReceived#Data=0x00FF906F Do Dimmer + EndOn On IrReceived#Data=0x00FF9867 Do Color2 1 EndOn On IrReceived#Data=0x00FFE817 Do HSBColor1 13 EndOn On IrReceived#Data=0x00FF02FD Do HSBColor1 23 EndOn On IrReceived#Data=0x00FF50AF Do HSBColor1 33 EndOn On IrReceived#Data=0x00FF38C7 Do HSBColor1 43 EndOn On IrReceived#Data=0x00FFB847 Do Dimmer - EndOn On IrReceived#Data=0x00FFD827 Do Color2 2 EndOn On IrReceived#Data=0x00FF48B7 Do HSBColor1 140 EndOn On IrReceived#Data=0x00FF32CD Do HSBColor1 160 EndOn
+```
+```console
+Rule2 On IrReceived#Data=0x00FF7887 Do HSBColor1 180 EndOn On IrReceived#Data=0x00FF28D7 Do HSBColor1 200 EndOn On IrReceived#Data=0x00FFF807 Do Power 0 EndOn On IrReceived#Data=0x00FF8877 Do Color2 3 EndOn On IrReceived#Data=0x00FF6897 Do HSBColor1 260 EndOn On IrReceived#Data=0x00FF20DF Do HSBColor1 280 EndOn On IrReceived#Data=0x00FF708F Do HSBColor1 300 EndOn On IrReceived#Data=0x00FFF00F Do HSBColor1 320 EndOn
+```
+```console
+Rule3 On IrReceived#Data=0x00FFB04F Do Power 1 EndOn On IrReceived#Data=0x00FFA857 Do Color2 12 EndOn On IrReceived#Data=0x00FFB24D Do Backlog Power 0; WakeupDuration 1; Dimmer 100; Wakeup EndOn On IrReceived#Data=0x00FF00FF Do Backlog Power 0; WakeupDuration 5; Wakeup EndOn On IrReceived#Data=0x00FF58A7 Do Backlog Scheme 2; Speed 1 EndOn On IrReceived#Data=0x00FF30CF Do Backlog Scheme 3; Speed 5 EndOn
+```
+```console
+Backlog Rule1 1; Rule2 1; Rule3 1
+```

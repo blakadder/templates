@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-04
+title: TCP Smart 806lm Warm White
+model: LB60B2OWW2527
+image: /assets/images/tcp_LB60B2OWW2527.jpg
+template: '{"NAME":"TCP Smart Clas","GPIO":[0,0,0,0,0,0,0,0,0,37,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.wilko.com/en-uk/tcp-1-pack-bayonet-b22bc-led-806-lumens-classic-smart-wifi-bulb/p/0484146
+link2: 
+mlink: https://www.tcpsmart.eu/
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: b22
+---
