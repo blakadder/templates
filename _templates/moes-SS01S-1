@@ -2,7 +2,7 @@
 date_added: 2019-12-08
 title: Moes SS01S-1
 link: https://www.banggood.com/MoesHouse-SS01S-US-WiFi-Smart-Light-Switch-Control-by-Smart-LifeTuya-APP-Works-with-Alexa-Google-Home-for-Voice-Control-No-Hub-Required-p-1579052.html
-image: https://cdn.shopify.com/s/files/1/0095/4079/6497/products/SS01S_1800x1800.jpg
+image: /assets/images/moes-SS01S-1.jpg
 template: '{"NAME":"Moes Switch","GPIO":[255,255,255,255,56,0,0,0,21,17,255,255,255],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.com/MOES-Control-Compatible-Required-Standard/dp/B07PGY434H
 mlink: 

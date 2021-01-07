@@ -15,7 +15,15 @@ link3: https://www.walmart.ca/en/ip/X10S-WiFi-Smart-Time-Switch-Timing-Socket-Ou
 ---
 As of September 20, 2020, a four-pack of these plugs ordered from Amazon.com is not able to install tasmota using
 the tuya-convert utility. The exterior of these plug is slightly different than in the pictures, above.
-On the front of the plug the placement of the button and LED has changed:
+On the front of the plug the placement of the button and LED has changed.
+
+Units bought December 13, 2020 can be programmed by serial port, but getting to the TX/RX and GPIO pins are tricky. The easiest 
+access is on the bottom of the main board, but the power prongs are soldered to the board and difficult to remove without melting
+the plastic. In addition, the units are glued closed with no plastic prongs holding the shell together. Using a blade to open
+the units is relatively easy, but the units won't go back together without new glue.
+
+Instead, I used a dremel tool to cut out a portion of the back panel. I plan to use hot glue to close the back up. Close the 
+unit back up safely before using the plug. Images below.
 
 ![Label](https://user-images.githubusercontent.com/4684073/94974989-160dbe80-04c5-11eb-886e-f4e1cad069d6.jpg)
 
@@ -52,3 +60,16 @@ A few close-ups of the vertical PCB:
 A picture of the interior of the case:
 
 ![Label](https://user-images.githubusercontent.com/4684073/94975012-1e65f980-04c5-11eb-8137-ce3f8d6c96b6.jpg)
+
+An annotated view of the bottom of the circuit board:
+
+![Label]()
+
+Here I've blacked the area of the case that gives access to the programming portion of the mainboard:
+
+![Label]()
+
+With a programming USB serial port attached:
+
+![Label]()
+

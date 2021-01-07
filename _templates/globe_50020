@@ -4,6 +4,7 @@ title: Globe 2 Outlet
 model: 50020
 image: https://user-images.githubusercontent.com/5904370/73174440-0bb24e00-4108-11ea-861d-f68e197fce1f.png
 template: '{"NAME":"Globe 50020","GPIO":[0,158,0,57,18,17,0,0,21,56,22,0,0],"FLAG":0,"BASE":18}' 
+link3: https://www.thesource.ca/en-ca/smart-home-household/smart-home/switches-plugs/bright%E2%84%A2-wi-fi-dual-smart-plug/p/108080198
 link2: http://www.canac.ca/en/product/electrical/extension-cords-power-bars/power-bars/wifi-smart-plug_66768.aspx?unite=001002&sf=ovr%3dtrue%26root%3d857%26categorie%3d1284%252c1294%252c1347%26filterorder%3d0%252c0%252c0%26searchurl%3d%252fafficherbootstrap.aspx%253fsearch%253dglobe%252bintelligent%25253C%2526searchtype%253d2%2526display%253d5%2526langue%253dfr%2526unite%253d001002&galst=u%5bSearch%5d
 link1: https://www.amazon.ca/Globe-Electric-Independently-Controlled-50020/dp/B07XTSTDQD
 mlink: 
@@ -15,3 +16,6 @@ standard: us
 On board identification :  SK522WR-G2
 
 It seems this generic design can be bought under this model number.
+
+Also marketated as Globe's "Bright" line at The Source.
+Successfully bought and flashed with TuyaConvert on Jan 3, 2021

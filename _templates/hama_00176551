@@ -15,7 +15,7 @@ standard: eu
 
 Serial flashing the device with [Tasmotizer](https://github.com/tasmota/tasmotizer)
 
-[TYWE3S pinout](https://tasmota.github.io/docs/devices/TYWE3S/)
+[pinout](https://tasmota.github.io/docs/Pinouts/#tywe3s)
 
 Carefully solder wires to ESP8266 chip and connect to appropriate pins on USB-to-TTL converter:
 

@@ -13,7 +13,7 @@ link2:
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) to understand the terminology and configuration process.
 
-Flashed via serial by using TYWE3S pins. Might work with Tuya Convert.
+Flashed via serial by using [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) pins. Might work with Tuya Convert.
 
 Tuya Product ID: GQxEe5orh45cMgA61.0 
 

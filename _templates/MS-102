@@ -1,0 +1,36 @@
+---
+date_added: 2019-11-15
+title: MS-102
+model: MS-102
+category: cover
+type: Garage Door Opener
+standard: global
+image: /assets/images/MS-102.jpg
+template: '{"NAME":"Garage Opener","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/Controller-Smartphone-Compatible-Assistant-Required/dp/B07QG7RGFW
+link2: https://www.aliexpress.com/item/33020999004.html
+link3: https://www.gearbest.com/smart-home-controls/pp_009116415695.html
+mlink: 
+---
+
+Generic garage door controller, TuyaMCU relay with magnetic reed switch
+
+## Configuration
+
+Config might need to be adjusted to have LED work correctly.
+
+
+```console
+Backlog TuyaMCU 2,101; TuyaMCU 11,1; TuyaMCU 0,7; Switchmode1 4; Switchmode2 1
+```
+```console
+Rule1 on switch2#state=1 do publish2 stat/%topic%/POWER2 Open endon on switch2#state=0 do publish2 stat/%topic%/POWER2 Closed endon
+```
+Enable rule with `Rule1 1`
+
+https://tasmota.github.io/docs/Rules/#garage-door-opener has more on used rules.
+
+## Features
+- fnId=2 is set for dpId=101
+- fnId=11 is set for dpId=1
+- fnId=0 is set for dpId=7

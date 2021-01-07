@@ -34,7 +34,7 @@ Configure as a `Tuya Dimmer (54)` (support as a BASE module was introduced in 6.
 
 #### Flashing
 
-This device uses a Tuya TYWE3S Wi-Fi PCB module.  An easy soldering method is to take several Dupont style jumper wires, cut one end off, and apply a bit of solder to each stripped end.  This will keep the wire flexible and prevent any circuit board pads from ripping off.  Apply a bit of solder to each pad necessary to flash (double check your pin-outs).  Once the wire and pad have solder simply put the two together and apply a bit of heat and they will join together.
+This device uses a Tuya [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s)Wi-Fi PCB module.  An easy soldering method is to take several Dupont style jumper wires, cut one end off, and apply a bit of solder to each stripped end.  This will keep the wire flexible and prevent any circuit board pads from ripping off.  Apply a bit of solder to each pad necessary to flash (double check your pin-outs).  Once the wire and pad have solder simply put the two together and apply a bit of heat and they will join together.
 
 ![tywe3s_3](https://user-images.githubusercontent.com/3240875/43324698-669affd6-917a-11e8-8e06-c800741bfb68.png)
 ![chip_wires](https://user-images.githubusercontent.com/3240875/43324672-578ffcbc-917a-11e8-800c-f1d008ca3cf4.JPG)
@@ -43,7 +43,7 @@ Attach the GPIO0 wire to ground during initial boot to flash.  A 3-pin header br
 
 Two options:
 
-1. Remove the ESP PCB by desoldering. This makes it easier to get to the pins of the TYWE3S board.
+1. Remove the ESP PCB by desoldering. This makes it easier to get to the pins of the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s)board.
 
    ![](https://user-images.githubusercontent.com/25117255/60970963-637f9800-a323-11e9-8a68-1e3ca171e3bc.JPEG)
 

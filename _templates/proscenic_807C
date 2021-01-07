@@ -13,7 +13,7 @@ link2: https://www.amazon.it/gp/product/B07PW715W6
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) wiki entry to understand the terminology and configuration process.
 
-Flashed via serial by using TYWE3S pins.
+Flashed via serial by using [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) pins.
 
 ## Functions
 

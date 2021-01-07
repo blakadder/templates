@@ -2,7 +2,7 @@
 date_added: 2020-12-22
 title: EZPlug V1 OpenSource
 model: 
-image: /assets/images/
+image: /assets/images/ezplug_V1.jpg
 template: '{"NAME":"EZPlug V1","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":1}' 
 template9: '{"NAME":"EZPlug V1","GPIO":[0,0,0,32,0,0,0,0,0,320,224,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.th3dstudio.com/product/ezplug-open-source-wifi-smart-plug

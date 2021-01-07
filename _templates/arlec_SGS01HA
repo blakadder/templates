@@ -14,7 +14,7 @@ link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-home-hub_p0148571
 ---
 1. Initially pair the hub and all sensors using the Tuya app
 
-2. Flash the hub using a serial connection to the TYWE3S module with a standard Tasmota Image.
+2. Flash the hub using a serial connection to the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module with a standard Tasmota Image.
 
    ![SGS01HA board](/assets/images/arlec_SGS01HA_board.jpg)
    1. Hold GPIO0 to GND during power on to enter programming mode

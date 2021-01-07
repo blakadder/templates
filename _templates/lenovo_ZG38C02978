@@ -1,0 +1,18 @@
+---
+date_added: 2020-12-24
+title: Lenovo 800lm
+model: 
+image: /assets/images/lenovo_ZG38C02978.jpg
+template9: '{"NAME":"Lenovo SE-241EB","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.mediamarkt.es/es/product/_bombilla-%E2%80%93-lenovo-smart-bulb-led-rgb-color-wifi-1475002.html
+link2: 
+mlink: https://www.lenovo.com/gb/en/smart-bulb/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
+"You need to execute the next command to fix the bulb. If not, you won't be able to use the cold white light.
+```
+SetOption92 1
+```"

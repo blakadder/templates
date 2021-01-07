@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-01
+title: LilyGO TTGO T-Internet-POE
+model: T-Internet-POE
+category: misc
+type: DIY
+standard: global
+image: /assets/images/lilygo_T-Internet-POE.jpg
+template32: '{"NAME":"LilyGO T-Internet-POE","GPIO":[0,1,1,1,1,1,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1307&FId=t3:50033:3
+link: https://www.aliexpress.com/item/4001122992446.html
+link2: https://www.banggood.com/LILYGO-TTGO-T-Internet-POE-ESP32-WROOM-LAN8720A-Chip-Ethernet-Adapter-And-Downloader-Expansion-Board-Programmable-Hardware-p-1722368.html
+---
+
+For working Ethernet issue `EthClockMode 1` over serial terminal.

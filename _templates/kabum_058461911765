@@ -13,8 +13,8 @@ type: Power Strip
 standard: br
 ---
 ## Flashing
-I didn't manage to flash Tasmota while soldered on the board, so I decided to remove TYWE3S from the main board and used this schematic to serial flash it:
+I didn't manage to flash Tasmota while soldered on the board, so I decided to remove [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) from the main board and used this schematic to serial flash it:
 
 ![Flashing ESP12 Schematic](https://blakadder.com/assets/images/fcmila/flashing_esp12.jpg)
 
-More general info on how to flash TYWE3S (ESP12) [here](https://blakadder.com/frankenstein-saturday-3/)
+More general info on how to flash [here](https://blakadder.com/frankenstein-saturday-3/)

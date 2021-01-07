@@ -9,11 +9,11 @@ template: '{"NAME":"SK03 Outdoor","GPIO":[17,0,0,0,133,132,0,0,131,57,56,21,0],"
 link2: 
 ---
 
-SK03 Outdoor Smart Plug which can be found as different brand names on Amazon.  The ESP8266 module inside is a TYWE3S by Tuya. The power monitoring is a HLW8012 much like the original Sonoff POW and other power monitoring modules.
+SK03 Outdoor Smart Plug which can be found as different brand names on Amazon.  The ESP8266 module inside is a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) by Tuya. The power monitoring is a HLW8012 much like the original Sonoff POW and other power monitoring modules.
 
 Pull the four rubber pads off the bottom to expose the screws and the unit opens up.  Unscrew the small screws from the board and it comes out of the case. The relay is close to the soldering points on the Tuya module but it can be done if you are careful.  GPIO0 is the button on the underside so you do not need to solder to that point, just hold the button during boot for your flashing process like you would with a Sonoff Basic.  
 
-Information regarding the standard soldering and pinouts for the TYWE3S module:
+Information regarding the standard soldering and pinouts for the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module:
 
 ![tywe3s_3](https://user-images.githubusercontent.com/3240875/43324698-669affd6-917a-11e8-8e06-c800741bfb68.png)
 ![chip_wires](https://raw.githubusercontent.com/digiblur/TuyaDimmer-Tasmota/master/SK03_Outdoor_Flashing_Pinout.jpg)

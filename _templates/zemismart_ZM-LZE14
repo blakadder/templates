@@ -12,3 +12,7 @@ category: bulb
 type: RGBW
 standard: e14
 ---
+
+# Info
+
+This bulb uses White Blend Mode for accurate white reproduction, once flashed use `SetOption105 1` as per the Tasmota documentation.

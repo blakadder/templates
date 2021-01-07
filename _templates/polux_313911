@@ -14,13 +14,13 @@ standard: eu
 ---
 Unfortunately the device comes with a newer Tuya firmware and tuya-convert does not work. One needs to disassemble the device and flash using serial method (soldering required).
 
-To flash it you need to open the bottom cover which is hold by plastic holders around the base. Use screwdriver to lift the bottom. Inside there is a TYWE3S module, and on the bottom side - a Tuya MCU (MS51FB9AE).
+To flash it you need to open the bottom cover which is hold by plastic holders around the base. Use screwdriver to lift the bottom. Inside there is a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module, and on the bottom side - a Tuya MCU (MS51FB9AE).
 
 MCU must be disabled while flashing by connecting RST and GND pads 
 
 ![Pads are on bottom side, left top corner](/assets/images/polux_313911_pinout.jpg)
 
-Connect serial to TYWE3S pins on the top side, connect GPIO0 to GND and flash normally via serial. 
+Connect serial to [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) pins on the top side, connect GPIO0 to GND and flash normally via serial. 
 
 After flashing, set device to TuyaMCU (54) module and configure Tuya functions:
 

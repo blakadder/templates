@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-01
+title: BrilliantSmart 8.5W 900lm 3000k
+model: 20889
+image: /assets/images/brilliantsmart_20889.jpg
+template: '{"NAME":"Brilliant20889","GPIO":[0,0,0,0,0,0,0,0,37,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.brilliantlighting.com.au/product/smart-wifi-led-globe-1e525c
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: [e27,b22]
+---

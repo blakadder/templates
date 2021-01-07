@@ -1,6 +1,6 @@
 ---
 date_added: 2020-12-15
-title: Wofea Garage Door Opener
+title: Wofea
 model: WF-WG088
 image: /assets/images/wofea_WF-WG088.jpg
 template9: '{"NAME":"Wofea Garage Door","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":54}' 
@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: tuya-convert
 category: cover
-type: Garage Door opener
+type: Garage Door Opener
 standard: us
 ---
 ## Module Config

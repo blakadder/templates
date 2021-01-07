@@ -1,8 +1,8 @@
 ---
 date_added: 2020-06-04
-title: Lenovo Smart IR Controller
-model: Lenovo SE-741C
-image: /assets/images/lenovo_SE-741C.jpg
+title: Lenovo SE-741C IR Controller
+model: ZG38C02929
+image: /assets/images/lenovo_ZG38C02929.jpg
 template: '{"NAME":"Lenovo IR","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.jbhifi.com.au/products/lenovo-smart-ir-controller
 link2: 

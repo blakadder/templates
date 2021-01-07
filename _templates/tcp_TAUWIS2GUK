@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-04
+title: TCP Smart Dual
+model: TAUWIS2GUK 
+image: /assets/images/tcp_TAUWIS2GUK.jpg
+template9: '{"NAME":"TCP TAUWIS2GUK","GPIO":[33,0,0,0,0,224,32,0,225,544,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.argos.co.uk/product/7630222
+link2: https://www.amazon.co.uk/dp/B07JWJ6VGN/
+mlink: https://www.tcpsmart.eu/
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: uk
+---

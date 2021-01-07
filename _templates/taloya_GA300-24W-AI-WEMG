@@ -1,0 +1,19 @@
+---
+date_added: 2021-01-02
+title: Taloya 12" 24W CCT Main and RGB Ambient
+model: GA300-24W-AI-WEMG
+image: /assets/images/taloya_GA300-24W-AI-WEMG.jpg
+template9: '{"NAME":"Taloya GA300-24W-AI-WEMG","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Taloya-Ceiling-Compatible-Dimmable-Profile/dp/B07WY3VM1M
+link2: 
+mlink: https://www.taloya.com/copy-of-stream-buy
+flash: serial
+category: light
+type: Ceiling Light
+standard: us
+---
+To enable independent handling of RGB and white channels the following must be run:
+`SetOption37 128`
+
+To enable the second PWM to control the color temp the following must be run:
+`SetOption92 ON`"

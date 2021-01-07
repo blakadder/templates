@@ -20,7 +20,7 @@ This is a bladeless desk fan with a night light and battery power.
 Flashed via serial using broken out pins. Tuya Convert did not work due to new firmware.
 
 
-Disconnect the fan and USB charging port from the PCB. Connect your flasher to GND, TX and RX pins and power the board with its battery. Ground GPIO0 directly on the TYWE3S module.
+Disconnect the fan and USB charging port from the PCB. Connect your flasher to GND, TX and RX pins and power the board with its battery. Ground GPIO0 directly on the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module.
 
 ![](/assets/images/zemismart_F1-BL_pinout.jpg)
 
@@ -118,6 +118,6 @@ Rule2 +
 Turn on / change light using `event c` and turn it off with `event coff`. 
 
 ## Improving the Device
-I was not satisfied at all with the completely crippled features of the device and ultimately decided to rewire the two buttons and the light LED directly to the TYWE3S module. There will be a blog about it on [blakadder.com](https://blakadder.com) once I'm sure everything is working as it should. For now a little teaser image:
+I was not satisfied at all with the completely crippled features of the device and ultimately decided to rewire the two buttons and the light LED directly to the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module. There will be a blog about it on [blakadder.com](https://blakadder.com) once I'm sure everything is working as it should. For now a little teaser image:
 
 ![teaser](/assets/images/zemismart_F1-BL_rewire.jpg)

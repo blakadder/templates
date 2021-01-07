@@ -8,6 +8,10 @@ link: https://www.amazon.com/gp/product/B07JZ124FK
 image: https://raw.githubusercontent.com/DavinKD/SmartThings/master/DeviceImages/ks-604s.jpg
 template: '{"NAME":"KS-604S","GPIO":[255,255,31,255,255,18,0,0,22,21,255,255,17],"FLAG":1,"BASE":18}' 
 link2: https://www.alibaba.com/product-detail/New-Design-2-way-Double-Power_60817067611.html
+link3: https://www.amazon.com/dp/B07K1LX5PL
+flash: tuya-convert
 ---
 
 There are different versions of the KS-604S requiring different GPIO configurations. Please refer to https://tasmota.github.io/docs/devices/Kesen-KS-604S/ for more details.
+
+I bought a KKCool KS_604S from amazon.com on 12/17/2020. It was still tuya-convert-able;-) I don't know about the GPIO mapping yet because it's not installed yet. I opened the back and the all the needed connections are easily acessible. So, there should not be a problem, even if the firmware would be updated in the future.

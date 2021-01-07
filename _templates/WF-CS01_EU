@@ -73,7 +73,7 @@ SwitchMode3 5   # pushbutton with hold
 SetOption11 1   # Swap button single and double press functionality
 ```
 
-This module is based on the Tuya TYWE3S and TuyaConvert isn't working anymore (but one can always try..)
+This module is based on the Tuya [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) and TuyaConvert isn't working anymore (but one can always try..)
 ![20190918_122058](https://user-images.githubusercontent.com/31405979/66112354-f6e70300-e5ca-11e9-9378-095c42e2bfbc.jpg)
 
 The inside of this module looks like this:

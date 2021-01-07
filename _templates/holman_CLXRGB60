@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-25
+title: Holman Garden Light RGB
+model: CLXRGB60
+image: /assets/images/holman_CLXRGB60.jpg
+template9: '{"NAME":"Holman RGB","GPIO":[0,0,0,0,0,0,0,0,417,416,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/holman-rgb-colour-wi-fi-garden-light-controller_p0189462
+link2: 
+mlink: https://www.holmanindustries.com.au/product/rgb-colour-wifi-garden-light-controller/
+flash: tuya-convert
+category: light
+type: LED Controller
+standard: au
+---

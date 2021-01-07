@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-22
+title: Shawader 2Ch Touch Light
+model: WLS028
+image: /assets/images/shawader_WLS028.jpg
+template: '{"NAME":"ShawaderTuya2C","GPIO":[0,0,0,0,21,0,0,0,18,22,17,0,52],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"ShawaderTuya2C","GPIO":[0,0,0,0,224,0,0,0,33,225,32,0,288,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33030801415.html
+link2: 
+mlink: https://shawader.aliexpress.com/store/4884178
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---

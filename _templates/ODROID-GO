@@ -1,0 +1,34 @@
+---
+date_added: 2021-01-01
+title: ODROID-GO Game Kit
+model: 
+category: misc
+type: DIY
+standard: global
+image: /assets/images/ODROID-GO.jpg
+template32: '{"NAME":"Odroid","GPIO":[0,1,0,1,1,768,1,1,1,0,416,1,1,1,736,672,0,800,1,704,0,1,1,0,0,0,0,0,0,0,4704,3329,4866,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.hardkernel.com/shop/odroid-go/
+link: 
+---
+Set in user_config_override.h
+
+```arduino
+#define USE_DISPLAY
+#define USE_SPI
+#define USE_DISPLAY_ILI9341
+```
+
+Apply the template and issue 
+```console
+adcparam3 6,0,4095,0,6160
+```
+
+Adjust display
+```console
+Backlog DisplayRotate 3; DisplayCols 53; DisplayRows 30; DisplayMode 5
+```
+
+Rule for analog joystick
+```console
+backlog rule1 on analog#joy2=1 do dimmer - endon on analog#joy2=2 do dimmer + endon; rule1 1
+```

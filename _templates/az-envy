@@ -3,7 +3,7 @@ date_added: 2020-11-25
 title: AZ-Envy Environmental Development Board 
 model: 
 image: /assets/images/az-envy.jpg
-template9: '{"NAME":"AZ Envy","GPIO":[0,0,288,0,640,608,0,0,0,0,0,0,0,4704],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"AZ Envy","GPIO":[32,0,320,0,640,608,0,0,0,0,0,0,0,4704],"FLAG":0,"BASE":18}' 
 link: https://www.az-delivery.de/products/az-envy?_pos=2&_sid=a8ccafba3&_ss=r
 link2: https://www.amazon.de/dp/B08LKVSH2B/
 mlink: https://www.az-delivery.de/products/az-envy?_pos=2&_sid=a8ccafba3&_ss=r
@@ -12,4 +12,5 @@ category: sensor
 type: Multisensor
 standard: global
 ---
-USB power and FTDI needs to be connected simultaneously to flash device. Press FLASH and RESET and release RESET to initiate flash
+USB power and FTDI needs to be connected simultaneously to flash device. Press FLASH and RESET and release RESET to initiate flash.
+You have to flash tasmota-sensors.bin to use the SHT sensor.

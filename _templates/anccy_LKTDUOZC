@@ -135,7 +135,7 @@ rule1 ON Button3#State=2 DO Backlog ShutterStop1; Power3 toggle; RuleTimer1 2 EN
 
 ### Flashing with serial ###
 
-System is based on TYWE3S module. TuyaConvert isn’t working ([Issue](https://github.com/ct-Open-Source/tuya-convert/issues/483)
+System is based on [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module. TuyaConvert isn’t working ([Issue](https://github.com/ct-Open-Source/tuya-convert/issues/483)
 and [collaboration](https://github.com/ct-Open-Source/tuya-convert/wiki/Collaboration-document-for-PSK-Identity-02)). You have to
 use serial flashing.
 

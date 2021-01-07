@@ -79,14 +79,24 @@ layout: default
   </div>
   </div>
 </div>
-{% if page.template9 != nil %}
+{% if page.template32 != nil %}
+<div class="row">
+  <div class="column"><strong>Template for ESP32 device</strong></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+</div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.template32 }}</code></pre>
+</div>
+</div>
+{% elsif page.template9 != nil %}
 <div class="row">
   <div class="column"><strong>Template for Tasmota v9.1+</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
 <div class="row">
   <div class="column column-100">
-    <pre><code class="language-erlang">{{ page.template9 }}</code></pre>
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.template9 }}</code></pre>
 </div>
 </div>
 {% else %}
@@ -112,6 +122,10 @@ layout: default
 </div>
 {% endif %}
 <div>
+  {% if page.template32 != nil %}
+  Requires <a href="http://ota.tasmota.com/tasmota32/">tasmota32.bin or variations</a> of it to run. <a href="https://tasmota.github.io/docs/ESP32/">Flashing instructions</a>.<p>
+  {% endif %}
+
   {% if page.author == 'blak' %}
   <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
   {% endif %}

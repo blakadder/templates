@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-27
+title: BAZZ 10 ft RGBW 
+model: U183MRGBWWF
+image: /assets/images/bazz_U183MRGBWWF.jpg
+template9: '{"NAME":"BAZZ U183MRGBWWF RGBW LED Strip","GPIO":[32,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B01MFE12I8
+mlink: https://www.bazzsmarthome.ca/products/colors-collection-smart-wifi-led-light-strip
+flash: serial
+category: light
+type: LED Strip
+standard: us
+---
+The controller is very easy to open and it is quite simple to solder the necessary wires to program this device using a serial adaptor. The button is connected to GPIO0 so simply press the button while powering up the controller to put it in programming mode.  

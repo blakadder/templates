@@ -37,7 +37,7 @@ Here is an image of how I've done that:
 ![](https://i.imgur.com/BDKKM0I.jpeg)
 
 Next step is to connect the serial connection (RX, TX), and GND and 3V3 (VCC) for the serial connection as per image below.
-Note, you also need to connect GPIO0 to GND to put the TYWE3S chip into programming mode.
+Note, you also need to connect GPIO0 to GND to put the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) chip into programming mode.
 
 After that follow the guide linked above to flash Tasmota.
 
