@@ -10,15 +10,9 @@ template32: '{"NAME":"Odroid","GPIO":[0,1,0,1,1,768,1,1,1,0,416,1,1,1,736,672,0,
 mlink: https://www.hardkernel.com/shop/odroid-go/
 link: 
 ---
-Set in user_config_override.h
+Use `tasmota-odroid.bin` and select Odroid Go module.
 
-```arduino
-#define USE_DISPLAY
-#define USE_SPI
-#define USE_DISPLAY_ILI9341
-```
-
-Apply the template and issue 
+After that issue to adjust ADC operation
 ```console
 adcparam3 6,0,4095,0,6160
 ```
