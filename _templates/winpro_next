@@ -31,7 +31,7 @@ Example Hass config:
   brightness_command_topic: "cmnd/wipro2/Dimmer"
   brightness_state_topic: "tele/wipro2/STATE"
   brightness_scale: 100
-  brightness_value_template: "{{ value_json.Dommer }}"
+  brightness_value_template: "{{ value_json.Dimmer }}"
   on_command_type: "brightness"
   qos: 1
   payload_on: "ON"
