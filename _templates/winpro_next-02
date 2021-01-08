@@ -1,0 +1,9 @@
+---
+date_added: 2021-01-08
+title: Wipro Next 20W Smart LED Batten (RGB)
+category: light
+type: Light
+standard: in
+link: https://www.amazon.in/dp/B08D19X3LS
+image: https://images-na.ssl-images-amazon.com/images/I/71LXTPDUyZL._SL1500_.jpg
+template: '{"NAME":"WIPROBatten","GPIO":[0,0,0,0,0,37,0,0,0,47,0,0,0],"FLAG":1,"BASE":18}' 
