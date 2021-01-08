@@ -9,11 +9,3 @@ image: https://images-na.ssl-images-amazon.com/images/I/61S9XsagcDL._AC_SL1200_.
 template: '{"NAME":"WiproSmartBulb","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-
-Same as Wipro Garnet 9W bulb, but swapped GPIO5 and GPIO13
-
-
-
-
-
-

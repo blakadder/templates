@@ -1,0 +1,10 @@
+---
+date_added: 2020-01-08
+title: Wipro Next Smart Batten 20W RGB
+category: light
+type: Light
+standard: in
+image: /assets/images/wipro_DS22000.jpg
+template: '{"NAME":"WIPROBatten","GPIO":[0,0,0,0,0,37,0,0,0,47,0,0,0],"FLAG":1,"BASE":18}' 
+link: https://www.amazon.in/dp/B08D19X3LS
+---

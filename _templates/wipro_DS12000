@@ -1,0 +1,14 @@
+---
+date_added: 2019-06-27
+title: Wipro Next Smart Batten 20W CCT
+category: light
+type: Light
+standard: in
+image: /assets/images/wipro_DS12000.jpg
+template: '{"NAME":"WIPROBatten","GPIO":[0,0,0,0,0,37,0,0,0,47,0,0,0],"FLAG":1,"BASE":18}' 
+mlink: https://www.wiproconsumerlighting.com/products/garnet/batten/wipro-next-smart-batten
+link: https://www.amazon.in/dp/B07P7JNQ56
+link2: 
+---
+
+`SetOption92 1`  -  use PWM1 for brightness and PWM2 for color temperature (instead of PWM1 for Cold White and PWM2 for Warm White)
