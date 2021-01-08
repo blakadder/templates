@@ -118,7 +118,7 @@ layout: default
 </div>
 </div>
 {% endif %}
-{% if page.template-alt != nil %}
+{% if page.template-alt != nil and page.template9 == nil %}
 <div class="row">
   <div class="column column-100">
     <pre><code class="language-erlang">{{ page.template-alt }}</code></pre>
