@@ -6,7 +6,7 @@ category: bulb
 standard: e27
 link: https://www.amazon.de/gp/product/B07VZXDX6J
 image: https://user-images.githubusercontent.com/5904370/66717700-49e76400-eddc-11e9-87f4-2e3b2667eac0.png
-template: '{"NAME":"Mixigoo Bulb","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Mixigoo Bulb RGBCCT","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 flash: tuya-convert
 ---
