@@ -13,3 +13,6 @@ type: Relay
 standard: global
 ---
 DYI ESP8266 relay with external optoisolated button. Requires an external power supply.
+The input from the switch is opto-isolated so the 5V can be used directly to supply the switch.
+Unfortunately, it appears that many cevices do not have the 0V connected on the input.
+A connection needs to be made from the 0V on the supply to the 0V on the signal input.
