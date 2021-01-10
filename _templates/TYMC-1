@@ -14,6 +14,12 @@ standard: global
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
+
+## Unsupported Hardware
+**Sadly, new versions of this sensor come with an unsupported XR4 module**
+
+## Old Hardware Version Instructions
+
 Found listed also as MC400A under various brand names.
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
