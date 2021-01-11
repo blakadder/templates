@@ -34,7 +34,11 @@ Use latest Tasmota development release and set in user_config_override.h
 #define USE_FT5206  
 #define USE_MPU6886  
 ```
-add this in platformio.ini to `build_flags`: `-DBOARD_HAS_PSRAM`
+add this in platformio.ini to `build_flags`: 
+```arduino
+-DBOARD_HAS_PSRAM
+-mfix-esp32-psram-cache-issue
+```
 
 Fully supported with all sensors and SD card.
 
