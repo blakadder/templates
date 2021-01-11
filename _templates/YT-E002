@@ -4,8 +4,9 @@ title: YT-E002
 model: YT-E002
 image: /assets/images/YT-E002.jpg
 template: '{"NAME":"YT-E002","GPIO":[158,0,0,0,18,0,0,0,22,17,0,21,0],"FLAG":0,"BASE":18}' 
-link: https://www.aliexpress.com/item/4000654218836.html
-link2: 
+link: https://www.aliexpress.com/i/4000306770840.html
+link2: https://www.amazon.fr/Almencla-Smart-Power-Socket-Plug/dp/B0813X6ZW2
+link3: https://www.aliexpress.com/item/4000654218836.html
 mlink: 
 flash: tuya-convert
 category: plug

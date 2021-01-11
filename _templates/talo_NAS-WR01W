@@ -1,0 +1,19 @@
+---
+date_added: 2021-01-10
+title: Talo 10A 
+model: NAS-WR01W
+image: /assets/images/talo_NAS-WR01W.jpg
+template9: '{"NAME":"Talo smart plug","GPIO":[32,0,0,0,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":49}' 
+link: https://www.cadeauxperts.nl/product/talo-smart-home-stekker/
+link2: 
+mlink: https://www.talosmarthome.com/
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+There is a screw is behind the specification sticker under the earth mark. Once you've removed the screw you will need to detach the wifi antenna from the body of the plug. Be careful that you don't break the wire. After that you should be able to take the board out of the plug by hitting the power pins on the back of the device using a small hammer. Gpio0 is the button. That means before you power the plug using your serial adapter you will need to hold the button.
+
+For more information look at [this video](https://www.youtube.com/watch?v=CV8Y61gEQpQ)
+
+It is another brand but all steps are the same.

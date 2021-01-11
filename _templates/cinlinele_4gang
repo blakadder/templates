@@ -1,0 +1,19 @@
+---
+date_added: 2021-01-10
+title: Cinlinele 4 Gang
+model: 
+image: /assets/images/cinlinele_4gang.jpg
+template: '{"NAME":"Cinlinele","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000194797437.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: [eu, uk]
+---
+This device is using TuyaMCU.
+In the Console, type the following commands to get it fully working:
+```console
+Backlog Module 54; TuyaMCU 12,2; TuyaMCU 13,3; TuyaMCU 14,4
+```
