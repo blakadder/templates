@@ -11,14 +11,9 @@ template: '{"NAME":"TL SS01S Swtch","GPIO":[0,0,0,0,52,158,0,0,21,17,0,0,0],"FLA
 link2: https://www.amazon.com/gp/product/B07R4MFWCQ
 mlink: 
 ---
-Works for flashing via Tuya-Convert on 08/22/2020
+
+Tuya-Convert **DID NOT WORK** on Jan 11, 2021, using the 4-pack of switches: https://www.amazon.com/gp/product/B07R4MFWCQ.
+
+Tuya-Convert worked on Dec 21, 2020, amazon Canada: https://www.amazon.ca/gp/product/B07R7PCCT9
 
 Tuya-Convert worked on Dec 9, 2020, using the 4-pack of switches: https://www.amazon.com/gp/product/B07R4MFWCQ
-Tuya-Convert worked on Dec 21, 2020, amazon Canada: https://www.amazon.ca/gp/product/B07R7PCCT9
-Tuya-Convert **DID NOT WORK** on Jan 11, 2021, using the 4-pack of switches: https://www.amazon.com/gp/product/B07R4MFWCQ. Failed with same logs here: https://github.com/ct-Open-Source/tuya-convert/issues/483
-
-
-
-
-
-
