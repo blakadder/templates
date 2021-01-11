@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: misc
-type: DIY
+type: Display
 standard: global
 ---
 Requires tasmota-display.bin to support
