@@ -1,6 +1,6 @@
 ---
 date_added: 2021-12-03
-title: MC6 Thermostat
+title: MC6
 model: MC6-HW
 category: unsupported
 type: Thermostat
