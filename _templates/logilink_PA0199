@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-12
+title: LogiLink 
+model: PA0199
+image: /assets/images/logilink_PA0199.jpg
+template: '{"NAME":"LogilinkPA0199","GPIO":[0,0,0,90,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B081QY1BC4
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Plug
+standard: eu
+---
