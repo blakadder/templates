@@ -8,10 +8,11 @@ template9: '{"NAME":"gosund SL2","GPIO":[1,1,1,1,99,417,1,1,416,418,1,1,1,1],"FL
 link: https://www.amazon.de/dp/B08CMMWSPR
 link2: https://www.amazon.de/dp/B085L2M9N8
 mlink: 
-flash: serial
+flash: serial, OTA
 category: light
 type: LED Strip
 standard: eu
 ---
 
-The pins for flashing (VCC, GND, RX, TX, I00 and Reset) are on the PCB,
+The pins for flashing (VCC, GND, RX, TX, I00 and Reset) are on the PCB.
+Flashing with tuya-convert works (2021-01-16)
