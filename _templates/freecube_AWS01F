@@ -12,3 +12,10 @@ category: switch
 type: Switch
 standard: us
 ---
+2021-01-17
+- New tuya firmware on device caused tuya-convert not to work. Purchased from link above on 1-10-2021. 
+- Switch does not have wifi cut-out on paddle for led in this version, just a horizontal slot cut-out. 
+- Flashed via serial, links to pin out pic below. TX/RX labeled on PCB. New template below. Tasmota V9.1.0 (tasmota.bin) confirmed working. 
+template: '{"NAME":"Freecube","GPIO":[288,0,289,0,0,0,0,0,290,32,0,224,0,0],"FLAG":0,"BASE":18}'
+flash: serial
+Pinout: https://cambridgeave.com/freecubepinout.jpg
