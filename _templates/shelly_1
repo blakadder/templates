@@ -7,7 +7,8 @@ mlink: https://shelly.cloud/shelly1-open-source/
 image: /assets/images/shelly_1.jpg
 template: '{"NAME":"Shelly 1","GPIO":[0,0,0,0,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}'
 link: https://www.amazon.de/gp/product/B07NS8M4Y1
-link2: https://www.amazon.com/SHELLY-Wireless-Automation-Android-Application/dp/B07G33LNDY/
+link2: https://www.amazon.com/dp/B07G33LNDY/
+link3: https://www.domadoo.fr/fr/objets-communicants/4795-shelly-micromodule-intellig
 ---
 
 * [Allterco Shelly 1 Product Page](https://shelly.cloud/shelly1-open-source/)
