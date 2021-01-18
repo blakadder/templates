@@ -20,3 +20,6 @@ To flash it, you will need to solder wires onto the solder pads labeled "RX", "T
 
 Also, this device does not use SM16716 LED driver, but uses BP5778 and therefore uses PWM channels for all the colors + whites.
 `SetOption68 1` will have to be used to enable separate PWM control.
+
+Some versions use the [TYWE3L](https://developer.tuya.com/en/docs/iot/device-development/module/wifi-module/we-series-module/wifie3lpinmodule?id=K9605uj1ar87n) and the suitable template for this is:
+template: '{"NAME":"CleverioE27RGB,"GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
