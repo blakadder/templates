@@ -7,7 +7,7 @@ image: https://user-images.githubusercontent.com/5904370/57875590-99b50580-7813-
 template: '{"NAME":"Sonoff Basic","GPIO":[17,255,255,255,255,0,0,0,21,56,255,0,0],"FLAG":0,"BASE":1}' 
 link1: https://www.itead.cc/smart-home/sonoff-wifi-wireless-switch.html
 link2: https://www.banggood.com/SONOFF-Basic-10A-2200W-WIFI-Wireless-Smart-Switch-Remote-Control-Socket-APP-Timer-p-1019971.html
-link3: https://www.aliexpress.com/item/32904508879.html
+link3: https://www.aliexpress.com/item/1005001846041233.html
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/basicr2
 ---
 Sonoff Basic - the one that started it all!
