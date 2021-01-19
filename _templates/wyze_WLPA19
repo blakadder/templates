@@ -13,7 +13,7 @@ type: CCT
 standard: e26
 ---
 
-**Requires Tasmota 9.5.0.1+**
+**Requires Tasmota 9.2+**
 
 To flash, just twist off the top, desolder the wires, and unscrew the LEDs.
 Then, remove a small amount of potting material to reach these connections.

@@ -1,16 +1,18 @@
 ---
 date_added: 2019-12-08
 title: Makegood MG-UKWSG01
-link: http://s.click.aliexpress.com/e/Md4iwXc4
+link: https://www.aliexpress.com/item/4000810174196.html
 image: https://user-images.githubusercontent.com/5904370/71644087-381eaa00-2cc3-11ea-8a7a-7173475b0762.png
 template: '{"NAME":"Aseer 2-Gang","GPIO":[57,9,157,59,134,132,0,0,131,21,56,22,10],"FLAG":0,"BASE":18}'
-link2: http://s.click.aliexpress.com/e/2BY2YuNi
+link2: 
 mlink: 
 flash: tuya-convert
 category: plug
 type: Wall Outlet
 standard: uk
 ---
+Tuya-Convert successful on 2020-12-13.
+
 Found under different IDs: Hi-UKWFWS01 or Hi-UKWSG01 or MG-UKWSW
 
 I based this loosely on the MakeGood template found here and made some changes. The only thing I did not manage to get working is the low blue LED light when the socket is switched off. LED for power on works fine.

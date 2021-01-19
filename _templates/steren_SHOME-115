@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-12
+title: Steren Apagador
+model: SHOME-115
+image: /assets/images/steren_SHOME-115.jpg
+template: '{"NAME":"SHOME-115","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.steren.com.mx/apagador-wi-fi.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+Remove 4 screws from the back of the device and separate the two pieces, the front plate have clear markings of TX, RX, GND, 3V3 and GPIO0, attach jumper wires to a USB-TTL, plug and flash (Tasmotizer works very well).

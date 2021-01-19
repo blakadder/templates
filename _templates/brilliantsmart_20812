@@ -13,9 +13,9 @@ link: https://www.bunnings.com.au/brilliant-12w-290mm-smart-salisbury-wifi-cct-l
 link2: https://www.bunnings.co.nz/brilliant-12w-290mm-smart-salisbury-wifi-cct-led-ceiling-light_p0133111
 ---
 The following options need to be set for the light to function correctly:
-'SetOption92 1'    
-'LedTable 0'    
-'DimmerRange 4,100'    
+```console
+Backlog SetOption92 1; LedTable 0; DimmerRange 4,100
+```
 
 You can enter them via the console.
 

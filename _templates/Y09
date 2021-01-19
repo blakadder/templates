@@ -67,6 +67,10 @@ Check with `TuyaMCU` for the following configuration:
 ```console
 Rule1 ON TuyaReceived#Data=55AA0002000001 DO publish2 stat/%topic%/STATUS OPEN ENDON ON TuyaReceived#Data=55AA00050005010400010110 DO publish2 stat/%topic%/STATUS CLOSED ENDON
 ```
+Optionally: If OPEN/CLOSED seems *inverted*, one may also try the following alternative `Rule1`:
+```console
+Rule1 ON TuyaReceived#Data=55AA0002000001 DO publish2 stat/%topic%/STATUS CLOSED ENDON ON TuyaReceived#Data=55AA00050005010400010110 DO publish2 stat/%topic%/STATUS OPEN ENDON ON TuyaReceived#Data=55AA0005000501040001000F DO publish2 stat/%topic%/STATUS CLOSED ENDON
+```
 
 ```console
 Rule2 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010114 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010015 DO publish2 stat/%topic%/BATT low ENDON

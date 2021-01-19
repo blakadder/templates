@@ -14,4 +14,6 @@ type: LED Strip
 standard: eu
 ---
 
-The pins for flashing (VCC, GND, RX, TX, I00 and Reset) are on the PCB,
+The pins for flashing (VCC, GND, RX, TX, I00 and Reset) are on the PCB.
+
+Flashing with tuya-convert worked (2021-01-16)

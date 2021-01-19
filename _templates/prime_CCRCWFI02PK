@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-12
+title: Prime
+model: CCRCWFI02PK
+image: /assets/images/prime_CCRCWFI02PK.jpg
+template: '{"NAME":"PRIME CCRCWFI02PK","GPIO":[0,0,0,0,56,157,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/Prime-WiFi-Smart-Outlets/dp/B07J5YTR5B
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---
