@@ -8,7 +8,7 @@ link: https://www.amazon.com/Shelly-Smart-Energy-Monitor-Consumption/dp/B07ZHLP7
 link2: https://www.amazon.de/Shelly-EM-Single-Phase/dp/B07ZHLN63D/
 link3: https://www.domadoo.fr/fr/objets-communicants/5284-shelly-compteur-d-energie-monophase-wi-fi-shelly-em-avec-deux-pinces-amperemetriques-50a.html
 mlink: https://shelly.cloud/shelly-energy-meter-with-contactor-control-wifi-smart-home-automation/
-flash: serial
+flash: mgos
 category: relay
 type: Switch
 standard: global
