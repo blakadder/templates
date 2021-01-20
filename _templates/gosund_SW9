@@ -1,0 +1,16 @@
+---
+date_added: 2021-01-19
+title: Gosund 2 Gang 
+model: SW9
+image: /assets/images/gosund_SW9.jpg
+template9: '{"NAME":"GosundSW9","GPIO":[160,0,0,0,0,161,0,0,225,288,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://rcpro.pl/product-pol-19421-Inteligentny-przelacznik-swiatla-Gosund-SW9.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+
+Standard tuya based double smart switch. Serial pins on board, standard flashing.
