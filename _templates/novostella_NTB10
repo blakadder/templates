@@ -11,7 +11,7 @@ link: https://www.amazon.com/gp/product/B07XNXDHVV
 image: /assets/images/novostella_NTB10.jpg
 template: '{"NAME":"NTB10","GPIO":[0,0,0,0,41,38,0,0,39,51,40,37,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/gp/product/B07XP8FFWX
-mlink: 
+mlink: https://www.novostella.net/products/2-pack-9w-wi-fi-rf-control-rgbcw-smart-light-bulbs
 ---
 
 Requires `SetOption15 1`

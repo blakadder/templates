@@ -5,10 +5,11 @@ model: UT55505-RGBCW-EU
 image: /assets/images/novostella_UT55505.jpg
 template: '{"NAME":"Novostella E27","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07JYYCKCL/
-link2: 
-mlink: https://www.novostella.net
+link2: https://www.amazon.co.uk/gp/product/B07DN4NLKM
+link3: https://www.novostella.uk/collections/smart-light-bulb/products/3-pack-7w-b22-rgbcw-2700-6500k-smart-wifi-led-bulb
+mlink: https://www.novostella.uk/collections/smart-light-bulb/products/3-pack-7w-b22-rgbcw-2700-6500k-smart-wifi-led-bulb
 flash: tuya-convert
 category: bulb
 type: RGBCCT
-standard: e27
+standard: [e27,b22]
 ---
