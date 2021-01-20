@@ -1,16 +1,41 @@
 ---
 date_added: 2020-10-09
 title: Iwoole Table Lamp
-model: 
+model: ZN199229_02 A5A-67E1-06
 image: /assets/images/iwoole_table_lamp.jpg
 template: '{"NAME":"GLOBELAMP","GPIO":[0,0,0,0,0,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000145628493.html
 link2: 
 mlink: https://www.iwoole.com/product/wifi-smart-table-lamp-1/
+flash: serial
 category: light
 type: Light
 standard: [eu, fr]
 ---
-This device cannot be flashed with tuya-convert anymore and there is no chance to open the light for serial flashing. 
+This device cannot be flashed with tuya-convert anymore.
 
-Model:ZN199229_02 A5A-67E1-06
+## Serial Flashing
+
+Disconnect the device from mains voltage!
+
+Open the device. The plastic and aluminium halves can be separated by twisting the plastic part counter-clockwise. If you’re okay with a few scuffs you can also use a screwdriver (or a spudger) to seperate the two halves.
+
+Remove the two screws holding the round plate with the LEDs. It is connected to the main PCB with a little cable. Make note of the orientation of this connection to ensure you reconnect it correctly later.
+
+Carefully remove the heat-shrink tubing around the two main PCBs.
+
+Like any ESP device, to flash this chip using serial you’ll need 3V3, GND, RX, TX and GPIO0
+
+![Pinout](/assets/images/iwoole_table_lamp_pinout.jpg)
+
+There are pads available for 3V3 and GPIO0 on the back. I have tried to find easier solder points on the front, marked in the image above. Be aware that VCC does not carry 3V3, but over 20 volts as far as I can tell.
+
+![Pinout](/assets/images/iwoole_table_lamp_pinout_back.jpg)
+
+Flash the chip as you would with any other.
+
+Re-apply some heat-shrink tubing or cover the PCBs in electrical tape. Re-connect the LEDs (see cable orientation in image above).
+
+Screw down the LEDs and close the device.
+
+Contributed by [Deinara](https://www.github.com/Deinara)
