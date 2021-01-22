@@ -32,6 +32,10 @@ Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Sta
 
 To enter **flash mode**, press down on the button while powering the device.
 
+Some users have reported problems trying to flash this device.
+A possible solution is provided by [i3laze](https://github.com/i3laze) in an [issue](https://github.com/arendst/Tasmota/issues/1203#issuecomment-417854726).
+Placing a 220 ohm resistor between the **VDD** and **RX** connectors will solve the problem.
+
 Note - After the module type is changed to "Sonoff Pow R2", the serial port is no longer available for entering configuration commands because the serial port is used to communicate to the power measurement chip.  Make sure you have set up your network connection before doing this.
 
 ### Video tutorial by alsolh
