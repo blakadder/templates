@@ -1,15 +1,16 @@
 ---
 date_added: 2020-07-07
 title: Novostella UT55507 9W 900lm
-model: UT55507-RGBCW-EU
+model: UT55507-RGBCW
 image: /assets/images/novostella_UT55507.jpg
 template: '{"NAME":"Novostella UT55507","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07KVWQJCP
-link2: https://www.amazon.co.uk/dp/B07KVWQJCP
-mlink: 
+link2: https://www.amazon.co.uk/dp/B07KVWLB4R
+link3: https://www.novostella.uk/collections/smart-light-bulb/products/3-pack-9w-b22-rgbcw-2700-6500k-smart-wifi-led-bulb
+mlink: https://www.novostella.uk/collections/smart-light-bulb/products/3-pack-9w-b22-rgbcw-2700-6500k-smart-wifi-led-bulb
 flash: tuya-convert
 category: bulb
 type: RGBCCT
-standard: e27
+standard: [e27,b22]
 ---
 

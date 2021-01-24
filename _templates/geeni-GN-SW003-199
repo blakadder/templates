@@ -12,6 +12,9 @@ link2: https://www.canadiantire.ca/en/pdp/geeni-smart-wi-fi-surge-protector-0529
 mlink: https://mygeeni.com/collections/power/products/geeni-gn-sw003-199-surge-smart-protector-white
 flash: tuya-convert
 ---
+A November 2020 review by "Joe" (search reviews for Tasmota) states that tuya-convert no longer works.
+It appears this manufacturer has switched to the latest Tuya firmware.
+
 This device has a master switch on the corded end that controls power to the overall unit.
 On the top of the unit is an LED indicating if any of the individual sockets has power on.
 Additionally each socket has an LED that illuminates when power is on for that socket.

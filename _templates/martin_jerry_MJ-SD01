@@ -4,6 +4,7 @@ title: Martin Jerry SD01
 model: MJ-SD01
 image: /assets/images/martin_jerry_MJ-SD01.jpg
 template: '{"NAME":"MJ-SD02","GPIO":[19,18,0,59,158,58,0,0,57,37,56,122,29],"FLAG":0,"BASE":73}' 
+template9: '{"NAME":"MJ-SD01 Dimmer","GPIO":[34,33,0,323,576,322,0,0,321,416,320,96,256],"FLAG":0,"BASE":73}' 
 link: https://www.amazon.com/dp/B07FXYSVR1
 link2: 
 mlink: 
