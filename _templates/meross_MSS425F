@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-25
+title: Meross 4AC 4USB
+model: MSS425F
+image: /assets/images/
+template9: '{"NAME":"HamaStrip","GPIO":[0,544,0,32,225,224,0,0,226,227,228,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07PMWYNSW/
+link2: https://www.amazon.com/gp/product/B07NBNJ32V/
+mlink: https://www.meross.com/product/19/article/
+flash: serial
+category: plug
+type: Power Strip
+standard: [us,eu,uk,fr,jp]
+---

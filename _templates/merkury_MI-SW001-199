@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-25
+title: Merkury Innovations SmartSurge
+model: MI-SW001-199
+image: /assets/images/
+template9: '{"NAME":"Merkury MI-SW001","GPIO":[288,0,289,0,228,32,0,0,225,224,226,0,227,0],"FLAG":0,"BASE":18}' 
+link: https://meh.com/deals/merkury-innovations-smartsurge-wi-fi-surge-protector-with-4-usb-ports
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---
+Should be identical to Geeni GN-SW001-199
