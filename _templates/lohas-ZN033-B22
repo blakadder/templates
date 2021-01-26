@@ -12,3 +12,4 @@ category: bulb
 type: RGBCCT
 standard: b22
 ---
+Tested with tuya-convert on 2021-01-26 with version Main module v1.5.0. Device was all up to date. Worked as expected
