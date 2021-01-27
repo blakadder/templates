@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-18
+title: Teopek Spider Z RGB
+category: light
+type: LED Strip
+standard: [global]
+template: '{"NAME":"Sonoff L1","GPIO":[0,3200,0,3232,0,0,0,0,0,320,0,0,0,0],"FLAG":0,"BASE":70}' 
+image: /assets/images/ewelink_Spider_Z.jpg
+mlink: https://ewelinkcommunity.net/device-lists/lights/teopek-spider-z/
+link: https://www.aliexpress.com/item/32881075060.html
+link2: https://www.banggood.com/Sonoff-Spider-Z-Smart-Wifi-RGB-LED-Strip-Controller-Support-Alexa-p-1778522.html
+---
+
+Same "Spider Z" LED controller and remote that comes with  [Sonoff L1](sonoff_L1) but without the LED strip and power supply.
