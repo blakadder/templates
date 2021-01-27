@@ -16,13 +16,16 @@ title: Tasmota Device Templates Repository
         New year, new features! <a href="esp32.html">ESP32</a> based devices are now listed. Note that they need a tasmota32 binary version and that they can only be flashed using esptool or PlatformIO.
         </div>
     </div>
+    
+    <div class="row row-100"></div>
+
     <div class="row row-100">
     <div class="column">
         <h4>Recently added devices:</h4>
         {% assign sorted = site.templates | sort: "date_added" | reverse %}
         <table>
             <tbody>
-                {% for template in sorted limit: 20 %}
+                {% for template in sorted limit: 25 %}
                 {% include tablerow_index.html %}
                 {% endfor %}
             </tbody>
@@ -58,7 +61,7 @@ title: Tasmota Device Templates Repository
     {% assign sorted = site.unsupported | sort: "date_added" | reverse %}
     <table>
         <tbody>
-            {% for template in sorted limit: 12 %}
+            {% for template in sorted limit: 20 %}
             {% include tablerow_index.html %}
             {% endfor %}
         </tbody>
