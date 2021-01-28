@@ -11,6 +11,5 @@ flash: tuya-convert
 category: bulb
 type: RGBCCT
 standard: e27
+unsupported: true
 ---
-## WARNING
-As of November 2020 this device don't use ESP8266 anymore and is incompatible with Tasmota!

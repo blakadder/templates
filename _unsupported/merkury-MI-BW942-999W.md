@@ -9,6 +9,5 @@ flash: tuya-convert
 category: unsupported
 type: Dimmable
 standard: e26
+unsupported: true
 ---
-
-As of August 2020 these device come with an incompatible wifi module and cannot be flashed with Tasmota.
