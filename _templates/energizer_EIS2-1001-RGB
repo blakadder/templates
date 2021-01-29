@@ -10,7 +10,7 @@ mlink: https://energizerconnect.com/product/smart-led-light-strip-65/
 category: light
 type: LED Strip
 standard: us
+unsupported: true
 ---
 
-# Warning
 Devices with EIS2-1001-RGB v1.2 are no longer using an ESP8266 and are no longer flashable with Tasmota

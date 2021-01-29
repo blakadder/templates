@@ -1,0 +1,23 @@
+---
+date_added: 2021-01-29
+title: TZT ESP8266 Weather Station Kit
+model: 
+image: /assets/images/tzt_weather_station.jpg
+template9: '{"NAME":"TZT Weather Station","GPIO":[32,0,640,0,1,1184,0,0,1,1,608,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000469051831.html
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: DIY
+standard: global
+---
+Requires tasmota-display.bin
+
+Configure display:
+
+```
+Backlog DisplayModel 2; DisplayCols 21; DisplayRows 8; DisplayMode 2;
+```
+
+Push the "BOOT" button to enable the display. You can also use the "Toggle" button in the Tasmota web interface.
