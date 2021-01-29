@@ -4,6 +4,11 @@ title: Gosund SP112
 model: SP112 v3.4 
 image: /assets/images/gosund_SP112_v3_4.jpg
 template: '{"NAME":"Gosund 112v3.4","GPIO":[56,0,57,0,132,134,0,0,131,30,21,0,0],"FLAG":4,"BASE":18}' 
+
+Looks like there are some new SP112, made in poland -> try this template found in the wide wide web
+
+template: '{"NAME":"SP112new","GPIO":[57,0,56,0,132,134,0,0,131,30,21,0,0],"FLAG":4,"BASE":18}'
+
 link: https://www.amazon.de/gp/product/B07PPZS351
 link2: 
 mlink: https://gosund.com/download/smart_plug/127.html
@@ -15,3 +20,5 @@ standard: eu
 
 For your convenience: GPIO0 corresponds to the red LED, GPIO2 to the blue one. The relay at GPIO13 switches the USB ports, GPIO14 switches mains.
 To tell the difference from the older model, check if GPIO13 actually switches the USB ports.
+
+Single Press switches the main port, double short press the usb-ports
