@@ -1,0 +1,16 @@
+---
+date_added: 2021-02-01
+title: Athom 2812b 
+model: LS2812B-TAS
+image: /assets/images/athom_LS2812B-TAS.jpg
+template: '{"NAME":"LS2812B-TAS","GPIO":[1,3200,0,3232,1,0,0,0,0,320,1,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/2812b-led-strip-controller
+link: https://www.aliexpress.com/item/1005002099128276.html
+link2: 
+flash: preflashed
+category: light
+type: Addressable LED Controller
+standard: global
+---
+
+Also supports upgrade to WLED
