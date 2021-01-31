@@ -9,7 +9,7 @@ flash: tuya-convert
 image: /assets/images/PA-210WYS.jpg
 template: '{"NAME":"PA-210WYS","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4001057961462.html
-link2: 
+link2: https://www.banggood.com/Wifi-Smart-Natural-Gas-Alarm-Sensor-With-temperature-function-Combustible-Gas-Leak-Detector-LCD-Display-Smart-Life-p-1809460.html
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
