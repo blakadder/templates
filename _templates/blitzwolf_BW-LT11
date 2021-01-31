@@ -22,6 +22,6 @@ The TYWE3S Datasheet you can find directly at tuya [TYWE3S Module Datasheet](htt
 As always, you need to access the serial interface.
 The **five serial pins** (VCC, Rx, Tx, GND, GPIO0) are only available directly on the TYWE3S chip on the front of the board.
 
-![](https://github.com/TDCroPower/templates/blob/master/TYWE3S_Points.png)
-![](https://github.com/TDCroPower/templates/blob/master/TYWE3S_pins.jpg)
-![](https://github.com/TDCroPower/templates/blob/master/TYWE3S_solderd.jpg)
+![](https://github.com/TDCroPower/templates/blob/master/TYWE3S_Points.png?raw=true)
+![](https://github.com/TDCroPower/templates/blob/master/TYWE3S_pins.jpg?raw=true)
+![](https://github.com/TDCroPower/templates/blob/master/TYWE3S_solderd.jpg?raw=true)
