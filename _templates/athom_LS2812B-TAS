@@ -13,4 +13,4 @@ type: Addressable LED Controller
 standard: global
 ---
 
-Supports WLED firmware (uses default WLED_0.x.x_ESP8266.bin) and can be bought with WLED preinstalled.
+Supports WLED firmware (uses default binary with ledpin2) and can be bought with WLED preinstalled.
