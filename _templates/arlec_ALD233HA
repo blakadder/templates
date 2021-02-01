@@ -8,6 +8,11 @@ category: light
 type: LED Strip
 standard: au
 template: '{"NAME":"Arlec ALD233AH","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+## Warning
+
+As of July 2020 this device comes with a Tuya WB3S module which cannot be flashed with Tasmota.     
+That module is pin compatible with ESP-12 and can ordered via Ebay.
+
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-2m-led-white-and-colour-changing-strip-light-with-remote_p0208822
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-2m-led-white-colour-changing-strip-light_p0099707
 ---
