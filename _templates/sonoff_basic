@@ -57,7 +57,7 @@ You can remove the thick wires from the PCB to use the screw connection on the o
 ## Sonoff Basic R1
 This is the board layout for first board version of Sonoff Basic.
 
-![gpios](https://cdn.instructables.com/F8Q/0U89/J1WEQK7J/F8Q0U89J1WEQK7J.MEDIUM.jpg)
+![gpios](https://user-images.githubusercontent.com/5904370/106366823-bf16d980-633e-11eb-883b-a9283fef4fb5.png)
 _(Image re-used from https://www.instructables.com/id/Use-Homie-Firmware-to-Drive-Sonoff-Switch-Module-E/ Thanks @amayii0)_
 
 * GPIO 03 - RX PIN

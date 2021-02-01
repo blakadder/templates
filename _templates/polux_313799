@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-30
+title: Polux G45 5,5W 475lm
+model: 313799
+image: /assets/images/polux_313799.jpg
+template9: '{"NAME":"Polux G45 E14","GPIO":[0,0,0,0,0,0,0,0,4064,0,4032,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.polux.sklep.pl/wi-fi-smart-led-zarowka-g45-5-5w-470lm-e14-wwcw-rgb-tuyasmart-p-1373.html
+link2: 
+link: https://www.sanico.com.pl/lampa-led-g45-wi-fi-tuya-smart
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e14
+---
+Use `Setoption37 30` for correct RGB order

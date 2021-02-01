@@ -10,8 +10,8 @@ link2:
 image: /assets/images/feit_electric-BPA800RGBWAG2P.jpg
 link: https://www.amazon.com/dp/B07RL48PFF
 mlink: 
+unsupported: true
 ---
-## Warning
 New version of this device come with an incompatible WB2L module. They have the following marks on the base:
 BPA800/RGBW/AG/2(P)    
 9w 120VAC 60Hz 105mA    

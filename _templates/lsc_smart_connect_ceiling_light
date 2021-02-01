@@ -11,6 +11,7 @@ flash: serial
 category: light
 type: Ceiling Light
 standard: eu
+unsupported: true
 ---
 
 Custom fimware need. Cause: Colors inversed and weak white light.

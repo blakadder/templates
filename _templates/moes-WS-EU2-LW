@@ -9,9 +9,9 @@ image: /assets/images/moes-WS-EU2-LW.jpg
 template: '{"NAME":"Tuya 2 Channel","GPIO":[0,0,0,0,22,0,0,0,17,21,18,0,157],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: https://www.moeshouse.com/products/gold-wifi-smart-wall-switch-no-neutral-wire-needed-wireless-smart-life-tuya-remote-control-single-fire-work-with-alexa-rf433-1
+unsupported: true
 ---
 
-Can be flashed with Tuya-Convert.
 
 RF433 sems works: long press invoke pairing sound, but not tested with remote itself.
 

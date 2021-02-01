@@ -11,7 +11,5 @@ flash: tuya-convert
 category: relay
 type: Switch
 standard: global
+unsupported: true
 ---
-
-## Warning 
-There are versions of this device with an incompatible WB3S chip. Best to avoid!
