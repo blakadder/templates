@@ -1,12 +1,13 @@
 ---
-date_added: 2019-12-05
-title: Wyze WLPP1 
+date_added: 2020-02-03
+title: Wyze 
+model: WLPP1 
 link: https://www.homedepot.com/
 image: https://wyze.com/media/catalog/product/cache/0003b2d20a8a1b1ec43a21025f237eb6/w/y/wyze-plug-1.jpg
 template: '{"NAME":"WyzePlugWLPP1","GPIO":[0,0,0,0,0,56,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}'
 link2: 
 mlink: https://wyze.com/wyze-plug.html
-flash: serial, wyze_plug_flasher
+flash: wpf
 category: plug
 type: Plug
 standard: us
@@ -17,6 +18,3 @@ Uses 15 amp relay and an edge mounted daughter board for the ESP8266EX. LED will
 Awkward to open. Flat plastic back pops into plastic shell but is glued. Power prongs are also lightly glued to the flat plastic back. 
 
 Flashing leads for 3.3V, GND, RX and TX can be soldered to the edge mounting. Used the test point landing for GPIO0 on the daughter board test points side.
-
-## OTA Flashing
-Flash OTA using [wyze_plug_flasher](https://github.com/elahd/wyze_plug_flasher).
