@@ -19,4 +19,4 @@ Awkward to open. Flat plastic back pops into plastic shell but is glued. Power p
 Flashing leads for 3.3V, GND, RX and TX can be soldered to the edge mounting. Used the test point landing for GPIO0 on the daughter board test points side.
 
 ## OTA Flashing
-Can be flashed OTA using [wyze_plug_flasher](https://github.com/elahd/wyze_plug_flasher)
+Flash OTA using [wyze_plug_flasher](https://github.com/elahd/wyze_plug_flasher).
