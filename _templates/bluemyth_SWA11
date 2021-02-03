@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-03
+title: Bluemyth 16A
+model: SWA11
+image: /assets/images/bluemyth_SWA11.jpg
+template: '{"NAME":"SWA11","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001419885724.html
+link2: https://www.aliexpress.com/item/1005001489593201.html
+mlink: http://bluemythglobal.com
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+OTA flash with tuya convert, do not upgrade firmware!

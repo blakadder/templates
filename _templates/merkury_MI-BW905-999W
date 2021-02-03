@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-14
+title: Merkury BR30 750lm
+model: MI-BW905-999W
+image: /assets/images/merkury_MI-BW905-999W.jpg
+template: '{"NAME":"MI-BW905-999W","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.walmart.ca/fr/ip/merkury-ampoule-a-del-wi-fi-intelligente-blanc-ajustable/6000198280732
+link2: https://www.walmart.com/ip/Merkury-Innovations-BR30-Smart-Light-Bulb-65W-Tunable-White-LED-1-Pack/404320234
+mlink: 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e26
+---

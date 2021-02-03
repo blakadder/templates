@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-26
+title: ZUCZUG 1 Gang
+model: Wifi-w6b 2ph105626a
+image: /assets/images/zuczug_1gang.jpg
+template: '{"NAME":"2ph105626a x1","GPIO":[0,52,0,0,0,17,0,0,21,0,0,0,0],"FLAG":0,"BASE":1}'
+link: https://www.aliexpress.com/item/4000204619026.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---

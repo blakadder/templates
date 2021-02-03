@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-08
+title: MagicHome RGB 
+model: ZJ-WFMN-B V1.1
+image: /assets/images/magichome_ZJ-WFMN-B_V1_1.jpg
+template: '{"NAME":"Magic Home RGB","GPIO":[0,0,0,0,147,37,0,0,39,0,38,0,159],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B083V5559G
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---

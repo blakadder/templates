@@ -1,0 +1,15 @@
+---
+date_added: 2021-02-01
+title: Athom RGB 
+model: LS5050C-TAS
+image: /assets/images/athom_LS5050C-TAS.jpg
+template9: '{"NAME":"LS5050C-TAS","GPIO":[32,0,0,0,417,0,0,0,416,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/strip-1
+link: https://www.aliexpress.com/item/1005002095265811.html
+link2: 
+flash: preflashed
+category: light
+type: LED Controller
+standard: global
+---
+

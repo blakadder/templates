@@ -23,3 +23,7 @@ DimmerRange 1,255
 ```
 
 Worked fine with a 60 Watt resistive bulb.  It meant to work with LED, but did flicker with a single 13 Watt load.   Might meant a larger load.
+
+Edit: Ordered 2x from Lighting Illusions (AU) in 08/2020 and both came with newer version of tuya firmware.  
+Attempted physical flash but GPIO-0 is not accessible due to the TYWE2S being sandwiched back to back with the adjacent PCB.  
+Destroyed both boards attempting to work around.  Not recommended :(

@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-19
+title: DS-101 4 Gang Switch
+model: DS-101
+image: /assets/images/DS-101_4.jpg
+template9: '{"NAME":"DS-101 4 Gang","GPIO":[544,0,0,33,225,34,0,0,32,224,227,226,35,0],"FLAG":0,"BASE":18}' 
+link: https://www.ebay.co.uk/itm/4-Gang-EU-Plug-Smart-Wifi-Home-Wall-Light-Switch-Touch-Panel-for-Alexa-Google/233677049488
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: uk
+---
+There is no need to configure the Button LEDs separately as these are controlled in parallel with RELAY(x), ie if RELAY(x) is ON then the associated Button LED is BLUE, if RELAY(x) is OFF then the associated Button LED is ORANGE.

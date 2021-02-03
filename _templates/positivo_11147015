@@ -11,4 +11,5 @@ flash: tuya-convert
 category: bulb
 type: RGBCCT
 standard: e27
+unsupported: true
 ---

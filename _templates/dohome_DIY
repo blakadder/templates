@@ -11,6 +11,8 @@ template: '{"NAME":"DoHome DIY","GPIO":[255,255,0,255,255,157,0,0,21,0,0,0,0],"F
 link2: 
 mlink: https://github.com/SmartArduino/DoHome/tree/master/DoHome_HomeKit_DIY_Smart_Plug/EN/1.Hadware%20Specification
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 ### Flashing
 Enter flash mode with the jumper on both mode mode pins and connect your serial-to-USB adapter to TX, RX, GND and 5V (use 3.3V pin from your adapter).
 

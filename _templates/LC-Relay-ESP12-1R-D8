@@ -1,0 +1,19 @@
+---
+date_added: 2020-09-12
+title: LC Technology DC8V-80V/5V 1 Channel ESP-12F Dev Board
+model: LC-Relay-ESP12-1R-D8
+image: /assets/images/LC-Relay-ESP12-1R-D8.jpg
+template: '{"NAME":"LC Relay-ESP12-1R-D8","GPIO":[255,255,157,255,255,21,255,255,255,255,255,255,57],"FLAG":15,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001123646789.html
+link2: 
+mlink: http://www.chinalctech.com/m/view.php?aid=479
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+WARNING: DO NOT IN ANY CIRCUMSTANCE OPERATE THE DEVICE WHILE CONNECTED TO AC POWER
+
+Flash using any of the provided TX/RX headers and GND. Do not connect VCC from the USB-to-serial adapter but power the module using micro USB.
+
+UART Program download port: ESP8266 GND，RX，TX，5V separately connect external TTL Serial module GND，TX，RX，5V, IO0 need with GND connect when download, disconnect the connection between IO0 and GND After the download is complete.

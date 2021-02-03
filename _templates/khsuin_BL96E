@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-12
+title: KHSUIN BR30 13W 1300lm
+model: BL96E
+image: /assets/images/khsuin_BL96E.jpg
+template: '{"NAME":"KHSUIN","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B083GJ4NHV
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBCCT
+standard: [e27, e26]
+---
+Comes with 2.0 firmware so serial flashing is necessary - no glue on shade so accessing the serial pads is easy.

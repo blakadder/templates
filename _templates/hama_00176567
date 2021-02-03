@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-14
+title: Hama Basic 10A
+model: 00176567
+image: /assets/images/hama_00176567.jpg
+template: '{"NAME":"Hama 176567","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B085JC84JT/
+link2: https://www.saturn.de/de/product/_hama-wifi-2619180.html
+mlink: https://www.hama.com/00176567/hama-wlan-steckdose-basic-ohne-hub-fuer-sprach-u-app-steuerung-2300w-10a
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---

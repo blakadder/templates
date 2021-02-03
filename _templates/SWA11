@@ -1,5 +1,5 @@
 ---
-date_added: 2020-01-05
+date_added: 2020-09-12
 title: SWA11
 category: plug
 type: Plug
@@ -7,7 +7,8 @@ standard: eu
 link: https://www.amazon.de/gp/product/B07SRRP7B1/
 image: https://user-images.githubusercontent.com/5904370/70649873-4cd0ca80-1c4e-11ea-93a2-17bf2e4065e7.png
 template: '{"NAME":"SWA11","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
-link2: http://s.click.aliexpress.com/e/2wvqT1w0
+link2: https://www.aliexpress.com/af/swa11-wifi-plug.html
+link3: https://www.amazon.it/dp/B07SLS2V74
 mlink: https://lingan.en.alibaba.com/search/product?SearchText=swa11
 ---
 

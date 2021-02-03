@@ -1,0 +1,14 @@
+---
+date_added: 2020-01-04
+title: Girier RF433 2 Gang No Neutral
+model: JR-SEU01-2
+link: https://www.aliexpress.com/item/4000191335997.html
+image: /assets/images/girier_JR-SEU01-2.jpg
+template: '{"NAME":"W602","GPIO":[0,0,0,0,22,0,0,0,17,21,18,0,157],"FLAG":0,"BASE":18}' 
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---

@@ -1,0 +1,33 @@
+---
+date_added: 2020-08-29
+title: LC Technology 12V 4 Channel 
+model: LC-ESP01-4R-12V
+image: /assets/images/LC-ESP01-4R-12V.jpg
+template: '{"NAME":"LC Technology 4CH Relay","GPIO":[21,0,22,0,23,24,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/DC12V-ESP8266-Four-Channel-Wifi-Relay-IOT-Smart-Home-Phone-APP-Remote-Control-Switch-p-13170.html
+link2: 
+mlink: http://www.chinalctech.com/cpzx/Programmer/428.html
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+With Nuvoton N76E003AT20 microcontroller
+
+You need to configure these rules to control the relays. The ones defined in the template are just virtual relays!
+
+```console
+rule1 
+on System#Boot do Baudrate 115200 endon
+on SerialReceived#Data=41542B5253540D0A do SerialSend5 5749464920434f4e4e45435445440a5749464920474f542049500a41542b4349504d55583d310a41542b4349505345525645523d312c383038300a41542b43495053544f3d333630 endon
+on Power1#State=1 do SerialSend5 A00101A2 endon
+on Power1#State=0 do SerialSend5 A00100A1 endon
+on Power2#State=1 do SerialSend5 A00201A3 endon
+on Power2#State=0 do SerialSend5 A00200A2 endon
+on Power3#State=1 do SerialSend5 A00301A4 endon
+on Power3#State=0 do SerialSend5 A00300A3 endon
+on Power4#State=1 do SerialSend5 A00401A5 endon
+on Power4#State=0 do SerialSend5 A00400A4 endon
+```
+
+Make sure to enable the rule: `rule1 1`

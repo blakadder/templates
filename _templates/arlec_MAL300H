@@ -5,7 +5,7 @@ model: MAL300HA
 image: /assets/images/arlec_MAL300H.jpg
 template: '{"NAME":"Arlec MAL300HA","GPIO":[0,0,0,0,21,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/arlec-smart-20w-security-light-with-movement-activated-sensor-grid-connect_p0117296
-link2: 
+link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-20w-security-light-with-movement-activated-sensor_p0117296
 mlink: 
 flash: tuya-convert
 category: light

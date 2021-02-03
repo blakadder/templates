@@ -1,0 +1,18 @@
+---
+date_added: 2020-07-26
+title: Mirabella Genio USB Port
+model: I002341
+image: /assets/images/mirabella_genio_I002341.jpg
+template: '{"NAME":"Genio I002341","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-1-usb-adaptor/2326810
+link2: https://www.amazon.com.au/dp/B081NY7QH6
+mlink: https://mirabellagenio.net.au/smart-adaptor
+flash: tuya-convert
+category: plug
+type: Plug
+standard: au
+---
+## Warning New Hardware
+Latest models sold use TW-02 Wifi modules which cannot be flashed with Tasmota
+
+This physically looks identical to [Mirabella Genio 1002341](mirabella_genio_1002341). However the part-number on this starts with an "I" (letter I) not a "1" (digit 1). 

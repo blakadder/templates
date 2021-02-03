@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-19
+title: Connect SmartHome 5W GU5.3
+model: CSH-GU53RGB5W
+image: /assets/images/connect_smarthome_CSH-GU53RGB5W.jpg
+template: '{"NAME":"CSH-GU53RGB5W","GPIO":[0,0,0,0,40,41,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.harveynorman.com.au/connect-smart-5w-gu5-3-rgb-led-downlight.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: gu5.3
+---

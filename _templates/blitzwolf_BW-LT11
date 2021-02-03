@@ -1,5 +1,5 @@
 ---
-date_added: 2019-03-06
+date_added: 2021-01-30
 title: BlitzWolf BW-LT11
 category: light
 type: LED Strip
@@ -10,3 +10,18 @@ template: '{"NAME":"BW-LT11 Strip","GPIO":[17,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG
 link2: https://www.aliexpress.com/item/4000241708744.html
 mlink: https://www.blitzwolf.com/BlitzWolf-BW-LT11-Smart-LED-Light-Strip-with-4000K-Color-Temperature,-RGB-Color,-Works-with-Alexa--Google-Assistant,-APP-Control,-IP44-Water-Resistant-p-310.html
 ---
+
+## Flashing with tuya-convert
+Unfortunately, flashing with tuya convert was not possible with my models, but I already had the current version 1.0.6 on it, so tuya convert reported a problem.
+
+## Serial Flashing
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
+
+The TYWE3S Datasheet you can find directly at tuya [TYWE3S Module Datasheet](https://developer.tuya.com/en/docs/iot/device-development/module/wifi-module/we-series-module/wifie3smodule?id=K9605ua1cx9tv)
+
+As always, you need to access the serial interface.
+The **five serial pins** (VCC, Rx, Tx, GND, GPIO0) are only available directly on the TYWE3S chip on the front of the board.
+
+![](https://github.com/TDCroPower/templates/blob/master/TYWE3S_Points.png?raw=true)
+![](https://github.com/TDCroPower/templates/blob/master/TYWE3S_pins.jpg?raw=true)
+![](https://github.com/TDCroPower/templates/blob/master/TYWE3S_solderd.jpg?raw=true)

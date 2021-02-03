@@ -1,0 +1,19 @@
+---
+date_added: 2020-11-19
+title: Shelly Dimmer
+category: relay
+type: Dimmer
+standard: global
+flash: mgos
+image: /assets/images/shelly_Dimmer.jpg
+template9: '{"NAME":"Shelly Dimmer 1","GPIO":[0,3200,0,3232,5568,5600,0,0,192,0,193,288,0,4736],"FLAG":0,"BASE":18}'
+link: https://www.amazon.com/dp/B07XRY1K7V/
+link2: https://www.amazon.de/dp/B07XRY1K7V/
+mlink: https://shelly.cloud/documents/user_guide/shelly_dimmer.pdf
+---
+
+**Supported since Tasmota 9.1.0.2+**
+
+After flashing Tasmota, apply the template and then use the *Firmware upgrade - File upload* menu to flash the **required** STM32 firmware (provided at [shelly-dimmer-stm32 releases page](https://github.com/jamesturton/shelly-dimmer-stm32/releases)) to the MCU. 
+The template must be set before flashing the STM32 firmware.
+

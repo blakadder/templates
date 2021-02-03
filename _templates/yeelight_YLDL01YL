@@ -1,0 +1,31 @@
+---
+date_added: 2021-01-12
+title: Yeelight Meteorite
+model: YLDL01YL 
+image: /assets/images/yeelight_YLDL01YL.jpg
+template32: '{"NAME":"Yeelight Meteorite","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,420,0,419,0,0,0,0,417,418,0,0,0,0,0,416,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.banggood.com/YEELIGHT-LED-Smart-Meteorite-Chandelier-Pendant-Light-For-Restaurant-Dinner-Room-p-1416328.html
+link2: https://www.aliexpress.com/item/32962385810.html
+link3: https://www.gearbest.com/pendant-light/pp_009792951215.html
+mlink: https://www.yeelight.com/en_US/product/nox-dl
+flash: serial
+category: light
+type: Ceiling Light
+standard: global
+---
+Requires [tasmota32solo1.bin](https://github.com/Jason2866/Tasmota-specials/blob/firmware/firmware/tasmota32/other/tasmota32solo1.bin) because it is using the single core version of ESP32
+
+White Light and RGB can be split: https://tasmota.github.io/docs/Lights/#rgb-and-white-split
+
+- GPIO33 -> red -> PWM1
+- GPIO26 -> green -> PWM2
+- GPIO27 -> blue -> PWM3
+- GPIO21 -> coldwhite -> PWM4
+- GPIO19 -> warmwhite -> PWM5
+
+- GPIO23 -> NL
+- GPIO22-> ON/OFF
+- NL and ON/OFF pin function unknown.
+
+
+Several pics including GPIO: https://photos.app.goo.gl/T3F4aaXuYgvFXRmi7

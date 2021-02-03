@@ -9,9 +9,11 @@ image: https://user-images.githubusercontent.com/5904370/57200999-010cc300-6f93-
 template: '{"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link2: 
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) to understand the terminology and configuration process.
 
-Flashed via serial by using TYWE3S pins. Might work with Tuya Convert.
+Flashed via serial by using [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) pins. Might work with Tuya Convert.
 
 Tuya Product ID: GQxEe5orh45cMgA61.0 
 
@@ -23,7 +25,7 @@ PCB code: KCL-M1801C_M 2018_11_12 V5.0
 `dpID 6` light control: `0 = off / 1 = rgb cycle / 2 = white / 3 = single color`   
 `dpID 7` led dimmer    
 `dpID 8` led color: `14 char value in hex` (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
-`dpID 9` error notification: 70 = ok / 1 = error`  
+`dpID 9` error notification: `70 = ok / 1 = error`  
 `dpID 101` mist strength: `0 = low / 1 = high`   
 
 > I found the built in buzzer very annoying and desoldered it for quieter operation!
@@ -197,5 +199,3 @@ color purple
 ```
 
 [![IMG-20190505-230944.jpg](https://i.postimg.cc/sDmp2YqR/IMG-20190505-230944.jpg)](https://postimg.cc/WhDDWks9)
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

@@ -1,7 +1,7 @@
 ---
 title: Luani HVIO
 category: relay
-type: DIY
+type: Switch
 standard: global
 link: https://luani.de/projekte/esp8266-hvio/
 image: https://user-images.githubusercontent.com/5904370/57946948-e5cc7c80-78dd-11e9-9ab9-9a52287a7d89.png

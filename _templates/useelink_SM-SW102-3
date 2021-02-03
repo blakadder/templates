@@ -1,0 +1,19 @@
+---
+date_added: 2020-09-26
+title: Useelink 3 Gang
+model: SM-SW102-3
+image: /assets/images/useelink_SM-SW102-3.jpg
+template: '{"NAME":"Useelink 3 Gang Wall Switch","GPIO":[158,52,0,18,22,17,0,0,19,23,53,21,52],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.au/Useelink-Control-Compatible-Assistant-Approved/dp/B082QP12DM
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---
+Seems to be a rebranded Jinvoo of the same model number. 
+
+Relays etc numbered from top to bottom
+
+All LED's are white in colour however the bottom LED also has a blue LED for WiFi status (GPIO0). 'Inverted' has this blue LED on all the time and blinks when sending messages. Not 'Inverted' has the Blue LED off and blinks when messages sent.

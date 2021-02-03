@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-04
+title: Mirabella Genio 9W 800lm WW
+model: I002332
+image: /assets/images/mirabella_genio_I002332.jpg
+template: '{"NAME":"Genio WW","GPIO":[0,0,0,0,0,0,0,0,0,37,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-e27-ww-dim-bulb/2326809
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e27
+---

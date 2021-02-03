@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-31
+title: Reafoo RGBW 5m
+model: S5028124810-IP65RGBW
+image: /assets/images/reafoo_S5028124810.jpg
+template: '{"NAME":"REAFOO RGBW LS","GPIO":[17,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07VZ6FQSG/
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: us
+---

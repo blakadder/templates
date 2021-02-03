@@ -4,14 +4,14 @@ title: Albohes PC-1606
 category: plug
 type: Outdoor Plug
 standard: eu
-link: https://www.amazon.de/albohes-Intelligente-Wasserdicht-Unterstützt-WifiVerbindung/dp/B07CVHJJ4Z
+link: https://www.amazon.de/YoulikeLP-Intelligente-Wasserdichte-2-412-2-484GHz-Wifi-Verbindung/dp/B07RXPHV59
 image: https://images-na.ssl-images-amazon.com/images/I/511NUQcKK-L._SL1000_.jpg
 template: '{"NAME":"Albohes PC1606","GPIO":[17,0,0,0,0,22,18,0,21,0,0,0,0],"FLAG":1,"BASE":39}' 
 link2: 
 ---
 
 
-Flashed Tasmota using SonOTA (https://github.com/mirko/SonOTA)
+Flashed Tasmota using tuya-convert (https://github.com/ct-Open-Source/tuya-convert)
 
 
 

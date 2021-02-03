@@ -1,0 +1,59 @@
+---
+date_added: 2021-01-10
+title: Connex Smart Indoor Siren
+model: CC-S1002
+image: /assets/images/connex_CC-S1002.jpg
+template: '{"NAME":"Connex Siren","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.takealot.com/connex-connect-smart-technology-indoor-siren/PLID64184380/description
+link2: 
+mlink: https://connexconnect.com/product/smart-wi-fi-indoor-siren/
+flash: tuya-convert
+category: misc
+type: Miscellaneous
+standard: za
+---
+
+## Configuration
+
+Please read TuyaMCU article to understand the terminology and configuration process.
+
+Disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and change device to a TuyaMCU module
+
+```
+Backlog SetOption65 1; SetOption66 1; Module 54
+```
+
+Map alarm control to POWER
+
+```
+TuyaMCU 11,104 
+```
+
+## Functions
+
+Alarm will be turned on or off using POWER.
+
+- dpId 101 - power type (1 - battery high; 2 - ?medium?; 3 - ?low?; 4 - usb port)
+- dpId 102 - alarm type (0-17)
+- dpId 103 - alarm duration time (in seconds)
+- dpId 104 - alarm control
+
+Chime sounds:
+0 - doorbell
+1 - fuer elise
+2 - big ben
+3 - ring ring
+4 - lone ranger
+5 - turkish march
+6 - high pitch siren
+7 - red alert
+8 - cricket
+9 - beep beep
+10 - dogs
+11 - police
+12 - chime
+13 - phone ring
+14 - firetruck
+15 - clock chime
+16 - alarm clock
+17 - psycho"

@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-23
+title: Atlantis 
+model: A17-SS16A
+image: /assets/images/atlantis_A17-SS16A.jpg
+template9: '{"NAME":"Atlantis Smart Plug","GPIO":[32,0,0,0,2720,2656,0,0,2624,544,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/dp/B07XTM6CXY
+link2: 
+mlink: https://www.atlantis-land.com/pub/prodotti.php?famiglia=18&l1=124&l2=0&articolo=QTE3LVNTMTZB
+flash: tuya-convert
+category: plug
+type: Plug
+standard: it
+---

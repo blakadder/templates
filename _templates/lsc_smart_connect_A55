@@ -1,0 +1,17 @@
+---
+date_added: 2020-10-19
+title: LSC A55 14W 1400lm
+model: 970718 v1.0
+image: /assets/images/lsc_smart_connect_A55.jpg
+template: '{"NAME":"LSC CT E27","GPIO":[0,0,0,0,37,47,0,0,0,0,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-ledlamp2/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: CCT
+standard: e27
+---
+Tuya-Convert won't work. Flashing with serial connection was succesful however it is necessary to take out the pcb wich probably destroys the wires from the pcb to the E27 fitting. It is possible to repair but not recommended. You have to remove some glue and solder jumper wires to tiny points on the TYLC6E module wich contains an ESP8285 chip.
+
+(https://developer.tuya.com/en/docs/iot/device-development/module/wifi-module/tylc6e?id=K97ottlp983f2)

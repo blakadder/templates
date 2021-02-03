@@ -1,0 +1,16 @@
+---
+date_added: 2020-09-29
+title: Elehot 16A
+model: AWP16L
+image: /assets/images/elehot_AWP16L.jpg
+template: '{"NAME":"ELEHOT AWP16L","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+link: http://www.amazon.de/dp/B08CKQQZPB/
+link2: 
+mlink: http://www.elehot.net/
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+- Disassembly is easy. No glue, just one screw and three clips.
+- The ESP Module is ESP8266-S3. Pinout for flashing is described here: https://web.archive.org/web/20200926154118/https://znanev.github.io/ESP8266-S3-WiFi-module/

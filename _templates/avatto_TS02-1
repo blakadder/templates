@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-05
+title: Avatto 1 Gang
+model: TS02-1
+image: /assets/images/avatto_TS02-1.jpg
+template: '{"NAME":"AVATTO 1 Gang","GPIO":[0,56,158,0,0,17,0,0,56,0,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000175429750.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: [eu,us]
+---

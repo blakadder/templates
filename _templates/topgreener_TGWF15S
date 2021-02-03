@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-19
+title: TopGreener TGWF15S
+model: ZZH-WF15S
+image: /assets/images/topgreener_TGWF15S.jpg
+template: '{"NAME":"TopGreener-Switch","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/dp/B07D8YR75X/
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: us
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-29
+title: AGL 2 Gang
+model: 1106062
+image: /assets/images/agl_1106062.jpg
+template: '{"NAME":"AGL WiFi 02","GPIO":[0,0,157,0,0,18,0,0,22,21,0,0,17],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.br/Interruptor-Inteligente-WiFi-AGL-teclas/dp/B08BT46WWF/
+link2: 
+mlink: https://www.aglfechaduras.com.br/interruptor-wifi
+flash: tuya-convert
+category: switch
+type: Switch
+standard: br
+---

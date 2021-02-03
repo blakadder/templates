@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-25
+title: Sansui 
+model: YSP1
+image: /assets/images/sansui_YSP1.jpg
+template: '{"NAME":"Sansui YSP-1","GPIO":[52,0,53,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.hificorp.co.za/sansui-wifi-smart-plug-ysp1?___store=hificorporation&refSrc=135572&nosto=nosto-page-product1
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: za
+---
+GPIO2 is set as LED2 (53) so the red LED is on as a power indicator.

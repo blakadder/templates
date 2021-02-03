@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-20
+title: Lloyd's  
+model: LC-1193
+image: /assets/images/lloyds_LC-1193.jpg
+template: '{"NAME":"Lloyds LC-1193","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
+link: https://lloydscorp.com/productos-lc-1193/
+link2: 
+mlink: https://lloydscorp.com/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-18
+title: Moes 16A
+model: WS-UEU16-M
+image: /assets/images/moes_WS-UEU16-M.jpg
+template: '{"NAME":"MOES WS-UEU16-M","GPIO":[0,145,0,146,0,0,0,0,17,56,21,0,0],"FLAG":0,"BASE":41}' 
+link: https://www.aliexpress.com/item/4000263138054.html
+link2: 
+mlink: https://www.moeshouse.com/products/wifi-smart-plug-outlet-wireless-power-socket-smart-life-tuya-app-remote-control-work-with-alexa-google-home-no-hub-required-us?variant=30981384896593
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

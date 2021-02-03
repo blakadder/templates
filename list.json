@@ -8,6 +8,6 @@ layout: null
 ## {{group.name}}
 {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
 {% for template in grouptitlesorted %}
-{{ template.title | normalize_whitespace }}    {{template.template}}
+{{ template.title | normalize_whitespace }}            {% if template.template9 != nil %}{{ template.template9 }}{% else %}{{ template.template }}{% endif %}
 {% endfor %}
 {% endfor %}

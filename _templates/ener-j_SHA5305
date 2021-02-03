@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-09
+title: Ener-J Outdoor Switch
+model: SHA5305
+image: /assets/images/ener-j_SHA5305.jpg
+template9: '{"NAME":"Ener-J Smart WiFi Outdoor Relay","GPIO":[32,0,0,0,0,0,0,0,224,544,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B0851KLMG5
+link2: 
+mlink: https://www.ener-j.co.uk/products/view/independent-wifi-iot-solutions/smart-wifi-outdoor-relay-switch/99300
+flash: serial
+category: relay
+type: Relay
+standard: [eu, uk]
+---
+Tuya-convert process didn't work, required serial connection and flashed successfully with ESPTool.   The Green LED shows link status and the dim dim blue LED shows relay state and has no dedicated GPIO.

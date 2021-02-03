@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-17
+title: Smitch 10W 6500K
+model: SB0110 - E27
+image: /assets/images/smitch_SB0110-E27.jpg
+template: '{"NAME":"Smitch Ambience SB-0110","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.flipkart.com/smitch-wi-fi-white-ambience-6500k-10w-e27-base-smart-bulb/p/itm8c4804d21d63f?pid=LLSFJE6N5QMCQCU4&lid=LSTLLSFJE6N5QMCQCU4OP9NFA&marketplace=FLIPKART&srno=s_1_5&otracker=search&otracker1=search&fm=SEARCH&iid=d3e7f8d1-00bd-4df4-8197-971b50e3d897.LLSFJE6N5QMCQCU4.SEARCH&ppt=sp&ppn=sp&qH=d989cd0ffe7e1362
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: Dimmable
+standard: e27
+---

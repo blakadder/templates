@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-25
+title: Home Awesome 4AC 4USB
+model: 
+image: /assets/images/home_awesome_power_strip.jpg
+template: '{"NAME":"Home Awesome","GPIO":[52,0,53,0,25,22,0,0,24,17,23,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B07V2LCW6K/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: uk
+---

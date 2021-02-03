@@ -10,7 +10,7 @@ template: '{"NAME":"Medion","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0
 link2: 
 ---
 
-[Instruction manual(http://download2.medion.com/downloads/anleitungen/bda_md93225_au.pdf)
+[Instruction manual](http://download2.medion.com/downloads/anleitungen/bda_md93225_au.pdf)
 
 [Blog on disassembly](https://medium.com/@peter.feerick/converting-a-medion-life-smart-plug-to-tasmota-dff741bfc35e)
 

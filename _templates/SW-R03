@@ -8,7 +8,7 @@ link2:
 mlink: https://www.alibaba.com/product-detail/No-hub-or-Gateway-Smart-Wireless_62427807198.html
 flash: tuya-convert
 category: relay
-type: Relay
+type: Switch
 standard: global
 ---
 #### Note

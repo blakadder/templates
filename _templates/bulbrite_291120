@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-20
+title: Bulbrite Solana ST18 16W 140lm Filament 
+model: 291120
+image: /assets/images/bulbrite_291120.jpg
+template: '{"NAME":"BulbBrite02","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Bulbrite-Solana-Connected-Filament-Equivalent/dp/B07TSFRK6G
+link2: 
+mlink: https://www.bulbritesolana.com/edison
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e26
+---

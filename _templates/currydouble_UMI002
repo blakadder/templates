@@ -1,0 +1,25 @@
+---
+date_added: 2021-01-24
+title: Currydouble
+model: UMI002
+image: /assets/images/currydouble_UMI002.jpg
+template9: '{"NAME":"Currydouble","GPIO":[260,258,576,0,0,224,0,0,0,1,5760,225,259,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B08C73W692/
+link2: https://www.aliexpress.com/item/1005001627028477.html
+mlink: 
+flash: serial
+category: switch
+type: Curtain Switch
+standard: eu
+---
+I've used the following options for configuration:
+
+```console
+Backlog SetOption80 1; Interlock 1,2; Interlock 1
+```
+```console
+Backlog Rule1 on FTC532#KEYS=04 DO Backlog ShutterStopOpen ENDON on FTC532#KEYS=01 DO Backlog ShutterStopClose ENDON on FTC532#KEYS=02 DO ShutterStop ENDON; Rule1 1
+```
+
+Pins for flashing:
+https://imgur.com/a/qOemDCu

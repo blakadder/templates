@@ -1,0 +1,16 @@
+---
+date_added: 2020-10-07
+title: DS-101 2 Gang
+model: DS-101
+image: /assets/images/DS-101_2.jpg
+template9: '{"NAME":"Smart Life Switch","GPIO":[576,289,0,32,225,33,0,0,0,224,288,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001670583298.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: uk
+---
+
+In order to flash, GIO0 must be always connected to ground, and on the MCU chip (as I was not able to find out what chip it is) I disconnected both the Rx and the Tx legs. 

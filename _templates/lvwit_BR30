@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-15
+title: LVWIT BR30 8.5W 650lm
+model: X00265NEJ
+image: /assets/images/lvwit_BR30.jpg
+template: '{"NAME":"LVWIT BR30 8.5W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/LVWIT-Replacement-Assistant-Changing-Required/dp/B07YTXS51C
+link2: 
+mlink: https://www.lvwit.com/fr/collections/usa-led-bulbs/products/e26-wifi-smart-light-bulbs-650lm-br30-usa
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---

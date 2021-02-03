@@ -12,3 +12,4 @@ category: bulb
 type: RGBCCT
 standard: e26
 ---
+New models from Amazon now contain a Tuya WB2L instead of an ESP8266, so they are no longer compatible with Tasmota.

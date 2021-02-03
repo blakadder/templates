@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-10
+title: Nivian 
+model: NVS-SOCKETF-W
+image: /assets/images/nivian_NVS-SOCKETF-W.jpg
+template: '{"NAME":"Nivian Smart Socket","GPIO":[0,0,56,0,0,133,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.es/dp/B081QFBBWP
+link2: 
+mlink: https://www.nivianhome.com/en/product/nvs-socketf-w/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

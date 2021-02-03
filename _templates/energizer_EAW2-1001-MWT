@@ -2,6 +2,7 @@
 date_added: 2020-06-27
 title: Energizer A19 10W Multi-White
 model: EAW2-1001-MWT
+template: '{"NAME":"Energizer CCT ","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}'
 image: /assets/images/energizer_EAW2-1001-MWT.jpg
 link: https://www.amazon.com/gp/product/B081NXBJX7/
 link2: 

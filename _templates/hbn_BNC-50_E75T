@@ -1,0 +1,19 @@
+---
+date_added: 2020-11-08
+title: HBN 13A
+model: BNC-50/E75T
+image: /assets/images/hbn_BNC-50_E75T.jpg
+template: '{"NAME":"BNC-50/E75T","GPIO":[0,0,0,0,158,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/HBN-Compatible-Assistant-Required-Anywhere/dp/B07P85B9WL
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---
+Tuya-convert successful on product purchased from Amazon, Nov 2020.
+Some information online suggests button is inverted, but I do not believe it is.
+
+Manufacturer website for a visually similar product, with slightly different part number:
+http://www.hbn-ergo.com/product/product-2-746.html

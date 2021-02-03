@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-08
+title: Mirabella Genio 4 Black LED Garden Path 
+model: I002849
+image: /assets/images/mirabella_genio_I002849.jpg
+template: '{"NAME":"GenioGardenStr","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-4-black-led-garden-path-light-kit/3038801
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Light
+standard: au
+---

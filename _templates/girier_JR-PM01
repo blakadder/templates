@@ -1,0 +1,27 @@
+---
+date_added: 2020-09-20
+title: Girier 16A
+model: JR-PM01
+image: /assets/images/girier_JR-PM01.jpg
+template: '{"NAME":"Girier - JR-PM01","GPIO":[0,157,0,131,134,132,0,0,21,17,56,0,0],"FLAG":0,"BASE":68}' 
+link: https://www.aliexpress.com/item/4000801500192.html
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+
+How to [open the plug](https://blakadder.com/disassembling-CN39/)
+
+# Unsupported hardware
+I bought it few weeks ago in Girier Official Store on Aliexpress.
+There is TW-02 V2.0 (W600) chip on board. This can't be flashed to Tasmota
+
+But it can be controlled by MQTT via [tuya-mqtt](https://github.com/TheAgentK/tuya-mqtt)
+
+![girier_JR-PM01](assets/images/girier_JR-PM01-02.JPG "WiFi module")
+![girier_JR-PM01](assets/images/girier_JR-PM01-01.JPG "Relay")
+![girier_JR-PM01](assets/images/girier_JR-PM01-03.JPG "Current regulator")
+![girier_JR-PM01](assets/images/girier_JR-PM01-04.JPG "Disassemble")

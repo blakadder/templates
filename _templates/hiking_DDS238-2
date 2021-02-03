@@ -1,0 +1,41 @@
+---
+date_added: 2020-09-03
+title: Hiking Single Phase 65A Din Rail
+model: DDS238-2
+image: /assets/images/hiking_DDS238-2.jpg
+template: '{"NAME":"hiking dds2382wifi","GPIO":[0,107,0,108,0,0,0,0,0,0,56,0,17],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/4000530641386.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: sensor
+type: Energy Meter
+standard: eu
+---
+[Tasmota GitHub issue thread](https://github.com/arendst/Tasmota/issues/8237)
+
+```console
+Backlog TuyaMCU 33,20; TuyaMCU 32,18; TuyaMCU 31,19; SetOption66 1; SetOption19 1; SetOption53 1;
+```
+
+`TuyaMCU 33,20` -> Voltage doesnt shows correctly in tasmota (usually shows thousands of volts, it's not calibration related problem, I guess its a resolution problem), so I used Home Assistant instead.
+
+`RESULT = {"TuyaReceived":{"Data":"55AA030700081402000400037922C9","Cmnd":7,"CmndData":"1402000400037922","DpType2Id20":227618,"20":{"DpId":20,"DpIdType":2,"DpIdData":"00037922"}}}`
+
+37922C9 -> 37922 -> hex a dec -> 227618 -> 227,618vac  (tasmota shows 22761 V)
+
+Home Assistant config:
+
+sensors.yaml:
+{% highlight yaml %}
+{% raw %}
+ - platform: mqtt
+    name: "Automatico dds2382wifi tuya"
+    state_topic: "dds2382wifi/tele/RESULT"
+    value_template: >- 
+      {% set message = value_json.TuyaReceived['20'].DpIdData | int(base=16) %}
+      {{ (message|float) / 1000.0 }}
+    unit_of_measurement: 'V'
+    icon: mdi:alpha-v-circle-outline
+{% endraw %}
+{% endhighlight %}

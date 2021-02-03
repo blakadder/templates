@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-17
+title: Generic 2 Gang
+model: 
+image: /assets/images/generic_2_gang.jpg
+template: '{"NAME":"KING-Tuya-key","GPIO":[0,0,0,0,0,22,0,0,21,17,0,0,18],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001123706307.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---

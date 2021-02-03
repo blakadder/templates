@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-01
+title: Powrui AHR-081
+model: AHR-081
+image: /assets/images/powrui_AHR-081.jpg
+template: '{"NAME":"POWRUI AHR-081","GPIO":[0,0,0,0,56,17,0,0,22,23,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07RQNFL7R
+link2: 
+mlink: https://www.powrui.com/products/wifi-smart-plug
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---

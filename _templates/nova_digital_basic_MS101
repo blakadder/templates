@@ -2,7 +2,7 @@
 date_added: 2019-10-09
 title: Nova Digital Basic 1 MS101
 category: relay
-type: Relay
+type: Switch
 standard: br
 flash: tuya-convert
 link: https://novadigitalonline.com.br/products/novadigital-interruptor-wifi-automacao-residencial-original-ms101

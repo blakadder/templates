@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-12
+title: Yagusmart 2 Gang
+model: 
+image: /assets/images/yagusmart_2_gang.jpg
+template: '{"NAME":"DS-101 2 gang","GPIO":[576,289,0,32,225,33,0,0,0,224,288,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.co.uk/gp/product/B086MV5MC8/
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: uk
+---
+OTA update was not successful, had to connect serial and flash with ESPTool.

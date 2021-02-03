@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-01
+title: Jetstream 9W 800lm 
+model: MA19WH
+image: /assets/images/jetstream_MA19WH.jpg
+template: '{"NAME":"Jetstream MA19WH","GPIO":[0,0,0,0,37,0,0,0,0,52,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.walmart.com/ip/Jetstream-9W-Smart-LED-A19-Bulb/204030307
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e26
+---

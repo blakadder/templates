@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-31
+title: Shelly Vintage 4W 260lm 2700k
+model: A60/A19
+image: /assets/images/shelly_vintage_G125_G40.jpg
+template9: '{"NAME":"Shelly Vintage","GPIO":[0,0,0,0,416,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B08SMB8RMB/
+link2: https://www.amazon.de/dp/B08GHYTX5P
+link3: https://shop.shelly.cloud/shelly-vintage-g-wifi-smart-home-automation-1
+mlink: https://shelly.cloud/products/shelly-vintage-smart-home-automation-bulb/
+flash: mgos
+category: bulb
+type: Dimmable
+standard: [e26,e27]
+---

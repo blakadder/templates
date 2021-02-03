@@ -1,6 +1,6 @@
 ---
 date_added: 2020-03-14
-title: Kogan 9W Downlight RGBCCT
+title: Kogan 9W RGBCCT
 model: KALEPDLRGBCCTA
 image: /assets/images/kogan-KALEPDLRGBCCTA.jpg
 template: '{"NAME":"Kogan_SMARTLED","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
@@ -9,6 +9,6 @@ link2:
 mlink: 
 flash: tuya-convert
 category: light
-type: Light
+type: Downlight
 standard: au
 ---

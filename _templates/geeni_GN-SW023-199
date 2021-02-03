@@ -1,0 +1,15 @@
+---
+date_added: 2020-10-13
+title: Geeni Surge + Charge 2 USB
+model: GN-SW023-199
+image: /assets/images/geeni_GN-SW023-199.jpg
+template: '{"NAME":"Geeni GN-SW023","GPIO":[52,0,0,0,22,21,0,0,23,24,25,0,17],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.mx/gp/product/B07DB7MFKH/
+link2: 
+mlink: https://mygeeni.com/
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---
+Button next to Plug 1 will also work as switch to all Plugs, depending on number of clicks; 1 click will toggle Plug 1, 2 clicks will toggle Plug 2, etc. Also, Relay 5 controls both USB ports, as one.

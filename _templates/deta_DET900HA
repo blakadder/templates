@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-29
+title: Deta 7W 660lm LED
+model: DET900HA
+image: /assets/images/deta_DET900HA.jpg
+template: '{"NAME":"Deta DownLight","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/deta-7w-660lm-grid-connect-smart-led-downlight_p0102572
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: Downlight
+standard: au
+---
+Flashed OTA using tuya-convert in January 2020, uses the same template as the DET902HA light, credit to the person that worked that out

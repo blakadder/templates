@@ -16,7 +16,7 @@ standard: e26
 FCC ID 2AJ3W-EBEQPW06
 
 ## Hardware Revision
-Duo to many hardware revision there are more template which might work with your device
+Duo to many hardware revision there are more templates which might work with your device
 ```json
 {"NAME":"MI-BW210-999W","GPIO":[0,0,0,0,37,38,0,0,141,142,140,0,0],"FLAG":0,"BASE":69}
 ```

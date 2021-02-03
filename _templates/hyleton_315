@@ -10,7 +10,7 @@ template: '{"NAME":"hyleton-315","GPIO":[0,0,0,0,57,56,0,0,21,90,0,0,0],"FLAG":0
 link2: https://www.aliexpress.com/item/32862666182.html
 ---
 
-Similar to the Hyleton 317, this uses the Tuya TYWE3S module in place of the ESP8266, but using something such as tuya-convert can very easily convert the unit to Tasmota firmware. Blue LED on GPIO4, red LED on GPIO5, relay on GPIO12, button on GPIO13. Flash mode appears to be `1M QIO` on these units, but double-check during the tuya-convert process.
+Similar to the Hyleton 317, this uses the Tuya [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s)module in place of the ESP8266, but using something such as tuya-convert can very easily convert the unit to Tasmota firmware. Blue LED on GPIO4, red LED on GPIO5, relay on GPIO12, button on GPIO13. Flash mode appears to be `1M QIO` on these units, but double-check during the tuya-convert process.
 
 
 

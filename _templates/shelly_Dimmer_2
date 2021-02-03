@@ -1,0 +1,20 @@
+---
+date_added: 2020-12-03
+title: Shelly Dimmer 2
+category: relay
+type: Dimmer
+standard: global
+flash: mgos
+image: /assets/images/shelly_Dimmer_2.jpg
+template9: '{"NAME":"Shelly Dimmer 2","GPIO":[0,3200,0,3232,5568,5600,0,0,193,0,192,0,320,4736],"FLAG":0,"BASE":18}'
+link: https://www.amazon.de/dp/B081FH1Z8Y/
+link2: https://www.amazon.com/dp/B081FF9G2K/
+link3: https://www.domadoo.fr/fr/objets-communicants/5234-shelly-micromodule-variateur-intelligent-wi-fi-shelly-dimmer-2-3809511202203.html
+mlink: https://shelly.cloud/products/shelly-dimmer-2-smart-home-light-controller/
+---
+
+**Supported since Tasmota 9.2+**
+
+After flashing Tasmota, apply the template and then use the *Firmware upgrade - File upload* menu to flash the **required** STM32 firmware (provided at [shelly-dimmer-stm32 releases page](https://github.com/jamesturton/shelly-dimmer-stm32/releases)) to the MCU. 
+The template must be set before flashing the STM32 firmware.
+

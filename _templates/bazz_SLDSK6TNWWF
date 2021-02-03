@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-12
+title: BAZZ 6 in. CCT Recessed Fixture
+model: SLDSK6TNWWF
+image: /assets/images/bazz_SLDSK6TNWWF.jpg
+template: '{"NAME":"SLDSK6TNWWF","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B01MQ5KTV2
+link2: 
+mlink: https://www.bazzsmarthome.com/collections/lighting/products/6-inch-smart-wifi-white-led-recessed-light-fixture
+flash: tuya-convert
+category: light
+type: Light
+standard: us
+---

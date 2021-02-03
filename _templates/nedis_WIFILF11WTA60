@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-28
+title: Nedis A60 5W 500lm
+model: WIFILF11WTA60
+image: /assets/images/nedis_WIFILF11WTA60.jpg
+template: '{"NAME":"WIFILF11WTA60","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.todotipo.nl/smart-living/smart-home/verlichting/wifilf11wta60-wi-fi-smart-led-lamp-e27
+link2: 
+mlink: https://nedis.com/en-us/product/smart-living/smart-home/lighting/550710957/wi-fi-smart-led-bulb-e27-a60-5-w-500-lm-white
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e27
+---

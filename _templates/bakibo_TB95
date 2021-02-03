@@ -12,4 +12,6 @@ type: RGBCCT
 standard: e27
 ---
 
+Bulbs ordered 2020-08-25 seem to not compatible anymore (new PSK format - see https://github.com/ct-Open-Source/tuya-convert/issues/483)
+
 ![Label](https://user-images.githubusercontent.com/5904370/72205279-5f266a00-3481-11ea-87c9-f55b80522892.png)

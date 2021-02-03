@@ -11,7 +11,28 @@ category: switch
 type: Dimmer
 standard: us
 ---
-After flash with Tuya-Convert and update to current release tasmota.bin :
+Update 2020-11-13
+Tuya-Convert does not work anymore you need to hard flash the chip directly with USB TTL cable (3.3v)
+![chip_wires](https://user-images.githubusercontent.com/3240875/43324672-578ffcbc-917a-11e8-800c-f1d008ca3cf4.JPG)
+
+Attach the GPIO0 wire to ground during initial boot to flash.  
+A 3-pin header bridged together works great with GPIO0, GND and the GND from the USB flasher attached. 
+(TX pin to RX pin and RX pin to TX pin on USB flash adapter). Verify that you are using 3.3volts to flash, **NOT 5V!**
+--
+Update 2021Jan26: If flashing fails: Its been reported that only CP2102 flashers have been known to work directly (also said to require an external power supply). 
+Issue is that the secondary MCU TX is also connected to the ESP RX line. Known method of preventing interference is to cut the trace for this connection (and resolder after flashing).
+With cutting of the trace usual flashers can work. Its been suggested that perhaps CP2102 flashers overpower the 2nd MCU signal.
+
+The trace to cut is the light green area between lines 3 and 4 in this picture. After flashing, use an exacto knife to expose copper 1mm on either side and solder.
+![trace](https://raw.githubusercontent.com/blakadder/templates/master/assets/images/treatlife_DS01_trace.jpg)
+chip_wireschip_wires
+Above information was collected from:
+   See notes below this video: 
+      https://www.youtube.com/watch?v=jticF3ZtEo4
+   And this thread contains the source of the trace cutting process:
+      https://www.reddit.com/r/tasmota/comments/j6gqf4/tuya_dimmers_with_a_bf7612_mcu_in_it/g7yl68a/
+---
+After flash and update to current release tasmota.bin :
 
 - Go to WebUI and then Console
 - Enter command `TuyaMCU 21,2`

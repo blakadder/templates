@@ -1,0 +1,17 @@
+---
+date_added: 2020-12-10
+title: Spectrum Smart 13W 1500lm
+model: WOJ+14473
+image: /assets/images/spectrum_smart_WOJ14473.jpg
+template9: '{"NAME":"LED 13W E-27 Spectrum SMART","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://allegro.pl/oferta/zarowka-wifi-13w-e27-230v-sciemnialna-rgb-w-tuya-9750144305
+link2: 
+mlink: https://spectrumsmart.pl
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e27
+---
+"```
+SetOption92 1
+```"

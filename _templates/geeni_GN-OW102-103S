@@ -7,7 +7,7 @@ template: '{"NAME":"Geeni Dual Out","GPIO":[17,0,0,0,0,57,0,0,0,56,21,0,22],"FLA
 link2: https://www.canadiantire.ca/en/pdp/geeni-outdoor-duo-2-outlet-smart-plug-0529317p.html#srp
 link: https://www.amazon.com/Geeni-Weatherproof-Compatible-Assistant-Microsoft/dp/B07SQB5PKQ/
 mlink: https://mygeeni.com/collections/power/products/outdoor-duo-dual-outlet-smart-wi-fi-plug-grey
-flash: serial
+flash: tuya-convert
 category: plug
 type: Outdoor Plug
 standard: us

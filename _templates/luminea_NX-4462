@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-05
+title: Luminea 4.5W 350lm Candle
+model: NX-4462
+image: /assets/images/luminea_NX-4462.jpg
+template: '{"NAME":"Luminea NX4462 RGB+W","GPIO":[0,0,0,0,39,40,0,0,37,0,38,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07FQFGR9S
+link2: https://www.amazon.de/gp/product/B07FPM9GVD/
+mlink: https://www.luminea.info/WLAN-LED-Lampe-E14-RGBW-komp-NX-4462-919.shtml
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e14
+---

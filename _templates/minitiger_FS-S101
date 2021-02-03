@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-04
+title: Minitiger 2 Gang No Neutral
+model: FS-S101
+image: /assets/images/minitiger_FS-S101.jpg
+template: '{"NAME":"Tuya 2 Gang (Ali.Minitiger))","GPIO":[157,53,0,17,22,18,0,0,0,21,52,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/4000366697945.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---

@@ -1,0 +1,15 @@
+---
+date_added: 2020-08-11
+title: Jetstream 9W 800lm
+model: MA19CL
+image: /assets/images/jetstream_MA19CL.jpg
+template: '{"NAME":"Jetstream MA19CL","GPIO":[0,0,0,0,37,0,0,0,141,142,140,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.walmart.com/ip/Jetstream-9W-Color-Smart-Bulb-MA19CL/282767909
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---
+FCC ID: 2AJ3WEBEQPW29

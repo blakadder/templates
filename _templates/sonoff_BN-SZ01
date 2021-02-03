@@ -1,10 +1,11 @@
 ---
 title: Sonoff BN-SZ01
+model: IM170222001
 category: light
 type: Light
 standard: global
 link: https://www.itead.cc/bn-sz01.html
-image: https://user-images.githubusercontent.com/5904370/57891254-098ab680-783b-11e9-9933-f5dd214ee534.png
+image: /assets/images/sonoff_BN-SZ01.jpg
 template: '{"NAME":"Sonoff BN-SZ","GPIO":[0,0,0,0,0,0,0,0,37,56,0,0,0],"FLAG":0,"BASE":22}' 
 link2: https://www.boxelectronica.com/en/smart-living/1189-sonoff-bn-sz01-wifi-round-flush-mount-led-ceiling-light.html
 ---

@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-09
+title: Bagotte SK-EU-A01
+model: SK-EU-A01
+image: /assets/images/bagotte_SK-EU-A01.jpg
+template: '{"NAME":"Bagotte SK-EU-A01","GPIO":[122,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B079NDJMSM/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---

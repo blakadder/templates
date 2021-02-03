@@ -8,6 +8,7 @@ link2:
 mlink: 
 flash: SM02A
 type: Bulb
+category: unsupported
 ---
 This bulb uses "TechLife pro" app so its safe to assume other devices using the same app would not be compatible. 
 

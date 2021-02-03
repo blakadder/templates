@@ -1,0 +1,15 @@
+---
+date_added: 2020-08-19
+title: PowerAdd BIE0091
+model: BIE0091
+image: /assets/images/poweradd_BIE0091.jpg
+template: '{"NAME":"BIE0091","GPIO":[17,0,0,0,0,0,0,0,37,0,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07DQCQKBN
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+Hold button till led flashes to convert.

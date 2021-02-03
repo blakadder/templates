@@ -1,12 +1,12 @@
 ---
-date_added: 2020-04-12
-title: Teckin SR43
-model: 
+date_added: 2020-10-20
+title: Teckin 2 Gang
+model: SR43
 image: /assets/images/teckin_SR43.jpg
-template: '{"NAME":"Teckin SR43","GPIO":[0,0,52,0,0,17,0,0,21,22,0,0,18],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Teckin SR43","GPIO":[0,0,52,0,0,17,0,0,21,22,0,0,18],"FLAG":0,"BASE":18}'
 link: https://www.amazon.de/gp/product/B07RJHVDH4/
-link2: 
-mlink: 
+link2: https://www.amazon.fr/dp/B07RDK7H4S
+mlink: https://www.teckinhome.com/electrical
 flash: serial
 category: switch
 type: Switch

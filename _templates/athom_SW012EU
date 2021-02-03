@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-12
+title: Athom 2 Gang
+model: SW012EU
+image: /assets/images/athom_SW012EU.jpg
+template: '{"NAME":"Athom SW012EU","GPIO":[158,53,0,17,22,18,0,0,0,21,52,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/smart-dimmer
+link: https://www.aliexpress.com/item/4001053548549.html
+link2: 
+flash: preflashed
+category: switch
+type: Switch
+standard: eu
+---

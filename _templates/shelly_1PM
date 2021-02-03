@@ -2,13 +2,15 @@
 date_added: 2019-05-01
 title: Shelly 1PM
 category: relay
-type: Relay
+type: Switch
 standard: global
+flash: mgos
 mlink: https://shelly.cloud/shelly-1pm-wifi-smart-relay-home-automation/
 image: https://user-images.githubusercontent.com/4916781/57010210-abad7a80-6c4f-11e9-93ae-73b45697a214.jpg
 template: '{"NAME":"Shelly 1PM","GPIO":[56,0,0,0,82,134,0,0,0,0,0,21,0],"FLAG":2,"BASE":18}' 
 link: https://www.amazon.de/dp/B07QB2JBZC/ 
-link2: https://www.amazon.com/Shelly-Wireless-Automation-Android-Application/dp/B07RTH1D9M 
+link2: https://www.amazon.com/dp/B07RTH1D9M 
+link3: https://www.domadoo.fr/fr/objets-communicants/5281-shelly-micromodule-commutateur-intelligent-wi-fi-shelly-1pm-3809511201985.html
 ---
 
 ## ⚠️️ Special Shelly Attention ⚠️️

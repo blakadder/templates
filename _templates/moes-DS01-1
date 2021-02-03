@@ -43,7 +43,7 @@ If this doesn't work see https://tasmota.github.io/docs/TuyaMCU
 
 [Flashing and Setup Video Guide](https://www.youtube.com/watch?v=fyxxk2NrKG8)
 
-These devices use a Tuya TYWE3S Wi-Fi PCB module.  Once the switch is carefully popped open you will need to remove the ribbon cables for flashing and ease of soldering.  An easy soldering method is to take several Dupont style jumper wires, cut one end off, and apply a bit of solder to each stripped end. This will keep the wire flexible and prevent any circuit board pads from ripping off. Apply a bit of solder to each pad necessary to flash (double check your pin-outs).  Once the wire and pad have solder simply put the two together and apply a bit of heat and they will join together.
+These devices use a Tuya [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) Wi-Fi PCB module.  Once the switch is carefully popped open you will need to remove the ribbon cables for flashing and ease of soldering.  An easy soldering method is to take several Dupont style jumper wires, cut one end off, and apply a bit of solder to each stripped end. This will keep the wire flexible and prevent any circuit board pads from ripping off. Apply a bit of solder to each pad necessary to flash (double check your pin-outs).  Once the wire and pad have solder simply put the two together and apply a bit of heat and they will join together.
 
 ![tywe3s_3](https://user-images.githubusercontent.com/3240875/43324698-669affd6-917a-11e8-8e06-c800741bfb68.png)
 ![chip_wires](https://user-images.githubusercontent.com/3240875/43324672-578ffcbc-917a-11e8-800c-f1d008ca3cf4.JPG)

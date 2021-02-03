@@ -1,0 +1,19 @@
+---
+date_added: 2020-11-06
+title: MXQ LED Nightlight
+model: SP06
+image: /assets/images/MXQ_SP06.jpg
+template: '{"NAME":"MXQ SP06","GPIO":[0,0,0,0,52,82,0,0,22,57,21,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07VRBQCC3
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+
+Use the settings to help control the plug with one press and press/hold for night light.
+```console 
+Backlog switchmode1 5; setoption32 8; rule1 on switch1#state=2 do power1 TOGGLE endon on switch1#state=3 do power2 TOGGLE endon; rule 1 1
+```

@@ -1,0 +1,14 @@
+---
+date_added: 2020-03-22
+title: Girier RF433 3 Gang No Neutral
+model: JR-SEU01-3
+image: /assets/images/girier_JR-SEU01-3.jpg
+template: '{"NAME":"W603","GPIO":[0,0,0,0,23,18,0,0,17,21,19,22,157],"FLAG":15,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000191335997.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---

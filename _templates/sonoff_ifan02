@@ -33,6 +33,7 @@ Press and hold the button while connecting to power.
 ## Additonal information
 * See issue [#2839](https://github.com/arendst/Tasmota/issues/2839) for user information
 * See issue [#3412](https://github.com/arendst/Tasmota/issues/3412) light on after restore power
+* The WifiConfig on the device resets to 2 (WiFi Manager) on a dirty reboot (Power Cut). Using SetOption1 1 (SO1 1) solves the problem. [#8996](https://github.com/arendst/Tasmota/issues/8996)
 
 Functioning iFan02 in Tasmota WebUI
 

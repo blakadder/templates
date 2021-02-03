@@ -9,4 +9,4 @@ image: https://camo.githubusercontent.com/0af8afac2ad8d6fe296ada21b711726e140ed6
 template: '{"NAME":"LeFun SK2","GPIO":[0,0,0,17,22,21,0,0,23,24,25,0,0],"FLAG":0,"BASE":18}'
 link2: 
 ---
-The LeFun SK2 has 4 mains power and 4 USB ports. Each mains power is independently controlled and the USB group is controllable via a solid state relay. The ESP8266 module inside is likely a TYWE3S by Tuya but I didn't open the case and use the tuya-convert tool to flash.
+The LeFun SK2 has 4 mains power and 4 USB ports. Each mains power is independently controlled and the USB group is controllable via a solid state relay. The ESP8266 module inside is likely a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) by Tuya but I didn't open the case and use the tuya-convert tool to flash.

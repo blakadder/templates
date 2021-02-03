@@ -5,13 +5,8 @@ layout: default
 
 <div class="row">
   <div class="column">
-    <span style="font-size: xx-large; font-weight: 400; letter-spacing: -.1rem;">{{ page.title }}
-      {% assign template = page.template | split: ':' %}
-      {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-      {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
- Power Monitoring
- {% endif %}
- {{ page.type }}
+    <span style="font-size: xx-large; font-weight: 400; letter-spacing: -.1rem;">{{ page.title }} {% include pow.html %}
+ {{ page.type | replace: "Miscellaneous", "" }}        
  {% if page.category contains 'bulb'%}
  Bulb
  {% endif %}
@@ -68,6 +63,10 @@ layout: default
     <a class="menu" href="https://tasmota.github.io/docs/Getting-Started" target="_blank">Serial port</a>
     {% elsif page.flash == "sonoff-diy" %}
     <a class="menu" href="https://github.com/itead/Sonoff_Devices_DIY_Tools" target="_blank">Sonoff DIY</a>
+    {% elsif page.flash == "mgos" %}
+    <a class="menu" href="https://github.com/arendst/mgos-to-tasmota" target="_blank">MgOS to Tasmota</a>
+    {% elsif page.flash == "preflashed" %}
+    Tasmota pre-flashed
     {% else %}
     {% endif %}
   {% else %}
@@ -76,60 +75,146 @@ layout: default
   <br>
   </div>
   <div class="column">
-  {% include gpios.html %}
+    {% include gpios.html %}
   </div>
   </div>
 </div>
+{% if page.template32 != nil %}
 <div class="row">
-  <div class="column"><h4>Template</h4></div>
+  <div class="column"><strong>Template for ESP32 device</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
 <div class="row">
   <div class="column column-100">
-    <pre><code class="language-erlang">{{ page.template }}</code></pre>
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.template32 }}</code></pre>
 </div>
 </div>
-<!-- Alternative template -->
-{% if page.template-alt != nil %}
+{% elsif page.template9 != nil %}
 <div class="row">
-  <div class="column"><h4>Alternative Template</h4></div>
+  <div class="column"><strong>Template for Tasmota v9.1+</strong></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
 <div class="row">
   <div class="column column-100">
-    <pre><code class="language-erlang">{{ page.template-alt }}</code></pre>
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.template9 }}</code></pre>
+</div>
+</div>
+{% else %}
+<div class="row">
+  <div class="column"><strong>Template</strong></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+</div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.template }}</code></pre>
 </div>
 </div>
 {% endif %}
-<div class="float-right">
-  <a href="https://twitter.com/intent/tweet?screen_name=blakadder_&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-text="{{ page.url }} template is " data-show-count="false">Tweet to @blakadder_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- Alternative template -->
+{% if page.template9_alt != nil %}
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.template9_alt }}</code></pre>
 </div>
+</div>
+{% endif %}
+{% if page.template-alt != nil and page.template9 == nil %}
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.template-alt }}</code></pre>
+</div>
+</div>
+{% endif %}
 <div>
-  <BR>
-    {% assign template = page.template | split: ':' %}
-    {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-    {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
+  {% if page.unsupported == true %}
+  <h2>This device now comes with a Wi-Fi module incompatible with Tasmota</h2>
+  {% endif %}
+
+  {% if page.template32 != nil %}
+  Requires <a href="http://ota.tasmota.com/tasmota32/">tasmota32.bin or variations</a> of it to run. <a href="https://tasmota.github.io/docs/ESP32/">Flashing instructions</a>.<p>
+  {% endif %}
+
+  {% if page.author == 'blak' %}
+  <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+  {% endif %}
+
+  {% if page.flash == 'preflashed' %}
+  This device comes with <b>Tasmota pre-flashed</b> straight from the factory!
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% assign template = page.template | split: ':' %}
+  {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+  {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
 
   For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
+  <br><br>
+  <p>
+  {% endif %}
+  
+  {% assign templat9 = page.template9 | split: ':' %}
+  {% assign gpios = templat9[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+  {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '5056' %}
+
+  For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
+  <br><br>
+  <p>
+  {% endif %}
+  {% if page.type contains 'Curtain Switch' %}
+  Requires configuring <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support</a>.
+  <br><br>
   <p>
   {% endif %}
 
-  {% if page.type contains 'Curtain Switch' %}
-  Requires enabled <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support</a> in Tasmota.
-  <p>
-  {% endif %}
   {% if page.template contains '"BASE":73' %}
   Requires enabled <a href="https://tasmota.github.io/docs/PWM-dimmer-switch/">PWM Dimmer support</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
+  <br><br>
   <p>
   {% endif %}
-{% if page.title contains Teckin %}
-<b>ADVISORY NOTICE!!!</b> Teckin has started using unsupported non-ESP8266 chips in their devices since December 2019. 
-{% endif %}
-{% if page.title contains Girier %}
-<b>ADVISORY NOTICE!!!</b> Girier has started using unsupported non-ESP8266 chips in their devices since April 2020. 
-{% endif %}
 
+  {% if page.type contains 'RGBW' %}
+  See <a href="https://tasmota.github.io/docs/Lights/#4-channels-rgbw-lights">Tasmota documentation</a> on how to configure RGBW lights to your needs. 
+  <br><br>
+  <p>
+  {% endif %}
 
-{{ content | markdownify }} 
+  {% if page.flash == 'tuya-convert' %}
+  Tuya-Convert might not be possible for this device if the manufacturer started using <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">newest Tuya firmware</a> since this template was published ({{ page.date_added  }}). 
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'Teckin' or page.title contains 'Lumiman' %}
+  <b>NOTICE!!!</b> Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore.<p>  
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'Athom' %}
+  <strong>Use code <code>BLAKADDER3</code> when buying from Aliexpress links for a 10% discount. Code is valid until March 31st.</strong>
+  <br><br>
+  As of November 2020 Athom devices are fully compatible with standard Tasmota releases and can be upgraded as any other Tasmota device.
+  <p>
+  {% endif %}
+
+  {% if page.mlink contains 'novostella.uk' %}
+  <strong>Use code <code>BLAKADDER</code> when buying directly from Novostella for a 10% discount. </strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'LoraTap' %}
+  <strong>WARNING!</strong> LoraTap is using ESP8266 and Realtek Wi-Fi modules on same model devices. Check seller descriptions or contact them before buying! 
+  <br><br><p>
+  {% endif %}
+
+  {% if page.title contains 'Lerlink' %}
+  Manufactured by Lerlink but found under different brands (Lonsonho, Zemismart, Moes, etc)
+  <br><br><p>
+  {% endif %}
+  
+  {{ content | markdownify }} 
 </div>
 
  <div id="amzn-assoc-ad-c632316f-24d7-45e3-9fd2-4f1038ceddbc"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c632316f-24d7-45e3-9fd2-4f1038ceddbc"></script>

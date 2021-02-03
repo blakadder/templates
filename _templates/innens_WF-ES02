@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-28
+title: Innens RF433 2 Gang 1 Way
+model: WF-ES02
+image: /assets/images/innens_WF-ES02.jpg
+template: '{"NAME":"Innens Light Switch 2G","GPIO":[0,0,53,0,0,18,0,0,17,22,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B082W448JG
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: [eu,uk]
+---

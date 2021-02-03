@@ -9,7 +9,7 @@ link2:
 mlink: http://www.dewenwils.com/
 flash: serial
 category: relay
-type: Relay
+type: Switch
 standard: us
 ---
 

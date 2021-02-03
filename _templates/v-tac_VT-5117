@@ -1,0 +1,18 @@
+---
+date_added: 2020-11-18
+title: V-Tac A66 15W 1300lm
+model: VT-5117
+image: /assets/images/v-tac_VT-5117.jpg
+template9: '{"NAME":"V-TAC VT-5117","GPIO":[0,0,0,0,4032,0,0,0,0,0,4064,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07WNN817W
+link2: https://www.amazon.co.uk/dp/B07WNN817W
+link3: https://cpc.farnell.com/v-tac/vt-5117-2753/lamp-led-gls-15w-a65-rgb-ww-cw/dp/LP12671
+mlink: https://www.v-tac.eu/products/house-and-garden/led-bulbs/led-bulb-15w-e27-a60-smart-wi-fi-rgb-white-warm-white-detail.html
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
+The colour selection mapping will be off. Use `SetOption37 30` to correct this.  
+
+Additionally, I found the brightness to be reduced afterwards, and have yet to find a fix to restore full brightness of the LED.  I would say it is now equivalent to ~10W/1000lm bulb.

@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-09
+title: EFUN SH330W
+model: FCC S7JSH330
+image: /assets/images/efun_SH330W.jpg
+template: '{"NAME":"EFUNPlug","GPIO":[56,255,255,255,255,255,255,255,255,17,255,21,255],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07DCJ3TN1/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+Bought about a dozen of these in 2018/19, and all of them were flashable with Tuya-Convert.

@@ -12,3 +12,9 @@ category: switch
 type: Switch
 standard: eu
 ---
+Open it up, disconnect it from the switching board from the bottom(just pull it off) 
+![Top](https://i.imgur.com/Gb8M8yY.jpg)
+2ways of flashing:
+disconnect the route pin (6nd from top on the right (dot is up left))
+pulling rst LOW (1th from top on the left (dot is up left))
+![PCB](https://i.imgur.com/WENsvX6.jpg)

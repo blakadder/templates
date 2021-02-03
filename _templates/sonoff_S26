@@ -16,7 +16,7 @@ standard:
 link2: https://www.banggood.com/SONOFF-S26-10A-AC90V-250V-Smart-WIFI-Socket-USUKAUEUDEFR-Wireless-Plug-Power-Sockets-p-1308841.html
 image: /assets/images/sonoff_S26.jpg
 template: '{"NAME":"Sonoff S26","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8}' 
-link4: https://www.amazon.com/Sonoff-Wireless-control-Compatible-Anywhere/dp/B07DDGVC7B/
+link4: https://www.aliexpress.com/item/4000106847424.html
 link3: https://www.amazon.de/-/en/Wireless-Required-Control-Appliance-Android/dp/B07DQK7YSD/
 mlink: https://sonoff.tech/product/wifi-smart-plugs/s26
 link: https://www.itead.cc/smart-home/smart-socket.html
@@ -50,6 +50,18 @@ J5  - GPIO-13
 J10 - RX
 
 ![](https://user-images.githubusercontent.com/1029851/45257726-a2ab2880-b3a2-11e8-9cb8-5cc1d49225b2.png)
+
+### No Solder Connection
+With the help of some adhesive tape it is possible to achieve a flash without soldering.
+
+Hook your connecting wires/pins into the locations shown on the T1117A regulator - there is enough space under the SOT-223 package pins for a connection to be made. 
+Use some adhesive tape to hold these pins in place; it only needs to remain there for a few minutes. (Vout = 3v3, Pin 1 = GND)
+
+![](https://i.imgur.com/O8U6qhf.jpg)
+
+Flip the board on its side to expose the TX and RX pins. Follow steps 1-4 below, ignoring the TX/RX connection. Once in flash mode, hold the TX/RX pin connection in place with one hand and start the flash with the other! It looks messy with the tape in the below photo but means no soldering required.
+
+![](https://i.imgur.com/6FClKoW.jpg)
 
 ### Bringing the Module into Flash Mode
 

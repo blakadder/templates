@@ -7,8 +7,8 @@ template: '{"NAME":"Zemismart","GPIO":[255,107,255,108,255,255,0,0,255,255,255,2
 link2: 
 mlink: https://www.zemismart.com/wifi-door-sensor-window-sensors-alexa-google-home-mini-ifttt-alarm-security-smart-life-phone-app-remote-control-p0101.html
 flash: tuya-convert
-category: misc
-type: Sensor
+category: sensor
+type: Contact Sensor
 standard: global
 ---
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.

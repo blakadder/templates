@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-30
+title: J15
+model: J15
+image: /assets/images/J15.jpg
+template: '{"NAME":"J15","GPIO":[0,0,0,0,157,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07P41KGK4/
+link2: https://www.aliexpress.com/item/4001023117265.html
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

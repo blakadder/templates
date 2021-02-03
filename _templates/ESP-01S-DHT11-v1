@@ -1,0 +1,16 @@
+---
+date_added: 2020-07-09
+title: ESP01 DHT11 DIY
+model: ESP-01S-DHT11-v1.0
+image: /assets/images/DHT11_ESP01.jpg
+template: '{"NAME":"ESP01S DHT11","GPIO":[255,255,1,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07XC23HBW/
+link2: https://www.aliexpress.com/af/dht11-esp01s.html
+link3: https://www.banggood.com/ESP8266-ESP-01-ESP-01S-DHT11-Sensor-Temperature-and-Humidity-WiFi-Node-Module-ESP8266-ESP-01S-Remote-Serial-Port-WIFI-Transceiver-Wireless-Module-p-1493539.html
+mlink: https://github.com/IOT-MCU/ESP-01S-DHT11-v1.0
+flash: serial
+category: sensor
+type: Temperature Sensor
+standard: global
+---
+How to flash [ESP-01(S)](ESP01)

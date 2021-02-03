@@ -1,6 +1,7 @@
 ---
 date_added: 2020-02-06
-title: BlitzWolf BW-LT27 w/ remote 850lm
+title: BlitzWolf w/ remote 850lm
+model: BW-LT27
 image: /assets/images/blitzwolf_BW-LT27.jpg
 template: '{"NAME":"BW-LT27","GPIO":[0,0,0,0,41,38,0,0,39,51,40,37,0],"FLAG":0,"BASE":18}'
 link: https://www.banggood.com/BlitzWolf-BW-LT27-AC100-240V-RGBWWCW-9W-E27-APP-Smart-LED-Bulb-Work-With-Alexa-Google-Assistant-IR-Remote-Control-p-1619315.html
@@ -12,6 +13,8 @@ category: bulb
 type: RGBCCT
 standard: e27
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 This light bulb has a built-in IR receiver connected to a GPIO which opens up many possibilities.  You could theoretically use your TVs remote to control the bulb.
 
 <img src="/assets/images/blitzwolf_BW-LT27-remote.jpg" style="float:left;padding:5px">

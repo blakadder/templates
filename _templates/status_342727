@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-03
+title: Status 9W 806lm
+model: 342727
+image: /assets/images/status_342727.jpg
+template: '{"NAME":"Status Smart","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.therange.co.uk/lighting/light-bulbs/energy-saving-bulbs/status-smart-colour-changing-wifi-led-bulb/#342727
+link2: 
+mlink: https://www.statussmart.com/
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: b22
+---
+Status Smart bulb sold in the UK. Flashed with Tuya-Convert November 2020.

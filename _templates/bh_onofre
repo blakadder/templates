@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-28
+title: BH OnOfre Dual Rev5 Silent Edition
+model: 
+image: /assets/images/bh_onofre.jpg
+template: '{"NAME":"bhonofre","GPIO":[0,0,0,0,22,21,0,0,9,10,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://bhonofre.pt/buy-onofre.xhtml;JSESSIONID=e09a6ac8-b726-46a9-af92-fbb46d4b9a19
+link2: 
+mlink: https://bhonofre.pt/
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+https://bhonofre.pt/tutorials.xhtml

@@ -1,11 +1,11 @@
 ---
 date_added: 2020-06-06
-title: Woox R4052
+title: WOOX R4052
 model: 8435350740528
 image: /assets/images/woox_R4052.jpg
-template: '{"NAME":"Woox R4052","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"WOOX R4052","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07NCS7YNM
-link2: https://www.amazon.it/Woox-Presa-Impermeabile-Esterna-porta/dp/B07NCS7YNM
+link2: https://www.amazon.it/WOOX-Presa-Impermeabile-Esterna-porta/dp/B07NCS7YNM
 mlink: https://wooxhome.com/power-c2/woox-r4052-smart-outdoor-plug-eu-p22
 flash: tuya-convert
 category: plug

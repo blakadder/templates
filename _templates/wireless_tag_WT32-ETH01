@@ -1,0 +1,24 @@
+---
+date_added: 2021-01-01
+title: Wireless Tag ESP32 Ethernet Board
+model: WT32-ETH01
+category: misc
+type: DIY
+standard: global
+image: /assets/images/wireless_tag_WT32-ETH01.jpg
+template32: '{"NAME":"WT32-ETH01","GPIO":[1,1,1,1,1,1,0,0,1,0,1,1,3840,576,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+mlink: http://www.wireless-tag.com/portfolio/wt32-eth01/
+link: https://www.aliexpress.com/item/1005001739885411.html
+---
+
+Set in user_config_override.h
+
+```arduino
+#define USE_ETHERNET
+  // Wireless-Tag WT32-ETH01
+  #define ETH_TYPE          0                    // [EthType] 0 = ETH_PHY_LAN8720, 1 = ETH_PHY_TLK110, 2 = ETH_PHY_IP101
+  #define ETH_ADDR          1                    // [EthAddress] 0 = PHY0 .. 31 = PHY31
+  #define ETH_CLKMODE       0                    // [EthClockMode] 0 = ETH_CLOCK_GPIO0_IN, 1 = ETH_CLOCK_GPIO0_OUT, 2 = ETH_CLOCK_GPIO16_OUT, 3 = ETH_CLOCK_GPIO17_OUT
+```
+
+Or use commands ``EthType 0``, ``EthClockMode 0`` and ``EthAddress 1``

@@ -5,11 +5,12 @@ model: SQPA6007-A
 type: RGBCCT
 category: bulb
 standard: e26
-flash: tuya-convert
+flash: serial
 link: https://www.amazon.com/gp/product/B07LCB3HQJ
 image: https://images-na.ssl-images-amazon.com/images/I/71xro8dWZML._AC_SL1500_.jpg
 template: '{"NAME":"OHLUX","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/gp/product/B07VVW7BZ9
+template9: '{"NAME":"OHLUX2021","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
 ---
 
 **As of July 2020 batches come with the new, still encrypted Tuya PSK and cannot be Tuya-Converted**

@@ -1,13 +1,13 @@
 ---
 title: Sonoff Basic
 category: relay
-type: Relay
+type: Switch
 standard: global
 image: https://user-images.githubusercontent.com/5904370/57875590-99b50580-7813-11e9-86fa-73ce736467e6.png
 template: '{"NAME":"Sonoff Basic","GPIO":[17,255,255,255,255,0,0,0,21,56,255,0,0],"FLAG":0,"BASE":1}' 
 link1: https://www.itead.cc/smart-home/sonoff-wifi-wireless-switch.html
 link2: https://www.banggood.com/SONOFF-Basic-10A-2200W-WIFI-Wireless-Smart-Switch-Remote-Control-Socket-APP-Timer-p-1019971.html
-link3: https://www.aliexpress.com/item/32904508879.html
+link3: https://www.aliexpress.com/item/1005001846041233.html
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/basicr2
 ---
 Sonoff Basic - the one that started it all!
@@ -57,7 +57,7 @@ You can remove the thick wires from the PCB to use the screw connection on the o
 ## Sonoff Basic R1
 This is the board layout for first board version of Sonoff Basic.
 
-![gpios](https://cdn.instructables.com/F8Q/0U89/J1WEQK7J/F8Q0U89J1WEQK7J.MEDIUM.jpg)
+![gpios](https://user-images.githubusercontent.com/5904370/106366823-bf16d980-633e-11eb-883b-a9283fef4fb5.png)
 _(Image re-used from https://www.instructables.com/id/Use-Homie-Firmware-to-Drive-Sonoff-Switch-Module-E/ Thanks @amayii0)_
 
 * GPIO 03 - RX PIN

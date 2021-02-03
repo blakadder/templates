@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-06
+title: Jackyled IP55 3AC
+model: 
+image: /assets/images/jackyled_3AC.jpg
+template: '{"NAME":"JackyLed 3","GPIO":[0,0,56,0,0,23,0,0,22,57,17,0,21],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07DCRFW94/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---

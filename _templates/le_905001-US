@@ -1,0 +1,14 @@
+---
+date_added: 2021-01-22
+title: LE LampUX Smart Socket
+model: 905001-US
+image: /assets/images/le_905001-US.jpg
+template: '{"NAME":"LE LampUX","GPIO":[0,0,0,0,0,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.lepro.com/le-smart-plug-2-4ghz-wifi-pack-4-905001-us-4.html
+link2: 
+link: https://www.amazon.com/dp/B07YB3KPMG
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

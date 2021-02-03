@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-24
+title: Yagusmart 3 Gang 
+model: 
+image: /assets/images/yagusmart_3_gang.jpg
+template9: '{"NAME":"DS-101 3 gang","GPIO":[576,290,0,33,225,34,0,0,32,224,289,226,288,0],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.co.uk/dp/B07Z383M1T
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: [uk]
+---
+Pull GPIO0 low for flashing.  Start flashing process from computer.  Pull RST pin low for a moment to start handshake with flashing software.

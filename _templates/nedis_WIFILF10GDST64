@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-22
+title: Nedis ST64 5W 500lm Filament 
+model: WIFILF10GDST64
+image: /assets/images/nedis_WIFILF10GDST64.jpg
+template: '{"NAME":"WIFILF10GDST64","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B07KZHWFKT/
+link2: 
+mlink: https://nedis.co.uk/en-gb/product/lighting/light-bulbs/led-bulbs/550695566/wi-fi-smart-led-filament-bulb-e27-st64-5w-500-lm
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e27
+---

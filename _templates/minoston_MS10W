@@ -1,0 +1,20 @@
+---
+date_added: 2020-09-30
+title: Minoston 3-Way
+model: MS10W
+image: /assets/images/minoston_MS10W.jpg
+template: '{"NAME":"MS10W","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/dp/B07SCK95MD/ref=cm_sw_em_r_mt_dp_glpDFb8Y8AXD6
+link2: 
+mlink: https://minoston.com/product/wi-fi-3-way-smart-dimmer-switch%EF%BC%88ms10w%EF%BC%89/
+flash: tuya-convert
+category: light
+type: Dimmer
+standard: us
+---
+```console
+Backlog TuyaMCU 11,1; TuyaMCU 21,3;
+```
+```console
+DimmerRange 25,255
+```

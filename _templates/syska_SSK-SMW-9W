@@ -1,0 +1,12 @@
+---
+date_added: 2019-11-23
+title: Syska 9W 720lm  
+model: SSK-SMW-9W
+type: RGBW
+category: bulb
+standard: b22
+link: https://www.amazon.in/gp/product/B07P9R6DKP
+image: /assets/images/syska_SSK-SMW-9W.jpg
+template: '{"NAME":"SyskaSmartBulb","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.in/gp/product/B076JLQSSL
+---

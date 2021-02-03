@@ -1,0 +1,17 @@
+---
+date_added: 2020-08-30
+title: Avatto 3 Gang
+model: TS02-3
+image: /assets/images/avatto_TS02-3.jpg
+template: '{"NAME":"AVATTO 3 Gang","GPIO":[0,57,158,19,23,18,0,0,56,21,58,22,17],"FLAG":0,"BASE":18}' 
+link: https://aliexpress.com/item/33027277324.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+GPIO0 is mapped to green led of the 1st button (no other button has controllable green led), so you can play around and make the first button cyan when active, instead of default red) 
+
+This one came with new firmware, so tuya-convert didn't work. But it's quite easy to disassemble -- the top PCB holds on 2-sided duct foram and pin header. The pins on top PCB have VCC 3.3V(lowest) and GND(one above VCC), those can be used to power it up directly from RPi. And you can also flash it with RPi following this guide: https://siytek.com/how-to-flash-esp-devices-with-tasmota-using-raspberry-pi/

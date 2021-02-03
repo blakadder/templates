@@ -1,0 +1,47 @@
+---
+date_added: 2020-09-22
+title: Konesky
+model: 13404502515
+image: /assets/images/konesky_13404502515.jpg
+template: '{"NAME":"KingArt","GPIO":[157,0,53,11,23,17,0,0,18,22,54,21,52],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.es/dp/B07T847BWH/
+link2: https://www.amazon.co.uk/dp/B07T847BWH
+mlink: 
+flash: tuya-convert
+category: cover
+type: Curtain Switch
+standard: [eu, uk]
+---
+Will require the standard Tasmota shutter support and calibration.
+
+Added some rules to get the switch working, based on https://tasmota.github.io/docs/Blinds-and-Shutters and copied from another curtain switch page below.
+
+```haskell
+SetOption80 1 # Enable shutter support, reset the device after for correct interface to show up
+
+ShutterRelay1 1 # Enable shutter relay 1
+
+Backlog PulseTime1 0; PulseTime2 0 # ShutterMode0
+
+Pulsetime3 1 # auto disable Power3 button
+
+Backlog Interlock 1,2,3; Interlock ON
+
+PowerRetain 1 # Save state for Home Assistant
+
+Rule1 on Power3#State=1 do ShutterStop1 endon # Use the middle button for stopping shutter movement
+
+Rule1 1
+
+Rule2 on Power1#State=0 do LEDPower1 0 endon on Power1#State=1 do LEDPower1 1 endon on Power2#State=0 do LEDPower2 0 endon on Power2#State=1 do LEDPower2 1 endon on Power3#State=0 do LEDPower3 0 endon on Power3#State=1 do LEDPower3 1 endon # Giving color on button press
+
+Rule2 1
+
+WebButton3 ■ # Set stop symbol for the third button in the web GUI
+
+SwitchMode1 4 # Make the buttons do their actions on touch, not release
+
+SwitchMode2 4
+
+SwitchMode3 4
+```

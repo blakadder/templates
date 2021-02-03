@@ -1,0 +1,15 @@
+---
+date_added: 2020-07-19
+title: Laser 10W 1000lm
+model: LSH-E27WW10W
+image: /assets/images/laser_LSH-E27WW10W.jpg
+template: '{"NAME":"Laster 10W CCT","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.laserco.com.au/categories/smart-home/smart-lighting/SMT-RGBDL10-L-laser-smart-rgb-downlight-gu10-1343435881
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---
+Took a few tries to get the OTA update to recognise the bulb. Just try again and be patient.

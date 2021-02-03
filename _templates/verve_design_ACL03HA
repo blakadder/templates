@@ -1,6 +1,6 @@
 ---
 date_added: 2020-01-31
-title: Verve Design Hana 24W CCT Ceiling
+title: Verve Design Hana 24W CCT 
 model: ACL03HA
 image: https://user-images.githubusercontent.com/5904370/73526100-c2684400-4410-11ea-8512-8ba1bc532601.png
 template: '{"NAME":"Verve ACL03HA","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":48}' 
@@ -9,7 +9,7 @@ link2: https://www.bunnings.co.nz/verve-design-24w-smart-led-ceiling-light-with-
 mlink: 
 flash: tuya-convert
 category: light
-type: Light
+type: Ceiling Light
 standard: au
 ---
 The bulb has hardware Gamma Correction included, you need to configure `LedTable 0`

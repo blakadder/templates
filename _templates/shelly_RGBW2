@@ -3,13 +3,14 @@ date_added: 2019-09-03
 title: Shelly RGBW2
 category: light
 type: LED Controller
-standard: eu
+standard: global
 mlink: https://shelly.cloud/wifi-smart-shelly-rgbw-2/
 image: /assets/images/shelly_RGBW2.jpg
 template: '{"NAME":"Shelly RGBW2","GPIO":[0,0,52,0,40,255,0,0,37,17,39,38,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07N49TXLQ/
 link2: https://www.amazon.com/Shelly-Controller-Wireless-Automation-Schedule/dp/B07N49TXLQ 
-flash: serial
+link3: https://www.domadoo.fr/fr/objets-communicants/5233-shelly-controleur-led-rgbw-intelligent-wi-fi-shelly-rgbw2-3809511201961.html
+flash: mgos
 ---
 When using AC wiring and the supplied AC to DC adapter: To make use of the Input clamp of the device you need to set GPIO5 as `Button2n`. 
 Due to the way the adapter sends out pulses to the GPIO you might have to solder a small 2.2 uF capacitor to the adapter to stabilize the pulse and avoid erratic switching.

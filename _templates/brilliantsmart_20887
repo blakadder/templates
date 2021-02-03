@@ -1,0 +1,15 @@
+---
+date_added: 2020-08-12
+title: BrilliantSmart 4.5W 400lm  
+model: 20887
+image: /assets/images/brilliantsmart_20887.jpg
+template: '{"NAME":"BS-GU10-20887","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.officeworks.com.au/shop/officeworks/p/brilliant-smart-cct-globe-gu10-bl20887
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: gu10
+---
+Issue `LedTable 0` in console for correct brightness range"

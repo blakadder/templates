@@ -1,0 +1,16 @@
+---
+date_added: 2020-11-11
+title: Music 12A 288W RGBW Led Controller
+model: WS04
+image: /assets/images/WS04.jpg
+template: '{"NAME":"*WS04","GPIO":[0,0,0,0,0,0,0,0,38,39,37,40,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32901529851.html
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+Tutorial for flashing the device with a Serial connection can be found here:
+https://community.home-assistant.io/t/tasmota-and-led-wifi-controller-help/104445/5

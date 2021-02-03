@@ -1,0 +1,13 @@
+---
+date_added: 2019-11-09
+title: Halonix Prime Prizm 12W 
+type: RGB
+category: bulb
+standard: [b22,e27]
+mlink: http://www.halonix.co.in/products/prizm/
+link: https://www.amazon.in/Halonix-Compatible-Amazon-Google-Assistant/dp/B07NN6SZQM/
+link2: https://www.amazon.in/Halonix-Prime-Prizm-Smart-Base/dp/B07ZBDJ8L1/
+image: /assets/images/halonix_prime_prizm_12W.jpg
+template: '{"NAME":"Halonix Prizm ","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+flash: tuya-convert
+---

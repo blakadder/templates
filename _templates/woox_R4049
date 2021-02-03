@@ -1,11 +1,11 @@
 ---
 date_added: 2020-05-24
-title: Woox 5m RGBW
+title: WOOX 5m RGBW
 model: R4049
 image: /assets/images/woox_R4049.jpg
 template: '{"NAME":"GardenLedstrip1","GPIO":[0,0,0,0,0,38,0,0,39,9,37,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.de/Woox-R4049-Adapter-funktioniert-Amazon/dp/B07N7SLP8X
-link2: https://www.amazon.co.uk/Woox-Smart-Light-Meters-Adapter/dp/B07N7SLP8X
+link: https://www.amazon.de/WOOX-R4049-Adapter-funktioniert-Amazon/dp/B07N7SLP8X
+link2: https://www.amazon.co.uk/WOOX-Smart-Light-Meters-Adapter/dp/B07N7SLP8X
 mlink: https://wooxhome.com/lighting-c1/woox-r4049-led-strip-eu-5-mtrs-p15
 flash: serial
 category: light

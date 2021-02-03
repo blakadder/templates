@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-11
+title: Lohas ZN004 8W 680lm
+model: LH-ZN004B22-2
+image: /assets/images/lohas-ZN004.jpg
+template: '{"NAME":"Lohas B22 R63","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.co.uk/gp/product/B07VHCNZ7D/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: b22
+---

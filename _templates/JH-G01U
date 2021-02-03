@@ -1,0 +1,11 @@
+---
+date_added: 2020-11-25
+title: JH-G01U
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+image: /assets/images/JH-G01U.jpg
+template9: '{"NAME":"JH-G01U","GPIO":[0,0,0,0,224,32,0,0,288,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07L3DG616
+---

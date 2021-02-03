@@ -1,0 +1,15 @@
+---
+date_added: 2020-10-12
+title: Treatlife A19 9W 800lm
+model: SL20
+image: /assets/images/treatlife_SL20.jpg
+template: '{"NAME":"Treatlife SL20","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Treatlife-Smart-Light-Switch-Assistant/dp/B07R4MFWCQ
+link2: 
+mlink: https://www.treatlife.tech/products/treatlife-smart-turnable-white-bulb-1500k-9000k-work-with-alexa-google-assistant-8w-850lumens
+flash: serial
+category: bulb
+type: CCT
+standard: e26
+---
+Tuya-Convert fails. You have to destructively take apart this bulb to serial flash.  

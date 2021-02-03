@@ -1,7 +1,7 @@
 ---
 title: Sonoff 4CH (R2)
 category: relay
-type: Relay
+type: Switch
 standard: global
 link2: https://www.banggood.com/SONOFF-4CH-R2-4-Channel-10A-2200W-2_4Ghz-Smart-Home-WIFI-Module-p-1254823.html
 image: https://user-images.githubusercontent.com/5904370/57882765-c4f42080-7824-11e9-93c9-fafaf0299dd0.png

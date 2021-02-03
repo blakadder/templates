@@ -1,0 +1,16 @@
+---
+date_added: 2020-08-21
+title: WP5
+model: 
+image: /assets/images/WP5.jpg
+template: '{"NAME":"WP5","GPIO":[57,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B078GLNVJ1
+link2: https://www.amazon.com/gp/product/B0786WC5Q3/
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+
+Found under many different brands (apart from [Gosund WP5](gosund_WP5) which uses a different template).

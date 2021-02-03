@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-10
+title: Aunics Presa Smart
+model: W-IT016
+image: /assets/images/aunics_W-IT016.jpg
+template9: '{"NAME":"AUNICS","GPIO":[0,32,0,0,0,0,0,0,0,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/gp/product/B08N4GTSGK/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: it
+---
+The pinout is similar to a TYWE2S module, based on ESP8266EX

@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-22
+title: Claudy 5V  
+model: KLD_DUNWEI_CTRL
+image: /assets/images/claudy_KLD_DUNWEI_CTRL.jpg
+template9: '{"NAME":"CLAUDY","GPIO":[0,0,225,0,0,0,0,0,0,0,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001203690832.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+To enter flash mode connect GND to GPIO0 (pins are next to each other)

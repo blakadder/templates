@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-30
+title: Energizer 10W 800lm
+model: EAC2-1003-RGB
+image: /assets/images/energizer_EAC2-1003-RGB.jpg
+template: '{"NAME":"OM100/RGBWW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Energizer-Multi-Color-Smartphone-Compatible-Assistant/dp/B081P5XN5Y
+link2: https://www.microcenter.com/product/627337/energizer-a19-multi-color-multi-white-led-light-bulb
+mlink: https://energizerconnect.com/product/smart-led-bulb-multiwhite-multicolor/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---

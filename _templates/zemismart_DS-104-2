@@ -22,4 +22,4 @@ Solder four wires to the TYWE3S:
 
 Flash in the usual manner. 
 
-The Slave, 433Mhz RF Remote Controller, functionality is not affected by the flashing. You are able to pair/unpair the slave as necessary.
+The Client, 433Mhz RF Remote Controller, functionality is not affected by the flashing. You are able to pair/unpair the Client as necessary.

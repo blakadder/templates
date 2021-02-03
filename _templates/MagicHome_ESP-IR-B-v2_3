@@ -1,6 +1,6 @@
 ---
 date_added: 2020-02-03
-title: MagicHome RGBW ESP-IR-B-v2.3
+title: MagicHome RGBW 
 model: ESP-IR-B-v2.3
 image: https://user-images.githubusercontent.com/5904370/73642118-6b14de80-4671-11ea-9138-99af8eb3ccd9.png
 template: '{"NAME":"ESP-IR-B-v2.3","GPIO":[0,0,51,0,0,38,0,0,37,39,0,40,0],"FLAG":0,"BASE":18}' 
@@ -15,16 +15,16 @@ standard: global
 ---
 Also of interest, and depending how you're using yours, these 2 options may be of note.
 1. to seperate the white to an individual channel https://tasmota.github.io/docs/SetOption37/
-``` console
-setoption37 128"
+```console
+setoption37 128
 ``` 
 2. and White Blend Mode is used for 4 channel (RGBW) https://tasmota.github.io/docs/White-Blend-Mode/
-``` console
+```console
 rgbwwtable 255,255,255,255,0
 ```
 
 to add remote function add these rules (holding white (or any button) will put ALL light channels on, like original)
-``` console
+```console
 Rule1 
 on IrReceived#Data=0x00FFB04F DO backlog power 1; power0 1 endon 
 on IrReceived#Data=0x00FFF807 DO power0 0 endon 
@@ -38,7 +38,7 @@ on IrReceived#Data=0x00FF30CF DO backlog scheme 2; speed 40 endon
 ```
 
 and these rules are for the colour options on remote
-``` console
+```console
 Rule2
 on IrReceived#Data=0x00FF9867 DO color 1 endon
 on IrReceived#Data=0x00FFE817 DO color 4 endon

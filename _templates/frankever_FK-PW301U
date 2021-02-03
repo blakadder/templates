@@ -1,0 +1,16 @@
+---
+date_added: 2020-09-27
+title: Frankever USB
+model: FK-PW301U
+image: /assets/images/frankever_FK-PW301U.jpg
+template: '{"NAME":"FK-PW301U","GPIO":[0,0,255,0,158,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001446844552.html
+link2: https://www.amazon.com/gp/product/B074YGV2NK
+link3: https://www.gearbest.com/power-strips/pp_009545805146.html
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+Manufacturer did not disable/remove blue LED on ESP chip, and it lights up the outlet itself. Controllable on GPIO2 (labeled as User in template so that it's unused by default). 

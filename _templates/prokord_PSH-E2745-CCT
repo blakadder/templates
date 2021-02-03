@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-14
+title: Prokord 10W 1050lm
+model: PSH-E2745-CCT
+image: /assets/images/prokord_PSH-E2745-CCT.jpg
+template: '{"NAME":"PSH-E2745-CCT","GPIO":[0,0,0,0,0,37,0,0,38,0,0,0,0],"FLAG":1,"BASE":18}' 
+link: https://www.dustinhome.se/product/5011159759/smart-home-bulb-e27-10w
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---

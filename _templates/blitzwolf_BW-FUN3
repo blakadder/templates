@@ -1,6 +1,6 @@
 ---
 date_added: 2020-04-24
-title: Blitzwolf BW-FUN3 400ml
+title: BlitzWolf BW-FUN3 400ml
 model: 
 image: /assets/images/blitzwolf_BW-FUN3.jpg
 template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,255,255,255,255,255,255,255],"FLAG":0,"BASE":54}' 

@@ -1,11 +1,13 @@
 ---
 date_added: 2019-06-23
-title: TomaxUSA HKWL-SO07W
+title: TomaxUSA 
+model: HKWL-SO07W
 category: plug
 type: Plug
 standard: us
+mlink: https://www.tomaxusa.com/Smart-plug-Smart-life-AD007.html
 link: 
-image: https://p.globalsources.com/IMAGES/PDT/BIG/694/B1154350694.jpg
+image: /assets/images/tomaxusa_HKWL-SO07W.jpg
 template: '{"NAME":"HKWL-SO07W","GPIO":[17,255,255,255,255,255,0,0,255,255,21,255,56],"FLAG":0,"BASE":18}' 
 link2: 
 ---

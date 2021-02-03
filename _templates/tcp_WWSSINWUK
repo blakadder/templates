@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-11
+title: TCP Smart 1 Gang
+model: WWSSINWUK
+image: /assets/images/tcp_WWSSINWUK.jpg
+template: '{"NAME":"TCP 1 Gang 1 Way","GPIO":[157,0,0,17,21,0,0,0,0,0,56,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/TCP-Smart-Wi-Fi-Light-Switches/dp/B07HY3NBCC
+link2: 
+mlink: https://www.tcpsmart.eu/2018/09/13/tcp-smart-wifi-switches/
+flash: serial
+category: switch
+type: Switch
+standard: uk
+---

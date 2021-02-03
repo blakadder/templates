@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-13
+title: Mirabella Genio 
+model: 42905868
+image: /assets/images/mirabella_genio_42905868.jpg
+template9: '{"NAME":"GenioGpo","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-power-plug-with-energy-monitoring/3294802
+link2: 
+mlink: https://mirabellagenio.net.au/electrical-1
+flash: serial
+category: plug
+type: Plug
+standard: au
+---

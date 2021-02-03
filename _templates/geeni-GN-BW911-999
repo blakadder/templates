@@ -14,6 +14,8 @@ mlink: https://mygeeni.com/collections/lighting/products/lux-edison-60w-equivale
 
 Turn light on-off 3x, wait, and then on-off 3x again to flash to tasmota.
 
+If diming the bulb with tasmota causes flickering, try increasing the pwmfrequency to 1000, by entering 'PwmFrequency 1000' into the console. 
+
 #### Manufacturer site:
 
 [GN-BW911-999](https://mygeeni.com/collections/lighting/products/lux-edison-60w-equivalent-white-dimmable-a19-smart-led-bulb)

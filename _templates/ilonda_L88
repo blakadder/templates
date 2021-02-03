@@ -1,6 +1,6 @@
 ---
-date_added: 2020-04-30
-title: iLONDA Fish feeder
+date_added: 2020-09-07
+title: iLONDA Fish Feeder
 model: L88
 image: /assets/images/ilonda_L88.jpg
 template: '{"NAME":"Feeder","GPIO":[0,0,0,0,17,56,0,0,42,0,21,0,0],"FLAG":0,"BASE":18}' 
@@ -13,3 +13,10 @@ category: misc
 type: Miscellaneous
 standard: global
 ---
+
+Once programmed, the following option must be activated in the Tasmota console: `PulseTime1 30`
+
+The value of 30 indicates a time period of 30 tenths of a second, or 3 seconds. It is the pulse of the signal that activates the motor because if it is left activated, the motor never stops. The pulse initiates the motor movement and the stop position is defined by electrical contacs in the hardware. It is not a critical value. It's about half the time it takes for the motor to complete one lap.
+
+![Wiring](/assets/images/ilonda_L88_wiring.jpg)
+![Pinout](/assets/images/ilonda_L88_pinout.jpg)

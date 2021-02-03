@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-15
+title: Moes 2-Way Multi-Control 1 Gang
+model: 
+image: /assets/images/moes_WS-EU-SK1-W.jpg
+template: '{"NAME":"Moes WS-EU-SK1-W","GPIO":[157,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000334388321.html
+link2: 
+mlink: https://www.moeshouse.com/collections/eu-smart-switch/products/2-way-wifi-smart-multi-control-switch-1-gang
+flash: tuya-convert
+category: switch
+type: Switch
+standard: [eu,uk]
+---
+Multi-control is gone using Tasmota

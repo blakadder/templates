@@ -11,7 +11,10 @@ category: switch
 type: Dimmer
 standard: us
 ---
-To use the script, you have to compile Tasmota with [Scripting](https://github.com/arendst/Sonoff-Tasmota/wiki/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
+
+In order to be able to flash the device from the pins, make sure to disconnect the front panel from the rest of the device. If not done, the tuya MCU will prevent the ESP chip to be flash.
+
+To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/binaries).
 
 All dimming and on/off functionality is controlled by an MCU that does not follow the Tuya protocol.  Dimming and on/off can be set by Tasmota using simple serial commands.  Reading local dimming when set by the capacitive touch panel requires a Script-enabled build and the script below to process serial status codes sent by the dimmer MCU.
 
@@ -31,6 +34,7 @@ b=""
 c=""
 d=0
 f=0
+g=""
 ;set the hex code below to the largest value possible that will turn off the relay with SerialSend5
 off=0x7f
 
@@ -40,6 +44,27 @@ rng-=off
 =#scDim(dimval)
 
 >E
+a=SerialReceived
+if sl(a)>0
+then
+g=sb(a 0 2)
+if sl(a)==47
+then
+b=sb(a -5 2)
+else
+b=sb(a -8 2)
+endif
+a=""
+if g=="24"
+then
+f=hd(b)
+=>dimmer %f%
+slider=f
+dimval=slider
+=#scDim(dimval)
+=>SerialSend5 %dimh%
+endif
+else
 slider=Dimmer
 if chg[slider]>0
 then
@@ -49,6 +74,7 @@ then
 dimval=slider
 =#scDim(dimval)
 =>SerialSend5 %dimh%
+endif
 endif
 endif
 
@@ -62,41 +88,6 @@ else
 =>Serialsend5 00
 power=0
 endif
-endif
-
-a=SerialReceived
-if sl(a)>0
-then
-;process the first and second hex nibbles
-b=sb(a -8 1)
-c=sb(a -7 1) 
-a=""
-;convert the first nibble to decimal – max value is 0x60
-f=b
-f*=16
-;handle second nibble which may be 0x0-0xf
-d=c
-if d==0
-then
-switch c
-case "A"
-d=10
-case "B"
-d=11
-case "C"
-d=12
-case "D"
-d=13
-case "E"
-d=14
-case "F"
-d=15
-ends
-endif
-;add first and second nibbles then to Tasmota dimming path
-f+=d
-=>dimmer %f%
-slider=f
 endif
 
 #scDim(dimval)

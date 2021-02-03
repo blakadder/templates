@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-04
+title: FFHL 12W 900lm
+model: 
+image: /assets/images/ffhl_12W.jpg
+template: '{"NAME":"FFHL RGBW Bulb","GPIO":[0,0,0,0,0,37,0,0,39,40,38,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/FFHL-Changing-Daylight-Dimmable-Wake-Up/dp/B07MVG4J7R/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBW
+standard: e27
+---

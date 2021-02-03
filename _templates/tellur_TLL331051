@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-21
+title: Tellur 2 Ports 1800W 10A
+model: TLL331051
+image: /assets/images/tellur_TLL331051.jpg
+template: '{"NAME":"Tellur 2CH","GPIO":[0,0,0,0,22,0,0,0,17,21,18,0,157],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07HM58SDN
+link2: 
+mlink: https://www.tellur.com/product/wifi-switch-2-ports-1800w-10a/#prettyPhoto
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---

@@ -1,0 +1,17 @@
+---
+date_added: 2020-07-06
+title: EU3S
+model: EU3S
+image: /assets/images/EU3S.jpg
+template: '{"NAME":"AWOW BSD33","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.es/gp/product/B086C1RJCZ
+link4: https://www.amazon.de/dp/B082M2BV4D
+link2: https://www.amazon.es/LOETAD-Inteligente-Compatible-Energ%C3%A9tico-Temporizador/dp/B07V3J67RF
+link3: https://www.amazon.it/LOETAD-Intelligente-Wireless-Compatibile-Controllo/dp/B082CKMQ81 
+mlink: https://awow-tech.com/
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+How to [open the plug](https://blakadder.com/disassembling-CN39/)

@@ -17,6 +17,8 @@ Added some rules to get the switch working, based on https://tasmota.github.io/d
 ```console
 SetOption80 1 # Enable shutter support, reset the device after for correct interface to show up
 
+SetOption13 1 # only single press action for immediate response, for faster buttton response
+
 ShutterRelay1 1 # Enable shutter relay 1
 
 Backlog PulseTime1 0; PulseTime2 0 # ShutterMode0

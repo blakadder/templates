@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-08
+title: Kruidvat A60 9W 806lm
+model: 
+image: /assets/images/kruidvat_CCT.jpg
+template9: '{"NAME":"Kruidvat E27 806 Lumens","GPIO":[0,0,0,0,416,449,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.kruidvat.nl/kruidvat-smart-a60-e27-806lm-ledlamp/p/5307723
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: CCT
+standard: e27
+---
+Identical to LSC 10W 806lm CCT Bulb. Contains ESP8285 in TYLC6E module. Lots of glue in bulb cover, removing module for flashing required cutting the 230VAC power wires, not ideal. Tuya-Convert does not work as of 01-2021.

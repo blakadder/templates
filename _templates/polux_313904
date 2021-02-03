@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-09
+title: Polux RGB+NW 2m 
+model: 313904
+image: /assets/images/polux_313904.jpg
+template: '{"NAME":"Polux Wi-Fi SM","GPIO":[17,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":37}' 
+link: https://www.polux.sklep.pl/wi-fi-smart-led-tasma-2m-nw-rgb-6-5w-540lm-tuyasmart-p-1364.html
+link2: 
+mlink: https://www.polux.sklep.pl/wi-fi-smart-led-tasma-2m-nw-rgb-6-5w-540lm-tuyasmart-p-1364.html
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: eu
+---

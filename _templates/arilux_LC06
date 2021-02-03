@@ -13,8 +13,16 @@ link2: https://www.aliexpress.com/item/32967761019.html
 
 If you use this controller with Cold White / Warm White LED strip (without RGB), use the following template:
 
-```
+```json
 {"NAME":"Arilux LC06 in CW/WW mode","GPIO":[17,0,0,0,0,37,0,0,0,0,0,38,0],"FLAG":0,"BASE":18}
+```
+
+## XCSOURCE
+
+The [XCSOURCE](https://www.amazon.co.uk/gp/product/B01AA6221S/) branded version of this controller seems to have a different GPIO pin for the CW channel. The following template (9.1+) fixes the issue:
+
+```json
+{"NAME":"Arilux LC06","GPIO":[32,0,0,0,0,419,0,0,417,418,416,420,0,0],"FLAG":0,"BASE":18}
 ```
 
 ## Serial Flashing

@@ -21,6 +21,18 @@ Rule1 on RfReceived#Data=0xCA0C06 do dimmer + endon on RfReceived#Data=0xCA0C09 
 Rule2 on RfReceived#Data=0xCA0C10 do color1 7 endon on RfReceived#Data=0xCA0C11 do color1 8 endon on RfReceived#Data=0xCA0C12 do color1 9 endon on RfReceived#Data=0xCA0C13 do color1 10 endon on RfReceived#Data=0xCA0C14 do color1 11 endon on RfReceived#Data=0xCA0C15 do color1 12 endon
 ``` 
 
+another variant of RfReceived#Data
+```console
+Rule1 on RfReceived#Data=0xB1A106 do dimmer + endon on RfReceived#Data=0xB1A109 do dimmer - endon on RfReceived#Data=0xB1A10A do color1 1 endon on RfReceived#Data=0xB1A10B do color1 2 endon on RfReceived#Data=0xB1A10C do color1 3 endon on RfReceived#Data=0xB1A10D do color1 4 endon on RfReceived#Data=0xB1A10E do color1 5 endon on RfReceived#Data=0xB1A10F do color1 6 endon
+```
+
+```console
+Rule2 on RfReceived#Data=0xB1A110 do color1 7 endon on RfReceived#Data=0xB1A111 do color1 8 endon on RfReceived#Data=0xB1A112 do color1 9 endon on RfReceived#Data=0xB1A113 do color1 10 endon on RfReceived#Data=0xB1A114 do color1 11 endon on RfReceived#Data=0xB1A115 do color1 12 endon
+```
+
+```console
+Rule3 on RfReceived#Data=0xB1A103 do Power OFF endon on RfReceived#Data=0xB1A101 do Power ON endon
+```
 
 
 

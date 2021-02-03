@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-07
+title: Ener-J Extension Box with USB
+model: SHA5207
+image: /assets/images/ener-j_SHA5207.jpg
+template9: '{"NAME":"ENER-J SHA5207","GPIO":[544,0,0,321,225,322,1,1,320,224,227,226,32,1],"FLAG":0,"BASE":18}' 
+link: https://cpc.farnell.com/ener-j/sha5207/smart-wifi-power-extension-lead/dp/PL16029
+link2: 
+mlink: https://www.ener-j.co.uk/products/view/independent-wifi-iot-solutions/wifi-smart-power-strip-extension-box-with-usb/42589
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: uk
+---
+[Detailed info](https://gist.github.com/en4rab/6b7d6f45b5632e03b55875d49e445b8c)

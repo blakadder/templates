@@ -1,6 +1,6 @@
 ---
 date_added: 2020-05-18
-title: DIGOO NX-SP202
+title: Digoo NX-SP202
 category: unsupported
 type: Plug
 link: https://www.aliexpress.com/item/32952717922.html

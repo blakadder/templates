@@ -1,0 +1,17 @@
+---
+date_added: 2021-01-09
+title: Avatar 8W 800lm
+model: 
+image: /assets/images/avatar_B22.jpg
+template9: '{"NAME":"Avatar 8W RGBCW","GPIO":[1,1,1,1,416,419,1,1,417,420,418,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B07PKMC87F/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBCCT
+standard: b22
+---
+Diagram of board Board E134893 - LM99E from Smart Bulb Avatar 800LM, RGBCW, 3000K-6200K: https://imgur.com/a/cNDox1W
+
+Reddit thread with help about how to flash this board: https://www.reddit.com/r/esp8266/comments/k7xih5/help_flashing_an_esp8266ex/ghmnndt?utm_source=share&utm_medium=web2x&context=3"

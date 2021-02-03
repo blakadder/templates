@@ -1,6 +1,6 @@
 ---
 date_added: 2020-04-18
-title: Verve Design Charlie 22W CCT Ceiling
+title: Verve Design Charlie 22W CCT 
 model: ACL01HA
 image: /assets/images/verve_design_ACL01HA.jpg
 template: '{"NAME":"Verve ACL01HA","GPIO":[0,0,0,0,0,37,0,0,0,47,0,0,0],"FLAG":0,"BASE":48}' 
@@ -9,6 +9,6 @@ link2:
 mlink: 
 flash: tuya-convert
 category: light
-type: Light
+type: Ceiling Light
 standard: au
 ---

@@ -1,0 +1,16 @@
+---
+date_added: 2020-12-14
+title: GoKlug Glass Touch 2 Gang 
+model: 
+image: /assets/images/goklug_2gang.jpg
+template: '{"NAME":"GoKlug 2x","GPIO":[158,0,0,83,21,0,0,0,56,22,57,0,82],"FLAG":15,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B0831L9JYS/
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+Commands to make Switch and LED-Ring work correct `SwitchMode1 6` and `SwitchMode2 6`
+

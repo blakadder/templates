@@ -1,0 +1,14 @@
+---
+date_added: 2020-09-03
+title: Garsent 10W
+model: 8nqbapex6c-01
+image: /assets/images/garsent_8nqbapex6c-01.jpg
+template: '{"NAME":"Garsent 10W RGBW-Bulb","GPIO":[0,0,0,0,0,39,0,0,38,0,37,40,0],"FLAG":1,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07TR5TL9P/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

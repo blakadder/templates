@@ -11,7 +11,7 @@ layout: default
         {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
      Power Monitoring
    {% endif %}
-   {{ page.type }}
+   {{ page.type | replace: "Miscellaneous", "" }}        
   </h2>
   </div>
   <!-- <div class="float-right"> -->
@@ -54,17 +54,17 @@ layout: default
     </div>
   </div>
   <div class="row">
-    <div class="column column-80"><hr></div>
+    <div class="column column-80"><b>Try to avoid similar devices from other sellers using same images and descriptions!</b></div>
     <div class="column column-20"><a class="button button-clear button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
   </div>
   <div class="row">
     <div class="column">
-    <b>Take a look at the sellers item description and try to avoid other items using the same description layout and images!</b>
+      <hr>  
     </div>
   </div>
-  <div class="row">
-    <div class="column">
-    </div>
-  </div>
-  {{ content | markdownify }} 
+    {% if page.author == 'blak' %}
+    <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+    {% endif %}
+  
+    {{ content | markdownify }} 
   

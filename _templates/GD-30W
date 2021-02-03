@@ -6,10 +6,13 @@ type: Aromatherapy Diffuser
 standard: global
 link: https://www.amazon.com/Essential-Diffuser-Humidifier-Aromatherapy-Waterless/dp/B081MTYGWH
 link2: https://www.aliexpress.com/item/4000469944212.html
+link3: https://www.banggood.com/LyRay-GD-30E-Smart-Household-Humidifier-Aroma-Diffuser-Touch-Control-Switch-300ml-with-APP-Control-Amazon-Alexa-p-1622972.html
 image: https://user-images.githubusercontent.com/5904370/67516743-73887100-f6a1-11e9-9563-3a529fad3b1d.png
 template: '{"NAME":"GD-30W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
 mlink: https://www.alibaba.com/product-detail/300ML-WiFi-Aroma-Diffuser-Ultrasonic-Humidifier_60781628200.html
 ---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
 There are a few different looking devices using the same PCB marked GD-HDFW05-v1.0 so this process should work on those. 
@@ -23,7 +26,7 @@ There are a few different looking devices using the same PCB marked GD-HDFW05-v1
 `dpID 103` mist strength: 0 = low / 1 = high    
 `dpID 108` led color: 14 char value in hex (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
 `dpID 110` led mode: 0 = rgb_cycle / 1 = color / 2 = white    
-`dpID 110` led dimmer **color and white modes only** *it is important to define 'DimmerRange 1,255'*
+`dpID 111` led dimmer **color and white mode only** *it is important to define 'DimmerRange 1,255'*
 
 ## Configuration
 
@@ -114,8 +117,7 @@ light:
       brightness_command_topic: "cmnd/GD-30W/Dimmer"
       brightness_state_topic: "tele/GD-30W/RESULT"
       brightness_scale: 100
-      # brightness_value_template: "{{ value_json.Dimmer }}"
-      brightness_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ value_json['TuyaReceived'].Type3Data[12:14]|int(base=16) }}{% endif %}"
+      brightness_value_template: "{% if value_json.TuyaReceived is defined and value_json.TuyaReceived['108'].DpId == 108 %}{{ value_json.TuyaReceived['108'].Type3Data[12:14]|int(base=16) }}{% endif %}"
       availability_topic: "tele/GD-30W/LWT"
       payload_available: "Online"
       payload_not_available: "Offline"
@@ -123,7 +125,7 @@ light:
       retain: false
       rgb_command_topic: "cmnd/GD-30W/tuyasend3"
       rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '108,%02x%02x%02x646464' | format(red, green, blue)}}{{ '%02x' | format(brightness) }}"
-      rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
+      rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json.TuyaReceived['108'].DpId == 108 %}{{ (value_json.TuyaReceived['108'].Type3Data[0:2]|int(base=16),value_json.TuyaReceived['108'].Type3Data[2:4]|int(base=16),value_json.TuyaReceived['108'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
       rgb_state_topic: "tele/GD-30W/RESULT"
 
 binary_sensor:
@@ -199,5 +201,3 @@ Red1
 Red2 (darker)
     55aa000600126c03000e666630303030303030306666666678
 ```
-
-<span style="float:right">by [blakadder](https://twitter.com/blakadder_)</span>

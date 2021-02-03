@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-20
+title: Amzdest Dual
+model: C158
+image: /assets/images/amzdest_C158.jpg
+template9: '{"NAME":"Amzdest c158","GPIO":[0,32,0,225,2720,2656,0,0,224,2624,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07SX12CZV
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---

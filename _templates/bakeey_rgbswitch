@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-08
+title: Bakeey 10A RGB Scene
+model: 
+image: /assets/images/bakeey_rgbswitch.jpg
+template9: '{"NAME":"RGB Switch","GPIO":[0,0,320,0,417,418,0,0,289,32,416,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/Bakeey-10A-DIY-RGB-Scene-EU-Type-Smart-WIFI-Switch-Tuya-APP-Remote-Control-Timing-Wall-Touch-Switch-p-1602252.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: global
+---
+use: `SwitchMode 5`

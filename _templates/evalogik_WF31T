@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-10
+title: Eva Logik 3 Way
+model: WF31T
+image: /assets/images/evalogik_WF31T.jpg
+template: '{"NAME":"EL WF31T","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/gp/product/B07NSX4WQM/
+link2: 
+mlink: https://nie-tech.com/wp-content/uploads/2020/06/WF31T-Manual-V4.0-2020.6.22.pdf?x18039
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: us
+---

@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-29
+title: ESP-12F 4 Channel
+model: ESP12F_Relay_X4
+image: /assets/images/ESP12F_Relay_X4.jpg
+template9: '{"NAME":"ESP12F_Relay_X4","GPIO":[1,1,1,1,1,1,1,1,226,227,225,1,224,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001690637871.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+Headers must be soldered and jumpers needs to be installed for enabling relays. 

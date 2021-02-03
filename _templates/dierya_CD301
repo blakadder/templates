@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-16
+title: Dierya Touch Panel 2 Gang
+model: CD301
+image: /assets/images/dierya_CD301.jpg
+template: '{"NAME":"CD301","GPIO":[0,0,0,0,157,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.ebay.com.au/itm/DIERYA-Smart-WIFI-Light-Touch-Panel-Switch-Socket-App-Timing-Alexa-Google-Home/154027921635
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: au
+---

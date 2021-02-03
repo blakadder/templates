@@ -1,4 +1,8 @@
 toc:
+  - name: Search...
+    url: search.html
+  - name: Preflashed with Tasmota
+    url: preflashed.html
   - name: Bulbs by
     url: bulb.html
     subnav:
@@ -10,14 +14,16 @@ toc:
         url: bulb-socket.html
   - name: Curtains, Shutters and Shades
     url: cover.html
-  - name: Dimmers and Switches
+  - name: Wall Switches and Dimmers
     url: switch.html
-  - name: In-Wall Dimmers and Switches
+  - name: Inline Switches and Dimmers
     url: relay.html
   - name: Lights and LEDs
     url: light.html
   - name: Plugs and Sockets
     url: plug.html
+  - name: Sensors
+    url: sensors.html
   - name: Miscellaneous
     url: misc.html
   - name: Devices by Standard
@@ -51,6 +57,8 @@ toc:
         url: global.html
       - title: ALL
         url: all.html
+  - name: ESP32 Based Devices
+    url: esp32.html
   - name: Unsupportable Devices
     url: unsupported.html
   - name: How to use Templates?

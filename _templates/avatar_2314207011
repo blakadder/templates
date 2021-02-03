@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-30
+title: Avatar Controls A19 10W 900lm 3000k
+model: 2314207011
+image: /assets/images/avatar_2314207011.jpg
+template9: '{"NAME":"Avatar10WA19","GPIO":[0,0,0,0,2912,416,0,0,0,2976,2944,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/gp/product/B07C1KP7SQ
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e26
+---

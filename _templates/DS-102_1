@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.aliexpress.com/item/32996551323.html
 image: http://EvertDekker.com/wp/wp-content/uploads/2019/04/TgethDs102.jpg
-template: '{"NAME":"DS-102 1 Gang","GPIO":[57,0,0,17,0,0,0,0,0,21,56,0,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"DS-102 1 Gang","GPIO":[158,0,0,17,0,0,0,0,0,21,52,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/dp/B07WFKJ27C/
 link3: https://www.banggood.com/Geekcreit-123-Gang-WiFi-Smart-Light-Switch-Push-Button-Smart-LifeTuya-APP-Remote-Control-Works-with-Alexa-Google-Home-for-Voice-Control-p-1536383.html
 ---

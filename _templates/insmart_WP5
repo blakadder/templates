@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-23
+title: Insmart WP5
+model: 
+image: /assets/images/insmart_WP5.jpg
+template: '{"NAME":"INSMART","GPIO":[0,0,46,0,0,0,0,0,0,9,0,21,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07RMDM79X/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

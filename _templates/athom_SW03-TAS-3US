@@ -1,0 +1,14 @@
+---
+date_added: 2020-12-15
+title: Athom 3 Gang Touch 
+model: SW03-TAS-3US
+image: /assets/images/athom_SW03-TAS-3US.jpg
+template9: '{"NAME":"Athom SW03-TAS-3US","GPIO":[576,290,0,33,225,34,0,0,32,224,289,226,288,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/copy-of-us-touch-switch-2-gang
+link: https://www.aliexpress.com/item/4001241204555.html
+link2: 
+flash: preflashed
+category: switch
+type: Switch
+standard: us
+---

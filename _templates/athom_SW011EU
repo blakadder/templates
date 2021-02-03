@@ -1,0 +1,15 @@
+---
+date_added: 2020-09-10
+title: Athom 1 Gang
+model: SW011EU
+image: /assets/images/athom_SW011EU.jpg
+template: '{"NAME":"Athom SW011EU","GPIO":[158,0,0,17,0,0,0,0,0,21,52,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/eu-key-button-switch-1-gang
+link: https://www.aliexpress.com/item/4001053548549.html
+link2: https://www.tindie.com/products/athom/pre-flashed-tasmota-wifi-eu-switch-1-gang/
+flash: preflashed
+category: switch
+type: Switch
+standard: eu
+---
+![PCB](/assets/images/athom_SW011EU_pcb.jpg)

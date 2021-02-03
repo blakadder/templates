@@ -1,13 +1,15 @@
 ---
 title: Shelly 1
 category: relay
-type: Relay
+type: Switch
 standard: global
+flash: mgos
 mlink: https://shelly.cloud/shelly1-open-source/
 image: /assets/images/shelly_1.jpg
 template: '{"NAME":"Shelly 1","GPIO":[0,0,0,0,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}'
 link: https://www.amazon.de/gp/product/B07NS8M4Y1
-link2: https://www.amazon.com/SHELLY-Wireless-Automation-Android-Application/dp/B07G33LNDY/
+link2: https://www.amazon.com/dp/B07G33LNDY/
+link3: https://www.domadoo.fr/fr/objets-communicants/4795-shelly-micromodule-intellig
 ---
 
 * [Allterco Shelly 1 Product Page](https://shelly.cloud/shelly1-open-source/)
@@ -28,7 +30,7 @@ An ESP8266 with 2MB flash single relay device 42mm "round" in size.
 ## Serial Connection
 Shelly1 comes with a partially exposed programming/debug header which can be used to flash Tasmota on the device. A serial-to-USB adapter is needed as well as a reliable 3.3V source with at least 350 mA drive capability. The following diagram shows the device pinout and power source voltage selection jumper.
 
-<img src="https://raw.githubusercontent.com/arendst/arendst.github.io/master/media/shelly/shelly1_pinout-800x433.jpg" height="250" />
+<img src="https://shelly.cloud/wp-content/uploads/2020/06/shelly1_pinout.jpg" height="250" />
 
 ## Flash mode
 To be able to flash the Tasmota firmware you need to get into flash mode. Therefore connect a wire from GPIO0 to ground. For further information have a look at [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation#bringing-the-module-in-flash-mode).

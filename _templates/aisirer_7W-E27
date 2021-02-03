@@ -11,3 +11,4 @@ category: bulb
 type: RGBW
 standard: e27
 ---
+New bulbs come with tw-02 chip. Not flashable because it's not esp based.

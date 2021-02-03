@@ -1,6 +1,7 @@
 ---
 date_added: 2019-11-13
-title: Avatar AWP14H
+title: Avatar 
+model: AWP14H
 category: plug
 type: Plug
 standard: uk
@@ -11,10 +12,6 @@ link2: https://www.amazon.co.uk/AJP-Compatible-Required-Anywhere-Dispatch/dp/B07
 mlink: http://www.avatarcontrols.com/index.php?ac=article&at=read&did=207
 ---
 
-Power calibration reasonable out of box. Needs fine-tuning
-
-
-
-
-
-
+## Warning
+- As of December 2020 these plugs come with Beken BK7231 chipset and are no longer compatible with Tasmota.
+- As of December 2020 these plugs can come with the new Tuya firmware and therefor cannot be flashed.

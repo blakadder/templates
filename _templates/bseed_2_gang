@@ -1,0 +1,14 @@
+---
+date_added: 2020-10-08
+title: BSEED 2 Gang 1 Way
+model: 
+image: /assets/images/bseed_2_gang.jpg
+template: '{"NAME":"BSEED Switch 2Ch","GPIO":[0,0,0,18,22,0,0,0,17,21,0,52,53],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B082F3S61B/
+link2: https://www.aliexpress.com/item/1005001315228647.html
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---

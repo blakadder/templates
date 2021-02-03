@@ -1,0 +1,14 @@
+---
+date_added: 2020-11-05
+title: Athom US Key Switch 1 Gang
+model: SW13
+image: /assets/images/athom_SW13.jpg
+template: '{"NAME":"Athom SW13","GPIO":[158,0,0,17,0,0,0,0,0,21,52,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/us-key-switch-1-gang
+link: https://www.aliexpress.com/item/1005001670355860.html
+link2: 
+flash: preflashed
+category: switch
+type: Switch
+standard: us
+---

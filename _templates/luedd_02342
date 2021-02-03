@@ -1,0 +1,14 @@
+---
+date_added: 2020-07-29
+title: Luedd 7W 800lm Filament
+model: 02342
+image: /assets/images/luedd_02342.jpg
+template: '{"NAME":"Luedd E27","GPIO":[0,0,0,0,0,0,0,0,0,0,46,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/LUEDD-dimmbare-Lampe-Smart-800lm/dp/B07LB33KYX/
+link2: https://www.lampandlight.eu/e27-led-a60-clear-filament-7w-800lm-2700k
+mlink: 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e27
+---

@@ -1,6 +1,6 @@
 ---
 date_added: 2020-06-24
-title: BrilliantSmart 24W 410mm Salisbury CCT Ceiling
+title: BrilliantSmart 24W 410mm Salisbury CCT 
 model: 20814/05
 image: /assets/images/brilliantsmart_20814.jpg
 template: '{"NAME":"Salisbury","GPIO":[0,0,0,0,0,0,0,0,47,0,37,0,0],"FLAG":0,"BASE":48}' 
@@ -9,6 +9,6 @@ link2:
 mlink: https://www.brilliantsmart.com.au/
 flash: tuya-convert
 category: light
-type: Light
+type: Ceiling Light
 standard: au
 ---

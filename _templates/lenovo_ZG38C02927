@@ -8,8 +8,8 @@ link: https://www.aliexpress.com/item/4001022480011.html
 link2: https://www.jbhifi.com.au/products/lenovo-smart-motion-sensor
 mlink: 
 flash: serial
-category: misc
-type: Sensor
+category: sensor
+type: Motion Sensor
 standard: global
 ---
 I bought this sensor off AliExpress, it came with a sticker hiding the Lenovo branding. 
@@ -21,9 +21,11 @@ Identified with MCU Product ID: `{"p":"105awlczxldrrpfc","v":"1.0.0"}`
 ## Flashing
 To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk. Tuya-Convert was not possible due to new PSK used.
 
-Flash using the TYWE3S pins but make sure the battery is disconnected and the power button is in the off position. After flashing you need to disconnect power from the serial-to-USB adapter and reconnect the battery and power the sensor with it.
+Flash using the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) pins but make sure the battery is disconnected and the power button is in the off position. After flashing you need to disconnect power from the serial-to-USB adapter and reconnect the battery and power the sensor with it.
 
 ![](/assets/images/lenovo_ZG38C02927_soldering.jpg)
+
+yellow = TXD, blue = RXD, black = GND, orange = Vcc 3.3V. Remeber to connect GPIO0 (3 above GND) to GND while powering up the chip!
 
 ## Configuration
 
@@ -67,4 +69,4 @@ You can try using a rule that will send the command whenever the battery message
 Rule1 on TuyaReceived#CmndData=0304000102 do serialsend5 55AA000200010002 endon on TuyaReceived#CmndData=0304000101 do serialsend5 55AA000200010002 endon
 ```
 
-The rule will not trigger when battery status is low (00) so you will know to change batteries if it gets struck in that mode.
+The rule will not trigger when battery status is low (00) so you will know to change batteries if it gets stuck in that mode.

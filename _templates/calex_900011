@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-06
+title: Calex Powerplug UK
+model: 900011
+image: /assets/images/calex_900011.jpg
+template9: '{"NAME":"Calex UK Plug","GPIO":[0,0,0,0,320,321,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.tesco.com/groceries/en-GB/products/306856037?selectedUrl=https%3A%2F%2Fdigitalcontent.api.tesco.com%2Fv2%2Fmedia%2Fghs%2F6a6ea58d-f24b-4bdd-a389-39017863bced%2Fsnapshotimagehandler_1809696504.jpeg%3Fh%3D540%26w%3D540
+link2: 
+mlink: https://www.calex.eu/en/products/product/POWERPLUG-UK-SMART/
+flash: serial
+category: plug
+type: Plug
+standard: uk
+---
+Tuya Convert doesn't seem to work. The device is ultrasonically welded. I have managed to flash it by disassembling the device, desolderin the PCB, and soldering wires to the pins on the [TYWE2S module](https://developer.tuya.com/en/docs/iot/device-development/hardware-development/mcu-access-hardware-design/hardware-design-reference-wifi/tywe2s?id=K9hhi0xr3f3ub). You might also have success with the test points on the back of the module, but that isn't exactly easy given the cramped PCB layout.

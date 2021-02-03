@@ -1,8 +1,9 @@
 ---
 date_added: 2019-09-18
-title: Utorch UT40
+title: Utorch 24W 2000lm CCT
+model: UT40
 category: light
-type: Light
+type: Ceiling Light
 standard: global
 link: https://www.gearbest.com/smart-ceiling-lights/pp_009748680892.html
 image: https://user-images.githubusercontent.com/5904370/66717793-502a1000-eddd-11e9-9b38-1295260c3854.png
@@ -13,9 +14,3 @@ link2:
 The Utorch UT40 uses the same template as the Utorch PZE-911 which is its predecessor. 
 
 While it does not have a programming interface, you can flash the firmware using an adapter to connect directly to the ESP8266.
-
-
-
-
-
-

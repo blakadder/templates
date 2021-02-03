@@ -1,0 +1,110 @@
+---
+date_added: 2020-11-30
+title: LilyGO TTGO TO ESP8266 OLED SH1106 Weather Station 
+model: ESP8266_OLED_SH1106
+image: /assets/images/lilygo_ESP8266_OLED_SH1106.jpg
+template: '{"NAME":"TTGO-T12","GPIO":[255,255,255,255,5,6,0,0,17,19,18,255,255],"FLAG":15,"BASE":18}' 
+template9: '{"NAME":"TTGO T12","GPIO":[1,1,1,1,608,640,0,0,32,34,33,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32854542718.html
+link2: https://www.amazon.com/dp/B07B9RNX8H
+mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50032&Id=1158
+flash: serial
+category: misc
+type: DIY
+standard: global
+---
+## Hardware
+
+The LILYGO TTGO T12 is based on a [ESP8266EX](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf) and has a [SH1106](https://www.winstar.com.tw/products/oled-module/graphic-oled-display/sh1106-oled.html) OLED display.
+It has 3 buttons on the front and a reset button.
+
+The SH1106 display is connected to GPIO4 (SCL) and GPIO5 (SDA).
+
+The buttons are connected to GPIO12, GPIO14 and GPIO13.
+
+### v1.0
+This version has no logo on the front.
+[AliExpress](https://www.aliexpress.com/item/32853605664.html?aff_platform=portals-tool&sk=_dYc72Dj&aff_trace_key=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj&terminal_id=3ac645b4aa5741e4bebe6d5c100f96fc&tmLog=new_Detail&aff_request_id=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj)
+![TTGO T12 v1.0](/assets/images/lilygo_ESP8266_OLED_SH1106_v1pinout.jpg)
+
+[Schematic Diagram](https://github.com/LilyGO/CryptoMoneyTicker_LITE/raw/master/T12_8266_V1.1.pdf)
+
+Pinout for version 1.0:
+
+|Pin| Back Left, BOX Right         | Back Right, BOX Left |Pin|
+|---| ---------------------------- | -------------------- |---|
+|  1| A0 / GPIO17                  | RESET                | 16|
+|  2| D3 / GPIO0 / FLASH           | TXD / GPIO1          | 15|
+|  3| D4 / GPIO2	               | RXD / GPIO3          | 14|
+|  4| D5 / GPIO14 / CLK	 / BUTTON2 | 3.3V                 | 13|
+|  5| D6 / GPIO12 / MISO / BUTTON1 | GND                  | 12|
+|  6| D7 / GPIO13 / MOSI / BUTTON3 | GND                  | 11|
+|  7| D8 / GPIO15 / CS             | 5V                   | 10|
+|  8| D0 / GPIO16 / WAKE           | CHIP_EN              |  9|
+
+### v2.0 / H214
+Has a ""TTGO"" logo on the front. The product pages shows 2MB but it is actually has 4MB flash memory. 
+[AliExpress](https://www.aliexpress.com/item/32854542718.html?aff_platform=portals-tool&sk=_dYc72Dj&aff_trace_key=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj&terminal_id=3ac645b4aa5741e4bebe6d5c100f96fc&tmLog=new_Detail&aff_request_id=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj) 
+![TTGO T12 v2.0](/assets/images/lilygo_ESP8266_OLED_SH1106_v2pinout.jpg)
+
+The pinout in the above image is **not correct**.
+This is the actual pinout for version 2.0:
+
+|Pin| Back Left, BOX Right         | Back Right, BOX Left |Pin|
+|---| ---------------------------- | -------------------- |---|
+|  1| A0 / GPIO17                  | RESET                | 16|
+|  2| D3 / GPIO0 / FLASH           | TXD / GPIO1          | 15|
+|  3| D4 / GPIO2	               | RXD / GPIO3          | 14|
+|  4| D5 / GPIO14 / CLK	 / BUTTON2 | 3.3V                 | 13|
+|  5| D6 / GPIO12 / MISO / BUTTON1 | GND                  | 12|
+|  6| D7 / GPIO13 / MOSI / BUTTON3 | D0 / GPIO16 / WAKE   | 11|
+|  7| D8 / GPIO15 / CS             | 5V                   | 10|
+|  8| Battery                      | CHIP_EN              |  9|
+
+[Check pauls_3d_things's Blog fore more info](https://p3dt.net/post/2019/07/20/ttgo-esp8266-weather-station.html)
+
+### T-Hacker DIY BOX
+Contains T12 v2.0 + accu in a case
+[AliExpress](https://www.aliexpress.com/item/32882897101.html?aff_platform=portals-tool&sk=_dYc72Dj&aff_trace_key=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj&terminal_id=3ac645b4aa5741e4bebe6d5c100f96fc&tmLog=new_Detail&aff_request_id=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj)
+![TTGO T-Hacker DIY BOX](/assets/images/lilygo_ESP8266_OLED_SH1106_hackerbox.jpg)
+
+## Build Tasmota
+
+You will need [compile your own build](https://tasmota.github.io/docs/Compile-your-build/) of Tasmota with these options enabled in `user_config_override.h`:
+```
+#define USE_DISPLAY
+#define USE_DISPLAY_SH1106
+#define USE_I2C
+```
+
+## Flashing
+
+It is not possible to flash the module using the onboard micro-USB connection. 
+You have to disconnect the USB power and use a 3.3V FTDI connection to the TXD, RXD, GND and 3.3V pins.
+You need to put the module in flash mode by following these steps:
+
+* Connect pin 2 (GPIO0) to ground
+* Press the RESET button
+* Disconnect pin 2 from ground
+
+You can use [Tasmotizer](https://github.com/tasmota/tasmotizer) the flash the module.
+
+## Configure Template
+
+Template for Tasmota 9.1 and later
+```console
+{""NAME"":""TTGO T12"",""GPIO"":[255,255,255,255,5,6,0,0,17,19,18,255,255],""FLAG"":15,""BASE"":18}
+```
+
+Template for Tasmota 9.0 or older
+```console
+{""NAME"":""TTGO T12"",""GPIO"":[255,255,255,255,5,6,0,0,17,19,18,255,255,255],""FLAG"":15,""BASE"":18}
+```
+
+## Configure Display
+Enter in Console:
+```
+Backlog DisplayModel 7; I2cDriver 6; DisplayMode 5; DisplayDimmer 15; DisplayCols 21; DisplayRows 8
+```
+
+[More information](https://tasmota.github.io/docs/Displays/#displaymode-parameters)

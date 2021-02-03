@@ -1,14 +1,14 @@
 ---
 title: Sonoff Pow R2
 category: relay
-type: Relay
+type: Switch
 standard: global
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/powr2
 link: https://www.itead.cc/sonoff-pow-r2.html
 image: https://user-images.githubusercontent.com/5904370/57882172-65494580-7823-11e9-9202-cac2dccd18b2.png
 template: '{"NAME":"Sonoff Pow R2","GPIO":[17,145,0,146,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":43}' 
 link2: https://www.banggood.com/SONOFF-POW-R2-AC90-250V-16A-3500W-WIFI-Wireless-APP-Remote-Control-Switch-Timer-Socket-Power-Monitor-Current-Tester-Works-with-Amazon-Alexa-Amazon-Echo-Dot-Amazon-Tap-Google-Home-Nest-Assistant-IFTTT-p-1279097.html
-link2: https://www.gearbest.com/smart-home-controls/pp_1829203.html
+link2: https://www.domadoo.fr/fr/peripheriques/5291-sonoff-commutateur-intelligent-wifi-mesure-de-consommation.html
 link4: https://www.aliexpress.com/item/32871275991.html
 ---
 ## ⚠️️Special Attention   ⚠️️
@@ -31,6 +31,10 @@ Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Sta
 ![](https://user-images.githubusercontent.com/25504364/32949520-a1178cf0-cb92-11e7-98e2-6285ecf9ee93.jpg)
 
 To enter **flash mode**, press down on the button while powering the device.
+
+Some users have reported problems trying to flash this device.
+A possible solution is provided by [i3laze](https://github.com/i3laze) in an [issue](https://github.com/arendst/Tasmota/issues/1203#issuecomment-417854726).
+Placing a 220 ohm resistor between the **VDD** and **RX** connectors will solve the problem.
 
 Note - After the module type is changed to "Sonoff Pow R2", the serial port is no longer available for entering configuration commands because the serial port is used to communicate to the power measurement chip.  Make sure you have set up your network connection before doing this.
 

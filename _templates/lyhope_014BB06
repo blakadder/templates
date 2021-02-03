@@ -1,0 +1,14 @@
+---
+date_added: 2020-08-29
+title: Lyhope 7W 650lm 
+model: 014BB06
+image: /assets/images/lyhope_014BB06.jpg
+template: '{"NAME":"Lyhope 014BB06","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07HGT2CXR
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---

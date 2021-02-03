@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-08
+title: EKasa 10W+3W 1050lm
+model: EKSG-T710C-E27
+image: /assets/images/ekasa_EKSG-T710C-E27.jpg
+template9: '{"NAME":"EKASA T710C-E27","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://produto.mercadolivre.com.br/MLB-1664095488-smart-lmpada-inteligente-10w3w-1050lumens-wifi-ekaza-alexa-_JM
+link2: https://www.amazon.com.br/Smart-Lampada-inteligente-1050lumens-EKAZA/dp/B08JH9HTW7
+mlink: https://www.ekaza.com.br/iluminacao/smart-lampada-wifi-ekaza-rgbw/
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e27
+---
+Needs `SetOption92` enabled since it uses PWM4 for brightness and PWM5 for color temperature.

@@ -1,0 +1,16 @@
+---
+date_added: 2021-01-29
+title: Steren Apagador Triple
+model: SHOME-117
+image: /assets/images/steren_SHOME-117.jpg
+template: '{"NAME":"STEREN SHOME-117","GPIO":[0,0,52,0,19,17,0,0,21,22,23,0,18],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"STEREN SHOME-117","GPIO":[0,0,288,0,34,32,0,0,224,225,226,0,33,0],"FLAG":0,"BASE":18}' 
+link: https://www.steren.com.mx/apagador-wi-fi-triple.html
+link2: 
+mlink: https://steren.com.mx
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+Remove 4 screws from the back of the device and separate the two pieces, the front plate have clear markings of TX, RX, GND, 3V3 and GPIO0, attach jumper wires to a USB-TTL, plug and flash (Tasmotizer works very well).

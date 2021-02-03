@@ -5,11 +5,9 @@ category: plug
 type: Plug
 standard: in
 link: https://www.amazon.in/Thrumm-WiFi-Smart-Plug-White/dp/B07D5XTLDB
-image: https://ae01.alicdn.com/kf/HLB111k2MpzqK1RjSZFvq6AB7VXaS/India-Round-3-Pins-Wi-Fi-WiFi-Smart-Socket-Outlet-Plug-Adapter-Adaptor-For-Amazon-Alexa.jpg
+image: /assets/images/XS-A11.jpg
 template: '{"NAME":"THRUMM XS-A11","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.aliexpress.com/item/32959321993.html
+link3: https://www.amazon.in/gp/product/B07D7GHB71/
 mlink: https://www.alibaba.com/product-detail/India-standard-wi-fi-smart-plug_60748108114.html
-
 ---
-
-![](https://ae01.alicdn.com/kf/HLB1y7UsfnZmx1VjSZFGq6yx2XXay/India-Round-3-Pins-Wi-Fi-WiFi-Smart-Socket-Outlet-Plug-Adapter-Adaptor-For-Amazon-Alexa.jpg)

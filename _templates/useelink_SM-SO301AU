@@ -1,7 +1,7 @@
 ---
 date_added: 2020-04-15
-title: Useelink SM-SO301AU
-model: 
+title: Useelink 
+model: SM-SO301AU
 image: /assets/images/useelink_SM-SO301AU.jpg
 template: '{"NAME":"Useelink","GPIO":[56,0,0,0,29,0,0,0,31,30,32,0,25],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com.au/Useelink-Protector-Individual-Schedule-Required/dp/B0831FFPLQ

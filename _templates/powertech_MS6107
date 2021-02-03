@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-09
+title: Powertech 4AC 2USB
+model: MS6107
+image: /assets/images/powertech_MS6107.jpg
+template: '{"NAME":"Ptech MS6107","GPIO":[0,52,0,17,21,22,0,0,24,25,23,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.jaycar.com.au/4-way-smart-wifi-mains-powerboard-with-2-usb-ports/p/MS6107
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: au
+---
+You need to desolder the TYWE2S in order to flash it as the TX and RX lines are shared.

@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-31
+title: Curv 4 Plug
+model: CURV-SMTEXT01
+image: /assets/images/curv_CURV-SMTEXT01.jpg
+template9: '{"NAME":"CURV","GPIO":[0,32,0,228,0,0,1,1,227,225,226,224,0,1],"FLAG":0,"BASE":18}' 
+link: https://www.curv360.com/product/smart-4-plug-extension-lead/
+link2: 
+mlink: https://www.curv360.com/wp-content/uploads/2019/10/CURV-SMTEXT01-Datasheet.pdf
+flash: tuya-convert
+category: switch
+type: Power Strip
+standard: uk
+---
+Flashed device to 9.2.0 using tuya-convert

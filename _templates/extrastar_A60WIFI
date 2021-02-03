@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-06
+title: Extrastar 10w 1000lm
+model: A60WIFI
+image: /assets/images/extrastar_A60WIFI.jpg
+template9: '{"NAME":"Extrastar","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/dp/B086MT39RL/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e27
+---
+Use `SetOption92 1` after applying template.

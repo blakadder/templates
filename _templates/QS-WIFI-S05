@@ -9,6 +9,6 @@ link2:
 mlink: 
 flash: tuya-convert
 category: relay
-type: Relay
+type: Switch
 standard: global
 ---

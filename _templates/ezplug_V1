@@ -1,0 +1,24 @@
+---
+date_added: 2020-12-22
+title: EZPlug V1 OpenSource
+model: 
+image: /assets/images/ezplug_V1.jpg
+template: '{"NAME":"EZPlug V1","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":1}' 
+template9: '{"NAME":"EZPlug V1","GPIO":[0,0,0,32,0,0,0,0,0,320,224,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.th3dstudio.com/product/ezplug-open-source-wifi-smart-plug
+link2: 
+mlink: https://www.th3dstudio.com/product/ezplug-open-source-wifi-smart-plug/
+flash: preflashed
+category: plug
+type: Plug
+standard: us
+---
+
+Pre-flashed with TH3D version of firmware. You can update over wifi to standard Tasmota.
+
+Converting the EZPlug from TH3D Firmware to Tasmota:
+
+1. Download the latest tasmota-minimal.bin and flash it from the GUI
+2. Download the latest tasmota.bin and flash it from the GUI
+3. Reset the EZPlug configuration to clear out the config to prevent errors
+4. Use it with standard Tasmota!

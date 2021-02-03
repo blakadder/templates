@@ -5,7 +5,7 @@ type: RGBW
 category: bulb
 standard: b22
 link: https://www.amazon.in/dp/B07R2YF1R1/
-image: /assets/images/
+image: /assets/images/solimo_12W_B22.jpg
 template: '{"NAME":"Solimo RGBCCT 12","GPIO":[0,0,0,0,37,41,0,0,38,40,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

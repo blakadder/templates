@@ -1,0 +1,15 @@
+---
+date_added: 2021-01-06
+title: Lenovo SE-141DC
+model: ZA7G0000WW
+image: /assets/images/lenovo_ZA7G0000WW.jpg
+template9: '{"NAME":"LenovoSE-141DC","GPIO":[0,0,0,0,0,416,0,0,0,417,0,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.lowes.com/pd/Lenovo-Lenovo-Smart-Bulb-White/5001233285
+link2: 
+mlink: https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-home/smart-home-series/Lenovo-SE-141/p/ZA7G0000WW
+flash: serial
+category: bulb
+type: CCT
+standard: e26
+---
+Open bulb (I just put seam of bulb on the edge of furniture and pushed down on both sides of the bulb to pop it open).  Remove LED board (has a connector, doesn't require un-soldering). Connect VCC/GND/TX/RX on module to programmer. Connect GPIO0 on module to GND with 9kohm resistor when applying power to module (to enter programming mode).

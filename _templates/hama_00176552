@@ -1,0 +1,15 @@
+---
+date_added: 2020-12-09
+title: Hama 16A
+model: 00176552
+image: /assets/images/hama_00176552.jpg
+template: '{"NAME":"Hama Plug","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":52}' 
+link: https://www.amazon.de/dp/B07F7V8Q1X/
+link2: https://www.mediamarkt.de/de/product/_hama-3-680w-16a-2461368.html
+mlink: https://www.hama.com/00176552/hama-wlan-steckdose-ohne-hub-fuer-sprachsteuerung-u-app-steuerung-3680w-16a
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+Tuya convert complains a full backup cannot be fetched during flashing, but continued without any problem. Possibility to restore to factory firmware is unknown.
