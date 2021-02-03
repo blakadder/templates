@@ -1,0 +1,21 @@
+---
+date_added: 2021-02-03
+title: Sonoff TX T0 US 3 Gang
+model: T0US3C
+category: switch
+type: Switch
+standard: us
+flash: serial
+image: /assets/images/sonoff_TX-T0US3C.jpg
+template: '{"NAME":"TX T0US3C","GPIO":[17,255,0,255,23,22,18,19,21,158,0,0,0],"FLAG":0,"BASE":30}'
+mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
+link4: https://www.aliexpress.com/item/1005001845997682.html
+link2: https://www.amazon.com/dp/B07S52N5HV/
+link3: https://www.banggood.com/SONOFF-T0-EU-or-US-or-UK-AC-100-240V-1-or-2-or-3-Gang-TX-Series-WIFI-Wall-Switch-Smart-Wall-Touch-Light-Switch-For-Smart-Home-Work-With-Alexa-Google-Home-p-1470886.html?cur_warehouse=CN&ID=6278517
+link: https://www.itead.cc/sonoff-tx-series-wifi-smart-wall-switches.html
+---
+
+## Flashing Notes
+Set baudrate to 74880.
+
+GPIO0 is at R19
