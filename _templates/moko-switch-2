@@ -1,0 +1,11 @@
+---
+date_added: 2020-12-10
+title: MoKo Smart Life Double
+category: switch
+type: Switch
+standard: uk
+flash: tuya-convert
+link: https://www.amazon.co.uk/gp/product/B0834PFVTR
+template: '{"NAME":"Moko Switch (Double)","GPIO":[157,0,57,0,0,18,0,0,17,21,0,22,56],"FLAG":0,"BASE":59}' 
+link2: 
+---
