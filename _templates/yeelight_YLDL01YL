@@ -29,3 +29,11 @@ White Light and RGB can be split: https://tasmota.github.io/docs/Lights/#rgb-and
 
 
 Several pics including GPIO: https://photos.app.goo.gl/T3F4aaXuYgvFXRmi7
+
+UPDATE (2021-01-31)
+If you are creating the firmware from source then follow these steps:
+- In the platfromoi_override.ini update the env:tasmota32solo1 var for platform_packages
+framework-arduinoespressif32 @ https://github.com/Jason2866/esp32-arduino-lib-builder/raw/framework-arduinoespressif32/framework-arduinoespressif32-release_v3.3-solo1-bd65eb8d1.tar.gz
+- Once flashed, you need to add two settings to allow both PWM lights to be controlled:
+-- SetOption37 128
+-- SetOption92 1
