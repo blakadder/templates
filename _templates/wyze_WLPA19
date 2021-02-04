@@ -2,7 +2,7 @@
 date_added: 2021-02-03
 title: Wyze A19 800lm
 model: WLPA19
-image: https://user-images.githubusercontent.com/5904370/72208277-28f8e280-34a1-11ea-875d-d45e65f09a5a.png
+image: /assets/images/wyze_WLPA19.jpg
 template9: '{"NAME":"Wyze Bulb","GPIO":[5728,0,0,0,0,0,0,0,0,416,417,0,0,0],"FLAG":0,"BASE":48}'
 link: https://www.amazon.com/dp/B07RF9NCDP
 mlink: https://wyze.com/wyze-bulb.html
