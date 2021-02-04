@@ -15,25 +15,24 @@ standard: global
 ---
 Requires [tasmota32solo1.bin](https://github.com/Jason2866/Tasmota-specials/blob/firmware/firmware/tasmota32/other/tasmota32solo1.bin) because it is using the single core version of ESP32
 
-White Light and RGB can be split: https://tasmota.github.io/docs/Lights/#rgb-and-white-split
-
-- GPIO33 -> red -> PWM1
-- GPIO26 -> green -> PWM2
-- GPIO27 -> blue -> PWM3
-- GPIO21 -> coldwhite -> PWM4
-- GPIO19 -> warmwhite -> PWM5
-
-- GPIO23 -> NL
-- GPIO22-> ON/OFF
-- NL and ON/OFF pin function unknown.
-
-
-Several pics including GPIO: https://photos.app.goo.gl/T3F4aaXuYgvFXRmi7
-
-UPDATE (2021-01-31)
 If you are creating the firmware from source then follow these steps:
 - In the platformio_override.ini update the `env:tasmota32solo1` var for platform_packages
 `framework-arduinoespressif32 @ https://github.com/Jason2866/esp32-arduino-lib-builder/raw/framework-arduinoespressif32/framework-arduinoespressif32-release_v3.3-solo1-bd65eb8d1.tar.gz`
 - Once flashed, you need to add two settings to allow both PWM lights to be controlled:
     - `SetOption37 128`
     - `SetOption92 1`
+
+White Light and RGB can be [split](https://tasmota.github.io/docs/Lights/#rgb-and-white-split)
+
+- GPIO33 - red - PWM1
+- GPIO26 - green - PWM2
+- GPIO27 - blue - PWM3
+- GPIO21 - coldwhite - PWM4
+- GPIO19 - warmwhite - PWM5
+- GPIO23 - NL
+- GPIO22 - ON/OFF
+- NL and ON/OFF pin function unknown.
+
+
+(Several pictures including GPIO)[https://photos.app.goo.gl/T3F4aaXuYgvFXRmi7]
+
