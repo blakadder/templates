@@ -13,3 +13,5 @@ type: Relay
 standard: global
 ---
 Headers must be soldered and jumpers needs to be installed for enabling relays. 
+
+The board uses GPIO16 and so Relay1 is always turned ON when power is applied to the board, causing a brief on/off pulse on the relay as Tasmota loads and turns it off again. Of course, if the last state was ON, then it will stay ON. It's still a very useful board at a bargain price; just a shame the designer was too lazy to route a different GPIO pin.
