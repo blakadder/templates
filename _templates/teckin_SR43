@@ -12,3 +12,5 @@ category: switch
 type: Switch
 standard: eu
 ---
+
+GPIO0 is located at R13
