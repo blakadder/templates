@@ -1,0 +1,15 @@
+---
+date_added: 2021-02-02
+title: Xtricity A19 10W 800lm
+model: 1-50085
+image: /assets/images/xtricity_1-50085.jpg
+template9: '{"NAME":"XTRICITY A19 10W 800LM RGBCCT BULB","GPIO":[0,0,0,0,416,419,0,0,417,452,418,2304,2272,0],"FLAG":0,"BASE":48}' 
+link: https://www.walmart.ca/en/ip/Xtricity-1-50085-LED-Wi-Fi-Type-A-10W-120V-RGB-Colors-2700K-6500K-Tunable-Dim-2PK-White/PRD53UEDXZTLYJD
+link2: 
+mlink: http://www.jessar.ca/en/led-smart-bulbs/led-wi-fi-type-a-10w-120v-rgb-colors-2700k-6500k-tunable-white-dim-2pk-1-50085
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e26
+---
+Uses Tuya TYWE3L module. Do not link these Bulb with Tuya's official app before flashing. it would update firmware and prevent flashing using Tuya-convert-2.3 .  Opening the device will likely break the outer shell, meaning you will not be able to re-assemble it.   Here's a link for the PCB pinout : https://images.tuyacn.com/smart_res/sample_module/tywe3l_pic2.png

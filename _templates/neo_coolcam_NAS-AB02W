@@ -4,7 +4,7 @@ title: NEO Coolcam Siren with Temperature and Humidity
 model: NAS-AB02W
 image: /assets/images/neo_coolcam_NAS-AB02W.jpg
 template: '{"NAME":"Neo Siren 3in1","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
-link: https://www.aliexpress.com/item/32902225381.html
+link: https://www.aliexpress.com/item/33042023659.html
 link2: 
 mlink: https://www.szneo.com/en/products/show.php?id=230
 flash: tuya-convert
@@ -37,16 +37,16 @@ TuyaMCU 11,104
 ## Functions
 Alarm will be turned on or off using POWER. 
 
-- dpId 101 - power type (1 - battery high; 2 - ?medium?; 3 - ?low?; 4 - usb port)
-- dpId 102 - alarm type (0-17)
+- dpId 101 - power type (1 - battery high; 2 - medium; 3 - low; 4 - usb port)
+- dpId 102 - alarm type chime sound (0-17)
 - dpId 103 - alarm duration time (in seconds)
 - dpId 104 - alarm control
-- dpId 105 - temp in C (divide by 10)
+- dpId 105 - temp in C (divide by 10) 
 - dpId 106 - humidity
 - dpId 107 - minimum temperature to trigger alarm
 - dpId 108 - maximum temperature to trigger alarm
 - dpId 109 - minimum humidity to trigger alarm
-- dpId 110 - maximum humidity to trigger alrm
+- dpId 110 - maximum humidity to trigger alarm
 - dpId 112 - unit change (on = C, off = F) - does not affect dpid 105 values
 - dpId 113 - temperature alarm control (0 = off, 1 = on)
 - dpId 114 - humidity alarm control (0 = off, 1 = on)
@@ -72,3 +72,18 @@ Alarm will be turned on or off using POWER.
 - 15 - clock chime
 - 16 - alarm clock
 - 17 - psycho
+
+## Example Commands
+Supported from Tasmota console and URL (e.g. http://{{sensor}}/cm?cmnd=TuyaSend0).
+
+### Read Data
+
+- TuyaSend0 - Force read of data from MCU and send to MQTT broker
+
+### Write Settings
+
+- TuyaSend2 103,12 - Set alarm duration time to 12 seconds
+- TuyaSend2 108,390 - Set maximum temperature to trigger alarm to 39.0 °C
+- TuyaSend2 113,0 - Disable temperature alarm control
+- TuyaSend2 114,0 - Disable humidity alarm control
+- TuyaSend4 116,2 - Set alarm volume to Low

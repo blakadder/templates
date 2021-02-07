@@ -5,10 +5,12 @@ model: SA-P402A
 image: /assets/images/houzetek_SA-P402A.jpg
 template: '{"NAME":"SA-P402A Houze","GPIO":[0,17,0,56,23,25,0,0,21,24,22,0,0],"FLAG":1,"BASE":18}' 
 link: https://www.amazon.es/dp/B07H5JVF4R/
-link2: 
+link2: https://www.aliexpress.com/item/32915120795.html
 mlink: 
 flash: serial
 category: plug
 type: Power Strip
 standard: eu
 ---
+
+[More information](https://tasmota.github.io/docs/devices/4CH-Wifi-Socket-with-USB-Charger-SA-P402A/)

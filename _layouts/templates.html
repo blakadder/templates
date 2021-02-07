@@ -67,6 +67,8 @@ layout: default
     <a class="menu" href="https://github.com/arendst/mgos-to-tasmota" target="_blank">MgOS to Tasmota</a>
     {% elsif page.flash == "preflashed" %}
     Tasmota pre-flashed
+    {% elsif page.flash == "wpf" %}
+    <a class="menu" href="https://github.com/elahd/wyze_plug_flasher" target="_blank">Wyze Plug Flasher</a>
     {% else %}
     {% endif %}
   {% else %}
@@ -181,6 +183,12 @@ layout: default
 
   {% if page.flash == 'tuya-convert' %}
   Tuya-Convert might not be possible for this device if the manufacturer started using <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">newest Tuya firmware</a> since this template was published ({{ page.date_added  }}). 
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.flash == 'wpf' %}
+  Can be flashed over-the-air with <a href="https://github.com/elahd/wyze_plug_flasher">Wyze Plug Flasher</a>.
   <br><br>
   <p>
   {% endif %}
