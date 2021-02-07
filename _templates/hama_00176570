@@ -1,0 +1,22 @@
+---
+date_added: 2021-02-05
+title: Hama 2,300W/10A
+model: 00176570
+image: /assets/images/
+template9: '{"NAME":"Hama Outdoor","GPIO":[0,0,0,0,576,320,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B085JBFXG6
+link2: 
+mlink: https://www.hama.com/00176570/hama-outdoor-wlan-socket-without-hub-for-voice-and-app-control-2300w-10a?srcLang=0&targetLang=1
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: eu
+---
+
+To open the shell of the device the green rubber cap and two tri-wing security screws have to be removed. To flash, wires have to be soldered to 3.3v, GND, TX, RX and GPI0. 
+
+Pinout on similar device: ![](https://community.blynk.cc/uploads/default/original/2X/5/50d89c2842c9b39599e82b140d2ac0a3439ea9c0.jpg)
+
+GPI0 sits just behind a capacitor that needs to be desoldered.
+Pinout on similar device: ![](https://community.blynk.cc/uploads/default/optimized/2X/9/9ec3a36515a5d91ce4ef5a94bcb5daccb953fdbe_2_560x500.png)
+

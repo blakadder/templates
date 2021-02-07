@@ -1,0 +1,15 @@
+---
+date_added: 2021-02-06
+title: Sinotimer Single Phase Digital Timer
+model: TM608
+image: /assets/images/sinotimer_TM608.jpg
+template9: '{"NAME":"TM608","GPIO":[32,0,0,0,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/SINOTIMER-TM608-AC-110V-220V-16A-18mm-Single-Phase-Digital-Timer-Switch-Remote-WiFi-Smart-Light-Control-Switch-Programmer-with-Energy-Monitoring-p-1680640.html
+link2: https://www.aliexpress.com/item/4000385430689.html
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+I tries Tuya-convert without success. Could open it relatively easy. Has a TYWE3S module inside. The TX/RX is unconnected so can easily be flashed via serial connection.

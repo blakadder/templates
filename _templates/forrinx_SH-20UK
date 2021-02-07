@@ -1,0 +1,19 @@
+---
+date_added: 2021-02-05
+title: Forrinx 3AC 4USB
+model: SH-20UK
+image: /assets/images/forrinx_SH-20UK.jpg
+template9: '{"NAME":"SH-20","GPIO":[0,320,0,321,225,224,0,0,32,226,227,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B07PKBN9NY
+link2: 
+mlink: https://www.alibaba.com/product-detail/Original-Forrinx-SH-20-electrical-material_60823148026.html
+flash: serial
+category: switch
+type: Power Strip
+standard: uk
+---
+Disassemble the unit (a few screws, back pops off) to do the flash. Screws on the back (under the white pads).
+
+Once disassembled, un-solder the TYWE2S module from the power board to flash it with Tasmotizer. The GPIO 0 pin that needs to be pulled to ground on powerup is not accessible via the module, but can be accessed via test point I00 on the back of the module. Unfortunately, visibility and access are blocked by USB socket, so out it came. Once on its own I had no trouble flashing it over serial, and it went back in & was soldered up quite easily.
+
+Relays 1 - 3 controlling the sockets, starting with Relay 1 nearest to the power cable and Relay 4 controlling the USB sockets.
