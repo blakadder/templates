@@ -1,8 +1,8 @@
 ---
 date_added: 2021-02-05
 title: Hama 2,300W/10A
-model: 00176570
-image: /assets/images/
+model: '00176570'
+image: /assets/images/hama_00176570.jpg
 template9: '{"NAME":"Hama Outdoor","GPIO":[0,0,0,0,576,320,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B085JBFXG6
 link2: 
