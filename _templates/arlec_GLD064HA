@@ -1,0 +1,24 @@
+---
+date_added: 2021-02-10
+title: Arlec 4W 380lm Warm White Fancy Round Globe
+model: GLD064HA
+image: /assets/images/arlec_GLD064HA.jpg
+template: '{"NAME":"Arlec E14 Smart Bulb","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-grid-connect-smart-4w-380lm-warm-white-fancy-round-ses-e14-globe_p0111504
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: Dimmable
+standard: e14
+---
+The bulb uses the Tuya TYLC5 module which is based on the ESP8285 MCU. The module must be desoldered to access the programming PINs.
+
+The antenna is soldered to both the main board and the Tuya TYLC5 board, the antenna is fragile, it must be desoldered when programming and resoldered after the programming has been finished.
+
+The pinout of the module:
+![](https://images.tuyacn.com/smart_res/sample_module/tylc5_pic2.png)
+
+Both the top diffuser and the lamp base have to be removed to access the board.
+
+The teardown is almost destructive, Tasmota support is possible but not recommended, modification to this product might lead to a potential fire hazard; users should look elsewhere for more DIY-friendly products.

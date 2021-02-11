@@ -1,0 +1,20 @@
+---
+date_added: 2021-02-10
+title: Milfra Smart Module
+model: TB41
+image: /assets/images/milfra_TB41.jpg
+template9: '{"NAME":"Milfra Smart Module TB41","GPIO":[0,0,0,225,0,0,0,0,0,193,480,224,192,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B08HYN8V6B
+link2: https://www.aliexpress.com/item/1005001619996948.html
+mlink: https://www.alibaba.com/product-detail/Milfra-2-Gang-2-Way-Remote_1600079559419.html
+flash: serial
+category: relay
+type: Relay
+standard: eu
+---
+
+Since Relay 2 is on UART0 RXD, serial connection to this device isn't possible.
+
+The Buzzer is configured as BUZZER, but needs a PWM signal to actually buzz - you can configure it as PWM instead.
+
+There are two PCBs inside, one with mostly high voltage stuff and one on top to control it. The logic PCB has solder points for 2mm grid pin headers which are labeled on the backside of the PCB, beware, it's glued to the case on the connector end of the case.

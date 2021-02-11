@@ -1,0 +1,15 @@
+---
+date_added: 2021-02-11
+title: Switch Module 2x5A
+model: QS-WIFI-S04-2C
+image: /assets/images/QS-WIFI-S04-2C.jpg
+template9: '{"NAME":"QS-WIFI-S04-2C","GPIO":[1,1,32,1,480,0,0,0,161,160,224,225,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000065809299.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Switch
+standard: eu
+---
+Important: use the 'SwitchDebounce' command to set the number of pulses required for the switch to be recognized as on or off. For example: SwitchDebounce 69 will turn the switch on after three pulses and turn it off after three missing ones.

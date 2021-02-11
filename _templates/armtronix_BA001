@@ -1,0 +1,11 @@
+---
+title: Armtronix AC Dimmer 2-Triac
+category: relay
+type: Dimmer
+standard: global
+mlink: https://armtronix.net/2019/09/28/loading-tasmota-firmware-on-armtronix-dual-dimmer-mini-ba001/
+link: https://www.tindie.com/products/Armtronix/wifi-ac-dimmer-two-triac-board-mini/
+image: /assets/images/armtronix_BA001.jpg
+template: '{"NAME":"ARMTR Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":56}' 
+link2: https://www.amazon.in/ARMtronix-ESP8266-ATMEGA328P-Microcontroller-Automation/dp/B07DL667R8/
+---
