@@ -1,9 +1,9 @@
 ---
 date_added: 2020-03-29
-title: BNETA IO-WIFI-PlugSA
+title: BNETA IoT
 model: IO-WIFI-Plug-SA
 image: /assets/images/bneta_IO-WIFI-Plug-SA.jpg
-template: '{"NAME":"BNETA WifiPlug","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"BNETA WifiPlug","GPIO":[17,52,0,0,133,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.takealot.com/bneta-wifi-smart-power-plug-with-power-meter/PLID65529369
 link2: https://www.qualitel.co.za/product/awp07l-wifi-smart-plug/
 mlink: https://www.bneta.co.za/product/smartplug/
