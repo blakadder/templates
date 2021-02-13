@@ -13,5 +13,8 @@ type: Plug
 standard: us
 ---
 
-## Update
-- GDTech plugs purchased 7 Feb 2021 from amazon.com in the US successfully flashed using Tuya-Convert, but use a different GPIO template: {"NAME":"GDTech MPV2RO-US Plug","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}
+GDTech plugs purchased 7 Feb 2021 from amazon.com in the US successfully flashed using Tuya-Convert, but use a different GPIO template: 
+
+```json
+{"NAME":"GDTech MPV2RO-US Plug","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}
+```
