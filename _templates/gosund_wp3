@@ -12,6 +12,7 @@ template9: '{"NAME":"Gosund WP3 v2","GPIO":[320,0,321,0,0,0,0,0,0,32,0,224,0,0],
 template9_alt: '{"NAME":"Gosund WP3","GPIO":[0,0,0,0,32,0,0,0,320,321,224,0,0,0],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.com/gp/product/B079MFTYMV
 mlink: https://www.gosund.store/products/smart-plug-wp3-2-pack
-If tuya-convert does not work, here is another way that can be used to download Tasmota.
-link: [Instructable] (https://www.instructables.com/Downloading-Tasmota-Onto-a-Gosund-WP5-or-WP3-Smart/)
 ---
+
+## Serial Flashing
+[Instructions] (https://www.instructables.com/Downloading-Tasmota-Onto-a-Gosund-WP5-or-WP3-Smart/)
