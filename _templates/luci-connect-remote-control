@@ -63,3 +63,9 @@ Enable rule with `Rule1 1`
   payload_available: Online
   payload_not_available: Offline
 ```
+
+6. Using the physical remote may not publish the state change. If so, the following rule will update the state every 30 seconds. 
+
+```console
+Rule2 ON System#Boot DO RuleTimer1 30 ENDON ON Rules#Timer=1 DO Backlog SerialSend5 55aa000200010305; RuleTimer1 30 ENDON
+```
