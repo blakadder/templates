@@ -13,3 +13,6 @@ template9_alt: '{"NAME":"Gosund WP3","GPIO":[0,0,0,0,32,0,0,0,320,321,224,0,0,0]
 link2: https://www.amazon.com/gp/product/B079MFTYMV
 mlink: https://www.gosund.store/products/smart-plug-wp3-2-pack
 ---
+
+## Serial Flashing
+[Instructions] (https://www.instructables.com/Downloading-Tasmota-Onto-a-Gosund-WP5-or-WP3-Smart/)
