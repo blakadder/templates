@@ -3,7 +3,7 @@ date_added: 2020-01-03
 title: Arlec Smart PC190HA
 image: https://media.bunnings.com.au/Product-800x800/703ac61b-deb3-41b0-8848-adf928fc0521.jpg
 mlink: 
-flash: tuya-convert
+flash: serial
 category: plug
 type: Plug
 standard: au
@@ -11,3 +11,9 @@ template: '{"NAME":"Arlec-PC190HA","GPIO":[0,0,0,0,56,0,0,0,21,158,17,0,0],"FLAG
 link: https://www.bunnings.com.au/arlec-smart-plug-in-socket-with-grid-connect_p0135440
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-plug-in-socket_p0135440
 ---
+
+Update 2021/02/16 Tuya-convert OTA failed for this plug due to its factory loaded Tuya firmware (PSK identity 02).
+
+This plug contains a [TYWE2S](https://tasmota.github.io/docs/Pinouts/#tywe2s) module which was simple enough to solder pins.
+
+Note the plug casing itself uses the extremely uncommon tri-groove tamperproof screws which make disassembly challenging.  The BrilliantSmart 20676/05 plug is a cost-competitive alternative with the same TYWE2S module and phillips head screws.
