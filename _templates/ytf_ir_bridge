@@ -9,9 +9,6 @@ template: '{"NAME":"YTF IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0]
 link2: https://www.amazon.de/dp/B07T1FSYX6/
 ---
 
-***Supported since version [6.4.1.8](https://github.com/arendst/Tasmota/commit/c5f68235700b4447198a9508b709c3e254676114#diff-ddfd77b547e11c4b59fa0d20fddd7f94R1679) as YTF IR Bridge (62)***
-
-This device is flashable with [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert).
 ## Serial Flashing
 Like most devices, GPIO0 has to be held low during power up to get into flash mode. In the picture below, notice the red jumper wire between IO0 and GND. I soldered it in such a way I could hold it during power on, but release later (basically acts as a button), since it can not be held low if you want normal operation.
 

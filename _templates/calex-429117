@@ -1,0 +1,15 @@
+---
+date_added: 2021-02-13
+title: Calex 5W 345lm 2200-4000K Reflector
+model: 429117
+image: /assets/images/calex-429117.jpg
+template9: '{"NAME":"Calex GU10 CCT 5w","GPIO":[0,0,0,0,0,0,0,0,417,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.calex.eu/en/products/product/LEDREFGU10-5W-2200-4000SMDSMART/
+flash: serial
+category: bulb
+type: CCT
+standard: gu10
+---
+![](https://tasmota.github.io/docs/_media/pinouts/TYLC5_pinout.png)

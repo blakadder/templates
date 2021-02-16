@@ -1,11 +1,12 @@
 ---
-date_added: 2020-01-04
-title: Avatto NAS-WR01W 10A
+date_added: 2021-02-12
+title: Avatto 10A
+model: NAS-WR01W 
 link: https://www.aliexpress.com/item/33011753732.html
-image: https://ae01.alicdn.com/kf/Ha1109aad67eb4f01b5d9c49a0a59c5b8n.jpeg
-template: '{"NAME":"AvattoNAS-WR01W","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+image: /assets/images/avatto_NAS-WR01W-10A.jpg
+template9: '{"NAME":"Avatto NAS-WR01W 16A","GPIO":[32,0,0,0,0,0,0,0,0,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: 
-flash: tuya-convert
+flash: serial
 category: plug
 type: Plug
 standard: eu

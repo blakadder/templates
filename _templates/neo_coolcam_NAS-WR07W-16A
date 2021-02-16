@@ -1,0 +1,15 @@
+---
+date_added: 2021-02-13
+title: NEO Coolcam 16A
+model: NAS-WR07W
+image: /assets/images/
+template9: '{"NAME":"Lonsonho NAS-WR07W-16A","GPIO":[32,0,0,0,0,0,1,1,0,320,224,0,0,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33038406713.html
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: fr
+---
+16a version, the circuit board says NAS-WR01W. The template for the NAS-WR01W 10a doesn't work on this!
