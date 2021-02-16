@@ -13,5 +13,7 @@ link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-plug-in-socket_p01354
 ---
 
 Update 2021/02/16 Tuya-convert OTA failed for this plug due to its factory loaded Tuya firmware (PSK identity 02).
-This plug contains a TYWE2S module which was simple enough to solder pins, per https://tasmota.github.io/docs/Pinouts/#tywe2s
+
+This plug contains a [TYWE2S](https://tasmota.github.io/docs/Pinouts/#tywe2s) module which was simple enough to solder pins.
+
 Note the plug casing itself uses the extremely uncommon tri-groove tamperproof screws which make disassembly challenging.  The BrilliantSmart 20676/05 plug is a cost-competitive alternative with the same TYWE2S module and phillips head screws.
