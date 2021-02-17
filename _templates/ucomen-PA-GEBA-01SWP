@@ -6,9 +6,20 @@ image: https://user-images.githubusercontent.com/5904370/71558721-8ed37c00-2a56-
 template: '{"NAME":"PA-GEBA-01SWP","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://posa-tech.en.alibaba.com/product/62426981407-213784129/16A_3680W_IP44_Outdoor_Wifi_Smart_Plug_with_Socket_EU_Standard_with_Children_Protection.html
 mlink: http://www.ucomen.com/
-flash: tuya-convert
+flash: serial
 category: plug
 type: Outdoor Plug
 standard: eu
 ---
-GPIO4 (green LED) is not assigned
+Update 2021/02/17 Tuya-convert OTA failed for this plug due to its factory loaded Tuya firmware (PSK identity 02).
+
+This plug contains a [TYWE2S](https://tasmota.github.io/docs/Pinouts/#tywe2s).
+
+
+To open the shell of the device the green rubber cap have to be pulled up and two tri-wing security screws have to be removed. To flash, wires have to be soldered to 3.3v, GND, TX, RX and GPI0(to GND).
+Remember to swap RX and TX on your FTDI board!
+
+Pinout (WIFI3680-14-V1-2): ![](https://user-images.githubusercontent.com/29308361/108145800-549ac300-70cc-11eb-8729-36f46b27fb93.jpg)
+
+GPI0 sits just behind a capacitor that needs to be desoldered.
+Pinout (TYWE2S): ![](https://user-images.githubusercontent.com/29308361/108145934-8ad84280-70cc-11eb-8889-721b18fad1fe.jpg)
