@@ -11,7 +11,12 @@ category: plug
 type: Outdoor Plug
 standard: eu
 ---
-To open the shell of the device the green rubber cap have to be pulled up and two tri-wing security screws have to be removed. To flash, wires have to be soldered to 3.3v, GND, TX, RX and GPI0(ofc to GND).
+Update 2021/02/17 Tuya-convert OTA failed for this plug due to its factory loaded Tuya firmware (PSK identity 02).
+
+This plug contains a [TYWE2S](https://tasmota.github.io/docs/Pinouts/#tywe2s).
+
+
+To open the shell of the device the green rubber cap have to be pulled up and two tri-wing security screws have to be removed. To flash, wires have to be soldered to 3.3v, GND, TX, RX and GPI0(to GND).
 Remember to swap RX and TX on your FTDI board!
 
 Pinout on WIFI3680-14-V1-2: ![](https://user-images.githubusercontent.com/29308361/108145800-549ac300-70cc-11eb-8729-36f46b27fb93.jpg)
