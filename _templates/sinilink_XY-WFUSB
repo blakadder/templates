@@ -14,9 +14,9 @@ type: Switch
 standard: global
 ---
 ![pinout](https://m.blog.hu/bi/bitekmindenhol/image/wfusb_pinout.jpg)
----
+
 Useful video on flashing from Andreas Spiess at https://www.youtube.com/watch?v=lrHhn2AVzSA
 He makes a suggestion to use 52 rather than 56 in the template to change LED behaviour.
----
+
 It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter.
 
