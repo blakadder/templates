@@ -155,8 +155,9 @@ layout: default
   <br><br>
   <p>
   {% endif %}
-  {% endif %}
-  
+
+  {% else %}
+
   {% assign templat9 = page.template9 | split: ':' %}
   {% assign gpios = templat9[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
   {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '5056' %}
@@ -170,6 +171,9 @@ layout: default
   <br><br>
   <p>
   {% endif %}
+
+  {% endif %}
+  
 
   {% if page.template contains '"BASE":73' %}
   Requires enabled <a href="https://tasmota.github.io/docs/PWM-dimmer-switch/">PWM Dimmer support</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
