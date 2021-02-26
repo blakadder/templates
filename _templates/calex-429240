@@ -1,0 +1,31 @@
+---
+date_added: 2021-02-23
+title: Calex 5m RGB + White
+model: 429240
+image: /assets/images/calex-429240.jpg
+template9: '{"NAME":"Calex RGBW IR","GPIO":[1088,0,0,0,416,0,0,0,417,419,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.tesco.com/groceries/en-GB/products/306856095
+link2: https://www.amazon.de/dp/B08175JW75
+mlink: https://www.calex.eu/en/products/product/DIGITAALLEDSTRIPLIGHT-SMART/
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: uk
+---
+`SetOption105 1`
+
+```console
+Rule1 On IrReceived#Data=0x00F700FF Do Dimmer + EndOn On IrReceived#Data=0x00F720DF Do Color2 1 EndOn On IrReceived#Data=0x00F710EF Do HSBColor1 13 EndOn On IrReceived#Data=0x00F730CF Do HSBColor1 23 EndOn On IrReceived#Data=0x00F708F7 Do HSBColor1 33 EndOn On IrReceived#Data=0x00F728D7 Do HSBColor1 43 EndOn On IrReceived#Data=0x00F7807F Do Dimmer - EndOn On IrReceived#Data=0x00F7A05F Do Color2 2 EndOn On IrReceived#Data=0x00F7906F Do HSBColor1 140 EndOn On IrReceived#Data=0x00F7B04F Do HSBColor1 160 EndOn
+```
+
+```console
+Rule2 On IrReceived#Data=0x00F78877 Do HSBColor1 180 EndOn On IrReceived#Data=0x00F7A857 Do HSBColor1 200 EndOn On IrReceived#Data=0x00F740BF Do Power 0 EndOn On IrReceived#Data=0x00F7609F Do Color2 3 EndOn On IrReceived#Data=0x00F750AF Do HSBColor1 260 EndOn On IrReceived#Data=0x00F7708F Do HSBColor1 280 EndOn On IrReceived#Data=0x00F748B7 Do HSBColor1 300 EndOn On IrReceived#Data=0x00F76897 Do HSBColor1 320 EndOn
+```
+
+```console
+Rule3 On IrReceived#Data=0x00F7C03F Do Power 1 EndOn On IrReceived#Data=0x00F7E01F Do Color2 12 EndOn On IrReceived#Data=0x00F7D02F Do Backlog Power 0; WakeupDuration 1; Dimmer 100; Wakeup EndOn On IrReceived#Data=0x00F7F00F Do Backlog Power 0; WakeupDuration 5; Wakeup EndOn On IrReceived#Data=0x00F7C837 Do Backlog Scheme 2; Speed 1 EndOn On IrReceived#Data=0x00F7E817 Do Backlog Scheme 3; Speed 5 EndOn
+```
+
+```console
+Backlog Rule1 1; Rule2 1; Rule3 1
+```

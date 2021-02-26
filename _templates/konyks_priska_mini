@@ -1,0 +1,15 @@
+---
+date_added: 2021-02-17
+title: Konyks Priska Mini
+model: 
+image: /assets/images/konyks_priska_mini.jpg
+template9: '{"NAME":"Konyks 10A socket bolec","GPIO":[0,0,0,0,320,0,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://konyks.com/produit/priska-mini/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: fr
+---
+Flashed by old Tuya-convert (where network SSID "vtrust-flash" is without password) method without problems.

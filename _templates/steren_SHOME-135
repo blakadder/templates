@@ -1,0 +1,15 @@
+---
+date_added: 2021-02-18
+title: Steren 
+model: SHOME-135
+image: /assets/images/steren_SHOME-135.jpg
+template9: '{"NAME":"SHOME-135","GPIO":[0,288,0,32,2720,2656,0,0,2624,289,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.steren.com.mx/contacto-wi-fi-con-medidor-de-consumo-electrico.html
+flash: serial
+category: plug
+type: Plug
+standard: us
+---
+This is a complicated tasmota flash it uses a TYWE2S (https://github.com/ct-Open-Source/tuya-convert/issues/862) chip and is very hard to access it, I had to cut with a Dremel tool the shell of the plug because there was no way of removing it from the shell

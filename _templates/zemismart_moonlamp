@@ -1,0 +1,15 @@
+---
+date_added: 2021-02-20
+title: Zemismart Moonlamp
+model: 
+image: /assets/images/zemismart_moonlamp.jpg
+template9: '{"NAME":"Zemismart Moonlamp","GPIO":[1,1,1,1,416,419,1,1,417,420,418,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32934223809.html
+link2: 
+mlink: 
+flash: serial
+category: light
+type: Light
+standard: global
+---
+There is also touch control, but dont figure out yet. Inside is a ESP-12. Easy to open and also to flash.

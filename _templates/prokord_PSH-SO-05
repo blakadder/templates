@@ -1,0 +1,14 @@
+---
+date_added: 2021-02-17
+title: Prokord 2in1
+model: PSH-SO-05
+image: /assets/images/prokord_PSH-SO-05.jpg
+template9: '{"NAME":"PSH-SO-05","GPIO":[0,0,0,0,225,576,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.dustin.com/product/5011159130/smart-home-wifi-socket-2in1-outdoor
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Outdoor Plug
+standard: eu
+---
