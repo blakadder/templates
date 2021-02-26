@@ -6,7 +6,7 @@ mlink:
 category: plug
 type: Plug
 standard: au
-flash: tuya-convert
+flash: serial
 template: '{"NAME":"Arlec Twin","GPIO":[0,17,0,22,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-plug-in-twin-socket_p0161001
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-plug-in-twin-socket_p0161001
@@ -20,5 +20,8 @@ Switch 1 is the lower outlet, Switch 2 is the top outlet. A single press of the 
 
 This template also flashes the revised model PC289HA.
 
+Update 2021/02/22 Tuya-convert OTA failed for this plug due to its factory loaded Tuya firmware (PSK identity 02).
 
+This plug contains a [TYWE2S](https://tasmota.github.io/docs/Pinouts/#tywe2s) module which was simple enough to solder pins.
 
+Plug casing uses common Y-type tamperproof screws. It does require a significant amount of force to separate the locking clips located in the middle of the case.

@@ -16,6 +16,7 @@ There are three clones -- use the device type Teckin:
      * To configure select Gosund SP1 v23 (55) or console command `Module 55`
 *    Gosund SP1 (Version 2.4)
      * To configure select Gosund SP1 v23 (55) or console command `Module 55`
+     * You can use [tuya-convert](https://github.com/ct-Open-Source/tuya-convert) to flash it within seconds without opening the module
 *    BlitzWolf SHP2 (Version 2.3)
 
 For more pictures see: https://www.bastelbunker.de/gosund-sp1-mit-tasmota/
