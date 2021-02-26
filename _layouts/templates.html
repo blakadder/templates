@@ -146,6 +146,7 @@ layout: default
   <p>
   {% endif %}
 
+  {% if page.template9 != nil %}
   {% assign template = page.template | split: ':' %}
   {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
   {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
@@ -153,6 +154,7 @@ layout: default
   For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
   <br><br>
   <p>
+  {% endif %}
   {% endif %}
   
   {% assign templat9 = page.template9 | split: ':' %}
