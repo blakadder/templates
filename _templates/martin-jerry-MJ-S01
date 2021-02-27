@@ -10,3 +10,6 @@ image: /assets/images/martin-jerry-MJ-S01.jpg
 template: '{"NAME":"MJ-S01 Switch","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 template9: '{"NAME":"MJ-S01 Switch","GPIO":[0,0,0,0,320,321,0,0,224,32,0,0,0],"FLAG":0,"BASE":18}'
 ---
+
+An MJ-S01 purchased from amazon.com on 7 Feb 2021 successfully flashed using tuya-convert, but another MJ-S01 purchased 24 Feb 2021 did not.
+It looks like the firmware on the production line was recently updated, tuya-convert can no longer break in.
