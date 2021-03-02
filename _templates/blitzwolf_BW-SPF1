@@ -1,0 +1,71 @@
+---
+date_added: 2021-02-26
+title: Blitzwolf UV Pet Water Fountain 
+model: BW-SPF1
+image: /assets/images/blitzwolf_BW-SPF1.jpg
+template9: '{"NAME":"BW-SPF1","GPIO":[0,0,0,0,224,416,0,0,0,32,0,0,576,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005002029339076.html
+link2: 
+mlink: https://www.blitzwolf.com
+flash: serial
+category: misc
+type: Other
+standard: global
+---
+![](https://lh3.googleusercontent.com/pw/ACtC-3dM47ILfWFsWkp2WhxSb0dfXIcL9M3BAjHb2uSM4WC7DNJ_qJ6MbluaQt3VVXcmnyUa7GdYN78s15JXvF5lkpxGILggJPetgYfIdmXxFriLMK_fBgt8RRTa2AvSvSVdkFNv1FyaYiRwKkUvbPngdmIumg=w644-h893-no ""Front"")
+
+![](https://lh3.googleusercontent.com/pw/ACtC-3cm34Vi-NLWmR59WdUSQJkMD5W83lTeFl5QUg1r9jxQaMIZXPTEuDstSC9XX_QKhNvfMyq4MwOUxdh2le4mJn19VSOJQzEQb55Yr5XLGXEI4ItA0LejCib_Nkutuwtzo2ycGPxDcv2YWyW-4tcEprjZ_Q=w905-h474-no ""Back"")
+
+
+Detach the Switch from the Relays and use Switchmode 1 with:  ```Backlog SetOption114 1; SwitchMode 1```
+
+In Home Assistant I created a automation that switches off the Water Pump if it reaches the water limit:
+```yaml
+alias: Turn Off when no Water
+description: ''
+trigger:
+  - type: turned_off
+    platform: device
+    device_id: 1d46636bf8dcb966ae537d5bdb967b04
+    entity_id: binary_sensor.switch1
+    domain: binary_sensor
+condition:
+  - condition: device
+    type: is_on
+    device_id: 1d46636bf8dcb966ae537d5bdb967b04
+    entity_id: switch.water_fountain
+    domain: switch
+action:
+  - type: turn_off
+    device_id: 1d46636bf8dcb966ae537d5bdb967b04
+    entity_id: switch.water_fountain
+    domain: switch
+mode: single
+```
+
+The UV light on the original firmware turns off automatically after 5 minutes.
+I did a automation in Home Assistant to keep it that way  
+```yaml
+alias: Turn Off UV Light after 5mins
+description: ''
+trigger:
+  - platform: device
+    type: turned_on
+    device_id: 1d46636bf8dcb966ae537d5bdb967b04
+    entity_id: light.uv_light
+    domain: light
+    for:
+      hours: 0
+      minutes: 5
+      seconds: 0
+      milliseconds: 0
+condition: []
+action:
+  - type: turn_off
+    device_id: 1d46636bf8dcb966ae537d5bdb967b04
+    entity_id: light.uv_light
+    domain: light
+mode: single
+```
+
+![](https://lh3.googleusercontent.com/pw/ACtC-3emDJf7v9fljKQvQUUNBIHl4HEP2YhZdYO38BYiCF56ZWIfJx7yEaXve7P_Pe-q09jlYYUFDRsL0SWaFcNfCWiBZgpy3A0NWg0gPOpTv3FHlYvcbdj2ATtzB7ZvS2n-8n2CqjG_aYk6zlGxWWaiDNFuIA=w904-h550-no ""Result in HA"")

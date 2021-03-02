@@ -1,0 +1,14 @@
+---
+date_added: 2021-02-26
+title: eWelink No Neutral 
+model: SA-018
+image: /assets/images/SA-018.jpg
+template: '{"NAME":"SA-018","GPIO":[0,0,0,0,9,0,0,0,21,52,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000727182744.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: eu
+---

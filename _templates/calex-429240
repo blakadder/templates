@@ -10,7 +10,7 @@ mlink: https://www.calex.eu/en/products/product/DIGITAALLEDSTRIPLIGHT-SMART/
 flash: tuya-convert
 category: light
 type: LED Strip
-standard: uk
+standard: [uk, eu]
 ---
 `SetOption105 1`
 
@@ -29,3 +29,4 @@ Rule3 On IrReceived#Data=0x00F7C03F Do Power 1 EndOn On IrReceived#Data=0x00F7E0
 ```console
 Backlog Rule1 1; Rule2 1; Rule3 1
 ```
+
