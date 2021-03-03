@@ -15,9 +15,11 @@ standard: eu
 Once the template is applied, run the following commands to configure communication with the MCU:
 ```console
 Backlog SetOption97 1; TuyaMCU 11,1; TuyaMCU 21,2; DimmerRange 10,1000
-```
-
+```3
 The ESP talks to a secondary MCU at a different baud rate so that is why SetOption97 is required.
 
 
 The Minimum dimmer range for the physical knob can be set with `TuyaSend2 3,10`
+
+
+Tuya-Convert 2.3 was not possible for this device because the manufacturer started using newest Tuya firmware (tested on 2021-03-02).
