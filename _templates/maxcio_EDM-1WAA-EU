@@ -23,3 +23,6 @@ The Minimum dimmer range for the physical knob can be set with `TuyaSend2 3,10`
 
 
 Tuya-Convert 2.3 was not possible for this device because the manufacturer started using newest Tuya firmware (tested on 2021-03-02).
+
+The switch hardware version was updated (1.4) and is now shipped with the WB3S board, which makes the dimmer incompatible with tasmota and requires swapping the WB3S board with an ESP-12 board.
+
