@@ -26,3 +26,4 @@ Tuya-Convert 2.3 was not possible for this device because the manufacturer start
 
 The switch hardware version was updated (1.4) and is now shipped with the WB3S board, which makes the dimmer incompatible with tasmota and requires swapping the WB3S board with an ESP-12 board.
 
+![hardware rev 1.4](/assets/images/maxcio_EDM-1WAA-EU_v14.jpg)
