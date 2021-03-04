@@ -1,0 +1,18 @@
+---
+date_added: 2021-03-03
+title: Welaik 2-Gang 1-Way
+model: A921
+image: /assets/images/weilaik_A921.jpg
+link: https://www.aliexpress.com/item/1005001597597408.html
+link2: 
+mlink: https://www.welaik.shop/en/touch-switch-2-gang.html
+flash: serial
+category: unsupported
+type: Switch
+standard: eu
+---
+Preflash a ESP-12F module and replace the WB3S module inside the Welaik switch. 
+
+```json
+{"NAME":"Weilaik","GPIO":[544,0,0,33,225,0,0,0,32,224,0,0,0,0],"FLAG":0,"BASE":18}
+```
