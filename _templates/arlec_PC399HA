@@ -16,4 +16,4 @@ Device is running 1.1.4 of Tuya FW, so not yet working with tuya-convert (11/04/
 
 To flash via UART, SMD capacitor C4B must be removed (below button), due to its effect on the rise times on the RXD. Be careful not to damage LED when removing this Capacitor.
 
-A video showing the disassembly and flashing process: https://youtu.be/MAb5f0rxvKU
+A video showing the disassembly and flashing process: [https://youtu.be/MAb5f0rxvKU](https://youtu.be/MAb5f0rxvKU)
