@@ -18,6 +18,8 @@ This is a Tuya siren with temperature and humidity sensor. Runs on USB and two C
 
 Identified with MCU Product ID: `{"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}`. 
 
+Note: On the new MCU hardware 1.0.2 (ordered 2021-01-31) Identified with MCU Product ID: `{"p":"ymf4oruxqx0xlogp","v":"1.0.2","m":0}`, the `TuyaSend0` command does not work to query the device for the current temperature and humidity values (see <a href="https://discord.com/channels/479389167382691863/790917300210368562/817253209894027294">discord:/a>).  tuya-convert still worked on it.
+
 ## Flashing
 If you have issues flashing with tuya-convert you can flash the device using serial. There are labelled pads for all needed GPIO's on the board. You have to remove the resistor next to the TX pad to isolate the ESP8266 from the MCU.
 
