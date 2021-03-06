@@ -16,19 +16,19 @@ standard: global
 
 This is a Tuya siren with temperature and humidity sensor. Runs on USB and two CR123A batteries as backup (not supplied with the device). 
 
-## Harware Versions
+## Hardware Versions
 
 There are three known hardware versions ymf:1.0.1, ymf:1.0.2 and 9fn:1.0.2.  The console after reboot will show one of these code on a line with "TYA: MCU Product ID:".
 
-- {"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}
-- {"p":"ymf4oruxqx0xlogp","v":"1.0.2","m":0}
-- {"p":"9fngbrgje6ljqhee","v":"1.0.2","m":0}  
+- `{"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}`
+- `{"p":"ymf4oruxqx0xlogp","v":"1.0.2","m":0}`
+- `{"p":"9fngbrgje6ljqhee","v":"1.0.2","m":0}` 
 
-The ymf versions work with tuya-convert but the 9fn version requires flashing the device with serial.
+The `ymf` versions work with tuya-convert but the `9fn` version requires flashing the device with serial.
 
 The 1.0.1 version supports the `[TuyaSend0](https://tasmota.github.io/docs/Commands/#tuyasend)` command to query the MCU for the latest values but the 1.0.2 version does not appear to support that command at this time (2021-03-05). (see <a href="https://discord.com/channels/479389167382691863/790917300210368562/817253209894027294">discord</a>)
 
-In my hardware order on 2021-01-31 for three devices, I received one of each hardware versions.  My order in 2020-12, I recieved the ymf:1.0.1 version which is rock solid.
+In an order on 2021-01-31 for three devices, one of each hardware versions was received.  In an order from 2020-12, the ymf:1.0.1 version was received, which is rock solid.
 
 ## Flashing
 
