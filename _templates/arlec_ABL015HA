@@ -12,3 +12,4 @@ template: '{"NAME":"DetaBulkhead","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-10w-led-bunker-light_p0119822
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-led-bunker-light_p0119822
 ---
+Device contains a TYWE2S, soldering to the board will permit flashing, easily accessible without any damage to the enclosure using only phillips screws and plastic clips.
