@@ -16,12 +16,34 @@ standard: global
 
 This is a Tuya siren with temperature and humidity sensor. Runs on USB and two CR123A batteries as backup (not supplied with the device). 
 
-Identified with MCU Product ID: `{"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}`. 
+## Harware Versions
 
-Note: On the new MCU hardware 1.0.2 (ordered 2021-01-31) Identified with MCU Product ID: `{"p":"ymf4oruxqx0xlogp","v":"1.0.2","m":0}`, the `TuyaSend0` command does not work to query the device for the current temperature and humidity values (see <a href="https://discord.com/channels/479389167382691863/790917300210368562/817253209894027294">discord:/a>).  tuya-convert still worked on it.
+There are three known hardware versions ymf:1.0.1, ymf:1.0.2 and 9fn:1.0.2.  The console after reboot will show one of these code on a line with "TYA: MCU Product ID:".
+
+- {"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}
+- {"p":"ymf4oruxqx0xlogp","v":"1.0.2","m":0}
+- {"p":"9fngbrgje6ljqhee","v":"1.0.2","m":0}  
+
+The ymf versions work with tuya-convert but the 9fn version requires flashing the device with serial.
+
+The 1.0.1 version supports the `[TuyaSend0](https://tasmota.github.io/docs/Commands/#tuyasend)` command to query the MCU for the latest values but the 1.0.2 version does not appear to support that command at this time (2021-03-05). (see <a href="https://discord.com/channels/479389167382691863/790917300210368562/817253209894027294">discord</a>)
+
+In my hardware order on 2021-01-31 for three devices, I received one of each hardware versions.  My order in 2020-12, I recieved the ymf:1.0.1 version which is rock solid.
 
 ## Flashing
-If you have issues flashing with tuya-convert you can flash the device using serial. There are labelled pads for all needed GPIO's on the board. You have to remove the resistor next to the TX pad to isolate the ESP8266 from the MCU.
+
+If you have issues flashing with tuya-convert you can flash the device using serial. 
+
+Steps:
+
+- Remove the three screws from the bottom and the lid comes off easily
+- Connect GPIO0 ("IO0") to ground ("GND")
+- Connect the USB to power (there is no need to power from the serial device)
+- Continue to hold the GPIO0 to ground for about 5-10 seconds to ensure that the chip is in flashing mode (there are no hardware indications)
+- Hold the TX and RX from the serial to the pads "RXD0" and "TXD0" (cross the streams)
+- Then Tasmotize - I was successful with tasmotizer-1.2.exe and tasmota-sensors.bin (9.1.3).
+
+<a href="/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg"><img style="width:400px" src="/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg"></a>
 
 ## Configuration
 
