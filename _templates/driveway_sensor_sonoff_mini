@@ -1,0 +1,44 @@
+---
+date_added: 2021-03-06
+title: Driveway Sensor with Sonoff Mini
+category: misc
+type: DIY
+standard: global
+image: /assets/images/driveway_sensor_sonoff_mini.jpg
+template: '{"NAME":"Sonoff Mini Sensor","GPIO":[17,0,0,0,18,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}'
+link: https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=Inductive+Loop+Vehicle+Detector+with+Induction+Coil+Wire&_sacat=0
+---
+
+##Overview
+
+The Sonoff Mini is unique in that it has exposed low voltage switch terminals that when the relay closes on the Vehicle Detector it creates a button press event over MQTT.
+
+##Hardware
+
+- Sonoff Mini flashed with Tasmota
+- Inductive Loop Vehicle Detector with 0.75mm² Traffic Induction Coil Wire
+
+Connect the Normally Open "N.O." contacts on the Vehicle Detector to the low voltage contacts on the Sonoff Mini.
+
+##Configuration
+
+The template configures the GPIO04 contacts as Button2 not Switch1 for use with the driveway monentary relay sensor.
+
+- rule1 1
+- rule1 on button2#state do publish cmnd/driveway_sensor/EVENT TOGGLE endon
+
+##Images
+
+- Hardware Installation
+
+<a href="/assets/images/driveway_sensor_sonoff_mini-hardware-installation.jpg"><img style="width:200px" src="/assets/images/driveway_sensor_sonoff_mini-hardware-installation.jpg"></a>
+
+- Loop Installation
+
+<a href="/assets/images/driveway_sensor_sonoff_mini_loop-installation.jpg"><img style="width:200px" src="/assets/images/driveway_sensor_sonoff_mini_loop-installation.jpg"></a>
+
+- Node Red Flow
+
+<a href="https://nodered.org/">Node-Red</a> automation with MQTT listener, light automation via Perl <a href="https://metacpan.org/release/Power-Outlet">Power::Outlet</a>, SMS via Perl <a href="https://metacpan.org/release/SMS-Send">SMS::Send</a>, and Sonos Notification via <a href="https://github.com/jishi/node-sonos-http-api">Sonos API</a>.
+
+<a href="/assets/images/driveway_sensor_sonoff_mini-node-red-flow.jpg"><img style="width:200px" src="/assets/images/driveway_sensor_sonoff_mini-node-red-flow.jpg"></a>
