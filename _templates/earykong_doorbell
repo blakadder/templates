@@ -15,7 +15,8 @@ standard: eu
 After the buttons are paired with the gateway copy their values from Tasmota console and add them as a binary_sensor to Home Assistant.
 
 Example:
-```yaml
+{% highlight yaml %}
+{% raw %}
 binary_sensor:
   - platform: mqtt
     name: "Button Pressed"
@@ -39,7 +40,9 @@ binary_sensor:
         payload_available: "Online"
         payload_not_available: "Offline"
     device_class: occupancy
-    off_delay: 5```
+    off_delay: 5
+{% endhighlight %}
+{% endraw %}
 
 Volume can be adjusted on DPID 30, on HA add:
 ```yaml
@@ -52,10 +55,12 @@ input_select:
         - "Med-"
         - "Min"
         - "Muted"
-      icon: mdi:bell-ring```
+      icon: mdi:bell-ring
+```
 
 And create a automation to change the volume accordingly:
-```yaml
+{% highlight yaml %}
+{% raw %}
 alias: Tuya_DoorBell Volume Change
 description: ''
 trigger:
@@ -72,4 +77,5 @@ action:
         "Med-" %} 2 {% elif trigger.to_state.state == "Min" %} 3 {% elif
         trigger.to_state.state == "Muted" %} 4 {% endif %}
 mode: single
-``` 
+{% endhighlight %}
+{% endraw %}
