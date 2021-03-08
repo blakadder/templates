@@ -41,8 +41,8 @@ binary_sensor:
         payload_not_available: "Offline"
     device_class: occupancy
     off_delay: 5
-{% endhighlight %}
 {% endraw %}
+{% endhighlight %}
 
 Volume can be adjusted on DPID 30, on HA add:
 ```yaml
@@ -77,5 +77,5 @@ action:
         "Med-" %} 2 {% elif trigger.to_state.state == "Min" %} 3 {% elif
         trigger.to_state.state == "Muted" %} 4 {% endif %}
 mode: single
-{% endhighlight %}
 {% endraw %}
+{% endhighlight %}
