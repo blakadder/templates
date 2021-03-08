@@ -1,0 +1,25 @@
+---
+date_added: 2021-03-06
+title: Digital Body Fat Scale
+model: 
+image: /assets/images/tuya_scale.jpg
+template9: '{"NAME":"TuyaScale","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000838469003.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: Other
+standard: global
+---
+Change Baudrate to 9600 and enter the template:
+```console
+Backlog Baudrate 9600; Module 0; Template {"NAME":"TuyaScale","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}
+```
+
+55 AA 00 02 00 01 04 06 needs to be sent every time it powers up, create and enable Rule1 for that:
+```console
+Backlog Rule1 ON TuyaReceived#Data=55AA0003000002 DO serialsend5 55 AA 00 02 00 01 04 06 ENDON; Rule1 1
+```
+
+The Scale only displays the weight (in grams) and resistance. Every other feature is lost... 

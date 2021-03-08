@@ -1,0 +1,75 @@
+---
+date_added: 2021-03-06
+title: EaryKong Doorbell
+model: DB_B
+image: /assets/images/earykong_doorbell.jpg
+template9: '{"NAME":"Generic","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33004023586.html
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: Other
+standard: eu
+---
+After the buttons are paired with the gateway copy their values from Tasmota console and add them as a binary_sensor to Home Assistant.
+
+Example:
+```yaml
+binary_sensor:
+  - platform: mqtt
+    name: "Button Pressed"
+    state_topic: "tele/Tuya-Doorbell/RESULT"
+    payload_on: "0053006F006D00650062006F00640079002000560069007300690074000A002000280023003000300020005A006F006E00650029"
+    value_template: "{{ value_json.TuyaReceived['26'].DpIdData }}"
+    availability:
+      - topic: "tele/Tuya-Doorbell/LWT"
+        payload_available: "Online"
+        payload_not_available: "Offline"
+    device_class: occupancy
+    off_delay: 5
+
+  - platform: mqtt
+    name: "Button Tampered"
+    state_topic: "tele/Tuya-Doorbell/RESULT"
+    payload_on: "00530065006E0073006F0072002000540061006D00700065007200200041006C00610072006D000A002000280023003000300020005A006F006E00650029"
+    value_template: "{{ value_json.TuyaReceived['26'].DpIdData }}"
+    availability:
+      - topic: "tele/Tuya-Doorbell/LWT"
+        payload_available: "Online"
+        payload_not_available: "Offline"
+    device_class: occupancy
+    off_delay: 5```
+
+Volume can be adjusted on DPID 30, on HA add:
+```yaml
+input_select:
+    tuya_doorbell_volume:
+      name: Doorbell Volume
+      options:
+        - "Max"
+        - "Med+"
+        - "Med-"
+        - "Min"
+        - "Muted"
+      icon: mdi:bell-ring```
+
+And create a automation to change the volume accordingly:
+```yaml
+alias: Tuya_DoorBell Volume Change
+description: ''
+trigger:
+  - platform: state
+    entity_id: input_select.tuya_doorbell_volume
+condition: []
+action:
+  - service: mqtt.publish
+    data:
+      topic: cmnd/Tuya-Doorbell/TuyaSend4
+      payload_template: >
+        30,{% if trigger.to_state.state == "Max" %} 0 {% elif
+        trigger.to_state.state == "Med+" %} 1 {% elif trigger.to_state.state ==
+        "Med-" %} 2 {% elif trigger.to_state.state == "Min" %} 3 {% elif
+        trigger.to_state.state == "Muted" %} 4 {% endif %}
+mode: single
+``` 
