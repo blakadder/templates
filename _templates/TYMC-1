@@ -6,6 +6,7 @@ link: https://www.aliexpress.com/item/33047480276.html
 image: https://user-images.githubusercontent.com/5904370/70841350-23649a00-1e1a-11ea-9234-6b56c7a43b47.png
 template: '{"NAME":"TYMC-1","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link2: https://www.amazon.de/dp/B07ZQ2XSKK/
+link3: https://www.kruidvat.nl/kruidvat-smart-deur-en-raamsensor/p/5315178
 mlink: 
 flash: serial
 category: sensor
@@ -108,7 +109,12 @@ There is no function in Tasmota for enum dpID's currently so we will use a rule 
 Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010112 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010011 DO publish2 stat/%topic%/BATT low ENDON
 ```
 
-Don't forget to turn on the rule: `Rule1 1`
+UPDATED: Actual State on/off
+```console
+Rule2 ON TuyaReceived#Data=55AA0005000501010001000C DO power 0 ENDON ON TuyaReceived#Data=55AA0005000501010001010D DO power 1 ENDON
+```
+
+Don't forget to turn on the rule: `Rule1 1` and 'Rule2 1'
 
 And there it is, relatively small battery and Tasmota powered contact sensor.
 
