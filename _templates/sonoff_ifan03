@@ -25,3 +25,6 @@ Photos - https://github.com/arendst/Tasmota/issues/5988#issuecomment-510177762
 Disable buzzer with command `SetOption67 0`
 
 The button is connected to GPIO0
+
+If you want the light and fan to turn on when you power on your IFan03, use `PowerOnState 1`
+If you want only the light to turn on when you power up, use `PowerOnState 0` and then `Rule1 on power1#boot do backlog fanspeed 0; power1 1 endon`
