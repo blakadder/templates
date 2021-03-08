@@ -107,9 +107,10 @@ There is no function in Tasmota for enum dpID's currently so we will use a rule 
 
 ```console
 Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010112 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010011 DO publish2 stat/%topic%/BATT low ENDON
+```
 
-UPDATED:
-Actual State on/off
+UPDATED: Actual State on/off
+```console
 Rule2 ON TuyaReceived#Data=55AA0005000501010001000C DO power 0 ENDON ON TuyaReceived#Data=55AA0005000501010001010D DO power 1 ENDON
 ```
 
