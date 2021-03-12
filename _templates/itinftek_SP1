@@ -1,0 +1,14 @@
+---
+date_added: 2021-03-08
+title: Itinftek 
+model: SP1
+image: /assets/images/itinftek_SP1.jpg
+template9: '{"NAME":"ITINFTEK SP1","GPIO":[0,320,1,2624,2720,2656,0,0,224,32,320,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001011322955.html
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
