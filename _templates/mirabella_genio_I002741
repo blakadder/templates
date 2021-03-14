@@ -18,7 +18,7 @@ This is specifically for the RGB+CCT variant (Can do both RGB and cool to warm w
 
 Flashed wirelessly using [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert)
 
-
+Tuya-Convert might not be possible for this device if the manufacturer started using newest Tuya firmware since this template was published.
 
 
 
