@@ -5,7 +5,7 @@ model: SL10
 image: /assets/images/treatlife_A19.jpg
 template: '{"NAME":"Treatlife RGBW","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Treatlife-Multicolor-Compatible-Assistant-Equivalent/dp/B083BRRZ4Y
-link2: 
+link2: https://www.banggood.com/TREATLIFE-SL10-AC120V-RGB+CW-9W-850LM-Wifi-Voice-Control-Smart-Bulb-APP-Control-Works-With-Alexa-Google-Home-p-1824085.html
 mlink: https://www.treatlife.tech/collections/bulb/products/treatlife-smart-wi-fi-led-bulb-compatible-with-alexa-google-assistant-16-million-rgbcw-color-changing-dimmable-light-bulb-a19-e26-8w-60w-equivalent
 category: bulb
 type: RGBCCT

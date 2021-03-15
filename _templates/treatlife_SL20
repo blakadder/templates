@@ -5,7 +5,7 @@ model: SL20
 image: /assets/images/treatlife_SL20.jpg
 template: '{"NAME":"Treatlife SL20","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Treatlife-Smart-Light-Switch-Assistant/dp/B07R4MFWCQ
-link2: 
+link2: https://www.banggood.com/TREATLIFE-SL20-AC120V-9W-800LM-Dimmable-Wifi-Voice-Control-Smart-Bulb-APP-Control-Works-With-Alexa-Google-Home-p-1824094.html
 mlink: https://www.treatlife.tech/products/treatlife-smart-turnable-white-bulb-1500k-9000k-work-with-alexa-google-assistant-8w-850lumens
 flash: serial
 category: bulb
