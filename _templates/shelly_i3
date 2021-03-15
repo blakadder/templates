@@ -4,7 +4,7 @@ title: Shelly i3 Action and Scenes Activation Device
 model: 
 image: /assets/images/shelly_i3.jpg
 template: '{"NAME":"Shelly i3","GPIO":[0,0,0,0,0,0,0,0,83,84,82,0,0],"FLAG":2,"BASE":18}' 
-link: https://shop.shelly.cloud/shelly-i3-wifi-smart-home-automation
+link: https://www.amazon.de/dp/B089GWDS19/
 link2: https://www.domadoo.fr/fr/objets-communicants/5288-shelly-module-d-activation-de-scenesactions-wi-fi-shelly-i3-3809511202593.html
 mlink: https://shelly.cloud/products/shelly-i3-smart-home-automation-device/
 flash: mgos

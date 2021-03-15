@@ -4,9 +4,8 @@ title: Shelly Add-on
 model: 
 image: /assets/images/shelly_temperature_sensor.jpg
 template: '{"NAME":"Shelly 1 Temp ","GPIO":[192,0,0,4,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}' 
-link: https://shop.shelly.cloud/temperature-sensor-addon-for-shelly-1-1pm-wifi-smart-home-automation#315
-link2: https://www.amazon.de/gp/offer-listing/B081FF9G2K/
-link3: 
+link1: https://www.amazon.de/gp/offer-listing/B081FF9G2K/
+link2: https://www.domadoo.fr/fr/objets-communicants/5393-shelly-adapteur-de-sonde-de-temperature-pour-shelly-11pm-3809511202265.html
 mlink: https://shop.shelly.cloud/temperature-sensor-addon-for-shelly-1-1pm-wifi-smart-home-automation#312
 category: sensor
 type: Temperature Sensor

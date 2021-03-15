@@ -8,7 +8,7 @@ mlink: https://shelly.cloud/wifi-smart-shelly-rgbw-2/
 image: /assets/images/shelly_RGBW2.jpg
 template: '{"NAME":"Shelly RGBW2","GPIO":[0,0,52,0,40,255,0,0,37,17,39,38,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07N49TXLQ/
-link2: https://www.amazon.com/Shelly-Controller-Wireless-Automation-Schedule/dp/B07N49TXLQ 
+link2: https://www.amazon.com/dp/B07N49TXLQ 
 link3: https://www.domadoo.fr/fr/objets-communicants/5233-shelly-controleur-led-rgbw-intelligent-wi-fi-shelly-rgbw2-3809511201961.html
 flash: mgos
 ---

@@ -4,8 +4,8 @@ title: Shelly 1L No Neutral
 model:
 image: /assets/images/shelly_1L.jpg
 template9: '{"NAME":"Shelly 1L","GPIO":[320,0,0,0,192,224,0,0,0,0,193,0,0,4736],"FLAG":0,"BASE":18}'
-link: https://shop.shelly.cloud/shelly-1l-bypass-wifi-smart-home-automation
-link2:
+link: https://www.amazon.de/dp/B08S91QZDT/
+link2:https://www.domadoo.fr/fr/objets-communicants/5391-shelly-micromodule-commutateur-intelligent-sans-neutre-wi-fi-shelly-1l-3800235262450.html
 mlink: https://shelly.cloud/knowledge-base/devices/shelly-1l/
 flash: mgos
 category: relay
