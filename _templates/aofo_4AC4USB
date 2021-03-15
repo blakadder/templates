@@ -1,20 +1,15 @@
 ---
-date_added: 2019-05-23
-title: AOFO 4AC+4USB
+date_added: 2021-03-14
+title: AOFO 4AC 4USB
 category: plug
 type: Power Strip
 standard: eu
-link: https://www.amazon.de/Steckdosenleiste-AOFO-Mehrfachsteckdose-%C3%9Cberspannungsschutz-Sprachsteuerung/dp/B07GBSD11P
-image: https://images-na.ssl-images-amazon.com/images/I/51Vw8MUHMrL._SL1000_.jpg
+link: https://www.amazon.de/dp/B07SKTBC47
+link2: https://www.aliexpress.com/item/32939654903.html
+image: /assets/images/aofo_4AC4USB.jpg
 template: '{"NAME":"AOFO4AC4USB","GPIO":[0,56,0,17,22,21,0,0,23,24,25,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+template9: '{"NAME":"AOFO4AC4USB-EU","GPIO":[0,320,0,32,228,227,0,0,225,224,226,0,0,0],"FLAG":0,"BASE":18}' 
 ---
+TYWE2S module inside
 
-In some cases Relay5 (USB) ON/OFF is inverted. You can use this configuration:
-template: '{"NAME":"AOFO4AC4USB","GPIO":[0,56,0,17,22,21,0,0,23,24,33,0,0],"FLAG":0,"BASE":18}'
-
-
-
-
-
-
+In some cases Relay5 (USB) ON/OFF is inverted.

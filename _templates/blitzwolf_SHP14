@@ -1,0 +1,17 @@
+---
+date_added: 2021-03-14
+title: Blitzwolf 16A IP44 Dual
+model: BW-SHP14
+image: /assets/images/blitzwolf_SHP14.jpg
+template9: '{"NAME":"Blitzwolf BW-SHP14","GPIO":[0,320,0,32,0,321,0,0,224,0,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/BlitzWolf-BW-SHP14-16A-Dual-Outlets-IP44-Smart-WIFI-Socket-3680W-EU-or-1760W-US-Plug-Outdoor-Controller-Work-With-Amazon-Alexa-Google-Assistant-p-1658528.html
+link2: 
+mlink: https://www.blitzwolf.com/WiFi-Outdoor-Socket-p-490.html
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: [eu, us]
+---
+Plug has a TYWE2S-module build in.
+
+For flashing you need to connect GPIO0 pin to GND. Pressing the button doesn't work.
