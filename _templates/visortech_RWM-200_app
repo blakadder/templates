@@ -11,16 +11,18 @@ flash: tuya-convert
 category: sensor
 type: Smoke Sensor
 standard: global
+---
 
 This device uses the Tuya MCU and Tasmota needs to be told how to talk to the different elements the MCU monitors.
 
-Module 54
+`Module 54`
 
+```console
 Backlog TuyaMCU 11,4; TuyaMCU 51,51
+```
 
+```console
 Rule1 
   ON TuyaReceived#CmndData=6A04000100 DO publish stat/%topic%/SMOKE OFF ENDON 
   ON TuyaReceived#CmndData=6A04000101 DO Publish stat/%topic%/SMOKE ON ENDON
-
-
----
+```
