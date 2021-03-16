@@ -11,3 +11,6 @@ category: bulb
 type: RGBCCT
 standard: e12
 ---
+
+## Warning
+- As of March 2021 these bulbs come with Beken BK7231 chipset and are no longer compatible with Tasmota.
