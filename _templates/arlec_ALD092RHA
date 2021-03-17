@@ -1,0 +1,17 @@
+---
+date_added: 2020-11-18
+title: Arlec Smart 9W RGB+CCT
+model: ALD092RHA
+image: /assets/images/arlec_ALD092RHA.jpg
+template: '{"NAME":"Arlec ALD092RHA","GPIO":[0,0,0,0,40,41,0,0,37,39,38,0,0],"FLAG":0,"BASE":18}'
+link: https://www.bunnings.com.au/arlec-grid-connect-smart-9w-rgb-cct-led-downlight_p0168695
+link2: 
+mlink: 
+flash: serial
+category: light
+type: Downlight
+standard: au
+---
+Flashing was quite easy, cover unclips easily and required pins for flashing are identifiable
+
+Recommend changing PwmFrequency to 100Hz to reduce flicker at low levels (run command `PwmFrequency 100`)
