@@ -13,3 +13,4 @@ type: RGBCCT
 standard: b22
 ---
 Tested with tuya-convert on 2021-01-26 with version Main module v1.5.0. Device was all up to date. Worked as expected
+2 pack bought from Amazon UK 2021-03-15 contained 1x old firmware bulb and 1x new firmware bulb which uses the new 02 PSK and not compatible with Tuya-convert.
