@@ -16,4 +16,4 @@ standard: eu
 
 The pins for flashing (VCC, GND, RX, TX, I00 and Reset) are on the PCB.
 
-Flashing with tuya-convert didnt worked (2021-03-12)
+Flashing with tuya-convert didnt work (2021-03-12)
