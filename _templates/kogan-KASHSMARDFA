@@ -77,7 +77,8 @@ fan:
 ```
 	  
 	  
-```
+{% highlight yaml %}
+{% raw %}
 light:
   - platform: mqtt
     name: "Bedroom Diffuser Lamp"
@@ -99,7 +100,8 @@ light:
     rgb_command_template: "{{ 'color=%02x%02x%02x' | format(red, green, blue)}}"
     rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived']['103'].DpId == 103 %}{{ (value_json['TuyaReceived']['103'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived']['103'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived']['103'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
     rgb_state_topic: "tele/MasterDiffuser/RESULT"
-```
+{% endraw %}
+{% endhighlight %}
 	
 ```
 input_select:
