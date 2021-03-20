@@ -1,0 +1,11 @@
+---
+date_added: 2021-03-20
+title: Nous L6 Smart WiFi Switch
+category: unsupported
+type: Relay
+link: https://nous.technology/product/smart-switch-relay-wifi-nous-l6-tuya-ios-android.html
+image: /assets/images/nous_L6.jpg
+link2: 
+link3: 
+flash: Beken BK7231
+---
