@@ -1,0 +1,15 @@
+---
+date_added: 2020-04-30
+title: RSH-WS007-EU
+model: WS007
+category: plug
+type: Plug
+standard: eu
+link: https://www.aliexpress.com/item/32952219190.html
+link2: https://www.mall.sk/vypinace-zasuvky/iq-tech-smartlife-ws007-wi-fi-zasuvka-10-a
+image: /assets/images/WS007.jpg
+template: '{"NAME":"RSH-WS007","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":1,"BASE":18}' 
+template9: '{"NAME":"RSH-WS007","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+---
+
+

@@ -1,0 +1,615 @@
+---
+date_added: 2021-03-19
+title: Kogan 500ml
+model: KASHSMARDFA
+image: /assets/images/kogan-KASHSMARDFA.jpg
+template9: '{"NAME":"Kogan Difuser","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+link: https://www.kogan.com/au/buy/kogan-smarterhome-smart-aroma-diffuser/
+link2: 
+mlink: 
+flash: tuya-convert
+category: misc
+type: Aromatherapy Diffuser
+standard: au
+---
+Below are the Rules and Settings i use for the unit :
+
+```console
+Backlog SetOption66 1; TuyaMCU 11,1; TuyaMCU 12,11; TuyaMCU 13,101; TuyaMCU 15,102; TuyaMCU 1,5; SetOption59 1
+```
+
+```console
+Backlog WebButton1 Power; WebButton2 Light; WebButton3 Mist; WebButton4 Light Mode
+```
+
+
+
+```console
+Rule1 on power3#state=1 do tuyasend4 101,1 endon 
+on power3#state=0 do tuyasend4 101,0 endon
+on power4#state=0 do tuyasend4 102,0 endon 
+on power4#state=1 do tuyasend4 102,1 endon 
+on TuyaReceived#data=55AA03070005660400010079 do Backlog publish2 stat/%topic%/EFFECT rgb_cycle; power4 0 endon
+on TuyaReceived#data=55AA0307000566040001017A do Backlog publish2 stat/%topic%/EFFECT color; power4 1 endon 
+on event#rgb_cycle do tuyasend4 102,0 endon on event#color do backlog tuyasend4 102,1 ; TuyaSend3 103,%value%ffff6464 endon 
+on TuyaReceived#data=55AA030700050D0400010121 do Backlog  publish2 stat/%topic%/Timer 1 Hour endon 
+on TuyaReceived#data=55AA030700050D0400010222 do Backlog  publish2 stat/%topic%/Timer 2 Hours endon 
+on TuyaReceived#data=55AA030700050D0400010323 do Backlog  publish2 stat/%topic%/Timer 3 Hours endon 
+```
+
+```console
+Rule2 on TuyaReceived#data=55AA030700050D0400010020 do Backlog  publish2 stat/%topic%/Timer On endon 
+on TuyaReceived#data=55AA03070005650400010078 do  publish2 stat/%topic%/Mist 0 endon 
+on TuyaReceived#data=55AA03070005650400010179 do  publish2 stat/%topic%/Mist 1 endon 
+on event#TimerSet do tuyasend4 13,%value% endon
+on event#TurnOff do power1 0 endon
+on power1#state=1 do publish2 stat/%topic%/Timer On endon 
+on power1#state=0 do publish2 stat/%topic%/Timer Off endon 
+```
+
+```console
+Backlog rule1 1; rule2 1
+```
+
+Home Assistant Configs :
+
+
+```
+fan:
+  - platform: mqtt
+    name: "Bedroom Diffuser"
+    availability_topic: "tele/MasterDiffuser/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    state_topic: "stat/MasterDiffuser/POWER1"
+    command_topic: "cmnd/MasterDiffuser/POWER1"
+    speed_state_topic: "stat/MasterDiffuser/Mist"
+    payload_low_speed: "0"
+    payload_high_speed: "1"
+    speed_command_topic: "cmnd/MasterDiffuser/POWER3"
+    qos: 1
+    payload_on: "ON"
+    payload_off: "OFF"
+    speeds:
+      - "off"
+      - low
+      - high
+```
+	  
+	  
+```
+light:
+  - platform: mqtt
+    name: "Bedroom Diffuser Lamp"
+    command_topic: "cmnd/MasterDiffuser/POWER2"
+    state_topic: "stat/MasterDiffuser/POWER2"
+    payload_on: "ON"
+    payload_off: "OFF"
+    effect_state_topic: "stat/MasterDiffuser/EFFECT"
+    effect_command_topic: "cmnd/MasterDiffuser/EVENT"
+    effect_list:
+      - rgb_cycle
+      - color
+    availability_topic: "tele/MasterDiffuser/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    qos: 1
+    retain: false
+    rgb_command_topic: "cmnd/MasterDiffuser/EVENT"
+    rgb_command_template: "{{ 'color=%02x%02x%02x' | format(red, green, blue)}}"
+    rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived']['103'].DpId == 103 %}{{ (value_json['TuyaReceived']['103'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived']['103'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived']['103'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
+    rgb_state_topic: "tele/MasterDiffuser/RESULT"
+```
+	
+```
+input_select:
+  diffuser_timer:
+    name: Bedroom Diffuser Timer
+    options:
+      - "1 Hour"
+      - "2 Hours"
+      - "3 Hours"
+      - "On"
+      - "Off"
+    initial: "Off"
+    icon: mdi:alarm
+```
+	
+	
+	
+```
+  - platform: mqtt
+    state_topic: "BDCountdown"
+    name: "Bedroom Diffuser Countdown"
+```
+	
+I then use Node red to populate and control the Timers using MQTT. This will allow update of a timer countdown, Selection of Timer Mode and has some timers to overcome the device turning back on automatically due to a timing issue.
+
+Here is the flow :
+
+```
+[
+    {
+        "id": "9d355282.c77dd",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b0ad145d.96a898",
+        "type": "server-state-changed",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "server": "13b4f076.24abd",
+        "version": 1,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "entityidfilter": "input_select.diffuser_timer",
+        "entityidfiltertype": "exact",
+        "outputinitially": false,
+        "state_type": "str",
+        "haltifstate": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "output_only_on_state_change": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "seconds",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "x": 300,
+        "y": 260,
+        "wires": [
+            [
+                "74958be1.d591a4"
+            ]
+        ]
+    },
+    {
+        "id": "349dce32.d69e42",
+        "type": "mqtt out",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "topic": "cmnd/MasterDiffuser/EVENT",
+        "qos": "",
+        "retain": "",
+        "broker": "25239954.84f446",
+        "x": 880,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "74958be1.d591a4",
+        "type": "function",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "func": "switch (msg.payload) {\ncase \"1 Hour\":\n  msg.payload = 'TimerSet=1';\n  return msg;\ncase \"2 Hours\":\n  msg.payload = \"TimerSet=2\";\n return msg;\ncase \"3 Hours\":\n msg.payload = \"TimerSet=3\";\n  return msg;\ncase \"On\":\n msg.payload = \"TimerSet=0\";\n  return msg;\ndefault:\n  msg.payload = \"TurnOff\";\n  return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 580,
+        "y": 260,
+        "wires": [
+            [
+                "349dce32.d69e42"
+            ]
+        ]
+    },
+    {
+        "id": "9ac76bb6.035588",
+        "type": "mqtt in",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "topic": "stat/MasterDiffuser/Timer",
+        "qos": "2",
+        "datatype": "utf8",
+        "broker": "25239954.84f446",
+        "x": 210,
+        "y": 200,
+        "wires": [
+            [
+                "249ec213.b54d3e"
+            ]
+        ]
+    },
+    {
+        "id": "6f073103.3c458",
+        "type": "api-call-service",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "server": "13b4f076.24abd",
+        "version": 1,
+        "debugenabled": false,
+        "service_domain": "input_select",
+        "service": "select_option",
+        "entityId": "input_select.diffuser_timer",
+        "data": "{\"option\":msg.payload}",
+        "dataType": "jsonata",
+        "mergecontext": "",
+        "output_location": "",
+        "output_location_type": "none",
+        "mustacheAltTags": false,
+        "x": 970,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c297d74.8690f4",
+        "type": "switch",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "property": "bdtimeout",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "False",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 200,
+        "wires": [
+            [
+                "bd791dce.7f7aa",
+                "6f073103.3c458"
+            ]
+        ]
+    },
+    {
+        "id": "164e346b.aa84fc",
+        "type": "stoptimer",
+        "z": "9d355282.c77dd",
+        "duration": "3",
+        "units": "Second",
+        "payloadtype": "num",
+        "payloadval": "0",
+        "name": "",
+        "x": 760,
+        "y": 140,
+        "wires": [
+            [
+                "431e0bd1.0fd174"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bd791dce.7f7aa",
+        "type": "change",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bdtimeout",
+                "pt": "global",
+                "to": "True",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 140,
+        "wires": [
+            [
+                "164e346b.aa84fc"
+            ]
+        ]
+    },
+    {
+        "id": "431e0bd1.0fd174",
+        "type": "change",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "bdtimeout",
+                "pt": "global",
+                "to": "False",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6eec2921.a79408",
+        "type": "config",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "properties": [
+            {
+                "p": "bdtimeout",
+                "pt": "global",
+                "to": "False",
+                "tot": "str"
+            }
+        ],
+        "active": true,
+        "x": 190,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "249ec213.b54d3e",
+        "type": "stoptimer",
+        "z": "9d355282.c77dd",
+        "duration": "1",
+        "units": "Second",
+        "payloadtype": "num",
+        "payloadval": "0",
+        "name": "",
+        "x": 440,
+        "y": 200,
+        "wires": [
+            [
+                "4c297d74.8690f4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "15f8a0bf.fee4cf",
+        "type": "comment",
+        "z": "9d355282.c77dd",
+        "name": "Bedroom Diffuser Set",
+        "info": "Bedroom Diffuser Set\n",
+        "x": 200,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "18417053.35d32",
+        "type": "mqtt in",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "topic": "tele/MasterDiffuser/RESULT",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "25239954.84f446",
+        "x": 220,
+        "y": 360,
+        "wires": [
+            [
+                "9dd19121.32bc9"
+            ]
+        ]
+    },
+    {
+        "id": "9dd19121.32bc9",
+        "type": "json",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 430,
+        "y": 360,
+        "wires": [
+            [
+                "417ebb8a.9ab164"
+            ]
+        ]
+    },
+    {
+        "id": "417ebb8a.9ab164",
+        "type": "function",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "func": "msg.payload = msg.payload.TuyaReceived.DpType2Id14\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 580,
+        "y": 360,
+        "wires": [
+            [
+                "4cedf721.387998"
+            ]
+        ]
+    },
+    {
+        "id": "4cedf721.387998",
+        "type": "switch",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 730,
+        "y": 360,
+        "wires": [
+            [
+                "d39343bc.2c805"
+            ]
+        ]
+    },
+    {
+        "id": "d39343bc.2c805",
+        "type": "api-current-state",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "server": "13b4f076.24abd",
+        "version": 1,
+        "outputs": 1,
+        "halt_if": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "override_topic": false,
+        "entity_id": "input_select.kdiffuser_timer",
+        "state_type": "str",
+        "state_location": "check",
+        "override_payload": "msg",
+        "entity_location": "data",
+        "override_data": "msg",
+        "blockInputOverrides": false,
+        "x": 1000,
+        "y": 360,
+        "wires": [
+            [
+                "1b071f1f.08c731"
+            ]
+        ]
+    },
+    {
+        "id": "cc6caca6.5842b",
+        "type": "mqtt out",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "topic": "BDCountdown",
+        "qos": "0",
+        "retain": "",
+        "broker": "25239954.84f446",
+        "x": 1480,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "587a1e8f.b3829",
+        "type": "mqtt out",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "topic": "BDCountdown",
+        "qos": "0",
+        "retain": "",
+        "broker": "25239954.84f446",
+        "x": 1480,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "1b071f1f.08c731",
+        "type": "switch",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "property": "check",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "On",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Off",
+                "vt": "str"
+            },
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 1270,
+        "y": 360,
+        "wires": [
+            [
+                "30cad0e8.3f16c"
+            ],
+            [
+                "30cad0e8.3f16c"
+            ],
+            [
+                "cc6caca6.5842b"
+            ]
+        ]
+    },
+    {
+        "id": "30cad0e8.3f16c",
+        "type": "change",
+        "z": "9d355282.c77dd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "check",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1300,
+        "y": 440,
+        "wires": [
+            [
+                "587a1e8f.b3829"
+            ]
+        ]
+    },
+    {
+        "id": "13b4f076.24abd",
+        "type": "server",
+        "name": "Home Assistant",
+        "addon": true
+    },
+    {
+        "id": "25239954.84f446",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.0.160",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    }
+]```"
