@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B0777BWS1P
 image: https://user-images.githubusercontent.com/5904370/54648409-70dbf280-4aa6-11e9-8429-a784cf2c6750.png
-template: '{"NAME":"Gosund SP1 v23","GPIO":[0,321,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":55}' 
+template9: '{"NAME":"Gosund SP1 v23","GPIO":[0,321,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":55}' 
 link2: https://www.amazon.de/gp/product/B07B911Y6V
 link3: https://www.amazon.es/dp/product/B08D3CNDT5
 mlink: https://gosund.com/download/smart_plug/125.html
