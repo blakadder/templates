@@ -20,3 +20,7 @@ I based this loosely on the MakeGood template found here and made some changes. 
 Also be sure to run the commands: `SwitchMode1 5` and `SwitchMode2 5`
 
 ![image](https://user-images.githubusercontent.com/5904370/71643508-fee23c00-2cba-11ea-912f-3783f4f905b0.png)
+
+Tuya-Convert successful on 2021-03-21.
+
+Fully functional, including both LED states (blue & red).
