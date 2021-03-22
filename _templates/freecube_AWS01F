@@ -19,5 +19,12 @@ standard: us
 - Switch does not have wifi cut-out on paddle for led in this version, just a horizontal slot cut-out. 
 - Flashed via serial, links to pin out pic below. TX/RX labeled on PCB.  
 
+![Pinout](https://cambridgeave.com/freecubepinout.jpg)
 
-[Pinout](https://cambridgeave.com/freecubepinout.jpg)
+2021-03-22
+
+- Designed a small jig to help with flashing of the above-mentioned chip. Jig can be found [here](https://www.thingiverse.com/thing:4803049)
+- Small correction to the image above:
+  - Ground pin is the rightmost pin along the `VCC` and `GPIO 0` side of the chip
+  - RX pin is directly above the identified RX pin
+  - TX pin is directly above the identified TX pin
