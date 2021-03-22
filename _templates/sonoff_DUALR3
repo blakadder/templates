@@ -39,7 +39,7 @@ To enter flash mode you need to connect GPIO0 to GND. Luckily Sonoff decided to 
 Download [tasmota32.bin](http://ota.tasmota.com/tasmota32/tasmota32.bin) (you need v9.3.1.2 and above) or [tasmota32-bluetooth.bin](http://ota.tasmota.com/tasmota32/tasmota32-bluetooth.bin) if you plan on using the Bluetooth gateway feature.
 
 ### ESP Flasher
-For easiest flash use [ESP Flasher](https://github.com/Jason2866/ESP_Flasher/releases). Launch ESP Flasher, select the port for your serial-to-USB adapter and your binary, make sure DUALR3 is in flash mode by pressing down the on board button then connect your serial-to-USB adapter and click 
+For easiest flash use [ESP Flasher](https://github.com/Jason2866/ESP_Flasher/releases). Launch ESP Flasher, select the port for your serial-to-USB adapter and your binary, make sure DUALR3 is in flash mode by pressing down the on board button then connect your serial-to-USB adapter. Finally click "Flash ESP" and wait until complete.
 
 ### esptool.py
 Using command line esptool.py you need to download all the additional [required files](https://github.com/arendst/Tasmota/tree/firmware/firmware/tasmota32/ESP32_needed_files) (**do not right click to download them but click each link and download using the "Download" icon). 
