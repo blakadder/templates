@@ -1,0 +1,14 @@
+---
+date_added: 2021-03-23
+title: Spectrum Smart Nymphea 36W CCT
+model: SLI031032CCT
+image: /assets/images/spectrum_smart_SLI031032CCT.jpg
+template9: '{"NAME":"Nymphea_36w","GPIO":[0,0,0,0,0,416,0,0,0,417,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B089W3NBV5
+link2: https://www.ceneo.pl/94249571
+mlink: https://spectrumled.pl/en/catalogue/product/nymphea-36w-cct-plafond-spectrum-smart-cct-wi-fi-sli031032cct
+flash: tuya-convert
+category: light
+type: Ceiling Light
+standard: eu
+---
