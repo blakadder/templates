@@ -8,9 +8,9 @@ link: https://www.amazon.de/dp/B07JYYCKCL/
 link2: https://www.amazon.co.uk/gp/product/B07DN4NLKM
 link3: https://www.novostella.uk/collections/smart-light-bulb/products/3-pack-7w-b22-rgbcw-2700-6500k-smart-wifi-led-bulb
 mlink: https://www.novostella.uk/collections/smart-light-bulb/products/3-pack-7w-b22-rgbcw-2700-6500k-smart-wifi-led-bulb
-flash: tuya-convert
+flash: 
 category: bulb
 type: RGBCCT
 standard: [e27,b22]
 ---
-I was unable to flash this bulb on 2021-03-27. It might come with new firmware or there may have been an OTA update
+Tuya-convert did not work on bulbs bought on 2021-03-27. 
