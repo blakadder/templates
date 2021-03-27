@@ -13,3 +13,4 @@ category: bulb
 type: RGBCCT
 standard: [e27,b22]
 ---
+I was unable to flash this bulb on 2021-03-27. It might come with new firmware or there may have been an OTA update
