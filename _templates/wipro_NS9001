@@ -12,3 +12,5 @@ template: '{"NAME":"Wipro","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BAS
 template-alt: '{"NAME":"Wipro","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
+
+`SetOption92 1`  -  use PWM1 for brightness and PWM2 for color temperature (instead of PWM1 for Cold White and PWM2 for Warm White)
