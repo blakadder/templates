@@ -14,6 +14,6 @@ standard: uk
 ---
 Had to disassemble unit (a few screws, back pops off if use a flat blade to separate the grips) to do the flash.  Note - the screws on the back (under the white pads) are triangular security screws so you will need the right screwdriver bit to undo them.   
 
-Once disassembled I had to un-solder the TYWE2S package from the power board to flash it with Tasmotizer. The GPIO 0 pin that needs to be pulled to ground on powerup is not accessible via the package, but can be accessed via test point I00 on the back of the package.   Unfortunately, visibility and access are blocked by a power socket, so out it came. Once on its own I had no trouble flashing it over serial, and it went back in & was soldered up quite easily.   
+Once disassembled, remove the black plastic covering the last two plugs sockets. The GPIO 0 pin that needs to be pulled to ground on powerup is on the back and can be accessied with a small soldering iron via accessed via test point I00 on the back of the package. The power board cab now be flashed with Tasmotizer.
 
 Port numbering is different to the ordering of the other AOFO / TCP power strip with Relays 1 -4 controlling the sockets, starting with Relay 1 nearest to the power cable and Relay 5 controlling the USB sockets.
