@@ -31,29 +31,6 @@ Connect the required TX, RX and GND pins according to the [TYWE3S](https://tasmo
 
 After flashing solder back the RX line to reestablish communication with the MCU.
 
-## Configuration
-Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
-
-Change device to a TuyaMCU module (or apply the provided template, result is the same)
-```console
-Module 54
-```
-
-To properly update displayed time and date and use fnID 79 you need [Tasmota v9.3.1.2+](http://ota.tasmota.com/tasmota/).
-
-Set the following configuration:
-```console
-Backlog TuyaMCU 79,2; TuyaMCU 71,19; TuyaMCU 72,101; TuyaMCU 11,16; TuyaMCU 12,8; TuyaMCU 61,102; 
-```
-
-```console
-Backlog TempRes 0; TuyaEnumList 1,1; WebButton1 Mute; WebButton2 Run Test
-```
-
-POWER1 can be turned on to stop currently playing sound/voice prompt.
-
-POWER2 is used to trigger the built in test.
-
 ## Functions
 Sensor uses the built in speaker as an alarm and to play voice prompts and sound the alarm:
 
@@ -70,13 +47,50 @@ When the sensor it first powered on it will be in preheat mode.
 `dpID 11` error state: fault, serious_fault, sensor_fault, probe_fault, power_fault       
 `dpID 12` lifecycle indicator: 0 = end of life, 1 = operational
 `dpID 16` mute alarm: 0 = nothing, 1 = mutes currently playing sound     
-`dpID 18` unknown state     
+`dpID 18` heat alarm state (0 = alarm, 1 = normal)     
 `dpID 19` temperature value     
-`dpID 101` set temperature alarm threshold
+`dpID 101` set heat alarm threshold
 `dpID 102` set language: 0 = chinese, 1 = english     
 
-Gas value is sent on dpId2 and reported as a gas sensor. Make sure to use Tasmota v9.3.1.2+ which supports fnID 79 for the gas sensor.
+## Configuration
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+
+
+Set the following configuration:
+```console
+Backlog TuyaMCU 79,2; TuyaMCU 71,19; TuyaMCU 72,101; TuyaMCU 11,16; TuyaMCU 12,8; TuyaMCU 61,102; 
+```
+
+_To properly update displayed time and date and use fnID 79 you need [Tasmota v9.3.1.2+](http://ota.tasmota.com/tasmota/)._
+
+```console
+Backlog TempRes 0; TuyaEnumList 1,1; WebButton1 Mute; WebButton2 Run Test
+```
+
+POWER1 will turn on on either alarm, you can turn it if to mute the sound when alarm is active. It will default to OFF after a few seconds in normal working mode.
+
+POWER2 is used to trigger the built in test.
+
+Gas and heat alarm activations need to be reported to a new topic. A rule example:
+
+```console
+rule1 ON tuyareceived#dptype4id1 DO publish stat/%topic%/GAS %value% ENDON ON tuyareceived#dptype4id18 DO publish stat/%topic%/HEAT %value% ENDON
+```
+0 reported on either topic means alarm has been activated.
+
+Gas concentration value is sent on dpId2 and reported as a gas sensor. Make sure to use Tasmota v9.3.1.2+ which supports fnID 79 for the gas sensor.
 
 Temperature is reported to dpID 19 with the value in C. You need to set `TempOffset 0` to display it correctly in Tasmota. 
 
 Use `Tuyasend2 101,<value>` to adjust threshold temperature which is shown as Set Temperature sensor.
+
+Sometimes the device reverts to Chinese audio. To keep it always English use
+
+```console
+backlog rule3 on tuyareceived#DpType4Id102=0 do tuyasend4 102,1 endon; rule3 1
+```
