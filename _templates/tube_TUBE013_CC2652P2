@@ -1,0 +1,15 @@
+---
+date_added: 2021-03-29
+title: Tube's CC2652P2 Ethernet to 
+model: TUBE013_CC2652P2
+image: /assets/images/tube_TUBE013_CC2652P2.jpg
+template32: '{"NAME":"Tube ZB CC2652","GPIO":[0,0,0,3840,0,3584,0,0,0,0,0,0,5536,3552,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,3840,5792,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.tubeszb.com/product/cc2652_coordinator/1
+link2: 
+mlink: https://github.com/tube0013/tube_gateways
+flash: serial
+category: misc
+type: Zigbee Bridge
+standard: global
+---
+Zigbee coordinator based on ESP32 and CC2652p2

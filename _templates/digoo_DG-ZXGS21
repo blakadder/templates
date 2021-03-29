@@ -1,0 +1,82 @@
+---
+date_added: 2021-03-31
+title: Digoo Alarm with Heat and
+model: DG-ZXGS21
+category: sensor
+type: Gas Sensor
+standard: global
+flash: serial
+image: /assets/images/digoo_DG-ZXGS21.jpg
+template9: '{"NAME":"Merged","GPIO":[1,2272,1,2304,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/1005001616285937.html
+link2: https://www.banggood.com/DIGOO-DG-ZXGS21-Smart-WIFI-Gas-Leak-Detector-APP-Remote-Alert-Gas-Alarm-Sensor-Work-with-Digoolife-Smartlife-Tuya-APP-p-1754425.html
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+This is a Tuya gas and heat detector and alarm with a clock and info LCD display. It has a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module and a [GD32E230C8T6](http://www.gd32mcu.com/data/documents/shujushouce/GD32E230xx_Datasheet_Rev1.3.pdf) STM32 compatible MCU.
+
+Identified with MCU Product ID: `{"p":"ozcdjaqrxauonq1f","v":"1.0.0","m":2}`. 
+
+## Flashing
+
+Grip the backside clips with pliers from the outer rim and slowly release all 4 of them in order. 
+
+I did not manage to find a way to disable the MCU so you have to cut the RX pin PCB trace to flash the Wi-Fi module. 
+
+![Cut Trace Here](/assets/images/digoo_DG-ZXGS21_cuttrace.jpg)
+
+I would recommend not connecting 3v3 to your serial-to-USB adapter but power the device using its USB port. 
+
+Connect the required TX, RX and GND pins according to the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) pinout and ground GPIO0 during boot. 
+
+After flashing solder back the RX line to reestablish communication with the MCU.
+
+## Configuration
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Change device to a TuyaMCU module (or apply the provided template, result is the same)
+```console
+Module 54
+```
+
+To properly update displayed time and date and use fnID 79 you need [Tasmota v9.3.1.2+](http://ota.tasmota.com/tasmota/).
+
+Set the following configuration:
+```console
+Backlog TuyaMCU 79,2; TuyaMCU 71,19; TuyaMCU 72,101; TuyaMCU 11,16; TuyaMCU 12,8; TuyaMCU 61,102; 
+```
+
+```console
+Backlog TempRes 0; TuyaEnumList 1,1; WebButton1 Mute; WebButton2 Run Test
+```
+
+POWER1 can be turned on to stop currently playing sound/voice prompt.
+
+POWER2 is used to trigger the built in test.
+
+## Functions
+Sensor uses the built in speaker as an alarm and to play voice prompts and sound the alarm:
+
+The speaker and LED's are controlled by the MCU and there is no way to control them with Tasmota.
+
+When the sensor it first powered on it will be in preheat mode.
+
+`dpID 1` gas: 0 = detected gas / 1 = no gas     
+`dpID 2` gas amount = displayed %LEL value     
+`dpID 7` alarm time? no real function     
+`dpID 8` test function trigger     
+`dpID 9` test result: 0 = checking, 1 = check success, 2 = check_failure, 3 = other     
+`dpID 10` preheat state: 0 = normal operation, 1 = sensor preheating mode     
+`dpID 11` error state: fault, serious_fault, sensor_fault, probe_fault, power_fault       
+`dpID 12` lifecycle indicator: 0 = end of life, 1 = operational
+`dpID 16` mute alarm: 0 = nothing, 1 = mutes currently playing sound     
+`dpID 18` unknown state     
+`dpID 19` temperature value     
+`dpID 101` set temperature alarm threshold
+`dpID 102` set language: 0 = chinese, 1 = english     
+
+Gas value is sent on dpId2 and reported as a gas sensor. Make sure to use Tasmota v9.3.1.2+ which supports fnID 79 for the gas sensor.
+
+Temperature is reported to dpID 19 with the value in C. You need to set `TempOffset 0` to display it correctly in Tasmota. 
+
+Use `Tuyasend2 101,<value>` to adjust threshold temperature which is shown as Set Temperature sensor.

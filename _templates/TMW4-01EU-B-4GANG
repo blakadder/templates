@@ -1,0 +1,14 @@
+---
+date_added: 2021-03-27
+title: 433Mhz 4 Gang Touch
+model: TMW4-01(EU)-B-4GANG
+image: /assets/images/TMW4-01EU-B-4GANG.jpg
+template9: '{"NAME":"TMW4-01(EU)","GPIO":[0,0,0,33,35,32,0,0,34,224,225,226,227,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001865860957.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
