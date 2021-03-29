@@ -98,14 +98,8 @@ Alarm will be turned on or off using POWER.
 - 17 - psycho
 
 ## Example Commands
-Supported from Tasmota console and URL (e.g. http://{{sensor}}/cm?cmnd=TuyaSend0).
-
-### Read Data
 
 - TuyaSend0 - Force read of data from MCU and send to MQTT broker
-
-### Write Settings
-
 - TuyaSend2 103,12 - Set alarm duration time to 12 seconds
 - TuyaSend2 108,390 - Set maximum temperature to trigger alarm to 39.0 °C
 - TuyaSend2 113,0 - Disable temperature alarm control
