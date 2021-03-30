@@ -1,0 +1,17 @@
+---
+date_added: 2021-03-30
+title: HIPER IoT B1
+model: HI-B1RGB
+image: /assets/images/hiper_HI-B1RGB.jpg
+template9: '{"NAME":"HIPER B1-RGB","GPIO":[0,0,0,0,0,0,0,0,4064,0,4032,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://hiper-power.com/ru/catalog/umnyy-dom/umnyy-svet/lampochki/umnaya-led-lampochka-wi-fi-hiper-iot-b1-rgb/
+link2: 
+mlink: https://hiper-power.com/ru/catalog/umnyy-dom/umnyy-svet/lampochki/umnaya-led-lampochka-wi-fi-hiper-iot-b1-rgb/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: gu10
+---
+```console
+SetOption37 30
+```

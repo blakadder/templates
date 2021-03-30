@@ -1,0 +1,14 @@
+---
+date_added: 2021-03-30
+title: iQtech 10W 900lm
+model: WB009
+image: /assets/images/iqtech_WB009.jpg
+template9: '{"NAME":"iQ-Tech CCT 10W 900LM","GPIO":[0,0,0,0,0,416,0,0,0,417,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.alza.cz/iq-tech-smartlife-wb009-wi-fi-zarovka-e27-10w-barevna-d5656798.htm
+link2: https://www.alzashop.com/iq-tech-smartlife-wb009-wi-fi-e27-socket-10w-coloured-d5656798.htm
+mlink: 
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---

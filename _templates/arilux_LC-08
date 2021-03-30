@@ -1,0 +1,24 @@
+---
+date_added: 2021-03-30
+title: Arilux LC-08 RGBCCT
+model: 
+image: /assets/images/arilux_LC-08.jpg
+template9: '{"NAME":"Arilux LC08","GPIO":[0,0,161,0,417,416,0,0,420,419,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005002088818748.html
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+This template is true for the ESP12-F chipset. I read that there might be other chipsets, so please verify!
+
+ARILUX LC-08 can be found usually as "Magic Home Mini WIFI Led controller" It is the RGB+CCT model from the many LC-0x type. The plastic casing is quite tight, you have to force it open.
+
+Channels:
+- GPIO4    Green  PWM2
+- GPIO5    Red      PWM1
+- GPIO14  Blue     PWM3
+- GPIO12  WW      PWM4
+- GPIO13  CW       PWM5
