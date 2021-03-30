@@ -7,7 +7,7 @@ type: Gas Sensor
 standard: global
 flash: serial
 image: /assets/images/digoo_DG-ZXGS21.jpg
-template9: '{"NAME":"Merged","GPIO":[1,2272,1,2304,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+template9: '{"NAME":"DG-ZXGS21","GPIO":[1,2272,1,2304,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/1005001616285937.html
 link2: https://www.banggood.com/DIGOO-DG-ZXGS21-Smart-WIFI-Gas-Leak-Detector-APP-Remote-Alert-Gas-Alarm-Sensor-Work-with-Digoolife-Smartlife-Tuya-APP-p-1754425.html
 ---
