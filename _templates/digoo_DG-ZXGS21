@@ -40,13 +40,13 @@ When the sensor it first powered on it will be in preheat mode.
 
 `dpID 1` gas: 0 = detected gas / 1 = no gas     
 `dpID 2` gas amount = displayed %LEL value     
-`dpID 7` alarm time? no real function     
+`dpID 7` alarm volume: 0 = mute, 1 = on     
 `dpID 8` test function trigger     
 `dpID 9` test result: 0 = checking, 1 = check success, 2 = check_failure, 3 = other     
 `dpID 10` preheat state: 0 = normal operation, 1 = sensor preheating mode     
 `dpID 11` error state: fault, serious_fault, sensor_fault, probe_fault, power_fault       
 `dpID 12` lifecycle indicator: 0 = end of life, 1 = operational
-`dpID 16` mute alarm: 0 = nothing, 1 = mutes currently playing sound     
+`dpID 16` silence alarm: 0 = nothing, 1 = silences currently playing alarm     
 `dpID 18` heat alarm state (0 = alarm, 1 = normal)     
 `dpID 19` temperature value     
 `dpID 101` set heat alarm threshold
