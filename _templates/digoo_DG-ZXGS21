@@ -94,3 +94,5 @@ Sometimes the device reverts to Chinese audio. To keep it always English use
 ```console
 backlog rule3 on tuyareceived#DpType4Id102=0 do tuyasend4 102,1 endon; rule3 1
 ```
+
+## [Home Assistant Configuration](https://blakadder.com/gas-sensor/)
