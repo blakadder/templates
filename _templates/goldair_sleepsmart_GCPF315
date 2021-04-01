@@ -21,7 +21,8 @@ Rule1 1
 
 4. Add the following to Home Assistant to your FAN section:
 
-```yaml
+{% highlight yaml %}
+{% raw %}
   - platform: mqtt
     name: "Lounge Fan"
     state_topic: "stat/lounge_fan/POWER1"
@@ -59,8 +60,7 @@ Rule1 1
        2,11
       {% else %}
         'nul '{{ value }}''
-      {% endif %}
-    
+      {% endif %} 
     qos: 0
     payload_on: 'ON'
     payload_off: 'OFF'
@@ -71,5 +71,7 @@ Rule1 1
     payload_not_available: Offline
     speed_range_min: 1
     speed_range_max: 12
-```    
+{% endraw %}
+{% endhighlight %}
+
 Please note if you want to change the topic name, you need to change it in the rule as well
