@@ -8,7 +8,7 @@ category: light
 type: LED Strip
 standard: au
 template: '{"NAME":"Arlec ALD233AH","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
-template9:'{"NAME":"Arlec_Light_Strip","GPIO":[1,1,1088,1,416,419,1,1,417,420,418,0,1,1],"FLAG":0,"BASE":18}'
+template9: '{"NAME":"Arlec_Light_Strip","GPIO":[1,1,1088,1,416,419,1,1,417,420,418,0,1,1],"FLAG":0,"BASE":18}'
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-2m-led-white-and-colour-changing-strip-light-with-remote_p0208822
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-2m-led-white-colour-changing-strip-light_p0099707
 unsupported: true
