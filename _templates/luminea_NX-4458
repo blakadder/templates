@@ -10,4 +10,6 @@ template: '{"NAME":"Luminea NX4458","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],
 link2: https://www.amazon.de/Luminea-Home-Control-Steckdose-Garten/dp/B07KJH3HBFs
 mlink: https://www.luminea.info/Outdoor-WLAN-Steckdose-kompatibel-zu-Alexa-NX-4458-919.shtml
 ---
+## Warning
 
+As of April 2021 it doesn't contain an ESP module anymore and it cannnot be flashed with Tasmota anymore.
