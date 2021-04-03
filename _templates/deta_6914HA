@@ -83,9 +83,14 @@ Rule Logic
 {% raw %}
 - platform: mqtt
   name: Bedroom Fan
-  state_topic: tele/tasmota-7540/STATE
   command_topic: cmnd/tasmota-7540/Backlog
-  state_value_template: "{{ value_json.POWER2 }}"
+  state_topic: tele/tasmota-7540/STATE
+  state_value_template: >
+    {% if value_json.POWER2 == 'ON' %}
+      Event p=1
+    {% else %}
+      Event p=0
+    {% endif %}
   speed_command_topic: cmnd/tasmota-7540/Backlog
   speed_state_topic: tele/tasmota-7540/STATE
   speed_value_template: >
