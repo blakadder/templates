@@ -8,7 +8,7 @@ flash: serial
 category: switch
 type: Switch
 standard: au
-template: '{"NAME":"Deta Fan Speed and Light Controller","GPIO":[18,0,0,157,23,19,0,0,0,22,21,24,17],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Deta Fan Speed and Light Controller","GPIO":[18,0,0,158,23,19,0,0,0,22,21,24,17],"FLAG":0,"BASE":18}'
 link: https://www.bunnings.com.au/deta-grid-connect-smart-fan-speed-controller-with-touch-light-switch_p0098815
 link2: https://www.bunnings.co.nz/deta-grid-connect-smart-fan-speed-controller-with-touch-light-switch_p0098815
 ---
@@ -20,36 +20,49 @@ SetOption73 1
 
 Single rule to handle fan speed logic
 ```console
-rule1
-ON SYSTEM#Init DO VAR1 3 ENDON
-ON BUTTON1#State=10 DO POWER1 Toggle ENDON
-ON BUTTON2#State=10 DO POWER2 Toggle ENDON
-ON POWER2#State=1 DO POWER3 ON ENDON
-ON POWER2#State=1 DO POWER4 ON ENDON
-ON POWER2#State=1 DO VAR1 2 ENDON
-ON POWER2#State=0 DO POWER3 OFF ENDON
-ON POWER2#State=0 DO POWER4 OFF ENDON
-ON POWER2#State=0 DO VAR1 3 ENDON
-ON BUTTON3#State=10 DO Event SetSpeed=%VAR1% ENDON
-ON EVENT#SetSpeed=1 DO POWER3 OFF ENDON
-ON EVENT#SetSpeed=1 DO POWER4 OFF ENDON
-ON EVENT#SetSpeed=1 DO POWER2 ON ENDON
-ON EVENT#SetSpeed=1 DO VAR1 3 ENDON
-ON EVENT#SetSpeed=2 DO POWER3 OFF ENDON
-ON EVENT#SetSpeed=2 DO POWER4 ON ENDON
-ON EVENT#SetSpeed=2 DO POWER2 ON ENDON
-ON EVENT#SetSpeed=2 DO VAR1 1 ENDON
-ON EVENT#SetSpeed=3 DO POWER3 ON ENDON
-ON EVENT#SetSpeed=3 DO POWER4 ON ENDON
-ON EVENT#SetSpeed=3 DO POWER2 ON ENDON
-ON EVENT#SetSpeed=3 DO VAR1 2 ENDON
+Rule1
+ON SYSTEM#Init DO Backlog var1 3; var2 1 ENDON
+ON BUTTON1#State=10 DO power1 Toggle ENDON
+ON BUTTON2#State=10 DO event p=%var2% ENDON
+ON BUTTON3#State=10 DO event s=%var1% ENDON
+ON EVENT#p>0 DO power4 ON ENDON
+ON EVENT#p>0 DO power3 ON ENDON
+ON EVENT#p>0 DO power2 ON ENDON
+ON EVENT#p>0 DO var1 2 ENDON
+ON EVENT#p>0 DO var2 0 ENDON
+ON EVENT#p=0 DO power3 OFF ENDON
+ON EVENT#p=0 DO power4 OFF ENDON
+ON EVENT#p=0 DO power2 OFF ENDON
+ON EVENT#p=0 DO var1 3 ENDON
+ON EVENT#p=0 DO var2 1 ENDON
+ON EVENT#s>0 DO var2 0 ENDON
+ON EVENT#s=1 DO power3 OFF ENDON
+ON EVENT#s=1 DO power4 OFF ENDON
+ON EVENT#s=1 DO power2 ON ENDON
+ON EVENT#s=1 DO var1 3 ENDON
+ON EVENT#s=2 DO power3 OFF ENDON
+ON EVENT#s=2 DO power4 ON ENDON
+ON EVENT#s=2 DO power2 ON ENDON
+ON EVENT#s=2 DO var1 1 ENDON
+ON EVENT#s=3 DO power3 ON ENDON
+ON EVENT#s=3 DO power4 ON ENDON
+ON EVENT#s=3 DO power2 ON ENDON
+ON EVENT#s=3 DO var1 2 ENDON
+ON POWER2#State=0 DO power4 OFF ENDON
+ON POWER2#State=0 DO power3 OFF ENDON
+ON POWER2#State=0 DO var1 3 ENDON
+ON POWER2#State=0 DO var2 1 ENDON
+ON POWER2#State=1 DO power4 ON ENDON
+ON POWER2#State=1 DO power3 ON ENDON
+ON POWER2#State=1 DO var1 2 ENDON
+ON POWER2#State=1 DO var2 0 ENDON
 ```
 
 Enable rule with `Rule1 1`
 
 Description:
 `SetOption73` Decouples the buttons and relay
-The VAR1 can be thought of as "NextSpeed", if it makes it easier to read the code
+The VAR1 can be thought of as "NextSpeed" and VAR2 as "Next Power", if it makes it easier to read the code
 
 Notes:
 - Relay 1 is the main light relay controlled by button1 (the light button)
@@ -58,8 +71,10 @@ Notes:
 - Relay 4 is the tertiary fan relay not physically connected to any buttons
 
 Rule Logic
-- Relay 3 and4 will always turn on with Relay 2
+- Relay 3 and 4 will always turn on with Relay 2
 - VAR1 is set to 3 at Initialisation and when the fan is powered off to ensure full power to fan to startup
+- VAR2 is set to 1 at Initialisation to control the fan "next power state"
+- Button 2 will always toggle the power to the fan (and reset state)
 - Button 3 will always decrease speed one at a time 3 -> 2 -> 1 -> 3
 
 ### Home Assistant
@@ -68,27 +83,32 @@ Rule Logic
 {% raw %}
 - platform: mqtt
   name: Bedroom Fan
+  command_topic: cmnd/tasmota-7540/Backlog
   state_topic: tele/tasmota-7540/STATE
-  command_topic: cmnd/tasmota-7540/POWER2
-  state_value_template: "{{ value_json.POWER2 }}"
+  state_value_template: >
+    {% if value_json.POWER2 == 'ON' %}
+      Event p=1
+    {% else %}
+      Event p=0
+    {% endif %}
   speed_command_topic: cmnd/tasmota-7540/Backlog
   speed_state_topic: tele/tasmota-7540/STATE
   speed_value_template: >
     {% if value_json.POWER3 == 'OFF' and value_json.POWER4 == 'OFF' %}
-      Event SetSpeed=1
+      Event s=1
     {% elif value_json.POWER3 == 'OFF' and value_json.POWER4 == 'ON' %}
-      Event SetSpeed=2
+      Event s=2
     {% elif value_json.POWER3 == 'ON' and value_json.POWER4 == 'ON' %}
-      Event SetSpeed=3
+      Event s=3
     {% endif %}
   availability_topic: tele/tasmota-7540/LWT
   payload_available: Online
   payload_not_available: Offline
-  payload_low_speed: "Event SetSpeed=1"
-  payload_medium_speed: "Event SetSpeed=2"
-  payload_high_speed: "Event SetSpeed=3"
-  payload_off: 'OFF'
-  payload_on: 'ON'
+  payload_low_speed: "Event s=1"
+  payload_medium_speed: "Event s=2"
+  payload_high_speed: "Event s=3"
+  payload_off: "Event p=0"
+  payload_on: "Event p=1"
   speeds:
     - low
     - medium
