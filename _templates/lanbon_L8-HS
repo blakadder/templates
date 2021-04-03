@@ -1,5 +1,5 @@
 ---
-date_added: 2021-01-30
+date_added: 2021-04-10
 title: Lanbon L8 5 in 1 LCD Touch
 model: L8-HS
 category: switch
@@ -24,7 +24,8 @@ Not working:
 - Power metering based on pulse counter
 - Temperature measurement incorrect
 
-[Teardown and flashing instructions](https://blakadder.com/lanbon-L8-custom-firmware/).
+## Solderless Flashing
+[Solderless flashing instructions](https://blakadder.com/lanbon-L8-custom-firmware/).
 
 Download a [compiled binary](assets/firmware/tasmota-lanbon-l8-9.2.0.2.bin) or use [Tasmota development branch](https://github.com/arendst/tasmota) and set in `user_config_override.h`
 
