@@ -12,6 +12,8 @@ link2: http://s.click.aliexpress.com/e/4Ai3Kk7Q
 ---
 Other manufacturer IDs: WWS015 or Hi-AUWS01W
 
+Could use same template for: GMA-504470-EA (US/JP/TW Type A Plug）
+
 Gpio03 have to be low to make touch button work. This is done by setting it as Led4i.
 
 SwitchMode needs to be set using

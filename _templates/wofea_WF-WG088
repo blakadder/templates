@@ -36,7 +36,7 @@ Restart 1
 cover:
   - platform: mqtt
     name: "garagedoor"
-    state_topic: "stat/garagedoor_02/state"
+    state_topic: "stat/garagedoor_02/reed_state"
     command_topic: "cmnd/garagedoor_02/POWER"
     availability_topic: "tele/garagedoor_02/LWT"
     payload_available: "Online"
