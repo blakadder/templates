@@ -102,8 +102,8 @@ Rule Logic
   payload_low_speed: "Event s=1"
   payload_medium_speed: "Event s=2"
   payload_high_speed: "Event s=3"
-  payload_off: 'OFF'
-  payload_on: 'ON'
+  payload_off: "Event p=0"
+  payload_on: "Event p=1"
   speeds:
     - low
     - medium
