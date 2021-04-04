@@ -72,3 +72,12 @@ Changing these switches for operations like inching and interlocking are also su
 * [Itead Product Page](http://sonoff.itead.cc/en/products/sonoff/sonoff-4ch-pro)
 * [Itead Shop](https://www.itead.cc/sonoff-4ch-pro.html)
 * [Itead Wiki](https://www.itead.cc/wiki/Sonoff_4CH_Pro)
+
+## Alternate Compatible Devices
+* MHCOZY 4ch 5-32V Relay module [Amazon.ca Listing Page](https://www.amazon.ca/MHCOZY-Wireless-Self-Locking-Interlock-Compatible/dp/B07TDJG2GJ)
+  * once Tasmotized, appears to be fully compatible with this Sonoff 4ch Pro module configuration
+  * RF functions are fully retained after converstion per stock instructions
+  * unfortunately, does not have a programming header and requires soldering to the module
+    * GPIO0 is on Button1 and thus does not require soldering
+    * 3V3 and GND are easiest to be soldered on a decoupling capacitor
+    * Tx and Rx do require soldering directly to the module within a limited working space
