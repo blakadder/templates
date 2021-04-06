@@ -19,17 +19,22 @@ That module is pin compatible with ESP-12 and can ordered via Ebay.
 Although unsupported, that doesn't stop you from using it with tasmota. See the reddit post i made here: https://www.reddit.com/r/homeassistant/comments/mfnqhs/light_strip_came_with_a_wb3s_tuya_chip_not/
 
 After you have replaced the module with a esp12 and flashed it with tasmota follow these steps
+
 1. Cut the far right trace coming from the IR Sensor to the esp. 
 2. Put a solder blob on the bottom right 2 pins to bridge them. There is a photo linked below.
-3.Solder a wire to the 3rd pin up from the right side of the chip as seen in the picture and solder the other end to the data pin of the IR Sensor.
+3. Solder a wire to the 3rd pin up from the right side of the chip as seen in the picture and solder the other end to the data pin of the IR Sensor.
 
-Heres the photo: https://i.imgur.com/Crp37SK.jpg
+Heres the photo: [https://imgur.com/a/fjvPoHz](https://imgur.com/a/fjvPoHz)
 
-4. Once booted, type this into you console to make the IR remote work.
+4.Once booted, type this into you console to make the IR remote work.
+
 ``` Rule1 ON IrReceived#Data=0x00F7807F do power off ENDON ON IrReceived#Data=0x00F700FF do power on ENDONON IrReceived#Data=0x00F740BF do dimmer + ENDON ON IrReceived#Data=0x00F7C03F do dimmer - ENDON ON IrReceived#Data=0x00F720DF do color2 ff0000 ENDON ON IrReceived#Data=0x00F7A05F do color2 00ff00 ENDON ON IrReceived#Data=0x00F7609F do color2 0000ff ENDON ON IrReceived#Data=0x00F7F00F do CT + ENDON ON IrReceived#Data=0x00F7C837 do CT - ENDON ```
 
 ``` Rule2 ON IrReceived#Data=0x00F710EF do color2 6 ENDON ON IrReceived#Data=0x00F7906F do color2 10 ENDON  ON IrReceived#Data=0x00F750AF do color2 9 ENDON ON IrReceived#Data=0x00F730CF do color2 11 ENDON ON IrReceived#Data=0x00F7B04F do color2 5 ENDON ON IrReceived#Data=0x00F748B7 do CT 153 ENDON ON IrReceived#Data=0x00F708F7 do CT 500 ENDON ON IrReceived#Data=0x00F78877 do CT 326 ENDON  ```
 
 ``` Rule3 ON IrReceived#Data=0x00F728D7 do scheme 4 ENDON ON IrReceived#Data=0x00F7A857 do scheme 2 ENDON ON IrReceived#Data=0x00F7E01F do Speed + ENDON ON IrReceived#Data=0x00F7D02F do Speed - ENDON ON IrReceived#Data=0x00F76897 do Backlog fade 1; color2 1; Dimmer 5 EndOn ON IrReceived#Data=0x00F7E817 do Backlog fade 1; speed 40; power off; speed 1;  EndOn ON IrReceived#Data=0x00F7708F do color2 4 ENDON  ```
 
-5. Have Fun!
+5. Enable the rules by typing:
+``` Backlog rule1 1; rule2 1; rule3 1 ```
+
+6. Have Fun!
