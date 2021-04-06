@@ -16,7 +16,7 @@ unsupported: true
 As of July 2020 this device comes with a Tuya WB3S module which cannot be flashed with Tasmota.     
 That module is pin compatible with ESP-12 and can ordered via Ebay.
 
-Although unsupported, that doesn't stop you from using it with tasmota. See the reddit post i made here: https://www.reddit.com/r/homeassistant/comments/mfnqhs/light_strip_came_with_a_wb3s_tuya_chip_not/
+Although unsupported, that doesn't stop you from using it with tasmota. See the reddit post i made here: [https://www.reddit.com/r/homeassistant/comments/mfnqhs/light_strip_came_with_a_wb3s_tuya_chip_not/](https://www.reddit.com/r/homeassistant/comments/mfnqhs/light_strip_came_with_a_wb3s_tuya_chip_not/)
 
 After you have replaced the module with a esp12 and flashed it with tasmota follow these steps
 
