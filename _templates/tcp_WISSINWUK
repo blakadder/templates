@@ -13,3 +13,10 @@ flash: tuya-convert
 link2: 
 ---
 
+There appears to be a newer version of these devices on the market. I recently bought two single plugs and a four pack.
+All the plugs have the same model number and appear identical, but the ones from the four pack have upgraded firmware and
+couldn't be used with tuya-convert. I manually reflashed them with a serial cable (not at all an easy procedure with these
+plugs due to their board layout) and installed Tasmota.
+
+While the configuration for the single plugs with the older firmware is as listed above, the plugs from the four pack have
+different pin allocations. The LED is on GPIO5, relay GPIO12 and button GPIO13.
