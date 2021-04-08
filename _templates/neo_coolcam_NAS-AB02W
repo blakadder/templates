@@ -58,6 +58,16 @@ Map alarm control to POWER
 TuyaMCU 11,104
 ```
 
+Map Indoor Temp
+```
+TuyaMCU 71,105
+```
+
+Map Indoor Humidity
+```
+TuyaMCU 73,106
+```
+
 ## Functions
 Alarm will be turned on or off using POWER. 
 
