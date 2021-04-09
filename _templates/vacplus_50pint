@@ -1,0 +1,48 @@
+---
+date_added: 2021-04-07
+title: Vacplus 50 Pint 
+model: 
+image: /assets/images/vacplus_50pint.jpg
+template9: '{"NAME":"VacPlus Dehumidifier","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/gp/product/B0816SXSG8
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: Dehumidifier
+standard: us
+---
+This dehumidifier has a TYWE1S on a TYJW2S-5V board. It's worth noting that I did not try tuya-convert. I went straight for flashing it over serial, which is very easy on this model.
+
+This device uses TuyaMCU. For more information, see [https://tasmota.github.io/docs/TuyaMCU/](https://tasmota.github.io/docs/TuyaMCU/).
+
+1. Unplug the dehumidifier.
+2. Take all the screws out of the back of the dehumidifier and take off the back.
+3. Take out the necessary screws to remove the top panel, and carefully set the panel to the side. There's some cables connecting the top display and buttons to the rest of the unit. I left these connected, but be careful not to damage them!
+4. With the top panel of the unit removed, The TYJW2S board should be visible. Carefully disconnect the cable leading to it, remove the single screw holding it into place, and remove the board.
+5. On the TYJW2S board, there are should be 6 unsoldered header pins on the left. Solder header pins to the ones labeled (on the back) TXD0, RXD0, GND, and 3.3V. If you put the pins on the "top" of the board, there's plenty of room to leave them permanently in the dehumidifier
+6. Using some sort of 3.3V FTDI connection (I used a CH340G), wire:
+  * GND [TYJW2S] to GND [FTDI]
+  * 3.3V [TYJW2S] to VCC [FTDI]
+  * TXD0 [TYJW2S] to RX [FTDI]
+  * RXD0 [TYJW2S] to TX [FTDI]
+7. Hold down the button on the board and plug in the FTDI to your computer. Continue holding the button for 10 seconds or so, then let go
+8. Flash tasmota.bin using your favorite flashing tool (I used Tasmotizer). I was also able to safely back up the stock firmware for safe keeping.
+9. Disconnect the wires from the TYJW2S board and completely reassemble the dehumidifier. If you tilted at any point, leave it upright for at least 2 hours before continuing.
+10. Plug in the unit and turn it on. Go through the normal process to connect Tasmota to your WiFi network.
+11. Apply the template provided
+12. Run the following commands to map TuyaMCU dpIds to Tasmota Functions:
+
+```console
+Backlog TuyaMCU 71,7; TuyaMCU 73,6; TuyaMCU 74,2; TempRes 0; SetOption8 1
+```
+
+- TuyaMCU 71,7 - Ambient Temperature
+- TuyaMCU 73,6 - Current Humidity
+- TuyaMCU 74,2 - Humidity Set
+- TempRes 0 - Correct decimal shift
+- SetOption8 1 - If in Fahrenheit 
+
+You should now have On/Off control and sensor values for temperature, humidity, and current humidity setting. You can also run `TuyaSend2 2,xx` (where xx is a 2-digit number) to set the humidity.
+
+Above I'm mapping dpIds 1 (automatically mapped by TuyaMCU), 2, 6, and 7. I discovered that dpIds 8 and 12 are also available. I assume that one of them is "mode" and the other is "timer", but I didn't have a need to view/control these functions so I left them alone.

@@ -1,0 +1,17 @@
+---
+date_added: 2021-04-07
+title: M5Stack Atom Lite ESP32
+model: C008
+image: /assets/images/m5stack_atom_lite.jpg
+template32: '{"NAME":"M5Stack Atom Lite","GPIO":[1,1,1,1,1,1,1,1,1056,1,1,1,1,1,1,1,0,1,1,1,0,1,640,1376,0,0,0,0,608,1,1,1,1,0,0,32],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/4000576823662.html
+link2: https://www.banggood.com/M5Stack-ATOM-Lite-ESP32-Development-Board-Kit-Neo-LED-Blockly-Programmable-Kit-p-1645120.html
+link3: https://www.amazon.co.uk/dp/B08GKR9GCX
+mlink: https://docs.m5stack.com/#/en/core/atom_lite
+flash: serial
+category: misc
+type: Development Board
+standard: global
+---
+
+Very small ESP32 dev board with USB-C port

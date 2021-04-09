@@ -1,0 +1,19 @@
+---
+date_added: 2021-04-01
+title: Atom 10W RGBCCT
+model: AT9017
+image: /assets/images/atom_AT9017.jpg
+template32: '{"NAME":"Atom AT9017/WH/WIZ/TR","GPIO":[0,0,420,0,419,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,417,418,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.jdlighting.com.au/atom-wiz-smart-wifi-rgb-white-10w-led-downlight.html
+link2: 
+mlink: https://atomlighting.com.au/product/at9017/
+flash: serial
+category: light
+type: Downlight
+standard: au
+---
+Daughter board located on transformer.
+
+Remove daughter board and along side the pins on the top right are solder points which correspond from left to right, GND, Vcc, RX, TX, GPIO0.
+
+Flashed successfully using instructions at https://tasmota.github.io/docs/ESP32/

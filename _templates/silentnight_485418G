@@ -1,0 +1,14 @@
+---
+date_added: 2021-04-03
+title: SilentNight 
+model: 485418G
+image: /assets/images/silentnight_485418G.jpg
+template9: '{"NAME":"SilentNightPlug","GPIO":[0,0,0,0,288,0,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.co.uk/dp/B075Z638JG
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---

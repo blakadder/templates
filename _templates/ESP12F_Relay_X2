@@ -1,0 +1,19 @@
+---
+date_added: 2021-04-07
+title: ESP-12F 2 Channel
+model: 
+image: /assets/images/ESP12F_Relay_X2.jpg
+template9: '{"NAME":"ESP12F_Relay_X2","GPIO":[1,1,1,1,224,225,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/5V-or-8-80V-Power-Supply-ESP8266-WIFI-Dual-Relay-Module-ESP-12F-Development-Board-Secondary-Development-p-1794025.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+Very similar to 4 Channel version, but uses different GPIOs
+
+Headers must be soldered and jumpers needs to be installed for enabling relays. 
+
+Programmable LED(blue) is wired GPIO16 (could be used e.g. as LedLink or LedLinki)

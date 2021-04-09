@@ -1,0 +1,14 @@
+---
+date_added: 2021-04-06
+title: Oeegoo 15W RGBCCT
+model: OEE216
+image: /assets/images/oeegoo_OEE216.jpg
+template9: '{"NAME":"Oeegoo RGBCCT","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B08BL88N71/
+link2: https://www.amazon.it/dp/B08BL88N71
+mlink: https://www.oeegoo.com/product-category/led-ceiling-light/
+flash: serial
+category: light
+type: Ceiling Light
+standard: global
+---

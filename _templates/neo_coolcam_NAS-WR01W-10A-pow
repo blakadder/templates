@@ -1,0 +1,17 @@
+---
+date_added: 2021-04-05
+title: NEO Coolcam 10A
+model: NAS-WR01W
+image: /assets/images/neo_coolcam_NAS-WR01W-10A-pow.jpg
+template9: '{"NAME":"Neo Coolcam 10","GPIO":[32,0,0,0,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":49}' 
+link: https://allegro.pl/oferta/neo-gniazdo-elektryczne-wifi-smart-home-tuya-10093593351
+link2: 
+mlink: https://szneo.com/en/products/show.php?id=215
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+This is different that the other 3 plugs with the same model number - look for power rating and sellers listing it with power measurement capability.
+
+Disassembly: there is one screw under sticker in the socket, unscrew it and push on prongs on the other side (quite hard, hammer advisable). The flash chip is then easily accessible, serial access is quite fiddly but also possible.

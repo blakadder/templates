@@ -1,0 +1,15 @@
+---
+date_added: 2021-04-06
+title: LilyGO TTGO T-Camera 
+model: T-Camera
+image: /assets/images/lilygo_T-Camera.jpg
+template32: '{"NAME":"TasmotaCAM","GPIO":[1,1,1,1,4992,5120,1,1,1,5089,5090,64,1,1,5024,65,0,640,608,5056,0,5184,1,5152,0,0,0,0,1,1,5088,5091,5095,5094,5093,5092],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/32968683765.html
+link2: https://www.banggood.com/LILYGO-TTGO-T-Camera-ESP32-WROVER-with-PSRAM-Camera-Module-OV2640-Camera-0_96-Inch-OLED-p-1418433.html
+mlink: 
+flash: serial
+category: misc
+type: Display
+standard: global
+---
+PIR and right button are now configured as Button.
