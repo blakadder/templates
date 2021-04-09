@@ -12,7 +12,7 @@ category: light
 type: Ceiling Light
 standard: global
 ---
-Requires (tasmota32solo1.bin)[https://github.com/Jason2866/Tasmota-specials/blob/firmware/firmware/tasmota32/other/tasmota32solo1.bin] because it is using the single core version of ESP32!
+Requires [tasmota32solo1.bin](https://github.com/Jason2866/Tasmota-specials/blob/firmware/firmware/tasmota32/other/tasmota32solo1.bin) because it is using the single core version of ESP32!
 
 Followed same instruction of [Yeelight Meteorite](https://templates.blakadder.com/yeelight_YLDL01YL.html) to flash.
 - GPIO21 - coldwhite - PWM4
