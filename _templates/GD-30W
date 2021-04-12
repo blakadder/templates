@@ -92,20 +92,21 @@ fan:
       command_topic: "cmnd/GD-30W/POWER1"
       payload_on: "ON"
       payload_off: "OFF"
-      speed_state_topic: "tele/GD-30W/STATE"
-      speed_value_template: "{{ value_json.POWER3 }}"
-      speed_command_topic: "cmnd/GD-30W/POWER3"
-      payload_low_speed: "OFF"
-      payload_high_speed: "ON"
+      percentage_state_topic: "tele/GD-30W/STATE"
+      percentage_value_template: >
+        {% set forces_diffusion={"OFF":1,"ON":2} %}
+        {{ forces_diffusion[value_json.POWER3] if value_json.POWER1!='OFF' else 0 }}
+      percentage_command_topic: "cmnd/GD-30W/POWER3"
+      percentage_command_template: >
+        {% set forces_diffusion={0:"OFF",1:"OFF",2:"ON"} %}
+        {{ forces_diffusion[value] }}
+      speed_range_max: 2
       oscillation_state_topic: "stat/GD-30W/EFFECT"
       oscillation_command_topic: "cmnd/GD-30W/EVENT"
       oscillation_value_template: "{{ value }}"
       payload_oscillation_on: "rgb_cycle"
       payload_oscillation_off: "color"
       qos: 1
-      speeds:
-        - low
-        - high
 light:
     - platform: mqtt
       name: "Diffuser Lamp"
