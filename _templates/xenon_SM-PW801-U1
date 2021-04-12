@@ -1,0 +1,16 @@
+---
+date_added: 2021-04-11
+title: Xenon 2AC 1USB
+model: SM-PW801-U1
+image: /assets/images/xenon_SM-PW801-U1.jpg
+template9: '{"NAME":"Xenon SM-PW801-U1","GPIO":[0,0,0,0,288,32,0,0,224,0,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/dp/B00IKCGWWA/
+link2: 
+mlink: http://www.xenon.cn/in-wall-outlet/sm-pw801-u1-.html
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: us
+---
+
+Manufactured by Xenon (Jinvoo). Marketed under diferent brands.

@@ -1,8 +1,8 @@
 ---
 date_added: 2021-03-13
-title: SM-PW701E 
-model: SM-PW701E
-image: /assets/images/SM-PW701E.jpg
+title: Xenon 10A
+model: SM-PW701-E1
+image: /assets/images/xenon_SM-PW701-E1.jpg
 template: '{"NAME":"SM-PW701E","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"Cooligg","GPIO":[0,0,0,0,320,0,0,0,224,32,0,0,0,4736],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B076J96M22

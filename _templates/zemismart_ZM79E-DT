@@ -1,0 +1,17 @@
+---
+date_added: 2021-04-10
+title: Zemismart
+model: ZM79E-DT
+image: /assets/images/zemismart_ZM79E-DT.jpg
+template9: '{"NAME":"Zemismart_Curt","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.zemismart.com/products/smart-curtain-customized-electric-curtain-motor-with-tracket-rf-remote-broadlink-control
+link2: 
+mlink: 
+flash: serial
+category: cover
+type: Curtain Motor
+standard: eu
+---
+3.3v and GND are in a middle 2 pins of board 6pin connector, 3.3v in board side and GND in board edge side.
+
+[More about flashing](https://community.jeedom.com/t/hack-dun-module-tywe1s-monte-sur-un-moteur-pour-rideau-de-la-marque-zemismart/53876)
