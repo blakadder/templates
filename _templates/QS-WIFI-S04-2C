@@ -12,4 +12,8 @@ category: relay
 type: Switch
 standard: eu
 ---
-Important: use the 'SwitchDebounce' command to set the number of pulses required for the switch to be recognized as on or off. For example: SwitchDebounce 69 will turn the switch on after three pulses and turn it off after three missing ones.
+Use the 'SwitchDebounce' command to set the number of pulses required for the switch to be recognized as on or off. For example: SwitchDebounce 69 will turn the switch on after three pulses and turn it off after three missing ones.
+
+`SwitchDebounce 99` or `109` work like a charm in EU.
+
+Despite being labelled 2x5A there are two 10A relays inside the device.

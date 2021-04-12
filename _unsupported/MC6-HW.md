@@ -1,5 +1,5 @@
 ---
-date_added: 2021-12-03
+date_added: 2021-03-12
 title: MC6
 model: MC6-HW
 category: unsupported

@@ -1,0 +1,23 @@
+---
+date_added: 2021-04-07
+title: Yeelight Jiaoyue 260mm 10W CCT
+model: YLXD62YI
+image: /assets/images/yeelight_YLXD62YI.jpg
+template32: '{"NAME":"Yeelight LED Ceiling Light 260","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,417,0,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/4000196275220.html
+link2: https://www.aliexpress.com/item/4000196309288.html
+mlink: 
+flash: serial
+category: light
+type: Ceiling Light
+standard: global
+---
+Requires [tasmota32solo1.bin](https://github.com/Jason2866/Tasmota-specials/blob/firmware/firmware/tasmota32/other/tasmota32solo1.bin) because it is using the single core version of ESP32!
+
+Followed same instruction of [Yeelight Meteorite](https://templates.blakadder.com/yeelight_YLDL01YL.html) to flash.
+- GPIO21 - coldwhite - PWM4
+- GPIO19 - warmwhite - PWM5
+
+I've flash soldering the cable, has easy test point indicating all necessary pins. 
+
+![PCB image](/assets/images/yeelight_YLXD62YI_pcb.jpg)

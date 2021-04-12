@@ -5,10 +5,9 @@ module: XDD-48W
 category: light
 type: Ceiling Light
 standard: global
-link: https://www.ebay.de/itm/Smart-Wifi-Wireless-Deckenleuchte-RGBW-Lampe-fur-Alexa-Google-AC90-240V-/113447726477
+link: https://www.aliexpress.com/item/4000004977034.html
 image: https://user-images.githubusercontent.com/5904370/56112013-0c536c80-5f5a-11e9-86fe-8688ad21f8c6.png
 template: '{"NAME":"XDD-48W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}'
-link2: https://www.aliexpress.com/item/4000004977034.html
 ---
 Run `SetOption15 1`
 

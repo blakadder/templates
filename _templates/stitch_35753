@@ -1,6 +1,6 @@
 ---
 date_added: 2019-08-21
-title: STITCH by Monoprice 
+title: STITCH 
 model: 35753
 category: misc
 type: IR Bridge
@@ -11,7 +11,7 @@ template: '{"NAME":"Stitch 35753","GPIO":[0,0,0,0,52,51,0,0,0,90,8,0,0],"FLAG":0
 link2: 
 ---
 
-STITCH by Monoprice Wireless Smart Universal IR Controller (USB-powered)
+STITCH Wireless Smart Universal IR Controller (USB-powered)
 
 
 

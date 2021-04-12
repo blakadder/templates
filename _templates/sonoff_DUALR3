@@ -6,6 +6,7 @@ image: /assets/images/sonoff_DUALR3.jpg
 template32: '{"NAME":"Sonoff Dual R3","GPIO":[32,0,0,0,0,0,0,0,0,576,225,0,0,0,0,0,0,0,0,0,0,7296,7328,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.itead.cc/sonoff-dualr3.html
 link2: https://www.aliexpress.com/item/1005002060944152.html 
+link3: https://www.domadoo.fr/fr/peripheriques/5701-sonoff-commutateur-intelligent-wifi-2-canaux-mesure-consommation.html
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/dualr3
 flash: serial
 category: relay

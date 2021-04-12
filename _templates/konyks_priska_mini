@@ -1,12 +1,12 @@
 ---
 date_added: 2021-02-17
-title: Konyks Priska Mini
-model: 
+title: Konyks Priska Mini 10A
+model: 3770008652248
 image: /assets/images/konyks_priska_mini.jpg
-template9: '{"NAME":"Konyks 10A socket bolec","GPIO":[0,0,0,0,320,0,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://konyks.com/produit/priska-mini/
+template9: '{"NAME":"Konyks 10A","GPIO":[0,0,0,0,320,0,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.fr/dp/B07KG8BGZ5
 link2: 
-mlink: 
+mlink: https://konyks.com/produit/priska-mini/
 flash: tuya-convert
 category: plug
 type: Plug

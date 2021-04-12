@@ -1,0 +1,14 @@
+---
+date_added: 2021-04-05
+title: CZ100 10A
+model: CZ100
+image: /assets/images/CZ100.jpg
+template9: '{"NAME":"ASZKJ","GPIO":[320,0,321,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.co.uk/dp/B081F7SNCN/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: uk
+---
