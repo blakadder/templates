@@ -30,23 +30,28 @@ Enable rule with `Rule1 1`
   name: "Flat Bedroom Fan"
   state_topic: "stat/flatbedfan/POWER1"
   command_topic: "cmnd/flatbedfan/POWER1"
-  speed_state_topic: "stat/flatbedfan/speed"
-  speed_command_topic: "cmnd/flatbedfan/TuyaSend4"
+  payload_on: "ON"
+  payload_off: "OFF"
+  availability_topic: "tele/flatbedfan/LWT"
+  payload_available: "Online"
+  payload_not_available: "Offline"
+  preset_mode_state_topic: "stat/flatbedfan/speed"
+  preset_mode_value_template: >
+    {%- if value == '2,0' %}low
+    {%- elif value == '2,1' %}medium
+    {%- elif value == '2,2' %}high
+    {%- endif -%}
+  preset_mode_command_topic: "cmnd/flatbedfan/TuyaSend4"
+  preset_mode_command_template: >
+    {%- if value == "low" %}2.0
+    {%- elif value == "medium" %}2,1
+    {%- elif value == "high" %}2,2
+    {%- endif -%}
   qos: 0
-  payload_on: 'ON'
-  payload_off: 'OFF'
-  payload_oscillation_on: 'ON'
-  payload_oscillation_off: 'OFF'
-  payload_low_speed: '2,0'
-  payload_medium_speed: '2,1'
-  payload_high_speed: '2,2'
-  availability_topic: tele/flatbedfan/LWT
-  payload_available: Online
-  payload_not_available: Offline
-  speeds:
-    - low
-    - medium
-    - high
+  preset_modes:
+    - "low"
+    - "medium"
+    - "high"
 ```
 
 5. Add the following to Home Assistant to your `light` section (if required):
