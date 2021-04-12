@@ -25,7 +25,8 @@ Enable rule with `Rule1 1`
 
 4. Add the following to Home Assistant to your `fan` section
 
-```yaml
+{% highlight yaml %}
+{% raw %}
 - platform: mqtt
   name: "Flat Bedroom Fan"
   state_topic: "stat/flatbedfan/POWER1"
@@ -52,7 +53,8 @@ Enable rule with `Rule1 1`
     - "low"
     - "medium"
     - "high"
-```
+{% endraw %}
+{% endhighlight %}
 
 5. Add the following to Home Assistant to your `light` section (if required):
 
