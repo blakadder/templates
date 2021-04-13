@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Last 100 Added Devices
+title: Last 200 Devices Added
 navigation: 19
 ---
 <h2>{{ page.title }}</h2>
@@ -9,7 +9,7 @@ navigation: 19
 <table width="80%">
     <tbody>
     {% assign devices = site.templates | where_exp: "devices", "devices.date_added != nil" | sort_natural: 'date_added' | reverse %}     
-    {% for template in devices limit: 100 %}
+    {% for template in devices limit: 200 %}
     {% include tablerow_standard.html %}
     {% endfor %}
 </tbody>
