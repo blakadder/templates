@@ -8,12 +8,15 @@ link: https://www.amazon.de/gp/product/B07QPR8W3F
 image: https://images-na.ssl-images-amazon.com/images/I/71WGi2Zq9SL._SX522_.jpg
 template: '{"NAME":"MaxcioDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
 link2: https://www.amazon.es/dp/B07QPR8W3F
+unsupported: true
 ---
 
 [GD-30W 300ml](GD-30W.html) has identical codes and functions so you can use that configuration method.
 
 Flashing via Tuya-Convert (OTA) seems to be no longer possible due to the [PSK key issue](https://github.com/ct-Open-Source/tuya-convert/wiki/Collaboration-document-for-PSK-Identity-02)
 
+As of 2021-04-12 this device comes with an incompatible WBR3 module and cannot be flashed with Tasmota.
+![](https://user-images.githubusercontent.com/67551791/114607578-0275b880-9c9d-11eb-83b1-f5ce4fc9e48d.png)
 
 ```lua
 Serial codes detected while debugging
