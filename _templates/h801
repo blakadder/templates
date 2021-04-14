@@ -32,7 +32,7 @@ Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Sta
 
 You need to access the serial interface. The unpopulated serial header (3V3, RX, TX, GND) are available in the middle of the PCB, right next to J3. Note: the RX and TX pins are labelled from the terminal's perspective, not from the perspective of the ESP chip. **This means you should connect the RX and TX pins from your serial-to-USB adapter to the RX and TX pins on the board respectively, not crossing them over!**
 
-To place the board into flashing mode, you will need to short J3 and GND. This can remain shorted while flashing is in progress, but remember tio remove the short when done.
+To place the board into flashing mode, you will need to short J3 and GND. This can remain shorted while flashing is in progress, but remember to remove the short when done.
 
 ### Configuration over serial terminal
 Most boards supported by the Tasmota firmware use GPIO01 for serial TX. The H801, as shown in the image above, uses GPIO02. As the serial RX is still the same as for other boards, it is possible for Tasmota to read from the serial connection but anything written will not be sent to your terminal. Blindly type the following command to set Tasmota to the H801 module. 
