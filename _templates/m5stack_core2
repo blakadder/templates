@@ -6,7 +6,7 @@ category: misc
 type: Display
 standard: global
 image: /assets/images/m5stack_core2.jpg
-template32: '{"NAME":"M5Stack Core2","GPIO":[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"M5Stack Core2","GPIO":[1,1,1,1,6720,6368,0,0,0,1,1,6400,0,0,736,1,0,0,0,704,0,1,1,1,0,0,0,0,640,608,1,1,1,0,672,0],"FLAG":0,"BASE":7}' 
 mlink: https://m5stack.com/products/m5stack-core2-esp32-iot-development-kit
 link: https://www.banggood.com/M5Stack-Core2-ESP32-with-Touch-Screen-Development-Board-Kit-WiFi-bluetooth-Graphical-Programming-WiFi-BLE-IoT-M5Stack-for-Arduino-products-that-work-with-official-Arduino-boards-p-1736409.html
 link2: https://www.aliexpress.com/item/1005001664431732.html
