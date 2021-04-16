@@ -36,10 +36,16 @@ After applying the template and configuring Wi-Fi and MQTT issue
 Backlog SetOption66 1; TuyaMCU 21,111; TuyaMCU 11,1; TuyaMCU 12,11; TuyaMCU 13,103; TuyaMCU 14,12; TuyaMCU 15,110; DimmerRange 1,255; SetOption59 1
 ```
 ```console
-Rule1 on TuyaReceived#data=55AA000700056E040001007E do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA000700056E040001017F do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon on event#ON do backlog tuyasend4 110,1; tuyasend 11,1 endon on event#OFF do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon
+Rule1 on TuyaReceived#data=55AA010700056E040001007F do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA010700056E0400010180 do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon
 ```
 ```console
 Rule1 1
+```
+```console
+Rule2 on event#ON do backlog tuyasend4 110,1 ; tuyasend1 11,1 endon on event#OFF do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon on TuyaReceived#data=55AA010700050C050001011F do power4 1 endon on TuyaReceived#data=55AA010700050C050001001E do power4 0 endon
+```
+```console
+Rule2 1
 ```
 
 *Optional rule used to prevent the device going into countdown mode (f.e. using on device controls) and complete MCU status update on restart*
@@ -76,7 +82,7 @@ This implementation is suited to specific needs and does not incorporate all fea
 
 Fan is the diffuser. Oscillation switch is used to toggle between rgb_cycle (oscillation on) and color (oscillation off).    
 Light component is the device's RGB light but only when its in color mode, when in rgb_cycle mode light state in HA is off since you cannot control anything anyway.    
-Binary sensor uses the dpId 12 to show when the diffuser is out of water.    
+Binary sensor uses the dpID 4 to show when the diffuser is out of water.    
 
 configuration.yaml
 {% highlight yaml %}
@@ -175,6 +181,12 @@ Turn LED off
 
 Lock RGB Cycle
     55aa000600056e040001017E
+
+RGB cycle activated:
+    55AA010700056E040001007F
+
+Fixed color mode:
+    55AA010700056E0400010180
 
 Error Condition (out of water)
     55AA010700050C050001011F
