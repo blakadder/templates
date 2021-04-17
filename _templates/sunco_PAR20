@@ -7,9 +7,8 @@ template: '{"NAME":"Sunco PAR20","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":
 link: https://www.amazon.com/Sunco-Lighting-Changing-Compatible-Assistant/dp/B07NVZ3VBN
 link2: 
 mlink: https://www.suncolighting.com/products/par20-smart-bulb-wi-fi
-flash: tuya-convert
 category: bulb
 type: RGBCCT
 standard: e26
-Not Tuya-Compactible. No exposed pins for serial flashing. Desoldering the chip will requires pulling the board out which will destroy the two resisters that go to the metal base.
 ---
+Not Tuya-Compactible. No exposed pins for serial flashing. Desoldering the chip will requires pulling the board out which will destroy the two resisters that go to the metal base.
