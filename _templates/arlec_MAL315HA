@@ -1,0 +1,78 @@
+---
+date_added: 2021-04-18
+title: Arlec Smart Security Light
+model: MAL314HA
+image: /assets/images/arlec_MAL300H.jpg
+template: '{"NAME":"Arlec MAL315HA","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.bunnings.com.au/arlec-20w-grid-connect-smart-security-light-with-movement-activated-sensor_p0223575
+link2: https://www.bunnings.co.nz/arlec-20w-grid-connect-smart-security-light-with-movement-activated-sensor_p0223575
+mlink: 
+flash: Tuya WB3S
+category: light
+type: Light
+standard: au
+---
+
+## Features
+
+* Light duration: How long in seconds the light stays on after motion is detected. From user manual: min 10 sec to max 15 min.
+
+* Sensitivity adjustment (amount of movement required to trigger): Min = most sensitive, max = only detect large motion.  To tune, start with at minimum, and have someone move while increasing sensitivity.
+
+* Light level (lux adjustment): Min = day or night, max = night only.  For normal operation, adjust appropriately (e.g.: wait until the time of day, set sensitivity to most sensitive, lux to max, and while someone walks around reduce lux threshold until it triggers).
+
+* Automatic and manual override mode.
+
+* One hour countdown to revert from manual to auto. To use, set to manual mode then activate countdown.
+
+
+## Configuration
+
+This product uses the TUYA WB3S which is NOT supported by Tasmota, but which is pin-compatible with ESP-12
+modules.
+
+[Main board](https://user-images.githubusercontent.com/282098/115948000-8c384800-a51f-11eb-9799-4cce27b2d6d4.jpg)
+
+It is possible to replace the WB3S with an ESP-12 that has Tasmota flashed to it. Note that you also need to
+connect GPIO15 to GND, and both GPIO02 and EN to VCC for the ESP module to boot, so solder links to achieve that.
+
+The bulk of the functionality is controlled via a TuyaMCU module, which reports as:
+```
+MCU Product ID: {"p":"pxyhz90upglpoedu","v":"1.0.0","m":0}
+````
+
+Enable TuyaMCU via:
+```console
+Module 54
+```
+
+Configure dpID 101 as enum with two values, and dpID 102 as relay
+```console
+TuyaMCU 61,101
+TuyaEnumList 1,2
+TuyaMCU 11,102
+```
+
+To make Tasmota button toggle between manual and auto:
+
+```console
+Rule1 ON Power1#State=0 DO TuyaSend4 101,1 ENDON ON Power1#State=1 DO TuyaSend4 101,2 ENDON
+Rule1 1
+```
+
+(It might also be useful to make the State=1 also activate the 1 hour countdown timer)
+
+
+## Tuya dpID list
+
+| dpID | Data Type | Function |
+| --- | --- | --- |
+| 101 | enum | Mode: 0=Off, 1=Auto, 2=Manual |
+| 102 | binary | relay status |
+| 103 | integer | Sensitivity (e.g.: 0 most sensitive, 3 misses a close wave, 5 quite coarse)  |
+| 104 | integer | Light duration in seconds (e.g.: 10) |
+| 105 | integer | Light level adjustment (e.g.: 0 trigger any time, 500 blocked by torch, 4000 blocked by indoor light) |
+| 106 | binary | Send 1 while in manual mode to activate one hour countdown to revert to auto |
+
+
+
