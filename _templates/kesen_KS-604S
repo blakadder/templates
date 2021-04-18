@@ -14,9 +14,6 @@ flash: tuya-convert
 
 There are different versions of the KS-604S requiring different GPIO configurations. Please refer to https://tasmota.github.io/docs/devices/Kesen-KS-604S/ for more details.
 
-I bought a KKCool KS_604S from amazon.com on 12/17/2020. It was still tuya-convert-able;-) I don't know about the GPIO mapping yet because it's not installed yet. I opened the back and the all the needed connections are easily acessible. So, there should not be a problem, even if the firmware would be updated in the future.
+2021-4-10 bought (2) KS-604S from amazon.com. OTA failed, flashed with internal pins. The template I had to use was the Other Device Template
 
-
-4/10/2021 bought (2) KS-604S from amazon.com. OTA failed, flashed with internal pins. The template I had to use was the Alibaba Device Template
-
-{"NAME":"KS-604S","GPIO":[158,255,255,17,56,18,255,255,22,21,57,23,255],"FLAG":0,"BASE":18}
+`{"NAME":"KS-604S","GPIO":[158,255,255,17,56,18,255,255,22,21,57,23,255],"FLAG":0,"BASE":18}`
