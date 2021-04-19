@@ -1,0 +1,23 @@
+---
+date_added: 2021-04-17
+title: ESP-12F 8 Channel
+model: 
+image: /assets/images/ESP12F_Relay_X8.jpg
+template: '' 
+template9: '{"NAME":"ESP12F_Relay_X8","GPIO":[229,1,1,1,230,231,0,0,226,227,225,228,224,1],"FLAG":0,"BASE":18}' 
+link: https://www.banggood.com/5V-or-7-28V-Power-Supply-8-Channel-ESP8266-WIFI-8-way-Relay-Module-ESP-12F-Development-Board-Secondary-Development-Board-p-1833055.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+Headers can be soldered. 
+
+The board uses GPIO16 and so Relay1 is always turned ON when power is applied to the board, causing a brief on/off pulse on the relay as Tasmota loads and turns it off again. Of course, if the last state was ON, then it will stay ON. 
+It's still a very useful board at a bargain price.
+
+On the board are available RX, TX, GPIO0 pins for programming and GPIO2 and GPIO17 (ADC), but GPIO0 is used for relay 6, GPIO2 is always pulled up (necessary at boot) and GPIO17 has a limited range of 0-1V.
+
+The board can be powered with 5Vdc or with 7-29Vdc, but remember that GPIO pins are not 5V tolerant.

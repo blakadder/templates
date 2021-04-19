@@ -1,0 +1,22 @@
+---
+date_added: 2021-04-13
+title: Emporia 
+model: EMS01
+image: /assets/images/emporia_EMS01.jpg
+template9: '{"NAME":"Emporia EMS01","GPIO":[0,0,0,289,224,2720,0,0,2624,32,2656,288,0,0],"FLAG":0,"BASE":18}' 
+link: https://amazon.com/gp/product/B08CVSSVWP
+link2: 
+mlink: https://www.emporiaenergy.com/technical-specs
+flash: serial
+category: plug
+type: Plug
+standard: us
+---
+Device design is similar to Aoycocr Power Monitoring Plug X10S. Opened the unit by separating glued together plastic parts of the shell, then soldered 5 wires to the following points:
+1. Main PCB U2 pin 1 (ground)
+2. Main PCB U2 pin 2 (+3.3V)
+3. Main PCB LED1 anode, closest to D1 (RXD)
+4. Daughterboard U2 pin 26 (TXD)
+5. Daughterboard U2 pin 15 (GPIO0)
+
+Connected power and serial lines, grounded GPIO0, and was able to read the flash and program tasmota.bin.
