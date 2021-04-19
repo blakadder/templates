@@ -36,13 +36,13 @@ After applying the template and configuring Wi-Fi and MQTT issue
 Backlog SetOption66 1; TuyaMCU 21,111; TuyaMCU 11,1; TuyaMCU 12,11; TuyaMCU 13,103; TuyaMCU 14,12; TuyaMCU 15,110; DimmerRange 1,255; SetOption59 1
 ```
 ```console
-Rule1 on TuyaReceived#data=55AA010700056E040001007F do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA010700056E0400010180 do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon on event#ON do backlog tuyasend4 110,1 ; tuyasend1 11,1 endon on event#OFF do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon
+Rule1 on TuyaReceived#data=55AA010700056E040001007F do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA010700056E0400010180 do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon
 ```
 ```console
 Rule1 1
 ```
 ```console
-Rule2 on TuyaReceived#data=55AA010700050C050001011F do publish2 stat/GD-30W/WATER ON endon on TuyaReceived#data=55AA01070005010100010110 do publish2 stat/GD-30W/WATER OFF endon
+Rule2 on event#ON do backlog tuyasend4 110,1 ; tuyasend1 11,1 endon on event#OFF do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon on TuyaReceived#data=55AA010700050C050001011F do power4 1 endon on TuyaReceived#data=55AA01070005010100010110 do power4 0 endon
 ```
 ```console
 Rule2 1
@@ -75,10 +75,6 @@ Color can be changed using `TuyaSend3 108,RRGGBB64646464` (RR, GG and BB are hex
 
 Dimming works using slider and `Dimmer` command but only when in color mode, in rgb_cycle there are no brightness controls.
 
-The water sensor   status is reported to mqtt topic `stat/GD-30W/WATER` as defined in `Rule2`
-State is `ON` when there is no water.
-State is switched back to `OFF` (no error) when the diffuser is switched on with water inside.
-
 Long press on device's power button initiates Tasmota's Wi-Fi config
 
 ## Home Assistant configuration
@@ -86,7 +82,7 @@ This implementation is suited to specific needs and does not incorporate all fea
 
 Fan is the diffuser. Oscillation switch is used to toggle between rgb_cycle (oscillation on) and color (oscillation off).    
 Light component is the device's RGB light but only when its in color mode, when in rgb_cycle mode light state in HA is off since you cannot control anything anyway.    
-Binary sensor uses the  `stat/GD-30W/WATER` MQTT topic to show when the diffuser is out of water.    
+Binary sensor uses the dpID 4 to show when the diffuser is out of water.    
 
 configuration.yaml
 {% highlight yaml %}
@@ -143,7 +139,7 @@ light:
 binary_sensor:
     - platform: mqtt
       name: "Aromatherapy Water"
-      state_topic: "stat/GD-30W/WATER"
+      state_topic: "stat/GD-30W/POWER4"
       payload_on: "ON"
       payload_off: "OFF"
       availability_topic: "tele/GD-30W/LWT"
