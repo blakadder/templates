@@ -7,16 +7,20 @@ template: '{"NAME":"MakeGood 4 Gang","GPIO":[0,0,0,0,0,0,0,0,0,0,54,0,0],"FLAG":
 link: https://www.aliexpress.com/item/4000378900647.html
 link2: https://makegood.en.alibaba.com/product/60752835261-816634197/MakeGood_AU_Standard_4Gang_Wifi_Wall_Switch_Support_Alexa_Google_Home_Control_SAA_Certifications_Wifi_Switches.html
 mlink: http://www.szmakegood.com/
-flash: tuya-convert
+flash: serial
 category: switch
 type: Switch
 standard: au
 ---
+
 To get the TuyaMCU configured correctly, after flashing and updating the template, run the following command:
 
 ```console
 Backlog TuyaMCU 11,1; TuyaMCU 12,2; TuyaMCU 13,3; TuyaMCU 14,4; TuyaMCU 33,104; TuyaMCU 31,103; TuyaMCU 32,102;
 ```
+
+## Serial Flashing
+![](https://user-images.githubusercontent.com/549478/88934870-78c7bb80-d2c4-11ea-9e7d-d5b835551c24.jpg)
 
 For further questions [visit GitHub discussion](https://github.com/sillyfrog/contact/issues/4)
 
