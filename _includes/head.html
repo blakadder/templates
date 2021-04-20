@@ -9,7 +9,7 @@
 
 <meta name="description" content="
 {% if page.template != nil %}
-  Configure your smart {{ page.type | replace: "Miscellaneous", "device" | lowercase }}  
+  Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase }}  
   {% if page.category contains 'bulb'%} Bulb {% endif %}to work in your local network with Tasmota open source firmware. 
 {% elsif page.category == "unsupported" %}
   Caution! {{ page.title | escape }} {{ page.type | escape }} cannot be flashed with Tasmota. 
@@ -41,7 +41,7 @@
 
 <meta itemprop="description" content="
 {% if page.template != nil %}
-  Configure your smart {{ page.type | replace: "Miscellaneous", "device" | lowercase }}  
+  Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase }}  
   {% if page.category contains 'bulb'%} Bulb {% endif %}to work in your local network with Tasmota open source firmware. 
 {% elsif page.category == "unsupported" %}
   Caution! {{ page.title | escape }} {{ page.type | escape }} cannot be flashed with Tasmota. 
@@ -69,7 +69,7 @@
 
 <meta property="og:description" content="
 {% if page.template != nil %}
-  Configure your smart {{ page.type | replace: "Miscellaneous", "device" | lowercase }}  
+  Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase }}  
   {% if page.category contains 'bulb'%} Bulb {% endif %}to work in your local network with Tasmota open source firmware. 
 {% elsif page.category == "unsupported" %}
   Caution! {{ page.title | escape }} {{ page.type | escape }} cannot be flashed with Tasmota. 
