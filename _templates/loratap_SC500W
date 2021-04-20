@@ -1,6 +1,7 @@
 ---
 date_added: 2019-12-26
-title: LoraTap SC500W Roller Shutter
+title: LoraTap In-Wall
+model: SC500W
 link: https://www.loratap.com/sc500w-p0108.html
 image: https://user-images.githubusercontent.com/5904370/71512590-3904a580-2897-11ea-8133-ff8f04df0b6b.png
 template: '{"NAME":"SC500W","GPIO":[0,0,0,158,9,10,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
