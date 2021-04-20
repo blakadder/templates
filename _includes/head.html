@@ -4,11 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- HTML Meta Tags -->
-<title> {% if page.template != nil %} {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %} {{ page.model | escape }} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Templates for Tasmota {% endif %}
+<title> {% if page.template != nil or page.template9 != nil or page.template32 != nil %} {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %} {{ page.model | escape }} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Templates for Tasmota {% endif %}
 </title> 
 
 <meta name="description" content="
-{% if page.template != nil %}
+{% if page.template != nil or page.template9 != nil or page.template32 != nil %}
   Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase }}  
   {% if page.category contains 'bulb'%} Bulb {% endif %}to work in your local network with Tasmota open source firmware. 
 {% elsif page.category == "unsupported" %}
@@ -25,7 +25,7 @@
 
 <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="
-  {% if page.template != nil %}
+  {% if page.template != nil or page.template9 != nil or page.template32 != nil %}
     {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }}        
     {% if page.category contains 'bulb'%}
       Bulb
@@ -40,7 +40,7 @@
 ">
 
 <meta itemprop="description" content="
-{% if page.template != nil %}
+{% if page.template != nil or page.template9 != nil or page.template32 != nil %}
   Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase }}  
   {% if page.category contains 'bulb'%} Bulb {% endif %}to work in your local network with Tasmota open source firmware. 
 {% elsif page.category == "unsupported" %}
@@ -53,7 +53,7 @@
 <meta itemprop="image" content="{{ page.image | absolute_url }}">
 
 <meta property="og:title" content="
-    {% if page.template != nil %}
+    {% if page.template != nil or page.template9 != nil or page.template32 != nil %}
     {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }}        
     {% if page.category contains 'bulb'%}
       Bulb
@@ -68,7 +68,7 @@
 ">
 
 <meta property="og:description" content="
-{% if page.template != nil %}
+{% if page.template != nil or page.template9 != nil or page.template32 != nil %}
   Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase }}  
   {% if page.category contains 'bulb'%} Bulb {% endif %}to work in your local network with Tasmota open source firmware. 
 {% elsif page.category == "unsupported" %}
