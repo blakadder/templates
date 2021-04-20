@@ -1,0 +1,16 @@
+---
+date_added: 2021-04-18
+title: Sohan DIN Circuit Breaker 1P 50A
+model: RDCBC-1P
+image: /assets/images/sohan_RDCBC-1P
+template9: '{"NAME":"Merged","GPIO":[32,0,0,0,0,0,0,0,224,320,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/4000490400643.html
+link2: https://www.amazon.com/dp/B08R3NYHH3
+link3: https://www.amazon.de/dp/B08MQBYXTQ
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+[Disassembly and flashing discussion](https://github.com/arendst/Tasmota/discussions/10915)
