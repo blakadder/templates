@@ -1,0 +1,22 @@
+---
+date_added: 2021-04-20
+title: ESP-01D Module
+model:  
+image: /assets/images/ESP-01D.jpg
+template9: '{"NAME":"ESP-01D","GPIO":[1,1,0,1,1,0,0,0,1,0,1,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005002012439382.html
+link2: https://www.banggood.com/ESP-01D-ESP8285-WiFi-Module-Serial-Port-to-WiFi-Wireless-Transparent-Transmission-Small-Size-Board-p-1789867.html
+link3: https://www.alibaba.com/product-detail/ESP-01D-wireless-transparent-small-volume_1700001709664.html
+mlink: 
+flash: serial
+category: misc
+type: DIY
+standard: global
+---
+Tiny ESP8285 module 13.5x8.5x2.6mm with 2MB memory. Does not have a PCB antenna. Identical form factor and pinout as Tuya [TYLC5](https://developer.tuya.com/en/docs/iot/device-development/module/wifi-module/lc-series-module/wifilc5module) module.
+
+## Serial Flashing
+
+![Pinout](/assets/images/ESP-01D_pinout.jpg)
+
+[Datasheet](https://docs.ai-thinker.com/_media/esp8266/docs/esp-01d_product_specification_zh_v1.0.pdf)
