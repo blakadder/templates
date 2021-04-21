@@ -42,7 +42,7 @@ Rule1 on TuyaReceived#data=55AA010700056E040001007F do publish2 stat/GD-30W/EFFE
 Rule1 1
 ```
 ```console
-Rule2 on event#ON do backlog tuyasend4 110,1 ; tuyasend1 11,1 endon on event#OFF do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon on TuyaReceived#data=55AA010700050C050001011F do power4 1 endon on TuyaReceived#data=55AA01070005010100010110 do power4 0 endon
+Rule2 on event#ON do backlog tuyasend4 110,1 ; tuyasend1 11,1 endon on event#OFF do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon on TuyaReceived#data=55AA010700050C050001011F do power4 1 endon on TuyaReceived#data=55AA010700050C050001001E do power4 0 endon
 ```
 ```console
 Rule2 1
@@ -181,6 +181,12 @@ Turn LED off
 
 Lock RGB Cycle
     55aa000600056e040001017E
+
+RGB cycle activated:
+    55AA010700056E040001007F
+
+Fixed color mode:
+    55AA010700056E0400010180
 
 Error Condition (out of water)
     55AA010700050C050001011F
