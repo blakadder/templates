@@ -45,6 +45,12 @@ Turn LED off
 Lock RGB Cycle
     55aa000600056e040001017E
 
+RGB cycle activated:
+    55AA010700056E040001007F
+
+Fixed color mode:
+    55AA010700056E0400010180
+
 Error Condition (out of water)
     55AA010700050C050001011F
 
