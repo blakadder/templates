@@ -1,0 +1,24 @@
+---
+date_added: 2021-04-20
+title: ESP-15F Module
+model:  
+image: /assets/images/ESP-15F.jpg
+template9: '{"NAME":"ESP-15F","GPIO":[1,1,0,1,1,1,0,0,0,544,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001732995411.html
+link2: https://www.amazon.de/dp/B08MYVM78K
+link3: https://www.amazon.fr/dp/B08MYVM78K
+mlink: 
+flash: serial
+category: misc
+type: DIY
+standard: global
+---
+Designed as a Wi-Fi adapter connecting to a serial MCU using a 4pin PH2.54 connector. Powered by 5V only! Module has 4MB flash.
+
+## Serial Flashing
+
+Using demale Dupont cables connect RX, TX and GND lines to the serial-to-USB adapter. Provide stable 5V power to the 5V pin with a common GND. Ground GPIO0 accessed on the back of the module.
+
+![Wiring](/assets/images/ESP-15F_wiring.jpg)
+
+[Datasheet](https://docs.ai-thinker.com/_media/esp8266/docs/esp-15f_specification_en.pdf)

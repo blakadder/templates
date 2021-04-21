@@ -20,7 +20,7 @@ This is a Tuya panel heater. It comes in white (model 10034390) an black (model 
 <!--- Identified with MCU Product ID: `{"p":"3slpirlnlqp0bqo1","v":"1.0.0"}`. -->
 
 ## Serial Flashing
-Easily disassembled by removing the front glass panel by unscrewing 4 screws on the side. The PCB with the display and touch control has a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s)module on smaller PCB. The control MCU is on the back of the PCB.
+Easily disassembled by removing the front glass panel by unscrewing 4 screws on the side. The PCB with the display and touch control has a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module on smaller PCB. The control MCU is on the back of the PCB.
 
 ![Side screws](/assets/images/klarstein_10034390_side.jpg)
 ![Opened](/assets/images/klarstein_10034390_open.jpg)
@@ -38,9 +38,9 @@ Change device to a TuyaMCU module (or apply the provided template, result is the
 Module 54
 ```
 
-Implement this rule to stop the wifi icon from blinking even when Tasmota is connected to Wi-Fi
+Implement this rule to stop the Wi-Fi display icon from blinking randomly
 ```console
-rule1 on system#boot do backlog delay 50; serialsend5 55aa0008000007; serialsend5 55aa000300010205; serialsend5 55aa000300010306 endon
+rule1 on system#boot do ruletimer 200 endon on rules#timer=1 do backlog event fix; ruletimer 3600 endon on event#fix do backlog serialsend5 55aa0008000007; serialsend5 55aa000300010205; serialsend5 55aa000300010306; tuyasend8 endon
 ```
 ## Functions
 - `dpID 1` controls device power - turns the device on off      
@@ -65,13 +65,16 @@ rule1 on system#boot do backlog delay 50; serialsend5 55aa0008000007; serialsend
 ### Configuration
 
 ```console
-backlog tuyamcu 11,1; tuyamcu 12,5; tuyamcu 13;6; tuyamcu 21,2;  so20 1; so54 1;
+backlog tuyamcu 11,1; tuyamcu 12,5; tuyamcu 13;6; tuyamcu 71,3; tuyamcu 72,2; tuyamcu 61,4
 ```
 
 - `Relay1` maps to dpID1 for power control
 - `Relay2` maps to dpID5 for ECO mode
 - `Relay3` maps to dpID6 for Child Lock mode
-- `Dimmer` maps to dpID2 for temperature select (its better to use console commands to be more precise). `SetOption20 1` and `SetOption54 1` stops dimmer from controlling the power.
+
+In the webUI an ambient temperature sensor and temperature set sensor will be shown.
+
+Set temperature using `TuyaSend2 2,x` where x is the desired temperature (0 decimals allowed).
 
 Label webUI buttons:
 ```console

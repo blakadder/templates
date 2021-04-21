@@ -1,7 +1,7 @@
 ---
 date_added: 2020-02-04
-title: LoraTap SC511WSC Roller Shutter
-model: 
+title: LoraTap In-Wall
+model: SC511WSC
 image: https://user-images.githubusercontent.com/5904370/73791682-170a1700-47a3-11ea-813e-bd19a2d4e700.png
 template: '{"NAME":"SC511WSC","GPIO":[0,255,0,56,17,19,0,0,21,18,23,22,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000259938482.html

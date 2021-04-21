@@ -6,7 +6,7 @@ category: light
 type: Downlight
 standard: au
 link: https://www.amazon.com.au/Brilliant-Smart-Trilogy-Dimmable-Downlight/dp/B081ZK9SLM
-image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20695-05.jpg
+image: /assets/images/brilliantsmart_2069505.jpg
 template: '{"NAME":"SmartCCTDwnLgt","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48}' 
 link2: 
 mlink: https://www.brilliantsmart.com.au/smart-products/lighting/smart-trilogy/
