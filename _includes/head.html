@@ -27,25 +27,25 @@ Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcas
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 <!-- General Tags -->
-<title>{{ pagetitle | strip_newlines | strip }}</title> 
+<title>{{ pagetitle | strip }}</title> 
 
-<meta name="title" content="{{ pagetitle | strip_newlines | strip }}">
-<meta name="description" content="{{ description | strip_newlines | strip }}">
+<meta name="title" content="{{ pagetitle | strip }}">
+<meta name="description" content="{{ description | strip }}">
 
 <!-- Google / Search Engine Tags -->
-<meta itemprop="name" content="{{ pagetitle | strip_newlines | strip }}">
-<meta itemprop="description" content="{{ description | strip_newlines | strip }}">
+<meta itemprop="name" content="{{ pagetitle | strip }}">
+<meta itemprop="description" content="{{ description | strip }}">
 <meta itemprop="image" content="{{ page.image | absolute_url }}">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="{{ pagetitle | strip_newlines | strip }}">
-<meta property="og:description" content="{{ description | strip_newlines | strip }}">
+<meta property="og:title" content="{{ pagetitle | strip }}">
+<meta property="og:description" content="{{ description | strip }}">
 <meta property="og:image" content="{{ page.image | absolute_url }}">
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
 												 
 <!-- Twitter Meta Tags -->
-<meta property="twitter:title" content="{{ pagetitle | strip_newlines | strip }}">
-<meta property="twitter:description" content="{{ description | strip_newlines | strip }}">
+<meta property="twitter:title" content="{{ pagetitle | strip }}">
+<meta property="twitter:description" content="{{ description | strip }}">
 <meta property="twitter:image" content="{{ page.image | absolute_url }}">
 <meta property="twitter:card" content="summary">
 <meta property="twitter:site:id" content="blakadder_">
