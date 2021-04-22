@@ -8,7 +8,7 @@ link: https://www.amazon.com/dp/B07NCQCPVC
 link2: https://www.amazon.de/dp/B07NCQCPVC
 mlink: https://wooxhome.com/products-c10/power-c2/woox-r4967-smart-integrational-power-switch-p20
 flash: serial
-category: switch
-type: Switch
+category: relay
+type: Relay
 standard: global
 ---
