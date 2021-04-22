@@ -3,8 +3,6 @@ date_added: 2020-11-13
 title: Be HiTech 16A
 model: EU3S
 image: /assets/images/be_hitech_16A.jpg
-template: '{"NAME":"Be HiTech","GPIO":[0,0,0,52,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}'
-template-alt: '{"NAME":"Be HiTech","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}'
 template9: '{"NAME":"Be HiTech","GPIO":[0,0,0,288,0,2720,0,0,2624,32,2656,224,0],"FLAG":0,"BASE":18}'
 template9_alt: '{"NAME":"Be HiTech","GPIO":[0,0,320,0,0,2720,0,0,2624,32,2656,224,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.it/dp/B07VWXTMFB/
