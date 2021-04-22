@@ -19,19 +19,19 @@ Zigbee coordinator based on ESP32 and CC2652p2
 You need to self compile with the following options, either in `my_user_config.h` or in `user_config_override.h`, using `tasmota32` as a base firmware.
 
 ```c
-#define USE_ZIGBEE                               // Enable serial communication with Zigbee CC2530 flashed with ZNP
-#undef USE_ZIGBEE_EZSP                           // Ensure ZNP support and not EZSP
+#define USE_ZIGBEE      // Enable serial communication with Zigbee CC2530 flashed with ZNP
+#undef USE_ZIGBEE_EZSP  // Ensure ZNP support and not EZSP
 
-#define USE_UFILESYS              // use file system
+#define USE_UFILESYS    // use file system
 
 // WT32-ETH01
 #define USE_ETHERNET
 #undef  ETH_TYPE
-#define ETH_TYPE          0   // ETH_PHY_LAN8720
+#define ETH_TYPE        0   // ETH_PHY_LAN8720
 #undef  ETH_CLKMODE
-#define ETH_CLKMODE       0   // ETH_CLOCK_GPIO0_IN
+#define ETH_CLKMODE     0   // ETH_CLOCK_GPIO0_IN
 #undef  ETH_ADDRESS
-#define ETH_ADDRESS       1
+#define ETH_ADDRESS     1
 ```
 
 ## Flash firmware
