@@ -13,3 +13,47 @@ type: Zigbee Bridge
 standard: global
 ---
 Zigbee coordinator based on ESP32 and CC2652p2
+
+## Self-compile Tasmota for this device
+
+You need to self compile with the following options, either un `my_user_config.h` or in `user_config_override.h`, using `tasmota32` as a base firmware.
+
+```
+#define USE_ZIGBEE                               // Enable serial communication with Zigbee CC2530 flashed with ZNP
+#undef USE_ZIGBEE_EZSP                           // Ensure ZNP support and not EZSP
+
+#define USE_UFILESYS              // use file system
+
+// WT32-ETH01
+#define USE_ETHERNET
+#undef  ETH_TYPE
+#define ETH_TYPE          0   // ETH_PHY_LAN8720
+#undef  ETH_CLKMODE
+#define ETH_CLKMODE       0   // ETH_CLOCK_GPIO0_IN
+#undef  ETH_ADDRESS
+#define ETH_ADDRESS       1
+```
+
+## Flash firmware
+
+Good news is that you don't need any wires to flash Tasmota on this device.
+
+The device comes ZStack-3 pre-flashed on CC2652P2, and ESPhome pre-flashed on ESP32. You can simply use the OTA feature of ESPHome to flash Tasmota32.
+
+1. Connect the gateway to a ethernet cable which has access you your local network.
+2. Power on the gateway with a micro usb cable and power supply. The link lights on the ethernet port will start blinking as it tries to negotiate a connection with your home network router.
+3. Determine the device's ip address If your local network supports .local mdns addresses, the devices can be reached that way: tube_zb_gw_cc2652p2.local
+
+Click on **OTA Update** -> **Choose File**, select the tasmota32 firmware and click **Update**
+
+The device will reboot and enter AP mode. Configure Tasmota WIFI the regular way.
+
+## Configure Tasmota template
+
+Finally configure the template:
+
+```
+Backlog Module 0; Template {"NAME":"Tube ZB CC2652","GPIO":[0,0,0,3840,0,3584,0,0,0,0,0,0,5536,3552,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,3840,5792,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+```
+
+## Enjoy
