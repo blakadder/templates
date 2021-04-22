@@ -19,18 +19,18 @@ Zigbee coordinator based on ESP32 and CC2652p2
 You need to self compile with the following options, either un `my_user_config.h` or in `user_config_override.h`, using `tasmota32` as a base firmware.
 
 ```
-#define USE_ZIGBEE                               // Enable serial communication with Zigbee CC2530 flashed with ZNP
-#undef USE_ZIGBEE_EZSP                           // Ensure ZNP support and not EZSP
-
-#define USE_UFILESYS              // use file system
-
-// WT32-ETH01
-#define USE_ETHERNET
-#undef  ETH_TYPE
-#define ETH_TYPE          0   // ETH_PHY_LAN8720
-#undef  ETH_CLKMODE
-#define ETH_CLKMODE       0   // ETH_CLOCK_GPIO0_IN
-#undef  ETH_ADDRESS
+#define USE_ZIGBEE                               // Enable serial communication with Zigbee CC2530 flashed with ZNP\n
+#undef USE_ZIGBEE_EZSP                           // Ensure ZNP support and not EZSP\n
+\n
+#define USE_UFILESYS              // use file system\n
+\n
+// WT32-ETH01\n
+#define USE_ETHERNET\n
+#undef  ETH_TYPE\n
+#define ETH_TYPE          0   // ETH_PHY_LAN8720\n
+#undef  ETH_CLKMODE\n
+#define ETH_CLKMODE       0   // ETH_CLOCK_GPIO0_IN\n
+#undef  ETH_ADDRESS\n
 #define ETH_ADDRESS       1
 ```
 
@@ -42,7 +42,7 @@ The device comes ZStack-3 pre-flashed on CC2652P2, and ESPhome pre-flashed on ES
 
 1. Connect the gateway to a ethernet cable which has access you your local network.
 2. Power on the gateway with a micro usb cable and power supply. The link lights on the ethernet port will start blinking as it tries to negotiate a connection with your home network router.
-3. Determine the device's ip address If your local network supports .local mdns addresses, the devices can be reached that way: tube_zb_gw_cc2652p2.local
+3. Determine the device's ip address If your local network supports .local mdns addresses, the devices can be reached that way: **tube_zb_gw_cc2652p2.local**
 
 Click on **OTA Update** -> **Choose File**, select the tasmota32 firmware and click **Update**
 
