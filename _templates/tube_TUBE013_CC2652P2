@@ -16,9 +16,9 @@ Zigbee coordinator based on ESP32 and CC2652p2
 
 ## Self-compile Tasmota for this device
 
-You need to self compile with the following options, either un `my_user_config.h` or in `user_config_override.h`, using `tasmota32` as a base firmware.
+You need to self compile with the following options, either in `my_user_config.h` or in `user_config_override.h`, using `tasmota32` as a base firmware.
 
-```
+```c
 #define USE_ZIGBEE                               // Enable serial communication with Zigbee CC2530 flashed with ZNP
 #undef USE_ZIGBEE_EZSP                           // Ensure ZNP support and not EZSP
 
@@ -56,4 +56,4 @@ Finally configure the template:
 Backlog Module 0; Template {"NAME":"Tube ZB CC2652","GPIO":[0,0,0,3840,0,3584,0,0,0,0,0,0,5536,3552,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,3840,5792,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 ```
 
-## Enjoy
+Enjoy!
