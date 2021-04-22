@@ -7,7 +7,7 @@
 
 {% capture description %}
 {% if page.template != nil or page.template9 != nil or page.template32 != nil %}
-Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase | replace: "led", "LED" | replace: "diy", "DIY" | replace: "cct", "color temperature adjustable" | replace: "rgbw", "RGB and white color" | replace: "rgb", "RGB color" | replace: "rgbcct", "RGB and color temperature adjustable"}} {% if page.category contains 'bulb'%} bulb {% endif %}to work with Tasmota open source firmware. 
+Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase | replace: "led", "LED" | replace: "diy", "" | replace: "cct", "color temperature adjustable" | replace: "rgbw", "RGB and white color" | replace: "rgb", "RGB color" | replace: "rgbcct", "RGB and color temperature adjustable"}} {% if page.category contains 'bulb'%} bulb {% endif %}to work with Tasmota open source firmware. 
 {% elsif page.category == "unsupported" %} Caution! {{ page.title | escape }} {{ page.type | escape }} cannot be flashed with Tasmota. 
 {% else %} {{ site.description | escape }} {% endif %}
 {% endcapture %}
