@@ -4,9 +4,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- HTML Meta Tags -->
+
+{% capture description %}
+{% if page.template != nil or page.template9 != nil or page.template32 != nil %}
+Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase | replace: "cct", "color temperature adjustable" | replace: "rgb", "RGB color" | replace: "rgbcct", "RGB and color temperature adjustable" }} {% if page.category contains 'bulb'%} bulb {% endif %}to work in your local network with Tasmota open source firmware. 
+{% elsif page.category == "unsupported" %} Caution! {{ page.title | escape }} {{ page.type | escape }} cannot be flashed with Tasmota. 
+{% else %} {{ site.description | escape }} {% endif %}
+{% endcapture %}
+
 <title>{% if page.template != nil or page.template9 != nil or page.template32 != nil %}{{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %}{{ page.model | escape }} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Templates for Tasmota {% endif %}</title> 
 
-<meta name="description" content="{% if page.template != nil or page.template9 != nil or page.template32 != nil %}Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase }} {% if page.category contains 'bulb'%} bulb {% endif %}to work in your local network with Tasmota open source firmware. {% elsif page.category == "unsupported" %} Caution! {{ page.title | escape }} {{ page.type | escape }} cannot be flashed with Tasmota. {% else %} {{ site.description | escape }} {% endif %} ">
+<meta name="description" content="{{ description | strip }}">
 
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"> 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -16,44 +24,28 @@
 <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="{% if page.template != nil or page.template9 != nil or page.template32 != nil %} {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %}{{ page.model | escape }} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Template for Tasmota {% endif %}">
 
-<meta itemprop="description" content="{% if page.template != nil or page.template9 != nil or page.template32 != nil %}Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase }} {% if page.category contains 'bulb'%} bulb {% endif %}to work in your local network with Tasmota open source firmware. {% elsif page.category == "unsupported" %} Caution! {{ page.title | escape }} {{ page.type | escape }} cannot be flashed with Tasmota. {% else %} {{ site.description | escape }} {% endif %}">
+<meta itemprop="description" content="{{ description | strip }}">
 
 <meta itemprop="image" content="{{ page.image | absolute_url }}">
 
 <meta property="og:title" content="{% if page.template != nil or page.template9 != nil or page.template32 != nil %} {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %}{{ page.model | escape }} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Template for Tasmota {% endif %}">
 
-<meta property="og:description" content="{% if page.template != nil or page.template9 != nil or page.template32 != nil %}Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase }} {% if page.category contains 'bulb'%} bulb {% endif %}to work in your local network with Tasmota open source firmware. {% elsif page.category == "unsupported" %} Caution! {{ page.title | escape }} {{ page.type | escape }} cannot be flashed with Tasmota. {% else %} {{ site.description | escape }} {% endif %}">
+<meta property="og:description" content="{{ description | strip }}">
 
 <meta property="og:image" content="{{ page.image | absolute_url }}">
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
 												 
 <!-- Twitter Meta Tags -->
-<!-- <meta name="twitter:title" content="
-  {% if page.title %}
-  {{ page.title | escape }}
-    {% assign template = page.template | split: ':' %}
-    {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-    {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %} Power Monitoring {% endif %}
-  {{ page.type | escape }}
-      {% if page.category contains 'bulb'%} Bulb {% endif %}
-    Device Template for Tasmota
-  {% else %}
-    {{ site.title | escape }}
-  {% endif %}
-  ">
+<meta name="twitter:image" content="{{ page.image | absolute_url }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site:id" content="blakadder_">
+<meta name="twitter:creator:id" content="blakadder_">
+{% include styles.html %}
 
-  <meta name="twitter:description" content="{% if page.title %}Configure {{ page.title | escape }}{% assign template = page.template | split: ':' %}{% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}{% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %} Power Monitoring {% endif %} {{ page.type | escape }}{% if page.category contains 'bulb'%} Bulb {% endif %} to work with Tasmota firmware {% else %}{{ site.description | escape }} {% endif %}">
- -->
-  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site:id" content="blakadder_">
-  <meta name="twitter:creator:id" content="blakadder_">
-  {% include styles.html %}
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
 
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-  {% include analytics.html %}
-  {% endif %}
-
-  {% feed_meta %}
+{% feed_meta %}
   
 </head>
