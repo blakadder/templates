@@ -12,7 +12,7 @@ Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcas
 {% else %} {{ site.description | escape }} {% endif %}
 {% endcapture %}
 
-<title>{% if page.template != nil or page.template9 != nil or page.template32 != nil %}{{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %}{% if page.category != nil %}({{ page.model | escape }}){% endif %} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Templates for Tasmota {% endif %}</title> 
+<title>{% if page.template != nil or page.template9 != nil or page.template32 != nil %}{{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %}{% if page.model != nil %}({{ page.model | escape }}){% endif %} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Templates for Tasmota {% endif %}</title> 
 
 <meta name="description" content="{{ description | strip }}">
 
@@ -22,13 +22,13 @@ Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcas
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 <!-- Google / Search Engine Tags -->
-<meta itemprop="name" content="{% if page.template != nil or page.template9 != nil or page.template32 != nil %} {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %}{% if page.category != nil %}({{ page.model | escape }}){% endif %} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Template for Tasmota {% endif %}">
+<meta itemprop="name" content="{% if page.template != nil or page.template9 != nil or page.template32 != nil %} {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %}{% if page.model != nil %}({{ page.model | escape }}){% endif %} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Template for Tasmota {% endif %}">
 
 <meta itemprop="description" content="{{ description | strip }}">
 
 <meta itemprop="image" content="{{ page.image | absolute_url }}">
 
-<meta property="og:title" content="{% if page.template != nil or page.template9 != nil or page.template32 != nil %} {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %}{% if page.category != nil %}({{ page.model | escape }}){% endif %} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Template for Tasmota {% endif %}">
+<meta property="og:title" content="{% if page.template != nil or page.template9 != nil or page.template32 != nil %} {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%} Bulb {% endif %}{% if page.moddel != nil %}({{ page.model | escape }}){% endif %} Template for Tasmota {% elsif page.category == "unsupported" %} {{ page.title | escape }} {{ page.type | escape }} is not supported by Tasmota! {% else %} {{ page.title | escape }} - Template for Tasmota {% endif %}">
 
 <meta property="og:description" content="{{ description | strip }}">
 
