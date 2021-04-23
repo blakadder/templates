@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: misc
-type: Other
+type: IR Bridge
 standard: global
 ---
 ## Serial Flashing
