@@ -9,6 +9,6 @@ link2:
 mlink: 
 flash: tuya-convert
 category: relay
-type: DIN Switch
+type: DIN Relay
 standard: global
 ---

@@ -1,6 +1,6 @@
 ---
 date_added: 2020-04-24
-title: ESP-01 Module
+title: ESP-01
 model: ESP-01
 image: /assets/images/ESP01.jpg
 template: '{"NAME":"ESP01","GPIO":[255,255,255,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 

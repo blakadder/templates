@@ -2,7 +2,7 @@
 title: Armtronix AC Dimmer 1-Triac
 category: relay
 model: BA001
-type: Dimmer
+type: Dimmer Module
 standard: global
 link: https://www.tindie.com/products/Armtronix/wifi-ac-dimmer-esp8266-one-triac-board-alexaecho/
 image: /assets/images/armtronix_BA004.jpg

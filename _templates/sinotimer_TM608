@@ -9,7 +9,7 @@ link2: https://www.aliexpress.com/item/4000385430689.html
 mlink: 
 flash: serial
 category: relay
-type: DIN Switch
+type: DIN Relay
 standard: global
 ---
-I tries Tuya-convert without success. Could open it relatively easy. Has a TYWE3S module inside. The TX/RX is unconnected so can easily be flashed via serial connection.
+No success with Tuya-convert. Opens relatively easy. Has a TYWE3S module inside. The TX/RX is unconnected so can easily be flashed via serial connection.

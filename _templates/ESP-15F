@@ -1,6 +1,6 @@
 ---
 date_added: 2021-04-20
-title: ESP-15F Module
+title: ESP-15F
 model:  
 image: /assets/images/ESP-15F.jpg
 template9: '{"NAME":"ESP-15F","GPIO":[1,1,0,1,1,1,0,0,0,544,0,0,0,0],"FLAG":0,"BASE":18}' 
