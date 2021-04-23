@@ -26,10 +26,10 @@ toc:
     url: misc.html
   - name: DIY
     url: diy.html
-  - name: Devices by Standard
-    url: standard.html
   - name: ESP32 Based Devices
     url: esp32.html
+  - name: Devices by Standard
+    url: standard.html
     subnav:
       - title: EU
         url: eu.html
