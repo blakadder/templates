@@ -12,3 +12,5 @@ category: plug
 type: Power Strip
 standard: us
 ---
+
+I have successfully programmed this device using OTA tuya-convert version 2.4.3 (Apr/2021)
