@@ -1,7 +1,7 @@
 ---
 title: Armtronix AC Dimmer 2-Triac
 category: relay
-type: Dimmer
+type: Dimmer Module
 standard: global
 mlink: https://armtronix.net/2019/09/28/loading-tasmota-firmware-on-armtronix-dual-dimmer-mini-ba001/
 link: https://www.tindie.com/products/Armtronix/wifi-ac-dimmer-two-triac-board-mini/

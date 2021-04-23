@@ -9,7 +9,7 @@ link2:
 mlink: http://www.emyloworld.com/products/details-24-171.html
 flash: serial
 category: relay
-type: Relay
+type: Switch Module
 standard: global
 ---
 **Don't flash or open while connected to power! Soldering required!**

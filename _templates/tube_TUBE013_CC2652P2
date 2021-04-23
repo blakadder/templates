@@ -9,7 +9,7 @@ link2:
 mlink: https://github.com/tube0013/tube_gateways
 flash: serial
 category: misc
-type: Zigbee Bridge
+type: Zigbee Gateway
 standard: global
 ---
 Zigbee coordinator based on ESP32 and CC2652p2

@@ -9,7 +9,7 @@ link2:
 mlink: https://www.ener-j.co.uk/products/view/independent-wifi-iot-solutions/smart-wifi-outdoor-relay-switch/99300
 flash: serial
 category: relay
-type: Relay
+type: Switch Module
 standard: [eu, uk]
 ---
 Tuya-convert process didn't work, required serial connection and flashed successfully with ESPTool.   The Green LED shows link status and the dim dim blue LED shows relay state and has no dedicated GPIO.

@@ -7,8 +7,8 @@ template: '{"NAME":"WifInfo","GPIO":[7,255,255,210,6,5,255,255,255,255,255,255,2
 link: 
 mlink: https://github.com/hallard/WifInfo
 flash: serial
-category: misc
-type: DIY
+category: diy
+type: Development Board
 standard: fr
 ---
 

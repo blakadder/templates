@@ -10,6 +10,6 @@ link3: https://www.domadoo.fr/fr/objets-communicants/5284-shelly-compteur-d-ener
 mlink: https://shelly.cloud/shelly-energy-meter-with-contactor-control-wifi-smart-home-automation/
 flash: mgos
 category: relay
-type: Switch
+type: Switch Module
 standard: global
 ---

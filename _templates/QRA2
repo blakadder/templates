@@ -10,7 +10,7 @@ link3: https://www.amazon.com/dp/B08P1BCXZ5
 mlink: 
 flash: serial
 category: misc
-type: IR Bridge
+type: IR Controller
 standard: global
 ---
 Flashed with serial connection.

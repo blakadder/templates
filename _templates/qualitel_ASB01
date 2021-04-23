@@ -9,7 +9,7 @@ link2:
 mlink: https://www.qualitel.co.za/product/asb01-smart-wifi-breaker/
 flash: serial
 category: relay
-type: Switch
+type: Switch Module
 standard: za
 ---
 The button is not connected to GPIO0 so you need to use the GPIO0 pin on the PCB shorted to GND when powering on to enable programming.

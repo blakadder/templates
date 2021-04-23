@@ -9,7 +9,7 @@ link2: https://allegro.pl/oferta/modul-przekaznika-sterowanego-przez-wifi-esp826
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 DYI ESP8266 relay with external optoisolated button. Requires an external power supply.

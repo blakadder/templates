@@ -9,7 +9,7 @@ link2:
 mlink: http://www.chinalctech.com/cpzx/1/333.html
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 The LC Technology relay devices use GPIO1 and GPIO3 for the serial communications used to control the relays. You do not need to specify these in the template. SerialSend uses these standard serial communications GPIO by default.

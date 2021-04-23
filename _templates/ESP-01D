@@ -9,8 +9,8 @@ link2: https://www.banggood.com/ESP-01D-ESP8285-WiFi-Module-Serial-Port-to-WiFi-
 link3: https://www.alibaba.com/product-detail/ESP-01D-wireless-transparent-small-volume_1700001709664.html
 mlink: 
 flash: serial
-category: misc
-type: DIY
+category: diy
+type: Module
 standard: global
 ---
 Tiny ESP8285 module 13.5x8.5x2.6mm with 2MB memory. Does not have a PCB antenna. Identical form factor and pinout as Tuya [TYLC5](https://developer.tuya.com/en/docs/iot/device-development/module/wifi-module/lc-series-module/wifilc5module) module.

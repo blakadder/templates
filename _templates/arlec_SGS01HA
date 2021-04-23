@@ -6,7 +6,7 @@ image: /assets/images/arlec_SGS01HA.jpg
 mlink: 
 flash: serial
 category: misc
-type: Bluetooth Bridge
+type: Bluetooth Gateway
 standard: au
 template: '{"NAME":"Arlec Hub","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-home-hub_p0148571

@@ -10,7 +10,7 @@ link2:
 mlink: https://www.orvibo.com/en/product/xiaofang.html
 flash: serial
 category: misc
-type: IR Bridge
+type: IR Controller
 standard: global
 ---
 https://github.com/mdhiggins/ESP8266-HTTP-IR-Blaster/issues/248

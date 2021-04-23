@@ -9,7 +9,7 @@ link2: https://www.domadoo.fr/fr/objets-communicants/5391-shelly-micromodule-com
 mlink: https://shelly.cloud/knowledge-base/devices/shelly-1l/
 flash: mgos
 category: relay
-type: Switch
+type: Switch Module
 standard: eu
 ---
 ## Flashing Shelly device OTA without serial connection

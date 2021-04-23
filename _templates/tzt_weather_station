@@ -8,8 +8,8 @@ link: https://www.aliexpress.com/item/4000469051831.html
 link2: 
 mlink: 
 flash: serial
-category: misc
-type: DIY
+category: diy
+type: Development Board
 standard: global
 ---
 Requires tasmota-display.bin

@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: misc
-type: IR Bridge
+type: IR Controller
 standard: au
 ---
 You will need to flash the tasmota-ir.bin firmware to this deivce.

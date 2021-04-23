@@ -9,8 +9,8 @@ link2: https://www.banggood.com/M5Stack-ATOM-Lite-ESP32-Development-Board-Kit-Ne
 link3: https://www.amazon.co.uk/dp/B08GKR9GCX
 mlink: https://docs.m5stack.com/#/en/core/atom_lite
 flash: serial
-category: misc
-type: DIY
+category: diy
+type: Development Board
 standard: global
 ---
 

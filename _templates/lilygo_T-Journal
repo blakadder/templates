@@ -8,8 +8,8 @@ link: https://www.banggood.com/LILYGO-TTGO-T-Journal-ESP32-Camera-Development-Bo
 link2: https://www.aliexpress.com/af/ttgo-journal.html?d=y&origin=n&SearchText=ttgo+journal
 mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50030&Id=1121&FId=t3:50030:3
 flash: serial
-category: misc
-type: Camera
+category: diy
+type: Display
 standard: global
 ---
 

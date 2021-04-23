@@ -1,6 +1,6 @@
 ---
 date_added: 2020-08-15
-title: HomeMate 4 Node In-wall Smart Switch
+title: HomeMate 4 Node In-wall 
 model: 4NODE 
 image: /assets/images/homemate_4NODE.jpg
 template: '{"NAME":"HomeMate Wifi 4N ","GPIO":[255,255,255,9,21,12,255,255,10,22,23,24,11],"FLAG":15,"BASE":18}' 
@@ -9,6 +9,6 @@ link2:
 mlink: https://homemate.co.in/product/4-node-in-wall-smart-switch/
 flash: tuya-convert
 category: relay
-type: Switch
+type: Switch Module
 standard: in
 ---

@@ -3,7 +3,7 @@ date_added: 2020-11-30
 title: Sonoff MINIR2
 model: M0802010010
 category: relay
-type: Switch
+type: Switch Module
 standard: global
 image: /assets/images/sonoff_MINIR2.jpg
 template: '{"NAME":"Sonoff MINIR2","GPIO":[17,0,0,0,9,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 

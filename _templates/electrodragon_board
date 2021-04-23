@@ -3,7 +3,7 @@ date_added: 2019-04-27
 title: Electrodragon Board SPDT
 model: NWI1118
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 link: https://www.electrodragon.com/product/wifi-iot-relay-board-spdt-based-esp8266/
 image: https://user-images.githubusercontent.com/5904370/73558508-9cb05e80-4453-11ea-8186-a32d157c5b5b.png

@@ -9,8 +9,8 @@ link2: https://www.amazon.de/dp/B08MYVM78K
 link3: https://www.amazon.fr/dp/B08MYVM78K
 mlink: 
 flash: serial
-category: misc
-type: DIY
+category: diy
+type: Module
 standard: global
 ---
 Designed as a Wi-Fi adapter connecting to a serial MCU using a 4pin PH2.54 connector. Powered by 5V only! Module has 4MB flash.

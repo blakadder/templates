@@ -8,7 +8,7 @@ link:
 link2: 
 mlink: https://blog.quindorian.org/2016/07/esp8266-lighting-revisit-and-history-of-quinled.html/
 flash: serial
-category: misc
-type: DIY
+category: diy
+type: Development Board
 standard: global
 ---

@@ -1,6 +1,6 @@
 ---
 date_added: 2021-01-25
-title: Sinotimer DIN 
+title: Sinotimer 
 model: TM609
 image: /assets/images/sinotimer_TM609.jpg
 template: '{"NAME":"Sinotimer TM60","GPIO":[0,0,0,0,0,52,0,0,21,9,0,0,0],"FLAG":0,"BASE":18}' 
@@ -9,6 +9,6 @@ link2:
 mlink: 
 flash: tuya-convert
 category: relay
-type: Relay
+type: DIN Switch
 standard: global
 ---

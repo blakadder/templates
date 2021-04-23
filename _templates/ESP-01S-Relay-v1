@@ -10,7 +10,7 @@ link3: https://www.banggood.com/ESP-01S-Relay-Module-WiFi-Smart-Remote-Switch-Ph
 mlink: https://github.com/IOT-MCU/ESP-01S-Relay-v1.0
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 How to flash [ESP-01(S)](ESP01)

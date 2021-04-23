@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 Very similar to 4 Channel version, but uses different GPIOs

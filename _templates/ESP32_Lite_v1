@@ -2,8 +2,8 @@
 date_added: 2021-03-22
 title: ESP32 Lite V1.0.0. Development Board
 model: 
-category: misc
-type: DIY
+category: diy
+type: Module
 standard: global
 image: /assets/images/ESP32_Lite_v1.jpg
 template32: '{"NAME":"ESP32 Lite V1.0.0","GPIO":[1,0,1,0,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0],"FLAG":0,"BASE":1}' 

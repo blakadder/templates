@@ -6,8 +6,6 @@ toc:
   - name: Bulbs by
     url: bulb.html
     subnav:
-      - title: Name
-        url: bulb.html
       - title: Type
         url: bulb-type.html
       - title: Socket
@@ -24,8 +22,10 @@ toc:
     url: plug.html
   - name: Sensors
     url: sensors.html
-  - name: Miscellaneous
+  - name: Appliances
     url: misc.html
+  - name: DIY
+    url: diy.html
   - name: Devices by Standard
     url: standard.html
     subnav:

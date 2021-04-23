@@ -10,7 +10,7 @@ link3: https://www.amazon.de/dp/B08MQBYXTQ
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: DIN Switch
 standard: global
 ---
 [Disassembly and flashing discussion](https://github.com/arendst/Tasmota/discussions/10915)

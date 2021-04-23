@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: Switch Module Board
 standard: global
 ---
 Use rx and tx pins on the esp8285, and the 5v and ground pins on the pcb to flash. The top button is gpio0.

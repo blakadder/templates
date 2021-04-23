@@ -3,14 +3,14 @@ date_added: 2021-02-14
 title: AI Universal Remote 
 model: LQ-08
 image: /assets/images/LQ-08.jpg
-template: '{"NAME":"YTF IR Bridge","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+template: '{"NAME":"YTF IR Controller","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.aliexpress.com/item/4000200391795.html
 link2: 
 mlink: 
 flash: serial
 category: misc
-type: IR Bridge
+type: IR Controller
 standard: global
 ---
 ## Serial Flashing
-Identical hardware and procedure as [YTF Universal Remote IR Bridge](ytf_ir_bridge)
+Identical hardware and procedure as [YTF Universal Remote IR Controller](ytf_ir_bridge)

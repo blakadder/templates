@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 Headers must be soldered and jumpers needs to be installed for enabling relays. 
