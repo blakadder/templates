@@ -12,6 +12,7 @@ flash: serial
 category: light
 type: Ceiling Light
 standard: global
+---
 Requires [tasmota32solo1.bin](http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin) because it is using the single core version of ESP32
 
 - Once flashed, you need to add two settings to allow both PWM lights to be controlled:
@@ -23,8 +24,8 @@ White Light and RGB can be [split](https://tasmota.github.io/docs/Lights/#rgb-an
 - GPIO33 - red - PWM1
 - GPIO26 - green - PWM2
 - GPIO27 - blue - PWM3
-- GPIO21 - coldwhite - PWM4
-- GPIO19 - warmwhite - PWM5
+- GPIO21 - cold white - PWM4
+- GPIO19 - warm white - PWM5
 - GPIO23 - NL
 - GPIO22 - ON/OFF
 - NL and ON/OFF pin function unknown.
