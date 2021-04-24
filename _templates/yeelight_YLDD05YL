@@ -13,7 +13,7 @@ category: light
 type: LED Strip
 standard: [eu,us]
 ---
-This is template for ESP32 version which requires `tasmota32solo1.bin` build for ESP-WROOM-32D. Additionally required changes after flashing, use console:
+This is template for ESP32 version which requires [tasmota32solo1.bin](http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin) build for ESP32-S0WD. Additionally required changes after flashing, use console:
 
 ```console
 Backlog SetOption37 128; SetOption92 1
