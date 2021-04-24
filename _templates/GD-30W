@@ -1,211 +1,122 @@
 ---
-date_added: 2019-10-27
+date_added: 2021-04-26
 title: GD-30W 300ml
 category: misc
 type: Aromatherapy Diffuser
 standard: global
 link: https://www.amazon.com/Essential-Diffuser-Humidifier-Aromatherapy-Waterless/dp/B081MTYGWH
-link2: https://www.aliexpress.com/item/4000469944212.html
-link3: https://www.banggood.com/LyRay-GD-30E-Smart-Household-Humidifier-Aroma-Diffuser-Touch-Control-Switch-300ml-with-APP-Control-Amazon-Alexa-p-1622972.html
-image: https://user-images.githubusercontent.com/5904370/67516743-73887100-f6a1-11e9-9563-3a529fad3b1d.png
-template: '{"NAME":"GD-30W","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}'
-mlink: https://www.alibaba.com/product-detail/300ML-WiFi-Aroma-Diffuser-Ultrasonic-Humidifier_60781628200.html
+link2: https://www.aliexpress.com/item/33016424280.html
+image: /assets/images/GD-30W.jpg
+template9: '{"NAME":"GD-30W","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
+mlink: 
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
-There are a few different looking devices using the same PCB marked GD-HDFW05-v1.0 so this process should work on those. 
+This configuration should work on most other diffusers using same dpId structure. 
+
+This device is identified in TuyaMCU as `MCU Product ID: uwP5ueRSh5k5Ccuw1.0.0`
 
 ## Functions
-`dpID 1` device power: 0 = off / 1 = on    
-`dpID 11` led power: 0 = off / 1 = on    
-`dpID 12` error notification: 0 = ok / 1 = error  
-`dpID 13` countdown mode options: 0 = off / 1 = 1hr / 2 = 3hr *not needed with Tasmota*    
-`dpID 14` countdown status: reports value of 0...360 minutes *not needed with Tasmota*    
-`dpID 103` mist strength: 0 = low / 1 = high    
-`dpID 108` led color: 14 char value in hex (can define only RGB and send HSV value as max: `RRGGBBffff6464`)    
-`dpID 110` led mode: 0 = rgb_cycle / 1 = color / 2 = white    
-`dpID 111` led dimmer **color and white mode only** *it is important to define 'DimmerRange 1,255'*
+`dpID 1` device power: `0` = off / `1` = on    
+`dpID 11` light power: `0` = off / `1` = on    
+`dpID 12` error notification: `0` = ok / `1` = error  
+`dpID 13` countdown mode options: `0` = off / `1` = 1hr / `2` = 3hr *not needed in Tasmota, use Timer feature instead*    
+`dpID 14` countdown status: reports value of 0...360 minutes *not needed with Tasmota, use Timer feature instead*    
+`dpID 103` mist strength: `0` = low / `1` = high    
+`dpID 108` light color: 14 char value in hex (set with `TuyaRGB 3`)    
+`dpID 110` light mode: `0` = rgb_cycle / `1` = color / `2` = white    
+`dpID 111` light dimmer **works in color and white mode only** *it is important to define 'DimmerRange 1,255'*
 
 ## Configuration
 
 After applying the template and configuring Wi-Fi and MQTT issue
 
 ```console
-Backlog SetOption66 1; TuyaMCU 21,111; TuyaMCU 11,1; TuyaMCU 12,11; TuyaMCU 13,103; TuyaMCU 14,12; TuyaMCU 15,110; DimmerRange 1,255; SetOption59 1
+Backlog TuyaMCU 11,1; TuyaMCU 12,11; TuyaMCU 21,111; TuyaMCU 24,108; TuyaMCU 61,103; TuyaMCU 62,110
 ```
+After a restart issue the rest of configurations:
 ```console
-Rule1 on TuyaReceived#data=55AA000700056E040001007E do publish2 stat/GD-30W/EFFECT rgb_cycle endon on TuyaReceived#data=55AA000700056E040001017F do publish2 stat/GD-30W/EFFECT color endon on event#rgb_cycle do tuyasend4 110,0 endon on event#color do tuyasend4 110,1 endon on event#ON do backlog tuyasend4 110,1; tuyasend 11,1 endon on event#OFF do tuyasend1 11,0 endon on power3#state=1 do tuyasend4 103,1 endon on power3#state=0 do tuyasend4 103,0 endon
+Backlog TuyaRGB 3; DimmerRange 0,255; TuyaEnumList 1,1; TuyaEnumList 2,2; Rule0 1
 ```
-```console
-Rule1 1
-```
-
-*Optional rule used to prevent the device going into countdown mode (f.e. using on device controls) and complete MCU status update on restart*
+Rules used to prevent the device going into countdown mode (f.e. using on device controls) and complete MCU status update on restart. Second rule turns on RGB cycle mode instead of using Tasmota light schemes which don't work with this device.
 
 ```console
-Rule3 on TuyaReceived#data=55AA000700050D040001011E do tuyasend4 13,0 endon on TuyaReceived#data=55AA000700050D040001021F do tuyasend4 13,0 endon on mqtt#connected do serialsend5 55aa0001000000 endon
+Rule1 on tuyareceived#dptype4id13!=0 do tuyasend4 13,0 endon on scheme#data!=0 do backlog0 scheme 0; tuyaenum2 0 endon
 ```
+
+Label webUI buttons and set friendly names for power outputs:
 ```console
-Rule3 1
+Backlog WebButton1 Diffuser; WebButton2 Light; FriendlyName1 Diffuser Fan; FriendlyName2 Diffuser Light 
 ```
 
 ### What you get
-- Relay1 turns the diffuser on or off in stored mist strength mode, turns led on or off in stored mode and serves as device power status
-- Relay2 turns light on or off and serves as light power status.
-- Relay3 mist strength status and control using `Rule1`
-- Relay4 is used for error status (ON = error), no control
-- Relay5 is used for light mode status (0 = rgb_cycle, 1 = color), no control
-
-Label webUI buttons:
-```console
-Backlog WebButton1 Power; WebButton2 Light; WebButton3 Mist; WebButton4 Error; WebButton5 Light Mode
-```
-
-LED mode status is reported to mqtt topic `stat/GD-30W/EFFECT` and command [`Event`](https://tasmota.github.io/docs/Commands#event) is used to control some functions using [`TuyaSend4`](https://tasmota.github.io/docs/Commands#tuyasend4) command. All this is defined in `Rule1`
-
-Color can be changed using `TuyaSend3 108,RRGGBB64646464` (RR, GG and BB are hex value) only in color mode.
-
-Dimming works using slider and `Dimmer` command but only when in color mode, in rgb_cycle there are no brightness controls.
+- `Power1` turns the diffuser on or off in stored mist strength mode as device power status
+- `Power2` controls the light as an RGB Light.
+- `TuyaEnum1` is for mist strength status and control: 
+    - `TuyaEnum1 0` for low 
+    - `TuyaEnum1 1` for high
+- `TuyaEnum2` is for light mode status and control: 
+    - `TuyaEnum2 0` for RGB cycle
+    - `TuyaEnum1 1` for solid color
+    - `TuyaEnum1 2` for solid white
 
 Long press on device's power button initiates Tasmota's Wi-Fi config
 
 ## Home Assistant configuration
-This implementation is suited to specific needs and does not incorporate all features of the device, mostly to avoid weird situations and wrong states being reported.
 
-Fan is the diffuser. Oscillation switch is used to toggle between rgb_cycle (oscillation on) and color (oscillation off).    
-Light component is the device's RGB light but only when its in color mode, when in rgb_cycle mode light state in HA is off since you cannot control anything anyway.    
-Binary sensor uses the dpId 12 to show when the diffuser is out of water.    
+_This implementation is one of many options and is suited to my needs._
 
-configuration.yaml
-{% highlight yaml %}
-{% raw %}
-fan:
-    - platform: mqtt
-      name: "Diffuser"
-      availability_topic: "tele/GD-30W/LWT"
-      payload_available: "Online"
-      payload_not_available: "Offline"
-      state_topic: "tele/GD-30W/STATE"
-      state_value_template: "{{ value_json.POWER1 }}"
-      command_topic: "cmnd/GD-30W/POWER1"
-      payload_on: "ON"
-      payload_off: "OFF"
-      percentage_state_topic: "tele/GD-30W/STATE"
-      percentage_value_template: >
-        {% set forces_diffusion={"OFF":1,"ON":2} %}
-        {{ forces_diffusion[value_json.POWER3] if value_json.POWER1!='OFF' else 0 }}
-      percentage_command_topic: "cmnd/GD-30W/POWER3"
-      percentage_command_template: >
-        {% set forces_diffusion={0:"OFF",1:"OFF",2:"ON"} %}
-        {{ forces_diffusion[value] }}
-      speed_range_max: 2
-      oscillation_state_topic: "stat/GD-30W/EFFECT"
-      oscillation_command_topic: "cmnd/GD-30W/EVENT"
-      oscillation_value_template: "{{ value }}"
-      payload_oscillation_on: "rgb_cycle"
-      payload_oscillation_off: "color"
-      qos: 1
-light:
-    - platform: mqtt
-      name: "Diffuser Lamp"
-      command_topic: "cmnd/GD-30W/EVENT"
-      state_topic: "tele/GD-30W/STATE"
-      state_value_template: "{% if value_json.POWER2 == 'ON' %}{% if value_json.POWER5 == 'ON' %}ON{% else %}OFF{% endif %}{% else %}OFF{% endif %}"
-      payload_on: "ON"
-      payload_off: "OFF"
-      brightness_command_topic: "cmnd/GD-30W/Dimmer"
-      brightness_state_topic: "tele/GD-30W/RESULT"
-      brightness_scale: 100
-      on_command_type: brightness
-      brightness_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ value_json['TuyaReceived'].Type3Data[12:14]|int(base=16) }}{% endif %}"
-      availability_topic: "tele/GD-30W/LWT"
-      payload_available: "Online"
-      payload_not_available: "Offline"
-      qos: 1
-      retain: false
-      rgb_command_topic: "cmnd/GD-30W/tuyasend3"
-      rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '108,%02x%02x%02x646464' | format(red, green, blue)}}{{ '%02x' | format(brightness) }}"
-      rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 108 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
-      rgb_state_topic: "tele/GD-30W/RESULT"
+First we need to create a ruleset to send data to specific topics used in HA configurations:
 
+### Necessary Rules
+
+```console
+Rule2 on tuyareceived#dptype5id12 do publish stat/%topic%/error %value% endon on tuyareceived#dptype4id103==1 do publish stat/%topic%/fanmode high endon on tuyareceived#dptype4id103==0 do publish stat/%topic%/fanmode low
+```
+
+### Diffuser as Fan
+
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/tasmota-error-binary-sensor-tuya.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/tasmota-error-binary-sensor-tuya.yaml)
+
+```yaml
+{% raw %}fan:
+  - platform: mqtt
+    name: "Diffuser"
+    state_topic: "stat/%topic%/RESULT"
+    state_value_template: "{% if value_json.POWER1 is defined %}{{ value_json.POWER1 }}{% endif%}"
+    command_topic: "cmnd/%topic%/POWER1"
+    preset_modes:
+    -  "high"
+    -  "low"
+    preset_mode_state_topic: "stat/%topic%/fanmode"
+    preset_mode_command_topic: "cmnd/%topic%/tuyaenum1"
+    preset_mode_command_template: '{{ 1 if value == "high" else 0 }}'
+    availability_topic: "tele/%topic%/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"{% endraw %}
+```
+
+### Error Sensor
+
+Error binary sensor which triggers when something is wrong with the diffuser, including when running out of water.
+
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/tasmota-error-binary-sensor-tuya.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/tasmota-error-binary-sensor-tuya.yaml)
+
+For manual config:
+
+```yaml
 binary_sensor:
-    - platform: mqtt
-      name: "Aromatherapy Water"
-      state_topic: "stat/GD-30W/POWER4"
-      payload_on: "ON"
-      payload_off: "OFF"
-      availability_topic: "tele/GD-30W/LWT"
-      payload_available: "Online"
-      payload_not_available: "Offline"
-      qos: 1
-      device_class: problem
-
-{% endraw %}
-{% endhighlight %}
-
-![Finished integration](https://user-images.githubusercontent.com/5904370/67526175-8a848e80-f6b4-11e9-8ced-f827eec0424c.png)
+  - platform: mqtt
+    name: "Difuser Error"
+    state_topic: "stat/%topic%/error"
+    value_template: {% raw %}"{{ 'ON' if value != '0X00' else 'OFF' }}"{% endraw %}
+    device_class: problem
+    availability_topic: "tele/%topic%/LWT"
+    payload_available: "Online"
+    payload_not_avail: "Offline"
+```
 
 ### PCB
 ![image](https://user-images.githubusercontent.com/5904370/67526288-c4559500-f6b4-11e9-867f-2b3ae0b82437.png)
-
-### Serial command codes used in debugging
-```lua
-Turn Relay1 on (LED and Diffuser)
-    55aa0006000501010001010e
-
-Turn Relay1 off (LED and Diffuser)
-    55aa0006000501010001000d
-
-Turn diffuser on (Fast mode)
-    55AA00060005670400010177
-
-Turn diffuser on (Slow mode)
-    55AA00060005670400010076
-
-Turn Diffuser off
-    55aa00060005670400010278
-
-Turn LED on (RGB Cycle)
-    55aa000600050b0100010118
-
-Turn LED off
-    55aa000600050b0100010017
-
-Lock RGB Cycle
-    55aa000600056e040001017E
-
-Error Condition (out of water)
-    55AA010700050C050001011F
-
-No Error Condition (water OK)
-    55AA010700050C050001001E
-
-Purple Color
-    55aa000600126c03000e6438303066663031323266666666b9
-
-Orange Color
-    55aa000600126c03000e6666343230303030306666666666b4
-
-Yellow Color
-    55aa000600126c03000e6666633030303030326466666666e1
-
-Green1
-    55aa000600126c03000e3738666630303030356366666666BF
-
-Green2
-    55aa000600126c03000e30306666343230303837666666668d
-
-Blue
-    55aa000600126c03000e3030633366663030633366666666e4
-
-Pink
-    55aa000600126c03000e6666303061383031343166666666b7
-
-Red1
-    55aa000600126c03000e666630303234303136306666666685
-
-Red2 (darker)
-    55aa000600126c03000e666630303030303030306666666678
-```
