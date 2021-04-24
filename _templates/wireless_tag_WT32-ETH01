@@ -1,9 +1,9 @@
 ---
 date_added: 2021-01-01
-title: Wireless Tag ESP32 Ethernet Board
+title: Wireless Tag ESP32 Ethernet
 model: WT32-ETH01
-category: misc
-type: DIY
+category: diy
+type: Development Board
 standard: global
 image: /assets/images/wireless_tag_WT32-ETH01.jpg
 template32: '{"NAME":"WT32-ETH01","GPIO":[1,1,1,1,1,1,0,0,1,0,1,1,3840,576,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1],"FLAG":0,"BASE":1}' 

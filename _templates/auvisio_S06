@@ -2,7 +2,7 @@
 date_added: 2019-04-17
 title: auvisio S06
 category: misc
-type: IR Bridge
+type: IR Controller
 standard: global
 flash: serial
 mlink: https://www.pearl.de/a-NX4519-1254.shtml

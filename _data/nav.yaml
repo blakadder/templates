@@ -6,8 +6,6 @@ toc:
   - name: Bulbs by
     url: bulb.html
     subnav:
-      - title: Name
-        url: bulb.html
       - title: Type
         url: bulb-type.html
       - title: Socket
@@ -16,7 +14,7 @@ toc:
     url: cover.html
   - name: Wall Switches and Dimmers
     url: switch.html
-  - name: Inline Switches and Dimmers
+  - name: Module Switches and Dimmers
     url: relay.html
   - name: Lights and LEDs
     url: light.html
@@ -24,8 +22,12 @@ toc:
     url: plug.html
   - name: Sensors
     url: sensors.html
-  - name: Miscellaneous
+  - name: Appliances
     url: misc.html
+  - name: Development Boards
+    url: diy.html
+  - name: ESP32 Based Devices
+    url: esp32.html
   - name: Devices by Standard
     url: standard.html
     subnav:
@@ -57,8 +59,6 @@ toc:
         url: global.html
       - title: ALL
         url: all.html
-  - name: ESP32 Based Devices
-    url: esp32.html
   - name: Unsupportable Devices
     url: unsupported.html
   - name: How to use Templates?

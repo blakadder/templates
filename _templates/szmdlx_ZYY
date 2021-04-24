@@ -10,7 +10,7 @@ link3: https://www.aliexpress.com/item/4000145673070.html
 mlink: 
 flash: tuya-convert
 category: misc
-type: IR Bridge
+type: IR Controller
 standard: global
 ---
 The AliExpress product page shows this device also having an LED nightlight function, but I could not find a GPIO that controls this. However, the SZMDLX-branded unit I purchased from Amazon does not mention a nightlight function in ether the marketing materials or the manual (though the LEDs are visible on the board through the product housing).  Perhaps the unit sold by Amazon does not support the nightlight?

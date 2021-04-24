@@ -1,7 +1,7 @@
 ---
 title: Slampher
-category: misc
-type: Bulb Socket
+category: light
+type: Socket Adapter
 standard: eu
 mlink: https://sonoff.tech/product/wifi-smart-lighting/slampher-wi-fi-smart-lamp-holder
 link: https://www.itead.cc/sonoff-slampher-r2.html

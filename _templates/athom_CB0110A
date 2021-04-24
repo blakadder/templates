@@ -9,7 +9,7 @@ link: https://www.aliexpress.com/item/4001156098090.html
 link2: https://www.tindie.com/products/athom/pre-flashed-tasmota-circuit-breaker-esp8266/
 flash: preflashed
 category: relay
-type: Relay
+type: Switch Module
 standard: global
 ---
 ![PCB](/assets/images/athom_CB0110A_pcb.jpg)

@@ -2,8 +2,8 @@
 date_added: 2021-01-01
 title: Olimex ESP32-POE
 model: ESP32-POE
-category: misc
-type: DIY
+category: diy
+type: Development Board
 standard: global
 image: /assets/images/olimex_ESP32-POE.jpg
 template32: '{"NAME":"Olimex ESP32-PoE","GPIO":[1,1,1,1,1,1,0,0,5536,1,1,1,1,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 

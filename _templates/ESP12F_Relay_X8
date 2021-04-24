@@ -10,7 +10,7 @@ link2:
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 Headers can be soldered. 

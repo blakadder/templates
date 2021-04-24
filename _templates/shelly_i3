@@ -9,6 +9,6 @@ link2: https://www.domadoo.fr/fr/objets-communicants/5288-shelly-module-d-activa
 mlink: https://shelly.cloud/products/shelly-i3-smart-home-automation-device/
 flash: mgos
 category: relay
-type: Switch
+type: Switch Module
 standard: global
 ---

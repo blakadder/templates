@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: relay
-type: Switch
+type: Switch Module
 standard: eu
 ---
 Use the 'SwitchDebounce' command to set the number of pulses required for the switch to be recognized as on or off. For example: SwitchDebounce 69 will turn the switch on after three pulses and turn it off after three missing ones.

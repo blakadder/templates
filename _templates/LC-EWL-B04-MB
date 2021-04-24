@@ -1,6 +1,6 @@
 ---
 date_added: 2020-09-01
-title: LC Technology PSF-B04 Ewelink 4 Channel Switch Module
+title: LC Technology PSF-B04 Ewelink 4 Channel Switch 
 model: LC-EWL-B04-MB
 image: /assets/images/LC-EWL-B04-MB.jpg
 template: '{"NAME":"LC-EWL-B04-MB","GPIO":[255,255,255,255,255,255,0,0,255,52,255,255,0],"FLAG":0,"BASE":18}' 
@@ -9,8 +9,8 @@ link2:
 link3: 
 mlink: http://www.chinalctech.com/m/view.php?aid=478
 flash: serial
-category: misc
-type: DIY
+category: diy
+type: Module
 standard: global
 ---
 

@@ -10,7 +10,7 @@ link3: https://www.banggood.com/SONOFF-ZBBridge-Smart-Bridge-p-1674754.html
 mlink: https://www.itead.cc/sonoff-zbbridge.html
 flash: serial
 category: misc
-type: Zigbee Bridge
+type: Zigbee Gateway
 standard: global
 ---
 ## Flash ESP8266

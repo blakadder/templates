@@ -10,7 +10,7 @@ link3: https://www.banggood.com/3_5-20V-5A-100W-USB-Controller-Mobile-APP-Remote
 mlink: https://www.alibaba.com/product-detail/WIFI-USB-Mobile-Remote-Controller-Mobile_62438878126.html
 flash: serial
 category: relay
-type: Switch
+type: Switch Module
 standard: global
 ---
 ![pinout](https://m.blog.hu/bi/bitekmindenhol/image/wfusb_pinout.jpg)

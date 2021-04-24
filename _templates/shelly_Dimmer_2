@@ -2,7 +2,7 @@
 date_added: 2020-12-03
 title: Shelly Dimmer 2
 category: relay
-type: Dimmer
+type: Dimmer Module
 standard: global
 flash: mgos
 image: /assets/images/shelly_Dimmer_2.jpg

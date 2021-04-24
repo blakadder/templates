@@ -2,7 +2,7 @@
 date_added: 2019-12-24
 title: Eachen IR DC6
 category: misc
-type: IR Bridge
+type: IR Controller
 standard: global
 flash: serial
 image: https://images-na.ssl-images-amazon.com/images/I/51VaObTqjOL._SL1000_.jpg

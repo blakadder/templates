@@ -2,8 +2,8 @@
 date_added: 2021-01-01
 title: LilyGO TTGO T-Internet-POE
 model: T-Internet-POE
-category: misc
-type: DIY
+category: diy
+type: Development Board
 standard: global
 image: /assets/images/lilygo_T-Internet-POE.jpg
 template32: '{"NAME":"LilyGO T-Internet-POE","GPIO":[0,1,1,1,1,1,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 

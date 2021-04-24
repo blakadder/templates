@@ -9,7 +9,7 @@ link2: https://www.aliexpress.com/item/4001157460449.html
 mlink: https://www.tuya.eachen.cc/products/eachen-wifi-inching-relay-momentary-switch-module-st-dc1-tuya-smartlife-app
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: [global]
 ---
 ## Serial Flashing

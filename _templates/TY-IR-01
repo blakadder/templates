@@ -3,13 +3,13 @@ date_added: 2020-12-06
 title: TY-IR-01
 model: TY-IR-01
 image: /assets/images/TY-IR-01.jpg
-template9: '{"NAME":"TY-IR-01 IR Bridge","GPIO":[1,1,1,1,288,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
+template9: '{"NAME":"TY-IR-01 IR Controller","GPIO":[1,1,1,1,288,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.amazon.com/dp/B08H8BM7D4
 link2: 
 mlink: 
 flash: serial
 category: misc
-type: IR Bridge
+type: IR Controller
 standard: global
 ---
 Disassembly:  Remove cover by separating bottom using a old gift card or flat head screw driver. Nothing is glued, just held in place by plastic clips.

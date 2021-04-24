@@ -9,7 +9,7 @@ link2:
 mlink: http://www.raspberrypiwiki.com/index.php/5V-4_Jog_Switch
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 Flashing instructions in [Tasmota Documentation](https://tasmota.github.io/docs/devices/Sonoff-4CH-DIY)

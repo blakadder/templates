@@ -2,7 +2,7 @@
 date_added: 2019-05-01
 title: Shelly 1PM
 category: relay
-type: Switch
+type: Switch Module
 standard: global
 flash: mgos
 mlink: https://shelly.cloud/shelly-1pm-wifi-smart-relay-home-automation/

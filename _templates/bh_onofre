@@ -9,7 +9,7 @@ link2:
 mlink: https://bhonofre.pt/
 flash: serial
 category: relay
-type: Relay
+type: Switch Module
 standard: global
 ---
 https://bhonofre.pt/tutorials.xhtml

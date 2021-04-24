@@ -9,11 +9,11 @@ link2: https://www.amazon.com/dp/B07ZP5NQWF
 mlink: 
 flash: serial
 category: misc
-type: IR Bridge
+type: IR Controller
 standard: global
 unsupported: true
 ---
-This device is Very similar to YTF Universal Remote IR Bridge, but with the led not inverted.
+This device is Very similar to YTF Universal Remote IR Controller, but with the led not inverted.
 
 ## Warning
 Newer devices come with an incompatible Tuya WB3S module and cannot be flashed with Tasmota.

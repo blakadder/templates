@@ -1,7 +1,7 @@
 ---
 title: Shelly 1
 category: relay
-type: Switch
+type: Switch Module
 standard: global
 flash: mgos
 mlink: https://shelly.cloud/shelly1-open-source/
