@@ -12,12 +12,8 @@ flash: serial
 category: light
 type: Ceiling Light
 standard: global
----
-Requires [tasmota32solo1.bin](https://github.com/Jason2866/Tasmota-specials/blob/firmware/firmware/tasmota32/other/tasmota32solo1.bin) because it is using the single core version of ESP32
+Requires [tasmota32solo1.bin](http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin) because it is using the single core version of ESP32
 
-If you are creating the firmware from source then follow these steps:
-- In the platformio_override.ini update the `env:tasmota32solo1` var for platform_packages
-`framework-arduinoespressif32 @ https://github.com/Jason2866/esp32-arduino-lib-builder/raw/framework-arduinoespressif32/framework-arduinoespressif32-release_v3.3-solo1-bd65eb8d1.tar.gz`
 - Once flashed, you need to add two settings to allow both PWM lights to be controlled:
     - `SetOption37 128`
     - `SetOption92 1`
