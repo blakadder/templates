@@ -66,3 +66,6 @@ Rule2 on tuyareceived#dptype5id11 do publish stat/%topic%/error %value% endon on
 _NOTE: verify that dpId11 is uses for error reporting. If not change to the right number_
 
 <a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-tuya_diffuser_fan_and_error_sensor.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-tuya_diffuser_fan_and_error_sensor.yaml)
+
+
+
