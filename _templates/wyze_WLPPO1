@@ -1,9 +1,9 @@
 ---
 date_added: 2021-02-03
-title: Wyze Plug
+title: Wyze 
 model: WLPPO1
 image: /assets/images/wyze_WLPPO1.jpg
-template32: '{"NAME":"Wyze Plug Outdoor","GPIO":[1,1,1,1,1,576,1,1,1,1,1,224,321,1,1,320,0,1,1,1,0,2624,2656,2720,0,0,0,0,225,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Wyze Plug Outdoor","GPIO":[0,0,0,0,0,576,0,0,0,0,0,224,320,0,0,320,0,0,0,0,0,2624,2656,2720,0,0,0,0,225,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: 
 link2: 
 mlink: https://wyze.com/wyze-plug-outdoor.html 
