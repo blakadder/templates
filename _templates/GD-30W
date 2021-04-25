@@ -63,7 +63,8 @@ Long press on device's power button initiates Tasmota's Wi-Fi config
 
 Use blueprint import button then create an automation from the blueprint which will send MQTT discovery payloads to Home Assistant. New entities should appear under the same Device Card in Tasmota integration.
 
-First we need to create a ruleset to send data to specific topics used in HA configurations:
+First we need to create a ruleset to send data to specific topics used in HA configurations (_NOTE: verify that dpId2 is used for error reporting and id103 for mist strenght. If not change to the right number_)
+:
 
 ```console
 Rule2 on tuyareceived#dptype5id12 do publish stat/%topic%/error %value% endon on tuyareceived#dptype4id103==1 do publish stat/%topic%/fanmode high endon on tuyareceived#dptype4id103==0 do publish stat/%topic%/fanmode low endon
