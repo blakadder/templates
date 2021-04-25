@@ -54,31 +54,23 @@ Backlog WebButton1 Diffuser; WebButton2 Light; FriendlyName1 Diffuser Fan; Frien
 ### What you get
 - `Power1` turns the diffuser on or off in stored mist strength mode as device power status
 - `Power2` controls the light as an RGB Light.
-- `TuyaEnum1` is for mist strength status and control: 
-    - `TuyaEnum1 0` for low 
-    - `TuyaEnum1 1` for high
-- `TuyaEnum2` is for light mode status and control: 
-    - `TuyaEnum2 0` for RGB cycle
-    - `TuyaEnum1 1` for solid color
-    - `TuyaEnum1 2` for solid white
+- `TuyaEnum1` is for mist strength status and control: `0` for low / `1` for high
+- `TuyaEnum2` is for light mode status and control: `0` for RGB cycle / `1` for solid color / `2` for solid white
 
 Long press on device's power button initiates Tasmota's Wi-Fi config
 
 ## Home Assistant configuration
 
-_This implementation is one of many options and is suited to my needs._
+Use blueprint import button then create an automation from the blueprint which will send MQTT discovery payloads to Home Assistant. New entities should appear under the same Device Card in Tasmota integration.
 
 First we need to create a ruleset to send data to specific topics used in HA configurations:
-
-### Necessary Rules
 
 ```console
 Rule2 on tuyareceived#dptype5id12 do publish stat/%topic%/error %value% endon on tuyareceived#dptype4id103==1 do publish stat/%topic%/fanmode high endon on tuyareceived#dptype4id103==0 do publish stat/%topic%/fanmode low endon
 ```
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-tuya_diffuser_fan_and_error_sensor.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-tuya_diffuser_fan_and_error_sensor.yaml)
 
-### Diffuser as Fan
-
-<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/tasmota-error-binary-sensor-tuya.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/tasmota-error-binary-sensor-tuya.yaml)
+### Editing configuration.yaml
 
 ```yaml
 {% raw %}fan:
@@ -96,17 +88,7 @@ Rule2 on tuyareceived#dptype5id12 do publish stat/%topic%/error %value% endon on
     availability_topic: "tele/%topic%/LWT"
     payload_available: "Online"
     payload_not_available: "Offline"{% endraw %}
-```
 
-### Error Sensor
-
-Error binary sensor which triggers when something is wrong with the diffuser, including when running out of water.
-
-<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/tasmota-error-binary-sensor-tuya.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/tasmota-error-binary-sensor-tuya.yaml)
-
-For manual config:
-
-```yaml
 binary_sensor:
   - platform: mqtt
     name: "Difuser Error"

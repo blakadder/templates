@@ -1,12 +1,13 @@
 ---
 date_added: 2019-11-06
 title: Wood Grain 550ML
+model: KCL-M1801C_M
 category: misc
 type: Aroma Diffuser
 standard: global
-link: https://www.aliexpress.com/item/550ML-APP-Control-Essential-Oil-Aroma-Diffuser-With-Wood-Grain-Air-Humidifier-Aromatherapy-Diffuser-For-Home/32983725049.html
+template9: '{"NAME":"MY-KCL01800FB","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
+link: https://www.aliexpress.com/item/32983725049.html
 image: https://user-images.githubusercontent.com/5904370/57200999-010cc300-6f93-11e9-8fbe-ad02435e367f.png
-template: '{"NAME":"MY-KCL01800FB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link2: 
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
@@ -35,167 +36,76 @@ PCB code: KCL-M1801C_M 2018_11_12 V5.0
 After applying the template and configuring Wi-Fi and MQTT issue
 
 ```console
-Backlog SetOption66 1; TuyaMCU 21,7; TuyaMCU 11,111; TuyaMCU 12,101; TuyaMCU 13,133; TuyaMCU 14,9; TuyaMCU 15,115; DimmerRange 1,255; SetOption59 1; SwitchMode 1
+Backlog TuyaMCU 21,7; TuyaMCU 24,8; TuyaMCU 11,111; TuyaMCU 11,112; TuyaMCU 63,2; TuyaMCU 62,6; TuyaMCU 61,101;
 ```
-
-For diffuser control and status:
-```console
-Rule1 ON TuyaReceived#Data=55AA00070005020400010012 do Power1 0 ENDON ON TuyaReceived#Data=55AA00070005020400010113 do Power1 1 ENDON ON TuyaReceived#Data=55AA00070005020400010214 do Power1 1 ENDON ON TuyaReceived#Data=55AA00070005020400010315 do TuyaSend4 2,1 ENDON ON Power1#State=1 do TuyaSend4 2,1 ENDON ON Power1#State=0 do TuyaSend4 2,0 ENDON
-```
-For light control and status:
-```console
-Rule2 ON Power3#State=1 do backlog Tuyasend4 6,3; publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"color"} ENDON ON Event#light_off do TuyaSend4 6,0 ENDON ON Event#rgb_cycle do TuyaSend4 6,1 ENDON ON Event#white do TuyaSend4 6,2 ENDON ON Event#color do TuyaSend4 6,3 ENDON ON Power3#State=0 do Backlog TuyaSend4 6,0; publish2 tele/diffuser/STATE {"Light":"OFF"} ENDON
-```
+After a restart issue additional configurations:
 
 ```console
-Rule3 ON TuyaReceived#Data=55AA00070005060400010319 do Power3 1 ENDON ON TuyaReceived#Data=55AA00070005060400010117 do Publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"rgb_cycle"} ENDON ON TuyaReceived#Data=55AA00070005060400010016 do Power3 0 ENDON ON TuyaReceived#Data=55AA00070005060400010218 do Publish2 tele/diffuser/STATE {"Light":"ON","LightMode":"white"} ENDON
+Backlog TuyaRGB 3; DimmerRange 1,255; LedTable 0; TuyaEnumList 1,1; TuyaEnumList 2,3; TuyaEnumList 3,3; Rule0 1
 ```
-Don't forget to activate rules
+
+Since fan and light control are type4 dpId's they cannot be directly mapped to a relay. Instead we created two dummy relays (`TuyaMCU 11,111` and `TuyaMCU 13,113`) which are then controlled using rules that convert relevand dpId statuses (`dpId2` for fan power and `dpId6` for light). Last rules takes the error (`dpId9`) states and sends them to a separate error topic which can be use in Home Automation systems.
+
 ```console
-Backlog Rule1 1; Rule2 1; Rule3 1
+Rule1 
+on power1#state do tuyaenum3 %value% endon
+on power2#state=0 do tuyaenum2 0 endon on power2#state=1 do tuyaenum2 3 endon
+on tuyareceived#dptype5id9 do publish stat/%topic%/error %value% endon 
+on tuyareceived#dptype4id101==1 do publish stat/%topic%/fanmode high endon on tuyareceived#dptype4id101==0 do publish stat/%topic%/fanmode low endon
+on tuyareceived#dptype4id6==3 do power2 1 endon
+on tuyaenum3#data==0 do power1 0 endon
+on scheme#data!=0 do backlog0 scheme 0; tuyaenum2 1 endon
 ```
 
 Label webUI buttons:
 ```console
-Backlog WebButton1 Power; WebButton2 Mist; WebButton3 Light; WebButton4 Error; WebButton5 -
+Backlog WebButton1 Fan; WebButton2 Light; FriendlyName1 Diffuser Fan; FriendlyName2 Diffuser Light
 ```
 
 ### What you get
-- fnid11 = Relay1 serves as device power status with the help of Rule1, dummy relay no control
-- fnid12 = Relay2 is mist strength status and control
-- fnid13 = Relay3 turns light on or off with Rule2 and Rule3
-- fnid14 = Relay4 is used for error status (ON = error), no control
-- find15 = Relay5 is a dummy relay so the dimmer doesn't control the other relays if we don't make one dimmer uses the last relay and would trigger errors
-- fnid21 = Dimmer
-
-Light mode and status are reported to mqtt topic `tele/diffuser/STATE` and command [`Event`](https://tasmota.github.io/docs/Commands#event) is used to change light modes using [`TuyaSend4`](https://tasmota.github.io/docs/Commands#tuyasend4) command. All this is defined in `Rule2`
-
-Color can be changed using `TuyaSend3 8,RRGGBB64646464` (RR, GG and BB are hex value) only in color mode.
-
-Dimming works using slider and `Dimmer` command.
+- `Power1` is device power status (dummy relay uses rules to control TuyaEnum3)
+- `Power2` is a standard RGB light (power state uses rules to control TuyaEnum2)
+- `TuyaEnum3` is fan power and modes
+- `TuyaEnum2` is light power and modes
+- `TuyeEnum1` is mist strength status and control
 
 ## Home Assistant configuration
-This implementation is suited to specific needs and does not incorporate all features of the device, mostly to avoid weird situations and wrong states being reported.
 
-Fan is the diffuser. Light component is the device's RGB light.    
-Binary sensor uses Relay4 to show when the diffuser is out of water.    
+**Make sure `Rule1` is implemented and active before proceeding.**
 
-configuration.yaml
-{% highlight yaml %}
-{% raw %}
-fan:
+Use blueprint import button then create an automation from the blueprint which will send MQTT discovery payloads to Home Assistant. New entities should appear under the same Device Card in Tasmota integration.
+
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-tuya_diffuser_fan_and_error_sensor.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-tuya_diffuser_fan_and_error_sensor.yaml)
+
+### Editing configuration.yaml
+
+```yaml
+{% raw %}fan:
   - platform: mqtt
     name: "Diffuser"
-    availability_topic: "tele/diffuser/LWT"
+    state_topic: "stat/%topic%/RESULT"
+    state_value_template: "{% if value_json.POWER1 is defined %}{{ value_json.POWER1 }}{% endif%}"
+    command_topic: "cmnd/%topic%/POWER1"
+    preset_modes:
+    -  "high"
+    -  "low"
+    preset_mode_state_topic: "stat/%topic%/fanmode"
+    preset_mode_command_topic: "cmnd/%topic%/tuyaenum1"
+    preset_mode_command_template: '{{ 1 if value == "high" else 0 }}'
+    availability_topic: "tele/%topic%/LWT"
     payload_available: "Online"
-    payload_not_available: "Offline"
-    state_topic: "stat/diffuser/POWER1"
-    command_topic: "cmnd/diffuser/POWER1"
-    payload_on: "ON"
-    payload_off: "OFF"
-    speed_state_topic: "tele/diffuser/STATE"
-    speed_value_template: "{{ value_json.POWER2 }}"
-    speed_command_topic: "cmnd/diffuser/POWER2"
-    payload_low_speed: "OFF"
-    payload_high_speed: "ON"
-    qos: 1
-    speeds:
-      - low
-      - high
+    payload_not_available: "Offline"{% endraw %}
 
 binary_sensor:
   - platform: mqtt
-    name: "Diffuser Water"
-    state_topic: "stat/diffuser/POWER4"
-    payload_on: "ON"
-    payload_off: "OFF"
-    availability_topic: "tele/diffuser/LWT"
-    payload_available: "Online"
-    payload_not_available: "Offline"
-    qos: 1
+    name: "Difuser Error"
+    state_topic: "stat/%topic%/error"
+    value_template: {% raw %}"{{ 'ON' if value != '0X00' else 'OFF' }}"{% endraw %}
     device_class: problem
-
-light:
-  - platform: mqtt
-    name: "Diffuser Lamp"
-    command_topic: "cmnd/diffuser/POWER3"
-    state_topic: "tele/diffuser/STATE"
-    state_value_template: "{% if value_json.Light is defined %}{{ value_json.Light }}{% endif %}"
-    payload_on: "ON"
-    payload_off: "OFF"
-    brightness_command_topic: "cmnd/diffuser/DIMMER"
-    brightness_state_topic: "tele/diffuser/STATE"
-    brightness_scale: 100
-    brightness_value_template: "{{ value_json.Dimmer }}"
-    effect_command_topic: "cmnd/diffuser/EVENT"
-    effect_state_topic: "tele/diffuser/STATE"
-    effect_value_template: "{% if value_json.Light is defined %}{{ value_json.LightMode }}{% endif %}"
-    effect_list:
-      - rgb_cycle
-      - color
-      - white
-    availability_topic: "tele/diffuser/LWT"
+    availability_topic: "tele/%topic%/LWT"
     payload_available: "Online"
-    payload_not_available: "Offline"
-    qos: 1
-    retain: false
-    rgb_command_topic: "cmnd/diffuser/TUYASEND3"
-    rgb_command_template: "{% set brightness = state_attr('light.diffuser_lamp','brightness') | int %}{{ '8,%02x%02x%02xffff6464' | format(red, green, blue)}}"
-    rgb_value_template: "{% if value_json.TuyaReceived is defined and value_json['TuyaReceived'].DpId == 8 %}{{ (value_json['TuyaReceived'].Type3Data[0:2]|int(base=16),value_json['TuyaReceived'].Type3Data[2:4]|int(base=16),value_json['TuyaReceived'].Type3Data[4:6]|int(base=16)) | join(',')}}{% endif %}"
-    rgb_state_topic: "tele/diffuser/RESULT"
-
-{% endraw %}
-{% endhighlight %}
-
-All entities under one card:
-![Final config](https://user-images.githubusercontent.com/5904370/68260667-f0223480-003d-11ea-8a07-849ae60b81e2.png)
-
-
-Here's a list of captured serial codes used for debugging:
-
-```lua
-set wifi led state
-55aa000300010306
-diffuser off
-55AA00060005020400010011
-continuous mode
-55AA00060005020400010112
-intermittent mode
-55AA00060005020400010213
-countdown mode
-55AA00060005020400010314
-countdown 1 min
-55AA0006000866020004000000017A
-countdown 1 hr
-55AA00060008660200040000003CB5
-countdown 3 hr
-55AA0006000866020004000000B42D
-high speed
-55AA00060005650400010175
-low speed
-55AA00060005650400010074
-dimmer 0%
-55AA0006000807020004000000001A
-dimmer 100%
-55AA0006000807020004000000FF19
-light on
-55AA00060005060400010318
-light off
-55AA00060005060400010015
-white light
-55AA00060005060400010217
-rgb cycle
-55AA00060005060400010116
-color green
-55AA000600120803000E31316666303030303734363436345D
-color blue
-55AA000600120803000E3030313566663030656136343634BC
-color yellow
-55AA000600120803000E666665363030303033353634363493
-color red
-55AA000600120803000E666630303039303136353634363465
-color purple
-55AA000600120803000E6666303065653031333036343634BE
+    payload_not_avail: "Offline"
 ```
 
+## PCB
 [![IMG-20190505-230944.jpg](https://i.postimg.cc/sDmp2YqR/IMG-20190505-230944.jpg)](https://postimg.cc/WhDDWks9)
