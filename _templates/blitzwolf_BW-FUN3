@@ -25,7 +25,8 @@ standard: eu
 
 ## Configuration
 
-Then on console,apply this:
+After applying the template and configuring Wi-Fi and MQTT issue
+
 ```console
 Backlog TuyaMCU 11,1; TuyaMCU 12,5; TuyaMCU 21,7; TuyaMCU 24,8; TuyaMCU 61,2; TuyaMCU 62,6
 ```
