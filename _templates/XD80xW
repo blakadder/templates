@@ -1,0 +1,74 @@
+---
+date_added: 2021-04-24
+title: Essential Oil 400ml
+model: XD80xW
+category: misc
+type: Aroma Diffuser
+standard: global
+template9: '{"NAME":"XD800W","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
+image: /assets/images/XD80xW.jpg
+link: https://www.aliexpress.com/item/33025385597.html
+link2: https://www.banggood.com/XD805W-Smart-Ultrasonic-Humidifier-400ml-Essential-Oil-Aromatherapy-Machine-for-Home-Bedroom-Office-p-1615958.html
+---
+
+Models are marked as 802W to 808W there is just different top cover.
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) wiki entry to understand the terminology and configuration process.
+
+## Functions
+- `dpID 1` device mode: `0 = off / 1 = continuous` Type1 
+- `dpID 2` error notification ?: `0 = ok / 1 = error` Type1
+- `dpID 3` set timer `0 = off / 1 = 1 hour / 2 = 3 hours / 3 = 6 hours` *not needed with Tasmota, there's a Timer function* Type4
+- `dpID 5` light switch: `0 = off / 1 = on ` Type1
+- `dpID 6` light mode: `0 = off / 1 = rgb cycle 3 = single color` Type4
+- `dpID 8` led color: `14 char value in hex` (can define only RGB and send HSV value as max: `RRGGBBffff6464`) Type4  
+
+> I found the built in buzzer very loud so I dropped little hot glue to the center of it for quieter operation!
+
+## Configuration
+
+```console
+Backlog TuyaMCU 11,1; TuyaMCU 12,5; TuyaMCU 21,7; TuyaMCU 24,8; TuyaMCU 61,4; TuyaMCU 62,6
+```
+
+After a restart issue the rest of configurations:
+
+```console
+Backlog TuyaRGB 3; DimmerRange 1,255; TuyaEnumList 1,1; TuyaEnumList 2,1; Rule0 1
+```
+
+Label webUI buttons and set friendly names for power outputs:
+```console
+Backlog WebButton1 Diffuser; WebButton2 Light; FriendlyName1 Diffuser Fan; FriendlyName2 Diffuser Light 
+```
+
+Rules used to prevent the device going into countdown mode (f.e. using on device controls) and complete MCU status update on restart. Second rule turns on RGB cycle mode instead of using Tasmota light schemes which don't work with this device.
+
+```console
+Rule1 on tuyareceived#dptype4id3!=0 do tuyasend4 3,0 endon on scheme#data!=0 do backlog0 scheme 0; tuyaenum2 1 endon
+```
+
+### What you get
+- `Power1` turns the diffuser on or off in stored mist strength mode as device power status
+- `Power2` controls the light as an RGB Light.
+- `TuyaEnum1` is for mist strength status and control: `0` for low / `1` for high
+- `TuyaEnum2` is for light mode status
+
+## Home Assistant configuration
+
+Use blueprint import button then create an automation from the blueprint which will send MQTT discovery payloads to Home Assistant. New entities should appear under the same Device Card in Tasmota integration.
+
+First we need to create a ruleset to send data to specific topics used in HA configurations:
+
+```console
+Rule2 on tuyareceived#dptype1id2 do publish stat/%topic%/error %value% endon on tuyareceived#dptype4id4==1 do publish stat/%topic%/fanmode high endon on tuyareceived#dptype4id4==0 do publish stat/%topic%/fanmode low endon
+```
+_NOTE: verify that dpId11 is uses for error reporting and id4 for mist strenght. If not change to the right number_
+
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-tuya_diffuser_fan_and_error_sensor.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-tuya_diffuser_fan_and_error_sensor.yaml)
+
+## PCB
+![PCB1](https://i.postimg.cc/QdgMJYzL/IMG-20191111-174536.jpg)
+![PCB2](https://i.postimg.cc/hGP7zqtZ/IMG-20191111-221038.jpg)
+![PCB3](https://i.postimg.cc/V6JrgBMj/IMG-20191111-221045.jpg)
+![PCB4](https://i.postimg.cc/SKTYctXS/IMG-20191111-221113.jpg)
