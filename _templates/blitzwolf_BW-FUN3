@@ -63,7 +63,7 @@ First we need to create a ruleset to send data to specific topics used in HA con
 ```console
 Rule2 on tuyareceived#dptype5id11 do publish stat/%topic%/error %value% endon on tuyareceived#dptype4id2==1 do publish stat/%topic%/fanmode high endon on tuyareceived#dptype4id2==0 do publish stat/%topic%/fanmode low endon
 ```
-_NOTE: verify that dpId11 is uses for error reporting. If not change to the right number_
+_NOTE: verify that dpId11 is used for error reporting. If not change to the right number_
 
 <a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-tuya_diffuser_fan_and_error_sensor.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-tuya_diffuser_fan_and_error_sensor.yaml)
 
