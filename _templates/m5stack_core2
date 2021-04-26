@@ -12,8 +12,9 @@ link: https://www.banggood.com/M5Stack-Core2-ESP32-with-Touch-Screen-Development
 link2: https://www.aliexpress.com/item/1005001664431732.html
 link3: https://www.amazon.com/dp/B08Q7RDC5R
 ---
-You do not need to apply any templates. All pin definitions are hardcoded except GPIO 33,34 for external SCL and SDA on grove bus.
+Use [tasmota32-core2.bin](http://ota.tasmota.com/tasmota32/tasmota32-core2.bin) binary!
 
+## Compiling
 Use latest Tasmota development release and set in user_config_override.h
 
 ```arduino
@@ -35,7 +36,8 @@ Use latest Tasmota development release and set in user_config_override.h
 #define USE_FT5206  
 #define USE_MPU6886  
 ```
-add this in platformio.ini to `build_flags`: 
+add this in platformio.ini to `build_flags`:
+ 
 ```arduino
 -DBOARD_HAS_PSRAM
 -mfix-esp32-psram-cache-issue
