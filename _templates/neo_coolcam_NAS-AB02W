@@ -1,15 +1,16 @@
 ---
-date_added: 2020-09-01
-title: NEO Coolcam Siren with Temperature and Humidity
+date_added: 2021-04-26
+title: NEO Coolcam Temperature and Humidity 3in1 Alarm
 model: NAS-AB02W
 image: /assets/images/neo_coolcam_NAS-AB02W.jpg
-template: '{"NAME":"Neo Siren 3in1","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+template9: '{"NAME":"Neo Siren 3in1","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/33042023659.html
-link2: 
+link2: https://www.banggood.com/NEO-WiFi-USB-Siren-Alarm-3-In-1-With-Temperature-Humidity-sensor-Work-with-Amazon-Google-Home-Assistant-Tuya-p-1808799.html
+link3: https://www.amazon.de/dp/B08D76YHFT
 mlink: https://www.szneo.com/en/products/show.php?id=230
 flash: tuya-convert
 category: sensor
-type: Multisensor
+type: Siren
 standard: global
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
@@ -18,17 +19,14 @@ This is a Tuya siren with temperature and humidity sensor. Runs on USB and two C
 
 ## Hardware Versions
 
-There are three known hardware versions ymf:1.0.1, ymf:1.0.2 and 9fn:1.0.2.  The console after reboot will show one of these code on a line with "TYA: MCU Product ID:".
-
-- `{"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}`
-- `{"p":"ymf4oruxqx0xlogp","v":"1.0.2","m":0}`
-- `{"p":"9fngbrgje6ljqhee","v":"1.0.2","m":0}` 
+There are, so far, three known hardware versions.  The console will show one of these MCU Product ID's:
+`{"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}` , `{"p":"ymf4oruxqx0xlogp","v":"1.0.2","m":0}` or `{"p":"9fngbrgje6ljqhee","v":"1.0.2","m":0}` 
 
 The `ymf` versions work with tuya-convert but the `9fn` version requires flashing the device with serial.
 
-The 1.0.1 version supports the `[TuyaSend0](https://tasmota.github.io/docs/Commands/#tuyasend)` command to query the MCU for the latest values but the 1.0.2 version does not appear to support that command at this time (2021-03-05). (see <a href="https://discord.com/channels/479389167382691863/790917300210368562/817253209894027294">discord</a>)
+The 1.0.1 version supports the [`TuyaSend0`](https://tasmota.github.io/docs/Commands/#tuyasend) command to query the MCU for the latest values but the 1.0.2 version does not appear to support that command at this time (2021-03-05).
 
-In an order on 2021-01-31 for three devices, one of each hardware versions was received.  In an order from 2020-12, the ymf:1.0.1 version was received, which is rock solid.
+In an order on 2021-01-31 for three devices, one of each hardware versions was received.  In an order from 2020-12, the 1.0.1 version was received, which is rock solid.
 
 ## Flashing
 
@@ -41,32 +39,9 @@ Steps:
 - Connect the USB to power (there is no need to power from the serial device)
 - Continue to hold the GPIO0 to ground for about 5-10 seconds to ensure that the chip is in flashing mode (there are no hardware indications)
 - Hold the TX and RX from the serial to the pads "RXD0" and "TXD0" (cross the streams)
-- Then Tasmotize - I was successful with tasmotizer-1.2.exe and tasmota-sensors.bin (9.1.3).
+- Flash tasmota.bin
 
-<a href="/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg"><img style="width:400px" src="/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg"></a>
-
-## Configuration
-
-Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
-
-Disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and change device to a TuyaMCU module 
-```console
-Backlog SetOption65 1; SetOption66 1; Module 54
-```
-Map alarm control to POWER
-```console
-TuyaMCU 11,104
-```
-
-Map Indoor Temp
-```
-TuyaMCU 71,105
-```
-
-Map Indoor Humidity
-```
-TuyaMCU 73,106
-```
+![/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg](/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg)
 
 ## Functions
 Alarm will be turned on or off using POWER. 
@@ -89,7 +64,7 @@ Alarm will be turned on or off using POWER.
 ### Chime sounds:
 
 - 0 - doorbell
-- 1 - fuer elise
+- 1 - fur elise
 - 2 - big ben
 - 3 - ring ring
 - 4 - lone ranger
@@ -100,18 +75,50 @@ Alarm will be turned on or off using POWER.
 - 9 - beep beep
 - 10 - dogs
 - 11 - police
-- 12 - chime
+- 12 - grandfather clock
 - 13 - phone ring
 - 14 - firetruck
 - 15 - clock chime
 - 16 - alarm clock
-- 17 - psycho
+- 17 - school bell
+
+## Configuration
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and change device to a TuyaMCU module 
+```console
+Backlog SetOption65 1; Module 54
+```
+Map Tuya functions:
+```console
+Backlog TuyaMCU 10,104; TuyaMCU 70,105; TuyaMCU 73,106; TuyaMCU 81,103; TuyaMCU 61,102; TuyaMCU 62,116
+```
+Finish configuring
+```console
+Backlog Tempres 1; TuyaEnumList 0,17; TuyaEnumList 2,2; Rule0 1
+```
+
+## Home Assistant Configuration
+
+Add necessary rules:
+
+```console
+Rule3 on tuyareceived#dptype2id103 do publish %topic%/alarmduration %value% endon on var1#state do tuyasend2 103,%value% endon on tuyareceived#dptype4id101 do publish %topic%/battery %value% endon on tuyareceived#dptype4id102 do publish %topic%/chime %value% endon on tuyareceived#dptype4id116 do publish %topic%/alarmvolume %value% endon
+```
+
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-tuya_siren.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-tuya_siren.yaml)
+
+Commands for control:
+- `Power1` - Chime on/off
+- `TuyaEnum1` - Chime type
+- `TuyaEnum2` - Alarm volume
+- `Var1` - Alarm duration
 
 ## Example Commands
 
-- TuyaSend0 - Force read of data from MCU and send to MQTT broker
-- TuyaSend2 103,12 - Set alarm duration time to 12 seconds
-- TuyaSend2 108,390 - Set maximum temperature to trigger alarm to 39.0 °C
-- TuyaSend2 113,0 - Disable temperature alarm control
-- TuyaSend2 114,0 - Disable humidity alarm control
-- TuyaSend4 116,2 - Set alarm volume to Low
+- `TuyaSend2 103,12` - Set alarm duration time to 12 seconds
+- `TuyaSend2 108,390` - Set maximum temperature to trigger alarm to 39.0 °C
+- `TuyaSend2 113,0` - Disable temperature alarm control
+- `TuyaSend2 114,0` - Disable humidity alarm control
+- `TuyaSend4 116,2` - Set alarm volume to low

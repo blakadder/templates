@@ -54,6 +54,7 @@ on tuyareceived#dptype5id9 do publish stat/%topic%/error %value% endon
 on tuyareceived#dptype4id101==1 do publish stat/%topic%/fanmode high endon on tuyareceived#dptype4id101==0 do publish stat/%topic%/fanmode low endon
 on tuyareceived#dptype4id6==3 do power2 1 endon on tuyareceived#dptype4id2==3 do tuyaenum3 1 endon
 on tuyaenum3#data==0 do power1 0 endon
+on tuyareceived#dptype4id2!=0 do power1 1 endon 
 on scheme#data!=0 do backlog0 scheme 0; tuyaenum2 1 endon
 ```
 
