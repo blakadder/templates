@@ -85,9 +85,9 @@ After configuring the template or setting `Module 54` map Tuya functions:
 ```console
 Backlog TuyaMCU 10,104; TuyaMCU 70,105; TuyaMCU 73,106; TuyaMCU 81,103; TuyaMCU 61,102; TuyaMCU 62,116
 ```
-Finish configuring
+Finish configuring with these options
 ```console
-Backlog TempRes 1; TuyaEnumList 0,17; TuyaEnumList 2,2; Rule0 1; Backlog SetOption65 1
+Backlog TuyaEnumList 0,17; TuyaEnumList 2,2; Rule0 1; SetOption65 1; TempRes 1; HumRes 0
 ```
 
 ## Home Assistant Configuration
