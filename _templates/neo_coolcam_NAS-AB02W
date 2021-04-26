@@ -207,4 +207,4 @@ number:
     icon: "mdi:timer-sand"
     payload_available: Online
     payload_not_available: Offline
-
+```
