@@ -81,17 +81,13 @@ Steps:
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
-Disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and change device to a TuyaMCU module 
-```console
-Backlog SetOption65 1; Module 54
-```
-Map Tuya functions:
+After configuring the template or setting `Module 54` map Tuya functions:
 ```console
 Backlog TuyaMCU 10,104; TuyaMCU 70,105; TuyaMCU 73,106; TuyaMCU 81,103; TuyaMCU 61,102; TuyaMCU 62,116
 ```
 Finish configuring
 ```console
-Backlog TempRes 1; TuyaEnumList 0,17; TuyaEnumList 2,2; Rule0 1
+Backlog TempRes 1; TuyaEnumList 0,17; TuyaEnumList 2,2; Rule0 1; Backlog SetOption65 1
 ```
 
 ## Home Assistant Configuration
@@ -155,7 +151,7 @@ sensor:
     availability_topic: "tele/%topic%/LWT"
     payload_available: "Online"
     payload_not_available: "Offline"
-    
+
   - platform: mqtt
     name: "Active Chime"
     state_topic: "%topic%/chime"
