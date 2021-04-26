@@ -21,8 +21,11 @@ with display
 user_config_override.h
 ```c++
 #define USE_M5STACK_CORE2
-#define USE_IR_REMOTE          // Send IR remote commands using library IRremoteESP8266 and ArduinoJson (+4k3 code, 0k3 mem, 48 iram)
+#define USE_IR_REMOTE        
 #define USE_UNIVERSAL_DISPLAY
+#define USE_ENERGY_SENSOR
+#define USE_I2C
+#define USE_LIGHT
 ```
 
 Add env in `platformio_override.ini` and compile it
