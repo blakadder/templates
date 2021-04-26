@@ -44,10 +44,26 @@ Steps:
 ![/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg](/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg)
 
 ## Functions
-Alarm will be turned on or off using POWER. 
-
 - dpId 101 - power type (1 - battery high; 2 - medium; 3 - low; 4 - usb port)
 - dpId 102 - alarm type chime sound (0-17)
+    - 0 - doorbell
+    - 1 - fur elise
+    - 2 - big ben
+    - 3 - ring ring
+    - 4 - lone ranger
+    - 5 - turkish march
+    - 6 - high pitch siren
+    - 7 - red alert
+    - 8 - cricket
+    - 9 - beep beep
+    - 10 - dogs
+    - 11 - police
+    - 12 - grandfather clock
+    - 13 - phone ring
+    - 14 - firetruck
+    - 15 - clock chime
+    - 16 - alarm clock
+    - 17 - school bell
 - dpId 103 - alarm duration time (in seconds)
 - dpId 104 - alarm control
 - dpId 105 - temp in C (divide by 10) 
@@ -60,27 +76,6 @@ Alarm will be turned on or off using POWER.
 - dpId 113 - temperature alarm control (0 = off, 1 = on)
 - dpId 114 - humidity alarm control (0 = off, 1 = on)
 - dpId 116 - alarm volume (0 = high, 1 = medium, 2 = low)
-
-### Chime sounds:
-
-- 0 - doorbell
-- 1 - fur elise
-- 2 - big ben
-- 3 - ring ring
-- 4 - lone ranger
-- 5 - turkish march
-- 6 - high pitch siren
-- 7 - red alert
-- 8 - cricket
-- 9 - beep beep
-- 10 - dogs
-- 11 - police
-- 12 - grandfather clock
-- 13 - phone ring
-- 14 - firetruck
-- 15 - clock chime
-- 16 - alarm clock
-- 17 - school bell
 
 ## Configuration
 
@@ -96,7 +91,7 @@ Backlog TuyaMCU 10,104; TuyaMCU 70,105; TuyaMCU 73,106; TuyaMCU 81,103; TuyaMCU 
 ```
 Finish configuring
 ```console
-Backlog Tempres 1; TuyaEnumList 0,17; TuyaEnumList 2,2; Rule0 1
+Backlog TempRes 1; TuyaEnumList 0,17; TuyaEnumList 2,2; Rule0 1
 ```
 
 ## Home Assistant Configuration
