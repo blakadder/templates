@@ -117,3 +117,98 @@ Commands for control:
 - `TuyaSend2 113,0` - Disable temperature alarm control
 - `TuyaSend2 114,0` - Disable humidity alarm control
 - `TuyaSend4 116,2` - Set alarm volume to low
+
+## configuration.yaml 
+
+```yaml
+sensor:
+  - platform: mqtt
+    name: "Siren Power Status"
+    state_topic: "%topic%/battery"
+    value_template: >-
+        {% raw %}{% if value == "1" %} 
+        battery high
+        {% elif value == "2" %} 
+        battery medium
+        {% elif value == "3" %} 
+        battery low
+        {% elif value == "4" %} 
+        USB power
+        {% endif %} {% endraw %}
+    icon: "mdi:battery-plus"
+    availability_topic: "tele/%topic%/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+
+  - platform: mqtt
+    name: "Siren Volume"
+    state_topic: "%topic%/alarmvolume"
+    value_template: >-
+        {% raw %}{% if value == "0" %} 
+        battery high
+        {% elif value == "1" %} 
+        battery medium
+        {% elif value == "2" %} 
+        battery low
+        {% endif %} {% endraw %}
+    icon: "mdi:volume-vibrate"
+    availability_topic: "tele/%topic%/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    
+  - platform: mqtt
+    name: "Active Chime"
+    state_topic: "%topic%/chime"
+    value_template: >-
+        {% raw %}{% if value == "0" %} 
+        doorbell
+        {% elif value == "1" %} 
+        elise
+        {% elif value == "2" %} 
+        big ben
+        {% elif value == "3" %} 
+        ring ring
+        {% elif value == "4" %} 
+        lone ranger
+        {% elif value == "5" %} 
+        turkish march
+        {% elif value == "6" %} 
+        high pitch
+        {% elif value == "7" %} 
+        red alert
+        {% elif value == "8" %} 
+        crickets
+        {% elif value == "9" %} 
+        beep beep
+        {% elif value == "10" %} 
+        dog bark
+        {% elif value == "11" %} 
+        police
+        {% elif value == "12" %} 
+        chime
+        {% elif value == "13" %} 
+        phone ring
+        {% elif value == "14" %} 
+        firetruck
+        {% elif value == "15" %} 
+        clock chime
+        {% elif value == "16" %} 
+        alarm clock
+        {% elif value == "17" %} 
+        psycho
+        {% endif %}{% endraw %}
+    icon: "mdi:music-note"
+    availability_topic: "tele/siren/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+
+number:
+  - platform: mqtt
+    name: Alarm Duration
+    state_topic: '%topic%/alarmduration'
+    command_topic: 'cmnd/%topic%/var1'
+    availability_topic: 'tele/%topic%/LWT'
+    icon: "mdi:timer-sand"
+    payload_available: Online
+    payload_not_available: Offline
+
