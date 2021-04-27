@@ -12,11 +12,8 @@ type: Plug
 standard: eu
 ---
 
-### Versions:
-
-See also:
-* Gosund SP111
-* Gosund SP111 v1.1
-
-### Pinout
 Only for PCB Layout V1.4
+
+If the template doesn't work see other hardware versions of the same plug:
+* [Gosund SP111 v1.1](gosund_SP111_v1_1)
+* [Gosund SP111](gosund_SP111)
