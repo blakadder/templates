@@ -11,4 +11,5 @@ flash: serial
 category: bulb
 type: RGBCCT
 standard: e14
+unsupported: true
 ---
