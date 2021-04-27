@@ -3,7 +3,7 @@ date_added: 2019-12-12
 title: Gosund SP111 v1.4
 link: https://www.ebay.de/i/283634303185
 image: /assets/images/gosund_SP111.jpg
-template: '{"NAME":"Gosund SP111","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
+template: '{"NAME":"Gosund SP111 v1.4","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
 link2: 
 mlink: https://www.gosund.store/products/wi-fi-smart-plug-sp111-only-for-europe
 flash: tuya-convert
@@ -11,4 +11,12 @@ category: plug
 type: Plug
 standard: eu
 ---
+
+### Versions:
+
+See also:
+* Gosund SP111
+* Gosund SP111 v1.1
+
+### Pinout
 Only for PCB Layout V1.4

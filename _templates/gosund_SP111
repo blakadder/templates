@@ -10,6 +10,9 @@ template: '{"NAME":"Gosund SP111","GPIO":[56,0,57,0,0,134,0,0,131,17,132,21,0],"
 link2:
 ---
 
+### Versions:
 
-
+See versioned templates firstly, they can be more suitable to you:
+* Gosund SP111 v1.1
+* Gosund SP111 v1.4
 
