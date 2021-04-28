@@ -1,0 +1,14 @@
+---
+date_added: 2021-04-27
+title: Candle 5W 450lm
+model: 
+image: /assets/images/
+template9: '{"NAME":"Candela","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07Q3PYGN3
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e12
+---

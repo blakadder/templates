@@ -1,0 +1,15 @@
+---
+date_added: 2021-04-27
+title: TOMZN 2P 63/80A Circuit Breaker
+model: TOWBC-2P-T
+image: /assets/images/tomzn_TOWBC-2P-T.jpg
+template9: '{"NAME":"TOMZN","GPIO":[0,0,0,0,0,0,0,0,64,224,0,0,288,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001287937228.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: DIN Relay
+standard: global
+---
+Remove DIN rail part, two screws under side to easy open, [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) chip inside.

@@ -1,13 +1,13 @@
 ---
 date_added: 2019-08-06
 title: BrilliantSmart Trilogy 9W CCT
-model: 20695/05 and 20742/05
+model: 20695/05
 category: light
 type: Downlight
 standard: au
 link: https://www.amazon.com.au/Brilliant-Smart-Trilogy-Dimmable-Downlight/dp/B081ZK9SLM
 image: /assets/images/brilliantsmart_2069505.jpg
-template: '{"NAME":"SmartCCTDwnLgt","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":48}' 
-link2: 
-mlink: https://www.brilliantsmart.com.au/smart-products/lighting/smart-trilogy/
+template9: '{"NAME":"SmartCCTDwnLgt","GPIO":[0,0,0,0,0,416,0,0,0,449,0,0,0,0],"FLAG":0,"BASE":48}' 
+link2: https://www.jdlighting.com.au/brilliant-smart-trilogy-9w-led-cct-dimmable-downlight.html
+mlink: https://www.brilliantlighting.com.au/product/smart-wifi-led-cct-downlight-1ad6c4
 ---

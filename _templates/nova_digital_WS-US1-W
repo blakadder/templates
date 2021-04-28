@@ -1,0 +1,14 @@
+---
+date_added: 2021-04-28
+title: Novadigital Interruptor Touch Led 1 Botão
+model: WS-US1-W
+image: /assets/images/nova_digital_WS-US1-W.jpg
+template9: '{"NAME":"Nova Digital Switch 1 Gang","GPIO":[544,0,0,32,224,0,0,0,0,0,288,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.br/dp/B085BCZ9ZW/
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: br
+---

@@ -1,0 +1,14 @@
+---
+date_added: 2021-04-26
+title: BrilliantSmart 4.5W 400lm 
+model: 20764
+image: /assets/images/brilliantsmart_20764.jpg
+template9: '{"NAME":"Brilliant20764","GPIO":[0,0,0,0,0,416,0,0,417,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.jdlighting.com.au/brilliant-smart-white-gu10-4-5w-led-cct-globe-400-lumen.html
+link2: 
+mlink: https://www.brilliantlighting.com.au/product/smart-wifi-led-gu10-cct-globe-73df90
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: gu10
+---
