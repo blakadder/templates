@@ -1,11 +1,11 @@
 ---
-date_added: 2020-12-15
+date_added: 2021-04-30
 title: TreatLife SS02S
-link: https://www.amazon.com/gp/product/B07WWYQJFR/
 image: /assets/images/treatlife_SS02s.jpg
 template: '{"NAME":"Treatlife SS02","GPIO":[0,0,0,0,53,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"Treatlife SS02","GPIO":[0,0,0,0,288,576,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link: https://www.amazon.com/gp/product/B07WWYQJFR/
+link2: https://www.banggood.com/TREATLIFE-SS02S-Single-Pole-2_4Ghz-Smart-Switch-Wi-Fi-Light-Switch-Neutral-Wire-Required-APP-Control-Works-with-Alexa,Google-Home-and-SmartThings-p-1842551.html
 mlink: https://www.treatlife.tech/
 flash: serial
 category: switch
