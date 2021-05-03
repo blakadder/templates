@@ -75,21 +75,34 @@ fan:
     name: "TreatLife Fan"
     state_topic: "stat/Treatlife-DS03/POWER1"
     command_topic: "cmnd/Treatlife-DS03/POWER1"
-    speed_state_topic: "stat/Treatlife-DS03/speed"
-    speed_command_topic: "cmnd/Treatlife-DS03/TuyaSend4"
+    preset_mode_state_topic: "stat/Treatlife-DS03/speed"
+    preset_mode_command_topic: "cmnd/Treatlife-DS03/TuyaSend4"
     qos: 0
     payload_on: 'ON'
     payload_off: 'OFF'
-    payload_low_speed: '3,1'
-    payload_medium_speed: '3,2'
-    payload_high_speed: '3,3'
+    preset_mode_command_template: >
+      {% if value == 'low' %}
+        3,1
+      {% elif value == 'medium' %}
+        3,2
+      {% elif value == 'high' %}
+        3,3
+      {% endif %}
+    preset_mode_value_template: >
+      {% if value == '3,1' %}
+        low
+      {% elif value == '3,2' %}
+        medium
+      {% elif value == '3,3' %}
+        high
+      {% endif %}
     availability_topic: tele/Treatlife-DS03/LWT
     payload_available: Online
     payload_not_available: Offline
-    speeds:
-      - low
-      - medium
-      - high{% endraw %}
+    preset_modes:
+      - 'low'
+      - 'medium'
+      - 'high'{% endraw %}
 {% endhighlight %}
 
 Home Assistant Dimmer YAML:
