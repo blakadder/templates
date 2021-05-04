@@ -13,6 +13,6 @@ category: relay
 type: Relay Board
 standard: global
 ---
-![pinout](https://user-images.githubusercontent.com/11288701/116887964-3fb2e200-ac6e-11eb-8f92-49c7de219298.png)
+![pinout](https://user-images.githubusercontent.com/11288701/116934805-c71d4700-aca8-11eb-8b6b-a366b9a0fd33.png)
 
 See [Sinilink XY-WFUSB](sinilink_XY-WFUSB) for flashing notes.
