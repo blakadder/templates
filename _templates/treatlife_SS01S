@@ -1,14 +1,15 @@
 ---
-date_added: 2019-08-22
+date_added: 2021-04-30
 title: TreatLife SS01S 
 category: switch
 type: Switch
 standard: us
 flash: tuya-convert
-link: https://www.amazon.com/Smart-Light-Switch-Treatlife-Installation/dp/B07R7PCCT9
 image: https://images-na.ssl-images-amazon.com/images/I/619baPMeuhL._SL1500_.jpg
 template: '{"NAME":"TL SS01S Swtch","GPIO":[0,0,0,0,52,158,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Smart-Light-Switch-Treatlife-Installation/dp/B07R7PCCT9
 link2: https://www.amazon.com/gp/product/B07R4MFWCQ
+link3: https://www.banggood.com/TREATLIFE-SS01S-Single-Pole-2_4Ghz-Wi-Fi-Smart-Light-Switch-Neutral-Wire-Required-Works-with-Alexa-and-Google-Home-Schedule-APP-Control-p-1842548.html
 mlink: 
 ---
 

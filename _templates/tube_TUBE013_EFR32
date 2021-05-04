@@ -1,10 +1,10 @@
 ---
 date_added: 2021-03-29
-title: Tube's CC2652P2 Ethernet
-model: TUBE013_CC2652P2
-image: /assets/images/tube_TUBE013_CC2652P2.jpg
-template32: '{"NAME":"Tube ZB CC2652","GPIO":[0,0,0,3840,0,3584,0,0,0,0,0,0,5536,3552,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,3840,5792,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
-link: https://www.tubeszb.com/product/cc2652_coordinator/1
+title: Tube's EFR32 Ethernet
+model: TUBE013_EFR32
+image: /assets/images/tube_TUBE013_EFR32.jpg
+template32: '{"NAME":"Tube ZB EFR32","GPIO":[0,0,0,3840,0,3552,1,0,0,0,0,0,5536,3584,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,5793,5792,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.tubeszb.com/product/efr32_gw_2/6
 link2: 
 mlink: https://github.com/tube0013/tube_gateways
 flash: serial
@@ -12,7 +12,7 @@ category: misc
 type: Zigbee Gateway
 standard: global
 ---
-Zigbee coordinator based on ESP32 and CC2652p2
+Zigbee coordinator based on ESP32 and EFR32
 
 ## Self-compile Tasmota for this device
 
@@ -20,7 +20,8 @@ You need to self compile with the following options, either in `my_user_config.h
 
 ```c
 #define USE_ZIGBEE      // Enable serial communication with Zigbee CC2530 flashed with ZNP
-#undef USE_ZIGBEE_EZSP  // Ensure ZNP support and not EZSP
+#undef USE_ZIGBEE_ZNP
+#define USE_ZIGBEE_EZSP
 
 #define USE_UFILESYS    // use file system
 
@@ -38,8 +39,6 @@ You need to self compile with the following options, either in `my_user_config.h
 
 Good news is that you don't need any wires to flash Tasmota on this device.
 
-The device comes ZStack-3 pre-flashed on CC2652P2, and ESPhome pre-flashed on ESP32. You can simply use the OTA feature of ESPHome to flash Tasmota32.
-
 1. Connect the gateway to a ethernet cable which has access you your local network.
 2. Power on the gateway with a micro usb cable and power supply. The link lights on the ethernet port will start blinking as it tries to negotiate a connection with your home network router.
 3. Determine the device's ip address If your local network supports .local mdns addresses, the devices can be reached that way: tube_zb_gw_cc2652p2.local
@@ -50,10 +49,20 @@ The device will reboot and enter AP mode. Configure Tasmota WIFI the regular way
 
 ## Configure Tasmota template
 
-Finally configure the template:
+Configure the template:
 
 ```
-Backlog Module 0; Template {"NAME":"Tube ZB CC2652","GPIO":[0,0,0,3840,0,3584,0,0,0,0,0,0,5536,3552,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,3840,5792,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+Backlog Module 0; Template {"NAME":"Tube ZB EFR32","GPIO":[0,0,0,3840,0,3552,1,0,0,0,0,0,5536,3584,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,5793,5792,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 ```
+
+## Flash EZSP 6.7.9 on the EFR32
+
+The device comes pre-flashed with EZSP 6.9.1_2 but there are unresolved issues with Tasmota and we currently only support 6.7.x.
+You need to downgrade the flash firmware to 6.7.9.
+
+Download the following file: https://github.com/arendst/Tasmota/blob/development/tools/fw_TubeZigbee_efr32/MGM210PA32JIA_ncp-uart-sw_6.7.9.gbl
+Make sure to download the file as binary. The file size should be 206672 bytes long.
+
+Click on **OTA Update** -> **Choose File**, select the tasmota32 firmware and click **Update**. Tasmota automatically detects the file type and flashes the EFR32 MCU.
 
 Enjoy!
