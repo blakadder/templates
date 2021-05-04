@@ -1,7 +1,7 @@
 ---
 date_added: 2021-03-27
-title: 433Mhz 4 Gang Touch
-model: TMW4-01(EU)-B-4GANG
+title: SMATRUL 433Mhz 4 Gang Touch
+model: TMW4-01(EU)-B-4GANG [Black], TMW4-01(EU)-W(4GANG) [white]
 image: /assets/images/TMW4-01EU-B-4GANG.jpg
 template9: '{"NAME":"TMW4-01(EU)","GPIO":[0,0,0,33,35,32,0,0,34,224,225,226,227,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001865860957.html
@@ -12,3 +12,5 @@ category: switch
 type: Switch
 standard: eu
 ---
+
+Warning: Product ordered on [AliExpress: SMATRUL Official Store](https://www.aliexpress.com/item/4001163733912.html) in Apr-2021 did not used ESP8266, but incompatible RTL8710BN-WR3 module, where Tasmota cannot be used.
