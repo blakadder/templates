@@ -8,8 +8,13 @@ link: https://www.walmart.com/ip/Monster-Smart-Google-Assistant-Multicolor-LED-L
 image: https://i5.walmartimages.com/asr/d3352125-e72f-4cd6-a7bf-0e7a2d46ae3c_2.b8e5af6432c6b1a946e6e3c0baede509.jpeg
 template: '{"NAME":"MI-EW003-999W ","GPIO":[17,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
+unsupported: true
 ---
 
 Nearly identical to Merkury Innovations MI-EW003-999W LED Strip
 
 
+Purchased a unit on May the 4th 2021. This one uses a TW03 V2.0 which seems to be based on the WinnerMicro W600.
+Doesn't appear to support Tasmota and/or Tuya-Convert. Perhaps old version had a different module or someone swapped in an ESP-12F.
+I swapped in an ESP-12F on mine and the template is different as the Monster doesn't have Warm and Cool White LEDs.
+Got rid of PWM 4 and 5 and also Button 1 since it's connected to IO-15 which has to be grounded (button pressed) for the ESP to start. I shorted IO-15 to ground.
