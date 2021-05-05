@@ -1,0 +1,14 @@
+---
+date_added: 2021-04-30
+title: EleLight 
+model: PE1004T
+image: /assets/images/elelight_PE1004T.jpg
+template9: '{"NAME":"EleLight PE1004T","GPIO":[0,0,0,0,288,289,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32929433097.html
+link2: https://www.amazon.com/dp/B07W5WRHNR
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

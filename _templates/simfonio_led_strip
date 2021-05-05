@@ -1,0 +1,14 @@
+---
+date_added: 2021-05-02
+title: Simfonio 5m RGB
+model: 
+image: /assets/images/simfonio_led_strip.jpg
+template9: '{"NAME":"SimfonioLEDStrip","GPIO":[32,0,1088,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07X22SCCN/
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Strip
+standard: eu
+---
