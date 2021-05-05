@@ -6,7 +6,7 @@ image: /assets/images/W06.jpg
 template: '{"NAME":"W06 Water Sensor","GPIO":[0,148,0,149,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: 
 link: https://www.aliexpress.com/item/4001261468286.html
-link2: 
+link2: https://www.banggood.com/W06-Tuya-Smart-WiFi-2_4GHz-Remote-Water-Immersion-Sensor-Alarm-Water-Leakage-Monitoring-Detector-p-1843602.html
 flash: serial
 category: sensor
 type: Water Sensor
