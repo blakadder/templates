@@ -6,7 +6,7 @@ image: /assets/images/D06.jpg
 template: '{"NAME":"D06 Door Sensor","GPIO":[0,148,0,149,21,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: 
 link: https://www.aliexpress.com/item/10000093278617.html
-link2: 
+link2: https://www.banggood.com/D06-Tuya-Smart-Life-WiFi-Wireless-Remote-Door-and-Window-Sensor-Alarm-Molile-Phone-Control-Sensor-Alarm-Detector-p-1843620.html
 flash: serial
 category: sensor
 type: Contact Sensor
