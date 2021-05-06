@@ -45,15 +45,16 @@ This heater is a part of Xiaomi's MiOT ecosystem which uses a standardised MiOT 
 To control the device you send a `down set_properties` command using `SerialSend3`. `siid` and `piid` target the feature you want with `value`. Finally every command line needs to end with a carriage return or `\r`. 
 
 The list is formatted as: `siid piid` - possible values - description 
-`2 2` - true/false - Switch status 
-`2 3` - 1/2 - Heat level (1 = high, 2 = low) 
-`2 4` - 0/1 - Fan mode (0 - not swinging, 1 - swinging) 
-`3 1` - true/false - Beeper sound 
-`4 1` - 0/1/2/4/8 - Countdown timer in hours
-`6 1` - 0/1/2 - LED brightness (0 - bright, 1 - low, 2 - off)
-`7 1` - true/false - Child lock
-`8 1` - 0/15/1 - Button click (notify only)
-`8 3` - true/false - Return fan to middle position when turning off
+
+* `2 2` - true/false - Switch status 
+* `2 3` - 1/2 - Heat level (1 = high, 2 = low) 
+* `2 4` - 0/1 - Fan mode (0 - not swinging, 1 - swinging) 
+* `3 1` - true/false - Beeper sound 
+* `4 1` - 0/1/2/4/8 - Countdown timer in hours
+* `6 1` - 0/1/2 - LED brightness (0 - bright, 1 - low, 2 - off)
+* `7 1` - true/false - Child lock
+* `8 1` - 0/15/1 - Button click (notify only)
+* `8 3` - true/false - Return fan to middle position when turning off
 
 For example, to turn the heater on send
 ```console
