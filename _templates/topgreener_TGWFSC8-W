@@ -1,6 +1,6 @@
 ---
 date_added: 2021-05-08
-title: TopGreener Smart Scene Controller
+title: TopGreener Scene Controller
 model: TGWFSC8-W 
 category: switch
 type: Wall Switch
@@ -39,6 +39,6 @@ Enable the rule with `Rule1 1`
 
 The following blueprint will create MQTT discovery messages creating automation triggers for each short and double button press for the device. 
 
-<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-topgreener_TGWFSC8-W" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-topgreener_TGWFSC8-W.yaml)
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-topgreener_TGWFSC8-W.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-topgreener_TGWFSC8-W.yaml)
 
 ![](/assets/images/topgreener_TGWFSC8-W_ha.jpg)
