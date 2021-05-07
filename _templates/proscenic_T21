@@ -46,10 +46,10 @@ Connect the pins to the connector following the pinout.
     * 10 - custom mode
 - dpId 5 = (Type4) cooking mode
     * 0 - standby
-    * 1 - timer
+    * 1 - delayed cook
     * 2 - cooking
     * 3 - keep warm
-    * 4 - waiting
+    * 4 - off
     * 5 - cooking complete
 - dpId 6 = (Type2) set delayed start timer in minutes (5-720)
 - dpId 7 = (Type2) set cooking timer in minutes (1-60)
