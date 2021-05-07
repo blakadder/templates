@@ -48,5 +48,4 @@ GPIO5   CF  (pin 6)   BL0937 CF
 GPIO14  CF1 (pin 7)   HLWBL CF1
 GPIO3   SEL (pin 8)   HLWBL SEL_i
 ```
-I found that sensible readings for voltage and current appeared immediately if GPIO3 was left unset.  Once "HLWBL SEL_i" is defined, current and reactive power displays are enabled, and something funny seems to happen with the calibration process.  I went round in circles several times, but was eventually able to achieve sensible values by tweaking VoltageCal, PowerCal and CurrentCal manually, rather than using PowerSet, VoltageSet etc.
-
+I found that sensible readings for voltage and current appeared immediately if GPIO3 was left unset.  I set SerialLog to 0 and restarted to avoid conflicting with GPIO3.  Once "HLWBL SEL_i" is defined, current and reactive power displays are enabled, and something funny seems to happen with the calibration process.  I went round in circles several times, but was eventually able to achieve sensible values by tweaking VoltageCal, PowerCal and CurrentCal manually, rather than using PowerSet, VoltageSet etc.
