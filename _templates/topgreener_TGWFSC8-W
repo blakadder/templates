@@ -15,7 +15,7 @@ After configuring Wi-Fi and MQTT set `Module 54` or apply the template.
 
 Add a rule to transmit every button to its topic with a description of the action
 
-```
+```console
 rule1 
 on tuyareceived#dptype4id101=0 do publish %topic%/btn1 button_short_press endon
 on tuyareceived#dptype4id102=0 do publish %topic%/btn2 button_short_press endon
@@ -37,6 +37,8 @@ Enable the rule with `Rule1 1`
 
 ## Home Assistant
 
-The following blueprint will create MQTT discovery messages creating automation triggers for each button press for the device. Triggers will be recognized only once you physically activate the buttons so go through them all, once for short press and once for double press.
+The following blueprint will create MQTT discovery messages creating automation triggers for each short and double button press for the device. 
 
 <a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-topgreener_TGWFSC8-W" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-topgreener_TGWFSC8-W.yaml)
+
+![](/assets/images/topgreener_TGWFSC8-W_ha.jpg)
