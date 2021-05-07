@@ -9,7 +9,7 @@ standard: us
 link: https://www.amazon.com/dp/B0777C2BX3
 image: /assets/images/geeni-GN-WW104-199.jpg
 template: '{"NAME":"Geeni Spot","GPIO":[158,0,0,0,56,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
-template-alt: '{"NAME":"Geeni Spot","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template-alt: '{"NAME":"Geeni Spot","GPIO":[0,0,0,0,57,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/dp/B07FLXG64J
 link3: https://www.walmart.com/ip/Geeni-Spot-Smart-Plug-1-Pack/668255467
 mlink: https://mygeeni.com/collections/power/products/spot-wi-fi-smart-plug
