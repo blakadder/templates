@@ -41,4 +41,6 @@ The following blueprint will create MQTT discovery messages creating automation 
 
 <a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-topgreener_TGWFSC8-W.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-topgreener_TGWFSC8-W.yaml)
 
+Final result:
+
 ![](/assets/images/topgreener_TGWFSC8-W_ha.jpg)

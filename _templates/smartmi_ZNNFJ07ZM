@@ -85,9 +85,9 @@ rule2 on serialreceived#data$<properties_changed do publish %topic%/changed_prop
 
 First create this automation which will reformat the MiOT output into a nice JSON MQTT message to `%topic%/properties`:
 
-<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/miot-multiplexer" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/miot-multiplexer.yaml)
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/miot-multiplexer.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/miot-multiplexer.yaml)
 
 Next create an autodiscovery automation to create the Heater climate entity and two switches for child lock and sound control.
 
-<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-smartmi_ZNNFJ07ZM" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-smartmi_ZNNFJ07ZM.yaml)
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-smartmi_ZNNFJ07ZM.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-smartmi_ZNNFJ07ZM.yaml)
 
