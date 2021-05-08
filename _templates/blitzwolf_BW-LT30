@@ -3,7 +3,7 @@ date_added: 2020-10-20
 title: Blitzwolf E27
 model: BW-LT30
 image: /assets/images/BW-LT30.jpg
-template9: '{"NAME":"BlitzWolf BW-LT30","GPIO":[0,0,0,0,320,224,0,0,0,96,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"BlitzWolf LT-30","GPIO":[0,0,0,0,320,224,0,0,0,32,0,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.banggood.com/BlitzWolf-BW-LT30-E27-WIFI-Smart-Lampholder-Voice-Control-Bulb-Adapter-Base-Socket-Work-With-Alexa-Google-Assistant-AC110-230V-p-1688937.html
 link2: https://www.aliexpress.com/item/4001178856475.html
 mlink: https://www.blitzwolf.com/BlitzWolfBW-LT30-E27-WIFI-Smart-Bulb-Base-Adapter-Holder-with-APP-Control,-Schedule--Timer,-Voice-Control-and-Easy-Installation-p-529.html
@@ -15,4 +15,4 @@ standard: eu
 
 The pinout is clearly marked on the board - 5 pins. VCC3.3, GND, GPIO0,TX,RX. Need to ground GPIO0 then connect VCC,GND,TX,RX to serial. Unground GPIO0 and proceed with flashing. (The on-board button is NOT connected to GPIO0. Need to ground that specific pin in the 5-pin pinout to get into flash mode)
 
-2020-05-08:  If the device keeps resetting to defaults, this is because it thinks the button is being held down.  Setting Button 1 to non-inverted solves the problem.  Perhaps a change in the design?
+Button 1 being inverted was causing tasmota to factory reset.  Changed to non-inverted.  This may be incorrect for older boards?
