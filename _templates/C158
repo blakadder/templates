@@ -1,0 +1,15 @@
+---
+date_added: 2021-05-07
+title: Surge Protector 3AC 2USB
+model: C158
+image: /assets/images/C158.jpg
+template9: '{"NAME":"C158","GPIO":[260,0,0,0,261,230,0,0,224,0,225,226,259,0],"FLAG":0,"BASE":18}' 
+link: https://www.lowes.com/pd/eco4life-eco4life-Smart-Power-Strip-3-Outlets-2-USB-ports/5001893439
+link2: https://www.aliexpress.com/item/32944358698.html
+link3: https://www.amazon.ca/dp/B0757JMDBL
+mlink: https://mall.eco4lifehome.com/collections/smart-electrician/products/smart-wi-fi-surge-protector-power-strip
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---

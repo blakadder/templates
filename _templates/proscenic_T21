@@ -93,9 +93,14 @@ Backlog TuyaEnumList 1,10; TempRes 0;
 - TuyaSend2 7,x to set cooking time timer
 - TuyaSend2 105,x to set keep warm timer
 
-You can label webbuttons with emoji's
+You can label webbuttons with emojis:
 ```console
 Backlog WebButton1  🔌; WebButton2  ⏯️; WebButton3  🍲; WebButton4  ⏳
+```
 
 ## Extra
 I removed the very annoying buzzer from the relay PCB and replaced it with a [DFPlayer MP3 player](https://s.click.aliexpress.com/e/_9vm8Cn) that triggers on dpId reports with actual sound prompts. [Demo on YouTube](https://www.youtube.com/watch?v=fiAOQcs2Yww)
+
+## Home Assistant Configuration
+
+Guide with Home Assistant blueprints on [https://blakadder.com](https://blakadder.com/proscenic-in-home-assistant/)
