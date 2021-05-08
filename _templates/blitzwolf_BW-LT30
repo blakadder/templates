@@ -14,3 +14,5 @@ standard: eu
 ---
 
 The pinout is clearly marked on the board - 5 pins. VCC3.3, GND, GPIO0,TX,RX. Need to ground GPIO0 then connect VCC,GND,TX,RX to serial. Unground GPIO0 and proceed with flashing. (The on-board button is NOT connected to GPIO0. Need to ground that specific pin in the 5-pin pinout to get into flash mode)
+
+2020-05-08:  If the device keeps resetting to defaults, this is because it thinks the button is being held down.  Setting Button 1 to non-inverted solves the problem.  Perhaps a change in the design?
