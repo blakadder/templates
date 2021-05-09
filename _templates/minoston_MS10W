@@ -18,3 +18,5 @@ Backlog TuyaMCU 11,1; TuyaMCU 21,3;
 ```console
 DimmerRange 25,255
 ```
+In some cases, when the ```Power OFF``` toggle isn't working correctly, a rule can be added to fix the problem.
+```Rule1 ON power1#state=0 DO Backlog Power OFF; Dimmer 0 ENDON```
