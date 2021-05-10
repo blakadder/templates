@@ -14,3 +14,5 @@ type: RGBCCT
 standard: [e27,b22]
 ---
 Tuya-convert did not work on bulbs bought on 2021-03-27. 
+---
+I was succcessfully able to Flash tasmota via Toya-Convert on 2021-05-10 along with the template on all three bulbs. These came straight from amazon and was not connected to the Smart Life app at any stage.
