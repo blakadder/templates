@@ -30,6 +30,13 @@ To flash the device solder directly to [TYWE3S](https://tasmota.github.io/docs/d
 
 ![PCB](/assets/images/D06_pcb.jpg)
 
+There appears to be a new revision of the board, easily identified by the additional test points:
+
+![PCB](/assets/images/D06_pcb_2.jpg)
+
+Flashing procedure is the same, but this time there is a track joining the two pads of R1 that will need to be cut (by scratching through the copper layer with a scalpel or similar) - simply removing the 0-ohm resistor is not enough.
+
+
 ## Configuration
 
 _If you're using battery power you will have to periodically wake up the sensor with the reset button or by shorting the GND and KEY pads on the PCB_.
