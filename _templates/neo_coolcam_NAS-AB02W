@@ -83,7 +83,7 @@ Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to underst
 
 After configuring the template or setting `Module 54` map Tuya functions:
 ```console
-Backlog TuyaMCU 10,104; TuyaMCU 70,105; TuyaMCU 73,106; TuyaMCU 81,103; TuyaMCU 61,102; TuyaMCU 62,116
+Backlog TuyaMCU 11,104; TuyaMCU 71,105; TuyaMCU 73,106; TuyaMCU 81,103; TuyaMCU 61,102; TuyaMCU 62,116
 ```
 Finish configuring with these options
 ```console
