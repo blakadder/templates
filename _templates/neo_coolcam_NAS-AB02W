@@ -119,38 +119,38 @@ Commands for control:
 ```yaml
 sensor:
   - platform: mqtt
-    name: "Siren Power Status"
-    state_topic: "%topic%/battery"
+    name: Siren Power Status
+    state_topic: siren/battery
     value_template: >-
-        {% raw %}{% if value == "1" %} 
-        battery high
-        {% elif value == "2" %} 
-        battery medium
-        {% elif value == "3" %} 
-        battery low
-        {% elif value == "4" %} 
-        USB power
-        {% endif %} {% endraw %}
-    icon: "mdi:battery-plus"
-    availability_topic: "tele/%topic%/LWT"
-    payload_available: "Online"
-    payload_not_available: "Offline"
+        {% raw %}{% if value == '1' %}
+        high
+        {% elif value  == '2' %}
+        medium
+        {% elif value == '3' %}
+        low
+        {% elif value == '4' %}
+        USB
+        {% endif %}{% enddraw %}
+    icon: 'mdi:power-plug-outline'
+    availability_topic: tele/siren/LWT
+    payload_available: Online
+    payload_not_available: Offline
 
   - platform: mqtt
-    name: "Siren Volume"
-    state_topic: "%topic%/alarmvolume"
+    name: Siren Alarm Volume
+    state_topic: siren/alarmvolume
     value_template: >-
-        {% raw %}{% if value == "0" %} 
-        battery high
-        {% elif value == "1" %} 
-        battery medium
-        {% elif value == "2" %} 
-        battery low
-        {% endif %} {% endraw %}
-    icon: "mdi:volume-vibrate"
-    availability_topic: "tele/%topic%/LWT"
-    payload_available: "Online"
-    payload_not_available: "Offline"
+        {% raw %}{% if value == '0' %}
+            high
+        {% elif value  == '1' %}
+            medium
+        {% elif value == '2'%}
+            low
+        {% endif %}{% endraw %}
+    icon: 'mdi:volume-vibrate'
+    availability_topic: tele/siren/LWT
+    payload_available: Online
+    payload_not_available: Offline
 
   - platform: mqtt
     name: "Active Chime"
@@ -200,11 +200,11 @@ sensor:
 
 number:
   - platform: mqtt
-    name: Alarm Duration
-    state_topic: '%topic%/alarmduration'
-    command_topic: 'cmnd/%topic%/var1'
-    availability_topic: 'tele/%topic%/LWT'
-    icon: "mdi:timer-sand"
+    name: Siren Alarm Duration
+    state_topic: siren/alarmduration
+    command_topic: cmnd/siren/var1
+    availability_topic: tele/siren/LWT
+    icon: 'mdi:timer-sand'
     payload_available: Online
     payload_not_available: Offline
 ```
