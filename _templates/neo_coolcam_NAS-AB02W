@@ -130,7 +130,7 @@ sensor:
         low
         {% elif value == '4' %}
         USB
-        {% endif %}{% enddraw %}
+        {% endif %}{% endraw %}
     icon: 'mdi:power-plug-outline'
     availability_topic: tele/siren/LWT
     payload_available: Online
