@@ -12,4 +12,4 @@ category: plug
 type: Plug
 standard: eu
 ---
-The device is actually [Gosund SP111 V1.1](gosund_SP111_v1_1) (confirmed by disassembling the plug and investigating the main board which has following print: `SP111_WIFI_V1.1`)
+

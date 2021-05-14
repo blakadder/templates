@@ -1,0 +1,15 @@
+---
+date_added: 2021-05-10
+title: SA-P202A 
+model: SA-P202A
+image: /assets/images/SA-P202A.jpg
+template9: '{"NAME":"SA-P202A","GPIO":[0,0,0,0,0,320,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32910032251.html
+link2: 
+mlink: https://www.alibaba.com/product-detail/Wholesale-EU-Style-Smart-Home-Tuya_1587698224.html
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+[Pinout and information on internals](https://community.blynk.cc/t/alternative-to-sonoff-s20-eu-type-f-smart-socket/23318/3)
