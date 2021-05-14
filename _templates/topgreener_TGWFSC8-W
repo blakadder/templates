@@ -1,0 +1,46 @@
+---
+date_added: 2021-05-08
+title: TopGreener Scene Controller
+model: TGWFSC8-W 
+category: switch
+type: Wall Switch
+template9: '{"NAME":"TGWF15RM","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+standard: us
+image: /assets/images/topgreener_TGWFSC8-W.jpg
+link: https://www.amazon.com/gp/product/B07WRT67T4/
+link2: 
+---
+
+After configuring Wi-Fi and MQTT set `Module 54` or apply the template.
+
+Add a rule to transmit every button to its topic with a description of the action
+
+```console
+rule1 
+on tuyareceived#dptype4id101=0 do publish %topic%/btn1 button_short_press endon
+on tuyareceived#dptype4id102=0 do publish %topic%/btn2 button_short_press endon
+on tuyareceived#dptype4id103=0 do publish %topic%/btn3 button_short_press endon
+on tuyareceived#dptype4id104=0 do publish %topic%/btn4 button_short_press endon
+on tuyareceived#dptype4id105=0 do publish %topic%/btn5 button_short_press endon
+on tuyareceived#dptype4id106=0 do publish %topic%/btn6 button_short_press endon
+on tuyareceived#dptype4id107=0 do publish %topic%/btn7 button_short_press endon
+on tuyareceived#dptype4id108=0 do publish %topic%/btn1 button_double_press endon
+on tuyareceived#dptype4id109=0 do publish %topic%/btn2 button_double_press endon
+on tuyareceived#dptype4id110=0 do publish %topic%/btn3 button_double_press endon
+on tuyareceived#dptype4id111=0 do publish %topic%/btn4 button_double_press endon
+on tuyareceived#dptype4id112=0 do publish %topic%/btn5 button_double_press endon
+on tuyareceived#dptype4id113=0 do publish %topic%/btn6 button_double_press endon
+on tuyareceived#dptype4id114=0 do publish %topic%/btn7 button_double_press endon
+```
+
+Enable the rule with `Rule1 1`
+
+## Home Assistant
+
+The following blueprint will create MQTT discovery messages creating automation triggers for each short and double button press for the device. 
+
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-topgreener_TGWFSC8-W.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-topgreener_TGWFSC8-W.yaml)
+
+Final result:
+
+![](/assets/images/topgreener_TGWFSC8-W_ha.jpg)

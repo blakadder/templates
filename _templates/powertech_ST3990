@@ -11,4 +11,5 @@ flash: tuya-convert
 category: light
 type: LED Controller
 standard: au
+unsupported: true
 ---

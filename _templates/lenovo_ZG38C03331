@@ -1,0 +1,26 @@
+---
+date_added: 2021-05-08
+title: Lenovo 5m RGBW 
+model: ZG38C03331
+image: /assets/images/lenovo_ZG38C03331.jpg
+template9: '{"NAME":"Lenovo LED Strip 5m","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.jbhifi.com.au/products/lenovo-smart-led-lightstrip-5m?queryID=346f9b94adcf268ada356891115c17c0&objectID=476766
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Strip
+standard: au
+---
+The device comes with a newer Tuya firmware and tuya-convert does not work. One needs to disassemble the device and flash using serial method (soldering required).
+
+To flash it you need to open the bottom cover which is hold by plastic holders around the base. Use screwdriver to lift the bottom. Inside there is a TYWE3S module; connect 3.3Vcc, GND, Tx, Rx and pull GPIO0 to GND while flashing.
+
+GPIOs are mapped to the following:
+-	PWM1 (R): GPIO4
+-	PWM2 (G): GPIO12
+-	PWM3 (B): GPIO14
+-	PWM4 (CW): GPIO5
+-	PWM5 (WW): GPIO13
+
+Button is wired to the enable pin via pullup resistor. Resets board when pressed.
