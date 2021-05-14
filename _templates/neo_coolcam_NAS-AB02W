@@ -87,7 +87,7 @@ Backlog TuyaMCU 11,104; TuyaMCU 71,105; TuyaMCU 73,106; TuyaMCU 81,103; TuyaMCU 
 ```
 Finish configuring with these options
 ```console
-Backlog TuyaEnumList 0,17; TuyaEnumList 2,2; Rule0 1; SetOption65 1; TempRes 1; HumRes 0
+Backlog TuyaEnumList 1,17; TuyaEnumList 2,2; Rule0 1; SetOption65 1; TempRes 1; HumRes 0
 ```
 
 ## Home Assistant Configuration
