@@ -1,5 +1,5 @@
 ---
-date_added: 2020-09-12
+date_added: 2021-05-15
 title: KHSUIN BR30 13W 1300lm
 model: BL96E
 image: /assets/images/khsuin_BL96E.jpg
@@ -13,3 +13,32 @@ type: RGBCCT
 standard: [e27, e26]
 ---
 Comes with 2.0 firmware so serial flashing is necessary - no glue on shade so accessing the serial pads is easy.
+
+Opening the shade is straightforward but does require a bit of force and care to do it without leaving marks. It's held on by 4 clips, so you need to use something thin but sturdy to push in under the edge of the shade, and then slide around to where the clip is to push it off and pop it up. 
+
+The red highlighted shows the shade slightly popped off, with 1 of the clips exposed. 
+![shroud slightly open](/assets/images/khsuin_BL96E_shroud.jpg)
+
+Once it's open, you can see the 4 clip points (red) and the exposed LED PCB has 2 screws (in green) which need to be removed.
+![shroud slightly open](/assets/images/khsuin_BL96E_inside.jpg)
+
+Once the screws are removed, you can tap it against the palm of your hand to slide the LED PCB off the pins and into your hand. Easiest way to remove it without damaging it. 
+
+After that, you have access to the esp PCB and the solder points (blue) on the back. Helpfully, GPIO0 has a solder point (IO0, yellow) as well, which you need to tie this to GND at power-on to get it into flash mode.
+
+The RXD goes to your FTDI TX, TXD goes to your FTDI RX, 3v3 goes to the FTDI VCC/3.3v, and GND goes to the FTDI GND. 
+
+I soldered a small momentary switch in the middle of a wire to tie GPIO0 to GND, holding the button down, and then connecting the GND to the FTDI GND to get a successful connection. 
+
+You can optionally just hold down an extra wire from GND to the GPIO0 point during power on for a second or two. I think you can also just tie it to GND without needing it to be a momentary connection at power on, but be sure to remove that after flashing.
+
+So for me, it was the following steps:
+
+1. Connect 3.3v/VCC, RX, TX to the FTDI
+1. Connect the FTDI to the USB port
+1. Hold down momentary button between GPIO0 and GND, connect GND to FTDI, wait 1-2 seconds before releasing button
+1. Open flash software and select correct serial/COM port, and hit flash
+1. After successful flash, unsolder all the wires, carefuly get the LED PCB back over top and seated onto the pins, screw down, and clip shade back into place
+1. DONE!
+
+![esp solder points](/assets/images/khsuin_BL96E_pcb_solder_points.jpg)
