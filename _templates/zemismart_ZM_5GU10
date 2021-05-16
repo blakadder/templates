@@ -13,3 +13,5 @@ type: RGBW
 standard: gu10
 ---
 This bulb looks identical to, and has the same markings as the Generic GU10 5W 450lm RGBW Bulb listing, but it uses a MY92x1 driver rather than a PWM driver. It will not work if configured using PWM.
+---
+No longer works using tuya-convert.
