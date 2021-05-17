@@ -15,7 +15,7 @@ standard: eu
 
 This ruleset will make the *All ON/OFF* and *Learn* button work. *All ON/OFF* is self-explaining. Pressing the *Learn* button will publishes a timestamp Json object to MQTT.
 
-```
+```console
 Backlog Rule1 ON Power1#Boot DO Add1 %value% ENDON ON Power2#Boot DO Add1 %value% ENDON ON Power1#state=1 DO Add1 1 ENDON ON Power1#state=0 DO Sub1 1 ENDON ON Power2#state=1 DO Add1 1 ENDON ON Power2#state=0 DO Sub1 1 ENDON ON Var1#state>1 DO Var2 0 ENDON ON Var1#state<2 DO Var2 1 ENDON ON Button3#state DO Power0 %var2% ENDON ON Button4#state DO Publish stat/%topic%/Learn {""timestamp"":""%timestamp%""} ENDON; Rule1 ON
 ```
 
