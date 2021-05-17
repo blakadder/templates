@@ -14,3 +14,11 @@ standard: us
 ---
 
 I have successfully programmed this device using OTA tuya-convert version 2.4.3 (Apr/2021)
+
+Warning! Do not buy this product! 
+
+Was able to flash with 5 aligator clips (no soldering) RX/TX/GPIO0 route to PCB edge/pad with labels. 
+Gnd/3.3 and be clipped from pins found between chip and regulator. Need triangle screw heads (torex can work).
+NOTE however, this product was found to have a hot/neutral reverse issue on the middle and right power outlets. 
+This is a design issue on the PCB itself so not a one-off. Unsafe product should not be purchased!
+
