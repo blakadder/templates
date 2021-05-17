@@ -11,10 +11,11 @@ category: unsupported
 type: Ceiling Light
 standard: eu
 ---
-Unfortunately the device used a WB3L wifi module. Fortunately it's pin-compatible with ESP-12F or ESP-07. Use one of them, flash it and replace the original WB3L to this one.
+Unfortunately the device used a WB3L module. Fortunately it's pin-compatible with ESP-12F or ESP-07. Use one of them, flash it and replace the original WB3L to this one.
 
 The pull up resistors required in GPIO0 and CH_EN and pull down GPIO15.
 
+Working template:
 ```console
 {"NAME":"BW-CLT1","GPIO":[0,0,0,0,419,0,0,0,418,420,417,416,0,0],"FLAG":0,"BASE":18}
 ```
