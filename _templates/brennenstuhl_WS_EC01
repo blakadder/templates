@@ -1,8 +1,8 @@
 ---
 date_added: 2020-12-20
 title: Brennenstuhl Ecolor 3AC
-model: WS EC01 DE
-image: /assets/images/brennenstuhl_WS_EC01_DE.jpg
+model: 1153230620
+image: /assets/images/brennenstuhl_WS_EC01.jpg
 template: '{"NAME":"WS EC01 DE","GPIO":[0,0,0,0,17,158,0,0,0,52,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B082QD9LQN
 link2: 

@@ -1,0 +1,22 @@
+---
+date_added: 2021-05-16
+title: Brennenstuhl Connect Premium-Line 
+model: WS PL01
+image: /assets/images/
+template9: '{"NAME":"WS PL01 DE","GPIO":[34,33,0,32,224,225,0,0,288,0,35,289,576,0],"FLAG":0,"BASE":18}' 
+link: https://www.reichelt.de/ip-steckdosenleiste-6-fach-bre-1951160610-p281803.html?&nbc=1
+link2: 
+mlink: https://www.brennenstuhl.com/de-DE/produkte/smart-home/brennenstuhl-connect-premium-line-wifi-steckdosenleiste-3m%C2%A0h05vv-f-3g1-5-schwarz-lichtgrau
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: eu
+---
+
+This ruleset will make the *All ON/OFF* and *Learn* button work. *All ON/OFF* is self-explaining. Pressing the *Learn* button will publishes a timestamp Json object to MQTT.
+
+```
+Backlog Rule1 ON Power1#Boot DO Add1 %value% ENDON ON Power2#Boot DO Add1 %value% ENDON ON Power1#state=1 DO Add1 1 ENDON ON Power1#state=0 DO Sub1 1 ENDON ON Power2#state=1 DO Add1 1 ENDON ON Power2#state=0 DO Sub1 1 ENDON ON Var1#state>1 DO Var2 0 ENDON ON Var1#state<2 DO Var2 1 ENDON ON Button3#state DO Power0 %var2% ENDON ON Button4#state DO Publish stat/%topic%/Learn {""timestamp"":""%timestamp%""} ENDON; Rule1 ON
+```
+
+[https://github.com/Line40/Tasmota_Brennenstuhl_WS-EL01-DE](https://github.com/Line40/Tasmota_Brennenstuhl_WS-EL01-DE)

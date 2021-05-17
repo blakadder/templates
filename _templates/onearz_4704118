@@ -1,0 +1,15 @@
+---
+date_added: 2021-05-15
+title: Onearz Connect Smart 
+model: 
+image: /assets/images/
+template9: '{"NAME":"Onearz Power Plug Wifi","GPIO":[0,0,0,0,288,224,0,0,0,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.darty.com/nav/achat/accessoires/accessoire_pour_televiseur/cle_wifi_pour/onearz_connect_prise_conn_oeco.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: fr
+---
+At the contrary of the "official" documentation says, Red LED is ON when the plug is ON, and Blue LED is ON when plug is off, I couldn't find a way of having both LED ON when the plug is ON. Red LED is linked to the relay, it seems it cannot be changed.
