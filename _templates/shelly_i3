@@ -12,3 +12,23 @@ category: relay
 type: Switch Module
 standard: global
 ---
+
+## Configuration
+After flashing Tasmota, the Shelly i3 will publish all events of each of the three inputs via "stat/%topic%/POWER" (ON/OFF). But there is no separate POWER1, POWER2 and POWER3. That means that you can only distinguish the state of each switch via the SENSOR data, that is only published every few minutes, but not instantly.
+
+To avoid that issue, the individual switches can publish their own mqtt messages when something changes via Rules in Tasmota.
+
+Commands to be entered via the Tasmota console on your Shelly i3
+
+```console
+Backlog SwitchMode 1; SwitchTopic 0
+Backlog Rule1 on Switch1#state do Publish stat/custom-topic/SWITCH1 %value% endon; Rule1 1
+Backlog Rule2 on Switch2#state do Publish stat/custom-topic/SWITCH2 %value% endon; Rule2 1
+Backlog Rule2 on Switch2#state do Publish stat/custom-topic/SWITCH3 %value% endon; Rule3 1
+```
+
+You can also change the "custom-topic" to the device topic you normally use.
+
+See also: Tasmota documentation: https://tasmota.github.io/docs/Buttons-and-Switches/#rules
+
+
