@@ -13,4 +13,4 @@ type: Plug
 standard: za
 ---
 
-Also found under Qualitel brand with same model number.
+Also found under Qualitel brand with same model number. BNETA & Qualitel plugs shipped in 2020 were internally identical (apart from the 180 degree rotation of the plug). Both used Tuya TYWE3S modules that were flashable with Tasmota. As of May 2021 Qualitel plugs are shipping with Tuya WB2S modules which are not ESP8266-based and hence not Tasmotisable. This may apply to fresh stock of BNETA plugs too, but that has not yet been confirmed.
