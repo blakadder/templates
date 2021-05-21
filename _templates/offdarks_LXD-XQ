@@ -1,0 +1,16 @@
+---
+date_added: 2021-05-23
+title: Offdarks Star Fine RGBCCT 60W 40mm
+model: LXD-XQ
+image: /assets/images/offdarks_LXD-XQ.jpg
+template: '{"NAME":"Offdarks","GPIO":[0,0,0,0,38,37,0,0,40,41,39,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000183754673.html
+link2: https://www.amazon.co.uk/OFFDARKS-Dimmable-Compatible-Intelligent-%CF%8640cm-60w/dp/B08B3VBQNY
+link3: https://www.banggood.com/OFFDARKS-AC200-240V-60W-400mm-Ceiling-Lamp-Bedroom-Kitchen-LED-Ceiling-Light-RGB-Dimming-APP-WIFI-Voice-Control-p-1704584.html
+mlink: http://offdarks.net/LXD_XQ
+flash: serial
+category: light
+type: Ceiling Light
+standard: global
+---
+https://community.home-assistant.io/t/offdarks-led-lights-alternative-firmware-tasmota-esphome/224876
