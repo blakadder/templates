@@ -9,8 +9,8 @@ link2: https://www.banggood.com/LILYGO-TTGO-ESP8266-0_91-Inch-OLED-Display-Modul
 link3: https://www.amazon.com/dp/B07BHHY3MR
 mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50032&Id=1153
 flash: serial
-category: misc
-type: DIY
+category: diy
+type: Display
 standard: global
 ---
 Careful not to confuse this device with the Heltec WiFi Kit 8. The markings are identical but the GPIO assignments are different for the OLED. Heltec is a white circuit board with rounded edges. This one is black, has sharp edges and a prominent TTGO label at the top.
