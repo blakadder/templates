@@ -31,4 +31,5 @@ Modification of the SM2135 driver (xlgt_04_sm2135.ino):
 <h3>Warning</h3>
 - Some models come with an [incompatible Realtek](/unsupported/lsc_ceiling_light) WiFi module.
 - You have to unsolder the TYLC5 chip for the flash. Do not supply the circuit with the electrical network during flashing.
+- purchased:may 2021 970789.1 v1.0 contains a WBLC5 td with incompatible Beken BK7231T chip
 
