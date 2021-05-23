@@ -1,7 +1,7 @@
 ---
 date_added: 2021-04-18
 title: Arlec Smart Security Light
-model: MAL314HA
+model: MAL315HA
 image: /assets/images/arlec_MAL300H.jpg
 template: '{"NAME":"Arlec MAL315HA","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.bunnings.com.au/arlec-20w-grid-connect-smart-security-light-with-movement-activated-sensor_p0223575
