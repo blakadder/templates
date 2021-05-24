@@ -12,3 +12,8 @@ category: plug
 type: Outdoor Plug
 standard: us
 ---
+### Warning
+New units appear to be shipping with the WB2S module installed, which is not compatible with Tasmota.  
+The daughter board could be desoldered and replaced, but it would be challenging to fit in the small case.
+
+Purchased from Amazon 5-22-2021: Contains incompatible WB2S module
