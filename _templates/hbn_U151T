@@ -11,6 +11,7 @@ flash: serial
 category: plug
 type: Outdoor Plug
 standard: us
+unsupported: true
 ---
 ### Warning
 New units appear to be shipping with the WB2S module installed, which is not compatible with Tasmota.  
