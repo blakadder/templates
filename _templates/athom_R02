@@ -1,0 +1,14 @@
+---
+date_added: 2021-05-22
+title: Athom 2Ch Inching/Self-locking
+model: R02
+image: /assets/images/athom_R02.jpg
+template9: '{"NAME":"Athom R02","GPIO":[1,1,1,1,225,224,1,1,1,1,1,1,576,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/2ch-inching-self-lock-relay
+link: https://www.aliexpress.com/item/1005002663497434.html
+link2: 
+flash: preflashed
+category: relay
+type: Relay
+standard: global
+---

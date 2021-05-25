@@ -1,0 +1,14 @@
+---
+date_added: 2021-05-22
+title: Athom 8Ch Inching/Self-locking 10A
+model: R08
+image: /assets/images/athom_R08.jpg
+template9: '{"NAME":"Athom R08","GPIO":[229,1,1,1,230,231,1,1,226,227,225,228,224,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/8ch-inching-self-lock-relay
+link: https://www.aliexpress.com/item/1005002663822485.html
+link2: 
+flash: preflashed
+category: relay
+type: Relay
+standard: global
+---
