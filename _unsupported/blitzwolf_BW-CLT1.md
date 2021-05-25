@@ -6,7 +6,7 @@ image: /assets/images/blitzwolf_BW-CLT1.jpg
 link: https://www.banggood.com/BlitzWolf-BW-CLT1-LED-Smart-Ceiling-Light-with-Main-Light-and-RGB-Atmosphere-Light-2700-6500K-Adjustable-Temperature-APP-Remote-Control-Optional-and-DIY-Scene-Mode-p-1793809.html
 link2: 
 mlink: 
-flash: serial
+flash: WB3L
 category: unsupported
 type: Ceiling Light
 standard: eu

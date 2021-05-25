@@ -1,0 +1,15 @@
+---
+date_added: 2021-05-23
+title: Positivo Smart Lâmpada Retrô 
+model: PLW7
+image: /assets/images/positivo_PLW7.jpg
+template9: '{"NAME":"POSITIVO SMART LAMPADA RETRO","GPIO":[0,0,0,0,0,0,0,0,0,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.positivocasainteligente.com.br/smart-lampada-retro
+link2: 
+mlink: https://www.positivocasainteligente.com.br/smart-lampada-retro
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e27
+---
+

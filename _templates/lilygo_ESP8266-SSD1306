@@ -1,0 +1,16 @@
+---
+date_added: 2021-05-19
+title: LilyGO TTGO ESP8266 0.91 inch OLED SSD1306
+model: TTGO-ESP8266-0.91-SSD1306
+image: /assets/images/lilygo_ESP8266-SSD1306.jpg
+template9: '{"NAME":"TTGO-0.91","GPIO":[1,1,640,1,1024,0,0,0,1,1,608,1,0,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32824012998.html
+link2: https://www.banggood.com/LILYGO-TTGO-ESP8266-0_91-Inch-OLED-Display-Module-p-1205904.html
+link3: https://www.amazon.com/dp/B07BHHY3MR
+mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50032&Id=1153
+flash: serial
+category: diy
+type: Display
+standard: global
+---
+Careful not to confuse this device with the Heltec WiFi Kit 8. The markings are identical but the GPIO assignments are different for the OLED. Heltec is a white circuit board with rounded edges. This one is black, has sharp edges and a prominent TTGO label at the top.

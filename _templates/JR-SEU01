@@ -1,0 +1,17 @@
+---
+date_added: 2021-05-20
+title: Touch Light Switch 1 Gang
+model: JR-SEU01
+image: /assets/images/JR-SEU01.jpg
+template9: '{"NAME":"Smart Touch Light Switch ","GPIO":[0,0,0,0,0,32,1,1,0,0,0,224,320,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001972918675.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+Standard [TYWE3S](https://tasmota.github.io/docs/devices/TYWE3S/) module inside. 
+
+[Pictures](https://photos.app.goo.gl/6hPnVrHPsE9m365M6)

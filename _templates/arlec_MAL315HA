@@ -1,7 +1,7 @@
 ---
 date_added: 2021-04-18
 title: Arlec Smart Security Light
-model: MAL314HA
+model: MAL315HA
 image: /assets/images/arlec_MAL300H.jpg
 template: '{"NAME":"Arlec MAL315HA","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.bunnings.com.au/arlec-20w-grid-connect-smart-security-light-with-movement-activated-sensor_p0223575
@@ -15,26 +15,28 @@ standard: au
 
 ## Features
 
-* Light duration: How long in seconds the light stays on after motion is detected. From user manual: min 10 sec to max 15 min.
+- Light duration: How long in seconds the light stays on after motion is detected. From user manual: min 10 sec to max 15 min.
 
-* Sensitivity adjustment (amount of movement required to trigger): Min = most sensitive, max = only detect large motion.  To tune, start with at minimum, and have someone move while increasing sensitivity.
+- Sensitivity adjustment (amount of movement required to trigger): Min = most sensitive, max = only detect large motion.  To tune, start with at minimum, and have someone move while increasing sensitivity.
 
-* Light level (lux adjustment): Min = day or night, max = night only.  For normal operation, adjust appropriately (e.g.: wait until the time of day, set sensitivity to most sensitive, lux to max, and while someone walks around reduce lux threshold until it triggers).
+- Light level (lux adjustment): Min = day or night, max = night only.  For normal operation, adjust appropriately (e.g.: wait until the time of day, set sensitivity to most sensitive, lux to max, and while someone walks around reduce lux threshold until it triggers).
 
-* Automatic and manual override mode.
+- Automatic and manual override mode.
 
-* One hour countdown to revert from manual to auto. To use, set to manual mode then activate countdown.
+- One hour countdown to revert from manual to auto. To use, set to manual mode then activate countdown.
 
 
 ## Configuration
 
 This product uses the TUYA WB3S which is NOT supported by Tasmota, but which is pin-compatible with ESP-12
-modules.
+modules:
 
-[Main board](https://user-images.githubusercontent.com/282098/115948000-8c384800-a51f-11eb-9799-4cce27b2d6d4.jpg)
+[Main board, original](https://user-images.githubusercontent.com/282098/115948000-8c384800-a51f-11eb-9799-4cce27b2d6d4.jpg)
 
 It is possible to replace the WB3S with an ESP-12 that has Tasmota flashed to it. Note that you also need to
-connect GPIO15 to GND, and both GPIO02 and EN to VCC for the ESP module to boot, so solder links to achieve that.
+connect GPIO15 to GND, and EN to VCC for the ESP module to boot, so solder links to achieve that:
+
+[Main board, after transplant](https://user-images.githubusercontent.com/282098/118340057-bd2ff980-b56e-11eb-9614-2b82eeb21d15.jpg)
 
 The bulk of the functionality is controlled via a TuyaMCU module, which reports as:
 ```
@@ -56,12 +58,24 @@ TuyaMCU 11,102
 To make Tasmota button toggle between manual and auto:
 
 ```console
-Rule1 ON Power1#State=0 DO TuyaSend4 101,1 ENDON ON Power1#State=1 DO TuyaSend4 101,2 ENDON
+Rule1 ON TuyaReceived#Data=55AA03070005660100010177 DO Rule2 0 ENDON ON TuyaReceived#Data=55AA0307000565040001027A DO Rule2 1 ENDON ON TuyaReceived#Data=55AA03070005660100010076 DO Rule2 1 ENDON
+Rule2 ON Power1#State=0 DO TuyaSend4 101,1 ENDON ON Power1#State=1 DO TuyaSend4 101,2 ENDON
+Rule1 1
+```
+(Rule2 provides the manual/auto toggle, but Rule1 ensures that it is only available when the light has not been activated by auto mode)
+
+A similar rule set allows the toggle to switch between auto and manual with the one hour return to auto:
+```console
+Rule1 ON TuyaReceived#Data=55AA03070005660100010177 DO Rule2 0 ENDON ON TuyaReceived#Data=55AA0307000565040001027A DO Rule2 1 ENDON ON TuyaReceived#Data=55AA03070005660100010076 DO Rule2 1 ENDON
+Rule2 ON Power1#State=0 DO TuyaSend4 101,1 ENDON ON Power1#State=1 DO Backlog TuyaSend4 101,2; TuyaSend1 106,1 ENDON
 Rule1 1
 ```
 
-(It might also be useful to make the State=1 also activate the 1 hour countdown timer)
-
+The MCU appears to forget settings on reboot, so if you change any of the below settings, you may want a rule to save them, e.g.:
+```console
+Rule3 ON System#Boot DO Backlog TuyaSend2 104,30; TuyaSend2 105,4000 ENDON
+Rule3 1
+```
 
 ## Tuya dpID list
 

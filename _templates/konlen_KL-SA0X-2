@@ -1,0 +1,14 @@
+---
+date_added: 2021-05-21
+title: Konlen USB 
+model: KL-SA0X-2
+image: /assets/images/konlen_KL-SA0X-2.jpg
+template9: '{"NAME":"KONLEN","GPIO":[0,0,0,0,419,416,0,0,418,32,417,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32999413629.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

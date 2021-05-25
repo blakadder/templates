@@ -1,7 +1,7 @@
 ---
 date_added: 2020-03-21
 title: MagicHome Single Color 5-28V
-model: 
+model: ZJ-WFMN-C V1.1
 image: /assets/images/magichome_single_color.jpg
 template: '{"NAME":"MagicHome","GPIO":[0,0,0,0,0,0,0,0,37,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33035745736.html
