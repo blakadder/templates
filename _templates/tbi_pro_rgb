@@ -1,0 +1,15 @@
+---
+date_added: 2021-05-24
+title: TBI Pro RGB
+model: 
+image: /assets/images/tbi_pro_rgb.jpg
+template9: '{"NAME":"TBI-PRO RGB Strip Light","GPIO":[32,0,0,0,416,0,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07J9HTB78
+link2: 
+mlink: https://tbi-store.com/collections/lighting/products/tbi-pro-led-strip-lights-32-8ft-indoor-outdoor-rgb-led-strip-lights-with-waterproof-color-changing-super-bright-5050-led-flexible-led-rope-lights-for-bedroom-kitchen-living-room-home-decoration
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: us
+---
+

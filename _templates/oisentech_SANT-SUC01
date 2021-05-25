@@ -1,0 +1,15 @@
+---
+date_added: 2021-05-21
+title: PCI-e Desktop PC Remote Control
+model: SANT-SUC01
+image: /assets/images/oisentech_SANT-SUC01.jpg
+template9: '{"NAME":"PC-Switch-01","GPIO":[32,0,0,0,0,0,0,0,224,544,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07RTBNQ17/
+link2: https://www.aliexpress.com/item/33042974681.html
+mlink: 
+flash: serial
+category: misc
+type: Miscellaneous
+standard: global
+---
+Serial Pinout directly on board. Hold Wifi Configuration pushbutton for flashing (pulls gpio 0 to gnd).
