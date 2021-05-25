@@ -71,6 +71,11 @@ Rule2 ON Power1#State=0 DO TuyaSend4 101,1 ENDON ON Power1#State=1 DO Backlog Tu
 Rule1 1
 ```
 
+The MCU appears to forget settings on reboot, so if you change any of the below settings, you may want a rule to save them, e.g.:
+```console
+Rule3 ON System#Boot DO Backlog TuyaSend2 104,30; TuyaSend2 105,4000 ENDON
+Rule3 1
+```
 
 ## Tuya dpID list
 
