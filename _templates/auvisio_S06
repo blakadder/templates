@@ -13,5 +13,7 @@ link2: https://www.amazon.de/dp/B07N88CQ6Z
 ---
 It's a Wifi-IR-Gateway with TX and RX
 
+**Note**: Uses the WB3S module now, so no longer compatible with Tasmota.
+
 ![](https://i.postimg.cc/HxWVNSNd/P-20190417-104747-1-p.jpg)
 ![](https://user-images.githubusercontent.com/5904370/56278820-3bf3a780-6107-11e9-9f53-eb3c198dffff.png)
