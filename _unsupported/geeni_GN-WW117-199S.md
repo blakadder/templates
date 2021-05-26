@@ -4,7 +4,7 @@ title: Geeni DOT GN-WW117-199S
 category: unsupported
 type: Plug
 link: https://www.canadiantire.ca/en/pdp/geeni-spot-smart-wi-fi-plug-0529700p.html#srp
-image: https://cdn.shopify.com/s/files/1/2612/6532/products/8dc81b9a-87c2-4df4-a6a6-5dd261a319ac_578x430.jpg?v=1591895517
+image: /assets/images/geeni_GN-WW117-199S.jpg
 link2: 
 link3: https://mygeeni.com/products/geeni-gn-ww117-199-dot-smart-wi-fi-plug-pack-of-1-white
 flash: WB2S

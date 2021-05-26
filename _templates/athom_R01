@@ -1,0 +1,14 @@
+---
+date_added: 2021-05-26
+title: Athom 1Ch Inching/Self-locking
+model: R01
+image: /assets/images/athom_R01.jpg
+template9: '{"NAME":"Athom R01","GPIO":[1,1,1,1,1,224,1,1,1,1,1,1,576,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/1ch-inching-self-lock-relay
+link: https://www.aliexpress.com/item/1005002637521595.html
+link2: 
+flash: preflashed
+category: relay
+type: Relay
+standard: global
+---
