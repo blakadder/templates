@@ -6,7 +6,7 @@ image: /assets/images/athom_LS2812B-TAS.jpg
 template9: '{"NAME":"LS2812B-TAS","GPIO":[32,0,1376,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/2812b-led-strip-controller
 link: https://www.aliexpress.com/item/1005002099128276.html
-link2: 
+link2: https://www.mylocalbytes.com/products/athom-wled-strip-controller
 flash: preflashed
 category: light
 type: Addressable LED Controller
