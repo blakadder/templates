@@ -10,4 +10,6 @@ link: https://www.kogan.com/au/buy/kogan-smarterhome-smart-plug-with-energy-mete
 image: https://user-images.githubusercontent.com/5904370/55288894-d8574380-53be-11e9-9738-0a801b0705b5.png
 template: '{"NAME":"Kogan Smart Sw","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
+
+Note, models purchased from Kogan on May 2021 do NOT contain ESP8285 or other Tasmota compatible CPUs.  They are shipped with WB25 modules.  Note though there there is likely room in the unit to desolder the WB25 daughterboard and replace it with a esp12F or similar. 
 ---
