@@ -1,6 +1,6 @@
 ---
 date_added: 2020-07-10
-title: iSwitch Light & Fan
+title: iSwitch Light and
 model: MGWF04W
 image: /assets/images/iswitch_light_and_fan.jpg
 template: '{"NAME":"iSwitchOZ Light Fan","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
@@ -9,7 +9,7 @@ link2:
 mlink: https://iswitchoz.com.au/products/google-alexa-wifi-light-fan-switch-aust-certified-iswitch
 flash: tuya-convert
 category: switch
-type: Switch
+type: Fan Switch
 standard: au
 ---
 After configuring your WiFi details and configuring the template, use the console to issue the following commands:

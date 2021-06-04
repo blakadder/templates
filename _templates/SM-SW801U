@@ -1,0 +1,23 @@
+---
+date_added: 2021-05-31
+title: 2AC 1USB
+model: SM-SW801U
+image: /assets/images/SM-SW801U.jpg
+template9: '{"NAME":"SM-SW801U","GPIO":[0,0,0,0,288,32,0,0,224,0,225,0,226,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07ZZVF8T7
+link2: https://www.amazon.com.au/dp/B07JYWGTDN
+link3: https://www.alibaba.com/product-detail/xenon-wifi-smart-wall-outlet-2AC_62148775944.html
+mlink: http://www.xenon.cn/in-wall-outlet/sm-sw801u-10a.html
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: us
+---
+Purchased May 28, 2021 was still able to Tuya-convert flash to Tasmota.
+  
+After flash you will need to add this rule otherwise the button on the front of the outlet will only control the top outlet and the bottom outlet and the USB port will be off except directly through Tasmota.  
+
+```console
+rule1 on power1#state=1 do backlog power1 1; power2 1; power3 1 endon on power1#state=0 do backlog power1 0; power2 0; power3 0 endon
+```
+Don't forget to turn rule 1 on with `Rule1 1`.

@@ -1,0 +1,29 @@
+---
+date_added: 2021-05-27
+title: Authometion 9W 850lm
+model: LYT8266
+image: /assets/images/authometion_LYT8266.jpg
+template9: '{"NAME":"LYT8266","GPIO":[1,1,419,1,1,1,1,1,417,416,418,224,1,1],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: http://authometion.com/shop/en/home/13-lyt8266.html 
+flash: serial
+category: bulb
+type: RGBW
+standard: e27
+---
+ESP8266-based RGBW smart bulb aimed at makers.  Stock firmware is Arduino-based.  No longer in production, and LED performance is underwhelming, but if you happen to have one, it's easy to work with and runs Tasmota just fine.
+
+More information can be found at [http://souliss.net/media/esp8266-wifi-multicolor-bulb/]
+
+The module is an ESP-03, with the serial programming pins made easily accessible on a connector.  An appropriate cable and a USB serial adaptor was supplied with the bulb.  Unusually, there's no 3.3V power pin on this header; you have to power the bulb from mains voltage during flashing.  This is okay because the DC power supply is fully isolated, and no unsafe voltages are present on the lamp/controller board.
+
+```
+ESP Pin  Function
+GPIO15      Master on/off (active high)
+GPIO13      PWM Red
+GPIO12      PWM Green
+GPIO14      PWM Blue
+GPIO2       PWM Warm White
+```
+This profile configures GPIO15 as a relay for completeness, though its functionality is somewhat redundant.

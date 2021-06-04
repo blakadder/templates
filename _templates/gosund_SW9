@@ -1,11 +1,11 @@
 ---
-date_added: 2021-01-19
+date_added: 2021-05-28
 title: Gosund 2 Gang 
 model: SW9
 image: /assets/images/gosund_SW9.jpg
 template9: '{"NAME":"GosundSW9","GPIO":[160,0,0,0,0,161,0,0,225,288,224,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://rcpro.pl/product-pol-19421-Inteligentny-przelacznik-swiatla-Gosund-SW9.html
-link2: 
+link: https://www.aliexpress.com/item/1005002700137552.html
+link2: https://rcpro.pl/product-pol-19421-Inteligentny-przelacznik-swiatla-Gosund-SW9.html
 mlink: 
 flash: serial
 category: switch

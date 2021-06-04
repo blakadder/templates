@@ -20,3 +20,7 @@ Then set dimmer range using console command:
 ```console
 DimmerRange 0,720
 ```
+If connecting an incandescent bulb disable Gamma Correction using console command:
+```
+LedTable 0
+```

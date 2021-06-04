@@ -1,14 +1,14 @@
 ---
-date_added: 2021-02-08
-title: Smitch 10W  6500K
-model: SB161001-B22
+date_added: 2021-05-29
+title: Smitch 10W 
+model: SB161001 - B22
 image: /assets/images/smitch_SB161001-B22.jpg
-template9: '{"NAME":"Smitch Ambience SB-0110","GPIO":[0,0,0,0,0,416,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Smitch SB161001 - B22","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.flipkart.com/smitch-wi-fi-rgb-10w-b22-base-smart-bulb/p/itm093bb83725009
 link2: 
 mlink: http://www.mysmitch.com/#blurb-tabs
 flash: serial
 category: bulb
-type: Dimmable
+type: RGBCCT
 standard: b22
 ---

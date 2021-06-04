@@ -1,6 +1,7 @@
 ---
 date_added: 2021-03-14
 title: AOFO 4AC 4USB
+model: C730
 category: plug
 type: Power Strip
 standard: eu
@@ -10,6 +11,8 @@ image: /assets/images/aofo_4AC4USB.jpg
 template: '{"NAME":"AOFO4AC4USB","GPIO":[0,56,0,17,22,21,0,0,23,24,25,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"AOFO4AC4USB-EU","GPIO":[0,320,0,32,228,227,0,0,225,224,226,0,0,0],"FLAG":0,"BASE":18}' 
 ---
+Recent devices come with a newer Tuya firmware and tuya-convert does not currently support it.
+
 TYWE2S module inside
 
 In some cases Relay5 (USB) ON/OFF is inverted.

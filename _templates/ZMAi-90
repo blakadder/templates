@@ -24,3 +24,15 @@ Backlog SetOption66 1; TuyaMCU 0,17; TuyaMCU 32,18; TuyaMCU 31,19; TuyaMCU 33,20
 Backlog Rule1 1; Rule1 on System#Boot do RuleTimer1 5 endon on Rules#Timer=1 do backlog SerialSend5 55aa0001000000; RuleTimer1 5 endon
 ```
 
+There is even newer version of ZMAI-90 with WB3S module. It turns out its pin to pin compatible with ESP12E, so replacing the WB3S module with ESP12E flashed with tasmota will gives tasmota compatibility.
+
+However this one even use different TuyaMCU protocol and to configure this verson you need to put:
+```console
+Backlog SetOption66 1; TuyaMCU 11,16; TuyaMCU 36,6; TuyaMCU 37,1; SetOption59 1; SetOption72 1
+```
+```console
+Rule1 on System#Boot do RuleTimer1 10 endon on Rules#Timer=1 do backlog TuyaSend8; RuleTimer1 10 endon
+```
+
+credit: https://community.home-assistant.io/t/help-with-zmai-90-and-esphome-or-tasmota/308554/2?u=tesna
+
