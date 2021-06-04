@@ -1,0 +1,23 @@
+---
+date_added: 2021-06-03
+title: Avatto Light and 
+model: SYS-FL01-EU
+image: /assets/images/avatto_SYS-FL01.jpg
+template9: '{"NAME":"AVATTO SYS-FL01","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000214394624.html
+link2: 
+mlink: https://expo.tuya.com/product/339120
+flash: serial
+category: switch
+type: Fan Switch
+standard: [eu, us]
+---
+Required commands:
+
+```console
+Backlog TuyaMCU 12,1; TuyaMCU 61,3; TuyaMCU 11,9; TuyaEnumList 1,4
+```
+```console
+Rule1 on TuyaReceived#Cmnd7DpId3DpType4 do Publish stat/%topic%/SPEED %value% endon on Event#resync do Backlog Power1; Power2; TuyaSend0; endon on System#Boot do Event resync endon
+```
+Don't forget to activate the rule `Rule1 1`

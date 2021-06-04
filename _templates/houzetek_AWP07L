@@ -1,20 +1,15 @@
 ---
-date_added: 2019-03-23
-title: Houzetek AWP07L
+date_added: 2021-06-03
+title: Houzetek 
+model: AWP07L
 category: plug
 type: Plug
 standard: eu
-link: https://www.amazon.it/Intelligente-Houzetek-supporto-programmabile-Telecomando/dp/B07HH2XQNX
-image: https://images-na.ssl-images-amazon.com/images/I/5180wwTaA4L._SX522_.jpg
+template9: '{"NAME":"AWP07L","GPIO":[320,0,0,0,0,2720,0,0,2624,32,2656,224,0,0],"FLAG":0,"BASE":18}' 
+image: /assets/images/houzetek_AWP07L.jpg
+link: https://www.amazon.it/dp/B07HH2XQNX
+link2: https://www.amazon.de/dp/B07FNQNQYD
 flash: tuya-convert
-template: '{"NAME":"AWP07L","GPIO":[56,0,0,130,0,134,0,0,0,17,132,21,0],"FLAG":0,"BASE":18}' 
-link2: 
 ---
-
-
-
-
-
-
 
 
