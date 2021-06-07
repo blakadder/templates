@@ -1,0 +1,14 @@
+---
+date_added: 2021-06-07
+title: Konyks Priska+ Mini 16A
+model: 3770008652576
+image: /assets/images/
+template9: '{"NAME":"Konyks PRISKA+ MINI","GPIO":[32,0,0,0,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":49}' 
+link: https://www.amazon.fr/dp/B07VPH1L9Z/
+link2: 
+mlink: https://konyks.com/produit/priska-mini-2/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: fr
+---

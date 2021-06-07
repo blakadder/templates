@@ -1,0 +1,15 @@
+---
+date_added: 2021-06-06
+title: SuperBrightLEDs 3W 70lm 12V
+model: G4-RGB3W
+image: /assets/images/
+template9: '{"NAME":"G4-RGB3W","GPIO":[0,0,0,0,417,0,0,0,418,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.superbrightleds.com/moreinfo/miniature-and-subminiature-bulbs/g4-led-smart-bi-pin-bulb-rgb-color-changing-hubless-smartphone-compatible/6423/14313/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGB
+standard: g4
+---
+Remove diffuser (it's glued on). Carefully cut glue holding the module into the white ceramic base. Don't pry against the base, it cracks easily. Hold base and push pins against hard surface to push module out of base. Desolder ESP daughterboard from rest of unit. Tx Rx GPIO0 3.3V and GND pads are on the back of the ESP daughterboard. Comes with Tuya firmware too new to use OTA update.

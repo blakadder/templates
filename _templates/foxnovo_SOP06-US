@@ -1,0 +1,15 @@
+---
+date_added: 2021-06-07
+title: Foxnovo IP44 Dual
+model: SOP06-US
+image: /assets/images/foxconn_SOP06-US.jpg
+template9: '{"NAME":"SOP06-US","GPIO":[0,0,0,0,320,321,0,0,224,32,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B08KXWTVGR
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: us
+---
+Pry out rubber screw covers and use a small flat head screwdriver to remove the security screws.  Remove the PC board by removing 5 more security screws (two holding cord and three holding the PC board).  Make/solder temporary wires to TYWE2S microcontroller board on GND, VCC, TX, RX and IO0 (GPIO0) jumpered to ground and Tasmotize.

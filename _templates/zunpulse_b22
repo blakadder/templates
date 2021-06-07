@@ -1,0 +1,14 @@
+---
+date_added: 2021-06-05
+title: ZunPulse 9W
+model: 
+image: /assets/images/zunpulse_b22.jpg
+template9: '{"NAME":"ZunPulse B22 9W","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.zunpulse.com/products/lighting/D10000/smart-bulb
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: b22
+---
