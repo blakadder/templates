@@ -2,7 +2,7 @@
 date_added: 2021-06-06
 title: SuperBrightLEDs 3W 70lm 12V
 model: G4-RGB3W
-image: /assets/images/
+image: /assets/images/G4-RGB3W.jpg
 template9: '{"NAME":"G4-RGB3W","GPIO":[0,0,0,0,417,0,0,0,418,0,416,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.superbrightleds.com/moreinfo/miniature-and-subminiature-bulbs/g4-led-smart-bi-pin-bulb-rgb-color-changing-hubless-smartphone-compatible/6423/14313/
 link2: 
