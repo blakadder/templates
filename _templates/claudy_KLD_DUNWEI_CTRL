@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: relay
-type: Switch Module Board
+type: Relay Board
 standard: global
 ---
 To enter flash mode connect GND to GPIO0 (pins are next to each other)
