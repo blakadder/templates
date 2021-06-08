@@ -7,7 +7,6 @@ standard: global
 flash: mgos
 mlink: https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/
 image: /assets/images/shelly_25.jpg
-template: '{"NAME":"Shelly 2.5","GPIO":[56,0,17,0,21,83,0,0,6,82,5,22,156],"FLAG":2,"BASE":18}'
 template9: '{"NAME":"Shelly 2.5","GPIO":[320,0,32,0,224,193,0,0,640,192,608,225,3456,4736],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07Q9M2Y1S/
 link2: https://www.amazon.com/dp/B07RRBPCVS
