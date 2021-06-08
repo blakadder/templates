@@ -1,11 +1,12 @@
 ---
-date_added: 2020-02-08
+date_added: 2021-06-08
 title: DoHome HomeKit DIY Switch
 model: 
 category: relay
 type: Relay Board
 standard: global
-link: https://www.aliexpress.com/item/4000340622497.html
+link: https://www.aliexpress.com/item/4000185031782.html
+link2: https://www.banggood.com/Smart-Remote-Control-Relay-Switch-Smart-Plug-Development-Board-Compatible-with-Home-Google-Assistant-Dohome-p-1742665.html
 image: /assets/images/dohome_DIY.jpg
 template: '{"NAME":"DoHome DIY","GPIO":[255,255,0,255,255,157,0,0,21,0,0,0,0],"FLAG":0,"BASE":1}' 
 link2: 
