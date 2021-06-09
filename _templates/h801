@@ -17,8 +17,8 @@ The chip used on this board is the [ESP8266EX](https://www.espressif.com/sites/d
 | Function | ESP8266 Pin | Channel |
 | -------- | ----------- | ------- |
 | R | GPIO 15 | PWM1 |
-| G | GPIO 13 | PWM2 |
-| B | GPIO 12 | PWM3 |
+| G | GPIO 12 | PWM2 |
+| B | GPIO 13 | PWM3 |
 | CW | GPIO 14 | PWM4 |
 | WW | GPIO 04 | PWM5 |
 | LED D1 (red) | GPIO 05 |
