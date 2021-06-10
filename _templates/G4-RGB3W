@@ -13,3 +13,10 @@ type: RGB
 standard: g4
 ---
 Remove diffuser (it's glued on). Carefully cut glue holding the module into the white ceramic base. Don't pry against the base, it cracks easily. Hold base and push pins against hard surface to push module out of base. Desolder ESP daughterboard from rest of unit. Tx Rx GPIO0 3.3V and GND pads are on the back of the ESP daughterboard. Comes with Tuya firmware too new to use OTA update.
+
+<a href="https://ibb.co/qNSn4tg"><img src="https://i.ibb.co/Vg1Nh7C/06-flashing.jpg" alt="06-flashing" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/7X9RRNc/05-module.jpg" alt="05-module" border="0"></a>
+<a href="https://ibb.co/28kd4JK"><img src="https://i.ibb.co/rbwHr9y/04-module-side.jpg" alt="04-module-side" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/bNRbqQd/03-ps-side.jpg" alt="03-ps-side" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/6vCSpDN/02-whole-top.jpg" alt="02-whole-top" border="0"></a>
+<a href="https://ibb.co/myW6N7W"><img src="https://i.ibb.co/M10MBL0/01-whole.jpg" alt="01-whole" border="0"></a>

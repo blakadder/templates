@@ -1,0 +1,33 @@
+---
+date_added: 2021-06-09
+title: Fitop 10W 
+model: BA60H-W0080-RCBW-E7
+image: /assets/images/fitop_BA60H-W0080-RCBW-E7.jpg
+template9: '{"NAME":"Fitop 10W RGBCW","GPIO":[0,0,0,0,0,0,0,0,0,4032,4064,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B083443K8N/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e27
+---
+Tuya-Convert does not work.
+
+Bulb has a metal lid under the LED PCB that needs to be removed before the TYWE3L module is accessible. 
+
+I had success by removing the metal cap at the socket:
+
+This can be done by slipping a sharp metal blade between the edge and the plastic, then carefully lifting it out. There is a wire wedged in there, don't let it slip into the bulb.
+
+Then, use a hardened metal rod (about 2 mm in diameter) by threading it into the hole at an angle, being careful not to damage or apply pressure to the components on the PCB, to push the lid off with a press or a vice.
+
+The metal is rather soft, you can puncture it if you press too hard and you might have to repeat on different locations before it pops out.
+
+Alternatively you can just Dremel the lid out, but it's used for heat dissipation so it's better to keep it intact and reinstall it after flashing.
+
+The module is now easily accessible, and wires can be soldered on according to this [pinout](https://developer.tuya.com/en/docs/iot/wifie3lpinmodule?id=K9605uj1ar87n)
+
+On my bulbs after applying the template the Green and Blue channels were swapped, so 'SetOption37 6' needs to be set.
+
+I flashed two bulbs successfully and without damaging them this way.
