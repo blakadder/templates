@@ -12,3 +12,7 @@ category: plug
 type: Power Strip
 standard: us
 ---
+
+**Update 6 June 2021:** The Geeni Surge Mini is now being sold with the incompatible Tuya WB3S chip.
+
+It is possible to successfully desolder this chip from the daughterboard (e.g. with a heat gun) and replace it with an ESP-12F to continue using the template on this page.
