@@ -12,9 +12,28 @@ category: plug
 type: Outdoor Plug
 standard: eu
 ---
+To open the shell of the device the green rubber cap and two tri-wing security screws have to be removed. 
+Lift the rubber near the button with some non-sharp tool. Use a wrench to remove it completely. Remove the two screws (tri-wing), remove the black cap and push the device out and remove the silver clip.  
+<img src="https://user-images.githubusercontent.com/80213345/121693994-f3a75880-cac9-11eb-84f7-0c7b37ded234.jpg" height="100">
+<img src="https://user-images.githubusercontent.com/80213345/121695133-0ec69800-cacb-11eb-978c-7d297fe7cef6.jpg" height="100">
+<img src="https://user-images.githubusercontent.com/80213345/121695533-6e24a800-cacb-11eb-8d5a-a3ba2a844f2e.jpg" height="100">
+<img src="https://user-images.githubusercontent.com/80213345/121695820-b774f780-cacb-11eb-9c1c-c5b00fee2716.jpg" height="100">
+<img src="https://user-images.githubusercontent.com/80213345/121695830-bc39ab80-cacb-11eb-9ae4-52384d43d401.jpg" height="100">
 
-To open the shell of the device the green rubber cap and two tri-wing security screws have to be removed. To flash, wires have to be soldered to 3.3v, GND, TX, RX and GPI0. 
+Remove the small spring and the orange slider.  
+<img src="https://user-images.githubusercontent.com/80213345/121695902-cfe51200-cacb-11eb-8c73-f87aaa826140.jpg" height="100">
+<img src="https://user-images.githubusercontent.com/80213345/121695911-d1aed580-cacb-11eb-9772-a2dce92d1b90.jpg" height="100">
 
+Pull the black cap (wheer the oange slider was in) gently in oposite direction of the resst. A black clip in the middle keeps it together.
+
+Now you are ready to solder.  
+<img src="https://user-images.githubusercontent.com/80213345/121696145-0d499f80-cacc-11eb-8127-838076858166.jpg" height="100">
+
+GPI0 is a bit hidden in the device. Best practices may to connect ground to the serial flasher and use a cable to contact GPI0 during power on.  
+<img src="https://user-images.githubusercontent.com/80213345/121696309-3bc77a80-cacc-11eb-8e05-cfd8a040a70b.jpg" height="100">
+
+
+To flash, wires have to be soldered to 3.3v, GND, TX, RX and GPI0. 
 Pinout on similar device: ![](https://community.blynk.cc/uploads/default/original/2X/5/50d89c2842c9b39599e82b140d2ac0a3439ea9c0.jpg)
 
 GPI0 sits just behind a capacitor that needs to be desoldered.
