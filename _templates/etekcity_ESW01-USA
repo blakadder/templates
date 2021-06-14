@@ -11,4 +11,4 @@ category: plug
 type: Plug
 standard: us
 ---
-Tear down and soldering is required to flash. There is one github project for a wifi hijack, but it doesn't seem to work with this model.
+Tear down and soldering is required to flash. There has been success using https://github.com/adapt0/smartplug/issues/25 to flash tasmota OTA, YMMV based on firmware version
