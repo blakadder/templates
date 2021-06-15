@@ -14,7 +14,7 @@ link2: https://www.amazon.com/dp/B07R48W8R8/
 
 This device uses an FTDI serial-to-USB chip. If your device isn't found install [drivers](https://www.ftdichip.com/Drivers/VCP.htm).
 
-Download custom compiled [tasmota32-lvgl.bin](https://github.com/Jason2866/Tasmota/blob/firmware/firmware/tasmota32/tasmota32-lvgl.bin).
+Download custom compiled [tasmota32-lvgl.bin](https://github.com/Jason2866/Tasmota/blob/firmware/firmware/tasmota32/tasmota32-lvgl.bin) and flash it. 
 
 Download [ST7735S_M5StickC_display.ini](https://raw.githubusercontent.com/arendst/Tasmota/development/tasmota/displaydesc/ST7735S_M5StickC_display.ini), rename to **display.ini** and upload using *Consoles - File Upload* menu.
 
