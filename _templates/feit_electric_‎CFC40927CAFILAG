@@ -1,0 +1,18 @@
+---
+date_added: 2021-06-12
+title: Feit Electric Chandelier Flame Tip Soft White
+model: CFC40/927CA/FIL/AG
+image: /assets/images/
+template9: '{"NAME":"FEIT CFC40","GPIO":[0,0,0,0,0,0,0,0,0,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07ZWTH6PQ
+link2: 
+mlink: https://www.feit.com/product/60-watt-equivalent-vintage-flame-tip-alexa-google-smart-bulb/
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e12
+---
+To flash this bulb, I used tuya-convert and then upgraded to the full image.  
+
+Note I used tuya-convert-os (https://github.com/qtoggle/tuya-convert-os).  If you do this, log into the console of your rpi and do the convert from the command line (sudo su; cd /root;) the web gui did not allow me to chose an image which left the bulbs half flashed.  I had to re-flash them to finish the tasmota install."
+

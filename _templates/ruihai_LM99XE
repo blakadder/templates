@@ -1,0 +1,15 @@
+---
+date_added: 2021-06-11
+title: Ruihai 9W 800lm
+model: LM99XE
+image: /assets/images/ruihai_LM99XE.jpg
+template9: '{"NAME":"Ruihai SB50","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B08NY9KCXB/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e26
+---
+Appears to be identical to the Teckin SB50 v3. Tuya-Convert failed due to the firmware version being so recent. Serial flash was needed. Lid was very easy to remove without damage using a plastic spudger, and the upper PCB was popped out with the same. Only some forgiving "hot glue" type adhesive was used which made things easy. Photos: https://photos.app.goo.gl/i3odWY6tWAwVts9s6
