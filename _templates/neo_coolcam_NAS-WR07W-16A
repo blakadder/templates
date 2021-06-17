@@ -3,7 +3,7 @@ date_added: 2021-02-13
 title: NEO Coolcam 16A
 model: NAS-WR07W
 image: /assets/images/neo_coolcam_NAS-WR07W-16A.jpg
-template9: '{"NAME":"Lonsonho NAS-WR07W-16A","GPIO":[32,0,0,0,0,0,1,1,0,320,224,0,0,1],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"NEO Coolcam NAS-WR07W-16A","GPIO":[32,0,0,0,2720,2656,1,1,2624,320,224,0,0,1],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/33038406713.html
 link2: 
 mlink: 
@@ -12,4 +12,9 @@ category: plug
 type: Plug
 standard: fr
 ---
-16a version, the circuit board says NAS-WR01W. The template for the NAS-WR01W 10a doesn't work on this!
+Version 16A, 3680W, AC 85-230V, 50/60Hz, PCB label NAS-OGCZ-16A-T, with power measurement using BL0937, gray socket label, without rainbow as on some photos!
+More [PCB photos](https://github.com/ct-Open-Source/tuya-convert/issues/666#issuecomment-683071700).
+
+Warning! To connect all flash wires, it is necessary to physically destroy the socket or use sharp spring needle pins directly from the side of the Wi-Fi antenna.
+
+(?) Old info: The circuit board says NAS-WR01W. The template for the NAS-WR01W 10A doesn't work on this!

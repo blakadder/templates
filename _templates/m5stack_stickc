@@ -1,48 +1,23 @@
 ---
-date_added: 2021-04-25
+date_added: 2021-06-20
 title: M5Stack M5StickC
 model: K016-C
 category: diy
 type: Display
 standard: global
 image: /assets/images/m5stack_stickc.jpg
-template32: '{"NAME":"M5StickC","GPIO":[1,0,0,0,0,768,1056,576,0,736,0,704,0,0,1024,0,0,0,0,800,0,0,1,0,0,0,0,0,640,608,1,0,1,32,6210,33],"FLAG":0,"BASE":7}' 
+template32: '{"NAME":"M5StickC","GPIO":[1,0,0,0,0,768,1056,576,0,736,0,704,0,0,1024,0,0,641,609,800,0,0,1,0,0,0,0,0,640,608,1,0,1,32,6210,33],"FLAG":0,"BASE":1}' 
 mlink: https://m5stack.com/collections/m5-hat/products/stick-c
 link: https://www.aliexpress.com/item/32985247364.html
 link2: https://www.amazon.com/dp/B07R48W8R8/
 ---
 
-**DISPLAY IS NOT WORKING!!!**
-
 This device uses an FTDI serial-to-USB chip. If your device isn't found install [drivers](https://www.ftdichip.com/Drivers/VCP.htm).
 
-with display
+Download custom compiled [tasmota32-lvgl.bin](https://github.com/Jason2866/Tasmota/raw/firmware/firmware/tasmota32/tasmota32-lvgl.bin) and flash it. 
 
-user_config_override.h
-```c++
-#define USE_M5STACK_CORE2
-#define USE_IR_REMOTE        
-#define USE_UNIVERSAL_DISPLAY
-#define USE_ENERGY_SENSOR
-#define USE_I2C
-#define USE_LIGHT
-```
+Download [ST7735S_M5StickC_display.ini](https://raw.githubusercontent.com/arendst/Tasmota/development/tasmota/displaydesc/ST7735S_M5StickC_display.ini), rename to **display.ini** and upload using *Consoles - Manage File system* menu.
 
-Add env in `platformio_override.ini` and compile it
-```ini
-[env:tasmota32-stickc]
-extends                 = env:tasmota32_base
-board_build.f_cpu       = 240000000L
-board_build.flash_mode  = qio
-board_build.f_flash     = 80000000L
-upload_speed            = 115200
-build_flags             = ${common32.build_flags} -DFIRMWARE_M5STACK_CORE2
-lib_extra_dirs          = lib/libesp32, lib/lib_basic, lib/lib_i2c, lib/lib_rf, lib/lib_div, lib/lib_ssl, lib/lib_display, lib/lib_audio
-```
+Next, download [axp192.be](https://raw.githubusercontent.com/arendst/Tasmota/development/tasmota/berry/drivers/axp192.be) and upload using *Consoles - Manage File system* menu.
 
-autoexec.bat
-```dos
-Power 1
-VoltRes 3 
-Ampres 1
-```
+Use the examples in this [GitHub discussion](https://github.com/arendst/Tasmota/discussions/11784) to use the display.

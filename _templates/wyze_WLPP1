@@ -7,7 +7,7 @@ template: '{"NAME":"WyzePlugWLPP1","GPIO":[0,0,0,0,0,56,0,0,21,0,17,0,0],"FLAG":
 link: https://www.amazon.com/dp/B07XZT24B8
 link2: 
 mlink: https://wyze.com/wyze-plug.html
-flash: wpf
+flash: esp2ino
 category: plug
 type: Plug
 standard: us

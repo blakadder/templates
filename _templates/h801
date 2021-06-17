@@ -5,8 +5,8 @@ type: LED Controller
 standard: global
 link: https://www.banggood.com/Smart-LED-Dimmer-Receiver-WiFi-APP-Controller-for-RGBW-Strip-Light-DC5-24V-p-1055713.html
 image: https://user-images.githubusercontent.com/5904370/57890606-836d7080-7838-11e9-925c-50f7e2af4df2.png
-template: '{"NAME":"H801","GPIO":[0,52,0,0,41,57,0,0,39,38,40,37,0],"FLAG":0,"BASE":20}' 
-link2: http://s.click.aliexpress.com/e/nxYZzeLm
+template9: {"NAME":"H801","GPIO":[1,288,1,1,420,321,0,0,418,417,419,416,0,0],"FLAG":0,"BASE":20}
+link2: https://www.aliexpress.com/af/H801.html
 ---
 ![H801 in case](http://smartlife.tech/blog/wp-content/uploads/2016/06/20160623_171501.jpg)
 
@@ -17,8 +17,8 @@ The chip used on this board is the [ESP8266EX](https://www.espressif.com/sites/d
 | Function | ESP8266 Pin | Channel |
 | -------- | ----------- | ------- |
 | R | GPIO 15 | PWM1 |
-| G | GPIO 13 | PWM2 |
-| B | GPIO 12 | PWM3 |
+| G | GPIO 12 | PWM2 |
+| B | GPIO 13 | PWM3 |
 | CW | GPIO 14 | PWM4 |
 | WW | GPIO 04 | PWM5 |
 | LED D1 (red) | GPIO 05 |
