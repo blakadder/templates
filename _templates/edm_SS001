@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: relay
-type: Switch
+type: Switch Module
 standard: global
 ---
 Device contains TYWE2S
