@@ -12,9 +12,8 @@ flash: tuya-convert
 category: sensor
 type: Siren
 standard: global
+author: blak
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
-
 This is a Tuya siren with temperature and humidity sensor. Runs on USB and two CR123A batteries as backup (not supplied with the device). 
 
 ## Hardware Versions

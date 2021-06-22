@@ -1,0 +1,61 @@
+---
+date_added: 2021-06-26
+title: RainPoint Indoor Water Pump
+model: TTP106W
+image: /assets/images/rainpoint_TTP106W.jpg
+template9: '{"NAME":"RainPoint","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 81,107|TuyaMCU 12,109|TuyaMCU 11,1"}' 
+mlink: https://rainpointus.com/products/%E3%80%90ik10pw%E3%80%91wifi%C2%A0smart%C2%A0watering%C2%A0pump-kit-146
+link: https://www.aliexpress.com/item/1005002716375666.html
+link2: https://www.amazon.com/dp/B08Q8KXW15
+link3: https://www.alibaba.com/product-detail/WiFi-Pump-Water-Timer-Smart-water_1600119672723.html
+flash: serial
+category: misc
+type: Miscellaneous
+standard: global
+author: blak
+---
+Tuya water timer as part of an irrigation kit: RainPoint IK10PW. Runs on USB and four AAA batteries for independent operation. 
+
+Device needs to be powered over USB to have Wi-Fi functionality. If it is only battery powered, the Wi-Fi module will be unpowered but the device will still run the watering cycles with the secondary MCU and stored settings.
+
+Identified by `MCU Product ID: {"p":"2ak7r2culspkc7hx","v":"1.1.1","m":0}`
+
+## Flashing
+
+Steps:
+
+1. Remove battery cover
+2. Remove the two screws from the bottom and pry the lid off using the tabs on the opposite side
+3. Connect GND and RST pins to disable the MCU
+4. Wire RX, TX, GND pins to the serial-to-USB adapter
+5. Ground GPIO0 before powering up the device with its built-in USB power
+
+![Pinout](/assets/images/rainpoint_TTP106W_pcb.jpg)
+
+If you have power issues during flashing, disconnect the pump from the PCB at the top leftmost JST connector
+
+## Functions
+- dpId 1 = (Type1) pump power on/off
+- dpId 102 = (Type2) watering duration (6..1800 seconds)
+- dpId 103 = (Type2) watering frequency (1..168 hours)
+- dpId 104 = (Type2) remaining watering time
+- dpId 105 = (Type5) error report (`0x00` = no error; `0x01` = no water)
+- dpId 106 = (Type4) operation status: 2 - manual; 1 - auto; 0 - idle
+- dpId 107 = (Type2) next watering event in minutes
+- dpId 108 = (Type4) power status: (1 - battery high; 2 - medium; 3 - low; 4 - USB port)
+- dpId 109 = (Type1) watering autorun on/off
+
+## Configuration
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Applying the template will configure all the necessary dpId's to their functions
+
+Commands for control in Tasmota:
+- `Power1` - Pump on/off
+- `Power2` - Autorun watering cycle on/off
+- `Timer1` - displays time till next watering
+- `TuyaSend2 102,x` - set watering duration
+- `TuyaSend2 103,x` - set watering frequency
+
+To display remaining watering time as Timer2 run `TuyaMCU 82,104`

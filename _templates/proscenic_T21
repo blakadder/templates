@@ -65,7 +65,7 @@ Connect the pins to the connector following the pinout.
 - dpId 108 = (Type1) ???
 - dpId 109 = (Type3) undecyphered status data point
 
-## Configurations
+## Configuration
 `MCU Product ID: {"p":"ngdn90sk1yqmk9ww","v":"1.0.2","m":0}`
 
 After configuring Wi-Fi, MQTT and setting `Module 54`
