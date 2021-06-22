@@ -1,0 +1,17 @@
+---
+date_added: 2021-06-19
+title: Wipro 16A 
+model: DS11160
+image: /assets/images/wipro_DS11160.jpg
+template9: '{"NAME":"Wip-DSP1160","GPIO":[0,0,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":52}' 
+link: https://www.amazon.in/dp/B08HN9Q2SZ
+link2: 
+mlink: https://www.wiproconsumerlighting.com/products/garnet/wipro-smart-plug
+flash: serial
+category: plug
+type: Plug
+standard: in
+---
+This device has the tuya chip TYWE2S. Power monitoring chip details listed in the Tasmota configuration template. Opening the device is somewhat similar to instructions in https://blakadder.com/disassembling-CN39/. However, i didn't use a plyer etc, was able to poke in a screwdriver in the gap and yank out with little damage... The bigger complication in this device is that, you need to unsolder the AC terminals on the board to detach the board from the case and get to the Tuya chip.
+
+I was not careful enough while soldering to tx, rx and lifted the pads  on the chip. However, after much pains, was able to transplant with a esp12f chip and recover the device and get it working with tasmota.

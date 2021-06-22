@@ -1,0 +1,14 @@
+---
+date_added: 2021-06-30
+title: CloudFree Smart Plug 2
+model: P2
+image: /assets/images/cloudfree_P2.jpg
+template9: '{"NAME":"CloudFree P2","GPIO":[320,0,321,0,224,2720,0,0,2624,32,2656,1,0,0],"FLAG":0,"BASE":45}' 
+link: https://cloudfree.shop/product/cloudfree-smart-plug/
+link2: 
+mlink: 
+flash: preflashed
+category: plug
+type: Plug
+standard: us
+---

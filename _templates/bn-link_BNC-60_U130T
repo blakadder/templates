@@ -11,6 +11,7 @@ flash: serial
 category: plug
 type: Outdoor Plug
 standard: us
+unsupported: true
 ---
 
 Two pieces ordered directly from bn-link.com on 11/29/2020 were still tuya-convert-able;-) I actually opened the first one because of all
