@@ -3,7 +3,7 @@ date_added: 2021-07-01
 title: RainPoint Indoor Water Pump
 model: TTP106W
 image: /assets/images/rainpoint_TTP106W.jpg
-template9: '{"NAME":"RainPoint","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 81,107|TuyaMCU 12,109|TuyaMCU 11,1"}' 
+template9: '{"NAME":"RainPoint","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 81,107|TuyaMCU 12,109|TuyaMCU 11,1|TuyaMCU 82,104"}' 
 mlink: https://rainpointus.com/products/%E3%80%90ik10pw%E3%80%91wifi%C2%A0smart%C2%A0watering%C2%A0pump-kit-146
 link: https://www.aliexpress.com/item/1005002716375666.html
 link2: https://www.amazon.com/dp/B08Q8KXW15
@@ -39,7 +39,7 @@ If you have power issues during flashing, disconnect the pump from the PCB at th
 - dpId 102 = (Type2) watering duration (6..1800 seconds)
 - dpId 103 = (Type2) watering frequency (1..168 hours)
 - dpId 104 = (Type2) remaining watering time
-- dpId 105 = (Type5) error report (`0x00` = no error; `0x01` = no water)
+- dpId 105 = (Type5) error report (`0x00` = no error; `0x01` = no water) but it doesn't seem to work correctly
 - dpId 106 = (Type4) operation status: 2 - manual; 1 - auto; 0 - idle
 - dpId 107 = (Type2) next watering event in minutes
 - dpId 108 = (Type4) power status: (1 - battery high; 2 - medium; 3 - low; 4 - USB port)
@@ -54,8 +54,30 @@ Applying the template will configure all the necessary dpId's to their functions
 Commands for control in Tasmota:
 - `Power1` - Pump on/off
 - `Power2` - Autorun watering cycle on/off
-- `Timer1` - displays time till next watering
 - `TuyaSend2 102,x` - set watering duration
 - `TuyaSend2 103,x` - set watering frequency
+- _Timer1_ - displays time till next watering
+- _Timer2_ - displays remaining watering time 
 
-To display remaining watering time as Timer2 run `TuyaMCU 82,104`
+## Home Assistant
+Set names for pump control and watering autorun
+
+```console 
+Backlog FriendlyName1 Water Pump; FriendlyName2 Autorun Watering
+```
+
+Add rules required for the blueprint to work
+```console
+rule3
+on tuyareceived#dptype2id102 do publish %topic%/duration %value% endon 
+on var2#state do tuyasend2 102,%value% endon 
+on tuyareceived#dptype2id103 do publish %topic%/frequency %value% endon 
+on var3#state do tuyasend2 103,%value% endon 
+on tuyareceived#dptype4id106 do publish %topic%/mode %value% endon 
+on tuyareceived#dptype4id108 do publish %topic%/battery %value% endon 
+```
+
+Activate the rule with `Rule3 1`
+
+Import the blueprint in Home Assistant:
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-rainpoint.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-rainpoint.yaml)
