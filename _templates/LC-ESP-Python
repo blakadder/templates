@@ -1,0 +1,13 @@
+---
+date_added: 2021-06-29
+title: LC Technology MicroPython Maker
+model: LC-ESP-Python
+category: relay
+type: Development Board
+standard: global
+template9: '{"NAME":"LC-ESP-Python","GPIO":[1,1,544,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
+image: /assets/images/LC-ESP-Python.jpg
+link: https://www.aliexpress.com/item/1005001458523448.html
+link2: https://www.amazon.co.uk/dp/B08K2SNDKH
+mlink: http://www.chinalctech.com/m/view.php?aid=489
+---
