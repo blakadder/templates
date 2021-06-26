@@ -13,7 +13,7 @@
                 {% elsif forloop.index == 11 %}GPIO14
                 {% elsif forloop.index == 12 %}GPIO15
                 {% elsif forloop.index == 13 %}GPIO16
-                {% elsif forloop.index == 14 %}ADC0
+                {% elsif forloop.index == 14 %}GPIO17
                 {% else %}{{ forloop.index0 | prepend: 'GPIO0' }} 
                 {% endif %}
             </td>
@@ -479,7 +479,7 @@
                 ADC CT Power
                 {% when "3328" %}
                 ADC Joystick
-                {% when "5726" %}
+                {% when "5728" %}
                 Option a1
                 {% else %}
                 Missing
