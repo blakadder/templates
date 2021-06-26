@@ -1,0 +1,21 @@
+---
+date_added: 2021-06-30
+title: Wyze Bulb Color
+model: WLPA19C
+image: /assets/images/wyze_WLPA19C.jpg
+template9: '{"NAME":"Wyze Bulb Color","GPIO":[0,0,0,0,0,0,0,0,0,418,416,419,0,0,0,0,0,0,0,224,0,0,417,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/dp/B08WZ5THJ7/
+link2: 
+mlink: https://wyze.com/wyze-bulb-color.html
+flash: serial
+category: bulb
+type: RGBW
+standard: e26
+---
+1. Pry up the bulb cover that's attached with adhesive
+2. Remove two philip screws and remove top board with LEDs on it
+3. Pry up Metal cover
+4. scrape away enough potting compound to access the 3.3v pad, GND pad, GPIO0 pin, TX, and RX pins
+5. Solder jumper wires and flash tasmota using serial
+
+[Photos](https://imgur.com/a/UlB1Eux)

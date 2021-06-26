@@ -1,0 +1,16 @@
+---
+date_added: 2021-06-26
+title: Moes 
+model: SRW-001
+image: /assets/images/moes_SRW-001.jpg
+template9: '{"NAME":"Moes SRW-001","GPIO":[0,0,0,0,320,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
+link: https://smile.amazon.com/gp/product/B07QH1X7PX/
+link2: https://www.aliexpress.com/item/4000204233922.html
+link3: 
+mlink: https://www.moeshouse.com/products/wifi-ir-control-hub-smart-home-blaster-infrared-wireless-remote-control-via-smart-life-tuya-app-work-with-alexa-google-home
+flash: serial
+category: misc
+type: IR Controller
+standard: global
+---
+Serial is exposed directly on the device's USB port, so it does not require any soldering to be flashed. Serial flashing walkthrough: https://www.marrold.co.uk/2020/06/flashing-blitzwolf-bw-rc1-with-tasmota.html (Thanks to Marrold for the great guide!)
