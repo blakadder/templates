@@ -1,16 +1,19 @@
 ---
 date_added: 2020-01-05
-title: ESP12F 220V 10A 7V-30V DC
+title: Yunshan 7-30V 10A
+model: HW-622
 category: relay
 type: Relay Board
 standard: global
-image: https://imgaz.staticbg.com/thumb/large/oaupload/banggood/images/9C/4F/be1cc42e-0a08-4a00-b097-8c001600f677.JPG
+image: /assets/images/yunshan_HW-622.jpg
 template: '{"NAME":"Yunshan 10A","GPIO":[17,255,52,255,21,10,0,0,22,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07DMZMZVK/
 link2: https://www.amazon.de/dp/B07N97DQSR/
+link3: https://www.aliexpress.com/item/32738480737.html
 ---
 This device is supported directly in the firmware by selecting module "Yunshan Relay (33)" or using command `Module 33`
-Note* Not sure the input feedback will work by selecting module name.  See template above for GPIO 5 and 8. 
+
+*Note* Not sure the input feedback will work by selecting module name.  See template above for GPIO 5 and 8. 
 
 More in depth article on [Arduino++ blog](https://arduinoplusplus.wordpress.com/2018/08/28/home-automation-and-the-internet-of-things-the-start/).
 
