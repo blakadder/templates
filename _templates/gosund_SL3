@@ -1,11 +1,11 @@
 ---
 date_added: 2021-02-20
-title: Gosund 32.8ft RGB 
+title: Gosund NiteBird 32.8ft RGB 
 model: SL3 
 image: /assets/images/gosund_SL3.jpg
-template9: '{"NAME":"Gosund SL3 LED Strip","GPIO":[0,0,32,0,417,0,0,0,416,418,4768,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Gosund SL3","GPIO":[0,0,32,0,417,0,0,0,416,418,4768,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B08LGVBY22
-link2: 
+link2: https://www.alibaba.com/product-detail/Drop-Shipping-Living-room-decoration-Remote_1600244585479.html
 mlink: 
 flash: serial
 category: light
