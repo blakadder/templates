@@ -1,11 +1,11 @@
 ---
 date_added: 2019-12-10
 title: Gosund SW2
-link: https://www.amazon.com/gp/product/B07VP4PHJJ
-image: https://images-na.ssl-images-amazon.com/images/I/51Dd9YQq74L._AC_SL1500_.jpg
+image: /assets/images/gosund_SW2.jpg
 template: '{"NAME":"Gosund Dimmer","GPIO":[255,148,255,149,17,0,255,255,56,158,37,255,255],"FLAG":0,"BASE":18}'
-link2: 
-mlink: https://gosund.com/download/smart_switch/137.html
+link: https://www.amazon.com/gp/product/B07VP4PHJJ
+link2: https://www.aliexpress.com/item/1005002883529579.html
+mlink: https://us.gosund.com/collections/smart-switch/products/gosund-smart-dimmer-switch-4-pack
 flash: tuya-convert
 category: switch
 type: Dimmer
