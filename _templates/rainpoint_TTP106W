@@ -81,3 +81,5 @@ Activate the rule with `Rule3 1`
 
 Import the blueprint in Home Assistant:
 <a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-rainpoint.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-rainpoint.yaml)
+
+Run the resulting automation to discover the entities and find them under the *Device Card* in Tasmota integration.
