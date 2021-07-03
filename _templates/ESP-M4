@@ -1,0 +1,18 @@
+---
+date_added: 2021-07-04
+title: ESP-M4
+model:  
+image: /assets/images/ESP-M4.jpg
+template: '{"NAME":"ESP-M4","GPIO":[1,1,0,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/10000146340675.html
+link2: https://www.amazon.com/dp/B089ZCP245/
+link3: https://www.amazon.ca/dp/B07PNGBZN9
+link4: https://www.amazon.de/dp/B08QMZFC42/
+mlink: https://github.com/SmartArduino/SZDOITWiKi/wiki/ESP8285---ESP-M4
+flash: serial
+category: diy
+type: Module
+standard: global
+---
+
+![Pinout](/assets/images/ESP-M3-pinout.jpg)
