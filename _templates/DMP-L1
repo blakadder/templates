@@ -1,6 +1,6 @@
 ---
 date_added: 2021-07-03
-title: DT-Light Lighting Module ESP8285
+title: DT-Light ESP8285 Lighting
 model: DMP-L1
 image: /assets/images/DMP-L1.jpg
 template9: '{"NAME":"DMP-L1","GPIO":[1,1,0,1,1,1,0,0,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
