@@ -1,0 +1,36 @@
+---
+date_added: 2021-07-03
+title: DT-Light Lighting Module ESP8285
+model: DMP-L1
+image: /assets/images/DMP-L1.jpg
+template9: '{"NAME":"DMP-L1","GPIO":[1,1,0,1,1,1,0,0,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
+template9_alt: '{"NAME":"DMP-L1 Light","GPIO":[1,1,0,1,419,418,0,0,416,420,417,1,1,1],"FLAG":0,"BASE":18}'
+link: https://www.aliexpress.com/item/4000113776503.html
+link2: https://www.amazon.com/dp/B08CN3KQJ5
+link3: https://www.banggood.com/DMP-L1-WiFi-Intelligent-Lighting-Module-Built-in-ESP-ESP8285-WiFi-Chip-Smart-Home-p-1422014.html
+mlink: https://github.com/SmartArduino/SZDOITWiKi/wiki/ESP8285---DMP-L1
+flash: serial
+category: diy
+type: Module
+standard: global
+---
+This module is designed for bulbs so the pinout labeling shows colors. 
+
+It can still be used for any application, just like any other module. It has almost all of the GPIOs broken out (excluding GPIO2) and that includes the A0 analog GPIO. 
+
+![Pinout](/assets/images/DMP-L1_pinout.jpg)
+
+Header are too small for standard Dupont cables but breadboard wires will fit.
+
+Pinout:
+- GPIO0 - D0
+- GPIO1 - TX0
+- GPIO3 - RX0
+- GPIO4 - W
+- GPIO5 - B
+- GPIO12 - R
+- GPIO13 - Y
+- GPIO14 - G
+- GPIO15 - IrDA
+- GPIO16 - D16
+- GPIO17 - ADC

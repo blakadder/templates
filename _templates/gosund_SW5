@@ -7,11 +7,14 @@ template9: '{"NAME":"Gosund SW5","GPIO":[32,0,320,0,0,0,0,0,0,0,224,0,576,0],"FL
 template9_alt: '{"NAME":"Gosund SW5","GPIO":[32,0,576,0,0,0,0,0,0,0,224,0,320,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B0871JF1JZ/
 link2: 
-mlink: 
+mlink: https://us.gosund.com/collections/smart-switch/products/gosund-smart-light-switch-4-pack
 flash: serial
 category: switch
 type: Switch
 standard: us
 ---
+Main template is for green 'ON' LED, alternate template is for red 'ON' LED similar to how the product comes from the factory
+
 Small solder pads inside of switch, all marked (IO0, TX, RX, 3.3V and GND)
-* Main template is for green 'ON' LED, alternate template is for red 'ON' LED similar to how the product comes from the factory
+
+[Images](https://photos.app.goo.gl/A4c2LnBc1pMAVyTW8)

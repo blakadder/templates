@@ -1,0 +1,25 @@
+---
+date_added: 2021-06-29
+title: Lanberg 9W
+model: SM01-WBE27
+image: /assets/images/
+template9: '{"NAME":"Lanberg E27 9W RGBW","GPIO":[0,0,0,0,1,419,0,0,416,0,418,417,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.ceneo.pl/91567160
+link2: 
+mlink: https://lanberg.pl/pobierz-plik/6448784/Z28745_126938.pdf
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
+Bulb is using two chips to control LEDs by PWM:
+- for white LEDs is SM2083EGL - GPIO 5
+- for RGB LEDs is SM15133EK - GPIO 12, GPIO 15, GPIO 14
+
+If you want have white color with white LEDs (than mix of RGB LEDs), then in console you need to set: SetOption105 1
+new format Template (Tasmota 9.5+) with command:
+```json
+{"NAME":"Lanberg E27 9W RGBW","GPIO":[0,0,0,0,1,419,0,0,416,0,418,417,0,0],"FLAG":0,"BASE":18,"CMND":"so105 1"}
+```
+
+
