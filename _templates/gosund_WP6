@@ -9,6 +9,7 @@ image: /assets/images/gosund_WP6.jpg
 template: '{"NAME":"Gosund WP6","GPIO":[0,56,0,17,0,0,0,0,0,157,21,0,0],"FLAG":0,"BASE":18}' 
 template-alt: '{"NAME":"Gosund WP6","GPIO":[0,0,0,17,0,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
+mlink: https://gosundsmart.en.alibaba.com/product/1600196991148-824887702/Smart_Home_Alexa_Voice_Control_16A_Wireless_Power_Socket_Smart_Life_App_Remote_Control_Socket_UK_Standard_Wifi_Smart_Plug.html
 ---
 
 2020-12-30: Purchased a 4-pack from amazon on 2020-12-28 and they did NOT work using tuya-convert. Likely on the new firmware already.

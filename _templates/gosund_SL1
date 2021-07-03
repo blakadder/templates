@@ -1,14 +1,13 @@
 ---
 date_added: 2020-06-18
-title: Gosund RGB
+title: Gosund NiteBird RGB
 model: SL1
-image: /assets/images/gosund_led_strip.jpg
+image: /assets/images/gosund_SL1.jpg
 template: '{"NAME":"Gosund LED Strip","GPIO":[17,0,0,0,0,0,0,0,37,39,38,0,0],"FLAG":3,"BASE":18}' 
 template-alt: '{"NAME":"Gosund LED Strip","GPIO":[17,0,0,0,0,38,0,0,37,39,0,0,0],"FLAG":3,"BASE":18}'
 template9: '{"NAME":"Gosund LED Strip","GPIO":[0,0,0,0,32,417,0,0,416,418,0,0,0,4768],"FLAG":0,"BASE":18}'
-link: https://www.amazon.de/Gosund-Backlight-Controllable-Compatible-Assistant/dp/B085L2M9N8/
-link2: https://www.amazon.com/gp/product/B085WK48FC
-mlink: 
+link: https://www.amazon.com/gp/product/B085WK48FC
+mlink: https://www.alibaba.com/product-detail/Nitebrid-RGB-Smart-LED-Lights-Strip_1600247969045.html
 flash: tuya-convert
 category: light
 type: LED Strip

@@ -1,0 +1,16 @@
+---
+date_added: 2021-06-26
+title: Connect SmartHome 5W 500lm
+model: CSH-E14WW10W
+image: /assets/images/connect_smarthome_CSH-E14WW10W.jpg
+template9: '{"NAME":"CSH-E14WW10W","GPIO":[0,0,0,0,416,417,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.harveynorman.com.au/connect-smart-5w-e14-white-led-bulb.html
+link2: 
+mlink: https://connectsmarthome.com.au/smart-lighting-connect-smarthome/connect-5w-smart-white-bulb-e14-connect-smarthome/
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e14
+---
+
+Turn on, off, on, off, on, off, on (a good 2 seconds between each toggle) to get to flashing mode. If it fails, try again as it can take multiple tries. "

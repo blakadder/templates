@@ -60,7 +60,9 @@ Commands for control in Tasmota:
 - _Timer2_ - displays remaining watering time 
 
 ## Home Assistant
-Set names for pump control and watering autorun
+This will create an automation that will send discovery messages for all entities.
+
+Set names for pump control and watering autorun to have nice entity names in HA:
 
 ```console 
 Backlog FriendlyName1 Water Pump; FriendlyName2 Autorun Watering
@@ -81,3 +83,5 @@ Activate the rule with `Rule3 1`
 
 Import the blueprint in Home Assistant:
 <a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-rainpoint.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-rainpoint.yaml)
+
+Run the resulting automation to discover the entities and find them under the *Device Card* in Tasmota integration.

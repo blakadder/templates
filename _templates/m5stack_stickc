@@ -18,6 +18,6 @@ Download custom compiled [tasmota32-lvgl.bin](https://github.com/Jason2866/Tasmo
 
 Download [ST7735S_M5StickC_display.ini](https://raw.githubusercontent.com/arendst/Tasmota/development/tasmota/displaydesc/ST7735S_M5StickC_display.ini), rename to **display.ini** and upload using *Consoles - Manage File system* menu.
 
-Next, download [axp192.be](https://raw.githubusercontent.com/arendst/Tasmota/development/tasmota/berry/drivers/axp192.be) and upload using *Consoles - Manage File system* menu.
+Next, download [axp192.be](https://raw.githubusercontent.com/arendst/Tasmota/development/tasmota/berry/drivers/axp192.be), rename to **preinit.be**, then upload using *Consoles - Manage File system* menu.
 
 Use the examples in this [GitHub discussion](https://github.com/arendst/Tasmota/discussions/11784) to use the display.

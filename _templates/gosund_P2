@@ -6,7 +6,7 @@ image: /assets/images/gosund_P2.jpg
 template: '{"NAME":"Gosund P2","GPIO":[0,0,157,0,0,32,0,0,21,22,23,0,17],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B086JQRG9Y/
 link2: 
-mlink: 
+mlink: https://www.alibaba.com/product-detail/Smart-Wifi-Power-Strip-Works-With_1600198614432.html
 flash: tuya-convert
 category: plug
 type: Power Strip

@@ -1,12 +1,11 @@
 ---
 date_added: 2021-04-17
-title: ESP-12F 8 Channel
-model: 
+title: ESP-12F 5V/7-28V 8 Channel
+model: ESP12F_Relay_X8
 image: /assets/images/ESP12F_Relay_X8.jpg
-template: '' 
 template9: '{"NAME":"ESP12F_Relay_X8","GPIO":[229,1,1,1,230,231,0,0,226,227,225,228,224,1],"FLAG":0,"BASE":18}' 
 link: https://www.banggood.com/5V-or-7-28V-Power-Supply-8-Channel-ESP8266-WIFI-8-way-Relay-Module-ESP-12F-Development-Board-Secondary-Development-Board-p-1833055.html
-link2: 
+link2: https://www.aliexpress.com/item/1005002260368358.html
 mlink: 
 flash: serial
 category: relay

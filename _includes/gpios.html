@@ -13,7 +13,7 @@
                 {% elsif forloop.index == 11 %}GPIO14
                 {% elsif forloop.index == 12 %}GPIO15
                 {% elsif forloop.index == 13 %}GPIO16
-                {% elsif forloop.index == 14 %}ADC0
+                {% elsif forloop.index == 14 %}GPIO17
                 {% else %}{{ forloop.index0 | prepend: 'GPIO0' }} 
                 {% endif %}
             </td>
@@ -40,107 +40,107 @@
                 {% when "1056" %}
                 IRsend 
                 {% when "160" %}
-                Switch1
+                Switch 1
                 {% when "161" %}
-                Switch2
+                Switch 2
                 {% when "162" %}
-                Switch3
+                Switch 3
                 {% when "163" %}
-                Switch4
+                Switch 4
                 {% when "164" %}
-                Switch5
+                Switch 5
                 {% when "165" %}
-                Switch6
+                Switch 6
                 {% when "166" %}
-                Switch7
+                Switch 7
                 {% when "167" %}
-                Switch8
+                Switch 8
                 {% when "32" %}
-                Button1
+                Button 1
                 {% when "33" %}
-                Button2
+                Button 2
                 {% when "34" %}
-                Button3
+                Button 3
                 {% when "35" %}
-                Button4
+                Button 4
                 {% when "224" %}
-                Relay1 
+                Relay 1 
                 {% when "225" %}
-                Relay2 
+                Relay 2 
                 {% when "226" %}
-                Relay3 
+                Relay 3 
                 {% when "227" %}
-                Relay4 
+                Relay 4 
                 {% when "228" %}
-                Relay5 
+                Relay 5 
                 {% when "229" %}
-                Relay6 
+                Relay 6 
                 {% when "230" %}
-                Relay7 
+                Relay 7 
                 {% when "231" %}
-                Relay8 
+                Relay 8 
                 {% when "256" %}
-                Relay1i
+                Relay_i 1
                 {% when "257" %}
-                Relay2i
+                Relay_i 2
                 {% when "258" %}
-                Relay3i
+                Relay_i 3
                 {% when "259" %}
-                Relay4i
+                Relay_i 4
                 {% when "260" %}
-                Relay5i
+                Relay_i 5
                 {% when "261" %}
-                Relay6i
+                Relay_i 6
                 {% when "262" %}
-                Relay7i
+                Relay_i 7
                 {% when "263" %}
-                Relay8i
+                Relay_i 8
                 {% when "416" %}
-                PWM1   
+                PWM 1   
                 {% when "417" %}
-                PWM2   
+                PWM 2   
                 {% when "418" %}
-                PWM3   
+                PWM 3   
                 {% when "419" %}
-                PWM4   
+                PWM 4   
                 {% when "420" %}
-                PWM5   
+                PWM 5   
                 {% when "352" %}
-                Counter1    
+                Counter 1    
                 {% when "353" %}
-                Counter2    
+                Counter 2    
                 {% when "354" %}
-                Counter3    
+                Counter 3    
                 {% when "355" %}
-                Counter4    
+                Counter 4    
                 {% when "448" %}
-                PWM1i  
+                PWM_i 1  
                 {% when "449" %}
-                PWM2i  
+                PWM_i 2  
                 {% when "450" %}
-                PWM3i  
+                PWM_i 3  
                 {% when "451" %}
-                PWM4i  
+                PWM_i 4  
                 {% when "452" %}
-                PWM5i  
+                PWM_i 5  
                 {% when "1088" %}
                 IRrecv 
                 {% when "288" %}
-                Led1   
+                Led 1   
                 {% when "289" %}
-                Led2   
+                Led 2   
                 {% when "290" %}
-                Led3   
+                Led 3   
                 {% when "291" %}
-                Led4   
+                Led 4   
                 {% when "320" %}
-                Led1i  
+                Led_i 1  
                 {% when "321" %}
-                Led2i  
+                Led_i 2  
                 {% when "322" %}
-                Led3i  
+                Led_i 3  
                 {% when "323" %}
-                Led4i  
+                Led_i 4  
                 {% when "1408" %}
                 MHZ Rx 
                 {% when "1440" %}
@@ -186,37 +186,37 @@
                 {% when "2112" %}
                 TM16 STB    
                 {% when "192" %}
-                Switch1n    
+                Switch_n 1    
                 {% when "193" %}
-                Switch2n    
+                Switch_n 2   
                 {% when "194" %}
-                Switch3n    
+                Switch_n 3    
                 {% when "195" %}
-                Switch4n    
+                Switch_n 4    
                 {% when "196" %}
-                Switch5n    
+                Switch_n 5    
                 {% when "197" %}
-                Switch6n    
+                Switch_n 6    
                 {% when "198" %}
-                Switch7n    
+                Switch_n 7    
                 {% when "199" %}
-                Switch8n    
+                Switch_n 8    
                 {% when "64" %}
-                Button1n    
+                Button_n 1    
                 {% when "65" %}
-                Button2n    
+                Button_n 2    
                 {% when "66" %}
-                Button3n    
+                Button_n 3    
                 {% when "67" %}
-                Button4n    
+                Button_n 4    
                 {% when "384" %}
-                Counter1n   
+                Counter_n 1   
                 {% when "385" %}
-                Counter2n   
+                Counter_n 2   
                 {% when "386" %}
-                Counter3n   
+                Counter_n 3   
                 {% when "387" %}
-                Counter4n   
+                Counter_n 4   
                 {% when "1536" %}
                 PZEM016 Rx  
                 {% when "1568" %}
@@ -266,21 +266,21 @@
                 {% when "2560" %}
                 MX31855 DO  
                 {% when "96" %}
-                Button1i    
+                Button_i 1    
                 {% when "97" %}
-                Button2i    
+                Button_i 2    
                 {% when "98" %}
-                Button3i    
+                Button_i 3    
                 {% when "99" %}
-                Button4i    
+                Button_i 4    
                 {% when "128" %}
-                Button1in   
+                Button_in 1   
                 {% when "129" %}
-                Button2in   
+                Button_in 2   
                 {% when "130" %}
-                Button3in   
+                Button_in 3   
                 {% when "131" %}
-                Button4in   
+                Button_in 4   
                 {% when "2592" %}
                 HLWBL SEL   
                 {% when "2624" %}
@@ -479,6 +479,8 @@
                 ADC CT Power
                 {% when "3328" %}
                 ADC Joystick
+                {% when "5728" %}
+                Option a1
                 {% else %}
                 Missing
                 {% endcase %}
