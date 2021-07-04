@@ -1,0 +1,16 @@
+---
+date_added: 2021-07-03
+title: Sinilink MODBUS Interface
+model: XY-WFPOW
+image: /assets/images/sinilink_XY-WFPOW.jpg
+template9: '{"NAME":"XY-WFPOW","GPIO":[0,1,0,1,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005002417257621.html
+link2: https://www.banggood.com/XY-KPOW-Sinilink-WIFI-Module-Mobile-Phone-APP-Smart-Home-Remote-Controller-By-Power-System-To-Control-Power-Module-For-DC-DC-p-1781268.html
+mlink: 
+flash: serial
+category: relay
+type: Development Board
+standard: global
+---
+
+![Pinout](/assets/images/sinilink_XY-WFPOW_pinout.jpg)

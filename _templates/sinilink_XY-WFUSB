@@ -2,11 +2,12 @@
 date_added: 2020-01-25
 title: Sinilink USB
 model: XY-WFUSB
-image: https://user-images.githubusercontent.com/5904370/72764253-91ee0200-3be7-11ea-8ede-e9f2e3cab718.png
+image: /assets/images/sinilink_XY-WFUSB.jpg
 template: '{"NAME":"XY-WFUSB","GPIO":[255,255,0,255,17,21,0,0,0,0,56,0,157],"FLAG":0,"BASE":18}' 
-link: https://www.aliexpress.com/item/Sinilink-WIFI-USB-mobile-phone-remote-controller-3-5-20V-5A-100W-mobile-phone-APP-smart/4000631349500.html
-link2: https://www.aliexpress.com/item/4000601746198.html
+link: https://www.aliexpress.com/item/1005001544138257.html
+link2: https://www.amazon.com/dp/B0868TDVNV/
 link3: https://www.banggood.com/3_5-20V-5A-100W-USB-Controller-Mobile-APP-Remote-Control-Remote-Control-USB-Switch-Smart-Home-USB-Device-Timing-Cycle-On-Off-Controller-USB-Tester-p-1615638.html
+link4: https://www.amazon.de/dp/B08KS38MLF/
 mlink: https://www.alibaba.com/product-detail/WIFI-USB-Mobile-Remote-Controller-Mobile_62438878126.html
 flash: serial
 category: relay
@@ -15,8 +16,7 @@ standard: global
 ---
 ![pinout](https://m.blog.hu/bi/bitekmindenhol/image/wfusb_pinout.jpg)
 
-Useful video on flashing from Andreas Spiess at https://www.youtube.com/watch?v=lrHhn2AVzSA
-He makes a suggestion to use 52 rather than 56 in the template to change LED behaviour.
+Useful video on flashing from [Andreas Spiessg(https://www.youtube.com/watch?v=lrHhn2AVzSA)
 
 It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter.
 
