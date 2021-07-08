@@ -1,6 +1,6 @@
 ---
 date_added: 2019-12-30
-title: BrilliantSmart 
+title: BrilliantSmart Light and 
 model: 99111
 link: https://www.amazon.com.au/dp/B0841Y2X38
 image: /assets/images/brilliantsmart_99111.jpg
@@ -8,8 +8,8 @@ template: '{"NAME":"Brilliant Fan","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG"
 link2: 
 mlink: https://www.brilliantsmart.com.au/smart-products/electrical/smart-fan-remote/
 flash: tuya-convert
-category: misc
-type: Fan
+category: relay
+type: Fan Controller
 standard: au
 ---
 

@@ -1,9 +1,9 @@
 ---
 date_added: 2019-08-08
-title: Sonoff iFan03 220V
+title: Sonoff iFan03 220V Light and Ceiling
 model: IM190409021
-category: misc
-type: Fan
+category: relay
+type: Fan Controller
 standard: global
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/ifan03
 image: /assets/images/sonoff_iFan03.jpg

@@ -1,9 +1,9 @@
 ---
 date_added: 2021-08-08
-title: Sonoff iFan04-L 110V 
+title: Sonoff iFan04-L 110V Light and Ceiling
 model: iFAN04-L
-category: misc
-type: Fan
+category: relay
+type: Fan Controller
 standard: us
 flash: serial
 template: '{"NAME":"iFan04-L","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
