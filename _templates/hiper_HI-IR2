@@ -1,0 +1,15 @@
+---
+date_added: 2021-07-07
+title: HIPER IoT IR2
+model: HI-IR2
+image: /assets/images/hiper_HI-IR2.jpg
+template9: '{"NAME":"hiper_HI-IR2","GPIO":[1,1,1,1,320,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
+link: https://hiper-power.com/catalog/smart-home/smart-sensors/smart-ir-transmitter-hiper-iot-ir2/
+link2: https://www.aliexpress.com/item/1005001501869917.html
+mlink: https://hiper-power.com/catalog/smart-home/smart-sensors/smart-ir-transmitter-hiper-iot-ir2/
+flash: serial
+category: misc
+type: IR Controller
+standard: global
+---
+Smart IR transmitter. Flashed via serial and select "YTF IR Bridge" as module or apply the template. Can receive and send IR commands
