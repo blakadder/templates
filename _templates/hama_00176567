@@ -1,7 +1,7 @@
 ---
 date_added: 2020-09-14
 title: Hama Basic 10A
-model: 00176567
+model: '00176567'
 image: /assets/images/hama_00176567.jpg
 template: '{"NAME":"Hama 176567","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B085JC84JT/

@@ -1,7 +1,7 @@
 ---
 date_added: 2020-12-09
 title: Hama 16A
-model: 00176552
+model: '00176552'
 image: /assets/images/hama_00176552.jpg
 template: '{"NAME":"Hama Plug","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":52}' 
 link: https://www.amazon.de/dp/B07F7V8Q1X/

@@ -11,4 +11,5 @@ flash: tuya-convert
 category: plug
 type: Plug
 standard: eu
+unsupported: true
 ---

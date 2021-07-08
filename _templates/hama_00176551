@@ -1,7 +1,7 @@
 ---
 date_added: 2020-05-02
 title: Hama Flush-mounted 2 Gang
-model: 00176551
+model: '00176551'
 image: /assets/images/hama_00176551.jpg
 template: '{"NAME":"Hama WiFiTouch","GPIO":[157,0,0,0,0,18,0,0,17,22,0,21,0],"FLAG":0,"BASE":45}' 
 link: https://www.amazon.de/-/en/Hama-Lichtschalter-kompatibel-Sprachsteuerung-Wandschalter/dp/B07JKC11SQ/ 
