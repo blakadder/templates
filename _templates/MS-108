@@ -11,10 +11,14 @@ flash: serial
 category: cover
 type: Curtain Module
 standard: global
+unsupported: true
 ---
-Device uses [TYWE2S](https://tasmota.github.io/docs/Pinouts/#tywe2s) with the backside of the module with labelled pins exposed and easily accessible.
-Note some versions use Non-ESP8266 Wi-Fi modules on same model devices. Check seller descriptions or contact them before buying!
+## Hardware Warning
+Some versions use Non-ESP8266 Wi-Fi modules on same model devices. Check seller descriptions or contact them before buying!
 
+Device uses [TYWE2S](https://tasmota.github.io/docs/Pinouts/#tywe2s) with the backside of the module with labelled pins exposed and easily accessible.
+
+Configuration for shutters
 ```haskell
 SetOption80 1
 ShutterMode 1
