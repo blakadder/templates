@@ -1,0 +1,15 @@
+---
+date_added: 2021-07-07
+title: Milfra Mini Smart 
+model: TB31
+image: /assets/images/milfra_TB31.jpg
+template9: '{"NAME":"Milfra TB31","GPIO":[1,1,1,1,1,32,0,0,224,320,1,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005002426510762.html
+link2: 
+mlink: https://www.milfra.com/products/milfra-smart-mini-switch-compatible-for-amazon-alexa-and-google-tb31-mini-wifi-light-wall-switch
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+

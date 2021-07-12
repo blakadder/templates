@@ -60,7 +60,7 @@ Commands for control in Tasmota:
 - _Timer2_ - displays remaining watering time 
 
 ## Home Assistant
-This will create an automation that will send discovery messages for all entities.
+This will create an automation that will send discovery messages for all entities. If you don't plan on using the device on batteries only it would be easier to create automations in Home Assistant for watering schedules that use the autodiscovered water pump entity.
 
 Set names for pump control and watering autorun to have nice entity names in HA:
 
