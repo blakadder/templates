@@ -7,9 +7,22 @@ template: '{"NAME":"M2805EIGB","GPIO":[255,107,255,108,255,255,0,0,255,255,255,2
 link: https://www.aliexpress.com/item/4001052658683.html
 link2: 
 mlink: https://www.zemismart.com/products/zemismart-wifi-roller-shade-motor-built-in-battery-for-38mm-tube-smart-life-app-control
-flash: tuya-convert
+flash: tuya-convert serial
 category: cover
 type: Motor
 standard: global
 ---
 Same as: https://templates.blakadder.com/zemismart_M515EGB.html
+
+Do not connect this device to the Tuya App as it will update it to the latest version and tasmota cannot be installed OTA.
+
+## Flashing 
+Flashed via serial using broken out pins. Tuya Convert did not work due to new firmware.
+Pinout https://tasmota.github.io/docs/devices/TYWE3S/ 
+Guide https://siytek.com/how-to-flash-esp-devices-with-tasmota-using-raspberry-pi/
+
+Flashing will not work unless you disconnect the ribbon cable connecting the second board.
+
+GPIO0 must be connected to ground. I also had RST connected to ground, but flashing only started after disconnecting RST so it may not be necessary at all.
+
+The device can be opened by running a sharp knife around the groove to break the glue seal, then the cover can be flipped out
