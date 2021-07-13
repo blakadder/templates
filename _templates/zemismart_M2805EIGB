@@ -26,3 +26,4 @@ Flashing will not work unless you disconnect the ribbon cable connecting the sec
 GPIO0 must be connected to ground. I also had RST connected to ground, but flashing only started after disconnecting RST so it may not be necessary at all.
 
 The device can be opened by running a sharp knife around the groove to break the glue seal, then the cover can be flipped out
+
