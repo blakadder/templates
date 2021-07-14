@@ -8,9 +8,13 @@ link: https://www.takealot.com/bneta-wifi-smart-power-plug-with-power-meter/PLID
 link2: https://www.qualitel.co.za/product/awp07l-wifi-smart-plug/
 mlink: https://www.bneta.co.za/product/smartplug/
 flash: tuya-convert
+unsupported: true
 category: plug
 type: Plug
 standard: za
 ---
+## Hardware Warning
+As of 2021 new BNeta devices are equipped with the WB2S module making them incompatible with Tasmota.
 
-Also found under Qualitel brand with same model number. BNETA & Qualitel plugs shipped in 2020 were internally identical (apart from the 180 degree rotation of the plug). Both used Tuya TYWE3S modules that were flashable with Tasmota. As of May 2021 Qualitel plugs are shipping with Tuya WB2S modules which are not ESP8266-based and hence not Tasmotisable. This may apply to fresh stock of BNETA plugs too, but that has not yet been confirmed.
+Also found under Qualitel brand with same model number. BNETA & Qualitel plugs shipped in 2020 were internally identical (apart from the 180 degree rotation of the plug). Both used Tuya TYWE3S modules that were flashable with Tasmota. As of May 2021 Qualitel plugs are shipping with Tuya WB2S modules which are not ESP8266-based and hence not Tasmotisable. 
+
