@@ -1,0 +1,17 @@
+---
+date_added: 2019-03-23
+title: Forrinx IP44
+model: SH-18
+category: plug
+type: Outdoor Plug
+standard: us
+image: /assets/images/forrinx_SH-18.jpg
+template: '{"NAME":"SH-18","GPIO":[0,0,0,0,56,57,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
+mlink: http://www.forrinx.com/Product/smartoutdoorplug_1763_697.html
+link: https://www.amazon.com/gp/product/B07KYFP8F8
+link2: https://www.alibaba.com/product-detail/Alexa-Echo-Google-Assistant-App-Outdoor_1600223537504.html
+---
+Can be found under various brand names such a LEPOWER, 
+
+Blue LED is used, and Green LED is ignored by Tasmota by default.
+

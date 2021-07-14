@@ -1,0 +1,17 @@
+---
+date_added: 2021-07-12
+title: LePower 32.8ft RGB
+model: 007-SRL-5m-2Pack-WH-New2
+image: /assets/images/
+template9: '{"NAME":"LePower","GPIO":[0,0,0,0,0,417,0,0,418,0,0,416,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B082M2LKKJ/
+link2: 
+mlink: https://www.ilepower.com/
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: us
+---
+Module appears to be an unmarked clone of an ESP-12F
+
+Flashed via tuya-convert (power cycle 3 times fast to get into flashable mode. It's easiest to tell the mode when an LED strip is connected (rapid flashing) but is not required.)

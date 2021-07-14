@@ -1,0 +1,16 @@
+---
+date_added: 2021-07-13
+title: Ucomen
+model: PA-GEH-01SWP2
+image: /assets/images/ucomen_PA-GEH-01SWP2.jpg
+template9: '{"NAME":"PA-GEH-01SW2","GPIO":[0,0,0,32,2688,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B08BC7RVBJ/
+link2: 
+mlink: https://expo.tuya.com/product/392852
+flash: serial
+chip: TYWE2S
+category: plug
+type: Outdoor Plug
+standard: eu
+---
+Uses a TYWE2S module. It didn't allow tuya-convert via wifi. I had soldered the required wires for a serial flash to the locations that I had found on the board. However, it  wasn't found via NodeMcu Pyflasher. I completely desoldered the TYWE2S frmo the main board as it seemed as if teh TX and RX connectors where going somewhere on the board, e.g. to a switch. Serial flashing it separately without a connection to the board of the plug worked.
