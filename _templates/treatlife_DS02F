@@ -1,0 +1,69 @@
+---
+date_added: 2021-07-14
+title: Treatlife Ceiling 
+model: DS02F
+image: /assets/images/treatlife_DS02F.jpg
+template9: '{"NAME":"DS02F","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1|SO97 1|SO68 0"}' 
+link: https://www.amazon.com/gp/product/B08P5D3ZKW
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Fan Controller
+standard: us
+---
+This is not for the feint of heart, this device comes with a custom Tuya chip, which is not ESP based. Luckily, the main board has the appropriate footprint for an ESP-12F. Further instructions can be found [here](https://community.home-assistant.io/t/treatlife-dual-outlet-indoor-dimmer-plug-wb3s-to-esp-12-transplant/256798)
+
+
+1. Let's enable the functions of the switch:
+
+```console
+backlog SetOption97 1; tuyamcu 11,1; SetOption59 1; SetOption68 0
+```
+These commands set the baud rate to 115200, bind the Tasmota software to the appropriate channel for control of the switch, set PWM to a single light, and adds an additional topic for state. More information can be found in the Tasmota TuyaMCU guide. 
+
+2. Set up a rule to change speed state based on information from the TuyaMCU
+
+```console
+Rule1 on TuyaReceived#Data=55AA03070005030400010016 do publish2 stat/%topic%/speed 3,0 endon on TuyaReceived#Data=55AA03070005030400010117 do publish2 stat/%topic%/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010218 do publish2 stat/%topic%/speed 3,2 endon on TuyaReceived#Data=55AA03070005030400010319 do publish2 stat/%topic%/speed 3,3 endon
+Rule1 1
+```
+
+This will monitor the TuyaMCU for changes to the speed of the fan and publish them to MQTT. Additional information can be found in the TuyaMCU Guide as well as the DS02S guide.
+
+
+3. Home Assistant Fan YAML:
+{% highlight yaml %}{% raw %}fan:
+  - platform: mqtt
+    name: "TreatLife Fan"
+    state_topic: "stat/Treatlife-DS02/POWER1"
+    command_topic: "cmnd/Treatlife-DS02/POWER1"
+    preset_mode_state_topic: "stat/Treatlife-DS02/speed"
+    preset_mode_command_topic: "cmnd/Treatlife-DS02/TuyaSend4"
+    qos: 0
+    payload_on: 'ON'
+    payload_off: 'OFF'
+    preset_mode_command_template: >
+      {% if value == 'low' %}
+        3,1
+      {% elif value == 'medium' %}
+        3,2
+      {% elif value == 'high' %}
+        3,3
+      {% endif %}
+    preset_mode_value_template: >
+      {% if value == '3,1' %}
+        low
+      {% elif value == '3,2' %}
+        medium
+      {% elif value == '3,3' %}
+        high
+      {% endif %}
+    availability_topic: tele/Treatlife-DS03/LWT
+    payload_available: Online
+    payload_not_available: Offline
+    preset_modes:
+      - 'low'
+      - 'medium'
+      - 'high'{% endraw %}
+{% endhighlight %}
