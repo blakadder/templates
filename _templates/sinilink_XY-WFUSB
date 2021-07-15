@@ -20,3 +20,5 @@ Useful video on flashing from [Andreas Spiessg(https://www.youtube.com/watch?v=l
 
 It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter.
 
+If you use the Sinilink WiFi-USB with PWM-compatible devices such as LED lights or a fan, you can set `GPIO05` to *PWM* instead of *Relay*, to control the brightness or rotation speed of the device you plug in.
+
