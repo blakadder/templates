@@ -1,0 +1,19 @@
+---
+date_added: 2021-07-10
+title: Energizer 
+model: EIE3-1001-WHT
+image: /assets/images/energizer_EIE3-1001-WHT.jpg
+template9: '{"NAME":"Energizer EIE3-1001-WHT","GPIO":[32,0,0,0,2688,2688,0,0,0,320,224,0,320,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07C42MFRC
+link2: 
+mlink: https://energizerconnect.com/product/smart-plug-with-energy-monitor/
+flash: serial
+category: plug
+type: Plug
+standard: us
+---
+This plug was not flashable via tuya-convert, but it does come apart fairly easily.  
+
+There is a single "triangle" screw between the hot and neutral male plug prongs, and then the edges of the plug pry open fairly easily;  there didn't seem to be any adhesive - just a friction fit.
+
+The plug uses a TYWE3S (https://tasmota.github.io/docs/devices/TYWE3S/) chip, but the 3v3 is not easily accessible, so you need to solder onto a pad on the opposite side.  I have a (closed) github issue with some pictures on the tuya-convert project: https://github.com/ct-Open-Source/tuya-convert/issues/959
