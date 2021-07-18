@@ -1,0 +1,15 @@
+---
+date_added: 2021-07-18
+title: Sunlit Smart A60 10W 810lm
+model: 29002
+image: /assets/images/
+template9: '{"NAME":"Sunlit A60","GPIO":[0,0,0,0,4032,0,0,0,0,0,4064,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO37 31"}' 
+link: https://www.futurelight.co.za/products/smart-led-rgbw-a60-globe?variant=40478766170282
+link2: 
+mlink: https://sunlit-tech.co.za/smart-lighting/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
+Uses SM2135 chip.  
