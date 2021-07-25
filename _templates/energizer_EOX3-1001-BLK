@@ -4,7 +4,7 @@ title: Energizer 2AC Weather Resistant
 model: EOX3-1001-BLK
 image: /assets/images/energizer_EOX3-1001-BLK.jpg
 template9: '{"NAME":"Energizer EOX3-1001-BLK","GPIO":[0,0,0,0,320,321,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}' 
-template8: '{"NAME":"Energizer EOX3-1001-BLK","GPIO":[0,0,0,0,52,53,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}'
+template: '{"NAME":"Energizer EOX3-1001-BLK","GPIO":[0,0,0,0,52,53,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.com/dp/B081PDH44P
 link2: 
 mlink: https://energizerconnect.com/product/smart-outdoor-plug/
