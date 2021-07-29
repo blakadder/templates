@@ -24,7 +24,7 @@ At the top of the heater is the ESP-WROOM-32D Wi-Fi module with everything neatl
 
 ![Pinout](/assets/images/smartmi_ZNNFJ07ZM_pinout.jpg)
 
-Connect the serial-to-USB adapter to TX, RX, GND and 3V3. Make sure to ground BOOT pin (GPIO0) to put the Wi-Fi module in flashing mode. Flash a tasmota32 binary. If the flash isn't succeeding disable the MCU by connecting both J3 pins (RST and GND).
+Connect the serial-to-USB adapter to TX, RX, GND and 3V3. Make sure to ground BOOT pin (GPIO0) to put the Wi-Fi module in flashing mode. Flash tasmota32solo1 binary. If the flash isn't succeeding disable the MCU by connecting both J3 pins (RST and GND).
 
 ## Configuration
 
