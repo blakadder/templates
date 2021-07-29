@@ -1,0 +1,54 @@
+---
+date_added: 2021-07-27
+title: Eufy RoboVac C30 Robot Vacuum
+model: 
+image: /assets/images/
+template9: '{"NAME":"Eufy Robovac","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,2 | TuyaMCU 12,101 | TuyaMCU 13,103"}' 
+link: https://www.amazon.com/dp/B07D75MVX9
+link2: 
+mlink: https://us.eufylife.com/collections/appliances/products/t2118111
+flash: tuya-convert
+category: misc
+type: Miscellaneous
+standard: us
+---
+Had to use AP config mode to provision the wifi first, then used standard tuya-convert process.
+
+To use tuya-convert with AP mode:
+
+1. put the device in AP pairing mode
+2. connect with a linux computer
+3.  fake the config packet:
+```
+echo 000055aa00000000000000010000003e7b2273736964223a227674727573742d666c617368222c22706173737764223a22222c22746f6b656e223a223030303030303030227d726cfc610000aa55 | xxd -ps -r | socat - UDP-DATAGRAM:255.255.255.255:6669,broadcast
+```
+4. run tuya-convert and press enter, it is already paired
+5. flash it!
+
+After flashing, I used the following MCU config:
+
+```
+Backlog TuyaMCU 11,2; TuyaMCU 12,101; TuyaMCU 13,103;
+```
+
+- This maps start/stop to `POWER1`, go home to `POWER2`, and find to `POWER3`.
+
+- Manual control can be performed on dp 3, enum 0 - 3, ie: `tuyasend4 3,{0-3}`
+
+- Operating mode is on dp 5, enum 0 - 4.
+
+- Fan speed is on dp 102, enum 0 - 3.
+
+And added rules for easy access to feedback data:
+```
+rule1 on tuyareceived#dptype4id5 do publish2 stat/%topic%/mode %value% endon on tuyareceived#dptype4id15 do publish2 stat/%topic%/status %value% endon on tuyareceived#dptype4id102 do publish2 stat/%topic%/speed %value% endon on tuyareceived#dptype2id104 do publish2 stat/%topic%/battery %value% endon on tuyareceived#dptype4id106 do publish2 stat/%topic%/error %value% endon
+```
+
+This will expose operating mode, operating status, fan speed, battery level, and error code under `stat/devicename/{mode,status,speed,battery,error}`.
+
+I also exposed whether it is charging or not with:
+```
+rule2 on tuyareceived#dptype4id15==3 do publish2 stat/%topic%/charging 1 break on tuyareceived#dptype4id15==4 do publish2 stat/%topic%/charging 1 break on tuyareceived#dptype4id15 do publish2 stat/%topic%/charging 0 endon
+```
+
+You can then read charging state on `stat/devicename/charging`.
