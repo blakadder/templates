@@ -2,7 +2,7 @@
 date_added: 2021-07-27
 title: Eufy RoboVac C30 Robot Vacuum
 model: 
-image: /assets/images/
+image: /assets/images/eufy_robovac_30C.jpg
 template9: '{"NAME":"Eufy Robovac","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,2 | TuyaMCU 12,101 | TuyaMCU 13,103"}' 
 link: https://www.amazon.com/dp/B07D75MVX9
 link2: 
