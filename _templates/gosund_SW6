@@ -62,6 +62,10 @@ If the device is sent an EVENT it will Toggle Power2.
 ```console
 Backlog Rule3 ON event#OFF do power2 2 endon ON event#ON do power2 2 endon; Rule3 1
 ```
+For explicit on / off and toggle rule3
+```console
+Backlog Rule3 ON event#OFF do power2 0 endon ON event#ON do power2 1 endon ON event#TOGGLE do power2 2 endon; Rule3 1
+```
 
 For more information about Rules you can find it here: https://tasmota.github.io/docs/Rules/
 

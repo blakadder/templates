@@ -1,0 +1,20 @@
+---
+date_added: 2021-07-10
+title: Energizer 2AC Weather Resistant
+model: EOX3-1001-BLK
+image: /assets/images/energizer_EOX3-1001-BLK.jpg
+template9: '{"NAME":"Energizer EOX3-1001-BLK","GPIO":[0,0,0,0,320,321,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Energizer EOX3-1001-BLK","GPIO":[0,0,0,0,52,53,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}'
+link: https://www.amazon.com/dp/B081PDH44P
+link2: 
+mlink: https://energizerconnect.com/product/smart-outdoor-plug/
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: us
+---
+I was able to tuya-convert this plug (with a printed date code on the product label of 06/2019), but it seemed to take a few more tries than the other Energizer plugs I've worked with.  I'm not sure if there was a specific button press combination that finally allowed it to connect and flash OTA, but it did eventually work.
+
+There is both a red (GPIO5) and a blue (GPIO4)  LED on this device; both are inverted, but I can't seem to get the template to use them differently, so only red is used in the template.
+
+Related tuya-convert GitHub issue/thread: https://github.com/ct-Open-Source/tuya-convert/issues/958

@@ -5,7 +5,7 @@ model: SP501E
 image: /assets/images/SP501E.jpg
 template9: '{"NAME":"SP501E","GPIO":[0,32,0,1376,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000143872368.html
-link2: 
+link2: https://www.amazon.com/gp/product/B07TYMR2T2/
 mlink: 
 flash: serial
 category: light

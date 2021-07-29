@@ -20,7 +20,7 @@ Serial flashing is possible by soldering directly onto the [TYWE3S](https://tasm
 After applying the template enable dimmer functionality using command:
 
 ```console
-TuyaMCU 21,2`
+TuyaMCU 21,2
 ```
 
 Set dimmer range:

@@ -1,0 +1,22 @@
+---
+date_added: 2021-08-08
+title: Sonoff iFan04-L 110V Light and Ceiling
+model: iFAN04-L
+category: relay
+type: Fan Controller
+standard: us
+flash: serial
+template: '{"NAME":"iFan04-L","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
+image: /assets/images/sonoff_iFan04-L.jpg
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/ifan03
+link: https://www.itead.cc/smart-home/sonoff-ifan03-wifi-ceiling-fan-light-controller.html
+link2: https://www.banggood.com/SONOFF-IFan03-AC100-240V-5060Hz-WiFi-Ceiling-Fan-And-Light-Controller-with-RM433-RF-Remote-Controller-p-1496747.html
+link3: https://www.aliexpress.com/item/1005002994993238.html
+link4: https://www.aliexpress.com/item/4000174097954.html
+---
+
+Instead of applying a template you can set the device to `Module 71` or iFan03 in *Configure - Module* settings.
+
+Largely identical to [iFan03](sonoff_iFan03) with capacitors designed for 110V fans and an improved RF chip with better range.
+
+Flashing procedure is the same, there are labelled pins required for flashing.

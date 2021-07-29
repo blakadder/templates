@@ -6,8 +6,9 @@ category: bulb
 standard: e26
 link: https://www.amazon.com/dp/B07SNRSWNY
 image: https://images-na.ssl-images-amazon.com/images/I/51HEffp%2BfvL._AC_SL1500_.jpg
-template: '{"NAME":"AL 810LM","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"AL 810LM","GPIO":[0,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
-13JAN2021: tuya convert failed on 2-pack of bulbs bought on Amazon. Error logs show it to be a known SSL issue so flashing over serial should still work.
+2021-01-13: tuya convert failed on 2-pack of bulbs bought on Amazon. Error logs show it to be a known SSL issue so flashing over serial should still work.
+
 SSL issue: https://github.com/ct-Open-Source/tuya-convert/issues/483

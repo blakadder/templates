@@ -1,7 +1,7 @@
 ---
 date_added: 2020-03-28
-title: Moes WF-FL01 Light and Fan
-model: 
+title: Moes Light and Fan
+model: WF-FL01
 image: /assets/images/moes_WF-FL01.jpg
 template: '{"NAME":"Moes WF-FL01","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/33009202834.html

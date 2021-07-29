@@ -1,0 +1,82 @@
+---
+date_added: 2021-07-06
+title: electriQ 10000 BTU Wall Mounted Heat Pump Air Conditioner
+model: IQOOL-SMART12HP
+image: /assets/images/electriq_IQOOL-SMART12HP.jpg
+template9: '{"NAME":"electriQ IQOOL-SMART12HP","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.co.uk/electriQ-Smart12HP-Mounted-Conditioner-Without/dp/B08CY18L1X
+link2: https://www.appliancesdirect.co.uk/p/iqool-smart12hp/electriq-iqoolsmart12hp-air-conditioner
+mlink: https://www.electriq.co.uk/p/iqool-smart12hp/electriq-iqoolsmart12hp
+flash: tuya-convert
+category: misc
+type: Other
+standard: uk
+---
+This is a Tuya 10000 BTU Wall Mounted Heat Pump Air Conditioner with Smart App.
+
+`MCU Product ID: {"p":"2tgd3qnobb1mcgd9","v":"1.0.0","m":1}"v":"1.0.0","m":1}"m":1}`
+
+## OTA Flashing
+Flashed with Tuya Convert (2.4.5).
+
+## Device Configuration
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process. Then apply this template.
+
+## Functions
+- `dpID 1` `Boolean` controls device power - turns the device on/off      
+- `dpID 2` `Integer` target temperature.
+- `dpID 2` `Integer` current temperature.
+
+- `dpID 4` `Enum` sets mode.
+  - `0` Air Con. cooling.
+  - `1` Fan Only.
+  - `2` De-humidify.
+  - `3` Heating.
+- `dpID 5` `Enum` sets fan speed.
+  - `0` Low.
+  - `1` Medium.
+  - `2` High.
+- `dpID 19` `Enum` sets temperature unit C or F.
+  - `0` C.
+  - `1` F.
+- `dpID 101` `Boolean` enables sleep mode.
+- `dpID 102` `Boolean` has no effect.
+- `dpID 103` `Integer` timer value in hours.
+- `dpID 104` `Boolean` Enables oscillating air paddle.
+- `dpID 103` `Integer` timer value in minutes.
+
+### Configuration
+
+Next we need to map the above to their respective Tasmota functions.
+
+```console
+backlog TuyaMCU 10,1; TuyaMCU 72,2; TuyaMCU 70,3; TuyaMCU 60,4; TuyaMCU 62,5; TuyaMCU 63,19; TuyaMCU 12,101; TuyaMCU 99,102; TuyaMCU 80,103; TuyaMCU 13,104; TuyaMCU 82,105;
+```
+
+Label webUI buttons:
+```console
+backlog webbutton1 Power; webbutton2 Sleep; webbutton3 Oscillating;
+```
+### TuyaEnum 
+As of Tasmota 9.1.0.1 it is possible to map Type4 dpIDs (such as dpID4) to an Enum fn ID.  This mapping is done with the 60, 62, 63 numbers above. 
+
+Set Enum ranges for Mode (allows `0`, `1`, `2` and `3`). 
+```console
+TuyaEnumList 0,3
+```
+
+Set Enum ranges for Fan Speed (allows `0`, `1`  and `2`). 
+```console
+TuyaEnumList 2,2
+```
+
+Set Enum ranges for Temperature Unit (allows `0` and `1` only). 
+```console
+TuyaEnumList 3,1
+```
+
+Now you can control the Mode, Fan Speed or Temperature Unit with `TuyaEnum1 <x>` where `x` is `0` or `1`. If you try a number outside the Enum1 range it will throw an error.
+
+Target Temperature can be set with `TuyaSend2 2,<temperature>`  eg. `TuyaSend2 2,21`
+  

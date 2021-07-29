@@ -1,0 +1,14 @@
+---
+date_added: 2021-07-03
+title: EARU DIN Circuit Breaker 1P 32A/50A
+model: RDCBC-1P
+image: /assets/images/earu_RDCBC-1P.jpg
+template9: '{"NAME":"RDCBC-1P","GPIO":[320,0,0,0,0,0,0,0,32,224,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001320406091.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: DIN Relay
+standard: global
+---
