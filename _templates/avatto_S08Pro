@@ -1,0 +1,25 @@
+---
+date_added: 2021-07-29
+title: Avatto Temperature and Humidity 
+model: S08Pro
+image: /assets/images/avatto_S08Pro.jpg
+template9: '{"NAME":"S08Pro","GPIO":[1,640,1,608,288,1088,1,1,1,32,1056,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005002505900746.html
+link2: 
+mlink: 
+flash: module replacement
+category: misc
+type: IR Controller
+standard: global
+---
+!!! Device bought in June 2021 was equipped with WB3S MCU !!! WB3S is fully pin-compatible with ESP12-F --> SWAP (resoldering) IS REQUIRED!
+
+![image](https://user-images.githubusercontent.com/83143316/127171029-18efa925-69f3-4d47-8786-3d1a80eb5477.png)
+
+![image](https://user-images.githubusercontent.com/83143316/127171056-101b636d-9869-49df-8ed1-4ba583e83d62.png)
+
+There is a AHT10 temperature/humidity sensor is used (bottom left on pic). I've removed TuyaMCU chip and closed SCL/SDA pins on PCB directly to ESP8266. It works great with AHT1x Tasmota driver `#define USE_AHT1x`:
+
+![image](https://user-images.githubusercontent.com/83143316/127171110-53bbb892-27fa-4a39-98cd-53ea52f579f2.png)
+
+![image](https://user-images.githubusercontent.com/83143316/127171146-6fcb72c3-ca13-4c42-8427-08a7d91877c6.png)
