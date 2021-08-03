@@ -1,0 +1,15 @@
+---
+date_added: 2021-08-03
+title: Atom 11W RGBCCT
+model: AT9012
+image: /assets/images/atom_AT9012.jpg
+template32: '{"NAME":"Atom AT9012/WH/WIZ","GPIO":[0,0,420,0,419,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,417,418,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.jdlighting.com.au/atom-at9012-wiz-smart-wifi-rgb-white-11w-led-downlight.html
+link2: 
+mlink: https://atomlighting.com.au/product/at9012-wiz/
+flash: serial
+category: light
+type: Downlight
+standard: au
+---
+Requires tasmota32solo1.bin because it is using the single core version of ESP32
