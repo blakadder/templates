@@ -31,13 +31,13 @@ After flashing, I used the following MCU config:
 Backlog TuyaMCU 11,2; TuyaMCU 12,101; TuyaMCU 13,103;
 ```
 
-- This maps start/stop to `POWER1`, go home to `POWER2`, and find to `POWER3`.
+This maps start/stop to `POWER1`, go home to `POWER2`, and find to `POWER3`.
 
-- Manual control can be performed on dp 3, enum 0 - 3, ie: `tuyasend4 3,{0-3}`
+Manual control can be performed on dpId 3, enum 0-3, ie: `tuyasend4 3,{0-3}`
 
-- Operating mode is on dp 5, enum 0 - 4.
+Operating mode is on dpId 5, enum 0-4.
 
-- Fan speed is on dp 102, enum 0 - 3.
+Fan speed is on dpId 102, enum 0-3.
 
 And added rules for easy access to feedback data:
 ```
