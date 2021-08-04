@@ -19,7 +19,7 @@ A D1 Mini or an [ESP-M3](https://s.click.aliexpress.com/e/_9zAd0m) without the p
 
 Once the ESP8266 is installed and flashed with Tasmota, select TuyaMCU module and activate publishing TuyaReceived to MQTT:
 ```console
-Backlog module 54; SetOption66 1
+Backlog Module 54; SetOption66 1
 ``` 
 
 ```json
@@ -52,10 +52,14 @@ MCU Product ID: {"p":"imk0pcrtmyx9cbfg","v":"1.2.2","m":1}
 
 ## Home Assistant
 I've added the Vacuum to Home Assistant, the configuration can be downloaded here [https://github.com/Sthopeless/trvc/blob/master/vacuum_black.yaml](https://github.com/Sthopeless/trvc/blob/master/vacuum_black.yaml)
-It is added to [Home Assistant as a Package](https://www.home-assistant.io/docs/configuration/packages/)
+
+It is added to Home Assistant as a [Package](https://www.home-assistant.io/docs/configuration/packages/)
+
 I am using the [Lovelace Vacuum Card](https://github.com/denysdovhan/vacuum-card)
-![](https://github.com/Sthopeless/trvc/blob/master/Screenshot%20(42).png?raw=true)
+
+![Screenshot](https://raw.githubusercontent.com/Sthopeless/trvc/master/Screenshot%20(42).png)
 
 The icon without background:
-![](https://github.com/Sthopeless/trvc/blob/master/liectroux_c30b.png)
+
+![Icon](https://raw.githubusercontent.com/Sthopeless/trvc/master/liectroux_c30b.png)
 
