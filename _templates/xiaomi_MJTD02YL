@@ -6,7 +6,7 @@ image: /assets/images/xiaomi_MJTD02YL.jpg
 template32: '{"NAME":"Mi Desk Pro","GPIO":[0,0,416,0,417,0,0,0,3840,0,0,0,0,0,0,0,0,0,0,0,0,0,3296,3264,0,0,0,0,0,32,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"DimmerRange 30,100"}' 
 link: https://www.aliexpress.com/item/32967694580.html
 link2: https://www.amazon.de/dp/B08H5JN5BM
-link3: https://www.amazon.co.uk/dp/B08H5JN5BM
+link3: https://www.geekbuying.com/item/Xiaomi-Mi-Smart-Led-Desk-Lamp-Pro-Multi-Joint-APP-Control-426231.html
 link4: https://www.amazon.com.au/dp/B08H5JN5BM/
 mlink: 
 flash: serial
