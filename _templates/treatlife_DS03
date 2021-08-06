@@ -12,6 +12,10 @@ category: switch
 type: Dimmer
 standard: us
 ---
+
+08/06/2021 - module just recieved from amazon contained WB3S so not flashable without replacing the chip.
+
+---
 Flashed via Serial, using the same method as the [Treatlife DS02S](treatlife_DS02S). May work with Tuya-Convert. Unknown at this time.
 
 Additional troubleshooting can be done based on the DS02S template, since it has most of the same features: [Treatlife DS02S](treatlife_DS02S)
