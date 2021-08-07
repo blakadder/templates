@@ -6,7 +6,7 @@ category: light
 type: Addressable LED Controller
 standard: global
 image: /assets/images/ESP-01S-RGB-LED-v1.jpg
-template: '{"NAME":"ESP-01S-RGB-LED-v1.0","GPIO":[1,1,1376,1,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"ESP-01S-RGB-LED-v1.0","GPIO":[1,1,1376,1,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://github.com/IOT-MCU/ESP-01S-RGB-LED-v1.0
 link: https://www.aliexpress.com/item/1859126994.html
 link2: https://www.banggood.com/2Pcs-Geekcreit-ESP8266-ESP-01-ESP-01S-WS2812-RGB-LED-Lamp-Module-Support-for-IDE-Programming-p-1716944.html?cur_warehouse=CN&rmmds=search
