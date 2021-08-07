@@ -11,6 +11,7 @@ flash: serial
 category: switch
 type: Dimmer
 standard: us
+unsupported: true
 ---
 
 08/06/2021 - module just recieved from amazon contained Tuya WB3S module which cannot be flashed with Tasmota.  That module is pin compatible with ESP-12 and 
