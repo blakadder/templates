@@ -12,6 +12,8 @@ category: switch
 type: Dimmer
 standard: us
 ---
+# Warning
+As of August 2021 this device comes with a Tuya WB3S module which cannot be flashed with Tasmota.
 ```console
 Backlog TuyaMCU 11,1; TuyaMCU 21,3;
 ```
