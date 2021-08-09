@@ -1,14 +1,16 @@
 ---
-date_added: 2020-01-05
+date_added: 2021-08-07
 title: SWA5
 category: plug
 type: Plug
 standard: us
-flash: tuya-convert
-link: https://www.amazon.com/LINGANZH-Required-Wireless-Remotely-Anywhere/dp/B07FY1WQCN
-image: https://images-na.ssl-images-amazon.com/images/I/41wbjeaQOQL._SX679_.jpg
+flash: serial
 template: '{"NAME":"Lingan SWA5","GPIO":[56,0,0,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
-link2: http://s.click.aliexpress.com/e/FJewjss0
+template9: '{"NAME":"Linganzh SWA5","GPIO":[320,0,321,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
+image: https://images-na.ssl-images-amazon.com/images/I/41wbjeaQOQL._SX679_.jpg
+link: https://www.amazon.com/LINGANZH-Required-Wireless-Remotely-Anywhere/dp/B07FY1WQCN
+link2: https://www.aliexpress.com/item/32884245232.html
+link3: https://www.amazon.ca/gp/product/B07D48YSHS
 mlink: https://lingan.en.alibaba.com/search/product?SearchText=swa5
 ---
-![Label](https://sc01.alicdn.com/kf/H076735dee85941bf986f9fe860b960ebR/ETL-smart-plug-US-wifi-smart-switch.jpg)
+Once you open the device, the pins are soldered on and hard to remove. Once you do do it, PCB has nice pads to solder.

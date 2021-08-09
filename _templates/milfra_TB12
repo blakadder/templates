@@ -1,0 +1,13 @@
+---
+date_added: 2021-08-08
+title: Milfra 2 Gang
+model: TB12
+template: '{"NAME":"Milfra TB12","GPIO":[158,56,53,54,19,18,0,0,22,21,160,0,17],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001482086179.html
+link2: 
+mlink: https://www.milfra.com/products/smart-eu-uk-switch-remote-control-white-cover-tb11-tb12-tb13-physical-switch-milfra
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
