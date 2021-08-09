@@ -27,6 +27,6 @@ mlink: https://www.blitzwolf.com/3680W-EU-Dual-WiFi-Smart-Socket-p-380.html
   Because GND is hard to solder/access, I recommend to use the other side for GND:    
   ![Solder points 2](assets/images/bw-shp7-pins2.jpg ":size=400")
   Result:    
-  ![Soldered cables](assets/images/bw-shp7-soldered.jpg)
+  ![Soldered cables](assets/images/bw-shp7-soldered.jpg ":size=400")
 7. Connect serial adapter and make a shortwire between Pin IO0 and GND during startup (for entering flash mode).
 8. Flash!
