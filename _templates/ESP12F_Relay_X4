@@ -3,7 +3,7 @@ date_added: 2020-12-29
 title: ESP-12F 5V/7-30V/220V 4 Channel
 model: ESP12F_Relay_X4
 image: /assets/images/ESP12F_Relay_X4.jpg
-template9: '{"NAME":"LC-Relay-ESP12-4R-MV","GPIO":[1,1,1,1,1,1,1,1,226,227,225,1,224,1],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"ESP12F_Relay_X4","GPIO":[1,1,1,1,320,1,1,1,226,227,225,1,224,1],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001644477508.html
 link2: https://www.banggood.com/AC-or-DC-Power-Supply-ESP8266-WIFI-Four-way-Relay-Module-ESP-12F-Development-Board-Secondary-Development-p-1794113.html
 mlink: 
@@ -12,8 +12,17 @@ category: relay
 type: Relay Board
 standard: global
 ---
-Headers must be soldered and jumpers needs to be installed for enabling relays. 
+Headers must be soldered and jumpers needs to be installed for enabling relays.
 
 The board uses GPIO16 and so Relay1 is always turned ON when power is applied to the board, causing a brief on/off pulse on the relay as Tasmota loads and turns it off again. Of course, if the last state was ON, then it will stay ON. It's still a very useful board at a bargain price; just a shame the designer was too lazy to route a different GPIO pin. (Although rather than using the provided link pair, you could link to IO0 IO2 or IO15 thru-holes on the side of the board instead of IO16, and change the template to suite.)
+
+Example for when Relay1 is connected to GPIO15:
+![ESP12F Relay X4 board with Relay1 connected to GPIO15](/assets/images/ESP12F_Relay_X4_GPIO15.jpg)
+
+Suitable template:
+
+``` plain
+{"NAME":"ESP12F_Relay_X4","GPIO":[1,1,1,1,1,320,1,1,226,227,225,224,1,1],"FLAG":0,"BASE":18}
+```
 
 [Instructions](/assets/ESP12F_Relay_X4.pdf)

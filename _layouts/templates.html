@@ -69,6 +69,7 @@ layout: default
     {% elsif page.flash == "esp2ino" %}
     <a class="menu" href="https://github.com/elahd/esp2ino" target="_blank">esp2ino</a>
     {% else %}
+    {{ page.flash}}
     {% endif %}
   {% else %}
 
@@ -207,7 +208,6 @@ layout: default
   {% if page.title contains 'Athom' %}
   <strong>Use code <code>BLAKADDER4 </code> when buying from Aliexpress links for a 10% discount. Code is valid until end of September.</strong>
   <br><br>
-  As of November 2020 Athom devices are fully compatible with standard Tasmota releases and can be upgraded as any other Tasmota device.
   <p>
   {% endif %}
 

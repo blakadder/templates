@@ -1,23 +1,25 @@
 ---
-date_added: 2020-08-26
-title: Liectroux C30B
-category: unsupported
-type: Vacuum
-link: https://www.aliexpress.com/item/32967651955.html
-image: https://ae01.alicdn.com/kf/HTB1nme8aDHuK1RkSndVq6xVwpXa2/LIECTROUX-C30B-Robot-Vacuum-Cleaner-Map-navigation-3000Pa-Suction-Smart-Memory-Map-Display-on-Wifi-APP.jpg
-link2: 
-link3: 
-flash: WR3
+date_added: 2021-08-04
+title: Liectroux C30B Robot Vacuum
+model: 
+template9: '{"NAME":"Liectroux C30B","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+image: /assets/images/liectroux_C30B.jpg
+link: https://s.click.aliexpress.com/e/_A5nBhg
+link2: https://www.amazon.com/LIECTROUX-Robotic-Cleaner-Navigation-Electric/dp/B07MGJKTZ1
+link3: https://www.gearbest.com/vacuum-cleaners/pp_3003276593845595.html
+flash: module replacement
+category: other
+type: Miscellaneous
 ---
 
 WR3 module is connected to the main PCB with a long cable that can be cut down and connected to an ESP8266.
-A Wemos or an ESP-M3 without the pins soldered is preferable. You will also need some double tape to mount it in place
+A D1 Mini or an [ESP-M3](https://s.click.aliexpress.com/e/_9zAd0m) without the pins soldered is preferable. You will also need some double tape to mount it in place
 
 ![WR3 Pinout](https://raw.githubusercontent.com/Sthopeless/trvc/master/IMG_20200823_153621%20(2).jpg)
 
 Once the ESP8266 is installed and flashed with Tasmota, select TuyaMCU module and activate publishing TuyaReceived to MQTT:
 ```console
-Backlog module 54; SetOption66 1
+Backlog Module 54; SetOption66 1
 ``` 
 
 ```json
@@ -48,11 +50,16 @@ MCU Product ID: {"p":"imk0pcrtmyx9cbfg","v":"1.2.2","m":1}
 - DpType2Id32: Cleaned Area (useless)
 - DpType2Id33: Cleaned Time
 
-I've added the Vacuum to Home Assistant, the configuration can be downloaded here https://github.com/Sthopeless/trvc/blob/master/vacuum_black.yaml
-It is added to [Home Assistant as a Package](https://www.home-assistant.io/docs/configuration/packages/)
+## Home Assistant
+I've added the Vacuum to Home Assistant, the configuration can be downloaded here [https://github.com/Sthopeless/trvc/blob/master/vacuum_black.yaml](https://github.com/Sthopeless/trvc/blob/master/vacuum_black.yaml)
+
+It is added to Home Assistant as a [Package](https://www.home-assistant.io/docs/configuration/packages/)
+
 I am using the [Lovelace Vacuum Card](https://github.com/denysdovhan/vacuum-card)
-![](https://github.com/Sthopeless/trvc/blob/master/Screenshot%20(42).png?raw=true)
+
+![Screenshot](https://raw.githubusercontent.com/Sthopeless/trvc/master/Screenshot%20(42).png)
 
 The icon without background:
-![](https://github.com/Sthopeless/trvc/blob/master/liectroux_c30b.png)
+
+![Icon](https://raw.githubusercontent.com/Sthopeless/trvc/master/liectroux_c30b.png)
 

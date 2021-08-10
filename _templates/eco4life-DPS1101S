@@ -2,10 +2,10 @@
 date_added: 2020-01-02
 title: eco4life DPS1101S
 link: https://www.amazon.com/ECO4LIFE-Outlet-Assistant-Required-Control/dp/B07D8514NV
-image: https://cdn.shopify.com/s/files/1/0075/5197/5491/products/plug_with_box_600x600.jpg
+image: /assets/images/eco4life-DPS1101S.jpg
 template: '{"NAME":"Eco4Life Plug","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/ECO4LIFE-Outlet-Assistant-Required-Control/dp/B07D8514NV
-mlink: https://eco4lifehome.com/collections/smart-switches/products/smart-wifi-outlet-plug?variant=19432334524483
+mlink: https://expo.tuya.com/product/337695
 flash: tuya-convert
 category: plug
 type: Plug

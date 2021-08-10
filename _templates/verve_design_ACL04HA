@@ -1,0 +1,15 @@
+---
+date_added: 2021-07-30
+title: Verve Design Hana 36W CCT
+model: ACL04HA
+image: /assets/images/verve_design_ACL04HA.jpg
+template9: '{"NAME":"Verve ACL04HA","GPIO":[0,0,0,0,0,0,0,0,449,0,416,0,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.bunnings.com.au/verve-design-grid-connect-smart-36w-led-hana-ceiling-light_p0119807
+link2: 
+mlink: 
+flash: serial
+category: light
+type: Ceiling Light
+standard: au
+---
+May be possible to flash with Tuya-Convert. Easy to flash with serial, all pads required appear on the back of the ESP8255 sub-board.

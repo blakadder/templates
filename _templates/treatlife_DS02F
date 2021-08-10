@@ -7,7 +7,7 @@ template9: '{"NAME":"DS02F","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,
 link: https://www.amazon.com/gp/product/B08P5D3ZKW
 link2: 
 mlink: 
-flash: serial
+flash: module replacement
 category: switch
 type: Fan Controller
 standard: us

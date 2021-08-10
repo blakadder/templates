@@ -3,7 +3,7 @@ date_added: 2021-05-08
 title: TopGreener Scene Controller
 model: TGWFSC8-W 
 category: switch
-type: Wall Switch
+type: Switch
 template9: '{"NAME":"TGWF15RM","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 standard: us
 image: /assets/images/topgreener_TGWFSC8-W.jpg

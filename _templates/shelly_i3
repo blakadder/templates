@@ -3,7 +3,7 @@ date_added: 2020-07-22
 title: Shelly i3 Action and Scenes Activation Device
 model: 
 image: /assets/images/shelly_i3.jpg
-template: '{"NAME":"Shelly i3","GPIO":[0,0,0,0,0,0,0,0,83,84,82,0,0],"FLAG":2,"BASE":18}' 
+template: '{"NAME":"Shelly i3","GPIO":[0,0,0,0,0,56,0,0,83,84,82,0,0],"FLAG":2,"BASE":18}' 
 link: https://www.amazon.de/dp/B089GWDS19/
 link2: https://www.domadoo.fr/fr/objets-communicants/5288-shelly-module-d-activation-de-scenesactions-wi-fi-shelly-i3-3809511202593.html
 link3: https://www.aliexpress.com/item/1005002821587581.html
@@ -22,9 +22,9 @@ To avoid that issue, the individual switches can publish their own mqtt messages
 Commands to be entered via the Tasmota console on your Shelly i3
 
 ```console
-Backlog Rule1 on Switch1#state do Publish stat/%topic%/SWITCH1 %value% endon on Switch2#state do Publish stat/%topic%/SWITCH2 %value% endon on Switch3#state do Publish stat/%topic%/SWITCH3 %value% endon; Rule1 1;  SwitchMode 1; SwitchTopic 0
+Backlog Rule1 on Switch1#state do Publish stat/%topic%/SWITCH1 %value% endon on Switch2#state do Publish stat/%topic%/SWITCH2 %value% endon on Switch3#state do Publish stat/%topic%/SWITCH3 %value% endon; Rule1 1; SwitchMode1 1; SwitchMode2 1; SwitchMode3 1; SwitchTopic 0
 ```
 
-More about switches an rules: https://tasmota.github.io/docs/Buttons-and-Switches/#rules
+More about [switches an rules](https://tasmota.github.io/docs/Buttons-and-Switches/#rules)
 
 

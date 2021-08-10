@@ -1,0 +1,16 @@
+---
+date_added: 2021-08-03
+title: Feit Electric ST19 Soft White 
+model: ST1960/FIL/AG
+image: /assets/images/feit_electric_ST1960FILAG.jpg
+template9: '{"NAME":"FEIT A1960FILAG","GPIO":[0,0,0,0,0,0,0,0,0,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/Feit-Electric-ST1960-FIL-AG/dp/B07ZWT9JTL
+link2: https://www.lowes.com/pd/Feit-Electric-Feit-Smart-WiFi-60-Watt-EQ-ST19-Soft-White-Dimmable-Smart-LED-Light-Bulb/1002576070
+link2: 
+mlink: https://www.feit.com/product/60-watt-equivalent-dimmable-soft-white-st19-alexa-google-smart-bulb/
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: e26
+---
+Flashed tuya-convert and updated to 9.5.0. 
