@@ -7,7 +7,7 @@ flash: OPL1200
 mlink: https://sonoff.tech/product/smart-lighting/l2/
 image: /assets/images/sonoff_L2.jpg
 link: https://itead.cc/product/sonoff-l2-smart-led-light-strip/
-link2: https://www.aliexpress.com/af/sonoff-l2.html
+link2: https://www.aliexpress.com/item/1005003117529014.html
 ---
 
 The OPL1200 chip is soldered to the entire PCB and would be difficult to replace.
