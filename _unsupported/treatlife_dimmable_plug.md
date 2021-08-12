@@ -11,3 +11,6 @@ flash: WB3S
 ---
 
 FCC ID: 2ANDL-WB3S
+
+It is possible to do an ESP transplant to replace the WiFi chip used. Follow instructions here:
+https://www.digiblur.com/2020/12/treatlife-dual-indoor-dimmable-smart.html
