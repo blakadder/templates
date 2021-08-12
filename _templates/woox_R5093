@@ -1,0 +1,14 @@
+---
+date_added: 2021-08-11
+title: WOOX 5m RGBW 
+model: R5093
+image: /assets/images/woox_R5093.jpg
+template9: '{"NAME":"Woox R5093","GPIO":[32,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07N7SLP8X
+link2: 
+mlink: https://wooxhome.com/products-c10/lighting-c1/woox-r5093-led-lighting-strip-kit-p71
+flash: serial
+category: light
+type: LED Strip
+standard: eu
+---
