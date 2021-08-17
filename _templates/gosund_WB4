@@ -12,3 +12,15 @@ category: bulb
 type: RGBW
 standard: e27
 ---
+
+Fitted with an ESP8285N08-derived "WB4-D 3.3.35 (P/N 8.05.000.0088)" device.
+
+Disassembly: The middle contact of the E27 screw fixture can be lifted off by sliding a spudger between the plastic and metal points to release the tense wire. Pop off the plastic bulb and cut the blobs of adhesive to remove the main LED PCB. The ESP board will be accessible without removing it from the plastic casing.
+
+## Serial Flashing
+
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
+
+The serial test points (3V3, RX, TX, GND) are available on the bottom of the controller board. Once disassembled you can easily access them to flash via serial.
+
+Remember to put the chip into programming mode you will need to connect GPIO0 to GND during power up.
