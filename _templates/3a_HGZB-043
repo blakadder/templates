@@ -8,6 +8,7 @@ standard: au
 link: https://www.amazon.com.au/gp/product/B07FKYT5G8
 image: https://images-na.ssl-images-amazon.com/images/I/51k6Ptn%2BHQL._SL1024_.jpg
 template: '{"NAME":"3A Smart Home ","GPIO":[52,0,55,18,22,19,0,0,17,21,54,23,53],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"3A Smart Home ","GPIO":[544,0,290,33,225,34,0,0,32,224,289,226,288,0],"FLAG":0,"BASE":18}'
 mlink: https://3asmarthome.com/
 ---
 
@@ -15,6 +16,6 @@ The RXD0 pin is used as one of the touch inputs, so you can't use the serial por
 
 Some numbers I found internally (taking off the cover) are 120K3S_WIFI_SV5 (for searching). I have uploaded a bunch of images here: https://github.com/sillyfrog/contact/issues/3
 
-Finally, as there are a number of LED's, this may need to be tweaked with the next release of Tasmota with LedLink feature.
+Finally, as there are a number of LED's, the new v9.1+ template correctly configures LedLink.
 
 

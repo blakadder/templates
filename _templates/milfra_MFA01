@@ -1,0 +1,25 @@
+---
+date_added: 2021-08-12
+title: Milfra Vibration Touch
+model: MFA01
+image: /assets/images/milfra_MFA01.jpg
+template9: '{"NAME":"Milfra MFA01","GPIO":[160,0,0,0,288,0,0,0,224,544,480,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B08NJGW9SH
+link2: https://www.aliexpress.com/item/1005001702882744.html
+link3: https://www.alibaba.com/product-detail/125V-Alexa-voice-control-light-switch_1600155724256.html
+mlink: https://www.milfra.com/
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+Configuration needed to use the vibration feedback with [Buzzer](https://tasmota.github.io/docs/Commands/#buzzer) command
+
+```console
+SwitchMode1 2
+SetOption114 1
+Rule1 ON Switch1#State=1 DO Backlog0 Rule2 1; Rule3 1; Buzzer 1,1,1; RuleTimer1 1; ENDON
+Rule1 1
+Rule2 ON Switch1#State=0 DO Backlog0 Rule2 0; Rule3 0; Power1 toggle ENDON
+Rule3 ON Rules#Timer=1 DO Backlog0 Rule2 0; Rule3 0; Buzzer 1,1,1 ENDON
+```

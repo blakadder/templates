@@ -1,0 +1,21 @@
+---
+date_added: 2021-08-15
+title: Sonoff 25A 5500W 
+model: POWR3
+category: relay
+type: Switch Module
+standard: global
+flash: serial
+template9: '{"NAME":"Sonoff POWR3","GPIO":[32,3072,0,3104,0,0,0,0,256,320,0,0,0,0],"FLAG":0,"BASE":43}' 
+image: /assets/images/sonoff_POWR3.jpg
+mlink: https://sonoff.tech/product/diy-smart-switch/powr3/
+link: https://itead.cc/product/sonoff-powr3/
+---
+
+## Serial Flashing 
+
+No soldering required as the headers are present (at least on my unit).
+
+Video instructions by [NotEnoughTech](https://notenoughtech.com/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y94FbbY5kyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

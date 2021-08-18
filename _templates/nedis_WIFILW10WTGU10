@@ -1,0 +1,14 @@
+---
+date_added: 2021-08-11
+title: Nedis PAR16 4,5W 380lm
+model: WIFILW10WTGU10
+image: /assets/images/nedis_WIFILW10WTGU10.jpg
+template9: '{"NAME":"Nedis WIFILW10WTGU10","GPIO":[0,0,0,0,0,416,0,0,417,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07HFF1V2J
+link2: https://www.proshop.dk/Smart-Home/Nedis-WiFi-Smart-LED-GU10-Bulb-Warm-to-Cool-White/2801508
+mlink: https://nedis.com/en-us/product/smart-living/smart-home/lighting/550683247/smartlife-led-bulb-wi-fi-gu10-380-lm-45-w-cool-white-warm-white-2700-6500-k-energy-class-a-android-ios-par16
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: gu10
+---

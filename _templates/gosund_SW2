@@ -94,3 +94,5 @@ endif
 dimh=hn((rng*dimval/100)+off)
 =>print Scaled brightness is %dimh%
 ```
+
+Alternatively, you can flash with a 9.0.0 version of tasmota customized for this switch. It is a bit simpler, since it requires no scripting, just choosing the module Gosund Dimmer (76), and fixes a bug in this setup. Discussion is here: http://cocoontech.com/forums/topic/32175-gosund-wifi-dimmer-replacing-firmware/page-3 amd the binary can be found here: https://github.com/gbg108/Tasmota/releases/tag/v9.0.0.3_GS1.1

@@ -7,6 +7,7 @@ template: '{"NAME":"hiking dds2382wifi","GPIO":[0,107,0,108,0,0,0,0,0,0,56,0,17]
 template9: '{"NAME":"Hiking DDS238-2 WIFI","GPIO":[0,2272,0,2304,0,0,0,0,0,0,320,0,32,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4000530641386.html
 link2: https://www.aliexpress.com/item/4000571756590.html
+link3: https://www.aliexpress.com/item/4000571797301.html
 mlink: 
 flash: serial
 category: sensor
