@@ -12,7 +12,7 @@ category: cover
 type: Curtain Switch
 standard: eu
 ---
-I've used the following options for configuration:
+I've used the following options for configuration (requires FTC532 support! -> https://github.com/arendst/Tasmota/discussions/12634#discussioncomment-1203227):
 
 ```console
 Backlog SetOption80 1; Interlock 1,2; Interlock 1
