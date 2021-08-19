@@ -4,7 +4,7 @@ title: LSPA3
 category: unsupported
 type: Plug
 link: https://www.aliexpress.com/item/1005002405714049.html
-image: https://i.imgur.com/PbbZW3h.jpg
+image: /assets/images/LSPA3.jpg
 link2: 
 link3: 
 flash: BK7231
