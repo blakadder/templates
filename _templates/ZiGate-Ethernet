@@ -7,8 +7,8 @@ template32: '{"NAME": "ZIGATE-ETH", "GPIO": [1,1,1,1,1,1,0,0,1,0,1,1,3840,576,56
 link: 
 mlink: https://zigate.fr/produit/zigate-ethernet/
 flash: serial
-category: misc
-type: Zigbee Gateway
+category: diy
+type: Development Board
 standard: global
 ---
 ## Serial Flashing
