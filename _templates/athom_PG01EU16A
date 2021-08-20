@@ -7,7 +7,7 @@ template: '{"NAME":"Athom PG01EU16A","GPIO":[0,0,0,17,134,132,0,0,131,157,21,0,0
 template9: '{"NAME":"Athom Power Monitoring Plug","GPIO":[0,0,0,32,2720,2656,0,0,2624,544,224,0,0,1],"FLAG":0,"BASE":18}'
 mlink: https://www.athom.tech/blank-1/color-smart-plug
 link: https://www.aliexpress.com/item/4001230982267.html
-link2: https://www.tindie.com/products/athom/pre-flashed-tasmota-eu-plug/
+link2: 
 flash: preflashed
 category: plug
 type: Plug
