@@ -11,4 +11,5 @@ flash: serial
 category: bulb
 type: RGBW
 standard: e27
+unsupported: true
 ---
