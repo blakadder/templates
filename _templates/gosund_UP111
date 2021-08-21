@@ -4,7 +4,7 @@ title: Gosund 13A
 model: UP111
 image: /assets/images/gosund_UP111.jpg
 template9: '{"NAME":"Gosund UP111","GPIO":[0,320,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":18}' 
-link1: https://www.amazon.co.uk/gp/product/B0983HNB7M
+link: https://www.amazon.co.uk/gp/product/B0983HNB7M
 link2: https://www.amazon.co.uk/dp/B0983HP45C/
 mlink: https://www.alibaba.com/product-detail/TUV-Certificate-Tuya-Smart-Wifi-UK_1600197285403.html
 flash: tuya-convert
