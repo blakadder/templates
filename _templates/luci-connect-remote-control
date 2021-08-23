@@ -44,7 +44,7 @@ Enable rule with `Rule1 1`
     {%- endif -%}
   preset_mode_command_topic: "cmnd/flatbedfan/TuyaSend4"
   preset_mode_command_template: >
-    {%- if value == "low" %}2.0
+    {%- if value == "low" %}2,0
     {%- elif value == "medium" %}2,1
     {%- elif value == "high" %}2,2
     {%- endif -%}

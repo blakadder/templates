@@ -26,6 +26,6 @@ Commands to be entered via the Tasmota console on your Shelly i3
 Backlog Rule1 on Switch1#state do Publish stat/%topic%/SWITCH1 %value% endon on Switch2#state do Publish stat/%topic%/SWITCH2 %value% endon on Switch3#state do Publish stat/%topic%/SWITCH3 %value% endon; Rule1 1; SwitchMode1 1; SwitchMode2 1; SwitchMode3 1; SwitchTopic 0
 ```
 
-More about [switches an rules](https://tasmota.github.io/docs/Buttons-and-Switches/#rules)
+More about [switches and rules](https://tasmota.github.io/docs/Buttons-and-Switches/#rules)
 
 
