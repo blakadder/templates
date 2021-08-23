@@ -29,14 +29,19 @@ Also of note: The flash worked perfectly, but I couldn't power the chip from my 
 - `dpid13` Sets the 'keep warm' fuction
 - `dpid15` Reports current status. `0` = Stand-by, `1` = Heating, `2` = Sleep, `3` = Keep Warm
 
+Configure Tasmota's DpIds with the correct FnIds:
+{% highlight yaml %}
+{% raw %}
+Backlog TuyaMCU 11,1; TuyaMCU 71,2; TuyaMCU 63,4; TuyaMCU 12,13; TuyaMCU 61,15;
+{% endraw %}
+{% endhighlight %}
+
 ## Home Assistant Integration - Option 1
 The [ProfiCook](https://templates.blakadder.com/proficook_PC-WKS_1167.html) profile has some great Home Assistant automation guidance.
 To get you started,
-`TempRes 0` Set Temperature sensor resolution to 0 decimal places
-`SetOption19 1` Set Home Assistant discovery protocol to use MQTT discovery.
-`SetOption66 1` Set to enable publishing TuyaReceived over MQTT
+`TempRes 0` Set Temperature sensor resolution to 0 decimal places, `SetOption19 1` Set Home Assistant discovery protocol to use MQTT discovery and `SetOption66 1` Set to enable publishing TuyaReceived over MQTT
 
-then the temperature can be reported via:
+The temperature can then be reported via:
 
 {% highlight yaml %}
 {% raw %}
@@ -81,12 +86,10 @@ switch:
 ## Home Assistant Integration - Option 2 (using less verbose MQTT)
 Another method is to utilise the use of Tasmota rules so that tasmota reports the kettle status correctly rather than leaving it to Home Assistant to decode TuyaReceived MQTT Payloads.
 This will keep your configuration.yaml much tidier!
-Conditional rules are not included in the default Tasmota build, so flash your tasmota with https://github.com/tasmota/binaries/raw/master/tasmota-fullrules.bin.gz .
+Conditional rules are not included in the default Tasmota build, so flash your tasmota with <https://github.com/tasmota/binaries/raw/master/tasmota-fullrules.bin.gz>.
 
-Configure your tasmota with the settings
-`TempRes 0` Set Temperature sensor resolution to 0 decimal places
-`SetOption19 1` Set Home Assistant discovery protocol to use MQTT discovery.
-`SetOption66 0` Set to disable publishing TuyaReceived over MQTT
+Configure your tasmota with the settings:
+`TempRes 0` Set Temperature sensor resolution to 0 decimal places, `SetOption19 1` Set Home Assistant discovery protocol to use MQTT discovery and `SetOption66 0` Set to disable publishing TuyaReceived over MQTT
 
 {% highlight yaml %}
 {% raw %}
