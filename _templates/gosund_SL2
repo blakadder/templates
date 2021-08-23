@@ -7,6 +7,7 @@ template: '{"NAME":"Gosund LED Str","GPIO":[0,0,0,0,17,38,0,0,37,39,0,0,0],"FLAG
 template9: '{"NAME":"gosund SL2","GPIO":[1,1,1,1,99,417,1,1,416,418,1,1,1,1],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B08CMMWSPR
 link2: https://www.amazon.de/dp/B085L2M9N8
+link3: https://www.alza.de/nitebird-smart-led-streifen-sl2-v2-d6370966.htm
 mlink: https://www.alibaba.com/product-detail/DC5V-5m-Led-pixel-Strip-30_1600198545524.html
 flash: serial
 category: light

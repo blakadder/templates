@@ -9,4 +9,5 @@ mlink: https://sonoff.tech/product/wifi-smart-lighting/b02-b05-b
 image: /assets/images/sonoff_B02-B-A60.jpg
 link: https://www.itead.cc/smart-home/sonoff-wi-fi-smart-led-bulb.html
 link2: https://www.aliexpress.com/item/1005001631797673.html
+link3: https://www.alza.de/sonoff-wi-fi-smart-led-bulb-b05-b-a60-d6370975.htm
 ---

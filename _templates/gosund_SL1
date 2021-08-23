@@ -7,6 +7,7 @@ template: '{"NAME":"Gosund LED Strip","GPIO":[17,0,0,0,0,0,0,0,37,39,38,0,0],"FL
 template-alt: '{"NAME":"Gosund LED Strip","GPIO":[17,0,0,0,0,38,0,0,37,39,0,0,0],"FLAG":3,"BASE":18}'
 template9: '{"NAME":"Gosund LED Strip","GPIO":[0,0,0,0,32,417,0,0,416,418,0,0,0,4768],"FLAG":0,"BASE":18}'
 link: https://www.amazon.com/gp/product/B085WK48FC
+link2: https://www.alza.de/nitebird-smart-led-streifen-sl1-v2-d6370965.htm
 mlink: https://www.alibaba.com/product-detail/Nitebrid-RGB-Smart-LED-Lights-Strip_1600247969045.html
 flash: tuya-convert
 category: light
