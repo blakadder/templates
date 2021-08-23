@@ -11,6 +11,7 @@ flash: tuya-convert
 category: light
 type: Downlight
 standard: us
+unsupported: true
 ---
 You will need to fast-powercycle it twice to get it into fast flash mode. I power cycled it 5 times, and it did a slow flash (every 2sec), then power cycled it again 5 more times, and it does a fast flash (every half second) for tuya-convert.
 ---
