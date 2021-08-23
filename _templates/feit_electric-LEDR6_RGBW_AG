@@ -13,3 +13,9 @@ type: Downlight
 standard: us
 ---
 You will need to fast-powercycle it twice to get it into fast flash mode. I power cycled it 5 times, and it did a slow flash (every 2sec), then power cycled it again 5 more times, and it does a fast flash (every half second) for tuya-convert.
+---
+These have started to use the new unflashable chips. Check the bottom of the box near the UPC code. In my case I found that any light with "C2020 Feit Electric, Rev. 100820F-17" used the new Tuya chip which cannot be flashed with Tasmota.
+An older light with "C2019" on it did have an ESP8266, but could not be flashed with Tuya Convert, I had to open it. A strong suction cup is able to pull the plastic diffuser off or a very thin and strong flat blade screw driver can pop it off.
+Once the diffuser is off there are just three screws and the light comes apart. I found it was easiest to use an crocodile clip connected to the shield on the ESP8266 for the ground connection, rather then trying to solder a wire to the ground pin.
+
+Be careful when reassembling the light as its very easy to push too hard and break off the pin holders on the LED board. I'd suggest using tweezers to push down on the plastic as you push the power board back in after flashing. 
