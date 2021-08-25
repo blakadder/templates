@@ -1,0 +1,15 @@
+---
+date_added: 2021-08-21
+title: WiOn Yard Stake
+model: 50053
+image: /assets/images/wion_50053.jpg
+template9: '{"NAME":"WiOn 50053","GPIO":[0,0,320,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B00ZYLTDX0
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: us
+---
+The outlet strip is put together with screws and this allows for easy disassembly and reassembly.  I loosely followed [this article](http://www.hagensieker.com/blog/page/?post_id=44&title=esp8266-hack-of-inexpensive-wifi-outlet) for pinout guidance, as it is the same logic board

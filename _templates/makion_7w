@@ -1,0 +1,14 @@
+---
+date_added: 2021-08-19
+title: Makion 7W 600lm
+model: 
+image: /assets/images/makion_7w.jpg
+template9: '{"NAME":"Makion Smart LED Bulb","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.ebay.co.uk/p/13035339859
+link2: https://www.amazon.co.uk/dp/B07WCFR9FJ
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: b22
+---
