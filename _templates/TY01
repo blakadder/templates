@@ -23,7 +23,7 @@ Identified with MCU Product ID: `{"p":"3slpirlnlqp0bqo1","v":"1.0.0"}`.
 ![Packaging](/assets/images/TY01_packaging.jpg)
 
 ## Flashing
-To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/install/firmware/unofficial), compiled from current development release. Flash at your own risk.
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/install/tree/main/firmware/unofficial), compiled from current development release. Flash at your own risk.
 
 ### Serial
 Easily disassembled by removing the back plate, unscrewing the screw in the battery holder and prying away the plastic using the bottom slot. 

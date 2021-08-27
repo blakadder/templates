@@ -23,7 +23,7 @@ This is a Tuya/Smart Life battery powered contact (Water Leak) sensor. Runs on t
 
 
 ## Flashing
- There's an [unofficial binary](https://github.com/tasmota/install/firmware/unofficial), compiled from current development release. Flash at your own risk.
+ There's an [unofficial binary](https://github.com/tasmota/install/tree/main/firmware/unofficial), compiled from current development release. Flash at your own risk.
 
 
 ### Serial

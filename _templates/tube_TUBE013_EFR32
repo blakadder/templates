@@ -12,7 +12,7 @@ category: misc
 type: Zigbee Gateway
 standard: global
 ---
-To use this device, you have to compile Tasmota with Ethernet enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/install/firmware/unofficial).
+To use this device, you have to compile Tasmota with Ethernet enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/install/tree/main/firmware/unofficial).
 
 Zigbee coordinator based on ESP32 and EFR32
 
