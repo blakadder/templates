@@ -10,6 +10,7 @@ template32: '{"NAME":"WT32-ETH01","GPIO":[1,1,1,1,1,1,0,0,1,0,1,1,3840,576,5600,
 mlink: http://www.wireless-tag.com/portfolio/wt32-eth01/
 link: https://www.aliexpress.com/item/1005001739885411.html
 ---
+To use this device, you have to compile Tasmota with Ethernet enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/install/firmware/unofficial).
 
 Set in user_config_override.h
 

@@ -25,7 +25,7 @@ Use template
 '{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18}' 
 ```
 
-Scripting is not supported with precompiled binary (at least 8.3) so you have to compile your own fw or download it (tasmota-scripting.bin) from [tasmota/binaries](https://github.com/tasmota/binaries). After that, you will have an option to add a script in Tasmota GUI: Configuration/Edit Script
+Scripting is not supported with precompiled binary (at least 8.3) so you have to compile your own fw or download it (tasmota-scripting.bin) from [tasmota/binaries](https://github.com/tasmota/install/firmware/unofficial). After that, you will have an option to add a script in Tasmota GUI: Configuration/Edit Script
 Below are scripts which do something like switchmode4, switchmode1 and switchmode0. The script for switchmode4 is created by @thxthx0, switchmode1 @caccia78 and @cHunter789, switchmode0 @antonio-fiol
 
 SwitchMode1

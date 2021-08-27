@@ -23,7 +23,7 @@ Identified with MCU Product ID: `{"p":"yaxprtktsfxnndyw","v":"1.0.0"}`.
 ![PCB](/assets/images/W06_box.jpg)
 
 ## Flashing
-To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial tasmota-battery.bin binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk.
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial tasmota-battery.bin binary](https://github.com/tasmota/install/firmware/unofficial), compiled from current development release. Flash at your own risk.
 
 ### Serial
 Easily disassembled by removing the back plate, then prying away the plastic with the battery holder and pcb. 

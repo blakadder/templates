@@ -12,4 +12,6 @@ link: https://www.aliexpress.com/item/4001122992446.html
 link2: https://www.banggood.com/LILYGO-TTGO-T-Internet-POE-ESP32-WROOM-LAN8720A-Chip-Ethernet-Adapter-And-Downloader-Expansion-Board-Programmable-Hardware-p-1722368.html
 ---
 
+To use this device, you have to compile Tasmota with Ethernet enabled. A precompiled binary from development branch is availiable [here](https://github.com/tasmota/install/firmware/unofficial).
+
 For working Ethernet issue `EthClockMode 3` over serial terminal.
