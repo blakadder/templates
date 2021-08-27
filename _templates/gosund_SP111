@@ -8,7 +8,7 @@ mlink: https://www.alibaba.com/product-detail/Wi-Fi-European-Smart-Plug-Remote_1
 link: https://www.aliexpress.com/af/gosund-sp111.html
 image: /assets/images/gosund_SP111.jpg
 template: '{"NAME":"Gosund SP111","GPIO":[56,0,57,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
-link2:
+link2: https://www.alza.de/gosund-smart-plug-sp111-d6253990.htm
 ---
 
 If the template doesn't work see other hardware versions of the same plug:

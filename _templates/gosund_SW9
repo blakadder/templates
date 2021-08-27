@@ -5,7 +5,7 @@ model: SW9
 image: /assets/images/gosund_SW9.jpg
 template9: '{"NAME":"GosundSW9","GPIO":[160,0,0,0,0,161,0,0,225,288,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005002700137552.html
-link2: https://rcpro.pl/product-pol-19421-Inteligentny-przelacznik-swiatla-Gosund-SW9.html
+link2: https://www.alza.de/gosund-smart-switch-sw9-wlan-schalter-d6260025.htm
 mlink: https://www.alibaba.com/product-detail/EU-standard-Alexa-2-gang-wireless_1600236560378.html
 flash: serial
 category: switch

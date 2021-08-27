@@ -6,7 +6,7 @@ image: /assets/images/shelly_plug.jpg
 template9: '{"NAME":"Shelly Plug EU","GPIO":[0,0,0,0,224,2688,0,0,96,288,289,0,290,0],"FLAG":0,"BASE":18}' 
 link: https://shop.shelly.cloud/shelly-plug-wifi-smart-home-automation#71
 link2: https://www.amazon.se/dp/B0835YG5HK/
-link2: https://www.amazon.es/dp/B0835YG5HK/
+link3: https://www.alza.de/shelly-plug-wlan-d5721914.htm
 mlink: https://shelly.cloud/products/shelly-plug-smart-home-automation-device/
 flash: serial
 category: plug

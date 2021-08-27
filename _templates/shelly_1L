@@ -7,6 +7,7 @@ template9: '{"NAME":"Shelly 1L","GPIO":[320,0,0,0,192,224,0,0,0,0,193,0,0,4736],
 link: https://www.amazon.de/dp/B08S91QZDT/
 link2: https://www.domadoo.fr/fr/objets-communicants/5391-shelly-micromodule-commutateur-intelligent-sans-neutre-wi-fi-shelly-1l-3800235262450.html
 link3: https://www.aliexpress.com/item/1005002788735449.html
+link4: https://www.alza.de/shelly-1l-d6438736.htm
 mlink: https://shelly.cloud/knowledge-base/devices/shelly-1l/
 flash: mgos
 category: relay

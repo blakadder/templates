@@ -4,7 +4,6 @@ title: Lerlink 3 Gang
 model: X803A
 image: /assets/images/lerlink_X803A.jpg
 template: '{"NAME":"X803A","GPIO":[0,0,0,18,17,19,0,0,21,52,22,23,0],"FLAG":0,"BASE":18}' 
-template9: '{"NAME":"X803A","GPIO":[0,0,0,33,32,34,0,0,224,259,225,226,288,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000289352430.html
 link2: 
 mlink: https://www.lerlink.com/productinfo/1017154.html

@@ -7,6 +7,7 @@ link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-1-usb-adaptor/23268
 image: /assets/images/mirabella_genio_1002341.jpg
 template: '{"NAME":"Genio 1","GPIO":[0,0,56,0,0,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":1}' 
 mlink: https://mirabellagenio.net.au/smart-adaptor
+unsupported: true
 ---
 This is a simple smart plug with the addition of a USB port. It is ESP8266 based featuring a On/OFF monenatary push button, 2 LEDs and 2 relays to switch the mains output. The USB port  is 'always on' and is not access this from the ESP module.
 Opening up the device is easy. Two 2 screws are removed from the back panel then a small amount of gentle prying removed the cover exposing the components. Two more screws hold the PCB in place.
