@@ -1,0 +1,14 @@
+---
+date_added: 2021-08-26
+title: SimpleHome 2 USB
+model: XWS7-1002-WHT
+image: /assets/images/simplehome_XWS7-1002-WHT.jpg
+template9: '{"NAME":"SimpleHome","GPIO":[289,0,0,0,2656,2624,0,0,224,2688,32,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/dp/B01D30X0ZU
+link2: 
+mlink: http://gosimplehome.com/product/smart-plug-w-energy-monitor/
+flash: serial
+category: plug
+type: Plug
+standard: us
+---

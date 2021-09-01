@@ -13,3 +13,9 @@ category: relay
 type: Switch Module
 standard: global
 ---
+
+1. Open the enclosure and remove the PCB.  The esp8266 in on a daughter board.  
+2. Unsolder the daughter board by removing the solder from both sides of the edge connector
+3. On the daughter border, solder wires on the  VCC, RXD and IO0 pads on the top side of the edge connector and on GND and TXD pads on the bottom side of the edge connector.
+4. Insert the wires on the appropriate positions on a usb to serial converter.  I use a CH340 USB to serial adapter modified with a push button connected to the GND and flash pins.
+5. When ready, press the flash button before inserting into USB port for flashing.
