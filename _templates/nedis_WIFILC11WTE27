@@ -5,8 +5,8 @@ model: WIFILC11WTE27
 image: /assets/images/nedis_WIFILC11WTE27.jpg
 template: '{"NAME":"nedis Bulb","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://nedis.co.uk/en-gb/product/smart-living/smart-home/lighting/550714423/wifi-smart-led-bulb-full-colour-and-warm-white-e27
-link2: 
 link: https://www.amazon.de/dp/B07VJG8BS4/
+link2: https://www.alza.de/nedis-wlan-smart-led-lampe-e27-wifilc11wte27-d6242871.htm
 flash: tuya-convert
 category: bulb
 type: RGBW

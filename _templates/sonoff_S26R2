@@ -1,0 +1,30 @@
+---
+date_added: 2021-08-08
+title: Sonoff
+model: S26R2
+category: plug
+type: Plug
+standard:
+  - eu
+  - us
+  - uk
+  - au
+  - fr
+  - br
+  - ch
+  - il
+  - it
+image: /assets/images/sonoff_S26.jpg
+template: '{"NAME":"Sonoff S26R2","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8}' 
+link: https://itead.cc/product/sonoff-s26-wifi-smart-plug/
+link2: https://www.aliexpress.com/af/s26R2.html
+link3: https://www.alibaba.com/product-detail/Sonoff-S26R2-Plug-WiFi-Switch-For_1600304895274.html
+link4: https://www.domadoo.fr/fr/peripheriques/5856-sonoff-prise-intelligente-wifi-10a-version-fr.html
+mlink: https://sonoff.tech/product/wifi-smart-plugs/s26
+---
+
+This upgraded version is recognized by the "Max..." text printed on the front (Text differs depending on the type of plug).
+
+![](/assets/images/sonoff_S26R2_label.jpg)
+
+![](/assets/images/sonoff_S26R2_models.jpg)

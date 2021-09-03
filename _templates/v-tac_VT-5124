@@ -1,0 +1,14 @@
+---
+date_added: 2021-08-09
+title: V-TAC G45 4.5W 300lm
+model: VT-5124
+image: /assets/images/v-tac_VT-5124.jpg
+template9: '{"NAME":"V-TAC VT-5124","GPIO":[0,0,0,0,0,0,0,0,4065,0,4032,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07WVRFDD2/
+link2: 
+mlink: https://www.v-tac.eu/products/smart-home/led-bulbs/led-bulb-4-5w-e27-g45-smart-rgb-white-warm-white-detail.html
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---

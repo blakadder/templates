@@ -1,13 +1,14 @@
 ---
 date_added: 2019-09-20
-title: Moes MS-104B-1
+title: Moes 
+model: MS-104B
 category: relay
 type: Switch Module
 standard: global
 link: https://www.banggood.com/MoesHouse-DIY-WiFi-Smart-2-Way-2-Gang-Light-LED-Dimmer-Module-Smart-Switch-Smart-LifeTuya-APP-Remote-Control-Work-with-Alexa-Google-Home-p-1591703.html
 image: https://user-images.githubusercontent.com/39533759/65378668-22f5b080-dcbc-11e9-9401-8d906b204914.jpg
 template: '{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,10,9,21,22,0],"FLAG":0,"BASE":18}'
-link2: 
+link2: https://www.alza.de/moes-hidden-wifi-smart-switch-2-gang-d6294781.htm
 mlink: https://www.moeshouse.com/products/wifi-smart-light-switch-diy-breaker-module-smart-life-tuya-app-remote-control-working-with-alexa-echo-google-home-2-gang-2-way-3
 ---
 **Some devices labelled [Moes MS-104](unsupported/moes-MS-104) are using a wi-fi chip unsupported by Tasmota.**
@@ -25,7 +26,7 @@ Use template
 '{"NAME":"Moes MS-104B","GPIO":[0,0,17,0,160,0,0,0,43,42,21,22,0],"FLAG":0,"BASE":18}' 
 ```
 
-Scripting is not supported with precompiled binary (at least 8.3) so you have to compile your own fw or download it (tasmota-scripting.bin) from [tasmota/binaries](https://github.com/tasmota/binaries). After that, you will have an option to add a script in Tasmota GUI: Configuration/Edit Script
+Scripting is not supported with precompiled binary (at least 8.3) so you have to compile your own fw or download it (tasmota-scripting.bin) from [tasmota/binaries](https://github.com/tasmota/install/tree/main/firmware/unofficial). After that, you will have an option to add a script in Tasmota GUI: Configuration/Edit Script
 Below are scripts which do something like switchmode4, switchmode1 and switchmode0. The script for switchmode4 is created by @thxthx0, switchmode1 @caccia78 and @cHunter789, switchmode0 @antonio-fiol
 
 SwitchMode1

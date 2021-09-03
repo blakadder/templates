@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 link: https://www.aliexpress.com/item/32896267121.html
 image: /assets/images/sesoo_WIFI-EU-SK3-01.jpg
-template: '{"NAME":"Sensoo SK3-01","GPIO":[255,255,57,255,255,17,0,0,255,255,255,21,52],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"Sensoo SK3-01","GPIO":[0,0,57,0,0,17,0,0,0,0,0,21,52],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 

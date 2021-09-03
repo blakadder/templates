@@ -1,0 +1,14 @@
+---
+date_added: 2021-08-23
+title: Smart 15A
+model: JH-G09U
+image: /assets/images/JH-G09U.jpg
+template9: '{"NAME":"JH-G09U","GPIO":[0,0,0,0,224,32,0,0,288,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/gp/product/B08L5ZVZXP/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

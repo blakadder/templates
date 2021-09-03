@@ -5,8 +5,8 @@ model: SL3
 image: /assets/images/gosund_SL3.jpg
 template9: '{"NAME":"Gosund SL3","GPIO":[0,0,32,0,417,0,0,0,416,418,4768,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B08LGVBY22
-link2: https://www.alibaba.com/product-detail/Drop-Shipping-Living-room-decoration-Remote_1600244585479.html
-mlink: 
+link2: https://www.alza.de/nitebird-smart-led-streifen-sl3-v2-d6370967.htm
+mlink: https://www.alibaba.com/product-detail/Drop-Shipping-Living-room-decoration-Remote_1600244585479.html
 flash: serial
 category: light
 type: LED Strip

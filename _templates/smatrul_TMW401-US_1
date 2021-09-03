@@ -1,0 +1,25 @@
+---
+date_added: 2021-08-18
+title: Smatrul 1 Gang RF No Neutral
+model: TMW401-US 1
+image: /assets/images/smatrul_TMW401-US_1.jpg
+template9: '{"NAME":"SMATRUL 1 GANG","GPIO":[0,544,0,0,0,32,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001392163307.html
+link2: https://www.banggood.com/SMATRUL-Tuya-433mhz-Smart-Wifi-Touch-Switch-Light-US-No-Neutral-Wire-Required-Remote-Timing-Control-On-Of-for-Alexa-Google-Home-p-1843258.html
+mlink: https://www.alibaba.com/product-detail/SMATRUL-1-Gang-Tuya-WIFI-433MHZ_1600181687626.html
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+For serial flashing, open the case and connect serial-USB adapter on the PCB in the top right corner to the connectors. The PIN-out (from left to right) is:
+
+- VCC
+- RX
+- TX
+- GPIO0
+- GPIO15
+- GND
+
+In terms of the flashing procedure, refer to this instruction:
+https://templates.blakadder.com/DS-121_2.html

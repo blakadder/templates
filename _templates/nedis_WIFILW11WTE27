@@ -5,7 +5,7 @@ model: WIFILW11WTE27
 image: /assets/images/nedis_WIFILW11WTE27.jpg
 template: '{"NAME":"WIFILW11WTE27","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://nedis.com/en-us/product/smart-living/smart-home/lighting/550697029/wifi-smart-led-bulb-warm-white-e27
-link2: 
+link2: https://www.alza.de/nedis-wlan-smart-led-lampe-e27-wifilw11wte27-d6242872.htm
 mlink: https://nedis.com/en-us/product/smart-living/smart-home/lighting/550697029/wifi-smart-led-bulb-warm-white-e27
 flash: tuya-convert
 category: bulb

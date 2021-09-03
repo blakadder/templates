@@ -1,0 +1,14 @@
+---
+date_added: 2021-08-18
+title: Milfra 
+model: KS-602H
+image: /assets/images/milfra_KS-602H.jpg
+template9: '{"NAME":"Milfra KS-602H","GPIO":[32,0,0,0,0,0,0,0,224,288,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://amazon.com/dp/B08GHPCDWQ
+link2: https://www.aliexpress.com/item/1005001481861880.html
+mlink: https://www.milfra.com/
+flash: serial
+category: switch
+type: Switch
+standard: us
+---

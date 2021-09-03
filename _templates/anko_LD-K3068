@@ -22,15 +22,26 @@ Also of note: The flash worked perfectly, but I couldn't power the chip from my 
 ![Pins for flashing](/assets/images/LD-K3068-flash.jpg)
 
 ## MCU Functions
-My use of this kettle is pretty straightforward, so I haven't explored the 'keep warm' settings.  They do look fully exposed, so it will just take some more experimentation.  I'll try to get back to this.
 
-`dpid1` is the relay.  You can toggle it, but it will only heat to the temperature set.
-`dpid2` reports current temperature in Celcius.
-`dpid4` sets the target boil temperature.  ``fnid 0`` = 80, `1` = 85, `2` = 90, `3` = 95, `4` = 100.
-`dpid15` seems to report current status.  `1` is boiling, and `3` is maintaining temperature.
+- `dpid1` Power relay - When toggled it heat to the temperature set.
+- `dpid2` Reports current temperature in Celcius and kettle off stand when 0.
+- `dpid4` Sets the target boil temperature: `0` = 80, `1` = 85, `2` = 90, `3` = 95, `4` = 100.
+- `dpid13` Sets the 'keep warm' fuction
+- `dpid15` Reports current status. `0` = Stand-by, `1` = Heating, `2` = Sleep, `3` = Keep Warm
 
-## Home Assistant Integration
-The [ProfiCook](https://templates.blakadder.com/proficook_PC-WKS_1167.html) profile has some great Home Assistant automation guidance.  To get you started, `SetOption66 1` and `SetOption19 1`, then the temperature can be reported via:
+Configure Tasmota's DpIds with the correct FnIds:
+{% highlight yaml %}
+{% raw %}
+Backlog TuyaMCU 11,1; TuyaMCU 71,2; TuyaMCU 63,4; TuyaMCU 12,13; TuyaMCU 61,15;
+{% endraw %}
+{% endhighlight %}
+
+## Home Assistant Integration - Option 1
+The [ProfiCook](https://templates.blakadder.com/proficook_PC-WKS_1167.html) profile has some great Home Assistant automation guidance.
+To get you started,
+`TempRes 0` Set Temperature sensor resolution to 0 decimal places, `SetOption19 1` Set Home Assistant discovery protocol to use MQTT discovery and `SetOption66 1` Set to enable publishing TuyaReceived over MQTT
+
+The temperature can then be reported via:
 
 {% highlight yaml %}
 {% raw %}
@@ -69,4 +80,105 @@ switch:
     retain: false
     icon: mdi:kettle
 {% endraw %}
+{% endhighlight %}
+
+
+## Home Assistant Integration - Option 2 (using less verbose MQTT)
+Another method is to utilise the use of Tasmota rules so that tasmota reports the kettle status correctly rather than leaving it to Home Assistant to decode TuyaReceived MQTT Payloads.
+This will keep your configuration.yaml much tidier!
+Conditional rules are not included in the default Tasmota build, so flash your tasmota with <https://github.com/tasmota/binaries/raw/master/tasmota-fullrules.bin.gz>.
+
+Configure your tasmota with the settings:
+`TempRes 0` Set Temperature sensor resolution to 0 decimal places, `SetOption19 1` Set Home Assistant discovery protocol to use MQTT discovery and `SetOption66 0` Set to disable publishing TuyaReceived over MQTT
+
+{% highlight yaml %}
+{% raw %}
+Rule1 
+	on TuyaReceived#Data=55AA03070005040400010017 DO Publish stat/%topic%/PRESET 80 endon 
+	on TuyaReceived#Data=55AA03070005040400010118 DO Publish stat/%topic%/PRESET 85 endon 
+	on TuyaReceived#Data=55AA03070005040400010219 DO Publish stat/%topic%/PRESET 90 endon
+	on TuyaReceived#Data=55AA0307000504040001031A DO Publish stat/%topic%/PRESET 95 endon
+	on TuyaReceived#Data=55AA0307000504040001041B DO Publish stat/%topic%/PRESET 100 endon
+rule1 1
+
+Rule2 
+	on TuyaReceived#Data=55AA030700050F0400010022 DO Publish stat/%topic%/MODE Stand By endon 
+	on TuyaReceived#Data=55AA030700050F0400010123 DO Publish stat/%topic%/MODE Heating endon 
+	on TuyaReceived#Data=55AA030700050F0400010224 DO Publish stat/%topic%/MODE Sleep endon
+	on TuyaReceived#Data=55AA030700050F0400010325 DO Publish stat/%topic%/MODE Keep Warm endon
+rule2 1
+
+rule3
+	ON var1#state DO if (var1>79) scale2 %var1%,80,100,0,4; ENDIF ENDON
+	on var2#state do tuyasend1 4,%var2% endon
+rule3 1
+{% endraw %}
+{% endhighlight %}
+
+The above rules will report the current temperature, preset and mode in easy to read MQTT payloads.
+
+Create the following sensors and switches in your configuration.yaml
+
+{% highlight yaml %}
+{% raw %}
+sensor:
+  - platform: mqtt
+    name: "Kettle Temperature"
+    state_topic: "tele/kettle/SENSOR"
+    value_template: "{{ value_json.TuyaSNS.Temperature if value_json.TuyaSNS.Temperature is defined else states('sensor.temperature') }}"
+    unit_of_measurement: "°C"
+    availability_topic: "tele/kettle/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    device_class: temperature
+    
+  - platform: mqtt
+    name: "Kettle Preset"
+    state_topic: "stat/kettle/PRESET"
+    unit_of_measurement: '°C'
+    availability_topic: "tele/kettle/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    device_class: temperature
+    
+  - platform: mqtt
+    name: "Kettle Mode"
+    state_topic: "stat/kettle/MODE"
+    availability_topic: "tele/kettle/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+{% endraw %}
+{% endhighlight %}
+
+{% highlight yaml %}
+{% raw %}
+switch:
+  - platform: mqtt
+    name: "Kettle Power"
+    state_topic: "stat/kettle/POWER1"
+    command_topic: "cmnd/kettle/POWER1"
+    payload_on: "ON"
+    payload_off: "OFF"
+    
+  - platform: mqtt
+    name: "Kettle Keep Warm"
+    state_topic: "stat/kettle/POWER2"
+    command_topic: "cmnd/kettle/POWER2"
+    payload_on: "ON"
+    payload_off: "OFF"
+{% endraw %}
+{% endhighlight %}
+
+To set the pre-set temperature to the kettle, create a Home Assistant Helper with enity name of `input_number.kettle_temperature`.
+Set the options to minimum of 80, maximum to 100, slider of increments of 5. 
+
+Create a Home Assistant Automation to action the folling on the state of the enity, `input_number.kettle_temperature`.
+
+{% highlight yaml %}
+{% raw %}
+service: mqtt.publish
+data:
+  topic: cmnd/kettle/var1
+  payload: '{{ states(''input_number.kettle_temperature'') }}'
+  {% endraw %}
 {% endhighlight %}

@@ -1,0 +1,16 @@
+---
+date_added: 2021-08-12
+title: Treatlife Dimmable
+model: DP20
+category: plug
+type: Plug
+standard: us
+template9: '{"NAME":"DP20","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 21,2 | SO20 1 | SO54 1"}' 
+image: /assets/images/treatlife_DP20.jpg
+link: https://www.amazon.com/gp/product/B08LPYXK6L
+link2: 
+link3: https://www.treatlife.tech/collections/new-arrival/products/treatlife-dimmable-smart-plug-for-lamps-works-with-alexa-google-assistant-and-smartthings-sunrise-simulation
+flash: module replacement
+---
+
+[Module replacement and configuration instructions](https://imgur.com/a/EPMrvOM)

@@ -1,11 +1,11 @@
 ---
 date_added: 2020-04-18
 title: Gosund P1
-model: 
+model: P1
 image: /assets/images/gosund_P1.jpg
 template: '{"NAME":"Gosund_P1","GPIO":[0,145,157,146,0,32,0,0,22,23,21,0,17],"FLAG":1,"BASE":18}' 
-link: https://www.amazon.de/-/en/gp/product/B085XXCPRD/
-link2: 
+link: https://www.amazon.de/gp/product/B085XXCPRD/
+link2: https://www.alza.de/gosund-smart-power-strip-p1-d6253993.htm
 mlink: https://www.alibaba.com/product-detail/Tuya-APP-Remote-Control-16A-EU_1600198641325.html
 flash: tuya-convert
 category: plug

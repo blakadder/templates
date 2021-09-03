@@ -1,0 +1,18 @@
+---
+date_added: 2021-08-13
+title: ZiGate-Ethernet 
+model: 
+image: /assets/images/ZiGate-Ethernet.jpg
+template32: '{"NAME": "ZIGATE-ETH", "GPIO": [1,1,1,1,1,1,0,0,1,0,1,1,3840,576,5600,0,0, 0,0,5568,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1], "FLAG": 0, "BASE": 18, "CMND": "EthClockMode 3 | EthAddress 1"}' 
+link: 
+mlink: https://zigate.fr/produit/zigate-ethernet/
+flash: serial
+category: diy
+type: Development Board
+standard: global
+---
+To use this device, you have to compile Tasmota with Ethernet enabled. A precompiled binary from development branch is available [here](https://github.com/tasmota/install/tree/main/firmware/unofficial).
+
+## Serial Flashing
+
+[Instructions on ZiGate documentation](https://zigate.fr/documentation/installation-de-tasmota-pour-la-zigate-ethernet/)

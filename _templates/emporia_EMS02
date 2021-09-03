@@ -1,0 +1,17 @@
+---
+date_added: 2021-08-13
+title: Emporia 15A
+model: EMS02
+image: /assets/images/emporia_EMS02.jpg
+template9: '{"NAME":"Emporia EMS02","GPIO":[320,0,321,0,224,2720,0,0,2624,32,2656,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B08CVSSVWP
+link2: 
+mlink: https://www.emporiaenergy.com/emporia-smart-plug
+flash: serial
+category: plug
+type: Plug
+standard: us
+---
+This smart plug is nearly identical to the [Aoycocr X10S](aoycocr_X10S). See that device's page for instructions on serial flashing (they are the same). 
+
+**NOTE:** The RX and TX pads on the PCB are mislabeled, so you will want to plug RX into RX and TX to TX on your serial interface.

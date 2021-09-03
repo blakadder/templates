@@ -1,0 +1,15 @@
+---
+date_added: 2021-08-31
+title: ESP-12F 5V/7-28V 1 Channel 30A
+model: ESP12F_Relay_30A X1
+image: /assets/images/ESP12F_Relay_30A_X1.jpg
+template: '{"NAME":"Aideepen","GPIO":[0,0,0,0,0,52,0,0,0,0,0,0,21],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005002906401951.html
+link2: https://www.aliexpress.com/item/1005002870933639.html
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+Solder the 6-way and 7-way header pins in place and link the RY1 to IO16 pins on the 7-way, use the 6-way for programming.

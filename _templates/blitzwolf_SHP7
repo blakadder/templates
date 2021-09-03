@@ -1,16 +1,32 @@
 ---
-date_added: 2019-10-31
-title: BlitzWolf BW-SHP7
+date_added: 2021-08-09
+title: BlitzWolf 16A Dual
+model: BW-SHP7
 category: plug
 type: Plug
 standard: eu
+template: '{"NAME":"SHP7 v2","GPIO":[18,158,56,131,134,132,0,0,17,57,21,0,22],"FLAG":0,"BASE":45}' 
+image: /assets/images/blitzwolf_SHP7.jpg
 link: https://www.banggood.com/BlitzWolf-BW-SHP7-16A-2-IN-1-Dual-EU-Plug-Smart-WIFI-Socket-Independent-Remote-Controller-Electricity-Statistics-Home-Light-Switch-Timer-p-1553614.html
-image: https://www.blitzwolf.com/bg_os/other/upload_temp/products/original/201908/1566443922_26.jpg
-template: '{"NAME":"SHP7","GPIO":[17,158,57,131,134,132,0,0,18,56,21,0,22],"FLAG":0,"BASE":45}' 
 link2: https://www.aliexpress.com/item/4000210681347.html
 mlink: https://www.blitzwolf.com/3680W-EU-Dual-WiFi-Smart-Socket-p-380.html
 ---
 
-Alternative template (assignments according to factory firmware):
+## Serial Flashing
 
-template: '{"NAME":"SHP7 v2","GPIO":[18,158,56,131,134,132,0,0,17,57,21,0,22],"FLAG":0,"BASE":45}' 
+1. Remove the two stickers on the front.
+2. Undo 2 screws. **PH1** screwdriver required.
+  ![Two PH1 screws](assets/images/bw-shp7-front.jpg)
+3. Remove back with screwdriver
+  ![Remove back](assets/images/bw-shp7-back.jpg)
+4. Undo 2 screws at the back. **PH1** screwdriver required.
+  ![Two PH1 screws](assets/images/bw-shp7-back-screws.jpg)
+5. Remove PCB from casing for easier soldering.
+6. Solder cables to the ESP pins.
+  ![Solder points 1](assets/images/bw-shp7-pins1.jpg ":size=400")
+  Because GND is hard to solder/access, I recommend to use the other side for GND:    
+  ![Solder points 2](assets/images/bw-shp7-pins2.jpg ":size=400")
+  Result:    
+  ![Soldered cables](assets/images/bw-shp7-soldered.jpg ":size=400")
+7. Connect serial adapter and make a shortwire between Pin IO0 and GND during startup (for entering flash mode).
+8. Flash!

@@ -19,7 +19,7 @@ Warning: Wi-Fi sensors still have a slow response time compared to always on wir
 Identified with MCU Product ID: `{"p":"105awlczxldrrpfc","v":"1.0.0"}`
 
 ## Flashing
-To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/binaries), compiled from current development release. Flash at your own risk. Tuya-Convert was not possible due to new PSK used.
+To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/install/tree/main/firmware/unofficial), compiled from current development release. Flash at your own risk. Tuya-Convert was not possible due to new PSK used.
 
 Flash using the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) pins but make sure the battery is disconnected and the power button is in the off position. After flashing you need to disconnect power from the serial-to-USB adapter and reconnect the battery and power the sensor with it.
 

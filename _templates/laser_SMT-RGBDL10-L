@@ -1,0 +1,14 @@
+---
+date_added: 2021-08-25
+title: Laser 5W 430lm
+model: SMT-RGBDL10-L
+image: /assets/images/laser_SMT-RGBDL10-L.jpg
+template9: '{"NAME":"LaserSmartHomeGU10","GPIO":[0,0,0,0,0,0,0,0,0,3008,0,3040,0,0],"FLAG":0,"BASE":27}' 
+link: https://www.pbtech.co.nz/product/BULLAS81072/Laser-Smart-Home-Wifi-LED-Downlight---5W---RGB-UP
+link2: 
+mlink: https://www.laserco.com.au/SMT-RGBDL10-L-laser-smart-rgb-downlight-gu10-1343435881
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: gu10
+---

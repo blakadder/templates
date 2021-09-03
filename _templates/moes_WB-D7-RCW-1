@@ -7,7 +7,7 @@ template: '{"NAME":"Moes Downlight","GPIO":[0,0,0,0,40,41,0,0,37,38,39,0,0],"FLA
 link: https://www.aliexpress.com/item/4000296147883.html
 link2: 
 mlink: https://www.moeshouse.com/products/wifi-smart-led-downlight-dimming-round-spot-light-7w-rgb-color-changing-2700k-6500k-warm-cool-light-work-with-alexa-google-home
-flash: tuya-convert
+unsupported: true
 category: light
 type: Downlight
 standard: global
