@@ -83,7 +83,7 @@ layout: default
 </div>
 {% if page.template32 != nil %}
 <div class="row">
-  <div class="column"><strong>Template for ESP32 device</strong></div>
+  <div class="column"><strong>Template for ESP32</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
 <div class="row">
@@ -91,9 +91,19 @@ layout: default
     <pre><code class="language-json" style="white-space: nowrap">{{ page.template32 }}</code></pre>
 </div>
 </div>
+{% elsif page.templatec3 != nil %}
+<div class="row">
+  <div class="column"><strong>Template for ESP32-C3</strong></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+</div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.templatec3 }}</code></pre>
+</div>
+</div>
 {% elsif page.template9 != nil %}
 <div class="row">
-  <div class="column"><strong>Template for Tasmota v9.1+</strong></div>
+  <div class="column"><strong>Template (v9.1+)</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
 <div class="row">
@@ -133,7 +143,11 @@ layout: default
   {% endif %}
 
   {% if page.template32 != nil %}
-  Works only with a tasmota32 binary. <a href="https://tasmota.github.io/docs/ESP32/">Flashing instructions</a>.<p>
+  Works only with tasmota32 binary. <a href="https://tasmota.github.io/docs/ESP32/">Flashing instructions</a>.<p>
+  {% endif %}
+
+  {% if page.templatec3 != nil %}
+  Requires a separate ESP32-C3 tasmota32 binary. Download unofficial development build for <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3.bin">4Mb flash</a> or <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3_2M.bin"></a>2Mb flash</a>.<p>
   {% endif %}
 
   {% if page.author == 'blak' %}
