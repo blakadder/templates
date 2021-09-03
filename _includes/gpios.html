@@ -496,12 +496,7 @@
               {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
               {% for gpio in gpios %}
             <tr>
-                <td>{% if forloop.index == 12 %}GPIO18
-                    {% elsif forloop.index == 13 %}GPIO19
-                    {% elsif forloop.index == 14 %}GPIO20
-                    {% elsif forloop.index == 15 %}GPIO21
-                    {% else %}{{ forloop.index0 | prepend: 'GPIO0' }} 
-                    {% endif %}
+                <td>{{ forloop.index0 | prepend: 'GPIO0' }}
                 </td>
                 <td>
                     {% case gpio %}          
