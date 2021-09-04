@@ -45,12 +45,14 @@ title: Tasmota Device Templates Repository
     {% assign standard_group = category | map: 'standard' | join: ',' | split: ',' | uniq | sort_natural %}
     {% for std in standard_group %}
     <a class="button button-small button-grey" href="{{ std }}.html">{{ std | upcase }}</a>
+    {% else %}
     {% endfor %}
     <BR>Light Bulbs by base:<BR>
     {% assign category = site.templates | where: "category", "bulb" %}
     {% assign standard_group = category | map: 'standard' | join: ',' | split: ',' | uniq | sort_natural %}
     {% for std in standard_group %}
     <a class="button button-small button-grey" href="{{ std }}.html">{{ std | upcase }}</a>
+    {% else %}
     {% endfor %}
     <br>
     <span style="font-size:0.6em;">See <a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">world map of plugs</a> and <a href="https://www.bulbs.com/learning/basechart.aspx" target="_blank">light bulb base list</a> for more information.</span>
