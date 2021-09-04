@@ -24,7 +24,7 @@ toc:
     url: sensors.html
   - name: Appliances
     url: misc.html
-  - name: Development Boards
+  - name: Development Boards and Modules
     url: diy.html
   - name: ESP32 Based Devices
     url: esp32.html

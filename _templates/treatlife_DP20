@@ -10,7 +10,8 @@ image: /assets/images/treatlife_DP20.jpg
 link: https://www.amazon.com/gp/product/B08LPYXK6L
 link2: 
 link3: https://www.treatlife.tech/collections/new-arrival/products/treatlife-dimmable-smart-plug-for-lamps-works-with-alexa-google-assistant-and-smartthings-sunrise-simulation
-flash: module replacement
+flash: replace
+chip: WB3S
 ---
 
 [Module replacement and configuration instructions](https://imgur.com/a/EPMrvOM)

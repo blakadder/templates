@@ -491,7 +491,7 @@
 </table>
 {% else %}
 
-    <table style="font-size: 1.25rem; width: 170px; height: 400px; display: block; overflow-y: auto;">
+    <table style="font-size: 1.25rem; width: 170px; height: 375px; display: block; overflow-y: auto;">
         <tr><th>GPIO #</th><th>Component</th></tr>
         {% if page.template9 != nil %}
         {% assign template = page.template9 | split: ':' %}
@@ -895,7 +895,9 @@
                 {% when "3168" %}
                 ALux IrSel  
                 {% when "3328" %}
-                ADC Joystick
+                ADC Joystick 1
+                {% when "3329" %}
+                ADC Joystick 2
                 {% when "3488" %}
                 SolaxX1 Tx  
                 {% when "3520" %}
@@ -999,7 +1001,13 @@
                 {% when "4832" %}
                 ADC Buttoni
                 {% when "4864" %}
-                Range
+                ADC Range 1
+                {% when "4865" %}
+                ADC Range 2
+                {% when "4866" %}
+                ADC Range 3
+                {% when "4867" %}
+                ADC Range 4
                 {% when "4896" %}
                 ADC CT Power
                 {% when "4928" %}

@@ -1,0 +1,21 @@
+---
+date_added: 2021-09-06
+title: ESP-01N V1.0
+model: WT-01N
+template9: '{"NAME":"WT-01N","GPIO":[1,1,1,1,1,1,0,0,1,1,1,0,0,1],"FLAG":0,"BASE":18}'
+image: /assets/images/WT-01N.jpg
+link: https://www.alibaba.com/product-detail/wholesale-original-factory-esp8285-wifi-module_1600318895032.html
+link2: https://www.lcsc.com/product-detail/WiFi-Modules_Wireless-tag-WT-01N_C477823.html
+link3: 
+link4: 
+mlink: http://www.wireless-tag.com/portfolio/wt-01n/
+flash: serial
+category: diy
+type: Module
+standard: global
+---
+This module is pin compatible with TYWE2S, WR2, WR2E, WB2S
+
+![Pinout](/assets/images/WT-01N_pinout.jpg)
+
+[Datasheet](http://www.wireless-tag.com/wp-content/uploads/2020/12/WT-01N-DataSheet-with-esp8285-chip.pdf)

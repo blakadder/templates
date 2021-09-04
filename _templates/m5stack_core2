@@ -12,40 +12,11 @@ link: https://www.banggood.com/M5Stack-Core2-ESP32-with-Touch-Screen-Development
 link2: https://www.aliexpress.com/item/1005001664431732.html
 link3: https://www.amazon.com/dp/B08Q7RDC5R
 ---
-Use [tasmota32-core2.bin](http://ota.tasmota.com/tasmota32/tasmota32-core2.bin) binary!
-
-## Compiling
-Use latest Tasmota development release and set in user_config_override.h
-
-```arduino
-#define USE_M5STACK_CORE2  
-#define USE_SCRIPT_FATFS 4  
-#define FAT_SCRIPT_SIZE 8192  
-#define USE_SCRIPT  
-#define USE_I2C  
-#define USE_BMA423  
-#define SAY_TIME  
-#define USE_WEBRADIO  
-#define USE_DISPLAY  
-#define USE_SPI  
-
-#define USE_DISPLAY_ILI9342  
-#define USE_TOUCH_BUTTONS  
-#define MAXBUTTONS 16
-#define JPEG_PICTS  
-#define USE_FT5206  
-#define USE_MPU6886  
-```
-add this in platformio.ini to `build_flags`:
- 
-```arduino
--DBOARD_HAS_PSRAM
--mfix-esp32-psram-cache-issue
-```
+Requires [tasmota32-core2.bin](http://ota.tasmota.com/tasmota32/tasmota32-core2.bin) firmware.
 
 Fully supported with all sensors and SD card.
 
-Special commands
+## Device Specific Commands
 
-`core2shutdown <seconds>` - shut down hardware and wake up after N seconds (>=30)
-`core2shutdown <HH:MM>` - shut down hardware and wake up on HH:MM time
+* `core2shutdown <seconds>` - shut down hardware and wake up after N seconds (>=30)    
+* `core2shutdown <HH:MM>` - shut down hardware and wake up on HH:MM time

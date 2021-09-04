@@ -7,7 +7,7 @@ image: /assets/images/liectroux_C30B.jpg
 link: https://s.click.aliexpress.com/e/_A5nBhg
 link2: https://www.amazon.com/LIECTROUX-Robotic-Cleaner-Navigation-Electric/dp/B07MGJKTZ1
 link3: https://www.gearbest.com/vacuum-cleaners/pp_3003276593845595.html
-flash: module replacement
+flash: replace
 category: other
 type: Miscellaneous
 ---

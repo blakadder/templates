@@ -3,34 +3,32 @@ date_added: 2021-01-12
 title: Yeelight Crystal Pendant
 model: YLDL01YL 
 image: /assets/images/yeelight_YLDL01YL.jpg
-template32: '{"NAME":"Yeelight Meteorite","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,420,0,419,0,0,0,0,417,418,0,0,0,0,0,416,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Yeelight Meteorite","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,420,0,419,0,0,0,0,417,418,0,0,0,0,0,416,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"`SO37 128 | SO92 1"}' 
 link: https://www.banggood.com/YEELIGHT-LED-Smart-Meteorite-Chandelier-Pendant-Light-For-Restaurant-Dinner-Room-p-1416328.html
 link2: https://www.aliexpress.com/item/1005002192409971.html
 link3: https://www.gearbest.com/pendant-light/pp_009792951215.html
 mlink: https://www.yeelight.com/en_US/product/nox-dl
 flash: serial
+chip: solo1
 category: light
 type: Light
 standard: global
 ---
-Requires [tasmota32solo1.bin](http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin) because it is using the single core version of ESP32
+Applying the template will add two SetOptions to allow both PWM lights to be controlled: `SetOption37 128` and `SetOption92 1`
 
-- Once flashed, you need to add two settings to allow both PWM lights to be controlled:
-    - `SetOption37 128`
-    - `SetOption92 1`
+White Light and RGB can be [split](https://tasmota.github.io/docs/Lights/#rgb-and-white-split) for better control.
 
-White Light and RGB can be [split](https://tasmota.github.io/docs/Lights/#rgb-and-white-split)
+Notice: there is some variant that changed RED channel from GPIO33 to GPIO22. If yours is always RED, then change manually PWM1 from GPIO33 to GPIO22
 
 - GPIO33 - red - PWM1
 - GPIO26 - green - PWM2
 - GPIO27 - blue - PWM3
 - GPIO21 - cold white - PWM4
 - GPIO19 - warm white - PWM5
-- GPIO23 - NL
-- GPIO22 - ON/OFF
-- NL and ON/OFF pin function unknown.
+- GPIO23 - Night Light (not defined in template)
+- GPIO22 - ON/OFF (function unknown)
 
+## Flashing
+![Pinout](/assets/images/yeelight_YLDL01YL_pinout.jpg)
 
 [Several pictures including GPIO](https://photos.app.goo.gl/T3F4aaXuYgvFXRmi7)
-
-Notice: there is some variant that changed RED channel from GPIO33 to GPIO22. If yours is always RED, then change manualy PWM1 from GPIO33 to GPIO22

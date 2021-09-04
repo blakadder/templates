@@ -10,10 +10,9 @@ link3: https://www.geekbuying.com/item/Xiaomi-Mi-Smart-Led-Desk-Lamp-Pro-Multi-J
 link4: https://www.amazon.com.au/dp/B08H5JN5BM/
 mlink: 
 flash: serial
+chip: solo1
 category: light
 type: Light
-standard: eu, au
+standard: [eu, au]
 ---
-Requires [tasmota32solo1.bin](http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin) because it is using the single core version of ESP32
-
-[Wiring](/assets/images/xiaomi_MJTD02YL)
+![Wiring](/assets/images/xiaomi_MJTD02YL_wiring.jpg)

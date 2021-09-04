@@ -35,3 +35,5 @@ You can do it without any soldering. Just apply pressure to make good contact be
 For normal operation connect EN to VCC (pull high) to enable the C3 chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.
 
 ESP32's are power hungry on boot and the usb to serial adapter might not be able to provide enough power for that. Use a stable 3V3 power supply that can supply more than 400 mA 
+
+[Datasheet](/assets/WT32C3-S6_Datasheet_V1_0_1.pdf)
