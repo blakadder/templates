@@ -6,11 +6,11 @@ image: /assets/images/gosund_SW9.jpg
 template9: '{"NAME":"GosundSW9","GPIO":[160,0,0,0,0,161,0,0,225,288,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005002700137552.html
 link2: https://www.alza.de/gosund-smart-switch-sw9-wlan-schalter-d6260025.htm
+link3: https://www.banggood.com/Gosund-Smart-Light-Switch-WIFI-Wall-Switch-EU-TYPE-Voice-Control-2-Gang-10A-230V-2_4Ghz-WIFI-Remote-Control-Smart-Switch-Works-With-Alexa-And-Google-Home-p-1890856.html
 mlink: https://www.alibaba.com/product-detail/EU-standard-Alexa-2-gang-wireless_1600236560378.html
 flash: serial
 category: switch
 type: Switch
 standard: eu
 ---
-
-Standard tuya based double smart switch. Serial pins on board, standard flashing.
+Serial pins on board, standard flashing.

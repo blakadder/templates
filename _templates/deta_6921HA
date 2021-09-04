@@ -11,6 +11,7 @@ link2:
 link3: 
 flash: replace 
 chip: WB2S
+standard: au
 ---
 
 [source](https://community.home-assistant.io/t/australia-electrically-certified-hardware/32074/3092)
