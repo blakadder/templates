@@ -14,4 +14,4 @@ link3: https://www.banggood.com/ESP32-CAM-WiFi-+-bluetooth-Camera-Module-Develop
 link4: https://www.gearbest.com/sensors/pp_3006467929419809.html?
 ---
 
-Use tasmota32-webcam.bin build.
+Flash with [tasmota32-webcam.bin](http://ota.tasmota.com/tasmota32/tasmota32-webcam.bin) firmware.

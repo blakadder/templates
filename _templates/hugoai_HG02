@@ -3,23 +3,22 @@ date_added: 2021-08-03
 title: Hugoai Table Lamp 
 model: HG02 
 image: /assets/images/hugoai_HG02.jpg
-template9: '{"NAME":"Generic","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"HG02","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,20 | TuyaMCU 26,21 | TuyaMCU 21,22 | TuyaMCU 23,23 | TuyaMCU 24,24 | DimmerRange 34,1000"}' 
 link: https://www.amazon.com/dp/B07Q8SMG8R/
 link2: https://www.amazon.com/dp/B07QK9LG1H
 mlink: https://www.hugo-ai.com/copy-of-basic-table-lamp-grey-1
-flash: module replacement
+flash: replace
+chip: WB3S
 category: light
 type: Light
 standard: global
-unsupported: true
 ---
-New version of the device shipped with a WB3S module and had to be remounted with an ESP-12 module. Ground GPIO15 pin. Set module as TuyaMCU and issue the following commands.
+Following commands are part of the template and will be applied together with the template.
 
-'''console
+```console
 Backlog TuyaMCU 11,20; TuyaMCU 26,21; TuyaMCU 21,22; TuyaMCU 23,23; TuyaMCU 24,24; DimmerRange 34,1000
-'''
-
-## Older Revision
+```
+## Older Hardware Revision
 Flash Tasmota via Tuya-Convert or follow the guide for manual TYWE3S flashing (https://tasmota.github.io/docs/devices/TYWE3S)
 Complete the initial Wi-Fi configuration and enter the WebUI.
 

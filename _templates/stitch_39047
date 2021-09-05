@@ -12,4 +12,5 @@ category: plug
 type: Plug
 standard: us
 ---
-Removed tuya module, flashed over SPI using tasmotizer, and re-installed module.
+
+[Disassembly and pinout](https://www.reddit.com/r/tasmota/comments/peaf6d/flashing_monoprice_stitch_39047_smart_wifi_15a/)

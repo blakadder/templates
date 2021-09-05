@@ -13,7 +13,7 @@ link2: https://www.amazon.com/dp/B08T9C3VWG
 link3: https://www.amazon.de/dp/B091KNZRZY/
 link4: https://www.banggood.com/WT32-ETH01-Embedded-Serial-Port-Networking-Ethernet-Bluetooth-compatible-WIFI-Combo-Gateway-MCU-ESP32-Wireless-Module-WT32-ETH01-p-1888027.html
 ---
-To use this device, you have to compile Tasmota with Ethernet enabled. A precompiled binary from development branch is available [here](https://github.com/tasmota/install/tree/main/firmware/unofficial).
+To use this device, you have to compile Tasmota with Ethernet enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.
 
 Set in user_config_override.h
 

@@ -7,22 +7,22 @@ template9: '{"NAME":"DS02F","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,
 link: https://www.amazon.com/gp/product/B08P5D3ZKW
 link2: 
 mlink: 
-flash: module replacement
+flash: replace
+chip: WB3S
 category: switch
 type: Fan Controller
 standard: us
 ---
 This is not for the feint of heart, this device comes with a custom Tuya chip, which is not ESP based. Luckily, the main board has the appropriate footprint for an ESP-12F. Further instructions can be found [here](https://community.home-assistant.io/t/treatlife-dual-outlet-indoor-dimmer-plug-wb3s-to-esp-12-transplant/256798)
 
-
-1. Let's enable the functions of the switch:
+These commands are applied together with the template:
 
 ```console
 backlog SetOption97 1; tuyamcu 11,1; SetOption59 1; SetOption68 0
 ```
 These commands set the baud rate to 115200, bind the Tasmota software to the appropriate channel for control of the switch, set PWM to a single light, and adds an additional topic for state. More information can be found in the Tasmota TuyaMCU guide. 
 
-2. Set up a rule to change speed state based on information from the TuyaMCU
+#### Set up a rule to change speed state based on information from the TuyaMCU
 
 ```console
 Rule1 on TuyaReceived#Data=55AA03070005030400010016 do publish2 stat/%topic%/speed 3,0 endon on TuyaReceived#Data=55AA03070005030400010117 do publish2 stat/%topic%/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010218 do publish2 stat/%topic%/speed 3,2 endon on TuyaReceived#Data=55AA03070005030400010319 do publish2 stat/%topic%/speed 3,3 endon
@@ -32,7 +32,7 @@ Rule1 1
 This will monitor the TuyaMCU for changes to the speed of the fan and publish them to MQTT. Additional information can be found in the TuyaMCU Guide as well as the DS02S guide.
 
 
-3. Home Assistant Fan YAML:
+#### Home Assistant Fan YAML:
 {% highlight yaml %}{% raw %}fan:
   - platform: mqtt
     name: "TreatLife Fan"

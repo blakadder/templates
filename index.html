@@ -13,7 +13,7 @@ title: Tasmota Supported Devices Repository
     </div>
     <div class="row">
         <div class="column">
-        All development boards, Wi-Fi modules and kits have moved to their own <a href="diy.html"></a>Development Boards</a> category. 
+        Added GPIO tables for all templates. ESP32-C3 templates can now be added as `templatec3`. 
         </div>
     </div>
     <div class="row row-100"><BR></div>
@@ -45,12 +45,14 @@ title: Tasmota Supported Devices Repository
     {% assign standard_group = category | map: 'standard' | join: ',' | split: ',' | uniq | sort_natural %}
     {% for std in standard_group %}
     <a class="button button-small button-grey" href="{{ std }}.html">{{ std | upcase }}</a>
+    {% else %}
     {% endfor %}
     <BR>Light Bulbs by base:<BR>
     {% assign category = site.templates | where: "category", "bulb" %}
     {% assign standard_group = category | map: 'standard' | join: ',' | split: ',' | uniq | sort_natural %}
     {% for std in standard_group %}
     <a class="button button-small button-grey" href="{{ std }}.html">{{ std | upcase }}</a>
+    {% else %}
     {% endfor %}
     <br>
     <span style="font-size:0.6em;">See <a href="https://www.worldstandards.eu/electricity/spread-plug-types-map/" target="_blank">world map of plugs</a> and <a href="https://www.bulbs.com/learning/basechart.aspx" target="_blank">light bulb base list</a> for more information.</span>
@@ -67,4 +69,4 @@ title: Tasmota Supported Devices Repository
     </table>
     </div>
 </div>
-<span style="font-size:0.6em;">As an Amazon Associate I earn from qualifying purchases from provided device links.</span>
+<span style="font-size:0.6em;">As an Amazon Associate I earn from qualifying purchases from provided device links.</span> 
