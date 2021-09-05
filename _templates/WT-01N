@@ -2,7 +2,6 @@
 date_added: 2021-09-06
 title: ESP-01N V1.0
 model: WT-01N
-template9: '{"NAME":"WT-01N","GPIO":[1,1,1,1,1,1,0,0,1,1,1,0,0,1],"FLAG":0,"BASE":18}'
 image: /assets/images/WT-01N.jpg
 link: https://www.alibaba.com/product-detail/wholesale-original-factory-esp8285-wifi-module_1600318895032.html
 link2: https://www.lcsc.com/product-detail/WiFi-Modules_Wireless-tag-WT-01N_C477823.html
