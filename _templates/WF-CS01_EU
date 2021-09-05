@@ -5,7 +5,7 @@ category: cover
 type: Curtain Switch
 standard: eu
 image: https://ae01.alicdn.com/kf/HTB1s85oKAvoK1RjSZFNq6AxMVXaE.jpg?width=788&height=704&hash=1492
-template: '{"NAME":"ShutterSwitch","GPIO":[544,227,289,34,226,33,0,0,32,224,290,225,288,0],"FLAG":0,"BASE":18}'
+template: '{"NAME":"ShutterSwitch","GPIO":[544,227,289,34,226,33,0,0,32,224,290,225,288,0],"FLAG":0,"BASE":18,"CMND":"Rule1 1"}'
 link: https://www.amazon.de/dp/B07PNV9XKQ/
 link2: https://www.aliexpress.com/item/32983943702.html
 ---
@@ -17,12 +17,10 @@ Rule1
 	on Power1#State=1 do LEDPower1 1 endon 
 	on Power2#State=0 do LEDPower2 0 endon 
 	on Power2#State=1 do LEDPower2 1 endon
-Rule1 1
 ```
 This combines to:
 ```console
 Rule1 on Power1#State=0 do LEDPower1 0 endon on Power1#State=1 do LEDPower1 1 endon on Power2#State=0 do LEDPower2 0 endon on Power2#State=1 do LEDPower2 1 endon
-Rule1 1
 ```
 
 Added some commands too:
@@ -41,8 +39,7 @@ Pulsetime3 1 	# this button is used to stop the relays. It can be turned off imm
 This rule will allow you to toggle the LEDs by long-pressing the middle button:
 
 ```console
-Rule2 ON button3#state=3 DO power4 2 ENDON
-Rule2 1
+Backlog Rule2 ON button3#state=3 DO power4 2 ENDON; Rule2 1
 ```
 
 Now you must configure the durations : [doc here](https://tasmota.github.io/docs/Blinds-and-Shutters/)
