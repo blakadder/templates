@@ -8,11 +8,11 @@ standard: eu
 image: /assets/images/Gosund_EP2.jpg
 template: '{"NAME":"Gosund EP2","GPIO":[56,255,158,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
 link: https://www.amazon.de/dp/B085RFKVW4
+link2: https://www.banggood.com/Gosund-EP2-10A-Smart-WiFi-Plug-Mini-Electrical-Outlet-Socket-With-Timing-Function-Energy-Monitor-Alexa-Voice-Control-Device-Remote-Control-Works-With-Google-Home-And-Gosund-APP-p-1891185.html
 mlink: https://gosund.com/download/smart_plug/126.html
+flash: serial
 ---
-
-## Warning
-The Gosund EP2 is not easily opened as it contains no screws. 
+**The Gosund EP2 is not easily opened as it contains no screws.**
 
 The best way of opening it is to work your way around the clear plastic insert with a pair of pliers gently until the glue finally gives up.
 Adding a little force with an rubber mallet or an pipe wrench on the shell could also help.
