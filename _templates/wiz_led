@@ -8,10 +8,11 @@ link: https://www.walmart.ca/en/ip/Philips-WiZ-2m-1600-Lumens-WiFi-LED-Strip-Sta
 link2: https://www.alza.de/wiz-smart-led-strip-colors-tunable-kit-2m-d6326717.htm
 mlink: https://www.wizconnected.com/en-CA/consumer/products/046677560805/
 flash: serial
+chip: solo1
 category: light
 type: LED Strip
-standard: us, eu
+standard: [us, eu]
 ---
-Pin 25 Bottom on the right hand side is GPIO 0 for booting 
+All pins necessary for flashing are on the module. ![Pinout](https://tasmota.github.io/docs/_media/pinouts/ESP32-SOLO-1.png)
 
-https://www.espressif.com/sites/default/files/documentation/esp32-solo-1_datasheet_en.pdf 
+Pin 25 Bottom on the right hand side is GPIO 0 for booting 

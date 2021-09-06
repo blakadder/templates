@@ -14,7 +14,7 @@ standard: us
 
 In order to be able to flash the device from the pins, make sure to disconnect the front panel from the rest of the device. If not done, the tuya MCU will prevent the ESP chip to be flash.
 
-To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. A precompiled binary from development branch is available [here](https://github.com/tasmota/install/tree/main/firmware/unofficial).
+To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.
 
 All dimming and on/off functionality is controlled by an MCU that does not follow the Tuya protocol.  Dimming and on/off can be set by Tasmota using simple serial commands.  Reading local dimming when set by the capacitive touch panel requires a Script-enabled build and the script below to process serial status codes sent by the dimmer MCU.
 

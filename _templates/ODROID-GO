@@ -1,16 +1,16 @@
 ---
-date_added: 2021-01-01
+date_added: 2021-09-04
 title: ODROID-GO Game Kit
-model: 
+model: G152875062626
 category: diy
 type: Display
 standard: global
 image: /assets/images/ODROID-GO.jpg
-template32: '{"NAME":"Odroid","GPIO":[0,1,0,1,1,768,1,1,1,0,416,1,1,1,736,672,0,800,1,704,0,1,1,0,0,0,0,0,0,0,4704,3329,4866,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"ODROID-GO","GPIO":[32,3200,544,3232,608,768,0,0,6210,33,416,640,1,1,736,672,0,800,6720,704,0,0,0,34,0,0,0,0,164,165,3328,3329,4866,0,0,35],"FLAG":0,"BASE":3}' 
 mlink: https://www.hardkernel.com/shop/odroid-go/
-link: 
+link: https://www.amazon.com/dp/B07F6Q425X
 ---
-Use `tasmota-odroid.bin` and select Odroid Go module.
+Requires [`tasmota-odroidgo.bin`](https://github.com/tasmota/install/raw/main/firmware/release/tasmota32-odroidgo.bin) to flash.
 
 After that issue to adjust ADC operation
 ```console

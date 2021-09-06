@@ -1,0 +1,19 @@
+---
+date_added: 2021-09-04
+title: ESP-01M
+model: ESP-01M 
+image: /assets/images/ESP-01M.jpg
+link: https://www.aliexpress.com/item/1005002477597253.html
+link2: https://www.amazon.com/dp/B096VJFSV9/
+link3: https://www.banggood.com/ESP8285-ESP-01M-Wifi-Module-IOT-Wireless-Transceiver-Receiver-Replace-ESP8266-Built-in-1MByte-Flash-p-1252087.html
+link4: 
+mlink: http://www.ai-thinker.com/pro_view-63.html
+flash: serial
+category: diy
+type: Module
+standard: global
+---
+
+![Pinout](/assets/images/ESP-01M_pinout.jpg)
+
+[Datasheet](https://docs.ai-thinker.com/_media/esp8266/docs/esp-01m_product_specification_en.pdf)

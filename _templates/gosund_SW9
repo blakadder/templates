@@ -12,5 +12,4 @@ category: switch
 type: Switch
 standard: eu
 ---
-
-Standard tuya based double smart switch. Serial pins on board, standard flashing.
+Serial pins on board, standard flashing.

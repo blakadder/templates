@@ -54,7 +54,7 @@ Backlog Rule1 1; Rule2 1; Rule3 1
 
 You can use scripting instead of rules for a smoother implementation and better webUI presentation.
 
-To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. A precompiled binary from development branch is available [here](https://github.com/tasmota/install/tree/main/firmware/unofficial).
+To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.
 
 {% raw %}
 ```haskell

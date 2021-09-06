@@ -13,4 +13,4 @@ type: Plug
 standard: eu
 ---
 - Disassembly is easy. No glue, just one screw and three clips.
-- The ESP Module is ESP8266-S3. Pinout for flashing is described here: https://web.archive.org/web/20200926154118/https://znanev.github.io/ESP8266-S3-WiFi-module/
+- The ESP Module is ESP8266-S3. Pinout for flashing is described here: https://sylvainzimmer.com/blog/2021/09/smart-plugs-tasmota/

@@ -8,16 +8,19 @@ link: https://www.aliexpress.com/item/4000196275220.html
 link2: https://www.aliexpress.com/item/4000196309288.html
 mlink: 
 flash: serial
+chip: solo1
 category: light
 type: Ceiling Light
 standard: global
 ---
-Requires [tasmota32solo1.bin](http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin) because it is using the single core version ESP32-S0WD!
-
-Followed same instruction of [Yeelight Meteorite](https://templates.blakadder.com/yeelight_YLDL01YL.html) to flash.
-- GPIO21 - coldwhite - PWM4
-- GPIO19 - warmwhite - PWM5
-
-I've flash soldering the cable, has easy test point indicating all necessary pins. 
+All pins necessary for flashing are labelled on the PCB. 
 
 ![PCB image](/assets/images/yeelight_YLXD62YI_pcb.jpg)
+
+1. RX - Green
+2. TX - Violet 
+3. IO0 - Red near TX/RX
+4. 3.3V - Red 
+5. GND - Brown/black
+
+![Pinout](https://tasmota.github.io/docs/_media/pinouts/ESP32-SOLO-1.png)

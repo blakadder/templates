@@ -5,7 +5,7 @@ model: '00176551'
 image: /assets/images/hama_00176551.jpg
 template: '{"NAME":"Hama WiFiTouch","GPIO":[157,0,0,0,0,18,0,0,17,22,0,21,0],"FLAG":0,"BASE":45}' 
 link: https://www.amazon.de/dp/B07JKC11SQ/ 
-link2:https://www.alza.de/hama-wifi-touch-wandschalter-doppelt-d5606924.htm
+link2: https://www.alza.de/hama-wifi-touch-wandschalter-doppelt-d5606924.htm
 mlink: https://www.hama.com/00176551/hama-wifi-touch-wall-switch-flush-mounted-white
 flash: tuya-convert
 category: switch

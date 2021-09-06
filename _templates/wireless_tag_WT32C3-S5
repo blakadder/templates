@@ -1,0 +1,39 @@
+---
+date_added: 2021-09-04
+title: Wireless Tag ESP32-C3
+model: WT32C3-S5
+category: diy
+type: Module
+standard: global
+image: /assets/images/wireless_tag_WT32C3-S5.jpg
+templatec3: '{"NAME":"WT32C3-S5","GPIO":[1,1,1,1,1,1,1,1,544,1,1,0,0,0,0,0,0,0,1,1,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.alibaba.com/product-detail/Original-factory-WT32C3-S5-ESP32-wifi_1600283557637.html
+link: https://www.aliexpress.com/item/1005002973734309.html
+---
+
+Same form factor as ESP-12 modules with partially different pinout. It can be used as a drop in replacement for Tuya WR3 and WR3E modules.
+
+## Flashing
+
+To put the module in flash mode GPIO8 needs to be pulled high and GPIO9 pulled low. Wire the module accordingly:
+
+![flash wiring](/assets/images/WT32C3-S5_wiring.svg)
+
+Download [required files](https://github.com/tasmota/install/tree/main/static/esp32-c3) and put them in the same folder as Tasmota firmware.
+
+
+Flash using esptool.py, other tools are not reliable enough.
+
+```bash
+esptool.py --chip esp32c3 --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x0000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32c3.bin
+```
+
+![solderless wiring]( /assets/images/wireless_tag_WT32C3-S5_wired.jpg)
+You can do it without any soldering. Just apply pressure to make good contact between the Dupont wires and pin holes.
+
+## Running
+For normal operation connect EN to VCC (pull high) to enable the C3 chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.
+
+ESP32's are power hungry on boot and the usb to serial adapter might not be able to provide enough power for that. Use a stable 3V3 power supply that can supply more than 400 mA 
+
+[Datasheet](/assets/WT32C3-S6_Datasheet_V1_0_1.pdf)

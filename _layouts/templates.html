@@ -53,23 +53,25 @@ layout: default
 
   {% if page.flash != nil %}
   <b>
-    Flashed with:
+    Install method:
   </b>
   <br>
     {% if page.flash == 'tuya-convert' %}
     <a class="menu" href="https://github.com/ct-Open-Source/tuya-convert" target="_blank">Tuya-Convert</a>
     {% elsif page.flash == "serial" %}
-    <a class="menu" href="https://tasmota.github.io/docs/Getting-Started" target="_blank">Serial port</a>
+    <a class="menu" href="https://tasmota.github.io/docs/Getting-Started" target="_blank">USB to Serial</a>
     {% elsif page.flash == "sonoff-diy" %}
-    <a class="menu" href="https://github.com/itead/Sonoff_Devices_DIY_Tools" target="_blank">Sonoff DIY</a>
+    <a href="https://github.com/itead/Sonoff_Devices_DIY_Tools" target="_blank">Sonoff DIY</a>
     {% elsif page.flash == "mgos" %}
-    <a class="menu" href="https://github.com/arendst/mgos-to-tasmota" target="_blank">MgOS to Tasmota</a>
+    <a href="https://github.com/arendst/mgos-to-tasmota" target="_blank">MgOS to Tasmota</a>
     {% elsif page.flash == "preflashed" %}
-    Tasmota pre-flashed
+    Tasmota pre-installed
     {% elsif page.flash == "esp2ino" %}
-    <a class="menu" href="https://github.com/elahd/esp2ino" target="_blank">esp2ino</a>
+    <a href="https://github.com/elahd/esp2ino" target="_blank">esp2ino</a>
+    {% elsif page.flash == "replace" %}
+    <a href="https://blakadder.com/frankenstein-saturday-3/" target="_blank">Replace module</a>
     {% else %}
-    {{ page.flash}}
+      {{ page.flash}}
     {% endif %}
   {% else %}
 
@@ -83,7 +85,7 @@ layout: default
 </div>
 {% if page.template32 != nil %}
 <div class="row">
-  <div class="column"><strong>Template for ESP32 device</strong></div>
+  <div class="column"><strong>Template for ESP32</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
 <div class="row">
@@ -91,25 +93,41 @@ layout: default
     <pre><code class="language-json" style="white-space: nowrap">{{ page.template32 }}</code></pre>
 </div>
 </div>
-{% elsif page.template9 != nil %}
+{% elsif page.templatec3 != nil %}
 <div class="row">
-  <div class="column"><strong>Template for Tasmota v9.1+</strong></div>
+  <div class="column"><strong>Template for ESP32-C3</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
 </div>
 <div class="row">
   <div class="column column-100">
-    <pre><code class="language-json" style="white-space: nowrap">{{ page.template9 }}</code></pre>
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.templatec3 }}</code></pre>
 </div>
 </div>
-{% else %}
+{% elsif page.template9 != nil %}
 <div class="row">
   <div class="column"><strong>Template</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+  </div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.template9 }}</code></pre>
+  </div>
 </div>
+{% elsif page.template != nil %}
+<div class="row">
+  <div class="column"><strong>Template (old version)</strong></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+  </div>
 <div class="row">
   <div class="column column-100">
     <pre><code class="language-json" style="white-space: nowrap">{{ page.template }}</code></pre>
+  </div>
 </div>
+{% else %}
+<div class="row">
+  <div class="column column-100">
+  Set to Generic Module (18) in "<B>Configuration - Configure Module</B>".<br><br>
+  </div>
 </div>
 {% endif %}
 <!-- Alternative template -->
@@ -133,7 +151,14 @@ layout: default
   {% endif %}
 
   {% if page.template32 != nil %}
-  Works only with a tasmota32 binary. <a href="https://tasmota.github.io/docs/ESP32/">Flashing instructions</a>.<p>
+    {% if page.chip == "solo1" %}
+      Flash only with <a href="http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin"><code>tasmota32solo1.bin</code></a> build for ESP32-SOLO-1. 
+    {% endif %}
+    <a href="https://tasmota.github.io/docs/ESP32/">Flashing instructions</a> for tasmota32 firmware.<p>
+  {% endif %}
+
+  {% if page.templatec3 != nil %}
+  Requires a separate ESP32-C3 tasmota32 binary. Download unofficial development build for <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3.bin">4Mb flash</a> or <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3_2M.bin">2Mb flash</a>.<p>
   {% endif %}
 
   {% if page.author == 'blak' %}
@@ -141,7 +166,7 @@ layout: default
   {% endif %}
 
   {% if page.flash == 'preflashed' %}
-  This device comes with <b>Tasmota pre-flashed</b> straight from the factory!
+  <b>This device comes with Tasmota already installed</b>!
   <br><br>
   <p>
   {% endif %}
@@ -166,17 +191,31 @@ layout: default
   <br><br>
   <p>
   {% endif %}
-  {% if page.type contains 'Curtain Switch' %}
-  Requires configuring <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support</a>.
-  <br><br>
+
+  {% if page.flash == 'replace' %}
+  This device uses 
+  {% if page.chip != nil %}{{ page.chip }}
+  {% else %}a Tasmota incompatible 
+  {% endif %}
+  module which needs to be replaced with
+  {% if page.chip contains 'WB3' or page.chip contains 'WR3' or page.chip contains 'WBR3' %}<a href="ESP-12">ESP12</a> or <a href="ESP-07">ESP07</a> 
+  {% elsif page.chip contains 'WB2' or page.chip contains 'WR2' or page.chip contains 'WBR2' %}<a href="WT-01N">WT'01N</a></a> 
+  {% else %}an ESP 
+  {% endif %}
+  module. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
+  <br>
   <p>
   {% endif %}
 
+  {% if page.type contains 'Curtain Switch' %}
+    Requires configuring <a href="https://tasmota.github.io/docs/Blinds-and-Shutters/">shutter support</a>.
+    <br><br>
+    <p>
+    {% endif %}
   {% endif %}
   
-
   {% if page.template contains '"BASE":73' %}
-  Requires enabled <a href="https://tasmota.github.io/docs/PWM-dimmer-switch/">PWM Dimmer support</a> in Tasmota v8.2 or newer. Follow the article instructions for configuration.
+  Requires enabled <a href="https://tasmota.github.io/docs/PWM-dimmer-switch/">PWM Dimmer support</a>. Follow the article instructions for configuration.
   <br><br>
   <p>
   {% endif %}
@@ -188,25 +227,19 @@ layout: default
   {% endif %}
 
   {% if page.flash == 'tuya-convert' %}
-  Tuya-Convert might not be possible for this device if the manufacturer started using <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">newest Tuya firmware</a> since this template was published ({{ page.date_added  }}). 
+  Tuya-Convert might not be possible for this device since the template was added ({{ page.date_added  }}). All new Tuya devices have firmware <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">preventing flash</a> but it is still possible to Tuya-Convert old stock devices without connecting them to the Tuya app.
   <br><br>
   <p>
   {% endif %}
 
-  {% if page.flash == 'wpf' %}
-  Can be flashed over-the-air with <a href="https://github.com/elahd/wyze_plug_flasher">Wyze Plug Flasher</a>.
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.flash == 'module replacement' %}
-  This device originally has a Tasmota incompatible module that needs to be replaced with a compatible one. This process will likely require a spare ESP module, specialized tools and some soldering skills.
+  {% if page.flash == 'esp2ino' %}
+  Can be flashed over-the-air with <a href="https://github.com/elahd/esp2ino">esp2ino Flasher</a>.
   <br><br>
   <p>
   {% endif %}
 
   {% if page.title contains 'Teckin' or page.title contains 'Lumiman' or page.title contains 'BrilliantSmart' %}
-  <b>NOTICE!!!</b> Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore.<p>  
+  <b>NOTICE!!!</b> Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore. Check seller descriptions or contact them before buying!<p>  
   <br><br>
   <p>
   {% endif %}
