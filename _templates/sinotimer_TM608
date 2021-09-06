@@ -11,5 +11,7 @@ flash: serial
 category: relay
 type: DIN Relay
 standard: global
+unsupported: true
 ---
 No success with Tuya-convert. Opens relatively easy. Has a TYWE3S module inside. The TX/RX is unconnected so can easily be flashed via serial connection.
+Edit 06/09/2021 : bought 6 of those TM608 and got some models with WB3S inside, the swap with a TYWE3S should be easy. 
