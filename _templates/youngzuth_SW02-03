@@ -9,12 +9,6 @@ link: https://www.amazon.com/gp/product/B07Q5XPRKD
 image: /assets/images/youngzuth_3in1.jpg
 template: '{"NAME":"SW02 3W","GPIO":[56,0,0,19,23,18,0,0,17,21,0,22,0],"FLAG":0,"BASE":18}'
 link2: 
+unsupported: true
 ---
-
-
-
-
-
-
-
-
+Edit 08/28/2021 : Purchased from Amazon, and unit has a (unsupportable) WB3S inside. It may be possible to swap this module with a  ESP-12, but has not been tested.

@@ -14,7 +14,7 @@ category: diy
 type: Module
 standard: global
 ---
-This module is designed for bulbs so the pinout labeling shows colors. 
+This module is designed for bulbs so the pinout labeling shows colors. Module is (almost) pin compatible with TYWE2L, WR2L, WB2L, WBR2L
 
 It can still be used for any application, just like any other module. It has almost all of the GPIOs broken out (excluding GPIO2) and that includes the A0 analog GPIO. 
 
