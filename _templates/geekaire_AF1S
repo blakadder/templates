@@ -1,7 +1,7 @@
 ---
-date_added: 2020-07-01
-title: Geek Aire 
-model: AF1s
+date_added: 2021-09-01
+title: Geek Aire 3D Oscillating Desktop
+model: AF1S
 category: misc
 type: Fan
 standard: us
@@ -19,7 +19,7 @@ Set a rule
 Backlog Rule1 on tuyareceived#dptype4id3 do publish stat/%topic%/speed %value% endon on tuyareceived#dptype4id2 do publish stat/%topic%/mode %value% endon; Rule1 1
 ```
 
-1. Add the following to Home Assistant to your FAN section, replace `%topic%` with device topic:
+1. Add to Home Assistant configuration `fan:` section, replace `%topic%` with your device topic:
 
 ```yaml
 {% raw %}- platform: mqtt
