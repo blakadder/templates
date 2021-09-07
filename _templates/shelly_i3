@@ -14,6 +14,7 @@ category: relay
 type: Switch Module
 standard: global
 ---
+Internal RST button is located on GPIO4 but not entered in the template until tested.
 
 ## Configuration
 After flashing Tasmota, the Shelly i3 will publish all events of each of the three inputs via "stat/%topic%/POWER" (ON/OFF). But there is no separate POWER1, POWER2 and POWER3. That means that you can only distinguish the state of each switch via the SENSOR data, that is only published every few minutes, but not instantly.
