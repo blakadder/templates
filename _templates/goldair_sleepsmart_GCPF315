@@ -63,8 +63,8 @@ Press enter than run this command
         'nul '{{ value }}''
       {% endif %} 
     qos: 0
-    payload_on: 'ON'
-    payload_off: 'OFF'
+    payload_on: "ON"
+    payload_off: "OFF"
     payload_oscillation_on: 'ON'
     payload_oscillation_off: 'OFF'
     availability_topic: tele/lounge_fan/LWT

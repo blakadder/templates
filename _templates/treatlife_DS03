@@ -85,8 +85,8 @@ fan:
     preset_mode_state_topic: "stat/Treatlife-DS03/speed"
     preset_mode_command_topic: "cmnd/Treatlife-DS03/TuyaSend4"
     qos: 0
-    payload_on: 'ON'
-    payload_off: 'OFF'
+    payload_on: "ON"
+    payload_off: "OFF"
     preset_mode_command_template: >
       {% if value == 'low' %}
         3,1

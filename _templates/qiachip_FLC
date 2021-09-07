@@ -48,8 +48,8 @@ Alternatively add to Home Assistant configuration `fan:` section, replace `%topi
     state_topic: "stat/%topic%/RESULT"
     state_value_template: "{{ value_json.POWER1 }}"
     command_topic: "cmnd/%topic%/POWER1"
-    payload_on: 'ON'
-    payload_off: 'OFF'
+    payload_on: "ON"
+    payload_off: "OFF"
     percentage_state_topic: "stat/%topic%/speed"
     percentage_command_topic: "cmnd/%topic%/tuyasend4"
     percentage_command_template: "3,{{ value }}"

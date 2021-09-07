@@ -41,8 +41,8 @@ fan:
     oscillation_command_topic: "cmnd/%topic%/TuyaSend1"
     oscillation_state_topic: "stat/%topic%/oscillating"
     qos: 0
-    payload_on: 'ON'
-    payload_off: 'OFF'
+    payload_on: "ON"
+    payload_off: "OFF"
     payload_oscillation_on: '8,1'
     payload_oscillation_off: '8,0'
     percentage_state_topic: "stat/%topic%/speed"
