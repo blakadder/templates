@@ -26,9 +26,7 @@ Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to underst
 * dpid7 - timer remaining
 * dpid17 - ???
 
-## Home Assistant integration
-
-## Home Assistant Integration
+## Home Assistant 
 Set a rule 
 
 ```console                 
