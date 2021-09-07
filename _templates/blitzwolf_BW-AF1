@@ -3,7 +3,7 @@ date_added: 2021-09-01
 title: BlitzWolf Air Fryer
 model: BW-AF1
 image: /assets/images/blitzwolf_BW-AF1.jpg
-template: '{"NAME":"BW-AF1","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,111 | TuyaMCU 12,101 | TuyaMCU 71,104 | TuyaMCU 81,106 | TempRes 0"}' 
+template9: '{"NAME":"BW-AF1","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,111 | TuyaMCU 12,101 | TuyaMCU 71,104 | TuyaMCU 81,106 | TempRes 0"}' 
 mlink: https://www.blitzwolf.com/
 link: https://www.banggood.com/BlitzWolfBW-AF1-Smart-Air-Fryer-with-APP-Control,6L-Large-Capacity,Temperature-Control,Removable-Basket,Smart-Recipe-and-Non-stick-Coating-p-1684285.html
 link2: 
