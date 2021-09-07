@@ -1,0 +1,14 @@
+---
+date_added: 2021-09-06
+title: BAW 
+model: TPSWIFI-10
+image: /assets/images/baw_TPSWIFI-10.jpg
+template9: '{"NAME":"BAW TPSWIFI-10","GPIO":[0,0,0,0,320,0,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://articulo.mercadolibre.com.ar/MLA-867176657-enchufe-toma-timer-inteligente-smart-wifi-domotica-_JM
+link2: 
+mlink: https://desarrollo.intermediasp.com/baw-electric/landing/baw-nuestros-productos-wifi-i-tpswifi-10-y-ipswifi-10/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: au
+---

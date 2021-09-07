@@ -1,0 +1,15 @@
+---
+date_added: 2021-09-06
+title: Kauf 
+model: PLF10
+image: /assets/images/kauf_PLF10.jpg
+template9: '{"NAME":"KAUF Plug","GPIO":[576,0,320,0,224,2720,0,0,2624,32,2656,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B09D68P39F
+link2: 
+mlink: 
+flash: preflashed
+category: plug
+type: Plug
+standard: us
+---
+Connect to device WiFi, upload Tasomta
