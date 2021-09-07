@@ -24,18 +24,19 @@ Backlog Rule1 on tuyareceived#dptype4id3 do publish stat/%topic%/speed %value% e
 ```yaml
 {% raw %}- platform: mqtt
   name: "Flat Bedroom Fan"
-  state_topic: "stat/%topic%/POWER1"
+  state_topic: "stat/%topic%/RESULT"
+  state_value_template: "{{ value_json.POWER1 }}"
   command_topic: "cmnd/%topic%/POWER1"
-  oscillation_state_topic: "stat/%topic%/POWER2" 
-  oscillation_command_topic: "cmnd/%topic%/POWER2"
   payload_on: 'ON'
   payload_off: 'OFF'
+  oscillation_state_topic: "stat/%topic%/RESULT" 
+  oscillation_value_template: "{{ value_json.POWER2 }}"
+  oscillation_command_topic: "cmnd/%topic%/POWER2"
   payload_oscillation_on: 'ON'
   payload_oscillation_off: 'OFF'
   percentage_state_topic: "stat/%topic%/speed"
   percentage_command_topic: "cmnd/%topic%/TuyaSend4"
   percentage_command_template: "3,{{ value }}"
-  speed_range_min: 0
   speed_range_max: 3
   preset_modes:
     - breeze

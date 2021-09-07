@@ -19,11 +19,11 @@ Backlog TuyaMCU 12,8; WebButton1 Power (on/off); WebButton2 Oscillation (on/off)
 ```
 
 ```console
-Rule1 on TuyaReceived#Data=55AA03070005020400010217 do publish2 stat/tasmota_E27597/speed 2,2 endon on TuyaReceived#Data=55AA03070005020400010116 do publish2 stat/tasmota_E27597/speed 2,1 endon on TuyaReceived#Data=55AA03070005020400010015 do publish2 stat/tasmota_E27597/speed 2,0 endon
+Backlog Rule1 on tuyareceived#dptype4id2 do publish stat/%topic%/speed %value% endon; Rule1 1
 ```
 
 ```console
-Rule2 on TuyaReceived#Data=55AA03070005080100010119 do publish2 stat/tasmota_E27597/oscillating 8,1 endon on TuyaReceived#Data=55AA03070005080100010018 do publish2 stat/tasmota_E27597/oscillating 8,0 endon on
+Rule2 on TuyaReceived#Data=55AA03070005080100010119 do publish2 stat/%topic%/oscillating 8,1 endon on TuyaReceived#Data=55AA03070005080100010018 do publish2 stat/%topic%/oscillating 8,0 endon on
 ```
 Enable both rules
 ```console
@@ -34,27 +34,22 @@ Backlog Rule1 1; Rule2 1
 
 ```yaml
 fan:
-- platform: mqtt
-  name: "Room Fan"
-  state_topic: "stat/tasmota_ABCDE/POWER"
-  command_topic: "cmnd/tasmota_ABCDE/POWER"
-  oscillation_command_topic: "cmnd/tasmota_ABCDE/TuyaSend1"
-  oscillation_state_topic: "stat/tasmota_ABCDE/oscillating"
-  speed_state_topic: "stat/tasmota_ABCDE/speed"
-  speed_command_topic: "cmnd/tasmota_ABCDE/TuyaSend4"
-  qos: 0
-  payload_on: 'ON'
-  payload_off: 'OFF'
-  payload_oscillation_on: '8,1'
-  payload_oscillation_off: '8,0'
-  payload_low_speed: '2,0'
-  payload_medium_speed: '2,1'
-  payload_high_speed: '2,2'
-  availability_topic: tele/tasmota_ABCDE/LWT
-  payload_available: Online
-  payload_not_available: Offline
-  speeds:
-    - low
-    - medium
-    - high
+  - platform: mqtt
+    name: "Room Fan"
+    state_topic: "stat/%topic%/POWER"
+    command_topic: "cmnd/%topic%/POWER"
+    oscillation_command_topic: "cmnd/%topic%/TuyaSend1"
+    oscillation_state_topic: "stat/%topic%/oscillating"
+    qos: 0
+    payload_on: 'ON'
+    payload_off: 'OFF'
+    payload_oscillation_on: '8,1'
+    payload_oscillation_off: '8,0'
+    percentage_state_topic: "stat/%topic%/speed"
+    percentage_command_topic: "cmnd/%topic%/tuyasend4"
+    percentage_command_template: "2,{{ value }}"
+    speed_range_max: 2
+    availability_topic: tele/%topic%/LWT
+    payload_available: Online
+    payload_not_available: Offline
 ```

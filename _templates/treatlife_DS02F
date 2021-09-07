@@ -10,10 +10,10 @@ mlink:
 flash: replace
 chip: WB3S
 category: switch
-type: Fan Controller
+type: Fan Switch
 standard: us
 ---
-This is not for the feint of heart, this device comes with a custom Tuya chip, which is not ESP based. Luckily, the main board has the appropriate footprint for an ESP-12F. Further instructions can be found [here](https://community.home-assistant.io/t/treatlife-dual-outlet-indoor-dimmer-plug-wb3s-to-esp-12-transplant/256798)
+This is not for the feint of heart, this device comes with a custom Tuya chip, which is not ESP based. Luckily, the main board has the appropriate footprint for an ESP-12F. Instructions for a similar device can be found [here](https://community.home-assistant.io/t/treatlife-dual-outlet-indoor-dimmer-plug-wb3s-to-esp-12-transplant/256798)
 
 These commands are applied together with the template:
 
@@ -22,48 +22,55 @@ backlog SetOption97 1; tuyamcu 11,1; SetOption59 1; SetOption68 0
 ```
 These commands set the baud rate to 115200, bind the Tasmota software to the appropriate channel for control of the switch, set PWM to a single light, and adds an additional topic for state. More information can be found in the Tasmota TuyaMCU guide. 
 
-#### Set up a rule to change speed state based on information from the TuyaMCU
+Set up a rule to report speed state based on information from the TuyaMCU
 
 ```console
-Rule1 on TuyaReceived#Data=55AA03070005030400010016 do publish2 stat/%topic%/speed 3,0 endon on TuyaReceived#Data=55AA03070005030400010117 do publish2 stat/%topic%/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010218 do publish2 stat/%topic%/speed 3,2 endon on TuyaReceived#Data=55AA03070005030400010319 do publish2 stat/%topic%/speed 3,3 endon
-Rule1 1
+Backlog Rule1 on tuyareceived#dptype4id3 do publish stat/%topic%/speed %value% endon; Rule1 1
 ```
 
-This will monitor the TuyaMCU for changes to the speed of the fan and publish them to MQTT. Additional information can be found in the TuyaMCU Guide as well as the DS02S guide.
+This will monitor TuyaMCU messages for changes to the speed of the fan and publish them to MQTT. Additional information can be found in the TuyaMCU Guide as well as the DS02S guide.
 
 
-#### Home Assistant Fan YAML:
-{% highlight yaml %}{% raw %}fan:
+## Home Assistant 
+### Using speed percentage
+```yaml
+{% raw %}fan:
   - platform: mqtt
     name: "TreatLife Fan"
-    state_topic: "stat/Treatlife-DS02/POWER1"
-    command_topic: "cmnd/Treatlife-DS02/POWER1"
-    preset_mode_state_topic: "stat/Treatlife-DS02/speed"
-    preset_mode_command_topic: "cmnd/Treatlife-DS02/TuyaSend4"
-    qos: 0
+    state_topic: "stat/%topic%/RESULT"
+    state_value_template: "{{ value_json.POWER1 }}"
+    command_topic: "cmnd/%topic%/POWER1"
     payload_on: 'ON'
     payload_off: 'OFF'
-    preset_mode_command_template: >
-      {% if value == 'low' %}
-        3,1
-      {% elif value == 'medium' %}
-        3,2
-      {% elif value == 'high' %}
-        3,3
-      {% endif %}
-    preset_mode_value_template: >
-      {% if value == '3,1' %}
-        low
-      {% elif value == '3,2' %}
-        medium
-      {% elif value == '3,3' %}
-        high
-      {% endif %}
-    availability_topic: tele/Treatlife-DS03/LWT
-    payload_available: Online
-    payload_not_available: Offline
+    percentage_state_topic: "stat/%topic%/speed"
+    percentage_command_topic: "cmnd/%topic%/tuyasend4"
+    percentage_command_template: "3,{{ value }}"
+    speed_range_max: 2
+    availability:
+      - topic: tele/%topic%/LWT
+      - payload_available: Online
+      - payload_not_available: Offline{% endraw %}
+```
+### Using presets
+```yaml
+{% raw %}fan:
+  - platform: mqtt
+    name: "TreatLife Fan"
+    state_topic: "stat/%topic%/RESULT"
+    state_value_template: "{{ value_json.POWER1 }}"
+    command_topic: "cmnd/%topic%/POWER1"
+    payload_on: 'ON'
+    payload_off: 'OFF'
+    preset_mode_state_topic: "stat/%topic%/speed"
+    preset_mode_command_topic: "cmnd/%topic%/TuyaSend4"
+    preset_mode_command_template: "3,{% if value == 'low' %}1{% elif value == 'medium' %}2{% elif value == 'high' %}3{% endif %}"
+    preset_mode_value_template: "{% if value == '1' %}low{% elif value == '2' %}medium{% elif value == '3' %}high{% endif %}"
     preset_modes:
-      - 'low'
-      - 'medium'
-      - 'high'{% endraw %}
-{% endhighlight %}
+      - "low"
+      - "medium"
+      - "high"
+    availability:
+      - topic: tele/%topic%/LWT
+      - payload_available: Online
+      - payload_not_available: Offline{% endraw %}
+```

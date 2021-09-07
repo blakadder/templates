@@ -8,7 +8,7 @@ link: https://www.banggood.com/DC7-28-or-5V-ESP8266-WIFI-4-Channel-30A-Relay-Mod
 link2: https://www.aliexpress.com/item/1005002699780454.html
 mlink: 
 flash: serial
-category: switch
+category: relay
 type: Relay
 standard: global
 ---

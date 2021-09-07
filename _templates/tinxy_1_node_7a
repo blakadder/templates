@@ -8,7 +8,7 @@ link: https://tinxy.in/single-node-switch/
 link2: 
 mlink: https://tinxy.in/single-node-switch/
 flash: serial
-category: switch
+category: relay
 type: Switch Module
 standard: in
 ---
