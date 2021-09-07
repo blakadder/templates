@@ -21,7 +21,7 @@ Backlog Rule1 on tuyareceived#dptype4id3 do publish stat/%topic%/speed %value% e
 1. Add the following to Home Assistant to your FAN section, replace `%topic%` with device topic:
 
 ```yaml
-- platform: mqtt
+{% raw %}- platform: mqtt
   name: "Flat Bedroom Fan"
   state_topic: "stat/%topic%/POWER1"
   command_topic: "cmnd/%topic%/POWER1"
@@ -58,7 +58,7 @@ Backlog Rule1 on tuyareceived#dptype4id3 do publish stat/%topic%/speed %value% e
   availability
     - topic: "tele/%topic%/LWT"
     - payload_available: Online
-    - payload_not_available: Offline
+    - payload_not_available: Offline{% endraw %}
 ```    
 
 Note: Home Assistant only has one oscilation command/topic per fan.  The example above will allow control of the horizontal direction.  To control the vertical direction, change POWER2 to POWER3.
