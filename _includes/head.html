@@ -6,7 +6,7 @@
 
 <!-- Define multiple use variables -->
 {% capture pagetitle %}
-{% if page.template != nil or page.template9 != nil or page.template32 != nil or page.templatec3 != nil or page.category != nil %}{{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%}Bulb{% endif %} {% if page.model != nil %}({{ page.model | escape }}){% endif %}Configuration for Tasmota {% elsif page.category == "unsupported" %}{{ page.title | escape }}{{ page.type | escape }} is not supported by Tasmota! {% else %}{{ page.title | escape }} {% endif %}
+{% if page.template != nil or page.template9 != nil or page.template32 != nil or page.templatec3 != nil or page.category != nil %}{{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%}Bulb {% endif %}{% if page.model != nil %}({{ page.model | escape }}) {% endif %}Configuration for Tasmota {% elsif page.category == "unsupported" %}{{ page.title | escape }}{{ page.type | escape }} is not supported by Tasmota! {% else %}{{ page.title | escape }} {% endif %}
 {% endcapture %}
 
 {% capture description %}
