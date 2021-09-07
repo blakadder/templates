@@ -9,7 +9,7 @@ link2: https://www.aliexpress.com/item/1005002870933639.html
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 Solder the 6-way and 7-way header pins in place and link the RY1 to IO16 pins on the 7-way, use the 6-way for programming.
