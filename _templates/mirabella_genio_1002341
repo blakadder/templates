@@ -9,6 +9,11 @@ template: '{"NAME":"Genio 1","GPIO":[0,0,56,0,0,0,0,0,21,17,0,0,0],"FLAG":0,"BAS
 mlink: https://mirabellagenio.net.au/smart-adaptor
 unsupported: true
 ---
+
+Batch Code on the unsupported device is " 2042", while the device that is happily running tasmota is "1943".
+
+------
+
 This is a simple smart plug with the addition of a USB port. It is ESP8266 based featuring a On/OFF monenatary push button, 2 LEDs and 2 relays to switch the mains output. The USB port  is 'always on' and is not access this from the ESP module.
 Opening up the device is easy. Two 2 screws are removed from the back panel then a small amount of gentle prying removed the cover exposing the components. Two more screws hold the PCB in place.
 
