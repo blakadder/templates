@@ -1,57 +1,67 @@
 ---
 date_added: 2020-07-01
-title: Geek Aire AF1s
+title: Geek Aire 
+model: AF1s
 category: misc
 type: Fan
 standard: us
 flash: tuya-convert
 image: https://images-na.ssl-images-amazon.com/images/I/61-GFBnsBML._AC_SL1000_.jpg
-template: '{"NAME":"Geek Aire Fan","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
+template: '{"NAME":"Duux Beam","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 12,4 | TuyaMCU 13,5"}'
 link: https://www.amazon.com/Geek-Aire-Circulator-Oscillating-Compatible/dp/B082WBPWBF
 ---
 
-1. Install Tasmota Version 7+.
-1. Run the command `Backlog TuyaMCU 12,4; TuyaMCU 13,5`
-1. Run the command 
+## Home Assistant Integration
+Set a rule 
 
 ```console                 
-Rule1 on TuyaReceived#Data=55AA03070005030400010016 do publish2 stat/af1sfan/speed 3,0 endon on TuyaReceived#Data=55AA03070005030400010117 do publish2 stat/af1sfan/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010218 do publish2 stat/af1sfan/speed 3,2 endon on TuyaReceived#Data=55AA03070005030400010319 do publish2 stat/af1sfan/speed 3,3 endon
-Rule1 1
+Backlog Rule1 on tuyareceived#dptype4id3 do publish stat/%topic%/speed %value% endon on tuyareceived#dptype4id2 do publish stat/%topic%/mode %value% endon; Rule1 1
 ```
 
-1. Add the following to Home Assistant to your FAN section:
+1. Add the following to Home Assistant to your FAN section, replace `%topic%` with device topic:
 
 ```yaml
 - platform: mqtt
   name: "Flat Bedroom Fan"
-  state_topic: "stat/af1sfan/POWER1"
-  command_topic: "cmnd/af1sfan/POWER1"
-  oscillation_state_topic: "stat/af1sfan/POWER2" 
-  oscillation_command_topic: "cmnd/af1sfan/POWER2"
-  speed_state_topic: "stat/af1sfan/speed"
-  speed_command_topic: "cmnd/af1sfan/TuyaSend4"
-  qos: 0
+  state_topic: "stat/%topic%/POWER1"
+  command_topic: "cmnd/%topic%/POWER1"
+  oscillation_state_topic: "stat/%topic%/POWER2" 
+  oscillation_command_topic: "cmnd/%topic%/POWER2"
   payload_on: 'ON'
   payload_off: 'OFF'
   payload_oscillation_on: 'ON'
   payload_oscillation_off: 'OFF'
-  payload_low_speed: '3,0'
-  payload_medium_speed: '3,1'
-  payload_high_speed: '3,3'
-  availability_topic: tele/af1sfan/LWT
-  payload_available: Online
-  payload_not_available: Offline
-  speeds:
-    - low
-    - medium
-    - high
+  percentage_state_topic: "stat/%topic%/speed"
+  percentage_command_topic: "cmnd/%topic%/TuyaSend4"
+  percentage_command_template: "3,{{ value }}"
+  speed_range_min: 0
+  speed_range_max: 3
+  preset_modes:
+    - breeze
+    - sleep
+    - normal
+    - smart
+  preset_mode_state_topic: "stat/%topic%/mode"
+  preset_mode_value_template: "{%set m=value|int%}{%if m==0%}breeze{%elif m==1%}sleep{%elif m==2%}normal{%elif m==3%}smart{%else%}Unknown{%endif%}"
+  preset_mode_command_topic: "cmnd/%topic%/TuyaSend4"
+  preset_mode_command_template: >-
+    3,
+    {% if value == 'breeze' %}
+    0
+    {% elsif value == 'sleep' %}
+    1
+    {% elsif value == 'normal' %}
+    2
+    {% elsif value == 'smart' %}
+    3
+    {% endif %}
+  availability
+    - topic: "tele/%topic%/LWT"
+    - payload_available: Online
+    - payload_not_available: Offline
 ```    
 
-Notes:
-1. Home Assistant only has one oscilation command/topic per fan.  The example above will allow control of the horizontal direction.  To control the vertical direction, change POWER2 to POWER3.
-1. MQTT fans in home assistant only have 3 speeds.  The example above is mapped as follows on the device display: LOW = 1, MED = 2, HIGH = 4
-
-```
+Note: Home Assistant only has one oscilation command/topic per fan.  The example above will allow control of the horizontal direction.  To control the vertical direction, change POWER2 to POWER3.
 
 ## DPID Features
 
