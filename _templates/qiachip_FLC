@@ -16,6 +16,7 @@ flash: replace
 ![Before and after](/assets/images/qiachip_FLC_beforeafter.jpg)
 
 ## Functions
+Remote will continue to function with the new module and Tasmota.
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
