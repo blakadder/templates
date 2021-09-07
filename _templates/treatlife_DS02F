@@ -46,10 +46,9 @@ This will monitor TuyaMCU messages for changes to the speed of the fan and publi
     percentage_command_topic: "cmnd/%topic%/tuyasend4"
     percentage_command_template: "3,{{ value }}"
     speed_range_max: 2
-    availability:
-      - topic: tele/%topic%/LWT
-      - payload_available: Online
-      - payload_not_available: Offline{% endraw %}
+    availability_topic: "tele/%topic%/LWT"
+    payload_available: Online
+    payload_not_available: Offline{% endraw %}
 ```
 ### Using presets
 ```yaml
@@ -69,8 +68,7 @@ This will monitor TuyaMCU messages for changes to the speed of the fan and publi
       - "low"
       - "medium"
       - "high"
-    availability:
-      - topic: tele/%topic%/LWT
-      - payload_available: Online
-      - payload_not_available: Offline{% endraw %}
+    availability_topic: "tele/%topic%/LWT"
+    payload_available: Online
+    payload_not_available: Offline{% endraw %}
 ```
