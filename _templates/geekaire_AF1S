@@ -55,10 +55,10 @@ Backlog Rule1 on tuyareceived#dptype4id3 do publish stat/%topic%/speed %value% e
     {% elsif value == 'smart' %}
     3
     {% endif %}
-  availability
+  availability:
     - topic: "tele/%topic%/LWT"
-    - payload_available: Online
-    - payload_not_available: Offline{% endraw %}
+    - payload_available: "Online"
+    - payload_not_available: "Offline"{% endraw %}
 ```    
 
 Note: Home Assistant only has one oscilation command/topic per fan.  The example above will allow control of the horizontal direction.  To control the vertical direction, change POWER2 to POWER3.
