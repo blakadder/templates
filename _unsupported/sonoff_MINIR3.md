@@ -5,7 +5,7 @@ model: MINIR3
 type: Switch Module
 category: unsupported
 image: /assets/images/sonoff_MINIR3.jpg
-link: 
+link: https://itead.cc/product/sonoff-minir3-smart-switch/
 mlink: 
 flash: BL-602L20
 ---

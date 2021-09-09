@@ -1,12 +1,12 @@
 ---
 date_added: 2020-06-14
-title: Bardi Smart Wallswitch 1 
+title: Bardi Smart Wallswitch 1 Gang
 model: 
 image: /assets/images/bardi_smart_wallswitch_1.jpg
 template: '{"NAME":"Bardi 1 Gang","GPIO":[57,56,157,0,0,17,0,0,0,0,0,21,0],"FLAG":0,"BASE":18}' 
-link: https://bardi.co.id/products/light-wallswitch-1-gang-1-eu-wht-blk/
+link: 
 link2: 
-mlink: 
+mlink: https://bardi.co.id/products/light-wallswitch-1-gang-1-eu-wht-blk/
 flash: tuya-convert
 category: switch
 type: Switch
