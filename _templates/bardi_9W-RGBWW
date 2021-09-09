@@ -1,0 +1,14 @@
+---
+date_added: 2021-09-09
+title: Bardi 9W 900lm
+model: 9W-RGBWW
+image: /assets/images/bardi_9W-RGBWW.jpg
+template9: '{"NAME":"Bardi 9W RGBWW","GPIO":[0,0,0,0,417,416,0,0,420,418,419,0,0,0],"FLAG":0,"BASE":20}' 
+link: https://www.tokopedia.com/bardistore/bardi-smart-light-bulb-rgb-ww-9w-wifi-wireless-iot-for-home-automation
+link2: 
+mlink: https://bardi.co.id/products/smart-bulb-9w-rgbww/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
