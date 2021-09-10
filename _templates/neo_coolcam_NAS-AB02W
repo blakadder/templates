@@ -1,5 +1,5 @@
 ---
-date_added: 2021-04-26
+date_added: 2021-09-06
 title: NEO Coolcam Temperature and Humidity 3in1 Alarm
 model: NAS-AB02W
 image: /assets/images/neo_coolcam_NAS-AB02W.jpg
@@ -8,7 +8,7 @@ link: https://www.aliexpress.com/item/33042023659.html
 link2: https://www.banggood.com/NEO-WiFi-USB-Siren-Alarm-3-In-1-With-Temperature-Humidity-sensor-Work-with-Amazon-Google-Home-Assistant-Tuya-p-1808799.html
 link3: https://www.amazon.de/dp/B08D76YHFT
 mlink: https://www.szneo.com/en/products/show.php?id=230
-flash: tuya-convert
+flash: serial
 category: sensor
 type: Siren
 standard: global
@@ -40,7 +40,7 @@ Steps:
 - Hold the TX and RX from the serial to the pads "RXD0" and "TXD0" (cross the streams)
 - Flash tasmota.bin
 
-![/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg](/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg)
+![flash-pads](/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg)
 
 ## Functions
 - dpId 101 - power type (1 - battery high; 2 - medium; 3 - low; 4 - usb port)
@@ -51,15 +51,15 @@ Steps:
     - 3 - ring ring
     - 4 - lone ranger
     - 5 - turkish march
-    - 6 - high pitch siren
+    - 6 - high pitched
     - 7 - red alert
-    - 8 - cricket
-    - 9 - beep beep
-    - 10 - dogs
-    - 11 - police
+    - 8 - crickets
+    - 9 - beep
+    - 10 - dog bark
+    - 11 - police siren
     - 12 - grandfather clock
     - 13 - phone ring
-    - 14 - firetruck
+    - 14 - fire truck
     - 15 - clock chime
     - 16 - alarm clock
     - 17 - school bell
@@ -89,16 +89,6 @@ Finish configuring with these options
 Backlog TuyaEnumList 1,17; TuyaEnumList 2,2; Rule0 1; SetOption65 1; TempRes 1; HumRes 0
 ```
 
-## Home Assistant Configuration
-
-Add necessary rules:
-
-```console
-Rule3 on tuyareceived#dptype2id103 do publish %topic%/alarmduration %value% endon on var1#state do tuyasend2 103,%value% endon on tuyareceived#dptype4id101 do publish %topic%/battery %value% endon on tuyareceived#dptype4id102 do publish %topic%/chime %value% endon on tuyareceived#dptype4id116 do publish %topic%/alarmvolume %value% endon
-```
-
-<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-tuya_siren.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-tuya_siren.yaml)
-
 Commands for control:
 - `Power1` - Chime on/off
 - `TuyaEnum1` - Chime type
@@ -112,6 +102,21 @@ Commands for control:
 - `TuyaSend2 113,0` - Disable temperature alarm control
 - `TuyaSend2 114,0` - Disable humidity alarm control
 - `TuyaSend4 116,2` - Set alarm volume to low
+
+## Home Assistant Configuration
+
+Add necessary rules:
+```console
+rule2 on event#doorbell do tuyasend4 102,0 endon on event#fur elise do tuyasend4 102,1 endon on event#big ben do tuyasend4 102,2 endon on event#ring ring do tuyasend4 102,3 endon on event#lone ranger do tuyasend4 102,4 endon on event#turkish march do tuyasend4 102,5 endon on event#high pitched do tuyasend4 102,6 endon on event#red alert do tuyasend4 102,7 endon on event#crickets do tuyasend4 102,8 endon on event#beep do tuyasend4 102,9 endon on event#dog bark do tuyasend4 102,10 endon on event#police siren do tuyasend4 102,11 endon on event#grandfather clock do tuyasend4 102,12 endon on event#phone ring do tuyasend4 102,13 endon on event#fire truck do tuyasend4 102,14 endon on event#clock chime do tuyasend4 102,15 endon on event#alarm clock do tuyasend4 102,16 endon on event#school bell do tuyasend4 102,17 endon on event#high do tuyasend4 116,0 endon on event#medium do tuyasend4 116,1 endon on event#low do tuyasend4 116,2 endon
+```
+
+```console
+rule3 on tuyareceived#dptype2id103 do publish %topic%/alarmduration %value% endon on var1#state do tuyasend2 103,%value% endon on tuyareceived#dptype4id101 do publish %topic%/battery %value% endon on tuyareceived#dptype4id102 do publish %topic%/chime %value% endon on tuyareceived#dptype4id116 do publish %topic%/alarmvolume %value% endon on var6#state do tuyasend4 116,%value% endon
+```
+
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-tuya_siren.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-tuya_siren.yaml)
+
+![Entities](/assets/images/neo_coolcam_NAS-AB02W_ui.jpg)
 
 ## configuration.yaml 
 
@@ -154,44 +159,46 @@ sensor:
   - platform: mqtt
     name: "Active Chime"
     state_topic: "%topic%/chime"
+    command_topic: "cmnd/%topic%/event"
     value_template: >-
         {% raw %}{% if value == "0" %} 
-        doorbell
+        Doorbell
         {% elif value == "1" %} 
-        elise
+        Fur Elise
         {% elif value == "2" %} 
-        big ben
+        Big Ben
         {% elif value == "3" %} 
-        ring ring
+        Ring Ring
         {% elif value == "4" %} 
-        lone ranger
+        Lone Ranger
         {% elif value == "5" %} 
-        turkish march
+        Turkish March
         {% elif value == "6" %} 
-        high pitch
+        High Pitched
         {% elif value == "7" %} 
-        red alert
+        Red Alert
         {% elif value == "8" %} 
-        crickets
+        Crickets
         {% elif value == "9" %} 
-        beep beep
+        Beep
         {% elif value == "10" %} 
-        dog bark
+        Dog Bark
         {% elif value == "11" %} 
-        police
+        Police Siren
         {% elif value == "12" %} 
-        chime
+        Grandfather Clock
         {% elif value == "13" %} 
-        phone ring
+        Phone Ring
         {% elif value == "14" %} 
-        firetruck
+        Fire Truck
         {% elif value == "15" %} 
-        clock chime
+        Clock Chime
         {% elif value == "16" %} 
-        alarm clock
+        Alarm Clock
         {% elif value == "17" %} 
-        psycho
+        School Bell
         {% endif %}{% endraw %}
+    options: ["Doorbell","Elise","Big Ben","Ring Ring","Lone Ranger","Turkish March","High Pitched","Red Alert","Crickets","Beep","Dog Bark","Police Siren","Grandfather Clock","Phone Ring","Fire Truck","Clock Chime","Alarm Clock","School Bell"]
     icon: "mdi:music-note"
     availability_topic: "tele/siren/LWT"
     payload_available: "Online"

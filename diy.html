@@ -11,7 +11,7 @@ navigation: 24
 {% assign type_grouped = type_group | sort: 'name' %}
 {% for group in type_grouped %}
 <BR>
-<h3><a id="{{ group }}">{{ group.name }}</a></h3>
+<h3><a id="{{ group.name | downcase }}"></a>{{ group.name }}</h3>
 <table id="{{ group.name }}" width="80%">
     <tbody>
     {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
