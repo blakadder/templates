@@ -1,0 +1,20 @@
+---
+date_added: 2021-09-10
+title: Earda 3-Way 
+model: ESW-1WAA-US
+image: /assets/images/eardatek_ESW-1WAA-US.jpg
+template9: '{"NAME":"ESW-1WAA-US","GPIO":[160,0,0,0,320,0,0,0,0,224,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://tessan.com/3-way-smart-switch-tessan-wifi-light-switch-work-with-alexa-and-google-assistant
+link2: https://www.moeshouse.com/collections/us-smart-switch/products/3-way-wifi-smart-light-switch-us-version
+link3: https://www.aliexpress.com/wholesale?SearchText=%22ESW-1WAA-US%22
+mlink: https://www.alibaba.com/product-detail/Earda-New-Products-US-Standard-Wifi_1600104242927.html
+flash: replace
+chip: WB3S
+category: switch
+type: Switch
+standard: us
+---
+This dimmer switch is manufactured by Earda Technologies and sold under many brands such Girier, Lonsonho, Moes, Tessan, white label and more.
+
+## Serial Flash
+Unit contains a WB3S tuya chip.  I transplanted an ESP12F module in it's place pre-flashed with tasmota via serial flash.  If you use ESP-12F/E module, you must ground GPIO15 with a piece of wire or solder or the switch won't power on.
