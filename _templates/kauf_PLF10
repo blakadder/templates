@@ -6,10 +6,11 @@ image: /assets/images/kauf_PLF10.jpg
 template9: '{"NAME":"KAUF Plug","GPIO":[576,0,320,0,224,2720,0,0,2624,32,2656,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B09D68P39F
 link2: 
-mlink: 
+mlink: https://www.kaufha.com/
 flash: OTA
 category: plug
 type: Plug
 standard: us
 ---
-Connect to device WiFi, upload Tasmota
+## Flashing 
+To convert to Tasmota, simply download tasmota.bin.gz, browse to the plug’s IP address in a web browser, and use the web page to flash.
