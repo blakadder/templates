@@ -1,0 +1,62 @@
+---
+date_added: 2020-09-07
+title: Sonoff Basic R2
+model: BASICR2
+category: relay
+type: Switch Module
+standard: global
+image: /assets/images/sonoff_BASICR2.jpg
+template: '{"NAME":"Sonoff BASICR2","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
+link1: https://www.itead.cc/smart-home/sonoff-wifi-wireless-switch.html
+link2: https://www.banggood.com/SONOFF-Basic-10A-2200W-WIFI-Wireless-Smart-Switch-Remote-Control-Socket-APP-Timer-p-1019971.html
+link3: https://www.aliexpress.com/item/1005001846041233.html
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/basicr2
+---
+
+Around November 2018, Itead changed the layout of the Sonoff Basic ([issue #4515](https://github.com/arendst/Tasmota/issues/4515)). Later on, Itead made a few board revisions with noticeable layout changes. New boards are labelled as **Sonoff RF R2 POWER V1.x**. Easily discerned from original Sonoff Basic since its using wires instead of thick solder traces for mains power.
+
+GPIO14 is no longer broken out to a contact on the PCB. Instead you can use GPIO2 labeled as `IO2` on the board. _**Take care that GPIO2 is not being pulled low when the device is booting**_. Otherwise, the device will not boot into its regular operational mode. 
+
+Alternatively, you can use [use GPIO3](https://www.youtube.com/watch?v=yavDqDzRdUk) which does not have any boot function restrictions. However, both of these GPIOs are pulled high momentarily after boot. This means that any connected device may "blink" when the Sonoff is powering up.
+
+Unlike GPIO3, the GPIO2 PCB contact is not prepared for a pin. You will need to solder your cable directly on the board. Be careful. Too high a temperature or long heating can damage the contact and its connectivity. You should also make sure that there is no tension on the cable. Affix the cable with a cable tie and perhaps some hot glue.
+
+* GPIO0 = BUTTON
+* GPIO2 = IO2 (no pullup)
+* GPIO12 = RELAY
+* GPIO13 = LED1
+
+## V1.0
+[<img src="https://camo.githubusercontent.com/7ee22f14cc707c04fa8ac357e4dd2a05da63852e/68747470733a2f2f7331352e64697265637475706c6f61642e6e65742f696d616765732f3138313132382f76653971673936382e6a7067" height="200" alt="label">
+](https://camo.githubusercontent.com/7ee22f14cc707c04fa8ac357e4dd2a05da63852e/68747470733a2f2f7331352e64697265637475706c6f61642e6e65742f696d616765732f3138313132382f76653971673936382e6a7067)
+[<img src="https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/sonoff-basic-r2/front.jpg" width="200" alt="front">](https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/sonoff-basic-r2/front.jpg)
+[<img src="https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/sonoff-basic-r2/back.jpg" width="200" alt="back">](https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/sonoff-basic-r2/back.jpg)
+[<img src="https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/sonoff-basic-r2/chip.jpg" width="200" alt="chip">](https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/sonoff-basic-r2/chip.jpg)
+
+## V1.3
+![V1.3 PCB](/assets/images/sonoff_BASICR2_1.3.jpg)
+![V1.3 PCB](/assets/images/sonoff_BASICR2_1.3_back.jpg)
+
+Image from [elty.pl](https://elty.pl/SonoffBasicR2PCBv13).
+
+## V1.4
+LEDs are now blue and red (previously green and red).
+![V1.4 PCB](/assets/images/sonoff_BASICR2_1.4.jpg)
+![V1.4 PCB back](/assets/images/sonoff_BASICR2_1.4_back.jpg)
+
+Image and more info from [creationx.de](https://forum.creationx.de/forum/index.php?thread/2958-sonoff-rf-r2-power-v1-4-flash-modus-f%C3%BCr-tasmota-per-ftdi232/)
+
+## Serial Flashing
+
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
+
+![Sonoff Basic connection diagram](https://user-images.githubusercontent.com/5904370/57880182-69bf2f80-781e-11e9-8953-88599cb89155.png)
+
+You need to access the serial interface. The **four serial pins** (3V3, RX, TX, GND) are labelled. Hold the button while powering to enter flash mode, GPIO0 is also connected to the KEY pad. The LED remains off until the flashing process is done and the board is rebooted.
+
+## Alternative to IO2
+As an alternative to IO2 you can remove the bi-colour LED and use GPIO13 as input
+
+![use gpio13](https://user-images.githubusercontent.com/47423730/52523999-1c1fad80-2c98-11e9-9b86-f50d82ff18cc.jpg)
+
+You can remove the thick wires from the PCB to use the screw connection on the output side for low voltage. Then add a screw terminal next to the relay for the LINE OUT. This keeps all high voltage on one side of the board
