@@ -6,7 +6,7 @@ image: /assets/images/athom_PG01EU16A.jpg
 template9: '{"NAME":"Athom Power Monitoring Plug","GPIO":[0,0,0,32,2720,2656,0,0,2624,544,224,0,0,1],"FLAG":0,"BASE":18}'
 mlink: https://www.athom.tech/blank-1/color-smart-plug
 link: https://www.aliexpress.com/item/4001230982267.html
-link2: 
+link2:
 flash: preflashed
 category: plug
 type: Plug
@@ -15,3 +15,7 @@ standard: eu
 How to [open the plug](https://blakadder.com/disassembling-CN39/)
 
 ![PCB](/assets/images/athom_PG01EU16A_pcb.jpg)
+
+In case you need to reflash the ESP:
+
+![flashing points](/assets/images/athom_PG01EU16A_reflashing.jpg)
