@@ -6,7 +6,7 @@ category: relay
 type: Switch Module
 standard: global
 flash: serial
-template9: '{"NAME":"Sonoff POWR3","GPIO":[32,3072,0,3104,0,0,0,0,256,320,0,0,0,0],"FLAG":0,"BASE":43}' 
+template9: '{"NAME":"Sonoff POWR3","GPIO":[32,3072,0,3104,0,0,0,0,256,320,0,255,255,255],"FLAG":0,"BASE":43}' 
 image: /assets/images/sonoff_POWR3.jpg
 mlink: https://sonoff.tech/product/diy-smart-switch/powr3/
 link: https://itead.cc/product/sonoff-powr3/
