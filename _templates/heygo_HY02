@@ -1,0 +1,15 @@
+---
+date_added: 2021-09-11
+title: Heygo 02
+model: HY02
+image: /assets/images/heygo_HY02.jpg
+template9: '{"NAME":"Heygo 02","GPIO":[0,0,0,0,320,0,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B075DJL39W/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---
+Device hard to open, newer devices do not support Tuya Convert anymore.
