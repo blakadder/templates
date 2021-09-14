@@ -7,7 +7,7 @@ template32: '{"NAME":"RobotDyn ESP32R4","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 link: https://www.aliexpress.com/item/1005003153036762.html
 link2: 
 mlink: https://robotdyn.com/catalog/smarthome/esp32-4-relays-controller-board-for-wi-fi-or-bluetooth-smart-home-system-equipment-control-programmable-esp32-4-relays-controller-board-for-wi-fi-or-bluetooth-smart-home-system-equipment-control-programmable-esp32-4-relays-controller-boa
-flash: serial
+flash: preflashed
 category: relay
 type: Relay Board
 standard: global
