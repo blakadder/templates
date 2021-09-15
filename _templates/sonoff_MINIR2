@@ -1,7 +1,7 @@
 ---
 date_added: 2020-11-30
-title: Sonoff MINIR2
-model: M0802010010
+title: Sonoff Mini R2
+model: MINIR2
 category: relay
 type: Switch Module
 standard: global
