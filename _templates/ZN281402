@@ -3,15 +3,15 @@ date_added: 2021-03-29
 title: Tuya Smart Remote
 model: ZN281402
 image: /assets/images/ZN281402.jpg
-template9: '{"NAME":"IR Controller","GPIO":[1,1,1,1,1,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
+template9: '{"NAME":"IR Controller","GPIO":[1,1,1,1,1,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}'
 link: https://www.aliexpress.com/item/1005001902324888.html
 link2: https://www.aliexpress.com/item/1005001896157964.html
-mlink: 
+mlink:
 flash: serial
 category: misc
 type: IR Controller
 standard: global
 ---
-Open the device and you will promptly see the TX, RX, GND, 3.3V and GPIO0 pads. Just solder jumper cables to these pins and flash. It uses the same template as this device (https://templates.blakadder.com/ytf_ir_bridge.html). NOTE: The device I bought keeps making a "humming" sound that bothers me. I dont know if that's a problem with my device only.
+Open the device and you will promptly see the TX, RX, GND, 3.3V and GPIO0 pads. Just solder jumper cables to these pins and flash. It uses the same template as [this device](https://templates.blakadder.com/ytf_ir_bridge.html). NOTE: The device I bought keeps making a "humming" sound that bothers me. I dont know if that's a problem with my device only.
 
 ![Packaging](/assets/images/ZN281402_packaging.jpg)

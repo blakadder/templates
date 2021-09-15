@@ -1,0 +1,14 @@
+---
+date_added: 2021-09-14
+title: ESP32 4 Channel
+model: ESP32R4
+image: /assets/images/robotdyn_ESP32R4.jpg
+template32: '{"NAME":"RobotDyn ESP32R4","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,224,225,1,227,226,32,33,34,35],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005003153036762.html
+link2: 
+mlink: https://robotdyn.com/catalog/smarthome/esp32-4-relays-controller-board-for-wi-fi-or-bluetooth-smart-home-system-equipment-control-programmable-esp32-4-relays-controller-board-for-wi-fi-or-bluetooth-smart-home-system-equipment-control-programmable-esp32-4-relays-controller-boa
+flash: preflashed
+category: relay
+type: Relay Board
+standard: global
+---
