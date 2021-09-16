@@ -1,5 +1,5 @@
 ---
-date_added: 2021-04-21
+date_added: 2021-09-16
 title: Remote Control
 model: QRA2
 image: /assets/images/QRA2.jpg
@@ -7,6 +7,7 @@ template: '{"NAME":"DC-QRA2","GPIO":[0,0,0,0,56,51,0,0,0,17,8,0,0],"FLAG":0,"BAS
 link: https://www.aliexpress.com/item/1005002333610289.html
 link2: https://www.walmart.com/ip/QRA2-IR-Remote-Control-Smart-Home-WiFi-Remote-Control-Suitable-for-Assistant-One-for-All-Control-for-iOS-Android-Smart-Phones/414769920
 link3: https://www.amazon.com/dp/B08P1BCXZ5
+link4: https://www.banggood.com/A2-WIFI-Tuya-Smart-IR-Remote-Control-Infrared-Bluetooth-Wireless-Mobile-Phone-Infrared-Remote-Controller-p-1894039.html
 mlink: 
 flash: serial
 category: misc
