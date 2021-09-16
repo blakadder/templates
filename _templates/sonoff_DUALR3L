@@ -1,0 +1,19 @@
+---
+date_added: 2021-09-16
+title: Sonoff Dual R3 Lite
+model: DUALR3L
+image: /assets/images/sonoff_DUALR3L.jpg
+template32: '{"NAME":"Sonoff Dual R3 Lite","GPIO":[32,0,0,0,0,0,0,0,0,576,225,0,0,0,0,0,0,0,0,0,0,0,0,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.itead.cc/sonoff-dualr3.html
+link2: 
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/dualr3
+flash: serial
+category: relay
+type: Switch Module
+standard: global
+---
+![Differences](/assets/images/sonoff_DUALR3Lite_differences.jpg)
+
+## Serial Flashing
+
+see [DUALR3 instructions](sonoff_DUALR3)
