@@ -1,6 +1,6 @@
 ---
 date_added: 2021-08-15
-title: Sonoff 25A 5500W 
+title: Sonoff POW R3 25A 5500W 
 model: POWR3
 category: relay
 type: Switch Module
@@ -11,6 +11,7 @@ image: /assets/images/sonoff_POWR3.jpg
 mlink: https://sonoff.tech/product/diy-smart-switch/powr3/
 link: https://itead.cc/product/sonoff-powr3/
 link2: https://www.domadoo.fr/fr/peripheriques/5853-sonoff-commutateur-intelligent-wifi-haute-puissance-25a.html
+link3: https://www.aliexpress.com/item/1005002994154061.html
 ---
 
 ## Serial Flashing 

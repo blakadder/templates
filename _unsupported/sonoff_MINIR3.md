@@ -1,6 +1,6 @@
 ---
 date_added: 2021-08-10
-title: Sonoff MINIR3
+title: Sonoff Mini R3
 model: MINIR3
 type: Switch Module
 category: unsupported
