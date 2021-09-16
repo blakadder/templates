@@ -1,6 +1,6 @@
 ---
 date_added: 2021-09-04
-title: ESP-12 (E/F/S)
+title: ESP-12E / ESP-12F / ESP-12S
 model: ESP-12
 image: /assets/images/ESP-12.jpg
 link: https://www.aliexpress.com/item/1005001320458012.html
@@ -12,18 +12,23 @@ category: diy
 type: Module
 standard: global
 ---
-ESP-12(E/F/S) is the most common Wi-Fi module format and is pin compatible with many non-Espressif devices. 
+ESP-12(E/F/S) is the most common Wi-Fi module format and is pin compatible with other non-Espressif modules such a WB3L, WB3S, WR3, WR3E, WR3L, WR3N, CB3S, CB3L and more 
 
 ESP-12E/F modules need the GPIO15 pulled low and CH_PD or EN pin pulled high to boot.
 
-ESP-12S modules need the GPIO15 pulled low and CH_PD or EN pin pulled high to boot.
+ESP-12S modules have those pins already pulled internally.
 
-## Serial Flashing
+## Serial Flashing ESP-12S
+![Wiring ESP-12S](/assets/images/ESP-12S_wiring.jpg)
 
-![Wiring](/assets/images/ESP-12_wiring.jpg)
+[Datasheet](https://www.mouser.com/pdfDocs/ESP-12SDatasheet.pdf)
+## Serial Flashing ESP-12E/F
+
+![Wiring ESP-12E/F](/assets/images/ESP-12_wiring.jpg)
+
+[Datasheet](https://github.com/SmartArduino/ESPwifi/raw/master/ESP8266-12F_doc.pdf)
 
 You can purchase ([AliExpress](https://www.aliexpress.com/item/1005002668365356.html?aff_fcid=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&tt=CPS_NORMAL&aff_fsk=_9uLaGw&aff_platform=shareComponent-detail&sk=_9uLaGw&aff_trace_key=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&terminal_id=c60aa1c2bd3d4f80907b0cc2716fb935), [Amazon](https://amzn.to/3tcVi5c), [Banggood](https://www.banggood.com/ESP8266-Test-Board-Burner-Development-Board-WIFI-Module-For-ESP-01-ESP-01S-ESP-12E-ESP-12F-ESP-12S-ESP-18T-p-1684992.html?p=CM27171011078201412U&custlinkid=1640377)) a test board for eforless flashing. Just drop the module in, plug in the USB cable and flash!
 
 ![Test Board](/assets/images/esp_test_board.jpg)
 
-[Datasheet](https://github.com/SmartArduino/ESPwifi/raw/master/ESP8266-12F_doc.pdf)
