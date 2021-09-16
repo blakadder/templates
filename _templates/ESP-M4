@@ -19,6 +19,6 @@ standard: global
 
 [Datasheet](https://github.com/SmartArduino/ESPwifi/blob/master/DOIT_DMP-P1(V1_0)_doc.pdf)
 
-Some versions of the module have a different pinout:
+Blue PCB versions of the module have a different pinout:
 
 ![Pinout 2](/assets/images/ESP-M4_pinout2.jpg)
