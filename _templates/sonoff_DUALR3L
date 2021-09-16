@@ -12,8 +12,9 @@ category: relay
 type: Switch Module
 standard: global
 ---
-![Differences](/assets/images/sonoff_DUALR3Lite_differences.jpg)
-
 ## Serial Flashing
 
 see [DUALR3 instructions](sonoff_DUALR3)
+
+![Differences](/assets/images/sonoff_DUALR3Lite_differences.jpg)
+
