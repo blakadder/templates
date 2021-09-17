@@ -1,6 +1,7 @@
 ---
 date_added: 2020-04-20
-title: Sonoff DW2 Door/Window
+title: Sonoff Door/Window
+model: DW2
 type: Sensor
 category: unsupported
 link: https://www.itead.cc/smart-home/sonoff-dw2.html
