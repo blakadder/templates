@@ -1,12 +1,12 @@
 ---
 date_added: 2021-08-04
 title: Liectroux C30B Robot Vacuum
-model: 
+model: C30B
 template9: '{"NAME":"Liectroux C30B","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
 image: /assets/images/liectroux_C30B.jpg
-link: https://s.click.aliexpress.com/e/_A5nBhg
-link2: https://www.amazon.com/LIECTROUX-Robotic-Cleaner-Navigation-Electric/dp/B07MGJKTZ1
-link3: https://www.gearbest.com/vacuum-cleaners/pp_3003276593845595.html
+link: https://www.aliexpress.com/item/32967651955.html
+link2: https://www.amazon.com/dp/B07MGJKTZ1
+link3: 
 flash: replace
 category: other
 type: Miscellaneous
@@ -23,7 +23,6 @@ Backlog Module 54; SetOption66 1
 ``` 
 
 ```json
-SerialSend5 55aa0001000000
 MCU Product ID: {"p":"imk0pcrtmyx9cbfg","v":"1.2.2","m":1}
 {"TuyaReceived":{"Data":"55AA03070005010100010112","Cmnd":7,"CmndData":"0101000101","DpType1Id1":1,"1":{"DpId":1,"DpIdType":1,"DpIdData":"01"}}}
 {"TuyaReceived":{"Data":"55AA030700050B050001001F","Cmnd":7,"CmndData":"0B05000100","DpType5Id11":"0x00","11":{"DpId":11,"DpIdType":5,"DpIdData":"00"}}}

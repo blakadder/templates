@@ -4,7 +4,7 @@ title: Generic GU10 5W 450lm
 link: https://www.ebay.com.au/itm/GU10-LED-Smart-Light-Bulb-Wireless-WiFi-App-Remote-Control-LED-For-Google-Home/202769659036
 image: /assets/images/generic-gu10-5w.jpg
 template: '{"NAME":"RGBCW GU10","GPIO":[0,255,0,255,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":3}' 
-link2: https://www.gearbest.com/smart-bulb/pp_009887720198.html
+link2: 
 mlink: 
 flash: tuya-convert
 category: bulb

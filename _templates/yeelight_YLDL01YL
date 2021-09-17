@@ -6,7 +6,7 @@ image: /assets/images/yeelight_YLDL01YL.jpg
 template32: '{"NAME":"Yeelight Meteorite","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,420,0,419,0,0,0,0,417,418,0,0,0,0,0,416,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"`SO37 128 | SO92 1"}' 
 link: https://www.banggood.com/YEELIGHT-LED-Smart-Meteorite-Chandelier-Pendant-Light-For-Restaurant-Dinner-Room-p-1416328.html
 link2: https://www.aliexpress.com/item/1005002192409971.html
-link3: https://www.gearbest.com/pendant-light/pp_009792951215.html
+link3: https://www.amazon.co.uk/dp/B084CVLSGD
 mlink: https://www.yeelight.com/en_US/product/nox-dl
 flash: serial
 chip: solo1

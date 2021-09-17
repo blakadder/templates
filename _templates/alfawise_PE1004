@@ -4,11 +4,11 @@ title: Alfawise PE1004T
 category: plug
 type: Plug
 standard: eu
-mlink: https://www.gearbest.com/smart-power-socket-plug/pp_009471124266.html
+mlink:  
 image: /assets/images/alfawise_PE1004T.jpg
 template: '{"NAME":"PE1004T","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/32976994890.html
-link2: https://www.alfawise.com/products/alfawise-pe1004t-smart-plug-mini-wifi-socket-eu-standard
+mlink: https://www.alfawise.com/products/alfawise-pe1004t-smart-plug-mini-wifi-socket-eu-standard
 ---
 
 # DISCONTINUED

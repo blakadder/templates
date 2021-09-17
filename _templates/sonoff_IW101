@@ -11,8 +11,8 @@ image: /assets/images/sonoff_IW101.jpg
 template: '{"NAME":"Sonoff IW101","GPIO":[17,145,0,146,0,0,0,0,21,157,0,0,0],"FLAG":0,"BASE":41}' 
 link: https://www.itead.cc/sonoff-iw100-iw101.html
 link2: https://www.aliexpress.com/item/1005001846133175.html
+link3: https://www.banggood.com/SONOFF-IW100-or-IW101-US-WiFi-Smart-Power-Monitoring-Wall-Socket-Switch-Work-with-Amazon-Alexa-and-Google-Assistant-Voice-Control-LAN-Control-p-1593946.html
 link4: https://www.amazon.com/Monitoring-Compatible-Schedule-Control-Required/dp/B083LJZGFK
-link3: https://www.gearbest.com/access-control/pp_009367259270.html
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
