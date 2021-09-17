@@ -6,6 +6,7 @@ image: /assets/images/shelly_DUO.jpg
 template: '{"NAME":"Shelly DUO","GPIO":[0,0,0,0,38,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B084KS23YZ/
 link2: https://www.domadoo.fr/fr/objets-communicants/5285-shelly-ampoule-led-wi-fi-e27-9w-blanc-variable-shelly-duo-3809511202401.html
+link3: https://www.aliexpress.com/item/1005003036696733.html
 mlink: https://shelly.cloud/products/shelly-duo-smart-home-automation-bulb/
 flash: mgos
 category: bulb

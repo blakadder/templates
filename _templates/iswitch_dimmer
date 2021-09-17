@@ -1,7 +1,7 @@
 ---
 date_added: 2020-05-15
 title: iSwitch Touch Switch  
-model: MG-WIFI-Dimmer-alexa&google-touch
+model: MG-USD33RE
 image: /assets/images/iswitch_dimmer.jpg
 template: '{"NAME":"iSwitchOZ Dimmer","GPIO":[0,0,0,0,0,0,0,0,0,0,54,0,0],"FLAG":0,"BASE":54}' 
 link: https://iswitchoz.com.au/products/google-alexa-wifi-dimmer-switch-aust-certified-iswitch

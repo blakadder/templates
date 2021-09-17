@@ -12,6 +12,8 @@ category: misc
 type: Miscellaneous
 standard: eu
 ---
+# DISCONTINUED
+
 To allow mqtt broker used, you need to provide some command at boot with this rule:
 ```console
 Rule3 on wifi#connected do backlog serialsend5 55aa00000000ff; serialsend5 55aa0001000000; serialsend5 55aa0002000001; serialsend5 55aa0008000007; serialsend5 55aa000300010205; serialsend5 55aa000300010205; serialsend5 55aa000300010306 endon

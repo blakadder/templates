@@ -4,7 +4,7 @@ category: plug
 type: Plug
 standard: us
 mlink: https://sonoff.tech/product/wifi-smart-plugs/s31-s31lite
-image: https://gloimg.gbtcdn.com/soa/gb/pdm-product-pic/Electronic/2019/11/06/source-img/20191106162313_48121.jpg
+image: /assets/images/sonoff_S31-lite.jpg
 template: '{"NAME":"Sonoff S31","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":41}' 
 link: https://www.itead.cc/sonoff-s31.html
 link2: https://www.aliexpress.com/item/1005001846036476.html
