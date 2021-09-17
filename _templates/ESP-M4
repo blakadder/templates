@@ -4,9 +4,9 @@ title: ESP-M4
 model: ESP-M4 
 image: /assets/images/ESP-M4.jpg
 template9: '{"NAME":"ESP-M4","GPIO":[1,1,0,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":18}' 
-link: https://www.aliexpress.com/item/10000146340675.html
+link: https://www.aliexpress.com/item/32981273182.html
 link2: https://www.amazon.com/dp/B089ZCP245/
-link3: https://www.amazon.ca/dp/B07PNGBZN9
+link3: https://www.banggood.com/ESP-M4-Wireless-WiFi-Module-ESP8285-Serial-Port-Transmission-Control-Module-ESP8266-p-1425046.html
 link4: https://www.amazon.de/dp/B08QMZFC42/
 mlink: https://github.com/SmartArduino/SZDOITWiKi/wiki/ESP8285---ESP-M4
 flash: serial
@@ -18,3 +18,7 @@ standard: global
 ![Pinout](/assets/images/ESP-M4_pinout.jpg)
 
 [Datasheet](https://github.com/SmartArduino/ESPwifi/blob/master/DOIT_DMP-P1(V1_0)_doc.pdf)
+
+Blue PCB versions and modules labelled "WIFI+ by DOITING" have a different pinout:
+
+![Pinout 2](/assets/images/ESP-M4_pinout2.jpg)
