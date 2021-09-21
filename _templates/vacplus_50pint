@@ -43,6 +43,11 @@ Enum configurations:
 Backlog TuyaEnumlist 1,3; TuyaEnumlist 2,5
 ```
 
+Rules:
+```console
+Backlog Rule1 on tuyareceived#dptype5id101 do publish stat/%topic%/error %value% endon; Rule1 1
+```
+
 - TuyaMCU 71,7 - Ambient Temperature
 - TuyaMCU 73,6 - Current Humidity
 - TuyaMCU 74,2 - Humidity Set
