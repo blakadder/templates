@@ -2,7 +2,7 @@
 date_added: 2021-09-24
 title: eWeLink Zigbee Ethernet Gateway
 model: ZB-GW03-V1.2
-image: /assets/images/sonoff_ZBBridge.jpg
+image: /assets/images/ewelink_ZB-GW03.jpg
 template: '{"NAME":"ZB-GW03-V1.2","GPIO":[1,1,3552,1,3584,1,1,1,5793,5792,320,544,5536,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,608,640,32,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005003065061179.html
 link2: https://www.amazon.de/dp/B094JKVLNR
