@@ -21,9 +21,6 @@ user_config_override.h:
 #ifdef FIRMWARE_EWELINK
   #warning **** Build: FIRMWARE FOR EWELINK ZB-GW03-V1.2 ****
 
-  #undef  MY_LANGUAGE
-  #define MY_LANGUAGE en_GB
-  
   #undef  SERIAL_LOG_LEVEL
   #define SERIAL_LOG_LEVEL LOG_LEVEL_NONE
 
