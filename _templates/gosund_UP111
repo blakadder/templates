@@ -14,5 +14,6 @@ type: Plug
 standard: uk
 ---
 Update: 30-Mar-2021: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
-Update: 23-Jun-2021: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert and Pi 3B+
-Update: 21-Jul-2021: Box of 2 bought from amazon.co.uk and flashed successfully with tuya-convert and Ubuntu 20.04
+Update: 23-Jun-2021: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert and Pi 3B+.  
+Update: 21-Jul-2021: Box of 2 bought from amazon.co.uk and flashed successfully with tuya-convert and Ubuntu 20.04.  
+Update: 19-Sep-2021: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert and Raspi 4 on Rasbian 10 (Buster). Sockets had `05/2021` printed on them; below the N pin.
