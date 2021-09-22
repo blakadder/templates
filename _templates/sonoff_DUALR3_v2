@@ -1,9 +1,9 @@
 ---
 date_added: 2021-06-07
-title: Sonoff Dual R3
+title: Sonoff Dual R3 V2
 model: DUALR3
 image: /assets/images/sonoff_DUALR3.jpg
-template32: '{"NAME":"Sonoff Dual R3","GPIO":[32,0,0,0,0,0,0,0,0,576,225,0,0,0,0,0,0,0,0,0,0,7296,7328,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+template32: '{"NAME":"Sonoff Dual R3 v2","GPIO":[32,0,0,0,0,0,0,0,0,576,225,0,0,0,0,0,0,0,0,0,0,3200,8128,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://www.itead.cc/sonoff-dualr3.html
 link2: https://www.aliexpress.com/item/1005002060944152.html
 link3: https://www.domadoo.fr/fr/peripheriques/5701-sonoff-commutateur-intelligent-wifi-2-canaux-mesure-consommation.html
@@ -16,11 +16,13 @@ standard: global
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
-## Note : Sonoff Dual R3 v2 released in September 2020
+## How to identify Sonoff Dual R3 v2
 
-Starting September 2021, Sonoff started to distribute a new version with a different energy monitoring chip (BL0930 instead of CSE7761). There is no functional difference between v1.x and v2. Depending on shop's stock you may have one or the other.
+Starting September 2021, Sonoff started to distribute a new version with a different energy monitoring chip (BL0930 instead of CSE7761). There is no functional difference between v1.x and v2. This new model is supported since Tasmota32 v9.5.0.8.
 
-You can identify the v2 from the v1.x by the markings on the PCB and on the energy measurement chip. See photos of the Sonoff Dual R3 v2 in its dedicated [template page](sonoff_DUALR3_v2.html). All photos belows are from Sonoff Dual R3 v1.6.
+You can identify the v2 from the v1.x by the markings on the PCB and on the energy measurement chip. The photo right below is from Sonoff Dual R3 v2. All Photos on the flashing guide thereafter are from Sonoff Dual R3 v1.6 as there is no difference in the flashing process.
+
+![Sonoff Dual R3 v2](/assets/images/sonoff_DUALR3_v2.jpg)
 
 ## Opening the Case
 
@@ -28,7 +30,7 @@ Press the case to release the clips. My case was not glued at all but some might
 
 ![Clips](/assets/images/sonoff_DUALR3_clips.jpg)
 
-## Serial Flashing
+## Serial Flashing (photos shows Sonoff Dual R3 v1.6)
 
 Disconnect the device from mains power! Like for real!
 
