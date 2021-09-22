@@ -516,7 +516,7 @@
                     {% endif %}
                 </td>
             {% elsif page.template32 != nil %}
-                <td>{% elsif forloop.index == 29 %}GPIO32
+                <td>{% if forloop.index == 29 %}GPIO32
                     {% elsif forloop.index == 30 %}GPIO33
                     {% elsif forloop.index == 31 %}GPIO34
                     {% elsif forloop.index == 32 %}GPIO35
