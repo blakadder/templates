@@ -516,7 +516,10 @@
                     {% endif %}
                 </td>
             {% elsif page.template32 != nil %}
-                <td>{% if forloop.index == 7 %}GPIO09
+                <td> {% if forloop.index == 25 %}GPIO6
+                    {% elsif forloop.index == 26 %}GPIO7
+                    {% elsif forloop.index == 27 %}GPIO8
+                    {% elsif forloop.index == 7 %}GPIO09
                     {% elsif forloop.index == 8 %}GPIO10
                     {% elsif forloop.index == 9 %}GPIO12
                     {% elsif forloop.index == 10 %}GPIO13
@@ -534,9 +537,6 @@
                     {% elsif forloop.index == 22 %}GPIO25
                     {% elsif forloop.index == 23 %}GPIO26
                     {% elsif forloop.index == 24 %}GPIO27
-                    {% elsif forloop.index == 25 %}GPIO6
-                    {% elsif forloop.index == 26 %}GPIO7
-                    {% elsif forloop.index == 27 %}GPIO8
                     {% elsif forloop.index == 28 %}GPIO11
                     {% elsif forloop.index == 29 %}GPIO32
                     {% elsif forloop.index == 30 %}GPIO33
