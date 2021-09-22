@@ -569,11 +569,11 @@
                 {% when "1312" %}
                 DS18x20
                 {% when "608" %}
-                I2C SCL
+                I2C SCL 1
                 {% when "609" %}
                 I2C SCL 2
                 {% when "640" %}
-                I2C SDA
+                I2C SDA 1
                 {% when "641" %}
                 I2C SDA 2
                 {% when "1376" %}
@@ -1076,6 +1076,10 @@
                 ETH MDC
                 {% when "5600" %}
                 ETH MDIO
+                {% when "5792" %}
+                Zigbee RST 1
+                {% when "5793" %}
+                Zigbee RST 2
                 {% when "6208" %}
                 Option A1
                 {% when "6209" %}
@@ -1143,7 +1147,7 @@
                 {% when "8096" %}
                 VINDRIKTNING
                 {% else %}
-                Missing
+                ???
                 {% endcase %}
             </td class="small">
         </tr>
