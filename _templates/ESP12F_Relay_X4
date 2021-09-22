@@ -3,7 +3,7 @@ date_added: 2020-12-29
 title: ESP-12F 5V/7-30V/220V 4 Channel
 model: ESP12F_Relay_X4
 image: /assets/images/ESP12F_Relay_X4.jpg
-template9: '{"NAME":"ESP12F_Relay_X4","GPIO":[1,1,1,1,320,1,1,1,226,227,225,1,224,1],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"ESP12F_Relay_X4","GPIO":[1,1,320,1,1,321,1,1,226,227,225,1,224,1],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001644477508.html
 link2: https://www.banggood.com/AC-or-DC-Power-Supply-ESP8266-WIFI-Four-way-Relay-Module-ESP-12F-Development-Board-Secondary-Development-p-1794113.html
 mlink: 

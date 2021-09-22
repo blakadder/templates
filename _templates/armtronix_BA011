@@ -1,0 +1,14 @@
+---
+date_added: 2021-09-21
+title: Armtronix NodeMCU Four Relay Board
+model: BA011
+image: /assets/images/armtronix_BA011.jpg
+template9: '{"NAME":"Armtronix Wifi Four Relay Board","GPIO":[1,0,0,0,224,1,0,0,225,226,227,0,1,0],"FLAG":0,"BASE":7}' 
+link: https://www.tindie.com/products/armtronix/ba011-wifi-bt-quad-relay-board/
+link2: 
+mlink: https://armtronix.in/products.html
+flash: serial
+category: diy
+type: Relay Board
+standard: global
+---

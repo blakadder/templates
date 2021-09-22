@@ -1,0 +1,15 @@
+---
+date_added: 2021-09-22
+title: LITEdge Smart Power Strip
+model: SW1SPST-WIFI-SCE
+image: /assets/images/liteedge_SW1SPST-WIFI-SCE.jpg
+template9: '{"NAME":"LITEEdge Power Strip","GPIO":[227,0,0,0,288,289,0,0,224,32,225,226,228,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07519PSGJ/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: us
+---
+Uses a standard ESP-12F; solder wires to Tx/Rx/VCC/Gnd/GPIO0 and flash using esptool.
