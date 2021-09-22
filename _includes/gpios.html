@@ -516,14 +516,32 @@
                     {% endif %}
                 </td>
             {% elsif page.template32 != nil %}
-                <td>{% if forloop.index == 29 %}GPIO32
-                    {% elsif forloop.index == 30 %}GPIO33
-                    {% elsif forloop.index == 31 %}GPIO34
-                    {% elsif forloop.index == 32 %}GPIO35
-                    {% elsif forloop.index == 33 %}GPIO36
-                    {% elsif forloop.index == 34 %}GPIO37
-                    {% elsif forloop.index == 35 %}GPIO38
-                    {% elsif forloop.index == 36 %}GPIO39
+                <td>{% if forloop.index == 6 %}GPIO09
+                    {% elsif forloop.index == 7 %}GPIO10   
+                    {% elsif forloop.index == 8 %}GPIO12
+                    {% elsif forloop.index == 9 %}GPIO13
+                    {% elsif forloop.index == 10 %}GPIO14
+                    {% elsif forloop.index == 11 %}GPIO15
+                    {% elsif forloop.index == 12 %}GPIO16
+                    {% elsif forloop.index == 13 %}GPIO17
+                    {% elsif forloop.index == 14 %}GPIO18
+                    {% elsif forloop.index == 15 %}GPIO19
+                    {% elsif forloop.index == 16 %}GPIO20
+                    {% elsif forloop.index == 17 %}GPIO21
+                    {% elsif forloop.index == 18 %}GPIO22
+                    {% elsif forloop.index == 19 %}GPIO23
+                    {% elsif forloop.index == 20 %}GPIO24
+                    {% elsif forloop.index == 21 %}GPIO25
+                    {% elsif forloop.index == 22 %}GPIO26
+                    {% elsif forloop.index == 23 %}GPIO27
+                    {% elsif forloop.index == 24 %}GPIO32
+                    {% elsif forloop.index == 25 %}GPIO33
+                    {% elsif forloop.index == 26 %}GPIO34
+                    {% elsif forloop.index == 27 %}GPIO35
+                    {% elsif forloop.index == 28 %}GPIO36
+                    {% elsif forloop.index == 30 %}GPIO37
+                    {% elsif forloop.index == 31 %}GPIO38
+                    {% elsif forloop.index == 32 %}GPIO39
                     {% else %}{{ forloop.index0 | prepend: 'GPIO0' }} 
                     {% endif %}
                 </td>
