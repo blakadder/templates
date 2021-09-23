@@ -69,13 +69,13 @@ Home Assistant configuration
 Full tank auto discovery 
 
 ```console
-rule3 on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_error/config {"availability_topic":"tele/%topic%/LWT","payload_available":"Online","payload_not_available":"Offline","name":"%topic% Alert", "state_topic":"stat/%topic%/error","value_template":"{{ 'ON' if value=='0x01' else 'OFF' }}","unique_id":"%deviceid%_error","device":{"connections":[["mac","%macaddr%"]]}} endon
+{% raw %}rule3 on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_error/config {"availability_topic":"tele/%topic%/LWT","payload_available":"Online","payload_not_available":"Offline","name":"%topic% Alert", "state_topic":"stat/%topic%/error","value_template":"{{ 'ON' if value=='0x01' else 'OFF' }}","unique_id":"%deviceid%_error","device":{"connections":[["mac","%macaddr%"]]}} endon{% endraw %}
 ```
 
 Manual dehumidifier config (change your topic)
 
 ```yaml
-humidifier:
+{% raw %}humidifier:
   - platform: mqtt
     name: "Dehumidifier"
     device_class: "dehumidifier"
@@ -113,5 +113,5 @@ humidifier:
     mode_command_template: |
       {%- set mode_enum = {"standard": "0", "raining": "1", "drying": "2","sleep": 3} %}
       {%- set enum = mode_enum[value] %}
-      5,{{ enum }}
+      5,{{ enum }}{% endraw %}
 ```
