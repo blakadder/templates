@@ -1,9 +1,9 @@
 ---
-date_added: 2020-11-12
-title: Yagusmart 2 Gang
-model: 
-image: /assets/images/yagusmart_2_gang.jpg
-template: '{"NAME":"DS-101 2 gang","GPIO":[576,289,0,32,225,33,0,0,0,224,288,0,0],"FLAG":0,"BASE":1}' 
+date_added: 2021-09-22
+title: Yagusmart 2 Gang Wall Light
+model: DS-101
+image: /assets/images/
+template9: '{"NAME":"DS-101 2 Gang","GPIO":[544,321,0,64,225,65,0,0,0,224,320,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/gp/product/B086MV5MC8/
 link2: 
 mlink: 
@@ -12,4 +12,18 @@ category: switch
 type: Switch
 standard: uk
 ---
-OTA update was not successful, had to connect serial and flash with ESPTool.
+While it's marked as DS-101 on the back, the other DS-101 templates didn't work, so I created this one instead.
+
+Connections:
+
+| Serial | Board |
+|--------|-------|
+| 3.3V   | VCC   |
+| GND    | GND   |
+| GND    | GPIO0 |
+| RX     | TXD0  |
+| TX     | RXD0  |
+
+As shown in the image, resistor R49 will need to be removed, as it interferes with the flashing process. It's just a 0 ohm resistor, so if it's too small for you to reliably resolder, just use a small blob of solder to bridge the pads.
+
+![Imgur](https://imgur.com/vBfIgy4.png)

@@ -12,7 +12,7 @@ category: diy
 type: Module
 standard: global
 ---
-ESP-12(E/F/S) is the most common Wi-Fi module format and is pin compatible with other non-Espressif modules such a WB3L, WB3S, WR3, WR3E, WR3L, WR3N, CB3S, CB3L, C-8138 and more 
+ESP-12(E/F/S) is the most common Wi-Fi module format and is pin compatible with other non-Espressif modules such as WB3L, WB3S, WR3, WR3E, WR3L, WR3N, CB3S, CB3L, C-8138 and more...
 
 ESP-12E/F modules need the GPIO15 pulled low and CH_PD or EN pin pulled high to boot.
 
