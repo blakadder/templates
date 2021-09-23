@@ -1,6 +1,6 @@
 ---
-date_added: 2021-06-07
-title: Sonoff Dual R3 V2
+date_added: 2021-09-24
+title: Sonoff Dual R3 v2
 model: DUALR3
 image: /assets/images/sonoff_DUALR3.jpg
 template32: '{"NAME":"Sonoff Dual R3 v2","GPIO":[32,0,0,0,0,0,0,0,0,576,225,0,0,0,0,0,0,0,0,0,0,3200,8128,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
@@ -14,8 +14,6 @@ category: relay
 type: Switch Module
 standard: global
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
-
 ## How to identify Sonoff Dual R3 v2
 
 Starting September 2021, Sonoff started to distribute a new version with a different energy monitoring chip (BL0930 instead of CSE7761). There is no functional difference between v1.x and v2. This new model is supported since Tasmota32 v9.5.0.8.
