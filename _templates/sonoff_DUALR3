@@ -20,7 +20,7 @@ standard: global
 
 Starting September 2021, Sonoff started to distribute a new version with a different energy monitoring chip (BL0930 instead of CSE7761). There is no functional difference between v1.x and v2. Depending on shop's stock you may have one or the other.
 
-You can identify the v2 from the v1.x by the markings on the PCB and on the energy measurement chip. See photos of the Sonoff Dual R3 v2 in its dedicated [template page](sonoff_DUALR3_v2.html). All photos belows are from Sonoff Dual R3 v1.6.
+You can identify the v2 from the v1.x by the markings on the PCB and on the energy measurement chip. See photos of the Sonoff Dual R3 v2 in its [device page](sonoff_DUALR3_v2). All photos belows are from Sonoff Dual R3 v1.6.
 
 ## Opening the Case
 
