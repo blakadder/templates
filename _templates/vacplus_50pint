@@ -34,15 +34,84 @@ This device uses TuyaMCU. For more information, see [https://tasmota.github.io/d
 12. Run the following commands to map TuyaMCU dpIds to Tasmota Functions:
 
 ```console
-Backlog TuyaMCU 71,7; TuyaMCU 73,6; TuyaMCU 74,2; TempRes 0; SetOption8 1
+Backlog TuyaMCU 11,1; TuyaMCU 74,2; TuyaMCU 61,5; TuyaMCU 73,6; TuyaMCU 71,7; TuyaMCU 62,8; TuyaMCU 12,12; HumRes 0; TempRes 0; SetOption8 1
+```
+
+Enum configurations:
+
+```console
+Backlog TuyaEnumlist 1,3; TuyaEnumlist 2,5
+```
+
+Tank full error message
+
+Rules:
+```console
+Backlog SO66 1; Rule1 on tuyareceived#dptype5id101 do publish stat/%topic%/error %value% endon; Rule1 1
 ```
 
 - TuyaMCU 71,7 - Ambient Temperature
 - TuyaMCU 73,6 - Current Humidity
 - TuyaMCU 74,2 - Humidity Set
-- TempRes 0 - Correct decimal shift
+- TuyaMCU 11,1 - Power
+- TuyaMCU 12,12 - Anion on/off
+- TuyaMCU 61,5 - Mode Selector
+- TuyaMCU 62,8 - Timer Selector (0 - off, 1..5 hours delay)
+- TempRes 0 - Correct decimal shift for temperature
+- HumRes 0 - Correct decimal shift for humidity
 - SetOption8 1 - If in Fahrenheit 
+- SetOption66 1 - Publish TuyaMCU events
 
-You should now have On/Off control and sensor values for temperature, humidity, and current humidity setting. You can also run `TuyaSend2 2,xx` (where xx is a 2-digit number) to set the humidity.
+Now you have control of all functions. Target humidity is set by `TuyaSend2 2,xx` (where xx is a 2-digit number) to set the humidity.
 
-Above I'm mapping dpIds 1 (automatically mapped by TuyaMCU), 2, 6, and 7. I discovered that dpIds 8 and 12 are also available. I assume that one of them is "mode" and the other is "timer", but I didn't have a need to view/control these functions so I left them alone.
+Home Assistant configuration
+
+Full tank auto discovery 
+
+```console
+{% raw %}rule3 on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_error/config {"availability_topic":"tele/%topic%/LWT","payload_available":"Online","payload_not_available":"Offline","name":"%topic% Alert", "state_topic":"stat/%topic%/error","value_template":"{{ 'ON' if value=='0x01' else 'OFF' }}","unique_id":"%deviceid%_error","device":{"connections":[["mac","%macaddr%"]]}} endon{% endraw %}
+```
+
+Manual dehumidifier config (change your topic)
+
+```yaml
+{% raw %}humidifier:
+  - platform: mqtt
+    name: "Dehumidifier"
+    device_class: "dehumidifier"
+    state_topic: "stat/dehumidifier/POWER1"
+    command_topic: cmnd/dehumidifier/POWER1
+    target_humidity_command_topic: cmnd/dehumidifier/TUYASEND2
+    target_humidity_command_template: >-
+      2,{{ value }}
+    target_humidity_state_topic: tele/dehumidifier/SENSOR
+    target_humidity_state_template: >
+      {%- if value_json.TuyaSNS is defined %}
+        {%- if value_json.TuyaSNS.HumSet is defined %}
+          {{ value_json['TuyaSNS']['HumSet'] | int }}
+        {%- endif %}
+      {%- endif -%}
+    optimistic: false
+    availability_topic: "tele/dehumidifier/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    modes:
+      - standard
+      - raining
+      - drying
+      - sleep
+    mode_state_topic: "tele/dehumidifier/RESULT"
+    mode_state_template: |
+        {%- set modes = {0: "standard", 1: "raining", 2: "drying", 3: "sleep"} %}
+        {%- if "TuyaReceived" in value_json %}
+          {%- if "5" in value_json.TuyaReceived %}
+            {% set mode_id = value_json.TuyaReceived["5"].DpIdData | int %}
+            {{ modes[mode_id] }}
+          {%- endif %}
+        {%- endif %}
+    mode_command_topic: cmnd/dehumidifier/TUYASEND4
+    mode_command_template: |
+      {%- set mode_enum = {"standard": "0", "raining": "1", "drying": "2","sleep": 3} %}
+      {%- set enum = mode_enum[value] %}
+      5,{{ enum }}{% endraw %}
+```
