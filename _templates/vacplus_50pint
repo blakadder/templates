@@ -34,7 +34,7 @@ This device uses TuyaMCU. For more information, see [https://tasmota.github.io/d
 12. Run the following commands to map TuyaMCU dpIds to Tasmota Functions:
 
 ```console
-Backlog Backlog TuyaMCU 11,1; TuyaMCU 74,2; TuyaMCU 61,5; TuyaMCU 73,6; TuyaMCU 71,7; TuyaMCU 62,8; TuyaMCU 12,12; HumRes 0; TempRes 0; SetOption8 1
+Backlog TuyaMCU 11,1; TuyaMCU 74,2; TuyaMCU 61,5; TuyaMCU 73,6; TuyaMCU 71,7; TuyaMCU 62,8; TuyaMCU 12,12; HumRes 0; TempRes 0; SetOption8 1
 ```
 
 Enum configurations:
