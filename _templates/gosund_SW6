@@ -52,7 +52,7 @@ For more information about SwitchMode you can find it here: https://tasmota.gith
 #### Rule1
 When relay 3 changes state this will toggle relay 2. If relay 3 doesn't change state when then nothging happens. 
 ```console
-Backlog Rule1 ON Power3#State do Power2 2 endon; Rule1 1
+Backlog Rule1 ON Power3#State do Power2 2 endon ON switch2#state=3 DO publish stat/tasmota_XXXXX/SWITCH1T {"TRIG":"HOLD"} ENDON; Rule1 1
 ```
 
 #### Rule2
