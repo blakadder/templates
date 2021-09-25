@@ -28,5 +28,5 @@ The [XCSOURCE](https://www.amazon.co.uk/gp/product/B01AA6221S/) branded version 
 ## Serial Flashing
 Complete guide at [Tasmota Docs](https://tasmota.github.io/docs/devices/MagicHome-LED-strip-controller#magichome-with-esp8285)
 
-**Pay attention to instructions regarding powering during flashing - The device MUST be powered via main 12v supply and ground connection made between device and USB-UART/programmer**
+**If the device is powered via external power-supply, do not connect +3.3V from your USB-UART/programmer, but you do have to connect GND.**
 
