@@ -3,18 +3,33 @@ date_added: 2020-01-07
 title: Arlec Smart 45cm Smart DC Wall
 model: AWDC001HA
 image: https://media.bunnings.com.au/Product-800x800/5450ca3c-55e0-464a-bad9-09271f304a41.jpg
-template: '{"NAME":"Arlec 45cm Fan","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1|TuyaMCU 12,101"}' 
+template: '{"NAME":"Arlec 45cm Fan","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1; TuyaMCU 61,2; TuyaMCU 64,3; TuyaMCU 99,6; TuyaMCU 12,101"}'  
 link: https://www.bunnings.com.au/arlec-45cm-smart-dc-wall-fan-with-grid-connect_p0110424
 link2: https://www.bunnings.co.nz/arlec-45cm-smart-dc-wall-fan-with-grid-connect_p00110424
 mlink: 
-flash: tuya-convert
+flash: serial
 category: misc
 type: Fan
 standard: au
 ---
 
-```console
-Backlog TuyaMCU 11,1; TuyaMCU 12,101
+## MCU Functions
+
+- `dpid1` Power relay - When toggled will turn fan on / off.
+- `dpid2` Sets the target boil temperature: `0` = Natural, `1` = Sleep Mode, `2` = Manual Mode
+	Natural Mode: The fan speed varies randomly between (speed 3 to 6), in the interval of every 15 seconds, 	giving the effect of a natural breeze.
+	Sleep Mode: The fan will operate at speed setting 1
+	Manual Mode: Fan speed is set by dpid3
+- `dpid3` Sets the fan speed `0` slow - `6` fast, (remote display 1 - 6)
+- `dpid6` Sets the timer function `0` = 9 hours, `1` = 8 hours, `2` = 7 hours ..... `9` = Off
+- `dpid101` Swing Mode. `1` = Fan will oscillate horizontally, (from left to right), `0` = Off
+
+Configure Tasmota's DpIds with the correct FnIds:
+{% highlight yaml %}
+{% raw %}
+Backlog TuyaMCU 11,1; TuyaMCU 61,2; TuyaMCU 64,3; TuyaMCU 99,6; TuyaMCU 12,101;
+{% endraw %}
+{% endhighlight %}
 ```
 Used the following rule to detect speed
 
