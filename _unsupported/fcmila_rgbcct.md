@@ -7,7 +7,7 @@ link: https://www.aliexpress.com/item/1005001376162464.html
 image: /assets/images/fcmila_rgbcct.jpg
 link2: 
 link3: 
-flash: C-8138 
+chip: C-8138 
 ---
 Uses Wi-Fi module C-8138 by Shenzhenshi Xinzhongxin Technology Co. with a Wi-Fi chip C-Chip CC8000 and works with the Cloud Intelligence app.
 

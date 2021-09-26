@@ -6,7 +6,7 @@ image: /assets/images/devenwills_weatherproof.jpg
 link: https://www.amazon.com/gp/product/B08GCCY5HL/
 link2: 
 mlink: 
-flash: WB2S
+chip: WB2S
 category: unsupported
 type: Outdoor Plug
 ---

@@ -7,7 +7,7 @@ link: https://www.walmart.com/ip/Merkury-Innovations-Smart-Wi-Fi-Plug-works-with
 image: /assets/images/merkury_MI-WW218.jpg
 link2: 
 link3: 
-flash: NonESP 
+chip: NonESP 
 ---
 
 This is the new Style Merkury plug which no longer contains an esp flashable chip.

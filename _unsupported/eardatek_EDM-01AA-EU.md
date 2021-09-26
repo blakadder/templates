@@ -8,7 +8,7 @@ mlink: https://www.alibaba.com/product-detail/European-standard-dimmer-switch-fo
 link: https://www.aliexpress.com/item/4001093399451.html
 link2: https://www.aliexpress.com/item/4001283464467.html
 link3: 
-flash: RTL8710BN
+chip: RTL8710BN
 author: blak
 ---
 Has an Eardatek EWN-89710BNN module based on RTL8710BN. Also sold under Zemismart and Girier brands.

@@ -7,5 +7,5 @@ link: https://www.amazon.it/gp/product/B08K3D2FMM
 image: /assets/images/aoycocr_E14.jpg
 link2: 
 link3: 
-flash: Realtek
+chip: Realtek
 ---

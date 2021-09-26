@@ -7,5 +7,5 @@ link: https://www.amazon.com/gp/product/B07QYMPT6W
 image: /assets/images/peteme_e26.jpg
 link2: 
 link3: 
-flash: WB3L
+chip: WB3L
 ---

@@ -7,5 +7,5 @@ link: https://www.aldi.de/
 image: /assets/images/easy_home_DIS124.jpg
 link2: 
 mlink: 
-flash: non-ESP8266
+chip: non-ESP8266
 ---

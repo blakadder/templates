@@ -7,7 +7,7 @@ link: https://www.aliexpress.com/item/32975572212.html
 image: /assets/images/bingoelec-W1-101.jpg
 link2: 
 mlink: http://www.bingoelec.com/product/showproduct.php?lang=en&id=282
-flash: WR4
+chip: WR4
 ---
 The Switch is based on a WR4 module which is not using a ESP8266. The WR4 module may can be exchanged with an ESP12 module or similar, since it is on a riser board, but that would be some effort. It seems that the connections are Tywe2s retrofit.
 

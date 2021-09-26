@@ -8,5 +8,5 @@ link: https://www.aliexpress.com/item/4000299684880.html
 image: /assets/images/rdxone_RD8.jpg
 link2: 
 link3: 
-flash: WB2S
+chip: WB2S
 ---

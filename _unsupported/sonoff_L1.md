@@ -3,7 +3,7 @@ date_added: 2020-04-30
 title: Sonoff L1
 category: unsupported
 type: LED Strip
-flash: Altobeam
+chip: Altobeam
 mlink: https://sonoff.tech/product/wifi-smart-lighting/l1-smart-strip-light
 image: https://user-images.githubusercontent.com/5904370/65447568-23ff1d00-de37-11e9-8c18-c4bb24372194.png
 link: https://www.itead.cc/smart-home/sonoff-l1-smart-led-light-strip.html

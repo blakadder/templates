@@ -6,12 +6,14 @@
 
 <!-- Define multiple use variables -->
 {% capture pagetitle %}
-{% if page.layout == "page" or page.template != nil or page.template9 != nil or page.template32 != nil or page.templatec3 != nil or page.category != "unsupported" %}{{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%}Bulb {% endif %}{% if page.model and page.model != nil %}{{ page.model | escape }} {% endif %}Configuration for Tasmota {% elsif page.category == "unsupported" %}{{ page.title | escape }} {{ page.type | escape }} {% if page.model and page.model != nil %}{{ page.model | escape }}{% endif %} is not supported by Tasmota!{% else %}{{ page.title | escape }}{% endif %}
+  {%- if page.category != nil -%}{{ page.title | escape }}{% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }}{% if page.category contains 'bulb'%} Bulb{% endif %}{% if page.model != nil %} ({{ page.model | escape }}){% endif %} Configuration for Tasmota
+  {% elsif page.category == "unsupported" %}{{ page.title | escape }} {{ page.type | escape }} ({{ page.model | escape }}) is not supported by Tasmota!
+  {% else %}{{ page.title | escape }}{% endif %}
 {% endcapture %}
 
 {% capture description %}
 {% if page.template != nil or page.template9 != nil or page.template32 != nil or page.templatec3 != nil or page.category != "unsupported" %}
-Configure your smart {{ page.title | escape }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }} {% if page.category contains 'bulb'%}Bulb {% endif %}{% if page.model and page.model != nil %}{{ page.model | escape }}{% endif %} to work with Tasmota open source firmware. 
+Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcase | replace: "led", "LED" | replace: "diy", "" | replace: "cct", "color temperature adjustable" | replace: "rgbw", "RGB and white color" | replace: "rgb", "RGB color" | replace: "rgbcct", "RGB and color temperature adjustable"}}{% if page.category contains 'bulb'%} bulb{% endif %} to work with Tasmota open source firmware. 
 {% elsif page.category == "unsupported" %} Caution! {{ page.title | escape }} {{ page.type | escape }} {{ page.model | escape }} cannot be flashed with Tasmota. 
 {% else %} {{ site.description | escape }} {% endif %}
 {% endcapture %}

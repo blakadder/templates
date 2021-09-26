@@ -7,5 +7,5 @@ link: https://www.aliexpress.com/item/1005001296786956.html
 image: /assets/images/avatto_WB01.jpg
 link2: 
 link3: 
-flash: unknown
+chip: unknown
 ---

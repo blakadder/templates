@@ -7,5 +7,5 @@ link: https://nous.technology/product/smart-switch-relay-wifi-nous-l6-tuya-ios-a
 image: /assets/images/nous_L6.jpg
 link2: 
 link3: 
-flash: Beken BK7231
+chip: Beken BK7231
 ---

@@ -7,7 +7,7 @@ image: /assets/images/20A-super.jpg
 link: https://www.aliexpress.com/item/4000200361841.html
 link2:
 mlink: 
-flash: AltoBeam
+chip: AltoBeam
 ---
 
 ![](/assets/images/20A-super-eu.jpg)

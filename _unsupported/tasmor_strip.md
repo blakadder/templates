@@ -7,5 +7,5 @@ link: https://www.amazon.it/gp/product/B087N6Y8BG
 image: /assets/images/tasmor_strip.jpg
 link2: 
 link3: 
-flash: Realtek 
+chip: Realtek 
 ---

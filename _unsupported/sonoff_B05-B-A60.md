@@ -4,7 +4,7 @@ title: Sonoff 9W 806lm RGBCCT
 model: B05-B-A60
 category: unsupported
 type: Bulb
-flash: SV6166F
+chip: SV6166F
 mlink: https://sonoff.tech/product/wifi-smart-lighting/b02-b05-b
 image: /assets/images/sonoff_B05-B-A60.jpg
 link: https://www.itead.cc/smart-home/sonoff-wi-fi-smart-led-bulb.html

@@ -7,6 +7,6 @@ link: https://www.acehardware.com/departments/lighting-and-electrical/light-bulb
 image: https://images-na.ssl-images-amazon.com/images/I/510PfH6VCKL._AC_SX425_.jpg
 link2: 
 link3: 
-flash: ARM-CM4 MCU
+chip: ARM-CM4 MCU
 ---
 If the Bulb Base shows 228-20-04 This is not ESP Compatible

@@ -8,7 +8,7 @@ link: https://www.banggood.com/Tuya-WiFi-Smart-APP-RGBW-LED-Strip-Controller-IR-
 image: /assets/images/TY-IR.jpg
 link2: 
 link3: 
-flash: TW-03
+chip: TW-03
 ---
 
 This Wi-Fi module is pin compatible with ESP-12 modules and a [drop-in replacement](https://blakadder.com/frankenstein-saturday-3/) is possible.

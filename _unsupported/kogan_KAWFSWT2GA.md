@@ -5,7 +5,7 @@ model: KAWFSWT2GA
 category: unsupported
 type: Switch
 standard: au
-flash: RTL8710BN WR3
+chip: RTL8710BN WR3
 link: https://www.kogan.com/au/buy/kogan-smarterhome-smart-touch-light-2-switch-gang/
 image: /assets/images/kogan_KAWFSWT2GA.jpg
 link2: 

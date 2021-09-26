@@ -8,7 +8,7 @@ link: https://www.aliexpress.com/item/32897302285.html
 image: /assets/images/earykong_SQ400B-A002.jpg
 link2: 
 link3: 
-flash: XR3
+chip: XR3
 ---
 FCC ID: 2ANDL-XR3
 

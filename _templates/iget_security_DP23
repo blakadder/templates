@@ -1,0 +1,15 @@
+---
+date_added: 2021-09-23
+title: iGET Security 
+model: DP23
+image: /assets/images/iget_security_DP23.jpg
+template9: '{"NAME":"iGET DP23","GPIO":[0,0,0,0,419,0,0,0,416,417,418,0,420,0],"FLAG":0,"BASE":18}' 
+link: https://www.alzashop.com/iget-security-dp23-d5721666.htm
+link2: 
+mlink: https://iget.eu/cs/dp23-security-smart-zarovka
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: e27
+---
+The Gosund WB4 template worked perfectly. (Took a guess, since the ESP8266EX PCB contains two things, first a pcb name CUCO_Z1_V1.2(ESP8266) And, below a sticker with a qr code for the serial number, and a printed product number+serial number, and the text "Model: WB4" on it.) The PCBs aren't really accessible, the main cable prevents you from fully taking them out. The box and product itself don't contain branding, and the box has a different product name on it. The top of the box has "Wireless Smart LED Bulb", the bottom has DSB01A as the model.

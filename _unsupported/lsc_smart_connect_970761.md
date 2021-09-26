@@ -6,7 +6,7 @@ image: https://www.action.com/globalassets/cmsarticleimages/79/98/2578685_871287
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-stekker-/
 link2: 
 mlink: 
-flash: nonESP
+chip: nonESP
 category: unsupported
 type: Plug
 ---

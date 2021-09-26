@@ -6,7 +6,7 @@ image: https://ae01.alicdn.com/kf/H1e2acfcc7ca8416584908f99857eb8a4m.jpg
 link: https://www.aliexpress.com/item/4000126675875.html
 link2: 
 mlink: 
-flash: SM02A
+chip: SM02A
 type: Bulb
 category: unsupported
 ---

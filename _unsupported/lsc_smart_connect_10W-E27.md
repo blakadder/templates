@@ -6,7 +6,7 @@ category: unsupported
 type: Bulb
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-ledlamp3/
 image: https://www.action.com/globalassets/cmsarticleimages/75/96/3000272_8712879146254-111.png?preset=mediaSliderImageLargeHD
-flash: ESP unknown version
+chip: ESP unknown version
 standard: e27
 ---
 This device is only sold with new Tuya firmware that is not OTA flashable. The WiFi module is not physically reachable without destroying the bulb. The MAC vendor ID is "Espressif Inc." so the module should be an ESP.

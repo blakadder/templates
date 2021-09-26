@@ -7,6 +7,6 @@ link: https://www.amazon.in/Google-Compatible-Protector-Energy-Monitor/dp/B07ZFW
 image: https://images-na.ssl-images-amazon.com/images/I/51bdtREtWCL._SL1500_.jpg
 link2: 
 link3: 
-flash: rtl8710bx
+chip: rtl8710bx
 ---
 This cannot be flashed

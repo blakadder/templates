@@ -5,7 +5,7 @@ link: https://www.aliexpress.com/item/4000249545653.html
 image: https://user-images.githubusercontent.com/5904370/73181486-977fa680-4117-11ea-920f-3e38ac0dd012.png
 link2: 
 mlink: 
-flash: W600
+chip: W600
 category: unsupported
 type: Wall Outlet
 ---

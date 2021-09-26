@@ -6,7 +6,7 @@ image: /assets/images/meross_MSS550.jpg
 link: https://www.amazon.ca/-/en/gp/product/B07Y9S9NQ7/
 link2: 
 mlink: https://www.meross.com/product/24/article/
-flash: MT7682SN
+chip: MT7682SN
 category: unsupported
 type: Switch
 standard: us

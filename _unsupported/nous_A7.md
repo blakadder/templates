@@ -7,6 +7,6 @@ link: https://nous.technology/product/smart-socket-wifi-nous-a7-smart-plug-16a.h
 image: /assets/images/nous_A7.jpg
 link2: 
 link3:
-flash: unknown
+chip: unknown
 ---
 device is glued together - due to hints on other incompatible I assume it also is

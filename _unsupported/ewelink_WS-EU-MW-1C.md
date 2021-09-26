@@ -7,5 +7,5 @@ link: https://www.aliexpress.com/item/1005001458186221.html
 image: /assets/images/ewelink_WS-EU-MW-1C.jpg
 link2: 
 link3: 
-flash: CKW04
+chip: CKW04
 ---

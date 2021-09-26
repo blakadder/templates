@@ -8,7 +8,7 @@ link: https://www.aliexpress.com/item/4000263138054.html
 image: /assets/images/moes_WS-UEU16-M.jpg
 link2: 
 link3: 
-flash: Tuya WB2S
+chip: Tuya WB2S
 ---
 
 Submitted note: I have already bought two of the plugs earlier and I was able to flash them with TuyaConvert. That was no longer possible with the one I bought 2 weeks ago. I opened it and the manufacturer started replacing the module with a WB2S, which is not based on an ESP.

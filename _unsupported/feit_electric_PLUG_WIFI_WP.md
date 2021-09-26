@@ -7,5 +7,5 @@ link: https://www.feit.com/product/outdoor-smart-wifi-dual-outlet-wall-plug-alex
 image: /assets/images/feit_electric-PLUG-WIFI-WP.jpg
 link2: 
 link3: 
-flash: BK7231TQN32
+chip: BK7231TQN32
 ---

@@ -8,5 +8,5 @@ link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-7w-led-tub
 image: /assets/images/mirabella_genio_I003028.jpg
 link2: 
 link3: 
-flash: WB3L
+chip: WB3L
 ---

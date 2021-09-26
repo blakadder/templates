@@ -198,9 +198,9 @@ layout: default
   {% else %}a Tasmota incompatible 
   {% endif %}
   module which needs to be replaced with
-  {% if page.chip contains 'WB3' or page.chip contains 'WR3' or page.chip contains 'WBR3' %}<a href="ESP-12">ESP-12</a> or <a href="ESP-07">ESP-07</a> 
+  {% if page.chip contains 'WB3' or page.chip contains 'WR3' or page.chip contains 'WBR3' or page.chip contains 'CB3S'%}<a href="ESP-12">ESP-12</a> or <a href="ESP-07">ESP-07</a> 
   {% elsif page.chip contains 'WB2' or page.chip contains 'WR2' or page.chip contains 'WBR2' %}<a href="WT-01N">WT-01N</a></a> 
-  {% else %}an ESP 
+  {% else %}<a href="diy#module">an ESP</a>
   {% endif %}
   module. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
   <br>

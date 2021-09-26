@@ -6,7 +6,7 @@ image: /assets/images/welaik_A911-WIFI.jpg
 link: https://www.aliexpress.com/item/1005001597644005.html
 link2: 
 mlink: 
-flash: WB3S
+chip: WB3S
 category: unsupported
 type: Switch
 ---

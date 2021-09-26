@@ -8,7 +8,7 @@ link: https://www.aliexpress.com/item/4000336263991.html
 image: /assets/images/zemismart_ZM25TQ.jpg
 link2: 
 link3: 
-flash: WR4
+chip: WR4
 ---
 
 Unable to Tuya Convert, after disassembly WR4 was found. 

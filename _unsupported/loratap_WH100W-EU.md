@@ -7,7 +7,7 @@ image: https://user-images.githubusercontent.com/5904370/72208571-47aca880-34a4-
 link: https://www.aliexpress.com/item/33032606776.html
 link2:
 mlink: https://www.loratap.com/eu-wifi-boiler-water-heater-switch-4400w-tuya-smart-life-app-remote-control-on-off-timer-voice-control-google-home-alexa-echo-p0053.html
-flash: WR3E
+chip: WR3E
 ---
 There's a listing for a US model [WH100W-US](/loratap_WH100W-US.html) which was successfully Tuya Converted in December 2019 but there is a high possibility it will also have the new chip.
 

@@ -5,7 +5,7 @@ model: BPA800/RGBW/AG/2(P)
 type: RGBCCT
 category: bulb
 standard: e26
-flash: WB2L
+chip: WB2L
 link2: 
 image: /assets/images/feit_electric-BPA800RGBWAG2P.jpg
 link: https://www.amazon.com/dp/B07RL48PFF

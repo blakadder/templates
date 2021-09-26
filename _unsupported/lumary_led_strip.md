@@ -7,5 +7,5 @@ link: https://www.amazon.de/LED-Streifen-Beleuchtung-Smartphone-kontrolliert/dp/
 image: https://images-na.ssl-images-amazon.com/images/I/71WPPpvCm4L._AC_SL1000_.jpg
 link2: 
 link3: 
-flash: Non ESP82xx
+chip: Non ESP82xx
 ---

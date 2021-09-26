@@ -7,7 +7,7 @@ link: https://www.amazon.de/BSEED-EU-Steckdose-unterst%C3%BCtzen-funktionieren-W
 image: /assets/images/bseed-switch-plug.jpg
 link2: 
 mlink: 
-flash: WR4
+chip: WR4
 ---
 The Plugs may be convertable, though Tuya-Convert failed, they are based on a Tywe2s layout, the cases can be opened without damage, but difficult with 2 Hands. 
 

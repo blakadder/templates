@@ -7,5 +7,5 @@ link: https://www.aliexpress.com/item/4000191335997.html
 image: /assets/images/girier_JRSWR-SEU01.jpg
 link2: 
 link3: 
-flash: W600
+chip: W600
 ---

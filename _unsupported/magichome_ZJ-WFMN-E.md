@@ -6,7 +6,7 @@ type: LED Controller
 link: 
 image: /assets/images/magichome_ZJ-WFMN-E.jpg
 link2: 
-flash: S9070B 21946
+chip: S9070B 21946
 ---
 Chip is manufactured by SuzhouSm Suzhou SmartChip Semiconductor Co., LTD and is not an ESP8266 compatible type.
 

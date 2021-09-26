@@ -7,7 +7,7 @@ link: https://www.aliexpress.com/item/1005001756371715.html
 image: /assets/images/MIR-TE200.jpg
 link2: 
 link3: 
-flash: XR809
+chip: XR809
 ---
 Tuya XR3 Module
 

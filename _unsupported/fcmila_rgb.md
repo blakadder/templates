@@ -7,6 +7,6 @@ link: https://www.aliexpress.com/item/4000492867937.html
 image: /assets/images/fcmila_rgb.jpg
 link2: 
 link3: 
-flash: OPL1000 A1 
+chip: OPL1000 A1 
 ---
 Used to be ESP8266-based, but not anymore

@@ -8,7 +8,7 @@ link: https://www.amazon.com/Projector-Galaxy-Google-Ceiling-Bedroom/dp/B0892FVL
 image: /assets/images/led_star_projector.jpg
 link2: 
 link3: 
-flash: WB3S
+chip: WB3S
 ---
 Seems to be identical to [LED Starry Sky Projector Light](https://templates.blakadder.com/led_star_projector.html) in every way except that the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) has been replaced with a WB3S.
 

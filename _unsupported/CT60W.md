@@ -10,5 +10,5 @@ link3: https://www.aliexpress.com/item/1005001784362921.html
 image: /assets/images/CT60W.jpg
 link2: 
 link3: 
-flash: Unknown
+chip: Unknown
 ---

@@ -7,6 +7,6 @@ link: https://www.aliexpress.com/item/4001269138118.html
 image: /assets/images/avatto_6gang.jpg
 link2: 
 link3: 
-flash: AltoBeam 6431 CA22-61
+chip: AltoBeam 6431 CA22-61
 ---
 Board says 'KingArt SmartSwitch V2020'

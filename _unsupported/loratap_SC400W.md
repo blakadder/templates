@@ -6,7 +6,7 @@ image: /assets/images/loratap_SC400W.jpg
 mlink: https://www.loratap.com/tuya-smart-life-wifi-curtain-switch-for-electric-motorized-curtain-blind-roller-shutter-google-home-amazon-alexa-voice-control-p0014.html
 link2: 
 link1: https://www.amazon.de/gp/product/B07TDHXWVW/
-flash: nonESP
+chip: nonESP
 category: unsupported
 type: Curtain Switch
 ---

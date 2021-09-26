@@ -7,7 +7,7 @@ link: https://www.lazada.com.ph/smart-life-wi-fi-smart-star-led-projector-ac100-
 image: /assets/images/star_projector.jpg
 link2: https://www.aliexpress.com/item/1005001597766230.htm
 mlink: 
-flash: WB3S
+chip: WB3S
 ---
 Wi-Fi module should be [replaceable](https://blakadder.com/frankenstein-saturday-3/) with an ESP-12.
 

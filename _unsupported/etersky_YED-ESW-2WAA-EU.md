@@ -8,5 +8,5 @@ link: https://www.amazon.de/gp/product/B08DNM4VZH
 image: /assets/images/etersky_YED-ESW-2WAA-EU.jpg
 link2: 
 link3: 
-flash: WR3
+chip: WR3
 ---

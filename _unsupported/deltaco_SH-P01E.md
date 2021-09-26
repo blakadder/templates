@@ -7,5 +7,5 @@ link: https://www.itsajten.se/produkt/Deltaco-Smart-Home-strmbrytare-WiFi-1xCEE-
 image: https://www.deltaco.se/sites/cdn/PublishingImages/Products/SH-P01E.png
 link2: 
 link3: https://www.deltaco.se/produkter/deltaco/smart-home/grenuttag/SH-P01E
-flash: RTL
+chip: RTL
 ---

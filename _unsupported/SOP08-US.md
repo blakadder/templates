@@ -7,5 +7,5 @@ link: https://www.amazon.com/gp/product/B08H1JLBF9
 image: https://images-na.ssl-images-amazon.com/images/I/619YyAMVUEL._AC_SL1500_.jpg
 link2: 
 link3: 
-flash: WB3S
+chip: WB3S
 ---

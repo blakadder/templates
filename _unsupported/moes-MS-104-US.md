@@ -6,7 +6,7 @@ image: /assets/images/moes_MS-104-US.jpg
 link2: 
 mlink: https://www.moeshouse.com/collections/diy-smart-switch/products/mini-diy-wifi-smart-light-switch-single-pole-3-way-1-gang-module
 category: unsupported
-flash: Beken
+chip: Beken
 type: Switch
 ---
 the chip is BEKEN BK7231QN40 (and not ESP)

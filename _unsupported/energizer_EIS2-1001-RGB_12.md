@@ -9,7 +9,7 @@ mlink: https://energizerconnect.com/product/smart-led-light-strip-65/
 category: unsupported
 type: LED Strip
 standard: us
-flash: W302
+chip: W302
 ---
 
 # Warning

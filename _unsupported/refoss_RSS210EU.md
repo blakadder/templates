@@ -8,6 +8,6 @@ link: https://www.amazon.de/dp/B083TP2L76
 image: /assets/images/refoss_RSS210EU.jpg
 link2: https://www.amazon.de/dp/B083TJ7W9F
 link3: 
-flash: RTL8710CF
+chip: RTL8710CF
 ---
 ![](/assets/images/refoss_RSS210EU_pcb.jpg)

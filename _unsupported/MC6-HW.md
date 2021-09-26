@@ -6,5 +6,5 @@ category: unsupported
 type: Thermostat
 link: https://www.aliexpress.com/item/1005001805886199.html
 image: /assets/images/MC6-HW.jpg
-flash: HF-MC300
+chip: HF-MC300
 ---

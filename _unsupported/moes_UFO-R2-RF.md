@@ -6,7 +6,7 @@ image: /assets/images/moes_UFO-R2-RF.jpg
 link: https://www.aliexpress.com/item/1005001504773079.html
 link2: 
 mlink: https://www.moeshouse.com/products/newest-version-wifi-rf-ir-universal-remote-controller-tv-air-conditioning-smart-home-blaster-infrared-rf-appliances
-flash: WR3E
+chip: WR3E
 category: unsupported
 ---
 

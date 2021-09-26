@@ -8,5 +8,5 @@ link: https://www.amazon.com/Cree-Lighting-Connected-Bluetooth-Changing/dp/B0896
 image: /assets/images/cree_CMA19-60W-AL-9ACK.jpg
 link2: https://www.lowes.com/pd/Cree-Lighting-Connected-Max-Tunable-White-Color-A19-60-Watt-Eqv-Bluetooth-Wifi-Smart-LED-Bulb/5001171497
 link3: https://www.creelighting.com/connectedmax
-flash: Tuya WB8P
+chip: Tuya WB8P
 ---

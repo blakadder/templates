@@ -7,5 +7,5 @@ link: https://www.aliexpress.com/item/4000651056421.html
 image: /assets/images/lcamaw_9W.jpg
 link2: 
 link3: 
-flash: Do not know
+chip: Do not know
 ---

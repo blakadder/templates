@@ -7,5 +7,5 @@ link: https://www.leuchtenservice-shop.de/epages/62177547.mobile/de_DE/?ObjectID
 image: /assets/images/lightzone_D114.jpg
 link2: https://www.aldi.de
 link3: 
-flash: WR3
+chip: WR3
 ---
