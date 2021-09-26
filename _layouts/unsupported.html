@@ -67,9 +67,21 @@ layout: default
     {% endif %}
   
     {% if page.chip != nil %}
-      {% if page.chip contains 'WB3' or page.chip contains 'WR3' or page.chip contains 'WBR3' or page.chip contains 'CB3S' %}
+      {% 
+        if page.chip contains 'C-8138'  
+        or 'WB3' 
+        or 'WB3L' 
+        or 'WB3S' 
+        or 'WBR3' 
+        or 'WR3' 
+        or 'WR3E' 
+        or 'WR3L' 
+        or 'WR3N' 
+        or 'CB3S' 
+        or 'CB3L' 
+      %}
       You can replace the incompatible module with <a href="ESP-12">ESP-12</a> or <a href="ESP-07">ESP-07</a>. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
-      {% elsif page.chip contains 'WB2' or page.chip contains 'WR2' or page.chip contains 'WBR2' %}
+      {% elsif page.chip contains 'WB2' or 'WR2' or 'WBR2' %}
       You can replace the incompatible module with <a href="WT-01N">WT-01N</a>. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.   
       {% else %}
       {% endif %}
