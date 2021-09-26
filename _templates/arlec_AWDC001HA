@@ -3,7 +3,7 @@ date_added: 2020-01-07
 title: Arlec Smart 45cm Smart DC Wall
 model: AWDC001HA
 image: https://media.bunnings.com.au/Product-800x800/5450ca3c-55e0-464a-bad9-09271f304a41.jpg
-template9: '{"NAME":"Arlec 45cm Fan","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1; TuyaMCU 61,2; TuyaMCU 64,3; TuyaMCU 99,6; TuyaMCU 12,101"}'  
+template9: '{"NAME":"Arlec 45cm Fan","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 61,2 | TuyaMCU 64,3 | TuyaMCU 99,6 | TuyaMCU 12,101"}'  
 link: https://www.bunnings.com.au/arlec-45cm-smart-dc-wall-fan-with-grid-connect_p0110424
 link2: https://www.bunnings.co.nz/arlec-45cm-smart-dc-wall-fan-with-grid-connect_p00110424
 mlink: 
