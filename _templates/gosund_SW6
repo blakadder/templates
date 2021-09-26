@@ -41,9 +41,11 @@ Setting Switch 1 to SwitchMode 1 will keep Relay 1 in sync with the status of th
 Setting Switch 2 to SwitchMode 5 will allow it to toggle the power and gives access to the HOLD option.
 
 ```console
-switchmode1 0
+switchmode1 1 
 switchmode2 5
 ```
+
+**** If when everything is setup the switch status in inversed then use the command "switchmode1 2".  Switch 1 is inverted due to the way the switch was wired in the cirucit.****
 
 For more information about SwitchMode you can find it here: https://tasmota.github.io/docs/Buttons-and-Switches/#switchmode
 
