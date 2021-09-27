@@ -1,12 +1,13 @@
 ---
 date_added: 2021-09-27
-title: eWeLink Ethernet 
+title: Eachen eWeLink Ethernet 
 model: ZB-GW03-V1.2
 image: /assets/images/ewelink_ZB-GW03.jpg
 template32: '{"NAME":"ZB-GW03-V1.2","GPIO":[0,0,3552,0,3584,0,0,0,5793,5792,320,544,5536,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,608,640,32,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005003065061179.html
 link2: https://www.amazon.de/dp/B094JKVLNR
-mlink: 
+link3: https://www.aliexpress.com/item/4000459723849.html
+mlink: https://www.alibaba.com/product-detail/Google-Home-Automation-Iot-Wired-Bridge_1600326942432.html
 flash: serial
 category: misc
 type: Zigbee Gateway
