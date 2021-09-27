@@ -22,7 +22,7 @@ To put the module in flash mode GPIO8 needs to be pulled high and GPIO9 pulled l
 Download [required files](https://github.com/tasmota/install/tree/main/static/esp32-c3) and put them in the same folder as Tasmota firmware.
 
 
-Flash using esptool.py, other tools are not reliable enough.
+Flash using [Tasmota Web Installer](https://tasmota.github.io/install/) or with esptool.py:
 
 ```bash
 esptool.py --chip esp32c3 --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x0000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32c3.bin
