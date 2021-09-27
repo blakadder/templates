@@ -174,7 +174,7 @@ layout: default
   {% if page.template != nil %}
     {% assign template = page.template | split: ':' %}
     {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-    {% if gpios contains '131' gpios contains '132' gpios contains '133' gpios contains '134' gpios contains '135' gpios contains '136' gpios contains '137' gpios contains '145' gpios contains '146' gpios contains '156' gpios contains '207' %}
+    {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
       For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
       <br><br>
       <p>
@@ -186,7 +186,7 @@ layout: default
       {% assign template = page.template32 | split: ':' %}
     {% endif %}
     {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-    {% if gpios contains '2624' gpios contains '2656' gpios contains '2688' gpios contains '2720' gpios contains '2752' gpios contains '2784' gpios contains '2816' gpios contains '3072' gpios contains '3104' gpios contains '3456' gpios contains '5056' gpios contains '7296' gpios contains '7328' gpios contains '8128' %}
+    {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '5056' or gpios contains '7296' or gpios contains '7328' or gpios contains '8128' %}
 
     For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
     <br><br>
