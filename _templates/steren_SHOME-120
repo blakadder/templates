@@ -13,3 +13,5 @@ type: RGBCCT
 standard: e27
 ---
 In order to get the correct CCT for the whites you have to `SetOption92 1` in the Tasmota console
+
+![wiring](https://pin.it/3BCGMB)
