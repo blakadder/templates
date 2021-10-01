@@ -15,11 +15,7 @@ type: Dimmer Module
 standard: global
 ---
 
-Backlog TuyaMCU 11,1; TuyaMCU 21,2; TuyaMCU 12,7; TuyaMCU 22,8;
-DimmerRange 0,1003
-SetOption68 1 
-
-2 Channels Dimmerswitch ready, local control with two reset switches. Red LED is for first channel, blue led for second channel.  
+2 Channels Dimmer switch ready, local control with two reset switches. Red LED is for first channel, blue led for second channel.  
 
 
 At dpID 6 and dpID12 are a nightlight-Option. If you set this integer higher then 1, the light will go off set the dimmer-level to 151. With next set the same parameter or set on with dpID 1 or 7, the light will illuminate at "night light level".
