@@ -3,7 +3,7 @@ date_added: 2021-05-15
 title: KHSUIN BR30 13W 1300lm
 model: BL96E
 image: /assets/images/khsuin_BL96E.jpg
-template: '{"NAME":"KHSUIN","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"KHSUIN 13W BR30","GPIO":[0,0,0,0,416,420,0,0,417,419,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B083GJ4NHV
 link2: 
 mlink: 
