@@ -18,7 +18,7 @@ This module is pin compatible with TYWE2S, WR2, WR2E, WB2S.
 
 ![Pinout](/assets/images/ESP-C3F_pinout.jpg)
  
-There are two different version of this module:
+There are two different versions of this module:
 
 - **C3FN4** with 4Mb flash
 - **C3-2M** with 2Mb flash. This version is not recommended for Tasmota due to low flash space.
@@ -35,7 +35,7 @@ If using esptool.py download [required files](https://github.com/tasmota/install
 esptool.py --chip esp32c3 --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x0000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32c3.bin
 ```
 
-You can purchase ([AliExpress](https://www.aliexpress.com/item/1005002668365356.html?aff_fcid=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&tt=CPS_NORMAL&aff_fsk=_9uLaGw&aff_platform=shareComponent-detail&sk=_9uLaGw&aff_trace_key=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&terminal_id=c60aa1c2bd3d4f80907b0cc2716fb935), [Amazon](https://amzn.to/3o8owSb), [Banggood](https://www.banggood.com/ESP8266-Test-Board-Burner-Development-Board-WIFI-Module-For-ESP-01-ESP-01S-ESP-12E-ESP-12F-ESP-12S-ESP-18T-p-1684992.html?p=CM27171011078201412U&custlinkid=1640377)) a test board for efortless flashing. Just drop the module in, plug in the USB cable and flash!
+You can purchase ([AliExpress](https://www.aliexpress.com/item/1005002668365356.html?aff_fcid=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&tt=CPS_NORMAL&aff_fsk=_9uLaGw&aff_platform=shareComponent-detail&sk=_9uLaGw&aff_trace_key=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&terminal_id=c60aa1c2bd3d4f80907b0cc2716fb935), [Amazon](https://amzn.to/3o8owSb), [Banggood](https://www.banggood.com/ESP8266-Test-Board-Burner-Development-Board-WIFI-Module-For-ESP-01-ESP-01S-ESP-12E-ESP-12F-ESP-12S-ESP-18T-p-1684992.html?p=CM27171011078201412U&custlinkid=1640377)) a test board for efortless flashing. Just drop the module in, plug in the USB cable, hold the boot button while powering up and flash!
 
 ![Test Board](/assets/images/esp_test_board.jpg)
 
