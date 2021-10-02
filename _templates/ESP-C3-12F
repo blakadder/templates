@@ -1,11 +1,12 @@
 ---
 date_added: 2021-10-02
-title: Ai Thinker ESP-C3-12F 
+title: Ai Thinker ESP-C3-12F ESP-12 Compatible
 model: C3FN4
 category: diy
 type: Module
 standard: global
 image: /assets/images/ESP-C3-12F.jpg
+templatec3: 'Module 1'
 chip: c3
 mlink: http://www.ai-thinker.com/pro_view-90.html
 link: https://www.aliexpress.com/item/1005002871304962.html

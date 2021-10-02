@@ -6,6 +6,7 @@ category: diy
 type: Module
 standard: global
 image: /assets/images/WT32C3-01N.jpg
+templatec3: 'Module 1'
 chip: c3
 mlink: 
 link: https://www.alibaba.com/product-detail/Original-factory-WT32C3-S5-ESP32-wifi_1600283557637.html
