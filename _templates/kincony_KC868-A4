@@ -4,8 +4,9 @@ title: Kincony IR+RF 4 Channel
 model: KC868-A4
 image: /assets/images/kincony_KC868-A4.jpg
 template32: '{"NAME":"KC868-A4","GPIO":[32,0,227,0,224,225,0,0,0,1312,1,226,0,0,480,1152,0,1120,1056,1088,0,1,1,1,0,0,0,0,4706,4707,4704,4705,1,0,0,1],"FLAG":0,"BASE":1}'
-link: https://www.aliexpress.com/item/1005002823617497.html
-link2: https://www.alibaba.com/product-detail/KC868-A4-ESP32-Wifi-RS232-USB_1600262341657.html
+link: https://www.aliexpress.com/item/1005002709444272.html
+link2: https://www.aliexpress.com/item/1005002823617497.html
+link3: https://www.alibaba.com/product-detail/KC868-A4-ESP32-Wifi-RS232-USB_1600262341657.html
 mlink: https://www.kincony.com/arduino-relay-module.html
 flash: serial
 category: relay
