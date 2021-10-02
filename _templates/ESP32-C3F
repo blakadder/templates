@@ -1,7 +1,7 @@
 ---
 date_added: 2021-10-02
 title: Ai Thinker ESP-C3-12F ESP-12 Compatible
-model: C3FN4
+model: ESP32-C3F
 category: diy
 type: Module
 standard: global
@@ -10,7 +10,8 @@ templatec3: 'Module 1'
 chip: c3
 mlink: http://www.ai-thinker.com/pro_view-90.html
 link: https://www.aliexpress.com/item/1005002871304962.html
-link2: https://ai-thinker.en.alibaba.com/product/1600232771301-826579202/Ai_Thinker_ESP32_C3F_new_WIFI_BLE_5_0_Module.html
+link2: https://www.alibaba.com/product-detail/Ai-Thinker-ESP32-C3F-new-WIFI_1600232771301.html
+link3: 
 ---
 
 This module is pin compatible with TYWE2S, WR2, WR2E, WB2S.
