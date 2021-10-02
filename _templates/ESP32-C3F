@@ -5,7 +5,7 @@ model: ESP32-C3F
 category: diy
 type: Module
 standard: global
-image: /assets/images/ESP-C3F.jpg
+image: /assets/images/ESP32-C3F.jpg
 templatec3: 'Module 1'
 chip: c3
 mlink: http://www.ai-thinker.com/pro_view-90.html
@@ -16,7 +16,7 @@ link3:
 
 This module is pin compatible with TYWE2S, WR2, WR2E, WB2S.
 
-![Pinout](/assets/images/ESP-C3F_pinout.jpg)
+![Pinout](/assets/images/ESP32-C3F_pinout.jpg)
  
 There are two different versions of this module:
 
