@@ -126,7 +126,7 @@ layout: default
 {% else %}
 <div class="row">
   <div class="column column-100">
-  Set to Generic Module (18) in "<B>Configuration - Configure Module</B>".<br><br>
+  Use "<B>Configuration - Configure Module</B>" to map GPIOs.<br><br>
   </div>
 </div>
 {% endif %}
@@ -157,7 +157,7 @@ layout: default
     <a href="https://tasmota.github.io/docs/ESP32/">Flashing instructions</a> for tasmota32 firmware.<p>
   {% endif %}
 
-  {% if page.templatec3 != nil %}
+  {% if page.templatec3 != nil or page.chip == "c3" %}
   Requires a separate ESP32-C3 tasmota32 binary. Download unofficial development build for <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3.bin">4Mb flash</a> or <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3_2M.bin">2Mb flash</a>.<p>
   {% endif %}
 

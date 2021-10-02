@@ -1,0 +1,20 @@
+---
+date_added: 2021-10-02
+title: Shelly Plus 1
+model: SPL1
+image: /assets/images/shelly_plus_1.jpg
+template32: '{"NAME":"Shelly Plus 1 ","GPIO":[0,0,0,0,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.domadoo.fr/fr/objets-communicants/5888-shelly-micromodule-commutateur-intelligent-wi-fi-shelly-plus-1-contact-sec-3800235265000.html
+link2: 
+mlink: https://shelly.cloud/shelly-plus-1/
+flash: serial
+chip: solo1
+category: relay
+type: Relay
+standard: global
+---
+Use Tasmota v9.5.0.9+. Older versions do not work.
+
+![](/assets/images/shelly_plus_1_pinout.jpg)
+Pin-Layout is on the image, credit goes to Kalin Dimitrov! 
+
