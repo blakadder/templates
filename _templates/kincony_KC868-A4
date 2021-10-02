@@ -1,0 +1,27 @@
+---
+date_added: 2021-10-10
+title: Kincony IR+RF 4 Channel
+model: KC868-A4
+image: /assets/images/kincony_KC868-A4.jpg
+template32: '{"NAME":"KC868-A4","GPIO":[32,0,227,0,224,225,0,0,0,1312,1,226,0,0,480,1152,0,1120,1056,1088,0,1,1,1,0,0,0,0,4706,4707,4704,4705,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://www.aliexpress.com/item/1005002823617497.html
+link2: https://www.alibaba.com/product-detail/KC868-A4-ESP32-Wifi-RS232-USB_1600262341657.html
+mlink: https://www.kincony.com/arduino-relay-module.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+Use the _mini USB_ port to flash the device.
+
+Terminals marked DA1 and DA2 are DAC GPIO's 25 and 26 which can be controlled using [Berry gpio.dac_voltage](https://tasmota.github.io/docs/Berry/#support-for-dac-gpios-on-esp32-and-esp32-s2).
+
+Digital inputs our optocoupler isolated. RF433 receiver and transmitter come only in some bundles.
+
+S2 button is a bit fussy, adjust if needed using `ButtonDebounce`.
+
+![Functions](/assets/images/kincony_KC868-A4_functions.jpg)
+
+[Kincony forums](https://www.kincony.com/forum/forumdisplay.php?fid=6) have examples and demos of all the functions with various firmware
+
+[Schematics](https://www.kincony.com/download/KC868-A4-schematic.pdf)
