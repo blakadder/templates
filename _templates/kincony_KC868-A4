@@ -17,9 +17,9 @@ Use the _mini USB_ port to flash the device.
 
 Terminals marked DA1 and DA2 are DAC GPIO's 25 and 26 which can be controlled using [Berry gpio.dac_voltage](https://tasmota.github.io/docs/Berry/#support-for-dac-gpios-on-esp32-and-esp32-s2).
 
-Digital inputs our optocoupler isolated. RF433 receiver and transmitter come only in some bundles. 
+Digital inputs are optocoupler isolated. RF433 receiver and transmitter come only in some bundles. 
 
-S2 button is a bit fussy, adjust if needed using `ButtonDebounce`.
+Button marked S2 is a bit fussy when trying to use multi-press, adjust if needed using `ButtonDebounce`.
 
 ![Functions](/assets/images/kincony_KC868-A4_functions.jpg)
 
