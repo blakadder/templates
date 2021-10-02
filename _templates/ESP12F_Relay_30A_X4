@@ -9,7 +9,7 @@ link2: https://www.aliexpress.com/item/1005002699780454.html
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 Just like the ESP12F_Relay_X4, but with 30A relays. 
