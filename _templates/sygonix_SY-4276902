@@ -17,7 +17,10 @@ standard: eu
 The firmware of the device sold by Conrad is not OTA Flashable, you need to disassemble the device and flash over
 serial.
 
-### Flashing instructions
+### Disassembling & Flashing instructions
+
+The two halves of the plug are glued together, it's easier to use a precision knife (or a scalpel) to create a gap
+between the seams. Then push a flathead screwdriver and release the plastic clips holding the two sides together.
 
 Note: Some more advanced soldering skills and steady hands needed or you might tear off the pads
 
