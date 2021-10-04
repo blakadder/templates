@@ -1,0 +1,17 @@
+---
+date_added: 2021-10-04
+title: Linkind 2-Way Single Pole 
+model: WS240010008
+image: /assets/images/linkind_WS240010008.jpg
+template32: '{"NAME":"Linkind WS240010008","GPIO":[0,0,0,0,0,224,1,1,0,0,288,0,1,1,0,0,0,0,0,0,0,576,321,0,0,0,0,0,33,32,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.linkind.com/product/smart-wifi-single-pole-light-dimmer-switch/
+link2: 
+link: https://www.amazon.com/Linkind-Light-Switch-Dimmer/dp/B08VDK3S4Y
+flash: serial
+chip: solo1
+category: switch
+type: Switch
+standard: us
+---
+
+If you want to make the Bluetooth function you'll need to compile your own version of tasmota to include it but it is not recommended to run Bluetooth on a single core chip.
