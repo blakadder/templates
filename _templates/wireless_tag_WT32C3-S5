@@ -6,8 +6,10 @@ category: diy
 type: Module
 standard: global
 image: /assets/images/wireless_tag_WT32C3-S5.jpg
-templatec3: '{"NAME":"WT32C3-S5","GPIO":[1,1,1,1,1,1,1,1,544,1,1,0,0,0,0,0,0,0,1,1,0,0],"FLAG":0,"BASE":1}' 
-mlink: https://www.alibaba.com/product-detail/Original-factory-WT32C3-S5-ESP32-wifi_1600283557637.html
+templatec3: 'Module 1'
+chip: c3
+mlink: http://www.wireless-tag.cn/portfolio/wt32c3-s5/
+link2: https://www.alibaba.com/product-detail/Original-factory-WT32C3-S5-ESP32-wifi_1600283557637.html
 link: https://www.aliexpress.com/item/1005002973734309.html
 ---
 
@@ -31,14 +33,14 @@ esptool.py --chip esp32c3 --baud 460800 --before default_reset --after hard_rese
 ![solderless wiring]( /assets/images/wireless_tag_WT32C3-S5_wired.jpg)
 You can do it without any soldering. Just apply pressure to make good contact between the Dupont wires and pin holes.
 
-You can purchase ([AliExpress](https://www.aliexpress.com/item/1005002668365356.html?aff_fcid=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&tt=CPS_NORMAL&aff_fsk=_9uLaGw&aff_platform=shareComponent-detail&sk=_9uLaGw&aff_trace_key=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&terminal_id=c60aa1c2bd3d4f80907b0cc2716fb935), [Amazon](https://amzn.to/3o8owSb), [Banggood](https://www.banggood.com/ESP8266-Test-Board-Burner-Development-Board-WIFI-Module-For-ESP-01-ESP-01S-ESP-12E-ESP-12F-ESP-12S-ESP-18T-p-1684992.html?p=CM27171011078201412U&custlinkid=1640377)) a test board for eforless flashing. Just drop the module in, plug in the USB cable and flash!
+You can purchase ([AliExpress](https://www.aliexpress.com/item/1005002668365356.html?aff_fcid=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&tt=CPS_NORMAL&aff_fsk=_9uLaGw&aff_platform=shareComponent-detail&sk=_9uLaGw&aff_trace_key=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&terminal_id=c60aa1c2bd3d4f80907b0cc2716fb935), [Amazon](https://amzn.to/3o8owSb), [Banggood](https://www.banggood.com/ESP8266-Test-Board-Burner-Development-Board-WIFI-Module-For-ESP-01-ESP-01S-ESP-12E-ESP-12F-ESP-12S-ESP-18T-p-1684992.html?p=CM27171011078201412U&custlinkid=1640377)) a test board for effortless flashing. Just drop the module in, plug in the USB cable and flash!
 
 ![Test Board](/assets/images/esp_test_board.jpg)
 
 ## Running
 For normal operation connect EN to VCC (pull high) to enable the C3 chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.
 
-ESP32's are power hungry on boot and the usb to serial adapter might not be able to provide enough power for that. Use a stable 3V3 power supply that can supply more than 400 mA 
+ESP32's are power hungry on boot and the usb to serial adapter might not be able to provide enough power for that. Use a stable 3.3v power supply that can supply more than 500 mA 
 
 [Datasheet](/assets/WT32C3-S6_Datasheet_V1_0_1.pdf)
 

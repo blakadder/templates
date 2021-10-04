@@ -3,12 +3,35 @@ date_added: 2020-03-03
 title: Sygonix SY-4276902
 model: 4053199975983
 image: /assets/images/sygonix_SY-4276902.jpg
-template: '{"NAME":"SYGONIX","GPIO":[0,0,0,17,133,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"SYGONIX","GPIO":[0,0,0,17,133,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":18}'
 link: https://www.conrad.de/de/p/sygonix-sy-4276902-wi-fi-funk-steckdose-innenbereich-2500-w-2138451.html
-link2: 
-mlink: 
-flash: tuya-convert
+link2:
+mlink:
+flash: serial
 category: plug
 type: Plug
 standard: eu
 ---
+
+### 2021-10-03 Update
+The firmware of the device sold by Conrad is not OTA Flashable, you need to disassemble the device and flash over
+serial.
+
+### Disassembling & Flashing instructions
+
+The two halves of the plug are glued together, it's easier to use a precision knife (or a scalpel) to create a gap
+between the seams. Then push a flathead screwdriver and release the plastic clips holding the two sides together.
+
+Note: Some more advanced soldering skills and steady hands needed or you might tear off the pads
+
+Device contains the tiny `TYWE2S` module, it's oriented and positioned such that it's `3V3`, `TX` and `RX` pins are on
+the inner bottom side of the main board making them very hard to reach for soldering. The socket prongs do not move and
+are stuck to the casing, to reach the UART0 you need to either de-solder the mains prongs from the board or make a hole.
+
+If you are unable to boot into flash mode you might need to remove the shielding and
+[try to solder the GPIO0 pin of the ESP itself]((https://github.com/ct-Open-Source/tuya-convert/issues/862).
+
+### Photos
+
+![Side view of TYWE2S with pinout](/assets/images/sygonix_SY-4276902_pins.jpg)
+![Bottom view of the board after de-soldering prongs with pinout](/assets/images/sygonix_SY-4276902_bottom.jpg)
