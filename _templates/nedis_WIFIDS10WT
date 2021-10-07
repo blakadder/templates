@@ -34,6 +34,7 @@ Backlog SetOption1 1; SetOption65 1
 
 To get smoke detected alerts and battery status use rules to send data to custom topics.
 
+```console
 Rule1
   ON TuyaReceived#CmndData=6A04000100 DO publish2 stat/%topic%/FIRE OFF ENDON
   ON TuyaReceived#CmndData=6A04000100 DO publish2 stat/%topic%/TEST OFF ENDON
