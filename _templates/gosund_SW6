@@ -29,7 +29,7 @@ Switch2 | The push button on the smart switch. Using Switch instead of button se
 There are a couple things we need to do to get this switch to work correctly. 
 
 #### SwitchTopic
-This is normally set to 0 by default. This is the desired value. I recommend runnning anyways to make sure it is set. 
+This is normally set to 0 by default. This is the desired value. I recommend running anyway to make sure it is set. 
 ```console
 SwitchTopic 0
 ```
@@ -37,7 +37,7 @@ SwitchTopic 0
 For more information about SwitchTopic you can find it here: https://tasmota.github.io/docs/Buttons-and-Switches/#switchtopic
 
 #### SwitchMode
-Setting Switch 1 to SwitchMode 1 will keep Relay 1 in sync with the status of the power. When the state of the cirucit is changed that will change Switch1 and in turn chagne Relay1.
+Setting Switch 1 to SwitchMode 1 will keep Relay 1 in sync with the status of the power. When the state of the circuit is changed that will change Switch1 and in turn change Relay1.
 Setting Switch 2 to SwitchMode 5 will allow it to toggle the power and gives access to the HOLD option.
 
 ```console
@@ -45,7 +45,7 @@ switchmode1 1
 switchmode2 5
 ```
 
-**** If, when everything is set up, the switch status in inversed then use the command `switchmode1 2`.  Switch 1 is inverted due to the way the switch was wired in the cirucit.****
+**** If, when everything is set up, the switch status in inversed then use the command `switchmode1 2`.  Switch 1 is inverted due to the way the switch was wired in the circuit.****
 
 For more information about SwitchMode you can find it [here](https://tasmota.github.io/docs/Buttons-and-Switches/#switchmode)
 
@@ -58,9 +58,9 @@ Backlog Rule1 ON Power3#State do Power2 2 endon ON switch2#state=3 DO publish st
 ```
 
 #### Rule2
-Keeps relay3 in sync with relay1 but, rule1 has to be disabled while updating the state and then reenabled. 
+Keeps relay3 in sync with relay1 but, rule1 has to be disabled while updating the state and then re-enabled. 
 ```console
-Backlog Rule2 ON Power1#state do Backlog rule1 0; power3 0; rule 1 1 endon On Powe1#state=1 do Backlog rule1 0: power3 1: rule1 1 endon; Rule2 1
+Backlog Rule2 ON Power1#state do Backlog rule1 0; power3 0; rule 1 1 endon On Power1#state=1 do Backlog rule1 0: power3 1: rule1 1 endon; Rule2 1
 ```
 #### Rule3
 For explicit on / off and toggle rule3. When an event is received, Relay3 will only change if it's not already in the matching state.
@@ -97,6 +97,6 @@ switch:
 Topic | Description
 ----- | -----------
 state_topic | is based on the dummy relay on the smart switch. This is what tells Home Assistant if the light is on or off.
-command_topic | This is what Home assistent will use to trigger [Rule3](#Rule3) on the device via MQTT. 
+command_topic | This is what Home assistant will use to trigger [Rule3](#Rule3) on the device via MQTT. 
 
 
