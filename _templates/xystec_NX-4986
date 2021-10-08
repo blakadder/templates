@@ -29,6 +29,6 @@ Power the board over USB.
 
 - plug the hub into usb to power it on
 - plug the serial programmerr into the computer
-- _(wait a few seconds,)_ remove the RST connection | *flashing mode*
+- _(wait a few seconds,)_ remove the RST connection - *flashing mode*
 - flash the device as usual 
 - apply the template
