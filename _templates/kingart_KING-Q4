@@ -1,0 +1,14 @@
+---
+date_added: 2021-10-07
+title: KingArt
+model: KING-Q4
+image: /assets/images/kingart_KING-Q4.jpg
+template9: '{"NAME":"KING-Q4","GPIO":[544,0,0,162,0,32,0,0,33,225,290,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.ebay.de/itm/313505614768?var=612343289010
+link2: https://www.banggood.com/KINGART-Tuya-Smart-WiFi-Curtain-Shutter-Touch-Door-Switch-EU-Standard-Remote-Control-Works-with-Alexa-Google-Voice-Control-p-1882363.html
+mlink: 
+flash: tuya-convert
+category: switch
+type: Curtain Switch
+standard: [eu]
+---

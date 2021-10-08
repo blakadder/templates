@@ -1,0 +1,34 @@
+---
+date_added: 2021-10-08
+title: Xystec USB3.0 4 Port Hub
+model: NX-4986
+image: /assets/images/xystec_NX-4986.jpg
+template9: '{"NAME":"Xystec USB Hub","GPIO":[0,0,0,0,224,0,0,0,226,227,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.pearl.de/a-NX4986-3103.shtml
+link2: 
+mlink: http://www.xystec.info/WiFi-USB-3-0-Hub-mit-4-einzeln-steuerbaren-Ports-p-NX-4986-919.shtml
+flash: serial
+category: misc
+type: Miscellaneous
+standard: global
+---
+The device needs to be flashed via serial - tuya convert does not work:
+- open the hub carefully on the front and back
+- pull the board out of the case
+- the pinouts are clearly accessible and visible - no soldering required
+
+USB serial programmer | board
+ --- | ---
+RX | TX
+TX | RX
+GND | G
+GND | IO0 
+GND | RST *(required)*
+
+Power the board over USB.
+
+- plug the hub into usb to power it on
+- plug the serial programmerr into the computer
+- _(wait a few seconds,)_ remove the RST connection | *flashing mode*
+- flash the device as usual 
+- apply the template
