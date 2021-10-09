@@ -14,4 +14,4 @@ standard: eu
 ---
 The device is heavily glued and must be opened with force and glued back together. TYWE2S contacts are under the CE sign, but device has to be opened for GPIO0. Be careful when opening not to destroy the button on the PCB.
 
-![Image](https://imgur.com/a/JBiibQV)
+![Image](https://i.imgur.com/Nxv8do8.png)
