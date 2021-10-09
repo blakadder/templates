@@ -81,6 +81,11 @@ layout: default
         or page.chip contains 'CB3L' 
       %}
       You can replace the incompatible module with <a href="/ESP-12">ESP-12</a> or <a href="/ESP-07">ESP-07</a>. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
+      {% 
+        elsif page.chip contains 'WB2L' 
+        or page.chip contains 'WR2L' 
+        or page.chip contains 'WBR2L' 
+      %}<a href="/DMP-L1">WT-01N</a> 
       {% elsif page.chip contains 'WB2' or page.chip contains 'WR2' or page.chip contains 'WBR2' %}
       You can replace the incompatible module with <a href="/WT-01N">WT-01N</a> or <a href="/WT32C3-01N">WT32C3-01N</a> . Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.   
       {% else %}
