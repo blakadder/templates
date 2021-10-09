@@ -37,5 +37,11 @@ I've set the template so that there is a dummy relay on GPIO2, so the LED can be
 L1 is connected to motor "down", L2 is "up".
 
 Additional setup:
-`SO80 1; SO1 0; PowerOnState 0; WebButton 1 Auto; ShutterRelay1 2; Interlock on; Interlock 2,3; ShutterMode 1; ShutterButton1 2 up; ShutterButton1 3 down`
-I've some used without MQTT in standalone Timer mode, the center button then is used to disable timers. To do this i added a simple rule `rule1 on system#boot do backlog power1 1; timers 1 endon on Power1#state do timers %value% endon`, this switches the timers on when power is applied, and they follow the power1 state."
+```console
+SO80 1; SO1 0; PowerOnState 0; WebButton 1 Auto; ShutterRelay1 2; Interlock on; Interlock 2,3; ShutterMode 1; ShutterButton1 2 up; ShutterButton1 3 down
+```
+I've some used without MQTT in standalone Timer mode, the center button then is used to disable timers. To do this I added a simple rule 
+```console
+rule1 on system#boot do backlog power1 1; timers 1 endon on Power1#state do timers %value% endon
+```
+this switches the timers on when power is applied, and they follow the Power1 state.

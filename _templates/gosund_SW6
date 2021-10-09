@@ -60,7 +60,7 @@ Backlog Rule1 ON Power3#State do Power2 2 endon ON switch2#state=3 DO publish st
 #### Rule2
 Keeps relay3 in sync with relay1 but, rule1 has to be disabled while updating the state and then re-enabled. 
 ```console
-Rule2 ON Power1#state do Backlog rule1 0; power3 0; rule1 1 endon On Power1#state=1 do Backlog rule1 0; power3 1; rule1 1 endon; Rule2 1
+Rule2 ON Power1#state=0 do Backlog rule1 0; power3 0; rule1 1 endon On Power1#state=1 do Backlog rule1 0; power3 1; rule1 1 endon; Rule2 1
 ```
 #### Rule3
 For explicit on / off and toggle rule3. When an event is received, Relay3 will only change if it's not already in the matching state.
