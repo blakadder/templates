@@ -217,6 +217,11 @@ layout: default
   %}
   <a href="ESP-12">ESP-12</a> or <a href="ESP-07">ESP-07</a> 
   {% 
+    elsif page.chip contains 'WB2L' 
+    or page.chip contains 'WR2L' 
+    or page.chip contains 'WBR2L' 
+  %}<a href="DMP-L1">WT-01N</a> 
+  {% 
     elsif page.chip contains 'WB2' 
     or page.chip contains 'WR2' 
     or page.chip contains 'WBR2' 
