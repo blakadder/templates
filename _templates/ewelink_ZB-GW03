@@ -80,4 +80,4 @@ build_flags             = ${env:tasmota32_base.build_flags} -DFIRMWARE_EWELINK
 ```
 
 Step-by-step instructions to build custom firmware, flash the device, and final setup steps to work with or without Home Assistant:
-https://thehelpfulidiot.com/a-wired-sonoff-zigbee-alternative
+[https://thehelpfulidiot.com/a-wired-sonoff-zigbee-alternative](https://thehelpfulidiot.com/a-wired-sonoff-zigbee-alternative)
