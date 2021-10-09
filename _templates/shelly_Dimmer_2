@@ -23,13 +23,13 @@ After the firmware upgrade for the STM32 firmware you should execute some comman
 1. switchmode 11 -> pushbutton with dimmer mode
 2. use "SetOption32" to set the time for dim up/down start (10 = 1 sec)
 3. If you want to use the dimmer with one button mode, you can check here:
-https://tasmota.github.io/docs/Rules/#control-a-dimmer-with-one-switch
+[https://tasmota.github.io/docs/Rules/#control-a-dimmer-with-one-switch](https://tasmota.github.io/docs/Rules/#control-a-dimmer-with-one-switch)
 (be sure to change the MQTT topics to the right ones your device is using)
 4. Ledtable 0 -> Disable gamma control
 5. ShdLeadingEdge -> set to 0 for trailing edge and 1 to leading edge. Be careful to set the right type for your load!
 6. Exceute "Dimmer 1" and then use the "DimmerRange" command beginning counting from 0 upwards (DimmerRange 0, DimmerRange 1 and so on), until you see your light start dimming.
-7. If you have flickering at low light levels, try the new ShdWarmupBrightness command (see https://github.com/jamesturton/shelly-dimmer-stm32/pull/23 ). Use only with LED and at your own risk!
+7. If you have flickering at low light levels, try the new ShdWarmupBrightness command (see [https://github.com/jamesturton/shelly-dimmer-stm32/pull/23](https://github.com/jamesturton/shelly-dimmer-stm32/pull/23) ). Use only with LED and at your own risk!
 
 You can try to revert back to the stock firmware using OTA with this tool if you have any issues: 
-https://github.com/yaourdt/tasmota-to-mgos
+[https://github.com/yaourdt/tasmota-to-mgos](https://github.com/yaourdt/tasmota-to-mgos)
 If this fails you have to use the serial connection. If you reverted back to the original Shelly firmware the STM32 should be flashed back automatically to the originally Shelly version.

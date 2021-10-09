@@ -1,0 +1,15 @@
+---
+date_added: 2021-10-03
+title: Esooli 2 Gang 1 Way
+model: SL-Wifi-03
+image: /assets/images/esooli_SL-Wifi-03.jpg
+template: '{"NAME":"Esooli 2 gang","GPIO":[0,52,0,17,18,0,0,0,0,21,22,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/4000036690312.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: [eu, uk]
+---
+Recognised via Wifi-W6B on main board, appears to be the same as ZUCZUG 2

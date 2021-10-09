@@ -3,7 +3,7 @@ date_added: 2020-05-04
 title: Nedis Smoke Detector
 model: WIFIDS10WT
 image: /assets/images/nedis_WIFIDS10WT.jpg
-template: '{"NAME":"Nedis Smoke","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+template: '{"NAME":"Nedis WIFIDS10WT","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://nedis.com/en-us/product/security-safety/home-prevention/smoke-detection/550691451/smart-smoke-detector-wi-fi
 link2: 
 mlink: https://nedis.com/en-us/product/security-safety/home-prevention/smoke-detection/550691451/smart-smoke-detector-wi-fi
@@ -21,12 +21,50 @@ If configuring using the battery, 3 presses within 2 seconds energise the [TYWE3
 After initial setup type the following into the Tasmota console window:
 
 ```console
-Rule1 ON TuyaReceived#data=55AA000000010101 DO POWER ON ENDON
+TuyaMCU 51,51
+```
+
+The following makes sure the device does not get reset inadvertently or during low power conditions:
+
+```console
+Backlog SetOption1 1; SetOption65 1
+```
+
+### Functions
+
+To get smoke detected alerts and battery status use rules to send data to custom topics.
+
+```console
+Rule1
+  ON TuyaReceived#CmndData=6A04000100 DO publish2 stat/%topic%/FIRE OFF ENDON
+  ON TuyaReceived#CmndData=6A04000100 DO publish2 stat/%topic%/TEST OFF ENDON
+  ON TuyaReceived#CmndData=6A04000100 DO publish2 stat/%topic%/BATTERY OFF ENDON
+  ON TuyaReceived#CmndData=6A04000100 DO publish2 stat/%topic%/MUTE OFF ENDON
+  ON TuyaReceived#CmndData=6A04000101 DO publish2 stat/%topic%/FIRE ON ENDON
+  ON TuyaReceived#CmndData=6A04000101 DO publish2 stat/%topic%/MUTE OFF ENDON
+  ON TuyaReceived#CmndData=6A04000102 DO publish2 stat/%topic%/FIRE ON ENDON
+  ON TuyaReceived#CmndData=6A04000102 DO publish2 stat/%topic%/MUTE ON ENDON
+  ON TuyaReceived#CmndData=6A04000103 DO publish2 stat/%topic%/FIRE ON ENDON
+  ON TuyaReceived#CmndData=6A04000103 DO publish2 stat/%topic%/TEST ON ENDON
+  ON TuyaReceived#CmndData=6A04000103 DO publish2 stat/%topic%/MUTE OFF ENDON
+  ON TuyaReceived#CmndData=6A04000104 DO publish2 stat/%topic%/BATTERY ON ENDON
 ```
 
 Enable the rule: `Rule1 1`
 
-Enable `SetOption66 1`
+If you wish to integrate the device seamlessly in Home Assistant, type the following into the Tasmota console window (modify the names to your requirements):
+
+```console
+Rule2
+  ON system#boot do publish2 homeassistant/binary_sensor/%macaddr%_fire/config {"name":"Fire Alarm","state_topic":"stat/%topic%/FIRE","device_class":"smoke","unique_id":"%macaddr%_fire","device":{"connections":[["mac","%macaddr%"]]}} ENDON
+  ON system#boot do publish2 homeassistant/binary_sensor/%macaddr%_test/config {"name":"Fire Alarm Test","state_topic":"stat/%topic%/TEST","icon":"mdi:bell-alert","unique_id":"%macaddr%_test","device":{"connections":[["mac","%macaddr%"]]}} ENDON
+  ON system#boot do publish2 homeassistant/binary_sensor/%macaddr%_mute/config {"name":"Fire Alarm Mute","state_topic":"stat/%topic%/MUTE","icon":"mdi:bell-sleep","unique_id":"%macaddr%_mute","device":{"connections":[["mac","%macaddr%"]]}} ENDON
+  ON system#boot do publish2 homeassistant/binary_sensor/%macaddr%_battery/config {"name":"Fire Alarm Battery","state_topic":"stat/%topic%/BATTERY","device_class":"battery","unique_id":"%macaddr%_battery","device":{"connections":[["mac","%macaddr%"]]}} ENDON
+```
+
+Enable the rule: `Rule2 1`
+
+Enable `SetOption66 1` to forward TuyaReceived messages to MQTT.
 
 This device on Tasmota 8.2 does not report a full TuyaMCU message, but it sends `55AA000000010101` when smoke is detected.
 

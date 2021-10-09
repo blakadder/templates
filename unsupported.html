@@ -6,7 +6,7 @@ title: Unsupportable Devices
 
 <!-- ######################################################################  -->
 {% assign category = site.unsupported %}
-{% assign type_group = category | group_by: 'category' %}
+{% assign type_group = category | group_by: 'category'  | sort_natural: 'title' %}
 {% assign type_grouped = type_group | sort: 'name' %}
 {% for group in type_grouped %}
 <BR>

@@ -17,3 +17,8 @@ There are different versions of the KS-604S requiring different GPIO configurati
 2021-4-10 bought (2) KS-604S from amazon.com. OTA failed, flashed with internal pins. The template I had to use was the Other Device Template
 
 `{"NAME":"KS-604S","GPIO":[158,255,255,17,56,18,255,255,22,21,57,23,255],"FLAG":0,"BASE":18}`
+
+2021-10-07 Bought 1 on Amazon.ca and I had to Flash using onboard serial pin on the board. (vcc,tx,rx,gnd) some information say use D3 on J7 as GPIO-0 but this is not working.
+on the board just beside the ESP8266ex chip there is 1 solder point written ID0 it is located very near a capacitor. use that point to ground GPIO-0 during boot and flash
+Use the template: '{"NAME":"KS-604S","GPIO":[158,255,255,17,56,18,255,255,22,21,57,23,255],"FLAG":0,"BASE":18}'
+this work perfectly having both socket working toggle 1 and 2  + USB toggle on #3

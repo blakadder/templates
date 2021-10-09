@@ -1,0 +1,14 @@
+---
+date_added: 2021-10-07
+title: Beghelli dom-E 14W 1400lm
+model: 60012
+image: /assets/images/beghelli_60012.jpg
+template9: '{"NAME":"Beghelli Smart Bulb","GPIO":[0,0,0,0,416,417,0,0,418,419,420,0,0,0],"FLAG":3,"BASE":18,"CMND":"SO37 13"}' 
+mlink: https://www.beghelli.it/store/it/catalogo/sicurezza/dom-e/lampadina-smart-goccia-108844
+link2: 
+link: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

@@ -3,7 +3,7 @@ date_added: 2020-12-11
 title: KingArt 1 Gang
 model: KING-L1
 image: /assets/images/kingart_KING-L1.jpg
-template: '{"NAME":"KING-Tuya-key","GPIO":[0,0,0,0,0,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"KING-L1","GPIO":[0,0,0,0,0,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4001334946718.html
 link2: 
 mlink: 
