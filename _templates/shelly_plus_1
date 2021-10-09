@@ -10,7 +10,7 @@ mlink: https://shelly.cloud/shelly-plus-1/
 flash: serial
 chip: solo1
 category: relay
-type: Relay Module
+type: Switch Module
 standard: global
 ---
 Use Tasmota v9.5.0.9+. Older versions do not work.

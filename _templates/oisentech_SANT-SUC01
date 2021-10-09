@@ -12,4 +12,4 @@ category: misc
 type: Miscellaneous
 standard: global
 ---
-Serial Pinout directly on board. Hold Wifi Configuration pushbutton for flashing (pulls gpio 0 to gnd).
+Serial pinout labelled on board. Hold Wi-Fi Configuration pushbutton for flashing (pulls GPIO0 to GND).
