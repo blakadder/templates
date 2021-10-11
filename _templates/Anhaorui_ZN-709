@@ -1,0 +1,17 @@
+---
+date_added: 2021-10-11
+title: Anhaorui 6+6AC 4USB
+model: ZN-709
+image: /assets/images/Anhaorui_ZN-709.jpg
+template9: '{"NAME":"Anhaorui ZN-709","GPIO":[0,0,0,32,229,228,0,0,225,224,226,227,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B08J9YDHQT/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: us
+---
+The power-strip has triangular socket screws. Wi-Fi module is a TYWE3S.
+
+Currently, the button on the Power-Strip controls each individual outlet, based on the number of times you click it in rapid succession. Repeating the same count of clicks toggles the relay. It would be great to have the button toggle all of them on/off (maybe with a long-click), but I haven't been able to figure that out. 

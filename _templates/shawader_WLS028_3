@@ -1,0 +1,42 @@
+---
+date_added: 2021-10-10
+title: Shawader 3Ch Touch Light
+model: WLS028 3
+image: /assets/images/shawader_WLS028_3.jpg
+template9: '{"NAME":"ShawaderTuya3C","GPIO":[0,3872,0,66,64,65,0,0,225,226,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33030801415.html
+link2: 
+mlink: https://shawader.aliexpress.com/store/4884178
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+## Flashing
+
+Installation was done over serial as Tuya version was to new for Tuya Convert to work.
+
+1. Open the device and locate the 6 pads on the back of the button PCB (not the relay PCB).
+2. The pinout for the 6 pads is as follows (starting from left if pads is in upper right corner):
+	1. 3.3V
+	2. RXD
+	3. TXD
+	4. GPIO0 (Boot mode pin)
+	5. RES12K
+	6. GND
+
+Solder cables to the pins and then do as follows:
+1. Connect GND.
+2. Connect RXD to TX on USB to Serial converter.
+3. Connect TXD to RX on USB to Serial converter.
+4. Connect GPIO0 to GND.
+5. Connect RES12K to GND.
+6. Connect 3.3V.
+7. Disconnect RES12K from GND.
+8. (Optional) make backup of original firmware.
+9. Flash tasmota using the USB to Serial converter.
+ 
+## Setup
+
+Enable the template and execute the following command:
+`Backlog ButtonTopic1; SetOption13 1; ButtonTopic2; SetOption13 1; ButtonTopic2; SetOption13 1;` 
