@@ -5,8 +5,8 @@ model: MS-105B
 image: /assets/images/moes_MS-105B.jpg
 template9: '{"NAME":"WM-105","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 21,2 | TuyaMCU 12,7 | TuyaMCU 22,8 |
 DimmerRange 0,1003"}' 
-link: https://www.amazon.de/dp/B087T9B213
-link2: 
+link: https://www.amazon.de/dp/B087T9B213/
+link2: https://www.amazon.nl/dp/B087T9B213/
 mlink: 
 flash: replace
 chip: WB2S
