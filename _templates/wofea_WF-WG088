@@ -32,7 +32,7 @@ Restart 1
 
 ## Home assistant configuration
 
-```console
+```yaml
 cover:
   - platform: mqtt
     name: "garagedoor"
