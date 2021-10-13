@@ -3,7 +3,7 @@ date_added: 2020-03-17
 title: BSD34-1-16A
 model: A5A-54B1-01
 image: /assets/images/BSD34-16A.jpg
-template: '{"NAME":"BSD34-1 16A","GPIO":[0,53,0,131,134,132,0,0,21,17,52,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"BSD34-1 16A","GPIO":[0,289,0,2624,2720,2656,0,0,224,128,288,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000115775948.html
 link2: 
 mlink: 
@@ -13,3 +13,5 @@ type: Plug
 standard: eu
 ---
 Tuya-Convert doesn't work because of a new PSK format. Please flash via serial connection.
+Old template for Tasmota version below 9.5.0
+OLD: {"NAME":"BSD34-1 16A","GPIO":[0,289,0,2624,2720,2656,0,0,224,32,288,0,0,0],"FLAG":0,"BASE":18}
