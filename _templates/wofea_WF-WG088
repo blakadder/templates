@@ -19,7 +19,7 @@ This garage door opener includes a countdown timer. This timer sometimes interfe
 
 ## Tasmota Config
 
-```
+```console
 Backlog TuyaMCU 11,1; TuyaMCU 81,7; TuyaMCU 2,101;
 Switchmode1 4
 Switchmode2 1
@@ -32,7 +32,7 @@ Restart 1
 
 ## Home assistant configuration
 
-```
+```yaml
 cover:
   - platform: mqtt
     name: "garagedoor"
