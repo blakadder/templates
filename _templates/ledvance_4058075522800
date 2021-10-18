@@ -12,6 +12,11 @@ category: plug
 type: Plug
 standard: eu
 ---
-The device is heavily glued and must be opened with force and glued back together. TYWE2S contacts are under the CE sign, but device has to be opened for GPIO0. Be careful when opening not to destroy the button on the PCB.
+The device is (heavily) glued and must be opened with force and glued back together. TYWE2S contacts are under the CE sign, but device has to be opened for GPIO0. Be careful when opening not to destroy the button on the PCB.
+
+To open it, you can use a cutter knife to make a small gap around the seal at the botton, then you can use like an butter knife to pry each side open carefully, then the glue will pop a little and after doing this to all four side you can easily pull the bottom out of it
+
+[Gallery of the inside](https://imgur.com/a/aVahVpz)
 
 ![Image](https://i.imgur.com/Nxv8do8.png)
+

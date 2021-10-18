@@ -6,6 +6,7 @@ image: /assets/images/ESP12F_Relay_30A_X1.jpg
 template: '{"NAME":"Aideepen","GPIO":[0,0,0,0,0,52,0,0,0,0,0,0,21],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005002906401951.html
 link2: https://www.aliexpress.com/item/1005002870933639.html
+link3: https://www.banggood.com/ESP8266-DC7-80-or-5V-30A-Wireless-WIFI-Single-Channel-Relay-Module-ESP-12F-Development-Board-For-Arduino-Smart-Home-p-1903833.html
 mlink: 
 flash: serial
 category: relay
