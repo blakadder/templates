@@ -1,0 +1,17 @@
+---
+date_added: 2021-10-14
+title: Master Contacto WiFi de pared
+model: IOT-WLSOCKET
+image: /assets/images/master_IOT-WLSOCKET.jpg
+template9: '{"NAME":"Master_IOT-WLSOCKET","GPIO":[32,0,0,0,0,225,33,0,224,320,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://master.com.mx/products/contacto-wifi-de-pared
+link2: 
+mlink: https://master.com.mx/products/contacto-wifi-de-pared
+flash: serial
+category: plug
+type: Wall Outlet
+standard: us
+---
+Disconnect from mains. Completely remove the screws used to connect to mains, ground and neutral. Remove the back plastic cover, inside, disconnect the four pin cable from main board, then proceed to remove the front center face plate, you can access it from  the sides of the device. There you will see another PCB board, remove those two phillips screws and carefully remove the board takeing care of the four pin cable so you wont rip it.
+
+There you will se a ESP8285 wifi board, where you can access TX, RX, 3V, G and GPIO0 from the back and either solder some pins there or try to hold it with tape or something and us a TTL - USB to flash Tasmota.

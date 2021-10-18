@@ -1,0 +1,19 @@
+---
+date_added: 2021-10-12
+title: BlitzWolf IC Smart RGB Magic
+model: BW-LT31
+image: /assets/images/blitzwolf_BW-LT31.jpg
+template9: '{"NAME":"BW-LT31","GPIO":[0,0,32,1376,0,0,0,0,0,1088,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO37 24"}' 
+link: https://www.banggood.com/BlitzWolf-BW-LT31-5M-or-10M-Built-in-IC-Smart-Wi-Fi-RGB-Magic-LED-Strip-Light+40Keys-IR-Remote-Control-Work-with-Alexa-Google-Assistant-Christmas-Decorations-Clearance-Christmas-Lights-p-1756745.html
+link2: https://www.aliexpress.com/item/1005001659426543.html
+mlink: 
+flash: serial
+category: light
+type: Addressable LED Strip
+standard: [eu, us]
+---
+Use command `Pixels` to set number of leds on your LED strip.
+
+GPIO controlls the powerbutton (the middle one), GPIO12 is the button on the bottom, couldn't find the third button or the microphone. 
+
+This should be considered as a WIP as one button is missing and the microphone is non functional.

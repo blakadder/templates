@@ -1,0 +1,40 @@
+---
+date_added: 2021-10-12
+title: 2 Channel Tuya 
+model: TY-DIY-S02
+image: /assets/images/TY-DIY-S02.jpg
+template9: '{"NAME":"TY-DIY-S02","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 12,2 | TuyaMCU 13,13 | TuyaMCU 1,101"}' 
+link: https://www.amazon.com/gp/product/B089QCT8L5/
+link2: https://www.aliexpress.com/item/4001150525339.html
+mlink: 
+flash: serial
+category: diy
+type: Relay Board
+standard: global
+---
+
+Board labelled: `Version: Tuya_2.2
+## Pinout
+
+Header | Pi
+- | -
+G | Pin 6 (G)
+V | Pin 1 (3v)
+R | Pin 8 (UART TX)
+T | Pin 10 (UART RX)
+IO0 | Pin 14 (G)
+
+## Configure as a TuyaMCU
+
+Commands applied with template: `TuyaMCU 11,1; TuyaMCU 12,2; TuyaMCU 13,13; TuyaMCU 1,101`
+
+DpId | Type | FnId | Notes
+- | - | - | -
+1 | Boolean | 11 | Channel 1 Relay
+2 | Boolean | 12 | Channel 2 Relay
+7 | Integer | | Countdown timer to activate ch 1
+8 | Integer | | Countdown timer to activate ch 2
+13 | Boolean | 3 | Trigger Both Relays (if in interlocking mode only ch 1 triggers)
+101 | Boolean | 1 | Will trigger Relays on restore (recommend setting this to off)
+102 | Enum | | 0 always on, 1 inching mode (on then off), 2 interlocking mode
+103 | Integer | | Length of time relay stays on in inching mode"
