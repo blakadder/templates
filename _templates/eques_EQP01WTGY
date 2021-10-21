@@ -19,7 +19,7 @@ The LED colors are opposite what one would expect. When the power is off the LED
 The area in black is what you want to cut, the silver is about where the plastic around the ground starts.
 ![Area to cut](https://i.imgur.com/od20YTP.jpg)
 
-![Pins](https://i.imgur.com/WuxEfyf.jpg
+![Pins](https://i.imgur.com/WuxEfyf.jpg)
 
 GPIO0 is on the other side of the board across from the TX pin, add solder to the point then solder your wire
 
