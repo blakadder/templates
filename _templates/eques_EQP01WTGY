@@ -1,0 +1,27 @@
+---
+date_added: 2021-10-21
+title: Eques Elf Smart Plug 
+model: EQP01WTGY
+image: /assets/images/eques_EQP01WTGY.jpg
+template9: '{"NAME":"EQP01WTGY","GPIO":[0,0,0,320,0,0,0,0,96,0,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.newegg.com/eques-eqp01wtgy-wifi/p/35B-004D-00001
+link2: https://www.amazon.com/dp/B0753Y641T
+mlink: https://equeshome.com/products/elf-smart-plug
+flash: serial
+category: plug
+type: Plug
+standard: us
+---
+Device must be cut open in the back to flash. The hole is small and can just be filled with hot glue after. The plastic is 2.5mm thick
+
+The area in black is what you want to cut, the silver is about where the plastic around the ground starts.
+![Area to cut](https://i.imgur.com/od20YTP.jpg)
+
+![Pins](https://i.imgur.com/WuxEfyf.jpg
+
+GPIO0 is on the other side of the board across from the TX pin, add solder to the point then solder your wire
+
+![Pinout](https://i.imgur.com/G2YIerH.jpg)
+
+
+If you want to see the innards here's the [FCC teardown](https://fccid.io/2ALQW-INTELLIPLUG/Internal-Photos/Internal-photos-3412537.pdf). Should be noted that my WiFi chip looked different but it was still the same chip.
