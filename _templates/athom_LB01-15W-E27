@@ -13,6 +13,4 @@ type: RGBCCT
 standard: e27
 ---
 
-```console
-Backlog SetOption92 1; DimmerRange 24,100
-```
+Commands added with the template: `SetOption92 1` and `DimmerRange 24,100`
