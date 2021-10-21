@@ -14,6 +14,8 @@ standard: us
 ---
 Device must be cut open in the back to flash. The hole is small and can just be filled with hot glue after. The plastic is 2.5mm thick
 
+The LED colors are opposite what one would expect. When the power is off the LED is blue, and when the power is on it's red. This is because the way they wired the leds in.
+
 The area in black is what you want to cut, the silver is about where the plastic around the ground starts.
 ![Area to cut](https://i.imgur.com/od20YTP.jpg)
 
