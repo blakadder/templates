@@ -1,0 +1,30 @@
+---
+date_added: 2021-10-23
+title: M5Stack M5Stamp Pico
+model: K016-C
+category: diy
+type: Module
+standard: global
+flash: serial
+image: /assets/images/m5stack_m5stamp_pico.jpg
+template32: '{"NAME":"M5Stamp Pico","GPIO":[1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1,0,1376,0,0,0,0,1,1,0,0,1,0,0,32],"FLAG":0,"BASE":1}' 
+mlink: https://m5stack.com/collections/m5-hat/products/stick-c
+mlink: https://m5stack.com/products/m5stamp-pico-mate-with-pin-headers
+link: https://www.aliexpress.com/item/1005003136802824.html
+link2: https://www.banggood.com/M5Stack-STAMP-PICO-ESP32-PICO-D4-ESP32-Plug-and-Play-Embedded-WIFI-and-Bluetooth-Dual-mode-IoT-Development-Board-Multi-IO-Pinout-p-1882248.html
+---
+
+M5Stack | USB to serial
+--- | ---
+GND | GND
+IO0 | GND
+EN  | 3.3V
+TXD | RX
+RXD | TX
+3.3V| 3.3V
+
+After flashing power the module from 5V pins.
+
+Light controls are for the built-in SK6812 RGB LED.
+
+![Pinout](/assets/images/m5stack_m5stamp_pico_pinout.jpg)
