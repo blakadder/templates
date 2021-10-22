@@ -33,6 +33,6 @@ re-program / flash with Tasmota.
 Be careful not to pinch any cables when closing up power strip again after flashing.
 
 Note:
-Circuit actually contains a fifth relay on the common neutral wire that needs to be turned on whenever one of the 4 relays/outlets is turned on.
+The first 4 relays correspond to the 4 ports in the unit, the 5th relay controls the power for the USB ports.
 
 ![](https://assets.kogan.com/files/product/2019/Vivitar/HA-1007-AU_1.jpg)

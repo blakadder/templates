@@ -1,0 +1,32 @@
+---
+date_added: 2021-10-11
+title: Anhaorui 6+6AC 4USB
+model: ZN-709
+image: /assets/images/Anhaorui_ZN-709.jpg
+template9: '{"NAME":"Anhaorui ZN-709","GPIO":[320,0,0,160,224,225,0,0,228,229,227,226,0,0],"FLAG":0,"BASE":18,"CMND":"SwitchMode1 5|SO32 10"}' 
+link: https://www.amazon.com/dp/B08J9YDHQT/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: us
+---
+The power-strip has triangular socket screws (Size 27). Wi-Fi module is a TYWE3S (as of October 11, 2021 order).
+
+Rule to control all 6 relays with multi-press and hold to turn all relays off.
+```
+Rule1
+ON System#Boot DO Var1 0 ENDON
+ON Switch1#State=3 DO Backlog0 Power1 0; Power2 0; Power3 0; Power4 0; Power5 0; Power6 0; Var1 0 ENDON
+ON Switch1#State=2 DO ADD1 1 ENDON
+ON Var1#State==1 DO RuleTimer1 1 ENDON
+ON Rules#Timer=1 DO Backlog Var2 %Var1%; Var1 0 ENDON
+ON Var2#State==1 DO Power1 TOGGLE ENDON
+ON Var2#State==2 DO Power2 TOGGLE ENDON
+ON Var2#State==3 DO Power3 TOGGLE ENDON
+ON Var2#State==4 DO Power4 TOGGLE ENDON
+ON Var2#State==5 DO Power5 TOGGLE ENDON
+ON Var2#State==6 DO Power6 TOGGLE ENDON
+```
+Enable with `Rule1 1`.

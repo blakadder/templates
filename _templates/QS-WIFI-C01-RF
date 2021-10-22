@@ -5,7 +5,7 @@ model: QS-WIFI-C01-RF
 image: /assets/images/QS-WIFI-C01-RF.jpg
 template9: '{"NAME":"Shutter-QS-WIFI-C01","GPIO":[0,0,1,0,288,0,0,0,32,33,224,225,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B08869Q3Z7/
-link2: 
+link2: https://www.amazon.nl/dp/B08SC8RTFB/
 mlink: 
 flash: tuya-convert
 category: cover

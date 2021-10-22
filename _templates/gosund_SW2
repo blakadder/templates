@@ -96,3 +96,7 @@ dimh=hn((rng*dimval/100)+off)
 ```
 
 Alternatively, you can flash with a 9.0.0 version of tasmota customized for this switch. It is a bit simpler, since it requires no scripting, just choosing the module Gosund Dimmer (76), and fixes a bug in this setup. Discussion is here: http://cocoontech.com/forums/topic/32175-gosund-wifi-dimmer-replacing-firmware/page-3 amd the binary can be found here: https://github.com/gbg108/Tasmota/releases/tag/v9.0.0.3_GS1.1
+
+2021-10-11
+Bought on Amazon pack of 2 switch dimmer. Model is written DS1. try All the info with special firmware or with the latest tasmota + the script and the dimmer does not correctly work. 
+look like the gosund DS1 is and upgrade of SW2 and some hardware change prevent working correctly with provided infos, waiting to get update to fix 

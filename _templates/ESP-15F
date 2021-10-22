@@ -6,7 +6,7 @@ image: /assets/images/ESP-15F.jpg
 template9: '{"NAME":"ESP-15F","GPIO":[1,1,0,1,1,1,0,0,0,544,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001732995411.html
 link2: https://www.amazon.de/dp/B08MYVM78K
-link3: https://www.amazon.fr/dp/B08MYVM78K
+link3: https://www.banggood.com/Ai-Thinker-ESP-15F-ESP8266-Serial-WiFi-Wireless-Module-SMD-UART-Transparent-Transmission-Module-Onboard-External-Antenna-p-1892758.html
 mlink: 
 flash: serial
 category: diy

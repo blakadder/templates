@@ -1,0 +1,34 @@
+---
+date_added: 2021-10-11
+title: QuietCool Gable Mount Attic
+model: AFG_SMT_PRO-2.0
+image: /assets/images/quietcool_AFG_SMT_PRO-2_0.jpg
+template32: '{"NAME":"QuietCool-AFG-SMT-PRO-2.0","GPIO":[0,0,0,0,0,224,0,0,0,0,0,0,0,0,640,608,0,0,0,225,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"Interlock 1|WebButton1 Low|WebButton2 High|SO8 1"}' 
+link: https://www.menards.com/main/building-materials/roofing/roof-ventilation/quietcool-pro-smart-1945-cfm-gable-mount-attic-fan/afgsmtpro-2-0/p-1841405560352137.htm
+link2: https://www.amazon.com/dp/B08CVS74K1
+mlink: https://quietcoolsystems.com/attic-fan/smart-gable-attic-fans/#1592496437065-3fb4ae46-24c6
+flash: serial
+category: misc
+type: Fan
+standard: us
+---
+ESP32 WROOM32 4MB Flash.
+
+Temperature and Humidity Sensor is: SHT3X i2c 
+
+[Images](https://imgur.com/a/wD6J3up)
+
+Pinout: 
+- COM:  Ground, Tx, Rx, 3.3v
+- Boot: GPIO, Ground
+
+
+Optional, but highly recommended, rule to disable the fan from running during a fire @ 182F, which is a feature from the stock firmware.
+```console
+Backlog Rule 1 ON SHT3X#Temperature>182 DO Power0 0 ENDON; Rule1 1
+```
+
+There are physical buttons on the device that were used for the pairing and testing on the default firmware. You can configure them as
+GPIO 27 to Button 1 and GPIO 26 to Button 2  but as this is a device that is living in an attic I didn't. 
+
+The device also has a 3rd relay which isn't used in this model which would be used for a medium speed using GPIO22. 
