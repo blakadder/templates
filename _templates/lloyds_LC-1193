@@ -4,9 +4,9 @@ title: Lloyd's
 model: LC-1193
 image: /assets/images/lloyds_LC-1193.jpg
 template: '{"NAME":"Lloyds LC-1193","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
-link: https://lloydscorp.com/productos-lc-1193/
+link: https://www.amazon.com.mx/dp/B07YGR96LX/
 link2: 
-mlink: https://lloydscorp.com/
+mlink: https://lloydscorp.com/en/productos-lc-1193/
 flash: tuya-convert
 category: plug
 type: Plug

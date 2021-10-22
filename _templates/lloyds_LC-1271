@@ -1,0 +1,25 @@
+---
+date_added: 2021-10-22
+title: Lloyd's 5W 400Lm
+model: LC-1271
+image: /assets/images/lloyds_LC-1271.jpg
+template9: '{"NAME":"LLOYDS LC-1271","GPIO":[160,0,0,0,0,0,0,0,4064,0,4032,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.mx/dp/B08SDZRQNN
+link2: https://articulo.mercadolibre.com.mx/MLM-852168056-lloyds-foco-inteligente-gu10-rgb-luz-fria-y-calida-400-lm-_JM
+mlink: https://lloydscorp.com/focos-1271-1272/
+flash: serial
+category: bulb
+type: RGBCCT
+standard: gu10
+---
+This bulb is tricky, since it uses the TYLC5 103 Chip which is a very small board.
+And it does not use PWMs for the leds, make sure you use the template correctly.
+
+With the bulb disconnected  from power, remove the translucent cover with a small knife or plastic spatula to not damage the cover.
+cut the white silicon around the PCB or plate with the leds and remove as much silicone as possible, then use some pliers or something to bend a clip as a hook so you can insert that hook and pull the board from the small hole located on the board. Be careful not to break or cut a cable sticking out from another hole, that's the antenna.
+
+Turn the bulb around with the legs sticking up towards you, if you have the GU10, you will see that there is a small hole in the center of the legs of the bulb, try sticking a small wire, you can use some DuPont cables or something stronger to try to push the board from within this holes and at the same time pull the board from the other side carefully so you wont break it.
+
+Once it is out you'll have to solder your cables to the TYLC5 103 chip, GPIO0, TX, RX, 3.3V, G, and use a USB to TTL adapter to flash tasmota with your desired tools. The GPIO0, TX and RX are on the back of the board and 3.3V and G are on the bottom of the board. If you are careful and with the correct soldering tip you can solder without burning anything else.
+
+Put everything back together and Voila! you got your new tasmota GU10 bulb.
