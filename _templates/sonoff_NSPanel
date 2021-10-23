@@ -1,0 +1,108 @@
+---
+date_added: 2021-10-30
+title: Sonoff NSPanel
+model: E32-MSW-NX
+image: /assets/images/sonoff_NSPanel.jpg
+template32: '{"NAME":"NSPanel","GPIO":[0,0,0,0,3872,0,0,0,0,0,32,0,0,0,0,225,0,480,224,1,0,0,0,33,0,0,0,0,0,0,0,0,0,0,4736,0],"FLAG":0,"BASE":1,"CMND","ADCParam 2,64000,10000,3950 | Sleep 0 | BuzzerPWM 1"}'
+link: https://www.kickstarter.com/projects/sonoffnspanel/sonoff-nspanel-smart-scene-wall-switch?ref=4dli2n
+mlink: 
+flash: serial
+category: switch
+type: Display Switch
+standard: eu
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+[Review](https://blakadder.com/sonoff-nspanel/) and [full teardown](https://blakadder.com/nspanel-teardown/).
+
+## Serial Flashing
+
+Unclip the panel from the base. Remove two bottom screws and lift the plastic cover. 
+
+The five needed pins (3V3, RX, TX, GPIO0 and GND) can be easily identified. 
+
+![Pins](/assets/images/sonoff_NSPanel_pinout.jpg)
+
+Flash the latest [tasmota32.bin](http://ota.tasmota.com/tasmota32/tasmota32.bin) using [recommended](https://tasmota.github.io/docs/ESP32/#flashing) ESP32 flashing methods.
+
+Current implementation of serial in Tasmota has a bug where the device will boot loop on soft reset. Power cycling the device solved the issue. Building a binary with custom environment `tasmota32id4` doesn't have that issue.
+
+## Configuration
+
+After the flash is complete disconnect the 3.3V power and either power the touch plate using its base or connect to 5V power using the headers.
+
+Apply the template and make sure "Module 0" is selected. The template will apply some of the commands required.
+
+Open or download the NSPanel driver file [`nspanel.be`](https://raw.githubusercontent.com/blakadder/nspanel/main/nspanel.be). Navigate to **Consoles - Manage File system** in the web UI. Upload the driver to NSPanel with Choose file and Start Upload.
+
+![Upload driver](/assets/images/sonoff_NSPanel_driver.jpg)
+
+To load the driver on startup you can either:
+- change the filename to `autoexec.be`
+- **Create and edit new file** named `autoexec.be` with a line `load('nspanel')`
+
+![autoexec.be](/assets/images/sonoff_NSPanel_autoexec.jpg)
+
+## Screen Commands
+
+To control and communicate with the screen, driver introduces new commands and parsing of the NSPanel protocol. NSPanel protocol is [documented here](https://blakadder.github.io/nspanel/) (all updates are welcome).
+
+### NSPSend 
+
+To control the switch GUI the `NSPSend` command is introduced
+
+`NSPSend <json_payload>` sends a command to the screen using [NSPanel protocol](https://blakadder.github.io/nspanel)
+
+`NSPSend2 <nextion_command>` sends a command to the screen using [Nextion protocol](https://nextion.tech/instruction-set/). This requires the screen to be in "Nextion mode" with command `NSPMode 1`.
+
+### NSPMode
+
+`NSPMode` command switches the command mode of the screen. Command with no payload returns the current state. 
+
+`0` is the default NSPanel protocol. Screen is always in `0` on startup. 
+
+`1` puts the screen in Nextion command mode. When the screen is in this mode NSPanel commands will not work.
+
+_The code might not be 100% reliable and state tracking might fail_
+
+### NSPDim
+
+`NSPDim` is used to turn on the "Energy-saving mode". 
+
+`0` is the default where the screen stays on permanently but dimmed. 
+
+`1` turns on the Energy-saving mode in which screen turns off after the set timeout period.
+
+## Features 
+
+Both relays and buttons, buzzer and temperature sensor are a part of Tasmota just like any standard switch. 
+
+Use `Buzzer` command to control the Buzzer
+
+To set which widgets to draw and thermostat settings you need to edit the `nspanel.be` file variables "widget" and "atc". 
+
+Relay states are reflected on the main screen bottom bars using `set_power()` in the driver.
+
+Time and date will update automatically each minute according to Tasmota time using `set_clock()`.
+
+Weather updates will use Tasmota's longitude and latitude. Yours need to be set correctly with commands `Longitute` and `Latitude`. If you don't set them you'll get weather forecasts for Paris. Function `set_weather()` is responsible for that. Since the weather provider cannot provide date range I winged it by using Feelslike temperature.
+
+Indoor temperature will update on TelePeriod using the NSPanel temperature probe data with `set_temp()` functions. You can change the source by editing `tasmota.add_rule` triggers or update remotely with `NSPSend {"temperature":24.5,"tempUnit":"C"}`.
+
+Every touch event will be reported in Tasmota logs and can be used in rules with trigger `NSPanel#...`
+
+If you want the option to reset the screen change GPIO4 to "Relay 3". This pin need to be low for the screen to turn on so set `PulseTime3 2` to temporarily pull it high just enough for the screen to reset.
+
+
+## Use Example
+When turning on thermostat toggle object Tasmota receives `tele/nspanel/RESULT = {"NSPanel":{"ATCEnable":1}}` command in logs. This can be used in a rule:
+
+```console
+Rule1 on NSPanel#ATCEnable do Publish cmnd/heater/Power1 %value% endon
+```
+When triggered, the rule will send a Power command to the heater switch with Tasmota with the value of the toggle object.
+
+To mirror the state of the heater with the screen you can create a rule on the heater switch to send updates to the screen with:
+```console
+rule1 on power1#state do cmnd/nspanel/nspsend {"ATCEnable":%value%} endon`
+```
