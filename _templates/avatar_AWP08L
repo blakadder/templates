@@ -10,7 +10,8 @@ link: https://www.amazon.fr/gp/product/B078S6S33S/
 image: https://images-na.ssl-images-amazon.com/images/I/5188D2hboyL._SX679_.jpg
 template: '{"NAME":"AWP08L","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/gp/product/B07L81GBQL
-mlink: https://www.alibaba.com/product-detail/Amazon-Best-Sellers-OEM-2018-smart_60826514282.html?
+mlink: https://shop.avatarcontrols.com/smart-home.html
+unsupported: true
 ---
 How to [open the plug](https://blakadder.com/disassembling-CN39/)
 
