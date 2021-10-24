@@ -21,7 +21,7 @@ Unclip the panel from the base. Remove two bottom screws and lift the plastic co
 
 The five needed pins (3V3, RX, TX, GPIO0 and GND) can be easily identified. 
 
-![Pins](/assets/images/sonoff_NSPanel_pinout.jpg)
+![Pins](/assets/images/sonoff_NSpanel_pinout.jpg)
 
 Flash the latest development version [tasmota32.bin](https://github.com/tasmota/install/raw/main/firmware/development/tasmota.bin) using [recommended](https://tasmota.github.io/docs/ESP32/#flashing) ESP32 flashing methods.
 
@@ -35,13 +35,13 @@ Apply the template and make sure "Module 0" is selected. The template will apply
 
 Open or download the NSPanel driver file [`nspanel.be`](https://raw.githubusercontent.com/blakadder/nspanel/main/nspanel.be). Navigate to **Consoles - Manage File system** in the web UI. Upload the driver to NSPanel with Choose file and Start Upload.
 
-![Upload driver](/assets/images/sonoff_NSPanel_driver.jpg)
+![Upload driver](/assets/images/sonoff_NSpanel_driver.jpg)
 
 To load the driver on startup you can either:
 - change the filename to `autoexec.be`
 - **Create and edit new file** named `autoexec.be` with a line `load('nspanel')`
 
-![autoexec.be](/assets/images/sonoff_NSPanel_autoexec.jpg)
+![autoexec.be](/assets/images/sonoff_NSpanel_autoexec.jpg)
 
 ## Screen Commands
 
