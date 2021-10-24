@@ -23,7 +23,7 @@ The five needed pins (3V3, RX, TX, GPIO0 and GND) can be easily identified.
 
 ![Pins](/assets/images/sonoff_NSPanel_pinout.jpg)
 
-Flash the latest [tasmota32.bin](http://ota.tasmota.com/tasmota32/tasmota32.bin) using [recommended](https://tasmota.github.io/docs/ESP32/#flashing) ESP32 flashing methods.
+Flash the latest development version [tasmota32.bin](http://ota.tasmota.com/tasmota32/tasmota32.bin) using [recommended](https://tasmota.github.io/docs/ESP32/#flashing) ESP32 flashing methods.
 
 Current implementation of serial in Tasmota has a bug where the device will boot loop on soft reset. Power cycling the device solved the issue. Building a binary with custom environment `tasmota32id4` doesn't have that issue.
 
