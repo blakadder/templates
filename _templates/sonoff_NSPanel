@@ -13,7 +13,7 @@ standard: eu
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
-[Review](https://blakadder.com/sonoff-nspanel/) and [full teardown](https://blakadder.com/nspanel-teardown/).
+[Review](https://blakadder.com/sonoff-nspanel/), [full teardown](https://blakadder.com/nspanel-teardown/) and [protocol decoding](https://blakadder.com/nspanel-hacking).
 
 ## Serial Flashing
 
