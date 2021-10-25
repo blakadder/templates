@@ -25,7 +25,7 @@ The five needed pins (3V3, RX, TX, GPIO0 and GND) can be easily identified.
 
 Flash the latest development version [tasmota32.bin](https://github.com/tasmota/install/raw/main/firmware/development/tasmota.bin) using [recommended](https://tasmota.github.io/docs/ESP32/#flashing) ESP32 flashing methods.
 
-Current implementation of serial in Tasmota has a bug where the device will boot loop on soft reset. Power cycling the device solved the issue. Building a binary with custom environment `tasmota32id4` doesn't have that issue.
+Current implementation of serial in Arduino core has a bug which will will boot loop the device on soft reset. Power cycling the device solved the issue. Building a binary with custom environment [`tasmota32idf4`](https://github.com/arendst/Tasmota/blob/0e4777e966a6e5540c2e09226ad6ac0aaea9f08c/platformio_tasmota_cenv_sample.ini#L19) with Arduino core 2.0 doesn't have that issue.
 
 ## Configuration
 
