@@ -67,17 +67,23 @@ _The code might not be 100% reliable and state tracking might fail_
 
 ### NSPDim
 
-`NSPDim` is used to turn on the "Energy-saving mode". 
+`NSPDim` is used to turn on the "Energy-saving mode". Value is stored in `_persist.json`
 
 `0` is the default where the screen stays on permanently but dimmed. 
 
 `1` turns on the Energy-saving mode in which screen turns off after the set timeout period.
 
+### NSPLocation
+
+`NSPLocation <name>` to set location used for weather forecasts. Value is stored in `_persist.json`.
+
+If you don't set it it'll show North Pole forecast. 
+
 ## Features 
 
 Both relays and buttons, buzzer and temperature sensor are a part of Tasmota just like any standard switch. 
 
-Use `Buzzer` command to control the Buzzer
+Use `Buzzer` command to control the buzzer.
 
 To set which widgets to draw and thermostat settings you need to edit the `nspanel.be` file variables "widget" and "atc". 
 
@@ -85,9 +91,9 @@ Relay states are reflected on the main screen bottom bars using `set_power()` in
 
 Time and date will update automatically each minute according to Tasmota time using `set_clock()`.
 
-Weather updates will use Tasmota's longitude and latitude. Yours need to be set correctly with commands `Longitute` and `Latitude`. If you don't set them you'll get weather forecasts for Paris. Function `set_weather()` is responsible for that. Since the weather provider cannot provide date range I winged it by using Feelslike temperature.
+Weather updates will use NSPLocation value using function `set_weather()` to fetch data from [wttr.in](https://wttr.in/:help). Since it currently cannot provide date range I winged it by using Feelslike temperature.
 
-Indoor temperature will update on TelePeriod using the NSPanel temperature probe data with `set_temp()` functions. You can change the source by editing `tasmota.add_rule` triggers or update remotely with `NSPSend {"temperature":24.5,"tempUnit":"C"}`.
+Indoor temperature will update on TelePeriod using the NSPanel temperature probe data with `set_temp()` functions. You can change the source by commenting out associated `tasmota.add_rule` triggers or update remotely with `NSPSend {"temperature":24.5,"tempUnit":"C"}`.
 
 Every touch event will be reported in Tasmota logs and can be used in rules with trigger `NSPanel#...`
 
