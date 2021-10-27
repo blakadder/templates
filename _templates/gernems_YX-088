@@ -1,0 +1,150 @@
+---
+date_added: 2021-10-26
+title: Gernems 400 ml
+model: YX-088
+image: /assets/images/gernems_YX-088.jpg
+template9: '{"NAME":"YX-088","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54;"CMND":"TuyaMCU 11,1|TuyaMCU 61,2|TuyaMCU 62,3|TuyaMCU|12,5|TuyaMCU 63,6|TuyaMCU 21,7|TuyaMCU 24,8|TuyaRGB 3|DimmerRange 1,255|TuyaEnumList 1,2|TuyaEnumList 2,2|TuyaEnumList 3,1"}' 
+link: https://www.amazon.de/gp/product/B08JKD65MR/
+link2: 
+mlink: https://shop.gernems.de/?product=aroma-diffuser-400ml-tulips-of-gernems-smart-aetherische-oel-wlan-ultraschall-duftlampe-luftbefeuchter-kompatibel-mit-alexa-und-google-home-app-steuerbar-timer-funktion-7-led-farbe-fuer-home-ode
+flash: serial
+category: misc
+type: Aroma Diffuser
+standard: eu, br, ch, in, it, za
+---
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) to understand the terminology and configuration process.
+
+Flashed via serial by using [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) pins (if you unsolder it, then EN pin should be also 3.3V) after unsoldering from the main PCB. Does not work with Tuya Convert (new PSK key).
+
+## Functions
+| nfid | dpid | type | data |
+| --- | --- | --- | --- |
+| 11 | 1 | 1 | device on (1)/off (0) |
+| 61 | 2 | 4 | 2 - high intensity<br />0 - medium intensity<br />1 - low intensity |
+| 62 | 3 | 4 | 0 - 2h timer<br />1 - 4h timer<br />2 - no timer |
+| 12 | 5 | 1 | RGB on (1)/off (0) |
+| 63 | 6 | 4 | 0 - solid<br />1 - cycle |
+| 21 | 7 | - | not reported, used as fake mapping only |
+| 24 | 8 | 3 | RGB color (RGBHSV, type 3) |
+| 0 | 9 | 5 | ?? Error codes? |
+
+
+## Configuration
+When applying the template these commands also get applied
+```
+TuyaMCU 11,1; TuyaMCU 61,2; TuyaMCU 62,3; TuyaMCU 12,5; TuyaMCU 63,6; TuyaMCU 21,7; TuyaMCU 24,8; TuyaRGB 3; DimmerRange 1,255; TuyaEnumList 1,2; TuyaEnumList 2,2; TuyaEnumList 3,1
+```
+Currently, if you set fan speed in Home Assistant the corresponding rule here won't be triggered as Home Assistant does not trigger
+the corresponding template. Also, speed 0 can't be removed from the UI and it will always reset to the device set speed even if it's off.
+```console
+Rule1
+on power1#state=0 do publish stat/%topic%/fanmode none endon
+on tuyareceived#dptype5id9 do publish stat/%topic%/error %value% endon 
+on tuyareceived#dptype4id2==0 do publish stat/%topic%/fanmode medium endon
+on tuyareceived#dptype4id2==1 do publish stat/%topic%/fanmode low endon
+on tuyareceived#dptype4id2==2 do publish stat/%topic%/fanmode high endon
+on tuyareceived#dptype4id3==0 do publish stat/%topic%/timer 2h timer endon
+on tuyareceived#dptype4id3==1 do publish stat/%topic%/timer 4h timer endon
+on tuyareceived#dptype4id3==2 do publish stat/%topic%/timer timer off endon
+on tuyareceived#dptype4id6==0 do publish stat/%topic%/colormode solid endon
+on tuyareceived#dptype4id6==1 do publish stat/%topic%/colormode cycle endon
+on event#fanmode==-1 do power1 0 endon
+on event#fanmode!=-1 do backlog power1 1; tuyaenum1 %value% endon
+on event#solid do tuyaenum3 0 endon
+on event#cycle do tuyaenum3 1 endon
+```
+Label web UI buttons:
+```console
+Backlog WebButton1 Fan; WebButton2 Light; FriendlyName1 Diffuser Fan; FriendlyName2 Diffuser Light
+```
+### What you get
+
+- `Power1` Device diffuser status (on/off)
+- `Power2` Device RGB light (on/off)
+- `TuyaEnum1` Diffuser intensity (high/medium/low)
+- `TuyaEnum2` Timer (2h/4h/off)
+- `TuyaEnum3` RGB mode (solid/cycle)
+
+
+## Home Assistant configuration
+**Make sure `Rule1` is implemented and active before proceeding.**
+
+```yaml
+{% raw %}fan:
+  - platform: mqtt
+    name: "Diffuser"
+    icon: "mdi:smoke"
+    state_topic: "stat/%topic%/RESULT"
+    state_value_template: "{% if value_json.POWER1 is defined %}{{ value_json.POWER1 }}{% endif%}"
+    command_topic: "cmnd/%topic%/POWER1"
+    preset_modes:
+      - "2h timer"
+      - "4h timer"
+      - "timer off"
+    preset_mode_state_topic: "stat/%topic%/timer"
+    preset_mode_command_topic: "cmnd/%topic%/tuyaenum2"
+    preset_mode_command_template: >-
+      {% if value == "2h timer" %}
+        {{ 0 }}
+      {% else if value == "4h timer" %}
+        {{ 1 }}
+      {% else %}
+        {{ 2 }}
+      {% endif %}
+    percentage_state_topic: "stat/%topic%/fanmode"
+    percentage_value_template: >-
+      {% if value == "low" %}
+        {{ 1 }}
+      {% elif value == "medium" %}
+        {{ 2 }}
+      {% elif value == "high" %}
+        {{ 3 }}
+      {% else %}
+        {{ 0 }}
+      {% endif %}
+    percentage_command_topic: "cmnd/%topic%/event"
+    percentage_command_template: >-
+      {% if value == 1 %}
+        {{ 'fanmode=1' }}
+      {% elif value == 2 %}
+        {{ 'fanmode=0' }}
+      {% elif value == 3 %}
+        {{ 'fanmode=2' }}
+      {% else %}
+        {{ 'fanmode=-1' }}
+      {% endif %}
+    speed_range_max: 3
+    availability_topic: "tele/%topic%/LWT"
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    unique_id: "fan-diffuser"
+
+select:
+  - platform: mqtt
+    name: "Diffuser Color Mode"
+    command_topic: "cmnd/%topic%/event"
+    state_topic: "stat/%topic%/colormode"
+    options:
+      - "solid"
+      - "cycle"
+    availability:
+      - payload_available: "Online"
+        payload_not_available: "Offline"
+        topic: "tele/%topic%/LWT"
+    unique_id: "select-livingroom-diffueser-color-mode"
+
+binary_sensor:
+  - platform: mqtt
+    name: "Difuser Error"
+    state_topic: "stat/%topic%/error"
+    value_template: "{{ 'ON' if value != '0X00' else 'OFF' }}"
+    device_class: problem
+    availability_topic: "tele/%topic%/LWT"
+    payload_available: "Online"
+    payload_not_avail: "Offline"
+    unique_id: "binary-diffueser-error"{% endraw %}
+```
+
+## PCB
+The TuyaMCU is on the other side of the main board, close to the vaporizer.
+[![PCB](https://i.postimg.cc/Hxqt08yC/P-20211026-163154-1.jpg "PCB")](https://postimg.cc/wykJgv2W)"

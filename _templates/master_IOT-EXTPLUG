@@ -12,4 +12,4 @@ category: plug
 type: Outdoor Plug
 standard: us
 ---
-This plug has an embeded ESP8285 chip, and the PCB is glued to the housing. In this case Tuya-convert was possible OTA (over the air), though it might not be possible in other devices from the same vendor.
+This plug has an embedded ESP8285 chip, and the PCB is glued to the housing. In this case Tuya-convert was possible OTA (over the air), though it might not be possible in other devices from the same vendor.
