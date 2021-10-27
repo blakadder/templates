@@ -17,13 +17,14 @@ Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) to understand the 
 Flashed via serial by using [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) pins (if you unsolder it, then EN pin should be also 3.3V) after unsoldering from the main PCB. Does not work with Tuya Convert (new PSK key).
 
 ## Functions
+
 | nfid | dpid | type | data |
 | --- | --- | --- | --- |
 | 11 | 1 | 1 | device on (1)/off (0) |
-| 61 | 2 | 4 | 2 - high intensity<br />0 - medium intensity<br />1 - low intensity |
-| 62 | 3 | 4 | 0 - 2h timer<br />1 - 4h timer<br />2 - no timer |
+| 61 | 2 | 4 | 2 - high intensity<br>0 - medium intensity<br>1 - low intensity |
+| 62 | 3 | 4 | 0 - 2h timer<br>1 - 4h timer<br>2 - no timer |
 | 12 | 5 | 1 | RGB on (1)/off (0) |
-| 63 | 6 | 4 | 0 - solid<br />1 - cycle |
+| 63 | 6 | 4 | 0 - solid<br>1 - cycle |
 | 21 | 7 | - | not reported, used as fake mapping only |
 | 24 | 8 | 3 | RGB color (RGBHSV, type 3) |
 | 0 | 9 | 5 | ?? Error codes? |
