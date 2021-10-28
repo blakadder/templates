@@ -16,6 +16,9 @@ link4: https://www.domadoo.fr/fr/peripheriques/5279-sonoff-commutateur-intellige
 
 4CHPROR3 supports [RF remotes](sonoff_RM433) independent from Tasmota, it is managed by a secondary MCU.
 
+If you want to use the RF433 module, direct connect SYN470R output to SDA (GPIO2) and configure [RF Receiver](https://tasmota.github.io/docs/RF-Protocol/#receiving-rf-codes).
+![image](https://user-images.githubusercontent.com/3578202/139196247-4f67058f-3f2f-4d8e-81e7-f08dfc9595bb.jpg)
+
 ## Flashing
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1K1vTNzsTxI?start=128" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

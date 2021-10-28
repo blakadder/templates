@@ -77,13 +77,15 @@ _The code might not be 100% reliable and state tracking might fail_
 
 `NSPLocation <name>` to set location used for weather forecasts. Value is stored in `_persist.json`.
 
+Location can be a name or latitude and longitude with 2 decimals max. Example: `North Pole` or `64.75,-147.34`
+
 If you don't set it it'll show North Pole forecast. 
 
 ## Features 
 
 Both relays and buttons, buzzer and temperature sensor are a part of Tasmota just like any standard switch. 
 
-Use `Buzzer` command to control the buzzer.
+Use [`Buzzer`](https://tasmota.github.io/docs/Buzzer/) command to control the buzzer.
 
 To set which widgets to draw and thermostat settings you need to edit the `nspanel.be` file variables "widget" and "atc". 
 
