@@ -1,0 +1,15 @@
+---
+date_added: 2021-10-27
+title: Illume 6-inch 
+model: I-SMRGBCCT6
+image: /assets/images/illume_I-SMRGBCCT6.jpg
+template9: '{"NAME":"I-SMRGBCCT6","GPIO":[0,0,0,0,407,406,0,0,409,420,408,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.homedepot.ca/product/illume-6-inch-multi-color-and-tunable-white-smart-wi-fi-led-recessed-panel-light/1001357801
+link2: https://www.walmart.ca/en/ip/Illume-Illume-6-inch-Smart-LED-Recessed-Panel-Light-RGB-and-White/PRD5P3B20K6CDS6
+mlink: 
+flash: serial
+category: light
+type: Light
+standard: us
+---
+Removed the control board from the external metal case.  Soldered wires to the esp8285mod and flashed Tasmota via USB adapter
