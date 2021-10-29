@@ -6,9 +6,8 @@ layout: default
 <div class="row">
   <div class="column">
     <span style="font-size: xx-large; font-weight: 400; letter-spacing: -.1rem;">{{ page.title }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }}        
- {% if page.category contains 'bulb'%} {% if page.model != nil %}({{ page.model }}){% endif %}
- Bulb
- {% endif %}
+ {% if page.category contains 'bulb'%} Bulb {% endif %}
+ {% if page.model != nil %} ({{ page.model }}) {% endif %}
     </span>
 </div>
 <!-- <div class="float-right"> -->
