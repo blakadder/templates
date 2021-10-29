@@ -6,7 +6,7 @@ layout: default
 <div class="row">
   <div class="column">
     <span style="font-size: xx-large; font-weight: 400; letter-spacing: -.1rem;">{{ page.title }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }}        
- {% if page.category contains 'bulb'%}
+ {% if page.category contains 'bulb'%} {% if page.model != nil %}({{ page.model }}){% endif %}
  Bulb
  {% endif %}
     </span>
@@ -18,12 +18,6 @@ layout: default
   <a class="button button-grey" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
      {% endfor %}
   </div>
-</div>
-<div class="row">
-  <div class="column">
-    {% if page.model != nil %}<span style="font-size: large;">Model reference: {{ page.model }} </span> {% endif %}
-</div>
-</div>
 <div class="row">
   <div class="column column-60"> 
   <img src="{{ page.image }}" alt="{{ page.title }}" style="max-height: 350px; max-width: 450px;">
