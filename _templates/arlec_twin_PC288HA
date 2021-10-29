@@ -22,6 +22,9 @@ This template also flashes the revised model PC289HA.
 
 Update 2021/02/22 Tuya-convert OTA failed for this plug due to its factory loaded Tuya firmware (PSK identity 02).
 
-This plug contains a [TYWE2S](https://tasmota.github.io/docs/Pinouts/#tywe2s) module which was simple enough to solder pins.
+This plug contains a [TYWE2S](https://tasmota.github.io/docs/Pinouts/#tywe2s) module which was simple enough to solder pins.  
+RX pin on TYWE2S is used to control a relay and has to be disconnected before flashing. This can be done by wickering 
+the solder away from RX pin pad to disconnect it from the board and connecting wire directly to TYWE2S.  
+Alternatively, path to RX pin can be cut on PCB for flashing and restored afterwards.  
 
 Plug casing uses common Y-type tamperproof screws. It does require a significant amount of force to separate the locking clips located in the middle of the case.
