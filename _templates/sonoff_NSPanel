@@ -77,7 +77,7 @@ _The code might not be 100% reliable and state tracking might fail_
 
 `NSPLocation <name>` to set location used for weather forecasts. Value is stored in `_persist.json`.
 
-Location can be a name or latitude and longitude with 2 decimals max. Example: `North Pole` or `64.75,-147.34`
+Location can be a name or latitude and longitude with 2 decimals max. Example: `North Pole` or `64.75,-147.34`. Check whether your location works with https://wttr.in/Location, if not use the coordinates.
 
 If you don't set it it'll show North Pole forecast. 
 
