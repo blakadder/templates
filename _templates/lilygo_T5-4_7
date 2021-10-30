@@ -5,7 +5,7 @@ category: diy
 type: Display
 standard: global
 image: /assets/images/lilygo_T5-4_7.jpg
-template32: '{"NAME":"LilyGO T5-4.7","GPIO":[0,3840,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,7616,0,0,0,0,0,0,0,0,0,0,33,34,4704,0,0,32],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"LilyGO T5-4.7","GPIO":[0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,7616,0,0,0,0,0,0,0,0,0,0,33,34,4704,0,0,32],"FLAG":0,"BASE":1}' 
 mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50061&Id=1384&FId=t3:50061:3
 link: https://www.banggood.com/LILYGO-T5-4_7-inch-E-paper-Screen-ESP32-V3-Version-16MB-FLASH-8MB-PSRAM-WIFI-Bluetooth-Display-Module-p-1791808.html
 link2: https://www.aliexpress.com/item/1005002006058892.html
