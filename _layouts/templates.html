@@ -5,30 +5,32 @@ layout: default
 
 <div class="row">
   <div class="column">
-    <span style="font-size: xx-large; font-weight: 400; letter-spacing: -.1rem;">{{ page.title }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }}        
- {% if page.category contains 'bulb'%}
- Bulb
- {% endif %}
-    </span>
-</div>
-<!-- <div class="float-right"> -->
-<div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%">
-  {% assign standard_list = page.standard %}
-  {% for item_standard in standard_list %}
-  <a class="button button-grey" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
-     {% endfor %}
+    <span style="font-size: 3.25rem; font-weight: 400; letter-spacing: -.2rem;">{{ page.title }} {% include pow.html %} {{ page.type | replace: "Miscellaneous", "" }}        
+ {% if page.category contains 'bulb'%} Bulb{% endif %}{% if page.model != nil %} ({{ page.model }}){% endif %}</span> 
   </div>
 </div>
 <div class="row">
-  <div class="column">
-    {% if page.model != nil %}<span style="font-size: large;">Model reference: {{ page.model }} </span> {% endif %}
-</div>
+  <div class="column column-80">
+    {% assign standard_list = page.standard %}
+    {% for item_standard in standard_list %}
+      <a class="button button-outline button-small" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
+    {% endfor %}  
+  </div>
+  <div class="column column-20">
+    <button class="button button-red button-small">
+      {% if page.template32 != nil %}ESP32
+      {% elsif page.templates2 != nil %}ESP32-S2
+      {% elsif page.templatec3 != nil %}ESP32-C3
+      {% else %}ESP8266
+      {% endif %}
+    </id>
+  </div>
 </div>
 <div class="row">
   <div class="column column-60"> 
   <img src="{{ page.image }}" alt="{{ page.title }}" style="max-height: 350px; max-width: 450px;">
 </div>
-<div class="column">
+<div class="column column-20">
   <p>
    <b>
  Available from:
@@ -78,7 +80,7 @@ layout: default
   {% endif %}
   <br>
   </div>
-  <div class="column">
+  <div class="column column-25 gpios" style="overflow-y: auto; height: 375px;">
     {% include gpios.html %}
   </div>
   </div>
@@ -101,6 +103,16 @@ layout: default
 <div class="row">
   <div class="column column-100">
     <pre><code class="language-json" style="white-space: nowrap">{{ page.templatec3 }}</code></pre>
+</div>
+</div>
+{% elsif page.templates2 != nil %}
+<div class="row">
+  <div class="column"><strong>Configuration for ESP32-S2</strong></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+</div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.templates2 }}</code></pre>
 </div>
 </div>
 {% elsif page.template9 != nil %}
@@ -161,6 +173,10 @@ layout: default
   Requires a special ESP32-C3 tasmota32 binary. Download unofficial development build for <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3.bin">4Mb flash</a> or <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3_2M.bin">2Mb flash</a>.<p>
   {% endif %}
 
+  {% if page.templates2 != nil or page.chip == "s2" %}
+  Requires a special ESP32-S2 tasmota32 binary. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.bin">development build</a>.<p>
+  {% endif %}
+
   {% if page.author == 'blak' %}
   <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
   {% endif %}
@@ -184,6 +200,10 @@ layout: default
       {% assign template = page.template9 | split: ':' %}
     {% elsif page.template32 != nil %}
       {% assign template = page.template32 | split: ':' %}
+    {% elsif page.templatec3 != nil %}
+      {% assign template = page.templatec3 | split: ':' %}
+    {% elsif page.templates2 != nil %}
+      {% assign template = page.templates2 | split: ':' %}
     {% endif %}
     {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
     {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '5056' or gpios contains '7296' or gpios contains '7328' or gpios contains '8128' %}
@@ -215,7 +235,7 @@ layout: default
     or page.chip contains 'CB3S' 
     or page.chip contains 'CB3L' 
   %}
-  <a href="ESP-12">ESP-12</a> or <a href="ESP-07">ESP-07</a> 
+  <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a> or <a href="ESP-12H"></a>ESP-12H</a>
   {% 
     elsif page.chip contains 'WB2L' 
     or page.chip contains 'WR2L' 
