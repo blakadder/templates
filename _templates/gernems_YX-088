@@ -10,7 +10,7 @@ mlink: https://shop.gernems.de/?product=aroma-diffuser-400ml-tulips-of-gernems-s
 flash: serial
 category: misc
 type: Aroma Diffuser
-standard: eu, br, ch, in, it, za
+standard: eu
 ---
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) to understand the terminology and configuration process.
 
