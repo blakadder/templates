@@ -1,15 +1,15 @@
 ---
-title: Sonoff RF Gateway 433
+title: Sonoff RF Bridge 433
 category: misc
 type: RF Gateway
 standard: global
 mlink: https://sonoff.tech/product/smart-home-security/rf-bridge/
 image: /assets/images/sonoff_RF_bridge.jpg
 template: '{"NAME":"Sonoff Bridge","GPIO":[17,148,255,149,255,255,0,0,255,56,255,0,0],"FLAG":0,"BASE":25}' 
-link: https://www.itead.cc/sonoff-rf-bridge-433.html
-link3: https://www.banggood.com/SONOFF-RF-Bridge-WiFi-433-MHz-Replacement-Smart-Home-Automation-Universal-Switch-p-1179900.html
+link: https://www.banggood.com/SONOFF-RF-Bridge-WiFi-433-MHz-Replacement-Smart-Home-Automation-Universal-Switch-p-1179900.html
+link3: https://www.amazon.com/dp/B0833VHSCD
 link2: https://www.aliexpress.com/item/4000284147908.html
-link4: https://www.amazon.com/dp/B0833VHSCD
+link4: https://www.alzashop.com/sonoff-433-rf-bridge-d6709606.htm
 ---
 
 ## Serial Flashing

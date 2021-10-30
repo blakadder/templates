@@ -4,6 +4,7 @@ title: Athom 7W 600lm
 model: LB017W
 image: /assets/images/athom_LB017W.jpg
 template: '{"NAME":"Athom LB017W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":1}' 
+template9: '{"NAME":"LB01-7W-E27-TAS","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/color-bulb
 link: https://www.aliexpress.com/item/4001281509550.html
 link2: 

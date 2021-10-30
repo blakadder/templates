@@ -1,0 +1,14 @@
+---
+date_added: 2021-10-28
+title: Bawoo
+model: S120
+image: /assets/images/bawoo_S120.jpg
+template9: '{"NAME":"Bawoo S120","GPIO":[0,0,0,0,288,0,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/dp/B07BRR5XM8
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

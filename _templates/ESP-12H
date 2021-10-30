@@ -5,7 +5,7 @@ model: ESP-12H
 category: diy
 type: Module
 standard: global
-image: /assets/images/ai-thinker_ESP-12H-Kit.jpg
+image: /assets/images/ESP-12H.jpg
 templates2: '{"NAME":"ESP-12H","GPIO":[1,1,1,0,0,1,0,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0,1,1,0,0],"FLAG":0,"BASE":1}'
 chip: s2
 mlink: https://www.alibaba.com/product-detail/Ai-Thinker-wifi-module-ESP8266-upgrade_1600220995249.html
@@ -13,7 +13,7 @@ link: https://www.aliexpress.com/item/1005002748209013.html
 ---
 This module is pin compatible with WB3, WB3L, WB3S, WBR3, WR3, WR3E, WR3L, WR3N, CB3S, CB3L, C-8138, ESP-12E/F/S and more...
 
-![Pinout](/assets/images/ESP-12H_pinout.gif)
+![Pinout](/assets/images/ESP-12H_pinout.jpg)
 
 Early line of ESP-12H have a labelling error. IO28 is supposed to be IO29. The image above is the correct pinout.
  

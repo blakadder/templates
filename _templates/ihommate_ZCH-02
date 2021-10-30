@@ -6,7 +6,7 @@ category: plug
 type: Plug
 standard: ch
 image: https://user-images.githubusercontent.com/5904370/68094936-76574300-fea5-11e9-93b2-8cb29db9fa66.png
-template: '{"NAME":"ZCH-02","GPIO":[0,0,0,17,133,132,0,0,130,56,21,0,0],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"ZCH-02","GPIO":[0,0,0,17,133,132,0,0,131,56,21,0,0],"FLAG":1,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000316587977.html
 link2: https://www.aliexpress.com/item/4000113339594.html
 ---

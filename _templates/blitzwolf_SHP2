@@ -22,11 +22,9 @@ Since SHP2 is a Tuya based device, [Tuya-Convert](https://github.com/ct-Open-Sou
 This method does't need any wiring. 
 
 ## Serial Flashing
-
 Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
 
 ### Step 1.
-
 Be sure it is **NOT** plugged in!
 Remove the 4 triangle screws. Triangular 2.3mm Screwdriver required (a Torx T6 works well too)!
 ![Triangle screws](https://user-images.githubusercontent.com/25499089/43945385-354fab6c-9c82-11e8-9d13-d405102a96bd.png)
@@ -35,6 +33,7 @@ Remove the 4 triangle screws. Triangular 2.3mm Screwdriver required (a Torx T6 w
 Solder cables to the ESP Pins
 ![ESP Pins](https://user-images.githubusercontent.com/25499089/43945384-3534d26a-9c82-11e8-8a46-95bb2a82ee65.png)
 ![soldered cables](https://user-images.githubusercontent.com/25499089/43945387-358d35c2-9c82-11e8-8031-27754090e50c.jpg)
+
 ### Step 3.
 Connect serial adapter and make a shortwire between Pin IO0 and GND during startup.
 (For entering flashmode)
@@ -43,6 +42,11 @@ RX and TX must be crossed.
 
 ### Step 4.
 Flash Tasmota
+
+### Pin layout hardware revision v2.4
+Template for revision v2.3 is working, only the pin layout has changed.
+![pin layout](https://user-images.githubusercontent.com/17635047/138230317-2894ccb9-6585-40bb-a94d-fb21a5bfa1b9.jpg)
+![shortwire during startup](https://user-images.githubusercontent.com/17635047/138230319-7a8c0ea5-280f-40f4-8175-550c7d197b2d.jpg)
 
 ## OpenHab configuration
 
