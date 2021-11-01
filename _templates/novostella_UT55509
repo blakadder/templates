@@ -13,18 +13,44 @@ category: bulb
 type: RGBCCT
 standard: e27
 ---
-Model number on bulb: SQPA6012-A
+Model number on bulb: `SQPA6012-A`
 
-![image](https://user-images.githubusercontent.com/5904370/72683690-bf4c8a00-3ad9-11ea-803c-9098c8e46a43.png)
+## Tuya-Convert OTA Flashing
 
-10 Devices bought on amazon.de in October 2020 all had the PSK-02 firmware and were not compatible with tuya-convert.
+**Updated: 2021/10/31**
 
-## Serial Flashing
-**One of the more difficult bulbs as interconnect has to be desoldered**
+Newer versions of this bulb _cannot be OTA flashed_ via `tuya-convert` as of October 2020. Ten devices bought on amazon.de in October 2020 and one device bought on Amazon US in October 2021 were running the newer firmware and needed to be manually flashed
 
-Diffusor can be pulled of after breaking the glue by turning it (no knife necessary), glue residue must be removed from in between housing and heatsink. 
-Two screws to remove and the interconnect between LED-PCB and Controller has to be desoldered. Afterwards, LED PCB can be pulled of.
-Heatsink can be removed by prying open using a small screwdriver in gap at the edge.
-Lots of white glue all over controll board, can be cut with sharp knive to pull out the PCB a tiny bit and get access to ESP (TYWE3L)
-To get more space, bottom of the bulb can be screwed lose - was easy on 1/4 bulbs, possible with decent force on 2/4 and impossible on 1/4 bulbs I tried. But even without there is just enough space to be able to solder.
-For reassamby, do the steps in reverse and resolder the inter PCB connector.
+<https://github.com/ct-Open-Source/tuya-convert/wiki/Collaboration-document-for-PSK-Identity-02>
+
+It seems unlikely at this point that Tuya's anti-OTA-flashing mitigations can be worked around so manual flashing will be required.
+
+## Manual Flashing
+
+This device uses an `ESP8266EX`-based Tuya [`TYWE3L` module](https://developer.tuya.com/en/docs/iot/wifie3lpinmodule?id=K9605uj1ar87n). It can be [flashed manually](https://tasmota.github.io/docs/TuyaMCU-Devices/) by attaching a UART adapter to VCC, GND, RX, and TX. To flash the device, make sure to _pull GPIO0 to ground_ on boot then release it for subsequent boots after flashing is complete.
+
+![TYWE3L Pinout](https://tasmota.github.io/docs/_media/pinouts/TYWE3L_pinout.jpg "TYWE3L Pinout")
+
+### Disassembly Notes
+
+**This is of the more difficult bulbs to work with as a fragile interconnect has to be desoldered to get to the ESP module**
+
+The diffusion dome can be pulled off after breaking the glue by turning it (no knife necessary). Glue residue must be removed from in between housing and heatsink.
+
+Two screws to need to be removed and and an 8-pin interconnect between the LED PCB and the controller needs to be desoldered. The pads used for this interconnect are fragile and some caution is required to avoid damaging them.
+
+Afterwards, the LED PCB can be pulled off of the heatsink plate. Between these is some thermal paste that may need to be replaced on reassembly.
+
+The heatsink plate can be removed by prying open using a small screwdriver in gap at the edge. This may take a bit of work if a gap isn't already present.
+
+The control board is covered with a lot of white silicone potting material. This can be removed with a plastic spudger tool or a knife to pull out the PCB a bit and get access to the `TYWE3L` ESP module.
+
+To get more space the bottom of the bulb can be screwed loose - was easy on 1/4 of the bulbs, possible with decent force on 2/4 of them and impossible on 1/4 bulbs from October 2020. Even without unscrewing the bottom there is just enough space to be able to solder on wires for serial flashing.
+
+For reassembly, do the steps in reverse and resolder the board-to-board interconnect. The interconnect can be very difficult to resolder without bridging, particularly if the solder pads are damaged or if extra solder ends up bridging connections between the boards.
+
+![UT55509 Labeling](https://user-images.githubusercontent.com/5904370/72683690-bf4c8a00-3ad9-11ea-803c-9098c8e46a43.png)
+![UT55509 LED Panel](assets/images/novostella_UT55509-interior_leds.jpg "LED Panel")
+![UT55509 Heatsink](assets/images/novostella_UT55509-interior_heatsink.jpg "Heatsink")
+![UT55509 Board, Top](assets/images/novostella_UT55509-interior_board_top.jpg "Board, Top")
+![UT55509 Board, Bottom](assets/images/novostella_UT55509-interior_board_bottom.jpg "Board, Bottom")
