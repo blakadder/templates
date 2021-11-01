@@ -39,4 +39,4 @@ lib_extra_dirs          = lib/libesp32, lib/lib_basic, lib/lib_i2c, lib/lib_disp
 #endif // #ifdef FIRMWARE_EPD47 
 ```
 
-Build in PlatformIO using environment `tasmota32-epd47`
+Build in PlatformIO using environment `tasmota32-ttgo47`
