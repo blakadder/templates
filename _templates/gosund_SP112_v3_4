@@ -6,7 +6,8 @@ image: /assets/images/gosund_SP112_v3_4.jpg
 template: '{"NAME":"Gosund 112v3.4","GPIO":[56,0,57,0,132,134,0,0,131,30,21,0,0],"FLAG":4,"BASE":18}' 
 template_alt: '{"NAME":"SP112new","GPIO":[57,0,56,0,132,134,0,0,131,30,21,0,0],"FLAG":4,"BASE":18}'
 link: https://www.amazon.de/gp/product/B07PPZS351
-link2: 
+link2: https://www.alza.de/gosund-smart-plug-sp112-d6260023.htm
+link3: https://www.aliexpress.com/item/1005002517640148.html
 mlink: https://gosund.com/download/smart_plug/127.html
 flash: serial
 category: plug
