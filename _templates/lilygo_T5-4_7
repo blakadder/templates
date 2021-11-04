@@ -1,0 +1,42 @@
+---
+date_added: 2021-10-30
+title: LilyGO T5 4.7 inch E-paper
+category: diy
+type: Display
+standard: global
+image: /assets/images/lilygo_T5-4_7.jpg
+template32: '{"NAME":"LilyGO T5-4.7","GPIO":[0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,7616,0,0,0,0,0,0,0,0,0,0,33,34,4704,0,0,32],"FLAG":0,"BASE":1}' 
+mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50061&Id=1384&FId=t3:50061:3
+link: https://www.banggood.com/LILYGO-T5-4_7-inch-E-paper-Screen-ESP32-V3-Version-16MB-FLASH-8MB-PSRAM-WIFI-Bluetooth-Display-Module-p-1791808.html
+link2: https://www.aliexpress.com/item/1005002006058892.html
+link3: https://www.amazon.com/dp/B08WCPRX2P/
+---
+
+`platformio_tasmota_cenv.ini`
+```ini
+[env:tasmota32-ttgo47]
+extends                 = env:tasmota32_base
+board                   = esp32_16M
+build_flags             = ${env:tasmota32_base.build_flags} -DFIRMWARE_EPD47 -DCONFIG_EPD_DISPLAY_TYPE_ED047TC1 -DCONFIG_EPD_BOARD_REVISION_LILYGO_T5_47
+lib_extra_dirs          = lib/libesp32, lib/lib_basic, lib/lib_i2c, lib/lib_display, lib/libesp32_lvgl, lib/libesp32_epdiy,
+```
+
+`user_config_override.h`
+```c
+#ifdef FIRMWARE_EPD47
+    #undef CODE_IMAGE_STR
+    #define CODE_IMAGE_STR "ttgo47"
+
+#define USE_BMP
+#define USE_I2C
+#define USE_SPI
+#define USE_DISPLAY
+  #undef USE_DISPLAY_MODES1TO5
+  #define USE_ALL_EPD_FONTS
+#define USE_LILYGO47
+#define SHOW_SPLASH
+
+#endif // #ifdef FIRMWARE_EPD47 
+```
+
+Build in PlatformIO using environment `tasmota32-ttgo47`

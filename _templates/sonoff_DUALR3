@@ -16,7 +16,7 @@ standard: global
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
-## Note : Sonoff Dual R3 v2 released in September 2020
+***Hardware Revision Notification: Sonoff Dual R3 v2 released in September 2020***
 
 Starting September 2021, Sonoff started to distribute a new version with a different energy monitoring chip (BL0930 instead of CSE7761). There is no functional difference between v1.x and v2. Depending on shop's stock you may have one or the other.
 

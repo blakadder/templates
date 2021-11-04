@@ -200,7 +200,7 @@ input[type='submit'].button-clear[disabled]:hover {
 }
 
 .button-red {
-  background-color: lightcoral;
+  background-color: firebrick;
   border-color: darkslategrey;
 }
 .button-red.button-clear,
@@ -676,6 +676,30 @@ img {
 
 small {
   font-size: .5rem;
+}
+
+.gpios::-webkit-scrollbar {
+  width: 6px;
+}
+
+.gpios::-webkit-scrollbar-track {
+  background-color: whitesmoke;
+}
+
+.gpios::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.language-json::-webkit-scrollbar {
+  max-height: 6px;
+}
+
+.language-json::-webkit-scrollbar-track {
+  background-color: whitesmoke;
+}
+
+.language-json::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 /*# sourceMappingURL=milligram.css.map */
