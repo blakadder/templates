@@ -9,19 +9,18 @@ layout: default
  {% if page.category contains 'bulb'%} Bulb {% endif %}
  {% if page.model != nil %} ({{ page.model }}){% endif %}
     </span>
-</div>
-<!-- <div class="float-right"> -->
-<div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%">
-  {% assign standard_list = page.standard %}
-  {% for item_standard in standard_list %}
-  <a class="button button-grey" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
-     {% endfor %}
+  </div>
+  <!-- <div class="float-right"> -->
+  <div class="float-right" style="overflow-wrap: normal; min-width: 20%; max-width: 40%">
+    {% assign standard_list = page.standard %}
+    {% for item_standard in standard_list %}
+    <a class="button button-grey" href="{{ item_standard | downcase }}.html">{{ item_standard | upcase }}</a>
+      {% endfor %}
   </div>
 </div>
 <div class="row">
   <div class="column">
-    
-</div>
+  </div>
 </div>
 <div class="row">
   <div class="column column-60"> 
