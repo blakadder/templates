@@ -31,7 +31,7 @@ Backlog  DisplayModel 4; DisplayRotate 0; DisplayDimmer 100; DisplayWidth 240; D
 
 Somehow `DisplayMode 0` does not work with this device on Tasmota 9.1.0
 
-## Tasmota 9.3.1(display)
+## Tested on Tasmota 9.3.1(display) and 10.0.0(display)
 
 template:
 ```template32
