@@ -6,19 +6,24 @@ category: diy
 type: Display
 standard: global
 image: /assets/images/lilygo_T-Watcher.jpg
-template32: '{"NAME":"TTGO T4 v1.3","GPIO":[35,1,672,1,992,1024,1,1,832,768,736,704,1,1,896,0,0,640,608,864,0,0,1,928,0,0,0,0,960,1,1,4704,1,32,33,34],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"TTGO T4 v1.3","GPIO":[35,1,672,1,992,1024,1,1,832,768,736,704,1,1,896,0,0,640,608,864,0,0,1,6368,0,0,0,0,6400,1,1,4704,1,32,33,34],"FLAG":0,"BASE":1}' 
 mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1160
 link: https://www.aliexpress.com/item/4000083583166.html
 link2: https://www.banggood.com/LILYGO-TTGO-T-Watcher-BTC-Ticker-ESP32-For-Bitcoin-Price-Program-4M-SPI-Flash-Psram-LCD-Display-Module-p-1345292.html
 link3: https://www.aliexpress.com/item/1005001949197666.html
 ---
 
+## Tested on Tasmota 9.3.1(display) and 10.0.0(display)
+
 Display settings:
 ```console
-Backlog  DisplayModel 13; DisplayRotate 0; DisplayDimmer 100; DisplayWidth 240; DisplayHeight 320; DisplayFont 0; DisplayCols 34; DisplayRows 40;
+Backlog  DisplayModel 4; DisplayRotate 0; DisplayDimmer 100; DisplayWidth 240; DisplayHeight 320; DisplayFont 0; DisplayCols 39; DisplayRows 40; DisplayRefresh 1; DisplaySize 1; DisplayMode 5;
 ```
+- You may need to press [Toggle] to turn the display on
+- `DisplayMode 0` does also work
+- If the SD Card reader works is unknown.
 
-## Tasmota 9.1.0(display):
+## Tested on Tasmota 9.1.0(display), 8.5.1(display) and 8.4.0(display)
 
 template:
 ```template32
@@ -29,17 +34,4 @@ Display settings:
 Backlog  DisplayModel 4; DisplayRotate 0; DisplayDimmer 100; DisplayWidth 240; DisplayHeight 320; DisplayFont 0; DisplayCols 39; DisplayRows 40; DisplayRefresh 1; DisplaySize 1; DisplayMode 5;
 ```
 
-Somehow `DisplayMode 0` does not work with this device on Tasmota 9.1.0
-
-## Tested on Tasmota 9.3.1(display) and 10.0.0(display)
-
-template:
-```template32
-{"NAME":"TTGO T4 v1.3","GPIO":[35,1,672,1,992,1024,1,1,832,768,736,704,1,1,896,0,0,640,608,864,0,0,1,6368,0,0,0,0,6400,1,1,4704,1,32,33,34],"FLAG":0,"BASE":1}
-```
-Display settings:
-```console
-Backlog  DisplayModel 4; DisplayRotate 0; DisplayDimmer 100; DisplayWidth 240; DisplayHeight 320; DisplayFont 0; DisplayCols 39; DisplayRows 40; DisplayRefresh 1; DisplaySize 1; DisplayMode 5;
-```
-`DisplayMode 0` does also work
-If the SD Card reader works is unknown.
+Somehow `DisplayMode 0` does not work on these versions.
