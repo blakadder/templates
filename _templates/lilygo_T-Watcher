@@ -18,7 +18,7 @@ Display settings:
 Backlog  DisplayModel 13; DisplayRotate 0; DisplayDimmer 100; DisplayWidth 240; DisplayHeight 320; DisplayFont 0; DisplayCols 34; DisplayRows 40;
 ```
 
-This works for Tasmota 9.1.0(display):
+## Tasmota 9.1.0(display):
 
 template:
 ```template32
@@ -26,5 +26,19 @@ template:
 ```
 Display settings:
 ```console
-Backlog  DisplayModel 4; DisplayRotate 0; DisplayDimmer 100; DisplayWidth 240; DisplayHeight 320; DisplayFont 0; DisplayCols 40; DisplayRows 44; DisplayRefresh 1; DisplaySize 1; DisplayMode 5;
+Backlog  DisplayModel 4; DisplayRotate 0; DisplayDimmer 100; DisplayWidth 240; DisplayHeight 320; DisplayFont 0; DisplayCols 39; DisplayRows 40; DisplayRefresh 1; DisplaySize 1; DisplayMode 5;
 ```
+
+Somehow `DisplayMode 0` does not work with this device on Tasmota 9.1.0
+
+## Tasmota 9.3.1(display)
+
+template:
+```template32
+{"NAME":"TTGO T4 v1.3","GPIO":[35,1,672,1,992,1024,1,1,832,768,736,704,1,1,896,0,0,640,608,864,0,0,1,6368,0,0,0,0,6400,1,1,4704,1,32,33,34],"FLAG":0,"BASE":1}
+```
+Display settings:
+```console
+Backlog  DisplayModel 4; DisplayRotate 0; DisplayDimmer 100; DisplayWidth 240; DisplayHeight 320; DisplayFont 0; DisplayCols 39; DisplayRows 40; DisplayRefresh 1; DisplaySize 1; DisplayMode 5;
+```
+`DisplayMode 0` does also work
