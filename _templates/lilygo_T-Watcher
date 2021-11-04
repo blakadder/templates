@@ -42,3 +42,4 @@ Display settings:
 Backlog  DisplayModel 4; DisplayRotate 0; DisplayDimmer 100; DisplayWidth 240; DisplayHeight 320; DisplayFont 0; DisplayCols 39; DisplayRows 40; DisplayRefresh 1; DisplaySize 1; DisplayMode 5;
 ```
 `DisplayMode 0` does also work
+If the SD Card reader works is unknown.
