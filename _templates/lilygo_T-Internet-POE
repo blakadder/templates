@@ -1,17 +1,23 @@
 ---
 date_added: 2021-01-01
-title: LilyGO TTGO T-Internet-POE
+title: LilyGO TTGO ESP32 LAN8720A Ethernet
 model: T-Internet-POE
 category: diy
 type: Development Board
 standard: global
 image: /assets/images/lilygo_T-Internet-POE.jpg
-template32: '{"NAME":"LilyGO T-Internet-POE","GPIO":[0,1,1,1,1,1,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1,"CMND":"EthType 0|EthClockMode 3|EthAddress 0"}' 
+template32: '{"NAME":"T-Internet-POE v1.2","GPIO":[0,1,1,1,1,1,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1,"CMND":"EthType 0|EthClockMode 1|EthAddress 0"}' 
 mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1307&FId=t3:50033:3
 link: https://www.aliexpress.com/item/4001122992446.html
 link2: https://www.banggood.com/LILYGO-TTGO-T-Internet-POE-ESP32-WROOM-LAN8720A-Chip-Ethernet-Adapter-And-Downloader-Expansion-Board-Programmable-Hardware-p-1722368.html
 ---
 
-To use this device, you have to compile Tasmota with Ethernet enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.
+Use only [`tasmota32-ethernet.bin`](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32-ethernet.bin) which has Ethernet enabled.
 
-For working Ethernet on board V1.0, `EthClockMode 3` is needed, as included in the template. But on board v1.2 setting `ethclockmode 1` in console is required to get ethernet working.
+## v1.0 Board
+For working Ethernet on board V1.0, `EthClockMode 3` is needed as included in the following template:
+
+```json
+{"NAME":"LilyGO T-Internet-POE","GPIO":[0,1,1,1,1,1,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1,"CMND":"EthType 0|EthClockMode 3|EthAddress 0"}
+```
+![v1.0 Board](/assets/images/lilygo_T-Internet-POE_v1.jpg)
