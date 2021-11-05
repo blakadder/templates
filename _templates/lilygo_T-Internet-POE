@@ -14,4 +14,4 @@ link2: https://www.banggood.com/LILYGO-TTGO-T-Internet-POE-ESP32-WROOM-LAN8720A-
 
 To use this device, you have to compile Tasmota with Ethernet enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.
 
-For working Ethernet, `EthClockMode 3` is needed, as included in the template.
+For working Ethernet on board V1.0, `EthClockMode 3` is needed, as included in the template. But on board v1.2 setting `ethclockmode 1` in console is required to get ethernet working.
