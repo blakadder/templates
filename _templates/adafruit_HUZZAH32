@@ -55,7 +55,7 @@ The board has a resistive divider connected to `VBAT` that goes into pin `GPIO35
 This isn't useful for Tasmota but for power saving purposes the built-in 3.3V regulator can be disabled by pulling the `EN` pin to ground. This will power down the ESP32 module and everything else on the board aside from the USB to UART converter.
 
 ![Adafruit HUZZAH32 Feather Top](/assets/images/adafruit_HUZZAH32_top.jpg "Adafruit HUZZAH32 Feather Top")
-![Adafruit HUZZAH32 Feather Top](/assets/images/adafruit_HUZZAH32_bottom.jpg "Adafruit HUZZAH32 Feather Bottom")
+![Adafruit HUZZAH32 Feather Bottom](/assets/images/adafruit_HUZZAH32_bottom.jpg "Adafruit HUZZAH32 Feather Bottom")
 
 [Product overview](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview)
 
