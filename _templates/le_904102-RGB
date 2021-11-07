@@ -12,3 +12,37 @@ category: light
 type: LED Strip
 standard: global
 ---
+
+To use the integrated Hardwarebuttons to controll the Light, you can use following rule example:
+
+1 short Press "C": next Color
+2 short Presses "C": previous Color
+3 short Presses "C": increase Dimmer 
+4 short Presses "C": decrease Dimmer
+1 short Press "Power": Turn On Light
+2 short Presses "Power": Tunr Off Light
+1 short Press "M": next Scheme/Mode
+2 short Presses "M": previous Scheme/Mode
+3 short Presses "M": increase Speed 
+4 short Presses "M": decrease Speed
+
+
+Paste into Tasmota WebConsole:
+
+```yaml
+backlog SetOption1 0; SetOption11 0; SetOption73 1;
+
+rule1
+on Button1#state=10 do Color+ ENDON
+on Button1#state=11 do Color- ENDON
+on Button1#state=12 do Dimmer+ ENDON
+on Button1#state=13 do Dimmer- ENDON
+on Button2#state=10 do Power1 1 ENDON
+on Button2#state=11 do Power1 0 ENDON
+on Button3#state=10 do Scheme+ ENDON
+on Button3#state=11 do Scheme- ENDON
+on Button3#state=12 do Speed+ ENDON
+on Button3#state=13 do Speed- ENDON
+
+rule1 1
+```
