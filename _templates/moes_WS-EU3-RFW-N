@@ -3,7 +3,7 @@ date_added: 2021-10-26
 title: Moes RF433 3 Gang Touch
 model: WS-EU3-RFW-N
 image: /assets/images/moes_WS-EU3-RFW-N.jpg
-template9: '{"NAME":"WS-EU-RF","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54;"CMND":"TuyaMCU 11,1 | TuyaMCU 12,2 | TuyaMCU 13,3"}' 
+template9: '{"NAME":"WS-EU-RF","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 12,2 | TuyaMCU 13,3"}' 
 link: https://www.alzashop.com/moes-smart-bluetooth-wifi-rf433-switch-d6294787.htm
 link2: 
 mlink: https://www.moeshouse.com/collections/eu-smart-switch/products/wifi-rf433-smart-touch-switch-2-way-smart-life-tuya-app-control-alexa-google-home-voice-control-3-gang-eu-white
