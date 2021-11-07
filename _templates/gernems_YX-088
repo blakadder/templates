@@ -3,7 +3,7 @@ date_added: 2021-10-26
 title: Gernems 400 ml
 model: YX-088
 image: /assets/images/gernems_YX-088.jpg
-template9: '{"NAME":"YX-088","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54;"CMND":"TuyaMCU 11,1|TuyaMCU 61,2|TuyaMCU 62,3|TuyaMCU|12,5|TuyaMCU 63,6|TuyaMCU 21,7|TuyaMCU 24,8|TuyaRGB 3|DimmerRange 1,255|TuyaEnumList 1,2|TuyaEnumList 2,2|TuyaEnumList 3,1"}' 
+template9: '{"NAME":"YX-088","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1|TuyaMCU 61,2|TuyaMCU 62,3|TuyaMCU|12,5|TuyaMCU 63,6|TuyaMCU 21,7|TuyaMCU 24,8|TuyaRGB 3|DimmerRange 1,255|TuyaEnumList 1,2|TuyaEnumList 2,2|TuyaEnumList 3,1"}' 
 link: https://www.amazon.de/gp/product/B08JKD65MR/
 link2: 
 mlink: https://shop.gernems.de/?product=aroma-diffuser-400ml-tulips-of-gernems-smart-aetherische-oel-wlan-ultraschall-duftlampe-luftbefeuchter-kompatibel-mit-alexa-und-google-home-app-steuerbar-timer-funktion-7-led-farbe-fuer-home-ode
