@@ -12,7 +12,7 @@ link: https://www.itead.cc/smart-home/sonoff-4ch.html
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/4ch-r2-pro-r2
 ---
 ## Serial Flashing
-Please see the [Hardware Preparation](Hardware-Preparation) page for general instructions.
+Please see the [Getting Started](https://tasmota.github.io/docs/Getting-Started/) page in Tasmota docs for general flashing instructions.
 
 Sonoff 4CH and Sonoff 4CH R2 use the same configuration but have slightly different boards. Check which version you own before proceeding.
 ### Sonoff 4CH
