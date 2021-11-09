@@ -25,6 +25,9 @@ mlink: https://sonoff.tech/product/wifi-smart-plugs/s26
 
 This upgraded version is recognized by the "Max..." text printed on the front (Text differs depending on the type of plug).
 
+S26R2TPF has a Espressif Systems 1MB ESP8285 on a small daughter board with no visible connection. Connections points for serial interface is on the backside of the main board labeled V for 3.3v, TX, RX and GND.
+Success with Tasmotizer 1.2, image 10.0.0 and a CP2102 serial programmer.
+
 ![](/assets/images/sonoff_S26R2_label.jpg)
 
 ![](/assets/images/sonoff_S26R2_models.jpg)
