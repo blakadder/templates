@@ -5,14 +5,14 @@ category: diy
 type: Development Board
 standard: global
 image: /assets/images/lilygo_T7.jpg
-template32: '{"NAME":"LilyGO T7 V1.5","GPIO":[1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,544,0,640,608,1,0,1,1,1,0,0,0,0,0,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"LilyGO T7 V1.5","GPIO":[1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,544,0,0,0,1,0,1,1,1,0,0,0,0,0,1,1,4704,1,0,0,1],"FLAG":0,"BASE":1}' 
 mlink:
 link: https://www.aliexpress.com/item/32977375539.html
 link2: https://www.banggood.com/LILYGO-TTGO-T7-V1_5-Mini32-ESP32-WROVER-B-PSRAM-Wi-Fi-Bluetooth-Module-Development-Board-p-1894318.html
 link3: https://www.amazon.com/dp/B09132RZN7
 ---
 
-The board uses an older version of ESP32 chip that requires a binary wih the PSRAM fix compiled in. You can use  [`tasmota32-webcam.bin`](http://ota.tasmota.com/tasmota32/tasmota32-webcam.bin) or compile your own
+The board uses an older version of ESP32 chip that requires a binary wih the PSRAM fix compiled in. 
 
 Compile with platformio env including these flags:
 
