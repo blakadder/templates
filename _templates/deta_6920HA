@@ -1,0 +1,18 @@
+---
+date_added: 2021-11-09
+title: DETA Double GPO + USB 
+model: 6920HA
+image: /assets/images/deta_6920HA.jpg
+template9: '{"NAME":"DETA 6920HA","GPIO":[0,0,0,3104,32,288,0,0,33,224,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/deta-grid-connect-smart-double-touch-power-point-with-dual-usb_p0172780
+link2: 
+mlink: 
+flash: replace
+chip: WB2S
+category: plug
+type: Wall Outlet
+standard: au
+---
+Original chip is WB2S so the only way is to replace it. Easy to remove (once you remove solder it falls off). As serial is used by power metering it would be wise to program replacement ESP-01N (WT-01N) before soldering it in. 
+
+Essentially this is the same as for DETA 6294 Outdoor GPO

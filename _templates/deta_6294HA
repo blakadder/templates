@@ -1,0 +1,18 @@
+---
+date_added: 2021-11-09
+title: DETA Outdoor Double Powerpoint
+model: 6294HA
+image: /assets/images/deta_6294HA.jpg
+template9: '{"NAME":"DETA 6294HA","GPIO":[0,0,0,3104,32,288,0,0,33,224,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/deta-grid-connect-smart-outdoor-double-powerpoint_p0172781
+link2: 
+mlink: 
+flash: replace
+chip: WB2S
+category: plug
+type: Wall Outlet
+standard: au
+---
+Easy to open, remove module and re-solder as it has plenty of space inside. 
+
+Compatible module ESP-01N (WT-01N) has to be flashed and soldered in with Tasmota inside. I think soldering first and flashing while soldered might not work as there is serial data on RX pin from HLW8032. 
