@@ -1,0 +1,17 @@
+---
+date_added: 2021-11-12
+title: Mirabella Genio Double Plug with USB Ports
+model: I002932
+image: /assets/images/mirabella_genio_I002932.jpg
+template9: '{"NAME":"Genio I002932","GPIO":[0,320,1,32,0,0,0,0,224,0,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-double-power-plug-with-usb-ports/3316802
+link2: 
+mlink: https://www.mirabellagenio.com.au/product-range/mirabella-genio-wi-fi-double-power-plug-with-usb-ports/
+flash: serial
+category: plug
+type: Plug
+standard: au
+---
+Opening these devices requires running a Stanley knife/box cutter, down each edge.
+
+See [Ardill Tech Tips](https://blog.ardill.com/2021/11/mirabella-genio-power-plugs-teardown.html) for more details

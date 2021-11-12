@@ -1,0 +1,38 @@
+---
+date_added: 2021-11-13
+title: Yeelight Dual Control
+model: YLAI002
+image: /assets/images/yeelight_YLXD62YI.jpg
+template32: '{"NAME":"YLAI002","GPIO":[1,1,1,1,1,1,1,1,96,1,224,1,1,320,321,160,0,161,1,1,0,1,1,225,0,0,0,0,162,163,1,1,1,0,0,1],"FLAG":0,"BASE":1,"CMND":"SO127 1"}' 
+link: https://www.alzashop.com/yeelight-smart-dual-module-d6632364.htm
+link2: https://www.aliexpress.com/item/1005003412332703.html
+mlink: 
+flash: serial
+chip: solo1
+category: relay
+type: Switch Module
+standard: global
+---
+
+## Serial Flashing
+All pins necessary for flashing are labelled on the module PCB. 
+
+![PCB image](/assets/images/yeelight_YLAI002_pinout.jpg)
+
+## Pins
+
+| GPIO | Function | Label
+| ---  | ---      |
+| GPIO12 | Button_i | Button (not working)
+| GPIO14 | Relay2 | L2
+| GPIO17 | Ledi 1 | Blue LED (connection status)
+| GPIO18 | Ledi 2 | Red LED (relay 1 and 2 status)
+| GPIO27 | Relay1 | L1
+| GPIO19 | Switch2 | S2
+| GPIO21 | Switch1 | S1
+| GPIO33 | Switch3 | K2
+| GPIO32 | Switch4 | K1 (not triggering)
+
+K1 is not triggering on switch toggles. If you want to show relay status on its respective LED, set any unused GPIO as LedLink.
+
+Unlike the original firmware you can simultaneously use S1, S2 and K2 as 3 switch inputs.
