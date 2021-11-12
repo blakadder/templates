@@ -3,7 +3,7 @@ date_added: 2020-07-19
 title: TopGreener TGWF500D
 model: ZZH-WF500D
 image: /assets/images/topgreener_TGWF500D.jpg
-template: '{"NAME":"TopGreener-Dimmer","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
+template: '{"NAME":"TopGreener-Dimmer","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 21,3 | DimmerRange 10,25"}' 
 link: https://www.amazon.com/dp/B07BSX9SDF/
 link2: 
 mlink: 
@@ -12,10 +12,6 @@ category: switch
 type: Dimmer
 standard: us
 ---
-Enter `TuyaMCU 21,3`
+You may need to adjust the dimmerrange based on your particular bulb.
 
-Enter `DimmerRange 10,255`
-
-You may need to adjust the dimmerrange based on your particular bulb, but this is close.
-
-Tuya-Convert worked on Nov 10, 2021, amazon Canada: https://www.amazon.ca/gp/product/B07BSX9SDF
+Tuya-Convert worked on Nov 10, 2021!
