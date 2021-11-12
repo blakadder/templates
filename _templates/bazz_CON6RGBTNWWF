@@ -1,0 +1,15 @@
+---
+date_added: 2021-11-09
+title: Bazz 6" RGBCCT Recessed Lighting Conversion Kit
+model: CON6RGBTNWWF
+image: /assets/images/bazz_CON6RGBTNWWF.jpg
+template9: '{"NAME":"CON6RGBTNWWF","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B01A7UKOQW/
+link2: 
+mlink: https://www.bazzsmarthome.com/collections/lighting/products/6-inch-smart-wifi-rgb-led-conversion-kit
+flash: serial
+category: light
+type: Downlight
+standard: us
+---
+Heat diffuser with a heat gun and remove with a suction cup. After that, remove the four screws holding the LED array to the housing. This will release the back cover. From there, you can solder onto the RX, TX, VCC, and GND to flash to Tasmota. Sadly, I didn't document the process or take pictures. If I flash any more, I'll update my submssion.

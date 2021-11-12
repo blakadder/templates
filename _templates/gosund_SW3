@@ -1,0 +1,14 @@
+---
+date_added: 2021-11-11
+title: Gosund SW3
+model: SW3
+image: /assets/images/gosund_SW3.jpg
+template9: '{"NAME":"Gosund WP3","GPIO":[0,0,0,32,0,0,0,0,320,321,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.alzashop.com/gosund-smart-switch-sw3-d6253994.htm
+link2: https://www.wifistore.ro/cumpara/comutator-releu-wifi-gosund-sw3-73003
+mlink: https://www.alibaba.com/product-detail/Gosund-Basic-Smart-Home-Automation-DIY_1600279379719.html
+flash: serial
+category: relay
+type: Switch Module
+standard: eu
+---

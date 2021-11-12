@@ -3,7 +3,7 @@ date_added: 2021-08-13
 title: ZiGate-Ethernet 
 model: 
 image: /assets/images/ZiGate-Ethernet.jpg
-template32: '{"NAME":"ZIGATE-ETH","GPIO":[1,1,1,1,1,1,0,0,1,0,1,1,3840,576,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1],"FLAG":0,"BASE":18,"CMND":"EthClockMode 3 | EthAddress 1"}' 
+template32: '{"NAME":"ZIGATE-ETH","GPIO":[1,1,1,1,1,1,0,0,1,0,1,1,3840,576,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0],"FLAG":0,"BASE":18,"CMND":"EthClockMode 3 | EthAddress 1"}' 
 link: 
 mlink: https://zigate.fr/produit/zigate-ethernet/
 flash: serial

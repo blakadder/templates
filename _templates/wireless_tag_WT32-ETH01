@@ -8,7 +8,7 @@ standard: global
 image: /assets/images/wireless_tag_WT32-ETH01.jpg
 template32: '{"NAME":"WT32-ETH01","GPIO":[1,1,1,1,1,1,0,0,1,0,1,1,3840,576,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 mlink: http://www.wireless-tag.com/portfolio/wt32-eth01/
-link: https://www.aliexpress.com/item/1005001739885411.html
+link: https://www.aliexpress.com/af/wt32%25252deth01.html
 link2: https://www.amazon.com/dp/B08T9C3VWG
 link3: https://www.amazon.de/dp/B091KNZRZY/
 link4: https://www.banggood.com/WT32-ETH01-Embedded-Serial-Port-Networking-Ethernet-Bluetooth-compatible-WIFI-Combo-Gateway-MCU-ESP32-Wireless-Module-WT32-ETH01-p-1888027.html

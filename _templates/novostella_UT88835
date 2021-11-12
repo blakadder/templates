@@ -13,3 +13,18 @@ link2:
 ---
 
 As of 20 September 2020 this device cannot be flashed with tuya-convert.  
+
+Manual flashing is possible using the following steps.
+NOTE: DO NOT PLUG INTO MAINS until 100% done.
+1) Carefully break glass and remove
+2) Remove white deflector around LED panel
+3) Unplug connector to LED panel
+4) Carefully dig out esp module by first using a knife around entire silicon blob, it will pull out from white retaining section. 
+Then carefully using a screw driver, pick away at the black silicon around the modul. It is an upright module on the right side. 
+Dig it out only enough to expose the pads on the bottom and the IO0 pad on the back side of board. The board itself is pretty well marked,
+but if you need a reference, review https://developer.tuya.com/en/docs/iot/wifilc4module?id=K9605t0d19jiy
+5) Solder wires for flashing to 3.3V, TX, RX, GND and IO0.
+6) Flash by pulling IO0 to ground. Default Generic ESP8266 module settings work to flash. DO NOT PLUG INTO MAINS until 100% done.
+7) Confirm response via serial or connect via wifi
+8) Remove wires
+9) Replace glass(plexi glass works)

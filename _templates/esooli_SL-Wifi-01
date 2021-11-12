@@ -1,0 +1,18 @@
+---
+date_added: 2021-11-06
+title: Esooli 1 Gang
+model: SL-Wifi-01
+image: /assets/images/esooli_SL-Wifi-01.jpg
+template: '{"NAME":"Esooli 1G","GPIO":[0,52,0,0,0,17,0,0,21,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/4001027277018.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: [eu, uk]
+---
+Appears to be the same as ZUCZUG 1 Gang.  
+
+To flash I needed to power up the device without GPIO0 low; put GPIO0 low then briefly put RST to low.  Otherwise would not flash.
+Pads across the top to flash, looking left to right (with writing correct way up): 3V3, RX, TX, GPIO0, RST, GND
