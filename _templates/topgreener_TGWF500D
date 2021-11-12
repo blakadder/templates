@@ -17,3 +17,5 @@ Enter `TuyaMCU 21,3`
 Enter `DimmerRange 10,255`
 
 You may need to adjust the dimmerrange based on your particular bulb, but this is close.
+
+Tuya-Convert worked on Nov 10, 2021, amazon Canada: https://www.amazon.ca/gp/product/B07BSX9SDF
