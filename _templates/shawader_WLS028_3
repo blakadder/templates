@@ -39,4 +39,9 @@ Solder cables to the pins and then do as follows:
 ## Setup
 
 Enable the template and execute the following command:
-`Backlog ButtonTopic1; SetOption13 1; ButtonTopic2; SetOption13 1; ButtonTopic2; SetOption13 1;` 
+```console
+Backlog ButtonTopic1; ButtonTopic2; ButtonTopic3; SetOption13 1;
+``` 
+
+![Pinout](https://user-images.githubusercontent.com/4000918/141210323-5e0f5178-f4be-4f5d-82d5-0af4a57d4f6c.jpg)
+![PCB](https://user-images.githubusercontent.com/4000918/141210329-aa3ada3c-e403-4649-b4f9-308e58e807fe.jpg)
