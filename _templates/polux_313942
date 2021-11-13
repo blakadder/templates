@@ -1,0 +1,20 @@
+---
+date_added: 2021-11-13
+title: Polux UFO RGBCCT 48W  
+model: 313942
+image: /assets/images/polux_313942.jpg
+template9: '{"NAME":"Polux 313924","GPIO":[0,0,0,0,416,417,0,0,418,419,420,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://allegro.pl/oferta/plafon-wi-fi-smart-led-48w-tuyasmart-polux-10942449714
+link2: 
+mlink: https://www.sanico.com.pl
+flash: serial
+category: light
+type: Ceiling Light
+standard: eu
+chip: TYWE3L
+---
+Easy access to TYWE3L module for serial flashing. 
+
+DimmerRange2 and DimmerRange4 are 25,100. Set correct color order with SetOption37 13 (R,Wc,G,Ww,B). 
+
+Images: [https://drive.google.com/drive/folders/1WKbE0s-OrTz9tBKwRsq5e2oBwkjbIZWH?usp=sharing](https://drive.google.com/drive/folders/1WKbE0s-OrTz9tBKwRsq5e2oBwkjbIZWH?usp=sharing)

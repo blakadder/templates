@@ -13,12 +13,15 @@ category: relay
 type: Switch Module
 standard: global
 ---
+Pry open the lid in the middle and lift the ESP32 module PCB with pliers from the mains PCB.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aeNiFpzwE1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Serial Flashing
 All pins necessary for flashing are labelled on the module PCB. 
 
 ![PCB image](/assets/images/yeelight_YLAI002_pinout.jpg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aeNiFpzwE1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Pins
 
