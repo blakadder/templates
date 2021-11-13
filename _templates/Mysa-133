@@ -1,0 +1,69 @@
+---
+date_added: 2021-11-13
+title: Mysa Smart Thermostat for Electric Baseboard Heaters
+model: 1.3.3
+image: /assets/images/Mysa-133.png
+template32: '{"NAME":"Mysa Thermostat","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,224,1,1,0,0,0,0,640,608,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://shop.getmysa.com/products/mysa-baseboard
+link2:
+mlink:
+flash: serial
+category: misc
+type: Thermostat
+standard: us
+---
+This device requires a transplant of the microcontroller. The original microcontroller comes with efuse enabled, and cannot be reprogrammed. You will need a rework station to heat the chip and remove it carefully without melting the plastic frame.
+
+This device works on split-phase 240V only. It does not require a neutral per-se. Consult with an electrician before attempting to wire this device.
+
+The device periodically resets the onboard microcontroller every 3 seconds by pulling down the CHIP_PU pin as a protection. This protection can be turned off by adding a 10 kiloohm resistance between the `+` and the `WDENn` pads next to the microcontroller.
+
+The device contains the following sensors. All of them are discovered by the i2c bus.
+
+ 1. HDC2010 Temperature and Humidity Sensor
+ 2. MAX11612 Analog to Digital Converter
+ 3. AT42QT1070 Touch Sensor
+ 4. IS31FL3731 LED Matrix Controller
+
+To enable the devices, make sure to compile Tasmota with the following flags.
+
+```
+#ifndef USE_I2C
+#define USE_I2C
+#endif
+
+#ifndef USE_HDC2010
+#define USE_HDC2010
+#endif
+
+#ifndef USE_MAX11612
+#define USE_MAX11612
+#endif
+
+#ifndef USE_AT42QT1070
+#define USE_AT42QT1070
+#endif
+
+#ifndef USE_THERMOSTAT
+#define USE_THERMOSTAT
+#endif
+
+#ifdef THERMOSTAT_SENSOR_NAME
+#undef THERMOSTAT_SENSOR_NAME
+#endif
+#ifndef THERMOSTAT_SENSOR_NAME
+#define THERMOSTAT_SENSOR_NAME "HDC2010"
+#endif
+
+#ifndef USE_PI_AUTOTUNING
+#define USE_PI_AUTOTUNING
+#endif
+```
+
+Once the device is reassembled, running and configured, the thermostat can be enabled by adding a rule. Make sure to review the default settings and adjust them accordingly. Consult the Thermostat documentation of Tasmota for more details.
+
+```
+Rule1 on system#boot do Backlog THERMOSTATMODESET 1; CONTROLLERMODESET 0; ClimateModeSet 0; TEMPTARGETSET 23; SENSORINPUTSET 1; TIMEMINACTIONSET 1; TIMEMAXACTIONSET 5; TIMEALLOWRAMPUPSET 10; TIMERAMPUPCYCLESET 15 TELEPERIOD 30 endon
+Rule1 1
+```
+
