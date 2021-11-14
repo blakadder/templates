@@ -1,48 +1,19 @@
 ---
 date_added: 2021-11-05
-title: Adafruit HUZZAH32 Feather
+title: Adafruit ESP32 Feather
 model: HUZZAH32
-chip: d0wdq6
 flash: serial
 category: diy
 type: Development Board
 standard: global
 mlink: https://www.adafruit.com/product/3405
-image: /assets/images/adafruit-HUZZAH32.jpg
-template32: '{"NAME":"Huzzah32","GPIO":[0,0,0,0,4709,0,1,1,1,288,1,1,1,1,0,1,0,0,608,640,0,4705,4704,1,0,0,0,0,1,1,4706,4710,4708,0,0,4707],"FLAG":0,"BASE":1}'
-link: https://www.amazon.com/Adafruit-HUZZAH32-ESP32-Feather-Board/dp/B01NCRYHDL/
-link2: https://www.amazon.com/Adafruit-PID-3591-HUZZAH32-pre-soldered/dp/B079QGXX88/
+image: /assets/images/adafruit_HUZZAH32.jpg
+template32: '{"NAME":"HUZZAH32","GPIO":[0,0,0,0,4709,0,1,1,1,288,1,1,1,1,0,1,0,0,608,640,0,4705,4704,1,0,0,0,0,1,1,4706,4710,4708,0,0,4707],"FLAG":0,"BASE":1}'
+link: https://www.amazon.com/dp/B01NCRYHDL/
+link2: https://www.amazon.com/dp/B079QGXX88/
 link3: https://www.digikey.com/catalog/en/partgroup/huzzah32-esp32-feather-board/68696
 link4: https://mou.sr/3CPTQtn
 ---
-
-Module: `ESP32-WROOM-32`
-
-## Manual Flashing
-
-This board has an integrated SiLabs `CP2104` USB to UART converter built in so flashing doesn't require an external interface board.
-
-In addition to a `tasmota32.bin` binary file there are three additional binaries (`boot_app0.bin`, `bootloader_dout_40m.bin`, `partitions.bin`) required for flashing an ESP32, which can be found here:
-
-<https://github.com/arendst/Tasmota-firmware/tree/main/release-firmware/tasmota32/ESP32_needed_files>
-
-The latest ESP32 binary builds can be found here:
-
-<http://ota.tasmota.com/tasmota32/release/>
-
-With these files downloaded, this `esptool.py` command worked to flash the device with Tasmota:
-
-```sh
-esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x1000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32.bin
-```
-
-See <https://tasmota.github.io/docs/ESP32/> for the latest information.
-
-## Tasmotizer
-
-[Tasmotizer](https://github.com/tasmota/tasmotizer) does not currently support ESP32 chips so it can't be used to flash the device.
-
-However, once a device is flashed with Tasmota, the Tasmotizer GUI can be used to configure the board with serial commands to set up WiFi and template configuration.
 
 ## Template Notes
 
@@ -54,9 +25,9 @@ The board has a resistive divider connected to `VBAT` that goes into pin `GPIO35
 
 This isn't useful for Tasmota but for power saving purposes the built-in 3.3V regulator can be disabled by pulling the `EN` pin to ground. This will power down the ESP32 module and everything else on the board aside from the USB to UART converter.
 
-![Adafruit HUZZAH32 Feather Top](/assets/images/adafruit_HUZZAH32_top.jpg "Adafruit HUZZAH32 Feather Top")
 ![Adafruit HUZZAH32 Feather Bottom](/assets/images/adafruit_HUZZAH32_bottom.jpg "Adafruit HUZZAH32 Feather Bottom")
+
+![Pinout information](/assets/images/adafruit_HUZZAH32_pinout.jpg)
 
 [Product overview](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview)
 
-[Pinout information](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/pinouts)

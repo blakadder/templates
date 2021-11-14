@@ -6,14 +6,17 @@ image: https://2ecffd01e1ab3e9383f0-07db7b9624bbdf022e3b5395236d5cf8.ssl.cf4.rac
 category: switch
 type: Switch
 standard: au
+unsupported: true
+chip: WB3S
 template: '{"NAME":"DETA 2G Switch","GPIO":[0,0,0,0,157,0,0,0,91,21,22,0,90],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/deta-smart-double-gang-light-switch-touch-activated-with-grid-connect_p0098812
 link2: https://www.bunnings.co.nz/deta-grid-connect-smart-double-gang-touch-light-switch_p0098812
 ---
+
+October 2021 - Updated product uses WB3S module. Packaging has a model number of **6912HA - Series 2**.
 
 To enable standard (factory) functionality of the Status LED (displaying Wi-Fi Connection Status) add this Rule: 
 `Rule1 on system#boot do Backlog LedPower 1; LedState 0; LedPower 1; LedState 8; endon'
 
 This rule enables the status LED when its connected to Wi-Fi, without this rule the default behaviour will result in the Status LED switching on & off every time the Relay is activated. 
 
-October 2021 - Updated product uses the ESP WB3S chip which is not compatible with Tasmota/ESPHome/etc. Packaging has a model number of 6912HA - Series 2
