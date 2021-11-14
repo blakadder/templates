@@ -13,7 +13,8 @@ flash: serial
 category: misc
 type: IR Controller
 standard: global
+unsupported: true
+chip: WB3S
 ---
-Flashed with serial connection.
-Just open the lid using a flat screwdriver/knife. Flashing pins are exposed.
-Better to flash tasmota-ir.bin
+
+![New module](https://user-images.githubusercontent.com/43508126/141662336-02d1210c-193f-4422-a5d0-c845eba1b254.jpg)
