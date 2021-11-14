@@ -13,3 +13,5 @@ mlink: https://www.alibaba.com/product-detail/BSD34-European-Standard-Alexa-Smar
 ---
 
 If tuya-convert fails it is possible to [serial flash](https://pupujuku.ddns.net/info/arduinoklubi/alexa-smart-plug-bsd34)
+
+New BSD34 on WB2S Tuya module, not compatible Tasmota!
