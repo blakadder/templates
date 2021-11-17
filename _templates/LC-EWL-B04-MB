@@ -12,6 +12,7 @@ flash: serial
 category: diy
 type: Module
 standard: global
+chip: PSF-B
 ---
 
 - KEY1 GPIO0

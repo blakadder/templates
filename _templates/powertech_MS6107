@@ -11,5 +11,6 @@ flash: serial
 category: plug
 type: Power Strip
 standard: au
+chip: TYWE2S
 ---
 You need to desolder the TYWE2S in order to flash it as the TX and RX lines are shared.

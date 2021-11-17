@@ -11,6 +11,7 @@ flash: serial
 category: misc
 type: Dehumidifier
 standard: uk
+chip: TYWE3S
 ---
 
 This is a Tuya dehumidifier. There is also a larger unit in the same range, the CD20PRO-LE, so these instructions will likely work for that too.

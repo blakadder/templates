@@ -11,5 +11,6 @@ flash: serial
 category: plug
 type: Outdoor Plug
 standard: us
+chip: TYWE2S
 ---
 Pry out rubber screw covers and use a small flat head screwdriver to remove the security screws.  Remove the PC board by removing 5 more security screws (two holding cord and three holding the PC board).  Make/solder temporary wires to TYWE2S microcontroller board on GND, VCC, TX, RX and IO0 (GPIO0) jumpered to ground and Tasmotize.

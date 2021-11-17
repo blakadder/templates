@@ -10,6 +10,8 @@ link: https://www.amazon.de/gp/product/B07PW715W6
 image: https://images-na.ssl-images-amazon.com/images/I/51I0vlBhfBL._SL1000_.jpg
 template: '{"NAME":"Generic","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link2: https://www.amazon.it/gp/product/B07PW715W6
+chip: TYWE3S
+flash: serial
 ---
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) wiki entry to understand the terminology and configuration process.

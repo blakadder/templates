@@ -11,4 +11,5 @@ flash: serial
 category: relay
 type: Relay Board
 standard: global
+chip: PSF-B
 ---

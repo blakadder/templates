@@ -11,6 +11,7 @@ flash: serial
 category: misc
 type: Aroma Diffuser
 standard: eu
+chip: TYWE3S
 ---
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) to understand the terminology and configuration process.
 

@@ -11,6 +11,7 @@ flash: serial
 category: plug
 type: Plug
 standard: eu
+chip: TYWE2S
 ---
 
 ### 2021-10-03 Update

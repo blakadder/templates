@@ -8,9 +8,6 @@ link: https://www.amazon.de/angeschlossen-Intelligente-Steckdose-Geb%C3%A4udetec
 image: https://images-na.ssl-images-amazon.com/images/I/51XLQw8AHSL._AC_SL1000_.jpg
 template: '{"NAME":"COOSA","GPIO":[0,0,0,0,57,52,0,0,21,17,255,0,0],"FLAG":0,"BASE":1}' 
 link2: 
+chip: TYWE2S
+flash: serial
 ---
-
-Module is based on Module TUYA and TYWE2S: see    https://docs.tuya.com/en/hardware/WiFi-module/wifi-e2s-module-plug.html#2design-specification
-
-
-

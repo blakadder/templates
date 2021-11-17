@@ -1,0 +1,15 @@
+---
+date_added: 2021-11-16
+title: Devantech 8 x 16A 
+model: ESP32LR88 
+image: /assets/images/
+template32: '{"NAME":"ESP32LR88","GPIO":[0,0,231,0,32,35,0,0,229,230,228,0,33,34,36,37,0,38,39,544,0,225,226,227,0,0,0,0,0,224,3232,3200,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.antratek.com/wifi-esp32-module-with-8-relays-8-inputs
+link2: https://www.amazon.de/dp/B084BWGPLN
+mlink: https://www.robot-electronics.co.uk/products/relay-modules/wifi-relay/esp32lr88.html
+category: relay
+type: Relay Board
+standard: global
+---
+
+[Hardware documention](https://www.robot-electronics.co.uk/files/ESP32LR88.pdf)

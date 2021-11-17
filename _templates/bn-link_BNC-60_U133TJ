@@ -9,6 +9,8 @@ link: https://www.amazon.com/dp/B07CVPKD8Z/
 image: /assets/images/bn-link_BNC-60_U133TJ.jpg
 template: '{"NAME":"BNC-60/U133TJ","GPIO":[0,52,0,17,134,132,0,0,131,53,21,0,0],"FLAG":0,"BASE":18}' 
 link2:
+chip: TYWE2S
+flash: serial
 ---
 Uses a TYWE2S daughter board, which makes it a Tuya device but ...
 As of October 2020 the 4 packs of these have an updated firmware

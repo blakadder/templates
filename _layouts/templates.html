@@ -323,8 +323,20 @@ layout: default
   
   {{ content | markdownify }} 
 
+  {% if page.chip == "TYWE3S" %}
+  <img src="/assets/pinouts/TYWE3S.png" alt="Pinout for TYWE3S"></img>.<p>
+  {% endif %}
+
   {% if page.chip == "TYWE3L" %}
   <img src="/assets/pinouts/TYWE3L.png" alt="Pinout for TYWE3L"></img>.<p>
+  {% endif %}
+
+  {% if page.chip == "TYWE2S" %}
+  <img src="/assets/pinouts/TYWE2S.png" alt="Pinout for TYWE2S"></img>.<p>
+  {% endif %}
+
+  {% if page.chip == "PSF-B" %}
+  <img src="/assets/pinouts/PSF-B.png" alt="Pinout for PSF-B"></img>.<p>
   {% endif %}
 
 </div>

@@ -12,10 +12,9 @@ flash: serial
 category: switch
 type: Switch
 standard: us
+chip: TYWE3S
 ---
 # Warning
 The MoesGo version of this device may come with a Tuya WB3S module which cannot be flashed with Tasmota.
-
-The module is a Tuya TYWE3S.
 
 ![Back label](/assets/images/DS-122_back.jpg)

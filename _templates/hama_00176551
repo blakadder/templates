@@ -11,6 +11,7 @@ flash: tuya-convert
 category: switch
 type: Switch
 standard: eu
+chip: TYWE3S
 ---
 
 Serial flashing the device with [Tasmotizer](https://github.com/tasmota/tasmotizer)

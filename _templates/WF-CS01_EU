@@ -8,6 +8,8 @@ image: https://ae01.alicdn.com/kf/HTB1s85oKAvoK1RjSZFNq6AxMVXaE.jpg?width=788&he
 template: '{"NAME":"ShutterSwitch","GPIO":[544,227,289,34,226,33,0,0,32,224,290,225,288,0],"FLAG":0,"BASE":18,"CMND":"Rule1 1"}'
 link: https://www.amazon.de/dp/B07PNV9XKQ/
 link2: https://www.aliexpress.com/item/32983943702.html
+chip: TYWE3S
+flash: serial
 ---
 
 Added a rule to get it working properly:

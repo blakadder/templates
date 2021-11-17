@@ -12,6 +12,7 @@ flash: serial
 category: plug
 type: Outdoor Plug
 standard: us
+chip: TYWE2S
 ---
 
 Solderd headers to bottom of TYWE2S 

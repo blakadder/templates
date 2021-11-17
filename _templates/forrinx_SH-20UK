@@ -11,6 +11,7 @@ flash: serial
 category: switch
 type: Power Strip
 standard: uk
+chip: TYWE2S
 ---
 Disassemble the unit (a few screws, back pops off) to do the flash. Screws on the back (under the white pads).
 

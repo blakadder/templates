@@ -11,5 +11,6 @@ flash: serial
 category: plug
 type: Plug
 standard: uk
+chip: TYWE2S
 ---
 Tuya Convert doesn't seem to work. The device is ultrasonically welded. I have managed to flash it by disassembling the device, desolderin the PCB, and soldering wires to the pins on the [TYWE2S module](https://developer.tuya.com/en/docs/iot/device-development/hardware-development/mcu-access-hardware-design/hardware-design-reference-wifi/tywe2s?id=K9hhi0xr3f3ub). You might also have success with the test points on the back of the module, but that isn't exactly easy given the cramped PCB layout.

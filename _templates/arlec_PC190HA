@@ -12,6 +12,7 @@ template: '{"NAME":"Arlec-PC190HA","GPIO":[0,0,0,0,56,0,0,0,21,158,17,0,0],"FLAG
 template9: '{"NAME":"Arlec-PC190HA","GPIO":[0,0,0,0,320,0,0,0,224,576,32,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/arlec-smart-plug-in-socket-with-grid-connect_p0135440
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-plug-in-socket_p0135440
+chip: TYWE2S
 ---
 
 Update 2021/02/16 Tuya-convert OTA failed for this plug due to new Tuya firmware (PSK identity 02).

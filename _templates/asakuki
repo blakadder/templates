@@ -8,6 +8,7 @@ link: https://www.amazon.de/gp/product/B0855RJP6F/
 image: https://images-na.ssl-images-amazon.com/images/I/61cQ91J%2BBXL._SL1500_.jpg
 template9: '{"NAME":"Asakuki","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 12,11 | TuyaMCU 21,111 | TuyaMCU 24,108 | TuyaMCU 61,103 | TuyaMCU 62,110"}'
 link2: https://www.amazon.com/ASAKUKI-Compatible-Aromatherapy-Humidifier-Office-Better/dp/B07C2H2N67/
+chip: TYWE3S
 ---
 
 ## Flashing

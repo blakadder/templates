@@ -11,6 +11,7 @@ flash: serial
 category: sensor
 type: Motion Sensor
 standard: global
+chip: TYWE3S
 ---
 
 ## Flashing

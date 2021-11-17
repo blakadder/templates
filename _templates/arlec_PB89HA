@@ -10,6 +10,7 @@ standard: au
 template: '{"NAME":"Arlec PB89HA","GPIO":[0,56,0,17,22,21,0,0,24,23,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/arlec-5-outlet-smart-powerboard-with-grid-connect_p0074830
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-5-outlet-powerboard_p0074830
+chip: TYWE2S
 ---
 Power button LED will light up when any of the power switches are turned on.
 

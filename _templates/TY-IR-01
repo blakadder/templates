@@ -12,11 +12,10 @@ flash: serial
 category: misc
 type: IR Controller
 standard: global
+chip: TYWE3S
 ---
 Disassembly:  Remove cover by separating bottom using a old gift card or flat head screw driver. Nothing is glued, just held in place by plastic clips.
 
 Flashed by using FTDI serial connection.
-
-TWYES3 [pinout](https://tasmota.github.io/docs/devices/TYWE3S/)
 
 Board images: [1](https://imgur.com/G7I9T9m), [2](https://imgur.com/ekD9j8h), [3](https://imgur.com/DElncfA), [4](https://imgur.com/2ipotWl), [5](https://imgur.com/RVgYA2E)

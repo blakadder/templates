@@ -10,6 +10,7 @@ template: '{"NAME":"Eachen IR","GPIO":[0,0,0,0,56,51,0,0,255,17,8,0,0],"FLAG":0,
 link: https://www.amazon.de/EACHEN-Universal-Controller-Conditioner-Compatible-Red/dp/B07K3Z2WBR
 link2: https://www.aliexpress.com/item/1000008055073.html
 mlink: https://eachen.cc/product/eachen-ir-dc6-tuya/
+chip: TYWE3S
 ---
 
 Is referred also as "[Docooler WiFi IR-HUB](https://amzn.to/39FpXxL)"

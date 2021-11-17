@@ -11,6 +11,7 @@ flash: serial
 category: cover
 type: Motor
 standard: global
+chip: TYWE3S
 ---
 ## General
 

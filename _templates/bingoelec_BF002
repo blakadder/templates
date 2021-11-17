@@ -7,9 +7,10 @@ template: '{"NAME":"BingoElecPower","GPIO":[0,0,0,0,52,53,255,255,21,17,0,0,255]
 link: https://www.aliexpress.com/item/32954122241.html
 link2: 
 mlink: 
-flash: tuya-convert
+flash: serial
 category: plug
 type: Wall Outlet
 standard: [fr]
+chip: TYWE2S
 ---
 BingoElec wall switches don't have the ESP chip, but this wall outlet has the tuya TYWE2S. Flashed fine with tuya-convert, but has been on the shelves here more than a year. Opening it is straightforward, you can see the clips at the back.

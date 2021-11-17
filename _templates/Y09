@@ -12,7 +12,7 @@ category: sensor
 type: Water Sensor
 standard: global
 ---
-"
+
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
 This is a Tuya/Smart Life battery powered contact (Water Leak) sensor. Runs on two AAA batteries (not supplied with the device).

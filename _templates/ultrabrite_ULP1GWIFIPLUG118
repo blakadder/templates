@@ -1,0 +1,15 @@
+---
+date_added: 2021-11-16
+title: UltraBrite
+model: ULP1GWIFIPLUG118 
+image: /assets/images/
+template9: '{"NAME":"UltraBrite Smart Plug","GPIO":[1,1,1,1,288,289,1,1,224,32,1,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.poundland.co.uk/446890-ultrabrite-wifi-controlled-socket-plug/
+link2: 
+mlink: https://www.ultrabritesmart.com/how-it-works/ulp1gwifiplug118-wifi-controled-socket-plug-1pktb
+flash: serial
+category: plug
+type: Plug
+standard: uk
+chip: TYWE2S
+---

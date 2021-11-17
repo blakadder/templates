@@ -11,6 +11,7 @@ flash: serial
 category: plug
 type: Outdoor Plug
 standard: eu
+chip: TYWE3S
 ---
 Subosi Outdoor Plug with two sockets and three LEDs (Red, Blue, Green).
 

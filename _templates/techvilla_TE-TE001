@@ -11,6 +11,7 @@ flash: serial
 category: light
 type: LED Strip
 standard: us
+chip: TYWE3S
 ---
 Serial flash needed. TuyaMCU based device. [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) chip. When flashing you must ground the 'RST' pin on the bottom of the PCB
 

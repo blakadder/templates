@@ -11,5 +11,6 @@ flash: serial
 category: relay
 type: DIN Relay
 standard: global
+chip: TYWE3S
 ---
 Remove DIN rail part, two screws under side to easy open, [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) chip inside.

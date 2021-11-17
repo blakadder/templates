@@ -11,6 +11,7 @@ flash: serial
 category: switch
 type: Switch
 standard: uk
+chip: PSF-B
 ---
 All three gang models are equivalent to the Sonoff T1 xCH models
 and all three gang types have 3 physical buttons in them, just configured by resistors on the daughter board, plus all 3 gang types have all the relay driver circuity in them, just only fitted with the equivalent gang amount of relays.

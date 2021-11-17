@@ -1,0 +1,22 @@
+---
+date_added: 2021-11-15
+title: TOMZN 4P 80A Circuit Breaker 
+model: TOWBC-4P-e
+image: /assets/images/tomzn_TOWBC-4P-e.jpg
+template9: '{"NAME":"TOMZN4","GPIO":[32,0,0,0,0,0,0,0,224,288,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001125085099.html
+link2: 
+mlink: http://www.tomzn.com/en/about.asp
+flash: serial
+category: relay
+type: DIN Relay
+standard: global
+chip: PSF-B
+---
+The device opens with tabs at the top or bottom; it's a tight fit, but there is no glue. 
+
+The wifi board is screwed to the front, and does not have any allowance for serial flashing. You're going to have to solder tails to the usual 4 pins (+3, gnd, tx, rx). Fortunately, the button is on GPIO0, so you just have to hold that button during powerup. 
+
+The red LED seems to be tied to the relay, so that it lights when the relay is active. The green LED is on GPIO13, and is active-low.
+
+![](https://alt.pbeirne.com/TOMZN4_open.jpg)

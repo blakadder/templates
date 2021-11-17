@@ -11,5 +11,5 @@ flash: serial
 category: switch
 type: Switch
 standard: [eu, us]
+chip: TYWE3S
 ---
-TYWE3S

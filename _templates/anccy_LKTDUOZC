@@ -11,6 +11,7 @@ flash: serial
 category: cover
 type: Curtain Switch
 standard: global
+chip: TYWE3S
 ---
 ### Relays / Buttons ###
 - Relay/Button 1: up (upper button)

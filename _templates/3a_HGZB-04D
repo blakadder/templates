@@ -12,6 +12,7 @@ flash: serial
 category: switch
 type: Dimmer
 standard: au
+chip: TYWE3S
 ---
 
 ```console

@@ -10,6 +10,7 @@ flash: serial
 template: '{"NAME":"Arlec Twin","GPIO":[0,17,0,22,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-plug-in-twin-socket_p0161001
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-plug-in-twin-socket_p0161001
+chip: TYWE2S
 ---
 
 Arlec Grid Twin Plug, available from Bunnings in Aus.

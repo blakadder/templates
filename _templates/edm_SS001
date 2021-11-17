@@ -11,5 +11,5 @@ flash: serial
 category: relay
 type: Switch Module
 standard: global
+chip: TYWE2S
 ---
-Device contains TYWE2S

@@ -11,6 +11,7 @@ flash: serial
 category: light
 type: LED Strip
 standard: au
+chip: TYWE3S
 ---
 The device comes with a newer Tuya firmware and tuya-convert does not work. One needs to disassemble the device and flash using serial method (soldering required).
 

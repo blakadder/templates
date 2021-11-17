@@ -11,5 +11,6 @@ flash: serial
 category: plug
 type: Plug
 standard: it
+chip: TYWE2S
 ---
 The pinout is similar to a TYWE2S module, based on ESP8266EX

@@ -10,6 +10,7 @@ flash: tuya-convert
 category: light
 type: Light
 standard: au
+chip: TYWE3S
 ---
 Once the template is applied, run the following command:
 ```

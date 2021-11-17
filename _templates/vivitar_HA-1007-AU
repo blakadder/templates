@@ -10,6 +10,7 @@ flash: serial
 category: plug
 type: Power Strip
 standard: au
+chip: TYWE3S
 ---
 This power strip contains a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) chip ([pin out](https://tasmota.github.io/docs/devices/TYWE3S/)) to which you'll
 need to solder on some leads to be able to connect to it over a serial link as described in

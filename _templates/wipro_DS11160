@@ -11,6 +11,7 @@ flash: serial
 category: plug
 type: Plug
 standard: in
+chip: TYWE2S
 ---
 This device has the tuya chip TYWE2S. Power monitoring chip details listed in the Tasmota configuration template. Opening the device is somewhat similar to instructions in https://blakadder.com/disassembling-CN39/. However, i didn't use a plyer etc, was able to poke in a screwdriver in the gap and yank out with little damage... The bigger complication in this device is that, you need to unsolder the AC terminals on the board to detach the board from the case and get to the Tuya chip.
 

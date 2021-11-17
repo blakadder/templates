@@ -11,6 +11,7 @@ flash: serial
 category: plug
 type: Outdoor Plug
 standard: [eu, us]
+chip: TYWE2S
 ---
 Plug has a TYWE2S-module build in.
 

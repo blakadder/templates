@@ -11,6 +11,7 @@ flash: serial
 category: misc
 type: Miscellaneous
 standard: global
+chip: TYWE3S
 ---
 This Star / Moon / Nebula projector appears to be driven by either a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) or a separate ST microcontroller depending on the position of the ""WiFi <> Touch"" switch.
 

@@ -11,6 +11,7 @@ flash: serial
 category: plug
 type: Wall Outlet
 standard: us
+chip: TYWE2S
 ---
 Disconnect from mains power. 
 

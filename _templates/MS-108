@@ -12,6 +12,7 @@ category: cover
 type: Curtain Module
 standard: global
 unsupported: true
+chip: TYWE2S
 ---
 ## Hardware Warning
 Some versions use Non-ESP8266 Wi-Fi modules on same model devices. Check seller descriptions or contact them before buying!

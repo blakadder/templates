@@ -11,6 +11,7 @@ flash: serial
 category: light
 type: Ceiling Light
 standard: global
+chip: TYWE3S
 ---
 [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module socketed but hot-glued, pins labeled, no additonal MCU
 

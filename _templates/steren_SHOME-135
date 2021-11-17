@@ -11,5 +11,6 @@ flash: serial
 category: plug
 type: Plug
 standard: us
+chip: TYWE2S
 ---
 This is a complicated tasmota flash it uses a TYWE2S (https://github.com/ct-Open-Source/tuya-convert/issues/862) chip and is very hard to access it, I had to cut with a Dremel tool the shell of the plug because there was no way of removing it from the shell

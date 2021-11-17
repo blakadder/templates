@@ -11,6 +11,7 @@ flash: serial
 category: plug
 type: Outdoor Plug
 standard: eu
+chip: TYWE2S
 ---
 2021/02/17 Tuya-convert OTA failed for this plug due to its factory loaded Tuya firmware (PSK identity 02).
 

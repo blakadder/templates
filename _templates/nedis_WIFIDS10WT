@@ -11,6 +11,7 @@ flash: serial
 category: sensor
 type: Smoke Sensor
 standard: global
+chip: TYWE3S
 ---
 ### Flashing
 

@@ -11,6 +11,7 @@ standard: au
 template: '{"NAME":"Arlec PB88UHA","GPIO":[0,56,0,17,22,21,0,0,24,23,0,0,0],"FLAG":15,"BASE":18}'
 link: https://www.bunnings.com.au/arlec-4-outlet-smart-powerboard-with-usb-charger-and-grid-connect_p0074829
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-4-outlet-powerboard-with-usb-charger_p0074829
+chip: TYWE2S
 ---
 
 

@@ -11,6 +11,7 @@ flash: serial
 category: misc
 type: Miscellaneous
 standard: [eu, us, uk]
+chip: PSF-B
 ---
 Dual-pump home plant irrigation system. Runs using included power plug, via USB or four AAA batteries. Each pump can be triggered independently.
 

@@ -11,6 +11,7 @@ flash: serial
 category: plug
 type: Outdoor Plug
 standard: us
+chip: TYWE3S
 ---
 Enter these commands to get the dimmer working and the allow the buttons to work if the switch is off: 
 ```console

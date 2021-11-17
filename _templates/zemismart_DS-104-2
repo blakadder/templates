@@ -11,11 +11,13 @@ flash: serial
 category: switch
 type: Switch
 standard: [eu, uk]
+chip: TYWE3S
 ---
-"Serial Flashing:
+Serial Flashing:
 Access the serial interface by taking the face of the switch off and carefully pulling off the touch PCB. On the back is the TYWE3S.   
 Solder four wires to the TYWE3S: 
-- 3V3 (VCC)- pin 9
+
+- 3V3 (VCC) - pin 9
 - Gnd - pin 8
 - TXD0 - pin1
 - RXD0 - pin 2. 
