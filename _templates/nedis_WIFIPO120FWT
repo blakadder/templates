@@ -5,15 +5,21 @@ model: WIFIPO120FWT
 category: plug
 type: Outdoor Plug
 standard: eu
-flash: serial
+flash: replace
 mlink: https://nedis.com/en-us/product/550710067/wi-fi-smart-outdoor-plug-splashproof-ip44-power-monitor-schuko-type-f-16-a
 image: /assets/images/nedis_WIFIPO120FWT.jpg
 template: '{"NAME":"WIFIPO120FWT","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+template9: '{"NAME":"WIFIPO120FWT","GPIO":[32,0,0,0,2688,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":49}'
 link: https://www.amazon.de/dp/B07VHBR3WL
 link2: https://webshop.nedis.com/en-us/550710067/wifipo120fwt
+unsupported: true
+chip: WB3S
 ---
-Version bought in December 2020 cannot be flashed with tuya-convert, it has to be pried open. 
 
+## Hardware Revision
+Boxes with visible Alexa logo have the new version with the WB3S chip.
+
+![New box](https://user-images.githubusercontent.com/40159019/142038975-a230bf62-0a24-4c08-af8f-5073dbc432fb.jpg)
+
+## Opening
 Remove the two security screws on the backside. Pry open from the top of the connector rounding on the backside. Two plastic clamps holding it together at the top and at the bottom. A bit of force is needed. When opened, remove the four screws from the PCB and the soldering points are clearly marked and accessible at the bottom PCB.
-
-Same template used as for the indoor version [WIFIP120FWT](nedis_WIFIP120FWT) used and working flawlessly
