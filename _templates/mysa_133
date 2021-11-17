@@ -7,7 +7,7 @@ template32: '{"NAME":"Mysa Thermostat","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 link: https://www.amazon.com/Mysa-Thermostat-Electric-Baseboard-Heaters/dp/B075VBP42M
 link2: https://shop.getmysa.com/products/mysa-baseboard
 mlink:
-flash: replace
+flash: serial
 category: misc
 type: Thermostat
 standard: us
