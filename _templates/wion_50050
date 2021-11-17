@@ -13,7 +13,7 @@ type: Plug
 standard: us
 ---
 
-This plug uses the ESP-07 chipset, which is the same as the WiOn 50053 and the Plugs CT-065W Plug and I believe several other WiOn devices.  You need to take apart the plug and flash the chip manually.  There are no re-existing holes for flashing pins.  You can follow the instructions from "The Great Geekery" or "Hagensieker" below.  I will also post a link to a downloadable flashing harness you can 3d print and make yourself.
+You need to take apart the plug and flash the chip manually.  There are no re-existing holes for flashing pins.  You can follow the instructions from "The Great Geekery" or "Hagensieker" below.  I will also post a link to a downloadable flashing harness you can 3d print and make yourself.
 
 ## Flashing instructions
 
