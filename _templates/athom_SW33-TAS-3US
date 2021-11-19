@@ -1,0 +1,14 @@
+---
+date_added: 2021-11-19
+title: Athom 3 Gang No Neutral Touch 
+model: SW33-TAS-3US
+image: /assets/images/athom_SW33-TAS-3US.jpg
+template9: '{"NAME":"Athom SW33-3US","GPIO":[576,290,0,33,225,34,0,0,32,224,289,226,288,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/no-neutral-us-style-touch-switch
+link: https://www.aliexpress.com/item/1005003223759658.html
+link2: 
+flash: preflashed
+category: switch
+type: Switch
+standard: us
+---

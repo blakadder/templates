@@ -1,0 +1,14 @@
+---
+date_added: 2021-11-19
+title: Athom EU
+model: SD01-EU-TAS
+image: /assets/images/athom_SD01-EU-TAS.jpg
+template9: '{"NAME":"Athom Dimmer Switch","GPIO":[576,2272,0,2304,0,0,0,0,0,0,0,0,0,1],"FLAG":0,"BASE":54, "CMND":"TuyaMCU 21,2|Ledtable 0|DimmerRange 10,1000"}' 
+mlink: https://www.athom.tech/blank-1/tasmota-eu-dimmer
+link: https://www.aliexpress.com/item/1005003526860314.html
+link2: 
+flash: preflashed
+category: dimmer
+type: Dimmer
+standard: eu
+---

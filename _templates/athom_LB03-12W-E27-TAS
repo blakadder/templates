@@ -1,0 +1,16 @@
+---
+date_added: 2021-11-19
+title: Athom 12W 1000lm
+model: LB03-12W-E27-TAS
+image: /assets/images/athom_LB03-12W-E27-TAS.jpg
+template9: '{"NAME":"LB03-12W-E27-TAS","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO92 1 | DimmerRange 24,100"}' 
+mlink: https://www.athom.tech/blank-1/tasmota-br30-color-bulb
+link: https://www.aliexpress.com/item/1005003339431971.html
+link2: 
+flash: preflashed
+category: bulb
+type: RGBCCT
+standard: e27
+---
+
+Commands added with the template: `SetOption92 1` and `DimmerRange 24,100`
