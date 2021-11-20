@@ -9,9 +9,10 @@ flash: serial
 template: '{"NAME":"iFan04-L","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
 image: /assets/images/sonoff_iFan04-L.jpg
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/ifan03
-link: https://www.itead.cc/smart-home/sonoff-ifan03-wifi-ceiling-fan-light-controller.html
+link: https://itead.cc/product/sonoff-ifan03-wi-fi-ceiling-fan-and-light-controller/
 link2: https://www.aliexpress.com/item/1005002994993238.html
 link3: https://www.banggood.com/SONOFF-iFan04-L-WiFi-Ceiling-Fan-And-Light-Controller-100-120V-eWeLink-APP-or-433MHz-RF-Remote-Control-Smart-Home-Works-Alexa-p-1892266.html
+link4: https://www.amazon.com/dp/B09C21LX9R
 ---
 
 Largely identical to [iFan03](sonoff_iFan03) with capacitors designed for 110V fans and an improved RF chip with better range.

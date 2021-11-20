@@ -6,7 +6,7 @@ standard: global
 image: https://user-images.githubusercontent.com/5904370/57879170-121fc480-781c-11e9-8bed-7ba8ad73f579.png
 template: '{"NAME":"Sonoff Dual R2","GPIO":[255,255,0,255,0,22,255,17,21,56,0,0,0],"FLAG":0,"BASE":39}' 
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/dualr2
-link: https://www.itead.cc/smart-home/sonoff-dual.html
+link: https://itead.cc/product/sonoff-dualr2-wifi-wireless-smart-switch/
 link2: https://www.aliexpress.com/item/1005001526232428.html
 link3: https://www.banggood.com/SONOFF-Dual-Channel-DIY-WIFI-Wireless-APP-Remote-Control-Switch-Socket-AC-90-250V-For-Smart-Home-p-1138790.html
 link4: https://www.amazon.de/dp/B06XST8B83/

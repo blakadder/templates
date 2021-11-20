@@ -3,10 +3,11 @@ title: Sonoff Pow
 category: relay
 type: Switch Module
 standard: global
-mlink: https://www.itead.cc/smart-home/sonoff-pow.html
+mlink: https://ewelink.coolkit.cc/?p=188
 image: https://user-images.githubusercontent.com/5904370/57881237-139fbb80-7821-11e9-8c1b-e375f6d0c0a3.png
 template: '{"NAME":"Sonoff Pow","GPIO":[17,0,0,0,0,130,0,0,21,132,133,52,0],"FLAG":0,"BASE":6}' 
 link: https://www.banggood.com/SONOFF-POW-DIY-WIFI-Long-Distance-Power-Monitor-Current-Tester-Remote-Control-Switch-Socket-For-Smart-Home-p-1186730.html
+link2: https://www.amazon.com/Sonoff-Consumption-Monitoring-Appliances-Compatible/dp/B06XSD6PD6
 ---
 Sonoff Pow has been obsoleted with [Sonoff Pow R2](sonoff_Pow_R2.html). Before configuring your device check which revision you have.
 

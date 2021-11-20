@@ -6,7 +6,7 @@ standard: us
 mlink: https://sonoff.tech/product/wifi-smart-plugs/s31-s31lite
 image: /assets/images/sonoff_S31-lite.jpg
 template: '{"NAME":"Sonoff S31","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":41}' 
-link: https://www.itead.cc/sonoff-s31.html
+link: https://itead.cc/product/sonoff-s31/
 link2: https://www.aliexpress.com/item/1005001846036476.html
 link3: https://www.banggood.com/SONOFF-S31-15A-Smart-Plug-Energy-Monitoring-US-Version-WIFI-Switch-Upgraded-Compact-Design-Support-Google-Home-Alexa-IFTTT-p-1583513.html
 link4: https://www.amazon.com/dp/B07YXVWC3Y

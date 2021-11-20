@@ -19,7 +19,7 @@ template: '{"NAME":"Sonoff S26","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLA
 link4: https://www.aliexpress.com/item/4000106847424.html
 link3: https://www.amazon.de/-/en/Wireless-Required-Control-Appliance-Android/dp/B07DQK7YSD/
 mlink: https://sonoff.tech/product/wifi-smart-plugs/s26
-link: https://www.itead.cc/smart-home/smart-socket.html
+link: https://itead.cc/product/sonoff-s26-wifi-smart-plug/
 ---
 Alternative template where the blue LED lights up only in case of connection issues and on button actions:
 ```console

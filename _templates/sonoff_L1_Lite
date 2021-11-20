@@ -7,7 +7,7 @@ type: LED Strip
 standard: [us,eu]
 template: '{"NAME":"Sonoff L1 Lite","GPIO":[0,3200,0,3232,0,0,0,0,0,320,0,0,0,0],"FLAG":0,"BASE":70}' 
 mlink: https://sonoff.tech/product/wifi-smart-lighting/l1-lite
-link: https://www.itead.cc/sonoff-l1-smart-led-light-strip.html
+link: https://itead.cc/product/sonoff-l1-smart-led-light-strip/
 link2: https://www.domadoo.fr/fr/peripheriques/5491-sonoff-ruban-de-led-wifi-l1-lite-5m.html
 link3: https://www.alza.de/sonoff-l1-lite-smartled-light-strip-l1lite-d6370973.htm
 link4: https://www.alzashop.com/sonoff-l1-lite-smartled-light-strip-l1lite-d6370973.htm

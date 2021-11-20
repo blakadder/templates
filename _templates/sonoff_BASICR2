@@ -7,7 +7,7 @@ type: Switch Module
 standard: global
 image: /assets/images/sonoff_BASICR2.jpg
 template: '{"NAME":"Sonoff BASICR2","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
-link1: https://www.itead.cc/smart-home/sonoff-wifi-wireless-switch.html
+link1: https://itead.cc/product/sonoff-basicr2/
 link2: https://www.banggood.com/SONOFF-Basic-10A-2200W-WIFI-Wireless-Smart-Switch-Remote-Control-Socket-APP-Timer-p-1019971.html
 link3: https://www.aliexpress.com/item/1005001846041233.html
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/basicr2

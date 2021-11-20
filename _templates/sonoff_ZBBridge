@@ -4,10 +4,10 @@ title: Sonoff ZBBridge
 model: M08020700017
 image: /assets/images/sonoff_ZBBridge.jpg
 template: '{"NAME":"Sonoff ZbBridge","GPIO":[56,165,0,166,215,0,0,0,6,158,5,0,17],"FLAG":0,"BASE":75}' 
-link: https://www.itead.cc/sonoff-zbbridge.html
+link: https://itead.cc/product/sonoff-zbbridge/
 link2: https://www.aliexpress.com/af/sonoff-zbbridge.html
 link3: https://www.banggood.com/SONOFF-ZBBridge-Smart-Bridge-p-1674754.html
-link4: https://www.alza.de/sonoff-zigbee-bridge-zigbee-sensors-and-wireless-switch-zbbridge-d6370978.htm
+link4: https://www.amazon.com/dp/B08BFT44QL
 mlink: https://www.itead.cc/sonoff-zbbridge.html
 flash: serial
 category: misc
