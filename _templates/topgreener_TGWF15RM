@@ -1,6 +1,7 @@
 ---
 date_added: 2019-10-18
 title: TopGreener TGWF15RM
+flash: tuya-convert
 category: plug
 type: Wall Outlet
 standard: us
@@ -10,10 +11,12 @@ template: '{"NAME":"TGWF15RM","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG
 link2: https://www.newegg.com/topgreener-tgwf15rm-wifi-wire-in-outlet-modules/p/35B-007S-00004
 ---
 
+Tuya Convert worked as of 21 Nov 2021.  
 
+Serial Flashing Level of difficulty: Hard (hard to reach pins, no obvious flashing pads, plug doesn't fully come apart, etc.)
 
+Chipset: Tuya TYWE2S esp8266 board as (ESP8285) https://community.home-assistant.io/t/costco-feit-tuya-based-wifi-dimmer-step-by-step-guide-newbie-friendly/284865/2
 
+If you have to / want to serial flash this plug, the plug itself is made of three sections.  The electronics are on both sides of the middle plastic ring, and are soldered together, such that you cannot (obviously) remove them from the board.  Because of this, you need to directly contact the pins, from the side through a ~4-5 mm tall opening.
 
-
-
-
+The 3.3v, rx, tx and ground are all at the edge of the board underneath (see above image for reference). There is a pogo pin flashing jig here as 
