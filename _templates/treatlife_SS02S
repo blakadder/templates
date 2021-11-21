@@ -1,6 +1,7 @@
 ---
 date_added: 2021-04-30
-title: TreatLife SS02S
+title: TreatLife Single Pole ON/OFF
+model: SS02S
 image: /assets/images/treatlife_SS02s.jpg
 template: '{"NAME":"Treatlife SS02","GPIO":[0,0,0,0,53,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"Treatlife SS02","GPIO":[0,0,0,0,288,576,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 

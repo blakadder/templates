@@ -1,6 +1,7 @@
 ---
 date_added: 2019-04-02
-title: Etekcity ESWL01
+title: Etekcity 
+model: ESWL01
 category: switch
 type: Switch
 standard: us

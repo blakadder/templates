@@ -8,6 +8,7 @@ link2:
 mlink: https://www.treatlife.tech/collections/bulb/products/treatlife-smart-wi-fi-led-bulb-compatible-with-alexa-google-assistant-16-million-rgbcw-color-changing-dimmable-light-bulb-a19-e26-8w-60w-equivalent
 category: Unsupported
 type: Bulb
+chip: WB8P
 ---
 
 ## Warning 

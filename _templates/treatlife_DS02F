@@ -1,12 +1,12 @@
 ---
 date_added: 2021-07-14
-title: Treatlife Ceiling 
+title: Treatlife 1.5A 4 Speed Ceiling 
 model: DS02F
 image: /assets/images/treatlife_DS02F.jpg
 template9: '{"NAME":"DS02F","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1|SO97 1|SO68 0"}' 
 link: https://www.amazon.com/gp/product/B08P5D3ZKW
 link2: 
-mlink: 
+mlink: https://www.treatlife.tech/collections/smart-dimmer-switch/products/smart-ceiling-fan-control-and-light-dimmer-switch-neutral-wire-needed-treatlife-single-pole-wi-fi-light-switch-fan-speed-control-works-with-alexa-google-assistant-schedule-remote-control
 flash: replace
 chip: WB3S
 category: switch
