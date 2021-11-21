@@ -19,4 +19,4 @@ Chipset: Tuya TYWE2S esp8266 board as (ESP8285) https://community.home-assistant
 
 If you have to / want to serial flash this plug, the plug itself is made of three sections.  The electronics are on both sides of the middle plastic ring, and are soldered together, such that you cannot (obviously) remove them from the board.  Because of this, you need to directly contact the pins, from the side through a ~4-5 mm tall opening.
 
-The 3.3v, rx, tx and ground are all at the edge of the board underneath (see above image for reference). There is a pogo pin flashing jig here as 
+The 3.3v, rx, tx and ground are all at the edge of the board underneath (see above image for reference).
