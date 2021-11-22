@@ -11,6 +11,7 @@ flash: serial
 category: misc
 type: Dehumidifier
 standard: us
+chip: TYWE1S
 ---
 This dehumidifier has a TYWE1S on a TYJW2S-5V board. It's worth noting that I did not try tuya-convert. I went straight for flashing it over serial, which is very easy on this model.
 

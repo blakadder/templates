@@ -11,10 +11,9 @@ flash: serial
 category: light
 type: Light
 standard: global
+chip: TYWE1S
 ---
 Tuya-Convert has not worked.
-
-Chip: [TYWE1S-IPEX](https://tasmota.github.io/docs/Pinouts/#tywe1s)
 
 PIN:
 - 4 - 3V3
