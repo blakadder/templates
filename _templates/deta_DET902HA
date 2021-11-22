@@ -11,4 +11,5 @@ standard: au
 template: '{"NAME":"Deta DownLight","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/deta-10w-smart-led-downlight-with-grid-connect_p0102573
 link2: https://www.bunnings.co.nz/deta-grid-connect-smart-10w-led-downlight_p0102573
+This light now uses a WB2L chip that can't be flashed.
 ---
