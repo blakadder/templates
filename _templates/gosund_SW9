@@ -1,15 +1,31 @@
 ---
 date_added: 2021-05-28
+date_updated: 2021-11-23
 title: Gosund 2 Gang 
 model: SW9
 image: /assets/images/gosund_SW9.jpg
-template9: '{"NAME":"GosundSW9","GPIO":[160,0,0,0,0,161,0,0,225,288,224,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"GosundSW9","GPIO":[32,0,448,0,449,33,0,0,224,450,225,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005002700137552.html
 link2: https://www.alzashop.com/gosund-smart-switch-sw9-d6260025.htm
 mlink: https://www.alibaba.com/product-detail/EU-standard-Alexa-2-gang-wireless_1600236560378.html
-flash: serial
+flash: serial, tuya-convert
 category: switch
 type: Switch
 standard: eu
 ---
+Tuya convert is still working with new device in 2021-11.
 Serial pins on board, standard flashing.
+There are 4 leds on this switch, that can be managed using GPIO2 (left red), GPIO4 (right red), GPIO13 (both green). It can be controlled by PWM_i allowing to mix colors to yellow, orange etc.
+Simple rule for leds to follow power state (green when off - orange when on)
+'''
+Rule1
+on power1#state=1 do channel3 100 endon 
+on power1#state=0 do channel3 0 endon 
+on power2#state=1 do channel4 100 endon 
+on power2#state=0 do channel4 0 endon
+'''
+
+turning green leds 30% on:
+'''
+channel5 30
+'''
