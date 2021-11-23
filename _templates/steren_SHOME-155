@@ -3,7 +3,7 @@ date_added: 2021-11-22
 title: Steren 
 model: SHOME-155
 image: /assets/images/steren_SHOME-155.jpg
-template9: '{"NAME":"Steren_SHOME-155","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54, “CMD”:”SO54 1|SO20 1|TuyaMCU 61,1|TuyaMCU 21,2|TuyaMCU 27,3|TuyaMCU 97,5|TuyaMCU 11,6|TuyaMCU 62,7|TuyaMCU 63,8|TuyaMCU 81,9|TuyaMCU 98,10|TuyaMCU 82,11”}' 
+template9: '{"NAME":"Steren_SHOME-155","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"SO54 1|SO20 1|TuyaMCU 61,1|TuyaMCU 21,2|TuyaMCU 27,3|TuyaMCU 97,5|TuyaMCU 11,6|TuyaMCU 62,7|TuyaMCU 63,8|TuyaMCU 81,9|TuyaMCU 98,10|TuyaMCU 82,11"}' 
 link: https://www.steren.com.mx/motor-wi-fi-para-automatizar-persianas.html
 link2: 
 mlink: https://www.steren.com.mx/motor-wi-fi-para-automatizar-persianas.html
@@ -20,7 +20,7 @@ In order to access the chip you have to remove the front cover, you can use your
 
 First thing you have to do is turn on the device with the small/tiny switch at the bottom, then physically setup the device with the buttons on the front, set a the length of the curtain by long pressing the stop (middle) button until it starts flashing and then pushing up or down buttons (depending on your curtain setup) until desired length and click stop button again.
 
-After that there are several configurations you must do. However I included most of them in the ""CMD"" section of the Template hoping it works as intended. I'm going to post the configs here too in case the template didn't work.
+After that there are several configurations you must do. However I included most of them in the "CMND" section of the Template hoping it works as intended. I'm going to post the configs here too in case the template didn't work.
 
 Write this in the console:
 
