@@ -9,15 +9,9 @@ link: https://www.amazon.com/dp/B07CVPKD8Z/
 image: /assets/images/bn-link_BNC-60_U133TJ.jpg
 template: '{"NAME":"BNC-60/U133TJ","GPIO":[0,52,0,17,134,132,0,0,131,53,21,0,0],"FLAG":0,"BASE":18}' 
 link2:
-chip: TYWE2S
-flash: serial
+chip: WB2S
+flash: replace
 ---
-Uses a TYWE2S daughter board, which makes it a Tuya device but ...
-As of October 2020 the 4 packs of these have an updated firmware
-that can't be flashed with Tuya-Convert v2. The same applies to the 2 pack. 
-The PSK ID starts with 02. There is not a Tuya-Convert solution for these 
-as of 10/2020.
-
 The orginal template had GPIO1 as Led1i (56) and GPIO13 as Led2i (57) for
 Template parameters. Those parameters result in the power button glowing red
 color all the time. Using the non-inverse Led parameters Led1 (52) and Led2 (53)
@@ -42,3 +36,5 @@ doing TX-RX & RX-TX like normal.
 
 4-pack device purchased 2nd week of December 2020 from Amazon US now uses WBS2 daughterboard and not compatible with Tasmota.
 4-pack ordered 11/29/2020 directly from bn-link.com use WBS2 daughterboard (still have the FCC 2ANDL-TYWE2S on the label):-( So, I guess, these plugs are out:-(
+
+I had the same problem with the W2BS chip and I bought the [WT-01N](WT-01N) chip, which is an exact replacement, I programmed it with tasmota and installed it, it worked perfectly.
