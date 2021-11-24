@@ -21,7 +21,7 @@ All required pins for serial flashing are available and labelled!
 
 Using latest development branch, compile tasmota32 firmware with:
 
-```arduino
+```c
 #define USE_SONOFF_SPM 
 #define USE_ETHERNET
 ```
