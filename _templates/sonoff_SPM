@@ -1,0 +1,58 @@
+---
+date_added: 2021-11-25
+title: Sonoff Smart Stackable Power Meter
+model: SPM
+image: /assets/images/sonoff_SPM.jpg
+template32: '{"NAME":"Sonoff SPM (POC2)","GPIO":[1,0,1,0,3200,5536,0,0,1,1,1,0,3232,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,544,1,1,32,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://itead.cc/product/sonoff-smart-stackable-power-meter/
+link2: https://www.aliexpress.com/item/1005003440092289.html
+link3: https://www.domadoo.fr/fr/peripheriques/5928-sonoff-compteur-de-puissance-intelligent-rail-din-unite-principale.html
+mlink: https://sonoff.tech/product/spm-main-spm-4relay/
+flash: serial
+category: relay
+type: DIN Relay
+standard: global
+---
+
+## Complete support under development!
+
+All required pins for serial flashing are available and labelled!
+
+![PCB](https://user-images.githubusercontent.com/11044339/138559784-5f4b72ef-2719-46fd-8371-dbd81e9eaa00.jpg)
+
+Using latest development branch, compile tasmota32 firmware with:
+
+```arduino
+#define USE_SONOFF_SPM 
+#define USE_ETHERNET
+```
+and apply the template.
+
+## Features
+
+ * Bulk of the action is handled by ARM processors present in every unit communicating over modbus RS-485.
+ * Each SPM-4Relay has 4 bistable relays with their own CSE7761 energy monitoring device handled by an ARM processor.
+ * Green led is controlled by ARM processor indicating SD-Card access.
+ * ESP32 is used as interface between eWelink and ARM processor in SPM-Main unit communicating over proprietary serial protocol.
+ * Inductive/Capacitive loads are not reported correctly.
+ * Power on sequence for two SPM-4Relay modules is 00-00-15-10-(0F)-(13)-(13)-(19)-0C-09-04-09-04-0B-0B
+ 
+Implemented in Tasmota:
+ * Up to 7 SPM-4Relay units supporting up to 28 relays.
+ * Gui rotating energy display for 4 relays at a time.
+ * Button on SPM-Main initiates re-scan of SPM-4Relay units.
+ * Blue led equals Tasmota WiFi status.
+ * Ethernet support
+ * webUI display
+ 
+To-do:
+ * Gui for Overload Protection entry (is handled by ARM processor).
+ * Gui for Scheduling entry (is handled by ARM processor).
+ * Yellow led functionality.
+ * Interpretation of reset sequence on GPIO's 12-14.
+
+See [GitHub Discussion](https://github.com/arendst/Tasmota/discussions/13447) for more info...
+
+![webUI](https://user-images.githubusercontent.com/11044339/142854183-46898cdd-d968-4e80-bd63-a989904217b2.png)
+
+
