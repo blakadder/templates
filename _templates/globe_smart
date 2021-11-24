@@ -12,5 +12,5 @@ link2:
 
 Works with tuya-convert, no need to open it up.
 
-
+If you do open it up, it contains a CB2S Tuya module solder mounted vertically on the main board.  The soldered module can be replaced with an ESP-01N chip on a WT-01N or WT32C3-01N module.  Besides the module, this process will require soldering tools and moderate soldering skill.
 
