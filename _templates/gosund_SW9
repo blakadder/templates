@@ -12,4 +12,6 @@ category: switch
 type: Switch
 standard: eu
 ---
+Tuya convert worked with devices ordered in 2021-11.
+
 Serial pins on board, standard flashing.
