@@ -13,7 +13,6 @@ category: relay
 type: DIN Relay
 standard: global
 ---
-
 ## Complete support under development!
 
 All required pins for serial flashing are available and labelled!
