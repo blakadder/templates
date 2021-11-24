@@ -166,7 +166,7 @@ layout: default
     {% if page.chip == "solo1" %}
       Flash only with <a href="http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin"><code>tasmota32solo1.bin</code></a> build for ESP32-SOLO-1. 
     {% endif %}
-    <a href="https://tasmota.github.io/docs/ESP32/">Flashing instructions</a> for tasmota32 firmware.<p>
+    <a href="https://tasmota.github.io/docs/ESP32/">Flashing instructions</a> for tasmota32 firmware.<BR><BR>
   {% endif %}
 
   {% if page.templatec3 != nil or page.chip == "c3" %}
@@ -193,7 +193,6 @@ layout: default
     {% if gpios contains '131' or gpios contains '132' or gpios contains '133' or gpios contains '134' or gpios contains '135' or gpios contains '136' or gpios contains '137' or gpios contains '145' or gpios contains '146' or gpios contains '156' or gpios contains '207' %}
       For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
       <br><br>
-      <p>
     {% endif %}
   {% elsif page.template9 != nil or page.template32 != nil %}
     {% if page.template9 != nil %}
@@ -210,12 +209,9 @@ layout: default
 
     For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
     <br><br>
-    <p>
       {% elsif gpios contains '5600' or gpios contains '5568' or gpios contains '5792' %}
-
       Requires an ESP32 binary with Ethernet support. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32-ethernet.bin">`tasmota32-ethernet.bin`</a>development build.<p>
       <br><br>
-      <p>
       {% else %}
     {% endif %}
   {% else %}
