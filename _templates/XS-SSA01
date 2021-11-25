@@ -7,6 +7,7 @@ standard: us
 link: https://www.amazon.com/gp/product/B075GWQSYH/
 link2: https://www.amazon.ca/Compatible-Wireless-Monitoring-Function-Appliances/dp/B07K21TY51/
 image: https://sc02.alicdn.com/kf/H81757f18e4974ff4af94e5c90306f303i/tuya-home-smart-system-no-hub-gateway.jpg
+template9: '{"NAME":"XS-SSA01","GPIO":[1,0,0,1,0,0,0,0,320,32,1,224,1,0],"FLAG":0,"BASE":18}'
 template-alt: '{"NAME":"XS-SSA01","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 template: '{"NAME":"XS-SSA01","GPIO":[0,17,0,0,0,0,0,0,56,9,0,21,0],"FLAG":0,"BASE":18}' 
 link3: https://www.aliexpress.com/af/XS%25252dSSA01.html
