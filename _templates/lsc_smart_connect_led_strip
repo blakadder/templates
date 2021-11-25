@@ -13,7 +13,7 @@ unsupported: true
 ## Warning
 
 As of November 2021 this product can ship with a different chip that can not be replaced with a ESP-12 chip.
-![](https://ibb.co/yQVFC8C)
+![](https://i.ibb.co/JsCjTzT/IMG-0307.jpg)
 
 As of July 2020 this device comes with a Tuya WB3S module which cannot be flashed with Tasmota.     
 That module is pin compatible with ESP-12 and can ordered via Ebay. Replace the module with a hot air gun. All LEDs are usable R,G,B,CW,WW and you can dimm it.
