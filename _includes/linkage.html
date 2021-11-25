@@ -34,6 +34,8 @@
 {{ link | append: "?ref=v4thya2eufek" }}
 {% elsif link contains "alza" %}
 {{ link | append: "?idp=13979&banner_id=39232" }}
+{% elsif link contains "idealo.de" %}
+{{ link | uri_escape | prepend: "https://www.awin1.com/cread.php?awinmid=15536&awinaffid=930253&ued=" }}
 {% elsif link contains "geekbuying.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://www.shareasale.com/r.cfm?b=371154&u=2442238&m=38812&urllink=" }}
 {% elsif link contains "itead.cc" %}
