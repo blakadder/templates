@@ -1,0 +1,16 @@
+---
+date_added: 2021-11-24
+title: Globe 15A
+model: 50329
+image: /assets/images/globe_50329.jpg
+template9: '{"NAME":"Globe 50329","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.lowes.ca/product/electrical-outlets/globe-electric-smart-mini-wi-fi-plug-1-grounded-outlet-compact-design-15a-white-3311478
+link2: 
+mlink: 
+flash: replace
+chip: WB2S
+category: plug
+type: Plug
+standard: us
+---
+
