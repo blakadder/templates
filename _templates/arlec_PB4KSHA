@@ -15,3 +15,5 @@ standard: au
 Undo the case with a triangle bit screwdriver, there is 7 screws total. You can then unscrew the circuit board and desolder the Tuya module.
 
 Connect wires: 3V3, GND, RX, TX, IO1. Connect to serial-to-USB adapter set to 3.3v mode and short IO1 to ground. Flash using Tasmotizer and reassemble.
+---
+UPDATE 2021-11-26 - Bottom of housing reads "Model: PB4KSHA Series2" which may indicate a new revision. Unit may no longer contain an ESP-compatible chip, teardown reveals a WB2S module that has 2TX, 2RX and IO1 pins obscured by adjacent components.
