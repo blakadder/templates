@@ -8,8 +8,9 @@ link: https://www.aliexpress.com/item/1005001902324888.html
 link2: https://www.aliexpress.com/item/1005001896157964.html
 mlink:
 flash: serial
-category: unsupported
+category: misc
 type: IR Controller
+unsupported: true
 standard: global
 ---
 
