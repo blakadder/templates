@@ -8,10 +8,13 @@ link: https://www.aliexpress.com/item/1005001902324888.html
 link2: https://www.aliexpress.com/item/1005001896157964.html
 mlink:
 flash: serial
-category: misc
+category: unsupported
 type: IR Controller
 standard: global
 ---
+
+Warning: As of November 2021 this device does not include a Tasmota-compatible chip
+
 Open the device and you will promptly see the TX, RX, GND, 3.3V and GPIO0 pads. Just solder jumper cables to these pins and flash. It uses the same template as [this device](https://templates.blakadder.com/ytf_ir_bridge.html). NOTE: The device I bought keeps making a "humming" sound that bothers me. I dont know if that's a problem with my device only.
 
 ![Packaging](/assets/images/ZN281402_packaging.jpg)
