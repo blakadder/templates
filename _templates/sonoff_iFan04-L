@@ -15,7 +15,7 @@ link3: https://www.banggood.com/SONOFF-iFan04-L-WiFi-Ceiling-Fan-And-Light-Contr
 link4: https://www.amazon.com/dp/B09C21LX9R
 ---
 
-Largely identical to [iFan03](sonoff_iFan03) with capacitors designed for 110V fans and an improved RF chip with better range.
+Largely identical to [iFan03](sonoff_ifan03) with capacitors designed for 110V fans and an improved RF chip with better range.
 
 Flashing procedure is the same, there are labelled pins required for flashing. Hold the button down during power up to enter flash mode.
 
