@@ -12,3 +12,7 @@ category: bulb
 type: RGBCCT
 standard: e27
 ---
+
+Version BKL1253-BKH101 is capable of tuya-convert, while version BKL1253-BKH168 is not!
+
+![](https://user-images.githubusercontent.com/12642278/143484191-f6f1a2de-8230-4165-990c-ad6d5f4f0bc6.jpeg)
