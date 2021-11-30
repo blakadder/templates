@@ -247,6 +247,7 @@ layout: default
     or page.chip contains 'WR2' 
     or page.chip contains 'WBR2' 
     or page.chip contains 'WB2S' 
+    or page.chip contains 'WA2' 
   %}<a href="WT-01N">WT-01N</a> or <a href="WT32C3-01N">WT32C3-01N</a> 
   {% else %}<a href="diy#module">an ESP</a>
   {% endif %}
@@ -326,6 +327,16 @@ layout: default
   <img src="/assets/pinouts/TYWE1S.png" title="Pinout for TYWE1S"></img>.<p>
   {% endif %}
 
+  {% if page.chip == "TYWE2L" %}
+  <h2>Pinout</h2>>
+  <img src="/assets/pinouts/TYWE2L.png" title="Pinout for TYWE2L"></img>.<p>
+  {% endif %}
+
+  {% if page.chip == "TYWE2S" %}
+  <h2>Pinout</h2>>
+  <img src="/assets/pinouts/TYWE2S.png" title="Pinout for TYWE2S"></img>.<p>
+  {% endif %}
+
   {% if page.chip == "TYWE3S" %}
   <h2>Pinout</h2>>
   <img src="/assets/pinouts/TYWE3S.png" title="Pinout for TYWE3S"></img>.<p>
@@ -334,11 +345,6 @@ layout: default
   {% if page.chip == "TYWE3L" %}
   <h2>Pinout</h2>>
   <img src="/assets/pinouts/TYWE3L.png" title="Pinout for TYWE3L"></img>.<p>
-  {% endif %}
-
-  {% if page.chip == "TYWE2S" %}
-  <h2>Pinout</h2>>
-  <img src="/assets/pinouts/TYWE2S.png" title="Pinout for TYWE2S"></img>.<p>
   {% endif %}
 
   {% if page.chip == "PSF-B" %}
