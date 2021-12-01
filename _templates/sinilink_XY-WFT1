@@ -3,7 +3,7 @@ date_added: 2021-12-02
 title: Sinilink Thermostat 
 model: XY-WFT1
 image: /assets/images/sinilink_XY-WFT1.jpg
-template: '{"NAME":"XY-WFT1","GPIO":[1,1,544,1,480,224,1,1,320,1,32,1,1,4736],"FLAG":0,"BASE":18,"CMND":"BuzzerPwm 1"}' 
+template9: '{"NAME":"XY-WFT1","GPIO":[1,1,544,1,480,224,1,1,320,1,32,1,1,4736],"FLAG":0,"BASE":18,"CMND":"BuzzerPwm 1"}' 
 link: https://www.aliexpress.com/item/1005003295843292.html
 link2: https://www.banggood.com/XY-WFT1Temperature-Remote-Controller-Module-with-NTC-Sensor-Real-time-Monitor-Wireless-WIFI-Control-Switch-p-1899933.html?cur_warehouse=CN
 link3: 
