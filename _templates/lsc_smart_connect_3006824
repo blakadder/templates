@@ -13,6 +13,12 @@ type: Light
 standard: eu
 chip: TYWE2S
 ---
+You must compile your own firmware adding to `user_config_override.h`:
+
+```c
+#define USE_LSC_MCSL                             // Add support for GPE Multi color smart light as sold by Action in the Netherlands (+1k1 code)
+```
+
 
 These string lights are two wire RGB lights utilising the Golden Power Electronics integrated switching power supply with built-in controller. GP-SW084-052 uses an ESP8285 (TYWE2S) and submicrocontroller controlling two wire RGB leds. [More info...](https://www.gp-electronic.com/product/integrated-switching-power-supply-with-built-in-controller/eugs/european-vertical-6w8-function.html)
 
