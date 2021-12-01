@@ -1,6 +1,6 @@
 ---
 date_added: 2021-10-09
-title: Sinilink PCI Computer Remote
+title: Sinilink PCIe Computer Remote
 model: XY-WPCE
 image: /assets/images/sinilink_XY-WPCE.jpg
 template9: '{"NAME":"XY-WPCE","GPIO":[1,1,320,1,32,224,0,0,160,0,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO114 1 | SwitchMode1 2"}' 
