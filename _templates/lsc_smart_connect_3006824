@@ -50,3 +50,5 @@ Dimmer<br>value | Effect
 * GPIO12 = Data to submicrocontroller
 * GPIO14 = Reset to submicrocontroller (26ms active high)
 
+![Disassembled](/assets/images/lsc_smart_connect_3006824_disassembled.jpg)
+![PCB](/assets/images/lsc_smart_connect_3006824_pcb.jpg)
