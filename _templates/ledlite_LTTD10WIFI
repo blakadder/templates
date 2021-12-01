@@ -11,8 +11,9 @@ flash: serial
 category: light
 type: Downlight
 standard: [eu, uk]
+chip: TYWE2L
 ---
-Device uses Tuya TYWE2L Module. Exposed pads of back require steady hand to solder to as they are in a tight space. Case opens easily with flat screw driver.
+Exposed pads of back require steady hand to solder to as they are in a tight space. Case opens easily with flat screw driver.
 
 Photos:
 ![](https://srv.redeggs.co.uk/images/lttd10-top.jpg)

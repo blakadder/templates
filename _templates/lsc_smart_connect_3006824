@@ -1,0 +1,60 @@
+---
+date_added: 2021-12-01
+title: LSC Multicolor Christmas String
+model: 3006824
+image: /assets/images/lsc_smart_connect_3006824.jpg
+template9: '{"NAME":"LSC MC Lights","GPIO":[0,0,0,0,544,32,0,0,3840,0,3872,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://shop.action.com/nl-nl/p/8712879150688/lsc-smart-connect-multicolor-kerstverlichting
+link2: 
+mlink: https://www.action.com/de-de/p/dummy-3006824/
+flash: serial
+category: light
+type: Light
+standard: eu
+chip: TYWE2S
+---
+You must compile your own firmware adding to `user_config_override.h`:
+
+```c
+#define USE_LSC_MCSL                             // Add support for GPE Multi color smart light as sold by Action in the Netherlands (+1k1 code)
+```
+
+
+These string lights are two wire RGB lights utilising the Golden Power Electronics integrated switching power supply with built-in controller. GP-SW084-052 uses an ESP8285 (TYWE2S) and submicrocontroller controlling two wire RGB leds. [More info...](https://www.gp-electronic.com/product/integrated-switching-power-supply-with-built-in-controller/eugs/european-vertical-6w8-function.html)
+
+The controls are different from standard LED strips:
+
+Button use:
+* Single press = Power On / Off
+* Double press = Cycle Colors
+* Triple press = Cycle Effects
+
+HSBColor |  Color
+---- | ----
+  1 .. 45 | R (Red)
+ 46 .. 90 |  RG (Yellow)
+ 91 .. 135 | G (Green)
+136 .. 179 | GB (Light Blue)
+180 .. 224 | B (Blue)
+225 .. 269 | RB  (Purple)
+270 .. 314 | RGB (White)
+315 .. 360 | (Alternating)
+
+Dimmer<br>value | Effect
+---- | ---
+  0 .. 12 | Bright (Steady On)
+ 13 .. 24 | Gradually (Slow Fade)
+ 25 .. 37 | Star (Sequential)
+ 38 .. 49 | Flower (In Waves)
+ 50 .. 62 | Marquee (Chasing / Flash)
+ 63 .. 74 | Fireworks (Twinkle / Flash)
+ 75 .. 87 | Meteor
+ 88 .. 100 | Stream
+ 
+* GPIO04 = Green led
+* GPIO05 = Button
+* GPIO12 = Data to submicrocontroller
+* GPIO14 = Reset to submicrocontroller (26ms active high)
+
+![Disassembled](/assets/images/lsc_smart_connect_3006824_disassembled.jpg)
+![PCB](/assets/images/lsc_smart_connect_3006824_pcb.jpg)

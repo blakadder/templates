@@ -3,8 +3,13 @@ date_added: 2021-10-09
 title: Sinilink PCI Computer Remote
 model: XY-WPCE
 image: /assets/images/sinilink_XY-WPCE.jpg
+<<<<<<< HEAD
 template9: '{"NAME":"XY-WPCE","GPIO":[1,1,320,1,32,225,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005003226261034.html
+=======
+template9: '{"NAME":"XY-WPCE","GPIO":[1,1,320,1,32,224,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005003187549517.html
+>>>>>>> b48eba552ffb75f77752036c7742c2d7ce55ef61
 link2: https://www.banggood.com/XY-WPCE-Computer-Remote-Switch-Controller-PCIE-Wireless-WIFI-Smart-Controller-Timing-Delay-Reboot-p-1897350.html
 mlink: 
 flash: serial
