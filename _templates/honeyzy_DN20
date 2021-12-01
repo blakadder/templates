@@ -10,3 +10,13 @@ template: '{"NAME":"DN20 Valve","GPIO":[52,0,0,0,0,0,0,0,17,21,0,0,0],"FLAG":0,"
 flash: serial
 chip: TYWE3S
 ---
+
+
+## Circuit Board Images
+
+The circuit board has TY-19-04 printed on it. 
+
+![image](https://i.imgur.com/qpovU4D.jpeg)
+![image](https://i.imgur.com/M9oqlZn.jpeg)
+![image](https://i.imgur.com/Kj4VGf0.jpeg)
+![image](https://i.imgur.com/roVFcBC.jpeg)
