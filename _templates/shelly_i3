@@ -18,7 +18,7 @@ standard: global
 Internal RST button is located on GPIO4 but not entered in the template until tested.
 
 ## Wiring
-Some people face high temperatures with their Shelly i3 in AC installations. To avoid these high temperatures check out the updated AC wiring information in the official Shelly Support Forum: https://www.shelly-support.eu/forum/index.php?thread/6002-shelly-i3-system-temperature-issues/
+Some people face high temperatures with their Shelly i3 in AC installations. To avoid these high temperatures check out the updated AC wiring information in the official [Shelly Support Forum](https://www.shelly-support.eu/forum/index.php?thread/6002-shelly-i3-system-temperature-issues/)
 
 In a nutshell: Switches which are connected to I1, I2 & I3 should be connected to the same wire as the most-right cable of the shelly i3 device, which might say N (blue) instead of L (red). 
 
