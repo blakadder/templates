@@ -1,0 +1,20 @@
+---
+date_added: 2021-12-02
+title: Sinilink USB Computer Remote
+model: XY-WPCL
+image: /assets/images/sinilink_XY-WPCL.jpg
+template9: '{"NAME":"XY-WPCL","GPIO":[1,1,320,1,32,224,0,0,160,0,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO114 1 | SwitchMode1 2"}' 
+link: https://www.aliexpress.com/item/1005003226261034.html
+link2: https://www.banggood.com/XY-WPCL-Wireless-WIFI-PC-Remote-Switch-Controller-Computer-Remote-Switch-Controller-Wireless-WIFI-Smart-Controller-Timing-Delay-Reboot-p-1897337.html?cur_warehouse=CN
+mlink: 
+flash: serial
+category: misc
+type: Miscellaneous
+standard: global
+---
+
+It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter. Alternatively, you can strip some Ethernet Cat5e cable, which has the perfect diameter to fit in this board without soldering.
+
+![Pinout](/assets/images/sinilink_XY-WPCL_pinout.jpg)
+
+Switch1 is detached and is used to monitor power status of the PC. It will be discovered as a binary sensor in Home Assistant.
