@@ -11,5 +11,6 @@ flash: tuya-convert
 category: light
 type: Ceiling Light
 standard: eu, it
+chip: TYWE2L
 ---
 Light uses Tuya TYWE2L chip, I have tested two and both flashed just fine OTA with Tuya Convert even after having connected to the HeySmart app.

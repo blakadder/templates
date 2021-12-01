@@ -1,0 +1,16 @@
+---
+date_added: 2021-11-28
+title: Nedis CCT 800lm
+model: WIFILAW10WT
+image: /assets/images/nedis_WIFILAW10WT.jpg
+template9: '{"NAME":"NEDIS WIFILAW10WT","GPIO":[0,0,0,0,0,0,0,0,417,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07YL4NMFS/
+link2: https://www.alza.de/nedis-smarte-wlan-fahige-deckenleuchte-durchmesser-17-cm-d5856275.htm
+link3: https://www.idealo.de/preisvergleich/Typ/5412810320721.html
+mlink: https://nedis.com/en-us/product/550717243/smartlife-ceiling-light-wi-fi-cool-white-warm-white-round-diameter-170-mm-17-x-17-x-38-cm-800-lm-2700-6500-k-ip20-energy-class-a-android-ios
+flash: tuya-convert
+category: light
+type: Ceiling Light
+standard: eu
+---
+To switch device into flash mode, turn lamp off and on three times.

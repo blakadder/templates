@@ -1,0 +1,15 @@
+---
+date_added: 2021-11-25
+title: Mostly Robots Wemos D1 4 Channel MOSFET Shield 
+model: 
+image: /assets/images/mostly_robots_mosfet.jpg
+template9: '{"NAME":"MOSFET","GPIO":[1,1,288,1,1,1,1,1,226,225,227,224,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.tindie.com/products/mostlyrobots/4-channel-mosfet-shield-for-wemos-d1-mini-esp8266/
+link2: 
+mlink: https://blog.mostlyrobots.net/2020/10/01/design-fabrication-and-testing-of-a-mosfet-shield-for-a-wemos-d1-mini-esp8266-microcontroller/
+flash: Shield for Wemos D1 mini
+category: diy
+type: Development Board
+standard: global
+---
+Four Channel MOSFET Shield for Wemos D1 Mini contains four separate 30v / 5A MOSEFTs in a D1 mini shield form factor. The MOSFETs can drive four separate loads up to 30v and 5A each, or the channels can be connected in parallel to drive a single bigger load, up to a potential 20A. The MOSFETs use GPIO12, GPIO13, GPIO14 & GPIO15.

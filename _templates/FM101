@@ -11,4 +11,6 @@ flash: serial
 category: misc
 type: Valve
 standard: global
+unsupported: true
+chip: BK7231N
 ---

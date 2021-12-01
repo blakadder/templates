@@ -1,0 +1,15 @@
+---
+date_added: 2021-11-29
+title: Nedis RGBCCT 1200lm
+model: WIFILAC30WT
+image: /assets/images/nedis_WIFILAC30WT.jpg
+template9: '{"NAME":"Nedis RGB","GPIO":[0,0,0,0,417,416,0,0,420,418,419,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.alza.cz/nedis-chytre-wi-fi-stropni-svetlo-30-x-30-cm-d5856279.htm
+link2: https://www.amazon.de/dp/B07YL2N8MS/
+mlink: https://nedis.com/en-us/product/lighting/indoor-lighting/ceiling-lights/550717242/smartlife-ceiling-light-wi-fi-cool-white-rgb-warm-white-square-30-x-30-x-38-cm-1400-lm-2700-6500-k-ip20-energy-class-a-android-ios?_ga=1689145972.1637013031
+flash: serial
+category: light
+type: Ceiling Light
+standard: eu
+chip: TYWE2L
+---
