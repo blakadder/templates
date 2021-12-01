@@ -3,7 +3,7 @@ date_added: 2021-12-01
 title: LSC Multicolor Christmas String
 model: 3006824
 image: /assets/images/lsc_smart_connect_3006824.jpg
-template: '{"NAME":"LSC MC Lights","GPIO":[0,0,0,0,544,32,0,0,3840,0,3872,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"LSC MC Lights","GPIO":[0,0,0,0,544,32,0,0,3840,0,3872,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://shop.action.com/nl-nl/p/8712879150688/lsc-smart-connect-multicolor-kerstverlichting
 link2: 
 mlink: https://www.action.com/de-de/p/dummy-3006824/
