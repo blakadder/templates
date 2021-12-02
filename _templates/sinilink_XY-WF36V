@@ -14,6 +14,6 @@ category: relay
 type: Relay Board
 standard: global
 ---
-![pinout](https://user-images.githubusercontent.com/11288701/116934805-c71d4700-aca8-11eb-8b6b-a366b9a0fd33.png)
+It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter. Alternatively, you can strip some Ethernet Cat5e cable, which has the perfect diameter to fit in this board without soldering.
 
-See [Sinilink XY-WFUSB](sinilink_XY-WFUSB) for flashing notes.
+![pinout](https://user-images.githubusercontent.com/11288701/116934805-c71d4700-aca8-11eb-8b6b-a366b9a0fd33.png)

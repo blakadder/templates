@@ -12,5 +12,7 @@ category: diy
 type: Module
 standard: global
 ---
+It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter. Alternatively, you can strip some Ethernet Cat5e cable, which has the perfect diameter to fit in this board without soldering.
+
 
 ![Pinout](/assets/images/sinilink_XY-WFPOW_pinout.jpg)

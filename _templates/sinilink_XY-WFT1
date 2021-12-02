@@ -1,0 +1,20 @@
+---
+date_added: 2021-12-02
+title: Sinilink Thermostat 
+model: XY-WFT1
+image: /assets/images/sinilink_XY-WFT1.jpg
+template9: '{"NAME":"XY-WFT1","GPIO":[0,0,544,0,480,224,0,0,320,1,32,0,0,4736],"FLAG":0,"BASE":18,"CMND":"BuzzerPwm 1"}' 
+link: https://www.aliexpress.com/item/1005003295843292.html
+link2: https://www.banggood.com/XY-WFT1Temperature-Remote-Controller-Module-with-NTC-Sensor-Real-time-Monitor-Wireless-WIFI-Control-Switch-p-1899933.html?cur_warehouse=CN
+link3: 
+mlink: https://www.alibaba.com/product-detail/XY-WFT1-remote-WIFI-thermostat-high_1600349477392.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter. Alternatively, you can strip some Ethernet Cat5e cable, which has the perfect diameter to fit in this board without soldering.
+
+![pinout](/assets/images/sinilink_XY-WFT1_pinout.jpg)
+
+There is no data for the provided thermistor probe so the temperature values are off.
