@@ -1,0 +1,15 @@
+---
+date_added: 2021-12-02
+title: Virage Labs VirageDimmer
+model: KS-7012
+image: /assets/images/virage_labs_KS-7012.jpg
+template9: '{"NAME":"VirageDimmer","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.viragelabs.com/product/viragedimmer/
+link2: 
+mlink: https://www.viragelabs.com
+flash: preflashed
+category: light
+type: Dimmer
+standard: us
+---
+Device is pre-flashed with a customized Tasmota, but can be OTA flashed to any version.

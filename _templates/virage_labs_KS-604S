@@ -1,0 +1,15 @@
+---
+date_added: 2021-12-02
+title: Virage Labs ViragePlug
+model: KS-604S
+image: /assets/images/virage_labs_KS-604S.jpg
+template9: '{"NAME":"ViragePlug","GPIO":[544,0,0,32,320,33,0,0,225,224,320,226,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.viragelabs.com/product/virageplug/
+link2: 
+mlink: https://www.viragelabs.com
+flash: preflashed
+category: plug
+type: Wall Outlet
+standard: us
+---
+Device is pre-flashed with a customized Tasmota, but can be OTA flashed to any version.
