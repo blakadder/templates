@@ -7,12 +7,12 @@ template: '{"NAME":"Sinilink XY-WF5V","GPIO":[0,0,0,0,21,255,0,0,17,52,0,0,255],
 link: https://www.aliexpress.com/item/4001272372076.html
 link2: https://www.banggood.com/XY-WF5V-Sinilink-WIFI-Remote-Control-Relay-Switch-ModuleIoF-Wireless-Intelligent-Control-Device-for-Smart-Home-DC-5V-p-1566412.html
 link3: https://www.amazon.com/dp/B0951RK5HX/
-mlink: https://www.alibaba.com/product-detail/Sinilink-WIFI-mobile-phone-remote-control_1600204173458.html
+mlink:  
 flash: serial
 category: relay
 type: Relay Board
 standard: global
 ---
-![pinout](https://user-images.githubusercontent.com/11288701/116934805-c71d4700-aca8-11eb-8b6b-a366b9a0fd33.png)
+It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter. Alternatively, you can strip some Ethernet Cat5e cable, which has the perfect diameter to fit in this board without soldering.
 
-See [Sinilink XY-WFUSB](sinilink_XY-WFUSB) for flashing notes.
+![pinout](https://user-images.githubusercontent.com/11288701/116934805-c71d4700-aca8-11eb-8b6b-a366b9a0fd33.png)

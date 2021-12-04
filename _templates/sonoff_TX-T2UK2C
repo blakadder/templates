@@ -1,0 +1,19 @@
+---
+date_added: 2021-12-03
+title: Sonoff TX T2 UK 2 Gang 
+model: TX-T2UK2C
+image: /assets/images/sonoff_TX-T2UK2C.jpg
+template9: '{"NAME":"Sonoff T1 TX 2CH","GPIO":[32,1,1,1,0,225,33,0,224,448,0,0,0,0],"FLAG":0,"BASE":29}' 
+link: https://itead.cc/product/sonoff-tx-series-wifi-smart-wall-switches/
+link2: https://www.banggood.com/SONOFF-T2-EU-or-US-or-UK-AC-100-240V-1-or-2-or-3-Gang-TX-Series-433Mhz-WIFI-Wall-Switch-RF-Smart-Wall-Touch-Switch-For-Smart-Home-Work-With-Alexa-Google-Home-p-1470884.html?rmmds=search&ID=6278517&cur_warehouse=CN
+link3: https://www.amazon.co.uk/dp/B07T7VDS72/
+link4: https://www.aliexpress.com/item/4000092798540.html 
+mlink: https://sonoff.tech/product/smart-wall-swtich/tx-series/
+flash: serial
+category: switch
+type: Switch
+standard: uk
+---
+Ground GPIO0 from the ESP8266 chip directly when flashing. 
+
+GPIO13 can be set to PWM_i if you wish to manually dim it.

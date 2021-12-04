@@ -36,6 +36,8 @@
 {{ link | append: "?idp=13979&banner_id=39232" }}
 {% elsif link contains "idealo.de" %}
 {{ link | uri_escape | prepend: "https://www.awin1.com/cread.php?awinmid=15536&awinaffid=930253&ued=" }}
+{% elsif link contains "tink.de" %}
+{{ link | uri_escape | prepend: "https://www.awin1.com/cread.php?awinmid=13686&awinaffid=930253&ued=" }}
 {% elsif link contains "buypluss.com" %}
 {{ link | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1722327&u=2442238&m=107304&urllink=" }}
 {% elsif link contains "geekbuying.com" %}
