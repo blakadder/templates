@@ -12,3 +12,11 @@ category: plug
 type: Outdoor Plug
 standard: eu
 ---
+## Serial flashing
+
+Serial flashing is possible via soldering pins on the [TYWE3S](https://tasmota.github.io/docs/devices/TYWE3S/) board.
+
+Also, some soldering pins including RX/TX, GPIO0 and GND are placed on the board. See pictures [here](https://github.com/crassmike/tasmota-serial-flash/tree/main/Luminea%202%20Outlet) for details.
+
+
+
