@@ -11,6 +11,7 @@ category: bulb
 type: CCT
 standard: e26
 ---
+Note: Per esp2ino latest update, it might difficult or impossible to flash newly acquired Wyze devices over-the-air.
 
 **Requires Tasmota 9.2+**
 

@@ -12,6 +12,8 @@ category: plug
 type: Plug
 standard: us
 ---
+Note: Per esp2ino latest update, it might difficult or impossible to flash newly acquired Wyze devices over-the-air.
+
 Uses 15 amp relay and an edge mounted daughter board for the ESP8266EX. LED will light when relay is engaged. Side button will toggle the relay state.
 
 ## Serial Flashing
