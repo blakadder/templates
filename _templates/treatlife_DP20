@@ -9,7 +9,7 @@ template9: '{"NAME":"DP20","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"
 image: /assets/images/treatlife_DP20.jpg
 link: https://www.amazon.com/gp/product/B08LPYXK6L
 link2: 
-link3: https://www.treatlife.tech/collections/new-arrival/products/treatlife-dimmable-smart-plug-for-lamps-works-with-alexa-google-assistant-and-smartthings-sunrise-simulation
+mlink: https://www.treatlife.tech/collections/new-arrival/products/treatlife-dimmable-smart-plug-for-lamps-works-with-alexa-google-assistant-and-smartthings-sunrise-simulation
 flash: replace
 chip: WB3S
 ---
