@@ -38,14 +38,14 @@ Home Assistant fan.yaml
 ```yaml
 {% raw %}- platform: mqtt
   name: "Arlec Fan"
-  state_topic: "stat/%topic%/POWER1"
-  command_topic: "cmnd/%topic%/POWER1"
+  state_topic: "stat/%topic%/POWER"
+  command_topic: "cmnd/%topic%/POWER"
   payload_on: 'ON'
   payload_off: 'OFF'
-  oscillation_state_topic: "stat/%topic%/POWER2"
-  oscillation_command_topic: "cmnd/%topic%/POWER2"
-  payload_oscillation_on: 'ON'
-  payload_oscillation_off: 'OFF'
+  oscillation_state_topic: "stat/%topic%/TuyaSend1"
+  oscillation_command_topic: "cmnd/%topic%/TuyaSend1"
+  payload_oscillation_on: '101,1'
+  payload_oscillation_off: '101,0'
   percentage_state_topic: "stat/%topic%/speed"
   percentage_command_topic: "cmnd/%topic%/TuyaSend4"
   percentage_command_template: "3,{{ value }}"
