@@ -24,6 +24,7 @@ ESP:
 Connection:
 - D1 Mini directly on the back of the TFT shield, make sure you line up pins correctly
 - or [TFT I2C Connector Shield v1.1.0](https://nl.aliexpress.com/item/32846977179.html) and [TFT ePaper 10P Cable](https://nl.aliexpress.com/item/32848833474.html)
+- If you want to put the D1 Mini ESP32 directly on the back of the display shield, make sure you **only** solder the 16 legs the D1 Mini ESP8266 has. The connector on the back of the display has the outer and inner pins 1-on-1 connected while on the ESP32 they are completely different.
 
 Software:
 - [Tasmota v10.1.0](https://github.com/arendst/Tasmota/releases/tag/v10.1.0)
