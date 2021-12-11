@@ -15,9 +15,10 @@ link2: https://www.tinytronics.nl/shop/en/displays/tft/wemos-2.4-inch-tft-shield
 ## How this was tested
 - TFT-2.4 v1.1.0
 - [Tasmota v10.1.0](https://github.com/arendst/Tasmota/releases/tag/v10.1.0)
-- [Lolin D1 Mini v3](https://nl.aliexpress.com/item/32831353752.html) with 4MB flash
+- [Lolin D1 Mini v3](https://nl.aliexpress.com/item/32831353752.html) ESP8266 with 4MB flash
 - Legs soldered on D1 Mini
 - D1 Mini directly on the back of the TFT shield, make sure you line up pins correctly
+- Also works with [TFT I2C Connector Shield v1.1.0](https://nl.aliexpress.com/item/32846977179.html) and [TFT ePaper 10P Cable](https://nl.aliexpress.com/item/32848833474.html)
 - Don't forget to enable the template using **Configuration > Configure Module**
 - The last **Toggle** button in the Tasmota web interface can be used to enable/disable the display
 
