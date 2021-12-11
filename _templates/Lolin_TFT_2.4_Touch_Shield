@@ -7,18 +7,31 @@ type: Display
 standard: global
 image: /assets/images/tft_2.4_v1.0.0_1_16x16.jpg
 template: '{"NAME":"Lolin TFT 2.4 Touch Shield","GPIO":[6784,224,225,226,1,992,1,1,672,704,736,5920,5888,1],"FLAG":0,"BASE":18}' 
+template32: 'Template {"NAME":"Lolin TFT 2.4 Touch Shield","GPIO":[224,225,226,1,1,6400,1,1,1,1,1,1,1,7264,736,672,0,1,992,704,0,1,6368,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
 mlink: https://www.wemos.cc/en/latest/d1_mini_shield/tft_2_4.html
 link: https://nl.aliexpress.com/item/32919729730.html
 link2: https://www.tinytronics.nl/shop/en/displays/tft/wemos-2.4-inch-tft-shield-for-d1-mini-with-touchscreen
 ---
 
 ## How this was tested
+Display:
 - TFT-2.4 v1.1.0
-- [Tasmota v10.1.0](https://github.com/arendst/Tasmota/releases/tag/v10.1.0)
-- [Lolin D1 Mini v3](https://nl.aliexpress.com/item/32831353752.html) ESP8266 with 4MB flash
-- Legs soldered on D1 Mini
+
+ESP:
+- [Lolin D1 Mini v3](https://nl.aliexpress.com/item/32831353752.html) ESP8266 with 4MB flash 
+- [D1 Mini ESP32](https://nl.aliexpress.com/item/32815530502.html)
+
+Connection:
 - D1 Mini directly on the back of the TFT shield, make sure you line up pins correctly
-- Also works with [TFT I2C Connector Shield v1.1.0](https://nl.aliexpress.com/item/32846977179.html) and [TFT ePaper 10P Cable](https://nl.aliexpress.com/item/32848833474.html)
+- or [TFT I2C Connector Shield v1.1.0](https://nl.aliexpress.com/item/32846977179.html) and [TFT ePaper 10P Cable](https://nl.aliexpress.com/item/32848833474.html)
+
+Software:
+- [Tasmota v10.1.0](https://github.com/arendst/Tasmota/releases/tag/v10.1.0)
+- [PlatformIO CLI](https://tasmota.github.io/docs/PlatformIO-CLI/) to build
+- [Tasmotizer](https://github.com/tasmota/tasmotizer) to flash the D1 Mini v3 ESP8266
+- [Esptool](https://tasmota.github.io/docs/Esptool/) to flash the D1 Mini ESP32
+
+## Remarks
 - Don't forget to enable the template using **Configuration > Configure Module**
 - The last **Toggle** button in the Tasmota web interface can be used to enable/disable the display
 
@@ -34,12 +47,19 @@ To use all features of this touch shield, you will need to do a [custom build](h
 #define USE_SCRIPT
 #undef USE_RULES
 ```
-I used `platformio run -e tasmota` to build (MacOS or Linux), and [Tasmotizer](https://github.com/tasmota/tasmotizer) to flash.
+I used `platformio run -e tasmota` and `platformio run -e tasmota32` to build. (on MacOS or Linux)
 
 ## Configure Display
 In the Tasmota web interface paste in **Consoles > Console**:
 ```
-Backlog DisplayMode 0; DisplayRows 40; DisplayCols 34; DisplayRotate 0; DisplayWidth 240; DisplayHeight 320; DisplayFont 1;
+Backlog 
+DisplayWidth 240; 
+DisplayHeight 320; 
+DisplayMode 0; 
+DisplayRows 40;  
+DisplayCols 34; 
+DisplayRotate 0;  
+DisplayFont 1;
 ```
 
 ## Script for buttons
@@ -59,7 +79,27 @@ dt [b2:20:220:200:60:10:10:1:3:Relay 3:]
 ```
 Click **Save**
 
-These `dt` lines are in fact [DisplayText](https://tasmota.github.io/docs/Displays/#displaytext) commands, the `b0`,`b1`,`b2` create [touch buttons](https://tasmota.github.io/docs/Displays/#touch-buttons-and-sliders). The numbers define position, size and colors.  
+These `dt` lines are in fact [DisplayText](https://tasmota.github.io/docs/Displays/#displaytext) commands, the `b0`,`b1`,`b2` create [touch buttons](https://tasmota.github.io/docs/Displays/#touch-buttons-and-sliders). The numbers define position, size and colors.
+
+## Flash Command for ESP32
+On Linux or MacOS:
+```
+esptool.py \
+  --chip esp32 \
+  --port /dev/tty.usbserial* \
+  --baud 921600 \
+  --before default_reset \
+  --after hard_reset write_flash \
+  -z \
+  --flash_mode dout \
+  --flash_freq 40m \
+  --flash_size detect \
+  0x1000 tools/Esptool/ESP32/bootloader_dout_40m.bin \
+  0x8000 tools/Esptool/ESP32/partitions.bin \
+  0xe000 tools/Esptool/ESP32/boot_app0.bin \
+  0x10000 build_output/firmware/tasmota32.bin
+```
+The ESP8266 can easily be flashed with [Tasmotizer](https://github.com/tasmota/tasmotizer).
 
 ## Result
 The buttons will switch the configured relays without any extra scripting or configuration.
