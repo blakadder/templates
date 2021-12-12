@@ -11,6 +11,7 @@ mlink: https://github.com/IOT-MCU/
 link: https://www.aliexpress.com/item/1005003117738086.html
 
 ---
+This board uses a 74HCT125D quad buffer/line driver.
 
 Switch the jumper to GPIO5.
 
