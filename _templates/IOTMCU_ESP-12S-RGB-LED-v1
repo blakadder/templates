@@ -1,0 +1,17 @@
+---
+date_added: 2021-12-13
+title: IOTMCU 
+model: ESP-12S-RGB-LED-Controller-v1.0
+category: light
+type: Addressable LED
+standard: global
+image: /assets/images/IOTMCU_ESP-12S-RGB-LED-v1.jpg
+template9: '{"NAME":"IOTMCU_ESP-12S-RGB-LED-v1","GPIO":[1,1,1,1,0,1376,0,0,1,1088,32,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://github.com/IOT-MCU/
+link: https://www.aliexpress.com/item/1005003117738086.html
+
+---
+
+Switch the jumper to GPIO5.
+
+![Pinout](/assets/images/IOTMCU_ESP-12S-RGB-LED-v1_pinout.png)
