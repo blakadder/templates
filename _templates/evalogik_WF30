@@ -12,6 +12,8 @@ category: switch
 type: Switch
 standard: us
 ---
+Device dated 04/21 comes with the WD2S module, device dated 05/20, is still tuya-convert compatible.
+
 Required rules to make the "up" button turn power on, and the "down" button turn power off:
 
 ```console
