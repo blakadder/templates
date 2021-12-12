@@ -1,0 +1,14 @@
+---
+date_added: 2021-12-05
+title: Havells Glamax 9W 850lm
+model: 
+image: /assets/images/havells_glamax_9w.jpg
+template9: '{"NAME":"HavellsGlamaxTWColors","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18,"CMND":"SetOption92 1"}' 
+link: https://www.amazon.in/dp/B08HZB57RX/
+link2: 
+mlink: https://www.havells.com/en/consumer/lighting/smart-lighting/led-smart-lamps/glamax-smart-lamp-9-w-e27.html
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

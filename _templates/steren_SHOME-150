@@ -1,0 +1,20 @@
+---
+date_added: 2021-12-11
+title:  Steren Valvula 
+model: SHOME-150
+image: /assets/images/
+template9: '{"NAME":"Steren_SHOME-150","GPIO":[0,0,0,0,0,0,0,0,544,0,32,0,224,0],"FLAG":0,"BASE":18}' 
+link: https://www.steren.com.mx/valvula-wi-fi.html
+link2: 
+mlink: https://www.steren.com.mx/valvula-wi-fi.html
+flash: serial
+category: misc
+type: Valve
+standard: us
+chip: TYWE3S
+---
+Unplug from AC adapter.
+
+Unscrew the cover, there you'll find a TYWE3S chip, you can solder some wires to the 3.3V, G, GPIO0, TX, RX and flash through serial with a USB to TTL adapter using your favorite method.
+
+[Wiring Tasmota onto a TYWE3S](https://imgur.com/a/7cZHU4Y)

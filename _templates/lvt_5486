@@ -1,0 +1,17 @@
+---
+date_added: 2021-12-10
+title: LVT No Neutral Glass Touch
+model: 5486
+image: /assets/images/lvt_5486.jpg
+template9: '{"NAME":"LVT-5486 - 1 Gang","GPIO":[0,544,0,0,0,32,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: http://lvt.com.pl/wlacznik-szklany-dotykowy-wifi-pojedynczy-bialy-p-3367.html
+link2: 
+mlink: http://lvt.com.pl/wlacznik-szklany-dotykowy-wifi-pojedynczy-bialy-p-3367.html
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+Repo with info https://github.com/zeridon/lvt-5486 check `info.md`
+
+![PINOUT](https://raw.githubusercontent.com/zeridon/lvt-5486/master/pinout_esp8285.png)
