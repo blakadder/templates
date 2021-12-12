@@ -1,0 +1,14 @@
+---
+date_added: 2021-12-08
+title: Electrodragon Inductive Load 
+model: NWI1139
+image: /assets/images/electrodragon_NWI1139.jpg
+template9: '{"NAME":"ED RelayBoard IL","GPIO":[0,0,1,0,1,1,0,0,224,225,1,1,288,0],"FLAG":0,"BASE":18}' 
+link: https://www.electrodragon.com/product/esp-relay-board-il-inductive-load/
+link2: 
+mlink: https://www.electrodragon.com/w/ESP_Relay_Board_IL
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---

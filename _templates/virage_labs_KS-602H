@@ -1,0 +1,16 @@
+---
+date_added: 2021-12-02
+title: Virage Labs VirageSwitch Light
+model: KS-602H
+image: /assets/images/virage_labs_KS-602H.jpg
+template9: '{"NAME":"VirageSwitch","GPIO":[32,0,0,0,0,0,0,0,224,288,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.viragelabs.com/product/virageswitch/
+link2: 
+mlink: https://www.viragelabs.com
+flash: preflashed
+category: switch
+type: Switch
+standard: us
+---
+
+  Device is pre-flashed with a customized Tasmota, but can be OTA flashed to any version.

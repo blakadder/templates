@@ -1,0 +1,15 @@
+---
+date_added: 2021-12-01
+title: Arlec Plug In Socket
+model: PC191HA
+image: /assets/images/arlec_PC191HA.jpg
+template9: '{"NAME":"PC191HA","GPIO":[0,32,0,0,2720,2656,0,0,2624,224,288,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-white-grid-connect-smart-plug-in-socket-with-energy-meter_p0273367
+link2: 
+mlink: 
+flash: replace
+category: plug
+type: Plug
+standard: au
+chip: WB2S
+---

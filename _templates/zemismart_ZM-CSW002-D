@@ -1,0 +1,16 @@
+---
+date_added: 2021-12-03
+title: Zemismart Backlit
+model: ZM-CSW002-D
+image: /assets/images/zemismart_ZM-CSW002-D.jpg
+template9: '{"NAME":"WF-CS01","GPIO":[544,227,289,34,226,161,0,0,160,224,290,225,288,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32838165941.html
+link2: 
+mlink: 
+flash: serial
+category: cover
+type: Curtain Switch
+standard: eu
+---
+
+Relay 4 is configured to control backlight

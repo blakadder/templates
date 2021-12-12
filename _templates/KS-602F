@@ -1,11 +1,11 @@
 ---
-date_added: 2020-10-02
+date_added: 2021-12-01
 title: 3 Way Smart Light
 model: KS-602F
 image: /assets/images/KS-602F.jpg
-template: '{"NAME":"Nexete KS-602F 3-Way","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
-link: https://www.amazon.com/gp/product/B07WFR71KV/
-link2: 
+template9: '{"NAME":"KS-602F","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/dp/B07964FGM2
+link: https://www.amazon.ca/gp/product/B085ZYWF86/
 mlink: https://www.hidintech.com/us-smart-light-switch-p00096p1.html
 flash: tuya-convert
 category: switch

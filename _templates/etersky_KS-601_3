@@ -1,0 +1,14 @@
+---
+date_added: 2021-12-08
+title: Smart 3 Gang Touch
+model: KS-601 3
+image: /assets/images/etersky_KS-601_3.jpg
+template9: '{"NAME":"ETERSKY KS601 3 Gang","GPIO":[0,0,544,0,34,33,0,0,225,224,226,0,32,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B091BD5SY7/
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
