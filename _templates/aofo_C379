@@ -11,6 +11,8 @@ flash: serial
 category: plug
 type: Power Strip
 standard: uk
+unsupported: true
+chip: WB2S
 ---
 Had to disassemble unit (a few screws, back pops off if use a flat blade to separate the grips) to do the flash.  Note - the screws on the back (under the white pads) are triangular security screws so you will need the right screwdriver bit to undo them.   
 
