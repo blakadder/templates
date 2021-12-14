@@ -105,7 +105,7 @@ binary_sensor:
     device_class: problem
     availability_topic: "tele/%topic%/LWT"
     payload_available: "Online"
-    payload_not_avail: "Offline"
+    payload_not_available: "Offline"
 ```
 
 ## PCB
