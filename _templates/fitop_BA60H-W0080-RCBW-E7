@@ -11,6 +11,7 @@ flash: serial
 category: bulb
 type: RGBCCT
 standard: e27
+unsupported: true
 ---
 Tuya-Convert does not work.
 
