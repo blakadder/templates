@@ -1,0 +1,15 @@
+---
+date_added: 2021-03-27
+title: Smatrul 5A RF433Mhz 4 Gang Touch
+model: TMW4-01(EU)
+image: /assets/images/smatrul_TMW4-01EU_3.jpg
+template9: '{"NAME":"Smatrul RF433Mhz 3 Gang Touch Switch (TMW4-01(EU))","GPIO":[0,0,0,160,162,161,0,0,225,224,226,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.ebay.co.uk/itm/194504848480
+mlink: https://www.alibaba.com/product-detail/SMATRUL-4-Gang-Tuya-WiFi-Smart_1600181986826.html
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+
+Connect GPIO0 to ground and Attach a lead also to RST. You will need to briefly short RST to GND just after powering up the device and after you have started the flash app (Tasmotizer or esptool.py) as it doesn't stay in programmable mode for very long. Pinout is as follows, starting with the pad closest to the 433 pcb antenna. 3.3V RX TX GPIO0 RST GND.
