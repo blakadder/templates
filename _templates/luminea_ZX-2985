@@ -7,8 +7,8 @@ template9: '{"NAME":"Luminea RGBW","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0
 link: https://www.pearl.de/a-ZX2985-3103.shtml
 link2: 
 mlink: 
-flash: tuya-convert
 category: bulb
 type: RGBCCT
 standard: e27
+unsupported: true
 ---
