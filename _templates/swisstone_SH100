@@ -7,8 +7,21 @@ template: '{"NAME":"SwissTone","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"
 link: https://www.amazon.de/Swisstone-100-WiFi-Steckdose-Sprachsteuerbar-Kindersicherung-weiß/dp/B07GD3WKVL
 link2: https://www.amazon.co.uk/Swisstone-SH-100-Smart-Socket-Recognition-White/dp/B07GD3WKVL
 mlink: 
-flash: tuya-convert
+flash: serial
 category: plug
 type: Plug
 standard: eu
 ---
+
+
+Pictures from the inside: 
+
+
+
+![](https://ibb.co/jv8Lbmz)
+![]https://ibb.co/k880Tsp)
+![]https://ibb.co/cNrzH6Q)
+![]https://ibb.co/x5wdpDK)
+![]https://ibb.co/rtM8YZ3)
+
+
