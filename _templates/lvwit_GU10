@@ -1,0 +1,15 @@
+---
+date_added: 2021-12-17
+title: LVWIT 5W 350Lm
+model: 
+image: /assets/images/lvwit_GU10.jpg
+template9: '{"NAME":"LVWITGU10","GPIO":[0,0,0,0,0,0,0,0,0,3008,0,3040,0,0],"FLAG":0,"BASE":27}' 
+link: https://www.amazon.co.uk/dp/B083DNKQMK/
+link2: 
+mlink: https://www.lvwit.com/collections/smart-light-bulbs/products/gu10-reflector-smart-led-bulb-350lm-lvwit
+flash: tuya-convert
+category: bulb
+type: RGB
+standard: gu10
+---
+After Tuya-Convert successfully upgraded to 10.1.0

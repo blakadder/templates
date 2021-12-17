@@ -1,0 +1,14 @@
+---
+date_added: 2021-12-16
+title: SMTONOFF 63A
+model: SMT002
+image: /assets/images/
+template9: '{"NAME":"SMTONOFF","GPIO":[32,0,0,3104,0,0,0,0,224,544,0,0,0,0],"FLAG":0,"BASE":43}' 
+link: https://aliexpress.com/item/4000599724077.html
+link2: https://www.banggood.com/1P-63A-eWelink-Single-Phase-Din-Rail-WIFI-Smart-Switch-Energy-Meter-Leakage-Protection-Remote-Read-KWh-Meter-Wattmeter-Works-with-Alexa-Google-p-1840500.html
+mlink: 
+flash: serial
+category: relay
+type: DIN Relay
+standard: global
+---
