@@ -277,8 +277,8 @@ layout: default
   {% endif %}
 
   {% if page.flash == 'tuya-convert' %}
-  Tuya-Convert might not be possible for this device since the template was added ({{ page.date_added  }}). All new Tuya devices have firmware <a href="https://github.com/ct-Open-Source/tuya-convert/issues/483">preventing flash</a> but it is still possible to Tuya-Convert old stock devices without connecting them to the Tuya app.
-  <br><br>
+  <b>WARNING:</b> New Tuya devices have replaced their Wi-Fi module with one incompatible with Tasmota!!!<br>
+  Tuya-Convert might not be possible for this device since the template was added ({{ page.date_added  }}).<br><br>
   <p>
   {% endif %}
 
