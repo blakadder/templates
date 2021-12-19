@@ -23,6 +23,14 @@ Starting September 2021, Sonoff started to distribute a new version with a diffe
 
 You can identify the v2 from the v1.x by the markings on the PCB and on the energy measurement chip. See photos of the Sonoff Dual R3 v2 in its [device page](sonoff_DUALR3_v2). All photos below are from Sonoff Dual R3 v1.6.
 
+## ⚠️️Special Attention   ⚠️️
+
+**Do not connect AC power and the serial connection at the same time** 
+The GND connection of the Dual R3 is connected to the live AC wire. Connecting serial with your PC will fry your PC and will electrocute you. Safety and fire danger.
+
+**DO NOT CONNECT ANY SENSORS TO THESE DEVICES!!! The GPIOs on the Dual R3 are connected to AC power!**
+
+
 ## Opening the Case
 
 Press the case to release the clips. My case was not glued at all but some might be. After opening it, the PCB will simply pop out.
