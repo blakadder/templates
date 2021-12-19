@@ -1,0 +1,37 @@
+---
+date_added: 2021-12-19
+title: Nivian Smart Infrared Controller
+model: NVS-SMARTIR-W2
+image: /assets/images/nivian_NVS-SMARTIR-W2.png
+template9: '{"NAME":"Nivian NVS-SMARTIR-W2","GPIO":[0,3200,0,3232,320,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.amazon.de/gp/product/B08XC3X4H7
+link2: https://de.aliexpress.com/item/1005003342449611.html
+mlink: https://www.nivianhome.com/en/product/nvs-smartir-w/
+flash: serial
+category: misc
+type: IR Controller
+standard: global
+---
+## Specifications
+EAN: 8435325455099
+
+Device comes with an ESP8266EX chip soldered directly on the PCB.
+
+## Images
+![NVS-SMARTIR-W2](/assets/images/nivian_NVS-SMARTIR-W2.png)
+![NVS-SMARTIR-W2](/assets/images/nivian_NVS-SMARTIR-W2_bottom.png)
+![NVS-SMARTIR-W2](/assets/images/nivian_NVS-SMARTIR-W2_outside.png)
+![NVS-SMARTIR-W2](/assets/images/nivian_NVS-SMARTIR-W2_box.jpg)
+
+## Flashing Tasmota
+**WARNING:** The devices cannot be flashed with Tuya-Convert at present (2021-12-10).
+You will need to flash the `tasmota-ir.bin` firmware to this device via serial (see pinout below).
+Use [`tasmota-ir.bin`](http://ota.tasmota.com/tasmota/release/tasmota-ir.bin) firmware for full infrared (IR) functionality.
+
+## Opening case
+The case can be opened via 4 clips which are quite tight. See image below.
+![NVS-SMARTIR-W2](/assets/images/nivian_NVS-SMARTIR-W2_clips.jpg)
+ 
+## Pinout for flashing via serial
+You can temporarily solder jumper cables to the pins denoted in the image below.
+![NVS-SMARTIR-W2](/assets/images/nivian_NVS-SMARTIR-W2_pinout.jpg)
