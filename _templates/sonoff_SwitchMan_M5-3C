@@ -1,6 +1,6 @@
 ---
 date_added: 2021-12-30
-title: Sonoff SwitchMan M5-C3 3 Gang
+title: Sonoff SwitchMan M5-3C 3 Gang
 model: ESP32D0-MSW-T5
 image: /assets/images/sonoff_SwitchMan_M5-3C.jpg
 template32: '{"NAME":"Sonoff M5-3C","GPIO":[33,0,0,0,32,576,0,0,0,0,0,34,0,0,416,225,0,0,226,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
