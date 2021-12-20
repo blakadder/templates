@@ -5,7 +5,7 @@ model: XY-WPCL
 image: /assets/images/sinilink_XY-WPCL.jpg
 template9: '{"NAME":"XY-WPCL","GPIO":[1,1,320,1,32,224,0,0,160,0,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO114 1 | SwitchMode1 2"}' 
 link: https://www.aliexpress.com/item/1005003226261034.html
-link2: https://www.banggood.com/XY-WPCL-Wireless-WIFI-PC-Remote-Switch-Controller-Computer-Remote-Switch-Controller-Wireless-WIFI-Smart-Controller-Timing-Delay-Reboot-p-1897337.html?cur_warehouse=CN
+link2: https://www.banggood.com/XY-WPCL-Wireless-WIFI-PC-Remote-Switch-Controller-Computer-Remote-Switch-Controller-Wireless-WIFI-Smart-Controller-Timing-Delay-Reboot-p-1897337.html
 mlink: 
 flash: serial
 category: misc

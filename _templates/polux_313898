@@ -1,0 +1,17 @@
+---
+date_added: 2021-12-19
+title: Polux RGBCCT 
+model: 313898
+image: /assets/images/polux_313898.jpg
+template9: '{"NAME":"Polux Wi-Fi SM","GPIO":[17,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":37}' 
+link: https://www.polux.sklep.pl/wi-fi-smart-led-tasma-2m-wwcw-rgb-8w-680lm-tuyasmart-p-1363.html
+link2: 
+mlink: https://www.polux.sklep.pl/wi-fi-smart-led-tasma-2m-wwcw-rgb-8w-680lm-tuyasmart-p-1363.html
+flash: serial
+category: light
+type: LED Strip
+standard: eu
+chip: TYWE3S
+---
+
+Button is connected to GPIO0, so the button can be used on powering stage for flash mode. 
