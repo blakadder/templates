@@ -5,7 +5,7 @@ model: NVS-SMARTIR-W2
 image: /assets/images/nivian_NVS-SMARTIR-W2.png
 template9: '{"NAME":"Nivian NVS-SMARTIR-W2","GPIO":[0,3200,0,3232,320,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.amazon.de/gp/product/B08XC3X4H7
-link2: https://de.aliexpress.com/item/1005003342449611.html
+link2: https://www.aliexpress.com/item/1005003342449611.html
 mlink: https://www.nivianhome.com/en/product/nvs-smartir-w/
 flash: serial
 category: misc
