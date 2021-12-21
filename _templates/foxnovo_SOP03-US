@@ -1,0 +1,16 @@
+---
+date_added: 2021-12-21
+title: Foxnovo IP44 3AC
+model: SOP03-US
+image: https://images-na.ssl-images-amazon.com/images/I/61bvu56VzpL._SL1200_.jpg
+template9: '{"NAME":"SOP03-US","GPIO":[0,0,0,226,320,321,0,0,224,32,225,0,0,0],"FLAG":0,"BASE":18}'
+link: https://www.amazon.com/dp/B07SJD2Y54
+link2:
+mlink:
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: us
+chip: TYWE2S
+---
+Pry out rubber screw covers and use a small Y2 or flat head screwdriver to remove the security screws. Remove the PC board by removing 4 more security screws (two holding cord and two holding the PC board).  Make/solder temporary wires to TYWE2S microcontroller board on GND, VCC, TX, RX and IO0 (GPIO0) jumpered to ground and Tasmotize.
