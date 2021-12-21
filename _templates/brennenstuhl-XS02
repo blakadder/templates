@@ -1,8 +1,8 @@
 ---
 date_added: 2020-01-04
-title: Brennenstuhl 
-model: WA 3000 XS02
-image: https://images-na.ssl-images-amazon.com/images/I/41qFOhR3yWL.jpg
+title: Brennenstuhl WA 3000
+model: XS02
+image: /assets/images/brennenstuhl-XS02.jpg
 template: '{"NAME":"WA 3000 XS02","GPIO":[0,0,0,0,21,17,0,0,158,52,0,0,0],"FLAG":0,"BASE":61}' 
 link: https://www.amazon.de/dp/B07SPVTKX5/
 link2: https://www.manomano.de/catalogue/p/brennenstuhl-connect-wifi-steckdose-wa-3000-xs01-sprachsteuerung-ueber-amazon-alexa-oder-google-assistant-1294850-16249517

@@ -6,6 +6,7 @@ image: /assets/images/v-tac_VT-5154.jpg
 template9: '{"NAME":"V-TAC VT-5154","GPIO":[0,0,0,0,0,0,0,0,4065,0,4032,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07WSNW3HZ
 link2: https://www.amazon.co.uk/V-tac-VT-5154-WiFi-smart-lamp/dp/B07WSNW3HZ
+link3: https://www.manomano.de/catalogue/p/5w-smart-home-rgb-led-leuchtmittel-alexa-470-lumen-vt-5154-14056171
 mlink: https://www.v-tac.eu/
 flash: tuya-convert
 category: bulb

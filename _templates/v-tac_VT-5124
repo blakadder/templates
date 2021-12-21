@@ -5,7 +5,7 @@ model: VT-5124
 image: /assets/images/v-tac_VT-5124.jpg
 template9: '{"NAME":"V-TAC VT-5124","GPIO":[0,0,0,0,0,0,0,0,4065,0,4032,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/gp/product/B07WVRFDD2/
-link2: 
+link2: https://www.manomano.de/catalogue/p/v-tac-smarthome-vt-5124-led-wifi-smart-lamp-45-w-rgb-w-e27-funktioniert-mit-amazon-alexa-und-google-home-assistan-31191526
 mlink: https://www.v-tac.eu/products/smart-home/led-bulbs/led-bulb-4-5w-e27-g45-smart-rgb-white-warm-white-detail.html
 flash: tuya-convert
 category: bulb

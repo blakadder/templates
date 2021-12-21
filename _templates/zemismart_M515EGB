@@ -5,7 +5,7 @@ model: M515EGB
 image: /assets/images/zemismart_M515EGB.jpg
 template: '{"NAME":"Zemismart M515EGB","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4000960070851.html
-link2: 
+link2: https://www.manomano.de/catalogue/p/tuya-wifi-m515egb-intelligenter-zugperlen-vorhangmotor-intelligentes-haushaltshaus-hotel-elektrische-vorhangmotoren-app-steuerung-sprachsteuerung-leise-kompatibel-mit-alexa-google-home-mit-usb-wlan-empfangerohne-fernbedi-31256058
 mlink: https://www.zemismart.com/
 flash: tuya-convert
 category: cover
