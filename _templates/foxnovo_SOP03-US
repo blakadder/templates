@@ -1,0 +1,16 @@
+---
+date_added: 2021-12-22
+title: Foxnovo 
+model: SOP03-US
+image: /assets/images/foxnovo_SOP03-US.jpg
+template9: '{"NAME":"SOP03-US","GPIO":[0,0,0,226,320,321,0,0,224,32,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07SJD2Y54
+link2: 
+mlink: http://foxnovo.com/index.php/index/detail/index/id/96
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: us
+chip: TYWE2S
+---
+Pry out rubber screw covers and use a small Y2 or flat head screwdriver to remove security screws. Remove the PCB by removing 4 more security screws (2 holding the plug, and two on either side of the board). Solder temporary wires to the TYWE2S microcontroller board on GND, VCC, TX, RX, and a jumper cable between ground and IO0 (GPIO0). 
