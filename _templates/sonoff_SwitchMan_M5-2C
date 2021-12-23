@@ -1,0 +1,18 @@
+---
+date_added: 2021-12-30
+title: Sonoff SwitchMan M5-2C 2 Gang
+model: ESP32D0-MSW-T5
+image: /assets/images/sonoff_SwitchMan_M5-2C.jpg
+template32: '{"NAME":"Sonoff SwitchMan 2C","GPIO":[0,0,0,0,32,576,0,0,0,0,0,33,0,0,416,225,0,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+link: https://itead.cc/product/sonoff-switchman-smart-wall-switch-m5/
+link2: 
+mlink: https://sonoff.tech/product/smart-wall-swtich/ifan03-2/
+flash: serial
+category: switch
+type: Switch
+standard: [eu, uk]
+---
+
+[Instructions at notenoughtech.com](https://notenoughtech.com/home-automation/flashing-tasmota-on-sonoff-switchman/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gml02HqHZUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
