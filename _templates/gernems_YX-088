@@ -88,7 +88,7 @@ Backlog WebButton1 Fan; WebButton2 Light; FriendlyName1 Diffuser Fan; FriendlyNa
     preset_mode_command_template: >-
       {% if value == "2h timer" %}
         {{ 0 }}
-      {% else if value == "4h timer" %}
+      {% elif value == "4h timer" %}
         {{ 1 }}
       {% else %}
         {{ 2 }}
