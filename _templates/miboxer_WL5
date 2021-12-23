@@ -6,8 +6,9 @@ type: LED Controller
 standard: global
 link: https://www.aliexpress.com/item/32921259478.html
 image: https://cdn.ledbe.com/image/cache/catalog/MiBoxer/WL5/MiBoxer-WL5-750x930.jpg
-template9: '{"NAME":"WL5","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
-flash: serial
+template9: '{"NAME":"WL5","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"DimmerRange 100,1024 | TuyaMCU 11,20 | TuyaMCU 26,21 | TuyaMCU 21,23 | TuyaMCU 24,24 | TuyaMCU 81,26 | TuyaMCU 98,101"}'
+flash: replace
+chip: WR3
 ---
 
 ## Hardware
