@@ -1,0 +1,42 @@
+---
+title: MiBoxer WL5 LED Controller
+model: WL5
+category: light
+type: LED Controller
+standard: global
+link: https://www.aliexpress.com/item/32921259478.html
+image: https://cdn.ledbe.com/image/cache/catalog/MiBoxer/WL5/MiBoxer-WL5-750x930.jpg
+template9: '{"NAME":"WL5","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
+flash: serial
+---
+
+## Hardware
+
+The chip used on this board is a WR3 or a WBR3, and requires a transplant. It cannot be flashed. The daughterboard for the SoC is compatible with the ESP12-S. Other formats may be compatible, but may require jumper wires.
+
+![WR3 Board](https://user-images.githubusercontent.com/45381/85151076-9f212280-b253-11ea-92cf-6ed67d046bad.jpg)
+![WBR3 Board](https://cdn.discordapp.com/attachments/790917300210368562/919281733390729216/WL5.jpg)
+
+The TuyaMCU on board requires the following settings for an RGB strip.
+
+```console
+Backlog DimmerRange 100,1024; TuyaMCU 11,20; TuyaMCU 26,21; TuyaMCU 21,23; TuyaMCU 24,24; TuyaMCU 81,26; TuyaMCU 98,101;
+```
+
+## Serial Flashing
+
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
+
+## Wiring
+
+Make sure to press the switch and select the mode corresponding to the strip you are using. ie. To use an RGB strip, you press the switch until it flashes red. The setting will stick between restarts. The mode cannot be changed from Tasmota as there are no connection between it and the switch. You can solder a wire from a free GPIO to the switch and change the mode by pulsing the GPIO from Tasmota.
+
+| Light Color | Mode |
+| --- | --- |
+| White Flashing | Single Color Mode |
+| Yellow Flashing | Dual White Mode |
+| Red Flashing | RGB Mode |
+| Green Flashing | RGBW Mode |
+| Blue Flashing | RGB+CCT Mode |
+
+![WL5 Manual](https://user-images.githubusercontent.com/367863/147174536-5f7c5325-ffe2-4585-a1e4-57e6229a3355.jpg)
