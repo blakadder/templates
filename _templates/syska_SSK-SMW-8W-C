@@ -10,6 +10,6 @@ mlink: https://syska.co.in/syska-ssk-smw-8w-with-multi-color-android-ios-support
 flash: serial
 category: rgbw
 type: Bulb
-standard: e27
+standard: b22
 ---
 [GitHub link to instructions](https://github.com/sunishnet/tasmota-hacks/tree/main/SyskaSSK-SMW-8W-C/ 'GitHub link')
