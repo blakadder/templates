@@ -10,5 +10,5 @@ mlink:
 flash: tuya-convert
 category: bulb
 type: Dimmable
-standard: a19
+standard: e26
 ---
