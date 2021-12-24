@@ -1,0 +1,14 @@
+---
+date_added: 2021-12-23
+title: Globe 10W 800lm 3000K
+model: 34324
+image: /assets/images/globe_34324.jpg
+template9: '{"NAME":"Globe 34324","GPIO":[0,0,0,0,0,416,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.canadiantire.ca/en/pdp/globe-a19-led-dimmable-warm-white-smart-bulb-3995166p.html?rrec=true#spc
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: Dimmable
+standard: a19
+---
