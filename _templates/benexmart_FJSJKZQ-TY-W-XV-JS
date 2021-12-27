@@ -32,12 +32,3 @@ Automatic turn off after 15 minutes (900 Seconds)
 Rule1 ON power1#state=1 DO RuleTimer1 900 ENDON ON Rules#Timer=1 DO Power1 off ENDON
 Rule1 1
 ```
-
-
-"
-NOTES:
-"The item has no Manufacture or model indicators
-
-Info is from the AliExpress listing
-
-Grab the images from the blog post or the vendor listing."
