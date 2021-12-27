@@ -1,0 +1,43 @@
+---
+date_added: 2021-12-26
+title: Benexmart Irrigation Timer
+model: FJSJKZQ-TY-W-XV-JS
+image: /assets/images/
+template9: '{"NAME":"FJSJKZQ","GPIO":[0,0,0,0,32,0,0,0,288,0,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001244982369.html
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: Miscellaneous
+standard: global
+chip: TYWE1S
+---
+Open device as per [guide].(https://blog.ardill.com/2021/12/benexmart-irrigation-timer-tasmota.html)
+
+Timer must be flashed via the regular serial method. Ensure your USB/Serial TTL adapter is set to 3.3v. No isolation needed. The flasher will provide sufficient power.
+
+**Template**
+```
+{"NAME":"FJSJKZQ","GPIO":[0,0,0,0,32,0,0,0,288,0,224,0,0,0],"FLAG":0,"BASE":18}
+```
+**Supplemental console commands**
+
+Set red led to reflect WiFi/MQTT connection state (optional)
+```
+LedPower 1
+```
+Automatic turn off after 15 minutes (900 Seconds)
+```
+Rule1 ON power1#state=1 DO RuleTimer1 900 ENDON ON Rules#Timer=1 DO Power1 off ENDON
+Rule1 1
+```
+
+
+"
+NOTES:
+"The item has no Manufacture or model indicators
+
+Info is from the AliExpress listing
+
+Grab the images from the blog post or the vendor listing."

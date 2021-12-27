@@ -1,0 +1,14 @@
+---
+date_added: 2021-12-25
+title: FrameXX IO 16A 
+model: FXIOWR16
+image: /assets/images/framexx_FXIOWR16.jpg
+template9: '{"NAME":"FrameXX FXIOWR16","GPIO":[32,0,0,0,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":49}' 
+link: https://www.alza.sk/framexx-io-inteligentna-zasuvka-16a-d5552646.htm#popis
+link2: https://www.alzashop.com/framexx-io-smart-socket-16a-d5552646.htm
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---

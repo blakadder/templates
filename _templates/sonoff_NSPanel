@@ -1,5 +1,5 @@
 ---
-date_added: 2021-12-16
+date_added: 2021-12-27
 title: Sonoff NSPanel Touch
 model: E32-MSW-NX
 image: /assets/images/sonoff_NSPanel.jpg
@@ -26,9 +26,9 @@ The five needed pins (3V3, RX, TX, GPIO0 and GND) can be easily identified.
 
 ![Pins](/assets/images/sonoff_NSpanel_pinout.jpg)
 
-Download a custom built [`tasmota32-nspanel.bin`](https://github.com/blakadder/nspanel/raw/main/tasmota32-nspanel.bin) using [recommended](https://tasmota.github.io/docs/ESP32/#flashing) ESP32 flashing methods.
+Download and flash a custom built [`tasmota32-nspanel.bin`](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32-nspanel.bin) or install using [Tasmota Web Installer](http://tasmota.github.io/install).
 
-If using standard Tasmota32 builds: Current implementation of serial in Arduino core has a bug which will will boot loop the device on soft reset. Power cycling the device solves the issue. PSRAM is also not supported.
+***If using standard Tasmota32 builds:*** Current implementation of serial in Arduino core has a bug which can boot loop the device on soft reset. Power cycling the device solves the issue. PSRAM is also not supported.
 
 ## Configuration
 

@@ -13,4 +13,4 @@ type: Plug
 standard: eu
 chip: TYWE2S
 ---
-Open Device -> desold platina -> flash TYWE2S 
+The decive is hard to open - no screws - case is glued. After opening the case main PCB requires first to unsolder the two female power pins. Remove the main PCB and you get access to the TYWE2S WiFi Module. Solder 4 wires (Vcc, GND, Rx, Tx) to the board, put GPIO 0 on TYWE2S to GND, and apply 3.3 V power for flashing.
