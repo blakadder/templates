@@ -1,0 +1,17 @@
+---
+date_added: 2021-12-28
+title: ESP-C3-C05 ESP32-C3 4Mb
+model: DT-ESP-C05
+image: /assets/images/DT-ESP-C05.jpg
+link: https://www.aliexpress.com/item/1005003691435557.html
+mlink: 
+flash: serial
+category: diy
+type: Module
+standard: global
+---
+Module is pin compatible with TYWE2L, WR2L, WB2L, WBR2L
+
+![Pinout](/assets/images/DT-ESP-C05_pinout.jpg)
+
+[Datasheet](/assets/DT-ESP-C05_Datasheet.pdf)
