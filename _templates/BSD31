@@ -11,5 +11,6 @@ flash: serial
 category: plug
 type: Plug
 standard: [uk, eu, us, au, jp, br, is, it, cn, fr]
+chip: CB2S
 ---
 This plug has single button which can be used to turn on/off AC and USBs independently.  Single press toggles AC plug and double press toggles both USBs.
