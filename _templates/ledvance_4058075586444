@@ -1,0 +1,24 @@
+---
+date_added: 2021-12-28
+title: Ledvance Smart+ CH
+model: 4058075586444
+image: /assets/images/ledvance_4058075586444.jpg
+template9: '{"NAME":"Ledvance Plug CH","GPIO":[0,0,0,288,32,0,0,0,2656,224,2720,0,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: https://www.ledvance.com/consumer/products/smart-home/smart-home-products-with-wifi-technology/smart-home-components/swiss-type-plug-with-smart-socket-to-control-non-smart-devices-with-wifi-technology-c141296
+mlink: 
+flash: replace
+category: plug
+type: Plug
+standard: ch
+chip: WB2S
+---
+This device is very similar to the [EU version](https://templates.blakadder.com/ledvance_4058075522800.html)
+
+It offers power metering with a BL0937 chip, however the voltage reading was only achievable by using the HLWBL CF1 component in the template.
+Consider power monitoring calibration for accurate readings.
+
+Case opening starts with the removal to the small white rubber plug with an ale or small screw driver on the back side. Behind is a triangle shaped screw, to be removed. The case is not glued and the back plate is just clipped in to the case. It can be removed by inserting a thin applicator or flat screw driver to bend the side walls and the wall opposite to the screw gently away until the the clips release the plate.
+
+The soldered chip module WB2S (which can't be flashed with tasmota) needs to be replaced with a TYWE2S (ESP compatible with matching pinout - get it on ). With respective tooling and basic solder know-how flashing is pretty straight forward (https://www.bfrankict.net/index.php/2021/01/31/tywe2s-serial-flashing/ - consider the comment section as well to get the chip into flash mode:  bridge pins  IO0 + GND).
+
