@@ -16,7 +16,7 @@ chip: TYWE3S
 ---
 
 To get the PIR to send a proper on/off status, set the switch mode to 2
-```
+```console
 SwitchMode1 2
 ```
 
