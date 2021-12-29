@@ -1,0 +1,31 @@
+---
+date_added: 2021-12-29
+title: Tuya Alarm PIR Motion
+model: CT61W
+image: /assets/images/CT61W.jpg
+template9: '{"NAME":"CT61W","GPIO":[0,0,0,0,0,0,0,0,0,0,480,256,160,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005003188707074.html
+link2: https://www.banggood.com/Tuya-CT61W-Infra-Detection-Alarm-Buzzer-Security-Protection-Escape-Prevent-Pet-Interference-Light-Alarm-Sensor-for-Home-Office-Garages-Shops-APP-Control-p-1831338.html
+link3: https://www.walmart.com/ip/WIFI-PIR-Motion-Sensor-Wireless-Passive-Infrared-Detector-Burglar-Alarm-Sensor-Tuya-APP-Control-Smart-Home-Security-Detection/228699474
+mlink: 
+flash: serial
+category: sensor
+type: Sensor
+standard: global
+chip: TYWE3S
+---
+
+To get the PIR to send a proper on/off status, set the switch mode to 2
+```
+SwitchMode1 2
+```
+
+Buzzer is the alarm speaker
+
+Switch1 is the PIR sensor
+
+Relay1 is for the led light on/off
+
+Not sure if the side button should be exposed somehow
+
+Works powered over USB-C without the battries (they should be used as backup as instructed in the manual)
