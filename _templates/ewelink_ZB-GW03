@@ -7,6 +7,7 @@ template32: '{"NAME":"ZB-GW03-V1.2","GPIO":[0,0,3552,0,3584,0,0,0,5793,5792,320,
 link: https://www.aliexpress.com/item/1005003065061179.html
 link2: https://www.amazon.de/dp/B094JKVLNR
 link3: https://www.aliexpress.com/item/1005003064957472.html
+link4: https://www.banggood.com/GW-03-Wireless-ZB-ESP32-CPU-Dual-Core-240MHz-Intelligent-Controller-Ethernet-Connection-eWelink-Smart-Gateway-p-1925237.html
 mlink: https://www.alibaba.com/product-detail/Google-Home-Automation-Iot-Wired-Bridge_1600326942432.html
 flash: serial
 category: misc
