@@ -15,6 +15,8 @@ standard: global
 chip: TYWE3S
 ---
 
+My device came with a blue led cover due the image is for red.
+
 To get the PIR to send a proper on/off status, set the switch mode to 2
 ```console
 SwitchMode1 2
@@ -29,3 +31,8 @@ Relay1 is for the led light on/off
 Not sure if the side button should be exposed somehow
 
 Works powered over USB-C without the battries (they should be used as backup as instructed in the manual)
+
+![Inside Top](/assets/images/CT61W_inside1.jpg)
+![Inside Bottom](/assets/images/CT61W_inside2.jpg)
+![Box Top](/assets/images/CT61W_box_top.jpg)
+![Box Bottom](/assets/images/CT61W_box_bottom.jpg)
