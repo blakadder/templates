@@ -5,9 +5,10 @@ model: Logix3
 category: switch
 type: Switch
 standard: us
-template: '{"NAME":"Logix3","GPIO":[1,1,1,1,34,33,1,1,1376,32,1312,1,1,1],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Logix3","GPIO":[1,1,1,1,34,33,1,1,1376,32,1312,1,1,1],"FLAG":0,"BASE":18}' 
 image: /assets/images/logix3.jpg
 link: https://logix-home.com/ols/products/logix3
 mlink: https://github.com/logichousepcb/Multi-Button-WS2812-RGB-esp8266-Decora/
 ---
 
+![PCB](/assets/images/logix3_pcb.jpg)![PCB](/assets/images/logix3_pcb2.jpg)
