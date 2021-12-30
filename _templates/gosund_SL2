@@ -4,7 +4,7 @@ title: Gosund NiteBird 5m RGB
 model: SL2
 image: /assets/images/gosund_SL2.jpg
 template: '{"NAME":"Gosund LED Str","GPIO":[0,0,0,0,17,38,0,0,37,39,0,0,0],"FLAG":3,"BASE":18}' 
-template9: '{"NAME":"gosund SL2","GPIO":[1,1,1,1,99,417,1,1,416,418,1,1,1,1],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"gosund SL2","GPIO":[1,1,1,1,35,417,1,1,416,418,1,1,1,1],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B08CMMWSPR
 link2: https://www.amazon.de/dp/B085L2M9N8
 link3: https://www.alza.de/nitebird-smart-led-streifen-sl2-v2-d6370966.htm
