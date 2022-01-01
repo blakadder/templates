@@ -3,7 +3,7 @@ date_added: 2021-12-29
 title: Tuya Alarm PIR
 model: CT61W
 image: /assets/images/CT61W.jpg
-template9: '{"NAME":"CT61W","GPIO":[0,0,0,0,0,0,0,0,0,0,480,256,160,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"CT61W","GPIO":[0,0,0,0,0,0,0,0,0,160,480,256,0,0],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/1005003188707074.html
 link2: https://www.banggood.com/Tuya-CT61W-Infra-Detection-Alarm-Buzzer-Security-Protection-Escape-Prevent-Pet-Interference-Light-Alarm-Sensor-for-Home-Office-Garages-Shops-APP-Control-p-1831338.html
 link3: https://www.walmart.com/ip/WIFI-PIR-Motion-Sensor-Wireless-Passive-Infrared-Detector-Burglar-Alarm-Sensor-Tuya-APP-Control-Smart-Home-Security-Detection/228699474
