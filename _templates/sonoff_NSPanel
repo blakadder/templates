@@ -40,9 +40,9 @@ Download the NSPanel driver file [`nspanel.be`](https://raw.githubusercontent.co
 
 ![Upload driver](/assets/images/sonoff_NSpanel_driver.jpg)
 
-To load the driver on startup you can either:
-- change the filename to `autoexec.be`
-- **Create and edit new file** named `autoexec.be` with a line `load("nspanel")`
+To load the driver on startup:
+- **Create and edit new file** named `autoexec.be` with a line `load("nspanel.be")`
+- change the filename to `autoexec.be` (seems this is not working correctly on Tasmota v10)
 
 ![autoexec.be](/assets/images/sonoff_NSpanel_autoexec.jpg)
 
