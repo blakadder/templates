@@ -1,0 +1,14 @@
+---
+date_added: 2021-12-31
+title: KingArt Gang Switch
+model: KING-L3
+image: /assets/images/
+template9: '{"NAME":"KING-L3","GPIO":[0,0,0,0,226,225,0,0,224,164,165,0,167,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001123839172.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---

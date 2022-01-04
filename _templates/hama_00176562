@@ -1,0 +1,15 @@
+---
+date_added: 2021-12-30
+title: Hama 16A
+model: 00176562
+image: /assets/images/hama_00176562.jpg
+template9: '{"NAME":"Hama 00176562","GPIO":[0,0,0,0,32,288,0,0,0,289,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07QL38J2S
+link2: https://www.idealo.de/preisvergleich/Typ/4047443416186.html
+link3: https://www.manomano.fr/catalogue/p/hama-00176562-prise-intelligente-blanc-3680-w-26905186
+mlink: https://www.hama.com/00176562/hama-wifi-socket-3680w-16a
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

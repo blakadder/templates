@@ -1,0 +1,15 @@
+---
+date_added: 2022-01-04
+title: Uniplay Universal Remote
+model: 
+image: /assets/images/uniplay_ir_blaster.jpg
+template9: '{"NAME":"Uniplay IR","GPIO":[1,3200,1,3232,576,1088,0,0,320,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.amazon.com/gp/product/B087G4TNZN
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: IR Controller
+standard: us
+---
+Requires infrared firmware: http://ota.tasmota.com/tasmota/release/tasmota-ir.bin.gz
