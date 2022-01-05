@@ -1,0 +1,14 @@
+---
+date_added: 2022-01-04
+title: Nous 16A 
+model: A1T
+image: /assets/images/nous_A1T.jpg
+template9: '{"NAME":"NOUS A1T","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+link: https://www.amazon.de/gp/product/B0054PSIPA
+link2: 
+mlink: https://nous.technology/product/a1t.html
+flash: preflashed
+category: plug
+type: Plug
+standard: eu
+---

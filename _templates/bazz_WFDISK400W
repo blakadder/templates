@@ -1,0 +1,16 @@
+---
+date_added: 2022-01-05
+title: BAZZ 4" Recessed 
+model: WFDISK400W
+image: /assets/images/bazz_WFDISK400W.jpg
+template9: '{"NAME":"WFDISK400W","GPIO":[0,0,0,0,420,419,0,0,416,417,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bazzsmarthome.ca/products/4-smart-wifi-rgb-led-recessed-light-fixture-white
+link2: 
+mlink: https://www.bazzsmarthome.ca/products/4-smart-wifi-rgb-led-recessed-light-fixture-white
+flash: serial
+category: light
+type: Downlight
+standard: us
+chip: TYWE2S
+---
+The controller is a TYWE2S to open the led recessed light only four phillips screws are used you will need to unsolder the controller from the board inside the LED unit with a hot air soldering iron. I have heated under the board until le module became free there is around 6 solder point under the controller.
