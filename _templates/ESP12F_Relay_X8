@@ -6,6 +6,7 @@ image: /assets/images/ESP12F_Relay_X8.jpg
 template9: '{"NAME":"ESP12F_Relay_X8","GPIO":[229,1,1,1,230,231,0,0,226,227,225,228,224,1],"FLAG":0,"BASE":18}' 
 link: https://www.banggood.com/5V-or-7-28V-Power-Supply-8-Channel-ESP8266-WIFI-8-way-Relay-Module-ESP-12F-Development-Board-Secondary-Development-Board-p-1833055.html
 link2: https://www.aliexpress.com/item/1005002260368358.html
+link3: https://mediarath.de/collections/tasmota-gerate/products/lc-technology-esp8266-esp-12f-wifi-8-kanal-relais-dc5v-dc7-28v-tasmota
 mlink: 
 flash: serial
 category: relay

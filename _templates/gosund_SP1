@@ -6,6 +6,7 @@ type: Plug
 standard: eu
 link: https://www.aliexpress.com/item/1005002761097441.html
 link2: https://www.banggood.com/2pcs-Gosund-SP1-Smart-plug-WiFi-Socket-Power-Monitor-Timing-Function-Tuya-APP-Remote-Control-Voice-Control-Works-With-Alexa-And-Google-Home-EU-Plug-p-1894132.html
+link3: https://mediarath.de/search?q=Gosund+SP1+16A+Tasmtoa
 image: https://user-images.githubusercontent.com/5904370/54648409-70dbf280-4aa6-11e9-8429-a784cf2c6750.png
 template9: '{"NAME":"Gosund SP1 v23","GPIO":[0,321,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":55}' 
 mlink: https://www.alibaba.com/product-detail/Tuya-App-Eu-Intelligent-Smart-Wifi_1600197259983.html

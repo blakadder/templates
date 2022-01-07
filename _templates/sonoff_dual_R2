@@ -10,6 +10,7 @@ link: https://itead.cc/product/sonoff-dualr2-wifi-wireless-smart-switch/
 link2: https://www.aliexpress.com/item/1005001526232428.html
 link3: https://www.banggood.com/SONOFF-Dual-Channel-DIY-WIFI-Wireless-APP-Remote-Control-Switch-Socket-AC-90-250V-For-Smart-Home-p-1138790.html
 link4: https://www.amazon.de/dp/B06XST8B83/
+link5: https://mediarath.de/collections/tasmota-gerate/products/sonoff-dual-r2-wifi-smart-switch-tasmota-alexa-kompatibel-iobroker-neu
 ---
 Sonoff Dual R2 is the replacement for Sonoff Dual. Compared to the Dual the main differences/improvements for R2 are:
 * As the second microcontroller has been removed both relays are now controlled directly by an ESP8285

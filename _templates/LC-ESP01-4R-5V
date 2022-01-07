@@ -9,6 +9,7 @@ link: https://www.aliexpress.com/item/4000340622497.html
 image: https://user-images.githubusercontent.com/5904370/63218166-66a54980-c155-11e9-90ef-189c56e0ae0f.png
 template: '{"NAME":"LC-Tech_4CH ","GPIO":[52,255,17,255,0,0,0,0,21,22,23,24,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/dp/B07H4GPWP9
+link3: https://mediarath.de/collections/tasmota-gerate/products/lc-technology-5v-4-kanal-relais-4-channel-relay-esp8266-wifi-tasmota-neu
 mlink: http://www.chinalctech.com/cpzx/Programmer/427.html 
 ---
 ### Flashing

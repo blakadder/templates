@@ -12,7 +12,7 @@ link: https://itead.cc/product/sonoff-ifan03-wi-fi-ceiling-fan-and-light-control
 link2: https://www.banggood.com/SONOFF-IFan03-AC100-240V-5060Hz-WiFi-Ceiling-Fan-And-Light-Controller-with-RM433-RF-Remote-Controller-p-1496747.html
 link4: https://www.amazon.com/gp/product/B07TRTG8PS
 link3: https://www.aliexpress.com/item/4000174097954.html
-link5: https://www.manomano.de/p/wifi-controller-sonoff-ifan03-fernsteuerung-luefter-lampen-13618053
+link5: https://mediarath.de/collections/tasmota-gerate/products/sonoff-ifan03-wifi-433mhz-ventilator-licht-steuerung-tasmota-iobroker
 ---
 Disable buzzer with command `SetOption67 0`
 

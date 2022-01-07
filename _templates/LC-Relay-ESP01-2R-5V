@@ -9,6 +9,7 @@ image: https://user-images.githubusercontent.com/5904370/73099948-d2ea5d00-3eec-
 template: '{"NAME":"LC-ESP01-2R-5V","GPIO":[0,148,0,149,0,0,0,0,21,22,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.banggood.com/5V-ESP8266-Dual-WiFi-Relay-Module-Internet-Of-Things-Smart-Home-Mobile-APP-Remote-Switch-p-1270421.html
 link2: https://www.amazon.com/WINGONEER%C2%AE-2-Channel-WiFi-Relay-Module/dp/B07H4H4MPK
+link3: https://mediarath.de/collections/tasmota-gerate/products/lc-technology-5v-2-kanal-relais-2-channel-relay-esp8266-wifi-tasmota-neu
 mlink: http://www.chinalctech.com/m/view.php?aid=24
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>

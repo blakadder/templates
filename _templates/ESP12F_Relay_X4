@@ -6,6 +6,7 @@ image: /assets/images/ESP12F_Relay_X4.jpg
 template9: '{"NAME":"ESP12F_Relay_X4","GPIO":[1,1,320,1,1,321,1,1,226,227,225,1,224,1],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001644477508.html
 link2: https://www.banggood.com/AC-or-DC-Power-Supply-ESP8266-WIFI-Four-way-Relay-Module-ESP-12F-Development-Board-Secondary-Development-p-1794113.html
+link3: https://mediarath.de/collections/tasmota-gerate/products/lc-technology-esp8266-esp-12f-wifi-4-kanal-relais-dc5-30v-ac90-250v-tasmota
 mlink: 
 flash: serial
 category: relay
