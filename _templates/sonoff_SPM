@@ -6,7 +6,7 @@ image: /assets/images/sonoff_SPM.jpg
 template32: '{"NAME":"Sonoff SPM (POC2)","GPIO":[1,0,1,0,3200,5536,0,0,1,1,1,0,3232,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,544,1,1,32,1,0,0,1],"FLAG":0,"BASE":1}'
 link: https://itead.cc/product/sonoff-smart-stackable-power-meter/
 link2: https://www.aliexpress.com/item/1005003440092289.html
-link3: https://www.domadoo.fr/fr/peripheriques/5928-sonoff-compteur-de-puissance-intelligent-rail-din-unite-principale.html
+link3: https://www.domadoo.fr/en/peripheriques/5928-sonoff-compteur-de-puissance-intelligent-rail-din-unite-principale.html
 mlink: https://sonoff.tech/product/spm-main-spm-4relay/
 flash: serial
 category: relay
