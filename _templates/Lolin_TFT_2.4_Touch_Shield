@@ -56,11 +56,11 @@ In the Tasmota web interface paste in **Consoles > Console**:
 Backlog 
 DisplayWidth 240; 
 DisplayHeight 320; 
-DisplayMode 0; 
 DisplayRows 40;  
 DisplayCols 34; 
 DisplayRotate 0;  
 DisplayFont 1;
+DisplayMode 0;
 ```
 
 ## Script for buttons
