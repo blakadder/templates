@@ -3,7 +3,7 @@ date_added: 2021-01-12
 title: Yeelight Crystal Pendant
 model: YLDL01YL 
 image: /assets/images/yeelight_YLDL01YL.jpg
-template32: '{"NAME":"Yeelight Meteorite","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,420,0,419,0,0,0,0,417,418,0,0,0,0,0,416,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SO37 128 | SO92 1"}' 
+template32: '{"NAME":"Yeelight Meteorite","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,420,0,419,0,0,0,0,417,418,0,0,0,0,0,416,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SO37 128"}' 
 link: https://www.banggood.com/YEELIGHT-LED-Smart-Meteorite-Chandelier-Pendant-Light-For-Restaurant-Dinner-Room-p-1416328.html
 link2: https://www.aliexpress.com/item/1005002192409971.html
 link3: https://www.amazon.co.uk/dp/B084CVLSGD
@@ -14,9 +14,7 @@ category: light
 type: Light
 standard: global
 ---
-Applying the template will add two SetOptions to allow both PWM lights to be controlled: `SetOption37 128` and `SetOption92 1`
-
-White Light and RGB can be [split](https://tasmota.github.io/docs/Lights/#rgb-and-white-split) for better control.
+Applying the template adds `SetOption37 128` (PWMCT) to [split](https://tasmota.github.io/docs/Lights/#rgb-and-white-split) ambient RGB (top) and main white into two PWM lights for better control.
 
 Notice: there is some variant that changed RED channel from GPIO33 to GPIO22. If yours is always RED, then change manually PWM1 from GPIO33 to GPIO22
 
@@ -26,7 +24,9 @@ Notice: there is some variant that changed RED channel from GPIO33 to GPIO22. If
 - GPIO21 - cold white - PWM4
 - GPIO19 - warm white - PWM5
 - GPIO23 - Night Light (not defined in template)
-- GPIO22 - ON/OFF (function unknown)
+- GPIO22 - ON/OFF, not needed as ON/OFF works via PWM too
+
+While operation without using GPIO22 is simpler, the default if not configured is always on (even with PWM channels at zero), meaning that idle power draw is >1W higher than if this pin is used to fully switch off.
 
 ## Flashing
 ![Pinout](/assets/images/yeelight_YLDL01YL_pinout.jpg)
