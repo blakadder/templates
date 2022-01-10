@@ -13,11 +13,11 @@ link2: https://www.aliexpress.com/item/1005003538055090.html
 link3: 
 ---
 
-This module is pin compatible with ESP-01(S) modules.
+This module is pin compatible with [ESP-01(S)](ESP-01S) modules.
 
 ![Pinout](/assets/images/T01-C3_pinout.jpg)
  
-Onboard LED is on GPIO03
+Onboard LED is on GPIO03.
 
 ## Flashing
 
