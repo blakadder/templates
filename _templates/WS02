@@ -1,0 +1,14 @@
+---
+date_added: 2022-01-09
+title: CCT 12-24V
+model: WS02
+image: /assets/images/WS02.jpg
+template9: '{"NAME":"WS02","GPIO":[0,0,0,0,0,0,0,0,0,417,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32901489191.html
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
