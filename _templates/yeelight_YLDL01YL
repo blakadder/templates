@@ -14,7 +14,7 @@ category: light
 type: Light
 standard: global
 ---
-Applying the template adds `SetOption37 128` (PWMCT) to [split](https://tasmota.github.io/docs/Lights/#rgb-and-white-split) ambient RGB (top) and main white into two PWM lights for better control.
+Applying the template adds `SetOption37 128` (ChannelRemap) to [split](https://tasmota.github.io/docs/Lights/#rgb-and-white-split) ambient RGB (top) and main white into two PWM lights for better control.
 
 Notice: there is some variant that changed RED channel from GPIO33 to GPIO22. If yours is always RED, then change manually PWM1 from GPIO33 to GPIO22
 
@@ -27,6 +27,30 @@ Notice: there is some variant that changed RED channel from GPIO33 to GPIO22. If
 - GPIO22 - ON/OFF, not needed as ON/OFF works via PWM too
 
 While operation without using GPIO22 is simpler, the default if not configured is always on (even with PWM channels at zero), meaning that idle power draw is >1W higher than if this pin is used to fully switch off.
+
+If you configure GPIO22 as a relay, Power1 will become main power, Power2 will become the ambient RGB light on top, and Power3 the main CCT lamp. You can then use this small Berry program, `mainpower.be` to automatically turn on the main power if one of the two light channels are on, and off if both are off.
+```python
+class MainPower
+  var powerstate
+  def init()
+    self.powerstate = 0
+    tasmota.add_rule("Power2#State", / value -> self.setpower(1, value))
+    tasmota.add_rule("Power3#State", / value -> self.setpower(2, value))
+    self.setpower(1, tasmota.get_power()[1] ? 1 : 0)
+    self.setpower(2, tasmota.get_power()[2] ? 1 : 0)
+  end
+  def setpower(channel, statechange)
+    self.powerstate = self.powerstate & (3 - channel) | (channel * statechange)
+    var lamppower = self.powerstate > 0
+    if lamppower != tasmota.get_power()[0]
+      tasmota.set_power(0, lamppower)
+      print("Setting lamp main power: " .. lamppower)
+    end
+  end
+end
+var mainpower=MainPower()
+```
+Store it in the file system, and put `load("mainpower.be")` in `autoexec.be`, or even just put the code in `autoexec.be`. Can save you a bit of energy.
 
 ## Flashing
 ![Pinout](/assets/images/yeelight_YLDL01YL_pinout.jpg)
