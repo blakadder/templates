@@ -1,7 +1,7 @@
 ---
 date_added: 2022-01-10
 title: Hama Mini 
-model: 00176575
+model: '00176575'
 image: /assets/images/hama_00176575.jpg
 template9: '{"NAME":"HAMA 00176575","GPIO":[0,0,0,32,0,2720,0,0,0,576,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B08H7ZZHWV

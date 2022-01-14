@@ -1,7 +1,7 @@
 ---
 date_added: 2021-12-06
 title: Hama Mini
-model: 00176573
+model: '00176573'
 image: /assets/images/hama_00176573.jpg
 template9: '{"NAME":"HAMA 00176573","GPIO":[0,0,0,32,0,0,0,0,0,576,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.sonderpreis-baumarkt.de/renovieren-und-wohnen/leuchten-und-elektrobedarf/steckdosen-und-verlaengerungen/hama-wlan-steckdose-mini-3680w-16a
