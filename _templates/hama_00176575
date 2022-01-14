@@ -1,0 +1,16 @@
+---
+date_added: 2022-01-10
+title: Hama Mini 
+model: 00176575
+image: /assets/images/hama_00176575.jpg
+template9: '{"NAME":"HAMA 00176575","GPIO":[0,0,0,32,0,2720,0,0,0,576,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B08H7ZZHWV
+link2: https://www.idealo.de/preisvergleich/OffersOfProduct/201694266_-176575-hama.html
+mlink: https://www.hama.com/00176575/hama-mini-wlan-socket-with-electricity-consumption-meter-for-voice-app-con
+flash: serial
+category: plug
+type: Plug
+standard: eu
+chip: TYWE2S
+---
+The case is glued, therefore its pretty hard to open. Try to pry it open using a flat screwdriver all around the flat sides. After that move that remove the thermal fuse from the relay. Athorwise it will break when soldering. Because next you need to remove the two female power pins. Afterwards the white cover can be clipped out. Next the two male power pins need to be unsoldered. Remove the main PCB and you get access to the TYWE2S WiFi Module. Solder 4 wires (Vcc, GND, Rx, Tx) to the board, put GPIO 0 on TYWE2S to GND, and apply 3.3 V power for flashing.
