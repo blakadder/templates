@@ -6,6 +6,7 @@ image: /assets/images/klarstein_10034390.jpg
 template: '{"NAME":"Klarstein Bornholm","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.fr/dp/B01MUPY0IH
 link2: https://www.amazon.de/dp/B08C7W82WJ/
+link3: https://www.manomano.de/p/klarstein-bornholm-smart-konvektions-heizgeraet-2000w-wifi-led-display-timer-weiss-15222130
 mlink: https://www.klarstein.eu/
 flash: serial
 category: misc

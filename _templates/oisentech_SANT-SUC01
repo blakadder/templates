@@ -6,6 +6,7 @@ image: /assets/images/oisentech_SANT-SUC01.jpg
 template9: '{"NAME":"PC-Switch-01","GPIO":[32,0,0,0,0,0,0,0,224,544,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/gp/product/B07RTBNQ17/
 link2: https://www.aliexpress.com/item/33042974681.html
+link3: https://www.manomano.de/catalogue/p/app-ewelink-wifi-intelligente-computer-pci-e-schalter-karte-unterstutzt-die-fernsteuerung-der-taktsteuer-app-telefon-unterstutzt-google-home-nest-amazon-alexa-ifttt-sprachsteuerung-mit-fester-platte-2-modell-yc-pci-e02-20071647
 mlink: 
 flash: serial
 category: misc

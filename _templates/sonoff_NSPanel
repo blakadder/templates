@@ -1,12 +1,13 @@
 ---
-date_added: 2021-12-16
+date_added: 2021-12-27
 title: Sonoff NSPanel Touch
 model: E32-MSW-NX
 image: /assets/images/sonoff_NSPanel.jpg
-template32: '{"NAME":"NSPanel","GPIO":[0,0,0,0,3872,0,0,0,0,0,32,0,0,0,0,225,0,480,224,1,0,0,0,33,0,0,0,0,0,0,0,0,0,0,4736,0],"FLAG":0,"BASE":1,"CMND":"ADCParam 2,64000,10000,3950 | Sleep 0 | BuzzerPWM 1"}'
+template32: '{"NAME":"NSPanel","GPIO":[0,0,0,0,3872,0,0,0,0,0,32,0,0,0,0,225,0,480,224,1,0,0,0,33,0,0,0,0,0,0,0,0,0,0,4736,0],"FLAG":0,"BASE":1,"CMND":"ADCParam 2,11200,10000,3950 | Sleep 0 | BuzzerPWM 1"}'
 link: https://itead.cc/product/sonoff-nspanel-smart-scene-wall-switch
 link2: https://www.aliexpress.com/item/1005003594150166.html
 link3: https://www.banggood.com/SONOFF-NSPanel-Smart-Scene-Wall-Switch-EU-US-Wifi-Smart-Thermostat-Display-Switch-All-in-One-Control-for-Alexa-Google-Home-p-1922903.html
+link4: https://www.domadoo.fr/en/box-domotique/5985-sonoff-interrupteur-mural-nspanel-smart-scene-eu.html
 mlink: https://itead.cc/product/sonoff-nspanel-smart-scene-wall-switch
 flash: serial
 category: switch
@@ -25,9 +26,9 @@ The five needed pins (3V3, RX, TX, GPIO0 and GND) can be easily identified.
 
 ![Pins](/assets/images/sonoff_NSpanel_pinout.jpg)
 
-Download a custom built [`tasmota32-nspanel.bin`](https://github.com/blakadder/nspanel/raw/main/tasmota32-nspanel.bin) using [recommended](https://tasmota.github.io/docs/ESP32/#flashing) ESP32 flashing methods.
+Download and flash a custom built [`tasmota32-nspanel.bin`](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32-nspanel.bin) or install using [Tasmota Web Installer](http://tasmota.github.io/install).
 
-If using standard Tasmota32 builds: Current implementation of serial in Arduino core has a bug which will will boot loop the device on soft reset. Power cycling the device solves the issue. PSRAM is also not supported.
+***If using standard Tasmota32 builds:*** Current implementation of serial in Arduino core has a bug which can boot loop the device on soft reset. Power cycling the device solves the issue. PSRAM is also not supported.
 
 ## Configuration
 
@@ -39,11 +40,11 @@ Download the NSPanel driver file [`nspanel.be`](https://raw.githubusercontent.co
 
 ![Upload driver](/assets/images/sonoff_NSpanel_driver.jpg)
 
-To load the driver on startup you can either:
-- change the filename to `autoexec.be`
-- **Create and edit new file** named `autoexec.be` with a line `load("nspanel")`
+To load the driver on startup:
+- **Create and edit new file** named `autoexec.be` with a line `load("nspanel.be")`
+- change the filename to `autoexec.be` (seems this is not working correctly on Tasmota v10)
 
-![autoexec.be](/assets/images/sonoff_NSpanel_autoexec.jpg)
+<!-- ![autoexec.be](/assets/images/sonoff_NSpanel_autoexec.jpg) -->
 
 ## Screen Commands
 

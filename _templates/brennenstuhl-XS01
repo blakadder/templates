@@ -2,10 +2,11 @@
 date_added: 2020-01-04
 title: Brennenstuhl WA 3000 
 model: XS01
-link: https://www.amazon.de/Brennenstuhl-WLAN-Steckdose-erforderlich-intelligente-Zeitschaltuhr/dp/B07SQX5HZ9
 image: /assets/images/brennenstuhl-XS01.jpg
 template: '{"NAME":"WA 3000 XS01","GPIO":[0,0,0,0,21,17,0,0,158,52,0,0,0],"FLAG":0,"BASE":61}' 
-link2: 
+link: https://www.amazon.de/dp/B07SQX5HZ9
+link2: https://www.manomano.de/catalogue/p/brennenstuhl-connect-wifi-steckdose-wa-3000-xs01-sprachsteuerung-ueber-amazon-alexa-oder-google-assistant-1294850-16249517
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/200220308_-connect-wa-3000-xs01-brennenstuhl.html
 mlink: https://www.brennenstuhl.com/en-DE/products/smart-home/wifi-socket-wa-3000-xs01-white-ip20
 flash: tuya-convert
 category: plug

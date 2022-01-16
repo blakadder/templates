@@ -11,5 +11,6 @@ flash: serial
 category: plug
 type: Plug
 standard: uk
-chip: TYWE2S
+chip: WB2S
+unsupported: true
 ---

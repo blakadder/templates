@@ -1,11 +1,11 @@
 ---
 date_added: 2021-02-15
-title: RGB+CCT
+title: RGB+CCT 12-24V
 model: WS05
 image: /assets/images/WS05.jpg
 template9: '{"NAME":"WS05","GPIO":[0,0,0,0,0,420,0,0,418,417,416,419,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.ebay.com/itm/RGB-CCT-RGBWW-LED-WiFi-Controller-IOS-Android-APP-Controlling-lights-by-phone/124381056958?ssPageName=STRK%3AMEBIDX%3AIT&_trksid=p2060353.m2749.l2649
-link: https://www.aliexpress.com/item/32886256433.html
+link: https://www.aliexpress.com/item/32901489191.html
 mlink: 
 flash: serial
 category: light

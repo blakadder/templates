@@ -110,12 +110,27 @@ rule2 1
 
 rule3
 	ON var1#state DO if (var1>79) scale2 %var1%,80,100,0,4; ENDIF ENDON
-	on var2#state do tuyasend1 4,%var2% endon
+	on var2#state do tuyasend4 4,%var2% endon
 rule3 1
 {% endraw %}
 {% endhighlight %}
 
 The above rules will report the current temperature, preset and mode in easy to read MQTT payloads.
+
+{% highlight yaml %}
+{% raw %}
+rule3
+	ON Var1#State==80 DO var2 0 ENDON
+	ON Var1#State==85 DO var2 1 ENDON
+	ON Var1#State==90 DO var2 2 ENDON
+	ON Var1#State==95 DO var2 3 ENDON
+	ON Var1#State==100 DO var2 4 ENDON
+	ON var2#state DO tuyasend4 4,%var2% ENDON"	
+rule3 1
+{% endraw %}
+{% endhighlight %}
+
+If you are using the standard tasmota binary without SUPPORT_IF_STATEMENT, then rule 3 can be substituted as above.
 
 Create the following sensors and switches in your configuration.yaml
 

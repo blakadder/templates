@@ -1,0 +1,15 @@
+---
+date_added: 2021-12-23
+title: Globe 4" 9W
+model: 50359
+image: /assets/images/globe_50359.jpg
+template9: '{"NAME":"Globe RGBCCT Downlight","GPIO":[0,0,0,0,417,416,0,0,420,418,419,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.costco.ca/globe-electric-smart-4-in.-slim-led-recessed-lighting-kit,-2-pack.product.100694352.html
+link2: 
+mlink: 
+flash: replace
+category: light
+type: Downlight
+standard: us
+---
+Module needed is tywe2s 

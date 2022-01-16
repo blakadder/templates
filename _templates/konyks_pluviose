@@ -5,7 +5,7 @@ model: 3770008652033
 image: /assets/images/konyks_pluviose.jpg
 template9: '{"NAME":"Konyks Pluviose","GPIO":[32,0,0,0,0,0,0,0,224,288,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.fr/dp/B07J2R7N5V
-link2: https://www.domadoo.fr/fr/peripheriques/4632-konyks-prise-electrique-exterieure-connectee-wi-fi-pluviose-3770008652033.html
+link2: https://www.domadoo.fr/en/peripheriques/4632-konyks-prise-electrique-exterieure-connectee-wi-fi-pluviose-3770008652033.html
 mlink: https://konyks.com/produit/pluviose/
 flash: tuya-convert
 category: plug

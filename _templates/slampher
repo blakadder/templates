@@ -10,6 +10,7 @@ template: '{"NAME":"Slampher","GPIO":[17,255,0,255,0,0,0,0,21,56,0,0,0],"FLAG":0
 link4: https://www.banggood.com/SONOFF-SlampherR2-E27-RF-WiFi-Smart-Lamp-Holder-Bulb-Adapter-Work-With-Alexa-Google-Home-AC100-240V-p-1547917.html
 link2: https://www.amazon.com/SONOFF-Slampher-433MHz-Compatible-Assistant/dp/B07TRSYJGB
 link3: https://www.aliexpress.com/item/4001228649962.html
+link5: https://mediarath.de/collections/tasmota-gerate/products/sonoff-slampher-r2-e27-wifi-rf-433mhz-smart-lampenhalter-fassung-tasmota
 ---
 ## Serial Flashing
 Complete guide on [Hobbytronics blog](https://blog.hobbytronics.pk/tasmota-sonoff-slampher-local-control/)

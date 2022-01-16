@@ -4,8 +4,8 @@ title: Brennenstuhl Connect Premium-Line
 model: WS PL01
 image: /assets/images/brennenstuhl_WS_PL01.jpg
 template9: '{"NAME":"WS PL01 DE","GPIO":[34,33,0,32,224,225,0,0,288,0,35,289,576,0],"FLAG":0,"BASE":18}' 
-link: https://www.reichelt.de/ip-steckdosenleiste-6-fach-bre-1951160610-p281803.html?&nbc=1
-link2: 
+link: https://www.amazon.de/dp/B082QDKRCC
+link2: https://www.idealo.de/preisvergleich/OffersOfProduct/200900463_-connect-premium-line-6-fach-wifi-1951160610-brennenstuhl.html
 mlink: https://www.brennenstuhl.com/de-DE/produkte/smart-home/brennenstuhl-connect-premium-line-wifi-steckdosenleiste-3m%C2%A0h05vv-f-3g1-5-schwarz-lichtgrau
 flash: tuya-convert
 category: plug

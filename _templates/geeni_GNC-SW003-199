@@ -1,0 +1,27 @@
+---
+date_added: 2022-01-09
+title: Geeni SURGE 6-Outlet Surge Protector
+model: GNC-SW003-199
+image: /assets/images/geeni_GNC-SW003-199.jpg
+template9: '{"NAME":"Geeni GNC-SW003-199","GPIO":[320,0,0,32,226,225,0,0,228,229,227,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.homedepot.ca/product/geeni-surge-smart-wi-fi-surge-protector/1001300848
+link2: https://www.walmart.ca/en/ip/Geeni-SURGE-Smart-Wi-Fi-Surge-Protector/PRD0X9RBHR7KXLT
+mlink: 
+flash: replace
+category: plug
+type: Power Strip
+standard: us
+chip: WB3S
+---
+Replaced WB3S (BK7231T) with ESP-12F flashed with Tasmota.  No pull down resistor on GPIO15 needed.
+
+After replacing WiFi module, one of the relays in the power strip will turn on and off repeatedly but will stop after configuring Tasmota
+
+To enable multipress buttons to control the individual outlets (1 button press for outlet 1, 2 button presses for outlet 2, etc, hold button for 5 seconds for outlet 6), use the following commands in the console:
+
+```console
+SetOption1 1
+SetOption73 1
+Rule1 ON button1#state=10 DO Power1 2 ENDON ON button1#state=11 DO Power2 2 ENDON ON button1#state=12 DO Power3 2 ENDON ON button1#state=13 DO Power4 2 ENDON ON button1#state=14 DO Power5 2 ENDON ON button1#state=3 DO Power6 2 ENDON
+Rule1 1
+```

@@ -1,16 +1,22 @@
 ---
 date_added: 2020-01-04
-title: Brennenstuhl WA 3000 XS02
-image: https://images-na.ssl-images-amazon.com/images/I/41qFOhR3yWL.jpg
+title: Brennenstuhl WA 3000
+model: XS02
+image: /assets/images/brennenstuhl-XS02.jpg
 template: '{"NAME":"WA 3000 XS02","GPIO":[0,0,0,0,21,17,0,0,158,52,0,0,0],"FLAG":0,"BASE":61}' 
-link: https://www.amazon.de/Brennenstuhl-WLAN-Steckdose-erforderlich-intelligente-Zeitschaltuhr/dp/B07SPVTKX5
-link2: 
+link: https://www.amazon.de/dp/B07SPVTKX5/
+link2: https://www.manomano.de/catalogue/p/brennenstuhl-connect-wifi-steckdose-wa-3000-xs01-sprachsteuerung-ueber-amazon-alexa-oder-google-assistant-1294850-16249517
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/200220396_-connect-wa-3000-xs02-brennenstuhl.html
 mlink: https://www.brennenstuhl.com/en-DE/products/smart-home/wifi-socket-wa-3000-xs02-black-ip44
-flash: tuya-convert
+flash: serial
 category: plug
 type: Outdoor Plug
 standard: eu
 ---
 Based on Obi Socket 2 (61), LED and button are not active but present
 
-![](https://user-images.githubusercontent.com/5904370/71765079-751bb400-2ef0-11ea-86a1-5000f1b64ff2.png)
+![Box](https://user-images.githubusercontent.com/5904370/71765079-751bb400-2ef0-11ea-86a1-5000f1b64ff2.png)
+
+![Disassembly](https://user-images.githubusercontent.com/35076818/146847259-ba2c5e70-c698-4c37-a6e8-e39ebcacfa4c.png)
+![Internals](https://user-images.githubusercontent.com/35076818/146846133-bfba7ff4-2256-4c39-a310-ccc0910acd6a.png)
+![Pinout](https://user-images.githubusercontent.com/35076818/146846381-75389cab-7a36-45e8-b2ec-2dba7f7bfdf0.png)

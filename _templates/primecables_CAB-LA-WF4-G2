@@ -1,0 +1,18 @@
+---
+date_added: 2022-01-10
+title: PrimeCables 2 USB  Mini 
+model: CAB-LA-WF4-G2
+image: /assets/images/primecables_CAB-LA-WF4-G2.jpg
+template9: '{"NAME":"CAB-LA-WF4-G2","GPIO":[0,0,0,0,0,320,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.primecables.ca/p-389687-cab-la-wf4-g2-cab-la-wf4-g2
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: us
+chip: TYWE2S
+---
+The 2 USB ports on the left side are not controlled by the smart plug, they are always powered on.
+
+Disassembled plastic housing with a thin plastic pick and spudger.  Had to desolder live and neutral prongs to remove PCB from plastic and then desoldered TYWE2S module to flash with serial.  Resoldered everything back and had to use glue to reassemble plastic housing as it would not stay back together.

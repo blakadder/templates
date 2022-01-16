@@ -5,7 +5,7 @@ model: WS EL01
 image: /assets/images/brennenstuhl_WS-EL01.jpg
 template: '{"NAME":"WS EL01 DE","GPIO":[19,18,0,17,21,22,0,0,52,0,0,53,158],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B082QCHXMF/
-link2: 
+link2: https://www.manomano.de/catalogue/p/brennenstuhl-connect-eco-line-wifi-steckdosenleiste-6-fach-schwarz-zeitschaltuhr-sprachsteuerung-20574947
 mlink: https://www.brennenstuhl.com/de-DE/produkte/smart-home/brennenstuhl-connect-eco-line-wifi-steckdosenleiste-1-5m-h05vv-f3g1-5-schwarz
 flash: tuya-convert
 category: plug

@@ -1,0 +1,15 @@
+---
+date_added: 2021-12-29
+title: Lohas 14W 1350lm
+model: LH-ZN026-B22-6000K
+image: /assets/images/lohas-LH-ZN026-B22-6000K.jpg
+template9: '{"NAME":"Lohas","GPIO":[0,0,0,0,416,0,0,0,0,3008,0,3040,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/gp/product/B07GPFHV9J/
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBW
+standard: b22
+---
+Device flashing pinout is similar to other Lohas bulbs, RX, TX, IO0 and G are marked. 3.3v marked does nothing, so used VCC pin on the Flash memory chip.

@@ -5,7 +5,7 @@ model: WF-WG088
 image: /assets/images/wofea_WF-WG088.jpg
 template9: '{"NAME":"Wofea Garage Door","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/i/4000205785514.html
-link2: 
+link2: https://mediarath.de/collections/tasmota-gerate/products/wofea-wifi-smart-garage-tueroeffner-controller-mit-tuersensor-alexa
 mlink: 
 flash: tuya-convert
 category: cover

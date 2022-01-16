@@ -243,14 +243,16 @@ layout: default
     elsif page.chip contains 'WB2L' 
     or page.chip contains 'WR2L' 
     or page.chip contains 'WBR2L' 
-  %}<a href="DMP-L1">WT-01N</a> 
+    or page.chip contains 'CB2L' 
+  %}<a href="DMP-L1">DMP-L1</a> or <a href="DT-ESP-C05">DT-ESP-C05</a>
   {% 
     elsif page.chip contains 'WB2' 
     or page.chip contains 'WR2' 
     or page.chip contains 'WBR2' 
     or page.chip contains 'WB2S' 
+    or page.chip contains 'CB2S' 
     or page.chip contains 'WA2' 
-  %}<a href="WT-01N">WT-01N</a> or <a href="WT32C3-01N">WT32C3-01N</a> 
+  %}<a href="WT-01N">WT-01N</a>, <a href="ESP-02S">ESP-02S</a> or <a href="WT32C3-01N">WT32C3-01N</a> 
   {% else %}<a href="diy#module">an ESP</a>
   {% endif %}
   module. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
@@ -294,8 +296,8 @@ layout: default
   <p>
   {% endif %}
 
-  {% if page.title contains 'Athom' %}
-  <strong>Use code <code>BLAKADDER5</code> when buying from Aliexpress links for a 10% discount. Code is valid until end of 2021.</strong>
+  {% if page.link contains 'mediarath' or page.link2 contains 'mediarath' or page.link3 contains 'mediarath' or page.link4 contains 'mediarath' or page.link5 contains 'mediarath' %}
+  <strong>Use code <code>BLAKADDER10</code> when buying from mediarath.de Tasmota category for a 10% discount. Code is valid until end of 2022.</strong>
   <br><br>
   <p>
   {% endif %}

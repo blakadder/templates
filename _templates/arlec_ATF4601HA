@@ -1,0 +1,101 @@
+---
+date_added: 2022-01-02
+title: Arlec 117cm Aurora Digital Tower 
+model: ATF4601HA
+image: /assets/images/arlec_ATF4601HA.jpg
+template9: '{"NAME":"ATF4601HA","GPIO":[1,2272,1,2304,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+link: https://www.bunnings.com.au/arlec-117cm-grid-connect-smart-aurora-digital-tower-fan_p0274798
+link2: 
+mlink: 
+flash: replace
+category: misc
+type: Fan
+standard: au
+---
+
+## Functions
+* dpid1 Power relay - When toggled will turn fan on / off.
+* dpid2 Sets the Mode: 0 = Normal, 1 = Natural, 2 = Sleep
+    * Normal (Manual) Mode: Fan speed is set by dpid3
+    * Natural Mode: The fan speed varies randomly between (speed 1 to 4) giving the effect of a natural breeze.
+    * Sleep Mode: The fan will start at the last speed it was set to and then slowly going down to low reserving power.
+* dpid3 Sets the fan speed 1 slow - 4 fast, (remote display 1 - 4)
+* dpid5 Oscillate relay - When toggled will turn oscillation on / off.
+* dpid21 Temperature sensor. 
+* dpid22 Unknown at this point.
+* dpid23 Countdown timer in minutes (When timer function is set) 
+* dpid24 Unknown at this point.
+* dpid101 Sets the timer function 1 = 1 hour, 2 = 2 hours, 3 = 3 hours ….. 12 = 12 hours and 0 = Off
+
+## Configuration
+Configure Tasmota DpIds with the correct FnIds:
+```console
+Backlog TuyaMCU 11,1; TuyaMCU 61,2; TuyaMCU 62,3; TuyaMCU 12,5; TuyaMCU 71,21; TuyaMCU 98,23; TuyaMCU 64,101;
+```
+Configure the correct Enums lists for Speed, Mode and Timer:
+```console
+Backlog TuyaEnumlist 1,3; TuyaEnumlist 2,4; TuyaEnumlist 4,13;
+```
+Setting required for the Temperature sensor to display correctly:
+```console
+TempRes 0
+```
+
+Setting required to publish results to MQTT:
+```console
+SetOption66 1
+```
+
+Rules used to publish Speed, Mode, Timeleft (Countdown in minutes) and Timer:
+```console
+Backlog Rule1 ON tuyareceived#dptype2id3 DO publish stat/%topic%/SPEED %value% ENDON ON tuyareceived#dptype4id2 DO publish stat/%topic%/MODE %value% ENDON ON tuyareceived#dptype2Id23 DO publish stat/%topic%/TIMELEFT %value% ENDON ON tuyareceived#DpType4Id101 DO publish stat/%topic%/TIMER %value% ENDON; Rule1 1
+```
+
+```console
+Backlog Rule2 ON System#Boot DO Event resync ON Event#resync DO Backlog Power1; Power2; TuyaSend0; ENDON; Rule2 1
+```
+
+## Home Assistant
+Home Assistant Configuration in YAML (Replace TOPIC with your MQTT device topic)
+```yaml
+{% raw %}fan:
+  - platform: mqtt
+    name: "Tower Fan"
+    unique_id: "Tower Fan"
+    state_topic: "stat/TOPIC/POWER1"
+    command_topic: "cmnd/TOPIC/POWER1"
+    payload_on: 'ON'
+    payload_off: 'OFF'
+    oscillation_state_topic: "stat/TOPIC/POWER2"
+    oscillation_command_topic: "cmnd/TOPIC/POWER2"
+    payload_oscillation_on: 'ON'
+    payload_oscillation_off: 'OFF'
+    percentage_state_topic: "stat/TOPICSPEED"
+    percentage_command_topic: "cmnd/TOPIC/TuyaSend2"
+    percentage_command_template: "{{ {0: '0', 1: '3,1', 2: '3,2', 3: '3,3', 4: '3,4'}[value] | default('1') }}"
+    percentage_value_template: "{{ {'3,1': 1, '3,2': 2, '3,3': 3, '3,4': 4}[value_json.speed] | default('1') }}"
+    speed_range_min: 1
+    speed_range_max: 4
+    preset_modes:
+      -  "Normal"
+      -  "Natural"
+      -  "Sleep"
+    preset_mode_state_topic: "stat/TOPIC/MODE"
+    preset_mode_value_template: >
+      {%- if value == '0' %}Normal
+      {%- elif value == '1' %}Natural
+      {%- elif value == '2' %}Sleep
+      {%- endif -%}"
+    preset_mode_command_topic: "cmnd/TOPIC/TuyaSend4"
+    preset_mode_command_template: >
+      {% if value == 'Normal' %}2,0
+      {% elif value == 'Natural' %}2,1
+      {% elif value == 'Sleep' %}2,2
+      {% endif %}
+    availability_topic: tele/TOPIC/LWT
+    payload_available: Online
+    payload_not_available: Offline
+    qos: 0{% endraw %}
+```
+
+Still left to do: Home Assistant settings to display Time left and to set the Timer.
