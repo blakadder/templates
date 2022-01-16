@@ -1,0 +1,18 @@
+---
+date_added: 2022-01-16
+title: M5Stack AtomU USB-A ESP32 
+model: K051
+category: diy
+type: Development Board
+standard: global
+flash: serial
+image: /assets/images/m5stack_AtomU.jpg
+template32: '{"NAME":"M5Stack AtomU","GPIO":[0,0,0,0,0,0,0,0,1056,0,0,0,0,0,0,0,0,0,0,0,0,0,640,1376,0,0,0,0,608,0,0,0,0,0,0,32],"FLAG":0,"BASE":1}}' 
+mlink: https://shop.m5stack.com/products/atomu-esp32-development-kit-with-usb-a
+link: https://www.aliexpress.com/item/1005003772650294.html
+link2: 
+---
+
+**SPM1423 Microphone is not supported in Tasmota!**
+
+Light controls are for the built-in SK6812 RGB LED.

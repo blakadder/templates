@@ -1,0 +1,14 @@
+---
+date_added: 2022-01-16
+title: ESP8266 5V UART Communication
+model: ESP-WROOM-5V2L
+image: /assets/images/ESP-WROOM-5V2L.jpg
+template9: '{"NAME":"ESP-WROOM-5V2L","GPIO":[0,1,0,1,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005003800433622.html
+link2: https://www.alibaba.com/product-detail/ESP-WROOM-5V2L-ESP8266EX-IEEE802-11b_62467250466.html
+mlink: 
+flash: serial
+category: diy
+type: Module
+standard: global
+---

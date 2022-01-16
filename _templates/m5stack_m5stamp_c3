@@ -7,10 +7,12 @@ type: Module
 standard: global
 flash: serial
 image: /assets/images/m5stack_m5stamp_c3.jpg
-templatec3: '{"NAME":"M5Stamp C3","GPIO":[1,1,1376,32,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}}' 
-mlink: https://m5stack.com/products/m5stamp-pico-mate-with-pin-headers
-link: https://www.aliexpress.com/item/1005003449579749.html
-link2: https://www.banggood.com/M5Stack-M5Stamp-C3-ESP32-Development-Board-WiFi+Bluetooth-Ultra-Low-Power-ESP32-C3-RISC-V-MCU-p-1906576.html?cur_warehouse=CN&rmmds=search
+templatec3: '{"NAME":"M5Stamp C3","GPIO":[1,1,1376,32,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
+mlink: https://shop.m5stack.com/products/m5stamp-c3-mate-with-pin-headers
+link: https://shop.m5stack.com/products/m5stamp-c3-5pcs
+link2: https://www.aliexpress.com/item/1005003449579749.html
+link3: https://www.banggood.com/M5Stack-M5Stamp-C3-ESP32-Development-Board-WiFi+Bluetooth-Ultra-Low-Power-ESP32-C3-RISC-V-MCU-p-1906576.html
+link4: https://www.banggood.com/5PCS-M5Stack-M5Stamp-C3-ESP32-Development-Board-WiFi+Bluetooth-Ultra-Low-Power-ESP32-C3-RISC-V-MCU-p-1906592.html
 ---
 Can be flashed using the USB-C port on the device (CH9102 driver needed).
 
