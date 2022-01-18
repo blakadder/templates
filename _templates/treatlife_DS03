@@ -14,6 +14,8 @@ standard: us
 unsupported: true
 ---
 
+01/14/2022 - module received from Amazon has ESP module, so some are still being sold.  Had to hold reset button (very bottom of switch) while programming with 3.3v, GND, TX, RX, and GPIO0 wires soldered to Tuya board.
+
 08/06/2021 - module just recieved from amazon contained Tuya WB3S module which cannot be flashed with Tasmota.  That module is pin compatible with ESP-12 and 
 can ordered via Ebay, or harvested from another board (I used an ESP8266MOD from a D1 mini).  Once the ESP is swapped, you must pull GPIO15 low by connecting 
 it to GND so that the ESP will boot.
@@ -53,7 +55,7 @@ These commands bind the software to the specific types of controls that the MCU 
 2. 
 
 ```console
-Rule1 on TuyaReceived#Data=55AA03070005030400010016 do publish2 stat/Treatlife-DS03/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010117 do publish2 stat/Treatlife-DS03/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010218 do publish2 stat/Treatlife-DS03/speed 3,2 endon on TuyaReceived#Data=55AA03070005030400010319 do publish2 stat/Treatlife-DS03/speed 3,3 endon
+Rule1 on TuyaReceived#Data=55AA03070005030400010016 do publish2 stat/%topic%/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010117 do publish2 stat/%topic%/speed 3,1 endon on TuyaReceived#Data=55AA03070005030400010218 do publish2 stat/%topic%/speed 3,2 endon on TuyaReceived#Data=55AA03070005030400010319 do publish2 stat/%topic%/speed 3,3 endon
 ```
 Enable rule with `Rule1 1`
 
@@ -111,6 +113,44 @@ fan:
       - 'medium'
       - 'high'{% endraw %}
 {% endhighlight %}
+
+Here is an alternate config for the fan so it comes on when a preset is selected:
+{% highlight yaml %}{% raw %}
+fan:
+  - platform: mqtt
+    name: "TreatLife Fan"
+    state_topic: "stat/Treatlife-DS03/POWER1"
+    command_topic: "cmnd/Treatlife-DS03/POWER1"
+    preset_mode_state_topic: "stat/Treatlife-DS03/speed"
+    preset_mode_command_topic: "cmnd/Treatlife-DS03/Backlog"
+    qos: 0
+    payload_on: "ON"
+    payload_off: "OFF"
+    preset_mode_command_template: >
+      {% if value == 'low' %}
+        TuyaSend4 3,1;Power1 ON
+      {% elif value == 'medium' %}
+        TuyaSend4 3,2;Power1 ON
+      {% elif value == 'high' %}
+        TuyaSend4 3,3;Power1 ON
+      {% endif %}
+    preset_mode_value_template: >
+      {% if value == '3,1' %}
+        low
+      {% elif value == '3,2' %}
+        medium
+      {% elif value == '3,3' %}
+        high
+      {% endif %}
+    availability_topic: tele/Treatlife-DS03/LWT
+    payload_available: Online
+    payload_not_available: Offline
+    preset_modes:
+      - 'low'
+      - 'medium'
+      - 'high'{% endraw %}
+{% endhighlight %}
+
 
 Home Assistant Dimmer YAML:
 {% highlight yaml %}{% raw %}
