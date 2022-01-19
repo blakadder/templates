@@ -18,4 +18,5 @@ link: https://itead.cc/product/sonoff-tx-series-wifi-smart-wall-switches/
 ## Flashing Notes
 Set baudrate to 74880.
 
-GPIO0 is at R19
+For v1.x of the hardware, GPIO0 is at R19.
+For v2.0.1 of the hardware, GPIO0 is at R18.
