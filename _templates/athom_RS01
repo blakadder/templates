@@ -14,34 +14,8 @@ standard: global
 ---
 
 
-## Hardward Specs
+* ESP8285 with 2MB flash
 
-* MCU: ESP82825 Series
-* Flash:  1MB / 2MB??
-    * Board I received was ESP8285H16 with 2MB flash
-
-
-## Output of `esptool flash`
-
-```
-esptool.py v3.2
-Serial port /dev/ttyUSB0
-Connecting...
-Chip is ESP8285H16
-Features: WiFi, Embedded Flash
-Crystal is 26MHz
-MAC: 40:f5:20:ce:d6:82
-Stub is already running. No upload is necessary.
-Changing baud rate to 460800
-Changed.
-Configuring flash size...
-Auto-detected Flash size: 2MB
-Flash will be erased from 0x00000000 to 0x0005afff...
-Flash params set to 0x0330
-Compressed 370224 bytes to 259621...
-Wrote 370224 bytes (259621 compressed) at 0x00000000 in 6.0 seconds (effective 490.0 kbit/s)...
-Hash of data verified.
-```
 
 ## Photos of internals
 
