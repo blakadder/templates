@@ -1,9 +1,9 @@
 ---
 date_added: 2021-06-01
-title: Athom 4.5W 700lm
+title: Athom 4.5W 300lm
 model: LB10-5W-TAS
 image: /assets/images/athom_LB10-5W-TAS.jpg
-template9: '{"NAME":"Athom LB10-5W-TAS","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Athom LB10-5W-TAS","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/gu10-rgbcw
 link: https://www.aliexpress.com/item/1005002723726183.html
 link2: 
