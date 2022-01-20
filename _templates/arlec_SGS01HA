@@ -61,8 +61,9 @@ This method will send all TuyaReceived messaages to MQTT for processing by Node 
 SetOption66 1
 ```
 
-5. Create a Node RED flow and subscribe an "MQTT Input" object to "tele/SENSORHUB/RESULT". Replace "SENSORHUB" with your Tasmota %TOPIC% name. 
-6. Pass it into a function with the following script contents. The function will have 2 outputs, one for MQTT and one for Debug.
+5. Create a Node RED flow and subscribe an "MQTT Input" object to "tele/SENSORHUB/RESULT". Replace "SENSORHUB" with your Tasmota %TOPIC% name.
+6. Payload is a string so we need to convert it to JSON, add a json node, selecting 'Convert between JSON String & Object, check the 'Format JSON string' check box.
+7. Link the JSON node into a function node with the following script contents. The function will have 2 outputs, one for MQTT and one for Debug.
 
 ```javascript
 // Get Message Payload
@@ -130,9 +131,9 @@ return [mqttMessage,debugMessage];
 
 ```
 
-7. Create an "MQTT Out" node. No topic required, it is dynamically set in the function. Connect it to the top "Dot" on the Function node.
-8. Create an "Debug" node. Connect it to the bottom "Dot" on the Function node.
-9. The following can be used to create the home assistant sensors
+8. Create an "MQTT Out" node. No topic required, it is dynamically set in the function. Connect it to the top "Dot" on the Function node.
+9. Create an "Debug" node. Connect it to the bottom "Dot" on the Function node.
+10. The following can be used to create the home assistant sensors
 
 ```yaml
 binary_sensor:
