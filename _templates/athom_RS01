@@ -12,3 +12,24 @@ category: relay
 type: Switch Module
 standard: global
 ---
+
+
+* ESP8285 with 2MB flash
+
+
+## Photos of internals
+
+I took the component apart to flash the device 
+
+![PCB with lid removed](/assets/images/RS01_uncovered.jpg)
+
+![ESP module removed, internal Silkscreen](/assets/images/RS01_inside.jpg)
+
+![ESP module removed, external silkscreen](/assets/images/RS01_side.jpg)
+
+![Top of the ESP8285H16](/assets/images/RS01_module_top.jpg)
+
+You have to ground this POGO pin pad to ground in order to intialize serial flash (white wire)
+
+![Flashing pinout](/assets/images/RS01_module_flash.jpg)
+

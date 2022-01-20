@@ -1,6 +1,6 @@
 ---
 date_added: 2021-02-19
-title: TTGO ESP32 
+title: LilyGo TTGO ESP32 
 model: T-Journal
 image: /assets/images/lilygo_T-journal.jpg
 template32: '{"NAME":"TTGO T-Journal ESP32 Camera","GPIO":[4928,1,1,1,1,5091,1,1,1,608,640,4960,1,5088,5093,5095,0,5184,5120,5056,0,5024,5152,4992,0,0,0,0,1,1,5090,5089,5094,0,0,5092],"FLAG":0,"BASE":1}' 
