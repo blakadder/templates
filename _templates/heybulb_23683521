@@ -1,0 +1,19 @@
+---
+date_added: 2022-01-19
+title: HeyBulb 11W 1050lm
+model: 23.6835.21
+image: /assets/images/heybulb_23683521.jpg
+template9: '{"NAME":"HeyBulb","GPIO":[0,0,0,1088,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.gbconline.it/en/prodotti/schedaprodotto?codice=23.6835.21-HeyBulb-Rgb-smart-wifi-led-e27-bulb-11w-a65-with-remote-control
+link2: 
+mlink: 
+flash: replace module
+category: bulb
+type: RGBCCT
+standard: e27
+chip: WB3L
+---
+Open the bulb by squashing the top, its made of plastic.
+Desolder the tuya WB3L chip and replace it with an ESP8266. 
+
+To make the IR Remote work you have to set first Rules that translate the recived IrData.
