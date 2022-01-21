@@ -1,0 +1,57 @@
+---
+title: Mijia Desk Lamp 1S (MJGJD02YL)
+model: MJGJD02YL
+category: light
+type: LED Controller
+standard: global
+link: https://www.aliexpress.com/item/1005003464204700.html
+image: /assets/images/xiaomi_MJGJD02YL.jpg
+flash: serial
+---
+
+## Hardware
+
+There are three GPIOs in use:
+
+- `GPIO04`: global light enable/disable. As long as this output is high, the WW/CW channels will light.
+- `GPIO19`: Cold White channel
+- `GPIO21`: Warm White channel
+
+### Templates
+
+This template keeps `GPIO4` high and relies on Tasmota setting both `GPIO19` and `GPIO21` to fully off to shut the light off.
+
+Most people should use this template.
+
+```json
+{"NAME":"Mijia Desk Lamp 1S (MJGJD02YL)","GPIO":[0,0,0,0,3840,0,1,1,0,0,0,0,0,0,0,416,0,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"DimmerRange 45,255"}
+```
+
+If you want to control the global on/off (`GPIO04`) independently of the WW/CW channels, use this template:
+
+```json
+{"NAME":"Mijia Desk Lamp 1S (MJGJD02YL)","GPIO":[0,0,0,0,224,0,1,1,0,0,0,0,0,0,0,416,0,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"DimmerRange 45,255"}
+```
+
+### Dimmer Range
+
+In testing, neither the WW and CW channel would light until a dimmer value of ~30 was used.
+There was noticeable flicker until a dimmer value of ~35 was used.
+
+When attempting to use a combination of WW and CW light, the light would be off until a dimmer of ~40 was used. Like the independent channels at a dimmer value of ~30, there was some noticeable flicker.
+
+For this reason, a `DimmerRange` of 45-255 is suggested.
+Tasmota will let you dim the light as low as possible without flicker.
+
+Your lamp, eyes and needs will differ so feel free to see if a lower `dimmer` value will work for you by unlocking the full dimmer range with `DimmerRange 0,255` and then playing with the `ct` and `dimmer` commands to find the lowest tolerable brightness for your needs.
+
+`DimmerRange 40,255` or `DimmerRange 45,255` suggested
+
+
+## Serial Flashing
+
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
+
+The ESP32 chip on this PCB is a _single core_ version
+so follow the instructions for flashing
+https://tasmota.github.io/docs/ESP32/#flashing
