@@ -99,7 +99,7 @@ Repeat these steps in reverse order to re-assemble the lamp.
    6. `3V3`. This test point is partially obstructed by the plastic sled closest to the ESP chip. If you're _very good_ with a soldering iron, you can keep the plastic sled in place.
 4. Solder a jumper wire from the `3V3` test point to the `EN` test point
 5. Solder wires to each of the remaining test points and wire them to your serial programmer board
-6. Ensure that the wire soldered to the ``TP_GND` and `GPIO0` test point are connected together *and* wired to the `GND` pin on your serial programmer board
+6. Ensure that the wire soldered to the `TP_GND` and `GPIO0` test point are connected together *and* wired to the `GND` pin on your serial programmer board
 7. Connect the `GND` from your dedicated 5V power supply to the leaf contact in the middle of the PCB; the contact that mates with the pogo pins. Leads with alligator clips are helpful here!
 8. Connect the positive supply from your dedicated 5V supply to the other leaf spring in the middle of the PCB
 9. Turn your dedicated 5V supply on
@@ -107,7 +107,7 @@ Repeat these steps in reverse order to re-assemble the lamp.
 
 After a successful flash, you can turn off the dedicated 5V supply and de-solder all wires and re-assemble *or* check your work.
 
-#### Checking your work.
+#### Checking your work
 
 1. After flashing is complete, remove the supply lead from your dedicated power supply.
 2. De-solder the wire attached to the unlabeled `GPIO0` test point and the `EN` test point but leave the wires soldered to the `RX` and `TX` and `TP_GND` in place.
@@ -115,4 +115,4 @@ After a successful flash, you can turn off the dedicated 5V supply and de-solder
 4. Re apply the supply lead to power the board back up. The ESP should begin booting Tasmota.
 5. Optionally user the serial console to configure Tasmota with WiFi...etc
 6. Power down, de-solder all wires and clean up any flux residue
-7. re-assemble the lamp
+7. Re-assemble the lamp
