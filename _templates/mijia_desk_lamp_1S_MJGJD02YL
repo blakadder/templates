@@ -52,6 +52,67 @@ Your lamp, eyes and needs will differ so feel free to see if a lower `dimmer` va
 
 Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
 
-The ESP32 chip on this PCB is a _single core_ version
-so follow the instructions for flashing
-https://tasmota.github.io/docs/ESP32/#flashing
+Read the instructions below _thoroughly_ before attempting!
+
+
+**Note:** The test pads for programming the chip will require you to remove a plastic cap that is **glued on**.
+For best results, use pliers with non-marring grips to prevent/minimize cosmetic damage to the end cap.
+The cap can be glued back in place after a successful flash with a small drop of superglue or similar.
+
+**Note:** It is likely that both the WW and CW LEDs _will_ briefly light up during the flashing process. When this happens, you _will_ draw more current than a typical USB <-> Serial adapter can provide. At _best_ you'll cause a brownout and the flash will be interrupted.
+
+**Use a dedicated 5V supply that can provide _at least_ 10W of power** while flashing the lamp! Make sure that the `GND` wire from your serial programmer _and_ the `GND` wire for your dedicated 5V2A/10W supply are tied together or you will likely destroy some of the electronics on both the lamp, your serial adapter _and_ possibly your computer/USB hub! 
+
+
+The ESP32 chip on this PCB is a _single core_ version.
+Follow the [instructions for flashing the ESP32 version of Tasmota](https://tasmota.github.io/docs/ESP32/#flashing), specifically the `tasmota32solo1` version!
+
+
+### Extracting the PCB
+
+1. Remove the lamp bar from the the magnetic mount on top of your monitor.
+2. Locate the small rectangle shaped protrusion from the lamp tube that mates with the magnetic mount. The protrusion has two small pogo pins on it.
+3. With the protrusion facing you, locate the plastic cap closest to the product information. This should be plastic cap on the left side of the tube.
+4. Use pliers or similar to grip the plastic cap.
+5. Twist the cap to break the glue. Do not twist more than a few degrees! The plastic cap has some features that will come into contact with and could damage the PCB if rotated too far!
+6. The plastic cap should be loose enough to pull off by hand. Do so without rotating more than necessary!
+7. You should be greeted with two more pogo pins that interface with a small antenna on the inside of the plastic cap. If you don't see this, you removed the wrong cap. Set cap aside.
+8. Use a razor blade or similar to peel back the grip-tape sticker on the protrusion. Underneath the sticker will be two small philips screws. If you're careful and manage to remove the sticker in one piece you might be able to re-apply it during reassembly. The lamp functions fine without the sticker, though.
+9. Remove the two small screws that were underneath the sticker. The metal protrusion and small plastic part containing the two pogo pins should come free. Set these aside.
+10. In good lighting, use a camera or other means to note how both the plastic diffuser and PCB are installed into the aluminum tube.
+11. Gently remove the clear plastic diffuser from the lamp tube and set aside. The matte finish on the interior side of the diffuser is a fingerprint magnet. Consider using clean gloves for this step.
+12. Carefully slide the PCB out of the aluminum tube. Be mindful of the two spring like contacts on the back of the PCB that mated with the pogo pins!
+
+
+Repeat these steps in reverse order to re-assemble the lamp.
+
+### Flashing
+
+1. Flip the PCB over so the ESP32 and other electronics are facing you.
+2. The PCB is supported by 4 plastic sleds that are heat-staked onto the PCB. The one sled closest to the ESP32 can be removed for easier access to the `3v3` test point. Use flush cutters or similar to carefully cut the plastic back so the 'sled' can fall away. Set the sled aside. It can be re-attached with hot glue or similar if desired.
+3. Locate the test points:
+   1. `GPIO0`. This pin is not marked. It is the test point closest to the ESP32 chip, just off the bottom right corner.
+   2. `TP_GND`
+   3. `EN`
+   4. `RX`
+   5. `TX`
+   6. `3V3`. This test point is partially obstructed by the plastic sled closest to the ESP chip. If you're _very good_ with a soldering iron, you can keep the plastic sled in place.
+4. Solder a jumper wire from the `3V3` test point to the `EN` test point
+5. Solder wires to each of the remaining test points and wire them to your serial programmer board
+6. Ensure that the wire soldered to the ``TP_GND` and `GPIO0` test point are connected together *and* wired to the `GND` pin on your serial programmer board
+7. Connect the `GND` from your dedicated 5V power supply to the leaf contact in the middle of the PCB; the contact that mates with the pogo pins. Leads with alligator clips are helpful here!
+8. Connect the positive supply from your dedicated 5V supply to the other leaf spring in the middle of the PCB
+9. Turn your dedicated 5V supply on
+10. Begin flashing
+
+After a successful flash, you can turn off the dedicated 5V supply and de-solder all wires and re-assemble *or* check your work.
+
+#### Checking your work.
+
+1. After flashing is complete, remove the supply lead from your dedicated power supply.
+2. De-solder the wire attached to the unlabeled `GPIO0` test point and the `EN` test point but leave the wires soldered to the `RX` and `TX` and `TP_GND` in place.
+3. Open a serial terminal to observe Tasmota console out. Use `115200` as the baud rate. 
+4. Re apply the supply lead to power the board back up. The ESP should begin booting Tasmota.
+5. Optionally user the serial console to configure Tasmota with WiFi...etc
+6. Power down, de-solder all wires and clean up any flux residue
+7. re-assemble the lamp
