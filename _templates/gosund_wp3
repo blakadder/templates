@@ -12,8 +12,11 @@ template9: '{"NAME":"Gosund WP3 v2","GPIO":[320,0,321,0,0,0,0,0,0,32,0,224,0,0],
 template9_alt: '{"NAME":"Gosund WP3","GPIO":[0,0,0,0,32,0,0,0,320,321,224,0,0,0],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.com/gp/product/B079MFTYMV
 link3: https://canadianbestseller.com/pd/smart-plug-wifi-outlet-works-with-alexa-google-home-gosund-smart-socket-no-hub-required-etl-and-fcc-listed-remote-control-your-devices-from-anywhere-4-pack/
+link4: https://www.ebay.com/itm/264354542878
 mlink: https://www.alibaba.com/product-detail/Gosund-US-10A-Standard-Tuya-Wireless_1600196312783.html
 ---
 
 ## Serial Flashing
 [Instructions] (https://www.instructables.com/Downloading-Tasmota-Onto-a-Gosund-WP5-or-WP3-Smart/)
+
+## Bought a 4-pack on Jan-15-2022 from the ebay link. I was able to use tuya-convert on all of them
