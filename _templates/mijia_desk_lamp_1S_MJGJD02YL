@@ -13,7 +13,7 @@ flash: serial
 
 There are three GPIOs in use:
 
-- `GPIO04`: global light enable/disable. As long as this output is high, the WW/CW channels will light.
+- `GPIO04`: Global light enable/disable. As long as this output is high, the WW/CW channels will light.
 - `GPIO19`: Cold White channel
 - `GPIO21`: Warm White channel
 
@@ -35,18 +35,17 @@ If you want to control the global on/off (`GPIO04`) independently of the WW/CW c
 
 ### Dimmer Range
 
-In testing, neither the WW and CW channel would light until a dimmer value of ~30 was used.
-There was noticeable flicker until a dimmer value of ~35 was used.
+In testing, extremely low brightness values for both the WW and CW channel had some undesirable behavior:
 
-When attempting to use a combination of WW and CW light, the light would be off until a dimmer of ~40 was used. Like the independent channels at a dimmer value of ~30, there was some noticeable flicker.
+- Values lower than ~30 didn’t light at all
+- Values between 30-35 caused unpleasant flicker
+- Values lower than ~40 would also cause flicker when attempting to light the WW and CW channels together
 
-For this reason, a `DimmerRange` of 45-255 is suggested.
-Tasmota will let you dim the light as low as possible without flicker.
+For this reason, a `DimmerRange` of 45-255 is suggested. Tasmota will let you dim the light as low as possible without flicker.
 
-Your lamp, eyes and needs will differ so feel free to see if a lower `dimmer` value will work for you by unlocking the full dimmer range with `DimmerRange 0,255` and then playing with the `ct` and `dimmer` commands to find the lowest tolerable brightness for your needs.
+Your lamp, eyes and needs will differ so feel free to see if a lower dimmer value will work for you by unlocking the full dimmer range with DimmerRange 0,255 and then playing with the ct and dimmer commands to find the lowest tolerable brightness for your needs.
 
-`DimmerRange 40,255` or `DimmerRange 45,255` suggested
-
+That is why you see the DimmerRange 45,255 command in the above templates.
 
 ## Serial Flashing
 
@@ -88,6 +87,8 @@ Repeat these steps in reverse order to re-assemble the lamp.
 
 ### Flashing
 
+![test point locations](/assets/images/xiaomi_MJGJD02YL_testpoints.jpg)
+
 1. Flip the PCB over so the ESP32 and other electronics are facing you.
 2. The PCB is supported by 4 plastic sleds that are heat-staked onto the PCB. The one sled closest to the ESP32 can be removed for easier access to the `3v3` test point. Use flush cutters or similar to carefully cut the plastic back so the 'sled' can fall away. Set the sled aside. It can be re-attached with hot glue or similar if desired.
 3. Locate the test points:
@@ -106,6 +107,9 @@ Repeat these steps in reverse order to re-assemble the lamp.
 10. Begin flashing
 
 After a successful flash, you can turn off the dedicated 5V supply and de-solder all wires and re-assemble *or* check your work.
+
+![test points and external power supply connected](/assets/images/xiaomi_MJGJD02YL_flashing_setup.jpg)
+
 
 #### Checking your work
 
