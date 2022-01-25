@@ -19,7 +19,7 @@ Some additional suggested console modifications to do after flashing and configu
 
 Label the web-buttons to match the template
 ```
-backlog webbutton1 Plug1; webbutton2 Plug2; webbutton Plug3; webbutton4 USB
+backlog webbutton1 Plug1; webbutton2 Plug2; webbutton3 Plug3; webbutton4 USB
 ```
 
 Rule for turning all the outlets off with a long press of the physical button.
