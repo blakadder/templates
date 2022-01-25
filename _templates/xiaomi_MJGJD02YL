@@ -1,12 +1,17 @@
 ---
-title: Mijia Desk Lamp 1S (MJGJD02YL)
+date_added: 2022-01-25
+title: Xiaomi Mi Computer Monitor Light Bar 1S 
 model: MJGJD02YL
 category: light
-type: LED Controller
+type: Light
 standard: global
-link: https://www.aliexpress.com/item/1005003464204700.html
+template32: '{"NAME":"Mijia Desk Lamp 1S (MJGJD02YL)","GPIO":[0,0,0,0,3840,0,1,1,0,0,0,0,0,0,0,416,0,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"DimmerRange 45,255"}'
 image: /assets/images/xiaomi_MJGJD02YL.jpg
+link: https://www.aliexpress.com/item/1005003464204700.html
+link2: https://www.banggood.com/XIAOMI-Mi-Smart-Computer-Monitor-Light-Bar-1S-Eyes-Protection-Reading-Dimmable-PC-Computer-USB-Lamp-Display-Hanging-Light-p-1908898.html
+mlink: 
 flash: serial
+chip: solo1
 ---
 
 ## Hardware
