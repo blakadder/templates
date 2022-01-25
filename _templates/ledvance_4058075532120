@@ -1,0 +1,22 @@
+---
+date_added: 2022-01-25
+title: Ledvance Smart+ 16A
+model: 4058075532120
+image: /assets/images/ledvance_4058075532120.jpg
+template9: '{"NAME":"LEDVANCE Smart Wifi Outdoor Plug","GPIO":[0,0,0,320,2688,2656,0,0,224,32,2624,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B08V8YXCSY
+link2: https://www.idealo.de/preisvergleich/OffersOfProduct/201548058_-smart-outdoor-5532120-ledvance.html
+link3: https://www.manomano.de/catalogue/p/ledvance-smart-led-outdoor-plug-funksteckdose-wifi-146-cm-weiss-532120-40524525
+mlink: https://shop.ledvance.com/en/products/ledvance-smart-schaltbare-steckdose-fur-aussen-mit-wifi-technologie-mit-strom-vermessung-kompatibel-mit-google-und-alexa-voice-control-steuerung-per-fernbedienung-moglich-1er-pack
+flash: replace
+category: plug
+type: Outdoor Plug
+standard: eu
+chip: WB2S
+---
+Original comes with TUYA WB2S module, without Tasmota support. Replacing chip  with TYWE2S works fine.
+
+Do not solder RST pin to PCB - let it float. TUYA WB2S has EN(able) at this pin and PCB is pulling it to high.
+All other pins can be soldered back 1:1 
+
+To flash TYWE2S - best do it before soldering to PCB - connect to Rx, Tx, 3.3V, GND and GPIO (pull low).
