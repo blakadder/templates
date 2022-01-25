@@ -13,3 +13,5 @@ type: Downlight
 standard: us
 ---
 Module needed is tywe2s 
+
+Also works with WT32C3-01N Module using the following template `{"NAME":"Globe RGBCCT Downlight","GPIO":[0,0,0,416,419,420,418,0,0,0,417,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}`

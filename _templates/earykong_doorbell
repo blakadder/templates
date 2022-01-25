@@ -11,6 +11,8 @@ flash: serial
 category: misc
 type: Miscellaneous
 standard: eu
+unsupported: true
+chip: CB3S
 ---
 After the buttons are paired with the gateway copy their values from Tasmota console and add them as a binary_sensor to Home Assistant.
 
