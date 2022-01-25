@@ -9,7 +9,7 @@ image: /assets/images/tft_2.4_v1.0.0_1_16x16.jpg
 template: '{"NAME":"Lolin TFT 2.4 Touch Shield","GPIO":[6784,224,225,226,1,992,1,1,672,704,736,5920,5888,1],"FLAG":0,"BASE":18}' 
 template32: 'Template {"NAME":"Lolin TFT 2.4 Touch Shield","GPIO":[224,225,226,1,1,6400,1,1,1,1,1,1,1,7264,736,672,0,1,992,704,0,1,6368,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
 mlink: https://www.wemos.cc/en/latest/d1_mini_shield/tft_2_4.html
-link: https://nl.aliexpress.com/item/32919729730.html
+link: https://www.aliexpress.com/item/32919729730.html
 link2: https://www.tinytronics.nl/shop/en/displays/tft/wemos-2.4-inch-tft-shield-for-d1-mini-with-touchscreen
 ---
 
@@ -18,8 +18,8 @@ Display:
 - TFT-2.4 v1.1.0
 
 ESP:
-- [Lolin D1 Mini v3](https://nl.aliexpress.com/item/32831353752.html) ESP8266 with 4MB flash 
-- [D1 Mini ESP32](https://nl.aliexpress.com/item/32815530502.html)
+- [Lolin D1 Mini v3](https://www.aliexpress.com/item/32831353752.html) ESP8266 with 4MB flash 
+- [D1 Mini ESP32](https://www.aliexpress.com/item/32815530502.html)
 
 Connection:
 - D1 Mini directly on the back of the TFT shield, make sure you line up pins correctly
