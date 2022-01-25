@@ -38,8 +38,8 @@ Backlog TuyaMCU 11,1; TuyaMCU 71,2; TuyaMCU 63,4; TuyaMCU 12,13; TuyaMCU 61,15;
 
 ## Home Assistant Integration - Option 1
 The [ProfiCook](https://templates.blakadder.com/proficook_PC-WKS_1167.html) profile has some great Home Assistant automation guidance.
-To get you started,
-`TempRes 0` Set Temperature sensor resolution to 0 decimal places, `SetOption19 1` Set Home Assistant discovery protocol to use MQTT discovery and `SetOption66 1` Set to enable publishing TuyaReceived over MQTT
+
+To get you started,`TempRes 0` Set Temperature sensor resolution to 0 decimal places, `SetOption66 1` Set to enable publishing TuyaReceived over MQTT
 
 The temperature can then be reported via:
 
@@ -89,7 +89,7 @@ This will keep your configuration.yaml much tidier!
 Conditional rules are not included in the default Tasmota build, so flash your tasmota with <https://github.com/tasmota/binaries/raw/master/tasmota-fullrules.bin.gz>.
 
 Configure your tasmota with the settings:
-`TempRes 0` Set Temperature sensor resolution to 0 decimal places, `SetOption19 1` Set Home Assistant discovery protocol to use MQTT discovery and `SetOption66 0` Set to disable publishing TuyaReceived over MQTT
+`TempRes 0` Set Temperature sensor resolution to 0 decimal places, `SetOption66 0` Set to disable publishing TuyaReceived over MQTT
 
 {% highlight yaml %}
 {% raw %}

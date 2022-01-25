@@ -253,6 +253,10 @@ layout: default
     or page.chip contains 'CB2S' 
     or page.chip contains 'WA2' 
   %}<a href="WT-01N">WT-01N</a>, <a href="ESP-02S">ESP-02S</a> or <a href="WT32C3-01N">WT32C3-01N</a> 
+  {% 
+    elsif page.chip contains 'WBLC5' 
+    or page.chip contains 'CBLC5' 
+  %}<a href="ESP-01D">ESP-01D</a> 
   {% else %}<a href="diy#module">an ESP</a>
   {% endif %}
   module. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.

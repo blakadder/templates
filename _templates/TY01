@@ -8,10 +8,15 @@ mlink:
 link: https://www.aliexpress.com/item/4000510216875.html
 link2: https://www.aliexpress.com/item/4000492919273.html
 flash: serial
+unsupported: true
 category: sensor
 type: Contact Sensor
 standard: global
+chip: CB3S
 ---
+
+![CB3S](/assets/images/TY01_unsupported.jpg)
+
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 This is a Tuya battery powered contact (door or window) sensor. Runs on two AAA batteries (not supplied with the device). 

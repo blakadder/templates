@@ -3,19 +3,24 @@ date_added: 2020-07-27
 title: Teckin 7.5W 800lm
 model: SB60
 image: /assets/images/teckin_SB60.jpg
-template: '{"NAME":"Teckin SB60","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Teckin SB60","GPIO":[0,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+template9_alt: '{"NAME":"Teckin SB60 ESP-01D","GPIO":[0,0,0,0,0,0,0,0,4069,0,4032,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.it/gp/product/B07ZVTQSDY/
 link2: 
 mlink: https://www.teckinhome.com/smart-lighting1
-flash: tuya-convert
+flash: replace
 category: bulb
 type: RGBW
 standard: e27
+chip: WBLC5
 ---
 
 Note: All units as of August 2020 come with new Tuya firmware and are not compatible with Tuya-Convert.
+When replacing with ESP-01D use this template: `{"NAME":"Teckin SB60 ESP01D","GPIO":[0,0,0,0,0,0,0,0,4069,0,4032,0,0,0],"FLAG":0,"BASE":18}`
 
-## Soft-CCT Setup
+![WBLC5](https://user-images.githubusercontent.com/73440761/150185297-c6f69b23-6a7c-4826-93fb-4f32ceaba49c.jpg)
+
+## Instructions for old SB60 with ESP8266
 To regain the original CCT functionality of this bulb, after flashing it, use the following commands in the console.
 
 ```
