@@ -11,9 +11,12 @@ image: https://www.zemismart.com/u_file/1903/products/06/743965c8ea.jpg
 template: '{"NAME":"KS-811 Single","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07P6VTVBM/
 link2: https://www.amazon.com.au/Zemismart-Compatible-Assistant-Incandescent-Required/dp/B07P6VTVBM
+unsupported: true
+chip: BK7231N 
 ---
 
 New from Factory (Feb '19) has patched firmware blocking Tuya-Convert
+New from Factory (Jan '22) does not have ESP8266 chipset but a Beken BK7231N, which is NOT compatible with Tasmota
 
 Flash Instructions: Unscrew 4 screws on rear, use serial to flash. Hold Button 1 (main button) while booting to get into flash mode.
 
