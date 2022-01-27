@@ -1,0 +1,15 @@
+---
+date_added: 2022-01-25
+title: Virage Labs VirageBridge 433MHz
+model: VB-001
+image: /assets/images/virage_labs_VB-001.jpg
+template9: '{"NAME":"VirageBridge","GPIO":[32,3200,255,3232,255,255,0,0,255,320,255,0,0],"FLAG":0,"BASE":25}' 
+link: https://www.viragelabs.com/product/viragebridge/
+link2: 
+mlink: https://www.viragelabs.com
+flash: preflashed
+category: misc
+type: RF Gateway
+standard: global
+---
+The VirageBridge is based on a Sonoff RF Bridge and comes preflashed with a customized Tasmota focused on receiving 433 MHz signals from door contacts, motion sensors etc.  You can easily flash different versions of Tasmota or other aftermarket firmware using the Upgrade Firmware function available in the built-in web interface.
