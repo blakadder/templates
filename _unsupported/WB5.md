@@ -1,13 +1,43 @@
 ---
 date_added: 2021-09-27
-title: Tuya 5 in 1 
+title: Tuya WB5 WIFI & BT 5 in 1 LED Controller
 model: WB5
-category: unsupported
+category: light
+type: LED Controller
+standard: global
+image: /assets/images/WB5.jpg
+template9: '{"NAME":"WB5","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":18,"CMND":"TuyaMCU 11,20 | TuyaMCU 22,21 | TuyaMCU 22,21 | TuyaMCU 23,23 | TuyaMCU 98,101 | DimmerRange 0,1024"}'
+link: https://www.aliexpress.com/item/1005003066465986.html
 type: LED Controller
 chip: CB3S
-mlink: 
-image: /assets/images/WB5.jpg
-link: https://www.aliexpress.com/item/1005003066465986.html
-link2: 
+flash: replace
 ---
 ![PCB](/assets/images/WB5_pcb.jpg)
+
+## Hardware
+
+The chip used on this board is a CB3S, and requires a transplant. It cannot be flashed. The daughterboard for the SoC is compatible with the ESP12-S and in this case ESP-C3-12F module. Other formats may be compatible, but may require jumper wires.
+
+The TuyaMCU on board requires the following settings for an CCT (Dual White (CW+WW)) strip.
+
+```console
+Backlog TuyaMCU 11,20; TuyaMCU 21,22; TuyaMCU 22,21; TuyaMCU 23,23; TuyaMCU 98,101; DimmerRange 0,1024
+```
+
+## Serial Flashing
+
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
+
+## Wiring
+
+Make sure to press the switch and select the mode corresponding to the strip you are using. ie. To use an RGB strip, you press the switch until it flashes red. The setting will stick between restarts. The mode cannot be changed from Tasmota as there are no connection between it and the switch. You can solder a wire from a free GPIO to the switch and change the mode by pulsing the GPIO from Tasmota.
+
+| Light Color | Mode |
+| --- | --- |
+| White Flashing | Single Color Mode |
+| Yellow Flashing | Dual White Mode |
+| Red Flashing | RGB Mode |
+| Green Flashing | RGBW Mode |
+| Blue Flashing | RGB+CCT Mode |
+
+![WB5 Manual](https://user-images.githubusercontent.com/367863/147174536-5f7c5325-ffe2-4585-a1e4-57e6229a3355.jpg)
