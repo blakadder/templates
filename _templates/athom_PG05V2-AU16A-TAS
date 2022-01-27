@@ -3,7 +3,7 @@ date_added: 2022-01-25
 title: Athom 16A AU
 model: PG05V2-AU16A-TAS
 image: /assets/images/athom_PG05V2-AU16A-TAS.jpg
-template: '{"NAME":"Athom Plug V2","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Athom Plug V2","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/au-plug
 link: https://www.aliexpress.com/item/1005001670435059.html
 link2: 
