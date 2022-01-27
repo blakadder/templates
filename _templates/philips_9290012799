@@ -1,11 +1,11 @@
 ---
 date_added: 2021-01-31
-title: Philips 200lm 3000k-5700k CCT 
+title: Xiaomi Philips 200lm 3000k-5700k CCT 
 model: 9290012799
 image: /assets/images/philips_9290012799.jpg
 template9: '{"NAME":"xiaomi.philips.downlight","GPIO":[0,0,0,0,0,0,0,0,416,0,0,417,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000977704276.html
-link2: 
+link2: https://www.aliexpress.com/item/32854957965.html
 mlink: 
 flash: serial
 category: light
