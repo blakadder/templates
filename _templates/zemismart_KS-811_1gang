@@ -14,6 +14,7 @@ link2: https://www.amazon.com.au/Zemismart-Compatible-Assistant-Incandescent-Req
 ---
 
 New from Factory (Feb '19) has patched firmware blocking Tuya-Convert
+New from Factory (Jan '22) does not have ESP8266 chipset but a Beken BK7231N, which is NOT compatible with Tasmota
 
 Flash Instructions: Unscrew 4 screws on rear, use serial to flash. Hold Button 1 (main button) while booting to get into flash mode.
 
