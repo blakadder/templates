@@ -10,7 +10,6 @@ templatec3: '{"NAME":"WB5","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,
 link: https://www.aliexpress.com/item/1005003081976104.html
 link2: https://www.amazon.com/dp/B08L9GWJK1
 mlink: https://www.alibaba.com/product-detail/SKYDANCE-WB5-TuyaBluetooth-RF-5-in1_1600136303591.html
-type: LED Controller
 chip: CB3S
 flash: replace
 ---
