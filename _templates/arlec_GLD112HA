@@ -8,7 +8,7 @@ type: CCT
 category: bulb
 standard: e27
 link: https://www.bunnings.com.au/arlec-smart-9-5w-806lm-cct-es-globe-with-grid-connect_p0111503
-template: '{"NAME":"Arlec CCT","GPIO":[0,0,0,0,0,416,0,0,0,449,0,0,0,0],"FLAG":0,"BASE":48}'
+template9: '{"NAME":"Arlec CCT","GPIO":[0,0,0,0,0,416,0,0,0,449,0,0,0,0],"FLAG":0,"BASE":48}'
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-9-5w-806lm-cct-es-globe_p0119820
 ---
 
