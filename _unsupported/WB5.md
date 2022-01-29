@@ -1,6 +1,6 @@
 ---
 date_added: 2021-09-27
-title: Tuya WB5 WIFI & BT 5 in 1 LED Controller
+title: Tuya WB5 5 in 1
 model: WB5
 category: light
 type: LED Controller
