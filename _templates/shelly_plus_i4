@@ -1,0 +1,22 @@
+---
+date_added: 2022-01-29
+title: Shelly Plus i4
+model: SPI4
+image: /assets/images/shelly_plus_i4.jpg
+template32: '{"NAME":"Shelly Plus i4","GPIO":[0,0,0,0,0,0,0,0,192,0,193,0,0,0,0,0,0,0,0,0,0,0,195,194,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SwitchMode1 1 | SwitchMode2 1 | SwitchMode3 1 | SwitchMode4 1 | SwitchTopic 0 | SetOption114 1"}' 
+link: https://shop.shelly.cloud/shelly-plus-i4-wifi-smart-home-automation
+link2: https://www.aliexpress.com/item/1005003774487679.html
+link3: https://www.idealo.de/preisvergleich/Typ/3800235265079.html
+mlink: https://shelly.cloud/shelly-plus-i4/
+flash: serial
+category: switch
+type: Switch
+standard: global
+chip: solo1
+---
+
+Example to publish switch events to separate topics
+
+```console
+Backlog Rule1 on Switch1#state do Publish stat/%topic%/SWITCH1 %value% endon on Switch2#state do Publish stat/%topic%/SWITCH2 %value% endon on Switch3#state do Publish stat/%topic%/SWITCH3 %value% endon on Switch4#state do Publish stat/%topic%/SWITCH4 %value%; Rule1 1
+```

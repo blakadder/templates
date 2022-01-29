@@ -1,0 +1,17 @@
+---
+date_added: 2022-01-29
+title: Wireless Tag 3.5" Touch
+model: WT32-SC01
+image: /assets/images/
+template32: '{"NAME":"WT32-SC01","GPIO":[6210,1,1,1,1,1,0,0,1,704,736,768,1,1,640,608,1,800,1024,992,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link3: https://www.alibaba.com/product-detail/esp32-development-board-WT32-SC01-3_62534911683.html
+link4: https://www.amazon.de/dp/B09Q5GHNTX/
+link2: https://www.banggood.com/WT32-SC01-ESP32-Development-Board-with-3_5-inch-320X480-Capacitive-Multi-Touch-LCD-Screen-Built-In-bluetooth-WIFI-p-1921644.html
+link: https://www.aliexpress.com/item/1005003365708049.html
+mlink: http://www.wireless-tag.com/portfolio/wt32-sc01/
+flash: serial
+category: diy
+type: Display
+standard: global
+---
+Development board with 3.5" colour screen (SPI) and capacitive touch (I2C). All GPIOs are broken out for easy access. Comes with ESP32-WROVER-B Chip and 4/16MB Flash & 8MB PSRAM. 

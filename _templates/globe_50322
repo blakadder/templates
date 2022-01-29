@@ -1,0 +1,14 @@
+---
+date_added: 2022-01-28
+title: Globe 3 Way
+model: 50322
+image: /assets/images/
+template9: '{"NAME":"Globe Dimmer","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 } TuyaMCU 21,2 | Ledtable 0"}' 
+link: https://www.amazon.ca/dp/B08TT6ZDRC/
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Dimmer
+standard: us
+---

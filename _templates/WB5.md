@@ -1,13 +1,15 @@
 ---
-date_added: 2021-09-27
+date_added: 2022-01-28
 title: Tuya WB5 5 in 1
 model: WB5
 category: light
 type: LED Controller
 standard: global
 image: /assets/images/WB5.jpg
-template9: '{"NAME":"WB5","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":18,"CMND":"TuyaMCU 11,20 | TuyaMCU 22,21 | TuyaMCU 22,21 | TuyaMCU 23,23 | TuyaMCU 98,101 | DimmerRange 0,1024"}'
-link: https://www.aliexpress.com/item/1005003066465986.html
+templatec3: '{"NAME":"WB5","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":18,"CMND":"TuyaMCU 11,20 | TuyaMCU 22,21 | TuyaMCU 22,21 | TuyaMCU 23,23 | TuyaMCU 98,101 | DimmerRange 0,1024"}'
+link: https://www.aliexpress.com/item/1005003081976104.html
+link2: https://www.amazon.com/dp/B08L9GWJK1
+mlink: https://www.alibaba.com/product-detail/SKYDANCE-WB5-TuyaBluetooth-RF-5-in1_1600136303591.html
 type: LED Controller
 chip: CB3S
 flash: replace
