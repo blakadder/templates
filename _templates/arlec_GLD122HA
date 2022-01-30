@@ -7,7 +7,17 @@ mlink:
 type: RGBCCT
 category: bulb
 standard: e27
-template: '{"NAME":"Arlec RGBWW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+flash: serial
+template9: '{"NAME":"Arlec RGBWW","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.bunnings.com.au/arlec-smart-9-5w-806lm-rgb-cct-es-globe-with-grid-connect_p0111501
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-9-5w-806lm-rgb-cct-es-globe_p0111501
 ---
+
+**WARNING**: Series II variants of these devices are now appearing on the shelves which include
+the WB3L chip which is NOT ESP2866-based and therefore compatible with Tasmota.
+
+You can identity these by looking at the printed label on the bulb itself, where it will clearly be
+labelled as *Series II*. The original variant which is ESP2866 based, will not identify as Series I.
+
+They will need to be flashed via serial as they will very likely have a newer firmware preventing a
+tuya-convert flash.
