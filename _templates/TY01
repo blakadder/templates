@@ -77,7 +77,7 @@ Sensor status will be mapped to POWER. ON is "open" and OFF is "closed".
 There is no function in Tasmota for battery power dpID so we will use a rule to report battery status (high, medium or low) to a custom topic (change it to any other topic suitable for you). 
 
 ```console
-Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATT high ENDON ON TuyaReceived#Data=55AA00050005030400010112 DO publish2 stat/%topic%/BATT medium ENDON ON TuyaReceived#Data=55AA00050005030400010011 DO publish2 stat/%topic%/BATT low ENDON
+Rule1 ON TuyaReceived#Data=55AA00050005030400010213 DO publish2 stat/%topic%/BATTERY high ENDON ON TuyaReceived#Data=55AA00050005030400010112 DO publish2 stat/%topic%/BATTERY medium ENDON ON TuyaReceived#Data=55AA00050005030400010011 DO publish2 stat/%topic%/BATTERY low ENDON
 ```
 Don't forget to turn on the rule: `Rule1 1`
 
@@ -88,6 +88,7 @@ With Tasmota 9.2+ and integration in Home Assistant 2020.12+ add this rule:
 rule2 on system#boot do publish2 homeassistant/binary_sensor/%macaddr%_contact/config {"name":"%topic% Door Sensor","state_topic":"stat/%topic%/RESULT","value_template":"{{ value_json.POWER }}","device_class":"door","unique_id":"%macaddr%_contact","device":{"connections":[["mac","%macaddr%"]]}} endon on system#boot do publish2 homeassistant/sensor/%macaddr%_battery/config {"name":"%topic% Battery","state_topic":"stat/%topic%/BATTERY","value_template":"{{ value }}","icon":"mdi:battery","unique_id":"%macaddr%_battery","device":{"connections":[["mac","%macaddr%"]]}} endon
 {% endraw %}{% endhighlight %}
 
+Don't forget to turn on the rule: `Rule2 1`
 Finally disable the switch entity in the device card
 
 ## Final Notes
