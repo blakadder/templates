@@ -50,6 +50,25 @@ Rule1
   ON TuyaReceived#CmndData=6A04000103 DO publish2 stat/%topic%/MUTE OFF ENDON
   ON TuyaReceived#CmndData=6A04000104 DO publish2 stat/%topic%/BATTERY ON ENDON
 ```
+The rule above uses the publish2 command. This will send the topics with retained flag to the broker. This means, that the broker stores the value.
+In some smarthome scenarios you don't want this and let the persistence layer of your smarthome to handle the states. So I changed the command to publish (without 2)
+which works well in my scenario.
+
+```console
+Rule1
+  ON TuyaReceived#CmndData=6A04000100 DO publish stat/%topic%/FIRE OFF ENDON
+  ON TuyaReceived#CmndData=6A04000100 DO publish stat/%topic%/TEST OFF ENDON
+  ON TuyaReceived#CmndData=6A04000100 DO publish stat/%topic%/BATTERY OFF ENDON
+  ON TuyaReceived#CmndData=6A04000100 DO publish stat/%topic%/MUTE OFF ENDON
+  ON TuyaReceived#CmndData=6A04000101 DO publish stat/%topic%/FIRE ON ENDON
+  ON TuyaReceived#CmndData=6A04000101 DO publish stat/%topic%/MUTE OFF ENDON
+  ON TuyaReceived#CmndData=6A04000102 DO publish stat/%topic%/FIRE ON ENDON
+  ON TuyaReceived#CmndData=6A04000102 DO publish stat/%topic%/MUTE ON ENDON
+  ON TuyaReceived#CmndData=6A04000103 DO publish stat/%topic%/FIRE ON ENDON
+  ON TuyaReceived#CmndData=6A04000103 DO publish stat/%topic%/TEST ON ENDON
+  ON TuyaReceived#CmndData=6A04000103 DO publish stat/%topic%/MUTE OFF ENDON
+  ON TuyaReceived#CmndData=6A04000104 DO publish stat/%topic%/BATTERY ON ENDON
+```
 
 Enable the rule: `Rule1 1`
 
