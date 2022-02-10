@@ -13,11 +13,12 @@ image: https://ae01.alicdn.com/kf/H12c7a3e69d3545248ebe0e78de8ef43fi/Dimmable-10
 template: '{"NAME":"FCMILA LED E27","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
+Alternative version with SM16726 controller IC and cold white only, same aluminium case but internals as this one:
+link: https://forum.iobroker.net/topic/12435/fcmila-wi-fi-smart-bulb-in-iobroker-einbinden
 
+template: '{"NAME":"FCMILA RGB+W E27","GPIO":[0, 0, 0, 0, 2912, 416, 0, 0, 0, 0, 2944, 0, 0, 0],"FLAG":0,"BASE":18}' 
 
-
-
-
+image: https://forum.iobroker.net/assets/uploads/files/7482_p1060249.jpg
 
 
 
