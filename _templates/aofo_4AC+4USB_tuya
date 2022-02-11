@@ -1,6 +1,7 @@
 ---
 date_added: 2019-11-08
-title: AOFO 4AC+4USB Tuya
+title: AOFO 4AC+4USB Tuya 
+model: C733
 category: plug
 type: Power Strip
 standard: eu
@@ -8,6 +9,7 @@ link: https://www.amazon.de/AOFO-Steckdosenleiste-Fernsteuerung-Mehrfachsteckdos
 image: https://images-na.ssl-images-amazon.com/images/I/816DuO0a4WL._SL1500_.jpg
 template: '{"NAME":"AOFO-4AC-4USB","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":1,"BASE":54}' 
 link2: 
+chip: CB2S
 ---
 
 `Backlog TuyaMCU 11,38; TuyaMCU 12,1; TuyaMCU 13,2; TuyaMCU 14,3; TuyaMCU 15,4 ; TuyaMCU 16,7`
@@ -20,4 +22,19 @@ link2:
 
 `dpID 9` , `dpID 10`, `dpID 11`,`dpID 12` and  `dpID 15` set timer in seconds for AC 1-4 and USB
 
+
+
+My device contained an incompatible CB2S module. Swapped it for a pin compatible [ESP-02s](ESP-02S.html). 
+
+Button1/Power1 (switch all) does not completely work with configuration above - it will be updated correctly when the actual button on the device is pressed, but can´t be controlled from Tasmota, so I added following rule: 
+
+`rule1 on Power1#State do backlog power2 %value%; power3 %value%; power4 %value%; power5 %value%; power6 %value%; endon`
+
+enable rule1: `rule1 1`
+
+This way everything works as expected. Using backlog there will be some delay between the sockets on switching on/off - to reduce this, 'backlog0' can be used instead. 
+
+Renamed web buttons: 
+
+`backlog webbutton1 ALL; webbutton2 S1; webbutton3 S2; webbutton4 S3; webbutton5 S4; webbutton6 USB;`
 
