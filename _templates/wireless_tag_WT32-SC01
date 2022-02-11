@@ -2,7 +2,7 @@
 date_added: 2022-01-29
 title: Wireless Tag 3.5" Touch
 model: WT32-SC01
-image: /assets/images/
+image: /assets/images/wireless_tag_WT32-SC01.jpg
 template32: '{"NAME":"WT32-SC01","GPIO":[6210,1,1,1,1,1,0,0,1,704,736,768,1,1,640,608,1,800,1024,992,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 link3: https://www.alibaba.com/product-detail/esp32-development-board-WT32-SC01-3_62534911683.html
 link4: https://www.amazon.de/dp/B09Q5GHNTX/
