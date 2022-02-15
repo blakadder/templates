@@ -4,7 +4,7 @@ title: Gosund
 model: WO1
 template: '{"NAME":"Gosund WO1","GPIO":[320,0,576,0,2656,2720,0,0,2624,321,225,224,0,4704],"FLAG":0,"BASE":18}' 
 image: /assets/images/gosund_WO1.jpg
-link: https://www.amazon.com/dp/B08HH8RDRB
+link: https://www.amazon.com/dp/B09JZDSLNC
 mlink: https://us.gosund.com/collections/all-products/products/smart-wall-outlet-with-energy-monitoring-wo1
 flash: tuya-convert
 category: plug
@@ -15,3 +15,5 @@ standard: us
 ```console
 backlog rule1 on analog#a0<400 do power2 toggle break on analog#a0<800 do power1 toggle break endon; rule1 1
 ```
+
+Note: Tuya convert still worked as of 2022-06-02
