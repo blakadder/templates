@@ -1,6 +1,6 @@
 ---
 date_added: 2022-02-01
-title: Sinilink 
+title: Sinilink Temperature Sensor
 model: XY-WFWT
 image: /assets/images/sinilink_XY-WFWT.jpg
 template9: '{"NAME":"XY-WFWT","GPIO":[1,1,320,1,225,224,1,1,608,640,32,1,33,1],"FLAG":0,"BASE":18}' 
@@ -9,7 +9,7 @@ link2: https://www.amazon.de/dp/B09B3M9S9N
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 ![board](http://www.icstation.com/images/big/products/GY18663_3_6644.JPG)
