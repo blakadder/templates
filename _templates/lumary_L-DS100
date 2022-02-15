@@ -1,8 +1,8 @@
 ---
 date_added: 2022-02-10
-title: iLintek / Lumary L-DS100 Dimmer
+title: iLintek / Lumary 
 model: L-DS100
-image: /assets/images/
+image: /assets/images/lumary_L-DS100.jpg
 template9: '{"NAME":"L-DS100","GPIO":[1,2272,1,2304,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com/dp/B07RBQX7BR
 link2: 
