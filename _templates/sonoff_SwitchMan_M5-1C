@@ -1,6 +1,6 @@
 ---
 date_added: 2022-01-30
-title: Sonoff SwitchMan M5-2C 2 Gang
+title: Sonoff SwitchMan M5-1C 1 Gang
 model: ESP32D0-MSW-T5
 image: /assets/images/sonoff_SwitchMan_M5-1C.jpg
 template32: '{"NAME":"Sonoff SwitchMan M5-1C-86","GPIO":[32,0,0,0,288,576,0,0,0,0,0,0,0,0,416,0,0,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
