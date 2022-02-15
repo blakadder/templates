@@ -1,0 +1,15 @@
+---
+date_added: 2022-02-04
+title: Soundance 3AC 2USB
+model: C198
+image: /assets/images/C198.jpg
+template9: '{"NAME":"Soundance C198","GPIO":[256,0,0,0,320,289,0,0,225,0,226,227,260,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B078NRFH7S
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: us
+---
+Unable to determine GPIO for button. All 3 power plugs, both LEDs, and both usb (power) ports are identified and functional.

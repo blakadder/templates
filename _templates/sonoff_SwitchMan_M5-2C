@@ -5,7 +5,7 @@ model: ESP32D0-MSW-T5
 image: /assets/images/sonoff_SwitchMan_M5-2C.jpg
 template32: '{"NAME":"Sonoff SwitchMan 2C","GPIO":[0,0,0,0,32,576,0,0,0,0,0,33,0,0,416,225,0,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://itead.cc/product/sonoff-switchman-smart-wall-switch-m5/
-link2: 
+link2: https://www.aliexpress.com/item/1005003618822308.html
 mlink: https://sonoff.tech/product/smart-wall-swtich/ifan03-2/
 flash: serial
 category: switch

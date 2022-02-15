@@ -1,0 +1,17 @@
+---
+date_added: 2022-02-05
+title: Mirabella Genio Dual USB
+model: I002899
+image: /assets/images/mirabella_genio_I002899.jpg
+template9: '{"NAME":"Mirabella Genio Wi-Fi Power Plug with Dual USB Port","GPIO":[0,0,0,32,0,0,0,0,0,320,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.woolworths.com.au/shop/productdetails/80169/mirabella-genio-wifi-power-plug-with-dual-2-usb-port
+link2: 
+mlink: https://www.mirabellagenio.com.au/product-range/mirabella-genio-wi-fi-power-plug-with-two-usb-ports/
+flash: serial
+category: plug
+type: Plug
+standard: au
+chip: TYWE2S
+---
+
+To flash it, the pad `IO0` must be grounded in order to put the ESP8285 in flash mode.

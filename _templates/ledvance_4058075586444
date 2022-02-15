@@ -5,8 +5,8 @@ model: 4058075586444
 image: /assets/images/ledvance_4058075586444.jpg
 template9: '{"NAME":"Ledvance Plug CH","GPIO":[0,0,0,288,32,0,0,0,2656,224,2720,0,0,0],"FLAG":0,"BASE":18}' 
 link: 
-link2: https://www.ledvance.com/consumer/products/smart-home/smart-home-products-with-wifi-technology/smart-home-components/swiss-type-plug-with-smart-socket-to-control-non-smart-devices-with-wifi-technology-c141296
-mlink: 
+link2: 
+mlink: https://www.ledvance.com/consumer/products/smart-home/smart-home-products-with-wifi-technology/smart-home-components/swiss-type-plug-with-smart-socket-to-control-non-smart-devices-with-wifi-technology-c141296
 flash: replace
 category: plug
 type: Plug

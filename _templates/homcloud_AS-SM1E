@@ -1,0 +1,14 @@
+---
+date_added: 2022-02-06
+title: HomCloud QS-WIFI-S05-EC 1 Channel
+model: AS-SM1E
+image: /assets/images/homcloud_AS-SM1E.jpg
+template9: '{"NAME":"QS-WIFI-S05-EC","GPIO":[0,3200,0,5056,288,224,0,0,0,160,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.life365.eu/p/AS-SM1E-20371
+link2: https://www.amazon.it/dp/B08VZVJW3B
+mlink: https://www.homcloud.com/products/?lang=en
+flash: serial
+category: relay
+type: Switch
+standard: it
+---

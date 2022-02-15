@@ -1,0 +1,15 @@
+---
+date_added: 2022-02-10
+title: iLintek / Lumary L-DS100 Dimmer
+model: L-DS100
+image: /assets/images/
+template9: '{"NAME":"L-DS100","GPIO":[1,2272,1,2304,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/dp/B07RBQX7BR
+link2: 
+link3: https://www.lumary.tech/products/lumary-smart-dimmer-wi-fi-light-switch-app-remote-control-schedule-compatible-with-alexa-google-assistant-no-hub-required
+flash: replace
+category: switch
+type: Dimmer
+standard: us
+chip: WR3
+---
