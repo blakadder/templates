@@ -9,8 +9,8 @@ link2: https://www.aliexpress.com/item/1005003774487679.html
 link3: https://www.idealo.de/preisvergleich/Typ/3800235265079.html
 mlink: https://shelly.cloud/shelly-plus-i4/
 flash: serial
-category: switch
-type: Switch
+category: relay
+type: Switch Module
 standard: global
 chip: solo1
 ---

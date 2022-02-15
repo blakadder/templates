@@ -9,7 +9,7 @@ link2: https://www.idealo.de/preisvergleich/Typ/5412810303113.html
 mlink: https://nedis.com/en-us/product/smart-home/energy/power-switches/550690706/smartlife-power-switch-wi-fi-2400-w-terminal-block-app-available-for-android-ios-9-x-4-x-25-cm
 flash: serial
 category: relay
-type: Switch
+type: Switch Module
 standard: eu
 ---
 Easily opened with nails or a simple pic. Serial related pins are marked and spread around the board and don't use a standard header spacing so connecting to the pins can be a little bit tricky. GPIO 0 is not connected to the button so a specific connection to it is required.
