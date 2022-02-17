@@ -1,0 +1,24 @@
+---
+date_added: 2022-01-28
+title: TUYA WIFI Smart RGB+CCT 12-24V LED Controller
+model: ZB001
+category: light
+type: LED Controller
+standard: global
+image: /assets/images/ZB001_front.jpg
+templatec3: '{"NAME":"ESP32C3","GPIO":[0,0,0,418,417,0,0,0,0,0,0,0,0,0,0,0,0,0,416,419,0,0],"FLAG":0,"BASE":1}'
+link: https://www.aliexpress.com/item/1005003428284125.html
+link2:
+mlink: 
+chip: WB3S
+flash: replace
+---
+![PCB](/assets/images/ZB001_pcb.jpg)
+
+## Hardware
+
+The chip used on this board is a WB3S, and requires a transplant. It cannot be flashed. The daughterboard for the SoC is compatible with the ESP12-S and in this case ESP-C3-12F module. Other formats may be compatible, but may require jumper wires.
+
+## Serial Flashing
+
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
