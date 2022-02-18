@@ -13,4 +13,6 @@ type: DIN Relay
 standard: global
 chip: TYWE3S
 ---
-Remove DIN rail part, two screws under side to easy open, [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) chip inside.
+Remove DIN rail part, two screws under side to easy open.
+
+Internally the neutral is just bridged across, so this is actually just a single pole (on the live) and the neutral is still active when the switch is off
