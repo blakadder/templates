@@ -67,28 +67,41 @@ layout: default
     {% endif %}
   
     {% if page.chip != nil %}
-      {% 
-        if page.chip contains 'C-8138'  
-        or page.chip contains 'WB3' 
-        or page.chip contains 'WB3L' 
-        or page.chip contains 'WB3S' 
-        or page.chip contains 'WBR3' 
-        or page.chip contains 'WR3' 
-        or page.chip contains 'WR3E' 
-        or page.chip contains 'WR3L' 
-        or page.chip contains 'WR3N' 
-        or page.chip contains 'CB3S' 
-        or page.chip contains 'CB3L' 
-      %}
-      You can replace the incompatible module with <a href="/ESP-12">ESP-12</a> or <a href="/ESP-07">ESP-07</a>. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
+    {% 
+      if page.chip contains 'C-8138'  
+      or page.chip contains 'WB3' 
+      or page.chip contains 'WB3L' 
+      or page.chip contains 'WB3S' 
+      or page.chip contains 'WBR3' 
+      or page.chip contains 'WR3' 
+      or page.chip contains 'WR3E' 
+      or page.chip contains 'WR3L' 
+      or page.chip contains 'WR3N' 
+      or page.chip contains 'CB3S' 
+      or page.chip contains 'CB3L' 
+    %}
+        You can replace the incompatible module with <a href="/ESP-12">ESP-12</a> or <a href="/ESP-07">ESP-07</a>. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
       {% 
         elsif page.chip contains 'WB2L' 
         or page.chip contains 'WR2L' 
         or page.chip contains 'WBR2L' 
-      %}<a href="/DMP-L1">WT-01N</a> 
-      {% elsif page.chip contains 'WB2' or page.chip contains 'WR2' or page.chip contains 'WBR2' %}
-      You can replace the incompatible module with <a href="/WT-01N">WT-01N</a> or <a href="/WT32C3-01N">WT32C3-01N</a> . Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.   
-      {% else %}
+        or page.chip contains 'CB2L' 
+          %}<a href="/DMP-L1">WT-01N</a> 
+      {% 
+        elsif page.chip contains 'WB2' 
+        or page.chip contains 'WR2' 
+        or page.chip contains 'WBR2' 
+        or page.chip contains 'WB2S' 
+        or page.chip contains 'CB2S' 
+        or page.chip contains 'WA2' 
+      %}
+      You can replace the incompatible module with <a href="WT-01N">WT-01N</a>, <a href="ESP-02S">ESP-02S</a> or <a href="WT32C3-01N">WT32C3-01N</a>  . Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.   
+      {% 
+        elsif page.chip contains 'WBLC5' 
+        or page.chip contains 'CBLC5' 
+      %}
+      You can replace the incompatible module with <a href="ESP-01D">ESP-01D</a>.  Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
+    {% else %}
       {% endif %}
     <br>
     <p>

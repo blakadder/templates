@@ -1,0 +1,20 @@
+---
+date_added: 2022-02-16
+title: Digital LCD BL6523 
+model: 
+image: /assets/images/
+template9: '{"NAME":"BL6523 Smart Meter","GPIO":[0,0,0,0,7488,7520,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005003777095035.html
+link2: 
+mlink: 
+flash: replace
+category: diy
+type: Plug
+standard: [eu, uk, us, au]
+---
+
+### Open
+Remove the three screws in the back of the device and pry. 
+
+### Connect ESP
+Remove screws and detach the main pcb from the back cover, then identify and solder wires to the TX, RX and GND in the ribbon cable solder joint. Power the ESP using an smps.
