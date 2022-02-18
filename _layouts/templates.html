@@ -115,6 +115,16 @@ layout: default
     <pre><code class="language-json" style="white-space: nowrap">{{ page.templates2 }}</code></pre>
 </div>
 </div>
+{% elsif page.templates3 != nil %}
+<div class="row">
+  <div class="column"><strong>Configuration for ESP32-S3</strong></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+</div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.templates3 }}</code></pre>
+</div>
+</div>
 {% elsif page.template9 != nil %}
 <div class="row">
   <div class="column"><strong>Configuration</strong></div>
@@ -170,11 +180,21 @@ layout: default
   {% endif %}
 
   {% if page.templatec3 != nil or page.chip == "c3" %}
-  Requires a special ESP32-C3 tasmota32 binary. Download unofficial development build for <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3.bin">4Mb flash</a> or <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3_2M.bin">2Mb flash</a>.<p>
+  Requires a special ESP32-C3 <a href="http://ota.tasmota.com/tasmota32/tasmota32c3.bin">`tasmota32c3.bin`</a> binary. 
+  <br><br>
+  <p>
   {% endif %}
 
   {% if page.templates2 != nil or page.chip == "s2" %}
   Requires a special ESP32-S2 tasmota32 binary. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.bin">development build</a>.<p>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.templates3 != nil or page.chip == "s3" %}
+  Requires a special ESP32-S3 tasmota32 binary. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3.bin">development build</a>.<p>
+  <br><br>
+  <p>
   {% endif %}
 
   {% if page.author == 'blak' %}
