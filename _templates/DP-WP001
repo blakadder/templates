@@ -1,20 +1,21 @@
 ---
 date_added: 2020-01-17
 title: DP-WP001 PIR
-model: 
+model: DP-WP001
 image: https://user-images.githubusercontent.com/5904370/72598047-50233a00-390f-11ea-87ae-53ffe97b4509.png
 template: '{"NAME":"TUYA PIR","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com/Motion-Sensor-Office-Security-Compatible/dp/B07L2WTYRY
 link2: https://www.aliexpress.com/af/DP%25252dWP001.html
 mlink: 
-flash: serial
+flash: replace
 category: sensor
 type: Motion Sensor
 standard: global
-chip: TYWE3S
+chip: XR3
 ---
 
-## Flashing
+![Unsupported chip](https://user-images.githubusercontent.com/4634613/154555140-3963d31b-0e2c-4acb-adeb-a32ff3686ee7.png)
+
 To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/install/tree/main/firmware/unofficial), compiled from current development release. Flash at your own risk.
 
 After initial setup type the following into the Tasmota console window:
