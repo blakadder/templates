@@ -7,13 +7,23 @@ mlink:
 type: CCT
 category: bulb
 standard: e27
+flash: serial
 link: https://www.bunnings.com.au/arlec-smart-9-5w-806lm-cct-es-globe-with-grid-connect_p0111503
 template9: '{"NAME":"Arlec CCT","GPIO":[0,0,0,0,0,416,0,0,0,449,0,0,0,0],"FLAG":0,"BASE":48}'
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-9-5w-806lm-cct-es-globe_p0119820
 ---
 
+**WARNING**: Series II variants of these devices are now appearing on the shelves which include
+the WB3L chip which is NOT ESP2866-based and therefore compatible with Tasmota.
+
+You can identity these by looking at the printed label on the bulb itself, where it will clearly be
+labelled as *Series II*. The original variant which is ESP2866 based, will not identify as Series I.
+
+They will need to be flashed via serial as they will very likely have a newer firmware preventing a
+tuya-convert flash.
+
 This bulb uses PWM1 for brightness and PWM2 (inverted) for color temperature (instead of PWM1 for Cold White and PWM2 for Warm White),
 so this template is based on `Module 48` aka Philips Xiaomi mode. Alternatively, you could use `SetOption92 1`.
 See the [PWM CT](https://tasmota.github.io/docs/Lights/#pwm-ct) documentation for details.
 
-The bulb has hardware Gamma Correction included, you need to configure `LedTable 0` 
+The bulb has hardware Gamma Correction included, you need to configure `LedTable 0`
