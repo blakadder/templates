@@ -6,7 +6,7 @@ category: light
 type: LED Controller
 standard: global
 image: /assets/images/ZB001_front.jpg
-templatec3: '{"NAME":"ESP32C3","GPIO":[0,0,0,418,417,0,0,0,0,0,0,0,0,0,0,0,0,0,416,419,0,0],"FLAG":0,"BASE":1}'
+templatec3: '{"NAME":"ZB001","GPIO":[0,0,0,418,417,420,0,0,0,0,0,0,0,0,0,0,0,0,416,419,0,0],"FLAG":0,"BASE":1}'
 link: https://www.aliexpress.com/item/1005003428284125.html
 link2:
 mlink: 
