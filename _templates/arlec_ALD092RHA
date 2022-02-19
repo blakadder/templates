@@ -11,7 +11,19 @@ flash: serial
 category: light
 type: Downlight
 standard: au
+unsupported: true
+chip: WB3L
 ---
-Flashing was quite easy, cover unclips easily and required pins for flashing are identifiable
+This light now uses a WB3L chip that can't be flashed.
 
-Recommend changing PwmFrequency to 100Hz to reduce flicker at low levels (run command `PwmFrequency 100`)
+Based on serveral units purchased in 2022/02, it appears drivers marked "TW-092RA Series 2" use a WB3L chip instead of the previous TYWE5P chip.
+Externally on the bottom of the packaging near the barcode is what appears to be a date marking. From the units purchased it appears those marked 08/21 and later use the WB3L, whilst those marked 07/21 and earlier have the TYWE5P.
+
+![Packaging Identification](/assets/images/ALD092RHA_Packaging_Identification.png)
+![Driver Identification](/assets/images/ALD092RHA_Driver_Identification.png)
+
+The [ESP-12H](https://templates.blakadder.com/ESP-12H.html) module is potentially an ESP-based drop-in replacement.
+The [OpenBK7231T](https://github.com/openshwprojects/OpenBK7231T) project also contains further information on the BK7231T RF chip.
+
+For TYWE5P-based devices, flashing is quite easy. The cover unclips easily and required pins for flashing are identifiable.
+Recommend changing PwmFrequency to 100Hz to reduce flicker at low levels (run command `PwmFrequency 100`).
