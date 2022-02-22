@@ -14,6 +14,8 @@ standard: global
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
+2022-02-22: Warning! No longer ESP based. Ships with CB3S (BK7231N)
+
 This is a Tuya battery powered contact sensor. Runs on two AAA batteries (not supplied with the device). 
 
 This sensor can be found for around 6$ on AliExpress!
