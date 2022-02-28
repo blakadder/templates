@@ -3,7 +3,7 @@ date_added: 2021-12-01
 title: Energizer 2AC Weather Resistant
 model: EOX3-1001-BLK
 image: /assets/images/energizer_EOX3-1001-BLK.jpg
-template9: '{"NAME":"Energizer EOX3-1001-BLK","GPIO":[0,0,0,0,320,321,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Energizer EOX3-1001-BLK","GPIO":[0,0,0,0,320,576,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}' 
 template: '{"NAME":"Energizer EOX3-1001-BLK","GPIO":[0,0,0,0,52,53,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.com/dp/B081PDH44P
 link2: 
@@ -20,6 +20,6 @@ At first boot of an unconfigured device, the following sequence seems to execute
 1.  Blue LED active for ~60 seconds
 1.  No LED active. Tuya-Convert should discover the devices at this time.  Subsequent boots of an unconfigured device on factory firmware seem to skip directly to this step.
 
-There is both a red (GPIO5) and a blue (GPIO4)  LED on this device; both are inverted, but I can't seem to get the template to use them differently, so only red is used in the template.
+There is both a red (GPIO5) and a blue (GPIO4) LED on this device. Both are inverted.  The template uses the red LED as a wifi indicator and blue as the status indicator.  This can be reversed with a simple swap in the template.
 
 Related tuya-convert GitHub issue/thread: https://github.com/ct-Open-Source/tuya-convert/issues/958
