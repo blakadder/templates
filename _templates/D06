@@ -16,7 +16,9 @@ unsupported: true
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
-2022-02-22: Warning! No longer ESP based. Ships with CB3S (BK7231N)
+## Warning! Since 2022-02-22 ships with CB3S (BK7231N)
+
+## Old hardware instructions
 
 This is a Tuya battery powered contact sensor. Runs on two AAA batteries (not supplied with the device). 
 
