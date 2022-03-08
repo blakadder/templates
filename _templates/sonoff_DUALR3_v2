@@ -69,7 +69,7 @@ Apply the template and make sure "Module 0" is selected. If the power readings a
 
 To enable Zero Cross Detection use this template
 ```json
-{"NAME":"Sonoff Dual R3 (ZCD)","GPIO":[32,0,0,0,7552,0,0,0,0,576,225,0,0,0,0,0,0,0,0,0,0,7296,7328,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+{"NAME":"Sonoff Dual R3 (ZCD)","GPIO":[32,0,0,0,7552,0,0,0,0,576,225,0,0,0,0,0,0,0,0,0,0,3200,8128,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 ```
 
 [GitHub discussion](https://github.com/arendst/Tasmota/discussions/10793)
