@@ -5,7 +5,6 @@ model: AT-IRBR-1
 image: /assets/images/automate_things_AT-IRBR-1.jpg
 template9: '{"NAME":"AT-IRBR-1","GPIO":[0,0,0,0,1056,1088,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://ir-bridge.automate-things.co.uk/
-
 flash: serial
 
 category: misc

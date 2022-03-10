@@ -14,7 +14,16 @@ type: Light
 standard: global
 ---
 
-Button should be on GPIO16, buit I havent tried to enable it.
+The button is on GPIO16, but as this pin does not have an internal pullup you need to pull it up externally e.g. with a 10k resistor from VCC.
+After that you can assign "Button_n" to GPIO16 in the Tasmota template.
+
+GPIO= 
+
+R 4
+G 12
+B 14
+CW 5
+WW 13
 
 Here are some pictures from the inside:
 
