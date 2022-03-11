@@ -1,0 +1,14 @@
+---
+date_added: 2022-03-10
+title: Luminea LHC-103.on
+model: NX-4506
+image: /assets/images/luminea_NX-4506.jpg
+template9: '{"NAME":"LHC-103.on","GPIO":[544,0,289,34,290,33,0,0,32,224,226,225,288,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B07KFLSJTG/
+link2: 
+mlink: https://www.luminea.info/index.html
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---

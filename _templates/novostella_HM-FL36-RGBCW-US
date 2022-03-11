@@ -1,0 +1,15 @@
+---
+date_added: 2022-02-27
+title: Novostella Bloom 20W RGBCW Flood
+model: HM-FL36-RGBCW-US
+image: /assets/images/novostella_HM-FL36-RGBCW-US.jpg
+template9: '{"NAME":"Novostella NTF36 Floodlight","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.com/gp/product/B07VH1VHYL/
+link2: 
+mlink: https://www.novostella.net/collections/smart-flood-lights/products/2-pack-20w-rgbcw-2700-6500k-smart-led-floodlight
+flash: tuya-convert
+category: light
+type: Light
+standard: us
+---
+Tuya-convert worked for lights purchased on Oct 2021
