@@ -230,12 +230,7 @@ layout: default
     For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
     <br><br>
     {% endif %}
-    {% if page.template9 == nil %}
-      {% if gpios contains '5600' or gpios contains '5568' or gpios contains '5792' %}
-      Requires an ESP32 binary with Ethernet support. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32-ethernet.bin">`tasmota32-ethernet.bin`</a>development build.<p>
-      <br><br>
-      {% endif %}
-    {% endif %}
+
   {% else %}
   {% endif %}
 
