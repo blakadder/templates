@@ -1,0 +1,14 @@
+---
+date_added: 2022-03-13
+title: Emil Lux Wifi-Stecker IP20
+model: 5250527
+image: /assets/images/emil_lux_5250527.jpg
+template9: '{"NAME":"Emil Lux Wifi-Steckdose","GPIO":[0,0,0,0,321,0,0,0,224,320,32,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.obi.ch/hausfunksteuerung/wifi-stecker-smart-home-weiss-ip20/p/5250527
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: ch
+---
