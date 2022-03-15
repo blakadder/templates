@@ -1,0 +1,15 @@
+---
+date_added: 2022-03-14
+title: Spectrum Smart RGBCCT 
+model: WOJ+05641
+image: /assets/images/spectrum_smart_WOJ05641.jpg
+template9: '{"NAME":"Spectrum Smart WOJ+05641","GPIO":[32,0,0,0,0,416,0,0,0,417,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://spectrumsmart.pl/en_GB/p/LED-strip-controller%2C-Wi-Fi-1224V-DC-24W48W-RGBW-CCT-DIMM-with-QC-connector/50
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: eu
+chip: tywe3s
+---

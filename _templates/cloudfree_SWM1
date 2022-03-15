@@ -1,0 +1,21 @@
+---
+date_added: 2022-03-15
+title: CloudFree Motion Light
+model: SWM1
+image: /assets/images/cloudfree_SWM1.jpg
+template9: '{"NAME":"CloudFree SWM1","GPIO":[32,0,0,0,0,160,0,0,224,576,161,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://cloudfree.shop/product/cloudfree-motion-light-switch/
+link2: 
+mlink: 
+flash: preflashed
+category: switch
+type: Switch
+standard: us
+---
+To expose the motion and daylight sensors to Home Assistant, these commands are used:
+```
+SwitchMode1 2;
+SwitchMode2 1;
+SetOption114 1
+```
+Sensors are decoupled by default.
