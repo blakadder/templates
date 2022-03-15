@@ -15,9 +15,10 @@ standard: global
 ---
 *** Before installing Tasmota make sure to retrieve a copy of the calibration data from your device! ***
 
-Download file `calib.dat` from http://<your_shelly3em>/calib.dat
+Download file `calib.dat` from http://\<your_shelly3em\>/calib.dat
 
 Search your Shelly 3EM firmware dump for calib.dat
+
  - Edit the file to become a single line. Notice the removal of unneeded data to make the string as short as possible:
    `{"rms":{"current_a":3166385,"current_b":3125691,"current_c":3131983,"current_s":1756557,"voltage_a":-767262,"voltage_b":-763439,"voltage_c":-749854},"angles":{"angle0":180,"angle1":176,"angle2":176},"powers":{"totactive": {"a":-1345820,"b":-1347328,"c":-1351979}},"freq":0}`
  - Install Tasmota and use the above template.
