@@ -7,6 +7,7 @@ template32: '{"NAME":"Shelly Plus 1 ","GPIO":[0,0,0,0,192,0,0,0,0,0,0,0,0,0,0,0,
 link: https://www.domadoo.fr/en/objets-communicants/5888-shelly-micromodule-commutateur-intelligent-wi-fi-shelly-plus-1-contact-sec-3800235265000.html
 link2: https://www.amazon.de/dp/B09K3XGC14/
 link3: https://www.idealo.de/preisvergleich/OffersOfProduct/201633730_-plus-1-shelly.html
+link4: https://www.aliexpress.com/item/1005003462342443.html
 mlink: https://shelly.cloud/shelly-plus-1/
 flash: serial
 chip: solo1

@@ -7,6 +7,7 @@ template32: '{"NAME":"Shelly Plus 1PM","GPIO":[0,0,0,0,192,2720,0,0,0,0,0,0,0,0,
 link: https://www.domadoo.fr/en/objets-communicants/5889-shelly-micromodule-commutateur-intelligent-wi-fi-avec-mesure-d-energie-shelly-plus-1pm-3800235265017.html
 link2: https://www.amazon.de/dp/B0965J4HT5/
 link3: https://www.idealo.de/preisvergleich/OffersOfProduct/201650823_-shelly-plus-1pm-shelly.html
+link4: https://www.aliexpress.com/item/1005003462281967.html
 mlink: https://shelly.cloud/shelly-plus-1pm/
 flash: serial
 chip: solo1

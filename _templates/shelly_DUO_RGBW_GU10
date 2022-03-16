@@ -5,7 +5,8 @@ model: 3800235262313
 image: /assets/images/shelly_DUO_RGBW_GU10.jpg
 template9: '{"NAME":"Shelly Duo RGBW","GPIO":[0,0,0,0,0,419,0,0,417,416,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://shop.shelly.cloud/shelly-bulb-rgbw-gu10-wifi-smart-home-automation?search=duo%20rgbw&description=true#432
-link2: https://www.idealo.de/preisvergleich/OffersOfProduct/201426818_-duo-gu10-wlan-rgbw-shelly.html
+link2: https://www.aliexpress.com/item/1005003065099697.html
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/201426818_-duo-gu10-wlan-rgbw-shelly.html
 mlink: https://shelly.cloud/products/shelly-duo-smart-home-automation-bulb/
 flash: mgos
 category: bulb
