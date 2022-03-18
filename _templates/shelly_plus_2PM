@@ -11,8 +11,8 @@ flash: serial
 category: relay
 type: Relay
 standard: global
+chip: solo1
 ---
-Flash only with [tasmota32solo1.bin](http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin) build for ESP32-SOLO-1. [Flashing instructions for tasmota32 firmware](https://tasmota.github.io/docs/ESP32/).
 
 ![](/assets/images/shelly_plus_1_pinout.jpg)
 Pin-Layout is on the image, credit goes to Kalin Dimitrov!
