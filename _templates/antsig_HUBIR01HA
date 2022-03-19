@@ -11,5 +11,14 @@ flash: serial
 category: misc
 type: IR Controller
 standard: au
+chip: CB3S
+unsupported: true
 ---
+
+## Warning! Since 2022-03-19 ships with an incompatible Tuya CB3S. If the box says "HUBIR01HA Series 2" its likley its the incompatible chip.
+
+It might be possible to replace the incompatible CB3S chip with a [ESP-12 S/E/F](https://templates.blakadder.com/ESP-12.html). 
+
+## Old hardware instructions
+
 You will need to flash the tasmota-ir.bin firmware to this deivce.
