@@ -17,7 +17,7 @@ unsupported: true
 
 ## Warning! Since 2022-03-19 ships with an incompatible Tuya CB3S. If the box says "HUBIR01HA Series 2" its likley its the incompatible chip.
 
-It might be possible to replace the incompatible CB3S chip with a [ESP-12 S/E/F](https://templates.blakadder.com/ESP-12.html). 
+It is possible to replace the incompatible CB3S chip with a [ESP-12 S/E/F](https://templates.blakadder.com/ESP-12.html). If you do, depending on your chip you may need to pull GPIO15 down to ground with a 10k resistor for the ESP device to boot
 
 ## Old hardware instructions
 
