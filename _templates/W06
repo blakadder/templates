@@ -11,8 +11,14 @@ flash: serial
 category: sensor
 type: Water Sensor
 standard: global
+chip: XR809
+unsupported: true
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+## Warning! Since 2022-03-18 ships with XR809
+
+## Old hardware instructions
 
 This is a Tuya battery powered water sensor. Runs on two AAA batteries (not supplied with the device). 
 
