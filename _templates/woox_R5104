@@ -1,0 +1,14 @@
+---
+date_added: 2022-03-19
+title: WOOX Powerstrip EU
+model: R5104
+image: /assets/images/woox_R5104.jpg
+template9: '{"NAME":"WOOX R5104","GPIO":[0,0,0,32,0,352,0,0,225,355,226,227,224,4896],"FLAG":0,"BASE":18}' 
+link: https://www.alza.de/smart-powerstrip-r5104-d6869013.htm
+link2: https://www.idealo.de/preisvergleich/Typ/8435606709408.html
+mlink: https://wooxhome.com/products-c10/power-c2/woox-r5104-p80
+flash: replace
+category: plug
+type: Power Strip
+standard: eu
+---

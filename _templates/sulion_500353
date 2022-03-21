@@ -1,0 +1,15 @@
+---
+date_added: 2022-03-17
+title: Sulion Edisson Filament ST64 8W 600lm
+model: 500353
+image: /assets/images/sulion_500353.jpg
+template9: '{"NAME":"Sulion Bombilla ST64","GPIO":[0,0,0,0,0,0,0,0,417,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.pccomponentes.com/sulion-edisson-filament-bombilla-inteligente-wifi-e27-7w-cristal-ambar-blanco-calido-a-frio
+link2: 
+mlink: https://sulion.es/fr/produits/500353-edisson-filament
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---
+Newer models from this manufacturer that come with Bluetooth are not compatible anymore.
