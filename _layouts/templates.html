@@ -222,7 +222,7 @@ layout: default
       <br><br>
       {% endif %}
   {% else %}
-    {% elsif page.template32 != nil %}
+    {% if page.template32 != nil %}
       {% assign template = page.template32 | split: ':' %}
     {% elsif page.templatec3 != nil %}
       {% assign template = page.templatec3 | split: ':' %}
