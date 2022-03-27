@@ -12,7 +12,7 @@ template: '{"NAME":"CE Power Strip","GPIO":[52,0,0,0,22,21,0,0,24,23,25,26,17],"
 link2: 
 ---
 
-
+Note : Just picked one of these up on Amazon, the onboard processor wouldn't program under Tasmotizer after I un-soldered it from the board, so I swapped in a regular ESP8266 pre-programmed and everything is working great with the above configuration.  Note there are only 5 relays in mine, the 6th outlet is always on as long as the master switch is powered.
 
 
 
