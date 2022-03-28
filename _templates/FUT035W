@@ -1,0 +1,34 @@
+---
+title: MiBoxer FUT035W Dual White LED Controller (WIFI+2.4G)
+model: FUT035W
+category: light
+type: LED Controller
+standard: global
+link: https://www.aliexpress.com/item/1005003403109561.html
+image: https://m.media-amazon.com/images/I/61hyvQmqZOL._AC_SL1500_.jpg
+templatec3: '{"NAME":"FUT035W","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":54,"CMND":"DimmerRange 0,1000 | TuyaMCU 11,20 | TuyaMCU 21,22 | TuyaMCU 23,23 | TuyaMCU 98,101"}'
+flash: replace
+chip: WBR3
+---
+
+## Hardware
+
+![MiBoxer FUT035W Dual White LED Controller (WIFI+2.4G) Board](/assets/images/miboxer_FUT035W.jpg)
+
+The chip used on this board is a WBR3, and requires a transplant. It cannot be flashed. The daughterboard for the SoC is compatible with the ESP12-S. Other formats may be compatible, but may require jumper wires.
+
+![WBR3 Board](https://cdn.discordapp.com/attachments/790917300210368562/919281733390729216/WL5.jpg)
+
+The TuyaMCU on board requires the following settings for an CCT strip.
+
+```console
+Backlog TuyaMCU 11,20; TuyaMCU 21,22; TuyaMCU 23,23; TuyaMCU 98,101; DimmerRange 0,1000
+```
+
+## Serial Flashing
+
+Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
+
+## Post Transplant Photos
+
+![Post Transplant Board](/assets/images/miboxer_after_trasnplant.jpg)
