@@ -3,11 +3,13 @@ date_added: 2019-12-29
 title: Moes MS-105-1 v2
 link: https://www.aliexpress.com/item/4000436821697.html
 link2: https://www.amazon.de/gp/product/B083SCY56D
+link3: https://www.alza.de/moes-hidden-wlan-smart-dimmer-schalter-2-gang-d6294780.htm
+link4: https://www.aliexpress.com/item/1005002258602359.html
 image: /assets/images/moes-MS-105-1.jpg
 template: '{"NAME":"MS-105","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
-link2: https://www.alza.de/moes-hidden-wlan-smart-dimmer-schalter-2-gang-d6294780.htm
 mlink: https://www.moeshouse.com/products/diy-smart-wifi-light-led-dimmer-switch-smart-life-tuya-app-remote-control-1-2-way-switch-works-with-alexa-echo-google-home-1
-flash: tuya-convert
+flash: replace
+chip: WB2S
 category: relay
 type: Dimmer Module
 standard: global

@@ -1,0 +1,14 @@
+---
+date_added: 2022-02-14
+title: Freenove ESP32-WROVER.DEV Camera
+model: FNK0060
+image: /assets/images/freenove_FNK0060.jpg
+template32: '{"NAME":"Freenove-WROVER-Cam","GPIO":[1,1,1,1,5088,5089,0,0,1,1,1,1,1,1,5090,5091,1,4992,5184,5152,1,5120,5024,5056,0,0,0,0,1,1,5094,5095,5092,1,1,5093],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/dp/B09BC5CNHM
+link2: 
+mlink: https://www.alibaba.com/product-detail/Freenove-ESP32-WROVER-Board-with-Camera_1600294762550.html
+flash: serial
+category: diy
+type: Development Board
+standard: global
+---

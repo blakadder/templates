@@ -115,6 +115,16 @@ layout: default
     <pre><code class="language-json" style="white-space: nowrap">{{ page.templates2 }}</code></pre>
 </div>
 </div>
+{% elsif page.templates3 != nil %}
+<div class="row">
+  <div class="column"><strong>Configuration for ESP32-S3</strong></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+</div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.templates3 }}</code></pre>
+</div>
+</div>
 {% elsif page.template9 != nil %}
 <div class="row">
   <div class="column"><strong>Configuration</strong></div>
@@ -150,10 +160,10 @@ layout: default
 </div>
 </div>
 {% endif %}
-{% if page.template-alt != nil and page.template9 == nil %}
+{% if page.template_alt != nil and page.template9 == nil %}
 <div class="row">
   <div class="column column-100">
-    <pre><code class="language-json" style="white-space: nowrap">{{ page.template-alt }}</code></pre>
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.template_alt }}</code></pre>
 </div>
 </div>
 {% endif %}
@@ -166,15 +176,25 @@ layout: default
     {% if page.chip == "solo1" %}
       Flash only with <a href="http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin"><code>tasmota32solo1.bin</code></a> build for ESP32-SOLO-1. 
     {% endif %}
-    <a href="https://tasmota.github.io/docs/ESP32/">Flashing instructions</a> for tasmota32 firmware.<BR><BR>
+    <a href="https://tasmota.github.io/docs/ESP32/#flashing">Flashing instructions</a> for tasmota32 firmware.<BR><BR>
   {% endif %}
 
   {% if page.templatec3 != nil or page.chip == "c3" %}
-  Requires a special ESP32-C3 tasmota32 binary. Download unofficial development build for <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3.bin">4Mb flash</a> or <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3_2M.bin">2Mb flash</a>.<p>
+  Requires a special ESP32-C3 <a href="http://ota.tasmota.com/tasmota32/tasmota32c3.bin">`tasmota32c3.bin`</a> binary. 
+  <br><br>
+  <p>
   {% endif %}
 
   {% if page.templates2 != nil or page.chip == "s2" %}
   Requires a special ESP32-S2 tasmota32 binary. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.bin">development build</a>.<p>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.templates3 != nil or page.chip == "s3" %}
+  Requires a special ESP32-S3 tasmota32 binary. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3.bin">development build</a>.<p>
+  <br><br>
+  <p>
   {% endif %}
 
   {% if page.author == 'blak' %}
@@ -194,10 +214,15 @@ layout: default
       For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
       <br><br>
     {% endif %}
-  {% elsif page.template9 != nil or page.template32 != nil %}
-    {% if page.template9 != nil %}
-      {% assign template = page.template9 | split: ':' %}
-    {% elsif page.template32 != nil %}
+  {% elsif page.template9 != nil %}
+    {% assign template = page.template9 | split: ':' %}
+    {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
+      {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '5056' %}
+      For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
+      <br><br>
+      {% endif %}
+  {% else %}
+    {% if page.template32 != nil %}
       {% assign template = page.template32 | split: ':' %}
     {% elsif page.templatec3 != nil %}
       {% assign template = page.templatec3 | split: ':' %}
@@ -205,18 +230,10 @@ layout: default
       {% assign template = page.templates2 | split: ':' %}
     {% endif %}
     {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-    {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '5056' or gpios contains '7296' or gpios contains '7328' or gpios contains '8128' %}
-
-    For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
-    <br><br>
-    {% endif %}
-    {% if page.template9 == nil %}
-      {% if gpios contains '5600' or gpios contains '5568' or gpios contains '5792' %}
-      Requires an ESP32 binary with Ethernet support. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32-ethernet.bin">`tasmota32-ethernet.bin`</a>development build.<p>
+      {% if gpio32 contains '2624' or gpio32 contains '2656' or gpio32 contains '2688' or gpio32 contains '2720' or gpio32 contains '2752' or gpio32 contains '2784' or gpio32 contains '2816' or gpio32 contains '3072' or gpio32 contains '3104' or gpio32 contains '3456' or gpio32 contains '7296' or gpio32 contains '7328' or gpio32 contains '8128'%}
+      For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
       <br><br>
       {% endif %}
-    {% endif %}
-  {% else %}
   {% endif %}
 
   {% if page.flash == 'replace' %}
@@ -237,8 +254,9 @@ layout: default
     or page.chip contains 'WR3N' 
     or page.chip contains 'CB3S' 
     or page.chip contains 'CB3L' 
+    or page.chip contains 'XR3' 
   %}
-  <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a> or <a href="ESP-12H"></a>ESP-12H</a>
+  <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a> or <a href="ESP-12H">ESP-12H</a>
   {% 
     elsif page.chip contains 'WB2L' 
     or page.chip contains 'WR2L' 

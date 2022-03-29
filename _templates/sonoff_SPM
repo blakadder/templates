@@ -3,10 +3,11 @@ date_added: 2022-01-25
 title: Sonoff Smart Stackable Power Meter
 model: SPM
 image: /assets/images/sonoff_SPM.jpg
-template32: '{"NAME":"Sonoff SPM","GPIO":[0,0,0,0,3200,5536,0,0,0,0,0,0,3232,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,544,0,0,32,0,0,0,0],"FLAG":0,"BASE":1}'
+template32: '{"NAME":"Sonoff SPM","GPIO":[0,0,0,0,3200,5536,0,0,672,704,736,0,3232,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,544,0,0,32,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://itead.cc/product/sonoff-smart-stackable-power-meter/
 link2: https://www.aliexpress.com/item/1005003440092289.html
 link3: https://www.domadoo.fr/en/peripheriques/5928-sonoff-compteur-de-puissance-intelligent-rail-din-unite-principale.html
+link4: https://mediarath.de/products/sonoff-wifi-lan-smart-stapelbarer-stromzahler-power-meter-tasmota?_pos=1&_sid=d9b216fd0&_ss=r&variant=42500645683413
 mlink: https://sonoff.tech/product/spm-main-spm-4relay/
 flash: serial
 category: relay
@@ -25,33 +26,7 @@ Using latest development branch, compile tasmota32 firmware with:
 ```
 and apply the template.
 
-## Features
-
- * Bulk of the action is handled by ARM processors present in every unit communicating over modbus RS-485.
- * Each SPM-4Relay has 4 bistable relays with their own CSE7761 energy monitoring device handled by an ARM processor.
- * Green led is controlled by ARM processor indicating SD-Card access.
- * ESP32 is used as interface between eWelink and ARM processor in SPM-Main unit communicating over proprietary serial protocol.
- * Power on sequence for two SPM-4Relay modules is 00-00-15-10-(0F)-(13)-(13)-(19)-0C-09-04-09-04-0B-0B
- * Up to six months of daily energy are stored onthe SD-Card. Previous data is lost.
- * Tasmota support is based on Sonoff SPM v1.0.0 ARM firmware.
-  
-Implemented in Tasmota:
- * Up to 7 SPM-4Relay units supporting up to 28 relays.
- * Gui optimized rotating energy display for 4 relays at a time.
- * Button on SPM-Main initiates re-scan of SPM-4Relay units.
- * Blue led equals Tasmota WiFi status.
- * Yellow led lights if no ARM connection can be made.
- * Yellow led blinks 2 seconds if an ARM-ESP comms CRC error is detected.
- * Ethernet support
- * webUI display
- * Persistence for module mapping
- 
-To-do:
- * Gui for Overload Protection entry (is handled by ARM processor).
- * Gui for Scheduling entry (is handled by ARM processor).
- * SPI master to ARM (ARM firmware upload from ESP using EasyFlash).
-
-See [GitHub Discussion](https://github.com/arendst/Tasmota/discussions/13447) for more info...
+See [GitHub Discussion](https://github.com/arendst/Tasmota/discussions/13447) and [Documentation](https://tasmota.github.io/docs/Sonoff-SPM/) for more info...
 
 ![webUI](https://user-images.githubusercontent.com/11044339/142854183-46898cdd-d968-4e80-bd63-a989904217b2.png)
 

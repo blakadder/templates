@@ -1,0 +1,15 @@
+---
+date_added: 2022-03-14
+title: Casalux RGB
+model: 
+image: /assets/images/casalux_rgb.jpg
+template: '{"NAME":"Casalux LED RGB Stripe","GPIO":[0,0,0,0,416,0,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aldi-sued.de/de/p.casalux-wifi-led-rgb-light-strip.490000000000711151.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: eu
+---
+Device also has an IR receiver, which I did not use, yet.

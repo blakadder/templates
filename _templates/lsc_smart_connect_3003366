@@ -1,0 +1,15 @@
+---
+date_added: 2022-01-30
+title: LSC Sensor LED Flood  
+model: 3003366
+image: /assets/images/lsc_smart_connect_3003366.jpg
+template9: '{"NAME":"LSC Smart LED Flood Light with Sensor","GPIO":[0,0,0,0,416,417,0,0,0,160,0,0,0,4768],"FLAG":0,"BASE":18}' 
+link: https://www.action.com/pl-pl/p/reflektor-led-lsc-smart-connect/
+link2: 
+mlink: https://www.action.com/globalassets/images/private-labels/lsc-smart-connect/lsc-manuals-new-2021/3003366-lsc-smart-connect-led-schijnwerper.pdf
+flash: replace
+category: light
+type: Light
+standard: global
+chip: WB3S
+---

@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: tuya-convert
 category: relay
-type: Switch
+type: Switch Module
 standard: in
 chip: TYWE2S
 ---

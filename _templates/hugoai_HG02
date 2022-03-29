@@ -12,7 +12,6 @@ chip: WB3S
 category: light
 type: Light
 standard: global
-chip: TYWE3S
 ---
 Following commands are part of the template and will be applied together with the template.
 

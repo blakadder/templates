@@ -6,7 +6,7 @@ image: /assets/images/sonoff_SwitchMan_M5-3C.jpg
 template32: '{"NAME":"Sonoff M5-3C","GPIO":[33,0,0,0,32,576,0,0,0,0,0,34,0,0,416,225,0,0,226,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://itead.cc/product/sonoff-switchman-smart-wall-switch-m5/
 link2: https://www.aliexpress.com/item/1005003618822308.html
-link3: 
+link3: https://mediarath.de/products/sonoff-m5-switchman-1-2-3-kanal-wifi-mechanischer-smart-wand-schalter?_pos=1&_sid=82507db1c&_ss=r
 mlink: https://sonoff.tech/product/smart-wall-swtich/ifan03-2/
 flash: serial
 category: switch

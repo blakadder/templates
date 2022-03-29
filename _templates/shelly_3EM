@@ -1,0 +1,32 @@
+---
+date_added: 2022-03-11
+title: Shelly 3EM Power Monitoring Module
+model: SHELLY3EM
+image: /assets/images/shelly_3EM.jpg
+template9: '{"NAME":"Shelly 3EM","GPIO":[1,1,288,1,32,8065,0,0,640,8064,608,224,8096,0],"FLAG":0,"BASE":18}' 
+link: https://www.domadoo.fr/en/objets-communicants/5282-shelly-wifi-operated-3-phase-energy-meter-and-contactor-control-3800235262214.html
+link2: https://www.amazon.de/dp/B0918NR3YC/
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/200857383_-3em-shelly.html
+mlink: https://shelly.cloud/products/shelly-3em-smart-home-automation-energy-meter/
+flash: serial
+category: sensor
+type: Sensor
+standard: global
+---
+*** Before installing Tasmota make sure to retrieve a copy of the calibration data from your device! ***
+
+Download file `calib.dat` from http://\<your_shelly3em\>/calib.dat
+
+Search your Shelly 3EM firmware dump for calib.dat
+
+ - Edit the file to become a single line. Notice the removal of unneeded data to make the string as short as possible:
+  ```
+  {"rms":{"current_a":3166385,"current_b":3125691,"current_c":3131983,"current_s":1756557,"voltage_a":-767262,"voltage_b":-763439,"voltage_c":-749854},"angles":{"angle0":180,"angle1":176,"angle2":176},"powers":{"totactive": {"a":-1345820,"b":-1347328,"c":-1351979}},"freq":0}
+  ```
+ - Install Tasmota and use the above template.
+ - In addition to possible rules add a rule containing the calib.dat string from above like:
+   ```console
+   rule3 on file#calib.dat do {"rms":{"current_a":3166385,"current_b":3125691,"current_c":3131983,"current_s":1756557,"voltage_a":-767262,"voltage_b":-763439,"voltage_c":-749854},"angles":{"angle0":180,"angle1":176,"angle2":176},"powers":{"totactive": {"a":-1345820,"b":-1347328,"c":-1351979}},"freq":0} endon
+   ```
+ - Restart Tasmota and obeserve that the results seem calibrated as Tasmota now uses the information from calib.dat
+

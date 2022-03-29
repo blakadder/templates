@@ -1,0 +1,15 @@
+---
+date_added: 2022-02-14
+title: LSC 9W 806lm
+model: 2578539
+image: /assets/images/lsc_smart_connect_2578539.jpg
+template9: '{"NAME":"LSC 970714 swapped4ESP","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.action.com/globalassets/images/private-labels/lsc-smart-connect/manuals/lsc-smart-connect-manual-970714.pdf
+flash: replace
+category: bulb
+type: RGBCCT
+standard: e27
+chip: WB3L
+---

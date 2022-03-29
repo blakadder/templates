@@ -12,6 +12,7 @@ link: https://www.aliexpress.com/af/esp32%25252dcam.html
 link2: https://www.amazon.com/dp/B07S77Q32X
 link3: https://www.banggood.com/ESP32-CAM-WiFi-+-bluetooth-Camera-Module-Development-Board-ESP32-With-Camera-Module-OV2640-IPEX-2_4G-SMA-Anten-p-1549751.html
 link4: https://www.manomano.de/catalogue/p/wifi-esp32-cam-kameramodul-karten-mit-bluetooth-wifi-esp32-serien-dinge-21083604
+link5: https://mediarath.de/products/esp32-cam-wifi-bluetooth-kamera-modul-dev-board-ov2640-2megapixel-tasmota?_pos=3&_sid=002ef302c&_ss=r
 ---
 
 Flash with [tasmota32-webcam.bin](http://ota.tasmota.com/tasmota32/tasmota32-webcam.bin) firmware.

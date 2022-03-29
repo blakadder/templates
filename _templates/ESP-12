@@ -3,6 +3,7 @@ date_added: 2021-09-04
 title: ESP-12E / ESP-12F / ESP-12S
 model: ESP-12
 image: /assets/images/ESP-12.jpg
+template9: '{"NAME":"ESP-12","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,1],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/1005001320458012.html
 link2: https://www.banggood.com/ESP8266-ESP-12E-Remote-Serial-Port-WIFI-Transceiver-Wireless-Module-p-980984.html
 link3: https://www.amazon.com/dp/B07SYNS21H/

@@ -1,0 +1,16 @@
+---
+date_added: 2022-02-13
+title: See Switches
+model: SPBS16W
+image: /assets/images/see_switches_SPBS16W.jpg
+template: '{"NAME":"SEESWITCHES SSPG01WH","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+link: 
+link2: 
+mlink: https://www.seeswitches.co.uk/product/smart-wifi-plug/
+flash: serial
+category: plug
+type: Plug
+standard: uk
+---
+
+![Pinout](https://user-images.githubusercontent.com/36055354/38095984-0d6ba084-3372-11e8-8393-d5b4237f2514.png)

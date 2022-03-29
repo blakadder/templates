@@ -1,0 +1,15 @@
+---
+date_added: 2022-02-01
+title: HaoDeng 
+model: 
+image: /assets/images/haodeng_plug.jpg
+template9: '{"NAME":"HaoDeng","GPIO":[0,0,0,0,21,17,0,0,56,53,0,0,0],"FLAG":0,"BASE":61}' 
+link: https://www.amazon.de/gp/product/B083GJ2BSQ
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+Pinout is noted on the backside of the board, you have to fully disassemble it. You will find 2x GNC, 2x 3,3V, TX, RX and I00 (=GIOP001), to flash shortcut I00 and GND when starting device. Might need several tries until success.

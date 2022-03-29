@@ -1,0 +1,15 @@
+---
+date_added: 2022-03-14
+title: Sulion Dante G100 10W 1055lm
+model: 500308
+image: /assets/images/sulion_500308.jpg
+template9: '{"NAME":"Sulion Bombilla G100","GPIO":[0,0,0,0,0,416,0,0,0,417,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.byverdleds.com/bombillas-inteligentes/3475-bombilla-inteligente-g100-cct-dim-e27-10w-8426107458933.html
+link2: https://www.carrefour.es/bombilla-inteligente-globo-e27-10w-1055lm-wifi/8426107458933/p
+mlink: https://sulion.es/fr/produits/500308-dante
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e27
+---
+

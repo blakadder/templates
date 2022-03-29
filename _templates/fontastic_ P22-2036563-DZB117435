@@ -1,0 +1,15 @@
+---
+date_added: 2022-02-12
+title: Fontastic 16A
+model: P22-2036563-DZB117435
+image: /assets/images/fontastic_P22-2036563-DZB117435.jpg
+template: '{"NAME":"P22-2036563-DZB117435","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.druckerzubehoer.de/shop/product/catid/H-5037_HZB/subcatid/5037_10450_HZB/productid/2036563-DZB117435/site/0/lng/de_DE
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+[Flashing instructions](https://templates.blakadder.com/ucomen_PA-GEBA-01SWP.html)

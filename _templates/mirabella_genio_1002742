@@ -1,0 +1,15 @@
+---
+date_added: 2022-03-13
+title: Mirabella Genio 9W Dimmable
+model: 1002742
+image: /assets/images/mirabella_genio_1002742.jpg
+template9: '{"NAME":"Genio 1002742 (2022)","GPIO":[0,0,0,0,0,0,0,0,417,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-9w-led-downlight/2754331
+link2: 
+mlink: 
+flash: serial
+category: light
+type: Downlight
+standard: au
+---
+Looks identical on the outside to the other Genio 1007242 (which I also have) but wouldn't operate correctly on that template. The Tuya firmware had also been updated and wouldn't flash OTA like the older one did - so dissassembly and serial flashing was required. Both versions of the downlight use the TYWE2L module inside them. I had to de-solder and remove one electrolytic capacitor to get to the Tx/Rx/etc pads on the module and then reinstall before reassembling the downlight. The older version didn't have that capacitor in the way and would have been easier to serial flash (but it responded to OTA flashing back in the day). 

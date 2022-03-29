@@ -1,0 +1,22 @@
+---
+date_added: 2022-03-13
+title: Shelly Plus 2PM
+model: 2PM
+image: /assets/images/shelly_plus_2PM.jpg
+template32: '{"NAME":"Shelly Plus 2PM","GPIO":[0,0,192,0,0,0,1,1,224,225,0,0,0,0,193,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: 
+link2: 
+mlink: https://shelly.cloud/shelly-plus-2pm/
+flash: serial
+category: relay
+type: Relay
+standard: global
+chip: solo1
+---
+
+![](/assets/images/shelly_plus_1_pinout.jpg)
+Pin-Layout is on the image, credit goes to Kalin Dimitrov!
+
+The pin ports on this board can handle dupont cables if done carefully, and will probably crumble shortly thereafter. 
+
+The other surface connectors seem unusually weakly connected to the PCB, and you may destroy them while using them. Power monitoring hardware is included in the device, but not a part of this template.
