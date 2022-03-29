@@ -51,12 +51,16 @@ Download [tasmota32.bin](http://ota.tasmota.com/tasmota32/tasmota32.bin) (you ne
 For easiest flash use [ESP Flasher](https://github.com/Jason2866/ESP_Flasher/releases). Launch ESP Flasher, select the port for your serial-to-USB adapter and your binary, make sure DUALR3 is in flash mode by pressing down the on board button then connect your serial-to-USB adapter. Finally click "Flash ESP" and wait until complete.
 
 ### esptool.py
-Using command line esptool.py you need to download all the additional [required files](https://github.com/arendst/Tasmota/tree/development/tools/Esptool/ESP32) (**do not right click to download them but click each link and download using the "Download" icon).
+Using command line esptool.py you need no longer need to download all the additional bootloader files.
 
 Flash using this command line:
 
 ```bash
-esptool.py --chip esp32 --port COM5 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x1000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32.bin
+esptool.py --chip esp32 --port COM5 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x10000 tasmota32.bin
+```
+If you are installing from scratch then use `tasmota32.factory.bin` which includes the necessary bootloader files.
+```bash
+esptool.py --chip esp32 --port COM5 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x00000 tasmota32.factory.bin
 ```
 
 ### Configuration
