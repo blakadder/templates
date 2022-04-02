@@ -12,8 +12,9 @@ flash: serial
 category: plug
 type: Outdoor Plug
 standard: us
+chip: BK7231
+unsupported: true
 ---
-Easy to open for serial flashing via labeled headers
----
-Models with date code 08/20 can no longer be flashed via [tuya-convert](https://github.com/ct-Open-Source/tuya-convert/wiki/Collaboration-document-for-PSK-Identity-02)
-Models with date code 08/21 no longer use an ESP based wifi chip so they can not be flashed with Tasmota
+
+- Models with date code 08/21 no longer use an ESP based wifi chip so they can not be flashed with Tasmota
+- Models with date code 08/20 can no longer be flashed via [tuya-convert](https://github.com/ct-Open-Source/tuya-convert/wiki/Collaboration-document-for-PSK-Identity-02)
