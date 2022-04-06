@@ -1,0 +1,18 @@
+---
+date_added: 2022-04-05
+title: Tuya 16A Nightlight
+model:
+image: /assets/images/tuya_nightlight_plug.jpg
+template9: '{"NAME":"Nightlight","GPIO":[225,0,320,0,226,227,0,0,34,64,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005003181607198.html
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+
+[Flashing instructions in German](https://forum.creationx.de/forum/index.php?thread/3536-erledigt-suche-template/&postID=39158#post39158)
+
+![Pinout](https://forum.creationx.de/index.php?attachment/8903-pinout-jpg/)
