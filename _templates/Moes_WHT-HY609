@@ -1,6 +1,6 @@
 ---
 date_added: 2022-03-24
-title: Moes Thermostat Floor Heating or Water/Gas Boiler
+title: Moes Floor Heating or Water/Gas Boiler Wall
 model: WHT-HY609
 image: /assets/images/Moes_WHT-HY609.jpg
 template9: '{"NAME":"WHT-HY609-GB-WH-MS","GPIO":[0,2304,0,2272,0,0,0,0,0,0,896,928,0,0],"FLAG":0,"BASE":54}' 
