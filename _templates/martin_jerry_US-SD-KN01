@@ -12,4 +12,5 @@ category: switch
 type: Dimmer
 standard: us
 ---
-Purchased via Amazon 1/17/2021, using new firmware so unable to OTA flash it.
+Martin Jerry has official Tasmota flashing instructions for this device depending on what version of PCB you have.
+Follow them [here](https://drive.google.com/file/d/1ZSCVgIH3z0A3k8TUDiWMt00_uWR3IUxS/view)
