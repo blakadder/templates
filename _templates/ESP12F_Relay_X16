@@ -1,0 +1,15 @@
+---
+date_added: 2022-04-03
+title: ESP-12F DC 5V/12V/24V 16 Channel 
+model: ESP12F_Relay_X16
+image: /assets/images/ESP12F_Relay_X16.jpg
+template9: '{"NAME":"ESP12F_Relay_X16","GPIO":[1,1,1,1,1,7712,1,1,7680,7648,7744,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005003297328162.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+This device uses two 74HC595 serial registers to control the relays, which are not enabled in default builds. Therefore you need to compile your own Tasmota binary, enabling `USE_SHIFT595` setting.

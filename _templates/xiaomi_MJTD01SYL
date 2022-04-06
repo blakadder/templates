@@ -1,0 +1,25 @@
+---
+date_added: 2022-03-24
+title: Xiaomi Mi LED Desk Lamp 1S
+model: MJTD01SYL
+image: /assets/images/xiaomi_MJTD01SYL.jpg
+template32: '{"NAME":"Mi LED Desk Lamp 1S","GPIO":[6212,0,416,0,417,0,0,0,3840,0,0,0,160,640,608,0,0,0,0,0,0,0,3264,3296,0,0,0,0,0,32,0,0,0,0,0,0],"FLAG":3,"BASE":66,"CMND":"DimmerRange 30,100|Fade 1|PowerOnFade 1|Speed 2"}' 
+link: https://www.aliexpress.com/item/1005002186176272.html
+link2: https://www.banggood.com/Xiaomi-Mijia-MJTD01SYL-9W-Smart-Table-Desk-Lamp-1S-4-Lighting-Modes-Dimming-Reading-Light-APP-Control-p-1934297.html
+mlink: https://www.mi.com/global/product/mi-led-desk-lamp-1s/overview
+flash: serial
+category: light
+type: Light
+standard: [eu, us]
+chip: solo1
+---
+| ESP Pin    | Serial Pin |
+| ---------- | ---------- |
+| GND        | GND        |
+| 3.3V       | GND        |
+| TXD        | RXD        |
+| RXD        | TXD        |
+| EN         | RTS        |
+| GPIO0      | GND        |
+
+[Images and pinout](https://github.com/xoste49/MJTD01SYL)

@@ -1,0 +1,30 @@
+---
+date_added: 2022-03-24
+title: Moes Thermostat Floor Heating or Water/Gas Boiler
+model: WHT-HY609
+image: /assets/images/Moes_WHT-HY609.jpg
+template9: '{"NAME":"WHT-HY609-GB-WH-MS","GPIO":[0,2304,0,2272,0,0,0,0,0,0,896,928,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/1005002865575647.html
+link2: 
+mlink: https://www.moeshouse.com/collections/smart-thermostat/products/wifi-smart-programmable-thermostat-gas-boiler-water-electric-underfloor-heating-touch-screen-temperature-controller-logo-color-adjustable-%E7%9A%84%E5%89%AF%E6%9C%AC
+flash: serial
+category: misc
+type: Thermostat
+standard: eu
+---
+
+## Known dpIds
+
+| dpId    | Function        | Data-type | Remarks 
+|---------|-----------------|-----------|----------------
+|1        | device power    | boolean   |
+|2        | target temp     | integer   | 10:1 e.g. 215 = 21.5 °C
+|         |                 |           | 180 = 18.0 °C only .5 steps
+|3        | current temp    | integer   | 10:1
+|4        | mode            | enum      | 0 = Manual
+|         |                 |           | 1 = Auto/Program  
+|         |                 |           | 2 = Away
+|6        | child lock      | boolean   | 
+|104      | Days away       | integer   | between 1 and 30
+|105      | Temp while away | integer   | values are 1:1
+|         |                 |           | e.g. 21 = 21 °C"

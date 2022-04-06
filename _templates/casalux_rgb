@@ -3,7 +3,7 @@ date_added: 2022-03-14
 title: Casalux RGB
 model: 
 image: /assets/images/casalux_rgb.jpg
-template: '{"NAME":"Casalux LED RGB Stripe","GPIO":[0,0,0,0,416,0,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"CasaluxLEDstrip","GPIO":[1088,0,0,0,416,0,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aldi-sued.de/de/p.casalux-wifi-led-rgb-light-strip.490000000000711151.html
 link2: 
 mlink: 
@@ -12,4 +12,26 @@ category: light
 type: LED Strip
 standard: eu
 ---
-Device also has an IR receiver, which I did not use, yet.
+## IR Remote config
+
+```console
+Rule1 on IrReceived#Data=0xF7C03F do power1 on endon on IrReceived#Data=0xF740BF do power1 off endon on IrReceived#Data=0xF700FF do dimmer + endon on IrReceived#Data=0xF7807F do dimmer - endon on IrReceived#Data=0xF7D02F do scheme + endon on IrReceived#Data=0xF7F00F do speed + endon on IrReceived#Data=0xF7C837 do speed - endon on IrReceived#Data=0xF7E817 do scheme 4 endon
+```
+
+```console
+Rule2 on IrReceived#Data=0xF720DF do color2 1 endon on IrReceived#Data=0xF710EF do color2 #FF4000 endon on IrReceived#Data=0xF730CF do color2 #FF8000 endon on IrReceived#Data=0xF708F7 do color2 #FFC000 endon on IrReceived#Data=0xF728D7 do color2 10 endon on IrReceived#Data=0xF7A05F do color2 2 endon on IrReceived#Data=0xF7906F do color2 #00FF40 endon on IrReceived#Data=0xF7B04F do color2 #00FF80 endon on IrReceived#Data=0xF78877 do color2 #00FFC0 endon
+```
+
+```console
+Rule3 on IrReceived#Data=0xF7A857 do color2 8 endon on IrReceived#Data=0xF7609F do color2 3 endon on IrReceived#Data=0xF750AF do color2 #4000FF endon on IrReceived#Data=0xF7708F do color2 #8000FF endon on IrReceived#Data=0xF748B7 do color2 #C000FF endon on IrReceived#Data=0xF76897 do color2 9 endon on IrReceived#Data=0xF7E01F do color2 12 endon
+```
+
+activate rules
+```console
+Rule0 1
+```
+
+reduce IRReceive protocol detection sensitivity
+```console
+SetOption38 230
+```

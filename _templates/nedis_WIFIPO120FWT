@@ -21,5 +21,7 @@ Boxes with visible Alexa logo have the new version with the WB3S chip.
 
 ![New box](https://user-images.githubusercontent.com/40159019/142038975-a230bf62-0a24-4c08-af8f-5073dbc432fb.jpg)
 
+New template for these devices: `{"NAME":"WIFIPO120FWT","GPIO":[32,0,0,0,2688,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":49}`
+
 ## Opening
 Remove the two security screws on the backside. Pry open from the top of the connector rounding on the backside. Two plastic clamps holding it together at the top and at the bottom. A bit of force is needed. When opened, remove the four screws from the PCB and the soldering points are clearly marked and accessible at the bottom PCB.

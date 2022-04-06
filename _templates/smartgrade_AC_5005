@@ -1,0 +1,15 @@
+---
+date_added: 2022-04-02
+title: SmartGrade
+model: AC 5005
+image: /assets/images/smartgrade_AC_5005.jpg
+template9: '{"NAME":"SmartGrade AC 5005","GPIO":[0,0,0,32,2688,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://smartgrade.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99-%D7%91%D7%99%D7%AA-%D7%97%D7%9B%D7%9D/5005-4/
+link2: 
+mlink: https://smartgrade.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99-%D7%91%D7%99%D7%AA-%D7%97%D7%9B%D7%9D/5005-4/
+flash: serial
+category: switch
+type: Switch
+standard: il
+---
+No ready pins for serial, had to solder directly to the chip for the initial flash.
