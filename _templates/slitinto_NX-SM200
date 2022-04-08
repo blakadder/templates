@@ -16,6 +16,11 @@ Alternative template for .fr seller:
 {"NAME":"NX-SM200","GPIO":[17,0,0,0,133,132,0,0,131,158,21,0,0],"FLAG":0,"BASE":18}
 ```
 
+Another EU template (recognised by the status LEDs leaking light around the button):
+
+```erlang
+{"NAME":"NX-SM200","GPIO":[576,0,0,0,0,2720,0,0,0,32,2656,224,2624,0],"FLAG":0,"BASE":18}
+```
 
 
 
