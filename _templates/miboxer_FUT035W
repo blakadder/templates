@@ -14,11 +14,9 @@ chip: WBR3
 
 ## Hardware
 
-![MiBoxer FUT035W Dual White LED Controller (WIFI+2.4G) Board](miboxer_FUT035W_pcb.jpg)
+![MiBoxer FUT035W Dual White LED Controller (WIFI+2.4G) Board](/assets/images/miboxer_FUT035W_pcb.jpg)
 
 The chip used on this board is a WBR3, and requires a transplant. It cannot be flashed. The daughterboard for the SoC is compatible with the ESP12-S. Other formats may be compatible, but may require jumper wires.
-
-![WBR3 Board](https://cdn.discordapp.com/attachments/790917300210368562/919281733390729216/WL5.jpg)
 
 The TuyaMCU on board requires the following settings for an CCT strip.
 
