@@ -3,7 +3,7 @@ date_added: 2022-03-13
 title: Shelly Plus 2PM
 model: 2PM
 image: /assets/images/shelly_plus_2PM.jpg
-template32: '{"NAME":"Shelly Plus 2PM","GPIO":[320,0,192,0,0,0,1,1,225,224,0,0,0,0,193,0,0,0,0,0,0,608,3840,0,0,0,0,0,0,640,0,0,3456,4736,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,32000,40000,3350"}' 
+template32: '{"NAME":"Shelly Plus 2PM","GPIO":[320,0,192,0,0,0,1,1,225,224,0,0,0,0,193,0,0,0,0,0,0,608,3840,32,0,0,0,0,0,640,0,0,3456,4736,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,32000,40000,3350"}' 
 link: 
 link2: 
 mlink: https://shelly.cloud/shelly-plus-2pm/
