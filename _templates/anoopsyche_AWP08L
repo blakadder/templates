@@ -5,9 +5,10 @@ category: plug
 type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07PMQKH2X
-image: https://images-na.ssl-images-amazon.com/images/I/61WY7viI5eL._AC_SL1500_.jpg
+link2: https://www.amazon.it/gp/product/B078BMQ8Q5
+image: /assets/images/anoopsyche_AWP08L.jpg
 template: '{"NAME":"AWP08L-Annopsy","GPIO":[0,0,0,0,17,56,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+template9: '{"NAME":"ANOOPSYCHE AWP08L","GPIO":[0,0,320,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
 ---
 
 This device is different than the [AWP08L](avatar_AWP08L.html).
