@@ -1,0 +1,15 @@
+---
+date_added: 2022-04-13
+title: Linkind Dimmer
+model: WS2400101
+image: /assets/images/linkind_WS2400101.jpg
+template32: '{"NAME":"Linkind Dimmer","GPIO":[6213,8448,0,0,640,0,0,0,0,288,0,0,0,0,0,0,0,608,0,0,0,544,0,0,0,0,0,0,33,32,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: 
+link2: 
+link: https://www.amazon.com/dp/B08DRDHV75
+flash: serial
+chip: solo1
+category: switch
+type: Switch
+standard: us
+---
