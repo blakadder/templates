@@ -17,7 +17,8 @@ standard: us
 This assumes standard 3-way lighting with a child 'dumb' toggle switch connected to the travelers. 
 
 ### Components
-Component | Description. 
+
+Component | Description
 --------- | -----------  
 Relay1 | A dummy component that stores the power state of the switch.  
 Relay2 | The actual hardware switch. This controls the state of the circuit (on|off) but, is not a direct indication of the state of the circuit. The relay could be on while the circuit is open.  
@@ -26,6 +27,7 @@ Switch1 | The status of the circuit. Switch1's state will change when the circui
 Switch2 | The push button on the smart switch. Using Switch instead of button seems to provide a quicker response. 
 
 ### Device Configuration
+
 There are a couple things we need to do to get this switch to work correctly. 
 
 #### SwitchTopic
@@ -52,18 +54,25 @@ For more information about SwitchMode you can find it [here](https://tasmota.git
 ### Rules Configuration
 
 #### Rule1
+
 When relay 3 changes state this will toggle relay 2. If relay 3 doesn't change state when then nothing happens. 
+
 ```console
 Backlog Rule1 ON Power3#State do Power2 2 endon ON switch2#state=3 DO publish stat/tasmota_XXXXX/SWITCH1T {"TRIG":"HOLD"} ENDON; Rule1 1
 ```
 
 #### Rule2
+
 Keeps relay3 in sync with relay1 but, rule1 has to be disabled while updating the state and then re-enabled. 
+
 ```console
 Rule2 ON Power1#state=0 do Backlog rule1 0; power3 0; rule1 1 endon On Power1#state=1 do Backlog rule1 0; power3 1; rule1 1 endon; Rule2 1
 ```
+
 #### Rule3
+
 For explicit on / off and toggle rule3. When an event is received, Relay3 will only change if it's not already in the matching state.
+
 ```console
 Backlog Rule3 ON event#OFF do power3 0 endon ON event#ON do power3 1 endon ON event#TOGGLE do power3 2 endon; Rule3 1
 ```
@@ -81,6 +90,7 @@ This can help in finding the wall switch in the dark. In the Tasmota UI, select 
 SetOption19 will expose both relays and will become very confusing to what the switch state is. 
 
 #### Switch Confiugration
+
 Below is an example I used to get this configuration working in Home Assistant. 
 
 ```console
