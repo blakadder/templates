@@ -1,0 +1,24 @@
+---
+date_added: 2022-04-15
+title: SwitchBot Plug Mini
+model: W1901400
+image: /assets/images/switchbot_plugmini.jpg
+templatec3: '{"NAME":"W1901400","GPIO":[0,0,32,0,0,0,0,320,321,0,0,0,0,0,0,0,0,0,2720,2656,2624,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/dp/B09QFLJH8T
+link2: https://www.switch-bot.com/products/switchbot-plug-mini
+mlink: https://www.switch-bot.com/pages/switchbot-plug-mini
+flash: serial
+category: plug
+type: Plug
+standard: us
+chip: c3
+---
+SwitchBot's Plug Mini is well-sealed and may require a dremel to cut the bottom piece open.
+
+The Plug Mini has programming pads accessible from its side. Cutting the filled area in this photo provides access to the pads:
+
+![Marked area to access programming pinout](/assets/images/switchbot_plugmini_marked.jpg)
+
+The daughterboard has clearly labeled pads to allow for programming. Short `P9` and `GND` to place the board into programming mode.
+
+![Plug Mini's ESP daughterboard](/assets/images/switchbot_plugmini_pinout.jpg)
