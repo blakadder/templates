@@ -13,6 +13,10 @@ type: Plug
 standard: us
 chip: c3
 ---
+## OTA Flashing
+Can be flashed over-the-air with [SwitchbOTA Flasher](https://github.com/kendallgoto/switchbota).
+
+## Serial Flashing
 SwitchBot's Plug Mini is well-sealed and may require a dremel to cut the bottom piece open.
 
 The Plug Mini has programming pads accessible from its side. Cutting the filled area in this photo provides access to the pads:
