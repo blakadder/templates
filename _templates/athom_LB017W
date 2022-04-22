@@ -15,10 +15,8 @@ standard: e27
 ---
 Serial number on the bulb is LB01. 
 
-
-* ESP8285 with 2MB flash
-* Warning: Do not turn on the cool or warm color and RGB channel at the same time, and do not turn on the white mixing mode (setoption105 1 cannot be executed). Otherwise, the bulb will be damaged
-
+## Warning
+Do not turn on the cool or warm color and RGB channel at the same time, and do not turn on the white mixing mode (SetOption105 1 should not be executed). Otherwise, the bulb will be damaged
 
 ## Photos of internals
 
