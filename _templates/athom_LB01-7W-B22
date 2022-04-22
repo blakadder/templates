@@ -1,14 +1,27 @@
 ---
-date_added: 2022-03-07
-title: ATHOM 7W 600lm
-model: LB01-7W-B22
-image: /assets/images/athom_LB01-7W-B22.jpg
+date_added: 2022-4-22
+title: Athom 7W 600lm
+model: LB017W
+image: /assets/images/athom_LB017W.jpg
+template: '{"NAME":"Athom LB017W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":1}' 
 template9: '{"NAME":"LB01-7W-B22-TAS","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/color-bulb
 link: https://www.aliexpress.com/item/4001281509550.html
 link2: 
-mlink: https://www.athom.tech/blank-1/color-bulb
 flash: preflashed
 category: bulb
 type: RGBCCT
 standard: b22
 ---
+Serial number on the bulb is LB01. 
+
+
+* ESP8285 with 2MB flash
+* Warning: Do not turn on the cool or warm color and RGB channel at the same time, and do not turn on the white mixing mode (setoption105 1 cannot be executed). Otherwise, the bulb will be damaged
+
+
+## Photos of internals
+
+![Remove the housing and LED panel](/assets/images/athom_LB01_pcb.jpg)
+
+![Top of the ESP8285H16](/assets/images/athom_LB01_esp8285.jpg)
