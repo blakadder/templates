@@ -13,4 +13,15 @@ category: bulb
 type: RGBCCT
 standard: e27
 ---
-Serial number on the bulb is TB85. 
+Serial number on the bulb is LB01. 
+
+
+* ESP8285 with 2MB flash
+* Warning: Do not turn on the cool or warm color and RGB channel at the same time, and do not turn on the white mixing mode (setoption105 1 cannot be executed). Otherwise, the bulb will be damaged
+
+
+## Photos of internals
+
+![Remove the housing and LED panel](/assets/images/LB01_pcb.jpg)
+
+![Top of the ESP8285H16](/assets/images/LB01_esp8285.jpg)
