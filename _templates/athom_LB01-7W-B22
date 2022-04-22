@@ -1,7 +1,7 @@
 ---
-date_added: 2022-4-22
+date_added: 2022-03-07
 title: Athom 7W 600lm
-model: LB017W
+model: model: LB01-7W-B22
 image: /assets/images/athom_LB017W.jpg
 template: '{"NAME":"Athom LB017W","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":1}' 
 template9: '{"NAME":"LB01-7W-B22-TAS","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
@@ -15,10 +15,8 @@ standard: b22
 ---
 Serial number on the bulb is LB01. 
 
-
-* ESP8285 with 2MB flash
-* Warning: Do not turn on the cool or warm color and RGB channel at the same time, and do not turn on the white mixing mode (setoption105 1 cannot be executed). Otherwise, the bulb will be damaged
-
+## Warning
+Do not turn on the cool or warm color and RGB channel at the same time, and do not turn on the white mixing mode (SetOption105 1 should not be executed). Otherwise, the bulb will be damaged
 
 ## Photos of internals
 
