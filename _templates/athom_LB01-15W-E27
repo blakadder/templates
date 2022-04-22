@@ -14,3 +14,14 @@ standard: e27
 ---
 
 Commands added with the template: `SetOption92 1` and `DimmerRange 24,100`
+
+
+* ESP8285 with 2MB flash
+* Warning: Do not turn on the cool or warm color and RGB channel at the same time, and do not turn on the white mixing mode (setoption105 1 cannot be executed). Otherwise, the bulb will be damaged
+
+
+## Photos of internals
+
+![Remove the housing and LED panel](/assets/images/athom_LB01_15W_pcb.jpg)
+
+![Top of the ESP8285H16](/assets/images/athom_GU10_esp8285.jpg)
