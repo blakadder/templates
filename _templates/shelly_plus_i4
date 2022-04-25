@@ -19,5 +19,5 @@ chip: solo1
 Example to publish switch events to separate topics
 
 ```console
-Backlog Rule1 on Switch1#state do Publish stat/%topic%/SWITCH1 %value% endon on Switch2#state do Publish stat/%topic%/SWITCH2 %value% endon on Switch3#state do Publish stat/%topic%/SWITCH3 %value% endon on Switch4#state do Publish stat/%topic%/SWITCH4 %value%; Rule1 1
+Backlog Rule1 on Switch1#state do Publish stat/%topic%/SWITCH1 %value% endon on Switch2#state do Publish stat/%topic%/SWITCH2 %value% endon on Switch3#state do Publish stat/%topic%/SWITCH3 %value% endon on Switch4#state do Publish stat/%topic%/SWITCH4 %value% endon; Rule1 1
 ```
