@@ -1,0 +1,15 @@
+---
+date_added: 2022-04-18
+title: Stitch 
+model: 35558
+image: /assets/images/stitch_35558.jpg
+template9: '{"NAME":"Stitch 35558","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 21,3|DimmerRange 21,255"}' 
+link: https://www.monoprice.com/product?p_id=35558
+link2: 
+mlink: https://www.monoprice.com/product?p_id=35558
+flash: tuya-convert
+category: switch
+type: Dimmer
+standard: us
+---
+Identical to STITCH Switch (35557), but requires different template. Additionally requires issuing in console: tuyamcu 21,3; dimmerrange 21,255

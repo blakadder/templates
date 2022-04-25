@@ -1,0 +1,14 @@
+---
+date_added: 2022-04-23
+title: Eachen 3CH
+model: L-RF-US-3
+image: /assets/images/eachen_L-RF-US-3.jpg
+template9: '{"NAME":"Eachen Smart Switch 3CH","GPIO":[34,0,0,0,224,225,33,32,226,320,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.geewiz.co.za/smart-home-accessories/104724-3305-eachen-wifi-smart-light-switch-no-neutral-required.html#/465-switches-3_gang
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: za
+---

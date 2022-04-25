@@ -1,0 +1,14 @@
+---
+date_added: 2022-04-25
+title: Connect SmartHome 3 Gang Wall Switch ()
+model: CSH-SWTCH3
+image: /assets/images/connect_smarthome_CSH-SWTCH3.jpg
+template9: '{"NAME":"CSH-SWTCH3","GPIO":[0,0,288,0,34,33,0,0,225,224,226,0,32,0],"FLAG":0,"BASE":18}' 
+link: https://www.ebay.com.au/itm/144285731045?var=443595019016
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: au
+---

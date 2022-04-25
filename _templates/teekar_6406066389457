@@ -1,0 +1,25 @@
+---
+date_added: 2022-04-23
+title: Teekar 3rd Generation 
+model: 6406066389457
+image: /assets/images/teekar_6406066389457.jpg
+template9: '{"NAME":"Teekar-Tag","GPIO":[0,0,0,32,33,34,0,0,225,0,226,0,224,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07ZZ95WTS/
+link2: 
+mlink: 
+flash: replace
+category: cover
+type: Curtain Switch
+standard: eu
+chip: CB3S
+---
+The CB3S has to be [replaced with an ESP12](https://templates.blakadder.com/ESP-12.html). However, the ESP12 won't boot unless there's a pull-down resistor (I used 10K) between IO15 and GND. You could also just short the pin to ground, but then you would always get backlit buttons (which you can't turn off), since IO15 controls the backlight.
+
+After setting the template:
+
+```
+Backlog Interlock 1,2; Interlock on; Pulsetime1 0; Pulsetime2 0; Pulsetime3 1; WebButton3 ■; Rule1 ON Power3#State=1 DO ShutterStop1 ENDON; Rule1 on; Sleep 0; SetOption1 1; SetOption80 1; SetOption81 1; PowerOnState 0; ButtonTopic 1; SwitchMode3 5; SetOption61 1; ShutterRelay1 1; ShutterRelay2 1; ShutterOpenDuration 57; ShutterCloseDuration 55; ShutterButton1 1 up 1; ShutterButton1 2 down 1; Restart 1
+```
+Adjust `ShutterOpenDuration` and `ShutterCloseDuration` according to your setup.
+If you wish to have backlit switches (blue), set IO10 to "low". The template turns that off by default.
+
