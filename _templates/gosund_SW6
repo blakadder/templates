@@ -21,7 +21,7 @@ This assumes standard 3-way lighting with a child 'dumb' toggle switch connected
 Component | Description
 --------- | -----------  
 Relay1 | A dummy component that stores the power state of the switch.  
-Relay2 | The actual hardware switch. This controls the state of the circuit (on|off) but, is not a direct indication of the state of the circuit. The relay could be on while the circuit is open.  
+Relay2 | The actual hardware switch. This controls the state of the circuit (on/off) but, is not a direct indication of the state of the circuit. The relay could be on while the circuit is open.  
 Relay3 | A dummy component used to process external commands. This is necessary to allow explicit control of the state of the circuit. It should always be in the same state as Relay 1. 
 Switch1 | The status of the circuit. Switch1's state will change when the circuit changes. As an example say relay2 is off, the circuit is closed, and Switch1's state will be 1. If relay2 is toggled to on the, circuit will open and Switch1's state will change to 0.  
 Switch2 | The push button on the smart switch. Using Switch instead of button seems to provide a quicker response. 
