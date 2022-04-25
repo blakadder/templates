@@ -1,0 +1,18 @@
+---
+date_added: 2022-04-25
+title: Lunvon 3000W
+model: 3-JU06DE04
+image: /assets/images/lunvon_3-JU06DE04.jpg
+template: '{"NAME":"Lunvon Smart Plug","GPIO":[17,0,0,0,0,0,52,21,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/gp/product/B09PHP8R9R/
+link2: https://www.amazon.es/dp/B09PHP8R9R
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+
+![PCB](/assets/images/lunvon_3-JU06DE04_pcb.jpg)
+
+![PCB](/assets/images/lunvon_3-JU06DE04_pcbback.jpg)
