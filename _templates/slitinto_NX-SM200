@@ -22,7 +22,11 @@ Another EU template (recognised by the status LEDs leaking light around the butt
 {"NAME":"NX-SM200","GPIO":[576,0,0,0,0,2720,0,0,0,32,2656,224,2624,0],"FLAG":0,"BASE":18}
 ```
 
-
+If the original template works but after calibration the power factor is too low and current too high (and power never exceeds the one it was calibrated with), then try using:
+```erlang
+{"NAME":"NX-SM200","GPIO":[0,0,0,32,2688,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":18}
+```
+It's basically the french one but button pin is from the original one.
 
 
 
