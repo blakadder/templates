@@ -28,7 +28,7 @@ The PCB is marked with "LS_V1.0 BY XP". It runs on [TYWE3S](https://tasmota.gith
 
 ![Pinout](/assets/images/lightsensor_XFY-CGQ-GZ_pinout.jpg)
 
-To flash the device connect to the 6 holes headers TX to R, RX to T, VCC to + and GND to G and IO0. R was likely supposed to be the RST pin for the STM32 MCU but it was not working in my case. Instead connect the 4th pin (marked on image) to GND during the flashing procedure. Otherwise you will be unable to flash due to MCU interference
+To flash the device connect to the 6 holes headers TX to R, RX to T, VCC to + and GND to G and IO0. R was likely supposed to be the RST pin for the STM32 MCU but it was not working in my case. Instead connect the 4th pin (marked on image) to GND during the flashing procedure (NOTE: the GND marked on the image is incorrect. A correct one is 3rd hole). Otherwise you will be unable to flash due to MCU interference
 
 ![MCU Reset pins](/assets/images/lightsensor_XFY-CGQ-GZ_mcu.jpg)
 
