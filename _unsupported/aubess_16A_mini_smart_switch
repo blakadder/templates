@@ -10,3 +10,8 @@ link3:
 flash: BL2028N
 ---
 Review about the switch here: https://smarthomescene.com/reviews/cheapest-wifi-switch-to-buy-for-your-smart-home/
+
+The BL2028N can be replaced with an ESP8266EX, esp-02s which is pin-compatible. It requires a custom setup, which is similar to 
+[Athom 3-Way Mini Relay Switch Module (RS01)](https://templates.blakadder.com/athom_RS01.html), but not identical:
+
+'{"NAME":"Aubess-RS01","GPIO":[0,0,0,0,576,0,0,0,224,32,160,0,0,0],"FLAG":0,"BASE":18}' 
