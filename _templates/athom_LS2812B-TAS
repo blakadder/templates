@@ -14,3 +14,12 @@ standard: global
 ---
 
 Supports WLED firmware (uses default binary with ledpin2) and can be bought with WLED preinstalled.
+
+Devices shipped since 5 Jan 2022 have  gpio01 as ledpin instead of gpio02
+
+Template for new version:
+
+`
+'{"NAME":"LS2812B-TAS-V2","GPIO":[32,1376,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+`
+
