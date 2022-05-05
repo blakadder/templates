@@ -13,4 +13,5 @@ standard: us
 ---
 Same things as noted by SANA SW02-03 template author: GPIO0 Not exposed (used for LED) makes reset difficult if it is ever needed. Tuya-Convert compatible as of this writing.
 
-Edit 08/28/2021 : A similar unit, the Youngzuth SW02-03, has been seen with an (unsupportable) WB3S inside.
+Edit 2021-08-28 : A similar unit, the Youngzuth SW02-03, has been seen with an (unsupportable) WB3S inside.
+Edit 2022-05-03: Amazon unit converted without issue. Luck of the draw.
