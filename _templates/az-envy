@@ -14,3 +14,5 @@ standard: global
 ---
 USB power and FTDI needs to be connected simultaneously to flash device. Press FLASH and RESET and release RESET to initiate flash.
 You have to flash tasmota-sensors.bin to use the SHT sensor.
+
+Three jumper cables (female-female) for TX, RX and GND. The connectors DTR, CTS and VCC are not used. A special feature: Because the labelling was done in the same order as the FTDI, TX is connected to TX and RX to RX; not crosswise as usual with the UART interface!
