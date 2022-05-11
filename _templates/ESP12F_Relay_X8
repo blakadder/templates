@@ -21,3 +21,5 @@ It's still a very useful board at a bargain price.
 On the board are available RX, TX, GPIO0 pins for programming and GPIO2 and GPIO17 (ADC), but GPIO0 is used for relay 6, GPIO2 is always pulled up (necessary at boot) and GPIO17 has a limited range of 0-1V.
 
 The board can be powered with 5Vdc or with 7-29Vdc, but remember that GPIO pins are not 5V tolerant.
+
+Note the board will NOT flash with 3.3v - it must have 5v connected to the header socket labelled 5v on the pin headers or through the screw down connector
