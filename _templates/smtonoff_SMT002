@@ -11,17 +11,17 @@ flash: serial
 category: relay
 type: DIN Relay
 standard: global
-
-Flashing SMTONOFF 63A Power Monitoring DIN Relay (SMT002)
-1 - you must remove the 4 rivets holding the 2 sides together
-2 - remove the 2 cable connectors from the PCB, remove the button and 2 light guides, then lift and flip the pcb
-3 on the backside locate the ESP 8285 and using the pinout below solder 4 wires to 3.3V, GND, TX and RX. Tip: use GND form the power button, easier to access
-warning: the pins are VERY small, it’s a difficult job as 3.3V, TX, RX are next to each other
-
-Photos are priceless, so here they are:
-image: https://community-openhab-org.s3.dualstack.eu-central-1.amazonaws.com/original/3X/b/f/bffc87536377ece72926acc9069d4f44e1aca223.jpeg
-image: https://community-openhab-org.s3.dualstack.eu-central-1.amazonaws.com/original/3X/d/3/d3ca269f577cd026a17771c539e8f6c09bc7949f.jpeg
-image: https://community-openhab-org.s3.dualstack.eu-central-1.amazonaws.com/original/3X/1/4/14aa29f70eabe088a745435d518cf84e6bfabc80.jpeg
-image: https://community-openhab-org.s3.dualstack.eu-central-1.amazonaws.com/original/3X/9/b/9bf783a3a873134d50290e8286fd27a3d22541e4.jpeg
-
 ---
+
+## Flashing 
+1. you must remove the 4 rivets holding the 2 sides together
+2. remove the 2 cable connectors from the PCB, remove the button and 2 light guides, then lift and flip the pcb
+3. on the backside locate the ESP 8285 and using the pinout below solder 4 wires to 3.3V, GND, TX and RX. Tip: use GND form the power button, easier to access
+
+:warning: the pins are VERY small, it’s a difficult job as 3.3V, TX, RX are next to each other
+
+![](https://community-openhab-org.s3.dualstack.eu-central-1.amazonaws.com/original/3X/b/f/bffc87536377ece72926acc9069d4f44e1aca223.jpeg)
+![](https://community-openhab-org.s3.dualstack.eu-central-1.amazonaws.com/original/3X/d/3/d3ca269f577cd026a17771c539e8f6c09bc7949f.jpeg)
+![](https://community-openhab-org.s3.dualstack.eu-central-1.amazonaws.com/original/3X/1/4/14aa29f70eabe088a745435d518cf84e6bfabc80.jpeg)
+![](https://community-openhab-org.s3.dualstack.eu-central-1.amazonaws.com/original/3X/9/b/9bf783a3a873134d50290e8286fd27a3d22541e4.jpeg)
+
