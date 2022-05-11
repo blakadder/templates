@@ -1,0 +1,82 @@
+---
+date_added: 2021-10-29
+title: Adafruit Feather ESP32-S2 TFT
+model: Feather-ESP32-S2-TFT
+category: diy
+type: Development Board
+standard: global
+mlink: https://www.adafruit.com/product/5300
+image: /assets/images/adafruit_Feather-esp32s2-tft.jpg
+templates2: {"NAME":"Feather ESP32 S2 TFT","GPIO":[1,3200,3232,0,0,1,1,6592,7653,1,1,1,1,1,7652,7651,7650,7649,7648,0,0,3840,1376,3840,704,736,672,0,6624,1024,608,640,0,0,992,0],"FLAG":0,"BASE":1}
+chip: s2
+link: https://thepihut.com/products/adafruit-esp32-s2-tft-feather-4mb-flash-2mb-psram-stemma-qt
+---
+
+A Feather form-factor ESP32-S2 dev board with an IPS ST7789V 1.14" display with 240x135 resolution.
+
+This board uses an `ESP32-S2-MINI-1-N4R2` module with 4 MB flash and 2 MB PSRAM.
+
+## Flashing
+
+When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB port exposes a serial connection. This can be used to easily flash new firmware.
+
+For flashing via esptool.py, download [required files](https://github.com/tasmota/install/tree/main/static/esp32-s2) and [tasmota32s2.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.bin) and put them in the same folder.
+
+```
+esptool.py --chip esp32s2 erase_flash
+
+esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size detect 0x1000 bootloader_dio_80m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32s2-display.bin 
+```
+
+## Device Notes
+
+![Adafruit Feather ESP32-S2 TFT Front](adafruit_Feather-esp32s2-tft-front.jpg "Adafruit Feather ESP32-S2 TFT Front")
+
+![Adafruit Feather ESP32-S2 TFT Bottom](/assets/images/adafruit_Feather-esp32s2-tft-back.jpg "Adafruit Feather ESP32-S2 TFT Bottom")
+
+![Adafruit Feather ESP32-S2 TFT Pinout](/assets/images/adafruit_Feather-esp32s2-tft-pinout.jpg "Adafruit Feather ESP32-S2 TFT Bottom")
+
+[Product guide](https://learn.adafruit.com/adafruit-esp32-s2-tft-feather)
+
+### Peripherals
+
+#### ST7789 TFT Display
+
+The display works as expected with the `tasmota32s2-display.bin` firmware. These commands will help set up the display.
+
+```
+DisplayModel 15
+DisplayWidth 240
+DisplayHeight 135
+DisplayRotate 3
+```
+
+This template sets up the display backlight as _"Toggle 2"_.
+
+The board uses `GPIO21` for power to the display so this template sets that pin to _"Output Hi"_ to make sure that the display is powered on.
+
+#### WS2818 Neopixel
+
+This template sets up the WS2818 LED as a light, with _"Toggle 1"_ controlling the LED's power state.
+
+The board uses `GPIO34` for power to the LED so the template sets that to "Output Hi" so that the LED works.
+
+#### LiPo Charging/Monitoring
+
+This board has a 2-pin JST-PH battery connector and a LIPO charging circuit built in. This circuit uses an MCP73831 fpr automatic charge/discharge management and a [LC709203](https://www.onsemi.com/pdf/datasheet/lc709204f-d.pdf) battery monitor on the I2C bus.
+
+Although LC709203 isn't supported by Tasmota this board works fine with Tasmota running on battery power.
+
+#### BMEx80 (unpopulated)
+
+Its possible to add a BMEx80 (BME280 or BME680) by manually soldering one onto available pads on the bottom of the board, but this isn't included from the factory.
+
+As long as `GPIO21` is high (powering on the display and I2C bus) this should work fine with Tasmota if the chip is soldered on.
+
+#### [STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/technical-specs) / [QWIIC](https://www.sparkfun.com/qwiic) Connector
+
+A 4-pin JST-SH socket on the board allows for quick attachment of I2C sensors and other devices. This board uses 3.3v logic so this connector is compatible with QWIIC as well.
+
+#### Debug Console Output
+
+The bottom-right corner pin, labeled `DBG`, is attached to the ESP32-S2's debug serial output. It isn't useful within Tasmota but can be helpful for development, troubleshooting, or data logging.
