@@ -20,7 +20,7 @@ This board uses an `ESP32-S2-MINI-1-N4R2` module with 4 MB flash and 2 MB PSRAM.
 
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB port exposes a serial connection. This can be used to easily flash new firmware.
 
-For flashing via esptool.py, download [required files](https://github.com/tasmota/install/tree/main/static/esp32-s2) and [tasmota32s2.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.bin) and put them in the same folder.
+For flashing via esptool.py, download [required files](https://github.com/tasmota/install/tree/main/static/esp32-s2) and [tasmota32s2-display.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2-display.bin) and put them in the same folder.
 
 ```
 esptool.py --chip esp32s2 erase_flash
