@@ -10,10 +10,16 @@ image: https://user-images.githubusercontent.com/5904370/56278781-254d5080-6107-
 template: '{"NAME":"NX-4519-675","GPIO":[0,0,0,0,52,51,0,0,0,0,8,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000291431322.html
 link2: https://www.amazon.de/dp/B07N88CQ6Z
-unsupported: true
+unsupported: false
 ---
 ## Warning 
-Uses the WB3S module now, so no longer compatible with Tasmota.
+There are two versions available from pearl.de under the same name.
+
+Model URC-150.app (NX-4519-905): Without temperature and humidity sensors, equipped with TYWE3S and fully supported
+Model URC-180.app (ZX-5104-905): Equipped with temmperature and humidity sensors, uses WB3S and is not supported
+
+Both models have a very similar case. The one that comes with perforated head is the one which is not supported.
 
 ![](https://i.postimg.cc/HxWVNSNd/P-20190417-104747-1-p.jpg)
 ![](https://user-images.githubusercontent.com/5904370/56278820-3bf3a780-6107-11e9-9f53-eb3c198dffff.png)
+![](https://microsites.pearl.de/i/07/zx5104_5.jpg)
