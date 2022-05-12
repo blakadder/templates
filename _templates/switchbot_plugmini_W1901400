@@ -17,7 +17,7 @@ chip: c3
 Can be flashed over-the-air with [SwitchbOTA Flasher](https://github.com/kendallgoto/switchbota).
 
 ## Serial Flashing
-SwitchBot's Plug Mini is well-sealed and may require a dremel to cut the bottom piece open.
+SwitchBot's Plug Mini is not glued shut. A flat blade screwdriver hammered in the crack has been successfully used to pry it open. (Holding it in a vice may help.) There are no clips, it's just two plastic pieces that need to be pryed apart. This has been done semi-destructively. (Platic pieces end up marred, but it can be snapped back together.)
 
 The Plug Mini has programming pads accessible from its side. Cutting the filled area in this photo provides access to the pads:
 
