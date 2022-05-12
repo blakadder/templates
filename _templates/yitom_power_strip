@@ -1,0 +1,16 @@
+---
+date_added: 2022-05-11
+title: YITOM 4AC 4USB
+model: 
+category: plug
+type: Power Strip
+link: https://www.aliexpress.com/item/1005002454805802.html
+image: /assets/images/yitom_power_strip.jpg
+templatec3: '{"NAME":"YITOM-4AC-4USB","GPIO":[1,1,32,225,224,226,1,1,1,321,1,0,0,0,0,0,0,0,228,227,320,1],"FLAG":0,"BASE":1}'
+link2: 
+link3: 
+flash: WBR3
+---
+
+
+Replaced with pin compatible ESP32-C3
