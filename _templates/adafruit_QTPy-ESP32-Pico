@@ -24,10 +24,8 @@ When the board is booted into debug by holding `BOOT` and pressing the `RESET` b
 
 For flashing via `tasmota32.factory.bin`, download the [tasmota32.factory.bin](https://github.com/tasmota/install/raw/main/firmware/release/tasmota32.factory.bin) file.
 
-_Currently no automatic ESP32-S2 builds support both display and sensors, so a custom firmware build will be required to use both the display and temp/humidity sensor at the same time_
-
 ```sh
-esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32s2.factory.bin
+esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32.factory.bin
 ```
 
 ## Device Notes
