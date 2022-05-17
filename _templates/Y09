@@ -11,6 +11,8 @@ flash: serial
 category: sensor
 type: Water Sensor
 standard: global
+unsupported: true
+chip: CB3S
 ---
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
