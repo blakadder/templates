@@ -1,0 +1,69 @@
+---
+date_added: 2021-05-17
+title: Adafruit QTPy ESP32-S2
+model: QTPy-ESP32S2
+category: diy
+type: Development Board
+standard: global
+mlink: https://www.adafruit.com/product/5325
+image: /assets/images/adafruit_qtpy-esp32-s2.jpg
+flash: serial
+template32: {"NAME":"QTPy ESP32-S2","GPIO":[96,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,3840,1376,608,640,0,0,0,0,0],"FLAG":0,"BASE":1}
+link: 
+---
+
+An ESP32-S2 dev board in the tiny (22mm x 17.9mm) [Seeduino XIAO](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) form factor.
+
+This board uses an [`ESP32-S2F-N4R2`](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf) chip with 4 MB of flash and 2 MB of PSRAM.
+
+## Flashing
+
+When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the USB port exposes a serial connection. This can be used to easily flash new firmware.
+
+For flashing via `tasmota32s2.factory.bin`, download the [tasmota32s2.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.factory.bin) file.
+
+```sh
+esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32s2.factory.bin
+```
+
+## Device Notes
+
+![Adafruit QTPy ESP32-S2 Front](/assets/images/adafruit_qtpy-esp32-s2_front.jpg "Adafruit QTPy ESP32-S2 Front")
+
+![Adafruit QTPy ESP32-S2 Back](/assets/images/adafruit_qtpy-esp32-s2_back.jpg "Adafruit QTPy ESP32-S2 Back")
+
+![Adafruit QTPy ESP32-S2 Pinout](/assets/images/adafruit_qtpy-esp32-s2_pinout.png "Adafruit QTPy-S2 Pico Pinout")
+
+[Product Guide](https://learn.adafruit.com/adafruit-qt-py-esp32-s2/)
+
+[PCB Files](https://github.com/adafruit/Adafruit-QT-Py-ESP32-S2-PCB)
+
+## Peripherals
+
+* [`WS2812B`](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) Neopixel
+    * On `GPIO39` with power on `GPIO38`.
+    * _Provided template configures this as `WS2812` with `GPIO38` as `Output Hi` for power._
+* 1x front panel user button
+    * On `GPIO0` (doubles as `BOOT0` button)
+    * _Provided template configures this as `Button 1`._
+* [STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) JST-SH I2C bus connector
+    * On `GPIO40` (SCL) and `GPIO41` (SDA), on a separate I2C bus from the pins labeled SCL/SDA on the board.
+    * _Provided template configures this as `I2C 1`._
+
+## GPIO Pin Mapping
+
+The user pins labelled on the board are set up as `User` pins in the template, allowing module configuration. This is a quick reference to map the pin label on the board to the module user pin.
+
+| Label | GPIO |
+| ----- | ---- |
+| `A0` | `GPIO18` |
+| `A1` | `GPIO17` |
+| `A2` | `GPIO9` |
+| `A3` | `GPIO8` |
+| `SDA` | `GPIO7` |
+| `SCL` | `GPIO6` |
+| `TX` | `GPIO5` |
+| `RX` | `GPIO16` |
+| `SCK` | `GPIO36` |
+| `MISO` | `GPIO37` |
+| `MOSI` | `GPIO35` |
