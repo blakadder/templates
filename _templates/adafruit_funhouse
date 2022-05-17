@@ -1,0 +1,82 @@
+---
+date_added: 2022-05-17
+title: Adafruit Funhouse
+model: Funhouse
+category: diy
+type: Development Board
+standard: global
+mlink: https://www.adafruit.com/product/4985
+image: /assets/images/adafruit_funhouse.jpg
+templates2: {"NAME":"Funhouse","GPIO":[32,1,1,7713,7714,7715,1,1,1,1,1,1,1,1,1,1,1,1,4704,0,0,992,608,640,864,896,1,0,6624,6592,1024,480,0,0,0,0],"FLAG":0,"BASE":1}
+chip: s2
+link: https://www.digikey.com/en/products/detail/adafruit-industries-llc/4985/14309089
+link2: https://www.digikey.com/en/products/detail/adafruit-industries-llc/5069/15189156
+---
+
+An IoT-focused ESP32-S2 dev board with a display, a variety of on-board peripherals, and standard GPIO/I2C connectors for rapid experimentation and development.
+
+This board uses an [`ESP32-S2-WROVER`](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf) module with 4 MB flash and 2 MB PSRAM.
+
+## Flashing
+
+When the board is booted into debug by holding `BOOT` (on the back) and pressing the `RESET` button (on the front) the USB port exposes a serial connection. This can be used to easily flash new firmware.
+
+For flashing via `esptool.py`, download the [tasmota32s2-display.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2-display.bin) or [tasmota32s2-sensors.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2-sensors.bin).
+
+_Currently no automatic ESP32-S2 builds support both display and sensors, so a custom firmware build will be required to use both the display and temp/humidity sensor at the same time_
+
+```sh
+esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32s2-display.factory.bin
+```
+
+## Device Notes
+
+![Adafruit Funhouse Front](/assets/images/adafruit_funhouse.jpg "Adafruit Funhouse Front")
+
+![Adafruit Funhouse Back](/assets/images/adafruit_funhouse_back.jpg "Adafruit Funhouse Back")
+
+![Adafruit Funhouse Pinout](/assets/images/adafruit_funhouse_pinout.png "Adafruit Funhouse Pinout")
+
+[Product guide](https://learn.adafruit.com/adafruit-funhouse)
+
+## Peripherals
+
+* 240x240 ST7789-based SPI TFT display
+    * _Supported by Tasmota in `-display` firmware and via `USE_ST7789` in custom firmware._
+* AHT20 I2C temp/humidity sensor
+    * _Supported by Tasmota in `-sensors` firmware and via `USE_AHT2x` in custom firmware._
+* DP310 I2C temp/pressure sensor
+    * _Currently unsupported by Tasmota._
+* ALS-PT19 analog light sensor
+    * On `GPIO18`
+    * _Provided template configures this as `ADC Input 1`_
+* A front-facing mini PIO sensor socket
+    * On `GPIO16`
+    * _Provided template configures this as a `User` pin for manual configuration via module._
+* 3 front panel user buttons, one back panel user button
+    * Front panel buttons on `GPIO3-5`
+    * Back panel button on `GPIO0` (doubles as `BOOT0` button)
+    * _Provided template configures these as `Button 1-4`, with the rear panel as `Button 1`._
+* 7 front panel capacitive touch buttons
+    * On `GPIO6-13`
+    * _[Limited support](https://tasmota.github.io/docs/TouchPin/) in Tasmota, only 4 of the 7 can be used. Provided template sets these up as `User` pins for manual configuration via module._
+* 5 APA102 DotStar LEDs
+    * On `GPIO15` (Clock) and `GPIO14` (Data)
+    * _Currently unsupported by Tasmota, [support requested via Github Discussions](https://github.com/arendst/Tasmota/discussions/15617).Provided template sets these up as `User` pins for manual configuration via module._
+* One front panel red LED
+    * On `GPIO37`
+    * _Provided template configures this as `Led 1`._
+* GPIO-connected buzzer
+    * On `GPIO42`
+    * _Provided template sets configures this as `Buzzer`_ 
+* 3x 2-pin [STEMMA](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) JST-PH GPIO connectors
+    * On `GPIO20` (A0), `GPIO2` (A1), and `GPIO1` (A2) 
+    * _Provided template configures these as `User` pins for manual configuration via module._
+* [STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) JST-SH I2C bus connector
+    * On `GPIO33` (SCL) and `GPIO34` (SDA), bus shared with onboard sensors.
+    
+## Debug Console Output
+
+The ESP32-S2 serial debug console is available on two test pads on the back of the board, in a cluster of three test pads to the left of the ESP32-S2 module. The `TX` signal is on the top-left pad with `RX` on the top-right pad.
+
+![Adafruit Funhouse Debug Pads](/assets/images/adafruit_funhouse_debug.jpg "Adafruit Funhouse Debug Pads")
