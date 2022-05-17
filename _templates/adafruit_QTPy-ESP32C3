@@ -9,7 +9,7 @@ mlink: https://www.adafruit.com/product/5405
 image: /assets/images/adafruit_qtpy-esp32-c3.jpg
 flash: serial
 chip: c3
-templatec3: {"NAME":"QTPy ESP32-C3","GPIO":[1,1,1376,1,1,1,1,1,1,96,1,0,0,0,0,0,0,0,0,0,3232,3200],"FLAG":0,"BASE":1}
+templatec3: {"NAME":"QTPy ESP32-C3","GPIO":[1,1,1376,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,3232,3200],"FLAG":0,"BASE":1}
 link: https://shop.pimoroni.com/products/adafruit-qt-py-esp32-c3-wifi-dev-board-with-stemma-qt
 ---
 
@@ -29,9 +29,9 @@ esptool.py --chip esp32c3 --baud 115200 --before default_reset --after hard_rese
 
 ## Device Notes
 
-![Adafruit QTPy ESP32-C3 Front](/assets/images/adafruit_qtpy-esp32-c3_front-and-back.jpg "Adafruit QTPy ESP32-C3 Front")
+![Adafruit QTPy ESP32-C3 Front](/assets/images/adafruit_qtpy-esp32-c3_front-and-back.jpg "Adafruit QTPy ESP32-C3 Front and Back")
 
-![Adafruit QTPy ESP32-C3 Pinout](/assets/images/adafruit_qtpy-esp32-c3_pinout.png "Adafruit QTPy-C3 Pico Pinout")
+![Adafruit QTPy ESP32-C3 Pinout](/assets/images/adafruit_qtpy-esp32-c3_pinout.png "Adafruit QTPy ESP32-C3 Pinout")
 
 [Product Guide](https://learn.adafruit.com/adafruit-qt-py-esp32-c3-wifi-dev-board)
 
@@ -42,9 +42,6 @@ esptool.py --chip esp32c3 --baud 115200 --before default_reset --after hard_rese
 * [`WS2812B`](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) Neopixel
     * On `GPIO2`.
     * _Provided template configures this as `WS2812`_
-* 1x front panel user button
-    * On `GPIO9` (doubles as `BOOT0` button)
-    * _Provided template configures this as `Button 1`._
 * [STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) JST-SH I2C bus connector
     * On `GPIO6` (SCL) and `GPIO5` (SDA), on the same bus as the user pins labelled `SDA`/`SCL` on the board.
     * _Provided template does not configure this bus._
