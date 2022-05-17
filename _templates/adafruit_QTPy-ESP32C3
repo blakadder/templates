@@ -8,7 +8,8 @@ standard: global
 mlink: https://www.adafruit.com/product/5405
 image: /assets/images/adafruit_qtpy-esp32-c3.jpg
 flash: serial
-template32: {"NAME":"TODO","GPIO":[96,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,3840,1376,608,640,0,0,0,0,0],"FLAG":0,"BASE":1}
+chip: c3
+templatec3: {"NAME":"QTPy ESP32-C3","GPIO":[1,1,1376,1,1,1,1,1,1,96,1,0,0,0,0,0,0,0,0,0,3232,3200],"FLAG":0,"BASE":1}
 link: https://shop.pimoroni.com/products/adafruit-qt-py-esp32-c3-wifi-dev-board-with-stemma-qt
 ---
 
@@ -60,8 +61,8 @@ The user pins labelled on the board are set up as `User` pins in the template, a
 | `A3` | `GPIO0` |
 | `SDA` | `GPIO5` |
 | `SCL` | `GPIO6` |
-| `TX` | `GPIO21` |
-| `RX` | `GPIO20` |
 | `SCK` | `GPIO10` |
 | `MISO` | `GPIO8` |
 | `MOSI` | `GPIO7` |
+
+The `TX` and `RX` pins (`GPIO21/20`) aren't user-accessible in this template. Since they're tied to the chip's `UART0` they are configured as `Serial TX/RX` instead.
