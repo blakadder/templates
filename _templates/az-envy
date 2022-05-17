@@ -16,3 +16,5 @@ USB power and FTDI needs to be connected simultaneously to flash device. Press F
 You have to flash tasmota-sensors.bin to use the SHT sensor.
 
 Three jumper cables (female-female) for TX, RX and GND. The connectors DTR, CTS and VCC are not used. A special feature: Because the labelling was done in the same order as the FTDI, TX is connected to TX and RX to RX; not crosswise as usual with the UART interface!
+
+Please be aware that the temperature and humidity sensor is located near the heated gas sensor. It is a nice board to play around but do not expect any usable temperature or humidity readings, since these a highly influenced by the heated gas sensor.

@@ -1,0 +1,19 @@
+---
+date_added: 2022-05-07
+title: Tessan 3 Way
+model: STD02
+image: /assets/images/tessan_STD02.jpg
+template9: '{"NAME":"Tessan-STD02","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"SO97 | TuyaMCU 11,1 | TuyaMCU 21,2 | DimmerRange 20,255"}' 
+link: https://www.amazon.com/dp/B08DFDFDK2/ref=cm_sw_em_r_mt_dp_2RAK9D2BC801Q3MAFJMV
+link2: 
+mlink: https://tessan.com/3-way-smart-dimmer-switch 
+flash: serial
+category: switch
+type: Dimmer
+standard: us
+---
+Select TuyaMCU (54) module - no GPIO changes needed, then set:
+- `SetOption97 1`
+- `TuyaMCU 11,1`
+- `TuyaMCU 21,2`
+- `DimmerRange 20,255`"

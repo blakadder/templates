@@ -1,0 +1,17 @@
+---
+date_added: 2022-04-29
+title: YX-WS01
+category: plug
+type: Plug
+standard: us
+flash: tuya-convert
+link: https://www.amazon.com/gp/product/B078K432TK
+image: https://images-na.ssl-images-amazon.com/images/I/61vcmqmtA-L._AC_SL1500_.jpg
+template: '{"NAME":"Amysen YX-WS01","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Generic","GPIO":[1,32,1,1,1,1,1,1,1,320,224,1,1,1],"FLAG":0,"BASE":18}' 
+link2: https://www.amazon.com/Plug-ESICOO-Alexa-Google-4-Pack/dp/B07DYMS1L3
+---
+
+Found under different brands like Amysen, Esicoo, etc
+
+See this post: [https://community.home-assistant.io/t/amazon-bought-brandless-yx-ws01-smart-plug/415672](https://community.home-assistant.io/t/amazon-bought-brandless-yx-ws01-smart-plug/415672)

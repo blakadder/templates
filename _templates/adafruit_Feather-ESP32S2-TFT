@@ -16,6 +16,7 @@ A Feather form-factor ESP32-S2 dev board with an IPS ST7789V 1.14" display with 
 
 This board uses an [`ESP32-S2-MINI-1-N4R2`](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf) module with 4 MB flash and 2 MB PSRAM.
 
+
 ## Flashing
 
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB port exposes a serial connection. This can be used to easily flash new firmware.
