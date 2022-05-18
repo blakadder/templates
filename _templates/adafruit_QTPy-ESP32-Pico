@@ -1,0 +1,69 @@
+---
+date_added: 2021-05-17
+title: Adafruit QTPy ESP32 Pico
+model: QTPy-ESP32-Pico
+category: diy
+type: Development Board
+standard: global
+mlink: https://www.adafruit.com/product/5395
+image: /assets/images/adafruit_qtpy-esp32-pico.jpg
+flash: serial
+template32: {"NAME":"QTPy ESP32 Pico","GPIO":[32,3200,0,3232,1,1376,0,0,1,1,1,1,0,0,0,608,0,0,640,0,0,1,1,1,0,1,3840,0,1,1,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+link: 
+---
+
+An ESP32 Pico dev board in the tiny (22mm x 17.9mm) [Seeduino XIAO](https://www.seeedstudio.com/Seeeduino-XIAO-Arduino-Microcontroller-SAMD21-Cortex-M0+-p-4426.html) form factor.
+
+This board uses an [`ESP32 Pico V3 02`](https://www.espressif.com/sites/default/files/documentation/esp32-pico-v3-02_datasheet_en.pdf) chip with two cores, 8 MB of flash and 2 MB of PSRAM.
+
+The board also includes a [`CP2102N`](https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf) USB-Serial chip on the USB port for easy device flashing and debug console output access.
+
+## Flashing
+
+When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the USB port exposes a serial connection. This can be used to easily flash new firmware.
+
+For flashing via `tasmota32.factory.bin`, download the [tasmota32.factory.bin](https://github.com/tasmota/install/raw/main/firmware/release/tasmota32.factory.bin) file.
+
+```sh
+esptool.py --chip esp32 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32.factory.bin
+```
+
+## Device Notes
+
+![Adafruit QTPy ESP32 Pico Front](/assets/images/adafruit_qtpy-esp32-pico_front.jpg "Adafruit QTPy ESP32 Pico Front")
+
+![Adafruit QTPy ESP32 Pico Back](/assets/images/adafruit_qtpy-esp32-pico_back.jpg "Adafruit QTPy ESP32 Pico Back")
+
+![Adafruit QTPy ESP32 Pico Pinout](/assets/images/adafruit_qtpy-esp32-pico_pinout.png "Adafruit QTPy ESP32 Pico Pinout")
+
+[PCB Files](https://github.com/adafruit/Adafruit-QT-Py-ESP32-Pico-PCB)
+
+## Peripherals
+
+* [`WS2812B`](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) Neopixel
+    * On `GPIO5` with power on `GPIO8`.
+    * _Provided template configures this as `WS2812` with `GPIO8` as `Output Hi` for power._
+* 1x front panel user button
+    * On `GPIO0` (doubles as `BOOT0` button)
+    * _Provided template configures this as `Button 1`._
+* [STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) JST-SH I2C bus connector
+    * On `GPIO19` (SCL) and `GPIO22` (SDA), bus shared with onboard sensors.
+    * _Provided template configures this as `I2C 1`._
+
+## GPIO Pin Mapping
+
+The user pins labelled on the board are set up as `User` pins in the template, allowing module configuration. This is a quick reference to map the pin label on the board to the module user pin.
+
+| Label | GPIO |
+| ----- | ---- |
+| `A0` | `GPIO15` |
+| `A1` | `GPIO4` |
+| `A2` | `GPIO27` |
+| `A3` | `GPIO26` |
+| `SDA` | `GPIO25` |
+| `SCL` | `GPIO33` |
+| `TX` | `GPIO32` |
+| `RX` | `GPIO7` |
+| `SCK` | `GPIO14` |
+| `MISO` | `GPIO12` |
+| `MOSI` | `GPIO13` |
