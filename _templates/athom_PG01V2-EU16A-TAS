@@ -1,0 +1,21 @@
+---
+date_added: 2022-05-18
+title: Athom 16A EU V2
+model: PG01V2-EU16A-TAS
+image: /assets/images/athom_PG01V2-EU16A.jpg
+template9: '{"NAME":"Athom Plug V2","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/color-smart-plug
+link: https://www.aliexpress.com/item/4001230982267.html
+link2: 
+flash: preflashed
+category: plug
+type: Plug
+standard: eu
+---
+
+
+## Photos of internals
+
+![Top of the Plug](/assets/images/athom_PG01V2-EU16A_1.jpg)
+
+![Top of the ESP8285H16](/assets/images/athom_PG01V2-EU16A_2.jpg)
