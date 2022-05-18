@@ -1,0 +1,55 @@
+---
+date_added: 2021-05-17
+title: Espressif ESP32-S3-BOX
+model: ESP32-S3-BOX
+category: diy
+type: Development Board
+standard: global
+mlink: https://github.com/espressif/esp-box/
+image: /assets/images/espressif_ESP32-S3-BOX.png
+flash: serial
+chip: s3
+templates3: {"NAME":"ESP-S3-BOX","GPIO":[0,160,0,0,6624,6592,864,896,640,1,1,1,1,1,1,0,0,0,608,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,992,0,0,1024],"FLAG":0,"BASE":1}
+link: https://www.amazon.com/dp/B09JZ8XWCN
+---
+
+An IoT development platform from Espressif, primarily intended for use with Espressif's ESP-IDF, but will work with Tasmota.
+
+Uses an [`ESP32-S3-WROOM-1-N16R8`](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf) module with 16 MB flash and 8 MB PSRAM.
+
+## Flashing
+
+When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the "UART" USB port exposes a serial connection. This can be used to easily flash new firmware.
+
+For flashing via `esptool.py`, download the [tasmota32s3-bluetooth.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3-bluetooth.factory.bin) file.
+
+```sh
+esptool.py --chip esp32s3 --baud 115200 --before default_reset --after hard_reset --erase-all -z 0x0 tasmota32s3-bluetooth.factory.bin
+```
+
+## Display Setup
+
+Setting up the display requires a few console commands in addition to the template settings:
+
+```lua
+DisplayHeight 240
+DisplayWidth 320
+```
+
+## Device Notes
+
+![ESP-BOX PMod Connector Pinout](/assets/images/espressif_ESP32-S3-BOX_pinout.png)
+
+[ESP-BOX Schematic](https://github.com/espressif/esp-box/blob/master/hardware/esp32_s3_box_v2.5/schematic/SCH_ESP32-S3-BOX_V2.5_20211011.pdf)
+
+## Peripherals
+
+* "Mute" on/off button
+    * On `GPIO2` _(configured as `Switch 1`)_
+* 2x Microphone w/ microphone ADC (`ES7210`)
+* Speaker w/ speaker DAC (`ES8311`)
+    * I2S may work with [Berry's GPIO module](https://tasmota.github.io/docs/Berry/#i2s) but neither the ADC nor DAC's I2C controls are supported by Tasmota at the moment.
+* 6-axis IMU (`ICM-42607-P`)
+    * On I2C, not supported by Tasmota.
+
+Pin assignment reference: <https://github.com/espressif/esp-box/blob/master/components/bsp/src/boards/esp32_s3_box.c>
