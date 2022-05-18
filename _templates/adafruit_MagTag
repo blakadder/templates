@@ -1,0 +1,66 @@
+---
+date_added: 2021-05-18
+title: Adafruit ESP32-S2 Feather
+model: 4800
+category: diy
+type: Development Board
+standard: global
+mlink: https://www.adafruit.com/product/4800
+image: /assets/images/adafruit_MagTag.jpg
+flash: serial
+chip: s2
+templates2: '{"NAME":"MagTag","GPIO":[0,1376,0,4705,4704,0,0,0,0,0,1,35,34,288,33,32,3840,480,1,0,0,3872,608,608,864,896,832,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+link: https://www.digikey.com/en/products/detail/adafruit-industries-llc/4800/13616787
+link2: https://shop.pimoroni.com/products/adafruit-magtag-2-9-grayscale-e-ink-wifi-display
+link3: https://eckstein-shop.de/Adafruit-MagTag-29inch-Grayscale-E-Ink-WiFi-Display-with-ESP32-S2-EN
+---
+
+An ESP32-S2 dev board with a 2.9" E-Paper display, various peripherals, and standard GPIO/I2C connectors for rapid prototyping.
+
+This board uses an [`ESP32-S2-WROVER`](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf) module with 4 MB flash and 2 MB PSRAM.
+
+## Flashing
+
+When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB port exposes a serial connection. This can be used to easily flash new firmware.
+
+For flashing via `tasmota32s2.factory.bin`, download the [tasmota32s2.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.factory.bin) file.
+
+```sh
+esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset --erase-all -z 0x0 tasmota32s2.factory.bin
+```
+
+## Device Notes
+
+![Adafruit MagTag Front](/assets/images/adafruit_MagTag_front.jpg "Adafruit MagTag Front")
+
+![Adafruit MagTag Back](/assets/images/adafruit_MagTag_back.jpg "Adafruit MagTag Back")
+
+![Adafruit MagTag Pinout](/assets/images/adafruit_Feather-esp32-s2_pinout.png "Adafruit MagTag Pinout")
+
+[Product Guide](https://learn.adafruit.com/adafruit-magtag/)
+
+[Schematic](https://cdn-learn.adafruit.com/assets/assets/000/096/946/original/adafruit_products_MagTag_sch.png)
+
+## Peripherals
+
+* 2.9" 291x128 SPI E-Paper Display ([`IL0373`](https://www.smart-prototyping.com/image/data/9_Modules/EinkDisplay/GDEW0154T8/IL0373.pdf) controller)
+    * _Not currently supported by Tasmota_
+* 4x Front Panel User Buttons
+    * On `GPIO11-12` and `GPIO14-15` _(configured as `Button 1-4`, left to right)_
+* 4x [`WS2812B`](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) Neopixel
+    * On `GPIO1` _(configured as `WS2812`)_ with power on `GPIO21` _(configured as `Output Low`)_.
+* Back panel red status LED
+    * On `GPIO13` _(configured as `LED 1`)_
+* Analog light sensor
+    * On `GPIO3` _(configured as `Analog 2`)_ with power on `GPIO21` _(already set to `Output Low` for NeoPixels)_
+* PWM-capable Buzzer
+    * On `GPIO17` _(configured as `Buzzer`)_ with power/enable on `GPIO16` (configured as `Output Hi`).
+    * Use `BuzzerPWM` console command to switch to PWM mode
+* 3-axis Accelerometer ((`LIS3DH`](https://www.st.com/resource/en/datasheet/lis3dh.pdf))
+    * On I2C bus, interrupt on `GPIO9` _(not currently supported by Tasmota)_
+* 2x 3-pin [STEMMA](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma) JST-PH GPIO connectors
+    * On `GPIO18` (A1) and `GPIO10` (D10) _(both configured as `User` for setup via module)_
+* [STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) JST-SH I2C bus connector
+    * Both ports share the same bus, on `GPIO33` (SCL) and `GPIO34` (SDA) _(configured as `I2C 1`)_.
+* 1S LiPo battery management subsystem with 2-pin JST-PH connector
+    * Battery voltage divider on `GPIO4` _(configured as `Analog 1`)_
