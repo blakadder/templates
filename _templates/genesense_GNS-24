@@ -1,0 +1,14 @@
+---
+date_added: 2022-05-18
+title: Genesense IoT Controller
+model: GNS-24
+image: /assets/images/genesense_GNS-24.jpg
+template9: '{"NAME":"GNS24","GPIO":[32,1,1312,1,256,320,1,1,256,1216,160,3840,1,4704],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://bit.ly/31oisbj
+flash: serial
+category: sensor
+type: Sensor
+standard: il
+---

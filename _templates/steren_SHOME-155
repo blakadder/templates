@@ -1,6 +1,6 @@
 ---
 date_added: 2021-11-22
-title: Steren 
+title: Steren Curtain
 model: SHOME-155
 image: /assets/images/steren_SHOME-155.jpg
 template9: '{"NAME":"Steren_SHOME-155","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"SO54 1|SO20 1|TuyaMCU 61,1|TuyaMCU 21,2|TuyaMCU 27,3|TuyaMCU 97,5|TuyaMCU 11,6|TuyaMCU 62,7|TuyaMCU 63,8|TuyaMCU 81,9|TuyaMCU 98,10|TuyaMCU 82,11"}' 
@@ -9,7 +9,7 @@ link2:
 mlink: https://www.steren.com.mx/motor-wi-fi-para-automatizar-persianas.html
 flash: serial
 category: cover
-type: Curtain Motor
+type: Motor
 standard: us
 chip: TYWE1S
 ---
