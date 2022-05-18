@@ -1,0 +1,76 @@
+---
+date_added: 2021-05-17
+title: Adafruit ESP32 Feather v2
+model: HUZZAH32v2
+category: diy
+type: Development Board
+standard: global
+mlink: https://www.adafruit.com/product/5400
+image: /assets/images/adafruit_HUZZAH32v2.jpg
+flash: serial
+template32: {"NAME":"HUZZAH32v2","GPIO":[1376,0,3840,0,1,1,0,0,1,1,1,1,0,0,0,1,608,1,640,0,0,1,1,1,0,1,1,0,1,1,1,4704,1,1,0,1],"FLAG":0,"BASE":1}
+link: 
+---
+
+A Feather form factor ESP32 dev board with battery management.
+
+This board uses an [`ESP32-PICO-MINI-02-N8R2`](https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf) module with 8MB of flash and 2MB of PSRAM.
+
+The board also includes a [`CP2102N`](https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf) USB-Serial chip on the USB port for easy device flashing and debug console output access.
+
+## Flashing
+
+When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the USB port exposes a serial connection. This can be used to easily flash new firmware.
+
+For flashing via `tasmota32.factory.bin`, download the [tasmota32.factory.bin](https://github.com/tasmota/install/raw/main/firmware/release/tasmota32.factory.bin) file.
+
+```sh
+esptool.py --chip esp32 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32.factory.bin
+```
+
+## Device Notes
+
+![Adafruit HUZZAH32v2 Front and Back](/assets/images/adafruit_HUZZAH32v2_front-and-back.jpg "Adafruit QTPy HUZZAH32v2 Front and Back")
+
+![Adafruit HUZZAH32v2 Pinout](/assets/images/adafruit_HUZZAH32v2_pinout.png "Adafruit HUZZAH32v2 Pinout")
+
+[Product Guide](https://learn.adafruit.com/adafruit-esp32-feather-v2)
+
+[PCB Files](https://github.com/adafruit/Adafruit-ESP32-Feather-V2-PCB)
+
+## Peripherals
+
+* [`WS2812B`](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) Neopixel
+    * On `GPIO0` _(configured as `WS2812`)_ with power on `GPIO2` _(configured as `Output Hi`)_
+* [STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) JST-SH I2C bus connector
+    * On `GPIO20` (SCL) and `GPIO22` (SDA), bus shared with `SCL`/`SDA` pins on board. _(Configured as `I2C 1`)_
+* 1S LiPo battery management subsystem with 2-pin JST-PH connector
+    * Battery voltage divider on `GPIO35`. _(Configured as `Analog1`)_
+
+## GPIO Pin Mapping
+
+The user pins labelled on the board are set up as `User` pins in the template, allowing module configuration. This is a quick reference to map the pin label on the board to the module user pin.
+
+| Label | GPIO |
+| ----- | ---- |
+| `A0` | `GPIO26` |
+| `A1` | `GPIO25` |
+| `A2` | `GPIO34` |
+| `A3` | `GPIO39` |
+| `A4` | `GPIO36` |
+| `A5` | `GPIO34` |
+| `SCK` | `GPIO5` |
+| `MOSI` | `GPIO19` |
+| `MISO` | `GPIO21` |
+| `RX` | `GPIO8` |
+| `TX` | `GPIO7` |
+| `I37` | `GPIO37` |
+| `SDA` | `GPIO22` |
+| `SCL` | `GPIO20` |
+| `IO14` | `GPIO14` |
+| `IO32` | `GPIO32` |
+| `IO15` | `GPIO15` |
+| `IO33` | `GPIO33` |
+| `IO27` | `GPIO27` |
+| `IO12` | `GPIO12` |
+| `IO13` | `GPIO13` |
