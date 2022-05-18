@@ -1,6 +1,6 @@
 ---
 date_added: 2021-05-18
-title: Adafruit ESP32-S2 Feather
+title: Adafruit MagTag
 model: 4800
 category: diy
 type: Development Board
@@ -35,7 +35,7 @@ esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_rese
 
 ![Adafruit MagTag Back](/assets/images/adafruit_MagTag_back.jpg "Adafruit MagTag Back")
 
-![Adafruit MagTag Pinout](/assets/images/adafruit_Feather-esp32-s2_pinout.png "Adafruit MagTag Pinout")
+![Adafruit MagTag Pinout](/assets/images/adafruit_MagTag_pinout.png "Adafruit MagTag Pinout")
 
 [Product Guide](https://learn.adafruit.com/adafruit-magtag/)
 
