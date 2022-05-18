@@ -1,7 +1,7 @@
 ---
 date_added: 2021-05-12
-title: Adafruit Feather ESP32-S2 TFT
-model: Feather-ESP32-S2-TFT
+title: Adafruit ESP32-S2 TFT Feather
+model: 5300
 category: diy
 type: Development Board
 standard: global

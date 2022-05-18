@@ -19,6 +19,7 @@ layout: default
     <button class="button button-red button-small">
       {% if page.template32 != nil %}ESP32
       {% elsif page.templates2 != nil %}ESP32-S2
+      {% elsif page.templates3 != nil %}ESP32-S3
       {% elsif page.templatec3 != nil %}ESP32-C3
       {% else %}ESP8266
       {% endif %}
@@ -186,13 +187,13 @@ layout: default
   {% endif %}
 
   {% if page.templates2 != nil or page.chip == "s2" %}
-  Requires a special ESP32-S2 tasmota32 binary. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.bin">development build</a>.<p>
+  Requires a special ESP32-S2 <a href="http://ota.tasmota.com/tasmota32/tasmota32s2-safeboot.bin">`tasmota32s2-safeboot.bin`</a> binary.
   <br><br>
   <p>
   {% endif %}
 
   {% if page.templates3 != nil or page.chip == "s3" %}
-  Requires a special ESP32-S3 tasmota32 binary. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3.bin">development build</a>.<p>
+  Requires a special ESP32-S3 tasmota32 binary. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3.factory.bin">development build</a>.<p>
   <br><br>
   <p>
   {% endif %}

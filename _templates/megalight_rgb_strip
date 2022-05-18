@@ -2,7 +2,7 @@
 date_added: 2022-04-27
 title: MegaLight Smart RGB
 model: 
-image: /assets/images/
+image: /assets/images/megalight_rgb_strip.jpg
 template9: '{"NAME":"MegaLight Smart LED-Stripe","GPIO":[0,0,0,0,417,1088,0,0,418,416,0,0,32,0],"FLAG":0,"BASE":18}' 
 link: https://www.globus-baumarkt.de/shopware.php?sViewport=detail&sArticle=266999
 link2: 

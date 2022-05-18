@@ -1,6 +1,7 @@
 ---
 date_added: 2019-11-10
-title: Adafruit HUZZAH
+title: Adafruit HUZZAH ESP8266
+model: 2471
 category: diy
 type: Development Board
 standard: global

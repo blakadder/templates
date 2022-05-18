@@ -1,7 +1,7 @@
 ---
-date_added: 2021-05-17
-title: Adafruit ESP32 Feather v2
-model: HUZZAH32v2
+date_added: 2022-05-17
+title: Adafruit ESP32 Feather V2
+model: 5400
 category: diy
 type: Development Board
 standard: global
