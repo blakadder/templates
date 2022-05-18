@@ -9,7 +9,7 @@ mlink: https://www.adafruit.com/product/5323
 image: /assets/images/adafruit_feather-esp32-s3.jpg
 flash: serial
 chip: s3
-templates3: {"NAME":"ESP32-S3 Feather","GPIO":[0,0,0,608,640,1,1,3840,1,1,1,1,1,1,1,1,1,1,1,0,0,3840,1376,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+templates3: '{"NAME":"ESP32-S3 Feather","GPIO":[0,0,0,608,640,1,1,3840,1,1,1,1,1,1,1,1,1,1,1,0,0,3840,1376,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 ---
 
 A Feather form factor ESP32-S3 dev board with 1S LiPo battery monitoring.

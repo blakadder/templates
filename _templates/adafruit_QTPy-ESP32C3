@@ -9,7 +9,7 @@ mlink: https://www.adafruit.com/product/5405
 image: /assets/images/adafruit_qtpy-esp32-c3.jpg
 flash: serial
 chip: c3
-templatec3: {"NAME":"QTPy ESP32-C3","GPIO":[1,1,1376,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,3232,3200],"FLAG":0,"BASE":1}
+templatec3: '{"NAME":"QTPy ESP32-C3","GPIO":[1,1,1376,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,3232,3200],"FLAG":0,"BASE":1}'
 link: https://shop.pimoroni.com/products/adafruit-qt-py-esp32-c3-wifi-dev-board-with-stemma-qt
 ---
 

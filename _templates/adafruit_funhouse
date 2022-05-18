@@ -7,7 +7,7 @@ type: Development Board
 standard: global
 mlink: https://www.adafruit.com/product/4985
 image: /assets/images/adafruit_funhouse.jpg
-templates2: {"NAME":"Funhouse","GPIO":[32,1,1,7713,7714,7715,1,1,1,1,1,1,1,1,1,1,1,1,4704,0,0,992,608,640,864,896,1,0,6624,6592,1024,480,0,0,0,0],"FLAG":0,"BASE":1}
+templates2: '{"NAME":"Funhouse","GPIO":[32,1,1,7713,7714,7715,1,1,1,1,1,1,1,1,1,1,1,1,4704,0,0,992,608,640,864,896,1,0,6624,6592,1024,480,0,0,0,0],"FLAG":0,"BASE":1}'
 chip: s2
 link: https://www.digikey.com/en/products/detail/adafruit-industries-llc/4985/14309089
 link2: https://www.digikey.com/en/products/detail/adafruit-industries-llc/5069/15189156
