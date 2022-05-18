@@ -1,0 +1,56 @@
+---
+date_added: 2021-05-17
+title: Unexpected Maker TinyS2
+model: TinyS2
+category: diy
+type: Development Board
+standard: global
+mlink: https://unexpectedmaker.com/tinys2
+image: /assets/images/unexpectedmaker_tinys2.jpg
+flash: serial
+chip: s2
+templates2: {"NAME":"TinyS2","GPIO":[1,1376,3840,4704,1,1,1,1,1,1,0,0,0,0,1,0,0,1,1,0,0,0,1,0,1,1,1,1,0,0,0,0,3200,3232,0,0],"FLAG":0,"BASE":1}
+link: https://www.amazon.com/dp/B093CJ4V3Y
+link2: https://shop.pimoroni.com/products/tinys2
+---
+
+A small form factor ESP32-S2 dev board.
+
+This board uses an [`ESP32-S2F-N4R2`](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf) chip with 4 MB of flash and 2 MB of PSRAM.
+
+## Flashing
+
+When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB port exposes a serial connection. This can be used to easily flash new firmware.
+
+For flashing via `tasmota32s2.factory.bin`, download the [tasmota32s2.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.factory.bin) file.
+
+```sh
+esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32s2.factory.bin
+```
+
+## Device Notes
+
+![Unexpected Maker TinyS2 Front](/assets/images/unexpectedmaker_tinys2_front.jpg "Unexpected Maker TinyS2 Front")
+
+There are two versions of the TinyS2 with slightly different pinouts for the SPI pins.
+
+![Unexpected Maker TinyS2 P1 Pinout](/assets/images/unexpectedmaker_tinys2_pinout-p1.jpg "Unexpected Maker TinyS2 P3 Pinout")
+
+![Unexpected Maker TinyS2 P3 Pinout](/assets/images/unexpectedmaker_tinys2_pinout-p3.jpg "Unexpected Maker TinyS2 P3 Pinout")
+
+[TinyS2 Schematic](https://static1.squarespace.com/static/5a8cc639a803bbfaa029615a/t/60762fb9544b121bc53a0290/1618358202735/TinyS2_P1_Schematic.pdf)
+
+## Peripherals
+
+* [`WS2812B`](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) Neopixel
+    * On `GPIO1` with power on `GPIO2`.
+    * _Provided template configures this as `WS2812` with `GPIO2` as `Output Hi` for power._
+* 1S LiPo battery management subsystem with 2-pin JST-SH connector
+    * Battery voltage on `GPIO3` and 5V/voltage detection on `GPIO21`
+    * _Provided template configures `GPIO3` as `ADC Input 1` and does not configure `GPIO21`._
+
+## GPIO Pin Mapping
+
+The user pins labelled on the board are set up as `User` pins in the template.The pin numbers match the ESP's internal GPIO number assignments allowing relatively easy module configuration without having to translate pin.
+
+The only exception are the pins labeled `TX` and `RX`, which are set up as `Serial TX/RX` in the template.
