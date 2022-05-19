@@ -18,6 +18,6 @@ A small form factor ESP32-S3 dev board.
 
 This board uses an [`ESP32-S3FN8`](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf) chip with 8 MB of flash and 8 MB of PSRAM.
 
-![Unexpected Maker TinyS3 Pinout](/assets/images/unexpectedmaker_tinys2_pinout.jpg "Unexpected Maker TinyS3 Pinout")
+![Unexpected Maker TinyS3 Pinout](/assets/images/unexpectedmaker_tinys3_pinout.jpg "Unexpected Maker TinyS3 Pinout")
 
 [TinyS3 Schematic](https://esp32s3.com/files/schematic-tinys3.pdf)
