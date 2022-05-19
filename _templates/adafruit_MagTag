@@ -1,9 +1,9 @@
 ---
 date_added: 2021-05-18
-title: Adafruit MagTag
+title: Adafruit MagTag 2.9" Grayscale E-Ink
 model: 4800
 category: diy
-type: Development Board
+type: Display
 standard: global
 mlink: https://www.adafruit.com/product/4800
 image: /assets/images/adafruit_MagTag.jpg
