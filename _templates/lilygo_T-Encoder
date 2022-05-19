@@ -1,0 +1,26 @@
+---
+date_added: 2022-05-19
+title: LilyGO RGB LED Ring Encoder 
+model: T-Encoder
+category: diy
+type: Development Board
+standard: global
+image: /assets/images/lilygo_T-Encoder.jpg
+template32: '{"NAME":"T-Encoder","GPIO":[0,0,1,0,1,0,0,0,1,1,1,1,0,0,0,480,0,0,0,0,0,449,450,448,0,0,0,0,0,0,0,0,3296,3264,32,0],"FLAG":0,"BASE":1,"CMND":"BuzzerPwm 1"}'
+mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50068&Id=1408&FId=t3:50068:3
+link: https://www.aliexpress.com/item/1005003587776302.html
+link2: https://www.banggood.com/LILYGO-TTGO-T-ENCODER-ESP32-RGB-LED-Ring-Encoder-Supports-T-U2T-Downloader-ESP32-Nodemcu-WiFi-Bluetooth-IOT-Programming-Module-p-1928778.html
+---
+
+## Flashing
+
+Requires the T-U2T Downloader dongle for easiest flashing.
+
+Flash using [Tasmota Web Installer](https://tasmota.github.io/install/) using **Tasmota** option.
+
+![Pinout](/assets/images/lilygo_T-Encoder.jpg)
+
+[Schematic](https://github.com/Xinyuan-LilyGO/T-Encoder/raw/main/schematic.pdf)
+
+[Rotary encoder info](https://kaiguan.guigeshu.top/index.php/ZIPPYRotarySwitches/ANM-2035.mhtml)
+
