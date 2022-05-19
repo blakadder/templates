@@ -10,7 +10,7 @@ image: /assets/images/unexpectedmaker_tinys3.jpg
 flash: serial
 chip: s3
 templates3: '{"NAME":"TinyS3","GPIO":[32,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,3840,1376,0,0,1,1,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0],"FLAG":0,"BASE":1}'
-link: https://www.amazon.com/dp/B093CJ4V3Y
+link: https://unexpectedmaker.com/shop/ttinys3-esp32s3
 link2: https://shop.pimoroni.com/products/tinys3-esp32-s3
 ---
 

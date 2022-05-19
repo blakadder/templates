@@ -11,7 +11,8 @@ flash: serial
 chip: s2
 templates2: '{"NAME":"TinyS2","GPIO":[1,1376,3840,4704,1,1,1,1,1,1,0,0,0,0,1,0,0,1,1,0,0,0,1,0,1,1,1,1,0,0,0,0,3200,3232,0,0],"FLAG":0,"BASE":1}'
 link: https://www.amazon.com/dp/B093CJ4V3Y
-link2: https://shop.pimoroni.com/products/tinys2
+link2: https://unexpectedmaker.com/shop/tinys2-esp32-s2
+link3: https://shop.pimoroni.com/products/tinys2
 ---
 
 A small form factor ESP32-S2 dev board.
