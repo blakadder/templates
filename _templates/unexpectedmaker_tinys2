@@ -1,6 +1,6 @@
 ---
 date_added: 2021-05-17
-title: Unexpected Maker TinyS2
+title: Unexpected Maker TinyS2 ESP32-S3
 model: TinyS2
 category: diy
 type: Development Board
@@ -9,7 +9,7 @@ mlink: https://unexpectedmaker.com/tinys2
 image: /assets/images/unexpectedmaker_tinys2.jpg
 flash: serial
 chip: s2
-templates2: {"NAME":"TinyS2","GPIO":[1,1376,3840,4704,1,1,1,1,1,1,0,0,0,0,1,0,0,1,1,0,0,0,1,0,1,1,1,1,0,0,0,0,3200,3232,0,0],"FLAG":0,"BASE":1}
+templates2: '{"NAME":"TinyS2","GPIO":[1,1376,3840,4704,1,1,1,1,1,1,0,0,0,0,1,0,0,1,1,0,0,0,1,0,1,1,1,1,0,0,0,0,3200,3232,0,0],"FLAG":0,"BASE":1}'
 link: https://www.amazon.com/dp/B093CJ4V3Y
 link2: https://shop.pimoroni.com/products/tinys2
 ---
