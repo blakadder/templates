@@ -4,7 +4,7 @@ title: Vivitar Plug
 model: HA-1005N-AU
 image: /assets/images/vivitar_HA-1005N-AU.jpg
 template9: '{"NAME":"HA-1005N-AU","GPIO":[0,0,0,0,544,0,0,0,224,64,0,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.com.au/Vivitar-Wireless-Remote-Security-Charger/dp/B074P8KF7N?th=1
+link: https://www.amazon.com.au/Vivitar-Wireless-Remote-Security-Charger/dp/B074P8KF7N
 link2: 
 mlink: 
 flash: serial
