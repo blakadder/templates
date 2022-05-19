@@ -173,40 +173,40 @@ layout: default
   <h2>This device now comes with a Wi-Fi module incompatible with Tasmota</h2>
   {% endif %}
 
-  {% if page.template32 != nil %}
-    {% if page.chip == "solo1" %}
-      Flash only with <a href="http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin"><code>tasmota32solo1.bin</code></a> build for ESP32-SOLO-1. 
-    {% endif %}
-    <a href="https://tasmota.github.io/docs/ESP32/#flashing">Flashing instructions</a> for tasmota32 firmware.<BR><BR>
+  {% if page.chip == "solo1" %}
+    Flash only with <a href="http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin"><code>tasmota32solo1.bin</code></a> build for ESP32-SOLO-1. 
+    <br><br>
+    <p>
   {% endif %}
-
+  
   {% if page.templatec3 != nil or page.chip == "c3" %}
-  Requires a special ESP32-C3 <a href="http://ota.tasmota.com/tasmota32/tasmota32c3.bin">`tasmota32c3.bin`</a> binary. 
-  <br><br>
-  <p>
+    Flash only with ESP32-C3 `tasmota32c3...` binaries. 
+    <br><br>
+    <p>
   {% endif %}
 
   {% if page.templates2 != nil or page.chip == "s2" %}
-  Requires a special ESP32-S2 <a href="http://ota.tasmota.com/tasmota32/tasmota32s2-safeboot.bin">`tasmota32s2-safeboot.bin`</a> binary.
+    Flash only with ESP32-S2 `tasmota32s2...` binaries.
+    <br><br>
+    <p>
+  {% endif %}
+
+  {% if page.flash == 'preflashed' %}
+  <b>This device comes with Tasmota already installed!</b>
   <br><br>
   <p>
   {% endif %}
 
   {% if page.templates3 != nil or page.chip == "s3" %}
-  Requires a special ESP32-S3 tasmota32 binary. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3.factory.bin">development build</a>.<p>
-  <br><br>
-  <p>
+    Flash only with ESP32-S3 `tasmota32s3...` binaries. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3.factory.bin">development build</a>.<p>
+    <br><br>
+    <p>
   {% endif %}
 
   {% if page.author == 'blak' %}
   <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
   {% endif %}
 
-  {% if page.flash == 'preflashed' %}
-  <b>This device comes with Tasmota already installed</b>!
-  <br><br>
-  <p>
-  {% endif %}
 
   {% if page.template != nil %}
     {% assign template = page.template | split: ':' %}
