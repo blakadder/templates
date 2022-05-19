@@ -1,0 +1,49 @@
+---
+date_added: 2021-05-18
+title: Adafruit ESP32-S2 Feather
+model: 5303
+category: diy
+type: Development Board
+standard: global
+mlink: https://www.adafruit.com/product/5303
+image: /assets/images/adafruit_Feather-esp32-s2.jpg
+flash: serial
+chip: s2
+templates2: '{"NAME":"ESP32-S2 Feather","GPIO":[1,0,0,640,608,1,1,3840,1,1,1,1,1,1,1,1,1,1,1,0,0,3840,1376,0,1,1,1,1,1,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+---
+
+A Feather form factor ESP32-S2 dev board with 1S LiPo battery monitoring and an optional on-board BME280 sensor.
+
+This board uses an [`ESP32-S2-MINI-1-N4R2`](https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf) module with 4MB of flash and 2 MB PSRAM.
+
+## Flashing
+
+When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the USB port exposes a serial connection. This can be used to easily flash new firmware.
+
+For flashing via `tasmota32s2.factory.bin`, download the [tasmota32s2.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.factory.bin) file.
+
+```sh
+esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset --erase-all -z 0x0 tasmota32s2.factory.bin
+```
+
+## Device Notes
+
+![Adafruit ESP32-S2 Feather Front and Back](/assets/images/adafruit_Feather-esp32-s2_front-and-back.jpg "Adafruit ESP32-S2 Feather Front and Back")
+
+![Adafruit ESP32-S2 Feather Pinout](/assets/images/adafruit_Feather-esp32-s2_pinout.png "Adafruit ESP32-S2 Feather Pinout")
+
+[Product Guide](https://learn.adafruit.com/adafruit-esp32-s2-feather/)
+
+[PCB Files](https://github.com/adafruit/Adafruit-Feather-ESP32-S2-PCB)
+
+## Peripherals
+
+* [`WS2812B`](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) Neopixel
+    * On `GPIO33` _(configured as `WS2812`)_ with power on `GPIO21` _(configured as `Output Hi`)_.
+* [STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) JST-SH I2C bus connector
+    * Both ports share the same bus, on `GPIO3` (SCL) and `GPIO4` (SDA) _(configured as `I2C 1`)_ and `GPIO7` for power _(configured as `Output Hi`)_. These ports are on the same bus as the `SCL` and `SDA` pins labelled on the board.
+    * _Some early revisions of this board had their I2C power control logic reversed, requiring `GPIO7` to be pulled low instead of high to provide power and pull-ups to the I2C bus. If I2C isn't working, try changing `GPIO7` to `Output Low`_
+* [`BME280`](https://www.mouser.com/datasheet/2/783/BST-BME280-DS002-1509607.pdf) temp/humidity/pressure sensor
+    * On I2C bus, supported by Tasmota
+* 1S LiPo battery management subsystem with 2-pin JST-PH connector
+    * Includes [`LC709203`](https://www.mouser.com/datasheet/2/308/LC709203F_D-1810548.pdf) battery monitor IC on I2C bus, _not currently supported by Tasmota_.
