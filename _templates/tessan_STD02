@@ -12,8 +12,11 @@ category: switch
 type: Dimmer
 standard: us
 ---
+
+This configuration is automatically applied with the template:
+
 Select TuyaMCU (54) module - no GPIO changes needed, then set:
 - `SetOption97 1`
 - `TuyaMCU 11,1`
 - `TuyaMCU 21,2`
-- `DimmerRange 20,255`"
+- `DimmerRange 20,255`
