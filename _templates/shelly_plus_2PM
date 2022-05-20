@@ -4,7 +4,7 @@ title: Shelly Plus 2PM
 model: 2PM
 image: /assets/images/shelly_plus_2PM.jpg
 template32: '{"NAME":"Shelly Plus 2PM","GPIO":[320,0,192,0,0,0,1,1,225,224,0,0,0,0,193,0,0,0,0,0,0,608,3840,32,0,0,0,0,0,640,0,0,3456,4736,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,32000,40000,3350"}' 
-link: 
+link: https://www.domadoo.fr/en/objets-communicants/6164-shelly-dual-wi-fi-smart-relay-switch-with-energy-monitoring-shelly-plus-2pm-3800235265031.html
 link2: 
 mlink: https://shelly.cloud/shelly-plus-2pm/
 flash: serial
