@@ -1,0 +1,15 @@
+---
+date_added: 2022-05-22
+title: M5Stack PSRAM Timer Camera (OV3660)
+model: U082
+image: /assets/images/m5stack_timer_camera.jpg
+template32: '{"NAME":"M5STACK CAM","GPIO":[0,0,0,0,0,5091,1,0,0,0,0,4960,1,0,5093,5095,0,5184,5120,5056,0,5024,5152,4992,0,0,0,0,5088,0,5090,5089,5094,0,0,5092],"FLAG":0,"BASE":2}' 
+link: https://www.aliexpress.com/item/1005003297384140.html
+link2: 
+mlink: https://shop.m5stack.com/products/esp32-psram-timer-camera-ov3660?variant=36362174824612
+flash: serial
+category: diy
+type: Camera
+standard: global
+---
+Flash with `tasmota32-webcam`

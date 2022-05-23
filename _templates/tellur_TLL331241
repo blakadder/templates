@@ -1,0 +1,18 @@
+---
+date_added: 2022-05-22
+title: Tellur Remote Control
+model: TLL331241
+image: /assets/images/tellur_TLL331241.jpg
+template9: '{"NAME":"Tellur TLL331241","GPIO":[0,0,0,0,1056,1088,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B08XVPHL59
+link2: 
+mlink: https://smart.tellur.com/climate-comfort/ir-wifi-remote-control/
+flash: replace
+chip: WR3E
+category: misc
+type: IR Controller
+standard: global
+---
+Tellur TLL331241 IR Blaster comes with the WR3E module, it can be easily changed to ESP12S (1:1 pin compatible). Just flash `tasmota-ir` to the ESP12S and change it.
+
+The pinouts are IRrecv=GPIO5, IRsend=GPIO4. The device also has a AHT10 temp/humid. sensor which I havent tinkered with yet.
