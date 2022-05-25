@@ -9,7 +9,7 @@ mlink: https://github.com/espressif/esp-box/
 image: /assets/images/espressif_ESP32-S3-BOX.png
 flash: serial
 chip: s3
-templates3: {"NAME":"ESP-S3-BOX","GPIO":[0,160,0,0,6624,6592,864,896,640,1,1,1,1,1,1,0,0,0,608,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,992,0,0,1024],"FLAG":0,"BASE":1}
+templates3: '{"NAME":"ESP-S3-BOX","GPIO":[0,160,0,0,6624,6592,864,896,640,1,1,1,1,1,1,0,0,0,608,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,992,0,0,1024],"FLAG":0,"BASE":1}'
 link: https://www.amazon.com/dp/B09JZ8XWCN
 ---
 
