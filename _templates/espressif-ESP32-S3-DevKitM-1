@@ -9,7 +9,7 @@ mlink: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-referenc
 image: /assets/images/espressif_ESP32-S3-DevKitM-1.png
 flash: serial
 chip: s3
-templates3: {"NAME":"ESP32-S3-DevKitM-1","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1376],"FLAG":0,"BASE":1}
+templates3: '{"NAME":"ESP32-S3-DevKitM-1","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1376],"FLAG":0,"BASE":1}'
 link: https://www.amazon.com/dp/B09R4QQVF4
 ---
 
