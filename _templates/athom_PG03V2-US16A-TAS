@@ -1,0 +1,21 @@
+---
+date_added: 2022-05-26
+title: Athom 16A US V2
+model: PG03V2-US16A-TAS
+image: /assets/images/athom_PG03V2-US16A-TAS.jpg
+template9: '{"NAME":"Athom Plug V2","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/tasmota-us-plug-v2
+link: https://www.aliexpress.com/item/1005001748770810.html
+link2: 
+flash: preflashed
+category: plug
+type: Plug
+standard: us
+---
+
+
+## Photos of internals
+
+![Top of the Plug](/assets/images/athom_PG03V2-US16A_1.jpg)
+
+![Top of the ESP8285H16](/assets/images/athom_PG03V2-US16A_2.jpg)
