@@ -1,0 +1,38 @@
+---
+date_added: 2022-05-25
+title: Duux Whisper Flex Battery Pack 
+model: DXCF12
+image: /assets/images/duux_DXCF12.jpg
+template9: '{"NAME":"Duux DXCF12","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 61,2 | TuyaMCU 62,3 | TuyaMCU 12,4 | TuyaMCU 13,5 | TuyaMCU 64,6"}' 
+link3: https://www.alza.de/duux-whisper-smart-black-battery-pack-d5825011.htm
+link2: https://www.idealo.de/preisvergleich/OffersOfProduct/201477637_-whisper-flex-smart-schwarz-dxcf12-duux.html
+link: https://www.amazon.de/dp/B08F94JGK8/
+mlink: https://duux.com/en/product/whisper-flex-smart-zwart-battery-pack/
+flash: tuya-convert
+category: misc
+type: Fan
+standard: global
+---
+## MCU Functions
+
+- `dpid1` Power relay - When toggled will turn fan on / off.
+- `dpid2` Mode - 0 = Manual Mode, 1 = Natural Mode, 2 = Sleep Mode
+  - Natural Mode: The fan speed varies randomly between (speed 3 to 6), in - the interval of every 15 seconds, giving the effect of a natural breeze.
+  - Sleep Mode: The fan will operate at speed setting 1
+  - Manual Mode: Fan speed is set by dpid3
+- `dpid3` Sets the fan speed: 0 slow - 25 fast, (display 1 - 26)
+- `dpid4` Oscillates horizontally
+- `dpid5` Oscillates vertically
+- `dpid6` Set an automatic timer: 0 - 12 h
+
+Configure Tasmota’s DpIds with the correct FnIds:
+
+```
+Backlog TuyaMCU 61,2; TuyaMCU 62,3; TuyaMCU 12,4; TuyaMCU 13,5; TuyaMCU 64,6;
+```
+
+Configure the correct Enums lists for Speed, Mode and Timer:
+
+```
+Backlog TuyaEnumlist 1,2; TuyaEnumlist 2,25; TuyaEnumlist 4,12;
+```

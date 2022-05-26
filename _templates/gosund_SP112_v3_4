@@ -16,8 +16,15 @@ standard: eu
 unsupported: true
 ---
 
+![](/assets/images/gosund_SP112_v3_4_pinout.jpg)
+
 For your convenience: GPIO0 corresponds to the red LED, GPIO2 to the blue one. The relay at GPIO13 switches the USB ports, GPIO14 switches mains.
 To tell the difference from the older model, check if GPIO13 actually switches the USB ports.
 
-Single Press switches the main port, double short press the usb-ports
 
+## Disassembly
+
+![](/assets/images/gosund_SP112_v3_4_disassembly1.jpg)
+![](/assets/images/gosund_SP112_v3_4_disassembly2.jpg)
+![](/assets/images/gosund_SP112_v3_4_disassembly3.jpg)
+![](/assets/images/gosund_SP112_v3_4_disassembly4.jpg)
