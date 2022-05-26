@@ -3,24 +3,24 @@ date_added: 2022-05-08
 title: Automate Things IR Bridge
 model: AT-IRBR v1.4
 image: /assets/images/automate_things_AT-IRBR-1.jpg
-template9: '{"NAME":"AT-IRBR-1.4","GPIO":[1088,0,0,0,1056,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.tindie.com/products/automate-things/ir-bridge/
-link2: 
-mlink: 
+template9: '{"NAME":"AT-IRBR-1.4","GPIO":[1088,0,0,0,1056,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}'
+link: https://store.automate-things.co.uk/
+link2: https://www.tindie.com/products/automate-things/ir-bridge/
+mlink: https://www.tindie.com/products/automate-things/
 flash: preflashed
 category: misc
-type: Other
+type: IR Controller
 standard: global
 ---
-With over 10 Meters range, the IR Bridge allows you to control almost any infrared device and is compatible with 
-[Tasmota](https://tasmota.github.io/docs/Tasmota-IR/) and [ESPhome](https://esphome.io/components/remote_transmitter.html). 
-If you are feeling ambitious then you can even use the [IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266) 
+With over 10 Meters range, the IR Bridge allows you to control almost any infrared device and is compatible with
+[Tasmota](https://tasmota.github.io/docs/Tasmota-IR/) and [ESPhome](https://esphome.io/components/remote_transmitter.html).
+If you are feeling ambitious then you can even use the [IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266)
 Library with Arduino!
 
-With the 38kHz IR Receiver you can configure Tasmota to relay IR signals via WiFi and repeat IR signals in a different room using a 2nd IR 
+With the 38kHz IR Receiver you can configure Tasmota to relay IR signals via WiFi and repeat IR signals in a different room using a 2nd IR
 Bridge.
 
-The device can be easily integrated into home automation solutions such as [Home Assistant](https://www.home-assistant.io/). 
+The device can be easily integrated into home automation solutions such as [Home Assistant](https://www.home-assistant.io/).
 You can even place the device behind your TV and it should still be able to control it.
 
 The best part is that as *you* decide what Firmware to install on it there is no need for another Mobile App or a Cloud Subscription.
@@ -28,5 +28,5 @@ The best part is that as *you* decide what Firmware to install on it there is no
 **Things you will need to provide:**
   - 5V/1A Power Supply via Micro USB.
 
-### Wholesale Orders or Customm Builds
-Please [contact Automate Things UK](https://automate-things.uk/) if you need to order a quantity of units, or need something custom."
+**Wholesale Orders or Custom Builds**    
+Please [contact Automate Things UK](https://automate-things.uk/) if you need to order a quantity of units, or need something custom.
