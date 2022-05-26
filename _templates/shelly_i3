@@ -7,7 +7,7 @@ template: '{"NAME":"Shelly i3","GPIO":[0,0,0,0,0,56,0,0,83,84,82,0,0],"FLAG":2,"
 link: https://www.amazon.de/dp/B089GWDS19/
 link2: https://www.domadoo.fr/en/objets-communicants/5288-shelly-module-d-activation-de-scenesactions-wi-fi-shelly-i3-3809511202593.html
 link3: https://www.aliexpress.com/item/1005002821587581.html
-link4: https://www.alza.de/shelly-i3-modul-3-binareingange-wlan-d6250250.htm
+link4: https://mediarath.de/collections/tasmota-gerate/products/shelly-i3-smart-wifi-steuergerat-100-240v-ac-24-60v-dc-http-mqtt-tasmota
 link5: https://www.idealo.de/preisvergleich/OffersOfProduct/200944784_-i3-shelly.html
 mlink: https://shelly.cloud/products/shelly-i3-smart-home-automation-device/
 flash: mgos
