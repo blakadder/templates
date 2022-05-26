@@ -12,4 +12,6 @@ category: plug
 type: Plug
 standard: uk
 ---
+**Discontinued!** [New version](athom_PG04V2-UK16A-TAS)
+
 Beware of using this for large (1kW+) continuous loads.  The fuse heats up during use (which is normal for BS1362 fuses), and the plastic around the fuse holder melts.  It otherwise seems well-built.  Fitting a 3A fuse might be prudent.
