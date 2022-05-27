@@ -10,6 +10,7 @@ templatec3: '{"NAME":"YITOM-4AC-4USB","GPIO":[1,1,32,225,224,226,1,1,1,321,1,0,0
 link2: 
 link3: 
 flash: WBR3
+standard: eu
 ---
 
 

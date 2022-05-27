@@ -10,7 +10,7 @@ mlink: https://www.tellur.com/product/wifi-smart-ac-socket-2-ports-16a/
 flash: tuya-convert
 category: plug
 type: Plug
-standard: global
+standard: eu
 ---
 
 I managed to flash it using TuyaConvert so I didn't try to open the device. It didn't work the first time, but eventually TuyaConvert did the job.
