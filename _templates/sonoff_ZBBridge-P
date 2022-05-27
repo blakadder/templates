@@ -5,7 +5,7 @@ model: ZB Bridge-P
 image: /assets/images/sonoff_ZBBridge_Pro.jpg
 template32: '{"NAME":"Sonoff Zigbee Pro","GPIO":[0,0,576,0,480,0,0,0,0,1,1,5792,0,0,0,3552,0,320,5793,3584,0,640,608,32,0,0,0,0,0,1,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://itead.cc/product/sonoff-zigbee-bridge-pro/
-link2:https://www.aliexpress.com/item/1005004291712811.html
+link2: https://www.aliexpress.com/item/1005004291712811.html
 mlink: https://sonoff.tech/product/smart-home-security/zbbridge-p/
 flash: serial
 category: misc
