@@ -1,0 +1,13 @@
+---
+date_added: 2022-05-27
+title: Nous 15A 3AC 3USB
+model: A5T
+image: /assets/images/nous_A5T.jpg
+template9: '{"NAME":"NOUS A5T","GPIO":[0,145,157,146,0,32,0,0,22,23,21,0,17],"FLAG":1,"BASE":18}'
+link: https://www.domadoo.fr/en/peripheriques/6216-nous-tasmota-15a-wifi-smart-power-strip-with-consumption-measurement-3-controllable-usb-ports--5907772033555.html
+mlink: https://nous.technology/product/a5t.html
+flash: preflashed
+category: plug
+type: Power Strip
+standard: eu
+---

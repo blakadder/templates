@@ -1,0 +1,14 @@
+---
+date_added: 2022-05-26
+title: Kauf RGB Wall
+model: SRF10
+image: /assets/images/kauf_SRF10.jpg
+template9: '{"NAME":"Kauf SRF10","GPIO":[448,1,450,1,450,449,1,1,449,32,448,224,1,1],"FLAG":0,"BASE":18}' 
+link: https://smile.amazon.com/dp/B0B1CKWV7K
+link2: 
+mlink: https://kaufha.com/srf10/
+flash: ota
+category: switch
+type: Switch
+standard: us
+---
