@@ -15,4 +15,6 @@ standard: global
 ---
 Tellur TLL331241 IR Blaster comes with the WR3E module, it can be easily changed to ESP12S (1:1 pin compatible). Just flash `tasmota-ir` to the ESP12S and change it.
 
-The pinouts are IRrecv=GPIO5, IRsend=GPIO4. The device also has a AHT10 temp/humid. sensor which I havent tinkered with yet.
+The pinouts are IRrecv=GPIO5, IRsend=GPIO4. The device also has a AHT10 temp/humid. sensor which is connected to a MCU. However it can be directly soldered
+to the ESP (on 2 free GPIOs) and used without problems (via I2C, requires custom build with ATH10x support). For this the legs 7+8 (counted from top of right side) of the MCU which are connected to the AHT10 have to be cut (see picture).
+[![20220522-122940.jpg](https://i.postimg.cc/526rvC2w/20220522-122940.jpg)](https://postimg.cc/0z1Z1rmQ)
