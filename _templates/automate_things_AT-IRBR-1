@@ -2,7 +2,7 @@
 date_added: 2022-02-17
 title: Automate Things IR Bridge
 model: AT-IRBR v1.0
-image: /assets/images/automate_things_AT-IRBR-1.jpg
+image: /assets/images/autoate-things_AT_IRBR-13.jpeg
 template9: '{"NAME":"AT-IRBR-1.0","GPIO":[0,0,0,0,1056,1088,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://ir-bridge.automate-things.co.uk/
 link2: https://www.tindie.com/products/automate-things/ir-bridge/
