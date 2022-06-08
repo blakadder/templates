@@ -3,7 +3,7 @@ date_added: 2022-06-02
 title: Xunata Led Controller High Voltage 110/220V
 model: KL-LED-WIFI-AC-3
 image: /assets/images/xunata_KL-LED-WIFI-AC-3.jpg
-template9: '{"NAME":"KL-LED-WIFI-AC","GPIO":[0,0,0,0,0,0,0,0,0,3872,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"KL-LED-WIFI-AC","GPIO":[0,0,0,0,0,0,0,0,0,416,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005003322196954.html
 link2: 
 mlink: 
@@ -12,11 +12,11 @@ category: light
 type: LED Controller
 standard: [eu, uk, us, au]
 ---
-Sold by various dealers on aliexpress - usually "Xunata" branded. Its a high power controller, the output side is AC 110/220V (please be careful!). Its tuya compatible and includes an IR remote controller.
+Sold by various dealers on aliexpress - usually "Xunata" branded. Its a high power controller, the output side is AC 110/220V (please be careful!). Its tuya compatible and includes an IR remote controller (GPIO15).
 
 Case can be opened by prying carefully on the sides and corners without damage (its not glued, just very tight fit in the corners - use plastic pick or similar tool).
 PCB (labeled KL-LED-WIFI-AC-3) contains a unkown chip (advertised as tuya compatible) with no label/markings on silver shield. Bottom of chip reads "XH-006F" which apparently is made by sparkleiot and seems to be a arm cortex M4 variant. This chip needs to be replaced with a ESP12S (or F), which is pin compatible. I didnt use a heat gut here since the PCB is very dense populated and i didnt want to damage things - its possible with just a solder iron and solder wick (takes time...).
-Once replaced its neccessary to cut a PCB trace since the design pulls GPIO15 up preventing the ESP from boot. I did cut this near the the top right corner, which was easy.
+Once replaced its neccessary to cut a PCB trace since the design pulls GPIO15 up preventing the ESP from boot (this is the IR receiver PIN). I did cut this near the the top right corner, which was easy.
 (Hint: use kapton tape before soldering and isolate GPIO15).
 
 Once done the PWM for controlling the LED strip is GPIO13 and can be used without problems. The PCB includes a IR receiver - details are unknown - it might be on some of the GPIOs and usable.
@@ -24,12 +24,10 @@ Once done the PWM for controlling the LED strip is GPIO13 and can be used withou
 Pictures:
 
 PCB before change:
-https://i.postimg.cc/HnbfCLVS/20220601-153654.jpg
+[![20220601-153654.jpg](https://i.postimg.cc/HnbfCLVS/20220601-153654.jpg)](https://postimg.cc/RJVP741f)
 PCB underside before change:
-https://i.postimg.cc/DZ9tDGyJ/20220601-154014.jpg
+[![20220601-154014.jpg](https://i.postimg.cc/DZ9tDGyJ/20220601-154014.jpg)](https://postimg.cc/k6y1RBSq)
 PCB without chip:
-https://i.postimg.cc/ryW64fQS/20220601-170925.jpg
+[![20220601-170925.jpg](https://i.postimg.cc/ryW64fQS/20220601-170925.jpg)](https://postimg.cc/149Yhrxt)
 PCB with ESP12S and cut trace (near SMD LED from ESP12S):
-https://i.postimg.cc/TYVXztbR/20220601-182614.jpg
-
-"
+[![20220601-182614.jpg](https://i.postimg.cc/TYVXztbR/20220601-182614.jpg)](https://postimg.cc/crLjYMTj)
