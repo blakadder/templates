@@ -1,0 +1,16 @@
+---
+date_added: 2022-06-07
+title: Moes Tuya Remote Control
+model: UFO-R6
+image: /assets/images/moes_UFO-R6.jpg
+template: '{"NAME":"Moes IR Controller","GPIO":[255,255,255,255,255,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.aliexpress.com/item/32994170751.html
+link2: 
+mlink: 
+flash: replace
+category: misc
+type: IR Controller
+standard: global
+chip: WB3S
+---
+Since early 2022 Moes IR Controller is sent with WB3S chip, which is not compatible with Tasmota. But you can replace the chip with a ESP12 (or similar). After replacing the chip, you must solder/close pins GPIO15 and GND together

@@ -1,0 +1,15 @@
+---
+date_added: 2022-05-28
+title: IOT4 Environmental 
+model: IOT4SH01BME680
+image: /assets/images/IOT4SH01BME680.jpg
+template9: '{"NAME":"IOT4SH01BME680","GPIO":[0,0,0,0,0,0,0,0,640,0,608,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://iot4.eu/product/iot4sh01bme680/
+link2: 
+mlink: https://iot4.eu/product/iot4sh01bme680/
+flash: serial
+category: sensor
+type: Sensor
+standard: eu
+---
+Open device (2 screws). On the PCB there is a header labeled "P1" which exposes connections for VCC, GND, TX and RX. Flash as usual with tamota-sensors.

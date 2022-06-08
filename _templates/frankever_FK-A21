@@ -1,0 +1,18 @@
+---
+date_added: 2022-06-04
+title: Frankever A21
+model: FK1-A210
+image: /assets/images/frankever_FK-A21.jpg
+template9: '{"NAME":"FrankEver RGBW Bulb","GPIO":[0,1,5729,2272,1,2304,0,0,832,3008,896,3040,256,0],"FLAG":0,"BASE":27}' 
+link: https://www.amazon.com/gp/product/B07KF6LMJR/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: [e27, e26]
+---
+I was only able to try the 10W version.  I used the following websites to reverse engineer this solution. The bulb uses a Tuya board and it brought me to the Open Light specs. Using the AiLight as a base, I was able to match up the GPIO assignments. 
+
+[Schematic](https://d33wubrfki0l68.cloudfront.net/7f07d8a0b42f65fd93655ac9f2d77f14baf27cad/ec9e1/post/ailight-hackable-rgbw-light-bulb/images/1024px-noduino-open-light-v2.4-sch.png)
+
