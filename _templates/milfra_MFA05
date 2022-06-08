@@ -12,4 +12,4 @@ category: switch
 type: Switch
 standard: us
 ---
-Motion sensor can be decoupled and used to just show presence detection and not trigger the light if you'd like.
+Motion sensor can be decoupled and used to just show presence detection and not trigger the light if you'd like using SetOption114.
