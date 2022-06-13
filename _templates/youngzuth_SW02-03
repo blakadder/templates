@@ -11,4 +11,4 @@ template: '{"NAME":"SW02 3W","GPIO":[56,0,0,19,23,18,0,0,17,21,0,22,0],"FLAG":0,
 link2: 
 unsupported: true
 ---
-Edit 08/28/2021 : Purchased from Amazon, and unit has a (unsupportable) WB3S inside. It may be possible to swap this module with a  ESP-12, but has not been tested.
+Edit 06//13/2022: Purchased from Amazon. The unit has an unsupported WB3S microcontroller. It is possible to swap with an ESP-12 module but the top red/ blue light for the WiFi connection status will not work. This LED would require input ADC0 to be able to be configured as an output. As a workaround, after cutting the trace to ADC0 and routing this trace to GPIO2 it is possible to use this LED.
