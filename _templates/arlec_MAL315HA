@@ -1,6 +1,6 @@
 ---
 date_added: 2021-04-18
-title: Arlec Smart Security Light
+title: Arlec Smart Security 
 model: MAL315HA
 image: /assets/images/arlec_MAL300H.jpg
 template: '{"NAME":"Arlec MAL315HA","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
