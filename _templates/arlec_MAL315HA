@@ -16,15 +16,21 @@ standard: au
 
 ## Features
 
-- Light duration: How long in seconds the light stays on after motion is detected. From user manual: min 10 sec to max 15 min.
+Light duration: How long in seconds the light stays on after motion is detected. From user manual: min 10 sec to max 15 min.
 
-- Sensitivity adjustment (amount of movement required to trigger): Min = most sensitive, max = only detect large motion.  To tune, start with at minimum, and have someone move while increasing sensitivity.
+Sensitivity adjustment (amount of movement required to trigger): 
+  - Min = most sensitive
+  - max = only detect large motion.  
+To tune, start with at minimum, and have someone move while increasing sensitivity
 
-- Light level (lux adjustment): Min = day or night, max = night only.  For normal operation, adjust appropriately (e.g.: wait until the time of day, set sensitivity to most sensitive, lux to max, and while someone walks around reduce lux threshold until it triggers).
+Light level (lux adjustment): 
+  - Min = day or night 
+  - max = night only
+For normal operation, adjust appropriately (e.g.: wait until the time of day, set sensitivity to most sensitive, lux to max, and while someone walks around reduce lux threshold until it triggers).
 
-- Automatic and manual override mode.
+Automatic and manual override mode.
 
-- One hour countdown to revert from manual to auto. To use, set to manual mode then activate countdown.
+One hour countdown to revert from manual to auto. To use, set to manual mode then activate countdown.
 
 
 ## Configuration
