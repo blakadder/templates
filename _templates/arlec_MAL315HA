@@ -7,7 +7,8 @@ template: '{"NAME":"Arlec MAL315HA","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG
 link: https://www.bunnings.com.au/arlec-20w-grid-connect-smart-security-light-with-movement-activated-sensor_p0223575
 link2: https://www.bunnings.co.nz/arlec-20w-grid-connect-smart-security-light-with-movement-activated-sensor_p0223575
 mlink: 
-flash: Tuya WB3S
+flash: replace
+chip: WB3S
 category: light
 type: Light
 standard: au
