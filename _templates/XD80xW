@@ -7,8 +7,7 @@ type: Aroma Diffuser
 standard: global
 template9: '{"NAME":"XD800W","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
 image: /assets/images/XD80xW.jpg
-link: https://www.aliexpress.com/item/33025385597.html
-link2: https://www.banggood.com/XD805W-Smart-Ultrasonic-Humidifier-400ml-Essential-Oil-Aromatherapy-Machine-for-Home-Bedroom-Office-p-1615958.html
+link: https://www.banggood.com/XD805W-Smart-Ultrasonic-Humidifier-400ml-Essential-Oil-Aromatherapy-Machine-for-Home-Bedroom-Office-p-1615958.html
 ---
 
 Models are marked as 802W to 808W there is just different top cover.
