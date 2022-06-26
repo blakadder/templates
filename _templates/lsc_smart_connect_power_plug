@@ -5,7 +5,8 @@ model: 970760.1 v2.0
 image: https://www.action.com/globalassets/cmsarticleimages/79/98/2578685_8712879142782-111.png
 template: '{"NAME":"LSC Smart Plug","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-stekker-/
-link2: 
+link2: https://www.bol.com/nl/nl/p/smart-connect-slimme-stekker-wifi-slim-stekker-huis-gratis-verzenden/9300000104758668/
+link3: https://www.bol.com/nl/nl/p/lsc-smart-connect-slimme-stekker/9300000037692221/
 mlink: 
 flash: tuya-convert
 category: plug
