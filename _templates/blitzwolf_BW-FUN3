@@ -4,9 +4,7 @@ title: BlitzWolf 400ml
 model: BW-FUN3
 image: /assets/images/blitzwolf_BW-FUN3.jpg
 template9: '{"NAME":"BW-FUN3","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
-link: https://www.banggood.com/BlitzWolf-BW-FUN3-Wi-Fi-Essential-Oil-Diffuser-Ultrasonic-Aromatherapy-Humidifier-APP-Control-Amazon-Alexa-Google-Home-Control-with-7-Colorful-Light-p-1626718.html
-link2: https://www.amazon.de/dp/B085T41ZMM
-link3: https://www.aliexpress.com/item/4000640257229.html
+link:
 mlink: 
 flash: tuya-convert
 category: misc
