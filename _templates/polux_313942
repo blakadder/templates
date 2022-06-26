@@ -4,8 +4,7 @@ title: Polux UFO RGBCCT 48W
 model: 313942
 image: /assets/images/polux_313942.jpg
 template9: '{"NAME":"Polux 313924","GPIO":[0,0,0,0,416,417,0,0,418,419,420,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://allegro.pl/oferta/plafon-wi-fi-smart-led-48w-tuyasmart-polux-10942449714
-link2: 
+link: 
 mlink: https://www.sanico.com.pl
 flash: serial
 category: light
