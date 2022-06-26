@@ -26,5 +26,5 @@ To operate the unit as a roller shutter switch, the following commands should be
 It is possible to flash the unit serial method using an USB-TTL adapter.
 The I/O wiring endpoints are available in the images below, no soldering is required.
 
-![](https://i.ibb.co/n30wdSj/BW-SS6-wiring.jpg)
-![](https://i.ibb.co/zSvpJxL/BW-SS6-IO.jpg)"
+![](/assets/images/BW-SS6-wiring.jpg)
+![](/assets/images/BW-SS6-IO.jpg)
