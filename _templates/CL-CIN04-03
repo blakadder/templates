@@ -1,0 +1,15 @@
+---
+date_added: 2022-06-27
+title: CIN04 240W
+model: CL-CIN04-03
+image: /assets/images/CL-CIN04-03.jpg
+template9: '{"NAME":"CIN04-03 Strip","GPIO":[0,0,0,0,416,0,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B09C83M5RR
+link2: 
+mlink: https://www.cl-light.com/productdetail_controller_en21.html
+flash: serial
+category: light
+type: LED Controller
+standard: global
+chip: TYWE3S
+---
