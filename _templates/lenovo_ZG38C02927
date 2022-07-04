@@ -16,7 +16,9 @@ I bought this sensor off AliExpress, it came with a sticker hiding the Lenovo br
 
 Warning: Wi-Fi sensors still have a slow response time compared to always on wired or zigbee ones. This will not work in critical locations where a fast response is needed. This sensor has the benefit of being rechargeable.
 
-Identified with MCU Product ID: `{"p":"105awlczxldrrpfc","v":"1.0.0"}`
+Identified with MCU Product ID: `{"p":"105awlczxldrrpfc","v":"1.0.0"}
+
+Newer units seem to have a different MCU Product ID: {"p":"uyur1jz3azqoare6","v":"1.0.0"}
 
 ## Flashing
 To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/install/tree/main/firmware/unofficial), compiled from current development release. Flash at your own risk. Tuya-Convert was not possible due to new PSK used.
@@ -44,8 +46,10 @@ TuyaMCU 51,51
 ```
 Check with `TuyaMCU` for the following configuration:
 ```json
- {"TuyaMCU":[{"fnId":11,"dpId":1},{"fnId":51,"dpId":21}]}
+ {"TuyaMCU":[{"fnId":11,"dpId":1},{"fnId":51,"dpId":51}]}
 ```
+
+Finally, [configure it to connect to a MQTT server](https://tasmota.github.io/docs/MQTT/): 
 
 ## Functions
 When it detects motion it boots up Tasmota then puts the PIR sensor in non-detect mode for around 30 seconds which means there will be no motion triggers during that time.
