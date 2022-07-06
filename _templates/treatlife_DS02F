@@ -56,7 +56,7 @@ This will monitor TuyaMCU messages for changes to the speed of the fan and publi
   - platform: mqtt
     name: "TreatLife Fan"
     state_topic: "stat/%topic%/RESULT"
-    state_value_template: "{{ value_json.POWER1 }}"
+    state_value_template: "{{ value_json.POWER }}"
     command_topic: "cmnd/%topic%/POWER1"
     payload_on: "ON"
     payload_off: "OFF"
