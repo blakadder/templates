@@ -1,0 +1,14 @@
+---
+date_added: 2022-07-05
+title: SmartVU Home 4AC 2USB 
+model: SHWSP4
+image: /assets/images/smartvu_SHWSP4
+template9: '{"NAME":"SHWSP4","GPIO":[0,288,0,32,224,225,0,0,227,228,226,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.smartvuhome.co.nz/SHWSP4
+link2: 
+mlink: https://www.smartvuhome.co.nz/SHWSP4
+flash: serial
+category: switch
+type: Power Strip
+standard: au
+---
