@@ -21,3 +21,5 @@ define USE_DISPLAY_TM1621_SONOFF
 ``` 
 
 Use the device button to enable flash mode. 
+
+Follow the [GitHub issue thread](https://github.com/arendst/Tasmota/issues/15856) for development updates

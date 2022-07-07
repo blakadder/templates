@@ -6,7 +6,7 @@ category: relay
 type: Switch Module
 standard: global
 flash: serial
-template32: '{"NAME":"Sonoff THR316D","GPIO":[32,0,0,0,225,9280,0,0,0,321,0,576,320,9184,9216,0,0,224,0,9248,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Sonoff THR316D","GPIO":[32,0,0,0,225,9280,0,0,0,321,0,576,320,9184,9216,0,0,224,0,9248,0,1,0,3840,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 image: /assets/images/sonoff_THR316D.jpg
 mlink: https://sonoff.tech/product/diy-smart-switch/th-elite/
 link: https://itead.cc/product/sonoff-th-elite-smart-temperature-and-humidity-monitoring-switch/
@@ -21,3 +21,5 @@ define USE_DISPLAY_TM1621_SONOFF
 ``` 
 
 Use the device button to enable flash mode. 
+
+Follow the [GitHub issue thread](https://github.com/arendst/Tasmota/issues/15856) for development updates
