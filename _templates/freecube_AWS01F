@@ -13,15 +13,13 @@ category: switch
 type: Switch
 standard: us
 ---
-2021-01-17
+#### 2021-01-17
 
 - New tuya firmware on device caused tuya-convert not to work. Purchased from link above on 1-10-2021. 
 - Switch does not have wifi cut-out on paddle for led in this version, just a horizontal slot cut-out. 
 - Flashed via serial, links to pin out pic below. TX/RX labeled on PCB.  
 
-![Pinout](https://cambridgeave.com/freecubepinout.jpg)
-
-2021-03-22
+#### 2021-03-22
 
 - Designed a small jig to help with flashing of the above-mentioned chip. Jig can be found [here](https://www.thingiverse.com/thing:4803049)
 - Small correction to the image above:
