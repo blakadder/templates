@@ -1,13 +1,14 @@
 ---
 date_added: 2021-04-18
-title: Arlec Smart Security Light
+title: Arlec Smart Security 
 model: MAL315HA
 image: /assets/images/arlec_MAL300H.jpg
 template: '{"NAME":"Arlec MAL315HA","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.bunnings.com.au/arlec-20w-grid-connect-smart-security-light-with-movement-activated-sensor_p0223575
 link2: https://www.bunnings.co.nz/arlec-20w-grid-connect-smart-security-light-with-movement-activated-sensor_p0223575
 mlink: 
-flash: Tuya WB3S
+flash: replace
+chip: WB3S
 category: light
 type: Light
 standard: au
@@ -15,15 +16,21 @@ standard: au
 
 ## Features
 
-- Light duration: How long in seconds the light stays on after motion is detected. From user manual: min 10 sec to max 15 min.
+Light duration: How long in seconds the light stays on after motion is detected. From user manual: min 10 sec to max 15 min.
 
-- Sensitivity adjustment (amount of movement required to trigger): Min = most sensitive, max = only detect large motion.  To tune, start with at minimum, and have someone move while increasing sensitivity.
+Sensitivity adjustment (amount of movement required to trigger): 
+  - Min = most sensitive
+  - max = only detect large motion.  
+To tune, start with at minimum, and have someone move while increasing sensitivity
 
-- Light level (lux adjustment): Min = day or night, max = night only.  For normal operation, adjust appropriately (e.g.: wait until the time of day, set sensitivity to most sensitive, lux to max, and while someone walks around reduce lux threshold until it triggers).
+Light level (lux adjustment): 
+  - Min = day or night 
+  - max = night only
+For normal operation, adjust appropriately (e.g.: wait until the time of day, set sensitivity to most sensitive, lux to max, and while someone walks around reduce lux threshold until it triggers).
 
-- Automatic and manual override mode.
+Automatic and manual override mode.
 
-- One hour countdown to revert from manual to auto. To use, set to manual mode then activate countdown.
+One hour countdown to revert from manual to auto. To use, set to manual mode then activate countdown.
 
 
 ## Configuration

@@ -1,0 +1,22 @@
+---
+date_added: 2022-06-28
+title: Melery MR16 
+model: WB006
+image: /assets/images/melery_WB006.jpg
+template9: '{"NAME":"Melery MR16 GU5.3","GPIO":[0,0,0,0,417,416,0,0,420,418,419,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001870937031.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: gu53
+---
+Pinout is:
+  - GPIO4: green
+  - GPIO5: red
+  - GPIO13: blue
+  - GPIO14: cold
+  - GPIO15: warm
+
+Chips on board are a TYWE2S; LEDs seem to be driven by a SM15133EK and two SLM211A."

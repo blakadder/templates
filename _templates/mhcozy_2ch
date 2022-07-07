@@ -1,0 +1,15 @@
+---
+date_added: 2022-06-13
+title: Mhcozy 5V 2 Channel
+model: 
+image: /assets/images/mhcozy_2ch.jpg
+template9: '{"NAME":"MHCOZY RF 2ch","GPIO":[32,0,0,0,0,225,33,0,224,320,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B089LHSKJ4/
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay Board
+standard: eu
+---
+Flash like this module: https://tonyfernandeztech.wordpress.com/2020/02/07/flashing-tasmota-on-an-mhcozy-wifi-relay-module-without-solder/

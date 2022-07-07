@@ -1,0 +1,15 @@
+---
+date_added: 2022-06-28
+title: RSmart
+model: RSTOM01BCO10A
+image: /assets/images/rsmart_RSTOM01BCO10A.jpg
+template9: '{"NAME":"RSmart Plug","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com.br/dp/B08D6X8FB5
+link2: 
+mlink: https://www.lojarsmart.com.br/tomada-smart-wifi-rsmart/
+flash: serial
+category: plug
+type: Plug
+standard: br
+---
+To flash, follow the instructions described on https://forum.homeassistantbrasil.com.br/t/configurando-uma-tomada-inteligente-padrao-brasileiro-com-tasmota/1466

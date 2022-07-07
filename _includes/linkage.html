@@ -49,7 +49,7 @@
 {% elsif link contains "geekbuying.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://www.shareasale.com/r.cfm?b=371154&u=2442238&m=38812&urllink=" }}
 {% elsif link contains "itead.cc" %}
-{{ link | remove_first: 'https://' | uri_escape | prepend: "https://www.shareasale.com/r.cfm?b=829657&u=2442238&m=63930&urllink=" }}
+{{ link | append: "/ref/34/" }}
 {% elsif link contains "avatarcontrols.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://www.shareasale.com/r.cfm?b=1651554&u=2442238&m=102746&urllink="  }}
 {% elsif link contains "treatlife" %}

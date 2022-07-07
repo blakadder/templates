@@ -174,19 +174,19 @@ layout: default
   {% endif %}
 
   {% if page.chip == "solo1" %}
-    Flash only with <a href="http://ota.tasmota.com/tasmota32/release/tasmota32solo1.bin"><code>tasmota32solo1.bin</code></a> build for ESP32-SOLO-1. 
+    Flash only with ESP32-SOLO1 <code>tasmota32solo1...</code></a> binaries. 
     <br><br>
     <p>
   {% endif %}
   
   {% if page.templatec3 != nil or page.chip == "c3" %}
-    Flash only with ESP32-C3 `tasmota32c3...` binaries. 
+    Flash only with ESP32-C3 <code>tasmota32c3...</code> binaries. 
     <br><br>
     <p>
   {% endif %}
 
   {% if page.templates2 != nil or page.chip == "s2" %}
-    Flash only with ESP32-S2 `tasmota32s2...` binaries.
+    Flash only with ESP32-S2 <code>tasmota32s2...</code> binaries.
     <br><br>
     <p>
   {% endif %}
@@ -327,6 +327,12 @@ layout: default
 
   {% if page.title contains 'Moes' %}
   <strong>Use code <code>BLAKADDER</code> when buying from <a href="https://www.moeshouse.com/?ref=v4thya2eufek">moeshouse.com</a> store for a 20% discount.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'Linkind' %}
+  <strong>Use code <code>LKS15</code> when buying from <a href="https://shareasale.com/r.cfm?b=2081732&u=2442238&m=101126&urllink=&afftrack=">linkind.com</a> store for a 15% discount and free shipping.</strong>
   <br><br>
   <p>
   {% endif %}
