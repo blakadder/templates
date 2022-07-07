@@ -15,11 +15,6 @@ link2: https://www.aliexpress.com/item/1005004450591007.html
 
 ***Support for this device is still in development, there might be bugs!***
 
-For display support compile a tasmota32 build with:
-```arduino
-define USE_DISPLAY_TM1621_SONOFF
-``` 
-
 Use the device button to enable flash mode. 
 
 Follow the [GitHub issue thread](https://github.com/arendst/Tasmota/issues/15856) for development updates
