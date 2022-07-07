@@ -1,5 +1,5 @@
 ---
-date: 2022-07-07
+date_added: 2022-07-07
 title: Martin Jerry Single Pole On/Off
 model: US-SS01
 category: switch
@@ -7,5 +7,5 @@ type: Switch
 standard: us
 flash: preflashed
 link: https://www.amazon.com/gp/product/B0B2RLKRJB
-image: /assets/images/martin-jerry-US-SS01
+image: /assets/images/martin-jerry-US-SS01.jpg
 ---
