@@ -56,11 +56,11 @@ The user pins labelled on the board are set up as `User` pins in the template, a
 
 | Label | GPIO |
 | ----- | ---- |
-| `A0` | `GPIO15` |
-| `A1` | `GPIO4` |
+| `A0` | `GPIO26` |
+| `A1` | `GPIO25` |
 | `A2` | `GPIO27` |
-| `A3` | `GPIO26` |
-| `SDA` | `GPIO25` |
+| `A3` | `GPIO15` |
+| `SDA` | `GPIO4` |
 | `SCL` | `GPIO33` |
 | `TX` | `GPIO32` |
 | `RX` | `GPIO7` |
