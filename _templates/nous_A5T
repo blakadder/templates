@@ -39,9 +39,10 @@ The three buttons for the power outlets are all connected to the analog-to-digit
 Unfortunately, the ADC can detect voltage differences only in a very small range of 1V. Even if newer ESP models accept up to 3,3 Volts, it is being scaled down to a maximum of 1V by a built-in voltage divider. Moreover, with about each 100ms the ADC is being read very frequently by Tasmota, which may sometimes cause reading additional and misleading voltage values from the moment when a button gets pressed or released.
 
 Both issues may make this method of button detection very sensible to one of the following problems that may occur from time to time:
-- receiving voltage values do not match the pressed button, may result in toggling power for the wrong power outlet and/or
 
-- inference from other power cables or electronic devices may result in the simulation of a button press
+* receiving voltage values do not match the pressed button, may result in toggling power for the wrong power outlet and/or
+* inference from other power cables or electronic devices may result in the simulation of a button press
+
 ### Workaround with standard Tasmota build
 
 With a standard build of Tasmota (tasmota.bin) like the preinstalled one, you can work around both problems by disabling the buttons for the power outlets, while the main button still will be able to toggle power for the USB ports.
@@ -76,7 +77,7 @@ With that configuration,
   - they need to be pressed up to a second, until the relay click can be heard, safely toggling power for the correct outlet
   - after release of a button having just toggled power, the very same button can only be used some splits of a second later
 
-Configure and activate the following <details><summary><font color=lightblue>Tasmota script for Nous A5T Power Strip &nbsp;<font size=-1>(click to view)</font></font></summary>
+Configure and activate the following *Tasmota script for Nous A5T Power Strip*:
 
 ```
 >D
@@ -116,8 +117,6 @@ if (adc<1024) {
 }
 ```
 
-</details>
-
 ### Creating a custom Tasmota build with Script Engine
 
 For details on creating a custom build see
@@ -128,6 +127,7 @@ In order to activate the script engine,
 - the script engine has to be activated.
 
 When compiling the firmware directly from the source code, for that the following configuration change has to be applied to ```tasmota\my_user_config.h```: in the section **Rules or Script**
+
 1) comment out the definition of the symbol for including the rules engine:
 ```
         // #define USE_RULES
