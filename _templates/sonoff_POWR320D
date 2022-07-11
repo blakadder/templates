@@ -13,8 +13,6 @@ link: https://itead.cc/product/sonoff-pow-elite-smart-power-meter-switch/ref/3/
 link2: https://www.aliexpress.com/item/32862735913.html
 ---
 
-***Support for this device is still in development, there might be bugs!***
-
 Use the device button to enable flash mode. 
 
 Follow the [GitHub issue thread](https://github.com/arendst/Tasmota/issues/15856) for development updates
