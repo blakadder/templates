@@ -11,3 +11,131 @@ category: plug
 type: Power Strip
 standard: eu
 ---
+## Updating to a new Tasmota version
+The product may come with a Tasmota build that is either outdated or may even not work properly in all aspects.
+
+The following problems have e.g. been reported for a product coming with Tasmota 10.1.0, and disappeared after having updated to Tasmota 12.0.2:
+*   the information screen was empty
+*   the template configuration screen showed no configuration data
+*   the console stayed empty
+
+If the firmware upate screen offers an update URL fo an Over-The-air (OTA) Update, an update to the newest version of Tasmota should be possible. Make sure to upload `tasmota.bin.gz`
+
+According to a statement of the product support an upgrade to a new version is part of the product concept and the product is still covered by the manufacturers and vendors warranty.
+
+See also:
+*    [Tasmota Wiki: Upgrading](https://tasmota.github.io/docs/Upgrading/)
+
+## Experiencing problems with the power outlet buttons
+
+Some users experienced one of or both of the following problems with the buttons for each of the power outlets:
+* when pressing the button for outlet 2, sometimes power for outlet 1 is toggled instead
+* when pressing the button for outlet 3, sometimes power for outlet 1 or outlet 2 is toggled instead, sometimes even for outlet 1 and 2 together
+* rarely the power for an outlet is being toggled without that the respective button had been pressed
+
+### The problem cause
+The three buttons for the power outlets are all connected to the analog-to-digital converter (ADC) of the ESP chip, each with a resistor of different value. When being pressed, each button delivers a different voltage to the ADC. By querying a percentage value of the voltage detection range, Rule2 determines which button has been pressed.
+
+Unfortunately, the ADC can detect voltage differences only in a very small range of 1V. Even if newer ESP models accept up to 3,3 Volts, it is being scaled down to a maximum of 1V by a built-in voltage divider. Moreover, with about each 100ms the ADC is being read very frequently by Tasmota, which may sometimes cause reading additional and misleading voltage values from the moment when a button gets pressed or released.
+
+Both issues may make this method of button detection very sensible to one of the following problems that may occur from time to time:
+
+* receiving voltage values do not match the pressed button, may result in toggling power for the wrong power outlet and/or
+* inference from other power cables or electronic devices may result in the simulation of a button press
+
+### Workaround with standard Tasmota build
+
+With a standard build of Tasmota (tasmota.bin) like the preinstalled one, you can work around both problems by disabling the buttons for the power outlets, while the main button still will be able to toggle power for the USB ports.
+
+For this, execute the following command in the console:
+```
+Rule2 0
+```
+After that power for the outlets can only be toggled remotely by the web interface or with respective MQTT commands.
+
+In order to revert to the original configuration, execute the following command in the console:
+```
+Rule2 1
+```
+
+If you only experience power toggles without having pressed a button, in order to avoid interference, you may want to try to find a place for the power strip where no other power cables or electronic devices are very near to it.
+
+### Workaround with custom Tasmota build
+With a custom Tasmota build, you can use Tasmota Script to safely support all buttons and minmize impact by interferences.
+
+The main improvement is that with a script it is possible to read the ADC value not every 100ms, but only every second instead. This prevents from reading additional and/or misleading voltage values.
+
+See the section on custom builds below for information on how to create your own custom Tasmota build with script engine.
+
+In order to achive about the original functionality for all buttons, the following is neccessary when using a custom build with Tasmota Script:
+- a Tasmota Script has to be configured an activated (see below), and
+- the main button needs to be decoupled from controlling power outputs by once executing the command ```SetOption73 1``` in the console. By this the main button only generates MQTT events, which in turn are being processed by the script.
+
+With that configuration,
+- the main power button, as usual, just toggles power fo the USB ports.
+- the buttons for the power outlets work a littlebit different:
+  - they need to be pressed up to a second, until the relay click can be heard, safely toggling power for the correct outlet
+  - after release of a button having just toggled power, the very same button can only be used some splits of a second later
+
+Configure and activate the following *Tasmota script for Nous A5T Power Strip*:
+
+```
+>D
+adc=0
+btnact="NONE"
+lastbtn=0
+
+; catch button action
+>E
+btnact=Button1#Action
+
+; loop every 100ms
+>F
+if (btnact=="SINGLE") {
+  btnact="NONE"
+  ->Power4 2
+}
+
+; loop every second
+>S
+adc=adc(1)
+if (adc<1024) {
+  if (adc>613 and lastbtn!=1) {
+    ->Power1 2
+    lastbtn=1
+  }
+  if (adc<=613 and adc>353 and lastbtn!=2) {
+    ->Power2 2
+    lastbtn=2
+  }
+  if (adc<=353 and lastbtn!=3) {
+    ->Power3 2
+    lastbtn=3
+  }
+} else {
+  lastbtn=0
+}
+```
+
+### Creating a custom Tasmota build with Script Engine
+
+For details on creating a custom build see
+- [Tasmota Wiki: Compiling your build](https://tasmota.github.io/docs/Compile-your-build/)
+
+In order to activate the script engine,
+- the rules engine has to be deactivated and
+- the script engine has to be activated.
+
+When compiling the firmware directly from the source code, for that the following configuration change has to be applied to ```tasmota\my_user_config.h```: in the section **Rules or Script**
+
+1) comment out the definition of the symbol for including the rules engine:
+```
+        // #define USE_RULES
+```
+2) remove comment characters before the definition of the symbol for including the script engine:
+```
+        #define USE_SCRIPT
+```
+
+If using other build methods like e.g. [GitPod](https://tasmota.github.io/docs/Gitpod/) or [TasmoCompiler]([https://github.com/benzino77/tasmocompiler), you have to take equivalent actions.
+

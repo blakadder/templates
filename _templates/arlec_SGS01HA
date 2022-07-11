@@ -79,7 +79,7 @@ var sensorHubID     = Data.substr(0,12)
 // Extract the Sensor Data Values
 var CmndData        = payload.TuyaReceived.CmndData;
 var updateID        = CmndData.substr(0,6);     // Each sensor+battery update shares this string
-var sensorNumber    = parseInt(CmndData.substr(6,2));
+var sensorNumber    = parseInt(CmndData.substr(6,2),16);
 var sensorType      = CmndData.substr(8,6);
 var sensorValue     = CmndData.substr(14);
 
