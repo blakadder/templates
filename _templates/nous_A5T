@@ -79,7 +79,7 @@ With that configuration,
 
 Configure and activate the following *Tasmota script for Nous A5T Power Strip*:
 
-```
+```haskell
 >D
 adc=0
 btnact="NONE"
