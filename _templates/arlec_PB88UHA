@@ -14,9 +14,9 @@ link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-4-outlet-powerboard-w
 chip: TYWE2S
 ---
 
-## Warning
+## INCOMPATIBLE HARDWARE WARNING!
 
-The current version sold at Bunnings now ship with the WB2S module which is not compatible with Tasmota.
+The current version sold at Bunnings now ships with the WB2S module which is not compatible with Tasmota.
 
 ## Serial Flashing
 
