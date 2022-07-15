@@ -6,7 +6,7 @@ category: relay
 type: Switch Module
 standard: global
 flash: serial
-template32: '{"NAME":"Sonoff POWR320D","GPIO":[32,0,9312,0,9313,576,0,0,0,0,9280,0,3104,0,320,0,0,0,0,0,0,9184,9248,9216,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'            
+template32: '{"NAME":"Sonoff POWR320D","GPIO":[32,0,9313,0,9312,576,0,0,0,0,9280,0,3104,0,320,0,0,0,0,0,0,9184,9248,9216,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'            
 image: /assets/images/sonoff_POWR320D.jpg
 mlink: https://sonoff.tech/product/diy-smart-switch/pow-elite/
 link: https://itead.cc/product/sonoff-pow-elite-smart-power-meter-switch/ref/3/
