@@ -3,7 +3,7 @@ date_added: 2021-12-02
 title: Sinilink USB Computer Remote
 model: XY-WPCL
 image: /assets/images/sinilink_XY-WPCL.jpg
-template9: '{"NAME":"XY-WPCL","GPIO":[1,1,320,1,32,224,0,0,160,0,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO114 1 | SwitchMode1 2"}' 
+template9: '{"NAME":"XY-WPCL","GPIO":[0,0,320,0,0,224,0,32,160,0,0,0,0,0],"FLAG":0,"BASE":18, "CMND":"SO114 1 | Pulsetime 10 | SwitchMode1 2"}' 
 link: https://www.aliexpress.com/item/1005003226261034.html
 link2: https://www.banggood.com/XY-WPCL-Wireless-WIFI-PC-Remote-Switch-Controller-Computer-Remote-Switch-Controller-Wireless-WIFI-Smart-Controller-Timing-Delay-Reboot-p-1897337.html
 mlink: 
@@ -17,4 +17,13 @@ It is possible to use solid core 24 AWG wires to make the connection without nee
 
 ![Pinout](/assets/images/sinilink_XY-WPCL_pinout.jpg)
 
+## Configuration
+The Relay must we toggle from off-on-off not lock on on state, mine stayed on long time triggering the shutdown the computer again by long press 'power button', that why i added "Pulsetime 10" (it's my first time i don't known if i doing it right but works)
+
+For check if is powered the Switch1/binary sensor is used since the button will go back to off, remember computer power on is a push button.
+
+In my case, the usb powered version, that binary version is related/detected with the 'power led' signal and works but not turn on/off the power led of my computer box, i not fix that yet since i don't known how to fix, but it's a minor problem compared with current template that not work.
+
 Switch1 is detached and is used to monitor power status of the PC. It will be discovered as a binary sensor in Home Assistant.
+
+See [issue #1472](https://github.com/blakadder/templates/issues/1472) for Home Assistant YAML configuration
