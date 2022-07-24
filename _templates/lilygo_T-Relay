@@ -13,4 +13,4 @@ type: Relay Board
 standard: global
 ---
 
-Board cannot be flashed via the USB port without a USB to serial adapter.
+Board cannot be flashed via the USB port without the LilyGO (T-U2T) USB to serial adapter.
