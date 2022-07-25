@@ -3,7 +3,7 @@ date_added: 2020-07-26
 title: Zemismart
 model: WF-CS01
 image: /assets/images/zemismart_WF-CS01.jpg
-template: '{"NAME":"Zemismart","GPIO":[544,0,289,162,290,161,0,0,160,224,226,225,288,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Zemismart","GPIO":[544,0,289,162,290,161,0,0,160,224,226,225,288,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32996793753.html
 link3: https://www.amazon.it/gp/product/B07CVC3J8G/
 link2: https://www.aliexpress.com/item/32838165941.html
