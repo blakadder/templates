@@ -26,6 +26,18 @@ According to a statement of the product support an upgrade to a new version is p
 See also:
 *    [Tasmota Wiki: Upgrading](https://tasmota.github.io/docs/Upgrading/)
 
+## Flash using serial interface
+
+The same product is also sold under different brands without tasmota preinstalled. The OEM for these power strips is ShenZhen CUCO Smart Technology Co., LTD. 
+To flash tasmota using the serial cable you first need to remove the back of the product. To do so pop out the rubber pads on the back to uncover all six screws. 
+Unscrew the screws using a triangle head screwdriver. After that it is possible to pry out the back using a small flat screwdriver.
+
+The power strip usually uses a CUCO_Z0_V1.1 ESP8266. The serial pins and the GPIO100 pin are all labeled on the PCB, if not you can find a picture [here](https://tasmota.github.io/docs/Pinouts/#cuco-z0-v11-used-by-gosund).
+
+See also:
+*    [Tasmota Wiki: Hardware Preperation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation
+*    [Tasmota Wiki: Flashing](https://tasmota.github.io/docs/Getting-Started/#flashing)
+
 ## Experiencing problems with the power outlet buttons
 
 Some users experienced one of or both of the following problems with the buttons for each of the power outlets:
