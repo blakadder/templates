@@ -35,7 +35,7 @@ Unscrew the screws using a triangle head screwdriver. After that it is possible 
 The power strip usually uses a CUCO_Z0_V1.1 ESP8266. The serial pins and the GPIO100 pin are all labeled on the PCB, if not you can find a picture [here](https://tasmota.github.io/docs/Pinouts/#cuco-z0-v11-used-by-gosund).
 
 See also:
-*    [Tasmota Wiki: Hardware Preperation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation
+*    [Tasmota Wiki: Hardware Preperation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation)
 *    [Tasmota Wiki: Flashing](https://tasmota.github.io/docs/Getting-Started/#flashing)
 
 ## Experiencing problems with the power outlet buttons
