@@ -43,7 +43,9 @@ Both issues may make this method of button detection very sensible to one of the
 * receiving voltage values do not match the pressed button, may result in toggling power for the wrong power outlet and/or
 * inference from other power cables or electronic devices may result in the simulation of a button press
 
-### Workaround with standard Tasmota build
+### Workarounds with standard Tasmota build
+
+#### Disable buttons
 
 With a standard build of Tasmota (tasmota.bin) like the preinstalled one, you can work around both problems by disabling the buttons for the power outlets, while the main button still will be able to toggle power for the USB ports.
 
@@ -59,6 +61,29 @@ Rule2 1
 ```
 
 If you only experience power toggles without having pressed a button, in order to avoid interference, you may want to try to find a place for the power strip where no other power cables or electronic devices are very near to it.
+
+#### Create multiple rules with better threshold values
+
+You can also try to read back the values of the ADC using the webinterface and create rules with custom thresholds that match your values:
+
+```
+Rule1 on analog#a0<250 DO Power3 2 ENDON
+Rule1 1
+
+Rule2  on analog#a0<450 do break ON analog#a0<500 DO Power2 2 ENDON
+Rule2 1
+
+Rule3 on analog#a0<750 do break ON analog#a0<800 DO Power1 2 ENDON
+Rule3 1
+```
+
+To disable these custom rules use:
+
+```
+Rule1 0
+Rule2 0
+Rule3 0
+```
 
 ### Workaround with custom Tasmota build
 With a custom Tasmota build, you can use Tasmota Script to safely support all buttons and minmize impact by interferences.
