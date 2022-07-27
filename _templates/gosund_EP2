@@ -12,6 +12,8 @@ link2: https://www.banggood.com/Gosund-EP2-10A-Smart-WiFi-Plug-Mini-Electrical-O
 mlink: https://gosund.com/download/smart_plug/126.html
 flash: serial
 ---
+**UPDATE for Tuya-Convert in 2022 and modern Tuya Firmwares:** You can request an update to the 1.0.6 firmware version from the Gosund support (globalservice@gosund.com), the default 1.0.4 firmware still won't let you use Tuya-Convert. Once the new update is available for the EP2 and installed you can use Tuya-Convert just like usual again!
+
 **The Gosund EP2 is not easily opened as it contains no screws.**
 
 The best way of opening it is to work your way around the clear plastic insert with a pair of pliers gently until the glue finally gives up.
