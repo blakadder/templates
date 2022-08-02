@@ -4,9 +4,7 @@ title: Automate Things IR Bridge
 model: AT-IRBR v1.0
 image: /assets/images/autoate-things_AT_IRBR-13.jpeg
 template9: '{"NAME":"AT-IRBR-1.0","GPIO":[0,0,0,0,1056,1088,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"Module 0"}' 
-link: https://ir-bridge.automate-things.co.uk/
-link2: https://www.tindie.com/products/automate-things/ir-bridge/
-mlink: https://store.automate-things.co.uk
+link: https://automate-things.square.site/product/automate-things-ir-bridge-kit/3
 flash: serial
 category: misc
 type: IR Gateway
