@@ -1,0 +1,20 @@
+---
+date_added: 2022-08-01
+title: Sonoff iFan04-H 220V Light and Ceiling
+model: iFAN04-H
+category: relay
+type: Fan Controller
+standard: eu
+flash: serial
+template9: '{"NAME":"iFan04-H","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
+image: /assets/images/sonoff_iFan04-H.jpg
+mlink: https://sonoff.tech/product/wifi-diy-smart-switches/ifan03
+link: https://itead.cc/product/sonoff-ifan03-wi-fi-ceiling-fan-and-light-controller/
+link2: https://www.aliexpress.com/item/1005002994993238.html
+link3: https://www.banggood.com/SONOFF-IFAN04-H-AC-220-240V-433MHz-WiFi-Smart-Ceiling-Fan-and-Light-Controller-Works-with-Alexa-Google-Home-p-1935532.html
+link4: 
+---
+
+Largely identical to [iFan03](sonoff_ifan03) with capacitors designed for 220V-240V fans and an improved RF chip with better range
+
+Flashing procedure is the same, there are labelled pins required for flashing. Hold the button down during power up to enter flash mode.

@@ -1,0 +1,18 @@
+---
+date_added: 2022-07-22
+title: Sonoff TH Origin 20A
+model: THR320
+image: /assets/images/sonoff_THR320.jpg
+template9: '{"NAME":"Sonoff THR320","GPIO":[32,0,0,0,0,0,0,0,0,321,0,576,320,0,0,9312,0,0,9313,0,0,1,0,3840,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://itead.cc/product/sonoff-th/ref/3/
+link2: https://www.aliexpress.com/item/1005004473793143.html
+mlink: https://sonoff.tech/product/diy-smart-switch/th-origin/
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+
+Use the device button to enable flash mode. 
+
+Follow the [GitHub issue thread](https://github.com/arendst/Tasmota/issues/15856) for development updates

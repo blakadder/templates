@@ -1,0 +1,26 @@
+---
+date_added: 2022-07-20
+title: Coolseer 
+model: SK01WE
+image: /assets/images/coolseer_SK01WE.jpg
+template9: '{"NAME":"Coolseer Plug (SK01WE)","GPIO":[0,3200,0,7520,0,32,0,0,0,544,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.e-shop.gr/coolseer-wifi-socket-sk01we-16a-with-power-meter-p-PER.581500
+link2: 
+mlink: http://www.coolseer.com/NewsDetail/2239777.html
+flash: replace
+chip: CB2S
+category: plug
+type: Outdoor Plug
+standard: eu
+---
+1. [Template](https://i.imgur.com/ogIp8wd.jpeg)
+
+2. [PCB](https://i.imgur.com/fYIqYpZ.jpeg)
+
+3. [Original Module CB2S](https://i.imgur.com/qGAhtrK.jpeg)
+
+https://github.com/arendst/Tasmota/issues/14829
+
+Replaced the module with the [WT-01N](WT-01N)
+
+It has the BL0942 IC for energy metering. 
