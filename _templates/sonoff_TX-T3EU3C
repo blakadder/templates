@@ -27,7 +27,7 @@ Alongside standard Wi-Fi controls, TX series (with notable exception of the T0 l
 ## Serial Flashing
 ![](/assets/images/sonoff_TX-T3EU3Cd.jpg)
 
-After removing the front glass touch plate you have access to the touch PCB where GND, TX, RX and VCC pins are broken out and clearly labeled. On the backside of the board there is a pad labeled GPIO0 but I haven't been able to put the device into flash mode grounding it. Instead I resorted to the trusty method of grouding GPIO0 from the esp8266 chip directly. Never fails!
+After removing the front glass touch plate you have access to the touch PCB where GND, TX, RX and VCC pins are broken out and clearly labeled. On the backside of the board there is a pad labeled GPIO0. Soldering it to the serial ground pad will "press" the GPIO0 pin.
 
 ![PCB and pinout](/assets/images/sonoff_TX-T3EU3Cc.jpg)
 ![Flash mode procedure](/assets/images/sonoff_TX-T3EU3Cf.jpg)
