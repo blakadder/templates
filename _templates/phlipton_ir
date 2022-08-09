@@ -1,0 +1,15 @@
+---
+date_added: 2022-08-07
+title: Phlipton Universal Remote
+model: 
+image: /assets/images/phlipton_ir.jpg
+template9: '{"NAME":"Phliptron IR","GPIO":[1,3200,1,3232,576,1088,0,0,320,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
+link: https://www.amazon.in/gp/product/B09TXXN8CV
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: IR Controller
+standard: in
+---
+The device has a embedded ESP8266 chip. The round case does not have any screws, there are 4 clips holding the top and bottom to gether. Had to insert a sharp blade like object to open 1 clip after the other. TX, RX, 3.3v, GND and GPIO0 pads are labelled. Soldering jumper wires and flashing via serial can be done. Be careful not to move the wires after soldering as there is a risk of lifting the pads.
