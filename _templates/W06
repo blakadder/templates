@@ -11,7 +11,7 @@ flash: serial
 category: sensor
 type: Water Sensor
 standard: global
-chip: XR809
+chip: XR3
 unsupported: true
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
