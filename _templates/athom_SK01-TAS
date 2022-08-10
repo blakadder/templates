@@ -1,6 +1,6 @@
 ---
 date_added: 2022-08-10
-title: Athom 16A Israel
+title: Athom 
 model: KM01-TAS
 image: /assets/images/athom_SK01-TAS-1.jpg
 template9: '{"NAME":"Athom SK01","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}'
