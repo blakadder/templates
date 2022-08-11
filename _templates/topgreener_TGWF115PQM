@@ -8,6 +8,7 @@ link: https://www.amazon.com/gp/product/B07D8ZNNPZ/
 link2: 
 mlink: https://topgreener.com/product/square-smart-wi-fi-plug-in-10a-with-energy-monitoring-white/
 flash: tuya-convert
+unsupported: true
 category: plug
 type: Plug
 standard: us
