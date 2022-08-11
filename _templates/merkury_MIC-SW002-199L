@@ -1,0 +1,21 @@
+---
+date_added: 2022-07-13
+title: Merkury Innovations Smart Surge 
+model: MIC-SW002-199L
+image: /assets/images/merkury_MIC-SW002-199L.jpg
+template9: '{"NAME":"Merkury Power Strip MIC-SW002-199L","GPIO":[288,0,289,0,228,32,0,0,225,224,226,0,259,0],"FLAG":0,"BASE":18}' 
+link: https://www.walmart.ca/en/ip/merkury-innovations-smart-surge/6000197217059
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: us
+---
+Module is ESP8266, specifically ESP-12E ""TUYA"".  Pinouts readily available online or [here](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/).
+
+TUYA-CONVERT may work if you are lucky enough to have an old unit that didn't get a firmware update or newer module.  I used a serial connection and Tasmotizer.
+
+Make the serial connections and jumper GPIO0 to ground to enable flashing, before you apply power.  Once it's booted you can remove the jumper.
+
+Appears to be almost identical to the [MI-SW001-199](https://templates.blakadder.com/merkury_MI-SW001-199.html)

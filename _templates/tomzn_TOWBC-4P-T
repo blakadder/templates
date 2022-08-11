@@ -1,0 +1,18 @@
+---
+date_added: 2022-07-28
+title: TOMZN 4P 80A Circuit Breaker
+model: TOWBC-4P-T
+image: /assets/images/tomzn_TOWBC-4P-T.jpg
+template9: '{"NAME":"TOWBC-4P-T","GPIO":[288,0,0,0,0,0,0,0,32,224,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4001287993473.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: DIN Relay
+standard: global
+chip: TYWE3S
+---
+Four small philips screws are accesible from back side, no glue. PCB is screwed in with two small screws. 
+
+RX, TX, GND/GPIO0 and VCC have to be soldered directly to the corresponding pads on the PCB. 

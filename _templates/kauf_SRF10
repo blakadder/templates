@@ -7,7 +7,7 @@ template9: '{"NAME":"Kauf SRF10","GPIO":[448,1,450,1,450,449,1,1,449,32,448,224,
 link: https://smile.amazon.com/dp/B0B1CKWV7K
 link2: 
 mlink: https://kaufha.com/srf10/
-flash: ota
+flash: esphome
 category: switch
 type: Switch
 standard: us

@@ -1,0 +1,15 @@
+---
+date_added: 2022-08-10
+title: Athom 
+model: KM01-TAS
+image: /assets/images/athom_KM01-TAS.jpg
+template9: '{"NAME":"Athom Curtain Module","GPIO":[0,0,0,160,161,32,0,0,224,576,225,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO80 1 | ShutterMode 1 | SwitchDebounce 300 | ButtonDebounce 300"}'
+mlink: https://www.athom.tech/blank-1/tasmota-curtain-module
+link: https://www.aliexpress.com/item/1005004577649341.html
+link2: 
+flash: preflashed
+category: cover
+type: Curtain Module
+standard: global
+---
+

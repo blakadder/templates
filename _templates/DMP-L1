@@ -5,7 +5,7 @@ model: DMP-L1
 image: /assets/images/DMP-L1.jpg
 template9: '{"NAME":"DMP-L1","GPIO":[1,1,0,1,1,1,0,0,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
 template9_alt: '{"NAME":"DMP-L1 Light","GPIO":[1,1,0,1,419,418,0,0,416,420,417,1,1,1],"FLAG":0,"BASE":18}'
-link: https://www.aliexpress.com/item/4000113776503.html
+link: https://www.aliexpress.com/item/1005004476388175.html
 link2: https://www.amazon.com/dp/B08CN3KQJ5
 link3: https://www.banggood.com/DMP-L1-WiFi-Intelligent-Lighting-Module-Built-in-ESP-ESP8285-WiFi-Chip-Smart-Home-p-1422014.html
 link4: https://www.aliexpress.com/item/1005003690845216.html

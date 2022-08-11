@@ -1,0 +1,14 @@
+---
+date_added: 2022-08-10
+title: AiYaTo 12W 
+model: 
+image: /assets/images/aiyato_cw.jpg
+template9: '{"NAME":"AiYaTo CW","GPIO":[0,0,0,0,416,0,0,0,0,417,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004590453330.html
+link2: 
+mlink: 
+flash: esphome
+category: bulb
+type: CCT
+standard: E27
+---

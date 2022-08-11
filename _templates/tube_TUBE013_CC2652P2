@@ -7,7 +7,7 @@ template32: '{"NAME":"Tube ZB CC2652","GPIO":[0,0,0,3840,0,3584,0,0,0,0,0,0,5536
 link: https://www.tubeszb.com/product/cc2652_coordinator/1
 link2: 
 mlink: https://github.com/tube0013/tube_gateways
-flash: serial
+flash: esphome
 category: misc
 type: Zigbee Gateway
 standard: global

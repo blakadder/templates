@@ -1,6 +1,6 @@
 ---
 date_added: 2021-11-29
-title: Treatlife Dual Outdoor Dimmer
+title: Treatlife Dual Outdoor
 model: DP12
 image: /assets/images/treatlife_DP12.jpg
 template9: '{"NAME":"DP12","GPIO":[1,2272,1,2304,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"SO97 1 | TuyaMCU 11,1 | TuyaMCU 12,7 | TuyaMCU 21,2 | TuyaMCU 22,8 | SO20 1 | SO54 1"}' 
@@ -8,7 +8,7 @@ link: https://www.amazon.com/dp/B098DX5T92
 link2: 
 mlink: https://www.treatlife.tech/collections/smart-plug/products/treatlife-wifi-smart-outdoor-dimmer-plug-dp12-with-2-individual-control-sockets-compatible-with-alexa-google-home-ip64-outdoor-light-dimmer-for-string-lights-dusk-to-dawn-600w-2-4ghz-wifi-only-1-pack-copy-%E7%9A%84%E5%89%AF%E6%9C%AC
 flash: replace
-category: plug
+category: relay
 type: Dimmer
 standard: us
 ---

@@ -1,0 +1,15 @@
+---
+date_added: 2022-07-25
+title: Dewenwils Heavy Duty 40A 
+model: HOWT01A
+image: /assets/images/dewenwils_HOWT01A.jpg
+template9: '{"NAME":"Dewenwils HOWT01A","GPIO":[0,0,544,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07PP2KNNH
+link2: 
+mlink: http://www.dewenwils.com/support/manuals/howt01a.html
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: us
+---
+Using ```SetOption13 1``` makes front button instant

@@ -7,8 +7,7 @@ link: https://www.aliexpress.com/item/1005001756371715.html
 image: /assets/images/MIR-TE200.jpg
 link2: 
 link3: 
-chip: XR809
+chip: XR3
 ---
-Tuya XR3 Module
 
 ![Internals](/assets/images/MIR-TE200_pcb.jpg)
