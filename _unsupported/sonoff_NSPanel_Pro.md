@@ -1,8 +1,8 @@
 ---
 date_added: 2022-08-08
-title: Sonoff NSPanel Pro
+title: Sonoff NSPanel Pro Touich Panel
 model: 
-type: Switch
+type: Display
 category: unsupported
 image: /assets/images/sonoff_NSPanel_Pro.jpg
 link: https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/
