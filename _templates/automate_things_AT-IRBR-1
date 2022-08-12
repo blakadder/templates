@@ -2,7 +2,7 @@
 date_added: 2022-02-17
 title: Automate Things IR Bridge
 model: AT-IRBR v1.0
-image: /assets/images/autoate-things_AT_IRBR-13.jpeg
+image: /assets/images/automate-things_AT_IRBR-13.jpg
 template9: '{"NAME":"AT-IRBR-1.0","GPIO":[0,0,0,0,1056,1088,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"Module 0"}' 
 link: https://automate-things.square.site/product/automate-things-ir-bridge-kit/3
 flash: serial
@@ -34,6 +34,8 @@ The best part is that as *you* decide what Firmware to install on it there is no
 
 **Things you will need to provide:**
   - 5V/1A Power Supply via Micro USB.
+
+If you do not fancy soldering your own, then take a look [here](https://templates.blakadder.com/automate_things_AT-IRBR_v14.html).
 
 ### Wholesale Orders or Customm Builds
 Please [contact Automate Things UK](https://automate-things.uk/) if you need to order a quantity of units, or need something custom.
