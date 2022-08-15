@@ -4,15 +4,14 @@ title: OFFONG 16A
 model: P1
 image: /assets/images/OFFONG_P1.jpg
 template9: '{"NAME":"OFFONG P1","GPIO":[0,32,0,0,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.aliexpress.com/item/1005002573275435.html
-link2: https://www.amazon.de/dp/B08LH3J8PQ
+link: https://www.amazon.de/dp/B08LH3J8PQ
 mlink: http://www.offong.com/productinfo/220533.html
 flash: serial
 category: plug
 type: Plug
 standard: eu
-chip: TYWE2S
+chip: M32-V1.0
 ---
-How to [open the plug](https://blakadder.com/disassembling-CN39/). The ESP8266EX is on a OFFONG Wi-Fi module labeled M32-V1.0 with the same  pinout as the TYWE2S.
+How to [open the plug](https://blakadder.com/disassembling-CN39/). The ESP8266EX is on a OFFONG Wi-Fi module labeled M32-V1.0 with similar pinout to TYWE2S.
 
 Short GPIO0 on when powering to enable flash mode (test point for GPIO0 is at the back of the M32-V1.0 PCB).

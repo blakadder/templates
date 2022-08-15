@@ -1,0 +1,23 @@
+---
+date_added: 2022-08-15
+title: Aubess 16A
+model: 
+image: /assets/images/
+template9: '{"NAME":"Aubess 16A Power Monitoring Plug","GPIO":[0,32,0,0,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005003639926990.html
+link2: 
+mlink: https://www.aubess.net/products/aubess-tuya-wifi-smart-socket-16a-work-with-alexa-google-home-yandex
+flash: serial
+category: plug
+type: Plug
+standard: eu
+chip: M32-V1.0
+---
+
+How to [open the plug](https://blakadder.com/disassembling-CN39/). The ESP8266EX is on a Aubess Wi-Fi module labeled M32-V1.0 has the same pinout as the TYWE2S, with a minor layout change with the GPIO pins.(they clearly labelled though). [Module images](https://imgur.com/a/jh7oJlh).
+
+Short GPIO0 (labelled 00 M32-V1.0 PCB) on when powering to enable flash mode.
+
+RX and TX are soldered together (bridged) on the board, so best practice is to de-solder the module when flashing. This cannot be flashed OTA with Tuya-convert.
+
+![Plug Label](/assets/images/aubess_16A_plug_label.jpg)
