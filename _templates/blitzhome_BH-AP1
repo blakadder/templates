@@ -3,7 +3,7 @@ date_added: 2022-08-16
 title: BlitzHome AP1
 model: BH-AP1
 image: /assets/images/blitzhome_BH-AP1.jpg
-template9: '{"NAME":"BH-AP1","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 12,11 | TuyaMCU 61,3 | TuyaMCU 62,4 | TuyaMCU 80,2"}' 
+template9: '{"NAME":"BH-AP1","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 mlink: https://www.blitzwolf.com/
 link: https://www.banggood.com/BlitzHome-BH-AP1-Smart-Air-Purifier-220m-or-h-CADR-26dB-Quiet-Air-Cleaner,Removes-Allergies,Smoke,Dust,Mold,Pollen,Pet-Dander,Activated-Carbon-Eliminates-Odors-and-Deodorizes-HEPA-Filter-with-Night-Light-APP-Remote-Control-p-1721669.html
 link2: https://www.aliexpress.com/item/1005001458595293.html
