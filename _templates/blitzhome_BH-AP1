@@ -21,6 +21,8 @@ Identified with MCU Product ID: `{"p":"ajiovq2gnazbslep","v":"1.0.0","m":1}`.
 ## Flashing
 To gain access to the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module for flashing you need to release the control panel from the base. It is affixed with 4 clips that need to be pushed while lifting the control panel. Do that for all 4 until the panel is free, disconnect the 3 cables.
 
+![Clip location](/assets/images/blitzhome_BH-AP1_clip.jpg)![Disassembled](/assets/images/blitzhome_BH-AP1_cables.jpg)
+
 ## Functions
 
 | dpID | Function        | Datatype | Additional Comments |
