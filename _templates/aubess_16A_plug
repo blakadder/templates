@@ -2,7 +2,7 @@
 date_added: 2022-08-15
 title: Aubess 16A
 model: 
-image: /assets/images/
+image: /assets/images/aubess_16A_plug.jpg
 template9: '{"NAME":"Aubess 16A Power Monitoring Plug","GPIO":[0,32,0,0,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005003639926990.html
 link2: 
