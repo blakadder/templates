@@ -11,7 +11,7 @@ link3: https://www.manomano.de/p/blitzwolf-bw-ap1-smart-luftreiniger-vier-windge
 flash: serial
 category: misc
 type: Air Purifier
-standard: global
+standard: eu
 chip: TYWE3S
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
