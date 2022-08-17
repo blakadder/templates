@@ -13,6 +13,8 @@ type: Zigbee Gateway
 standard: global
 ---
 
+[ZHA/Zigbee2MQTT instructions on the Zigbee site](https://zigbee.blakadder.com/Sonoff_ZBBridge-P.html)
+
 [Flashing instructions by NotEnoughTech](https://notenoughtech.com/home-automation/tasmota-on-sonoff-zb-bridge-pro/)
 
 [Tasmota GitHub Discussion](https://github.com/arendst/Tasmota/discussions/14419)
