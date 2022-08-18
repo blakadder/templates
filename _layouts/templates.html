@@ -74,6 +74,8 @@ layout: default
       <a href="https://github.com/elahd/esp2ino" target="_blank">esp2ino</a>
       {% elsif page.flash == "replace" %}
       <a href="https://blakadder.com/frankenstein-saturday-3/" target="_blank">Replace module</a>
+      {% elsif page.flash == "switchbota" %}
+      <a href="https://github.com/kendallgoto/switchbota" target="_blank">SwitchbOTA</a>
       {% else %}
         {{ page.flash}}
       {% endif %}
@@ -309,6 +311,12 @@ layout: default
 
   {% if page.flash == 'esp2ino' %}
   Can be flashed over-the-air with <a href="https://github.com/elahd/esp2ino">esp2ino Flasher</a>.
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.flash == 'switchbota' %}
+  Can be flashed over-the-air with <a href="https://github.com/kendallgoto/switchbota/">SwitchbOTA</a>.
   <br><br>
   <p>
   {% endif %}

@@ -2,19 +2,19 @@
 date_added: 2022-04-15
 title: SwitchBot Plug Mini
 model: W1901400
-image: /assets/images/switchbot_plugmini.jpg
+image: /assets/images/switchbot_W1901400.jpg
 templatec3: '{"NAME":"W1901400","GPIO":[0,0,32,0,0,0,224,320,321,0,0,0,0,0,0,0,0,0,2720,2656,2624,0],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.com/dp/B09QFLJH8T
-link2: https://us.switch-bot.com/products/switchbot-plug-mini
+link2: https://www.amazon.com/dp/B0B39DJFR8/
 mlink: https://us.switch-bot.com/products/switchbot-plug-mini
-flash: serial
+flash: switchbota
 category: plug
 type: Plug
 standard: us
 chip: c3
 ---
-## OTA Flashing
-Can be flashed over-the-air with [SwitchbOTA Flasher](https://github.com/kendallgoto/switchbota).
+
+Also works with Homekit version (W1901401). The only difference is in the software.
 
 ## Serial Flashing
 SwitchBot's Plug Mini is ultrasonic welded shut. A flat blade screwdriver hammered in the crack has been successfully used to pry it open. (Holding it in a vice may help.) There are no clips, it's just two plastic pieces that need to be pryed apart. This has been done semi-destructively. (Platic pieces end up marred. Some JB Weld or super glue might reseal it.)
