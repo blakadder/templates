@@ -14,7 +14,7 @@ standard: us
 chip: c3
 ---
 
-Also works with Homekit version (W1901401). The only difference is in the software.
+Also works with Homekit version (W1901401). 
 
 ## Serial Flashing
 SwitchBot's Plug Mini is ultrasonic welded shut. A flat blade screwdriver hammered in the crack has been successfully used to pry it open. (Holding it in a vice may help.) There are no clips, it's just two plastic pieces that need to be pryed apart. This has been done semi-destructively. (Platic pieces end up marred. Some JB Weld or super glue might reseal it.)
