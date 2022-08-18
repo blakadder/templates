@@ -7,7 +7,7 @@ template9: '{"NAME":"AT-IRBR-1.0","GPIO":[0,0,0,0,1056,1088,0,0,0,0,0,0,0,0],"FL
 link: https://automate-things.square.site/product/automate-things-ir-bridge-kit/3
 flash: serial
 category: misc
-type: IR Gateway
+type: IR Controller
 standard: global
 ---
 
