@@ -5,14 +5,12 @@ model: W1401400
 image: /assets/images/switchbot_W1401400.jpg
 templatec3: '{"NAME":"Switchbot W1401400","GPIO":[0,0,0,0,9128,9088,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SetOption37 25"}' 
 link1: https://us.switch-bot.com/products/switchbot-color-bulb
-link2: https://eu.switch-bot.com/products/switchbot-color-bulb
-link3: https://uk.switch-bot.com/products/switchbot-color-bulb
-link4: https://www.amazon.com/SwitchBot-Smart-LED-Light-Bulb/dp/B09DKGLVKT
+link2: https://www.amazon.com/SwitchBot-Smart-LED-Light-Bulb/dp/B09DKGLVKT
 mlink: https://switch-bot.com/products/switchbot-color-bulb
 flash: switchbota
 category: bulb
 type: RGBCCT
-standard: [e26, e27, b22]
+standard: e26
 chip: c3
 ---
 
