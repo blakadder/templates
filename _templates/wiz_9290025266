@@ -1,0 +1,20 @@
+---
+date_added: 2021-08-20
+title: WiZ 2m Starter Kit
+model: 9290025266
+image: /assets/images/wiz_9290025266.jpg
+template32: '{"NAME":"WiZ 9290025266","GPIO":[0,0,420,0,419,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,416,417,418,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.ca/dp/B09GXWFPZP/
+link2: https://www.amazon.com/dp/B091TL3RB4/
+mlink: https://www.wizconnected.com/en-CA/consumer/products/046677560805/
+flash: serial
+chip: solo1
+category: light
+type: LED Strip
+standard: [us]
+---
+EAN/UPC: 046677560805 and 046677603533
+
+All pins necessary for flashing are on the module. ![Pinout](https://tasmota.github.io/docs/_media/pinouts/ESP32-SOLO-1.png)
+
+Pin 25 Bottom on the right hand side is GPIO 0 for booting 

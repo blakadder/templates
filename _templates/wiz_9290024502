@@ -1,0 +1,16 @@
+---
+date_added: 2022-06-14
+title: WiZ A60 8W 2700K
+model: 9290024502
+image: /assets/images/wiz_9290024502.jpg
+template32: '{"NAME":"WiZ 9290024502","GPIO":[0,0,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.de/-/en/dp/B08QDVRB5D/
+link2: 
+mlink: https://www.wizconnected.com/it-it/p/lampada-led-lampadina-a60-e27/8718699786038
+flash: serial
+category: bulb
+type: Dimmable
+standard: e27
+chip: solo1
+---
+[Disassembly images](https://github.com/arendst/Tasmota/issues/3055#issuecomment-1160294470)

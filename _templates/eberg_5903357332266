@@ -1,0 +1,16 @@
+---
+date_added: 2022-08-18
+title: EBERG ROT 720 Infrared
+model: 5903357332266
+image: /assets/images/eberg_5903357332266.jpg
+template9: '{"NAME":"Tuya MCU","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,4 | TuyaMCU 72,2 | TuyaMCU 71,3"}' 
+link: https://wentylacja24.pl/ogrzewanie/grzejniki/grzejniki-na-podczerwien/rot-promiennik-podczerwieni/rot-720
+link2: 
+mlink: 
+flash: replace
+category: misc
+type: Heater
+standard: eu
+chip: WBR3
+---
+Chip WBR3 replaced with ESP-12S. MCU config: 'Backlog TuyaMCU 11,4; TuyaMCU 72,2; TuyaMCU 71,3;'

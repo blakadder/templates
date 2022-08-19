@@ -1,0 +1,15 @@
+---
+date_added: 2022-08-18
+title: LSC Dual Socket
+model: 3004197
+image: /assets/images/lsc_smart_connect_3004197.jpg
+template9: '{"NAME":"LSC NFL-022","GPIO":[0,0,0,0,320,32,0,0,0,224,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.action.com/pl-pl/p/podwojne-gniazdko-wifi-lsc-smart-connect/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: eu
+chip: TYWE2S
+---
