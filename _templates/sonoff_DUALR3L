@@ -7,6 +7,7 @@ template32: '{"NAME":"Sonoff Dual R3 Lite","GPIO":[32,0,0,0,0,0,0,0,0,576,225,0,
 link: https://itead.cc/product/sonoff-dualr3/
 link2: https://www.aliexpress.com/item/1005003409586371.html
 link3: https://www.banggood.com/SONOFF-DUALR3-Lite-WIFI-Smart-Dual-Relay-Module-Two-Way-Power-Metering-Smart-Switch-for-Smart-Home-p-1912307.html
+link4: https://mediarath.de/collections/tasmota-gerate/products/sonoff-dual-r3-wifi-smart-switch-verbrauchsmessung-tasmota-alexa-iobroker
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/dualr3
 flash: serial
 category: relay

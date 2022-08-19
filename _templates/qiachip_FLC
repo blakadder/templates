@@ -26,7 +26,7 @@ Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to underst
 * dpid6 - self timer (0 = off, 1 = 1hr, 2 = 2hr, 4 = 4hr, 8 = 8hr)
 * dpid9 - light on/off
 * dpid7 - timer remaining
-* dpid17 - ???
+* dpid17 - beep on/off
 
 ## Home Assistant 
 Set a rule 

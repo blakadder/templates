@@ -1,0 +1,17 @@
+---
+date_added: 2022-08-05
+title: Arlec Twin Socket with Energy Meter
+model: PC287HA
+image: /assets/images/arlec_PC287HA.jpg
+template9: '{"NAME":"Arlec PC287HA","GPIO":[0,32,0,320,2624,2656,0,0,224,2720,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.co.nz/arlec-grid-connect-smart-twin-socket-with-energy-meter-and-surge-protection_p0273372
+link2: 
+mlink: https://grid-connect.com.au/smart-home-products/power/
+flash: replace
+category: plug
+type: Plug
+standard: au
+---
+Opening the device is not too hard but does take 15mins of patience!  There are no screws and the 2 part shell is glued/welded together.  To separate, find the seam at the back and very carefully use a sharp instrument to prize the seam to beak the seal.  Once you have started it's fairly easy to run around this seam with plastic/metal spudgers.
+
+Once inside, remove existing WiFi module and replace with a [ESP-02S](ESP-02S) or similar

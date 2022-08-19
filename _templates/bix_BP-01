@@ -1,0 +1,16 @@
+---
+date_added: 2022-08-12
+title: Bix 3AC 4USB
+model: BP-01
+image: /assets/images/bix_BP-01.jpg
+template9: '{"NAME":"Bix BP-01","GPIO":[259,0,0,0,0,289,0,0,224,35,225,226,288,0],"FLAG":0,"BASE":18}' 
+link: https://www.hepsiburada.com/bix-byn-ticaret-bix-bp-01-wifi-akim-korumali-hizli-sarj-ozellikli-akilli-priz-pm-HBC00000R6DRB
+link2: 
+mlink: https://bix.com.tr/urun-kategori/akilli-teknoloji/akilli-priz-akilli-ev-home-kit/
+flash: serial
+category: plug
+type: Power Strip
+standard: eu
+---
+ESP Chip Id	14739603 (ESP8266EX)
+Flash Size	1024 KB

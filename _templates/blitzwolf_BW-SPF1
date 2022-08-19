@@ -5,7 +5,8 @@ model: BW-SPF1
 image: /assets/images/blitzwolf_BW-SPF1.jpg
 template9: '{"NAME":"BW-SPF1","GPIO":[0,0,0,0,224,416,0,0,0,32,160,0,576,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005002029339076.html
-link2: 
+link2: https://www.banggood.com/BlitzWolfBW-SPF1-2_5L-Smart-WiFi-Automatic-Pet-Water-Fountain-Led-UV-Version-APP-Control-3-layers-Filter-Water-Dispenser-Drinking-Bowl-Pet-Accessories-For-Cat-Dog-Drinking-Water-p-1762098.html
+link3: https://www.amazon.com/dp/B0891QC3TK
 mlink: https://www.blitzwolf.com
 flash: serial
 category: misc

@@ -7,10 +7,8 @@ template9: '{"NAME":"Kauf Bulb","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"
 link: https://www.amazon.com/dp/B09D6HR559
 link2: 
 mlink: https://www.kaufha.com/
-flash: OTA
+flash: esphome
 category: bulb
 type: RGBCCT
 standard: E26
 ---
-## Flashing 
-To convert to Tasmota, simply download tasmota.bin.gz, browse to the plug’s IP address in a web browser, and use the web page to flash.

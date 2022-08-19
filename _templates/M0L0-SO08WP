@@ -1,0 +1,14 @@
+---
+date_added: 2022-07-17
+title: Smart Plug
+model: M0L0-SO08WP
+image: /assets/images/M0L0-SO08WP.jpg
+template9: '{"NAME":"SO08WP","GPIO":[1,1,1,32,2688,2656,1,1,2624,288,224,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.landatel.com/shop/product/m0l0-so08wp-enchufe-inteligente-con-monitor-de-consumo-wifi-m0l0-so08wp-m0l0-12865
+link2: https://www.amazon.es/dp/B09676CNY9
+mlink: https://m0l0.com/m0l0-powered-by-tuya-enchufe-inteligente-con-monitor-de-consumo-wifi-1.html
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---

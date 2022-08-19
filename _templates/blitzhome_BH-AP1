@@ -1,0 +1,61 @@
+---
+date_added: 2022-08-16
+title: BlitzHome AP1
+model: BH-AP1
+image: /assets/images/blitzhome_BH-AP1.jpg
+template9: '{"NAME":"BH-AP1","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+mlink: https://www.blitzwolf.com/
+link: https://www.banggood.com/BlitzHome-BH-AP1-Smart-Air-Purifier-220m-or-h-CADR-26dB-Quiet-Air-Cleaner,Removes-Allergies,Smoke,Dust,Mold,Pollen,Pet-Dander,Activated-Carbon-Eliminates-Odors-and-Deodorizes-HEPA-Filter-with-Night-Light-APP-Remote-Control-p-1721669.html
+link2: https://www.aliexpress.com/item/1005001458595293.html
+link3: https://www.manomano.de/p/blitzwolf-bw-ap1-smart-luftreiniger-vier-windgeschwindigkeit-2-in-1-filter-app-fernbedienung-leiser-betrieb-smart-home-49809921
+flash: serial
+category: misc
+type: Air Purifier
+standard: eu
+chip: TYWE3S
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+Identified with MCU Product ID: `{"p":"ajiovq2gnazbslep","v":"1.0.0","m":1}`. 
+
+## Flashing
+To gain access to the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module for flashing you need to release the control panel from the base. It is affixed with 4 clips that need to be pushed while lifting the control panel. Do that for all 4 until the panel is free, disconnect the 3 cables.
+
+![Clip location](/assets/images/blitzhome_BH-AP1_clip.jpg)![Disassembled](/assets/images/blitzhome_BH-AP1_cables.jpg)
+
+## Functions
+
+| dpID | Function        | Datatype | Additional Comments |
+| ---- |-------------    | -------  | ---------- |
+| 1    | Power on/off    | Boolean  | Main power
+| 2    | PM 2.5 sensor   | Integer  | Reporting in µg/m³. Tasmota v12.0.2.4+ is needed to support fnId 80
+| 3    | Working Mode    | Enum     | `0` = Sleep , `1` = Auto, `2` = Manual
+| 4    | Fan Speed       | Enum     | `0` = Speed 1, `1` = Speed 2
+| 5    | Filter life     | Integer  | Reports in percentage remaining
+| 11   | Reset Filter    | Boolean  | Not reported with `TuyaSend0`
+| 19   | Preset Timer    | Enum     | `0` = off, `1` = 1h, `2` = 2h, `3` = 4h, `4` = 8h
+| 22   | Air Quality     | Enum     | `0` = good, `1` = moderate, `2` = unhealthy
+
+## Configuration
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+A basic configuration option:
+
+```console
+Backlog TuyaMCU 11,1; TuyaMCU 12,11; TuyaMCU 61,3; TuyaMCU 62,4; TuyaMCU 80,2; TuyaMCU 81,5; WebButton1 Main Power; WebButton2 Filter Reset; FriendlyName1 Air Purifier; FriendlyName2 Filter Reset
+```
+
+For PM 2.5 sensor using fnId 80 you need Tasmota v12.0.2.4+
+
+Timer1 is reporting remaining filter life.
+
+Working mode is controlled with `TuyaEnum1` and fan speed controlled with `TuyaEnum2`.
+
+## Home Assistant Integration
+
+![Basic integration in Home Assistant](/assets/images/blitzhome_BH-AP1_ha.jpg)
+
+While working this configuration option does not integrate perfectly in Home Assistant. You will need to manually change the names and icons for the sensors and there is no mode or speed control.
+
+Find an advanced configuration using rules and blueprints at [blakadder.com](//blakadder.com/bh-ap1-in-home-assistant)

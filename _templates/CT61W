@@ -15,6 +15,9 @@ type: Motion Sensor
 standard: global
 chip: TYWE3S
 ---
+Tutorial to flash Tuya Motion PIR - No Solder Method
+
+[![Tasmota Firmware - Flashing USB Serial - No Solder Method with Tasmotizer](https://img.youtube.com/vi/JOPKtN9ajek/0.jpg)](https://www.youtube.com/watch?v=JOPKtN9ajek)
 
 My device came with a blue led cover due the image is for red.
 

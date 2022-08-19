@@ -74,6 +74,8 @@ layout: default
       <a href="https://github.com/elahd/esp2ino" target="_blank">esp2ino</a>
       {% elsif page.flash == "replace" %}
       <a href="https://blakadder.com/frankenstein-saturday-3/" target="_blank">Replace module</a>
+      {% elsif page.flash == "switchbota" %}
+      <a href="https://github.com/kendallgoto/switchbota" target="_blank">SwitchbOTA</a>
       {% else %}
         {{ page.flash}}
       {% endif %}
@@ -231,7 +233,7 @@ layout: default
       {% assign template = page.templates2 | split: ':' %}
     {% endif %}
     {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
-      {% if gpio32 contains '2624' or gpio32 contains '2656' or gpio32 contains '2688' or gpio32 contains '2720' or gpio32 contains '2752' or gpio32 contains '2784' or gpio32 contains '2816' or gpio32 contains '3072' or gpio32 contains '3104' or gpio32 contains '3456' or gpio32 contains '7296' or gpio32 contains '7328' or gpio32 contains '8128'%}
+      {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '7296' or gpios contains '7328' or gpios contains '8128'%}
       For more accurate energy consumption measurements this device requires <a href="https://tasmota.github.io/docs/Power-Monitoring-Calibration">power monitoring calibration</a>.
       <br><br>
       {% endif %}
@@ -313,6 +315,18 @@ layout: default
   <p>
   {% endif %}
 
+  {% if page.flash == 'switchbota' %}
+  Can be flashed over-the-air with <a href="https://github.com/kendallgoto/switchbota/">SwitchbOTA</a>.
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.flash == 'esphome' %}
+  Device comes with ESPHome preinstalled and can be easily converted to Tasmota via a browser. Navigate to the device IP address, in the "OTA Update" menu select a <a href="http://ota.tasmota.com/tasmota/release/">downloaded</a> Tasmota binary and click "Update".
+  <br><br>
+  <p>
+  {% endif %}
+
   {% if page.title contains 'Teckin' or page.title contains 'Lumiman' or page.title contains 'BrilliantSmart' %}
   <b>NOTICE!!!</b> Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore. Check seller descriptions or contact them before buying!<p>  
   <br><br>
@@ -390,6 +404,11 @@ layout: default
   {% if page.chip == "PSF-B" %}
   <h2>Pinout</h2>
   <img src="/assets/pinouts/PSF-B.png" title="Pinout for PSF-B"></img>.<p>
+  {% endif %}
+
+  {% if page.chip == "M32-V1.0" %}
+  <h2>Pinout</h2>
+  <img src="/assets/pinouts/M32-V1.0.png" title="Pinout for M32-V1.0"></img>.<p>
   {% endif %}
 
 </div>

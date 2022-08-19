@@ -10,7 +10,7 @@ mlink:
 flash: tuya-convert
 category: bulb
 type: RGBCCT
-standard: gu53
+standard: gu5.3
 ---
 Pinout is:
   - GPIO4: green

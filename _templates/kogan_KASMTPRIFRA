@@ -1,0 +1,82 @@
+---
+date_added: 2022-08-15
+title: Kogan 5-Stage 3S
+model: KASMTPRIFRA
+image: /assets/images/kogan_KASMTPRIFRA.jpg
+template9: '{"NAME":"Kogan Air Purifier 3S","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.kogan.com/au/buy/kogan-smarterhome-5-stage-air-purifier-3s-h13-filter-340-cadr/
+link2: 
+mlink: 
+flash: serial
+category: misc
+type: Air Purifier
+standard: au
+---
+Flashed using serial, pull of the front panel and the Wi-Fi module is just behind the display. Ensure to disconnect the board from the rest of the air purifier to ensure the MCU doesn't interfere with the rx/tx lines. RX, TX, 3.3V, GND AND GPIO0 are conveniently broken out onto pads for easy soldering, which can be seen by following the visible traces on the board or using a multimeter, otherwise a flashing jig can be used. I would recommend removing the piezo buzzer when you have it pulled apart.  
+
+## Known dpIDs
+
+| dpID | Function | Datatype | Additional Comments |
+|---|---|:---:|---|
+| 1 | power on/off | Boolean |  |
+| 2 | PM2.5 reading | Integer | Tasmota v12.0.2.4+ is needed for fnID 80 PM2.5 |
+| 3 | Mode | Enum | 0 = manual (Speed 1) , 1 = auto, 2=sleep, 3 =turbo |
+| 4 | Speed | Enum | 0 = Manual Speed 1, 1 = manual speed 2, 2 = manual speed 3 |
+| 5 | Filter life remaining | Integer |  |
+| 6 | Ionizer | Boolean |  |
+| 7 | Child Lock | Boolean | Enabling Child lock disables tasmota control as well as the physical buttons, so I would reccommend leaving it unmapped. |
+| 19 | Timer Set | Enum | 0=off, 1 =1h, 2=2h, 3=4h, 4=8h |
+| 20 | Remaining Time | Integer | Remaining Time in Hex |
+
+## Configuration
+```
+Backlog TuyaMCU 11,1; TuyaMCU 80,2; TuyaMCU 61,3; TuyaMCU 62,4; TuyaMCU 12,6; TuyaMCU 13,7; TuyaMCU 81,20;
+```
+
+### Rules to publish enum values
+Will publish speed and mode respectively to MQTT:
+
+```console
+Rule1 
+ON TuyaReceived#DpType4Id4 DO Publish stat/%topic%/SPEED %value% ENDON  
+ON TuyaReceived#DpType4Id3 DO Publish stat/%topic%/MODE %value% ENDON
+```
+
+## Homebridge Config
+
+
+```json  
+{% raw %}{
+            "type": "airPurifier",
+            "name": "Kogan Air Purifier",
+            "url": "XXX.XXX.X.XXX:1883",
+
+            "topics": {
+                "getActive": "stat/airpurifier/POWER1",
+                "setActive": "cmnd/airpurifier/POWER1",
+                "getCurrentAirPurifierState": "stat/airpurifier/POWER1",
+                "getTargetAirPurifierState": "stat/airpurifier/MODE",
+                "setTargetAirPurifierState": "cmnd/airpurifie/TUYAENUM1"
+            },
+            "onValue": "ON",
+            "offValue": "OFF",
+            "accessory": "mqttthing"
+        },
+        {
+            "url": "XXX.XXX.X.XXX:1883",
+            "type": "airQualitySensor",
+            "name": "Kogan PM2.5 Air Quality",
+            "topics": {
+                "getAirQuality": {
+                    "topic": "tele/airpurifier/SENSOR",
+                    "apply": "pm2_5 = JSON.parse(message).TuyaSNS.PM; return (pm2_5 < 13 ? 'EXCELLENT' : pm2_5 < 25 ? 'GOOD' : pm2_5 < 50 ? 'FAIR' : pm2_5 < 100 ? 'INFERIOR' : pm2_5 >=100 ? 'POOR' : 'UNKNOWN');"
+                },
+                "getPM2_5Density": "tele/airpurifier/SENSOR$.TuyaSNS.PM",
+                "getOnline": {
+                    "topic": "tele/airpurifier/LWT",
+                    "apply": "return message == 'Online' ? 'ON' : 'OFF';"
+                }
+            },
+            "accessory": "mqttthing",
+        }{% endraw %}
+```

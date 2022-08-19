@@ -32,6 +32,8 @@
 {{ link | append: "?ref=blakadder" }}
 {% elsif link contains "moeshouse.com" %}
 {{ link | append: "?ref=v4thya2eufek" }}
+{% elsif link contains "zemismart.com" %}
+{{ link | append: "?DIST=QEVHGw%3D%3D" }}
 {% elsif link contains "shop.m5stack.com" %}
 {{ link | append: "?ref=blakadder" }}
 {% elsif link contains "alza" %}
@@ -51,7 +53,9 @@
 {% elsif link contains "itead.cc" %}
 {{ link | append: "/ref/34/" }}
 {% elsif link contains "avatarcontrols.com" %}
-{{ link | remove_first: 'https://' | uri_escape | prepend: "https://www.shareasale.com/r.cfm?b=1651554&u=2442238&m=102746&urllink="  }}
+{{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1651554&u=2442238&m=102746&urllink="  }}
+{% elsif link contains "switch-bot.com" %}
+{{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1689064&u=2442238&m=104860&urllink="  }}
 {% elsif link contains "treatlife" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1838946&u=2442238&m=114660&urllink="  }}
 {% elsif link contains "tessan.com" %}

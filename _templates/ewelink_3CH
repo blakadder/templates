@@ -1,0 +1,22 @@
+---
+date_added: 2022-07-25
+title: Ewelink RF No Neutral 3 Channel
+model: 
+image: /assets/images/ewelink_3CH.jpg
+template9: '{"NAME":"Ewelink 3 Gang Module","GPIO":[32,0,0,0,225,226,33,34,224,544,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001865341076.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: module
+standard: global
+chip: PSF-B
+---
+![](https://images2.imgbox.com/c3/91/nYhQic8S_o.jpeg)
+
+![](https://images2.imgbox.com/c9/37/mjwMiNw4_o.jpeg)
+
+Because of narrow space on the pcb, i did not solder any wires but rather using nano probes that i printed earlier from this link https://www.thingiverse.com/thing:3615910
+
+You may also opt to just use a jig for psf-b04 https://www.thingiverse.com/thing:4841261
