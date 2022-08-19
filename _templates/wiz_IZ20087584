@@ -11,5 +11,6 @@ flash: serial
 category: bulb
 type: RGBCCT
 standard: e26
+chip: ESP-WROOM-02
 ---
 Serial flashing worked via temporary soldered leads. (Do not connect to mains while flashing.) Clean disassembly does not seem possible. Plastic base must be cut to access ESP chip, rendering unsafe. Experimental only! 

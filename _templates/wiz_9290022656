@@ -1,0 +1,28 @@
+---
+date_added: 2022-08-19
+title: Wiz Colors A19 8.8w 800lm
+model: 9290022656
+image: /assets/images/wiz_wiz_9290022656.jpg
+template9: '{"NAME":"Wiz Colors RGBCCT","GPIO":[0,0,0,0,419,0,0,0,416,420,418,417,0,0],"FLAG":0,"BASE":48}' 
+link: https://www.bestbuy.com/site/wiz-a19-color-and-tunable-white-bulb-white/6424678.p?skuId=6424678
+link2: 
+mlink: https://www.wizconnected.com/en-us/p/led-lamp-bulb-88w--eq.60w--a19-e26/046677556136
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e26
+chip: ESP-WROOM-02
+---
+EAN/UPC: 046677556136 and 046677562205
+
+## Disassembly
+
+Plastic dome is glued, excessively, but still possible to remove with time and a razor. The LED board must be levered out, which is difficult. There's a small opening under the metal clip on the far end (away from pins) which can be used - however it's quite easy to accidently remove that clip when removing the board. To remove the main board, you can use a razor to remove the terminal on the bottom of the bulb. After that, you should be able to remove the main board from the bulb.  
+
+![Wiz 9290022656 LED Board](assets/images/wiz_9290022656-led_board.jpg "LED Board")  
+
+## Flashing
+
+The capacitor to the right of the ESP blocks the TX and RX pin and will need to be removed and replaced after flashing. Can be done with an iron (instead of a heat gun) if you're careful.  
+
+![Wiz 9290022656 Main Board](assets/images/wiz_9290022656-main_board.jpg "Main Board")
