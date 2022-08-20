@@ -1,0 +1,31 @@
+---
+date_added: 2022-08-20
+title: Phillips Wiz A19 8.8W 800lm RGBCCT Bulb
+model: 9290023833
+image: /assets/images/phillips_wiz_9290023833.jpg
+template9: '{"NAME":"WiZ RGBCCT A19 Bulb","GPIO":[0,0,419,0,420,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,417,418,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"so92 1"}'
+link: https://www.homedepot.com/p/Philips-Color-and-Tunable-White-A19-LED-60-Watt-Equivalent-Dimmable-Smart-Wi-Fi-Wiz-Connected-Wireless-Light-Bulb-562702/313616477
+link2:
+mlink: https://www.usa.lighting.philips.com/consumer/p/smart-led-bulb-88w--eq.60w--a19-e26/046677562700
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e26
+---
+Serial flashed - doesn't run Tuya. (Do not connect to mains while flashing.)
+Uses ESP32-solo1 - only flash with tasmota32solo1 binaries.
+
+EAN: 046677562700
+## Disassembly
+
+Plastic dome is glued, excessively, but still possible to remove with time and a razor. The LED board must be levered out, which is difficult. There's a small opening under the metal clip on the far end (away from pins) which can be used - however it's quite easy to accidently remove that clip when removing the board. To remove the main board, you can use a razor to remove the terminal on the bottom of the bulb. After that, you should be able to remove the main board from the bulb.
+
+![Wiz 9290023833 LED Board](assets/images/phillips_wiz_9290023833-led_board.jpg "LED Board")
+
+## Flashing
+
+If you don't have a steady hand, removing the capacitor to the right of the chip is recommended while initially flashing. Otherwise, connect IO0 to ground when powering and continue as usual.
+
+![Wiz 9290023833 Main Board](assets/images/phillips_wiz_9290023833-main_board.jpg "Main Board")
+![ESP32-SOLO1 Pinout](https://tasmota.github.io/docs/_media/pinouts/ESP32-SOLO-1_pinout.jpg "ESP-WROOM-02D Pinout")
+
