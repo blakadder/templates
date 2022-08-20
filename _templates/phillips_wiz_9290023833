@@ -27,5 +27,5 @@ Plastic dome is glued, excessively, but still possible to remove with time and a
 If you don't have a steady hand, removing the capacitor to the right of the chip is recommended while initially flashing. Otherwise, connect IO0 to ground when powering and continue as usual.
 
 ![Wiz 9290023833 Main Board](assets/images/phillips_wiz_9290023833-main_board.jpg "Main Board")
-![ESP32-SOLO1 Pinout](https://tasmota.github.io/docs/_media/pinouts/ESP32-SOLO-1_pinout.jpg "ESP32-SOLO-1 Pinout")
+![ESP32-SOLO1 Pinout](https://tasmota.github.io/docs/_media/pinouts/ESP32-SOLO-1.jpg "ESP32-SOLO-1 Pinout")
 
