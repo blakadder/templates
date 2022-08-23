@@ -19,10 +19,16 @@ flash: replace
 
 The chip used on this board is a CB3S, and requires a transplant. It cannot be flashed. The daughterboard for the SoC is compatible with the ESP12-S and in this case ESP-C3-12F module. Other formats may be compatible, but may require jumper wires.
 
-The TuyaMCU on board requires the following settings for an CCT (Dual White (CW+WW)) strip.
+The TuyaMCU on board requires the following settings for an CCT (Dual White (CW+WW)) strip:
 
 ```console
 Backlog TuyaMCU 11,20; TuyaMCU 21,22; TuyaMCU 22,21; TuyaMCU 23,23; TuyaMCU 98,101; DimmerRange 0,1024
+```
+
+Or, if you want to use RGBW (see light modes below), use the following settings: 
+
+```console
+Backlog TuyaMCU 11,20; TuyaMCU 26,21; TuyaMCU 21,23; TuyaMCU 24,24; TuyaMCU 81,26; TuyaMCU 98, 101; DimmerRange 0,1024
 ```
 
 ## Serial Flashing
