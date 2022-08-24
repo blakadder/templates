@@ -12,13 +12,6 @@ mlink:
 link: https://www.aliexpress.com/item/4000220883663.html
 ---
 
-## Flashing
+{% include flash/c3.md %}
 
-Flash using [Tasmota Web Installer](https://tasmota.github.io/install/) using Tasmota32c3 Bluetooth 4M Flash option.
-
-If using esptool.py download [required files](https://github.com/tasmota/install/tree/main/static/esp32-c3) and [tasmota32c3.bin](http://ota.tasmota.com/tasmota32/tasmota32c3.bin) and put them in the same folder.
-
-```bash
-esptool.py --chip esp32c3 --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x0000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32c3.bin
-```
 [Datasheet](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13-kit-v1.0_specification.pdf)

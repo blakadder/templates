@@ -14,8 +14,11 @@ flash: serial
 category: diy
 type: Module
 standard: global
+footprint: dt-light
 ---
-This module is designed for bulbs so the pinout labeling shows colors. Module is (almost) pin compatible with TYWE2L, WR2L, WB2L, WBR2L, CB2L
+This module is designed for bulbs so the pinout labeling shows colors. 
+
+Module is almost pin compatible with {% for entry in site.data.modules.dt-light %}{{ entry.module }}{% unless forloop.last %},{% endunless %}{% endfor %}
 
 It can still be used for any application, just like any other module. It has almost all of the GPIOs broken out (excluding GPIO2) and that includes the A0 analog GPIO. 
 

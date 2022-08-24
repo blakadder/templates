@@ -12,5 +12,5 @@ flash: serial
 category: diy
 type: Module
 standard: global
+footprint: TYWE2S
 ---
-This module is pin compatible with TYWE2S, WR2, WB2, WBR2, WR2E, WB2S, CB2S, WA2

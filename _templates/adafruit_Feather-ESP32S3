@@ -16,15 +16,9 @@ A Feather form factor ESP32-S3 dev board with 1S LiPo battery monitoring.
 
 This board uses an [`ESP32-S3-MINI-1-P1N8`](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf) module with 8MB of flash and no PSRAM.
 
-## Flashing
-
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the USB port exposes a serial connection. This can be used to easily flash new firmware.
 
-For flashing via `tasmota32s3-bluetooth.factory.bin`, download the [tasmota32s3-bluetooth.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3-bluetooth.factory.bin) file.
-
-```sh
-esptool.py --chip esp32s3 --baud 115200 --before default_reset --after hard_reset --erase-all -z 0x0 tasmota32s3-bluetooth.factory.bin
-```
+{% include flash/s3.md %}
 
 ## Device Notes
 

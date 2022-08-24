@@ -8,15 +8,15 @@ link: https://www.aliexpress.com/item/1005003777095035.html
 link2: https://youtu.be/s3rMb4opuDg
 mlink: 
 flash: replace
-category: diy
+category: plug
 type: Plug
 standard: [eu, uk, us, au]
 ---
 
-### Open
+## Open
 Remove the three screws in the back of the device and pry. 
 
-### Connect ESP
+## Connect ESP
 Remove screws and detach the main pcb from the back cover, then identify and solder wires to the TX, RX and GND in the ribbon cable solder joint to the ESP as below:
 
 Tx - 1Kohm - GPIO 4

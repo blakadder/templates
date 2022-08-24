@@ -180,18 +180,6 @@ layout: default
     <br><br>
     <p>
   {% endif %}
-  
-  {% if page.templatec3 != nil or page.chip == "c3" %}
-    Flash only with ESP32-C3 <code>tasmota32c3...</code> binaries. 
-    <br><br>
-    <p>
-  {% endif %}
-
-  {% if page.templates2 != nil or page.chip == "s2" %}
-    Flash only with ESP32-S2 <code>tasmota32s2...</code> binaries.
-    <br><br>
-    <p>
-  {% endif %}
 
   {% if page.flash == 'preflashed' %}
   <b>This device comes with Tasmota already installed!</b>
@@ -199,16 +187,9 @@ layout: default
   <p>
   {% endif %}
 
-  {% if page.templates3 != nil or page.chip == "s3" %}
-    Flash only with ESP32-S3 `tasmota32s3...` binaries. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3.factory.bin">development build</a>.<p>
-    <br><br>
-    <p>
-  {% endif %}
-
   {% if page.author == 'blak' %}
   <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
   {% endif %}
-
 
   {% if page.template != nil %}
     {% assign template = page.template | split: ':' %}
@@ -271,8 +252,10 @@ layout: default
     or page.chip contains 'WR2' 
     or page.chip contains 'WBR2' 
     or page.chip contains 'WB2S' 
+    or page.chip contains 'WR2E' 
     or page.chip contains 'CB2S' 
     or page.chip contains 'WA2' 
+
   %}<a href="WT-01N">WT-01N</a>, <a href="ESP-02S">ESP-02S</a> or <a href="WT32C3-01N">WT32C3-01N</a> 
   {% 
     elsif page.chip contains 'WBLC5' 
@@ -283,6 +266,14 @@ layout: default
   module. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
   <br>
   <p>
+  {% endif %}
+
+  {% if page.footprint != nil %}
+  {% include replace.md %}
+  {% endif %}
+
+  {% if page.type contains 'Camera' %}
+    {% include webcam.md %}
   {% endif %}
 
   {% if page.type contains 'Curtain Switch' %}
@@ -323,12 +314,6 @@ layout: default
 
   {% if page.flash == 'esphome' %}
   Device comes with ESPHome preinstalled and can be easily converted to Tasmota via a browser. Navigate to the device IP address, in the "OTA Update" menu select a <a href="http://ota.tasmota.com/tasmota/release/">downloaded</a> Tasmota binary and click "Update".
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.title contains 'Teckin' or page.title contains 'Lumiman' or page.title contains 'BrilliantSmart' %}
-  <b>NOTICE!!!</b> Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore. Check seller descriptions or contact them before buying!<p>  
   <br><br>
   <p>
   {% endif %}
@@ -417,5 +402,4 @@ layout: default
   {% endif %}
 
 </div>
-
  <div id="amzn-assoc-ad-c632316f-24d7-45e3-9fd2-4f1038ceddbc"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c632316f-24d7-45e3-9fd2-4f1038ceddbc"></script>

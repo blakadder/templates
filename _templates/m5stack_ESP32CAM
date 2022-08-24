@@ -9,7 +9,6 @@ link2: https://www.amazon.com/dp/B092H5GQ4B
 mlink: https://shop.m5stack.com/products/esp32-camera 
 flash: serial
 category: diy
-type: Development Board
+type: Camera
 standard: global
 ---
-Flash with `tasmota32-webcam`

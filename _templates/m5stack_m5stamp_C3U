@@ -11,6 +11,7 @@ templatec3: '{"NAME":"M5Stamp C3U","GPIO":[1,1,1376,1,1,1,1,1,1,32,1,0,0,0,0,0,0
 mlink: https://shop.m5stack.com/products/m5stamp-c3u-mate-with-pin-headers
 link: https://shop.m5stack.com/products/m5stamp-c3u-5pcs
 link2: https://www.aliexpress.com/item/1005003799229271.html
+chip: c3
 ---
 The C3U uses the ESP32-C3's built-in USB Serial for program download.
 
@@ -19,3 +20,5 @@ Enter flash mode: Long press on the center button of the M5Stamp C3U when the po
 Light controls are for the built-in SK6812 RGB LED.
 
 ![Pinout](/assets/images/m5stack_m5stamp_C3U_pinout.jpg)
+
+{% include flash/c3.md %}

@@ -14,6 +14,7 @@ standard: e26
 chip: c3
 ---
 
-## Serial Flashing
-Remove the plastic diffuser. Scrape out the thermal glue holding the LED PCB and lift the PCB up to gain access to the ESP32-C3 module with labelled flashing pads. 
+## Disassembly
+Remove the plastic diffuser. Scrape out the thermal glue holding the LED PCB and lift the PCB up to gain access to the ESP32-C3 module with labelled flashing pads.
 
+{% include flash/c3.md %}

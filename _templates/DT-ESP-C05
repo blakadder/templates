@@ -11,8 +11,10 @@ type: Module
 standard: global
 templatec3: 'Module 1'
 chip: c3
+footprint: dt-light
 ---
-Module is pin compatible with TYWE2L, WR2L, WB2L, WBR2L, CB2L
+
+{% include flash/c3.md %}
 
 ![Pinout](/assets/images/DT-ESP-C05_pinout.jpg)
 

@@ -12,10 +12,9 @@ flash: serial
 category: diy
 type: Module
 standard: global
+footprint: tylc5
 ---
-Tiny ESP8285 module 13.5x8.5x2.6mm with 2MB memory. Does not have a PCB antenna. Identical pinout as Tuya [TYLC5](https://developer.tuya.com/en/docs/iot/device-development/module/wifi-module/lc-series-module/wifilc5module), WBLC5 and CBLC5 modules.
-
-## Serial Flashing
+Tiny ESP8285 module 13.5x8.5x2.6mm with 2MB memory. Does not have a PCB antenna.
 
 ![Pinout](/assets/images/ESP-01D_pinout.jpg)
 

@@ -17,15 +17,9 @@ An ESP32-C3 dev board in the tiny (22mm x 17.9mm) [Seeduino XIAO](https://www.se
 
 This board uses an [`ESP32-C3FH4AZ`](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf) chip with 4 MB of flash.
 
-## Flashing
-
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB port exposes a serial connection. This can be used to easily flash new firmware.
 
-For flashing via `esptool.py`, download the [tasmota32c3-bluetooth.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32c3-bluetooth.factory.bin) file.
-
-```sh
-esptool.py --chip esp32c3 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32c3.factory.bin
-```
+{% include flash/c3.md %}
 
 ## Device Notes
 
