@@ -1,0 +1,888 @@
+- component: 0
+  label: None
+- component: 1
+  label: User
+- component: 32
+  label: Button1
+- component: 33
+  label: Button2
+- component: 34
+  label: Button3
+- component: 35
+  label: Button4
+- component: 36
+  label: Button5
+- component: 37
+  label: Button6
+- component: 38
+  label: Button7
+- component: 39
+  label: Button8
+- component: 64
+  label: Button_n1
+- component: 65
+  label: Button_n2
+- component: 66
+  label: Button_n3
+- component: 67
+  label: Button_n4
+- component: 68
+  label: Button_n5
+- component: 69
+  label: Button_n6
+- component: 70
+  label: Button_n7
+- component: 71
+  label: Button_n8
+- component: 96
+  label: Button_i1
+- component: 97
+  label: Button_i2
+- component: 98
+  label: Button_i3
+- component: 99
+  label: Button_i4
+- component: 100
+  label: Button_i5
+- component: 101
+  label: Button_i6
+- component: 102
+  label: Button_i7
+- component: 103
+  label: Button_i8
+- component: 128
+  label: Button_in1
+- component: 129
+  label: Button_in2
+- component: 130
+  label: Button_in3
+- component: 131
+  label: Button_in4
+- component: 132
+  label: Button_in5
+- component: 133
+  label: Button_in6
+- component: 134
+  label: Button_in7
+- component: 135
+  label: Button_in8
+- component: 160
+  label: Switch1
+- component: 161
+  label: Switch2
+- component: 162
+  label: Switch3
+- component: 163
+  label: Switch4
+- component: 164
+  label: Switch5
+- component: 165
+  label: Switch6
+- component: 166
+  label: Switch7
+- component: 167
+  label: Switch8
+- component: 192
+  label: Switch_n1
+- component: 193
+  label: Switch_n2
+- component: 194
+  label: Switch_n3
+- component: 195
+  label: Switch_n4
+- component: 196
+  label: Switch_n5
+- component: 197
+  label: Switch_n6
+- component: 198
+  label: Switch_n7
+- component: 199
+  label: Switch_n8
+- component: 224
+  label: Relay1
+- component: 225
+  label: Relay2
+- component: 226
+  label: Relay3
+- component: 227
+  label: Relay4
+- component: 228
+  label: Relay5
+- component: 229
+  label: Relay6
+- component: 230
+  label: Relay7
+- component: 231
+  label: Relay8
+- component: 256
+  label: Relay_i1
+- component: 257
+  label: Relay_i2
+- component: 258
+  label: Relay_i3
+- component: 259
+  label: Relay_i4
+- component: 260
+  label: Relay_i5
+- component: 261
+  label: Relay_i6
+- component: 262
+  label: Relay_i7
+- component: 263
+  label: Relay_i8
+- component: 288
+  label: Led1
+- component: 289
+  label: Led2
+- component: 290
+  label: Led3
+- component: 291
+  label: Led4
+- component: 320
+  label: Led_i1
+- component: 321
+  label: Led_i2
+- component: 322
+  label: Led_i3
+- component: 323
+  label: Led_i4
+- component: 352
+  label: Counter1
+- component: 353
+  label: Counter2
+- component: 354
+  label: Counter3
+- component: 355
+  label: Counter4
+- component: 384
+  label: Counter_n1
+- component: 385
+  label: Counter_n2
+- component: 386
+  label: Counter_n3
+- component: 387
+  label: Counter_n4
+- component: 416
+  label: PWM1
+- component: 417
+  label: PWM2
+- component: 418
+  label: PWM3
+- component: 419
+  label: PWM4
+- component: 420
+  label: PWM5
+- component: 448
+  label: PWM_i1
+- component: 449
+  label: PWM_i2
+- component: 450
+  label: PWM_i3
+- component: 451
+  label: PWM_i4
+- component: 452
+  label: PWM_i5
+- component: 480
+  label: Buzzer
+- component: 512
+  label: Buzzer_i
+- component: 544
+  label: LedLink
+- component: 576
+  label: LedLink_i
+- component: 608
+  label: I2C SCL1
+- component: 640
+  label: I2C SDA1
+- component: 672
+  label: SPI MISO1
+- component: 704
+  label: SPI MOSI1
+- component: 736
+  label: SPI CLK1
+- component: 768
+  label: SPI CS1
+- component: 800
+  label: SPI DC1
+- component: 832
+  label: SSPI MISO
+- component: 864
+  label: SSPI MOSI
+- component: 896
+  label: SSPI SCLK
+- component: 928
+  label: SSPI CS
+- component: 960
+  label: SSPI DC
+- component: 992
+  label: Backlight
+- component: 1024
+  label: Display Rst
+- component: 1056
+  label: IRsend1
+- component: 1057
+  label: IRsend2
+- component: 1058
+  label: IRsend3
+- component: 1059
+  label: IRsend4
+- component: 1060
+  label: IRsend5
+- component: 1061
+  label: IRsend6
+- component: 1062
+  label: IRsend7
+- component: 1063
+  label: IRsend8
+- component: 1064
+  label: IRsend9
+- component: 1065
+  label: IRsend10
+- component: 1066
+  label: IRsend11
+- component: 1067
+  label: IRsend12
+- component: 1068
+  label: IRsend13
+- component: 1069
+  label: IRsend14
+- component: 1070
+  label: IRsend15
+- component: 1071
+  label: IRsend16
+- component: 1088
+  label: IRrecv
+- component: 1120
+  label: RFSend
+- component: 1152
+  label: RFrecv
+- component: 1184
+  label: DHT11
+- component: 1216
+  label: AM2301
+- component: 1248
+  label: SI7021
+- component: 1280
+  label: DHT11_o
+- component: 1312
+  label: DS18x20
+- component: 1344
+  label: DS18x20_o
+- component: 1376
+  label: WS2812
+- component: 1408
+  label: MHZ Tx
+- component: 1440
+  label: MHZ Rx
+- component: 1472
+  label: PZEM0XX Tx
+- component: 1504
+  label: PZEM004 Rx
+- component: 1536
+  label: PZEM016 Rx
+- component: 1568
+  label: PZEM017 Rx
+- component: 1600
+  label: SAir Tx
+- component: 1632
+  label: SAir Rx
+- component: 1664
+  label: PMS5003 Tx
+- component: 1696
+  label: PMS5003 Rx
+- component: 1728
+  label: SDS0X1 Tx
+- component: 1760
+  label: SDS0X1 Rx
+- component: 1792
+  label: SerBr Tx
+- component: 1824
+  label: SerBr Rx
+- component: 1856
+  label: SR04 Tri/TX
+- component: 1888
+  label: SR04 Ech/RX
+- component: 1920
+  label: SDMx20 Tx
+- component: 1952
+  label: SDMx20 Rx
+- component: 1984
+  label: SDM630 Tx
+- component: 2016
+  label: SDM630 Rx
+- component: 2048
+  label: TM1638 CLK
+- component: 2080
+  label: TM1638 DIO
+- component: 2112
+  label: TM1638 STB
+- component: 2144
+  label: MP3 Player
+- component: 2176
+  label: HX711 SCK
+- component: 2208
+  label: HX711 DAT
+- component: 2240
+  label: TX2x
+- component: 2272
+  label: Tuya Tx
+- component: 2304
+  label: Tuya Rx
+- component: 2336
+  label: MGC3130 Xfr
+- component: 2368
+  label: MGC3130 Rst
+- component: 2400
+  label: RF Sensor
+- component: 2432
+  label: AZ Tx
+- component: 2464
+  label: AZ Rx
+- component: 2496
+  label: MX31855 CS
+- component: 2528
+  label: MX31855 CLK
+- component: 2560
+  label: MX31855 DO
+- component: 2592
+  label: HLWBL SEL
+- component: 2624
+  label: HLWBL SEL_i
+- component: 2656
+  label: HLWBL CF1
+- component: 2688
+  label: HLW8012 CF
+- component: 2720
+  label: BL0937 CF
+- component: 2752
+  label: MCP39F5 Tx
+- component: 2784
+  label: MCP39F5 Rx
+- component: 2816
+  label: MCP39F5 Rst
+- component: 2848
+  label: PN532 Tx
+- component: 2880
+  label: PN532 Rx
+- component: 2912
+  label: SM16716 CLK
+- component: 2944
+  label: SM16716 DAT
+- component: 2976
+  label: SM16716 PWR
+- component: 3008
+  label: MY92x1 DI
+- component: 3040
+  label: MY92x1 DCKI
+- component: 3072
+  label: CSE7766 Tx
+- component: 3104
+  label: CSE7766 Rx
+- component: 3136
+  label: ALux IrRcv
+- component: 3168
+  label: ALux IrSel
+- component: 3200
+  label: Serial Tx
+- component: 3232
+  label: Serial Rx
+- component: 3264
+  label: RotaryA1
+- component: 3265
+  label: RotaryA2
+- component: 3296
+  label: RotaryB1
+- component: 3297
+  label: RotaryB2
+- component: 3328
+  label: ADC Joystick
+- component: 3360
+  label: MX31865 CS1
+- component: 3361
+  label: MX31865 CS2
+- component: 3362
+  label: MX31865 CS3
+- component: 3363
+  label: MX31865 CS4
+- component: 3364
+  label: MX31865 CS5
+- component: 3365
+  label: MX31865 CS6
+- component: 3392
+  label: HRE Clock
+- component: 3424
+  label: HRE Data
+- component: 3456
+  label: ADE7953 IRQ1
+- component: 3457
+  label: ADE7953 IRQ2
+- component: 3488
+  label: SolaxX1 Tx
+- component: 3520
+  label: SolaxX1 Rx
+- component: 3552
+  label: Zigbee Tx
+- component: 3584
+  label: Zigbee Rx
+- component: 3616
+  label: RDM6300 RX
+- component: 3648
+  label: iBeacon TX
+- component: 3680
+  label: iBeacon RX
+- component: 3712
+  label: A4988 DIR
+- component: 3744
+  label: A4988 STP
+- component: 3776
+  label: A4988 ENA
+- component: 3808
+  label: A4988 MS11
+- component: 3809
+  label: A4988 MS12
+- component: 3810
+  label: A4988 MS13
+- component: 3840
+  label: Output Hi
+- component: 3872
+  label: Output Lo
+- component: 3904
+  label: DDS238-2 Tx
+- component: 3936
+  label: DDS238-2 Rx
+- component: 3968
+  label: DDSU666 Tx
+- component: 4000
+  label: DDSU666 Rx
+- component: 4032
+  label: SM2135 Clk
+- component: 4064
+  label: SM2135 Dat1
+- component: 4065
+  label: SM2135 Dat2
+- component: 4066
+  label: SM2135 Dat3
+- component: 4067
+  label: SM2135 Dat4
+- component: 4068
+  label: SM2135 Dat5
+- component: 4069
+  label: SM2135 Dat6
+- component: 4070
+  label: SM2135 Dat7
+- component: 4096
+  label: DeepSleep
+- component: 4128
+  label: EXS Enable
+- component: 4160
+  label: Client TX
+- component: 4192
+  label: Client RX
+- component: 4224
+  label: Client RST
+- component: 4256
+  label: Client RST_i
+- component: 4288
+  label: HPMA Rx
+- component: 4320
+  label: HPMA Tx
+- component: 4352
+  label: GPS RX
+- component: 4384
+  label: GPS TX
+- component: 4416
+  label: HM10 RX
+- component: 4448
+  label: HM10 TX
+- component: 4480
+  label: LE-01MR Rx
+- component: 4512
+  label: LE-01MR Tx
+- component: 4544
+  label: CC1101 GDO0
+- component: 4576
+  label: CC1101 GDO2
+- component: 4608
+  label: HRXL Rx
+- component: 4640
+  label: MOODL Tx
+- component: 4672
+  label: AS3935
+- component: 4704
+  label: ADC Input
+- component: 4736
+  label: ADC Temp
+- component: 4768
+  label: ADC Light
+- component: 4800
+  label: ADC Button
+- component: 4832
+  label: ADC Button_i
+- component: 4864
+  label: ADC Range
+- component: 4896
+  label: ADC CT Power
+- component: 4928
+  label: OpenTherm RX
+- component: 4960
+  label: OpenTherm TX
+- component: 4992
+  label: WindMeter Spd
+- component: 5024
+  label: Button_tc
+- component: 5056
+  label: BL0940 Rx
+- component: 5088
+  label: TCP Tx
+- component: 5120
+  label: TCP Rx
+- component: 5152
+  label: TInfo Rx
+- component: 5184
+  label: TInfo EN
+- component: 5216
+  label: LMT01 Pulse
+- component: 5248
+  label: iEM3000 TX
+- component: 5280
+  label: iEM3000 RX
+- component: 5312
+  label: Zigbee Rst1
+- component: 5313
+  label: Zigbee Rst2
+- component: 5344
+  label: DYP Rx
+- component: 5376
+  label: MiEl HVAC Tx
+- component: 5408
+  label: MiEl HVAC Rx
+- component: 5440
+  label: WE517 Tx
+- component: 5472
+  label: WE517 Rx
+- component: 5504
+  label: AS608 Tx
+- component: 5536
+  label: AS608 Rx
+- component: 5568
+  label: SHD Boot 0
+- component: 5600
+  label: SHD Reset
+- component: 5632
+  label: RC522 Rst
+- component: 5664
+  label: P9813 Clk
+- component: 5696
+  label: P9813 Dat
+- component: 5728
+  label: OptionA1
+- component: 5729
+  label: OptionA2
+- component: 5730
+  label: OptionA3
+- component: 5731
+  label: OptionA4
+- component: 5732
+  label: OptionA5
+- component: 5733
+  label: OptionA6
+- component: 5760
+  label: FTC532
+- component: 5792
+  label: RC522 CS
+- component: 5824
+  label: NRF24 CS
+- component: 5856
+  label: NRF24 DC
+- component: 5888
+  label: ILI9341 CS
+- component: 5920
+  label: ILI9341 DC
+- component: 5952
+  label: ILI9488 CS
+- component: 5984
+  label: EPaper29 CS
+- component: 6016
+  label: EPaper42 CS
+- component: 6048
+  label: SSD1351 CS
+- component: 6080
+  label: RA8876 CS
+- component: 6112
+  label: ST7789 CS
+- component: 6144
+  label: ST7789 DC
+- component: 6176
+  label: SSD1331 CS
+- component: 6208
+  label: SSD1331 DC
+- component: 6240
+  label: SDCard CS
+- component: 6272
+  label: RotaryA_n1
+- component: 6273
+  label: RotaryA_n2
+- component: 6304
+  label: RotaryB_n1
+- component: 6305
+  label: RotaryB_n2
+- component: 6336
+  label: ADC pH
+- component: 6368
+  label: BS814 CLK
+- component: 6400
+  label: BS814 DAT
+- component: 6432
+  label: Wiegand D0
+- component: 6464
+  label: Wiegand D1
+- component: 6496
+  label: NeoPool Tx
+- component: 6528
+  label: NeoPool Rx
+- component: 6560
+  label: SDM72 Tx
+- component: 6592
+  label: SDM72 Rx
+- component: 6624
+  label: TM1637 CLK
+- component: 6656
+  label: TM1637 DIO
+- component: 6688
+  label: DLP Tx
+- component: 6720
+  label: DLP Rx
+- component: 6752
+  label: SSD1351 DC
+- component: 6784
+  label: XPT2046 CS
+- component: 6816
+  label: CSE7761 Tx
+- component: 6848
+  label: CSE7761 Rx
+- component: 6880
+  label: VL53LXX XSHUT1
+- component: 6881
+  label: VL53LXX XSHUT2
+- component: 6882
+  label: VL53LXX XSHUT3
+- component: 6883
+  label: VL53LXX XSHUT4
+- component: 6884
+  label: VL53LXX XSHUT5
+- component: 6885
+  label: VL53LXX XSHUT6
+- component: 6886
+  label: VL53LXX XSHUT7
+- component: 6887
+  label: VL53LXX XSHUT8
+- component: 6912
+  label: MAX7219 CLK
+- component: 6944
+  label: MAX7219 DIN
+- component: 6976
+  label: MAX7219 CS
+- component: 7008
+  label: TFmini+ TX
+- component: 7040
+  label: TFmini+ RX
+- component: 7072
+  label: ZC Pulse
+- component: 7104
+  label: Input1
+- component: 7105
+  label: Input2
+- component: 7106
+  label: Input3
+- component: 7107
+  label: Input4
+- component: 7108
+  label: Input5
+- component: 7109
+  label: Input6
+- component: 7110
+  label: Input7
+- component: 7111
+  label: Input8
+- component: 7136
+  label: I2S DOUT1
+- component: 7168
+  label: I2S BCLK1
+- component: 7200
+  label: I2S WS1
+- component: 7232
+  label: I2S DIN1
+- component: 7264
+  label: I2S WS IN1
+- component: 7296
+  label: I2S BCLK IN1
+- component: 7328
+  label: Interrupt1
+- component: 7329
+  label: Interrupt2
+- component: 7330
+  label: Interrupt3
+- component: 7331
+  label: Interrupt4
+- component: 7332
+  label: Interrupt5
+- component: 7333
+  label: Interrupt6
+- component: 7334
+  label: Interrupt7
+- component: 7335
+  label: Interrupt8
+- component: 7360
+  label: MCP2515 CS
+- component: 7392
+  label: HRG15 Tx
+- component: 7424
+  label: HRG15 Rx
+- component: 7456
+  label: VINDRIKTNING
+- component: 7488
+  label: BL0939 Rx
+- component: 7520
+  label: BL0942 Rx
+- component: 7552
+  label: HM330X SET
+- component: 7584
+  label: Heartbeat
+- component: 7616
+  label: Heartbeat_i
+- component: 7648
+  label: 74x595 SRCLK
+- component: 7680
+  label: 74x595 RCLK
+- component: 7712
+  label: 74x595 OE
+- component: 7744
+  label: 74x595 SER
+- component: 7776
+  label: SolaxX1 RTS
+- component: 7808
+  label: OptionE
+- component: 7840
+  label: SDM230 Tx
+- component: 7872
+  label: SDM230 Rx
+- component: 7904
+  label: ADC MQ
+- component: 7936
+  label: CM110x TX
+- component: 7968
+  label: CM110x RX
+- component: 8000
+  label: BL6523 Tx
+- component: 8032
+  label: BL6523 Rx
+- component: 8064
+  label: ADE7880 IRQ1
+- component: 8065
+  label: ADE7880 IRQ2
+- component: 8096
+  label: Reset
+- component: 8128
+  label: MS01
+- component: 8160
+  label: SDIO CMD
+- component: 8192
+  label: SDIO CLK
+- component: 8224
+  label: SDIO D0
+- component: 8256
+  label: SDIO D1
+- component: 8288
+  label: SDIO D2
+- component: 8320
+  label: SDIO D3
+- component: 8352
+  label: Flowrate1
+- component: 8353
+  label: Flowrate2
+- component: 8384
+  label: BP5758D Clk
+- component: 8416
+  label: BP5758D Dat
+- component: 8448
+  label: SM2335 Clk
+- component: 8480
+  label: SM2335 Dat1
+- component: 8481
+  label: SM2335 Dat2
+- component: 8482
+  label: SM2335 Dat3
+- component: 8483
+  label: SM2335 Dat4
+- component: 8484
+  label: SM2335 Dat5
+- component: 8485
+  label: SM2335 Dat6
+- component: 8486
+  label: SM2335 Dat7
+- component: 8487
+  label: SM2335 Dat8
+- component: 8488
+  label: SM2335 Dat9
+- component: 8489
+  label: SM2335 Dat10
+- component: 8490
+  label: SM2335 Dat11
+- component: 8491
+  label: SM2335 Dat12
+- component: 8492
+  label: SM2335 Dat13
+- component: 8493
+  label: SM2335 Dat14
+- component: 8494
+  label: SM2335 Dat15
+- component: 8495
+  label: SM2335 Dat16
+- component: 8512
+  label: MP3 Busy
+- component: 8544
+  label: TM1621 CS
+- component: 8576
+  label: TM1621 WR
+- component: 8608
+  label: TM1621 RD
+- component: 8640
+  label: TM1621 DAT
+- component: 8672
+  label: Relay_b1
+- component: 8673
+  label: Relay_b2
+- component: 8674
+  label: Relay_b3
+- component: 8675
+  label: Relay_b4
+- component: 8676
+  label: Relay_b5
+- component: 8677
+  label: Relay_b6
+- component: 8678
+  label: Relay_b7
+- component: 8679
+  label: Relay_b8
+- component: 8704
+  label: Relay_bi1
+- component: 8705
+  label: Relay_bi2
+- component: 8706
+  label: Relay_bi3
+- component: 8707
+  label: Relay_bi4
+- component: 8708
+  label: Relay_bi5
+- component: 8709
+  label: Relay_bi6
+- component: 8710
+  label: Relay_bi7
+- component: 8711
+  label: Relay_bi8
+- component: 8736
+  label: I2S MCLK1
+- component: 8768
+  label: ModBr Tx
+- component: 8800
+  label: ModBr Rx
