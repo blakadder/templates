@@ -1,6 +1,6 @@
 ---
 date_added: 2022-08-20
-title: Q-touch 433Mhz 1 Gang 
+title: Q-touch 433MHz 1 Gang 
 model: QBP.W1.WIFI-TOUCH
 image: /assets/images/q-touch_QBP_W1_WIFI-TOUCH.jpg
 template9: '{"NAME":"Qtouch 1G","GPIO":[32,0,0,0,0,0,0,0,224,288,0,0,0,0],"FLAG":0,"BASE":18}' 
