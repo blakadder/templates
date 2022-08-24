@@ -14,7 +14,6 @@ type: Module
 standard: global
 footprint: esp12
 ---
-{% include replace.md %}
 
 ESP-12 is the most common Wi-Fi module format.
 
