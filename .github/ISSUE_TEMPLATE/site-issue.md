@@ -1,6 +1,5 @@
 ---
-name: 
-Site issue
+name: Site issue
 Other issues
 about: Only submit issues with broken image links, product links and wrong template
   information. We do not offer support with configuring the devices or creating templates
