@@ -269,11 +269,11 @@ layout: default
   {% endif %}
 
   {% if page.footprint != nil %}
-  {% include replace.md %}
+  {% include flash/replace.md %}
   {% endif %}
 
   {% if page.type contains 'Camera' %}
-    {% include webcam.md %}
+    {% include flash/webcam.md %}
   {% endif %}
 
   {% if page.type contains 'Curtain Switch' %}

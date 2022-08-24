@@ -13,7 +13,7 @@ mlink: http://www.chinalctech.com/cpzx/Programmer/517.html
 ---
 This dev board can be powered only by AC 90V-250V. Do not flash while powered this way.
 
-The relay on the board clicks on reboot because it's using a restricted pin.
+Flash with `tasmota32-nspanel.bin`, otherwise the relay on the board clicks on reboot because it's using a pin reserved for PSRAM.
 
 ### Flashing
 
