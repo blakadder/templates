@@ -13,6 +13,8 @@ mlink: http://www.chinalctech.com/cpzx/Programmer/517.html
 ---
 This dev board can be powered only by AC 90V-250V. Do not flash while powered this way.
 
+The relay on the board clicks on reboot because it's using a restricted pin.
+
 ### Flashing
 
 ***WARNING: DO NOT IN ANY CIRCUMSTANCE OPERATE THE DEVICE WHILE CONNECTED TO AC POWER***
