@@ -32,6 +32,10 @@ DpId5
 
 '00000063' is the current temp in hex.
 
+DpType2Id5
+
+Returns the current temp in Deg C.
+
 `setoption66 1` to publish all Tuyareceived data to topic.
 
 Home assitant MQTT Temperature sensor
