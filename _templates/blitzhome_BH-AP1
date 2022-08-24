@@ -28,13 +28,13 @@ To gain access to the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) m
 | dpID | Function        | Datatype | Additional Comments |
 | ---- |-------------    | -------  | ---------- |
 | 1    | Power on/off    | Boolean  | Main power
-| 2    | PM 2.5 sensor   | Integer  | Reporting in µg/m³. Tasmota v12.0.2.4+ is needed to support fnId 80
+| 2    | PM 2.5 sensor   | Integer  | Reporting in µg/m³, 499 being max value. Tasmota v12.0.2.4+ is needed to support fnId 80
 | 3    | Working Mode    | Enum     | `0` = Sleep , `1` = Auto, `2` = Manual
 | 4    | Fan Speed       | Enum     | `0` = Speed 1, `1` = Speed 2
 | 5    | Filter life     | Integer  | Reports in percentage remaining
 | 11   | Reset Filter    | Boolean  | Not reported with `TuyaSend0`
 | 19   | Preset Timer    | Enum     | `0` = off, `1` = 1h, `2` = 2h, `3` = 4h, `4` = 8h
-| 22   | Air Quality     | Enum     | `0` = good, `1` = moderate, `2` = unhealthy
+| 22   | Air Quality     | Enum     | `0` = excellent, `1` = good, `2` = poor
 
 ## Configuration
 
@@ -54,8 +54,4 @@ Working mode is controlled with `TuyaEnum1` and fan speed controlled with `TuyaE
 
 ## Home Assistant Integration
 
-![Basic integration in Home Assistant](/assets/images/blitzhome_BH-AP1_ha.jpg)
-
-While working this configuration option does not integrate perfectly in Home Assistant. You will need to manually change the names and icons for the sensors and there is no mode or speed control.
-
-Find an advanced configuration using rules and blueprints at [blakadder.com](//blakadder.com/bh-ap1-in-home-assistant)
+Advanced configuration using rules and a blueprint on [blakadder.com](//blakadder.com/bh-ap1-in-home-assistant/)
