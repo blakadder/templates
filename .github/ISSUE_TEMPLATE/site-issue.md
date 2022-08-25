@@ -26,7 +26,7 @@ Seconds | 301 | 283
 
 
 
-|  -----  | ----- |
+|  | |
 |  -----  | ----- |
 | Issue description |    |
 | Resolution description |     |
