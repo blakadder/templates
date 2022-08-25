@@ -25,8 +25,8 @@ Seconds | 301 | 283
 | Seconds | 301 | 283 |
 
 
-|  -----  | ----- |
 |     |     |
+|  -----  | ----- |
 | Issue description |    |
 | Resolution description |     |
 | RFC Url |     |
