@@ -30,4 +30,5 @@ Seconds | 301 | 283
 | Resolution description |     |
 | RFC Url |     |
 | Unit tests |     |
+|  -----  | ----- |
 
