@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: relay
-type: module
+type: Relay Board
 standard: global
 chip: PSF-B
 ---
