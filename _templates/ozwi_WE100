@@ -1,0 +1,15 @@
+---
+date_added: 2022-08-26
+title: OZWI Smart
+model: WE100
+image: /assets/images/ozwi_WE100.jpg
+template9: '{"NAME":"OZWI Smart Plug","GPIO":[0,0,0,0,288,0,0,0,224,32,544,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.cccme.cn/products/detail-8258538.aspx
+link2: 
+mlink: http://www.atielectronics.com/
+flash: serial
+category: plug
+type: Plug
+standard: [uk, us, eu]
+---
+The plug is soldered with a ATK-ESP8266, flash it with serial connection.
