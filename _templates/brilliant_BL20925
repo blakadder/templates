@@ -11,3 +11,13 @@ template: '{"NAME":"BL20925","GPIO":[0,0,0,17,133,132,0,0,131,158,21,0,0],"FLAG"
 link2: https://www.ebay.com.au/itm/Brilliant-Lighting-Smart-WiFi-Plug-with-Energy-Monitoring-/323950894186
 ---
 ## Warning! The **"SERIES II"** version is **not** ESP based and uses WB2S instead.
+
+The WB2S can be replaced with an ESP8266EX, [ESP-02S](/ESP-02S) which is pin-compatible. However, this is quite envolved:
+
+There are no screws and the 2 part shell is glued/welded together.  To separate, find the seam at the back and very carefully use a sharp instrument to prize the seam to beak the seal.
+
+In order to accsess the pads of the controller, the AC power pins must be desoldered.
+
+Once the AC pins are fully desoldered the board can be fliped over and the WB2S removed and swaped for a pre-flashed and configured ESP-02S.
+
+With the ESP installed properly and fully re-solder the AC pins, place the front cover back on, and use some glue to ensure it does not fall off.
