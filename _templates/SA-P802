@@ -1,0 +1,17 @@
+---
+date_added: 2022-08-27
+title: 4 AC Outlets 10A and 4 USB Ports 
+model: SA-P802
+link: https://www.alibaba.com/product-detail/China-Manufacturer-WiFi-10A-Four-Outlet_1600450465054.html
+mlink: https://expo.tuya.com/product/364001
+image: /assets/images/SA-P802.jpg
+template: '{"NAME":"SA-P802 Power Strip","GPIO":[157,0,0,0,24,25,0,0,22,21,23,0,20],"FLAG":15,"BASE":18}' 
+link2: https://shopee.ph/Smart-Socket-WiFi-Smart-Plug-4-Socket-4-USB-Port-Extention-Power-Socket-Strip-ULink-4u--i.484258574.8185812076
+flash: serial
+category: plug
+type: Power Strip
+standard: us
+---
+Circuit actually contains a fifth relay on the common neutral wire that needs to be turned on whenever one of the 4 relays/outlets is turned on.
+
+![](https://images-na.ssl-images-amazon.com/images/I/71jFpqhM2JL._AC_SL1500_.jpg)

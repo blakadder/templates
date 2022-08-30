@@ -66,7 +66,7 @@ rule1 on system#boot do ruletimer 200 endon on rules#timer=1 do backlog event fi
 ### Configuration
 
 ```console
-backlog tuyamcu 11,1; tuyamcu 12,5; tuyamcu 13;6; tuyamcu 71,3; tuyamcu 72,2; tuyamcu 61,4
+backlog tuyamcu 11,1; tuyamcu 12,5; tuyamcu 13,6; tuyamcu 71,3; tuyamcu 72,2; tuyamcu 61,4, tempres 0
 ```
 
 - `Relay1` maps to dpID1 for power control

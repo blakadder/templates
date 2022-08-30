@@ -12,8 +12,8 @@ flash: serial
 category: diy
 type: Module
 standard: global
+footprint: tywe2s
 ---
-This module is pin compatible with TYWE2S, WR2, WB2, WBR2, WR2E, WB2S, CB2S, WA2
 
 ![Pinout](/assets/images/WT-01N_pinout.jpg)
 

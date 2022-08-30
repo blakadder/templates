@@ -1,6 +1,6 @@
 ---
 date_added: 2022-08-24
-title: Multi IR Light and Humand Presence
+title: Multi IR Light and Human Presence
 model: MIR-HE200
 category: unsupported
 type: Sensor

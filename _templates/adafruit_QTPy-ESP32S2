@@ -17,15 +17,9 @@ An ESP32-S2 dev board in the tiny (22mm x 17.9mm) [Seeduino XIAO](https://www.se
 
 This board uses an [`ESP32-S2F-N4R2`](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf) chip with 4 MB of flash and 2 MB of PSRAM.
 
-## Flashing
-
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the USB port exposes a serial connection. This can be used to easily flash new firmware.
 
-For flashing via `tasmota32s2.factory.bin`, download the [tasmota32s2.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.factory.bin) file.
-
-```sh
-esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32s2.factory.bin
-```
+{% include flash/s2.md %}
 
 ## Device Notes
 

@@ -1,6 +1,6 @@
 ---
 date_added: 2022-08-08
-title: Sonoff NSPanel Pro Touich Panel
+title: Sonoff NSPanel Pro Touch Panel
 model: 
 type: Display
 category: unsupported

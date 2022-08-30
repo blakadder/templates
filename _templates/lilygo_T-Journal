@@ -13,4 +13,4 @@ type: Display
 standard: global
 ---
 
-Requires a custom build to support camera and display.
+Requires a custom built binary to support camera and display.

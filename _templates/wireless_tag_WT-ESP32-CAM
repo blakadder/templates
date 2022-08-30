@@ -3,7 +3,7 @@ date_added: 2021-01-19
 title: Wireles Tag Camera
 model: WT-ESP32-CAM
 category: diy
-type: Development Board
+type: Camera
 standard: global
 image: /assets/images/wireless_tag_WT-ESP32-CAM.jpg
 template32: '{"NAME":"WT-ESP32-CAM","GPIO":[4992,1,1,1,1,5088,0,0,1,1,1,1,1,0,5089,5090,0,5091,5184,5152,0,5120,5024,5056,0,0,0,0,4928,0,5094,5095,5092,0,0,5093],"FLAG":0,"BASE":2}' 
@@ -11,5 +11,3 @@ mlink: http://www.wireless-tag.com/portfolio/wt-esp32-cam/
 link: https://www.aliexpress.com/item/4001297119208.html
 link2: https://www.amazon.com/dp/B08C57JHC8
 ---
-
-Flash with [tasmota32-webcam.bin](http://ota.tasmota.com/tasmota32/tasmota32-webcam.bin) firmware.

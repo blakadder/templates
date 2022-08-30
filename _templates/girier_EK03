@@ -1,6 +1,6 @@
 ---
 date_added: 2020-04-12
-title: Girier EK03 RF433Mhz 3 Gang
+title: Girier EK03 RF433MHz 3 Gang
 model: EK03
 image: /assets/images/girier_EK03.jpg
 template: '{"NAME":"EK03","GPIO":[157,0,0,0,22,17,0,0,19,21,23,0,18],"FLAG":0,"BASE":18}' 

@@ -11,9 +11,11 @@ flash: serial
 category: diy
 type: Development Board
 standard: global
+chip: c3
 ---
 
 The classic model (the version with TTL serial port to USB) uses a CH343 driver to connect via USB. [Download CH343 driver](http://www.wch.cn/downloads/CH343SER_EXE.html).
 
-
 ![Pinout](/assets/images/luatos_CORE-ESP32_pinout.jpg)
+
+{% include flash/c3.md %}

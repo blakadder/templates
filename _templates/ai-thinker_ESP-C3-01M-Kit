@@ -14,23 +14,13 @@ link2: https://www.amazon.com/dp/B09G15CDXG
 link3: https://www.alibaba.com/product-detail/Ai-Thinker-ESP-C3-01M-Kit_1600294814076.html
 ---
 
-This is a weird module. Its form factor is one breadboard row wider than a standard D1 Mini. Five of the GPIO's are used by an RGB, a cool white and a warm white LED. 
+This is a weird development board. Its form factor is one breadboard row wider than a standard D1 Mini. Five of the GPIO's are used by an RGB, a cool white and a warm white LED. 
 
 The template is configured with the cool white LED being LedLink and the warm white one as the power LED.
 
 Board comes with headers soldered in as in the image making its difficult to use with a breadboard.
 
-## Flashing
-
-To put the module in flash mode GPIO8 needs to be pulled high and GPIO9 pulled low.
-
-Flash using [Tasmota Web Installer](https://tasmota.github.io/install/) using Tasmota32c3 4M Flash option.
-
-If using esptool.py download [required files](https://github.com/tasmota/install/tree/main/static/esp32-c3) and [tasmota32c3.bin](http://ota.tasmota.com/tasmota32/tasmota32c3.bin) and put them in the same folder.
-
-```bash
-esptool.py --chip esp32c3 --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x0000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32c3.bin
-```
+{% include flash/c3.md %}
 
 ![Back](/assets/images/ai-thinker_ESP-C3-01M-Kit_back.jpg)
 

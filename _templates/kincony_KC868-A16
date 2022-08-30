@@ -8,7 +8,7 @@ link: https://www.aliexpress.com/item/1005004102599835.html
 link2: 
 mlink: https://www.kincony.com/arduino-esp32-16-channel-relay-module-2.html
 flash: serial
-category: diy
+category: relay
 type: Relay Board
 standard: global
 ---

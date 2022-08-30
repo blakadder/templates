@@ -13,5 +13,4 @@ flash: WBR3
 standard: eu
 ---
 
-
-Replaced with pin compatible ESP32-C3
+Replaced with pin [compatible ESP32-C3](ESP-C3-12F)

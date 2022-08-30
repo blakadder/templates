@@ -1,0 +1,16 @@
+---
+date_added: 2022-08-24
+title: LC Technology DC5-60V 1 Channel
+model: ESP32_Relay_X1
+category: relay
+type: Relay Board
+standard: global
+image: /assets/images/ESP32_Relay_X1.jpg
+template32: '{"NAME":"ESP32_Relay_X1","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,224,1,1,1,0,1,1,544,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005003810159682.html
+link2: 
+mlink: http://www.chinalctech.com/cpzx/1/515.html
+---
+### Flashing
+
+Flash using any of the provided TX/RX headers and GND. Supply 5V power from a stable source. Use the IO button to enter flash mode.    
