@@ -14,7 +14,7 @@ link2: https://www.ebay.com.au/itm/Brilliant-Lighting-Smart-WiFi-Plug-with-Energ
 
 The WB2S can be replaced with an ESP8266EX, [ESP-02S](/ESP-02S) which is pin-compatible. However, this is quite envolved:
 
-There are no screws and the 2 part shell is glued/welded together.  To separate, find the seam at the back and very carefully use a sharp instrument to prize the seam to beak the seal.
+There are no screws and the 2 part shell is glued/welded together.  To separate, find the seam at the back and very carefully use a sharp instrument to beak the seal.
 
 In order to accsess the pads of the controller, the AC power pins must be desoldered.
 
