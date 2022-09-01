@@ -5,7 +5,7 @@ model: ESP-02S
 image: /assets/images/ESP-02S.jpg
 template9: '{"NAME":"ESP-02S","GPIO":[1,1,1,1,1,1,0,0,1,1,1,0,0,1],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/1005004110088488.html
-link2: https://www.aliexpress.com/item/1005003736210630.html
+link2: https://www.aliexpress.com/item/1005003949251076.html
 link4: 
 mlink: 
 flash: serial
