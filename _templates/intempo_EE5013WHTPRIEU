@@ -1,0 +1,14 @@
+---
+date_added: 2022-08-28
+title: Intempo 7W
+model: EE5013WHTPRIEU
+image: /assets/images/intempo_EE5013WHTPRIEU.jpg
+template: '{"NAME":"Intempo Light Bulb RGB","GPIO":[0,0,0,0,141,140,0,0,38,142,37,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B085TQ5QRF
+link2: 
+mlink: https://intempo.co.uk/smart-light-bulb-with-screw-in-fitting/
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

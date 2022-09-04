@@ -16,6 +16,7 @@ esp12:
   - module: WB3L
   - module: WB3R
   - module: WB3S
+  - module: WB8
   - module: WR3
   - module: WR3E
   - module: WR3L
