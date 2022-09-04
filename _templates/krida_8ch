@@ -8,7 +8,7 @@ link: https://www.tindie.com/products/bugrovs2012/wifi-tasmota-8-channel-10-apms
 link2: 
 mlink: 
 flash: preflashed
-category: switch
+category: relay
 type: Relay Board
 standard: global
 ---
