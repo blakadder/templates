@@ -9,7 +9,7 @@ link2:
 mlink: https://www.chilitec.de/html/funk-steckdose-fuer-pilota-casa-wifi/item-2-22738-22738-.html
 flash: serial
 category: plug
-type: Wall Outlet
+type: Outdoor Plug
 standard: eu
 ---
 Trying with tuya-convert was unsuccessful, as the device does not seem to be based on Tuya code. Main PCB is labeled as ""RisingSun RS-WIFI06"", a smaller PCB housing an ESP8285 is labeled ""RS-WIFI-03"".
