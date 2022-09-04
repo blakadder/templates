@@ -13,18 +13,11 @@ flash: serial
 category: relay
 type: DIN Relay
 standard: global
+autoconf: true
 ---
 All required pins for serial flashing are available and labelled!
 
 ![PCB](https://user-images.githubusercontent.com/11044339/138559784-5f4b72ef-2719-46fd-8371-dbd81e9eaa00.jpg)
-
-Using latest development branch, compile tasmota32 firmware with:
-
-```c
-#define USE_SONOFF_SPM 
-#define USE_ETHERNET
-```
-and apply the template.
 
 See [GitHub Discussion](https://github.com/arendst/Tasmota/discussions/13447) and [Documentation](https://tasmota.github.io/docs/Sonoff-SPM/) for more info...
 

@@ -268,12 +268,10 @@ layout: default
   <p>
   {% endif %}
 
-  {% if page.footprint != nil %}
-  {% include flash/replace.md %}
-  {% endif %}
-
   {% if page.type contains 'Camera' %}
     {% include flash/webcam.md %}
+    <br><br>
+    <p>
   {% endif %}
 
   {% if page.type contains 'Curtain Switch' %}
@@ -299,6 +297,22 @@ layout: default
   Tuya-Convert might not be possible for this device since the template was added ({{ page.date_added  }}).<br><br>
   <p>
   {% endif %}
+
+  {% if page.footprint != nil %}
+    {% include flash/replace.md %}
+    <p>
+  {% endif %}
+
+  {% if page.build != nil %}
+    {% include flash/flash.html %}
+    <p>
+  {% endif %}
+
+  {% if page.autoconf == true %}
+    {% include flash/autoconf.html %}
+    <p>
+  {% endif %}
+
 
   {% if page.flash == 'esp2ino' %}
   Can be flashed over-the-air with <a href="https://github.com/elahd/esp2ino">esp2ino Flasher</a>.
@@ -402,4 +416,5 @@ layout: default
   {% endif %}
 
 </div>
- <div id="amzn-assoc-ad-c632316f-24d7-45e3-9fd2-4f1038ceddbc"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c632316f-24d7-45e3-9fd2-4f1038ceddbc"></script>
+
+<div id="amzn-assoc-ad-c632316f-24d7-45e3-9fd2-4f1038ceddbc"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c632316f-24d7-45e3-9fd2-4f1038ceddbc"></script>

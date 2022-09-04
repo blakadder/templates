@@ -14,6 +14,7 @@ chip: solo1
 category: relay
 type: Switch Module
 standard: global
+autoconf: true
 ---
 
 ![](/assets/images/shelly_plus_1_pinout.jpg)

@@ -11,9 +11,8 @@ flash: serial
 category: diy
 type: Display
 standard: global
+autoconf: true
+build: tasmota32-lvgl
 ---
-Requires [tasmota32-lvgl.bin](http://ota.tasmota.com/tasmota32/release/tasmota32-lvgl.bin) firmware.
 
 Fully supported with all sensors and SD card.
-
-For configuration, use the "Configuration" - "Auto-configuration", select "M5Stack Tough" and apply. 

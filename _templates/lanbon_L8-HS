@@ -12,6 +12,8 @@ link: https://www.banggood.com/110-or-220V-4-in-1-Wifi-LCD-Touch-Screen-Smart-Wa
 link2: https://www.amazon.com/gp/product/B09C58T29H
 link3: https://www.alibaba.com/product-detail/2020-Lanbon-Latest-6-model-in_62347541373.html
 link4: https://www.aliexpress.com/item/1005002063291978.html
+build: tasmota32-lvgl
+autoconf: true
 author: blak
 ---
 Working:
