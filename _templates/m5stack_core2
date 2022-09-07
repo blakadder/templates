@@ -11,9 +11,8 @@ mlink: https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit
 link: https://www.banggood.com/M5Stack-Core2-ESP32-with-Touch-Screen-Development-Board-Kit-WiFi-bluetooth-Graphical-Programming-WiFi-BLE-IoT-M5Stack-for-Arduino-products-that-work-with-official-Arduino-boards-p-1736409.html
 link2: https://www.aliexpress.com/item/1005001664431732.html
 link3: https://www.amazon.com/dp/B08Q7RDC5R
+autoconf: true
+build: tasmota32-lvgl
 ---
-Requires [tasmota32-lvgl.bin](http://ota.tasmota.com/tasmota32/release/tasmota32-lvgl.bin) firmware.
 
 Fully supported with all sensors and SD card.
-
-To complete configuration, go to "Configuration" - "Auto-configuration", select "M5Stack Core2" and apply.

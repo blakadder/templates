@@ -11,6 +11,8 @@ flash: serial
 category: misc
 type: Zigbee Gateway
 standard: global
+autoconf: true
+build: tasmota32-zbbrdgpro
 ---
 
 [ZHA/Zigbee2MQTT instructions on the Zigbee site](https://zigbee.blakadder.com/Sonoff_ZBBridge-P.html)

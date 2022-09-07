@@ -3,14 +3,17 @@ date_added: 2021-05-17
 title: Espressif ESP32-S3-BOX
 model: ESP32-S3-BOX
 category: diy
-type: Development Board
+type: Display
 standard: global
-mlink: https://github.com/espressif/esp-box/
+mlink: https://www.espressif.com/en/news/ESP32-S3-BOX_video
 image: /assets/images/espressif_ESP32-S3-BOX.jpg
 flash: serial
 chip: s3
 templates3: '{"NAME":"ESP-S3-BOX","GPIO":[0,160,0,0,6624,6592,864,896,640,1,1,1,1,1,1,0,0,0,608,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,992,0,0,1024],"FLAG":0,"BASE":1}'
 link: https://www.amazon.com/dp/B09JZ8XWCN
+link2: https://www.aliexpress.com/item/1005003562575450.html
+autoconf: true
+build: tasmota32s3-lvgl
 ---
 
 An IoT development platform from Espressif, primarily intended for use with Espressif's ESP-IDF, but will work with Tasmota.
@@ -18,8 +21,6 @@ An IoT development platform from Espressif, primarily intended for use with Espr
 Uses an [`ESP32-S3-WROOM-1-N16R8`](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf) module with 16 MB flash and 8 MB PSRAM.
 
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the "UART" USB port exposes a serial connection. This can be used to easily flash new firmware.
-
-{% include flash/s3.md %}
 
 ## Display Setup
 

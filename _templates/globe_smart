@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.canadiantire.ca/en/pdp/globe-smart-plug-3995171p.html
-image: https://globe-electric.com/wp-content/uploads/2019/04/50000.jpg
+image: /assets/images/globe_smart.jpg
 template: '{"NAME":"GlobeSmartPlug","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 flash: replace
