@@ -1,0 +1,16 @@
+---
+date_added: 2022-09-04
+title: Oakter Oak Plug Plus 16A
+model: Oak Plug Plus 16A
+image: /assets/images/oakter_oak_plug_plus_16A.jpg
+template9: '{"NAME":"Oakter OakPlug Plus","GPIO":[0,0,0,0,224,0,0,0,544,320,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.croma.com/oakter-16-amp-smart-plug-oak-plug-plus-white-/p/220151
+link2: 
+mlink: https://oakter.com/smart-plugs/
+flash: serial
+category: plug
+type: Plug
+standard: in
+---
+
+[![](/assets/images/oakter_oak_plug_plus_16A_pinout.jpg)](/assets/images/oakter_oak_plug_plus_16A_pinout.jpg)
