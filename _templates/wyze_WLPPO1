@@ -13,9 +13,7 @@ type: Outdoor Plug
 standard: us
 ---
 
-## Serial Flashing
+## Flashing
 There are test points large enough for soldering, BOOT (GPIO0), RXD, TXD, and GND are right next to each other.  3V3 is some distance away (right next to the power cord).
 
 The case has the triangle head security screws that are covered/hidden by rubber plugs that come out easily with a prick puller/awl.
-
-Flashing instructions: https://digiblur.com/2021/03/27/how-to-flash-the-wyze-outdoor-plug-esphome-or-tasmota-local-control/
