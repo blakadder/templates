@@ -3,7 +3,7 @@ date_added: 2021-02-03
 title: Wyze 
 model: WLPPO1
 image: /assets/images/wyze_WLPPO1.jpg
-template32: '{"NAME":"Wyze Plug Outdoor","GPIO":[0,0,0,0,0,576,0,0,0,0,0,224,320,0,0,320,0,0,0,0,0,2624,2656,2720,0,0,0,0,225,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Wyze Plug Outdoor","GPIO":[0,0,0,0,0,576,0,0,0,0,0,224,321,7713,7712,320,0,0,0,0,0,2624,2656,2720,0,0,0,0,225,0,4704,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: 
 link2: 
 mlink: https://wyze.com/wyze-plug-outdoor.html 
@@ -18,6 +18,4 @@ There are test points large enough for soldering, BOOT (GPIO0), RXD, TXD, and GN
 
 The case has the triangle head security screws that are covered/hidden by rubber plugs that come out easily with a prick puller/awl.
 
-Note that the buttons don't work, since they need the ESP32 to pull down the GPIOs and Tasmota doesn't support that currently. This template doesn't disable any GPIOs, since it is necessary for development for the buttons.
-
-Also, not sure where the light sensor connects. It appears to be standard negative resistance sensor in a voltage divider to an ADC capable pin.
+Flashing instructions: https://digiblur.com/2021/03/27/how-to-flash-the-wyze-outdoor-plug-esphome-or-tasmota-local-control/
