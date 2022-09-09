@@ -1,12 +1,13 @@
 ---
-date_added: 2021-09-04
-title: ESP-12E / ESP-12F / ESP-12S
+date_added: 2022-09-04
+title: ESP-12  
 model: ESP-12
 image: /assets/device_images/ESP-12.webp
 template9: '{"NAME":"ESP-12","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,1],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/1005001320458012.html
-link2: https://www.banggood.com/ESP8266-ESP-12E-Remote-Serial-Port-WIFI-Transceiver-Wireless-Module-p-980984.html
-link3: https://www.amazon.com/dp/B07SYNS21H/
+link2: https://www.aliexpress.com/item/1005001641099066.html
+link4: https://www.banggood.com/ESP8266-ESP-12E-Remote-Serial-Port-WIFI-Transceiver-Wireless-Module-p-980984.html
+link3: https://www.amazon.com/dp/B0B37MMDKW/
 mlink: http://www.ai-thinker.com/pro_view-58.html
 flash: serial
 category: diy
@@ -15,19 +16,19 @@ standard: global
 footprint: esp12
 ---
 
-ESP-12 is the most common Wi-Fi module format.
+ESP-12 is the most common Wi-Fi module format nowadays. The same footprint is used by Tuya ([TYWE3S](https://developer.tuya.com/en/docs/iot/wifie3smodule?id=K9605ua1cx9tv), [WB3S](https://developer.tuya.com/en/docs/iot/wb3s-module-datasheet?id=K9dx20n6hz5n4), [CB3S](https://developer.tuya.com/en/docs/iot/cb3s?id=Kai94mec0s076), etc) and other manufacturers which are not using Espressif chips. Because of that a simple module swap is the most straightforward way to install Tasmota on such devices.
 
-ESP-12E/F modules need the GPIO15 pulled low and CH_PD or EN pin pulled high to boot.
+ESP-12S and ESP-12L modules have those pins already pulled internally. It is recommended to choose this version for easier installation.
 
-ESP-12S modules have those pins already pulled internally.
+ESP-12E and ESP-12F modules need the GPIO15 pulled low and CH_PD or EN pin pulled high to boot.
 
-## Serial Flashing ESP-12S
+## Serial Flashing ESP-12L and ESP-12S
 
 ![Wiring ESP-12S](/assets/device_images/ESP-12S_wiring.webp)
 
 [Datasheet](https://www.mouser.com/pdfDocs/ESP-12SDatasheet.pdf)
 
-## Serial Flashing ESP-12E/F
+## Serial Flashing ESP-07, ESP-12E and ESP-12F
 
 ![Wiring ESP-12E/F](/assets/device_images/ESP-12_wiring.webp)
 
