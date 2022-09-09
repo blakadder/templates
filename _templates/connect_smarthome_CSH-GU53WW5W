@@ -2,7 +2,7 @@
 date_added: 2020-06-28
 title: Connect SmartHome GU5.3 5W
 model: CSH-GU53WW5W
-image: /assets/images/connect_smarthome_CSH-GU53WW5W.jpg
+image: /assets/device_images/connect_smarthome_CSH-GU53WW5W.webp
 template: '{"NAME":"Connect CSH-GU53WW5W","GPIO":[0,0,0,0,37,38,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.harveynorman.com.au/connect-smart-5w-gu5-3-white-led-downlight.html
 link2: 

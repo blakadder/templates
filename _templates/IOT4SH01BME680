@@ -2,7 +2,7 @@
 date_added: 2022-05-28
 title: IOT4 Environmental 
 model: IOT4SH01BME680
-image: /assets/images/IOT4SH01BME680.jpg
+image: /assets/device_images/IOT4SH01BME680.webp
 template9: '{"NAME":"IOT4SH01BME680","GPIO":[0,0,0,0,0,0,0,0,640,0,608,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://iot4.eu/product/iot4sh01bme680/
 link2: 

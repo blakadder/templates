@@ -2,7 +2,7 @@
 date_added: 2020-04-27
 title: Jinli XS-SSA01
 model: 
-image: /assets/images/jinli_XS-SSA01.jpg
+image: /assets/device_images/jinli_XS-SSA01.webp
 template: '{"NAME":"JINLI","GPIO":[0,0,0,0,0,0,0,0,56,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07FR5ZCM7/
 link2: 

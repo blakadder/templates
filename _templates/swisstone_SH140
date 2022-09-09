@@ -2,7 +2,7 @@
 date_added: 2022-09-05
 title: Swisstone 4AC 4USB
 model: SH 140
-image: /assets/images/swisstone_SH140.jpg
+image: /assets/device_images/swisstone_SH140.webp
 template9: '{"NAME":"Swisstone SH140","GPIO":[0,576,0,32,225,224,0,0,226,227,228,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07NQB7ML4
 link2: https://www.idealo.de/preisvergleich/Typ/4260117674181.html

@@ -5,7 +5,7 @@ model: WT32C3-S5
 category: diy
 type: Module
 standard: global
-image: /assets/images/wireless_tag_WT32C3-S5.jpg
+image: /assets/device_images/wireless_tag_WT32C3-S5.webp
 templatec3: 'Module 1'
 chip: c3
 footprint: esp12
@@ -20,7 +20,7 @@ Wire the module accordingly:
 
 {% include flash/c3.md %}
 
-![Solderless wiring]( /assets/images/wireless_tag_WT32C3-S5_wired.jpg)
+![Solderless wiring]( image: /assets/device_images/wireless_tag_WT32C3-S5_wired.webp)
 
 You can do it without any soldering. Just apply pressure to make good contact between the Dupont wires and pin holes.
 

@@ -2,7 +2,7 @@
 date_added: 2020-06-12
 title: QuinLED 2 Channel
 model: QuinLED-OG
-image: /assets/images/quinled-og.jpg
+image: /assets/device_images/quinled-og.webp
 template: '{"NAME":"QuinLED 2 channel","GPIO":[37,0,38,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: 
 link2: 

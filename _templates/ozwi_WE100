@@ -2,7 +2,7 @@
 date_added: 2022-08-26
 title: OZWI Smart
 model: WE100
-image: /assets/images/ozwi_WE100.jpg
+image: /assets/device_images/ozwi_WE100.webp
 template9: '{"NAME":"OZWI Smart Plug","GPIO":[0,0,0,0,288,0,0,0,224,32,544,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.cccme.cn/products/detail-8258538.aspx
 link2: 

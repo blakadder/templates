@@ -2,7 +2,7 @@
 date_added: 2020-08-13
 title: AOFO 4AC + 4USB
 model: C379
-image: /assets/images/aofo_C379.jpg
+image: /assets/device_images/aofo_C379.webp
 template: '{"NAME":"AOFO C379 4AC+4USB UK ","GPIO":[0,158,0,17,24,23,0,0,21,25,22,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/gp/product/B07MZSH3CF/
 link2: 

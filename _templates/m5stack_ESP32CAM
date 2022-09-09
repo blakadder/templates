@@ -2,7 +2,7 @@
 date_added: 2022-02-18
 title: M5Stack ESP32CAM Camera Module OV2640
 model: U007
-image: /assets/images/m5stack_ESP32CAM.jpg
+image: /assets/device_images/m5stack_ESP32CAM.webp
 template32: '{"NAME":"M5Cam","GPIO":[0,1,672,1,416,5091,1,1,1,6720,320,4960,1,1,5093,5095,0,5184,5024,5056,0,5120,5152,4992,0,0,0,0,5088,1,5090,5089,5094,0,0,5092],"FLAG":0,"BASE":2}' 
 link: https://www.aliexpress.com/item/1005003297316360.html
 link2: https://www.amazon.com/dp/B092H5GQ4B

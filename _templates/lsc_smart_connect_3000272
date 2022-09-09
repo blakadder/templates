@@ -2,7 +2,7 @@
 date_added: 2020-12-21
 title: LSC 10W 806lm
 model: 3000272
-image: /assets/images/lsc_smart_connect_3000272.jpg
+image: /assets/device_images/lsc_smart_connect_3000272.webp
 template9: '{"NAME":"LSC E27 806lumens","GPIO":[0,0,0,0,416,449,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":48}' 
 link: https://www.action.com/pl-pl/p/inteligentna-arowka-led-lsc-smart-connect/
 link2: 

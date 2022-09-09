@@ -2,7 +2,7 @@
 date_added: 2022-08-30
 title: LSC Outdoor Up and Down 
 model: 3005447
-image: /assets/images/lsc_smart_connect_3005447.jpg
+image: /assets/device_images/lsc_smart_connect_3005447.webp
 template9: '{"NAME":"LSC RGBCCT Outdoor","GPIO":[0,0,0,0,416,418,0,0,419,417,420,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.action.com/fr-fr/p/applique-murale-lsc-smart-connect/
 link2: 

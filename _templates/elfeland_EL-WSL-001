@@ -2,7 +2,7 @@
 date_added: 2020-06-21
 title: Elfeland 10m RGB
 model: EL-WSL-001
-image: /assets/images/elfeland_EL-WSL-001.jpg
+image: /assets/device_images/elfeland_EL-WSL-001.webp
 template: '{"NAME":"Elfeland RGB","GPIO":[0,0,0,0,0,38,0,0,39,51,0,37,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07RZ4N4H9/
 link2: https://www.amazon.com/Elfeland-Changing-Assistant-Controlled-Waterproof/dp/B07QN32BLT

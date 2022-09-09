@@ -4,7 +4,7 @@ title: 4 AC Outlets 10A and 4 USB Ports
 model: SA-P802
 link: https://www.alibaba.com/product-detail/China-Manufacturer-WiFi-10A-Four-Outlet_1600450465054.html
 mlink: https://expo.tuya.com/product/364001
-image: /assets/images/SA-P802.jpg
+image: /assets/device_images/SA-P802.webp
 template: '{"NAME":"SA-P802 Power Strip","GPIO":[157,0,0,0,24,25,0,0,22,21,23,0,20],"FLAG":15,"BASE":18}' 
 link2: https://shopee.ph/Smart-Socket-WiFi-Smart-Plug-4-Socket-4-USB-Port-Extention-Power-Socket-Strip-ULink-4u--i.484258574.8185812076
 flash: serial

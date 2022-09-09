@@ -2,7 +2,7 @@
 date_added: 2020-04-13
 title: Hykker 3m RGB
 model: SL-0292
-image: /assets/images/hykker-SL-0292.jpg
+image: /assets/device_images/hykker-SL-0292.webp
 template: '{"NAME":"HYKKER Strip","GPIO":[0,0,0,0,0,37,0,0,39,17,38,0,0],"FLAG":0,"BASE":18}' 
 link:  
 link2: 

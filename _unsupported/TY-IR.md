@@ -5,7 +5,7 @@ model: TY-IR V0.1
 category: unsupported
 type: LED Controller
 link: https://www.banggood.com/Tuya-WiFi-Smart-APP-RGBW-LED-Strip-Controller-IR-Remote-Control-Work-with-Amazon-Alexa-Google-Home-DC5-24V-p-1746861.html
-image: /assets/images/TY-IR.jpg
+image: /assets/device_images/TY-IR.webp
 link2: 
 link3: 
 chip: TW-03

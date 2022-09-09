@@ -2,7 +2,7 @@
 date_added: 2020-07-14
 title: HIPER IoT C1
 model: HI-C1RGB
-image: /assets/images/hiper_HI-C1RGB.jpg
+image: /assets/device_images/hiper_HI-C1RGB.webp
 template: '{"NAME":"Hiper IoT C1 RGB","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.ozon.ru/context/detail/id/169062078/
 link2: 

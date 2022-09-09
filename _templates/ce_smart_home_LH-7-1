@@ -6,7 +6,7 @@ category: plug
 type: Power Strip
 standard: us
 link: https://www.amazon.com/Wi-Fi-Smart-Outdoor-outlets-Compatible/dp/B07M83WG1J
-image: /assets/images/ce_smart_home_LH-7-1.jpg
+image: /assets/device_images/ce_smart_home_LH-7-1.webp
 template: '{"NAME":"CE Power Stake","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 mlink: https://www.cesmarthome.com/LH-7-1.html
 ---

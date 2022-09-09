@@ -2,7 +2,7 @@
 date_added: 2020-10-03
 title: Mirabella Genio Smart 5M Neon Flex
 model: I002925
-image: /assets/images/mirabella_genio_I002925.jpg
+image: /assets/device_images/mirabella_genio_I002925.webp
 type: LED Strip
 category: unsupported
 standard: au
@@ -15,4 +15,4 @@ mlink:
 # Warning
 As of October 2020 this device comes with a Tuya WB3S module which cannot be flashed with Tasmota.
 
-![](/assets/images/mirabella_genio_I002925_wb3s.jpg)
+![](/assets/device_images/mirabella_genio_I002925_wb3s.webp)

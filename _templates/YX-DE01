@@ -2,7 +2,7 @@
 date_added: 2020-03-13
 title: YX-DE01
 model: YX-DE01
-image: /assets/images/YX-DE01.jpg
+image: /assets/device_images/YX-DE01.webp
 template: '{"NAME":"YX-DE01","GPIO":[0,17,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07D6KTCLX
 link2: 

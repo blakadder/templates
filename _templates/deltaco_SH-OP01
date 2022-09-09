@@ -2,7 +2,7 @@
 date_added: 2022-08-28
 title: Deltaco 13A IP44
 model: SH-OP01
-image: /assets/images/deltaco_SH-OP01.jpg
+image: /assets/device_images/deltaco_SH-OP01.webp
 template9: '{"NAME":"Deltaco SH-OP01","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":55}' 
 link: https://www.amazon.de/dp/B09HSLK6RQ/
 link2: https://www.idealo.de/preisvergleich/Typ/7333048045157.html

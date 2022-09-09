@@ -5,7 +5,7 @@ category: misc
 type: RF Gateway
 standard: global
 mlink: https://sonoff.tech/product/smart-home-security/rf-bridge/
-image: /assets/images/sonoff_RF_bridge.jpg
+image: /assets/device_images/sonoff_RF_bridge.webp
 template: '{"NAME":"Sonoff Bridge","GPIO":[17,148,255,149,255,255,0,0,255,56,255,0,0],"FLAG":0,"BASE":25}' 
 link: https://mediarath.de/collections/tasmota-gerate/products/sonoff-rf-bridge-433mhz-wifi-tasmota-oder-portisch-mqtt-iobroker-fhem
 link3: https://www.amazon.com/dp/B0833VHSCD

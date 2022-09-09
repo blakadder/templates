@@ -2,7 +2,7 @@
 date_added: 2022-05-13
 title: Oittm IP44 15A
 model: 
-image: /assets/images/oittm_outdoor_outlet.jpg
+image: /assets/device_images/oittm_outdoor_outlet.webp
 template9: '{"NAME":"Oittm Outdoor","GPIO":[576,0,320,0,2688,2656,0,0,224,2592,0,0,0,0],"FLAG":0,"BASE":57}' 
 link: https://www.amazon.com/gp/product/B074J49F4R/
 link2: 

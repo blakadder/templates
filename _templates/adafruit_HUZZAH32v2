@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://www.adafruit.com/product/5400
-image: /assets/images/adafruit_HUZZAH32v2.jpg
+image: /assets/device_images/adafruit_HUZZAH32v2.webp
 flash: serial
 template32: '{"NAME":"HUZZAH32v2","GPIO":[1376,0,3840,0,1,1,0,0,1,1,1,1,0,0,0,1,608,1,640,0,0,1,1,1,0,1,1,0,1,1,1,4704,1,1,0,1],"FLAG":0,"BASE":1}'
 link: 
@@ -30,9 +30,9 @@ esptool.py --chip esp32 --baud 115200 --before default_reset --after hard_reset 
 
 ## Device Notes
 
-![Adafruit HUZZAH32v2 Front and Back](/assets/images/adafruit_HUZZAH32v2_front-and-back.jpg "Adafruit QTPy HUZZAH32v2 Front and Back")
+![Adafruit HUZZAH32v2 Front and Back](/assets/device_images/adafruit_HUZZAH32v2_front-and-back.webp "Adafruit QTPy HUZZAH32v2 Front and Back")
 
-![Adafruit HUZZAH32v2 Pinout](/assets/images/adafruit_HUZZAH32v2_pinout.png "Adafruit HUZZAH32v2 Pinout")
+![Adafruit HUZZAH32v2 Pinout](/assets/device_images/adafruit_HUZZAH32v2_pinout.webp "Adafruit HUZZAH32v2 Pinout")
 
 [Product Guide](https://learn.adafruit.com/adafruit-esp32-feather-v2)
 

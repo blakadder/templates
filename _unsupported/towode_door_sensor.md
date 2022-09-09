@@ -4,7 +4,7 @@ title: TOWODE Door Sensor
 category: unsupported
 type: Contact Sensor
 link: https://www.amazon.com/dp/B086GTGGTP
-image: /assets/images/towode_door_sensor.jpg
+image: /assets/device_images/towode_door_sensor.webp
 link2: https://www.aliexpress.com/i/32959165961.html
 link3: 
 chip: XR3

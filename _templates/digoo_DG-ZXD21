@@ -12,14 +12,14 @@ mlink:
 link: https://www.banggood.com/APP-Powered-by-Tuya-DIGOO-DG-ZXD21-Independent-WIFI-Door-Window-Sensor-Detection-Smart-Home-Security-System-Kits-p-1557162.html
 link2: https://www.aliexpress.com/item/4000141849551.html
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 
 This is a Tuya/Smart Life battery powered contact (door or window) sensor. Runs on two AAA batteries (not supplied with the device).
 
 Identified with `MCU Product ID: {"p":"zhnheicnjh6civjf","v":"1.0.0"}`.
 
-![Internals](/assets/images/digoo_DG-ZXD21_internal.jpg)
+![Internals](/assets/device_images/digoo_DG-ZXD21_internal.webp)
 
 ## Flashing
 To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/install/tree/main/firmware/unofficial), compiled from current development release. Flash at your own risk.
@@ -48,7 +48,7 @@ To be able to flash this module you will need to connect:
 
 RST is supposed to be pulled high only on boot but in my case it had to be connected throughout the entire flash process.
 
-![Internals](/assets/images/digoo_DG-ZXD21_wiring.jpg)
+![Internals](/assets/device_images/digoo_DG-ZXD21_wiring.webp)
 
 ## Configuration
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.

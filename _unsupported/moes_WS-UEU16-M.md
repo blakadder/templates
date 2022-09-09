@@ -5,7 +5,7 @@ model: WS-UEU16-M
 category: unsupported
 type: Plug
 link: https://www.aliexpress.com/item/4000263138054.html
-image: /assets/images/moes_WS-UEU16-M.jpg
+image: /assets/device_images/moes_WS-UEU16-M.webp
 link2: 
 link3: 
 chip: Tuya WB2S

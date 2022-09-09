@@ -2,7 +2,7 @@
 date_added: 2020-11-29
 title: BingoElec 16A
 model: BF002
-image: /assets/images/bingoelec_BF002.jpg
+image: /assets/device_images/bingoelec_BF002.webp
 template: '{"NAME":"BingoElecPower","GPIO":[0,0,0,0,52,53,255,255,21,17,0,0,255],"FLAG":15,"BASE":18}' 
 link: https://www.aliexpress.com/item/32954122241.html
 link2: 

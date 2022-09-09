@@ -2,7 +2,7 @@
 date_added: 2020-07-22
 title: Qualitel 1 Gang 
 model: ATS01L-US
-image: /assets/images/qualitel_ATS01L-US.jpg
+image: /assets/device_images/qualitel_ATS01L-US.webp
 template: '{"NAME":"Qualitel 1 Gang","GPIO":[157,0,0,9,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.takealot.com/smart-light-switch-1-gang/PLID55064478
 link2: 

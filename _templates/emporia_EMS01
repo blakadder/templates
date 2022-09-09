@@ -2,7 +2,7 @@
 date_added: 2021-04-13
 title: Emporia 
 model: EMS01
-image: /assets/images/emporia_EMS01.jpg
+image: /assets/device_images/emporia_EMS01.webp
 template9: '{"NAME":"Emporia EMS01","GPIO":[0,0,0,289,224,2720,0,0,2624,32,2656,288,0,0],"FLAG":0,"BASE":18}' 
 link: https://amazon.com/gp/product/B08CVSSVWP
 link2: 

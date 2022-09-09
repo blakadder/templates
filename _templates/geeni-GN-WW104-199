@@ -7,7 +7,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.amazon.com/dp/B0777C2BX3
-image: /assets/images/geeni-GN-WW104-199.jpg
+image: /assets/device_images/geeni-GN-WW104-199.webp
 template: '{"NAME":"Geeni Spot","GPIO":[158,0,0,0,56,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 template-alt: '{"NAME":"Geeni Spot","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/dp/B07FLXG64J

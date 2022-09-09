@@ -2,7 +2,7 @@
 date_added: 2020-07-27
 title: Teckin 7.5W 800lm
 model: SB60
-image: /assets/images/teckin_SB60.jpg
+image: /assets/device_images/teckin_SB60.webp
 template9: '{"NAME":"Teckin SB60","GPIO":[0,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
 template9_alt: '{"NAME":"Teckin SB60 ESP-01D","GPIO":[0,0,0,0,0,0,0,0,4069,0,4032,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.it/gp/product/B07ZVTQSDY/

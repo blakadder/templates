@@ -2,7 +2,7 @@
 date_added: 2020-08-24
 title: Hombli 4.5W 380lm Candle
 model: HBES-0123
-image: /assets/images/hombli_HBES-0123.jpg
+image: /assets/device_images/hombli_HBES-0123.webp
 template: '{"NAME":"Hombli E14 RGB","GPIO":[0,0,0,0,141,140,0,0,0,142,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B0862FT5XP/
 link2: 

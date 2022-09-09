@@ -5,7 +5,7 @@ model: ESP-C3-12F
 category: diy
 type: Module
 standard: global
-image: /assets/images/ESP-C3-12F.jpg
+image: /assets/device_images/ESP-C3-12F.webp
 templatec3: 'Module 1'
 chip: c3
 mlink: http://www.ai-thinker.com/pro_view-90.html
@@ -22,7 +22,7 @@ There are two different versions of this module:
 
 {% include flash/c3.md %}
 
-![Pinout](/assets/images/ESP-C3-12F_pinout.jpg)
+![Pinout](/assets/device_images/ESP-C3-12F_pinout.webp)
 
 {% include test_board.md %}
 

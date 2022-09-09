@@ -2,7 +2,7 @@
 date_added: 2021-09-14
 title: ESP32 4 Channel
 model: ESP32R4
-image: /assets/images/robotdyn_ESP32R4.jpg
+image: /assets/device_images/robotdyn_ESP32R4.webp
 template32: '{"NAME":"RobotDyn ESP32R4","GPIO":[0,0,1,0,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,0,224,225,0,0,0,0,0,227,226,32,33,34,0,0,35],"FLAG":0,"BASE":2}' 
 link: https://www.aliexpress.com/item/1005003153036762.html
 link2: https://rocketcontroller.com/product/controller-esp32r4/ 

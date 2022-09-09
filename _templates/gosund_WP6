@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07Q2P77JL/
-image: /assets/images/gosund_WP6.jpg
+image: /assets/device_images/gosund_WP6.webp
 template: '{"NAME":"Gosund WP6","GPIO":[0,56,0,17,0,0,0,0,0,157,21,0,0],"FLAG":0,"BASE":18}' 
 template-alt: '{"NAME":"Gosund WP6","GPIO":[0,0,0,17,0,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 

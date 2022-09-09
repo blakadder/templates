@@ -2,7 +2,7 @@
 date_added: 2022-01-04
 title: Uniplay Universal Remote
 model: 
-image: /assets/images/uniplay_ir_blaster.jpg
+image: /assets/device_images/uniplay_ir_blaster.webp
 template9: '{"NAME":"Uniplay IR","GPIO":[1,3200,1,3232,576,1088,0,0,320,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.amazon.com/gp/product/B087G4TNZN
 link2: 

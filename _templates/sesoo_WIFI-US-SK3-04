@@ -5,7 +5,7 @@ category: switch
 type: Switch
 standard: us
 link: https://www.aliexpress.com/item/33039910999.html
-image: /assets/images/sesoo_WIFI-US-SK3-04.jpg
+image: /assets/device_images/sesoo_WIFI-US-SK3-04.webp
 template: '{"NAME":"Tuya 4 Channel","GPIO":[52,255,255,19,23,17,0,0,20,24,22,21,18],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: https://www.alibaba.com/product-detail/Sesoo-Smart-Touch-Button-Amazon-Alexa_60827162885.html

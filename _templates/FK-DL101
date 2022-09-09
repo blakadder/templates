@@ -2,7 +2,7 @@
 date_added: 2022-03-17
 title: FK-DL101 RGBW 
 model: FK-DL101
-image: /assets/images/FK-DL101.jpg
+image: /assets/device_images/FK-DL101.webp
 template9: '{"NAME":"FK-DL101 RGBW","GPIO":[0,0,0,0,0,0,0,0,0,3008,0,3040,0,0],"FLAG":0,"BASE":27}' 
 link: https://www.aliexpress.com/item/32881122651.html
 link2: https://www.amazon.com.au/dp/B07NKZC2KH

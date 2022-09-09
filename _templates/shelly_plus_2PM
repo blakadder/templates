@@ -2,7 +2,7 @@
 date_added: 2022-03-13
 title: Shelly Plus 2PM
 model: 2PM
-image: /assets/images/shelly_plus_2PM.jpg
+image: /assets/device_images/shelly_plus_2PM.webp
 template32: '{"NAME":"Shelly Plus 2PM","GPIO":[320,0,192,0,0,0,1,1,225,224,0,0,0,0,193,0,0,0,0,0,0,608,3840,32,0,0,0,0,0,640,0,0,3456,4736,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,32000,40000,3350"}' 
 link: https://www.domadoo.fr/en/objets-communicants/6164-shelly-dual-wi-fi-smart-relay-switch-with-energy-monitoring-shelly-plus-2pm-3800235265031.html
 link2: https://mediarath.de/products/shelly-plus-2pm-16a-dc-ac-schalter-wifi-power-metring-pro-kanal-tasmota?_pos=3&_sid=85b32b5db&_ss=r&variant=43032552046805
@@ -14,7 +14,7 @@ standard: global
 chip: solo1
 ---
 
-![](/assets/images/shelly_plus_1_pinout.jpg)
+![](/assets/device_images/shelly_plus_1_pinout.webp)
 Pin-Layout on the image is for shelly plus 1PM, credit goes to Kalin Dimitrov.
 The pin ports on this board can handle dupont cables if done carefully, and will probably crumble shortly thereafter. 
 The other surface connectors seem unusually weakly connected to the PCB, and you may destroy them while using them.

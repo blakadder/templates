@@ -2,7 +2,7 @@
 date_added: 2021-10-08
 title: Philips Wiz 24W LED White Batten
 model: 9195158139755
-image: /assets/images/philips_9195158139755.jpg
+image: /assets/device_images/philips_9195158139755.webp
 template9: '{"NAME":"PHILIPS-wiz-24w","GPIO":[0,0,0,0,417,0,0,0,0,416,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.in/dp/B08QH2FGF8/
 link2: 

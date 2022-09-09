@@ -2,7 +2,7 @@
 date_added: 2020-03-26
 title: Shelly Add-on
 model: 
-image: /assets/images/shelly_temperature_sensor.jpg
+image: /assets/device_images/shelly_temperature_sensor.webp
 template: '{"NAME":"Shelly 1 Temp ","GPIO":[192,0,0,4,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}' 
 link1: https://www.amazon.de/gp/offer-listing/B081FF9G2K/
 link2: https://www.domadoo.fr/en/objets-communicants/5393-shelly-adapteur-de-sonde-de-temperature-pour-shelly-11pm-3809511202265.html

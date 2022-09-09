@@ -2,7 +2,7 @@
 date_added: 2020-05-09
 title: ESP-M3
 model: ESP-M3 
-image: /assets/images/ESP-M3.jpg
+image: /assets/device_images/ESP-M3.webp
 template9: '{"NAME":"ESP-M3","GPIO":[1,1,1,1,1,0,0,0,0,1,1,0,1,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/wholesale?SearchText=esp-m3&opensearch=true
 link2: https://www.amazon.com/dp/B0768SX497/
@@ -16,6 +16,6 @@ standard: global
 ---
 Onboard blue LED is connected to `GPIO2`.
 
-![Pinout](/assets/images/ESP-M3-pinout.jpg)
+![Pinout](/assets/device_images/ESP-M3-pinout.webp)
 
 [Datasheet](https://github.com/SmartArduino/ESPwifi/blob/master/DOIT_ESP-M3(V1_0)_docx.pdf)

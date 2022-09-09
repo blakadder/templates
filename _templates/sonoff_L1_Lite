@@ -12,7 +12,7 @@ link2: https://www.domadoo.fr/en/peripheriques/5491-sonoff-ruban-de-led-wifi-l1-
 link3: https://www.alza.de/sonoff-l1-lite-smartled-light-strip-l1lite-d6370973.htm
 link4: https://www.alzashop.com/sonoff-l1-lite-smartled-light-strip-l1lite-d6370973.htm
 link5: https://mediarath.de/products/sonoff-l1-lite-5m-smart-wifi-dimmbares-led-stripe-streifen-rgb-5050?_pos=1&_sid=fa9e6f4f7&_ss=r
-image: /assets/images/sonoff_L1_Lite.jpg
+image: /assets/device_images/sonoff_L1_Lite.webp
 ---
 
 Sonoff L1 Lite uses the same "Spider Z" LED controller as [Sonoff L1](sonoff_L1). The difference is that the provided 5050 RGB LED strip is only IP30 rated and there are no adapters for the power supply, instead you can choose between US and EU plugs. Those cuts made this strip more affordable.

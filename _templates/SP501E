@@ -2,7 +2,7 @@
 date_added: 2020-12-15
 title: SP501E WS2812B 
 model: SP501E
-image: /assets/images/SP501E.jpg
+image: /assets/device_images/SP501E.webp
 template9: '{"NAME":"SP501E","GPIO":[0,32,0,1376,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000143872368.html
 link2: https://www.amazon.com/gp/product/B07TYMR2T2/
@@ -16,9 +16,9 @@ standard: global
 
 Connect to marked pins, ground IO0 during boot. 
 
-![Pinout](/assets/images/SP501E_pinout.jpg)
+![Pinout](/assets/device_images/SP501E_pinout.webp)
 
-![Package](/assets/images/SP501E_package.jpg)
+![Package](/assets/device_images/SP501E_package.webp)
 
 ## WLED
 

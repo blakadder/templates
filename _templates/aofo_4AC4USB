@@ -7,7 +7,7 @@ type: Power Strip
 standard: eu
 link: https://www.amazon.de/dp/B07SKTBC47
 link2: https://www.aliexpress.com/item/32939654903.html
-image: /assets/images/aofo_4AC4USB.jpg
+image: /assets/device_images/aofo_4AC4USB.webp
 template: '{"NAME":"AOFO4AC4USB","GPIO":[0,56,0,17,22,21,0,0,23,24,25,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"AOFO4AC4USB-EU","GPIO":[0,320,0,32,228,227,0,0,225,224,226,0,0,0],"FLAG":0,"BASE":18}' 
 chip: TYWE2S

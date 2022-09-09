@@ -2,7 +2,7 @@
 date_added: 2020-11-05
 title: Anccy
 model:
-image: /assets/images/anccy_LKTDUOZC.jpg
+image: /assets/device_images/anccy_LKTDUOZC.webp
 template: '{"NAME":"Anccy Shutter","GPIO":[157,0,53,19,23,18,0,0,17,21,54,22,52],"FLAG":0,"BASE":18}'
 link: https://www.amazon.de/dp/B07MQRFS8G/
 link2:

@@ -2,7 +2,7 @@
 date_added: 2020-02-21
 title: MagicHome RGBWW w/ RF
 model: ZJ-WF-RF-5CH-B-V1.0
-image: /assets/images/magichome_ZJ-WF-RF-5CH-B-V1.jpg
+image: /assets/device_images/magichome_ZJ-WF-RF-5CH-B-V1.webp
 template: '{"NAME":"MagicHome RF","GPIO":[0,0,0,0,147,40,0,0,38,39,37,41,159],"FLAG":0,"BASE":18}' 
 link: https://aliexpress.com/item/32969371992.html
 link2: 

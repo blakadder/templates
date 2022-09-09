@@ -7,17 +7,17 @@ type: Relay Board
 standard: global
 link: https://www.aliexpress.com/item/4000185031782.html
 link2: https://www.banggood.com/Smart-Remote-Control-Relay-Switch-Smart-Plug-Development-Board-Compatible-with-Home-Google-Assistant-Dohome-p-1742665.html
-image: /assets/images/dohome_DIY.jpg
+image: /assets/device_images/dohome_DIY.webp
 template: '{"NAME":"DoHome DIY","GPIO":[255,255,0,255,255,157,0,0,21,0,0,0,0],"FLAG":0,"BASE":1}' 
 link2: 
 mlink: https://github.com/SmartArduino/DoHome/tree/master/DoHome_HomeKit_DIY_Smart_Plug/EN/1.Hadware%20Specification
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 ## Flashing
 Enter flash mode with the jumper on both mode mode pins and connect your serial-to-USB adapter to TX, RX, GND and 5V (use 3.3V pin from your adapter).
 
-![](/assets/images/dohome_DIY_pins.jpg)
+![](/assets/device_images/dohome_DIY_pins.webp)
 
 
 

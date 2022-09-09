@@ -2,7 +2,7 @@
 date_added: 2021-02-19
 title: LilyGo TTGO ESP32 
 model: T-Journal
-image: /assets/images/lilygo_T-journal.jpg
+image: /assets/device_images/lilygo_T-journal.webp
 template32: '{"NAME":"TTGO T-Journal ESP32 Camera","GPIO":[4928,1,1,1,1,5091,1,1,1,608,640,4960,1,5088,5093,5095,0,5184,5120,5056,0,5024,5152,4992,0,0,0,0,1,1,5090,5089,5094,0,0,5092],"FLAG":0,"BASE":1}' 
 link: https://www.banggood.com/LILYGO-TTGO-T-Journal-ESP32-Camera-Development-Board-OV2640-SMA-WiFi-3dbi-Antenna-0_91-OLED-Camera-Board-Geekcreit-for-Arduino-products-that-work-with-official-Arduino-boards-p-1379925.html?akmClientCountry=DE&utm_design=41&utm_source=emarsys&utm_medium=Neworder171109&utm_campaign=trigger-order&utm_content=winna&sc_src=email_2675773&sc_eh=36f7fb9cbf814a4f1&sc_llid=10484551&sc_lid=105229698&sc_uid=Ld84oluM2P&cur_warehouse=CN
 link2: https://www.aliexpress.com/af/ttgo-journal.html?d=y&origin=n&SearchText=ttgo+journal

@@ -2,7 +2,7 @@
 date_added: 2020-07-31
 title: Zemismart Bladeless
 model: F1-BL
-image: /assets/images/zemismart_F1-BL.jpg
+image: /assets/device_images/zemismart_F1-BL.webp
 template: '{"NAME":"Bladeless Fan","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4001093439442.html
 link2: 
@@ -12,7 +12,7 @@ category: misc
 type: Fan
 standard: global
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 This is a bladeless desk fan with a night light and battery power.
 
@@ -22,7 +22,7 @@ Flashed via serial using broken out pins. Tuya Convert did not work due to new f
 
 Disconnect the fan and USB charging port from the PCB. Connect your flasher to GND, TX and RX pins and power the board with its battery. Ground GPIO0 directly on the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module.
 
-![](/assets/images/zemismart_F1-BL_pinout.jpg)
+![](/assets/device_images/zemismart_F1-BL_pinout.webp)
 
 ## Configuration
 This device is very different from other Tuya devices. First of all it uses low power batter protocol although the wifi module is never turned off regardless of how the device is powered.
@@ -120,4 +120,4 @@ Turn on / change light using `event c` and turn it off with `event coff`.
 ## Improving the Device
 I was not satisfied at all with the completely crippled features of the device and ultimately decided to rewire the two buttons and the light LED directly to the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module. There will be a blog about it on [blakadder.com](https://blakadder.com) once I'm sure everything is working as it should. For now a little teaser image:
 
-![teaser](/assets/images/zemismart_F1-BL_rewire.jpg)
+![teaser](/assets/device_images/zemismart_F1-BL_rewire.webp)

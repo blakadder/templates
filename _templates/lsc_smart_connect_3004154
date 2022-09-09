@@ -2,7 +2,7 @@
 date_added: 2021-11-24
 title: LSC Smart Mood
 model: 3004154
-image: /assets/images/lsc_smart_connect_3004154.jpg
+image: /assets/device_images/lsc_smart_connect_3004154.webp
 template9: '{"NAME":"LSC Mood Light","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-sfeerlamp/
 link2: 

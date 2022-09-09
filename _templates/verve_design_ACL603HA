@@ -2,7 +2,7 @@
 date_added: 2021-09-15
 title: Verve 24W Cream Fabric Shade CCT
 model: ACL603HA
-image: /assets/images/verve_design_ACL603HA.jpg
+image: /assets/device_images/verve_design_ACL603HA.webp
 template9: '{"NAME":"Verve ACL603HA","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,20 | TuyaMCU 21,22 | TuyaMCU 23,23 | DimmerRange 0,1000" }' 
 link: https://www.bunnings.com.au/verve-design-24w-cream-grid-connect-smart-fabric-shade-ceiling-light_p0225070
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2020-10-19
 title: LSC A55 14W 1400lm
 model: 3000273
-image: /assets/images/lsc_smart_connect_3000273.jpg
+image: /assets/device_images/lsc_smart_connect_3000273.webp
 template: '{"NAME":"LSC CT E27","GPIO":[0,0,0,0,37,47,0,0,0,0,0,0,0],"FLAG":0,"BASE":48}' 
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-ledlamp2/
 link2: 

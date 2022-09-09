@@ -2,7 +2,7 @@
 date_added: 2021-10-20
 title: Fox&Summit FS-IP12PK
 model: FS-IP100
-image: /assets/images/fox_FS-IP100.jpg
+image: /assets/device_images/fox_FS-IP100.webp
 template9: '{"NAME":"Fox & Summit Plug","GPIO":[0,0,32,0,3840,0,0,0,544,256,480,0,0,0],"FLAG":0,"BASE":18,"CMND":"BuzzerPwm 1"}' 
 link: https://www.amazon.com/Fox-Summit-Compatible-Assistant-Required/dp/B07P7XPYH6
 link2: https://www.walmart.com/ip/Fox-Summit-FS-IP100-Wi-Fi-Indoor-Plug-Single/118517829

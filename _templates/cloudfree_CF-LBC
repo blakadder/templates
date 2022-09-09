@@ -2,7 +2,7 @@
 date_added: 2021-12-30
 title: Cloudfree 1000lm A21
 model: CF-LBC
-image: /assets/images/cloudfree_CF-LBC.jpg
+image: /assets/device_images/cloudfree_CF-LBC.webp
 template9: '{"NAME":"CloudFree LBC","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://cloudfree.shop/product/cloudfree-smart-bulb-rgbcw/
 link2: 

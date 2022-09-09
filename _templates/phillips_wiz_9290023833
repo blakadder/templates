@@ -2,7 +2,7 @@
 date_added: 2022-08-20
 title: Phillips Wiz A19 8.8W 800lm RGBCCT Bulb
 model: 9290023833
-image: /assets/images/phillips_wiz_9290023833.jpg
+image: /assets/device_images/phillips_wiz_9290023833.webp
 template32: '{"NAME":"WiZ RGBCCT A19 Bulb","GPIO":[0,0,419,0,420,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,416,417,418,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"so92 1"}'
 link: https://www.homedepot.com/p/Philips-Color-and-Tunable-White-A19-LED-60-Watt-Equivalent-Dimmable-Smart-Wi-Fi-Wiz-Connected-Wireless-Light-Bulb-562702/313616477
 link2:

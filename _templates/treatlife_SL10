@@ -2,7 +2,7 @@
 date_added: 2020-07-01
 title: Treatlife A19 8W 650lm
 model: SL10
-image: /assets/images/treatlife_A19.jpg
+image: /assets/device_images/treatlife_A19.webp
 template: '{"NAME":"Treatlife RGBW","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Treatlife-Multicolor-Compatible-Assistant-Equivalent/dp/B083BRRZ4Y
 link2: https://www.banggood.com/TREATLIFE-SL10-AC120V-RGB+CW-9W-850LM-Wifi-Voice-Control-Smart-Bulb-APP-Control-Works-With-Alexa-Google-Home-p-1824085.html

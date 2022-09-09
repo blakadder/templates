@@ -2,7 +2,7 @@
 date_added: 2021-04-20
 title: ESP-01D 
 model: ESP-01D 
-image: /assets/images/ESP-01D.jpg
+image: /assets/device_images/ESP-01D.webp
 template9: '{"NAME":"ESP-01D","GPIO":[1,1,0,1,1,0,0,0,1,0,1,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005002012439382.html
 link2: https://www.banggood.com/ESP-01D-ESP8285-WiFi-Module-Serial-Port-to-WiFi-Wireless-Transparent-Transmission-Small-Size-Board-p-1789867.html
@@ -16,6 +16,6 @@ footprint: tylc5
 ---
 Tiny ESP8285 module 13.5x8.5x2.6mm with 2MB memory. Does not have a PCB antenna.
 
-![Pinout](/assets/images/ESP-01D_pinout.jpg)
+![Pinout](/assets/device_images/ESP-01D_pinout.webp)
 
 [Datasheet](https://docs.ai-thinker.com/_media/esp8266/docs/esp-01d_product_specification_zh_v1.0.pdf)

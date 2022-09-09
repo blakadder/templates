@@ -6,7 +6,7 @@ category: diy
 type: Module
 standard: global
 flash: serial
-image: /assets/images/m5stack_m5stamp_C3U.jpg
+image: /assets/device_images/m5stack_m5stamp_C3U.webp
 templatec3: '{"NAME":"M5Stamp C3U","GPIO":[1,1,1376,1,1,1,1,1,1,32,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
 mlink: https://shop.m5stack.com/products/m5stamp-c3u-mate-with-pin-headers
 link: https://shop.m5stack.com/products/m5stamp-c3u-5pcs
@@ -19,6 +19,6 @@ Enter flash mode: Long press on the center button of the M5Stamp C3U when the po
 
 Light controls are for the built-in SK6812 RGB LED.
 
-![Pinout](/assets/images/m5stack_m5stamp_C3U_pinout.jpg)
+![Pinout](/assets/device_images/m5stack_m5stamp_C3U_pinout.webp)
 
 {% include flash/c3.md %}

@@ -6,7 +6,7 @@ category: relay
 type: Switch Module
 standard: global
 flash: sonoff-diy
-image: /assets/images/sonoff_BASICR3.jpg
+image: /assets/device_images/sonoff_BASICR3.webp
 template: '{"NAME":"Basic R3","GPIO":[17,255,0,255,0,0,255,255,21,56,0,0,255],"FLAG":0,"BASE":1}' 
 link: https://itead.cc/product/sonoff-basicr3-wifi-diy-smart-switch/
 link2: https://www.aliexpress.com/item/4000071657630.html
@@ -20,7 +20,7 @@ The latest Sonoff Basic R3 can be flashed without the need to connect a serial i
 
 ## Serial Flashing
 
-![Pinout](/assets/images/sonoff_BASICR3_pinout.jpg)
+![Pinout](/assets/device_images/sonoff_BASICR3_pinout.webp)
 
 Image and more info from [creationx.de](https://forum.creationx.de/forum/index.php?thread/1940-info-sonoff-basic-r3-und-basic-rfr3/)
 

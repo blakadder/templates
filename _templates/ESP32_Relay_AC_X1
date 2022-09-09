@@ -5,7 +5,7 @@ model: ESP32_Relay X1
 category: relay
 type: Relay Board
 standard: global
-image: /assets/images/ESP32_Relay_AC_X1.jpg
+image: /assets/device_images/ESP32_Relay_AC_X1.webp
 template32: '{"NAME":"ESP32_Relay_AC_X1","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,224,1,1,1,0,1,1,544,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005003720788545.html
 link2: https://www.banggood.com/AC-or-DC-power-supply-ESP32-WIFI-Bluetooth-BLE-single-channel-Dual-channel-4-channel-Relay-Module-ESP32-Development-Board-p-1954001.html

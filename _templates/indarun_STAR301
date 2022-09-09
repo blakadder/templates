@@ -2,7 +2,7 @@
 date_added: 2020-05-18
 title: INDARUN RGB String Lights
 model: STAR301
-image: /assets/images/indarun_STAR301.jpg
+image: /assets/device_images/indarun_STAR301.webp
 template: '{"NAME":"STAR301","GPIO":[0,0,0,0,51,37,0,0,38,39,0,0,0],"FLAG":0,"BASE":34}' 
 link: https://www.amazon.com/gp/product/B081LB3YK8/
 link2: 

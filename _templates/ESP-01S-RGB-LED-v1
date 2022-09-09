@@ -5,7 +5,7 @@ model: ESP-01S-RGB-LED-v1.0
 category: light
 type: Addressable LED
 standard: global
-image: /assets/images/ESP-01S-RGB-LED-v1.jpg
+image: /assets/device_images/ESP-01S-RGB-LED-v1.webp
 template9: '{"NAME":"ESP-01S-RGB-LED-v1.0","GPIO":[1,1,1376,1,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://github.com/IOT-MCU/ESP-01S-RGB-LED-v1.0
 link: https://www.aliexpress.com/item/1859126994.html

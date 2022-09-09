@@ -7,7 +7,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://www.adafruit.com/product/3405
-image: /assets/images/adafruit_HUZZAH32.jpg
+image: /assets/device_images/adafruit_HUZZAH32.webp
 template32: '{"NAME":"HUZZAH32","GPIO":[0,0,0,0,4709,0,1,1,1,288,1,1,1,1,0,1,0,0,608,640,0,4705,4704,1,0,0,0,0,1,1,4706,4710,4708,0,0,4707],"FLAG":0,"BASE":1}'
 link: https://www.amazon.com/dp/B01NCRYHDL/
 link2: https://www.amazon.com/dp/B079QGXX88/
@@ -25,9 +25,9 @@ The board has a resistive divider connected to `VBAT` that goes into pin `GPIO35
 
 This isn't useful for Tasmota but for power saving purposes the built-in 3.3V regulator can be disabled by pulling the `EN` pin to ground. This will power down the ESP32 module and everything else on the board aside from the USB to UART converter.
 
-![Adafruit HUZZAH32 Feather Bottom](/assets/images/adafruit_HUZZAH32_bottom.jpg "Adafruit HUZZAH32 Feather Bottom")
+![Adafruit HUZZAH32 Feather Bottom](/assets/device_images/adafruit_HUZZAH32_bottom.webp "Adafruit HUZZAH32 Feather Bottom")
 
-![Pinout information](/assets/images/adafruit_HUZZAH32_pinout.jpg)
+![Pinout information](/assets/device_images/adafruit_HUZZAH32_pinout.webp)
 
 [Product overview](https://learn.adafruit.com/adafruit-huzzah32-esp32-feather/overview)
 

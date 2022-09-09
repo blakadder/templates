@@ -2,7 +2,7 @@
 date_added: 2021-06-26
 title: Connect SmartHome 5W
 model: CSH-E14WW5W
-image: /assets/images/connect_smarthome_CSH-E14WW10W.jpg
+image: /assets/device_images/connect_smarthome_CSH-E14WW10W.webp
 template9: '{"NAME":"CSH-E14WW5W","GPIO":[0,0,0,0,416,417,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.harveynorman.com.au/connect-smart-5w-e14-white-led-bulb.html
 link2: https://www.laserco.com.au/LSH-E14WW5W-laser-5W-Smart-White-Bulb-E14

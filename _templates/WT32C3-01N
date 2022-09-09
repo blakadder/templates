@@ -5,7 +5,7 @@ model: WT32C3-01N
 category: diy
 type: Module
 standard: global
-image: /assets/images/WT32C3-01N.jpg
+image: /assets/device_images/WT32C3-01N.webp
 templatec3: 'Module 1'
 chip: c3
 footprint: tywe2s
@@ -15,7 +15,7 @@ link: https://www.alibaba.com/product-detail/CE-RoHS-WT32C3-01N-4MB-Flash_160035
 
 {% include flash/c3.md %}
 
-![Pinout](/assets/images/WT32C3-01N_pinout.jpg)
+![Pinout](/assets/device_images/WT32C3-01N_pinout.webp)
 
 ## Running
 For normal operation connect EN to VCC (pull high) to enable the C3 chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.

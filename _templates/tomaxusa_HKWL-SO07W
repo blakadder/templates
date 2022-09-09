@@ -7,7 +7,7 @@ type: Plug
 standard: us
 mlink: https://www.tomaxusa.com/Smart-plug-Smart-life-AD007.html
 link: 
-image: /assets/images/tomaxusa_HKWL-SO07W.jpg
+image: /assets/device_images/tomaxusa_HKWL-SO07W.webp
 template: '{"NAME":"HKWL-SO07W","GPIO":[17,255,255,255,255,255,0,0,255,255,21,255,56],"FLAG":0,"BASE":18}' 
 link2: 
 ---

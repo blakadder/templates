@@ -2,7 +2,7 @@
 date_added: 2020-04-02
 title: oobest 7W
 model: 
-image: /assets/images/oobest_7W.jpg
+image: /assets/device_images/oobest_7W.webp
 template: '{"NAME":"E27_RGBCW_Bulb","GPIO":[0,0,0,0,38,37,0,0,40,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000405726560.html
 link2: 
@@ -16,4 +16,4 @@ Whitelabel "RGBCW 7W Wi-Fi" Smart LED Bulb. Widepread bulb, available on ebay, a
 
 You have to remove the diffusor and solder cables to marked pads.
 
-![Bulb dimensions](/assets/images/oobest_7W-dimensions.jpg)
+![Bulb dimensions](/assets/device_images/oobest_7W-dimensions.webp)

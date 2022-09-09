@@ -2,7 +2,7 @@
 date_added: 2021-10-12
 title: 2 Channel Tuya 
 model: TY-DIY-S02
-image: /assets/images/TY-DIY-S02.jpg
+image: /assets/device_images/TY-DIY-S02.webp
 template9: '{"NAME":"TY-DIY-S02","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 12,2 | TuyaMCU 13,13 | TuyaMCU 1,101"}' 
 link: https://www.amazon.com/gp/product/B089QCT8L5/
 link2: https://www.aliexpress.com/item/4001150525339.html

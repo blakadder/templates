@@ -2,7 +2,7 @@
 date_added: 2020-06-15
 title: Sichler Haushaltsgeräte Column
 model: NX4538-944
-image: /assets/images/sichler_NX4538-944.jpg
+image: /assets/device_images/sichler_NX4538-944.webp
 template: '{"NAME":"Sichler Fan","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.de/dp/B07QB34XHS
 link2: https://www.amazon.fr/dp/B07QB34XHS

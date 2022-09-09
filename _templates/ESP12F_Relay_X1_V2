@@ -2,7 +2,7 @@
 date_added: 2020-09-12
 title: LC Technology 5V/8-80V 1 Channel 
 model: ESP12F_Relay_X1_V2
-image: /assets/images/ESP12F_Relay_X1_V2.jpg
+image: /assets/device_images/ESP12F_Relay_X1_V2.webp
 template: '{"NAME":"LC-Relay-ESP12-1R-D8","GPIO":[255,255,157,255,255,21,255,255,255,255,255,255,57],"FLAG":15,"BASE":18}' 
 link: https://www.aliexpress.com/item/4001123646789.html
 link2: https://www.amazon.ca/dp/B083QMTT92

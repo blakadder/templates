@@ -2,7 +2,7 @@
 date_added: 2020-09-14
 title: Hama Basic 10A
 model: '00176567'
-image: /assets/images/hama_00176567.jpg
+image: /assets/device_images/hama_00176567.webp
 template: '{"NAME":"Hama 176567","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B085JC84JT/
 link2: https://www.saturn.de/de/product/_hama-wifi-2619180.html

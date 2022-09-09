@@ -2,7 +2,7 @@
 date_added: 2021-11-22
 title: Shelly Plus 1PM
 model: SPL1PM
-image: /assets/images/shelly_plus_1PM.jpg
+image: /assets/device_images/shelly_plus_1PM.webp
 template32: '{"NAME":"Shelly Plus 1PM","GPIO":[0,0,0,0,192,2720,0,0,0,0,0,0,0,0,2656,0,0,0,0,2624,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.domadoo.fr/en/objets-communicants/5889-shelly-micromodule-commutateur-intelligent-wi-fi-avec-mesure-d-energie-shelly-plus-1pm-3800235265017.html
 link2: https://www.amazon.de/dp/B0965J4HT5/
@@ -17,5 +17,5 @@ standard: global
 autoconf: true
 ---
 
-![](/assets/images/shelly_plus_1_pinout.jpg)
+![](/assets/device_images/shelly_plus_1_pinout.webp)
 Pin-Layout is on the image, credit goes to Kalin Dimitrov! 

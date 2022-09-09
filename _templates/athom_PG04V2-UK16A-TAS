@@ -2,7 +2,7 @@
 date_added: 2022-05-26
 title: Athom 16A UK V2
 model: PG04V2-UK16A-TAS
-image: /assets/images/athom_PG04V2-UK16A-TAS.jpg
+image: /assets/device_images/athom_PG04V2-UK16A-TAS.webp
 template9: '{"NAME":"Athom Plug V2","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/tasmota-uk-plug-v2
 link: https://www.aliexpress.com/item/1005001880012237.html
@@ -16,6 +16,6 @@ standard: uk
 
 ## Photos of internals
 
-![Top of the Plug](/assets/images/athom_PG04V2-UK16A_1.jpg)
+![Top of the Plug](/assets/device_images/athom_PG04V2-UK16A_1.webp)
 
-![Top of the ESP8285H16](/assets/images/athom_PG04V2-UK16A_2.jpg)
+![Top of the ESP8285H16](/assets/device_images/athom_PG04V2-UK16A_2.webp)

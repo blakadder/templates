@@ -2,7 +2,7 @@
 date_added: 2021-05-20
 title: SPC Sirius 380
 model: 6105B
-image: /assets/images/spc_6105B.jpg
+image: /assets/device_images/spc_6105B.webp
 template9: '{"NAME":"SPC Sirius 380","GPIO":[0,0,0,0,2912,416,0,0,417,2976,2944,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.spc.es/spc-sirius-1127
 link2: 

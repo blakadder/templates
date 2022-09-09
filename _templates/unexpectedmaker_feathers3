@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://esp32s3.com/feathers3.html
-image: /assets/images/unexpectedmaker_feathers3.jpg
+image: /assets/device_images/unexpectedmaker_feathers3.webp
 flash: serial
 chip: s3
 templates3: '{"NAME":"FeatherS3","GPIO":[1,1,4704,1,4768,1,1,1,1,1,1,1,1,288,1,0,0,1,1,0,0,0,1,0,1,1,1,1,3840,1376,0,0,3200,3232,0,0,0,0],"FLAG":0,"BASE":1}'
@@ -23,9 +23,9 @@ When the board is booted into debug by holding `BOOT` and pressing the `RESET` b
 
 ## Device Notes
 
-![Unexpected Maker FeatherS3 Front](/assets/images/unexpectedmaker_feathers3_front.jpg "Unexpected Maker FeatherS3 Front")
+![Unexpected Maker FeatherS3 Front](/assets/device_images/unexpectedmaker_feathers3_front.webp "Unexpected Maker FeatherS3 Front")
 
-![Unexpected Maker FeatherS3 Pinout](/assets/images/unexpectedmaker_feathers3_pinout.jpg "Unexpected Maker FeatherS3 Pinout")
+![Unexpected Maker FeatherS3 Pinout](/assets/device_images/unexpectedmaker_feathers3_pinout.webp "Unexpected Maker FeatherS3 Pinout")
 
 [FeatherS3 Schematic](https://esp32s3.com/files/schematic-feathers3.pdf)
 

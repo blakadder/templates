@@ -2,7 +2,7 @@
 date_added: 2020-12-13
 title: Atomi 
 model: AT1320
-image: /assets/images/atomi_AT1320.jpg
+image: /assets/device_images/atomi_AT1320.webp
 template: '{"NAME":"AT1320","GPIO":[0,0,0,0,57,52,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"AtomiSmartPlug","GPIO":[0,0,0,0,320,576,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07KY12D9F

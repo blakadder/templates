@@ -2,7 +2,7 @@
 date_added: 2020-06-21
 title: Geeni LUX 800
 model: GN-BW902-999S
-image: /assets/images/geeni_GN-BW902-999S.jpg
+image: /assets/device_images/geeni_GN-BW902-999S.webp
 template: '{"NAME":"Geeni-LUX-800","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Geeni-Bulb-Soft-Dimmable-Assistant-Microsoft/dp/B07FL7F4K8/
 link2: 

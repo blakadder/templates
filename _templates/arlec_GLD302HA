@@ -2,7 +2,7 @@
 date_added: 2020-03-15
 title: Arlec Smart 1350lm PAR38
 model: GLD302HA
-image: /assets/images/arlec_GLD302HA.jpg
+image: /assets/device_images/arlec_GLD302HA.webp
 mlink: 
 flash: tuya-convert
 category: bulb

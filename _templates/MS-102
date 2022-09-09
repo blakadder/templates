@@ -5,7 +5,7 @@ model: MS-102
 category: cover
 type: Garage Door Opener
 standard: global
-image: /assets/images/MS-102.jpg
+image: /assets/device_images/MS-102.webp
 template: '{"NAME":"Garage Opener","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com/Controller-Smartphone-Compatible-Assistant-Required/dp/B07QG7RGFW
 link2: https://www.aliexpress.com/item/33020999004.html

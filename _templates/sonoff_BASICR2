@@ -5,7 +5,7 @@ model: BASICR2
 category: relay
 type: Switch Module
 standard: global
-image: /assets/images/sonoff_BASICR2.jpg
+image: /assets/device_images/sonoff_BASICR2.webp
 template: '{"NAME":"Sonoff BASICR2","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":1}' 
 link1: https://itead.cc/product/sonoff-basicr2/
 link2: https://www.banggood.com/SONOFF-Basic-10A-2200W-WIFI-Wireless-Smart-Switch-Remote-Control-Socket-APP-Timer-p-1019971.html
@@ -35,15 +35,15 @@ Unlike GPIO3, the GPIO2 PCB contact is not prepared for a pin. You will need to 
 [<img src="https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/sonoff-basic-r2/chip.jpg" width="200" alt="chip">](https://raw.githubusercontent.com/reloxx13/reloxx13.github.io/master/media/tasmota/sonoff-basic-r2/chip.jpg)
 
 ## V1.3
-![V1.3 PCB](/assets/images/sonoff_BASICR2_1.3.jpg)
-![V1.3 PCB](/assets/images/sonoff_BASICR2_1.3_back.jpg)
+![V1.3 PCB](/assets/device_images/sonoff_BASICR2_1.3.webp)
+![V1.3 PCB](/assets/device_images/sonoff_BASICR2_1.3_back.webp)
 
 Image from [elty.pl](https://elty.pl/SonoffBasicR2PCBv13).
 
 ## V1.4
 LEDs are now blue and red (previously green and red).
-![V1.4 PCB](/assets/images/sonoff_BASICR2_1.4.jpg)
-![V1.4 PCB back](/assets/images/sonoff_BASICR2_1.4_back.jpg)
+![V1.4 PCB](/assets/device_images/sonoff_BASICR2_1.4.webp)
+![V1.4 PCB back](/assets/device_images/sonoff_BASICR2_1.4_back.webp)
 
 Image and more info from [creationx.de](https://forum.creationx.de/forum/index.php?thread/2958-sonoff-rf-r2-power-v1-4-flash-modus-f%C3%BCr-tasmota-per-ftdi232/)
 

@@ -6,7 +6,7 @@ type: RGBCCT
 category: bulb
 standard: e26
 link2: 
-image: /assets/images/feit_electric-BPA800RGBWAG2.jpg
+image: /assets/device_images/feit_electric-BPA800RGBWAG2.webp
 template: '{"NAME":" BPA800/RGBW/AG/2","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Electric-Assistant-A800-RGBW-AG/dp/B07RL48PFF
 mlink: 

@@ -2,7 +2,7 @@
 date_added: 2020-10-09
 title: Iwoole Table Lamp
 model: ZN199229_02 A5A-67E1-06
-image: /assets/images/iwoole_table_lamp.jpg
+image: /assets/device_images/iwoole_table_lamp.webp
 template9: '{"NAME":"GLOBELAMP","GPIO":[0,0,0,0,419,0,0,0,417,418,416,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000145628493.html
 link2: 
@@ -26,11 +26,11 @@ Carefully remove the heat-shrink tubing around the two main PCBs.
 
 Like any ESP device, to flash this chip using serial you’ll need 3V3, GND, RX, TX and GPIO0
 
-![Pinout](/assets/images/iwoole_table_lamp_pinout.jpg)
+![Pinout](/assets/device_images/iwoole_table_lamp_pinout.webp)
 
 There are pads available for 3V3 and GPIO0 on the back. I have tried to find easier solder points on the front, marked in the image above. Be aware that VCC does not carry 3V3, but over 20 volts as far as I can tell.
 
-![Pinout](/assets/images/iwoole_table_lamp_pinout_back.jpg)
+![Pinout](/assets/device_images/iwoole_table_lamp_pinout_back.webp)
 
 Flash the chip as you would with any other.
 

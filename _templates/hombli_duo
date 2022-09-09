@@ -2,7 +2,7 @@
 date_added: 2020-11-14
 title: Hombli Socket Duo
 model: 
-image: /assets/images/hombli_duo.jpg
+image: /assets/device_images/hombli_duo.webp
 template9: '{"NAME":"HombliSocketDuo","GPIO":[33,0,0,0,0,0,0,0,0,544,224,225,32,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001632168109.html
 link2: 

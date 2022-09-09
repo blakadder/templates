@@ -5,7 +5,7 @@ model: Fimilo-456
 category: unsupported
 type: Light
 link: https://www.amazon.com/Projector-Galaxy-Google-Ceiling-Bedroom/dp/B0892FVLNS/
-image: /assets/images/led_star_projector.jpg
+image: /assets/device_images/led_star_projector.webp
 link2: 
 link3: 
 chip: WB3S

@@ -2,7 +2,7 @@
 date_added: 2020-08-10
 title: Eva Logik 3 Way
 model: WF31T
-image: /assets/images/evalogik_WF31T.jpg
+image: /assets/device_images/evalogik_WF31T.webp
 template: '{"NAME":"EL WF31T","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com/gp/product/B07NSX4WQM/
 link2: 

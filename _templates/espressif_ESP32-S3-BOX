@@ -6,7 +6,7 @@ category: diy
 type: Display
 standard: global
 mlink: https://www.espressif.com/en/news/ESP32-S3-BOX_video
-image: /assets/images/espressif_ESP32-S3-BOX.jpg
+image: /assets/device_images/espressif_ESP32-S3-BOX.webp
 flash: serial
 chip: s3
 templates3: '{"NAME":"ESP-S3-BOX","GPIO":[0,160,0,0,6624,6592,864,896,640,1,1,1,1,1,1,0,0,0,608,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,992,0,0,1024],"FLAG":0,"BASE":1}'
@@ -33,7 +33,7 @@ DisplayWidth 320
 
 ## Device Notes
 
-![ESP-BOX PMod Connector Pinout](/assets/images/espressif_ESP32-S3-BOX_pinout.png)
+![ESP-BOX PMod Connector Pinout](/assets/device_images/espressif_ESP32-S3-BOX_pinout.webp)
 
 [ESP-BOX Schematic](https://github.com/espressif/esp-box/blob/master/hardware/esp32_s3_box_v2.5/schematic/SCH_ESP32-S3-BOX_V2.5_20211011.pdf)
 

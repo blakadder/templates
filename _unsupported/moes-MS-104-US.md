@@ -2,7 +2,7 @@
 date_added: 2020-07-23
 title: Moes MS-104-US
 link: https://www.aliexpress.com/item/4001065460975.html
-image: /assets/images/moes_MS-104-US.jpg
+image: /assets/device_images/moes_MS-104-US.webp
 link2: 
 mlink: https://www.moeshouse.com/collections/diy-smart-switch/products/mini-diy-wifi-smart-light-switch-single-pole-3-way-1-gang-module
 category: unsupported

@@ -2,7 +2,7 @@
 date_added: 2020-03-29
 title: LoraTap SC400W-EU
 model: 
-image: /assets/images/loratap_SC400W.jpg
+image: /assets/device_images/loratap_SC400W.webp
 template9: '{"NAME":"Loratap SC400W","GPIO":[544,0,0,34,0,32,0,0,33,225,0,224,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.loratap.com/tuya-smart-life-wifi-curtain-switch-for-electric-motorized-curtain-blind-roller-shutter-google-home-amazon-alexa-voice-control-p0014.html
 link2: 

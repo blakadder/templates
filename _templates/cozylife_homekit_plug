@@ -2,7 +2,7 @@
 date_added: 2022-09-08
 title: CozyLife HomeKit 16A
 model: 
-image: /assets/images/cozylife_homekit_plug.jpg
+image: /assets/device_images/cozylife_homekit_plug.webp
 template32: '{"NAME":"CozyLife 16A","GPIO":[0,32,0,0,0,0,0,0,0,0,0,0,0,0,0,2720,0,0,2656,576,0,224,2624,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://aliexpress.com/item/1005004541903825.html
 link2: 

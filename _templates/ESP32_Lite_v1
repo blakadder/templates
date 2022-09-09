@@ -5,7 +5,7 @@ model:
 category: diy
 type: Development Board
 standard: global
-image: /assets/images/ESP32_Lite_v1.jpg
+image: /assets/device_images/ESP32_Lite_v1.webp
 template32: '{"NAME":"ESP32 Lite V1.0.0","GPIO":[1,0,1,0,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0],"FLAG":0,"BASE":1}' 
 mlink: 
 link: https://www.aliexpress.com/item/4000038780903.html
@@ -15,4 +15,4 @@ link3: https://www.amazon.de/dp/B07DMKCPLB/
 
 A compact ESP32 board with a LiPo battery plug. Clone of the discontinued LOLIN32 Lite board.
 
-![Pinout](/assets/images/ESP32_Lite_v1_pinout.jpg)
+![Pinout](/assets/device_images/ESP32_Lite_v1_pinout.webp)

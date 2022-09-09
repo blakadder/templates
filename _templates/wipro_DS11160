@@ -2,7 +2,7 @@
 date_added: 2021-06-19
 title: Wipro 16A 
 model: DS11160
-image: /assets/images/wipro_DS11160.jpg
+image: /assets/device_images/wipro_DS11160.webp
 template9: '{"NAME":"Wip-DSP1160","GPIO":[0,0,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":52}' 
 link: https://www.amazon.in/dp/B08HN9Q2SZ
 link2: 

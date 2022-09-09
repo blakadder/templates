@@ -2,7 +2,7 @@
 date_added: 2020-09-20
 title: D06 
 model: D06
-image: /assets/images/D06.jpg
+image: /assets/device_images/D06.webp
 template: '{"NAME":"D06 Door Sensor","GPIO":[0,148,0,149,21,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: 
 link: https://www.aliexpress.com/item/10000093278617.html
@@ -14,7 +14,7 @@ standard: global
 chip: CB3S
 unsupported: true
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 ## Warning! Since 2022-02-22 ships with CB3S (BK7231N)
 
@@ -34,11 +34,11 @@ The PCB has no visible serial number or other marking on it but the MCU is marke
 
 To flash the device solder directly to [TYWE3S](https://tasmota.github.io/docs/devices/TYWE3S/) TX, RX, VCC and GND pins (optional: solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to temporarily remove the marked resistor to prevent the MCU from interfering with the flashing process. Resolder it back or bridge the connection once flashing is complete.
 
-![PCB](/assets/images/D06_pcb.jpg)
+![PCB](/assets/device_images/D06_pcb.webp)
 
 There appears to be a new revision of the board, easily identified by the additional test points:
 
-![PCB](/assets/images/D06_pcb_2.jpg)
+![PCB](/assets/device_images/D06_pcb_2.webp)
 
 Flashing procedure is the same, but this time there is a track joining the two pads of R1 that will need to be cut (by scratching through the copper layer with a scalpel or similar) - simply removing the 0-ohm resistor is not enough.
 
@@ -134,4 +134,4 @@ Don't forget to enable the rule with `Rule3 1`
 
 When the sensor boots again it will send the two autodiscovery messages and your device will appear in HA devices list.
 
-![HA device](/assets/images/D06_ha.jpg)
+![HA device](/assets/device_images/D06_ha.webp)

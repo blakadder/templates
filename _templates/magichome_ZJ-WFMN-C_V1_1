@@ -2,7 +2,7 @@
 date_added: 2022-08-28
 title: MagicHome DC5-28V Single Color 
 model: ZJ-WFMN-C V1.1
-image: /assets/images/magichome_ZJ-WFMN-C_V1_1.jpg
+image: /assets/device_images/magichome_ZJ-WFMN-C_V1_1.webp
 template9: '{"NAME":"MagicHome RF","GPIO":[0,0,3168,0,0,0,0,0,416,417,0,0,0,0],"FLAG":0,"BASE":38}' 
 link: https://www.aliexpress.com/item/33052839438.html
 link2: 
@@ -16,7 +16,7 @@ Snap the case open by using a prying tool on the top side, it will click back in
 
 In the rear side of the PCB there are all the contacts you need for flashing the device (GND, 3V3, TX, RX and IO0)
 
-![PCB](/assets/images/magichome_ZJ-WFMN-C_V1_1_pcb.jpg)
+![PCB](/assets/device_images/magichome_ZJ-WFMN-C_V1_1_pcb.webp)
 
 There are 4 output transistors connected in 2 couples (next to each other).
 

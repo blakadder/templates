@@ -2,7 +2,7 @@
 date_added: 2021-04-20
 title: ESP-15F
 model: ESP-15F
-image: /assets/images/ESP-15F.jpg
+image: /assets/device_images/ESP-15F.webp
 template9: '{"NAME":"ESP-15F","GPIO":[1,1,0,1,1,1,0,0,0,544,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001732995411.html
 link2: https://www.amazon.de/dp/B08MYVM78K
@@ -19,6 +19,6 @@ Designed as a Wi-Fi adapter connecting to a serial MCU using a 4pin PH2.54 conne
 
 Using female Dupont cables connect RX, TX and GND lines to the serial-to-USB adapter. Provide stable 5V power to the 5V pin with a common GND. Ground GPIO0 accessed on the back of the module.
 
-![Wiring](/assets/images/ESP-15F_wiring.jpg)
+![Wiring](/assets/device_images/ESP-15F_wiring.webp)
 
 [Datasheet](https://docs.ai-thinker.com/_media/esp8266/docs/esp-15f_specification_en.pdf)

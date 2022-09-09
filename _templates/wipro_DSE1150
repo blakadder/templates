@@ -2,7 +2,7 @@
 date_added: 2020-07-04
 title: Wipro Smart Extension
 model: DSE1150
-image: /assets/images/wipro_DSE1150.jpg
+image: /assets/device_images/wipro_DSE1150.webp
 template: '{"NAME":"Generic","GPIO":[57,0,0,0,32,0,0,0,30,31,29,0,25],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.in/Wipro-DSE1150-Next-Smart-Extension/dp/B07VWPXPL1/
 link2: 

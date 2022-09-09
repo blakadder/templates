@@ -2,7 +2,7 @@
 date_added: 2021-02-23
 title: Calex 5m RGB + White
 model: 429240
-image: /assets/images/calex-429240.jpg
+image: /assets/device_images/calex-429240.webp
 template9: '{"NAME":"Calex RGBW IR","GPIO":[1088,0,0,0,416,0,0,0,417,419,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.tesco.com/groceries/en-GB/products/306856095
 link2: https://www.amazon.de/dp/B08175JW75

@@ -2,7 +2,7 @@
 date_added: 2021-09-27
 title: Eachen eWeLink ZbBridge Pro Ethernet 
 model: ZB-GW03-V1.2
-image: /assets/images/ewelink_ZB-GW03.jpg
+image: /assets/device_images/ewelink_ZB-GW03.webp
 template32: '{"NAME":"ZB-GW03-V1.2","GPIO":[0,0,3552,0,3584,0,0,0,5793,5792,320,544,5536,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,608,640,32,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005003065061179.html
 link2: https://www.amazon.de/dp/B094JKVLNR
@@ -24,7 +24,7 @@ Download Zigbee module firmware (for example: [`ncp-uart-sw_6.7.8_115200.ota`](h
 
 Go to **Firmware Upgrade** and next to "Upgrade by file upload" use the _Choose File_ button and select Zigbee module firmware you downloaded f.e. (`ncp-uart-sw_6.7.8_115200.ota`). 
 
-![ZBBridge Zigbee module flash](/assets/images/sonoff_ZBBridge_ota.jpg)
+![ZBBridge Zigbee module flash](/assets/device_images/sonoff_ZBBridge_ota.webp)
 
 Click on **Start upgrade**, be patient and wait for a few minutes until flashing is complete. Once it is done, Tasmota will reboot. If the flash was successful the console will show Zigbee2Tasmota starting:
 

@@ -2,7 +2,7 @@
 date_added: 2020-02-21
 title: B.K. Licht 9W 806lm
 model: BKL1253
-image: /assets/images/bklicht_BKL1253.jpg
+image: /assets/device_images/bklicht_BKL1253.webp
 template: '{"NAME":"BKL1253","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/B-K-Licht-Dimmbar-Sprachsteuerung-Gl%C3%BChbirne-Leuchtmittel/dp/B082856TW4/
 link2: https://www.amazon.co.uk/Multicolour-Changeable-dimmable-Smartphone-Control/dp/B08284XCTT

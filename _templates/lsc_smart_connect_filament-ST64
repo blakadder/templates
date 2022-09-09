@@ -5,7 +5,7 @@ type: Dimmable
 category: bulb
 standard: e27
 link: https://www.action.com/de-de/p/lsc-smart-connect-smarte-led-filament-lampe2/
-image: /assets/images/lsc_smart_connect_filament-ST64.jpg
+image: /assets/device_images/lsc_smart_connect_filament-ST64.webp
 template: '{"NAME":"LSC Filam Big","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

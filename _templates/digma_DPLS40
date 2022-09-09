@@ -2,7 +2,7 @@
 date_added: 2022-02-22
 title: Digma DiPlug Strip 40
 model: DPLS40
-image: /assets/images/digma_DPLS40.jpg
+image: /assets/device_images/digma_DPLS40.webp
 template9: '{"NAME":"DiPlug Strip 40","GPIO":[1,320,1,32,225,224,1,1,226,227,260,1,1,1],"FLAG":0,"BASE":18}' 
 link: https://www.citilink.ru/product/setevoi-filtr-digma-diplug-strip-40-belyi-1182653/
 link2: 

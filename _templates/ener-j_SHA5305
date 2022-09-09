@@ -2,7 +2,7 @@
 date_added: 2020-12-09
 title: Ener-J Outdoor Switch
 model: SHA5305
-image: /assets/images/ener-j_SHA5305.jpg
+image: /assets/device_images/ener-j_SHA5305.webp
 template9: '{"NAME":"Ener-J Smart WiFi Outdoor Relay","GPIO":[32,0,0,0,0,0,0,0,224,544,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/dp/B0851KLMG5
 link2: 

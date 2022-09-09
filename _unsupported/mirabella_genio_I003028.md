@@ -5,7 +5,7 @@ model: I003028
 category: unsupported
 type: Light
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-7w-led-tube-lamp/3176391
-image: /assets/images/mirabella_genio_I003028.jpg
+image: /assets/device_images/mirabella_genio_I003028.webp
 link2: 
 link3: 
 chip: WB3L

@@ -2,7 +2,7 @@
 date_added: 2021-05-03
 title: WdtPro 8W 800lm
 model: 
-image: /assets/images/wdtpro_8w.jpg
+image: /assets/device_images/wdtpro_8w.webp
 template9: '{"NAME":"WdtPro","GPIO":[0,0,0,0,419,420,0,0,417,418,416,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B089SGFD3B/
 link2: 

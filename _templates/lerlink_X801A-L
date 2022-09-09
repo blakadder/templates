@@ -2,7 +2,7 @@
 date_added: 2020-01-07
 title: LerLink 1 Gang No Neutral
 model: X801A-L
-image: /assets/images/lerlink_X801A-L.jpg
+image: /assets/device_images/lerlink_X801A-L.webp
 template: '{"NAME":"LerLink X801-L","GPIO":[0,0,0,0,17,0,0,0,21,56,0,0,0],"FLAG":15,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000424217817.html
 link2: 

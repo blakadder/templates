@@ -6,7 +6,7 @@ type: RGBW
 category: bulb
 standard: gu10
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-multicolor-spot/
-image: /assets/images/lsc_smart_connect_MR16.jpg
+image: /assets/device_images/lsc_smart_connect_MR16.webp
 template: '{"NAME":"LSC RGBCW GU10","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

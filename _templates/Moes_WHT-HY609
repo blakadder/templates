@@ -2,7 +2,7 @@
 date_added: 2022-03-24
 title: Moes Floor Heating or Water/Gas Boiler Wall
 model: WHT-HY609
-image: /assets/images/Moes_WHT-HY609.jpg
+image: /assets/device_images/Moes_WHT-HY609.webp
 template9: '{"NAME":"WHT-HY609-GB-WH-MS","GPIO":[0,2304,0,2272,0,0,0,0,0,0,896,928,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/1005002865575647.html
 link2: 

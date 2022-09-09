@@ -5,7 +5,7 @@ model: WB5
 category: light
 type: LED Controller
 standard: global
-image: /assets/images/WB5.jpg
+image: /assets/device_images/WB5.webp
 templatec3: '{"NAME":"WB5","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":18,"CMND":"TuyaMCU 11,20 | TuyaMCU 21,22 | TuyaMCU 22,21 | TuyaMCU 23,23 | TuyaMCU 98,101 | DimmerRange 0,1024"}'
 link: https://www.aliexpress.com/item/1005003081976104.html
 link2: https://www.amazon.com/dp/B08L9GWJK1
@@ -13,7 +13,7 @@ mlink: https://www.alibaba.com/product-detail/SKYDANCE-WB5-TuyaBluetooth-RF-5-in
 chip: CB3S
 flash: replace
 ---
-![PCB](/assets/images/WB5_pcb.jpg)
+![PCB](/assets/device_images/WB5_pcb.webp)
 
 ## Hardware
 

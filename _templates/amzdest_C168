@@ -2,7 +2,7 @@
 date_added: 2020-08-21
 title: Amzdest IP55
 model: C168
-image: /assets/images/amzdest_C168.jpg
+image: /assets/device_images/amzdest_C168.webp
 template: '{"NAME":"C168 Outdoor","GPIO":[0,0,0,131,134,132,0,0,21,56,22,23,17],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07YXK9717/
 link2: 

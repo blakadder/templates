@@ -2,7 +2,7 @@
 date_added: 2020-02-13
 title: Eachen CD303 3 Gang
 model: CD303
-image: /assets/images/eachen_CD303.jpg
+image: /assets/device_images/eachen_CD303.webp
 template: '{"NAME":"ID Components","GPIO":[157,53,0,11,21,10,0,0,9,22,54,23,52],"FLAG":15,"BASE":18}' 
 link: 
 link2: 
@@ -12,4 +12,4 @@ category: switch
 type: Switch
 standard: us
 ---
-![](/assets/images/eachen_CD303a.jpg)
+![](/assets/device_images/eachen_CD303a.webp)

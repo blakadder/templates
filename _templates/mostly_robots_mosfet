@@ -2,7 +2,7 @@
 date_added: 2021-11-25
 title: Mostly Robots Wemos D1 4 Channel MOSFET Shield 
 model: 
-image: /assets/images/mostly_robots_mosfet.jpg
+image: /assets/device_images/mostly_robots_mosfet.webp
 template9: '{"NAME":"MOSFET","GPIO":[1,1,288,1,1,1,1,1,226,225,227,224,1,1],"FLAG":0,"BASE":18}' 
 link: https://www.tindie.com/products/mostlyrobots/4-channel-mosfet-shield-for-wemos-d1-mini-esp8266/
 link2: 

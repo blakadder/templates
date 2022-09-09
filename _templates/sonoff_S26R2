@@ -14,7 +14,7 @@ standard:
   - ch
   - il
   - it
-image: /assets/images/sonoff_S26.jpg
+image: /assets/device_images/sonoff_S26.webp
 template: '{"NAME":"Sonoff S26R2","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8}' 
 link: https://itead.cc/product/sonoff-s26-wifi-smart-plug/
 link2: https://www.aliexpress.com/af/s26R2.html
@@ -33,6 +33,6 @@ S26R2TPF has a Espressif Systems 1MB ESP8285 on a small daughter board with no v
 ![PCB](https://user-images.githubusercontent.com/32602435/140815873-662de9b1-7472-4f2e-8167-1f6ece129bd9.jpg)
 Success with Tasmotizer 1.2, image 10.0.0 and a CP2102 serial programmer.
 
-![](/assets/images/sonoff_S26R2_label.jpg)
+![](/assets/device_images/sonoff_S26R2_label.webp)
 
-![](/assets/images/sonoff_S26R2_models.jpg)
+![](/assets/device_images/sonoff_S26R2_models.webp)

@@ -2,7 +2,7 @@
 date_added: 2020-07-15
 title: Jomarto SH0617
 model: SH0617
-image: /assets/images/jomarto_SH0617.jpg
+image: /assets/device_images/jomarto_SH0617.webp
 template: '{"NAME":"Jomarto SH0617","GPIO":[57,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/JOMARTO-Compatible-Controlled-Function-Required/dp/B07F15ZZNP
 link2: 

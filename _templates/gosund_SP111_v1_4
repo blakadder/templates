@@ -1,7 +1,7 @@
 ---
 date_added: 2019-12-12
 title: Gosund SP111 v1.4
-image: /assets/images/gosund_SP111.jpg
+image: /assets/device_images/gosund_SP111.webp
 template: '{"NAME":"Gosund SP111 v1.4","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}'
 link: https://www.aliexpress.com/af/gosund-sp111.html
 link2: https://www.alzashop.com/smart-plug-sp111-4pack-d6487484.htm

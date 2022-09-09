@@ -2,7 +2,7 @@
 date_added: 2020-10-22
 title: SA-P302A
 model: SA-P302A
-image: /assets/images/SA-P302A.jpg
+image: /assets/device_images/SA-P302A.webp
 template: '{"NAME":"KinCam SA-P302A","GPIO":[0,0,0,0,0,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.it/gp/product/B07RSXNB92/
 link2: 
@@ -13,4 +13,4 @@ type: Plug
 standard: eu
 ---
 
-![label](/assets/images/SA-P302A_label.jpg)
+![label](/assets/device_images/SA-P302A_label.webp)

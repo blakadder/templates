@@ -2,7 +2,7 @@
 date_added: 2021-01-20
 title: POWSAV 5+5AC 4USB
 model: 
-image: /assets/images/powsav_strip.jpg
+image: /assets/device_images/powsav_strip.webp
 template9: '{"NAME":"POWSAV 5+5AC+4USB","GPIO":[320,0,0,32,224,225,0,0,228,0,227,226,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B08B3GT4C4/
 link2: 

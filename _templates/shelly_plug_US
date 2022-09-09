@@ -6,7 +6,7 @@ type: Plug
 standard: us
 flash: mgos
 mlink: https://shelly.cloud/products/shelly-plug-us-smart-home-automation-device/
-image: /assets/images/shelly_plug_US.jpg
+image: /assets/device_images/shelly_plug_US.webp
 template: '{"NAME":"Shelly Plug US","GPIO":[52,0,57,0,21,134,0,0,131,17,132,157,0],"FLAG":0,"BASE":45}' 
 link: https://shopusa.shelly.cloud/shelly-plug-us-wifi-smart-home-automation#393
 ---

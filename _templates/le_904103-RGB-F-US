@@ -2,7 +2,7 @@
 date_added: 2020-03-18
 title: LE LampUX 16.4ft RGB
 model: 904103-RGB-F-US
-image: /assets/images/le_lampux_904103-RGB-F-US.jpg
+image: /assets/device_images/le_lampux_904103-RGB-F-US.webp
 template: '{"NAME":"LampUX","GPIO":[0,18,17,0,0,38,0,0,39,51,0,37,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07X2475VK/
 link2: https://www.amazon.ca/gp/product/B07X2475VK/

@@ -2,7 +2,7 @@
 date_added: 2020-01-05
 title: Atomi AT1217
 link: https://www.amazon.com/Atomi-Occupies-Charging-Anywhere-Required/dp/B07K1HFD4T
-image: /assets/images/atomi_AT1217.jpg
+image: /assets/device_images/atomi_AT1217.webp
 template: '{"NAME":"AT1217","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.homedepot.com/p/atomi-smart-WiFi-Smart-Plug-AT1249/309533511
 mlink: https://atomismart.com/product/smart-plug/

@@ -7,7 +7,7 @@ type: Switch Module
 standard: global
 flash: serial
 template32: '{"NAME":"Sonoff POWR316D","GPIO":[32,0,0,0,0,576,0,0,0,224,9280,0,3104,0,320,0,0,0,0,0,0,9184,9248,9216,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
-image: /assets/images/sonoff_POWR316D.jpg
+image: /assets/device_images/sonoff_POWR316D.webp
 mlink: https://sonoff.tech/product/diy-smart-switch/pow-elite/
 link: https://itead.cc/product/sonoff-pow-elite-smart-power-meter-switch/ref/3/
 link2: https://www.aliexpress.com/item/32862735913.html

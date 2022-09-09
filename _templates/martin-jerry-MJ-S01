@@ -6,7 +6,7 @@ category: switch
 type: Switch
 standard: us
 link: https://www.amazon.com/dp/B07GSTJ8TV
-image: /assets/images/martin-jerry-MJ-S01.jpg
+image: /assets/device_images/martin-jerry-MJ-S01.webp
 template: '{"NAME":"MJ-S01 Switch","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 template9: '{"NAME":"MJ-S01 Switch","GPIO":[0,0,0,0,320,321,0,0,224,32,0,0,0],"FLAG":0,"BASE":18}'
 ---

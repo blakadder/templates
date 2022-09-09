@@ -2,7 +2,7 @@
 date_added: 2021-04-16
 title: Woox Integrational Switch
 model: R4967
-image: /assets/images/woox_R4967.jpg
+image: /assets/device_images/woox_R4967.webp
 template9: '{"NAME":"WOOXR4967","GPIO":[0,0,0,1,320,224,0,0,0,32,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07NCQCPVC
 link2: https://www.amazon.de/dp/B07NCQCPVC

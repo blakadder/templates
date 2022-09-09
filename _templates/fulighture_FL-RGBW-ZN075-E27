@@ -2,7 +2,7 @@
 date_added: 2020-11-25
 title: Fulighture RGBW 15W
 model: FL-RGBW-ZN075-E27
-image: /assets/images/fulighture_FL-RGBW-ZN075-E27.jpg
+image: /assets/device_images/fulighture_FL-RGBW-ZN075-E27.webp
 template9: '{"NAME":"Fulighture RGBW 15W","GPIO":[0,0,0,0,0,0,0,0,0,3008,0,3040,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B0894PYGLG
 link2: 

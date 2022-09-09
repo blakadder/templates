@@ -2,7 +2,7 @@
 date_added: 2020-05-20
 title: Treatlife 3-Way
 model: SS01
-image: /assets/images/treatlife_SS01.jpg
+image: /assets/device_images/treatlife_SS01.webp
 template: '{"NAME":"Treatlife SS01 3-Way","GPIO":[0,0,0,0,21,158,0,0,22,18,9,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Required-Treatlife-Compatible-Assistant-Schedule/dp/B07ZSF554H/
 link2: 

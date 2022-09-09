@@ -2,7 +2,7 @@
 date_added: 2021-02-17
 title: Prokord 4AC 4USB
 model: PSH-WT003-EU
-image: /assets/images/prokord_PSH-WT003-EU.jpg
+image: /assets/device_images/prokord_PSH-WT003-EU.webp
 template9: '{"NAME":"PSH-WT003-EU","GPIO":[0,320,0,32,226,227,0,0,225,224,260,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.dustin.com/product/5011159150/smart-home-wifi-power-strip-usb
 link2: 

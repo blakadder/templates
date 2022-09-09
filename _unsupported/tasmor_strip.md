@@ -4,7 +4,7 @@ title: Tasmor Dreamcolor 5M
 category: unsupported
 type: LED Strip
 link: https://www.amazon.it/gp/product/B087N6Y8BG
-image: /assets/images/tasmor_strip.jpg
+image: /assets/device_images/tasmor_strip.webp
 link2: 
 link3: 
 chip: Realtek 

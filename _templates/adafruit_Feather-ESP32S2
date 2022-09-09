@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://www.adafruit.com/product/5303
-image: /assets/images/adafruit_Feather-esp32-s2.jpg
+image: /assets/device_images/adafruit_Feather-esp32-s2.webp
 flash: serial
 chip: s2
 templates2: '{"NAME":"ESP32-S2 Feather","GPIO":[1,0,0,640,608,1,1,3840,1,1,1,1,1,1,1,1,1,1,1,0,0,3840,1376,0,1,1,1,1,1,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
@@ -22,9 +22,9 @@ When the board is booted into debug by holding `BOOT` and pressing the `RESET` b
 
 ## Device Notes
 
-![Adafruit ESP32-S2 Feather Front and Back](/assets/images/adafruit_Feather-esp32-s2_front-and-back.jpg "Adafruit ESP32-S2 Feather Front and Back")
+![Adafruit ESP32-S2 Feather Front and Back](/assets/device_images/adafruit_Feather-esp32-s2_front-and-back.webp "Adafruit ESP32-S2 Feather Front and Back")
 
-![Adafruit ESP32-S2 Feather Pinout](/assets/images/adafruit_Feather-esp32-s2_pinout.png "Adafruit ESP32-S2 Feather Pinout")
+![Adafruit ESP32-S2 Feather Pinout](/assets/device_images/adafruit_Feather-esp32-s2_pinout.webp "Adafruit ESP32-S2 Feather Pinout")
 
 [Product Guide](https://learn.adafruit.com/adafruit-esp32-s2-feather/)
 

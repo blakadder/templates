@@ -2,7 +2,7 @@
 date_added: 2021-08-03
 title: Hugoai Table Lamp 
 model: HG02 
-image: /assets/images/hugoai_HG02.jpg
+image: /assets/device_images/hugoai_HG02.webp
 template9: '{"NAME":"HG02","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,20 | TuyaMCU 26,21 | TuyaMCU 21,22 | TuyaMCU 23,23 | TuyaMCU 24,24 | DimmerRange 34,1000"}' 
 link: https://www.amazon.com/dp/B07Q8SMG8R/
 link2: https://www.amazon.com/dp/B07QK9LG1H

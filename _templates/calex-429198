@@ -2,7 +2,7 @@
 date_added: 2020-05-18
 title: Calex 429198
 model: 429198
-image: /assets/images/calex-429198.jpg
+image: /assets/device_images/calex-429198.webp
 template: '{"NAME":"Calex Pwr Plug","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.123led.nl/Calex-Smart-Powerplug-EU-i4841-t2250.html
 link2: https://www.bol.com/nl/p/calex-smart-connect-powerplug-nl-plus-16a/9200000124426339

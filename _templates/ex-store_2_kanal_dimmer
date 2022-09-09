@@ -5,7 +5,7 @@ category: relay
 type: Dimmer Module
 standard: eu
 mlink: https://ex-store.de/
-image: /assets/images/ex-store_2_kanal_dimmer.jpg
+image: /assets/device_images/ex-store_2_kanal_dimmer.webp
 template: '{"NAME":"EXS Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,183,0,0,0],"FLAG":0,"BASE":72}' 
 link: https://www.amazon.de/Kanal-Dimmer-Unterputzmontage-Stift-Buchensleisten/dp/B075HHH8D4
 ---

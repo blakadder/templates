@@ -2,7 +2,7 @@
 date_added: 2020-04-24
 title: ESP-01S
 model: ESP-01S
-image: /assets/images/ESP-01S.jpg
+image: /assets/device_images/ESP-01S.webp
 template: '{"NAME":"ESP-01","GPIO":[255,255,255,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33005770320.html
 link2: https://www.amazon.de/dp/B074RL7YR3/
@@ -15,7 +15,7 @@ standard: global
 ---
 [Differences between ESP-01 and ESP-01S](https://www.esp8266.com/viewtopic.php?t=11657)
 
-![Pinout](/assets/images/ESP01-pinout.jpg)
-![Wiring](/assets/images/ESP01-wiring.jpg)
+![Pinout](/assets/device_images/ESP01-pinout.webp)
+![Wiring](/assets/device_images/ESP01-wiring.webp)
 
 {% include test_board.md %}

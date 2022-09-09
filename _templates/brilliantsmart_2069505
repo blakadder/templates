@@ -6,7 +6,7 @@ category: light
 type: Downlight
 standard: au
 link: https://www.amazon.com.au/Brilliant-Smart-Trilogy-Dimmable-Downlight/dp/B081ZK9SLM
-image: /assets/images/brilliantsmart_2069505.jpg
+image: /assets/device_images/brilliantsmart_2069505.webp
 template9: '{"NAME":"SmartCCTDwnLgt","GPIO":[0,0,0,0,0,416,0,0,0,449,0,0,0,0],"FLAG":0,"BASE":48}' 
 link2: https://www.jdlighting.com.au/brilliant-smart-trilogy-9w-led-cct-dimmable-downlight.html
 mlink: https://www.brilliantlighting.com.au/product/smart-wifi-led-cct-downlight-1ad6c4

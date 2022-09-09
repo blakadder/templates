@@ -5,7 +5,7 @@ model: K016-C
 category: diy
 type: Display
 standard: global
-image: /assets/images/m5stack_stickc.jpg
+image: /assets/device_images/m5stack_stickc.webp
 template32: '{"NAME":"M5StickC","GPIO":[1,0,0,0,0,768,1056,576,0,736,0,704,0,0,1024,0,0,641,609,800,0,0,1,0,0,0,0,0,640,608,1,0,1,32,6210,33],"FLAG":0,"BASE":1}' 
 mlink: https://shop.m5stack.com/products/stick-c
 link: https://www.aliexpress.com/item/32985247364.html

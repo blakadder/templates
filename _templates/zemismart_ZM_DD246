@@ -6,7 +6,7 @@ category: light
 type: LED Strip
 standard: us
 mlink: https://www.zemismart.com/
-image: /assets/images/zemismart_ZM_DD246.jpg
+image: /assets/device_images/zemismart_ZM_DD246.webp
 template: '{"NAME":"Zemismart LED","GPIO":[0,0,0,0,38,37,0,0,0,39,40,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32857118493.html
 

@@ -6,7 +6,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.amazon.com/Geeni-GN-WW108-199/dp/B07DB3L9SN
-image: /assets/images/geeni-GN-WW108-199.jpg
+image: /assets/device_images/geeni-GN-WW108-199.webp
 template: '{"NAME":"Geeni Glo","GPIO":[0,0,0,0,56,0,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://mygeeni.com/collections/power/products/spot-glo
 ---

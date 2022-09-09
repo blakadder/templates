@@ -5,7 +5,7 @@ model: RR620W
 category: unsupported
 type: Relay
 link: https://www.aliexpress.com/item/4001084869525.html
-image: /assets/images/loratap_RR620W.jpg
+image: /assets/device_images/loratap_RR620W.webp
 link2: 
 link3: 
 chip: WB2S Module

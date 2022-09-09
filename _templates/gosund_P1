@@ -2,7 +2,7 @@
 date_added: 2020-04-18
 title: Gosund P1
 model: P1
-image: /assets/images/gosund_P1.jpg
+image: /assets/device_images/gosund_P1.webp
 template9: '{"NAME":"Gosund_P1","GPIO":[0,3072,544,3104,0,259,0,0,225,226,224,0,35,4704],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/gp/product/B085XXCPRD/
 link2: https://www.alzashop.com/gosund-smart-power-strip-p1-d6253993.htm
@@ -24,10 +24,10 @@ Rule2
   ON Analog#A0div10<80 DO Power1 2 ENDON
 ```  
 
-![Relation of analog button](/assets/images/gosund_P1_analog.jpg)
+![Relation of analog button](/assets/device_images/gosund_P1_analog.webp)
 
 Then enable it with `Backlog Rule1 1; Rule2 1; Rule2 5`
 
 ## Serial flash
-![internals](/assets/images/gosund_P1_pcb.jpg)
-![internals](/assets/images/gosund_P1_pcba.jpg)
+![internals](/assets/device_images/gosund_P1_pcb.webp)
+![internals](/assets/device_images/gosund_P1_pcba.webp)

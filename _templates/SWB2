@@ -6,7 +6,7 @@ type: Power Strip
 flash: serial
 standard: eu
 template: '{"NAME":"SWB2","GPIO":[158,255,0,255,0,23,0,0,21,17,22,24,0],"FLAG":0,"BASE":18}'
-image: /assets/images/SWB2.jpg
+image: /assets/device_images/SWB2.webp
 link: https://www.aliexpress.com/item/4001289675090.html
 link2: https://www.amazon.de/dp/B07KFY7HXC
 mlink: https://lingan.en.alibaba.com/search/product?SearchText=swb1

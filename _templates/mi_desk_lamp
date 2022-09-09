@@ -5,7 +5,7 @@ category: light
 type: Light
 standard: global
 mlink: https://www.mi.com/global/smartlamp/
-image: /assets/images/mi_desk_lamp.jpg
+image: /assets/device_images/mi_desk_lamp.webp
 template: '{"NAME":"Mi Desk Lamp","GPIO":[0,0,17,0,37,38,0,0,150,151,0,0,0],"FLAG":0,"BASE":66}' 
 link: https://www.banggood.com/Xiaomi-Mijia-MJTD01YL-LED-Smart-Table-Lamp-Dimming-Reading-Light-For-Cell-Phone-p-1057361.html
 link2: https://www.aliexpress.com/item/4001255556018.html

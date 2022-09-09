@@ -6,7 +6,7 @@ category: light
 type: Downlight
 standard: au
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-dimmable-9w-led-downlight/2754331
-image: /assets/images/mirabella_genio_I002742.jpg
+image: /assets/device_images/mirabella_genio_I002742.webp
 template: '{"NAME":"GenioDLightCCT","GPIO":[0,0,0,0,0,0,0,0,47,0,37,0,0],"FLAG":0,"BASE":48}' 
 link2:
 mlink: https://mirabellagenio.net.au/downlight-rgb%2Bcct

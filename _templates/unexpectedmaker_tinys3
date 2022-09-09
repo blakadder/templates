@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://esp32s3.com/tinys3.html
-image: /assets/images/unexpectedmaker_tinys3.jpg
+image: /assets/device_images/unexpectedmaker_tinys3.webp
 flash: serial
 chip: s3
 templates3: '{"NAME":"TinyS3","GPIO":[32,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,3840,1376,0,0,1,1,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0],"FLAG":0,"BASE":1}'
@@ -20,6 +20,6 @@ This board uses an [`ESP32-S3FN8`](https://www.espressif.com/sites/default/files
 
 {% include flash/s3.md %}
 
-![Unexpected Maker TinyS3 Pinout](/assets/images/unexpectedmaker_tinys3_pinout.jpg "Unexpected Maker TinyS3 Pinout")
+![Unexpected Maker TinyS3 Pinout](/assets/device_images/unexpectedmaker_tinys3_pinout.webp "Unexpected Maker TinyS3 Pinout")
 
 [TinyS3 Schematic](https://esp32s3.com/files/schematic-tinys3.pdf)

@@ -2,7 +2,7 @@
 date_added: 2022-08-25
 title: Kincony ESP32 433MHz RF and
 model: KC868-A8
-image: /assets/images/kincony_KC868-AG.jpg
+image: /assets/device_images/kincony_KC868-AG.webp
 template32: '{"NAME":"KC868-AG","GPIO":[0,0,1056,0,480,0,0,0,0,0,1,0,1,1,1,1,0,1,1120,1152,0,7968,0,0,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1,"CMND":"BuzzerPwm 1"}'
 link: https://www.aliexpress.com/item/1005003852710399.html
 link2: https://www.alibaba.com/product-detail/Smart-Home-Automation-WiFi-IR-RF_62236742754.html

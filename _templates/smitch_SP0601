@@ -2,7 +2,7 @@
 date_added: 2020-08-12
 title: Smitch 6A
 model: SP0601
-image: /assets/images/smitch_SP0601.jpg
+image: /assets/device_images/smitch_SP0601.webp
 template: '{"NAME":"Smitch SP0601","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
 link: https://www.flipkart.com/smitch-wi-fi-smart-plug-6a/p/itme891472507870
 mlink: http://www.mysmitch.com/

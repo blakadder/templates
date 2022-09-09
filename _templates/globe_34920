@@ -2,7 +2,7 @@
 date_added: 2020-06-21
 title: Globe G25 Edison 500lm 
 model: 34920
-image: /assets/images/globe_34920.jpg
+image: /assets/device_images/globe_34920.webp
 template: '{"NAME":"Globe 34920","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.ca/gp/product/B08146V1N5/
 link2: https://www.amazon.com/dp/B08146V1N5

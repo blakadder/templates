@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://www.adafruit.com/product/5325
-image: /assets/images/adafruit_qtpy-esp32-s2.jpg
+image: /assets/device_images/adafruit_qtpy-esp32-s2.webp
 flash: serial
 chip: s2
 templates2: '{"NAME":"QTPy ESP32-S2","GPIO":[96,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,3840,1376,608,640,0,0,0,0,0],"FLAG":0,"BASE":1}'
@@ -23,11 +23,11 @@ When the board is booted into debug by holding `BOOT` and pressing the `RESET` b
 
 ## Device Notes
 
-![Adafruit QTPy ESP32-S2 Front](/assets/images/adafruit_qtpy-esp32-s2_front.jpg "Adafruit QTPy ESP32-S2 Front")
+![Adafruit QTPy ESP32-S2 Front](/assets/device_images/adafruit_qtpy-esp32-s2_front.webp "Adafruit QTPy ESP32-S2 Front")
 
-![Adafruit QTPy ESP32-S2 Back](/assets/images/adafruit_qtpy-esp32-s2_back.jpg "Adafruit QTPy ESP32-S2 Back")
+![Adafruit QTPy ESP32-S2 Back](/assets/device_images/adafruit_qtpy-esp32-s2_back.webp "Adafruit QTPy ESP32-S2 Back")
 
-![Adafruit QTPy ESP32-S2 Pinout](/assets/images/adafruit_qtpy-esp32-s2_pinout.png "Adafruit QTPy-S2 Pico Pinout")
+![Adafruit QTPy ESP32-S2 Pinout](/assets/device_images/adafruit_qtpy-esp32-s2_pinout.webp "Adafruit QTPy-S2 Pico Pinout")
 
 [Product Guide](https://learn.adafruit.com/adafruit-qt-py-esp32-s2/)
 

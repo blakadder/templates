@@ -6,7 +6,7 @@ type: RGBW
 category: bulb
 standard: e26
 link2: https://www.lohas-led.com/lohas-smart-led-bulb-a21-e26-100w-equivalent-14w-rgb-cool-white-dimmable-wifi-app-controlled-alexa-google-assistant-compatible-p0230-p0230.html
-image: /assets/images/lohas-ZN006.jpg
+image: /assets/device_images/lohas-ZN006.webp
 template: '{"NAME":"Lohas100 RGBW","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/LOHAS-LED-Equivalent-Brightness-Compatible/dp/B07P6M2FT3
 mlink: https://www.lohasled.com/14w-a21-p00177p1.html

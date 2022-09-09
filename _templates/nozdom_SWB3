@@ -2,7 +2,7 @@
 date_added: 2020-05-25
 title: Nozdom 3AC+2USB
 model: SWB3
-image: /assets/images/nozdom_SWB3.jpg
+image: /assets/device_images/nozdom_SWB3.webp
 template: '{"NAME":"NOZDOM SWB3","GPIO":[157,0,53,0,0,23,0,0,21,17,22,24,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/gp/product/B083HX1BFM
 link2: 

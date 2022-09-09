@@ -2,7 +2,7 @@
 date_added: 2021-10-09
 title: WuyunElek 
 model: W13-CW132
-image: /assets/images/wuyunelek_W13-CW132.jpg
+image: /assets/device_images/wuyunelek_W13-CW132.webp
 template9: '{"NAME":"MILOS Jalousie","GPIO":[1,0,224,225,1,320,0,0,32,33,34,226,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.pollin.de/p/wifi-rollladensteuerung-milos-23273-weiss-553459
 link2: 

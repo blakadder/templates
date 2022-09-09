@@ -5,7 +5,7 @@ model: T4 v1.3
 category: diy
 type: Display
 standard: global
-image: /assets/images/lilygo_T-Watcher.jpg
+image: /assets/device_images/lilygo_T-Watcher.webp
 template32: '{"NAME":"TTGO T4 v1.3","GPIO":[35,1,672,1,992,1024,1,1,832,768,736,704,1,1,896,0,0,640,608,864,0,0,1,6368,0,0,0,0,6400,1,1,4704,1,32,33,34],"FLAG":0,"BASE":1}' 
 mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1160
 link: https://www.aliexpress.com/item/4000083583166.html

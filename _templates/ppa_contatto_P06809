@@ -2,7 +2,7 @@
 date_added: 2021-09-23
 title: PPA Contatto Wi-Fi
 model: P06809
-image: /assets/images/ppa_contatto_P06809.jpg
+image: /assets/device_images/ppa_contatto_P06809.webp
 template9: '{"NAME":"PPA Contatto","GPIO":[0,0,32,0,224,162,0,0,288,225,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.americanas.com.br/produto/3932578161
 link2: 

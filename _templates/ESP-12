@@ -2,7 +2,7 @@
 date_added: 2021-09-04
 title: ESP-12E / ESP-12F / ESP-12S
 model: ESP-12
-image: /assets/images/ESP-12.jpg
+image: /assets/device_images/ESP-12.webp
 template9: '{"NAME":"ESP-12","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,1],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/1005001320458012.html
 link2: https://www.banggood.com/ESP8266-ESP-12E-Remote-Serial-Port-WIFI-Transceiver-Wireless-Module-p-980984.html
@@ -23,13 +23,13 @@ ESP-12S modules have those pins already pulled internally.
 
 ## Serial Flashing ESP-12S
 
-![Wiring ESP-12S](/assets/images/ESP-12S_wiring.jpg)
+![Wiring ESP-12S](/assets/device_images/ESP-12S_wiring.webp)
 
 [Datasheet](https://www.mouser.com/pdfDocs/ESP-12SDatasheet.pdf)
 
 ## Serial Flashing ESP-12E/F
 
-![Wiring ESP-12E/F](/assets/images/ESP-12_wiring.jpg)
+![Wiring ESP-12E/F](/assets/device_images/ESP-12_wiring.webp)
 
 [Datasheet](https://github.com/SmartArduino/ESPwifi/raw/master/ESP8266-12F_doc.pdf)
 

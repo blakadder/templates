@@ -2,7 +2,7 @@
 date_added: 2022-08-25
 title: KRIDA 8 Channel 10A Electromagnetic
 model: 
-image: /assets/images/krida_8ch.jpg
+image: /assets/device_images/krida_8ch.webp
 template9: '{"NAME":"8CH Relay","GPIO":[230,1,231,229,1,1,1,1,226,225,227,224,228,1],"FLAG":0,"BASE":18}' 
 link: https://www.tindie.com/products/bugrovs2012/wifi-tasmota-8-channel-10-apms-relay-module/
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2021-02-05
 title: Forrinx 3AC 4USB
 model: SH-20UK
-image: /assets/images/forrinx_SH-20UK.jpg
+image: /assets/device_images/forrinx_SH-20UK.webp
 template9: '{"NAME":"SH-20","GPIO":[0,320,0,321,225,224,0,0,32,226,227,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/dp/B07PKBN9NY
 link2: 

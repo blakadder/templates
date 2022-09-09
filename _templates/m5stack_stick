@@ -5,7 +5,7 @@ model: K016
 category: diy
 type: Display
 standard: global
-image: /assets/images/m5stack_stick.jpg
+image: /assets/device_images/m5stack_stick.webp
 template32: '{"NAME":"M5Stick","GPIO":[0,0,0,0,0,0,0,0,0,608,768,0,0,1056,736,544,0,641,609,704,0,640,480,800,6210,0,0,0,0,1024,0,32,0,0,0,0],"FLAG":0,"BASE":1}' 
 mlink: https://shop.m5stack.com/products/stick?variant=17054376001626
 link: https://www.tinytronics.nl/shop/en/m5stack-m5stick-with-mpu9250-wearable-esp32-development-board

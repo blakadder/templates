@@ -2,7 +2,7 @@
 date_added: 2021-03-15
 title: Denver Dual
 model: SHP-200
-image: /assets/images/denver_SHP-200.jpg
+image: /assets/device_images/denver_SHP-200.webp
 template9: '{"NAME":"Denver SHP-200","GPIO":[576,0,0,2624,32,2720,0,0,224,33,2656,225,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B084TG71RK
 link2: https://www.aq.cz/denver-shp-200-p29970/

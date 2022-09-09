@@ -2,7 +2,7 @@
 date_added: 2020-01-19
 title: LSC Power
 model: 2578685
-image: /assets/images/lsc_smart_connect_2578685.jpg
+image: /assets/device_images/lsc_smart_connect_2578685.webp
 template: '{"NAME":"LSC Smart Plug","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-stekker-/
 link2: 

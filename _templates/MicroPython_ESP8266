@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 template9: '{"NAME":"LC-ESP-Python","GPIO":[1,1,544,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
-image: /assets/images/MicroPython_ESP8266.jpg
+image: /assets/device_images/MicroPython_ESP8266.webp
 link: https://www.aliexpress.com/item/1005001458523448.html
 link2: https://www.amazon.co.uk/dp/B08K2SNDKH
 link3: https://www.banggood.com/MicroPython-Programming-ESP8266-WIFI-ESP-12F-Development-Board-Support-For-Python-Lua-p-1685290.html

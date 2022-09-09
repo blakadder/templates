@@ -5,7 +5,7 @@ category: light
 type: LED Strip
 standard: au
 link: https://www.brilliantsmart.com.au/smart-products/lighting/smart-strip-2m/
-image: /assets/images/brilliantsmart_20743.jpg
+image: /assets/device_images/brilliantsmart_20743.webp
 template: '{"NAME":"BrilliantStrip","GPIO":[17,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

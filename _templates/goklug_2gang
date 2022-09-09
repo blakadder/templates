@@ -2,7 +2,7 @@
 date_added: 2020-12-14
 title: GoKlug Glass Touch 2 Gang 
 model: 
-image: /assets/images/goklug_2gang.jpg
+image: /assets/device_images/goklug_2gang.webp
 template: '{"NAME":"GoKlug 2x","GPIO":[158,0,0,83,21,0,0,0,56,22,57,0,82],"FLAG":15,"BASE":18}' 
 link: https://www.amazon.de/gp/product/B0831L9JYS/
 link2: 

@@ -4,7 +4,7 @@ model: BN-SZ01
 category: light
 type: Light
 standard: global
-image: /assets/images/sonoff_BN-SZ01.jpg
+image: /assets/device_images/sonoff_BN-SZ01.webp
 template: '{"NAME":"Sonoff BN-SZ","GPIO":[0,0,0,0,0,0,0,0,37,56,0,0,0],"FLAG":0,"BASE":22}' 
 link: https://www.aliexpress.com/item/32813438503.html
 mlink: http://www.isonoff.com/sonoff.itead.cc/en/products/appliances/bn-sz01.html

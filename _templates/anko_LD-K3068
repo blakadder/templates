@@ -2,7 +2,7 @@
 date_added: 2020-12-02
 title: Anko 1.7L Cordless Water
 model: LD-K3068
-image: /assets/images/anko_LD-K3068.jpg
+image: /assets/device_images/anko_LD-K3068.webp
 template9: '{"NAME":"Anko Kettle","GPIO":[1,1,1,1,1,1,0,0,1,2304,1,2272,1,0],"FLAG":0,"BASE":54}' 
 link: https://www.kmart.com.au/product/1.7l-smart-variable-temperature-kettle/3212302
 link2: 
@@ -19,7 +19,7 @@ I didn't need to isolate or disable the MCU but, if your experience differs, it'
 
 Also of note: The flash worked perfectly, but I couldn't power the chip from my FTDI adapter.  So you will need to put it back together before seeing the Tasmota Access Point appear.
 
-![Pins for flashing](/assets/images/LD-K3068-flash.jpg)
+![Pins for flashing](/assets/device_images/LD-K3068-flash.webp)
 
 ## MCU Functions
 

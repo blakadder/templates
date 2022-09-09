@@ -2,7 +2,7 @@
 date_added: 2021-11-15
 title: TOMZN 4P 80A Circuit Breaker 
 model: TOWBC-4P-e
-image: /assets/images/tomzn_TOWBC-4P-e.jpg
+image: /assets/device_images/tomzn_TOWBC-4P-e.webp
 template9: '{"NAME":"TOMZN4","GPIO":[32,0,0,0,0,0,0,0,224,288,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4001125085099.html
 link2: 

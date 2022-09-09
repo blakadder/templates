@@ -2,7 +2,7 @@
 date_added: 2020-12-20
 title: cod.m WLAN Pixel Controller v0.8
 model: 90060
-image: /assets/images/cod.m_90060.jpg
+image: /assets/device_images/cod.m_90060.webp
 template32: '{"NAME":"cod.m Pixel Controller V0.8","GPIO":[0,0,0,0,0,544,0,0,0,0,0,32,1376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://shop.codm.de/automation/pixel/30/wlan-pixel-controller-wled
 link2:
