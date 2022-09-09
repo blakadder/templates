@@ -45,20 +45,14 @@ To enter flash mode you need to connect GPIO0 to GND. Luckily Sonoff decided to 
 
 ![GPIO0](/assets/images/sonoff_DUALR3_gpio0.jpg)
 
-Download [tasmota32.bin](http://ota.tasmota.com/tasmota32/tasmota32.bin) (you need v9.3.1.2 and above) or [tasmota32-bluetooth.bin](http://ota.tasmota.com/tasmota32/tasmota32-bluetooth.bin) if you plan on using the Bluetooth gateway feature.
+### Tasmota Web Installer
 
-### ESP Flasher
-For easiest flash use [ESP Flasher](https://github.com/Jason2866/ESP_Flasher/releases). Launch ESP Flasher, select the port for your serial-to-USB adapter and your binary, make sure DUALR3 is in flash mode by pressing down the on board button then connect your serial-to-USB adapter. Finally click "Flash ESP" and wait until complete.
+For easiest flash use [Tasmota Web Installer](https://tasmota.github.io/install/). 
 
 ### esptool.py
-Using command line esptool.py you need no longer need to download all the additional bootloader files.
 
-Flash using this command line:
-
-```bash
-esptool.py --chip esp32 --port COM5 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x10000 tasmota32.bin
-```
 If you are installing from scratch then use `tasmota32.factory.bin` which includes the necessary bootloader files.
+
 ```bash
 esptool.py --chip esp32 --port COM5 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x00000 tasmota32.factory.bin
 ```
