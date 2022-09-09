@@ -1,7 +1,7 @@
 ---
 date_added: 2022-08-15
-title: Aubess 16A OLD model
-model: ONLY OLD modell
+title: Aubess 16A
+model: 
 image: /assets/images/aubess_16A_plug.jpg
 template9: '{"NAME":"Aubess 16A Power Monitoring Plug","GPIO":[0,32,0,0,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005003639926990.html
@@ -12,8 +12,9 @@ category: plug
 type: Plug
 standard: eu
 chip: M32-V1.0
+unsupported: true
 ---
-Please take care to buy an old model! The current model (bought August 2022 on aliexpress, offical Aubess store) does NOT work. They changed the chip to BK7231N!
+Please take care to buy an old model! The current model (bought August 2022 on aliexpress, offical Aubess store) does NOT work. They changed the chip to CB2S (BK7231N)!
 
 How to [open the plug](https://blakadder.com/disassembling-CN39/). The ESP8266EX is on a Aubess Wi-Fi module labeled M32-V1.0 has the same pinout as the TYWE2S, with a minor layout change with the GPIO pins.(they clearly labelled though). [Module images](https://imgur.com/a/jh7oJlh).
 
