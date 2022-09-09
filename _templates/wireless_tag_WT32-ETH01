@@ -13,16 +13,3 @@ link2: https://www.amazon.com/dp/B08T9C3VWG
 link3: https://www.amazon.de/dp/B091KNZRZY/
 link4: https://www.banggood.com/WT32-ETH01-Embedded-Serial-Port-Networking-Ethernet-Bluetooth-compatible-WIFI-Combo-Gateway-MCU-ESP32-Wireless-Module-WT32-ETH01-p-1888027.html
 ---
-To use this device, you have to compile Tasmota with Ethernet enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.
-
-Set in user_config_override.h
-
-```c+
-#define USE_ETHERNET
-  // Wireless-Tag WT32-ETH01
-  #define ETH_TYPE          0                    // [EthType] 0 = ETH_PHY_LAN8720, 1 = ETH_PHY_TLK110, 2 = ETH_PHY_IP101
-  #define ETH_ADDRESS       1                    // [EthAddress] 0 = PHY0 .. 31 = PHY31
-  #define ETH_CLKMODE       0                    // [EthClockMode] 0 = ETH_CLOCK_GPIO0_IN, 1 = ETH_CLOCK_GPIO0_OUT, 2 = ETH_CLOCK_GPIO16_OUT, 3 = ETH_CLOCK_GPIO17_OUT
-```
-
-Or use commands ``EthType 0``, ``EthClockMode 0`` and ``EthAddress 1``
