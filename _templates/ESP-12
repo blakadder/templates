@@ -6,7 +6,7 @@ image: /assets/device_images/ESP-12.webp
 template9: '{"NAME":"ESP-12","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,1],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/1005001320458012.html
 link2: https://www.aliexpress.com/item/1005001641099066.html
-link4: https://www.banggood.com/ESP8266-ESP-12E-Remote-Serial-Port-WIFI-Transceiver-Wireless-Module-p-980984.html
+link4: https://www.banggood.com/ESP8266-ESP-12F-Remote-Serial-Port-WIFI-Transceiver-Wireless-Module-p-1007260.html
 link3: https://www.amazon.com/dp/B0B37MMDKW/
 mlink: http://www.ai-thinker.com/pro_view-58.html
 flash: serial
