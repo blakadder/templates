@@ -12,7 +12,9 @@ category: plug
 type: Plug
 standard: eu
 chip: M32-V1.0
+unsupported: true
 ---
+Please take care to buy an old model! The current model (bought August 2022 on aliexpress, offical Aubess store) does NOT work. They changed the chip to CB2S (BK7231N)!
 
 How to [open the plug](https://blakadder.com/disassembling-CN39/). The ESP8266EX is on a Aubess Wi-Fi module labeled M32-V1.0 has the same pinout as the TYWE2S, with a minor layout change with the GPIO pins.(they clearly labelled though). [Module images](https://imgur.com/a/jh7oJlh).
 
