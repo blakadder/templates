@@ -9,7 +9,7 @@ link2: https://mediarath.de/products/shelly-plus-2pm-16a-dc-ac-schalter-wifi-pow
 mlink: https://shelly.cloud/shelly-plus-2pm/
 flash: serial
 category: relay
-type: Relay
+type: Switch Module
 standard: global
 chip: solo1
 ---

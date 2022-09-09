@@ -8,8 +8,8 @@ link: https://www.flipkart.com/syska-ssk-smw-8w-c-wi-fi-smart-bulb/p/itm61a472e8
 link2: 
 mlink: https://syska.co.in/syska-ssk-smw-8w-with-multi-color-android-ios-support-energy-efficient-and-eco-friendly.html
 flash: serial
-category: rgbw
-type: Bulb
+category: Bulb
+type: RGBW
 standard: b22
 ---
 [GitHub link to instructions](https://github.com/sunishnet/tasmota-hacks/tree/main/SyskaSSK-SMW-8W-C/ 'GitHub link')

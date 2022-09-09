@@ -2,7 +2,7 @@
 title: Sonoff SC
 model: IM161129002
 category: sensor
-type: Multisensor
+type: Environment Sensor
 standard: global
 mlink: https://wiki.iteadstudio.com/Sonoff_SC
 image: https://user-images.githubusercontent.com/5904370/57957790-da894900-78fd-11e9-92c6-7f32fd9d4a59.png
