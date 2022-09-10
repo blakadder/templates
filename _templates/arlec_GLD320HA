@@ -3,7 +3,7 @@ date_added: 2022-06-17
 title: Arlec Smart 10W 830lm
 model: GLD320HA
 image: /assets/device_images/arlec_GLD320HA.webp
-template9: '{"NAME":"Arlec GLD320HA","GPIO":[0,0,0,0,4067,0,0,0,0,4032,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Arlec GLD320HA","GPIO":[0,0,0,0,4067,0,0,0,0,4032,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO37 6"}' 
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-b22-led-830lm-rgb-cct-colour-mode-10w-globe_p0321372
 link2: 
 mlink: 
