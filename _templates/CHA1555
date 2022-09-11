@@ -8,7 +8,7 @@ link: https://www.pearl.ch/de/wlan-steckdosen-leiste-4x-usb-alexa-google-assista
 link2: 
 mlink: 
 flash: serial
-
+chip: TYWE3S
 category: plug
 type: Power Strip
 standard: ch
