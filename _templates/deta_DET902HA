@@ -14,3 +14,8 @@ unsupported: true
 chip: WB2L
 ---
 This light now uses a WB2L chip that can't be flashed.
+
+Update September 2022: Most of these at Bunnings have now been replaced with new stock that contains the WB2L chip, however some old stock with the TWE2L (Tasmota compatible module) is still around
+There is a very subtle difference in the packaging: on the bottom of the box the product code "DET902HA" is shown, which is the older stock. The new (non-Tasmota) units are labelled "DET902HA Series 2"
+Note that this is the only place on the packaging the difference is shown. The product codes on the sides of the box are DET902HA for both models.
+
