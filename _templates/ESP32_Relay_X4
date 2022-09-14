@@ -1,0 +1,15 @@
+---
+date_added: 2022-09-13
+title: LC Technology DC5-60V 4 Channel
+model: ESP32_Relay_X4
+image: /assets/images/
+template32: '{"NAME":"ESP32_Relay_X4","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,226,227,1,0,0,0,0,224,225,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.co.uk/dp/B0BB38K5H9
+link2: https://www.aliexpress.com/item/1005004266235699.html
+mlink: 
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+TX/RX header holes available next to ESP32
