@@ -9,6 +9,7 @@ link2: https://www.amazon.co.uk/dp/B0983HP45C/
 link3: https://amazon.co.uk/gp/product/B09QQCWVNN
 link4: https://www.banggood.com/Gosund-Smart-Plug-Socket-Mini-Electrical-Outlet-Switch-13A-With-Independent-Control-Switch-Timing-Function-APP-Remote-Control-Works-With-Alexa-And-Google-Home-UK-Plug-p-1894390.html
 link5: https://www.ebay.co.uk/itm/175136713581
+link6: https://uk.gosund.com/products/gosund-smart-plug-up111
 mlink: https://www.alibaba.com/product-detail/TUV-Certificate-Tuya-Smart-Wifi-UK_1600197285403.html
 flash: tuya-convert
 category: plug
@@ -16,6 +17,7 @@ type: Plug
 standard: uk
 ---
 - 12-Sep-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
+- 10-Sep-2022: Box of 4 bought from uk.gosund.com and flashed successfully with tuya-convert.  
 - 28-Aug-2022: 2 x Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
 - 08-Aug-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
 - 25-Jun-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert. Also box of 4 purchased from ebay link added above and also all 4 flashed successfully.  
