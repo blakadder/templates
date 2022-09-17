@@ -33,5 +33,34 @@ https://tasmota.github.io/docs/Rules/#garage-door-opener has more on used rules.
 
 ## Features
 - fnId=2 is set for dpId=101
-- fnId=11 is set for dpId=1
+- fnId=11 is set for dpId=1 
 - fnId=0 is set for dpId=7
+
+## Update Sept 2022
+
+## Features used
+- fnId=12 is set for dpId=101   <  CHANGED to "fnId":12,"dpId":101  relay2 normal mode.
+- fnId=11 is set for dpId=1    <<< This auto configures and can't be changed. 
+- fnId=0 is set for dpId=7     <<< Timer? Left it at zero
+
+Switchmode2 15 is advised, This wasn't previously available. 
+SaveState 0 `setoption0 0` was needed to stop the door auto opening on restarts
+
+The power2 topic can be changed to sensor or anything. stat/%topic%/SENSOR etc.
+It can be setup as a [door binary sensor](https://tasmota.github.io/docs/Home-Assistant/#binary-sensors)
+similiar to [Motion sensor](https://blakadder.com/pir-in-tasmota-integration/) 
+`off_delay: 30` needs to be omitted!
+Add `payload_on` and `payload_off` if you want to change from `ON OFF` to `Open Closed` etc.
+You could also set the rules to use TuyaRecv instead of switch2#state eg. TuyaReceived#Data=55AA03070005650100010075 {"TuyaReceived":{"Data":"55AA03070005650100010075","Cmnd":7,"CmndData":"6501000100","DpType1Id101":0,"101":{"DpId":101,"DpIdType":1,"DpIdData":"00"}}}
+
+## Auto discovery in Tasmota Integration.
+
+The juicy bit and reason for changing dp101 from switch2 to relay2.
+Switch2 never provided a UI interface in Tasmota GUI, Relay2 does, (with switchmode 15) it doesn't trigger anything.
+Relay2 also allows a second friendly names.
+eg. `Friendly Name 1	Garage Door, Friendly Name 2	Garage Reed`
+
+That change also completes the setup for autodiscovery. No rules actually needed.
+You will have a real switch that activates the door and a non working switch that follows the Reed sensor(although you can still toggle it).
+
+
