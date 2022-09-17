@@ -2,7 +2,7 @@
 date_added: 2022-09-15
 title: Delock WLAN EASY-USB 
 model: 11828
-image: /assets/images/delock_11828.webp
+image: /assets/device_images/delock_11828.webp
 template9: '{"NAME":"Delock 11828","GPIO":[0,0,0,17,0,0,0,0,0,158,21,0,0],"FLAG":0,"BASE":53}' 
 link: https://www.reichelt.de/smarte-usb-steckdose-delock-11828-p331914.html?&trstct=pos_0&nbc=1
 link2: 
