@@ -10,6 +10,7 @@ esp12:
   - module: CB3L
   - module: C-8138
   - module: ESP-12
+  - module: FL_M93_V1
   - module: TYWE3L
   - module: TYWE3S
   - module: XR3

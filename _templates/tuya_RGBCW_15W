@@ -1,0 +1,20 @@
+---
+date_added: 2022-09-18
+title: Tuya RGBCW(8+8+15+15W)
+model: JL-TD6-8-212-V1.0
+image: /assets/device_images/tuya_RGBCW_15W.webp
+templatec3: '{"NAME":"JL-TD6-8-212-V1.0","GPIO":[0,0,0,418,417,420,0,0,0,0,0,0,0,0,0,0,0,0,416,419,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005003196670151.html
+link2: 
+mlink: 
+flash: replace
+category: light
+type: Downlight
+standard: global
+chip: FL_M93_V1
+---
+
+![Label](/assets/device_images/tuya_RGBCW_15W_label.webp)
+
+![PCB](/assets/device_images/tuya_RGBCW_15W.webp)
+
