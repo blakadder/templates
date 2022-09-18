@@ -12,6 +12,7 @@ category: bulb
 type: CCT
 standard: e27
 chip: DT-BL200
+footprint: dt-light
 ---
 
 ## Disassembly
