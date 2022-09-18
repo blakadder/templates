@@ -3,7 +3,7 @@ date_added: 2022-09-18
 title: Cozylife 15W 1050lm 
 model: XLD-W60-2.2
 image: /assets/device_images/cozylife_15w.webp
-templatec3: '{"NAME":"Cozylife 15W","GPIO":[1,1,1,0,0,0,416,417,0,0,0,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
+templatec3: '{"NAME":"Cozylife 15W","GPIO":[0,0,0,0,0,0,416,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005003960701182.html
 link2: 
 mlink: 
@@ -12,7 +12,6 @@ category: bulb
 type: CCT
 standard: e27
 chip: DT-BL200
-footprint: dt-light
 ---
 
 ## Disassembly

@@ -1,10 +1,10 @@
 dt-light: 
   - module: CB2L
+  - module: DT-BL200
   - module: TYWE2L
   - module: WB2L
   - module: WBR2L
   - module: WR2L
-  - module: DT-BL200
 esp12:
   - module: CB3S
   - module: CB3L
