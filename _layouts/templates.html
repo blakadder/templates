@@ -73,7 +73,7 @@ layout: default
       {% elsif page.flash == "esp2ino" %}
       <a href="https://github.com/elahd/esp2ino" target="_blank">esp2ino</a>
       {% elsif page.flash == "replace" %}
-      <a href="https://blakadder.com/frankenstein-saturday-3/" target="_blank">Replace module</a>
+      <a href="https://blakadder.com/replace-tuya-esp12/" target="_blank">Replace module</a>
       {% elsif page.flash == "switchbota" %}
       <a href="https://github.com/kendallgoto/switchbota" target="_blank">SwitchbOTA</a>
       {% else %}
@@ -243,14 +243,16 @@ layout: default
   %}
   <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a> or <a href="ESP-12H">ESP-12H</a>
   {% 
-    elsif page.chip contains 'WB2L' 
+    elsif page.chip contains 'CB2L' 
+    or page.chip contains 'DT-BL200' 
+    or page.chip contains 'WB2L' 
     or page.chip contains 'WR2L' 
     or page.chip contains 'WBR2L' 
-    or page.chip contains 'CB2L' 
-    or page.chip contains 'DT-BL200' 
   %}<a href="DMP-L1">DMP-L1</a> or <a href="DT-ESP-C05">DT-ESP-C05</a>
   {% 
     elsif page.chip contains 'WB2' 
+    or page.chip contains 'FL_M99_V1' 
+    or page.chip contains 'XT-BL02' 
     or page.chip contains 'WR2' 
     or page.chip contains 'WBR2' 
     or page.chip contains 'WB2S' 

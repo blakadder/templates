@@ -24,14 +24,16 @@ esp12:
   - module: WR3L
   - module: WR3N
 tywe2s:
+  - module: CB2S
+  - module: FL_M99_V1
   - module: TYWE2S
   - module: WR2
   - module: WB2
   - module: WBR2
   - module: WR2E
   - module: WB2S
-  - module: CB2S
   - module: WA2
+  - module: XT-BL02
 tylc5:
   - module: WBLC5
   - module: CBLC5 
