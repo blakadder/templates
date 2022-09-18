@@ -5,7 +5,11 @@
     {% if template.category contains 'bulb'%}
     Bulb
     {% endif %}
-  </a></b>
+  </a>
+  {% if template.flash == "replace" %}
+  - DIY Replacement
+  {% endif %}
+</b>
   </td>
   <td style="width: 15%;">{{ template.model }}</td>
 </tr>
