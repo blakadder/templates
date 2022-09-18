@@ -14,6 +14,7 @@ link2: https://www.alibaba.com/product-detail/Ai-Thinker-ESP32-C3F-new-WIFI_1600
 link3: 
 footprint: esp12
 ---
+Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compatible module.
 
 There are two different versions of this module:
 
