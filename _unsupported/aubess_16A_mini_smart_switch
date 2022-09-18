@@ -7,7 +7,8 @@ link: https://www.aliexpress.com/item/1005003658009466.html
 image: /assets/device_images/aubess_16A_mini_smart_switch.webp
 link2: 
 link3: 
-flash: BL2028N
+flash: FL_M99_V1
+footprint: esp12
 ---
 [Review about the switch](https://smarthomescene.com/reviews/cheapest-wifi-switch-to-buy-for-your-smart-home/)
 
