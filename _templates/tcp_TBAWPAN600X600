@@ -2,7 +2,7 @@
 date_added: 2021-05-10
 title: TCP WPAN Square 600X600mm 36W CCT Panel
 model: TBAWPAN600X600
-image: /assets/images/tcp_TBAWPAN600X600.jpg
+image: /assets/device_images/tcp_TBAWPAN600X600.webp
 template9: '{"NAME":"TCPsmart LED Panel","GPIO":[0,0,0,0,0,416,0,0,0,449,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO92 1|DimmerRange 30,100"}' 
 link: https://www.screwfix.com/p/tcp-wpan-square-600-x-600mm-led-smart-light-panel-36w/691hp
 link2: 

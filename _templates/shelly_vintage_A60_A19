@@ -2,7 +2,7 @@
 date_added: 2021-01-31
 title: Shelly Vintage 7W 750lm 2700k
 model: A60/A19
-image: /assets/images/shelly_vintage_A60_A19.jpg
+image: /assets/device_images/shelly_vintage_A60_A19.webp
 template9: '{"NAME":"Shelly Vintage","GPIO":[0,0,0,0,416,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B08SMB8RMB/
 link2: https://www.amazon.de/dp/B08GHYTX5P

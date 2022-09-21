@@ -2,7 +2,7 @@
 date_added: 2020-10-26
 title: Techvilla TE001
 model: TE-TE001
-image: /assets/images/techvilla_TE-TE001.jpg
+image: /assets/device_images/techvilla_TE-TE001.webp
 template: '{"NAME":"TE-TE001","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com/dp/B08GKTWMTP
 link2: 

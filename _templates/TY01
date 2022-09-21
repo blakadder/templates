@@ -2,7 +2,7 @@
 date_added: 2020-06-20
 title: TY01 Door Window
 model: TY01/XCS1
-image: /assets/images/TY01.jpg
+image: /assets/device_images/TY01.webp
 template: '{"NAME":"TY01","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 mlink: 
 link: https://www.aliexpress.com/item/4000510216875.html
@@ -15,9 +15,9 @@ standard: global
 chip: CB3S
 ---
 
-![CB3S](/assets/images/TY01_unsupported.jpg)
+![CB3S](/assets/device_images/TY01_unsupported.webp)
 
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 This is a Tuya battery powered contact (door or window) sensor. Runs on two AAA batteries (not supplied with the device). 
 
@@ -25,7 +25,7 @@ This sensor can be found for only 6$ on AliExpress!
 
 Identified with MCU Product ID: `{"p":"3slpirlnlqp0bqo1","v":"1.0.0"}`. 
 
-![Packaging](/assets/images/TY01_packaging.jpg)
+![Packaging](/assets/device_images/TY01_packaging.webp)
 
 ## Flashing
 To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial binary](https://github.com/tasmota/install/tree/main/firmware/unofficial), compiled from current development release. Flash at your own risk.
@@ -37,11 +37,11 @@ The PCB has no visible serial number or other marking on it and a prominent [TYW
 
 MM32F003NW MCU ([datasheet](http://www.mindmotion.com.cn/userfiles/images/MM32F00XiLieWenDang/DS_MM32F003_q_V1.11_EN.pdf)), powers on the Tuya module on reed actuation or on "Reset" bottom button press for a short amount of time sufficient to send opening or closing message.
 
-![PCB](/assets/images/TY01_PCB.jpg)
+![PCB](/assets/device_images/TY01_PCB.webp)
 
 Due to this design it is difficult to tuya-convert or even configure the device compared to non-battery powered ones. To flash the device solder directly to [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) TX, RX, GPIO0, VCC and GND pins (optionally solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to disable the MCU by connecting RST to GND, otherwise you will be unable to flash.
 
-![PCB](/assets/images/TY01_soldering.jpg)
+![PCB](/assets/device_images/TY01_soldering.webp)
 
 
 ## Configuration

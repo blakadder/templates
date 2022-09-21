@@ -2,7 +2,7 @@
 date_added: 2022-04-02
 title: SmartVU Home Touch Light
 model: SHWSW1
-image: /assets/images/smartvu_SHWSW1.jpg
+image: /assets/device_images/smartvu_SHWSW1.webp
 template9: '{"NAME":"SHWSW1","GPIO":[290,0,0,32,224,0,0,0,0,0,289,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.smartvuhome.co.nz/SHWSW1
 link2: 

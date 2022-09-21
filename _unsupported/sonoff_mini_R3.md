@@ -4,9 +4,9 @@ title: Sonoff Mini R3
 model: MINIR3
 type: Switch Module
 category: unsupported
-image: /assets/images/sonoff_MINIR3.jpg
+image: /assets/device_images/sonoff_MINIR3.webp
 link: https://itead.cc/product/sonoff-minir3-smart-switch/
 mlink: 
 chip: BL-602L20
 ---
-![WiFi Module](/assets/images/sonoff_MINIR3_module.jpg)
+![WiFi Module](/assets/device_images/sonoff_MINIR3_module.webp)

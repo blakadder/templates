@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://www.adafruit.com/product/4985
-image: /assets/images/adafruit_funhouse.jpg
+image: /assets/device_images/adafruit_funhouse.webp
 templates2: '{"NAME":"Funhouse","GPIO":[32,1,1,7713,7714,7715,1,1,1,1,1,1,1,1,1,1,1,1,4704,0,0,992,608,640,864,896,1,0,6624,6592,1024,480,0,0,0,0],"FLAG":0,"BASE":1}'
 chip: s2
 link: https://www.digikey.com/en/products/detail/adafruit-industries-llc/4985/14309089
@@ -17,25 +17,17 @@ An IoT-focused ESP32-S2 dev board with a display, a variety of on-board peripher
 
 This board uses an [`ESP32-S2-WROVER`](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf) module with 4 MB flash and 2 MB PSRAM.
 
-## Flashing
-
 When the board is booted into debug by holding `BOOT` (on the back) and pressing the `RESET` button (on the front) the USB port exposes a serial connection. This can be used to easily flash new firmware.
 
-For flashing via `esptool.py`, download the [tasmota32s2-display.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2-display.bin) or [tasmota32s2-sensors.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2-sensors.bin).
-
-_Currently no automatic ESP32-S2 builds support both display and sensors, so a custom firmware build will be required to use both the display and temp/humidity sensor at the same time_
-
-```sh
-esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32s2-display.factory.bin
-```
+{% include flash/s2.md %}
 
 ## Device Notes
 
-![Adafruit Funhouse Front](/assets/images/adafruit_funhouse.jpg "Adafruit Funhouse Front")
+![Adafruit Funhouse Front](/assets/device_images/adafruit_funhouse.webp "Adafruit Funhouse Front")
 
-![Adafruit Funhouse Back](/assets/images/adafruit_funhouse_back.jpg "Adafruit Funhouse Back")
+![Adafruit Funhouse Back](/assets/device_images/adafruit_funhouse_back.webp "Adafruit Funhouse Back")
 
-![Adafruit Funhouse Pinout](/assets/images/adafruit_funhouse_pinout.png "Adafruit Funhouse Pinout")
+![Adafruit Funhouse Pinout](/assets/device_images/adafruit_funhouse_pinout.webp "Adafruit Funhouse Pinout")
 
 [Product guide](https://learn.adafruit.com/adafruit-funhouse)
 
@@ -79,4 +71,4 @@ esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_rese
 
 The ESP32-S2 serial debug console is available on two test pads on the back of the board, in a cluster of three test pads to the left of the ESP32-S2 module. The `TX` signal is on the top-left pad with `RX` on the top-right pad.
 
-![Adafruit Funhouse Debug Pads](/assets/images/adafruit_funhouse_debug.jpg "Adafruit Funhouse Debug Pads")
+![Adafruit Funhouse Debug Pads](/assets/device_images/adafruit_funhouse_debug.webp "Adafruit Funhouse Debug Pads")

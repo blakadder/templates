@@ -2,7 +2,7 @@
 date_added: 2020-05-09
 title: ESP-M2
 model: ESP-M2 
-image: /assets/images/ESP-M2.jpg
+image: /assets/device_images/ESP-M2.webp
 template9: '{"NAME":"ESP-M2","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,0,1],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32981273182.html
 link2: https://www.amazon.com/dp/B092VDDZT3/
@@ -14,6 +14,6 @@ category: diy
 type: Module
 standard: global
 ---
-![Pinout](/assets/images/ESP-M2_pinout.jpg)
+![Pinout](/assets/device_images/ESP-M2_pinout.webp)
 
 [Datasheet](https://github.com/SmartArduino/ESPwifi/blob/master/DOIT_ESP-M2(V1_0)_docx.pdf)

@@ -2,7 +2,7 @@
 date_added: 2021-08-08
 title: Nue Vision Care Desk Lamp
 model: VC18
-image: /assets/images/nue_vision_care.jpg
+image: /assets/device_images/nue_vision_care.webp
 template9: '{"NAME":"Nue Vision Desk Lamp VC18","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 21,3 | TuyaMCU 23,4"}' 
 link: https://3asmarthome.com/smart-vision-care-desk-lamp
 mlink: https://3asmarthome.com/smart-vision-care-desk-lamp

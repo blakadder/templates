@@ -2,7 +2,7 @@
 date_added: 2020-08-20
 title: Alfawise 
 model: P2 (Wi-fi Version)
-image: /assets/images/alfawise_P2.jpg
+image: /assets/device_images/alfawise_P2.webp
 template: '{"NAME":"alfawise P2","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: 
 link2: 

@@ -8,7 +8,7 @@ standard: e27
 link: https://www.amazon.com/dp/B0834BTYBL/
 link2: https://www.amazon.co.uk/Xiaomi-MUE4088RT-Philips-Wi-Fi-Bulb-White/dp/B07PY84ZMV
 link3: https://www.aliexpress.com/item/10000156034494.html
-image: /assets/images/xiaomi_philips_MUE4088RT.jpg
+image: /assets/device_images/xiaomi_philips_MUE4088RT.webp
 template: '{"NAME":"Xiaomi Philips","GPIO":[0,0,0,0,0,0,0,0,0,0,0,37,0],"FLAG":0,"BASE":18}'
 mlink: https://www.mi.com/uk/philips-wi-fi-bulb-e27-white/specs/
 ---
@@ -16,7 +16,7 @@ This is not the same as the Philips ZhiRui - this variant is also made using Xia
 
 Output is 806lm, uses 9W and has a fixed temperature of 2700K.
 
-![label](/assets/images/xiaomi_philips_MUE4088RT-label.jpg)
+![label](/assets/device_images/xiaomi_philips_MUE4088RT-label.webp)
 
 
 * Xiaomi Model Number: 9290020093

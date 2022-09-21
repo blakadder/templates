@@ -2,7 +2,7 @@
 date_added: 2020-10-03
 title: NEO Coolcam Mouse Trap
 model: NAS-MA01W
-image: /assets/images/neo_coolcam_NAS-MA01W.jpg
+image: /assets/device_images/neo_coolcam_NAS-MA01W.webp
 template: '{"NAME":"Neo Mouse Trap","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/wholesale?SearchText=wifi+mouse+trap&ltype=wholesale&SortType=price_asc&groupsort=1&page=1
 link2: https://www.banggood.com/NEO-Mousetrap-Rat-Trap-Catcher-Rodent-Pest-Killer-WiFi-Wireless-Sensor-APP-Control-for-Mobile-Phone-p-1537800.html
@@ -13,7 +13,7 @@ category: misc
 type: Miscellaneous
 standard: global
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 This is a Tuya electric mouse trap. Runs on 4 1.5v AA batteries. 
 
@@ -22,7 +22,7 @@ Identified with MCU Product ID: `{"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}`.
 ## Flashing
 Once you disassemble the top case and unscrew the PCB from it there are labelled pads for all needed GPIO's on the under side of the board. Disconnect all cabled from the PCB and power the ESP8266 chip using its 3V3 pad. Follow standard flashing procedure.
 
-![wiring](/assets/images/neo_coolcam_NAS-MA01W_wiring.jpg)
+![wiring](/assets/device_images/neo_coolcam_NAS-MA01W_wiring.webp)
 ## Configuration
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.

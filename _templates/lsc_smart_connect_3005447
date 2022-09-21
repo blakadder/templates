@@ -1,0 +1,15 @@
+---
+date_added: 2022-08-30
+title: LSC Outdoor Up and Down 
+model: 3005447
+image: /assets/device_images/lsc_smart_connect_3005447.webp
+template9: '{"NAME":"LSC RGBCCT Outdoor","GPIO":[0,0,0,0,416,418,0,0,419,417,420,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.action.com/fr-fr/p/applique-murale-lsc-smart-connect/
+link2: 
+mlink: 
+flash: replace
+category: light
+type: Light
+standard: eu
+---
+Use [ESP-02S](ESP-02S) or you can order this PCB and use a classic ESP12F instead: https://www.pcbway.com/project/shareproject/wb2s_tywe2s_esp12f_adapter.html

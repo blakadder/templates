@@ -2,7 +2,7 @@
 date_added: 2021-03-20
 title: Seed Alarm 11W RGBW
 model: YMDFW DL6
-image: /assets/images/seed_alarm_YMDFW_DL6.jpg
+image: /assets/device_images/seed_alarm_YMDFW_DL6.webp
 template9: '{"NAME":"Seed Alarm Downlight","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B084NF49JN/
 link2: 

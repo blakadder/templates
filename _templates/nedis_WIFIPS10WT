@@ -2,7 +2,7 @@
 date_added: 2022-01-18
 title: Nedis 10A
 model: WIFIPS10WT
-image: /assets/images/nedis_WIFIPS10WT.jpg
+image: /assets/device_images/nedis_WIFIPS10WT.webp
 template9: '{"NAME":"Nedis WIFIPS10WT","GPIO":[0,0,0,0,21,0,0,0,17,57,0,52,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07HRTX1H4
 link2: https://www.idealo.de/preisvergleich/Typ/5412810303113.html

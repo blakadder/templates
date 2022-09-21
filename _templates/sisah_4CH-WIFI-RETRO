@@ -2,7 +2,7 @@
 date_added: 2022-02-11
 title: SiSAH Retro Fit 4 Channel
 model: 4CH-WIFI-RETRO
-image: /assets/images/sisah_4CH-WIFI-RETRO.jpg
+image: /assets/device_images/sisah_4CH-WIFI-RETRO.webp
 template9: '{"NAME":"Sisah 4ch","GPIO":[0,0,0,160,224,161,0,0,162,225,226,227,163,0],"FLAG":0,"BASE":18}' 
 link: http://sisah.co.in/product/sisah-wifi-4-node-smart-switch-retro-fit-with-manual-control-tuya-smart-life-remote-app-control-switch-no-hub-required-compatible-with-alexa-google-home-and-ifttt-smart-switch-mullti-color/
 link2: 

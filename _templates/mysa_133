@@ -2,7 +2,7 @@
 date_added: 2021-11-13
 title: Mysa V1 Electric Baseboard Heater
 model: 1.3.3
-image: /assets/images/mysa_133.jpg
+image: /assets/device_images/mysa_133.webp
 template32: '{"NAME":"Mysa Thermostat","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,224,0,0,0,0,0,0,640,608,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://www.amazon.com/Mysa-Thermostat-Electric-Baseboard-Heaters/dp/B075VBP42M
 link2: https://shop.getmysa.com/products/mysa-baseboard

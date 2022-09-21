@@ -6,7 +6,7 @@ category: light
 type: LED Controller
 standard: global
 link: https://www.aliexpress.com/item/1005003403109561.html
-image: /assets/images/miboxer_FUT039W.jpg
+image: /assets/device_images/miboxer_FUT039W.webp
 templatec3: '{"NAME":"FUT039W","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":54,"CMND":"DimmerRange 0,1000 | TuyaMCU 11,20 | TuyaMCU 26,21 | TuyaMCU 21,22 | TuyaMCU 23,23 | TuyaMCU 24,24 | TuyaMCU 98,101"}'
 flash: replace
 chip: WBR3
@@ -14,7 +14,7 @@ chip: WBR3
 
 ## Hardware
 
-![MiBoxer FUT039W RGB+CCT LED Controller (WIFI+2.4G) Board](/assets/images/miboxer_FUT039W_pcb.jpg)
+![MiBoxer FUT039W RGB+CCT LED Controller (WIFI+2.4G) Board](/assets/device_images/miboxer_FUT039W_pcb.webp)
 
 The chip used on this board is a WBR3, and requires a transplant. It cannot be flashed. The daughterboard for the SoC is compatible with the ESP12-S. Other formats may be compatible, but may require jumper wires.
 
@@ -30,4 +30,4 @@ Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Sta
 
 ## Post Transplant Photos
 
-![Post Transplant Board](/assets/images/miboxer_FUT035W_transplant.jpg) 
+![Post Transplant Board](/assets/device_images/miboxer_FUT035W_transplant.webp) 

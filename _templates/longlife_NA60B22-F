@@ -2,7 +2,7 @@
 date_added: 2020-07-03
 title: Longlifelamps A60 9W
 model: NA60B22-F
-image: /assets/images/longlife_NA60B22-F.jpg
+image: /assets/device_images/longlife_NA60B22-F.webp
 template: '{"NAME":"longlifelamps A60 RGBWW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"LongLifeLamp Nimble 10W","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.ebay.co.uk/itm/WiFi-RGB-Smart-LED-Light-Bulb-for-Apps-by-iOS-Android-Amazon-Alexa-Google-Home/293061557172

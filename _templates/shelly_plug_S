@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 flash: mgos
 mlink: https://shelly.cloud/shelly-plug-s/
-image: /assets/images/shelly_plug_S.jpg
+image: /assets/device_images/shelly_plug_S.webp
 template: '{"NAME":"Shelly Plug S","GPIO":[56,255,158,255,255,134,0,0,131,17,132,21,255],"FLAG":2,"BASE":45}' 
 link: https://www.amazon.de/dp/B07TCQ7BFN/
 link2: https://www.domadoo.fr/en/objets-communicants/4798-shelly-mini-prise-intelligente-wi-fi-shelly-plug-s-3809511201879.html

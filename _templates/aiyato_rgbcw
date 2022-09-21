@@ -2,7 +2,7 @@
 date_added: 2022-08-10
 title: AiYaTo 12W 
 model: 
-image: /assets/images/aiyato_rgbcw.jpg
+image: /assets/device_images/aiyato_rgbcw.webp
 template9: '{"NAME":"AiYaTo RGBCW","GPIO":[0,0,0,0,419,418,0,0,416,420,417,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005004589168903.html
 link2: 

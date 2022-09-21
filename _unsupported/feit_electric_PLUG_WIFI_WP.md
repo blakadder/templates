@@ -5,7 +5,7 @@ model: PLUG/WIFI/WP
 category: unsupported
 type: Plug
 link: https://www.feit.com/product/outdoor-smart-wifi-dual-outlet-wall-plug-alexa-google-assistant/
-image: /assets/images/feit_electric-PLUG-WIFI-WP.jpg
+image: /assets/device_images/feit_electric-PLUG-WIFI-WP.webp
 link2: 
 link3: 
 chip: BK7231TQN32

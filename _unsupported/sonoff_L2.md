@@ -5,7 +5,7 @@ category: unsupported
 type: LED Strip
 chip: OPL1200
 mlink: https://sonoff.tech/product/smart-lighting/l2/
-image: /assets/images/sonoff_L2.jpg
+image: /assets/device_images/sonoff_L2.webp
 link: https://itead.cc/product/sonoff-l2-smart-led-light-strip/
 link2: https://www.aliexpress.com/item/1005003117529014.html
 ---

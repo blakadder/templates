@@ -2,7 +2,7 @@
 date_added: 2020-08-22
 title: W06 
 model: W06
-image: /assets/images/W06.jpg
+image: /assets/device_images/W06.webp
 template: '{"NAME":"W06 Water Sensor","GPIO":[0,148,0,149,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: 
 link: https://www.aliexpress.com/item/4001261468286.html
@@ -14,7 +14,7 @@ standard: global
 chip: XR3
 unsupported: true
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 ## Warning! Since 2022-03-18 ships with XR809
 
@@ -26,7 +26,7 @@ This sensor can be found for around 6$ on AliExpress!
 
 Identified with MCU Product ID: `{"p":"yaxprtktsfxnndyw","v":"1.0.0"}`. 
 
-![PCB](/assets/images/W06_box.jpg)
+![PCB](/assets/device_images/W06_box.webp)
 
 ## Flashing
 To have best results with this type of device I strongly recommend compiling a stripped down binary. There's an [unofficial tasmota-battery.bin binary](https://github.com/tasmota/install/tree/main/firmware/unofficial), compiled from current development release. Flash at your own risk.
@@ -38,7 +38,7 @@ The PCB has no visible serial number or other marking on it but the MCU is marke
 
 Due to this design it is difficult to tuya-convert or even configure the device compared to non-battery powered ones. To flash the device solder directly to [TYWE3S](https://tasmota.github.io/docs/devices/TYWE3S/) TX, RX, VCC and GND pins (optional: solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to disable the MCU by connecting the two marked pins and keep them connected during the flashing process, otherwise you will be unable to flash due to MCU interference
 
-![PCB](/assets/images/W06_pcb.jpg)
+![PCB](/assets/device_images/W06_pcb.webp)
 
 ## Configuration
 

@@ -2,7 +2,7 @@
 date_added: 2021-01-04
 title: MagicHome RGB 
 model: ZJ-WFMN-A V1.1
-image: /assets/images/magichome_ZJ-WFMN-A_V1_1.jpg
+image: /assets/device_images/magichome_ZJ-WFMN-A_V1_1.webp
 template: '{"NAME":"MagicHome RGB IR","GPIO":[0,0,0,0,51,37,0,0,38,39,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33005285804.html?spm=a2g0o.detail.0.0.27372735KhuFlK&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.169870.0&scm_id=1007.13339.169870.0&scm-url=1007.13339.169870.0&pvid=74ef08c3-292c-44a4-add9-b979fda70a8f&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.169870.0,pvid:74ef08c3-292c-44a4-add9-b979fda70a8f,tpp_buckets:668%230%23131923%2351_668%23888%233325%234_668%232846%238111%231996_668%232717%237565%23739_668%231000022185%231000066058%230_668%233468%2315614%23514
 link2: 

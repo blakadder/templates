@@ -2,7 +2,7 @@
 date_added: 2020-09-14
 title: SmartDGM 9W 806lm
 model: L-WB9W1
-image: /assets/images/smartdgm_L-WB9W1.jpg
+image: /assets/device_images/smartdgm_L-WB9W1.webp
 template: '{"NAME":"L-WB9W1","GPIO":[0,0,0,0,0,37,0,0,9,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.tipa.eu/en/smart-wifi-bulb-led-e27-9w-smartdgm-11-free/d-209815/
 link2: 

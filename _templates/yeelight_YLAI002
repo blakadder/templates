@@ -2,7 +2,7 @@
 date_added: 2021-11-13
 title: Yeelight Dual Control
 model: YLAI002
-image: /assets/images/yeelight_YLAI002.jpg
+image: /assets/device_images/yeelight_YLAI002.webp
 template32: '{"NAME":"YLAI002","GPIO":[0,0,0,0,0,0,0,0,96,0,224,0,0,320,320,160,0,160,0,0,0,0,0,225,0,0,0,0,162,163,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SO127 1"}' 
 link: https://www.alzashop.com/yeelight-smart-dual-module-d6632364.htm
 link2: https://www.aliexpress.com/item/1005003412332703.html
@@ -20,7 +20,7 @@ Pry open the lid in the middle and lift the ESP32 module PCB with pliers from th
 ## Serial Flashing
 All pins necessary for flashing are labelled on the module PCB. 
 
-![PCB image](/assets/images/yeelight_YLAI002_pinout.jpg)
+![PCB image](/assets/device_images/yeelight_YLAI002_pinout.webp)
 
 
 ## Pins

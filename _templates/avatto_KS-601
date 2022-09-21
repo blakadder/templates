@@ -2,7 +2,7 @@
 date_added: 2020-04-23
 title: Avatto 2 Gang
 model: KS-601
-image: /assets/images/avatto_KS-601.jpg
+image: /assets/device_images/avatto_KS-601.webp
 template: '{"NAME":"Avatto KS-601","GPIO":[0,0,52,0,0,17,0,0,21,22,0,0,18],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000172273853.html
 link2: 

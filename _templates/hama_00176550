@@ -6,7 +6,7 @@ type: CCT
 category: bulb
 standard: e27
 link: https://www.amazon.de/dp/B07FQZS3NP/
-image: /assets/images/hama_00176550.jpg
+image: /assets/device_images/hama_00176550.webp
 template: '{"NAME":"Hama 00176550","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.co.uk/Hama-00176550-10-Daylight-White-10-kWh/dp/B07FQZS3NP
 ---

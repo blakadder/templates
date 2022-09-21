@@ -2,7 +2,7 @@
 date_added: 2020-08-23
 title: Polux ST64 5.5W 470lm
 model: 313829
-image: /assets/images/polux_313829.jpg
+image: /assets/device_images/polux_313829.webp
 template: '{"NAME":"basic","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://allegro.pl/oferta/zarowka-led-smart-5-5w-470lm-filament-wi-fi-tuya-9221517046
 link2: 

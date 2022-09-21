@@ -6,7 +6,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.amazon.com/dp/B07FLXG64M
-image: /assets/images/geeni-GN-WW110-199.jpg
+image: /assets/device_images/geeni-GN-WW110-199.webp
 template: '{"NAME":"Geeni Duo","GPIO":[0,0,0,0,18,22,0,0,17,52,21,0,53],"FLAG":0,"BASE":18}' 
 mlink: https://mygeeni.com/collections/power/products/geeni-switch-duo-2-port
 ---

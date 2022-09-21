@@ -1,27 +1,21 @@
 ---
 date_added: 2020-01-27
-title: SwissTone 
+title: Swisstone 
 model: SH 100
 image: https://user-images.githubusercontent.com/5904370/73256639-8fc90c00-41c2-11ea-86c5-fa9397770293.png
 template: '{"NAME":"SwissTone","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.de/Swisstone-100-WiFi-Steckdose-Sprachsteuerbar-Kindersicherung-weiß/dp/B07GD3WKVL
-link2: https://www.amazon.co.uk/Swisstone-SH-100-Smart-Socket-Recognition-White/dp/B07GD3WKVL
+link: https://www.amazon.de/dp/B07GD3WKVL
+link2: https://www.idealo.de/preisvergleich/OffersOfProduct/6535597_-wifi-steckdose-sh-100-swisstone.html
 mlink: 
 flash: serial
 category: plug
 type: Plug
 standard: eu
 ---
-
-
-Pictures from the inside: 
-
-
+Pictures from the inside:
 
 ![](https://ibb.co/jv8Lbmz)
 ![]https://ibb.co/k880Tsp)
 ![]https://ibb.co/cNrzH6Q)
 ![]https://ibb.co/x5wdpDK)
 ![]https://ibb.co/rtM8YZ3)
-
-

@@ -2,7 +2,7 @@
 date_added: 2020-04-30
 title: TCP Smart 4AC+USB
 model: WPS4WUK
-image: /assets/images/tcp_WPS4WUK.jpg
+image: /assets/device_images/tcp_WPS4WUK.webp
 template: '{"NAME":"TCP WPS4WUK","GPIO":[255,56,0,17,23,24,0,0,22,21,25,0,0],"FLAG":15,"BASE":18}' 
 link: https://www.screwfix.com/p/tcp-wps4wuk-13a-4-gang-switched-smart-extension-lead-5-1a-4-outlet-usb-charger-white-1-8m/606hp
 link2: 

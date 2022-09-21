@@ -2,14 +2,14 @@
 date_added: 2021-01-08
 title: ChilITec Pilota Casa IP44
 model: 22738
-image: /assets/images/chilitec_22738.jpg
+image: /assets/device_images/chilitec_22738.webp
 template9: '{"NAME":"Outdoor IP44","GPIO":[0,0,0,0,0,224,0,0,0,288,32,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/gp/product/B07M6PCG8N
 link2: 
 mlink: https://www.chilitec.de/html/funk-steckdose-fuer-pilota-casa-wifi/item-2-22738-22738-.html
 flash: serial
 category: plug
-type: Wall Outlet
+type: Outdoor Plug
 standard: eu
 ---
 Trying with tuya-convert was unsuccessful, as the device does not seem to be based on Tuya code. Main PCB is labeled as ""RisingSun RS-WIFI06"", a smaller PCB housing an ESP8285 is labeled ""RS-WIFI-03"".

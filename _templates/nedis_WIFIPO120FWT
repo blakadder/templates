@@ -7,7 +7,7 @@ type: Outdoor Plug
 standard: eu
 flash: replace
 mlink: https://nedis.com/en-us/product/550710067/wi-fi-smart-outdoor-plug-splashproof-ip44-power-monitor-schuko-type-f-16-a
-image: /assets/images/nedis_WIFIPO120FWT.jpg
+image: /assets/device_images/nedis_WIFIPO120FWT.webp
 template: '{"NAME":"WIFIPO120FWT","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
 template9: '{"NAME":"WIFIPO120FWT","GPIO":[32,0,0,0,2688,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":49}'
 link: https://www.amazon.de/dp/B07VHBR3WL

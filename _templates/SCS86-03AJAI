@@ -2,7 +2,7 @@
 date_added: 2020-06-21
 title: SCS86-03AJAI 
 model: SCS86-03AJAI
-image: /assets/images/SCS86-03AJAI.jpg
+image: /assets/device_images/SCS86-03AJAI.webp
 template9: '{"NAME":"ESE86-03AJAI","GPIO":[544,227,289,34,226,33,0,0,32,224,290,225,288,0],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/4000682562601.html
 link2: https://www.aliexpress.com/item/4000522916497.html
@@ -16,4 +16,4 @@ standard: [eu, il]
 
 Comes as whitelabel or branded as Moes, Avatto, Yidi and possibly others
 
-![](/assets/images/SCS86-03AJAI-label.jpg)
+![](/assets/device_images/SCS86-03AJAI-label.webp)

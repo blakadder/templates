@@ -5,13 +5,15 @@ model: L8-HS
 category: switch
 type: Display Switch
 standard: [eu, us]
-image: /assets/images/lanbon_L8-HS.jpg
+image: /assets/device_images/lanbon_L8-HS.webp
 template32: '{"NAME":"Lanbon L8","GPIO":[0,0,0,0,0,992,0,0,224,0,225,0,0,0,1024,896,0,6624,6592,864,0,832,416,226,0,0,0,0,417,418,0,352,0,0,0,4736],"FLAG":0,"BASE":1}' 
 mlink: https://lanbon.de/
 link: https://www.banggood.com/110-or-220V-4-in-1-Wifi-LCD-Touch-Screen-Smart-Wall-Light-Switch-Smart-Home-Switch-Support-Homekit-Alexa-Google-Home-p-1900875.html
 link2: https://www.amazon.com/gp/product/B09C58T29H
 link3: https://www.alibaba.com/product-detail/2020-Lanbon-Latest-6-model-in_62347541373.html
 link4: https://www.aliexpress.com/item/1005002063291978.html
+build: tasmota32-lvgl
+autoconf: true
 author: blak
 ---
 Working:
@@ -63,4 +65,4 @@ Buttons are automatically assigned to relays.
 
 You have to do further scripting to set behaviour of status LEDs, turn the screen off after a timeout and display more on the screen.
 
-![Demo](/assets/images/lanbon_L8-HS_demo.jpg)
+![Demo](/assets/device_images/lanbon_L8-HS_demo.webp)

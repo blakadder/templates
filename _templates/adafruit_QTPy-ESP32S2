@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://www.adafruit.com/product/5325
-image: /assets/images/adafruit_qtpy-esp32-s2.jpg
+image: /assets/device_images/adafruit_qtpy-esp32-s2.webp
 flash: serial
 chip: s2
 templates2: '{"NAME":"QTPy ESP32-S2","GPIO":[96,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,3840,1376,608,640,0,0,0,0,0],"FLAG":0,"BASE":1}'
@@ -17,23 +17,17 @@ An ESP32-S2 dev board in the tiny (22mm x 17.9mm) [Seeduino XIAO](https://www.se
 
 This board uses an [`ESP32-S2F-N4R2`](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf) chip with 4 MB of flash and 2 MB of PSRAM.
 
-## Flashing
-
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the USB port exposes a serial connection. This can be used to easily flash new firmware.
 
-For flashing via `tasmota32s2.factory.bin`, download the [tasmota32s2.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.factory.bin) file.
-
-```sh
-esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32s2.factory.bin
-```
+{% include flash/s2.md %}
 
 ## Device Notes
 
-![Adafruit QTPy ESP32-S2 Front](/assets/images/adafruit_qtpy-esp32-s2_front.jpg "Adafruit QTPy ESP32-S2 Front")
+![Adafruit QTPy ESP32-S2 Front](/assets/device_images/adafruit_qtpy-esp32-s2_front.webp "Adafruit QTPy ESP32-S2 Front")
 
-![Adafruit QTPy ESP32-S2 Back](/assets/images/adafruit_qtpy-esp32-s2_back.jpg "Adafruit QTPy ESP32-S2 Back")
+![Adafruit QTPy ESP32-S2 Back](/assets/device_images/adafruit_qtpy-esp32-s2_back.webp "Adafruit QTPy ESP32-S2 Back")
 
-![Adafruit QTPy ESP32-S2 Pinout](/assets/images/adafruit_qtpy-esp32-s2_pinout.png "Adafruit QTPy-S2 Pico Pinout")
+![Adafruit QTPy ESP32-S2 Pinout](/assets/device_images/adafruit_qtpy-esp32-s2_pinout.webp "Adafruit QTPy-S2 Pico Pinout")
 
 [Product Guide](https://learn.adafruit.com/adafruit-qt-py-esp32-s2/)
 

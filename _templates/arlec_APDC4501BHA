@@ -2,7 +2,7 @@
 date_added: 2021-12-10
 title: Arlec 45cm DC Pedestal 
 model: APDC4501BHA
-image: /assets/images/arlec_APDC4501BHA.jpg
+image: /assets/device_images/arlec_APDC4501BHA.webp
 template9: '{"NAME":"Arlec 45cm Fan","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 61,2 | TuyaMCU 64,3 | TuyaMCU 99,6 | TuyaMCU 12,101"}' 
 link: https://www.bunnings.com.au/arlec-45cm-grid-connect-smart-remote-controlled-dc-pedestal-fan_p0274519
 link2: 

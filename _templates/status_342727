@@ -2,7 +2,7 @@
 date_added: 2020-11-03
 title: Status 9W 806lm
 model: 342727
-image: /assets/images/status_342727.jpg
+image: /assets/device_images/status_342727.webp
 template: '{"NAME":"Status Smart","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.therange.co.uk/lighting/light-bulbs/energy-saving-bulbs/status-smart-colour-changing-wifi-led-bulb/#342727
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2021-01-10
 title: Connex Smart Indoor
 model: CC-S1002
-image: /assets/images/connex_CC-S1002.jpg
+image: /assets/device_images/connex_CC-S1002.webp
 template: '{"NAME":"Connex Siren","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.takealot.com/connex-connect-smart-technology-indoor-siren/PLID64184380/description
 link2: 

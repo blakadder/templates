@@ -2,7 +2,7 @@
 date_added: 2021-07-04
 title: ESP-M4
 model: ESP-M4 
-image: /assets/images/ESP-M4.jpg
+image: /assets/device_images/ESP-M4.webp
 template9: '{"NAME":"ESP-M4","GPIO":[1,1,0,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32981273182.html
 link2: https://www.amazon.com/dp/B089ZCP245/
@@ -15,10 +15,10 @@ type: Module
 standard: global
 ---
 
-![Pinout](/assets/images/ESP-M4_pinout.jpg)
+![Pinout](/assets/device_images/ESP-M4_pinout.webp)
 
 [Datasheet](https://github.com/SmartArduino/ESPwifi/blob/master/DOIT_DMP-P1(V1_0)_doc.pdf)
 
 Blue PCB versions and modules labelled "WIFI+ by DOITING" have a different pinout:
 
-![Pinout 2](/assets/images/ESP-M4_pinout2.jpg)
+![Pinout 2](/assets/device_images/ESP-M4_pinout2.webp)

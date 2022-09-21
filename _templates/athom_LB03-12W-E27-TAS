@@ -2,7 +2,7 @@
 date_added: 2021-11-19
 title: Athom 12W 1000lm
 model: LB03-12W-E27-TAS
-image: /assets/images/athom_LB03-12W-E27-TAS.jpg
+image: /assets/device_images/athom_LB03-12W-E27-TAS.webp
 template9: '{"NAME":"LB03-12W-E27-TAS","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO92 1 | DimmerRange 24,100"}' 
 mlink: https://www.athom.tech/blank-1/tasmota-br30-color-bulb
 link: https://www.aliexpress.com/item/1005003339431971.html
@@ -22,6 +22,6 @@ Do not turn on the cool or warm color and RGB channel at the same time, and do n
 
 ## Photos of internals
 
-![Remove the housing and LED panel](/assets/images/athom_BR30_pcb.jpg)
+![Remove the housing and LED panel](/assets/device_images/athom_BR30_pcb.webp)
 
-![Top of the ESP8285H16](/assets/images/athom_GU10_esp8285.jpg)
+![Top of the ESP8285H16](/assets/device_images/athom_GU10_esp8285.webp)

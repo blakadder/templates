@@ -2,7 +2,7 @@
 date_added: 2021-07-01
 title: RainPoint Indoor Water Pump
 model: TTP106W
-image: /assets/images/rainpoint_TTP106W.jpg
+image: /assets/device_images/rainpoint_TTP106W.webp
 template9: '{"NAME":"RainPoint","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 81,107|TuyaMCU 12,109|TuyaMCU 11,1|TuyaMCU 82,104"}' 
 mlink: https://rainpointus.com/products/%E3%80%90ik10pw%E3%80%91wifi%C2%A0smart%C2%A0watering%C2%A0pump-kit-146
 link: https://www.aliexpress.com/item/1005002716375666.html
@@ -32,7 +32,7 @@ Steps:
 4. Wire RX, TX, GND pins to the serial-to-USB adapter
 5. Ground GPIO0 before powering up the device with its built-in USB power
 
-![Pinout](/assets/images/rainpoint_TTP106W_pcb.jpg)
+![Pinout](/assets/device_images/rainpoint_TTP106W_pcb.webp)
 
 If you have power issues during flashing, disconnect the pump from the PCB at the top leftmost JST connector
 

@@ -6,12 +6,12 @@ category: sensor
 type: Gas Sensor
 standard: global
 flash: tuya-convert
-image: /assets/images/PA-210WYS.jpg
+image: /assets/device_images/PA-210WYS.webp
 template: '{"NAME":"PA-210WYS","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4001057961462.html
 link2: https://www.banggood.com/Wifi-Smart-Natural-Gas-Alarm-Sensor-With-temperature-function-Combustible-Gas-Leak-Detector-LCD-Display-Smart-Life-p-1809460.html
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 This is a Tuya natural gas (CH4) sensor with an LCD display and alarm function. It has a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module and an Eastsoft HR8P506FHLQ MCU.
 

@@ -2,7 +2,7 @@
 date_added: 2020-12-22
 title: CooWoo 
 model: AW01
-image: /assets/images/coowoo_AW01.jpg
+image: /assets/device_images/coowoo_AW01.webp
 template9: '{"NAME":"CooWoo AW01","GPIO":[0,0,0,0,288,160,0,0,256,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: 
 link2: 

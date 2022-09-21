@@ -2,7 +2,7 @@
 date_added: 2020-06-03
 title: KTNN-KG-T100 2 Gang Switch
 model: KTNN-KG-T100
-image: /assets/images/KTNN-KG-T100.jpg
+image: /assets/device_images/KTNN-KG-T100.webp
 template: '{"NAME":"Sonoff T1 2CH","GPIO":[17,255,255,255,0,22,18,0,21,56,0,0,0],"FLAG":0,"BASE":29}' 
 link: https://www.amazon.co.uk/gp/product/B07GDHHNPW
 link2: 

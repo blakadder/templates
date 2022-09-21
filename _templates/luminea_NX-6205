@@ -2,7 +2,7 @@
 date_added: 2020-08-22
 title: Luminea 24W CCT 
 model: NX6205-944
-image: /assets/images/luminea_NX-6205.jpg
+image: /assets/device_images/luminea_NX-6205.webp
 template: '{"NAME":"Luminea NX6205-944","GPIO":[0,0,0,0,0,0,0,0,47,0,37,0,0],"FLAG":0,"BASE":48}' 
 link: https://www.amazon.de/Luminea-Home-Control-Ceiling-Lamp/dp/B083ZF7D1R/
 link2: 

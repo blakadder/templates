@@ -1,7 +1,7 @@
 ---
 date_added: 2020-05-29
 title: LSC 
-image: /assets/images/lsc_ceiling_light.jpg
+image: /assets/device_images/lsc_ceiling_light.webp
 link: https://www.bol.com/nl/p/lsc-plafondlamp-white-ambiance-smart-ceiling-light-wit-1400-lumen-20-watt-google-assistant-google-home-amazon-alexa/9200000120390901/
 link2: 
 mlink: 

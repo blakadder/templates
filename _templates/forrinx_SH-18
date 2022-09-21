@@ -5,7 +5,7 @@ model: SH-18
 category: plug
 type: Outdoor Plug
 standard: us
-image: /assets/images/forrinx_SH-18.jpg
+image: /assets/device_images/forrinx_SH-18.webp
 template: '{"NAME":"SH-18","GPIO":[0,0,0,0,56,57,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
 mlink: http://www.forrinx.com/Product/smartoutdoorplug_1763_697.html
 link: https://www.amazon.com/gp/product/B07KYFP8F8

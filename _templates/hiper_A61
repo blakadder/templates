@@ -2,7 +2,7 @@
 date_added: 2020-03-30
 title: HIPER IoT A61
 model: IoT A61
-image: /assets/images/hiper_A61.jpg
+image: /assets/device_images/hiper_A61.webp
 template: '{"NAME":"HIPER IoT A61","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: 
 link2: 

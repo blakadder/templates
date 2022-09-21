@@ -2,7 +2,7 @@
 date_added: 2020-07-04
 title: NEO Coolcam Remote Controller
 model: NAS-IR03W
-image: /assets/images/neo_coolcam_NAS-IR03W.jpg
+image: /assets/device_images/neo_coolcam_NAS-IR03W.webp
 template: '{"NAME":"Neo Coolcam IR","GPIO":[255,148,255,149,158,51,0,0,56,17,8,0,0],"FLAG":0,"BASE":62}' 
 template-alt: '{"NAME":"Neo Coolcam IR","GPIO":[0,0,0,0,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.aliexpress.com/af/neo-coolcam-ir-remote.html
@@ -14,4 +14,4 @@ type: IR Controller
 standard: global
 ---
 
-![](/assets/images/neo_coolcam_NAS-IR03W0_1.jpg)
+![](/assets/device_images/neo_coolcam_NAS-IR03W0_1.webp)

@@ -2,7 +2,7 @@
 date_added: 2020-10-29
 title: iView 10W 1050lm
 model: ISB1000
-image: /assets/images/iview_ISB1000.jpg
+image: /assets/device_images/iview_ISB1000.webp
 template: '{"NAME":"iView ISB1000-D","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.com/dp/B07FDJCM2C
 link2: 

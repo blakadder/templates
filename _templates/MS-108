@@ -2,7 +2,7 @@
 date_added: 2020-12-27
 title: MS-108 In-Wall
 model: MS-108
-image: /assets/images/MS-108.jpg
+image: /assets/device_images/MS-108.webp
 template: '{"NAME":"MS-108","GPIO":[0,0,0,0,161,160,0,0,224,0,225,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: 
 link: https://www.aliexpress.com/item/4000957679155.html

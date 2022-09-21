@@ -4,7 +4,7 @@ title: Qiachip 110V/220V Light and
 model: FLC-220V/FLC-110V
 category: misc
 type: Fan Controller
-image: /assets/images/qiachip_FLC.jpg
+image: /assets/device_images/qiachip_FLC.webp
 template9: '{"NAME":"Qiachip FLC","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 12,9 | TuyaMCU 81,7"}'
 mlink: https://qiachip.com/products/qiachip-flc-universal-rf-ceiling-fan-and-lights-wireless-remote-control-kit-non-wifi
 link: https://www.amazon.com/dp/B07RYD632T
@@ -14,7 +14,7 @@ flash: replace
 chip: WB2S
 ---
 
-![Before and after](/assets/images/qiachip_FLC_beforeafter.jpg)
+![Before and after](/assets/device_images/qiachip_FLC_beforeafter.webp)
 
 ## Functions
 Remote will continue to function with the new module and Tasmota.

@@ -6,7 +6,7 @@ category: plug
 type: Plug
 standard: eu
 template: '{"NAME":"SHP7 v2","GPIO":[18,158,56,131,134,132,0,0,17,57,21,0,22],"FLAG":0,"BASE":45}' 
-image: /assets/images/blitzwolf_SHP7.jpg
+image: /assets/device_images/blitzwolf_SHP7.webp
 link: https://www.banggood.com/BlitzWolf-BW-SHP7-16A-2-IN-1-Dual-EU-Plug-Smart-WIFI-Socket-Independent-Remote-Controller-Electricity-Statistics-Home-Light-Switch-Timer-p-1553614.html
 link2: https://www.aliexpress.com/item/4000210681347.html
 link3: https://mediarath.de/collections/tasmota-gerate/products/blitzwolf-bw-shp7-16a-3680w-verbrauchsmessung-wifi-smart-socket-tasmota-neu

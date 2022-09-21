@@ -2,7 +2,7 @@
 date_added: 2020-12-25
 title: Idinio 3AC 4USB
 model: 140135
-image: /assets/images/idinio_140135.jpg
+image: /assets/device_images/idinio_140135.webp
 template: '{"NAME":"Idinio-140135","GPIO":[0,56,0,17,22,21,0,0,0,23,24,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.robbshop.nl/slim-wifi-stekkerblok-3-600-watt-met-usb-poorten-idinio?sqr=idinio&
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2020-04-10
 title: MOKO YX-L01C-E14 A60 810lm
 model: YX-L01C-E14
-image: /assets/images/moko_YX-L01C-E14.jpg
+image: /assets/device_images/moko_YX-L01C-E14.webp
 template: '{"NAME":"MOKO","GPIO":[17,0,0,0,143,144,0,0,0,0,0,0,0],"FLAG":0,"BASE":27}' 
 link: https://www.amazon.de/gp/product/B07SYYZ4S3/
 link2: https://smile.amazon.de/gp/product/B07VK9CLDS/

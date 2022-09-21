@@ -2,7 +2,7 @@
 date_added: 2021-12-27
 title: Sonoff NSPanel Touch
 model: E32-MSW-NX
-image: /assets/images/sonoff_NSPanel.jpg
+image: /assets/device_images/sonoff_NSPanel.webp
 template32: '{"NAME":"NSPanel","GPIO":[0,0,0,0,3872,0,0,0,0,0,32,0,0,0,0,225,0,480,224,1,0,0,0,33,0,0,0,0,0,0,0,0,0,0,4736,0],"FLAG":0,"BASE":1,"CMND":"ADCParam 2,11200,10000,3950 | Sleep 0 | BuzzerPWM 1"}'
 link: https://itead.cc/product/sonoff-nspanel-smart-scene-wall-switch
 link2: https://www.aliexpress.com/item/1005003594150166.html
@@ -15,7 +15,7 @@ category: switch
 type: Display Switch
 standard: [eu, us]
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 [Review](https://blakadder.com/sonoff-nspanel/), [full teardown](https://blakadder.com/nspanel-teardown/) and [protocol decoding](https://blakadder.com/nspanel-hacking).
 
@@ -25,7 +25,7 @@ Unclip the panel from the base. Remove two bottom screws and lift the plastic co
 
 The five needed pins (3V3, RX, TX, GPIO0 and GND) can be easily identified. 
 
-![Pins](/assets/images/sonoff_NSpanel_pinout.jpg)
+![Pins](/assets/device_images/sonoff_NSpanel_pinout.webp)
 
 Download and flash a custom built [`tasmota32-nspanel.bin`](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32-nspanel.bin) or install using [Tasmota Web Installer](http://tasmota.github.io/install).
 
@@ -39,13 +39,13 @@ Apply the template and make sure "Module 0" is selected. The template will apply
 
 Download the NSPanel driver file [`nspanel.be`](https://raw.githubusercontent.com/blakadder/nspanel/main/nspanel.be). Navigate to **Consoles - Manage File system** in the web UI. Upload the driver to NSPanel with "Choose file" followed by "Start Upload".
 
-![Upload driver](/assets/images/sonoff_NSpanel_driver.jpg)
+![Upload driver](/assets/device_images/sonoff_NSpanel_driver.webp)
 
 To load the driver on startup:
 - **Create and edit new file** named `autoexec.be` with a line `load("nspanel.be")`
 - change the filename to `autoexec.be` (seems this is not working correctly on Tasmota v10)
 
-<!-- ![autoexec.be](/assets/images/sonoff_NSpanel_autoexec.jpg) -->
+<!-- ![autoexec.be](/assets/device_images/sonoff_NSpanel_autoexec.webp) -->
 
 ## Screen Commands
 

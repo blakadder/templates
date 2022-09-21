@@ -2,7 +2,7 @@
 date_added: 2020-07-05
 title: HomeMate 10m RGB
 model: HMRGB5M 
-image: /assets/images/homemate_HMRGB5M.jpg
+image: /assets/device_images/homemate_HMRGB5M.webp
 template: '{"NAME":"Homemate Strip","GPIO":[0,0,0,0,0,37,0,0,39,17,38,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.in/gp/product/B07HRYL5DF/
 link2: 

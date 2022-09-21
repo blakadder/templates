@@ -2,7 +2,7 @@
 date_added: 2021-01-31
 title: Shelly Vintage 7W 750lm 2700k
 model: ST64/ST21
-image: /assets/images/shelly_vintage_ST64_ST21.jpg
+image: /assets/device_images/shelly_vintage_ST64_ST21.webp
 template9: '{"NAME":"Shelly Vintage","GPIO":[0,0,0,0,416,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B08SW6HMMJ/
 link2: https://shopusa.shelly.cloud/shelly-vintage-st21-wifi-smart-home-automation

@@ -6,7 +6,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.amazon.com/Geeni-Required-Compatible-Assistant-Microsoft/dp/B07G3JK3JN/
-image: /assets/images/geeni-GN-WW105-199.jpg
+image: /assets/device_images/geeni-GN-WW105-199.webp
 template: '{"NAME":"Geeni Switch","GPIO":[0,0,0,0,52,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link2:
 mlink: https://mygeeni.com/collections/power/products/geeni-switch-smart-wi-fi-plug-no-hub-required-compatible-with-amazon-alexa-the-google-assistant-microsoft-cortana

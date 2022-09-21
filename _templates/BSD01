@@ -2,7 +2,7 @@
 date_added: 2020-07-01
 title: BSD01
 model: BSD01
-image: /assets/images/BSD01.jpg
+image: /assets/device_images/BSD01.webp
 template: '{"NAME":"BSD01","GPIO":[255,56,255,255,255,255,0,0,21,17,57,255,255],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33008262692.html
 link2: 

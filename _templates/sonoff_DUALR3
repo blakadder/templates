@@ -2,7 +2,7 @@
 date_added: 2021-06-07
 title: Sonoff Dual R3
 model: DUALR3
-image: /assets/images/sonoff_DUALR3.jpg
+image: /assets/device_images/sonoff_DUALR3.webp
 template32: '{"NAME":"Sonoff Dual R3","GPIO":[32,0,0,0,0,0,0,0,0,576,225,0,0,0,0,0,0,0,0,0,0,7296,7328,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://itead.cc/product/sonoff-dualr3/
 link2: https://www.aliexpress.com/item/1005002060944152.html
@@ -15,7 +15,7 @@ category: relay
 type: Switch Module
 standard: global
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 ***Hardware Revision Notification: Sonoff Dual R3 v2 released in September 2020***
 
@@ -35,7 +35,7 @@ The GND connection of the Dual R3 is connected to the live AC wire. Connecting s
 
 Press the case to release the clips. My case was not glued at all but some might be. After opening it, the PCB will simply pop out.
 
-![Clips](/assets/images/sonoff_DUALR3_clips.jpg)
+![Clips](/assets/device_images/sonoff_DUALR3_clips.webp)
 
 ## Serial Flashing
 
@@ -43,28 +43,28 @@ Disconnect the device from mains power! Like for real!
 
 The four needed pins (3V3, RX, TX and GND) are available at the back of the PCB and can be easily identified.
 
-![Pins](/assets/images/sonoff_DUALR3_pins.jpg)
+![Pins](/assets/device_images/sonoff_DUALR3_pins.webp)
 
 Connect them to the serial-to-USB adapter. If you have alligator clips or some ingenuity you can do it without soldering, notice that ground is connected to any ground pin on the board, not the marked pad necessarily.
 
-![Look Ma, no soldering!](/assets/images/sonoff_DUALR3_solderless.jpg)
+![Look Ma, no soldering!](/assets/device_images/sonoff_DUALR3_solderless.webp)
 
 To enter flash mode you need to connect GPIO0 to GND. Luckily Sonoff decided to give you a practical button that does just that.
 
-![GPIO0](/assets/images/sonoff_DUALR3_gpio0.jpg)
+![GPIO0](/assets/device_images/sonoff_DUALR3_gpio0.webp)
 
 Download [tasmota32.bin](http://ota.tasmota.com/tasmota32/tasmota32.bin) (you need v9.3.1.2 and above) or [tasmota32-bluetooth.bin](http://ota.tasmota.com/tasmota32/tasmota32-bluetooth.bin) if you plan on using the Bluetooth gateway feature.
 
-### ESP Flasher
-For easiest flash use [ESP Flasher](https://github.com/Jason2866/ESP_Flasher/releases). Launch ESP Flasher, select the port for your serial-to-USB adapter and your binary, make sure DUALR3 is in flash mode by pressing down the on board button then connect your serial-to-USB adapter. Finally click "Flash ESP" and wait until complete.
+### Tasmota Web Installer
+
+For easiest flash use [Tasmota Web Installer](https://tasmota.github.io/install/). 
 
 ### esptool.py
-Using command line esptool.py you need to download all the additional [required files](https://github.com/arendst/Tasmota/tree/development/tools/Esptool/ESP32) (**do not right click to download them but click each link and download using the "Download" icon).
 
-Flash using this command line:
+If you are installing from scratch then use `tasmota32.factory.bin` which includes the necessary bootloader files.
 
 ```bash
-esptool.py --chip esp32 --port COM5 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x1000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32.bin
+esptool.py --chip esp32 --port COM5 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x00000 tasmota32.factory.bin
 ```
 
 ### Configuration
@@ -76,6 +76,7 @@ Apply the template and make sure "Module 0" is selected. If the power readings a
 ### Zero Cross Detection Support
 
 To enable Zero Cross Detection use this template
+
 ```json
 {"NAME":"Sonoff Dual R3 (ZCD)","GPIO":[32,0,0,0,7552,0,0,0,0,576,225,0,0,0,0,0,0,0,0,0,0,7296,7328,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}
 ```

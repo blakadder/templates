@@ -2,7 +2,7 @@
 date_added: 2022-08-18
 title: SwitchBot Plug Mini Homekit
 model: W2001401
-image: /assets/images/switchbot_W2001401.jpg
+image: /assets/device_images/switchbot_W2001401.webp
 templatec3: '{"NAME":"W2001401","GPIO":[0,0,32,0,0,0,224,320,321,0,0,0,0,0,0,0,0,0,2720,2656,2624,0],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.co.jp/dp/B09XMXVV45
 link2: https://www.switchbot.jp/products/switchbot-plugmini-homekit
@@ -13,13 +13,16 @@ type: Plug
 standard: jp
 chip: c3
 ---
-## Serial Flashing
+## Disassembly
+
 SwitchBot Plug Mini is ultrasonic welded shut. A flat blade screwdriver hammered in the crack has been successfully used to pry it open. (Holding it in a vice may help.) There are no clips, it's just two plastic pieces that need to be pryed apart. This has been done semi-destructively. (Platic pieces end up marred. Some JB Weld or super glue might reseal it.)
 
 The Plug Mini has programming pads accessible from its side. Cutting the filled area in this photo provides access to the pads:
 
-![Marked area to access programming pinout](/assets/images/switchbot_plugmini_marked.jpg)
+![Marked area to access programming pinout](/assets/device_images/switchbot_plugmini_marked.webp)
 
 The daughterboard has clearly labeled pads to allow for programming. Short `P9` and `GND` to place the board into programming mode.
 
-![Plug Mini's ESP daughterboard](/assets/images/switchbot_plugmini_pinout.jpg)
+![Plug Mini's ESP daughterboard](/assets/device_images/switchbot_plugmini_pinout.webp)
+
+{% include flash/c3.md %}

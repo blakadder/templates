@@ -2,7 +2,7 @@
 date_added: 2022-02-13
 title: See Switches
 model: SPBS16W
-image: /assets/images/see_switches_SPBS16W.jpg
+image: /assets/device_images/see_switches_SPBS16W.webp
 template: '{"NAME":"SEESWITCHES SSPG01WH","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
 link: 
 link2: 

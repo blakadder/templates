@@ -2,7 +2,7 @@
 date_added: 2020-03-15
 title: Owfeel EN71
 model: 
-image: /assets/images/owfeel_EN71.jpg
+image: /assets/device_images/owfeel_EN71.webp
 template: '{"NAME":"SmartValve","GPIO":[52,0,0,0,0,0,0,0,17,21,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.ca/gp/product/B07SG48KSW
 link2: 

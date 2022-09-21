@@ -6,11 +6,11 @@ type: Aroma Diffuser
 standard: global
 link: https://www.amazon.com/Essential-Diffuser-Humidifier-Aromatherapy-Waterless/dp/B081MTYGWH
 link2: https://www.aliexpress.com/item/33016424280.html
-image: /assets/images/GD-30W.jpg
+image: /assets/device_images/GD-30W.webp
 template9: '{"NAME":"GD-30W","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
 mlink: 
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 

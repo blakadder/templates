@@ -2,7 +2,7 @@
 date_added: 2020-03-08
 title: Etekcity 15A
 model: ESW15-USA
-image: /assets/images/etekcity-ESW15-USA.jpg
+image: /assets/device_images/etekcity-ESW15-USA.webp
 template: '{"NAME":"ESW15-US","GPIO":[0,0,0,0,0,21,0,0,132,133,17,130,52],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07PLFZ58Y/
 link2: https://www.amazon.com/dp/B07Y7RC7K7/

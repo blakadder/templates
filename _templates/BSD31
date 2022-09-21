@@ -2,7 +2,7 @@
 date_added: 2021-11-09
 title: 1AC 2USB 
 model: BSD31
-image: /assets/images/BSD31.jpg
+image: /assets/device_images/BSD31.webp
 template9: '{"NAME":"BSD31","GPIO":[0,0,0,0,0,225,0,0,224,32,320,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B08JSHZT33/
 link2: https://www.aliexpress.com/item/32809732618.html

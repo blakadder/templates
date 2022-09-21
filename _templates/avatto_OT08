@@ -2,7 +2,7 @@
 date_added: 2020-04-11
 title: Avatto OT08
 model: 
-image: /assets/images/avatto_OT08.jpg
+image: /assets/device_images/avatto_OT08.webp
 template: '{"NAME":"Avatto OT08","GPIO":[37,0,39,0,38,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
 link: https://aliexpress.com/item/32961743134.html
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2020-09-27
 title: Frankever USB
 model: FK-PW301U
-image: /assets/images/frankever_FK-PW301U.jpg
+image: /assets/device_images/frankever_FK-PW301U.webp
 template: '{"NAME":"FK-PW301U","GPIO":[0,0,255,0,158,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001446844552.html
 link2: https://www.amazon.com/gp/product/B074YGV2NK

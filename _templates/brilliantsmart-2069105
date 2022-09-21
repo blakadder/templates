@@ -2,8 +2,7 @@
 date_added: 2019-12-30
 title: BrilliantSmart Powerboard with USB Chargers
 model: 20691
-image: https://www.brilliantsmart.com.au/wp-content/uploads/2019/03/20691-05.jpg
-mlink: /assets/images/brilliantsmart-2069105.jpg
+image: /assets/device_images/brilliantsmart-2069105.webp
 flash: tuya-convert
 category: plug
 type: Power Strip

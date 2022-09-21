@@ -2,7 +2,7 @@
 date_added: 2022-07-28
 title: Coiaca Tasmota 
 model: AWR01
-image: /assets/images/coiaca_AWR01.jpg
+image: /assets/device_images/coiaca_AWR01.webp
 template9: '{"NAME":"AWR01t","GPIO":[576,1,1,128,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://coiaca.com/index.php/product/wifi-development-board-tasmota-compliant-awr01/
 link2: 

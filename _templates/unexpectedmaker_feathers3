@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://esp32s3.com/feathers3.html
-image: /assets/images/unexpectedmaker_feathers3.jpg
+image: /assets/device_images/unexpectedmaker_feathers3.webp
 flash: serial
 chip: s3
 templates3: '{"NAME":"FeatherS3","GPIO":[1,1,4704,1,4768,1,1,1,1,1,1,1,1,288,1,0,0,1,1,0,0,0,1,0,1,1,1,1,3840,1376,0,0,3200,3232,0,0,0,0],"FLAG":0,"BASE":1}'
@@ -17,23 +17,15 @@ A Feather form factor ESP32-S3 dev board with 1S LiPo battery monitoring.
 
 This board uses an [`ESP32-S3`](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf) chip with no onboard flash or PSRAM with an external 16 MB SPI flash chip and an external 8MB PSRAM chip.
 
-## Flashing
-
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the USB port exposes a serial connection. This can be used to easily flash new firmware.
 
-For flashing via `tasmota32s3-bluetooth.factory.bin`, download the [tasmota32s3-bluetooth.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3-bluetooth.factory.bin) file.
-
-```sh
-esptool.py --chip esp32s3 --baud 115200 --before default_reset --after hard_reset --flash_mode dio --flash_size detect --flash_freq 80m write_flash --erase-all -z 0x0 tasmota32s3-bluetooth.factory.bin
-```
-
-_Flash mode (`dio`) and frequency (`80m`) should be used when flashing, otherwise the new firmware won't boot properly_
+{% include flash/s3.md %}
 
 ## Device Notes
 
-![Unexpected Maker FeatherS3 Front](/assets/images/unexpectedmaker_feathers3_front.jpg "Unexpected Maker FeatherS3 Front")
+![Unexpected Maker FeatherS3 Front](/assets/device_images/unexpectedmaker_feathers3_front.webp "Unexpected Maker FeatherS3 Front")
 
-![Unexpected Maker FeatherS3 Pinout](/assets/images/unexpectedmaker_feathers3_pinout.jpg "Unexpected Maker FeatherS3 Pinout")
+![Unexpected Maker FeatherS3 Pinout](/assets/device_images/unexpectedmaker_feathers3_pinout.webp "Unexpected Maker FeatherS3 Pinout")
 
 [FeatherS3 Schematic](https://esp32s3.com/files/schematic-feathers3.pdf)
 

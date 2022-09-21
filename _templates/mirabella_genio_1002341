@@ -4,7 +4,7 @@ category: plug
 type: Plug
 standard: au
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-1-usb-adaptor/2326810
-image: /assets/images/mirabella_genio_1002341.jpg
+image: /assets/device_images/mirabella_genio_1002341.webp
 template: '{"NAME":"Genio 1","GPIO":[0,0,56,0,0,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":1}' 
 mlink: https://mirabellagenio.net.au/smart-adaptor
 unsupported: true

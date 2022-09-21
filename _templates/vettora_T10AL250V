@@ -2,7 +2,7 @@
 date_added: 2020-06-14
 title: Vettora Smart Plug
 model: T10AL250V
-image: /assets/images/vettora_T10AL250V.jpg
+image: /assets/device_images/vettora_T10AL250V.webp
 template: '{"NAME":"Vettora","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07XCP3CR2/
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2020-12-26
 title: Energeeks 
 model: EG-EW003MC
-image: /assets/images/energeeks_EG-EW003MC.jpg
+image: /assets/device_images/energeeks_EG-EW003MC.webp
 template9: '{"NAME":"EG-EW003MC","GPIO":[0,0,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":52}' 
 link: https://www.amazon.es/dp/B07TZXPLXF
 link2: https://www.leroymerlin.es/fp/82275204/enchufe-con-wifi-energeeks-eg-ew003mc

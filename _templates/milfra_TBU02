@@ -2,13 +2,13 @@
 date_added: 2022-07-05
 title: Milfra UK Double USB Chager Twin
 model: TBU02
-image: /assets/images/milfra_TBU02.jpg
+image: /assets/device_images/milfra_TBU02.webp
 template9: '{"NAME":"Milfra TBU02","GPIO":[0,0,0,0,288,33,0,0,257,256,258,0,32,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001632788278.html
 link2: https://www.alibaba.com/product-detail/UK-elelctric-wall-switch-socket-13A_1600283580293.html
 mlink: https://www.milfra.com/products/tbu02-uk-smart-wall-socket-double-usb-chager-twin-socket-tuya-smart-app
 flash: serial
-category: switch
+category: plug
 type: Wall Outlet
 standard: uk
 ---

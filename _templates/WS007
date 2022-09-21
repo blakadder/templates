@@ -7,7 +7,7 @@ type: Plug
 standard: eu
 link: https://www.aliexpress.com/item/32952219190.html
 link2: https://www.alza.de/iq-tech-smartlife-ws007-wifi-steckdose-10a-d5656774.htm
-image: /assets/images/WS007.jpg
+image: /assets/device_images/WS007.webp
 template: '{"NAME":"RSH-WS007","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":1,"BASE":18}' 
 template9: '{"NAME":"RSH-WS007","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 ---

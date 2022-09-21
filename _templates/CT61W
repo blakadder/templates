@@ -2,7 +2,7 @@
 date_added: 2021-12-29
 title: Tuya Alarm PIR
 model: CT61W
-image: /assets/images/CT61W.jpg
+image: /assets/device_images/CT61W.webp
 template9: '{"NAME":"CT61W","GPIO":[0,0,0,0,0,0,0,0,0,160,480,256,0,0],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/1005003188707074.html
 link2: https://www.banggood.com/Tuya-CT61W-Infra-Detection-Alarm-Buzzer-Security-Protection-Escape-Prevent-Pet-Interference-Light-Alarm-Sensor-for-Home-Office-Garages-Shops-APP-Control-p-1831338.html
@@ -36,7 +36,7 @@ Not sure if the side button should be exposed somehow
 
 Works powered over USB-C without the battries (they should be used as backup as instructed in the manual)
 
-![Inside Top](/assets/images/CT61W_inside1.jpg)
-![Inside Bottom](/assets/images/CT61W_inside2.jpg)
-![Box Top](/assets/images/CT61W_box_top.jpg)
-![Box Bottom](/assets/images/CT61W_box_bottom.jpg)
+![Inside Top](/assets/device_images/CT61W_inside1.webp)
+![Inside Bottom](/assets/device_images/CT61W_inside2.webp)
+![Box Top](/assets/device_images/CT61W_box_top.webp)
+![Box Bottom](/assets/device_images/CT61W_box_bottom.webp)

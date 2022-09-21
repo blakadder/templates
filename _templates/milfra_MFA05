@@ -2,7 +2,7 @@
 date_added: 2022-02-23
 title: Milfra Motion Sensor Light
 model: MFA05
-image: /assets/images/milfra_MFA05.jpg
+image: /assets/device_images/milfra_MFA05.webp
 template9: '{"NAME":"Milfra MFA05","GPIO":[32,0,0,0,0,160,0,0,224,320,0,0,289,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B09H6MTP5W/
 link2: https://www.aliexpress.com/item/1005003307858150.html

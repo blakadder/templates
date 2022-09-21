@@ -5,7 +5,7 @@ model: FK-PW701IS
 category: unsupported
 type: Plug
 link: https://www.aliexpress.com/item/32979207234.html
-image: /assets/images/frankever_FK-PW701IS.jpg
+image: /assets/device_images/frankever_FK-PW701IS.webp
 link2: 
 link3: 
 chip: TW02 V2.0 (W600)

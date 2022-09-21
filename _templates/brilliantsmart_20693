@@ -2,7 +2,7 @@
 date_added: 2020-07-01
 title: BrilliantSmart Jupiter
 model: 20693/05
-image: /assets/images/brilliantsmart_20693.jpg
+image: /assets/device_images/brilliantsmart_20693.webp
 template: '{"NAME":"BrSm Jupiter","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.pbtech.co.nz/product/ADPBRS0001
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2021-02-03
 title: Wyze A19 800lm
 model: WLPA19
-image: /assets/images/wyze_WLPA19.jpg
+image: /assets/device_images/wyze_WLPA19.webp
 template9: '{"NAME":"Wyze Bulb","GPIO":[5728,0,0,0,0,0,0,0,0,416,417,0,0,0],"FLAG":0,"BASE":48}'
 link: https://www.amazon.com/dp/B07RF9NCDP
 mlink: https://wyze.com/wyze-bulb.html
@@ -22,11 +22,11 @@ Note: Per esp2ino latest update, it might difficult or impossible to flash newly
 3. Pry off the LED panel and attached heatsink - you can use one of the three tiny divots at the edge of the panel to get leverage.
 4. Remove the potting material to expose the necessary pins.
 
-![serial interface](/assets/images/wyze_bulb_WLPA19_internal.jpg)
+![serial interface](/assets/device_images/wyze_bulb_WLPA19_internal.webp)
 
 You may get more space by removing the material from the REAR of the board (side without any labels on the pins).
 
-![pins on rear of board](/assets/images/wyze_bulb_WLPA19_rearpins.jpg)
+![pins on rear of board](/assets/device_images/wyze_bulb_WLPA19_rearpins.webp)
 
 5. From the top of the board to the bottom, the 6 pins are:
 
@@ -43,6 +43,6 @@ You may get more space by removing the material from the REAR of the board (side
 
 6. One way to pull GPIO0 low for flash boot is to short pins 6 and 4 together with a little jig. Also, bend the pins to make it easier to fit your flashing cables in the limited space. Alternatively, the pin on the corner of the ESP module (closest to 3.3v pin) is ground.
 
-![jig to short pins 4 and 6](/assets/images/wyze_bulb_WLPA19_jig.jpg)
+![jig to short pins 4 and 6](/assets/device_images/wyze_bulb_WLPA19_jig.webp)
 
 7. Flash using esptool.py with a 3.3V serial port.

@@ -2,7 +2,7 @@
 date_added: 2020-05-30
 title: Zemismart RF Remote No Neutral 2 Gang
 model: DS-104-2
-image: /assets/images/zemismart_DS-104-2.jpg
+image: /assets/device_images/zemismart_DS-104-2.webp
 template: '{"NAME":"DS-104-2","GPIO":[0,0,0,0,22,0,0,0,17,21,18,0,56],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000458575781.html
 link2: 
@@ -24,4 +24,4 @@ Solder four wires to the TYWE3S:
 
 Flash in the usual manner. 
 
-The Client, 433Mhz RF Remote Controller, functionality is not affected by the flashing. You are able to pair/unpair the Client as necessary.
+The Client, 433MHz RF Remote Controller, functionality is not affected by the flashing. You are able to pair/unpair the Client as necessary.

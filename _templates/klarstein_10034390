@@ -2,7 +2,7 @@
 date_added: 2020-11-10
 title: Klarstein Bornholm Smart 2000W
 model: 10034390
-image: /assets/images/klarstein_10034390.jpg
+image: /assets/device_images/klarstein_10034390.webp
 template: '{"NAME":"Klarstein Bornholm","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.fr/dp/B01MUPY0IH
 link2: https://www.amazon.de/dp/B08C7W82WJ/
@@ -14,7 +14,7 @@ type: Heater
 standard: eu
 ---
 
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 This is a Tuya panel heater. It comes in white (model 10034390) an black (model 10034391)
 
@@ -23,12 +23,12 @@ This is a Tuya panel heater. It comes in white (model 10034390) an black (model 
 ## Serial Flashing
 Easily disassembled by removing the front glass panel by unscrewing 4 screws on the side. The PCB with the display and touch control has a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module on smaller PCB. The control MCU is on the back of the PCB.
 
-![Side screws](/assets/images/klarstein_10034390_side.jpg)
-![Opened](/assets/images/klarstein_10034390_open.jpg)
+![Side screws](/assets/device_images/klarstein_10034390_side.webp)
+![Opened](/assets/device_images/klarstein_10034390_open.webp)
 
 Connect your USB-to-serial adapter to [TYWE3S](https://tasmota.github.io/docs/devices/TYWE3S) module using 3V3, GND, TX and RX pins and flash. The MCU should not interfere if you're powering the Wi-Fi module directly on its 3V3 pin.
 
-![Opened](/assets/images/klarstein_10034390_wifi.jpg)
+![Opened](/assets/device_images/klarstein_10034390_wifi.webp)
 
 ## Device Configuration
 
@@ -66,7 +66,7 @@ rule1 on system#boot do ruletimer 200 endon on rules#timer=1 do backlog event fi
 ### Configuration
 
 ```console
-backlog tuyamcu 11,1; tuyamcu 12,5; tuyamcu 13;6; tuyamcu 71,3; tuyamcu 72,2; tuyamcu 61,4
+backlog tuyamcu 11,1; tuyamcu 12,5; tuyamcu 13,6; tuyamcu 71,3; tuyamcu 72,2; tuyamcu 61,4, tempres 0
 ```
 
 - `Relay1` maps to dpID1 for power control

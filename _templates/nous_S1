@@ -2,7 +2,7 @@
 date_added: 2021-11-24
 title: Nous CCT Desk Lamp
 model: S1
-image: /assets/images/nous_S1.jpg
+image: /assets/device_images/nous_S1.webp
 template9: '{"NAME":"NOUS Smart Desk Lamp S1","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 21,3 | TuyaMCU 23,4 | DimmerRange 25,255"}' 
 link: https://allegro.pl/oferta/inteligentna-lampa-biurkowa-nous-s1-wifi-led-biala-9479900626
 link2: https://www.amazon.de/dp/B0054PSFJ4

@@ -2,7 +2,7 @@
 date_added: 2022-01-25
 title: Virage Labs VirageBridge 433MHz
 model: VB-001
-image: /assets/images/virage_labs_VB-001.jpg
+image: /assets/device_images/virage_labs_VB-001.webp
 template9: '{"NAME":"VirageBridge","GPIO":[32,3200,1,3232,1,1,0,0,1,320,1,0,0],"FLAG":0,"BASE":25}' 
 link: https://www.viragelabs.com/product/viragebridge/
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2020-11-25
 title: Ener-J 
 model: SHA5264
-image: /assets/images/ener-j_SHA5264.jpg
+image: /assets/device_images/ener-j_SHA5264.webp
 template9: '{"NAME":"ENER-J SHA5264","GPIO":[32,0,0,0,2720,2656,0,0,2624,288,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.ebay.co.uk/itm/392883841850
 link2: https://www.amazon.de/SMART-WiFi-Energy-Monitor-SHA5264/dp/B07RYY4346

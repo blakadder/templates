@@ -19,8 +19,8 @@ This is new version of the Luminea ZX-2844 with a different board version. The G
 
 See the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
 
-![image](/assets/images/luminea_ZX-2844-675_connections_1.jpg)
-![image](/assets/images/luminea_ZX-2844-675_connections_2.jpg)
+![image](/assets/device_images/luminea_ZX-2844-675_connections_1.webp)
+![image](/assets/device_images/luminea_ZX-2844-675_connections_2.webp)
 
 The serial header (RXD, TXD, GND) as well as GPIO0, GPIO2 and RESET (IO0, IO2, RST) are populated as test pads on the frontside of the PCB. Unfortunately the 3.3V is not available any more, so you have to solder it directly on the ESP chip pin (see second image). You can easily add some solder to fix the wires during the flash process.
 

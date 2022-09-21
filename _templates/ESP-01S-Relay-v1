@@ -2,7 +2,7 @@
 date_added: 2020-01-15
 title: ESP-01S 5V Relay Module V1.0
 model: ESP-01S-Relay-v1.0
-image: /assets/images/ESP-01S-Relay-v1.jpg
+image: /assets/device_images/ESP-01S-Relay-v1.webp
 template: '{"NAME":"ESP-01S Relay","GPIO":[29,52,255,255,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Comidox-ESP8266-ESP-01S-Wireless-Controller/dp/B07KD3ZCFP
 link2: https://www.aliexpress.com/item/32841996894.html

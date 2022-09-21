@@ -2,7 +2,7 @@
 date_added: 2020-02-15
 title: DORESshop A60 720lm Filament
 model: DRS-ZNFB02-B22-TW
-image: /assets/images/doresshop_A60.jpg
+image: /assets/device_images/doresshop_A60.webp
 template: '{"NAME":"DORESshop-A60","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/gp/product/B07YG3R8J4/
 link2: 

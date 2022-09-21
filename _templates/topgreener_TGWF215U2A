@@ -2,7 +2,7 @@
 date_added: 2020-09-29
 title: TopGreener Dual USB
 model: TGWF215U2A 
-image: /assets/images/topgreener_TGWF215U2A.jpg
+image: /assets/device_images/topgreener_TGWF215U2A.webp
 template: '{"NAME":"TGWF215U2A","GPIO":[0,56,0,17,134,132,0,0,131,22,21,57,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07QLNMWL8/
 link2: 

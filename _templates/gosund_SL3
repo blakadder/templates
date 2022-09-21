@@ -2,7 +2,7 @@
 date_added: 2021-02-20
 title: Gosund NiteBird 32.8ft RGB 
 model: SL3 
-image: /assets/images/gosund_SL3.jpg
+image: /assets/device_images/gosund_SL3.webp
 template9: '{"NAME":"Gosund SL3","GPIO":[0,0,32,0,417,0,0,0,416,418,4768,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B08LGVBY22
 link2: https://www.alza.de/nitebird-smart-led-streifen-sl3-v2-d6370967.htm

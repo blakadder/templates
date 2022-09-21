@@ -7,7 +7,7 @@ type: Power Strip
 standard: us
 flash: tuya-convert
 link: https://www.amazon.com/gp/product/B07D1KK92W
-image: /assets/images/tessan_A4L-BK.jpg
+image: /assets/device_images/tessan_A4L-BK.webp
 template: '{"NAME":"TESSAN A4L-BK","GPIO":[0,0,0,24,23,0,0,0,21,0,22,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

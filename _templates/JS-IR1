@@ -2,7 +2,7 @@
 date_added: 2020-05-29
 title: JS-IR1 Universal Remote
 model: JS-IR1
-image: /assets/images/JS-IR1.jpg
+image: /assets/device_images/JS-IR1.webp
 template: '{"NAME":"JS-IR1","GPIO":[255,255,255,255,52,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33024334406.html
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2020-10-04
 title: Geeni OUTDOOR
 model: GN-OW101-101S
-image: /assets/images/geeni_GN-OW101-101S.jpg
+image: /assets/device_images/geeni_GN-OW101-101S.webp
 template: '{"NAME":"Geeni Outdoor","GPIO":[17,0,0,0,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 template-alt: '{"NAME":"Geeni Outdoor","GPIO":[17,0,0,0,0,57,0,0,0,52,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07BGLZKH1 

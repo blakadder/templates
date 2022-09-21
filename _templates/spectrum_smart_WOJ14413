@@ -2,7 +2,7 @@
 date_added: 2020-08-23
 title: Spectrum Smart 5W 410lm Candle 
 model: WOJ+14413
-image: /assets/images/spectrum_smart_WOJ14413.jpg
+image: /assets/device_images/spectrum_smart_WOJ14413.webp
 template: '{"NAME":"lightbulb","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://allegro.pl/oferta/zarowka-led-swieca-e14-5w-230v-cct-smart-wifi-dimm-9591297042
 link2: 

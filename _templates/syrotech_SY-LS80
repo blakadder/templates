@@ -2,7 +2,7 @@
 date_added: 2022-01-17
 title: Syrotech 
 model: SY-LS80
-image: /assets/images/syrotech_SY-LS80.jpg
+image: /assets/device_images/syrotech_SY-LS80.webp
 template9: '{"NAME":"Syrotech SY-LS80","GPIO":[0,0,0,0,224,32,0,0,0,320,320,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.in/dp/B097GZD1XF
 link2: 

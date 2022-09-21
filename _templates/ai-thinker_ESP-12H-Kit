@@ -5,7 +5,7 @@ model: ESP-12H-Kit
 category: diy
 type: Development Board
 standard: global
-image: /assets/images/ai-thinker_ESP-12H-Kit.jpg
+image: /assets/device_images/ai-thinker_ESP-12H-Kit.webp
 templates2: '{"NAME":"ESP-12H-Kit","GPIO":[32,1,1,0,0,1,0,1,1,417,1,416,418,0,0,0,0,0,0,1,1,1,1,1,0,0,1,1,0,0,0,0,1,1,0,0],"FLAG":0,"BASE":1}'
 chip: s2
 mlink: 
@@ -15,16 +15,6 @@ link3: https://www.amazon.com/dp/B095Y3Y7R4/
 link4: https://mediarath.de/products/nodemcu-esp32-wroom32-wifi-bluetooth-iot-dev-kit-arduino-espressif-tasmota?_pos=1&_sid=dc126cf90&_ss=r
 ---
 
-## Flashing
+{% include flash/s2.md %}
 
-To put the module in flash mode GPIO0 needs to be pulled low.  
-
-Flash using [Tasmota Web Installer](https://tasmota.github.io/install/) using Tasmota32-S2 option. 
-
-If using esptool.py download [required files](https://github.com/tasmota/install/tree/main/static/esp32-s2) and [tasmota32s2.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.bin) and put them in the same folder.
-
-```bash
-esptool.py --chip esp32s2 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x1000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32s2.bin
-```
-
-![Back](/assets/images/ai-thinker_ESP-12H-Kit_pinout.gif)
+![Back](/assets/images/ai-thinker_ESP-12H-Kit_pinout.webp)

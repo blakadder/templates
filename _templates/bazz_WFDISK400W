@@ -2,7 +2,7 @@
 date_added: 2022-01-05
 title: BAZZ 4" Recessed 
 model: WFDISK400W
-image: /assets/images/bazz_WFDISK400W.jpg
+image: /assets/device_images/bazz_WFDISK400W.webp
 template9: '{"NAME":"WFDISK400W","GPIO":[0,0,0,0,420,419,0,0,416,417,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bazzsmarthome.ca/products/4-smart-wifi-rgb-led-recessed-light-fixture-white
 link2: 

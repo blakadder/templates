@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://unexpectedmaker.com/tinys2
-image: /assets/images/unexpectedmaker_tinys2.jpg
+image: /assets/device_images/unexpectedmaker_tinys2.webp
 flash: serial
 chip: s2
 templates2: '{"NAME":"TinyS2","GPIO":[1,1376,3840,4704,1,1,1,1,1,1,0,0,0,0,1,0,0,1,1,0,0,0,1,0,1,1,1,1,0,0,0,0,3200,3232,0,0],"FLAG":0,"BASE":1}'
@@ -19,25 +19,19 @@ A small form factor ESP32-S2 dev board.
 
 This board uses an [`ESP32-S2F-N4R2`](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf) chip with 4 MB of flash and 2 MB of PSRAM.
 
-## Flashing
-
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB port exposes a serial connection. This can be used to easily flash new firmware.
 
-For flashing via `tasmota32s2.factory.bin`, download the [tasmota32s2.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s2.factory.bin) file.
-
-```sh
-esptool.py --chip esp32s2 --baud 115200 --before default_reset --after hard_reset write_flash --erase-all -z 0x0 tasmota32s2.factory.bin
-```
+{% include flash/s2.md %}
 
 ## Device Notes
 
-![Unexpected Maker TinyS2 Front](/assets/images/unexpectedmaker_tinys2_front.jpg "Unexpected Maker TinyS2 Front")
+![Unexpected Maker TinyS2 Front](/assets/device_images/unexpectedmaker_tinys2_front.webp "Unexpected Maker TinyS2 Front")
 
 There are two versions of the TinyS2 with slightly different pinouts for the SPI pins.
 
-![Unexpected Maker TinyS2 P1 Pinout](/assets/images/unexpectedmaker_tinys2_pinout-p1.jpg "Unexpected Maker TinyS2 P3 Pinout")
+![Unexpected Maker TinyS2 P1 Pinout](/assets/device_images/unexpectedmaker_tinys2_pinout-p1.webp "Unexpected Maker TinyS2 P3 Pinout")
 
-![Unexpected Maker TinyS2 P3 Pinout](/assets/images/unexpectedmaker_tinys2_pinout-p3.jpg "Unexpected Maker TinyS2 P3 Pinout")
+![Unexpected Maker TinyS2 P3 Pinout](/assets/device_images/unexpectedmaker_tinys2_pinout-p3.webp "Unexpected Maker TinyS2 P3 Pinout")
 
 [TinyS2 Schematic](https://static1.squarespace.com/static/5a8cc639a803bbfaa029615a/t/60762fb9544b121bc53a0290/1618358202735/TinyS2_P1_Schematic.pdf)
 

@@ -2,7 +2,7 @@
 date_added: 2020-09-24
 title: SRL 2 Gang 
 model: SRL 2RW
-image: /assets/images/srl_2RW.jpg
+image: /assets/device_images/srl_2RW.webp
 template: '{"NAME":"SRL 4WW Switch","GPIO":[0,0,0,0,0,18,0,0,17,21,0,22,0],"FLAG":0,"BASE":18}' 
 link: https://srltech.com.au/portfolio_page/two-gang-series/
 link2: 

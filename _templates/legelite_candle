@@ -2,7 +2,7 @@
 date_added: 2020-02-19
 title: Legelite 5W Candle
 model: 
-image: /assets/images/legelite_candle.jpg
+image: /assets/device_images/legelite_candle.webp
 template: '{"NAME":"Legelite E12","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07TZHYYN2/
 link2: 

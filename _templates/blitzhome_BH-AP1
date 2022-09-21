@@ -2,7 +2,7 @@
 date_added: 2022-08-16
 title: BlitzHome AP1
 model: BH-AP1
-image: /assets/images/blitzhome_BH-AP1.jpg
+image: /assets/device_images/blitzhome_BH-AP1.webp
 template9: '{"NAME":"BH-AP1","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 mlink: https://www.blitzwolf.com/
 link: https://www.banggood.com/BlitzHome-BH-AP1-Smart-Air-Purifier-220m-or-h-CADR-26dB-Quiet-Air-Cleaner,Removes-Allergies,Smoke,Dust,Mold,Pollen,Pet-Dander,Activated-Carbon-Eliminates-Odors-and-Deodorizes-HEPA-Filter-with-Night-Light-APP-Remote-Control-p-1721669.html
@@ -14,14 +14,14 @@ type: Air Purifier
 standard: eu
 chip: TYWE3S
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 Identified with MCU Product ID: `{"p":"ajiovq2gnazbslep","v":"1.0.0","m":1}`. 
 
 ## Flashing
 To gain access to the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module for flashing you need to release the control panel from the base. It is affixed with 4 clips that need to be pushed while lifting the control panel. Do that for all 4 until the panel is free, disconnect the 3 cables.
 
-![Clip location](/assets/images/blitzhome_BH-AP1_clip.jpg)![Disassembled](/assets/images/blitzhome_BH-AP1_cables.jpg)
+![Clip location](/assets/device_images/blitzhome_BH-AP1_clip.jpg)![Disassembled](/assets/images/blitzhome_BH-AP1_cables.webp)
 
 ## Functions
 
@@ -54,8 +54,4 @@ Working mode is controlled with `TuyaEnum1` and fan speed controlled with `TuyaE
 
 ## Home Assistant Integration
 
-![Basic integration in Home Assistant](/assets/images/blitzhome_BH-AP1_ha.jpg)
-
-While working this configuration option does not integrate perfectly in Home Assistant. You will need to manually change the names and icons for the sensors and there is no mode or speed control.
-
-An advanced configuration using rules and blueprints will be available latter at [blakadder.com](//blakadder.com/)
+Advanced configuration using rules and a blueprint on [blakadder.com](//blakadder.com/bh-ap1-in-home-assistant/)

@@ -16,6 +16,10 @@ link2: https://www.banggood.com/SONOFF-S20-10A-2200W-Wifi-Wireless-Remote-Contro
 link3: https://www.aliexpress.com/item/32968326490.html
 link: https://www.amazon.co.uk/dp/B072ZT9NW5/
 ---
+Alternative template where the green LED lights up only in case of connection issues and on button actions:
+```console
+{"NAME":"Sonoff S20","GPIO":[17,255,255,255,0,0,0,0,21,158,0,0,0],"FLAG":0,"BASE":8}
+```
 Sonoff S20 comes in 4 plug type variants. Flashing process will be the same for each type.
 ## Serial Connection
 

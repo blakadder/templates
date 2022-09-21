@@ -2,12 +2,13 @@
 date_added: 2021-12-30
 title: Pearl CHA1555 3AC 4USB
 model: CH-1555-675
-image: /assets/images/CHA1555.jpg
+image: /assets/device_images/CHA1555.webp
 template9: '{"NAME":"Pearl CHA1555","GPIO":[32,0,0,225,2720,2656,0,0,2624,227,226,224,320,0],"FLAG":0,"BASE":18}' 
 link: https://www.pearl.ch/de/wlan-steckdosen-leiste-4x-usb-alexa-google-assistant-komp-10-a-cha1555.html
 link2: 
 mlink: 
 flash: serial
+chip: TYWE3S
 category: plug
 type: Power Strip
 standard: ch

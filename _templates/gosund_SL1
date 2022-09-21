@@ -2,7 +2,7 @@
 date_added: 2020-06-18
 title: Gosund NiteBird RGB
 model: SL1
-image: /assets/images/gosund_SL1.jpg
+image: /assets/device_images/gosund_SL1.webp
 template: '{"NAME":"Gosund LED Strip","GPIO":[17,0,0,0,0,0,0,0,37,39,38,0,0],"FLAG":3,"BASE":18}' 
 template-alt: '{"NAME":"Gosund LED Strip","GPIO":[17,0,0,0,0,38,0,0,37,39,0,0,0],"FLAG":3,"BASE":18}'
 template9: '{"NAME":"Gosund LED Strip","GPIO":[0,0,0,0,32,417,0,0,416,418,0,0,0,4768],"FLAG":0,"BASE":18}'

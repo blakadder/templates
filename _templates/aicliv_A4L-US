@@ -2,7 +2,7 @@
 date_added: 2020-08-27
 title: Aicliv 4AC 3USB
 model: A4L-US
-image: /assets/images/aicliv_A4L-US.jpg
+image: /assets/device_images/aicliv_A4L-US.webp
 template: '{"NAME":"Aicliv WiFi","GPIO":[0,0,0,24,23,158,0,0,21,17,22,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.ca/gp/product/B07FMQM8MM/
 link2: 

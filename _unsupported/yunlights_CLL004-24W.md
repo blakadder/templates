@@ -6,7 +6,7 @@ category: unsupported
 type: Ceiling Light
 chip: WB3L
 mlink: 
-image: /assets/images/yunlights_CLL004-24W.jpg
+image: /assets/device_images/yunlights_CLL004-24W.webp
 link: https://www.amazon.com/gp/product/B08GWP5RVN/
 link2: 
 ---

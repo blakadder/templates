@@ -2,7 +2,7 @@
 date_added: 2020-12-06
 title: Calex Powerplug UK
 model: 900011
-image: /assets/images/calex_900011.jpg
+image: /assets/device_images/calex_900011.webp
 template9: '{"NAME":"Calex UK Plug","GPIO":[0,0,0,0,320,321,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.tesco.com/groceries/en-GB/products/306856037?selectedUrl=https%3A%2F%2Fdigitalcontent.api.tesco.com%2Fv2%2Fmedia%2Fghs%2F6a6ea58d-f24b-4bdd-a389-39017863bced%2Fsnapshotimagehandler_1809696504.jpeg%3Fh%3D540%26w%3D540
 link2: 

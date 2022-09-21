@@ -2,7 +2,7 @@
 date_added: 2022-07-22
 title: Moes 10A
 model: MS-101
-image: /assets/images/moes_MS-101.jpg
+image: /assets/device_images/moes_MS-101.webp
 template9: '{"NAME":"Moes MS-101","GPIO":[0,0,0,0,0,320,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000418761222.html
 link2: 

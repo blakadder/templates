@@ -2,7 +2,7 @@
 date_added: 2020-02-08
 title: Aisirer
 model: AWP08L
-image: /assets/images/aisirer_AWP08L_v2.jpg
+image: /assets/device_images/aisirer_AWP08L_v2.webp
 template: '{"NAME":"AISIRER AWP08L","GPIO":[0,0,0,0,17,57,0,0,21,0,0,0,0],"FLAG":0,"BASE":18}' 
 template-alt: '{"NAME":"AISIRER AWP08L","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.fr/dp/B07RVN5LF4
@@ -17,4 +17,4 @@ standard: eu
 How to [open the plug](https://blakadder.com/disassembling-CN39/)
 
 Pinout for serial flashing:
-![Pinout](/assets/images/AWP08L_flash_pinout.jpg)
+![Pinout](/assets/device_images/AWP08L_flash_pinout.webp)

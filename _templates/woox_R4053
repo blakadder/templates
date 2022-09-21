@@ -2,9 +2,9 @@
 date_added: 2021-05-23
 title: Woox Dual
 model: R4053
-image: /assets/images/woox_R4053.jpg
+image: /assets/device_images/woox_R4053.webp
 template9: '{"NAME":"Woox R4053","GPIO":[33,0,0,0,0,224,32,0,225,320,0,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.co.uk/dp/B07N7WJL5M
+link: 
 link2: 
 mlink: https://wooxhome.com/products-c10/power-c2/woox-r4053-smart-dual-wall-socket-uk-p26
 flash: tuya-convert

@@ -2,7 +2,7 @@
 date_added: 2020-09-26
 title: Denver 16A
 model: SHP-100
-image: /assets/images/denver_SHP-100.jpg
+image: /assets/device_images/denver_SHP-100.webp
 template: '{"NAME":"Denver SHP-100","GPIO":[0,0,0,17,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":65}' 
 link: 
 link2: 

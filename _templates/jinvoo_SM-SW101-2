@@ -5,7 +5,7 @@ category: switch
 type: Switch
 standard: eu
 link: https://www.amazon.de/dp/B078GW29SK
-image: /assets/images/jinvoo_SM-SW101-1.jpg
+image: /assets/device_images/jinvoo_SM-SW101-1.webp
 template: '{"NAME":"SM-SW101-2","GPIO":[52,0,0,18,22,0,0,0,17,21,0,0,0],"FLAG":1,"BASE":18}' 
 mlink: http://www.xenon.cn/light-switch102/sm-sw101-2/sm-sw101-2z.html
 ---

@@ -2,7 +2,7 @@
 date_added: 2020-08-23
 title: Dealdig Robvaccum 8 Vacuum
 model: 
-image: /assets/images/dealdig_Robvaccum_8.jpg
+image: /assets/device_images/dealdig_Robvaccum_8.webp
 template: '{"NAME":"WhiteVacuum","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33008123649.html
 link2: 

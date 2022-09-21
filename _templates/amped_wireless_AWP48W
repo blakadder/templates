@@ -2,7 +2,7 @@
 date_added: 2020-07-31
 title: Amped Wireless 
 model: AWP48W
-image: /assets/images/amped_wireless_AWP48W.jpg
+image: /assets/device_images/amped_wireless_AWP48W.webp
 template: '{"NAME":"AWP48W","GPIO":[0,0,0,0,56,17,0,0,0,53,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07C3PJ2FZ
 link2: 

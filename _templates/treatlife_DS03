@@ -2,7 +2,7 @@
 date_added: 2020-08-12
 title: TreatLife Light and Fan
 model: DS03
-image: /assets/images/treatlife_DS03.jpg
+image: /assets/device_images/treatlife_DS03.webp
 template: '{"NAME":"DS03 Fan/Light","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com/dp/B086PPRWL7
 link2: https://www.banggood.com/TREATLIFE-DS03-2_4Ghz-Single-Pole-Wi-Fi-Light-Switch-fo-Smart-Ceiling-Fan-Speed-Control-and-Dimmer-Neutral-Wire-Needed-Works-with-Alexa-or-Google-Home,Smart-Home-APP-Control-p-1842547.html

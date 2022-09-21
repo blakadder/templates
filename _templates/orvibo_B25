@@ -2,7 +2,7 @@
 date_added: 2020-04-03
 title: Orvibo B25 
 model: 
-image: /assets/images/orvibo_B25.jpg
+image: /assets/device_images/orvibo_B25.webp
 template: '{"NAME":"Orvibo B25","GPIO":[0,0,0,0,53,21,0,0,52,0,17,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32682772292.html
 link2: https://www.aliexpress.com/item/32726480651.html

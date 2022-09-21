@@ -2,7 +2,7 @@
 date_added: 2021-08-06
 title: Xiaomi Mi Desk Lamp Pro
 model: MJTD02YL 
-image: /assets/images/xiaomi_MJTD02YL.jpg
+image: /assets/device_images/xiaomi_MJTD02YL.webp
 template32: '{"NAME":"Mi Desk Lamp Pro","GPIO":[6212,0,416,0,417,0,0,0,3840,0,0,0,160,640,608,0,0,0,0,0,0,0,3296,3264,0,0,0,0,0,32,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"DimmerRange 30,100"}' 
 link: https://www.aliexpress.com/item/32967694580.html
 link2: https://www.amazon.de/dp/B08H5JN5BM
@@ -16,4 +16,4 @@ category: light
 type: Light
 standard: [eu, au]
 ---
-![Wiring](/assets/images/xiaomi_MJTD02YL_wiring.jpg)
+![Wiring](/assets/device_images/xiaomi_MJTD02YL_wiring.webp)

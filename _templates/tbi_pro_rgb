@@ -2,7 +2,7 @@
 date_added: 2021-05-24
 title: TBI Pro RGB
 model: 
-image: /assets/images/tbi_pro_rgb.jpg
+image: /assets/device_images/tbi_pro_rgb.webp
 template9: '{"NAME":"TBI-PRO RGB Strip Light","GPIO":[32,0,0,0,416,0,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07J9HTB78
 link2: 

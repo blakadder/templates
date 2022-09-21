@@ -2,7 +2,7 @@
 date_added: 2021-03-22
 title: Dewenwils Weatherproof
 model: 
-image: /assets/images/devenwills_weatherproof.jpg
+image: /assets/device_images/devenwills_weatherproof.webp
 link: https://www.amazon.com/gp/product/B08GCCY5HL/
 link2: 
 mlink: 

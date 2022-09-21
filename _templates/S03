@@ -2,7 +2,7 @@
 date_added: 2020-09-28
 title: Mini
 model: S03
-image: /assets/images/S03.jpg
+image: /assets/device_images/S03.webp
 template: '{"NAME":"MiniSmartSocket_S03","GPIO":[0,0,0,0,56,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07B3WZ4VC/
 link2: 

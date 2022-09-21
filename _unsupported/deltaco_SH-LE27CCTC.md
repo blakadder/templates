@@ -5,7 +5,7 @@ type: CCT
 category: unsupported
 standard: e27
 link: https://www.webhallen.com/se/product/342237-Deltaco-Smart-Home-LED-lampa-E27-WiFi-9W-2700K-6500K-Dimbar-vit
-image: /assets/images/deltaco_SH-LE27CCTC.jpg
+image: /assets/device_images/deltaco_SH-LE27CCTC.webp
 mlink: https://www.deltaco.se/produkter/deltaco/smart-home/belysning/SH-LE27CCTC
 chip: WB2L
 ---

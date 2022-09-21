@@ -2,7 +2,7 @@
 date_added: 2020-02-07
 title: Jomarto SH1123
 model: SH1123
-image: /assets/images/jomarto_SH1123.jpg
+image: /assets/device_images/jomarto_SH1123.webp
 template: '{"NAME":"SH1123","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07T66Z8C4/
 link2: https://www.amazon.de/dp/B07S7PL93P/
@@ -14,4 +14,4 @@ standard: eu
 ---
 How to [open the plug](https://blakadder.com/disassembling-CN39/)
 
-![label](/assets/images/jomarto_SH1123-b.jpg)
+![label](/assets/device_images/jomarto_SH1123-b.webp)

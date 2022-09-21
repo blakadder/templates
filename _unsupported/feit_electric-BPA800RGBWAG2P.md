@@ -7,7 +7,7 @@ category: bulb
 standard: e26
 chip: WB2L
 link2: 
-image: /assets/images/feit_electric-BPA800RGBWAG2P.jpg
+image: /assets/device_images/feit_electric-BPA800RGBWAG2P.webp
 link: https://www.amazon.com/dp/B07RL48PFF
 mlink: 
 unsupported: true

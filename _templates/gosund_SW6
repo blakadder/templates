@@ -2,7 +2,7 @@
 date_added: 2020-07-21
 title: Gosund SW6 3-Way
 model: SW6
-image: /assets/images/gosund_SW6.jpg
+image: /assets/device_images/gosund_SW6.webp
 template9: '{"NAME":"Gosund SW6","GPIO":[161,0,320,0,160,0,0,0,0,226,225,224,576,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B085TG46KN
 link2: 

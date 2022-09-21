@@ -2,7 +2,7 @@
 date_added: 2020-11-08
 title: HBN 13A
 model: BNC-50/E75T
-image: /assets/images/hbn_BNC-50_E75T.jpg
+image: /assets/device_images/hbn_BNC-50_E75T.webp
 template: '{"NAME":"BNC-50/E75T","GPIO":[0,0,0,0,158,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/HBN-Compatible-Assistant-Required-Anywhere/dp/B07P85B9WL
 link2: 

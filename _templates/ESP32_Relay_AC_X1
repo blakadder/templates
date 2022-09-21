@@ -1,0 +1,23 @@
+---
+date_added: 2022-08-24
+title: LC Technology AC90V-250V 1 Channel
+model: ESP32_Relay X1
+category: relay
+type: Relay Board
+standard: global
+image: /assets/device_images/ESP32_Relay_AC_X1.webp
+template32: '{"NAME":"ESP32_Relay_AC_X1","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,224,1,1,1,0,1,1,544,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005003720788545.html
+link2: https://www.banggood.com/AC-or-DC-power-supply-ESP32-WIFI-Bluetooth-BLE-single-channel-Dual-channel-4-channel-Relay-Module-ESP32-Development-Board-p-1954001.html
+mlink: http://www.chinalctech.com/cpzx/Programmer/517.html
+---
+This dev board can be powered only by AC 90V-250V. Do not flash while powered this way.
+
+Flash with `tasmota32-nspanel.bin`, otherwise the relay on the board clicks on reboot because it's using a pin reserved for PSRAM.
+
+### Flashing
+
+***WARNING: DO NOT IN ANY CIRCUMSTANCE OPERATE THE DEVICE WHILE CONNECTED TO AC POWER***
+
+Flash using any of the provided TX/RX headers and GND. Supply 5V power from a stable source. Use the IO button to enter flash mode.    
+I've flashed it by powering it via 3.3V pin using the "Golden CH340G" adapter.

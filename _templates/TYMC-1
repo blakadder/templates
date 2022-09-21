@@ -13,7 +13,7 @@ category: sensor
 type: Contact Sensor
 standard: global
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 
 ## Unsupported Hardware
@@ -52,7 +52,7 @@ STC8F1K08S2 MCU, situated on the left of the broken out pins, powers on the Tuya
 
 ![Reset Button](https://user-images.githubusercontent.com/5904370/70840693-4be99580-1e14-11ea-84aa-e82510d3dc69.png)
 
-![](/assets/images/STC8F1K08S2.jpg)
+![](/assets/device_images/STC8F1K08S2.webp)
 
 | MCU PIN | Connection | explanation |
 |---|---|--- |

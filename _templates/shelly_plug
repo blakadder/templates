@@ -2,7 +2,7 @@
 date_added: 2021-02-20
 title: Shelly Plug
 model: 
-image: /assets/images/shelly_plug.jpg
+image: /assets/device_images/shelly_plug.webp
 template9: '{"NAME":"Shelly Plug EU","GPIO":[0,0,0,0,224,2688,0,0,96,288,289,0,290,0],"FLAG":0,"BASE":18}' 
 link: https://shop.shelly.cloud/shelly-plug-wifi-smart-home-automation#71
 link2: https://www.amazon.se/dp/B0835YG5HK/

@@ -2,7 +2,7 @@
 date_added: 2021-01-25
 title: Antsig Universal Remote Controller
 model: HUBIR01HA
-image: /assets/images/antsig_HUBIR01HA.jpg
+image: /assets/device_images/antsig_HUBIR01HA.webp
 template9: '{"NAME":"Antsig Smart Wi-Fi IR","GPIO":[1,1,1,1,320,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.bunnings.com.au/antsig-grid-connect-smart-ir-universal-remote-controller_p0118693
 link2: 

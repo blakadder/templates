@@ -2,7 +2,7 @@
 date_added: 2020-07-16
 title: D3D Smart Plug with USB & Power Monitor
 model: FLHS-ZN04
-image: /assets/images/d3d_d_SUM.jpg
+image: /assets/device_images/d3d_d_SUM.webp
 template: '{"NAME":"D3D FLHS-ZN04","GPIO":[57,255,56,131,255,133,255,255,255,17,132,21,255],"FLAG":15,"BASE":18}'
 link: https://d3dsecurity.com/collections/home-automation/products/wifi-smart-plug
 link2: 

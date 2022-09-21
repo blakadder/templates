@@ -2,7 +2,7 @@
 date_added: 2020-05-27
 title: Geeni Prisma 10W 1050lm
 model: GNC-BW904-999 
-image: /assets/images/geeni_GN-BW904-999S.jpg
+image: /assets/device_images/geeni_GN-BW904-999S.webp
 template: '{"NAME":"Geeni Prisma 1050 RGB","GPIO":[0,0,0,0,141,140,0,37,38,142,0,0,0],"FLAG":0,"BASE":18}' 
 template-alt: '{"NAME":"Geeni 1050 RGB","GPIO":[37,0,0,0,140,38,0,0,0,142,141,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Geeni-4-Pack-Smart-Wi-Fi-Color/dp/B07K51369Z/

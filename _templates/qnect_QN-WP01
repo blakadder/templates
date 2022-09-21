@@ -2,7 +2,7 @@
 date_added: 2021-12-06
 title: Qnect 16A
 model: QN-WP01
-image: /assets/images/qnect_QN-WP01.jpg
+image: /assets/device_images/qnect_QN-WP01.webp
 template9: '{"NAME":"Qnect QN-WP01","GPIO":[0,0,0,0,0,224,0,0,288,0,32,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.qnecthome.com/en/products/qn-wp01
 link2: 

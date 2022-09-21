@@ -2,7 +2,7 @@
 date_added: 2020-02-21
 title: MagicHome RGBWW w/ RF 
 model: MINI-WF-RF-5CH-A_V1.0
-image: /assets/images/magichome_MINI-WF-RF-5CH-A_V1.jpg
+image: /assets/device_images/magichome_MINI-WF-RF-5CH-A_V1.webp
 template: '{"NAME":"MagicHome RF","GPIO":[0,0,159,0,37,38,0,0,41,40,39,147,0],"FLAG":0,"BASE":38}' 
 link: https://aliexpress.com/item/32849323440.html
 link2: 

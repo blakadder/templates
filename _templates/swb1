@@ -5,7 +5,7 @@ category: plug
 type: Power Strip
 standard: us
 link: https://www.amazon.com/GOQUAL-Required-Compatible-Assistant-Function/dp/B07N646J91
-image: /assets/images/swb1.jpg
+image: /assets/device_images/swb1.webp
 template: '{"NAME":"SWB1","GPIO":[52,0,0,0,0,24,0,0,21,17,22,23,0],"FLAG":0,"BASE":18}'
 link2: https://www.amazon.com/gp/product/B07CXV3JH8/
 link3: 
