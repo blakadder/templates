@@ -3,7 +3,7 @@ date_added: 2020-12-29
 title: Tuya
 model: SS-LS01
 image: /assets/device_images/lightsensor_XFY-CGQ-GZ.webp
-template: '{"NAME":"Lightsensor","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+template9: '{"NAME":"Lightsensor","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 mlink: https://expo.tuya.com/product/687043#detail
 link: https://www.aliexpress.com/item/4001287340039.html
 link2: https://www.aliexpress.com/item/4001220785227.html

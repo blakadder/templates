@@ -3,7 +3,6 @@ date_added: 2020-11-22
 title: Blitzwolf SHP11 16A
 model: BW-SHP11
 image: /assets/device_images/blitzwolf_SHP11.webp
-template: '{"NAME":"BlitzWolf-SHP11","GPIO":[320,0,0,2624,0,2720,0,0,0,32,2656,224,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"BlitzWolf-SHP11","GPIO":[320,0,0,2624,0,2720,0,0,0,32,2656,224,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.banggood.com/BlitzWolf-BW-SHP11-16A-3520W-UK-Plug-Smart-Switch-APP-Remote-Controller-Timer-Work-with-Amazon-Alexa-Google-Assistant-p-1675285.html?rmmds=myorder&cur_warehouse=UK
 link2: 
