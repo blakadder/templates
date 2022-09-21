@@ -5,10 +5,10 @@ model: ZNNFJ07ZM
 image: /assets/device_images/smartmi_ZNNFJ07ZM.webp
 template32: '{"NAME":"ZNNFJ07ZM","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,3200,3232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 mlink: https://www.zhimi.com/products_fanHeater/
-link: https://www.geekbuying.com/item/Smartmi-2000W-Smart-Electric-Air-Heater-PTC-Ceramic-Heating---White-426506.html
+link: https://www.amazon.de/dp/B08P64ZGJJ/
 link2: https://www.banggood.com/Smartmi-ZNNFJ07ZM-Electric-Heater-Wireless-Remote-Control-2-Modes-4-Gear-Appointment-Timing-2000W-Low-Noise-Mijia-APP-for-Home-Office-p-1613608.html
-link3: https://www.aliexpress.com/item/1005001840677557.html
-link4: 
+link3: https://www.aliexpress.com/item/1005004561022258.html
+link4: https://www.geekmaxi.com/en/heaters-smartmi-electric-air-heater-ptc-ceramic-heating-warmer-fan-cn-plug-1317.html
 flash: serial
 category: misc
 type: Heater

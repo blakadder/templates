@@ -52,6 +52,8 @@
 {{ link | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1722327&u=2442238&m=107304&urllink=" }}
 {% elsif link contains "geekbuying.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://www.shareasale.com/r.cfm?b=371154&u=2442238&m=38812&urllink=" }}
+{% elsif link contains "geekmaxi.com" %}
+{{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1135651&u=2442238&m=77450&urllink=" }}
 {% elsif link contains "itead.cc" %}
 {{ link | append: "/ref/34/" }}
 {% elsif link contains "avatarcontrols.com" %}
