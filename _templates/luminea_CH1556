@@ -2,7 +2,7 @@
 date_added: 2022-02-14
 title: Luminea
 model: CH1556
-image: /assets/images/luminea_CH1556.jpg
+image: /assets/device_images/luminea_CH1556.webp
 template9: '{"NAME":"CH-1556","GPIO":[0,0,0,32,2720,2656,1,1,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.pearl.ch/de/wlan-steckdose-mit-app-steuerung-kompatibel-mit-alexa-google.html
 link2: 

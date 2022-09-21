@@ -5,7 +5,7 @@ model: T-Encoder
 category: diy
 type: Development Board
 standard: global
-image: /assets/images/lilygo_T-Encoder.jpg
+image: /assets/device_images/lilygo_T-Encoder.webp
 template32: '{"NAME":"T-Encoder","GPIO":[0,0,1,0,1,0,0,0,1,1,1,1,0,0,0,480,6212,0,0,0,0,449,450,448,0,0,0,0,0,0,0,0,3296,3264,32,0],"FLAG":0,"BASE":1,"CMND":"BuzzerPwm 1"}'
 mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50068&Id=1408&FId=t3:50068:3
 link: https://www.aliexpress.com/item/1005003587776302.html
@@ -18,7 +18,7 @@ Requires the <a href="https://www.aliexpress.com/item/1005002448932775.html?aff_
 
 Flash using [Tasmota Web Installer](https://tasmota.github.io/install/) using **Tasmota** option.
 
-![Pinout](/assets/images/lilygo_T-Encoder_pinout.jpg)
+![Pinout](/assets/device_images/lilygo_T-Encoder_pinout.webp)
 
 [Schematic](https://github.com/Xinyuan-LilyGO/T-Encoder/raw/main/schematic.pdf)
 

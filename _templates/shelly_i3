@@ -2,7 +2,7 @@
 date_added: 2020-07-22
 title: Shelly i3 Action and Scenes Activation Device
 model: 
-image: /assets/images/shelly_i3.jpg
+image: /assets/device_images/shelly_i3.webp
 template: '{"NAME":"Shelly i3","GPIO":[0,0,0,0,0,56,0,0,83,84,82,0,0],"FLAG":2,"BASE":18}' 
 link: https://www.amazon.de/dp/B089GWDS19/
 link2: https://www.domadoo.fr/en/objets-communicants/5288-shelly-module-d-activation-de-scenesactions-wi-fi-shelly-i3-3809511202593.html

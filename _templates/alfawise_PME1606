@@ -2,7 +2,7 @@
 date_added: 2019-12-26
 title: Alfawise PME1606
 link: 
-image: /assets/images/alfawise_PME1606.jpg
+image: /assets/device_images/alfawise_PME1606.webp
 template: '{"NAME":"PME1606","GPIO":[0,0,0,17,133,132,0,0,131,52,21,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: 

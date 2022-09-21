@@ -2,7 +2,7 @@
 date_added: 2022-04-25
 title: Prosto 
 model: WFS-T10
-image: /assets/images/prosto_WFS-T10.jpg
+image: /assets/device_images/prosto_WFS-T10.webp
 template9: '{"NAME":"Prosto WFS-T10","GPIO":[0,0,0,0,0,224,0,0,320,0,64,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.elementa.rs/proizvod/61476/wi-fi-smart-strujni-prekidac
 link2: 

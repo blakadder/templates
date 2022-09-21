@@ -2,7 +2,7 @@
 date_added: 2020-05-03
 title: Aseer THWFS01
 model: THWFS01
-image: /assets/images/aseer_THWFS01.jpg
+image: /assets/device_images/aseer_THWFS01.webp
 template: '{"NAME":"ASEER-THWFS01","GPIO":[56,18,157,59,134,132,0,0,131,22,57,21,17],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33052490516.html
 link2: 

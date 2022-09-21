@@ -2,7 +2,7 @@
 date_added: 2021-10-10
 title: Shawader 3Ch Touch Light
 model: WLS028 3
-image: /assets/images/shawader_WLS028_3.jpg
+image: /assets/device_images/shawader_WLS028_3.webp
 template9: '{"NAME":"ShawaderTuya3C","GPIO":[0,3872,0,66,64,65,0,0,225,226,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33030801415.html
 link2: 

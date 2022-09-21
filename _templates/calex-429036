@@ -3,7 +3,7 @@ date_added: 2019-12-16
 title: Calex G125 7,5W 1055lm
 model: 429036
 link: https://www.power.dk/hus-og-fritid/elmaterialer-og-belysning/belysning-og-lommelygter/smart-belysning/smart-lyspaere/calex-smart-g125-e27-led-paere-klar/p-1022591/
-image: /assets/images/calex-429036.jpg
+image: /assets/device_images/calex-429036.webp
 template: '{"NAME":"Calex G125 E27","GPIO":[0,0,0,0,0,140,0,0,38,0,37,142,141],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: https://www.calex.nl/en/products/product/LEDGLOBEG125E27-7-5W-1800-3000FILHELDERSMART/

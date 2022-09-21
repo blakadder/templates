@@ -4,7 +4,7 @@ title: LSPA3
 category: unsupported
 type: Plug
 link: https://www.aliexpress.com/item/1005002405714049.html
-image: /assets/images/LSPA3.jpg
+image: /assets/device_images/LSPA3.webp
 link2: 
 link3: 
 chip: WB2S

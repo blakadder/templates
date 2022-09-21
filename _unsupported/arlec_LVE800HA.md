@@ -5,7 +5,7 @@ model: LVE800HA
 category: unsupported
 type: Light
 link: https://www.bunnings.com.au/arlec-smart-800-led-bud-lights-with-grid-connect_p0180229
-image: /assets/images/arlec_LVE800HA.jpg
+image: /assets/device_images/arlec_LVE800HA.webp
 link2: 
 link3: 
 chip: WB3L

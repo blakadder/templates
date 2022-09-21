@@ -4,7 +4,7 @@ title: Fcmila 10W E26/E27/B22
 category: unsupported
 type: Bulb
 link: https://www.aliexpress.com/item/4000492867937.html
-image: /assets/images/fcmila_rgb.jpg
+image: /assets/device_images/fcmila_rgb.webp
 link2: 
 link3: 
 chip: OPL1000 A1 

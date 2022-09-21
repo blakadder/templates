@@ -2,7 +2,7 @@
 date_added: 2021-10-18
 title: Gosund 3+3AC 3USB
 model: PM03-T
-image: /assets/images/gosund_PM03-T.jpg
+image: /assets/device_images/gosund_PM03-T.webp
 template9: '{"NAME":"Gosund-PM03-T","GPIO":[0,0,576,0,0,259,0,0,224,225,226,0,32,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B08HLS2B32/
 link2: 

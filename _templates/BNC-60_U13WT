@@ -2,7 +2,7 @@
 date_added: 2020-10-09
 title: HBN 6 Outlet Yard Stake
 model: BNC-60/U13WT
-image: /assets/images/BNC-60_U13WT.jpg
+image: /assets/device_images/BNC-60_U13WT.webp
 template: '{"NAME":"BNC-60/U13WT","GPIO":[0,0,0,0,0,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B08D4RQR1T
 link2: 

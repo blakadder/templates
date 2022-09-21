@@ -2,7 +2,7 @@
 date_added: 2022-02-01
 title: Sinilink Temperature Sensor
 model: XY-WFWT
-image: /assets/images/sinilink_XY-WFWT.jpg
+image: /assets/device_images/sinilink_XY-WFWT.webp
 template9: '{"NAME":"XY-WFWT","GPIO":[1,1,320,1,225,224,1,1,608,640,32,1,33,1],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001388773743.html
 link2: https://www.amazon.de/dp/B09B3M9S9N

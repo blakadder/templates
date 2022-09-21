@@ -2,7 +2,7 @@
 date_added: 2020-01-03
 title: Feit Electric PLUG/WIFI
 model: PLUG/WIFI
-image: /assets/images/feit_electric-PLUG-WIFI.jpg
+image: /assets/device_images/feit_electric-PLUG-WIFI.webp
 template: '{"NAME":"Feit Wifi Plug","GPIO":[0,0,0,56,0,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Feit-Electric-required-Control-Anywhere/dp/B07SV59WXL
 link2: https://www.menards.com/main/electrical/electrical-cords-cord-management/outlet-adapters/feit-electric-indoor-smart-wifi-wall-plug/smartplug-ind/p-1560494221678-c-6483.htm

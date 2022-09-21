@@ -6,7 +6,7 @@ category: light
 type: Light
 standard: global
 mlink: https://mirabellagenio.net.au/
-image: /assets/images/mirabella_genio_I002940.jpg
+image: /assets/device_images/mirabella_genio_I002940.webp
 template: '{"NAME":"MirabellaPortableLamp","GPIO":[17,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.kmart.com.au/product/mirabella-genio-wi-fi-portable-led-lamp/3224816
 link2: 

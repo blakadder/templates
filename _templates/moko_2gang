@@ -2,7 +2,7 @@
 date_added: 2021-09-02
 title: MoKo 2 Gang
 model: 
-image: /assets/images/moko_2gang.jpg
+image: /assets/device_images/moko_2gang.webp
 template9: '{"NAME":"Moko2CH","GPIO":[544,0,289,0,0,33,0,0,32,224,0,225,288,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B0834NHV9R
 link2: 

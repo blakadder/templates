@@ -2,7 +2,7 @@
 date_added: 2021-05-15
 title: KHSUIN BR30 13W 1300lm
 model: BL96E
-image: /assets/images/khsuin_BL96E.jpg
+image: /assets/device_images/khsuin_BL96E.webp
 template9: '{"NAME":"KHSUIN 13W BR30","GPIO":[0,0,0,0,416,420,0,0,417,419,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B083GJ4NHV
 link2: 
@@ -17,10 +17,10 @@ Comes with 2.0 firmware so serial flashing is necessary - no glue on shade so ac
 Opening the shade is straightforward but does require a bit of force and care to do it without leaving marks. It's held on by 4 clips, so you need to use something thin but sturdy to push in under the edge of the shade, and then slide around to where the clip is to push it off and pop it up. 
 
 The red highlighted shows the shade slightly popped off, with 1 of the clips exposed. 
-![shroud slightly open](/assets/images/khsuin_BL96E_shroud.jpg)
+![shroud slightly open](/assets/device_images/khsuin_BL96E_shroud.webp)
 
 Once it's open, you can see the 4 clip points (red) and the exposed LED PCB has 2 screws (in green) which need to be removed.
-![shroud slightly open](/assets/images/khsuin_BL96E_inside.jpg)
+![shroud slightly open](/assets/device_images/khsuin_BL96E_inside.webp)
 
 Once the screws are removed, you can tap it against the palm of your hand to slide the LED PCB off the pins and into your hand. Easiest way to remove it without damaging it. 
 
@@ -41,4 +41,4 @@ So for me, it was the following steps:
 1. After successful flash, unsolder all the wires, carefuly get the LED PCB back over top and seated onto the pins, screw down, and clip shade back into place
 1. DONE!
 
-![esp solder points](/assets/images/khsuin_BL96E_pcb_solder_points.jpg)
+![esp solder points](/assets/device_images/khsuin_BL96E_pcb_solder_points.webp)

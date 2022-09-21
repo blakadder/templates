@@ -2,7 +2,7 @@
 date_added: 2021-12-14
 title: Luminea 5W 350lm 6500k
 model: ZX-2894 
-image: /assets/images/luminea_ZX-2894.jpg
+image: /assets/device_images/luminea_ZX-2894.webp
 template: '{"NAME":"ZX-2894","GPIO":[255,255,255,255,255,37,255,255,255,255,255,255,255],"FLAG":15,"BASE":18}' 
 link: https://www.pearl.de/a-ZX2894-3103.shtml
 link2: https://www.amazon.de/dp/B077NCC1FD/

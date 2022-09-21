@@ -1,0 +1,17 @@
+---
+date_added: 2022-09-14
+title: Lednify WiZ Connected 5m RGB+W
+model: 429336
+image: /assets/device_images/lednify_429336.webp
+template9: '{"NAME":"Lednify 429336","GPIO":[0,0,420,0,419,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,416,417,418,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: 
+link2: 
+mlink: https://lednify.com/product/429336/
+flash: serial
+category: light
+type: LED Strip
+standard: eu
+chip: solo1
+---
+
+This product is currently no longer actively sold in Action stores, but may come back in the future. LEDNIFY, however, still sells this product online. This product should also be nearly identical if not just a rebrand of standard WiZ devices!

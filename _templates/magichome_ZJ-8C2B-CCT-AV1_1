@@ -2,7 +2,7 @@
 date_added: 2020-08-05
 title: MagicHome 7.5W Warm White
 model: ZJ-8C2B-CCT-AV1.1
-image: /assets/images/magichome_ZJ-8C2B-CCT-AV1.1.jpg
+image: /assets/device_images/magichome_ZJ-8C2B-CCT-AV1.1.webp
 template: '{"NAME":"ZJ-8C2B-CCT-AV1.1","GPIO":[0,0,0,0,0,0,0,0,37,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4001282696227.html
 link2: 
@@ -12,7 +12,7 @@ category: bulb
 type: Dimmable
 standard: e27
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 This bulb uses the MagicHome app and cannot be Tuya-Converted. It can only be serial flashed and soldering is not easy due to the difficult to access pads. While it is cheap and has a surprisingly good thermal mass with an all metal base, it's not really worth the trouble for a dimmable warm white bulb.
 
@@ -28,4 +28,4 @@ There are marked pads for TX, RX, GND and IO0 that can be soldered to with some 
 
 Connect TX, RX and GND to your serial-to-USB adapter and connect IO0 to GND. You can now flash Tasmota.
 
-[![](/assets/images/magichome_ZJ-8C2B-CCT-AV1.1_flashing.jpg)](/assets/images/magichome_ZJ-8C2B-CCT-AV1.1_flashing.jpg)
+[![](/assets/device_images/magichome_ZJ-8C2B-CCT-AV1.1_flashing.jpg)](/assets/images/magichome_ZJ-8C2B-CCT-AV1.1_flashing.webp)

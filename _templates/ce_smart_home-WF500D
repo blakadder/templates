@@ -6,7 +6,7 @@ category: switch
 type: Dimmer
 standard: us
 link: https://www.amazon.ca/2-Pack-Dimmer-Switch-Compatible-Assistant/dp/B07GQ3H8VK
-image: /assets/images/ce_smart_home-WF500D.jpg
+image: /assets/device_images/ce_smart_home-WF500D.webp
 template: '{"NAME":"CE-WF500D","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}'
 mlink: https://www.cesmarthome.com/WF500D.html
 ---

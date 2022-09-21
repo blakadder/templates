@@ -2,7 +2,7 @@
 date_added: 2020-12-29
 title: Wolf Armor 4AC 4USB
 model: SP26
-image: /assets/images/wolf_armor_SP26.jpg
+image: /assets/device_images/wolf_armor_SP26.webp
 template9: '{"NAME":"Wolf Armor SP26","GPIO":[0,320,0,32,227,226,0,0,224,228,225,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B088WBG3JT/
 link2: 

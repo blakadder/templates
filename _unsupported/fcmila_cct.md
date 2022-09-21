@@ -4,7 +4,7 @@ title: Fcmila 15W 1500lm CCT E27/E26/B22
 category: unsupported
 type: Bulb
 link: https://www.aliexpress.com/item/4001253720749.html
-image: /assets/images/fcmila_cct.jpg
+image: /assets/device_images/fcmila_cct.webp
 link2: https://www.aliexpress.com/item/4001267990275.html
 link3: 
 chip: C-8138 

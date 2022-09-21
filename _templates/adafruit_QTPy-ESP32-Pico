@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://www.adafruit.com/product/5395
-image: /assets/images/adafruit_qtpy-esp32-pico.jpg
+image: /assets/device_images/adafruit_qtpy-esp32-pico.webp
 flash: serial
 template32: '{"NAME":"QTPy ESP32 Pico","GPIO":[32,3200,0,3232,1,1376,0,0,1,1,1,1,0,0,0,608,0,0,640,0,0,1,1,1,0,1,3840,0,1,1,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: 
@@ -30,11 +30,11 @@ esptool.py --chip esp32 --baud 115200 --before default_reset --after hard_reset 
 
 ## Device Notes
 
-![Adafruit QTPy ESP32 Pico Front](/assets/images/adafruit_qtpy-esp32-pico_front.jpg "Adafruit QTPy ESP32 Pico Front")
+![Adafruit QTPy ESP32 Pico Front](/assets/device_images/adafruit_qtpy-esp32-pico_front.webp "Adafruit QTPy ESP32 Pico Front")
 
-![Adafruit QTPy ESP32 Pico Back](/assets/images/adafruit_qtpy-esp32-pico_back.jpg "Adafruit QTPy ESP32 Pico Back")
+![Adafruit QTPy ESP32 Pico Back](/assets/device_images/adafruit_qtpy-esp32-pico_back.webp "Adafruit QTPy ESP32 Pico Back")
 
-![Adafruit QTPy ESP32 Pico Pinout](/assets/images/adafruit_qtpy-esp32-pico_pinout.png "Adafruit QTPy ESP32 Pico Pinout")
+![Adafruit QTPy ESP32 Pico Pinout](/assets/device_images/adafruit_qtpy-esp32-pico_pinout.webp "Adafruit QTPy ESP32 Pico Pinout")
 
 [PCB Files](https://github.com/adafruit/Adafruit-QT-Py-ESP32-Pico-PCB)
 

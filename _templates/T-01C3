@@ -1,11 +1,12 @@
 ---
 date_added: 2021-12-28
-title: LilyGo TTGO ESP32-C3
+title: LilyGo TTGO ESP32-C3 ESP-01 Replacement
 model: T-01C3
 category: diy
 type: Module
 standard: global
-image: /assets/images/T-01C3.jpg
+image: /assets/device_images/T-01C3.webp
+templatec3: '{"NAME":"T-01C3","GPIO":[0,0,1,544,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1],"FLAG":0,"BASE":1}'
 chip: c3
 mlink: https://github.com/Xinyuan-LilyGO/T-01C3
 link: https://www.banggood.com/LILYGO-TTGO-T-01C3-ESP32-C3-WIFI-Bluetooth-5_0-IPEX-Antenna-For-ESP-01-With-External-Antenna-Base-p-1924872.html
@@ -13,24 +14,12 @@ link2: https://www.aliexpress.com/item/1005003538055090.html
 link3: 
 ---
 
-This module is pin compatible with [ESP-01(S)](ESP-01S) modules.
-
-![Pinout](/assets/images/T01-C3_pinout.jpg)
+This is pin compatible with [ESP-01(S)](ESP-01S) modules.
  
-Onboard LED is on GPIO03.
+Onboard LED is on GPIO03 and is defined as `LedLink` in the template. 
 
-## Flashing
+{% include flash/c3.md %}
 
-To put the module in flash mode pull GPIO9 low before powering on. GPIO8 is already pulled high.
+{% include test_board.md %}
 
-Flash using [Tasmota Web Installer](https://tasmota.github.io/install/) using Tasmota32c3 4M Flash option.
-
-If using esptool.py download [required files](https://github.com/tasmota/install/tree/main/static/esp32-c3) and [tasmota32c3.bin](http://ota.tasmota.com/tasmota32/tasmota32c3.bin) and put them in the same folder.
-
-```bash
-esptool.py --chip esp32c3 --baud 460800 --before default_reset --after hard_reset write_flash -z --flash_mode dout --flash_freq 40m --flash_size detect 0x0000 bootloader_dout_40m.bin 0x8000 partitions.bin 0xe000 boot_app0.bin 0x10000 tasmota32c3.bin
-```
-
-You can purchase ([AliExpress](https://www.aliexpress.com/item/1005002668365356.html?aff_fcid=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&tt=CPS_NORMAL&aff_fsk=_9uLaGw&aff_platform=shareComponent-detail&sk=_9uLaGw&aff_trace_key=1d0cc9d57cd141c6ace547b406cc543d-1630762752554-01794-_9uLaGw&terminal_id=c60aa1c2bd3d4f80907b0cc2716fb935), [Amazon](https://amzn.to/3o8owSb), [Banggood](https://www.banggood.com/ESP8266-Test-Board-Burner-Development-Board-WIFI-Module-For-ESP-01-ESP-01S-ESP-12E-ESP-12F-ESP-12S-ESP-18T-p-1684992.html?p=CM27171011078201412U&custlinkid=1640377)) a test board for effortless flashing. Just drop the module in, plug in the USB cable and flash!
-
-![Test Board](/assets/images/esp_test_board.jpg)
+Hold the BOOT button while powering the device to put it in flash mode.

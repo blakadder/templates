@@ -2,7 +2,7 @@
 date_added: 2022-06-28
 title: RSmart
 model: RSTOM01BCO10A
-image: /assets/images/rsmart_RSTOM01BCO10A.jpg
+image: /assets/device_images/rsmart_RSTOM01BCO10A.webp
 template9: '{"NAME":"RSmart Plug","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com.br/dp/B08D6X8FB5
 link2: 

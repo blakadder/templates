@@ -2,7 +2,7 @@
 date_added: 2020-03-19
 title: Moes WS-EUY1 1 Gang 
 model: SS86-AI
-image: /assets/images/moes-WS-EUY1-W.jpg
+image: /assets/device_images/moes-WS-EUY1-W.webp
 template: '{"NAME":"WS-EUY1-W","GPIO":[157,0,0,17,21,0,0,0,0,0,52,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000847762423.html
 link2: https://www.aliexpress.com/item/4000847782254.html
@@ -17,4 +17,4 @@ Comes in white (WS-EUYx-W) and black (WS-EUYx-B) variants.
 
 Can be paired with different WS-EU [1 gang](moes_WS-EUY1), [2 gang](moes_WS-EUY2) or [3 gang](moes_WS-EUY3) switches or WWK-xxY wall outlets using additionally purchased 2 and 3 hole panels available from the same link.
 
-![](/assets/images/moes_WS-EU-W.jpg)![](/assets/images/moes_WS-EU-B.jpg)
+![](/assets/device_images/moes_WS-EU-W.jpg)![](/assets/images/moes_WS-EU-B.webp)

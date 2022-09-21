@@ -2,7 +2,7 @@
 date_added: 2020-10-01
 title: Edimax 2AC 
 model: SP-1122WTO
-image: /assets/images/edimax_SP-1122WTO.jpg
+image: /assets/device_images/edimax_SP-1122WTO.webp
 template: '{"NAME":"EDI SP-1122WTO","GPIO":[0,0,0,0,22,158,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.reichelt.de/schaltbare-steckdose-ueber-wlan-outdoor-edi-sp-1122wto-p285008.html?&trstct=pol_0&nbc=1
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2021-06-11
 title: Ruihai 9W 800lm
 model: LM99XE
-image: /assets/images/ruihai_LM99XE.jpg
+image: /assets/device_images/ruihai_LM99XE.webp
 template9: '{"NAME":"Ruihai SB50","GPIO":[0,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B08NY9KCXB/
 link2: 

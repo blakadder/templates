@@ -7,7 +7,7 @@ type: Switch
 standard: au
 chip: RTL8710BN WR3
 link: https://www.kogan.com/au/buy/kogan-smarterhome-smart-touch-light-2-switch-gang/
-image: /assets/images/kogan_KAWFSWT2GA.jpg
+image: /assets/device_images/kogan_KAWFSWT2GA.webp
 link2: 
 ---
 

@@ -2,7 +2,7 @@
 date_added: 2022-02-02
 title: Eagle Lighting 9W 800lm
 model: WXX991
-image: /assets/images/eagle_lighting_WXX991.jpg
+image: /assets/device_images/eagle_lighting_WXX991.webp
 template9: '{"NAME":"Eagle Lighting WXX991","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.eaglelighting.co.za/product/lamp-led-rgb-wifi-9w-e27-wxx991/
 link2: 

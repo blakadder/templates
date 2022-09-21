@@ -2,7 +2,7 @@
 date_added: 2019-12-18
 title: iHomma RGB BT+IR 12W
 link: https://www.amazon.de/dp/B07871R77K/
-image: /assets/images/ihomma_downlight.jpg
+image: /assets/device_images/ihomma_downlight.webp
 template: '{"NAME":"iHommaLEDDownl","GPIO":[0,0,0,0,0,40,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: 

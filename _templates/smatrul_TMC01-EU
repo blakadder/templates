@@ -1,8 +1,8 @@
 ---
 date_added: 2021-05-09
-title: Smatrul 5A RF433Mhz 1 Gang Touch
+title: Smatrul 5A RF433MHz 1 Gang Touch
 model: TMC01-EU
-image: /assets/images/smatrul_TMC01-EU.jpg
+image: /assets/device_images/smatrul_TMC01-EU.webp
 template9: '{"NAME":"TMC01-EU","GPIO":[0,320,0,0,0,160,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001865860957.html
 link2: 

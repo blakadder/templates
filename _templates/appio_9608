@@ -2,7 +2,7 @@
 date_added: 2022-05-29
 title: APPIO 1 Gang Switch
 model: 9608
-image: /assets/images/appio_9608.jpg
+image: /assets/device_images/appio_9608.webp
 template9: '{"NAME":"Appio-9608","GPIO":[0,0,0,0,0,32,0,0,0,0,0,224,288,0],"FLAG":0,"BASE":18}' 
 link: https://allegro.pl/oferta/wlacznik-swiatla-led-pojedynczy-szklany-dotyk-wifi-10224407375
 link2: 

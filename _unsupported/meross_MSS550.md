@@ -2,7 +2,7 @@
 date_added: 2020-11-03
 title: Meross 3 Way
 model: MSS550
-image: /assets/images/meross_MSS550.jpg
+image: /assets/device_images/meross_MSS550.webp
 link: https://www.amazon.ca/-/en/gp/product/B07Y9S9NQ7/
 link2: 
 mlink: https://www.meross.com/product/24/article/

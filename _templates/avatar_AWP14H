@@ -6,13 +6,14 @@ category: plug
 type: Plug
 standard: uk
 link: https://www.amazon.co.uk/gp/product/B07PHB9G2Y
-image: http://www.avatarcontrols.com/upfile/2019/07/20190709181839_442.jpg
+image: /assets/device_images/avatar_AWP14H.webp
 template: '{"NAME":"Avatar UK 10A","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
-link2: https://www.amazon.co.uk/AJP-Compatible-Required-Anywhere-Dispatch/dp/B07Z9GJ5D1/
+link2: 
 mlink: https://shop.avatarcontrols.com/smart-home.html
 unsupported: true
 ---
 
 ## Warning
+
 - As of December 2020 these plugs come with Beken BK7231 chipset and are no longer compatible with Tasmota.
 - As of December 2020 these plugs can come with the new Tuya firmware and therefor cannot be flashed.

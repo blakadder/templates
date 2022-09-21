@@ -2,7 +2,7 @@
 date_added: 2022-03-13
 title: WiZ PAR16 4.9W 400lm
 model: 9290024472
-image: /assets/images/wiz_9290024472.jpg
+image: /assets/device_images/wiz_9290024472.webp
 template32: '{"NAME":"WIZ GU10","GPIO":[0,0,420,0,419,416,0,0,0,0,0,0,0,0,417,418,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.homedepot.com.mx/iluminacion/iluminacion-led/inteligentes/foco-wiz-gu10-de-colores-49w-y-345-lumenes-157199?frame=1
 link2: https://www.amazon.com.br/dp/B08QJMW73H

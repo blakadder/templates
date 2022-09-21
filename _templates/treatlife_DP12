@@ -2,7 +2,7 @@
 date_added: 2021-11-29
 title: Treatlife Dual Outdoor
 model: DP12
-image: /assets/images/treatlife_DP12.jpg
+image: /assets/device_images/treatlife_DP12.webp
 template9: '{"NAME":"DP12","GPIO":[1,2272,1,2304,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"SO97 1 | TuyaMCU 11,1 | TuyaMCU 12,7 | TuyaMCU 21,2 | TuyaMCU 22,8 | SO20 1 | SO54 1"}' 
 link: https://www.amazon.com/dp/B098DX5T92
 link2: 

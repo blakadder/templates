@@ -2,7 +2,7 @@
 date_added: 2022-06-28
 title: Melery MR16 
 model: WB006
-image: /assets/images/melery_WB006.jpg
+image: /assets/device_images/melery_WB006.webp
 template9: '{"NAME":"Melery MR16 GU5.3","GPIO":[0,0,0,0,417,416,0,0,420,418,419,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001870937031.html
 link2: 

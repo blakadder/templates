@@ -73,7 +73,7 @@ layout: default
       {% elsif page.flash == "esp2ino" %}
       <a href="https://github.com/elahd/esp2ino" target="_blank">esp2ino</a>
       {% elsif page.flash == "replace" %}
-      <a href="https://blakadder.com/frankenstein-saturday-3/" target="_blank">Replace module</a>
+      <a href="https://blakadder.com/replace-tuya-esp12/" target="_blank">Replace module</a>
       {% elsif page.flash == "switchbota" %}
       <a href="https://github.com/kendallgoto/switchbota" target="_blank">SwitchbOTA</a>
       {% else %}
@@ -180,18 +180,6 @@ layout: default
     <br><br>
     <p>
   {% endif %}
-  
-  {% if page.templatec3 != nil or page.chip == "c3" %}
-    Flash only with ESP32-C3 <code>tasmota32c3...</code> binaries. 
-    <br><br>
-    <p>
-  {% endif %}
-
-  {% if page.templates2 != nil or page.chip == "s2" %}
-    Flash only with ESP32-S2 <code>tasmota32s2...</code> binaries.
-    <br><br>
-    <p>
-  {% endif %}
 
   {% if page.flash == 'preflashed' %}
   <b>This device comes with Tasmota already installed!</b>
@@ -199,16 +187,9 @@ layout: default
   <p>
   {% endif %}
 
-  {% if page.templates3 != nil or page.chip == "s3" %}
-    Flash only with ESP32-S3 `tasmota32s3...` binaries. Download unofficial <a href="https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3.factory.bin">development build</a>.<p>
-    <br><br>
-    <p>
-  {% endif %}
-
   {% if page.author == 'blak' %}
   <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
   {% endif %}
-
 
   {% if page.template != nil %}
     {% assign template = page.template | split: ':' %}
@@ -247,6 +228,7 @@ layout: default
   module which needs to be replaced with
   {% 
     if page.chip contains 'C-8138'  
+    or page.chip contains 'FL_M93_V1'  
     or page.chip contains 'WB3' 
     or page.chip contains 'WB3L' 
     or page.chip contains 'WB3S' 
@@ -261,18 +243,23 @@ layout: default
   %}
   <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a> or <a href="ESP-12H">ESP-12H</a>
   {% 
-    elsif page.chip contains 'WB2L' 
+    elsif page.chip contains 'CB2L' 
+    or page.chip contains 'DT-BL200' 
+    or page.chip contains 'WB2L' 
     or page.chip contains 'WR2L' 
     or page.chip contains 'WBR2L' 
-    or page.chip contains 'CB2L' 
   %}<a href="DMP-L1">DMP-L1</a> or <a href="DT-ESP-C05">DT-ESP-C05</a>
   {% 
     elsif page.chip contains 'WB2' 
+    or page.chip contains 'FL_M99_V1' 
+    or page.chip contains 'XT-BL02' 
     or page.chip contains 'WR2' 
     or page.chip contains 'WBR2' 
     or page.chip contains 'WB2S' 
+    or page.chip contains 'WR2E' 
     or page.chip contains 'CB2S' 
     or page.chip contains 'WA2' 
+
   %}<a href="WT-01N">WT-01N</a>, <a href="ESP-02S">ESP-02S</a> or <a href="WT32C3-01N">WT32C3-01N</a> 
   {% 
     elsif page.chip contains 'WBLC5' 
@@ -283,6 +270,12 @@ layout: default
   module. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
   <br>
   <p>
+  {% endif %}
+
+  {% if page.type contains 'Camera' %}
+    {% include flash/webcam.md %}
+    <br><br>
+    <p>
   {% endif %}
 
   {% if page.type contains 'Curtain Switch' %}
@@ -309,6 +302,22 @@ layout: default
   <p>
   {% endif %}
 
+  {% if page.footprint != nil %}
+    {% include flash/replace.md %}
+    <p>
+  {% endif %}
+
+  {% if page.build != nil %}
+    {% include flash/flash.html %}
+    <p>
+  {% endif %}
+
+  {% if page.autoconf == true %}
+    {% include flash/autoconf.html %}
+    <p>
+  {% endif %}
+
+
   {% if page.flash == 'esp2ino' %}
   Can be flashed over-the-air with <a href="https://github.com/elahd/esp2ino">esp2ino Flasher</a>.
   <br><br>
@@ -327,12 +336,6 @@ layout: default
   <p>
   {% endif %}
 
-  {% if page.title contains 'Teckin' or page.title contains 'Lumiman' or page.title contains 'BrilliantSmart' %}
-  <b>NOTICE!!!</b> Manufacturer has started using unsupported non-ESP8266 chips recently and this device might not be compatible anymore. Check seller descriptions or contact them before buying!<p>  
-  <br><br>
-  <p>
-  {% endif %}
-
   {% if page.link contains 'mediarath' or page.link2 contains 'mediarath' or page.link3 contains 'mediarath' or page.link4 contains 'mediarath' or page.link5 contains 'mediarath' %}
   <strong>Use code <code>BLAKADDER10</code> when buying from mediarath.de Tasmota category for a 10% discount. Code is valid until end of 2022.</strong>
   <br><br>
@@ -346,7 +349,7 @@ layout: default
   {% endif %}
 
   {% if page.title contains 'Linkind' %}
-  <strong>Use code <code>LKS15</code> when buying from <a href="https://shareasale.com/r.cfm?b=2081732&u=2442238&m=101126&urllink=&afftrack=">linkind.com</a> store for a 15% discount and free shipping.</strong>
+  <strong>Use code <code>LK40</code> for 40% discount on your first order or <code>LKS15</code> when buying from <a href="https://shareasale.com/r.cfm?b=2081732&u=2442238&m=101126&urllink=&afftrack=">linkind.com</a> store for a 15% discount and free shipping.</strong>
   <br><br>
   <p>
   {% endif %}
@@ -418,4 +421,4 @@ layout: default
 
 </div>
 
- <div id="amzn-assoc-ad-c632316f-24d7-45e3-9fd2-4f1038ceddbc"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c632316f-24d7-45e3-9fd2-4f1038ceddbc"></script>
+<div id="amzn-assoc-ad-c632316f-24d7-45e3-9fd2-4f1038ceddbc"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=c632316f-24d7-45e3-9fd2-4f1038ceddbc"></script>

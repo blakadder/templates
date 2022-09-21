@@ -5,7 +5,7 @@ category: diy
 type: Display
 standard: global
 mlink: https://heltec.org/project/wifi-kit-8/
-image: /assets/images/heltec_wifi_kit_8.jpg
+image: /assets/device_images/heltec_wifi_kit_8.webp
 template: '{"NAME":"HTIT-W8266","GPIO":[255,255,255,255,6,5,0,0,255,255,255,255,162],"FLAG":15,"BASE":18}' 
 template9: '{"NAME":"WifiKit8","GPIO":[1,1,1,1,640,608,1,1,1,1,1,1,1024,1],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/MakerFocus-ESP8266-Development-Display-Support/dp/B076JDVRLP/

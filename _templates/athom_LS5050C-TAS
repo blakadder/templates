@@ -2,7 +2,7 @@
 date_added: 2021-02-01
 title: Athom RGB 
 model: LS5050C-TAS
-image: /assets/images/athom_LS5050C-TAS.jpg
+image: /assets/device_images/athom_LS5050C-TAS.webp
 template9: '{"NAME":"LS5050C-TAS","GPIO":[32,0,0,0,417,0,0,0,416,0,418,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/strip-1
 link: https://www.aliexpress.com/item/1005002095265811.html
@@ -17,7 +17,7 @@ This device supports 3 PWM channels, but can easily be modified to support 4, to
 The back of the case is held in place by clips, and prises open.
 In order to enable the fourth channel, you need to add three components: '0805' size surface-mount resistors of values 1k and 10k, and a 'SOT-23' size surface-mount N-channel MOSFET type AO3400 (marked A09T), in the positions shown.  You will also want to replace the output cable with one with 5 conductors.
 
-![PCB](/assets/images/LS5050C_4ch_mod.jpg)
+![PCB](/assets/device_images/LS5050C_4ch_mod.webp)
 
 To enable the extra channel (which is connected to GPIO13) in Tasmota, you can use the following template:
 

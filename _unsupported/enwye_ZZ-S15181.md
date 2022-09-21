@@ -6,6 +6,6 @@ category: unsupported
 type: Bulb
 chip: BK7231U
 mlink: 
-image: /assets/images/enwye_ZZ-S15181.jpg
+image: /assets/device_images/enwye_ZZ-S15181.webp
 link: https://www.aliexpress.com/item/4000300642135.html
 ---

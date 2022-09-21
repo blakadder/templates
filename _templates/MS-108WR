@@ -2,7 +2,7 @@
 date_added: 2022-03-30
 title: MS-108WR RF Curtain Module
 model: MS-108WR
-image: /assets/images/MS-108WR.jpg
+image: /assets/device_images/MS-108WR.webp
 template9: '{"NAME":"MS-108WR","GPIO":[1,1,1,544,32,33,1,1,225,32,224,1,1,1],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005002341647905.html
 link2: https://www.aliexpress.com/item/4000898863848.html

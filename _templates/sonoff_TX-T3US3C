@@ -5,7 +5,7 @@ model: T3US3C
 category: switch
 type: Switch
 standard: us
-image: /assets/images/sonoff_TX-T3US3C.jpg
+image: /assets/device_images/sonoff_TX-T3US3C.webp
 template: '{"NAME":"TX T3US3C","GPIO":[17,255,0,255,23,22,18,19,21,158,0,0,0],"FLAG":0,"BASE":30}'
 link4: https://www.aliexpress.com/item/4001294083284.html
 link2: https://www.amazon.com/dp/B07RZRKGH6/

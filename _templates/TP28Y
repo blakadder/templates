@@ -2,7 +2,7 @@
 date_added: 2022-02-12
 title: TP28Y
 model: TP28Y
-image: /assets/images/TP28Y.jpg
+image: /assets/device_images/TP28Y.webp
 template9: '{"NAME":"TP28Y","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005003635467902.html
 link2: 

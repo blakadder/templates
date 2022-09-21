@@ -2,7 +2,7 @@
 date_added: 2021-11-09
 title: DETA Double GPO + USB 
 model: 6920HA
-image: /assets/images/deta_6920HA.jpg
+image: /assets/device_images/deta_6920HA.webp
 template9: '{"NAME":"DETA 6920HA","GPIO":[0,0,0,3104,32,288,0,0,33,224,225,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/deta-grid-connect-smart-double-touch-power-point-with-dual-usb_p0172780
 link2: 

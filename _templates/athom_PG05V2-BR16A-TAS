@@ -2,7 +2,7 @@
 date_added: 2022-05-18
 title: Athom 16A BR V2
 model: PG05V2-BR16A-TAS
-image: /assets/images/athom_PG05V2-BR16A.jpg
+image: /assets/device_images/athom_PG05V2-BR16A.webp
 template9: '{"NAME":"Athom Plug V2","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/brazil-plug
 link: https://www.aliexpress.com/item/1005001670452123.html
@@ -16,6 +16,6 @@ standard: br
 
 ## Photos of internals
 
-![Top of the Plug](/assets/images/athom_PG05V2-BR16A_1.jpg)
+![Top of the Plug](/assets/device_images/athom_PG05V2-BR16A_1.webp)
 
-![Top of the ESP8285H16](/assets/images/athom_PG05V2-BR16A_2.jpg)
+![Top of the ESP8285H16](/assets/device_images/athom_PG05V2-BR16A_2.webp)

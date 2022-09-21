@@ -2,7 +2,7 @@
 date_added: 2022-08-15
 title: Ketotek Single Phase Energy Monitor 
 model: KTEM06
-image: /assets/images/ketotek_KTEM06.jpg
+image: /assets/device_images/ketotek_KTEM06.webp
 template9: '{"NAME":"Ketotek KTEM06","GPIO":[0,2272,0,2304,0,0,0,0,0,0,320,0,32,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.de/dp/B09XXG4L2C/
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2021-12-28
 title: ESP32-C3-C05 ESP32-C3 4Mb
 model: DT-ESP-C05
-image: /assets/images/DT-ESP-C05.jpg
+image: /assets/device_images/DT-ESP-C05.webp
 link: https://www.aliexpress.com/item/1005004110145337.html
 mlink: 
 flash: serial
@@ -11,9 +11,11 @@ type: Module
 standard: global
 templatec3: 'Module 1'
 chip: c3
+footprint: dt-light
 ---
-Module is pin compatible with TYWE2L, WR2L, WB2L, WBR2L, CB2L
 
-![Pinout](/assets/images/DT-ESP-C05_pinout.jpg)
+{% include flash/c3.md %}
+
+![Pinout](/assets/device_images/DT-ESP-C05_pinout.webp)
 
 [Datasheet](/assets/DT-ESP-C05_Datasheet.pdf)

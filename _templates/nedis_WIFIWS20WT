@@ -2,7 +2,7 @@
 date_added: 2020-04-29
 title: Nedis Dual
 model: WIFIWS20WT 
-image: /assets/images/nedis_WIFIWS20WT.jpg
+image: /assets/device_images/nedis_WIFIWS20WT.webp
 template: '{"NAME":"SM-SW102U-2","GPIO":[158,0,0,18,22,0,0,0,17,21,0,0,0],"FLAG":1,"BASE":18}' 
 link: https://www.amazon.com/Nedis-WIFIWS20WT-Smart-Light-Switch/dp/B07GH5KTWH
 link2: https://www.alza.de/nedis-wi-fi-smarter-lichtschalter-doppelt-d6236563.htm

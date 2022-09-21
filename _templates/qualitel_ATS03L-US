@@ -2,7 +2,7 @@
 date_added: 2020-07-22
 title: Qualitel 3 Gang
 model: ATS03L-US
-image: /assets/images/qualitel_ATS03L-US.jpg
+image: /assets/device_images/qualitel_ATS03L-US.webp
 template: '{"NAME":"Qualitel 3 Gang","GPIO":[157,0,54,10,22,11,0,0,9,21,53,23,52],"FLAG":0,"BASE":18}' 
 link: https://www.takealot.com/smart-light-switch-3-gang/PLID55064148
 link2: 

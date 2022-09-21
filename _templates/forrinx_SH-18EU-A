@@ -2,7 +2,7 @@
 date_added: 2020-03-31
 title: Forrinx SH-18EU-A
 model: SH-18EU-A
-image: /assets/images/forrinx_SH-18EU-A.jpg
+image: /assets/device_images/forrinx_SH-18EU-A.webp
 template: '{"NAME":"SH-18EU-A","GPIO":[0,0,0,0,22,52,21,57,17,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.alibaba.com/product-detail/EU-standard-16-A-Remote-Control_62202991596.html
 link2: 

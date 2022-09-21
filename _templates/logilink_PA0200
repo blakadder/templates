@@ -2,7 +2,7 @@
 date_added: 2020-06-01
 title: LogiLink PA0200
 model: PA0200
-image: /assets/images/logilink_PA0200.jpg
+image: /assets/device_images/logilink_PA0200.webp
 template: '{"NAME":"LogilinkPA0200","GPIO":[0,0,0,90,0,0,0,0,0,56,21,0,0],"FLAG":7,"BASE":18}' 
 link: https://www.amazon.de/dp/B081QY1BC4
 link2: https://www.pollin.de/p/wlan-steckdose-logilink-pa0200-2-stueck-590486

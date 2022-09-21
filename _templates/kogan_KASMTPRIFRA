@@ -2,7 +2,7 @@
 date_added: 2022-08-15
 title: Kogan 5-Stage 3S
 model: KASMTPRIFRA
-image: /assets/images/kogan_KASMTPRIFRA.jpg
+image: /assets/device_images/kogan_KASMTPRIFRA.webp
 template9: '{"NAME":"Kogan Air Purifier 3S","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.kogan.com/au/buy/kogan-smarterhome-5-stage-air-purifier-3s-h13-filter-340-cadr/
 link2: 
@@ -12,7 +12,8 @@ category: misc
 type: Air Purifier
 standard: au
 ---
-Flashed using serial, pull of the front panel and the Wi-Fi module is just behind the display. Ensure to disconnect the board from the rest of the air purifier to ensure the MCU doesn't interfere with the rx/tx lines. RX, TX, 3.3V, GND AND GPIO0 are conveniently broken out onto pads for easy soldering, which can be seen by following the visible traces on the board or using a multimeter, otherwise a flashing jig can be used. I would recommend removing the piezo buzzer when you have it pulled apart.  
+Flashed using serial, pull of the front panel and the Wi-Fi module is just behind the display. Ensure to disconnect the board from the rest of the air purifier to ensure the MCU doesn't interfere with the rx/tx lines. TX, 3.3V, GND and GPIO0 are conveniently broken out onto pads for easy soldering shownn in the image below. Otherwise, a flashing jig can be used. I would recommend removing the piezo buzzer when you have it pulled apart, which is on the mcu board. 
+![Image of the board annotated with the pinout](https://i.imgur.com/pu6ULXZ.png)
 
 ## Known dpIDs
 
@@ -58,6 +59,8 @@ ON TuyaReceived#DpType4Id3 DO Publish stat/%topic%/MODE %value% ENDON
                 "getTargetAirPurifierState": "stat/airpurifier/MODE",
                 "setTargetAirPurifierState": "cmnd/airpurifie/TUYAENUM1"
             },
+            "targetAirPurifierStateValues": [0,1],
+            "currentAirPurifierStateValues": ["OFF","NOT_USED","ON"],
             "onValue": "ON",
             "offValue": "OFF",
             "accessory": "mqttthing"

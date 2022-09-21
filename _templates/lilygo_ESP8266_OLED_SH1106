@@ -2,7 +2,7 @@
 date_added: 2020-11-30
 title: LilyGO TTGO TO ESP8266 OLED SH1106 Weather Station 
 model: ESP8266_OLED_SH1106
-image: /assets/images/lilygo_ESP8266_OLED_SH1106.jpg
+image: /assets/device_images/lilygo_ESP8266_OLED_SH1106.webp
 template: '{"NAME":"TTGO-T12","GPIO":[255,255,255,255,5,6,0,0,17,19,18,255,255],"FLAG":15,"BASE":18}' 
 template9: '{"NAME":"TTGO T12","GPIO":[1,1,1,1,608,640,0,0,32,34,33,1,1,1],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32854542718.html
@@ -25,7 +25,7 @@ The buttons are connected to GPIO12, GPIO14 and GPIO13.
 ### v1.0
 This version has no logo on the front.
 [AliExpress](https://www.aliexpress.com/item/32853605664.html?aff_platform=portals-tool&sk=_dYc72Dj&aff_trace_key=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj&terminal_id=3ac645b4aa5741e4bebe6d5c100f96fc&tmLog=new_Detail&aff_request_id=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj)
-![TTGO T12 v1.0](/assets/images/lilygo_ESP8266_OLED_SH1106_v1pinout.jpg)
+![TTGO T12 v1.0](/assets/device_images/lilygo_ESP8266_OLED_SH1106_v1pinout.webp)
 
 [Schematic Diagram](https://github.com/LilyGO/CryptoMoneyTicker_LITE/raw/master/T12_8266_V1.1.pdf)
 
@@ -45,7 +45,7 @@ Pinout for version 1.0:
 ### v2.0 / H214
 Has a ""TTGO"" logo on the front. The product pages shows 2MB but it is actually has 4MB flash memory. 
 [AliExpress](https://www.aliexpress.com/item/32854542718.html?aff_platform=portals-tool&sk=_dYc72Dj&aff_trace_key=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj&terminal_id=3ac645b4aa5741e4bebe6d5c100f96fc&tmLog=new_Detail&aff_request_id=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj) 
-![TTGO T12 v2.0](/assets/images/lilygo_ESP8266_OLED_SH1106_v2pinout.jpg)
+![TTGO T12 v2.0](/assets/device_images/lilygo_ESP8266_OLED_SH1106_v2pinout.webp)
 
 The pinout in the above image is **not correct**.
 This is the actual pinout for version 2.0:
@@ -66,7 +66,7 @@ This is the actual pinout for version 2.0:
 ### T-Hacker DIY BOX
 Contains T12 v2.0 + accu in a case
 [AliExpress](https://www.aliexpress.com/item/32882897101.html?aff_platform=portals-tool&sk=_dYc72Dj&aff_trace_key=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj&terminal_id=3ac645b4aa5741e4bebe6d5c100f96fc&tmLog=new_Detail&aff_request_id=ad46a8783ef8414cb3077511738cc481-1595436156311-00915-_dYc72Dj)
-![TTGO T-Hacker DIY BOX](/assets/images/lilygo_ESP8266_OLED_SH1106_hackerbox.jpg)
+![TTGO T-Hacker DIY BOX](/assets/device_images/lilygo_ESP8266_OLED_SH1106_hackerbox.webp)
 
 ## Build Tasmota
 

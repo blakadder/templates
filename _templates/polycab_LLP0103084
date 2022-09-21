@@ -2,7 +2,7 @@
 date_added: 2022-05-08
 title: Polycab Hohm Avenir 20W Batten
 model: LLP0103084
-image: /assets/images/polycab_LLP0103084.jpg
+image: /assets/device_images/polycab_LLP0103084.webp
 template9: '{"NAME":"PolycabBatten","GPIO":[0,0,0,0,0,416,0,0,0,449,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.in/dp/B09H6X4336
 link2: 

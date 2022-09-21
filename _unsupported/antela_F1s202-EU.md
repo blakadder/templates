@@ -5,7 +5,7 @@ model: F1s202-EU
 category: unsupported
 type: Plug
 link: https://www.amazon.de/dp/B098JT64SZ/
-image: /assets/images/antela_F1s202-EU.jpg
+image: /assets/device_images/antela_F1s202-EU.webp
 link2: 
 link3: 
 flash: 

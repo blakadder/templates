@@ -2,7 +2,7 @@
 date_added: 2020-05-02
 title: Hama Flush-mounted 2 Gang
 model: '00176551'
-image: /assets/images/hama_00176551.jpg
+image: /assets/device_images/hama_00176551.webp
 template: '{"NAME":"Hama WiFiTouch","GPIO":[157,0,0,0,0,18,0,0,17,22,0,21,0],"FLAG":0,"BASE":45}' 
 link: https://www.amazon.de/dp/B07JKC11SQ/ 
 link2: https://www.alza.de/hama-wifi-touch-wandschalter-doppelt-d5606924.htm
@@ -29,10 +29,10 @@ Carefully solder wires to ESP8266 chip and connect to appropriate pins on USB-to
 
 Do not use 5V! It will damage the chip.
 
-![](/assets/images/hama_00176551_solder_1.jpg)
+![](/assets/device_images/hama_00176551_solder_1.webp)
 
 Then connect another wire to GND and manually hold it on GPIO0 pin, then connect USB adapter to computer:
 
-![](/assets/images/hama_00176551_solder_2.jpg)
+![](/assets/device_images/hama_00176551_solder_2.webp)
 
 Device is ready in the flash mode and you can easily flash it with Tasmotizer. After that, gently unsolder the wires.

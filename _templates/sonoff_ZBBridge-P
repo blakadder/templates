@@ -2,7 +2,7 @@
 date_added: 2022-05-27
 title: Sonoff ZBBridge Pro
 model: ZBBridge-P
-image: /assets/images/sonoff_ZBBridge-P.jpg
+image: /assets/device_images/sonoff_ZBBridge-P.webp
 template32: '{"NAME":"Sonoff Zigbee Pro","GPIO":[0,0,576,0,480,0,0,0,0,1,1,5792,0,0,0,3552,0,320,5793,3584,0,640,608,32,0,0,0,0,0,1,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://itead.cc/product/sonoff-zigbee-bridge-pro/
 link2: https://www.aliexpress.com/item/1005004291712811.html
@@ -11,6 +11,8 @@ flash: serial
 category: misc
 type: Zigbee Gateway
 standard: global
+autoconf: true
+build: tasmota32-zbbrdgpro
 ---
 
 [ZHA/Zigbee2MQTT instructions on the Zigbee site](https://zigbee.blakadder.com/Sonoff_ZBBridge-P.html)

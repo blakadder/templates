@@ -2,7 +2,7 @@
 date_added: 2021-11-29
 title: Nedis RGBCCT 1200lm
 model: WIFILAC30WT
-image: /assets/images/nedis_WIFILAC30WT.jpg
+image: /assets/device_images/nedis_WIFILAC30WT.webp
 template9: '{"NAME":"Nedis RGB","GPIO":[0,0,0,0,417,416,0,0,420,418,419,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.alza.cz/nedis-chytre-wi-fi-stropni-svetlo-30-x-30-cm-d5856279.htm
 link2: https://www.amazon.de/dp/B07YL2N8MS/

@@ -2,7 +2,7 @@
 date_added: 2021-08-13
 title: BlitzWolf RGB Atmosphere and CCT
 model: BW-CLT1
-image: /assets/images/blitzwolf_BW-CLT1.jpg
+image: /assets/device_images/blitzwolf_BW-CLT1.webp
 template9: '{"NAME":"BW-CLT1","GPIO":[0,0,0,0,419,0,0,0,418,420,417,416,0,0],"FLAG":0,"BASE":18, "CMND":"SO37 128"}'
 link: https://www.banggood.com/BlitzWolf-BW-CLT1-LED-Smart-Ceiling-Light-with-Main-Light-and-RGB-Atmosphere-Light-2700-6500K-Adjustable-Temperature-APP-Remote-Control-Optional-and-DIY-Scene-Mode-p-1793809.html
 link2: https://www.aliexpress.com/item/1005002133715233.html

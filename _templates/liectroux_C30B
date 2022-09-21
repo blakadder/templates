@@ -3,7 +3,7 @@ date_added: 2021-08-04
 title: Liectroux C30B Robot Vacuum
 model: C30B
 template9: '{"NAME":"Liectroux C30B","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
-image: /assets/images/liectroux_C30B.jpg
+image: /assets/device_images/liectroux_C30B.webp
 link: https://www.aliexpress.com/item/32967651955.html
 link2: https://www.amazon.com/dp/B07MGJKTZ1
 link3: 

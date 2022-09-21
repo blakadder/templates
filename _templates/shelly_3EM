@@ -2,7 +2,7 @@
 date_added: 2022-03-11
 title: Shelly 3EM Power Monitoring Module
 model: SHELLY3EM
-image: /assets/images/shelly_3EM.jpg
+image: /assets/device_images/shelly_3EM.webp
 template9: '{"NAME":"Shelly 3EM","GPIO":[1,1,288,1,32,8065,0,0,640,8064,608,224,8096,0],"FLAG":0,"BASE":18}' 
 link: https://www.domadoo.fr/en/objets-communicants/5282-shelly-wifi-operated-3-phase-energy-meter-and-contactor-control-3800235262214.html
 link2: https://www.amazon.de/dp/B0918NR3YC/

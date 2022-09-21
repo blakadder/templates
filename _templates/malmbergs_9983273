@@ -2,7 +2,7 @@
 date_added: 2021-02-01
 title: Malmbergs G95 8,5W 810lm
 model: 9983273
-image: /assets/images/malmbergs_9983273.jpg
+image: /assets/device_images/malmbergs_9983273.webp
 template9: '{"NAME":"Malmbergs8,5W-RGBW","GPIO":[0,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://malmbergs.com/Products/9983273
 link2: 

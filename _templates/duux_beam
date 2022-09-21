@@ -2,7 +2,7 @@
 date_added: 2021-06-04
 title: Duux Beam 
 model: 
-image: /assets/images/duux_beam.jpg
+image: /assets/device_images/duux_beam.webp
 template9: '{"NAME":"Duux Beam","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 12,5 | TuyaMCU 13,21 | TuyaMCU 71,14 | TuyaMCU 74,15 | TuyaMCU 73,16"}'
 link: https://www.amazon.de/dp/B083P1HJLF
 link2: 

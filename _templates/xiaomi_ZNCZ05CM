@@ -2,7 +2,7 @@
 date_added: 2020-05-04
 title: Xiaomi IMILAB 
 model: ZNCZ05CM
-image: /assets/images/xiaomi_ZNCZ05CM.jpg
+image: /assets/device_images/xiaomi_ZNCZ05CM.webp
 template: '{"NAME":"Mi Smart Plug","GPIO":[17,0,0,0,56,21,0,0,0,158,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33054476688.html
 link2: https://www.banggood.com/XIAOMI-MIJIA-IMILAB-16A-3680W-EU-Plug-Smart-WIFI-Socket-Switch-APP-Remote-Control-Works-with-Google-assistant-Alexa-p-1553947.html

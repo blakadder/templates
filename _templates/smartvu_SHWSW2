@@ -2,7 +2,7 @@
 date_added: 2022-04-02
 title: SmartVU Home Double Touch Light
 model: SHWSW2
-image: /assets/images/smartvu_SHWSW2.jpg
+image: /assets/device_images/smartvu_SHWSW2.webp
 template9: '{"NAME":"SHWSW2","GPIO":[544,0,288,0,0,32,0,0,33,225,0,224,289,0],"FLAG":0,"BASE":18}' 
 link: https://www.smartvuhome.co.nz/SHWSW2
 link2: 

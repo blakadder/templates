@@ -6,27 +6,20 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitm-1.html
-image: /assets/images/espressif_ESP32-S3-DevKitM-1.png
+image: /assets/device_images/espressif_ESP32-S3-DevKitM-1.webp
 flash: serial
 chip: s3
 templates3: '{"NAME":"ESP32-S3-DevKitM-1","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1376],"FLAG":0,"BASE":1}'
 link: https://www.amazon.com/dp/B09R4QQVF4
 ---
-
 An entry-level development board from Espressif with all of the ESP32-S3 GPIOs broken out for prototyping as well as `CP1202N` USB-Serial chip for debugging via a dedicated micro-USB port.
-
-## Flashing
 
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the "UART" USB port exposes a serial connection. This can be used to easily flash new firmware.
 
-For flashing via `tasmota32s3-bluetooth.factory.bin`, download the [tasmota32s3-bluetooth.factory.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32s3-bluetooth.factory.bin) file.
-
-```sh
-esptool.py --chip esp32s3 --baud 115200 --before default_reset --after hard_reset --erase-all -z 0x0 tasmota32s3-bluetooth.factory.bin
-```
+{% include flash/s3.md %}
 
 ## Device Notes
 
-![Espressif ESP32-S3-DevKitM-1 Front](/assets/images/espressif_ESP32-S3-DevKitM-1_front.png "Espressif ESP32-S3-DevKitM-1 Front")
+![Espressif ESP32-S3-DevKitM-1 Front](/assets/device_images/espressif_ESP32-S3-DevKitM-1_front.webp "Espressif ESP32-S3-DevKitM-1 Front")
 
-![Espressif ESP32-S3-DevKitM-1Pinout](/assets/images/espressif_ESP32-S3-DevKitM-1_pinout.jpg "Espressif ESP32-S3-DevKitM-1 Pinout")
+![Espressif ESP32-S3-DevKitM-1Pinout](/assets/device_images/espressif_ESP32-S3-DevKitM-1_pinout.webp "Espressif ESP32-S3-DevKitM-1 Pinout")

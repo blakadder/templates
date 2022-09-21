@@ -2,7 +2,7 @@
 date_added: 2020-06-13
 title: Zemismart 5W 480lm
 model: ZM_LZ1E14
-image: /assets/images/zemismart_ZM_LZ1E14.jpg
+image: /assets/device_images/zemismart_ZM_LZ1E14.webp
 template: '{"NAME":"Zemismart-E27-RGBCW","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32957427588.html
 link2: 

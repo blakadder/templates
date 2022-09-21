@@ -15,4 +15,4 @@ This board uses a 74HCT125D quad buffer/line driver.
 
 Switch the jumper to GPIO5.
 
-![Pinout](/assets/images/IOTMCU_ESP-12S-RGB-LED-v1_pinout.png)
+![Pinout](/assets/device_images/IOTMCU_ESP-12S-RGB-LED-v1_pinout.webp)

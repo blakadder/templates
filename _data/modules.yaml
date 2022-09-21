@@ -1,0 +1,39 @@
+dt-light: 
+  - module: CB2L
+  - module: DT-BL200
+  - module: TYWE2L
+  - module: WB2L
+  - module: WBR2L
+  - module: WR2L
+esp12:
+  - module: CB3S
+  - module: CB3L
+  - module: C-8138
+  - module: ESP-12
+  - module: FL_M93_V1
+  - module: TYWE3L
+  - module: TYWE3S
+  - module: XR3
+  - module: WB3
+  - module: WB3L
+  - module: WB3R
+  - module: WB3S
+  - module: WB8
+  - module: WR3
+  - module: WR3E
+  - module: WR3L
+  - module: WR3N
+tywe2s:
+  - module: CB2S
+  - module: FL_M99_V1
+  - module: TYWE2S
+  - module: WR2
+  - module: WB2
+  - module: WBR2
+  - module: WR2E
+  - module: WB2S
+  - module: WA2
+  - module: XT-BL02
+tylc5:
+  - module: WBLC5
+  - module: CBLC5 

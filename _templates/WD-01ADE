@@ -2,7 +2,7 @@
 date_added: 2021-06-30
 title: Dual-Pump Automatic Watering System
 model: WD-01ADE
-image: /assets/images/WD-01ADE.jpg
+image: /assets/device_images/WD-01ADE.webp
 template9: '{"NAME":"WD-01ADE","GPIO":[32,0,0,0,0,225,33,0,224,320,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://s.click.aliexpress.com/e/_As5raZ
 link2: https://www.amazon.com/dp/B08T9KLDHD
@@ -21,13 +21,13 @@ While flashing the ESP can be powered via serial, but it will not boot normally.
 
 1. Use a dull blade or thin plastic piece to move the front cover aside so that you can unscrew the two hidden screws. While removing the front cover some plastic tabs may break on the sides.
 
-![Opening](/assets/images/WD-01ADE_opening.jpg)
+![Opening](/assets/device_images/WD-01ADE_opening.webp)
 
 2. Disconnect and mark the battery, pump A and pump B connectors from the board.
 
 3. Unscrew the board and solder some jumper wires to the [PSF-B04](https://tasmota.github.io/docs/Pinouts/#psf-b85psf-b01psf-b04) chip.
 
-![Wiring](/assets/images/WD-01ADE_wiring.jpg)
+![Wiring](/assets/device_images/WD-01ADE_wiring.webp)
 
 4. Press button S1 while hooking up the serial connection to enter flash mode.
 

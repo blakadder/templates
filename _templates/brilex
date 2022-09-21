@@ -2,7 +2,7 @@
 date_added: 2020-04-26
 title: Brilex 400ml
 model: 
-image: /assets/images/brilex.jpg
+image: /assets/device_images/brilex.webp
 template: '{"NAME":"BrilexDiffuser","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.de/Brilex-Aromatherapy-Ultrasonic-Humidifier-Adjustable/dp/B07YWBHMY5
 link2: 

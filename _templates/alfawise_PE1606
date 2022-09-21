@@ -2,7 +2,7 @@
 date_added: 2020-12-07
 title: Alfawise 
 model: PE1606
-image: /assets/images/alfawise_PE1606.jpg
+image: /assets/device_images/alfawise_PE1606.webp
 template: '{"NAME":"PE1606","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 link: 
 link2: 

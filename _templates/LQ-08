@@ -2,7 +2,7 @@
 date_added: 2021-02-14
 title: AI Universal Remote 
 model: LQ-08
-image: /assets/images/LQ-08.jpg
+image: /assets/device_images/LQ-08.webp
 template: '{"NAME":"YTF IR Controller","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.aliexpress.com/item/4000200391795.html
 link2: 

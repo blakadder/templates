@@ -2,7 +2,7 @@
 date_added: 2020-10-12
 title: Treatlife A19 9W 800lm
 model: SL20
-image: /assets/images/treatlife_SL20.jpg
+image: /assets/device_images/treatlife_SL20.webp
 template: '{"NAME":"Treatlife SL20","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Treatlife-Smart-Light-Switch-Assistant/dp/B07R4MFWCQ
 link2: https://www.banggood.com/TREATLIFE-SL20-AC120V-9W-800LM-Dimmable-Wifi-Voice-Control-Smart-Bulb-APP-Control-Works-With-Alexa-Google-Home-p-1824094.html

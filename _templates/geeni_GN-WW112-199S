@@ -2,7 +2,7 @@
 date_added: 2020-02-29
 title: Geeni TAP 3-Way
 model: GN-WW112-199S
-image: /assets/images/geeni_GN-WW112-199S.jpg
+image: /assets/device_images/geeni_GN-WW112-199S.webp
 template: '{"NAME":"Geeni 3-Way","GPIO":[157,0,0,0,0,0,0,0,17,21,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07RB7JBTR/
 link2: 

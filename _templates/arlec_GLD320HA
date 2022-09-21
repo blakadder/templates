@@ -2,8 +2,8 @@
 date_added: 2022-06-17
 title: Arlec Smart 10W 830lm
 model: GLD320HA
-image: /assets/images/arlec_GLD320HA.jpg
-template9: '{"NAME":"Arlec GLD320HA","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
+image: /assets/device_images/arlec_GLD320HA.webp
+template9: '{"NAME":"Arlec GLD320HA","GPIO":[0,0,0,0,4067,0,0,0,0,4032,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO37 6"}' 
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-b22-led-830lm-rgb-cct-colour-mode-10w-globe_p0321372
 link2: 
 mlink: 
@@ -14,4 +14,4 @@ type: RGBCCT
 standard: b22
 ---
 
-I was unable to confirm the operation of the template as I think I have damaged my bulb during module replacement, I will attempt to confirm later
+SetOption37 6 is required to remap the R,G,Ww,Wc,B configuration as detailed in https://tasmota.github.io/docs/SetOption37/

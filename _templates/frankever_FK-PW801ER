@@ -2,7 +2,7 @@
 date_added: 2020-08-19
 title: FrankEver 16A
 model: FK-PW801ER
-image: /assets/images/frankever_FK-PW801ER.jpg
+image: /assets/device_images/frankever_FK-PW801ER.webp
 template: '{"NAME":"FrankEver FK-PW801ER","GPIO":[0,0,0,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32947724448.html
 link2: 

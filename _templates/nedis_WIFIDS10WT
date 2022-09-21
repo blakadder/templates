@@ -2,7 +2,7 @@
 date_added: 2020-05-04
 title: Nedis Smoke Detector
 model: WIFIDS10WT
-image: /assets/images/nedis_WIFIDS10WT.jpg
+image: /assets/device_images/nedis_WIFIDS10WT.webp
 template: '{"NAME":"Nedis WIFIDS10WT","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://nedis.com/en-us/product/security-safety/home-prevention/smoke-detection/550691451/smart-smoke-detector-wi-fi
 link2: 
@@ -90,5 +90,5 @@ This device on Tasmota 8.2 does not report a full TuyaMCU message, but it sends 
 
 I am powering this device using a PoE connection linked to a DC-DC step down PCB which fits nicely in place of the 2xAA batteries. I have soldered a cable between the power and the VCC of the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) which keep the Tasmote interface permanently available and allows simple resetting of the smoke detector after an activation.
 
-![PCB](/assets/images/nedis_WIFIDS10WT_1.jpg)
-![PCB](/assets/images/nedis_WIFIDS10WT_2.jpg)
+![PCB](/assets/device_images/nedis_WIFIDS10WT_1.webp)
+![PCB](/assets/device_images/nedis_WIFIDS10WT_2.webp)

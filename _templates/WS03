@@ -2,7 +2,7 @@
 date_added: 2021-05-08
 title: RGB 12-24V
 model: WS03
-image: /assets/images/WS03.jpg
+image: /assets/device_images/WS03.webp
 template9: '{"NAME":"WS03","GPIO":[0,0,0,0,0,0,0,0,418,417,416,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32901489191.html
 link2: 
@@ -14,5 +14,5 @@ standard: global
 ---
 Flash Pinout
 
-![alt text](/assets/images/WS03_pinout.jpg
+![alt text](/assets/device_images/WS03_pinout.webp
  ""Pinout"")

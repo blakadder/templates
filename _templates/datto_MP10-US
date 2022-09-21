@@ -2,7 +2,7 @@
 date_added: 2021-12-19
 title: Datto 
 model: MP10-US
-image: /assets/images/datto_MP10-US.jpg
+image: /assets/device_images/datto_MP10-US.webp
 template9: '{"NAME":"Datto MP10","GPIO":[320,0,0,0,0,2720,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.promotech.com/product/datto-mp10-1outlet-pwr-device/
 link2: 

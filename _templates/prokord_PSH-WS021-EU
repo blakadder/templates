@@ -2,7 +2,7 @@
 date_added: 2020-09-12
 title: Prokord 16A
 model: PSH-WS021-EU
-image: /assets/images/prokord_PSH-WS021-EU.jpg
+image: /assets/device_images/prokord_PSH-WS021-EU.webp
 template: '{"NAME":"PROKORD PSH-WS021-EU","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.dustin.se/product/5011159151/smart-home-wifi-socket-16a
 link2: 

@@ -1,7 +1,7 @@
 date_added: 2021-05-10
 title: SmartMi Electric Air 
 model: ZNNFJ07ZM
-image: /assets/images/smartmi_ZNNFJ07ZM.jpg
+image: /assets/device_images/smartmi_ZNNFJ07ZM.webp
 template32: '{"NAME":"ZNNFJ07ZM","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,3200,3232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 mlink: https://www.zhimi.com/products_fanHeater/
 link: https://www.geekbuying.com/item/Smartmi-2000W-Smart-Electric-Air-Heater-PTC-Ceramic-Heating---White-426506.html
@@ -13,7 +13,7 @@ category: misc
 type: Heater
 standard: global
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 ## Serial Flashing
 
@@ -21,7 +21,7 @@ Remove the back dust grill, unscrew 6 screws. Remove back plate which is clipped
 
 At the top of the heater is the ESP-WROOM-32D Wi-Fi module with everything neatly broken out and labelled on the side.
 
-![Pinout](/assets/images/smartmi_ZNNFJ07ZM_pinout.jpg)
+![Pinout](/assets/device_images/smartmi_ZNNFJ07ZM_pinout.webp)
 
 Connect the serial-to-USB adapter to TX, RX, GND and 3V3. Make sure to ground BOOT pin (GPIO0) to put the Wi-Fi module in flashing mode. Flash tasmota32solo1 binary. If the flash isn't succeeding disable the MCU by connecting both J3 pins (RST and GND).
 

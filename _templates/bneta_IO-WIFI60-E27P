@@ -6,7 +6,7 @@ type: RGBCCT
 category: bulb
 standard: e27
 mlink: https://www.bneta.co.za/product/smartbulb_e27/
-image: /assets/images/bneta_IO-WIFI60-E27P.jpg
+image: /assets/device_images/bneta_IO-WIFI60-E27P.webp
 template: '{"NAME":"OM60/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

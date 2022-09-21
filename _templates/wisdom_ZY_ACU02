@@ -6,7 +6,7 @@ category: plug
 type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07PF41CLZ/
-image: /assets/images/wisdom_ZY_ACU02.jpg
+image: /assets/device_images/wisdom_ZY_ACU02.webp
 template: '{"NAME":"ZY-ACU02","GPIO":[0,0,0,157,22,21,0,0,56,17,57,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.aliexpress.com/item/4000106855079.html
 ---

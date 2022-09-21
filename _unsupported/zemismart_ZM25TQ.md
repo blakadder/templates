@@ -5,7 +5,7 @@ category: unsupported
 type: Curtain Motor
 mlink: https://www.zemismart.com/zemisamrt-wifi-roller-motor-for-37mm-tube-smart-life-alexa-google-home-control-p0253.html
 link: https://www.aliexpress.com/item/4000336263991.html
-image: /assets/images/zemismart_ZM25TQ.jpg
+image: /assets/device_images/zemismart_ZM25TQ.webp
 link2: 
 link3: 
 chip: WR4

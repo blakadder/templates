@@ -2,7 +2,7 @@
 date_added: 2020-05-10
 title: Jinvoo AC/TV Box 
 model: SM-AW502A
-image: /assets/images/jinvoo_SM-AW502A.jpg
+image: /assets/device_images/jinvoo_SM-AW502A.webp
 template: '{"NAME":"Jinvoo IR Controller","GPIO":[255,255,255,255,56,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.amazon.de/dp/B07VYWN88F
 link2: 

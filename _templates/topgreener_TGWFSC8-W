@@ -6,7 +6,7 @@ category: switch
 type: Switch
 template9: '{"NAME":"TGWF15RM","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 standard: us
-image: /assets/images/topgreener_TGWFSC8-W.jpg
+image: /assets/device_images/topgreener_TGWFSC8-W.webp
 link: https://www.amazon.com/gp/product/B07WRT67T4/
 link2: 
 ---
@@ -43,4 +43,4 @@ The following blueprint will create MQTT discovery messages creating automation 
 
 Final result:
 
-![](/assets/images/topgreener_TGWFSC8-W_ha.jpg)
+![](/assets/device_images/topgreener_TGWFSC8-W_ha.webp)

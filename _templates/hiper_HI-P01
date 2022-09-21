@@ -2,7 +2,7 @@
 date_added: 2020-03-01
 title: HIPER IoT P01
 model: HI-P01
-image: /assets/images/hiper_HI-P01.jpg
+image: /assets/device_images/hiper_HI-P01.webp
 template: '{"NAME":"HIPER IoT P01","GPIO":[0,0,0,0,0,56,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/10000001546344.html
 link2: 
@@ -12,4 +12,4 @@ category: plug
 type: Plug
 standard: eu
 ---
-![label](/assets/images/hiper_HI-P01_a.jpg)
+![label](/assets/device_images/hiper_HI-P01_a.webp)

@@ -6,7 +6,7 @@ category: plug
 type: Plug
 standard: eu
 template9: '{"NAME":"AWP07L","GPIO":[320,0,0,0,0,2720,0,0,2624,32,2656,224,0,0],"FLAG":0,"BASE":18}' 
-image: /assets/images/houzetek_AWP07L.jpg
+image: /assets/device_images/houzetek_AWP07L.webp
 link: https://www.amazon.it/dp/B07HH2XQNX
 link2: https://www.amazon.de/dp/B07FNQNQYD
 flash: tuya-convert

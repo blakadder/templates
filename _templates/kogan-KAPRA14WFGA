@@ -2,7 +2,7 @@
 date_added: 2020-09-30
 title: Kogan 4.1kW Portable Air Conditioner (Reverse Cycle)
 model: KAPRA14WFGA
-image: /assets/images/kogan-KAPRA14WFGA.jpg
+image: /assets/device_images/kogan-KAPRA14WFGA.webp
 template: '{"NAME":"Kogan Panel Heater","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com.au/Kogan-SmarterHomeTM-Portable-Conditioner-Reverse/dp/B07G8LWMQ3
 link2: 

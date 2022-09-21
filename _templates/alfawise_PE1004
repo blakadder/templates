@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: eu
 mlink:  
-image: /assets/images/alfawise_PE1004T.jpg
+image: /assets/device_images/alfawise_PE1004T.webp
 template: '{"NAME":"PE1004T","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/32976994890.html
 mlink: https://www.alfawise.com/products/alfawise-pe1004t-smart-plug-mini-wifi-socket-eu-standard

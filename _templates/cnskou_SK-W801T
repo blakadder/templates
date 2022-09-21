@@ -2,7 +2,7 @@
 date_added: 2020-06-28
 title: CNSKOU Touch 
 model: SK-W801T
-image: /assets/images/cnskou_SK-W801T.jpg
+image: /assets/device_images/cnskou_SK-W801T.webp
 template: '{"NAME":"CNSKOU Dimmer Switch","GPIO":[0,0,0,0,0,0,0,0,0,0,54,0,0],"FLAG":0,"BASE":54}' 
 link: https://cnskou.en.alibaba.com/product/62302997146-807448567/US_Standard_tuya_ewelink_1_Gang_1_Way_wifi_dimmers_light_wall_switch_for_led_lights.html
 link2: 

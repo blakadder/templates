@@ -5,7 +5,7 @@ model: T3EU3C
 category: switch
 type: Switch
 standard: eu
-image: /assets/images/sonoff_TX-T3EU3C.jpg
+image: /assets/device_images/sonoff_TX-T3EU3C.webp
 template: '{"NAME":"TX T3EU3C","GPIO":[17,255,0,255,23,22,18,19,21,158,0,0,0],"FLAG":0,"BASE":30}' 
 link4: https://www.aliexpress.com/item/1005001540727905.html
 link2: https://www.amazon.de/dp/B07T599ZZ7/
@@ -14,24 +14,24 @@ mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
 link: https://itead.cc/product/sonoff-tx-series-wifi-smart-wall-switches/
 link5: https://mediarath.de/collections/tasmota-gerate/products/sonoff-tx-t1-tx-t3-eu1-2-3-wifi-433-mhz-tasmota-alexa-iobroker
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 Sonoff TX series is a new generation of wall switches with an updated front plate design. T3 model is the first one in piano black which is a welcome improvement over the regular white ones. TX T3 switches are available in EU, UK and US standards but all testing and flashing was done only on the EU version.
 
-![Backside](/assets/images/sonoff_TX-T3EU3Ca.jpg)
+![Backside](/assets/device_images/sonoff_TX-T3EU3Ca.webp)
 
-Alongside standard Wi-Fi controls, TX series (with notable exception of the T0 line) can be controlled via 433Mhz RF. Sonoff offers their own [RM433 remote](sonoff_RM433) that works with TX series as well as all other Sonoff RF capable devices. Remote can be paired with the RM433-BASE magnetic wall mount to easily simulate a 3way switch without any additional wiring.
+Alongside standard Wi-Fi controls, TX series (with notable exception of the T0 line) can be controlled via 433MHz RF. Sonoff offers their own [RM433 remote](sonoff_RM433) that works with TX series as well as all other Sonoff RF capable devices. Remote can be paired with the RM433-BASE magnetic wall mount to easily simulate a 3way switch without any additional wiring.
 
-![TX with remote](/assets/images/sonoff_TX-T3EU3Cb.jpg)
+![TX with remote](/assets/device_images/sonoff_TX-T3EU3Cb.webp)
 
 ## Serial Flashing
-![](/assets/images/sonoff_TX-T3EU3Cd.jpg)
+![](/assets/device_images/sonoff_TX-T3EU3Cd.webp)
 
 After removing the front glass touch plate you have access to the touch PCB where GND, TX, RX and VCC pins are broken out and clearly labeled. On the backside of the board there is a pad labeled GPIO0 but I haven't been able to put the device into flash mode grounding it. Instead I resorted to the trusty method of grouding GPIO0 from the esp8266 chip directly. Never fails!
 
-![PCB and pinout](/assets/images/sonoff_TX-T3EU3Cc.jpg)
-![Flash mode procedure](/assets/images/sonoff_TX-T3EU3Cf.jpg)
+![PCB and pinout](/assets/device_images/sonoff_TX-T3EU3Cc.webp)
+![Flash mode procedure](/assets/device_images/sonoff_TX-T3EU3Cf.webp)
 
 As a little test I tried flashing without soldering by only inserting the pin header and applying pressure to the board. Even thought it was very fiddly it did result in a successful flash.
 
-![](/assets/images/sonoff_TX-T3EU3Ce.jpg)
+![](/assets/device_images/sonoff_TX-T3EU3Ce.webp)

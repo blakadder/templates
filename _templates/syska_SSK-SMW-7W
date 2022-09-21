@@ -2,7 +2,7 @@
 date_added: 2020-08-12
 title: Syska 7W 480lm
 model: SSK-SMW-7W
-image: /assets/images/syska_SSK-SMW-7W.jpg
+image: /assets/device_images/syska_SSK-SMW-7W.webp
 template: '{"NAME":"Syska","GPIO":[0,0,0,0,37,40,0,0,38,41,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.in/Syska-Compatible-Amazon-Google-Assistant/dp/B076JLQSSL/
 link2: 

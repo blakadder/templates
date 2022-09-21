@@ -1,0 +1,15 @@
+---
+date_added: 2022-08-20
+title: Q-touch 433MHz 1 Gang 
+model: QBP.W1.WIFI-TOUCH
+image: /assets/device_images/q-touch_QBP_W1_WIFI-TOUCH.webp
+template9: '{"NAME":"Qtouch 1G","GPIO":[32,0,0,0,0,0,0,0,224,288,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://electro24.pl/Dotykowy-Wlacznik-Swiatla-Pojedynczy-Szklany-WiFi-Qtouch
+link2: 
+mlink: https://adelid.pl/
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+[PCB pinout](https://templates.blakadder.comimage: /assets/device_images/q-touch_QIP_W1_WIFI_A-TOUCH_pinout.webp)

@@ -5,7 +5,7 @@ category: light
 type: Light
 standard: in
 flash: serial
-image: /assets/images/wipro_DS12000.jpg
+image: /assets/device_images/wipro_DS12000.webp
 template9: '{"NAME":"WIPROBatten","GPIO":[0,0,0,0,0,416,0,0,0,449,0,0,0,0],"FLAG":0,"BASE":18}'
 mlink: https://www.wiproconsumerlighting.com/products/garnet/batten/wipro-next-smart-batten
 link: https://www.amazon.in/dp/B07P7JNQ56
@@ -14,4 +14,4 @@ link2:
 
 `SetOption92 1`  -  use PWM1 for brightness and PWM2 for color temperature (instead of PWM1 for Cold White and PWM2 for Warm White)
 
-![PCB](/assets/images/wipro_DS12000_pcb.jpg)
+![PCB](/assets/device_images/wipro_DS12000_pcb.webp)

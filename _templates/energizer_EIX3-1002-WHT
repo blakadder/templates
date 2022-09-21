@@ -2,7 +2,7 @@
 date_added: 2021-01-28
 title: Energizer Smart Plug
 model: EIX3-1002-WHT
-image: /assets/images/energizer_EIX3-1002-WHT.jpg
+image: /assets/device_images/energizer_EIX3-1002-WHT.webp
 template9: '{"NAME":"Energizer Smart Plug","GPIO":[0,0,0,32,0,0,0,0,0,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B081PJNB3Z
 link2: 

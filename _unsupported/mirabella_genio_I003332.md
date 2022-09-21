@@ -5,7 +5,7 @@ model: I003332
 category: unsupported
 type: Bulb
 link: https://www.woolworths.com.au/shop/productdetails/129927/mirabella-genio-wifi-dimmable-5w-led-round-bayonet-cap
-image: /assets/images/mirabella_genio_I003332.jpg
+image: /assets/device_images/mirabella_genio_I003332.webp
 link2: 
 link3: 
 flash: CBLC5

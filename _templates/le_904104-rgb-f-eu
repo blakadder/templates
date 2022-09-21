@@ -2,7 +2,7 @@
 date_added: 2020-03-12
 title: LE LampUX 5m RGB
 model: 904104-RGB-F-EU
-image: /assets/images/LE-lampUX_904104-RGB-F-EU.jpg
+image: /assets/device_images/LE-lampUX_904104-RGB-F-EU.webp
 template: '{"NAME":"LE LampUx","GPIO":[0,0,0,0,0,38,0,0,39,0,0,37,0],"FLAG":0,"BASE":34}' 
 link: https://www.amazon.de/gp/product/B07X9WFVZ7/
 link2: 

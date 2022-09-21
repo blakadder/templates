@@ -2,7 +2,7 @@
 date_added: 2020-06-17
 title: QS-WIFI-RGBCW
 model: TOR-WIFI-S04-2C
-image: /assets/images/QS-WIFI-RGBCW.jpg
+image: /assets/device_images/QS-WIFI-RGBCW.webp
 template: '{"NAME":"QS-WIFI-RGBCW","GPIO":[0,0,17,0,157,38,0,0,39,0,53,37,0],"FLAG":0,"BASE":18}' 
 link: http://www.torelectric.ro/home/1095-controler-banda-led-wifi-universal-1224v-compatibil-cu-google-home-si-amazon-alexa.html
 link2: 

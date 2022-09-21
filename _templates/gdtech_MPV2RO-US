@@ -2,7 +2,7 @@
 date_added: 2020-12-16
 title: GDTech 
 model: MPV2RO-US
-image: /assets/images/gdtech_MPV2RO-US.jpg
+image: /assets/device_images/gdtech_MPV2RO-US.webp
 template9: '{"NAME":"GDTech Model: MPV2RO-US","GPIO":[320,0,0,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07QC4MZNF
 link2: 

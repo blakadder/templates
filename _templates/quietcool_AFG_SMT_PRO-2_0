@@ -2,7 +2,7 @@
 date_added: 2021-10-11
 title: QuietCool Gable Mount Attic
 model: AFG_SMT_PRO-2.0
-image: /assets/images/quietcool_AFG_SMT_PRO-2_0.jpg
+image: /assets/device_images/quietcool_AFG_SMT_PRO-2_0.webp
 template32: '{"NAME":"QuietCool-AFG-SMT-PRO-2.0","GPIO":[0,0,0,0,0,224,0,0,0,0,0,0,0,0,640,608,0,0,0,225,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"Interlock 1|WebButton1 Low|WebButton2 High|SO8 1"}' 
 link: https://www.menards.com/main/building-materials/roofing/roof-ventilation/quietcool-pro-smart-1945-cfm-gable-mount-attic-fan/afgsmtpro-2-0/p-1841405560352137.htm
 link2: https://www.amazon.com/dp/B08CVS74K1

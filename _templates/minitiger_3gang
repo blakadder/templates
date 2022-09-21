@@ -2,7 +2,7 @@
 date_added: 2020-05-01
 title: Minitiger 3 Gang
 model: MT-Wifi-01
-image: /assets/images/minitiger_3gang.jpg
+image: /assets/device_images/minitiger_3gang.webp
 template: '{"NAME":"Minitiger3gang","GPIO":[0,0,0,9,11,10,255,255,22,21,23,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"Minitiger3Band","GPIO":[0,288,0,32,34,33,0,0,225,224,226,289,0,0],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/33029718728.html

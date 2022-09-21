@@ -2,7 +2,7 @@
 date_added: 2020-06-20
 title: MakeGood 4 Gang
 model: MG-MD04W
-image: /assets/images/makegood_MG-MD04W.jpg
+image: /assets/device_images/makegood_MG-MD04W.webp
 template: '{"NAME":"MakeGood 4 Gang","GPIO":[0,0,0,0,0,0,0,0,0,0,54,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4000378900647.html
 link2: https://makegood.en.alibaba.com/product/60752835261-816634197/MakeGood_AU_Standard_4Gang_Wifi_Wall_Switch_Support_Alexa_Google_Home_Control_SAA_Certifications_Wifi_Switches.html
@@ -24,4 +24,4 @@ Backlog TuyaMCU 11,1; TuyaMCU 12,2; TuyaMCU 13,3; TuyaMCU 14,4; TuyaMCU 33,104; 
 
 For further questions [visit GitHub discussion](https://github.com/sillyfrog/contact/issues/4)
 
-![](/assets/images/makegood_MG-MD04W-label.jpg)
+![](/assets/device_images/makegood_MG-MD04W-label.webp)

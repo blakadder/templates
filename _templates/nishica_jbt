@@ -2,7 +2,7 @@
 date_added: 2020-06-12
 title: Nishica JBT 9W 806lm
 model: 
-image: /assets/images/nishica_jbt.jpg
+image: /assets/device_images/nishica_jbt.webp
 template: '{"NAME":"Nishica","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.in/gp/product/B07KGFQTV5/
 link2: 

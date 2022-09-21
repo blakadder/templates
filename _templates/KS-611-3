@@ -5,7 +5,7 @@ category: switch
 type: Switch
 standard: eu
 link: https://www.aliexpress.com/item/4000189490312.html
-image: /assets/images/KS-611-3.jpg
+image: /assets/device_images/KS-611-3.webp
 template: '{"NAME":"KS-611 3 Gang","GPIO":[0,0,158,0,19,18,0,0,22,21,23,0,17],"FLAG":0,"BASE":18}' 
 link2: https://www.banggood.com/EU-WiFi-Switch-with-Physical-Button-Smart-Home-Automation-Wall-Light-Switch-1-or-2-or-3-Gang-Work-with-Alexa-Google-Home-p-1660583.html
 link3: https://www.amazon.com/dp/B07RKY9MRG
@@ -19,4 +19,4 @@ Requires serial flashing until Tuya-Convert manages to decrypt the latest firmwa
 
 TX,RX,GND and 3v3 are labelled on the board. You need to ground GPIO directly on the chip:
 
-![GPIO0 location](/assets/images/gpio0.jpg)
+![GPIO0 location](/assets/device_images/gpio0.webp)

@@ -2,7 +2,7 @@
 date_added: 2020-01-24
 title: Sinilink DC6-36V Module
 model: XY-WF36V
-image: /assets/images/sinilink_XY-WF36V.jpg
+image: /assets/device_images/sinilink_XY-WF36V.webp
 template: '{"NAME":"Sinilink XY-WF5V","GPIO":[0,0,0,0,21,255,0,0,17,52,0,0,255],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000111899355.html
 link2: https://www.banggood.com/XY-WF36V-WIFI-Relay-Switch-Module-IoF-Wireless-Intelligent-Control-Device-for-Smart-Home-DC-12V-24V-p-1918290.html

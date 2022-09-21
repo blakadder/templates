@@ -2,7 +2,7 @@
 date_added: 2021-03-30
 title: Arilux LC-08 RGBCCT
 model: 
-image: /assets/images/arilux_LC-08.jpg
+image: /assets/device_images/arilux_LC-08.webp
 template9: '{"NAME":"Arilux LC08","GPIO":[0,0,161,0,417,416,0,0,420,419,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005002088818748.html
 link2: 

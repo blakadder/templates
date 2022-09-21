@@ -2,7 +2,7 @@
 date_added: 2021-09-06
 title: NEO Coolcam Temperature and Humidity 3in1 Alarm
 model: NAS-AB02W
-image: /assets/images/neo_coolcam_NAS-AB02W.jpg
+image: /assets/device_images/neo_coolcam_NAS-AB02W.webp
 template9: '{"NAME":"Neo Siren 3in1","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/33042023659.html
 link2: https://www.banggood.com/NEO-WiFi-USB-Siren-Alarm-3-In-1-With-Temperature-Humidity-sensor-Work-with-Amazon-Google-Home-Assistant-Tuya-p-1808799.html
@@ -41,7 +41,7 @@ Steps:
 - Hold the TX and RX from the serial to the pads "RXD0" and "TXD0" (cross the streams)
 - Flash tasmota.bin
 
-![flash-pads](/assets/images/neo_coolcam_NAS-AB02W-flash-pads.jpg)
+![flash-pads](/assets/device_images/neo_coolcam_NAS-AB02W-flash-pads.webp)
 
 ## Functions
 - dpId 101 - power type (1 - battery high; 2 - medium; 3 - low; 4 - usb port)
@@ -117,7 +117,7 @@ rule3 on tuyareceived#dptype2id103 do publish %topic%/alarmduration %value% endo
 
 <a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/discovery-tuya_siren.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/discovery-tuya_siren.yaml)
 
-![Entities](/assets/images/neo_coolcam_NAS-AB02W_ui.jpg)
+![Entities](/assets/device_images/neo_coolcam_NAS-AB02W_ui.webp)
 
 ## configuration.yaml 
 

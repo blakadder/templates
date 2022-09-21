@@ -2,7 +2,7 @@
 date_added: 2022-04-03
 title: ESP-12F DC 5V/12V/24V 16 Channel 
 model: ESP12F_Relay_X16
-image: /assets/images/ESP12F_Relay_X16.jpg
+image: /assets/device_images/ESP12F_Relay_X16.webp
 template9: '{"NAME":"ESP12F_Relay_X16","GPIO":[1,1,1,1,1,7712,1,1,7680,7648,7744,1,1,1],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005003297328162.html
 link2: 

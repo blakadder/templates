@@ -2,7 +2,7 @@
 date_added: 2021-12-02
 title: Sinilink USB Computer Remote
 model: XY-WPCL
-image: /assets/images/sinilink_XY-WPCL.jpg
+image: /assets/device_images/sinilink_XY-WPCL.webp
 template9: '{"NAME":"XY-WPCL","GPIO":[0,0,320,0,0,224,0,32,160,0,0,0,0,0],"FLAG":0,"BASE":18, "CMND":"SO114 1 | Pulsetime 10 | SwitchMode1 2"}' 
 link: https://www.aliexpress.com/item/1005003226261034.html
 link2: https://www.banggood.com/XY-WPCL-Wireless-WIFI-PC-Remote-Switch-Controller-Computer-Remote-Switch-Controller-Wireless-WIFI-Smart-Controller-Timing-Delay-Reboot-p-1897337.html
@@ -15,7 +15,7 @@ standard: global
 
 It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter. Alternatively, you can strip some Ethernet Cat5e cable, which has the perfect diameter to fit in this board without soldering.
 
-![Pinout](/assets/images/sinilink_XY-WPCL_pinout.jpg)
+![Pinout](/assets/device_images/sinilink_XY-WPCL_pinout.webp)
 
 ## Configuration
 The Relay must we toggle from off-on-off not lock on on state, mine stayed on long time triggering the shutdown the computer again by long press 'power button', that why i added "Pulsetime 10" (it's my first time i don't known if i doing it right but works)

@@ -5,7 +5,7 @@ model: EP2
 category: plug
 type: Plug
 standard: eu
-image: /assets/images/Gosund_EP2.jpg
+image: /assets/device_images/Gosund_EP2.webp
 template: '{"NAME":"Gosund EP2","GPIO":[56,255,158,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
 link: https://www.amazon.de/dp/B085RFKVW4
 link2: https://www.banggood.com/Gosund-EP2-10A-Smart-WiFi-Plug-Mini-Electrical-Outlet-Socket-With-Timing-Function-Energy-Monitor-Alexa-Voice-Control-Device-Remote-Control-Works-With-Google-Home-And-Gosund-APP-p-1891185.html
@@ -22,7 +22,7 @@ Adding a little force with an rubber mallet or an pipe wrench on the shell could
 ### Pinouts
 This layout is for PCB marked as "P002_Wifi_V1.0"
 
-![Pinout_Diagpins](/assets/images/Gosund_EP2_pcb.jpg)
-![Pinout_Connector](/assets/images/Gosund_EP2_pcba.jpg)
+![Pinout_Diagpins](/assets/device_images/Gosund_EP2_pcb.webp)
+![Pinout_Connector](/assets/device_images/Gosund_EP2_pcba.webp)
 
 [More about disassembly](https://github.com/arendst/Tasmota/discussions/10350)

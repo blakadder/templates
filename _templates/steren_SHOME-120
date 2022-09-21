@@ -2,7 +2,7 @@
 date_added: 2021-01-18
 title: Steren 10W 800lm
 model: SHOME-120
-image: /assets/images/steren_SHOME-120.jpg
+image: /assets/device_images/steren_SHOME-120.webp
 template9: '{"NAME":"Steren_SHOME-120_RGBCCT","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com.mx/dp/B07KLMKZWW
 link2: 
