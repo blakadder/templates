@@ -1,0 +1,27 @@
+---
+date_added: 2022-09-21
+title: S2 Mini V1.0.0
+model: 5325
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/s2_mini.webp
+flash: serial
+chip: s2
+templates2: '{"NAME":"S2 Mini v1.0.0","GPIO":[32,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+mlink: https://www.wemos.cc/en/latest/s2/s2_mini.html
+link: https://www.aliexpress.com/item/1005003145192016.html
+link2: https://www.aliexpress.com/item/1005004344359250.html
+---
+
+An ESP32-S2 dev board in D1 mini form factor.
+
+When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the USB port exposes a serial connection. This can be used to easily flash new firmware.
+
+{% include flash/s2.md %}
+
+Use [Zadig](https://zadig.akeo.ie/) to install WinUSB drivers to be able to flash S2 mini.
+
+## Pinout
+
+![S2 Mini Pinout](/assets/device_images/s2_mini_pinout.webp)
