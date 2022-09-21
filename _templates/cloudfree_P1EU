@@ -3,7 +3,7 @@ date_added: 2022-03-15
 title: CloudFree EU
 model: P1EU
 image: /assets/device_images/cloudfree_P1EU.webp
-template9: '{"NAME":"CloudFree P1EU","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"CloudFree P1EU","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":18}' 
 link: https://cloudfree.shop/product/cloudfree-eu-smart-plug/ 
 link2: https://eu.cloudfree.shop/product/cloudfree-eu-smart-plug/
 mlink: 
