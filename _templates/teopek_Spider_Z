@@ -4,7 +4,7 @@ title: Teopek Spider Z RGB
 category: light
 type: LED Strip
 standard: [global]
-template: '{"NAME":"Sonoff L1","GPIO":[0,3200,0,3232,0,0,0,0,0,320,0,0,0,0],"FLAG":0,"BASE":70}' 
+template9: '{"NAME":"Sonoff L1","GPIO":[0,3200,0,3232,0,0,0,0,0,320,0,0,0,0],"FLAG":0,"BASE":70}' 
 image: /assets/device_images/teopek_Spider_Z.webp
 mlink: https://ewelinkcommunity.net/device-lists/lights/teopek-spider-z/
 link: https://www.aliexpress.com/item/32881075060.html

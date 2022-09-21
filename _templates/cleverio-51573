@@ -3,7 +3,7 @@ date_added: 2021-10-20
 title: Cleverio 400lm 5.5W
 model: 51573
 image: /assets/device_images/cleverio-51573.webp
-template9: '{"NAME":"Cleverio 51573","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18,"CMND":"SO37 30"}' 
+template: '{"NAME":"Cleverio 51573","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18,"CMND":"SO37 30"}' 
 link: https://www.kjell.com/se/produkter/smarta-hem/smarta-hem-losningar/cleverio-smarta-hem/cleverio-smart-gu10-rgb-2.0-led-lampa-400-lm-p51573
 link2: 
 mlink: 

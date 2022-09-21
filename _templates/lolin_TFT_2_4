@@ -6,7 +6,7 @@ category: diy
 type: Display
 standard: global
 image: /assets/device_images/lolin_TFT_2_4.webp
-template: '{"NAME":"Lolin TFT 2.4 Touch Shield","GPIO":[6784,224,225,226,1,992,1,1,672,704,736,5920,5888,1],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Lolin TFT 2.4 Touch Shield","GPIO":[6784,224,225,226,1,992,1,1,672,704,736,5920,5888,1],"FLAG":0,"BASE":18}' 
 template32: '{"NAME":"Lolin TFT 2.4 Touch Shield","GPIO":[224,225,226,1,1,6400,1,1,1,1,1,1,1,7264,736,672,0,1,992,704,0,1,6368,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
 mlink: https://www.wemos.cc/en/latest/d1_mini_shield/tft_2_4.html
 link: https://www.aliexpress.com/item/32919729730.html

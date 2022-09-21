@@ -12,6 +12,7 @@ chip: s3
 templates3: '{"NAME":"ESP-S3-BOX","GPIO":[0,160,0,0,6624,6592,864,896,640,1,1,1,1,1,1,0,0,0,608,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,992,0,0,1024],"FLAG":0,"BASE":1}'
 link: https://www.amazon.com/dp/B09JZ8XWCN
 link2: https://www.aliexpress.com/item/1005003562575450.html
+link3: https://www.aliexpress.com/item/1005004652246042.html
 autoconf: true
 build: tasmota32s3-lvgl
 ---
