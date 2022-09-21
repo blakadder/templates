@@ -2,7 +2,7 @@
 date_added: 2022-09-19
 title: TOMZN 1P 63A Circuit Breaker
 model: TOB8-63WiFi
-image: /assets/device_images/tomzn_TOB8-63WiFi.jpg
+image: /assets/device_images/tomzn_TOB8-63WiFi.webp
 template9: '{"NAME":"TOB8-63WiFi","GPIO":[32,0,0,3104,0,0,0,0,224,544,0,0,0,0],"FLAG":0,"BASE":43}' 
 link: https://www.aliexpress.com/item/1005004714650207.html
 link2: 
