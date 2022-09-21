@@ -2,7 +2,7 @@
 date_added: 2022-09-10
 title: GL.iNet POE Ethernet
 model: GL-S10 v1.0
-template: '{"NAME":"GL-S10 v1.0","GPIO":[32,0,0,0,0,0,0,0,321,608,288,640,0,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,544,33,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"EthType 0 | EthAddress 1 | EthClockMode 3"}' 
+template32: '{"NAME":"GL-S10 v1.0","GPIO":[32,0,0,0,0,0,0,0,321,608,288,640,0,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,544,33,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"EthType 0 | EthAddress 1 | EthClockMode 3"}' 
 image: /assets/device_images/GL-S10.webp
 flash: serial
 category: misc
