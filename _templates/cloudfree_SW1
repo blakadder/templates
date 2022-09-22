@@ -3,7 +3,7 @@ date_added: 2022-03-15
 title: CloudFree Light
 model: SW1
 image: /assets/device_images/cloudfree_SW1.webp
-template: '{"NAME":"CloudFree SW1","GPIO":[17,255,0,255,0,0,0,0,21,56,255,0,0],"FLAG":0,"BASE":1}' 
+template: '{"NAME":"CloudFree SW1","GPIO":[0,224,0,32,320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://cloudfree.shop/product/cloudfree-light-switch/
 link2: 
 mlink: 
