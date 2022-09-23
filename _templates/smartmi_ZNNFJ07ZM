@@ -1,13 +1,14 @@
+---
 date_added: 2021-05-10
 title: SmartMi Electric Air 
 model: ZNNFJ07ZM
 image: /assets/device_images/smartmi_ZNNFJ07ZM.webp
 template32: '{"NAME":"ZNNFJ07ZM","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,3200,3232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 mlink: https://www.zhimi.com/products_fanHeater/
-link: https://www.geekbuying.com/item/Smartmi-2000W-Smart-Electric-Air-Heater-PTC-Ceramic-Heating---White-426506.html
+link: https://www.amazon.de/dp/B08P64ZGJJ/
 link2: https://www.banggood.com/Smartmi-ZNNFJ07ZM-Electric-Heater-Wireless-Remote-Control-2-Modes-4-Gear-Appointment-Timing-2000W-Low-Noise-Mijia-APP-for-Home-Office-p-1613608.html
-link3: https://www.aliexpress.com/item/1005001840677557.html
-link4: 
+link3: https://www.aliexpress.com/item/1005004561022258.html
+link4: https://www.geekmaxi.com/en/heaters-smartmi-electric-air-heater-ptc-ceramic-heating-warmer-fan-cn-plug-1317.html
 flash: serial
 category: misc
 type: Heater
@@ -30,59 +31,64 @@ Connect the serial-to-USB adapter to TX, RX, GND and 3V3. Make sure to ground BO
 After applying the template run a set of commands to configure the serial port:
 
 ```console
-Backlog SerialSend1 00; SerialBuffer 512; Rule0 1, TelePeriod 30
+Backlog SBaudRate 115200; SerialDelimiter 13; SerialBuffer 512; Rule1 1; Rule2 5;
 ```
+
 Next you need a set of rules that will sent necessary replies to MCU queries:
+
 ```console
-rule1 on serialreceived#data$<result do serialsend3 down MIIO_net_change cloud\r endon on serialreceived#data$<model do serialsend3 ok\r endon on serialreceived#data$<mcu_version do serialsend3 ok\r endon on serialreceived#data$<net do serialsend3 cloud\r endon on serialreceived#data$<time do serialsend3 %time%\r endon on serialreceived#data$<ble_config do serialsend3 ok\r endon on tele-wifi#rssi do serialsend3 down MIIO_net_change local\r endon
+rule1 on sserialreceived#data$<result do sserialsend3 down MIIO_net_change cloud\r endon on sserialreceived#data$<model do sserialsend3 ok\r endon on sserialreceived#data$<mcu_version do sserialsend3 ok\r endon on sserialreceived#data$<net do sserialsend3 cloud\r endon on sserialreceived#data$<time do sserialsend3 %time%\r endon on sserialreceived#data$<ble_config do sserialsend3 ok\r endon on tele-wifi#rssi do sserialsend3 down MIIO_net_change local\r endon on system#boot do serialbuffer 512 endon
 ```
 
 ## Features
 
-This heater is a part of Xiaomi's MiOT ecosystem which uses a standardised MiOT protocol for communication with the MCU and Xiaomi cloud. More about the protocol [here](https://iot.mi.com/new/doc/embedded-development/wifi/module-dev/serial-communication). You can safely ignore the MCU query posted every 500ms `tele/smartmi/RESULT = {"SerialReceived":"get_down \r"}`
+This heater is a part of Xiaomi's MiOT ecosystem which uses a standardised MiOT protocol for communication with the MCU and Xiaomi cloud. More about the protocol [here](https://blakadder.github.io/miot/). You can ignore the MCU query posted every 500ms `tele/smartmi/RESULT = {"SSerialReceived":"get_down \r"}`
 
-To control the device you send a `down set_properties` command using `SerialSend3`. `siid` and `piid` target the feature you want with `value`. Finally every command line needs to end with a carriage return or `\r`. 
+To control the device you send a `down set_properties` command using `SSerialSend3`. `siid` and `piid` target the feature you want with `value`. Finally every command line needs to end with a carriage return or `\r`.
 
-The list is formatted as: `siid piid` - possible values - description 
-
-* `2 2` - true/false - Switch status 
-* `2 3` - 1/2 - Heat level (1 = high, 2 = low) 
-* `2 4` - 0/1 - Fan mode (0 - not swinging, 1 - swinging) 
-* `3 1` - true/false - Beeper sound 
-* `4 1` - 0/1/2/4/8 - Countdown timer in hours
-* `6 1` - 0/1/2 - LED brightness (0 - bright, 1 - low, 2 - off)
-* `7 1` - true/false - Child lock
-* `8 1` - 0/15/1 - Button click (notify only)
-* `8 3` - true/false - Return fan to middle position when turning off
+|`siid piid` | possible values | description
+| ----- | --- | ---
+| `2 2` | true/false | Switch status
+| `2 3` | 1/2 | Heat level (1 = high, 2 = low)
+| `2 4` | 0/1 | Fan mode (0 | not swinging, 1 | swinging)
+| `3 1` | true/false | Beeper sound 
+| `4 1` | 0/1/2/4/8 | Countdown timer in hours
+| `6 1` | 0/1/2 | LED brightness (0 | bright, 1 | low, 2 | off)
+| `7 1` | true/false | Child lock
+| `8 1` | 0/15/1 | Button click (notify only)
+| `8 3` | true/false | Return fan to middle position when turning off
 
 For example, to turn the heater on send
+
 ```console
-serialsend3 down set_properties 2 2 true\r
+sserialsend3 down set_properties 2 2 true\r
 ```
+
 or change LED brightness to low
+
 ```console
-serialsend3 down set_properties 6 1 1\r
+sserialsend3 down set_properties 6 1 1\r
 ```
 
 If a property has changed from previous state it will report as:
 
-{"SerialReceived":"properties_changed 6 1 1\r"}
+{"SSSerialReceived":"properties_changed 6 1 1\r"}
 
-Rule1 has some actions to ensure status updates are polled periodically which are reported to 
+Rule1 has some actions to ensure status updates are polled periodically which are reported to
 
-{"SerialReceived":"properties_changed 2 2 true 2 1 0 2 3 2 2 4 0 8 1 0 3 1 false 4 1 0 6 1 0 7 1 false 8 3 true\r"}
+{"SSerialReceived":"properties_changed 2 2 true 2 1 0 2 3 2 2 4 0 8 1 0 3 1 false 4 1 0 6 1 0 7 1 false 8 3 true\r"}
 
 To read the status of all functions and status changes we need to parse it manually. It is possible to program full support for this device with [Berry](https://tasmota.github.io/docs/Berry) but I opted to forward the status to MQTT and parse it outside (in my case: Home Assistant).
 
 ```console
-rule2 on serialreceived#data$<properties_changed do publish %topic%/changed_properties %value% endon
+rule2 on sserialreceived#data$<properties_changed do publish %topic%/changed_properties %value% endon
 ```
 
 [Full MiOT spec](https://gist.github.com/blakadder/3c5a2474487cef7dcda94b9c8308f1f8) in formatted JSON grabbed from [miot-spec.org](https://miot-spec.org/miot-spec-v2/instance?type=urn:miot-spec-v2:device:heater:0000A01A:zhimi-na1:1).
 
 ## Home Assistant
 
-First create this automation which will reformat the MiOT output into a nice JSON MQTT message to `%topic%/properties`:
+First create this automation which will reformat the MiOT output into a JSON MQTT message to `%topic%/properties`:
 
 <a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/tasmota/blueprints/blob/main/miot-multiplexer.yaml" title="Import Blueprint"><img loading="lazy" src="/assets/blueprint_import.svg"></a> &emsp; [GitHub Link](https://github.com/tasmota/blueprints/blob/main/miot-multiplexer.yaml)
 

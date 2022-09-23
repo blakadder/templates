@@ -1,8 +1,8 @@
 ---
 date_added: 2022-09-10
-title: GL.iNet POE Ethernet 
-model: GL-S10
-template: '{"NAME":"GL-S10","GPIO":[32,0,0,0,0,0,0,0,321,608,288,640,0,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,544,33,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"EthType 0 | EthAddress 1 | EthClockMode 3"}' 
+title: GL.iNet POE Ethernet
+model: GL-S10 v1.0
+template32: '{"NAME":"GL-S10 v1.0","GPIO":[32,0,0,0,0,0,0,0,321,608,288,640,0,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,544,33,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"EthType 0 | EthAddress 1 | EthClockMode 3"}' 
 image: /assets/device_images/GL-S10.webp
 flash: serial
 category: misc
@@ -11,7 +11,10 @@ standard: global
 mlink: https://www.gl-inet.com/products/gl-s10/
 link: https://www.aliexpress.com/item/1005003988512830.html
 link2: https://store.gl-inet.com/collections/iot-gateway/products/gl-s10-bluetooth-iot-gateway
+link3: https://www.alibaba.com/product-detail/GL-inet-GL-S10-smart-home_1600489103141.html
 ---
+## WARNING!
+New versions marked V2.1 come with an unsupported Ethernet chip IP101GRI and cannot use this configuration
 
 ## Flashing
 

@@ -4,8 +4,12 @@
         {{ template.type | replace: "Miscellaneous", "" }}        
         {% if template.category contains 'bulb'%}
         Bulb
+        {% endif %}
+        </a>
+        {% if template.flash == "replace" %}
+        - DIY Replacement
         {% endif %}        
-        </a></b>
+        </b>
     </td>
     <td style="width: 15%">
     {{ template.model }}        

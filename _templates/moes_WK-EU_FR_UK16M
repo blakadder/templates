@@ -2,7 +2,7 @@
 date_added: 2022-09-04
 title: Moes 16A
 model: WK-EU(FR/UK)16M
-template: '{"NAME":"WK-EU(FR/UK)16M","GPIO":[0,288,0,32,2720,2656,0,0,2624,224,0,0,0,0],"FLAG":0,"BASE":18}'
+template9: '{"NAME":"WK-EU(FR/UK)16M","GPIO":[0,288,0,32,2720,2656,0,0,2624,224,0,0,0,0],"FLAG":0,"BASE":18}'
 image: /assets/device_images/moes_WK-EU_FR_UK16M.webp
 link: https://s.click.aliexpress.com/e/_ABwien
 link2: 

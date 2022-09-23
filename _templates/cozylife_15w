@@ -1,0 +1,27 @@
+---
+date_added: 2022-09-18
+title: Cozylife 15W 1050lm 
+model: XLD-W60-2.2
+image: /assets/device_images/cozylife_15w.webp
+templatec3: '{"NAME":"Cozylife 15W","GPIO":[0,0,0,0,0,0,416,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005003960701182.html
+link2: 
+mlink: 
+flash: replace
+category: bulb
+type: CCT
+standard: e27
+chip: DT-BL200
+---
+
+## Disassembly
+
+Remove the plastic dome. Scrape off the white glue substance. Lift the LED PCB and disconnect it from the headers. From the bottom of the bulb pry out the metal screw on on the green base. 
+
+![Take the screw out](/assets/device_images/cozylife_15w_screw.webp)
+
+Grab the E27 metal base with pliers and twist until released. Now you can take the PCB out to desolder the DT-BL200 module and replace it with a compatible module.
+
+In this photo it is replaced with [DT-ESP-C05](DT-ESP-C05).
+
+![Replaced board](/assets/device_images/cozylife_15w_replaced.webp)

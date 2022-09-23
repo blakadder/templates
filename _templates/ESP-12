@@ -18,6 +18,8 @@ footprint: esp12
 
 ESP-12 is the most common Wi-Fi module format nowadays. The same footprint is used by Tuya ([TYWE3S](https://developer.tuya.com/en/docs/iot/wifie3smodule?id=K9605ua1cx9tv), [WB3S](https://developer.tuya.com/en/docs/iot/wb3s-module-datasheet?id=K9dx20n6hz5n4), [CB3S](https://developer.tuya.com/en/docs/iot/cb3s?id=Kai94mec0s076), etc) and other manufacturers which are not using Espressif chips. Because of that a simple module swap is the most straightforward way to install Tasmota on such devices.
 
+Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compatible module.
+
 ESP-12S and ESP-12L modules have those pins already pulled internally. It is recommended to choose this version for easier installation.
 
 ESP-12E and ESP-12F modules need the GPIO15 pulled low and CH_PD or EN pin pulled high to boot.

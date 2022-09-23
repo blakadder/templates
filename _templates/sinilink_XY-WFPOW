@@ -3,7 +3,7 @@ date_added: 2021-07-03
 title: Sinilink MODBUS Interface
 model: XY-WFPOW
 image: /assets/device_images/sinilink_XY-WFPOW.webp
-template9: '{"NAME":"XY-WFPOW","GPIO":[0,1,0,1,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"XY-WFPOW","GPIO":[0,8768,544,8800,32,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005002417257621.html
 link2: https://www.banggood.com/XY-KPOW-Sinilink-WIFI-Module-Mobile-Phone-APP-Smart-Home-Remote-Controller-By-Power-System-To-Control-Power-Module-For-DC-DC-p-1781268.html
 mlink: 
@@ -12,6 +12,8 @@ category: diy
 type: Module
 standard: global
 ---
+In order to add MODBUS functionality you will need to compile your own Tasmota build with USE_MODBUS_BRIDGE enabled (maybe USE_MODBUS_BRIDGE_TCP as well, depending on your needs) 
+
 It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter. Alternatively, you can strip some Ethernet Cat5e cable, which has the perfect diameter to fit in this board without soldering.
 
 
