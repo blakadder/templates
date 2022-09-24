@@ -7,6 +7,7 @@ type: LED Controller
 standard: global
 link: https://www.aliexpress.com/item/1005003403109561.html
 image: /assets/device_images/miboxer_FUT035W.webp
+templatec: '{"NAME":"FUT035W","GPIO":[0,2304,0,2272,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"DimmerRange 0,1000 | TuyaMCU 11,20 | TuyaMCU 21,22 | TuyaMCU 23,23 | TuyaMCU 98,101"}'
 templatec3: '{"NAME":"FUT035W","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":54,"CMND":"DimmerRange 0,1000 | TuyaMCU 11,20 | TuyaMCU 21,22 | TuyaMCU 23,23 | TuyaMCU 98,101"}'
 flash: replace
 chip: WBR3
