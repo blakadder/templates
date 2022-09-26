@@ -10,6 +10,10 @@ link: https://www.costco.ca/CE-Smart-Home-Wi-Fi-Power-Strip-with-Surge-Protectio
 image: https://www.cesmarthome.com/assets/img/product_images/LTS-6A-W5/LTS-6A-W5_1.jpg
 template: '{"NAME":"CE Power Strip","GPIO":[52,0,0,0,22,21,0,0,24,23,25,26,17],"FLAG":0,"BASE":18}' 
 link2: 
+
+To have your plugs in order, starting left to right (cable end being outlet 1), use this template.
+{"NAME":"CE Power Strip","GPIO":[288,0,0,0,227,228,0,0,225,226,224,0,32,0],"FLAG":0,"BASE":18}
+
 ---
 
 
