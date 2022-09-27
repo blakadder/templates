@@ -15,6 +15,7 @@ category: plug
 type: Plug
 standard: uk
 ---
+- 27-Sep-2022: Box of 4 bought from eBay.co.uk, tuya-convert failed with firmware too new. 
 - 12-Sep-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
 - 10-Sep-2022: Box of 4 bought from uk.gosund.com and flashed successfully with tuya-convert.  
 - 28-Aug-2022: 2 x Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
