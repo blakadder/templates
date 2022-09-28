@@ -1,0 +1,19 @@
+---
+date_added: 2022-09-25
+title: RocketController ASTRA Controller
+model: R4A4
+image: /assets/device_images/rocket_R4A4.webp
+template32: '{"NAME":"ASTRA R4A4","GPIO":[1,1,1,1,576,1,1,1,480,1,1,1,3232,3200,1,1,0,640,608,1,0,224,225,1152,0,0,0,0,227,226,160,161,162,0,0,163],"FLAG":0,"BASE":1}' 
+link: https://rocketcontroller.com/product-category/controllers/
+link2: 
+mlink: https://rocketcontroller.com/
+flash: preflashed
+category: relay
+type: DIN Relay
+standard: global
+---
+RocketController ASTRA R4A4 exist in 3 flavors depending on
+- Power supply : 90-240VAC and/or 7-36VDC
+- Type of input : AC, dry contact, GPIOs
+
+The template has been read from the device as it comes pre-flashed with Tasmota and is listed here for reference or recovery

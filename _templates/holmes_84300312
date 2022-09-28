@@ -1,0 +1,76 @@
+---
+date_added: 2022-09-23
+title: Holmes 36" Oscillating Tower
+model: 84300312
+image: /assets/device_images/holmes_84300312.webp
+template9: '{"NAME":"Generic","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":54,"CMND":"TuyaMcu 11,1 | TuyaMcu 12,5 | WebButton1 Power | WebButton2 Oscillation "}' 
+link: https://www.target.com/p/holmes-36-34-smart-tower-oscillating-fan-black/-/A-84300312
+link2: 
+mlink: https://www.holmesproducts.com/
+flash: replace
+category: misc
+type: Fan
+standard: us
+chip: WBR3
+---
+
+It has a WBR3 Chip not compatible with Tasmota, but there is also no need to transplant the chip, it's very easy to replace it by just unplugging the little board and plug your ESP board instead with Dupont jumper wires!
+
+## STEPS
+Have a Wemos D1 Mini (or similar) preflashed with Tasmota ready.
+
+Take off the 5 screws with a regular Philips screw driver, press along the sim and the fan should come apart **(FAN NEEDS TO BE UNPLUGED FROM THE MAIN POWER!).**
+
+Under the top control panel there is a PCB board with a WBR3 chip on it and a UART port which you need to unplug.  Connect the unplugged port to your Wemos D1 Mini with Dupont jumpers or other means. 
+
+**(ATENTION: the port supplies 5 VDC)**, so connect **V** from the fan to **5V** of the ESP, **G** to **G**, **T** to **Tx** and **R** to **Rx**.
+
+In Tasmota => Configuration => Configure Module select **Tuya MCU (54)**. 
+
+In Tasmota=>Console put in:
+```console
+Backlog TuyaMcu 11,1; TuyaMcu 12,5; WebButton1 Power; WebButton2 Oscillation
+```
+
+After that in the Main Menu you should be able to control the Power and Oscillation.
+
+### All functions command mapping:
+
+#### POWER
+	ON	'TuyaSend1 1,1'
+	OFF	'TuyaSend1 1,0'
+
+#### OSCILATOR
+	ON	'TuyaSend1 5,1'
+	OFF	'TuyaSend1 5,0'
+
+#### MODE
+	NONE	'TuyaSend4 2,0'
+	BREEZE	'TuyaSend4 2,1'
+	SLEEP	'TuyaSend4 2,2'
+
+#### SPEED
+	OFF	'TuyaSend2 3,0'
+	S1	'TuyaSend2 3,1'
+	S2	'TuyaSend2 3,2'
+	S3	'TuyaSend2 3,3'
+
+#### TIMER
+	OFF	'TuyaSend4 22,0'
+	1H	'TuyaSend4 22,1'
+	2H	'TuyaSend4 22,2'
+	3H	'TuyaSend4 22,3'
+	4H	'TuyaSend4 22,4'
+	5H	'TuyaSend4 22,5'
+	6H	'TuyaSend4 22,6'
+	7H	'TuyaSend4 22,7'
+	8H	'TuyaSend4 22,8'
+	9H	'TuyaSend4 22,9'
+	10H	'TuyaSend4 22,10'
+	11H	'TuyaSend4 22,11'
+	12H	'TuyaSend4 22,12'
+	13H	'TuyaSend4 22,13'
+	14H	'TuyaSend4 22,14'
+	15H	'TuyaSend4 22,15'
+
+Assemble the fan back and enjoy!
