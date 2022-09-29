@@ -33,5 +33,5 @@ The internal temperature sensor on PCB v0.1.9 was desoldered and measured to be 
 
 ![](/assets/device_images/shelly_plus_1_pinout.webp)
 Pin-Layout on the image is for shelly plus 1PM, credit goes to Kalin Dimitrov.
-The pin ports on this board can handle dupont cables if done carefully, and will probably crumble shortly thereafter. 
+The pin ports on this board can handle Dupont cables if done carefully, and will probably crumble shortly thereafter.
 The other surface connectors seem unusually weakly connected to the PCB, and you may destroy them while using them.
