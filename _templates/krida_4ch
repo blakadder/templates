@@ -10,5 +10,5 @@ mlink:
 flash: preflashed
 category: relay
 type: Relay Board
-standard: eu, uk, global
+standard: global
 ---
