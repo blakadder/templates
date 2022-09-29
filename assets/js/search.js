@@ -12,6 +12,9 @@
 		var searchStore = lunr(function () {
 			var self = this
 
+			self.pipeline.remove(lunr.stemmer);
+			self.searchPipeline.remove(lunr.stemmer);
+
 			self.field('id');
 			self.field('title');
 			self.field('model');
