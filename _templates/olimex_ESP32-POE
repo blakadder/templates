@@ -11,5 +11,3 @@ mlink: https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware
 link: https://www.amazon.com/dp/B07R1ZMSG7/
 link2: 
 ---
-
-To use this device, you have to compile Tasmota with Ethernet enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.
