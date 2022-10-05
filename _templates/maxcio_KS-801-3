@@ -1,8 +1,8 @@
 ---
 date_added: 2022-09-30
-title: IT Wall 3 Gang Light
+title: Maxcio IT Wall 3 Gang Light
 model: KS-801
-image: /assets/device_images/KS-801-3.webp
+image: /assets/device_images/maxcio_KS-801-3.webp
 template9: '{"NAME":"Maxcio 3 Gang Switch","GPIO":[544,0,0,0,32,33,0,0,225,226,224,0,34,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.it/gp/product/B07VQZ2CJY/
 link2: 
