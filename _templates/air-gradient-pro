@@ -1,15 +1,15 @@
 ---
 date_added: 2022-10-04
-title: AirGradient Pro
-model: AirGradient DIY Pro
-image: /assets/device_images/air_gradient_pro.jpg
+title: AirGradient Pro Version DIY
+model: 
+image: /assets/device_images/air_gradient_pro.webp
 template9: '{"NAME":"AirGradient Pro","GPIO":[1600,1,1632,0,640,608,1,1,1664,1,1696,1,1,1],"FLAG":0,"BASE":18}' 
 link: https://www.airgradient.com/open-airgradient/kits/
 link2: 
 mlink: https://www.airgradient.com/
 flash: serial
 category: sensor
-type: Air Quality Monitor
+type: Air Quality Sensor
 standard: uk
 ---
 
@@ -19,7 +19,7 @@ This is a DIY air quality monitor avaiable as a kit with a custom PCB and case f
 
 Flashing is simple as the kit comes with a standard Wemos D1 Mini with a USB header.
 
-Even so, since the device contains _both_ sensors _and_ an OLED display, it requires a custom build of Tasmota with boths sets of drivers. The simplest way is to use the [Tasmosta Special Firmware Web Installer](https://jason2866.github.io/Tasmota-specials/) to install **Tasmota Platinum**. Note: the chip has 4MB of flash, so can handle these larger firmware builds.
+Even so, since the device contains _both_ sensors _and_ an OLED display, it requires a custom build of Tasmota with both sets of drivers. The simplest way is to use the [Tasmota Special Firmware Web Installer](https://jason2866.github.io/Tasmota-specials/) to install **Tasmota Platinum**. Note: the chip has 4MB of flash, so can handle these larger firmware builds.
 
 With the chip flashed, and the template applied, you should see all the relevant sensor readings in the Tasmota web UI. The only thing left is configuring the display, with the following commands:
 
@@ -29,7 +29,7 @@ backlog displaymodel 7; displayrotate 2; displayrows 8; displaymode 3; webbutton
 
 You should now see the sensor readings scrolling on the display.
 
-Note: For whatever reason, the display defaults to being switched off whenever Tasmosta boots, and commands like `poweretain` and `poweronstate` don't seem to affect it. So I added a rule to do so:
+Note: For whatever reason, the display defaults to being switched off whenever Tasmota boots, and commands like `poweretain` and `poweronstate` don't seem to affect it. So I added a rule to do so:
 
 ```console
 backlog rule1 ON System#Boot DO power on ENDON ON; rule1 on
