@@ -18,4 +18,6 @@ How to flash [ESP-01(S)](ESP01)
 ![](https://user-images.githubusercontent.com/5904370/72450064-fb21df80-37b9-11ea-861f-9b5ede7ca374.png)
 
 Alternative config (normally open):
-template: '{"NAME":"ESP-01S Relay","GPIO":[224,288,1,1,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}'
+```json
+'{"NAME":"ESP-01S Relay","GPIO":[224,288,1,1,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}'
+```
