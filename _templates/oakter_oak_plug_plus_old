@@ -1,0 +1,15 @@
+---
+date_added: 2022-10-11
+title: Oakter OakPlug Plus (old)
+model: 
+image: /assets/device_images/oakter_oak_plug_plus_old.webp
+template9: '{"NAME":"Oakter OakPlug Plus (old)","GPIO":[0,0,0,0,224,0,0,0,0,320,0,0,544,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.in/dp/B07QKV8QML
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: in
+---
+PCB Labels are confusing. Safest way is to solder dupont cable on FLASH and VCC. Other pins are manageable to just insert the dupont cables.

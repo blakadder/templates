@@ -1,0 +1,16 @@
+---
+date_added: 2022-10-07
+title: Sygonix SY-4416210
+model: SY-RS-201
+image: /assets/device_images/sygonix_SY-4416210.webp
+template9: '{"NAME":"Sygonix_sy_rs_201","GPIO":[0,0,0,0,0,0,0,0,0,288,224,0,32,0],"FLAG":0,"BASE":18}' 
+link: https://www.conrad.at/de/p/sygonix-sy-4416210-wi-fi-steckdose-innenbereich-3680-w-2208105.html
+link2: https://www.amazon.de/dp/B08BTPCGQ3/
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/202114812_-sy-4416210-sygonix.html
+mlink: https://www.sygonix.de
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+requires triangular bit to unscrew case, Torx 6 works also; be careful when unscrewing daughter-board, wires are short

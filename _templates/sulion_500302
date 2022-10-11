@@ -1,0 +1,17 @@
+---
+date_added: 2022-10-05
+title: Sulion Swan A70 14W 1200lm
+model: 500302
+image: /assets/device_images/sulion_500302.webp
+template9: '{"NAME":"Sulion Bombilla A70","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.alumbradoled.es/bombilla-led-iot-swan-e27-a70-13w-de-sulion
+link2: 
+mlink: https://sulion.es/es/productos/500302-swan
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---
+This light uses PWM4 for brightness and PWM5 for color temperature (instead of PWM4 for Cold White and PWM5 for Warm White).
+
+For this light, use SetOption92 1 (supported since v.8.2.0.5)
