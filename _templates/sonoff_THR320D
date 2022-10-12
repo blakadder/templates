@@ -23,7 +23,7 @@ Follow the [GitHub issue thread](https://github.com/arendst/Tasmota/issues/15856
 
 Sensor are connected with a standard phone plug, search for 4P4C, RJ9, RJ10, or RJ22. You can use an [adapter](https://itead.cc/product/al010-2-5mm-audio-jack-to-rj11-adapter/ref/34/) to connect old sensors with an audio jack.
 
-![4P4C RJ9/RJ10/RJ22](/assets/4p4c_plug.webp)
+![4P4C RJ9/RJ10/RJ22](/assets/4p4c_plug.jpg)
 
 |4P4C RJ9/RJ10/RJ22 | ESP 
 |---|---|---|
