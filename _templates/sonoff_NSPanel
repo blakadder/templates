@@ -27,7 +27,7 @@ The five needed pins (3V3, RX, TX, GPIO0 and GND) can be easily identified.
 
 ![Pins](/assets/device_images/sonoff_NSpanel_pinout.webp)
 
-Download and flash a custom built [`tasmota32-nspanel.bin`](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32-nspanel.bin) or install using [Tasmota Web Installer](http://tasmota.github.io/install).
+Download and flash [`tasmota32-nspanel.bin`](http://ota.tasmota.com/tasmota32/release/tasmota32-nspanel.bin) or install using [Tasmota Web Installer](http://tasmota.github.io/install).
 
 ***If using standard Tasmota32 builds:*** Current implementation of serial in Arduino core has a bug which can boot loop the device on soft reset. Power cycling the device solves the issue. PSRAM is also not supported.
 
