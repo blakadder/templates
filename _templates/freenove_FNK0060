@@ -8,7 +8,7 @@ link: https://www.amazon.com/dp/B09BC5CNHM
 link2: 
 mlink: https://www.alibaba.com/product-detail/Freenove-ESP32-WROVER-Board-with-Camera_1600294762550.html
 flash: serial
-tasmota32-webcam.bin
+build: tasmota32-webcam.bin
 category: diy
 type: Camera
 standard: global

@@ -11,5 +11,5 @@ flash: serial
 category: diy
 type: Camera
 standard: global
-tasmota32-webcam.bin
+build: tasmota32-webcam.bin
 ---
