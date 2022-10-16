@@ -5,7 +5,7 @@ model: WT32C3-S5
 category: diy
 type: Module
 standard: global
-image: /assets/images/wireless_tag_WT32C3-S5.jpg
+image: /assets/device_images/wireless_tag_WT32C3-S5.webp
 templatec3: 'Module 1'
 chip: c3
 footprint: esp12
@@ -13,6 +13,7 @@ mlink: http://www.wireless-tag.cn/portfolio/wt32c3-s5/
 link2: https://www.alibaba.com/product-detail/Original-factory-WT32C3-S5-ESP32-wifi_1600283557637.html
 link: https://www.aliexpress.com/item/1005002973734309.html
 ---
+Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compatible module.
 
 Wire the module accordingly:
 
@@ -20,7 +21,7 @@ Wire the module accordingly:
 
 {% include flash/c3.md %}
 
-![Solderless wiring]( /assets/images/wireless_tag_WT32C3-S5_wired.jpg)
+![Solderless wiring]( image: /assets/device_images/wireless_tag_WT32C3-S5_wired.webp)
 
 You can do it without any soldering. Just apply pressure to make good contact between the Dupont wires and pin holes.
 

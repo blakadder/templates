@@ -2,7 +2,7 @@
 date_added: 2020-02-06
 title: Globe ST19 Edison 500lm
 model: 34919
-image: /assets/images/globe_34919.jpg
+image: /assets/device_images/globe_34919.webp
 template: '{"NAME":"Globe 34919","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B081472HZY
 link2: 

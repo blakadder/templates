@@ -5,7 +5,7 @@ model: HW-622
 category: relay
 type: Relay Board
 standard: global
-image: /assets/images/yunshan_HW-622.jpg
+image: /assets/device_images/yunshan_HW-622.webp
 template: '{"NAME":"Yunshan 10A","GPIO":[17,255,52,255,21,10,0,0,22,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07DMZMZVK/
 link2: https://www.amazon.de/dp/B07N97DQSR/

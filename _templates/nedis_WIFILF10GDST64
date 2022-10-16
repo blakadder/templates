@@ -2,7 +2,7 @@
 date_added: 2020-11-22
 title: Nedis ST64 5W 500lm Filament 
 model: WIFILF10GDST64
-image: /assets/images/nedis_WIFILF10GDST64.jpg
+image: /assets/device_images/nedis_WIFILF10GDST64.webp
 template: '{"NAME":"WIFILF10GDST64","GPIO":[0,0,0,0,0,0,0,0,0,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/dp/B07KZHWFKT/
 link2: https://www.alza.de/nedis-wifilf10gdst64-d5778008.htm

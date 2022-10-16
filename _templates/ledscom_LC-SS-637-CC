@@ -2,7 +2,7 @@
 date_added: 2020-03-03
 title: ledscom.de 4.5W 430lm
 model: LC-SS-637-CC
-image: /assets/images/ledscom_LC-SS-637-CC.jpg
+image: /assets/device_images/ledscom_LC-SS-637-CC.webp
 template: '{"NAME":"GX53","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":0}' 
 link: https://www.amazon.co.uk/dp/B07ZFXYR1W/
 link2: 

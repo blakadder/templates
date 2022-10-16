@@ -6,8 +6,8 @@ category: relay
 type: Fan Controller
 standard: eu
 flash: serial
-template9: '{"NAME":"iFan04-H","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
-image: /assets/images/sonoff_iFan04-H.jpg
+template: '{"NAME":"iFan04-H","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
+image: /assets/device_images/sonoff_iFan04-H.webp
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/ifan03
 link: https://itead.cc/product/sonoff-ifan03-wi-fi-ceiling-fan-and-light-controller/
 link2: https://www.aliexpress.com/item/1005002994993238.html

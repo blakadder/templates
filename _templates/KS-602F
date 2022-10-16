@@ -2,7 +2,7 @@
 date_added: 2021-12-01
 title: 3 Way Smart Light
 model: KS-602F
-image: /assets/images/KS-602F.jpg
+image: /assets/device_images/KS-602F.webp
 template9: '{"NAME":"KS-602F","GPIO":[255,255,255,255,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com/dp/B07964FGM2
 link: https://www.amazon.ca/gp/product/B085ZYWF86/

@@ -2,7 +2,7 @@
 date_added: 2020-12-13
 title: Szshining
 model: SP10 
-image: /assets/images/szshining_SP10.jpg
+image: /assets/device_images/szshining_SP10.webp
 template9: '{"NAME":"Szshining ITSP10-2","GPIO":[0,225,0,32,2720,2656,0,0,2624,0,224,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: http://www.szshining.com/index.asp

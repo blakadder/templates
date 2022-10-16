@@ -2,8 +2,8 @@
 date_added: 2022-08-13
 title: LuatOS ESP32-C3
 model: CORE-ESP32
-image: /assets/images/luatos_CORE-ESP32.jpg
-templatec3: '{"NAME":"LuatosC3","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,544,416,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
+image: /assets/device_images/luatos_CORE-ESP32.webp
+templatec3: '{"NAME":"Luatos CORE-ESP32","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,544,416,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005004547522408.html
 link2: https://www.aliexpress.com/item/1005004428915044.html
 mlink: https://wiki.luatos.com/chips/esp32c3/board.html
@@ -16,6 +16,6 @@ chip: c3
 
 The classic model (the version with TTL serial port to USB) uses a CH343 driver to connect via USB. [Download CH343 driver](http://www.wch.cn/downloads/CH343SER_EXE.html).
 
-![Pinout](/assets/images/luatos_CORE-ESP32_pinout.jpg)
+![Pinout](/assets/device_images/luatos_CORE-ESP32_pinout.webp)
 
 {% include flash/c3.md %}

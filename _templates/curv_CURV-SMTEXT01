@@ -2,7 +2,7 @@
 date_added: 2021-01-31
 title: Curv 4 Plug
 model: CURV-SMTEXT01
-image: /assets/images/curv_CURV-SMTEXT01.jpg
+image: /assets/device_images/curv_CURV-SMTEXT01.webp
 template9: '{"NAME":"CURV","GPIO":[0,32,0,228,0,0,1,1,227,225,226,224,0,1],"FLAG":0,"BASE":18}' 
 link: https://www.curv360.com/product/smart-4-plug-extension-lead/
 link2: 

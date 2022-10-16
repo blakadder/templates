@@ -2,8 +2,8 @@
 date_added: 2022-07-04
 title: Unlocked Automation 15A
 model: MK100
-image: /assets/images/unlocked_automation_MK100.jpg
-template9: '{"NAME":"UA 100","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":15,"BASE":18}' 
+image: /assets/device_images/unlocked_automation_MK100.webp
+template: '{"NAME":"UA 100","GPIO":[0,0,0,0,56,57,0,0,21,17,0,0,0],"FLAG":15,"BASE":18}' 
 link: https://www.amazon.com/dp/B08N9N4D7P/
 mlink: https://unlockedautomation.com/
 flash: preflashed

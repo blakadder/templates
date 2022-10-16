@@ -1,12 +1,12 @@
 ---
 date_added: 2020-03-06
 title: Sonoff D1
-modeL: SONOFFD1
+model: SONOFFD1
 category: relay
 type: Dimmer Module
 standard: global
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/d1-smart-dimmer-switch
-image: /assets/images/sonoff_D1.jpg
+image: /assets/device_images/sonoff_D1.webp
 template: '{"NAME":"Sonoff D1","GPIO":[255,148,0,149,0,0,0,0,0,56,0,0,0],"FLAG":0,"BASE":74}' 
 link: https://itead.cc/product/sonoff-d1-smart-dimmer-switch/
 link2: https://www.banggood.com/SONOFF-D1-Smart-Dimmer-Switch-Work-with-Alexa-Google-Home-p-1613319.html

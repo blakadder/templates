@@ -2,7 +2,7 @@
 date_added: 2020-06-21
 title: Lenovo Rechargable PIR Motion
 model: ZG38C02927
-image: /assets/images/lenovo_ZG38C02927.jpg
+image: /assets/device_images/lenovo_ZG38C02927.webp
 template: '{"NAME":"Lenovo PIR","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4001022480011.html
 link2: https://www.jbhifi.com.au/products/lenovo-smart-motion-sensor
@@ -25,7 +25,7 @@ To have best results with this type of device I strongly recommend compiling a s
 
 Flash using the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) pins but make sure the battery is disconnected and the power button is in the off position. After flashing you need to disconnect power from the serial-to-USB adapter and reconnect the battery and power the sensor with it.
 
-![](/assets/images/lenovo_ZG38C02927_soldering.jpg)
+![](/assets/device_images/lenovo_ZG38C02927_soldering.webp)
 
 yellow = TXD, blue = RXD, black = GND, orange = Vcc 3.3V. Remeber to connect GPIO0 (3 above GND) to GND while powering up the chip!
 

@@ -2,7 +2,7 @@
 date_added: 2022-01-10
 title: Arlec Socket With USB
 model: PC192HA
-image: /assets/images/arlec_PC192HA.jpg
+image: /assets/device_images/arlec_PC192HA.webp
 template9: '{"NAME":"PC192HA","GPIO":[0,0,0,32,0,0,0,0,224,0,225,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-plug-in-socket-with-usb_p0273369
 link2: 

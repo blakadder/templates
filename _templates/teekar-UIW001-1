@@ -11,7 +11,7 @@ category: switch
 type: Dimmer
 standard: eu
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.
 

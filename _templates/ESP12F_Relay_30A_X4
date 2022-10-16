@@ -2,7 +2,7 @@
 date_added: 2021-06-16
 title: ESP-12F 5V/7-28V 4 Channel 30A
 model: ESP12F_Relay_30A X4
-image: /assets/images/ESP12F_Relay_30A_X4.jpg
+image: /assets/device_images/ESP12F_Relay_30A_X4.webp
 template9: '{"NAME":"ESP12F_Relay_30A_X4","GPIO":[1,1,1,1,32,1,1,1,226,227,225,1,224,1],"FLAG":0,"BASE":18}' 
 link: https://www.banggood.com/DC7-28-or-5V-ESP8266-WIFI-4-Channel-30A-Relay-Module-ESP-12F-Development-Board-Secondary-Opening-p-1848495.html
 link2: https://www.aliexpress.com/item/1005002699780454.html

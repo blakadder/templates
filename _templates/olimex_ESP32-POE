@@ -5,11 +5,9 @@ model: ESP32-POE
 category: diy
 type: Development Board
 standard: global
-image: /assets/images/olimex_ESP32-POE.jpg
+image: /assets/device_images/olimex_ESP32-POE.webp
 template32: '{"NAME":"Olimex ESP32-PoE","GPIO":[1,1,1,1,1,1,0,0,5536,1,1,1,1,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 mlink: https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware
 link: https://www.amazon.com/dp/B07R1ZMSG7/
 link2: 
 ---
-
-To use this device, you have to compile Tasmota with Ethernet enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.

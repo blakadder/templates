@@ -6,7 +6,7 @@ category: switch
 type: Switch
 standard: us
 flash: serial
-image: /assets/images/sonoff_TX-T0US3C.jpg
+image: /assets/device_images/sonoff_TX-T0US3C.webp
 template: '{"NAME":"TX T0US3C","GPIO":[17,255,0,255,23,22,18,19,21,158,0,0,0],"FLAG":0,"BASE":30}'
 mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
 link4: https://www.aliexpress.com/item/1005001845997682.html

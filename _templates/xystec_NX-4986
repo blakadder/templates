@@ -2,7 +2,7 @@
 date_added: 2021-10-08
 title: Xystec USB3.0 4 Port Hub
 model: NX-4986
-image: /assets/images/xystec_NX-4986.jpg
+image: /assets/device_images/xystec_NX-4986.webp
 template9: '{"NAME":"Xystec USB Hub","GPIO":[0,0,0,0,224,0,0,0,226,227,225,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.pearl.de/a-NX4986-3103.shtml
 link2: 

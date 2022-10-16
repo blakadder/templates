@@ -2,7 +2,7 @@
 date_added: 2021-12-29
 title: UFO R1 Universal Remote
 model: UFO-R1
-image: /assets/images/UFO-R1.jpg
+image: /assets/device_images/UFO-R1.webp
 template9: '{"NAME":"UFO-R1","GPIO":[1,1,1,1,320,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.ebay.de/itm/124562970875
 link2: https://www.aliexpress.com/item/1005001470647321.html

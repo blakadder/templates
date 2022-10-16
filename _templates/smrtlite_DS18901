@@ -2,7 +2,7 @@
 date_added: 2020-04-19
 title: SMRTLite LED Panel
 model: DS18901
-image: /assets/images/smrtlite_DS18901.jpg
+image: /assets/device_images/smrtlite_DS18901.webp
 template: '{"NAME":"SMRTLite","GPIO":[0,0,0,0,38,37,0,0,41,39,40,0,0],"FLAG":0,"BASE":18}' 
 link: http://www.costco.ca
 link2: 

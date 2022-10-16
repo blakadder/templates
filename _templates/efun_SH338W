@@ -3,7 +3,7 @@
 date_added: 2020-07-21
 title: EFUN SH338W
 model: SH338W
-image: /assets/images/efun_SH338W.jpg
+image: /assets/device_images/efun_SH338W.webp
 template: '{"NAME":"EFUN SH338a","GPIO":[0,0,57,0,56,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.es/dp/B07H4JMH67/
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2022-02-16
 title: Digital LCD BL6523 
 model: 
-image: /assets/images/BL6523_plug.jpg
+image: /assets/device_images/BL6523_plug.webp
 template9: '{"NAME":"BL6523 Smart Meter","GPIO":[0,0,0,0,8000,8032,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005003777095035.html
 link2: https://youtu.be/s3rMb4opuDg

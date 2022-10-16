@@ -1,0 +1,31 @@
+---
+date_added: 2022-09-25
+title: RocketController ASTRA Controller
+model: R4A4
+image: /assets/device_images/rocket_R4A4.webp
+template32: '{"NAME":"ASTRA R4A4","GPIO":[1,1,1,1,576,1,1,1,480,1,1,1,3232,3200,1,1,0,640,608,1,0,224,225,1152,0,0,0,0,227,226,160,161,162,0,0,163],"FLAG":0,"BASE":1}'
+link: https://rocketcontroller.com/product-category/controllers/
+link2: https://www.aliexpress.com/item/1005004464526242.html
+mlink: https://rocketcontroller.com/
+flash: preflashed
+category: relay
+type: DIN Relay
+standard: global
+---
+RocketController ASTRA R4A4 exist in 3 flavors depending on
+- Power supply : 90-240VAC and/or 7-36VDC
+- Type of input : AC, dry contact, GPIOs
+
+The template has been read from the device as it comes pre-flashed with Tasmota and is listed here for reference or recovery
+
+## DIP-Switches usages
+- **RS mode**  : All switches to OFF (close to the numbers)
+- **SPI mode** : All switches to ON
+When in RS mode, the RJ is not connected anymore to the SPI GPIOs. It is intended to receive a RS Adaptation Module plugged between the internal UART2 and RS connectors to host an adaptation module
+such as RS232 or RS485/Modbus. At the time of this writing, Rocketcontroller doesn't yet sale such
+module as they are still in preparation.
+When is SPI mode, the RJ is connected to the SPI GPIO and there **MUST NOT BE** any RS module installed
+in the UART2/RS connectors.
+
+## Schematics of ASTRA R4D4 I/Os:
+![ASTRA R4D4 schematics](/assets/device_images/rocket_R4A4_sch.webp)

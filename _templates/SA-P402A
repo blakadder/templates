@@ -1,7 +1,7 @@
 ---
 date_added: 2020-07-30
 title: SA-P402A
-image: /assets/images/SA-P402A.jpg
+image: /assets/device_images/SA-P402A.webp
 template: '{"NAME":"SA-P402A","GPIO":[0,17,0,56,23,25,21,24,22,0,0,0,0],"FLAG":1,"BASE":18}'
 template-alt: '{"NAME":"SA-P402A","GPIO":[0,17,0,0,24,21,0,0,22,25,23,0,0],"FLAG":1,"BASE":18}'
 link: https://www.aliexpress.com/item/33020336200.html

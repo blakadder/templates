@@ -2,7 +2,7 @@
 date_added: 2021-06-09
 title: Fitop 10W 
 model: BA60H-W0080-RCBW-E7
-image: /assets/images/fitop_BA60H-W0080-RCBW-E7.jpg
+image: /assets/device_images/fitop_BA60H-W0080-RCBW-E7.webp
 template9: '{"NAME":"Fitop 10W RGBCW","GPIO":[0,0,0,0,0,0,0,0,0,4032,4064,0,0,0],"FLAG":0,"BASE":18,"CMND":"SetOption37 6"}' 
 link: https://www.amazon.de/gp/product/B083443K8N/
 link2: 

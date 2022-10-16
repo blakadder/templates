@@ -4,7 +4,7 @@ title: SmartGorilla 16A FR Power Monitoring
 category: unsupported
 type: Plug
 link: https://www.aliexpress.com/item/4000060646437.html
-image: /assets/images/smartgorilla_16A.jpg
+image: /assets/device_images/smartgorilla_16A.webp
 link2: 
 link3: 
 chip: W601

@@ -1,0 +1,20 @@
+<H3>Flashing</H3>
+
+Flash using <a href="https://tasmota.github.io/install/" target="_blank">Tasmota Web Installer</a> and select 
+{% case gpio %}          
+{% when "tasmota32-zbbrdgpro" %}
+Tasmota32 Sonoff-ZigbeeBridgePro
+{% when "tasmota32-lvgl" %}
+Tasmota32-LVGL
+{% when "tasmota32c3-lvgl" %}
+Tasmota32-LVGL ESP32-C3
+{% when "tasmota32s3-lvgl" %}
+Tasmota32-LVGL ESP32-S3
+{% else %}
+{{ page.build }} 
+{% endcase %}
+
+option.
+<BR>
+For esptool.py download f.e. <code><a href="http://ota.tasmota.com/tasmota32/release/{{ page.build }}.factory.bin" target="_blank">{{ page.build }}.factory.bin</a></code> 
+and run <code>esptool.py write_flash 0x0 {{ page.build }}.factory.bin</code>.

@@ -2,25 +2,24 @@
 date_added: 2022-08-10
 title: Gosund 13A
 model: UP111
-image: /assets/images/gosund_UP111.jpg
+image: /assets/device_images/gosund_UP111.webp
 template9: '{"NAME":"Gosund UP111","GPIO":[0,320,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/gp/product/B0983HNB7M
 link2: https://www.amazon.co.uk/dp/B0983HP45C/
 link3: https://amazon.co.uk/gp/product/B09QQCWVNN
 link4: https://www.banggood.com/Gosund-Smart-Plug-Socket-Mini-Electrical-Outlet-Switch-13A-With-Independent-Control-Switch-Timing-Function-APP-Remote-Control-Works-With-Alexa-And-Google-Home-UK-Plug-p-1894390.html
-link5: https://www.ebay.co.uk/itm/175136713581
-mlink: https://www.alibaba.com/product-detail/TUV-Certificate-Tuya-Smart-Wifi-UK_1600197285403.html
+link5: https://www.ebay.co.uk/itm/175136713581 
+mlink: https://uk.gosund.com/products/gosund-smart-plug-up111
 flash: tuya-convert
 category: plug
 type: Plug
 standard: uk
 ---
-Update: 08-Aug-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.
-Update: 25-Jun-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert. Also box of 4 purchased from ebay link added above and also all 4 flashed successfully.
-Update: 10-Arp-2022: Box of 4 bought from amazon.co.uk (third link above) branded as 'Alexa Plug but arrived same as 20 Mar update - all flashed successfully.  
-Update: 20-Mar-2022: 2x box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert. Sockets had `03/2021` printed on them; below the N pin.  
-Update: 19-Sep-2021: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert. Sockets had `05/2021` printed on them; below the N pin.  
-Update: 21-Jul-2021: Box of 2 bought from amazon.co.uk and flashed successfully with tuya-convert.  
-Update: 23-Jun-2021: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
-Update: 30-Mar-2021: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
+- 01-Oct-2022: Box of 4 bought from amazon.co.uk and all 4 flashed successfully with tya-convert. For these I didn't have to push any button to enter flash mode (this actually prevented it from working).
+- 27-Sep-2022: Box of 4 bought from eBay.co.uk, tuya-convert failed with firmware too new. 
+- 12-Sep-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
+- 10-Sep-2022: Box of 4 bought from uk.gosund.com and flashed successfully with tuya-convert.  
+- 28-Aug-2022: 2 x Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
+- 08-Aug-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
+- 25-Jun-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert. Also box of 4 purchased from ebay link added above and also all 4 flashed successfully.  
 

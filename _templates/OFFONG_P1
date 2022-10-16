@@ -2,7 +2,7 @@
 date_added: 2022-01-11
 title: OFFONG 16A
 model: P1
-image: /assets/images/OFFONG_P1.jpg
+image: /assets/device_images/OFFONG_P1.webp
 template9: '{"NAME":"OFFONG P1","GPIO":[0,32,0,0,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B08LH3J8PQ
 mlink: http://www.offong.com/productinfo/220533.html

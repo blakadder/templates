@@ -2,7 +2,7 @@
 date_added: 2020-04-12
 title: OLED Display Module 0.66" for Wemos D1 Mini
 model: 
-image: /assets/images/oled.jpg
+image: /assets/device_images/oled.webp
 template: '{"NAME":"OLED 64x48","GPIO":[255,255,255,255,6,5,0,0,255,255,255,255,162],"FLAG":15,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000259357297.html
 link2: 

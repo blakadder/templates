@@ -2,7 +2,7 @@
 date_added: 2020-06-12
 title: TOVA Dual
 model: TO-PLUG-DUAL
-image: /assets/images/tova_TO-PLUG-DUAL.jpg
+image: /assets/device_images/tova_TO-PLUG-DUAL.webp
 template: '{"NAME":"TOVA","GPIO":[56,0,0,131,18,134,0,0,0,17,132,22,21],"FLAG":0,"BASE":45}' 
 link: https://smile.amazon.com/gp/product/B0815GG44P/
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2022-05-29
 title: TP-LINK TAPO P100 AU/2.0 (hardware version 2.0)
 model: TAPO P100 V2
-image: /assets/images/tp-link_TAPO_P100.jpg
+image: /assets/device_images/tp-link_TAPO_P100.webp
 link: https://www.harveynorman.com.au/tp-link-tapo-mini-smart-wifi-plug.html
 link2: 
 mlink: https://www.tp-link.com/au/home-networking/smart-plug/tapo-p100/

@@ -2,7 +2,7 @@
 date_added: 2020-05-27
 title: Merkury A21 10W 1050lm 
 model: MI-BW210-999W
-image: /assets/images/merkury_MI-BW210-999W.jpg
+image: /assets/device_images/merkury_MI-BW210-999W.webp
 template: '{"NAME":"MI-BW210-999W","GPIO":[38,0,0,0,140,37,0,0,0,142,141,0,0],"FLAG":0,"BASE":69}' 
 template-alt: '{"NAME":"MI-BW210-999W","GPIO":[0,0,0,0,140,37,0,0,142,38,141,0,0],"FLAG":0,"BASE":48}' 
 link: https://www.walmart.com/ip/Merkury-Innovations-A21-Smart-Light-Bulb-75W-Color-LED-2-Pack/669037420

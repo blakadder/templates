@@ -5,7 +5,7 @@ model: T-01C3
 category: diy
 type: Module
 standard: global
-image: /assets/images/T-01C3.jpg
+image: /assets/device_images/T-01C3.webp
 templatec3: '{"NAME":"T-01C3","GPIO":[0,0,1,544,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1],"FLAG":0,"BASE":1}'
 chip: c3
 mlink: https://github.com/Xinyuan-LilyGO/T-01C3

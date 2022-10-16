@@ -6,7 +6,7 @@ type: Plug
 standard: eu
 link2: https://www.amazon.de/gp/product/B07J2CT8WL
 link: https://www.amazon.es/dp/B07PBWMP8T
-image: /assets/images/zoozee_SE131.jpg
+image: /assets/device_images/zoozee_SE131.webp
 template: '{"NAME":"ZOOZEE_SF131","GPIO":[0,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link2: 
 chip: WR2

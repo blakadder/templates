@@ -2,7 +2,7 @@
 date_added: 2020-09-17
 title: Tellur 1USB 10A
 model: TLL331021
-image: /assets/images/tellur_TLL331021.jpg
+image: /assets/device_images/tellur_TLL331021.webp
 template: '{"NAME":"Tellur TTL331021","GPIO":[0,0,157,0,52,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07HWLDG13
 link2: https://www.alza.de/tellur-wifi-smart-ac-stecker-buchse-1x-usb-1a-2400w-10a-weiss-d6435984.htm

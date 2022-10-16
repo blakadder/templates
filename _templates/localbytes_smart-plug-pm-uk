@@ -2,7 +2,7 @@
 date_added: 2021-07-03
 title: Local Bytes (UK)
 model: smart-plug-pm-uk
-image: /assets/images/localbytes_smart-plug-pm-uk.jpg
+image: /assets/device_images/localbytes_smart-plug-pm-uk.webp
 template9: '{"NAME":"LocalBytes PM","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.mylocalbytes.com/products/smart-plug-pm-uk
 link2: 

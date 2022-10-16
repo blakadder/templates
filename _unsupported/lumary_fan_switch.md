@@ -4,7 +4,7 @@ title: Lumary Smart Fan Control with
 category: unsupported
 type: Dimmer
 link: https://www.amazon.com/gp/product/B08728KJBJ/
-image: /assets/images/lumary_fan_switch.jpg
+image: /assets/device_images/lumary_fan_switch.webp
 link2: 
 link3: 
 chip: WR3

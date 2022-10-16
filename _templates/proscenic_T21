@@ -2,7 +2,7 @@
 date_added: 2021-05-12
 title: Proscenic T21 Air Fryer
 model: T21
-image: /assets/images/proscenic_T21.jpg
+image: /assets/device_images/proscenic_T21.webp
 template9: '{"NAME":"Proscenic T21","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
 mlink: https://www.proscenic.com/t21-air-fryer-p0033.html
 link: https://www.amazon.co.uk/dp/B07WZM4ZHT
@@ -18,15 +18,15 @@ While not supported with the existing hardware, the Wi-Fi module is contained on
 
 The top lid is held by 4 big plastic clips. Use a thin prying tool to slowly go around until all the 4 clips are loose enough to lif the lid. Unscrew and remove the protective plastic grid to get access to the Wi-Fi module which is screwed in on the front plate.
 
-![Inside](/assets/images/proscenic_T21_inside.jpg)
+![Inside](/assets/device_images/proscenic_T21_inside.webp)
 
-![WR3 Module](/assets/images/proscenic_T21_WR3.jpg)
+![WR3 Module](/assets/device_images/proscenic_T21_WR3.webp)
 
-![NodeMCU replacement](/assets/images/proscenic_T21_nodemcu.jpg)
+![NodeMCU replacement](/assets/device_images/proscenic_T21_nodemcu.webp)
 
 Connect the pins to the connector following the pinout.
 
-![JST pinout](/assets/images/proscenic_T21_jst.jpg)
+![JST pinout](/assets/device_images/proscenic_T21_jst.webp)
 
 ## Functions
 

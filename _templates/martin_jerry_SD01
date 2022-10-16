@@ -3,7 +3,7 @@ date_added: 2022-07-07
 title: Martin Jerry Single Pole
 model: SD01
 template9: '{"NAME":"SD01 Dimmer","GPIO":[34,33,0,323,576,322,0,0,321,416,320,96,256],"FLAG":0,"BASE":73}' 
-image: /assets/images/martin_jerry_SD01.jpg
+image: /assets/device_images/martin_jerry_SD01.webp
 link: https://www.amazon.com/dp/B0B2RNSCV1/
 link2: 
 mlink: https://www.martinjerry.com/

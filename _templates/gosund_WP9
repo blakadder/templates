@@ -3,7 +3,7 @@ date_added: 2020-08-03
 title: Gosund WP9
 model: WP9
 template: '{"NAME":"Gosund WP9","GPIO":[56,55,54,53,0,21,0,0,23,24,22,0,17],"FLAG":0,"BASE":18}' 
-image: /assets/images/gosund_WP9.jpg
+image: /assets/device_images/gosund_WP9.webp
 link: https://www.amazon.com/dp/B07P65GJS1
 link2: https://www.amazon.com/dp/B07TS2GZCJ
 mlink: https://www.alibaba.com/product-detail/Gosund-Tuya-App-Remote-Control-Smart_1600196676704.html

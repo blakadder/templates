@@ -2,7 +2,7 @@
 date_added: 2021-03-29
 title: Tube's EFR32 Ethernet
 model: TUBE013_EFR32
-image: /assets/images/tube_TUBE013_EFR32.jpg
+image: /assets/device_images/tube_TUBE013_EFR32.webp
 template32: '{"NAME":"Tube ZB EFR32","GPIO":[0,0,0,3840,0,3552,1,0,0,0,0,0,5536,3584,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,5793,5792,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.tubeszb.com/product/efr32_gw_2/6
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2021-06-01
 title: Athom 4.5W 300lm
 model: LB10-5W-TAS
-image: /assets/images/athom_LB10-5W-TAS.jpg
+image: /assets/device_images/athom_LB10-5W-TAS.webp
 template9: '{"NAME":"Athom LB10-5W-TAS","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/gu10-rgbcw
 link: https://www.aliexpress.com/item/1005002723726183.html
@@ -20,6 +20,6 @@ Do not turn on the cool or warm color and RGB channel at the same time, and do n
 
 ## Photos of internals
 
-![Remove the housing and LED panel](/assets/images/athom_GU10_pcb.jpg)
+![Remove the housing and LED panel](/assets/device_images/athom_GU10_pcb.webp)
 
-![Top of the ESP8285H16](/assets/images/athom_GU10_esp8285.jpg)
+![Top of the ESP8285H16](/assets/device_images/athom_GU10_esp8285.webp)

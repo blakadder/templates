@@ -2,7 +2,7 @@
 date_added: 2021-08-13
 title: Emporia 15A
 model: EMS02
-image: /assets/images/emporia_EMS02.jpg
+image: /assets/device_images/emporia_EMS02.webp
 template9: '{"NAME":"Emporia EMS02","GPIO":[320,0,321,0,224,2720,0,0,2624,32,2656,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B08CVSSVWP
 link2: 

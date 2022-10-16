@@ -2,7 +2,7 @@
 date_added: 2020-02-09
 title: Ajax Online 7W Vintage
 model: B07TD4ZXWK
-image: /assets/images/ajax_online_7w_filament.jpg
+image: /assets/device_images/ajax_online_7w_filament.webp
 template: '{"NAME":"AjaxOnline-7W","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/Filament-Vintage-Dimmable-Philips-SmartThings/dp/B07TG8TZ23
 link2: 

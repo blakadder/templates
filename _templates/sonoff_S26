@@ -14,7 +14,7 @@ standard:
   - il
   - it
 link2: https://www.banggood.com/SONOFF-S26-10A-AC90V-250V-Smart-WIFI-Socket-USUKAUEUDEFR-Wireless-Plug-Power-Sockets-p-1308841.html
-image: /assets/images/sonoff_S26.jpg
+image: /assets/device_images/sonoff_S26.webp
 template: '{"NAME":"Sonoff S26","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8}' 
 link4: https://www.aliexpress.com/item/4000106847424.html
 link3: https://www.amazon.de/-/en/Wireless-Required-Control-Appliance-Android/dp/B07DQK7YSD/

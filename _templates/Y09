@@ -2,7 +2,7 @@
 date_added: 2020-10-15
 title: Y09 
 model: Y09
-image: /assets/images/Y09.jpg
+image: /assets/device_images/Y09.webp
 template: '{"NAME":"Y09","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4000711245973.html
 link2: 
@@ -32,7 +32,7 @@ This is a Tuya/Smart Life battery powered contact (Water Leak) sensor. Runs on t
 To flash the device solder directly to [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) TX, RX, GPIO0, VCC and GND pins (optionally solder GPIO0 to GND but you only need to connect it to GND during boot). You also need to disable the MCU by connecting RST to GND, otherwise you will be unable to flash.
 
 
-![Serial](/assets/images/TY01_PCB.jpg)
+![Serial](/assets/device_images/TY01_PCB.webp)
 
 
 ## Configuration

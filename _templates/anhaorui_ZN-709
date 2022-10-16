@@ -2,7 +2,7 @@
 date_added: 2021-10-11
 title: Anhaorui 6+6AC 4USB
 model: ZN-709
-image: /assets/images/anhaorui_ZN-709.jpg
+image: /assets/device_images/anhaorui_ZN-709.webp
 template9: '{"NAME":"Anhaorui ZN-709","GPIO":[320,0,0,160,224,225,0,0,228,229,227,226,0,0],"FLAG":0,"BASE":18,"CMND":"SwitchMode1 5|SO32 10"}' 
 link: https://www.amazon.com/dp/B08J9YDHQT/
 link2: 

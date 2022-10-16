@@ -2,7 +2,7 @@
 date_added: 2020-04-28
 title: OpenEnergyMonitor WiFi MQTT Thermostat
 model: WIFI_RELAY_
-image: /assets/images/openenergymonitor_WIFI_RELAY_.jpg
+image: /assets/device_images/openenergymonitor_WIFI_RELAY_.webp
 template: '{"NAME":"MQTT-RELAY","GPIO":[17,0,255,0,0,21,0,0,0,0,0,0,56],"FLAG":0,"BASE":18}' 
 link: https://shop.openenergymonitor.com/wifi-mqtt-relay-thermostat/
 link2: 

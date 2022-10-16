@@ -2,7 +2,7 @@
 date_added: 2021-11-03
 title: Aptinex IOT RelayNode 4 Channel
 model: RN4CE8
-image: /assets/images/aptinex_RN4CE8.jpg
+image: /assets/device_images/aptinex_RN4CE8.webp
 template9: '{"NAME":"APTINEX","GPIO":[0,0,1,0,0,0,0,0,224,225,226,227,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.tindie.com/products/aptinex/aptinex-iot-relaynode-rn4ce8-esp8266-4ch/
 link2: https://www.amazon.com/dp/B01N1PXUKV

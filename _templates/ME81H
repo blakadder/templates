@@ -2,7 +2,7 @@
 date_added: 2021-04-16
 title: Floor Heating or Water/Gas Boiler
 model: ME81H
-image: /assets/images/ME81H.jpg
+image: /assets/device_images/ME81H.webp
 template9: '{"NAME":"ME81H Thermostat","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4000398480147.html
 link2: 

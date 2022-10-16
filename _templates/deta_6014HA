@@ -2,7 +2,7 @@
 date_added: 2022-06-06
 title: DETA Mechanism
 model: 6014HA
-image: /assets/images/deta_6014HA.jpg
+image: /assets/device_images/deta_6014HA.webp
 template9: '{"NAME":"Deta 6014HA","GPIO":[0,0,0,0,0,0,0,0,320,0,32,0,224,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/deta-smart-switch-mechanism_p0346912
 link2: 

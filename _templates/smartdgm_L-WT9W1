@@ -5,7 +5,7 @@ model: L-WT9W1
 type: CCT
 category: bulb
 standard: e27
-image: /assets/images/smartdgm_L-WT9W1.jpg
+image: /assets/device_images/smartdgm_L-WT9W1.webp
 template: '{"NAME":"L-WT9W1","GPIO":[0,0,0,0,0,37,0,0,9,38,0,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"L-WT9W1","GPIO":[0,0,0,0,0,416,0,0,160,417,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: http://smartdgm.com/portfolio_page/smart-zarowka-led-l-wt9w1/

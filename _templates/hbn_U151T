@@ -2,7 +2,7 @@
 date_added: 2020-10-12
 title: HBN Heavy Duty 
 model: U151T
-image: /assets/images/hbn_U151T.jpg
+image: /assets/device_images/hbn_U151T.webp
 template: '{"NAME":"HBN U151T","GPIO":[0,0,0,0,52,53,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07WNKQ28B/
 link2: 

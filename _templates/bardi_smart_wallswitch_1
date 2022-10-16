@@ -2,7 +2,7 @@
 date_added: 2020-06-14
 title: Bardi Smart Wallswitch 1 Gang
 model: 
-image: /assets/images/bardi_smart_wallswitch_1.jpg
+image: /assets/device_images/bardi_smart_wallswitch_1.webp
 template: '{"NAME":"Bardi 1 Gang","GPIO":[57,56,157,0,0,17,0,0,0,0,0,21,0],"FLAG":0,"BASE":18}' 
 link: 
 link2: 

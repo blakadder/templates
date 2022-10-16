@@ -2,7 +2,7 @@
 date_added: 2021-01-20
 title: VisorTech 
 model: RWM-200.app
-image: /assets/images/visortech_RWM-200_app.jpg
+image: /assets/device_images/visortech_RWM-200_app.webp
 template: '{"NAME":"VisorTech RWM-200","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.de/dp/B07TVV1VLV
 link2: https://www.pearl.de/a-ZX2962-3103.shtml

@@ -2,7 +2,7 @@
 date_added: 2022-07-22
 title: Sonoff TH Origin 20A
 model: THR320
-image: /assets/images/sonoff_THR320.jpg
+image: /assets/device_images/sonoff_THR320.webp
 template32: '{"NAME":"Sonoff THR320","GPIO":[32,0,0,0,0,0,0,0,0,321,0,576,320,0,0,9312,0,0,9313,0,0,1,0,3840,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://itead.cc/product/sonoff-th/ref/3/
 link2: https://www.aliexpress.com/item/1005004473793143.html
@@ -18,3 +18,16 @@ standard: global
 Use the device button to enable flash mode. 
 
 Follow the [GitHub issue thread](https://github.com/arendst/Tasmota/issues/15856) for development updates
+
+## Sensor Wiring
+
+Sensor are connected with a standard phone plug, search for 4P4C, RJ9, RJ10, or RJ22. You can use an [adapter](https://itead.cc/product/al010-2-5mm-audio-jack-to-rj11-adapter/ref/34/) to connect old sensors with an audio jack.
+
+![4P4C RJ9/RJ10/RJ22](/assets/4p4c_plug.jpg)
+
+|4P4C RJ9/RJ10/RJ22 | ESP 
+|---|---|---|
+|1 (Yellow on image) | 3V3 GPIO27 providing 3V3
+|2 (Green on image) | GPIO25 data
+|3 (Red on image) | NC  
+|4 (Black on image) | GND

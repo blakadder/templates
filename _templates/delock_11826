@@ -6,7 +6,7 @@ category: plug
 type: Plug
 standard: eu
 mlink: https://www.delock.com/produkte/H/11826/merkmale.html
-image: /assets/images/delock_11826.jpg
+image: /assets/device_images/delock_11826.webp
 template: '{"NAME":"DeLock 11826","GPIO":[17,0,0,0,0,0,0,0,21,158,0,0,0],"FLAG":0,"BASE":1}'
 link: https://www.amazon.de/dp/B07SNGJ8GD 
 flash: preflashed

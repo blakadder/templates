@@ -2,7 +2,7 @@
 date_added: 2021-08-06
 title: Athom 3-Way Mini Relay
 model: RS01
-image: /assets/images/athom_RS01.jpg
+image: /assets/device_images/athom_RS01.webp
 template9: '{"NAME":"RS01-TAS-1","GPIO":[0,0,0,32,576,0,0,0,0,224,160,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/3-way-relay
 link: https://www.aliexpress.com/item/1005003091529604.html
@@ -21,15 +21,15 @@ standard: global
 
 I took the component apart to flash the device 
 
-![PCB with lid removed](/assets/images/RS01_uncovered.jpg)
+![PCB with lid removed](/assets/device_images/RS01_uncovered.webp)
 
-![ESP module removed, internal Silkscreen](/assets/images/RS01_inside.jpg)
+![ESP module removed, internal Silkscreen](/assets/device_images/RS01_inside.webp)
 
-![ESP module removed, external silkscreen](/assets/images/RS01_side.jpg)
+![ESP module removed, external silkscreen](/assets/device_images/RS01_side.webp)
 
-![Top of the ESP8285H16](/assets/images/RS01_module_top.jpg)
+![Top of the ESP8285H16](/assets/device_images/RS01_module_top.webp)
 
 You have to ground this POGO pin pad to ground in order to intialize serial flash (white wire)
 
-![Flashing pinout](/assets/images/RS01_module_flash.jpg)
+![Flashing pinout](/assets/device_images/RS01_module_flash.webp)
 

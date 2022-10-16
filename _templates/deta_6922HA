@@ -2,13 +2,13 @@
 date_added: 2019-11-02
 title: Deta Double Power Point
 model: 6922HA
-image: /assets/images/deta_6922HA.jpg
+image: /assets/device_images/deta_6922HA.webp
 category: plug
 type: Wall Outlet
 standard: au
 flash: tuya-convert
 link: https://www.bunnings.com.au/deta-smart-double-power-point-touch-activated-switch-with-grid-connect_p0098813
-Link2: https://www.bunnings.co.nz/deta-grid-connect-smart-double-touch-power-point_p0098813
+link2: https://www.bunnings.co.nz/deta-grid-connect-smart-double-touch-power-point_p0098813
 template9: '{"NAME":"DETA 2G GPO","GPIO":[0,0,0,0,544,0,0,0,65,224,225,0,64,0],"FLAG":0,"BASE":18}' 
 ---
 

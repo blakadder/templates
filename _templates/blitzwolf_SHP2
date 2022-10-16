@@ -1,5 +1,6 @@
 ---
-title: BlitzWolf BW-SHP2
+title: BlitzWolf SHP2
+model: BW-SHP2
 category: plug
 type: Plug
 standard: eu
@@ -9,19 +10,14 @@ template: '{"NAME":"BlitzWolf SHP","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21
 link2: https://www.aliexpress.com/item/32869933685.html
 mlink: https://www.blitzwolf.com/3840W-EU-WIFI-Smart-Socket-p-244.html
 link3: https://www.amazon.de/dp/B07BMQP142
-flash: tuya-convert
+flash: serial
 ---
 ## Hardware Revision
 There is a newer hardware revision (v2.3) working with this template:
 ```json
 {"NAME":"BW-SHP2 16A","GPIO":[0,57,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":45}
 ```
-## Tuya-Convert 
-Since SHP2 is a Tuya based device, [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert) flash is possible.
-
-This method does't need any wiring. 
-
-## Serial Flashing
+## Flashing
 Please see the [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation) page for general instructions.
 
 ### Step 1.

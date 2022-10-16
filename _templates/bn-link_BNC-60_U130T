@@ -2,7 +2,7 @@
 date_added: 2020-08-07
 title: BN-Link 
 model: BNC-60/U130T
-image: /assets/images/bn-link_BNC-60_U130T.jpg
+image: /assets/device_images/bn-link_BNC-60_U130T.webp
 template: '{"NAME":"BNC-60/U130T","GPIO":[255,0,255,0,255,56,255,255,21,17,255,0,0],"FLAG":15,"BASE":18}' 
 link: https://www.amazon.com/dp/B07JQSX11M
 link2: 

@@ -1,5 +1,5 @@
 <tr>
-    <td style="width: 20%"><a href="{{site.baseurl}}{{ template.url }}"><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;"></a></td>
+    <td style="width: 20%"><a href="{{site.baseurl}}{{ template.url }}"><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;" loading="lazy"></a></td>
     <td><b><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }}
         {% include pow-table.html %}
         {{ template.type | replace: "Miscellaneous", "" }}        
@@ -9,6 +9,9 @@
         {{ template.model }}
         {% if template.flash == "preflashed" %}
         - Tasmota pre-installed
+        {% endif %}
+        {% if template.flash == "replace" %}
+        - DIY Replacement
         {% endif %}
     </a>     
         <td style="width: 1px"></td>

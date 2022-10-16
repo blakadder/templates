@@ -4,7 +4,7 @@ title: Aoycocr 5W 400lm E14
 category: unsupported
 type: Bulb
 link: https://www.amazon.it/gp/product/B08K3D2FMM
-image: /assets/images/aoycocr_E14.jpg
+image: /assets/device_images/aoycocr_E14.webp
 link2: 
 link3: 
 chip: Realtek

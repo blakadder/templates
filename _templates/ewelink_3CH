@@ -2,7 +2,7 @@
 date_added: 2022-07-25
 title: Ewelink RF No Neutral 3 Channel
 model: 
-image: /assets/images/ewelink_3CH.jpg
+image: /assets/device_images/ewelink_3CH.webp
 template9: '{"NAME":"Ewelink 3 Gang Module","GPIO":[32,0,0,0,225,226,33,34,224,544,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005001865341076.html
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2021-03-08
 title: V-Tac P45 4.5W 300lm
 model: VT-5154
-image: /assets/images/v-tac_VT-5154.jpg
+image: /assets/device_images/v-tac_VT-5154.webp
 template9: '{"NAME":"V-TAC VT-5154","GPIO":[0,0,0,0,0,0,0,0,4065,0,4032,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07WSNW3HZ
 link2: https://www.amazon.co.uk/V-tac-VT-5154-WiFi-smart-lamp/dp/B07WSNW3HZ

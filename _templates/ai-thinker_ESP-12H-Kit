@@ -5,7 +5,7 @@ model: ESP-12H-Kit
 category: diy
 type: Development Board
 standard: global
-image: /assets/images/ai-thinker_ESP-12H-Kit.jpg
+image: /assets/device_images/ai-thinker_ESP-12H-Kit.webp
 templates2: '{"NAME":"ESP-12H-Kit","GPIO":[32,1,1,0,0,1,0,1,1,417,1,416,418,0,0,0,0,0,0,1,1,1,1,1,0,0,1,1,0,0,0,0,1,1,0,0],"FLAG":0,"BASE":1}'
 chip: s2
 mlink: 
@@ -17,4 +17,4 @@ link4: https://mediarath.de/products/nodemcu-esp32-wroom32-wifi-bluetooth-iot-de
 
 {% include flash/s2.md %}
 
-![Back](/assets/images/ai-thinker_ESP-12H-Kit_pinout.gif)
+![Back](/assets/images/ai-thinker_ESP-12H-Kit_pinout.webp)

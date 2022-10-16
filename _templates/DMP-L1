@@ -2,7 +2,7 @@
 date_added: 2021-07-03
 title: DT-Light ESP8285 Lighting
 model: DMP-L1
-image: /assets/images/DMP-L1.jpg
+image: /assets/device_images/DMP-L1.webp
 template9: '{"NAME":"DMP-L1","GPIO":[1,1,0,1,1,1,0,0,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
 template9_alt: '{"NAME":"DMP-L1 Light","GPIO":[1,1,0,1,419,418,0,0,416,420,417,1,1,1],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/1005004476388175.html
@@ -22,7 +22,7 @@ Module is almost pin compatible with {% for entry in site.data.modules.dt-light 
 
 It can still be used for any application, just like any other module. It has almost all of the GPIOs broken out (excluding GPIO2) and that includes the A0 analog GPIO. 
 
-![Pinout](/assets/images/DMP-L1_pinout.jpg)
+![Pinout](/assets/device_images/DMP-L1_pinout.webp)
 
 Header are too small for standard Dupont cables but breadboard wires will fit.
 

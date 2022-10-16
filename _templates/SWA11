@@ -1,12 +1,12 @@
 ---
 date_added: 2021-03-13
 title: SWA11 16A
-moddel: SWA11
+model: SWA11
 category: plug
 type: Plug
 standard: eu
 link: https://www.amazon.de/gp/product/B07SRRP7B1/
-image: /assets/images/SWA11.jpg
+image: /assets/device_images/SWA11.webp
 template: '{"NAME":"SWA11","GPIO":[0,0,0,0,52,21,0,0,0,17,0,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"SWA11","GPIO":[0,0,0,0,288,224,0,0,0,32,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.aliexpress.com/af/swa11-wifi-plug.html
@@ -19,3 +19,8 @@ Found under various brands.
 Look for the following to identify:
 
 ![](https://user-images.githubusercontent.com/5904370/70649581-bb615880-1c4d-11ea-815d-483de90f3e3a.png)
+
+Klas Remos SWA 11 plug is glued together. After carefully opening the plug, the inside looks like this. If OTA conversion is not available, you have to solder wires to the pads.
+
+![](https://user-images.githubusercontent.com/12642278/189370880-a171e8c4-cced-45dd-922c-be7e7e2e4856.jpg)
+![](https://user-images.githubusercontent.com/12642278/189373597-aa2a7bb4-5ada-4079-973d-36a7f7765682.jpeg)

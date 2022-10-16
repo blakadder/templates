@@ -7,7 +7,7 @@ type: Fan
 standard: us
 flash: tuya-convert
 image: https://images-na.ssl-images-amazon.com/images/I/717PZvfnhWL._AC_SL1500_.jpg
-template: '{"NAME":"FXA16 Fan","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 12,8"}'
+template9: '{"NAME":"FXA16 Fan","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 12,8"}'
 link: https://www.amazon.com/Technical-Pro-Standing-Oscillating-Compatible/dp/B07RM6XQ4L
 ---
 

@@ -6,7 +6,7 @@ category: plug
 type: Plug
 standard: us
 flash: serial
-image: /assets/images/aoycocr_X10S.jpg
+image: /assets/device_images/aoycocr_X10S.webp
 template: '{"NAME":"Aoycocr X10S","GPIO":[56,0,57,0,21,134,0,0,131,17,132,0,0],"FLAG":0,"BASE":45}' 
 mlink: https://www.alibaba.com/trade/search?fsb=y&IndexArea=product_en&CatId=&SearchText=X10S+plug&viewtype=&tab=
 link: https://www.amazon.com/dp/B07XC7SKZK

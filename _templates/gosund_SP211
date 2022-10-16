@@ -2,7 +2,7 @@
 date_added: 2020-06-05
 title: Gosund Dual
 model: SP211
-image: /assets/images/gosund_SP211.jpg
+image: /assets/device_images/gosund_SP211.webp
 template: '{"NAME":"Gosund SP211","GPIO":[18,158,56,131,134,132,0,0,17,57,21,0,22],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/gp/product/B085HDPTCH/
 link2: https://www.aliexpress.com/item/1005002198374650.html
@@ -16,10 +16,10 @@ type: Plug
 standard: eu
 ---
 
-![](/assets/images/gosund_SP211_disassembly1.jpg)
-![](/assets/images/gosund_SP211_disassembly2.jpg)
-![](/assets/images/gosund_SP211_disassembly3.jpg)
-![](/assets/images/gosund_SP211_disassembly4.jpg)
-![](/assets/images/gosund_SP211_disassembly5.jpg)
-![](/assets/images/gosund_SP211_pinout.jpg)
-![](/assets/images/gosund_SP211_pcb.jpg)
+![](/assets/device_images/gosund_SP211_disassembly1.webp)
+![](/assets/device_images/gosund_SP211_disassembly2.webp)
+![](/assets/device_images/gosund_SP211_disassembly3.webp)
+![](/assets/device_images/gosund_SP211_disassembly4.webp)
+![](/assets/device_images/gosund_SP211_disassembly5.webp)
+![](/assets/device_images/gosund_SP211_pinout.webp)
+![](/assets/device_images/gosund_SP211_pcb.webp)

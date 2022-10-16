@@ -1,7 +1,7 @@
 ---
 date_added: 2020-02-18
 title: Alfawise LE12 9W 900LM
-image: /assets/images/alfawise_LE12.jpg
+image: /assets/device_images/alfawise_LE12.webp
 template: '{"NAME":"Alfawise LE12 ","GPIO":[0,0,0,0,41,38,0,0,39,0,40,37,0],"FLAG":0,"BASE":18}' 
 link: 
 link2: 

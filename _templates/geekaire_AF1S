@@ -6,8 +6,8 @@ category: misc
 type: Fan
 standard: us
 flash: tuya-convert
-image: /assets/images/geekaire_AF1S.jpg
-template: '{"NAME":"Geek Aire Fan","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 12,4 | TuyaMCU 13,5"}'
+image: /assets/device_images/geekaire_AF1S.webp
+template9: '{"NAME":"Geek Aire Fan","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 12,4 | TuyaMCU 13,5"}'
 link: https://www.amazon.com/dp/B082WBPWBF
 link2: https://www.menards.com/main/heating-cooling/portable-fans/geek-aire-3d-13-oscillating-wifi-desktop-fan/af1s/p-60892399956.htm
 ---

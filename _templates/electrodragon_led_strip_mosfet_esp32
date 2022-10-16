@@ -1,0 +1,14 @@
+---
+date_added: 2022-09-22
+title: Electrodragon ESP32-C3 Mosfet Drive
+model: 
+image: /assets/device_images/electrodragon_led_strip_mosfet_esp32.webp
+templatec3: '{"NAME":"ElectroDragon ESP32-C3 RGB","GPIO":[0,0,0,0,418,417,0,0,416,0,0,229,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://cloudfree.shop/product/esp32-led-strip-wifi-control-board/
+link2: 
+mlink: https://www.electrodragon.com/product/esp-led-strip-board/
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---

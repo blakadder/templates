@@ -2,7 +2,7 @@
 date_added: 2020-10-31
 title: Avatto 4 Gang
 model: TS02-4
-image: /assets/images/avatto_TS02-4.jpg
+image: /assets/device_images/avatto_TS02-4.webp
 template: '{"NAME":"AVATTO 4 Gang","GPIO":[158,0,0,17,21,18,0,0,19,23,24,22,20],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000175429750.html
 link2: 

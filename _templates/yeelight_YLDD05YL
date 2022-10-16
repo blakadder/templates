@@ -2,7 +2,7 @@
 date_added: 2021-03-22
 title: Yeelight Lightstrip 1S
 model: YLDD05YL
-image: /assets/images/yeelight_YLDD05YL.jpg
+image: /assets/device_images/yeelight_YLDD05YL.webp
 template32: '{"NAME":"Yeelight Lightstrip 1S","GPIO":[0,0,0,0,0,418,0,0,0,416,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SO37 128 | SO92 1"}' 
 link: https://www.banggood.com/Yeelight-YLDD04YL-or-YLDD05YL-DC24V-2M-Smart-APP-RGB-LED-Strip-Light-Work-with-Alexa-(-Ecosystem-Product)-Christmas-Decorations-Clearance-Christmas-Lights-p-1361409.html
 link2: https://www.aliexpress.com/item/1005002292462064.html

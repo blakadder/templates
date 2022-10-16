@@ -2,7 +2,7 @@
 date_added: 2020-01-20
 title: Sinilink MOS
 model: XY-WFMS
-image: /assets/images/sinilink_XY-WFMS.jpg
+image: /assets/device_images/sinilink_XY-WFMS.webp
 template9: '{"NAME":"Sinilink MOS","GPIO":[0,0,576,0,224,1,0,0,32,288,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000394621898.html
 link2: https://www.amazon.com/Switch-Controller-Wireless-Intelligent-Control/dp/B082FZPX45
@@ -16,5 +16,5 @@ standard: global
 ---
 You can use the [ESP-12](https://tasmota.github.io/docs/Pinouts/#esp-12eesp-12f) module for flashing or the pin holes on the bottom of the PCB. Pin holes are too small to use Dupont cables or breadboard wires. Some stripped ethernet cable wires or sewing needles can work.
 
-![Pinout](/assets/images/sinilink_XY-WFMS_pinout.jpg)
+![Pinout](/assets/device_images/sinilink_XY-WFMS_pinout.webp)
 Image from [beikeland](https://www.thingiverse.com/thing:4638431)

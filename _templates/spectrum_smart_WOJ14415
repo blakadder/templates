@@ -2,7 +2,7 @@
 date_added: 2021-02-01
 title: Spectrum Smart GU10 5W 480lm 
 model: WOJ+14415
-image: /assets/images/spectrum_smart_WOJ14415.jpg
+image: /assets/device_images/spectrum_smart_WOJ14415.webp
 template: '{"NAME":"SPECTR. RGBCCT","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
 link: 
 link2: 

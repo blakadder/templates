@@ -2,7 +2,7 @@
 date_added: 2020-10-13
 title: Geeni Surge + Charge 2 USB
 model: GN-SW023-199
-image: /assets/images/geeni_GN-SW023-199.jpg
+image: /assets/device_images/geeni_GN-SW023-199.webp
 template: '{"NAME":"Geeni GN-SW023","GPIO":[52,0,0,0,22,21,0,0,23,24,25,0,17],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07DB7MFKH/
 link2: https://www.amazon.ca/gp/product/B07DB7MFKH/

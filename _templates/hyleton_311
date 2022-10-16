@@ -2,7 +2,7 @@
 date_added: 2020-05-26
 title: Hyleton HLT-311
 model: 2AOHT-HYLETON-311
-image: /assets/images/hyleton_311.jpg
+image: /assets/device_images/hyleton_311.webp
 template9: '{"NAME":"HLT-311","GPIO":[544,0,320,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Compatible-Assistant-Required-Plug-App-Anywhere/dp/B07KWQ8J1B
 link2: https://www.fasttech.com/product/9628832-hyleton-hlt-311-wifi-smart-socket-us

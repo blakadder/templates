@@ -2,7 +2,7 @@
 date_added: 2020-07-01
 title: Brelong USB Charging Night
 model: E-POP-A09-303
-image: /assets/images/brelong_E-POP-A09-303.jpg
+image: /assets/device_images/brelong_E-POP-A09-303.webp
 template: '{"NAME":"Brelong Smart USB Charging Lamp","GPIO":[0,0,0,0,37,0,0,0,38,0,39,0,40],"FLAG":0,"BASE":18}' 
 link: 
 link2: 

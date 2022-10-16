@@ -5,7 +5,7 @@ model: YED-ESW-2WAA-EU
 category: unsupported
 type: Switch
 link: https://www.amazon.de/gp/product/B08DNM4VZH
-image: /assets/images/etersky_YED-ESW-2WAA-EU.jpg
+image: /assets/device_images/etersky_YED-ESW-2WAA-EU.webp
 link2: 
 link3: 
 chip: WR3

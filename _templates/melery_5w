@@ -2,7 +2,7 @@
 date_added: 2020-05-19
 title: Melery 5W
 model: WB006
-image: /assets/images/melery_5w.jpg
+image: /assets/device_images/melery_5w.webp
 template: '{"NAME":"MeleryMR16","GPIO":[0,0,0,0,0,0,0,0,0,143,0,144,0],"FLAG":0,"BASE":27}' 
 link: https://www.aliexpress.com/item/33023929715.html
 link2: 

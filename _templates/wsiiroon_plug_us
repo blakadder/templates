@@ -2,7 +2,7 @@
 date_added: 2021-08-13
 title: Wsiiroon
 model: 
-image: /assets/images/wsiiroon_plug_us.jpg
+image: /assets/device_images/wsiiroon_plug_us.webp
 template9: '{"NAME":"Wsiiroon Smart Plug","GPIO":[0,0,0,0,32,320,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07HH3GYTR/
 link2: 

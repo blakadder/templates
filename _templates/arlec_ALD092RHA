@@ -2,7 +2,7 @@
 date_added: 2020-11-18
 title: Arlec Smart 9W RGB+CCT
 model: ALD092RHA
-image: /assets/images/arlec_ALD092RHA.jpg
+image: /assets/device_images/arlec_ALD092RHA.webp
 template: '{"NAME":"Arlec ALD092RHA","GPIO":[0,0,0,0,40,41,0,0,37,39,38,0,0],"FLAG":0,"BASE":18}'
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-9w-rgb-cct-led-downlight_p0168695
 link2: 
@@ -19,8 +19,8 @@ This light now uses a WB3L chip that can't be flashed.
 Based on serveral units purchased in 2022/02, it appears drivers marked "TW-092RA Series 2" use a WB3L chip instead of the previous TYWE5P chip.
 Externally on the bottom of the packaging near the barcode is what appears to be a date marking. From the units purchased it appears those marked 08/21 and later use the WB3L, whilst those marked 07/21 and earlier have the TYWE5P.
 
-![Packaging Identification](/assets/images/ALD092RHA_Packaging_Identification.png)
-![Driver Identification](/assets/images/ALD092RHA_Driver_Identification.png)
+![Packaging Identification](/assets/device_images/ALD092RHA_Packaging_Identification.webp)
+![Driver Identification](/assets/device_images/ALD092RHA_Driver_Identification.webp)
 
 The [ESP-12H](https://templates.blakadder.com/ESP-12H.html) module is potentially an ESP-based drop-in replacement.
 The [OpenBK7231T](https://github.com/openshwprojects/OpenBK7231T) project also contains further information on the BK7231T RF chip.

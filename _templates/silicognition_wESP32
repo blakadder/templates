@@ -5,7 +5,7 @@ model:
 category: diy
 type: Development Board
 standard: global
-image: /assets/images/silicognition_wESP32.jpg
+image: /assets/device_images/silicognition_wESP32.webp
 template32: '{"NAME":"wESP32","GPIO":[0,0,1,0,1,1,0,0,1,1,1,1,5568,5600,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 mlink: https://wesp32.com/
 link: https://wesp32.com/buy/

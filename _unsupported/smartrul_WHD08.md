@@ -5,7 +5,7 @@ model: WHD08
 category: unsupported
 type: Plug
 link: https://www.aliexpress.com/item/4000894358298.html
-image: /assets/images/smartrul_WHD08.jpg
+image: /assets/device_images/smartrul_WHD08.webp
 link2: 
 link3: 
 chip: WBS2

@@ -2,7 +2,7 @@
 date_added: 2020-01-25
 title: Sinilink USB
 model: XY-WFUSB
-image: /assets/images/sinilink_XY-WFUSB.jpg
+image: /assets/device_images/sinilink_XY-WFUSB.webp
 template9: '{"NAME":"XY-WFUSB","GPIO":[1,1,0,1,32,224,0,0,0,0,320,0,544,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000791220450.html
 link2: https://www.amazon.com/dp/B0868TDVNV/
@@ -14,7 +14,7 @@ category: relay
 type: Switch Module
 standard: global
 ---
-![Pinout](/assets/images/sinilink_XY-WFUSB_pinout.jpg)
+![Pinout](/assets/device_images/sinilink_XY-WFUSB_pinout.webp)
 
 Useful video on flashing from [Andreas Spiess](https://www.youtube.com/watch?v=lrHhn2AVzSA)
 

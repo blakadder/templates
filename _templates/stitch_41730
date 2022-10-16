@@ -2,7 +2,7 @@
 date_added: 2021-09-03
 title: STITCH Mini 10A
 model: 41730
-image: /assets/images/stitch_41730.jpg
+image: /assets/device_images/stitch_41730.webp
 template9: '{"NAME":"STITCH 41730","GPIO":[0,0,320,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.monoprice.com/product?p_id=41730
 link2: 

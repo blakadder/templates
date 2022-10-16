@@ -2,8 +2,8 @@
 date_added: 2022-07-27
 title: HerePow 
 model: ZHX-ZNOC
-image: /assets/images/herepow_ZHX-ZNOC.jpg
-template9: '{"NAME":"HerePow ZHX-ZNOC","GPIO":[0,157,0,131,134,132,0,0,21,17,56,0,0],"FLAG":0,"BASE":68}' 
+image: /assets/device_images/herepow_ZHX-ZNOC.webp
+template: '{"NAME":"HerePow ZHX-ZNOC","GPIO":[0,157,0,131,134,132,0,0,21,17,56,0,0],"FLAG":0,"BASE":68}' 
 link: https://www.aliexpress.com/item/1005001350355840.html
 link2: https://www.amazon.de/dp/B08FJDGVD6
 mlink: https://www.alibaba.com/product-detail/EU-WIFI-TUYA-google-home-assistant_1600113712698.html

@@ -1,0 +1,35 @@
+---
+date_added: 2022-09-29
+title: GoKlug RGB
+model: 
+image: /assets/device_images/goklug_led_strip.webp
+template9: '{"NAME":"Tuya LED Strip","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.de/gp/product/B07W4X7M4N/
+link2: 
+mlink: 
+flash: tuya-convert
+category: light
+type: LED Strip
+standard: eu
+---
+Device has to be configured via this method: https://tasmota.github.io/docs/TuyaMCU/ because there is a separate MCU present.
+
+Following fnID-to-dpID-mapping makes the basic functions work:
+
+dpID | datatype | fnID | note
+--- | --- | --- | ---
+20 | 1 | 11 | Relay (on/off)
+22 | 2 | 21 | Brightness (use 'Backlog Dimmer 10; Dimmer 1000' command to enable dimmer)
+24 | 3 | 24 | RGB (Test with TuyaSend3 24,ff0000646464ff)
+
+"
+fnID-to-dpID-mapping may be not complete but covers basic functions (on/off; RGB; Brightness)
+Following dpIDs are available additionally but functions are not known (at least to me):
+
+dpID | datatype | note
+--- | --- | --- 
+21 | 4 | --
+23 | 2 | RX value 500, Value doesn't change in console
+26 | 2 | shows sometimes values that are not 0
+
+Feel free to include that information, it could help somebody to find the last pieces of information"

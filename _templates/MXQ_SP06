@@ -2,7 +2,7 @@
 date_added: 2020-11-06
 title: MXQ LED Nightlight
 model: SP06
-image: /assets/images/MXQ_SP06.jpg
+image: /assets/device_images/MXQ_SP06.webp
 template: '{"NAME":"MXQ SP06","GPIO":[0,0,0,0,52,82,0,0,22,57,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07VRBQCC3
 link2: 

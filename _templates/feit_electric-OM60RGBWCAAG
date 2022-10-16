@@ -6,7 +6,7 @@ category: bulb
 standard: e26
 link: https://www.amazon.com/FEIT-OM60-RGBW-CA-AG/dp/B07GG98VV2/
 link2: https://www.costco.com/FEIT-WiFi-Smart-Bulbs-4-pack.product.100417461.html
-image: /assets/images/feit_electric-OM60RGBWCAAG.jpg
+image: /assets/device_images/feit_electric-OM60RGBWCAAG.webp
 template: '{"NAME":"OM60/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}'
 mlink: https://www.feit.com/product/smart-wifi-bulb-color-changing-tunable-white-2/
 ---

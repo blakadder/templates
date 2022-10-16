@@ -2,7 +2,7 @@
 date_added: 2020-08-21
 title: WP5
 model: 
-image: /assets/images/WP5.jpg
+image: /assets/device_images/WP5.webp
 template: '{"NAME":"WP5","GPIO":[57,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B078GLNVJ1
 link2: https://www.amazon.com/gp/product/B0786WC5Q3/

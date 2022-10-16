@@ -2,7 +2,7 @@
 date_added: 2021-04-07
 title: Yeelight Jiaoyue 260mm 10W CCT
 model: YLXD62YI
-image: /assets/images/yeelight_YLXD62YI.jpg
+image: /assets/device_images/yeelight_YLXD62YI.webp
 template32: '{"NAME":"Yeelight LED Ceiling Light 260","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,417,0,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/4000196275220.html
 link2: https://www.aliexpress.com/item/4000196309288.html
@@ -15,7 +15,7 @@ standard: global
 ---
 All pins necessary for flashing are labelled on the PCB. 
 
-![PCB image](/assets/images/yeelight_YLXD62YI_pcb.jpg)
+![PCB image](/assets/device_images/yeelight_YLXD62YI_pcb.webp)
 
 1. RX - Green
 2. TX - Violet 

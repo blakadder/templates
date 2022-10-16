@@ -5,10 +5,10 @@ model: MIR-TE200
 category: unsupported
 type:  Sensor
 link: https://www.aliexpress.com/item/1005001756371715.html
-image: /assets/images/MIR-TE200.jpg
+image: /assets/device_images/MIR-TE200.webp
 link2: 
 link3: 
 chip: XR3
 ---
 
-![Internals](/assets/images/MIR-TE200_pcb.jpg)
+![Internals](/assets/device_images/MIR-TE200_pcb.webp)

@@ -5,7 +5,7 @@ model: ESP-C3-13-Kit
 category: diy
 type: Development Board
 standard: global
-image: /assets/images/ai-thinker_ESP-C3-01M-Kit.jpg
+image: /assets/device_images/ai-thinker_ESP-C3-01M-Kit.webp
 templatec3: '{"NAME":"AI Thinker ESP-C3-12F","GPIO":[1,1,1,416,417,418,1,1,0,32,1,0,0,0,0,0,0,0,420,419,1,1],"FLAG":0,"BASE":1}'
 chip: c3
 mlink:

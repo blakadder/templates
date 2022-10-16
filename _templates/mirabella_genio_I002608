@@ -2,7 +2,7 @@
 date_added: 2020-03-29
 title: Mirabella Genio 9W 800lm
 model: I002608
-image: /assets/images/mirabella_genio_I002608.jpg
+image: /assets/device_images/mirabella_genio_I002608.webp
 template: '{"NAME":"MiraBellaGenio","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com.au/dp/B081NWB43W/
 link2: 

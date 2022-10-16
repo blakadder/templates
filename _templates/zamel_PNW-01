@@ -1,0 +1,14 @@
+---
+date_added: 2022-09-11
+title: Zamel Foot  
+model: PNW-01 
+image: /assets/device_images/zamel_PNW-01.webp
+template9: '{"NAME":"Zamel PNW-01","GPIO":[0,0,0,0,32,224,0,0,0,0,0,0,288,0],"FLAG":0,"BASE":18}' 
+link: https://onelectro.pl/przedluzacz-nozny-wi-fi-zamel-supla-pnw-01
+link2: https://www.amazon.co.uk/dp/B07K4HGYKJ
+mlink: https://supla.zamel.com/product/przedluzacz-nozny-sterowany-wi-fi-pnw-01/
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---

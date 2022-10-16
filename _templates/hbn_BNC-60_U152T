@@ -2,7 +2,7 @@
 date_added: 2020-05-22
 title: HBN BNC-60/U152T
 model: BNC-60/U152T
-image: /assets/images/hbn_BNC-60_U152T.jpg
+image: /assets/device_images/hbn_BNC-60_U152T.webp
 template: '{"NAME":"BNC-60/U152T","GPIO":[0,0,0,0,56,0,255,255,21,17,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07WRFCXL9
 link2: 

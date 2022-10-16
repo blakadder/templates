@@ -2,7 +2,7 @@
 date_added: 2020-11-06
 title: Luminea 2 Outlet
 model: NX-6153
-image: /assets/images/luminea_NX-6153.jpg
+image: /assets/device_images/luminea_NX-6153.webp
 template: '{"NAME":"Luminea","GPIO":[0,0,0,0,22,56,0,0,21,57,17,0,0],"FLAG":15,"BASE":18}' 
 link: https://www.amazon.de/dp/B07WWHP295
 link2: https://www.pearl.de/a-NX6153-3103.shtml

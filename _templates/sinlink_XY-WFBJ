@@ -2,7 +2,7 @@
 date_added: 2021-12-20
 title: Sinilink 6-32V Real Time Clock
 model: XY-WFBJ
-image: /assets/images/sinlink_XY-WFBJ.jpg
+image: /assets/device_images/sinlink_XY-WFBJ.webp
 template9: '{"NAME":"Sinilink XY-WFBJ","GPIO":[0,0,544,0,7584,224,0,0,608,640,32,0,288,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005003547894449.html
 link2: https://www.banggood.com/XY-WFBJ-WiFi-Mobile-Phone-Remote-Controller-Module-Network-Time-Service-Disconnected-to-Run-for-Smart-Home-p-1918306.html

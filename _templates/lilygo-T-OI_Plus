@@ -5,7 +5,7 @@ model: T-OI_Plus
 category: diy
 type: Development Board
 standard: global
-image: /assets/images/lilygo-T-OI_Plus.jpg
+image: /assets/device_images/lilygo-T-OI_Plus.webp
 templatec3: '{"NAME":"LilyGO T-OI Plus","GPIO":[0,0,4704,544,1,1,1,1,1,1,1,0,0,0,0,0,0,0,640,608,1,1],"FLAG":0,"BASE":1}'
 chip: c3
 mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50044&Id=1361&FId=t3:50044:3
@@ -21,6 +21,6 @@ Template maps the IO18 and IO19 as I2C to use with the Grove connector.
 
 {% include flash/c3.md %}
 
-![Pinout](/assets/images/lilygo-T-OI_Plus_pinout.jpg)
+![Pinout](/assets/device_images/lilygo-T-OI_Plus_pinout.webp)
 
 [Schematic](https://github.com/Xinyuan-LilyGO/LilyGo-T-OI-PLUS/raw/main/schematic/T-OI_PLUS_Schematic.pdf)

@@ -2,7 +2,7 @@
 date_added: 2021-03-06
 title: EaryKong Doorbell
 model: DB_B
-image: /assets/images/earykong_doorbell.jpg
+image: /assets/device_images/earykong_doorbell.webp
 template9: '{"NAME":"Doorbell","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33004023586.html
 link2: https://www.banggood.com/Private-Model-Tuya-Wifi-Doorbell-Smart-Doorbell-Alarm-Can-be-Equipped-with-100-Wireless-Detectors-p-1822589.html

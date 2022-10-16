@@ -2,7 +2,7 @@
 date_added: 2022-04-18
 title: Stitch 
 model: 35558
-image: /assets/images/stitch_35558.jpg
+image: /assets/device_images/stitch_35558.webp
 template9: '{"NAME":"Stitch 35558","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 21,3|DimmerRange 21,255"}' 
 link: https://www.monoprice.com/product?p_id=35558
 link2: 

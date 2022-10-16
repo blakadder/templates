@@ -5,7 +5,7 @@ model: MIR-HE200
 category: unsupported
 type: Sensor
 link: https://www.aliexpress.com/item/1005002779891512.html
-image: /assets/images/MIR-HE200.jpg
+image: /assets/device_images/MIR-HE200.webp
 link2: 
 link3: 
 chip: XR3

@@ -1,0 +1,16 @@
+---
+date_added: 2022-09-28
+title: 2 CH Smart Switch
+model: 
+image: /assets/device_images/2ch_smart_switch.webp
+template9: '{"NAME":"Generic","GPIO":[32,1,1,1,1,225,33,1,224,288,1,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000245813023.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay Module
+standard: global
+---
+
+![pinout](/assets/device_images/2ch_smart_switch_pinout.webp)

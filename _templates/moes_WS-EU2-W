@@ -2,7 +2,7 @@
 date_added: 2020-05-29
 title: Moes 2 Gang 
 model: WS-EU2-W
-image: /assets/images/moes_WS-EU2-W.jpg
+image: /assets/device_images/moes_WS-EU2-W.webp
 template: '{"NAME":"Moes WS-EU2-W","GPIO":[157,0,53,0,0,18,0,0,17,21,0,22,52],"FLAG":15,"BASE":18}' 
 link: https://www.aliexpress.com/item/32854975013.html
 link2: 

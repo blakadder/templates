@@ -2,7 +2,7 @@
 date_added: 2022-05-08
 title: Automate Things IR Bridge
 model: AT-IRBR v1.4
-image: /assets/images/automate_things_AT-IRBR-1.jpg
+image: /assets/device_images/automate_things_AT-IRBR-1.webp
 template9: '{"NAME":"AT-IRBR-1.4","GPIO":[1088,0,0,0,1056,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"Module 0"}'
 link: https://store.automate-things.co.uk/product/automate-things-ir-bridge/1
 flash: preflashed

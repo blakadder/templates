@@ -2,7 +2,7 @@
 date_added: 2020-04-01
 title: iHomma 6W RGBCCT 
 model: 
-image: /assets/images/ihomma-downlight-rgbcct.jpg
+image: /assets/device_images/ihomma-downlight-rgbcct.webp
 template: '{"NAME":"iHomma RGBWW","GPIO":[0,0,0,0,41,40,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.it/dp/B07TC5CXXT
 link2: https://www.amazon.de/dp/B07TC5CXXT

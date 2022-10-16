@@ -2,8 +2,8 @@
 date_added: 2022-02-01
 title: HaoDeng 
 model: 
-image: /assets/images/haodeng_plug.jpg
-template9: '{"NAME":"HaoDeng","GPIO":[0,0,0,0,21,17,0,0,56,53,0,0,0],"FLAG":0,"BASE":61}' 
+image: /assets/device_images/haodeng_plug.webp
+template: '{"NAME":"HaoDeng","GPIO":[0,0,0,0,21,17,0,0,56,53,0,0,0],"FLAG":0,"BASE":61}' 
 link: https://www.amazon.de/gp/product/B083GJ2BSQ
 link2: 
 mlink: 

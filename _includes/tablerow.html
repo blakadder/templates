@@ -1,11 +1,15 @@
 <tr>
-  <td style="width: 22%"><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;"></td>
+  <td style="width: 22%"><img src="{{ template.image }}" alt="{{ template.title }}" style="max-height:80px;vertical-align: middle;" loading="lazy"></td>
   <td><b><a class="menu" href="{{site.baseurl}}{{ template.url }}">{{ template.title }} {% include pow-table.html %}
     {{ template.type | replace: "Miscellaneous", "" }}        
     {% if template.category contains 'bulb'%}
     Bulb
     {% endif %}
-  </a></b>
+  </a>
+  {% if template.flash == "replace" %}
+  - DIY Replacement
+  {% endif %}
+</b>
   </td>
   <td style="width: 15%;">{{ template.model }}</td>
 </tr>

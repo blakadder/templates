@@ -2,8 +2,8 @@
 date_added: 2022-02-03
 title: QM Smart Cloud 4W 350lm 
 model: QM20190033
-image: /assets/images/qm_QM20190033.jpg
-template9: '{"NAME":"QMSmart RGBCCT","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
+image: /assets/device_images/qm_QM20190033.webp
+template: '{"NAME":"QMSmart RGBCCT","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.lazada.com.my/products/i2098973938-s8431493262.html?
 link2: 
 mlink: https://www.qmsmartcloud.com/product/remote-control-smart-led-spotlight-gu10-4w/

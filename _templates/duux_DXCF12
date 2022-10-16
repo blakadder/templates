@@ -2,7 +2,7 @@
 date_added: 2022-05-25
 title: Duux Whisper Flex Battery Pack 
 model: DXCF12
-image: /assets/images/duux_DXCF12.jpg
+image: /assets/device_images/duux_DXCF12.webp
 template9: '{"NAME":"Duux DXCF12","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 61,2 | TuyaMCU 62,3 | TuyaMCU 12,4 | TuyaMCU 13,5 | TuyaMCU 64,6"}' 
 link3: https://www.alza.de/duux-whisper-smart-black-battery-pack-d5825011.htm
 link2: https://www.idealo.de/preisvergleich/OffersOfProduct/201477637_-whisper-flex-smart-schwarz-dxcf12-duux.html

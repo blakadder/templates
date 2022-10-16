@@ -2,7 +2,7 @@
 date_added: 2021-05-26
 title: ZettaGuard 
 model: S25
-image: /assets/images/zettaguard_S25.jpg
+image: /assets/device_images/zettaguard_S25.webp
 template: '{"NAME":"ZettaGuard S25","GPIO":[0,0,0,0,53,21,0,0,52,0,17,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07NY1PX5C/
 link2: 

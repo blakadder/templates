@@ -2,7 +2,7 @@
 date_added: 2021-10-21
 title: Eques Elf Smart Plug 
 model: EQP01WTGY
-image: /assets/images/eques_EQP01WTGY.jpg
+image: /assets/device_images/eques_EQP01WTGY.webp
 template9: '{"NAME":"EQP01WTGY","GPIO":[0,0,0,320,0,0,0,0,96,0,0,224,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.newegg.com/eques-eqp01wtgy-wifi/p/35B-004D-00001
 link2: https://www.amazon.com/dp/B0753Y641T

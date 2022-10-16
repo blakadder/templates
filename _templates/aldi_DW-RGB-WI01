@@ -2,7 +2,7 @@
 date_added: 2022-03-14
 title: Aldi Casalux RGB
 model: DW-RGB-WI01
-image: /assets/images/aldi_DW-RGB-WI01.jpg
+image: /assets/device_images/aldi_DW-RGB-WI01.webp
 template9: '{"NAME":"DW-RGB-WI01","GPIO":[1088,0,0,0,416,0,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aldi-sued.de/de/p.casalux-wifi-led-rgb-light-strip.490000000000711151.html
 link2: 

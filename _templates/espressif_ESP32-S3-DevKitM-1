@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 mlink: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitm-1.html
-image: /assets/images/espressif_ESP32-S3-DevKitM-1.jpg
+image: /assets/device_images/espressif_ESP32-S3-DevKitM-1.webp
 flash: serial
 chip: s3
 templates3: '{"NAME":"ESP32-S3-DevKitM-1","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1376],"FLAG":0,"BASE":1}'
@@ -20,6 +20,6 @@ When the board is booted into debug by holding `BOOT` and pressing the `RESET` b
 
 ## Device Notes
 
-![Espressif ESP32-S3-DevKitM-1 Front](/assets/images/espressif_ESP32-S3-DevKitM-1_front.png "Espressif ESP32-S3-DevKitM-1 Front")
+![Espressif ESP32-S3-DevKitM-1 Front](/assets/device_images/espressif_ESP32-S3-DevKitM-1_front.webp "Espressif ESP32-S3-DevKitM-1 Front")
 
-![Espressif ESP32-S3-DevKitM-1Pinout](/assets/images/espressif_ESP32-S3-DevKitM-1_pinout.jpg "Espressif ESP32-S3-DevKitM-1 Pinout")
+![Espressif ESP32-S3-DevKitM-1Pinout](/assets/device_images/espressif_ESP32-S3-DevKitM-1_pinout.webp "Espressif ESP32-S3-DevKitM-1 Pinout")

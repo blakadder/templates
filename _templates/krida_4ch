@@ -2,13 +2,13 @@
 date_added: 2022-08-25
 title: KRIDA 4 Channel 10A Electromagnetic
 model: 
-image: /assets/images/krida_4ch.jpg
-template9: '{"NAME":"4CH Relay","GPIO":[0,0,0,0,0,0,0,0,23,22,24,21,0],"FLAG":0,"BASE":18}' 
+image: /assets/device_images/krida_4ch.webp
+template: '{"NAME":"4CH Relay","GPIO":[0,0,0,0,0,0,0,0,23,22,24,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.tindie.com/products/bugrovs2012/wifi-tasmota-4-channel-10-amps-relay-module/
 link2: 
 mlink: 
 flash: preflashed
 category: relay
 type: Relay Board
-standard: eu, uk, global
+standard: global
 ---

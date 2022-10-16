@@ -1,0 +1,14 @@
+---
+date_added: 2022-09-08
+title: Milfra 1 Gang
+model: MFC01
+image: /assets/device_images/milfra_MFC01.webp
+template9: '{"NAME":"Milfra MFC01","GPIO":[290,320,1,1,0,33,0,0,224,0,1,0,32,0],"FLAG":0,"BASE":8}' 
+link: https://www.aliexpress.com/item/1005004702497913.html
+link2: 
+mlink: https://www.milfra.com/products/milfra-mfc01-smart-touch-switch-1-gang-with-glass-screen-switch-support-google-home-amazon-alexa
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---

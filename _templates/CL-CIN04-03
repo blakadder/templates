@@ -1,9 +1,9 @@
 ---
-date_added: 2022-06-27
+date_added: 2022-09-07
 title: CIN04 240W
 model: CL-CIN04-03
-image: /assets/images/CL-CIN04-03.jpg
-template9: '{"NAME":"CIN04-03 Strip","GPIO":[0,0,0,0,416,0,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+image: /assets/device_images/CL-CIN04-03.webp
+template9: '{"NAME":"CL-CIN04-03","GPIO":[32,0,0,0,416,0,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B09C83M5RR
 link2: 
 mlink: https://www.cl-light.com/productdetail_controller_en21.html
@@ -13,3 +13,16 @@ type: LED Controller
 standard: global
 chip: TYWE3S
 ---
+It's a generic WiFi controller, at the time of this writing it's sold by "ALANTOP" for $6 on Amazon. It says it takes 12-24V at 240W. The device's casing says 5A per channel.
+The casing has a spot and a terminal for a 4th channel, but it is missing the MOSFET on the board. I'm unsure if adding a MOSFET will enable it.
+
+For flashing follow this page on Tasmota: <https://tasmota.github.io/docs/devices/TYWE3S/>.
+
+There is only one IC on this chip, which the three GPIO pins go through before reaching the color channel outputs on the board.
+The chip in question just for reference: <https://www.nexperia.com/products/analog-logic-ics/asynchronous-interface-logic/buffers-inverters-drivers/HEF4050BT.html>
+
+![The unit's casing](https://i.imgur.com/doFNX0K.jpg)
+
+![Front of the circuit board](https://i.imgur.com/yWigvf8.jpg)
+
+![Rear of the circuit board](https://i.imgur.com/u7nw34K.jpg)

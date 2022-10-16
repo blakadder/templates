@@ -2,7 +2,7 @@
 date_added: 2021-01-15
 title: Shawader 1Ch Touch Light
 model: WLS028 1
-image: /assets/images/shawader_WLS028_1.jpg
+image: /assets/device_images/shawader_WLS028_1.webp
 template9: '{"NAME":"ShawaderTuya1C","GPIO":[0,0,0,0,0,32,0,0,0,0,0,224,288,0],"FLAG":0,"BASE":18}'
 template9_alt: '{"NAME":"ShawaderTuya1C","GPIO":[0,544,0,0,0,32,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.aliexpress.com/item/33030801415.html

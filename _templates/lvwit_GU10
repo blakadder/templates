@@ -2,7 +2,7 @@
 date_added: 2021-12-17
 title: LVWIT 5W 350Lm
 model: 
-image: /assets/images/lvwit_GU10.jpg
+image: /assets/device_images/lvwit_GU10.webp
 template9: '{"NAME":"LVWITGU10","GPIO":[0,0,0,0,0,0,0,0,0,3008,0,3040,0,0],"FLAG":0,"BASE":27}' 
 link: https://www.amazon.co.uk/dp/B083DNKQMK/
 link2: 

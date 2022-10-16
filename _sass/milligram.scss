@@ -579,7 +579,7 @@ td:first-child,
 th:first-child {
   padding-left: 1;
   text-align: center;
-  // width: 150px;
+  min-width: 40px;
 }
 
 td:nth-child(2),

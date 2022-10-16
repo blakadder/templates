@@ -2,7 +2,7 @@
 date_added: 2021-10-09
 title: Sinilink PCIe Computer Remote
 model: XY-WPCE
-image: /assets/images/sinilink_XY-WPCE.jpg
+image: /assets/device_images/sinilink_XY-WPCE.webp
 template9: '{"NAME":"XY-WPCE","GPIO":[1,1,320,1,32,224,0,0,160,0,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO114 1 | SwitchMode1 2"}' 
 link: https://www.aliexpress.com/item/1005003187549517.html
 link2: https://www.banggood.com/XY-WPCE-Computer-Remote-Switch-Controller-PCIE-Wireless-WIFI-Smart-Controller-Timing-Delay-Reboot-p-1897350.html
@@ -15,6 +15,6 @@ standard: global
 
 It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter. Alternatively, you can strip some Ethernet Cat5e cable, which has the perfect diameter to fit in this board without soldering.
 
-![Pinout](/assets/images/sinilink_XY-WPCE_pinout.jpg)
+![Pinout](/assets/device_images/sinilink_XY-WPCE_pinout.webp)
 
 Switch1 is detached and is used to monitor power status of the PC. It will be discovered as a binary sensor in Home Assistant.

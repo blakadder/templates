@@ -5,7 +5,7 @@ type: Dimmable
 category: bulb
 standard: e26
 link: https://www.amazon.com/Feit-Electric-Equivalent-BR30-927CA/dp/B07GG5ZV5Y
-image: /assets/images/feit_electric-BR30927CAAG.jpg
+image: /assets/device_images/feit_electric-BR30927CAAG.webp
 template: '{"NAME":"Feit BR30 WW","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}'
 mlink: https://www.feit.com/product/smart-wifi-light-bulb/650-lumen-2700k-smart-wifi-bulb-2/
 ---

@@ -2,7 +2,7 @@
 date_added: 2020-05-30
 title: Gosund 8W 800lm
 model: EUGS-WB4
-image: /assets/images/gosund_EUGS-WB4.jpg
+image: /assets/device_images/gosund_EUGS-WB4.webp
 template: '{"NAME":"Gosund RGBW 8W","GPIO":[0,0,0,0,41,40,0,0,37,38,39,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/gp/product/B07R1W2BPH
 link2: https://www.amazon.co.uk/Gosund-Changing-Equivalent-Dimmable-Required/dp/B07R1W2BPH
@@ -12,4 +12,4 @@ category: bulb
 type: RGBW
 standard: b22
 ---
-![Label](/assets/images/gosund_EUGS-WB4-1_label.jpg)
+![Label](/assets/device_images/gosund_EUGS-WB4-1_label.webp)

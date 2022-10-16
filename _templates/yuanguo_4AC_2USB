@@ -5,7 +5,7 @@ category: plug
 type: Power Strip
 standard: eu
 link: https://www.amazon.it/Multipresa-Yuanguo-Intelligente-Controllo-Compatibile/dp/B07L3FMYSQ
-image: /assets/images/yuanguo_4AC_2USB.jpg
+image: /assets/device_images/yuanguo_4AC_2USB.webp
 template: '{"NAME":"YUANGUO","GPIO":[13,20,0,24,19,18,0,0,17,22,21,23,157],"FLAG":0,"BASE":1}' 
 link2: https://www.amazon.de/dp/B07L3FMYSQ
 

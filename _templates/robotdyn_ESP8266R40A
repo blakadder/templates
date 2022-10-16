@@ -2,7 +2,7 @@
 date_added: 2022-08-23
 title: RobotDyn 40A
 model: ESP8266R40A
-image: /assets/images/robotdyn_ESP8266R40A.jpg
+image: /assets/device_images/robotdyn_ESP8266R40A.webp
 template9: '{"NAME":"RobotDyn ESP8266R40A","GPIO":[1,1,0,1,1,0,0,0,0,0,224,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/1005003529835760.html
 link2: 

@@ -2,7 +2,7 @@
 date_added: 2020-06-19
 title: SK-A801-01-US 1 Gang
 model: SK-A801-01-US
-image: /assets/images/SK-A801-01-US.jpg
+image: /assets/device_images/SK-A801-01-US.webp
 template: '{"NAME":"jsankou US Switch 1 Gang","GPIO":[157,0,0,0,0,0,0,0,17,29,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32824665903.html
 link2: 

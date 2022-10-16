@@ -2,7 +2,7 @@
 date_added: 2022-01-19
 title: Duux Whisper Flex Smart
 model: DXCF10
-image: /assets/images/duux_DXCF10.jpg
+image: /assets/device_images/duux_DXCF10.webp
 template9: '{"NAME":"Duux Fan","GPIO":[0,0,0,0,0,0,0,0,0,0,2304,0,2272,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.de/dp/B088WBKJ7J
 link2: https://www.idealo.de/preisvergleich/Typ/8716164994780.html

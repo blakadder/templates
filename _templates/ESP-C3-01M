@@ -5,7 +5,7 @@ model: ESP-C3-01M
 category: diy
 type: Module
 standard: global
-image: /assets/images/ESP-C3-01M.jpg
+image: /assets/device_images/ESP-C3-01M.webp
 templatec3: 'Module 1'
 chip: c3
 mlink: https://www.alibaba.com/product-detail/Ai-Thinker-NEW-ESP-C3-01M_1600232679751.html
@@ -16,7 +16,7 @@ link3:
 
 This module is pin compatible with ESP-01M.
 
-![Pinout](/assets/images/ESP-C3-01M_pinout.jpg)
+![Pinout](/assets/device_images/ESP-C3-01M_pinout.webp)
  
 There are two different versions of this module:
 

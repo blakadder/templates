@@ -6,13 +6,13 @@ category: sensor
 type: Gas Sensor
 standard: global
 flash: serial
-image: /assets/images/digoo_DG-ZXGS21.jpg
+image: /assets/device_images/digoo_DG-ZXGS21.webp
 template9: '{"NAME":"DG-ZXGS21","GPIO":[1,2272,1,2304,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/1005001616285937.html
 link2: https://www.banggood.com/DIGOO-DG-ZXGS21-Smart-WIFI-Gas-Leak-Detector-APP-Remote-Alert-Gas-Alarm-Sensor-Work-with-Digoolife-Smartlife-Tuya-APP-p-1754425.html
 link3: https://www.manomano.de/p/tuya-wifi-erdgassensor-haushalt-intelligenter-brennbarer-gasalarmmelder-gaslecksensor-kompatibel-mit-amazon-alexa-google-assistantschwarz-wei-28123833
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 This is a Tuya gas and heat detector and alarm with a clock and info LCD display. It has a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module and a [GD32E230C8T6](http://www.gd32mcu.com/data/documents/shujushouce/GD32E230xx_Datasheet_Rev1.3.pdf) STM32 compatible MCU.
 
@@ -24,7 +24,7 @@ Grip the backside clips with pliers from the outer rim and slowly release all 4 
 
 I did not manage to find a way to disable the MCU so you have to cut the RX pin PCB trace to flash the Wi-Fi module. 
 
-![Cut Trace Here](/assets/images/digoo_DG-ZXGS21_cuttrace.jpg)
+![Cut Trace Here](/assets/device_images/digoo_DG-ZXGS21_cuttrace.webp)
 
 I would recommend not connecting 3v3 to your serial-to-USB adapter but power the device using its USB port. 
 

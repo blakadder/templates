@@ -2,7 +2,7 @@
 date_added: 2021-02-06
 title: Welaik 1 Gang 
 model: A911-WIFI
-image: /assets/images/welaik_A911-WIFI.jpg
+image: /assets/device_images/welaik_A911-WIFI.webp
 link: https://www.aliexpress.com/item/1005001597644005.html
 link2: 
 mlink: 

@@ -23,13 +23,13 @@ your flashing tool / software of choice.
 
 The [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) chip is located on the hidden side of the board (see image below), so you'll have to unscrew the PCB as well and
 turn it around.
-![](/assets/images/vivitar_HA-1007-AU_chip.jpg)
+![](/assets/device_images/vivitar_HA-1007-AU_chip.webp)
 
 As usual you'll have to connect to VCC/3V3, GND, RX, and TX to flash.
 
 Once connected you will also have to push the button located on the PCB (see picture below) to be able to
 re-program / flash with Tasmota.
-![](/assets/images/vivitar_HA-1007-AU_button.jpg)
+![](/assets/device_images/vivitar_HA-1007-AU_button.webp)
 
 Be careful not to pinch any cables when closing up power strip again after flashing.
 

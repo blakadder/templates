@@ -5,7 +5,7 @@ model: WT32C3-01N
 category: diy
 type: Module
 standard: global
-image: /assets/images/WT32C3-01N.jpg
+image: /assets/device_images/WT32C3-01N.webp
 templatec3: 'Module 1'
 chip: c3
 footprint: tywe2s
@@ -15,7 +15,9 @@ link: https://www.alibaba.com/product-detail/CE-RoHS-WT32C3-01N-4MB-Flash_160035
 
 {% include flash/c3.md %}
 
-![Pinout](/assets/images/WT32C3-01N_pinout.jpg)
+<sub>This module has no GPIO8, pulling GPIO9 low is sufficient to boot in flash mode</sub>
+
+![Pinout](/assets/device_images/WT32C3-01N_pinout.webp)
 
 ## Running
 For normal operation connect EN to VCC (pull high) to enable the C3 chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.
@@ -23,3 +25,17 @@ For normal operation connect EN to VCC (pull high) to enable the C3 chip. GPIO9 
 ESP32's are power hungry on boot and the USB to serial adapter might not be able to provide enough power for that. Use a stable 3.3v power supply that can supply more than 500 mA.
 
 [Datasheet](/assets/WT32C3-01N_datasheet.pdf)
+
+## GPIO Mappings
+
+|TYWE2S  |WT32C3-01n|
+|---|---|
+|RST |EN  |
+|AD  |GPIO01  |
+|GPIO01  |GPIO21  |
+|GPIO03  |GPIO20  |
+|GPIO04  |GPIO10  |
+|GPIO05  |GPIO03  |
+|GPIO12  |GPIO05  |
+|GPIO13  |GPIO06  |
+|GPIO14  |GPIO04  |

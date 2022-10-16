@@ -5,15 +5,16 @@ model: ESP-12H
 category: diy
 type: Module
 standard: global
-image: /assets/images/ESP-12H.jpg
+image: /assets/device_images/ESP-12H.webp
 templates2: '{"NAME":"ESP-12H","GPIO":[1,1,1,0,0,1,0,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0,1,1,0,0],"FLAG":0,"BASE":1}'
 chip: s2
 footprint: esp12
 mlink: https://www.alibaba.com/product-detail/Ai-Thinker-wifi-module-ESP8266-upgrade_1600220995249.html
 link: https://www.aliexpress.com/item/1005002748209013.html
 ---
+Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compatible module.
 
-![Pinout](/assets/images/ESP-12H_pinout.jpg)
+![Pinout](/assets/device_images/ESP-12H_pinout.webp)
 
 Early line of ESP-12H modules has a labelling error. IO28 is supposed to be IO29. The image above is the correct pinout.
 

@@ -2,14 +2,14 @@
 date_added: 2022-07-22
 title: Moes 10A
 model: MS-101
-image: /assets/images/moes_MS-101.jpg
+image: /assets/device_images/moes_MS-101.webp
 template9: '{"NAME":"Moes MS-101","GPIO":[0,0,0,0,0,320,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000418761222.html
 link2: 
 mlink: https://www.moeshouse.com/
 flash: serial
 category: relay
-type: Module
+type: Relay Module
 standard: global
 ---
 Works for MOES MS-101 Smart Swich, purchased from Aliexpress in May 2022, came with esp 8285 chip, flashed with Tasmotizer the same as any chip. Thanks to the Russian page

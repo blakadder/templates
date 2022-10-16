@@ -2,7 +2,7 @@
 date_added: 2021-07-30
 title: Heltec WiFi Kit 32
 model: 
-image: /assets/images/heltec_wifi_kit_32.jpg
+image: /assets/device_images/heltec_wifi_kit_32.webp
 template32: '{"NAME":"WiFi Kit 32","GPIO":[1,1,1,1,640,1,1,1,1,1,1,608,3840,1,1,1,0,1,1,1,0,224,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.com/gp/product/B07DKD79Y9
 link2: 

@@ -5,7 +5,7 @@ model: ESP-C3-01M-Kit
 category: diy
 type: Development Board
 standard: global
-image: /assets/images/ai-thinker_ESP-C3-01M-Kit.jpg
+image: /assets/device_images/ai-thinker_ESP-C3-01M-Kit.webp
 templatec3: '{"NAME":"ESP-C3-01M-Kit","GPIO":[1,1,1,416,417,418,1,1,1,1,1,0,0,0,0,0,0,0,420,419,1,1],"FLAG":0,"BASE":1}'
 chip: c3
 mlink: https://www.alibaba.com/product-detail/Ai-Thinker-ESP-C3-01M-Kit_1600294814076.html
@@ -14,7 +14,7 @@ link2: https://www.amazon.com/dp/B09G15CDXG
 link3: https://www.alibaba.com/product-detail/Ai-Thinker-ESP-C3-01M-Kit_1600294814076.html
 ---
 
-This is a weird development board. Its form factor is one breadboard row wider than a standard D1 Mini. Five of the GPIO's are used by an RGB, a cool white and a warm white LED. 
+This is a weird development board. Its form factor is one breadboard row wider than a standard D1 Mini. Five of the GPIO's are used by an RGB, a cool white and a warm white LED.
 
 The template is configured with the cool white LED being LedLink and the warm white one as the power LED.
 
@@ -22,6 +22,6 @@ Board comes with headers soldered in as in the image making its difficult to use
 
 {% include flash/c3.md %}
 
-![Back](/assets/images/ai-thinker_ESP-C3-01M-Kit_back.jpg)
+![Back](/assets/images/ai-thinker_ESP-C3-01M-Kit_back.webp)
 
 [Datasheet](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-01m-kit-v1.0_specification.pdf)

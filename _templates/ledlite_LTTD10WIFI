@@ -2,7 +2,7 @@
 date_added: 2020-12-23
 title: LEDLite CCT 10W Fire Rated 
 model: LTTD10WIFI
-image: /assets/images/ledlite_LTTD10WIFI.jpg
+image: /assets/device_images/ledlite_LTTD10WIFI.webp
 template9: '{"NAME":"LEDLite-LTTD10Wifi","GPIO":[0,0,0,0,0,0,0,0,417,0,416,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.tlc-direct.co.uk/Products/LTTD10WIFI.htmlled
 link2: 

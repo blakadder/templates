@@ -1,0 +1,15 @@
+---
+date_added: 2022-10-07
+title: iGET Security 
+model: DP16
+image: /assets/device_images/iget_security_DP16.webp
+template9: '{"NAME":"iGET Security DP16","GPIO":[320,1,576,1,2656,2720,0,0,2624,32,0,224,0,0],"FLAG":0,"BASE":45}' 
+link: https://www.alza.sk/iget-security-dp16-d5721664.htm
+link2: 
+mlink: https://iget.eu/cs/dp16-security-smart-bezdratova-rizena-zasuvka
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+This template is the same as published on products: BlitzWolf SHP6 15A Power Monitoring Plug (BW-SHP6) or Gosund Power Monitoring Plug (EP2). The device requires proper power calibration. In this configuration, in case the power plug is on - the red light shine. Blue light is shining when the plug is not connected to the network. In case you want to have the blue light to indicate a power state, then interchange GPIO0 and GPIO2 values. The product is mainly sold in Czech and Slovak republic. 

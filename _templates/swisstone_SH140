@@ -1,0 +1,18 @@
+---
+date_added: 2022-09-05
+title: Swisstone 4AC 4USB
+model: SH 140
+image: /assets/device_images/swisstone_SH140.webp
+template9: '{"NAME":"Swisstone SH140","GPIO":[0,576,0,32,225,224,0,0,226,227,228,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B07NQB7ML4
+link2: https://www.idealo.de/preisvergleich/Typ/4260117674181.html
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: eu
+chip: TYWE2S
+---
+Like Hama 4AC 4USB powerstrip (00176574), but LedLink_i. Added 'webbutton5 USB' (as there) and 'Rule1 ON button1#state=3 DO Power0 2 ENDON' to toggle all outlets together with a long buttonpress. 'so32 20' sets that to 2 seconds and 'Rule1 1' activates it. Powerstrips don't have 16 timers each outlet, but for all outlets. So they are somewhat limited and you may have to use rules.
+
+I've found it more easy to unsolder the TYWE2S instead of the USB relay.

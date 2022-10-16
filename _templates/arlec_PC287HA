@@ -2,7 +2,7 @@
 date_added: 2022-08-05
 title: Arlec Twin Socket with Energy Meter
 model: PC287HA
-image: /assets/images/arlec_PC287HA.jpg
+image: /assets/device_images/arlec_PC287HA.webp
 template9: '{"NAME":"Arlec PC287HA","GPIO":[0,32,0,320,2624,2656,0,0,224,2720,225,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.co.nz/arlec-grid-connect-smart-twin-socket-with-energy-meter-and-surge-protection_p0273372
 link2: 

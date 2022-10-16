@@ -2,7 +2,7 @@
 date_added: 2022-06-07
 title: Moes Tuya Remote Control
 model: UFO-R6
-image: /assets/images/moes_UFO-R6.jpg
+image: /assets/device_images/moes_UFO-R6.webp
 template: '{"NAME":"Moes IR Controller","GPIO":[255,255,255,255,255,51,0,0,0,17,8,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.aliexpress.com/item/32994170751.html
 link2: 

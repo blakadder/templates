@@ -6,7 +6,7 @@ type: Switch
 standard: eu
 flash: tuya-convert
 link: https://www.amazon.de/dp/B07MHXP46M
-image: /assets/images/jinvoo_SM-SW101-3.jpg
+image: /assets/device_images/jinvoo_SM-SW101-3.webp
 template: '{"NAME":"Jinvoo Wall Sw","GPIO":[52,0,0,18,22,19,0,0,17,21,0,23,0],"FLAG":1,"BASE":18}' 
 mlink: http://www.xenon.cn/light-switch102/sm-sw101-3/sm-sw101-3z-.html
 ---

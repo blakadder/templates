@@ -2,7 +2,7 @@
 date_added: 2021-01-21
 title: Gosund Single Pole
 model: SW5
-image: /assets/images/gosund_SW5.jpg
+image: /assets/device_images/gosund_SW5.webp
 template9: '{"NAME":"Gosund SW5","GPIO":[32,0,320,0,0,0,0,0,0,0,224,0,576,0],"FLAG":0,"BASE":18}' 
 template9_alt: '{"NAME":"Gosund SW5","GPIO":[32,0,576,0,0,0,0,0,0,0,224,0,320,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B0871JF1JZ/

@@ -2,7 +2,7 @@
 date_added: 2020-06-02
 title: eMylo 2 Channel
 model: XL9252WI
-image: /assets/images/emylo_XL9252WI.jpg
+image: /assets/device_images/emylo_XL9252WI.webp
 template: '{"NAME":"eMylo XL9252WI","GPIO":[0,255,0,0,56,22,0,0,21,0,12,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07PZL2YXJ/
 link2: 

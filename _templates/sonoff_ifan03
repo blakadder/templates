@@ -6,7 +6,7 @@ category: relay
 type: Fan Controller
 standard: global
 mlink: https://sonoff.tech/product/wifi-diy-smart-switches/ifan03
-image: /assets/images/sonoff_iFan03.jpg
+image: /assets/device_images/sonoff_iFan03.webp
 template: '{"NAME":"SonoffiFan03","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
 link: https://itead.cc/product/sonoff-ifan03-wi-fi-ceiling-fan-and-light-controller/
 link2: https://www.banggood.com/SONOFF-IFan03-AC100-240V-5060Hz-WiFi-Ceiling-Fan-And-Light-Controller-with-RM433-RF-Remote-Controller-p-1496747.html
@@ -26,7 +26,7 @@ If you want only the light to turn on when you power up, use `PowerOnState 0` an
 
 Use the labelled pins on top to flash.
 
-![](/assets/images/sonoff_iFan03_pinout.jpg)
+![](/assets/device_images/sonoff_iFan03_pinout.webp)
 
 [More Photos](https://github.com/arendst/Tasmota/issues/5988#issuecomment-510177762)
 

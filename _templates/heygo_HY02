@@ -2,7 +2,7 @@
 date_added: 2021-09-11
 title: Heygo 02
 model: HY02
-image: /assets/images/heygo_HY02.jpg
+image: /assets/device_images/heygo_HY02.webp
 template9: '{"NAME":"Heygo 02","GPIO":[0,0,0,0,320,0,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B075DJL39W/
 link2: 

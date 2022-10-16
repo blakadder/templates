@@ -2,7 +2,7 @@
 date_added: 2022-05-15
 title: Vivitar Plug 
 model: HA-1005N-AU
-image: /assets/images/vivitar_HA-1005N-AU.jpg
+image: /assets/device_images/vivitar_HA-1005N-AU.webp
 template9: '{"NAME":"HA-1005N-AU","GPIO":[0,0,0,0,544,0,0,0,224,64,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com.au/Vivitar-Wireless-Remote-Security-Charger/dp/B074P8KF7N
 link2: 
@@ -16,5 +16,5 @@ Devices on original firmware can be flashed with tuya-convert, however if your d
 
 The device comes apart relatively easily, with 2 screws in the back and then use a couple of guitar picks to pop the outer cover off. There are 2 more screws holding in the PCB. Be careful removing the PCB as the USB port tends to catch on the plastic housing.
 
-![/assets/images/vivitar_HA-1005N-AU_pinout.jpg]
-![/assets/images/vivitar_HA-1005N-AU_disassembled.jpg]
+![image: /assets/device_images/vivitar_HA-1005N-AU_pinout.webp]
+![image: /assets/device_images/vivitar_HA-1005N-AU_disassembled.webp]

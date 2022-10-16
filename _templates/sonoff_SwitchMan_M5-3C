@@ -2,7 +2,7 @@
 date_added: 2021-12-30
 title: Sonoff SwitchMan M5-3C 3 Gang
 model: ESP32D0-MSW-T5
-image: /assets/images/sonoff_SwitchMan_M5-3C.jpg
+image: /assets/device_images/sonoff_SwitchMan_M5-3C.webp
 template32: '{"NAME":"Sonoff M5-3C","GPIO":[33,0,0,0,32,576,0,0,0,0,0,34,0,0,416,225,0,0,226,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://itead.cc/product/sonoff-switchman-smart-wall-switch-m5/
 link2: https://www.aliexpress.com/item/1005003618822308.html
@@ -14,7 +14,7 @@ category: switch
 type: Switch
 standard: [eu, uk]
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 To replicated original firmware behaviour, the red LEDs are configured as a PWM light and are controlled using `Power4` and the dimmer slider.
 
@@ -26,10 +26,10 @@ Unclip the panel from the base. Remove two bottom screws and lift the plastic co
 
 The five needed pins (3V3, RX, TX, GPIO0 and GND) can be easily identified. 
 
-![Pins](/assets/images/sonoff_SwitchMan_M5-3C_pinout.jpg)
+![Pins](/assets/device_images/sonoff_SwitchMan_M5-3C_pinout.webp)
 
 After the flash is complete disconnect the 3.3V power and power the touch plate using its base.
 
 It is not needed to solder the wires, just use header pins and make sure there's contact by applying some pressure.
 
-![No Solder](/assets/images/sonoff_SwitchMan_M5-3C_wiring.jpg)
+![No Solder](/assets/device_images/sonoff_SwitchMan_M5-3C_wiring.webp)

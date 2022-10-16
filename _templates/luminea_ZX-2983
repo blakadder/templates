@@ -2,7 +2,7 @@
 date_added: 2020-06-25
 title: Luminea 5.5W 470lm
 model: ZX-2983
-image: /assets/images/luminea_ZX-2983.jpg
+image: /assets/device_images/luminea_ZX-2983.webp
 template: '{"NAME":"Luminea ZX-2983","GPIO":[0,0,0,0,0,0,0,0,181,0,180,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/Luminea-Home-Control-Gl%C3%BChbirne-WLAN-LED-Lampe/dp/B081NQQRMX
 link2: https://www.pearl.de/a-ZX2983-3103.shtml

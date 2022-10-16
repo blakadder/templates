@@ -2,21 +2,36 @@
 date_added: 2022-03-13
 title: Shelly Plus 2PM
 model: 2PM
-image: /assets/images/shelly_plus_2PM.jpg
-template32: '{"NAME":"Shelly Plus 2PM","GPIO":[320,0,192,0,0,0,1,1,225,224,0,0,0,0,193,0,0,0,0,0,0,608,3840,32,0,0,0,0,0,640,0,0,3456,4736,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,32000,40000,3350"}' 
+image: /assets/device_images/shelly_plus_2PM.webp
+template32: '{"NAME":"Shelly Plus 2PM PCB v0.1.9","GPIO":[320,0,0,0,32,192,0,0,225,224,0,0,0,0,193,0,0,0,0,0,0,608,640,3456,0,0,0,0,0,0,0,4736,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,10000,10000,3350"}'
+template32_alt: '{"NAME":"Shelly Plus 2PM PCB v0.1.5","GPIO":[320,0,192,0,0,0,1,1,225,224,0,0,0,0,193,0,0,0,0,0,0,608,3840,32,0,0,0,0,0,640,0,0,3456,4736,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,32000,40000,3350"}'
 link: https://www.domadoo.fr/en/objets-communicants/6164-shelly-dual-wi-fi-smart-relay-switch-with-energy-monitoring-shelly-plus-2pm-3800235265031.html
 link2: https://mediarath.de/products/shelly-plus-2pm-16a-dc-ac-schalter-wifi-power-metring-pro-kanal-tasmota?_pos=3&_sid=85b32b5db&_ss=r&variant=43032552046805
 mlink: https://shelly.cloud/shelly-plus-2pm/
 flash: serial
 category: relay
-type: Relay
+type: Switch Module
 standard: global
 chip: solo1
 ---
 
-![](/assets/images/shelly_plus_1_pinout.jpg)
-Pin-Layout on the image is for shelly plus 1PM, credit goes to Kalin Dimitrov.
-The pin ports on this board can handle dupont cables if done carefully, and will probably crumble shortly thereafter. 
-The other surface connectors seem unusually weakly connected to the PCB, and you may destroy them while using them.
+## Hardware Versions
 
-The ADC-parameters are not known yet, only guesses. They seem to be different to the Shelly 2.5 and other Shelly devices that are ESP8266.
+There are currently 3 known hardware versions of the Shelly Plus 2PM. The pinout is incompatible between PCB version 0.1.5 and 0.1.9.
+
+- PCB v0.1.5 with ESP32-U4WDH (Single core, 160MHz, 4MB embedded flash) Sold pre 2022
+- PCB v0.1.9 with ESP32-U4WDH (Single core, 160MHz, 4MB embedded flash) Sold first half of 2022
+- PCB v0.1.9 with ESP32-U4WDH (Dual core, 240MHz, 4MB embedded flash) Sold since 2022-09-20 (or earlier)
+
+The PCB version can be found printed on the PCB.
+
+4 units bought directly from Shelly 2022-09-20 where confirmed to be PCB v0.1.9 with 3 units being dual core ESP32-U4WDH, the last a single core. Both single core and dual core works with solo1 firmware
+
+The internal temperature sensor on PCB v0.1.9 was desoldered and measured to be 10k fixed resistor to VCC in series with a 10k@25C NTC to ground. Beta constant is guessed to be 3350.
+
+## Serial Pinout
+
+![](/assets/device_images/shelly_plus_1_pinout.webp)
+Pin-Layout on the image is for shelly plus 1PM, credit goes to Kalin Dimitrov.
+The pin ports on this board can handle Dupont cables if done carefully, and will probably crumble shortly thereafter.
+The other surface connectors seem unusually weakly connected to the PCB, and you may destroy them while using them.

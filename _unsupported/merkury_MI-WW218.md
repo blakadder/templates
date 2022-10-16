@@ -4,7 +4,7 @@ title: Merkury MI-WW218
 category: unsupported
 type: Plug
 link: https://www.walmart.com/ip/Merkury-Innovations-Smart-Wi-Fi-Plug-works-with-Google-Assistant/920802310
-image: /assets/images/merkury_MI-WW218.jpg
+image: /assets/device_images/merkury_MI-WW218.webp
 link2: 
 link3: 
 chip: NonESP 

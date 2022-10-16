@@ -6,7 +6,7 @@ category: diy
 type: Display
 standard: global
 mlink: https://www.adafruit.com/product/4800
-image: /assets/images/adafruit_MagTag.jpg
+image: /assets/device_images/adafruit_MagTag.webp
 flash: serial
 chip: s2
 templates2: '{"NAME":"MagTag","GPIO":[0,1376,0,4705,4704,0,0,0,0,0,1,35,34,288,33,32,3840,480,1,0,0,3872,608,608,864,896,832,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
@@ -25,11 +25,11 @@ When the board is booted into debug by holding `BOOT` and pressing the `RESET` b
 
 ## Device Notes
 
-![Adafruit MagTag Front](/assets/images/adafruit_MagTag_front.jpg "Adafruit MagTag Front")
+![Adafruit MagTag Front](/assets/device_images/adafruit_MagTag_front.webp "Adafruit MagTag Front")
 
-![Adafruit MagTag Back](/assets/images/adafruit_MagTag_back.jpg "Adafruit MagTag Back")
+![Adafruit MagTag Back](/assets/device_images/adafruit_MagTag_back.webp "Adafruit MagTag Back")
 
-![Adafruit MagTag Pinout](/assets/images/adafruit_MagTag_pinout.png "Adafruit MagTag Pinout")
+![Adafruit MagTag Pinout](/assets/device_images/adafruit_MagTag_pinout.webp "Adafruit MagTag Pinout")
 
 [Product Guide](https://learn.adafruit.com/adafruit-magtag/)
 

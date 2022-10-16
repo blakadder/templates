@@ -5,11 +5,11 @@ model: 6910HA
 category: unsupported
 type: Dimmer
 link: https://www.bunnings.com.au/search/products?page=1&q=deta%20grid%20connect&sort=BoostOrder&pageSize=60
-image: /assets/images/deta_6910HA.jpg 
+image: /assets/device_images/deta_6910HA.webp 
 link2: 
 link3: https://www.detaelectrical.com.au/
 chip: WR3 - RTL8710BN
 ---
 This is the first product from the Grid Connect Range From Bunnings I have come across which is NOT an ESP device, Hopefully not a trend. Looks to be Pin-for-Pin replaceable with esp12 style configuration, Will Investigate further at another time.
 
-![PCB](/assets/images/deta_6910HA_pcb.jpg)
+![PCB](/assets/device_images/deta_6910HA_pcb.webp)

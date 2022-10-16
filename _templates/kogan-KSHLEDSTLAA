@@ -3,7 +3,7 @@ date_added: 2019-12-12
 title: Kogan 4.5W 330lm 110°
 model: KSHLEDSTLAA
 link: https://www.kogan.com/au/buy/kogan-smarterhome-ambient-rgbw-smart-led-spotlight-gu10/
-image: /assets/images/kogan-KSHLEDSTLAA.jpg
+image: /assets/device_images/kogan-KSHLEDSTLAA.webp
 template: '{"NAME":"Kogan_GU10","GPIO":[0,0,0,0,39,40,0,0,37,0,38,0,0],"FLAG":0,"BASE":18}'
 link2: 
 mlink: 

@@ -2,7 +2,7 @@
 date_added: 2022-08-14
 title: Prokord 
 model: PSH-WS007-EU
-image: /assets/images/prokord_PSH-WS007-EU.jpg
+image: /assets/device_images/prokord_PSH-WS007-EU.webp
 template9: '{"NAME":"PSH-WS007-EU","GPIO":[0,0,320,1,0,2720,0,0,2624,32,2656,224,0,0],"FLAG":0,"BASE":45}' 
 link: https://www.dustin.se/product/5011159138/smart-home-wifi-socket-energy-monitoring
 link2: 

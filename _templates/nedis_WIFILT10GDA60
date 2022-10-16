@@ -2,7 +2,7 @@
 date_added: 2020-06-12
 title: Nedis A60 5.5W 350lm Twisted Filament
 model: WIFILT10GDA60
-image: /assets/images/nedis_WIFILT10GDA60.jpg
+image: /assets/device_images/nedis_WIFILT10GDA60.webp
 template: '{"NAME":"WIFILT10GDA60","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07YL3LHX7
 link2: https://www.amazon.co.uk/dp/B07YL3LHX7

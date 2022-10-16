@@ -2,7 +2,7 @@
 date_added: 2020-12-27
 title: BAZZ 10 ft RGBW 
 model: U183MRGBWWF
-image: /assets/images/bazz_U183MRGBWWF.jpg
+image: /assets/device_images/bazz_U183MRGBWWF.webp
 template9: '{"NAME":"BAZZ U183MRGBWWF RGBW LED Strip","GPIO":[32,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B01MFE12I8
 mlink: https://www.bazzsmarthome.ca/products/colors-collection-smart-wifi-led-light-strip

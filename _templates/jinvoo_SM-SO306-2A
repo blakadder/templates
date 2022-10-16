@@ -2,7 +2,7 @@
 date_added: 2020-07-18
 title: Jinvoo 4AC+2USB  
 model: SM-SO306-2A
-image: /assets/images/jinvoo_SM-SO306-2A.jpg
+image: /assets/device_images/jinvoo_SM-SO306-2A.webp
 template: '{"NAME":"JINVOO Model SM-SO306-2A","GPIO":[56,0,0,0,32,17,0,0,30,31,29,0,25],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07H7H2PN8
 link2: 

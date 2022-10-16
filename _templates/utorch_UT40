@@ -6,7 +6,7 @@ category: light
 type: Ceiling Light
 standard: global
 link: https://www.aliexpress.com/item/33016705000.html
-image: /assets/images/utorch_UT40.jpg
+image: /assets/device_images/utorch_UT40.webp
 template: '{"NAME":"Utorch UT40","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":1}' 
 link2: 
 ---

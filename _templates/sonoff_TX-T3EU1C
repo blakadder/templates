@@ -5,7 +5,7 @@ model: T3EU1C
 category: switch
 type: Switch
 standard: eu
-image: /assets/images/sonoff_TX-T3EU1C.jpg
+image: /assets/device_images/sonoff_TX-T3EU1C.webp
 template: '{"NAME":"Sonoff T3 TX 1CH","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":28}' 
 link4: https://www.aliexpress.com/item/1005001540727905.html
 link2: https://www.amazon.de/dp/B07T7VDS72/

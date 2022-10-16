@@ -2,7 +2,7 @@
 date_added: 2020-11-14
 title: Nedis Schuko Type F 16A
 model: WIFIP120FWT
-image: /assets/images/nedis_WIFIP120FWT.jpg
+image: /assets/device_images/nedis_WIFIP120FWT.webp
 template: '{"NAME":"WIFIP120FWT","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
 link: https://www.amazon.de/dp/B07GH5K5GT
 link2: https://www.motonet.fi/fi/tuote/9501448/Nedis-SmartLife-alypistorasia-sisakayttoon-energian-kulutusmittarilla-16-A

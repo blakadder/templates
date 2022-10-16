@@ -2,7 +2,7 @@
 date_added: 2020-11-27
 title: Frankever Smart Remote
 model: FK-UFO-R4
-image: /assets/images/frankever_FK-UFO-R4.jpg
+image: /assets/device_images/frankever_FK-UFO-R4.webp
 template9: '{"NAME":"FK-UFO-R4","GPIO":[1,1,1,1,288,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.aliexpress.com/item/4000183140469.html
 link2: https://www.amazon.com/dp/B07ZP5NQWF
@@ -18,4 +18,4 @@ This device is Very similar to YTF Universal Remote IR Controller, but with the 
 ## Warning
 Newer devices come with an incompatible Tuya WB3S module and cannot be flashed with Tasmota.
 
-![New module](/assets/images/frankever_FK-UFO-R4.jpg)
+![New module](/assets/device_images/frankever_FK-UFO-R4.webp)

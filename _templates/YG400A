@@ -6,22 +6,22 @@ category: sensor
 type: Smoke Sensor
 standard: global
 flash: serial
-image: /assets/images/YG400A.jpg
+image: /assets/device_images/YG400A.webp
 template: '{"NAME":"YG400A","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4000818367545.html
 link2: https://www.aliexpress.com/item/4000956483408.html
 ---
-<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/images/blakapproved.png"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
 
 This is a Tuya photoelectric smoke sensor with a alarm. It has a [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) module, a N76E003AQ20 Nuvoton 1T 8051-based Microcontroller and BL5980 Low Voltage Photoelectric Smoke Detector ASIC with Interconnect and Timer Mode. PCB is marked with YG400A hence the model number but it can be found under various brands such as Earykong, Avatto or whitelabel.
 
 Identified with MCU Product ID: `{"p":"4w4a6noxfgk0yktc","v":"1.0.0"}`. 
 
-![](/assets/images/YG400A-content.jpg)
+![](/assets/device_images/YG400A-content.webp)
 
 There is a newer versions with a [CB3S](https://developer.tuya.com/en/docs/iot/cb3s?id=Kai94mec0s076) module that can't be flashed with Tasmota. It might be possible to replace it with a [ESP-12 S/E/F](https://templates.blakadder.com/ESP-12.html). The model number on the PCB is YG400A-W. The solder mask is also purple instead of green.
 
-![](/assets/images/YG400A-W-PCB.jpg)
+![](/assets/device_images/YG400A-W-PCB.webp)
 
 ## Flashing
 Device came with the latest Tuya firmware which cannot be Tuya-Converted at the time of writing (June 2020). To flash the device you will need to open it and solder to it. Due to the unfortunate placing of the photoelectric chamber you will have to use some other solder points instead of the trusty TYWE3S.
@@ -32,7 +32,7 @@ Connect the folowing:
 - VCC, GND, TX and RX to your serial-to-USB adapter
 - ground GPIO0 during boot
 
-![](/assets/images/YG400A-pinout.jpg)
+![](/assets/device_images/YG400A-pinout.webp)
 
 When finished you will have to remove the R4 and R5 resistors and bridge the pads or simply bridge them with solder and/or small wires. Without this Tasmota will not be able to communicate with the MCU properly.
 

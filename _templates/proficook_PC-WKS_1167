@@ -2,7 +2,7 @@
 date_added: 2022-08-29
 title: ProfiCook Glass 1.5L 
 model: PC-WKS 1167 G
-image: /assets/images/proficook_PC-WKS_1167.jpg
+image: /assets/device_images/proficook_PC-WKS_1167.webp
 template: '{"NAME":"PC-WKS 1167G","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 template9: '{"NAME":"ProfiCook PC-WKS 1167 G","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
 link: https://www.amazon.de/dp/B07PQPZ8HH

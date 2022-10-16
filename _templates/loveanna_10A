@@ -2,7 +2,7 @@
 date_added: 2020-10-14
 title: LoveAnna AC85-250V 10A
 model: 
-image: /assets/images/loveanna_10A.jpg
+image: /assets/device_images/loveanna_10A.webp
 template: '{"NAME":"2xSwitch No RF LoveAnna","GPIO":[17,0,0,0,0,22,18,0,21,56,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/33020859525.html
 link2: 

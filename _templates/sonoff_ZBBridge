@@ -2,7 +2,7 @@
 date_added: 2020-08-20
 title: Sonoff ZBBridge
 model: ZBBridge
-image: /assets/images/sonoff_ZBBridge.jpg
+image: /assets/device_images/sonoff_ZBBridge.webp
 template: '{"NAME":"Sonoff ZbBridge","GPIO":[56,165,0,166,215,0,0,0,6,158,5,0,17],"FLAG":0,"BASE":75}' 
 link: https://itead.cc/product/sonoff-zbbridge/
 link2: https://www.aliexpress.com/af/sonoff-zbbridge.html
@@ -19,7 +19,7 @@ standard: global
 
 Remove the 4 rubber feet to access screws and disassemble the device. Take out the PCB and connect breadboard cables to labelled pin holes (if you only have Dupont wires you will need to solder them since the holes are too small for them).
 
-![ZBBridge pinout](/assets/images/sonoff_ZBBridge_pinout.jpg)
+![ZBBridge pinout](/assets/device_images/sonoff_ZBBridge_pinout.webp)
 
 |ZbBridge|Adapter
 |---     |--- 
@@ -39,7 +39,7 @@ Download Zigbee module firmware [`ncp-uart-sw_6.7.8_115200.ota`](https://github.
 
 Go to **Firmware Upgrade** and next to "Upgrade by file upload" use the _Choose File_ button and select Zigbee module firmware you downloaded (`ncp-uart-sw_6.7.8_115200.ota`). 
 
-![ZBBridge Zigbee module flash](/assets/images/sonoff_ZBBridge_ota.jpg)
+![ZBBridge Zigbee module flash](/assets/device_images/sonoff_ZBBridge_ota.webp)
 
 Click on **Start upgrade**, be patient and wait for a few minutes until flashing is complete. Once it is done, Tasmota will reboot. If the flash was successful the console will show Zigbee2Tasmota starting:
 
@@ -84,7 +84,7 @@ Enable rule with `Rule1 1` and restart ZbBridge.
 
 In Home Assistant (requires version 0.113+) go to **Configuration - Integrations**, click the **+** icon, search for ZHA integration and select it. 
 
-[![ZBBridge ZHA Configuration](/assets/images/sonoff_ZBBridge_zha.jpg)]((/assets/images/sonoff_ZBBridge_zha.jpg))
+[![ZBBridge ZHA Configuration](/assets/device_images/sonoff_ZBBridge_zha.jpg)]((/assets/images/sonoff_ZBBridge_zha.webp))
 
 1. choose "Enter Manually" for serial port
 2. for Radio Type choose "EZSP" 
@@ -93,4 +93,4 @@ In Home Assistant (requires version 0.113+) go to **Configuration - Integrations
    - set port speed to "115200"
 4. when the ZbBridge is discovered you will get a confirmation message
 
-[![ZBBridge ZHA Configuration](/assets/images/sonoff_ZBBridge_zha2.jpg)]((/assets/images/sonoff_ZBBridge_zha2.jpg))
+[![ZBBridge ZHA Configuration](/assets/device_images/sonoff_ZBBridge_zha2.jpg)]((/assets/images/sonoff_ZBBridge_zha2.webp))

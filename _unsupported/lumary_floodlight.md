@@ -2,7 +2,7 @@
 date_added: 2021-10-23
 title: Lumary Smart RGBW Flood 
 model: 
-image: /assets/images/lumary_floodlight.jpg
+image: /assets/device_images/lumary_floodlight.webp
 link: https://www.amazon.de/dp/B08PY657CF
 link2: 
 mlink: https://www.lumary.tech/collections/smart-flood-light

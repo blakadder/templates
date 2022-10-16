@@ -2,7 +2,7 @@
 date_added: 2020-06-13
 title: Nedis G125 5.5W 350lm Twisted Filament
 model: WIFILT10GDG125
-image: /assets/images/nedis_WIFILT10GDG125.jpg
+image: /assets/device_images/nedis_WIFILT10GDG125.webp
 template: '{"NAME":"WIFILF10GDG125","GPIO":[0,0,0,0,0,0,0,0,38,0,37,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07KZJ599T/
 link2: https://www.alza.de/nedis-wi-fi-smart-gluhbirne-e27-wifilt10gdg125-d5846270.htm
