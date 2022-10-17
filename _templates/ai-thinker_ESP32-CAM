@@ -7,6 +7,7 @@ type: Camera
 standard: global
 image: /assets/device_images/ai-thinker_ESP32-CAM.webp
 template32: '{"NAME":"AITHINKER CAM","GPIO":[4992,1,672,1,416,5088,1,1,1,6720,736,704,1,1,5089,5090,0,5091,5184,5152,0,5120,5024,5056,0,0,0,0,4928,576,5094,5095,5092,0,0,5093],"FLAG":0,"BASE":2}' 
+build: tasmota32-webcam
 mlink: http://www.ai-thinker.com/pro_view-24.html
 link: https://www.aliexpress.com/af/esp32%25252dcam.html
 link2: https://www.amazon.com/dp/B07S77Q32X
@@ -15,4 +16,3 @@ link4: https://www.manomano.de/catalogue/p/wifi-esp32-cam-kameramodul-karten-mit
 link5: https://mediarath.de/products/esp32-cam-wifi-bluetooth-kamera-modul-dev-board-ov2640-2megapixel-tasmota?_pos=3&_sid=002ef302c&_ss=r
 ---
 
-Flash with `tasmota32-webcam.bin` firmware.
