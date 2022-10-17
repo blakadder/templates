@@ -3,7 +3,7 @@ date_added: 2022-01-02
 title: Wipro 20W LED RGB Batten
 model: DS22000
 image: /assets/device_images/wipro_DS22000.webp
-template: '{"NAME":"Wipro RGBW Tubelight","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,1],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Wipro RGBW Tubelight","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,1],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.in/dp/B08D19X3LS/
 link2: 
 mlink: 
