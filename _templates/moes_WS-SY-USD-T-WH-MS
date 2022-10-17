@@ -1,0 +1,18 @@
+---
+date_added: 2022-10-17
+title: Moes 3 Way Smart Light 
+model: WS-SY-USD-T-WH-MS
+image: /assets/device_images/moes_WS-SY-USD-T-WH-MS.webp
+template9: '{"NAME":"EDM-1WAA-US","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.aliexpress.com/item/4000005862107.html
+link2: 
+mlink: https://www.moeshouse.com/products/single-pole-3-way-smart-dimmer-switch-replace-one-switch-only-to-multi-control
+flash: replace
+category: switch
+type: Dimmer
+standard: us
+---
+
+```console
+backlog ledtable 0 ; dimmerrange 10,1000
+```

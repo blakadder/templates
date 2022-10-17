@@ -6,6 +6,7 @@ image: /assets/device_images/lilygo_T-Relay.webp
 template32: '{"NAME":"T-Relay ESP32","GPIO":[0,0,1,0,1,227,0,0,1,1,1,1,0,0,226,225,0,224,1,1,0,544,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005003161500835.html
 link2: https://www.banggood.com/LILYGO-TTGO-T-Relay-ESP32-Chip-DC-5V-4-Groups-Relay-4MB-Flash-IoT-Relay-Suport-WiFi-Bluetooth-p-1903679.html
+link3: https://www.amazon.com/dp/B09XX1HL9Z
 mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50068&Id=1406&FId=t3:50068:3
 flash: serial
 category: relay
