@@ -16,9 +16,9 @@ link2: https://www.aliexpress.com/item/1005004344359250.html
 
 An ESP32-S2 dev board in D1 mini form factor.
 
-When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the USB port exposes a serial connection. This can be used to easily flash new firmware.
+When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the ESP32-S2 chip exposes a serial connection on the USB port. This can be used to easily flash new firmware.
 
-{% include flash/s2.md %}
+{% include flash/s2cdc.md %}
 
 Use [Zadig](https://zadig.akeo.ie/) to install WinUSB drivers to be able to flash S2 mini.
 
