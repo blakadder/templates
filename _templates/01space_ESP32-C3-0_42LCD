@@ -6,7 +6,7 @@ category: diy
 type: Display
 standard: global
 image: /assets/device_images/01space_ESP32-C3-0_42LCD.webp
-templatec3: '{"NAME":"ESP32-C3-0.42 OLED","GPIO":[1,1,0,1,1,640,608,1,1,32,1,0,0,0,0,0,0,0,0,0,6210,1],"FLAG":0,"BASE":1}' 
+templatec3: '{"NAME":"ESP32-C3-0.42 OLED","GPIO":[1,1,1376,1,1,640,608,1,1,32,1,0,6210,0,0,0,0,0,0,0,0,1],"FLAG":0,"BASE":1}' 
 mlink: https://github.com/01Space/ESP32-C3-0.42LCD
 link: https://www.banggood.com/ESP32-C3-0_42-inch-LCD-Development-Board-RISC-V-WiFi-Bluetooth-Arduino-or-Micropython-p-1947665.html
 link2: https://www.aliexpress.com/item/1005004654904205.html
@@ -14,3 +14,6 @@ build: tasmota32c3-lvgl
 autoconf: true
 ---
 This device uses the built in serial-to-USB chip. It will not have serial output unless you install a tasmota32c3 build with CDC enabled.
+
+The autoconf has a demo application in HASPmota using rules, Berry integration and a pixel perfect m5x7 font.
+![scr724](https://user-images.githubusercontent.com/49731213/196283205-dab20844-2dd7-44bb-8078-061642073210.png)
