@@ -14,8 +14,9 @@ template: '{"NAME":"SHP5","GPIO":[57,145,56,146,255,22,0,0,255,255,21,255,17],"F
 link2: https://www.amazon.de/gp/product/B07PPZS351
 mlink: https://www.alibaba.com/product-detail/Tuya-App-Eu-Intelligent-Smart-Wifi_1600197259983.html
 unsupported: true
+chip: CUCO_Z0_R_V1.2
 ---
 
-It is possible that your device will enter a bootloop due to a conflict with UART/serial logging.
+It is possible that your device will enter a boot loop due to a conflict with UART/serial logging.
 
 Fix this using: `SerialLog 0`
