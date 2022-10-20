@@ -17,17 +17,17 @@ mlink: https://www.blitzwolf.com/3680W-EU-Dual-WiFi-Smart-Socket-p-380.html
 
 1. Remove the two stickers on the front.
 2. Undo 2 screws. **PH1** screwdriver required.
-  ![Two PH1 screws](assets/images/bw-shp7-front.jpg)
+  ![Two PH1 screws](assets/device_images/bw-shp7-front.webp)
 3. Remove back with screwdriver
-  ![Remove back](assets/images/bw-shp7-back.jpg)
+  ![Remove back](assets/device_images/bw-shp7-back.webp)
 4. Undo 2 screws at the back. **PH1** screwdriver required.
-  ![Two PH1 screws](assets/images/bw-shp7-back-screws.jpg)
+  ![Two PH1 screws](assets/device_images/bw-shp7-back-screws.webp)
 5. Remove PCB from casing for easier soldering.
 6. Solder cables to the ESP pins.
-  ![Solder points 1](assets/images/bw-shp7-pins1.jpg ":size=400")
+  ![Solder points 1](assets/device_images/bw-shp7-pins1.webp ":size=400")
   Because GND is hard to solder/access, I recommend to use the other side for GND:    
-  ![Solder points 2](assets/images/bw-shp7-pins2.jpg ":size=400")
+  ![Solder points 2](assets/device_images/bw-shp7-pins2.webp ":size=400")
   Result:    
-  ![Soldered cables](assets/images/bw-shp7-soldered.jpg ":size=400")
+  ![Soldered cables](assets/device_images/bw-shp7-soldered.webp ":size=400")
 7. Connect serial adapter and make a shortwire between Pin IO0 and GND during startup (for entering flash mode).
 8. Flash!
