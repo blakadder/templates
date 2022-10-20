@@ -3,7 +3,7 @@ date_added: 2021-12-27
 title: Sonoff NSPanel Touch
 model: E32-MSW-NX
 image: /assets/device_images/sonoff_NSPanel.webp
-template32: '{"NAME":"NSPanel","GPIO":[0,0,0,0,3872,0,0,0,0,0,32,0,0,0,0,225,0,480,224,1,0,0,0,33,0,0,0,0,0,0,0,0,0,0,4736,0],"FLAG":0,"BASE":1,"CMND":"ADCParam 2,11200,10000,3950 | Sleep 0 | BuzzerPWM 1"}'
+template32: '{"NAME":"NSPanel","GPIO":[0,0,0,0,3872,0,0,0,0,0,32,0,0,0,0,225,0,480,224,1,0,0,0,33,0,0,0,0,0,0,0,0,0,0,4736,0],"FLAG":0,"BASE":1,"CMND":"ADCParam1 2,11200,10000,3950 | Sleep 0 | BuzzerPWM 1"}'
 link: https://itead.cc/product/sonoff-nspanel-smart-scene-wall-switch
 link2: https://www.aliexpress.com/item/1005003594150166.html
 link3: https://www.banggood.com/SONOFF-NSPanel-Smart-Scene-Wall-Switch-EU-US-Wifi-Smart-Thermostat-Display-Switch-All-in-One-Control-for-Alexa-Google-Home-p-1922903.html
