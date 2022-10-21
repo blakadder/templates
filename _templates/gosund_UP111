@@ -15,8 +15,9 @@ category: plug
 type: Plug
 standard: uk
 ---
+- 21-Oct-2022: Box of 4 bought from anazon.co.uk, same as below - date of manufacture of 01/2021, reference to an importer in Poland, flashed OK. some devices booted into pairing mode, others required a long press of the button to get there.
 - 20-Oct-2022: Box of 4 bought from amazon.co.uk and all 4 flashed successfully with tuya-convert. The manufacturing date on device is 01/2021. It also has some importer details based in Poland - both on the box and devices. I guess, I was lucky with the purchase of an old and supported model.
-- 01-Oct-2022: Box of 4 bought from amazon.co.uk and all 4 flashed successfully with tya-convert. For these I didn't have to push any button to enter flash mode (this actually prevented it from working).
+- 01-Oct-2022: Box of 4 bought from amazon.co.uk and all 4 flashed successfully with tuya-convert. For these I didn't have to push any button to enter flash mode (this actually prevented it from working).
 - 27-Sep-2022: Box of 4 bought from eBay.co.uk, tuya-convert failed with firmware too new. 
 - 12-Sep-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
 - 10-Sep-2022: Box of 4 bought from uk.gosund.com and flashed successfully with tuya-convert.  
