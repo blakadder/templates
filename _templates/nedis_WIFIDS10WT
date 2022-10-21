@@ -15,6 +15,8 @@ chip: TYWE3S
 ---
 ### Flashing
 
+(Hint: the configuration above has to go to |configuration| |configure other| All of the following commands below need to be written to the console. I tested this documentation on Tasmota 12 and it works. For the battery status I do not get any information. (edit by domerich) )
+
 I successfully flashed this device using both Tuya Convert snd serial flashing soldering cables directly onto the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) chip. I would recommend the serial flashing method which also allows you to configure the setup without worrying about the chip going to sleep.
 
 If configuring using the battery, 3 presses within 2 seconds energise the [TYWE3S](https://tasmota.github.io/docs/Pinouts/#tywe3s) for about 50 seconds.
