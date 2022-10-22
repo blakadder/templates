@@ -15,6 +15,7 @@ category: plug
 type: Plug
 standard: eu
 unsupported: true
+chip: CUCO_Z0_R_V1.2
 ---
 
 ![](/assets/device_images/gosund_SP112_v3_4_pinout.webp)

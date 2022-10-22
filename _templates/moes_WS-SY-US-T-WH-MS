@@ -1,0 +1,17 @@
+---
+date_added: 2022-10-17
+title: Moes Push Button 3 Way Light
+model: WS-SY-US-T-WH-MS
+image: /assets/device_images/moes_WS-SY-US-T-WH-MS.webp
+template9: '{"NAME":"Moes ESW-1WAA-US","GPIO":[32,0,0,0,288,0,0,0,0,224,161,0,0,0],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.moeshouse.com/products/3-way-wifi-smart-light-switch-us-version
+flash: replace
+category: switch
+type: Switch
+standard: us
+---
+```console
+SetOption13 1
+```

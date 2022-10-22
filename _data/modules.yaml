@@ -11,6 +11,7 @@ esp12:
   - module: C-8138
   - module: ESP-12
   - module: FL_M93_V1
+  - module: T103
   - module: TYWE3L
   - module: TYWE3S
   - module: XR3
@@ -27,6 +28,7 @@ tywe2s:
   - module: CB2S
   - module: FL_M99_V1
   - module: TYWE2S
+  - module: TW-02
   - module: WR2
   - module: WB2
   - module: WBR2

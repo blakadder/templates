@@ -21,4 +21,4 @@ Light controls are for the built-in SK6812 RGB LED.
 
 ![Pinout](/assets/device_images/m5stack_m5stamp_c3_pinout.webp)
 
-{% include flash/s2.md %}
+{% include flash/c3.md %}

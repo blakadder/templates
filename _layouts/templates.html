@@ -88,6 +88,7 @@ layout: default
       {% include gpios.html %}
     </div>
 </div>
+
 {% if page.template32 != nil %}
 <div class="row">
   <div class="column"><strong>Configuration for ESP32</strong></div>
@@ -98,7 +99,16 @@ layout: default
     <pre><code class="language-json" style="white-space: nowrap">{{ page.template32 }}</code></pre>
 </div>
 </div>
-{% elsif page.templatec3 != nil %}
+  {% if page.template32_alt != nil %}
+  <div class="row">
+    <div class="column column-100">
+      <pre><code class="language-json" style="white-space: nowrap">{{ page.template32_alt }}</code></pre>
+  </div>
+  </div>
+  {% endif %}
+{% endif %}
+
+{% if page.templatec3 != nil %}
 <div class="row">
   <div class="column"><strong>Configuration for ESP32-C3</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
@@ -108,7 +118,9 @@ layout: default
     <pre><code class="language-json" style="white-space: nowrap">{{ page.templatec3 }}</code></pre>
 </div>
 </div>
-{% elsif page.templates2 != nil %}
+{% endif %}
+
+{% if page.templates2 != nil %}
 <div class="row">
   <div class="column"><strong>Configuration for ESP32-S2</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
@@ -118,7 +130,9 @@ layout: default
     <pre><code class="language-json" style="white-space: nowrap">{{ page.templates2 }}</code></pre>
 </div>
 </div>
-{% elsif page.templates3 != nil %}
+{% endif %}
+
+{% if page.templates3 != nil %}
 <div class="row">
   <div class="column"><strong>Configuration for ESP32-S3</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
@@ -128,7 +142,9 @@ layout: default
     <pre><code class="language-json" style="white-space: nowrap">{{ page.templates3 }}</code></pre>
 </div>
 </div>
-{% elsif page.template9 != nil %}
+{% endif %}
+
+{% if page.template9 != nil %}
 <div class="row">
   <div class="column"><strong>Configuration</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
@@ -138,7 +154,17 @@ layout: default
     <pre><code class="language-json" style="white-space: nowrap">{{ page.template9 }}</code></pre>
   </div>
 </div>
-{% elsif page.template != nil %}
+  {% if page.template9_alt != nil %}
+  <div class="row">
+    <div class="column column-100">
+      <pre><code class="language-json" style="white-space: nowrap">{{ page.template9_alt }}</code></pre>
+  </div>
+  </div>
+  {% endif %}
+{% endif %}
+
+
+{% if page.template != nil %}
 <div class="row">
   <div class="column"><strong>Configuration (old format, will be converted to new template when applied)</strong></div>
   <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
@@ -148,28 +174,16 @@ layout: default
     <pre><code class="language-json" style="white-space: nowrap">{{ page.template }}</code></pre>
   </div>
 </div>
-{% else %}
-<div class="row">
-  <div class="column column-100">
-  Use "<B>Configuration - Configure Module</B>" to map GPIOs.<br><br>
+  <!-- Alternative template -->
+  {% if page.template_alt != nil %}
+  <div class="row">
+    <div class="column column-100">
+      <pre><code class="language-json" style="white-space: nowrap">{{ page.template_alt }}</code></pre>
   </div>
-</div>
+  </div>
+  {% endif %}
 {% endif %}
-<!-- Alternative template -->
-{% if page.template9_alt != nil %}
-<div class="row">
-  <div class="column column-100">
-    <pre><code class="language-json" style="white-space: nowrap">{{ page.template9_alt }}</code></pre>
-</div>
-</div>
-{% endif %}
-{% if page.template_alt != nil and page.template9 == nil %}
-<div class="row">
-  <div class="column column-100">
-    <pre><code class="language-json" style="white-space: nowrap">{{ page.template_alt }}</code></pre>
-</div>
-</div>
-{% endif %}
+
 <div>
   {% if page.unsupported == true %}
   <h2>This device now comes with a Wi-Fi module incompatible with Tasmota</h2>
@@ -251,7 +265,9 @@ layout: default
   %}<a href="DMP-L1">DMP-L1</a> or <a href="DT-ESP-C05">DT-ESP-C05</a>
   {% 
     elsif page.chip contains 'WB2' 
-    or page.chip contains 'FL_M99_V1' 
+    or page.chip contains 'FL_M99_V1'
+    or page.chip contains 'FL_M93_V1'  
+    or page.chip contains 'TW-02'
     or page.chip contains 'XT-BL02' 
     or page.chip contains 'WR2' 
     or page.chip contains 'WBR2' 
@@ -260,7 +276,7 @@ layout: default
     or page.chip contains 'CB2S' 
     or page.chip contains 'WA2' 
 
-  %}<a href="WT-01N">WT-01N</a>, <a href="ESP-02S">ESP-02S</a> or <a href="WT32C3-01N">WT32C3-01N</a> 
+  %}<a href="ESP-02S">ESP-02S</a>, <a href="WT-01N">WT-01N</a> or <a href="WT32C3-01N">WT32C3-01N</a> 
   {% 
     elsif page.chip contains 'WBLC5' 
     or page.chip contains 'CBLC5' 
@@ -270,12 +286,6 @@ layout: default
   module. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
   <br>
   <p>
-  {% endif %}
-
-  {% if page.type contains 'Camera' %}
-    {% include flash/webcam.md %}
-    <br><br>
-    <p>
   {% endif %}
 
   {% if page.type contains 'Curtain Switch' %}

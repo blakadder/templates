@@ -43,12 +43,12 @@ Configure your smart {{ page.type | replace: "Miscellaneous", "device" | downcas
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
 												 
 <!-- Twitter Meta Tags -->
-<meta property="twitter:title" content="{{ pagetitle | strip | strip_newlines }}">
-<meta property="twitter:description" content="{{ description | strip | strip_newlines }}">
-<meta property="twitter:image" content="{{ page.image | absolute_url }}">
-<meta property="twitter:card" content="summary">
-<meta property="twitter:site:id" content="blakadder_">
-<meta property="twitter:creator:id" content="blakadder_">
+<meta name="twitter:title" content="{{ pagetitle | strip | strip_newlines }}">
+<meta name="twitter:description" content="{{ description | strip | strip_newlines }}">
+<meta name="twitter:image" content="{{ page.image | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site:id" content="blakadder_">
+<meta name="twitter:creator:id" content="blakadder_">
 {% include styles.html %}
 
 {% if site.google_analytics and jekyll.environment == 'production' %}
