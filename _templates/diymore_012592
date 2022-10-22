@@ -1,0 +1,18 @@
+---
+date_added: 2022-10-21
+title: DIY MORE ESP32 DHT11 
+model: 012592
+image: /assets/device_images/diymore_012592.webp
+template32: '{"NAME":"DIYMORESOILDHT11","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,544,1,1,1,0,1,1184,1,0,1,1,1,0,0,0,0,4864,288,4865,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/32840409177.html
+link2: https://www.amazon.ca/dp/B085X25LTZ
+link3: 
+mlink: https://www.diymore.cc/collections/new-product/products/esp32-wifi-bluetooth-cp2104-dht11-soil-temperature-humidity-sensor-18650-battery-base?_pos=1&_sid=43d5a7259
+flash: serial
+category: sensor
+type: Soil Sensor
+standard: global
+---
+Plug the device to your computer using a microUSB cable while holding the BOOT button. you can release the BOOT button once the device is powered. Then you can run the following command: 
+
+Note that the Soil humidity and battery level value are the raw value between 0 and 100% as tasmota does not support the capacitive soil sensor yet.
