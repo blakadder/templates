@@ -3,7 +3,7 @@ date_added: 2022-10-13
 title: LilyGo T-Relay 8
 model: T-Relay-8
 image: /assets/device_images/lilygo_T-Relay-8.webp
-template9: '{"NAME":"LilyGo ESP32 Relay 8","GPIO":[1,1,1,1,1,231,1,1,227,226,1,1,1,1,230,229,0,228,1,1,0,544,1,1,0,0,0,0,225,224,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"LilyGo ESP32 Relay 8","GPIO":[1,1,1,1,1,231,1,1,227,226,1,1,1,1,230,229,0,228,1,1,0,544,1,1,0,0,0,0,225,224,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.com/dp/B0B6TXKXDN
 link2: https://www.aliexpress.com/item/1005004335642099.html
 mlink: https://github.com/Xinyuan-LilyGO/LilyGo-T-Relay
