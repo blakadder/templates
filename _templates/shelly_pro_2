@@ -1,0 +1,18 @@
+---
+date_added: 2022-10-24
+title: Shelly Pro 2
+model: PRO2
+image: /assets/device_images/shelly_pro_2.webp
+template32: '{"NAME":"Shelly Pro 2","GPIO":[0,0,0,0,768,0,0,0,672,704,736,0,0,0,5600,6214,0,0,0,5568,0,0,0,0,0,0,0,0,0,0,0,32,0,0,160,161],"FLAG":0,"BASE":1}' 
+link: https://www.domadoo.fr/fr/objets-communicants/6003-shelly-module-rail-din-2-canaux-wi-fi-shelly-pro-2-contact-sec-3800235268025.html
+link2: https://www.amazon.de/dp/B0B4HLKXDJ
+link3: https://www.manomano.de/catalogue/p/shelly-pro-2-54335718
+link4: 
+mlink: https://www.shelly.cloud/shelly-pro-smart-home-automation-solution/#Pro-2
+flash: serial
+category: relay
+type: DIN Relay
+standard: global
+autoconf: true
+---
+Use Tasmota v12.2.0.1+. Older versions will not work.
