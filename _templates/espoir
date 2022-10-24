@@ -1,0 +1,15 @@
+---
+date_added: 2022-10-23
+title: Espoir Rev 1.0.0 PoE+
+model: 
+image: /assets/device_images/espoir.webp
+template32: '{"NAME":"Espoir","GPIO":[0,0,1,0,1,1,1,1,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,5568,5600,1,7968,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://www.crowdsupply.com/connaxio/espoir
+link2: 
+mlink: https://www.connaxio.com/
+flash: serial
+category: diy
+type: Development Board
+standard: global
+---
+Visit [https://docs.connaxio.com/espoir/hardware.html#overview](https://docs.connaxio.com/espoir/hardware.html#overview) for additional documentation.

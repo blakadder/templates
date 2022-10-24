@@ -1,0 +1,14 @@
+---
+date_added: 2022-10-23
+title: Local Bytes 9W 900lm
+model: LB BULB RGB+CT
+image: /assets/device_images/localbytes_bulb.webp
+template9: '{"NAME":"localbytes bulb","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.mylocalbytes.com/products/smart-bulb-9w-rgbct
+link2: 
+mlink: 
+flash: preflashed
+category: bulb
+type: RGBCCT
+standard: [e27, b22]
+---
