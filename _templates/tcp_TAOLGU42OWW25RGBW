@@ -1,0 +1,14 @@
+---
+date_added: 2022-10-21
+title: TCP Smart 5W 
+model: TAOLGU42OWW25RGBW
+image: /assets/device_images/tcp_TAOLGU42OWW25RGBW.webp
+template9: '{"NAME":"TAOLGU42OWW25RGBW","GPIO":[0,0,0,0,417,416,0,0,419,418,420,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B07JHG81XW
+link2: 
+mlink: https://www.tcpsmart.eu/
+flash: tuya-convert
+category: bulb
+type: RGBW
+standard: gu10
+---

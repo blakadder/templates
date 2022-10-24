@@ -1,0 +1,14 @@
+---
+date_added: 2022-10-21
+title: Maxcio 16A Mini 
+model: RMC021
+image: /assets/device_images/maxcio_RMC021.webp
+template9: '{"NAME":"MAXCIO RMC021","GPIO":[0,0,0,32,2720,2656,0,0,2624,544,224,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.it/gp/product/B0832XYMXK
+link2: 
+mlink: https://maxcio.com/
+flash: serial
+category: plug
+type: Plug
+standard: it
+---

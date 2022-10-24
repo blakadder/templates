@@ -1,0 +1,15 @@
+---
+date_added: 2022-10-21
+title: Aigostar P40 
+model: 8433325212278
+image: /assets/device_images/aigostar_8433325212278.webp
+template9: '{"NAME":"Aigostar 8433325212278","GPIO":[0,0,0,0,544,288,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/gp/product/B09712C7J6
+link2: 
+mlink: 
+flash: replace
+chip: WB2S
+category: switch
+type: Wall Outlet
+standard: it
+---
