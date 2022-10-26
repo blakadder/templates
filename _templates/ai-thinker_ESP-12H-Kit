@@ -17,4 +17,4 @@ link4: https://mediarath.de/products/nodemcu-esp32-wroom32-wifi-bluetooth-iot-de
 
 {% include flash/s2.md %}
 
-![Back](/assets/images/ai-thinker_ESP-12H-Kit_pinout.webp)
+![Back](/assets/device_images/ai-thinker_ESP-12H-Kit_pinout.webp)

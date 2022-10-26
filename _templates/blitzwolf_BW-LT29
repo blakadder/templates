@@ -21,18 +21,18 @@ Tuya-Convert did not work on this bulb due to new hardware. To flash this bulb y
 
 Pop the diffuser dome by using a plastic prying tool to circle around the base which will loosen the glue and make the dome easy to remove.
 
-[![](/assets/device_images/blitzwolf_BW-LT29_remove_dome.jpg)](/assets/images/blitzwolf_BW-LT29_remove_dome.webp)
+[![](/assets/device_images/blitzwolf_BW-LT29_remove_dome.webp)](/assets/device_images/blitzwolf_BW-LT29_remove_dome.webp)
 
 Lift up the top PCB, it is not screwed on or soldered to the base. The connection is made with the 8 pin head visible.
 
-[![](/assets/device_images/blitzwolf_BW-LT29_remove_top.jpg)](/assets/images/blitzwolf_BW-LT29_remove_top.webp)
+[![](/assets/device_images/blitzwolf_BW-LT29_remove_top.webp)](/assets/device_images/blitzwolf_BW-LT29_remove_top.webp)
 
 RX, TX and IO0 are nicely labelled on the wifi board and have small pinholes that can fit breadboard jumper cables. 
 
-[![](/assets/device_images/blitzwolf_BW-LT29_cables.jpg)](/assets/images/blitzwolf_BW-LT29_cables.webp)
+[![](/assets/device_images/blitzwolf_BW-LT29_cables.webp)](/assets/device_images/blitzwolf_BW-LT29_cables.webp)
 
 Now comes the tricky part: to get VCC and GND youneed to solder to the wifi board header joints. There is GND and VCC on the green PCB that connect to the 8 pin header but they don't power the ESP8266 properly. There's probably some voltage regulation in between but I didn't examine it further.
 
 All broken out ESP8266 pins are labelled on the other side. In my image VCC is the orange wire and GND the black one.
 
-[![](/assets/device_images/blitzwolf_BW-LT29_pinout.jpg)](/assets/images/blitzwolf_BW-LT29_pinout.webp)
+[![](/assets/device_images/blitzwolf_BW-LT29_pinout.webp)](/assets/device_images/blitzwolf_BW-LT29_pinout.webp)

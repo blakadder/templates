@@ -5,7 +5,7 @@ model: SH 330
 type: CCT
 category: bulb
 standard: e27
-image: /assets/device_images/swisstone_SH330.jpg
+image: /assets/device_images/swisstone_SH330.webp
 template: '{"NAME":"SwisstoneSH330","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07G5FZ77G
 link2: https://www.manomano.de/p/swisstone-smart-wifi-led-leuchtmittel-e27-806-lumen-9-watt-warm-kaltweiss-cct-sprachsteuerbar-kompatibel-mit-app-arbeitet-48077841
