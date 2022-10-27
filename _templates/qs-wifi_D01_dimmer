@@ -9,7 +9,7 @@ link: https://www.aliexpress.com/item/33010332202.html
 link2: https://www.banggood.com/MoesHouse-DIY-Smart-WiFi-Light-LED-Dimmer-Switch-Smart-LifeTuya-APP-Remote-Control-12-Way-Switch-Works-With-Alexa-Echo-Google-Home-p-1509161.html
 image: /assets/device_images/qs-wifi_D01_dimmer.webp
 template: '{"NAME":"WiFi-Dimmer","GPIO":[0,148,0,149,0,0,0,0,0,42,37,0,0],"FLAG":0,"BASE":18}' 
-template9: ' {"NAME":"QS-WiFi-D01-TRIAC","GPIO":[0,3200,0,3232,0,0,0,0,0,352,416,0,0],"FLAG":0,"BASE":18}'
+template9: ' {"NAME":"QS-WiFi-D01-TRIAC","GPIO":[0,3200,0,3232,0,0,0,0,0,352,416,0,0,0],"FLAG":0,"BASE":18}'
 ---
 The **Wi-Fi Smart Dimmer Module 150W** is an in-wall push-button dimmer switch, manufactured by Aihomestyle Co LTD and sold as white-label QS-WiFi-D01-TRIAC and also by various brands e.g., _Moes, MoesHouse MS-105, HomCloud, Malmbergs, TOOGOO, Baakey, ..._
 
