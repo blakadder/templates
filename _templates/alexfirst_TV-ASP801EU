@@ -10,10 +10,4 @@ template: '{"NAME":"Alexfirst","GPIO":[17,0,0,0,54,56,0,0,21,0,0,0,0],"FLAG":0,"
 link2: 
 ---
 
-
-
-
-
-
-
-
+Some versions have Button 1 on GPIO13
