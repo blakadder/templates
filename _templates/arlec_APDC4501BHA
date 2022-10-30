@@ -13,3 +13,16 @@ type: Fan
 standard: au
 ---
 Appears to be exactly the same device as [Arlec AWDC001HA](arlec_AWDC001HA.html) except on a pedestal. These fans move an amazing volume of air.
+
+The ESP8266 is located underneath the dial/switch on the top of the fan. You need to take the covers and blades off to access it.
+## Disassembly
+- Remove the dial
+- Remove 3 screws on the front of the motor
+- Pull the plastic cover off the motor
+- Detach the wires
+- Inside the plastic motor cover you can remove the screws and remove the cover form the top
+- Undo the nut to remove the board from the plastic cover.
+
+## Flashing
+You need to solder the correct pins directly on the ESP, 3.3v, U0TX, U0RX and GND.
+The pins on the board labeled 5V, GND, RX and TX should not be used to flash. RX and TX are attached to U1 not the required U0
