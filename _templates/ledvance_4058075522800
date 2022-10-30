@@ -13,6 +13,9 @@ type: Plug
 standard: eu
 chip: TYWE2S
 ---
+
+Attention: I came upon a Version of this plug featuring a WB2S module featuring a Beken BK7231t chip, this is not compatible to tasmota and cannot be used.
+
 The device is (heavily) glued and must be opened with force and glued back together. TYWE2S contacts are under the CE sign, but device has to be opened for GPIO0. Be careful when opening not to destroy the button on the PCB.
 
 To open it, you can use a cutter knife to make a small gap around the seal at the botton, then you can use like an butter knife to pry each side open carefully, then the glue will pop a little and after doing this to all four side you can easily pull the bottom out of it
