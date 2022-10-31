@@ -11,7 +11,8 @@ flash: serial
 category: plug
 type: Plug
 standard: eu
-chip: TYWE2S
+chip: WB2S
+unsupported: true
 ---
 
 Attention: I came upon a Version of this plug featuring a WB2S module featuring a Beken BK7231t chip, this is not compatible to tasmota and cannot be used.
