@@ -8,7 +8,7 @@ link:
 mlink: https://zigate.fr/produit/zigate-ethernet/
 flash: serial
 category: diy
-type: Development Board
+type: Adapter Board
 standard: global
 ---
 To use this device, you have to compile Tasmota with Ethernet enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.

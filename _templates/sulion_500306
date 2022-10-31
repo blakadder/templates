@@ -1,0 +1,14 @@
+---
+date_added: 2022-10-31
+title: Sulion Morgan C37 5W 470lm
+model: 500306
+image: /assets/device_images/sulion_500306.webp
+template9: '{"NAME":"Sulion Bombilla C37","GPIO":[0,0,0,0,0,0,0,0,417,0,416,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.alumbradoled.es/bombilla-led-iot-morgan-c37-e14-de-sulion
+link2: 
+mlink: https://sulion.es/es/productos/500306-morgan
+flash: tuya-convert
+category: bulb
+type: CCT
+standard: e14
+---

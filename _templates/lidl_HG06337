@@ -1,0 +1,16 @@
+---
+date_added: 2022-10-27
+title: Lidl Silvercrest 
+model: HG06337
+image: /assets/device_images/lidl_HG06337.webp
+template9: '{"NAME":"Lidl Silvercrest HG06337","GPIO":[0,0,0,0,0,0,0,0,32,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.lidl.de/p/silvercrest-steckdose-zwischenstecker-zigbee-smart-home/p100306990
+link2: 
+mlink: 
+flash: replace
+category: switch
+type: Switch
+standard: [eu, ch, fr, it]
+chip: TYZS6
+---
+Soldered an ESP-02S instead of TYZS6

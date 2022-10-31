@@ -28,6 +28,7 @@ tywe2s:
   - module: CB2S
   - module: FL_M99_V1
   - module: TYWE2S
+  - module: TYZS6
   - module: TW-02
   - module: WR2
   - module: WB2
