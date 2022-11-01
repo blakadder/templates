@@ -1,0 +1,41 @@
+---
+date_added: 2022-11-02
+title: Tuya mmWave
+model: ZY-M100
+image: /assets/device_images/ZY-M100.webp
+template9: '{"NAME":"ZY-M100","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"SO97 1 | TuyaMCU 99,1 | TuyaMCU 75,104 | TuyaMCU 81,9"}'
+mlink: 
+link: https://www.aliexpress.com/item/1005004705672138.html
+flash: replace
+category: misc
+type: Presence Sensor
+standard: global
+chip: WBR3
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+Identified with MCU Product ID: `{"p":"k2h8vkj98fhvnpiv","v":"1.0.1","m":2,"mt":10,"n":0,"low":1}`. 
+
+![Disassembled](/assets/device_images/ZY-M100_disassembled.webp)
+
+![Replaced](/assets/device_images/ZY-M100_replaced.webp)
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+Included template configures only the light sensor and Taget Distance using the Timer1 fnId
+
+## Functions
+
+| dpID | Function        | Datatype | Additional Comments 
+| ---- |-------------    | -------  | ---------- 
+| 1    | Presence state  | Enum     | `0` = none, `1` = presence
+| 2    | Sensitivity     | Integer  | Value range `0 .. 9`
+| 3    | Near Detection  | Integer  | Value Range: `0 .. 1000`, `1` = 0.01m
+| 4    | Far Detection   | Integer  | Value Range: `0 .. 1000`, `1` = 0.01m
+| 6    | Self Check Result | Enum   | `0` = checking, `1` = check_success, `2` = check_failure, `3` = others, `4` = comm_fault, `5` = radar_fault
+| 9    | Target Distance | Integer  |Value Range: `0 .. 1000`, `1` = 1cm 
+| 101  | Detection Delay | Integer  | Value Range: `0 .. 100`, `1` = 0.10s
+| 102  | Fading Time     | Integer  | Value Range: `0 .. 100`, `1` = 0.10s
+| 103  | Unknown         | String   | Value is empty and cannot be changed
+| 104  | Light intensity | Integer  | Value Range: `0 - 2000` in lx
+| 106  | Reset button    | Bool     | Reset button changes states between `0` and `1`
