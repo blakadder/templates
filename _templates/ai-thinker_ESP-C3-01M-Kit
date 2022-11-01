@@ -22,6 +22,6 @@ Board comes with headers soldered in as in the image making its difficult to use
 
 {% include flash/c3.md %}
 
-![Back](/assets/images/ai-thinker_ESP-C3-01M-Kit_back.webp)
+![Back](/assets/device_images/ai-thinker_ESP-C3-01M-Kit_back.webp)
 
 [Datasheet](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-01m-kit-v1.0_specification.pdf)

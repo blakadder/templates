@@ -1,0 +1,15 @@
+---
+date_added: 2022-10-31
+title: 3DStar ESP-OpenTherm v1.1
+model: 
+image: /assets/device_images/ESP-OpenTherm.webp
+template9: '{"NAME":"3DS_OpenTherm","GPIO":[0,0,0,0,0,0,0,0,4960,0,4928,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://3dstar.ro/proiecte/esp-opentherm
+link2: 
+mlink: https://3dstar.ro/proiecte/esp-opentherm
+flash: preflashed
+category: diy
+type: Adapter Board
+standard: global
+---
+Use https://tasmota.github.io/docs/OpenTherm/ as reference for commands.

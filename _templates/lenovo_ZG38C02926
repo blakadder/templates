@@ -1,0 +1,25 @@
+---
+date_added: 2022-10-30
+title: Lenovo 2m RGB 
+model: ZG38C02926
+image: /assets/device_images/lenovo_ZG38C02926.webp
+template9: '{"NAME":"Lenovo LED Strip 2m","GPIO":[32,0,0,0,416,0,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.jbhifi.com.au/products/lenovo-smart-led-lightstrip-2m
+link2: https://www.amazon.com.au/dp/B08PPGGFKG
+mlink: 
+flash: serial
+category: light
+type: LED Strip
+standard: au
+chip: TYWE3S
+---
+The device comes with a newer Tuya firmware and tuya-convert does not work. One needs to disassemble the device and flash using serial method (soldering required).
+
+To flash it you need to open the plastic case (it splits in half, use a tiny screwdriver to pry from the 4-pin strip connector end. You'll probably break a couple of the tiny plastic tabs in the corners. Inside there is a TYWE3S module; connect 3.3Vcc, GND, Tx, Rx and pull GPIO0 to GND while flashing.
+
+GPIOs are mapped to the following:
+
+PWM1 (R): GPIO4
+PWM2 (G): GPIO12
+PWM3 (B): GPIO14
+Button: GPIO0

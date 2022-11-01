@@ -6,7 +6,7 @@ type: Dimmable
 category: bulb
 standard: e26
 link: https://www.amazon.com/Globe-Electric-Equivalent-Dimmable-34209/dp/B07RX848PV/
-image: /assets/device_images/globe_34209.jpg
+image: /assets/device_images/globe_34209.webp
 template: '{"NAME":"Globe WW 800lm","GPIO":[0,0,0,0,0,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.thesource.ca/en-ca/smart-home-household/smart-home/smart-lighting/bright-wi-fi-smart-white-led-bulb---works-with-amazon-alexa-and-google-assistant/p/108079794
 mlink: https://globe-electric.com/en/product/globe-electric-wi-fi-smart-60w-equivalent-soft-white-dimmable-frosted-led-light-bulb-no-hub-required-a19-e26-base-2-pack34209/
