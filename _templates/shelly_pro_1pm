@@ -1,0 +1,18 @@
+---
+date_added: 2022-11-01
+title: Shelly Pro 1PM
+model: PRO1PM
+image: /assets/device_images/shelly_pro_1pm.webp
+template32: '{"NAME":"Shelly Pro 1PM","GPIO":[9568,1,9472,1,768,0,0,0,672,704,736,0,0,0,5600,6214,0,0,0,5568,0,0,0,0,0,0,0,0,3459,0,0,32,4736,0,160,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,10000,10000,3350"}' 
+link: https://www.domadoo.fr/en/objets-communicants/6002-shelly-1-channel-din-rail-relay-switch-with-power-metering-and-wi-fi-3800235268018.html
+link2: https://www.amazon.de/dp/B0B4HL537H/
+link3: https://www.manomano.de/catalogue/p/shelly-pro-1pm-55298241
+link4: 
+mlink: https://www.shelly.cloud/shelly-pro-smart-home-automation-solution/#Pro-1PM
+flash: serial
+category: relay
+type: DIN Relay
+standard: global
+autoconf: true
+---
+Use Tasmota v12.2.0.1+. Older versions will not work.
