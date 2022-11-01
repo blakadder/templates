@@ -377,6 +377,12 @@ layout: default
   <p>
   {% endif %}
 
+  {% if page.title contains 'Gosund' %}
+  <h2>Enable tuya-convert flash</h2>
+  Pair the device with the official Gosund app. Contact globalservice@gosund.com with the device ID, your account email and a confirmation that you are aware of voiding the warranty if you flash the device with other firmware. As soon as the IDs have been activated by Gosund support (typically takes 24h), you can update the device to firmware 1.06 in the Gosund app. With this firmware, you can now flash the device using tuya-convert.
+  <br><br><p>
+  {% endif %}
+
   {% if page.title contains 'LoraTap' %}
   <strong>WARNING!</strong> LoraTap is using ESP8266 and Realtek Wi-Fi modules on same model devices. Check seller descriptions or contact them before buying! 
   <br><br><p>
