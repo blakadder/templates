@@ -13,6 +13,5 @@ flash: serial
 category: relay
 type: DIN Relay
 standard: global
-autoconf: true
 ---
 Use Tasmota v12.2.0.1+. Older versions will not work.
