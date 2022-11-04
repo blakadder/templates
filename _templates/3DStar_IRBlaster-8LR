@@ -1,0 +1,15 @@
+---
+date_added: 2022-10-31
+title: 3DStar ESP IR Blaster xLR
+model: IRBlaster-8LR
+image: /assets/device_images/3DStar_IRBlaster-8LR.webp
+template9: '{"NAME":"3DS_IR Blaster_xLR","GPIO":[0,0,0,0,0,0,0,0,0,1088,0,1056,0,0],"FLAG":0,"BASE":18}' 
+link: https://3dstar.ro/proiecte/esp-ir-blaster/esp-ir-blaster-8lr
+link2: 
+mlink: 
+flash: preflashed
+category: misc
+type: IR Controller
+standard: global
+---
+
