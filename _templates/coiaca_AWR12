@@ -2,7 +2,7 @@
 date_added: 2022-11-03
 title: Coiaca Tasmota Development Board AWR12
 model: AWR12
-image: /assets/device_images/
+image: /assets/device_images/coiaca_AWR12.webp
 template9: '{"NAME":"AWR12t","GPIO":[320,1,1,1,1,1,0,0,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
 link: https://coiaca.com/product/wifi-development-board-tasmota-compliant-awr12/
 link2: 
