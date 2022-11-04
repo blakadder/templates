@@ -284,7 +284,7 @@ layout: default
   %}<a href="ESP-01D">ESP-01D</a> 
   {% else %}<a href="diy#module">an ESP</a>
   {% endif %}
-  module. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
+  module. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill. Read more about module replacement in <a href="https://blakadder.com/replace-tuya-esp12/" target="_blank">a detailed guide</a>.
   <br>
   <p>
   {% endif %}
@@ -376,6 +376,12 @@ layout: default
   <strong>Use code <code>BLAKADDER</code> when buying directly from Novostella for a 10% discount.</strong>
   <br><br>
   <p>
+  {% endif %}
+
+  {% if page.title contains 'Gosund' %}
+  <h2>Enable tuya-convert flash</h2>
+  Pair the device with the official Gosund app. Contact globalservice@gosund.com with the device ID, your account email and a confirmation that you are aware of voiding the warranty if you flash the device with other firmware. As soon as the IDs have been activated by Gosund support (typically takes 24h), you can update the device to firmware 1.06 in the Gosund app. With this firmware, you can now flash the device using tuya-convert.
+  <br><br><p>
   {% endif %}
 
   {% if page.title contains 'LoraTap' %}

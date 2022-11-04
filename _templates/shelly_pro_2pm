@@ -1,0 +1,17 @@
+---
+date_added: 2022-11-01
+title: Shelly Pro 2PM
+model: PRO2PM
+image: /assets/device_images/shelly_pro_2pm.webp
+template32: '{"NAME":"Shelly Pro 2PM","GPIO":[9568,1,9472,1,768,0,0,0,672,704,736,9569,0,0,5600,6214,0,0,0,5568,0,0,0,0,0,0,0,0,3460,0,0,32,4736,4737,160,161],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,10000,10000,3350 | AdcParam2 2,10000,10000,3350"}' 
+link: https://www.domadoo.fr/en/objets-communicants/6004-shelly-2-channel-din-rail-relay-switch-with-power-metering-and-wi-fi-3800235268032.html
+link2: https://www.amazon.de/dp/B0B4HHMP6B/
+link3: https://www.manomano.de/catalogue/p/home-shelly-relay-pro-14-uhr-wlan-lan-schaltaktor-max-25a-bt-messfunktion-shelly-pro2pm-57726265
+link4: https://www.idealo.de/preisvergleich/OffersOfProduct/201954060_-pro-line-2pm-shelly.html
+mlink: https://www.shelly.cloud/shelly-pro-smart-home-automation-solution/#Pro-2PM
+flash: serial
+category: relay
+type: DIN Relay
+standard: global
+---
+Use Tasmota v12.2.0.1+. Older versions will not work.
