@@ -1,0 +1,15 @@
+---
+date_added: 2022-11-01
+title: Calex 4AC 4USB
+model: 429228
+image: /assets/device_images/calex_429228_uk.webp
+template9: '{"NAME":"Calex Power Strip 429228","GPIO":[0,0,0,288,224,226,0,0,0,228,227,225,32,0],"FLAG":0,"BASE":18}' 
+link: https://www.tesco.com/groceries/en-GB/products/306856106
+link2: 
+mlink: https://www.calex.eu/en/series/smart-home/
+flash: replace
+category: plug
+type: Power Strip
+standard: uk
+chip: WB3S
+---
