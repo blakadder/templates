@@ -35,7 +35,7 @@ Included template configures only the light sensor.
 | 6    | Self Check Result | Enum   | `0` = checking, `1` = check_success, `2` = check_failure, `3` = others, `4` = comm_fault, `5` = radar_fault
 | 9    | Target Distance | Integer  |Value Range: `0 .. 1000`, `1` = 1cm 
 | 101  | Detection Delay | Integer  | Value Range: `0 .. 100`, `1` = 0.10s
-| 102  | Fading Time     | Integer  | Value Range: `0 .. 100`, `1` = 0.10s
+| 102  | Fading Time     | Integer  | Value Range: `10 .. 1500`, `1` = 1s
 | 103  | Unknown         | String   | Value is empty and cannot be changed
 | 104  | Light intensity | Integer  | Value Range: `0 - 2000` in lx
 | 106  | Reset button    | Bool     | Reset button changes states between `0` and `1`
