@@ -42,4 +42,21 @@ Included template configures only the light sensor.
 
 ## Home Assistant Configuration
 
+Add the ruleset
+
+```console
+rule3
+on tuyareceived#dptype4id1 do publish %topic%/presence %value% endon
+on tuyareceived#dptype2id2 do publish %topic%/sensitivity %value% endon
+on tuyareceived#dptype2id3 do publish %topic%/minrange %value% endon
+on tuyareceived#dptype2id4 do publish %topic%/maxrange %value% endon
+on tuyareceived#dptype4id6 do publish %topic%/selfcheck %value% endon
+on tuyareceived#dptype2id9 do publish %topic%/distance %value% endon
+on tuyareceived#dptype2id101 do publish %topic%/detection_delay %value% endon
+on tuyareceived#dptype2id102 do publish %topic%/fading_time %value% endon
+on tuyareceived#dptype1id106 do publish %topic%/button pressed endon
+```
+
+Enable the rule with `Rule3 1` then import the blueprint into HA.
+
 [![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Ftasmota%2Fblueprints%2Fblob%2Fmain%2Fdiscovery_zy-m100.yaml)
