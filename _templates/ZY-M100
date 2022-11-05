@@ -52,8 +52,8 @@ on tuyareceived#dptype2id3 do publish %topic%/minrange %value% endon
 on tuyareceived#dptype2id4 do publish %topic%/maxrange %value% endon
 on tuyareceived#dptype4id6 do publish %topic%/selfcheck %value% endon
 on tuyareceived#dptype2id9 do publish %topic%/distance %value% endon
-on tuyareceived#dptype2id101 do publish %topic%/detection_delay %value% endon
-on tuyareceived#dptype2id102 do publish %topic%/fading_time %value% endon
+on tuyareceived#dptype2id101 do publish %topic%/detection_latency %value% endon
+on tuyareceived#dptype2id102 do publish %topic%/hold_time %value% endon
 on tuyareceived#dptype1id106 do publish %topic%/button pressed endon
 ```
 
