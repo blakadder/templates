@@ -8,8 +8,7 @@ link: https://www.curv360.com/product/smart-4-plug-extension-lead/
 link2: 
 mlink: https://www.curv360.com/wp-content/uploads/2019/10/CURV-SMTEXT01-Datasheet.pdf
 flash: tuya-convert
-category: switch
+category: plug
 type: Power Strip
 standard: uk
 ---
-Flashed device to 9.2.0 using tuya-convert
