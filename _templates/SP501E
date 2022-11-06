@@ -9,7 +9,7 @@ link2: https://www.amazon.com/gp/product/B07TYMR2T2/
 mlink: 
 flash: serial
 category: light
-type: Addressable LED
+type: RGBIC LED
 standard: global
 ---
 ## Serial Flashing

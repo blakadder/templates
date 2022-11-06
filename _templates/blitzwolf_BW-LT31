@@ -9,7 +9,7 @@ link2: https://www.aliexpress.com/item/1005001659426543.html
 mlink: 
 flash: serial
 category: light
-type: Addressable LED
+type: RGBIC LED
 standard: [eu, us]
 ---
 Use command `Pixels` to set number of leds on your LED strip.
