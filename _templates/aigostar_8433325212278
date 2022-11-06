@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: replace
 chip: WB2S
-category: switch
+category: plug
 type: Wall Outlet
 standard: it
 ---
