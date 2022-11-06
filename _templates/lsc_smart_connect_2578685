@@ -1,21 +1,16 @@
 ---
-date_added: 2020-01-19
+date_added: 2022-11-06
 title: LSC Power
 model: 2578685
 image: /assets/device_images/lsc_smart_connect_2578685.webp
-template: '{"NAME":"LSC Smart Plug","GPIO":[0,0,0,0,56,0,0,0,21,17,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-stekker-/
+mlink: https://www.action.com/nl-nl/p/lsc-smart-connect-slimme-stekker-/
 link2: 
-mlink: 
-flash: tuya-convert
+link: https://www.bol.com/nl/nl/p/smart-power-plug-slimme-stekker-incl-tijdschakelaar-ondersteunde-spraakbediening-door-o-a-alexa-en-google-assistent/9300000037692221/
+flash: replace
 category: plug
 type: Plug
 standard: eu
-template-alt: '{"NAME":"LSC Smart Plug","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
-unsupported: true
+template: '{"NAME":"LSC Smart Plug (TYWE2S)","GPIO":[0,0,0,0,56,0,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"LSC Smart Plug (CB2S)","GPIO":[0,0,0,0,32,224,0,0,0,288,289,0,0,0],"FLAG":0,"BASE":18}'
+chip: CB2S 
 ---
-## Warning
-
-The v2.0 is not easily opened as it contains no screws anymore.
-
-LSC changed the hardware without updating the model number. As of August 2020 it doesn't contain an ESP module anymore and it cannnot be flashed with Tasmota anymore.
