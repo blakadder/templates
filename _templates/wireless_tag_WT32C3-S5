@@ -21,7 +21,7 @@ Wire the module accordingly:
 
 {% include flash/c3.md %}
 
-![Solderless wiring]( image: /assets/device_images/wireless_tag_WT32C3-S5_wired.webp)
+![Solderless wiring](/assets/device_images/wireless_tag_WT32C3-S5_wired.webp)
 
 You can do it without any soldering. Just apply pressure to make good contact between the Dupont wires and pin holes.
 
