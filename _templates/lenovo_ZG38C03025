@@ -8,7 +8,7 @@ link: https://www.jbhifi.com.au/products/lenovo-smart-plug-2020
 link2: 
 mlink: 
 flash: serial
-category: switch
+category: plug
 type: Plug
 standard: au
 chip: TYWE3S
