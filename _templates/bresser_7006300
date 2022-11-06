@@ -1,0 +1,19 @@
+---
+date_added: 2022-11-05
+title: Bresser 7-Kanal Thermo-/Hygrometer with Outdoor 
+model: 7006300
+image: /assets/device_images/bresser_7006300.webp
+template9: '{"NAME":"Bresser","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 73,2 | TuyaMCU 71,102"}' 
+link: https://www.amazon.de/BRESSER-Tuya-Smart-Thermo-Hygrometer/dp/B095YVH7ZY
+link2: 
+mlink: https://www.bresser.de/Wetter-Zeit/WLAN-Wetterstationen-center/BRESSER-Smart-Home-7-Kanal-Tuya-Thermo-Hygrometer.html
+flash: serial
+category: sensor
+type: Sensor
+standard: eu
+chip: TYWE3S
+---
+The console can support up to 7 wireless sensors.
+
+Temperature dpId's: 1, 102, 104, 106, 108, 110, 112, 114
+Humidity dpId's: 2, 103, 105, 106, 109, 111, 113, 115

@@ -1,0 +1,15 @@
+---
+date_added: 2022-11-06
+title: Martin Jerry Fan Controller 
+model: US-FC-01
+template9: '{"NAME":"US-FC-01","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}'
+image: /assets/device_images/martin_jerry_US-FC-01.webp
+link: https://www.amazon.com/dp/B0BFGM65VZ/
+link2: 
+mlink: https://www.martinjerry.com/
+flash: preflashed
+category: switch
+type: Fan Switch
+standard: us
+---
+

@@ -1,0 +1,14 @@
+---
+date_added: 2022-11-06
+title: ULink SA-P802
+model: 
+image: /assets/device_images/
+link: https://shopee.ph/Smart-Plug-Smart-Switch-Smart-Socket-Plug-4-Socket-4-USB-Port-Extention-Power-Socket-Strip-ULink-4U--i.484258574.8185812076
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: us
+---
+Uses TYWE3 module. Tuya-Convert not working so you have to go with serial flashing. 

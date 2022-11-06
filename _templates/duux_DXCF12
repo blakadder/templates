@@ -4,7 +4,7 @@ title: Duux Whisper Flex Battery Pack
 model: DXCF12
 image: /assets/device_images/duux_DXCF12.webp
 template9: '{"NAME":"Duux DXCF12","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 61,2 | TuyaMCU 62,3 | TuyaMCU 12,4 | TuyaMCU 13,5 | TuyaMCU 64,6"}' 
-link3: https://www.alza.de/duux-whisper-smart-black-battery-pack-d5825011.htm
+link3: https://www.bol.com/nl/nl/p/duux-whisper-flex-zwart-dxcf12-smart-statiefventilator-met-dock-accu-staande-ventilator-geruisloos/9200000120816329/
 link2: https://www.idealo.de/preisvergleich/OffersOfProduct/201477637_-whisper-flex-smart-schwarz-dxcf12-duux.html
 link: https://www.amazon.de/dp/B08F94JGK8/
 mlink: https://duux.com/en/product/whisper-flex-smart-zwart-battery-pack/

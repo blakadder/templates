@@ -1,14 +1,14 @@
 ---
-date_added: 2022-08-10
+date_added: 2022-11-06
 title: AiYaTo 12W 
-model: 
+model: AiYaTo-RGBCW
 image: /assets/device_images/aiyato_rgbcw.webp
 template9: '{"NAME":"AiYaTo RGBCW","GPIO":[0,0,0,0,419,418,0,0,416,420,417,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.aliexpress.com/item/1005004589168903.html
+link: https://www.aliexpress.com/item/1005004649677540.html
 link2: 
 mlink: 
-flash: esphome
+flash: preflashed
 category: bulb
 type: RGBCCT
-standard: E27
+standard: e27
 ---

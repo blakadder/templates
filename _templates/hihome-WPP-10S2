@@ -1,6 +1,7 @@
 ---
 date_added: 2019-12-15
-title: HiHome WPP-10S2
+title: HiHome 
+model: WPP-10S2
 link: https://www.proshop.dk/Smart-Home/HiHome-WiFi-Smart-Plug-10A-with-Energy-Meter-Duopack/2780185
 image: https://www.proshop.se/Images/915x900/2780185_2df45ae6995f.png
 template: '{"NAME":"HiHome WPP-10S","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
