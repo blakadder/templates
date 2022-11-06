@@ -2,7 +2,7 @@
 date_added: 2022-11-05
 title: Duux Bora 
 model: DXDH02
-image: /assets/device_images/
+image: /assets/device_images/duux_DXDH02.webp
 template9: '{"NAME":"Duux Bora","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 73,3 | TuyaMCU 74,4 | TuyaMCU 12,5 | TuyaMCU 13,7 | TuyaMCU 81,13 | TuyaMCU 14,101 | HumRes 0"}' 
 link: https://www.amazon.co.uk/dp/B091ZDHZ27
 link2: https://www.bol.com/nl/nl/p/duux-bora-smart-luchtontvochtiger-dxdh02-20l-dag-4-liter-watertank-hygrostaat-zelfreinigend/9300000005044841/
