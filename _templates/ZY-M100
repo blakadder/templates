@@ -3,7 +3,7 @@ date_added: 2022-11-02
 title: Tuya mmWave
 model: ZY-M100
 image: /assets/device_images/ZY-M100.webp
-template9: '{"NAME":"ZY-M100","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"SO97 1 | TuyaMCU 99,1 | TuyaMCU 75,104 | TuyaMCU 81,9"}'
+template9: '{"NAME":"ZY-M100","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"SO97 1 | TuyaMCU 99,1 | TuyaMCU 75,104"}'
 mlink: 
 link: https://www.aliexpress.com/item/1005004705672138.html
 flash: replace
@@ -22,7 +22,7 @@ Identified with MCU Product ID: `{"p":"k2h8vkj98fhvnpiv","v":"1.0.1","m":2,"mt":
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
-Included template configures only the light sensor and Taget Distance using the Timer1 fnId
+Included template configures only the light sensor.
 
 ## Functions
 
@@ -35,7 +35,28 @@ Included template configures only the light sensor and Taget Distance using the 
 | 6    | Self Check Result | Enum   | `0` = checking, `1` = check_success, `2` = check_failure, `3` = others, `4` = comm_fault, `5` = radar_fault
 | 9    | Target Distance | Integer  |Value Range: `0 .. 1000`, `1` = 1cm 
 | 101  | Detection Delay | Integer  | Value Range: `0 .. 100`, `1` = 0.10s
-| 102  | Fading Time     | Integer  | Value Range: `0 .. 100`, `1` = 0.10s
+| 102  | Fading Time     | Integer  | Value Range: `10 .. 1500`, `1` = 1s
 | 103  | Unknown         | String   | Value is empty and cannot be changed
 | 104  | Light intensity | Integer  | Value Range: `0 - 2000` in lx
 | 106  | Reset button    | Bool     | Reset button changes states between `0` and `1`
+
+## Home Assistant Configuration
+
+Add the ruleset
+
+```console
+rule3
+on tuyareceived#dptype4id1 do publish %topic%/presence %value% endon
+on tuyareceived#dptype2id2 do publish %topic%/sensitivity %value% endon
+on tuyareceived#dptype2id3 do publish %topic%/minrange %value% endon
+on tuyareceived#dptype2id4 do publish %topic%/maxrange %value% endon
+on tuyareceived#dptype4id6 do publish %topic%/selfcheck %value% endon
+on tuyareceived#dptype2id9 do publish %topic%/distance %value% endon
+on tuyareceived#dptype2id101 do publish %topic%/detection_latency %value% endon
+on tuyareceived#dptype2id102 do publish %topic%/hold_time %value% endon
+on tuyareceived#dptype1id106 do publish %topic%/button pressed endon
+```
+
+Enable the rule with `Rule3 1` then import the blueprint into HA.
+
+[![Open your Home Assistant instance and show the blueprint import dialog with a specific blueprint pre-filled.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Ftasmota%2Fblueprints%2Fblob%2Fmain%2Fdiscovery_zy-m100.yaml)

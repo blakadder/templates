@@ -1,0 +1,50 @@
+---
+date_added: 2022-11-05
+title: Duux Bora 
+model: DXDH02
+image: /assets/device_images/duux_DXDH02.webp
+template9: '{"NAME":"Duux Bora","GPIO":[0,0,0,0,0,0,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,1 | TuyaMCU 73,3 | TuyaMCU 74,4 | TuyaMCU 12,5 | TuyaMCU 13,7 | TuyaMCU 81,13 | TuyaMCU 14,101 | HumRes 0"}' 
+link: https://www.amazon.co.uk/dp/B091ZDHZ27
+link2: https://www.bol.com/nl/nl/p/duux-bora-smart-luchtontvochtiger-dxdh02-20l-dag-4-liter-watertank-hygrostaat-zelfreinigend/9300000005044841/
+link3: https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=8716164994575
+mlink: https://duux.com/en/product/bora/
+flash: serial
+category: misc
+type: Dehumidifier
+standard: eu, uk
+---
+### Configuration
+
+```console
+Backlog TuyaMCU 11,1; TuyaMCU 73,3; TuyaMCU 74,4; TuyaMCU 12,5; TuyaMCU 13,7; TuyaMCU 81,13; TuyaMCU 14,101; HumRes 0;
+```
+
+## Functions
+
+- `dpID 1` `Boolean` controls device power - turns the device on/off
+- `dpID 2` `Enum` sets mode.
+  - `0` auto
+  - `1` Purify Only.
+- `dpID 3` `Integer` current humidity
+- `dpID 4` `Integer` target humidity
+- `dpID 5` `Boolean` nightmode
+- `dpID 6` `Enum` fan speed
+  - `0` level II
+  - `1` level I
+- `dpID 7` `Boolean` childlock
+- `dpID 8` `Boolean` has no effect
+- `dpID 11` `Enum` tank error
+  - `0x00` tank empty
+  - `0x08` tank full
+- `dpID 12` `Enum` timer 0-24 hours
+- `dpID 13` `Integer` remaining time in minutes
+- `dpID 101` `Boolean` cleaning mode
+- `dpID 102` `Enum` has no effect.
+
+### Rules
+
+```console
+Rule1 on system#boot do ruletimer 200 endon
+on rules#timer=1 do backlog event fix; ruletimer 3600 endon
+on event#fix do backlog serialsend5 55aa0008000007; serialsend5 55aa000300010205; serialsend5 55aa000300010306; tuyasend8 endon
+```

@@ -1,0 +1,79 @@
+---
+date_added: 2022-11-05
+title: Bresser 7-Kanal Thermo-/Hygrometer with Outdoor 
+model: 7006300
+image: /assets/device_images/bresser_7006300.webp
+template9: '{"NAME":"Bresser","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 73,2 | TuyaMCU 71,102"}' 
+link: https://www.amazon.de/BRESSER-Tuya-Smart-Thermo-Hygrometer/dp/B095YVH7ZY
+link2: 
+mlink: https://www.bresser.de/Wetter-Zeit/WLAN-Wetterstationen-center/BRESSER-Smart-Home-7-Kanal-Tuya-Thermo-Hygrometer.html
+flash: serial
+category: sensor
+type: Sensor
+standard: eu
+chip: TYWE3S
+---
+The console can support up to 7 wireless sensors.
+
+Temperature dpId's: 1, 102, 104, 106, 108, 110, 112, 114
+Humidity dpId's: 2, 103, 105, 106, 109, 111, 113, 115
+
+## Scripting
+
+To use the script, you have to compile Tasmota with [Scripting](https://tasmota.github.io/docs/Scripting-Language) enabled. [Download](https://github.com/tasmota/install/tree/main/firmware/unofficial) unofficial precompiled firmware from development branch.
+
+{% raw %}
+```haskell
+>D
+tin=0
+tout1=0
+tout2=0
+tout3=0
+tout4=0
+tout5=0
+tout6=0
+tout7=0
+hin=0
+hout1=0
+hout2=0
+hout3=0
+hout4=0
+hout5=0
+hout6=0
+hout7=0
+>E
+tin=TuyaReceived#DpType2Id1/10
+hin=TuyaReceived#DpType2Id2
+tout1=TuyaReceived#DpType2Id102/10
+hout1=TuyaReceived#DpType2Id103
+tout2=TuyaReceived#DpType2Id104/10
+hout2=TuyaReceived#DpType2Id105
+tout3=TuyaReceived#DpType2Id106/10
+hout3=TuyaReceived#DpType2Id107
+tout4=TuyaReceived#DpType2Id108/10
+hout4=TuyaReceived#DpType2Id109
+tout5=TuyaReceived#DpType2Id110/10
+hout5=TuyaReceived#DpType2Id111
+tout6=TuyaReceived#DpType2Id112/10
+hout6=TuyaReceived#DpType2Id113
+tout7=TuyaReceived#DpType2Id114/10
+hout7=TuyaReceived#DpType2Id115
+>W
+TempIndoor{m} %1tin% °C
+HumIndoor{m} %0hin% %%
+TempOutdoor1{m} %1tout1% °C
+HumOutdoor1{m} %0hout1% %%
+TempOutdoor2{m} %1tout2% °C
+HumOutdoor2{m} %0hout2% %%
+TempOutdoor3{m} %1tout3% °C
+HumOutdoor3{m} %0hout3% %%
+TempOutdoor4{m} %1tout4% °C
+HumOutdoor4{m} %0hout4% %%
+TempOutdoor5{m} %1tout5% °C
+HumOutdoor5{m} %0hout5% %%
+TempOutdoor6{m} %1tout6% °C
+HumOutdoor6{m} %0hout6% %%
+TempOutdoor7{m} %1tout7% °C
+HumOutdoor7{m} %0hout7% %%
+```
+{% endraw %}

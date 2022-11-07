@@ -9,7 +9,7 @@ link2:
 mlink: https://www.codm.de/
 flash: serial
 category: light
-type: Addressable LED
+type: RGBIC LED
 standard: global
 ---
 ## Serial Flashing
