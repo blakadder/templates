@@ -1,0 +1,15 @@
+---
+date_added: 2022-11-10
+title: H803WF 2048 Pixel 5V-24V 
+model: H803WF
+image: /assets/device_images/H803WF.webp
+template9: '{"NAME":"H803WF","GPIO":[0,0,0,0,3840,3840,0,0,3872,1376,0,3872,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/32854807170.html
+link2: 
+mlink: https://www.alibaba.com/product-detail/APP-Controllable-Max-2048-Pixels-Support_60798506274.html
+flash: serial
+category: light
+type: RGBIC LED
+standard: global
+---
+LED-Controller for 5-24V serial LED (WS2811/2812)
