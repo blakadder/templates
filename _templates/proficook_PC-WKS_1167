@@ -7,6 +7,7 @@ template: '{"NAME":"PC-WKS 1167G","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":
 template9: '{"NAME":"ProfiCook PC-WKS 1167 G","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
 link: https://www.amazon.de/dp/B07PQPZ8HH
 link2: https://www.idealo.de/preisvergleich/OffersOfProduct/6574051_-pc-wks-1167-g-proficook.html
+link3: https://www.conrad.com/p/profi-cook-pc-wks-1167-g-tea-maker-stainless-steel-glass-1974778
 mlink: https://www.proficook.de/proficook-glas-tee-wasserkocher-pc-wks-1167-g-edelstahl-schwarz.html
 flash: tuya-convert
 category: misc
