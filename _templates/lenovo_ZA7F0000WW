@@ -17,4 +17,4 @@ I soldered leads to the 3.3V, GND, TX and RX pads were the daughter board connec
 
 The outer case is connected to the inner case with a bunch of tabs around the edge. I pried them open with a small screwdriver. The outer case got pretty chewed up in the process.
 
-Serial TX/RX pins can be accessed without any desoldering by scratching off the solder mask on the via pads adjacent to the TX/RX pins. Vcc/Gnd is accessible from the bypass capacitor."
+Serial TX/RX pins can be accessed without any desoldering by [scratching off the solder mask](https://leo.leung.xyz/wiki/Lenovo_SE-341AC#Wiring) on the via pads adjacent to the TX/RX pins. Vcc/Gnd is accessible from the bypass capacitor.
