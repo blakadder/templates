@@ -3,7 +3,7 @@ date_added: 2021-12-31
 title: Lenovo SE-341AC
 model: ZA7F0000WW
 image: /assets/device_images/lenovo_ZA7F0000WW.webp
-template9: '{"NAME":"Lenovo SE-341AC","GPIO":[0,0,0,32,0,0,0,0,320,224,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Lenovo SE-341AC","GPIO":[0,321,0,32,2720,2656,0,0,320,224,2624,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.microcenter.com/product/632122/lenovo-smart-plug-smart-home-device-control
 link2: 
 mlink: https://www.lenovo.com/us/en/p/smart-devices/smart-home/smart-home-series/lenovo-se-341/za7f0000ww
@@ -15,4 +15,6 @@ chip: TYWE2S
 ---
 I soldered leads to the 3.3V, GND, TX and RX pads were the daughter board connects to the main board. I also soldered a lead to IO0 so I could ground it while powering it up to get it into flash mode.
 
-The outer case is connected to the inner case with a bunch of tabs around the edge. I pried them open with a small screwdriver. The outer case got pretty chewed up in the process. After removing the outer case, the board has to be removed from the inner case in order to access the places to solder leads."
+The outer case is connected to the inner case with a bunch of tabs around the edge. I pried them open with a small screwdriver. The outer case got pretty chewed up in the process.
+
+Serial TX/RX pins can be accessed without any desoldering by scratching off the solder mask on the via pads adjacent to the TX/RX pins. Vcc/Gnd is accessible from the bypass capacitor."
