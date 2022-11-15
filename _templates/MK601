@@ -1,0 +1,16 @@
+---
+date_added: 2022-11-12
+title: Mini Smart Switch 
+model: MK601
+image: /assets/device_images/MK601.webp
+template9: '{"NAME":"SmartSwitch-MK601","GPIO":[0,0,0,160,32,224,0,0,0,0,288,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004506225838.html
+link2: 
+mlink: 
+flash: replace
+category: relay
+type: Relay Module
+standard: global
+chip: CB2S
+---
+https://github.com/DaveSchmid/Wi-Fi-Smart-Switch-MK601/wiki/MK601

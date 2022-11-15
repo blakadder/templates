@@ -1,0 +1,15 @@
+---
+date_added: 2022-11-13
+title: Smart Remote
+model: IRC
+image: /assets/device_images/IRC.webp
+template9: '{"NAME":"IRC","GPIO":[0,0,544,0,0,288,0,0,1088,32,1056,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004541347742.html
+link2: 
+mlink: 
+flash: replace
+category: misc
+type: IR Controller
+standard: global
+chip: wb3s
+---

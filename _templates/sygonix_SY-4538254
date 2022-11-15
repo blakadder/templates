@@ -1,0 +1,20 @@
+---
+date_added: 2022-11-13
+title: Sygonix 4AC
+model: SY-4538254
+image: /assets/device_images/sygonix_SY-4538254.webp
+template9: '{"NAME":"Sygonix SY-4538254","GPIO":[576,32,0,231,229,230,0,0,225,224,226,228,259,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B08TTBB1JZ/
+link2: https://www.idealo.de/preisvergleich/OffersOfProduct/201725173_-sy-4538254-sygonix.html
+link3: https://www.conrad.de/en/p/2269127/
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: eu
+---
+Multiple socket, every GPIO works like a push button, one for on, one for off, that is you need 2 GPIOs for one Relay:
+- command to switch on Relay 1: `Backlog Power1 on; Delay 10; Power1 off` 
+- command to switch off Rel 1: `Backlog Power2 on; Delay 10; Power2 off` 
+
+the same with Power3/4 for Relay 2 - and so on. I've found no way to read the actual state of the relays!
