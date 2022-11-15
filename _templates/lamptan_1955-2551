@@ -1,0 +1,15 @@
+---
+date_added: 2022-11-08
+title: Lamptan 3 Lights in 1 36W
+model: 1955-2551
+image: /assets/device_images/lamptan_1955-2551.webp
+template9: '{"NAME":"Lamptan Smart Wi-Fi Ceiling Lamp LUMINA 36W","GPIO":[0,0,0,0,0,416,0,0,0,417,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.lamptan.co.th/th/products/led-smart-wi-fi-ceiling-lamp-lumina
+link2: 
+mlink: 
+flash: serial
+category: light
+type: Ceiling Light
+standard: ch
+chip: TYWE3S
+---

@@ -1,0 +1,16 @@
+---
+date_added: 2022-11-10
+title: Hama Adapter and RGB 
+model: 00176568
+image: /assets/device_images/hama_00176568.webp
+template9: '{"NAME":"HAMA LED-Strip WLAN-Controller","GPIO":[0,0,0,0,417,419,0,0,0,416,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B085J9DTCQ/
+link2: 
+mlink: https://www.hama.com/00176568/
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+
+The case can be easily opened with a screwdriver. The following [picture](https://mybroadband.co.za/forum/data/attachments/852/852226-00cb5ccb5bad423ad233975d4fc1921e.jpg) shows the important pinouts for the connection to a "USB to TTL" adapter for flashing a new firmware.
