@@ -11,5 +11,7 @@ flash: serial
 category: light
 type: Light
 standard: us
+unsupported: true
+chip: WB3S
 ---
 
