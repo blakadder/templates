@@ -3,7 +3,7 @@ date_added: 2022-11-17
 title: Athom ESP32 Music Controller for
 model: LS8P-WLED
 image: /assets/device_images/athom_LS8P-WLED.webp
-template32: '{"NAME":"Athom Adressable LED","GPIO":[32,1,224,1,1,1,1,1,1,1,1,7904,1,1377,1376,1,0,1,1,1,0,1088,1,1,0,0,0,0,7872,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Athom LS8P","GPIO":[32,1,224,1,1,1,1,1,1,1,1,7904,1,1377,1376,1,0,1,1,1,0,1088,1,1,0,0,0,0,7872,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005004929457839.html
 link2: 
 mlink: https://www.athom.tech/blank-1/wled-esp32-music-addressable-led-strip-controller
@@ -18,11 +18,11 @@ I2S PDM Digital Microphone Built in, IR Remote Control (optional)
 
 ## Flashing Tasmota
 
-The Athom device coomes pre-flashed with WLED. It is easy to flash Tasmota instead - no soldering required.
+The Athom device comes pre-flashed with WLED. It is easy to flash Tasmota instead - no soldering required.
 
 Step 0. Download the standard Tasmota32 firmware from here: http://ota.tasmota.com/tasmota32/tasmota32.bin
 
-Step 1. Power the device, connect the Wifi AP with a laptop. It should be called `WLED_0xxxxxx`. If you see an auto-connect page, close it.
+Step 1. Power the device, connect the Wi-Fi AP with a laptop. It should be called `WLED_0xxxxxx`. If you see an auto-connect page, close it.
 
 Step 2. Connect to http://4.3.2.1/ you should see the WLED Admin page. Click on `TO THE CONTROLS`
 
@@ -32,9 +32,9 @@ Step 4. Click on `Manual OTA Update`. Click on `Choose a File` and select the `t
 
 Step 5. Click on the `Update!` button to flash Tasmota. Wait 20s for the device to reboot.
 
-**Now Tasmota is flashed on the device**. Go through the normal configuration process of Tasmota (connect to Wifi `tasmota-xxxxxx-yyyy`)
+**Now Tasmota is flashed on the device**. Go through the normal configuration process of Tasmota (connect to Wi-Fi `tasmota-xxxxxx-yyyy`)
 
-To finish configuration, click on `Configuration` then `Auto-configuration`. Select `Athom Adressable LED` in the dropdown, click on `Apply configuration`. Confirm the reboot and clikc on `Ok`.
+To finish configuration, click on `Configuration` then `Auto-configuration`. Select `Athom Adressable LED` in the dropdown, click on `Apply configuration`. Confirm the reboot and click on `Ok`.
 
 ## Migrating to Safeboot partition layout
 
@@ -42,7 +42,7 @@ Once Tasmota restarts, it's still using the original partition layout, and not t
 
 If you want to setup the new Safeboot partition layout follow the steps below:
 
-- Download the Parition Wizard app, in the Console type `UrlFetch https://raw.githubusercontent.com/arendst/Tasmota/development/tasmota/berry/modules/Partition_Wizard.tapp`. It should return `RESULT = {"UrlFetch":"Done"}`
+- Download the Partition Wizard app, in the Console type `UrlFetch https://raw.githubusercontent.com/arendst/Tasmota/development/tasmota/berry/modules/Partition_Wizard.tapp`. It should return `RESULT = {"UrlFetch":"Done"}`
 - Restart the device
 - Click on `Consoles`, then `Partition Wizard`.
 - Click on the red button `Start migration` with default parameters
