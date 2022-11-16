@@ -2,7 +2,7 @@
 date_added: 2022-11-16
 title: Oakter OakPlug Mini 10A
 model: 
-image: /assets/device_images/oakter_oak_plug_mini.jpg
+image: /assets/device_images/oakter_oak_plug_mini.webp
 template9: '{"NAME":"Oakter OakPlug Mini","GPIO":[0,0,0,0,224,0,0,0,544,320,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.in/dp/B01LYNOXMJ
 link2: 
