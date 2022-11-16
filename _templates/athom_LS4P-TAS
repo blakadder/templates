@@ -1,6 +1,6 @@
 ---
 date_added: 2022-01-10
-title: Athom High Power 16A 
+title: Athom High Power 16A Controller for
 model: LS4P-TAS
 image: /assets/device_images/athom_LS4P-TAS.webp
 template9: '{"NAME":"LS_4PIN_TAS","GPIO":[32,1376,0,0,0,0,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"Rule1 on Power1#State do power2 2 endon|Rule1 1"}' 

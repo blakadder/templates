@@ -1,6 +1,6 @@
 ---
 date_added: 2021-10-12
-title: BlitzWolf IC Smart RGB Magic
+title: BlitzWolf IC Smart RGB Controller for
 model: BW-LT31
 image: /assets/device_images/blitzwolf_BW-LT31.webp
 template9: '{"NAME":"BW-LT31","GPIO":[0,0,32,1376,0,0,0,0,0,1088,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO37 24"}' 

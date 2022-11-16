@@ -1,6 +1,6 @@
 ---
 date_added: 2021-02-01
-title: Athom 2812b 
+title: Athom 2812b Controller for
 model: LS2812B-TAS
 image: /assets/device_images/athom_LS2812B-TAS.webp
 template9: '{"NAME":"LS2812B-TAS","GPIO":[32,0,1376,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
