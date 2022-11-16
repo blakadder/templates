@@ -1,0 +1,26 @@
+---
+date_added: 2022-11-16
+title: Oakter OakPlug Mini 10A
+model: 
+image: /assets/device_images/oakter_oak_plug_mini.jpg
+template9: '{"NAME":"Oakter OakPlug Mini","GPIO":[0,0,0,0,224,0,0,0,544,320,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.in/dp/B01LYNOXMJ
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: in
+---
+WSP06V2.02 Oakter 10042019
+
+Identified the onboard header pins using a multimeter, so soldering is not required and one can use the onboard header pins based on below info.
+
+Onboard Header Pins (Orientation of board: Relay towards you on the right, header pins on the left):
+
+Header Pins from Left:
+- Pin 1 - VCC
+- Pin 2 - GPIO0
+- Pin 3 - RX
+- Pin 4 - TX
+- Pin 5 - GND
