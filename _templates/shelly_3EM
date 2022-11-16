@@ -30,3 +30,7 @@ Search your Shelly 3EM firmware dump for calib.dat
    ```
  - Restart Tasmota and obeserve that the results seem calibrated as Tasmota now uses the information from calib.dat
 
+## Pinout 
+![Shelly 3EM Pinout](/assets/device_images/shelly_3EM.webp)
+
+[GitHub Discussion](https://github.com/arendst/Tasmota/discussions/13515)
