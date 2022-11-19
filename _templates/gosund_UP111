@@ -4,6 +4,7 @@ title: Gosund 13A
 model: UP111
 image: /assets/device_images/gosund_UP111.webp
 template9: '{"NAME":"Gosund UP111","GPIO":[0,320,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":18}' 
+Change GPIO13 to Led_i2 for red LED = Power ON; OR use template: {"NAME":"Gosund UP111","GPIO":[0,320,0,32,2720,2656,0,0,2624,321,224,0,0,0],"FLAG":0,"BASE":18}
 link: https://www.amazon.co.uk/gp/product/B0983HNB7M
 link2: https://www.amazon.co.uk/dp/B0983HP45C/
 link3: https://amazon.co.uk/gp/product/B09QQCWVNN
