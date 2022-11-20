@@ -1,12 +1,13 @@
 ---
-date_added: 2020-09-29
-title: Elehot 16A
+date_added: 2022-11-19
+title: 16A
 model: AWP16L
 image: /assets/device_images/elehot_AWP16L.webp
-template: '{"NAME":"ELEHOT AWP16L","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
-link: http://www.amazon.de/dp/B08CKQQZPB/
+template: '{"NAME":"AWP16L","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+template9: '{"NAME":"AWP16L","GPIO":[0,0,320,0,0,2720,0,0,2624,32,2656,224,0,0],"FLAG":0,"BASE":45}' 
+link: https://www.amazon.de/dp/B09QCB651Q
 link2: 
-mlink: http://www.elehot.net/
+mlink: 
 flash: serial
 category: plug
 type: Plug
