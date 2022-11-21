@@ -1,16 +1,23 @@
 ---
 date_added: 2022-02-28
-title: Shelly Duo RGBW 5W
+title: Shelly Duo RGBW 5W (400lm)
 model: 3800235262313
 image: /assets/device_images/shelly_DUO_RGBW_GU10.webp
 template9: '{"NAME":"Shelly Duo RGBW","GPIO":[0,0,0,0,0,419,0,0,417,416,418,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://shop.shelly.cloud/shelly-bulb-rgbw-gu10-wifi-smart-home-automation?search=duo%20rgbw&description=true#432
-link2: https://www.aliexpress.com/item/1005003065099697.html
-link3: https://www.idealo.de/preisvergleich/OffersOfProduct/201426818_-duo-gu10-wlan-rgbw-shelly.html
-link4: https://mediarath.de/products/shelly-duo-rgbw-led-wifi-lampe-5-watt-gu10-sockel-colour-white?_pos=3&_sid=db3c91196&_ss=r&variant=42695117242581
-mlink: https://shelly.cloud/products/shelly-duo-smart-home-automation-bulb/
+link: https://shop.shelly.cloud/shelly-bulb-rgbw-gu10-wifi-smart-home-automation
+link2: https://www.idealo.co.uk/compare/201426818
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/201426818
+link4: https://www.idealo.it/confronta-prezzi/201426818
+link5: https://www.aliexpress.com/item/1005003065099697.html
+link6: https://www.amazon.de/dp/B09DL5FMT7
+link6: https://www.amazon.it/dp/B09DL5FMT7
+link7: https://mediarath.de/search?q=Shelly+Duo+RGBW+GU10
+mlink: https://www.shelly.cloud/knowledge-base/devices/shelly-bulb-rgbw/
 flash: mgos
 category: bulb
 type: RGBW
 standard: gu10
 ---
+For improved brightness in color shades please enable *White Blend* mode via `SetOption105 1`
+
+For *Virtual CT* mode please use `SetOption106 1` and `SetOption107 0`
