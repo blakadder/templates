@@ -1,0 +1,25 @@
+---
+date_added: 2021-09-18
+title: Shelly Duo RGBW 9W (800lm)
+model: 3800235262306
+image: /assets/device_images/shelly_DUO_RGBW.webp
+template9: '{"NAME":"Shelly Duo RGBW","GPIO":[0,0,0,0,0,419,0,0,417,416,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://shop.shelly.cloud/shelly-bulb-rgbw-e27-wifi-smart-home-automation
+link2: https://www.idealo.co.uk/compare/201488522
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/201488522
+link4: https://www.idealo.it/confronta-prezzi/201488522
+link5: https://www.aliexpress.com/item/1005003036696733.html
+link4: https://www.amazon.com/dp/B0851CJ29H
+link5: https://www.amazon.de/dp/B087CBJG1M
+link6: https://www.amazon.it/dp/B08XYFYF2D
+link7: https://mediarath.de/search?q=Shelly+Duo+RGBW+E27
+link8: https://www.wesmartify.de/marken/shelly/574/shelly-duo-rgbw-e27/
+mlink: https://www.shelly.cloud/knowledge-base/devices/shelly-bulb-rgbw/
+flash: mgos
+category: bulb
+type: RGBW
+standard: e27
+---
+For improved brightness in color shades please enable *White Blend* mode via `SetOption105 1`
+
+For *Virtual CT* mode please use `SetOption106 1` and `SetOption107 0`
