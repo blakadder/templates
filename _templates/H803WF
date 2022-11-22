@@ -13,3 +13,19 @@ type: RGBIC LED
 standard: global
 ---
 LED-Controller for 5-24V serial LED (WS2811/2812)
+
+Pins:
+1 - VCC (3.3V) marked at PCB
+2 - GND marked at PCB
+3 - RxD
+4 - TxD
+5 - GPIO0
+
+GPIOs:
+GPIO4 - green LED inverted
+GPIO5 - red LED inverted
+GPIO13 - D+
+GPIO14 - D-
+GPIO12, GPIO15 - changes level for D+ and D-
+both = low -> D+ and D- 0V/5V level
+otherwise = unknown

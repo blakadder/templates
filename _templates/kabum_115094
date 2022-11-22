@@ -1,0 +1,14 @@
+---
+date_added: 2022-11-18
+title: KaBuM! 15A 3 Gang Touch
+model: 115094
+image: /assets/device_images/kabum_115094.webp
+template9: '{"NAME":"Kabum Switch 3","GPIO":[0,0,0,0,226,33,0,0,32,224,34,225,576,0],"FLAG":0,"BASE":18}' 
+link: https://www.kabum.com.br/produto/115094/interruptor-kabum-smart-bivolt-3-botoes-preto-15a-50-60hz-smart-home
+link2: 
+mlink: https://www.kabum.com.br/hotsite/kabumsmart/
+flash: serial
+category: switch
+type: Switch
+standard: global
+---

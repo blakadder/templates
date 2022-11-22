@@ -27,3 +27,4 @@ standard: uk
 - 08-Aug-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert.  
 - 25-Jun-2022: Box of 4 bought from amazon.co.uk and flashed successfully with tuya-convert. Also box of 4 purchased from ebay link added above and also all 4 flashed successfully.  
 
+Change GPIO13 to Led_i2 for red LED = Power ON; OR use template: `{"NAME":"Gosund UP111","GPIO":[0,320,0,32,2720,2656,0,0,2624,321,224,0,0,0],"FLAG":0,"BASE":18}`
