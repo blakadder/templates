@@ -13,3 +13,7 @@ type: Relay Board
 standard: global
 ---
 This device uses two 74HC595 serial registers to control the relays, which are not enabled in default builds. Therefore you need to compile your own Tasmota binary, enabling `USE_SHIFT595` setting.
+
+After configuring the template you need to go to the console and run `Shift595DeviceCount 2` command to setup shift registers. After that the device will reboot and all 16 relays will be visible in WebUI.
+
+*IMPORTANT!* Currently only the first 8 relays are available in autodiscovery MQTT topics.
