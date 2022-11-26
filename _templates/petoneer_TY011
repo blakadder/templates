@@ -44,7 +44,7 @@ Remove all three connectors to free the PCB. Remove the BT3L module with a heat 
 | ---- |-------------    | -------  | ---------- |
 | 104  | Preset          | Value    | `0` = None , `1` = Small, `2` = Medium, `2` = Large
 | 105  | Power           | Boolean  | Turns laser on or off
-| 102  | Manual control  | Raw      | Control the laser using X,Y coordinates in hex, first two is X, second y with range from `0000` to `01FF`
+| 102  | Manual control  | Raw      | Control the laser using X,Y coordinates in hex, first two is X, second Y axis with range from `0000` to `01FF`
 | 103  | Schedule        | Raw      | Didn't bother decoding how it's used since we can schedule with built in Timers or home automation system
 | 106  | Reset           | Boolean  | Factory reset the MCU, doesn't do much after flashed but can be used to clear leftover scheduling
 
