@@ -23,8 +23,20 @@ This is initially a BLE device but the BT3L module used has the same pinout as a
 
 Note that some online sellers have versions that work with Xiaomi and not Tuya. It is unclear whether the Xiaomi version can be converted using this configuration so make sure yours explicitly states it works with Tuya and model number is **TY011**
 
+![Model label](/assets/device_images/petoneer_TY011_model.webp)
+
 ## Opening
-Unscrew two screws located in the ears. Use a spudger to separate the bottom from the top two halves. A screw hidden in the back near the micro USB is holding the PCB so unscrew that. Take note of the motor cable orientation and mark which cable was in the front and which in the back. Remove all three connectors to free the PCB and replace the BT module with a preflashed [ESP-12](ESP-12)
+Unscrew two screws located in the ears. Use a spudger to separate the bottom from the top two halves. A screw hidden in the back near the micro USB is holding the PCB so unscrew that. 
+
+![Screw location](/assets/device_images/petoneer_TY011_screw.webp)
+
+Take note of the motor cable orientation and make sure to label which cable was in the front and which in the back. 
+
+![Wires orientation](/assets/device_images/petoneer_TY011_wires.webp)
+
+Remove all three connectors to free the PCB. Remove the BT3L module with a heat gun and solder in a preflashed [ESP-12](ESP-12) module.
+
+![Module](/assets/device_images/petoneer_TY011_module.webp)
 
 ## Functions
 
