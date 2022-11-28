@@ -6,6 +6,7 @@ dt-light:
   - module: WBR2L
   - module: WR2L
 esp12:
+  - module: BT3L
   - module: CB3S
   - module: CB3L
   - module: C-8138
