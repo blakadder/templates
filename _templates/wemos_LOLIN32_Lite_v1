@@ -13,6 +13,6 @@ link2: https://www.amazon.de/dp/B086V1P4BL/
 link3: https://www.amazon.de/dp/B07DMKCPLB/
 ---
 
-A compact ESP32 board with a LiPo battery plug. The Wemos LOLIN32 Lite board is discontinued, but several clones are still being offered. 
+A compact ESP32 board with a LiPo battery plug and integrated USB/serial (programming) interface. The Wemos LOLIN32 Lite board is discontinued, but several clones are still being offered. Take care, the GPIOs 34 & 35 are inputs only!
 
 ![Pinout](/assets/device_images/wemos_LOLIN32_Lite_v1_pinout.webp)
