@@ -4,7 +4,7 @@ category: relay
 type: Switch Module
 standard: global
 flash: mgos
-mlink: https://shelly.cloud/shelly1-open-source/
+mlink: https://www.shelly.cloud/en/products/shop/shelly1-open-source/
 image: /assets/device_images/shelly_1.webp
 template9: '{"NAME":"Shelly 1","GPIO":[1,1,0,1,224,192,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}'
 link: https://www.amazon.de/gp/product/B07NS8M4Y1

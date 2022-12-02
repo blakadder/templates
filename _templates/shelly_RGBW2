@@ -4,7 +4,7 @@ title: Shelly RGBW2
 category: light
 type: LED Controller
 standard: global
-mlink: https://shelly.cloud/wifi-smart-shelly-rgbw-2/
+mlink: https://www.shelly.cloud/en/products/shop/wifi-smart-shelly-rgbw-2/
 image: /assets/device_images/shelly_RGBW2.webp
 template: '{"NAME":"Shelly RGBW2","GPIO":[0,0,52,0,40,255,0,0,37,17,39,38,0],"FLAG":0,"BASE":18}' 
 link: https://www.alza.de/shelly-rgbw-led-streifen-verwaltungsmodul-4x-pwm-12-24-v-wlan-d5718618.htm

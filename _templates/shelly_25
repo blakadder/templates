@@ -5,7 +5,7 @@ category: relay
 type: Switch Module
 standard: global
 flash: mgos
-mlink: https://shelly.cloud/shelly-25-wifi-smart-relay-roller-shutter-home-automation/
+mlink: https://www.shelly.cloud/en/products/shop/shelly-25-wifi-smart-relay-roller-shutter-home-automation/
 image: /assets/device_images/shelly_25.webp
 template9: '{"NAME":"Shelly 2.5","GPIO":[320,0,0,0,224,193,0,0,640,192,608,225,3456,4736],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B07Q9M2Y1S/

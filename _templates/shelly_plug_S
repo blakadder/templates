@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: eu
 flash: mgos
-mlink: https://shelly.cloud/shelly-plug-s/
+mlink: https://www.shelly.cloud/en/products/shop/shelly-plug-s/
 image: /assets/device_images/shelly_plug_S.webp
 template: '{"NAME":"Shelly Plug S","GPIO":[56,255,158,255,255,134,0,0,131,17,132,21,255],"FLAG":2,"BASE":45}' 
 link: https://www.amazon.de/dp/B07TCQ7BFN/
