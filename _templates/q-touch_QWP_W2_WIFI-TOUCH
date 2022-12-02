@@ -3,7 +3,7 @@ date_added: 2022-11-08
 title: Q-touch 433MHz 2 Gang No Neutral
 model: QWP_W2_WIFI-TOUCH
 image: /assets/device_images/q-touch_QWP_W2_WIFI-TOUCH.webp
-template9: '{"NAME":"QTOUCH 2G","GPIO":[32,1,1,1,0,225,33,0,224,320,0,0,0,0],"FLAG":0,"BASE":29}' 
+template9: '{"NAME":"QWP_W2_WIFI-TOUCH","GPIO":[32,1,1,1,0,225,33,0,224,320,0,0,0,0],"FLAG":0,"BASE":29}' 
 link: https://allegro.pl/oferta/dotykowy-wlacznik-swiatla-podwojny-szklany-wifi-8629071273
 link2: 
 mlink: 
