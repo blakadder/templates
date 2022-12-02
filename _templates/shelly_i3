@@ -9,7 +9,7 @@ link2: https://www.domadoo.fr/en/objets-communicants/5288-shelly-module-d-activa
 link3: https://www.aliexpress.com/item/1005002821587581.html
 link4: https://mediarath.de/collections/tasmota-gerate/products/shelly-i3-smart-wifi-steuergerat-100-240v-ac-24-60v-dc-http-mqtt-tasmota
 link5: https://www.idealo.de/preisvergleich/OffersOfProduct/200944784_-i3-shelly.html
-mlink: https://www.shelly.cloud/en/products/shop/products/shelly-i3-smart-home-automation-device/
+mlink: 
 flash: mgos
 category: relay
 type: Switch Module
