@@ -13,6 +13,6 @@ link2: https://www.amazon.de/dp/B08BTLYSTM/
 link3: https://arduino-projekte.info/produkt/d1-mini-esp32-wifi-bluetooth/
 ---
 
-A compact ESP32 board with integrated USB/serial (programming) interface. The Wemos LOLIN32 D1 Mini ESP32 board is discontinued, but several clones are still being offered. Take care, the GPIOs 34 & 35 are inputs only!
+A compact ESP32 board with integrated USB/serial (programming) interface. The Wemos D1 Mini ESP32 board is discontinued, but several clones are still being offered. Take care, the GPIOs 34 & 35 are inputs only!
 
-![Pinout](/assets/device_images/assets/device_images/wemos_D1_Mini_ESP32_pinout.webp)
+![Pinout](/assets/device_images/wemos_D1_Mini_ESP32_pinout.webp)
