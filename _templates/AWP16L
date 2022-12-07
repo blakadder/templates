@@ -13,6 +13,7 @@ category: plug
 type: Plug
 standard: eu
 chip: WBR2 
+unsupported: true
 ---
 - Disassembly is easy. No glue, just one screw and three clips.
 - The ESP Module is ESP8266-S3. Pinout for flashing is described here: https://sylvainzimmer.com/blog/2021/09/smart-plugs-tasmota/
