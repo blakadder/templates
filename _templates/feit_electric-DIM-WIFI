@@ -3,7 +3,7 @@ date_added: 2020-03-12
 title: Feit Electric Smart
 model: DIM/WIFI
 image: /assets/device_images/feit_electric-DIM-WIFI.webp
-template: '{"NAME":"Feit DIM/WIFI","GPIO":[255,107,255,108,255,255,0,0,255,0,255,0,255],"FLAG":0,"BASE":54}' 
+template: '{"NAME":"Feit DIM/WIFI","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com/Feit-Electric-DIM-Compatible-Assistant/dp/B07SXDFH38
 link2: https://www.costco.com/feit-electric-smart-dimmer%2C-3-pack.product.100518151.html
 mlink: https://www.feit.com/product/smart-wi-fi-dimmer/
@@ -26,9 +26,18 @@ ground the PIN 15 at the power up (GPIO0)
 flash it with you tasmota flavor
 
 After activating the template, enter these commands into the Tasmota console.
+
+Set the dimmer mapping.
 ```console
 TuyaMCU 21,2
 ```
+
+Set min/max dim
 ```console
 DimmerRange 10,1000
+```
+
+Configure sending of state and power MQTT messages: (Optional)
+```console
+SetOption59 1
 ```
