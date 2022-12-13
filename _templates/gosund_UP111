@@ -4,12 +4,11 @@ title: Gosund 13A
 model: UP111
 image: /assets/device_images/gosund_UP111.webp
 template9: '{"NAME":"Gosund UP111","GPIO":[0,320,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://smile.amazon.co.uk/gp/product/B09QQCWVNN
-link2: https://www.amazon.co.uk/gp/product/B0983HNB7M
-link3: https://www.amazon.co.uk/dp/B0983HP45C/
-link4: https://amazon.co.uk/gp/product/B09QQCWVNN
-link5: https://www.banggood.com/Gosund-Smart-Plug-Socket-Mini-Electrical-Outlet-Switch-13A-With-Independent-Control-Switch-Timing-Function-APP-Remote-Control-Works-With-Alexa-And-Google-Home-UK-Plug-p-1894390.html
-link6: https://www.ebay.co.uk/itm/175136713581 
+link: https://amazon.co.uk/gp/product/B09QQCWVNN
+link3: https://www.amazon.co.uk/gp/product/B0983HNB7M
+link2: https://www.amazon.co.uk/dp/B0983HP45C/
+link4: https://www.banggood.com/Gosund-Smart-Plug-Socket-Mini-Electrical-Outlet-Switch-13A-With-Independent-Control-Switch-Timing-Function-APP-Remote-Control-Works-With-Alexa-And-Google-Home-UK-Plug-p-1894390.html
+link5: https://www.ebay.co.uk/itm/175136713581 
 mlink: https://uk.gosund.com/products/gosund-smart-plug-up111
 flash: tuya-convert
 category: plug
