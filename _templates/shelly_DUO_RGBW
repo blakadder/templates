@@ -15,6 +15,10 @@ category: bulb
 type: RGBW
 standard: e27
 ---
+Correct OTA mgos firmware available here: https://github.com/yaourdt/mgos-to-tasmota
+
+Pogo clip for flashing a bricked bulb: https://www.thingiverse.com/thing:5710034
+
 White blend mode: `SetOption105 1`
 
 Virtual CT mode: `SetOption106 1` and `SetOption107 0`"
