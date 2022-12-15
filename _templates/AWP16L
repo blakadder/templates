@@ -1,0 +1,19 @@
+---
+date_added: 2022-11-19
+title: 16A
+model: AWP16L
+image: /assets/device_images/AWP16L.webp
+template: '{"NAME":"AWP16L","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}' 
+template9: '{"NAME":"AWP16L","GPIO":[0,0,320,0,0,2720,0,0,2624,32,2656,224,0,0],"FLAG":0,"BASE":45}' 
+link: https://www.amazon.de/dp/B09QCB651Q
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+chip: WBR2 
+unsupported: true
+---
+- Disassembly is easy. No glue, just one screw and three clips.
+- The ESP Module is ESP8266-S3. Pinout for flashing is described here: https://sylvainzimmer.com/blog/2021/09/smart-plugs-tasmota/

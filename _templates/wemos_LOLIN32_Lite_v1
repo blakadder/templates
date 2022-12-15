@@ -1,0 +1,18 @@
+---
+date_added: 2021-03-22
+title: Wemos LOLIN32 Lite V1.0.0 (ESP32)
+model: 
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/wemos_LOLIN32_Lite_v1.webp
+template32: '{"NAME":"Wemos LOLIN32 Lite V1.0.0","GPIO":[1,0,1,0,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,1,0,1,1,1,0,0,0,0,1,1,1,1,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: 
+link: https://www.aliexpress.com/item/4000038780903.html
+link2: https://www.amazon.de/dp/B086V1P4BL/
+link3: https://www.amazon.de/dp/B07DMKCPLB/
+---
+
+A compact ESP32 board with a LiPo battery plug and integrated USB/serial (programming) interface. The Wemos LOLIN32 Lite board is discontinued, but several clones are still being offered. Take care, the GPIOs 34 & 35 are inputs only!
+
+![Pinout](/assets/device_images/wemos_LOLIN32_Lite_v1_pinout.webp)

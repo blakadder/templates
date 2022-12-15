@@ -13,7 +13,10 @@ type: DIN Relay
 standard: global
 chip: PSF-B
 ---
-The device opens with tabs at the top or bottom; it's a tight fit, but there is no glue. 
+The device opens with tabs at the top or bottom; it's a tight fit, but there is no glue.
+Newer versions additionally have four small philips screws are accesible with a thin screwdriver from back side, no glue.
+PCB is screwed in with two small screws.
+
 
 The wifi board is screwed to the front, and does not have any allowance for serial flashing. You're going to have to solder tails to the usual 4 pins (+3, gnd, tx, rx). Fortunately, the button is on GPIO0, so you just have to hold that button during powerup. 
 

@@ -3,12 +3,12 @@ date_added: 2021-11-22
 title: Shelly Plus 1PM
 model: SPL1PM
 image: /assets/device_images/shelly_plus_1PM.webp
-template32: '{"NAME":"Shelly Plus 1PM","GPIO":[0,0,0,0,192,2720,0,0,0,0,0,0,0,0,2656,0,0,0,0,2624,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Shelly Plus 1PM","GPIO":[0,0,0,0,192,2720,0,0,0,0,0,0,0,0,2656,0,0,0,0,2624,0,32,224,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.domadoo.fr/en/objets-communicants/5889-shelly-micromodule-commutateur-intelligent-wi-fi-avec-mesure-d-energie-shelly-plus-1pm-3800235265017.html
 link2: https://www.amazon.de/dp/B0965J4HT5/
 link3: https://www.idealo.de/preisvergleich/OffersOfProduct/201650823_-shelly-plus-1pm-shelly.html
 link4: https://www.aliexpress.com/item/1005003462281967.html
-mlink: https://shelly.cloud/shelly-plus-1pm/
+mlink: https://www.shelly.cloud/en/products/shop/shelly-plus-1pm/
 flash: serial
 chip: solo1
 category: relay

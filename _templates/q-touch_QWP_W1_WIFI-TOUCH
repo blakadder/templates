@@ -1,0 +1,32 @@
+---
+date_added: 2022-11-27
+title: Q-touch 433MHz 1 Gang No Neutral
+model: QWP_W1_WIFI-TOUCH
+image: /assets/device_images/q-touch_QWP_W1_WIFI-TOUCH.webp
+template9: '{"NAME":"QWP_W1_WIFI-TOUCH","GPIO":[32,1,1,1,0,0,0,0,224,320,0,0,0,0],"FLAG":0,"BASE":28}' 
+link: https://allegro.pl/oferta/dotykowy-wlacznik-swiatla-pojedynczy-szklany-wifi-8629139549
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+Programming pins on the top of PCB, six fields (left to right): 3.3V, RX, TX, IO0, RST, GND.
+
+[![Pinout](/assets/device_images/q-touch_QWP_W2_WIFI-TOUCH_pinout.webp)](/assets/device_images/q-touch_QWP_W2_WIFI-TOUCH_pinout.webp)
+
+Wire connection:
+
+* 3.3v ------------ 3.3v
+* Tx --------------- Rx
+* Rx --------------- Tx
+* IO0 ------------- GND  !!!!!!
+* GND------------ GND
+
+The wall switch signals the states of the relays.
+
+1. Relay on - RED touch field illumination
+2. Relay off - BLUE touch field illumination
+
+After uploading the TASMOTA, the blue highlighting does not work!!! Activate the LedPower function in the console 'LedPower 1'.

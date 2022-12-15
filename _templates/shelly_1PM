@@ -5,8 +5,8 @@ category: relay
 type: Switch Module
 standard: global
 flash: mgos
-mlink: https://shelly.cloud/shelly-1pm-wifi-smart-relay-home-automation/
-image: https://user-images.githubusercontent.com/4916781/57010210-abad7a80-6c4f-11e9-93ae-73b45697a214.jpg
+mlink: 
+image: /assets/device_images/shelly_1PM.webp
 template: '{"NAME":"Shelly 1PM","GPIO":[56,0,0,0,82,134,0,0,0,0,0,21,0],"FLAG":2,"BASE":18}' 
 link: https://www.amazon.de/dp/B07QB2JBZC/ 
 link2: https://www.amazon.com/dp/B07RTH1D9M 

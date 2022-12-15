@@ -7,7 +7,7 @@ template9: '{"NAME":"Shelly 3EM","GPIO":[1,1,288,1,32,8065,0,0,640,8064,608,224,
 link: https://www.domadoo.fr/en/objets-communicants/5282-shelly-wifi-operated-3-phase-energy-meter-and-contactor-control-3800235262214.html
 link2: https://www.amazon.de/dp/B0918NR3YC/
 link3: https://www.idealo.de/preisvergleich/OffersOfProduct/200857383_-3em-shelly.html
-mlink: https://shelly.cloud/products/shelly-3em-smart-home-automation-energy-meter/
+mlink: https://www.shelly.cloud/en/products/shop/shelly-2-5-ce-ul-1
 flash: serial
 category: sensor
 type: Sensor
