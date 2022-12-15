@@ -4,7 +4,7 @@ title: LifeSmart Cololight PRO Hexagonal
 model: LS166
 image: /assets/device_images/lifesmart_LS166.webp
 template32: '{"NAME":"Cololight PRO","GPIO":[0,0,0,0,32,0,0,0,0,33,0,0,1376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4704,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
-mlink: https://www.athom.tech/blank-1/2812b-led-strip-controller
+mlink: 
 link: https://www.banggood.com/LifeSmart-Cololight-LED-Quantum-Light-Smart-Geometry-Assembling-DIY-Lamp-WiFi-Work-with-Google-Assistant-Alexa-Cololight-APP-Smart-Control-p-1910756.html
 link2: https://www.amazon.com/dp/B088TGKSB6/
 link3: https://www.amazon.de/dp/B08KH714X3/
