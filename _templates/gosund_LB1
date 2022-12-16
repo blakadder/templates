@@ -6,6 +6,7 @@ image: /assets/device_images/gosund_LB1.webp
 template: '{"NAME":"NiteBird LB1","GPIO":[0,0,0,0,37,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B082DWK146/
 link2: https://canadianbestseller.com/pd/smart-bulb-gosund-light-bulb-compatible-with-alexa-google-home-a19-e26-wifi-dimmable-warm-white-2700k-led-lights-bulbs-8w-lights-75w-equivalent-lighting-no-hub-required-4-pack/
+link3: https://us.gosund.com/products/gosund-smart-bulb-lb1-4-pack
 mlink: 
 flash: tuya-convert
 category: bulb

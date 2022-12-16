@@ -10,8 +10,8 @@ template: '{"NAME":"TX T3EU3C","GPIO":[17,255,0,255,23,22,18,19,21,158,0,0,0],"F
 link4: https://www.aliexpress.com/item/1005001540727905.html
 link2: https://www.amazon.de/dp/B07T599ZZ7/
 link3: https://www.banggood.com/SONOFF-T3-EUUSUK-AC-100-240V-123-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Smart-Wall-Touch-Light-Switch-For-Smart-Home-Work-With-Alexa-Google-Home-p-1470799.html
-mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
-link: https://itead.cc/product/sonoff-tx-series-wifi-smart-wall-switches/
+mlink: https://itead.cc/product/sonoff-tx-series-wifi-smart-wall-switches/
+link: https://www.geekbuying.com/item/SONOFF-T3EU3C-Intelligent-Switch-497834.html
 link5: https://mediarath.de/collections/tasmota-gerate/products/sonoff-tx-t1-tx-t3-eu1-2-3-wifi-433-mhz-tasmota-alexa-iobroker
 ---
 <div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>

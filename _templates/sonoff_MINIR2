@@ -8,11 +8,11 @@ standard: global
 image: /assets/device_images/sonoff_MINIR2.webp
 template: '{"NAME":"Sonoff MINIR2","GPIO":[17,0,0,0,9,0,0,0,21,157,0,0,0],"FLAG":0,"BASE":1}' 
 flash: sonoff-diy
-link: https://itead.cc/product/sonoff-mini/
+link: https://www.geekbuying.com/item/SONOFF-MINIR2-Two-way-DIY-Smart-Switch-WiFi-Switch-497650.html
 link2: https://www.aliexpress.com/item/1005001742223394.html
 link3: https://www.domadoo.fr/en/peripheriques/5447-sonoff-micromodule-commutateur-connecte-wifi-diy.html
 link4: https://mediarath.de/collections/tasmota-gerate/products/sonoff-mini-r2-wifi-smart-switch-tasmota-alexa-kompatibel-iobroker-neu
-mlink: https://sonoff.tech/product/wifi-diy-smart-switches/sonoff-minir2
+mlink: https://itead.cc/product/sonoff-mini/
 ---
 
 The MINIR2 improves on the design of [MINI](sonoff_mini) with an internal antenna and a visually separate AC and low voltage terminals.

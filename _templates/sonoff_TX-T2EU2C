@@ -4,11 +4,11 @@ title: Sonoff TX T2 EU 2 Gang
 model: T2EU2C
 image: /assets/device_images/sonoff_TX-T2EU2C.webp
 template: '{"NAME":"Sonoff T2 TX 2CH","GPIO":[17,255,255,255,0,22,18,0,21,56,0,0,0],"FLAG":0,"BASE":29}' 
-link: https://itead.cc/product/sonoff-tx-series-wifi-smart-wall-switches/
-link2: https://www.banggood.com/SONOFF-T2-EU-or-US-or-UK-AC-100-240V-1-or-2-or-3-Gang-TX-Series-433Mhz-WIFI-Wall-Switch-RF-Smart-Wall-Touch-Switch-For-Smart-Home-Work-With-Alexa-Google-Home-p-1470884.html?rmmds=search&ID=6278517&cur_warehouse=CN
+link: https://www.geekbuying.com/item/SONOFF-T2EU2C-TX-Intelligent-Switch-497672.html
+link2: https://www.banggood.com/SONOFF-T2-EU-or-US-or-UK-AC-100-240V-1-or-2-or-3-Gang-TX-Series-433Mhz-WIFI-Wall-Switch-RF-Smart-Wall-Touch-Switch-For-Smart-Home-Work-With-Alexa-Google-Home-p-1470884.html
 link3: https://www.amazon.de/dp/B07T59NDF3/
 link4: https://www.aliexpress.com/item/4000092798540.html 
-mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
+mlink: https://itead.cc/product/sonoff-tx-series-wifi-smart-wall-switches/
 flash: serial
 category: switch
 type: Switch

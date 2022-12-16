@@ -4,10 +4,9 @@ title: Gosund P1
 model: P1
 image: /assets/device_images/gosund_P1.webp
 template9: '{"NAME":"Gosund_P1","GPIO":[0,3072,544,3104,0,259,0,0,225,226,224,0,35,4704],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.de/gp/product/B085XXCPRD/
 link2: https://www.alzashop.com/gosund-smart-power-strip-p1-d6253993.htm
-link3: https://www.banggood.com/Gosund-P1-15A-Smart-Power-Strip-Wifi-Plug-Outlet-Sockets-Surge-Protector-3-USB-3-Charging-Port-APP-Remote-Control-Works-With-Alexa-Google-Home-p-1891201.html
-link4: https://mediarath.de/collections/tasmota-gerate/products/gosund-p1-3-fach-ac-usb-wifi-smart-steckdosenleiste-energiemessung-tasmota
+link: https://www.banggood.com/Gosund-P1-15A-Smart-Power-Strip-Wifi-Plug-Outlet-Sockets-Surge-Protector-3-USB-3-Charging-Port-APP-Remote-Control-Works-With-Alexa-Google-Home-p-1891201.html
+link3: https://mediarath.de/collections/tasmota-gerate/products/gosund-p1-3-fach-ac-usb-wifi-smart-steckdosenleiste-energiemessung-tasmota
 mlink: https://www.alibaba.com/product-detail/Tuya-APP-Remote-Control-16A-EU_1600198641325.html
 flash: tuya-convert
 category: plug

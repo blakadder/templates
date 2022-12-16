@@ -7,8 +7,8 @@ type: Switch Module
 standard: global
 image: /assets/device_images/sonoff_4CHR3.webp
 template: '{"NAME":"Sonoff 4CHR3","GPIO":[17,255,255,255,23,22,18,19,21,56,20,24,0],"FLAG":0,"BASE":7}' 
-mlink: https://sonoff.tech/product/wifi-diy-smart-switches/4chr3-4chpror3
-link: https://itead.cc/product/sonoff-4ch-r3-pro-r3/
+mlink: https://itead.cc/product/sonoff-4ch-r3-pro-r3/
+link: https://www.geekbuying.com/item/Sonoff-4CH-R3-4-Gang-Wifi-Smart-Switch-497654.html
 link3: https://www.aliexpress.com/item/4001183489844.html
 link2: https://www.banggood.com/SONOFF-4CH-R3-and-4CH-PRO-R3-AC100-240V-50-or-60Hz-10A-2200W-4-Gang-WiFi-DIY-Smart-Switch-Inching-or-Self-Locking-or-Interlock-3-Working-Mode-APP-Remote-Control-Switch-Works-with-Alexa-and-Google-Home-p-1674979.html
 link4: https://www.domadoo.fr/en/peripheriques/5854-sonoff-commutateur-intelligent-wifi-4-canaux.html

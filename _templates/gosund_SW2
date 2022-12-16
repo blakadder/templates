@@ -4,7 +4,7 @@ title: Gosund SW2
 image: /assets/device_images/gosund_SW2.webp
 template: '{"NAME":"Gosund Dimmer","GPIO":[255,148,255,149,17,0,255,255,56,158,37,255,255],"FLAG":0,"BASE":18}'
 link: https://www.amazon.com/gp/product/B07VP4PHJJ
-link2: https://www.aliexpress.com/item/1005002883529579.html
+link2: https://www.aliexpress.com/item/1005003591017903.html
 link3: https://canadianbestseller.com/pd/smart-dimmer-switch-gosund-dimmer-switches-works-with-alexa-google-home-single-pole-timer-functionapp-remotely-control-etl-and-fcc-listed-2-pack/
 mlink: https://us.gosund.com/collections/smart-switch/products/gosund-smart-dimmer-switch-4-pack
 flash: tuya-convert
