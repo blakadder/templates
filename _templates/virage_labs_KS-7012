@@ -13,3 +13,5 @@ type: Dimmer
 standard: us
 ---
 Device is pre-flashed with a customized Tasmota, but can be OTA flashed to any version.
+
+Newer hardware revisions of this device may not work with the above template. You can simply flash a stock tasmota build and it will continue working as expected

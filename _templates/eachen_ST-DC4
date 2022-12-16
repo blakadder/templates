@@ -25,7 +25,7 @@ standard: [global]
   - **Open** latest Tasmota firmware from above.  
   - Check **Erase before flashing**.  
 - Connect [USB to serial](https://www.amazon.com/gp/product/B07WX2DSVB/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) interface from computer to board with **3v** jumper selected.  
-    - Connect to board as follows.  
+    1. Connect to board as follows.  
 <table>
   <tr>
     <th>USB Adapter</th>
@@ -48,11 +48,12 @@ standard: [global]
     <td>T</td>
   </tr>
 </table>
-- Power up the Eachen Relay board with the **#1 Relay button** held down.
-- Continue holding the **#1 Relay button** down during the entire flashing process.
-- Hit blue **Tasmotize!** button in Tasmotizer.
-- After a minute or so the Eachen board will reboot into new firmware.
-- Unplug power from Eachen board. Wait 5 secs then replug power.
+2. Power up the Eachen Relay board with the **#1 Relay button** held down.
+3. Continue holding the **#1 Relay button** down during the entire flashing process.
+4. Hit blue **Tasmotize!** button in Tasmotizer.
+  4.1 If Tasmotizer times out with error message: 'Failed to connect to ESP8266: Timed out waiting for packet header', you may have to connect the 2 C66 pads on the ST-DC4 and repeat steps 2 to 4
+5. After a minute or so the Eachen board will reboot into new firmware.
+6. Unplug power from Eachen board. Wait 5 secs then replug power.
 ### Connect to WIFI  
 - Using WIFI capable device connect to AP labeled tasmota_XXXXXX.  
     *(where XXXXXX is the last 6 digits of the device's MAC addr.)*
