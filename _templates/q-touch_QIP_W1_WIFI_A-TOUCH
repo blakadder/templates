@@ -13,3 +13,6 @@ type: Switch
 standard: eu
 ---
 ![PInout](/assets/device_images/q-touch_QIP_W1_WIFI_A-TOUCH_pinout.webp)
+---
+For devices bought after Dec, 2022 (marking on PCB: 2PH126651A) following template works:
+{"NAME":"QTOUCH_1G","GPIO":[32,0,0,0,0,0,0,0,224,320,0,0,0,0],"FLAG":0,"BASE":1}
