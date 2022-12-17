@@ -5,7 +5,7 @@ model: WLPP1
 image: /assets/device_images/wyze_WLPP1.webp
 template: '{"NAME":"WyzePlugWLPP1","GPIO":[0,0,0,0,0,56,0,0,21,0,17,0,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.com/dp/B07XZT24B8
-link2: 
+link2: https://www.walmart.com/ip/Wyze-Smart-Home-Smart-Plug-Two-Pack-White-WiFi-enabled/347924849
 mlink: https://wyze.com/wyze-plug.html
 flash: esp2ino
 category: plug

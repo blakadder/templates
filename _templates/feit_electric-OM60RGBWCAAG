@@ -5,12 +5,13 @@ type: RGBCCT
 category: bulb
 standard: e26
 link: https://www.amazon.com/FEIT-OM60-RGBW-CA-AG/dp/B07GG98VV2/
-link2: https://www.costco.com/FEIT-WiFi-Smart-Bulbs-4-pack.product.100417461.html
+link2: https://www.walmart.com/ip/Feit-Electric-Smart-LED-9-Watt-60-Watt-Eq-Color-Changing-Tunable-White-Light-Bulb-A19-E26-Dimmable/864312092
 image: /assets/device_images/feit_electric-OM60RGBWCAAG.webp
 template: '{"NAME":"OM60/RGBW","GPIO":[0,0,0,0,140,37,0,0,38,142,141,0,0],"FLAG":0,"BASE":18}'
 mlink: https://www.feit.com/product/smart-wifi-bulb-color-changing-tunable-white-2/
 ---
 ## WARNING!
+
 If the Bulb Base shows 228-20-04 the device is not Tasmota compatible
 
 
