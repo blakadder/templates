@@ -3,7 +3,7 @@ date_added: 2022-01-10
 title: Gosund Table Lamp
 model: LB3
 image: /assets/device_images/gosund_LB3.webp
-template9: '{"NAME":"Gosund LED Light","GPIO":[0,0,0,0,0,418,0,0,417,419,0,416,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Gosund LB3","GPIO":[0,0,0,0,0,418,0,0,417,419,0,416,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B09J7RG7ZT
 link2: https://www.idealo.de/preisvergleich/Typ/6972391281242.html
 link3: https://www.alzashop.com/nitebird-smart-bedside-light-lb3-d6253998.htm

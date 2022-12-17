@@ -10,7 +10,7 @@ template32: '{"NAME":"M5StickC","GPIO":[1,0,0,0,0,768,1056,576,0,736,0,704,0,0,1
 mlink: https://shop.m5stack.com/products/stick-c
 link: https://www.aliexpress.com/item/32985247364.html
 link2: https://www.amazon.com/dp/B07R48W8R8/
-link3: https://www.buypluss.com/products/2pcs-m5stickc-esp32-pico-mini-iot-development-board-finger-computer-with-color-lcd_1508364
+link3: 
 build: tasmota32-lvgl
 autoconf: true
 ---

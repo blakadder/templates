@@ -5,7 +5,7 @@ model: WO1
 template9: '{"NAME":"Gosund WO1","GPIO":[320,0,576,0,2656,2720,0,0,2624,321,225,224,0,4704],"FLAG":0,"BASE":18}' 
 image: /assets/device_images/gosund_WO1.webp
 link: https://www.amazon.com/dp/B09JZDSLNC
-mlink: https://us.gosund.com/collections/all-products/products/smart-wall-outlet-with-energy-monitoring-wo1
+mlink: https://www.alibaba.com/product-detail/Gosund-Tuya-Matter-Smart-Home-WiFi_1600613047091.html
 flash: tuya-convert
 category: plug
 type: Wall Outlet

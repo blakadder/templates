@@ -4,12 +4,12 @@ title: Sonoff Dual R3
 model: DUALR3
 image: /assets/device_images/sonoff_DUALR3.webp
 template32: '{"NAME":"Sonoff Dual R3","GPIO":[32,0,0,0,0,0,0,0,0,576,225,0,0,0,0,0,0,0,0,0,0,7296,7328,224,0,0,0,0,160,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
-link: https://itead.cc/product/sonoff-dualr3/
+link: https://www.geekbuying.com/item/SONOFF-DUAL-R3-Dual-Relay-Wi-Fi-Smart-Curtain-Switch-497653.html
 link2: https://www.aliexpress.com/item/1005002060944152.html
 link3: https://www.domadoo.fr/en/peripheriques/5701-sonoff-commutateur-intelligent-wifi-2-canaux-mesure-consommation.html
 link4: https://www.banggood.com/SONOFF-DUALR3-Dual-Relay-Module-WiFi-DIY-MINI-Switch-Two-Way-Power-Metering-2-Gang-or-Way-Switch-Timing-Smart-Home-Work-with-eWeLink-APP-p-1856387.html
 link5: https://www.amazon.com/Sonoff-Metering-Certified-DualR3-Assistant/dp/B091HYC35J
-mlink: https://sonoff.tech/product/wifi-diy-smart-switches/dualr3
+mlink: https://itead.cc/product/sonoff-dualr3/
 flash: serial
 category: relay
 type: Switch Module

@@ -52,10 +52,8 @@
 {{ link | uri_escape | prepend: "https://www.awin1.com/cread.php?awinmid=17547&awinaffid=930253&ued=" }}
 {% elsif link contains "conrad.com" %}
 {{ link | uri_escape | prepend: "https://www.awin1.com/cread.php?awinmid=5769&awinaffid=930253&ued=" }}
-{% elsif link contains "buypluss.com" %}
-{{ link | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1722327&u=2442238&m=107304&urllink=" }}
 {% elsif link contains "geekbuying.com" %}
-{{ link | remove_first: 'https://' | uri_escape | prepend: "https://www.shareasale.com/r.cfm?b=371154&u=2442238&m=38812&urllink=" }}
+{{ link | remove_first: 'https://' | uri_escape | prepend: "https://affiliate.geekbuying.com/deeplink.php?affid=3873&url=" }}
 {% elsif link contains "bol.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://partner.bol.com/click/click?p=2&t=url&s=1275491&f=TXL&url=" }}
 {% elsif link contains "geekmaxi.com" %}
@@ -73,7 +71,7 @@
 {% elsif link contains "tessan.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1930388&u=2442238&m=119947&urllink="  }}
 {% elsif link contains "linkind" %}
-{{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1616481&u=2442238&m=101126&urllink="  }}
+{{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=2081732&u=2442238&m=101126&urllink="  }}
 {% elsif link contains "www.alibaba.com" %}
 {{ link | uri_escape | prepend: "https://offer.alibaba.com/cps/ais1lue4?bm=cps&src=saf&url=" }}
 {% else %}

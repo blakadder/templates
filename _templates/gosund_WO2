@@ -1,0 +1,17 @@
+---
+date_added: 2022-12-13
+title: Gosund USB Charger 
+model: WO2
+image: /assets/device_images/gosund_WO2.webp
+template9: '{"NAME":"Gosund WO2","GPIO":[320,0,576,0,0,257,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B09JZBJPS4
+link2: https://www.aliexpress.com/item/1005003598073786.html
+mlink: https://www.alibaba.com/product-detail/Alexa-Hot-Sales-US-Tuya-Smart_1600612856472.html
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: us
+---
+One power outlet always on.  One controllable outlet and two USB ports that are controlled together.
+
+Use command `backlog webbutton1 Outlet; webbutton2 USB` to relabel them on the web UI of Tasmota.  A single press of the physical button will toggle the outlet. A double press of the physical button will toggle the USB ports.

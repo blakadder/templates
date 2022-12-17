@@ -8,9 +8,9 @@ standard: global
 flash: serial
 template32: '{"NAME":"Sonoff POWR316","GPIO":[32,0,0,0,0,576,0,0,0,224,0,0,3104,0,320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 image: /assets/device_images/sonoff_POWR316.webp
-mlink: https://sonoff.tech/product/diy-smart-switch/pow-elite/
-link: https://itead.cc/product/sonoff-pow-r2/
-link2: https://www.aliexpress.com/item/32862735913.html
+mlink: https://itead.cc/product/sonoff-pow-r2/
+link: https://www.aliexpress.com/item/32862735913.html
+link2: 
 ---
 
 Use the device button to enable flash mode. 

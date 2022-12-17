@@ -4,12 +4,12 @@ title: Sonoff TX T1 EU 1 Gang
 model: T1EU1C
 image: /assets/device_images/sonoff_TX-T1EU1C.webp
 template: '{"NAME":"Sonoff T1 TX 1CH","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":28}' 
-link: https://itead.cc/product/sonoff-tx-series-wifi-smart-wall-switches/
-link2: https://www.banggood.com/SONOFF-T1-EU-or-UK-AC-100-240V-1-or-2-or-3-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Remote-Controlled-Wifi-Switch-Smart-Home-Switch-Works-With-Alexa-Google-Home-p-1470883.html?rmmds=search&ID=6278517&cur_warehouse=CN
+link: https://www.geekbuying.com/item/SONOFF-T1EU1C-TX-1-Gang-Smart-WiFi-Wall-Light-Switch-497668.html
+link2: https://www.banggood.com/SONOFF-T1-EU-or-UK-AC-100-240V-1-or-2-or-3-Gang-TX-Series-WIFI-Wall-Switch-433Mhz-RF-Remote-Controlled-Wifi-Switch-Smart-Home-Switch-Works-With-Alexa-Google-Home-p-1470883.html
 link3: https://www.amazon.de/dp/B07T5934W1/
 link4: https://www.aliexpress.com/item/4001171587667.html 
 link5: https://mediarath.de/collections/tasmota-gerate/products/sonoff-tx-t0-tx-t1-eu1-2-3-wifi-433-mhz-tasmota-alexa-iobroker
-mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
+mlink: https://itead.cc/product/sonoff-tx-series-wifi-smart-wall-switches/
 flash: serial
 category: switch
 type: Switch
