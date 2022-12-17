@@ -5,7 +5,7 @@ model: 50050
 image: /assets/device_images/wion_50050.webp
 template9: '{"NAME":"WiOn 50050","GPIO":[0,0,576,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B00ZYLRQNE
-link2: 
+link2: https://www.walmart.com/ip/WiOn-50050-Indoor-WiFi-Plug-With-1-Grounded-Outlet-White/47199003
 mlink: 
 flash: serial
 category: plug

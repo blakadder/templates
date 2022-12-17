@@ -5,7 +5,7 @@ model: HA-1006
 image: /assets/device_images/vivitar_HA-1006.webp
 template: '{"NAME":"HA-1006","GPIO":[0,0,0,0,56,0,0,0,21,90,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/Vivitar-Wireless-Smart-Plug/dp/B07FDN7YK7
-link2: https://www.homedepot.com/p/Vivitar-Wi-Fi-Plug-1-Outlet-1-USB-Port-HA-1006/305495195
+link2: https://www.walmart.com/ip/Vivitar-Smart-Security-Wireless-Smart-Plug/215084120
 mlink: http://www.vivitar.com/product/115/smart-home/92/wall-outlet
 flash: serial
 category: plug

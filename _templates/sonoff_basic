@@ -7,6 +7,7 @@ image: /assets/device_images/sonoff_basic.webp
 template: '{"NAME":"Sonoff Basic","GPIO":[17,255,0,255,0,0,0,0,21,56,255,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.alibaba.com/product-detail/ITEAD-Sonoff-Basic-WiFi-Smart-Switch_1600061689696.html
 link2: https://www.aliexpress.com/item/32877865736.html
+link3: https://www.walmart.com/ip/SONOFF-Basic-Wifi-Switch-Works-Alexa-Google-Home-Timer-10A-2200W-Wireless-Remote-Android-APP-Control-Electric-Appliances-Universal-Smart-Automation-M/660877152
 mlink: https://wiki.iteadstudio.com/Sonoff
 ---
 Sonoff Basic - the one that started it all! This device is replaced by [BASICR2](sonoff_BASICR2).
