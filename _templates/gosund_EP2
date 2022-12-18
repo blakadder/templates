@@ -6,7 +6,7 @@ category: plug
 type: Plug
 standard: eu
 image: /assets/device_images/Gosund_EP2.webp
-template: '{"NAME":"Gosund EP2","GPIO":[56,255,158,255,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
+template: '{"NAME":"Gosund EP2","GPIO":[576,1,320,1,2656,2720,0,0,2624,32,0,224,0,0],"FLAG":0,"BASE":45}'
 link: https://www.amazon.de/dp/B085RFKVW4
 link2: https://www.banggood.com/Gosund-EP2-10A-Smart-WiFi-Plug-Mini-Electrical-Outlet-Socket-With-Timing-Function-Energy-Monitor-Alexa-Voice-Control-Device-Remote-Control-Works-With-Google-Home-And-Gosund-APP-p-1891185.html
 mlink: https://gosund.com/download/smart_plug/126.html
