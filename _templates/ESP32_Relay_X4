@@ -3,7 +3,7 @@ date_added: 2022-09-13
 title: LC Technology DC5-60V 4 Channel
 model: ESP32_Relay_X4
 image: /assets/device_images/ESP32_Relay_X4.webp
-template32: '{"NAME":"ESP32_Relay_X4","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,226,227,1,0,0,0,0,224,225,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"ESP32_Relay_X4","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,544,0,226,227,1,0,0,0,0,224,225,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.co.uk/dp/B0BB38K5H9
 link2: https://www.banggood.com/AC-or-DC-Power-Supply-ESP32-WiFi-bluetooth-BLE-Four-way-Relay-Module-ESP32-WROOM-Development-Board-p-1961382.html
 link3: https://www.aliexpress.com/item/1005004247406662.html
