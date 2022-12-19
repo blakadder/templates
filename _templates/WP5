@@ -6,6 +6,7 @@ image: /assets/device_images/WP5.webp
 template: '{"NAME":"WP5","GPIO":[57,0,56,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B078GLNVJ1
 link2: https://www.amazon.com/gp/product/B0786WC5Q3/
+link3: https://www.walmart.com/ip/Gosund-Mini-Smart-Plug-Works-with-Alexa-and-Google-Home-APP-Control-Timer-Function-No-Hub-Required-ETL-FCC-Listed-4-Pack-Outlets/386097080
 mlink: 
 flash: tuya-convert
 category: plug

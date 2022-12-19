@@ -5,6 +5,7 @@ model: WLPA19
 image: /assets/device_images/wyze_WLPA19.webp
 template9: '{"NAME":"Wyze Bulb","GPIO":[5728,0,0,0,0,0,0,0,0,416,417,0,0,0],"FLAG":0,"BASE":48}'
 link: https://www.amazon.com/dp/B07RF9NCDP
+link2: https://www.walmart.com/ip/Wyze-LED-9-5W-60W-Equivalent-White-Smart-Home-Light-Bulb-Dimmable-2-Pack/771678742
 mlink: https://wyze.com/wyze-bulb.html
 flash: esp2ino
 category: bulb

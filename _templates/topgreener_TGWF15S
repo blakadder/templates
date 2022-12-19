@@ -5,7 +5,7 @@ model: ZZH-WF15S
 image: /assets/device_images/topgreener_TGWF15S.webp
 template: '{"NAME":"TopGreener-Switch","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.com/dp/B07D8YR75X/
-link2: 
+link2: https://www.walmart.com/ip/TOPGREENER-Wi-Fi-Smart-Light-Switch-UL-Listed-NEUTRAL-Wire-Required-Single-Pole-3-Way-No-Hub-listed-FCC-Compliant-TGWF15S-2-Pack/468082000
 mlink: 
 flash: tuya-convert
 category: switch

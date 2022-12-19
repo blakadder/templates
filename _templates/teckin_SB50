@@ -5,7 +5,8 @@ type: RGBW
 category: bulb
 standard: e27
 link: https://www.amazon.ca/dp/B07KYJZ523
-image: https://images-na.ssl-images-amazon.com/images/I/51HhCAk5RaL._SX425_.jpg
+link2: https://www.walmart.com/ip/Teckin-Smart-Light-Bulbs-7-5W-800LM-E26-LED-Dimmable-Wi-Fi-RGB-Colorful-Light-Bulbs-with-Remote-Control-Voice-Control-1-Pack/457596980
+image: /assets/device_images/teckin_SB50.webp
 template: '{"NAME":"Teckin SB50","GPIO":[0,0,0,0,40,0,0,0,38,39,37,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

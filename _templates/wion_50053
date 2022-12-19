@@ -5,7 +5,7 @@ model: 50053
 image: /assets/device_images/wion_50053.webp
 template9: '{"NAME":"WiOn 50053","GPIO":[0,0,320,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B00ZYLTDX0
-link2: 
+link2: https://www.walmart.com/ip/WiOn-50063-Smart-Plug-In-Indoor-and-Outdoor-Wi-Fi-Switch-and-Yard-Stake-Bundle-1-Grounded-Outlet-and-3-Grounded-Outlets/47199001
 mlink: 
 flash: serial
 category: plug

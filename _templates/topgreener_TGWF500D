@@ -5,7 +5,7 @@ model: ZZH-WF500D
 image: /assets/device_images/topgreener_TGWF500D.webp
 template: '{"NAME":"TopGreener-Dimmer","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 21,3 | DimmerRange 10,25"}' 
 link: https://www.amazon.com/dp/B07BSX9SDF/
-link2: 
+link2: https://www.walmart.com/ip/TOPGREENER-Smart-in-Wall-Wi-Fi-Dimmer-Switch-Single-Pole-Neutral-Wire-Required-White/549626252
 mlink: 
 flash: tuya-convert
 category: switch

@@ -3,7 +3,7 @@ date_added: 2022-11-27
 title: Appio 3 Gang Touch
 model: 9611
 image: /assets/device_images/appio_9611.webp
-template9: '{"NAME":"Appio 9611","GPIO":[0,0,0,0,226,33,0,0,32,224,34,225,288,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Appio-9611","GPIO":[0,0,0,0,224,33,0,0,34,226,32,225,288,0],"FLAG":0,"BASE":18}' 
 link: https://allegro.pl/oferta/wlacznik-swiatla-led-potrojny-szklany-dotyk-wifi-10224539168
 link2: 
 mlink: 
@@ -11,4 +11,5 @@ flash: serial
 category: switch
 type: Switch
 standard: eu
+chip: TYWE3S
 ---

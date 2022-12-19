@@ -5,7 +5,7 @@ model: EIE3-1001-WHT
 image: /assets/device_images/energizer_EIE3-1001-WHT.webp
 template9: '{"NAME":"Energizer EIE3-1001-WHT","GPIO":[32,0,448,0,2688,2656,0,0,2624,450,224,0,449,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07C42MFRC
-link2: 
+link2: https://www.walmart.com/ip/Energizer-Connect-Smart-Plug-No-Hub-Required/376259085
 mlink: https://energizerconnect.com/product/smart-plug-with-energy-monitor/
 flash: serial
 category: plug
