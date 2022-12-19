@@ -1,14 +1,11 @@
 ---
-date_added: 2022-12-20
-title: Martin Jerry 3-Way On/Off
+date_added: 2022-07-07
+title: Martin Jerry Single Pole On/Off
 model: S01
-image: /assets/device_images/martin_jerry_S01.webp
-link: https://www.amazon.com/dp/B0BJ9D1NM1/
-link2: 
-mlink: https://www.martinjerry.com/
-flash: preflashed
 category: switch
 type: Switch
 standard: us
+flash: preflashed
+link: https://www.amazon.com/gp/product/B0B2RLKRJB
+image: /assets/device_images/martin_jerry_S01.webp
 ---
-
