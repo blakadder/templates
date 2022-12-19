@@ -1,7 +1,7 @@
 ---
 date_added: 2022-12-19
 title: Tuya PM Box
-model: 
+model: DCR-PM
 image: /assets/device_images/tuya_pm_box.webp
 template9: '{"NAME":"PM Box","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 99,91 | TuyaMCU 71,2 | TuyaMCU 73,3 | HumRes 1 | TempRes 1 "}' 
 mlink: 
