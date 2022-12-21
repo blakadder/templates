@@ -9,6 +9,6 @@ image: /assets/device_images/sonoff_MINIR4.webp
 template32: '{"NAME":"Sonoff MINIR4","GPIO":[32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,576,0,0,0,0,0,0,224,160,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 flash: serial
 link: 
-mlink: https://itead.cc/product/sonoff-mini/
+mlink: https://itead.cc/
 ---
 
