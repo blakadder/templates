@@ -1,0 +1,14 @@
+---
+date_added: 2022-12-21
+title: NEO Coolcam 2Ch Touch Light
+model: NAS-SC01W0-2
+image: /assets/device_images/
+template9: '{"NAME":"Neo NAS-SC01W-2","GPIO":[0,0,0,0,225,0,0,0,32,224,33,0,544,0],"FLAG":0,"BASE":18}' 
+link: https://botland.com.pl/neo-automatyka-domowa/14522-neo-nas-sc01w0-2-wlacznik-scienny-dotykowy-wifi-2-kanalowy-5904422322298.html
+link2: https://lite.al/V-2YM
+mlink: 
+flash: tuya-convert
+category: switch
+type: Switch
+standard: eu
+---

@@ -1,0 +1,18 @@
+---
+date_added: 2022-12-18
+title: KMC Smart Strip 3
+model: 20307
+image: /assets/device_images/kmc_20307.webp
+template9: '{"NAME":"KMC 3-Outlet (20307)","GPIO":[0,320,0,32,0,226,0,0,224,0,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B09M8B9L21
+link2: 
+mlink: 
+flash: replace
+category: plug
+type: Power Strip
+standard: us
+chip: WB2S
+---
+A triangle screwdriver bit is required to open the device and replace the module. The built-in WB2S module is easily desoldered with hot air and replaced with a pin-compatible TYWE2S / ESP-02S module.
+
+It is recommended to pre-flash the ESP-02S module before soldering it to the main PCB, as reaching the `GPIO0` test pad on the rear of the new ESP-02S module to ground it during boot for serial flashing is obstructed by a capacitor.
