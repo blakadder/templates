@@ -5,7 +5,7 @@ model: R4A4
 image: /assets/device_images/rocket_R4A4.webp
 template32: '{"NAME":"ASTRA R4A4","GPIO":[1,1,1,1,576,1,1,1,480,1,1,1,3232,3200,1,1,0,640,608,1,0,224,225,1152,0,0,0,0,227,226,160,161,162,0,0,163],"FLAG":0,"BASE":1}'
 link: https://rocketcontroller.com/product-category/controllers/
-link2: https://www.aliexpress.com/item/1005004464526242.html
+link2: https://s.click.aliexpress.com/e/_DC9PQGr
 mlink: https://rocketcontroller.com/
 flash: preflashed
 category: relay

@@ -1,0 +1,15 @@
+---
+date_added: 2022-12-30
+title: Beghelli Dom-e Presa Smart IT
+model: 60001
+image: /assets/device_images/beghelli_60001.webp
+template9: '{"NAME":"Beghelli DOM-E Smart Plug","GPIO":[32,0,0,0,2720,2656,0,0,2624,544,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/Dom-Beghelli-Presa-Smart-Automazione/dp/B07KKZNR22
+link2: https://www.unieuro.it/online/Domotica/Presa-smart-Wi-Fi-pidBEG60001
+mlink: https://www.beghelli.it/en/products/household-products/smart-home/dom-e-presa-smart-it
+flash: tuya-convert
+category: plug
+type: Plug
+standard: it
+---
+Same as [Atlantis Power Monitoring Plug](https://templates.blakadder.com/atlantis_A17-SS16A.html)
