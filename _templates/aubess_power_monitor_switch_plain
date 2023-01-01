@@ -1,0 +1,14 @@
+---
+date_added: 2022-09-23
+title: Aubess Power Monitor Switch 16A (w/o BL0942)
+model: 
+image: /assets/device_images/aubess_power_monitor_switch.webp
+template9: '{"NAME":"Aubess-RS01","GPIO":[0,0,0,0,576,0,0,0,224,32,160,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004543425583.html
+link2: 
+mlink: 
+flash: replace
+category: relay
+type: Relay Module
+standard: global
+---
