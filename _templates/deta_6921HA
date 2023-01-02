@@ -2,11 +2,11 @@
 date_added: 2021-04-26
 title: Deta Single Power Point
 model: 6921HA
-template9: '{"NAME":"DETA 2G GPO USB","GPIO":[0,0,0,2720,64,576,0,0,65,224,225,0,0,0],"FLAG":0,"BASE":18}'
+template9: '{"NAME":"DETA 1G GPO","GPIO":[0,0,0,3104,64,576,0,0,0,224,0,0,0,0],"FLAG":0,"BASE":18}'
 category: plug
 type: Wall Outlet
 link: https://www.bunnings.com.au/
-image: https://media.prod.bunnings.com.au/api/public/content/dbc3b25aaa5240739a09bc35b72dc4ce?v=2b6a28a2&t=w500dpr1
+image: https://media.prod.bunnings.com.au/api/public/content/c50e623db1a1459d82fd0b75bba51c60?v=312aea20&t=w500dpr1
 link2: 
 link3: 
 flash: replace 
