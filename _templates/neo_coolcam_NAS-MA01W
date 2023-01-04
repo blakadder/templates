@@ -1,14 +1,14 @@
 ---
-date_added: 2020-10-03
+date_added: 2022-12-31
 title: NEO Coolcam Mouse Trap
 model: NAS-MA01W
 image: /assets/device_images/neo_coolcam_NAS-MA01W.webp
-template: '{"NAME":"Neo Mouse Trap","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
-link: https://www.aliexpress.com/wholesale?SearchText=wifi+mouse+trap&ltype=wholesale&SortType=price_asc&groupsort=1&page=1
-link2: https://www.banggood.com/NEO-Mousetrap-Rat-Trap-Catcher-Rodent-Pest-Killer-WiFi-Wireless-Sensor-APP-Control-for-Mobile-Phone-p-1537800.html
-link3: 
+template9: '{"NAME":"NAS-MA01W","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 51,51 | TuyaMCU 99,11"}' 
+link: https://www.aliexpress.com/item/4001086051187.html
+link2: https://www.amazon.com.au/dp/B0BLLPWDDJ
+link3: https://www.walmart.com/ip/NEO-COOLCAM-NAS-MA01W-WiFi-Smart-Mousetrap-Mouse-Killer-Smart-Wireless-WiFi-Mice-Trap-TUYA-No-Poison-Electronic-Mouse-Cage-Rat-Pest-Trap-Catcher/911949329
 mlink: https://www.szneo.com/en/products/show.php?id=232
-flash: tuya-convert
+flash: serial
 category: misc
 type: Miscellaneous
 standard: global
@@ -20,30 +20,37 @@ This is a Tuya electric mouse trap. Runs on 4 1.5v AA batteries.
 Identified with MCU Product ID: `{"p":"ymf4oruxqx0xlogp","v":"1.0.1","m":0}`. 
 
 ## Flashing
+
 Once you disassemble the top case and unscrew the PCB from it there are labelled pads for all needed GPIO's on the under side of the board. Disconnect all cabled from the PCB and power the ESP8266 chip using its 3V3 pad. Follow standard flashing procedure.
 
 ![wiring](/assets/device_images/neo_coolcam_NAS-MA01W_wiring.webp)
+
 ## Configuration
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
 Disable Power Cycle recovery, turn on TuyaReceived publish to MQTT and change device to a TuyaMCU module 
+
 ```console
 Backlog SetOption65 1; SetOption66 1; SetOption36 0; Module 54
 ```
-Switch device to battery power mode
+
+Make sure the device to battery power mode
+
 ```console
 Backlog TuyaMCU 51,51; TuyaMCU 99,1
 ```
 
-This rule is required to shut down Tasmota after a successful boot and empty mouse trap.
+This rule is required to shut down Tasmota 5 minutes after a successful boot and reset the trap.
+
 ```console
-backlog rule1 on tuyareceived#data=55AA00050005650100010070 do backlog delay 300; serialsend5 55AA000500010005 endon; rule1 1
+rule1 on tuyareceived#data=55AA00050005650100010070 do backlog delay 300; serialsend5 55AA000500010005 endon
 ```
 
-When the trap is triggered it will stay turned on until reset.
+Otherwise, when the trap is triggered the device will stay turned on until reset.
 
 ## Functions
+
 - dpid 101 - `1` reports trap triggered
 - dpid 102 - battery
     - `0` - 100%
@@ -52,12 +59,12 @@ When the trap is triggered it will stay turned on until reset.
     - `3` - 25% - low
 
 ## Home Assistant configuration
-Only works on `SetOption19 1`
 
-Add these rules to console, your mouse trap will be autodiscovered on reboot.
+Add these rules to console and your mouse trap will be autodiscovered on reboot or on devicename change
 
 ```console
 rule2
+on system#boot do devicename endon
 on tuyareceived#data=55AA00050005650100010171 do publish2 stat/%topic%/trap ON endon
 on tuyareceived#data=55AA00050005650100010070 do publish2 stat/%topic%/trap OFF endon
 on tuyareceived#data=55AA00050005660400010074 do publish2 stat/%topic%/battery 100 endon 
@@ -68,11 +75,12 @@ on tuyareceived#data=55AA00050005660400010377 do publish2 stat/%topic%/battery 2
 
 ```console
 {% raw %}rule3 
-on system#boot do publish2 homeassistant/binary_sensor/%deviceid%_trap/config {"name":"%topic% alert","state_topic":"stat/%topic%/trap","value_template":"{{value}}","unique_id":"%deviceid%_trap","device":{"identifiers":["%deviceid%"],"name":"%topic%","model":"NAS-MA01W","sw_version":"Tasmota","manufacturer":"Tasmota"}} endon
-on system#boot do publish2 homeassistant/sensor/%deviceid%_battery/config {"name":"%topic% battery","state_topic":"stat/%topic%/battery","value_template":"{{value}}","device_class":"battery","unit_of_measurement":"%","unique_id":"%deviceid%_battery","device":{"identifiers":["%deviceid%"],"name":"%topic%","model":"NAS-MA01W","sw_version":"Tasmota","manufacturer":"Tasmota"}} endon{% endraw %}
+on devicename#data do publish2 homeassistant/binary_sensor/%macaddr%/trap/config {"name":"%value% Alert","state_topic":"stat/%topic%/trap","value":"{{ value }}","force_update":true,"icon":"mdi:rodent","unique_id":"%macaddr%_trap","dev":{"cns":[["mac","%macaddr%"]]}} endon
+on devicename#data do publish2 homeassistant/sensor/%macaddr%/battery/config {"name":"%value% Battery","state_topic":"stat/%topic%/battery","value_template":"{{ value | int }}","device_class":"battery","entity_category":"diagnostic","unit_of_measurement":"%%%","unique_id":"%macaddr%_battery","dev":{"cns":[["mac","%macaddr%"]]}} endon{% endraw %}
 ```
 
-Enable the rules:
+Enable all the rules:
+
 ```console
-backlog rule2 1; rule3 1
+rule0 1
 ```
