@@ -1,7 +1,7 @@
 ---
 date_added: 2019-08-23
 title: Martin Jerry ST01 3 Way
-model: MJ-ST01
+model: MJ-ST01, MJ-ST02
 category: switch
 type: Switch
 standard: us
@@ -10,12 +10,14 @@ image: /assets/device_images/martin-jerry-3-way-ST01.webp
 template: '{"NAME":"MJ 3Way Switch","GPIO":[255,255,255,255,52,53,0,0,21,9,157,255,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.com/gp/product/B0852SY3WH
 ---
-
+Set module configuation to: Tuya MCU (54)
+---
 [Flashing and setup video](https://www.youtube.com/watch?v=B8YhfZ_LguI)
 
 This switch requires the use of switch1 as configured in the template to work correctly.  You will need to issue the following command on the console to set the correct mode.
 ```console
 switchmode1 5
+TuyaMCU 11,1
 ```
 
 Used the following rule to have the red LED lit while the relay is off and blue LED lit when on (matches the Martin Jerry Dimmers)
