@@ -6,7 +6,7 @@ type: Power Strip
 standard: us
 link: https://www.amazon.com/CRST-Protector-Control-Independent-Extension/dp/B07C1XGKSY
 image: https://images-na.ssl-images-amazon.com/images/I/61KdAvGEJZL._AC_SL1500_.jpg
-template: '{"NAME":"CRST LTS-4G-W","GPIO":[544,0,0,0,227,32,0,0,225,226,224,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"CRST LTS-4G-W","GPIO":[544,0,0,0,227,32,0,0,225,226,224,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 
