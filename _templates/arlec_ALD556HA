@@ -1,0 +1,15 @@
+---
+date_added: 2023-01-07
+title: Arlec Smart 5m White & Colour Changing 
+model: ALD556HA
+image: /assets/device_images/arlec_ALD556HA.webp
+template9: '{"NAME":"ALD556HA","GPIO":[0,0,1088,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-grid-connect-smart-5m-led-white-colour-changing-strip-light-with-remote_p0208823
+link2: 
+mlink: 
+flash: replace
+category: light
+type: LED Strip
+standard: au
+---
+Identical controller to "Arlec Smart 2m LED Colour Changing Strip Light LED Strip (ALD233HA)" except it's LED Strip length is 5M.

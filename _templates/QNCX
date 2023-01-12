@@ -1,0 +1,14 @@
+---
+date_added: 2023-01-05
+title: QNCX 
+model: 
+image: /assets/device_images/QNCX.webp
+template9: '{"NAME":"QNCX","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004192614430.html
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
