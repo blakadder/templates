@@ -14,16 +14,16 @@ link2: https://www.amazon.com/dp/B07FLXG64J
 link3: https://www.walmart.com/ip/Geeni-Spot-Smart-Plug-1-Pack/668255467
 mlink: https://mygeeni.com/collections/power/products/spot-wi-fi-smart-plug
 ---
-# TYWE2S module, with the following pinout on my geenispot:
-# Pin1 is 3.3V
-# Pin2 is IO5 (also TP), connected to 2.2k R4, then the low side of LED2, which is green.
-#  High side of LED2 connects to high side of LED1, and a 1k resistor, R9 to 3.3V.
-# Pin3 is GND
-# Pin4 is IO4 (also TP), connected to R3 (1K). R3 goes to low side of LED1, which is blue.
-# Pin5 is Rx, unused
-# Pin6 is IO13, connected to C5, then button SW1, which drives low when pressed.
-# Pin7 is Tx, unused
-# Pin8 is ADC A1, unused
-# Pin9 is IO12, connected to R5, R9, drives relay.
-# Pin10 is RST, unused
-# Pin11 is IO14, unused
+TYWE2S module, with the following pinout on my geenispot:
+- Pin1 is 3.3V
+- Pin2 is IO5 (also TP), connected to 2.2k R4, then the low side of LED2, which is green.
+-  High side of LED2 connects to high side of LED1, and a 1k resistor, R9 to 3.3V.
+- Pin3 is GND
+- Pin4 is IO4 (also TP), connected to R3 (1K). R3 goes to low side of LED1, which is blue.
+- Pin5 is Rx, unused
+- Pin6 is IO13, connected to C5, then button SW1, which drives low when pressed.
+- Pin7 is Tx, unused
+- Pin8 is ADC A1, unused
+- Pin9 is IO12, connected to R5, R9, drives relay.
+- Pin10 is RST, unused
+- Pin11 is IO14, unused
