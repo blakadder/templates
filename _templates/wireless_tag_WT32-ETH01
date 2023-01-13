@@ -13,3 +13,14 @@ link2: https://www.amazon.com/dp/B08T9C3VWG
 link3: https://www.amazon.de/dp/B091KNZRZY/
 link4: https://www.banggood.com/WT32-ETH01-Embedded-Serial-Port-Networking-Ethernet-Bluetooth-compatible-WIFI-Combo-Gateway-MCU-ESP32-Wireless-Module-WT32-ETH01-p-1888027.html
 ---
+
+## Version 1.4 of WT32-ETH01 board
+
+```console
+EthAddress 1
+```
+is necessary.
+
+Also, if using Ethernet, I2C works only with:
+IO32 (marked on the board as CFG, "pin 2" according to page 9 of http://www.wireless-tag.com/wp-content/uploads/2022/10/WT32-ETH01_datasheet_V1.3-en.pdf) configured as SCL;
+IO33 (marked on the board as 485_EN, "pin 3" ibid.) configured as SDA.
