@@ -1,0 +1,14 @@
+---
+date_added: 2023-01-14
+title: Luminea 
+model: NX-4651
+image: /assets/device_images/luminea_NX-4651.webp
+template9: '{"NAME":"Luminea NX-4651","GPIO":[0,0,0,0,288,0,0,0,160,224,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B084P4D4JP
+link2: 
+mlink: https://www.luminea.info/WiFi-Unterputz-Schalter-fuer-Lichtschalter-Sprachs-NX-4651-919.shtml
+flash: serial
+category: relay
+type: Relay
+standard: eu
+---
