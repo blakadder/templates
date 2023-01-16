@@ -12,4 +12,4 @@ category: plug
 type: Outdoor Plug
 standard: eu
 ---
-Device has not been opened, but the template was found by trial and error. The original SW blinked red LED during discovery. This template includes only the other LED, blue one. Tuya-convert v2.4.4 worked without any problems with a device that was purchased 2020-12-20. Device's MAC address has vendor part that is registered to Espressif Inc (24:62:AB)
+Device was opened, it contains the TYWE2S module. IO pins 04, 12, 13 and 14 are connected. The original SW blinked red LED during discovery. This template includes only the other LED, blue one. Tuya-convert v2.4.4 worked without any problems with a device that was purchased 2020-12-20. Device's MAC address has vendor part that is registered to Espressif Inc (24:62:AB)
