@@ -11,7 +11,7 @@ template: '{"NAME":"SonoffL1","GPIO":[0,148,0,149,0,0,0,0,0,56,0,0,0],"FLAG":0,"
 link2: https://www.banggood.com/SONOFF-L1-Dimmable-IP65-2M-5M-Smart-WiFi-RGB-LED-Strip-Light-Kit-Work-With-Amazon-Alexa-Google-Home-p-1396771.html
 link4: https://www.alza.de/sonoff-l1-5m-d5711526.htm
 link3: https://www.aliexpress.com/item/4001294082557.html
-link5: https://mediarath.de/collections/tasmota-gerate/products/sonoff-l1-dimmbares-led-stripe-ip65-2m-5m-wifi-rgb-tasmota-iobroker-fhem
+link5: https://mediarath.de
 ---
 
 ## Serial Flashing
