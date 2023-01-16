@@ -3,7 +3,7 @@ date_added: 2021-01-02
 title: Emax IP44
 model: 95-01485
 image: /assets/device_images/emax_95-01485.webp
-template9: '{"NAME":"Emax Smart Socket","GPIO":[0,0,0,0,320,0,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Emax Smart Socket","GPIO":[0,0,0,0,320,0,0,0,224,321,32,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.motonet.fi/fi/tuote/9501485/Emax-WiFi-alypistorasia-ulkokayttoon-IP44
 link2: 
 mlink: 
@@ -12,4 +12,4 @@ category: plug
 type: Outdoor Plug
 standard: eu
 ---
-Device was opened, it contains the TYWE2S module. IO pins 04, 12, 13 and 14 are connected. The original SW blinked red LED during discovery. This template includes only the other LED, blue one. Tuya-convert v2.4.4 worked without any problems with a device that was purchased 2020-12-20. Device's MAC address has vendor part that is registered to Espressif Inc (24:62:AB)
+Device was opened, it contains the TYWE2S module. IO pins 04 (blue LED), 12 (relay), 13 (red LED) and 14 (button) are connected. The original SW blinked red LED during discovery. Tuya-convert v2.4.4 worked without any problems with a device that was purchased 2020-12-20. Device's MAC address has vendor part that is registered to Espressif Inc (24:62:AB)
