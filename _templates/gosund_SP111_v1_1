@@ -8,7 +8,6 @@ standard: eu
 image: /assets/device_images/gosund_SP111.webp
 template: '{"NAME":"Gosund SP111 v1.1","GPIO":[56,0,158,0,132,134,0,0,131,17,0,21,0],"FLAG":0,"BASE":45}' 
 link: https://www.aliexpress.com/af/gosund-sp111.html
-link2: https://mediarath.de/search?q=Gosund+SP111+15A+Tasmota
 mlink: https://www.alibaba.com/product-detail/Wi-Fi-European-Smart-Plug-Remote_1600197354400.htm
 ---
 
