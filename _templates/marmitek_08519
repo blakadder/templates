@@ -1,0 +1,17 @@
+---
+date_added: 2023-01-08
+title: Marmitek Power SI
+model: 08519
+image: /assets/device_images/marmitek_08519.webp
+template9: '{"NAME":"Marmitek PowerSi","GPIO":[0,0,0,32,2720,0,0,0,0,288,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B084S6LBL7/
+link2: https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=8718164535192
+link3: https://www.conrad.com/p/marmitek-smart-me-wi-fi-socket-test-function-power-si-2301588
+mlink: https://marmitek.com/products/power-si-smart-plug-energy-meter-2x-usb-15a
+flash: serial
+category: plug
+type: Plug
+standard: eu
+chip: tywe2s
+---
+I found that soldering out the TYWE2S module worked best. And solder GPIO0 to ground with a wire.

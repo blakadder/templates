@@ -1,0 +1,25 @@
+---
+date_added: 2023-01-07
+title: Arlec Smart 1m CCT LED Strip Light
+model: ALD155HA
+image: /assets/device_images/arlec_ALD155HA.webp
+template9: '{"NAME":"ALD155HA","GPIO":[0,0,1088,0,0,416,0,0,0,417,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-grid-connect-smart-1m-cct-led-strip-light-with-remote-cool-white-warm-white_p0208820
+link2: 
+mlink: 
+flash: replace
+category: light
+type: LED Strip
+standard: au
+---
+Identical to the "Arlec Smart 2m LED Colour Changing Strip Light LED Strip (ALD233HA)" but template is slightly different as are the IR Codes for the rules.  IR Codes can be discovered by studying the console output when the IR Remote buttons are pressed.
+
+Following rules gets most of the IR Commands except for Fade, Sleep and Mode.
+
+```console
+Rule1 ON IrReceived#Data=0x00FF629D do power off ENDON ON IrReceived#Data=0x00FFA25D do power on ENDONON IrReceived#Data=0x00FF22DD do dimmer + ENDON ON IrReceived#Data=0x00FF6897 do dimmer - ENDON ON IrReceived#Data=0x00FF02FD do CT 500 ENDON ON IrReceived#Data=0x00FFA857 do CT 326 ENDON ON IrReceived#Data=0x00FF9867 do CT 153 ENDON ON IrReceived#Data=0x00FFC23D do CT + ENDON ON IrReceived#Data=0x00FFB04F do CT - ENDON
+```
+
+Activate rule with 'Rule1 1'
+
+"

@@ -18,6 +18,11 @@ RocketController ASTRA R4A4 exist in 3 flavors depending on
 
 The template has been read from the device as it comes pre-flashed with Tasmota and is listed here for reference or recovery
 
+## Solution for inaccessible initial WebUI
+If you have issues connecting to `ASTRA-xxxxxx` configuration access point, use the power-cycle reset feature of Tasmota to reset the firmware to defaults.
+Then the standard `tasmota-xxxxxx` AP will appear and the wifi configuration can be done as per usual. 
+**IMPORTANT:** After this recovery you will have to manually configure the template.
+
 ## DIP-Switches usages
 - **RS mode**  : All switches to OFF (close to the numbers)
 - **SPI mode** : All switches to ON
