@@ -6,6 +6,6 @@ category: plug
 type: Plug
 standard: us
 image: /assets/device_images/JH-G01U.webp
-template9: '{"NAME":"JH-G01U","GPIO":[0,0,0,0,224,32,0,0,288,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"JH-G01U","GPIO":[0,145,0,146,0,0,0,0,17,56,21,0,0],"FLAG":0,"BASE":41}' 
 link: https://www.amazon.com/dp/B07L3DG616
 ---
