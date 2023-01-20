@@ -18,7 +18,7 @@ This device uses the Tuya MCU and Tasmota needs to be told how to talk to the di
 `Module 54`
 
 ```console
-Backlog TuyaMCU 11,4; TuyaMCU 51,51
+Backlog SetOption1 1; SetOption65 1; TuyaMCU 51,51
 ```
 
 ```console
