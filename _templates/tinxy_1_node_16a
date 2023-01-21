@@ -9,7 +9,7 @@ link2: https://www.amazon.in/dp/B089SJYCVF/
 mlink: https://tinxy.in/
 flash: serial
 category: relay
-type: Relay Module
+type: Switch Module
 standard: in
 ---
 Flashing is easy -> Has all required header 3v tx 4x gnd . GPIO0 -> Button .
