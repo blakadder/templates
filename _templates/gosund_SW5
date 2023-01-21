@@ -6,7 +6,8 @@ image: /assets/device_images/gosund_SW5.webp
 template9: '{"NAME":"Gosund SW5","GPIO":[32,0,320,0,0,0,0,0,0,0,224,0,576,0],"FLAG":0,"BASE":18}' 
 template9_alt: '{"NAME":"Gosund SW5","GPIO":[32,0,576,0,0,0,0,0,0,0,224,0,320,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B0871JF1JZ/
-link2: 
+link2: https://www.walmart.com/ip/Gosund-Smart-Light-Switch-ON-OFF-In-Wall-Single-Pole-15A-White-Wi-Fi-Smart-Switch/348113144
+link3: https://www.aliexpress.com/item/1005003592993677.html
 mlink: https://us.gosund.com/collections/smart-switch/products/gosund-smart-light-switch-4-pack
 flash: serial
 category: switch

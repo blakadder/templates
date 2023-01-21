@@ -4,7 +4,7 @@ title: Sonoff ZBBridge
 model: ZBBridge
 image: /assets/device_images/sonoff_ZBBridge.webp
 template: '{"NAME":"Sonoff ZbBridge","GPIO":[56,165,0,166,215,0,0,0,6,158,5,0,17],"FLAG":0,"BASE":75}' 
-link: https://itead.cc/product/sonoff-zbbridge/
+link: https://www.geekbuying.com/item/ONOFF-ZB-Bridge-497819.html
 link2: https://www.aliexpress.com/af/sonoff-zbbridge.html
 link3: https://www.banggood.com/SONOFF-ZBBridge-Smart-Bridge-p-1674754.html
 link4: https://www.amazon.com/dp/B08BFT44QL

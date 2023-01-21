@@ -1,0 +1,34 @@
+---
+date_added: 2022-12-16
+title: LifeSmart Cololight PRO Hexagonal
+model: LS166
+image: /assets/device_images/lifesmart_LS166.webp
+template32: '{"NAME":"Cololight PRO","GPIO":[0,0,0,0,32,0,0,0,0,33,0,0,1376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4704,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: 
+link: https://www.banggood.com/LifeSmart-Cololight-LED-Quantum-Light-Smart-Geometry-Assembling-DIY-Lamp-WiFi-Work-with-Google-Assistant-Alexa-Cololight-APP-Smart-Control-p-1910756.html
+link2: https://www.amazon.com/dp/B088TGKSB6/
+link3: https://www.amazon.de/dp/B08KH714X3/
+link4: https://www.aliexpress.com/item/4000310438804.html
+flash: serial
+category: light
+type: RGBIC LED
+standard: global
+---
+
+Each hex has 19 LEDs, use `Pixels` command to set the right number of LEDs.
+
+Microphone is mapped to Analog input but there is no support for sound reactive effects in Tasmota.
+
+## Flashing
+
+Use a flat screwdriver to separate the controller shell at the cable entry point. You will need to use force. After that separate the halves with a spudger or something similar that will not damage the plastic.
+
+![Entry point](/assets/device_images/lifesmart_LS166_open.webp)![Use spudger to separate](/assets/device_images/lifesmart_LS166_open2.webp)
+
+Take out the PCB, the flashing pads are located on the back side.
+
+![Pinout](/assets/device_images/lifesmart_LS166_pinout.webp)
+
+Connect your serial to USB adapter only to TX, RX and GND. Power the controller using its built in cable.
+
+![Wiring](/assets/device_images/lifesmart_LS166_wiring.webp)

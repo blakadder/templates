@@ -5,7 +5,7 @@ model: R4A4
 image: /assets/device_images/rocket_R4A4.webp
 template32: '{"NAME":"ASTRA R4A4","GPIO":[1,1,1,1,576,1,1,1,480,1,1,1,3232,3200,1,1,0,640,608,1,0,224,225,1152,0,0,0,0,227,226,160,161,162,0,0,163],"FLAG":0,"BASE":1}'
 link: https://rocketcontroller.com/product-category/controllers/
-link2: https://www.aliexpress.com/item/1005004464526242.html
+link2: https://s.click.aliexpress.com/e/_DC9PQGr
 mlink: https://rocketcontroller.com/
 flash: preflashed
 category: relay
@@ -17,6 +17,11 @@ RocketController ASTRA R4A4 exist in 3 flavors depending on
 - Type of input : AC, dry contact, GPIOs
 
 The template has been read from the device as it comes pre-flashed with Tasmota and is listed here for reference or recovery
+
+## Solution for inaccessible initial WebUI
+If you have issues connecting to `ASTRA-xxxxxx` configuration access point, use the power-cycle reset feature of Tasmota to reset the firmware to defaults.
+Then the standard `tasmota-xxxxxx` AP will appear and the wifi configuration can be done as per usual. 
+**IMPORTANT:** After this recovery you will have to manually configure the template.
 
 ## DIP-Switches usages
 - **RS mode**  : All switches to OFF (close to the numbers)

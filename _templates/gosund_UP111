@@ -4,17 +4,21 @@ title: Gosund 13A
 model: UP111
 image: /assets/device_images/gosund_UP111.webp
 template9: '{"NAME":"Gosund UP111","GPIO":[0,320,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.co.uk/gp/product/B0983HNB7M
+link: https://amazon.co.uk/gp/product/B09QQCWVNN
+link3: https://www.amazon.co.uk/gp/product/B0983HNB7M
 link2: https://www.amazon.co.uk/dp/B0983HP45C/
 link3: https://amazon.co.uk/gp/product/B09QQCWVNN
-link4: https://www.banggood.com/Gosund-Smart-Plug-Socket-Mini-Electrical-Outlet-Switch-13A-With-Independent-Control-Switch-Timing-Function-APP-Remote-Control-Works-With-Alexa-And-Google-Home-UK-Plug-p-1894390.html
+link4: https://www.aliexpress.com/item/1005003598279074.html
 link5: https://www.ebay.co.uk/itm/175136713581 
-mlink: https://uk.gosund.com/products/gosund-smart-plug-up111
+mlink: https://www.alibaba.com/product-detail/Gosund-table-light-saudi-tuya-230v_1600252974399.html
 flash: tuya-convert
 category: plug
 type: Plug
 standard: uk
 ---
+- 11-Dec-2022: Box of 4 from amazon.co.uk (sold by OHMAXX). All flashed OK with Tuya-Convert
+- 05-Dec-2022: box bought from amazon.co.uk - can not flash, tuya-convert reports "firmware too new".
+- 28-Nov-2022: box bought from [amazon.co.uk](https://amzn.to/3Ywh8jB). Would not flash via tuya-convert nor via serial. Not ESP8266, uses W701 chip - same as [this](https://groups.google.com/g/sonoffusers/c/OJhsmrOAmPQ)
 - 10-Nov-2022: 2 x box of 4 bought from amazon.co.uk. Could not flash with tuya-convert. socket reboots on resending smartconfig packets. Polish imported with no manufacturing date on devices. 
 - 22-Oct-2022: Received another lucky box of 4 from amazon.co.uk - the same reference to a Polish importer. This time NO manufacturing date on devices - flashed successfully with tuya-convert. No calibration needed.
 - 21-Oct-2022: Box of 4 bought from amazon.co.uk, same as below - date of manufacture of 01/2021, reference to an importer in Poland, flashed OK. some devices booted into pairing mode, others required a long press of the button to get there.

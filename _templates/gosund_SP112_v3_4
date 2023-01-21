@@ -5,7 +5,7 @@ model: SP112 v3.4
 image: /assets/device_images/gosund_SP112_v3_4.webp
 template: '{"NAME":"Gosund 112v3.4","GPIO":[56,0,57,0,132,134,0,0,131,30,21,0,0],"FLAG":4,"BASE":18}' 
 template_alt: '{"NAME":"SP112new","GPIO":[57,0,56,0,132,134,0,0,131,30,21,0,0],"FLAG":4,"BASE":18}'
-link: https://www.amazon.de/gp/product/B07PPZS351
+link: https://www.aliexpress.com/item/1005003647592692.html
 link2: https://www.alza.de/gosund-smart-plug-sp112-d6260023.htm
 link3: https://www.aliexpress.com/item/1005002517640148.html
 link4: https://mediarath.de/search?q=Gosund+SP112+16A+USB

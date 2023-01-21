@@ -16,31 +16,36 @@ Device can be flashed using firmware upload page
 
 You need Tasmota custom firmware with:
 - Thermostat support (use -DUSE_THERMOSTAT compile flag)
-- Analog thermostat (use  #define THERMOSTAT_SENSOR_NAME ""ANALOG"" in user_config_override.h)
+- Analog thermostat (use  #define THERMOSTAT_SENSOR_NAME ""ANALOG"" in user_config_override.h). 
+- Analog sensor setup: `AdcParam1 2,14800,2200,-3911,0` (14800 is termistor resistance)
+- Nextion setup: `Backlog SBaudrate 9600; SSerialConfig 8N1; SerialDelimiter 254`
 
-Display use Nextion display. You need custom rules to control it. My rules is:
+The display is a Nextion. You need custom rules to control it. My rules is:
 
 ```console
-RULE1 ON System#Boot DO Backlog ThermostatModeSet %mem2%; SensorInputSet 1;temptargetset %mem1%;SSerialSend3 page temperature\\xFF\\xFF\\xFF ENDON
-ON Tele-ANALOG#Temperature DO var1=%value% ENDON
-ON SSerialReceived#Data DO publish lytko/serial %value% ENDON
-ON Time#Initialized DO Backlog Mem1=Mem1+0;Mem2=Mem2+0 ENDON
+ON System#Boot DO Backlog ThermostatModeSet %mem2%; SensorInputSet 1;temptargetset %mem1%;SSerialSend3 page temperature\\xFF\\xFF\\xFF ENDON 
+ON Time#Initialized DO Backlog Mem1=Mem1+0;Mem2=Mem2+0 ENDON 
+ON Tele-ANALOG#Temperature DO var1=%value% ENDON 
 ON SSerialReceived#Data=1AFFFFFF DO Backlog SSerialSend3 page temperature\\xFF\\xFF\\xFF;Mem1=Mem1+0;Mem2=Mem2+0;Var1=Var1+0;Var2=Var2+0 ENDON
 ```
 
 ```console
-RULE2 ON System#Init DO SSerialSend3 page loading_page\\xFF\\xFF\\xFF \tON Power1#state DO var2=%value% ENDON
-ON var2#state=0.000 DO SSerialSend3 arrow_temp.val=0\\xFF\\xFF\\xFF ENDON \tON var2#state=1.000 DO SSerialSend3 arrow_temp.val=1\\xFF\\xFF\\xFF ENDON
-ON SSerialReceived#Data=65010E01FFFFFF DO Backlog Mem1=Mem1-0.5; ENDON \tON SSerialReceived#Data=65010D01FFFFFF DO Backlog Mem1=Mem1+0.5; ENDON
-ON mem1#state DO Backlog temptargetset %value%;SSerialSend3 degree.txt=\""%value%\""\\xFF\\xFF\\xFF ENDON
-ON var1#state>0 DO SSerialSend3 degree_big.txt=\""%value%\""\\xFF\\xFF\\xFF ENDON \tON SSerialReceived#Data=65011101FFFFFF DO Mem2=1 ENDON
-ON SSerialReceived#Data=65011401FFFFFF DO Mem2=0 ENDON
-ON mem2#state=1.000 DO Backlog ThermostatModeSet 1;SSerialSend3 H_active.val=1\\xFF\\xFF\\xFF ENDON
-ON mem2#state=0.000 DO Backlog ThermostatModeSet 0;SSerialSend3 H_active.val=0\\xFF\\xFF\\xFF ENDON
-ON SSerialReceived#Data=6608FFFFFF DO Backlog Mem1=Mem1+0;Mem2=Mem2+0;Var1=Var1+0;Var2=Var2+0 ENDON
+ON System#Init DO SSerialSend3 page loading_page\\xFF\\xFF\\xFF ENDON 
+ON Power1#state DO var2=%value% ENDON 
+ON var2#state=0.000 DO SSerialSend3 arrow_temp.val=0\\xFF\\xFF\\xFF ENDON 
+ON var2#state=1.000 DO SSerialSend3 arrow_temp.val=1\\xFF\\xFF\\xFF ENDON 
+ON SSerialReceived#Data=65010E01FFFFFF DO Backlog Mem1=Mem1-0.5; ENDON 
+ON SSerialReceived#Data=65010D01FFFFFF DO Backlog Mem1=Mem1+0.5; ENDON 
+ON mem1#state DO Backlog temptargetset %value%;SSerialSend3 degree.txt=\"%value%\"\\xFF\\xFF\\xFF ENDON 
+ON var1#state>0 DO SSerialSend3 degree_big.txt=\\\"%value%\\\"\\xFF\\xFF\\xFF ENDON 
+ON SSerialReceived#Data=65011101FFFFFF DO Mem2=1 ENDON 
+ON SSerialReceived#Data=65011401FFFFFF DO Mem2=0 ENDON 
+ON mem2#state=1.000 DO Backlog ThermostatModeSet 1;SSerialSend3 H_active.val=1\\xFF\\xFF\\xFF ENDON 
+ON mem2#state=0.000 DO Backlog ThermostatModeSet 0;SSerialSend3 H_active.val=0\\xFF\\xFF\\xFF ENDON 
+ON SSerialReceived#Data=6608FFFFFF DO Backlog Mem1=Mem1+0;Mem2=Mem2+0;Var1=Var1+0;Var2=Var2+0 ENDON 
 ON SSerialReceived#Data=6601FFFFFF DO Backlog Mem1=Mem1+0;Mem2=Mem2+0;Var1=Var1+0;Var2=Var2+0 ENDON
 ```
 
 ```console
-RULE3 ON TempTargetSet1#state DO Var3=1 ENDON
+ON TempTargetSet1#state DO Var3=1 ENDON
 ```

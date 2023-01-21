@@ -6,7 +6,8 @@ image: /assets/device_images/sonoff_THR316.webp
 template32: '{"NAME":"Sonoff THR316","GPIO":[32,0,0,0,0,0,0,0,0,321,0,576,320,0,0,0,0,224,0,0,0,1,0,3840,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://itead.cc/product/sonoff-th/ref/3/
 link2: https://www.aliexpress.com/item/1005004473793143.html
-link3: https://mediarath.de/products/sonoff-thr316-th-origin-16a-sensorgesteuerter-wifi-smart-switch-tasmota
+link3: https://www.geekbuying.com/item/Sonoff-TH-Origin-THR316-16A-Temperature-Humidity-Monitoring-Switch-517283.html
+link5: https://mediarath.de/products/sonoff-thr316-th-origin-16a-sensorgesteuerter-wifi-smart-switch-tasmota
 link4: https://www.banggood.com/SONOFF-TH-Origin-16A-or-20A-WiFi-Smart-Switch-Temperature-Humidity-Monitoring-Switch-Smart-Home-work-with-eWeLink-Alexa-Google-Home-p-1967055.html
 mlink: https://sonoff.tech/product/diy-smart-switch/th-origin/
 flash: serial

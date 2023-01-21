@@ -4,13 +4,14 @@ title: Gosund WP2
 category: plug
 type: Plug
 standard: us
-image: https://images-na.ssl-images-amazon.com/images/I/51lji0CJpQL._AC_SL1500_.jpg
+image: /assets/images/gosund_WP2.webp
 template: '{"NAME":"Gosund WP2","GPIO":[17,158,57,0,18,0,0,0,22,56,21,0,0],"FLAG":0,"BASE":18}' 
 template9: '{"NAME":"Gosund WP2 Plug","GPIO":[33,0,320,0,321,32,0,0,224,576,225,0,0,0],"FLAG":0,"BASE":18}' 
 flash: serial
-mlink: https://us.gosund.com/products/gosund%E2%84%A2-smart-plug-wp2-2-pack
+mlink: https://www.alibaba.com/product-detail/Tuya-Gosund-electrical-switches-and-sockets_1600609928288.html
 link: https://www.amazon.com/dp/B07F58N32V
-link2: 
+link2: https://us.gosund.com/products/app-smartplug-wp2
+link3: https://www.walmart.com/ip/WP2-4W-Gosund-Smart-Plug-2-in-1-Compact-Design-2-4-GHz-Wi-Fi-Alexa-Plug-compatible-Google-Assistant-ETL-Certified-120V-10A-Outlet-Timer-4-Pack/2274352574
 ---
 
 Unit is ultrasonically welded - I first carefully worked a razor knife around the edge, but that wasn't enough.  I had to use a couple of small jewelers screwdrivers to get the back to separate the back.  Be careful, the main PCB spans the entire back, and is only 1/4"" away from the back cover. 

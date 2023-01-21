@@ -4,7 +4,8 @@ title: Gosund SW6 3-Way
 model: SW6
 image: /assets/device_images/gosund_SW6.webp
 template9: '{"NAME":"Gosund SW6","GPIO":[161,0,320,0,160,0,0,0,0,226,225,224,576,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.com/dp/B085TG46KN
+link2: https://www.walmart.com/ip/Gosund-3-Way-Smart-Light-Switch-Wi-Fi-Compatible-Alexa-Google-Assistant-Neutral-Wire-Required-Remote-Control-Etl-Fcc-Listed-2-Pack/380444897
+link: https://www.aliexpress.com/item/1005003593370023.html
 link2: 
 mlink: https://www.alibaba.com/product-detail/White-US-Standard-Smart-Home-Products_1600196665148.html
 flash: tuya-convert

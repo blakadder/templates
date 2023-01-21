@@ -1,0 +1,16 @@
+---
+date_added: 2022-12-22
+title: 3W KLG 320lm
+model: 
+image: /assets/device_images/KLG_3W.webp
+template9: '{"NAME":"3W_KLG","GPIO":[0,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/-/en/dp/B0B1HXBTGD
+link2: 
+mlink: 
+flash: replace
+category: bulb
+type: CCT
+standard: g9
+chip: WBLC5
+---
+Contains a WBLC5 or CBLC5, which must be replaced with a [ESP-01D](ESP-01D). Disassembling can be done using a sharp knife around the base. Some models have the connectors glued, so it's not possible to pull out the entire module after straightening the connectors, so the shell needs to be broken. Either the hard way or use a cutter around the base and glue it back together.

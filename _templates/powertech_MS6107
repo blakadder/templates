@@ -13,4 +13,5 @@ type: Power Strip
 standard: au
 chip: TYWE2S
 ---
+Be aware that this device uses triangular screws. You may need to purchase a bit/driver set as well as this product.
 You need to desolder the TYWE2S in order to flash it as the TX and RX lines are shared.

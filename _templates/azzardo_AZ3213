@@ -1,0 +1,14 @@
+---
+date_added: 2022-12-01
+title: AZzardo 10W 
+model: AZ3213
+image: /assets/device_images/azzardo_AZ3213.webp
+template9: '{"NAME":"Azzardo AZ3213","GPIO":[0,0,0,0,4032,0,0,0,0,0,4064,0,0,0],"FLAG":0,"BASE":18, "CMND":"SetOption37 6"}' 
+link: https://allegro.pl/produkt/biala-mleczna-zarowka-ledowa-10w-zmienna-azzardo-z-467afed3-0726-4278-8adb-a0b2d263acd8
+link2: 
+mlink: https://azzardo.com.pl/zarowki-smart/4831-zarowka-led-wifi-e27-10w-azzardo-smart-5901238432135.html
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

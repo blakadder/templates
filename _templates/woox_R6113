@@ -1,0 +1,18 @@
+---
+date_added: 2023-01-05
+title: Woox EU
+model: R6113
+image: /assets/device_images/woox_R6113.webp
+template9: '{"NAME":"WOOX R6113","GPIO":[0,2624,0,320,32,289,0,0,2656,224,2720,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B0B7RJP57V/
+link2: https://www.amazon.nl/dp/B09ST327PP
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/202159389_-r6113-woox.html
+mlink: https://wooxhome.com/products-c10/power-c2/woox-r6113-p90
+flash: replaced
+category: plug
+type: Plug
+standard: eu
+chip: cb2s
+---
+Device has a clicked-in cover. It can be pried open after sawing open two opposite sides so the sides can be bent outward. 
+

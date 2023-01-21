@@ -5,8 +5,8 @@ model: 2APUZ-P2
 image: /assets/device_images/gosund_P2.webp
 template: '{"NAME":"Gosund P2","GPIO":[0,0,157,0,0,32,0,0,21,22,23,0,17],"FLAG":0,"BASE":18}'
 template9: '{"NAME":"Gosund-PM03-v2","GPIO":[0,0,576,0,0,0,0,0,224,225,226,259,32,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.com/gp/product/B086JQRG9Y/
-link2: https://www.amazon.com/dp/B08HLS2B32
+link2: https://www.walmart.com/ip/Gosund-Smart-Plug-WiFi-Smart-Outlet-Extender-w-3-USB-Ports-6-Outlets-5V-3A-24W-Works-with-Google-Home-and-Alexa/978123350
+link: https://us.gosund.com/collections/gosund-p2/products/gosund-outlet-extender-p2-white
 mlink: https://www.alibaba.com/product-detail/Smart-Wifi-Power-Strip-Works-With_1600198614432.html
 flash: tuya-convert
 category: plug

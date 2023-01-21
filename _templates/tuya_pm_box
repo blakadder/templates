@@ -1,0 +1,46 @@
+---
+date_added: 2022-12-19
+title: Tuya PM Box
+model: DCR-PM
+image: /assets/device_images/tuya_pm_box.webp
+template9: '{"NAME":"PM Box","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 99,91 | TuyaMCU 71,2 | TuyaMCU 73,3 | HumRes 1 | TempRes 1 "}' 
+mlink: https://expo.tuya.com/product/943028
+link: https://www.aliexpress.com/item/1005003779216603.html
+link2: 
+flash: replace
+category: misc
+type: Air Quality Sensor
+standard: global
+chip: CB3S
+---
+<div style="float:right; margin:10px; text-align: center;"><img style="width:50px" src="/assets/device_images/blakapproved.webp"> <br><b> by <a href="https://blakadder.com">blakadder</a></b></div>
+
+Identified with MCU Product ID: `{"p":"uihrxfv4zpx3dx3s","v":"1.0.0","m":0}`. 
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+## Functions
+
+| dpid | function
+|   | ---
+| 2 | Temperature
+| 3 | Humidity
+| 7 | PM2.5
+| 9 | PM10
+
+## Home Assistant Integration
+
+Paste the entire rule box text in console and press enter.
+
+```console{% raw %}
+Rule3 
+on tuyareceived#dptype2id9 do publish stat/%topic%/pm10 %value% endon on tuyareceived#dptype2id7 do publish stat/%topic%/pm25 %value% endon on system#boot do devicename endon on devicename#data do var16 %value% endon
+
+on var16#state do publish2 homeassistant/sensor/%macaddr%/pm10/config {"name":"%value% PM10","state_topic":"stat/%topic%/pm10","val_tpl":"{{ value }}","dev_cla":"pm10","unit_of_meas":"µg/m³","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","unique_id":"%macaddr%_pm10","dev":{"cns":[["mac","%macaddr%"]]}} endon
+
+on var16#state do publish2 homeassistant/sensor/%macaddr%/pm25/config {"name":"%value% PM2.5","state_topic":"stat/%topic%/pm25","val_tpl":"{{ value }}","dev_cla":"pm25","unit_of_meas":"µg/m³","avty_t":"tele/%topic%/LWT","pl_avail":"Online","pl_not_avail":"Offline","unique_id":"%macaddr%_pm25","dev":{"cns":[["mac","%macaddr%"]]}} endon{% endraw %}
+```
+
+Enable rule with `Rule3 1`. 
+
+On a reboot or command `DeviceName` the discovery payloads for two PM sensors will be sent to Home Assistant

@@ -4,8 +4,8 @@ title: Gosund WP9
 model: WP9
 template: '{"NAME":"Gosund WP9","GPIO":[56,55,54,53,0,21,0,0,23,24,22,0,17],"FLAG":0,"BASE":18}' 
 image: /assets/device_images/gosund_WP9.webp
-link: https://www.amazon.com/dp/B07P65GJS1
-link2: https://www.amazon.com/dp/B07TS2GZCJ
+link2: https://www.walmart.com/ip/Smart-Power-Strip-Work-Alexa-Google-Home-Gosund-Plug-Mini-WiFi-Outlets-Surge-Protector-3-USB-Charging-Port-Cruise-Ship-Travel-Multi-Extender-10A-Whit/726109737
+link: https://www.aliexpress.com/item/1005003590857206.html
 mlink: https://www.alibaba.com/product-detail/Gosund-Tuya-App-Remote-Control-Smart_1600196676704.html
 flash: tuya-convert
 category: plug

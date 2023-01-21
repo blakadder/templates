@@ -19,6 +19,14 @@ Use the device button to enable flash mode.
 
 Follow the [GitHub issue thread](https://github.com/arendst/Tasmota/issues/15856) for development updates
 
+## Sensor Options
+
+There are two sensor options when buying this device currently, one is the THS01 and the other being DS18B20 (Waterproof). 
+
+To get the DS18B20 working when using the configure module, select the DS18x20 sensor for IO GPIO25, this will give you a temperature range from -55°C to +125°C.
+
+To get the THS01 working when using the configure module, select the SI7021 sensor for IO GPIO25, this will give you a temperature range from -40°C to +85°C, humidity range of 0 to 100%RH.
+
 ## Sensor Wiring
 
 Sensor are connected with a standard phone plug, search for 4P4C, RJ9, RJ10, or RJ22. You can use an [adapter](https://itead.cc/product/al010-2-5mm-audio-jack-to-rj11-adapter/ref/34/) to connect old sensors with an audio jack.

@@ -1,0 +1,25 @@
+---
+date_added: 2022-12-20
+title: LerLink 1 Gang
+model: X801A
+image: /assets/device_images/lerlink_X801A-L.webp
+template: '{"NAME":"LerLink X801","GPIO":[0,0,0,0,17,0,0,0,21,56,0,0,0],"FLAG":15,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004178177965.html
+link2: 
+mlink: https://www.lerlink.com/productinfo/1024777.html
+flash: replace
+chip: WB3S
+category: switch
+type: Switch
+standard: 
+  - eu
+  - uk
+---
+
+December 2022: This switch originally came with an ESP8266, but this recent purchase from AliExpress has a WB3S module. Looking at the dimensions, it is likely that an ESP module can be placed here, but this is untested. Note how the WB3S module is placed on backwards, with the package going through the PCB.
+
+![Enclosed](/assets/device_images/lerlink_X801A_enclosed.webp)
+
+![Front](/assets/device_images/lerlink_X801A_front.webp)
+
+![Back](/assets/device_images/lerlink_X801A_back.webp)

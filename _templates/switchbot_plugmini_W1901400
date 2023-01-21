@@ -6,6 +6,7 @@ image: /assets/device_images/switchbot_W1901400.webp
 templatec3: '{"NAME":"W1901400","GPIO":[0,0,32,0,0,0,224,320,321,0,0,0,0,0,0,0,0,0,2720,2656,2624,0],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.com/dp/B09QFLJH8T
 link2: https://www.amazon.com/dp/B0B39DJFR8/
+link3: https://www.walmart.com/ip/SwitchBot-Smart-Plug-Mini-Smart-Wi-Fi-and-Bluetooth-Outlet-15A/1548148340
 mlink: https://us.switch-bot.com/products/switchbot-plug-mini
 flash: switchbota
 category: plug

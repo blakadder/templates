@@ -12,4 +12,4 @@ category: switch
 type: Fan Switch
 standard: us
 ---
-
+Fan Speed is not exposed by default to Home Assistant but can be using the guide found here, https://digiblur.com/wiki/devices/other/martin_jerry_fan_controller-us-fc-01_fan#home-assistant-integration-auto-discovery

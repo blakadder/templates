@@ -8,8 +8,8 @@ standard: global
 flash: serial
 template9: '{"NAME":"Sonoff POWR3","GPIO":[32,3072,0,3104,0,0,0,0,256,320,0,1,1,1],"FLAG":0,"BASE":43}' 
 image: /assets/device_images/sonoff_POWR3.webp
-mlink: https://sonoff.tech/product/diy-smart-switch/powr3/
-link: https://itead.cc/product/sonoff-powr3/
+mlink: https://itead.cc/product/sonoff-powr3/
+link: https://www.geekbuying.com/item/SONOFF-POWR3-High-Power-Smart-Switch-497648.html
 link2: https://www.domadoo.fr/en/peripheriques/5853-sonoff-commutateur-intelligent-wifi-haute-puissance-25a.html
 link3: https://www.aliexpress.com/item/1005002994154061.html
 link4: https://www.banggood.com/SONOFF-POW-R3-25A-Power-Metering-WiFi-Smart-Switch-Overload-Protection-Energy-Saving-Track-on-eWeLink-Voice-Control-via-Alexa-p-1897457.html

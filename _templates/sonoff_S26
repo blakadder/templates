@@ -17,9 +17,9 @@ link2: https://www.banggood.com/SONOFF-S26-10A-AC90V-250V-Smart-WIFI-Socket-USUK
 image: /assets/device_images/sonoff_S26.webp
 template: '{"NAME":"Sonoff S26","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":8}' 
 link4: https://www.aliexpress.com/item/4000106847424.html
-link3: https://www.amazon.de/-/en/Wireless-Required-Control-Appliance-Android/dp/B07DQK7YSD/
-mlink: https://sonoff.tech/product/wifi-smart-plugs/s26
-link: https://itead.cc/product/sonoff-s26-wifi-smart-plug/
+link3: https://www.walmart.com/ip/S26-Sonoff-WiFi-Smart-Socket-Remote-Control-Wireless-Home-Timer-Power-Socket-Support-Voice-Control-BR-Plug/225304585
+mlink: https://itead.cc/product/sonoff-s26-wifi-smart-plug/
+link: https://www.geekbuying.com/item/Sonoff-S26-EU-E-Mini-Wifi-Smart-Socket-White-EU-Plug-410545.html
 ---
 Alternative template where the blue LED lights up only in case of connection issues and on button actions:
 ```console

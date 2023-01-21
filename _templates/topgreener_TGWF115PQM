@@ -5,7 +5,7 @@ model: TGWF115PQM
 image: /assets/device_images/topgreener_TGWF115PQM.webp
 template: '{"NAME":"TGWF115PQM","GPIO":[0,56,0,17,134,132,0,0,131,57,21,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07D8ZNNPZ/
-link2: 
+link2: https://www.walmart.com/ip/TOPGREENER-Smart-Mini-Wi-Fi-Plug-W-Energy-Monitoring-Smart-Outlet-No-Hub-Required-TGWF115PQM-4-Pack/466182239
 mlink: https://topgreener.com/product/square-smart-wi-fi-plug-in-10a-with-energy-monitoring-white/
 flash: tuya-convert
 unsupported: true

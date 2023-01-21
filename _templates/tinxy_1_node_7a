@@ -5,7 +5,7 @@ model:
 image: /assets/device_images/tinxy_1_node_7a.webp
 template9: '{"NAME":"Tnxy07A","GPIO":[32,0,0,0,160,224,0,0,288,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://tinxy.in/single-node-switch/
-link2: 
+link2: https://www.amazon.in/dp/B08B3YVFLR/
 mlink: https://tinxy.in/single-node-switch/
 flash: serial
 category: relay

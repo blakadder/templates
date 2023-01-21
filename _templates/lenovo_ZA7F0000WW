@@ -4,8 +4,8 @@ title: Lenovo SE-341AC
 model: ZA7F0000WW
 image: /assets/device_images/lenovo_ZA7F0000WW.webp
 template9: '{"NAME":"Lenovo SE-341AC","GPIO":[0,321,0,32,2720,2656,0,0,320,224,2624,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.microcenter.com/product/632122/lenovo-smart-plug-smart-home-device-control
-link2: 
+link2: https://www.microcenter.com/product/632122/lenovo-smart-plug-smart-home-device-control
+link: https://www.walmart.com/ip/Smart-Plug-w-Energy-Monitor/216508086
 mlink: https://www.lenovo.com/us/en/p/smart-devices/smart-home/smart-home-series/lenovo-se-341/za7f0000ww
 flash: serial
 category: plug

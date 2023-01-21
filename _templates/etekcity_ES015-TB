@@ -5,7 +5,7 @@ model: ES015-TB
 image: /assets/device_images/etekcity_ES015-TB.webp
 template9: '{"NAME":"ES015-TB","GPIO":[0,0,0,0,224,225,288,0,2656,2688,32,2592,289,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/gp/product/B07JB5TQSG/
-link2: 
+link2: https://www.walmart.com/ip/Etekcity-Smart-Outdoor-WiFi-Outlet-Plug-15A/369915137
 mlink: http://www.vesync.com/eso15tb
 flash: serial
 category: plug

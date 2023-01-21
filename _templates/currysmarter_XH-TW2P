@@ -1,0 +1,14 @@
+---
+date_added: 2022-12-22
+title: CurrySmarter 16A Power Monitoring
+model: XH-TW2P
+link: https://www.amazon.de/-/en/dp/B0BKQP5KH2/
+image: /assets/device_images/currysmarter_XH-TW2P.webp
+template9: '{"NAME":"Currysmarter XH-TW2P","GPIO":[0,0,0,2624,32,320,0,0,224,2720,2656,0,0,0],"FLAG":0,"BASE":18}' 
+link2: 
+mlink: 
+flash: preflashed
+category: plug
+type: Plug
+standard: eu
+---

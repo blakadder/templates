@@ -11,9 +11,10 @@ image: /assets/device_images/sonoff_POWR316D.webp
 mlink: https://sonoff.tech/product/diy-smart-switch/pow-elite/
 link: https://itead.cc/product/sonoff-pow-elite-smart-power-meter-switch/ref/3/
 link2: https://www.aliexpress.com/item/32862735913.html
-link3: https://mediarath.de/products/sonoff-pow-elite-16a-20a-wifi-smart-switch-mit-stromverbrauchsmessung-tasmota
+link3: https://www.geekbuying.com/item/Sonoff-POW-Elite-POWR316D-16A-Smart-Power-Meter-Switch-517281.html
+link4: https://mediarath.de/products/sonoff-pow-elite-16a-20a-wifi-smart-switch-mit-stromverbrauchsmessung-tasmota
 ---
 
-Use the device button to enable flash mode. 
+Use the device button to enable flash mode.
 
 Follow the [GitHub issue thread](https://github.com/arendst/Tasmota/issues/15856) for development updates

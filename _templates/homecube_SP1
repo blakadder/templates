@@ -1,0 +1,15 @@
+---
+date_added: 2023-01-15
+title: Homecube 
+model: SP1
+image: /assets/device_images/homecube_SP1.webp
+template9: '{"NAME":"Homecube SP1","GPIO":[0,321,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":55}' 
+link: https://www.amazon.de/gp/product/B076Q2LKHG/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+Identical to Gosund and BlitzWolf SP1

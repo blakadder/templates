@@ -3,10 +3,10 @@ title: Sonoff S31 Lite
 category: plug
 type: Plug
 standard: us
-mlink: https://sonoff.tech/product/wifi-smart-plugs/s31-s31lite
+mlink: https://itead.cc/product/sonoff-s31/
 image: /assets/device_images/sonoff_S31-lite.webp
 template: '{"NAME":"Sonoff S31","GPIO":[17,0,0,0,0,0,0,0,21,56,0,0,0],"FLAG":0,"BASE":41}' 
-link: https://itead.cc/product/sonoff-s31/
+link: https://www.walmart.com/ip/SONOFF-WiFi-Smart-Plug-Smart-Home-Outlet-Compatible-with-Alexa-Echo-Google-Home-Remote-Control-ETL-FCC-Listed-Outlets/1122988046
 link2: https://www.aliexpress.com/item/1005001846036476.html
 link3: https://www.banggood.com/SONOFF-S31-15A-Smart-Plug-Energy-Monitoring-US-Version-WIFI-Switch-Upgraded-Compact-Design-Support-Google-Home-Alexa-IFTTT-p-1583513.html
 link4: https://www.amazon.com/dp/B07YXVWC3Y

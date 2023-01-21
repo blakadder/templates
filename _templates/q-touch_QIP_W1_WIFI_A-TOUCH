@@ -4,6 +4,7 @@ title: Q-touch 1 Gang
 model: QIP.W1.WIFI.A-TOUCH
 image: /assets/device_images/q-touch_QIP_W1_WIFI_A-TOUCH.webp
 template9: '{"NAME":"Qtouch","GPIO":[289,0,0,32,0,0,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+template9_alt: '{"NAME":"QTOUCH_1G","GPIO":[32,0,0,0,0,0,0,0,224,320,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://allegro.pl/oferta/wklad-wlacznik-dotykowy-swiatla-szklany-pilot-wifi-9552653935
 link2: 
 mlink: 
@@ -13,3 +14,6 @@ type: Switch
 standard: eu
 ---
 ![PInout](/assets/device_images/q-touch_QIP_W1_WIFI_A-TOUCH_pinout.webp)
+---
+For devices bought after Dec, 2022 (marking on PCB: 2PH126651A) following template works:
+{"NAME":"QTOUCH_1G","GPIO":[32,0,0,0,0,0,0,0,224,320,0,0,0,0],"FLAG":0,"BASE":1}

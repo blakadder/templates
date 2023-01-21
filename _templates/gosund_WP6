@@ -3,12 +3,13 @@ date_added: 2020-11-25
 title: Gosund WP6
 category: plug
 type: Plug
-standard: us
-link: https://www.amazon.com/gp/product/B07Q2P77JL/
+standard: [us, jp]
+link: https://www.aliexpress.com/item/1005003653324697.html
 image: /assets/device_images/gosund_WP6.webp
 template: '{"NAME":"Gosund WP6","GPIO":[0,56,0,17,0,0,0,0,0,157,21,0,0],"FLAG":0,"BASE":18}' 
 template-alt: '{"NAME":"Gosund WP6","GPIO":[0,0,0,17,0,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18}' 
-link2: 
+link2: https://www.walmart.com/ip/Gosund-Homekit-2-Pack-Mini-Smart-Plug-Home-Wifi-Outlet-Socket-For-IOS-Apple-phone-Siri/461723566
+link3: https://www.aliexpress.com/item/1005003590121547.html
 mlink: https://gosundsmart.en.alibaba.com/product/1600196991148-824887702/Smart_Home_Alexa_Voice_Control_16A_Wireless_Power_Socket_Smart_Life_App_Remote_Control_Socket_UK_Standard_Wifi_Smart_Plug.html
 ---
 

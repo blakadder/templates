@@ -9,9 +9,16 @@ link2: https://www.domadoo.fr/en/objets-communicants/5290-shelly-module-universe
 link3: https://www.aliexpress.com/item/1005002821852797.html
 link4: https://mediarath.de/collections/tasmota-gerate/products/shelly-uni-smart-wifi-universalmodul-sensor-12-24v-ac-12-36v-dc-tasmota
 link5: https://www.idealo.de/preisvergleich/OffersOfProduct/201461964_-uni-wi-fi-shelly.html
-mlink: https://shelly.cloud/products/shelly-uni-smart-home-automation-device/
+mlink: https://www.shelly.cloud/en/products/shop/shelly-uni-1
 flash: mgos
 category: diy
 type: Module
 standard: global
 ---
+
+## Serial Connection
+Shelly UNI comes with a partially exposed programming/debug header which can be used to flash Tasmota on the device. A serial-to-USB adapter is needed as well as a reliable 3.3 V source with at least 350 mA drive capability. The following diagram shows the device pinout.
+![Shelly UNI Programing Header](https://user-images.githubusercontent.com/10962709/205250832-91c4c74a-5d39-481d-8b41-3273a5fa4fd3.jpg)
+
+## Flash Mode
+To be able to flash the Tasmota firmware you need to get into flash mode. Therefore connect a wire from GPIO0 to ground. For further information have a look at [Hardware Preparation](https://tasmota.github.io/docs/Getting-Started/#hardware-preparation#bringing-the-module-in-flash-mode).

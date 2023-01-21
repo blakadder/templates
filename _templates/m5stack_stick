@@ -10,7 +10,7 @@ template32: '{"NAME":"M5Stick","GPIO":[0,0,0,0,0,0,0,0,0,608,768,0,0,1056,736,54
 mlink: https://shop.m5stack.com/products/stick?variant=17054376001626
 link: https://www.tinytronics.nl/shop/en/m5stack-m5stick-with-mpu9250-wearable-esp32-development-board
 link2: https://www.amazon.com/dp/B07R48W8R8/
-link3: https://www.buypluss.com/products/2pcs-m5stickc-esp32-pico-mini-iot-development-board-finger-computer-with-color-lcd_1508364
+link3: 
 build: tasmota32-lvgl
 autoconf: true
 ---

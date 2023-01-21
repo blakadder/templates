@@ -3,9 +3,9 @@ date_added: 2022-03-24
 title: Moes Floor Heating or Water/Gas Boiler Wall
 model: WHT-HY609
 image: /assets/device_images/Moes_WHT-HY609.webp
-template9: '{"NAME":"WHT-HY609-GB-WH-MS","GPIO":[0,2304,0,2272,0,0,0,0,0,0,896,928,0,0],"FLAG":0,"BASE":54}' 
+template9: '{"NAME":"WHT-HY609-GB-WH-MS","GPIO":[0,2304,0,2272,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"tuyamcu 11,1 | tuyamcu 71,3 | tuyamcu 72,2 | tuyamcu 12,102"}' 
 link: https://www.aliexpress.com/item/1005002865575647.html
-link2: 
+link2:
 mlink: https://www.moeshouse.com/collections/smart-thermostat/products/wifi-smart-programmable-thermostat-gas-boiler-water-electric-underfloor-heating-touch-screen-temperature-controller-logo-color-adjustable-%E7%9A%84%E5%89%AF%E6%9C%AC
 flash: serial
 category: misc
@@ -18,13 +18,50 @@ standard: eu
 | dpId    | Function        | Data-type | Remarks 
 |---------|-----------------|-----------|----------------
 |1        | device power    | boolean   |
-|2        | target temp     | integer   | 10:1 e.g. 215 = 21.5 °C
-|         |                 |           | 180 = 18.0 °C only .5 steps
+|2        | target temp     | integer   | 10:1 e.g. `215` = 21.5 °C<br>`180` = 18.0 °C only .5 steps
 |3        | current temp    | integer   | 10:1
-|4        | mode            | enum      | 0 = Manual
-|         |                 |           | 1 = Auto/Program  
-|         |                 |           | 2 = Away
+|4        | mode            | enum      | `0` = Manual, `1` = Auto/Program, `2` = Away
 |6        | child lock      | boolean   | 
+|102      | status relay    | boolean   | readonly
 |104      | Days away       | integer   | between 1 and 30
-|105      | Temp while away | integer   | values are 1:1
-|         |                 |           | e.g. 21 = 21 °C"
+|105      | Temp while away | integer   | values are 1:1, e.g. `21` = 21 °C"
+|109      | Parameter A1    | integer   | Temp calibration (10:1)
+|110      | Parameter A2    | integer   | working difference (10:1)
+|111      | Parameter AC    | integer   | 
+|112      | Parameter AB    | integer   |
+|113      | Parameter AA    | integer   |
+|114      | Parameter A9    | integer   |
+|115      | Parameter A8    | integer   |
+|118      | Parameter A7    | enum      | `0`: 5+2 (Mo-Fr,Sa+So), `1`: 6+1 (Mo-Sa,So), `2`: 7   (Mo-So)
+|119      | time program    | string[18]| Mo-Fr Part1
+|120      | time program    | string[18]| Sa+So Part2
+|121      | time program    | string[18]| Mo-Fr Part1
+|122      | time program    | string[18]| Sa+So Part2
+|         |                 | 9x Hex[2] | e.g. "06001408000F0C0014"
+|         |                 | dpld119   | switch at 06:00 to 20°C
+|         |                 |           | switch at 08:00 to 15°C
+|         |                 |           | switch at 12:00 to 20°C
+
+actual version 2021: HY609CMB_WE2_V12_NTWIT_V2.0_20210512
+(GPIO14 and GPIO15 are now not used)
+External Sensor (Parameter BN) is not connected
+
+examples:
+- Tuyasend  1,0  - switch device off
+- Tuyasend  1,1  - switch device on
+- Tuyasend4 4,0 – set program to manual
+- Tuyasend4 4,1 – set mode to program
+- Tuyasend4 4,2 – set mode to away
+- Tuyasend4 4,3 – set mode to modified program (???)
+- Tuyasend2 2,200  – set Tempset:Manual to 20°C (10:1)
+- Tuyasend2 105,12 – set Tempset:Away 12°C (1:1)
+
+day program Mo-Fr e.g.
+`Tuyasend5 119 06001408000F0C0014`
+06:00-08:00 20°C; 08:00-12:00 15°C; 12:00-14:00 20°C
+`Tuyasend5 120 0E000F110015161E0C`
+14:00-17:00 15°C; 17:00-22:30 21°C; 22:30-06:00 12°C
+every two char in Hex set H,M,Temp 
+
+To set via MQTT (example):    
+Publish to the topic `cmnd/%topic%/Tuyasend2` the value `2,220` to set the Tempset:manual to 22°C
