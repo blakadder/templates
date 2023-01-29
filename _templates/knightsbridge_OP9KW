@@ -3,7 +3,7 @@ date_added: 2022-12-03
 title: Knightsbridge Dual Waterproof
 model: OP9KW
 image: /assets/device_images/knightsbridge_OP9KW.webp
-template9: '{"NAME":"Knightsbridge Dual Socket","GPIO":[321,544,320,544,225,0,0,0,0,33,0,224,32,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Knightsbridge Dual Socket","GPIO":[321,544,320,544,225,2720,0,0,2624,33,2656,224,32,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.co.uk/Smart-Waterproof-Outdoor-Double-Socket/dp/B08GGBQCM4
 link2: 
 mlink: 
