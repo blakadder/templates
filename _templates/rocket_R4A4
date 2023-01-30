@@ -32,5 +32,6 @@ module as they are still in preparation.
 When is SPI mode, the RJ is connected to the SPI GPIO and there **MUST NOT BE** any RS module installed
 in the UART2/RS connectors.
 
-## Schematics of ASTRA R4D4 I/Os:
+[Detailed information](/assets/ASTRA_controller.pdf) on use with Tasmota
 ![ASTRA R4D4 schematics](/assets/device_images/rocket_R4A4_sch.webp)
+
