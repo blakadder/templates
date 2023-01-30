@@ -9,7 +9,7 @@ link2: https://www.aliexpress.com/item/1005004335642099.html
 mlink: https://github.com/Xinyuan-LilyGO/LilyGo-T-Relay
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 https://github.com/yoannchaudet/LilyGo-T-Relay-Tasmota/tree/main

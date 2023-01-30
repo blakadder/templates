@@ -1,0 +1,14 @@
+---
+date_added: 2023-01-21
+title: WeAct Studio ESP32-C3 Core
+model: ESP32-C3FH4 
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/weact_ESP32-C3_Core.webp
+templatec3: '{"NAME":"WeAct ESP32-C3FH4","GPIO":[1,1,1,1,1,1,1,1,544,1,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
+mlink:
+link: https://www.aliexpress.com/item/1005004960064227.html
+build: tasmota32c3-cdc
+---
+This device uses the built in serial-to-USB chip. It will not have serial output unless you install a tasmota32c3 build with CDC enabled.

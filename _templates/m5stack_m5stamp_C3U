@@ -12,6 +12,7 @@ mlink: https://shop.m5stack.com/products/m5stamp-c3u-mate-with-pin-headers
 link: https://shop.m5stack.com/products/m5stamp-c3u-5pcs
 link2: https://www.aliexpress.com/item/1005003799229271.html
 chip: c3
+build: tasmota32c3-cdc
 ---
 The C3U uses the ESP32-C3's built-in USB Serial for program download.
 

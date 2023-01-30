@@ -11,9 +11,12 @@ flash: serial
 category: light
 type: Ceiling Light
 standard: us
+chip: wb3s
 ---
 To enable independent handling of RGB and white channels the following must be run:
 `SetOption37 128`
 
 To enable the second PWM to control the color temp the following must be run:
 `SetOption92 ON`"
+
+The product sold on [Amazon.ca](https://www.amazon.ca/dp/B07WY3VM1M) uses new Wb3S module which is not compatible with Tasmota. Ref - ttps://fccid.io/2A4ZG-8301/Internal-Photos/Internal-photos-5732489. It would require a module replacement.

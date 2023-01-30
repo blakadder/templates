@@ -18,7 +18,7 @@ mlink: https://www.shelly.cloud/en/products/shop/shelly-dimmer2
 **Supported since Tasmota 9.2+**
 
 After flashing Tasmota, apply the template and then use the *Firmware upgrade - File upload* menu to flash the **required** STM32 firmware (provided at [shelly-dimmer-stm32 releases page](https://github.com/jamesturton/shelly-dimmer-stm32/releases)) to the MCU. 
-The template must be set before flashing the STM32 firmware.
+The template must be set before flashing the STM32 firmware. Note that you may have to load the STM32 firmware a second time before it works.
 
 After the firmware upgrade for the STM32 firmware you should execute some commands: 
 1. switchmode 11 -> pushbutton with dimmer mode
