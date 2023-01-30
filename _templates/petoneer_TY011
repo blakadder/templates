@@ -21,7 +21,7 @@ Identified with MCU Product ID: `zaldbxvi1.0.0`.
 
 This is initially a BLE device but the BT3L module used has the same pinout as an ESP-12 type module. In my case I desoldered the BT3L with a heat gun and replaced with with an ESP-12S.
 
-Note that some online sellers have versions that work with Xiaomi and not Tuya. It is unclear whether the Xiaomi version can be converted using this configuration so make sure yours explicitly states it works with Tuya and model number is **TY011**
+Note that some online sellers have versions that work with Xiaomi and not Tuya. It is unclear whether the Xiaomi version can be converted using this configuration so make sure yours explicitly states it works with Tuya, the model number is **TY011** and the PCB matches the one in the pictures.
 
 ![Model label](/assets/device_images/petoneer_TY011_model.webp)
 
@@ -52,7 +52,7 @@ Remove all three connectors to free the PCB. Remove the BT3L module with a heat 
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
-To map the power function to `POWER use `TuyaMCU 11,105`. Powering on does not start a preset but powering off stops one.
+To map the power function to POWER use `TuyaMCU 11,105`. Powering on does not start a preset but powering off stops one.
 
 To start a preset use `TuyaSend2 104,n` where `n` is the wanted preset number. A preset will run for 5 minutes. After that the dpId state will not update. To make it update we need a rule:
 
