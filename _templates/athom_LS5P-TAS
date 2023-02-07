@@ -5,7 +5,7 @@ model: LS5P-TAS
 image: /assets/device_images/athom_LS5P-TAS.webp
 template9: '{"NAME":"LS_5PIN_TAS","GPIO":[32,0,576,0,416,0,0,0,417,419,418,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/tasmota-rgbw-light-strip-controller
-link: https://www.aliexpress.com/item/1005002095265811.html
+link: https://www.aliexpress.com/item/1005003777171212.html
 link2: 
 flash: preflashed
 category: light
