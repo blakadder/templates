@@ -17,7 +17,7 @@ This switch has a Tuya MCU that controls the relay in addition to the ESP8266 wh
 
 First configure the module as a `Tuya MCU (54)` under the "Configure Module" settings page. Then set the device template to:
 ```
-{"NAME":"MJ 3Way Switch","GPIO":[1,1,1,1,288,289,0,0,0,0,544,1,0,0],"FLAG":0,"BASE":54}
+{"NAME":"MJ 3Way Switch","GPIO":[1,1,1,1,0,0,0,0,0,0,0,1,0,0],"FLAG":0,"BASE":54}
 ```
 
 Finally, in the console enter:
