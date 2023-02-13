@@ -13,11 +13,11 @@ type: Switch
 standard: us
 ---
 
-This switch has a Tuya MCU that controls the relay in addition to the ESP8266 which runs the Tasmota interface. If you ever reset this switch (for example, upgrading Tasmota), the connection between the Tuya MCU and the ESP8266 needs to be reset. Not doing so means the Tasmota interface cannot toggle the relay.
+This switch has a Tuya MCU that controls the relay in addition to the ESP8266 which runs the Tasmota interface. If you ever reset this switch (for example, upgrading Tasmota), the connection between the Tuya MCU and the ESP8266 needs to also be reset. Not doing so means the Tasmota interface cannot toggle the relay.
 
 First configure the module as a `Tuya MCU (54)` under the "Configure Module" settings page. Then set the device template to:
 ```
-{"NAME":"MJ 3Way Switch","GPIO":[255,255,255,255,52,53,0,0,21,9,157,255,0],"FLAG":0,"BASE":18}
+{"NAME":"MJ 3Way Switch","GPIO":[1,1,1,1,288,289,0,0,0,0,544,1,0,0],"FLAG":0,"BASE":54}
 ```
 
 Finally, in the console enter:
