@@ -18,6 +18,8 @@ standard: global
 
 Useful video on flashing from [Andreas Spiess](https://www.youtube.com/watch?v=lrHhn2AVzSA)
 
+The device has 3 LEDs: (green, blue and red for relay status). Green is wired to GPIO14 and is set to be inverted. By default this means that the LED is on when the relay is off (and vice versa). If you dont want to use this LED, set the GPIO14 port to None. Blue is wired to GPIO16 and is configured as the device status LED. Red is wired to the relay and cannot be configured.
+
 It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter. Alternatively, you can strip some Ethernet Cat5e cable, which has the perfect diameter to fit in this board without soldering.
 
 If you use the Sinilink WiFi-USB with PWM-compatible devices such as LED lights or a fan: set `GPIO05` to *PWM* instead of *Relay*, to control the brightness or rotation speed of the device you plug in.
