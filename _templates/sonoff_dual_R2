@@ -66,6 +66,10 @@ After configuring the device as a "Sonoff Dual", the button will regain normal f
 GPIO4 => red, GPIO14 => orange
 <img alt="DUAL GPIOs" src="https://user-images.githubusercontent.com/659660/29748261-f01f466e-8b12-11e7-9280-cc81f876405d.jpeg"/><br/>
 
+GPIO1 is RX
+GPIO3 is TX
+<img alt="GPIOs location" src="https://github.com/skupu/mine/blob/481f0dd0a2bf266ed32c301e679d1ca5ed0b87cc/sonoff%20dual%20r2%20pinout.jpg"/><br/>
+
 ### Solving intermittent relay switch errors
 
 Where most Sonoff's use GPIO to control one or more relays the Sonoff Dual and 4 Channel Inching Relay Assy do use the standard SERIAL interface to control the relays.
