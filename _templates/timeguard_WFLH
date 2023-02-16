@@ -2,8 +2,8 @@
 date_added: 2023-02-04
 title: Timeguard Lamp Holder
 model: WFLH
-image: /assets/device_images/
-template9: '{"NAME":"wflh","GPIO":[0,0,0,0,288,289,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}' 
+image: /assets/device_images/timeguard_WFLH.webp
+template9: '{"NAME":"Timeguard WFLH","GPIO":[0,0,0,0,288,289,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.ebay.co.uk/itm/283924295695
 link2: 
 mlink: https://www.timeguard.com/products/time/consumer-time-controllers/wi-fi-smart-lamp-holder-adapter
