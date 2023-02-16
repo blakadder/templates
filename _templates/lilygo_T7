@@ -1,12 +1,12 @@
 ---
 date_added: 2021-11-10
-title: LilyGO T7 v1.5
+title: LilyGO T7 Mini32 V1.5
 category: diy
 type: Development Board
 standard: global
 image: /assets/device_images/lilygo_T7.webp
 template32: '{"NAME":"LilyGO T7 V1.5","GPIO":[1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,544,0,0,0,1,0,1,1,1,0,0,0,0,0,1,1,4704,1,0,0,1],"FLAG":0,"BASE":1}' 
-mlink:
+mlink: https://www.lilygo.cc/products/t7-mini32-v1-5
 link: https://www.aliexpress.com/item/32977375539.html
 link2: https://www.banggood.com/LILYGO-TTGO-T7-V1_5-Mini32-ESP32-WROVER-B-PSRAM-Wi-Fi-Bluetooth-Module-Development-Board-p-1894318.html
 link3: https://www.amazon.com/dp/B09132RZN7

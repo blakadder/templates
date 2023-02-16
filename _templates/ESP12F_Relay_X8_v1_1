@@ -1,0 +1,14 @@
+---
+date_added: 2023-01-19
+title: ESP-12F 5V/7-28V 8 Channel
+model: ESP12F_Relay_X8_v1.1
+image: /assets/device_images/ESP12F_Relay_X8_v1_1.webp
+template9: '{"NAME":"ESP12F_Relay_X8_v1.1","GPIO":[230,1,231,229,1,1,1,1,226,225,227,224,228,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005002231689053.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---

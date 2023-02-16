@@ -1,0 +1,16 @@
+---
+date_added: 2021-05-17
+title: Espressif ESP32-S2-DevKitM-1
+model: ESP32-S2-DevKitM-1
+category: diy
+type: Development Board
+standard: global
+templates2: '{"NAME":"ESP32-S2 DevKitM-1","GPIO":[32,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1376,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1],"FLAG":0,"BASE":1}'
+image: /assets/device_images/espressif_ESP32-S2-DevKitM-1.webp
+flash: serial
+chip: s2
+autoconf: true
+mlink: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-devkitm-1-v1.html
+link: https://www.aliexpress.com/item/1005004621941267.html
+link2: https://www.dfrobot.com/product-2249.html
+---

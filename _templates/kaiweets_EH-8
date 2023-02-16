@@ -1,0 +1,25 @@
+---
+date_added: 2023-02-11
+title: Kaiweets Air Quality
+model: EH-8
+image: /assets/device_images/kaiweets_EH-8.webp
+template9: '{"NAME":"Kaiweets EH-8","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://kaiweets.com/en-de/products/kaiweets-air-quality-monitor-co2-hcho-detector
+link2: https://www.ebay.com/itm/373823371001
+link2: 
+mlink: https://kaiweets.com/en-de/products/kaiweets-air-quality-monitor-co2-hcho-detector
+flash: replace
+category: sensor
+type: Sensor
+standard: global
+---
+- `Weblog 4` #enable weblog output
+- `TuyaMcu 99,1` # disables the default relay on DP iDd
+- `SetOption137 1`   #disables MQTT forwarding of HeartbeatInfos between TuyaMCU and ESP
+- `TuyaMcu 77,2`     #Mapping of the DPid 2 to the Co2 sensor value Tasmota
+- `TuyaMcu 71,18`    #Mapping the DPid 18 to the Tasmota temperature value
+- `TuyaMcu 73,19`    #Mapping the DPid 2 to the Tasmota humidity sensor value
+- `TempRes 0`        #The sensor sends integer temperatures, therefore without decimal places
+- `HumRes 0` #The sensor sends whole numbers of air humidity, therefore without decimal places
+
+DPid 21 is not used, it is a second humidity sensor based on temperature sensor.

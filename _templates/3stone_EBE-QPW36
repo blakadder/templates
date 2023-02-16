@@ -7,7 +7,8 @@ standard: e26
 flash: tuya-convert
 link: https://www.amazon.com/gp/product/B07HR8GT12
 image: https://images-na.ssl-images-amazon.com/images/I/51J0DCf8MSL._AC_SL1000_.jpg
-template: '{"NAME":"3STONE","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":15,"BASE":18}' 
+template: '{"NAME":"3Stone","GPIO":[0,0,0,0,141,140,0,0,37,142,0,0,0],"FLAG":15,"BASE":18}' 
+template9: '{"NAME":"3Stone","GPIO":[0,0,0,0,2912,417,0,0,0,416,2944,0,0,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 ## The new **"[2020 Upgrade]"** version is not yet flashable with tuya-convert

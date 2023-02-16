@@ -1,0 +1,24 @@
+---
+date_added: 2023-01-29
+title: Xiaomi Mi LED Smart Bulb Essential
+model: MJDPL01YL
+image: /assets/device_images/xiaomi_MJDPL01YL.webp
+template9: '{"NAME":"Mi LED Smart Bulb Essential","GPIO":[0,0,0,0,418,419,0,0,416,417,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/dp/B08MTCL619/
+link2: https://www.aliexpress.com/item/1005003154826951.html
+link3: https://www.manomano.de/catalogue/p/mi-smart-led-bulb-essential-weiss-und-farbe-globber-mjdpl01yl-54121461
+mlink: https://www.mi.com/global/product/mi-led-smart-bulb-essential-white-and-color/
+flash: serial
+category: bulb
+type: RGBW
+standard: e27
+---
+"I'm not aware of other methods for flashing tasmota, maybe is possible use the Xiaomi app to upload the firmware.
+
+The bulb is RGBW and it uses a custom ESP8266 PCB
+you have to set SetOption105 1 in console
+
+The bulb has a silicone pour all around, it can be easily removed with a cutter https://ibb.co/9Zrh017 
+
+use this image as reference for the needed pins https://ibb.co/5BJ8YxX
+"

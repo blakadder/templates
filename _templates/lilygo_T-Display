@@ -4,11 +4,11 @@ title: LilyGO TTGO T-Display 1.14in
 model: T-Display
 image: /assets/device_images/lilygo_T-Display.webp
 template32: '{"NAME":"ESP32-ttgo-display","GPIO":[0,1,1,1,992,6592,1,1,1,1,1,1,6624,1,896,864,0,1,1,1024,0,1,1,1,0,0,0,0,1,1,1,33,1,0,0,1],"FLAG":0,"BASE":1}' 
+mlink: https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board
 link: https://www.aliexpress.com/item/33048962331.html
 link2: https://www.banggood.com/TTGO-T-Display-ESP32-CP2104-WiFi-bluetooth-Module-1_14-Inch-LCD-Development-Board-LILYGO-for-Arduino-products-that-work-with-official-Arduino-boards-p-1522925.html
-link3: https://www.amazon.de/dp/B07V465H7Q/
-link4: https://www.amazon.com/dp/B07VNG9D52/
-mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50044&Id=1126&FId=t3:50044:3
+link3: https://www.amazon.de/dp/B099MPFJ9M/
+link4: https://www.amazon.com/dp/B099MPFJ9M/
 flash: serial
 category: diy
 type: Display

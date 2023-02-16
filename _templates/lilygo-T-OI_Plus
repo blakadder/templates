@@ -8,7 +8,7 @@ standard: global
 image: /assets/device_images/lilygo-T-OI_Plus.webp
 templatec3: '{"NAME":"LilyGO T-OI Plus","GPIO":[0,0,4704,544,1,1,1,1,1,1,1,0,0,0,0,0,0,0,640,608,1,1],"FLAG":0,"BASE":1}'
 chip: c3
-mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50044&Id=1361&FId=t3:50044:3
+mlink: https://www.lilygo.cc/products/t-oi-plus
 link: https://www.aliexpress.com/item/1005003348936965.html
 link2: https://www.aliexpress.com/item/1005003348936965.html
 link3: https://www.banggood.com/LILYGO-TTGO-T-OI-PLUS-RISC-V-ESP32-C3-Chip-V1_0-Module-Rechargeable-16340-Battery-Holder-Support-Wi-Fi-BLE-Development-Board-p-1875616.html

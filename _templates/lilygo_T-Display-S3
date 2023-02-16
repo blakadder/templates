@@ -1,0 +1,17 @@
+---
+date_added: 2022-02-16
+title: LilyGO T-Display-S3 1.9in
+model: T-Display
+image: /assets/device_images/lilygo_T-Display-S3.webp
+templates3: '{"NAME":"T-Display-S3","GPIO":[32,1,1,0,4864,1,1,1,1,1,1,1,1,1,33,1,1,608,640,1,1,3840,6210,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SetOption73 1 | AdcParam1 6,0,4095,0,6600 | DisplayDimmer 40"}' 
+mlink: https://www.lilygo.cc/products/t-display-s3
+link: https://www.aliexpress.com/item/1005004496543314.html
+link2: https://www.amazon.com/dp/B0BF542H39/
+link3: https://www.amazon.de/dp/B09J112YR7/
+flash: serial
+category: diy
+type: Display
+standard: global
+autoconf: true
+chip: s3
+---

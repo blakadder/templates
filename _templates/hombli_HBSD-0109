@@ -1,0 +1,15 @@
+---
+date_added: 2020-11-14
+title: Hombli Socket Duo
+model: HBSD-0109
+image: /assets/device_images/hombli_HBSD-0109.webp
+template9: '{"NAME":"Hombli HBSD-0109","GPIO":[33,0,0,0,0,0,0,0,0,544,224,225,32,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.hombli.com/products/smart-socket-duo/
+link: https://www.amazon.de/dp/B07YN49Z4T/
+link2: https://www.idealo.de/preisvergleich/ProductCategory/21109.html?q=HBSD-0109
+link3: https://shop.hombli.com/hombli-smart-socket-duo-eu
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

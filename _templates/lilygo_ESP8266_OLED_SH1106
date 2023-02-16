@@ -7,7 +7,7 @@ template: '{"NAME":"TTGO-T12","GPIO":[255,255,255,255,5,6,0,0,17,19,18,255,255],
 template9: '{"NAME":"TTGO T12","GPIO":[1,1,1,1,608,640,0,0,32,34,33,1,1,1],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/32854542718.html
 link2: https://www.amazon.com/dp/B07B9RNX8H
-mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50032&Id=1158
+mlink: https://www.lilygo.cc/products/to-esp8266-oled-sh1106
 flash: serial
 category: diy
 type: Display

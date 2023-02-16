@@ -1,0 +1,14 @@
+---
+date_added: 2023-01-29
+title: Insmart
+model: 
+image: /assets/device_images/insmart_SP1.webp
+template9: '{"NAME":"INSMART SP1","GPIO":[320,1,321,1,0,2720,0,0,2624,32,2656,224,0,0],"FLAG":0,"BASE":45}' 
+link: https://www.amazon.de/dp/B07C8M7W3B/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

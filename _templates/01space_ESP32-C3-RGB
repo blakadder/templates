@@ -1,0 +1,14 @@
+---
+date_added: 2023-02-16
+title: 01space 5x5 WS2812B
+model: ESP32-C3-RGB
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/01space_ESP32-C3-0_42LCD.webp
+templatec3: '{"NAME":"01Space_ESP32-C3-RGB","GPIO":[640,608,1,1,1,1,1,1,1376,32,544,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1,"CMND":"Pixels 25"}' 
+mlink: https://github.com/01Space/ESP32-C3FH4-RGB
+link: https://www.banggood.com/ESP32-C3-Development-Board-RISC-V-WiFi-Bluetooth-IoT-Development-Board-Compatible-with-Python-p-1914005.html
+autoconf: true
+---
+This device uses the built in serial-to-USB chip. It will not have serial output unless you install a tasmota32c3 build with CDC enabled.

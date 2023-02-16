@@ -8,7 +8,7 @@ standard: global
 image: /assets/device_images/T-01C3.webp
 templatec3: '{"NAME":"T-01C3","GPIO":[0,0,1,544,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1],"FLAG":0,"BASE":1}'
 chip: c3
-mlink: https://github.com/Xinyuan-LilyGO/T-01C3
+mlink: https://www.lilygo.cc/products/t-01c3
 link: https://www.banggood.com/LILYGO-TTGO-T-01C3-ESP32-C3-WIFI-Bluetooth-5_0-IPEX-Antenna-For-ESP-01-With-External-Antenna-Base-p-1924872.html
 link2: https://www.aliexpress.com/item/1005003538055090.html
 link3: 

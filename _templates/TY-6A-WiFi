@@ -1,0 +1,16 @@
+---
+date_added: 2023-01-30
+title: Tuya RGBCCT
+model: TY-6A-WiFi
+image: /assets/device_images/TY-6A-WiFi.webp
+template9: '{"NAME":"AP-5CH-1","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/2251800539004433.html
+link2: https://www.ebay.com/itm/274574444499
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+chip: tywe3s
+---
+Serial flashing done by soldering onto TYWE3S chip directly.

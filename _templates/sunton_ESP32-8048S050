@@ -1,0 +1,15 @@
+---
+date_added: 2022-02-16
+title: Sunton 800x480
+model: ESP32-8048S050 
+image: /assets/device_images/lilygo_T-SIMCAM.webp
+templates3: '{"NAME":"SUNTON","GPIO":[1,1,1,1,1,1,1,1,1,1,6720,704,736,672,1,1,1,1,1,640,608,1,0,0,0,0,0,6210,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1,"CMND":"DisplayDimmer 70"}' 
+link: https://www.aliexpress.com/item/1005004952694042.html
+mlink: 
+flash: serial
+category: diy
+type: Display
+standard: global
+autoconf: true
+chip: s3
+---

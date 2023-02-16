@@ -10,13 +10,12 @@ image: /assets/device_images/espressif_ESP32-S3-DevKitM-1.webp
 flash: serial
 chip: s3
 templates3: '{"NAME":"ESP32-S3-DevKitM-1","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1376],"FLAG":0,"BASE":1}'
-link: https://www.amazon.com/dp/B09R4QQVF4
+link: https://www.aliexpress.com/item/1005003979971954.html
+link2: https://www.amazon.com/dp/B09R4QQVF4
 ---
 An entry-level development board from Espressif with all of the ESP32-S3 GPIOs broken out for prototyping as well as `CP1202N` USB-Serial chip for debugging via a dedicated micro-USB port.
 
 When the board is booted into debug by holding `BOOT` and pressing the `RESET` button the USB-Serial chip on the "UART" USB port exposes a serial connection. This can be used to easily flash new firmware.
-
-{% include flash/s3.md %}
 
 ## Device Notes
 

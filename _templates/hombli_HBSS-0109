@@ -1,0 +1,16 @@
+---
+date_added: 2023-01-15
+title: Hombli Smart Socket EU
+model: HBSS-0109
+image: /assets/device_images/hombli_HBSS-0109.webp
+template9: '{"NAME":"Hombli HBSS-0109","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://shop.hombli.com/eu-smart-socket-promo-pack-2-1
+link2: https://www.amazon.de/dp/B07YLQ7ZDD/
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/200805411_-smart-socket-hombli.html
+mlink: https://www.hombli.com/products/smart-socket-eu/
+flash: replace
+category: plug
+type: Plug
+standard: eu
+chip: wb2s
+---

@@ -1,0 +1,15 @@
+---
+date_added: 2022-02-16
+title: Espressif ESP32-S3-EYE
+model: ESP32-S3-EYE
+image: /assets/device_images/ESP32-S3-EYE.webp
+templates3: '{"NAME":"ESP32S3-EYE","GPIO":[1,1,7872,1,5024,5056,5120,5152,5090,5089,5091,5088,5092,5184,1,4992,5095,5094,5093,0,0,896,0,0,0,0,0,8800,8832,8864,7808,7840,960,928,1,1,864,992],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005004963003458.html
+mlink: https://github.com/espressif/esp-who/blob/master/docs/en/get-started/ESP32-S3-EYE_Getting_Started_Guide.md
+flash: serial
+category: diy
+type: Camera
+standard: global
+autoconf: true
+chip: s3
+---

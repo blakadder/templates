@@ -6,10 +6,12 @@ type: Display
 standard: global
 image: /assets/device_images/lilygo_T5-4_7.webp
 template32: '{"NAME":"LilyGO T5-4.7","GPIO":[0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,7616,0,0,0,0,0,0,0,0,0,0,33,34,4704,0,0,32],"FLAG":0,"BASE":1}' 
-mlink: http://www.lilygo.cn/prod_view.aspx?TypeId=50061&Id=1384&FId=t3:50061:3
+mlink: https://www.lilygo.cc/products/t5-4-7-inch-e-paper-v2-3
 link: https://www.banggood.com/LILYGO-T5-4_7-inch-E-paper-Screen-ESP32-V3-Version-16MB-FLASH-8MB-PSRAM-WIFI-Bluetooth-Display-Module-p-1791808.html
 link2: https://www.aliexpress.com/item/1005002006058892.html
-link3: https://www.amazon.com/dp/B08WCPRX2P/
+link3: https://www.amazon.com/dp/B09FSLKB9Q/
+link4: https://www.amazon.de/dp/B09FSRLWMD/
+link5: https://www.dfrobot.com/product-2323.html
 ---
 
 `platformio_tasmota_cenv.ini`

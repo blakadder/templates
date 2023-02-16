@@ -1,0 +1,16 @@
+---
+date_added: 2023-02-09
+title: ledvance Smart+ Compact 
+model: 4058075570979
+image: /assets/device_images/ledvance_4058075570979.webp
+template9: '{"NAME":"LEDVANCE SMART+ Compact Outdoor Plug ","GPIO":[0,0,0,0,320,0,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B08YR4KRGX
+link2: https://www.idealo.de/preisvergleich/OffersOfProduct/201548088_-smart-compact-outdoor-ledvance.html
+link3: https://www.conrad.com/p/ledvance-smart-compact-outdoor-plug-4058075570979-wi-fi-socket-outdoors-3680-w-2372533  
+mlink: https://www.ledvance.com/consumer/products/smart-home/smart-components/smart-wifi/smart-outdoor-components-with-wifi-technology/smart-plugs-with-wifi-technology/compact-outdoor-plug-with-smart-socket-to-control-non-smart-devices-with-wifi-technology-c141298?productId=43765
+flash: replace
+category: plug
+type: Outdoor Plug
+standard: eu
+chip: WB2S
+---
