@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 image: /assets/device_images/wireless_tag_WT32-ETH01.webp
-template32: '{"NAME":"WT32-ETH01","GPIO":[1,1,1,1,1,1,0,0,1,0,1,1,3840,576,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"WT32_ETH01","GPIO":[1,1,1,1,1,1,0,0,1,0,1,1,3840,576,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 mlink: http://www.wireless-tag.com/portfolio/wt32-eth01/
 link: https://www.aliexpress.com/af/wt32%25252deth01.html
 link2: https://www.amazon.com/dp/B08T9C3VWG/
@@ -15,7 +15,7 @@ link4: https://www.banggood.com/WT32-ETH01-Embedded-Serial-Port-Networking-Ether
 link5: https://www.dfrobot.com/product-2550.html
 ---
 
-## Version 1.4 of WT32-ETH01 board
+### Version 1.4 of WT32-ETH01 board
 
 ```console
 EthAddress 1
@@ -23,5 +23,5 @@ EthAddress 1
 is necessary.
 
 Also, if using Ethernet, I2C works only with:
-IO32 (marked on the board as CFG, "pin 2" according to page 9 of http://www.wireless-tag.com/wp-content/uploads/2022/10/WT32-ETH01_datasheet_V1.3-en.pdf) configured as SCL;
-IO33 (marked on the board as 485_EN, "pin 3" ibid.) configured as SDA.
+- IO32 (marked on the board as CFG, "pin 2" according to [page 9](http://www.wireless-tag.com/wp-content/uploads/2022/10/WT32-ETH01_datasheet_V1.3-en.pdf) ) configured as SCL;
+- IO33 (marked on the board as 485_EN, "pin 3" ibid.) configured as SDA.
