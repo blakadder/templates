@@ -1,0 +1,22 @@
+---
+date_added: 2023-02-20
+title: Ulanzi Smart Pixel Clock
+model: TC001
+category: misc
+type: Miscellaneous
+standard: global
+flash: serial
+image: /assets/device_images/ulanzi_TC001.webp
+template32: '{"NAME":"Ulanzi TC001","GPIO":[0,0,0,0,0,0,0,0,0,0,34,480,0,0,0,0,0,640,608,0,0,0,32,32,0,0,0,0,1376,0,4704,4768,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.ulanzi.com/products/ulanzi-pixel-smart-clock-2882
+link: https://www.aliexpress.com/item/1005005034439849.html
+link2: https://www.ulanzi.de/products/ulanzi-pixel-smart-uhr-2882
+---
+This is an 8x32 addressable LED display with built in battery, buzzer, light, temperature and humidity sensor.
+
+It can be easily flashed using the USB-C port in the back.
+
+After applying the template use command `Pixels 256` to set number of LEDs.
+
+To use the pixel display in Tasmota see [ArtNet control](https://tasmota.github.io/docs/ArtNet/) or [Addressable LED's in Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/).
+

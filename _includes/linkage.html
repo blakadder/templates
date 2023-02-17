@@ -66,6 +66,10 @@
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1135651&u=2442238&m=77450&urllink=" }}
 {% elsif link contains "itead.cc" %}
 {{ link | append: "/ref/34/" }}
+{% elsif link contains "ulanzi.com" %}
+{{ link | append: "?aff=800" }}
+{% elsif link contains "ulanzi.de" %}
+{{ link | append: "?ref=blakadder" }}
 {% elsif link contains "walmart.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://ad.admitad.com/g/4jg2ecwjgpa026925063bef27d4341/?ulp=" }}
 {% elsif link contains "avatarcontrols.com" %}
