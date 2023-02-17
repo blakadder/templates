@@ -18,5 +18,7 @@ It can be easily flashed using the USB-C port in the back.
 
 After applying the template use command `Pixels 256` to set number of LEDs.
 
+`GPI034` - ADC Input is the battery level but it's in raw state right now, you would need to use ADC Range and make calculations to get somewhat accurate voltage values.
+
 To use the pixel display in Tasmota see [ArtNet control](https://tasmota.github.io/docs/ArtNet/) or [Addressable LED's in Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/).
 
