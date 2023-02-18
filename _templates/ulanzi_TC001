@@ -5,22 +5,29 @@ model: TC001
 category: misc
 type: Miscellaneous
 standard: global
-flash: serial
+flash: ota
 image: /assets/device_images/ulanzi_TC001.webp
-template32: '{"NAME":"Ulanzi TC001","GPIO":[0,0,0,0,0,0,0,0,0,0,34,480,0,0,0,0,0,640,608,0,0,0,32,33,0,0,0,0,1376,0,4864,4769,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Ulanzi TC001","GPIO":[0,0,0,0,0,0,0,0,0,0,34,480,0,0,0,0,0,640,608,0,0,0,32,33,0,0,0,0,1376,0,4704,4768,0,0,0,0],"FLAG":0,"BASE":1}' 
 mlink: https://www.ulanzi.com/products/ulanzi-pixel-smart-clock-2882
 link: https://www.aliexpress.com/item/1005005034439849.html
 link2: https://www.ulanzi.de/products/ulanzi-pixel-smart-uhr-2882
+link3: https://www.amazon.com/dp/B0BS8Q9749
 ---
 This is an 8x32 addressable LED display with built in battery, buzzer, light, temperature and humidity sensor.
 
-It can be easily flashed using the USB-C port in the back.
+After applying the template use command `Pixels 256` to set number of LEDs.
 
-After applying the template use this command to complete configuraton:
-
-```console
-Backlog Pixels 256; AdcParam1 6,2100,2600,0,100
-```
+`GPI034` - ADC Input is the battery level but it's in raw state right now, you would need to use ADC Range and make calculations to get somewhat accurate voltage values.
 
 To use the pixel display in Tasmota see [ArtNet control](https://tasmota.github.io/docs/ArtNet/) or [Addressable LED's in Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/).
+
+## OTA Flash
+
+Go to http://clock.local web UI, go to ***About - Upgrade*** and upload tasmota32.bin. After the UI announces the upgrade is finished shut down the display by holding the left and right button. Power it on the same way, you should hear a constant whine noise when its powered on. Configure as any other Tasmota device. When you apply the template the whine noise will stop. 
+
+As a final step download [`Partition_Wizard.tapp`](https://raw.githubusercontent.com/arendst/Tasmota/development/tasmota/berry/modules/Partition_Wizard.tapp), upload it to Tasmota file system and restart. Navigate to ***Consoles -> Partition Wizard*** and start the migration process to adapt the filesystem to Tasmota.
+
+## Serial Flash
+
+It can be easily flashed using the USB-C port in the back via [Tasmota Web Installer](https://tasmota.github.io/install) or any other serial flashing method.
 
