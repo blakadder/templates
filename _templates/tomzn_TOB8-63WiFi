@@ -11,4 +11,6 @@ flash: serial
 category: relay
 type: DIN Relay
 standard: global
+chip: PSF-B
 ---
+ You Will need to drill out the brass tubes to open the relay. Push out the 2 diffuser and squish both sides of the button's retainers. Slowly, flip out the board. The MCU is under.
