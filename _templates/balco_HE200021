@@ -1,0 +1,15 @@
+---
+date_added: 2023-02-18
+title: Baco Smart Power Socket
+model: HE200021
+image: /assets/device_images/balco_HE200021.webp
+template9: '{"NAME":"Balco HE200021","GPIO":[0,0,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":52}' 
+link: https://www.balcolifestyle.com/belgium/cocoon-connect/
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: fr
+chip: tywe2s
+---

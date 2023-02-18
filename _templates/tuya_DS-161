@@ -1,0 +1,30 @@
+---
+date_added: 2023-02-18
+title: Tuya 20A
+model: DS-161
+image: /assets/device_images/tuya_DS-161.webp
+template9: '{"NAME":"DS-161","GPIO":[544,0,0,32,0,0,0,0,0,224,288,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://shopee.com.my/-Smart-Life-App-TUYA-20A-Water-Heater-Aircon-Switch-Smart-Wifi-Touch-Wall-Switch-Timing-Google-Home-Alexa-i.33337179.9480300777
+link3: https://www.alibaba.com/product-detail/LEDEAST-DS-161-4000W-EU-Standard_1600250223587.html
+link2: https://www.aliexpress.com/item/1005003024415879.html
+link4: https://www.amazon.ae/Winpossee-Wireless-Control-Switches-Compatible/dp/B097493VG2
+mlink: https://expo.tuya.com/product/1043041
+flash: replace
+category: switch
+type: Switch
+standard: eu
+chip: WB3S
+---
+
+![label](/assets/device_images/tuya_DS-161_label.webp)
+
+The device has beken chip that's not supported by Tasmota. A chip swap is required for this to work.
+For desoldering with heat gun, point the gun on the other side of pcb to avoid melting/burning the touchpad that's right next to the chip.  
+
+![](https://i.postimg.cc/T1XwCkY9/image.png)
+
+![](https://i.postimg.cc/tgZ4y0sk/image.png)
+
+Keep heating each side of the beken chip for a few more seconds and gently push it down to remove it. 
+
+Replace with esp12, apply solder paste to the pads, and once again heat the pins on the other side of the pcb.

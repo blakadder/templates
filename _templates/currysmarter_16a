@@ -2,7 +2,9 @@
 date_added: 2022-10-20
 title: CurrySmarter 16A
 model: 
-link: https://www.amazon.de/-/en/dp/B0BF49Y197/
+link: https://www.amazon.de/dp/B0BF49Y197/
+link2: https://www.amazon.com.be/gp/product/B0BF4L4176
+link3: https://www.amazon.nl/gp/product/B0BF4L4176
 image: /assets/device_images/currysmarter_16a.webp
 template9: '{"NAME":"CurrySmarter 16A","GPIO":[0,0,0,32,0,0,0,0,0,320,224,0,0,0],"FLAG":0,"BASE":18}'
 link2: 
