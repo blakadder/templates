@@ -75,6 +75,12 @@ Label webUI buttons:
 ```console
 backlog webbutton1 Power; webbutton2 Indicator Light;
 ```
+
+Set the proper temperature and humidity resolutions:
+```console
+backlog TempRes 0; HumRes 0;
+```
+
 ### TuyaEnum 
 As of Tasmota 9.1.0.1 [#9769](https://github.com/arendst/Tasmota/pull/9769) it is possible to map Type4 dpIDs (such as dpID2) to an Enum fn ID. 
 
