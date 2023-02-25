@@ -10,5 +10,6 @@ templatec3: '{"NAME":"01Space_ESP32-C3-RGB","GPIO":[640,608,1,1,1,1,1,1,1376,32,
 mlink: https://github.com/01Space/ESP32-C3FH4-RGB
 link: https://www.banggood.com/ESP32-C3-Development-Board-RISC-V-WiFi-Bluetooth-IoT-Development-Board-Compatible-with-Python-p-1914005.html
 autoconf: true
+flash: serial
 ---
 This device uses the built in serial-to-USB chip. It will not have serial output unless you install a tasmota32c3 build with CDC enabled.

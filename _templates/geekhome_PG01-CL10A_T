@@ -1,6 +1,6 @@
 ---
 date_added: 2023-02-17
-title: Geekome Enchufe Inteligente Wifi Chile Con Tasmota Preinstalado
+title: Geekome Enchufe Inteligente Chile
 model: PG01-CL10A_T
 image: /assets/device_images/geekhome_PG01-CL10A_T.webp
 template9: '{"NAME":"Geekhome PG01-CL10A_T","GPIO":[0,0,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":1}' 

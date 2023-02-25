@@ -1,0 +1,15 @@
+---
+date_added: 2023-02-17
+title: ESP32SR88 - WIFI 8 x 1A
+model: ESP32SR88
+image: /assets/device_images/robot_electronics_ESP32SR88.webp
+template32: '{"NAME":"ESP32SR88","GPIO":[0,3200,0,3232,226,544,0,0,0,0,0,0,225,224,32,544,33,34,35,36,0,37,38,39,0,229,228,227,0,0,0,0,231,230,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.antratek.com/wifi-esp32-module-with-8-relays-8-opto-inputs
+link2: 
+mlink: https://www.robot-electronics.co.uk/esp32sr88.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+[User manual](http://www.robot-electronics.co.uk/files/ESP32SR88.pdf)

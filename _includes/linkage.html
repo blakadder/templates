@@ -4,12 +4,18 @@
 {{ link | append: "?lkid=77716356" }}
 {% elsif link contains "amazon.de" %}
 {{ link | append: "?tag=tasmotatempla-21" }}
+{% elsif link contains "amazon.co.jp" %}
+{{ link | append: "?tag=shn0e-22" }}
 {% elsif link contains "amazon.co.uk" %}
 {{ link | append: "?tag=tasmotatemp0a-21" }}
-{% elsif link contains "amazon.com.au" %}
-{{ link | append: "?tag=blakadder-22" }}
 {% elsif link contains "amazon.com" %}
 {{ link | append: "?tag=blakaddertemp-20" }}
+{% elsif link contains "amazon.com.au" %}
+{{ link | append: "?tag=blakadder-22" }}
+{% elsif link contains "amazon.com.be" %}
+{{ link | append: "?tag=shnews-21" }}
+{% elsif link contains "amazon.com.mix" %}
+{{ link | append: "?tag=shn03-20" }}
 {% elsif link contains "amazon.ca" %}
 {{ link | append: "?tag=tasmotatemp03-20" }}
 {% elsif link contains "amazon.fr" %}
@@ -66,6 +72,10 @@
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1135651&u=2442238&m=77450&urllink=" }}
 {% elsif link contains "itead.cc" %}
 {{ link | append: "/ref/34/" }}
+{% elsif link contains "ulanzi.com" %}
+{{ link | append: "?aff=800" }}
+{% elsif link contains "ulanzi.de" %}
+{{ link | append: "?ref=blakadder" }}
 {% elsif link contains "walmart.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://ad.admitad.com/g/4jg2ecwjgpa026925063bef27d4341/?ulp=" }}
 {% elsif link contains "avatarcontrols.com" %}
