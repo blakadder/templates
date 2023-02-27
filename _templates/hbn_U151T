@@ -13,6 +13,13 @@ type: Outdoor Plug
 standard: us
 unsupported: true
 ---
+Purchased on Amazon.ca on 2023 / 02 / 24
+Containe a WB2S module and need to be replaced. I did replace with a ESP-12F and work flawless with the config contain in this page.
+Please use this pinout to match the pin on a ESP-12F or other ESP chip
+
+image: https://templates.blakadder.com/assets/device_images/ESP-02S_pinout.webp
+
+
 ### Warning
 New units appear to be shipping with the WB2S module installed, which is not compatible with Tasmota.  
 The daughter board could be desoldered and replaced, but it would be challenging to fit in the small case.
