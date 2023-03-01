@@ -7,21 +7,18 @@ template: '{"NAME":"HBN U151T","GPIO":[0,0,0,0,52,53,0,0,21,17,0,0,0],"FLAG":0,"
 link: https://www.amazon.com/gp/product/B07WNKQ28B/
 link2: 
 mlink: 
-flash: serial
+flash: replace
 category: plug
 type: Outdoor Plug
 standard: us
 unsupported: true
+chip: WB2S
 ---
-Purchased on Amazon.ca on 2023 / 02 / 24
-Containe a WB2S module and need to be replaced. I did replace with a ESP-12F and work flawless with the config contain in this page.
+### Purchased on Amazon.ca on 2023 / 02 / 24
+
+Contains a WB2S module and need to be replaced. I did replace with a ESP-12F and work flawless with the config contain in this page.
 Please use this pinout to match the pin on a ESP-12F or other ESP chip
 
-image: https://templates.blakadder.com/assets/device_images/ESP-02S_pinout.webp
+### Purchased from Amazon 5-22-2021
 
-
-### Warning
-New units appear to be shipping with the WB2S module installed, which is not compatible with Tasmota.  
-The daughter board could be desoldered and replaced, but it would be challenging to fit in the small case.
-
-Purchased from Amazon 5-22-2021: Contains incompatible WB2S module
+Contains incompatible WB2S module
