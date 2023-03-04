@@ -5,7 +5,7 @@ model: XY-WFUSB
 image: /assets/device_images/sinilink_XY-WFUSB.webp
 template9: '{"NAME":"XY-WFUSB","GPIO":[1,1,0,1,32,224,0,0,0,0,320,0,544,0],"FLAG":0,"BASE":18}' 
 link: https://www.aliexpress.com/item/4000791220450.html
-link2: https://www.amazon.com/dp/B0868TDVNV/
+link2: https://cloudfree.shop/product/sinilink-usb-switch-flashed-with-tasmota/
 link3: https://www.banggood.com/3_5-20V-5A-100W-USB-Controller-Mobile-APP-Remote-Control-Remote-Control-USB-Switch-Smart-Home-USB-Device-Timing-Cycle-On-Off-Controller-USB-Tester-p-1615638.html
 link4: https://www.amazon.de/dp/B08KS38MLF/
 mlink: https://www.alibaba.com/product-detail/WIFI-USB-Mobile-Remote-Controller-Mobile_62438878126.html
