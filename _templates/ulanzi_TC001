@@ -13,7 +13,7 @@ link: https://www.aliexpress.com/item/1005005034439849.html
 link2: https://www.ulanzi.de/products/ulanzi-pixel-smart-uhr-2882
 link3: https://www.amazon.com/dp/B0BS8Q9749
 ---
-This is an 8x32 addressable LED display with built in battery, buzzer, light, temperature and humidity sensor.
+This is an 8x32 addressable LED display with built in battery, buzzer, RTC clock chip, light, temperature and humidity sensor.
 
 After applying the template use command `Pixels 256` to set number of LEDs.
 
