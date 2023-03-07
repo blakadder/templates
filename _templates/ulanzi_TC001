@@ -21,6 +21,8 @@ After applying the template use command `Pixels 256` to set number of LEDs.
 
 To use the pixel display in Tasmota see [ArtNet control](https://tasmota.github.io/docs/ArtNet/) or [Addressable LED's in Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/).
 
+RTC requires a custom compiled binary with support of [DS3321](https://tasmota.github.io/docs/DS3231/)
+
 ## OTA Flash
 
 Go to http://clock.local web UI, go to ***About - Upgrade*** and upload tasmota32.bin. After the UI announces the upgrade is finished shut down the display by holding the left and right button. Power it on the same way, you should hear a constant whine noise when its powered on. Configure as any other Tasmota device. When you apply the template the whine noise will stop. 
