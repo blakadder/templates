@@ -7,7 +7,7 @@ type: Miscellaneous
 standard: global
 flash: serial
 image: /assets/device_images/sinilink_XY-Clock.webp
-template: '{"NAME":"XY-Clock","GPIO":[288,0,289,0,0,416,32,33,608,640,0,0,34,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"XY-Clock","GPIO":[288,0,289,0,0,416,32,33,608,640,0,0,34,0],"FLAG":0,"BASE":18}' 
 mlink: http://www.sinilink.com
 link: https://www.aliexpress.com/item/1005004451199387.html
 
@@ -15,7 +15,7 @@ link: https://www.aliexpress.com/item/1005004451199387.html
 ## Device Specs
  - ESP Chips: ESP8285 
  - Display driver: TM1650
- - RTC: DS1307 (compatible with DS3231)
+ - RTC: DS1307Z+ (compatible with DS3231)
  - Switch: 3 button + 1 key (on PCB)
  - Leds: 1 blue, 1 red
  - Buzzer
@@ -55,7 +55,7 @@ You must compile your own firmware adding to `user_config_override.h`:
 
 ## Flashing
 
-Flashing requires soldering the GPIO0, TX, RX, GND and VCC wires for your FTDI adapter.  IO0 must be connected to ground for flash mode, and can be left connected during the entire procedure.  **Note: you must use 3.3v (you will destroy the chip if is in 5v mode)**
+Flashing requires soldering the GPIO0, TX, RX, GND and VCC wires for your FTDI adapter.  GPIO0 must be connected to ground for flash mode, and can be left connected during the entire procedure.  **Note: you must use 3.3v (you will destroy the chip if is in 5v mode)**
 
 ![Pins for flashing](/assets/device_images/sinilink_XY-Clock_pinout.webp)
 
@@ -86,7 +86,7 @@ You need to connect the FTDI to the board in the following way:
 
 ## Usage
 Set the display model etc. by using console with those commands:
-```
+```console
 displaymodel 20
 displaytype 0
 displaymode 1        // to show the time
