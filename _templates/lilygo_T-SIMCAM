@@ -6,6 +6,7 @@ image: /assets/device_images/lilygo_T-SIMCAM.webp
 templates3: '{"NAME":"T-SIMCAM","GPIO":[1,1,7776,1,5024,5056,5120,5152,5090,5089,5091,5088,5092,5184,4992,5095,5094,5093,4960,1,1,1,0,0,0,0,0,704,736,672,9376,7840,1,1,1,1,6720,1],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005004551008036.html
 link2: https://www.banggood.com/LILYGO-T-SIMCAM-ESP32-S3-CAM-Development-Board-WiFi-Bluetooth-5_0-Wireless-Module-With-OV2640-Camera-TF-Slot-Adapt-T-PCIE-SIM-p-1967981.html
+link3: https://www.walmart.com/ip/YMILEMY-ESP32-S3-CAM-Development-Board-LILYGO-T-SIMCAM-WIFI-BT5-0-T-PCIE-SIM-Module/1273789646
 mlink: https://www.lilygo.cc/products/t-simcam
 flash: serial
 category: diy
@@ -14,3 +15,5 @@ standard: global
 autoconf: true
 chip: s3
 ---
+
+Install with Tasmota32-S3 (QIO Flash/OPI PSRAM) option or [`tasmota32s3cdc-qio_opi.factory.bin`](https://github.com/tasmota/install/raw/firmware/firmware/unofficial/tasmota32s3cdc-qio_opi.factory.bin)
