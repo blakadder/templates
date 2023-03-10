@@ -5,6 +5,7 @@ model:
 link: https://www.amazon.de/-/en/dp/B0BM9TXHP9/
 image: /assets/device_images/currysmarter_30a.webp
 template9: '{"NAME":"30A Breaker","GPIO":[0,0,0,0,0,224,0,0,2720,32,2656,2624,320,0],"FLAG":0,"BASE":18}'
+template10: '{"NAME":"30A Breaker on Led","GPIO":[0,0,0,0,7584,224,0,0,2720,32,2656,2624,320,0],"FLAG":0,"BASE":18}'
 link2: 
 mlink: 
 flash: preflashed
