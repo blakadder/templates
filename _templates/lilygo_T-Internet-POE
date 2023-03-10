@@ -13,10 +13,32 @@ link2: https://www.banggood.com/LILYGO-TTGO-T-Internet-POE-ESP32-WROOM-LAN8720A-
 ---
 ![v1.2 Board](/assets/device_images/lilygo_T-Internet-POE_v1.2.webp)
 
-## v1.0 Board
-For working Ethernet on board V1.0, `EthClockMode 3` is needed as included in the following template:
+## v1.0/1.1 Board
+
+For working Ethernet on board V1.0 and V1.1, `EthClockMode 3` is needed as included in the following template. This template also enables the card reader.
 
 ```json
-{"NAME":"LilyGO T-Internet-POE","GPIO":[0,1,1,1,1,1,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1,"CMND":"EthType 0|EthClockMode 3|EthAddress 0"}
+{"NAME":"LilyGO T-Internet-POE","GPIO":[0,1,672,1,1,0,0,0,1,6720,736,704,1,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1,"CMND":"EthType 0|EthClockMode 3|EthAddress 0"}
 ```
+
 ![v1.0 Board](/assets/device_images/lilygo_T-Internet-POE_v1.webp)
+
+The advertised "Downloader Expansion Board" is not necessary for flashing. The six contacts near the product name on the backside are:
+
+1. 3V3 (top most in the picture above near the ESP32)
+2. GND
+3. RST
+4. IO0
+5. RX
+6. TX
+
+The card reader uses these pins for communication:
+
+| GPIO | Function |
+|------|----------|
+| 02 | MISO |
+| 12 | MOSI |
+| 13 | CS |
+| 15 | SCLK |
+
+So if you need the card reader in your project, three pins of the 2x8 header are already in use for SPI!
