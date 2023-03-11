@@ -16,4 +16,4 @@ standard: us
 backlog rule1 on analog#a0<400 do power2 toggle break on analog#a0<800 do power1 toggle break endon; rule1 1
 ```
 
-Note: Tuya convert still worked as of 2022-06-02
+Note: Tuya convert still worked as of 2023-03-09
