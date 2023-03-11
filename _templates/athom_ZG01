@@ -19,7 +19,7 @@ The CC2652P module is pre-installed with the latest firmware of [Koenkk](https:/
 ## Working mode switching (TCP and Serial)
 
 The device works in TCP mode by default. If you want to switch to Serial mode, you need to open the shell of the device and turn the switch inside to the position shown in the figure below (close 1, 2, open 3, 4). At this time, the Zigbee module directly communicates with the serial port Connection does not go through ESP32.
-[![Athomzbbrdg ZHA Configuration](/assets/images/athom_mode_switch.png)]((/assets/images/athom_mode_switch.png))
+[![Athomzbbrdg ZHA Configuration](/assets/images/athom_mode_switch.png)](/assets/images/athom_mode_switch.png)
 
 ## For Home Assistant (ZHA or Zigbee2MQTT)
 
