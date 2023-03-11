@@ -1,0 +1,17 @@
+---
+date_added: 2023-02-19
+title: Hyrican SmartPlug 16A
+model: TM-MP-EU02
+image: /assets/device_images/hyrican_TM-MP-EU02.webp
+template9: '{"NAME":"Hyrican TM-MP-EU02","GPIO":[0,0,0,32,2656,2624,0,0,224,2720,320,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.otto.de/p/hyrican-steckdose-hyrican-smart-wifi-steckdose-16a-alexa-google-kompatibel-1-st-1er-pack-1454946338/#variationId=1454946340
+link2: https://www.idealo.de/preisvergleich/OffersOfProduct/202146599_-tm-mp-eu02-hyrican.html
+mlink: https://www.hyrican.de/
+flash: replace 
+category: plug
+type: Plug
+standard: eu
+chip: WB2S
+---
+
+Once the WB2S has been replaced with the TYWE2S, the following template can be used.
