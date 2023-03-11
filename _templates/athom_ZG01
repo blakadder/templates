@@ -46,7 +46,7 @@ backlog rule1 on system#boot do TCPStart 8888 endon ; rule1 1 ; TCPStart 8888
 
 In Home Assistant (requires version 0.113+) go to **Configuration - Integrations**, click the **+** icon, search for ZHA integration and select it. 
 
-[![Athomzbbrdg ZHA Configuration](/assets/images/athom_zbbridge_zha.png)]((/assets/images/athom_zbbridge_zha.png))
+[![Athomzbbrdg ZHA Configuration](/assets/images/athom_zbbridge_zha.png)](/assets/images/athom_zbbridge_zha.png)
 
 1. for Radio Type choose "ZNP" 
 2. choose "software" for 'data flow control'
@@ -55,7 +55,7 @@ In Home Assistant (requires version 0.113+) go to **Configuration - Integrations
    - ensure port speed is set to "115200"
 4. when the athomzbbrdg is discovered you will get a confirmation message
 
-[![Athomzbbrdg ZHA Configuration](/assets/images/athom_zbbridge_zha2.png)]((/assets/images/athom_zbbridge_zha2.png))
+[![Athomzbbrdg ZHA Configuration](/assets/images/athom_zbbridge_zha2.png)](/assets/images/athom_zbbridge_zha2.png)
 
 ## Connecting to Home Assistant OS with Zigbee2MQTT 
 
@@ -68,7 +68,7 @@ This assumes you already have a basic knowledge of installing custom addons in H
     port: tcp://[athomzbbrdg_ip]:8888
     ```
     - For serial (USB) rather than network communication, [serial_id] needs to be replaced
-[![Athomzbbrdg ZHA Configuration](/assets/images/athom_zbbridge_serial.png)]((/assets/images/athom_zbbridge_serial.png))
+[![Athomzbbrdg ZHA Configuration](/assets/images/athom_zbbridge_serial.png)](/assets/images/athom_zbbridge_serial.png)
 ```
 port: [serial_id]
 ```    
