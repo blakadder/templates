@@ -3,7 +3,7 @@ date_added: 2023-02-04
 title: Timeguard Lamp Holder
 model: WFLH
 image: /assets/device_images/timeguard_WFLH.webp
-template9: '{"NAME":"Timeguard WFLH","GPIO":[0,0,0,0,288,289,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Timeguard WFLH","GPIO":[0,0,0,0,576,320,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.ebay.co.uk/itm/283924295695
 link2: 
 mlink: https://www.timeguard.com/products/time/consumer-time-controllers/wi-fi-smart-lamp-holder-adapter
@@ -12,4 +12,16 @@ category: light
 type: Socket Adapter
 standard: uk
 ---
+![WFLH WiFi Module](/assets/device_images/timeguard-wflh_1.webp)
+![WFLH serial pins](/assets/device_images/timeguard-wflh_2.webp)
 
+The wireless module is a TYWE2S.
+-Relay is on GPIO 12
+-Red LED (inverted) on GPIO 4
+-Green LED (inverted) on GPIO 5
+-Push button on GPIO 14
+
+The device can be non-destructively opened for serial flashing using a tri-wing screwdriver.
+3.3V and GND test points are available on the top side of the board.  Solder directly to the RX and TX pins on the TYWE2S.  GPIO0 is only available via a fiddly pad on the side of the module.
+
+I wasn't impressed by the build quality of this one, particularly the pins on the BC22 socket, which is a shame as there are so few BC22 options.  Probably best to avoid using it with higher wattage lamps.

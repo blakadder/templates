@@ -1,0 +1,21 @@
+---
+date_added: 2023-02-28
+title: RGB Floor Lamp 
+model: LDD-25W-D
+image: /assets/device_images/LDD-25W-D.webp
+template9: '{"NAME":"Floor Lamp","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/gp/product/B08BCK8LMY/
+link2: https://www.amazon.com/gp/product/B086V1P7BS/
+mlink: https://www.amazon.com/dp/B0B1CZXHBY/
+flash: serial
+category: light
+type: Light
+standard: us
+---
+TuyaMCU Config:
+
+Dimmer = 22 - range 0-1000
+CCT = 23
+Color Mode = 21
+Color = 22 
+TuyaRGB = 1

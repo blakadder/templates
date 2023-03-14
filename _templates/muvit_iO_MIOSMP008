@@ -1,0 +1,14 @@
+---
+date_added: 2023-02-23
+title: Muvit iO MIOSMP008
+model: MIOSMP008
+image: /assets/device_images/muvit_iO_MIOSMP008.webp
+template9: '{"NAME":"MIOSMP008","GPIO":[0,0,0,32,2656,2624,0,0,224,2720,320,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://canarias.mediamarkt.es/products/enchufe-inteligente-muvit-io-miosmp008-wifi-control-remoto-compatible-con-alexa-asist-de-google-blanco
+link2: https://www.amazon.es/dp/B08R9M31WT/
+mlink: https://www.muvit.es/confort-y-ahorro-energia/enchufe/muvit-io-enchufe-inteligente-wi-fi-con-monitor-de-energia
+flash: replace
+category: plug
+type: Plug
+standard: eu
+---

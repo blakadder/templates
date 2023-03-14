@@ -1,0 +1,68 @@
+---
+date_added: 2023-02-23
+title: Sunbeam LoftTec Electric Blanket
+model: 2142831
+image: /assets/device_images/sunbeam_2142831.webp
+template9: '{"NAME":"Sunbeam Heated Blanket","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.amazon.com/dp/B08X1JLS2D
+link2: https://www.walmart.com/ip/Sunbeam-2142831-Electric-Lofttec-Heated-Blanket-with-Wi-Fi-Connection-44-Slate-Queen-Size/449668565
+mlink: 
+flash: replace 
+category: misc
+type: Miscellaneous
+standard: us
+chip: WBR3
+---
+#### Description
+
+Controller is identical to other two-zone Sunbeam LoftTec Wifi-connected devices (e.g. mattress pad). Single-zone connected devices may also work with this configuration, though untested.
+
+#### DIY Conversion
+
+Controller uses a Tuya WBR3 module, can be replaced with an ESP8266-based module like an ESP-12S or similar.
+
+Controller can be opened by removing the four rubber feet from the bottom side of the controller, revealing four identical screws. Housing easily pops open thereafter. PCB will need to be removed via the two internal retention clips - push the top of each clip outwards towards the case. Module is on the reverse side of the PCB. Take care while removing Tuya module, as power supply components are immediately adjacent to the module.
+
+#### DPs
+
+| DP ID 	| Type 	| Description                  	| FnId 	| R/W 	| Notes                                                                                                                                                     	|
+|-------	|------	|------------------------------	|------	|-----	|-----------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| 1     	| bool 	| Master Power                 	| 11   	| R/W 	| triggered by all other heat DPs                                                                                                                           	|
+| 4     	| enum 	| Master Heat                  	| 61   	| R/W 	| range: 0-9                                                                                                                                                	|
+| 8     	| bool 	| Master Preheat               	| 12   	| R/W 	| triggered by other preheat DPs                                                                                                                            	|
+| 14    	| bool 	| Side A Heat                  	| 13   	| R/W 	| triggered by other Side A DPs                                                                                                                             	|
+| 15    	| bool 	| Side B Heat                  	| 14   	| R/W 	| triggered by other Side B DPs                                                                                                                             	|
+| 20    	| enum 	| Side A Heat                  	| 62   	| R/W 	| range: 0-9                                                                                                                                                	|
+| 21    	| enum 	| Side B Heat                  	| 63   	| R/W 	| range: 0-9                                                                                                                                                	|
+| 24    	| bool 	| Side A Preheat               	| 15   	| R/W 	|                                                                                                                                                           	|
+| 25    	| bool 	| Side B Preheat               	| 16   	| R/W 	|                                                                                                                                                           	|
+| 26    	| enum 	| Side A Sleep Time (friendly) 	|      	| R/W 	| related to: DP 28                                                                                                                                         	|
+| 27    	| enum 	| Side B Sleep Time (friendly) 	|      	| R/W 	| related to: DP 29                                                                                                                                         	|
+| 28    	| int  	| Side A Sleep Time            	| 81   	| R/W 	| related to: DP 26 unit: seconds  60 second resolution                                                                                                     	|
+| 29    	| int  	| Side B Sleep Time            	| 82   	| R/W 	| related to: DP 27 unit: seconds  60 second resolution                                                                                                     	|
+| 101   	| raw  	| _(unknown)_                  	|      	|     	| Default data: `0xFFFFFFFFFFFFFFFFFFFFFFFFFFFF`                                                                                                            	|
+| 102   	| int  	| Side A Preheat Timer         	|      	| R/- 	| Time left on preheat function (seconds)                                                                                                                   	|
+| 103   	| int  	| Side B Preheat Timer         	|      	| R/- 	| related to: DP 102                                                                                                                                        	|
+| 104   	| enum 	| Confirmation status          	|      	| R/- 	| 0 = normal operation, 1 = "user must press check button on device" (status LED on device pulsing)  _(can by bypassed by toggling preheat function)_       	|
+| 105   	| enum 	| _(unknown)_                  	|      	| R/- 	| Possible values: 0, 1, 2                                                                                                                                  	|
+
+#### Commands
+
+Note that these are included in the current template.
+
+##### Setup DPIds
+
+```console
+Backlog TuyaEnumList 1,9; TuyaEnumList 2,9; TuyaEnumList 3,9; TuyaMCU 11,1; TuyaMCU 61,4; TuyaMCU 12,8; TuyaMCU 13,14; TuyaMCU 14,15; TuyaMCU 62,20; TuyaMCU 63,21; TuyaMCU 15,24; TuyaMCU 16,25; TuyaMCU 81,28; TuyaMCU 82,29; 
+```
+
+##### Setup web UI/device names
+
+```console
+Backlog WebButton1 Master Power; FriendlyName1 Master Power; WebButton2 Master Preheat; FriendlyName2 Master Preheat; WebButton3 SideA Power; FriendlyName3 SideA Power; WebButton4 SideB Power; FriendlyName4 SideB Power; WebButton5 SideA Preheat; FriendlyName5 SideA Preheat; WebButton6 SideB Preheat; FriendlyName6 SideB Preheat
+```
+
+#### Known Issues
+
+- Timer format is screwed up - value seems to be correctly interpreted in some parts of Tasmota, but not on main menu.
+- Holding down the check button will reboot the device into AP mode."

@@ -1,0 +1,24 @@
+---
+date_added: 2023-02-23
+title: Strong Helo PLUSB 2x USB
+model: HELO-PLUSB-EU
+image: /assets/device_images/strong_HELO-PLUSB-EU.webp
+template9: '{"NAME":"Helo-PLUSB-EU","GPIO":[32,0,0,0,2720,2656,0,0,2624,320,224,225,8096,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B09JSQGP3M
+link2: https://www.alza.cz/EN/strong-helo-plusb-eu-3ks-d7645814.htm
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/202146650_-helo-plusb-eu-strong.html
+mlink: https://www.strong.tv/de/products/plugs-de/helo-plusb-eu/
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+- requires triangular bit to unscrew case, Torx 7 works also
+- be careful when unscrewing daughter-board, wires are short
+- power monitoring chip is BL0937
+- to get AC-PCB out of the housing L, N an PE have to be unsoldered
+
+![https://ibb.co/4MBk8pq](https://ibb.co/4MBk8pq)
+![https://ibb.co/pXtLWBr](https://ibb.co/pXtLWBr)
+![https://ibb.co/VVYVynZ](https://ibb.co/VVYVynZ)
+![https://ibb.co/3hrf8hw](https://ibb.co/3hrf8hw)

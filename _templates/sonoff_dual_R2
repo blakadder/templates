@@ -68,7 +68,7 @@ GPIO4 => red, GPIO14 => orange
 
 GPIO1 is RX
 GPIO3 is TX
-<img alt="GPIOs location" src="https://user-images.githubusercontent.com/10194143/218995898-7deebcab-19b1-44fe-80c9-735c90d82287.jpg"/><br/>
+![GPIOs location](/assets/device_images/sonoff_dualr2_pinout.webp)
 
 ### Solving intermittent relay switch errors
 

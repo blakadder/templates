@@ -1,0 +1,14 @@
+---
+date_added: 2023-02-26
+title: ESP8266 4 Channel 5V/12V
+model: 3038266C410
+image: /assets/device_images/3038266C410.webp
+template9: '{"NAME":"4CH Relay","GPIO":[0,0,0,0,0,0,0,0,226,227,225,0,224,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005003327225237.html
+mlink: https://www.aliexpress.com/item/1005003384979257.html
+flash: serial
+category: relay
+type: Relay Module
+standard: global
+---
+Enter ESP Flash-Mode with connecting GND and IO0 while powering up

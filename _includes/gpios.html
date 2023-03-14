@@ -1094,9 +1094,17 @@
             {% when "5536" %}
             ETH POWER
             {% when "5568" %}
-            ETH MDC
+                {% if page.template9 != nil %}
+                SHD Boot 0
+                {% else %}
+                ETH MDC
+                {% endif %}                
             {% when "5600" %}
-            ETH MDIO
+                {% if page.template9 != nil %}
+                SHD Reset
+                {% else %}
+                ETH MDIO
+                {% endif %}                
             {% when "5792" %}
             Zigbee RST 1
             {% when "5793" %}

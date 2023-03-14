@@ -1,0 +1,18 @@
+---
+date_added: 2023-03-01
+title: Strong Helo Plight
+model: HELO-PLIGHT-EU
+image: /assets/device_images/strong_HELO-PLIGHT-EU.webp
+template9: '{"NAME":"Strong HELO-PLIGHT-EU","GPIO":[416,0,418,0,417,2720,0,0,2624,32,2656,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B09JSQQQXX/
+link2: https://www.idealo.de/preisvergleich/OffersOfProduct/202114949_-smart-wlan-steckdose-weiss-helo-plight-eu-strong-cosmetics.html
+mlink: https://www.strong.tv/de/products/plugs-de/helo-plight-eu/
+link3: https://www.conrad.com/p/strong-helo-plight-eu-helo-plight-eu-wi-fi-socket-1-piece-indoors-3680-w-2619964
+link4: https://www.alza.cz/EN/strong-helo-plight-eu-3ks-d7645812.htm
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+
+Bought february 2023. OTA flash worked

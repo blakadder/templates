@@ -13,13 +13,15 @@ link: https://www.aliexpress.com/item/1005005034439849.html
 link2: https://www.ulanzi.de/products/ulanzi-pixel-smart-uhr-2882
 link3: https://www.amazon.com/dp/B0BS8Q9749
 ---
-This is an 8x32 addressable LED display with built in battery, buzzer, light, temperature and humidity sensor.
+This is an 8x32 addressable LED display with built in battery, buzzer, RTC clock chip, light, temperature and humidity sensor.
 
 After applying the template use command `Pixels 256` to set number of LEDs.
 
 `GPI034` - ADC Input is the battery level but it's in raw state right now, you would need to use ADC Range and make calculations to get somewhat accurate voltage values.
 
 To use the pixel display in Tasmota see [ArtNet control](https://tasmota.github.io/docs/ArtNet/) or [Addressable LED's in Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/).
+
+RTC requires a custom compiled binary with support of [DS3321](https://tasmota.github.io/docs/DS3231/)
 
 ## OTA Flash
 

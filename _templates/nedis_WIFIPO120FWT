@@ -25,3 +25,4 @@ New template for these devices: `{"NAME":"WIFIPO120FWT","GPIO":[32,0,0,0,2688,26
 
 ## Opening
 Remove the two security screws on the backside. Pry open from the top of the connector rounding on the backside. Two plastic clamps holding it together at the top and at the bottom. A bit of force is needed. When opened, remove the four screws from the PCB and the soldering points are clearly marked and accessible at the bottom PCB.
+

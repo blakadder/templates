@@ -1,0 +1,15 @@
+---
+date_added: 2023-03-09
+title: Sengled 
+model: W31-N15
+image: /assets/device_images/sengled_W31-N15.webp
+template9: '{"NAME":"Sengled RGBW","GPIO":[0,0,0,0,0,0,0,0,417,416,419,418,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/gp/product/B098QY6K2T/
+link2: 
+mlink: https://ca.sengled.com/products/sengled-smart-wi-fi-led-multicolor-a19-bulb
+flash: serial
+category: bulb
+type: RGBW
+standard: e26
+---
+Ground to IO0 to prepare for flashing, Programming pins hidden behind capacitors, you may need to fully remove module to flash
