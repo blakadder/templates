@@ -9,8 +9,7 @@ category: light
 type: Ceiling Light
 standard: au
 template: '{"NAME":"Brilliant Smart Salisbury","GPIO":[0,0,0,0,0,0,0,0,47,0,37,0,0],"FLAG":0,"BASE":18,"CMND":"SO92 1 | LedTable 0 | DimmerRange 4,100"}' 
-link: https://www.bunnings.com.au/brilliant-12w-290mm-smart-salisbury-wifi-cct-led-ceiling-light_p0133111
-link2: https://www.bunnings.co.nz/brilliant-12w-290mm-smart-salisbury-wifi-cct-led-ceiling-light_p0133111
+link: https://www.bunnings.co.nz/brilliant-12w-290mm-smart-salisbury-wifi-cct-led-ceiling-light_p0133111
 chip: TYWE2L
 ---
 Applied with the template:
