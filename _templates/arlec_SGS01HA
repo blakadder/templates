@@ -9,8 +9,7 @@ category: misc
 type: Bluetooth Gateway
 standard: au
 template: '{"NAME":"Arlec Hub","GPIO":[0,107,0,108,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
-link: https://www.bunnings.com.au/arlec-grid-connect-smart-home-hub_p0148571
-link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-home-hub_p0148571
+link: https://www.bunnings.co.nz/arlec-grid-connect-smart-home-hub_p0148571
 ---
 1. Initially pair the hub and all sensors using the Tuya app
 
