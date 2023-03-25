@@ -13,4 +13,14 @@ link2: https://www.bunnings.co.nz/deta-grid-connect-smart-10w-led-downlight_p010
 unsupported: true
 chip: WB2L
 ---
-This light now uses a WB2L chip that can't be flashed.
+Newer versions of this light use a WB2L chip that can't be flashed.
+
+Older versions use an ESP8285 which can be flashed by serial, but not OTA. Note that serial flashing
+requires some very precise soldering onto small surface pads on an awkwardly positioned daughterboard.
+
+You can identify older versions - still available at some stockists - by looking at the underside of
+the box. In the small table at the top, next to "Made in China" you should see the model number
+DET902HA. If the model number appears on it's own - you can flash the devie. If it says anything else
+next to it (Revision 2, Version 2 etc) it will not work. Note this device is also available in a four
+pack, which makes no reference to revisions on the underside (whether it's old or new) - the only way
+to know is to buy them and open them up. For this reason the individual packed units are preferable.
