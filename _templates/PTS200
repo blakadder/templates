@@ -3,7 +3,7 @@ date_added: 2023-03-26
 title: T13 100W PD3.0 Portable
 model: PTS200
 image: /assets/device_images/PTS200.webp
-template32: '{"NAME":"PTS200","GPIO":[0,0,33,0,34,0,0,0,6210,0,32,512,0,0,0,0,0,640,608,0,0,416,4704,0,0,0,0,0,0,4737,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"PTS200","GPIO":[0,0,33,0,34,0,0,0,6210,0,32,512,0,0,0,0,0,640,608,0,0,224,4704,0,0,0,0,0,0,4737,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005005197418686.html
 link2: https://www.banggood.com/PTS200-T13-100W-PD3_0-Smart-Soldering-Iron-CNC-Metal-Housing-Software-Upgradeable-Programing-Compatible-with-T12-TS101-PINE64-p-1978301.html
 mlink: https://github.com/Eddddddddy/SolderingPen_FW
@@ -15,6 +15,9 @@ build: tasmota32-lvgl
 ---
 
 This is only a proof of concept!!! Installing Tasmota does not result in a functioning soldering iron. There is no built in control of the heating element. Drivers for the SparkFun LIS2DH12 accelerometer sensor are missing. Original firmware and source can be downloaded from [GitHub](https://github.com/Eddddddddy/SolderingPen_FW)
+
+***DANGER***
+Heating element is controlled with `Power1`. This can be dangerous because the soldering tip can overheat very very quickly (10 seconds when powered with 20V).
 
 ## Pinout
 
@@ -47,5 +50,3 @@ AE,0
 #
 ```
 
-***DANGER***
-Heating element can be somewhat controlled with `SetOption15 0` and command [`Pwm`](https://tasmota.github.io/docs/Commands/#pwm). This can be dangerous because the soldering tip can overheat very quickly (10 seconds when powered with 20V).
