@@ -13,6 +13,6 @@ type: Development Board
 standard: global
 ---
 
-ESP8266 with USB-C, easyC connector (Qwiic compatible), JST battery connector, 500mA voltage regulator and multiple 3v3 pins. easyC connector is mapped to I2C.
+ESP32 with USB-C, easyC connector (Qwiic compatible), JST battery connector, 500mA voltage regulator and multiple 3v3 pins. easyC connector is mapped to I2C.
 
 ![Pinout](https://soldered.com/productdata/2022/06/Dasduino-CONNECT.png)
