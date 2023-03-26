@@ -3,7 +3,7 @@ date_added: 2023-03-11
 title: AI Universal Remote Control
 model: LQ-Y06
 image: /assets/device_images/LQ-Y06.webp
-template: '{"NAME":"LQ-08","GPIO":[0,0,0,0,0,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
+template9: '{"NAME":"LQ-08","GPIO":[0,0,0,0,0,1088,0,0,0,32,1056,0,0,0],"FLAG":0,"BASE":62}' 
 link: https://www.aliexpress.com/item/1005003764537058.html
 link2: https://www.walmart.com/ip/WiFi-IR-Remote-IR-Control-Wi-Fi-2-4Ghz-Enabled-Infrared-Universal-Controller-For-Air-Conditioner-TV-DVD-Using-Tuya-Smart-Life-APP-Compatible-Alexa-Go/1562806458
 mlink:
