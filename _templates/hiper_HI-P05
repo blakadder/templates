@@ -3,7 +3,7 @@ date_added: 2023-01-03
 title: HIPER IoT P05
 model: HI-P05
 image: /assets/device_images/hiper_HI-P05.webp
-template9: '{"NAME":"HIPER IoT P05","GPIO":[0,56,0,17,0,0,0,0,0,21,0,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"HIPER IoT P05","GPIO":[0,56,0,17,0,0,0,0,0,21,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://hiper-power.com/ru/catalog/umnyy-dom/rozetki/umnaya-rozetka-iot-p05-c-monitoringom-energii/
 link2: 
 mlink: https://hiper-power.com/ru/catalog/umnyy-dom/rozetki/umnaya-rozetka-iot-p05-c-monitoringom-energii/
