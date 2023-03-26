@@ -1,0 +1,16 @@
+---
+date_added: 2023-03-27
+title: Ai-Future DC5-24V RGB 
+model: AP-WIFI-MINI-V7
+image: /assets/device_images/ai-future_AP-WIFI-MINI-V7.webp
+category: light
+type: LED Controller
+standard: global
+templates2: '{"NAME":"AP-WIFI-MINI-V7","GPIO":[160,0,0,0,0,0,0,418,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,417,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005004410449733.html
+link2: 
+flash: replace
+chip: WB3S
+---
+
+This one is replaced with an [ESP-12H](ESP-12H) module.
