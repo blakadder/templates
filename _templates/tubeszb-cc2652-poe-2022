@@ -3,7 +3,7 @@ date_added: 2023-03-25
 title: TubesZB CC2652P2 Zigbee to PoE Coordinator 2022
 model: tubeszb-cc2652-poe-2022
 image: /assets/device_images/tubeszb-cc2652-poe-2022.webp
-template9: '{"NAME":"TubesZB CC2652 PoE Coordinator 2022","GPIO":[1,1,8864,1,5793,3584,0,0,5536,5792,8832,8800,3552,0,5600,1,1,1,1,5568,1,1,1,1,0,0,0,0,1,1,32,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"TubesZB CC2652 PoE Coordinator 2022","GPIO":[1,1,8864,1,5793,3584,0,0,5536,5792,8832,8800,3552,0,5600,1,1,1,1,5568,1,1,1,1,0,0,0,0,1,1,32,1,1,1,1,1],"FLAG":0,"BASE":1}' 
 link: https://tubeszb.com/product/cc2652p2-based-zigbee-to-poe-coordinator-2022
 link2: 
 mlink: https://github.com/tube0013/tube_gateways/tree/main/models/current/tubeszb-cc2652-poe-2022
