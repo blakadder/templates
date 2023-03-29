@@ -1,0 +1,31 @@
+---
+date_added: 2023-03-27
+title: LifeSmart Cololight MIX
+model: LS168
+image: /assets/device_images/lifesmart_LS168.webp
+template32: '{"NAME":"ESP32-DevKit","GPIO":[0,0,0,0,1376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,4704,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: 
+link: https://www.banggood.com/COLOLIGHT-MIX-LS168-Smart-LED-Light-Panels-RGB-Quantum-Lights-APP-Control-Works-with-Alexa-Google-Assistant-p-1912263.html
+link2: https://www.amazon.com/dp/B09G6NQ5P5/
+link3: 
+flash: serial
+category: light
+type: RGBIC LED
+standard: global
+---
+
+Each MIX has 37 LEDs, use `Pixels` command to set the right number of LEDs.
+
+Microphone is mapped to Analog input but there is no support for sound reactive effects in Tasmota.
+
+## Flashing
+
+Use a prying tool or a spudger to separate back plate from the shell. 
+
+![Use a spudger to open](/assets/device_images/lifesmart_LS168_open.webp)
+
+Take out the PCB, the flashing pads are located left of the ESP32 module.
+
+![Pinout](/assets/device_images/lifesmart_LS168_pinout.webp)
+
+Connect your serial to USB adapter to TX, RX and GND. Power the controller using its USB-C port. Ground the GPIO0 (bottom hole) during powerup.

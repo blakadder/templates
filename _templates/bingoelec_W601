@@ -1,0 +1,15 @@
+---
+date_added: 2023-03-17
+title: Bingoelec 1 Gang Touch
+model: W601
+image: /assets/device_images/bingoelec_W601.webp
+template9: '{"NAME":"Bingoelec W601","GPIO":[0,544,0,0,0,32,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004522773593.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+![](https://user-images.githubusercontent.com/93751123/186303668-b7f5ec39-2c88-4119-827d-a2b9cf46f376.png)

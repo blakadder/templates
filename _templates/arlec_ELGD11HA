@@ -13,3 +13,4 @@ link: https://www.bunnings.com.au/arlec-smart-40w-4000lm-led-batten-light-with-g
 link2: https://www.bunnings.co.nz/arlec-grid-connect-smart-40w-led-batten-light_p0117511
 ---
 Recently purchased device had updated firmware and wouldn't tuya-convert. Was able to easily access the TYWE3L chip and flash successfully with solder method. Jig would work fine also.
+WARNING: LED power module is identical at both ends and wire colours are Blue/Brown for both AC and DC ends.  Ensure you re-install the circuit board the same orientation it came out or you will destroy the DC power circuit and trip your safety switch (GFCI).

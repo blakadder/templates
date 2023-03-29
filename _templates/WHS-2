@@ -1,0 +1,14 @@
+---
+date_added: 2023-03-26
+title: Smatrul Infrared Sensor
+model: WHS-2
+image: /assets/device_images/WHS-2.webp
+template: '{"NAME":"WHS-2","GPIO":[0,0,0,160,288,0,0,0,0,224,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"SwitchMode1 4 | SO13 1"}' 
+link: https://www.aliexpress.com/item/1005004428605056.html
+mlink: https://www.alibaba.com/product-detail/Smart-Wall-Light-Switch-Infrared-Sensor_1600317207376.html
+flash: replace
+category: switch
+type: Switch
+standard: [eu, us]
+chip: CB2S
+---
