@@ -15,10 +15,15 @@ category: bulb
 type: RGBW
 standard: e27
 ---
-Correct OTA mgos [firmware](https://github.com/yaourdt/mgos-to-tasmota)
+Correct OTA mgos [firmware](https://github.com/arendst/mgos-to-tasmota)
 
 Pogo clip for [serial flashing](https://www.thingiverse.com/thing:5710034)
 
 White blend mode: `SetOption105 1`
 
 Virtual CT mode: `SetOption106 1` and `SetOption107 0`"
+
+### Troubleshooting
+After replacing the Shelly Firmware by Tasmota and connecting the buld to your wifi, the Tasmota Web-UI might not come up, although the device IP is connected.
+To fix the issue, recover the bulb via [PowerCycle](https://tasmota.github.io/docs/Device-Recovery/#fast-power-cycle-device-recovery), connect to the "tasmota-..." wifi again and open the Tasmota Web-UI.
+Instead of selecting your network, open the Console via URL http://tasmota-ip/cs and enter ```reset 1```. Now you can connect the bulb to your network and the Web-UI will come up as expected.
