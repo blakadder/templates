@@ -1,6 +1,6 @@
 ---
 date_added: 2023-03-28
-title: Dingtian Ethernet 16 Channel
+title: Dingtian 16 Channel
 model: DT-R016
 image: /assets/device_images/dingtian_DT-R016.webp
 template32: '{"NAME":"Dingtian DT-R008","GPIO":[1,9408,1,9440,1,1,1,1,1,9760,9729,9856,9792,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,9824,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
