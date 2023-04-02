@@ -17,6 +17,7 @@ standard: eu
 - be careful when unscrewing daughter-board, wires are short
 - power monitoring chip is BL0937
 - to get AC-PCB out of the housing L, N an PE have to be unsoldered
+- Since the power button (which is "Button 1") is connected to GPIO0, you may get the device to programming mode by keeping the button pressed during power on. When only the red led on the back of the pcb is on, you've done it right, if also the blue led is on - retry ;-).
 
 ![https://ibb.co/4MBk8pq](https://ibb.co/4MBk8pq)
 ![https://ibb.co/pXtLWBr](https://ibb.co/pXtLWBr)
