@@ -1,0 +1,14 @@
+---
+date_added: 2023-03-31
+title: ESP-01 Relay V5.0
+module: ESP-01S-Relay-v5.0
+image: /assets/device_images/ESP-01S-Relay-v5.webp
+template9: '{"NAME":"ESP01v5","GPIO":[256,320,0,32,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/33003960840.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---

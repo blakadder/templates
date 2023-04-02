@@ -1,0 +1,28 @@
+---
+date_added: 2023-03-28
+title: Tuya S08 
+model: S08
+image: /assets/device_images/S08.webp
+templatec3: '{"NAME":"Tuya Remote","GPIO":[1,1,1,1088,1056,1,32,544,1,1,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005004280449369.html
+link2: 
+mlink: https://expo.tuya.com/product/393910
+flash: replace
+category: misc
+type: IR Remote
+standard: global
+---
+Hardware:
+
+Tuya Remote Control S08 contains Beken chip (CBU), this needs to be desoldered and replaced preferably with [ESP32-C3-05](DT-ESP-C05).
+CBU pinout is almost similar to ESP32-C3-05, and since only the bottom CBU pins are required. You wouldn't need to solder the pins on the left & right side.
+
+![](https://iili.io/HNruJ7s.md.png)
+
+Firmware:
+
+For extended irhvac support,  compile tasmota firmware for esp32-c3, add below:
+
+`#define USE_IR_REMOTE_FULL`
+
+in the user_config_override.h
