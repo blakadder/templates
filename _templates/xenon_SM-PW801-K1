@@ -1,6 +1,6 @@
 ---
 date_added: 2023-03-28
-title: Xenon Wifi Smart Wall Outlet
+title: Xenon
 model: SM-PW801-K1
 image: /assets/device_images/xenon_SM-PW801-K1.webp
 template9: '{"NAME":"Xenon SM-PM801-K1","GPIO":[0,320,0,32,2720,2656,0,0,2624,288,224,0,0,0],"FLAG":0,"BASE":18}' 
