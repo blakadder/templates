@@ -4,8 +4,8 @@ title: Dingtian Ethernet
 model: 
 image: /assets/device_images/dingtian_relay_board.webp
 template32: '{"NAME":"Dingtian Relay Board","GPIO":[1,9408,1,9440,1,1,1,1,1,9760,9728,9856,9792,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,9824,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
-link: https://aliexpress.com/item/4001232791244.html
-link2: 
+link: https://www.aliexpress.com/item/1005004281943758.html
+link2: https://aliexpress.com/item/4001232791244.html
 mlink: https://www.dingtian-tech.com/en_us/index.html
 flash: serial
 category: relay
@@ -16,10 +16,11 @@ standard: global
 
 When ordering this board ask for relay board with test firmware, otherwise the ESP32 will be locked.
 
-CLK index in template specifies the number of I/O's.
+The CLK GPIO supports index 1 to 4 to specify the number of shift registers:
 
-1 = 8
-2 = 16
-4 = 32
+* `1` : 8 relays/inputs boards
+* `2` : 16 relays/inputs boards
+* `3` : 24 relays/inputs boards (not really existing)
+* `4` : 32 relays/inputs boards
 
 See <https://github.com/arendst/Tasmota/pull/17032> for more info.

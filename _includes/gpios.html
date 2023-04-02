@@ -1253,12 +1253,32 @@
             Relay_bi 7
             {% when "9351" %}
             Relay_bi 8
+            {% when "9408" %}
+            ModBr Tx
+            {% when "9440" %}
+            ModBr Rx
             {% when "9472" %}
             ADE7953 RST
             {% when "9568" %}
             ADE7953 CS1
             {% when "9569" %}
             ADE7953 CS2
+            {% when "9728" %}
+            Dingtian CLK 1
+            {% when "9729" %}
+            Dingtian CLK 2
+            {% when "9730" %}
+            Dingtian CLK 3
+            {% when "9731" %}
+            Dingtian CLK 4
+            {% when "9760" %}
+            Dingtian SDI
+            {% when "9792" %}
+            Dingtian Q7
+            {% when "9824" %}
+            Dingtian PL
+            {% when "9856" %}
+            Dingtian RCK
             {% else %}
             ???
             {% endcase %}
