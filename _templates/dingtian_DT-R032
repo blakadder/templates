@@ -1,12 +1,12 @@
 ---
 date_added: 2023-03-28
-title: Dingtian Ethernet 
-model: 
-image: /assets/device_images/dingtian_relay_board.webp
-template32: '{"NAME":"Dingtian Relay Board","GPIO":[1,9408,1,9440,1,1,1,1,1,9760,9728,9856,9792,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,9824,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+title: Dingtian Ethernet 32 Channel
+model: DT-R032
+image: /assets/device_images/dingtian_DT-R032.webp
+template32: '{"NAME":"Dingtian DT-R008","GPIO":[1,9408,1,9440,1,1,1,1,1,9760,9731,9856,9792,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,9824,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005004281943758.html
-link2: https://aliexpress.com/item/4001232791244.html
-mlink: https://www.dingtian-tech.com/en_us/index.html
+link2: 
+mlink: https://www.dingtian-tech.com/en_us/relay32.html
 flash: serial
 category: relay
 type: Relay Board
