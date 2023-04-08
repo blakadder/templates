@@ -1,0 +1,36 @@
+---
+date_added: 2023-03-25
+title: TubesZB CC2652P2 Zigbee to PoE Coordinator 2022
+model: tubeszb-cc2652-poe-2022
+image: /assets/device_images/tubeszb-cc2652-poe-2022.webp
+template32: '{"NAME":"TubesZB CC2652 PoE Coordinator 2022","GPIO":[1,1,8864,1,5793,3584,0,0,5536,5792,8832,8800,3552,0,5600,1,1,1,1,5568,1,1,1,1,0,0,0,0,1,1,32,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://tubeszb.com/product/cc2652p2-based-zigbee-to-poe-coordinator-2022
+link2: 
+mlink: https://github.com/tube0013/tube_gateways/tree/main/models/current/tubeszb-cc2652-poe-2022
+flash: ota
+category: misc
+type: Zigbee Gateway
+standard: global
+---
+## Flashing
+
+1. Build your own Tasmota 32:
+
+```arduino    
+    /* ESP32 + ZigBee */
+    #define USE_ZIGBEE      // Enable serial communication with Zigbee CC2530 flashed with ZNP
+    #undef USE_ZIGBEE_EZSP  // Ensure ZNP support and not EZSP
+    #define USE_UFILESYS    // use file system
+    // WT32-ETH01
+    #define USE_ETHERNET
+    #undef  ETH_TYPE
+    #define ETH_TYPE        0   // ETH_PHY_LAN8720
+    #undef  ETH_CLKMODE
+    #define ETH_CLKMODE     0   // ETH_CLOCK_GPIO0_IN
+    #undef  ETH_ADDRESS
+    #define ETH_ADDRESS     1
+```
+2. Connect the device to a POE-Switch and determine the provided IP address from the DHCP server
+2. Open the preinstalled ESPHome on http://ipaddress-of-your-device
+3. Go to OTA Update > Choose File > select the fresh image ```tasmota32.bin``` > click Update
+4. Open the fresh installed Tasmota and go to Configuration > Configure Other > copy the Template into the Template field > click Save"

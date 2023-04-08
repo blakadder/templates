@@ -1,0 +1,21 @@
+---
+date_added: 2023-03-29
+title: Aubess Universal
+model: ZN371630
+image: /assets/device_images/aubess_ZN371630.webp
+templatec3: '{"NAME":"Aubess IR Remote","GPIO":[1,1,1,1088,1056,1,32,576,1,1,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005004720545947.html
+link2: https://www.lazada.com.my/products/i3198261457-s16225425109.html
+mlink: https://expo.tuya.com/product/1058049
+flash: replace
+category: misc
+type: IR Remote
+standard: global
+---
+This device contains Tuya CBU module with a Beken chip. This chip pinout matches with [ESP32-C3-05](DT-ESP-C05) and needs to be desoldered and replaced.
+
+Since only the bottoms pins are required, pins on the left & right side don't need to be soldered.
+
+Enable extended irhvac support by adding this line in user_config_override when compiling
+
+`#define USE_IR_REMOTE_FULL`

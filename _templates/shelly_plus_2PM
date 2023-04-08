@@ -8,7 +8,7 @@ template32_alt: '{"NAME":"Shelly Plus 2PM PCB v0.1.5","GPIO":[320,0,192,0,0,0,1,
 link: https://www.domadoo.fr/en/objets-communicants/6164-shelly-dual-wi-fi-smart-relay-switch-with-energy-monitoring-shelly-plus-2pm-3800235265031.html
 link2: https://mediarath.de/products/shelly-plus-2pm-16a-dc-ac-schalter-wifi-power-metring-pro-kanal-tasmota?_pos=3&_sid=85b32b5db&_ss=r&variant=43032552046805
 mlink: https://www.shelly.cloud/en/products/shop/shelly-plus-2-pm
-flash: serial
+flash: mgos32
 category: relay
 type: Switch Module
 standard: global

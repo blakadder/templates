@@ -1,0 +1,15 @@
+---
+date_added: 2023-03-04
+title: XtendLan IP66 Double
+model: ZAS04
+image: /assets/device_images/xtendlan_ZAS04.webp
+template9: '{"NAME":"XtendLan_ZAS4","GPIO":[32,0,0,0,0,225,33,0,224,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.alza.cz/EN/xtendlan-chytra-venkovni-zasuvka-ip66-dvojita-wi-fi-tuya-d7399045.htm?o=7
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Outdoor Plug
+standard: fr
+---
+Double IP66 wall socket 

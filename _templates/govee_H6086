@@ -1,0 +1,18 @@
+---
+date_added: 2023-02-20
+title: Govee E27 5W 500lm
+model: 2AQA6-H6086
+image: /assets/device_images/govee_H6086.webp
+templatec3: '{"NAME":"Govee E27","GPIO":[1,1,1,418,417,420,1,1,0,1,0,0,0,0,0,0,0,0,416,419,1,1],"FLAG":0,"BASE":1}' 
+link: https://shopee.tw/2%E4%BB%B6%E8%A3%9D-Govee-%E6%99%BA%E8%83%BD-WiFi-LED-%E7%87%88%E6%B3%A1-H6086-%E5%8F%AF%E8%AA%BF%E5%85%89%EF%BC%8C-RGB-%E8%AE%8A%E8%89%B2%E7%87%88%E6%B3%A1-5W-500LM-LED-%E7%87%88-i.356380.15113598232
+link2: 
+mlink: 
+flash: replace
+category: bulb
+type: RGBCCT
+standard: e27
+chip: T103
+---
+
+The device has realtek RTL8710BX chip, this requires a chip swap and the pinout matches ESP-12.
+Remove the E27 base using pliers, then push the bottom screw with a thin screwdriver before pulling the pcb out.

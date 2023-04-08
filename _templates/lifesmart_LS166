@@ -21,14 +21,14 @@ Microphone is mapped to Analog input but there is no support for sound reactive 
 
 ## Flashing
 
-Use a flat screwdriver to separate the controller shell at the cable entry point. You will need to use force. After that separate the halves with a spudger or something similar that will not damage the plastic.
+Use a prying tool or a spudger to separate back plate from the shell. 
 
 ![Entry point](/assets/device_images/lifesmart_LS166_open.webp)![Use spudger to separate](/assets/device_images/lifesmart_LS166_open2.webp)
 
-Take out the PCB, the flashing pads are located on the back side.
+Take out the PCB, the flashing pads are located left of the ESP32 module.
 
 ![Pinout](/assets/device_images/lifesmart_LS166_pinout.webp)
 
-Connect your serial to USB adapter only to TX, RX and GND. Power the controller using its built in cable.
+Connect your serial to USB adapter only to TX, RX and GND. Power the controller using its USB-C port.
 
 ![Wiring](/assets/device_images/lifesmart_LS166_wiring.webp)

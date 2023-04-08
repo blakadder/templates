@@ -3,7 +3,7 @@ date_added: 2023-02-03
 title: Sansui Rewireable
 model: YSP-2
 image: /assets/device_images/sansui_YSP-2.webp
-template9: '{"NAME":"YSP-2","GPIO":[52,0,53,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"YSP-2","GPIO":[52,0,53,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://snatcher.co.za/smart-re-wireable-plug-ysp-2-smart-wi-fi-rewireable-plug/
 link2: 
 mlink: 

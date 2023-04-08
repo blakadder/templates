@@ -1,0 +1,18 @@
+---
+date_added: 2023-03-10
+title: Dasduino CONNECTPLUS
+model: 333033
+image: /assets/device_images/dasduino_connect.webp
+template9: '{"NAME":"Dasduino CONNECT","GPIO":[1,1,1376,1,640,608,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://soldered.com/product/dasduino-connect-with-female-headers/
+link2: https://soldered.com/product/dasduino-connect-with-male-headers/
+mlink: https://soldered.com/product/dasduino-connect/
+flash: serial
+category: diy
+type: Development Board
+standard: global
+---
+
+ESP8266 with USB-C, easyC connector (Qwiic compatible), JST battery connector, 500mA voltage regulator and multiple 3v3 pins. easyC connector is mapped to I2C.
+
+![Pinout](https://soldered.com/productdata/2022/06/Dasduino-CONNECTPLUS.png)

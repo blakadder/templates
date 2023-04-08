@@ -9,7 +9,7 @@ link2: https://www.amazon.de/dp/B09K3XGC14/
 link3: https://www.idealo.de/preisvergleich/OffersOfProduct/201633730_-plus-1-shelly.html
 link4: https://www.aliexpress.com/item/1005003462342443.html
 mlink: https://www.shelly.cloud/en/products/shop/shelly-plus-1/
-flash: serial
+flash: mgos32
 chip: solo1
 category: relay
 type: Switch Module

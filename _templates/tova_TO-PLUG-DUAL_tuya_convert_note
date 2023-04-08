@@ -13,3 +13,5 @@ type: Plug
 standard: us
 ---
 Similar to XS-A23, but buttons/relayed reversed
+
+Note: Tuya convert still worked as of 2023-03-09

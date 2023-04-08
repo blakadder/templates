@@ -9,7 +9,7 @@ link2: https://www.amazon.de/dp/B0B4HHMP6B/
 link3: https://www.manomano.de/catalogue/p/home-shelly-relay-pro-14-uhr-wlan-lan-schaltaktor-max-25a-bt-messfunktion-shelly-pro2pm-57726265
 link4: https://www.idealo.de/preisvergleich/OffersOfProduct/201954060_-pro-line-2pm-shelly.html
 mlink: https://www.shelly.cloud/en/products/shop/shelly-pro-2pm
-flash: serial
+flash: mgos32
 category: relay
 type: DIN Relay
 standard: global

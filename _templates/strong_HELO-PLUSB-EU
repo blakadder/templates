@@ -1,0 +1,25 @@
+---
+date_added: 2023-02-23
+title: Strong Helo PLUSB 2x USB
+model: HELO-PLUSB-EU
+image: /assets/device_images/strong_HELO-PLUSB-EU.webp
+template9: '{"NAME":"Helo-PLUSB-EU","GPIO":[32,0,0,0,2720,2656,0,0,2624,320,224,225,8096,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B09JSQGP3M
+link2: https://www.alza.cz/EN/strong-helo-plusb-eu-3ks-d7645814.htm
+link3: https://www.idealo.de/preisvergleich/OffersOfProduct/202146650_-helo-plusb-eu-strong.html
+mlink: https://www.strong.tv/de/products/plugs-de/helo-plusb-eu/
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+- requires triangular bit to unscrew case, Torx 7 works also
+- be careful when unscrewing daughter-board, wires are short
+- power monitoring chip is BL0937
+- to get AC-PCB out of the housing L, N an PE have to be unsoldered
+- Since the power button (which is "Button 1") is connected to GPIO0, you may get the device to programming mode by keeping the button pressed during power on. When only the red led on the back of the pcb is on, you've done it right, if also the blue led is on - retry ;-).
+
+![https://ibb.co/4MBk8pq](https://i.ibb.co/1KHcrTg/IMG-20230220-170314.jpg)
+![https://ibb.co/pXtLWBr](https://i.ibb.co/3hDCf9Y/MVIMG-20230216-214231.jpg)
+![https://ibb.co/VVYVynZ](https://i.ibb.co/JnjnL64/MVIMG-20230221-230605.jpg)
+![https://ibb.co/3hrf8hw](https://i.ibb.co/0JDBWJk/MVIMG-20230225-154616.jpg)

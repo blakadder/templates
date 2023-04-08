@@ -1,0 +1,17 @@
+---
+date_added: 2023-03-21
+title: Oneplug
+model: UP111
+image: /assets/device_images/oneplug_UP111.webp
+template9: '{"NAME":"ONEPLUG UP111","GPIO":[321,0,0,0,2656,2720,0,0,2624,0,224,0,32,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B0983HNB7M
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: uk
+---
+This looks like the "Gosund 13A Power Monitoring Plug (UP111)" but the template for that did not work and it would not Tuya-Convert.  Had to use serial method.  
+
+Uses [CUCO-Z0-V1.1](https://tasmota.github.io/docs/Pinouts/#cuco-z0-v11-used-by-gosund) module

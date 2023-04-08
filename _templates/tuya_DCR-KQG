@@ -1,0 +1,15 @@
+---
+date_added: 2023-03-04
+title: Tuya Air Detector 6 in 1 
+model: DCR-KQG
+image: /assets/device_images/tuya_DCR-KQG.webp
+template9: '{"NAME":"DCR-KQG","GPIO":[1,2272,544,2304,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 80,2 | TuyaMCU 71,18 | TuyaMCU 73,19 | TuyaMCU 99,20 | TuyaMCU 76,21 | TuyaMCU 77,22 | HumRes 1 | TempRes 1 "}' 
+link: https://www.aliexpress.com/item/1005003813350287.html
+link2: 
+mlink: https://expo.tuya.com/product/943029
+flash: replace
+category: sensor
+type: Sensor
+standard: global
+---
+There is also a formaldehyde value on dpId 20, but there is no fnId for that type of sensor

@@ -11,4 +11,5 @@ flash: replace
 category: relay
 type: Switch Module
 standard: global
+chip: CBU
 ---

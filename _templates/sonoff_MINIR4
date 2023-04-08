@@ -1,5 +1,5 @@
 ---
-date_added: 2022-12-20
+date_added: 2023-03-16
 title: Sonoff Mini Extreme
 model: MINIR4
 category: relay
@@ -8,7 +8,7 @@ standard: global
 image: /assets/device_images/sonoff_MINIR4.webp
 template32: '{"NAME":"Sonoff MINIR4","GPIO":[32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,576,0,0,0,0,0,0,224,160,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 flash: serial
-link: 
-mlink: https://itead.cc/
+link: https://www.domadoo.fr/en/peripheriques/6600-sonoff-wifi-connected-switch-module-minir4-10a.html
+mlink: https://itead.cc/product/sonoff-minir4/
 ---
 

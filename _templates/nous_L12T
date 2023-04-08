@@ -1,0 +1,15 @@
+---
+date_added: 2023-03-16
+title: Nous 
+model: L12T
+image: /assets/device_images/nous_L12T.webp
+template9: '{"NAME":" Smart WiFi Curtain Module L12T","GPIO":[1,160,1,161,225,224,1,1,544,1,32,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B0BWB8WKQM
+link2: https://www.amazon.com.be/dp/B0BWB8WKQM
+mlink: https://nous.technology/product/l12t.html
+flash: preflashed
+category: switch
+type: Curtain Module
+standard: global
+---
+`Smart WiFi Tasmota Curtain Module L12T` comes preflashed with Tasmota 12.2.0.4 and is configured ready-to-use.
