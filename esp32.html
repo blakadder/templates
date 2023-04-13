@@ -8,7 +8,7 @@ title: ESP32 Based Devices
 <table width="80%">
     <tbody>
     {% assign devices = site.templates | where_exp: "devices", "devices.template32 != nil" | sort_natural: 'title' %}     
-    {% for template in devices limit: 100 %}
+    {% for template in devices %}
     {% include tablerow_standard.html %}
     {% endfor %}
 </tbody>
@@ -20,7 +20,7 @@ title: ESP32 Based Devices
 <table width="80%">
     <tbody>
     {% assign devices = site.templates | where_exp: "devices", "devices.templatec3 != nil" | sort_natural: 'title' %}     
-    {% for template in devices limit: 100 %}
+    {% for template in devices %}
     {% include tablerow_standard.html %}
     {% endfor %}
 </tbody>
@@ -32,7 +32,7 @@ title: ESP32 Based Devices
 <table width="80%">
     <tbody>
     {% assign devices = site.templates | where_exp: "devices", "devices.templates2 != nil" | sort_natural: 'title' %}     
-    {% for template in devices limit: 100 %}
+    {% for template in devices %}
     {% include tablerow_standard.html %}
     {% endfor %}
 </tbody>
@@ -44,7 +44,7 @@ title: ESP32 Based Devices
 <table width="80%">
     <tbody>
     {% assign devices = site.templates | where_exp: "devices", "devices.templates3 != nil" | sort_natural: 'title' %}     
-    {% for template in devices limit: 100 %}
+    {% for template in devices %}
     {% include tablerow_standard.html %}
     {% endfor %}
 </tbody>
