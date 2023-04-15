@@ -1,0 +1,20 @@
+---
+date_added: 2023-04-13
+title: Deta Single Gang Touch Dimmer 
+model: 6910HA
+image: /assets/device_images/deta_6910HA.webp
+template9: '{"NAME":"Deta 6910HA","GPIO":[0,3200,1,3232,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.bunnings.com.au/deta-white-grid-connect-smart-touch-single-dimmer_p0237206
+link2: 
+mlink: https://detaelectrical.com.au/product/deta-grid-connect-smart-led-single-gang-touch-dimmer-switch/
+flash: replace
+category: switch
+type: Dimmer
+standard: au
+chip: WR3
+---
+Requires replacement of module which is a ""WR3"" Realtek unit with an ESP8266/ESP12S.  As the unit is controlled by an MCU, it needs Tasmota console commands for it to work.  These commands are:
+
+`Backlog TuyaMCU 11,1;TuyaMCU 21,2, DimmerRange 280-1000`
+
+Note that the dimmer minimum value by default is 280.  This can be increased by use of a potentiometer under the front cover of the unit, but doing so would cause some confusion as to why Tasmota or Home Assistant can set values as low as 280 but the button on the front of the unit is limited to the values dictated by the potentiometer.

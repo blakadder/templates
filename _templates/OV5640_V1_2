@@ -1,0 +1,19 @@
+---
+date_added: 2023-04-08
+title: OV5640 ESP32
+model: OV5640 V1_2
+image: /assets/device_images/OV5640_V1_2.webp
+template9: '{"NAME":"ESP32-OV5640-Cam","GPIO":[32,1,5088,1,8832,4960,1,1,5091,8864,5089,4992,1,1,5120,8800,0,8960,5024,5056,0,288,5184,5092,0,0,0,0,1,5093,5094,5090,5152,0,0,5095],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005004521039608.html
+link2: 
+mlink: 
+flash: serial
+category: diy
+type: Camera
+standard: global
+---
+Has onboard CH340
+
+![Source for template](https://ae01.alicdn.com/kf/Sd6d655af42b24f9aa64bbe5e3951c9bbW.jpg ""Source for template"")
+
+![Pinout](https://ae01.alicdn.com/kf/S01c9db804c0647bc98d1d6de818164226.jpg ""Pinout"")

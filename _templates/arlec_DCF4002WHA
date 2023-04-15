@@ -1,0 +1,28 @@
+---
+date_added: 2023-04-04
+title: Arlec 130cm White 4 Blade DC Ceiling Light and
+model: DCF4002WHA
+image: /assets/device_images/arlec_DCF4002WHA.webp
+template9: '{"NAME":"Arlec DCF4002WHA","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+link: https://www.bunnings.com.au/arlec-130cm-white-4-blade-grid-connect-smart-dc-ceiling-fan-with-remote_p0104210
+link2: 
+mlink: 
+flash: replace
+category: misc
+type: Fan
+standard: au
+chip: WR4
+---
+Requires removal of the Tuya WR4 (Realtek) module and installation of an ESP controller (e.g. ESP12/ESP8266).  As this is an MCU-controlled device it only requires use of VCC, GND, TXD, RXD and EN pins on the ESP, soldered to the locations showing the image.
+https://imgur.com/a/TtjWidJ
+
+Note that the image refers to pin IDs for the WR4 module such as ""A18"".  You can ignore this and just focus on the ""TXD"" and ""RXD"" as referring to TX/RX respectively.
+
+Use the following console commands to map to the correct Tasmota Function IDs:
+```Backlog TuyaMCU 11,1; TuyaMCU 64,3; TuyaEnumlist 4,5; TuyaMCU 97,4 TuyaMCU 12,9; TuyaMCU 22,10```
+
+If your Backlog command does not execute as expected, enter each command separately, allowing time for Tasomota to reboot after each command execution.
+
+WARNING:  Do not use the command ```TuyaMCU 21,10``` as this crashes the MCU on the main controller board and the light/fan will cease to function completely.  The command ```TuyaMCU 21,0``` will remove the issue.   Use of the command ```TuyaMCU 22,10``` allows the dimmer to work but you will be unable to set the Dimmer Range which is 2-100, however the default Tasmota values of 10-100 are fine.   The Dimmer is increased in steps of 2 (e,g: 2,4,6,8,10,12,etc) for a total of 49 possible dimmer values.
+
+The LED Colour Temperature (CCT) values for the three colour temperatures are 0, 50, and 100. 
