@@ -12,5 +12,7 @@ link2:
 
 Template copied from Nanxin NX-SM200
 
+NOTE: There are NX-SM100 from other brands that need this template (GARZA for example): `{"NAME":"GARZA NX-SM100","GPIO":[320,0,0,2624,0,2720,0,0,224,32,2656,321,0,0],"FLAG":0,"BASE":18}`
+
 
 
