@@ -3,7 +3,8 @@ date_added: 2021-08-02
 title: MTools 16 Channel ESP32 Relay Driver 5V DC
 model: 
 image: /assets/device_images/mtools_429681A-Y100-201201.webp
-template32: '{"NAME":"16ch Board","GPIO":[1,1,237,1,232,1,1,1,228,231,1,1,233,230,234,235,0,238,239,236,0,224,227,226,0,0,0,0,229,225,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"16ch Board","GPIO":[1,1,237,1,232,1,1,1,228,231,1,1,233,230,234,235,0,238,239,236,0,224,227,226,0,0,0,0,229,225,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
+template32_alt: '{"NAME":"16ch Board","GPIO":[1,11,1,1,232,237,1,1,228,231,229,1,233,230,234,235,0,238,239,236,0,224,227,226,0,0,0,0,1,225,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
 link: https://www.aliexpress.com/item/4001031379060.html
 link2: https://www.ebay.com/itm/254797305906
 link3: https://mediarath.de/products/16-kanal-relais-wifi-esp32-dc-5v-12v-24v-interface-lm2576-diy-tasmota?_pos=2&_sid=549e75af0&_ss=r
