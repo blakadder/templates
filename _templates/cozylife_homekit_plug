@@ -11,6 +11,9 @@ flash: serial
 category: plug
 type: Plug
 standard: eu
-chip: solo1
+unsupported: true
 ---
+
+As of 2023-04-20 comes with an ESPC2-02 (ESP8684) which isn't supported by Tasmota.
+
 How to [open the plug](https://blakadder.com/disassembling-CN39/)
