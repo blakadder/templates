@@ -1,0 +1,23 @@
+---
+date_added: 2023-04-04
+title: MHCOZY DC 7-32V
+model: 
+image: /assets/device_images/mhcozy_dc_7-32v.webp
+template9: '{"NAME":"MHCOZY RF 1CH","GPIO":[32,0,0,0,0,0,0,0,224,320,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B07QZQFZWN
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+chip: PSF-B
+---
+
+Power by 5V USB mini, or 7-32V AC/DC (tested with USB, and 24VAC [27VAC actual] 40VA doorbell transformer).  WiFi module is PSF-B01 itead ESP8285.  Board does not have pin headers, etc., so must be flashed by either directly soldering to the PSF module, or using a jig such as:
+
+<https://www.thingiverse.com/thing:4841261>
+or
+<https://www.thingiverse.com/thing:4772985>
+
+On board button connects GPIO0 to Ground, and can be used to enter flashing mode.  Plastic case does not contain screws, but does have two clips per long side.  Gentle use of a prying tool or small flat head screw driver is recommended for disassembly.

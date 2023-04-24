@@ -1,0 +1,16 @@
+---
+date_added: 2023-03-31
+title: Shelly Plus Plug S
+model: PlusPlugS
+category: plug
+type: Plug
+standard: eu
+flash: mgos32
+mlink: https://www.shelly.cloud/en/products/shop/shelly-plus-plug-s/
+image: /assets/device_images/shelly_plus_plug_S.webp
+template32: '{"NAME":"Shelly Plus Plug S","GPIO":[0,0,0,0,224,0,32,2720,0,0,0,0,0,0,0,2624,0,0,2656,0,0,288,289,0,0,0,0,0,0,4736,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.domadoo.fr/fr/objets-communicants/6523-shelly-mini-prise-intelligente-wi-fi-shelly-plus-plug-s-3800235265567.html
+link2: https://www.amazon.de/dp/B0BTJ1DTBX/
+link3: https://www.conrad.com/p/shelly-plus-plug-s-socket-wi-fi-bluetooth-2757312
+link4: https://www.idealo.de/preisvergleich/OffersOfProduct/202375445_-plus-plug-5-shelly.html
+---

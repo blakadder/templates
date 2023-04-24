@@ -1,0 +1,15 @@
+---
+date_added: 2023-03-28
+title: Xenon
+model: SM-PW801-K1
+image: /assets/device_images/xenon_SM-PW801-K1.webp
+template9: '{"NAME":"Xenon SM-PM801-K1","GPIO":[0,320,0,32,2720,2656,0,0,2624,288,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B09B3R6J69/
+link2: https://www.amazon.co.uk/dp/B09JWPL42Y/
+mlink: 
+flash: replace
+category: plug
+type: Wall Outlet
+standard: uk
+chip: WB2S
+---

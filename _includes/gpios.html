@@ -1032,9 +1032,9 @@
             {% when "4704" %}
             ADC Input
             {% when "4736" %}
-            ADC Temperature
+            ADC Temp
             {% when "4768" %}
-            ADC Illuminance
+            ADC Light
             {% when "4800" %}
             ADC Button
             {% when "4832" %}
@@ -1209,6 +1209,22 @@
             BL0939 Rx
             {% when "8448" %}
             Option E1
+            {% when "8672" %}
+            Relay_b 1
+            {% when "8673" %}
+            Relay_b 2
+            {% when "8674" %}
+            Relay_b 3
+            {% when "8675" %}
+            Relay_b 4
+            {% when "8676" %}
+            Relay_b 5
+            {% when "8677" %}
+            Relay_b 6
+            {% when "8678" %}
+            Relay_b 7
+            {% when "8679" %}
+            Relay_b 8
             {% when "9088" %}
             SM2335 Clk
             {% when "9128" %}
@@ -1253,12 +1269,32 @@
             Relay_bi 7
             {% when "9351" %}
             Relay_bi 8
+            {% when "9408" %}
+            ModBr Tx
+            {% when "9440" %}
+            ModBr Rx
             {% when "9472" %}
             ADE7953 RST
             {% when "9568" %}
             ADE7953 CS1
             {% when "9569" %}
             ADE7953 CS2
+            {% when "9728" %}
+            Dingtian CLK 1
+            {% when "9729" %}
+            Dingtian CLK 2
+            {% when "9730" %}
+            Dingtian CLK 3
+            {% when "9731" %}
+            Dingtian CLK 4
+            {% when "9760" %}
+            Dingtian SDI
+            {% when "9792" %}
+            Dingtian Q7
+            {% when "9824" %}
+            Dingtian PL
+            {% when "9856" %}
+            Dingtian RCK
             {% else %}
             ???
             {% endcase %}

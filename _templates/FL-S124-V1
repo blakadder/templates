@@ -1,0 +1,15 @@
+---
+date_added: 2023-03-28
+title: Smart Switch
+model: FL-S124-V1.0
+image: /assets/device_images/FL-S124-V1.webp
+template9: '{"NAME":"FL-S124-V1.0","GPIO":[1,1,1,1,32,224,1,1,1,320,1,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004650496700.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch Module
+standard: global
+---
+All pins except reset should be accessible via the solder header for the ESP8266 daughter board. <https://imgur.com/a/aS6NBmc>

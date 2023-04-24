@@ -1,0 +1,16 @@
+---
+date_added: 2023-04-01
+title: LSC Dual Socket
+model: 3004200
+image: /assets/device_images/lsc_smart_connect_3004200.webp
+template9: '{"NAME":"LSC Outdoor Dual Socket","GPIO":[320,0,0,32,8673,8672,0,0,0,0,8674,0,8675,0],"FLAG":0,"BASE":18}' 
+link: https://www.action.com/de-at/p/lsc-smart-connect-wlan-duo-stecker/
+link2: 
+mlink: 
+flash: replace
+category: plug
+type: Outdoor Plug
+standard: eu
+---
+
+The Button is connected to GPIO15 so you have to cut this line and route it to the GPIO3(RX) Pin. In my case I use the ESP12F we also need GPIO15 grounded and a bridge from VCC to EN.

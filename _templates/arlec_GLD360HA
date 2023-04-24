@@ -3,7 +3,7 @@ date_added: 2023-01-18
 title: Arlec 5.5W 470lm
 model: GLD360HA
 image: /assets/device_images/arlec_GLD360HA.webp
-template9: '{"NAME":"Arlec GLD360HA","GPIO":[0,0,0,0,0,0,0,0,4067,0,4032,0,0],"FLAG":0,"BASE":18,"CMND":"SO37 24"}' 
+template9: '{"NAME":"Arlec GLD360HA","GPIO":[0,0,0,0,0,0,0,0,4067,0,4032,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO37 24"}' 
 link: https://www.bunnings.com.au/arlec-5-5w-470lm-grid-connect-smart-candle-cct-led-e14-globe_p0329558
 link2: 
 mlink: 

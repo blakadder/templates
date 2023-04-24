@@ -6,7 +6,9 @@
         {% if template.category contains 'bulb'%}
         Bulb
         {% endif %}
-        {{ template.model }}
+        {% if template.model %}
+        ({{ template.model }})
+        {% endif %}
         {% if template.flash == "preflashed" %}
         - Tasmota pre-installed
         {% endif %}

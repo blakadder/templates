@@ -1,0 +1,14 @@
+---
+date_added: 2023-03-29
+title: GHome USB Charger
+model: WO2-1
+image: /assets/device_images/ghome_WO2-1.webp
+template9: '{"NAME":"GHome Smart WO2-1","GPIO":[320,0,0,0,0,257,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B09JZBJPS4/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Wall Outlet
+standard: us
+---
