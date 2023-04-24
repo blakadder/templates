@@ -1,0 +1,16 @@
+---
+date_added: 2023-04-24
+title: V-Tac A60 10W 806lm
+model: VT-5116
+image: /assets/device_images/v-tac_VT-5116.webp
+template9: '{"NAME":"V-Tac A60","GPIO":[0,0,0,0,416,417,0,0,418,419,420,0,0,0],"FLAG":0,"BASE":18, "CMND":"SetOption37 13"}' 
+link: https://www.ebay.com.au/itm/334543656660?var=543613011000
+link2: 
+mlink: 
+flash: serial
+category: bulb
+type: RGBCCT
+standard: b22
+---
+
+Can pry off the power connectors on bottom to release internal module. Requires careful cutting to open. Can be reassembled without too much difficulty and a bit of CA glue.

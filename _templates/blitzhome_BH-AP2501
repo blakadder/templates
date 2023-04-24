@@ -1,0 +1,40 @@
+---
+date_added: 2023-04-24
+title: BlitzHome AP2501
+model: BH-AP2501
+image: /assets/device_images/blitzhome_BH-AP2501.webp
+template9: '{"NAME":"BH-AP2501","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+mlink: https://www.blitzwolf.com/
+link: https://usa.banggood.com/BlitzHome-BH-AP2501-Air-Purifier-Smart-WiFi-and-PM2_5-Monitor-H13-True-HEPA-Filter-Filtration-System-Cleaner-Odor-Eliminators-Ozone-Free-Remove-99_97-pencent-Pet-Allergies-Smoke-Dust-Auto-Mode-Alexa-and-Google-Home-Control-p-1964173.html
+link2: https://www.aliexpress.com/item/1005004925053234.html
+flash: replace
+category: misc
+type: Air Purifier
+standard: eu
+chip: WBR3
+---
+
+## Functions
+
+| dpID | Function        | Datatype | Additional Comments |
+| ---- |-------------    | -------  | ---------- |
+| 1    | Power on/off    | Boolean  | Main power
+| 2    | PM 2.5 sensor   | Integer  | Reporting in µg/m³, 499 being max value. Tasmota v12.0.2.4+ is needed to support fnId 80
+| 3    | Working Mode    | Enum     | `0` = Sleep , `1` = Auto, `2` = Manual
+| 4    | Fan Speed       | Enum     | `0` = Speed 1, `1` = Speed 2
+| 5    | Filter life     | Integer  | Reports in percentage remaining
+| 6    | Ionizer         | Boolean  | Ionizer control
+| 9    | UV Sterilization| Boolean  | UV Sterilization control
+| 11   | Reset Filter    | Boolean  | Not reported with `TuyaSend0`
+| 19   | Preset Timer    | Enum     | `0` = off, `1` = 1h, `2` = 2h, `3` = 4h, `4` = 8h
+| 21   | Air Quality     | Enum     | `0` = excellent, `1` = good, `2` = poor
+
+## Configuration
+
+Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
+
+A basic configuration option:
+
+For PM 2.5 sensor using fnId 80 you need Tasmota v12.0.2.4+
+
+Based on [esphome configuration](https://github.com/wildekek/BlitzHome-BH-AP2501)

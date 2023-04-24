@@ -1,0 +1,16 @@
+---
+date_added: 2023-04-24
+title: Heltec WiFi LoRa 32 (V3)
+model: HTIT-WB32LA_V3
+image: /assets/device_images/heltec_HTIT-WB32LA_V3.webp
+templates3: '{"NAME":"WiFi Kit 32","GPIO":[32,3200,1,3232,640,1,1,1,1,1,1,608,3840,1,1,1,0,1,1,1,0,288,1,1,0,0,0,0,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/32886711232.html
+link2: https://www.amazon.com/HiLetgo-Display-Development-Bluetooth-Unsoldered/dp/B07WHRS2XG
+link3: https://www.alibaba.com/product-detail/Heltec-WiFi-LoRa-32-V3-0_62360259165.html
+mlink: https://heltec.org/project/wifi-lora-32-v3/
+flash: serial
+category: diy
+type: Development Board
+standard: global
+---
+<https://resource.heltec.cn/download/WiFi_LoRa32_V3/HTIT-WB32LA(F)_V3_Schematic_Diagram.pdf>
