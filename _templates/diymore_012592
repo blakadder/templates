@@ -13,6 +13,6 @@ category: sensor
 type: Soil Sensor
 standard: global
 ---
-Plug the device to your computer using a microUSB cable while holding the BOOT button. you can release the BOOT button once the device is powered. Then you can run the following command: 
+Plug the device to your computer using a microUSB cable while holding the BOOT button. you can release the BOOT button once the device is powered. Then you can install Tasmota. 
 
 Note that the Soil humidity and battery level value are the raw value between 0 and 100% as tasmota does not support the capacitive soil sensor yet.
