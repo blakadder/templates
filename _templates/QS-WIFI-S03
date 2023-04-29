@@ -9,6 +9,7 @@ link: https://www.aliexpress.com/item/33012114855.html?spm=a2g0s.9042311.0.0.274
 image: /assets/device_images/QS-WIFI-S03.webp
 template: '{"NAME":"QS-WIFI-S03","GPIO":[17,255,255,255,255,0,0,0,82,21,0,0,0],"FLAG":0,"BASE":1}' 
 link2: https://www.manomano.de/catalogue/p/wifi-intelligentes-schaltermodul-intelligenter-lichtschalter-diy-breaker-modul-app-fernbedienungen-sprachsteuerung-kompatibel-mit-alexa-google-homewei-36138221
+Alternative template: '{"NAME":"Unbranded","GPIO":[1,1,1,1,1,1,1,1,224,32,1,1,1,1],"FLAG":0,"BASE":18}
 ---
 
 
