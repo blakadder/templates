@@ -9,17 +9,16 @@ flash: serial
 image: /assets/device_images/m5stack_m5stamp_S3.webp
 templatec3: '{"NAME":"M5Stamp S3","GPIO":[32,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1376,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
 mlink: https://shop.m5stack.com/products/m5stamp-esp32s3-module
-link: https://docs.m5stack.com/en/core/StampS3
+link: https://www.aliexpress.com/item/1005005199957262.html
 chip: s3
 build: tasmota32s3-cdc
 ---
 The S3 uses the ESP32-C3's built-in USB Serial for program download.
 
-Enter flash mode: Long press on the center button of the M5Stamp S3 when the power is off (G0)
+Enter flash mode: Long press on the center button of the M5Stamp S3 when the power is off (G0).
 
 Light controls are for the built-in SK6812 RGB LED (G21).
 
 ![Pinout](/assets/device_images/m5stack_m5stamp_S3_pinout.webp)
 
 {% include flash/s3.md %}
-
