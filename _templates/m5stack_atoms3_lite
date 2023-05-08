@@ -2,7 +2,7 @@
 date_added: 2023-04-28
 title: M5Stack AtomS3 Lite ESP32
 model: C124
-image: https://static-cdn.m5stack.com/resource/docs/products/core/AtomS3%20Lite/img-dc6432b6-fd9b-4066-9a4d-49786503d1a3.webp
+image: /assets/device_images/m5stack_atoms3_lite.webp
 template32: '{"NAME":"M5 AtomS3 Lite","GPIO":[0,1,1,0,1057,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1376,0,0,1,1,0,32,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://www.aliexpress.com/item/1005005177952629.html
 link2: 
@@ -16,5 +16,3 @@ standard: global
 ---
 
 Very small ESP32-S3 dev board with USB-C port
-
-
