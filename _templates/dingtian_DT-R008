@@ -16,9 +16,12 @@ standard: global
 
 When ordering this board ask for relay board with test firmware, otherwise the ESP32 will be locked.
 
+### Description
 Dingtian relay boards are ESP32 based boards with 8, 16, 24 or 32 relays and inputs.
 Relays are driven through x595 shift registers and inputs are read from x165 shift registers
 Because the design is using some GPIO for both '595 and '165, those are not independent and could not be managed through the existing Shift595 driver
+
+From version 3.6.10 and higher, PL is not used anymore and OE is used instead. This hardware (and software)change improves the relays control, causing the relays to stay of at power-on, keep there state during restart and being silent when on (https://github.com/arendst/Tasmota/pull/18535).
 
 This driver is not included in any official Tasmota build. You must [compile your own build](https://tasmota.github.io/docs/Compile-your-build/) by adding the following line in your `user_config_override.h`:
 
@@ -26,6 +29,7 @@ This driver is not included in any official Tasmota build. You must [compile you
 #define USE_DINGTIAN_RELAY
 ```
 
+### Before hardware version 3.6.10
 The driver define 5 News GPIOs (from [here](https://github.com/dtlzp/relay_dev_demo/tree/main/gpio_pinout)):
 
 ```txt
@@ -39,6 +43,23 @@ The driver define 5 News GPIOs (from [here](https://github.com/dtlzp/relay_dev_d
 | GPIO_DINGTIAN_RCK | GPIO 15  | GPIO 15  | GPIO 15  | Latch of 595 outputs (but also control CLK inhibit of 165) |
 ```
 
+### Hardware version 3.6.10 and higher
+The driver defines 5 GPIOs:
+
+```txt
+|                   |  8-relay | 16-relay | 32-relay | Description                                           |
+|-------------------+----------+----------+----------+-------------------------------------------------------|
+| GPIO_DINGTIAN_CLK | GPIO 14  | GPIO 14  | GPIO 14  | Serial clokc for both 595 and 165                     |
+|    CLK Index      |    1     |    2     |   4      | Number of 74HC165 and 74HC595                         |
+| GPIO_DINGTIAN_SDI | GPIO 13  | GPIO 13  | GPIO 13  | Serial input for 595                                  |
+| GPIO_DINGTIAN_Q7  | GPIO 16  | GPIO 35  | GPIO 35  | Serial output of 165                                  |
+| GPIO_DINGTIAN_OE  | GPIO 32  | GPIO 0   | GPIO 0   | Controls OE of the 595                                |
+| GPIO_DINGTIAN_RCK | GPIO 15  | GPIO 15  | GPIO 15  | Latch of 595 outputs (but also Latch 165 inputs)      |
+```
+
+On the onboard header GPIO 4 and GPIO 5 are available (pin 7 and 8)
+
+### Configuring CLK GPIO
 The CLK GPIO supports index 1 to 4 to specify the number of shift registers:
 
 - 1 : 8 relays/inputs boards
@@ -50,10 +71,10 @@ Example for the 8 relay board:
 ![image](https://user-images.githubusercontent.com/2996042/200939782-3b4c9cca-47f0-4623-925b-a19cd7f5fe84.png)
 ![image](https://user-images.githubusercontent.com/2996042/200940927-66d6cda5-76bc-4eb1-82ee-732bb81ef042.png)
 
-WebGUI:
-
+### WebGUI
 ![image](https://user-images.githubusercontent.com/2996042/200939818-af068dc5-a81f-4e1e-8cf9-8b2dd8b8b642.png)
 
+### Mqtt Messages
 Inputs state are reported through SENSOR message at teleperiod like for PCF8574/MCP230xx port extenders:
 
 ```shell
@@ -66,6 +87,7 @@ And changes are reported to DINGTIAN_CHG topic:
 21:46:50.665 MQT: stat/dingtian1/DINGTIAN_CHG = {"Time":"2022-10-29T21:46:50+02:00","DINGTIAN_CHG":{"IN1":0,"IN2":0,"IN3":0,"IN4":0,"IN5":0,"IN6":0,"IN7":0,"IN8":0}}
 ```
 
+### Note
 The driver is limited to ESP32 as the Dingtian boards only use ESP32, however if needed the limit could be removed in order to use the same principle on a ESP8266 custom board.
 
-See <https://github.com/arendst/Tasmota/pull/17032> for more info.
+See <https://github.com/arendst/Tasmota/pull/17032> and <https://github.com/arendst/Tasmota/pull/18535> for more info.
