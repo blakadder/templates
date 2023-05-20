@@ -1,0 +1,16 @@
+---
+date_added: 2023-05-20
+title: Xenon
+model: SM-SO306I1
+image: /assets/device_images/xenon_SM-SO306I1.webp
+template9: '{"NAME":"SM-SO306I1","GPIO":[0,0,0,0,256,32,0,0,258,257,259,0,228,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000235708826.html
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: [eu, uk, us, au]
+chip: TYWE3S
+---
+This power strip has a TYWE3S which can be flashed manually. The disassembly is easy, as there is no glue, and the larger wires can be pushed out of the way to rotate and access the TYWE3S.
