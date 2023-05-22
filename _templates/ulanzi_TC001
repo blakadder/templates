@@ -1,5 +1,5 @@
 ---
-date_added: 2023-03-20
+date_added: 2023-05-22
 title: Ulanzi Smart Pixel Clock
 model: TC001
 category: misc
@@ -19,9 +19,13 @@ After applying the template use command `Pixels 256` to set number of LEDs.
 
 `GPI034` - ADC Input is the battery level but it's in raw state right now, you would need to use ADC Range and make calculations to get somewhat accurate voltage values.
 
-To use the pixel display in Tasmota see [ArtNet control](https://tasmota.github.io/docs/ArtNet/) or [Addressable LED's in Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/).
+To use the pixel display in Tasmota see these projects:
+  - <https://github.com/iliaan/ulanzi-lab>
+  - <https://github.com/Hypfer/ulanzi-tc001-tasmota/>
 
 RTC requires a custom compiled binary with support of [DS3321](https://tasmota.github.io/docs/DS3231/)
+
+See also [ArtNet control](https://tasmota.github.io/docs/ArtNet/) or [Addressable LED's in Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/) for other ways to use it
 
 ## OTA Flash
 
