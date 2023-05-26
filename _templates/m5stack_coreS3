@@ -1,0 +1,16 @@
+---
+date_added: 2023-05-26
+title: M5Stack CoreS3
+model: K128
+category: diy
+type: Display
+standard: global
+image: /assets/device_images/m5stack_coreS3.webp
+templates3: '{"NAME":"M5Stack CoreS3","GPIO":[1,1,1,768,1,1,1,1,1,1,4704,608,640,1,1,1,1,1,1,1,1,1,0,0,672,736,704,1,1,1,1,1,3200,3232,1,1,1,1],"FLAG":0,"BASE":1}'
+mlink: https://shop.m5stack.com/products/m5stack-cores3-esp32s3-lotdevelopment-kit
+link2: https://www2.mouser.com/ProductDetail/M5Stack/K128?qs=3Rah4i%252BhyCHs0xNPRAQQWw%3D%3D
+link: https://www.aliexpress.com/item/1005005495395891.html
+link3: https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/K128/18839257
+autoconf: true
+build: tasmota32-lvgl
+---
