@@ -3,7 +3,7 @@ date_added: 2023-04-16
 title: Strong Helo EU
 model: HELO-PLUG-EU
 image: /assets/device_images/strong_HELO-PLUG-EU.webp
-template9: '{"NAME":"Strong-Helo-PLUG","GPIO":[0,0,0,17,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":65}' 
+template: '{"NAME":"Strong-Helo-PLUG","GPIO":[0,0,0,17,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":65}' 
 link: https://www.conrad.com/p/strong-helo-plug-eu-helo-plug-eu-wi-fi-socket-1-piece-indoors-3680-w-2619966
 link2: https://www.alza.cz/EN/strong-helo-plug-eu-3ks-d7677045.htm
 mlink: https://www.strong.tv/en/products/plugs/helo-plug-eu/
