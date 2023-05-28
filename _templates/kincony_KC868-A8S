@@ -1,0 +1,15 @@
+---
+date_added: 2023-05-28
+title: Kincony ESP32 Ethernet RS485 4G GSM
+model: KC868-A8S
+image: /assets/device_images/kincony_KC868-A8S
+template32: '{"NAME":"KC868-A8S","GPIO":[1,1,480,1,640,608,1,1,1376,1,1312,1,1152,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,3232,3200,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/3256804158843391.html
+link2: 
+mlink: https://www.kincony.com/gsm-relay-esp32-board.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+<https://www.kincony.com/forum/showthread.php?tid=1945>

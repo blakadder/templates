@@ -1,0 +1,14 @@
+---
+date_added: 2023-05-25
+title: Crest Smart Home Single Power Adaptor with 2 USB
+model: SHSPM1USB
+image: /assets/device_images/crest_SHSPM1USB.webp
+template9: '{"NAME":"Medion","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":52}' 
+link: https://www.crest.com.au/collections/smart-home-power/products/smart-wifi-controlled-single-power-adaptor-with-2-usb-ports
+link2: 
+mlink: https://www.crest.com.au/collections/smart-home-power/products/smart-wifi-controlled-single-power-adaptor-with-2-usb-ports
+flash: tuya-convert
+category: plug
+type: Plug
+standard: au
+---

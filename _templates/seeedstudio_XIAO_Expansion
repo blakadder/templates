@@ -1,0 +1,50 @@
+---
+date_added: 2023-05-28
+title: Seeed Studio XIAO Expansion 
+model: XIAO-ESP32-C3
+category: diy
+type: Display Board
+standard: global
+image: /assets/device_images/seeedstudio_XIAO_Expansion.webp
+templatec3: '{"NAME":"XIAO-ESP32C3 Expansion","GPIO":[1,1,1,32,6720,480,640,608,736,672,704,0,6210,0,0,0,0,0,0,0,3232,3200],"FLAG":0,"BASE":1,"CMND":"BuzzerPwm 1"}' 
+templates3: '{"NAME":"XIAO-ESP32S3 Expansion","GPIO":[33,1,32,6720,480,640,608,736,672,704,0,0,0,0,0,0,0,0,0,0,6210,544,0,0,0,0,0,0,0,0,0,0,3200,3232,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"BuzzerPwm 1"}'
+mlink: https://www.seeedstudio.com/Seeeduino-XIAO-Expansion-board-p-4746.html
+link: https://www.amazon.com/dp/B08P4GPR6M
+link2: https://www.aliexpress.com/item/1005004349482292.html
+flash: serial
+---
+
+This expansion board requires a XIAO module to function such as [XIAO ESP32C3](seeedstudio_XIAO_ESP32C3) or [XIAO ESP32S3](seeedstudio_XIAO_ESP32S3)
+
+## XIAO ESP32C3
+
+Add the following environment to `platformio_tasmota_cenv.ini` or `platformio_override.ini` and compile the `tasmota32c3-xiaoboard` build.
+
+```ini
+[env:tasmota32c3-xiaoboard]
+extends                 = env:tasmota32_base
+board                   = esp32c3cdc
+build_unflags           = ${env:tasmota32_base.build_unflags}
+                          -flto
+                          -mtarget-align
+build_flags             = ${env:tasmota32_base.build_flags}
+                          -fno-lto
+                          -DFIRMWARE_LVGL
+                          -DUSE_DISPLAY_MODES1TO5
+                          -DUSE_I2C
+                          -DUSE_RTC_CHIPS
+                          -DUSE_PCF85363
+                          -DUSE_SEN5X
+                          -DUSE_SGP30
+                          -DUSE_SCD30
+                          -DUSE_SCD40
+                          -DUSE_SHT3X  
+                          -DUSE_TSL2561
+                          -DOTA_URL='"-"'
+                          -DCODE_IMAGE_STR='"xiaoboard"'
+lib_extra_dirs          = lib/libesp32, lib/libesp32_lvgl, lib/lib_basic, lib/lib_i2c, lib/lib_audio, lib/lib_display, lib/lib_ssl
+```
+
+Some of the [available Grove sensors](https://www.seeedstudio.com/Grove-Sensors-c-1974.html?sensecap_affiliate=jo7uUTK&referring_service=link) are included in the build but you will need to add support for others with `-DUSE_sensor` according to the names used in [`my_user_config.h`](https://github.com/arendst/Tasmota/blob/7b55e1aca23aff2089a4af6afd7522114d92b9a8/tasmota/my_user_config.h#L578)
+
+[Documentation](https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/)
