@@ -3,7 +3,7 @@ date_added: 2023-05-20
 title: Seeed Studio XIAO ESP32S3 SENSE
 model: XIAO-ESP32-S3-SENSE
 category: diy
-type: Camera Board
+type: Camera
 standard: global
 image: /assets/device_images/seeedstudio_XIAO_ESP32S3_SENSE.webp
 templates3: '{"NAME":"XIAO-SENSE","GPIO":[32,1,1,6720,1,1,1,736,672,704,4992,5094,5093,5184,5092,5088,5091,5089,5090,0,0,576,0,0,0,0,0,5120,5056,5024,0,0,1,1,0,0,5152,5095],"FLAG":0,"BASE":1}' 

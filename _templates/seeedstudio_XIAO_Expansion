@@ -3,7 +3,7 @@ date_added: 2023-05-28
 title: Seeed Studio XIAO Expansion 
 model: XIAO-ESP32-C3
 category: diy
-type: Display Board
+type: Display
 standard: global
 image: /assets/device_images/seeedstudio_XIAO_Expansion.webp
 templatec3: '{"NAME":"XIAO-ESP32C3 Expansion","GPIO":[1,1,1,32,6720,480,640,608,736,672,704,0,6210,0,0,0,0,0,0,0,3232,3200],"FLAG":0,"BASE":1,"CMND":"BuzzerPwm 1"}' 
