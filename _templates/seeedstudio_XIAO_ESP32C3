@@ -6,7 +6,7 @@ category: diy
 type: Development Board
 standard: global
 image: /assets/device_images/seeedstudio_XIAO_ESP32C3.webp
-templatec3: '{"NAME":"XIAO-ESP32C3","GPIO":[0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1],"FLAG":0,"BASE":1}' 
+templatec3: '{"NAME":"XIAO-ESP32C3","GPIO":[32,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1],"FLAG":0,"BASE":1}' 
 mlink: https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
 link: https://www.amazon.com/dp/B0B94JZ2YF/
 link2: https://www.aliexpress.com/item/33011482127.html
