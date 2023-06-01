@@ -44,7 +44,7 @@ rule1 on TXultimate#Action=Short do Backlog Buzzer 1,2; Power1 2; Power2 2; I2SS
 
 ## I2S Audio Support
 
-Currently sound over I2S sounds terrible. Best results are with lowered `I2SGain` and using 8 bit PCM files. `I2SSay` commands works pretty well though.
+Best results are with lowered volume, done by setting `I2SGain` higher (over 50) using `I2SSay` for text-to-speech or `I2SRtttl` to play [RTTTL tones](https://picaxe.com/rtttl-ringtones-for-tune-command/). Audio file playback sounds terrible and is very noisy.
 
 To have I2S audio support you will need to compile a custom  binary. 
 
