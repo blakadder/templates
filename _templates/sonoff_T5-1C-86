@@ -22,9 +22,7 @@ There are pin holes for 3V3, TX, RX and GND. You can flash without soldering by 
 
 Download the [TX Ultimate](https://github.com/blakadder/tx-ultimate/) driver file [`txultimate.be`](https://raw.githubusercontent.com/blakadder/tx-ultimate/main/txultimate.be). Navigate to **Consoles - Manage File system** in the web UI. Upload the driver to NSPanel with "Choose file" followed by "Start Upload".
 
-To load the driver on startup:
-- **Create and edit new file** named `autoexec.be` with a line `load("txultimate.be")`
-- change `txultimate.be` to `autoexec.be`
+To load the driver on startup select **Create and edit new file** named `autoexec.be` with a line `load("txultimate.be")`. Alternatively you can rename `txultimate.be` to `autoexec.be`
 
 Driver is just recognising touch events for now and reports them to the RESULT topic.
 
