@@ -1,0 +1,65 @@
+---
+date_added: 2023-06-02
+title: Sonoff TX Ultimate 1 Gang
+model: T5-1C-86
+image: /assets/device_images/sonoff_T5-1C-86.webp
+template32: '{"NAME":"TX Ultimate 1","GPIO":[0,0,7808,0,7840,3872,0,0,0,1376,0,7776,0,0,224,3232,0,480,3200,0,0,0,3840,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"Pixels 27"}' 
+mlink: https://itead.cc/product/sonoff-tx-ultimate-smart-touch-wall-switch/
+link: 
+flash: serial
+category: switch
+type: Switch
+standard: [eu]
+---
+
+## Flashing
+
+![Pinout](/assets/device_images/sonoff_tx_ultimate_pinout.webp)
+
+There are pin holes for 3V3, TX, RX and GND. You can flash without soldering by inserting a 4 pin header and apply sideways pressure to maintain contact. You will need to ground the BOOT pad during flashing process so an extra pair of hands might be needed. 
+
+## Touch Panel Driver
+
+Download the [TX Ultimate](https://github.com/blakadder/tx-ultimate/) driver file [`txultimate.be`](https://raw.githubusercontent.com/blakadder/tx-ultimate/main/txultimate.be). Navigate to **Consoles - Manage File system** in the web UI. Upload the driver to NSPanel with "Choose file" followed by "Start Upload".
+
+To load the driver on startup:
+- **Create and edit new file** named `autoexec.be` with a line `load("txultimate.be")`
+- change `txultimate.be` to `autoexec.be`
+
+Driver is just recognising touch events for now and reports them to the RESULT topic.
+
+## LED and Haptic Motor
+
+Control the haptic feedback motor with [`Buzzer`](https://tasmota.github.io/docs/Commands/#buzzer) command
+
+Set the proper LED count with `Pixels 27`. If you want advanced control over LEDs like custom effect and segmenting you need to program them with [Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/). If you do build new effects please share them one the [driver GitHub](https://github.com/blakadder/tx-ultimate/)
+
+## Linking it All Together
+
+No feature of the original firmware are replicated. You have total freedom to adapt the switch to your need with [Rules](https://tasmota.github.io/docs/Rules) or additional [Berry](https://tasmota.github.io/docs/Berry/) functions or a combination of both.
+
+For example you can do set any short press to toggle the relay and LEDs, vibrate twice and say click
+
+```console
+rule1 on TXultimate#Action=Short do Backlog Buzzer 1,2; Power1 2; Power2 2; I2SSay activated endon
+```
+
+## I2S Audio Support
+
+Currently sound over I2S sounds terrible. Best results are with lowered `I2SGain` and using 8 bit PCM files. `I2SSay` commands works pretty well though.
+
+To have I2S audio support you will need to compile a custom  binary. 
+
+Add a new environment to `platformio_override.ini` or `platformio_tasmota_cenv.ini`
+
+[env:tasmota32-txultimate]
+extends                 = env:tasmota32_base
+build_flags             = ${env:tasmota32_base.build_flags}
+                          -DOTA_URL='"-"'
+                          -DCODE_IMAGE_STR='"txultimate"'
+                          -DUSE_I2S_AUDIO
+                          -DUSE_I2S_SAY_TIME
+                          -DUSE_I2S_WEBRADIO
+;                          -DUSE_MATTER_DEVICE ; uncomment this line for Matter support
+lib_extra_dirs          = lib/libesp32, lib/libesp32_lvgl, lib/lib_basic, lib/lib_i2c, lib/lib_rf, lib/lib_div, lib/lib_ssl, lib/lib_display, lib/lib_audio, lib/libesp32_audio
+
