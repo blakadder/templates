@@ -32,16 +32,6 @@ Control the haptic feedback motor with [`Buzzer`](https://tasmota.github.io/docs
 
 Set the proper LED count with `Pixels 27`. If you want advanced control over LEDs like custom effect and segmenting you need to program them with [Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/). If you do build new effects please share them one the [driver GitHub](https://github.com/blakadder/tx-ultimate/)
 
-## Linking it All Together
-
-No feature of the original firmware are replicated. You have total freedom to adapt the switch to your need with [Rules](https://tasmota.github.io/docs/Rules) or additional [Berry](https://tasmota.github.io/docs/Berry/) functions or a combination of both.
-
-For example you can do set any short press to toggle the relay and LEDs, vibrate twice and say click
-
-```console
-rule1 on TXultimate#Action=Short do Backlog Buzzer 1,2; Power1 2; Power2 2; I2SSay activated endon
-```
-
 ## I2S Audio Support
 
 Best results are with using `I2SSay` for text-to-speech or `I2SRtttl` to play [RTTTL tones](https://picaxe.com/rtttl-ringtones-for-tune-command/). Audio file playback sounds terrible and is very noisy but a fix is found and will be available soon.
@@ -57,10 +47,22 @@ build_flags             = ${env:tasmota32_base.build_flags}
                           -DOTA_URL='"-"'
                           -DCODE_IMAGE_STR='"txultimate"'
                           -DUSE_I2S_AUDIO
+                          -DUSE_I2S_LSB ; Audio fix
                           -DUSE_I2S_SAY_TIME
-                          -DUSE_I2S_WEBRADIO
+                          -DUSE_I2S_WEBRADIO                       
+                          -DUSE_I2S_RTTTL
 ;                          -DUSE_MATTER_DEVICE ; uncomment this line for Matter support
 lib_extra_dirs          = lib/libesp32, lib/lib_basic, lib/lib_i2c, lib/lib_rf, lib/lib_div, lib/lib_ssl,  lib/lib_audio, lib/libesp32_audio
+```
+
+## Linking it All Together
+
+No feature of the original firmware are replicated. You have total freedom to adapt the switch to your need with [Rules](https://tasmota.github.io/docs/Rules) or additional [Berry](https://tasmota.github.io/docs/Berry/) functions or a combination of both.
+
+For example you can do set any short press to toggle the relay and LEDs, vibrate twice and say click
+
+```console
+rule1 on TXultimate#Action=Short do Backlog Buzzer 1,2; Power1 2; Power2 2; I2SSay activated endon
 ```
 
 ### esphome support
