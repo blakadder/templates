@@ -43,13 +43,14 @@ Add a new environment to `platformio_override.ini` or `platformio_tasmota_cenv.i
 ```ini
 [env:tasmota32-txultimate]
 extends                 = env:tasmota32_base
+board_build.f_cpu       = 240000000L
 build_flags             = ${env:tasmota32_base.build_flags}
                           -DOTA_URL='"-"'
                           -DCODE_IMAGE_STR='"txultimate"'
                           -DUSE_I2S_AUDIO
                           -DUSE_I2S_LSB ; Audio fix
                           -DUSE_I2S_SAY_TIME
-                          -DUSE_I2S_WEBRADIO                       
+                          -DUSE_I2S_WEBRADIO
                           -DUSE_I2S_RTTTL
 ;                          -DUSE_MATTER_DEVICE ; uncomment this line for Matter support
 lib_extra_dirs          = lib/libesp32, lib/lib_basic, lib/lib_i2c, lib/lib_rf, lib/lib_div, lib/lib_ssl,  lib/lib_audio, lib/libesp32_audio
