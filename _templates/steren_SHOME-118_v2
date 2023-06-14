@@ -1,0 +1,23 @@
+---
+date_added: 2023-06-04
+title: Steren Dual Plug and USB Charger Wall Outlet (SHOME-118)
+model: SHOME-118 v2
+image: /assets/device_images/
+template9: '{"NAME":"Steren_SHOME-118","GPIO":[158,0,0,17,56,18,0,0,22,21,57,23,0],"FLAG":0,"BASE":18}' 
+link: https://www.steren.com.mx/doble-contacto-wi-fi-y-cargador-usb-con-placa-para-pared.html
+link2: 
+mlink: https://www.steren.com.mx/doble-contacto-wi-fi-y-cargador-usb-con-placa-para-pared.html
+flash: serial
+category: plug
+type: Wall Outlet
+standard: us
+---
+This is the new Steren SHOME-118. It's a [KS-604s](kesen_KS-604S)
+
+The following Console statements define the necessary settings and rules to get the best results from these outlets.
+
+```console
+Backlog SerialLog 0; PowerOnState 0; SetOption63 1; LEDState 1
+Rule1 ON System#Boot DO Power3 On ENDON    # Turn the USB port on
+Rule1 1
+```

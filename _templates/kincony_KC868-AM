@@ -1,0 +1,15 @@
+---
+date_added: 2023-05-30
+title: KinCony Ethernet IO Expansion Board
+model: KC868-AM
+image: /assets/device_images/KC868-AM.webp
+template32: '{"NAME":"KC868-AM","GPIO":[1,1,1,1,640,1,1,1,1,1,1,224,608,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,3200,1,1,3232,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/3256805160930675.html
+link2: 
+mlink: https://www.kincony.com/esp32-io-expansion-board.html
+flash: serial
+category: diy
+type: Adapter Board
+standard: global
+---
+<https://www.kincony.com/forum/showthread.php?tid=2693>

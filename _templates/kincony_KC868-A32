@@ -1,0 +1,15 @@
+---
+date_added: 2023-05-30
+title: KinCony Ethernet 32 Channel
+model: KC868-A32
+image: /assets/device_images/kincony_KC868-A32.webp
+template32: '{"NAME":"KC868-A32","GPIO":[0,1,0,1,641,609,1,1,1,608,3200,640,3232,1,5600,0,0,1,0,5568,0,1,0,0,0,0,0,0,0,0,4705,4707,4706,0,0,4704],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/3256803855715281.html
+link2: 
+mlink: https://www.kincony.com/arduino-esp32-32-channel-relay-module-kc868-a32.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+<https://www.kincony.com/forum/showthread.php?tid=1771>

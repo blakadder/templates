@@ -1,0 +1,15 @@
+---
+date_added: 2023-06-08
+title: Moes RGBCW (8+8+15+15W)
+model: WB-LZD7-RCW-EN
+image: /assets/device_images/moes_WB-LZD7-RCW-EN.webp
+template9: '{"NAME":"JL-TD3-4-4-2516-V1.0","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005005196910714.html
+link2: 
+mlink: 
+flash: replace
+category: light
+type: Light
+standard: global
+chip: FL_M93_V1
+---

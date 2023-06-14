@@ -1,0 +1,14 @@
+---
+date_added: 2023-05-31
+title: Geekbes 3AC 3USB
+model: GC801
+image: /assets/device_images/geekbes_GC801.webp
+template9: '{"NAME":"GC801U","GPIO":[291,0,0,320,256,35,0,0,258,257,0,0,227,0],"FLAG":0,"BASE":18}' 
+link: https://www.geekbuying.com/item/Geekbes-GC801-WiFi-Smart-WiFi-Power-Strip-White-400473.html
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Power Strip
+standard: eu
+---

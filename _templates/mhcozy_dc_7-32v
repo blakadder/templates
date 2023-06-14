@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: Switch Module
 standard: global
 chip: PSF-B
 ---
