@@ -2,7 +2,7 @@
 date_added: 2023-05-30
 title: KinCony Ethernet IO Expansion Board
 model: KC868-AM
-image: /assets/device_images/KC868-AM.webp
+image: /assets/device_images/kincony_KC868-AM.webp
 template32: '{"NAME":"KC868-AM","GPIO":[1,1,1,1,640,1,1,1,1,1,1,224,608,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,3200,1,1,3232,1,0,0,1],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/3256805160930675.html
 link2: 
