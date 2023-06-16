@@ -26,7 +26,7 @@ ShutterMode 1
 PowerOnState 0
 ShutterMotorStop 1000
 PulseTime3 5
-WebButton3 "| |"
+WebButton3 | |
 Rule1 ON Power3#State=1 DO ShutterStop1 ENDON
 Rule2 ON Power3#Boot DO Power3 1 ENDON
 Backlog Rule1 1; Rule2 1
