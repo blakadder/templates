@@ -17,7 +17,6 @@ standard: [us, eu]
 ---
 
 ```console
-SetOption13 0
 SetOption80 1
 Interlock 1,2,3
 Interlock ON
