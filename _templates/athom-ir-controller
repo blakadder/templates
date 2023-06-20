@@ -1,0 +1,19 @@
+---
+date_added: 2023-06-20
+title: Athom IR Controller
+model: AR01
+image: /assets/device_images/athom-ir-controller.webp
+template9: '{"NAME":"Athom_IR_Remote","GPIO":[32,0,0,0,1056,1088,0,0,0,576,0,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/tasmota-ir-controller
+link: 
+flash: preflashed
+category: misc
+type: IR Controller
+standard: global
+---
+
+Built-in CH340C serial port chip, connect the data cable to flash the firmware directly
+
+## Photos of internals
+
+![Top of the ir](/assets/device_images/athom-ir-controller-1.webp)
