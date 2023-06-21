@@ -5,7 +5,7 @@ model: T5-1C-86
 image: /assets/device_images/sonoff_T5-1C-86.webp
 template32: '{"NAME":"TX Ultimate 1","GPIO":[0,0,7808,0,7840,3872,0,0,0,1376,0,7776,0,0,224,3232,0,480,3200,0,0,0,3840,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"Pixels 27"}' 
 mlink: https://itead.cc/product/sonoff-tx-ultimate-smart-touch-wall-switch/
-link: 
+link: https://www.aliexpress.com/item/1005005425204052.html
 flash: serial
 category: switch
 type: Switch
