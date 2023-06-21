@@ -1,6 +1,6 @@
 ---
 date_added: 2021-10-10
-title: Kincony IR+RF 4 Channel
+title: KinCony IR+RF 4 Channel
 model: KC868-A4
 image: /assets/device_images/kincony_KC868-A4.webp
 template32: '{"NAME":"KC868-A4","GPIO":[32,0,227,0,224,225,0,0,0,1312,1,226,0,0,480,1152,0,1120,1056,1088,0,1,1,1,0,0,0,0,4706,4707,4704,4705,1,0,0,1],"FLAG":0,"BASE":1}'
@@ -23,6 +23,6 @@ Button marked S2 is a bit fussy when trying to use multi-press, adjust if needed
 
 ![Functions](/assets/device_images/kincony_KC868-A4_functions.webp)
 
-[Kincony forums](https://www.kincony.com/forum/forumdisplay.php?fid=6) have examples and demos of all the functions with various firmware
+[KinCony forums](https://www.kincony.com/forum/forumdisplay.php?fid=6) have examples and demos of all the functions with various firmware
 
 [Schematics](https://www.kincony.com/download/KC868-A4-schematic.pdf)

@@ -11,4 +11,4 @@ template: '{"NAME":"SW02 2W","GPIO":[52,0,0,17,21,0,0,0,18,22,0,0,0],"FLAG":0,"B
 link2: 
 ---
 
-This is a simple switch with two relays and two switches. 
+This is a simple switch with two relays and two switches.

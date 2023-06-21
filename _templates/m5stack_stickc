@@ -15,4 +15,6 @@ build: tasmota32-lvgl
 autoconf: true
 ---
 
+See [this example](https://tasmota.github.io/docs/Berry/#i2s) on how to use the microphone.
+
 This device uses an FTDI serial-to-USB chip. If your device isn't found install [drivers](https://www.ftdichip.com/Drivers/VCP.htm).

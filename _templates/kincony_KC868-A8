@@ -1,12 +1,12 @@
 ---
 date_added: 2021-11-14
-title: Kincony 8 Channel
+title: KinCony 8 Channel
 model: KC868-A8
 image: /assets/device_images/kincony_KC868-A8.webp
 template32: '{"NAME":"KC868-A8","GPIO":[32,0,1120,0,640,608,0,0,0,1,1,1152,0,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1],"FLAG":0,"BASE":1,"CMND":"EthClockMode 3 | EthAddress 0 | EthType 0 | I2CDriver2 1"}'
 link: https://www.aliexpress.com/item/1005003336002666.html
 link2: https://www.aliexpress.com/item/1005003318747252.html
-link3: https://www.alibaba.com/product-detail/Kincony-KC868-A8-ESP32-Wifi-Ethernet_1600347571432.html
+link3: https://www.alibaba.com/product-detail/KinCony-KC868-A8-ESP32-Wifi-Ethernet_1600347571432.html
 mlink: https://www.kincony.com/arduino-8-channel-relay-module-kc868-a8.html
 flash: serial
 category: relay

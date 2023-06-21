@@ -1,0 +1,16 @@
+---
+date_added: 2023-05-28
+title: Smart 3 in 1 Wall  
+model: SW02-03
+image: /assets/device_images/SW02-03.webp
+template9: '{"NAME":"SW02-03","GPIO":[320,1,1,34,226,33,0,0,32,224,321,225,322,544],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07Q5XPRKD/
+link2: https://www.amazon.com.au/dp/B07Q5XPRKD/
+mlink: https://www.amazon.ca/dp/B07MZQ4LJ9/
+flash: replace
+category: switch
+type: Switch
+standard: [us, au]
+chip: WB3S
+---
+Comes with WB3S, I opted to swap to 8266MOD

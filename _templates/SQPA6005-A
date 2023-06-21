@@ -1,0 +1,14 @@
+---
+date_added: 2023-06-02
+title: LangPlus+ A60 7W
+model: SQPA6005-A
+image: /assets/device_images/SQPA6005-A.webp
+template9: '{"NAME":"LangPlus+ A60 7W","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.fr/gp/product/B085M224XN/
+link2: 
+mlink: 
+flash: tuya-convert
+category: bulb
+type: RGBCCT
+standard: e27
+---

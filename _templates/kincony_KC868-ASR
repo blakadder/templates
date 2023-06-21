@@ -1,0 +1,16 @@
+---
+date_added: 2023-05-30
+title: KinCony ESP32 SD Card DS3231 RTC Sensor
+model: KC868-ASR
+image: /assets/device_images/kincony_KC868-ASR.webp
+template32: '{"NAME":"KC868-ASR","GPIO":[32,1,1,1,0,225,1,1,1,1,1,0,0,1,480,224,0,1,289,288,0,1,640,608,0,0,0,0,1312,1184,1,0,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/3256805106544895.html
+link2: 
+mlink: https://www.kincony.com/esp32-sd-card-sensor-rtc-record-board.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+
+<https://www.kincony.com/forum/showthread.php?tid=2650>

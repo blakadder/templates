@@ -1,0 +1,15 @@
+---
+date_added: 2023-06-02
+title: Csmart US-B2
+model: CS1005CHB2
+image: /assets/device_images/csmart_CS1005CHB2.webp
+template9: '{"NAME":"Csmart US-B2","GPIO":[0,544,0,33,32,0,0,0,0,225,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://conectainteligente.cl/product/interruptor-inteligente-wifi-csmart-touch-2-canales-sin-neutro-negro/
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+FLASH needs to be pulled down to GND at boot and while Erasing/Flashing, after that, it needs to be lifted to configure WiFi

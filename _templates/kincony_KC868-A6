@@ -1,0 +1,15 @@
+---
+date_added: 2023-05-30
+title: KinCony 6 Channel
+model: KC868-A6
+image: /assets/device_images/kincony_KC868-A6.webp
+template32: '{"NAME":"KC868-A6","GPIO":[0,1,0,1,640,768,1,1,1,1,3232,608,0,1,736,672,0,1,0,704,0,1,0,3200,0,0,0,0,1312,1184,4706,4707,4704,0,0,4705],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/3256804024386819.html
+link2: 
+mlink: https://www.kincony.com/esp32-6-channel-relay-module-kc868-a6.html
+flash: serial
+category: relay
+type: Relay
+standard: global
+---
+<https://www.kincony.com/forum/showthread.php?tid=1962>

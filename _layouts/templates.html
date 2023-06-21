@@ -236,6 +236,48 @@ layout: default
       {% endif %}
   {% endif %}
 
+  {% if page.link contains 'lilygo.cc' or page.link contains 'lilygo.cc' or page.link2 contains 'lilygo.cc' or page.link3 contains 'lilygo.cc' or page.link4 contains 'lilygo.cc' or page.link5 contains 'lilygo.cc' %}
+  <strong>Use code <code>LILYGO5</code> when buying from lilygo.cc for a 5% discount.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.mlink contains 'itead.cc' or page.link contains 'itead.cc' or page.link2 contains 'itead.cc' or page.link3 contains 'itead.cc' or page.link4 contains 'itead.cc' or page.link5 contains 'itead.cc' %}
+  <strong>Use code <code>BLAKADDER</code> when buying from itead.cc for a 10% discount.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.link contains 'mediarath' or page.link2 contains 'mediarath' or page.link3 contains 'mediarath' or page.link4 contains 'mediarath' or page.link5 contains 'mediarath' %}
+  <strong>Use code <code>BLAKADDER23</code> when buying from mediarath.de Tasmota category and a minimum order value of 50€ for a 10% discount. The code is valid until end of 2023.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'Moes' %}
+  <strong>Use code <code>BLAKADDER</code> when buying from <a href="https://www.moeshouse.com/?ref=v4thya2eufek">moeshouse.com</a> store for a 20% discount.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'Linkind' %}
+  <strong>Use code <code>LK40</code> for 40% discount on your first order or <code>LKS15</code> when buying from <a href="https://shareasale.com/r.cfm?b=2081732&u=2442238&m=101126&urllink=&afftrack=">linkind.com</a> store for a 15% discount and free shipping.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'M5Stack' %}
+  <strong>Use code <code>BLAKADDER17</code> when buying from <a href="https://shop.m5stack.com/discount/BLAKADDER17?ref=blakadder">shop.m5stack.com</a> store for a 5% discount. </strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.mlink contains 'novostella.uk' %}
+  <strong>Use code <code>BLAKADDER</code> when buying directly from Novostella for a 10% discount.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
   {% if page.flash == 'replace' %}
   This device uses 
   {% if page.chip != nil %}{{ page.chip }}
@@ -348,43 +390,6 @@ layout: default
 
   {% if page.flash == 'esphome' %}
   Device comes with ESPHome preinstalled and can be easily converted to Tasmota via a browser. Navigate to the device IP address, in the "OTA Update" menu select a <a href="http://ota.tasmota.com/tasmota/release/">downloaded</a> Tasmota binary and click "Update".
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.link contains 'lilygo.cc' or page.link2 contains 'lilygo.cc' or page.link3 contains 'lilygo.cc' or page.link4 contains 'lilygo.cc' or page.link5 contains 'lilygo.cc' %}
-  <strong>Use code <code>LILYGO5</code> when buying from lilygo.cc for a 5% discount.</strong>
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.link contains 'mediarath' or page.link2 contains 'mediarath' or page.link3 contains 'mediarath' or page.link4 contains 'mediarath' or page.link5 contains 'mediarath' %}
-  <strong>Use code <code>BLAKADDER23</code> when buying from mediarath.de Tasmota category and a minimum order value of 50€ for a 10% discount. The code is valid until end of 2023.</strong>
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.title contains 'Moes' %}
-  <strong>Use code <code>BLAKADDER</code> when buying from <a href="https://www.moeshouse.com/?ref=v4thya2eufek">moeshouse.com</a> store for a 20% discount.</strong>
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.title contains 'Linkind' %}
-  <strong>Use code <code>LK40</code> for 40% discount on your first order or <code>LKS15</code> when buying from <a href="https://shareasale.com/r.cfm?b=2081732&u=2442238&m=101126&urllink=&afftrack=">linkind.com</a> store for a 15% discount and free shipping.</strong>
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.title contains 'M5Stack' %}
-  <strong>Use code <code>BLAKADDER17</code> when buying from <a href="https://shop.m5stack.com/discount/BLAKADDER17?ref=blakadder">shop.m5stack.com</a> store for a 5% discount. </strong>
-  <br><br>
-  <p>
-  {% endif %}
-
-
-  {% if page.mlink contains 'novostella.uk' %}
-  <strong>Use code <code>BLAKADDER</code> when buying directly from Novostella for a 10% discount.</strong>
   <br><br>
   <p>
   {% endif %}

@@ -1,0 +1,15 @@
+---
+date_added: 2023-05-30
+title: KinCony GSM 4 Channel 
+model: KC868-A4S
+image: /assets/device_images/kincony_KC868-A4S.webp
+template32: '{"NAME":"KC868-A4S","GPIO":[0,1,0,1,640,1312,1,1,1,1,1184,0,608,1,5600,0,0,1,0,5568,0,1,0,0,0,0,0,0,3200,3232,1,0,4704,4705,4706,4707],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/3256805083028315.html
+link2: 
+mlink: https://www.kincony.com/4-channel-gsm-relay-esp32-board.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+<https://www.kincony.com/forum/showthread.php?tid=2617>

@@ -1,0 +1,15 @@
+---
+date_added: 2023-05-30
+title: KinCony ESP32 4G 2 Channel 
+model: KC868-A2
+image: /assets/device_images/kincony_KC868-A2.webp
+template32: '{"NAME":"KC868-A2","GPIO":[0,1,225,1,640,0,1,1,1,1,1184,224,608,1,5600,0,0,1,0,5568,0,1,0,0,0,0,0,0,3200,1312,1,3232,160,0,0,161],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/3256805160825703.html
+link2: 
+mlink: https://www.kincony.com/esp32-4g-relay.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+<https://www.kincony.com/forum/showthread.php?tid=2691>
