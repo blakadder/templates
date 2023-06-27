@@ -1,0 +1,28 @@
+---
+date_added: 2023-06-20
+title: PFS Presa Smart
+model: 
+image: /assets/device_images/pfs_presa_smart.webp
+template9: '{"NAME":"PFS_PresaSmart","GPIO":[1,1,1,1,288,289,1,1,224,32,0,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.it/gp/product/B08PD7TKZR/
+link2: 
+mlink: https://www.facebook.com/PFS.ITALY/
+flash: replace
+category: plug
+type: Wall Outlet
+standard: it
+chip: WB2S
+---
+## Disassembly tips:
+
+Be careful when you remove the glass plate as I broke the catches. 
+
+You should have to enlarge the ground screw hole, as the screw will not allow the pcb to come out.
+
+The PFS smart plug comes with a Tuya WB2S chip, you can simply remove it and replace it with a TYWE2S (ESP8285) chip, as they are essentially identical.
+
+* GPIO4: Red Led
+* GPIO5: Blue Led
+* GPIO12: Relay
+* GPIO12: Button
+* GPIO14: I couldn't figure out what it does

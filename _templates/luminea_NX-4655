@@ -1,0 +1,18 @@
+---
+date_added: 2023-06-24
+title: Luminea 16A 
+model: NX-4655
+image: /assets/device_images/luminea_NX-4655.webp
+template9: '{"NAME":"NX-4655-675","GPIO":[0,0,0,0,320,576,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B08C36GYRT
+link2: https://www.idealo.de/preisvergleich/OffersOfProduct/201848869_-nx4655-944-luminea.html
+link3: https://www.pearl.de/a-NX4655-3101.shtml
+mlink: https://www.luminea.info/Outdoor-WiFi-Mini-Steckdose-kompatibel-zu-Elesion--NX-4655-919.shtml
+flash: serial
+category: switch
+type: Outdoor Plug
+standard: eu
+chip: TYWE2S
+---
+
+Carefully pull off the green cap. This is not glued.  Then loosen the 2 triangular screws.  After that the whole unit can be taken out.  GPIO0 is on the small TYWE2S. Solder 3.3V, GND, TX and RX and for flashing ground the GPIO0.
