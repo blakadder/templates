@@ -9,7 +9,7 @@ link2:
 mlink: https://www.kincony.com/esp32-6-channel-relay-module-kc868-a6.html
 flash: serial
 category: relay
-type: Relay
+type: Relay Board
 standard: global
 ---
 <https://www.kincony.com/forum/showthread.php?tid=1962>
