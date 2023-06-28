@@ -7,6 +7,7 @@ template32: '{"NAME":"TX Ultimate 1","GPIO":[0,0,7808,0,7840,3872,0,0,0,1376,0,7
 mlink: https://itead.cc/product/sonoff-tx-ultimate-smart-touch-wall-switch/
 link: https://www.aliexpress.com/item/1005005425204052.html
 link2: https://www.domadoo.fr/en/peripheriques/6740-tx-ultimate-smart-touch-wall-switch-2-gang-sonoff.html
+link3: https://www.banggood.com/SONOFF-T5-WiFi-Smart-Touch-Wall-Switch-Replaceable-Switch-Cover-Wireless-APP-or-Voice-Remote-Control-via-Alexa-Google-Home-p-1991819.html
 flash: serial
 category: switch
 type: Switch
