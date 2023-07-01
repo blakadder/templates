@@ -9,7 +9,7 @@ image: /assets/device_images/ESP8685-WROOM-03.webp
 templatec3: '{"NAME":"ESP8685-WROOM-03","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}'
 chip: c3
 mlink: https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-03_datasheet_en.pdf
-link: https://www.aliexpress.com/item/1005004537506433.html
+link: https://www.aliexpress.com/item/1005005050318968.html
 link2: https://www.aliexpress.com/item/1005004937497790.html
 link3: 
 footprint: tywe2s
