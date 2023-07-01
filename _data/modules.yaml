@@ -1,3 +1,10 @@
+cbu: 
+  - module: AXYU
+  - module: BPU
+  - module: CBU
+  - module: ZSU
+  - module: ZTU
+  - module: WBRU
 dt-light: 
   - module: CB2L
   - module: DT-BL200
@@ -9,6 +16,7 @@ esp12:
   - module: BT3L
   - module: CB3S
   - module: CB3L
+  - module: CR3L
   - module: C-8138
   - module: ESP-12
   - module: FL_M93_V1
@@ -25,8 +33,11 @@ esp12:
   - module: WR3E
   - module: WR3L
   - module: WR3N
+  - module: ZS3L
 tywe2s:
+  - module: BT2S
   - module: CB2S
+  - module: ESP-02S
   - module: FL_M99_V1
   - module: TYWE2S
   - module: TYZS6
@@ -38,6 +49,8 @@ tywe2s:
   - module: WB2S
   - module: WA2
   - module: XT-BL02
+  - module: ZS2S
 tylc5:
-  - module: WBLC5
   - module: CBLC5 
+  - module: WBLC5
+  - module: ZSLC5

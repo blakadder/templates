@@ -1,0 +1,34 @@
+---
+date_added: 2023-07-01
+title: ESP8685-WROOM-03 ESP32-C3 TYWE2S Replacement
+model: ESP8685-WROOM-03
+category: diy
+type: Module
+standard: global
+image: /assets/device_images/ESP8685-WROOM-03.webp
+templatec3: '{"NAME":"ESP8685-WROOM-03","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}'
+chip: c3
+mlink: https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-03_datasheet_en.pdf
+link: https://www.aliexpress.com/item/1005004537506433.html
+link2: https://www.aliexpress.com/item/1005004937497790.html
+link3: 
+footprint: tywe2s
+---
+Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compatible module.
+
+ESP8685 is the new nomenclature for ESP32-C3 based modules. There are two different versions of this module:
+
+- **ESP8685-WROOM-03-H2** with 4Mb flash
+- **ESP8685-WROOM-03-H4** with 2Mb flash. This version is **not recommended*** for Tasmota due to low flash space.
+
+{% include flash/c3.md %}
+
+![Pinout](/assets/device_images/ESP8685-WROOM-03_pinout.webp)
+
+## Running
+
+For normal operation connect EN to VCC (pull high) to enable the C3 chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.
+
+ESP32's are power hungry on boot and the USB to serial adapter might not be able to provide enough power for that. Use a stable 3.3v power supply that can supply more than 500 mA.
+
+[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp8685-wroom-03_datasheet_en.pdf)
