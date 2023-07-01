@@ -3,7 +3,7 @@ date_added: 2023-06-29
 title: TH3D EZBulb V1
 model: EZBULB_V1
 image: /assets/device_images/ezbulb_V1.webp
-template9: '{"NAME":"EZBulb V1","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}'
+template: '{"NAME":"EZBulb V1","GPIO":[0,0,0,0,37,40,0,0,38,0,39,0,0],"FLAG":0,"BASE":18}'
 link: https://www.th3dstudio.com/product/4-pack-bundle-ezbulb-v1-tasmota-powered-rgbw-9w-led-smart-bulb-open-source-firmware/
 link2: 
 mlink: https://www.th3dstudio.com/product/ezbulb-v1-tasmota-powered-rgbw-9w-led-smart-bulb-open-source/

@@ -1,0 +1,26 @@
+---
+layout: default
+title: Devices with Factory Flashed Tasmota sorted by Type
+---
+<h2>{{ page.title }}</h2>
+
+<h4>All devices listed come with some version of Tasmota already flashed. They can be upgraded with the newest version.</h4>
+
+<!-- ######################################################################  -->
+
+{% assign category = site.templates | where: "flash", "preflashed" | sort_natural: 'type' %}
+{% assign type_group = category | group_by: 'type' %}
+{% assign type_grouped = type_group | sort: 'name' %}
+{% for group in type_grouped %}
+<BR>
+<h3>{{ group.name | replace: "RGBCCT", "RGB + Color Temperature Bulb" | replace: "Dimmable", "Dimmable White Bulb" | replace: "CCT", "Color Temperature Bulb" | replace: "RGBW", "RGB + White Bulb"  }}</h3>
+<table id="{{ group.name }}" width="80%">
+    <tbody>
+    {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
+    {% for template in grouptitlesorted %}
+    {% include tablerow.html %}
+    {% endfor %}
+</tbody>
+</table>
+{% endfor %}
+ 

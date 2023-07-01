@@ -12,5 +12,5 @@ link2: https://www2.mouser.com/ProductDetail/M5Stack/K128?qs=3Rah4i%252BhyCHs0xN
 link: https://www.aliexpress.com/item/1005005495395891.html
 link3: https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/K128/18839257
 autoconf: true
-build: tasmota32-lvgl
+build: tasmota32s3-lvgl
 ---

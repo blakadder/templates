@@ -2,7 +2,7 @@
 date_added: 2023-05-30
 title: KinCony 128 Channel Controller
 model:  KC868-A128
-image: /assets/device_images/
+image: /assets/device_images/kincony_KC868-A128.webp
 template32: '{"NAME":"KC868-A128","GPIO":[0,1,0,1,609,640,1,1,1,3232,3200,641,608,1,5600,0,0,1,0,5568,0,1,0,0,0,0,0,0,0,0,4705,4707,4706,0,0,4704],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/3256804421376396.html
 link2: 

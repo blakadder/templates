@@ -18,7 +18,7 @@ footprint: dt-light
 ESP8685 is the new nomenclature for ESP32-C3 based modules. There are two different versions of this module:
 
 - **ESP8685-WROOM-05-H2** with 4Mb flash
-- **ESP8685-WROOM-05-H4** with 2Mb flash. This version is **not recommended*** for Tasmota due to low flash space.
+- **ESP8685-WROOM-05-H4** with 2Mb flash. This version is **not recommended** for Tasmota due to low flash space.
 
 {% include flash/c3.md %}
 

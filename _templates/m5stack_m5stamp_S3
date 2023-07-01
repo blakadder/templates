@@ -22,5 +22,3 @@ Enter flash mode: Long press on the center button of the M5Stamp S3 when the pow
 Light controls are for the built-in SK6812 RGB LED (G21).
 
 ![Pinout](/assets/device_images/m5stack_m5stamp_S3_pinout.webp)
-
-{% include flash/s3.md %}

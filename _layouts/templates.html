@@ -286,6 +286,9 @@ layout: default
   module which needs to be replaced with
   {% 
     if page.chip contains 'C-8138'  
+    or page.chip contains 'CB3S' 
+    or page.chip contains 'CB3L' 
+    or page.chip contains 'CR3L' 
     or page.chip contains 'FL_M93_V1'  
     or page.chip contains 'WB3' 
     or page.chip contains 'WB3L' 
@@ -295,18 +298,16 @@ layout: default
     or page.chip contains 'WR3E' 
     or page.chip contains 'WR3L' 
     or page.chip contains 'WR3N' 
-    or page.chip contains 'CB3S' 
-    or page.chip contains 'CB3L' 
     or page.chip contains 'XR3' 
   %}
-  <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a> or <a href="ESP-12H">ESP-12H</a>
+  <a href="ESP-12">ESP-12</a>, <a href="ESP8685-WROOM-01">ESP8685-WROOM-01</a>, <a href="ESP-C3-12">ESP-C3-12F</a> or <a href="ESP-12H">ESP-12H</a>
   {% 
     elsif page.chip contains 'CB2L' 
     or page.chip contains 'DT-BL200' 
     or page.chip contains 'WB2L' 
     or page.chip contains 'WR2L' 
     or page.chip contains 'WBR2L' 
-  %}<a href="DMP-L1">DMP-L1</a> or <a href="DT-ESP-C05">DT-ESP-C05</a>
+  %}<a href="DMP-L1">DMP-L1</a>, <a href="ESP8685-WROOM-05">ESP8685-WROOM-05</a> or <a href="DT-ESP-C05">DT-ESP-C05</a>
   {% 
     elsif page.chip contains 'WB2' 
     or page.chip contains 'FL_M99_V1'
@@ -325,10 +326,11 @@ layout: default
   {% 
     elsif page.chip contains 'WBLC5' 
     or page.chip contains 'CBLC5'
-  %}<a href="ESP-01D">ESP-01D</a> 
+  %}<a href="ESP-01D">ESP-01D</a> or <a href="ESP8685-WROOM-07">ESP8685-WROOM-07</a>
   {% 
     elsif page.chip contains 'CBU' 
-  %} any ESP module and extensive wiring since CBU does not have a pinout compatible replacement.
+    or page.chip contains 'ZTU'
+    %} <a href="ESP8685-WROOM-06">ESP8685-WROOM-06</a> 
   {% else %}<a href="diy#module">an ESP</a>
   {% endif %}
   . Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill. Read more about module replacement in <a href="https://blakadder.com/replace-tuya-esp12/" target="_blank">a detailed guide</a>.
