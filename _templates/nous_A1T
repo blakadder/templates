@@ -1,6 +1,6 @@
 ---
 date_added: 2022-05-20
-title: Nous 16A
+title: Nous A1T 16A
 model: A1T
 image: /assets/device_images/nous_A1T.webp
 template: '{"NAME":"NOUS A1T","GPIO":[17,0,0,0,134,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}'
