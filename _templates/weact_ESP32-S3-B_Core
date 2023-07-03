@@ -1,0 +1,17 @@
+---
+date_added: 2023-07-03
+title: WeAct Studio ESP32-S3-B Core
+model: ESP32-S3-B
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/weact_ESP32-S3-B_Core.webp
+templates3: '{"NAME":"ESP32-S3-B","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,96,1,1,1376],"FLAG":0,"BASE":1}' 
+mlink:
+link: https://www.aliexpress.com/item/1005004960064227.html
+build: tasmota32s3
+chip: s3
+---
+This device has dual USB ports, left one is a serial-to-USB adapter, right one uses the built-in serial to USB. If using the right USB port install Tasmota32-CDC build (`tasmota32s3cdc`).
+
+[![Pinout](/assets/device_images/weact_ESP32-S3-B_Core_pinout.webp)](/assets/device_images/weact_ESP32-S3-B_Core_pinout.webp)
