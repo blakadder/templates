@@ -1,7 +1,7 @@
 ---
 date_added: 2023-03-20
 title: Nous 1/2 Channel
-model: A1T
+model: L13T
 image: /assets/device_images/nous_L13T.webp
 template9: '{"NAME":"NOUS L13T Smart Switch Module","GPIO":[1,161,1,160,225,224,1,1,544,1,32,1,1,1],"FLAG":0,"BASE":18}'
 link: https://www.amazon.de/gp/product/B0BW9S5DFK/
