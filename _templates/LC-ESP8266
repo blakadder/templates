@@ -27,7 +27,7 @@ Rule1
 ```
 
 Enable the rule: `Rule1 1`
-
+Note: If you use LC Technology v1.2 or v3 (China version) and this rule does not work, try to use 115200 baudrate (in combination with only D3 GPIO0 as Relay1 configured).
 Note: If that doesn't work for you, you may find that using Power1#Boot as the event to trigger the baud rate setting (instead of System#Boot) works, as it did for me. So the alternate rule is: 
 ```console
 Rule1
