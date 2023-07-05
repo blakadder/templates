@@ -88,8 +88,6 @@
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1838946&u=2442238&m=114660&urllink="  }}
 {% elsif link contains "tessan.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1930388&u=2442238&m=119947&urllink="  }}
-{% elsif link contains "linkind" %}
-{{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=2081732&u=2442238&m=101126&urllink="  }}
 {% elsif link contains "www.alibaba.com" %}
 {{ link | uri_escape | prepend: "https://offer.alibaba.com/cps/ais1lue4?bm=cps&src=saf&url=" }}
 {% else %}

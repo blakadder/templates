@@ -1,0 +1,14 @@
+---
+date_added: 2023-07-05
+title: SuperMini ESP32-C3
+model: SuperMini-ESP32-C3
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/SuperMini-ESP32-C3.webp
+templatec3: '{"NAME":"SuperMini ESP32-C3","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
+mlink: https://github.com/icbbuy/SuperMini-ESP32-C3
+link: https://www.aliexpress.com/item/1005005780121305.html
+link2: 
+build: tasmota32c3-cdc
+---
