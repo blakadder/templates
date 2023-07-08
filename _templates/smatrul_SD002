@@ -3,7 +3,7 @@ date_added: 2023-07-08
 title: Tuya 9W High CRI CCT Rotating Spot
 model: SD002
 image: /assets/device_images/tuya_SD002.webp
-templatec3: '{"NAME":"SD002","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+templatec3: '{"NAME":"SD002","GPIO":[0,0,0,0,417,0,0,0,0,0,416,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005004749399898.html
 link2: https://www.aliexpress.com/item/1005004775395763.html
 mlink: 
