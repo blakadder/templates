@@ -14,7 +14,7 @@ standard: global
 chip: CBLC5
 ---
 
-The Wi-Fi module is located in top portion. Unscrew the top cap for mounting and remove the heat shrink from the combined power supply and PCB. The CBLC5 module can be removed and replaced with just a soldering iron and a solder wick. The template is for the [ESP8685-WROOM-07](ESP8685-WROOM-07) module.
+The Wi-Fi module is located in the power supply case which is easily opened. The CBLC5 module can be removed and replaced with just a soldering iron and a solder wick. The template is for the [ESP8685-WROOM-07](ESP8685-WROOM-07) module.
 
 ![PCB](/assets/device_images/tuya_SD001-9W_pcb.webp)
 
