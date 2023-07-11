@@ -1,10 +1,10 @@
 ---
-date_added: 2023-05-11
+date_added: 2023-07-11
 title: Refoss P11
 model: P11
 image: /assets/device_images/refoss_P11.webp
 template9: '{"NAME":"Refoss-P11","GPIO":[0,0,0,3104,576,32,0,0,320,224,0,0,0,4736],"FLAG":0,"BASE":1}' 
-link: 
+link: https://www.amazon.de/dp/B0C89PM952/
 mlink: https://www.refoss.net/
 flash: preflashed
 category: plug
