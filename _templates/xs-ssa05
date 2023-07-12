@@ -5,10 +5,23 @@ type: Plug
 standard: us
 link: https://www.amazon.com/gp/product/B07KP3HQR4
 image: https://sc01.alicdn.com/kf/H6cb4b8cfc5bb43afae016dc0e6e20d8bm/tuya-wifi-smart-outlet-power-plug-american.jpg
-template: '{"NAME":"XS-SSA05","GPIO":[30,255,255,131,255,133,0,0,21,17,132,31,255],"FLAG":1,"BASE":18}' 
+template: '{"NAME":"XS-SSA05","GPIO":[320,0,0,2624,544,2688,0,0,224,32,2656,0,0,4704],"FLAG":0,"BASE":18}' 
 link2: 
 mlink: https://www.alibaba.com/product-detail/XS-SSA05-220V-US-standard-electrical_62365683004.html
 ---
 
-
 Sold under many names
+
+## ⚠️️Special Attention   ⚠️️
+
+**Do not connect AC power and the serial connection at the same time** 
+
+12 July 2023 Update:
+- Old template doesn't make sense at all even with older firmware. Updated template, tested with Tasmota 13.0.0
+- To flash, open up the case, and the pads are at the BOTTOM side. Luckily all of them are near the edge and can be accessed without removing the board.
+- Solder 3V3, GND, TX, RX, and Ground IO0 pin during flash
+- DISCONNECT FROM MAIN POWER before connecting to the serial-USB adapter!!
+- Can be flashed via [Web Flasher](https://tasmota.github.io/install/)
+- For more accurate energy consumption measurements this device requires [power monitoring calibration](https://tasmota.github.io/docs/Power-Monitoring-Calibration/)
+
+For photo reference see page 2 and 3 [fcc.report](https://fcc.report/FCC-ID/2AL65-XSSSA05/3627360.pdf)
