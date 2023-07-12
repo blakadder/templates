@@ -1,0 +1,14 @@
+---
+date_added: 2023-07-09
+title: Tate Guard ZUM-26EU-X Dual
+model: TT-OTPW-STTIP
+image: /assets/device_images/tate_guard_TT-OTPW-STTIP.webp
+template9: '{"NAME":"Tate Guard","GPIO":[0,0,0,0,224,288,0,0,225,288,32,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B08SBQK5BB/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Outdoor Plug
+standard: eu
+---
