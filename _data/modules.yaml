@@ -20,6 +20,8 @@ esp12:
   - module: C-8138
   - module: ESP-12
   - module: FL_M93_V1
+  - module: MRE3S
+  - module: MWA04
   - module: MWA6S
   - module: T103
   - module: TYWE3L
