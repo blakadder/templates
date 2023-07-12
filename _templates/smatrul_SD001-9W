@@ -1,0 +1,20 @@
+---
+date_added: 2023-07-08
+title: Tuya 9W High CRI CCT Spot
+model: SD001-9W
+image: /assets/device_images/tuya_SD001-9W.webp
+templatec3: '{"NAME":"SD001-9W","GPIO":[0,0,0,0,417,0,0,0,0,0,416,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005004770947910.html
+link2: 
+mlink: 
+flash: replace
+category: light
+type: Downlight
+standard: global
+chip: CBLC5
+---
+
+The Wi-Fi module is located in top portion. Unscrew the top cap for mounting and remove the heat shrink from the combined power supply and PCB. The CBLC5 module can be removed and replaced with just a soldering iron and a solder wick. The template is for the [ESP8685-WROOM-07](ESP8685-WROOM-07) module.
+
+![PCB](/assets/device_images/tuya_SD001-9W_pcb.webp)
+
