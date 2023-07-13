@@ -7,14 +7,34 @@ template: '{"NAME":"Kogan Panel Heater","GPIO":[0,0,0,0,0,0,0,0,0,108,0,107,0],"
 link: https://www.amazon.com.au/Kogan-SmarterHomeTM-Portable-Conditioner-Reverse/dp/B07G8LWMQ3
 link2: 
 mlink: https://www.kogan.com/au/buy/kogan-smarterhome-41kw-portable-air-conditioner-reverse-cycle/
-flash: serial
+flash: tuya-convert
 category: misc
 type: Miscellaneous
 standard: au
 ---
-Wifi module is in a small black box attached to the unit on the side. It has 4 wires for VCC, GND, TX and RX. 
+Wifi module is mounted on the inside of the unit, at the top next to the control panel buttons, you need to remove the entire back of the unit to access.
 
-- `DpId1` is the relay to turn unit on and off and is already mapped to FID11
-- `DpId2Type3` is the current temperature in room
+## Functions
+- `dpID 1` device mode: `0 = off / 1 = on` Type1 
+- `dpID 2` set temperature ?: `16 - 30 (Celsius) Interger` Type 2
+- `dpID 3` temperature sensor `Room temperature, read only` Type 2
+- `dpID 4` function mode '0 = Cool / 1 = Fan / 2 = Dry / 3 = Heat` Type 4
+- `dpID 5` speed mode: `0 = Slow / 1 = Medium / 2 = Fast` Type 4
+- `dpID 19` temprature units: `0 = celsius / 1 = fahrenheit` Type4
+- `dpID 102` unknown: Type1  
+- `dpID 103` timer (hours): `0 = off / 1 = 1 hour / 2 = 2 hours / 3 = 3 hours` *not needed with Tasmota, there's a Timer function* Type4
+- `dpID 104` swing mode: `0 = off / 1 = on` Type1
+- `dpID 105` timer (minutes): `read only timer (dpID103) in minutes` Type 2
+- `dpID 106` unknown: Type 0
+- `dpID 110` unknown: Type 2
 
-All data seems to be available but using rules to pass MQTT data to home assistant seems like the best way to control the unit, more information on that in the [Kogan panel heater template](kogan-KAHTP15WALA).
+
+```console
+Backlog TuyaMCU 11,1; TuyaMCU 72,2; TuyaMCU 71,3; TuyaMCU 62,4; TuyaMCU 61,5; TuyaMCU 63,19; TuyaMCU 81,103; TuyaMCU 2,104; 
+```
+
+
+All data seems to be available via MQTT data to home assistant. It is the best way to control the unit, more information on that in the [Kogan panel heater template](kogan-KAHTP15WALA)
+
+---
+
