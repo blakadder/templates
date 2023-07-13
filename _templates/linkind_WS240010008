@@ -14,7 +14,8 @@ type: Switch
 standard: us
 ---
 
-Add a rule to change the leds from red / amber to red / green 
+Add a rule to change the leds from red / amber to red / green:
+ 
 ```console
 Rule2 on power1#state do backlog ledpower1 %value%; ledpower2 %value% endon on power1#boot do backlog ledpower1 %value%; ledpower2 %value% endon
 ```

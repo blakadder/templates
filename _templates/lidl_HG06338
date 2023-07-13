@@ -1,0 +1,27 @@
+---
+date_added: 2023-07-12
+title: Lidl Silvercrest Zigbee
+model: HG06338
+image: /assets/device_images/lidl_HG06338.webp
+template9: '{"NAME":"Lidl Silvercrest HG06338","GPIO":[0,288,0,0,225,226,0,0,32,224,576,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.lidl.de/p/silvercrest-steckerleiste-zigbee-smart-home-mit-sprachsteuerung/p100339785
+link2: 
+mlink: 
+flash: replace
+category: plug
+type: Power Strip
+standard: eu
+chip: TYZS6
+---
+
+The template uses an [ESP-02S](ESP-02S) instead of TYZS6.
+
+Rules:
+
+```console
+Rule1 
+ON button1#state=10 DO power1 2 ENDON   
+ON button1#state=11 DO power2 2 ENDON   
+ON button1#state=12 DO power3 2 ENDON   
+ON button1#state=3 DO backlog power1 0; power2 0; power3 0 ENDON
+```
