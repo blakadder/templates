@@ -21,7 +21,7 @@ This module is pin compatible with ESP-01M.
 There are two different versions of this module:
 
 - **C3FN4** with 4Mb flash
-- **C3-2M** with 2Mb flash. This version is not recommended for Tasmota due to low flash space.
+- **C3-2M** with 2Mb flash. This version is **not recommended** for Tasmota due to low flash space.
 
 {% include flash/c3.md %}
 

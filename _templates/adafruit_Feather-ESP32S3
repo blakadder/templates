@@ -28,11 +28,11 @@ When the board is booted into debug by holding `BOOT` and pressing the `RESET` b
 
 [Product Guide](https://learn.adafruit.com/adafruit-esp32-s3-feather/)
 
-[PCB Files](https://github.com/adafruit/Adafruit-Feather-ESP32-S2-PCB)
+[PCB Files](https://learn.adafruit.com/adafruit-esp32-s3-feather/downloads)
 
 ## Peripherals
 
 * [`WS2812B`](https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf) Neopixel
     * On `GPIO33` _(configured as `WS2812`)_ with power on `GPIO21` _(configured as `Output Hi`)_.
-* 2x [STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) JST-SH I2C bus connector
-    * Both ports share the same bus, on `GPIO3` (SCL) and `GPIO4` (SDA) _(configured as `I2C 1`)_ and `GPIO7` for power _(configured as `Output Hi`)_. These ports are on the same bus as the `SCL` and `SDA` pins labelled on the board.
+*  [STEMMA-QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt) JST-SH I2C bus connector
+    * `GPIO3` (SDA) and `GPIO4` (SCL) _(configured as `I2C 1`)_ and `GPIO7` for power _(configured as `Output Hi`)_. This ports are on the same bus as the `SCL` and `SDA` pins labeled on the board.

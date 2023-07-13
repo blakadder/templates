@@ -1,0 +1,36 @@
+---
+date_added: 2023-05-21
+title: Wyze A19 800lm
+model: WLPA19 v2
+image: /assets/device_images/wyze_WLPA19_V2.webp
+template32: '{"NAME":"WLPA19v2","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,417,416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/dp/B084TFWJTH
+link2: 
+mlink: https://www.wyze.com/products/wyze-bulb-white
+flash: serial
+category: bulb
+type: CCT
+standard: e26
+---
+## Open the bulb
+
+1. Remove bulb cover
+2. Unscrew 2 screws holding the top PCB in place
+3. Carefully pry PCB up and remove it. Keep it as straight as possible during removal
+4. Remove backing plate
+
+## Dig a cave
+
+![cave](https://i.imgur.com/IAoxFQa.jpeg ""the cave"")
+- GPIO0 is the rearmost solder pad, or the 14th down from the picture's POV
+- Be mindful of the capacitor right next to it
+
+## Connect serial adapter
+
+![wiring](https://i.imgur.com/5QgMUGt.jpeg ""wiring"")
+- Wiring diagram is in reference to serial adapter
+
+## Flash
+
+- GPIO0 needs to be pulled to ground during first few seconds of boot"
+The other Wyze CCT bulb on this website is the older, pre-2021 version, but the Amazon link is for this newer version. The older version can be found on Ebay.

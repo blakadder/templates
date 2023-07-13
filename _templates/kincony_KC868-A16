@@ -1,6 +1,6 @@
 ---
 date_added: 2022-05-20
-title: Kincony 16 Channel  
+title: KinCony 16 Channel  
 model: KC868-A16
 image: /assets/device_images/kincony_KC868-A16.webp
 template32: '{"NAME":"KC868-A16 rev 1.4","GPIO":[32,1,1,1,640,608,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
@@ -38,7 +38,7 @@ Inputs (X01 - X16) and outputs (Y01 - Y16) use [PCF8574](https://tasmota.github.
 - Device 3  Port 0 - Port 7 as Input
 - Device 4  Port 0 - Port 7 as Input
 
-[Kincony forums](https://www.kincony.com/forum/forumdisplay.php?fid=6) have examples and demos of all the functions with various firmware
+[KinCony forums](https://www.kincony.com/forum/forumdisplay.php?fid=6) have examples and demos of all the functions with various firmware
 
 [Schematics](https://www.kincony.com/download/KC868-A16-schematic.pdf)
 

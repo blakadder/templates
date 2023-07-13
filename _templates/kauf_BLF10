@@ -10,5 +10,5 @@ mlink: https://www.kaufha.com/
 flash: esphome
 category: bulb
 type: RGBCCT
-standard: E26
+standard: e26
 ---

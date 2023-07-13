@@ -4,7 +4,7 @@ title: Automate Things IR Bridge
 model: AT-IRBR v1.4
 image: /assets/device_images/automate_things_AT-IRBR-1.webp
 template9: '{"NAME":"AT-IRBR-1.4","GPIO":[1088,0,0,0,1056,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18,"CMND":"Module 0"}'
-link: https://store.automate-things.co.uk/product/automate-things-ir-bridge/1
+link: https://automate-things.square.site/product/automate-things-ir-bridge-kit/3?cp=true&sa=true&sbp=false&q=false
 flash: preflashed
 category: misc
 type: IR Controller

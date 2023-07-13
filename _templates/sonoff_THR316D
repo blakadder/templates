@@ -8,8 +8,8 @@ standard: global
 flash: serial
 template32: '{"NAME":"Sonoff THR316D","GPIO":[32,0,0,0,225,9280,0,0,0,321,0,576,320,9184,9216,0,0,224,0,9248,0,1,0,3840,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 image: /assets/device_images/sonoff_THR316D.webp
-mlink: https://sonoff.tech/product/diy-smart-switch/th-elite/
-link: https://itead.cc/product/sonoff-th-elite-smart-temperature-and-humidity-monitoring-switch/
+mlink: https://itead.cc/product/sonoff-th-elite-smart-temperature-and-humidity-monitoring-switch/
+link: https://www.amazon.com/dp/B0B5RBGRH7/
 link2: https://www.aliexpress.com/item/1005004450591007.html
 link3: https://mediarath.de/products/sonoff-thr316d-th-elite-16a-sensorgesteuerter-wifi-smart-switch-tasmota
 link4: https://www.banggood.com/SONOFF-TH-Elite-16A-or-20A-Wifi-Smart-Temperature-and-Humidity-Monitoring-Switch-THS01-DS18b20-Sensor-Smart-Home-Via-eWelink-Alexa-p-1966779.html
@@ -26,6 +26,9 @@ There are two sensor options when buying this device currently, one is the THS01
 To get the DS18B20 working when using the configure module, select the DS18x20 sensor for IO GPIO25, this will give you a temperature range from -55°C to +125°C.
 
 To get the THS01 working when using the configure module, select the SI7021 sensor for IO GPIO25, this will give you a temperature range from -40°C to +85°C, humidity range of 0 to 100%RH.
+
+If using the THS01 results in random "NULL" values. Try chaning the DhtDelay value to 'DhtDelay 500,40'. If successfull create a rule so that it stays persistent. 'Rule1 on system#init do DhtDelay 500,40 endon
+Rule1 1'
 
 ## Sensor Wiring
 

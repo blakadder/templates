@@ -1,0 +1,17 @@
+---
+date_added: 2023-05-30
+title: KinCony Ethernet 16 Channel
+model: KC868-A16S
+image: /assets/device_images/kincony_KC868-A16S.webp
+template32: '{"NAME":"KC868-A16S","GPIO":[0,1,0,1,640,608,1,1,1,0,0,0,1152,1,5600,0,0,1,0,5568,0,1,0,0,0,0,0,0,3232,3200,4705,4706,4704,0,0,4707],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/3256805284158461.html
+link2: 
+mlink: https://www.kincony.com/16-channel-esp32-4g-relay-board.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+16CH relay (MAX AC250V 10A) output + 16CH digital input + 4CH analog input, support RS485 + Ethernet + WiFi + Bluetooth + 4G SIM7600 or 2G SIM800L GSM module + DS3231 RTC module + manual control button panel
+
+<https://www.kincony.com/forum/showthread.php?tid=2788>

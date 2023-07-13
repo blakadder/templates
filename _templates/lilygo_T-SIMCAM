@@ -14,6 +14,7 @@ type: Camera
 standard: global
 autoconf: true
 chip: s3
+build: tasmota32s3cdc-qio_opi
 ---
 
 Install with Tasmota32-S3 (QIO Flash/OPI PSRAM) option or [`tasmota32s3cdc-qio_opi.factory.bin`](https://github.com/tasmota/install/raw/firmware/firmware/unofficial/tasmota32s3cdc-qio_opi.factory.bin)

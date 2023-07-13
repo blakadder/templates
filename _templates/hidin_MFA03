@@ -1,0 +1,15 @@
+---
+date_added: 2023-04-26
+title: Hidin US Light 
+model: MFA03
+image: /assets/device_images/hidin_MFA03.webp
+template9: '{"NAME":"Hidin MFA03","GPIO":[32,0,0,0,288,0,0,0,224,544,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.hidintech.com/mfa03-us-smart-light-switch-wholesale-p00126p1.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: [us, au]
+---
+Can be flashed with serial pins. Note that new stock is based on BK chips and not ESP8266. When ordering I asked for ESP8266 version and they managed to supply some.

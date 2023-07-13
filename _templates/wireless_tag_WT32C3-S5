@@ -11,7 +11,7 @@ chip: c3
 footprint: esp12
 mlink: http://www.wireless-tag.cn/portfolio/wt32c3-s5/
 link2: https://www.alibaba.com/product-detail/Original-factory-WT32C3-S5-ESP32-wifi_1600283557637.html
-link: https://www.aliexpress.com/item/1005002973734309.html
+link: https://www.aliexpress.com/item/1005004933535881.html
 ---
 Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compatible module.
 

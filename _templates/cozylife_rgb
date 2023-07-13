@@ -1,0 +1,17 @@
+---
+date_added: 2023-04-17
+title: CozyLife RGB
+model: 
+image: /assets/device_images/cozylife_rgb.webp
+templatec3: '{"NAME":"CozyLife RGB LED Controller","GPIO":[0,0,0,416,418,417,0,0,0,33,1088,0,0,0,0,0,0,0,32,34,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005004526608031.html
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+Flashing must be done via serial [using this pinout diagram for the ESP32-C3-C05](https://templates.blakadder.com/DT-ESP-C05.html).
+
+Additional configuration may be required to get the IR Remote and Plus/Minus buttons working.

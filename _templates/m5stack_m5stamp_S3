@@ -1,0 +1,24 @@
+---
+date_added: 2023-06-30
+title: M5Stack M5StampS3
+model: S007
+category: diy
+type: Module
+standard: global
+flash: serial
+image: /assets/device_images/m5stack_m5stampS3.webp
+templates3: '{"NAME":"M5Stamp S3","GPIO":[32,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1376,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+mlink: https://shop.m5stack.com/products/m5stamp-esp32s3-module
+link: https://www.aliexpress.com/item/1005005199957262.html
+link2: https://shop.m5stack.com/collections/m5stack-new-arrival/products/m5stamps3-with-2-54-header-pin
+link3: https://www.aliexpress.com/item/1005005774833886.html
+chip: s3
+build: tasmota32s3-cdc
+---
+The S3 uses the ESP32-S3's built-in USB Serial for program download.
+
+Enter flash mode: Long press on the center button of the M5Stamp S3 when the power is off (G0).
+
+Light controls are for the built-in SK6812 RGB LED (G21).
+
+![Pinout](/assets/device_images/m5stack_m5stamp_S3_pinout.webp)

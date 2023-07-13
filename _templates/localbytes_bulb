@@ -10,5 +10,5 @@ mlink:
 flash: preflashed
 category: bulb
 type: RGBCCT
-standard: e27, b22
+standard: [e27, b22]
 ---

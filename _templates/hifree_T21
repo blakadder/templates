@@ -1,0 +1,18 @@
+---
+date_added: 2023-05-28
+title: HiFree Table Lamp
+model: T21
+image: /assets/device_images/hifree_T21.webp
+template: '{"NAME":"TuyaMCU","GPIO":[108,1,107,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B099MV5XMX
+link2: 
+mlink: 
+flash: replace
+category: light
+type: Light
+standard: us
+---
+
+```console
+Backlog TuyaMCU 23,23; TuyaMCU 11,20; TuyaMCU 26,21; TuyaMCU 24,24; TuyaMCU 21,22
+```

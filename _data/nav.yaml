@@ -1,9 +1,14 @@
 toc:
   - name: Search...
     url: search.html
-  - name: Preflashed with Tasmota
+  - name: Preflashed Devices
     url: preflashed.html
-  - name: Bulbs by
+    subnav:
+      - title: Type
+        url: preflashed-type.html
+      - title: Standard
+        url: preflashed-stand.html
+  - name: Bulbs
     url: bulb.html
     subnav:
       - title: Type

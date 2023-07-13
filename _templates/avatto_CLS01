@@ -1,0 +1,32 @@
+---
+date_added: 2023-05-30
+title: Avatto Curtain + Light
+model: CLS01
+image: /assets/device_images/avatto_CLS01.webp
+template9: '{"NAME":"Avatto Curtain + Light","GPIO":[576,0,0,34,226,35,0,0,32,224,225,227,33,0],"FLAG":0,"BASE":18}' 
+template9_alt: '{"NAME":"AVATTO Curtain + Light","GPIO":[0,0,576,34,226,35,0,0,32,224,225,227,33,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005002697690566.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Curtain Switch
+standard: [us, eu]
+---
+
+```console
+SetOption80 1
+Interlock 1,2,3
+Interlock ON
+ShutterRelay1 1
+ShutterMode 1
+PowerOnState 0
+ShutterMotorStop 1000
+PulseTime3 5
+WebButton3 | |
+Rule1 ON Power3#State=1 DO ShutterStop1 ENDON
+Rule2 ON Power3#Boot DO Power3 1 ENDON
+Backlog Rule1 1; Rule2 1
+```
+
+And don't forget to set `ShutterOpenDuration` and `ShutterCloseDuration` according to your environments.

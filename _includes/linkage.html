@@ -42,8 +42,10 @@
 {{ link | append: "?ref=blakadder" }}
 {% elsif link contains "moeshouse.com" %}
 {{ link | append: "?ref=v4thya2eufek" }}
+{% elsif link contains "meross.com" %}
+{{ link | append: "?ref=blakadder" }}
 {% elsif link contains "zemismart.com" %}
-{{ link | append: "?DIST=QEVHGw" }}
+{{ link | append: "?DIST=QEVHGw%3D%3D" }}
 {% elsif link contains "kaiweets.com" %}
 {{ link | append: "?sca_ref=3308941.pa6GV8THvq" }}
 {% elsif link contains "loratap.com" %}
@@ -76,8 +78,12 @@
 {{ link | append: "?aff=800" }}
 {% elsif link contains "ulanzi.de" %}
 {{ link | append: "?ref=blakadder" }}
+{% elsif link contains "seeedstudio.com" %}
+{{ link | append: "?sensecap_affiliate=jo7uUTK&referring_service=link" }}
 {% elsif link contains "walmart.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://ad.admitad.com/g/4jg2ecwjgpa026925063bef27d4341/?ulp=" }}
+{% elsif link contains "aidot.com" %}
+{{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=2085135&u=2442238&m=127860&urllink="  }}
 {% elsif link contains "avatarcontrols.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1651554&u=2442238&m=102746&urllink="  }}
 {% elsif link contains "switch-bot.com" %}
@@ -86,8 +92,6 @@
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1838946&u=2442238&m=114660&urllink="  }}
 {% elsif link contains "tessan.com" %}
 {{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=1930388&u=2442238&m=119947&urllink="  }}
-{% elsif link contains "linkind" %}
-{{ link | remove_first: 'https://' | uri_escape | prepend: "https://shareasale.com/r.cfm?b=2081732&u=2442238&m=101126&urllink="  }}
 {% elsif link contains "www.alibaba.com" %}
 {{ link | uri_escape | prepend: "https://offer.alibaba.com/cps/ais1lue4?bm=cps&src=saf&url=" }}
 {% else %}

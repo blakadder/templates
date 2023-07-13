@@ -1,0 +1,18 @@
+---
+date_added: 2023-04-28
+title: M5Stack AtomS3 Lite ESP32
+model: C124
+image: /assets/device_images/m5stack_atoms3_lite.webp
+templates3: '{"NAME":"M5 AtomS3 Lite","GPIO":[0,1,1,0,1057,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1376,0,0,1,1,0,32,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+link: https://www.aliexpress.com/item/1005005177952629.html
+link2: 
+link3: 
+link4: 
+mlink: https://shop.m5stack.com/products/atoms3-lite-esp32s3-dev-kit
+flash: serial
+category: diy
+type: Development Board
+standard: global
+---
+
+Very small ESP32-S3 dev board with USB-C port

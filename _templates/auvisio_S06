@@ -12,7 +12,14 @@ link: https://www.aliexpress.com/item/4000291431322.html
 link2: https://www.amazon.de/dp/B07N88CQ6Z
 unsupported: false
 ---
-## Warning 
+## Warning (new S06 devices)
+There are new unbranded S06 devices that come with Beken BK7231N chipsets on a CBU or CB3S module.  
+These device versions are not supported by Tasmota, but could be flashed with OpenBK or Tuya CloudCutter.  
+![](https://i.ibb.co/gdjw0cH/PXL-20230421-222739803.jpg)
+![](https://i.ibb.co/3yKW7L8/PXL-20230421-222802434.jpg)
+![](https://i.ibb.co/R056JLv/PXL-20230421-222844283.jpg)
+
+## Warning (older devices)
 There are two versions available from pearl.de under the same name.
 
 Model URC-150.app (NX-4519-905): Without temperature and humidity sensors, equipped with TYWE3S and fully supported

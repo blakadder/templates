@@ -236,6 +236,48 @@ layout: default
       {% endif %}
   {% endif %}
 
+  {% if page.link contains 'lilygo.cc' or page.link contains 'lilygo.cc' or page.link2 contains 'lilygo.cc' or page.link3 contains 'lilygo.cc' or page.link4 contains 'lilygo.cc' or page.link5 contains 'lilygo.cc' %}
+  <strong>Use code <code>LILYGO5</code> when buying from lilygo.cc for a 5% discount.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.mlink contains 'itead.cc' or page.link contains 'itead.cc' or page.link2 contains 'itead.cc' or page.link3 contains 'itead.cc' or page.link4 contains 'itead.cc' or page.link5 contains 'itead.cc' %}
+  <strong>Use code <code>BLAKADDER</code> when buying from itead.cc for a 10% discount.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.link contains 'mediarath' or page.link2 contains 'mediarath' or page.link3 contains 'mediarath' or page.link4 contains 'mediarath' or page.link5 contains 'mediarath' %}
+  <strong>Use code <code>BLAKADDER23</code> when buying from mediarath.de Tasmota category and a minimum order value of 50€ for a 10% discount. The code is valid until end of 2023.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'Moes' %}
+  <strong>Use code <code>BLAKADDER</code> when buying from <a href="https://www.moeshouse.com/?ref=v4thya2eufek">moeshouse.com</a> store for a 20% discount.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'Linkind' %}
+  <strong>Use code <code>LK40</code> for 40% discount on your first order or <code>LKS15</code> when buying from <a href="https://shareasale.com/r.cfm?b=2081732&u=2442238&m=101126&urllink=&afftrack=">linkind.com</a> store for a 15% discount and free shipping.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.title contains 'M5Stack' %}
+  <strong>Use code <code>BLAKADDER17</code> when buying from <a href="https://shop.m5stack.com/discount/BLAKADDER17?ref=blakadder">shop.m5stack.com</a> store for a 5% discount. </strong>
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.mlink contains 'novostella.uk' %}
+  <strong>Use code <code>BLAKADDER</code> when buying directly from Novostella for a 10% discount.</strong>
+  <br><br>
+  <p>
+  {% endif %}
+
   {% if page.flash == 'replace' %}
   This device uses 
   {% if page.chip != nil %}{{ page.chip }}
@@ -244,6 +286,9 @@ layout: default
   module which needs to be replaced with
   {% 
     if page.chip contains 'C-8138'  
+    or page.chip contains 'CB3S' 
+    or page.chip contains 'CB3L' 
+    or page.chip contains 'CR3L' 
     or page.chip contains 'FL_M93_V1'  
     or page.chip contains 'WB3' 
     or page.chip contains 'WB3L' 
@@ -253,18 +298,16 @@ layout: default
     or page.chip contains 'WR3E' 
     or page.chip contains 'WR3L' 
     or page.chip contains 'WR3N' 
-    or page.chip contains 'CB3S' 
-    or page.chip contains 'CB3L' 
     or page.chip contains 'XR3' 
   %}
-  <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a> or <a href="ESP-12H">ESP-12H</a>
+  <a href="ESP-12">ESP-12</a>, <a href="ESP8685-WROOM-01">ESP8685-WROOM-01</a>, <a href="ESP-C3-12">ESP-C3-12F</a> or <a href="ESP-12H">ESP-12H</a>
   {% 
     elsif page.chip contains 'CB2L' 
     or page.chip contains 'DT-BL200' 
     or page.chip contains 'WB2L' 
     or page.chip contains 'WR2L' 
     or page.chip contains 'WBR2L' 
-  %}<a href="DMP-L1">DMP-L1</a> or <a href="DT-ESP-C05">DT-ESP-C05</a>
+  %}<a href="DMP-L1">DMP-L1</a>, <a href="ESP8685-WROOM-05">ESP8685-WROOM-05</a> or <a href="DT-ESP-C05">DT-ESP-C05</a>
   {% 
     elsif page.chip contains 'WB2' 
     or page.chip contains 'FL_M99_V1'
@@ -283,10 +326,12 @@ layout: default
   {% 
     elsif page.chip contains 'WBLC5' 
     or page.chip contains 'CBLC5'
-  %}<a href="ESP-01D">ESP-01D</a> 
+    or page.chip contains 'ZSLC5'
+  %}<a href="ESP8685-WROOM-07">ESP8685-WROOM-07</a> or <a href="ESP-01D">ESP-01D</a>
   {% 
     elsif page.chip contains 'CBU' 
-  %} any ESP module and extensive wiring since CBU does not have a pinout compatible replacement.
+    or page.chip contains 'ZTU'
+    %} <a href="ESP8685-WROOM-06">ESP8685-WROOM-06</a> 
   {% else %}<a href="diy#module">an ESP</a>
   {% endif %}
   . Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill. Read more about module replacement in <a href="https://blakadder.com/replace-tuya-esp12/" target="_blank">a detailed guide</a>.
@@ -348,43 +393,6 @@ layout: default
 
   {% if page.flash == 'esphome' %}
   Device comes with ESPHome preinstalled and can be easily converted to Tasmota via a browser. Navigate to the device IP address, in the "OTA Update" menu select a <a href="http://ota.tasmota.com/tasmota/release/">downloaded</a> Tasmota binary and click "Update".
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.link contains 'lilygo.cc' or page.link2 contains 'lilygo.cc' or page.link3 contains 'lilygo.cc' or page.link4 contains 'lilygo.cc' or page.link5 contains 'lilygo.cc' %}
-  <strong>Use code <code>LILYGO5</code> when buying from lilygo.cc for a 5% discount.</strong>
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.link contains 'mediarath' or page.link2 contains 'mediarath' or page.link3 contains 'mediarath' or page.link4 contains 'mediarath' or page.link5 contains 'mediarath' %}
-  <strong>Use code <code>BLAKADDER23</code> when buying from mediarath.de Tasmota category and a minimum order value of 50€ for a 10% discount. The code is valid until end of 2023.</strong>
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.title contains 'Moes' %}
-  <strong>Use code <code>BLAKADDER</code> when buying from <a href="https://www.moeshouse.com/?ref=v4thya2eufek">moeshouse.com</a> store for a 20% discount.</strong>
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.title contains 'Linkind' %}
-  <strong>Use code <code>LK40</code> for 40% discount on your first order or <code>LKS15</code> when buying from <a href="https://shareasale.com/r.cfm?b=2081732&u=2442238&m=101126&urllink=&afftrack=">linkind.com</a> store for a 15% discount and free shipping.</strong>
-  <br><br>
-  <p>
-  {% endif %}
-
-  {% if page.title contains 'M5Stack' %}
-  <strong>Use code <code>BLAKADDER17</code> when buying from <a href="https://shop.m5stack.com/discount/BLAKADDER17?ref=blakadder">shop.m5stack.com</a> store for a 5% discount. </strong>
-  <br><br>
-  <p>
-  {% endif %}
-
-
-  {% if page.mlink contains 'novostella.uk' %}
-  <strong>Use code <code>BLAKADDER</code> when buying directly from Novostella for a 10% discount.</strong>
   <br><br>
   <p>
   {% endif %}

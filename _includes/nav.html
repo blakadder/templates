@@ -1,26 +1,24 @@
 <ul class="navigation" id="navigation">
-<!-- <li>Devices by Type -->
-    {% assign cat = site.data.nav.toc %}
-{% for item in cat %}
-    <li><a class="{% if page.url == item.url %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.name }}</a>
-        <div style="display: flex; flex-flow: row wrap;" id="subnav">
-            {% for entry in item.subnav %}
-            <div><a class="{% if page.url == entry.url %}active{% endif %}" href="{{ entry.url | relative_url }}">{{ entry.title }} 
-                {% unless forloop.last %} |&nbsp; {% endunless %}</a></div>
-            {% endfor %}
-        </div>
-    </li>
-{% endfor %}
-<br>
-<div id="navigation" style="text-align: center; ">
-    <a class="button button button-black" href="new.html">Add new template</a>
+    <!-- <li>Devices by Type -->
+        {% assign cat = site.data.nav.toc %}
+    {% for item in cat %}
+        <li><a class="{% if page.url == item.url %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+            <ul class="subnav" id="navigation"><li><div style="display: flex; flex-flow: row wrap; " id="subnav">{% for entry in item.subnav %}
+            <a class="{% if page.url == entry.url %}active{% endif %}" href="{{ entry.url | relative_url }}">{{ entry.title }}</a>{% unless forloop.last %}&nbsp;|&nbsp;{% endunless %} 
+            {% endfor %}</div></li>
+            </ul>
+        </li>
+    {% endfor %}
     <br>
-    <a href="https://twitter.com/intent/tweet?screen_name=blakadder_&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @blakadder_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <a href="https://paypal.me/tasmotatemplates" target="_blank"><img src="https://img.shields.io/static/v1?logo=paypal&label=&message=donate&color=slategrey"></a><a href="https://ko-fi.com/S6S650JEK" target="_blank"><img src="https://img.shields.io/static/v1?logo=kofi&label=&message=buy%20me%20a%20coffee&color=FBAA19&labelColor=434B57"></a>
-    <span style="font-size:0.7em;">When purchasing devices through affiliated links you support this site!</span>
-</div>
-<div id="navigation" style="text-align: center; ">
-<br>
-<br>
-<br>
-</div>
+    <div id="navigation" style="text-align: center; ">
+        <a class="button button button-black" href="new.html">Add new template</a>
+        <br>
+        <a href="https://twitter.com/intent/tweet?screen_name=blakadder_&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @blakadder_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://paypal.me/tasmotatemplates" target="_blank"><img src="https://img.shields.io/static/v1?logo=paypal&label=&message=donate&color=slategrey"></a><a href="https://ko-fi.com/S6S650JEK" target="_blank"><img src="https://img.shields.io/static/v1?logo=kofi&label=&message=buy%20me%20a%20coffee&color=FBAA19&labelColor=434B57"></a>
+        <span style="font-size:0.7em;">When purchasing devices through affiliated links you support this site!</span>
+    </div>
+    <div id="navigation" style="text-align: center; ">
+    <br>
+    <br>
+    <br>
+    </div>

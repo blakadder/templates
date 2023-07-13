@@ -13,3 +13,5 @@ type: Plug
 standard: us
 ---
 2 USB Power ports toggle together with button double click
+
+Note: Tuya convert still worked as of 2023-05-25

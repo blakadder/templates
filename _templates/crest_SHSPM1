@@ -1,0 +1,14 @@
+---
+date_added: 2023-06-25
+title: Crest Single Power Adaptor
+model: SHSPM1
+image: /assets/device_images/crest_SHSPM1.webp
+template9: '{"NAME":"SHSPM1","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":52}' 
+link: https://www.bigw.com.au/product/crest-smart-single-adaptor-power-monitoring/p/173023
+link2: 
+mlink: https://www.crest.com.au/collections/power/products/smart-wifi-controlled-single-power-adaptor
+flash: serial
+category: plug
+type: Plug
+standard: au
+---

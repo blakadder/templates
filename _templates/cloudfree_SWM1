@@ -18,4 +18,7 @@ SwitchMode1 2;
 SwitchMode2 1;
 SetOption114 1
 ```
-Sensors are decoupled by default.
+Sensors are decoupled by default. `SwitchMode1 2` sets the motion sensor to inverted-follow,
+which results in the switch showing `on` when motion is detected. `SwitchMode2 1` sets the
+ambient light sensor to follow, so `on` represents light detected. And `SetOption114 1` sends
+the switch status via MQTT. The button will still operate the relay.

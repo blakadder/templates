@@ -11,15 +11,15 @@ chip: c3
 mlink: http://www.ai-thinker.com/pro_view-90.html
 link: https://www.aliexpress.com/item/1005002871304962.html
 link2: https://www.alibaba.com/product-detail/Ai-Thinker-ESP32-C3F-new-WIFI_1600232771301.html
-link3: 
+link3: https://www.amazon.com/gp/product/B0BNWTCPV8/
 footprint: esp12
 ---
-Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compatible module.
+Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing an incompatible module.
 
 There are two different versions of this module:
 
 - **C3FN4** with 4Mb flash
-- **C3-2M** with 2Mb flash. This version is not recommended for Tasmota due to low flash space.
+- **C3-2M** with 2Mb flash. This version is **not recommended** for Tasmota due to low flash space.
 
 {% include flash/c3.md %}
 

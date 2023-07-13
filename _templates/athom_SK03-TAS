@@ -1,0 +1,16 @@
+---
+date_added: 2023-07-12
+title: Athom 16A UK
+model: SK03-TAS
+image: /assets/device_images/athom_SK03-TAS.webp
+template9: '{"NAME":"Athom SK03-TAS","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}' 
+mlink: https://www.athom.tech/blank-1/tasmota-uk-wall-socket
+link: https://www.aliexpress.com/item/1005005796103736.html
+link2: 
+flash: preflashed
+category: plug
+type: Wall Outlet
+standard: uk
+---
+
+

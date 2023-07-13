@@ -1,0 +1,41 @@
+---
+date_added: 2023-06-07
+title: Seeed Studio XIAO ESP32S3 SENSE
+model: XIAO-ESP32-S3-SENSE
+category: diy
+type: Camera
+standard: global
+image: /assets/device_images/seeedstudio_XIAO_ESP32S3_SENSE.webp
+templates3: '{"NAME":"XIAO-SENSE","GPIO":[32,1,1,6720,1,1,1,736,672,704,4992,5094,5093,5184,5092,5088,5091,5089,5090,0,0,544,0,0,0,0,0,5120,5056,5024,7872,7840,0,1,7808,7776,5152,5095],"FLAG":0,"BASE":1}' 
+mlink: https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html
+link: https://www.aliexpress.com/item/4000011805115.html
+flash: serial
+chip: s3
+---
+
+Add the following environment to `platformio_tasmota_cenv.ini` or `platformio_override.ini` and compile the `tasmota32c3-xiaosense` build.
+
+```ini
+[env:tasmota32s3-xiaosense]
+extends                 = env:tasmota32s3
+board                   = esp32s3cdc-qio_opi
+build_flags             = ${env:tasmota32_base.build_flags}
+                          -UFIRMWARE_TASMOTA32
+                          -DUSE_WEBCAM
+                          -DUSE_I2C
+                          -DUSE_I2S
+                          -DUSE_I2S_AUDIO
+                          -DUSE_I2S_MIC
+                          -DMIC_PDM
+                          ; -DMIC_CHANNELS=2
+                          ; -DMICSRATE=32000
+                          -DUSE_SHINE
+                          -DI2S_BRIDGE
+                          -DMP3_MIC_STREAM
+                          -DMP3_STREAM_PORT=82
+                          -DOTA_URL='"-"'
+                          -DCODE_IMAGE_STR='"xiaosense"'
+lib_extra_dirs          = lib/libesp32, lib/lib_basic, lib/lib_i2c, lib/lib_audio, lib/lib_ssl, lib/libesp32_audio
+```
+
+[Documentation](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started)

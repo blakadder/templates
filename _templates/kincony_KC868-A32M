@@ -1,0 +1,17 @@
+---
+date_added: 2023-05-30
+title: KinCony 32 Channel MOSFET 
+model: KC868-A32M
+image: /assets/device_images/kincony_KC868-A32M.webp
+template32: '{"NAME":"KC868-A32M","GPIO":[0,1,0,1,640,608,1,1,1,3200,1152,3232,1088,1,5600,0,0,1,0,5568,0,1,0,0,0,0,0,0,0,0,4704,4705,4707,0,0,4706],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/3256805341149161.html
+link2: 
+mlink: https://www.kincony.com/32-channel-esp32-mosfet-board.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+32CH MOSFET output + 4CH analog input + RS485 + Ethernet + WiFi + Bluetooth + 4G SIM7600 or 2G SIM800L GSM module + DS3231 RTC module + RF433MHz Receiver
+
+<https://www.kincony.com/forum/showthread.php?tid=2826>

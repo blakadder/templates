@@ -3,6 +3,7 @@ date_added: 2022-12-20
 title: wesmartify Smart Home Aktor Shut It TASMOTA
 model: 120431
 image: /assets/device_images/wesmartify_120431.webp
+template9: '{"NAME":"ITzy","GPIO":[0,0,0,0,225,224,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: 
 link2: 
 mlink: https://lite.al/jVzOo
@@ -11,3 +12,8 @@ category: cover
 type: Curtain Module
 standard: eu
 ---
+
+Attention: current version of the device might require installing your own custom build of Tasmota. Shutter Calibration requires vendor's Cloud-App.
+Reason: "ShutterMode" is not included in the preinstalled Tasmota build. 
+
+Also, only restricted set of Tasmota features is supported. Reason: The device uses the dual controller (Tuya) design as described on [Tuya Covers in Tasmota](blakadder.com/tuya-covers)

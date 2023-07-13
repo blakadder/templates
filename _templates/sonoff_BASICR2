@@ -40,6 +40,8 @@ Unlike GPIO3, the GPIO2 PCB contact is not prepared for a pin. You will need to 
 
 Image from [elty.pl](https://elty.pl/SonoffBasicR2PCBv13).
 
+For version 1.3, you may need not to cross TX and RX lines. Works for version 1.3-2022.03.09.
+
 ## V1.4
 LEDs are now blue and red (previously green and red).
 ![V1.4 PCB](/assets/device_images/sonoff_BASICR2_1.4.webp)

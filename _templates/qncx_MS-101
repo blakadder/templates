@@ -1,0 +1,16 @@
+---
+date_added: 2023-05-29
+title: QNCX Smart Breaker
+model: MS-101
+image: /assets/device_images/qncx_MS-101.webp
+template9: '{"NAME":"QNCX Smart breaker","GPIO":[0,0,0,0,160,224,0,0,0,320,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004650496700.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: global
+---
+
+Module is named "m32-v1.0" but it's almost the same as TYWE2S so it;s easy to solder vcc, gnd, rx, tx; remember to touch (not need to soldering) pin gpio0 during coonnection - it's on the back labelled as "00".

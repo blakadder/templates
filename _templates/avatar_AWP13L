@@ -1,0 +1,14 @@
+---
+date_added: 2023-06-14
+title: Avatar 
+model: AWP13L
+image: /assets/device_images/avatar_AWP13L.webp
+template9: '{"NAME":"Generic","GPIO":[0,0,320,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B08DXJ3J9P/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

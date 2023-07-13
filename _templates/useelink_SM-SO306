@@ -1,0 +1,15 @@
+---
+date_added: 2023-07-07
+title: Useelink 4AC 2USB 
+model: SM-SO306
+image: /assets/device_images/useelink_SM-SO306.webp
+template9: '{"NAME":"306 Power Strip","GPIO":[576,0,576,291,259,32,0,0,257,258,256,0,228,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.sa/-/en/dp/B093PZD8Y8
+link2: 
+mlink: 
+flash: tuya-convert
+category: switch
+type: Power Strip
+standard: uk
+---
+There are many tuya power strips similar, so I hope it works

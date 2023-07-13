@@ -491,56 +491,57 @@
 {% else %}
 
 <table style="font-size: 1.25rem; width: 100%;">
-    <tr><th style="width: 40%;">GPIO #</th><th style="width: 60%;">Component</th></tr>
+    <tr><th>GPIO #</th><th>Component</th></tr>
     {% if page.template9 != nil %}
     {% assign template = page.template9 | split: ':' %}
     {% elsif page.templatec3 != nil %}
     {% assign template = page.templatec3 | split: ':' %}
     {% elsif page.templates2 != nil %}
     {% assign template = page.templates2 | split: ':' %}
+    {% elsif page.templates3 != nil %}
+    {% assign template = page.templates3 | split: ':' %}
     {% elsif page.template32 != nil %}
     {% assign template = page.template32 | split: ':' %}
     {% endif %}
       {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
       {% for gpio in gpios %}
-    <tr>
+    <tr style="white-space: nowrap;">
         {% if page.template9 != nil %}
-            <td>{% if forloop.index == 7 %}GPIO09
-                {% elsif forloop.index == 8 %}GPIO10   
-                {% elsif forloop.index == 9 %}GPIO12
-                {% elsif forloop.index == 10 %}GPIO13
-                {% elsif forloop.index == 11 %}GPIO14
-                {% elsif forloop.index == 12 %}GPIO15
-                {% elsif forloop.index == 13 %}GPIO16
-                {% elsif forloop.index == 14 %}GPIO17
-                {% else %}{{ forloop.index0 | prepend: 'GPIO0' }} 
-                {% endif %}
+            {% if forloop.index == 7 %}<td>GPIO09</td>
+            {% elsif forloop.index == 8 %}<td>GPIO10</td>  
+            {% elsif forloop.index >= 9 %}<td>{{ forloop.index | plus: 3 | prepend: 'GPIO' }}</td>
+            {% else %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
+            {% endif %}
             </td>
+        {% elsif page.templatec3 != nil %}
+            {% if forloop.index0 == 11 %}{% continue %}
+            {% elsif forloop.index0 == 14 %}{% continue %}
+            {% elsif forloop.index0 == 15 %}{% continue %}
+            {% elsif forloop.index0 == 16 %}{% continue %}
+            {% elsif forloop.index0 == 17 %}{% continue %}
+            {% elsif forloop.index <= 10 %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
+            {% else %}<td>{{ forloop.index0 | prepend: 'GPIO' }}</td>
+            {% endif %}
+            
         {% elsif page.templates2 != nil %}
-            <td> {% if forloop.index == 23 %}GPIO33
-                {% elsif forloop.index == 24 %}GPIO34
-                {% elsif forloop.index == 25 %}GPIO35
-                {% elsif forloop.index == 26 %}GPIO36
-                {% elsif forloop.index == 27 %}GPIO37
-                {% elsif forloop.index == 28 %}GPIO38
-                {% elsif forloop.index == 29 %}GPIO39
-                {% elsif forloop.index == 30 %}GPIO40
-                {% elsif forloop.index == 31 %}GPIO41
-                {% elsif forloop.index == 32 %}GPIO42
-                {% elsif forloop.index == 33 %}GPIO43
-                {% elsif forloop.index == 34 %}GPIO44
-                {% elsif forloop.index == 35 %}GPIO45
-                {% elsif forloop.index == 36 %}GPIO46
-                {% else %}{{ forloop.index0 | prepend: 'GPIO0' }} 
-                {% endif %}
-            </td>
+            {% if forloop.index0 > 21 %}<td>{{ forloop.index0 | plus: 11 | prepend: 'GPIO' }}</td>
+            {% elsif forloop.index <= 10 %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
+            {% else %}<td>{{ forloop.index0 | prepend: 'GPIO' }}</td>
+            {% endif %}          
+
+        {% elsif page.templates3 != nil %}
+            {% if forloop.index0 > 21 %}<td>{{ forloop.index0 | plus: 11 | prepend: 'GPIO' }}</td>
+            {% elsif forloop.index <= 10 %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
+            {% else %}<td>{{ forloop.index0 | prepend: 'GPIO' }}</td>
+            {% endif %}          
+
         {% elsif page.template32 != nil %}
-            <td> {% if forloop.index == 25 %}GPIO6
-                {% elsif forloop.index == 26 %}GPIO7
-                {% elsif forloop.index == 27 %}GPIO8
-                {% elsif forloop.index == 7 %}GPIO09
+            <td>{% if forloop.index == 7 %}GPIO09
                 {% elsif forloop.index == 8 %}GPIO10
                 {% elsif forloop.index == 9 %}GPIO12
+                {% elsif forloop.index == 25 %}GPIO6
+                {% elsif forloop.index == 26 %}GPIO7
+                {% elsif forloop.index == 27 %}GPIO8
                 {% elsif forloop.index == 10 %}GPIO13
                 {% elsif forloop.index == 11 %}GPIO14
                 {% elsif forloop.index == 12 %}GPIO15
@@ -566,8 +567,7 @@
                 {% elsif forloop.index == 35 %}GPIO38
                 {% elsif forloop.index == 36 %}GPIO39
                 {% else %}{{ forloop.index0 | prepend: 'GPIO0' }} 
-                {% endif %}
-            </td>
+                {% endif %}</td>
         {% else %}
             <td>{{ forloop.index0 | prepend: 'GPIO0' }} 
             </td>
@@ -1189,6 +1189,12 @@
             Button_id 4
             {% when "7744" %}
             74x595 SER
+            {% when "7776" %}
+            I2S DOUT
+            {% when "7808" %}
+            I2S BCLK
+            {% when "7840" %}
+            I2S WS
             {% when "7872" %}
             I2S DIN1
             {% when "7904" %}
@@ -1295,6 +1301,8 @@
             Dingtian PL
             {% when "9856" %}
             Dingtian RCK
+            {% when "9952" %}
+            ModBr Tx Ena
             {% else %}
             ???
             {% endcase %}

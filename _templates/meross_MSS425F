@@ -1,14 +1,31 @@
 ---
-date_added: 2021-01-25
+date_added: 2023-07-13
 title: Meross 4AC 4USB
 model: MSS425F
 image: /assets/device_images/meross_MSS425F.webp
-template9: '{"NAME":"HamaStrip","GPIO":[0,544,0,32,225,224,0,0,226,227,228,0,0,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.de/gp/product/B07PMWYNSW/
+template9: '{"NAME":"MSS425F","GPIO":[0,544,0,32,225,224,0,0,226,227,260,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://shop.meross.com/products/meross-smart-power-strip
+link3: https://www.amazon.de/gp/product/B07PMWYNSW/
 link2: https://www.amazon.com/gp/product/B07NBNJ32V/
-mlink: https://www.meross.com/product/19/article/
-flash: serial
+mlink: https://shop.meross.com/search?q=MSS425F
+flash: replace
 category: plug
 type: Power Strip
 standard: [us,eu,uk,fr,jp]
 ---
+
+You have to replace the existing MWA6S with a (previously programmed) [ESP-02S](ESP-02S) or [ESP8685-WROOM-03](ESP8685-WROOM-03).
+
+You need a size 2.0 triangle bit to open the case. The screws are under rubber stoppers, a fine screwdriver or needle pulls them out.
+In addition, the underside is clipped in.
+
+Successfully opened you can remove the circuit board with the MWA6S on a breakout board.
+
+![MWA6S module on a breakout](/assets/device_images/meross_MSS425F_MWA6S.webp)
+
+The MWA6S is held in place with a drop of glue: remove, then desolder the part.
+
+![remove the glue](/assets/device_images/meross_MSS425F_remGlue.webp)
+
+Solder in the ESP-02S and fix it again with glue.
+![new ESP-02S](/assets/device_images/meross_MSS425F_ESP-02S.webp)
