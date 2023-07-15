@@ -1,0 +1,19 @@
+---
+date_added: 2022-07-15
+title: Martin Jerry Humidity Sensor Switch
+model: US-SS02
+category: switch
+type: Switch
+standard: us
+flash: preflashed
+link: https://www.amazon.com/dp/B0C7L49BXL
+image: /assets/device_images/martin_jerry_SS02.webp
+---
+
+Adding Humidity Level Rule:
+Go to the console and input the following command.
+1.rule1 ON AHT2X#Humidity>80 DO power 1 ENDON ON AHT2X#Humidity<75 DO power 0 ENDON
+2.rule1 5
+3.rule1 1
+
+Note: the numbers 80 and 75 in the command are two boundaries of when you want to turn on and off the fan. It means the switch will turn on when humidity is over 80%, and turn off when it goes down to 75%.
