@@ -6,7 +6,7 @@ category: Switch
 type: DIN Relay
 flash: preflashed
 standard: us
-image: /assets/images/martin_jerry_ZKG30A.webp
+image: /assets/device_images/martin_jerry_ZKG30A.webp
 template9: '{"NAME":"30A Breaker","GPIO":[0,0,0,0,7584,224,0,0,2720,32,2656,2624,320,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.com/dp/B0BXKHG3BK
 link2: 
