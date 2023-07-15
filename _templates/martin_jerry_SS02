@@ -10,6 +10,8 @@ link: https://www.amazon.com/dp/B0C7L49BXL
 image: /assets/device_images/martin_jerry_SS02.webp
 ---
 
+Warning: This device requires AHT2x support which is not included in default tasmota builds and requires a custom build in order to use
+
 Adding Humidity Level Rule:
 Go to the console and input the following command.
 1.rule1 ON AHT2X#Humidity>80 DO power 1 ENDON ON AHT2X#Humidity<75 DO power 0 ENDON
