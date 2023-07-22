@@ -18,7 +18,7 @@ standard: [eu]
 
 ![Pinout](/assets/device_images/sonoff_tx_ultimate_pinout.webp)
 
-There are pin holes for 3V3, TX, RX and GND. You can flash without soldering by inserting a 4 pin header and apply sideways pressure to maintain contact. You will need to ground the BOOT pad during flashing process so an extra pair of hands might be needed. 
+There are pin holes for 3V3, TX, RX and GND. You can flash without soldering by inserting a 4 pin header and applying sideways pressure to maintain contact. You will need to ground the BOOT pad during flashing process therefore an extra pair of hands might be needed. 
 
 ## Touch Panel Driver
 
@@ -32,11 +32,9 @@ Driver is just recognising touch events for now and reports them to the RESULT t
 
 Control the haptic feedback motor with [`Buzzer`](https://tasmota.github.io/docs/Commands/#buzzer) command
 
-Set the proper LED count with `Pixels 27`. If you want advanced control over LEDs like custom effect and segmenting you need to program them with [Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/). If you do build new effects please share them one the [driver GitHub](https://github.com/blakadder/tx-ultimate/)
+Set the proper LED count with `Pixels 27`. If you want advanced control over LEDs like custom effect and segmenting you need to program them with [Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/). If you do build new effects please share them on the [driver GitHub](https://github.com/blakadder/tx-ultimate/)
 
 ## I2S Audio Support
-
-Best results are with using `I2SSay` for text-to-speech or `I2SRtttl` to play [RTTTL tones](https://picaxe.com/rtttl-ringtones-for-tune-command/). Audio file playback sounds terrible and is very noisy but a fix is found and will be available soon.
 
 To have I2S audio support you will need to compile a custom binary.
 
@@ -59,9 +57,9 @@ build_flags             = ${env:tasmota32_base.build_flags}
 
 ## Linking it All Together
 
-No feature of the original firmware are replicated. You have total freedom to adapt the switch to your need with [Rules](https://tasmota.github.io/docs/Rules) or additional [Berry](https://tasmota.github.io/docs/Berry/) functions or a combination of both.
+Features of the original firmware aren't replicated in the driver. You have total freedom to adapt the switch to your needs and wants with [Rules](https://tasmota.github.io/docs/Rules), additional [Berry](https://tasmota.github.io/docs/Berry/) functions or a combination of both.
 
-For example you can do set any short press to toggle the relay and LEDs, vibrate twice and say click
+For example you can do the following: set any short press to toggle the relay and LEDs, vibrate twice and say "activated" via tts.
 
 ```console
 rule1 on TXultimate#Action=Short do Backlog Buzzer 1,2; Power1 2; Power2 2; I2SSay activated endon
