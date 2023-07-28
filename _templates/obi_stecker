@@ -6,6 +6,7 @@ standard: eu
 link: https://www.obi.de/hausfunksteuerung/wifi-stecker-schuko/p/2291706
 image: https://user-images.githubusercontent.com/5904370/57953956-cdfef380-78f1-11e9-9a69-37609bec9cee.png
 template: '{"NAME":"OBI Socket","GPIO":[255,255,0,255,52,21,0,0,54,255,17,0,255],"FLAG":1,"BASE":51}' 
+template9: '{"NAME":"Euromate","GPIO":[1,1,1,1,288,224,1,1,289,1,32,1,1,1],"FLAG":0,"BASE":18}' 
 link2: 
 ---
 ## Serial Flashing
@@ -13,14 +14,13 @@ Opening the socket is kind of difficult. If you have one of the [Tri-Wing screwd
 it is much more easier. If you haven't got use a normal head screwdriver. Be careful not damaging your hand with it.
 > Tip: Afterwards use normal cross screws to close the casing.
 
-```
 | ESP | Programmer |
 |-----|------------|
 | VCC | 3V3        |
 | TX  | RX         |
 | RX  | TX         |
 | GND | GND        |
-```
+
 Connect GPIO0 to GND before connecting power to enable flash mode!
 
 ### Additional Information

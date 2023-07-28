@@ -1,0 +1,14 @@
+---
+date_added: 2023-07-16
+title: Polycam Hohm Lanre 16A 
+model: SLV191000
+image: /assets/device_images/polycam_SLV191000.webp
+template9: '{"NAME":"SLV1910001","GPIO":[0,0,0,32,2720,2656,0,0,2624,576,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.in/dp/B09HGW1GNR
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: in
+---
