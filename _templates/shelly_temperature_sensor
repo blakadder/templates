@@ -4,7 +4,7 @@ title: Shelly Add-on
 model: 
 image: /assets/device_images/shelly_temperature_sensor.webp
 template: '{"NAME":"Shelly 1 Temp ","GPIO":[192,0,0,4,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}' 
-link1: https://www.amazon.de/gp/offer-listing/B081FF9G2K/
+link1: https://www.amazon.de/dp/B081FF9G2K/
 link2: https://www.domadoo.fr/en/objets-communicants/5393-shelly-adapteur-de-sonde-de-temperature-pour-shelly-11pm-3809511202265.html
 link3: https://www.alza.de/shelly-addon-modul-zum-anschliessen-eines-temperatursensors-an-ein-shelly-1-pm-d6326703.htm
 link4: https://www.idealo.de/preisvergleich/OffersOfProduct/201056166_-addon-ht-ar-shelly-temp-sens-ao1-1pm-shelly.html
