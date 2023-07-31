@@ -1,0 +1,15 @@
+---
+date_added: 2023-07-31
+title: IoT Controller ESP32-C3
+model: YD-ESP32-C3-4IN4OUT
+image: /assets/device_images/YD-ESP32-C3-4IN4OUT.webp
+templatec3: '{"NAME":"YD-ESP32-C3-4IN4OUT","GPIO":[32,33,0,0,224,225,226,227,34,35,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+link: https://www.aliexpress.com/item/1005002709444272.html
+mlink: https://github.com/vcc-gnd/YD-ESP32-C3-4IN4OUT
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+
+[Schematics](https://github.com/vcc-gnd/YD-ESP32-C3-4IN4OUT/blob/main/YD-ESP32-C3-4IN4OUT-SCH.pdf)
