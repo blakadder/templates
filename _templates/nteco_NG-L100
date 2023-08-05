@@ -1,0 +1,22 @@
+---
+date_added: 2023-07-22
+title: NGteco 
+model: NG-L100
+image: /assets/device_images/nteco_NG-L100.webp
+template9: '{"NAME":"NGTECO L100","GPIO":[0,0,0,0,0,418,0,0,417,0,416,419,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.ca/dp/B0893572K4
+link2: https://shopee.com.my/product/250302471/8803654988
+mlink: 
+flash: serial
+category: bulb
+type: RGBW
+standard: [e27, e26]
+---
+To enable warm white
+
+Enable Virtual CT with `SetOption106 1``
+Enable cold white `SetOption107 1``
+
+PCB images:
+
+<https://photos.app.goo.gl/9aYKtTfbcFpYNNnf7>

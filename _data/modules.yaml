@@ -29,6 +29,7 @@ esp12:
   - module: XR3
   - module: WB3
   - module: WB3L
+  - module: WB3N
   - module: WB3R
   - module: WB3S
   - module: WB8
@@ -48,6 +49,7 @@ tywe2s:
   - module: WR2
   - module: WB2
   - module: WBR2
+  - module: WBR2D
   - module: WR2E
   - module: WB2S
   - module: WA2
@@ -57,3 +59,5 @@ tylc5:
   - module: CBLC5 
   - module: WBLC5
   - module: ZSLC5
+wroom-02:
+  - module: WBR1D

@@ -1,0 +1,31 @@
+---
+date_added: 2023-07-23
+title: ARLEC 5m Colour Changing
+model: ALD557HA
+image: /assets/device_images/arlec_ALD557HA.webp
+template9: '{"NAME":"ALD557HA","GPIO":[0,0,0,0376,0,0,0,0,0,1088,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.bunnings.com.au/arlec-5m-colour-changing-grid-connect-smart-led-with-sound-sync_p0255451
+link2: 
+mlink: 
+flash: serial
+category: light
+type: LED Strip
+standard: au
+---
+
+Remap (swap) the RED and GREEN channels with: `SetOption37 24`
+
+Some rules to do basic remote control functions
+
+```console
+rule1
+on IrReceived#Data=0xABAB8A75 do power1 on endon
+on IrReceived#Data=0xABAB6A95 do power1 off endon
+on IrReceived#Data=0xABAB807F do dimmer + endon
+on IrReceived#Data=0xABABE41B do dimmer - endon
+on IrReceived#Data=0xABAB10EF do color2 #FF0000 endon
+on IrReceived#Data=0xABAB18E7 do color2 #00FF00 endon
+on IrReceived#Data=0xABAB06F9 do color2 #0000FF endon
+on IrReceived#Data=0xABAB20DF do scheme 6 endon
+on IrReceived#Data=0xABABA25D do color2 #FFFFFF on endon
+```

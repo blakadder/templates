@@ -1,0 +1,14 @@
+---
+date_added: 2023-07-28
+title: Ucomen Night Light 
+model: PA-US3-01SWL
+image: /assets/device_images/ucomen_PA-US3-01SWL.webp
+template9: '{"NAME":"UCOMEN Plug","GPIO":[0,0,0,0,544,320,0,0,224,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B082D99SH9/
+link2: 
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: us
+---

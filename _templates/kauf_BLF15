@@ -1,0 +1,14 @@
+---
+date_added: 2023-08-01
+title: Kauf esphome A15 5W
+model: BLF15
+image: /assets/device_images/kauf_BLF15.webp
+template9: '{"NAME":"Kauf Bulb","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/gp/product/B0B3SCKQNL
+link2: 
+mlink: https://www.kaufha.com/
+flash: esphome
+category: bulb
+type: RGBCCT
+standard: e26
+---

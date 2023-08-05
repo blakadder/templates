@@ -1,0 +1,14 @@
+---
+date_added: 2023-07-27
+title: Avidsen Home
+model: 127006
+image: /assets/device_images/avidsen_127006.webp
+template9: '{"NAME":"Avidsen HomePlug","GPIO":[0,0,0,0,224,35,0,0,289,288,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.fr/dp/B07ZTSY83H/
+link2: 
+mlink: https://www.avidsen.com/fr/produit/127006fr
+flash: tuya-convert
+category: plug
+type: Plug
+standard: fr
+---
