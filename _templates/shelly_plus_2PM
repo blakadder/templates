@@ -34,3 +34,6 @@ The internal temperature sensor on PCB v0.1.9 was desoldered and measured to be 
 ![](/assets/device_images/shelly_plus_2pm_pinout.webp)
 The pin ports on this board can handle Dupont cables if done carefully, and will probably crumble shortly thereafter.
 The other surface connectors seem unusually weakly connected to the PCB, and you may destroy them while using them.
+
+## Shelly Temperature Sensor
+In order for the temperature sensor to display accurate values, the analog input must be configured correctly. This can be done using the command: "AdcParam1 2,10000,10000,3350".
