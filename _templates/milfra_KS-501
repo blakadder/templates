@@ -1,0 +1,17 @@
+---
+date_added: 2023-08-10
+title: Milfra KS501-EU16A_V06
+model: KS-501
+image: /assets/device_images/milfra_KS-501.webp
+templatec3: '{"NAME":"KS501-EU16A_V06","GPIO":[0,0,0,0,0,0,0,0,0,0,224,0,0,0,0,0,0,0,576,32,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.de/dp/B0B25D7TC1/
+link2: https://www.amazon.com.be/dp/B09C3CDFM6/
+link3: 
+mlink: https://www.milfra.com/products/smart-timing-switch-eu-fr-plug-smartlife-app-control-voice-by-google-assistant-alexa-remote-by-android-iphone-tuya-app-67
+flash: serial
+category: plug
+type: Plug
+standard: [eu, fr]
+---
+
+Pinouts are shown on the ESP32 Board. It's VCC, GNC, RX, TX, ESP32C3 Rev.3

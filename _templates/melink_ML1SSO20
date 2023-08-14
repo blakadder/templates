@@ -1,0 +1,14 @@
+---
+date_added: 2023-08-06
+title: MELINK Smart Socket
+model: ML1SSO20
+image: /assets/device_images/melink_ML1SSO20.webp
+template9: '{"NAME":"MeLink ML1SSO20","GPIO":[0,32,0,32,2720,2656,0,0,2624,288,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://allegro.pl/oferta/smart-home-gniazdko-melink-wifi-aplikacja-13952808297
+link2: 
+mlink: https://melink.eu/en/produkty-lista/wi-fi-smart-socket/
+flash: serial
+category: plug
+type: Plug
+standard: fr
+---
