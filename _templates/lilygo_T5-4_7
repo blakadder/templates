@@ -15,6 +15,7 @@ link5: https://www.dfrobot.com/product-2323.html
 ---
 
 `platformio_tasmota_cenv.ini`
+
 ```ini
 [env:tasmota32-ttgo47]
 extends                 = env:tasmota32_base
@@ -24,6 +25,7 @@ lib_extra_dirs          = lib/libesp32, lib/lib_basic, lib/lib_i2c, lib/lib_disp
 ```
 
 `user_config_override.h`
+
 ```c
 #ifdef FIRMWARE_EPD47
     #undef CODE_IMAGE_STR
