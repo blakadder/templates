@@ -7,6 +7,7 @@ template32: '{"NAME":"LilyGo ESP32 Relay 8","GPIO":[1,1,1,1,1,231,1,1,227,226,1,
 link: https://www.amazon.com/dp/B09XWWYK4V/
 link2: https://www.aliexpress.com/item/1005004335642099.html
 link3: https://www.amazon.de/dp/B0B6TY79WN/
+link4: https://www.banggood.com/LILYGO-T-Relay-5V-8-Channel-Relay-Module-ESP32-Wireless-Development-Board-WIFI-Bluetooth-With-Optocoupler-Isolation-For-Arduino-p-1966272.html
 mlink: https://www.lilygo.cc/products/t-relay-5v-8-channel-relay
 flash: serial
 category: relay
