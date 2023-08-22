@@ -12,4 +12,4 @@ category: switch
 type: Switch
 standard: za
 ---
-Run `SwitchMode 1`
+Run `SwitchMode1 4`
