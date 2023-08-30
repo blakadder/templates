@@ -26,6 +26,18 @@ title: ESP32 Based Devices
 </tbody>
 </table>
 
+<h2>ESP32-C6 Based Devices</h2>
+
+<!-- ######################################################################  -->
+<table width="80%">
+    <tbody>
+    {% assign devices = site.templates | where_exp: "devices", "devices.templatec6 != nil" | sort_natural: 'title' %}     
+    {% for template in devices %}
+    {% include tablerow_standard.html %}
+    {% endfor %}
+</tbody>
+</table>
+
 <h2>ESP32-S2 Based Devices</h2>
 
 <!-- ######################################################################  -->
