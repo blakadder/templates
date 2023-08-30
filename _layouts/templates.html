@@ -21,6 +21,7 @@ layout: default
       {% elsif page.templates2 != nil %}ESP32-S2
       {% elsif page.templates3 != nil %}ESP32-S3
       {% elsif page.templatec3 != nil %}ESP32-C3
+      {% elsif page.templatec6 != nil %}ESP32-C6
       {% else %}ESP8266
       {% endif %}
     </id>
@@ -118,6 +119,18 @@ layout: default
 <div class="row">
   <div class="column column-100">
     <pre><code class="language-json" style="white-space: nowrap">{{ page.templatec3 }}</code></pre>
+</div>
+</div>
+{% endif %}
+
+{% if page.templatec6 != nil %}
+<div class="row">
+  <div class="column"><strong>Configuration for ESP32-C6</strong></div>
+  <div class="column-10"><a class="button button-outline button-small menu" href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}">Edit on GitHub</a></div>
+</div>
+<div class="row">
+  <div class="column column-100">
+    <pre><code class="language-json" style="white-space: nowrap">{{ page.templatec6 }}</code></pre>
 </div>
 </div>
 {% endif %}
@@ -226,8 +239,12 @@ layout: default
       {% assign template = page.template32 | split: ':' %}
     {% elsif page.templatec3 != nil %}
       {% assign template = page.templatec3 | split: ':' %}
+    {% elsif page.templatec6 != nil %}
+      {% assign template = page.templatec6 | split: ':' %}
     {% elsif page.templates2 != nil %}
       {% assign template = page.templates2 | split: ':' %}
+    {% elsif page.templates3 != nil %}
+      {% assign template = page.templates3 | split: ':' %}
     {% endif %}
     {% assign gpios = template[2] | remove: '[' | remove: '],"FLAG"' | split: ',' %}
       {% if gpios contains '2624' or gpios contains '2656' or gpios contains '2688' or gpios contains '2720' or gpios contains '2752' or gpios contains '2784' or gpios contains '2816' or gpios contains '3072' or gpios contains '3104' or gpios contains '3456' or gpios contains '7296' or gpios contains '7328' or gpios contains '8128'%}
