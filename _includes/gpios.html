@@ -526,8 +526,7 @@
             {% endif %}
             
         {% elsif page.templatec6 != nil %}
-            {% if forloop.index0 > 21 %}<td>{{ forloop.index0 | plus: 11 | prepend: 'GPIO' }}</td>
-            {% elsif forloop.index <= 10 %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
+            {% if forloop.index <= 10 %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
             {% else %}<td>{{ forloop.index0 | prepend: 'GPIO' }}</td>
             {% endif %}          
 
@@ -538,7 +537,8 @@
             {% endif %}          
 
         {% elsif page.templates3 != nil %}
-            {% if forloop.index <= 10 %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
+            {% if forloop.index0 > 21 %}<td>{{ forloop.index0 | plus: 11 | prepend: 'GPIO' }}</td>
+            {% elsif forloop.index <= 10 %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
             {% else %}<td>{{ forloop.index0 | prepend: 'GPIO' }}</td>
             {% endif %}          
 
