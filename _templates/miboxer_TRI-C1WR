@@ -3,7 +3,7 @@ date_added: 2023-08-30
 title: Miboxer TRI-C1WR Dimmer Module
 model: TRI-C1WR
 image: /assets/device_images/miboxer-tri-c1wr.webp
-template9: '# {"NAME":"Miboxer-TRI-C1WR","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":54,"CMND":"SO97 1 | TuyaMCU 11,20 | TuyaMCU 98,21 | TuyaMCU 21,22 | TuyaMCU 12,102 | TuyaMCU 22,103 | DimmerRange 10,1000"}'
+templatec3: '{"NAME":"Miboxer-TRI-C1WR","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":54,"CMND":"SO97 1 | TuyaMCU 11,20 | TuyaMCU 98,21 | TuyaMCU 21,22 | TuyaMCU 12,102 | TuyaMCU 22,103 | DimmerRange 10,1000"}'
 mlink: https://miboxer.com/product/ac-triac-dimmer-wifi2-4gpush
 link: https://www.ledbe.com/miboxer-tri-c1wr-trailing-edge-dimmer
 flash: replace
@@ -23,7 +23,6 @@ Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to underst
 ## Hardware
 
 The Miboxer TRI-C1WR Dimmer Module uses the UART to communicate with Tuya MCU. This Dimmer Module comes with a CB2S chip and requires replacement in order to be used with Tasmota.
-It is still possible to convert these modules to Tasmota by replacing the CB2S chip with an Espressif ESP8685-WROOM-03-H2/H4 or Wireless Tag WT32C3-01N or an esp8266 ESP-02 chip and this process will require heat gun, soldering tools and moderate soldering skill, for all chip replacements can be made easier with low melt solder as well, these were replaced with official espressif ESP8685-WROOM-03-H4 modules
 
 The TuyaMCU on board requires the following settings.
 
