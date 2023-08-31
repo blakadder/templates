@@ -1,0 +1,12 @@
+---
+date_added: 2023-09-01
+title: AI-C3 ESP32-C3
+model: AI-C3
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/AI-C3.webp
+templatec3: '{"NAME":"AI-C3","GPIO":[1,1,1,1,1,1,1,1,1376,32,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
+mlink:
+link: https://www.aliexpress.com/item/1005004642646719.html
+---
