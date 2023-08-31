@@ -494,8 +494,12 @@
     <tr><th>GPIO #</th><th>Component</th></tr>
     {% if page.template9 != nil %}
     {% assign template = page.template9 | split: ':' %}
+    {% elsif page.templatec2 != nil %}
+    {% assign template = page.templatec2 | split: ':' %}
     {% elsif page.templatec3 != nil %}
     {% assign template = page.templatec3 | split: ':' %}
+    {% elsif page.templatec6 != nil %}
+    {% assign template = page.templatec6 | split: ':' %}
     {% elsif page.templates2 != nil %}
     {% assign template = page.templates2 | split: ':' %}
     {% elsif page.templates3 != nil %}
@@ -513,6 +517,12 @@
             {% else %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
             {% endif %}
             </td>
+
+        {% elsif page.templatec2 != nil %}
+            {% if forloop.index <= 10 %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
+            {% else %}<td>{{ forloop.index0 | prepend: 'GPIO' }}</td>
+            {% endif %}          
+
         {% elsif page.templatec3 != nil %}
             {% if forloop.index0 == 11 %}{% continue %}
             {% elsif forloop.index0 == 14 %}{% continue %}
@@ -523,7 +533,12 @@
             {% else %}<td>{{ forloop.index0 | prepend: 'GPIO' }}</td>
             {% endif %}
             
-        {% elsif page.templates2 != nil %}
+        {% elsif page.templatec6 != nil %}
+            {% if forloop.index <= 10 %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
+            {% else %}<td>{{ forloop.index0 | prepend: 'GPIO' }}</td>
+            {% endif %}          
+
+            {% elsif page.templates2 != nil %}
             {% if forloop.index0 > 21 %}<td>{{ forloop.index0 | plus: 11 | prepend: 'GPIO' }}</td>
             {% elsif forloop.index <= 10 %}<td>{{ forloop.index0 | prepend: 'GPIO0' }}</td>
             {% else %}<td>{{ forloop.index0 | prepend: 'GPIO' }}</td>

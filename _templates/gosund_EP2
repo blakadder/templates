@@ -16,7 +16,11 @@ flash: serial
 
 #### UPDATE for Tuya-Convert in 2022 and modern Tuya Firmwares
 
-I've recieved a report that Gosund now claims its impossible to downgrade the firmware version.
+I've recieved a report that Gosund now claims its impossible to downgrade the firmware version. This is the official response from Gosund:
+
+> Most of our plugs are already upgraded and they no longer support flashing to Tasmota.
+> We are sorry to inform you that upon checking, your smart plug is an upgraded version. Therefore, the firmware cannot be updated to v1.0.8 or v1.0.6.
+> We are hoping for your understanding.
 
 You can request an update to the 1.0.6 firmware version from the Gosund support (globalservice@gosund.com), simply add them to the Tuya app first, go into the device details and copy the Device ID from there. Include that ID in the mail and request the update for it, you can also add multiple devices at once of course. The default 1.0.4 firmware still won't let you use Tuya-Convert. Once the new update is available for the EP2 you'll be prompted in the Tuya app to upgrade, do so and once installed you can use Tuya-Convert just like usual again!
 

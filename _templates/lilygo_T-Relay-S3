@@ -1,0 +1,32 @@
+---
+date_added: 2023-08-14
+title: Lilygo T-Relay S3
+model: T-RELAYS3
+image: /assets/device_images/lilygo_T-Relay-S3.webp
+templates3: '{"NAME":"LilyGo T-RelayS3","GPIO":[8352,1,1,1,1,8288,8320,8384,1,1,1,1,1,1,1,1,640,608,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://www.lilygo.cc/products/t-relay-s3
+link2: https://www.aliexpress.com/item/1005005561802558.html
+link3: https://www.banggood.com/LILYGO-T-Relay-S3-ESP32-S3-6-Way-6CH-Relay-Development-Board-ESP32-S3-WROOM-1U-Wireless-Module-WiFi-Bluetooth-Expandable-LCD-Display-p-1995323.html
+mlink: https://github.com/Xinyuan-LilyGO/LilyGo-T-Relay/blob/main/docs/RELAY_ESP32S3.MD
+flash: serial
+category: diy
+type: Relay Board
+standard: global
+---
+
+Note: this template configures LEDs as relays 7 and 8 for some reason!
+
+Compile Tasmota with these options: 
+
+```arduino
+#define USE_SHIFT595
+#define USE_RTC_CHIPS               
+#define USE_DS3231                 
+#define USE_RTC_ADDR    0x51
+```
+
+If you have an extension board, you need to do one more thing to enable it. 
+Go to consoles menu, the first option (Console) and type this command:
+`Shift595DeviceCount 2`
+
+Number 2 means that you have 2 devices (main+extensions). If you have 2 extension, put 3, and so. on... 

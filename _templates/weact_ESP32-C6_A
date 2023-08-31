@@ -1,0 +1,16 @@
+---
+date_added: 2023-08-30
+title: WeAct Studio ESP32-C6-A
+model: ESP32-C6-A
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/weact_ESP32-C6-A.webp
+templatec6: ' {"NAME":"WeAct ESP32-C6-A","GPIO":[1,1,1,1,1,1,1,1,1376,32,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink:
+link: https://www.aliexpress.com/item/1005005569520224.html
+---
+
+To flash an ESP32-C6 device you need to compile your own binary using `tasmota32c6-arduino30` environment.
+
+![Pinout](/assets/device_images/weact_ESP32-C6_A_pinout.webp)

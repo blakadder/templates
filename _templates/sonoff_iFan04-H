@@ -8,8 +8,8 @@ standard: eu
 flash: serial
 template: '{"NAME":"iFan04-H","GPIO":[17,148,0,149,0,0,29,161,23,56,22,24,0],"FLAG":0,"BASE":71}' 
 image: /assets/device_images/sonoff_iFan04-H.webp
-mlink: https://sonoff.tech/product/wifi-diy-smart-switches/ifan03
-link: https://itead.cc/product/sonoff-ifan03-wi-fi-ceiling-fan-and-light-controller/
+mlink: https://itead.cc/product/sonoff-ifan03-wi-fi-ceiling-fan-and-light-controller/
+link: https://www.amazon.de/B0B2Q2JSR5
 link2: https://www.aliexpress.com/item/1005002994993238.html
 link3: https://www.banggood.com/SONOFF-IFAN04-H-AC-220-240V-433MHz-WiFi-Smart-Ceiling-Fan-and-Light-Controller-Works-with-Alexa-Google-Home-p-1935532.html
 link4: 
@@ -17,4 +17,6 @@ link4:
 
 Largely identical to [iFan03](sonoff_ifan03) with capacitors designed for 220V-240V fans and an improved RF chip with better range
 
-Flashing procedure is the same, there are labelled pins required for flashing. Hold the button down during power up to enter flash mode.
+Flashing procedure is the same, pins required for flashing are labelled. Hold the button down during power up to enter flash mode.
+
+![Pinout](/assets/device_images/sonoff_iFan04-H_pinout.webp)
