@@ -1,0 +1,16 @@
+---
+date_added: 2023-09-03
+title: CBI Astute Smart Controller
+model: ASC-BP 
+image: /assets/device_images/cbi_ASC-BP.webp
+template9: '{"NAME":"CBI Astute","GPIO":[2624,320,0,0,0,224,0,0,2720,32,2656,0,0,0],"FLAG":0,"BASE":6}' 
+link: https://www.builders.co.za/Electrical/Plugs%2C-Sockets-%26-Switches/Smart-Electrical/CBI-Astute-Smart-Controller---Grey-Black/p/000000000000744335
+link2: 
+mlink: https://cbi-lowvoltage.co.za/asc
+flash: replace
+category: relay
+type: DIN Relay
+standard: za
+chip: WR3E
+---
+[Instructions on module replacement](https://mybroadband.co.za/forum/threads/cbi-astute-power-monitor-switch-tasmotized.1108106/)

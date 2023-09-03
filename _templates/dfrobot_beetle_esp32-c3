@@ -1,0 +1,19 @@
+---
+date_added: 2023-09-03
+title: DFRobot Beetle ESP32-C3
+model: DFR0868
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/dfrobot_beetle_esp32-c3.webp
+templatec3: '{"NAME":"Beetle ESP32-C3","GPIO":[1,1,1,1,1,1,1,1,1,32,544,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
+mlink:
+link: https://www.dfrobot.com/product-2566.html
+build: tasmota32c3-cdc
+---
+
+Coin sized ESP32-C3 development board with built in TP4057 li-ion battery charging management and an expansion board with an 18Pin FPC port
+
+[Documentation](https://wiki.dfrobot.com/SKU_DFR0868_Beetle_ESP32_C3)
+
+![Pinout](/assets/device_images/dfrobot_beetle_esp32-c3_pinout.webp)
