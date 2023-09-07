@@ -55,6 +55,7 @@ on tuyareceived#dptype2id9 do publish %topic%/distance %value% endon
 on tuyareceived#dptype2id101 do publish %topic%/detection_latency %value% endon
 on tuyareceived#dptype2id102 do publish %topic%/hold_time %value% endon
 on tuyareceived#dptype1id106 do publish %topic%/button pressed endon
+on tuyareceived#dptype2id104 do publish %topic%/illuminance %value% endon
 ```
 
 Enable the rule with `Rule3 1` then import the blueprint into HA.
