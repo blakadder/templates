@@ -25,7 +25,7 @@ Wifi module is mounted on the inside of the unit, at the top next to the control
 - `dpID 103` timer (hours): `0 = off / 1 = 1 hour / 2 = 2 hours / 3 = 3 hours` *not needed with Tasmota, there's a Timer function* Type4
 - `dpID 104` swing mode: `0 = off / 1 = on` Type1
 - `dpID 105` timer (minutes): `read only timer (dpID103) in minutes` Type 2
-- `dpID 106` unknown: Type 0
+- `dpID 106` water tank is full: Type 0
 - `dpID 110` unknown: Type 2
 
 
