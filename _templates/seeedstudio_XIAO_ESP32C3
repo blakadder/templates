@@ -10,6 +10,7 @@ templatec3: '{"NAME":"XIAO-ESP32C3","GPIO":[32,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
 mlink: https://www.seeedstudio.com/Seeed-XIAO-ESP32C3-p-5431.html
 link: https://www.amazon.com/dp/B0B94JZ2YF/
 link2: https://www.aliexpress.com/item/33011482127.html
+link3: https://www.banggood.com/ESP32-C3-Development-Board-ESP32-SuperMini-WiFi-Bluetooth-Mini-Module-p-1997449.html
 flash: serial
 build: tasmota32c3-cdc
 ---

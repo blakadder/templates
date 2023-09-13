@@ -338,7 +338,7 @@ layout: default
     or page.chip contains 'WR3N' 
     or page.chip contains 'XR3' 
   %}
-  <a href="ESP-12">ESP-12</a>, <a href="ESP8685-WROOM-01">ESP8685-WROOM-01</a>, <a href="ESP-C3-12">ESP-C3-12F</a> or <a href="ESP-12H">ESP-12H</a>
+  <a href="ESP8685-WROOM-01">ESP8685-WROOM-01</a>, <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a>, <a href="ESP-12H">ESP-12H</a> or  <a href="ESPC2-12">ESPC2-12</a>
   {% 
     elsif page.chip contains 'CB2L' 
     or page.chip contains 'DT-BL200' 
@@ -416,6 +416,17 @@ layout: default
     <p>
   {% endif %}
 
+  {% if page.templatec2 != nil %}
+  To flash an ESP32-C2 device you need to compile your own binary using <pre>tasmota32c2-arduino30</pre> environment.
+  <br><br>
+  <p>
+  {% endif %}
+
+  {% if page.templatec6 != nil %}
+  To flash an ESP32-C6 device you need to compile your own binary using <pre>tasmota32c6-arduino30</pre> environment.
+  <br><br>
+  <p>
+  {% endif %}
 
   {% if page.flash == 'esp2ino' %}
   Can be flashed over-the-air with <a href="https://github.com/elahd/esp2ino">esp2ino Flasher</a>.

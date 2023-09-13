@@ -1,0 +1,22 @@
+---
+date_added: 2023-09-13
+title: ESPC2-12  
+model: ESPC2-12
+category: diy
+type: Module
+standard: global
+image: /assets/device_images/ESPC2-12.webp
+templatec2: '{"NAME":"ESPC2-12","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1],"FLAG":0,"BASE":1}'
+footprint: esp12
+mlink: 
+link: https://www.aliexpress.com/item/1005005946640505.html
+---
+
+Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compatible module.
+
+![Pinout](/assets/device_images/ESPC2-12_pinout.webp)
+
+## Running
+
+ESP32's are power hungry on boot and the USB to serial adapter might not be able to provide enough power for that. Use a stable 3.3v power supply that can supply more than 500 mA.
+
