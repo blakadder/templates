@@ -1,0 +1,18 @@
+---
+date_added: 2023-09-13
+title: Athom Plug V3
+model: PG01V3
+image: /assets/device_images/athom_PG01V2-EU16A.webp
+template32: '{"NAME":"Athom Plug V3","GPIO":[0,0,0,32,0,224,576,0,0,0,0,0,0,0,0,0,0,0,0,0,3104,0],"FLAG":0,"BASE":1}'
+mlink: https://www.athom.tech/blank-1/tasmota-esp32-c3-eu-plug-v3
+link: 
+link2: 
+flash: preflashed
+category: plug
+type: Plug
+standard: eu
+---
+
+## Photos of internals
+
+![Top of the Plug](/assets/device_images/athom_PG01V3_EU16A_1.webp)
