@@ -1,0 +1,14 @@
+---
+date_added: 2023-09-13
+title: ESP8684 ESP32-C2 Devkit Mini 
+model: ESP32-C2 DEVKIT
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/ESP32-C2_DEVKIT.webp
+templatec2: '{"NAME":"ESP32-C2_DEVKIT","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1],"FLAG":0,"BASE":1}'
+mlink: 
+link: https://www.aliexpress.com/item/1005005966209484.html
+---
+
+![Pinout](/assets/device_images/ESP32-C2_DEVKIT_pinout.webp)

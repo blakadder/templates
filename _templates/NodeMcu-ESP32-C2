@@ -1,0 +1,14 @@
+---
+date_added: 2023-09-13
+title: NodeMcu ESP32-C2 ESP8684 
+model: NodeMcu-ESP32-C2
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/NodeMcu-ESP32-C2.webp
+templatec2: '{"NAME":"NodeMcu-ESP32-C2","GPIO":[1,1,1,1,1,1,1,1,1,32,1,0,0,0,0,0,0,0,1,1,1],"FLAG":0,"BASE":1}'
+mlink: 
+link: https://www.aliexpress.com/item/1005005939171867.html
+---
+
+![Pinout](/assets/device_images/NodeMcu-ESP32-C2_pinout.webp)
