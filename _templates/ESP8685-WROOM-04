@@ -19,7 +19,7 @@ Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compat
 ESP8685 is the new nomenclature for ESP32-C3 based modules. There are two different versions of this module:
 
 - **ESP8685-WROOM-04-H4** with 4Mb flash
-- **ESP8685-WROOM-04-H2** with 2Mb flash. This version is **not recommended** for Tasmota due to low flash space.
+- **ESP8685-WROOM-04-H2** with 2Mb flash is **not recommended** for Tasmota due to low flash space.
 
 {% include flash/c3.md %}
 
@@ -29,7 +29,7 @@ ESP8685 is the new nomenclature for ESP32-C3 based modules. There are two differ
 
 ## Running
 
-For normal operation connect EN to VCC (pull high) to enable the C3 chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.
+For normal operation connect EN to VCC (pull high) to enable the chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.
 
 ESP32's are power hungry on boot and the USB to serial adapter might not be able to provide enough power for that. Use a stable 3.3v power supply that can supply more than 500 mA.
 

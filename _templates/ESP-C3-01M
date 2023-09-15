@@ -21,13 +21,13 @@ This module is pin compatible with ESP-01M.
 There are two different versions of this module:
 
 - **C3FN4** with 4Mb flash
-- **C3-2M** with 2Mb flash. This version is **not recommended** for Tasmota due to low flash space.
+- **C3-2M** with 2Mb flash is **not recommended** for Tasmota due to low flash space.
 
 {% include flash/c3.md %}
 
 ## Running
 
-For normal operation connect EN to VCC (pull high) to enable the C3 chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.
+For normal operation connect EN to VCC (pull high) to enable the chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.
 
 ESP32's are power hungry on boot and the USB to serial adapter might not be able to provide enough power for that. Use a stable 3.3v power supply that can supply more than 500 mA.
 

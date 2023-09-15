@@ -1,0 +1,33 @@
+---
+date_added: 2023-09-15
+title: Wireless Tag ESP32-C2 ESP-12 Compatible
+model: WT018684-S5
+category: diy
+type: Module
+standard: global
+image: /assets/device_images/WT018684-S5.webp
+templatec2: '{"NAME":"wireless_tag_WT018684-S5","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1],"FLAG":0,"BASE":1}'
+footprint: esp12
+mlink: https://www.alibaba.com/product-detail/Original-factory-WT018684-S5-WiFi-module_1600590684451.html
+link: https://www.aliexpress.com/item/1005004709896344.html
+---
+
+Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compatible module.
+
+There are two different versions of this module:
+
+- **WT018684-S5-N4** with 4Mb flash
+- **WT018684-S5-N2** with 2Mb flash is **not recommended** for Tasmota due to low flash space.
+- **WT018684-S5-N1** with 1Mb flash **cannot run** Tasmota due to insufficient flash space.
+
+![Pinout](/assets/device_images/wireless_tag_WT018684-S5_pinout.webp)
+
+{% include test_board.md %}
+
+## Running
+
+For normal operation connect EN to VCC (pull high) to enable the chip. GPIO9 has an internal pullup and it needs to be high on power up for the module to boot so try and avoid that pin similar to GPIO0 on ESP8266.
+
+ESP32's are power hungry on boot and the USB to serial adapter might not be able to provide enough power for that. Use a stable 3.3v power supply that can supply more than 500 mA.
+
+[Datasheet](https://fcc.report/FCC-ID/2AFOS-WT018684-S5/6332457.pdf)

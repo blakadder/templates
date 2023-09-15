@@ -338,14 +338,14 @@ layout: default
     or page.chip contains 'WR3N' 
     or page.chip contains 'XR3' 
   %}
-  <a href="ESP8685-WROOM-01">ESP8685-WROOM-01</a>, <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a>, <a href="ESP-12H">ESP-12H</a> or  <a href="ESPC2-12">ESPC2-12</a>
+  <a href="ESP8685-WROOM-01">ESP8685-WROOM-01</a>, <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a>, <a href="ESP-12H">ESP-12H</a>, <a href="ESPC2-12">ESPC2-12</a> or <a href="ESP8684-WROOM-01C">ESP8684-WROOM-01C</a>
   {% 
     elsif page.chip contains 'CB2L' 
     or page.chip contains 'DT-BL200' 
     or page.chip contains 'WB2L' 
     or page.chip contains 'WR2L' 
     or page.chip contains 'WBR2L' 
-  %}<a href="DMP-L1">DMP-L1</a>, <a href="ESP8685-WROOM-05">ESP8685-WROOM-05</a> or <a href="DT-ESP-C05">DT-ESP-C05</a>
+  %}<a href="DMP-L1">DMP-L1</a>, <a href="ESP8685-WROOM-05">ESP8685-WROOM-05</a>, <a href="DT-ESP-C05">DT-ESP-C05</a> or <a href="ESP8684-WROOM-05">ESP8684-WROOM-05</a>
   {% 
     elsif page.chip contains 'WB2' 
     or page.chip contains 'FL_M99_V1'
@@ -417,13 +417,13 @@ layout: default
   {% endif %}
 
   {% if page.templatec2 != nil %}
-  To flash an ESP32-C2 device you need to compile your own binary using tasmota32c2-arduino30 environment.
+  To flash an ESP32-C2 device you need to compile your own binary using <code>tasmota32c2-arduino30</code> environment.
   <br><br>
   <p>
   {% endif %}
 
   {% if page.templatec6 != nil %}
-  To flash an ESP32-C6 device you need to compile your own binary using tasmota32c6-arduino30 environment.
+  To flash an ESP32-C6 device you need to compile your own binary using <code>tasmota32c6-arduino30</code> environment.
   <br><br>
   <p>
   {% endif %}

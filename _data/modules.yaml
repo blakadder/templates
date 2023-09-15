@@ -6,6 +6,7 @@ cbu:
   - module: ZTU
   - module: WBRU
 dt-light: 
+  - module: BW2L
   - module: CB2L
   - module: DT-BL200
   - module: TYWE2L
