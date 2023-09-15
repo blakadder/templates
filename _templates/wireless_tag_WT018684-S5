@@ -5,8 +5,8 @@ model: WT018684-S5
 category: diy
 type: Module
 standard: global
-image: /assets/device_images/WT018684-S5.webp
-templatec2: '{"NAME":"wireless_tag_WT018684-S5","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1],"FLAG":0,"BASE":1}'
+image: /assets/device_images/wireless_tag_WT018684-S5.webp
+templatec2: '{"NAME":"WT018684-S5","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1,1],"FLAG":0,"BASE":1}'
 footprint: esp12
 mlink: https://www.alibaba.com/product-detail/Original-factory-WT018684-S5-WiFi-module_1600590684451.html
 link: https://www.aliexpress.com/item/1005004709896344.html
