@@ -13,7 +13,7 @@ type: DIN Relay
 standard: eu, uk
 ---
 ```console
-Backlog TuyaMCU 33,20; TuyaMCU 32,18; TuyaMCU 31,19; TuyaMCU 37,101; SetOption66 1; SetOption53 1; SetOption72 1; SetOption66 1; SetOption53 1; VoltRes 1; WattRes 1;
+Backlog TuyaMCU 33,20; TuyaMCU 32,18; TuyaMCU 31,19; TuyaMCU 37,101; SetOption66 1; SetOption53 1; SetOption72 1; VoltRes 1; WattRes 1;
 ```
 
 Flashing instructions: [Ketotek Ktem06](https://tasmota.github.io/docs/TuyaMCU-Devices/#ketotek-ktem06)
