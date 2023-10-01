@@ -14,3 +14,8 @@ category: relay
 type: Switch Module
 standard: global
 ---
+
+## Post configuration note
+
+Tasmota firmware monitor energy data only when the toggle is on as default option.
+To allow Shelly EM to always monitor energy data, use the command [SetOption21 1](https://tasmota.github.io/docs/Commands/#setoptions)
