@@ -17,4 +17,4 @@ It is possible to use solid core 24 AWG wires to make the connection without nee
 
 ![pinout](/assets/device_images/sinilink_XY-WFT1_pinout.webp)
 
-There is no data for the provided thermistor probe so the temperature values are off.
+There is no data for the provided thermistor probe so the temperature values are off. If you connect the DS18B20 sensor on the 3-pin port, you need to set the GPIO13 to `DS18x20 1`.
