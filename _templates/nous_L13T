@@ -5,7 +5,7 @@ model: L13T
 image: /assets/device_images/nous_L13T.webp
 template9: '{"NAME":"NOUS L13T Smart Switch Module","GPIO":[1,161,1,160,225,224,1,1,544,1,32,1,1,1],"FLAG":0,"BASE":18}'
 link: https://www.amazon.de/gp/product/B0BW9S5DFK/
-link2: https://www.amazon.pl/gp/product/B0BW9S5DFK/
+link2: https://www.domadoo.fr/en/eclairage/6794-nous-module-connecte-wifi-tuya-on-off-16a-1-2-canaux-5905072800341.html
 link3: https://www.amazon.com.be/gp/product/B0BW9S5DFK/
 mlink: https://nous.technology/product/l13t.html
 flash: preflashed

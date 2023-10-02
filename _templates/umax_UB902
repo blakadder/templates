@@ -1,0 +1,15 @@
+---
+date_added: 2023-09-27
+title: Umax U-Smart Duo
+model: UB902
+image: /assets/device_images/umax_UB902.webp
+template9: '{"NAME":"Umax Duo Plug","GPIO":[33,0,0,0,2688,2656,0,0,2624,544,224,225,32,0],"FLAG":0,"BASE":18}' 
+link: https://www.onlineshop.cz/smart-zasuvky/chytra-wifi-zasuvka-umax-u-smart-wifi-plug-duo-ub902-667145P.html
+link2: 
+mlink: https://www.umax.cz/umax-u-smart-wifi-plug-duo/
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---
+

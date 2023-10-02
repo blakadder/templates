@@ -1,0 +1,21 @@
+---
+date_added: 2023-09-20
+title: Robus CCT
+model: RVACCT2-WIFI
+image: /assets/device_images/robus_RVACCT2-WIFI.webp
+template9: '{"NAME":"RobusCCT","GPIO":[0,0,0,0,32,416,0,0,0,417,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.robusdirect.com/products/RVACCT2-WIFI_VEGAS_240W_Wi-fi_controller_IP20_2700K_6500K_Tunable.html
+link2: 
+mlink: https://robus.com/products/smart-home-robus-connect/vegas-240w-wifi-controller-ip20-2700k-6500k-tunable
+flash: serial
+category: light
+type: LED Controller
+standard: global
+---
+![Main][main]
+![Close][close]
+
+[main]: https://github.com/m-hume/RVACCT2-WIFI/blob/main/IMG_5240.jpg
+[close]: https://github.com/m-hume/RVACCT2-WIFI/blob/main/IMG_5241.jpg
+
+as per https://tasmota.github.io/docs/TuyaMCU-Devices/#dm_wf_mdv4-leading-edge-dimmer ""In order to flash via serial, the RST pin needs to be grounded upon boot"" and obviously IO0 also"

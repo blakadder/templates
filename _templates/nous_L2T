@@ -6,7 +6,7 @@ image: /assets/device_images/nous_L2T.webp
 template9: '{"NAME":"NOUS L2T","GPIO":[544,289,1,32,225,33,0,0,0,224,288,0,0,0],"FLAG":0,"BASE":1}'
 link: https://www.amazon.fr/dp/B0C5JM9GVV
 link2: https://lite.al/OSl-d
-link3: 
+link3: https://www.domadoo.fr/en/eclairage/6801-nous-interrupteur-connecte-tactile-wifi-tasmota-2-charges-5905072800310.html
 mlink: https://nous.technology/product/l2t.html
 flash: preflashed
 category: switch
