@@ -3,7 +3,7 @@ date_added: 2023-09-27
 title: Nedis P120
 model: WIFIP120EWT
 image: /assets/device_images/nedis_WIFIP120EWT.webp
-template9: '{"NAME":"WIFIP120EWT","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
+template: '{"NAME":"WIFIP120EWT","GPIO":[17,0,0,0,133,132,0,0,131,56,21,0,0],"FLAG":0,"BASE":49}' 
 link: https://www.amazon.de/dp/B07NWB6NQQ
 link2: 
 mlink: https://nedis.fr/fr-fr/product/securite-surete/maison-connectee/alimentation/550703155/prise-intelligente-smartlife-wi-fi-wattmetre-3680-w-france-type-e-cee-76-10-40-0c-android-ios-blanc
