@@ -10,13 +10,20 @@ link3: https://www.idealo.de/preisvergleich/OffersOfProduct/201633730_-plus-1-sh
 link4: https://www.aliexpress.com/item/1005003462342443.html
 mlink: https://www.shelly.cloud/en/products/shop/shelly-plus-1/
 flash: mgos32
-chip: solo1
 category: relay
 type: Switch Module
 standard: global
 autoconf: true
 ---
 Use Tasmota v9.5.0.9+. Older versions do not work.
+
+Some versions (possibly older or non-UL ones) have a single-core
+MCU. These must be flashed with ESP32-SOLO1
+<code>tasmota32solo1...</code></a> binaries.
+
+Known versions (printed on the board):
+
+* v0.2.1 (UL version): Dual-core MCU
 
 ![](/assets/device_images/shelly_plus_1_pinout.webp)
 Pin-Layout is on the image, credit goes to Kalin Dimitrov
