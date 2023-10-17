@@ -1,0 +1,25 @@
+---
+date_added: 2023-10-05
+title: Aldi RGBCCT LED 
+model: Smart-Al2017-RGB-TGTS
+image: /assets/device_images/aldi_smart-Al2017-RGB-TGTS.webp
+template9: '{"NAME":"ESP-ALDI-LIGHT","GPIO":[0,0,0,420,417,416,418,451,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aldi.com.au/en/special-buys/special-buys-sat-23-september/saturday-detail-wk38/ps/p/smart-led-downlight-2/
+link2: 
+mlink: 
+flash: replace
+chip: cb2l
+category: light
+type: Downlight
+standard: au
+---
+This is relatively easy replacement. No hot gun, etc, just soldering iron and solder wick. Chip has to be programmed prior to soldering. I used [ESP8685-WROOM-05](ESP8685-WROOM-05) which fits into the same slot with no further modifications required.
+
+Tasmota options required for this template:
+
+```console
+PowerOnState 1
+Setoption37 25
+Setoption92 1
+LedTable 0
+```

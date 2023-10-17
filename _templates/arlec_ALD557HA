@@ -3,7 +3,7 @@ date_added: 2023-07-23
 title: ARLEC 5m Colour Changing
 model: ALD557HA
 image: /assets/device_images/arlec_ALD557HA.webp
-template9: '{"NAME":"ALD557HA","GPIO":[0,0,0,0376,0,0,0,0,0,1088,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"ALD557HA","GPIO":[0,0,0,1376,0,0,0,0,0,1088,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/arlec-5m-colour-changing-grid-connect-smart-led-with-sound-sync_p0255451
 link2: 
 mlink: 

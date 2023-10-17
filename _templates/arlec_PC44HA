@@ -3,6 +3,7 @@ date_added: 2022-05-05
 title: Arlec IP44 Weatherproof 
 model: PC44HA
 image: /assets/device_images/arlec_PC44HA.webp
+template9: '{"NAME":"PC44HA","GPIO":[0,0,0,35,2720,2656,0,0,2592,320,224,0,0,0],"FLAG":0,"BASE":18}' 
 templatec3: '{"NAME":"Arlec PC44HA","GPIO":[0,0,0,2656,224,2592,320,0,0,0,2720,0,0,0,0,0,0,0,0,0,32,544],"FLAG":0,"BASE":1}' 
 link: https://www.bunnings.com.au/arlec-grid-connect-smart-ip44-heavy-duty-timer_p0273373
 link2: 
@@ -16,4 +17,4 @@ chip: WB2S
 
 This device uses WB2S module which needs to be replaced with WT-01N, ESP-02S or WT32C3-01N module. Besides the module, this process will require a soldering tool and moderate soldering skill.
 
-Has been tested with a WT32C3-01N module.
+Has been tested with a WT32C3-01N and ESP-02S module.

@@ -1,0 +1,16 @@
+---
+date_added: 2023-10-17
+title: Ants Make 16 Channel ESP32 Relay Driver 5V DC
+model: AM-022
+image: /assets/device_images/ants-make_AM-022.webp
+template32: '{"NAME":"AM-022","GPIO":[1,1,1,1,232,237,1,1,228,231,229,1,233,230,234,235,0,238,239,236,0,224,227,226,0,0,0,0,1,225,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://www.aliexpress.com/item/1005004971151359.html
+mlink: 
+flash: serial
+category: diy
+type: Module
+standard: global
+---
+Must be powered with 5V during flash.
+
+This board is able to control the [SainSmart 16 relay board](https://www.sainsmart.com/products/16-channel-12v-relay-module)

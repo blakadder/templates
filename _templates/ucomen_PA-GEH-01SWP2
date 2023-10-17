@@ -13,4 +13,6 @@ category: plug
 type: Outdoor Plug
 standard: eu
 ---
+Top plate is glued on a box, containing the PCB. PCB is on the bottom, so be careful to drill a hole for disassembly. Took me a while, but I succeeded disassembly useing a hair dryer to soften the glue and pry a screwdriver to open the case. 
+
 Uses a TYWE2S module. It didn't allow tuya-convert via wifi. I had soldered the required wires for a serial flash to the locations that I had found on the board. However, it  wasn't found via NodeMcu Pyflasher. I completely desoldered the TYWE2S frmo the main board as it seemed as if teh TX and RX connectors where going somewhere on the board, e.g. to a switch. Serial flashing it separately without a connection to the board of the plug worked.

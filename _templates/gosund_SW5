@@ -13,7 +13,9 @@ flash: serial
 category: switch
 type: Switch
 standard: us
+unsupported: true
 ---
+
 Main template is for green 'ON' LED, alternate template is for red 'ON' LED similar to how the product comes from the factory
 
 Small solder pads inside of switch, all marked (IO0, TX, RX, 3.3V and GND)

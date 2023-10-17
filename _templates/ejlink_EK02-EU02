@@ -1,0 +1,15 @@
+---
+date_added: 2023-10-03
+title: EJLINK RF433 2 Gang
+model: EK02-EU02
+image: /assets/device_images/ejlink_EK02-EU02.webp
+template9: '{"NAME":"EJLINK EK02","GPIO":[32,0,0,0,0,225,33,0,224,544,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005001922094935.html
+link2: 
+mlink: https://www.ejlink.com/
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+![Flashing pins](/assets/device_images/ejlink_EK02-EU02_pinout.webp)
