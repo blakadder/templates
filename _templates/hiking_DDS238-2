@@ -24,7 +24,3 @@ Voltage value is correct out of the box with:
 ```console
 Backlog SetOption72 1; SetOption66 1; SetOption53 1; VoltRes 1; WattRes 1;
 ```
-
-Device appears to be identical to [Hiking Single Phase 65A DIN Rail - KTEM06](.\kototek_KTEM06)
-
-Flashing instructions: [Ketotek Ktem06](https://tasmota.github.io/docs/TuyaMCU-Devices/#ketotek-ktem06)
