@@ -6,7 +6,7 @@ image: /assets/device_images/ketotek_KTEM06.webp
 template9: '{"NAME":"Ketotek KTEM06","GPIO":[0,2272,0,2304,0,0,0,0,0,0,320,0,32,0],"FLAG":0,"BASE":54}' 
 link: https://www.amazon.de/dp/B09XXG4L2C/
 link2: 
-mlink: www.cnketotek.com
+mlink: http://www.cnketotek.com
 flash: serial
 category: relay
 type: DIN Relay
@@ -15,3 +15,5 @@ standard: eu, uk
 ```console
 Backlog TuyaMCU 33,20; TuyaMCU 32,18; TuyaMCU 31,19; TuyaMCU 37,101; SetOption66 1; SetOption53 1; SetOption72 1; VoltRes 1; WattRes 1;
 ```
+
+Flashing instructions: [Ketotek Ktem06](https://tasmota.github.io/docs/TuyaMCU-Devices/#ketotek-ktem06)
