@@ -1,0 +1,16 @@
+---
+date_added: 2023-10-12
+title: Edisio 10A
+model: 82935652
+image: /assets/device_images/edisio_82935652.webp
+template32: '{"NAME":"Edisio Wifi Timer","GPIO":[1,1,1,1,1,1,1,1,1,1,32,1,320,1,1,1,1,1,1,1,1,1,224,1,1,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://www.leroymerlin.fr/produits/electricite-domotique/interrupteur-et-prise/prise-electrique/prise-connectee/edisio-prise-wifi-connectee-82935652.html
+link2: https://enki-home.com/produit/prise-wifi-connectee-interieure-edisio/
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: fr
+---
+
+The device open with 2 triangle screw behind, and simply pry off using plastic spudger to get the top off. The ESP32-S2 chip is on a little board at the bottom right. The 5 pin (vdd, gnd, rx, tx, GPIO0) are accessible without desoldering this board
