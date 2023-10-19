@@ -1,7 +1,7 @@
 ---
 date_added: 2022-03-13
 title: Shelly Plus 2PM
-model: 2PM
+model: SNSW-002P16EU
 image: /assets/device_images/shelly_plus_2PM.webp
 template32: '{"NAME":"Shelly Plus 2PM PCB v0.1.9","GPIO":[320,0,0,0,34,192,0,0,225,224,0,0,0,0,193,0,0,0,0,0,0,608,640,3458,0,0,0,0,0,9472,0,4736,0,0,0,0],"FLAG":0,"BASE":1}'
 template32_alt: '{"NAME":"Shelly Plus 2PM PCB v0.1.5","GPIO":[320,0,192,0,0,0,1,1,225,224,0,0,0,0,193,0,0,0,0,0,0,608,3840,32,0,0,0,0,0,640,0,0,3456,4736,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,32000,40000,3350"}'
