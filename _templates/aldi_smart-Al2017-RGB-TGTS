@@ -3,7 +3,7 @@ date_added: 2023-10-05
 title: Aldi RGBCCT LED 
 model: Smart-Al2017-RGB-TGTS
 image: /assets/device_images/aldi_smart-Al2017-RGB-TGTS.webp
-template9: '{"NAME":"ESP-ALDI-LIGHT","GPIO":[0,0,0,420,417,416,418,451,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+templatec3: '{"NAME":"ESP-ALDI-LIGHT","GPIO":[0,0,0,420,417,416,418,451,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.aldi.com.au/en/special-buys/special-buys-sat-23-september/saturday-detail-wk38/ps/p/smart-led-downlight-2/
 link2: 
 mlink: 
