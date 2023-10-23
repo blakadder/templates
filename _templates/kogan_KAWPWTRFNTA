@@ -1,0 +1,23 @@
+---
+date_added: 2023-10-22
+title: Kogan SmarterHome 1.9L Pet Water Fountain
+model: KAWPWTRFNTA
+image: /assets/device_images/kogan_KAWPWTRFNTA.webp
+template9: '{"NAME":"WaterFountain","GPIO":[257,0,259,0,576,32,0,0,224,161,0,480,226,4704],"FLAG":0,"BASE":18}' 
+link: https://www.kogan.com/au/buy/kogan-smarterhome-19l-pet-water-fountain/
+link2: 
+mlink: 
+flash: replace
+chip: wbr3
+category: misc
+type: Other
+standard: global
+---
+
+The device comes with a WBR3, which can be removed with a heat gun and some patience. I replaced it with an ESP12F. The EN pin on the ESP12F had to be bodged to VCC for it to start up. Unlike the previous model water fountain that Kogan sold, this is not a TuyaMCU based device. The pins off the ESP (or WBR3) control the device directly.
+
+Relay 1 controls the pump, Relay 2 controls the status indicator, and Relay 3 controls the UVC light.
+
+The button on the front is configured to Button 1, which toggles the pump power when pressed. The water level sensor is configured with Switch 2. With `Switchmode2 2`, the status indicator turns on when the water level is low and goes off when water is filled up again. Time based rules can control the UVC light, which according to the manual should run for a decent chunk of time every day.
+
+Keeping track of the age of the filter is up to you

@@ -1,16 +1,16 @@
 ---
-date_added: 2022-01-25
-title: Athom 16A Israel v2
-model: PG05V2-IL16A-TAS
-image: /assets/device_images/athom_PG05V2-IL16A-TAS.webp
+date_added: 2023-10-23
+title: Athom 16A Switzerland v2
+model: PG05V2-CH16A-TAS
+image: /assets/device_images/athom_PG05V2-CH16A-TAS.webp
 template9: '{"NAME":"Athom Plug V2","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}' 
-mlink: https://www.athom.tech/blank-1/israel-plug
-link: https://www.aliexpress.com/item/1005001670337343.html
+mlink: https://www.athom.tech/blank-1/tasmota-switzerland-plug
+link: https://www.aliexpress.com/item/1005006119514953.html
 link2: 
 flash: preflashed
 category: plug
 type: Plug
-standard: il
+standard: ch
 ---
 
 HLW8032  occasionally report invalid power measurements for load values below 5W. During this situation it sometimes reports a valid load. By setting SetOption39 to 128 (default) it must read at least 128 invalid power readings before reporting there is no load.
