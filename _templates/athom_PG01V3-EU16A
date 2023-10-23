@@ -3,7 +3,7 @@ date_added: 2023-09-26
 title: Athom Plug V3
 model: PG01V3
 image: /assets/device_images/athom_PG01V2-EU16A.webp
-template32: '{"NAME":"Athom Plug V3","GPIO":[0,0,0,32,0,224,576,0,0,0,0,0,0,0,0,0,0,0,0,0,3104,0],"FLAG":0,"BASE":1}'
+templatec3: '{"NAME":"Athom Plug V3","GPIO":[0,0,0,32,0,224,576,0,0,0,0,0,0,0,0,0,0,0,0,0,3104,0],"FLAG":0,"BASE":1}'
 mlink: https://www.athom.tech/blank-1/tasmota-esp32-c3-eu-plug-v3
 link: https://www.aliexpress.com/item/1005006078553282.html
 link2: 

@@ -1,0 +1,20 @@
+---
+date_added: 2023-10-19
+title: Shelly Plus 1 Mini
+model: SNPM-001X8EU
+image: /assets/device_images/shelly_plus_1_mini.webp
+templatec3: '{"NAME":"Shelly Plus1Mini","GPIO":[320,32,0,4736,0,0,0,224,0,0,192,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,10000,10000,3350"}' 
+link: https://www.domadoo.fr/en/actuators-dimmers/6805-wi-fi-smart-relay-switch-dry-contacts-shelly-plus-1-mini-shelly-3800235265659.html
+link2: https://www.amazon.de/dp/B0CH8JD7X7
+link3: https://www.conrad.com/en/p/shelly-plus-1-mini-actuator-wi-fi-bluetooth-2917162.html
+link4: https://www.reichelt.com/de/en/shelly-plus-1-mini-1-channel-wlan-bluetooth-max-8-a-shelly-plus-1m-p358360.html
+mlink: https://www.shelly.com/en-hr/products/product-overview/shelly-plus-1-mini
+flash: mgos32
+category: relay
+type: Switch Module
+standard: global
+autoconf: true
+EAN: 3800235265659
+---
+
+If you're doing MgOS to Tasmota conversion using Autoconfig is mandatory otherwise your device will end up bricked.

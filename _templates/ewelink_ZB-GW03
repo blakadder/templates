@@ -18,7 +18,7 @@ standard: global
 Preflashed version is not available from all vendors!
 
 ## Serial Flash
-[Download tasmota32-zigbeebridge.bin](https://github.com/tasmota/install/raw/main/firmware/unofficial/tasmota32-zigbeebridge.bin) unofficial precompiled firmware from development branch and flash the ESP32 module.
+[Download](https://github.com/tasmota/install/raw/main/firmware/unofficial/) `tasmota32-zigbeebridge.factory.bin` unofficial precompiled firmware from development branch and flash the ESP32 module. Or use `tasmota32-zigbeebridge.bin` for OTA upgrade.
 
 ## Flash Zigbee module
 

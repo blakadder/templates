@@ -3,7 +3,7 @@ date_added: 2023-10-16
 title: Freenove ESP32-WROOM 
 model: FNK0090
 image: /assets/device_images/freenove_FNK0090.webp
-template9: '{"NAME":"FREENOVE SP32 WROOM","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"FREENOVE SP32 WROOM","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.com/dp/B0C9THDPXP/
 link2: https://www.amazon.de/dp/B0C9TGJRPH/
 link3: https://www.aliexpress.com/item/1005005776600877.html

@@ -3,7 +3,7 @@ date_added: 2023-10-19
 title: Shelly Plus 1PM Mini
 model: SNSW-001P8EU
 image: /assets/device_images/shelly_plus_1pm_mini.webp
-template32: '{"NAME":"Shelly Plus1PMMini","GPIO":[576,32,0,4736,0,224,3200,8161,0,0,192,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,5600,4700,3350}' 
+templatec3: '{"NAME":"Shelly Plus1PMMini","GPIO":[576,32,0,4736,0,224,3200,8161,0,0,192,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,5600,4700,3350}' 
 link: https://www.domadoo.fr/en/lighting/6807-shelly-micromodule-commutateur-wi-fi-avec-mesure-d-energie-shelly-p-3800235265666.html
 link2: https://www.amazon.de/dp/B0CH8KB7YB
 link3: https://www.reichelt.com/de/en/shelly-plus-1-pm-mini-1-channel-wlan-bluetooth-max-8-a-mea-shelly-plus-1pmm-p358361.html
@@ -13,6 +13,8 @@ flash: mgos32
 category: relay
 type: Switch Module
 standard: global
+autoconf: true
 EAN: 3800235265666
 ---
 
+If you're doing MgOS to Tasmota conversion using Autoconfig is mandatory otherwise your device will end up bricked.
