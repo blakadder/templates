@@ -11,4 +11,6 @@ flash: serial
 category: bulb
 type: CCT
 standard: e27
+unsupported: true
+chip: CB2L
 ---
