@@ -3,7 +3,7 @@ date_added: 2023-10-18
 title: Kruger & Matz Connect P2
 model: KM2200
 image: /assets/device_images/krugermatz_KM2200.webp
-template9: '{"NAME":"KM2200","GPIO":[0,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"KM2200","GPIO":[0,0,57,0,0,0,0,0,0,17,0,21,0],"FLAG":0,"BASE":18}' 
 link: https://fas.st/zMiZk
 link2: 
 mlink: https://www.krugermatz.com/km2200
