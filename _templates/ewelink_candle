@@ -1,0 +1,15 @@
+---
+date_added: 2023-10-29
+title: eWELink Candle Light 5W 
+model: 
+image: /assets/device_images/ewelink_candle.webp
+templatec3: '{"NAME":"eWeLink Candle","GPIO":[0,0,0,419,416,417,418,420,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: 
+link: https://www.aliexpress.com/item/1005005816047632.html
+link2: https://www.aliexpress.com/item/1005006020245079.html
+flash: replace
+chip: BW2L
+category: bulb
+type: RGBCCT
+standard: e14
+---

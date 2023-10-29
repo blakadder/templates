@@ -77,7 +77,15 @@ layout: default
       {% elsif page.flash == "esp2ino" %}
       <a href="https://github.com/elahd/esp2ino" target="_blank">esp2ino</a>
       {% elsif page.flash == "replace" %}
-      <a href="https://blakadder.com/replace-tuya-esp12/" target="_blank">Replace module</a>
+      {% 
+        if page.chip contains 'BW2L' 
+        or page.chip contains 'CB2L' 
+        or page.chip contains 'DT-BL200' 
+        or page.chip contains 'WB2L' 
+        or page.chip contains 'WBR2L' 
+        or page.chip contains 'WR2L' 
+      %}
+      <a href="https://blakadder.com/replace-tuya-cb2l-wb2l-bw2l/" target="_blank">{% else %}</a><a href="https://blakadder.com/replace-tuya-esp12/" target="_blank">{% endif %}Replace module</a>
       {% elsif page.flash == "switchbota" %}
       <a href="https://github.com/kendallgoto/switchbota" target="_blank">SwitchbOTA</a>
       {% else %}
@@ -340,11 +348,12 @@ layout: default
   %}
   <a href="ESP8685-WROOM-01">ESP8685-WROOM-01</a>, <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a>, <a href="ESP-12H">ESP-12H</a>, <a href="ESPC2-12">ESPC2-12</a> or <a href="ESP8684-WROOM-01C">ESP8684-WROOM-01C</a>
   {% 
-    elsif page.chip contains 'CB2L' 
+    elsif page.chip contains 'BW2L' 
+    or page.chip contains 'CB2L' 
     or page.chip contains 'DT-BL200' 
     or page.chip contains 'WB2L' 
-    or page.chip contains 'WR2L' 
     or page.chip contains 'WBR2L' 
+    or page.chip contains 'WR2L' 
   %}<a href="DMP-L1">DMP-L1</a>, <a href="ESP8685-WROOM-05">ESP8685-WROOM-05</a>, <a href="DT-ESP-C05">DT-ESP-C05</a> or <a href="ESP8684-WROOM-05">ESP8684-WROOM-05</a>
   {% 
     elsif page.chip contains 'WB2' 
