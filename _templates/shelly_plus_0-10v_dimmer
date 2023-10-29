@@ -1,0 +1,21 @@
+---
+date_added: 2023-10-29
+title: Shelly Plus 0-10V Dimmer
+model: SNDM-00100WW
+image: /assets/device_images/shelly_plus_0-10v_dimmer.webp
+template32: '{"NAME":"Shelly Plus 0-10V Dimmer","GPIO":[288,0,0,0,192,0,0,0,0,0,0,0,0,0,193,1,0,0,0,0,0,32,416,0,0,0,0,0,4736,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+mlink: https://www.shelly.com/en-se/products/product-overview/shelly-plus-0-10-v-dimmer
+flash: mgos32
+category: dimmer
+type: Dimmer Module
+standard: global
+autoconf: true
+---
+Use Tasmota v9.5.0.9+. Older versions do not work.
+
+Known versions (printed on the board):
+
+* v0.2.2
+
+![](/assets/device_images/shelly_plus_0-10v_dimmer_pcb.webp)
+Similar to the Shelly Plus 1 in pinout, but with an extra switch input.
