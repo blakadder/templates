@@ -1,0 +1,22 @@
+---
+date_added: 2023-10-26
+title: AWP08L 20A 
+model: AWP08L
+image: /assets/device_images/AWP08L.webp
+template9: '{"NAME":"AWP08L","GPIO":[0,0,0,32,0,0,0,0,0,0,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005005960741435.html
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+The chip is an ESP8285, specifically: _AJW-02_8285_.
+
+You can use this [guide](https://codesandbolts.com/bsd29-smart-socket-esp8285/) to see the pinout.
+
+How to [open the plug](https://blakadder.com/disassembling-CN39/)
+
+You can use power monitoring on this plug by setting **GPIO17** to _ADC CT POWER_. 
+Please note that the measurement is completely uncalibrated.

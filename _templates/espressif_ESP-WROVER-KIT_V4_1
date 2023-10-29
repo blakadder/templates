@@ -1,0 +1,15 @@
+---
+date_added: 2023-10-24
+title: Espressif ESP-WROVER-KIT
+model: ESP-WROVER-KIT V4.1
+image: /assets/device_images/espressif_ESP-WROVER-KIT_V4_1.webp
+template32: '{"NAME":"ESPWroverKit41","GPIO":[1,1,1,1,1,992,1,1,1,1,1,1,1,1,1024,736,0,800,768,704,0,672,6210,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/3256805520133396.html
+link2: https://www.amazon.de/dp/B07W93864K/
+mlink: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-wrover-kit.html#get-started-esp-wrover-kit-v4-1-board-back
+flash: serial
+category: diy
+type: Display
+standard: global
+---
+Power and flash with ESP32 lvgl binary via micro USB.  This template only enables the LCD

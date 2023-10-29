@@ -1,0 +1,14 @@
+---
+date_added: 2023-10-27
+title: Sonoff BASICR4 
+model: BASICR4
+image: /assets/device_images/sonoff_BASICR4.webp
+templatec3: '{"NAME":"Sonoff Basic R4","GPIO":[0,0,0,0,224,0,544,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://itead.cc/product/sonoff-basicr4-wi-fi-smart-switch/
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay Module
+standard: global
+---

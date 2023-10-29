@@ -13,7 +13,7 @@ type: RGBCCT
 standard: e27
 chip: CB2L
 ---
-Bulb contains CB2L (BK7231N) chip that needs to be desoldered and replaced with ESP32-C3-C05
+Bulb contains CB2L (BK7231N) chip that needs to be desoldered and replaced
 
 ![](https://i.postimg.cc/L8TDzHSv/26-B4-EE4-F-C723-4-E96-A20-A-AD5-EB0-F4951-C.jpg)
 ![](https://i.postimg.cc/XvPw8qzK/3-DF0-F1-AD-48-F8-4-A40-809-D-9908-BF332-D7-C.jpg)
