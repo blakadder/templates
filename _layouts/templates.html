@@ -346,7 +346,7 @@ layout: default
     or page.chip contains 'WR3N' 
     or page.chip contains 'XR3' 
   %}
-  <a href="ESP8685-WROOM-01">ESP8685-WROOM-01</a>, <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a>, <a href="ESP-12H">ESP-12H</a>, <a href="ESPC2-12">ESPC2-12</a> or <a href="ESP8684-WROOM-01C">ESP8684-WROOM-01C</a>
+  <a href="ESP8685-WROOM-01">ESP8685-WROOM-01</a>, <a href="ESP-12">ESP-12</a>, <a href="ESP-C3-12">ESP-C3-12F</a>, <a href="ESP-12H">ESP-12H</a>, <a href="ESPC2-12">ESPC2-12</a> or <a href="ESP8684-WROOM-01C">ESP8684-WROOM-01C</a>. Read more about module replacement in <a href="https://blakadder.com/replace-tuya-esp12/" target="_blank">a detailed guide</a>.
   {% 
     elsif page.chip contains 'BW2L' 
     or page.chip contains 'CB2L' 
@@ -354,7 +354,7 @@ layout: default
     or page.chip contains 'WB2L' 
     or page.chip contains 'WBR2L' 
     or page.chip contains 'WR2L' 
-  %}<a href="DMP-L1">DMP-L1</a>, <a href="ESP8685-WROOM-05">ESP8685-WROOM-05</a>, <a href="DT-ESP-C05">DT-ESP-C05</a> or <a href="ESP8684-WROOM-05">ESP8684-WROOM-05</a>
+  %}<a href="DMP-L1">DMP-L1</a>, <a href="ESP8685-WROOM-05">ESP8685-WROOM-05</a>, <a href="DT-ESP-C05">DT-ESP-C05</a> or <a href="ESP8684-WROOM-05">ESP8684-WROOM-05</a>. Read more about module replacement in <a href="https://blakadder.com/replace-tuya-cb2l-wb2l-bw2l/" target="_blank">a detailed guide</a>.
   {% 
     elsif page.chip contains 'WB2' 
     or page.chip contains 'FL_M99_V1'
@@ -368,20 +368,19 @@ layout: default
     or page.chip contains 'WR2E' 
     or page.chip contains 'CB2S' 
     or page.chip contains 'WA2' 
-
-  %}<a href="ESP-02S">ESP-02S</a>, <a href="WT-01N">WT-01N</a> or <a href="WT32C3-01N">WT32C3-01N</a> 
+  %}<a href="ESP-02S">ESP-02S</a>, <a href="WT-01N">WT-01N</a> or <a href="WT32C3-01N">WT32C3-01N</a>. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
   {% 
     elsif page.chip contains 'WBLC5' 
     or page.chip contains 'CBLC5'
     or page.chip contains 'ZSLC5'
-  %}<a href="ESP8685-WROOM-07">ESP8685-WROOM-07</a> or <a href="ESP-01D">ESP-01D</a>
+  %}<a href="ESP8685-WROOM-07">ESP8685-WROOM-07</a> or <a href="ESP-01D">ESP-01D</a>. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
   {% 
     elsif page.chip contains 'CBU' 
     or page.chip contains 'ZTU'
     %} <a href="ESP8685-WROOM-06">ESP8685-WROOM-06</a> 
-  {% else %}<a href="diy#module">an ESP</a>
+  {% else %}
+    <a href="diy#module">an ESP</a>. Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill.
   {% endif %}
-  . Besides the module, this process will require a heat gun, soldering tools and moderate soldering skill. Read more about module replacement in <a href="https://blakadder.com/replace-tuya-esp12/" target="_blank">a detailed guide</a>.
   <br>
   <p>
   {% endif %}
