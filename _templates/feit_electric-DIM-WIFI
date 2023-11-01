@@ -14,16 +14,31 @@ standard: us
 ---
 **Caution!** There has been [a report](https://community.home-assistant.io/t/costco-feit-smart-dimmer-tuya-convert-tasmota/151390/7) of Tasmota not communicating with the MCU properly.  This seems to have been cleared up.
 
-in resume, you have 2 choice, unsolder the chip and flash it then solder back
-or
-Flash it directly on the board, easiest and fastest choice. 
-solder your serial pin to:
+There are two options:
+
+* Unsolder the chip and flash it, then solder back, or
+* Flash it directly on the board (easiest and fastest choice)
+
+Solder your serial pin to:
 ![Image 1](https://community-assets.home-assistant.io/optimized/3X/a/3/a3c43b514e85abade1db003a092bff6f2580875c_2_778x750.jpeg)
+
 remove the cover metalk shield over the ESP8265 to access to gpio0
 ground the PIN 15 at the power up (GPIO0)
+
 ![Image 2](https://community-assets.home-assistant.io/optimized/4X/b/9/b/b9bf2d2e12e2e862b02937dd91f7052822a6feb2_2_562x750.jpeg)
+
 ![Image 3](https://community-assets.home-assistant.io/optimized/3X/a/8/a8e6253b24f2cbde79bdee7d2d26c4c67f5be6bb_2_664x748.jpeg)
-flash it with you tasmota flavor
+
+**Note:** On at least some versions, the Tuya MCU is
+  connected to the RX/TX pins, which prevents flashing via the serial
+  port. This can be remedied by cutting the trace between the serial
+  pin and the MCU (suggested location in picture). Remember to
+  reconnect it after flashing!
+
+![Image 4](/assets/feit-dimmer-pcb-front.jpg)
+![Image 5](/assets/feit-dimmer-pcb-back.jpg)
+
+Flash it with you tasmota flavor.
 
 After activating the template, enter these commands into the Tasmota console.
 
