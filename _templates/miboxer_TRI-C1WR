@@ -14,9 +14,9 @@ standard: global
 ---
 Identified with MCU Product ID: `{"p":"ws3odtueeha5yjln","v":"1.0.1","m":0}`.
 
-![PCB Top](/assets/device_images/miboxer-tri-c1wr-pcb-top.jpg)
+![PCB Top](/assets/device_images/miboxer-tri-c1wr-pcb-top.webp)
 
-![PCB Bottom](/assets/device_images/miboxer-tri-c1wr-pcb-bottom.jpg)
+![PCB Bottom](/assets/device_images/miboxer-tri-c1wr-pcb-bottom.webp)
 
 Please read [TuyaMCU](https://tasmota.github.io/docs/TuyaMCU) article to understand the terminology and configuration process.
 
