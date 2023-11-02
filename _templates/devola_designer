@@ -70,7 +70,7 @@ If you're planning to build and unpack the hex strings yourself, here's the stru
 - Byte 5 - Power - 02=OFF, 01=ON
 - Byte 6 - Childlock - 02=OFF, 01=ON
 - Bytes 7-10 - More padding - always 02 00 19 00
-- Byte 11 - Mode - 01=off, 02=low, 03=high, 04=af
+- Byte 11 - Mode - 01=off, 02=low, 03=high, 04=anti-frost
 - Byte 12 - Setpoint temperature, converted to hex
 - Bytes 13-14 - Timer - 0100 = off, 0001 = on, 0002 = 1 hr,  0003 = 2 hrs (etc)
 - Byte 15 - Ambient temperature, converted to hex
