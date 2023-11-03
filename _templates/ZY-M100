@@ -7,7 +7,7 @@ template9: '{"NAME":"ZY-M100","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BAS
 mlink: 
 link: https://www.aliexpress.com/item/1005004705672138.html
 flash: replace
-category: misc
+category: sensors
 type: Presence Sensor
 standard: global
 chip: WBR3
