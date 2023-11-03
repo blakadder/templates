@@ -20,4 +20,4 @@ Relay 1 controls the pump, Relay 2 controls the status indicator, and Relay 3 co
 
 The button on the front is configured to Button 1, which toggles the pump power when pressed. The water level sensor is configured with Switch 2. With `Switchmode2 2`, the status indicator turns on when the water level is low and goes off when water is filled up again. Time based rules can control the UVC light, which according to the manual should run for a decent chunk of time every day.
 
-Keeping track of the age of the filter is up to you
+Keeping track of the age of the filter is up to you.

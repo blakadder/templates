@@ -6,7 +6,7 @@ category: sensor
 type: Presence Sensor
 standard: global
 image: /assets/device_images/everything_presence_lite.webp
-template32: '{"NAME":"Everything Presence Lite","GPIO":[0,0,0,0,0,0,0,0,0,0,544,0,3232,3200,161,160,0,640,608,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Everything Presence Lite","GPIO":[0,0,0,0,0,0,0,0,0,0,544,0,3232,3200,160,161,0,640,608,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1],"FLAG":0,"BASE":1}' 
 mlink: https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html
 link: https://shop.everythingsmart.io/products/everything-presence-lite
 link2: 
@@ -16,3 +16,5 @@ flash: serial
 [Berry drivers](https://github.com/blakadder/berry-drivers) for mmWave radars
 
 [Documentation](https://wiki.seeedstudio.com/mmwave_human_detection_kit/)
+
+![Pinout](/assets/device_images/everything_presence_lite_pinout.webp)
