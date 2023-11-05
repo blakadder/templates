@@ -8,6 +8,8 @@ template-alt: '{"NAME":"Etersky","GPIO":[157,55,53,19,23,18,0,0,17,21,54,22,52],
 link: https://www.amazon.fr/gp/product/B07PNV9XKQ/
 link2:
 mlink: 
+unsupported: true
+chip: cb3s
 flash: serial
 category: cover
 type: Curtain Switch
