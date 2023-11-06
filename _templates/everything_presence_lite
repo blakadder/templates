@@ -7,7 +7,7 @@ type: Presence Sensor
 standard: global
 image: /assets/device_images/everything_presence_lite.webp
 template32: '{"NAME":"Everything Presence Lite","GPIO":[0,0,0,0,0,0,0,0,0,0,544,0,3232,3200,160,161,0,640,608,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
-mlink: https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html
+mlink: 
 link: https://shop.everythingsmart.io/products/everything-presence-lite
 link2: 
 flash: serial
