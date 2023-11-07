@@ -4,7 +4,7 @@ title: iGET Security
 model: DP23
 image: /assets/device_images/iget_security_DP23.webp
 template9: '{"NAME":"iGET DP23","GPIO":[0,0,0,0,419,0,0,0,416,417,418,0,420,0],"FLAG":0,"BASE":18}' 
-link: https://www.alzashop.com/iget-security-dp23-d5721666.htm
+link: https://www.alza.de/iget-security-dp23-d5721666.htm
 link2: 
 mlink: https://iget.eu/cs/dp23-security-smart-zarovka
 flash: tuya-convert

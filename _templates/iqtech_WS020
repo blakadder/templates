@@ -5,7 +5,7 @@ model: WS020
 image: /assets/device_images/iqtech_WS020.webp
 template9: '{"NAME":"iQ-Tech WS020","GPIO":[0,0,320,0,0,2720,0,0,2624,32,2656,224,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.alza.sk/iqtech-smartlife-ws020-wifi-zasuvka-16-a-d5656773.htm
-link2: https://www.alzashop.com/iq-tech-smartlife-ws020-wi-fi-socket-16a-d5656773.htm
+link2: https://www.alza.de/iq-tech-smartlife-ws020-wi-fi-socket-16a-d5656773.htm
 mlink: 
 flash: tuya-convert
 category: plug

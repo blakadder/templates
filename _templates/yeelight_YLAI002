@@ -4,7 +4,7 @@ title: Yeelight Dual Control
 model: YLAI002
 image: /assets/device_images/yeelight_YLAI002.webp
 template32: '{"NAME":"YLAI002","GPIO":[0,0,0,0,0,0,0,0,96,0,224,0,0,320,320,160,0,160,0,0,0,0,0,225,0,0,0,0,162,163,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SO127 1"}' 
-link: https://www.alzashop.com/yeelight-smart-dual-module-d6632364.htm
+link: https://www.alza.de/yeelight-smart-dual-module-d6632364.htm
 link2: https://www.aliexpress.com/item/1005003412332703.html
 mlink: 
 flash: serial

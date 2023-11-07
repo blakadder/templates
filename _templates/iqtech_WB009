@@ -5,7 +5,7 @@ model: WB009
 image: /assets/device_images/iqtech_WB009.webp
 template9: '{"NAME":"iQ-Tech CCT 10W 900LM","GPIO":[0,0,0,0,0,416,0,0,0,417,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.alza.cz/iq-tech-smartlife-wb009-wi-fi-zarovka-e27-10w-barevna-d5656798.htm
-link2: https://www.alzashop.com/iq-tech-smartlife-wb009-wi-fi-e27-socket-10w-coloured-d5656798.htm
+link2: https://www.alza.de/iq-tech-smartlife-wb009-wi-fi-e27-socket-10w-coloured-d5656798.htm
 link3: https://www.alza.de/iq-tech-smartlife-wb009-wlan-lampe-e27-10-w-farbe-d5656798.htm
 mlink: 
 flash: tuya-convert
