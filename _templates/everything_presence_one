@@ -1,0 +1,14 @@
+---
+date_added: 2023-11-04
+title: Everything Presence One
+model: EP1
+category: sensor
+type: Presence Sensor
+standard: global
+image: /assets/device_images/everything_presence_one.webp
+template32: '{"NAME":"Everything Presence One","GPIO":[0,0,0,0,0,0,0,0,0,3200,3232,160,0,1,1,1,0,0,1,1,0,608,640,0,0,0,0,0,544,161,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://everythingsmarthome.github.io/everything-presence-one/
+link: https://shop.everythingsmart.io/products/everything-presence-one-kit
+link2: 
+flash: serial
+---
