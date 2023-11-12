@@ -4,6 +4,7 @@ title: Arlec Plug In Socket
 model: PC191HA Series 2
 image: /assets/device_images/arlec_PC191HA_S2.webp
 template9: '{"NAME":"PC191HAS2","GPIO":[0,0,0,32,2656,2624,0,0,224,2720,320,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"PC191HAS2-1","GPIO":[0,32,0,0,2720,2656,0,0,2624,224,288,0,0,0],"FLAG":0,"BASE":1}'
 link: https://www.bunnings.com.au/arlec-white-grid-connect-smart-plug-in-socket-with-energy-meter_p0273367
 link2: 
 mlink: 
@@ -15,5 +16,7 @@ chip: CB2S
 ---
 
 To use this device with Tasmota, the CB2S module which needs to be replaced with ESP-02S, WT-01N or WT32C3-01N. 
+
+Updated verion that uses the WB2S module should use the PC191HAS2-1 template.
 
 The device is ultrasonically welded in its plastic case. Now screws the weld can be broken easily with a utility knife or spudger, without too much trouble. Once disassembled there are no screws inside and the mains terminals pull through the enclosure.  Reassembly with strong glue to maintain mains isolation.
