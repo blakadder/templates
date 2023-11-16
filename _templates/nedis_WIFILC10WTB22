@@ -8,7 +8,7 @@ standard: b22
 mlink: https://support.nedis.com/en-us/products/550672291
 link: https://www.amazon.co.uk/NEDIS-WIFILC10WTB22-Smart-Colour-White/dp/B07GGZYCMY/ref=sr_1_1
 image: /assets/device_images/nedis_WIFILC10WTB22.webp
-template: '{"NAME":"WIFILC10WTB22","GPIO":[0,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}'
+template9: '{"NAME":"WIFILC10WTB22","GPIO":[0,0,0,0,416,419,0,0,417,0,418,0,0,0],"FLAG":0,"BASE":18}'
 flash: tuya-convert
 ---
 
