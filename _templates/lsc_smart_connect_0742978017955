@@ -11,7 +11,7 @@ flash: replace
 category: misc
 type: Heater
 standard: eu
-chip: CB3S
+chip: WBR3
 ---
 ## Functions
 
@@ -55,8 +55,11 @@ In the webUI an ambient temperature sensor, temperature set sensor and a Timer1 
 
 Set temperature using TuyaSend2 2,x where x is the desired temperature (0 decimals allowed).
 
-Label webUI buttons: `backlog webbutton1 Power; webbutton2 DimmDisplay`
+Label webUI buttons: 
 
+```console
+backlog webbutton1 Power; webbutton2 DimmDisplay
+```
 ## TuyaEnum
 
 As of Tasmota 9.1.0.1 #9769 it is possible to map Type4 dpIDs (such as dpID4) to an Enum fn ID.
@@ -69,4 +72,6 @@ Now you can control the heating mode with TuyaEnum1 <x> where x is 0/1/2/3/4/5. 
 
 To do the same for timer select do TuyaMCU 63,19 then TuyaEnumList 2,5. Control with TuyaEnum2 0/1/2/3/4/5.
 
-`TuyaEnumList Enum1,5,Enum2,5`"
+```Console
+TuyaEnumList Enum1,5,Enum2,5
+```
