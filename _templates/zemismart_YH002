@@ -4,12 +4,13 @@ title: Zemismart Blinds Controller
 model: YH002
 image: /assets/device_images/zemismart_YH002.webp
 template: '{"NAME":"Zemismart Blin","GPIO":[255,255,255,255,255,255,0,0,255,108,255,107,255],"FLAG":0,"BASE":54}' 
-template9: '{"NAME":"Zemismart Blind","GPIO":[1,1,1,1,1,1,0,0,1,2304,1,2272,1,0],"FLAG":0,"BASE":54}' 
-template9: '{"NAME":"Zemismart Blind","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,7|TuyaMCU 21,2"}'
+template9_alt: '{"NAME":"Zemismart Blind TYWE3S","GPIO":[1,1,1,1,1,1,0,0,1,2304,1,2272,1,0],"FLAG":0,"BASE":54}' 
+template9: '{"NAME":"Zemismart Blind WBR3","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,7|TuyaMCU 21,2"}'
 link: https://www.aliexpress.com/item/4000782412838.html
 link2: 
 mlink: 
-flash: tuya-convert
+flash: replace
+chip: WBR3
 category: cover
 type: Motor
 standard: global
