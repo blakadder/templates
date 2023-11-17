@@ -1,0 +1,14 @@
+---
+date_added: 2023-08-30
+title: ESP32-C6-DevKitC
+model: ESP32-C6-DevKitC
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/ESP32-C6-DevKitC.webp
+templatec6: ' {"NAME":"ESP32-C6-DevKitC","GPIO":[1,1,1,1,1,1,1,1,1376,32,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink:
+link: https://aliexpress.com/item/1005005122260435.html
+---
+
+![Pinout](/assets/device_images/ESP32-C6-DevKitC_pinout.webp)
