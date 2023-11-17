@@ -1,0 +1,15 @@
+---
+date_added: 2023-11-13
+title: Ketotek
+model: KTA007-1
+image: /assets/device_images/ketotek_KTA007-1.webp
+template9: '{"NAME":"KETOTEK KTSS1NU","GPIO":[0,0,0,0,0,32,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B09LLXWVPC
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: [eu, uk]
+---
+There are headers for GND, VCC, RX, TX and GPIO 0 on the PCB but it required soldering to connect to easily.

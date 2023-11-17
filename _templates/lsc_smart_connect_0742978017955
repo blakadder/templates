@@ -1,0 +1,72 @@
+---
+date_added: 2023-11-16
+title: LSC Smart Connect 500W IR Panel
+model: 0742978017955
+image: /assets/device_images/lsc_smart_connect_0742978017955.webp
+template9: '{"NAME":"LSC Connect Smart IR Panel Heater","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://www.bol.com/nl/nl/p/lsc-smart-connect-infrarood-panelheater/9300000138206569/
+link2: 
+mlink: 
+flash: replace
+category: misc
+type: Heater
+standard: eu
+chip: CB3S
+---
+## Functions
+
+- dpID 1 controls device power - turns the device on off
+- dpID 2 sets target temperature
+- dpID 3 reports ambient temperature using the built in temperature sensor
+- dpID 4 control heating modes:
+  - 0 - day mode
+  - 1 - eco mode
+  - 2 - P1
+  - 3 - P2
+  - 4 - P3
+  - 5 - Fr
+- dpID 5 control ECO mode (on or off)
+- dpID 6 control child lock mode (lock on device controls)
+- dpID 10 heating timer in hours
+- dpID 11 unknown?!
+- dpID 19 timer set in minutes, shown in hours on display
+  - 0 - timer off
+  - 1 - timer 60 min
+  - 2 - timer 120 min
+  - 3 - timer 180 min
+  - 4 - timer 240 min
+  - 5 - timer 300 min
+- dpID 20 shown timer in minutes    
+- dpID 26 error report
+- dpID 103 dimming the display
+- dpID 104 unknown?!
+- dpID 105 unknown?!
+    
+## Configuration
+
+```console
+backlog tuyamcu 11,1; tuyamcu 12,103; tuyamcu 98,26; tuyamcu 71,3; tuyamcu 72,2; tuyamcu 81,20; tuyamcu 61,4; tuyamcu 63,19, tempres 0, tuyatempsetres 0
+```
+
+- Relay1 maps to dpID1 for power control
+- Relay2 maps to dpID103 for dimming the display
+
+In the webUI an ambient temperature sensor, temperature set sensor and a Timer1 will be shown.
+
+Set temperature using TuyaSend2 2,x where x is the desired temperature (0 decimals allowed).
+
+Label webUI buttons: `backlog webbutton1 Power; webbutton2 DimmDisplay`
+
+## TuyaEnum
+
+As of Tasmota 9.1.0.1 #9769 it is possible to map Type4 dpIDs (such as dpID4) to an Enum fn ID.
+
+Map dpID4 to Enum1 fnID: `TuyaMCU 61,4`
+
+Set Enum1 range (in this case the max enum is 5). `TuyaEnumList 1,5`
+
+Now you can control the heating mode with TuyaEnum1 <x> where x is 0/1/2/3/4/5. If you try a number outside the Enum1 range it will throw an error.
+
+To do the same for timer select do TuyaMCU 63,19 then TuyaEnumList 2,5. Control with TuyaEnum2 0/1/2/3/4/5.
+
+`TuyaEnumList Enum1,5,Enum2,5`"
