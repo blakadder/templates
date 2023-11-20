@@ -5,10 +5,13 @@ model: D114
 category: light
 type: Ceiling Light
 link: https://www.leuchtenservice-melitec.de/LED-SmartHome-Deckenleuchte-D114-Sternenhimmeleffekt/8251-01-5-CM
-template9: '{"NAME":"LightZone MeLiTec D114 Light ","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54,"CMND":"TuyaMCU 11,20 | TuyaMCU 21,22 | TuyaMCU 23,23 | DimmerRange 25,1000"}'
+template9: '{"NAME":"LightZone MeLiTec D114 Light ","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}'
 image: /assets/device_images/lightzone_D114.webp
 link2: 
 link3: 
 chip: WR3
 flash: replace
 ---
+```console
+backlog TuyaMCU 11,20; TuyaMCU 21,22; TuyaMCU 23,23; DimmerRange 25,738
+```
