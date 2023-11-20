@@ -59,7 +59,7 @@ In the webUI an ambient temperature sensor, temperature set sensor and a Timer1 
 
 Set temperature using TuyaSend2 2,x where x is the desired temperature (0 decimals allowed).
 
-##Label webUI buttons: 
+## Label webUI buttons: 
 ```console
 backlog webbutton1 Power; webbutton2 DimmDisplay`
 ```
