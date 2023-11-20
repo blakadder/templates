@@ -1,0 +1,19 @@
+
+---
+date_added: 2023-11-19
+title: Nanxin 15A  
+model: NX-SM300
+image: /assets/device_images/NX-SM300.webp
+template9: '{"NAME":"LUMIMAN NX-SM300","GPIO":[0,0,320,2592,289,2720,0,0,0,32,2656,224,0,0],"FLAG":0,"BASE":18}' 
+template9_alt: '{"NAME":"Bakibo SM300","GPIO":[320,0,576,0,0,2720,0,0,2624,32,2656,224,0,0],"FLAG":0,"BASE":59}' 
+link: https://www.amazon.co.jp/gp/product/B09PYB8NCB
+link2: https://item.rakuten.co.jp/beamtec/nx-sm300/
+link3: https://www.amazon.co.jp/gp/product/B07YVR452R/
+mlink: http://nanxin88.com/userfile/productPic/20180921105917.pdf
+flash: tuya-convert
+category: plug
+type: Plug
+standard: jp
+---
+
+Found under many different brand names
