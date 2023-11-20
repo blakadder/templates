@@ -11,7 +11,7 @@ flash: replace
 category: misc
 type: Heater
 standard: eu
-chip: CB3S
+chip: WBR3
 ---
 
 
