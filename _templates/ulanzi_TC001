@@ -7,7 +7,7 @@ type: Miscellaneous
 standard: global
 flash: ota
 image: /assets/device_images/ulanzi_TC001.webp
-template32: '{"NAME":"Ulanzi TC001","GPIO":[0,0,0,0,0,0,0,0,0,0,34,480,0,0,0,0,0,640,608,0,0,0,32,33,0,0,0,0,1376,0,4704,4768,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Ulanzi TC001","GPIO":[0,0,0,0,0,0,0,0,0,0,34,480,0,0,0,0,0,640,608,0,0,0,32,33,0,0,0,0,1376,0,4705,4768,0,0,0,0],"FLAG":0,"BASE":1}' 
 mlink: https://www.ulanzi.com/products/ulanzi-pixel-smart-clock-2882
 link: https://www.aliexpress.com/item/1005005034439849.html
 link2: https://www.ulanzi.de/products/ulanzi-pixel-smart-uhr-2882
