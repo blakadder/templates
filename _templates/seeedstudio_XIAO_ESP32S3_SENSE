@@ -13,7 +13,7 @@ flash: serial
 chip: s3
 ---
 
-Add the following environment to `platformio_tasmota_cenv.ini` or `platformio_override.ini` and compile the `tasmota32c3-xiaosense` build.
+Add the following environment to `platformio_tasmota_cenv.ini` or `platformio_override.ini` and compile the `tasmota32s3-xiaosense` build.
 
 ```ini
 [env:tasmota32s3-xiaosense]

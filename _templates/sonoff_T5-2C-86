@@ -17,3 +17,15 @@ standard: [eu]
 ## Flashing and Configuration
 
 See instructions for [Sonoff TX Ultimate 1 Gang](sonoff_T5-1C-86)
+
+Add the following rules to control both switches with the two touch panels:
+```console
+  rule2 On TXultimate#Action=Short do backlog var1 toggle endon
+  rule2 + On TXultimate#Action$!Short do backlog var1 "" endon
+  rule2 + On TXUltimate#Channel<5 do backlog power1 %var1% endon
+  rule2 + On TXUltimate#Channel>5 do backlog power2 %var1% endon
+```
+Activate rule2 with:
+```console
+rule2 1
+```

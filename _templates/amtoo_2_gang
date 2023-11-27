@@ -1,0 +1,22 @@
+---
+date_added: 2023-11-03
+title: AmmToo 433Mhz 2 Gang US Light
+model: 
+image: /assets/device_images/amtoo_2_gang.webp
+template9: '{"NAME":"Dual band touch switch","GPIO":[0,0,0,32,33,0,0,0,0,224,225,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005005609032048.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+
+Aliexpress Choice, 1/2/3 Gang WiFi Touch Switch, socket 120mm x 74mm
+
+Difficult to flash:
+
+- take TX directly from board, you can scratch a path, it will make soldering easier (location as in the documentation, top row, second from the right)
+- take RX from the longest IC, you need to solder the pin in the top row, third from the left (looking from the perspective of the text on esp)
+- take VCC and GND by soldering to the horizontal pins on the other side of the board (the same side as the touch buttons) above the ""W903"" inscription, the first one is GND and the last one is VCC. The same ports are also in the socket plugged to the board (on first side), the bottom row, the middle one is GND, the right one is VCC - but I was not able to flash by connecting to these ports. I don't know if it's because of unstable ports or something else, but I flashed two sockets with soldering, so I recommend this way.
