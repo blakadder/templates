@@ -1,0 +1,14 @@
+---
+date_added: 2023-11-27
+title: WeAct Studio ESP32-S3FH4R2 Core
+model: ESP32S3-MINI
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/weact_ESP32-S3FH4R2.webp
+templates3: '{"NAME":"ESP32S3-MINI","GPIO":[32,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1376],"FLAG":0,"BASE":1}' 
+mlink:
+link: https://www.aliexpress.com/item/1005006177646698.html
+build: tasmota32s3-cdc
+chip: s3
+---

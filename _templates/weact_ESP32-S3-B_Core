@@ -8,7 +8,7 @@ standard: global
 image: /assets/device_images/weact_ESP32-S3-B_Core.webp
 templates3: '{"NAME":"ESP32-S3-B","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,96,1,1,1376],"FLAG":0,"BASE":1}' 
 mlink:
-link: https://www.aliexpress.com/item/1005004960064227.html
+link: https://www.aliexpress.com/item/1005005592730189.html
 build: tasmota32s3
 chip: s3
 ---

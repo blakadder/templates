@@ -1,0 +1,12 @@
+---
+date_added: 2023-11-27
+title: WeAct Studio ESP32 Core
+model: ESP32CoreBoard
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/weact_ESP32CoreBoard.webp
+template32: '{"NAME":"ESP32CoreBoard","GPIO":[32,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,544,1,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+mlink: https://github.com/WeActStudio/WeActStudio.ESP32CoreBoard
+link: https://www.aliexpress.com/item/1005005645111663.html
+---
