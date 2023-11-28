@@ -5,7 +5,7 @@ model: ESP32S3-MINI
 category: diy
 type: Development Board
 standard: global
-image: /assets/device_images/weact_ESP32-S3FH4R2.webp
+image: /assets/device_images/weact_ESP32-S3FH4R2_Core.webp
 templates3: '{"NAME":"ESP32S3-MINI","GPIO":[32,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1376],"FLAG":0,"BASE":1}' 
 mlink:
 link: https://www.aliexpress.com/item/1005006177646698.html
