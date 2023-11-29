@@ -1,6 +1,6 @@
 ---
 date_added: 2023-11-22
-title: SUNTON 2.8" CYD
+title: Sunton 2.8" 240*320 CYD
 model: ESP32-2432S028R
 image: /assets/device_images/sunton_ESP32-2432S028.webp
 template32: '{"NAME":"ESP32-2432S028","GPIO":[6210,1,800,0,448,0,1,1,672,704,736,768,449,450,1,1,0,992,1,1,0,737,480,1,0,0,0,0,705,7264,4768,1,0,0,0,673],"FLAG":0,"BASE":1}' 

@@ -1,6 +1,6 @@
 ---
 date_added: 2022-02-16
-title: Sunton 800x480
+title: Sunton 5" IPS 800*480
 model: ESP32-8048S050 
 image: /assets/device_images/sunton_ESP32-8048S050.webp
 templates3: '{"NAME":"SUNTON","GPIO":[1,1,1,1,1,1,1,1,1,1,6720,704,736,672,1,1,1,1,1,640,608,1,0,0,0,0,0,6210,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1,"CMND":"DisplayDimmer 70"}' 
