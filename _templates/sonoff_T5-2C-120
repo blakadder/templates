@@ -1,0 +1,18 @@
+---
+date_added: 2023-06-02
+title: Sonoff TX Ultimate 2 Gang
+model: T5-2C-120
+image: /assets/device_images/sonoff_T5-2C-120.webp
+template32: '{"NAME":"TX Ultimate 2","GPIO":[0,0,7808,0,7840,3872,0,0,0,1376,0,7776,0,225,224,3232,0,480,3200,0,0,0,3840,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"Backlog Pixels 28"}'
+mlink: https://itead.cc/product/sonoff-tx-ultimate-smart-touch-wall-switch/
+link: https://www.amazon.com/dp/B0C8HQM631
+link2: https://www.aliexpress.com/item/1005005425204052.html
+flash: serial
+category: switch
+type: Switch
+standard: [eu]
+---
+
+## Flashing and Configuration
+
+See instructions for [Sonoff TX Ultimate 1 Gang](sonoff_T5-1C-86)
