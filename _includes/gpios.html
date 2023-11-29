@@ -838,10 +838,16 @@
             MGC3130 Rst 
             {% when "672" %}
             SPI MISO   
+            {% when "673" %}
+            SPI MISO 2  
             {% when "704" %}
             SPI MOSI   
+            {% when "705" %}
+            SPI MOSI 2  
             {% when "736" %}
             SPI CLK   
+            {% when "737" %}
+            SPI CLK 2  
             {% when "768" %}
             SPI CS   
             {% when "800" %}
@@ -1180,6 +1186,8 @@
             Wiegand D1
             {% when "7232" %}
             SSD1351 DC
+            {% when "7264" %}
+            XPT2046 CS
             {% when "7296" %}
             CSE7761 Tx
             {% when "7328" %}
