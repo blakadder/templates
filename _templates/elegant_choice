@@ -4,8 +4,9 @@ title: Elegant Choice E27/E26
 category: light
 type: Socket Adapter
 standard: global
-link: https://www.amazon.com/gp/product/B07K25F1LR
-image: https://images-na.ssl-images-amazon.com/images/I/61Mf6y84RxL._SL1500_.jpg
+link: https://www.ebay.com/itm/133601072075
+link2: https://www.walmart.com/ip/Tuya-Smart-Slampher-WiFi-Smart-Light-Bulb-Holder-E27-Wireless-Lamp-Holder-Real-Timer-for-Smart-Home-Compatible-with-for-Home/802438068
+image: /assets/device_images/elegant_choice.webp
 template: '{"NAME":"name","GPIO":[0,0,0,0,0,0,0,0,0,0,0,21,0],"FLAG":0,"BASE":18}' 
 link2: 
 ---

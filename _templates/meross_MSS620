@@ -1,0 +1,20 @@
+---
+date_added: 2023-11-23
+title: Meross MSS620 16A IP44
+model: MSS620
+image: /assets/device_images/meross_MSS620.webp
+template9: '{"NAME":"MSS620","GPIO":[0,320,0,320,225,0,0,0,224,576,32,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B0BFR1G7YN/
+mlink: https://www.meross.com/en-gc/smart-plug/wifi-outlet/45
+flash: replace
+chip: MRE3S
+category: plug
+type: Outdoor Plug
+standard: [eu, uk, fr, au]
+---
+
+This device can be modified with ESP-12S module. I recommend preparing the module with flashing and configuring Tasmota with the given template. Then you need to open the device. Remove 4 case screws and use some force to open the housing. Then remove the 3 or 4 screws holding the PCB.  Take out the board as good as possible and desolder the original Meross WiFi-module with hot air. Using Flux and tinning joints with leadfree solder is recommended before using hot air. Make sure to protect nearby components with heat resistant tape. Then solder prepared ESP-12S module on, test the device (be careful with wiring and 230V, shock danger), and put it together.
+
+I have seen different PCB revisions of this device, you may have to switch some GPIOs for assigned functions if the given template doesn't work for you.
+
+[Disassembly images](https://www.instructables.com/MEROSS-MSS620-a-Journey-Into-Strangeness/)

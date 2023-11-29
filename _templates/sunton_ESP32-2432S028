@@ -1,0 +1,222 @@
+---
+date_added: 2023-11-22
+title: SUNTON 2.8" CYD
+model: ESP32-2432S028R
+image: /assets/device_images/sunton_ESP32-2432S028.webp
+template32: '{"NAME":"ESP32-2432S028","GPIO":[6210,1,800,0,448,0,1,1,672,704,736,768,449,450,1,1,0,992,1,1,0,737,0,1,0,0,0,0,705,7264,4768,1,0,0,0,673],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005004502250619.html
+link2: https://www.amazon.com/dp/B0BVFXR313
+link3: https://www.aliexpress.com/item/1005004700627096.html
+link4: https://www.aliexpress.com/item/1005006131806418.html
+mlink: 
+flash: serial
+category: diy
+type: Display
+standard: global
+---
+
+The following was found in the Tasmota forums.
+
+Requires Tasmota32-LVGL image to be installed. Uses berry code to render graphics.
+The following contents go into the LVGL `display.ini` uploaded into filesystem on ESP32. Includes touchscreen configuration.
+
+```lua
+:H,ILI9341,240,320,16,SPI,1,*,*,*,*,*,*,*,40
+:S,2,1,1,0,40,20
+:r,1
+:I
+EF,3,03,80,02
+CF,3,00,C1,30
+ED,4,64,03,12,81
+E8,3,85,00,78
+CB,5,39,2C,00,34,02
+F7,1,20
+EA,2,00,00
+C0,1,23
+C1,1,10
+C5,2,3e,28
+C7,1,86
+36,1,48
+37,1,00
+3A,1,55
+B1,2,00,18
+B6,3,08,82,27
+F2,1,00
+26,1,01
+E0,0F,0F,31,2B,0C,0E,08,4E,F1,37,07,10,03,0E,09,00
+E1,0F,00,0E,14,03,11,07,31,C1,48,08,0F,0C,31,36,0F
+11,80
+29,80
+:o,28
+:O,29
+:A,2A,2B,2C,16
+:R,36
+:0,48,00,00,00
+:1,28,00,00,00
+:2,88,00,00,00
+:3,E8,00,00,00
+:i,20,21
+:TS,33,-1,2
+:B,20,0
+:M,150,2780,150,5100
+#
+```
+
+Note that the `Toggle 2` button must be `ON` to turn on the screen. Display brightness can be changed with the `DisplayDimmer` console command.
+
+The following is an example `autoexec.be` file from the to demonstrate some graphic elements.
+
+```c
+#- start LVGL and init environment -#
+lv.start()
+
+# var scr1 = lv.obj_create(None, None);
+# var scr2  = lv.obj_create(None, None);
+# lv.scr_load(scr1);
+
+hres = lv.get_hor_res()       # should be 320
+vres = lv.get_ver_res()       # should be 240
+
+scr = lv.scr_act()            # default screen object
+f20 = lv.montserrat_font(20)  # load embedded Montserrat 20
+f28 = lv.montserrat_font(28)  # load embedded Montserrat 28
+
+#- Background with a gradient from black #000000 (bottom) to dark blue #0000A0 (top) -#
+scr.set_style_bg_color(lv.color(0x000000), lv.PART_MAIN | lv.STATE_DEFAULT)
+scr.set_style_bg_grad_color(lv.color(0x000000), lv.PART_MAIN | lv.STATE_DEFAULT)
+scr.set_style_bg_grad_dir(lv.GRAD_DIR_VER, lv.PART_MAIN | lv.STATE_DEFAULT)
+
+#- Upper state line -#
+stat_line = lv.label(scr)
+if f28 != nil stat_line.set_style_text_font(f28, lv.PART_MAIN | lv.STATE_DEFAULT) end
+stat_line.set_long_mode(lv.LABEL_LONG_SCROLL)                                        # auto scrolling if text does not fit
+stat_line.set_width(hres)
+stat_line.set_align(lv.TEXT_ALIGN_LEFT)                                              # align text left
+stat_line.set_style_bg_color(lv.color(0xD00000), lv.PART_MAIN | lv.STATE_DEFAULT)    # background #000088
+stat_line.set_style_bg_opa(lv.OPA_COVER, lv.PART_MAIN | lv.STATE_DEFAULT)            # 100% background opacity
+stat_line.set_style_text_color(lv.color(0xFFFFFF), lv.PART_MAIN | lv.STATE_DEFAULT)  # text color #FFFFFF
+stat_line.set_text("Tasmota")
+stat_line.refr_size()                                                                # new in LVGL8
+stat_line.refr_pos()                                                                 # new in LVGL8
+
+#- display wifi strength indicator icon (for professionals ;) -#
+wifi_icon = lv_wifi_arcs_icon(stat_line)    # the widget takes care of positioning and driver stuff
+clock_icon = lv_clock_icon(stat_line)
+
+
+#- create a style for the buttons -#
+btn_style = lv.style()
+btn_style.set_radius(10)                        # radius of rounded corners
+btn_style.set_bg_opa(lv.OPA_COVER)              # 100% backgrond opacity
+if f20 != nil btn_style.set_text_font(f20) end  # set font to Montserrat 20
+btn_style.set_bg_color(lv.color(0x1fa3ec))      # background color #1FA3EC (Tasmota Blue)
+btn_style.set_border_color(lv.color(0x0000FF))  # border color #0000FF
+btn_style.set_text_color(lv.color(0xFFFFFF))    # text color white #FFFFFF
+
+#- create buttons -#
+prev_btn = lv.btn(scr)                            # create button with main screen as parent
+prev_btn.set_pos(20,vres-40)                      # position of button
+prev_btn.set_size(80, 30)                         # size of button
+prev_btn.add_style(btn_style, lv.PART_MAIN | lv.STATE_DEFAULT)   # style of button
+prev_label = lv.label(prev_btn)                   # create a label as sub-object
+prev_label.set_text("<")                          # set label text
+prev_label.center()
+
+next_btn = lv.btn(scr)                            # right button
+next_btn.set_pos(220,vres-40)
+next_btn.set_size(80, 30)
+next_btn.add_style(btn_style, lv.PART_MAIN | lv.STATE_DEFAULT)
+next_label = lv.label(next_btn)
+next_label.set_text(">")
+next_label.center()
+
+home_btn = lv.btn(scr)                            # center button
+home_btn.set_pos(120,vres-40)
+home_btn.set_size(80, 30)
+home_btn.add_style(btn_style, lv.PART_MAIN | lv.STATE_DEFAULT)
+home_label = lv.label(home_btn)
+home_label.set_text(lv.SYMBOL_OK)                 # set text as Home icon
+home_label.center()
+
+#- callback function when a button is pressed, react to EVENT_CLICKED event -#
+
+def btn_clicked_cb(obj, event)
+    var btn = "Unknown"
+    if   obj == prev_btn  btn = "Prev"
+    elif obj == next_btn  btn = "Next"
+    elif obj == home_btn  btn = "Home"
+    end
+    print(btn, "button pressed")
+    tasmota.cmd("buzzer 1")
+    tasmota.publish("tele/tasmota232/SENSOR/Buttom",btn)
+end
+
+def buzzer_enable()
+  tasmota.cmd("buzzerpwm 1") # use PWM on buzzer pin (GPIO21)
+  tasmota.cmd("pwmfrequency 1000") # highest volume at 2700 as per datasheet of LET7525AS-3.6L-2.7-15-R
+  tasmota.cmd("setoption111 1")
+end
+
+buzzer_enable()
+
+prev_btn.add_event_cb(btn_clicked_cb, lv.EVENT_CLICKED, 0)
+next_btn.add_event_cb(btn_clicked_cb, lv.EVENT_CLICKED, 0)
+home_btn.add_event_cb(btn_clicked_cb, lv.EVENT_CLICKED, 0)
+
+def slider_event_cb(obj, event)
+    var slider = "Unknown"
+    var value = "999"
+
+    if   obj == slider  slider= "SLIDER"
+    # elif obj == next_slider  slider= "Next"
+    # elif obj == home_btn  slider= "Home"
+    end
+
+    value= obj.get_value()
+
+    # Refresh the text
+    # label.set_text(str(value))
+   
+    print("slider set:", str(value))
+   
+    tasmota.publish("tele/ESP32-2432S028/SENSOR/Slider", str(value))
+end
+
+# Create a slider in the center of the display
+slider = lv.slider(scr)
+slider.set_pos(20,vres-80) 
+slider.set_width(200)                                              # Set the width
+slider.center()                                                    # Align to the center of the parent (screen)
+slider.add_event_cb(slider_event_cb, lv.EVENT_VALUE_CHANGED, None) # Assign an event function
+
+# Create a label below the slider
+label = lv.label(scr)
+label.set_text("0")
+label.align_to(slider, lv.ALIGN_OUT_TOP_MID, 0, -15)               # Align below the slider
+
+def dropdown_changed_cb(obj, event)
+    var option = "Unknown"
+
+    var modes = ['Auto', 'Boost', 'On', 'Off', 'Adv', 'Day' ]
+
+    var code = event.code
+
+    if code == lv.EVENT_VALUE_CHANGED
+       print("Dropdown code :", code )
+       option = obj.get_selected()
+   
+       print("Dropdown set:", modes[option])
+   
+       tasmota.publish("tele/ESP32-2432S028/SENSOR/Dropdown", modes[option] )
+     end
+
+end
+
+var modes = ['Auto', 'Boost', 'On', 'Off', 'Adv', 'Day' ]
+var modes_str = modes.concat('\n')
+ddlist = lv.dropdown(scr)
+ddlist.set_options(modes_str)
+ddlist.set_pos(20,vres-180)
+# ddlist.center()
+ddlist.add_event_cb(dropdown_changed_cb, lv.EVENT_ALL, None)
+```

@@ -1,0 +1,19 @@
+---
+date_added: 2023-11-25
+title: 4 Gang Light Touch
+model: LX-WIFI-03O(US)
+image: /assets/device_images/lx-wifi-030us.webp
+template9: '{"NAME":"03O","GPIO":[32,0,0,0,226,225,33,34,224,260,35,227,0,0],"FLAG":0,"BASE":7}' 
+link: https://www.aliexpress.com/item/4000505091202.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: us
+---
+
+You can run `webbutton5 Bck L` in the console to reflect what button does in the web gui. This is for board revision us 4ch 20190709.
+
+![PCB Image](https://raw.githubusercontent.com/kodiakastu/templates/main/esp8266-esp8285/assets/lx-wifi-03o-us-4ch-20190709_back_pinout.jpg)"
+
