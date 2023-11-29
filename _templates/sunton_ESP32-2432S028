@@ -3,7 +3,7 @@ date_added: 2023-11-22
 title: SUNTON 2.8" CYD
 model: ESP32-2432S028R
 image: /assets/device_images/sunton_ESP32-2432S028.webp
-template32: '{"NAME":"ESP32-2432S028","GPIO":[6210,1,800,0,448,0,1,1,672,704,736,768,449,450,1,1,0,992,1,1,0,737,0,1,0,0,0,0,705,7264,4768,1,0,0,0,673],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"ESP32-2432S028","GPIO":[6210,1,800,0,448,0,1,1,672,704,736,768,449,450,1,1,0,992,1,1,0,737,480,1,0,0,0,0,705,7264,4768,1,0,0,0,673],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005004502250619.html
 link2: https://www.amazon.com/dp/B0BVFXR313
 link3: https://www.aliexpress.com/item/1005004700627096.html
@@ -13,12 +13,12 @@ flash: serial
 category: diy
 type: Display
 standard: global
+build: tasmota32-lvgl
 ---
 
-The following was found in the Tasmota forums.
+Use the tasmota32-lvgl image when flashing.
 
-Requires Tasmota32-LVGL image to be installed. Uses berry code to render graphics.
-The following contents go into the LVGL `display.ini` uploaded into filesystem on ESP32. Includes touchscreen configuration.
+The following contents should be copied to the filesystem as display.ini
 
 ```lua
 :H,ILI9341,240,320,16,SPI,1,*,*,*,*,*,*,*,40
@@ -62,9 +62,7 @@ E1,0F,00,0E,14,03,11,07,31,C1,48,08,0F,0C,31,36,0F
 #
 ```
 
-Note that the `Toggle 2` button must be `ON` to turn on the screen. Display brightness can be changed with the `DisplayDimmer` console command.
-
-The following is an example `autoexec.be` file from the to demonstrate some graphic elements.
+The following berry code should be copied to the filesystem as `autoexec.be`
 
 ```c
 #- start LVGL and init environment -#
