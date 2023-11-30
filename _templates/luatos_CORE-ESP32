@@ -6,6 +6,7 @@ image: /assets/device_images/luatos_CORE-ESP32.webp
 templatec3: '{"NAME":"Luatos CORE-ESP32","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0,544,416,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005004547522408.html
 link2: https://www.aliexpress.com/item/1005004428915044.html
+link3: https://www.amazon.de/gp/product/B0CJFGYRGL
 mlink: https://wiki.luatos.com/chips/esp32c3/board.html
 flash: serial
 category: diy
