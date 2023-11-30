@@ -5,7 +5,7 @@ model: ET28
 image: /assets/device_images/eightree_16A.webp
 templatec3: ''
 mlink: 
-link: https://www.amazon.de/-/en/Electricity-EIGHTREE-Assistant-Domoticz-ioBroker/dp/B0CHMMKZCQ/r
+link: https://www.amazon.de/dp/B0CHMMKZCQ
 link2: 
 flash: preflashed
 category: plug
