@@ -3,7 +3,7 @@ date_added: 2023-11-24
 title: TCP Smart 9W 806lm
 model: TCALA60B2OWW15RGBCCT
 image: /assets/device_images/tcp_TCALA60B2OWW15RGBCCT.webp
-template9: '{"NAME":"TCALA60B2OWW15RGBCCT","GPIO":[0,0,0,9056,1,1,1,9024,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SO37 54"}' 
+templatec3: '{"NAME":"TCALA60B2OWW15RGBCCT","GPIO":[0,0,0,9056,1,1,1,9024,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SO37 54"}' 
 link: https://www.amazon.co.uk/gp/product/B07KX3SQQK/
 link2: 
 mlink: 
