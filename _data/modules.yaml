@@ -60,5 +60,7 @@ tylc5:
   - module: CBLC5 
   - module: WBLC5
   - module: ZSLC5
+  - module: ESP8684-WROOM-07
+  - module: ESP8685-WROOM-07
 wroom-02:
   - module: WBR1D

@@ -1,0 +1,23 @@
+---
+date_added: 2023-12-04
+title: Matter A19 9W 800lm
+model: FL_L85
+image: /assets/device_images/FL_L85.webp
+templatec3: '{"NAME":"FL_L85","GPIO":[0,0,0,0,9024,9056,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"SO37 54"}' 
+link: https://www.aliexpress.com/item/1005005955062901.html
+link2: 
+mlink: 
+flash: replace
+chip: ESP8684-WROOM-07
+category: bulb
+type: RGBCCT
+standard: [e27, e26]
+---
+
+Use 'SetOption37 54' to set colors.
+
+This is a Matter bulb running on an ESP32-C2 [ESP8684-WROOM-07](ESP8684-WROOM-07) module with encrypted flash which means it cannot be flashed to Tasmota. It is replaced with a pin compatible [ESP8685-WROOM-07](ESP8685-WROOM-07).
+
+Squeeze the plastic dome and pop it off. Scrape off the white glue on the edges of the bulb and lift the circular PCB with LEDs to get access to the ESP module. Use a heat gun to remove it from the main PCB and replace.
+
+![Inside](/assets/device_images/FL_L85_inside.webp)
