@@ -16,7 +16,7 @@ footprint: tylc5
 ---
 ESP8685 is the new nomenclature for ESP32-C3 based modules. There are two different versions of this module:
 
-- **ESP8685-WROOM-07-H2** with 4Mb flash
+- **ESP8685-WROOM-07-H4** with 4Mb flash
 - **ESP8685-WROOM-07-H2** with 2Mb flash. This version is **not recommended** for Tasmota due to low flash space.
 
 {% include flash/c3.md %}

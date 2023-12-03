@@ -1,0 +1,22 @@
+---
+date_added: 2023-11-29
+title: ONiOFF Smart Switch
+model: 
+image: /assets/device_images/onioff_smart_switch.webp
+template9: '{"NAME":"ONOFF SmartSwitch","GPIO":[1,320,1,1,1,32,0,0,224,1,1,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005004792119903.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Switch Module
+standard: global
+---
+Standard serial flash procedure via exposed pads: 3V3, RX, TX, GPIO0, RST and GND. Connect standard USB to RS232 3V3 converter. Put GPIO0 low and then RST low for a sec. 
+
+Main chip is ESP8285N08 with 1MB flash. Standard tasmota.bin file is ok for flashing. I did it by esptool, but you can flash it in many ways.
+
+Pics:
+[![P1160150.jpg](https://i.postimg.cc/vZLhLz52/P1160150.jpg)](https://postimg.cc/yDx070Q0)
+[![P1160147-mod.jpg](https://i.postimg.cc/zDsFsMjP/P1160147-mod.jpg)](https://postimg.cc/3WZGptzg)
+[![P1160151-mod.jpg](https://i.postimg.cc/3Nmmr8Bf/P1160151-mod.jpg)](https://postimg.cc/Lg4nNMGj)"

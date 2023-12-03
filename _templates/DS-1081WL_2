@@ -1,0 +1,16 @@
+---
+date_added: 2023-12-01
+title: Tuya T1 2 Gang No Neutral
+model: DS-1081WL 2
+image: /assets/device_images/DS-1081WL_2.webp
+template9: '{"NAME":"Tuya T1 Wifi 2 Gang No Neutral Switch","GPIO":[32,0,0,0,0,225,33,0,224,544,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://shopee.com.my/I-T_EMPIRE-Tuya-Smart-Life-High-End-Wifi-Wall-Touch-Switch-No-Neutral-Wire-Required-1-2-3Gang-Works-With-Google-Home-i.491973572.20051116431
+link2: https://www.aliexpress.com/item/1005005691531052.html
+mlink: https://www.alibaba.com/product-detail/LEDEAST-DS-1081WL-86-Size-Non_1600918907241.html
+flash: serial
+category: switch
+type: Switch
+standard: [eu, uk]
+---
+
+- similar board, pinout and gpio setup to EJLINK RF433 2 Gang Switch, uses ESP8285

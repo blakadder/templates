@@ -1,0 +1,25 @@
+---
+date_added: 2023-11-30
+title: Wiz Colors A21 14.5w 1600lm 
+model: 9290024493
+image: /assets/device_images/wiz_9290024493.webp
+template32: '{"NAME":"WIZ-922-65","GPIO":[1,1,420,1,419,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,416,417,418,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.homedepot.com.mx/iluminacion/focos/inteligentes/foco-wiz-a19-colores-145w-y-1600-lumenes-157195
+link2: https://www.bestbuy.com/site/wiz-led-a21-100w-color-bulbs/6436469.p?skuId=6436469
+mlink: https://www.wizconnected.com/en-us/p/modern-bulb-bulb-100w-a21-e26/046677603519
+flash: serial
+category: bulb
+type: RGBCCT
+standard: e26
+---
+Pry open the bulb dome with a plastic pryer or flat screwdriver.
+
+The PCB that holds the LEDs needs to be separated, it has 3 metal tabs that need to be straightened, you can do this with the flat screwdriver.
+Remove or cut the white silicone on the perimeter of that PCB and start prying it out.
+
+After that you will see the main PCB, to take it out you need to remove the bottom silver part of the bulb where it screws to the socket, onece again you can use the flat scredriver.
+Remove the silicone or the white paste that glues it to the bulb shel and pull it gently.
+
+The chip on that PCB is a ESP32 SOLO 1, you have to remove the silicone from the chip in order to gain access to the pins. Use pins GND, 3.3, TX, RX, GPIO0 to flash.
+
+You can either solder some dupont cables or use some needles and clamps or pincers.
