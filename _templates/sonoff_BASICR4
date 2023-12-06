@@ -5,7 +5,8 @@ model: BASICR4
 image: /assets/device_images/sonoff_BASICR4.webp
 templatec3: '{"NAME":"Sonoff Basic R4","GPIO":[0,0,0,0,224,0,544,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://itead.cc/product/sonoff-basicr4-wi-fi-smart-switch/
-link2: 
+link2: https://www.aliexpress.com/item/1005006305084341.html
+link3: https://www.banggood.com/SONOFF-Basic-R4-WiFi-ESP32-Chip-Smart-Switch-10A-2400W-Smart-Scene-Magic-Switch-Module-eWeLink-IFTTT-APP-Remote-Control-Work-with-S-MATE2-R5-Alexa-Google-p-2004342.html
 mlink: 
 flash: serial
 category: relay
