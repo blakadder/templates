@@ -8,7 +8,7 @@ standard: global
 image: /assets/device_images/s2_mini.webp
 flash: serial
 chip: s2
-templates2: '{"NAME":"S2 Mini v1.0.0","GPIO":[32,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+templates2: '{"NAME":"S2 Mini v1.0.0","GPIO":[32,1,1,1,1,1,1,1,1,1,1,1,1,1,1,576,1,1,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 mlink: https://www.wemos.cc/en/latest/s2/s2_mini.html
 link: https://www.aliexpress.com/item/1005003145192016.html
 link2: https://www.aliexpress.com/item/1005004344359250.html
