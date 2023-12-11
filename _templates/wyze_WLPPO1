@@ -16,4 +16,4 @@ standard: us
 ## Flashing
 There are test points large enough for soldering, BOOT (GPIO0), RXD, TXD, and GND are right next to each other.  3V3 is some distance away (right next to the power cord).
 
-The case has the triangle head security screws that are covered/hidden by rubber plugs that come out easily with a prick puller/awl.
+The case uses TA27 triangle head security screws that are covered/hidden by rubber plugs that come out easily with a prick puller/awl.
