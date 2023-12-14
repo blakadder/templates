@@ -11,6 +11,7 @@ flash: serial
 category: plug
 type: Wall Outlet
 standard: uk
+unsupported: true
 ---
 
 ### Flashing Instructions
