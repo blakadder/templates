@@ -12,3 +12,15 @@ category: misc
 type: Thermostat
 standard: eu
 ---
+
+## Known dpIds
+
+| dpId    | Function        | Data-type | Remarks 
+|---------|-----------------|-----------|----------------
+|1        | device power    | boolean   |
+|16       | target temp     | integer   |
+
+examples:
+- Tuyasend  1,0  - switch device off
+- Tuyasend  1,1  - switch device on
+- Tuyasend2 16,22 – set Tempset:Manual to 22°C
