@@ -13,3 +13,21 @@ category: relay
 type: Switch Module
 standard: global
 ---
+## Support for MagicSwitch (tasmota32c3 >= 13.3.0.1)
+
+To support the MagicSwitch feature as promoted by Sonoff, set GPIO5 as `MagicSwitch` with index `1` or use the following template:
+```
+{"NAME":"Sonoff Basic R4","GPIO":[0,0,0,0,224,10560,544,0,0,32,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}
+```
+
+More details on the feature and configuration here: [PR#20247: Sonoff Basic R4 Magic switch](https://github.com/arendst/Tasmota/pull/20247)
+
+MagicSwitch cabling:
+![BasicR4 MagicSwitch cabling](/assets/device_images/sonoff_basicR4_magicswitch.png)
+Note: It can also be used with a single switch circuit by replacing the standard on/off switch by a 2-way switch alone.
+
+## SECURITY WARNING
+
+Analysis of the BasicR4 hardware shows the lack of a transformer on the power supply circuit. It is confirmed that the ESP GND is at a high potential (measured at 130V on 240V mains network).
+*THIS DEVICE IS STRONGLY NOT RECOMMEND FOR HARDWARE HACKING* such as attaching external sensors as any wires would create a risk of high voltage shock. This include the 4 pins serial connector that should only be used for flashing while the device is not connected to mains.
+Beside, Sonoff Basic are known for weak power supplies not suitable for such hacking.
