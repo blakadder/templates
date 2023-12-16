@@ -24,7 +24,7 @@ More details on the feature and configuration here: [PR#20247: Sonoff Basic R4 M
 
 MagicSwitch cabling:
 ![BasicR4 MagicSwitch cabling](/assets/device_images/sonoff_basicR4_magicswitch.png)
-Note: It can also be used with a single switch circuit by replacing the standard on/off switch by a 2-way switch alone.
+Note: It can also be used with a single switch circuit by replacing the standard on/off switch by a single 2-way switch cabled as above.
 
 ## SECURITY WARNING
 
