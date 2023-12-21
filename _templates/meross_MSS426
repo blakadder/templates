@@ -1,0 +1,19 @@
+---
+date_added: 2023-12-12
+title: Meross 
+model: MSS426
+image: /assets/device_images/meross_MSS426.webp
+template9: '{"NAME":"Meross MSS426","GPIO":[320,0,262,0,229,228,0,0,225,226,224,227,32,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B09CH3WCDX
+link2: 
+mlink: https://www.meross.com/en-gc/smart-plug/wifi-controlled-power-strip/113
+flash: replace
+category: plug
+type: Power Strip
+standard: uk
+chip: MR3E
+---
+
+You need a size 2.0 triangle bit to open the case. The screws are under rubber stoppers, a fine screwdriver or needle pulls them out. In addition, the underside is clipped in.
+
+Successfully opened you can remove the existing MR3E and replace with an ESP-12.

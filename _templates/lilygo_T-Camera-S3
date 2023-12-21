@@ -1,0 +1,15 @@
+---
+date_added: 2023-12-20
+title: LilyGO T-Camera S3
+model: T-Camera-S3
+image: /assets/device_images/lilygo_T-Camera-S3.webp
+template9: '{"NAME":"T-Camera S3","GPIO":[1,0,0,1,5056,5024,608,640,5120,5095,5094,5093,5184,5092,5088,1,1,32,5152,0,0,5091,0,0,0,0,0,4992,4960,0,7776,7840,0,0,1,1,5089,5090],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/dp/B0BTPPGGB7
+link2: https://www.aliexpress.com/item/1005005059816321.html
+mlink: https://www.lilygo.cc/products/t-camera-s3
+flash: serial
+category: diy
+type: Camera
+standard: global
+---
+[Pinout](/assets/device_images/lilygo_T-Camera-S3_pinout.webp)

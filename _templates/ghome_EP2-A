@@ -1,0 +1,14 @@
+---
+date_added: 2023-12-09
+title: GHome EP2-A
+model: EP2-A
+image: /assets/device_images/ghome_EP2-A.webp
+template9: '{"NAME":"GHome EP2-A","GPIO":[320,0,576,0,2656,2720,0,0,2624,32,0,224,0,0],"FLAG":0,"BASE":45}' 
+link2: https://www.amazon.es/dp/B09Q5BLMVT/
+link: https://www.amazon.de/dp/B09Q5K34NV
+mlink: 
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

@@ -1,0 +1,16 @@
+---
+date_added: 2023-12-13
+title: EARU DIN Circuit Breaker 1P 63A eWeLink version
+model: RDCBC-1P
+image: /assets/device_images/earu_RDCBC-1P_ewelink.webp
+template9: '{"NAME":"RDCBC-1P","GPIO":[32,0,0,0,0,0,0,0,288,224,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004878966827.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: Relay
+standard: global
+chip: PSF-B01
+---
+This device, on version eWeLink (november 2023), have PSF-B01 no Tuya MCU. PSF-B01 is a single-channel ultra-low-power Wi-Fi switch module based on ESP8285. It can flash with Tasmota USB serial TTL. (https://templates.blakadder.com/PSF-B.html)

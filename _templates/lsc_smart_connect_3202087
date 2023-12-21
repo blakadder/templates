@@ -1,0 +1,15 @@
+---
+date_added: 2023-12-10
+title: LSC Smart Power Plug
+model: 3202087
+image: /assets/device_images/lsc_smart_connect_3202087
+template9: '{"NAME":"LSC Smart Power Plug with Energy Monitoring","GPIO":[0,2624,1,288,32,544,1,1,2656,224,2720,1,1,1],"FLAG":0,"BASE":18}' 
+link: 
+link2: 
+mlink: https://www.action.com/nl-nl/p/3202087/lsc-smart-connect-slimme-stekker/
+flash: replace
+category: plug
+type: Plug
+standard: eu
+chip: CB2S
+---

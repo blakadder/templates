@@ -1,0 +1,46 @@
+---
+date_added: 2023-12-06
+title: Calex Smart 
+model: 429262
+image: /assets/device_images/calex_429262.webp
+template: '{"NAME":"CALEX-429262","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.es/dp/B093T8D7PY
+link2: 
+mlink: https://www.calex.eu/en/products/product/CALEX-SMARTDIFFUSER
+flash: tuya-convert
+category: misc
+type: Aroma Diffuser
+standard: global
+---
+## Functions
+
+`dpID 1` device power: `0` = off / `1` = on
+`dpID 2` diffuser power: `0` = off / `1` = on
+`dpID 3` mist strength: `0` = high / `1` = low
+`dpID 7` light power: `0` = off / `1` = on
+`dpID 8` cct light: `0` = warm / `255` = cool
+`dpID 9` light mode: `0` = white / `1` = color / `2` = rgb_cycle
+`dpID 10` light color: 14 char value in hex (set with `TuyaRGB 4`)
+`dpID 11` error notification: `0` = ok / `1` = error
+
+## Configuration
+
+After applying the template and configuring Wi-Fi and MQTT, issue the following commands:
+
+```console
+Backlog TuyaMCU 11,1; TuyaMCU 12,2; TuyaMCU 13,7; TuyaMCU 23,8; TuyaMCU 62,9; TuyaMCU 24,10; TuyaMCU 61,3;
+```
+
+After a restart issue the rest of configurations:
+
+```console
+Backlog TuyaRGB 4; TuyaEnumList 1,1 ; TuyaEnumList 2,2; Rule0 1
+```
+
+```console
+Backlog WebButton1 Power; WebButton2 Diffuser; WebButton3 Light; FriendlyName1 Power; FriendlyName2 Diffuser Fan; FriendlyName3 Diffuser Light
+```
+
+```console
+Rule1 on tuyareceived#dptype5id11 do publish stat/%topic%/error %value% endon on tuyareceived#dptype4id3==0 do publish stat/%topic%/fanmode high endon on tuyareceived#dptype4id3==1 do publish stat/%topic%/fanmode low endon
+```

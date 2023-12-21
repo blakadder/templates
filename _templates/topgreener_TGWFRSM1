@@ -1,0 +1,18 @@
+---
+date_added: 2023-12-11
+title: Topgreener 
+model: TGWFRSM1
+image: /assets/device_images/topgreener_TGWFRSM1.webp
+template9: '{"NAME":"Topgreener TGWFRSM1","GPIO":[0,32,0,0,0,0,0,0,0,160,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07WRT7M67
+link2: 
+mlink: https://topgreener.com/product/wi-fi-single-relay-module/
+flash: serial
+category: misc
+type: Relay
+standard: us
+chip: tywe2s
+---
+This device uses a tywe2s esp8266 module which requires you to solder a jumper onto test pad I00 (short to ground on boot) in order to enter flashing mode.
+Soldering 5v onto the rightmost pin on the LM1117 is the easiest way to power the module.
+

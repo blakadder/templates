@@ -1,0 +1,22 @@
+---
+date_added: 2023-12-07
+title: Timeguard 3 Way USB 
+model: WFTRS3GUSB
+image: /assets/device_images/timeguard_WFTRS3GUSB.webp
+template9: '{"NAME":"Timeguard","GPIO":[0,0,0,0,288,226,0,0,224,32,225,227,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.co.uk/dp/B08C376KXY
+link2: https://www.ebay.co.uk/itm/283917618468
+mlink: https://www.timeguard.com/products/wi-fi/wi-fi-sockets/wftrs3gusb-wi-fi-3-way-power-strip-with-usb-ports
+flash: serial
+category: plug
+type: Power Strip
+standard: uk
+---
+Remove the 6 screws from the back cover 4 x S2 2.3 triangle security screws , one in each corner located under the rub strip. Remove 2 x S2 2.2 Triangle security screws located under the center rear sticker. Lift and unclip the back panel to gain access to the main board. Wires can be directly soldered to the headers that are connected to the Lingan LM1 esp chip to serial flash with Tasmota. 
+
+- GPIO4:	LED
+- GPIO5:	Relay 3
+- GPIO12:	Relay 1
+- GPIO13:  Button 1
+- GPIO14:  Relay 2
+- GPIO14:  Relay 4
