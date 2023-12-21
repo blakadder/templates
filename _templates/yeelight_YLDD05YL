@@ -25,6 +25,7 @@ As it's highlighted in [Yeelight Pendant Light](yeelight_YLDL01YL)
 Additional info about GPIOs - those are not covered by this template.
 * GPIO4 - Controls Blue Led (on-board)
 * GPIO16 - Controls Orange Led (on-board)
+* GPIO19 - Button
 
 Please note, there is also a physical button on this device, however it has not been determined which GPIO it has assigned.
 
