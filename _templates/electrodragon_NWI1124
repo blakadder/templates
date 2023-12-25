@@ -3,7 +3,7 @@ date_added: 2023-12-19
 title: Electrodragon ESP32-C3-WROOM 
 model: NWI1124
 image: /assets/device_images/electrodragon_NWI1124.webp
-template9: '{"NAME":"ESP32-C3-WROOM-2 NWI1126","GPIO":[0,0,0,0,419,418,417,416,0,32,544,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+templatec3: '{"NAME":"ESP32-C3-WROOM-2 NWI1126","GPIO":[0,0,0,0,419,418,417,416,0,32,544,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.electrodragon.com/product/esp-led-strip-board/
 link2: 
 mlink: https://w2.electrodragon.com/Board-dat/NWI/NWI1126-DAT/NWI1126-DAT.md
@@ -29,4 +29,3 @@ More info on the NWI1166-DAT board (https://w2.electrodragon.com/Board-dat/NWI/N
 
 ![back image of board](https://w2.electrodragon.com/Board-dat/NWI/NWI1126-DAT/2023-11-01-15-04-09.png "Back of Board")
 
-"
