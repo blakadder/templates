@@ -74,3 +74,27 @@ CmndData: 01010001 00 0502000400000029 6501000100 6604000100 6704000100
 6604000100 - DpId102 CmndData
 6704000101 - DpId103 CmndData
 ```
+
+
+### OpenHAB Setup
+
+Create mqtt brige in ui named openhab  (mdrr:bridge:openhab)
+
+Create thing using text config in correct place.
+
+```php
+  Thing mqtt:topic:Kettle "Kettle in Kitchen" (mqtt:broker:openhab) @ "Kitchen" [ availabilityTopic ="tele/Kettle/LWT", payloadAvailable ="Online", payloadNotAvailable ="Offline"] {
+  Channels:
+      Type switch : PowerSwitch  [ stateTopic ="stat/Kettle/POWER", commandTopic ="cmnd/Kettle/POWER", on="ON", off="OFF"]
+      Type string : WarmMode [ commandTopic ="cmnd/Kettle/TuyaSend4"]
+      Type number : temperature "Temperature [%.0f °C]" [ stateTopic ="stat/Kettle/TEMPERATURE" ]
+        }
+```
+
+##Tasmota setup enter into console on tasmota
+setoption 4 1 
+setoption 66 1 
+rule1 ON TuyaReceived#DpType2Id5 DO Publish stat/%topic%/TEMPERATURE %value% ENDON
+
+
+[Link to forup post](https://community.openhab.org/t/kogan-1-7l-smart-glass-kettle-running-tasmota/106043)
