@@ -38,3 +38,5 @@ doing TX-RX & RX-TX like normal.
 4-pack ordered 11/29/2020 directly from bn-link.com use WBS2 daughterboard (still have the FCC 2ANDL-TYWE2S on the label):-( So, I guess, these plugs are out:-(
 
 I had the same problem with the W2BS chip and I bought the [WT-01N](WT-01N) chip, which is an exact replacement, I programmed it with tasmota and installed it, it worked perfectly.
+Here is the newer template with a [WT32C3-01N](WT32C3-01N):
+template: '{"NAME":"BNLinkU133","GPIO":[1,1,1,2656,256,2624,321,1,1,1,2720,0,0,0,0,0,0,0,1,1,64,320],"FLAG":0,"BASE":1}' 
