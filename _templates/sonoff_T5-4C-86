@@ -15,5 +15,6 @@ standard: [eu]
 
 ## Flashing and Configuration
 
-See instructions for [Sonoff TX Ultimate 1 Gang](sonoff_T5-1C-86)
+See instructions for [Sonoff TX Ultimate 1 Gang](sonoff_T5-1C-86).
+
 The last switch (5) in the GUI is not a relay but toggles the LEDs.
