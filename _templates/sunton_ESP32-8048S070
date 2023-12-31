@@ -5,7 +5,7 @@ model: ESP32-8048S070
 image: /assets/device_images/sunton_ESP32-8048S050.webp
 templates3: '{"NAME":"SUNTON7","GPIO":[1,1,1,1,1,1,1,1,1,1,6720,704,736,672,1,1,1,1,1,640,608,1,0,0,0,0,0,6210,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1,"CMND":"DisplayDimmer 70"}' 
 link: https://aliexpress.com/item/1005004952726089.html
-link2:
+link2: https://de.aliexpress.com/item/1005005099968475.html
 mlink: 
 flash: serial
 category: diy
