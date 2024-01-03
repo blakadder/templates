@@ -3,7 +3,7 @@ date_added: 2023-11-17
 title: Eightree 16A
 model: ET28
 image: /assets/device_images/eightree_16A.webp
-templatec3: ''
+templatec3: '{"NAME":"EIGHTREE","GPIO":[0,0,0,2720,2624,32,224,2656,0,0,0,0,0,0,0,0,0,0,0,0,320,7648],"FLAG":0,"BASE":1}'
 mlink: 
 link: https://www.amazon.de/dp/B0CHMMKZCQ
 link2: 
