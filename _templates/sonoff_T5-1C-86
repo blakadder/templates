@@ -30,9 +30,18 @@ Driver is just recognising touch events for now and reports them to the RESULT t
 
 ## LED and Haptic Motor
 
-Control the haptic feedback motor with [`Buzzer`](https://tasmota.github.io/docs/Commands/#buzzer) command
+Control the haptic feedback motor with [`Buzzer`](https://tasmota.github.io/docs/Commands/#buzzer) command.
 
-Set the proper LED count with `Pixels 28` (the template should do this automatically). If you want advanced control over LEDs like custom effect and segmenting you need to program them with [Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/). If you do build new effects please share them on the [driver GitHub](https://github.com/blakadder/tx-ultimate/)
+Set the proper LED count with `Pixels 28` (the template should do this automatically).
+
+You can use [`LED<x> #RRGGBB`](https://tasmota.github.io/docs/Commands/#light) command on each LED.
+Also some of the schemes look nice.
+
+If you want advanced control over LEDs like custom effect and segmenting you need to program them with [Berry](https://tasmota.github.io/docs/Berry_Addressable-LED/). If you do build new effects please share them on the [driver GitHub](https://github.com/blakadder/tx-ultimate/).
+
+![LEDs and Pinout](/assets/device_images/sonoff_tx_ultimate_T5-86MAIN-V1-0-7-20221108.webp)
+
+The picture is taken from the back. So looking onto the panel LED21 will be on the top left.
 
 ## I2S Audio Support
 
