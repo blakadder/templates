@@ -3,7 +3,7 @@ date_added: 2021-04-16
 title: Floor Heating or Water/Gas Boiler
 model: ME81H
 image: /assets/device_images/ME81H.webp
-template9: '{"NAME":"ME81H Thermostat","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+template9: '{"NAME":"ME81H Thermostat","GPIO":[1,1,1,576,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4000398480147.html
 link2: 
 mlink: https://www.alibaba.com/product-detail/heating-thermostat-WiFi-ME81-room-thermostat_62398877565.html
@@ -17,8 +17,13 @@ standard: eu
 
 | dpId    | Function        | Data-type | Remarks 
 |---------|-----------------|-----------|----------------
-|1        | device power    | boolean   |
-|16       | target temp     | integer   |
+|1        | device power    | boolean   | fnId 11
+|2        | operation mode  | integer   | fnId 62 : 0-scheduled; 1-manual
+|16       | target temp     | integer   | fnId 72
+|24       | current temp    | integer   | fnId 71
+|27       | temp calibration| integer   | fnId ??? negative numbers 
+|40       | buttons lock    | integer   | fnId 12
+|43       | sens source     | integer   | fnId 61 : 0-internal; 1-external; 2-both
 
 examples:
 - Tuyasend  1,0  - switch device off
