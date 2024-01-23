@@ -3,29 +3,53 @@ date_added: 2021-04-16
 title: Floor Heating or Water/Gas Boiler
 model: ME81H
 image: /assets/device_images/ME81H.webp
-template9: '{"NAME":"ME81H Thermostat","GPIO":[1,1,1,576,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}' 
+template9: '{"NAME":"ME81H Thermostat_8266","GPIO":[1,1,1,1,1,1,0,0,1,1,1,1,1,0],"FLAG":0,"BASE":54}'
+templatec3: '{"NAME":"ME81H Thermostat_C3","GPIO":[0,0,0,576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2304,2272],"FLAG":0,"BASE":1}'
 link: https://www.aliexpress.com/item/4000398480147.html
 link2: 
 mlink: https://www.alibaba.com/product-detail/heating-thermostat-WiFi-ME81-room-thermostat_62398877565.html
-flash: serial
+flash: replace
+chip: WBR3
 category: misc
 type: Thermostat
 standard: eu
 ---
 
+## PCB ME81H-WIFIMBXIN--B-V1.4
+![PCB](/assets/device_images/ME81H_PINS.webp)
+
+## Pins for ESP32-C3-12F
+- GPIO03: LedLink_i
+- GPIO20: Tuya Rx
+- GPIO21: Tuya Tx
+- GPIO08 - connected to GND through R50
+- GPIO09 - connected to TyuaMCU through R49
+**!!! Desolder R49 and R50 or isolate IO08 and IO09 ESP pins otherwise ESP32-C3 will not boot !!!**
+[Information about ESP32-C3 strapping pins (boot mode selection)](https://docs.espressif.com/projects/esptool/en/latest/esp32c3/advanced-topics/boot-mode-selection.html)
+
 ## Known dpIds
 
 | dpId    | Function        | Data-type | Remarks 
 |---------|-----------------|-----------|----------------
-|1        | device power    | boolean   | fnId 11
-|2        | operation mode  | integer   | fnId 62 : 0-scheduled; 1-manual
-|16       | target temp     | integer   | fnId 72
-|24       | current temp    | integer   | fnId 71
-|27       | temp calibration| integer   | fnId ??? negative numbers 
-|40       | buttons lock    | integer   | fnId 12
-|43       | sens source     | integer   | fnId 61 : 0-internal; 1-external; 2-both
+|1        | device power    | `boolean`   | fnId 11 - Relay1
+|2        | operation mode  | `enum`   | fnId 62 : 0 - scheduled; 1 - manual
+|16       | target temp     | `integer`   | fnId 72 - Temperature Sensor Set
+|24       | current temp    | `integer`   | fnId 71 - Temperature Sensor (report)
+|27       | temp calibration| `integer`   | fnId ??? negative numbers 
+|40       | buttons lock    | `boolean`   | fnId 12 : 0 - unlocked; 1 - locked
+|43       | sens source     | `enum`   | fnId 61 : 0 - internal; 1 - external; 2-both
 
-examples:
-- Tuyasend  1,0  - switch device off
-- Tuyasend  1,1  - switch device on
-- Tuyasend2 16,22 – set Tempset:Manual to 22°C
+To configure dpIds and enumeration lists above:
+```console
+backlog tuyamcu 11,1; tuyamcu 12,40; tuyamcu 61,43; tuyamcu 62,2; tuyamcu 71,24; tuyamcu 72,16; TuyaEnumList 1,2; TyuaEnumList 2,1
+```
+
+To switch degrees units between Celsius and Farenheit use SetOption8: 0 (default) for Celsius
+[Sensors section TyuaMCU](https://tasmota.github.io/docs/TuyaMCU/#sensors ""Sensors section TyuaMCU"")
+
+### Command examples
+- `Tuyasend  1,0`  - switch device OFF or `power1 0` if fnId was mapped with tyuamcu
+- `Tuyasend  1,1`  - switch device ON or `power1 1` if fnId was mapped with tyuamcu
+- `Tuyasend2 16,22` – set target temperature to 22°C
+- `TuyaEnum1 1` - set external sensor as the temperature data source
+- `TuyaEnum2 1` - set manual operation mode
