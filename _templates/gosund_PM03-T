@@ -4,8 +4,8 @@ title: Gosund 3+3AC 3USB
 model: PM03-T
 image: /assets/device_images/gosund_PM03-T.webp
 template9: '{"NAME":"Gosund-PM03-T","GPIO":[0,0,576,0,0,259,0,0,224,225,226,0,32,0],"FLAG":0,"BASE":18}' 
-link: https://www.amazon.com/gp/product/B08HLS2B32/
-link2: 
+link: https://www.amazon.com/dp/B09JZCXQNY/
+link2:  
 mlink: 
 flash: tuya-convert
 category: plug
@@ -13,3 +13,4 @@ type: Power Strip
 standard: us
 ---
 Nearly identical to the [PM03-v2](gosund_P2), but the template is different.
+Now sold under GHome brand, no name on front as shown, as of 2024-01-13 outlet extender still using ESP8285. Successfully flashed with Tasmota by soldering leads to marked points on underside of circuit board. Requires un-soldering AC mains from circuit board to disassemble.
