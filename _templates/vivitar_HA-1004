@@ -3,7 +3,7 @@ date_added: 2023-01-13
 title: Vivitar  
 model: HA-1004
 image: /assets/device_images/vivitar_HA-1004.webp
-template9: '{"NAME":"Vivitar HA1004","GPIO":[576,0,0,0,0,320,0,0,224,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Vivitar HA-1004","GPIO":[320,0,321,0,0,0,0,0,0,32,0,224,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.walmart.com/ip/Vivitar-HA-1004-FD-12-Wi-fi-Outlet-With-Timers/924677141
 link2: https://www.shopmyexchange.com/vivitar-smart-wifi-outlet/2503068
 mlink: 
@@ -12,4 +12,4 @@ category: plug
 type: Plug
 standard: us
 ---
-This configuration is only for the Round Vivitar plug; not the square version. This configuration only contains the LED enable (during use) and the relay trigger. Button operation is currently unknown for this particular device. 
+This configuration is only for the Round Vivitar plug; not the square version (It's physically marked HA-1003 for some reason though). This configuration contains both LEDs, Blue enable (during use) (GPIO2) and Red (GPIO0) and the Relay trigger (GPIO13). Button operation is enabled as well (GPIO15).
