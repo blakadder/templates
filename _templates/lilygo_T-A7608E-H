@@ -1,0 +1,21 @@
+---
+date_added: 2024-01-25
+title: LilyGo 4G GPS
+model: T-A7608E-H
+image: /assets/device_images/lilygo_T-A7608E-H.webp
+template32: '{"NAME":"LiLyGo A7608EH","GPIO":[1,1,672,1,226,225,0,0,224,6720,736,704,0,0,1,1,0,1,1,1,0,227,3200,3232,0,0,0,0,1,192,1,4864,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.tinytronics.nl/shop/nl/development-boards/microcontroller-boards/met-telecommunicatie/lilygo-ttgo-t-sim-a7608e-h-esp32-wrover-met-18650-batterijhouder
+link2: https://www.aliexpress.com/item/1005004445890739.html
+mlink: https://www.lilygo.cc/en-cn/products/t-a7608e-h
+flash: serial
+category: diy
+type: Development Board
+standard: global
+---
+4G LTE modem with GPS.  
+
+Use  to label the buttons in the WebUI correctly and set the text of the Ring switch:
+
+```console
+backlog WebButton1 PowerOn; WebButton2 Reset; WebButton3 Enable: WebButton4 DTR; Setoption114 1; SwitchText1 Ring
+```

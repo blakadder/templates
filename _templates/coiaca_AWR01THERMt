@@ -1,0 +1,14 @@
+---
+date_added: 2024-01-07
+title: Coiaca Humidity and 
+model: AWR01THERMt
+image: /assets/device_images/coiaca_AWR01THERMt.webp
+template9: '{"NAME":"Coiaca AWR01THERMt","GPIO":[576,1216,0,32,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://coiaca.com/product/wifi-temperature-and-humidity-sensor-with-tasmota-awr01thermt/
+link2: 
+mlink: https://coiaca.com
+flash: preflashed
+category: sensor
+type: Temperature Sensor
+standard: global
+---

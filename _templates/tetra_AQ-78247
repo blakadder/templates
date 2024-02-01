@@ -1,0 +1,15 @@
+---
+date_added: 2024-01-16
+title: Tetra® Connect Automatic Feeder
+model: AQ-78247
+image: /assets/device_images/tetra_AQ-78247.webp
+template9: '{"NAME":"Tetra Connect","GPIO":[0,0,0,0,224,288,0,0,98,96,97,0,289,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07WXQKF1X
+link2: 
+mlink: https://www.tetra-fish.com/products/aquarium-kits/tetra-connect-automatic-feeder.aspx
+flash: serial
+category: misc
+type: Other
+standard: us
+---
+The device contains an ESP12F. To put the device in programming mode, I tied GPIO0 to ground. GND, TX and RX are the only connections needed to successfully flash the device with tasmota. With the provided configuration, it's necessary to run `SetOption1 1` and `SetOption13 1` to prevent the device from resetting.

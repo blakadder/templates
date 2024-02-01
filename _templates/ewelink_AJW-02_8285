@@ -1,0 +1,15 @@
+---
+date_added: 2024-01-06
+title: Ewelink EU 20A
+model: AJW-02_8285
+image: /assets/device_images/ewelink_AJW-02_8285.webp
+template9: '{"NAME":"Ewelink Smart Socket 20A","GPIO":[0,0,0,32,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005005960708655.html
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Plug
+standard: eu
+---
+Yet another Tuya compatible power monitoring plug. It says Ewelink on the box but it is Tuya compatible. There is no marking on the device. Wifi module is ESP 8285 (AJW-02_8285).

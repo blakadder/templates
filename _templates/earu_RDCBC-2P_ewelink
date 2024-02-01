@@ -1,0 +1,22 @@
+---
+date_added: 2024-01-25
+title: EARU DIN Circuit Breaker 2P 63/80A eWeLink White
+model: RDCBC-2P
+image: /assets/device_images/earu_RDCBC-2P_ewelink.webp
+template9: '{"NAME":"RDCBC-2P","GPIO":[32,0,0,0,0,0,0,0,288,224,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005004832366175.html
+link2: 
+mlink: 
+flash: serial
+category: relay
+type: DIN Relay
+standard: global
+chip: PSF-B01
+---
+This device, on version eWeLink (november 2023), have PSF-B01 no Tuya MCU. PSF-B01 is a single-channel ultra-low-power Wi-Fi switch module based on ESP8285. It can flash with Tasmota USB serial TTL. ([(https://templates.blakadder.com/PSF-B.html)](https://templates.blakadder.com/PSF-B.html))
+
+Notes:
+
+- 2P version is in fact 1P+N (the relay cuts the live only)
+- The enclosure of 2P and 4P versions is secured with only two screws and can be dismantled without damage (unlike narrower 1P versions that are riveted and must be destroyed)
+- No need to make a connection between the GND and GPIO pins of the PSF-B01 chip when flashing, as the button is already connected to these pins and can be pressed when powered up

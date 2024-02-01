@@ -9,7 +9,7 @@ link2:
 mlink: 
 flash: serial
 category: relay
-type: Relay
+type: DIN Relay
 standard: global
 chip: PSF-B01
 ---

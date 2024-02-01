@@ -1,0 +1,17 @@
+---
+date_added: 2024-01-07
+title: Prime 
+model: CCRCOWF2PK
+image: /assets/device_images/prime_CCRCOWF2PK.webp
+template9: '{"NAME":"CCRCOWF2PK-ESP-02S","GPIO":[1,1,1,1,288,160,1,1,1,224,1,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.costcobusinesscentre.ca/prime---outdoor-smart-plugs%2C-2-pack.product.2001147139.html
+link2: https://www.amazon.ca/dp/B0CNHCHQJP
+mlink: 
+flash: replace
+chip: CB2S
+category: plug
+type: Outdoor Plug
+standard: us
+---
+
+The unit is easily disassembled.  Remove 6 Philips screws on bottom side and the bottom half of the housing can be slide out from the top.  Remove the two Philips screws which attach the main board to the top half of the housing.  Desolder CB2S module from main board.  Using a solder wick to remove the solder on the pins on either side of the module works well.  Replace with ESP-02S module flashed with Tasmota.

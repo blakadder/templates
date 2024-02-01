@@ -1,0 +1,15 @@
+---
+date_added: 2024-01-14
+title: Coiaca ABCt v2.2 Interface for Boilers
+model: ABCt v2.2
+image: /assets/device_images/coiaca_ABCt.webp
+template9: '{"NAME":"Coiaca ABCt","GPIO":[320,1216,0,0,224,160,0,0,32,416,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://coiaca.com/product/wifi-bridge-for-junkers-boilers-with-tasmota-fw-abct-v2-2/
+link2: 
+mlink: https://coiaca.com/product/wifi-bridge-for-junkers-boilers-with-tasmota-fw-abct-v2-2/
+flash: preflashed
+category: misc
+type: Miscellaneous
+standard: global
+---
+Wifi bridge for Junkers boilers

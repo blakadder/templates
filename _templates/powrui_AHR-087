@@ -1,0 +1,20 @@
+---
+date_added: 2024-01-31
+title: Powrui 4USB 3AC
+model: AHR-087
+image: /assets/device_images/powrui_AHR-087.webp
+template9: '{"NAME":"POWRUI AHR-087","GPIO":[0,0,0,0,225,226,0,0,32,288,0,224,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.com/dp/B07RRRQ4KJ
+link2: 
+mlink: 
+flash: serial
+category: plug
+type: Power Strip
+standard: us
+chip: TYWE3S
+---
+
+- Purchased from Amazon in January 2024 and it's using an ESP8266 (TYWE3S).
+- Note that the USB outlets are always on, not controllable (though they do have an LED).
+- Case opens easily with "2.3" sized triangle head for nerd-screwdriver.
+- Easy to flash w/out soldering (as covered in [this video](https://www.youtube.com/watch?v=imKZbhJ8lvU))

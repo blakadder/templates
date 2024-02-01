@@ -1,0 +1,17 @@
+---
+date_added: 2024-01-28
+title: Jula Anslut
+model: 026174
+image: /assets/device_images/jula_anslut_026174.webp
+template9: '{"NAME":"Anslut 026174","GPIO":[0,3200,0,7520,0,32,0,0,224,0,320,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.jula.se/catalog/el-och-belysning/elinstallation/plug-in-produkter/fjarrstrombrytare/fjarrstrombrytare-med-energimatare-026174/
+link2: 
+mlink: https://www.jula.no/catalog/el-artikler-og-belysning/el-installasjon/plug-in-produkter/fjernstrombrytere/fjernstrombryter-med-energimaler-026174/
+flash: replace
+chip: CB2S
+category: plug
+type: Plug
+standard: eu
+---
+
+Easy to open, just two screws, no glue.

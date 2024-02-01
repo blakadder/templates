@@ -1,0 +1,24 @@
+---
+date_added: 2024-02-01
+title: Shelly Plus Add-On
+model: SHELLYPLUSADDON
+image: /assets/device_images/shelly_plus_add-on.webp
+template32: '{"NAME":"Shelly Plus 1","GPIO":[1344,1312,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,224,0,0,0,0,0,4736,4705,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+link1: https://www.amazon.de/dp/B081FF9G2K/
+link2: https://www.domadoo.fr/en/noel/6526-shelly-temperature-sensor-add-on-for-shelly-plus-devices-3800235266427.html
+link3: https://www.amazon.com/Shelly-Plus-Add-on/dp/B0CD1VXQTC
+link4: https://www.reichelt.com/ie/en/shelly-plus-addon-shelly-plusaddon-p338871.html
+link5: https://www.aliexpress.com/item/1005005186053952.html
+mlink: https://www.shelly.com/en-de/products/product-overview/shelly-plus-add-on
+category: sensor
+type: Temperature Sensor
+standard: global
+---
+This is an add-on that attaches to one of the following Shelly Plus devices:
+
+- [Shelly Plus 1](shelly_plus_1)
+- [Shelly Plus 1PM](shelly_plus_1PM)
+- [Shelly Plus 2PM](shelly_plus_2PM)
+- [Shelly Plus i4/i4DC](shelly_plus_i4)
+
+Apply the template to the Shelly device. This add-on does not work on its own!

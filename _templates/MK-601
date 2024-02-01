@@ -1,0 +1,18 @@
+---
+date_added: 2024-01-10
+title: Tuya Mini Switch
+model: MK-601
+image: /assets/device_images/MK-601.webp
+template9: '{"NAME":"Tuya Mini Switch","GPIO":[0,1,0,32,320,0,0,0,0,224,160,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.lazada.com.my/products/i3260075735-s17047831414.html
+link2: 
+mlink: 
+flash: replace
+category: relay
+type: Relay Module
+standard: global
+chip: TR620
+---
+The relay has TR620 chip that needs to be replaced with ESP-02S.
+
+![](https://postimg.cc/gallery/JH0NFd0)

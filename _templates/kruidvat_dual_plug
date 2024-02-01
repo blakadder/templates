@@ -1,0 +1,14 @@
+---
+date_added: 2024-01-19
+title: Kruidvat Smart Dual
+model: 
+image: /assets/device_images/kruidvat_dual_plug.webp
+template9: '{"NAME":"Kruidvat Dual Plug","GPIO":[3840,0,0,0,32,0,0,0,224,33,0,225,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.kruidvat.nl/kruidvat-smart-dual-plug/p/5315297
+link2: 
+mlink: https://www.kruidvat.nl/kruidvat-smart-dual-plug/p/5315297
+flash: tuya-convert
+category: plug
+type: Plug
+standard: eu
+---

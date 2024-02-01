@@ -1,0 +1,15 @@
+---
+date_added: 2024-01-16
+title: PNI SmartHome 2 Keys
+model: WS222
+image: /assets/device_images/pni_smarthome_WS222.webp
+template9: '{"NAME":"Tuya switch 2 key","GPIO":[544,0,289,0,0,32,0,0,33,225,0,224,288,0],"FLAG":0,"BASE":18}' 
+link: https://www.emag.ro/intrerupator-inteligent-dublu-pni-smarthome-ws222-wi-fi-app-tuya-smart-compatibil-amazon-alexa-si-google-home-alb-pni-ws222/pd/DQC097MBM/
+link2: https://www.amazon.de/dp/B08LTC3Z4N
+mlink: https://www.pni.ro/intrerupator-inteligent-dublu-pni-smarthome-ws222-pentru-control-lumini-prin-internet-cu-app-tuya-smart-compatibil-amazon-alexa-si-google-home.html
+flash: serial
+category: switch
+type: Switch
+standard: eu
+chip: TYWE2S
+---

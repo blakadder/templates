@@ -1,0 +1,16 @@
+---
+date_added: 2024-01-08
+title: M5Stack Unit CamS3 OV2640
+model: U174
+image: /assets/device_images/m5stack_unitcams3.webp
+templates3: '{"NAME":"UnitCamS3-OV2640","GPIO":[0,0,0,0,5094,5092,5088,5091,0,768,5093,4992,5184,5095,320,5089,5090,5024,5152,0,0,4960,0,0,0,0,0,672,736,704,5056,5120,0,0,0,0,7840,7872],"FLAG":0,"BASE":1}' 
+link: https://shop.m5stack.com/products/unit-cams3-wi-fi-camera-ov2640
+link2: 
+mlink: https://shop.m5stack.com/products/unit-cams3-wi-fi-camera-ov2640
+category: diy
+type: Camera
+standard: global
+---
+No disassembly needed, Pinout diagramm on the m5stack site
+
+Flash with Tasmota32-S3 (QIO Flash/OPI PSRAM) image

@@ -1,0 +1,30 @@
+---
+date_added: 2023-12-24
+title: Luminea CCT
+model: ZX-2842
+image: /assets/device_images/luminea_ZX-2842.webp
+template9: '{"NAME":"Luminea ZX-2842","GPIO":[416,0,0,0,0,0,0,0,417,32,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.de/dp/B074SKRNLW/
+link2: https://www.pearl.de/a-ZX2842-3306.shtml
+mlink: https://www.luminea.info/WIFI-Controller-Amazon-Alexa-Kompatibel-CCT-ZX-2842-919.shtml
+flash: serial
+category: light
+type: LED Controller
+standard: eu
+---
+There is a [ESP8266EX](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf) sitting on the backside.
+
+2 PWM outputs are connected to drive the 2 output channels cold white and warm white.
+
+The pushbutton is GPIO13.  Assign it to Button1 for local on/off control.
+
+You can configure it as a "generic module"
+
+And set the GPIO as follow:
+
+| Function | ESP8266 Pin | Channel |
+| -------- | ----------- | ------- |
+| CW | GPIO 12 | PWM2 |
+| WW | GPIO 0 | PWM1 |
+| PushButton |GPIO 13 | Button1 |
+

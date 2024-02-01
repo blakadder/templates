@@ -1,11 +1,12 @@
 ---
 date_added: 2019-03-18
-title: Luminea ZX-2844
+title: Luminea RGBW
+model: ZX-2844
 category: light
 type: LED Controller
 standard: global
 link: https://www.pearl.de/a-ZX2844-3103.shtml
-image: https://user-images.githubusercontent.com/5904370/54643115-6ca7d900-4a96-11e9-99a5-d139bde7f071.png
+image: /assets/device_images/luminea_ZX-2844.webp
 template: '{"NAME":"Luminea ZX-284","GPIO":[40,0,0,0,0,39,0,0,38,17,37,0,0],"FLAG":0,"BASE":18}' 
 link2: https://www.amazon.de/Luminea-Zubeh%C3%B6r-Smarthome-LED-Strips-WLAN-Controller-spritzwassergesch%C3%BCtzt/dp/B074T11793
 ---

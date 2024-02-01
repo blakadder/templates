@@ -1,0 +1,16 @@
+---
+date_added: 2024-01-16
+title: PNI SmartHome 1 Key
+model: WS121
+image: /assets/device_images/pni_smarthome_WS121.webp
+template9: '{"NAME":"Tuya Switch 1 key","GPIO":[544,1,1,32,224,1,1,1,1,1,288,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.emag.ro/intrerupator-inteligent-simplu-pni-smarthome-ws121-pentru-control-lumini-prin-internet-cu-app-tuya-smart-compatibil-amazon-alexa-si-google-home-pni-ws121/pd/DRC097MBM/
+link2: https://www.amazon.de/dp/B08LT9WQT8
+link3: https://www.amazon.com.au/dp/B08LT9WQT8
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: eu
+chip: TYWE3S
+---

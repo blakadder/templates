@@ -1,0 +1,15 @@
+---
+date_added: 2023-12-31
+title: 4lite WiZ A60 9W ES 806lm
+model: 74038
+image: /assets/device_images/4lite_wiz_74038.webp
+template9: '{"NAME":"4lite WiZ LED A60 Smart Bulb Wi-Fi 9W ES 806lm","GPIO":[0,0,0,0,416,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.toolstation.com/4lite-wiz-led-a60-smart-bulb-wi-fi/p74038
+link2: https://www.amazon.co.uk/4lite-Connected-Bluetooth-4L1-8003/dp/B08KY7M8BT
+mlink: 
+flash: serial
+category: bulb
+type: Dimmable
+standard: e27
+---
+Contains ESP-WROOM-02D - flashed using serial/ pogo pins. not unsoldered.

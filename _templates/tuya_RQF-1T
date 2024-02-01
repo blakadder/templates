@@ -1,0 +1,20 @@
+---
+date_added: 2023-12-31
+title: Tuya Gas
+model: RQF-1T
+image: /assets/device_images/tuya_RQF-1T.webp
+template9: '{"NAME":"Valve RQF-1T","GPIO":[0,0,0,0,0,0,0,0,0,0,32,0,224,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/3256805686606657.html
+link2: 
+mlink: 
+flash: replace
+chip: CB3S
+category: misc
+type: Valve
+standard: global
+---
+it ships with a CB3S module, ESP-07 is used as a replacement.
+
+![](https://cdn.discordapp.com/attachments/399670410565910529/1190902198767460402/PXL_20231230_185202933.jpg)
+![](https://cdn.discordapp.com/attachments/399670410565910529/1190902198767460402/PXL_20231230_185202933.jpg)
+![](https://cdn.discordapp.com/attachments/399670410565910529/1190902199304339497/PXL_20231230_185215776.jpg)

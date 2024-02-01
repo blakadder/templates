@@ -1,0 +1,16 @@
+---
+date_added: 2023-12-31
+title: Refoss AC/DC
+model: R10
+image: /assets/device_images/refoss_R10.webp
+template9: '{"NAME":"Refoss-R10","GPIO":[0,1,3104,0,224,192,0,0,2720,0,0,0,0,4736],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005005968898227.html
+link2: https://www.amazon.de/Smart-Power-Strip-WLAN-Plug/dp/B0CNXVWYJ7
+link3: 
+mlink: https://refoss.net/products/refoss-smart-wi-fi-switch-r10
+flash: serial
+category: switch
+type: Switch
+standard: global
+---
+If the plug keeps turning off for apparently no reason it is likely the wrong factory temperature calibration. Enter command ADCParam1 2, 4000,80000,4250,1 and restart the plug to fix.

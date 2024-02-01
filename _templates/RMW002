@@ -1,0 +1,15 @@
+---
+date_added: 2024-01-27
+title: Mini Smart Switch 
+model: RMW002
+image: /assets/device_images/RMW002.webp
+template9: '{"NAME":"Mini Smart Switch","GPIO":[1,1,1,1,320,160,1,1,224,32,1,1,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005005876099272.html
+link2: 
+mlink: 
+flash: replace
+category: relay
+type: Relay Module
+standard: global
+---
+This devices comes with a Tuya module not compatible with Tasmota which needs to be replaced with an [ESP-02S](ESP-02S)

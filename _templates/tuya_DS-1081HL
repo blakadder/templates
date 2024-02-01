@@ -1,0 +1,49 @@
+---
+date_added: 2024-01-07
+title: Tuya 1 Gang No Neutral
+model: DS-1081HL
+image: /assets/device_images/tuya_DS-1081HL.webp
+templatec2: '{"NAME":"Tuya DS-1081HL","GPIO":[0,0,0,320,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005005691850041.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: [eu, uk]
+---
+This light switch is sadly not the same as Tuya T1 DS-1081**WL**. This one is labeled as DS-1081**HL**. 
+
+#### PCB
+
+Here is the PCB Pinout and Pins to connect for flashing.
+GPIO 9 is mandatory to pull to GND when booting to enter flash mode.
+See also already existing template for [ESPC2-12 (GPIO8 is not needed on this PCB)](https://templates.blakadder.com/ESPC2-12.html).
+And yes two pins aren't connected on the ESP Chip. The one above GPIO9 is not connected. Also the EN Pin (right bottom corner) is not connected.
+
+![PCB Pinout - Flash Pins](https://raw.githubusercontent.com/Piet1702/DS-1081HL/main/Tuya_DS-1081_1_Gang_Switch_PCB_small.png "PCB Pinout - Flash Pins")
+
+#### Flashing Firmware
+
+This ESPC2-12 (aka ESP8684) only has 2 MB of flash. 
+
+This means you will need a Tasmota firmware which fits in the 2 MB flash.
+Either compile it yourself or search on google for tasmota specials version 2m (I don't know if I'm allowed to post links to custom builds).
+Then flash with esp-tool or similar tools.
+
+```
+.\esptool.exe write_flash 0x0 tasmota32c2_2M.factory.bin
+```
+
+#### Template and Config
+
+After flashing remove wires and connect PCB back to the main PCB. In my case I couldn't boot the PCB with only USB power.
+
+Here is the modified template to make the basic functions work. I disabled the LedLink LED because with that, one blue LED would be always on. It can be enabled again when GPIO9 is set as LedLink.
+Setting **GPIO3** as **Led_i** activates the **red LED** when the **relay / switch is off** and switches to an **blue led** (red led off then) when **relay / switch is on**.
+
+![Template Config](https://raw.githubusercontent.com/Piet1702/DS-1081HL/main/Tuya_DS-1081_1_Gang_Switch.png "Template Config")
+
+Back of Case
+
+![Back Case](https://raw.githubusercontent.com/Piet1702/DS-1081HL/main/Back_Case_Model_Number.png "Back Case")

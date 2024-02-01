@@ -1,0 +1,31 @@
+---
+date_added: 2024-01-09
+title: Smarteefi Retrofit 1 Node 16A
+model: NS11
+image: /assets/device_images/smarteefi_NS11.webp
+template9: '{"NAME":"Smarteefi NS11","GPIO":[2624,0,0,0,160,2720,0,0,0,2656,224,0,288,0],"FLAG":0,"BASE":18}' 
+link: http://web.smarteefi.com/sf-retrofit.html
+link2: https://www.amazon.in/Smarteefi-Monitoring-Retrofit-Automation-Compatible/dp/B0BSTH2KZW
+mlink: http://web.smarteefi.com/
+flash: serial
+category: relay
+type: Relay Module
+standard: global
+---
+
+![Smarteefi NS11 16A retrofit Node STD](https://i.imgur.com/EsM6iGw.jpg)
+
+- It is possible to make a backup copy of the stock firmware with esptool.py
+- Soldering a small wire to the GPIO 0 which is easily accessible next to the switch connector ensures easy flash mode by shorting to ground
+- power the module from 3.3v only. DO NOT CONNECT TO MAINS WHEN FLASHING / WORKING on the board
+- can use Webserial to flash tasmota 
+- Requires power calibration after setup
+
+## GPIO details
+
+- GPIO 4 connection to external switch, can reprogram for any other purpose
+- GPIO 14 Relay
+- GPIO 16 Green LED
+- GPIO 0 BL0937 SEL
+- GPIO 5 BL0937 CF
+- GPIO 13 BL0937 CF1

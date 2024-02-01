@@ -1,0 +1,22 @@
+---
+date_added: 2023-12-28
+title: Tuya 4 Gang
+model: Z6HS-L4D
+image: /assets/device_images/Z6HS-L4D.webp
+template9: '{"NAME":"Tuya 4 Gang Switch","GPIO":[1,34,224,32,33,0,0,0,225,576,0,0,0,0,0,0,0,0,226,227,35,1],"FLAG":0,"BASE":1}' 
+link: https://www.alibaba.com/product-detail/Alexa-Echo-Google-Home-Smart-Casa_62479948976.html?spm=a2756.order-detail-ta-ta-b.0.0.71012fc2SQDVOI
+link2: 
+mlink: 
+flash: replace
+category: switch
+type: Switch
+chip: ZT3L
+standard: uk
+---
+![](https://i.ibb.co/XyJ8rVv/89-A7-D3-BE-16-FD-46-C1-8-DFD-434-BB1-D71106.jpg)
+![](https://i.ibb.co/bb4p0WS/ED10-E79-A-F60-E-4785-8-EC2-5-B725-A1-EB92-B.jpg)
+![](https://i.ibb.co/FxZJbtf/3-C6-FB622-CCEB-4-DEE-946-E-C77144528-D8-D.jpg)
+![](https://i.ibb.co/c3pcgmR/DF69-EE7-E-593-D-4-EDE-B5-D8-06-AE1012929-B.jpg)
+![](https://i.ibb.co/G9xr2Nh/FC9-A6319-4-BC9-483-C-81-F4-7-BC5-F7241-EF2.jpg)
+
+The PCB has ZT3L which needs to be replaced with ESP32-C3-12F
