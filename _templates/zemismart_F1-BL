@@ -4,7 +4,7 @@ title: Zemismart Bladeless
 model: F1-BL
 image: /assets/device_images/zemismart_F1-BL.webp
 template: '{"NAME":"Bladeless Fan","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
-link: https://www.aliexpress.com/item/4001093439442.html
+link: https://www.zemismart.com/products/tuya-smart-no-blade-fan-with-colorful-night-light-alexa-google-home-control-baby-care-low-noise-leafless-fan-341
 link2: 
 mlink: 
 flash: tuya-convert
