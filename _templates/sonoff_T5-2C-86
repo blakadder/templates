@@ -20,12 +20,21 @@ See instructions for [Sonoff TX Ultimate 1 Gang](sonoff_T5-1C-86)
 
 Add the following rules to control both switches with the two touch panels:
 ```console
-  rule2 On TXultimate#Action=Short do backlog var1 toggle endon
-  rule2 + On TXultimate#Action$!Short do backlog var1 "" endon
-  rule2 + On TXUltimate#Channel<5 do backlog power1 %var1% endon
-  rule2 + On TXUltimate#Channel>5 do backlog power2 %var1% endon
+  rule2 On TXultimate#Action$!Touch do break
+  rule2 + On TXUltimate#Channel<5 do power1 toggle endon
+  rule2 + On TXUltimate#Channel>5 do power2 toggle endon
 ```
 Activate rule2 with:
 ```console
 rule2 1
+```
+
+## Optional backlight effects
+```console
+  rule3 On Power1#state do Backlog Fade 0; Speed 1; scheme3 13; Delay 60; Color 040300 endon
+  rule3 + On Power2#state do Backlog Fade 0; Speed 1; scheme3 10; Delay 60; Color 040300 endon
+```
+Activate rule3 with:
+```console
+rule3 1
 ```
