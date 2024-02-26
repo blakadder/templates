@@ -8,7 +8,7 @@ link: https://www.aliexpress.com/item/33054476688.html
 link2: https://www.banggood.com/XIAOMI-MIJIA-IMILAB-16A-3680W-EU-Plug-Smart-WIFI-Socket-Switch-APP-Remote-Control-Works-with-Google-assistant-Alexa-p-1553947.html
 link3: https://www.amazon.ca/dp/B0859SWMBR
 mlink: 
-flash: tuya-convert
+flash: serial
 category: plug
 type: Plug
 standard: eu
