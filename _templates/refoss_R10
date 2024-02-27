@@ -13,7 +13,12 @@ category: switch
 type: Switch
 standard: global
 ---
-If the plug keeps turning off for apparently no reason it is likely the wrong factory temperature calibration. Enter command ADCParam1 2, 4000,80000,4250,1 and restart the plug to fix.
+##Connection
+
+![Connection diagramm by Refoss](/assets/device_images/refoss_r10_connection-diagram1.webp)
+
+*Warning: Avoid opening the rubber plug to access the debugging serial port while the device is powered on.
+*Warning: Do not input AC high voltage into the DC 12V port.
 
 Screw connections 
 O: connects to Pin of relais (connect to lamp)
@@ -23,11 +28,31 @@ SW: Switch input to GPIO4 using 220V AC input
 12V: 12V DC input (testing, usage unclear, do not connect while using 220V AC)
 N: Neutral AC
 
+##Information
+
+*If the plug keeps turning off for apparently no reason it is likely the wrong factory temperature calibration. Enter command ADCParam1 2, 4000,80000,4250,1 and restart the plug to fix.
+
+*Does not schows Voltage, Current, Apparent Power, Reactive Power and Power Factor. Only Active Power and Energy Today/Yesterday/Total are showed (Tasmota 13.4.0). Seems to be a issue of CSE7766 / BL0937. May be an issue regarding to power monitoring calibration.
+
+##Notes
+
+*Hint: Do not change GPIO 5 to ButtonN 1. GPIO as ButtonN 1 results in sporadic resets of tasmota after a while (Tasmota 13.4.0). May be a result of screw connection header using 220V AC
+for switching.  For use with Ac-conneted button-switches change SwitchMode of SwitchN 1 to inverted pushbutton (default 0, 1 = toggle works fine (Console -> SwitchMode1 4) by typing SwitchMode1 4 in console..
+
+##Images an Notes
+
+![Refoss R10 Backside with button](/assets/device_images/refoss_r10_back.webp)
+
 Button on Backside -> seems also connected to GPIO5.
 
-Dupont Pin-Header (2.0mm spacing) under silicone plug on backside (do not use while conneted to 220V AC!!!): GND-IO0-3V3-RX-TX  
+![Refoss R10 Backside opened](/assets/device_images/refoss_r10_back open.webp)
+
+![Refoss R10 Backside opened detail](/assets/device_images/refoss_r10_back detail.webp)
+
+Dupont Pin-Header (2.0mm spacing) under rubber plug on backside (do not use while conneted to 220V AC!!!): GND-IO0-3V3-RX-TX  
+
+![Refoss R10 Frontside opened](/assets/device_images/refoss_r10_Front open.webp)
 
 
-Hint: Do not change GPIO 5 to ButtonN 1. GPIO as ButtonN 1 results in sporadic resets of tasmota after a while (Tasmota 13.4.0). May be a result of screw connection header using 220V AC for switching.  Changing Switchmode of SwitchN 1 to inverted pushbutton (default 0, 1 = toggle works fine (Console -> SwitchMode1 4).
 
-Does not schows Voltage, Current, Apparent Power, Reactive Power and Power Factor. Only Active Power  an Energy Today/Yesterday/Total are showed (Tasmota 13.4.0). Seems to be a issue of CSE7766 / BL0937. 
+ 
