@@ -7,10 +7,10 @@ template9: '{"NAME":"NOUS A1","GPIO":[320,0,576,0,2656,2720,0,0,2624,32,0,224,0,
 link: https://www.amazon.de/dp/B0054PSFGW
 link2: https://www.domadoo.fr/fr/peripheriques/6207-nous-lot-de-4x-prise-intelligente-wifi-mesure-de-consommation-15a-5907772033098.html
 mlink: https://nous.technology/product/nous-smart-wi-fi-socket-a1.html
-flash: tuya-convert
 category: plug
 type: Plug
 standard: eu
+unsupported: true
 ---
 The device is flashing friendly designed. To access the pins remove the screw; accessible from the bottom.  
 <img src="https://user-images.githubusercontent.com/80213345/144631057-0c3176a6-3c9c-4070-b9a6-f5910d085732.jpg"  height="100">
