@@ -3,7 +3,7 @@ date_added: 2023-12-28
 title: Tuya 4 Gang
 model: Z6HS-L4D
 image: /assets/device_images/Z6HS-L4D.webp
-template9: '{"NAME":"Tuya 4 Gang Switch","GPIO":[1,34,224,32,33,0,0,0,225,576,0,0,0,0,0,0,0,0,226,227,35,1],"FLAG":0,"BASE":1}' 
+templatec3: '{"NAME":"Tuya 4 Gang Switch","GPIO":[1,34,224,32,33,0,0,0,225,576,0,0,0,0,0,0,0,0,226,227,35,1],"FLAG":0,"BASE":1}' 
 link: https://www.alibaba.com/product-detail/Alexa-Echo-Google-Home-Smart-Casa_62479948976.html?spm=a2756.order-detail-ta-ta-b.0.0.71012fc2SQDVOI
 link2: 
 mlink: 
