@@ -13,4 +13,65 @@ category: switch
 type: Switch
 standard: global
 ---
-If the plug keeps turning off for apparently no reason it is likely the wrong factory temperature calibration. Enter command ADCParam1 2, 4000,80000,4250,1 and restart the plug to fix.
+SAFETY HAZARD: The digital GND is connected directly to mains voltage "L", so the GPIOs become LIVE during normal operation. 
+
+## Connection
+
+![Connection diagramm by Refoss](/assets/device_images/refoss_r10_connection-diagram1.webp)
+
+*Warning: Avoid opening the rubber plug to access the debugging serial port while the device is powered on.
+*Warning: Do not input AC high voltage into the DC 12V port.
+
+Screw connections 
+O: connects to Pin of relais (connect to lamp)
+I: connects to other Pin of relais (connect to Live Wire)
+L: 220V AC Live Wire (CAUTION: connected directly to digital GND off ESP8266 !!!)
+SW: Switch input to GPIO4 using 220V AC input 
+12V: 12V DC input (testing, usage unclear, do not connect while using 220V AC)
+N: Neutral AC
+
+## Information
+
+* ICs on PCB: ESP8266EX -> Microcontroller; BP2522 -> voltage regulator IC; BL0937 -> Energy Metering IC; BoyaMicro 25Q32 -> Flash IC
+
+* If the plug keeps turning off for apparently no reason it is likely the wrong factory temperature calibration. Enter command ADCParam1 2, 4000,80000,4250,1 and restart the plug to fix.
+
+* Installation of Tasmota (and maybe a following reset 5) changes MAC from Vendor 48:E1:E9 (Chengdu Meross Technology Co., Ltd.) to 48:E1:E9 (Espressif Inc.). Also the last 3 Digits are completly different.
+
+* original firmware button on the backside of the Refoss R10 switches relais. Button is connected to ground (one side) and GPIO14 (other side). GPIO14 is also connected to 3.3V over 1kOHM resistance (pull up circuit). Tasmota by using the template '{"NAME":"Refoss-R10","GPIO":[0,1,3104,0,224,192,0,0,2720,0,0,0,0,4736],"FLAG":0,"BASE":18}' button on the backside of the PCB has no function. Measurment shows button connect GPIO14 to GND. Alternative template{"NAME":"Refoss-R10","GPIO":[1,1,3104,1,224,192,0,0,2720,1,32,1,1,4736],"FLAG":0,"BASE":18} works fine.
+
+## Energy Metering IC
+
+* Does not shows Voltage, Current, Apparent Power, Reactive Power and Power Factor. Only Active Power and Energy Today/Yesterday/Total are showed (Tasmota 13.4.0). Seems to be a issue of CSE7766 / BL0937. May be an issue regarding to power monitoring calibration.
+* CSE7766 is not installed. DataSheet of BL0937 shows different Data Connection, no RX!
+
+* DataSheet BL0937 6 CF : High frequency pulse output for active power, the pulse width is fixed to 38uS(typical); the frequency is proportional to the active power value. Over-current indication pin; If over-current occurs, the pin output 6.78KHz(typical) pulse; 7 CF1 SEL=0, the output is current RMS, pulse width is fixed to 38uS(typical), The frequency is proportional to the current RMS value; SEL=1, the output is voltage RMS, pulse width is fixed to 38uS(typical), The frequency is proportional to the voltage RMS value; 8 SEL CF1 output select PIN
+
+* BL0937 Pin 6 CF (Power) connected to ESP8266Ex Pin12 GPIO13
+* BL0937 Pin 7 CF1 (Current or Volatge, chosen by SEL) connected to ESP8266Ex Pin10 GPIO12
+* BL0937 Pin 8 SEL not connected to ESP8266Ex (not found?) 
+
+* other devices wih BL0937 are using HLWBL CF, BL0937 CF and HLWBL SEL drivers of Tasmota.
+
+## Notes
+
+*Hint: Do not change GPIO 5 to ButtonN 1. GPIO as ButtonN 1 results in sporadic resets of tasmota after a while (Tasmota 13.4.0). May be a result of screw connection header connected to GPIO 5 using 220V AC
+for switching.  For use with Ac-conneted button-switches change SwitchMode of SwitchN 1 to inverted pushbutton (default 0, 1 = toggle works fine (Console -> SwitchMode1 4) by typing SwitchMode1 4 in console..
+
+## Images
+
+![Refoss R10 Backside with button](/assets/device_images/refoss_r10_back.webp)
+
+Button on Backside -> seems also connected to GPIO5.
+
+![Refoss R10 Backside opened](/assets/device_images/refoss_r10_back open.webp)
+
+![Refoss R10 Backside opened detail](/assets/device_images/refoss_r10_back detail.webp)
+
+Dupont Pin-Header (2.0mm spacing) under rubber plug on backside (do not use while conneted to 220V AC!!!): GND-IO0-3V3-RX-TX  
+
+![Refoss R10 Frontside opened](/assets/device_images/refoss_r10_Front open.webp)
+
+
+
+ 
