@@ -29,6 +29,10 @@ I took the component apart to flash the device
 
 ![Top of the ESP8285H16](/assets/device_images/RS01_module_top.webp)
 
+According to Athom support, _"Our module is the same as_ https://tasmota.github.io/docs/Pinouts/#tywe2s 
+
+![tywe2s pinout](https://tasmota.github.io/docs/_media/pinouts/TYWE2S_pinout.jpg)
+
 You have to ground this POGO pin pad to ground in order to intialize serial flash (white wire)
 
 ![Flashing pinout](/assets/device_images/RS01_module_flash.webp)
