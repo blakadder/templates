@@ -15,7 +15,7 @@ standard: global
 ---
 SAFETY HAZARD: The digital GND is connected directly to mains voltage "L", so the GPIOs become LIVE during normal operation. 
 
-##Connection
+## Connection
 
 ![Connection diagramm by Refoss](/assets/device_images/refoss_r10_connection-diagram1.webp)
 
@@ -30,7 +30,7 @@ SW: Switch input to GPIO4 using 220V AC input
 12V: 12V DC input (testing, usage unclear, do not connect while using 220V AC)
 N: Neutral AC
 
-##Information
+## Information
 
 * ICs on PCB: ESP8266EX -> Microcontroller; BP2522 -> voltage regulator IC; BL0937 -> Energy Metering IC; BoyaMicro 25Q32 -> Flash IC
 
@@ -40,7 +40,7 @@ N: Neutral AC
 
 * original firmware button on the backside of the Refoss R10 switches relais. Button is connected to ground (one side) and GPIO14 (other side). GPIO14 is also connected to 3.3V over 1kOHM resistance (pull up circuit). Tasmota by using the template '{"NAME":"Refoss-R10","GPIO":[0,1,3104,0,224,192,0,0,2720,0,0,0,0,4736],"FLAG":0,"BASE":18}' button on the backside of the PCB has no function. Measurment shows button connect GPIO14 to GND. Alternative template{"NAME":"Refoss-R10","GPIO":[1,1,3104,1,224,192,0,0,2720,1,32,1,1,4736],"FLAG":0,"BASE":18} works fine.
 
-##Energy Metering IC
+## Energy Metering IC
 
 * Does not shows Voltage, Current, Apparent Power, Reactive Power and Power Factor. Only Active Power and Energy Today/Yesterday/Total are showed (Tasmota 13.4.0). Seems to be a issue of CSE7766 / BL0937. May be an issue regarding to power monitoring calibration.
 * CSE7766 is not installed. DataSheet of BL0937 shows different Data Connection, no RX!
@@ -53,12 +53,12 @@ N: Neutral AC
 
 * other devices wih BL0937 are using HLWBL CF, BL0937 CF and HLWBL SEL drivers of Tasmota.
 
-##Notes
+## Notes
 
 *Hint: Do not change GPIO 5 to ButtonN 1. GPIO as ButtonN 1 results in sporadic resets of tasmota after a while (Tasmota 13.4.0). May be a result of screw connection header connected to GPIO 5 using 220V AC
 for switching.  For use with Ac-conneted button-switches change SwitchMode of SwitchN 1 to inverted pushbutton (default 0, 1 = toggle works fine (Console -> SwitchMode1 4) by typing SwitchMode1 4 in console..
 
-##Images an Notes
+## Images
 
 ![Refoss R10 Backside with button](/assets/device_images/refoss_r10_back.webp)
 
