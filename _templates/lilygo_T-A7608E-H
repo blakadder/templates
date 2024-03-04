@@ -14,8 +14,8 @@ standard: global
 ---
 4G LTE modem with GPS.  
 
-Use  to label the buttons in the WebUI correctly and set the text of the Ring switch:
+Use  to label the buttons in the WebUI correctly, set the text of the Ring switch and display the battery voltage in mV:
 
 ```console
-backlog WebButton1 PowerOn; WebButton2 Reset; WebButton3 Enable: WebButton4 DTR; Setoption114 1; SwitchText1 Ring
+backlog WebButton1 PowerOn; WebButton2 Reset; WebButton3 Enable: WebButton4 DTR; Setoption114 1; SwitchText1 Ring; ADCParam1 6,0,4095,0,6500
 ```
