@@ -3,7 +3,7 @@ date_added: 2022-09-30
 title: Tongou 2P 63A Circuit Breaker
 model: TO-Q-SR263JWE
 image: /assets/device_images/tongou_TO-Q-SR263JWE.webp
-template9: '{"NAME":"RCD_CONTACTOR","GPIO":[32,224,0,0,0,0,0,0,288,544,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"RCD_CONTACTOR","GPIO":[32,224,0,3104,0,0,0,0,288,544,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B09KBYW21Q/
 link2: https://www.aliexpress.com/i/1005003001345072.html
 mlink: https://elcb.net/product/wifi-circuit-breaker-switch-remote-control/
