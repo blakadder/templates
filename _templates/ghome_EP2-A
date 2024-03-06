@@ -12,3 +12,4 @@ category: plug
 type: Plug
 standard: eu
 ---
+If you prefer the blue LED (instead of the green one) to represent "Power ON", swap Led1i and LedLinki in the ***Configure Template*** page.
