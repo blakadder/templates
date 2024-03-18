@@ -6,6 +6,7 @@ image: /assets/device_images/lenovo_ZG38C02927.webp
 template: '{"NAME":"Lenovo PIR","GPIO":[255,107,255,108,255,255,0,0,255,255,255,255,255],"FLAG":0,"BASE":54}' 
 link: https://www.aliexpress.com/item/4001022480011.html
 link2: https://www.jbhifi.com.au/products/lenovo-smart-motion-sensor
+link3: https://www.binglee.com.au/products/smart-motion-sensor-zg38c02927
 mlink: 
 flash: serial
 category: sensor
