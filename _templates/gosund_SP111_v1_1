@@ -15,6 +15,11 @@ This layout is for PCB marked as "SP111_A_Wifi_Ver1.1". It has the "3450W max" l
 
 ![Pinout](https://user-images.githubusercontent.com/5904370/73123199-b4886e00-3f8d-11ea-8b5e-e850efaa603f.png)
 
+To enter programming mode:
+1. Power the device with GPIO2 connected to GND. Red LED should turn on.
+2. After couple of seconds, remove the connection between GPIO2 and GND. The red LED should then turn off.
+3. The device is ready to be flashed.
+
 If the template doesn't work see other hardware versions of the same plug:
 * [Gosund SP111](gosund_SP111)
 * [Gosund SP111 v1.4](gosund_SP111_v1_4)
