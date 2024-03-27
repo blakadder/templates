@@ -7,7 +7,7 @@ templates3: '{"NAME":"ESP32-S3-DevKitC-1","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
 category: diy
 type: Development Board
 standard: global
-mlink: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html
+mlink: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1-v1.0.html
 link: https://www.aliexpress.com/item/1005003979778978.html
 link2: https://www.amazon.com/dp/B09Y8NSW82
 link3: https://www.dfrobot.com/product-2587.html
@@ -15,3 +15,5 @@ flash: serial
 chip: s3
 autoconf: true
 ---
+
+Both the initial and v1.1 versions of ESP32-S3-DevKitC-1 are available on the market. The main difference lies in the GPIO assignment for the RGB LED: the initial version uses GPIO48, whereas v1.1 uses GPIO38.
