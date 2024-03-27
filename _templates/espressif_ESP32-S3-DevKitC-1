@@ -15,3 +15,5 @@ flash: serial
 chip: s3
 autoconf: true
 ---
+
+Both the initial and v1.1 versions of ESP32-S3-DevKitC-1 are available on the market. The main difference lies in the GPIO assignment for the RGB LED: the initial version uses GPIO48, whereas v1.1 uses GPIO38.
