@@ -2,7 +2,7 @@
 date_added: 2024-03-27
 title: Adafruit ESP32-S3-DevKitC-1-N32R8V
 model: ESP32-S3-DevKitC-1-N32R8V
-image: /assets/device_images/espressif_ESP32-S3-DevKitC-1-N32R8V.webp
+image: /assets/device_images/adafruit_ESP32-S3-DevKitC-1-N32R8V.webp
 templates3: '{"NAME":"ESP32-S3-DevKitC-1-N16R8V","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1376,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}'
 category: diy
 type: Development Board
