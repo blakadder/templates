@@ -14,3 +14,5 @@ standard: eu
 ---
 
 Relay 4 is configured to control backlight
+
+2024-04-11 Current version labled ZM-CSW002-D is using the WM3S WiFi Chip that does not suppoert tasmota. 
