@@ -11,6 +11,7 @@ flash: serial
 category: cover
 type: Curtain Switch
 standard: eu
+unsupported: true
 ---
 
 Relay 4 is configured to control backlight
