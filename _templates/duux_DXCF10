@@ -8,7 +8,7 @@ link: https://www.amazon.de/dp/B088WBKJ7J
 link2: https://www.idealo.de/preisvergleich/Typ/8716164994780.html
 link3: https://www.bol.com/nl/nl/p/duux-whisper-flex-zwart-dxcf10-smart-statiefventilator-staande-ventilator-geruisloos/9200000120816337/
 mlink: https://duux.com/en/product/whisper-flex-smart-zwart/
-flash: tuya-convert
+flash: serial
 category: misc
 type: Fan
 standard: eu
