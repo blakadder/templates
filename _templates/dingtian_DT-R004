@@ -1,0 +1,30 @@
+---
+date_added: 2023-03-28
+title: Dingtian 4 Channel
+model: DT-R008
+image: /assets/device_images/dingtian_DT-R008.webp
+template32: '{"NAME":"Dingtian DT-R008","GPIO":[1,9408,1,9440,1,1,1,1,1,9760,9728,9856,9792,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,9824,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://nl.aliexpress.com/item/4000091488766.html
+mlink: https://www.dingtian-tech.com/en_us/relay4.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+## Warning
+
+When ordering this board ask for relay board with test firmware, otherwise the ESP32 will be locked.
+
+### Description
+Dingtian relay boards are ESP32 based boards with 2, 4, 8, 16, 24 or 32 relays and inputs.
+At the 2 and 4 relay boards the relays and inputs are directly connected to the ESP32.
+
+Example for the 4 relay board:
+Todo
+
+### Mqtt Messages
+Todo
+
+### Note
+GPIO 16 is connected to Relay 1, to prevent a pulse on Relay 1 upon boot define FIRMWARE_NSPANEL when building (https://github.com/arendst/Tasmota/discussions/21056).
+For using Modbus on the RS485 port (if ordered with this option) have a look at https://tasmota.github.io/docs/Modbus-Bridge/
