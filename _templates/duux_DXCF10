@@ -8,8 +8,31 @@ link: https://www.amazon.de/dp/B088WBKJ7J
 link2: https://www.idealo.de/preisvergleich/Typ/8716164994780.html
 link3: https://www.bol.com/nl/nl/p/duux-whisper-flex-zwart-dxcf10-smart-statiefventilator-staande-ventilator-geruisloos/9200000120816337/
 mlink: https://duux.com/en/product/whisper-flex-smart-zwart/
-flash: tuya-convert
+flash: serial
 category: misc
 type: Fan
 standard: eu
 ---
+## MCU Functions
+
+- `dpid1` Power relay - When toggled will turn fan on / off.
+- `dpid2` Mode - 0 = Manual Mode, 1 = Natural Mode, 2 = Sleep Mode
+  - Natural Mode: The fan speed varies randomly between (speed 3 to 6), in - the interval of every 15 seconds, giving the effect of a natural breeze.
+  - Sleep Mode: The fan will operate at speed setting 1
+  - Manual Mode: Fan speed is set by dpid3
+- `dpid3` Sets the fan speed: 0 slow - 25 fast, (display 1 - 26)
+- `dpid4` Oscillates horizontally
+- `dpid5` Oscillates vertically
+- `dpid6` Set an automatic timer: 0 - 12 h
+
+Configure Tasmota’s DpIds with the correct FnIds:
+
+```
+Backlog TuyaMCU 61,2; TuyaMCU 62,3; TuyaMCU 12,4; TuyaMCU 13,5; TuyaMCU 64,6;
+```
+
+Configure the correct Enums lists for Speed, Mode and Timer:
+
+```
+Backlog TuyaEnumlist 1,2; TuyaEnumlist 2,25; TuyaEnumlist 4,12;
+```

@@ -8,7 +8,7 @@ link3: https://www.bol.com/nl/nl/p/duux-whisper-flex-zwart-dxcf12-smart-statiefv
 link2: https://www.idealo.de/preisvergleich/OffersOfProduct/201477637_-whisper-flex-smart-schwarz-dxcf12-duux.html
 link: https://www.amazon.de/dp/B08F94JGK8/
 mlink: https://duux.com/en/product/whisper-flex-smart-zwart-battery-pack/
-flash: tuya-convert
+flash: serial
 category: misc
 type: Fan
 standard: global
