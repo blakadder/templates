@@ -42,3 +42,5 @@ The card reader uses these pins for communication:
 | 15 | SCLK |
 
 So if you need the card reader in your project, three pins of the 2x8 header are already in use for SPI!
+
+[Known issue](https://github.com/espressif/arduino-esp32/issues/1912#issuecomment-426247971) with the LAN chip
