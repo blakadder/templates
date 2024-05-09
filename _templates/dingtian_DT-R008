@@ -86,6 +86,13 @@ And changes are reported to DINGTIAN_CHG topic:
 ```shell
 21:46:50.665 MQT: stat/dingtian1/DINGTIAN_CHG = {"Time":"2022-10-29T21:46:50+02:00","DINGTIAN_CHG":{"IN1":0,"IN2":0,"IN3":0,"IN4":0,"IN5":0,"IN6":0,"IN7":0,"IN8":0}}
 ```
+### Ethernet
+To use ethernet JL1101 You must set 
+GPIO12  ETH-Power
+GPIO18  ETH-MDIO
+GPIO23  ETH-MDC
+
+and command: EthType 7  (JL1101)
 
 ### Note
 The driver is limited to ESP32 as the Dingtian boards only use ESP32, however if needed the limit could be removed in order to use the same principle on a ESP8266 custom board.
