@@ -10,7 +10,7 @@ templatec6: '{"NAME":"Seeed Studio XIAO ESP32C6","GPIO":[1,1,1,1,1,1,1,1,1,1,1,0
 mlink: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html
 link: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html
 flash: serial
-build: tasmota32c6cdc-arduino30.bin
+build: tasmota32c6.bin
 ---
 
 **Documentation**
