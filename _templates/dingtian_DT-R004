@@ -1,0 +1,51 @@
+---
+date_added: 2024-04-26
+title: Dingtian 4 Channel
+model: DT-R004
+image: https://raw.githubusercontent.com/jeroenst/templates/8a4aa285e4ab283d993165501f67824d985b936d/assets/device_images/dingtian_DT-R004.webp
+template32: '{"NAME":"Dingtian DT-R004","GPIO":[0,9408,225,9440,0,0,0,0,227,9952,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,226,162,0,163,160,0,0,161],"FLAG":0,"BASE":1}' 
+link: https://nl.aliexpress.com/item/4000091488766.html
+mlink: https://www.dingtian-tech.com/en_us/relay4.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+## Warning
+When ordering this board ask for relay board with test firmware, otherwise the ESP32 will be locked.
+
+Relay 1 is connected to GPIO 16 which is used for PSRAM in Tasmota, to prevent a pulse on Relay 1 upon boot use the tasmota32-nopsram firmware. (https://github.com/arendst/Tasmota/discussions/21266)
+
+### Description
+Dingtian relay boards are ESP32 based boards with 2, 4, 8, 16, 24 or 32 relays and inputs.
+
+At the 2 and 4 relay boards the relays and inputs are directly connected to the gpio's of the ESP32.
+
+Example for the 4 relay board:
+![image](https://raw.githubusercontent.com/jeroenst/templates/8a4aa285e4ab283d993165501f67824d985b936d/assets/device_images/dingtian_DT-R004.webp)
+
+Pinout for the 4 relay board:
+![image](https://raw.githubusercontent.com/jeroenst/templates/8a4aa285e4ab283d993165501f67824d985b936d/assets/pinouts/dingtian_DT-R004.webp)
+
+### Mqtt Messages
+Inputs state are reported through SENSOR message at teleperiod:
+
+```shell
+MQT: tele/dingtian1/SENSOR = "{"Time":"2024-04-26T09:17:15","Switch1":"ON","Switch2":"ON","Switch3":"ON","Switch4":"ON"}"
+```
+
+Input changes are only reported when using switchmode 15 or 16:
+
+```shell
+ MQT: stat/dingtian1/SENSOR = {"Time":"2024-04-26T09:24:02","Switch1":"OFF","Switch2":"ON","Switch3":"OFF","Switch4":"OFF"} (retained)
+```
+
+When using switchmode 0, Input changes are not reported, but the output changes are reported:
+
+```shell
+ MQT: stat/dingtian1/RESULT = {"POWER1":"ON"}
+```
+
+### Note
+
+For using Modbus on the RS485 port (if ordered with this option) have a look at https://tasmota.github.io/docs/Modbus-Bridge/
