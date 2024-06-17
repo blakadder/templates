@@ -8,7 +8,11 @@ standard: us
 link: https://www.amazon.com/dp/B0786B1LGM
 image: https://images-na.ssl-images-amazon.com/images/I/41W9sOQhBKL._SX679_.jpg
 template: '{"NAME":"KMC 4 Outlet","GPIO":[0,56,0,0,133,132,0,0,130,22,23,21,17],"FLAG":0,"BASE":36}' 
-link2: 
+link2: https://www.amazon.com/dp/B07SWZ2N4J
 ---
 
 KMC 4 Outlet WiFi Smart Plug Energy Monitoring Smart Outlet
+
+- 10-June-2024: Bought 2 from amazon(link2) and was able to flash both
+
+*Note: Until they connect to wifi they seem to continually turn power on/off for some reason
