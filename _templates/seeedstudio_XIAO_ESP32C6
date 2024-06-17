@@ -1,0 +1,17 @@
+---
+date_added: 2024-03-29
+title: Seeed Studio XIAO ESP32C6
+model: XIAO-ESP32-C6
+category: diy
+type: Development Board
+standard: global
+image: /assets/device_images/seeedstudio_XIAO_ESP32C6.webp
+templatec6: '{"NAME":"Seeed Studio XIAO ESP32C6","GPIO":[1,1,1,1,0,0,1,1,0,0,1,1,1,1,1,320,3200,3232,704,736,672,768,640,608,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html
+link: https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html
+flash: serial
+build: tasmota32c6.bin
+---
+
+**Documentation**
+ * [Pinout](https://wdcdn.qpic.cn/MTY4ODg1Nzc0ODUwMjM3NA_318648_dMoXitoaQiq2N3-a_1711678067?w=1486&h=1228)
