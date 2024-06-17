@@ -5,10 +5,10 @@ model: C125
 category: diy
 type: Development Board
 standard: global
-image: /assets/device_images/M5Stack_NanoC6.webp
+image: /assets/device_images/m5stack_nano_c6.webp
 templatec6: '{"NAME":"M5Stack NanoC6","GPIO":[1,1,1,1056,1,1,1,288,1,160,1,1,1,1,1,1,1,1,1,1,1376,1,1,1,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 mlink: https://shop.m5stack.com/products/m5stack-nanoc6-dev-kit
-link2: https://docs.m5stack.com/en/core/M5NanoC6
+link2: https://www.aliexpress.com/item/1005006734871255.html
 link: https://aliexpress.com/item/1005006738362789.html
 link3: https://www.digikey.com/en/products/detail/m5stack-technology-co-ltd/C125/22571399
 build: tasmota32c6.bin
