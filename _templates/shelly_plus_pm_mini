@@ -3,7 +3,7 @@ date_added: 2023-10-19
 title: Shelly Plus PM Mini
 model: SNPM-001PCEU16
 image: /assets/device_images/shelly_plus_pm_mini.webp
-templatec3: '{"NAME":"Shelly PlusPMMini","GPIO":[576,32,0,4736,0,0,3200,8161,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,5600,4700,3350}' 
+templatec3: '{"NAME":"Shelly PlusPMMini","GPIO":[576,32,0,4736,0,0,3200,8161,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"AdcParam1 2,5600,4700,3350"}'
 link: https://www.domadoo.fr/en/energy-monitoring-consumption-measurement/6806-shelly-micromodule-compteur-d-energie-16a-shelly-plus-pm-mini-3800235265673.html
 link2: https://www.amazon.de/dp/B0CH18PSPZ
 link3: https://www.conrad.com/en/p/shelly-plus-pm-mini-test-module-wi-fi-bluetooth-2917165.html
