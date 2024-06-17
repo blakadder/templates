@@ -15,3 +15,11 @@ standard: [eu, fr]
 ---
 
 Pinouts are shown on the ESP32 Board. It's VCC, GNC, RX, TX, ESP32C3 Rev.3
+
+On some devices the serial connection is disabled and won't work. One can
+then use the ESP32 built in USB-to-serial adapter by connecting a USB cable
+directly to the board. The pin opposite of `VCC` is `USB data +` (green wire),
+the pin opposite of `GND` is `USB data -` (white wire). Do *not* connect the
+other two (5V and GND) wires of the USB cable. Those have the wrong voltage
+and will brick your device! Connect `GND` and `VCC` on the board to a
+suitable 3V3 power supply instead.

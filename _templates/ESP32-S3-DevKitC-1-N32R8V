@@ -1,0 +1,24 @@
+---
+date_added: 2024-03-27
+title: Adafruit ESP32-S3-DevKitC-1-N32R8V
+model: ESP32-S3-DevKitC-1-N32R8V
+image: /assets/device_images/adafruit_ESP32-S3-DevKitC-1-N32R8V.webp
+templates3: '{"NAME":"ESP32-S3-DevKitC-1-N16R8V","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1376,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}'
+category: diy
+type: Development Board
+standard: global
+mlink: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html
+link: https://www.adafruit.com/product/5364
+flash: serial
+chip: s3
+autoconf: true
+---
+This version is equipped with the ESP32-S3-WROOM-2 (PCB antenna) with 32MB Flash and 8MB PSRAM.
+ * Flash: 32 MB Octal SPI (OT)
+ * PSRAM: 8 MB Octal SPI (OT)
+
+For boards with Octal SPI flash/PSRAM memory embedded, the pins GPIO35, GPIO36 and GPIO37 are used for the internal communication between ESP32-S3 and SPI flash/PSRAM memory, thus not available for external use.
+
+[ESP32­S3­WROOM­2 datasheet](https://www.mouser.fr/datasheet/2/891/esp32_s3_wroom_2_datasheet_en-2902185.pdf)
+
+Used `tasmota32s3-opi_opi.factory.bin` and Tasmota Web Installer to flash the device with built in USB-C serial adapter. [Download](https://github.com/Jason2866/Tasmota-specials/blob/firmware/firmware/tasmota32/other/tasmota32s3-opi_opi.factory.bin)

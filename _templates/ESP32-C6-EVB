@@ -3,7 +3,7 @@ date_added: 2023-12-12
 title: Olimex ESP32-C6-EVB
 model: ESP32-C6-EVB
 image: /assets/device_images/ESP32-C6-EVB.webp
-templatec6: '{"NAME":"ESP32-C6-EVB","GPIO":[1,7648,7649,7650,1,1,1,1,288,32,224,225,1,1,1,7651,1,1,1,1,1,1,226,227,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+templatec6: '{"NAME":"ESP32-C6-EVB","GPIO":[1,160,161,162,1,1,1,1,288,32,224,225,1,1,1,163,1,1,1,1,1,1,226,227,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.olimex.com/Products/IoT/ESP32-C6/ESP32-C6-EVB/open-source-hardware
 link2: 
 mlink: 
@@ -14,7 +14,7 @@ standard: global
 ---
 [PCB Pinout](https://github.com/OLIMEX/ESP32-C6-EVB/blob/main/HARDWARE/Hardware-revision-A/ESP32-C6-EVB_Rev_A.pdf)
 
-Used `tasmota32c6cdc-arduino30.factory.bin` and Tasmota Web Installer to flash the device with built in USB-C serial adapter.
+Used `tasmota32c6.factory.bin` and Tasmota Web Installer to flash the device with built in USB-C serial adapter.
 
 **Bootloader procedure**:
 
