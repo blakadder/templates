@@ -24,10 +24,10 @@ Dingtian relay boards are ESP32 based boards with 2, 4, 8, 16, 24 or 32 relays a
 At the 2 and 4 relay boards the relays and inputs are directly connected to the gpio's of the ESP32.
 
 Example for the 4 relay board:
-![image](https://raw.githubusercontent.com/jeroenst/templates/8a4aa285e4ab283d993165501f67824d985b936d/assets/device_images/dingtian_DT-R004.webp)
+![image](/assets/device_images/dingtian_DT-R004.webp)
 
 Pinout for the 4 relay board:
-![image](https://raw.githubusercontent.com/jeroenst/templates/8a4aa285e4ab283d993165501f67824d985b936d/assets/pinouts/dingtian_DT-R004.webp)
+![image](/assets/pinouts/dingtian_DT-R004.webp)
 
 ### MQTT Messages
 
