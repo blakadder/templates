@@ -3,7 +3,7 @@ date_added: 2020-06-02
 title: eMylo 2 Channel
 model: XL9252WI
 image: /assets/device_images/emylo_XL9252WI.webp
-template: '{"NAME":"eMylo XL9252WI","GPIO":[0,255,0,0,56,22,0,0,21,0,12,0,0],"FLAG":0,"BASE":18}' 
+template: '{"NAME":"eMylo XL9252WI","GPIO":[0,1,0,0,320,225,0,0,224,0,32,0,0,0],"FLAG":0,"BASE":18}'
 link: https://www.amazon.com/gp/product/B07PZL2YXJ/
 link2: 
 mlink: http://www.emyloworld.com/
@@ -12,5 +12,6 @@ category: relay
 type: Switch Module
 standard: global
 ---
+note: gpio14 is button1, not switch4
 
 FCC ID 2AUZQXL9251WR
