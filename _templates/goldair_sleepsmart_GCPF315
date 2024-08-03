@@ -11,8 +11,9 @@ link2: https://www.target.com.au/p/goldair-sleep-smart-pedestal-fan-gspf315/6225
 ---
 
 1. Install Tasmota Version 7 or above and homeassistant core-2021.4.0 or above.
-2. Run the command `TuyaMCU 12,8`
-3. Run the command 
+2. Run the command `TuyaMCU 12,8` (This will allow control over the Oscilation)
+3. Run the command `TuyaMCU 13,101` (This will allow control over the fan light)
+4. Run the command 
 
 ```console
 rule1 on TuyaReceived#Data=55AA00070005020400010012  do publish2 stat/lounge_fan/speed 1 endon on TuyaReceived#Data=55AA00070005020400010113 do publish2 stat/lounge_fan/speed 2 endon on TuyaReceived#Data=55AA00070005020400010214 do publish2 stat/lounge_fan/speed 3 endon on TuyaReceived#Data=55AA00070005020400010315 do publish2 stat/lounge_fan/speed 4 endon on TuyaReceived#Data=55AA00070005020400010416   do publish2 stat/lounge_fan/speed 5 endon on TuyaReceived#Data=55AA00070005020400010517   do publish2 stat/lounge_fan/speed 6 endon on TuyaReceived#Data=55AA00070005020400010618 do publish2 stat/lounge_fan/speed 7 endon on TuyaReceived#Data=55AA00070005020400010719  do publish2 stat/lounge_fan/speed 8 endon on TuyaReceived#Data=55AA00070005020400010719  do publish2 stat/lounge_fan/speed 9 endon on TuyaReceived#Data=55AA0007000502040001091B   do publish2 stat/lounge_fan/speed 10 endon on TuyaReceived#Data=55AA00070005020400010A1C do publish2 stat/lounge_fan/speed 11 endon on TuyaReceived#Data=55AA00070005020400010B1D  do publish2 stat/lounge_fan/speed 12 endon
@@ -20,7 +21,7 @@ rule1 on TuyaReceived#Data=55AA00070005020400010012  do publish2 stat/lounge_fan
 Press enter than run this command
 ``` Rule1 1 ```
 
-4. Add the following to Home Assistant to your FAN section:
+5. Add the following to Home Assistant to your FAN section:
 
 {% highlight yaml %}
 {% raw %}
@@ -72,7 +73,12 @@ Press enter than run this command
     payload_not_available: Offline
     speed_range_min: 1
     speed_range_max: 12
+    preset_mode_state_topic: "stat/lounge_fan/POWER3"
+    preset_mode_command_topic: "cmnd/lounge_fan/POWER3"
+    preset_modes:
+      -  "ON"
+      -  "OFF"
 {% endraw %}
 {% endhighlight %}
 
-Please note if you want to change the topic name, you need to change it in the rule as well
+Please note if you want to change the topic name, you need to change it in the rule as well.
