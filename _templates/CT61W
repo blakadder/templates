@@ -9,15 +9,17 @@ link2: https://www.banggood.com/Tuya-CT61W-Infra-Detection-Alarm-Buzzer-Security
 link3: https://www.walmart.com/ip/WIFI-PIR-Motion-Sensor-Wireless-Passive-Infrared-Detector-Burglar-Alarm-Sensor-Tuya-APP-Control-Smart-Home-Security-Detection/228699474
 link4: https://mediarath.de/products/tuya-pir-wifi-bewegungsmelder-wireless-sensor-motion-infrarot-usb?_pos=1&_sid=31781b835&_ss=r&variant=42695082016981
 mlink: 
-flash: serial
+flash: replace
 category: sensor
 type: Motion Sensor
 standard: global
-chip: TYWE3S
+chip: CB3S
 ---
-Tutorial to flash Tuya Motion PIR - No Solder Method
+As of 2024-07-15 you need to replace the module (uses unsupported CB3S).
 
-[![Tasmota Firmware - Flashing USB Serial - No Solder Method with Tasmotizer](https://img.youtube.com/vi/JOPKtN9ajek/0.jpg)](https://www.youtube.com/watch?v=JOPKtN9ajek)
+~~Tutorial to flash Tuya Motion PIR - No Solder Method~~
+
+~~[![Tasmota Firmware - Flashing USB Serial - No Solder Method with Tasmotizer](https://img.youtube.com/vi/JOPKtN9ajek/0.jpg)](https://www.youtube.com/watch?v=JOPKtN9ajek)~~
 
 My device came with a blue led cover due the image is for red.
 
