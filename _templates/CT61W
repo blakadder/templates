@@ -13,7 +13,7 @@ flash: replace
 category: sensor
 type: Motion Sensor
 standard: global
-chip: TYWE3S
+chip: CB3S
 ---
 As of 2024-07-15 you need to replace the module (uses unsupported CB3S).
 
