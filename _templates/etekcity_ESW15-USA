@@ -3,7 +3,7 @@ date_added: 2020-03-08
 title: ETEKCITY Voltson Smart Wi-Fi Outlet
 model: ESW15-USA
 image: /assets/device_images/etekcity-ESW15-USA.webp
-template: '{"NAME":"ESW15-USA","GPIO":[0,0,0,0,416,224,0,0,2656,2688,32,2592,544,4704],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"ESW15-USA","GPIO":[0,0,0,0,416,224,0,0,2656,2688,32,2592,544,4704],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.com/dp/B07PLFZ58Y/
 link2: https://www.amazon.com/dp/B07Y7RC7K7/
 mlink: https://www.etekcity.com/product/100328
