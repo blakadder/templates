@@ -13,7 +13,7 @@ type: Power Strip
 standard: us
 chip: WB3S
 ---
-Replaced WB3S (BK7231T) with ESP-12F flashed with Tasmota.  No pull down resistor on GPIO15 needed.
+Replaced WB3S (BK7231T) with ESP-12F flashed with Tasmota.  No pull down resistor on GPIO15 needed, but with mine I needed a pull up resistor on CH_PD (EN) ( I may have ripped the pad during removal ).
 
 After replacing WiFi module, one of the relays in the power strip will turn on and off repeatedly but will stop after configuring Tasmota
 
