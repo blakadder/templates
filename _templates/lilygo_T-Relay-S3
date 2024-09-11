@@ -16,6 +16,9 @@ standard: global
 
 Note: this template configures LEDs as relays 7 and 8 for some reason!
 
+Note: There is a new revision 1.1 of the board that connects the chip-enable of the CH595 to GPIO4 and is pull high with a resistor.
+      I recommend in the configuration set GPIO4 to low.
+
 Compile Tasmota with these options: 
 
 ```arduino
