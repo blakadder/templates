@@ -14,6 +14,14 @@ standard: us
 unsupported: true
 ---
 
+# An update about the warning below
+
+In October, 2024 I bought [a GHome WP9 on Amazon](https://www.amazon.com/dp/B09JZ746QX).  It now uses a Tuya BK7231N chip in a Z2-N-V1.1 module.
+
+I made [a post here in the OpenBK forums about flashing it with OpenBK](https://www.elektroda.com/rtvforum/viewtopic.php?p=21258299#21258299).
+
+I discovered this page after flashing it.  Testing with a plug-in circuit tester shows no problems with any of the unit's plugs.
+
 # Warning! Do not buy this product! 
 
 Was able to flash with 5 aligator clips (no soldering) RX/TX/GPIO0 route to PCB edge/pad with labels. 
