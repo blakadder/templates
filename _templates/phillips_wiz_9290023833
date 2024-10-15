@@ -21,12 +21,12 @@ EAN: 046677562700
 
 Plastic dome is glued, excessively, but still possible to remove with time and a razor. The LED board must be levered out, which is difficult. There's a small opening under the metal clip on the far end (away from pins) which can be used - however it's quite easy to accidently remove that clip when removing the board. To remove the main board, you can use a razor to remove the terminal on the bottom of the bulb. After that, you should be able to remove the main board from the bulb.
 
-![Wiz 9290023833 LED Board](assets/images/phillips_wiz_9290023833-led_board.jpg "LED Board")
+![Wiz 9290023833 LED Board](assets/device_images/phillips_wiz_9290023833-led_board.webp "LED Board")
 
 ## Flashing
 
 If you don't have a steady hand, removing the capacitor to the right of the chip is recommended while initially flashing. Otherwise, connect IO0 to ground when powering and continue as usual.
 
-![Wiz 9290023833 Main Board](assets/images/phillips_wiz_9290023833-main_board.jpg "Main Board")
+![Wiz 9290023833 Main Board](assets/device_images/phillips_wiz_9290023833-main_board.webp "Main Board")
 ![ESP32-SOLO1 Pinout](https://tasmota.github.io/docs/_media/pinouts/ESP32-SOLO-1.jpg "ESP32-SOLO-1 Pinout")
 
