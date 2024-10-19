@@ -13,3 +13,5 @@ type: CCT
 standard: e26
 ---
 Turn the bulb off and on every 1-2 seconds 5 or so times and it should start to flash/flicker. Then simply flash OTA using Tuya-Convert.
+
+Confirmed Tuya-Convert works, as of 10/18/2024
