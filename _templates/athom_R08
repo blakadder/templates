@@ -12,3 +12,13 @@ category: relay
 type: Relay Board
 standard: global
 ---
+
+
+## Note
+Orders placed after October 1, 2024 will be upgraded to the ESP32 Wi-Fi module
+
+## Configuration for ESP32
+
+```json
+{"NAME":"Athom 8CH Relay Board","GPIO":[0,0,228,0,229,230,1,1,226,227,225,544,1,1152,231,0,0,0,0,0,0,33,32,224,0,0,0,0,35,34,37,36,39,0,0,38],"FLAG":0,"BASE":1}
+```

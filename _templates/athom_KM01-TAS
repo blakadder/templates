@@ -13,3 +13,8 @@ type: Curtain Module
 standard: global
 ---
 
+## Note
+Orders placed after August 16, 2024 will be upgraded to the ESP32-C3 Wi-Fi module
+
+## Configuration for ESP32-C3
+ templatec3: '{"NAME":"Athom Curtain Module","GPIO":[0,0,0,32,225,224,576,161,0,0,0,0,0,0,0,0,0,0,0,0,160,0],"FLAG":0,"BASE":1,"CMND":"SO80 1 | ShutterMode 1"}'
