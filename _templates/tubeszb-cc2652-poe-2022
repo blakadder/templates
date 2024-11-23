@@ -14,10 +14,10 @@ standard: global
 ---
 ## Flashing
 
-1. Build your own Tasmota 32:
+1. Build your own Tasmota32:
 
 ```arduino    
-    /* ESP32 + ZigBee */
+    /* Begin ESP32 + ZigBee */
     #define USE_ZIGBEE      // Enable serial communication with Zigbee CC2530 flashed with ZNP
     #undef USE_ZIGBEE_EZSP  // Ensure ZNP support and not EZSP
     #define USE_UFILESYS    // use file system
@@ -29,8 +29,47 @@ standard: global
     #define ETH_CLKMODE     0   // ETH_CLOCK_GPIO0_IN
     #undef  ETH_ADDRESS
     #define ETH_ADDRESS     1
+    // TCP Bridge e.g. zigbee2mqtt
+    #ifndef USE_TCP_BRIDGE 
+    #define USE_TCP_BRIDGE          //  Add support for Serial to TCP bridge (+1.3k code)
+    #endif
+    /* End ESP32 + ZigBee */
 ```
 2. Connect the device to a POE-Switch and determine the provided IP address from the DHCP server
 2. Open the preinstalled ESPHome on http://ipaddress-of-your-device
-3. Go to OTA Update > Choose File > select the fresh image ```tasmota32.bin``` > click Update
-4. Open the fresh installed Tasmota and go to Configuration > Configure Other > copy the Template into the Template field > click Save"
+3. Go to `OTA Update > Choose File`, select the fresh image `tasmota32.bin`, click Update
+4. Open the fresh installed Tasmota and go to `Configuration > Configure Other`, copy one of the templates described below under Configuration into the Template field, check `Activate` and click Save
+5. Open `Tools > Console` and execute one of the commands described below under Configuration
+
+
+## Configuration
+### Zigbee2Tasmota (Z2T)
+For Zigbee2Tasmota the zigbee chip has to be connected to Tasmota's zigbee function on GPIO5 (Zigbee Rx) and GPIO16 (Zigbee Tx). The rule disables Wifi on Ethernet connection only.
+#### Template
+```
+{"NAME":"TubesZB CC2652 PoE Coordinator 2022","GPIO":[1,1,8864,1,5793,3584,0,0,5536,5792,8832,8800,3552,0,5600,1,1,1,1,5568,1,1,1,1,0,0,0,0,1,1,32,1,1,1,1,1],"FLAG":0,"BASE":1}
+```
+#### Rule
+```
+rule1 on eth#connected do wifi 0 endon on eth#disconnected do wifi 1 endon
+rule1 1
+```
+
+### Zigbee2MQTT (Z2M)
+For Zigbee2MQTT the zigbee chip has to be connected to the TCP bridge function on GPIO5 (TCP Rx) and GPIO16 (TCP Tx). The rule activates TCP port 8888 additionally.
+#### Template
+```
+{"NAME":"TubesZB CC2652 PoE Coordinator 2022","GPIO":[1,1,8864,1,5793,5504,0,0,5536,5792,8832,8800,5472,0,5600,1,1,1,1,5568,1,1,1,1,0,0,0,0,1,1,32,1,1,1,1,1],"FLAG":0,"BASE":1}
+```
+#### Rule
+```
+rule1 on eth#connected do wifi 0 endon on eth#disconnected do wifi 1 endon ON System#Boot do TCPStart 8888 endon 
+rule1 1
+```
+#### Zigbee2MQTT
+```
+serial:
+   port: tcp://<ip-adress-of-the-coordinator>:8888
+   baudrate: 115200
+   adapter: zstack
+```
