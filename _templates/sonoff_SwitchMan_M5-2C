@@ -3,7 +3,7 @@ date_added: 2021-12-30
 title: Sonoff SwitchMan M5-2C 2 Gang
 model: ESP32D0-MSW-T5
 image: /assets/device_images/sonoff_SwitchMan_M5-2C.webp
-template32: '{"NAME":"Sonoff SwitchMan 2C","GPIO":[0,0,0,0,32,576,0,0,0,0,0,33,0,0,416,225,0,0,0,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+template32: '{"NAME":"Sonoff SwitchMan 2C","GPIO":[0,0,0,0,32,576,0,0,0,0,0,33,0,0,416,225,0,0,289,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,288],"FLAG":0,"BASE":1}'
 mlink: https://itead.cc/product/sonoff-switchman-smart-wall-switch-m5/
 link: https://www.domadoo.fr/en/peripheriques/6427-sonoff-wall-switch-connected-wifi-on-mains-2-channels-m5.html
 link2: https://www.aliexpress.com/item/1005003618822308.html
@@ -14,6 +14,8 @@ category: switch
 type: Switch
 standard: [eu, uk]
 ---
+
+Improved template with both LEDs working taken from [arendst/Tasmota/discussions](https://github.com/arendst/Tasmota/discussions/15757#discussioncomment-7979967)
 
 [Instructions at notenoughtech.com](https://notenoughtech.com/home-automation/flashing-tasmota-on-sonoff-switchman/)
 
