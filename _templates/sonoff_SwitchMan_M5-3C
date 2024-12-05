@@ -20,6 +20,9 @@ To replicated original firmware behaviour, the red LEDs are configured as a PWM 
 
 LEDs that turn on with the relay cannot be controlled separately.
 
+The new white M5-3C-80/86W switch is Matter certified and thus have a locked bootloader. Be aware that you can't flash the firmware on it, you would need to solder another esp32 to use tasmota with it.
+Source: <a href="https://community.home-assistant.io/t/flashing-sonoff-switchman-m5-white-matter-version/741099/2">Home Assistant Forum</a>
+
 ## Serial Flashing
 
 Unclip the panel from the base. Remove two bottom screws and lift the plastic cover. Pull out the PCB by releasing the 4 clips holding it.
