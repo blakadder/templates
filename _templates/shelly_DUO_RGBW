@@ -3,7 +3,7 @@ date_added: 2021-09-18
 title: Shelly Duo RGBW 9W 800lm
 model: 3800235262306
 image: /assets/device_images/shelly_DUO_RGBW.webp
-template9: '{"NAME":"Shelly Duo RGBW","GPIO":[0,0,0,0,0,419,0,0,417,416,418,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Shelly Duo RGBW","GPIO":[0,0,0,0,0,419,0,0,417,416,418,0,0,4736],"FLAG":0,"BASE":18,"CMND":"AdcParam 2, 32000, 1000, 3950|SetOption37 128|SetOption106 1|SetOption107 0|WebButton1 COLOR|WebButton2 WHITE|SetOption42 85|Fade ON|Speed 2|SetOption91 1|Rule1 ON POWER2#state=1 DO POWER1 OFF ENDON ON POWER1#state=1 DO POWER2 OFF ENDON ON Dimmer1#State DO POWER2 OFF ENDON ON Dimmer2#State DO POWER1 OFF ENDON|Rule1 ON"}' 
 link: https://www.wesmartify.de/licht/schalten/574/shelly-duo-rgbw-e27/
 link2: https://www.aliexpress.com/item/1005003036696733.html
 link3: https://www.amazon.com/dp/B0851CJ29H
