@@ -16,11 +16,12 @@ type: RGBW
 standard: e27
 ---
 This template enables :
-  - Separate control of RGB and White channels with brightness control
+  - Separate control of RGB and White channels with brightness control ([SetOption37](https://tasmota.github.io/docs/Lights/#rgb-and-white-split) to split them and [virtual CT mode](https://tasmota.github.io/docs/Lights/#virtual-ct))
   - 2 buttons COLOR and WHITE to toggle the power of eatch channel (can be renamed by modifying the template)
   - Fading with speed 2 (can be adjusted in the console up to 40)
   - A rule which turns off one channel when the user turns on the other one, so RGB and White are not active *at the same time*. This is personnal preference so there is a minimalist template lower down.
   - Temperature monitoring (±5°C, not accurate but gives a rough idea). Safety cut off(?) lowered at 85°C instead of the default (SetOption42).
+
 
 
 Correct OTA mgos [firmware](https://github.com/arendst/mgos-to-tasmota)
