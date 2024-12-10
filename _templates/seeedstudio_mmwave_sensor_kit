@@ -13,6 +13,6 @@ link2:
 flash: serial
 ---
 
-[Berry driver](https://github.com/blakadder/berry-drivers/R24D) for Seeedstudio mmWave Lite thats included in the kit.
+[Berry driver](https://github.com/blakadder/berry-drivers/tree/main/R24D) for Seeedstudio mmWave Lite thats included in the kit.
 
 [Documentation](https://wiki.seeedstudio.com/mmwave_human_detection_kit/)
