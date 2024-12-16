@@ -15,7 +15,8 @@ category: bulb
 type: RGBW
 standard: e27
 ---
-This template enables :
+### This template enables :
+
   - Separate control of RGB and White channels with brightness control ([SetOption37](https://tasmota.github.io/docs/Lights/#rgb-and-white-split) to split them and [virtual CT mode](https://tasmota.github.io/docs/Lights/#virtual-ct))
   - 2 buttons COLOR and WHITE to toggle the power of eatch channel (can be renamed by modifying the template)
   - Fading with speed 2 (can be adjusted in the console up to 40) ([Fade at boot and power on](https://tasmota.github.io/docs/Commands/#setoption91))
@@ -27,14 +28,12 @@ Minimal template (without fading and rule):
 {"NAME":"Shelly Duo RGBW","GPIO":[0,0,0,0,0,419,0,0,417,416,418,0,0,4736],"FLAG":0,"BASE":18,"CMND":"AdcParam 2, 32000, 1000, 3950|SetOption37 128|SetOption106 1|SetOption107 0|WebButton1 COLOR|WebButton2 WHITE|SetOption42 85"}
 ```
 
+Thank's to @jwiesel for the base template. Here is some of his researches :
 
-Correct OTA mgos [firmware](https://github.com/arendst/mgos-to-tasmota)
-
-Pogo clip for [serial flashing](https://www.thingiverse.com/thing:5710034)
-
-White blend mode: `SetOption105 1`
-
-Virtual CT mode: `SetOption106 1` and `SetOption107 0`"
+- Correct OTA mgos [firmware](https://github.com/arendst/mgos-to-tasmota)
+- Pogo clip for [serial flashing](https://www.thingiverse.com/thing:5710034)
+- White blend mode: `SetOption105 1`
+- Virtual CT mode: `SetOption106 1` and `SetOption107 0`
 
 ### Troubleshooting
 After replacing the Shelly Firmware by Tasmota and connecting the buld to your wifi, the Tasmota Web-UI might not come up, although the device IP is connected.
