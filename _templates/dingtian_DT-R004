@@ -15,7 +15,7 @@ standard: global
 
 When ordering this board ask for relay board with test firmware, otherwise the ESP32 will be locked.
 
-Relay 1 is connected to GPIO 16 which is used for PSRAM in Tasmota, to prevent a pulse on Relay 1 upon boot use the tasmota32-nopsram firmware (https://github.com/arendst/Tasmota/discussions/21266), or use #define DISABLE_PSRAMCHECK in user_config_override.h upon building.
+Relay 1 is connected to GPIO 16 which is used for PSRAM in Tasmota, to prevent a pulse on Relay 1 upon boot use the tasmota32-nopsram firmware (https://github.com/arendst/Tasmota/discussions/21266), or use "#define DISABLE_PSRAMCHECK true" in user_config_override.h upon building.
 
 ### Description
 
