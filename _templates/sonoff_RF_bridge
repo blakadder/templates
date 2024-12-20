@@ -14,7 +14,8 @@ link4: https://www.alza.de/sonoff-433-rf-bridge-d6709606.htm
 link5: https://www.manomano.de/catalogue/p/rf-bridge-wifi-bridge-433-mhz-ersatz-hausautomation-universal-smart-switch-domotica-wi-fi-remote-rf-controller-19838708
 ---
 
-**This product is discontinued, sellers now ship the RFBridgeR2 white model which does not support flashing Portisch firmware**
+**This product is discontinued, sellers now ship the RFBridgeR2 white model which is supported by flashinga port of the Portisch firmware**
+link: https://github.com/mightymos/RF-Bridge-OB38S003
 
 ## Serial Flashing
 Complete guide on [Tasmota Docs](https://tasmota.github.io/docs/devices/Sonoff-RF-Bridge-433)
