@@ -7,12 +7,18 @@ standard: [us, jp]
 link: https://www.aliexpress.com/item/1005003653324697.html
 image: /assets/device_images/gosund_WP6.webp
 template: '{"NAME":"Gosund WP6","GPIO":[0,56,0,17,0,0,0,0,0,157,21,0,0],"FLAG":0,"BASE":18}' 
-template-alt: '{"NAME":"Gosund WP6","GPIO":[0,0,0,17,0,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18}' 
+template2: '{"NAME":"Gosund WP6","GPIO":[0,0,0,17,0,0,0,0,56,57,21,0,0],"FLAG":0,"BASE":18}' 
+template3: '{"NAME":"Gosund WP6","GPIO":[0,320,0,32,2720,2656,0,0,2624,544,224,0,0,0],"FLAG":0,"BASE":43}'
 link2: https://www.walmart.com/ip/Gosund-Homekit-2-Pack-Mini-Smart-Plug-Home-Wifi-Outlet-Socket-For-IOS-Apple-phone-Siri/461723566
 link3: https://www.aliexpress.com/item/1005003590121547.html
+link4: https://www.amazon.co.jp/gp/product/B0BFQYNTKM/
 mlink: https://gosundsmart.en.alibaba.com/product/1600196991148-824887702/Smart_Home_Alexa_Voice_Control_16A_Wireless_Power_Socket_Smart_Life_App_Remote_Control_Socket_UK_Standard_Wifi_Smart_Plug.html
 ---
 
 2020-12-30: Purchased a 4-pack from amazon on 2020-12-28 and they did NOT work using tuya-convert. Likely on the new firmware already.
 
 2021-04: Bought two packs of 4 WP6, no success with Tuya Convert 2.4.5
+2023-09-24: Purchased a 1-pack of 2 WP6s from Amazon. I did not attempt using Tuya Convert and successfully directly flashed them with Tasmota 13.1.0 via serial with ESP-Flasher.exe. 
+Module[ 2020.09.01 WP6-B(1.0.6) 8.05.000.0051 ]
+Module[ 2020.10.15 WP6-B(1.0.6) 8.05.000.0051 ]
+template3: '{"NAME":"Gosund WP6","GPIO":[0,320,0,32,2720,2656,0,0,2624,544,224,0,0,0],"FLAG":0,"BASE":43}'
