@@ -3,7 +3,7 @@ date_added: 2022-11-03
 title: LC Technology 5V/7-30V 8 Channel 
 model: ESP32_Relay_X8
 image: /assets/device_images/ESP32_Relay_X8.webp
-template32: '{"NAME":"ESP32_Relay_X8","GPIO":[0,0,0,0,0,0,0,0,225,224,226,0,0,0,0,0,0,0,0,0,0,229,228,227,0,0,0,0,231,230,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"ESP32_Relay_X8","GPIO":[0,0,0,0,0,0,0,0,230,231,229,0,0,0,0,0,0,0,0,0,0,226,227,228,0,0,0,0,224,225,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 link: https://www.aliexpress.com/item/1005004391118766.html
 link2: https://www.ebay.com/itm/334469754255
 mlink: 
