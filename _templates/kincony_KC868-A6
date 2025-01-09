@@ -13,3 +13,5 @@ type: Relay Board
 standard: global
 ---
 <https://www.kincony.com/forum/showthread.php?tid=1962>
+Requires to Enable PCF8574 I/O Expander (I2C addresses 0x20 - 0x26 and 0x39 - 0x3F) (+2k1 code)
+<https://tasmota.github.io/docs/PCF8574/>
