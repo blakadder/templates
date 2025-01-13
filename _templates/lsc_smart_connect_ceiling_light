@@ -4,7 +4,7 @@ date_updated: 2025-01-10
 title: LSC 20W 1400lm White Ambiance 
 model: 3000842 (970789 v1.0)
 image: /assets/device_images/lsc_smart_connect_ceiling_light.webp
-template: '{"NAME":"LSC RGBCW LED","GPIO":[0,0,0,0,0,0,0,0,4065,0,4032,0,0,0],"FLAG":0,"BASE":18}' 
+template_9: '{"NAME":"LSC RGBCW LED","GPIO":[0,0,0,0,0,0,0,0,4065,0,4032,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.action.com/fr-be/lsc-smart-connect/
 link2: 
 mlink: https://www.action.com/fr-be/p/lsc-smart-connect-slimme-plafonniere--47d4b32a/
