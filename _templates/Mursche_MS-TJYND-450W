@@ -1,0 +1,93 @@
+---
+date_added: 2025-01-14
+title: Mursche 450W Infrared Heater
+model: MS-TJYND-450W
+image: /assets/device_images/Mursche_MS-TJYND-450W.webp
+template9: '{"NAME":"Mursche Infrared Heater","GPIO":[0,2272,0,2304,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+link: https://amzn.eu/d/0NXTt5k
+link2: 
+mlink: 
+flash: replace
+category: misc
+type: Heater
+standard: eu
+chip: WBR3
+---
+
+<!--- Identified with MCU Product ID: `{"p":"3slpirlnlqp0bqo1","v":"1.0.0"}`. -->
+
+### Module Replacement
+
+#### !!! Unplug the Device before you open the Device !!!
+
+Open the junction box on the Backside of the Heater by unscrew 4 screws with Philips Heads (PH2).
+
+![JunctionBox](/assets/device_images/Mursche_MS-TJYND-450W_open.webp)
+
+Now you have access to the Mainboard `QNQ010W Ver1.1` with the Powersupply Model `KB-5150`.
+
+With another 4 Philips Screws you can lift the mainboard up, and the WBR3 Chip will show up. 
+
+The WBR3 is simple connected with a 2,54mm Pin Header to the Mainboard. 
+
+![Pinout-Breadboard](/assets/device_images/Mursche_MS-TJYND-450W_WBR3_ESP_Pinout.webp)
+
+Pinout (Topview, from Left to Right)
+- `TXD` - Pin 16
+- `RXD` - Pin 15
+- `VCC` - Pin 8
+- `GND` - Pin 9
+
+So use an ESP-12S or ESP-12F and a 2,54 mm breadboard with max 30 x 25 mm size to replace the Original WBR3 Chip.
+
+### Functions
+
+- `dpID 1` controls device power - turns the device on off
+- `dpID 2` setted target temperature
+- `dpID 3` reports ambient temperature using the built in temperature sensor
+- `dpID 11` UNKNOWN
+- `dpID 19` timer set in hours | shown in hours on display | up to 9 hours
+  - `0` - timer off
+  - `1` - timer 1 hr
+  - `2` - timer 2 hrs
+  - `3` - timer 3 hrs
+  - `4` - timer 4 hrs
+  - `5` - timer 5 hrs
+  - `6` - timer 6 hrs
+  - `7` - timer 7 hrs
+  - `8` - timer 8 hrs
+  - `9` - timer 9 hrs
+- `dpID 20` shown timer in minutes    
+
+    
+### Configuration
+
+```console
+backlog tuyamcu 11,1; tuyamcu 71,3; tuyamcu 72,2; tuyamcu 81,20; tuyamcu 61,19; tempres 0; tuyatempsetres 0; TuyaEnumList 1,9;
+```
+
+- `Relay1` maps to `dpID1` for power control
+
+In the webUI an ambient temperature sensor, temperature set sensor and a Timer1 will be shown.
+
+Set temperature using `TuyaSend2 2,x` where x is the desired temperature (0 decimals allowed).
+
+## Label webUI buttons: 
+```console
+webbutton1 Power;
+```
+### TuyaEnum
+
+As of Tasmota 9.1.0.1 #9769 it is possible to map Type4 dpIDs (such as dpID4) to an Enum fn ID.
+
+Map dpID4 to Enum1 fnID: 
+```console
+TuyaMCU 61,19
+```
+Set Enum1 range (in this case the max enum is 9). 
+```console
+TuyaEnumList 1,9
+```
+
+Now you can control the timer with `TuyaEnum1 <x>` where x is a value between 0 and 9 (0 decimals allowed).
+If you try a number outside the Enum1 range it will throw an error.
