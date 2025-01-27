@@ -13,6 +13,6 @@ type: Plug
 standard: uk
 ---
 
-HLW8032  occasionally report invalid power measurements for load values below 5W. During this situation it sometimes reports a valid load. By setting SetOption39 to 128 (default) it must read at least 128 invalid power readings before reporting there is no load.
+HLW8032 occasionally reports invalid power measurements for load values below 5W. During this situation it sometimes reports a valid load. By setting SetOption39 to 128 (default) it must read at least 128 invalid power readings before reporting there is no load.
 
 To discard all loads below 6W simply set SetOption39 1 (0 will reset to default on next restart) so it will report no load below 6W.
