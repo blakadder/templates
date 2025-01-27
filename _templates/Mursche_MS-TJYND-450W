@@ -14,7 +14,7 @@ standard: eu
 chip: WBR3
 ---
 
-<!--- Identified with MCU Product ID: `{"p":"3slpirlnlqp0bqo1","v":"1.0.0"}`. -->
+<!--- Identified with MCU Product ID: `{"p":"jauqpr4acqepednc","v":"1.0.0","m":0}`. -->
 
 ### Module Replacement
 
@@ -46,7 +46,7 @@ So use an ESP-12S or ESP-12F and a 2,54 mm breadboard with max 30 x 25 mm size t
 - `dpID 2` setted target temperature
 - `dpID 3` reports ambient temperature using the built in temperature sensor
 - `dpID 11` UNKNOWN
-- `dpID 19` timer set in hours | shown in hours on display | up to 9 hours
+- `dpID 19` timer set in hours, shown in hours on display (up to 9 hours)
   - `0` - timer off
   - `1` - timer 1 hr
   - `2` - timer 2 hrs
@@ -57,7 +57,7 @@ So use an ESP-12S or ESP-12F and a 2,54 mm breadboard with max 30 x 25 mm size t
   - `7` - timer 7 hrs
   - `8` - timer 8 hrs
   - `9` - timer 9 hrs
-- `dpID 20` shown timer in minutes    
+- `dpID 20` shown timer in minutes
 
     
 ### Configuration
