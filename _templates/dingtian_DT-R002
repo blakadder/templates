@@ -1,0 +1,60 @@
+---
+date_added: 2025-01-27
+title: Dingtian 2 Channel
+model: DT-R002
+image: assets/device_images/dingtian_DT-R002.png
+template32: '{"NAME":"Dingtian DT-R002","GPIO":[5536,9408,225,9440,0,0,0,0,0,9952,0,0,224,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,576,0,0,0,160,0,0,161],"FLAG":0,"BASE":1}' 
+link: https://nl.aliexpress.com/item/1005007020455160.html
+mlink: https://www.dingtian-tech.com/en_us/relay2.html
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+## Warning
+
+When ordering this board ask for relay board with test firmware, otherwise the ESP32 will be locked.
+
+Relay 1 is connected to GPIO 16 which is used for PSRAM in Tasmota, to prevent a pulse on Relay 1 upon boot use the tasmota32-nopsram firmware (https://github.com/arendst/Tasmota/discussions/21266), or use "#define DISABLE_PSRAMCHECK true" in user_config_override.h upon building.
+
+### Description
+
+Dingtian relay boards are ESP32 based boards with 2, 4, 8, 16, 24 or 32 relays and inputs.
+
+At the 2 and 4 relay boards the relays and inputs are directly connected to the gpio's of the ESP32.
+
+### MQTT Messages
+
+Inputs state are reported through SENSOR message at teleperiod:
+
+```shell
+MQT: tele/dingtian1/SENSOR = "{"Time":"2024-04-26T09:17:15","Switch1":"ON","Switch2":"ON"}"
+```
+
+Input changes are only reported when using switchmode 15 or 16:
+
+```shell
+ MQT: stat/dingtian1/SENSOR = {"Time":"2024-04-26T09:24:02","Switch1":"OFF","Switch2":"ON"} (retained)
+```
+
+When using switchmode 0, Input changes are not reported, but the output changes are reported:
+
+```shell
+ MQT: stat/dingtian1/RESULT = {"POWER1":"ON"}
+```
+
+### Ethernet
+To use ethernet JL1101 use the template provided or you must set 
+GPIO0  ETH-Power
+GPIO18  ETH-MDIO
+GPIO23  ETH-MDC
+
+and command: EthType 7  (JL1101)
+
+### GPIO
+
+![image](https://raw.githubusercontent.com/jeroenst/templates/3695628df48116fcc18d7bf60f8b1b001fa7197f/assets/pinouts/dingtian_DT-R002_gpio.png)
+
+### Note
+
+For using Modbus on the RS485 port (if ordered with this option) have a look at https://tasmota.github.io/docs/Modbus-Bridge/ and also add #define USE_MODBUS_BRIDGE and if desired #define USE_MODBUS_BRIDGE_TCP to user_config_override.h
