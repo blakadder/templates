@@ -1,9 +1,9 @@
 ---
 date_added: 2024-11-01
 title: Athom 3-Way Mini Relay
-model: RS03
+model: RS01C3
 image: /assets/device_images/athom_RS01.webp
-templatec3: '{"NAME":"RS01-TAS-1","GPIO":[0,0,0,32,160,0,224,576,0,0,0,0,0,0,0,0,0,0,0,0,3104,0],"FLAG":0,"BASE":1}' 
+templatec3: '{"NAME":"RS01C3-TAS-1","GPIO":[0,0,0,32,160,0,224,576,0,0,0,0,0,0,0,0,0,0,0,0,3104,0],"FLAG":0,"BASE":1}' 
 mlink: https://www.athom.tech/blank-1/power-monitoring-mini-relay-for-tasmota
 link: https://www.aliexpress.com/item/3256807676683696.html
 link2: 
@@ -16,4 +16,3 @@ standard: global
 
 * ESP32C3 with 4MB flash
 * Warning: S1 and S2 are input pins allowing only a contact / switch potential free. You can't input any voltage, it is dangerous. Source: Support of Athom.
-
