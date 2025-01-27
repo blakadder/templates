@@ -7,7 +7,6 @@ template32: '{"NAME":"Sonoff SPM","GPIO":[0,0,0,0,3200,5536,0,0,672,704,736,0,32
 link: https://www.banggood.com/SONOFF-SPM-Main-4Relay-Stackable-Power-Relay-Module-DIY-MINI-WIFI-Smart-Switch-20A-EWeLink-Alexa-Google-APP-Control-SD-Card-p-1966686.html
 link2: https://www.aliexpress.com/item/1005003440092289.html
 link3: https://www.domadoo.fr/en/peripheriques/5928-sonoff-compteur-de-puissance-intelligent-rail-din-unite-principale.html
-link4: https://mediarath.de/products/sonoff-wifi-lan-smart-stapelbarer-stromzahler-power-meter-tasmota?_pos=1&_sid=d9b216fd0&_ss=r&variant=42500645683413
 mlink: https://itead.cc/product/sonoff-smart-stackable-power-meter/
 flash: serial
 category: relay

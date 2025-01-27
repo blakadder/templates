@@ -9,7 +9,6 @@ image: /assets/device_images/teopek_Spider_Z.webp
 mlink: https://ewelinkcommunity.net/device-lists/lights/teopek-spider-z/
 link: https://www.aliexpress.com/item/32881075060.html
 link2: https://www.banggood.com/Sonoff-Spider-Z-Smart-Wifi-RGB-LED-Strip-Controller-Support-Alexa-p-1778522.html
-link3: https://mediarath.de/collections/tasmota-gerate/products/sonoff-spider-z-l1-smart-wifi-rgd-led-strip-controller-tasmota-9-3-alexa
 ---
 
 Same "Spider Z" LED controller and remote that comes with  [Sonoff L1](sonoff_L1) but without the LED strip and power supply.

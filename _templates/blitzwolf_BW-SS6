@@ -5,7 +5,6 @@ model: BW-SS6
 image: /assets/device_images/blitzwolf_BW-SS6.webp
 template9: '{"NAME":"BlitzWolf SS6 2 Gang","GPIO":[0,0,32,0,480,0,0,0,161,160,224,225,0,0],"FLAG":0,"BASE":18}' 
 link: https://banggood.com/BlitzWolf-BW-SS6-WIFI-Smart-Curtain-Module-APP-Remote-Controller-Timing-Open-or-Close-Work-with-Google-Assistant-Amazon-Alexa-p-1690546.html
-link2: https://mediarath.de/products/blitzwolf-bw-ss6-wifi-rollladen-markisen-smart-switch-tasmota-iobroker?_pos=1&_sid=33bf0d2e8&_ss=r
 mlink: https://www.blitzwolf.com/WiFi-Curtain-Module-p-531.html
 flash: serial
 category: cover

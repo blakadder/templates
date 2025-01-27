@@ -7,7 +7,6 @@ template: '{"NAME":"Sonoff T4 1CH","GPIO":[17,255,255,255,0,0,0,0,21,56,0,0,0],"
 link: https://itead.cc/product/sonoff-t4eu1c-wi-fi-smart-single-wire-wall-switch/
 link2: https://www.banggood.com/SONOFF-T4EU1C-WIFI-Wall-Touch-Switch-1-Gang-EU-No-Neutral-Wire-Required-Switches-Smart-Single-Wire-Wall-Switch-Works-With-Alexa-Google-Home-p-1555204.html
 link3: https://www.aliexpress.com/item/4000096289910.html
-link4: https://mediarath.de/collections/tasmota-gerate/products/sonoff-tx-t4-t4eu1c-tx-wifi-ein-draht-wandschalter-tasmota-alexa-iobroker
 mlink: https://sonoff.tech/product/wifi-smart-wall-swithes/tx-series
 flash: serial
 category: switch

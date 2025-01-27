@@ -5,7 +5,6 @@ model: LC-ESP01-4R-12V
 image: /assets/device_images/LC-ESP01-4R-12V.webp
 template: '{"NAME":"LC Technology 4CH Relay","GPIO":[21,0,22,0,23,24,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.banggood.com/DC12V-ESP8266-Four-Channel-Wifi-Relay-IOT-Smart-Home-Phone-APP-Remote-Control-Switch-p-13170.html
-link2: https://mediarath.de/collections/tasmota-gerate/products/lc-technology-12v-4-kanal-relais-4-channel-relay-esp8266-wifi-tasmota-9-3-neu
 mlink: http://www.chinalctech.com/cpzx/Programmer/428.html
 flash: serial
 category: relay

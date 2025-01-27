@@ -10,7 +10,6 @@ template: '{"NAME":"BW-SS1","GPIO":[255,255,255,255,157,21,0,0,255,17,255,255,0]
 link2: https://www.aliexpress.com/item/4000076631883.html
 mlink: https://www.blitzwolf.com/BlitzWolf-BW-SS1-WiFi-Smart-Switch-Controller-15A3300W-Maximum-Load-with-Remote-Control,-Timer,-Voice-Control,-State-Feedback-and-Device-Sharing-p-359.html
 link3: https://www.amazon.com/dp/product/B07TJH6877
-link4: https://mediarath.de/collections/tasmota-gerate/products/blitzwolf-bw-ss1-3300w-15a-wifi-smart-switch-tasmota-alexa-iobroker
 ---
 
 ESP module serial and IO0 same as blitzwolf_SHP2.html
