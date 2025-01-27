@@ -3,6 +3,7 @@ date_added: 2022-08-10
 title: Athom 
 model: KM01-TAS
 image: /assets/device_images/athom_KM01-TAS.webp
+templatec3: '{"NAME":"Athom Curtain Module","GPIO":[0,0,0,32,225,224,576,161,0,0,0,0,0,0,0,0,0,0,0,0,160,0],"FLAG":0,"BASE":1,"CMND":"SO80 1 | ShutterMode 1"}'
 template9: '{"NAME":"Athom Curtain Module","GPIO":[0,0,0,160,161,32,0,0,224,576,225,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO80 1 | ShutterMode 1 | SwitchDebounce 300 | ButtonDebounce 300"}'
 mlink: https://www.athom.tech/blank-1/tasmota-curtain-module
 link: https://www.aliexpress.com/item/1005004577649341.html
@@ -13,3 +14,6 @@ type: Curtain Module
 standard: global
 ---
 
+## Note
+
+Orders placed after August 16, 2024 will be upgraded to the ESP32-C3 Wi-Fi module

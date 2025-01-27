@@ -1,0 +1,29 @@
+---
+date_added: 2024-10-31
+title: Athom EM6 Energy Meter
+model: EM6
+image: /assets/device_images/athom_em6.webp
+templatec3: '{"NAME":"Athom EM6","GPIO":[0,0,0,0,0,0,0,3200,11333,32,544,0,0,0,0,0,0,0,1,0,0,0],"FLAG":0,"BASE":1,"CMND":"EnergyCols 6 | SO129 1"}'
+mlink: https://www.athom.tech/blank-1/6-ch-energy-meter-made-for-tasmota
+link: https://www.aliexpress.com/item/1005008005512632.html
+link2: 
+flash: preflashed
+category: sensor
+type: Energy Meter
+standard: global
+---
+
+## Note
+
+Only supports single-phase electricity, not three-phase electricity, so only one voltage can be measured
+
+## Optional commands:
+
+  EnergyCols <phases>`   - Change default 4 column GUI display to <phases> columns
+  VoltRes 1              - Change none to 1 decimal display
+  FreqRes 1              - Change none to 1 decimal display
+  WattRes 2              - Change none to 2 decimals display
+  SetOption21 1          - Display Voltage
+  SetOption129 1         - Display energy for each phase instead of single sum
+  SetOption150 1         - Display no common voltage/frequency
+  EnergyExportActive 1   - Enable display of Export Active energy based on negative Active Power
