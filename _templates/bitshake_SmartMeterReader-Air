@@ -1,0 +1,12 @@
+---
+date_added: 2025-01-28
+title: bitShake SmartMeterReader - AIR ESP32
+model: SmartMeterReader-Air
+image: /assets/device_images/bitshake_SmartMeterReader-Air.webp
+link: https://www.amazon.de/dp/B0CCMXSPVX/
+mlink: 
+flash: preflashed
+category: sensor
+type: Smart Meter
+standard: global
+---

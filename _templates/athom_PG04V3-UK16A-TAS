@@ -3,7 +3,7 @@ date_added: 2024-04-25
 title: Athom 16A UK V3
 model: PG04V3-UK16A-TAS
 image: /assets/device_images/athom_PG04V2-UK16A-TAS.webp
-template9: {"NAME":"Athom Plug V3","GPIO":[0,0,0,32,0,224,576,0,0,0,0,0,0,0,0,0,0,0,0,0,3104,0],"FLAG":0,"BASE":1}' 
+template9: '{"NAME":"Athom Plug V3","GPIO":[0,0,0,32,0,224,576,0,0,0,0,0,0,0,0,0,0,0,0,0,3104,0],"FLAG":0,"BASE":1}' 
 mlink: 
 link: https://www.athom.tech/blank-1/tasmota-esp32-c3-uk-plug-v3
 link2: 
