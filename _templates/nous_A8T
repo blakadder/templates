@@ -3,9 +3,11 @@ date_added: 2024-12-10
 title: Nous A8T 10A
 model: A8T
 image: /assets/device_images/nous_A8T.webp
-template: '{"NAME":"NOUS A8T","GPIO":[1,1,320,1,32,1,1,1,1,224,2624,1,1,1,1,1,0,1,1,1,0,1,2656,2720,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
-link: https://www.amazon.pl/dp/B0CWLSHCCV
+template32: '{"NAME":"NOUS A8T","GPIO":[1,1,320,1,32,1,1,1,1,224,2624,1,1,1,1,1,0,1,1,1,0,1,2656,2720,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://www.domadoo.fr/en/connected-outlets/7134-nous-tasmota-wifi-connected-socket-pre-installed-10a-esp32.html
 link2: https://www.amazon.de/dp/B0CWLSHCCV
+link3: https://www.amazon.pl/dp/B0CWLSHCCV
+link4: https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=nous+a8t
 mlink: https://nous.technology/product/a8t.html
 flash: preflashed
 category: plug

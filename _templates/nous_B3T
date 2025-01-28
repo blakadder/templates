@@ -1,0 +1,14 @@
+---
+date_added: 2025-01-28
+title: Nous 2 Channel / Curtain
+model: B3T
+image: /assets/device_images/nous_B3T.webp
+template32: '{"NAME":"NOUS B3T","GPIO":[544,3200,1,8128,32,160,1,1,224,225,0,1,1,1,161,1,0,1,1,1,0,1,1,1,0,0,0,0,1,1,1,0,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://www.amazon.de/dp/B0D4S3416P
+link2: https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=nous+b3t
+mlink: https://nous.technology/product/b3t.html
+flash: preflashed
+category: relay
+type: Switch Module
+standard: eu
+---

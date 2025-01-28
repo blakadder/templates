@@ -6,6 +6,7 @@ image: /assets/device_images/nous_L12T.webp
 template9: '{"NAME":" Smart WiFi Curtain Module L12T","GPIO":[1,160,1,161,225,224,1,1,544,1,32,1,1,1],"FLAG":0,"BASE":18}' 
 link: https://www.amazon.de/dp/B0BWB8WKQM
 link2: https://www.domadoo.fr/en/automatismes/6799-nous-module-connecte-wifi-tasmota-pre-installe-volet-roulant-5905072800334.html
+link3: https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=nous+l12t
 mlink: https://nous.technology/product/l12t.html
 flash: preflashed
 category: switch
