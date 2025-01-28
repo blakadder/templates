@@ -1,0 +1,13 @@
+---
+date_added: 2025-01-28
+title: Nous DIN Smart Switch 25A
+model: D3T
+image: /assets/device_images/nous_D3T.webp
+template9: '{"NAME":"Nous D1T","GPIO":[32,1,9312,1,1,320,1,1,9313,8160,3200,544,1,1,1,1,0,1,1,1,0,0,1,1,0,0,0,0,1,1,4736,1,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://www.domadoo.fr/en/connected-lighting/7596-nous-tasmota-module-25a-consumption-measurement-din-rail-format-5905072800624.html
+mlink: https://nous.technology/product/d3t.html
+flash: preflashed
+category: relay
+type: DIN Relay
+standard: eu
+---

@@ -1,0 +1,13 @@
+---
+date_added: 2025-01-28
+title: Nous DIN Smart Switch 20A
+model: D2T
+image: /assets/device_images/nous_D2T.webp
+template9: '{"NAME":"Nous D1T","GPIO":[32,1,9312,1,1,320,1,1,9313,8160,3200,544,1,1,1,1,0,1,1,1,0,0,1,1,0,0,0,0,1,1,4736,1,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://www.domadoo.fr/en/connected-lighting/7595-nous-tasmota-module-20a-consumption-measurement-din-rail-format-5905072800600.html
+mlink: https://nous.technology/product/d2t.html
+flash: preflashed
+category: relay
+type: DIN Relay
+standard: eu
+---
