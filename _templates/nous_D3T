@@ -13,3 +13,9 @@ category: relay
 type: DIN Relay
 standard: eu
 ---
+---
+## Fix Temperature Offset
+Use this Command in Console to fix the Temperature-Offset
+```
+AdcParam 2,40000,100000,3950,0
+```
