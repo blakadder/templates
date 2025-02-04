@@ -13,8 +13,9 @@ category: relay
 type: DIN Relay
 standard: eu
 ---
----
+
 ## Fix Temperature Offset
+
 Use this command in console to fix the temperature offset
 
 ```console
