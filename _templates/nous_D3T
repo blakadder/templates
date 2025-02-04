@@ -15,7 +15,8 @@ standard: eu
 ---
 ---
 ## Fix Temperature Offset
-Use this Command in Console to fix the Temperature-Offset
-```
+Use this command in console to fix the temperature offset
+
+```console
 AdcParam 2,40000,100000,3950,0
 ```
