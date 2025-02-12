@@ -49,7 +49,9 @@ GPIO0  ETH-Power
 GPIO18  ETH-MDIO
 GPIO23  ETH-MDC
 
-and command: EthType 7  (JL1101)
+and commands: 
+EthType 7  (JL1101)
+ethernet 1
 
 ### GPIO
 
