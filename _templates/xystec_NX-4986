@@ -13,7 +13,7 @@ type: Miscellaneous
 standard: global
 ---
 The device needs to be flashed via serial - tuya convert does not work:
-- open the hub carefully on the front and back
+- open the hub carefully on the front and back << front only should be fine (power button), PCB slides out after that, maybe push USB ports gently (Rev2_2022_02_17)
 - pull the board out of the case
 - the pinouts are clearly accessible and visible - no soldering required
 
@@ -23,12 +23,12 @@ RX | TX
 TX | RX
 GND | G
 GND | IO0 
-GND | RST *(required)*
+GND | RST *(required)* <<  not necessary for my "Rev2_2022_02_17"
 
 Power the board over USB.
 
 - plug the hub into usb to power it on
 - plug the serial programmerr into the computer
-- _(wait a few seconds,)_ remove the RST connection - *flashing mode*
+- _(wait a few seconds,)_ remove the RST connection - *flashing mode* << not working for my "Rev2_2022_02_17" instead, for backup with Tasmotizer remove the IO0 connection worked, for erasing & flashing all 4 had to be connected
 - flash the device as usual 
 - apply the template
