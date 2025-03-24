@@ -4,8 +4,8 @@ title: Athom 16A
 model: PG01EU16A
 image: /assets/device_images/athom_PG01EU16A.webp
 template9: '{"NAME":"Athom Power Monitoring Plug","GPIO":[0,0,0,32,2720,2656,0,0,2624,544,224,0,0,1],"FLAG":0,"BASE":18}'
-mlink: https://www.athom.tech/blank-1/color-smart-plug
-link: https://www.aliexpress.com/item/4001230982267.html
+mlink: https://www.athom.tech/blank-1/EU-plug
+link: https://www.aliexpress.com/item/3256808410153873.html
 flash: preflashed
 category: plug
 type: Plug

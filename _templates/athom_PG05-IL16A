@@ -6,7 +6,7 @@ image: /assets/device_images/athom_PG05-IL16A.webp
 template: '{"NAME":"Athom PG05-IL16A","GPIO":[0,0,0,17,134,132,0,0,131,157,21,0,0],"FLAG":0,"BASE":1}' 
 template9: '{"NAME":"Athom Power Monitoring Plug","GPIO":[0,0,0,32,2720,2656,0,0,2624,544,224,0,0,1],"FLAG":0,"BASE":18}'
 mlink: https://www.athom.tech/blank-1/israel-plug
-link: https://www.aliexpress.com/item/1005001670337343.html
+link: https://www.aliexpress.com/item/3256808243988446.html
 link2: 
 flash: preflashed
 category: plug

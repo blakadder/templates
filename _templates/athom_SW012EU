@@ -5,8 +5,8 @@ model: SW012EU
 image: /assets/device_images/athom_SW012EU.webp
 template: '{"NAME":"Athom SW012EU","GPIO":[158,53,0,17,22,18,0,0,0,21,52,0,0],"FLAG":0,"BASE":1}' 
 template9: '{"NAME":"Athom SW012EU","GPIO":[576,289,0,32,225,33,0,0,0,224,288,0,0,0],"FLAG":0,"BASE":1}'
-mlink: https://www.athom.tech/blank-1/eu-key-button-switch-1-gang
-link: https://www.aliexpress.com/item/4001053548549.html
+mlink: https://www.athom.tech/blank-1/no-neutral-line-neutral-line-needed-dual-mode-eu-switch
+link: https://www.aliexpress.com/item/3256808250914095.html
 link2: 
 flash: preflashed
 category: switch

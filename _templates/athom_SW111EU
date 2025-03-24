@@ -5,7 +5,7 @@ model: SW111EU
 image: /assets/device_images/athom_SW111EU.webp
 template: '{"NAME":"Athom SW111EU","GPIO":[158,0,0,17,0,0,0,0,0,21,52,0,0],"FLAG":0,"BASE":1}' 
 mlink: https://www.athom.tech/blank-1/no-neutral-line-neutral-line-needed-dual-mode-eu-switch
-link: https://www.aliexpress.com/item/1005001278010906.html
+link: https://www.aliexpress.com/item/3256808250914095.html
 link2: 
 flash: preflashed
 category: switch

@@ -4,7 +4,7 @@ title: Athom ESP32 Music Controller for
 model: LS8P-WLED
 image: /assets/device_images/athom_LS8P-WLED.webp
 template32: '{"NAME":"Athom LS8P","GPIO":[32,1,224,1,1,1,1,1,1,1,1,7904,1,1377,1376,1,0,1,1,1,0,1088,1,1,0,0,0,0,7872,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
-link: https://www.aliexpress.com/item/1005004929457839.html
+link: https://www.aliexpress.com/item/3256808236371805.html
 link2: 
 mlink: https://www.athom.tech/blank-1/wled-esp32-music-addressable-led-strip-controller
 flash: ota

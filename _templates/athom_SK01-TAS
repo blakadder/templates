@@ -5,7 +5,7 @@ model: SK01-TAS
 image: /assets/device_images/athom_SK01-TAS.webp
 template9: '{"NAME":"Athom SK01","GPIO":[0,0,0,3104,0,32,0,0,224,320,0,0,0,0],"FLAG":0,"BASE":18}'
 mlink: https://www.athom.tech/blank-1/tasmota-eu-wall-socket
-link: https://www.aliexpress.com/item/1005004568734241.html
+link: https://www.aliexpress.com/item/3256808251235507.html
 link2: 
 flash: preflashed
 category: plug
