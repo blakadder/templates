@@ -1,5 +1,5 @@
 ---
-date_added: 2020-06-27
+date_added: 2024-11-11
 title: Energizer A19 10W Multi-White
 model: EAW2-1001-MWT
 template: '{"NAME":"Energizer CCT ","GPIO":[0,0,0,0,0,37,0,0,0,38,0,0,0],"FLAG":0,"BASE":18}'
@@ -13,3 +13,5 @@ type: CCT
 standard: e26
 ---
 Turn the bulb off and on every 1-2 seconds 5 or so times and it should start to flash/flicker. Then simply flash OTA using Tuya-Convert.
+
+Confirmed Tuya-Convert works, as of 10/18/2024

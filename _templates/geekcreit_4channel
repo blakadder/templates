@@ -5,7 +5,6 @@ model: 438340
 image: /assets/device_images/geekcreit_4channel.webp
 template: '{"NAME":"Geekcreit-4ch","GPIO":[9,0,0,0,23,22,10,11,21,52,12,24,0],"FLAG":0,"BASE":18}' 
 link: https://www.banggood.com/5V-DIY-Four-Channel-Jog-Inching-Self-locking-WIFI-Wireless-Smart-Home-Switch-p-1065305.html
-link2: https://mediarath.de/collections/tasmota-gerate/products/sonoff-5v-4-kanal-relais-4-channel-relay-esp8285-wifi-tasmota-neu
 mlink: http://www.raspberrypiwiki.com/index.php/5V-4_Jog_Switch
 flash: serial
 category: relay

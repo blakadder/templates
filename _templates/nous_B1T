@@ -1,0 +1,15 @@
+---
+date_added: 2025-01-28
+title: Nous 1 Channel
+model: B1T
+image: /assets/device_images/nous_B1T.webp
+template32: '{"NAME":"NOUS B1T","GPIO":[544,0,1,0,32,160,1,1,224,0,0,1,1,1,0,1,0,1,1,1,0,1,1,1,0,0,0,0,1,1,1,0,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://www.domadoo.fr/en/eclairage/7179-nous-tasmota-wifi-module-onoff-esp32-10a-dc-16a-ac-5905072800488.html
+link2: https://www.amazon.de/dp/B0D4SF9T2H
+link3: https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=nous+b1t
+mlink: https://nous.technology/product/b1t.html
+flash: preflashed
+category: relay
+type: Switch Module
+standard: eu
+---

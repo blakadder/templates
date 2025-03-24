@@ -7,7 +7,6 @@ template32: '{"NAME":"Sonoff M5-3C","GPIO":[33,0,0,0,32,576,0,0,0,0,0,34,0,0,416
 mlink: https://itead.cc/product/sonoff-switchman-smart-wall-switch-m5/
 link: https://www.domadoo.fr/en/peripheriques/6428-sonoff-wall-switch-connected-wifi-on-mains-3-channels-m5.html
 link2: https://www.aliexpress.com/item/1005003618822308.html
-link3: https://mediarath.de/products/sonoff-m5-switchman-1-2-3-kanal-wifi-mechanischer-smart-wand-schalter?_pos=1&_sid=82507db1c&_ss=r
 link4: https://www.banggood.com/SONOFF-M5-86-SwitchMan-Smart-Wall-Switch-APP-Control-Work-with-Alexa-Google-Home-and-Siri-shortcut-p-1953820.html
 flash: serial
 category: switch
@@ -19,6 +18,9 @@ standard: [eu, uk]
 To replicated original firmware behaviour, the red LEDs are configured as a PWM light and are controlled using `Power4` and the dimmer slider.
 
 LEDs that turn on with the relay cannot be controlled separately.
+
+The new white M5-3C-80/86W switch is Matter certified and thus have a locked bootloader. Be aware that you can't flash the firmware on it, you would need to solder another esp32 to use tasmota with it.
+Source: <a href="https://community.home-assistant.io/t/flashing-sonoff-switchman-m5-white-matter-version/741099/2">Home Assistant Forum</a>
 
 ## Serial Flashing
 

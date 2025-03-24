@@ -6,7 +6,6 @@ image: /assets/device_images/athom_PG01EU16A.webp
 template9: '{"NAME":"Athom Power Monitoring Plug","GPIO":[0,0,0,32,2720,2656,0,0,2624,544,224,0,0,1],"FLAG":0,"BASE":18}'
 mlink: https://www.athom.tech/blank-1/color-smart-plug
 link: https://www.aliexpress.com/item/4001230982267.html
-link2: https://mediarath.de/products/athom-16a-3680w-wifi-smart-socket-mit-verbrauchsmessung-tasmota-ioboker-alexa?_pos=1&_sid=251a7052b&_ss=r
 flash: preflashed
 category: plug
 type: Plug

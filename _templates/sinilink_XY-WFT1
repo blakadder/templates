@@ -14,6 +14,9 @@ type: Relay Board
 standard: global
 ---
 It is possible to use solid core 24 AWG wires to make the connection without needing to solder them to the Sinilink board, but they may need soldering to a connector for the USB to serial adapter. Alternatively, you can strip some Ethernet Cat5e cable, which has the perfect diameter to fit in this board without soldering.
+For those who don't remember
+Connect your cables tr to rx and rx to tx
+To flash board, connect gnd wire to 4 pin IO and turn on power. Just wait a few second and you can flash tasmota.
 
 ![pinout](/assets/device_images/sinilink_XY-WFT1_pinout.webp)
 

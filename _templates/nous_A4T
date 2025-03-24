@@ -1,11 +1,13 @@
 ---
 date_added: 2023-10-02
-title: Nous 
+title: Nous Dual Smart Socket
 model: A4T
 image: /assets/device_images/nous_A4T.webp
-link: 
+template9: '{"NAME":"NOUS A4T","GPIO":[0,2624,0,576,2656,2720,0,0,224,225,32,0,0,0],"FLAG":0,"BASE":18}'
 mlink: https://nous.technology/product/a4t.html
 link: https://www.domadoo.fr/en/connected-outlets/6793-nous-prise-connectee-exterieure-double-tasmota-16a-mesure-conso.html
+link2: https://www.amazon.de/dp/B0CRZQHC1J/
+link3: https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=nous+a4t
 flash: preflashed
 category: plug
 type: Outdoor Plug

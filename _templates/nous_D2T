@@ -1,0 +1,29 @@
+---
+date_added: 2025-01-28
+title: Nous DIN Smart Switch 20A
+model: D2T
+image: /assets/device_images/nous_D2T.webp
+template32: '{"NAME":"Nous D1T","GPIO":[32,1,9312,1,1,320,1,1,9313,8160,3200,544,1,1,1,1,0,1,1,1,0,0,1,1,0,0,0,0,1,1,4736,1,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://www.domadoo.fr/en/connected-lighting/7595-nous-tasmota-module-20a-consumption-measurement-din-rail-format-5905072800600.html
+link2: https://www.amazon.de/dp/B0DMWQL9PR
+link3: https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=nous+d2t
+mlink: https://nous.technology/product/d2t.html
+flash: preflashed
+category: relay
+type: DIN Relay
+standard: eu
+---
+
+## Fix Temperature Offset
+
+Use this command in console to fix the temperature offset (if you have wrong, mostly negative temperatures).
+
+```console
+AdcParam 2,40000,100000,3950,0
+```
+
+You can check the actual settings with AdcParam without parameters:
+
+```console
+AdcParam
+```

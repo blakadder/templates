@@ -1,0 +1,17 @@
+---
+date_added: 2025-01-28
+title: Nous A6T Smart Socket
+model: A6T
+image: /assets/device_images/nous_A6T.webp
+template: '{"NAME":"NOUS A5T","GPIO":[0,145,157,146,0,32,0,0,22,23,21,0,17],"FLAG":1,"BASE":18}'
+template9: '{"NAME":"NOUS A5T","GPIO":[0,3072,544,3104,0,259,0,0,225,226,224,0,35,4704],"FLAG":1,"BASE":18}'
+link: https://www.domadoo.fr/en/connected-outlets/7501-we-tasmota-outdoor-socket-esp32-a6t-schuko-version-5905072800648.html
+link2: https://www.amazon.de/dp/B0DKD4CYWK
+link3: https://www.idealo.de/preisvergleich/Liste/121493135/nous-a6t.html
+link4: https://www.domadoo.fr/en/socket-bulb-/7502-nous-2x-outdoor-tasmota-smart-plug-a6t-2-5905072800686.html
+mlink: https://nous.technology/product/a6t.html
+flash: preflashed
+category: plug
+type: Outdoor Plug
+standard: eu
+---

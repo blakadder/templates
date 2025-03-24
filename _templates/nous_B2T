@@ -1,0 +1,15 @@
+---
+date_added: 2025-01-28
+title: Nous 2 Channel
+model: B2T
+image: /assets/device_images/nous_B2T.webp
+template32: '{"NAME":"NOUS B2T","GPIO":[544,3200,1,8160,32,160,1,1,224,0,0,1,1,1,0,1,0,1,1,1,0,1,1,1,0,0,0,0,1,1,1,0,1,0,0,1],"FLAG":0,"BASE":1}'
+link: https://www.domadoo.fr/en/devices/7180-nous-tasmota-wifi-module-onoff-consumption-measurement-1-load-5905072800501.html
+link2: https://www.amazon.de/dp/B0D4S2XD5Z
+link3: https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=nous+b2t
+mlink: https://nous.technology/product/b2t.html
+flash: preflashed
+category: relay
+type: Switch Module
+standard: eu
+---

@@ -1,0 +1,18 @@
+---
+date_added: 2024-04-25
+title: Athom 16A UK V3
+model: PG04V3-UK16A-TAS
+image: /assets/device_images/athom_PG04V2-UK16A-TAS.webp
+template9: '{"NAME":"Athom Plug V3","GPIO":[0,0,0,32,0,224,576,0,0,0,0,0,0,0,0,0,0,0,0,0,3104,0],"FLAG":0,"BASE":1}' 
+mlink: 
+link: https://www.athom.tech/blank-1/tasmota-esp32-c3-uk-plug-v3
+link2: 
+flash: preflashed
+category: plug
+type: Plug
+standard: uk
+---
+
+HLW8032 occasionally reports invalid power measurements for load values below 5W. During this situation it sometimes reports a valid load. By setting SetOption39 to 128 (default) it must read at least 128 invalid power readings before reporting there is no load.
+
+To discard all loads below 6W simply set SetOption39 1 (0 will reset to default on next restart) so it will report no load below 6W.

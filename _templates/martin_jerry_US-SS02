@@ -1,0 +1,35 @@
+---
+date_added: 2022-07-15
+title: Martin Jerry Humidity Sensor
+model: US-SS02
+category: switch
+type: Switch
+standard: us
+flash: preflashed
+link: https://www.amazon.com/dp/B0C7L49BXL/
+image: /assets/device_images/martin_jerry_US-SS02.webp
+---
+
+## New version with HDC1080 sensor
+
+```console
+rule1 ON HDC1080#Humidity>80 DO power 1 ENDON ON HDC1080#Humidity<75 DO power 0 ENDON
+rule1 5
+rule1 1
+```
+
+The numbers 80 and 75 in the command are humidity valoues of when you want to turn on and off the fan. It means the switch will turn on when humidity is over 80%, and turn off when it goes down to 75%.
+
+## OLD VERSION
+
+When upgrading this device requires [AHT2x](https://tasmota.github.io/docs/AHT2x/) support which is not included in default tasmota builds and requires a custom binary.
+
+Add Humidity Level Rule:
+
+```console
+rule1 ON AHT2X#Humidity>80 DO power 1 ENDON ON AHT2X#Humidity<75 DO power 0 ENDON
+rule1 5
+rule1 1
+```
+
+The numbers 80 and 75 in the command are humidity valoues of when you want to turn on and off the fan. It means the switch will turn on when humidity is over 80%, and turn off when it goes down to 75%.
