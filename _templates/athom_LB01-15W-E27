@@ -5,8 +5,7 @@ model: LB01-15W-E27
 image: /assets/device_images/athom_LB01-15W-E27.webp
 template9: '{"NAME":"LB01-15W-E27-TAS","GPIO":[0,0,0,0,416,419,0,0,417,452,418,0,0,0],"FLAG":0,"BASE":18,"CMND":"SO92 1 | DimmerRange 24 100"}' 
 mlink: https://www.athom.tech/blank-1/15w-color-bulb
-link: https://www.aliexpress.com/item/1005001879808728.html
-link2: 
+link: https://www.aliexpress.com/item/3256808247924488.html
 flash: preflashed
 category: bulb
 type: RGBCCT

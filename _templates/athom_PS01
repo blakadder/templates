@@ -1,11 +1,11 @@
 ---
-date_added: 2024-11-01
+date_added: 2025-03-24
 title: Athom Human Presence Sensor
 model: PS01
 image: /assets/device_images/athom_PS01.webp
-template9: '{"NAME":"Athom PS01 Sensor","GPIO":[32,0,0,0,640,608,0,0,161,3232,160,3200,576,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Athom PS01C3 Sensor","GPIO":[32,0,0,0,640,608,0,0,161,3232,160,3200,576,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/human-presence-sensor
-link: https://www.aliexpress.com/item/3256805586518763.html
+link: https://www.aliexpress.com/item/3256808248217774.html
 link2: 
 flash: serial
 category: sensor
@@ -13,6 +13,6 @@ type: Presence Sensor
 standard: global
 ---
 
-* ESP8285 with 2MB flash
+* ESP32C3 with 4MB flash
 
 Switch1 is PIR and Switch2 is mmWave presence binary sensor.
