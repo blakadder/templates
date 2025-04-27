@@ -3,7 +3,7 @@ date_added: 2023-03-28
 title: Dingtian 8 Channel
 model: DT-R008
 image: /assets/device_images/dingtian_DT-R008.webp
-template32: '{"NAME":"Dingtian DT-R008","GPIO":[1,9408,1,9440,1,1,1,1,1,9760,9728,9856,9792,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0,9824,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Dingtian DT-R008","GPIO":[5536,9408,1,9440,1,1,1,1,0,9760,9728,9856,9792,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,9824,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005004281943758.html
 link2: https://www.aliexpress.com/item/4001232791244.html
 mlink: https://www.dingtian-tech.com/en_us/relay8.html
@@ -88,7 +88,7 @@ And changes are reported to DINGTIAN_CHG topic:
 ```
 ### Ethernet
 To use ethernet JL1101 You must set 
-GPIO12  ETH-Power
+GPIO0  ETH-Power
 GPIO18  ETH-MDIO
 GPIO23  ETH-MDC
 
