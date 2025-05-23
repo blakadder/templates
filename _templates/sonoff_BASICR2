@@ -26,6 +26,10 @@ Unlike GPIO3, the GPIO2 PCB contact is not prepared for a pin. You will need to 
 * GPIO12 = RELAY
 * GPIO13 = LED1
 
+**Note:**
+
+The pad labelled KEY is connected to GPIO0. This may be useful if trying to connect an external button to control the relay. 
+
 ## V1.0
 [<img src="https://camo.githubusercontent.com/7ee22f14cc707c04fa8ac357e4dd2a05da63852e/68747470733a2f2f7331352e64697265637475706c6f61642e6e65742f696d616765732f3138313132382f76653971673936382e6a7067" height="200" alt="label">
 ](https://camo.githubusercontent.com/7ee22f14cc707c04fa8ac357e4dd2a05da63852e/68747470733a2f2f7331352e64697265637475706c6f61642e6e65742f696d616765732f3138313132382f76653971673936382e6a7067)
