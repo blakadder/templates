@@ -4,8 +4,8 @@ title: Athom 3 Gang Key
 model: SW01-TAS-3EU
 image: /assets/device_images/athom_SW01-TAS-3EU.webp
 template9: '{"NAME":"Athom SW01-TAS-3EU","GPIO":[576,290,1,33,225,34,0,0,32,224,289,226,288,0],"FLAG":0,"BASE":18}' 
-mlink: https://www.athom.tech/blank-1/eu-key-button-switch-3-gang
-link: https://www.aliexpress.com/item/4001053548549.html
+mlink: https://www.athom.tech/blank-1/no-neutral-line-neutral-line-needed-dual-mode-eu-switch
+link: https://www.aliexpress.com/item/3256808250914095.html
 link2: 
 flash: preflashed
 category: switch
