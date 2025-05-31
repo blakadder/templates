@@ -19,11 +19,11 @@ Only supports single-phase electricity, not three-phase electricity, so only one
 
 ## Optional commands:
 
-  EnergyCols <phases>`   - Change default 4 column GUI display to <phases> columns
-  VoltRes 1              - Change none to 1 decimal display
-  FreqRes 1              - Change none to 1 decimal display
-  WattRes 2              - Change none to 2 decimals display
-  SetOption21 1          - Display Voltage
-  SetOption129 1         - Display energy for each phase instead of single sum
-  SetOption150 1         - Display no common voltage/frequency
-  EnergyExportActive 1   - Enable display of Export Active energy based on negative Active Power
+- EnergyCols <phases>`   - Change default 4 column GUI display to <phases> columns
+- VoltRes 1              - Change none to 1 decimal display
+- FreqRes 1              - Change none to 1 decimal display
+- WattRes 2              - Change none to 2 decimals display
+- SetOption21 1          - Display Voltage
+- SetOption129 1         - Display energy for each phase instead of single sum
+- SetOption150 1         - Display no common voltage/frequency
+- EnergyExportActive 1   - Enable display of Export Active energy based on negative Active Power
