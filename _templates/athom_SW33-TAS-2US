@@ -5,7 +5,7 @@ model: SW33-TAS-2US
 image: /assets/device_images/athom_SW33-TAS-2US.webp
 template9: '{"NAME":"Athom SW33-2US","GPIO":[576,289,0,32,225,33,0,0,0,224,288,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/no-neutral-us-style-touch-switch
-link: https://www.aliexpress.com/item/1005003223759658.html
+link: https://www.aliexpress.com/item/3256808253300789.html
 link2: 
 flash: preflashed
 category: switch
