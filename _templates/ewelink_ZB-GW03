@@ -22,6 +22,10 @@ Preflashed version is not available from all vendors!
 
 ## Flash Zigbee module
 
+**Zigbee module flashing is broken in recent versions of Tasmota!**
+You need older version (e.g. 9.5.0) likely manually compiled ([see below](#firmware-build)) for successful flashing of Zigbee module.
+Related tasmota issue: [#23001](https://github.com/arendst/Tasmota/issues/23001)
+
 Download Zigbee module firmware (for example: [`ncp-uart-sw_6.7.8_115200.ota`](https://github.com/arendst/Tasmota/blob/development/tools/fw_SonoffZigbeeBridge_ezsp/ncp-uart-sw_6.7.8_115200.ota?raw=true)) from Tasmota GitHub located in [`Tasmota/tools/fw_SonoffZigbeeBridge_ezsp/`](https://github.com/arendst/Tasmota/blob/development/tools/fw_SonoffZigbeeBridge_ezsp).
 
 Go to **Firmware Upgrade** and next to "Upgrade by file upload" use the _Choose File_ button and select Zigbee module firmware you downloaded f.e. (`ncp-uart-sw_6.7.8_115200.ota`). 
