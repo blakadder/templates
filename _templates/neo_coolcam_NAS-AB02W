@@ -1,4 +1,7 @@
 ---
+In 2025 the below no longer appears to reflect current devices purchased on Aliexpress. On opening one up (version without sensors, just the siren), the board says v4 with a date of 2022.11.29, and 
+there is no IO0 pin exposed, nor RXD0 / TXD0 pads. 
+
 date_added: 2021-09-06
 title: NEO Coolcam Temperature and Humidity 3in1 Alarm
 model: NAS-AB02W
