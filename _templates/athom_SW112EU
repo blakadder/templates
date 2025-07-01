@@ -4,8 +4,8 @@ title: Athom 2 Gang No Neutral
 model: SW112EU
 image: /assets/device_images/athom_SW112EU.webp
 template: '{"NAME":"Athom SW112EU","GPIO":[158,53,0,17,22,18,0,0,0,21,52,0,0],"FLAG":0,"BASE":1}' 
-mlink: https://www.athom.tech/blank-1/eu-touch-switch-2-gang
-link: https://www.aliexpress.com/item/1005001278010906.html
+mlink: https://www.athom.tech/blank-1/no-neutral-line-neutral-line-needed-dual-mode-eu-switch
+link: https://www.aliexpress.com/item/3256808250914095.html
 link2: 
 flash: preflashed
 category: switch
