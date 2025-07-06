@@ -197,7 +197,7 @@ def dropdown_changed_cb(obj, event)
 
     var modes = ['Auto', 'Boost', 'On', 'Off', 'Adv', 'Day' ]
 
-    var code = event.code
+    var code = event.get_code()
 
     if code == lv.EVENT_VALUE_CHANGED
        print("Dropdown code :", code )
