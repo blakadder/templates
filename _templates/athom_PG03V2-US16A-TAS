@@ -5,8 +5,7 @@ model: PG03V2-US16A-TAS
 image: /assets/device_images/athom_PG03V2-US16A-TAS.webp
 template9: '{"NAME":"Athom Plug V2","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/tasmota-us-plug-v2
-link: https://www.aliexpress.com/item/1005001748770810.html
-link2: https://www.aliexpress.com/item/3256805791363393.html
+link: https://www.aliexpress.com/item/3256808244008381.html
 flash: preflashed
 category: plug
 type: Plug
