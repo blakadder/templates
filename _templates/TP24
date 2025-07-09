@@ -5,7 +5,7 @@ category: plug
 type: Plug
 standard: uk
 link: https://www.aliexpress.com/af/tp24-smart-plug.html
-image: http://www.sowye.com/wp-content/uploads/2018/11/TP24.png
+image: https://ae-pic-a1.aliexpress-media.com/kf/S9fcbad49336345b0bb4ea6555e2f27d5e.jpg_960x960q75.jpg_.avif
 template: '{"NAME":"TP24","GPIO":[0,0,0,17,0,0,0,0,0,56,21,0,0],"FLAG":0,"BASE":18}' 
 mlink: http://www.sowye.com/smart-plug-tp24/
 link2: https://www.alibaba.com/product-detail/UK-Plug-Smart-WiFi-Socket-10A_62422685105.html

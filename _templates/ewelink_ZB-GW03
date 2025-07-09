@@ -18,9 +18,13 @@ standard: global
 Preflashed version is not available from all vendors!
 
 ## Serial Flash
-[Download](https://github.com/tasmota/install/raw/main/firmware/unofficial/) `tasmota32-zigbeebridge.factory.bin` unofficial precompiled firmware from development branch and flash the ESP32 module. Or use `tasmota32-zigbeebridge.bin` for OTA upgrade.
+[Download](https://github.com/tasmota/install/tree/firmware/firmware/unofficial) `tasmota32-zigbeebridge.factory.bin` unofficial precompiled firmware from development branch and flash the ESP32 module. Or use `tasmota32-zigbeebridge.bin` for OTA upgrade.
 
 ## Flash Zigbee module
+
+**Zigbee module flashing is broken in recent versions of Tasmota!**
+You need older version (e.g. 9.5.0) likely manually compiled ([see below](#firmware-build)) for successful flashing of Zigbee module.
+Related tasmota issue: [#23001](https://github.com/arendst/Tasmota/issues/23001)
 
 Download Zigbee module firmware (for example: [`ncp-uart-sw_6.7.8_115200.ota`](https://github.com/arendst/Tasmota/blob/development/tools/fw_SonoffZigbeeBridge_ezsp/ncp-uart-sw_6.7.8_115200.ota?raw=true)) from Tasmota GitHub located in [`Tasmota/tools/fw_SonoffZigbeeBridge_ezsp/`](https://github.com/arendst/Tasmota/blob/development/tools/fw_SonoffZigbeeBridge_ezsp).
 
