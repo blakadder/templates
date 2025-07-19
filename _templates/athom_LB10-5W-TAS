@@ -5,7 +5,7 @@ model: LB10-5W-TAS
 image: /assets/device_images/athom_LB10-5W-TAS.webp
 template9: '{"NAME":"Athom LB10-5W-TAS","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}' 
 mlink: https://www.athom.tech/blank-1/gu10-rgbcw
-link: https://www.aliexpress.com/item/1005002723726183.html
+link: https://www.aliexpress.com/item/3256808247741968.html
 link2: 
 flash: preflashed
 category: bulb

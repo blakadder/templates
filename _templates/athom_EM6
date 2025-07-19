@@ -5,7 +5,7 @@ model: EM6
 image: /assets/device_images/athom_em6.webp
 templatec3: '{"NAME":"Athom EM6","GPIO":[0,0,0,0,0,0,0,3200,11333,32,544,0,0,0,0,0,0,0,1,0,0,0],"FLAG":0,"BASE":1,"CMND":"EnergyCols 6 | SO129 1"}'
 mlink: https://www.athom.tech/blank-1/6-ch-energy-meter-made-for-tasmota
-link: https://www.aliexpress.com/item/1005008005512632.html
+link: https://www.aliexpress.com/item/3256808249533380.html
 link2: 
 flash: preflashed
 category: sensor
