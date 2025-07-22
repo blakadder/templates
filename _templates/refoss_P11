@@ -6,7 +6,7 @@ image: /assets/device_images/refoss_P11.webp
 template9: '{"NAME":"Refoss-P11","GPIO":[0,0,0,3104,576,32,0,0,320,224,0,0,0,4736],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.de/dp/B0C89PM952/
 link2: https://www.aliexpress.com/item/1005005859101584.html
-mlink: https://www.refoss.net/
+mlink: https://refoss.net/collections/smart-plug/products/refoss-tesmota-wi-fi-plug-p11
 flash: preflashed
 category: plug
 type: Plug
