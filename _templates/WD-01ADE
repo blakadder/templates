@@ -38,3 +38,12 @@ For use with Home Assistant its advised to set friendly names for the relays:
 ```console
 Backlog FriendlyName1 Pump A; FriendlyName2 Pump B
 ```
+
+### Newer version without ESP
+A newer version exists with the same model number, but it no longer features an ESP chip, but a CBU chip.
+The board has been redesigned and is no longer compatible with a PSF-B04. Luckily an ESP8685-WROOM-06 still fits altough 1 pin is mapped to a "NC" pin, so I had to add a wire to another pin. This pin is used for the blue "WLAN" led.
+
+```
+{"NAME":"WD-01ADE","GPIO":[544,225,224,32,1,1,1,33,1,1,1,0,0,0,0,0,0,0,1,1,1,1],"FLAG":0,"BASE":1}
+```
+
