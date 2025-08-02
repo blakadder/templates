@@ -19,7 +19,7 @@ But the Wifi module is easy accessible and it's possible to remove it from the v
 After flashing Tasmota and install the wifi module back I started receiving `Serial` messages immediatly without assigning any pins in Tasmota
 And it looks something like this `AA1C06FF00040500000000000000000000000000000000000000000000505E` and the messages are displayed every ~10seconds.
 
-`AA1C06FF00` seems to be defaul, `04 05` represents the state of the vacuum, `50` is the battery % in Hex you can use something like this [Hex to Decimal](https://www.binaryhexconverter.com/hex-to-decimal-converter) to convert it and the 2 last bits I am not sure yet what they mean.
+`AA1C06FF00` seems to be defaul, `04 05` represents the state of the vacuum, `50` is the battery % in Hex you can use something like this [Hex to Decimal](https://www.binaryhexconverter.com/hex-to-decimal-converter) to convert it and the 2 last bits are the mod 256 checksum (the lower byte of the plain algebraic sum of all bytes) of the payload excluding the AA start byte and 1C function? byte.
 
 The Vacuum can be used sending `SerialSend5` messages and the commmands are:
 ```haskell
@@ -52,4 +52,3 @@ show_status: true
 show_toolbar: true
 type: 'custom:vacuum-card'
 ```
-
