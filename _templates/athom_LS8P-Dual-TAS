@@ -1,0 +1,14 @@
+---
+date_added: 2025-07-09
+title: IoTorero PWM RGBCCT & Addressable Dul Mode Strip Controller
+model: LS8P-Dual-TAS
+image: /assets/device_images/LS8P-Dual-TAS.webp
+template9: '{"NAME":"IoTorero RGBCW Controller","GPIO":[0,0,0,418,419,416,417,420,576,32,1088,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/tasmota-rgbcct-analog-and-digital-light-strip-controller
+link: https://www.aliexpress.com/item/3256809261257595.html
+link2: 
+flash: preflashed
+category: light
+type: LED Controller
+standard: global
+---

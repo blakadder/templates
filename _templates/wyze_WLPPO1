@@ -1,6 +1,6 @@
 ---
 date_added: 2021-02-03
-title: Wyze 
+title: Wyze / Roku
 model: WLPPO1
 image: /assets/device_images/wyze_WLPPO1.webp
 template32: '{"NAME":"Wyze Plug Outdoor","GPIO":[0,0,0,0,0,576,0,0,0,0,0,224,321,7713,7712,320,0,0,0,0,0,2624,2656,2720,0,0,0,0,225,0,4704,0,0,0,0,0],"FLAG":0,"BASE":1}'
@@ -12,6 +12,10 @@ category: plug
 type: Outdoor Plug
 standard: us
 ---
+
+There are two versions of this smart plug with the same FCC ID and model number, the "Wyze Plug Outdoor" and "Roku Outdoor Smart Plug SE". They are completely identical in hardware, but have different firmware. 
+
+The Roku Outdoor Smart Plug SE's firmware has Secure Boot v2 and Flash Encryption enabled, and the UART bootloader disabled. **It is not possible to flash the Roku version of this hardware with custom firmware.**
 
 ## Flashing
 There are test points large enough for soldering, BOOT (GPIO0), RXD, TXD, and GND are right next to each other.  3V3 is some distance away (right next to the power cord).
