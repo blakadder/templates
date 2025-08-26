@@ -5,7 +5,7 @@ model: PG03V3-US16A-TAS
 image: /assets/device_images/athom_PG03V2-US16A-TAS.webp
 template9: '{"NAME":"Athom Plug V3","GPIO":[0,0,0,32,0,224,576,0,0,0,0,0,0,0,0,0,0,0,0,0,3104,0],"FLAG":0,"BASE":1}' 
 mlink: https://www.athom.tech/blank-1/tasmota-esp32-c3-us-plug-v3
-link: https://www.aliexpress.com/item/3256806317518289.html
+link: https://www.aliexpress.com/item/3256808241422384.html
 link2: 
 flash: preflashed
 category: plug
