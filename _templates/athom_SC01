@@ -1,0 +1,14 @@
+---
+date_added: 2025-08-13
+title: IoTorero CO2 Sensor
+model: SC01
+image: /assets/device_images/athom_SC01.webp
+template9: '{"NAME":"IoTorero SCD40 Sensor","GPIO":[0,0,0,0,0,0,0,0,608,32,640,0,0,0,0,0,0,0,0,0,0,1376],"FLAG":0,"BASE":1}' 
+mlink: https://www.athom.tech/blank-1/co2-sensor-made-for-tasmota-matter
+link: https://www.aliexpress.com/item/3256809451850907.html
+link2: 
+flash: preflashed
+category: sensor
+type: Air Quality Sensor
+standard: global
+---
