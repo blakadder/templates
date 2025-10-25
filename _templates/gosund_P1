@@ -29,3 +29,8 @@ Then enable it with `Backlog Rule1 1; Rule2 1; Rule2 5`
 ## Serial flash
 ![internals](/assets/device_images/gosund_P1_pcb.webp)
 ![internals](/assets/device_images/gosund_P1_pcba.webp)
+
+### 🛠️ Note for newer Tasmota versions
+After upgrading to **Tasmota 14.2.0 or later**, the analog buttons may stop working (manual switching disabled). This is due to a change in ADC handling introduced in those builds. If the buttons no longer respond, run the following command in the console to fix it:
+AdcGpio [0,1024,5,0]
+After applying this command, the analog buttons will function normally again.
