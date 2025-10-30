@@ -13,6 +13,7 @@ type: Switch Module
 standard: global
 ---
 
+**Discontinued!** [New version](athom_RS01C3)
 
 * ESP8285 with 2MB flash
 * Warning: S1 and S2 are input pins allowing only a contact / switch potential free. You can't input any voltage, it is dangerous. Source: Support of Athom.

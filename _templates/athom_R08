@@ -6,7 +6,7 @@ image: /assets/device_images/athom_R08.webp
 template9: '{"NAME":"Athom R08","GPIO":[229,1,1,1,230,231,1,1,226,227,225,228,224,0],"FLAG":0,"BASE":18}' 
 template32: '{"NAME":"Athom 8CH Relay Board","GPIO":[0,0,228,0,229,230,1,1,226,227,225,544,1,1152,231,0,0,0,0,0,0,33,32,224,0,0,0,0,35,34,37,36,39,0,0,38],"FLAG":0,"BASE":1}'
 mlink: https://www.athom.tech/blank-1/8ch-inching-self-lock-relay
-link: https://www.aliexpress.com/item/1005002663822485.html
+link: https://www.aliexpress.com/item/1005008435931458.html
 link2: 
 flash: preflashed
 category: relay

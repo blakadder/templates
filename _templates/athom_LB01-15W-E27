@@ -13,6 +13,8 @@ type: RGBCCT
 standard: e27
 ---
 
+**Discontinued!** [New version](athom_LB01-12W-E27)
+
 Commands added with the template: `SetOption92 1` and `DimmerRange 24,100`
 
 ## Warning
