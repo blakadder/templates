@@ -1,0 +1,17 @@
+---
+date_added: 2025-10-30
+title: Athom ESP32C3 12W Bulb
+model: LB01-12W-E27
+image: /assets/device_images/athom_LB01-12W-E27.webp
+templatec3: '{"NAME":"Athom 12W Bulb","GPIO":[0,0,0,419,420,418,416,417,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+mlink: https://www.athom.tech/blank-1/tasmota-matter-12w-color-bulb
+link: https://www.aliexpress.com/item/1005008638698108.html
+link2: 
+flash: preflashed
+category: bulb
+type: RGBCCT
+standard: e27
+---
+
+## Warning
+Do not turn on the cool or warm color and RGB channel at the same time, and do not turn on the white mixing mode (SetOption105 1 should not be executed). Otherwise, the bulb will be damaged

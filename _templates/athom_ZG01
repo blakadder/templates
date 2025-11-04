@@ -9,7 +9,7 @@ category: misc
 type: Zigbee Gateway
 standard: global
 mlink: https://www.athom.tech/blank-1/zigbee-gateway
-link: https://www.aliexpress.com/item/3256804756093544.html
+link: https://www.aliexpress.com/item/1005008439163681.html
 ---
 
 When flashing ESP32, Connect the data cable Hold the button and flash the Tasmota Release "Tasmota32 Sonoff-ZigbeeBridgePro" to pre-completing all required file and file system changes.

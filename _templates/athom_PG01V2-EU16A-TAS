@@ -4,8 +4,8 @@ title: Athom 16A EU V2
 model: PG01V2-EU16A-TAS
 image: /assets/device_images/athom_PG01V2-EU16A.webp
 template9: '{"NAME":"Athom Plug V2","GPIO":[0,0,0,3104,0,32,0,0,224,576,0,0,0,0],"FLAG":0,"BASE":18}' 
-mlink: https://www.athom.tech/blank-1/color-smart-plug
-link: https://www.aliexpress.com/item/4001230982267.html
+mlink: https://www.athom.tech/blank-1/EU-plug
+link: https://www.aliexpress.com/item/1005008596468625.html
 flash: preflashed
 category: plug
 type: Plug

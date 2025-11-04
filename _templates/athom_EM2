@@ -5,7 +5,7 @@ model: EM2
 image: /assets/device_images/athom_em2.webp
 templatec3: '{"NAME":"Athom EM2","GPIO":[0,0,0,0,0,0,0,3200,11329,32,544,0,0,0,0,0,0,0,1,0,0,0],"FLAG":0,"BASE":1,"CMND":"EnergyCols 2 | SO129 1"}'
 mlink: https://www.athom.tech/blank-1/2-ch-energy-meter-made-for-tasmota
-link: https://www.aliexpress.com/item/1005008005563883.html
+link: https://www.aliexpress.com/item/1005008437085018.html
 link2: 
 flash: preflashed
 category: sensor

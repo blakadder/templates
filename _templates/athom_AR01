@@ -5,7 +5,7 @@ model: AR01
 image: /assets/device_images/athom_AR01.webp
 template9: '{"NAME":"Athom_IR_Remote","GPIO":[32,0,0,0,1056,1088,0,0,0,576,0,0,0,0],"FLAG":0,"BASE":18}'
 mlink: https://www.athom.tech/blank-1/tasmota-ir-controller
-link: https://www.aliexpress.com/item/1005005772315510.html
+link: https://www.aliexpress.com/item/1005008434701012.html
 link2: 
 flash: preflashed
 category: misc
