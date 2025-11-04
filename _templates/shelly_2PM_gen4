@@ -1,0 +1,16 @@
+date_added: 2025-11-03
+title: Shelly 2PM Gen4
+model: S4SW-002P16EU
+image: /assets/device_images/shelly_2PM_gen4.webp
+template32: '{"NAME":"Shelly 2PM Gen4","GPIO":[9472,3458,576,225,4736,224,640,608,0,0,193,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9472,0],"FLAG":0,"BASE":1}'
+link: https://shellyparts.de/en/products/shelly-2pm-gen4
+mlink: https://kb.shelly.cloud/knowledge-base/shelly-2pm-gen4
+flash: serial
+category: relay
+type: Switch Module
+standard: global
+chip: c6
+---
+
+## Shelly Temperature Sensor
+In order for the temperature sensor to display accurate values, the analog input must be configured correctly. This can be done using the command: "AdcParam1 2,10000,10000,3350".
