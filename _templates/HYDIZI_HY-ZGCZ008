@@ -1,0 +1,23 @@
+---
+date_added: 2025-11-09
+title: HYDIZI 10A Smart Plug
+model: HY-ZGCZ008
+image: /assets/device_images/HYDIZI_HY-ZGCZ008.webp
+templatec2: '{"NAME":"HY-ZGCZ008","GPIO":[0,0,0,320,32,0,224,544,0,0,8160,0,0,0,0,0,0,0,3200,0,0],"FLAG":0,"BASE":1}' 
+mlink: https://shop584181904.taobao.com/
+link: https://item.taobao.com/item.htm?id=674552514030&skuId=4973727069321
+link2: https://item.taobao.com/item.htm?id=788172919569&skuId=5548256370096
+flash: preflashed
+category: plug
+type: Plug
+standard: [au, us]
+chip: c2
+---
+
+A smart plug produced by HYDIZI (宏盈电子), sold on Taobao with different firmwares, including Tuya and Tasmota. 
+
+Some versions of the plug have no power monitoring capability, but they seem to share the same shell and model number.
+
+The power monitoring version uses a ESP8684-WROOM-03 with 4MB flash and a BL0942 power monitoring chip.
+
+![HYDIZI HY-ZGCZ008 board](/assets/device_images/HYDIZI_HY-ZGCZ008_board.webp)
