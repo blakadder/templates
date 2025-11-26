@@ -3,7 +3,7 @@ date_added: 2023-03-28
 title: Dingtian 8 Channel
 model: DT-R008
 image: /assets/device_images/dingtian_DT-R008.webp
-template32: '{"NAME":"Dingtian DT-R008","GPIO":[1,9408,1,9440,1,1,1,1,5536,9760,9728,9856,9792,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,9824,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
+template32: '{"NAME":"Dingtian DT-R008","GPIO":[1,9408,1,9440,1,1,1,1,5536,9760,9728,9856,9792,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,10432,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
 link: https://www.aliexpress.com/item/1005004281943758.html
 link2: https://www.aliexpress.com/item/4001232791244.html
 mlink: https://www.dingtian-tech.com/en_us/relay8.html
@@ -26,11 +26,28 @@ From version 3.6.10 and higher, PL is not used anymore and OE is used instead. T
 This driver is not included in any official Tasmota build. You must [compile your own build](https://tasmota.github.io/docs/Compile-your-build/) by adding the following line in your `user_config_override.h`:
 
 ```arduino
-#define USE_DINGTIAN_RELAY
+#define USE_DINGTIAN_RELAY                       // Add support for the Dingian board using 74'595 et 74'165 shift registers
+#define DINGTIAN_INPUTS_INVERTED               // Invert input states (Hi => OFF, Low => ON)
+#define DINGTIAN_USE_AS_BUTTON                 // Inputs as Tasmota's virtual Buttons
+#define DINGTIAN_USE_AS_SWITCH                 // Inputs as Tasmota's virtual Switches```
+```
+
+### Hardware version 3.6.10 and higher
+The driver defines 5 GPIOs (from [here](https://github.com/dtlzp/relay_dev_demo/blob/main/gpio_pinout/8ch_v2.png)):
+
+```txt
+|                   |  8-relay | 16-relay | 32-relay | Description                                           |
+|-------------------+----------+----------+----------+-------------------------------------------------------|
+| GPIO_DINGTIAN_CLK | GPIO 14  | GPIO 14  | GPIO 14  | Serial clokc for both 595 and 165                     |
+|    CLK Index      |    1     |    2     |   4      | Number of 74HC165 and 74HC595                         |
+| GPIO_DINGTIAN_SDI | GPIO 13  | GPIO 13  | GPIO 13  | Serial input for 595                                  |
+| GPIO_DINGTIAN_Q7  | GPIO 16  | GPIO 35  | GPIO 35  | Serial output of 165                                  |
+| GPIO_DINGTIAN_OE  | GPIO 32  | GPIO 0   | GPIO 0   | Controls OE of the 595                                |
+| GPIO_DINGTIAN_RCK | GPIO 15  | GPIO 15  | GPIO 15  | Latch of 595 outputs (but also Latch 165 inputs)      |
 ```
 
 ### Before hardware version 3.6.10
-The driver define 5 News GPIOs (from [here](https://github.com/dtlzp/relay_dev_demo/tree/main/gpio_pinout)):
+The driver defines 5 GPIOs (from [here](https://github.com/dtlzp/relay_dev_demo/blob/main/gpio_pinout/8ch.png)):
 
 ```txt
 |                   |  8-relay | 16-relay | 32-relay | Description                                                |
@@ -43,19 +60,6 @@ The driver define 5 News GPIOs (from [here](https://github.com/dtlzp/relay_dev_d
 | GPIO_DINGTIAN_RCK | GPIO 15  | GPIO 15  | GPIO 15  | Latch of 595 outputs (but also control CLK inhibit of 165) |
 ```
 
-### Hardware version 3.6.10 and higher
-The driver defines 5 GPIOs:
-
-```txt
-|                   |  8-relay | 16-relay | 32-relay | Description                                           |
-|-------------------+----------+----------+----------+-------------------------------------------------------|
-| GPIO_DINGTIAN_CLK | GPIO 14  | GPIO 14  | GPIO 14  | Serial clokc for both 595 and 165                     |
-|    CLK Index      |    1     |    2     |   4      | Number of 74HC165 and 74HC595                         |
-| GPIO_DINGTIAN_SDI | GPIO 13  | GPIO 13  | GPIO 13  | Serial input for 595                                  |
-| GPIO_DINGTIAN_Q7  | GPIO 16  | GPIO 35  | GPIO 35  | Serial output of 165                                  |
-| GPIO_DINGTIAN_OE  | GPIO 32  | GPIO 0   | GPIO 0   | Controls OE of the 595                                |
-| GPIO_DINGTIAN_RCK | GPIO 15  | GPIO 15  | GPIO 15  | Latch of 595 outputs (but also Latch 165 inputs)      |
-```
 
 On the onboard header GPIO 4 and GPIO 5 are available (pin 7 and 8)
 
