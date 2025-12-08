@@ -1,6 +1,6 @@
 ---
 date_added: 2022-11-03
-title: Shenzhen LC Technology 5V/7-30V 8 Channel 
+title: LC Technology 5V/7-30V 8 Channel 
 model: ESP32_Relay_X8
 image: /assets/device_images/ESP32_Relay_X8.webp
 template32: {"NAME":"ESP32_Relay_X8","GPIO":[0,0,0,0,0,0,0,0,230,231,229,0,0,0,0,0,0,0,0,0,0,226,227,228,0,0,0,0,224,225,0,0,0,0,0,0],"FLAG":0,"BASE":1}
