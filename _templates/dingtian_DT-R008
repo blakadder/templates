@@ -35,7 +35,8 @@ The driver define 5 News GPIOs (from [here](https://github.com/dtlzp/relay_dev_d
 ```txt
 |                   |  8-relay | 16-relay | 32-relay | Description                                                |
 |-------------------+----------+----------+----------+------------------------------------------------------------|
-| GPIO_DINGTIAN_CLK | GPIO 14  | GPIO 14  | GPIO 14  | Serial clokc for both 595 and 165                          |
+| GPIO_ETH_POWER    | GPIO 12  | ?        | ?        | Ethernet RMII chip power pin                               |
+| GPIO_DINGTIAN_CLK | GPIO 14  | GPIO 14  | GPIO 14  | Serial clock for both 595 and 165                          |
 |    CLK Index      |    1     |    2     |   4      | Number of 74HC165 and 74HC595                              |
 | GPIO_DINGTIAN_SDI | GPIO 13  | GPIO 13  | GPIO 13  | Serial input for 595                                       |
 | GPIO_DINGTIAN_Q7  | GPIO 16  | GPIO 35  | GPIO 35  | Serial output of 165                                       |
@@ -43,13 +44,14 @@ The driver define 5 News GPIOs (from [here](https://github.com/dtlzp/relay_dev_d
 | GPIO_DINGTIAN_RCK | GPIO 15  | GPIO 15  | GPIO 15  | Latch of 595 outputs (but also control CLK inhibit of 165) |
 ```
 
-### Hardware version 3.6.10 and higher
+### Hardware version 3.6.10 and below 3.6.13
 The driver defines 5 GPIOs:
 
 ```txt
 |                   |  8-relay | 16-relay | 32-relay | Description                                           |
 |-------------------+----------+----------+----------+-------------------------------------------------------|
-| GPIO_DINGTIAN_CLK | GPIO 14  | GPIO 14  | GPIO 14  | Serial clokc for both 595 and 165                     |
+| GPIO_ETH_POWER    | GPIO 12  | ?        | ?        | Ethernet RMII chip power pin                          |
+| GPIO_DINGTIAN_CLK | GPIO 14  | GPIO 14  | GPIO 14  | Serial clock for both 595 and 165                     |
 |    CLK Index      |    1     |    2     |   4      | Number of 74HC165 and 74HC595                         |
 | GPIO_DINGTIAN_SDI | GPIO 13  | GPIO 13  | GPIO 13  | Serial input for 595                                  |
 | GPIO_DINGTIAN_Q7  | GPIO 16  | GPIO 35  | GPIO 35  | Serial output of 165                                  |
@@ -58,6 +60,26 @@ The driver defines 5 GPIOs:
 ```
 
 On the onboard header GPIO 4 and GPIO 5 are available (pin 7 and 8)
+
+### Hardware version 3.6.13
+
+The driver defines 5 GPIOs:
+
+```txt
+|                   |  8-relay | 16-relay | 32-relay | Description                                           |
+|-------------------+----------+----------+----------+-------------------------------------------------------|
+| GPIO_ETH_POWER    | GPIO 0   | ?        | ?        | Ethernet RMII chip power pin                          |
+| GPIO_DINGTIAN_CLK | GPIO 14  | GPIO 14  | GPIO 14  | Serial clock for both 595 and 165                     |
+|    CLK Index      |    1     |    2     |   4      | Number of 74HC165 and 74HC595                         |
+| GPIO_DINGTIAN_SDI | GPIO 13  | GPIO 13  | GPIO 13  | Serial input for 595                                  |
+| GPIO_DINGTIAN_Q7  | GPIO 16  | GPIO 35  | GPIO 35  | Serial output of 165                                  |
+| GPIO_DINGTIAN_OE  | GPIO 32  | GPIO 0   | GPIO 0   | Controls OE of the 595                                |
+| GPIO_DINGTIAN_RCK | GPIO 15  | GPIO 15  | GPIO 15  | Latch of 595 outputs (but also Latch 165 inputs)      |
+```
+
+Template for hardware version 3.6.13:
+
+'{"NAME":"Dingtian DT-R008","GPIO":[5536,9408,1,9440,1,1,1,1,0,9760,9728,9856,9792,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,10432,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
 
 ### Configuring CLK GPIO
 The CLK GPIO supports index 1 to 4 to specify the number of shift registers:
