@@ -79,7 +79,7 @@ The driver defines 5 GPIOs:
 
 Template for hardware version 3.6.13:
 
-```
+```txt
 {"NAME":"Dingtian DT-R008","GPIO":[5536,9408,1,9440,1,1,1,1,0,9760,9728,9856,9792,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,10432,9952,1,1,1,0,0,1],"FLAG":0,"BASE":1}
 ```
 
