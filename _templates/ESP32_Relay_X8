@@ -3,13 +3,17 @@ date_added: 2022-11-03
 title: LC Technology 5V/7-30V 8 Channel 
 model: ESP32_Relay_X8
 image: /assets/device_images/ESP32_Relay_X8.webp
-template32: '{"NAME":"ESP32_Relay_X8","GPIO":[0,0,0,0,0,0,0,0,225,224,226,0,0,0,0,0,0,0,0,0,0,229,228,227,0,0,0,0,231,230,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: {"NAME":"ESP32_Relay_X8","GPIO":[1,1,1,1,1,1,1,1,230,231,229,1,1,1,1,1,1,1,1,288,1,226,227,228,1,1,1,1,224,225,1,1,1,1,1,1],"FLAG":0,"BASE":1}
 link: https://www.aliexpress.com/item/1005004391118766.html
 link2: https://www.ebay.com/itm/334469754255
-mlink: 
+link3: https://www.amazon.com/Development-Programmable-Wireless-Channel-ESP32-WROOM-32E/dp/B0DK6QKNBM/ref=cm_cr_arp_d_product_top?ie=UTF8&th=1
+mlink: http://www.chinalctech.com/cpzx/Programmer/Relay_Module/540.html
 flash: serial
 category: relay
 type: Relay Board
 standard: global
 ---
-Just solder some headers to the board and flash using serial, the only thing special is that you will power it using 5v while flashing.
+For programming, solder the 6-pin programming header to the Relay board and flash using 3.3V serial.  
+During programming, the ESP-32 can be powered directly with 3.3V from your USB to Serial converter board.  
+To do this, connect the serial converters 3.3V output to one of the 3.3V pins on the ESP-32 headers.
+After programming, you will want to power the Relay board with 5V or 7V-30V at the power input header.
