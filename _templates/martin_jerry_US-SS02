@@ -10,6 +10,13 @@ link: https://www.amazon.com/dp/B0C7L49BXL/
 image: /assets/device_images/martin_jerry_US-SS02.webp
 ---
 
+## Template
+
+```json
+{"NAME":"US-SS02 Switch","GPIO":[0,0,0,32,608,224,0,0,576,640,320,0,0,0],"FLAG":0,"BASE":18}
+```
+Template exported from the latest version with the HDC1080 sensor.
+
 ## New version with HDC1080 sensor
 
 ```console
