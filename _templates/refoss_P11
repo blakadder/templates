@@ -14,3 +14,6 @@ standard: eu
 ---
 
 If the plug keeps turning off for apparently no reason it is likely the wrong factory temperature calibration. Enter command `ADCParam1 2, 4000,80000,4250,1` and restart the plug to fix.
+
+Devide is based on IQE-M1 E365781 and not on ESP8266. However it is mostly comliand with ESP. Flash with Tasmota-minimal will make Wifi/devide unreachable. 
+Reset with vendor firmware will keep voltage/power calibration and energy meter counter. However, reset with other Tasmota firmware will reset those values.
