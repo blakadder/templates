@@ -6,7 +6,7 @@ type: Dimmer Module
 standard: global
 flash: mgos
 image: /assets/device_images/shelly_Dimmer_2.webp
-template9: '{"NAME":"Shelly Dimmer 2","GPIO":[0,3200,0,3232,5568,5600,0,0,193,0,192,0,320,4736],"FLAG":0,"BASE":18}'
+template9: '{"NAME":"Shelly Dimmer 2","GPIO":[0,3200,0,3232,5568,5600,0,0,193,64,192,0,320,4736],"FLAG":0,"BASE":18}'
 link: https://www.amazon.de/dp/B081FH1Z8Y/
 link2: https://www.amazon.com/dp/B081FF9G2K/
 link3: https://www.domadoo.fr/en/objets-communicants/5234-shelly-micromodule-variateur-intelligent-wi-fi-shelly-dimmer-2-3809511202203.html
