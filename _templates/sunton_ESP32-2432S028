@@ -3,7 +3,7 @@ date_added: 2023-11-22
 title: Sunton 2.8" 240*320 CYD
 model: ESP32-2432S028R
 image: /assets/device_images/sunton_ESP32-2432S028.webp
-template32: '{"NAME":"ESP32-2432S028","GPIO":[6210,1,800,0,448,0,1,1,672,704,736,768,449,450,1,1,0,992,1,1,0,737,480,1,0,0,0,0,705,7264,4768,1,0,0,0,673],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"ESP32-2432S028","GPIO":[6210,1,800,0,448,0,1,1,672,704,736,768,449,450,1,1,0,992,1,1,0,737,480,1,0,0,0,0,705,769,4768,1,0,0,0,673],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005004502250619.html
 link2: https://www.amazon.com/dp/B0BVFXR313
 link3: https://www.aliexpress.com/item/1005004700627096.html
@@ -19,6 +19,64 @@ build: tasmota32-lvgl
 Use the tasmota32-lvgl image when flashing.
 
 The following contents should be copied to the filesystem as `display.ini`
+
+```lua
+:H,ILI9341,240,320,16,SPI,1,*,*,*,*,*,*,*,40
+:S,2,1,1,0,40,20
+:r,1
+:I
+EF,3,03,80,02
+CF,3,00,C1,30
+ED,4,64,03,12,81
+E8,3,85,00,78
+CB,5,39,2C,00,34,02
+F7,1,20
+EA,2,00,00
+C0,1,23
+C1,1,10
+C5,2,3e,28
+C7,1,86
+36,1,48
+37,1,00
+3A,1,55
+B1,2,00,18
+B6,3,08,82,27
+F2,1,00
+26,1,01
+E0,0F,0F,31,2B,0C,0E,08,4E,F1,37,07,10,03,0E,09,00
+E1,0F,00,0E,14,03,11,07,31,C1,48,08,0F,0C,31,36,0F
+11,80
+29,80
+:o,28
+:O,29
+:A,2A,2B,2C,16
+:R,36
+:0,48,00,00,00
+:1,28,00,00,00
+:2,88,00,00,00
+:3,E8,00,00,00
+:i,20,21
+:UTI,XPT2046,S2,33,-1,-1
+CPR 00
+RT
+:UTT
+XPT 300
+RT
+:UTX
+MV 0 2
+;DBG 1
+SCL 460 0.0930233
+LIM 319
+RT
+:UTY
+MV 2 2
+SCL 300 0.0695652
+LIM 239
+RT
+:M,-23,302,-4,247
+#
+```
+Prior to the introduction to uTouch in version 14, this display.ini was used:
 
 ```lua
 :H,ILI9341,240,320,16,SPI,1,*,*,*,*,*,*,*,40
