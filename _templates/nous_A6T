@@ -3,7 +3,7 @@ date_added: 2025-01-28
 title: Nous A6T Smart Socket
 model: A6T
 image: /assets/device_images/nous_A6T.webp
-template: '{"NAME":"Nous A6T","GPIO":[1,1,320,1,32,1,1,1,1,224,2624,1,1,1,1,1,0,1,1,1,0,1,2656,2720,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
+template32: '{"NAME":"Nous A6T","GPIO":[1,1,320,1,32,1,1,1,1,224,2624,1,1,1,1,1,0,1,1,1,0,1,2656,2720,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}'
 link: https://www.domadoo.fr/en/connected-outlets/7501-we-tasmota-outdoor-socket-esp32-a6t-schuko-version-5905072800648.html
 link2: https://www.amazon.de/dp/B0DKD4CYWK
 link3: https://www.idealo.de/preisvergleich/Liste/121493135/nous-a6t.html
