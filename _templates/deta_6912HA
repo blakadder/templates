@@ -8,7 +8,7 @@ type: Switch
 standard: au
 unsupported: true
 chip: WB3S
-template_9: '{"NAME":"DETA 2G Switch","GPIO":[0,0,0,0,544,0,0,0,65,224,225,0,64,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"DETA 2G Switch","GPIO":[0,0,0,0,544,0,0,0,65,224,225,0,64,0],"FLAG":0,"BASE":18}' 
 link: https://www.bunnings.com.au/deta-smart-double-gang-light-switch-touch-activated-with-grid-connect_p0098812
 link2: https://www.bunnings.co.nz/deta-grid-connect-smart-double-gang-touch-light-switch_p0098812
 ---
