@@ -3,7 +3,7 @@ date_added: 2021-02-08
 title: Smitch 10W 6500K
 model: SB0110 - B22
 image: /assets/device_images/smitch_SB0110-B22.webp
-template9: 'template9: '{"NAME":"Smitch SB0110 CCT","GPIO":[0,0,0,0,0,416,0,417,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
+template9: '{"NAME":"Smitch SB0110 CCT","GPIO":[0,0,0,0,0,416,0,417,0,0,0,0,0,0],"FLAG":0,"BASE":18}' 
 link: https://www.flipkart.com/smitch-wi-fi-white-ambience-6500k-10w-b22-base-smart-bulb/p/itm41bbf0cb7049a
 link2: 
 mlink: http://www.mysmitch.com/#blurb-tabs

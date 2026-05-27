@@ -30,3 +30,7 @@ on Power4#State=0 do SerialSend5 A00400A4 endon
 ```
 
 Make sure to enable the rule: `rule1 1`
+
+## 3D Printable Enclosure
+
+Community contributed 3D printable enclosure: https://www.printables.com/model/836453-lc-tech-4-relay-esp-01-enclosure

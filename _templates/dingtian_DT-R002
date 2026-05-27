@@ -43,6 +43,9 @@ When using switchmode 0, Input changes are not reported, but the output changes 
  MQT: stat/dingtian1/RESULT = {"POWER1":"ON"}
 ```
 
+### RS-485
+RS-458 is handled by a BL3085(I47) RS-485 chip which is half duplexn and needs explicit flow control toggling. The /RE and DE pins are tied together and are available on GPIO33 (this differs from the pinout map upper right hand side which says 13 but is wrong), high is send mode. 
+
 ### Ethernet
 To use ethernet JL1101 use the template provided or you must set 
 GPIO0  ETH-Power

@@ -18,7 +18,7 @@ build: tasmota32-lvgl
 
 Use the tasmota32-lvgl image when flashing.
 
-The following contents should be copied to the filesystem as display.ini
+The following contents should be copied to the filesystem as `display.ini`
 
 ```lua
 :H,ILI9341,240,320,16,SPI,1,*,*,*,*,*,*,*,40

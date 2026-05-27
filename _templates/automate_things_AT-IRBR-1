@@ -12,7 +12,7 @@ standard: global
 ---
 
 With over 10 Meters range, the IR Bridge allows you to control almost any infrared device and is compatible with 
-[Tasmota](https://tasmota.github.io/docs/Tasmota-IR/) and [ESPhome](https://esphome.io/components/remote_transmitter.html). 
+[Tasmota](https://tasmota.github.io/docs/Tasmota-IR/) and [ESPhome](https://esphome.io/components/remote_transmitter/). 
 If you are feeling ambitious then you can even use the [IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266) 
 Library with Arduino!
 

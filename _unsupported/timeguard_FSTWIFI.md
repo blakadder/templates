@@ -1,7 +1,7 @@
 ---
 date_added: 2022-10-17
 title: Timeguard Wi-Fi Controlled Fused Spur
-modeL: FSTWIFI
+model: FSTWIFI
 category: unsupported
 type: Switch
 link: https://www.amazon.co.uk/gp/product/B07228W28L/

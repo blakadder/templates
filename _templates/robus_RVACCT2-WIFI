@@ -15,7 +15,7 @@ standard: global
 ![Main][main]
 ![Close][close]
 
-[main]: https://github.com/m-hume/RVACCT2-WIFI/blob/main/IMG_5240.jpg
-[close]: https://github.com/m-hume/RVACCT2-WIFI/blob/main/IMG_5241.jpg
+[main]: https://github.com/m-hume/RVACCT2-WIFI/blob/main/IMG_5240.jpg?raw=true
+[close]: https://github.com/m-hume/RVACCT2-WIFI/blob/main/IMG_5241.jpg?raw=true
 
 as per https://tasmota.github.io/docs/TuyaMCU-Devices/#dm_wf_mdv4-leading-edge-dimmer ""In order to flash via serial, the RST pin needs to be grounded upon boot"" and obviously IO0 also"
