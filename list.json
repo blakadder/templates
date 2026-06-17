@@ -8,6 +8,6 @@ layout: null
 ## {{group.name}}
 {% assign grouptitlesorted = group.items | sort_natural: 'title' %}     
 {% for template in grouptitlesorted %}
-{{ template.title | normalize_whitespace }}            {% if template.template32 != nil %}{{ template.template32 }}{% elsif template.template9 != nil %}{{ template.template9 }}{% else %}{{ template.template }}{% endif %}
+{{ template.title | normalize_whitespace }}            {% if template.templatec6 != nil %}{{ template.templatec6 }}{% elsif template.templates3 != nil %}{{ template.templates3 }}{% elsif template.templates2 != nil %}{{ template.templates2 }}{% elsif template.templatec3 != nil %}{{ template.templatec3 }}{% elsif template.templatec2 != nil %}{{ template.templatec2 }}{% elsif template.template32 != nil %}{{ template.template32 }}{% elsif template.template9 != nil %}{{ template.template9 }}{% else %}{{ template.template }}{% endif %}
 {% endfor %}
 {% endfor %}
