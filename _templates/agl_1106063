@@ -12,3 +12,6 @@ category: switch
 type: Switch
 standard: br
 ---
+2026-04-17 - Devices sold in 2026 still use the 2019 board, as shown in image https://ibb.co/7JvPnC39
+Don't connect first to the tuya app.
+Remove 4 screws in black, remove 4 screws holding the front board.
