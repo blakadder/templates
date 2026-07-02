@@ -17,6 +17,7 @@ Read [my guide](https://blakadder.com/replace-tuya-esp12/) on replacing a compat
 ![Pinout](/assets/device_images/ESP-12H_pinout.webp)
 
 Early line of ESP-12H modules has a labelling error. IO28 is supposed to be IO29. The image above is the correct pinout.
+Note that IO28 is not configured as a GPIO in the standard IO multiplexer setup, and not available in Tasmota.
 
 {% include flash/s2.md %}
 
