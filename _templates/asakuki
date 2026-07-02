@@ -11,6 +11,9 @@ link2: https://www.amazon.com/ASAKUKI-Compatible-Aromatherapy-Humidifier-Office-
 chip: TYWE3S
 ---
 
+## NOTE from KJ7PPK on 5/10/2026: Ordered and received this diffuser via Amazon, is now using WBR3 which to my understanding would need to be replaced with another chip to convert from Tuya. :(
+##
+
 ## Flashing
 
 Flashing via Tuya-Convert (OTA) seems to be no longer possible due to the [PSK key issue](https://github.com/ct-Open-Source/tuya-convert/wiki/Collaboration-document-for-PSK-Identity-02).
