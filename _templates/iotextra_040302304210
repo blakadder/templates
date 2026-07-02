@@ -8,5 +8,5 @@ standard: global
 link: https://makethingshappy.io/products/iotextra-octal
 mlink: https://makethingshappy.io/g040302304
 image: /assets/device_images/iotextra_040302304210.webp
-template: '{"NAME":"IoTextra Octal","GPIO":[1,1,1,1,256,257,258,259,160,161,162,163,1,1,1,608,640,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+template9: '{"NAME":"IoTextra Octal","GPIO":[1,1,1,1,256,257,258,259,160,161,162,163,1,1,1,608,640,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
 ---
