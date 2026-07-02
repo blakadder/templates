@@ -3,7 +3,7 @@ date_added: 2026-01-05
 title: Freenove ESP32 Display
 model: FNK0103
 image: /assets/device_images/freenove_FNK0103.webp
-template9: '{"NAME":"Freenove ESP32 Display","GPIO":[1,1,960,1,1,6720,6210,0,832,864,896,928,449,450,736,672,0,992,451,704,0,737,1,768,0,0,0,0,705,10944,11264,1,11008,0,0,673],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Freenove ESP32 Display","GPIO":[1,1,960,1,1,6720,6210,0,832,864,896,928,449,450,736,672,0,992,451,704,0,737,1,768,0,0,0,0,705,10944,11264,1,11008,0,0,673],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.com/dp/B0FFZ32T3D
 link2: https://www.aliexpress.com/item/1005010651636131.html
 mlink: https://docs.freenove.com/projects/fnk0103
