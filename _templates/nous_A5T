@@ -97,7 +97,14 @@ To disable these custom rules use:
 Rule1 0
 Rule2 0
 Rule3 0
+
+
 ```
+A simpler way would be this rule:
+```
+rule1 ON analog#a0div10 DO IF ( %value%<90 AND %value% > 70) power1 2 ELSEIF ( %value%<60 AND %value% > 40) power2 2 ELSEIF (%value% <30) power3 2 ENDIF ENDON
+```
+
 
 ### Workaround with custom Tasmota build
 With a custom Tasmota build, you can use Tasmota Script to safely support all buttons and minmize impact by interferences.
