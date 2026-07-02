@@ -1,0 +1,13 @@
+date_added: 2026-03-02
+title: CURRYSMARTER Rollladenschalter
+model: T01
+image: /assets/device_images/smartercurry_T01.webp
+template9: '' 
+link: 
+link2: 
+mlink: https://currysmarter.com/product/tasmota-home-assistant-rollladenschalter
+flash: preflashed
+category: cover
+type: Curtain Switch
+standard: eu
+---

@@ -1,0 +1,14 @@
+date_added: 2026-01-22
+title: Tongou Smart Switch 1-63A Adjustable 
+model: TO-Q-SY2-JWM
+image: /assets/device_images/tongou_TO-Q-SY2-JWM.webp
+template9: '{"NAME":"tongou SY2","GPIO":[32,1,9312,1,1,320,1,1,9313,8160,3200,544,1,1,1,1,0,1,1,1,0,0,1,1,0,0,0,0,1,1,4736,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.tongou.com/product/to-q-sy2-jwm-smart-switch/
+link2: 
+mlink: https://www.tongou.com/product/to-q-sy2-jwm-smart-switch/
+flash: preflashed
+category: relay
+type: DIN Relay
+standard: global
+---
+Comes with Tasmota v14. Before upgrading start console command "adcparam" and save the values. The values must write back after upgrade.

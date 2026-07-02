@@ -1,0 +1,33 @@
+---
+date_added: 2026-03-06
+title: IoTextra Octal2
+model: 040303302310
+image: /assets/device_images/iotextra_040303302310.webp
+template9: '{"NAME":"IoTextra Octal2","GPIO":[1,1,258,257,256,259,1,1,1,160,161,640,608,1,1,1,1,162,163,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://makethingshappy.io/products/iotextra-octal2
+link2: 
+mlink: https://makethingshappy.io/products/iotextra-octal2
+flash: replace
+category: diy
+type: Development Board
+standard: global
+---
+### Overview
+
+The **IoTextra Octal2** is designed for both **industrial** and **maker** environments, offering reliable digital input and output capabilities in a compact and easy-to-integrate module.
+
+It can be seamlessly integrated into a wide range of embedded platforms and development ecosystems.
+
+This module is part of the **IoTextra series**, a family of modular hardware designed to simplify automation, monitoring, and control systems while following the **Make Things Happy philosophy**.
+
+---
+
+### Documentation and Resources
+
+Setup instructions, configuration commands, and additional guides can be found here:
+
+- **Project repository:**  
+  https://github.com/makethingshappy/IoThome
+
+- **Vendor website:**  
+  https://makethingshappy.io

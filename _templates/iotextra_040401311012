@@ -1,0 +1,40 @@
+---
+date_added: 2026-03-06
+title: IoTextra Analog
+model: 040401311012
+image: /assets/device_images/iotextra_040401311012.webp
+template9: '{"NAME":"IoTextra Analog","GPIO":[1,1,1,1,1,1,1,1,1,1,1,640,608,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://makethingshappy.io/products/iotextra-analog
+link2: 
+mlink: https://makethingshappy.io/products/iotextra-analog
+flash: replace
+category: diy
+type: Development Board
+standard: global
+---
+### Overview
+
+The **IoTextra Analog** module is designed for applications that require **high precision and reliability** in analog signal monitoring.
+
+With its **16-bit ADS1115 analog-to-digital converter**, the module delivers accurate measurements across multiple sensor types while supporting **true differential inputs** for improved noise rejection and measurement stability.
+
+This makes the module suitable for tasks such as:
+
+- Monitoring industrial sensors
+- Interfacing with PLC systems
+- Data acquisition and control systems
+- Precision measurement in embedded projects
+
+The **IoTextra Analog** is part of the **IoTextra series**, a modular ecosystem designed to bridge the gap between **rapid prototyping** and **industrial-grade reliability**, following the **Make Things Happy philosophy**.
+
+---
+
+### Documentation and Resources
+
+Setup instructions, configuration commands, and additional guides can be found here:
+
+- **Project repository:**  
+  https://github.com/makethingshappy/IoThome
+
+- **Vendor website:**  
+  https://makethingshappy.io

@@ -1,0 +1,15 @@
+date_added: 2026-02-07
+title: Shelly 1 Gen3
+model: 
+image: /assets/device_images/shelly_1_gen3.webp
+template9: '{"NAME":"Shelly 1 Gen3","GPIO":[0,0,0,0,32,224,0,0,0,0,192,0,0,0,0,0,0,0,0,320,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/dp/B0D8YPW46Y
+link2: https://www.amazon.de/dp/B0D8YPW46Y
+link3: https://www.domadoo.fr/en/smart-lighting/7507-shelly-wi-fi-smart-relay-switch-shelly-1-gen3-3800235261767.html
+mlink: https://www.shelly.com/products/shelly-1-gen3
+flash: serial
+category: relay
+type: Switch Module
+standard: global
+---
+Serial fflashed using the extension connector (7 x 1.27mm). Pinout of the extension connector is the same as legacy Shelly

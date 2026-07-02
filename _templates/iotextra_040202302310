@@ -1,0 +1,38 @@
+---
+date_added: 2026-03-06
+title: IoTextra Relay2
+model: 040202302310
+image: /assets/device_images/iotextra_040202302310.webp
+template9: '{"NAME":"IoTextra Relay2","GPIO":[1,1,1,1,1,1,1,1,1,256,257,640,608,1,1,1,1,258,259,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://makethingshappy.io/products/iotextra-relay2
+link2: 
+mlink: https://makethingshappy.io/products/iotextra-relay2
+flash: replace
+category: diy
+type: Development Board
+standard: global
+---
+### Overview
+
+The **IoTextra Relay2** module is designed for **industrial-grade reliability** in both hobbyist and professional automation applications.
+
+Key features include:
+
+- **4 relays per module**, each SPDT (1 Form C)  
+- **Switching capability:** 250 VAC / 30 VDC  
+- **Contact current rating:** 10A  
+- High-quality relay options: Panasonic ALQ105, Omron G5Q-14, HF33F/005-ZS3, TE PE014005  
+
+The module can be integrated into **IoTextra systems** or other embedded platforms to control motors, lights, solenoids, or other electrical loads safely and reliably.
+
+---
+
+### Documentation and Resources
+
+Setup instructions, configuration commands, and additional guides can be found here:
+
+- **Project repository:**  
+  https://github.com/makethingshappy/IoThome
+
+- **Vendor website:**  
+  https://makethingshappy.io

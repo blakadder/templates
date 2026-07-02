@@ -1,0 +1,15 @@
+---
+date_added: 2026-03-28
+title: WUYUNELEK W13-CW210
+model: W13-CW210
+image: /assets/device_images/wuyunelek_W13-CW210.webp
+template9: '{"NAME":"2 gang","GPIO":[1,1,1,1,544,160,1,1,161,225,1,224,1,1],"FLAG":0,"BASE":18}' 
+link: https://www.wuyunelek.com/product/wifi-mechanism-switch-socket-module/2-gang-1-way-wifi-control-wall-switch.html
+link2: 
+mlink: https://www.wuyunelek.com/product/wifi-mechanism-switch-socket-module/2-gang-1-way-wifi-control-wall-switch.html
+flash: serial
+category: switch
+type: Switch
+standard: eu
+---
+TYWE3S Pinout is needed to flash

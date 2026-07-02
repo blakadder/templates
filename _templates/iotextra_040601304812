@@ -1,0 +1,30 @@
+date_added: 2026-03-06
+title: IoTextra Combo
+model: 040601304812
+image: /assets/device_images/iotextra_040601304812.webp
+template9: '{"NAME":"IoTextra Combo","GPIO":[1,1,1,1,1,1,1,1,1,256,257,640,608,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://makethingshappy.io/products/iotextra-combo
+link2: 
+mlink: https://makethingshappy.io/products/iotextra-combo
+flash: replace
+category: diy
+type: Development Board
+standard: global
+---
+### Overview
+
+Built with industrial-grade reliability, the **IoTextra Combo** features a high-resolution **ADS1115 ADC** and robust **galvanic isolation**, making it an ideal bridge between low-voltage digital logic and high-voltage loads.
+
+This hybrid design enables both **precise analog sensing** and **reliable power switching** within a single compact module, simplifying system design and installation.
+
+---
+
+### Documentation and Resources
+
+For detailed setup instructions, configuration commands, and additional guides, see:
+
+- **Project repository:**  
+  https://github.com/makethingshappy/IoThome
+
+- **Vendor website:**  
+  https://makethingshappy.io

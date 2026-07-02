@@ -1,0 +1,16 @@
+date_added: 2026-02-22
+title: M5Stack AtomS3U ESP32S3 Development Kit with USB-A
+model: K125
+image: /assets/device_images/m5stack_AtomS3U.webp
+template9: '{"NAME":"M5Stack Atom S3U","GPIO":[0,1,1,0,1056,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1376,0,0,1,1,0,32,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/dp/B0C7QXM4T1
+link2: https://www.aliexpress.com/item/1005009571000302.html
+mlink: https://shop.m5stack.com/products/atoms3u?variant=43911717945601
+flash: serial
+category: diy
+type: Development Board
+standard: global
+---
+Flash using Tasmota Web Installer and select tasmota32s3.bin option.
+
+For esptool.py download f.e. tasmota32s3.bin.factory.bin and run esptool.py write_flash 0x0 tasmota32s3.bin.factory.bin

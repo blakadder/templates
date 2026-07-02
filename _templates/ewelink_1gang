@@ -1,0 +1,27 @@
+---
+date_added: 2026-01-12
+title: eWelink Sinbgle Wire 1 Gang 2 Way No Neutral RF433Mhz
+model: 
+image: /assets/device_images/ewelink_1gang.webp
+template9: '{"NAME":"2 way relay no neutral","GPIO":[32,1,0,1,0,0,1,1,224,320,0,0,0,1],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/4000906907718.html
+link2: 
+mlink: 
+flash: serial
+category: switch
+type: Switch
+standard: global
+---
+Ewelink 2 Way No Neutral RF
+
+- No extra wires needed, just capacitor to be installed on the light fixture
+- Only 2 terminals required from each for installation, technically 1 way switches should work just fine.
+
+Normal 2 way wiring
+https://ae01.alicdn.com/kf/Hcfd0aa4a354a4b50838dfea03b262eddO.jpg
+
+With 2 way relay installed
+https://ae01.alicdn.com/kf/Hb695ce18586f4b20a981283729cdfe0fC.jpg
+
+Flashing pins (soldering required)
+https://github.com/ferbulous/test/blob/main/devices/ewelink-2-way-relay-no-neutral/3528d685-6ce1-4493-b574-9d0d7519792b.jpg

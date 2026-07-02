@@ -1,0 +1,13 @@
+date_added: 2026-01-31
+title: GreenSun 16A
+model: HS1-TAS-EU
+image: /assets/device_images/greensun_HS1-TAS-EU.webp
+template9: '{"NAME":"GreenSun HS1-TAS-EU","GPIO":[0,0,0,33,2720,2656,0,0,2624,320,224,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.amazon.es/dp/B0CMLYL8FG
+link2: 
+mlink: 
+flash: preflashed
+category: plug
+type: Plug
+standard: eu
+---

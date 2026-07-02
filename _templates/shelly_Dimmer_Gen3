@@ -1,0 +1,15 @@
+---
+date_added: 2025-12-29
+title: Shelly Dimmer 0/1-10V PM Gen3
+model: 
+image: /assets/device_images/shelly_Dimmer_Gen3.webp
+template9: '{"NAME":"Shelly Dimmer 0/1-10V PM Gen3","GPIO":[0,128,0,4736,224,416,8161,3200,0,0,129,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.domadoo.fr/en/devices/7509-shelly-wi-fi-module-dimmer-shelly-dimmer-01-10v-pm-gen3-3800235261750.html
+link3: https://www.amazon.de/dp/B0D9JQTP8B
+link2: https://www.amazon.com/dp/B0D9JQTP8B
+mlink: https://www.shelly.com/products/shelly-0-1-10v-dimmer-pm-gen3
+flash: serial
+category: relay
+type: Dimmer Module
+standard: global
+---

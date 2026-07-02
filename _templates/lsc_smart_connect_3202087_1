@@ -1,0 +1,31 @@
+---
+date_added: 2025-12-24
+title: LSC Smart Power Plug 
+model: 3202087_1
+image: /assets/device_images/lsc_smart_connect_3202087_1.webp
+template9: '{"NAME":"LSC Smart Power Plug with Energy Monitoring","GPIO":[0,0,0,0,2720,32,0,0,320,1,224,0,0,1],"FLAG":0,"BASE":18}' 
+link: https://www.action.com/nl-nl/p/3202087/lsc-smart-connect-slimme-stekker/
+link2: 
+mlink: 
+flash: replace
+category: plug
+type: Plug
+standard: eu
+---
+This powerplug has almost the same ordernumber as the other powerplug with the same name, apart from ending in .1. So pay attention which one you have as the internals are completely different.
+
+This powerplug has a T1-S2-NL module including bluetooth. It needs to be replaced by an ESP-02S module.
+
+As SEL is connected to AD, more than power is not available. So no voltage and ampere readings.
+
+Function |Template|PCB| T1-S2_NL|ESP-02S
+-------------|---------------|-------|----------------|--------------
+3.3|-| 3.3 | 3.3 | 3.3
+GND|-|GND|GND|GND
+None|GPIO1|D-WIFI|TX1|TX0
+LED 1|GPIO12|D-K|P9|D12
+Relay 1|GPIO14|K1|P24|D14
+Button 1|GPIO5|S1|P26|D5
+BL0937 CF|GPIO4|CF|P6|D4
+None|GPIO13|CF1|P8|D13
+None|GPIO17|SEL|ADC|AD"

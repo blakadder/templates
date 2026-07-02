@@ -1,0 +1,16 @@
+---
+date_added: 2025-12-17
+title: Shelly 1PM Gen4
+model: 1PM_Gen4
+image: /assets/device_images/shelly_1PM_Gen4.webp
+template9: '{"NAME":"Shelly1 PM Gen4","GPIO":[1,32,1,4736,224,1,3200,8161,1,1,192,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/dp/B0DZJ13813
+link2: https://www.amazon.de/dp/B0DZJ13813
+link3: https://www.domadoo.fr/en/zigbee-devices/7751-shelly-wi-fi-zigbee-and-matter-switch-module-with-shelly-1-pm-gen4-power-meter-3800238070717.html
+mlink: https://www.shelly.com/products/shelly-1pm-gen4
+flash: serial
+category: relay
+type: Switch Module
+standard: eu
+---
+Serial pinout, same as the Shelly Plus 1PM

@@ -1,0 +1,13 @@
+date_added: 2026-03-02
+title: SMARTERCURRY T10
+model: T10
+image: /assets/device_images/smartercurry_T10.webp
+template9: '{"NAME":"SMARTCURRY Plug T10","GPIO":[0,0,0,320,2656,224,2720,32,0,0,0,0,0,0,0,0,0,0,0,0,2624,0],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.de/dp/B0D879YL73/
+link2: 
+mlink: https://currysmarter.com/product/wlan-mini-steckdose-mit-strommessung/
+flash: preflashed
+category: plug
+type: Plug
+standard: eu
+---

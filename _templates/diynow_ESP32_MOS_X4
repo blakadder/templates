@@ -1,0 +1,14 @@
+---
+date_added: 2025-12-19
+title: DIY NOW DC 5-60V ESP32 2/4-Way MOS Switch Module Single-Way
+model: ESP32_MOS_X4
+image: /assets/device_images/diynow_ESP32_MOS_X4.webp
+template9: '{"NAME":"ESP32-MOS-X4","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,224,225,1,1,1,1,1,544,1,1,226,227,1,1,1,1,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}' 
+link: https://www.aliexpress.com/item/1005009529679936.html
+link2: 
+mlink: 
+flash: serial
+category: relay 
+type: Relay Board
+standard: global
+---

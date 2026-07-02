@@ -1,0 +1,15 @@
+---
+date_added: 2026-03-18
+title: Olimex ESP32-C3-DevKit-Lipo
+model: ESP32-C3-DevKit-Lipo
+image: /assets/device_images/olimex_ESP32-C3-DevKit-Lipo.webp
+template9: '{"NAME":"Olimex ESP32-C3-DevKit-Lipo","GPIO":[1,1,1,11264,11265,1,1,1,288,32,1,0,0,0,0,0,0,0,0,0,3200,3232],"FLAG":0,"BASE":1}' 
+link: https://www.olimex.com/Products/IoT/ESP32-C3/ESP32-C3-DevKit-Lipo/
+link2: 
+mlink: https://www.olimex.com/Products/IoT/ESP32-C3/ESP32-C3-DevKit-Lipo/
+flash: serial
+category: diy
+type: DIY
+standard: global
+---
+Documentation may be found here: https://github.com/OLIMEX/ESP32-C3-DevKit-Lipo

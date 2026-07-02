@@ -1,0 +1,37 @@
+---
+date_added: 2026-03-06
+title: IoTextra SSR Small - 8-Channel Isolated SSR imodule
+model: 040203302210
+image: /assets/device_images/iotextra_040203302210.webp
+template9: '{"NAME":"IoTextra SSR Small","GPIO":[1,1,262,261,260,263,1,1,1,256,257,640,608,1,1,1,1,258,259,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://makethingshappy.io/products/iotextra-ssr-small
+link2: 
+mlink: https://makethingshappy.io/products/iotextra-ssr-small
+flash: replace
+category: diy
+type: Relay
+standard: global
+---
+### Overview
+
+The **IoTextra SSR Small** module is designed for applications that require **silent, high-speed, and reliable switching** without mechanical wear. Each SSR channel is **individually isolated**, ensuring safe operation and protection of control electronics.
+
+This module is suitable for:
+
+- AC or DC load control  
+- Compact automation systems  
+- Industrial and hobbyist projects requiring multiple relay channels  
+
+As part of the **IoTextra series**, it combines **industrial-grade reliability** with the flexibility of modular hardware, following the **Make Things Happy philosophy**.
+
+---
+
+### Documentation and Resources
+
+Setup instructions, configuration commands, and additional guides can be found here:
+
+- **Project repository:**  
+  https://github.com/makethingshappy/IoThome
+
+- **Vendor website:**  
+  https://makethingshappy.io

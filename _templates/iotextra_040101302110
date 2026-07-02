@@ -1,0 +1,32 @@
+date_added: 2026-03-06
+title: IoTextra Input
+model: 040101302110
+image: /assets/device_images/iotextra_040101302110.webp
+template9: '{"NAME":"IoTextra Input","GPIO":[1,1,166,165,164,167,1,1,1,160,161,640,608,1,1,1,1,162,163,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
+link: https://makethingshappy.io/products/iotextra-input
+link2: 
+mlink: https://makethingshappy.io/products/iotextra-input
+flash: replace
+category: diy
+type: Development Board
+standard: global
+---
+### Overview
+
+The **IoTextra Input** is part of the **IoTextra series**, a family of modular hardware designed to simplify automation and control system development.
+
+Each input channel is fully isolated, allowing safe monitoring of higher-voltage digital signals while protecting the control electronics. This design makes the module suitable for interfacing sensors, switches, and industrial control signals.
+
+The IoTextra series serves as a fundamental building block of the ecosystem built around the **Make Things Happy philosophy**, bridging the gap between **rapid prototyping** and **industrial-grade reliability**.
+
+---
+
+### Documentation and Resources
+
+Setup instructions, configuration commands, and additional guides can be found here:
+
+- **Project repository:**  
+  https://github.com/makethingshappy/IoThome
+
+- **Vendor website:**  
+  https://makethingshappy.io

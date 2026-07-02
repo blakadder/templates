@@ -1,0 +1,15 @@
+---
+date_added: 2026-06-04
+title: Qubo 10A Wi-Fi+BT Smart Plug
+model: smart-plug-10a
+image: /assets/device_images/qubo_10a.webp
+template9: '{"NAME":"Qubo Smart Plug","GPIO":[0,0,0,2656,224,2624,320,2720,0,0,0,0,0,0,0,0,0,0,0,0,32,0],"FLAG":0,"BASE":1}' 
+link: https://www.quboworld.com/products/smart-plug-10a
+link2: 
+mlink: https://www.quboworld.com/products/smart-plug-10a
+flash: serial
+category: plug
+type: Plug
+standard: in
+---
+This plug has ESP8685-WROOM-03 . It needs high current during boot so USB serial converter sometimes is not able to provide enough power so use external 3.3V . also use tasmota32c3.factory.bin instead of tasmota32c3.bin first time else chip will not boot after flash. image link https://www.quboworld.com/cdn/shop/files/smart-plug-10a_listing_01_40afd106-cb82-46de-9009-fa1ba1c92d37.png

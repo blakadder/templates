@@ -1,0 +1,14 @@
+---
+date_added: 2026-01-18
+title: AiYaTo E27 9W 850lm RGBCCT
+model: 
+image: /assets/device_images/aiyato_rgbcct.webp
+template9: '{"NAME":"AiYaTo-RGBCW","GPIO":[0,0,0,0,419,418,0,0,416,420,417,0,0,0],"FLAG":0,"BASE":18}' 
+link: https://www.aliexpress.com/item/1005008175437537.html
+link2: 
+mlink: 
+flash: preflashed
+category: bulb
+type: RGBCCT
+standard: e27
+---
