@@ -3,7 +3,7 @@ date_added: 2026-01-10
 title: Shelly Plus Plug UK
 model: PlusPlugUK
 image: /assets/device_images/shelly_plus_plug_uk.webp
-template9: '{"NAME":"Shelly Plus Plug UK","GPIO":[0,0,0,0,32,0,0,0,288,0,290,0,0,0,0,0,0,0,0,0,0,2656,289,2624,0,0,0,0,224,2720,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"Shelly Plus Plug UK","GPIO":[0,0,0,0,32,0,0,0,288,0,290,0,0,0,0,0,0,0,0,0,0,2656,289,2624,0,0,0,0,224,2720,0,0,0,0,0,0],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.co.uk/dp/B0BV37M88W
 link2: 
 mlink: https://shellystore.co.uk/product/shelly-plus-plug-uk/
