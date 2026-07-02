@@ -3,7 +3,7 @@ date_added: 2026-02-07
 title: Waveshare Industrial 8-Channel
 model: ESP32-S3-POE-ETH-8DI-8RO
 image: /assets/device_images/waveshare_ESP32-S3-POE-ETH-8DI-8RO.webp
-template9: '{"NAME":"ESP32S3-POE-ETH-8DI-8RO","GPIO":[40,1,1,1,32,33,34,35,36,37,38,39,5600,704,672,736,5568,1,1,1,1,1,0,0,0,0,0,1376,1,1,608,640,1,1,1,480,1,1],"FLAG":0,"BASE":1}' 
+templates3: '{"NAME":"ESP32S3-POE-ETH-8DI-8RO","GPIO":[40,1,1,1,32,33,34,35,36,37,38,39,5600,704,672,736,5568,1,1,1,1,1,0,0,0,0,0,1376,1,1,608,640,1,1,1,480,1,1],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.com/dp/B0F93TK7F5
 link2: https://www.amazon.de/dp/B0F93TK7F5
 link3: https://www.aliexpress.com/item/1005009203593172.html
