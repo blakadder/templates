@@ -3,7 +3,7 @@ date_added: 2026-03-24
 title: BAZZ Smart WiFi IR Remote Control Converter 907290
 model: IRREMOTEWFBK
 image: /assets/device_images/bazz_IRREMOTEWFBK.webp
-template9: '{"NAME":"Tuya IR","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
+template9: '{"NAME":"Tuya IR","GPIO":[0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":54}' 
 link: https://www.bazzsmarthome.ca/products/smart-wifi-ir-remote-controller-converter
 link2: 
 mlink: https://www.bazzsmarthome.ca/products/smart-wifi-ir-remote-controller-converter
