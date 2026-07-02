@@ -1,0 +1,30 @@
+---
+date_added: 2026-02-07
+title: Waveshare Industrial 8-Channel
+model: ESP32-S3-POE-ETH-8DI-8RO
+image: /assets/device_images/waveshare_ESP32-S3-POE-ETH-8DI-8RO.webp
+template9: '{"NAME":"ESP32S3-POE-ETH-8DI-8RO","GPIO":[40,1,1,1,32,33,34,35,36,37,38,39,5600,704,672,736,5568,1,1,1,1,1,0,0,0,0,0,1376,1,1,608,640,1,1,1,480,1,1],"FLAG":0,"BASE":1}' 
+link: https://www.amazon.com/dp/B0F93TK7F5
+link2: https://www.amazon.de/dp/B0F93TK7F5
+link3: https://www.aliexpress.com/item/1005009203593172.html
+mlink: https://www.waveshare.com/esp32-s3-eth-8di-8ro.htm
+flash: serial
+category: relay
+type: Relay Board
+standard: global
+---
+You'll need to compile your own version of tasmota32-s3.bin as it uses drivers not present in the default binaries.
+
+It needs the following defines:
+`#define USE_TCA9554`
+
+`#define USE_RTC_CHIPS`
+
+`#define USE_PCF85363`
+
+Once installed add a rule to configure TCA9554 for relay control:
+
+```txt
+rule3 on file#tca9554.dat do {""NAME"":""TCA9554"",""GPIO"":[224,225,226,227,228,229,230,231]} endon
+```
+and execute command `SetOption37 24` to rearrange WS2812 color mapping.
