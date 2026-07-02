@@ -9,7 +9,7 @@ link2:
 mlink: https://www.olimex.com/Products/IoT/ESP32-C3/ESP32-C3-DevKit-Lipo/
 flash: serial
 category: diy
-type: DIY
+type: Development Board
 standard: global
 ---
 Documentation may be found here: https://github.com/OLIMEX/ESP32-C3-DevKit-Lipo

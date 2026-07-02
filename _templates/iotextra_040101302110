@@ -1,6 +1,6 @@
 ---
 date_added: 2026-03-06
-title: IoTextra Input
+title: IoTextra Input - Isolated 8 channel Digital Input Module
 model: 040101302110
 image: /assets/device_images/iotextra_040101302110.webp
 template9: '{"NAME":"IoTextra Input","GPIO":[1,1,166,165,164,167,1,1,1,160,161,640,608,1,1,1,1,162,163,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
@@ -9,7 +9,7 @@ link2:
 mlink: https://makethingshappy.io/products/iotextra-input
 flash: replace
 category: diy
-type: Development Board
+type: Adapter Board
 standard: global
 ---
 ### Overview

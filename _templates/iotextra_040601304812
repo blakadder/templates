@@ -1,6 +1,6 @@
 ---
 date_added: 2026-03-06
-title: IoTextra Combo
+title: IoTextra Combo 2-Channel Precision Analog Input & 2-Channel Relay
 model: 040601304812
 image: /assets/device_images/iotextra_040601304812.webp
 template9: '{"NAME":"IoTextra Combo","GPIO":[1,1,1,1,1,1,1,1,1,256,257,640,608,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1],"FLAG":0,"BASE":1}' 
@@ -8,8 +8,8 @@ link: https://makethingshappy.io/products/iotextra-combo
 link2: 
 mlink: https://makethingshappy.io/products/iotextra-combo
 flash: replace
-category: diy
-type: Development Board
+category: relay
+type: Relay Board
 standard: global
 ---
 ### Overview
