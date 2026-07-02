@@ -13,7 +13,8 @@ type: Display
 standard: global
 ---
 Display.ini:
-```
+
+```txt
 :H,ST7789,320,240,16,SPI,3,*,*,*,*,*,*,*,40
 :S,2,1,3,0,0,0
 :I

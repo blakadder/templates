@@ -13,7 +13,7 @@ standard: global
 ---
 Here is the required display.ini. It include both the ILI9341 screen and the XPT2046 touch configuration:
 
-```
+```txt
 :H,ILI9341,240,320,16,SPI,1,,,,,,,*,16
 :S,2,1,1,0,40,20
 :r,1
