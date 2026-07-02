@@ -1,0 +1,11 @@
+---
+date_added: 2026-06-26
+title: IoTextra Analog
+category: other
+type: Analog Expansion Module
+standard: global
+link: https://makethingshappy.io/products/iotextra-analog
+mlink: https://makethingshappy.io/g040401311
+image: /assets/device_images/iotextra_analog_v3.11.webp
+template: '{"NAME":"IoTextra Analog","GPIO":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,608,640,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+---

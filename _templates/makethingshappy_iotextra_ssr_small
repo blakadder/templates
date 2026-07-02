@@ -1,0 +1,11 @@
+---
+date_added: 2026-06-26
+title: IoTextra SSR Small
+category: other
+type: Digital Expansion Module
+standard: global
+link: https://makethingshappy.io/products/iotextra-ssr-small
+mlink: https://makethingshappy.io/g040203302
+image: /assets/device_images/iotextra_ssr_small_v3.02.webp
+template: '{"NAME":"IoTextra SSR Small","GPIO":[1,1,1,1,256,257,258,259,260,261,262,263,1,1,1,608,640,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":1}'
+---
