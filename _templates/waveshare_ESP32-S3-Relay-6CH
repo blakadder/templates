@@ -3,7 +3,7 @@ date_added: 2026-07-02
 title: Waveshare Industrial 6-Channel
 model: ESP32-S3-Relay-6CH
 image: /assets/device_images/waveshare_ESP32-S3-Relay-6CH.webp
-template9: '{"NAME":"Waveshare ESP32-S3-Relay-6CH","ARCH":"ESP32S3","GPIO":[1,224,225,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3200,3232,1,1,480,0,0,0,0,0,1376,1,1,226,227,0,1,228,229,1,1],"FLAG":0,"BASE":1}' 
+templates3: '{"NAME":"Waveshare ESP32-S3-Relay-6CH","ARCH":"ESP32S3","GPIO":[1,224,225,1,1,1,1,1,1,1,1,1,1,1,1,1,1,3200,3232,1,1,480,0,0,0,0,0,1376,1,1,226,227,0,1,228,229,1,1],"FLAG":0,"BASE":1}' 
 link: https://www.amazon.com/dp/B0CXPG4XGZ
 link2: https://www.amazon.de/dp/B0CXPG4XGZ
 link3: https://www.aliexpress.com/item/1005008719621881.html

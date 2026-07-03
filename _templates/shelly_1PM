@@ -7,7 +7,7 @@ standard: global
 flash: mgos
 mlink: 
 image: /assets/device_images/shelly_1PM.webp
-template: '{"NAME":"Shelly 1PM","GPIO":[56,0,8096,0,82,134,0,0,0,0,0,21,0],"FLAG":2,"BASE":18}' 
+template9: '{"NAME":"Shelly 1PM","ARCH":"ESP8266","GPIO":[320,0,8096,0,192,2720,0,0,0,0,0,224,0,4736],"FLAG":0,"BASE":18}'
 link: https://www.amazon.de/dp/B07QB2JBZC/ 
 link2: https://www.amazon.com/dp/B07RTH1D9M 
 link3: https://www.domadoo.fr/en/objets-communicants/5281-shelly-micromodule-commutateur-intelligent-wi-fi-shelly-1pm-3809511201985.html

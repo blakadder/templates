@@ -2,7 +2,7 @@
 date_added: 2026-04-03
 title: Cheap Yellow Display (CYD) 2 USB
 image: /assets/device_images/cyd.webp
-template9: '{"NAME":"ESP32-2432S028","GPIO":[6210,1,800,0,448,0,1,1,672,704,736,768,449,450,1,1,0,992,1,1,0,737,480,1,0,0,0,0,705,769,4768,1,0,0,0,673],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"ESP32-2432S028","GPIO":[6210,1,800,0,448,0,1,1,672,704,736,768,449,450,1,1,0,992,1,1,0,737,480,1,0,0,0,0,705,769,4768,1,0,0,0,673],"FLAG":0,"BASE":1}' 
 link: https://www.aliexpress.com/item/1005007730940177.html
 link2: 
 mlink: 
