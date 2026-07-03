@@ -6,7 +6,7 @@ category: diy
 type: Module
 standard: global
 image: /assets/device_images/ESP8684-WROOM-03.webp
-templatec2: '{"NAME":"ESP8684-WROOM-03","GPIO":[0,1,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1],"FLAG":0,"BASE":1}'
+templatec2: '{"NAME":"ESP8684-WROOM-03","ARCH":"ESP32C2","GPIO":[0,1,0,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1],"FLAG":0,"BASE":1}'
 mlink: 
 link: https://www.aliexpress.com/item/1005004815394120.html
 link2: https://www.amazon.in/dp/B0B6VXZ3QB
