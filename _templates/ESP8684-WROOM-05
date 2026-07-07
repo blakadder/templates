@@ -6,7 +6,7 @@ category: diy
 type: Module
 standard: global
 image: /assets/device_images/ESP8684-WROOM-05.webp
-templatec2: '{"NAME":"ESP8684-WROOM-05","GPIO":[0,0,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1],"FLAG":0,"BASE":1}'
+templatec2: '{"NAME":"ESP8684-WROOM-05","ARCH":"ESP32C2","GPIO":[0,0,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1],"FLAG":0,"BASE":1}'
 mlink: https://www.espressif.com/en/support/documents/technical-documents?keys=&field_type_tid%5B%5D=1139
 link: https://www.aliexpress.com/item/1005004827667639.html
 link2: https://www.aliexpress.com/item/1005004437164146.html
