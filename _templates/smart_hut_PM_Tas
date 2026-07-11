@@ -1,0 +1,19 @@
+---
+date_added: 2026-07-11
+title: Smart Hut Power Monitoring Plug
+model: Smart Hut PM Tas
+image: /assets/device_images/smart_hut_PM_Tas.webp
+templatec3: '{"NAME":"Smart Hut PM","GPIO":[0,0,0,2656,224,2624,320,2720,0,0,0,0,0,0,0,0,0,0,0,0,32,1],"FLAG":0,"BASE":1}'
+link: https://thesmarthut.com/products/power-monitoring-smart-plug-preflashed-preconfigured
+link2:
+mlink: https://thesmarthut.com/products/power-monitoring-smart-plug-preflashed-preconfigured
+flash: preflashed
+category: plug
+type: Plug
+standard: uk
+chip: ESP32-C3
+---
+
+This UK Type G smart plug is supplied preflashed and preconfigured with Tasmota or ESPHome. It uses an ESP32-C3 with 4 MB flash and BL0937 power monitoring.
+
+Case is glued shut and there is no direct serial port access. Flashing and firmware changes are done over Wi-Fi.
