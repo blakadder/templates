@@ -1,18 +1,23 @@
 ---
 date_added: 2023-12-22
 title: Shelly Pro 3
-model: 3800235268094
+category: relay
+type: Relay Module
+standard: global
 image: /assets/device_images/shelly_pro_3.webp
-template32: '{"NAME":"ShellyPro3","GPIO":[1,1,224,1,225,1,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,226,1,96,1,4736,97,162,1],"FLAG":0,"BASE":1}' 
+template32: '{"NAME":"ShellyPro3","GPIO":[0,0,224,0,225,5536,0,0,418,416,417,0,0,0,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,226,0,160,32,4736,161,162,0],"FLAG":0,"BASE":1}' 
 link: https://www.domadoo.fr/en/objets-communicants/6357-shelly-3-channels-din-rail-relay-switch-with-wi-fi-dry-contact-3800235268094.html
 link2: https://www.amazon.de/dp/B0BHKWSGPB/
 link3: https://www.aliexpress.com/i/1005005103917464.html
 link4: https://www.reichelt.com/ie/en/shelly-pro-3-three-phase-3-channel-relay-shelly-pro-3-p335405.html
 link5: https://www.conrad.de/de/p/shelly-pro-3-schaltaktor-wi-fi-bluetooth-2757299.html
-mlink: https://www.shelly.com/en-de/products/product-overview/shelly-pro-3
+mlink: https://www.shelly.com/products/shelly-pro-3
 flash: serial
 category: relay
 type: Relay
 standard: eu
 ---
+
+Shelly Pro 3 module with 8 MiB QIO Serial Flash.
+
 [https://github.com/arendst/Tasmota/discussions/20230](https://github.com/arendst/Tasmota/discussions/20230)
