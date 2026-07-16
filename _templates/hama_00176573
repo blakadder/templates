@@ -14,4 +14,4 @@ type: Plug
 standard: eu
 chip: TYWE2S
 ---
-The decive is hard to open - no screws - case is glued. After opening the case main PCB requires first to unsolder the two female power pins. Remove the main PCB and you get access to the TYWE2S WiFi Module. Solder 4 wires (Vcc, GND, Rx, Tx) to the board, put GPIO 0 on TYWE2S to GND, and apply 3.3 V power for flashing.
+The decive is nearly impossible to open without major calamities - no screws - case is glued. Best appoach may be to sewer the case 7 mm from the underside, that's 1 mm below the switch. Don't cut deeper than 2 mm as electonic components live near the edge of the PCB. After opening the case main PCB requires first to unsolder the two female power pins. Remove the main PCB and you get access to the TYWE2S WiFi Module. Solder 4 wires (Vcc, GND, Rx, Tx) to the board, put GPIO 0 on TYWE2S to GND, and apply 3.3 V power for flashing.
