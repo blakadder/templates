@@ -1,0 +1,57 @@
+---
+date_added: 2026-10-22
+title: Inswift Ethernet Zigbee Gateway CC2652P / CC2652P7
+model: ETH-52P / ETH-52P7
+image: /assets/device_images/inswift_ETH-52P.webp
+template32: '{"NAME":"Inswift ETH-52P","ARCH":"ESP32","GPIO":[0,0,418,0,416,5536,0,0,3840,5504,417,5792,0,5472,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"EthType 1|EthAddress 1|EthClockMode 0|Ethernet 1"}' 
+link: https://www.aliexpress.com/store/1104754391
+mlink: https://www.inswift.tech/en/products/eth-52p/
+flash: serial
+category: misc
+type: Zigbee Gateway
+standard: global
+build: tasmota32-zbbrdgpro
+---
+ESP32-V3 host with a TI CC2652P (ETH-52P) or CC2652P7 (ETH-52P7) Zigbee radio, IP101 Ethernet PHY, Wi-Fi and USB-C. Both variants share the ESP32 pinout.
+
+The device ships with Inswift's own firmware. Tasmota is an optional alternative for the ESP32: it bridges the CC2652 UART to TCP so ZHA or Zigbee2MQTT can use the gateway over the network. Zigbee2Tasmota, Zigbee Rst 2 and flashing the CC2652 from Tasmota have not been tested on this device.
+
+## Flashing
+
+Flash **Tasmota32 Sonoff-ZigbeeBridgePro** (`tasmota32-zbbrdgpro`) over USB-C with the [Tasmota web installer](https://tasmota.github.io/install/) or esptool. This build includes Ethernet and the TCP serial bridge.
+
+## Configuration
+
+Apply the template, then run:
+
+```console
+Backlog TCPBaudRate 115200; TCPConfig 8N1; Rule1 ON System#Boot DO TCPStart 6638 ENDON; Rule1 1; Restart 1
+```
+
+If Ethernet does not come up after applying the template:
+
+```console
+Backlog EthType 1; EthAddress 1; EthClockMode 0; Ethernet 1
+```
+
+Port 6638 matches the stock Inswift firmware. The CC2652 runs Z-Stack coordinator firmware at 115200 baud, no flow control.
+
+**GPIO12 (BSL) must be Output Hi.** The CC2652 bootloader pin idles high, which is the opposite of the Inswift ETH-MG, so do not reuse the ETH-MG template on this device.
+
+| GPIO | Function |
+|------|----------|
+| 0 | Ethernet clock in |
+| 2 / 4 / 14 | RGB LED blue / red / green (PWM) |
+| 5 | ETH POWER |
+| 12 | Output Hi (CC2652 BSL) |
+| 13 / 17 | TCP Rx / TCP Tx (CC2652 UART) |
+| 15 | Zigbee Rst 1 (CC2652 nRESET) |
+| 18 / 23 | ETH MDIO / ETH MDC |
+| 34 | Button_n 1 |
+
+## Home Assistant
+
+- Zigbee2MQTT: `port: tcp://GATEWAY_IP:6638`, `adapter: zstack`, `baudrate: 115200`
+- ZHA: radio type ZNP, serial device path `socket://GATEWAY_IP:6638`
+
+[Zigbee2MQTT setup](https://www.inswift.tech/en/tutorials/zigbee2mqtt-setup/) · [ZHA setup](https://www.inswift.tech/en/tutorials/zha-home-assistant/) · [Inswift Tasmota notes](https://github.com/Inswift-dev/inswift-eth/tree/main/tasmota/eth-52p)

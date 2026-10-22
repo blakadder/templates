@@ -1,0 +1,57 @@
+---
+date_added: 2026-10-22
+title: Inswift Ethernet Zigbee Gateway EFR32MG21 / EFR32MG24
+model: ETH-MG21 / ETH-MG24
+image: /assets/device_images/inswift_ETH-MG.webp
+template32: '{"NAME":"Inswift ETH-MG","ARCH":"ESP32","GPIO":[0,0,418,0,416,5536,0,0,0,5504,417,5792,0,5472,5600,0,0,0,0,5568,0,0,0,0,0,0,0,0,0,3872,64,0,0,0,0,0],"FLAG":0,"BASE":1,"CMND":"EthType 1|EthAddress 1|EthClockMode 0|Ethernet 1"}' 
+link: https://www.aliexpress.com/store/1104754391
+mlink: https://www.inswift.tech/en/products/eth-mg/
+flash: serial
+category: misc
+type: Zigbee Gateway
+standard: global
+build: tasmota32-zbbrdgpro
+---
+ESP32-V3 host with a Silicon Labs EFR32MG21 (ETH-MG21) or EFR32MG24 (ETH-MG24) Zigbee radio, IP101 Ethernet PHY, Wi-Fi and USB-C. The PoE variants [ETH-MG21 POE / ETH-MG24 POE](https://www.inswift.tech/en/products/eth-mg-poe/) use the same pinout.
+
+The device ships with Inswift's own firmware. Tasmota is an optional alternative for the ESP32: it bridges the EFR32 UART to TCP so ZHA or Zigbee2MQTT can use the gateway over the network. Zigbee2Tasmota has not been tested on this device.
+
+## Flashing
+
+Flash **Tasmota32 Sonoff-ZigbeeBridgePro** (`tasmota32-zbbrdgpro`) over USB-C with the [Tasmota web installer](https://tasmota.github.io/install/) or esptool. This build includes Ethernet and the TCP serial bridge.
+
+## Configuration
+
+Apply the template, then run:
+
+```console
+Backlog TCPBaudRate 115200; TCPConfig 8N1; Rule1 ON System#Boot DO TCPStart 6638 ENDON; Rule1 1; Restart 1
+```
+
+If Ethernet does not come up after applying the template:
+
+```console
+Backlog EthType 1; EthAddress 1; EthClockMode 0; Ethernet 1
+```
+
+Port 6638 matches the stock Inswift firmware. The EFR32 runs EmberZNet NCP firmware at 115200 baud, no flow control.
+
+**GPIO33 (BSL) must be Output Lo.** Do not set it to Zigbee Rst 2: the bootloader polarity is the opposite of the Sonoff ZBBridge Pro, and Zigbee Rst 2 can leave the EFR32 stuck in its bootloader.
+
+| GPIO | Function |
+|------|----------|
+| 0 | Ethernet clock in |
+| 2 / 4 / 14 | RGB LED blue / red / green (PWM) |
+| 5 | ETH POWER |
+| 13 / 17 | TCP Rx / TCP Tx (EFR32 UART) |
+| 15 | Zigbee Rst 1 (EFR32 nRESET) |
+| 18 / 23 | ETH MDIO / ETH MDC |
+| 33 | Output Lo (EFR32 BSL) |
+| 34 | Button_n 1 |
+
+## Home Assistant
+
+- Zigbee2MQTT: `port: tcp://GATEWAY_IP:6638`, `adapter: ember`, `baudrate: 115200`
+- ZHA: radio type EZSP, serial device path `socket://GATEWAY_IP:6638`
+
+[Zigbee2MQTT setup](https://www.inswift.tech/en/tutorials/zigbee2mqtt-setup/) · [ZHA setup](https://www.inswift.tech/en/tutorials/zha-home-assistant/) · [Inswift Tasmota notes](https://github.com/Inswift-dev/inswift-eth/tree/main/tasmota/eth-mg)
