@@ -1,0 +1,69 @@
+---
+date_added: 2026-11-03
+title: Renpho 300ml Essential Oil
+model: RF-SM001
+image: /assets/device_images/renpho_RF-SM001.webp
+template9: '{"NAME":"Renpho RF-SM001","ARCH":"ESP8266","GPIO":[32,0,0,0,0,288,0,0,0,2304,0,2272,0,0],"FLAG":0,"BASE":54}'
+link: https://www.aliexpress.com/item/4000187250861.html
+mlink: https://renpho.com/
+flash: serial
+category: misc
+type: Aroma Diffuser
+standard: global
+---
+
+## Overview
+
+300ml Wood-Grain Ultrasonic Wi-Fi Essential Oil Diffuser sold under **Renpho RF-SM001** (and generic AliExpress branding) using a Tuya MCU (`{"p":"toTWMiKOgG530avJ","v":"1.0.0","m":0}`) communicating over UART at 9600 bps (`GPIO13` = Tuya Rx, `GPIO15` = Tuya Tx).
+
+## Tuya MCU Data Points (dpId)
+
+| dpId | Type | Function | Values |
+| --- | --- | --- | --- |
+| `123` (`0x7B`) | `4` (Enum) | Mist Strength | `0` = Low, `1` = High (Middle physical button) |
+| `124` (`0x7C`) | `4` (Enum) | Timer Mode | `0` = 1H, `1` = 3H, `2` = 6H, `3` = Continuous ON |
+| `125` (`0x7D`) | `1` (Bool) | LED Ring Power | `0` = OFF, `1` = ON (Left physical button) |
+| `126` (`0x7E`) | `4` (Enum) | LED Base Colour | `0..7` (8 base colours; sets `dpId 129` to `2` automatically) |
+| `127` (`0x7F`) | `1` (Bool) | Mist Power | `0` = OFF, `1` = ON (Right physical button) |
+| `128` (`0x80`) | `5` (Fault) | Water Level Alert | `0x00` = Normal, `0x01` = Out of Water |
+| `129` (`0x81`) | `4` (Enum) | LED Mode | `0` = Auto-Cycle, `1` = White, `2` = Fixed Colour |
+| `130` (`0x82`) | `4` (Enum) | LED Brightness Shade | `0` = Dim, `1` = Bright (`8 colours × 2 shades = 16 LED states`) |
+| `131` (`0x83`) | `2` (Value) | Remaining Timer (sec) | `0..21600` seconds (Do **not** map to `fnId 81` in Tasmota <= 16.0.0; values `>= 10000` overflow `char tempval[5]`) |
+
+## Configuration
+
+After applying the template, run the following commands in the Tasmota Console:
+
+### 1. Map TuyaMCU Functions and UI Labels
+
+```console
+Backlog LedState 0; LedPower 0; TuyaMCU 11,127; TuyaMCU 12,212; TuyaMCU 13,213; TuyaMCU 14,214; TuyaMCU 15,125; TuyaMCU 21,221; TuyaMCU 24,224; TuyaMCU 25,225; TuyaMCU 61,124; TuyaMCU 62,123; TuyaMCU 63,126; TuyaMCU 64,129; TuyaMCU 81,0
+```
+
+After the device restarts, configure the enum ranges and Web UI button names:
+
+```console
+Backlog TuyaEnumList 1,3; TuyaEnumList 2,1; TuyaEnumList 3,7; TuyaEnumList 4,2; WebButton1 Mist; WebButton2 High Mist; WebButton3 Timer; WebButton4 Cycle LED; WebButton5 LED; FriendlyName1 Mist; FriendlyName2 High Mist; FriendlyName3 Timer; FriendlyName4 Cycle LED; FriendlyName5 LED
+```
+
+### 2. Configure Rules (Buttons, Timer, Water Alert, and 16-Colour Slider)
+
+> **Important MCU Note**: On boot, this MCU queries local time (`0x1C`). If Tasmota replies with a year `>= 2020`, the MCU firmware locks up its UART parser for ~3.5 minutes. `Rule1` sets Tasmota's clock to 2016 (`Time 1451602800`) during the `0x1C` handshake so the MCU initializes immediately.
+
+```console
+Rule1 ON System#Init DO Backlog Time 1451602800; Var1 1 ENDON ON TuyaReceived#Cmnd=28 DO Time 1451602800 ENDON ON TuyaReceived#DpType5Id128=0x01 DO Publish stat/%topic%/WATER_ALERT ON ENDON ON TuyaReceived#DpType5Id128=0x00 DO Publish stat/%topic%/WATER_ALERT OFF ENDON ON Power2#State DO Backlog Delay 3; TuyaSend4 123,%value% ENDON ON Power3#State DO Backlog Delay 3; TuyaSend4 124,%var1% ENDON ON TuyaReceived#DpType4Id124==0 DO Var1 1 ENDON ON TuyaReceived#DpType4Id124==1 DO Var1 2 ENDON
+```
+
+```console
+Rule2 ON TuyaReceived#DpType4Id124==2 DO Var1 3 ENDON ON TuyaReceived#DpType4Id124==3 DO Var1 0 ENDON ON Power4#State==1 DO Backlog Delay 3; TuyaSend1 125,1; TuyaSend4 129,0 ENDON ON Power4#State==0 DO Backlog Delay 3; TuyaSend4 129,2 ENDON ON Var2#State DO Backlog Delay 3; TuyaSend4 126,%value%; TuyaSend4 130,1 ENDON ON Var3#State DO Backlog Delay 3; TuyaSend4 126,%value%; TuyaSend4 130,0 ENDON
+```
+
+```console
+Rule3 ON UptimeSec>=0 DO Var4 0 BREAK ON HSBColor<23 DO Var2 0 BREAK ON HSBColor<45 DO Var3 0 BREAK ON HSBColor<68 DO Var2 1 BREAK ON HSBColor<90 DO Var3 1 BREAK ON HSBColor<113 DO Var2 2 BREAK ON HSBColor<135 DO Var3 2 BREAK ON HSBColor<158 DO Var2 3 BREAK ON HSBColor<180 DO Var3 3 BREAK ON HSBColor<203 DO Var2 4 BREAK ON HSBColor<225 DO Var3 4 BREAK ON HSBColor<248 DO Var2 5 BREAK ON HSBColor<270 DO Var3 5 BREAK ON HSBColor<293 DO Var2 6 BREAK ON HSBColor<315 DO Var3 6 BREAK ON HSBColor<338 DO Var2 7 BREAK ON HSBColor>=338 DO Var3 7 BREAK
+```
+
+Enable all three rules:
+
+```console
+Backlog Rule1 1; Rule2 1; Rule3 1
+```
